@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Als Adobe Workfront-beheerder moet u mogelijk Workfront openen namens een andere gebruiker.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
 
 # Aanmelden als een andere gebruiker
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td> <p>Nieuw: Standaard</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -75,6 +77,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aanmelden en acties uitvoeren als een andere gebruiker
 
@@ -146,7 +150,7 @@ Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsda
 
 Wanneer u zich bij Workfront als een andere gebruiker aanmeldt en een actie uitvoert, geeft Workfront duidelijk aan dat u elke actie uitvoert namens de gebruiker die u als gebruiker bent aangemeld.
 
-Als u bijvoorbeeld een opmerking maakt over een item terwijl u zich als een andere gebruiker hebt aangemeld, geeft een instructie aan dat de opmerking door u namens de gebruiker is gemaakt.
+Bijvoorbeeld, als u op een punt terwijl het programma geopend als een andere gebruiker opmerkt, wijst een verklaring erop dat de commentaar door u namens de gebruiker werd gemaakt toen het bekijken van de sectie van Updates van een voorwerp.
 
 ### Controlegegevens weergeven {#view-audit-information}
 

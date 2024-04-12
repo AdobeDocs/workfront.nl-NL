@@ -5,42 +5,46 @@ product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Door het systeem bijgehouden updates
 description: Adobe Workfront legt de activiteit vast die plaatsvindt op bepaalde objecten door statusinformatie te registreren in de [!UICONTROL Updates] gebied.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 # Door het systeem bijgehouden updates
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+<!-- Audited: April, 2024-->
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] legt de activiteit vast die op bepaalde voorwerpen door statusinformatie in de objecten te registreren plaatsvindt [!UICONTROL Updates] gebied.
+[!DNL Adobe Workfront] legt de activiteit vast die op bepaalde voorwerpen door statusinformatie in de objecten te registreren plaatsvindt [!UICONTROL Updates] sectie.
+
+Voor informatie over de sectie van Updates, zie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 De [!UICONTROL Updates] omvat de volgende typen updates:
 
-* **Gebruikers: updates:** Handmatig ingevoerd door gebruikers. Wordt ook opmerkingen, antwoorden en notities genoemd.
+* **Gebruikers: updates:** Handmatig ingevoerd door gebruikers. Wordt ook opmerkingen, antwoorden en notities genoemd. De updates van de gebruiker tonen in de Commentaren en Alle lusjes van de sectie van Updates van een voorwerp.
 
   Voor meer informatie over het configureren van gebruikersupdates raadpleegt u [Voorkeuren voor gebruikersupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Systeemupdates:** Automatisch gemaakt door het systeem. Een systeemupdate bevat een korte beschrijving van het type wijziging dat met het item is opgetreden.
+* **Systeemupdates:** Automatisch gemaakt door het systeem. Een systeemupdate bevat een korte beschrijving van het type wijziging dat met het item is opgetreden. De updates van het systeem tonen in de Activiteit van het Systeem en de Alle lusjes van de sectie van Updates van een voorwerp.
 
   Voor meer informatie over de feeds van systeemupdates en hoe te om hen toe te laten, zie [Systeemupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
+
 
   <!--
   DRAFTED IN FLARE:
@@ -90,28 +94,30 @@ Door het systeem bijgehouden updates zijn niet beschikbaar voor alle objecten di
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Hieronder ziet u de verschillen tussen de nieuwe en de oudere opmerkingervaring:
+* De updates van de gebruiker tonen op het lusje van Commentaren en systeemupdates tonen in de Activiteit van het Systeem en de Alle lusjes.
 
-   * Wanneer u de nieuwe opmerkingervaring gebruikt, worden gebruikersupdates weergegeven op het tabblad Opmerkingen en worden systeemupdates weergegeven in de Systeemactiviteit <span class="preview">en de</span> tabs.
+  Voor een lijst met objecten die niet over de tabbladen Systeemactiviteit of Alle beschikken, raadpleegt u [Overzicht van de sectie Bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
-     Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* U kunt geen antwoord toevoegen aan een systeemupdate. Alle antwoorden die vóór 11 april 2024 in de oudere opmerkingervaring naar de systeemactiviteitenrecords zijn verzonden, worden echter als alleen-lezen ingevuld op het tabblad Systeemactiviteit.
 
-     <span class="preview">Voor een lijst met objecten die niet over de tabbladen Systeemactiviteit of Alle beschikken, raadpleegt u [Overzicht van de sectie Bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+<!--
+* The following are differences between the new and the legacy commenting experience: 
 
-   * <span class="preview">Als u de nieuwe opmerkingervaring gebruikt, kunt u geen opmerkingen toevoegen aan een systeemupdate. Antwoorden die in de oudere opmerkingervaring aan de systeemactiviteitenrecords zijn toegevoegd, worden echter op het tabblad Systeemactiviteit als alleen-lezen ingevuld in de nieuwe opmerkingervaring.</span>
-   * Als u de oudere opmerkingervaring gebruikt, worden het systeem en de gebruikersupdates in één doorlopende feed weergegeven.
+   * When using the new commenting experience, user updates display in the Comments tab and system updates display in the System Activity <span class="preview">and the All</span> tabs.  
 
-   * Als gebruikers de oudere opmerkingervaring gebruiken, kunnen ze systeemupdates standaard bekijken of ze kunnen ervoor kiezen deze niet weer te geven. Het is niet mogelijk systeemupdates uit te schakelen wanneer u de nieuwe opmerkingervaring gebruikt.
+      For more information about the new commenting experience, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-     Zie de sectie voor informatie over het uitschakelen van de weergave van systeemupdates [Systeemupdates in- of uitschakelen](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in het artikel [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      <span class="preview">For a list of objects that do not have the System Activity or the All tabs, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
 
-   * <span class="preview">De oudere opmerkingervaring is uitgeschakeld in de voorvertoningsomgeving. Zie voor meer informatie [Tweede kwartaal 2024: Verbeteringen op gebied van updatestroom en meldingen](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
+   * <span class="preview">When using the new commenting experience, you cannot add a comment to a system update. However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only in the new commenting experience.</span>
+   * When using the legacy commenting experience, the system and user updates display in one continuous feed. 
 
-* Workfront registreert door het systeem bijgehouden updates voor de volgende objecten, maar er is geen optie om de weergave ervan uit te schakelen:
+   * When using the legacy commenting experience, users can view system updates by default or they can choose to not display them. Disabling system updates is not possible when using the new commenting experience. 
 
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL Program]
-   * [!UICONTROL Iteration]
+      For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
+
+   * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
+-->
 
 * [!DNL Workfront] beheerders kunnen bepalen welk type van veranderingen het systeem in zou moeten volgen [!UICONTROL Updates] gebied. Niet alle objecten met een [!UICONTROL Updates] gebied ook configureerbaar [!UICONTROL update] feeds. De volgende objecten hebben een [!UICONTROL Updates] gebied dat door het systeem bijgehouden updateffeeds vastlegt, maar geen configureerbare bijwerkingsfeeds heeft:
 

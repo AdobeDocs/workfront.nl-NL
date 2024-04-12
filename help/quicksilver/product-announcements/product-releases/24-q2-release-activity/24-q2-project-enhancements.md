@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024).
+>Voorvertoningsrelease: 13 februari 2024; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: vast te stellen.
 
 <span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span>
 
@@ -39,7 +39,7 @@ Zie voor meer informatie [Overzicht van slimme toewijzingen](/help/quicksilver/m
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 december 2023; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: met de release van 24.4 (11 april 2024).
+>Voorvertoningsrelease: 21 december 2023; productie voor snelle release: met de release van 24.3 (14 maart 2024); productie voor alle klanten: vast te stellen.
 
 <span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span>
 

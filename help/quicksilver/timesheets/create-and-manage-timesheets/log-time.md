@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '3520'
+source-wordcount: '3571'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Licht of hoger</p>
-   <p>Huidige: 
+   <td> <p>Nieuw: 
+   <ul><li>Licht of hoger aan logboek Algemene Uren in een timsheet</li>
+   <li>Norm om uren op een project, een taak, of een kwestie te registreren</li></ul>
+
+
+<p>Huidige: 
    <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
    <li>Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul> </td> 
   </tr> 
@@ -334,7 +338,7 @@ Zie de volgende secties voor algemene informatie over het gebruik van het gebied
 
 #### De tijd van het logboek op een het werkpunt van het nieuwe gebied van het Huis
 
-U kunt de tijd aan om het even welke voorwerpen in om het even welke widgets registreren gebruikend het Summiere paneel. Zie voor meer informatie de [Het deelvenster Samenvatting](#summary-panel) in dit artikel.
+U kunt de tijd aan taken en kwesties in om het even welke widgets registreren gebruikend het Summiere paneel in het gebied van het Huis. Zie voor meer informatie de [Het deelvenster Samenvatting](#summary-panel) in dit artikel.
 
 Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn werk:
 
@@ -346,6 +350,8 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Klikken **Logtijd**.
+
+   De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
 
 #### De tijd van het logboek op een het werkpunt van het erfenisHuis
 
@@ -359,6 +365,8 @@ Daarnaast kunt u als volgt de tijd vastleggen voor een item in de widget Mijn we
 1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie **Taken handmatig toewijzen aan uren** Selecteer een taakrol in het keuzemenu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Raadpleeg het artikel voor meer informatie over deze instelling [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Geef de tijd op die u wilt vastleggen en klik vervolgens op **Logtijd**.
 
+   De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
+
 ### Project, taak of uitgave {#project-task-or-issue}
 
 U kunt projectspecifieke tijd op een project, een taak, of een kwestie in de volgende secties registreren:
@@ -370,11 +378,9 @@ U kunt projectspecifieke tijd op een project, een taak, of een kwestie in de vol
 
 Om tijd in de sectie van Updates van een project, een taak, of een kwestie te registreren, moet u het volgende hebben:
 
-* Een licentie voor werken of plannen.
-* Draag of hogere toestemmingen aan het project, de taak, of de kwestie met toegang tot de Uren van het Logboek bij.\
-  Voor meer informatie over het verlenen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* De juiste toegang en machtigingen, zoals beschreven in het dialoogvenster [Toegangsvereisten](#access-requirements) in dit artikel.
 
-* Uw Workfront-beheerder moet de logtijd rechtstreeks inschakelen voor projecten die zijn ingesteld onder [!UICONTROL **Tijdschema en uren**]> [!UICONTROL **Voorkeuren**], als u tijd aan een project direct wilt registreren.
+* Uw Workfront-beheerder moet de logtijd rechtstreeks inschakelen voor projecten die zijn ingesteld onder [!UICONTROL **Tijdschema en uren**]> [!UICONTROL **Voorkeuren**] in het gebied van het Systeem, als u tijd aan een project direct wilt registreren.
 
   Voor meer informatie over het toestaan van gebruikers om uren aan projecten direct te registreren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -406,6 +412,8 @@ Om tijd in de sectie van Updates van een project, een taak, of een kwestie te re
 
 1. Klikken **Logtijd**.
 
+   De geregistreerde tijdvertoningen in de sectie van de Uren van de objecten, en in uw timesheet.
+
 #### Uren, sectie{#hours-section}
 
 U moet een beheerder van Workfront zijn om tijd voor projecten, taken, en kwesties in de sectie van Uren te registreren,
@@ -416,7 +424,7 @@ U moet alle volgende opties hebben:
 
 * Een licentie voor abonnementen met beheerdersrechten voor timesheets en -uren. Voor meer informatie over het verlenen van administratieve toegang tot Tijdopnamen &amp; uren, zie [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * Draag of hogere toestemmingen aan het project met toegang tot de Uren van het Logboek bij. Voor meer informatie over het verlenen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Uw Workfront-beheerder moet de logtijd rechtstreeks inschakelen voor projecten die zijn ingesteld onder Tijdschema en Uren > Voorkeuren als u de tijd rechtstreeks wilt aanmelden bij een project. Voor meer informatie over het toestaan van gebruikers om uren aan projecten direct te registreren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* De Workfront-beheerder moet de logtijd rechtstreeks inschakelen voor projecten die in het dialoogvenster **Tijdschema en uren > Voorkeuren** sectie van het gebied van de Opstelling, als u tijd aan een project direct wilt registreren. Voor meer informatie over het toestaan van gebruikers om uren aan projecten direct te registreren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Om tijd in de sectie van Uren van een project, een taak, of een kwestie te registreren:
 

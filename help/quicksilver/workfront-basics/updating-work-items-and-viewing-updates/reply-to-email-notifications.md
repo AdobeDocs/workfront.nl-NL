@@ -6,14 +6,16 @@ description: U kunt reageren op Workfront-e-mailmeldingen die zijn gegenereerd v
 author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # E-mailberichten beantwoorden
+
+<!-- Audited: April 2024-->
 
 Afhankelijk van de configuratie van uw e-mailberichten, ontvangt u mogelijk een e-mailmelding wanneer een update wordt uitgevoerd naar bepaalde objecten waartoe u toegang hebt.
 
@@ -49,25 +51,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Vragen of hoger voor problemen en documenten; controleren of hoger voor alle andere objecten</p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger voor uitgaven en documenten; licht of hoger voor alle andere objecten</p>
+   <p>Huidig: Verzoek of hoger voor uitgaven en documenten; Controleren of hoger voor alle andere objecten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Aanvrager of hoger voor uitgaven en documenten; revisor of hoger voor alle andere objecten</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
+   <td> <p>Toegang tot de objecten weergeven waar u het antwoord wilt plaatsen of vergroten</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Toegang tot het object weergeven</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td role="rowheader"><strong>Objectmachtiging</strong></td> 
+   <td> <p>Machtigingen weergeven of hoger voor de objecten waar u het antwoord wilt plaatsen</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten voor Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Reageren op een update van een e-mailbericht
 

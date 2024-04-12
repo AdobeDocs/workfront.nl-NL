@@ -7,18 +7,18 @@ description: Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Overzicht van documenten
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst werken met belangrijke informatie.
+Met het deelvenster Samenvatting kunt u belangrijke gegevens rechtstreeks vanuit de documentenlijst openen en bijwerken.
 
 ## Toegangsvereisten
 
@@ -31,25 +31,27 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger</p> 
+   <p>Huidig: Verzoek of hoger</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven tot het object dat is gekoppeld aan het document</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang weergeven tot het object dat is gekoppeld aan het document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De overzichtsweergave openen
 
@@ -67,7 +69,7 @@ In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en commu
 * [Overzicht](#overview)
 * [Aangepaste Forms](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Overzicht {#overview}
 
@@ -79,18 +81,13 @@ Vouw de sectie Overzicht uit om een miniatuur van een afbeelding weer te geven o
 
 Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Zie voor meer informatie [Een aangepast formulier toevoegen aan of bewerken in een document](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Updates
 
 In de sectie Updates kunt u een update lezen van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Zie voor meer informatie over updates [Opmerking over een proefdruk](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## Goedkeuringen
 
@@ -101,7 +98,7 @@ Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. 
 * [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versies
 
@@ -113,4 +110,4 @@ In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald do
 * Ga naar Documentdetails
 * Een proefdruk of document verwijderen
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

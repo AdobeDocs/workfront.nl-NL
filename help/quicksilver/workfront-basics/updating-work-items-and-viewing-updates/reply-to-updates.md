@@ -8,58 +8,46 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
 # Reageren op updates
 
-<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
+<!-- Audited: April 2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
--->
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
-
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 >[!IMPORTANT]
 >
->De ervaring met opmerkingen wordt momenteel opnieuw ontworpen in Adobe Workfront.
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->Afhankelijk van de objecten waarvoor u de opmerkingervaring opent, ziet u mogelijk de volgende functionaliteit voor de sectie Updates:
->* De nieuwe ervaring
->* De oudere ervaring
->* De nieuwe en oudere ervaring
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->Ga voor meer informatie over de nieuwe opmerkingervaring en de beschikbaarheid ervan naar [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> De oudere ervaring met opmerkingen is verwijderd uit projecten, taken, problemen en documenten in de voorvertoningsomgeving. </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->De nieuwe ervaring met opmerkingen is alleen beschikbaar voor de sectie Updates van Workfront-objecten. Deze ervaring is niet beschikbaar wanneer u updates opent vanuit de volgende gebieden:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
-> * Samenvattingspaneel in lijsten
-> * Samenvattingspaneel in tijdbladen
-> * Het deelvenster Overzicht in het deelvenster Werklastverdeling
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">De nieuwe ervaring met opmerkingen is beschikbaar in het deelvenster Samenvatting in lijsten, tijdbladen en werklastbalans in de voorvertoningsomgeving en in de productieomgeving voor klanten die voor het snelle releaseproces hebben gekozen. </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
+-->
 
-Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de sectie van Updates voor het voorwerp.
+Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de Commentaren en Al lusje in de sectie van Updates voor het voorwerp.
 
 >[!IMPORTANT]
 >
->Het is niet mogelijk te reageren op systeemupdates in de nieuwe opmerkingervaring. Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Het is niet mogelijk te antwoorden op systeemupdates op het tabblad Systeemactiviteit. Alle antwoorden op systeemupdates die vóór 11 april 2024 in de oudere opmerkingervaring zijn gemaakt, worden weergegeven als alleen-lezen.
 
 <!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
@@ -72,27 +60,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Vragen of hoger voor problemen en documenten; controleren of hoger voor alle andere objecten</p> </td> 
+   <td> <p>Nieuw: Medewerker of hoger voor uitgaven en documenten; licht of hoger voor alle andere objecten</p> 
+   <p>Huidig: Verzoek of hoger voor uitgaven en documenten; Controleren of hoger voor alle andere objecten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Aanvrager of hoger voor uitgaven en documenten; revisor of hoger voor alle andere objecten</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
+   <td> <p>Toegang weergeven of bewerken voor het object waarop de update betrekking heeft</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Toegang tot het object weergeven</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het object weergeven</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten voor Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Reageren op een update of een antwoord in Workfront
 
@@ -100,16 +87,14 @@ U kunt reageren op een opmerking in de thread van een object dat u kunt weergeve
 
 Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het object dat u selecteert.
 
-### Reageren op een opmerking bij gebruik van de nieuwe opmerkingervaring
-
-Ga voor meer informatie over de functies die beschikbaar zijn in de nieuwe opmerkingervaring en voor welke objecten [Nieuwe ervaring met opmerkingen](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+### Een opmerking beantwoorden
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
 1. Klikken **Updates** en klik vervolgens op de knop **Opmerkingen** tabblad voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren
 
    of
 
-   <span class="preview">Klik op de knop **Alles** tab, en klik vervolgens op **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen en erop te reageren. U kunt niet reageren op het tabblad Alles.</span>
+   Klik op de knop **Alles** tab, en klik vervolgens op **Reageren in opmerkingen** om de opmerking te openen op het tabblad Opmerkingen en erop te reageren. U kunt niet reageren op het tabblad Alles.
 
 1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** in de rechterbovenhoek van de opmerking waarop u wilt reageren, klikt u op **Offerteantwoord**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. Klikken **Antwoord**.
@@ -128,25 +113,28 @@ Ga voor meer informatie over de functies die beschikbaar zijn in de nieuwe opmer
 
 1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking waarop u wilt reageren voor meer opties voor het beheren van de reactie. Zie voor meer informatie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
-### Reageren op een update of antwoord in de sectie Oudere updates
+<!--
+### Reply to an update or reply in the legacy Updates section
 
-1. Ga naar het object waaraan u een antwoord wilt toevoegen.
-1. Op de **Updates** zoekt u de update of het antwoord waarop u wilt antwoorden.
+1. Go to the object to which you want to add a reply.
+1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
 
-1. (Optioneel) Voer een van de volgende handelingen uit om een afbeelding weer te geven in de bestaande update:
+1. (Optional) To view an image in the existing update do one of the following:
 
-   * Klik op de knop **Voorvertoning** pictogram ![](assets/previewimageicon-31x31.png) op de miniatuur van de afbeelding om de afbeelding op volledige grootte te openen in een nieuw browsertabblad.
-   * Klik op de knop **Downloaden** pictogram ![](assets/downloadimageicon.png) op de miniatuur van de afbeelding om de afbeelding te downloaden.
+   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
-1. Klikken **Antwoord** in de update typt u een antwoord in het vak dat wordt weergegeven.
+1. Click **Reply** on the update, then type a reply in the box that appears.
 
-   U kunt de gebruikers zien die actief in het gesprek betrokken zijn of in elk antwoord bij de bovenkant van die updatedraad geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   You can see the users who are actively engaged in the conversation or tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+   
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
+1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Reply** to save the reply.
 
-1. (Optioneel) Als u tekst uit een vorige update wilt opnemen in uw antwoord, klikt u op de knop **Meer** menu naast de update of het antwoord dat u wilt citeren, en klik dan **Aanhalingsreactie**. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
-1. (Optioneel) Gebruik opmaak, emojis, neem koppelingen of afbeeldingen op zoals wordt uitgelegd in de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het artikel [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Klikken **Antwoord** om het antwoord op te slaan.
+-->
 
 ## Reageren op een update van een e-mailbericht
 

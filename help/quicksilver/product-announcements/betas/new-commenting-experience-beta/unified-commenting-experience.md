@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar functies die zijn vrijgegeven voor de nieuwe opmerkingervaring.
 >
->Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023. Het bètaprogramma voor de nieuwe opmerkingervaring werd afgesloten met de release van oktober 2023.
+>Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023, met de release van oktober 2023.
 >
->Vanaf oktober 2023 worden alle nieuwe functies voor de nieuwe opmerkingervaring vrijgegeven aan alle klanten. Zie de overzichtspagina van de huidige release voor elke release voor meer informatie.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Sinds 11 april 2024 zijn alle functies voor de nieuwe opmerkingervaring beschikbaar in de productieomgeving voor alle klanten.
 
 ## Functies
 
@@ -561,19 +551,20 @@ Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring
 
 * Met de tweede release van 2024 (11 april 2024):
 
-   * Verwijder de optie om terug te schakelen naar de oudere opmerkingstroom en maak de nieuwe opmerkingstroom de enige ervaring voor alle objecten, met uitzondering van herhalingen.
+  Verwijder de optie om terug te schakelen naar de oudere opmerkingstroom en maak de nieuwe opmerkingstroom de enige ervaring voor alle objecten, met uitzondering van herhalingen.
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+De nieuwe ervaring met opmerkingen is beschikbaar op de volgende gebieden van Workfront:
 
->[!IMPORTANT]
->
->De nieuwe ervaring met opmerkingen is beschikbaar in alle Workfront-omgevingen op alle objecten, met uitzondering van Interacties.
->
->De oudere ervaring met opmerkingen is verwijderd uit alle omgevingen voor projecten, taken, problemen en documenten.
+* In de sectie Updates van alle voorwerpen met uitzondering van Herhalingen.
 
-Voor informatie over het openen van de sectie Updates van Workfront-objecten raadpleegt u [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Voor informatie over het openen van de sectie Updates van Workfront-objecten raadpleegt u [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* In het paneel Overzicht van taken, kwesties, en documenten op alle gebieden waar dit beschikbaar is (lijsten, timesheets, de Balancer van de Werkbelasting, en Huis).
+* In het gebied van het Huis voor taken en kwesties.
+
+
 
 <!--
 

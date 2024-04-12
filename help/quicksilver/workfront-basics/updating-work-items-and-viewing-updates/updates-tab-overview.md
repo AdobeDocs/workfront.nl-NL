@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 In de sectie Updates van een object worden opmerkingen weergegeven die gebruikers maken over de object- of systeemupdates waarmee wijzigingen in het object worden bijgehouden.
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Overzicht van de sectie Updates <!--in the new commenting experience-->
+### Overzicht van de sectie Updates
 
 ![Sectie Updates](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* In de sectie Updates wordt informatie weergegeven op de volgende tabbladen:
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* In de sectie Updates wordt informatie weergegeven op de volgende tabbladen<!-- in the new commenting experience-->:
-
-   * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Informatie over het bijwerken van objecten<!-- in the new commenting experience-->, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Zie voor informatie over het bijwerken van objecten [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Informatie over het bijwerken van objecten<!-- in the new commenting experience-->, zie [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Zie voor informatie over het bijwerken van objecten [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
 
-* De volgende objecten hebben geen tabblad Systeemactiviteit of een tabblad Alles:
+* De volgende objecten hebben vergelijkbare ervaringen op alle drie tabbladen in de sectie Updates:
+
+   * Projecten
+   * Taken
+   * Problemen
+   * Programma&#39;s
+   * Portfolio&#39;s
+   * Gebruikers
+   * Timesheets
+
+* De volgende objecten hebben geen tabblad Systeemactiviteit of Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van alle andere objecten:
 
    * Team
    * Sjabloon
    * Sjabloontaak
+
+* De volgende objecten hebben geen tabblad Systeemactiviteit of Alles en de ervaring op het tabblad Opmerkingen verschilt van die van alle andere objecten:
    * Ad-hockaart
-   * Herhalingen
 
      Voor meer informatie over updates op kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * Herhalingen
 
      Voor meer informatie over updates over herhalingen raadpleegt u [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* De volgende objecten hebben geen tabblad Alles:
+* De volgende objecten hebben geen tabblad Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van de meeste objecten:
 
    * Doelen
 
      Voor meer informatie over updates over doelstellingen, zie [Doelopmerkingen beheren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

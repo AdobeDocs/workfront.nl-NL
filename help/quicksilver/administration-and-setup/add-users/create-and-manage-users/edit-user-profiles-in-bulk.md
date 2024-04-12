@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
 
 # Gebruikersprofielen bulksgewijs bewerken
-
-{{highlighted-preview}}
 
 <!--
 
@@ -83,10 +81,6 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <ul> 
         <li><b>Tijdzone:</b> De tijdzone van de gebruikers.</li> 
         <li><b>Landinstelling</b>: De voorkeurslandinstelling van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails van Workfront.</li> 
-        <li><b>Percentage volledig tonen bij updatestatus</b>: Schakel deze optie in als u een procentuele volledige balk wilt weergeven in het gedeelte Bijwerken van alle taken van gebruikers wanneer u de oudere opmerkingervaring gebruikt. Zie voor meer informatie <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nieuwe ervaring met opmerkingen</a>.
-        <p><span class="preview">Deze optie is verwijderd uit de voorvertoningsomgeving.</span></p>
-
-   </li> 
         <li><b>Werk dat ik toewees aan mezelf verzenden naar het tabblad Werken aan</b>: Schakel deze optie in als u wilt dat alles wat de gebruikers aan zichzelf toewijzen, rechtstreeks op het tabblad Werken aan wordt weergegeven. Standaard wordt alles weergegeven dat aan een gebruiker is toegewezen op het tabblad Werkaanvraag.</li> 
        </ul> </td> 
      </tr> 

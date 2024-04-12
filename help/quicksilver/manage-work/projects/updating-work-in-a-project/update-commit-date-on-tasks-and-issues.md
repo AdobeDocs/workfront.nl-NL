@@ -6,9 +6,9 @@ description: U kunt de datum van Vastleggen van een taak of een kwestie manueel 
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Voordat u begint, moet u worden toegewezen aan de taak of uitgave waarvoor u de 
 
 Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
+>[!NOTE]
+>
+>U kunt uw systeem of groepsbeheerder vragen om het veld Datum vastleggen toe te voegen aan het deelvenster Overzicht, zodat u het in verschillende delen van Workfront gemakkelijker kunt bijwerken.
+>
+>Raadpleeg de volgende artikelen voor meer informatie:
+>
+>* [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+
 1. Ga naar een taak of kwestie u als **Eigenaar**.
 
    Zie de sectie voor meer informatie over het achterhalen wie de Taakeigenaar voor een probleem of taak is [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in het artikel [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -89,11 +99,11 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * In de meldingen in de app ontvangt de eigenaar van het project een melding dat u een nieuwe datum voor vastleggen hebt voorgesteld voor de taak of uitgave.
-   * De eigenaar van het project wordt in de sectie Updates op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum hebt voorgesteld en zij kunnen, op dit moment, de Geplande Voltooiingsdatum van de taak of kwestie bijwerken om de Vastleggingsdatum aan te passen u voorstelde. Deze functionaliteit wordt niet ondersteund in de nieuwe opmerkingervaring. Zie voor meer informatie [De nieuwe ervaring met opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * De eigenaar van het project wordt in een Workfront-melding in de app op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum voor de taak of uitgave hebt voorgesteld.
+   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Voor informatie over de berichten en updates die door deze verandering teweeggebracht worden, zie de sectie &quot;Meldingen en updates teweeggebracht door het veranderen van de Datum van het Vastleggen&quot;in het artikel [Overzicht van datum vastleggen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   Voor informatie over de berichten en updates die door deze verandering teweeggebracht worden, zie de sectie &quot;Meldingen en updates teweeggebracht door het veranderen van de Datum van het Vastleggen&quot;in het artikel [Overzicht van datum vastleggen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->
