@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,21 +72,21 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 
 >[!NOTE]
 >
->U kunt ook een API-sleutel genereren via de API. Zie voor meer informatie de [Event Subscription API](../../../wf-api/general/event-subs-api.md) sectie in [Event Subscription API](../../../wf-api/general/event-subs-api.md).
+>U kunt ook een API-sleutel genereren via de API. Zie de klasse [API voor abonnementen voor gebeurtenissen](../../../wf-api/general/event-subs-api.md) sectie in [API voor abonnementen voor gebeurtenissen](../../../wf-api/general/event-subs-api.md).
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klikken **Systeem >** **Klantgegevens.**
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
 
-   Een API-sleutel genereren: In de **Instellingen API-sleutel** sectie, klikt u op **API-sleutel genereren**.
+   Een API-sleutel genereren: in het dialoogvenster **Instellingen API-sleutel** sectie, klikken **API-sleutel genereren**.
 
    of\
-   Een API-sleutel opnieuw instellen: In de **Instellingen API-sleutel** sectie, klikt u op **Herstellen** vervolgens **Herstellen.**
+   Een API-sleutel opnieuw instellen: in het dialoogvenster **Instellingen API-sleutel** sectie, klikken **Herstellen** vervolgens **Herstellen.**
 
    of
 
-   De API-sleutel verwijderen: In de **Instellingen API-sleutel** sectie, klikt u op **Verwijderen** vervolgens **Verwijderen**.
+   De API-sleutel verwijderen: in het dialoogvenster **Instellingen API-sleutel** sectie, klikken **Verwijderen** vervolgens **Verwijderen**.
 
 ## Een API-sleutel genereren voor gebruikers die geen beheerder zijn
 
@@ -100,12 +100,12 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
 
    1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
-   1. Uitbreiden **Systeem** en klik vervolgens op **Single Sign-On (SSO)**.\
+   1. Uitbreiden **Systeem** en klik vervolgens op **Single Sign-On (SSO)**.
+   1. In de **Type** in het veld selecteert u het type SSO dat uw organisatie gebruikt.
+   1. Met het geselecteerde type, scrol neer en ontruim **Inschakelen** selectievakje.
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. Klikken **Opslaan**.
 
-   1. Schakel het selectievakje uit waarvoor SSO-verificatie is vereist.
-
-      Als uw organisatie bijvoorbeeld SAML 2.0 gebruikt, schakelt u **Alleen SAML 2.0-verificatie toestaan**.
 
 1. Voer in de adresbalk van een browser de volgende API-aanroep in:
 
@@ -129,7 +129,7 @@ U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wan
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
 1. Klikken **Systeem** > **Klantgegevens**.
-1. In de **Instellingen API-sleutel** in de **Na het maken**, **API-sleutels verlopen in** Selecteer de tijdlijn wanneer u de API-toetsen wilt laten verlopen.
+1. In de **Instellingen API-sleutel** in het gebied **Na het maken**, **API-sleutels verlopen in** Selecteer de tijdlijn wanneer u de API-toetsen wilt laten verlopen.
 
    Wanneer u deze optie wijzigt, begint de nieuwe tijdlijn vanaf het moment dat u de wijziging aanbracht. Als u deze optie bijvoorbeeld wijzigt vanuit *1 maand* tot *6 maanden* verlopen de API-toetsen zes maanden vanaf het moment dat u de wijziging aanbrengt.
 
@@ -139,7 +139,7 @@ U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wan
 
    Deze optie is standaard niet geselecteerd.
 
-   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [Beveiligingsvoorkeuren voor het systeem configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 1. Klikken **Opslaan**.
 
@@ -163,7 +163,7 @@ Als u zich zorgen maakt over een bepaalde inbreuk op de beveiliging van uw Workf
 >
 >De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Adobe Platform is geregistreerd, zie [Op Platform gebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is geregistreerd, zie [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Toepassingen van derden kunnen met Workfront communiceren via de API. Om de beveiliging van uw Workfront-site te verhogen, kunt u Workfront zodanig configureren dat de aanmeldingsaanvragen voor de API worden beperkt door een X.509-certificaat naar Workfront te uploaden. Als deze optie is ingeschakeld, moeten alle aanmeldingsaanvragen via de API naast gebruikersnaam en wachtwoord ook een clientcertificaat bevatten.
 
@@ -187,12 +187,12 @@ Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moe
 
 1. Uitbreiden **Systeem** en klik vervolgens op **Klantgegevens**.
 
-1. In de **Instellingen API-sleutel** gebied selecteren **X.509-certificaat inschakelen**.
+1. In de **Instellingen API-sleutel** gebied, selecteren **X.509-certificaat inschakelen**.
 1. Blader op uw werkstation naar het X.509-certificaat dat u eerder hebt gedownload en selecteer dit certificaat.
 1. (Optioneel) Klik op **Details weergeven** naast de certificaatnaam om de volgende details over het certificaat weer te geven:
 
    * Onderwerpnaam
-   * Onderwerporganisatie
+   * Onderwerp Organisatie
    * Onderwerpeenheid
    * Algemene naam van uitgever
    * Uitgevende organisatie
@@ -209,4 +209,4 @@ Voordat u uw exemplaar van Workfront configureert voor een X.509-certificaat, mo
 
 Nadat u van het X.509-certificaat een vereiste hebt gemaakt via de pagina met klantgegevens in uw exemplaar van Workfront, probeert u zich opnieuw aan te melden. Dit keer ontvangt u een 500-foutreactie met het volgende bericht: &quot;Niet-vertrouwd verzoek. Neem contact op met de systeembeheerder en voeg het certificaat bij.&quot;
 
-Nadat u hebt bevestigd dat het X.509-certificaat vereist is, voert u hetzelfde aanmeldingsverzoek uit met een extra parameter voor apiCertificate ingesteld op de waarde van het certificaat. Als deze verrichting correct werd uitgevoerd zult u een 200 reactie ontvangen die geldige sessionID bevat.
+Nadat u hebt bevestigd dat het X.509-certificaat vereist is, voert u hetzelfde aanmeldingsverzoek uit met een extra parameter voor apiCertificate die is ingesteld op de waarde van het certificaat. Als deze verrichting correct werd uitgevoerd zult u een 200 reactie ontvangen die geldige sessionID bevat.
