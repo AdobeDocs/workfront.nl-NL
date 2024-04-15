@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de Commentaren en Al lusje in de sectie van Updates voor het voorwerp.
+Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp antwoordt, verschijnt hun antwoord in de communicatie draad in de Commentaren en Alle lusjes in de sectie van Updates voor het voorwerp.
 
 >[!IMPORTANT]
 >
 >Het is niet mogelijk te antwoorden op systeemupdates op het tabblad Systeemactiviteit. Alle antwoorden op systeemupdates die vóór 11 april 2024 in de oudere opmerkingervaring zijn gemaakt, worden weergegeven als alleen-lezen.
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+In dit artikel wordt beschreven hoe u reageert op opmerkingen van de meeste objecten in Workfront. Voor verschillen tussen de secties Updates van diverse voorwerpen, zie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Toegangsvereisten
 
@@ -85,9 +85,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt reageren op een opmerking in de thread van een object dat u kunt weergeven, of u kunt zich aanmelden als Workfront of groepsbeheerder en reageren op een opmerking namens een andere gebruiker. Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Het antwoord op een opmerking of antwoord is afhankelijk van de ervaring en het object dat u selecteert.
-
 ### Een opmerking beantwoorden
+
+Reageren op een opmerking in de sectie Updates van een object is vergelijkbaar voor de meeste objecten in Workfront.
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
 1. Klikken **Updates** en klik vervolgens op de knop **Opmerkingen** tabblad voor het object en zoek naar de opmerking of het antwoord waarop u wilt reageren

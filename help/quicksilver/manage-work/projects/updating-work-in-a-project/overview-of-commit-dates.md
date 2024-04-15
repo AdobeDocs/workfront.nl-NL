@@ -7,9 +7,9 @@ description: De datum van het Vastleggen is de datum waaraan een gebruiker aan t
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,20 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
 
   De verandering van de Vastlegdatum toont op het gebied van Updates van de taak of de kwestie wanneer de beheerder van Workfront deze update in het gebied van de Eisen van Updates in Opstelling toelaat. Zie voor meer informatie [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Als een projecteigenaar de wijziging niet wil accepteren, raden we hem aan om een opmerking terug te sturen naar de gebruiker die een nieuwe datum voorstelt via het tabblad Opmerkingen in de sectie Updates, om hem te vragen om de datum Vastleggen te wijzigen in de oorspronkelijk geplande datum of een nieuwe datum te selecteren. Als een eigenaar van het project de wijziging accepteert, kunnen de geplande voltooiingsdatum handmatig worden aangepast aan de datum die wordt aangeboden door de gebruiker die aan het item is toegewezen door de taak of de uitgave te bewerken.
+  Als een projecteigenaar de wijziging niet wil accepteren, raden we hem aan om een opmerking terug te sturen naar de gebruiker die een nieuwe datum voorstelt via het tabblad Opmerkingen in de sectie Updates, om hem te vragen om de datum Vastleggen te wijzigen in de oorspronkelijk geplande datum of een nieuwe datum te selecteren.
+
+  Als een eigenaar van het project de wijziging accepteert, kunnen de geplande voltooiingsdatum handmatig worden aangepast aan de datum die wordt aangeboden door de gebruiker die aan het item is toegewezen door de taak of de uitgave te bewerken.
 
   U moet toegang hebben om de taak of de uitgave te beheren om hen uit te geven.
+
+  >[!TIP]
+  >
+  >U kunt uw systeem of groepsbeheerder vragen om het veld Datum vastleggen toe te voegen aan het deelvenster Overzicht, zodat het gemakkelijker wordt om dit veld bij te werken in verschillende delen van Workfront waar het deelvenster Samenvatting wordt weergegeven.
+  >
+  >Raadpleeg de volgende artikelen voor meer informatie:
+  >
+  >* [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

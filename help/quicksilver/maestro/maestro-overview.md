@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
    * Laatst gewijzigd door
    * Laatst gewijzigd
 
-* **Gekoppelde recordtypen**, **Gekoppelde records**, en **Gekoppelde recordvelden**: In Workfront Planning kunt u een verbinding maken tussen de volgende entiteiten:
+* **Gekoppelde recordtypen**, **Gekoppelde records**, en **Gekoppelde recordvelden** of **Verbonden recordtypen**, **Verbonden records**, en **Verbonden velden**: In Workfront Planning kunt u een verbinding maken tussen de volgende entiteiten:
 
    * Twee recordtypen.
    * Een recordtype en een Workfront-type project, -programma, -portfolio, -bedrijf of -groepsobject.

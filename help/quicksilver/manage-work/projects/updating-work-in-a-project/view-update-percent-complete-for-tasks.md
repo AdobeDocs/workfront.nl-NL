@@ -6,9 +6,9 @@ description: U kunt het percentage van voltooiing van een taak bijwerken om de v
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
   Zie voor meer informatie [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **Home**: U kunt het volledige percentage van een taak of kwestie bijwerken van het Summiere paneel in het gebied van het Huis, of van Mijn Werk widget.
+
+Zie voor meer informatie  [Aan de slag met de nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Overwegingen bij het bijwerken van het percentage voltooide taken
 
@@ -104,7 +107,13 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
    * Een lijst met projecten en past de Mijlpaal-weergave toe
    * Een taak, door tot de taakpagina toegang te hebben
 1. Zoek de **Percentage voltooid** veld voor de taak waarvan het percentage is voltooid dat u wilt bijwerken.
-1. Klik in het veld Percentage voltooid en typ een getal tussen 0 en 100
+
+   >[!TIP]
+   >
+   >  Het veld Percentage voltooid wordt altijd boven in het deelvenster Overzicht weergegeven.
+
+
+1. Klik in het dialoogvenster **Percentage voltooid** veld en typ een getal tussen 0 en 100
 
    of
 

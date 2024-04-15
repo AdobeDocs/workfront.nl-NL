@@ -6,9 +6,9 @@ description: Zowel de geplande voltooiing als de Vastlegdata geven aan wanneer d
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,11 @@ De toegewezen persoon die aan de taak of uitgave werkt, kan de datum van vastleg
 
 Als de toegewezen persoon de datum van vastleggen wijzigt, wordt de geplande datum van voltooiing niet automatisch gewijzigd. Het omgekeerde is ook het geval: als u de Geplande Voltooiingsdatum wijzigt, verandert de Vastlegdatum niet.
 
-Wanneer de Vastlegdatum in een datum later dan de Geplande VoltooiingsDatum verandert, krijgt de Eigenaar van het Project op de hoogte gebracht dat deze verandering voorkwam en het de chronologie van het project kon beïnvloeden.
+Wanneer de datum vastleggen verandert, wordt de eigenaar van het project via een Workfront-melding in de app op de hoogte gesteld dat deze wijziging heeft plaatsgevonden.
 
-Als de door de ontvanger aangeboden verbintenisdatum aanvaardbaar is voor de eigenaar van het project, moeten zij de geplande afsluitdatum op de taak of afgifte handmatig bijwerken. Raadpleeg de volgende artikelen voor meer informatie:
+Als de Vastlegdatum die door de aangewezen wordt aangeboden voor de eigenaar van het project aanvaardbaar is, moeten zij manueel de Geplande Datum van Voltooiing op de taak bijwerken het effect het op de chronologie van het project zou kunnen hebben. Wijzigingen in de geplande voltooiingsdatum van de problemen hebben geen invloed op de tijdlijn van het project.
+
+Raadpleeg de volgende artikelen voor meer informatie:
 
 * [Overzicht van datum vastleggen](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Datums vastleggen bijwerken voor taken en problemen](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

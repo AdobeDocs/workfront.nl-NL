@@ -6,9 +6,9 @@ description: U kunt de [!UICONTROL My Updates] om snel de goedkeuringen te bekij
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ U moet het volgende hebben voordat u begint:
    >De eerste 50 vermeldingen worden standaard weergegeven.
 
 1. (Optioneel) Klik op **[!UICONTROL Show More Updates]** om meer opmerkingen weer te geven.
-1. (Optioneel) Klik op **[!UICONTROL Reply]** om op een opmerking te reageren, voert u uw reactie in en klikt u op **[!UICONTROL Reply]** opnieuw.
+1. (Optioneel) Klik op **[!UICONTROL Reply]** om te reageren op een opmerking en een van de volgende handelingen uit te voeren:
+   * Begin een antwoord te typen
+   * Gebruik de werkbalk RTF om uw tekst op te maken, koppelingen, lijsten, emojis, aanhalingstekens of afbeeldingen aan uw bericht toe te voegen
+   * Voeg gebruikers of teams toe om hen van uw antwoord op de hoogte te brengen.
 
-   Zie voor meer informatie over het bijwerken van items [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Wanneer u klaar bent met het toevoegen van de reactie, klikt u op **[!UICONTROL Reply]** opnieuw.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om de [!UICONTROL My Updates] naar de bovenste navigatie.

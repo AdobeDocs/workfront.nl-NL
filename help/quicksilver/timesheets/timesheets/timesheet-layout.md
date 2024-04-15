@@ -7,9 +7,9 @@ description: In dit artikel wordt de lay-out van tijdbladen in Adobe Workfront b
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in Production voor klanten die snelle releases hebben ingeschakeld. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Voor informatie over het huidige releaseprogramma raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 In dit artikel wordt de lay-out van tijdbladen in Adobe Workfront beschreven, zodat u beter kunt begrijpen hoe u tijdbladen kunt aanpassen en gebruiken om tijd op te nemen.
 
@@ -125,11 +125,7 @@ U kunt meerdere uurvermeldingen voor hetzelfde werkitem voor verschillende uurst
 
 ## Het gebied Updates in het linkerdeelvenster
 
-<div class="preview">
-
 ![Het gebied van updates in het linkertimesheet paneel](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 U kunt commentaren op een timesheet maken om met uw timesheet fiatteurs of andere gebruikers in de sectie van Updates in het linkerpaneel van timesheet te communiceren.
 
@@ -137,11 +133,7 @@ Alle opmerkingen die zijn gemaakt op de tijdlijnweergave in dit gebied.
 
 ## Het deelvenster Samenvatting
 
-<div class="preview">
-
 ![Het deelvenster Samenvatting](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 U kunt het deelvenster Samenvatting openen voor taken of problemen die in een tijdblad worden weergegeven. Hier kunt u opmerkingen maken over taken en problemen, of de gegevens van deze taken en problemen bijwerken. Zie voor meer informatie [Overzicht van samenvattingen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

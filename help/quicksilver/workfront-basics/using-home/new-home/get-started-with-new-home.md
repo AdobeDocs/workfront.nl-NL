@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Zie voor informatie over het toevoegen, verplaatsen, vergroten, verkleinen of ve
 Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht van de informatie die ze weergeven:
 
 * **Mijn werk**\
-    Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken. U kunt op de knop Aan een item werken klikken om het item te bewerken.
+    Deze widget is een ideale plaats om te beginnen met het beheer van een groot aantal verschillende taken, problemen en verzoeken. U kunt op de knop Werken aan een onderdeel klikken om te beginnen werken aan een onderdeel of op de knop Gereed om de onderdelen te markeren. U kunt ook informatie (Status, Voorwaarde, Percentage voltooid) bijwerken over taken en problemen, logtijd en updates toevoegen vanaf de widget Mijn werk.
 
 * **Mijn projecten**\
     De projecten van vertoningen u of projecten bezit u in een lijst bent. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een project rechtstreeks vanuit de widget maken.
