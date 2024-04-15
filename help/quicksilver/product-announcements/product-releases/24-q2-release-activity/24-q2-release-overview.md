@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
 
 # Overzicht tweede release 2024, tweede kwartaal
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het tweede kwartaal van 2024. Deze verbeteringen zullen naar verwachting in het hele kwartaal beschikbaar komen in de productieomgeving.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het tweede kwartaal van 2024. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving voor alle klanten met de release van 24.4 op 10 en 11 april 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 In plaats van een webinar met release nodigen we u uit om [register voor Adobe Summit](https://summit.adobe.com/na/) om de volgende Workfront-sessies te bekijken:
@@ -22,6 +22,8 @@ In plaats van een webinar met release nodigen we u uit om [register voor Adobe S
 [De toekomst van Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) op 26 maart 2024 om een blik te werpen op de toekomst van strategische planning en workflow. Leer hoe het team van Workfront van plan is om bedrijfsmogelijkheden over de volledige marketing levenscyclus-allen met een AI-eerste benadering te richten om werk te automatiseren, gebruikerservaring te vereenvoudigen, en productiviteit te verhogen.
 
 [Het onthullen van de Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 28 maart 2024 voor meer informatie over nieuwe productmogelijkheden die zijn ontworpen om uw organisatie in staat te stellen de operationele levenscycli van begin tot eind te beheren en te visualiseren.
+
+U kunt [een PDF-bestand weergeven](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} met hooglichten van de release van 24.4.
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het tweede kwartaal van 2024 in productie waren) worden geel gemarkeerd.</span>
 

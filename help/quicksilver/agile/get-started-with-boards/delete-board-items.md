@@ -6,16 +6,22 @@ description: Wanneer u een kaart van een bord schrapt, wordt het permanent gesch
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Een kaart van een kaart verwijderen of archiveren
 
-Wanneer u een kaart van een bord schrapt, wordt het permanent geschrapt en kan niet worden hersteld. Als u een kaart archiveert, wordt deze naar het archief verzonden en kunt u deze later terugzetten op het bord.
+Wanneer u een ad-hockaart van een kaart verwijdert, wordt deze permanent verwijderd en kan deze niet worden hersteld. Aangesloten kaarten kunnen handmatig weer aan een kaart worden toegevoegd nadat ze zijn verwijderd.
+
+Als u een aangesloten kaart van een dynamische raad schrapt, zal het opnieuw verschijnen wanneer u de raad verfrist omdat dit bordtype alle taken en kwesties van een specifiek project vult. Als u de kaart wilt verwijderen, moet u de verbonden taak of uitgave uit het Workfront-project verwijderen.
+
+Wanneer u een aangesloten kaart van een ander bordtype schrapt dat een inputkolom heeft, zal de kaart opnieuw in de inputkolom verschijnen wanneer u de raad verfrist als de verbonden taak of de kwestie nog niet duidelijk volledig is. Zie voor meer informatie over inlaatkolommen [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+Als u een kaart archiveert, wordt deze naar het archief verzonden en kunt u deze later terugzetten op het bord.
 
 ## Toegangsvereisten
 

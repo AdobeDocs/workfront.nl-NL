@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Voor instructies bij het vormen attributenafbeelding, zie [Gebruikerskenmerken t
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 8 februari 2024; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor alle klanten: TBD
+>Voorvertoningsrelease: 8 februari 2024; productie voor snelle release: met de release van 24.2 (15 februari 2024); productie voor alle klanten: 24.4 (11 april 2024)
 
 U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoegen aan aangepaste formulieren in de bètaversie van de formulierontwerper. Met een eenvoudig te gebruiken logicaontwikkelaar kunt u definiëren welke velden worden weergegeven of overgeslagen op basis van selecties in het formulier.
 

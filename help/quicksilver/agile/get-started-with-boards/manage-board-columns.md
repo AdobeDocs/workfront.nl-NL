@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,10 @@ Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke ka
 1. Klikken **[!UICONTROL Hide configure]** om de [!UICONTROL Configure] deelvenster.
 
 ## Kolominstellingen en -beleid definiëren
+
+>[!NOTE]
+>
+>Dynamische borden plaatsen altijd kaarten in de kolom die hun status aanpast, ongeacht of het kolombeleid wordt toegelaten of onbruikbaar gemaakt. De kaarten zullen aan hun toegewezen kolommen terugkeren wanneer u de raad vernieuwt.
 
 1. Toegang tot het bord.
 1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) in de kolom en selecteer **[!UICONTROL Edit]**.
