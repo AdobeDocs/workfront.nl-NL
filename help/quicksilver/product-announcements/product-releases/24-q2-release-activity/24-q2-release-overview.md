@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -445,6 +445,32 @@ U kunt [een PDF-bestand weergeven](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaringen met opmerkingen toegevoegd aan herhalingen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
+                        <p>Om u een consistente ervaring door de toepassing te geven, hebben we de nieuwe ervaring met opmerkingen toegevoegd aan herhalingen. Zie het [Overzicht van de sectie Bijwerken] (/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) voor meer informatie.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 11 april 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor alle klanten: met de release van 24.4 (11 april 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <p><span class="bold">Functie</span>

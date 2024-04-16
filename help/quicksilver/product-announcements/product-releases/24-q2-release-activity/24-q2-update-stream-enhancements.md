@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Op deze pagina worden alle verbeteringen in de updatestroom en de meldingen beschreven die zijn aangebracht met de release Tweede kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Nieuwe ervaringen met opmerkingen toegevoegd aan herhalingen
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 11 april 2024; Productie voor alle klanten: met de release van 24.4 (11 april 2024)
+
+Om u een consistente ervaring door de toepassing te geven, hebben we de nieuwe ervaring met opmerkingen toegevoegd aan herhalingen. Zie voor meer informatie de [Overzicht van de sectie Bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## De toegang tot het gebied met oudere opmerkingen is verwijderd
 
