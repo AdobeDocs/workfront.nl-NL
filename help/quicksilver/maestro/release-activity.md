@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde va
 >[!IMPORTANT]
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## Week van 8 april 2024
+
+### Kopieer de inhoud van één cel en plak deze in meerdere geselecteerde cellen
+
+Productie: 10 april 2024
+
+Voorbeeld: te bepalen
+
+U kunt nu de inhoud van één cel in de tabelweergave kopiëren en deze in meerdere geselecteerde cellen plakken. U kunt ook informatie uit externe bronnen kopiëren en deze in de cellen van de tabelweergave plakken.
+
+Deze functionaliteit wordt ondersteund voor alle veldtypen, behalve voor berekende velden.
+
+Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Week van 1 april 2024
 

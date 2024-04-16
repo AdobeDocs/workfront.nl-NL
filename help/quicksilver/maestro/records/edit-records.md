@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ De werkruimte die u het laatst hebt geopend.
    >* Gebruik de volgende sneltoetsen voor het kopiëren en plakken van gegevens:
    >   * Kopie: CTRL + C ( ⌘ + C voor Mac)
    >   * Plakken: CTRL + V ( ⌘ + V voor Mac)
-   >* U kunt geen informatie uit een andere bron kopiëren, behalve een recordveld van hetzelfde type als het veld waarin u de informatie plakt.
    >
    >* U kunt geen veldwaarden kopiëren en plakken op de recordpagina. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:

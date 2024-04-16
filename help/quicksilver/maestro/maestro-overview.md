@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 0%
@@ -237,6 +237,8 @@ Zie voor meer informatie [Recordweergaven beheren](../maestro/views/manage-recor
 
 In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken in Workfront Planning. De beperkingen zijn aan verandering onderhevig naarmate we de volgende ontwikkelingsfasen ingaan.
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | Object Adobe Workfront Planning | Limiet |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Aantal werkruimten voor één Workfront-instantie | 1.000 |
@@ -249,6 +251,8 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
 | Grootte CSV-bestand dat u kunt importeren* | 5 MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

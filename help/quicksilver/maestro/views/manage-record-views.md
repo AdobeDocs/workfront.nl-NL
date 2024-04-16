@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -93,6 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Weergaven in Workfront Planning zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
+<!--* Each user can create a maximum of 100 views. -->
 * De volgende elementen zijn uniek voor elke recordweergave:
 
    * Filter
