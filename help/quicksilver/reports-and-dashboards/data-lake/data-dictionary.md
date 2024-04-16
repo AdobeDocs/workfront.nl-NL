@@ -6,12 +6,11 @@ title: Data Lake data dictionary
 description: Deze pagina bevat informatie over de structuur en inhoud van de gegevens in het gegevenspMeer van Workfront.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -42,7 +41,7 @@ De tabel Dagelijkse historie bevat een verkorte versie van de tabel Gebeurtenis,
 
 <!-- Custom table -->
 
-## Entiteitsrelatietabel
+## Terminologie tabel
 
 De volgende tabel correleert de objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente naam in het datumpomeer.
 

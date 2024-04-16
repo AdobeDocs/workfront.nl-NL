@@ -6,12 +6,11 @@ title: Een reader-account (service) maken voor Snowflake
 description: Als u toegang wilt krijgen tot de gegevens in het Workfront Data Lake, moet u eerst een leesaccount voor Snowflake maken.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -30,7 +29,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Ultieme</td> 
+   <td>TBD</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -67,7 +66,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    ![Wachtwoord Snowflake opnieuw instellen](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Workfront data Lake in Snowflake.
+1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Workfront-datumpigment in de Snowflake of het bedrijfsvisualisatieprogramma van uw keuze.
 
 ## Voeg IPs aan de lijst van gewenste personen toe
 
@@ -77,9 +76,9 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 1. Klik op de knop **Toegestane IPs** en klikt u op de knop **Voeg een IP Adres aan uw Lijst van gewenste personen toe** knop.
 
-   ![IP-adres toevoegen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. Voer een naam in voor het IP-adres in **Beschrijving van IP-adres** en voer het IP-adres in voor het gereedschap waarin u wilt gebruiken **IP-adres** en klik vervolgens op **IP toevoegen aan Lijst van gewenste personen**.
+
+   ![IP-adres toevoegen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Een lezeraccount intrekken of een IP-adres uit de lijst van gewenste personen verwijderen
 

@@ -4,10 +4,9 @@ title: bèta-informatie over Workfront data Lake
 description: Algemene informatie over de bèta van het Workfront data-meer
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -104,4 +103,3 @@ Hieronder vindt u een lijst met objecten die momenteel worden ondersteund in de 
 
 * Beschikbare objecten beperken tijdens instellen van reader-account.
 * Koppel een lezeraccount aan een specifieke groep of groepen in Workfront om de zichtbaarheid van records te beperken tot alleen groepsleden.
-
