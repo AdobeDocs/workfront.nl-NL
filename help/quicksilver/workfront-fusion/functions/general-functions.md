@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Algemene functies in Adobe Workfront Fusion
-description: De volgende algemene functies zijn beschikbaar in het Adobe Workfront Fusion mapping panel.
+description: De volgende algemene functies zijn beschikbaar in het Adobe Workfront Fusion-toewijzingspaneel.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -44,9 +44,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,7 @@ Retourneert het waardepad van een object of array. Gebruik puntnotatie om genest
 
 ## [!UICONTROL if (expression; value1; value2)]
 
-Hiermee wordt het `value1` als de expressie wordt geëvalueerd op true; anders retourneert het `value2`.
+Hiermee wordt het `value1` als de expressie wordt geëvalueerd op true, anders wordt de waarde `value2`.
 
 >[!INFO]
 >
@@ -87,7 +87,7 @@ Hiermee wordt het `value1` als de expressie wordt geëvalueerd op true; anders r
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-Hiermee wordt het `value1` als deze waarde niet leeg is; anders retourneert het `value2`.
+Hiermee wordt het `value1` als deze waarde niet leeg is, anders wordt de waarde `value2`.
 
 >[!INFO]
 >
@@ -107,7 +107,7 @@ Hiermee wordt het `value1` als deze waarde niet leeg is; anders retourneert het 
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Evalueert één waarde (de expressie genoemd) ten opzichte van een lijst met waarden; retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde.
+Evalueert één waarde (de expressie genoemd) met een lijst van waarden; retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde.
 
 >[!INFO]
 >
@@ -135,7 +135,7 @@ Hiermee worden de opgegeven sleutels van het object weggelaten en wordt de rest 
 >
 >`omit(` Gebruiker `;` password `)`
 >
->Retourneert een verzameling van de gegevens van de gebruiker, exclusief >het wachtwoord.
+>Retourneert een verzameling van de gegevens van de gebruiker, exclusief het wachtwoord.
 
 ## [!UICONTROL pick(object; key1; [key2; ...])]
 

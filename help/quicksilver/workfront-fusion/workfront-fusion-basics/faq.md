@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Veelgestelde vragen over Adobe Workfront Fusion
-description: In dit artikel worden veelgestelde vragen over [!DNL Adobe Workfront Fusion], met inbegrip van informatie over voorwerp algemeen gebruikt in de werkschema's van de Fusie
+description: In dit artikel worden algemene vragen behandeld die betrekking hebben op [!DNL Adobe Workfront Fusion], met inbegrip van informatie over voorwerp algemeen gebruikt in de werkschema's van de Fusie
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
@@ -44,9 +44,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -60,7 +60,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ### Antwoord
 
-Een scenario definieert een reeks stappen die moet worden uitgevoerd door [!DNL Adobe Workfront Fusion]. Voor elk scenario, specificeert u de gegevensbron, hoe de gegevens moeten worden verwerkt, welke gegevens moeten worden gebruikt en wat moet worden genegeerd. [!DNL Workfront Fusion] kunt u zo complex van scenario&#39;s tot stand brengen aangezien u nodig hebt; zelfs de meest geavanceerde scenario &#39; s zijn mogelijk .
+Een scenario definieert een reeks stappen die moet worden uitgevoerd door [!DNL Adobe Workfront Fusion]. Voor elk scenario, specificeert u de gegevensbron, hoe de gegevens moeten worden verwerkt, welke gegevens moeten worden gebruikt en wat moet worden genegeerd. [!DNL Workfront Fusion] Hiermee kunt u zo complex mogelijke scenario&#39;s maken. Zelfs de meest geavanceerde scenario&#39;s zijn mogelijk.
 
 Zie voor meer informatie [Creeer een scenario van de praktijkintegratie in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -78,7 +78,7 @@ Ja. Gebruiken [!DNL Workfront Fusion], bestanden kunnen worden ontvangen, opgesl
 
 Zie voor meer informatie [Bestanden toewijzen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
 
-## Wat gebeurt er als ik laat [!DNL Workfront Fusion] een e-mail met meerdere bijlagen verwerken?
+## Wat gebeurt er als ik laat [!DNL Workfront Fusion] een e-mailbericht met meerdere bijlagen verwerken?
 
 ### Antwoord
 
@@ -90,7 +90,7 @@ Zie voor meer informatie [[!UICONTROL Email] modules](../../workfront-fusion/app
 
 ### Antwoord
 
-De gemeenschappelijke scenario&#39;s worden in werking gesteld met intervallen volgens het programma u specificeert (bijvoorbeeld, elk uur, elke 5 minuten, eens per maand, en zo). Er zijn speciale triggers, ook wel &#39;instant triggers&#39; genoemd, die uw scenario direct kunnen starten nadat ze gegevens van een bepaalde service ontvangen. Directe triggers kunnen bijzonder nuttig zijn. We raden u aan om ze waar mogelijk te gebruiken. Ze helpen het aantal bewerkingen te verminderen. De ontvangen gegevens worden direct verwerkt zonder op de volgende geplande looppas te wachten. De [!DNL Google Sheets] module [!UICONTROL Watch Changes] begint onmiddellijk een scenario nadat een cel wordt bijgewerkt.
+De gemeenschappelijke scenario&#39;s worden in werking gesteld met intervallen volgens het programma u specificeert (bijvoorbeeld, elk uur, elke 5 minuten, eens per maand, en zo). Er zijn speciale triggers, ook wel &#39;instant triggers&#39; genoemd, die uw scenario direct kunnen starten nadat ze gegevens van een bepaalde service ontvangen. Directe triggers kunnen bijzonder nuttig zijn. We raden u aan om ze waar mogelijk te gebruiken. Ze helpen het aantal bewerkingen te verminderen. De ontvangen gegevens worden direct verwerkt zonder op de volgende geplande looppas te wachten. Bijvoorbeeld de [!DNL Google Sheets] module [!UICONTROL Watch Changes] begint onmiddellijk een scenario nadat een cel wordt bijgewerkt.
 
 ## Wat zijn aggregators?
 
@@ -118,4 +118,4 @@ De overdracht van gegevens verwijst naar de hoeveelheid gegevens die door uw sce
 
 Een verbinding is de verbinding tussen uw [!DNL Workfront Fusion] en de service van derden die u wilt gebruiken. De verbinding kan gemakkelijk worden tot stand gebracht wanneer het uitgeven van een scenario. Als u een verbinding wilt toevoegen, klikt u op de knop **[!UICONTROL Add]** in de module-instelling en volg de stapsgewijze instructies.
 
-Zie voor meer informatie [Verbinding maken [!DNL Adobe Workfront Fusion] naar een app of service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Zie voor meer informatie [Overzicht van verbindingen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

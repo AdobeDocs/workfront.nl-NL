@@ -3,13 +3,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken
-description: U kunt [!DNL Adobe Workfront Fusion] om verbinding te maken met [!DNL Google Services] een aangepaste OAuth-client gebruiken. Deze procedure vereist een bestaande [!DNL Google] account.
+description: U kunt [!DNL Adobe Workfront Fusion] verbinding maken met [!DNL Google Services] een aangepaste OAuth-client gebruiken. Deze procedure vereist een bestaande [!DNL Google] account.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d2b4a9940cb21de1b8b5f2955f53b3d88040e44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -20,38 +20,38 @@ ht-degree: 0%
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Verouderd: alle </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -59,34 +59,45 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 U hebt een bestaande [!DNL Google] om deze verbinding te maken.
 
-## Een project maken op [!DNL Google Cloud Platform]
+## Connect Fusion to Google-services met een aangepaste OAuth-client
 
-De volgende procedure is bedoeld voor:
+Als u deze verbinding wilt maken, moet u een project maken en configureren op het Google Cloud-platform en vervolgens de verbinding configureren in Fusion op basis van dat project.
 
-* Persoonlijk gebruik ([!DNL @gmail.com] en [!DNL @googlemail.com] gebruikers)
-* Intern gebruik ([!DNL G Suite] gebruikers die liever een aangepaste OAuth-client gebruiken)
+* [Een project maken op [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform)
+* [Configureren [!UICONTROL OAuth consent] instellingen](#configure-oauth-consent-settings)
+* [OAuth-referenties maken](#create-oauth-credentials)
+* [Verbinden met [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion)
+
+>[!NOTE]
+>
+>Deze procedure is bedoeld voor:
+>
+>* Persoonlijk gebruik ([!DNL `@gmail.com`] en [!DNL `@googlemail.com`] gebruikers)
+>* Intern gebruik ([!DNL G Suite] gebruikers die liever een aangepaste OAuth-client gebruiken)
+
+### Een project maken op [!DNL Google Cloud Platform]
 
 Een project maken op [!DNL Google Cloud] Platform:
 
 1. Aanmelden bij [[!DNL Google Cloud] Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) met uw [!DNL Google] referenties.
 1. Klik in het linkerdeelvenster op **[!UICONTROL Dashboard]**.
-1. Klikken **[!UICONTROL Create project]** in de rechterbovenhoek van het scherm.
+1. Klikken **[!UICONTROL Create project]** rechtsboven in het scherm.
 1. Voer de **[!UICONTROL Project name]** en klik vervolgens op **[!UICONTROL Create]**.
 
 1. Klik op de knop **[!UICONTROL Enable APIs and services]** aan de bovenkant van het scherm.
-1. In de **[!UICONTROL Search for APIs and Services]** veld boven aan het scherm typt u de naam van de gewenste service (bijvoorbeeld [!DNL Gmail] API of [!DNL Google Drive] API).
-1. Wanneer deze wordt weergegeven, klikt u op de API of service waarmee u verbinding wilt maken [!DNL Workfront Fusion].
+1. In de **[!UICONTROL Search for APIs and Services]** veld boven aan het scherm typt u de naam van de service die u wilt gebruiken (bijvoorbeeld [!DNL Gmail] API of [!DNL Google Drive] API).
+1. Klik op de API of service waarmee u verbinding wilt maken wanneer deze wordt weergegeven [!DNL Workfront Fusion].
 1. Klikken **[!UICONTROL Enable]** om de geselecteerde API in te schakelen.
 1. Herhaal stap 6-8 voor elke API die u wilt inschakelen.
 
    >[!NOTE]
    >
-   >U moet [!DNL Google Drive] API en de API van alle [!DNL Google] apps die u wilt gebruiken (zoals [!DNL Google Sheets] API).
+   >U moet inschakelen [!DNL Google Drive] API en de API van alle [!DNL Google] apps die u wilt gebruiken (zoals [!DNL Google Sheets] API).
 
 1. Klik op het scherm dat wordt weergegeven op **[!UICONTROL Create credentials]** in de rechterbovenhoek.
 1. Doorgaan naar de sectie [Instellingen voor OAuth-toestemming configureren](#configure-oauth-consent-settings) in dit artikel.
 
-## Configureren [!UICONTROL OAuth consent] instellingen
+### Configureren [!UICONTROL OAuth consent] instellingen
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL OAuth consent screen]**.
 1. Selecteren **[!UICONTROL External]** en klik vervolgens op **[!UICONTROL Create]**.
@@ -157,7 +168,7 @@ Mogelijk moet u de lijst uitvouwen of naar de volgende pagina in de lijst gaan o
 
 1. Doorgaan naar [OAuth-referenties maken](#create-oauth-credentials).
 
-## OAuth-referenties maken
+### OAuth-referenties maken
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Credentials]**.
 
@@ -194,17 +205,17 @@ Mogelijk moet u de lijst uitvouwen of naar de volgende pagina in de lijst gaan o
 
    De [!UICONTROL Client ID] en [!UICONTROL Client Secret] weergeven.
 
-1. Kopieer de [!UICONTROL Client ID] en [!UICONTROL Client Secret] naar een beveiligde locatie. U gebruikt deze voor het maken van een verbinding in [!DNL Workfront Fusion].
+1. De [!UICONTROL Client ID] en [!UICONTROL Client Secret] naar een beveiligde locatie. U gebruikt deze voor het maken van een verbinding in [!DNL Workfront Fusion].
 1. Doorgaan naar [Verbinden met [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
-## Verbinden met [!DNL Google] in [!DNL Workfront Fusion]
+### Verbinden met [!DNL Google] in [!DNL Workfront Fusion]
 
 Het maken van een verbinding met [!DNL Google] verschilt afhankelijk van of u een module gebruikt van een [!DNL Google] diensten (zoals [!DNL Google Sheets] of [!DNL Google Docs]), of als u verbinding maakt met [!DNL Google] via de [!UICONTROL HTTP] >[!UICONTROL Make an OAuth2.0] aanvraagmodule.
 
 * [Verbinden met [!DNL Google] in een [!DNL Google] service](#connect-to-google-in-a-google-service)
 * [Verbinden met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module](#connect-to-google-in-the-http--make-an-oauth20-request-module)
 
-### Verbinden met [!DNL Google] in een [!DNL Google] service
+#### Verbinden met [!DNL Google] in een [!DNL Google] service
 
 1. In [!DNL Workfront Fusion], zoekt u de [!DNL Google] die u een verbinding voor moet maken.
 1. Klikken **[!UICONTROL Create a connection]** en klik vervolgens op **[!UICONTROL Show advanced settings]**.
@@ -222,10 +233,10 @@ Het maken van een verbinding met [!DNL Google] verschilt afhankelijk van of u ee
 
    De verbinding met het gewenste [!DNL Google] de dienst die een douaneOAuth cliënt gebruikt wordt gevestigd.
 
-### Verbinden met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module {#connect-to-google-in-the-http--make-an-oauth20-request-module}
+#### Verbinden met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-Voor instructies voor het verbinden met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module, zie [Instructies voor het maken van een verbinding met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) in [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
+Voor instructies voor het verbinden met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module, zie [Instructies voor het maken van een verbinding met [!DNL Google] in de [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module) in [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
 ## Mogelijk foutbericht:[!UICONTROL [403] Access Not Configured]
 
-Als de [!UICONTROL [403] Access Not Configured] weergegeven foutberichten: u moet de bijbehorende API inschakelen in uw Google Cloud-Platform. Volg de stappen in de sectie om de API in te schakelen [Een project maken op [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) in dit artikel.
+Als de [!UICONTROL `403 Access Not Configured`] weergegeven foutberichten: u moet de bijbehorende API inschakelen in uw Google Cloud Platform. Volg de stappen in de sectie om de API in te schakelen [Een project maken op [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) in dit artikel.

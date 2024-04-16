@@ -9,14 +9,16 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
 
-# Verbindingen in Adobe Workfront Fusion
+# Verbindingen in Fusion: artikelindex
+
+<!-- Audited: 3/2024-->
 
 >[!NOTE]
 >
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Verbinding maken [!DNL Adobe Workfront Fusion] naar een app of service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+* [Overzicht van verbindingen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
 * [Verbindingen maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [Verbinden [!DNL Adobe Workfront Fusion] aan om het even welke Webdienst](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)

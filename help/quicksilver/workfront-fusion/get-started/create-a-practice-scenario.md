@@ -7,9 +7,9 @@ description: In dit artikel wordt beschreven hoe u een integratiescenario kunt m
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2013'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -55,9 +55,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,13 +73,13 @@ De rol van [!DNL Adobe Workfront Fusion] is om uw processen te automatiseren zod
 
 Een scenario bestaat uit een reeks modules die aangeven hoe gegevens binnen een app moeten worden getransformeerd of moeten worden overgebracht tussen apps en webservices.
 
-Om te verklaren hoe te om een scenario tot stand te brengen en beste praktijken te versterken aangezien u leert te gebruiken [!DNL Workfront Fusion]Dit artikel doorloopt u stap voor stap het proces. We maken een scenario waarin een nieuwe record wordt gemaakt in [!DNL Workfront] voor elke rij in een [!DNL Google Sheets] spreadsheet.
+Om te verklaren hoe te om een scenario te creëren en beste praktijken te versterken aangezien u leert te gebruiken [!DNL Workfront Fusion]Dit artikel doorloopt u stap voor stap het proces. Wij zullen een scenario tot stand brengen dat tot een nieuw verslag in leidt [!DNL Workfront] voor elke rij in een [!DNL Google Sheets] spreadsheet.
 
 ![](assets/finished-scenario-1-350x180.png)
 
 >[!TIP]
 >
->Een scenario als dit zou nuttig zijn als u een spreadsheet het maken van een lijst van projecten had die aan het gebruiken van projecten in moeten worden gewerkt [!DNL Workfront]. Het scenario kon &quot;op&quot;spreadsheet voor nieuwe rijen letten en een nieuw project toevoegen binnen [!DNL Workfront] voor elk.
+>Een scenario als dit zou nuttig zijn als u een spreadsheet het maken van een lijst van projecten had die aan het gebruiken van projecten in moeten werken [!DNL Workfront]. Het scenario kon &quot;op&quot;spreadsheet voor nieuwe rijen letten en een nieuw project toevoegen binnen [!DNL Workfront] voor elk van beide.
 
 Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
 
@@ -110,7 +110,7 @@ Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
 
 1. In de [!UICONTROL Folders] klikt u op de knop **[!UICONTROL Add folder]** pictogram ![](assets/add-folder-icon.png)Typ vervolgens een naam als &quot;Praktische scenario&#39;s&quot; voor de eerste map.
 
-1. Open de map en klik op **[!UICONTROL Create a new scenario]** in de rechterbovenhoek van de pagina.
+1. Open de map en klik op **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
 
    Op de openingspagina die wordt weergegeven, kunt u alle toepassingen die u wilt gebruiken, vooraf laden in het scenario dat u gaat maken.
 
@@ -125,7 +125,7 @@ Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
 
 Wanneer u begint creërend een nieuw scenario, is het een goed idee om te beginnen door een naam voor het te creëren.
 
-1. Selecteer **[!UICONTROL New scenario]** naam van plaatsaanduiding in de linkerbovenhoek, typ een naam zoals &quot;Praktisch scenario 1&quot;.
+1. Selecteer de **[!UICONTROL New scenario]** naam van plaatsaanduiding in de linkerbovenhoek, typ een naam zoals &quot;Praktisch scenario 1&quot;.
 1. Doorgaan met [De eerste module toevoegen en configureren](#add-and-configure-the-first-module) hieronder.
 
 ## De eerste module toevoegen en configureren
@@ -150,10 +150,10 @@ Deze module zal de gegevens bevatten die u het scenario wilt letten op.
 
    Nu moet u een geverifieerde verbinding tot stand brengen met uw Google-account. Elke module die u aan een scenario toevoegt, moet een verbinding met de bijbehorende app hebben.
 
-1. In de **[!DNL Google Sheets]** vak, onder **[!UICONTROL Connection]**, klikt u op **[!UICONTROL Add]**, typt u vervolgens een naam voor de verbinding, zoals &quot;Olivia&#39;s Google account&quot;, en klikt u op **[!UICONTROL Continue]**.
+1. In de **[!DNL Google Sheets]** onder **[!UICONTROL Connection]**, klikt u op **[!UICONTROL Add]**, typt u vervolgens een naam voor de verbinding, zoals &quot;Olivia&#39;s Google account&quot;, en klikt u op **[!UICONTROL Continue]**.
 1. Verifieer de verbinding in het venster dat toont.
 
-   Het proces voor het verifiëren van een verbinding kan een beetje tussen apps variëren. Mogelijk moet u zich aanmelden bij de app. Meestal moet u op een **[!UICONTROL Allow]** knop. Voor hulp zie [Verbinding maken [!DNL Adobe Workfront Fusion] naar een app of service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Het proces voor het verifiëren van een verbinding kan een beetje tussen apps variëren. Mogelijk moet u zich aanmelden bij de app. U zult gewoonlijk moeten klikken **[!UICONTROL Allow]** knop. Voor hulp zie [Overzicht van verbindingen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## De eerste module configureren
 
@@ -196,7 +196,7 @@ Nadat u verbinding hebt gemaakt [!DNL Workfront Fusion] aan uw [!DNL Google Shee
    Deze tweede module moet een [!DNL Workfront] , maar we hebben de [!DNL Workfront] app.
 
 1. Als u de [!DNL Workfront] app, begint met typen &quot;[!DNL Workfront]&quot; en klik op de toepassing wanneer deze wordt weergegeven.
-1. In de lijst van [!DNL Workfront] modules die worden weergegeven, klikt u op **[!UICONTROL Create Record]**.
+1. In de lijst van [!DNL Workfront] modules die worden weergegeven, klikt u **[!UICONTROL Create Record]**.
 
 1. Zoals u eerder met de Google Sheets-app hebt gedaan, klikt u op **[!UICONTROL Add]** in de [!DNL Workfront] om een verbinding tussen Workfront Fusion en Workfront toe te voegen.
 
@@ -210,13 +210,13 @@ Nadat u verbinding hebt gemaakt [!DNL Workfront Fusion] aan uw [!DNL Google Shee
 
    Het vak wordt uitgevouwen om alle beschikbare [!DNL Workfront] projectgebieden waar u de informatie kunt zetten die door de eerste module wordt gevonden.
 
-   We gaan de **[!UICONTROL Name]** veld: wij willen deze module elk project in noemen [!DNL Workfront] de tekst gebruiken in het corresponderende [!UICONTROL Google Sheets] rij.
+   We gaan de **[!UICONTROL Name]** veld: we willen dat deze module elk project een naam geeft in [!DNL Workfront] de tekst gebruiken in het corresponderende [!UICONTROL Google Sheets] rij.
 
 1. Zoeken en klikken op de knop **[!UICONTROL Name]** veld.
 
    >[!TIP]
    >
-   >U kunt **Cmd+F** ([!DNL Mac] of **Ctrl-F**([!DNL Windows] OS) om snel een veld te vinden.
+   >U kunt **Cmd+F** ([!DNL Mac] (besturingssysteem) of **Ctrl-F**([!DNL Windows] OS) om snel een veld te vinden.
 
    Hiermee opent u de lijst met variabelen die u kunt gebruiken in het dialoogvenster **[!UICONTROL Name]** veld om de naam te definiëren voor elk project dat in Workfront is gemaakt.
 
@@ -228,7 +228,7 @@ Nadat u verbinding hebt gemaakt [!DNL Workfront Fusion] aan uw [!DNL Google Shee
 
    ![](assets/list-of-available-variables-marked-350x320.png)
 
-1. Klik op de variabele **[!UICONTROL My Project Name (A)]** om het aan **[!UICONTROL Name]** veld.
+1. Klik op de variabele **[!UICONTROL My Project Name (A)]** om deze aan de **[!UICONTROL Name]** veld.
 
    U hebt net uw eerste stuk gegevens voor dit scenario in kaart gebracht.
 
@@ -249,7 +249,7 @@ Alvorens u uw scenario activeert, is het belangrijk om het te testen door het mi
 We hebben ervoor gekozen om 1 rij uit de spreadsheet te laten verwerken om een project te maken in Workfront. Als u het scenario in werking stelt, is dat wat zou moeten gebeuren.
 
 1. Klikken **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenario-editor.
-1. Wanneer het scenario is voltooid, klikt u op de bel boven de [!DNL Google Sheets] module.
+1. Wanneer het scenario is voltooid, klikt u op de bel boven de [!DNL Google Sheets] -module.
 
    ![](assets/click-bubble.png)
 
@@ -263,7 +263,7 @@ We hebben ervoor gekozen om 1 rij uit de spreadsheet te laten verwerken om een p
 
    U kunt meer over leren hoe te om de informatie van de scenariouitvoering in de volgende artikelen te lezen:
 
-   * Zie voor algemene informatie [Uitvoeringsstroom van scenario&#39;s in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * Zie voor algemene informatie [Uitvoeringsstroom scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
    * Voor informatie over verwerkte bundels, zie [Uitvoering van scenario&#39;s, cycli en fasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. Ga naar [!DNL Workfront] en zoek naar &quot;soho downtown loft&quot; om het project te zien dat het scenario creëerde. Dit was de laatste rij in het spreadsheet.
@@ -278,7 +278,7 @@ We hebben ervoor gekozen om 1 rij uit de spreadsheet te laten verwerken om een p
 Wij moeten nog het scenario vormen om projecten voor alle andere rijen in spreadsheet tot stand te brengen.
 
 1. Klik op de knop **[!UICONTROL Watch Rows]** die u voor Google Sheets hebt gemaakt.
-1. Wijzig de **[!UICONTROL Limit]** tot en met 100.
+1. Wijzig de **[!UICONTROL Limit]** tot 100.
 
    Het specificeren van een aantal hoger dan het aantal rijen u weet is in spreadsheet verzekert dat het scenario elk van hen zal vangen.
 
@@ -288,7 +288,7 @@ Wij moeten nog het scenario vormen om projecten voor alle andere rijen in spread
 
    De [!DNL Google] Bladen **[!UICONTROL Watch Rows]** de modulelooppas eens om alle rijen te lezen. Dan de Workfront **[!UICONTROL Create Record]** de modulelooppas 20 keer om een project voor elk van de resterende 20 rijen in spreadsheet tot stand te brengen.
 
-1. Klik op de ballon van de uitvoeringcontrole voor de knop [!DNL Workfront] om alle 20 verrichtingen te bekijken, dan klik één van de verrichtingen om de informatie over het gemaakte project te bekijken.
+1. Klik op de ballon van de uitvoeringcontrole voor de knop [!DNL Workfront] om alle 20 verrichtingen te bekijken, dan klik één van de verrichtingen om de informatie over het gecreeerde project te bekijken.
 1. Klikken **[!UICONTROL Save]** ![](assets/save-icon.png) in de linkerbenedenhoek.
 1. Ga naar [!DNL Workfront] om de projecten te zien die het scenario creeerde.
 
@@ -305,7 +305,7 @@ Wij moeten nog het scenario vormen om projecten voor alle andere rijen in spread
 >
 >    U kunt meerdere notities toevoegen voor een module.
 >
->1. Sluit de **[!UICONTROL Notes]** gebied.
+>1. Sluit het dialoogvenster **[!UICONTROL Notes]** gebied.
 >
 >    Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het tabblad **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
 >

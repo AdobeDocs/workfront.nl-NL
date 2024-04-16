@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Wanneer u een app of service aan een scenario toevoegt, zult u waarschijnlijk eerst een verbinding moeten maken tussen [!DNL Workfront Fusion] en de app of service om de geselecteerde gegevens op te halen of te verzenden. Zie voor meer informatie <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Verbinding maken [!DNL Adobe Workfront Fusion] naar een app of service</a>.</p> </td> 
+   <td> <p>Wanneer u een app of service aan een scenario toevoegt, zult u waarschijnlijk eerst een verbinding moeten maken tussen [!DNL Workfront Fusion] en de app of service om de geselecteerde gegevens op te halen of te verzenden. Zie voor meer informatie <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Overzicht van verbindingen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cyclus</p> </td> 
-   <td> <p>Een cyclus verwijst naar twee fasen van de uitvoering van het scenario: gebruiken en vastleggen. Het scenario kan uit een of meer cycli bestaan. Zie voor meer informatie <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Uitvoering van scenario's, cycli en fasen in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Een cyclus verwijst naar twee fasen van de uitvoering van het scenario: bediening en vastleggen. Het scenario kan uit een of meer cycli bestaan. Voor meer gedetailleerde informatie, zie <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Uitvoering van scenario's, cycli en fasen in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Gegevensopslag</p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Items</p> </td> 
-   <td> <p>Een onderdeel van een bundel. Bundels kunnen uit meerdere items bestaan. Er zijn verschillende typen items: tekst, getal, Booleaanse waarde (ja/nee), datum, tijd, buffer (binaire gegevens), verzamelingen, menu, array en validatie selecteren.</p> </td> 
+   <td> <p>Een onderdeel van een bundel. Bundels kunnen uit meerdere items bestaan. Er zijn verschillende typen items: tekst, nummer, Boolean (ja/nee), datum, tijd, buffer (binaire gegevens), verzamelingen, menu, array en validatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Iterator]</p> </td> 
@@ -84,7 +84,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Module</p> </td> 
-   <td> <p>Een enkele stap in een scenario dat een functie uitvoert, zoals het maken van een record, binnen de bijbehorende app of service.</p> <p>Elke app of service heeft verschillende modules die definiëren hoe deze op een aanvraag reageert.</p> <p>Er zijn vier typen modules: handelingen, triggers, iterators en aggregators.</p> <p> <img src="assets/module.jpg"> </p> <p>Zie voor meer informatie <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Typen modules</a>.</p> </td> 
+   <td> <p>Een enkele stap in een scenario dat een functie uitvoert, zoals het maken van een record, binnen de bijbehorende app of service.</p> <p>Elke app of service heeft verschillende modules die bepalen hoe deze op een aanvraag reageert.</p> <p>Er zijn vier typen modules: handelingen, triggers, iterators en aggregators.</p> <p> <img src="assets/module.jpg"> </p> <p>Zie voor meer informatie <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Typen modules</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Bewerking</p> </td> 
@@ -104,11 +104,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transacties</p> </td> 
-   <td> <p>[!DNL Workfront Fusion] gebruikt transactionele verwerking om de levenscyclus van het scenario te vangen. Een transactie bestaat uit diverse fasen waarin gegevens van één verenigbare staat in een andere verenigbare staat worden omgezet. Er zijn vier fasen: initialisatie, bewerking (lezen of schrijven), commit/rollback en afwerking.</p> </td> 
+   <td> <p>[!DNL Workfront Fusion] gebruikt transactionele verwerking om de levenscyclus van het scenario te vangen. Een transactie bestaat uit diverse fasen waarin gegevens van één verenigbare staat in een andere verenigbare staat worden omgezet. Er zijn vier fasen: initialisatie, bediening (lezen of schrijven), doorvoeren/terugdraaien en afwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Trigger</p> </td> 
-   <td> <p>Een module die u toestaat om bundels te grijpen die sinds de laatste looppas van een scenario werden toegevoegd of bijgewerkt. Er zijn twee typen triggers: opiniepeiling en instant (webhaken). Zie voor meer informatie <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Een module die u toestaat om bundels te grijpen die sinds de laatste looppas van een scenario werden toegevoegd of bijgewerkt. Er zijn twee soorten triggers: opiniepeiling en instant (webhaken). Zie voor meer informatie <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhaak</p> </td> 

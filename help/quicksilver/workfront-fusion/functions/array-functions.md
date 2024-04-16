@@ -8,9 +8,9 @@ description: De volgende arrayfuncties zijn beschikbaar in het Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
+source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -21,77 +21,95 @@ ht-degree: 0%
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] of hoger</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Alle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td>  
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>  
+   <td> 
+   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p> 
+   <p>of</p> 
+   <p>Verouderd: alle </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Product</td>  
+   <td> 
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul> 
+   <p>of</p> 
+   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
-   <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL add (array; value1; value2; ...)]
+## Functies
 
-Voegt waarden die in parameters zijn opgegeven toe aan een array en retourneert die array.
+* [join](#join-array-separator)
+* [length](#length-array)
+* [toetsen](#keys-object)
+* [segment](#slice-array-start-end)
+* [samenvoegen](#merge-array1-array2)
+* [contains](#contains-array-value)
+* [remove](#remove-array-value1-value2)
+* [toevoegen](#add-array-value1-value2)
+* [map](#map-complex-array-keykey-for-filteringpossible-values-for-filtering)
+* [schudden]
+* [sorteren](#sort-array-order-key)
+* [omkeren](#reverse-array)
+* [afvlakken](#flatten-array)
+* [onderscheiden](#distinct-array-key)
+* [toCollection]
+* [toArray](#toarray)
+* [arrayDifference](#arraydifference-array1-array2-mode)
+* [dedupliceren]
 
-## [!UICONTROL contains (array; value)]
-
-Controleert of een array de waarde bevat.
-
-## [!UICONTROL distinct (array; [key])]
-
-Hiermee worden duplicaten uit een array verwijderd. Gebruik de &quot;[!UICONTROL key]&quot; argument om eigenschappen binnen complexe objecten te benaderen. Gebruik puntnotatie voor toegang tot geneste eigenschappen. Het eerste item in een array is index 1.
-
->[!INFO]
->
->**Voorbeeld:** `distinct(Contacts[];name)`
->
->Verwijdert duplicaten binnen een array van contactpersonen door de eigenschap &quot;name&quot; te vergelijken
-
-## [!UICONTROL flatten (array)]
-
-Hiermee wordt een nieuwe array gemaakt waarin alle elementen van de subarray recursief tot de opgegeven diepte zijn samengevoegd.
-
-
-## [!UICONTROL join (array; separator)]
+### [!UICONTROL join (array; separator)]
 
 Hiermee worden alle items van een array samengevoegd in een tekenreeks, waarbij het opgegeven scheidingsteken tussen elk item wordt gebruikt.
 
-## [!UICONTROL keys (object)]
-
-Retourneert een array van de eigenschappen van een bepaald object of een bepaalde array.
-
-## [!UICONTROL length (array)]
+### [!UICONTROL length (array)]
 
 Retourneert het aantal items in een array.
 
-## [!UICONTROL map (complex array; key;[key for filtering];[possible values for filtering])]
+### [!UICONTROL keys (object)]
+
+Retourneert een array van de eigenschappen van een bepaald object of een bepaalde array.
+
+### [!UICONTROL slice (array; start; [end])]
+
+Retourneert een nieuwe array die alleen geselecteerde items bevat.
+
+### [!UICONTROL merge (array1; array2; ...)]
+
+Voegt een of meer arrays samen tot één array.
+
+### [!UICONTROL contains (array; value)]
+
+Controleert of een array de waarde bevat.
+
+### [!UICONTROL remove (array; value1; value2; ...)]
+
+Verwijdert waarden die zijn opgegeven in de parameters van een array. Deze functie is alleen effectief op primitieve arrays met tekst of getallen.
+
+### [!UICONTROL add (array; value1; value2; ...)]
+
+Voegt waarden die in parameters zijn opgegeven toe aan een array en retourneert die array.
+
+### [!UICONTROL map (complex array; key;[key for filtering];[possible values for filtering])]
 
 Retourneert een primitieve array met waarden van een complexe array. Deze functie staat het filtreren waarden toe. Gebruik namen van onbewerkte variabelen voor sleutels.
 
@@ -109,24 +127,9 @@ Retourneert een primitieve array met waarden van een complexe array. Deze functi
 
 Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
+### schudden
 
-## [!UICONTROL merge (array1; array2; ...)]
-
-Voegt een of meer arrays samen tot één array.
-
-## [!UICONTROL remove (array; value1; value2; ...)]
-
-Verwijdert waarden die zijn opgegeven in de parameters van een array. Deze functie is alleen effectief op primitieve arrays met tekst of getallen.
-
-## [!UICONTROL reverse (array)]
-
-Het eerste element van de array wordt het laatste element, het tweede het op een na laatste element enzovoort.
-
-## [!UICONTROL slice (array; start; [end])]
-
-Retourneert een nieuwe array die alleen geselecteerde items bevat.
-
-## [!UICONTROL sort (array; [order]; [key])]
+### [!UICONTROL sort (array; [order]; [key])]
 
 Sorteert waarden van een array. De geldige waarden van de `order` parameter zijn:
 
@@ -174,7 +177,47 @@ Het eerste item in een array is index 1.
 >
 >    Hiermee wordt een array met e-mailberichten gesorteerd op de eigenschap &quot;sender.name&quot;
 
-## [!UICONTROL arrayDifference [array1, array2, mode]]
+### [!UICONTROL reverse (array)]
+
+Het eerste element van de array wordt het laatste element, het tweede het op een na laatste element enzovoort.
+
+### [!UICONTROL flatten (array)]
+
+Hiermee wordt een nieuwe array gemaakt waarin alle elementen van de subarray recursief tot de opgegeven diepte zijn samengevoegd.
+
+### [!UICONTROL distinct (array; [key])]
+
+Hiermee worden duplicaten uit een array verwijderd. Gebruik de &quot;[!UICONTROL key]&quot; argument om eigenschappen binnen complexe objecten te benaderen. Gebruik puntnotatie voor toegang tot geneste eigenschappen. Het eerste item in een array is index 1.
+
+>[!INFO]
+>
+>**Voorbeeld:** `distinct(Contacts[];name)`
+>
+>Verwijdert duplicaten binnen een array van contactpersonen door de eigenschap &quot;name&quot; te vergelijken
+
+### toCollection
+
+### toArray
+
+Deze functie converteert een verzameling naar een array van sleutelwaardeparen.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>Gezien de collectie
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>De functie
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Retourneert de array van sleutelwaardeparen
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
+
+### [!UICONTROL arrayDifference [array1, array2, mode]]
 
 Geeft het verschil tussen twee arrays.
 
@@ -212,22 +255,8 @@ Voer een van de volgende waarden in voor de `mode` parameter.
   >
   >    Retourneert `[1,2,6,7]`
 
-## toArray
+### dedupliceren
 
-Deze functie converteert een verzameling naar een array van sleutelwaardeparen.
+## Trefwoorden
 
->[!INFO]
->
->**Voorbeelden:**
->
->Gezien de collectie
->
->`{ key1: "value1", key2: "value2:}`
->
->De functie
->
->`toArray({ key1: "value1", key2: "value2:})`
->
->Retourneert de array van sleutelwaardeparen
->
->`[{ key1: "value1"}, { key2: "value2"}]`
+### emptyarray

@@ -7,9 +7,9 @@ description: De volgende taken verklaren hoe te om tot een [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 1. Klikken **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
 
-1. Klikken **[!UICONTROL Create a new scenario]** in de rechterbovenhoek van de pagina.
+1. Klikken **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
 1. Als u een nieuw scenario maakt, klikt u in het scherm dat wordt weergegeven (de scenario-editor) **[!UICONTROL New scenario]** in de linkerbovenhoek en typ een naam voor het scenario.
 1. Doorgaan naar [Voeg een module in een scenario toe](#add-a-module-in-a-scenario).
 
@@ -101,7 +101,7 @@ Workfront Fusion-modules die verbinding maken met een toepassing (zoals [!DNL Wo
 
 Wanneer u in een scenario een verbinding voor een app selecteert of maakt, gebruiken andere modules voor die app automatisch dezelfde verbinding, tenzij u een andere verbinding selecteert bij het instellen van de latere modules.
 
-Zie voor meer informatie [Verbinding maken [!DNL Adobe Workfront Fusion] naar een app of service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Zie voor meer informatie [Overzicht van verbindingen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
@@ -141,7 +141,7 @@ Een verbinding maken in een [!DNL Workfront Fusion] module:
 
    ![](assets/choose-where-start-350x194.png)
 
-1. De stappen in de secties herhalen [Voeg een module in een scenario toe](#add-a-module-in-a-scenario) en [De module configureren](#configure-the-module) om andere modules aan het scenario toe te voegen.
+1. De stappen in de secties herhalen [Voeg een module in een scenario toe](#add-a-module-in-a-scenario) en [De module configureren](#configure-the-module) andere modules aan het scenario toevoegen.
 
 1. (Optioneel) Kopieer en plak een module of groep modules.
 
@@ -165,8 +165,8 @@ Een verbinding maken in een [!DNL Workfront Fusion] module:
       <td role="rowheader">Een route instellen</td> 
       <td> <p>Klik op het moersleutelpictogram <img src="assets/wrench-icon.gif"> tussen de twee modules en gebruik een van de volgende opties. Zie voor meer informatie <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Een filter toevoegen aan een scenario in [!DNL Adobe Workfront Fusion]</a>.</p> 
        <ul> 
-        <li><strong>[!UICONTROL Set up a filter]</strong>: Bepalen welke bundels op bepaalde punten in het scenario worden gebruikt.</li> 
-        <li><strong>[!UICONTROL Unlink]</strong>: Hiermee verwijdert u een route.</li> 
+        <li><strong>[!UICONTROL Set up a filter]</strong>: Hiermee bepaalt u welke bundels op bepaalde punten in het scenario worden gebruikt.</li> 
+        <li><strong>[!UICONTROL Unlink]</strong>: Verwijdert een route.</li> 
         <li><strong>[!UICONTROL Add a router]</strong>: Voegt een router tussen modules toe. </li> 
         <li><strong>[!UICONTROL Add a module]</strong>: Voegt een nieuwe module tussen modules toe.</li> 
         <li><strong>[!UICONTROL Add a note]</strong>: Voegt een nota aan de route toe.</li> 
@@ -226,7 +226,7 @@ Een verbinding maken in een [!DNL Workfront Fusion] module:
 
 1. Als u het scenario wilt testen, klikt u op **[!UICONTROL Run once]**.
 
-   Het is belangrijk om te verifiëren dat het scenario zoals u verwacht loopt alvorens u het activeert. Nadat het scenario is geactiveerd, wordt het volgens het schema uitgevoerd. Als alles niet zoals verwacht loopt, raadpleegt u [Foutafhandeling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
+   Het is belangrijk om te verifiëren dat het scenario zoals u verwacht loopt alvorens u het activeert. Nadat het scenario is geactiveerd, wordt het volgens het schema uitgevoerd. Als alles niet zoals verwacht loopt, zie [Foutafhandeling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
 
 1. Wanneer u klaar bent met het bewerken van het scenario (of op elk gewenst moment tijdens het bewerken), klikt u op de knop [!UICONTROL Save] pictogram onder aan het venster ![](assets/save-icon.gif).
 

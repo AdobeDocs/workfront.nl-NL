@@ -8,9 +8,9 @@ description: De volgende tekenreeksfuncties zijn beschikbaar in het Adobe Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -21,38 +21,38 @@ ht-degree: 0%
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] of hoger</p> </td> 
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Alle</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td>  
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>  
+   <td> 
+   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p> 
+   <p>of</p> 
+   <p>Verouderd: alle </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Product</td>  
+   <td> 
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul> 
+   <p>of</p> 
+   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
-   <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -96,7 +96,7 @@ Zet het eerste teken in een tekstreeks om in hoofdletters.
 >
 >Retourneert: [!DNL Workfront]
 
-## bevat (tekst; zoektekenreeks)
+## contains (text; search string)
 
 Controleert of tekst de zoektekenreeks bevat.
 
@@ -125,7 +125,7 @@ Hiermee worden speciale tekens in een URL gedecodeerd naar tekst.
 
 ## [!UICONTROL encodeURL (text)]
 
-Hiermee worden speciale tekens in bepaalde tekst gecodeerd als een geldig URL-adres.
+Codeert speciale tekens in bepaalde tekst naar een geldig URL-adres.
 
 ## [!UICONTROL escapeHTML (text)]
 
@@ -193,7 +193,7 @@ Hiermee worden alle alfabetische tekens in een tekstreeks omgezet in kleine lett
 >
 >`lower( Hello )`
 >
->Retourneert: hallo
+>Retourneert: hello
 
 ## [!UICONTROL md5 (text)]
 
@@ -254,7 +254,7 @@ Zie voor meer informatie over reguliere expressies [Tekstparser](../../workfront
 
 ## [!UICONTROL sha1 (text; [encoding]; [key])]
 
-Berekent de sha1 hash van een tekenreeks. Als het belangrijkste argument wordt gespecificeerd, is sha1 HMAC hash in plaats daarvan teruggekeerd. Ondersteunde coderingen: &quot;hex&quot; (standaardwaarde), &quot;base64&quot; of &quot;latin1.&quot;
+Berekent de sha1 hash van een tekenreeks. Als het belangrijkste argument wordt gespecificeerd, is sha1 HMAC hash in plaats daarvan teruggekeerd. Ondersteunde coderingen: &quot;hex&quot; (standaardwaarde), &quot;base64&quot; of &quot;latin1&quot;.
 
 >[!INFO]
 >
@@ -300,7 +300,7 @@ Wanneer u &quot;[!UICONTROL binary]&quot; sleutelcodering, moet een sleutel een 
 >
 >`sha512(workfront)`
 >
->Retourneert: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd19cd b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
+>Retourneert: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd11 9b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (text; separator)]
 
@@ -333,7 +333,7 @@ Hiermee verwijdert u alle HTML-tags uit tekst.
 >
 >`stripHTML( <b>Hello</b> )`
 >
->Retourneert: Hallo
+>Retourneert: Hello
 
 ## [!UICONTROL substring (text; start;end)]
 
@@ -345,7 +345,7 @@ Retourneert een gedeelte van een tekstreeks tussen de positie &quot;start&quot; 
 >
 >* `substring( Hello ; 0 ; 3)`
 >
->   Retourneert: Hel
+>   Retourneert: Help
 >
 >* `substring( Hello ; 1 ; 3 )`
 >
@@ -375,7 +375,7 @@ Zet een waarde om in een tekenreeks.
 
 ## [!UICONTROL trim (text)]
 
-Hiermee verwijdert u spatietekens aan het begin of einde van de tekst.
+Hiermee verwijdert u spaties aan het begin of einde van de tekst.
 
 ## [!UICONTROL upper (text)]
 
