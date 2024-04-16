@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablon
 Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+
+>[!NOTE]
+>
+>Wanneer Verzoeken is ingesteld als de landingspagina, zien de contribuant of de gebruikers van de aanvrager die aan de lay-outsjabloon zijn toegewezen de startpagina in plaats daarvan als de landingspagina. Wordt aangeraden een andere landingspagina te kiezen dan aanvragen voor lay-outsjablonen die zijn bedoeld voor gebruikers van de contribuant of de aanvrager.
 
 ## Toegangsvereisten
 
@@ -44,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +66,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
 
    >[!TIP]
    >

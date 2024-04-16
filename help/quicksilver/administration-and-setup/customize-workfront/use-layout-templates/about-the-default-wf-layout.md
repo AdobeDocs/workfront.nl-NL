@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een
 
 >[!NOTE]
 >
->Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Zie voor meer informatie de [Voorkeuren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) sectie in [Mijn instellingen configureren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Zie de klasse [Voorkeuren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) sectie in [Mijn instellingen configureren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Standaardschermindelingen voor elk toegangsniveau
 
@@ -65,7 +65,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Portfolio</strong> </td> 
+   <td><strong>Portfolio's</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
