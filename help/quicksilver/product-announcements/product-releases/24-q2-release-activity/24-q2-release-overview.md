@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -458,7 +458,7 @@ U kunt [een PDF-bestand weergeven](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nieuwe ervaringen met opmerkingen toegevoegd aan herhalingen</a></p><p>[!BADGE in productie ]{type=Informative}</p>
-                        <p>Om u een consistente ervaring door de toepassing te geven, hebben we de nieuwe ervaring met opmerkingen toegevoegd aan herhalingen. Zie het [Overzicht van de sectie Bijwerken] (/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) voor meer informatie.</p>
+                        <p>Om u een consistente ervaring door de toepassing te geven, hebben we de nieuwe ervaring met opmerkingen toegevoegd aan herhalingen. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
