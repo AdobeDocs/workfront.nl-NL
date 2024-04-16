@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ U kunt een update toevoegen aan een Adobe Workfront-object om anderen te informe
 
 De informatie in dit artikel beschrijft hoe u informatie voor projecten, taken, en kwesties kunt commentaren en bijwerken. Gebruikers die zijn toegewezen aan of geabonneerd op het object, kunnen uw update weergeven. U kunt gebruikers ook labelen om de update onder de aandacht te brengen.
 
-Het toevoegen van opmerkingen aan andere objecten is vergelijkbaar met het bijwerken van projecten, taken en problemen. Zie ook de volgende artikelen voor meer informatie over opmerkingen over kaarten, doelen of herhalingen:
+Het toevoegen van opmerkingen aan andere objecten is vergelijkbaar met het bijwerken van projecten, taken en problemen. Zie ook de volgende artikelen voor meer informatie over opmerkingen over kaarten en doelen:
 
 * [Doelopmerkingen beheren in Adobe Workfront-doelen](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
 
 * [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Toegangsvereisten
 

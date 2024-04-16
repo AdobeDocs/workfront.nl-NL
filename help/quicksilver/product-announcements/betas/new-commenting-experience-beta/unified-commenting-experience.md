@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -551,13 +551,13 @@ Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring
 
 * Met de tweede release van 2024 (11 april 2024):
 
-  Verwijder de optie om terug te schakelen naar de oudere opmerkingstroom en maak de nieuwe opmerkingstroom de enige ervaring voor alle objecten, met uitzondering van herhalingen.
+  Verwijder de optie om terug te schakelen naar de oudere opmerkingsstroom en de nieuwe opmerkingstroom de enige ervaring te maken voor alle objecten.
 
 ## De nieuwe ervaring met opmerkingen opzoeken
 
 De nieuwe ervaring met opmerkingen is beschikbaar op de volgende gebieden van Workfront:
 
-* In de sectie Updates van alle voorwerpen met uitzondering van Herhalingen.
+* In de sectie Updates van alle objecten.
 
   Voor informatie over het openen van de sectie Updates van Workfront-objecten raadpleegt u [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

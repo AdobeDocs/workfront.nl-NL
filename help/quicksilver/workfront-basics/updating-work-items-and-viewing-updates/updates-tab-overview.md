@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * Sjabloontaak
 
 * De volgende objecten hebben geen tabblad Systeemactiviteit of Alles en de ervaring op het tabblad Opmerkingen verschilt van die van alle andere objecten:
+   * Herhalingen
    * Ad-hockaart
 
      Voor meer informatie over updates op kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * Herhalingen
-
-     Voor meer informatie over updates over herhalingen raadpleegt u [Herhalingsopmerkingen beheren](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * De volgende objecten hebben geen tabblad Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van de meeste objecten:
 
