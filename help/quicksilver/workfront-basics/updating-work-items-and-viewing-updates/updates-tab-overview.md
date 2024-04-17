@@ -7,9 +7,9 @@ description: In de sectie Updates van een object worden opmerkingen weergegeven 
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,11 @@ Depending on what objects you access the commenting experience for, you might fi
    * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Zie voor informatie over het bijwerken van objecten [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
    * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Zie voor informatie over het bijwerken van objecten [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+
+     >[!NOTE]
+     >
+     >De tabbladen Opmerkingen en Systeemactiviteit worden in real-time bijgewerkt. U moet het tabblad Alles vernieuwen om de meest recente updates weer te geven.
+
 
 * De volgende objecten hebben vergelijkbare ervaringen op alle drie tabbladen in de sectie Updates:
 

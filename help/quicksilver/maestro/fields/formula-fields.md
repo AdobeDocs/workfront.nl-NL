@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt het veldtype van een veld Formule niet wijzigen nadat u het hebt opgeslagen.
 * U kunt de berekening van een formuleringsgebied bijwerken nadat u het bewaart, en de resultaten van de berekeningsupdate automatisch voor alle verslagen van het zelfde type.
 * U moet de gebieden toevoegen u in formules van verwijzingen voorziet aangezien zij in de interface van de Planning van Workfront tonen.
-* Het gebruik van opzoekvelden van gekoppelde recordtypen in een formule is op een latere datum beschikbaar.
 
 ## Ondersteunde formules
 
