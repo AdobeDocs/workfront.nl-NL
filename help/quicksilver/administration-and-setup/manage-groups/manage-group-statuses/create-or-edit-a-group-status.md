@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 0%
@@ -172,3 +172,4 @@ Als u een groepsbeheerder (of een beheerder van Workfront) bent, kunt u een doua
    De status wordt grijs weergegeven en is niet meer zichtbaar voor alle gebruikers in die groep.
 
 1. Herhaal stap 3 tot en met 5 om de aangepaste status te verbergen voor andere groepen die deze niet nodig hebben.
+

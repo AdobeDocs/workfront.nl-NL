@@ -5,11 +5,11 @@ keywords: maken,groep,subgroep,nieuw
 navigation-topic: create-and-manage-groups
 title: Een groep maken
 description: Als Adobe Workfront-beheerder kunt u groepen maken om gebruikers en projecten te organiseren en toegangsrechten toe te wijzen in Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
@@ -82,15 +82,15 @@ U moet een beheerder van Workfront zijn om een top-level groep tot stand te bren
      </tr> 
      <tr> 
       <td role="rowheader">Is actief</td> 
-      <td> <p>(Wordt standaard ingeschakeld) Hiermee maakt u de groep actief in uw Workfront-instantie.</p> <p>In typevelden zoals hieronder weergegeven, worden alleen actieve groepen weergegeven in de lijst wanneer gewone gebruikers naar een groep zoeken om deze aan een object te koppelen of om er een object mee te delen.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om dit voor uw gebruikers te stroomlijnen, kunt u de optie Is Actief voor groepen onbruikbaar maken die momenteel niet in gebruik zijn.</p> <p>Met dit veld kunt u de lijst Groepen op basis van de actieve of inactieve status eenvoudig weergeven, filteren en groeperen. Voor informatie over het gebruik van weergaven, filters en groepen in lijsten raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementen rapporteren: filters, weergaven en groepen</a>.</p> </td> 
+      <td> <p>(Wordt standaard ingeschakeld) Hiermee maakt u de groep actief in uw Workfront-instantie.</p> <p>In typevelden zoals hieronder weergegeven, worden alleen actieve groepen weergegeven in de lijst wanneer gewone gebruikers naar een groep zoeken om deze aan een object te koppelen of om er een object mee te delen.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om dit voor uw gebruikers te stroomlijnen, kunt u de optie Is Actief voor groepen onbruikbaar maken die momenteel niet in gebruik zijn.</p> <p>Met dit veld kunt u de lijst Groepen op basis van de actieve of inactieve status eenvoudig weergeven, filteren en groeperen. Zie voor informatie over het gebruik van weergaven, filters en groepen in lijsten <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Elementen rapporteren: filters, weergaven en groepen</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Deze groep en de bijbehorende subgroepen openbaar maken</td> 
       <td> <p>(Alleen beschikbaar als u Details bekijkt voor een groep op hoofdniveau, niet voor een subgroep.) Schakel deze optie in als u wilt dat gebruikers in de groep met bewerkingsgebruikerstoegang (die geen beheerders van de groep zijn) deze groep en de subgroepen ervan kunnen toevoegen aan het gebruikersprofiel van andere gebruikers.</p> <p>Voor een openbare groep kan elke gebruiker (in of uit de groep) die toegang heeft tot een gebruiker met bewerkingen de groep toevoegen aan het profiel van andere gebruikers. Ze kunnen dit niet doen voor een privégroep.</p> <p>U kunt deze optie alleen bewerken in de bovenste bovenliggende groep in een hiërarchie van groepen met meer dan één niveau. Alle subgroepen van de bovenliggende groep nemen de instelling over.</p> <p><b>OPMERKING</b>:  
         <ul> 
-         <li>U kunt een subgroep niet openbaar maken op zich, maar u kunt het de oudergroep op hoofdniveau openbaar maken, die ook alle subgroepen van de ouder openbaar maakt.</li> 
+         <li>U kunt een subgroep niet openbaar maken op zich, maar u kunt zijn top-level oudergroep openbaar maken, die ook alle subgroepen van de ouder openbaar maakt.</li> 
          <li>Een subgroep die tot een openbare groep behoort is door gebrek openbaar, zodat om het even welke gebruiker met uitgeven-gebruiker toegang de subgroep aan andere gebruikers kan toevoegen, eveneens.</li> 
-        </ul> </p> <p>Als u informatie nodig hebt over de toegang die nodig is om gebruikers te bewerken, raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>. Voor informatie over het bewerken van gebruikers raadpleegt u <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Gebruikersprofiel bewerken</a>.</p> </td> 
+        </ul> </p> <p>Als u informatie nodig hebt over de toegang die nodig is om gebruikers te bewerken, raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>. Zie voor informatie over het bewerken van gebruikers <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Gebruikersprofiel bewerken</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bedrijfsleider </td> 
@@ -102,12 +102,10 @@ U moet een beheerder van Workfront zijn om een top-level groep tot stand te bren
      </tr> 
      <tr> 
       <td role="rowheader">Groepsleden en groepbeheerders</td> 
-      <td> 
-       <ul> 
+      <td>
         <p>Als u groepsleden wilt toevoegen, typt u de naam van een bestaande gebruiker of groep die u wilt toevoegen en selecteert u vervolgens de naam wanneer deze wordt weergegeven.</p> 
         <p>Gebruikers en groepen die u toevoegt, hebben toegang tot alle objecten die met de groep worden gedeeld.</p>
-        <p>Een top-level groep moet minstens één groepsbeheerder hebben. </p> 
-       </ul> </td> 
+        <p>Een top-level groep moet minstens één groepsbeheerder hebben. </p>
      </tr> 
      <tr> 
       <td role="rowheader">Personen en groepen in de lijst zoeken</td> 
@@ -154,7 +152,7 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
      </tr> 
      <tr> 
       <td role="rowheader">Is actief</td> 
-      <td> <p>(Wordt standaard ingeschakeld) Hiermee maakt u de groep actief in uw Workfront-instantie.</p> <p>In typevelden zoals hieronder weergegeven, worden alleen actieve groepen weergegeven in de lijst wanneer gewone gebruikers naar een groep zoeken om deze aan een object te koppelen of om er een object mee te delen.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om dit voor uw gebruikers te stroomlijnen, kunt u de optie Is Actief voor groepen onbruikbaar maken die momenteel niet in gebruik zijn.</p> <p>Met dit veld kunt u de lijst Groepen op basis van de actieve of inactieve status eenvoudig weergeven, filteren en groeperen. Voor informatie over het gebruik van weergaven, filters en groepen in lijsten raadpleegt u <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementen rapporteren: filters, weergaven en groepen</a>.</p>  </td> 
+      <td> <p>(Wordt standaard ingeschakeld) Hiermee maakt u de groep actief in uw Workfront-instantie.</p> <p>In typevelden zoals hieronder weergegeven, worden alleen actieve groepen weergegeven in de lijst wanneer gewone gebruikers naar een groep zoeken om deze aan een object te koppelen of om er een object mee te delen.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om dit voor uw gebruikers te stroomlijnen, kunt u de optie Is Actief voor groepen onbruikbaar maken die momenteel niet in gebruik zijn.</p> <p>Met dit veld kunt u de lijst Groepen op basis van de actieve of inactieve status eenvoudig weergeven, filteren en groeperen. Zie voor informatie over het gebruik van weergaven, filters en groepen in lijsten <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementen rapporteren: filters, weergaven en groepen</a>.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Deze groep en de bijbehorende subgroepen openbaar maken</td> 
@@ -162,7 +160,7 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
         <ul> 
          <li>U kunt een subgroep niet openbaar maken op zich, maar u kunt het de oudergroep op hoofdniveau openbaar maken, die ook alle subgroepen van de ouder openbaar maakt.</li> 
          <li>Een subgroep die tot een openbare groep behoort is door gebrek openbaar, zodat om het even welke gebruiker met uitgeven-gebruiker toegang de subgroep aan andere gebruikers kan toevoegen, eveneens.</li> 
-        </ul> </p> <p>Als u informatie nodig hebt over de toegang die nodig is om gebruikers te bewerken, raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Toegang verlenen aan gebruikers</a>. Voor informatie over het bewerken van gebruikers raadpleegt u <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Gebruikersprofiel bewerken</a>.</p> </td> 
+        </ul> </p> <p>Als u informatie nodig hebt over de toegang die nodig is om gebruikers te bewerken, raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Toegang verlenen aan gebruikers</a>. Zie voor informatie over het bewerken van gebruikers <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Gebruikersprofiel bewerken</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bedrijfsleider </td> 
@@ -176,8 +174,8 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
       <td role="rowheader">Groepsleden en groepbeheerders</td> 
       <td> 
        <ul> 
-        <li> <p>Groepsleden: Als u gebruikers en groepen aan de groep wilt toevoegen, typt u de naam van een bestaande gebruiker of groep die u wilt toevoegen en selecteert u de naam wanneer deze wordt weergegeven.</p> <p>De gebruikers en groepen die u toevoegt, hebben toegang tot alle objecten die met de groep worden gedeeld.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.copied groups">Groepbeheerders: Om het even welke groepsbeheerders van de originele groep worden ook aangewezen als groepsbeheerders in de gekopieerde groep. U kunt een groepslid als beheerder voor de groep toewijzen gebruikend het drop-down menu rechts van de naam van de gebruiker.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">Een top-level groep moet minstens 1 groepsbeheerder hebben.</p> </li> 
+        <li> <p>Groepsleden: als u gebruikers en groepen aan de groep wilt toevoegen, typt u de naam van een bestaande gebruiker of groep die u wilt toevoegen en selecteert u de naam wanneer deze wordt weergegeven.</p> <p>De gebruikers en groepen die u toevoegt, hebben toegang tot alle objecten die met de groep worden gedeeld.</p> </li> 
+        <li> <p>Groepbeheerders: Om het even welke groepsbeheerders van de originele groep worden ook aangewezen als groepbeheerders in de gekopieerde groep. U kunt een groepslid als beheerder voor de groep toewijzen gebruikend het drop-down menu rechts van de naam van de gebruiker.</p> <p>Een top-level groep moet minstens één groepsbeheerder hebben.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -189,8 +187,7 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
 
    >[!NOTE]
    >
-   >* Als de originele groep subgroepen heeft, worden de subgroepen toegevoegd aan de nieuwe groep, en hun namen, door gebrek, &quot;de originele subgroepnaam (Exemplaar)&quot; zijn.
+   >* Als de originele groep subgroepen heeft, worden de subgroepen toegevoegd aan de nieuwe groep, en hun namen, door gebrek, &quot;de originele subgroepnaam (Exemplaar).&quot;
    >* U kunt elke gebruiker of subgroep uit de oorspronkelijke groep verwijderen door op de X rechts van de naam van de gebruiker of subgroep te klikken.
-
 
 1. Klikken **Groep maken**.

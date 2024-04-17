@@ -5,13 +5,13 @@ keywords: beheren,groeperen,bewerken,
 navigation-topic: create-and-manage-groups
 title: Een groep beheren
 description: Als groepsbeheerder, kunt u een groep beheren die u van het gebied van Groepen in Opstelling beheert. Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -69,23 +69,7 @@ Zie voor instructies [De details van een groep weergeven en beheren](../../../ad
 
 ## Een groep bewerken, kopiëren of verwijderen
 
-Zonder de hoofdpagina te verlaten van een groep u bekijkt, kunt u, snel uitgeven, kopiëren of schrappen
-
-<!--
-DRAFTED IN FLARE:
-or deactivate
-
--->
-
-de groep.
-
-<!--
-DRAFTED IN FLARE:
-Make this change when they add the </span>
-<b>Is active</b>
- option to the Details page!</span>
-
--->
+U kunt de groep snel bewerken, kopiëren of verwijderen zonder de hoofdpagina van een groep die u bekijkt te verlaten.
 
 1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
 
@@ -93,7 +77,7 @@ Make this change when they add the </span>
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Selecteer de groep en klik op Bewerken ![](assets/edit-icon.png), Kopiëren ![](assets/copy-icon.png), of Verwijderen ![](assets/delete.png) pictogram.
+1. Selecteer de groep en klik op Bewerken ![](assets/edit-icon.png), kopiëren ![](assets/copy-icon.png), of Verwijderen ![](assets/delete.png) pictogram.
 
    Raadpleeg een van de volgende opties als u informatie nodig hebt over het gebruik van het vak dat wordt weergegeven:
 
@@ -125,7 +109,7 @@ U kunt de systeemstatus voor een top-level groep ook aanpassen als een beheerder
 
 Zie voor instructies [Een groepsstatus maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-## Werken met projecten van een groep
+## Werken met projecten van groepen
 
 In het gebied van Groepen in Opstelling, wanneer u de belangrijkste pagina van een groep bekijkt u beheert, kunt u het volgende met projecten doen:
 
@@ -146,7 +130,7 @@ Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u het Malp
 
 Zie voor instructies [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-## De schema&#39;s van groepsleden weergeven en beheren
+## De lijsten van groepsleden weergeven en beheren
 
 Een groepsbeheerder die een programma voor een groep maakt, moet de groep specificeren waarvan de beheerders het schema zullen beheren. Typisch, is dit de groep waarvoor het programma wordt gecreeerd, maar het zou een verschillende groep kunnen zijn als de groepsbeheerder veelvoudige groepen beheert en één van andere specificeert in plaats daarvan.
 
