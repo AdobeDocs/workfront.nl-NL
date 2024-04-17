@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
 workflow-type: tm+mt
-source-wordcount: '2219'
+source-wordcount: '1786'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,16 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Target] modules:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.
+        </td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
         <td>Voer uw [!DNL Adobe] Client-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
       </tr>
@@ -105,12 +115,12 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Target] modules:
         <td>Voer uw [!DNL Adobe] Clientgeheim. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Voer uw [!DNL Adobe] Organisatie-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
-      </tr>
-      <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
         <td>Voer uw [!DNL Adobe] Technische account-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Voer uw [!DNL Adobe] Organisatie-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Tenant]</td>
@@ -191,25 +201,46 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Target], zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Verbinding maken met [!DNL Adobe Target]</a> in dit artikel.</td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Record type]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Record type]</td>
+    <td>
       <p>Selecteer het type record dat u wilt maken.</p>
       <ul>
         <li>
-          <p>[!UICONTROL AB Activity]</p>
-          <p>Doorgaan naar <a href="#ab-activity-fields" class="MCXref xref" >AB-activiteitsvelden</a>.</p>
+        <b>Eigenschap</b><p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">Een eigenschap maken</a> in de Adobe Target API-documentatie.</p>
         </li>
         <li>
-          <p>[!UICONTROL XT Activity]</p>
-          <p>Doorgaan naar <a href="#xt-activity-fields" class="MCXref xref" >XT-activiteitvelden</a>.</p>
+        <b>Aanbiedingsaanbeveling</b><p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Nieuwe recs-aanbieding maken</a> in de Adobe Target API-documentatie.</p>
         </li>
         <li>
-          <p>[!UICONTROL Offer]</p>
+          <b>[!UICONTROL Offer JSON]</b>
           <p>Doorgaan naar <a href="#offer-fields" class="MCXref xref" >Velden aanbieden</a>.</p>
         </li>
         <li>
-          <p>[!UICONTROL Audience]</p>
-          <p>Doorgaan naar <a href="#audience-fields" class="MCXref xref" >Poortvelden</a>.</p>
+          <b>[!UICONTROL Offer Content]</b>
+          <p>Doorgaan naar <a href="#offer-fields" class="MCXref xref" >Velden aanbieden</a>.</p>
+        </li>
+        <li>
+        <b>Omgeving</b><p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">Omgeving maken</a> in de Adobe Target API-documentatie.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL Audience]</b>
+          <p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">publiek maken</a> in de Adobe Target API-documentatie.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AB Activity]</b>
+          <p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">AB-activiteit maken</a> in de Adobe Target API-documentatie.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL XT Activity]</b>
+          <p>Doorgaan naar <a href="#xt-activity-fields" class="MCXref xref" >XT-activiteitvelden</a>.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AP Activity]</b>
+          <p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">AP-activiteit maken</a> in de Adobe Target API-documentatie.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL Response Token]</b>
+          <p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">Responstoken maken</a> in de Adobe Target API-documentatie.</p>
         </li>
       </ul>
     </td>
@@ -217,7 +248,9 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
 </tbody>
 </table>
 
-##### AB-activiteitsvelden
+<!--
+
+##### AB Activity fields
 
 <table style="table-layout:auto"> 
   <col/>
@@ -225,51 +258,78 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Voer een naam voor deze activiteit in of wijs een naam toe. De naam mag uit maximaal 250 tekens bestaan.</td>
+      <td>Enter or map a name for this activity. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>Voor elke optie die u aan de activiteit wilt toevoegen, klik <b>[!UICONTROL Add item]</b> en vul de volgende velden in:</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Option local ID]</b>
             </p>
-            <p>Voer een tekenreeks in of wijs een tekenreeks toe die moet worden gebruikt om de optie bij te houden voor verschillende API-aanvragen.</p>
+            <p>Enter or map a string to be used to track the option across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Voer een naam voor de optie in of wijs een naam toe. De naam mag niet meer dan 250 tekens bevatten.</p>
+            <p>Enter or map a name for the option. The name must be no more than 250 characters.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Offer ID]</b>
             </p>
           </li>
           <li>
-            <p>Selecteer of wijs het Voorstel toe verbonden aan de optie.</p>
+            <p>Select or map the Offer associated with the option.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Locations]</td>
+      <td role="rowheader">[!UICONTROL Mboxes]</td>
       <td>
-        <p>Voor elke box die u aan de activiteit wilt toevoegen, klik <b>[!UICONTROL Add item]</b> en vul de volgende velden in:</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p>[!UICONTROL Audience IDs]</p>
-            <p>Voor elk publiek dat u aan Mbox wilt toevoegen, klik <b>[!UICONTROL Add item]</b> en selecteer de publiek-id.</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Location local ID]</b>
             </p>
-            <p>Voer een tekenreeks in of wijs een tekenreeks toe die moet worden gebruikt om de locatie in API-verzoeken bij te houden.</p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Voer een naam voor de locatie in of wijs een naam toe. De naam mag niet meer dan 250 tekens bevatten.</p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Selectors]</td>
+      <td>
+        <p>For each selector that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Location local ID]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Selector]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Name]</b>
+            </p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
           </li>
         </ul>
       </td>
@@ -277,56 +337,54 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     <tr>
       <td role="rowheader">[!UICONTROL Experiences]</td>
       <td>
-        <p>Een lijst met locaties op de pagina waar het inhoudsaanbod wordt weergegeven. Een locatie bevat het volgende:
+        <p>A list of locations on the page where the content offer is served. A location contains the following:
 </p>
         <ul>
           <li>
             <p><b>[!UICONTROL Experience local ID]</b>
             </p>
-            <p>Voer de id van de ervaring in of wijs deze toe</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Voer de naam van de ervaring in of wijs deze toe
-
+            <p>Enter or map the name of the experience
 </p>
           </li>
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>Voor elk publiek dat u de ervaring wilt zien, klikt u op <b>[!UICONTROL Add item]</b> en voer de publiek-id in.
-
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 </p>
           </li>
           <li>
             <p><b>[!UICONTROL Visitor Percentage]</b>
             </p>
-            <p>Voer het percentage bezoekers dat aan de ervaring is toegewezen in of wijs dit percentage toe</p>
+            <p>Enter or map the percentage of visitors that is allocated to the experience</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Metrics]</td>
-      <td> </td>
+      <td><p>For details on metrics, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Create AB activity</a> in the Adobe Target API documentation.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Third Party ID]</td>
-      <td>Voer een id in of wijs deze toe om deze activiteit te identificeren. U kunt deze id kiezen. Deze id mag niet hetzelfde zijn als een andere activiteit en mag uit maximaal 250 tekens bestaan.</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts at]</td>
-      <td>Voer de datum en tijd in of wijs de datum en tijd aan om de activiteit te starten in de notatie <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Enter or map the date and time to start the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends at]</td>
-      <td>Voer de datum en de tijd in om de activiteit in de indeling te beëindigen of wijs de datum en tijd toe <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Enter or map the date and time to end the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL State]</td>
       <td>
-        <p>Voer de status van de activiteit in of wijs deze toe.</p>
+        <p>Enter or map the state of the activity.</p>
         <ul>
           <li>
             <p>[!UICONTROL Approved]</p>
@@ -348,48 +406,50 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>Voer een getal in dat de prioriteit van de activiteit definieert. Hogere getallen hebben een hogere prioriteit. Deze waarde moet liggen tussen 0 en 999. De standaardwaarde is 5.</td>
+      <td>Enter a number that defines the priority of the activity. Higher numbers have higher priority. This value must be between 0 and 999. The default value is 5.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>Schakel deze optie in om automatisch verkeer toe te wijzen. De auto-toewijst verzendt meer verkeer naar de succesvolere ervaring.</p>
-        <p>Selecteer of kaart de evaluatiecriteria aan om te beoordelen welke ervaring succesvoller is.</p>
+        <p>Enable this option to auto-allocate traffic. Auto-allocating sends more traffic to the more successful experience.</p>
+        <p>Select or map the evaluation criteria by which to judge which experience is more successful.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
-      <td>Voer de werkruimte in die aan de activiteit is gekoppeld of wijs deze toe</td>
+      <td>Enter or map the workspace that the activity is associated with</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Property IDs] </td>
-      <td>Voor elke eigenschap die u aan de activiteit wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en selecteer of wijs identiteitskaart van het bezit in kaart.</td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Reporting audiences]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>Voor elk rapporterend publiek dat u aan de activiteit wilt toevoegen, klik [!UICONTROL Add item] en voert u de volgende gegevens in:</p>
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Reporting Audience local ID]</b>
             </p>
-            <p>Ga of kaart een koord in dat moet worden gebruikt om het Publiek van de Rapportering over API verzoeken te volgen.</p>
+            <p>Enter or map a string to be used to track the Reporting Audience across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Audience ID]</b>
             </p>
-            <p>Typ of wijs het segment toe dat u wilt gebruiken voor de rapportage</p>
+            <p>Enter or map the Segment to be used in reporting</p>
           </li>
           <li>
             <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>Voer een tekenreeks in of wijs een tekenreeks toe die moet worden gebruikt om de metrische gegevens in API-verzoeken bij te houden.</p>
+            <p>Enter or map a string to be used to track the metric across API requests.</p>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 ##### XT-activiteitvelden
 
@@ -540,8 +600,8 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       <td>Voor elke eigenschap die u aan de activiteit wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en selecteer of wijs identiteitskaart van het bezit in kaart.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Reporting audiences]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
         <p>Voor elk rapporterend publiek dat u aan de activiteit wilt toevoegen, klik [!UICONTROL Add item] en voert u de volgende gegevens in:</p>
         <ul>
           <li>
@@ -587,10 +647,22 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
         <p>Voer de id van de werkruimte die aan de aanbieding is gekoppeld in of wijs deze toe. Als deze optie leeg blijft, wordt de aanbieding gekoppeld aan de standaardwerkruimte van de account. Deze functionaliteit is alleen van toepassing op [!DNL Target] Premiumaccounts.</p>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Voer de datum en het tijdstip in waarop deze aanbieding is gewijzigd of wijs de datum en tijd toe.</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-##### Poortvelden
+<!--
+
+##### Audience fields
+
+>[!NOTE]
+>
+>Audiences created through Workfront Fusion can only be edit in Fusion or through the API. They cannot be edited from within Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -598,21 +670,27 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Voer een naam in of wijs een naam toe aan dit publiek. De naam mag uit maximaal 250 tekens bestaan.</td>
+      <td>Enter or map a name for this audience. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Content]</td>
+      <td role="rowheader">[!UICONTROL Description]</td>
       <td>
-        <p>Voer een beschrijving van dit publiek in of wijs deze toe.</p>
+        <p>Enter or map a description of this audience.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Origin]</td>
+      <td>
+        <p>Select whether this audience's origin is from Target or from the cloud.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Target Rule]</td>
       <td>
-        <p>Laat de knevel toe om regels te maken EN, dat wil zeggen, alle regels moeten worden toegepast.</p>
-        <p>Voor elke regel die u op het publiek wilt toepassen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de JSON in van de regel die u wilt toepassen. </p>
-        <div class="example"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>
-          <p>Voorbeelden:</p>
+        <p>Enable the toggle to make rules AND, that is, all rules must be applied.</p>
+        <p>For each rule that you want to apply to the audience, click <b>[!UICONTROL Add item]</b> and enter the JSON of the rule you want to apply. </p>
+        <div class="example"><span class="autonumber"><span><b>Example: </b></span></span>
+          <p>Example 1:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -624,6 +702,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
                     </p>
                     <p ><code>            &rbrace;,</code>
                     </p>
+                    <p>Example 2</p>
                     <p ><code>            &lbrace;</code>
                     </p>
                     <p><code>                "geo": "region",</code>
@@ -639,13 +718,15 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       </td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Workspace]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>Voer de id van de werkruimte die aan het publiek is gekoppeld in of wijs deze toe. Als deze optie leeg blijft, wordt de aanbieding gekoppeld aan de standaardwerkruimte van de account. Deze functionaliteit is alleen van toepassing op [!DNL Target Premium] rekeningen.</p>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target Premium] accounts.</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 #### [!UICONTROL Make a custom API call]
 
@@ -748,7 +829,7 @@ Deze actiemodule wint gegevens voor één enkele Activiteit, Aanbieding, Publiek
 
 #### [!UICONTROL Update a record]
 
-Deze actiemodule werkt een Activiteit, Aanbieding, of Publiek bij.
+Deze actiemodule werkt een record bij in Doel.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -762,38 +843,13 @@ Deze actiemodule werkt een Activiteit, Aanbieding, of Publiek bij.
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>
         <p>Selecteer het type record dat u wilt bijwerken.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL AB Activity]</b>
-            </p>
-            <p>Zie veldbeschrijvingen in <a href="#ab-activity-fields" class="MCXref xref" >AB-activiteitsvelden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL XT Activity]</b>
-            </p>
-            <p>Zie veldbeschrijvingen in <a href="#xt-activity-fields" class="MCXref xref" >XT-activiteitvelden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Other Activity]</b>
-            </p>
-            <p>Selecteer het veld waarvoor u een waarde wilt bijwerken en voer vervolgens de nieuwe waarde voor het veld in.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Offer]</b>
-            </p>
-            <p>Zie veldbeschrijvingen in <a href="#offer-fields" class="MCXref xref" >Velden aanbieden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
-          </li>
-          <li>
-            <p><b>[!DNL Audience]</b>
-            </p>
-            <p>Zie veldbeschrijvingen in <a href="#audience-fields" class="MCXref xref" >Poortvelden</a> krachtens <a href="#create-a-record" class="MCXref xref" >Een record maken</a>.</p>
-          </li>
-        </ul>
-      </td>
+       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Record ID]</td>
-      <td>Voer de id in van de record die u wilt bijwerken of wijs deze toe.</td>
+      <td role="rowheader">[!UICONTROL Field names]</td>
+      <td>Selecteer de velden die u wilt bijwerken. De velden worden hieronder weergegeven.
+          <p>Zie voor meer informatie over velden <a href="https://developer.adobe.com/target/administer/admin-api/">de Adobe Target API-documentatie</a>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -874,8 +930,8 @@ Deze zoekmodule zoekt naar Activiteiten, Aanbiedingen of Soorten publiek op basi
     </td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Maximum number of returned results]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Limit]</td>
+    <td>
       <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren. Gebruik dit veld in combinatie met het [!UICONTROL Offset] om de reacties te pagineren.</p>
       <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] tot en met 20 [!UICONTROL Maximum number of returned] resulteert in 10.</p>
     </td>
