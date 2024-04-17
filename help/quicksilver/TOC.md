@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
       * [Een driemaandelijkse Adobe Workfront-release voorbereiden](product-announcements/product-releases/release-readiness.md)
       * Versie 2024 Q3 {#release-24-q3}
          * [Overzicht van de release 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [Verbeteringen van het Q3-project in 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [De blik-en-voelen updates tijdens het de versietijdkader van Q3 van 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * Versie 2024 Q2 {#release-24-q2}
          * [2024 Overzicht van de Q2-release](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 0%
       * [Documentopslaglimieten controleren](documents/managing-documents/check-document-storage.md)
       * [Documenten verwijderen](documents/managing-documents/delete-documents.md)
       * [Afbeeldingen plakken vanaf het Klembord](documents/managing-documents/paste-image-clipboard.md)
+      * [AddBuilder in Workfront-documentgegevens](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * Documenten ordenen {#organize-documents}
       * [Documenten ordenen](documents/organizing-documents/organize-documents.md)
       * [Documentmappen maken](documents/organizing-documents/create-documents-folder.md)

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
+source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,68 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 ## Verbeteringen voor Adobe Workfront
 
 * [Andere verbeteringen](#other-enhancements)
+* [Projectverbeteringen](#project-enhancements)
+
+### Projectverbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 13 februari 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                                <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante slimme toewijzingen</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 21 december 2023</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
+                                <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### Andere verbeteringen
 
@@ -72,6 +134,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         </table>   
            </tbody>
         </table>
+
+
 
 ## Aankondigingen
 
