@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,10 @@ Deze statussen zijn onder andere:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>UNASSEMBED</td> 
+   <td><p>Deze status wordt automatisch toegewezen en vertegenwoordigt een pakket dat is opgeslagen maar nog niet is samengesteld. </p><p>Deze status kan niet rechtstreeks door een klant worden ingesteld.</p></td> 
+  </tr> 
   <tr> 
    <td>VERZAMELING</td> 
    <td><p>Deze status wordt automatisch toegewezen tijdens het samenstellen van objecten. </p><p>Bij samenstellen wordt verwezen naar het geautomatiseerde proces voor het identificeren van objecten en subobjecten die in een pakket moeten worden opgenomen en het toevoegen van die objecten en hun gegevens aan het pakket.</p><p>Deze status kan niet rechtstreeks door een klant worden ingesteld.</p></td> 

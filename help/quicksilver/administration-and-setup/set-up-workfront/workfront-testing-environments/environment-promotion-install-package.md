@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## Botsingdetectie
 
-Er treden botsingen op wanneer een object dat deel uitmaakt van het installatiepakket, al in de doelomgeving bestaat. Wanneer dit voorkomt, kunt u selecteren hoe te om de botsing op te lossen. De botsingen worden opgelost op het objecten niveau.
+Er treden botsingen op wanneer een object dat deel uitmaakt van het installatiepakket, dezelfde naam heeft als een object dat al bestaat in de doelomgeving. Wanneer dit voorkomt, kunt u selecteren hoe te om de botsing op te lossen. De botsingen worden opgelost op het objecten niveau.
 
 U kunt botsingen bekijken door op dropdown naast elk objecten type te klikken. De botsingen worden getoond in de kolom van de Botsing.
 
@@ -47,23 +47,31 @@ Om een botsing op te lossen, selecteer een actie in de kolom van de Actie van de
 * **Maken met nieuwe naam**: Maak een nieuw object in de doelomgeving. Als het object bestaat in de doelomgeving, kunt u een nieuw object met een nieuwe naam maken. Als het niet bestaat in de doelomgeving, kunt u het object maken met een nieuwe naam of met de naam die het object in het pakket heeft.
 * **Bestaande gebruiken**: Het object in het pakket is niet geïnstalleerd en het object dat al in de doelomgeving bestond, blijft ongewijzigd.
 * **Overschrijven**: Het object in het pakket vervangt het bestaande object in de doelomgeving.
+
+  U kunt ook objecten kiezen die u wilt overschrijven, zelfs als er geen botsing wordt gedetecteerd.
+
+  Zie voor meer informatie over de invloed van overschrijven op bovenliggende en onderliggende objecten
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 Standaardwaarden zijn `Create new` als het object niet bestaat in de doelomgeving, en `Use existing` als het object wel bestaat in de doelomgeving. U kunt terugkeren naar de standaardtoewijzing door op **Standaardtoewijzing herstellen**.
 
+## Bovenliggende en onderliggende objecten overschrijven
 
+Sommige objecten in je promotiepakket kunnen onderliggende objecten hebben. Een project (ouder) heeft bijvoorbeeld taken (kinderen). Bij het overschrijven van een bovenliggend object worden onderliggende objecten als volgt verwerkt:
 
-<!--
-## Collisions
+* De voorwerpen van het kind die in zowel het pakket als het doel bestaan zullen in het doel worden bijgewerkt om het pakket aan te passen.
+* Onderliggende objecten die wel in het pakket staan, maar niet in het doel worden gemaakt.
+* Onderliggende objecten die wel in het doel staan, maar niet in het pakket, blijven ongewijzigd.
 
-A collision occurs when <!--???--.
+Deze functionaliteit is van invloed op de volgende bovenliggende en onderliggende objecten:
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| Bovenliggend object | Onderliggende objecten |
+|---|---|
+| Project | Taak<br>QueueDef (definitie van wachtrij)<br>RoutingRule |
+| Sjabloon | TemplateTask<br>QueueDef (definitie van wachtrij)<br>RoutingRule |
+| Parameter (aangepast formulierveld) | ParameterOption (optie Aangepast formulierveld) |
+| CalendarInfo | CalendarSection |
+| QueueDef (definitie van wachtrij) | QueueTopicGroup<br>QueueTopic |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->
