@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Als u wilt integreren met Workfront en uw clienttoepassing in staat wilt stellen
 ## Een OAuth2-toepassing maken
 
 Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-toepassing maken met serververificatie (JWT-stroom)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>U kunt tot een totaal van tien Toepassingen OAuth2 in één keer hebben.
 
 ## Een certificaat met openbare sleutel maken
 

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,10 @@ Een PKCE-stroom heeft de volgende stappen. De stappen in deze sectie worden alle
 Voordat u autorisatie kunt implementeren, moet u uw app registreren in OAuth2 door een app-integratie te maken vanuit Workfront.
 
 Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-webtoepassing met één pagina maken met PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>U kunt tot een totaal van tien Toepassingen OAuth2 in één keer hebben.
 
 
 ## Proefsleutel maken voor Codeuitwisseling
