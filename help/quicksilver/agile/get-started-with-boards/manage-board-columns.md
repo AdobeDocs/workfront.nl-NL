@@ -6,9 +6,9 @@ description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolomme
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke ka
 1. Klikken **[!UICONTROL Hide configure]** om de [!UICONTROL Configure] deelvenster.
 
 ## Kolominstellingen en -beleid definiëren
+
+Kolombeleid omvat het automatisch bijwerken van veldwaarden en het instellen van een limiet voor werkzaamheden in uitvoering.
+
+Het beleid voor het bijwerken van de status werkt automatisch voor zowel de kaart als de kolom:
+
+* Wanneer een kaart naar een kolom met een beleid wordt verplaatst, wordt de kaartstatus bijgewerkt aan de status die in het beleid wordt bepaald. Dit geldt zowel voor ad hoc als voor aangesloten kaarten.
+* Wanneer een ad hoc of verbonden kaartstatus op de kaart wordt bijgewerkt om de kolomstatus in het beleid aan te passen, of een verbonden kaartstatus elders in Workfront wordt bijgewerkt, wordt de kaart automatisch naar die kolom verplaatst. Als een aangepaste status op een kaart overeenkomt met de systeemstatus die aan de kolom is toegewezen, wordt de kaart ook naar die kolom verplaatst.
+
+Een kaart blijft in een kolom waar deze wordt geplaatst als de kaartstatus niet overeenkomt met een status die is ingesteld in een bestaand kolombeleid.
 
 >[!NOTE]
 >
