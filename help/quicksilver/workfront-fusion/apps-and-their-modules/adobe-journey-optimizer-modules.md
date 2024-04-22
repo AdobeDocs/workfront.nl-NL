@@ -9,29 +9,33 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
+hide: true
+hidefromtoc: true
+source-git-commit: ec23659dc85b77c61ef5575e3605d0cf396c4e1a
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] Modules
 
+>[!IMPORTANT]
+>
+>Deze schakelaar is verouderd.
+
 <!--
-Becky: pull from main, add to TOCs, then push to merge.
--->
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Adobe Journey Optimizer]en deze verbinding maken met meerdere toepassingen en services van derden. [!DNL Adobe Journey Optimizer] kunt u records maken, lezen, bijwerken of verwijderen, of een aangepaste API-aanroep naar de [!DNL Adobe Journey Optimizer] API.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## Toegangsvereisten
+## Access requirements
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
+You must have the following access to use the functionality in this article:
 
 <table>
   <col/>
@@ -40,52 +44,52 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>[!UICONTROL Pro] of hoger</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
       <td>
         <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
+      <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
-   <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Vereisten
+## Prerequisites
 
-Voordat u de [!DNL Adobe Journey Optimizer] -aansluiting, moet u ervoor zorgen dat aan de volgende voorwaarden wordt voldaan:
+Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
 
-* U moet een actieve [!DNL Adobe Journey Optimizer] account.
+* You must have an active [!DNL Adobe Journey Optimizer] account.
 
-## Verbinding maken met [!DNL Adobe Journey Optimizer]
+## Create a connection to [!DNL Adobe Journey Optimizer]
 
-Als u een verbinding wilt maken voor uw [!DNL Adobe Journey Optimizer] modules:
+To create a connection for your [!DNL Adobe Journey Optimizer] modules:
 
-1. In alle [!DNL Adobe Journey Optimizer] module, klikt u op **[!UICONTROL Add]** naast het vak Verbinding.
+1. In any [!DNL Adobe Journey Optimizer] module, click **[!UICONTROL Add]** next to the Connection box.
 
-1. Vul de volgende velden in:
+1. Fill in the following fields:
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -96,71 +100,71 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Journey Optimizer] modules:
         <tr>
           <td role="rowheader">[!UICONTROL Connection name]</td>
           <td>
-            <p>Voer een naam in voor deze verbinding.</p>
+            <p>Enter a name for this connection.</p>
           </td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+          <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+          <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes]</td>
           <td>
-            Voer het metabereik in dat nodig is voor de verbinding.
+            Enter any meta scopes needed for the connection.
           </td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Private key]</td>
           <td>
-            <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in het dialoogvenster [!DNL Adobe Developer Console]. </p>
-            <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
+            <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
+            <p>To extract your private key or certificate:</p>
             <ol>
               <li value="1">
-                <p>Klik op <b>[!UICONTROL Extract]</b>.</p>
+                <p>Click <b>[!UICONTROL Extract]</b>.</p>
               </li>
               <li value="2">
-                <p>Selecteer het type bestand dat u extraheert.</p>
+                <p>Select the type of file you are extracting.</p>
               </li>
               <li value="3">
-                <p>Selecteer het bestand dat de persoonlijke sleutel of het certificaat bevat.</p>
+                <p>Select the file that contains the private key or certificate.</p>
               </li>
               <li value="4">
-                <p>Voer het wachtwoord voor het bestand in.</p>
+                <p>Enter the password for the file.</p>
               </li>
               <li value="5">
-                <p>Klikken <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
+                <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
               </li>
             </ol>
           </td>
         </tr>
       </tbody>
     </table>
-1. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## [!DNL Adobe Journey Optimizer] modules en hun velden
+## [!DNL Adobe Journey Optimizer] modules and their fields
 
-Wanneer u [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Adobe Journey Optimizer] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Handelingen](#actions)
-* [Zoekopdrachten](#searches)
+* [Actions](#actions)
+* [Searches](#searches)
 
-### Handelingen
+### Actions
 
 * [[!UICONTROL Create a record]](#create-a-record)
 * [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
@@ -169,7 +173,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Create a record]
 
-Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, gepersonaliseerde aanbieding, inzameling, of reserveaanbieding.
+This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
@@ -177,29 +181,29 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer], zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record type]
       </td>
       <td>
-        Selecteer het type record dat u wilt maken
+        Select the type of record that you want to create
         <ul>
-        <li><b>[!UICONTROL Placement]</b>: Doorgaan naar <a href="#placement-fields" >[!UICONTROL Placement] velden</a>.</li>
-        <li><b>[!UICONTROL Decision rule]</b>: Doorgaan naar <a href="#decision-rule-fields" >[!UICONTROL Decision rule] velden</a>.</li>
-        <li><b>[!UICONTROL Decision]</b>: Doorgaan naar <a href="#decision-fields" >[!UICONTROL Decision] velden</a>.</li>
-        <li><b>[!UICONTROL Tag]</b>: Doorgaan naar <a href="#tag-fields" >[!UICONTROL Tag] velden</a>.</li>
-        <li><b>[!UICONTROL Collection]</b>: Doorgaan naar <a href="#collection-fields" >[!UICONTROL Collection] velden</a>.</li>
-        <li><b>[!UICONTROL Fallback offer]</b>: Doorgaan naar <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] velden</a>.</li>
-        <li><b>[!UICONTROL Personalized offer]</b>: Doorgaan naar <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] velden</a>.</li>
+        <li><b>[!UICONTROL Placement]</b>: Continue to <a href="#placement-fields" >[!UICONTROL Placement] fields</a>.</li>
+        <li><b>[!UICONTROL Decision rule]</b>: Continue to <a href="#decision-rule-fields" >[!UICONTROL Decision rule] fields</a>.</li>
+        <li><b>[!UICONTROL Decision]</b>: Continue to <a href="#decision-fields" >[!UICONTROL Decision] fields</a>.</li>
+        <li><b>[!UICONTROL Tag]</b>: Continue to <a href="#tag-fields" >[!UICONTROL Tag] fields</a>.</li>
+        <li><b>[!UICONTROL Collection]</b>: Continue to <a href="#collection-fields" >[!UICONTROL Collection] fields</a>.</li>
+        <li><b>[!UICONTROL Fallback offer]</b>: Continue to <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] fields</a>.</li>
+        <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Placement] velden
+##### [!UICONTROL Placement] fields
 
 <table>
   <col/>
@@ -207,20 +211,20 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam voor de plaatsing in of wijs een naam toe.</td>
+     <td>Enter or map a name for the placement.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Description]
       </td>
-      <td>Voer een beschrijving voor de plaatsing in of wijs een beschrijving toe.
+      <td>Enter or map a description for the placement.
       </td>
     </tr>
   </tbody>
 </table>
 
 
-##### [!UICONTROL Decision rule] velden
+##### [!UICONTROL Decision rule] fields
 
 <table>
   <col/>
@@ -228,26 +232,26 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam voor de beschrijvingsregel in of wijs deze toe.</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Description]
       </td>
-      <td>Voer een beschrijving voor de beslissingsregel in of wijs deze toe.
+      <td>Enter or map a description for the decision rule.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Condition]
       </td>
-      <td>Ga of kaart de voorwaarde in de beslissingsregel.
+      <td>Enter or map the condition the decision rule.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Decision] velden
+##### [!UICONTROL Decision] fields
 
 <table>
   <col/>
@@ -255,42 +259,42 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam voor de beschrijvingsregel in of wijs deze toe.</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Status]</td>
-      <td>Selecteer de status voor de beslissing.
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Start date]</td>
-      <td><p>Voer de begindatum voor de beslissing in of wijs deze toe.</p><p>Voor een lijst met ondersteunde datumnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td><p>Enter or map the start date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL End date]</td>
-      <td><p>Voer de einddatum voor de beslissing in of wijs deze toe.</p><p>Voor een lijst met ondersteunde datumnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td><p>Enter or map the end date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Placements]</td>
-      <td>Selecteer de plaatsen om aan dit besluit toe te voegen
+      <td>Select the placements to add to this decision
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Collection]</td>
-      <td>Selecteer de aanbiedingsinzameling die de aanbiedingen bevat die dit besluit zal overwegen.
+      <td>Select the offer collection that contains the offers that this decision will consider.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Fallback offer]</td>
-      <td>Selecteer de reserveaanbieding die aan klanten zal worden voorgesteld die niet de regels voor dit besluit aanpassen.
+      <td>Select the fallback offer that will be presented to customers that do not match the rules for this decision.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Tag] velden
+##### [!UICONTROL Tag] fields
 
 <table>
   <col/>
@@ -298,12 +302,12 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam voor de tag in of wijs een naam toe.</td>
+     <td>Enter or map a name for the tag.</td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Collection] velden
+##### [!UICONTROL Collection] fields
 
 <table>
   <col/>
@@ -311,7 +315,7 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam voor de verzameling in of wijs een naam toe.</td>
+     <td>Enter or map a name for the collection.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -324,13 +328,13 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
       <td role="rowheader">
         [!UICONTROL Elements]
       </td>
-      <td>Selecteer de tags die u in de verzameling wilt opnemen.
+      <td>Select the tags to include in the colelction.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Fallback offer] velden
+##### [!UICONTROL Fallback offer] fields
 
 <table>
   <col/>
@@ -338,26 +342,26 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam in of wijs een naam toe aan de fallback-aanbieding.</td>
+     <td>Enter or map a name for the fallback offer.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Status]
       </td>
-      <td> Selecteer de status van de fallback-aanbieding.
+      <td> Select the status of the fallback offer.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Placement]
       </td>
-      <td>Voer de plaatsing voor de fallback-aanbieding in of wijs deze toe.
+      <td>Enter or map the placement for the fallback offer.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### [!UICONTROL Personalized offer] velden
+##### [!UICONTROL Personalized offer] fields
 
 <table>
   <col/>
@@ -365,41 +369,41 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>Voer een naam voor de beschrijvingsregel in of wijs deze toe.</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Status]</td>
-      <td>Selecteer de status voor de beslissing.
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Plaatsing</td>
-      <td>Selecteer de plaatsing voor de gepersonaliseerde aanbieding.
+      <td role="rowheader">Placement</td>
+      <td>Select the placement for the personalized offer.
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Start date]</td>
-      <td><p>Voer de begindatum voor de gepersonaliseerde aanbieding in of wijs deze toe.</p><p>Voor een lijst met ondersteunde datumnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td><p>Enter or map the start date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL End date]</td>
-      <td><p>Voer de einddatum voor de gepersonaliseerde aanbieding in of wijs deze toe.</p><p>Voor een lijst met ondersteunde datumnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</p>
+      <td><p>Enter or map the end date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Decision rules]</td>
-      <td>Selecteer de besluitvormingsregels om aan dit gepersonaliseerde voorstel toe te voegen.
+      <td>Select the decision rules to add to this personalized offer.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>Selecteer de prioriteit van deze aanbieding. Prioriteit bepaalt of dit aanbod wordt gepresenteerd in plaats van een ander aanbod.
+      <td>Select the priority of this offer. Priority affects whether this offer will be presented rather than another offer.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Capping constraint]</td>
-      <td>Voer het aantal keren in dat dit voorstel wordt gepresenteerd of geef het door aan.
+      <td>Enter or map the number of times this offer will be presented.
       </td>
     </tr>
   </tbody>
@@ -407,7 +411,7 @@ Deze actiemodule leidt tot een plaatsing, besluitvormingsregel, markering, geper
 
 #### [!UICONTROL Delete a record]
 
-In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimizer].
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
@@ -415,14 +419,14 @@ In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer], zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record type]
       </td>
       <td>
-        Selecteer het type record dat u wilt verwijderen
+        Select the type of record that you want to delete
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -438,7 +442,7 @@ In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimi
       <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        Selecteer de record die u wilt verwijderen.
+        Select the record that you want to delete.
       </td>
     </tr>
 
@@ -447,7 +451,7 @@ In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimi
 
 #### [!UICONTROL Make a custom API call]
 
-Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Journey Optimizer] API
+This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
 
 <table>
   <col/>
@@ -455,47 +459,47 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Journey Optimiz
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer], zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Een pad invoeren ten opzichte van {baseURL} beginnen met<code>/</code></p>
+        <p>Enter a path relative to {baseURL} starting with<code>/</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
-        <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion voegt automatisch machtigingsheaders en x-api-sleutelkopballen toe.</p>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>Voer de queryreeks voor de aanvraag in.</p>
+        <p>Enter the request query string.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Voer het maximale aantal resultaten in dat de module in één uitvoeringscyclus moet retourneren.</p>
+        <p>Enter the maximum number of results that you want the module to return in one execution cycle.</p>
       </td>
     </tr>
   </tbody>
@@ -503,7 +507,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Journey Optimiz
 
 #### [!UICONTROL Delete a Record]
 
-In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimizer].
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
@@ -511,14 +515,14 @@ In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimi
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer], zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record Type]
       </td>
       <td>
-        Selecteer het type record dat u wilt verwijderen
+        Select the type of record that you want to delete
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -534,7 +538,7 @@ In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimi
       <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        Selecteer de record die u wilt verwijderen.
+        Select the record that you want to delete.
       </td>
     </tr>
 
@@ -543,7 +547,7 @@ In deze actiemodule wordt één record verwijderd uit [!DNL Adobe Journey Optimi
 
 #### [!UICONTROL Update a record]
 
-Deze actiemodule leidt tot een plaatsing, besluit, besluitvormingsregel, markering, gepersonaliseerde aanbieding, inzameling, of reserveaanbieding.
+This action module creates a placement, decision, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
@@ -551,14 +555,14 @@ Deze actiemodule leidt tot een plaatsing, besluit, besluitvormingsregel, markeri
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer], zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record type]
       </td>
       <td>
-        Selecteer het type record dat u wilt bijwerken
+        Select the type of record that you want to update
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -574,19 +578,19 @@ Deze actiemodule leidt tot een plaatsing, besluit, besluitvormingsregel, markeri
       <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        Selecteer de record die u wilt bijwerken.
+        Select the record that you want to update.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Fields]
       </td>
-      <td>Voor elk veld dat u wilt bijwerken:
+      <td>For each field that you want to update:
       <ol>
-      <li>Klik op <b>[!UICONTROL Add]</b>.</li>
-      <li>Selecteer of u waarden wilt toevoegen, vervangen of verwijderen.</li>
-      <li>Voer het veld in dat u wilt bijwerken.</li>
-      <li>Voer de nieuwe waarde voor het veld in.</li>
+      <li>Click <b>[!UICONTROL Add]</b>.</li>
+      <li>Select whether you want to add, replace, or remove values.</li>
+      <li>Enter the field that you want to update.</li>
+      <li>Enter the new value for the field.</li>
       </td>
     </tr>
 
@@ -594,11 +598,11 @@ Deze actiemodule leidt tot een plaatsing, besluit, besluitvormingsregel, markeri
 </table>
 
 
-### Zoekopdrachten
+### Searches
 
 #### [!UICONTROL List records]
 
-Deze zoekmodule bevat records van het geselecteerde type, met resultaten die zijn gebaseerd op criteria die u opgeeft.
+This search module lists records of the selected type, returning results based on criteria you specify.
 
 <table>
   <col/>
@@ -606,14 +610,14 @@ Deze zoekmodule bevat records van het geselecteerde type, met resultaten die zij
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer], zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel.</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Record type]</p>
       </td>
       <td>
-        <p>Selecteer het type record dat u wilt weergeven.</p>
+        <p>Select the type of record that you want to list.</p>
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -630,23 +634,25 @@ Deze zoekmodule bevat records van het geselecteerde type, met resultaten die zij
         <p>[!UICONTROL Query operator]</p>
       </td>
       <td>
-        <p>Selecteer een operator om toe te passen op parameters in de query</p>
+        <p>Select an operator to apply to parameters in the query</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Fields]</td>
-      <td><p>Als u de zoekopdracht wilt beperken tot specifieke velden, voert u de velden in. Voor elk veld tot waar u de zoekopdracht wilt beperken, klikt u op [!UICONTROL Add item] en voert u de naam van het veld in.</p><p>Padexpressies hebben de vorm van door punten gescheiden paden, zoals <code>_instance.xdm:name</code>.</p>
+      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click [!UICONTROL Add item] and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order by] </td>
-      <td>Voer de eigenschap in of wijs de eigenschap toe waarmee u de resultaten wilt bestellen.
+      <td>Enter or map the property by which you want to order results.
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order direction]</td>
-   <td>Selecteer of u resultaten in oplopende of aflopende richting wilt bestellen.
+   <td>Select whether you want to order results by ascending or descending direction.
     </td>
      </tr>
   </tbody>
 </table>
+
+-->
