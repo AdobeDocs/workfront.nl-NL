@@ -9,9 +9,9 @@ description: U kunt Wederzijdse TLS gebruiken in uw Adobe Workfront Fusion HTTP-
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ U kunt de volgende koppelingen gebruiken om de openbare certificaten van Workfro
 
 >[!IMPORTANT]
 >
->* Deze [!DNL Workfront Fusion] openbare certificaten verlopen op 9 juni 2024. Nadat uw certificaat is verlopen, moet u een nieuw certificaat uploaden naar de webservice. We raden u aan:
+>* Deze [!DNL Workfront Fusion] openbare certificaten verlopen op 7 mei 2025. Nadat uw certificaat is verlopen, moet u een nieuw certificaat uploaden naar de webservice. We raden u aan:
 >
 >   * Noteer de vervaldatum en stel een herinnering voor uzelf in om het certificaat te uploaden naar uw webservice.
 >   * Bladwijzer deze pagina om de nieuwe certificaten gemakkelijk te vinden.
