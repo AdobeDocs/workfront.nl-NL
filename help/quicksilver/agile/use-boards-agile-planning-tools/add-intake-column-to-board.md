@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Problemen:
 
 * Primaire bestelling: Projectnaam
 * Secundaire volgorde: Referentienummer
+
+>[!IMPORTANT]
+>
+>Het wordt aanbevolen om het bord regelmatig te vernieuwen als meerdere gebruikers tegelijkertijd aan het bord werken. Door de pagina te vernieuwen, kunt u de visuele wijzigingen op het bord up-to-date houden en voorkomen dat problemen zoals dubbele kaarten uit de inlaatkolom naar het bord worden verplaatst.
 
 Zie voor meer informatie over kolommen [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Zie voor informatie over aangesloten kaarten [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

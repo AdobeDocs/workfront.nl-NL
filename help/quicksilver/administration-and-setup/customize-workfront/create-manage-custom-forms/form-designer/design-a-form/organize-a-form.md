@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,10 @@ Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren 
        <li> <p>Gebruikers zonder de machtigingen die u hier opgeeft, kunnen de aangepaste velden en widgets niet zien in de sectie. </p> <p>Dit is ook het geval als u de waarden van de velden in rapporten weergeeft of deze in berekende velden gebruikt in tekstmodusrapportage.</p> </li> 
        <li> <p>Als u meerdere objecttypen aan uw formulier koppelt, kunt u de weergave- en bewerkingsmachtigingen wijzigen die in deze stappen beschikbaar zijn. Zie voor meer informatie <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hoe meerdere objecttypen de machtigingen voor secties in een aangepast formulier kunnen beïnvloeden</a> in dit artikel.</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>Logica toevoegen</p></td> 
+      <td><p>Gebruik weergaverelogica om op te geven of de sectie op het formulier moet worden weergegeven, op basis van selecties die gebruikers in meerkeuzevelden maken wanneer ze het formulier invullen.</p><p><strong>OPMERKING:</strong> Als op alle afzonderlijke velden onder een sectie-einde de weergavelogica is toegepast en alle velden als gevolg van de logica zijn verborgen, wordt de volledige sectie verborgen op het aangepaste formulier. Dit gebeurt ook als de weergaverelogica niet wordt toegepast op het sectie-einde.</p><p>Zie voor meer informatie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Weergavelogica toevoegen en logica overslaan met de formulierontwerper</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
