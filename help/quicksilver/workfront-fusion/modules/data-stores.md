@@ -8,9 +8,9 @@ description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoud
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -44,35 +44,56 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Verouderd: alle </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Gegevensruimte beschikbaar
+
+Als uw organisatie zich op het nieuwe het planmodel van Workfront (Uitgezochte, Primaire, en Ultimate pakketten) bevindt, beïnvloedt het plan van uw organisatie de grootte en het aantal gegevensopslag beschikbaar uw instantie van Fusion.
+
+### Ultieme planning
+
+Fusion-instanties op het Ultimate-pakket ontvangen:
+
+* 500 MB aan ruimte
+* 50 gegevensopslag
+
+### Abonnementen selecteren en voorbereiden
+
+Fusion-instanties op de pakketten Select of First ontvangen:
+
+* 100 MB voor de eerste 500K verrichtingen.
+
+* 10 MB voor elke extra 100K-bewerking.
+
+Een organisatie met 600K-bewerkingen ontvangt bijvoorbeeld 110 MB.
 
 ## Een gegevensopslag maken in [!DNL Workfront Fusion]
 
