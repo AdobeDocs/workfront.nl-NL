@@ -4,9 +4,10 @@ description: U kunt de lay-out van de recorddoos en de pagina in de Planning van
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
+exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -93,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Overwegingen bij het bewerken van recordpagina&#39;s
 
 * Als u de velden in het recordvak of op de pagina opnieuw rangschikt, worden de velden opnieuw gerangschikt voor alle records van dat type en voor alle gebruikers die deze records openen.
-* Het toevoegen van een omslagafbeelding aan een record maakt geen deel uit van de algemene lay-out van het recordvak of de pagina. U kunt unieke omslagafbeeldingen aan elke record toevoegen.
+* Het toevoegen van een omslagafbeelding aan een record maakt geen deel uit van de algemene lay-out van het recordvak of de pagina. U kunt unieke omslagafbeeldingen aan elke record toevoegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
 ## Velden in het recordvak of op de pagina opnieuw rangschikken
 
@@ -131,56 +132,4 @@ De werkruimte die u als laatste opent.
    De nieuwe positie van het veld wordt in het vak en op de pagina van alle records van hetzelfde type bijgewerkt voor alle gebruikers die de records bekijken.
 
    Alle wijzigingen in de lay-out van het recordvak of de pagina worden automatisch opgeslagen.
-
-
-## Een omslagafbeelding toevoegen aan het recordvak of de pagina
-
-U kunt een record personaliseren door boven aan het recordvak of de pagina een omslagafbeelding toe te voegen.
-
-{{step1-to-maestro}}
-
-De werkruimte die u als laatste opent.
-
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
-
-1. Klik op een opnametype.
-
-   De pagina met recordtypen wordt geopend.
-
-1. Klik vanuit een weergave van een willekeurig type op de naam van een record
-
-   of
-
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam.
-
-   Het vak van de record wordt in de weergave geopend.
-
-   ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
-
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het recordvak om de pagina van de record op een nieuw tabblad te openen.
-
-   De recordpagina wordt geopend.
-
-   ![](assets/details-page.png)
-
-1. Klik in het recordvak of op de pagina op **omslag toevoegen**. <!--check the casing here; I logged a bug for this-->
-De **Omslag van record** wordt geopend.
-
-1. Klikken **Selecteren om te uploaden** en blader naar een afbeelding op uw computer om deze te selecteren, voeg deze toe en klik vervolgens op **Afbeelding gebruiken**.
-
-   De afbeelding wordt boven in het recordvak of op de pagina geüpload en de wijzigingen worden automatisch opgeslagen.
-
-   ![](assets/record-page-with-cover-image.png)
-
-1. (Optioneel) Houd de muisaanwijzer boven de afbeelding en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbenedenhoek van de omslagafbeelding voert u een van de volgende handelingen uit:
-
-   * Klikken **Uploaden** als u de omslagafbeelding wilt vervangen en stap 6 wilt herhalen om een nieuwe afbeelding te uploaden en op te slaan.
-   * Klikken **Opnieuw plaatsen** en de **Opnieuw plaatsen** gereedschap ![](assets/reposition-tool-icon.png) om de omslagafbeelding te centreren, klikt u op **Opslaan** wanneer gereed.
-   * Klikken **Verwijderen** om de omslagafbeelding te verwijderen.
-
-   Alle wijzigingen worden onmiddellijk van kracht.
 

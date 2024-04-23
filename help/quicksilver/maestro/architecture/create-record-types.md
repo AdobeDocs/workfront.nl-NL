@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -147,15 +147,17 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. Werk de volgende gegevens bij:
 
-   * **Naam recordtype**: Vervang &quot;Naamloos type operationeel record&quot; door de naam van het toekomstige recordtype.
-   * **Weergave**: Definieer de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
+   * Vervang &quot;Naamloos type operationeel record&quot; door de naam van het toekomstige recordtype. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **Beschrijving**: Voeg meer informatie toe over het recordtype.
+   * Selecteer een kleur en vorm voor het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur voor het nieuwe recordtype. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
-1. Klik buiten de **Recordtype toevoegen** het recordtype op.
+1. Klikken **Maken**.
 
    De recordtypekaart wordt toegevoegd aan de sectie en de werkruimte die u hebt geselecteerd.
 Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
+1. (Optioneel) Klik op de knop met het recordtype **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Bewerken** om informatie over het recordtype te bewerken.
 1. (Optioneel) Klik op de kaart met het recordtype om de pagina met het recordtype te openen.
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
 
    of
 
-   Klik op de knop **Meer** pictogram ![](assets/more-menu.png) rechts van de naam van het recordtype en klik op **Naam wijzigen** om de naam te wijzigen.
+   Klik op de knop **Meer** pictogram ![](assets/more-menu.png) rechts van de naam van het recordtype en klik op **Bewerken** om de naam ervan te wijzigen of om de informatie erover te wijzigen. Zie voor meer informatie [Recordtypen bewerken](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. (Optioneel) Klik op **+ Nieuwe record** records van het geselecteerde recordtype toevoegen. Zie voor meer informatie [Records maken](../records/create-records.md).
 1. (Optioneel) Klik op de knop **+** in de rechterbovenhoek van de tabel om meer velden aan het recordtype toe te voegen.

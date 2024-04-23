@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatse
 Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
 
 Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+Alle wijzigingen die u aanbrengt in een werkruimte, zijn zichtbaar voor iedereen die beschikt over minstens weergavemachtigingen voor de werkruimte.
 
 ## Toegangsvereisten
 
@@ -90,20 +92,52 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 Hiermee opent u het gedeelte Workspaces van Workfront Planning.
 
-1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam te wijzigen en druk vervolgens op **Enter**
+1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam te wijzigen en druk vervolgens op **Enter**.
+1. Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Bewerken**.
 
-   of
+   ![](assets/edit-workspace-box.png)
 
-   Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Naam wijzigen**.
+   Werk de volgende informatie bij in het dialoogvenster **Werkruimte Bewerken** vak:
+
+   * Voeg een naam voor de werkruimte toe. <!--did they add a label for this field?-->
+   * **Beschrijving**: Voeg informatie toe over de werkruimte.
+   * Selecteer een pictogram dat u aan de werkruimte wilt koppelen.
+
+1. Klikken **Opslaan** om het vak Bewerken te sluiten en de wijzigingen toe te passen.
+
+1. (Optioneel) Voer een van de volgende handelingen uit om een nieuwe werkruimtesectie toe te voegen:
+
+   * Klikken **Sectie toevoegen** onder aan de werkruimte.
+   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Sectie toevoegen hierboven** of **Sectie toevoegen hieronder**.
+
+1. (Optioneel) Voer een van de volgende handelingen uit om de locatie van een sectie te wijzigen:
+
+   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **grijpen** pictogram ![](assets/grab-icon.png)en sleep deze vervolgens naar de rechterkant.
+   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Omhoog verplaatsen** of **Omlaag verplaatsen**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
+
+1. (Optioneel) Ga als volgt te werk om een sectie van een werkruimte te verwijderen:
+
+   1. Houd de cursor boven de naam van een sectie en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Verwijderen**. <!--add screen shot when UI is final?-->
+   1. Selecteer een nieuwe sectie om alle recordtypen naar de sectie te verplaatsen en klik vervolgens op **Verwijderen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Alle recordtypen worden naar de selectiesectie verplaatst en de sectie wordt verwijderd.
 
 1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte.
 
    Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
-1. (Optioneel) Klik op de naam van een weergave op de tabbladen voor weergave om een bestaande weergave te bewerken of klik op **+ Weergave** om een weergave te maken.
+1. (Optioneel) Houd de muisaanwijzer boven een opnametype. Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Bewerken** om de weergave van een recordtype te wijzigen.
+
+   Zie voor meer informatie [Recordtypen bewerken](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. (Optioneel) Houd de muisaanwijzer boven een opnametype. Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Verwijderen** om een recordtype te verwijderen.
+
+   Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. (Optioneel) Klik op de naam van een weergave op de tabbladen van de weergave om een bestaande weergave te bewerken of klik op **+ Weergave** om een weergave te maken.
 
    Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. (Optioneel) Klik op **Delen** om de werkruimte met anderen te delen.
+1. (Optioneel) Klik op **Delen** in de rechterbovenhoek van de werkruimte om de werkruimte met anderen te delen.
 
    Zie voor meer informatie [Werkruimten delen](/help/quicksilver/maestro/access/share-workspaces.md).

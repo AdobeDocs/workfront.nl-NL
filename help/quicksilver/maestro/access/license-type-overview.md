@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Uw Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-plann
 
 Gebruikers met alle licentietypen kunnen de Workfront-planningsweergaven weergeven, maken, bewerken of beheren.
 
-In dit artikel worden de typen licenties beschreven die nodig zijn in Workfront, en de machtigingen die zijn verleend aan objecten in Workfront Planning op basis van elk type licentie.
+In dit artikel worden de typen licenties beschreven die nodig zijn in Workfront, en de machtigingen die aan werkruimten worden verleend in Workfront Planning op basis van elk type licentie.
 
-Een gebruiker met een lager licentietype heeft machtigingen beperkt tot objecten bij het gebruik van Workfront-planningsmogelijkheden.
+Een gebruiker met een lager licentietype heeft machtigingen beperkt tot werkruimten bij het gebruik van Workfront-planningsmogelijkheden.
 
 >[!INFO]
 >
@@ -40,11 +40,13 @@ Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, 
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
-In de volgende tabel wordt de relatie beschreven tussen het licentietype van een gebruiker in Adobe Workfront en het niveau van de machtigingen die u aan deze gebruikers kunt verlenen voor Adobe Workfront-planningsobjecten op basis van die licentie:
+In de onderstaande tabel wordt de relatie beschreven tussen het licentietype van een gebruiker in Adobe Workfront en het machtigingsniveau dat u aan deze gebruiker kunt toekennen aan Adobe Workfront-planningsobjecten op basis van die licentie.
+
+Het verlenen van gebruikerstoestemmingen aan een werkruimte verleent hen ook toestemmingen om types, verslagen, en gebieden te registreren.
 
 
 | Adobe Workfront-licentietype | Machtigingen toegestaan in Adobe Workfront-planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten, recordtypen en records maken en beheren. |
-| Nieuw: Licht <br> of <br>Huidig: Werk | Gebruikers kunnen een werkruimte die met hen wordt gedeeld, en de recordtypen en records vanuit die werkruimte, toevoegen en weergeven.  Gebruikers kunnen records maken, bewerken en verwijderen in de werkruimten waar zij Contribute-machtigingen hebben. |
-| Nieuw: Medewerker <br> of <br>Huidige: revisor of aanvrager | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes en verslagen van die werkruimten worden gedeeld. Gebruikers kunnen geen recordtypen of records maken, bewerken of verwijderen. |
+| Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten, recordtypen en records maken en beheren.<br> Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt. |
+| Nieuw: Licht <br> of <br>Huidig: Werk | Gebruikers kunnen een werkruimte die met hen wordt gedeeld, en de recordtypen en records vanuit die werkruimte, toevoegen en weergeven. <br> Gebruikers kunnen records maken, bewerken en verwijderen in de werkruimten waar zij Contribute-machtigingen hebben. |
+| Nieuw: Medewerker <br> of <br>Huidige: revisor of aanvrager | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes en verslagen van die werkruimten worden gedeeld. <br> Gebruikers kunnen geen recordtypen of records maken, bewerken of verwijderen. |

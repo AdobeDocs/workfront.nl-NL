@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 ## Een werkruimte maken
 
+U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te ordenen in Workfront Planning. Zie voor meer informatie over het bewerken van een werkruimte [Werkruimten bewerken](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Hiermee opent u het gedeelte Workspaces van Workfront Planning.
 
 1. (Voorwaardelijk) Als u geen werkruimten in uw omgeving hebt, klikt u op **Werkruimte maken**
 
-   Of klik in een bestaande werkruimte op de knop voor het naar beneden wijzen rechts van de naam van de werkruimte en klik vervolgens op **Werkruimte maken**.
+   Of klik in een bestaande werkruimte op de pijl omlaag naar rechts naast de naam van de werkruimte en klik op **Werkruimte maken**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Hiermee opent u het gedeelte Workspaces van Workfront Planning.
+
 1. (Optioneel en voorwaardelijk) Klik op **Voorvertoning** binnen een van de volgende vooraf gedefinieerde werkruimtjablonen:
 
    * Marketing management
@@ -136,14 +140,10 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    Er wordt een werkruimte gemaakt voor de volgende typen werkruimten:
 
-   * Een lege werkruimte waarin u recordtypen handmatig kunt toevoegen wanneer u een werkruimte maakt.
-   * Een werkruimte die is gevuld met voorbeeldrecordtypen die u verder kunt aanpassen wanneer u een van de sjablonen gebruikt.
+   * Een lege werkruimte met de naam **Naamloze werkruimte** waar u recordtypen handmatig kunt gaan toevoegen wanneer u een werkruimte helemaal zelf maakt.
+   * Een werkruimte die wordt genoemd naar de geselecteerde sjabloon en die is gevuld met typen voorbeeldrecords. U kunt de recordtypen en de werkruimte verder aanpassen.
 
-1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter
-
-   of
-
-   Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Naam wijzigen**.
+1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 
 1. (Optioneel en voorwaardelijk) Als u de werkruimte hebt gemaakt op basis van een sjabloon, klikt u binnen de naam van het **Operationele recordtypen** of **Taxonomieën** secties
 
@@ -153,25 +153,14 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
    >[!TIP]
    >
-   >U kunt de naam van elke sectie vanuit elke werkruimte wijzigen, zelfs als u de sectie hebt gemaakt.
+   >U kunt de naam van elke sectie vanuit elke werkruimte wijzigen, zelfs als u de sectie niet hebt gemaakt.
 
-1. (Optioneel) Voer een van de volgende handelingen uit om de locatie van een sectie te wijzigen:
-
-   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **grijpen** pictogram ![](assets/grab-icon.png)en sleep deze vervolgens naar de rechterkant.
-   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Omhoog verplaatsen** of **Omlaag verplaatsen**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
-
-1. (Optioneel) Voer een van de volgende handelingen uit om een nieuwe sectie toe te voegen:
-
-   * Klikken **Sectie toevoegen** onder aan de werkruimte.
-   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Sectie toevoegen hierboven** of **Sectie toevoegen hieronder**.
+   Zie voor meer informatie over het bewerken van werkruimten, waaronder secties over de werkruimte voor bewerken [Werkruimten bewerken](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte in een willekeurige sectie.
 
    Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
-1. (Optioneel) Ga als volgt te werk om een sectie te verwijderen:
+   Ga voor meer informatie over het bewerken en verwijderen van recordtypen in een werkruimte naar [Werkruimten bewerken](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Houd de cursor boven de naam van een sectie en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Verwijderen**. <!--add screen shot when UI is final?-->
-   1. Selecteer een nieuwe sectie om alle recordtypen naar de sectie te verplaatsen en klik vervolgens op **Verwijderen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Alle recordtypen worden naar de selectiesectie verplaatst en de sectie wordt verwijderd.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## Week van 22 april 2024
+
+### Bijgewerkte workflow bij het bewerken van een werkruimte of een recordtype
+
+Productie: 23 april 2024
+
+Voorbeeld: te bepalen
+
+We hebben de vormgeving van de werkruimte Bewerken en de recordtekstvakken Bewerken bijgewerkt.
+
+Wanneer u een werkruimte of een recordtype bewerkt, kunt u nu een naam, beschrijving en een kleur en pictogram aan de werkruimte of het recordtype toewijzen.
+
+Raadpleeg de volgende artikelen voor meer informatie:
+
+* [Werkruimten bewerken](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [Recordtypen bewerken](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## Week van 8 april 2024
 
@@ -373,7 +391,7 @@ Voorbeeld: te bepalen
 
 U kunt nu afzonderlijke miniaturen aan elke record toevoegen om ze in een weergave te onderscheiden. In de tabelweergave kunt u afbeeldingsbestanden toevoegen die u eerder als miniaturen op uw computer hebt opgeslagen. De miniaturen kunnen uniek zijn voor elke record en worden weergegeven in de tabel- en tijdlijnweergaven van de recordtypepagina.
 
-Zie voor meer informatie [Miniaturen toevoegen aan records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### Gekoppelde recordtypekaarten verwijderen
 

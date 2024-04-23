@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt bewerken.
-1. Houd de muisaanwijzer boven de kaart van een recordtype en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de recordtypekaart klikt u op **Weergave bijwerken**.
+1. Houd de muisaanwijzer boven de kaart van een recordtype en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de recordtypekaart klikt u op **Bewerken**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. In de **Recordtype bijwerken** werkt u de volgende gegevens bij:
+1. In de **Recordtype bewerken** werkt u de volgende gegevens bij:
 
-   * **Recordnaam**: Bewerk indien nodig de naam van het recordtype. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **Weergave**: Bewerk de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
+   * Bewerk indien nodig de naam van het recordtype. <!--did they add a field label for this? -->
+   * **Beschrijving**: Bewerk of voeg een beschrijving voor het recordtype toe met meer informatie erover.
+   * Bewerk de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
      ![](assets/update-record-type-box.png)
 
-1. Klik buiten de **Recordtype bijwerken** om uw wijzigingen op te slaan.
+1. Klikken **Opslaan**.
 1. (Optioneel) Klik op de kaart met het recordtype in de werkruimte om de pagina met het recordtype te openen.
-1. Klik op de knop **Meer** rechts van de naam van het recordtype klikt u op **Naam wijzigen** de naam van het recordtype wijzigen
+1. Klik op de knop **Meer** rechts van de naam van het recordtype klikt u op **Bewerken** om informatie over het recordtype bij te werken.
 
-   of
+   >[!TIP]
+   >
+   >   U kunt de naam van het recordtype in de koptekst wijzigen.
 
-   Wijzig de naam van het recordtype in de koptekst.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   U kunt de naam van een recordtype ook wijzigen in de koptekst van de pagina van het recordtype.
 1. (Optioneel) Breid de pijl omlaag naar rechts uit van de naam van een recordtype en selecteer een ander recordtype dat u wilt bewerken.

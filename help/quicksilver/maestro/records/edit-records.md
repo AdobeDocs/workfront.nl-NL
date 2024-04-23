@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Als de records die u weergeeft, aan andere records zijn gekoppeld, heeft de nieuwe informatie over de records die u bewerkt, betrekking op de gekoppelde records.
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
 * URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
+* U kunt een omslagafbeelding aan elke record toevoegen. De afbeelding is uniek voor elke record en is niet van toepassing op alle records van hetzelfde moment.
 * U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Records bewerken
@@ -130,7 +131,7 @@ De werkruimte die u het laatst hebt geopend.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
@@ -209,7 +210,18 @@ De werkruimte die u als laatste opent.
    >
    >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
-1. Bewerk de veldinformatie in het vak van de record. Workfront slaat uw wijzigingen automatisch op.
+1. Bewerk de veldinformatie in het vak van de record.
+
+   >[!TIP]
+   >
+   >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
+   >  
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+   >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
+
+1. (Optioneel) Klik op **omslag toevoegen** om een omslagafbeelding aan de record toe te voegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront slaat uw wijzigingen automatisch op.
 
 1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het vak van de record om de pagina van de record te openen op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record op de recordpagina bewerken](#edit-a-record-from-the-records-page) in dit artikel.
 
@@ -227,7 +239,7 @@ De werkruimte die u als laatste opent.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Vanuit om het even welke mening, heb toegang tot de doos van het verslag, zoals die in [Een record uit het vak van de record bewerken in een weergave](#edit-a-record-from-the-records-box-in-a-view) in dit artikel. Klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het recordvak om de pagina van de record op een nieuw tabblad te openen.
+   * Vanuit om het even welke mening, heb toegang tot de doos van het verslag, zoals die in [Een record uit het vak van de record bewerken in een weergave](#edit-a-record-from-the-records-box-in-a-view) in dit artikel en klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het recordvak om de pagina van de record op een nieuw tabblad te openen.
 
    * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
 
@@ -237,12 +249,16 @@ De werkruimte die u als laatste opent.
 
      ![](assets/details-page.png)
 
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Bewerken**
+1. Klik op een bewerkbaar veld op de recordpagina om deze te bewerken.
 
-   of
+   >[!TIP]
+   >
+   >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
+   >  
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md).
+   >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-   Klik binnen een bewerkbaar veld op de recordpagina om de informatie te bewerken.
+1. (Optioneel) Klik op **omslag toevoegen** om een omslagafbeelding aan de record toe te voegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront slaat uw wijzigingen automatisch op.
 
-1. Klikken **Wijzigingen opslaan**.

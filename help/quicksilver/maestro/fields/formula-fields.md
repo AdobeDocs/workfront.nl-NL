@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U kunt aangepaste velden maken in Adobe Workfront Planning door naar bestaande v
 
 Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
-Zie voor meer informatie [Velden maken](../fields/create-fields.md).
+Zie de sectie Formule in het artikel voor meer informatie [Velden maken](../fields/create-fields.md).
 
 ## Toegangsvereisten
 
