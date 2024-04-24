@@ -6,9 +6,9 @@ description: U kunt twee doelstellingen manueel richten of u kunt de resultaten 
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ Voor informatie over het manueel richten van twee doelstellingen, zie [Richt doe
 
 U moet het volgende hebben voordat u kunt beginnen:
 
-* Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
 * Een bestaand doel met bestaande resultaten en activiteiten.
 
   Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).

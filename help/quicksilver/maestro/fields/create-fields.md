@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ U kunt velden op de volgende manieren maken in Maestro:
 
 * Van kras
 * Door recordtypen aan te sluiten
-* Door recordtypen te importeren met een Excel- en CSV-bestand
+* Door recordtypen te importeren met een Excel- of CSV-bestand
 * Door een recordtype te maken
 * Een werkruimte maken op basis van een sjabloon
 
-Zie voor meer informatie over Maestro-velden [Overzicht van veld](../fields/fields-overview.md)
+Zie voor meer informatie over Maestro-velden [Overzicht van veld](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Toegangsvereisten
 
@@ -93,7 +93,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p>
 </td>
   </tr>
 <tr>
@@ -191,7 +191,7 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
-   Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+   Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
 
 ### Meerdere selecties {#multi-select}
@@ -210,11 +210,11 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 1. Klikken **Keuze toevoegen** om zoveel opties toe te voegen als nodig is. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
 1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie
    **Keuzen A-Z sorteren** als u wilt dat de keuzen automatisch in alfabetische volgorde worden weergegeven. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Klik op de knop **x** rechts van een keuze om het te verwijderen.
+1. (Optioneel) Als u een keuze wilt verwijderen, klikt u op **x** rechts van het pictogram.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
 1. Klikken **Maken**.
 
-   Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+   Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
 ### Enkel selecteren {#single-select}
 
@@ -232,11 +232,11 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 
 1. Klikken **Keuze toevoegen** om zoveel opties toe te voegen als nodig is. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
 1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie **Keuzen A-Z sorteren** als u wilt dat de keuzen automatisch in alfabetische volgorde worden weergegeven. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Klik op de knop **x** rechts van een keuze om het te verwijderen.
+1. (Optioneel) Als u een keuze wilt verwijderen, klikt u op **x** rechts van het pictogram.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
 1. Klikken **Maken**.
 
-   Het nieuwe veld Eén keuze wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
+   Het nieuwe veld Eén keuze wordt toegevoegd als kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 ### Datum {#date}
 
@@ -289,7 +289,7 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
 1. Klikken **Maken**.
 
-   Het nieuwe nummerveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
+   Het nieuwe nummerveld wordt als kolom toegevoegd aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 ### Percentage {#percentage}
 
@@ -311,7 +311,7 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
 1. Klikken **Maken**.
 
-   Het nieuwe percentageveld wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+   Het nieuwe percentageveld wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
 ### Valuta {#currency}
 
@@ -349,7 +349,7 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
    * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. Klikken **Maken**.
 
-   Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de bijbehorende waarden kunnen aan records worden gekoppeld.
+   Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
 ### Formule
 
@@ -373,7 +373,7 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
 
    Ga voor meer informatie over welke expressies worden ondersteund naar [Overzicht van formuliervelden](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Voeg veldnamen toe zoals deze worden weergegeven in de Workfront-planningsinterface om ernaar te verwijzen in een formule.
+1. Voeg veldnamen toe zoals deze worden weergegeven in Workfront Planning om ernaar te verwijzen in een formule.
 
    >[!NOTE]
    >
@@ -383,12 +383,12 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/maest
 
 1. Klikken **Maken**.
 
-   Het nieuwe formuleveld wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+   Het nieuwe formuleveld wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
 
 ### Mensen
 
-U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job role, or team--> naar een record. Dit is een typeveld en u kunt alleen gebruikers toevoegen<!--, roles, or teams--> die al in Workfront bestaan.
+U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job role, or team--> naar een record. Dit is een typeveld en u kunt alleen gebruikers toevoegen<!--, roles, or teams--> die al in je Workfront-exemplaar bestaan.
 
 1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Mensen** veldtype.
 
@@ -405,7 +405,7 @@ U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job ro
 
 1. Klikken **Maken**.
 
-   Het nieuwe Mensen-type gebied wordt toegevoegd als kolom aan het verslagtype en zijn waarden kunnen met verslagen worden geassocieerd.
+   Het nieuwe Mensen-type gebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
 ### Gemaakt door
 
@@ -427,7 +427,7 @@ U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heef
 
 ### Aanmaakdatum
 
-Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop een record is gemaakt aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en eventueel met de tijd) waarop de record is gemaakt.
+Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gemaakt aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en eventueel met de tijd) waarop de record is gemaakt.
 
 1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Aanmaakdatum** veldtype.
 
@@ -514,7 +514,7 @@ U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tu
 
 Voor informatie over het verbinden van de registratietypen van de Planning van Workfront, zie [Verbind recordtypen](../architecture/connect-record-types.md)
 
-## Velden maken door recordtypen te importeren met een Excel- en CSV-bestand
+## Velden maken door recordtypen te importeren met een Excel- of CSV-bestand
 
 Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 

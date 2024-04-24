@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,11 @@ U kunt de volgende objecten delen:
   Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront beïnvloeden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * Systeembeheerders kunnen werkruimten beheren en delen die andere gebruikers hebben gemaakt.
 * Als u geen systeembeheerder bent, kunt u aan werkruimten bijdragen die door anderen worden gecreeerd als zij met u worden gedeeld.
-* U kunt werkruimten niet bulksgewijs delen.
+* U kunt werkruimten of weergaven niet bulksgewijs delen.
 * U kunt een werkruimte of een weergave delen met de volgende entiteiten:
    * Gebruikers
    * Groepen
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld. Systeembeheerders kunnen alleen machtigingen krijgen om een weergave te beheren.
 * U kunt een koppeling naar een werkruimte of naar een weergave vanuit een pagina met recordtypen delen met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte of de pagina met recordtypen die wordt weergegeven in de geselecteerde weergave.
 
@@ -114,9 +115,28 @@ De volgende machtigingen verwijzen naar de velden zelf en niet naar de waarden d
 
 U moet afzonderlijke machtigingen verlenen om weergaven op te nemen. Het verlenen van toestemmingen aan de werkruimte verleent geen toestemmingen aan de verslagmeningen in de werkruimte.
 
+<!--You can share views internally or publicly. -->
+
 |        | Beheren | Weergave |
 |--------|--------|-------|
 | Bewerken | ✓ |       |
 | Verwijderen | ✓ |       |
+| Delen | ✓ |       |
 | Weergave | ✓ | ✓ |
 | Toepassen | ✓ | ✓ |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

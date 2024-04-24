@@ -1,15 +1,17 @@
 ---
 title: Een omslagafbeelding aan een record toevoegen
-description: U kunt recordgegevens bewerken in Adobe Workfront Planning en elke record koppelen aan een omslagafbeelding om de pagina van de record aan te passen.
+description: U kunt records personaliseren door een omslagafbeelding toe te voegen aan de recordpagina in Adobe Workfront Planning, wanneer u een record bewerkt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-U kunt recordgegevens bewerken in Adobe Workfront Planning en elke record koppelen aan een omslagafbeelding om de pagina van de record aan te passen.
+U kunt records personaliseren door een omslagafbeelding toe te voegen aan de recordpagina in Adobe Workfront Planning, wanneer u een record bewerkt.
+
+Voor informatie over het bewerken van records raadpleegt u [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
+
 Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
 ## Toegangsvereisten
@@ -81,14 +86,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij omslagafbeeldingen van recordpagina&#39;s
 
-U kunt de pagina van een record personaliseren door er een omslagafbeelding aan toe te voegen. De afbeelding is uniek voor elke record en is niet van toepassing op alle records van hetzelfde type.
+U kunt de pagina van een record personaliseren door er een omslagafbeelding aan toe te voegen.
 
 Overweeg het volgende:
 
+* Een omslagafbeelding is uniek voor één record en is niet van toepassing op alle records van hetzelfde type.
 * U kunt alleen afbeeldingsbestanden als omslagafbeeldingen toevoegen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * U kunt een omslagafbeelding aan afzonderlijke records toevoegen vanuit het recordvak in elke weergave of vanaf de recordpagina.
-* U kunt omslagafbeeldingen niet inline toevoegen vanuit de tabelweergave.
+* U kunt omslagafbeeldingen niet inline toevoegen vanuit recordweergaven.
 
 ## Een omslagafbeelding aan een record toevoegen
 

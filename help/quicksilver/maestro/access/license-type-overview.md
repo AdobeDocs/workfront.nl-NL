@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Een gebruiker met een lager licentietype heeft machtigingen beperkt tot werkruim
 
 >[!INFO]
 >
->**VOORBEELD** Aanvragers (of medewerkers volgens het nieuwe licentiemodel) kunnen geen bijdrage leveren aan werkruimten en hun objecten of deze beheren.
+>**VOORBEELD**
+>
+>Aanvragers (of medewerkers volgens het nieuwe licentiemodel) kunnen geen bijdrage leveren aan werkruimten en hun objecten of deze beheren.
 >
 >Er is een aanwijzing in het vak Delen dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij over een licentie op een lager niveau beschikken.
 >
@@ -45,8 +47,10 @@ In de onderstaande tabel wordt de relatie beschreven tussen het licentietype van
 Het verlenen van gebruikerstoestemmingen aan een werkruimte verleent hen ook toestemmingen om types, verslagen, en gebieden te registreren.
 
 
-| Adobe Workfront-licentietype | Machtigingen toegestaan in Adobe Workfront-planning |
+| Adobe Workfront-licentietype* | Machtigingen toegestaan in Adobe Workfront-planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten, recordtypen en records maken en beheren.<br> Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt. |
 | Nieuw: Licht <br> of <br>Huidig: Werk | Gebruikers kunnen een werkruimte die met hen wordt gedeeld, en de recordtypen en records vanuit die werkruimte, toevoegen en weergeven. <br> Gebruikers kunnen records maken, bewerken en verwijderen in de werkruimten waar zij Contribute-machtigingen hebben. |
 | Nieuw: Medewerker <br> of <br>Huidige: revisor of aanvrager | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes en verslagen van die werkruimten worden gedeeld. <br> Gebruikers kunnen geen recordtypen of records maken, bewerken of verwijderen. |
+
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
