@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren 
        <p><b>OPMERKING</b>:  
        <ul> 
        <li> <p>Gebruikers zonder de machtigingen die u hier opgeeft, kunnen de aangepaste velden en widgets niet zien in de sectie. </p> <p>Dit is ook het geval als u de waarden van de velden in rapporten weergeeft of deze in berekende velden gebruikt in tekstmodusrapportage.</p> </li> 
+       <li><p>Aangepaste formulieren aanvragen/uitgeven: als toegang weergeven nodig is om de velden in het sectie-einde te zien, maar beheerderstoegang nodig is om de velden te bewerken, zijn de sectie en alle velden niet zichtbaar voor niet-beheerders wanneer zij het formulier invullen. Zodra het verzoek is gecreeerd, dan kunnen de gebruikers met de toegang van de Mening de gebieden in de sectie bekijken.</p></li>
        <li> <p>Als u meerdere objecttypen aan uw formulier koppelt, kunt u de weergave- en bewerkingsmachtigingen wijzigen die in deze stappen beschikbaar zijn. Zie voor meer informatie <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Hoe meerdere objecttypen de machtigingen voor secties in een aangepast formulier kunnen beïnvloeden</a> in dit artikel.</p> </li> 
         </ul> </p> </td> 
      </tr> 
