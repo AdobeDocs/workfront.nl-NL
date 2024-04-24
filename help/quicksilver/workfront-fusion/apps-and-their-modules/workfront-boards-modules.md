@@ -9,9 +9,9 @@ description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processe
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ Met deze actiemodule maakt u een nieuwe kaart op een Workfront-kaart.
   </tr> 
   <tr> 
    <td>[!UICONTROL Column ID]</td> 
-   <td>Voer de id in van de kolom waaraan u een subtaak wilt toevoegen of wijs deze toe.<p>U kunt de tag-id vinden in de informatie die wordt geretourneerd uit de module Een bord lezen.</p></td> 
+   <td>Voer de id in van de kolom waaraan u een subtaak wilt toevoegen of wijs deze toe.<p>U kunt kolom ID in de informatie vinden die van Gelezen een bordmodule is teruggekeerd.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -292,7 +292,7 @@ Met deze actiemodule verplaatst u een kaart naar een andere kolom op hetzelfde b
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination column ID]</td> 
-   <td>Voer de id in van de kolom waarnaar u de kaart wilt verplaatsen of wijs deze toe.<p>U kunt de tag-id vinden in de informatie die wordt geretourneerd uit de module Een bord lezen.</p></td> 
+   <td>Voer de id in van de kolom waarnaar u de kaart wilt verplaatsen of wijs deze toe.<p>U kunt kolom ID in de informatie vinden die van Gelezen een bordmodule is teruggekeerd.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To index]</td> 
@@ -346,7 +346,7 @@ Deze actiemodule werkt informatie bij voor een kaart die u opgeeft.
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Voer een nieuwe beschrijving voor de kaart/\ in of wijs deze toe.</p></td> 
+   <td>Voer een nieuwe beschrijving voor de kaart in of wijs deze toe.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Deze actiemodule retourneert informatie over één board, zoals de kaarten, kolo
 
 ### Kolommen
 
+* [Een kolom maken](#create-a-column)
+* [Zoeken naar een kolom](#search-for-a-column)
+* [Een kolom bijwerken](#update-a-column)
+
 #### Een kolom maken
 
 Deze actiemodule leidt tot een nieuwe kolom op de gespecificeerde raad.
@@ -417,8 +421,62 @@ Deze actiemodule leidt tot een nieuwe kolom op de gespecificeerde raad.
    <td>Voer de id in van het bord waaraan u een kolom wilt toevoegen of wijs deze toe.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Voer de id in van de kolom die u wilt bijwerken of wijs deze toe.<p>U kunt kolom ID in de informatie vinden die van Gelezen een bordmodule is teruggekeerd.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Column name]</td> 
-   <td>Voer een naam in of wijs een naam toe aan de nieuwe kolom.</td> 
+   <td>Voer een nieuwe naam voor de kolom in of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Voer een nieuwe WIP-limiet voor de kolom in of wijs deze toe.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Zoeken naar een kolom
+
+Deze zoekmodule geeft informatie over de kolom met de opgegeven naam.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw [!DNL Workfront] app voor [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Verbinding maken met Workfront-kaarten</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Ga of kaart identiteitskaart van de raad in die de kolom bevat u wilt terugwinnen.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Voer de naam in of wijs de naam toe van de kolom die u wilt ophalen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Een kolom bijwerken
+
+Deze actiemodule werkt de naam of de grens van WIP van de gespecificeerde kolom bij.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw [!DNL Workfront] app voor [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Verbinding maken met Workfront-kaarten</a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Ga of kaart identiteitskaart van de raad in die de kolom bevat u wilt terugwinnen.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Voer de naam in of wijs de naam toe van de kolom die u wilt ophalen.</td> 
   </tr> 
  </tbody> 
 </table>
