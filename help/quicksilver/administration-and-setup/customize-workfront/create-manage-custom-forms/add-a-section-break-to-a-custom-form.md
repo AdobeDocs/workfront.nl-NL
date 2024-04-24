@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -223,3 +223,4 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 >U voegt het objecttype Portfolio aan het formulier toe. Dit betekent dat de optie Beperkte bewerking niet meer beschikbaar is voor het sectie-einde in het formulier.
 >
 >Een bericht op het scherm zet u ertoe aan om op de Edit toestemming, die het meest gelijkaardig aan Beperkte Edit is, en compatibel met zowel het de objecten van het Project type als het objecten van het Portfolio type is te schakelen.
+

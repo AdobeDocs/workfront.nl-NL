@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -176,3 +176,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Beginnen met het maken of bewerken van een aangepast formulier en velden toevoegen, zoals beschreven in [Een formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klikken **Voorvertoning** in de rechterbovenhoek om te zien hoe het formulier eruitziet wanneer het wordt gebruikt, klikt u op **Voorvertoning beëindigen** om terug te keren naar het bewerken van het formulier.
+
