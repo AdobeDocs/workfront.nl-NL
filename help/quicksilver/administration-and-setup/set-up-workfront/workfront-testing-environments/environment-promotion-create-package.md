@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. Selecteren **Systeem** in de linkernavigatie selecteert u vervolgens **Milieubevordering**.
 1. Selecteer het pakket in de weergegeven lijst.
 1. (Voorwaardelijk) Schakel de optie **Gecodeerde pakketten tonen** -optie.
-1. Als u de inhoud wilt weergeven, inclusief alle objecten en de bijbehorende subobjecten, klikt u op de vervolgkeuzepijl naast het objecttype in het dialoogvenster **Inhoud** sectie.
-1. Als u de vorige installaties en installatiepogingen van dit pakket wilt weergeven, klikt u op **Inzet**.
-1. Klik op **Pakket bewerken** rechtsboven in het scherm.
+1. (Optioneel) Als u de inhoud wilt weergeven, inclusief alle objecten en de bijbehorende subobjecten, klikt u op de vervolgkeuzepijl naast het objecttype in het dialoogvenster **Inhoud** sectie.
+1. (Optioneel) Klik op **Inzet**.
+1. (Optioneel) Klik op **Pakket bewerken** rechtsboven in het scherm.
 1. Klik op **Installeren** rechtsboven in het scherm.
 
    Zie voor instructies over het installeren van een pakket [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-

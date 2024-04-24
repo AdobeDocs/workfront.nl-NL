@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Deze statussen zijn onder andere:
   </tr> 
   <tr> 
    <td>UITGESCHAKELD</td> 
-   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakketstatus wordt ingesteld op DISABLED, wordt de <code>retiredAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aanbevolen tijdens het gebruik van de<code>DELETE /package</code> eindpunt omdat het terugwinnbaar is en de installatiegeschiedenis voor om het even welke plaatsingen wordt behouden die met dit pakket worden gemaakt.</p></td> 
+   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakketstatus wordt ingesteld op DISABLED, wordt de <code>retiredAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aanbevolen tijdens het gebruik van de<code>DELETE /package</code> eindpunt omdat het terugwinnbaar is, en de installatiegeschiedenis wordt behouden voor om het even welke plaatsingen die met dit pakket worden gemaakt.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
