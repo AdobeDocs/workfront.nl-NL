@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ U kunt dit proces in Workfront uitvoeren door een pakket met objecten te maken d
 
 ## Ondersteunde objecten voor milieubescherming
 
-Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. Het ondersteunt niet de mogelijkheid om transactieobjecten te verplaatsen (met beperkte uitzonderingen).
+Het milieu bevorderend vermogen is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerp van één milieu aan een andere te bewegen. Dit zijn objecten die kunnen worden geconfigureerd, zoals projecten, teams of aangepaste formulieren.
+
+De bevordering van het milieu steunt niet de capaciteit om transactionele voorwerpen te bewegen, (met beperkte uitzonderingen). Transactieobjecten kunnen niet worden geconfigureerd. Voorbeelden zijn updates van systeemactiviteit en proefdrukbeslissingen.
 
 * [Werkobjecten](#work-objects)
 * [Objecten rapporteren](#reporting-objects)
@@ -124,15 +126,15 @@ Deze statussen zijn onder andere:
  <tbody> 
   <tr> 
    <td>UNASSEMBED</td> 
-   <td><p>Deze status wordt automatisch toegewezen en vertegenwoordigt een pakket dat is opgeslagen maar nog niet is samengesteld. </p><p>Deze status kan niet rechtstreeks door een klant worden ingesteld.</p></td> 
+   <td><p>Deze status wordt automatisch toegewezen en vertegenwoordigt een pakket dat is opgeslagen maar nog niet is samengesteld. </p><p>Deze status kan niet rechtstreeks door een gebruiker worden ingesteld.</p></td> 
   </tr> 
   <tr> 
    <td>VERZAMELING</td> 
-   <td><p>Deze status wordt automatisch toegewezen tijdens het samenstellen van objecten. </p><p>Bij samenstellen wordt verwezen naar het geautomatiseerde proces voor het identificeren van objecten en subobjecten die in een pakket moeten worden opgenomen en het toevoegen van die objecten en hun gegevens aan het pakket.</p><p>Deze status kan niet rechtstreeks door een klant worden ingesteld.</p></td> 
+   <td><p>Deze status wordt automatisch toegewezen tijdens het samenstellen van objecten. </p><p>Bij samenstellen wordt verwezen naar het geautomatiseerde proces voor het identificeren van objecten en subobjecten die in een pakket moeten worden opgenomen en het toevoegen van die objecten en hun gegevens aan het pakket.</p><p>Deze status kan niet rechtstreeks door een gebruiker worden ingesteld.</p></td> 
   </tr> 
   <tr> 
    <td>CONCEPT</td> 
-   <td><p>Deze status wordt toegewezen aan het einde van een assemblageproces of bij het maken van een leeg promotiepakket.</p><p>Het is mogelijk dat een klant het promotiepakket terugbrengt naar deze status.</p><p>In deze status kan het promotiepakket niet in een omgeving worden geïnstalleerd.</p></td> 
+   <td><p>Deze status wordt toegewezen aan het einde van een assemblageproces of bij het maken van een leeg promotiepakket.</p><p>Het is mogelijk dat een gebruiker het promotiepakket terugzet naar deze status.</p><p>In deze status kan het promotiepakket niet in een omgeving worden geïnstalleerd.</p></td> 
   </tr> 
   <tr> 
    <td>TESTS</td> 
@@ -144,11 +146,11 @@ Deze statussen zijn onder andere:
   </tr> 
   <tr> 
    <td>UITGESCHAKELD</td> 
-   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakketstatus wordt ingesteld op DISABLED, wordt de <code>retiredAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aanbevolen tijdens het gebruik van de<code>DELETE /package</code> eindpunt omdat het terugwinnbaar is, en de installatiegeschiedenis wordt behouden voor om het even welke plaatsingen die met dit pakket worden gemaakt.</p></td> 
+   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakketstatus wordt ingesteld op DISABLED, wordt de <code>retiredAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aanbevolen tijdens het gebruik van de <code>DELETE /package</code> eindpunt omdat het terugwinnbaar is, en de installatiegeschiedenis wordt behouden voor om het even welke plaatsingen die met dit pakket worden gemaakt.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugplaatsen naar het ASSEMBLING-stadium, moet u het extractieproces opnieuw starten.</p></td> 
+   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugbrengen naar het ASSEMBLING-werkgebied, moet u het assemblageproces opnieuw activeren.</p><p>Zie de sectie voor meer informatie over het samenstellen van een pakket <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Een bestaand pakket bewerken of samenvoegen</a> in het artikel Een pakket voor milieubescherming maken of bewerken.</td> 
   </tr> 
   </tbody> 
 </table>
