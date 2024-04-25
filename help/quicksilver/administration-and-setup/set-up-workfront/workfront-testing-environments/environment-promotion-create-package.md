@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ ht-degree: 0%
 
    De pagina Nieuw promotiepakket wordt geopend.
 
-1. in de **Pakketnaam** voert u een naam in voor het pakket.
+1. In de **Pakketnaam** voert u een naam in voor het pakket.
 1. In de **Beschrijving** Voer een beschrijving in voor dit pakket.
 1. Als u een object aan het pakket wilt toevoegen, klikt u op **Objecten toevoegen** in de linkernavigatie en selecteer het type van voorwerp u wilt toevoegen.
 1. Selecteer een of meer objecten in de lijst of typ de naam in de zoekbalk en selecteer het object wanneer het in de lijst wordt weergegeven. U kunt meerdere objecten in de lijst selecteren.
 1. Klikken **Toevoegen (X-objecten)** om de geselecteerde objecten aan het pakket toe te voegen.
 
-   Als u bijvoorbeeld drie projecten hebt geselecteerd om aan het project toe te voegen, staat in de knop **3 projecten toevoegen**.
+   >[!INFO]
+   >
+   >**Voorbeeld**
+   >
+   >Als u drie projecten hebt geselecteerd om aan het project toe te voegen, zegt de knoop **3 projecten toevoegen**.
 
    De objecten die u hebt toegevoegd, worden weergegeven in het gebied Inhoud pakket rechts van de pagina.
 

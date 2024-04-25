@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Een pakket voor milieubescherming installeren
+
+Nadat u een pakket hebt gemaakt, kunt u het in een andere omgeving installeren.
+
+## Vereisten
+
+U moet een pakket hebben gemaakt voordat u het kunt installeren.
+
+Zie voor instructies [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 Er treden botsingen op wanneer een object dat deel uitmaakt van het installatiepakket, dezelfde naam heeft als een object dat al bestaat in de doelomgeving. Wanneer dit voorkomt, kunt u selecteren hoe te om de botsing op te lossen. De botsingen worden opgelost op het objecten niveau.
 
-U kunt botsingen bekijken door op dropdown naast elk objecten type te klikken. De botsingen worden getoond in de kolom van de Botsing.
+U kunt botsingen bekijken door op drop-down naast elk objecten type te klikken. De botsingen worden getoond in de kolom van de Botsing.
 
 Om een botsing op te lossen, selecteer een actie in de kolom van de Actie van de Plaatsing, of gebruik de standaardactie die reeds wordt getoond.
 
