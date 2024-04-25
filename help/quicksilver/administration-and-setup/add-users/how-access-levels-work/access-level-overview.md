@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1702'
 ht-degree: 0%
 
 ---
@@ -263,6 +263,7 @@ Gebruikers met dit ingebouwde toegangsniveau:
 
 * Kan verzoeken indienen en deze aanvragen bijwerken
 * Documenten uploaden en goedkeuren
+* Kan projecten, taken en problemen goedkeuren
 * Kan de status van de verzonden problemen bekijken
 * Kan worden toegewezen aan werkitems maar kan deze niet voltooien
 * U hebt alleen toegang tot aanvragen via het hoofdmenu. Voor meer informatie over verzoekrijen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
