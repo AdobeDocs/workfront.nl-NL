@@ -6,9 +6,9 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    1. (Optioneel) Klik op [!UICONTROL **Geavanceerde filters gebruiken**] om extra filteropties weer te geven.
 
       Dit is hetzelfde proces als het maken van een filter op een inlaatkolom. Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      Als u de filters op een dynamisch bord bijwerkt nadat deze zijn gemaakt, worden de kaartinstellingen die geen deel uitmaken van de Workfront-taak of -uitgave (zoals codes) opnieuw ingesteld.
 
    1. Klik op [!UICONTROL **Tekengebied maken**].
 
