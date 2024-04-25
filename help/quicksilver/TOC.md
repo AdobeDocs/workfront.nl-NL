@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 80f20ef1020a7040f0a1f5fb47227764bf1f0b54
 workflow-type: tm+mt
-source-wordcount: '14171'
+source-wordcount: '14166'
 ht-degree: 0%
 
 ---
@@ -1743,9 +1743,9 @@ ht-degree: 0%
    * Workfront data Lake {#data-lake}
       * [Overzicht van Workfront-datumpeer](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Een lezeraccount maken](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Een verbinding tot stand brengen met het datumpigment van Workfront](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Gegevenswoordenboek van Workfront-gegevensmeergegevens](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Voorbeelden van query&#39;s voor basisgegevens in Workfront](reports-and-dashboards/data-lake/basic-query-examples.md)
-      * [Gegevens over het datumpeer delen met bedrijfsintelligentiegereedschappen en externe gegevenspakhuizen](reports-and-dashboards/data-lake/share-data-externally.md)
 * Bronnen beheren {#manage-resources}
    * [Bronnen beheren](resource-mgmt/manage-resources.md)
    * Bronbeheer {#resource-management}

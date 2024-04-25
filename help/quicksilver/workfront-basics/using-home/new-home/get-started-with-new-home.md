@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
 
   >[!NOTE]
   >
-  >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan-opdrachten.
+  >U moet over machtigingen beschikken om taken te maken om taken te kunnen uitvoeren in de widget Aan/uit en alleen persoonlijke taken die door de huidige gebruiker zijn ingevoerd, worden in de widget weergegeven.
 
 Standaard bevat de startpagina een aantal specifieke widgets, gebaseerd op het type licentie. In de onderstaande tabellen ziet u welke widgets gebruikers van elk licentietype zien wanneer ze voor het eerst naar New Home navigeren.
 

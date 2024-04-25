@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Een reader-account (service) maken voor Snowflake
 
-Als u toegang wilt tot gegevens over het meer van Workfront, moet u eerst een leesaccount voor Snowflake maken. Bovendien, moet u IPs aan de lijst van gewenste personen voor om het even welke externe hulpmiddelen toevoegen u op het verbinden met de gegevens van plan bent.
+Als u toegang wilt krijgen tot gegevens over het meer van Workfront, moet u eerst een Snowflake reader (of service) account maken voor elke nieuwe verbinding. Nadat u een verbinding hebt gemaakt, kunt u de bijbehorende URL en gebruikersnaam vinden door erop te klikken in het dialoogvenster **Toegang tot gegevens** pagina (**Hoofdmenu** > **Instellen** > **Systeem** > **Toegang tot gegevens**) onder de **Bestaande verbindingen** tab.
+
+Voor informatie over het gebruik van een nieuw gemaakte verbinding met een extern product raadpleegt u [Een verbinding tot stand brengen met het datumpigment van Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Toegangsvereisten
 
@@ -68,28 +70,12 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Workfront-datumpigment in de Snowflake of het bedrijfsvisualisatieprogramma van uw keuze.
 
-## Voeg IPs aan de lijst van gewenste personen toe
-
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Instellen**.
-
-1. Klik in het linkerdeelvenster op **Systeem** > **Gegevenstoegang**.
-
-1. Klik op de knop **Toegestane IPs** en klikt u op de knop **Voeg een IP Adres aan uw Lijst van gewenste personen toe** knop.
-
-1. Voer een naam in voor het IP-adres in **Beschrijving van IP-adres** en voer het IP-adres in voor het gereedschap waarin u wilt gebruiken **IP-adres** en klik vervolgens op **IP toevoegen aan Lijst van gewenste personen**.
-
-   ![IP-adres toevoegen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## Een lezeraccount intrekken of een IP-adres uit de lijst van gewenste personen verwijderen
+## Een lezeraccount intrekken
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Instellen**.
 
 1. Klik in het linkerdeelvenster op **Systeem** > **Gegevenstoegang**.
 
 1. Klik op het pictogram van de trashcan ![Pictogram Verwijderen](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van de account die u wilt intrekken.
-
-   OF
-
-   Klik op de knop **Toegestane IPs** en klik vervolgens op het pictogram van de prullenbak ![Pictogram Verwijderen](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van het IP-adres dat u wilt verwijderen.
 
 1. Schakel in het venster dat wordt weergegeven het selectievakje ter bevestiging in en klik op **Verwijderen**.
