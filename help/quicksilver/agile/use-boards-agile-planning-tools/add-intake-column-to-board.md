@@ -7,7 +7,7 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 0%
@@ -162,3 +162,4 @@ De pictogrammen op de bovenkant recht van de inlaatkolom tonen u hoeveel kaarten
    Klik op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Move]**. Dan, op **[!UICONTROL Move Item]** een andere kolom kiezen en **[!UICONTROL Move]**.
 
 1. (Optioneel) Als u de opnamekolom wilt verwijderen, klikt u op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) en selecteert u **[!UICONTROL Delete]**.
+

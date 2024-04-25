@@ -6,7 +6,7 @@ description: Van de [!UICONTROL boards] kunt u een nieuw board maken of een best
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -109,3 +109,4 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 1. Klikken **[!UICONTROL All Boards]** om terug te keren naar het dashboard voor de raden.
 
    U kunt ook het vervolgkeuzemenu met de naam van het huidige board vinden en erop klikken om naar een ander bord te gaan.
+
