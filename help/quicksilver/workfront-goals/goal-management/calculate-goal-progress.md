@@ -6,9 +6,9 @@ description: De vooruitgang van het doel wordt gedreven door vooruitgangsindicat
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Nadat u een doel hebt geactiveerd, begint u met het berekenen van de voortgang e
 |---|---|
 | Werkelijk percentage voltooid | Hoeveel van het doel is tot nu toe daadwerkelijk bereikt. Workfront Goals berekent deze waarde door het gemiddelde te nemen van het percentage van alle voortgangsindicatoren die bij het doel horen. |
 | Verwacht percentage voltooid | Hoeveel van het doel moet tot nu toe worden verwezenlijkt om het doel tijdig te kunnen voltooien. De Doelen van Workfront berekent deze waarde door de Duur van het doel en het huidige tijdstip te bekijken. Deze waarde moet op het huidige tijdstip worden weergegeven als het doel op tijd moet worden voltooid. |
-| Voortgang | Een label dat aangeeft of het doel op tijd moet worden voltooid of dat het risico loopt of dat het niet kan worden voltooid. |
+| Voortgang | Een label dat aangeeft of het doel op tijd moet worden voltooid of dat het risico loopt of niet kan worden voltooid. |
 
 ![](assets/in-trouble-goal-progress-expanded.png)
 
@@ -81,27 +81,27 @@ De volgende punten worden beschouwd als voortgangsindicatoren voor doelstellinge
 
 * Resultaten
 
-   Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Activiteiten
 
-   Voor informatie over het toevoegen van activiteiten met inbegrip van projecten aan doelstellingen, zie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Voor informatie over het toevoegen van activiteiten met inbegrip van projecten aan doelstellingen, zie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Uitgelijnde onderliggende doelen
 
-   Voor informatie over ouder en kinddoelstellingen, zie [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Voor informatie over ouder en kinddoelstellingen, zie [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-   Workfront Goals berekent het werkelijke percentage voltooid met de volgende formule:
+  Workfront Goals berekent het werkelijke percentage voltooid met de volgende formule:
 
-   ```
-   Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
-   ```
+  ```
+  Actual percent complete of goal = SUM(Percent complete of goal progress indicators)* 100 / Number of progress indicators
+  ```
 
-   Als een doel bijvoorbeeld een resultaat heeft dat 20% voltooid is, een handmatige voortgangsbalk die 30% voltooid is, een project dat 10% voltooid is en een kinderdoel dat 40% voltooid is, is het streefpercentage voltooid 25%.
+  Als een doel bijvoorbeeld een resultaat heeft dat 20% voltooid is, een handmatige voortgangsbalk die 30% voltooid is, een project dat 10% voltooid is en een kinderdoel dat 40% voltooid is, is het streefpercentage voltooid 25%.
 
 ### Verwacht percentage voltooid {#expected-percent-complete}
 
-De Doelen van Workfront berekent automatisch het verwachte percentage voltooide van een doel dat op het totale aantal dagen in de duur van het doel evenals op het aantal dagen wordt gebaseerd die sinds de doel begindatum zijn overgegaan.
+De Doelen van Workfront berekent automatisch het verwachte percentage volledig van een doel dat op het totale aantal dagen in de duur van het doel evenals op het aantal dagen wordt gebaseerd die sinds de doel begindatum zijn overgegaan.
 
 Workfront Goals berekent het verwachte percentage voltooid met de volgende formule:
 
@@ -165,14 +165,14 @@ In de onderstaande tabel staan de labels voor de doelvoorwaarde en de percentage
   <tr> 
    <td> <p><span>Risico</span> </p> </td> 
    <td>Het doel loopt achter, maar het kan nog steeds mogelijk zijn om het op tijd af te ronden. </td> 
-   <td>70-89.99%</td> 
+   <td>70-89,99%</td> 
    <td>Geel</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>In problemen</span> </p> </td> 
    <td> <p>Het is zeer waarschijnlijk dat het doel niet op tijd zal worden bereikt. </p> </td> 
-   <td>0-69.99%</td> 
+   <td>0-69,99%</td> 
    <td>Rood</td> 
    <td><img src="assets/in-trouble-icon-condition.png" alt="in_Probleem_pictogram_voorwaarde.png"></td> 
   </tr> 

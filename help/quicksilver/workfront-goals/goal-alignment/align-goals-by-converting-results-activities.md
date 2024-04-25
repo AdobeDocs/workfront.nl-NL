@@ -6,9 +6,9 @@ description: U kunt twee doelstellingen manueel richten of u kunt de resultaten 
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -22,56 +22,54 @@ Voor informatie over het manueel richten van twee doelstellingen, zie [Richt doe
 
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront-abonnement*</td>
-   <td>
-   <p>Nieuw abonnement: Selecteren of hoger</p>
-   of
-   <p>Huidig abonnement: Pro of hoger</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront-licentie*</td>
-   <td>
-   <p>Huidige licentie: contribuant of hoger</p>
-   of
-   <p>Verouderde licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product*</td>
-   <td>
-   <p> Nieuwe productbehoefte, één van het volgende: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront-plan</td>
+ <td>
+ <p>Alle</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td>
+ <p>Huidige licentie: contribuant of hoger</p>
+ of
+ <p>Verouderde licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> Nieuwe productbehoefte, één van het volgende: </p>
 <ul>
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
-   <p>of</p>
-   <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Toegang tot doelen bewerken</p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Objectmachtigingen</td>
-   <td>
-    <div>
-     <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
-     <p>Machtigingen beheren om het te bewerken</p>
-     <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
-    </div> </td>
-  </tr>
+ <p>of</p>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objectmachtigingen</td>
+ <td>
+  <div>
+  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
+  <p>Machtigingen beheren om het te bewerken</p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
    <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

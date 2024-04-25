@@ -6,9 +6,9 @@ description: U kunt doelstellingen bekijken die u of iemand anders in de Doelen 
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -19,104 +19,60 @@ U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Wor
 
 ## Toegangsvereisten
 
-<!--drafted - replace the table below with this one when P&P releases: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
--->
-
 U moet de volgende toegang hebben om de handelingen uit te voeren die in dit artikel worden beschreven:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>U moet een extra licentie voor de Adobe Workfront Goals aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot doelen weergeven of vergroten</p> <p><b>OPMERKING</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront-plan</td>
+ <td>
+ <p>Alle</p>
 
-<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Toegang tot Adobe Workfront-doelen verlenen</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> 
-    <div> 
-     <p>De toestemmingen van de mening of hoger op doelstellingen</p> 
-     <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td>
+ <p>Nieuwe licentie: Medewerker of hoger</p>
+ of
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> Nieuwe productbehoefte, één van het volgende: </p>
+<ul>
+<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
+<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
+ <p>of</p>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objectmachtigingen</td>
+ <td>
+  <div>
+  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
+  <p>Machtigingen beheren om het te bewerken</p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
-
-## Vereisten
-
-U moet het volgende hebben voordat u kunt beginnen:
-
-* Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overzicht van filters in Workfront Goals
 
@@ -124,7 +80,7 @@ U moet het volgende hebben voordat u kunt beginnen:
 >
 >We raden u aan filters te gebruiken in Workfront Goals om op efficiënte wijze de juiste doelen te vinden en de focus op de juiste doelen te plaatsen. Dit staat u toe om de correcte informatie te tonen alvorens u begint doelstellingen te leiden die voor u belangrijk zijn. Standaard geeft Workfront Goals alle doelen in het systeem weer.
 
-In Workfront kunt u zoeken naar doelen in de volgende secties van het gebied Doelen en filteren:
+In Workfront kunt u zoeken naar doelen in de volgende secties van het gebied Doelen en hierop filteren:
 
 * Lijst met doelen
 * Grafieken
@@ -140,7 +96,7 @@ Houd rekening met het volgende wanneer u werkt met filters in Workfront Goals:
 
 * U kunt een filter maken en toepassen zonder het op te slaan, of u kunt een filter opslaan om later opnieuw te gebruiken.
 
-   De volgende scenario&#39;s bestaan:
+  De volgende scenario&#39;s bestaan:
 
    * Wanneer u een filter opslaat, wordt dit het standaardfilter voor u wanneer u zich aanmeldt bij Workfront Goals.
    * Wanneer u een filter toepast zonder het op te slaan, kunt u terugkeren naar de originele lijsten door de pagina te vernieuwen.
@@ -166,7 +122,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
    Standaard wordt de sectie Lijst met doelstellingen weergegeven.
 
-1. Klikken **Filter** in de rechterbovenhoek van de lijst.
+1. Klikken **Filter** rechtsboven in de lijst.
 
    ![](assets/filter-icon-and-label.png)
 
@@ -180,7 +136,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
    * Klik op een van de volgende vooraf gedefinieerde filters om alleen de volgende doelen weer te geven:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -198,8 +154,8 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
         <td>Mijn teams</td> 
         <td> <p>De doelstellingen waarvoor om het even welk van uw teams als eigenaar wordt geselecteerd. </p> <p><b>TIP</b>
 
-      Geen doelstellingen tonen wanneer u niet aan om het even welke teams wordt toegewezen. </p> </td>
-      </tr> 
+     Geen doelstellingen tonen wanneer u niet aan om het even welke teams wordt toegewezen. </p> </td>
+     </tr> 
        <tr> 
         <td>Mijn groepen</td> 
         <td>De doelstellingen waarvoor om het even welke van uw groepen als eigenaar wordt geselecteerd. </td> 
@@ -216,7 +172,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
    * Klikken **Nieuw filter** om een nieuw filter te maken, selecteert u een van de volgende opties om het nieuwe filter aan te passen:
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -248,7 +204,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
         <td> <p>Typ de naam van een eigenaar en selecteer deze wanneer deze in de lijst wordt weergegeven. </p> <p>U kunt de namen van gebruikers, teams, groepen of de naam van uw organisatie typen of u kunt een van de vooraf gedefinieerde opties selecteren. </p> <p>De volgende vooraf gedefinieerde filteropties verwijzen altijd naar de gebruiker die momenteel is aangemeld: </p> 
          <ul> 
           <li> <p><strong>Mij</strong>: Hiermee geeft u doelen weer waar u de eigenaar bent.</p> </li> 
-          <li> <p><strong>Mijn thuisteam</strong> en <strong>Al mijn teams</strong>: De doelstellingen van vertoningen waar of uw Team van het Huis of om het even welk van uw teams als eigenaar worden aangewezen. </p> <p>Tip: Geen doelstellingen tonen wanneer u niet aan om het even welke teams wordt toegewezen. </p> </li> 
+          <li> <p><strong>Mijn thuisteam</strong> en <strong>Al mijn teams</strong>: De doelstellingen van vertoningen waar of uw Team van het Huis of om het even welk van uw teams als eigenaar worden aangewezen. </p> <p>Tip: er worden geen doelen weergegeven wanneer u niet aan een team bent toegewezen. </p> </li> 
           <li> <p><strong>Mijn startgroep</strong> en <strong>Al mijn groepen</strong>: Hiermee geeft u doelen weer waarbij uw thuisgroep of een van uw groepen is aangewezen als eigenaar.</p> </li> 
          </ul> </td> 
        </tr> 
@@ -287,7 +243,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
    De lijst met doelen wordt gefilterd door de filtercriteria.
 
-1. (Optioneel en voorwaardelijk) Als u doelen weergeeft in het gedeelte Uitlijning van doel, klikt u op **Deze weergeven** als u de gefilterde doelstellingen wilt bekijken.
+1. (Optioneel en voorwaardelijk) Klik bij het bekijken van doelen in het gedeelte Uitlijning van doel op **Deze weergeven** als u de gefilterde doelstellingen wilt bekijken.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 

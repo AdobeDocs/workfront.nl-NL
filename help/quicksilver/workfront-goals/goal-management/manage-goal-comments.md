@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> </td>
+ <p>Alle</td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -65,7 +63,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  </tr>
  <tr>
  <td role="rowheader">Configuratie op toegangsniveau</td>
- <td> <p>Toegang tot doelen weergeven of vergroten</p> <p><b>OPMERKING</b><p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Zie voor meer informatie <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Toegang tot Adobe Workfront-doelen verlenen</a></span></td>
+ <td> <p>Toegang tot doelen weergeven of vergroten</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objectmachtigingen</td>
@@ -76,10 +74,15 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 

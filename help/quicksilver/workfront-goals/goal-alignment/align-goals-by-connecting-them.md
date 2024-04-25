@@ -6,15 +6,14 @@ description: Als u een individuele medewerker bent die een persoonlijk doel heef
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
 
 # Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden
-
 
 Als u een individuele medewerker bent die een persoonlijk doel heeft, kunt u het aan de doelstellingen van uw team willen richten om de vooruitgang van uw eigen doel in de grotere context van de strategie van uw organisatie effectief te tonen.
 
@@ -37,56 +36,54 @@ In dit artikel wordt beschreven hoe u doelen kunt uitlijnen door ze met elkaar t
 U moet het volgende hebben:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront-abonnement*</td>
-   <td>
-   <p>Nieuw abonnement: Selecteren of hoger</p>
-   of
-   <p>Huidig abonnement: Pro of hoger</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront-licentie*</td>
-   <td>
-   <p>Huidige licentie: contribuant of hoger</p>
-   of
-   <p>Verouderde licentie: aanvragen of hoger</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product*</td>
-   <td>
-   <p> Nieuwe productbehoefte, één van het volgende: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront-plan</td>
+ <td>
+ <p>Alle</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td>
+ <p>Huidige licentie: contribuant of hoger</p>
+ of
+ <p>Verouderde licentie: aanvragen of hoger</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> Nieuwe productbehoefte, één van het volgende: </p>
 <ul>
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
-   <p>of</p>
-   <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Toegangsniveau</td>
-   <td> <p>Toegang tot doelen bewerken</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Objectmachtigingen</td>
-   <td>
-    
-     <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
-     <p>Machtigingen beheren om het te bewerken</p>
-     <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
-     </td>
-  </tr>
+ <p>of</p>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Objectmachtigingen</td>
+ <td>
+
+<p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
+  <p>Machtigingen beheren om het te bewerken</p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+   </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
    <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
