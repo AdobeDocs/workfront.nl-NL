@@ -5,7 +5,8 @@ title: Workfront Fusion gebruiken om een Workfront-project te maken met Adobe Ex
 description: Als u een project via Workfront Fusion maakt en Adobe Experience Manager-workflows wilt opnemen in het project, moet u een specifieke Fusion-moduleconfiguratie gebruiken, zoals in dit artikel wordt beschreven.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -41,8 +42,25 @@ U moet het volgende hebben:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>:<ul><li><p>U moet Experience Manager Assets hebben as a Cloud Service of Assets Essentials, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p></li><li><p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p></li></ul>
-  <b>Workfront Fusion</b>:<p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul>   <p>of</p>
+   <td><b>Adobe Experience Manager<b>:
+   <ul>
+   <li>
+   <p>U moet Experience Manager Assets hebben as a Cloud Service of Assets Essentials, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p>
+   </li
+   ><li>
+   <p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>:<p>Nieuw:</p>
+   <ul>
+   <li>
+   <p>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</p>
+   </li>
+   </ul>
+   <p>of</p>
    <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -156,7 +174,4 @@ Voor de verbinding van deze module moet u in Workfront een OAuth-toepassing inst
 U zult deze identiteitskaart van de Cliënt en het geheim van de Cliënt gebruiken wanneer het vormen van de verbinding van de module in Fusion.
 
 Zie voor instructies over het maken van een verbinding [Verbinden [!DNL Workfront] tot [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in de Workfront-modules.
-
-
-
 
