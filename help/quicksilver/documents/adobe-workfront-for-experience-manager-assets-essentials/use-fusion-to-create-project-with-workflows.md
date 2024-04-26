@@ -6,7 +6,7 @@ description: Als u een project via Workfront Fusion maakt en Adobe Experience Ma
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ U moet het volgende hebben:
    <p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>Nieuw:</p>
+   <b>Workfront Fusion</b>:<p>Nieuw:</p>
    <ul>
    <li>
    <p>Select or Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
@@ -68,8 +68,8 @@ U moet het volgende hebben:
    <td><strong>Configuraties op toegangsniveau*</strong>
    </td>
    <td>Toegang tot documenten bewerken
-<p>
-<strong>Opmerking: </strong>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong>Aangepaste toegangsniveaus maken of wijzigen</strong>.
+   <p>
+   <strong>Opmerking: </strong>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong>Aangepaste toegangsniveaus maken of wijzigen</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Voor de verbinding van deze module moet u in Workfront een OAuth-toepassing inst
 U zult deze identiteitskaart van de Cliënt en het geheim van de Cliënt gebruiken wanneer het vormen van de verbinding van de module in Fusion.
 
 Zie voor instructies over het maken van een verbinding [Verbinden [!DNL Workfront] tot [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in de Workfront-modules.
-
