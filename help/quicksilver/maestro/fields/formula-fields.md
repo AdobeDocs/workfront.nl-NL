@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-U kunt aangepaste velden maken in Adobe Workfront Planning door naar bestaande velden te verwijzen en deze met een formule te verbinden. U kunt dit doen door een aangepast Formule-type gebied tot stand te brengen.
+U kunt douanegebieden in de Planning van Adobe Workfront tot stand brengen door naar bestaande gebieden te verwijzen en hen te verbinden op een Formule-type gebied.
 
 Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
@@ -154,7 +154,7 @@ Daarnaast ondersteunen we de volgende expressies voor velden van de Workfront-pl
 
 <tr> 
    <td><strong>WEEKOFYYEAR</strong> </td> 
-   <td> <p>Retourneert het weekgetal in een jaar. U kunt ook aangeven op welke dag de week begint (gebruik 1 voor zondag of 2 voor maandag). Als u dit opgeeft, beginnen weken standaard op zondag.</p> <p>De expressie wordt als volgt opgemaakt:
+   <td> <p>Retourneert het weekgetal in een jaar. U kunt ook aangeven op welke dag de week begint (gebruik 1 voor zondag of 2 voor maandag). Indien weggelaten, beginnen weken standaard op zondag.</p> <p>De expressie wordt als volgt opgemaakt:
 
 <code>WEEKOFYEAR(datum,2)</code>
 of

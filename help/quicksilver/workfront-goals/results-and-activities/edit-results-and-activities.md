@@ -7,9 +7,9 @@ description: Nadat uw Adobe Workfront-beheerder u de juiste toegang tot de doels
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -27,104 +27,60 @@ Raadpleeg de volgende artikelen voor informatie over het maken van doelen, resul
 
 ## Toegangsvereisten
 
-<!--drafted for P&P release: replace the table below with this: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
-</table>
-
--->
 U moet het volgende hebben:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td> <p>U moet een extra licentie voor de Adobe Workfront Goals aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot doelen bewerken</p> <p><b>OPMERKING</b>
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront-plan</td>
+ <td>
+ <p>Alle</p>
 
-<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Toegang tot Adobe Workfront-doelen verlenen</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> 
-    <div> 
-     <p>Rechten voor het doel beheren</p> 
-     <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td>
+ <p>Nieuwe licentie: Medewerker of hoger</p>
+ of
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> Nieuwe productbehoefte, één van het volgende: </p>
+<ul>
+<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
+<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
+ <p>of</p>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader"><p>Toegangsniveau</p></td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objectmachtigingen</td>
+ <td>
+  <div>
+  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
+  <p>Machtigingen beheren om het te bewerken</p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
-
-## Vereisten
-
-U moet het volgende hebben voordat u kunt beginnen:
-
-* Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bewerken van resultaten en activiteiten
 
@@ -135,19 +91,18 @@ According to Vazgen, access levels will add more considerations.)
 * U kunt resultaten en activiteiten uitgeven die tot doelstellingen behoren u creeerde of aan doelstellingen die u toestemmingen hebt te leiden.
 * U kunt de vooruitgang van projecten die met doelstellingen worden verbonden niet als activiteiten van de Doelen van Workfront uitgeven. De voortgang van projecten wordt bijgewerkt wanneer de taken in het project zijn voltooid. U kunt projecten uit het doel verwijderen door hen los te maken. Voor meer informatie, zie de &quot;losmaakt projecten&quot;sectie in het artikel [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 
-   >[!NOTE]
-   >
-   >Als de volgende projectinformatie op het projectniveau bijwerkt, werkt de Doelen van Workfront het op het doelniveau automatisch bij:
-   >
-   >   
-   >   
-   >   * Projecteigenaar
-   >   * Projectnaam
-   >   * Projectpercentage voltooid
-
-   >   
-   >   
-   >Voor informatie over het verbinden van projecten met doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >[!NOTE]
+  >
+  >Als de volgende projectinformatie op het projectniveau bijwerkt, werkt de Doelen van Workfront het op het doelniveau automatisch bij:
+  >
+  >   
+  >   
+  >   * Projecteigenaar
+  >   * Projectnaam
+  >   * Projectpercentage voltooid
+  >   
+  >   
+  >Voor informatie over het verbinden van projecten met doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * U kunt resultaten en activiteiten van doelstellingen schrappen wanneer zij niet meer relevant voor de doelvooruitgang zijn. Verwijderde resultaten en activiteiten kunnen niet worden hersteld. Voor informatie over het verwijderen van resultaten en activiteiten raadpleegt u [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * U kunt resultaten en activiteiten verbonden aan doelstellingen van om het even welke tijdspanne, met inbegrip van in het verleden uitgeven.
@@ -190,7 +145,7 @@ Editing results differs depending on which environment you use.
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Bewerk de volgende gegevens:
-   * **Resultaatnaam**: De naam van het resultaat. Gebruik een beschrijvende naam die aangeeft welk resultaat u moet behalen om het doel te bereiken.
+   * **Resulterende naam**: De naam van het resultaat. Gebruik een beschrijvende naam die aangeeft welk resultaat u moet behalen om het doel te bereiken.
    * **Resultaateigenaar**: De eigenaar van het resultaat. De eigenaar moet een actieve Workfront-gebruiker zijn.
    * **Type waarde**: Hoe u de voortgang van het resultaat meet.
    * **Beginwaarde**: De oorspronkelijke waarde van het resultaat.
@@ -237,7 +192,7 @@ Editing activities differs depending on which environment you use.
 1. Bewerk de volgende gegevens:
    * **Naam activiteit**: De naam van de activiteit. Gebruik een beschrijvende naam die illustreert welke activiteit u zou moeten uitvoeren om erop te wijzen dat het doel voltooit.
    * **Eigenaar activiteit:** De eigenaar van de activiteit. De eigenaar moet een actieve Workfront-gebruiker zijn.\
-      Zie voor meer informatie over activiteitsvelden [Activiteiten toevoegen aan doelen](../results-and-activities/add-activities-to-goals.md).
+     Zie voor meer informatie over activiteitsvelden [Activiteiten toevoegen aan doelen](../results-and-activities/add-activities-to-goals.md).
 1. Klikken **Opslaan**.
 
 
