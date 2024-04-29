@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,10 @@ Workfront Fusion ondersteunt alleen op Chrome gebaseerde browsers.
 ## Uitvoeringshistorie
 
 * Logbestanden met uitvoeringshistorie zijn beperkt tot een grootte van **100 MB**. Als de uitvoeringsgeschiedenis deze grootte overschrijdt, slechts zal eerste 100 MB worden getoond.
+
+## Onvolledige uitvoeringen
+
+Onvolledige uitvoeringen zijn beperkt tot een totale omvang van **500 MB**. Als de limiet van 500 MB is bereikt, worden geen onvolledige uitvoeringen meer opgeslagen.
 
 ## Opnieuw
 
