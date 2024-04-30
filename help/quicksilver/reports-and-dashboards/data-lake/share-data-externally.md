@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Om uw gegevens van het gegevensMeer van Workfront met een extern product te verb
 
 1. Klik op de knop **Toegestane IPs** en klikt u op de knop **Voeg een IP Adres aan uw Lijst van gewenste personen toe** knop.
 
-1. Voer een naam in voor het IP-adres in **Beschrijving van IP-adres** en voer het IP-adres in voor het gereedschap waarin u wilt gebruiken **IP-adres** en klik vervolgens op **IP toevoegen aan Lijst van gewenste personen**.
+1. Voer een naam in voor het IP-adres in **Beschrijving van IP-adres** en ga het IP adres (of blok CIDR) voor het hulpmiddel in u binnen wilt gebruiken **IP-adres** en klik vervolgens op **IP toevoegen aan Lijst van gewenste personen**.
 
    ![IP-adres toevoegen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
