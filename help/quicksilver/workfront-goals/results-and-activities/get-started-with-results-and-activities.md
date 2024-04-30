@@ -7,48 +7,31 @@ description: U moet resultaten, activiteiten, of gerichte doelstellingen aan een
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met resultaten en activiteiten in Adobe Workfront Goals
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 
->[!NOTE]
->
->Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
->
->* Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
->* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
->
->  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
->
->Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Voor het nieuwe plan en de nieuwe licentiestructuur:
 
+   * Een ultiem plan
+
+     of
+
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
+
+* Voor het huidige plan en de licentiestructuur:
+
+   * Een Pro of hoger
+   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+
+Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
 Wanneer u een doel creeert, heeft het doel een status van Ontwerp. Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
 
@@ -66,7 +49,7 @@ Nadat minstens één van deze punten wordt toegevoegd, kunt u het doel activeren
 >
 > Een doel kan niet meer dan 1000 activiteiten, resultaten, projecten, of gerichte doelstellingen hebben.</span>
 
-In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Voor informatie over het richten van doelstellingen, zie [Doelstellingen in Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Voor informatie over het verbinden van projecten met doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Voor informatie over het richten van doelstellingen, zie [Doelstellingen in Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Voor informatie over het verbinden van projecten met doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Overzicht van resultaten
 
@@ -85,7 +68,7 @@ Houd rekening met het volgende wanneer u met resultaten werkt:
 * Ze beantwoorden de vraag: &quot;Hoe weet ik wanneer mijn doel is voltooid?&quot;
 * Het zijn metrische indicatoren. U kunt een van de volgende opties selecteren om de voortgang van het resultaat aan te geven:
 
-   <!--
+  <!--
   this might change (jira, Salesforce, etc))
   -->
 
@@ -108,7 +91,7 @@ Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [Act
 Overweeg het volgende wanneer het associëren van activiteiten met uw doelstellingen:
 
 * Ze beantwoorden de vraag: &quot;Wat zal ik bereiken als het doel is voltooid?&quot;
-* Activiteiten zijn aangepaste items die kunnen worden beschouwd als compleet of onvolledig. Ze moeten handmatig worden bijgewerkt om aan te geven welk percentage van de activiteiten tot dusver is voltooid.
+* Activiteiten zijn aangepaste items die kunnen worden beschouwd als compleet of onvolledig. Ze moeten handmatig worden bijgewerkt om aan te geven welk percentage van de activiteiten tot dusverre is voltooid.
 
 <!--
 * You can associate the following activities with goals:
@@ -138,7 +121,7 @@ Zie de lijst met overeenkomsten tussen resultaten en activiteiten in de sectie v
 
 Resultaten, activiteiten en projecten zijn indicatoren voor de voortgang van het doel.
 
-Er zijn sommige verschillen in de manier u projecten tegenover de manier beheert u resultaten en activiteiten. Voor informatie over het toevoegen van projecten aan doelstellingen, zie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Voor informatie over projecten die met doelstellingen worden verbonden, zie [Projecten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Er zijn sommige verschillen in de manier u projecten tegenover de manier beheert u resultaten en activiteiten. Voor informatie over het toevoegen van projecten aan doelstellingen, zie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Voor informatie over projecten die met doelstellingen worden verbonden, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 Naast resultaten, activiteiten, en projecten, kunt u kinddoelstellingen aan een doel ook associëren. De doelstellingen van kinderen zijn ook een type van vooruitgangsindicator voor een doel. Zie voor meer informatie [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../goal-alignment/align-goals-by-connecting-them.md). De vooruitgang van de voortgangsindicatoren van het doel van het kind drijft ook de vooruitgang van het ouderdoel.
 

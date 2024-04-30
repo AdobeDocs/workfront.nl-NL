@@ -6,46 +6,33 @@ description: De vooruitgang van het doel wordt gedreven door vooruitgangsindicat
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de voortgang en conditie van het doel in de Adobe Workfront-doelstellingen
 
-<!--drafted for P&P release: the note at the top will need to be replaced with this:
+Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 
-Your organization must have the following to use the functionality described in this article:
+* Voor het nieuwe plan en de nieuwe licentiestructuur:
 
-* For the legacy plan and license structure: 
+   * Een ultiem plan
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     of
 
-* For the current plan and license structure:
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Voor het huidige plan en de licentiestructuur:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * Een Pro of hoger
+   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
->[!NOTE]
->
->Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
->
->* Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
->* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
->
->Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
->Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront berekent automatisch de voortgang van het doel op basis van de voortgangsindicatoren.
 

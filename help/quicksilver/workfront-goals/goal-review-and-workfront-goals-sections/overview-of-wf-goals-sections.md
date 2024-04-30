@@ -7,26 +7,31 @@ description: U hebt toegang tot lijsten met doelen of individuele doelen en kunt
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de secties Adobe Workfront Goals
 
+Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 
->[!NOTE]
->
->Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
->
->* Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
->* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
->
->  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
->
->Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Voor het nieuwe plan en de nieuwe licentiestructuur:
+
+   * Een ultiem plan
+
+     of
+
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
+
+* Voor het huidige plan en de licentiestructuur:
+
+   * Een Pro of hoger
+   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+
+Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
 Nadat uw beheerder van Workfront u toegang tot de Doelen van Workfront heeft verleend, kunt u doelstellingen bekijken die u of iedereen in uw organisatie in het gebied van de Doelstellingen van Workfront wordt gecreeerd.
 
@@ -59,11 +64,11 @@ Gebruik de Lijst met doelen voor het volgende:
 * De doelstellingen van het overzicht en hun informatie (bijvoorbeeld, naam, eigenaar, vooruitgang, of voorwaarde).
 * Voeg nieuwe doelen toe.
 
-   Zie voor meer informatie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
+  Zie voor meer informatie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
 
 * Open de pagina van een doel en bewerk en werk het doel, de resultaten of de activiteiten ervan bij
 
-   Zie voor meer informatie [Doelen in Adobe Workfront-doelen bewerken](../../workfront-goals/goal-management/edit-goals.md).
+  Zie voor meer informatie [Doelen in Adobe Workfront-doelen bewerken](../../workfront-goals/goal-management/edit-goals.md).
 
 * Doelen bewerken.
 
@@ -94,7 +99,7 @@ Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
-Gebruik het gedeelte Uitlijning doel als volgt:
+Gebruik het gedeelte Uitlijning doel voor het volgende:
 
 * De doelstellingen van de mening die tot u of uw organisatie in een kaartformaat behoren.
 * Geef de objecthiërarchie weer en bekijk uitgelijnde onderliggende doelen.

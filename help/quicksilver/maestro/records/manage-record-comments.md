@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,21 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
 * U kunt gebruikers tags toewijzen om hun aandacht te vestigen op een update. Gelabelde gebruikers ontvangen geen melding in de app of een e-mail over uw update. <!--this might change??-->
 
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/maestro/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
 * U kunt een update aan verslagen toevoegen en de geschiedenis van veranderingen van de volgende gebieden van de Planning van Workfront herzien:
 
-   * Van de recordpagina.
-
-  <!--* From the table view.-->
+   * Van de pagina met recorddetails.
+   * Vanuit een weergave, in het vak met recorddetails.
 
 ## Toegangsvereisten
 
@@ -132,6 +142,9 @@ De laatst geopende werkruimte wordt standaard geopend.
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
 1. (Optioneel) Toevoegen **@** gevolgd door de naam van een gebruiker om iemand in de update van tags te voorzien.
+
+   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+
 1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het artikel voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]

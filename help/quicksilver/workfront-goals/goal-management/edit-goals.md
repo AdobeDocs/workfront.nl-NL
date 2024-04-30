@@ -6,9 +6,9 @@ description: U kunt bestaande doelen op elk gewenst moment en in elke gewenste s
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,18 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront-plan</td>
- <td>
- <p>Alle</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td> 
+   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
+  <ul><li>Een ultiem plan </li>
+  of
+  <li>Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. </li></ul> </p>
+<p>Voor het huidige plan en de licentiestructuur: 
+<ul><li> Een Pro of hoger </li>
+  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
  <td>

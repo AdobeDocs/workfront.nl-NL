@@ -5,47 +5,34 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Adobe Workfront-doelen
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 
-Your organization must have the following to use the functionality described in this article:
+* Voor het nieuwe plan en de nieuwe licentiestructuur:
 
-* For the legacy plan and license structure: 
+   * Een ultiem plan
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     of
 
-* For the current plan and license structure:
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* Voor het huidige plan en de licentiestructuur:
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * Een Pro of hoger
+   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
 
->[!NOTE]
->
->Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
->
->* Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
->* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
->
->Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
-Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Elke organisatie moet duidelijke doelstellingen plaatsen en meedelen om hun teams productief, gericht, en betrokken te houden. Het is van essentieel belang dat we weten hoe werk op de strategie is afgestemd. Maar zonder een systeem van verslagen dat uw strategie en doelstellingen met het werk in de organisatie verbindt, kan het bereiken van aanpassing echt moeilijk zijn.
 
@@ -114,21 +101,21 @@ Ga als volgt te werk:
 
 * Herzie en activeer voorgestelde doelstellingen.
 
-   Tot nu toe zijn uw doelstellingen in een &quot;concept&quot;staat geweest, maar zodra u hebt verfijnd en klaar bent met het ingaan van de eerste niveaus van de objecthiërarchie, is het nu tijd om hen te activeren.
+  Tot nu toe zijn uw doelstellingen in een &quot;concept&quot;staat geweest, maar zodra u hebt verfijnd en klaar bent met het ingaan van de eerste niveaus van de objecthiërarchie, is het nu tijd om hen te activeren.
 
-   Na het activeren van uw doelstellingen, communiceren met de teams die uiteindelijk het werk zullen uitvoeren en beheren dat deze resultaten zal drijven. Zoals in Workfront kan worden verbonden met doelen in Workfront Goals, zien teams echt de verbondenheid tussen hun werk en resultaten.
+  Na het activeren van uw doelstellingen, communiceren met de teams die uiteindelijk het werk zullen uitvoeren en beheren dat deze resultaten zal drijven. Zoals in Workfront kan worden verbonden met doelen in Workfront Goals, zien teams echt de verbondenheid tussen hun werk en resultaten.
 
 * Trapsgewijs en op één lijn brengen van driemaandelijkse doelstellingen en activiteiten toevoegen aan doelen.
 
-   Als u doelstellingen met een jaarplan in mening hebt bepaald, kunt u driemaandelijkse doelstellingen willen daarna plaatsen. Terwijl u projectplannen definieert en verfijnen voor hoe u deze doelen gaat bereiken, zult u ook activiteiten met deze doelen gaan uitlijnen.
+  Als u doelstellingen met een jaarplan in mening hebt bepaald, kunt u driemaandelijkse doelstellingen willen daarna plaatsen. Terwijl u projectplannen definieert en verfijnen voor hoe u deze doelen gaat bereiken, zult u ook activiteiten met deze doelen gaan uitlijnen.
 
-   Activiteiten kunnen ofwel basisactiviteiten zijn die binnen het doel zelf worden gecreëerd, ofwel activiteiten kunnen worden gekoppeld aan Workfront-projecten.
+  Activiteiten kunnen ofwel basisactiviteiten zijn die binnen het doel zelf worden gecreëerd, ofwel activiteiten kunnen worden gekoppeld aan Workfront-projecten.
 
 * Vestig een gemak voor hoe vaak u driemaandelijkse of stijgende doelstellingen in de toekomst zult herzien en plaatsen. Wij adviseren dat u doelstellingen voor elke planningsperiode maar niet om hen in kaart te brengen te ver van tevoren plaatst, zodat kunt u nimble en ontvankelijk blijven aan verschuivingen in de zaken.
 
 * Werk uw doelstellingen regelmatig bij. Dit is een moment waarop u verslag uitbrengt over de voortgang van een doel.
 
-   Raadpleeg de volgende artikelen voor informatie over het activeren, toevoegen van activiteiten en het bijwerken van doelen:
+  Raadpleeg de volgende artikelen voor informatie over het activeren, toevoegen van activiteiten en het bijwerken van doelen:
 
    * [Doelen in Adobe Workfront-doelen activeren](../../workfront-goals/goal-management/activate-goals.md)
    * [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -138,7 +125,7 @@ Ga als volgt te werk:
 
 Volg deze richtlijnen om ervoor te zorgen dat u behoorlijk wordt gevormd om begonnen te worden:
 
-* Identificeer de primaire individuen in uw organisatie die voor het leiden van de verwezenlijking van elk doel verantwoordelijk zullen zijn. Om te beginnen met top-level leiderschap zullen er waarschijnlijk verschillende niveaus van objecteigenaars zijn. We raden niet meer dan 3-5 niveaus aan.
+* Identificeer de primaire individuen in uw organisatie die voor het leiden van de verwezenlijking van elk doel verantwoordelijk zullen zijn. Om te beginnen met top-level leiderschap zullen er waarschijnlijk verschillende niveaus van objecteigenaars zijn. We raden maximaal 3-5 niveaus aan.
 * Identificeer de teams en de teamleden die uiteindelijk verantwoordelijk zullen zijn voor het uitvoeren van het werk dat nodig is om deze gewenste resultaten te bereiken.
 * Op basis van deze bevindingen bepaalt u wie toegang nodig heeft tot de Workfront-doelen.
 
