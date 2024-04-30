@@ -6,14 +6,16 @@ description: "De informatie die u weergeeft in [!DNL Adobe Workfront] wordt voor
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] overzicht van objecten
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 <!--Audited: 12/2023-->
 
@@ -205,6 +207,18 @@ Niet alle objecten kunnen worden doorzocht in [!DNL Workfront]. U kunt standaard
 | [!UICONTROL Notes] (of [!UICONTROL Updates]) | ✓ |  |
 
 Voor meer informatie over het uitvoeren van standaard en geavanceerde zoekopdrachten in [!DNL Workfront], zie [Zoeken [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
+
+## Beperkte toegang tot objecten
+
+<span class="preview">
+Wanneer een gebruiker geen toegang tot een object heeft, ziet de gebruiker "Geen toegang" op een willekeurige plaats die de objectnaam in Workfront weergeeft.
+
+De toegang tot objecten kan worden beperkt in het toegangsniveau of in de machtigingen van een specifiek object.
+
+Dit is van toepassing op alle objecten en onderliggende objecten die in de [Interdependentie en hiërarchie van objecten](#interdependency-and-hierarchy-of-objects) in dit artikel. Dit geldt niet voor Team- en Gebruikersobjecten.
+
+</span>
 
 ## Objecten rapporteren
 
