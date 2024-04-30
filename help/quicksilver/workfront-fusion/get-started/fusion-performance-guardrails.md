@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront 
 
 ## Browsers
 
-Workfront Fusion ondersteunt alleen op Chrome gebaseerde browsers.
+* Workfront Fusion ondersteunt alleen op Chrome gebaseerde browsers.
 
 ## Scenarios
 
@@ -75,9 +75,9 @@ Workfront Fusion ondersteunt alleen op Chrome gebaseerde browsers.
 
 ## Onvolledige uitvoeringen
 
-Onvolledige uitvoeringen zijn beperkt tot een totale omvang van **500 MB**. Als de limiet van 500 MB is bereikt, worden geen onvolledige uitvoeringen meer opgeslagen.
+* Onvolledige uitvoeringen zijn beperkt tot een totale omvang van **500 MB**. Als de limiet van 500 MB is bereikt, worden geen onvolledige uitvoeringen meer opgeslagen.
 
 ## Opnieuw
 
-Wanneer het gebruiken van de module van de Onderbreking en het specificeren van de richtlijn van het Opnieuw proberen, als een scenario achtereenvolgens 10 keer binnen een 2 minieme chronologie ontbreekt, zal het scenario automatisch worden gedeactiveerd.
+* Wanneer het gebruiken van de module van de Onderbreking en het specificeren van de richtlijn van het Opnieuw proberen, als een scenario achtereenvolgens 10 keer binnen een 2 minieme chronologie ontbreekt, zal het scenario automatisch worden gedeactiveerd.
 
