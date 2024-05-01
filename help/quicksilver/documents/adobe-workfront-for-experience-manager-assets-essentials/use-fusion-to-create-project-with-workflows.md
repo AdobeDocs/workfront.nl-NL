@@ -6,7 +6,7 @@ description: Als u een project via Workfront Fusion maakt en Adobe Experience Ma
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-abonnement*</strong>
-   </td>
-   <td>Alle
-   </td>
+    <td><strong>Adobe Workfront-abonnement*</strong></td>
+    <td>Alle</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenties*</strong>
-   </td>
-   <td>Aanvraag of hoger
-   </td>
+   <td><strong>Adobe Workfront-licenties*</strong></td>
+   <td>Aanvraag of hoger</td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>U moet Experience Manager Assets hebben as a Cloud Service of Assets Essentials, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p>
-   </li
-   ><li>
-   <p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>Nieuw:</p>
-   <ul>
-   <li>
-   <p>Select or Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</p>
-   </li>
-   </ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <td><strong>Product</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>U moet Experience Manager Assets hebben as a Cloud Service of Assets Essentials, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p>
+       </li>
+       <li>
+        <p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>Nieuw:</p>
+     <ul>
+       <li>
+         <p>Select or Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</p>
+       </li>
+     </ul>
+     <p>of</p>
+     <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Configuraties op toegangsniveau*</strong>
    </td>
    <td>Toegang tot documenten bewerken
-   <p>
-   <strong>Opmerking: </strong>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong>Aangepaste toegangsniveaus maken of wijzigen</strong>.
+     <p>
+       <strong>Opmerking: </strong>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong>Aangepaste toegangsniveaus maken of wijzigen</strong>.
+     </p>
    </td>
   </tr>
 </table>
