@@ -6,14 +6,16 @@ description: Wanneer het toewijzen van gebruikers of rollen aan een taak, worden
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
 
 # Gebruikers- en roltoewijzingstijden beheren voor taken
+
+{{highlighted-preview}}
 
 Wanneer het toewijzen van gebruikers of rollen aan een taak, worden zij toegewezen om een bepaald aantal uren te werken om de taak te voltooien. U kunt de hoeveelheid uren manueel wijzigen dat elke gebruiker of baanrol wordt toegewezen wanneer zij aan een taak worden toegewezen, wanneer het Type van Duur van de taak Eenvoudig is.
 
@@ -35,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -73,9 +75,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Klik op de knop **Toewijzingen** gebied in de taakkopbal, dan klik **Geavanceerd**.
 
-1. Zorg ervoor dat de **Duur** van de taak **Eenvoudig**.
-1. De **Toewijzingen** voor elke aan te wijzen taak. Dit zijn algemene toewijzingen voor elke toewijzing aan deze taak, voor de volledige duur van de taak. Hierdoor kunnen ook de algemene geplande uren van de taak worden bijgewerkt.
+1. Zorg ervoor dat de **Duur** van de taak **eenvoudig**.
+1. Wijzig de **Toewijzingen** voor elke aan te wijzen taak. Dit zijn algemene toewijzingen voor elke toewijzing aan deze taak, voor de volledige duur van de taak. Hierdoor kunnen ook de algemene geplande uren van de taak worden bijgewerkt.
 
+   Voorbeeldafbeelding in de productieomgeving:
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+
+   <span class="preview">Voorbeeldafbeelding in de voorvertoningsomgeving:</span>
+   ![Toewijzingen wijzigen](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klikken **Opslaan**.

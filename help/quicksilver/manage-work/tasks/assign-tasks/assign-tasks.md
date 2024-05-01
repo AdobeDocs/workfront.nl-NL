@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Klik op de naam van de toewijzingen als de taak of uitgave al is toegewezen.
 
+   Voorbeeldafbeelding in de productieomgeving:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Voorbeeldafbeelding in de voorvertoningsomgeving:</span>
+   ![Toewijzingen](assets/assignments-box-in-task-header.png)
 
 1. Voer een van de volgende handelingen uit:
 

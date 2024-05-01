@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # Problemen toewijzen
+
+{{highlighted-preview}}
 
 U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van problemen raadpleegt u [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
    Klik op de naam van de huidige toewijzingen als de uitgave al is toegewezen.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Toewijzen aan knop](assets/assign-to-button-in-header.png)
 
 1. Voer een van de volgende handelingen uit:
 
    * Typ de naam van een gebruiker, rol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
+     Voorbeeldafbeelding in de productieomgeving:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Voorbeeldafbeelding in de voorvertoningsomgeving:</span>
+     ![Zoeken naar toewijzingen](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Voorwaardelijk) Klik op een van de namen in het dialoogvenster **Voorgestelde toewijzingen** list
    * Klikken **Toewijzen aan mij** om het aan zich toe te wijzen
@@ -161,7 +167,11 @@ Om kwesties in een lijst toe te wijzen:
 
    * Klik in het dialoogvenster **Toewijzingen** veld en typ de naam van een actieve gebruiker, taakrol of actief team die u aan de uitgave wilt toewijzen, en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
+     Voorbeeldafbeelding in de productieomgeving:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Voorbeeldafbeelding in de voorvertoningsomgeving:</span>
+     ![Toewijzingsveld](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
