@@ -1,20 +1,21 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Bezig met rapporteren van canvasbèta: overzicht'
+title: 'Canvas bèta melden: overzicht'
 description: Informatie over het bètaprogramma voor het aanstaande hulpmiddel van het Canvas van de Rapportering voor Adobe Workfront
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
+hide: true
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
-
-# Canvasbèta melden: overzicht
+# Bewerken van canvas melden: overzicht
 
 ## Canvas melden
 
@@ -38,11 +39,11 @@ We bieden deze nieuwe ervaringen incrementeel, te beginnen met de release 23.2, 
 
 De bèta van het Canvas van de Rapportering is beschikbaar aan alle organisaties die op AWS, ongeacht regio zijn.
 
-### Deelnemen aan de bètaversie
+### Deelnemen aan de bèta
 
 De bèta van het Canvas van de Rapportering is volledig facultatief, maar kan slechts door een beheerder van Workfront worden gekozen. Als u zich wilt aanmelden als systeembeheerder:
 
-1. Selecteer **Rapportage (bèta)** in het hoofdmenu van uw Workfront-instantie.
+1. Selecteer de **Rapportage (bèta)** in het hoofdmenu van uw Workfront-instantie.
 1. Klikken **Accepteren** om de voorwaarden te aanvaarden.
 1. Toestaan dat de gegevens van uw organisatie worden toegevoegd aan het rapportcanvas (dit kan een paar uur duren).
 1. Begin met het melden van canvas.
@@ -51,7 +52,7 @@ Nadat de gegevens van uw organisatie aan het Melden van Canvas worden toegevoegd
 
 Andere gebruikers die geen Workfront-beheerders zijn, aanmelden:
 
-1. Selecteer **Rapportage (bèta)** in het hoofdmenu van uw Workfront-instantie.
+1. Selecteer de **Rapportage (bèta)** in het hoofdmenu van uw Workfront-instantie.
 1. Klikken op **Canvasmachtigingen rapporteren**.
 1. Zoek naar en selecteer de specifieke gebruikers u wilt deelnemen.
 
@@ -72,7 +73,7 @@ Feedback over de bètaversie verzenden:
 
 ## Veelgestelde vragen over bèta
 
-+++Kan ik mijn erfenisrapporten migreren naar het Rapporteren van Canvas?
++++Kan ik mijn oudere rapporten migreren naar het Rapporteren van Canvas?
 
 Kortom, migrerende rapporten uit oudere versies zijn niet beschikbaar tijdens de bètaversie. Het is echter een gepland onderdeel (met een aantal punten die hieronder worden beschreven) voor de officiële lancering.
 
@@ -118,9 +119,9 @@ Om de bètaversie zo snel mogelijk aan onze klanten te kunnen leveren, hebben we
 Nee. De bètaversie gebruikt een kopie van de gegevens van uw organisatie die in het rapportcanvas zijn ingevuld. Hoewel dit betekent dat u veilig kunt experimenteren tijdens de bètaversie zonder het risico te lopen belangrijke gegevens te beïnvloeden, betekent dit ook dat inline bewerken van gegevens in Reporting Canvas niet beschikbaar zal zijn tot de officiële start.
 +++
 
-+++Kan ik opteren voor de bètaversie als ik eenmaal ben toegetreden?
++++Kan ik me uit de bètaversie opzeggen zodra ik lid ben?
 
-Een Workfront-beheerder kan zich niet afmelden voor de bètaversie. niet-systeembeheerders kunnen echter als volgt worden verwijderd:
+Een Workfront-beheerder kan niet de bètaversie uitschakelen, maar niet-systeembeheerders kunnen als volgt worden verwijderd:
 
 1. Meld u aan als systeembeheerder.
 1. Navigeer naar het rapportcanvas.

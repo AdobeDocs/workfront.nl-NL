@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 0%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 0%
       * [Gebruikersnaam al in gebruik](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Rapportage {#reporting}
    * [Rapporten en dashboards: artikelindex](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Canvas melden {#reporting-canvas}
-      * [Canvas melden](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Rapporten beheren {#manage-reports}
-         * [Overzicht van rapporten beheren](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [Bouw een rapport in het Rapporteren van Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [Een rapport exporteren in Rapportcanvas](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * Tabelblokken {#table-blocks}
-         * [Tabelblokken](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [Een tabelblok toevoegen of bewerken in het rapportcanvas](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [Een tabelkolom configureren in het rapportcanvas](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [Bouw een formules gebied in het Rapporteren van Canvas](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [Tabelrijen groeperen in canvas rapporteren](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [Een tabel filteren in Rapportcanvas](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * Visualisatieklokken {#visualization-blocks}
-         * [Visualisatieklokken](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [Een visualisatieblok toevoegen of bewerken in Rapportcanvas](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [Vorm een bar visualisatie in het Rapporterende Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [Vorm een kolomvisualisatie in het Melden van Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [Paardenvisualisatie configureren in Rapportcanvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [Vorm een KPI visualisatie in het Melden van Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * Andere blokken {#other-blocks}
-         * [Andere blokken](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [Een webinhoud-blok toevoegen of bewerken in Rapportcanvas](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * Canvasdashboards {#canvas-dashboards}
+      * [Canvasdashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * Canvasdashboards beheren {#manage-canvas-dashboards}
+         * [Canvasdashboards beheren](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Aan de slag met canvasdashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [Een canvasdashboard delen](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * Rapporttypen voor Canvas-dashboard {#report-types}
+         * [Overzicht van de rapporttypen voor Canvas-dashboard](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [Een bestaand rapport toevoegen aan een Canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [Bouw een KPI- rapport in een dashboard van het Canvas](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Bouw een grafiekrapport in een dashboard van het Canvas](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Een tabelrapport maken op een canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Een goedkeuringsrapport in behandeling toevoegen aan een Canvasdashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * Rapporten {#reports}
       * [Rapporten](reports-and-dashboards/reports/reports-overview.md)
       * Grondbeginselen van rapporten {#report-basics}

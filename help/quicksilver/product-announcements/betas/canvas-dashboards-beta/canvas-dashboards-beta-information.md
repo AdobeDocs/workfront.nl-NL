@@ -1,21 +1,81 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
+product-area: Canvas Dashboards
+navigation-topic: canvas-dashboards-beta
 title: bètagegevens van dashboards op canvas
 description: Algemene informatie over de bètaversie van canvasdashboards
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '15'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # bètagegevens van dashboards op canvas
+
+Canvasdashboards is een eigenschap momenteel in ontwikkeling die u toestaat om uw gegevens van Adobe Workfront gemakkelijk te visualiseren door diverse rapporttypes op een aanpasbaar canvas toe te voegen. Hoewel we u dankbaar zijn voor uw deelname tijdens de bètatestfase, zijn onderdelen van deze functie mogelijk niet compleet of werken ze niet naar behoren. Geef feedback over je ervaring door de instructies in het [Feedback geven](#provide-feedback) hieronder.
+
+Voor basisinformatie over het gebruik van Canvasdashboards raadpleegt u [Aan de slag met canvasdashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+**Bètaschema:**
+
+* Gesloten bètabegindatum - 2 mei 2024
+* bètabegindatum openen - TBA
+* Geplande releasedatum - TBA
+
+## Deelnemen aan de bètaversie
+
+### Inschrijven
+
+Inschrijven in de bètaversie:
+
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+
+1. Klik op de knop **Verbinden met de bètaversie van canvasdashboards** bètaknop rechtsboven op de pagina.
+
+1. Lees de voorwaarden en klik vervolgens op **Accepteren**. U bent nu ingeschreven voor de bètaversie. Het duurt echter een paar minuten voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvas-dashboards.
+
+### Feedback geven
+
+Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van de bètaversie. Volg de onderstaande instructies om uw ervaring met ons te delen.
+
+1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+
+1. Klik in het linkerdeelvenster op **Canvasdashboards**.
+
+1. Klik op de knop **Feedback verzenden** in de rechterbenedenhoek van de pagina, voert u uw feedback in het formulier in dat wordt weergegeven en klikt u op **Verzenden**.
+
+## Geplande functies
+
+Hieronder volgt een lijst van de rapporttypes die momenteel in bèta worden gesteund, evenals een lijst van andere eigenschappen die wij van plan zijn om aan de Dashboards van het Canvas tijdens de bèta en verder toe te voegen.
+
+### Ondersteunde rapporttypen
+
+* Bestaande rapporten (rapporten die zijn gemaakt met het huidige rapportagegereedschap)
+* Grafiekrapporten
+* KPI-rapporten
+* Tabelrapporten
+* Goedkeuringsrapporten in behandeling
+
+### Functies in ontwikkeling
+
+* Matrixtabelrapporten
+* Werkbladen
+* Ingesloten webinhoud
+* Boekrapporten
+* Dashboardfilters
+* Jokertekens op basis van datum en gebruiker voor filters
+
+### Toekomstige routekaarten
+
+* Vragen op dashboardniveau
+* Ondersteuning voor valuta
+
+
 
 <!--
 

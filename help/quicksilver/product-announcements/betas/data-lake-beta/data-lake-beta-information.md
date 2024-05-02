@@ -6,7 +6,7 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Zie voor meer informatie over het gebruik van het Workfront data Lake [Overzicht
 **Bètaschema:**
 
 * Begindatum bèta - 15 april 2024
-* Geplande GA-release - TBA
+* Geplande releasedatum - TBA
 
 ## Deelnemen aan de bètaversie
 
