@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadple
 | Connect Workfront-planningsrecords verbinden met Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen | ✓ |                                 |                  |
 | Connect Workfront Planning-records verbinden met Adobe Experience Manager-middelen | ✓ |                                  |                 |
 | Pagina opnemen met gedetailleerde informatie | ✓ |                                  |                  |
-| De indeling van de recordpagina bijwerken |                               | ✓ |                  |
+| De indeling van de recordpagina bijwerken | ✓ |                                 |                  |
 | Werkruimten delen | ✓ | |  |
 | Weergaven delen | ✓ | |  |
 | Weergaven dupliceren | ✓ | |  |

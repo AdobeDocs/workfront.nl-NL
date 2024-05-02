@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt records bewerken die u hebt gemaakt of records die door anderen zijn gemaakt, als u machtigingen hebt gekregen voor de werkruimte.
 * U kunt recordvelden uit de volgende gebieden bewerken:
 
-   * Het vak van de record in een recordweergave
+   * De voorvertoning van de record in een recordweergave
    * De recordpagina
    * Inline, in een lijstmening.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* Wanneer een gebruiker een record bewerkt in een weergave, zijn de wijzigingen direct zichtbaar in alle weergaven en zijn de recordpagina&#39;s voor alle andere gebruikers.
 
 * De volgende typen velden worden automatisch bijgewerkt en u kunt de waarden ervan niet handmatig bewerken:
    * Gekoppelde velden uit andere records
@@ -113,7 +113,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt een record uit de volgende gebieden bewerken:
 
 * [Vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Vanuit het vak van de record in een weergave](#edit-a-record-from-the-records-box-in-a-view)
+* [Uit de voorvertoning van de record in een weergave](#edit-a-record-from-the-records-box-in-a-view)
 * [Van de recordpagina](#edit-a-record-from-the-records-page)
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
@@ -188,7 +188,7 @@ De werkruimte die u het laatst hebt geopend.
 
 1. (Optioneel) Voeg een miniatuur toe aan een record. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Een record uit het vak van de record bewerken in een weergave
+### Een record uit de voorvertoning van de record bewerken in een weergave
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ De werkruimte die u als laatste opent.
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam. Het vak van de record wordt in de weergave geopend.
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam. De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ De werkruimte die u als laatste opent.
    >
    >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
-1. Bewerk de veldinformatie in het vak van de record.
+1. Bewerk de veldinformatie in de voorvertoning van de record.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ De werkruimte die u als laatste opent.
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het vak van de record om de pagina van de record te openen op een nieuw tabblad. Doorgaan met het bewerken van de record zoals beschreven in [Een record op de recordpagina bewerken](#edit-a-record-from-the-records-page) in dit artikel.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de voorvertoning van de record om de pagina van de record in een nieuw tabblad te openen. Doorgaan met het bewerken van de record zoals beschreven in [Een record op de recordpagina bewerken](#edit-a-record-from-the-records-page) in dit artikel.
 
 ### Een record op de recordpagina bewerken
 
@@ -241,7 +241,7 @@ De werkruimte die u als laatste opent.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Vanuit om het even welke mening, heb toegang tot de doos van het verslag, zoals die in [Een record uit het vak van de record bewerken in een weergave](#edit-a-record-from-the-records-box-in-a-view) in dit artikel en klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het recordvak om de pagina van de record op een nieuw tabblad te openen.
+   * Vanuit een willekeurige weergave toegang tot de voorvertoning van de record, zoals beschreven in het dialoogvenster [Een record uit de voorvertoning van de record bewerken in een weergave](#edit-a-record-from-the-records-preview-in-a-view) in dit artikel en klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
 
    * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ Overweeg het volgende:
 * Een omslagafbeelding is uniek voor één record en is niet van toepassing op alle records van hetzelfde type.
 * U kunt alleen afbeeldingsbestanden als omslagafbeeldingen toevoegen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* U kunt een omslagafbeelding aan afzonderlijke records toevoegen vanuit het recordvak in elke weergave of vanaf de recordpagina.
+* U kunt een omslagafbeelding aan afzonderlijke records toevoegen vanuit de voorvertoning van de record in een willekeurige weergave of vanaf de recordpagina.
 * U kunt omslagafbeeldingen niet inline toevoegen vanuit recordweergaven.
 
 ## Een omslagafbeelding aan een record toevoegen
 
-U kunt een record personaliseren door boven aan het recordvak of de pagina een omslagafbeelding toe te voegen.
+U kunt een record personaliseren door een omslagafbeelding boven aan de voorvertoning of pagina van de record toe te voegen.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ De werkruimte die u als laatste opent.
 
    Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam.
 
-   Het vak van de record wordt in de weergave geopend.
+   De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ De werkruimte die u als laatste opent.
    >
    >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van het recordvak om de pagina van de record op een nieuw tabblad te openen.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
 
    De recordpagina wordt geopend.
 
    ![](assets/details-page.png)
 
-1. Klik in het recordvak of op de pagina op **omslag toevoegen**. <!--check the casing here; I logged a bug for this-->
+1. Klik in de recordvoorvertoning of pagina op **omslag toevoegen**. <!--check the casing here; I logged a bug for this-->
 De **Omslag van record** wordt geopend.
 
 1. Klikken **Selecteren om te uploaden** en blader naar een afbeelding op uw computer om deze te selecteren, voeg deze toe en klik vervolgens op **Afbeelding gebruiken**.
 
-   De afbeelding wordt boven in het recordvak of op de pagina geüpload en de wijzigingen worden automatisch opgeslagen.
+   De afbeelding wordt boven aan de voorvertoning of pagina van de record geüpload en de wijzigingen worden automatisch opgeslagen.
 
    ![](assets/record-page-with-cover-image.png)
 

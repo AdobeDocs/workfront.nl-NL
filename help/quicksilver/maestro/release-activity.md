@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Week van 29 april 2029
+
+### Real-time updates op het vak met recorddetails en de pagina na het bewerken van records in de tabelweergave
+
+Productie: 2 mei 2024
+
+Voorbeeld: te bepalen
+
+Wanneer een gebruiker de informatie over een record in de tabelweergave bijwerkt, kunnen andere gebruikers de bijgewerkte informatie in het detailvak van de record (in een weergave) of op de pagina in real-time bekijken. Zo zorgt u ervoor dat alle gebruikers de bijgewerkte informatie tegelijkertijd bekijken, in overeenstemming met wanneer de wijzigingen zich voordoen.
+
+Voor informatie over het bewerken van records raadpleegt u [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ Productie: 4 april 2024
 
 Voorbeeld: te bepalen
 
-Als Workspace Manager kunt u nu de velden in de recordpagina of het recordvak opnieuw rangschikken. Als u de volgorde van de velden bijwerkt, verandert de volgorde van velden in alle records van hetzelfde type, voor iedereen die de recordpagina of het recordvak weergeeft.
+Als Workspace Manager kunt u nu de volgorde wijzigen van de velden op de recordpagina of voorvertoning. Als u de volgorde van de velden bijwerkt, verandert de volgorde van velden in alle records van hetzelfde type, voor iedereen die de recordpagina of de voorvertoning van de record weergeeft.
 
 Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ Productie: 4 april 2024
 
 Voorbeeld: te bepalen
 
-Terwijl u recordpagina&#39;s beheert, kunt u nu een omslagafbeelding op een recordpagina of in een recordvak toevoegen, verplaatsen en vervangen om de presentatie en betrokkenheid van belanghebbenden van de record te verrijken. Omslagafbeeldingen zijn zichtbaar voor alle gebruikers die de records weergeven.
+Terwijl u recordpagina&#39;s beheert, kunt u nu een omslagafbeelding op een recordpagina of voorvertoning toevoegen, verplaatsen en vervangen om de presentatie en betrokkenheid van belanghebbenden van de record te verrijken. Omslagafbeeldingen zijn zichtbaar voor alle gebruikers die de records weergeven.
 
 Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Voorbeeld: te bepalen
 
 U kunt nu informatie filteren in de kalenderweergave. Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Kader met recorddetails toegevoegd aan de tijdlijn- en kalenderweergave
+### Voorvertonen met recorddetails die zijn toegevoegd aan de tijdlijn- en kalenderweergave
 
 Productie: 19 maart 2024
 
 Voorbeeld: te bepalen
 
-U kunt nu een vak openen met recorddetails uit de tijdlijn- en de kalenderweergave. U kunt records in het vak van de record bewerken in de tijdlijn- en de kalenderweergave.
+U kunt de voorvertoning nu openen met recorddetails uit de tijdlijn- en de kalenderweergave. U kunt records in het voorvertoningsvak van de record bewerken in de tijdlijn- en de kalenderweergave.
 
-Vanuit het vak van de record kunt u de recordpagina openen in een nieuw browsertabblad.
+Vanuit de voorvertoning van de record kunt u de recordpagina openen in een nieuw browsertabblad.
 
 Zie voor meer informatie [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Productie: 14 maart 2024
 
 Voorbeeld: te bepalen
 
-Om het gemakkelijker te maken om extra informatie over verslagen te bekijken wanneer het gebruiken van de lijstmening, hebben wij een nieuw vakje van Details geïntroduceerd dat een snelle mening van de details van het verslag toont. Hier volgt een aantal informatie uit dit vak:
+Om het gemakkelijker te maken om extra informatie over verslagen te bekijken wanneer het gebruiken van de lijstmening, hebben wij een nieuwe voorproef van Details geïntroduceerd die een snelle mening van de details van het verslag toont. Hieronder vindt u enkele informatie die in de voorvertoning van de record is opgenomen:
 
 * Relevante recorddetails in een oogopslag
 

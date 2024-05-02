@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -127,14 +127,14 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 
    of
 
-   Klik op de naam van de nieuwe record of op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van de recordnaam. Het vak met de gedetailleerde informatie van de record wordt in de tabel geopend.
+   Klik op de naam van de nieuwe record of op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van de recordnaam. In de tabel wordt een voorvertoning geopend met de gedetailleerde informatie van de record.
 
    >[!TIP]
    >
-   >U hebt alleen toegang tot het vak Details vanuit het naamveld van de record wanneer het veld Naam een primair veld is.
+   >U hebt toegang tot **Details openen** alleen uit het naamveld van de record wanneer het veld Naam een primair veld is.
 
-1. Bewerk de gegevens van de record in het vak van de record. Workfront slaat uw wijzigingen automatisch op.
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het vak van de record om de pagina van de record te openen op een nieuw tabblad. Ga door met het bewerken van de record op de recordpagina.
+1. Bewerk de recordgegevens in de voorvertoning van de record. Workfront slaat uw wijzigingen automatisch op.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de voorvertoning van de record om de pagina van de record in een nieuw tabblad te openen. Ga door met het bewerken van de record op de recordpagina.
 
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records ongedaan te maken of opnieuw toe te voegen:
