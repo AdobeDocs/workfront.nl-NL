@@ -6,7 +6,7 @@ title: Een module bijwerken naar een nieuwe versie in een [!DNL Adobe Workfront 
 description: Aangezien de toepassingen waarmee Workfront Fusion verbinding maakt, een nieuwe versie kunnen bijwerken of vrijgeven, is het soms nodig dat Fusion bijgewerkte modules voor die toepassingen vrijgeeft.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ U kunt de module bijwerken zonder een nieuw scenario te maken.
 1. Vorm de module met de zelfde montages zoals de bestaande module.
 1. Verbind de nieuwe module met het scenario op de zelfde plaats zoals de bestaande module.
 1. Verwijder de oude module.
+
+
+
 
 
 
