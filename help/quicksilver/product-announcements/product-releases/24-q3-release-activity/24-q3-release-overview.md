@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
->| <ul><li>24.5 (mei 2024)</li><li>24.6 (juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
 >
 >Zie voor meer informatie over het snelle releaseproces [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -136,7 +136,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">Functie</span>
                         </p>
@@ -145,8 +145,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                         <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeterde gebruikersinterface voor gebruikers met beperkte toegang tot objecten</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -164,26 +164,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Productie voor driemaandelijkse release: met de release van 24.7 </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Functie</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatums</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Functie</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Releasedatums</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
