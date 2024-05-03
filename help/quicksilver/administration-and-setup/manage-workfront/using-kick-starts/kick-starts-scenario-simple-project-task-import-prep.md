@@ -5,11 +5,11 @@ keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
 title: Kick-start scenario-eenvoudig project en taak de invoervoorbereiding
 description: Beschrijft in detail de beschikbare montages en de controles voor een basisProject en de Invoer van de Taak gebruikend de methode van het Begin van de Kick.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 0%
@@ -277,10 +277,10 @@ Ga naar de Kick-Starts pagina. Selecteer het Bedrijf, de Groep, het Project, de 
 
 Open het Workfront.xlsx-bestand dat u net hebt gedownload. Ga naar het PROJ-projectblad.
 
-![](assets/im2-350x14.png)\
+![](assets/im2.png)
 Tenzij u reeds projecten in Workfront hebt gecreeerd, zou het leeg moeten zijn.
 
-![](assets/im10-350x42.png)
+![](assets/im10.png)
 
 Stel de waarden in voor de volgende projectvelden:
 
@@ -305,7 +305,7 @@ Voer de geplande begindatum in voor elk project in de kolom setPlannedStartDate.
 * **Stel andere benodigde gegevens in.**
 Vul desgewenst andere gegevens in, zoals een beschrijving of de huidige status. Zoek omhoog IDs van de Groep voor elk project op het blad van de Groep van de GROEP en input hen in de setGroupID kolom voor de respectieve projecten. Zoek omhoog identiteitskaart van het Bedrijf voor de projecten op het blad van het Bedrijf CMPY en input het in de kolom setCompanyID. Zoek de Gebruiker - identiteitskaart voor elke projecteigenaar op het Gebruikersblad van de GEBRUIKER en voer het in de setOwnerID kolom in. Zoek de gebruikersnaam voor elke projectsponsor op het gebruikersblad en voer deze in de kolom setSponsorID in.
 
-![](assets/im9-350x24.png)
+![](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Open het Workfront.xlsx-bestand dat u net hebt gedownload. **Ga naar het TASK Ta
 
 Dit blad moet leeg zijn, tenzij u al taken hebt gemaakt in Workfront.
 
-![](assets/im8-350x14.png)
+![](assets/im8.png)
 
-![](assets/im7-350x43.png)
+![](assets/im7.png)
 
-![](assets/im6-350x16.png)
+![](assets/im6.png)
 
 De gemakkelijkste manier om taken in kaart te brengen is één project in een tijd (vooral wanneer de taken het zelfde op elk project zijn). U kunt het taakplan voor het eerste project dan kopiëren en kleine aanpassingen aan het taakplan voor de verdere projecten aanbrengen. Bij de overige stappen wordt ervan uitgegaan dat u alleen taken voor het Workfront-project implementeren maakt. Volgens het scenario, zult u 9 taken per project invoeren, zodat inputWAAR in rijen 3 door 11 voor de isNew kolom.
 
@@ -364,7 +364,7 @@ Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voo
 * Voer de gehele numerieke representatie in van het percentage dat is voltooid in het veld setPercentComplete voor elke taak. Deze waarde mag het percentagesymbool (%) niet bevatten.
 * Voeg desgewenst een beschrijving en andere details toe voor elke taak die u maakt.
 
-  ![](assets/im5-350x35.png)
+  ![](assets/im5.png)
 
 * De kolommen setPlannedStartDate en setTaskConstraint worden niet gebruikt om de chronologie van dit project uit te bouwen omdat wij op predecessor verhoudingen vertrouwen. In plaats daarvan kunt u een datum invoeren voor elke taak. Als u dit doet, zeker ben u ook een geldige taakbeperking in de setTaskConstraint kolom verstrekt. Controleer de Taakbeperking en verwante artikelen voor details over geldige waarden voor dit gebied.
 
