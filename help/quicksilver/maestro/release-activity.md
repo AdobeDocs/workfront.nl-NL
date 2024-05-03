@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Voorbeeld: te bepalen
 Wanneer een gebruiker de informatie over een record in de tabelweergave bijwerkt, kunnen andere gebruikers de bijgewerkte informatie in het detailvak van de record (in een weergave) of op de pagina in real-time bekijken. Zo zorgt u ervoor dat alle gebruikers de bijgewerkte informatie tegelijkertijd bekijken, in overeenstemming met wanneer de wijzigingen zich voordoen.
 
 Voor informatie over het bewerken van records raadpleegt u [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
+
+### Real-time updates in de kalenderweergave na het bewerken van records
+
+Productie: 3 mei 2024
+
+Voorbeeld: te bepalen.
+
+Wanneer een gebruiker de informatie in een record bijwerkt, kunnen andere gebruikers de bijgewerkte informatie in de kalenderweergave van de record in real-time bekijken. Zo zorgt u ervoor dat alle gebruikers de bijgewerkte informatie tegelijkertijd bekijken, in overeenstemming met wanneer de wijzigingen zich voordoen.
 
 <!--
 
