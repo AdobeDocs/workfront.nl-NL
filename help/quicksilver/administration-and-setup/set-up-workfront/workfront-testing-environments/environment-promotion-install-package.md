@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,26 @@ U moet een pakket hebben gemaakt voordat u het kunt installeren.
 
 Zie voor instructies [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## Pakketstatus voor installatie
+
+Een pakket moet de actieve status hebben om in uw productieomgeving te worden geïnstalleerd.
+
+We raden u aan het pakket naar de status TESTING te verplaatsen en in een andere sandbox te installeren om het pakket te testen.  Als deze test zonder fouten is gelukt, verplaatst u het pakket naar ACTIVE om het in de productieomgeving te installeren.
+
+De status van een pakket bewerken:
+
+1. Selecteer het pakket zoals beschreven in  [Een bestaand pakket bewerken of samenvoegen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) in het artikel Aanmaken en bewerken van pakketten voor milieubescherming.
+1. Klikken **Pakket bewerken**.
+1. Klikken **Status**.
+1. Selecteer de gewenste status in de keuzelijst.
+
+Zie voor meer informatie over statussen [Status van milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikel Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen.
+
+## Een pakket installeren
+
 >[!NOTE]
 >
->Als u een pakket wilt installeren, moet u zijn aangemeld bij de omgeving waarin u het pakket wilt installeren. Dit is de omgeving waarin u objecten kopieert **tot**.
+>* Als u een pakket wilt installeren, moet u zijn aangemeld bij de omgeving waarin u het pakket wilt installeren. Dit is de omgeving waarin u objecten kopieert **tot**.
 
 1. Ga naar de omgeving waarin u het pakket wilt installeren.
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
