@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 811f38da4f91695ef0589dd10122b29d09e4e09c
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Deze sectie bevat de volgende artikelen:
 
 * [[!DNL Adobe Workfront Fusion] overzicht](../../workfront-fusion/get-started/workfront-fusion-overview.md)
 * [Basistermen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
+* [Eenvoudige praktijkscenario&#39;s maken in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [Creeer een scenario van de praktijkautomatisering in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [Creeer een scenario van de praktijkintegratie in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
 * [[!DNL Adobe Workfront Fusion] prestatiegerichte](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
