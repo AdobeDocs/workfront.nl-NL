@@ -4,9 +4,9 @@ description: Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u ee
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u een e-mailbericht voor die markering.
+
+>[!IMPORTANT]
+>
+>Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
+>
+>Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Voor informatie over het labelen van anderen in een recordopmerking raadpleegt u [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Om berichten van de Planning van Workfront te ontvangen en berichtvoorkeur te beheren, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience voor Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -78,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## E-mailmeldingen beheren
 
-1. (Voorwaardelijk) Nadat iemand u in een commentaar op een verslag etiketteert, ga naar het e-mailbericht dat u van de markering en van de commentaar op de hoogte brengt.
+1. (Voorwaardelijk) Nadat iemand u in een commentaar op een verslag etiketteert, ga naar het e-mailbericht dat u van de markering en van de commentaar op de hoogte brengt. De afzender van de e-mail is Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De pagina met recorddetails wordt geopend in Workfront. U kunt de record bijwerken of op de opmerking reageren.
 
 1. (Voorwaardelijk) Klik, indien beschikbaar **Alle meldingen weergeven**. <!--check with Lilit - do non-IMS users have this button??-->
-De pagina Meldingen wordt geopend in Adobe Experience Cloud.
+De **Meldingen** pagina wordt geopend in Adobe Experience Cloud.

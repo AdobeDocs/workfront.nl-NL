@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ De laatst geopende werkruimte moet standaard worden geopend.
 
 1. Werk de volgende gegevens bij:
 
-   * Vervang &quot;Naamloos type operationeel record&quot; door de naam van het toekomstige recordtype. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * Vervang &quot;Naamloos recordtype&quot; door de naam van het toekomstige recordtype. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Beschrijving**: Voeg meer informatie toe over het recordtype.
    * Selecteer een kleur en vorm voor het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur voor het nieuwe recordtype. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
@@ -155,8 +155,11 @@ De laatst geopende werkruimte moet standaard worden geopend.
 1. Klikken **Maken**.
 
    De recordtypekaart wordt toegevoegd aan de sectie en de werkruimte die u hebt geselecteerd.
-Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
-1. (Optioneel) Klik op de knop met het recordtype **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Bewerken** om informatie over het recordtype te bewerken.
+De beschrijving van het recordtype wordt weergegeven op de kaart.
+
+   ![](assets/record-type-card-with-description.png)
+
+1. (Optioneel) Klik op de knop met het recordtype **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Bewerken** om informatie over het recordtype te wijzigen.
 1. (Optioneel) Klik op de kaart met het recordtype om de pagina met het recordtype te openen.
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
 
 1. (Optioneel) Klik op de pijl die naar links wijst links van de naam van het recordtype in de koptekst om terug te gaan naar de geselecteerde werkruimte.
 
-   Op de kaart met recordtype wordt het aantal velden en verbindingen weergegeven dat het recordtype bevat.
+1. (Optioneel) Klik in de werkruimte op een recordtypekaart en houd deze ingedrukt om het recordtype op een gewenste plaats te slepen of naar een andere sectie te verplaatsen.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   De wijzigingen worden automatisch opgeslagen.
 
    Raadpleeg de volgende artikelen voor meer informatie over het toevoegen van records, het verwijderen of bewerken van recordtypen of het bijwerken van de weergave op de pagina met recordtypen:
 
@@ -198,10 +201,6 @@ Het aantal velden dat het recordtype bevat, wordt weergegeven op de kaart.
    * [Recordtypen verwijderen](../architecture/delete-record-types.md)
    * [Recordtypen bewerken](../architecture/edit-record-types.md)
    * [Recordweergaven beheren](../views/manage-record-views.md)
-
-1. (Optioneel) Klik in de werkruimte op een recordtypekaart en houd deze ingedrukt om het recordtype op een gewenste plaats te slepen of naar een andere sectie te verplaatsen.
-
-   De wijzigingen worden automatisch opgeslagen.
 
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 

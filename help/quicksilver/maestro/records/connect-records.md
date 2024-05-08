@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Als u Adobe Workfront Planning-records wilt verbinden met Experience Manager Assets, hebt u een Adobe Experience Manager Assets-licentie nodig en moet het Workfront-exemplaar van uw organisatie zijn aangemeld bij het Adobe Business Platform of de Adobe Admin Console.</p>
+   <p>Om Adobe Workfront Planningsverslagen met Experience Manager Assets te verbinden, moet u een vergunning van Adobe Experience Manager Assets hebben en de instantie van Workfront van uw organisatie moet aan de Adobe Verenigde Ervaring worden bezet. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience voor Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>

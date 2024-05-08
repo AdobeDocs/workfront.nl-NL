@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ Hiermee opent u het gedeelte Workspaces van Workfront Planning.
 
    Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (Optioneel) Klik op de naam van een weergave op de tabbladen van de weergave om een bestaande weergave te bewerken of klik op **+ Weergave** om een weergave te maken.
+1. (Optioneel) Klik op een opnametype om het te slepen en neer te zetten op een nieuwe locatie. U kunt recordtypen van de ene werkruimtesectie naar de andere slepen.
 
-   Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Optioneel) Klik op **Delen** in de rechterbovenhoek van de werkruimte om de werkruimte met anderen te delen.
 

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
+source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
 workflow-type: tm+mt
-source-wordcount: '14212'
+source-wordcount: '14239'
 ht-degree: 0%
 
 ---
@@ -2085,6 +2085,11 @@ ht-degree: 0%
       * [De tabelweergave beheren](maestro/views/manage-the-table-view.md)
       * [De tijdlijnweergave beheren](maestro/views/manage-the-timeline-view.md)
       * [De kalenderweergave beheren](maestro/views/manage-the-calendar-view.md)
+   * Adobe Maestro-kennisgevingen {#adobe-maestro-notifications}
+      * [Adobe Workfront-planningsmeldingen: artikelindex](maestro/notifications/notifications-information.md)
+      * [Voorkeuren voor Adobe Workfront-planningsberichten beheren](maestro/notifications/manage-notification-preferences.md)
+      * [E-mailberichten voor Adobe Workfront Planning beheren](maestro/notifications/manage-planning-email-notifications.md)
+      * [In-app-berichten voor Adobe Workfront-planning beheren](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Sjabloon voor Fusion Access Table](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

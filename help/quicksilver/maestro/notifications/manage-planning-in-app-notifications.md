@@ -4,9 +4,9 @@ description: Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u ee
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Wanneer iemand u in een recordopmerking van tags voorziet, ontvangt u mogelijk een melding in de app voor die tag.
+
+>[!IMPORTANT]
+>
+>Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
+>
+>Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Voor informatie over het labelen van anderen in een recordopmerking raadpleegt u [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Om berichten van de Planning van Workfront te ontvangen, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience voor Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -76,12 +83,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 
-## Vereisten
-
-Uw bedrijf moet een Adobe Verenigde klant van de Ervaring Workfront voor u zijn om een in-app bericht te ontvangen wanneer iemand u in een verslagcommentaar etiketteert.
-
-Om te bepalen of u een Adobe Verenigde gebruiker van de Ervaring bent, zie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Meldingen in apps beheren
 
 1. (Voorwaardelijk) Nadat iemand u in een opmerking op een record heeft gelabeld, gaat u naar de app **Meldingen** pictogram ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Om te bepalen of u een Adobe Verenigde gebruiker van de Ervaring bent, zie [Adob
 
 1. Klik op het bericht.
 
-   De pagina met recorddetails wordt geopend in Workfront. U kunt de record bijwerken of op de opmerking reageren.
+   De pagina met recorddetails wordt geopend in Workfront Planning. U kunt de record bijwerken of op de opmerking reageren.
 
 1. (Optioneel) Klik op **Alles markeren als gelezen** om aan te geven dat u alle meldingen hebt gelezen.
 1. (Optioneel) Klik op **Alles weergeven** om naar de **Meldingen** pagina in Adobe Experience Cloud.

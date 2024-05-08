@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Voor informatie over het omzetten van kwesties in projecten, zie [Een uitgave co
 
 ## Overwegingen bij het converteren van problemen
 
+* Wanneer het omzetten van kwesties in taken of projecten, meeste informatie van de uitgifteoverdrachten aan de taak of het project, tenzij anders gespecificeerd in dit artikel.
 * Uw Workfront-beheerder of groepsbeheerder heeft al de voorkeuren ingesteld voor wat er met een probleem gebeurt, de oplossing ervan en de toegang van de primaire contactpersoon wanneer deze wordt omgezet in een project of taak, zoals beschreven in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront verwijdert goedkeuringen die tijdens de conversie aan problemen zijn gekoppeld.
 * Workfront overschrijft het Oplossende Voorwerp van de kwestie wanneer u het in een taak of een project omzet. De nieuwe taak of kwestie wordt het nieuwe Oplossende Voorwerp van de kwestie na omzetting.
@@ -76,7 +77,9 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
   </tr> 
   <tr> 
    <td>Prioriteit</td> 
-   <td>Overdrachten uit de sjabloon. </td> 
+   <td><p>Overdrachten van de uitgifte.</p>
+   <p>Wanneer u een malplaatje voor het omgezette project gebruikt, hebt u de optie om de Prioriteit manueel te veranderen. Als u ervoor kiest deze instelling niet te wijzigen, wordt de prioriteit van de uitgave aan het project overgedragen. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,11 +107,11 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Overdrachten uit de sjabloon. Anders is dit veld leeg.</td> 
+   <td>Overdrachten uit de sjabloon. Anders is dit veld leeg.</td> 
   </tr> 
   <tr> 
    <td>Programma</td> 
-   <td>Overdrachten uit de sjabloon. Anders is dit veld leeg.</td> 
+   <td>Overdrachten uit de sjabloon. Anders is dit veld leeg.</td> 
   </tr> 
   <tr> 
    <td>Groep</td> 
@@ -157,7 +160,7 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ In de volgende tabel wordt aangegeven welke velden zichtbaar zijn van de omgezet
 | Probleemvelden | Project- of taakveld | Projectlijst of -rapport | Het gebied Projectdetails | Taaklijst of rapport | Taakdetails, gebied |
 |---|---|---|---|---|---|
 | Naam van uitgave | Omgezette uitgeversnaam | ✔ | ✔ | ✔ | ✔ |
-| Primaire contactpersoon | Naam van initiator van geconverteerde uitgave | ✔ | `✔` | ✔ |   |
-| Invoerdatum | Invoerdatum van geconverteerde uitgave | ✔ |   | ✔ |   |
+| Primaire contactpersoon | Naam van initiator van geconverteerde uitgave | ✔ | `✔` | ✔ |  |
+| Invoerdatum | Invoerdatum van geconverteerde uitgave | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]
