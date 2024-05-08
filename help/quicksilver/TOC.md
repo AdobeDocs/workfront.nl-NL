@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
+source-git-commit: 4564bc136576a92ddacec7116ca18ef9fb15a5bc
 workflow-type: tm+mt
-source-wordcount: '14239'
+source-wordcount: '14226'
 ht-degree: 0%
 
 ---
@@ -413,9 +413,8 @@ ht-degree: 0%
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nieuwe releaseactiviteit voor opmerkingervaring](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Alfa-integratie tussen Workfront en Frame.io {#frame-io-wf-integration-alpha}
-         * [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-         * [Standaard Adobe Workfront- en Frame.io-integratie alfa: functies](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront en Frame.io integratie bèta {#frame-io-wf-integration-beta}
+         * [Geïntegreerde bètaversie van Adobe Workfront en Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront data Lake bèta {#data-lake-beta}
          * [bèta-informatie over Workfront data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Beheer en installatie {#administration-and-setup}
@@ -1792,7 +1791,6 @@ ht-degree: 0%
 * Werk beoordelen en goedkeuren {#review-and-approve-work}
    * [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
    * [Programma Alpha - Goedkeuringen document](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Bèta-programma - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](review-and-approve-work/proof-doc-decision-limits.md)
    * Goedkeuring van werkzaamheden {#work-approvals}
       * [Goedkeuring van werkzaamheden](review-and-approve-work/manage-approvals/manage-approvals.md)

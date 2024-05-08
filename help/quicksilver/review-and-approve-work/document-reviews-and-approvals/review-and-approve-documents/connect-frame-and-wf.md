@@ -5,13 +5,13 @@ title: Workfront en Frame.io verbinden
 description: Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te ontmoeten waar ze willen werken. Het projectbeheer en goedkeuringsproces worden beheerd in Workfront en het controleproces wordt uitgevoerd in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: 8529b4d5-9732-4dd6-bf81-191aea1ed68c
+source-git-commit: a8a5205616a0bf30c5ba4b27a2ffb9fae4d52ac4
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
-
 
 # Workfront en Frame.io verbinden
 
@@ -28,7 +28,7 @@ Workfront gebruikt Frame.io in het revisie- en goedkeuringsproces om mensen te o
 
 ## Toegangsvereisten
 
-* Uw organisatie moet handmatig zijn ingeschakeld om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Zie voor meer informatie [Standaard Adobe Workfront- en Frame.io-integratie alfa: overzicht](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
+* Uw organisatie moet handmatig worden ingeschakeld om de bètafunctie te kunnen gebruiken die in dit artikel wordt beschreven. Zie voor meer informatie [Geïntegreerde bètaversie van Adobe Workfront en Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md).
 
 
 ## Een Workfront-groep verbinden met een Frame.io-team
@@ -121,5 +121,3 @@ Het pictogram Frame.io naast de projectnaam wordt paars het signaleren van de in
 >[!IMPORTANT]
 >
 >Zodra het project voor Frame.io wordt aangesloten, worden de veranderingen die aan de projectgroep worden aangebracht niet weerspiegeld in Frame.io.
-
-

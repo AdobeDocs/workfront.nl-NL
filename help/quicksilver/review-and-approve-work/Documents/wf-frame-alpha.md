@@ -5,22 +5,25 @@ title: Bèta-programma - Workfront + Frame.io
 description: We zijn erg blij dat we de start van ons bètaprogramma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: f3c724135ae7fa0406f178b10cb0828f978805b7
+source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
 
 # Bèta-programma - Workfront + Frame.io
 
-We zijn erg blij dat we de start van ons bètaprogramma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
+Welkom bij het bètaprogramma Workfront + Frame.io! Als onderdeel van deze bètaversie krijgt u vroegtijdig toegang tot onze geïntegreerde Workfront + Frame.io en kunt u uw feedback delen die uiteindelijk de definitieve ervaring zal bepalen die wij aan onze bredere klantenbasis aanbieden. Met deze integratie streven we ernaar een wrijvingsloze end-to-end workflow tussen Workfront en Frame.io te creëren met de focus op een ideale, uniforme oplossing voor revisie en goedkeuring.
 
-Om aan dit Bèta deel te nemen, moet u door het productteam worden toegelaten. Neem contact op met uw Customer Success of accountmanager en verzoek om te worden toegevoegd.
+Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
+
+>[!NOTE]
+>
+>Om aan dit Bèta deel te nemen, moet u door het productteam worden toegelaten. Neem contact op met uw Customer Success of accountmanager en verzoek om te worden toegevoegd.
+
 
 ## Bètaversie wordt bijgewerkt in Frame.io - maart 2024
 
@@ -80,6 +83,59 @@ Wanneer een nieuwe documentversie wordt geüpload, kan de volgende revisieronde 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
+## Functietests
+
+Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze (CC of Frame.io) te blijven voor het maken van inhoud en collegiale toetsingen, terwijl we tegelijkertijd projectmanagers hebben die het werk coördineren en het formele evaluatieproces vanuit Workfront initialiseren en controleren. Dit kan worden bereikt door de beste van beide oplossingen te gebruiken: Workfront-goedkeuringen voor nieuwe documenten voor het beheer van goedkeuringen van inhoud, in combinatie met de mogelijkheden voor inhoudsrevisie die Frame.io biedt. De nieuwe goedkeuringen voor documenten en Frame.io vormen samen onze nieuwe complete ervaring voor het beoordelen en goedkeuren van inhoud. 
+
+Om u toe te staan om de nieuwe eigenschappen van het bètaprogramma gemakkelijk te testen, hebben wij een nieuwe testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
+
++++ uitbreiden om instructies voor het testen van variabelen weer te geven
+
+Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
+
+1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io testing` groep die als projectgroep wordt toegewezen.
+
+1. **Coördinatoren:** Markeer in Workfront de taken waarvoor creatief werk nodig is als &#39;frame-enabled&#39; (in taakdetails) en wijs uw creatieve projecten hieraan toe (wijs uzelf ook toe als u de hele workflow wilt testen).
+
+>[!NOTE]
+>
+>Subtaken kunnen niet worden gemarkeerd als Frame ingeschakeld.
+>
+
+1. **Coördinatoren:** Upload uw creatieve opdracht en verander de projectstatus in &quot;Huidige&quot;.
+
+1. **Creatieve producten:** Controleer uw e-mails voor een uitnodiging tot het zojuist gemaakte Frame.io-project
+
+1. **Creatieve producten:** Klik op de knop &quot;Deelnemen aan project&quot; in de uitnodigings-e-mail om deel te nemen aan het Frame.io-project, bekijk de creatieve samenvatting in het project en start het maken van uw inhoud met het gereedschap Creative Cloud van keuze.
+
+1. **Creatieve producten:** Upload uw gecreeerde activa aan Frame.io en voeg hen aan het verbonden project van Workfront toe door één van de toegewezen Kader-Toegelaten taken te selecteren. Selecteer de optie om de taak als voltooid te markeren.
+
+1. **Coördinatoren:** Zoek in Workfront de gekoppelde Frame.io-elementen in de voor frames ingeschakelde taak en controleer of de status van de taak is gewijzigd in &quot;complete&quot;.
+
+1. **Coördinatoren:** Wijs revisoren/fiatteurs toe aan het gekoppelde Frame.io-element. Wijs uzelf ook als fiatteur toe als u de volledige workflow wilt testen. (Voor meer informatie over het toewijzen van beoordelingen/fiatteurs raadpleegt u [Extra fiatteurs of revisoren toevoegen aan een document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
+
+1. **Belanghebbenden:** Bekijk uw goedkeuringsaanvraag in Workfront in Home, Document Details of in het ontvangen e-mailbericht. Open de middelen in de Kijker Frame.io, geef een commentaar met terugkoppelen, en maak een besluit.
+
+1. **Coördinatoren:** In Workfront bekijkt u de opmerkingen die door de belanghebbende zijn gemaakt in de sectie Updates van het document dat is verbonden met Frame.io, en de beslissing in de sectie Goedkeuring of het samenvattingsvenster van het document.
+
+1. **Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.
+
+1. **Creatieve producten:** Pas in Frame.io de gewenste wijzigingen toe door de bijgewerkte versie toe te voegen aan de versiestapel van het gekoppelde element.
+
+1. **Coördinatoren:** Wijs in Workfront fiatteurs/revisoren toe aan de geüploade versie en controleer de voortgang totdat deze afmelding bereikt.
+
++++
+
++++ Uitbreiden om gedetailleerde testinstructies weer te geven
+
+Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Hier kunt u een handleiding voor dit gedetailleerde testscenario downloaden: [WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
++++
+
+<!-- 
+## Demo Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
+-->
 
 ## Feedback verzenden
 
