@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>U kunt proefdrukken die oorspronkelijk zijn gemaakt met de Workfront-proefdrukken, beschikbaar maken in Workfront. Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</td> 
+   <td>U kunt proefdrukken die oorspronkelijk in Workfront Proof zijn gemaakt, beschikbaar maken in Workfront. Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Zie voor meer informatie over de verschillende beschikbare plannen <a href="https://www.workfront.com/plans">Workfront-plannen</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -143,7 +143,8 @@ U kunt documenten vanuit een externe toepassing, zoals Google en Microsoft OneDr
 
    >[!NOTE]
    >
-   >Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
+   >* Als de download-URL waarmee het document wordt gekoppeld, meer dan 2048 tekens bevat, kan het bestand niet worden gekoppeld.
+   >* Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
 
 ### Een nieuwe versie van een gekoppeld document toevoegen {#add-a-new-version-of-a-linked-document}
 
@@ -190,20 +191,20 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
 
 Voor informatie over het toevoegen van een nieuwe versie van een document dat u vanuit uw bestandssysteem naar Workfront hebt geüpload, raadpleegt u [Documenten toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Workfront Proefdocumenten koppelen {#link-workfront-proof-documents}
+### Workfront Proof-documenten koppelen {#link-workfront-proof-documents}
 
-U kunt proefdrukken koppelen aan Workfront die oorspronkelijk in Workfront Proof bestond. Als u een proefdruk van Workfront Proof koppelt, zijn alle opmerkingen en andere metagegevens die bij de proefdruk horen, beschikbaar in Workfront.
+U kunt proefdrukken koppelen aan Workfront die oorspronkelijk in Workfront Proof bestonden. Als u een proefdruk van Workfront Proof koppelt, zijn alle opmerkingen en andere metagegevens die bij de proefdruk horen, beschikbaar in Workfront.
 
-U kunt alleen proefdrukken koppelen waarvoor u toegang tot Weergave hebt in Workfront Proof.
+U kunt alleen proefdrukken koppelen waarvoor u in Workfront Proof toegang tot Weergave hebt.
 
 1. Ga naar de **Documenten** in Workfront waar u het document wilt plaatsen.
-1. Klikken **Nieuwe toevoegen** en klik vervolgens op **Proef van Workfront**.
+1. Klikken **Nieuwe toevoegen** en klik vervolgens op **Van Workfront Proof**.
 
    >[!NOTE]
    >
    >De opties in dit menu kunnen variëren afhankelijk van welke externe providers in uw omgeving zijn geconfigureerd.
 
-1. In de **Proefdrukken van Workfront koppelen** Voer in het vak dat wordt weergegeven de naam in van de proefdruk die u in Workfront wilt aanbieden.
+1. In de **Proefbestanden van Workfront Proof koppelen** Voer in het vak dat wordt weergegeven de naam in van de proefdruk die u in Workfront wilt aanbieden.
 
    De lijst wordt gefilterd terwijl u typt.
 
