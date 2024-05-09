@@ -8,66 +8,66 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 58f976d9f4245e528a4ddf23d39b92d9fa405311
+source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Installeer de Desktop Proofing Viewer voor uw organisatie
 
+<!--Audited: 05/2024-->
+
 De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het controleren van interactieve inhoud, is een toepassing die op de lokale computer van elke gebruiker moet worden geïnstalleerd. Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u deze installatie uitvoeren.
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Premium of Selecteren</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Ouder abonnement: Premium of Selecteren</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Beheerder moet zijn geselecteerd in het machtigingsprofiel voor proefdrukken. Zie voor meer informatie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">De proefdruktoegang van een gebruiker configureren</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Systeemvereisten
 
 De Desktop Proofing Viewer wordt ondersteund op de volgende besturingssystemen:
 
-* Windows 7 en hoger, 32-bits en 64-bits
+* Windows 7 en hoger, 32 en 64 bits
 * Mac OS X 10.9 en hoger, 64-bits
 
 ## Vereisten
 
-Als u gebruikers de Desktop Proofing Viewer wilt laten gebruiken, moet u
-
-* Configureer het systeem om de Desktop Proofing Viewer te starten als de standaardweergave voor interactieve proefdrukken vóór de installatie.
+Om gebruikers in staat te stellen de Desktop Proofing Viewer te gebruiken, moet u het systeem configureren om de Desktop Proofing Viewer te starten als de standaardweergave voor interactieve proefdrukken voordat u de toepassing installeert.
 
 ## De Desktop Proofing Viewer configureren als standaard voor interactieve proefdrukken
 
 Nadat u de Desktop Proofing Viewer voor uw organisatie hebt geïnstalleerd, kunt u deze instellen als de standaardviewer voor interactieve proefdrukken.
 
-1. Vanuit Workfront klikt u op het hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om toegang te krijgen tot Workfront Proof.
+{{step1-to-proofing}}
 
-1. Klikken **Accountinstellingen** in de rechterbovenhoek van Workfront Proof en klik vervolgens op de knop **Instellingen** tab.
+1. Klikken **Accountinstellingen** in de rechterbovenhoek van Workfront Proof klikt u op de knop **Instellingen** tab.
 
 1. Onder **Standaardwaarden proefdrukken** aan het einde van de **Desktop Proofing Viewer voor interactieve proefdrukken** rij, klik **Instellen**.
 
-   ![](assets/proof-defaults-350x265.png)
+   ![Standaardwaarden proefdrukken](assets/proof-defaults.png)
 
 1. Klikken **Ingeschakeld en standaard** en klik vervolgens op **Opslaan**.
 
@@ -80,14 +80,13 @@ Nadat u de Desktop Proofing Viewer voor uw organisatie hebt geïnstalleerd, kunt
 
 1. Voer op de computer van de gebruiker een van de volgende handelingen uit om de app te downloaden:
 
-   * Als u de productieomgeving gebruikt, klikt u op  [Mac Production Download voor de Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg)
-   * Als u de voorvertoningsomgeving gebruikt, klikt u op  [Mac Preview Download voor de Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg)
-)
+   * Als u de productieomgeving gebruikt, klikt u op [Mac Production Download voor de Desktop Proofing Viewer](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.19.pkg).
+   * Als u de voorvertoningsomgeving gebruikt, klikt u op [Mac Preview Download voor de Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
-1. Klik in het installatievak dat wordt weergegeven op **Doorgaan** en klik vervolgens op **Installeren**.
+1. Klik in het installatievak dat verschijnt op **Doorgaan** en klik vervolgens op **Installeren**.
 
-   ![00000776,png](assets/00000776-350x244.png)
+   ![Installatievak](assets/install-wf-proof-box.png)
 
 1. Zorg ervoor dat elke gebruiker de installatie voltooit door een interactieve proefdruk te openen vanuit het gebied Documenten in Workfront.
 
@@ -95,7 +94,7 @@ Nadat u de Desktop Proofing Viewer voor uw organisatie hebt geïnstalleerd, kunt
 
 1. Voer op de computer van de gebruiker een van de volgende handelingen uit om de app te downloaden:
 
-   * Klik in de productieomgeving op [Windows Production-download voor de Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe)
+   * Klik in de productieomgeving op [Downloaden van Windows Productie voor de Desktop Proofing Viewer](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
    * Klik in de voorvertoningsomgeving op [Windows Preview-download voor de Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
