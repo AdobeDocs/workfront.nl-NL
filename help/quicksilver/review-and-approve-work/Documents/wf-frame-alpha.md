@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
+source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze 
 
 Om u toe te staan om de nieuwe eigenschappen van het bètaprogramma gemakkelijk te testen, hebben wij een nieuwe testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
 
-+++ uitbreiden om instructies voor het testen van variabelen weer te geven
++++Vergroten om basistestinstructies te bekijken
 
 Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
 
