@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren.
-
 {{maestro-important-intro}}
 
 U kunt deze pagina als uitgangspunt voor alle documentatie met betrekking tot de Planning van Adobe Workfront gebruiken.
@@ -51,15 +49,17 @@ Ga naar de volgende artikelen voor een overzicht van de nieuwe Planning van Work
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Overzicht van Adobe Workfront Planning](maestro-overview.md): Een overzicht op hoog niveau van de Planning van Adobe Workfront, met inbegrip van de terminologie en de concepten die uniek aan deze oplossing zijn. We raden je aan om je reis te beginnen met Workfront Planning hier.
-* [Adobe Workfront Planning Release-activiteit](../maestro/release-activity.md): Een lijst met alle functies die zijn vrijgegeven sinds de start van het bètaprogramma Adobe Workfront Planning gesloten op 22 mei 2023 met exacte releasedatums en een kort overzicht van elke functie.
+* [Adobe Workfront Planning Release-activiteit](/help/quicksilver/maestro/release-activity.md): Een lijst met alle functies die zijn vrijgegeven sinds de start van het bètaprogramma Adobe Workfront Planning gesloten op 22 mei 2023 met exacte releasedatums en een kort overzicht van elke functie.
 * [Adobe Maestro-modules voor Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning Architectuur en functionaliteit
 
 De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de functies die momenteel beschikbaar zijn voor Workfront Planning:
 
-* [Adobe Workfront Planning Access-informatie: artikelindex](../maestro/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om de Planning van Workfront te gebruiken.
-* [Architectuur: artikelindex](../maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van de Planning van Workfront, met geleidelijke instructies op hoe u werkruimten en verslagtypes tot stand kunt brengen en beheren.
-* [Velden: artikelindex](../maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies voor het maken van aangepaste velden voor recordtypen.
-* [Records: artikelindex](../maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
-* [Weergaven: artikelindex](../maestro/views/views-information.md): Uitgebreide informatie over recordweergaven en hoe u deze kunt beheren bij het weergeven van een pagina met recordtypen.
+* [Adobe Workfront Planning Access Information: artikelindex](/help/quicksilver/maestro/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om de Planning van Workfront te gebruiken.
+* [Architectuur: artikelindex](/help/quicksilver/maestro/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van de Planning van Workfront, met geleidelijke instructies op hoe u werkruimten en verslagtypes tot stand kunt brengen en beheren.
+* [Velden: artikelindex](/help/quicksilver/maestro/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies voor het maken van aangepaste velden voor recordtypen.
+* [Records: artikelindex](/help/quicksilver/maestro/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
+* [Weergaven: artikelindex](/help/quicksilver/maestro/views/views-information.md): Uitgebreide informatie over recordweergaven en hoe u deze kunt beheren bij het weergeven van een pagina met recordtypen.
+* [Adobe Workfront-planningsmeldingen: artikelindex](/help/quicksilver/maestro/notifications/notifications-information.md): Informatie over e-mail- en in-app-meldingen die zijn gegenereerd door gebeurtenissen in Workfront Planning.
+
