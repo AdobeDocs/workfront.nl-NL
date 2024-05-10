@@ -9,9 +9,9 @@ description: U kunt de module SOAP gebruiken om verbinding te maken met SOAP API
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,11 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Met de [!UICONTROL SOAP] module
+## Beperkingen van de [!UICONTROL SOAP] module
+
+>[!NOTE]
+>
+>Omleidingen zijn uitgeschakeld tijdens het laden van WDSL. Dit is een veiligheidseigenschap, maar kan betekenen dat niet geverifieerde omleidingen worden geblokkeerd wanneer de module in werking wordt gesteld.
 
 De [!UICONTROL SOAP] module is momenteel in bèta en biedt geen ondersteuning voor:
 
@@ -86,8 +90,8 @@ De [!UICONTROL SOAP] module is momenteel in bèta en biedt geen ondersteuning vo
 >     </complexContent>
 ></complexType>
 >```
-
-Het omvat de `soapenc:Array`, `soapenc:arrayType` en `wsdl:arrayType` verwijzingen, die nog niet worden ondersteund in [!UICONTROL Workfront Fusion].
+>
+>In dit voorbeeld wordt het `soapenc:Array`, `soapenc:arrayType` en `wsdl:arrayType` verwijzingen, die nog niet worden ondersteund in [!UICONTROL Workfront Fusion].
 
 ## Workaround
 
