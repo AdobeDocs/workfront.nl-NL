@@ -6,9 +6,9 @@ description: De [!DNL Adobe Workfront] woordenlijst bevat veelgebruikte termen i
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '16317'
+source-wordcount: '16482'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
    <td>Een bron van gegevens waarmee herhalingen in een flexibele omgeving worden gemeten.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Billable Expense]</td> 
+   <td> <p>Een last die als factureerbaar aan de klant wordt gemerkt. Dit kan ofwel een geplande uitgave zijn, ofwel een werkelijke uitgave.</p> <p>De Geplande Billable Kosten van de Kosten en de Ware Facturable gebieden van de Kosten van de Kosten van de Uitgaven zijn beschikbaar voor u om aan meningen en rapporten toe te voegen. Ze worden niet weergegeven op de pagina's met project- of taakdetails.</p>
+   <p>U kunt deze gebieden in de volgende types van rapporten vinden:</p>
+   <ul>
+   <li>Basislijn</li>
+   <li>Sjabloon</li>
+   <li>Project (financiële gegevens)</li>
+   </ul>
+   <p>Voor meer informatie over het merken van een uitgave als factureerbaar, zie <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Projectkosten beheren</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1305,7 +1318,21 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>In een [!UICONTROL Journal Entry] rapport, toont dit de bijgewerkte waarde van een gebied dat vervangt [!UICONTROL Old Number Value].
    Zie voor meer informatie "[!UICONTROL Old Number Value]" in dit artikel.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Non-Billable Expense]</td> 
+   <td> <p>Een last die niet als factureerbaar aan de klant wordt gemerkt. Dit kan ofwel een geplande uitgave zijn, ofwel een werkelijke uitgave.</p> <p>De geplande niet-factureerbare de Kosten van de Kosten en de Ware niet-factureerbare gebieden van de Kosten van de Kosten zijn beschikbaar voor u om aan meningen en rapporten toe te voegen. Ze worden niet weergegeven op de pagina's met project- of taakdetails.</p>
+   <p>U kunt deze gebieden in de volgende types van rapporten vinden:</p>
+   <ul>
+   <li>Basislijn</li>
+   <li>Sjabloon</li>
+   <li>Project (financiële gegevens)</li>
+   </ul>
+   <p>Voor meer informatie over het merken van een uitgave als factureerbaar, zie <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Projectkosten beheren</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Non Work Day]</td> 
    <td>Een dag die niet wordt toegewezen aan het uitvoeren van een opdracht. Dit is meestal een feestdag, vakantie of weekend. De term wordt weergegeven in de API-verkenner. </td> 
   </tr> 
