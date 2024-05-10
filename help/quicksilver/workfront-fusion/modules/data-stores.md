@@ -8,9 +8,9 @@ description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoud
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -76,20 +76,20 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Gegevensruimte beschikbaar
 
-Als uw organisatie zich op het nieuwe Workfront-planmodel bevindt (pakketten Selecteren, Primair en Ultimate), is de totale grootte van de gegevensopslagruimte:
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+Als uw organisatie zich op het nieuwe het planmodel van Workfront (Uitgezochte, Primaire, en Ultimate pakketten) bevindt, beïnvloedt het plan van uw organisatie de grootte en het aantal gegevensopslag beschikbaar uw instantie van Fusion.
 
-### Ultimate plan
+### Ultieme planning
 
-Fusion instances on the Ultimate package receive:
+Fusion-instanties op het Ultimate-pakket ontvangen:
 
-* 500 MB of space
-* 50 data stores 
+* 100 MB aan ruimte
+* 50 gegevensopslag
 
-### Select and Prime plans
+### Abonnementen selecteren en voorbereiden
 
-Fusion instances on the Select or Prime packages receive:-->
+Fusion-instanties op de Select- of Primaire pakketten ontvangen:—>
 
 * 100 MB voor de eerste 500K verrichtingen.
 
