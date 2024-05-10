@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ U kunt de lay-out van de verslagvoorproef en pagina in de Planning van Adobe Wor
 
 De recordvoorvertoning is een kleinere weergave van de recordpagina die wordt weergegeven in de weergave van een recordtype.
 
-Wanneer u de indeling van een recordvoorvertoning en pagina wijzigt, hebben de wijzigingen invloed op de vakken en pagina&#39;s van alle records van hetzelfde type.
+Wanneer u de indeling van een recordvoorvertoning en pagina wijzigt, hebben de wijzigingen invloed op de voorbeeldvakken en op de detailpagina&#39;s van alle records van hetzelfde type.
+
+In dit artikel wordt beschreven hoe u de lay-out en weergave van een recordvoorvertoningsvak of een recordpagina kunt wijzigen. Voor informatie over het bewerken van records raadpleegt u [Records bewerken](/help/quicksilver/maestro/records/edit-records.md).
 
 U moet recordtypen en records maken voordat u kunt beginnen met het bewerken van recordpagina&#39;s.
 

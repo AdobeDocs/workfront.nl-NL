@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,15 @@ De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt select
 
 ### Werkruimtemachtigingen
 
+U moet gebruikers toestemming geven aan werkruimten om hen toegang tot de volgende entiteiten te verlenen:
+
+* Werkruimten
+* Recordtypen
+* Records
+* Velden
+
+Hieronder vindt u de machtigingsniveaus voor werkruimten:
+
 |        | Beheren | Contribute | Weergave |
 |--------|--------|------------|-------|
 | Bewerken | ✓ |            |       |
@@ -80,6 +89,9 @@ De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt select
 
 De toestemmingen van het Type van verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
 
+Hieronder vindt u de machtigingsniveaus voor recordtypen:
+
+
 |        | Beheren | Contribute | Weergave |
 |--------|--------|------------|-------|
 | Maken | ✓ |            |       |
@@ -90,6 +102,9 @@ De toestemmingen van het Type van verslag worden geërft wanneer u toestemmingen
 ### Machtigingen opnemen
 
 De toestemmingen van het verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+
+Hieronder vindt u de machtigingsniveaus voor records:
+
 
 |        | Beheren | Contribute | Weergave |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ De volgende machtigingen verwijzen naar de velden zelf en niet naar de waarden d
 
 U moet afzonderlijke machtigingen verlenen om weergaven op te nemen. Het verlenen van toestemmingen aan de werkruimte verleent geen toestemmingen aan de verslagmeningen in de werkruimte.
 
+U moet gebruikers toestemming geven om weergaven weer te geven, zodat ze toegang hebben tot de volgende weergave-elementen:
+
+* Filters
+* Zichtbaarheid veld
+* Sorteren
+* Groepering
+* Rijhoogte
+* Instellingen
+
+
 <!--You can share views internally or publicly. -->
+
+Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 
 |        | Beheren | Weergave |
 |--------|--------|-------|
