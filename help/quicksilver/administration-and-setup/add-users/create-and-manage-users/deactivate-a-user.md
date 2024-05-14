@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ Zie voor meer informatie [Informatie over het deactiveren van Workfront-beheerde
 
 ## Een gebruiker deactiveren
 
+Houd rekening met het volgende wanneer u een gebruiker deactiveert:
+
+* De gebruiker zal niet tot het systeem kunnen toegang hebben.
+* De gebruiker zal uit Frame.io overzichtsverbindingen, activa, projecten, en rekeningen worden verwijderd.
+   * Als de gebruiker opnieuw wordt geactiveerd, worden deze niet automatisch weer toegevoegd aan de Frame.io-items. U moet de gebruiker manueel aan de projecten van Workfront, taken, en activa opnieuw toewijzen die Samenwerking Frame.io vereisen.
+* Alle gegevens die aan de gebruiker zijn gekoppeld, blijven behouden.
+* U kunt een gedeactiveerde gebruikerslicentie toewijzen aan een andere gebruiker.
+
+Een gebruiker deactiveren:
+
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
 1. Selecteer een gebruiker en klik op de knop **Meer** pictogram ![](assets/more-icon.png)en klik vervolgens op **Deactiveren**.
@@ -126,6 +136,10 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png)en klik vervolgens op **Activeren**.
 
 1. Een nieuwe waarde toewijzen **Toegangsniveau** in het vervolgkeuzemenu klikt u vervolgens op **Opnieuw activeren**.
+
+### De gevolgen van de herbeoordeling en goedkeuring van bedrijfsmiddelen wanneer u een gebruiker opnieuw activeert
+
+De gedeactiveerde gebruikers verliezen toegang tot hun toegewezen rekeningen Frame.io evenals toegewezen projecten, activa, en overzichtsverbindingen. Als u verkiest om de gebruiker te reactiveren, moet u hen aan projecten, taken, en activa manueel opnieuw toewijzen die Samenwerking Frame.io vereisen.
 
 ### Bewijseffect wanneer u een gebruiker opnieuw activeert
 

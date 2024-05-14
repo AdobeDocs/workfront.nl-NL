@@ -9,9 +9,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 0%
 Deze sectie bevat de volgende artikelen:
 
 * [[!DNL Adobe Workfront] integratie](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Configureren [!DNL Workfront] with [!DNL Adobe Experience Manager] verouderde connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [Vorm [!DNL Workfront] en [!DNL Frame.io] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Vorm [!DNL Experience Manager Assets as a Cloud Service] integratie](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Vorm [!DNL Experience Manager Assets Essentials] integratie](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] and [!DNL Experience Manager Assets] Integraties](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [[!DNL Workfront] en [!DNL Experience Manager Assets] Integraties](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Configureren [!DNL Workfront] with [!DNL Adobe Experience Manager] verouderde connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [Inschakelen [!UICONTROL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [Documentintegratie configureren](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [Documentintegratie uitschakelen](../../administration-and-setup/configure-integrations/disable-document-integrations.md)

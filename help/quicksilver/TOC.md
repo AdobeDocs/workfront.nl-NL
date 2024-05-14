@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
+source-git-commit: 6caa46150eed42c792a01891018aaa16f8700cb9
 workflow-type: tm+mt
-source-wordcount: '14236'
+source-wordcount: '14250'
 ht-degree: 0%
 
 ---
@@ -781,9 +781,10 @@ ht-degree: 0%
    * Integraties configureren {#configure-integrations}
       * [Integraties configureren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integratie](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Workfront configureren met verouderde Adobe Experience Manager-aansluiting](administration-and-setup/configure-integrations/configure-workfront-aem.md)
+      * [Vorm [!DNL Workfront] en [!DNL Frame.io] integratie](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [De as a Cloud Service integratie met Experience Manager Assets configureren](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [De integratie met Experience Manager Assets Essentials configureren](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+      * [Workfront configureren met verouderde Adobe Experience Manager-aansluiting](administration-and-setup/configure-integrations/configure-workfront-aem.md)
       * [Gebruikers toegang geven tot de mobiele toepassing](administration-and-setup/configure-integrations/enable-users-access-mobile-app.md)
       * [Adobe Workfront for Outlook inschakelen](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
       * [Documentintegratie configureren](administration-and-setup/configure-integrations/configure-document-integrations.md)
@@ -1197,6 +1198,7 @@ ht-degree: 0%
          * [Een project maken met een sjabloon](manage-work/projects/create-projects/create-project-from-template.md)
          * [Een project importeren uit Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Projectbasislijnen maken](manage-work/projects/create-projects/create-baselines.md)
+         * [Een project maken dat is verbonden met Frame.io](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Werk aan een project bijwerken {#update-work-on-a-project}
          * [Werk aan een project bij: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Statussen toepassen op werk dat aan een groep is gekoppeld](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1808,7 +1810,7 @@ ht-degree: 0%
    * Documentcontrole en -goedkeuring {#document-reviews-and-approvals}
       * [Documentcontrole en -goedkeuring](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Overzicht van documentgoedkeuringen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [Overzicht van de evaluatie en goedkeuring van bedrijfsmiddelen](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
+      * [Ga aan de slag met Asset Review en goedkeuring met Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Documenten controleren {#review-and-approve-documents}
          * [Documenten controleren: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Een document reviseren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1820,7 +1822,7 @@ ht-degree: 0%
          * [Extra revisoren of fiatteurs toevoegen aan een document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [fiatteurs of revisoren uit een document verwijderen](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Een goedkeuringssjabloon maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Goedkeuringsstatus document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Status van besluit document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
          * [Een document goedkeuren](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Proofing {#proofing}
       * [Proofing: artikelindex](review-and-approve-work/proofing/proofing.md)
