@@ -4,9 +4,10 @@ description: Verbeteringen van projecten in het derde kwartaal van 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
+exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -22,9 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2024; Productie voor snelle release: Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met snelle release; Productie voor alle klanten: vast te stellen.
-
-<span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span>
+>Voorvertoningsrelease: 13 februari 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor alle klanten: vast te stellen.
 
 Dezelfde functionaliteit voor meer relevante slimme toewijzingen is toegevoegd aan het veld Toewijzingen op de volgende gebieden:
 
@@ -38,9 +37,7 @@ Zie voor meer informatie [Overzicht van slimme toewijzingen](/help/quicksilver/m
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 december 2023; Productie voor snelle release: Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met snelle release; Productie voor alle klanten: vast te stellen.
-
-<span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span>
+>Voorvertoningsrelease: 21 december 2023; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor alle klanten: vast te stellen.
 
 We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.
 

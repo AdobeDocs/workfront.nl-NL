@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,33 @@ Deze pagina bevat informatie over de structuur en inhoud van de gegevens in het 
 
 Er zijn een aantal tabeltypen die u kunt gebruiken om uw Workfront-gegevens op een manier te bekijken die het meest inzicht biedt.
 
-### Huidige tabel
+* **Huidige tabel**
 
-De tabel Huidig bevat gegevens die ongeveer overeenkomen met de status in Workfront, elk object en de huidige status. U kunt er echter veel minder latentie aan toevoegen dan in Workfront.
+  De tabel Huidig bevat gegevens die ongeveer overeenkomen met de status in Workfront, elk object en de huidige status. U kunt er echter veel minder latentie aan toevoegen dan in Workfront.
 
-### Gebeurtenistabel
+* **Gebeurtenistabel**
 
-De gebeurtenissentabel houdt elke veranderingsverslag in Workfront bij: namelijk telkens als een voorwerp staat verandert, wordt een verslag gecreeerd dat toont wanneer de verandering gebeurde, die de verandering aanbracht, en wat werd veranderd. Daarom is deze lijst nuttig voor punt-in-tijd vergelijkingen. Deze tabel bevat alleen gegevens van de afgelopen drie jaar.
+  De gebeurtenissentabel houdt elke veranderingsverslag in Workfront bij: namelijk telkens als een voorwerp staat verandert, wordt een verslag gecreeerd dat toont wanneer de verandering gebeurde, die de verandering aanbracht, en wat werd veranderd. Daarom is deze lijst nuttig voor punt-in-tijd vergelijkingen. Deze tabel bevat alleen gegevens van de afgelopen drie jaar.
 
-### Tabel met dagelijkse historie
+* **Tabel met dagelijkse historie**
 
-De tabel Dagelijkse historie bevat een verkorte versie van de tabel Gebeurtenis, in die zin dat de status van elk object dagelijks wordt weergegeven in plaats van wanneer elke afzonderlijke gebeurtenis zich heeft voorgedaan. Daarom is deze tabel nuttig voor trendanalyse.
+  De tabel Dagelijkse historie bevat een verkorte versie van de tabel Gebeurtenis, in die zin dat de status van elk object dagelijks wordt weergegeven in plaats van wanneer elke afzonderlijke gebeurtenis zich heeft voorgedaan. Daarom is deze tabel nuttig voor trendanalyse.
 
 <!-- Custom table -->
 
+## Relatiediagram voor entiteit
+
+Objecten in Workfront (en dus in het datumpeer) worden niet alleen gedefinieerd door hun individuele waarden, maar ook door hun relaties met andere objecten. Het onderstaande entiteitsrelatiediagram biedt een overzicht op hoog niveau van objectrelaties in het Workfront-gegevensmeer. Het diagram kan worden bekeken en gedownload gebruikend de volgende verbinding:
+
+[Relatiediagram gegevensmeerentiteit](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>Het diagram van de entiteitverhouding is een werk lopend-als dusdanig, is het slechts voor verwijzingsdoeleinden en is onderhevig aan verandering.
+
 ## Terminologie tabel
 
-De volgende tabel correleert de objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente naam in het datumpomeer.
+De volgende tabel correleert objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente namen in het datumpomeer.
 
 <table>
 <thead>

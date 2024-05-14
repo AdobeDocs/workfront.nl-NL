@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ In de mobiele app kunt u werkitems voltooien en informatie weergeven zoals u dat
 * Workfront-verzoeken maken en verwerken
 * De tijd van het logboek op een timesheet
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >De [!DNL Adobe Workfront] mobiele app heeft de [!DNL Workfront Proof] app. [!DNL Workfront] klanten moeten nu de [!DNL Adobe Workfront] mobiele app voor het uitvoeren van proefversies en goedkeuringen.
+
+>[!NOTE]
+>
+>Hyperlinks in tekstvelden worden niet ondersteund in de mobiele app van Workfront.
 
 Voor meer informatie over de [!DNL Adobe Workfront] mobiele app, bekijk de volgende artikelen:
 

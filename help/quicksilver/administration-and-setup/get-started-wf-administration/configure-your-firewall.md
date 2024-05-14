@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Als uw milieu van de Productie op Cluster 6 is, voeg de volgende IP adressen toe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">De AWS-e-mailservice gebruiken</td> 
+   <td role="rowheader">De e-mailservice gebruiken</td> 
    <td> 
     <ul> 
      <li>54 240 60 174</li> 
@@ -202,6 +202,15 @@ Als uw milieu van de Productie op Cluster 6 is, voeg de volgende IP adressen toe
      <li>52.14.70.114</li> 
      <li>52 15 230 220</li> 
      <li>54 71 252,65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">De mailservice van Mailgun gebruiken</td> 
+   <td> 
+    <ul> 
+     <li>143 55 228,56 </li> 
+     <li>209 61 151 229</li> 
+     <li>69 72 43,7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -496,13 +505,13 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Als u Workfront Proof toegang wilt geven tot Workfront in een cluster, voegt u deze toe aan alle omgevingen</td> 
+   <td role="rowheader">Als u Workfront Proof toegang wilt geven tot Workfront in elke cluster, voegt u deze toe aan alle omgevingen</td> 
    <td> 
     <ul> 
      <li>*.workfront.com - Vereist om proefdrukken in Workfront te bekijken</li> 
      <li>*.proofhq.com - Vereist om proefdrukken te bekijken in Workfront Proof</li> 
-     <li>*.proofhq.eu - Vereist om proefdrukken te bekijken in Workfront Proof</li> 
-    </ul> <p><b>OPMERKING</b>:  <p>Wij steunen het toevoegen van IP adressen aan uw lijst van gewenste personen voor het Bewijs van Workfront niet. Ze waren dynamisch nadat Workfront naar AWS was verhuisd. In plaats daarvan raden we u aan alleen Workfront Proof-domeinen toe te staan.</p> <p>Als er een probleem is met het toevoegen van deze domeinen aan uw lijst van gewenste personen en u hebt in plaats daarvan een IP-adres nodig, neemt u contact op met de klantenondersteuning van Workfront.</p> </p> </td> 
+     <li>*.proofhq.eu - Vereist om proefdrukken in Workfront Proof te bekijken</li> 
+    </ul> <p><b>OPMERKING</b>:  <p>Wij steunen het toevoegen van IP adressen aan uw lijst van gewenste personen voor Workfront Proof niet. Ze waren dynamisch nadat Workfront naar AWS was verhuisd. In plaats daarvan raden we u aan alleen Workfront Proof-domeinen toe te staan.</p> <p>Als er een probleem is met het toevoegen van deze domeinen aan uw lijst van gewenste personen en u hebt in plaats daarvan een IP-adres nodig, neemt u contact op met de klantenondersteuning van Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

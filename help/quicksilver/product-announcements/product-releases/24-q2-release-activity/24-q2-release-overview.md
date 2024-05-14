@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2218'
 ht-degree: 0%
 
 ---
@@ -369,8 +369,7 @@ U kunt [een PDF-bestand weergeven](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                                 <p>Voorvertoningsrelease: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
-                                <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
+                                <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: TBD</p>
@@ -390,8 +389,7 @@ U kunt [een PDF-bestand weergeven](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.3 release (14 maart 2024)</p>
-                                <p><span style="color: #ff0000;">Deze functie is op 18 maart 2024 verwijderd uit Production voor klanten met een snelle release.</span></p>
+                                <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: TBD</p>
