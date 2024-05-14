@@ -6,9 +6,9 @@ description: Toegang [!DNL Workfront] via Adobe Experience Cloud beschikt u over
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Gebruik de [!UICONTROL Main Menu] pictogram ![](assets/main-menu-icon-left-nav.p
 
 ## Uw profiel en voorkeuren openen
 
-U hebt toegang tot uw profiel- en voorkeursopties door op de profielafbeelding in het bovenste navigatiegebied te klikken.
+U hebt toegang tot uw profiel- en voorkeursopties door in het bovenste navigatiegebied op het menu voor een Adobe-account (uw profielfoto) te klikken.
 
 ![Menu Profiel](assets/aec-profile-picture-menu.png)
 
