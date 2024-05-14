@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -103,27 +103,31 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](../architecture/create-record-types.md).
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
-Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
+Alle records van het geselecteerde type worden in de weergave weergegeven.
 
-1. (Voorwaardelijk) Als de pagina met recordtypen niet in de tabelweergave wordt geopend, klikt u op het tabblad van een tabelweergave of klikt u op **+ Weergave** een tabelweergave maken.
+1. (Voorwaardelijk) Afhankelijk van de weergave die u weergeeft, voert u een van de volgende handelingen uit:
 
-1. Klik op **Nieuwe record** in de laatste rij van de tabel
+   * In de tabelweergave:
 
-   of
+      * Klikken **Nieuwe record** in de laatste rij van de tabel
 
-   Klikken **Shift + Enter** op uw toetsenbord vanuit een willekeurige kolom of rij van de tabel. Hiermee voegt u een lege rij toe.
+      * Klikken **Shift + Enter** op uw toetsenbord vanuit een willekeurige kolom of rij van de tabel. Hiermee voegt u een lege rij toe.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Typ informatie in de nieuwe rij over de nieuwe record.
+   * Vanuit elke weergave:
+
+      * Klikken **Nieuwe record** rechtsboven op de pagina. Het voorvertoningsvak voor records wordt geopend.
+
+1. Typ gegevens in de nieuwe rij over de nieuwe record of in de velden die u in het voorvertoningsvak ziet.
 
    >[!NOTE]
    >
-   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u een Naam voor het verslag toevoegt aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar.
+   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u een Naam voor het verslag toevoegt aangezien het nuttig is om verslagen door hun naam te identificeren wanneer het verbinden van verslagen aan elkaar.
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 
-1. Ga door met het toevoegen van informatie over elke rij en klik vervolgens op **Enter** op uw toetsenbord om uw wijzigingen op te slaan.
+1. (Voorwaardelijk) Als u records in de tabel toevoegt, blijft u informatie over elke rij toevoegen en klikt u op **Enter** op uw toetsenbord om uw wijzigingen op te slaan.
 
    of
 
@@ -136,8 +140,7 @@ Alle records van het geselecteerde type worden weergegeven in de tabelweergave.
 1. Bewerk de recordgegevens in de voorvertoning van de record. Workfront slaat uw wijzigingen automatisch op.
 1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de voorvertoning van de record om de pagina van de record in een nieuw tabblad te openen. Ga door met het bewerken van de record op de recordpagina.
 
-
-1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records ongedaan te maken of opnieuw toe te voegen:
+1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze in de tabelweergave toevoegt:
 
    * CTRL + Z ( ⌘ + Z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Shift + Z ( ⌘ + Shift + Z voor Mac) om een wijziging opnieuw uit te voeren

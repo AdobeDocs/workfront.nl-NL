@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Week van 13 mei 2024
+
+### Real-time updates in de tijdlijnweergave na het bewerken van records
+
+Productie: 14 mei 2024
+
+Voorbeeld: te bepalen.
+
+Wanneer een gebruiker de informatie in een record bijwerkt, kunnen andere gebruikers de bijgewerkte informatie in de tijdlijnweergave van de record in real-time bekijken. Zo zorgt u ervoor dat alle gebruikers de bijgewerkte informatie tegelijkertijd bekijken, in overeenstemming met wanneer de wijzigingen zich voordoen.
+
+### Record toevoegen vanuit de weergavekop
+
+Productie: 14 mei 2024
+
+Voorbeeld: te bepalen
+
+Er is een knop Nieuwe record toegevoegd aan de koptekst van een pagina met recordtypen. U kunt nu records maken vanuit elke weergave. Voorafgaand aan deze verbetering, kon u verslagen slechts van de lijstmening tot stand brengen.
+
+Zie voor meer informatie [Records maken](/help/quicksilver/maestro/records/create-records.md).
 
 ## Week van 6 mei 2024
 

@@ -4,13 +4,13 @@ description: Je kunt je berichtgevingsvoorkeuren voor Adobe Workfront Planning m
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
+source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Voorkeuren voor Adobe Workfront-planningsberichten beheren
 
@@ -92,7 +92,7 @@ Raadpleeg ook de volgende artikelen voor meer informatie over berichten over Wor
 
 * Voor informatie over opmerkingen over records raadpleegt u [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 * Voor informatie over in-app meldingen van Workfront Planning raadpleegt u [Meldingen in apps voor Adobe Workfront-planning beheren](/help/quicksilver/maestro/notifications/manage-planning-in-app-notifications.md).
-* Ga voor meer informatie over e-mailmeldingen via Workfront Planning naar [E-mailmeldingen beheren voor Adobe Workfront Planning](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md).
+* Voor informatie over e-mailmeldingen via Workfront Planning raadpleegt u [E-mailmeldingen beheren voor Adobe Workfront Planning](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md).
 
 
 

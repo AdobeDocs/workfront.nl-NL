@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Ga naar de volgende artikelen voor een overzicht van de nieuwe Planning van Work
 
 * [Overzicht van Adobe Workfront Planning](maestro-overview.md): Een overzicht op hoog niveau van de Planning van Adobe Workfront, met inbegrip van de terminologie en de concepten die uniek aan deze oplossing zijn. We raden je aan om je reis te beginnen met Workfront Planning hier.
 * [Adobe Workfront Planning Release-activiteit](/help/quicksilver/maestro/release-activity.md): Een lijst met alle functies die zijn vrijgegeven sinds de start van het bètaprogramma Adobe Workfront Planning gesloten op 22 mei 2023 met exacte releasedatums en een kort overzicht van elke functie.
-* [Adobe Maestro-modules voor Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+* [Adobe Workfront-planningsmodules voor Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning Architectuur en functionaliteit
 
