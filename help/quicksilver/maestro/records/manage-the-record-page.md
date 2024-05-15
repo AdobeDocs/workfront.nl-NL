@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overwegingen bij het bewerken van recordpagina&#39;s
 
-* Als u de velden in de recordvoorvertoning of op de pagina opnieuw rangschikt, worden de velden opnieuw gerangschikt voor alle records van dat type en voor alle gebruikers die deze records openen.
+* Standaard worden in de details en de voorvertoningspagina&#39;s van een record alle velden weergegeven die aan de record zijn gekoppeld.
+
+* U kunt geen nieuwe velden toevoegen voor een record in de voorvertoning of op de detailpagina. U moet nieuwe velden toevoegen aan de tabelweergave om deze weer te geven op de pagina&#39;s met voorvertoningen en details.
+
+* U kunt secties toevoegen aan een recordvoorvertoning of detailpagina om de informatie te ordenen op basis van algemene criteria en het gemakkelijker te maken om te zoeken.
+
+* De volgende wijzigingen zijn van invloed op alle records van hetzelfde type en zijn zichtbaar voor alle gebruikers die deze records openen:
+
+   * Velden opnieuw rangschikken
+   * Secties toevoegen of verwijderen
 
 * Wijzigingen die u in de voorvertoning van de record aanbrengt, zijn direct zichtbaar op de pagina met recorddetails. Wijzigingen die u aanbrengt in de recordpagina, worden ook weergegeven in het voorvertoningsvak van de record.
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * Het toevoegen van een omslagafbeelding aan een record maakt geen deel uit van de algemene lay-out van de voorvertoning of pagina van de record. U kunt unieke omslagafbeeldingen aan elke record toevoegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## Secties toevoegen aan een recordvoorvertoning of pagina
 
-## Add sections to a record preview or page
+Houd rekening met het volgende wanneer u secties toevoegt aan een recordpagina:
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* Er geldt geen limiet voor het aantal secties dat u op een pagina kunt plaatsen.
+* U kunt geen lege sectie hebben. Een sectie moet ten minste één veld bevatten.
+* U kunt velden van de ene sectie naar de andere slepen. Zie de sectie voor meer informatie [De volgorde van velden in de recordvoorvertoning of op de detailpagina wijzigen](#rearrange-fields-in-the-record-preview-or-details-page) in dit artikel.
+* Wanneer u alle velden uit een sectie verwijdert, wordt de sectie automatisch verwijderd en kan deze niet worden hersteld.
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+De werkruimte die u als laatste opent.
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+1. Klik op een opnametype.
 
-    The record type page opens. 
+   De pagina met recordtypen wordt geopend.
 
-1. From a view of any type, click the name of a record 
+1. Klik vanuit een weergave van een willekeurig type op de naam van een record
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   of
 
-    ![](assets/details-box.png) 
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam.
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   De voorvertoning van de record wordt in de weergave geopend.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
-    ![](assets/details-page.png)
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   De recordpagina wordt geopend.
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. Houd de aanwijzer in de voorvertoning of pagina van de record boven de witruimte links van de velden en klik vervolgens op de knop **Sectie toevoegen** pictogram ![](assets/add-section-icon.png) een sectie toevoegen.
+1. Klik binnen de naam van de sectie en vervang **Naamloze sectie** met een naam, en klik dan binnengaan. De velden die onder de sectie worden weergegeven, maken automatisch deel uit van de nieuwe sectie.
+1. Velden naar de nieuwe sectie slepen en neerzetten, zoals beschreven in de sectie [De volgorde van velden in de recordvoorvertoning of op de detailpagina wijzigen](#rearrange-fields-in-the-record-preview-or-details-page) in dit artikel.
+
+1. (Optioneel) Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. (Optioneel) Voer een van de volgende handelingen uit om de sectie te bewerken:
 
-   * Click **Rename** to rename the section
+   * Klikken **Naam wijzigen** om de naam van de sectie te wijzigen
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > U kunt de naam van een sectie inline wijzigen door op de naam te klikken.
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * Klikken **Omhoog verplaatsen** om de sectie één positie omhoog te verplaatsen
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     of
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     Klikken **Omlaag verplaatsen** om de sectie één positie omlaag te verplaatsen.
+Alle velden in de sectie worden met de sectie verplaatst.
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * Klikken **Verwijderen** om de sectie te verwijderen. De sectie wordt verwijderd en kan niet worden hersteld. Alle gebruikers die tot de verslagen van dit type toegang hebben zullen niet meer de geschrapte sectie bekijken.
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. Klik op de pijl omlaag links van een sectienaam om deze samen te vouwen of op de pijl naar rechts om deze uit te vouwen.
+Alle secties worden standaard uitgevouwen.
 
-    All changes to sections and field order are saved automatically. 
+1. (Optioneel) Klik op de knop **grijpen** pictogram ![](assets/grab-icon.png) links van een sectienaam, en sleep het en zet het op een gewenste plaats neer.
 
--->
+   De nieuwe positie van de sectie wordt bijgewerkt in zowel de voorvertoning als de pagina van alle records van hetzelfde type voor alle gebruikers die de records bekijken.
 
-## Velden in de voorvertoning of pagina van de record opnieuw rangschikken
+   Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
+
+## De volgorde van velden in de recordvoorvertoning of op de detailpagina wijzigen
 
 {{step1-to-maestro}}
 

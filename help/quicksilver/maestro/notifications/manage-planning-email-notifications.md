@@ -4,13 +4,13 @@ description: Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u ee
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # E-mailberichten voor Adobe Workfront Planning beheren
 
@@ -94,4 +94,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De pagina met recorddetails wordt geopend in Workfront. U kunt de record bijwerken of op de opmerking reageren.
 
 1. (Voorwaardelijk) Klik, indien beschikbaar **Alle meldingen weergeven**. <!--check with Lilit - do non-IMS users have this button??-->
-De **Meldingen** pagina wordt geopend in Adobe Experience Cloud.
+De **Meldingen** pagina wordt geopend in Adobe Experience Cloud. Alle berichten van alle Adobe Experience Cloud-toepassingen worden weergegeven.
