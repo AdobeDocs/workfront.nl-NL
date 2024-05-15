@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
+source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ Zie voor meer informatie [Informatie over het deactiveren van Workfront-beheerde
 Houd rekening met het volgende wanneer u een gebruiker deactiveert:
 
 * De gebruiker zal niet tot het systeem kunnen toegang hebben.
-* De gebruiker zal uit Frame.io overzichtsverbindingen, activa, projecten, en rekeningen worden verwijderd.
-   * Als de gebruiker opnieuw wordt geactiveerd, worden deze niet automatisch weer toegevoegd aan de Frame.io-items. U moet de gebruiker manueel aan de projecten van Workfront, taken, en activa opnieuw toewijzen die Samenwerking Frame.io vereisen.
+<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
 * Alle gegevens die aan de gebruiker zijn gekoppeld, blijven behouden.
 * U kunt een gedeactiveerde gebruikerslicentie toewijzen aan een andere gebruiker.
 
@@ -136,10 +136,10 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png)en klik vervolgens op **Activeren**.
 
 1. Een nieuwe waarde toewijzen **Toegangsniveau** in het vervolgkeuzemenu klikt u vervolgens op **Opnieuw activeren**.
+<!--
+### Asset review and approval impact when you reactivate a user
 
-### De gevolgen van de herbeoordeling en goedkeuring van bedrijfsmiddelen wanneer u een gebruiker opnieuw activeert
-
-De gedeactiveerde gebruikers verliezen toegang tot hun toegewezen rekeningen Frame.io evenals toegewezen projecten, activa, en overzichtsverbindingen. Als u verkiest om de gebruiker te reactiveren, moet u hen aan projecten, taken, en activa manueel opnieuw toewijzen die Samenwerking Frame.io vereisen.
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
 ### Bewijseffect wanneer u een gebruiker opnieuw activeert
 
