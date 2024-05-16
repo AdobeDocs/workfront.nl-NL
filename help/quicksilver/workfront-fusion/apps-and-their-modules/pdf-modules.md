@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenari
 
 Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [Adobe-API voor documentgeneratie](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [Adobe van API voor documentgeneratie](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
 ## Beveiligingsoverwegingen bij gebruik [!DNL Adobe PDF Services]
 
@@ -85,9 +85,9 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Vereisten
 
-Als u een OAuth Server-aan-Server wilt maken, moet u de Adobe PDF Services API toevoegen in uw console voor Adobe-ontwikkelaars. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
+Als u een OAuth Server-to-Server wilt maken, moet u de Adobe PDF Services API toevoegen in uw Adobe Developers Console. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
 
-Zie voor instructies [API aan project toevoegen gebruikend OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) In de Adobe ontwikkelaarsdocumentatie.
+Zie voor instructies [API aan project toevoegen gebruikend OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) In de documentatie van de ontwikkelaar van de Adobe.
 
 ## Verbinding maken met [!DNL Adobe PDF Services]
 
@@ -117,19 +117,19 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe PDF Services] modules:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p></td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de documentatie voor Adobe-ontwikkelaars.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes] (alleen JWT)</td>
@@ -801,6 +801,44 @@ In deze actiemodule wordt een PDF-document in meerdere kleinere documenten gespl
    <li><p><b>Aantal bestanden</b></p><p>Voer het aantal bestanden van gelijke grootte in waarin u het document wilt splitsen.</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Een aangepaste API-aanroep maken
+
+Deze actie module een verzoek van douaneHTTP aan de PDF Diensten API.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> Voer een relatief pad of een URL in. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion voegt de machtigingsheaders automatisch toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td> <p>Voor elk gebied dat u aan de API vraag wilt toevoegen, klik <b>Item toevoegen</b> en voert u de sleutel en optionele waarde van het veld in.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
