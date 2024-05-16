@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 ## Verbeteringen voor Adobe Workfront
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Verbeteringen op het gebied van financieel beheer](#financial-management-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
@@ -79,13 +80,65 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
         </table>
 -->
 
+### Verbeteringen op het gebied van financieel beheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Voor projecten en taken beschikbare velden voor aanpasbare en niet-aanpasbare uitgaven</a></p>
+                        <p>[!BADGE in productie ]{type=Informative}</p>
+                        <p>Om u gemakkelijker te helpen uitgaventypes bekijken, zijn de uitgaven in factureerbare en niet factureerbare uitgaven op projecten en taken gescheiden. U kunt de volgende velden toevoegen aan weergaven en rapporten:</p>
+                        <ul>
+                            <li><p>Geplande aanpasbare kosten</p></li>
+                            <li><p>Geplande niet-aanpasbare kosten</p></li>
+                            <li><p>Werkelijke niet-aanpasbare kosten</p></li>
+                            <li><p>Werkelijke niet-aanpasbare kosten</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 10 mei 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 10 mei 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Projectverbeteringen
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 13 februari 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: TBD</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: TBD</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeterde gebruikersinterface voor gebruikers met beperkte toegang tot objecten</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
                         <p>Wanneer een gebruiker geen toegang heeft tot een object, ziet de gebruiker "Geen toegang" op een willekeurige locatie waar de naam van dat object wordt weergegeven in Workfront. Deze verbeterde ervaring geldt ook voor de Workfront API.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -181,11 +228,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## Aankondigingen
 
