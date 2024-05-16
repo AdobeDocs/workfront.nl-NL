@@ -7,16 +7,20 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
 
 # Geavanceerde toewijzingen maken
 
-{{highlighted-preview}}
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 U kunt taken beheren of taken uitgeven door Geavanceerde Toewijzingen te gebruiken.
 

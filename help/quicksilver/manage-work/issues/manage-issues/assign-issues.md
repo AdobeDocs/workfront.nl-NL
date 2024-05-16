@@ -7,16 +7,20 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
+source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
 
 # Problemen toewijzen
 
-{{highlighted-preview}}
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van problemen raadpleegt u [Overzicht van het wijzigen van uitgaven](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
