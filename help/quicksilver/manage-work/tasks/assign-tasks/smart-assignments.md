@@ -7,19 +7,20 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
 
 # Overzicht van slimme toewijzingen
 
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste bron is om het werk te voltooien. De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. De slimme taken kunnen gebruikers, baanrollen, of teams zijn.
 
@@ -121,7 +122,7 @@ Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de 
 
   Bijvoorbeeld, als Rick eerder vandaag aan een gelijkaardige taak werd toegewezen en Jennifer twee dagen geleden aan een gelijkaardige taak werd toegewezen, toont Rick eerst.
 
-* In deze fase geïdentificeerde toewijzingen worden vermeld in de **Voorgestelde toewijzingen** in het veld Toewijzingen.
+* In deze fase geïdentificeerde toewijzingen worden vermeld in de    **Voorgestelde toewijzingen**  in het veld Toewijzingen.
 
 * Als er geen gelijken gebruikend deze berekening zijn, begint de tweede fase van slimme taken die gebruikend een verschillend algoritme wordt berekend.
 
@@ -131,7 +132,7 @@ Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent 
 
 Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken en problemen](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
 
-In deze fase geïdentificeerde toewijzingen worden vermeld in de **Overige toewijzingen** in het veld Toewijzingen voor taken. <!--update this to "Other assignments"-->
+In deze fase geïdentificeerde toewijzingen worden vermeld in de   **Overige toewijzingen** (of de Gebruikers en teams, of de roltaken van de Taak) sectie van het gebied van Taken voor taken.
 
 ### Criteria voor slimme toewijzingen voor taken en problemen
 

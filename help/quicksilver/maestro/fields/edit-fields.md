@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 * U kunt een veld op de recordpagina of in een andere weergave, buiten de tabelweergave, niet bewerken.
 * U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
 * U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
+* U kunt de configuratie van de volgende veldelementen bewerken nadat u het veld hebt opgeslagen:
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * De naam of beschrijving van een veld
+   * De Opties van een Enig-uitgezochte of multi-uitgezochte gebied.
+   * De expressie van een veld Formule.
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >Wanneer formulerendingen veranderen, of de opties van een uitgezocht-type gebied worden toegevoegd of verwijderd, zal er gegevensverlies voor de verslagen zijn die reeds informatie hebben die in de gebieden wordt opgeslagen de waarvan configuratie wordt gewijzigd.
+  >
+  >Er is geen waarschuwing of indicatie dat dit gegevensverlies kan optreden wanneer u de configuratie van velden wijzigt.
+  >
+  >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6367'
 ht-degree: 0%
 
 ---
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ Bijvoorbeeld, als u projecten van de Campagne van de Planning van Workfront verb
 
 Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## Secties toevoegen aan de voorvertoning van de record en detailpagina&#39;s
+### Secties toevoegen aan de voorvertoning van de record en detailpagina&#39;s
 
 Productie: 15 mei 2024
 
@@ -150,6 +132,24 @@ Voorbeeld: te bepalen
 Om de informatie op de pagina van het verslag voor efficiëntere leesbaarheid en navigatie beter te organiseren, hebben wij secties aan de pagina van het verslag geïntroduceerd. De sectitels fungeren als kopteksten waarmee de velden in verschillende categorieën worden ingedeeld. De secties zijn volledig aanpasbaar en kunnen indien nodig worden uitgevouwen of samengevouwen.
 
 Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### Updates in realtime voor wijzigingen in de veldconfiguratie
+
+Productie: 16 mei 2024
+
+Voorbeeld: te bepalen
+
+Wanneer een gebruiker een veldconfiguratie (naam, beschrijving, lijst met opties enz.) in een recordtype wijzigt, kunnen andere gebruikers deze wijzigingen in real-time bekijken. Op deze manier zorgt u ervoor dat iedereen de juiste velden en de juiste gegevens tegelijk weergeeft.
+
+>[!WARNING]
+>
+>Wanneer formulerendingen veranderen, of de opties van een uitgezocht-type gebied worden toegevoegd of verwijderd, zal er gegevensverlies voor de verslagen zijn die reeds informatie hebben die in de gebieden wordt opgeslagen de waarvan configuratie wordt gewijzigd.
+>
+>Er is geen waarschuwing of indicatie dat dit gegevensverlies kan optreden wanneer u de configuratie van velden wijzigt.
+>
+>Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
+
+Zie voor meer informatie [Velden bewerken](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## Week van 6 mei 2024
 

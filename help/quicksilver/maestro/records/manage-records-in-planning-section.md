@@ -4,7 +4,7 @@ description: U kunt de records die zijn verbonden met Adobe Workfront-objecten w
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -142,11 +142,11 @@ De volgende dingen doen zich voor:
    * De waarden voor de Workfront-velden die zijn verbonden met de planningsrecord, worden ook verwijderd.
 1. Klikken **Verbinden** om meer records te verbinden.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   De knop Verbinden wordt alleen weergegeven voor de werkruimten waarin u beheermachtigingen hebt.
+   >   De knop Verbinden wordt alleen weergegeven voor de werkruimten waarin u Contribute-machtigingen hebt.
 
 1. Klik op de records waarmee u verbinding wilt maken. De volgende dingen doen zich voor:
 
