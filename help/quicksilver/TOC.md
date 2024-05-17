@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '14246'
 ht-degree: 0%
@@ -540,8 +540,8 @@ ht-degree: 0%
          * [Toegang verlenen tot Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Toegang verlenen tot beheer van hulpbronnen](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Toegang tot Workfront-doelen verlenen](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Single Sign-On in Adobe Workfront {#sso}
-         * [Single Sign-On](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * Single Sign-On in Workfront {#sso}
+         * [Single Sign-On: artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Overzicht van Single Sign-On](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [Gebruikers bijwerken voor eenmalige aanmelding](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
          * [Workfront configureren met SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -873,7 +873,7 @@ ht-degree: 0%
       * [[!DNL Adobe Workfront] overzicht van objecten](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [De navigatie voor een gebruiker van een werkvergunning begrijpen](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [De navigatie voor een gebruiker van een revisielicentie begrijpen](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-      * [Overzicht van de project-, taak- en emissiedata in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+      * [Overzicht van de project-, taak- en emissiedata in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Home {#home}
       * [Home](workfront-basics/using-home/home.md)
       * Nieuwe startpagina {#new-home}

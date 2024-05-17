@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfront]
-description: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfront]
+title: Overzicht van de project-, taak- en uitgiftedatums in [!DNL Workfront]
+description: Dit artikel bevat definities voor de meest voorkomende datums die worden geassocieerd met projecten, taken en problemen in [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
 
-# Overzicht van de project-, taak- en uitgiftedatums in [!DNL Adobe Workfront]
+# Overzicht van de project-, taak- en uitgiftedatums in [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ Afhankelijk van de [!UICONTROL Task Constraint], kunt u de [!UICONTROL Planned S
 
 Zie voor meer informatie [Overzicht van het project [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ De [!UICONTROL Entry Date] Dit is de datum waarop een project, taak of uitgave i
 
 De [!UICONTROL Entry Date] heeft geen invloed op de tijdlijn van projecten, taken of problemen, maar is wel belangrijk voor het bijhouden en rapporteren van gegevens. [!DNL Workfront] genereert automatisch de [!UICONTROL Entry Date] als het object is gemaakt en u het niet handmatig kunt bewerken.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Actual Start Date]
 
@@ -89,7 +92,7 @@ Zie voor meer informatie [Overzicht van het project [!UICONTROL Actual Start Dat
 
 De [!UICONTROL Actual Completion Date] is de datum een gebruiker eigenlijk een project voltooit, een taak, of een kwestie. De [!UICONTROL Actual Completion Date] is leeg wanneer het project, de taak, of de kwestie wordt gecreeerd.
 
-U kunt handmatig aangeven wanneer een taak of een probleem is voltooid, of [!UICONTROL Actual Complete Date] wordt automatisch gevuld wanneer een van de volgende gebeurtenissen plaatsvindt:
+U kunt handmatig aangeven wanneer een taak of een probleem is voltooid, of [!UICONTROL Actual Completion Date] wordt automatisch gevuld wanneer een van de volgende gebeurtenissen plaatsvindt:
 
 * Het project, de taak, of de veranderingen van de uitgiftestatus in [!UICONTROL Complete], [!UICONTROL Closed], of [!UICONTROL Resolved].
 * De taak of het projectpercentage voltooid is 100%.
@@ -106,7 +109,7 @@ Zie voor meer informatie [Overzicht van het project [!UICONTROL Actual Completio
 
 ## [!UICONTROL Commit Date]
 
-De [!UICONTROL Commit Date] Dit is de datum waarop een gebruiker die aan een taak of een uitgave is toegewezen, de taak of de uitgave wil voltooien. Dit is anders dan de [!UICONTROL Planned Completion Date], aangezien het een realistischere schatting is van de einddatum die alleen door de met het werk belaste gebruiker wordt gegeven. Zie voor meer informatie [[!UICONTROL Commit Date] overzicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+De [!UICONTROL Commit Date] Dit is de datum waarop een gebruiker die aan een taak of een uitgave is toegewezen, toezegt de taak of de uitgave te voltooien. Dit is anders dan de [!UICONTROL Planned Completion Date], aangezien het een realistischere schatting is van de einddatum die alleen door de met het werk belaste gebruiker wordt gegeven. Zie voor meer informatie [[!UICONTROL Commit Date] overzicht](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 >[!NOTE]
 >
@@ -114,7 +117,7 @@ De [!UICONTROL Commit Date] Dit is de datum waarop een gebruiker die aan een taa
 
 ## [!UICONTROL Projected Start Date]
 
-De [!UICONTROL Projected Start Date] is een datum in real time van wanneer het project, de taak, of de kwestie en houdt rekening met alle vertragingen. Dit is een nauwkeurigere Begindatum voor het project, de taak of de uitgave dan de [!UICONTROL Planned Start Date]. De [!UICONTROL Planned Start Date] geen rekening houdt met vertragingen of achterstallige data.
+De [!UICONTROL Projected Start Date] is een datum in real time van wanneer het project, de taak, of de kwestie beginnen en rekening houdt met alle vertragingen. Dit is een nauwkeurigere Begindatum voor het project, de taak of de uitgave dan de [!UICONTROL Planned Start Date]. De [!UICONTROL Planned Start Date] geen rekening houdt met vertragingen of achterstallige data.
 
 Wanneer u voor het eerst een project plant, [!UICONTROL Planned Start Date] en de [!UICONTROL Projected Start Date] van de taken en van het project identiek zijn. Aangezien vertragingen kunnen gebeuren of de taken vroeger zouden kunnen worden voltooid, [!UICONTROL Projected Start Date] kan anders worden dan de [!UICONTROL Planned Start Date].
 
@@ -132,7 +135,7 @@ Zie voor meer informatie [Overzicht van het project [!UICONTROL Projected Start 
 
 De [!UICONTROL Projected Completion Date] is een real-time, berekende indicator van wanneer het project, de taak, of de kwestie zullen worden voltooid. Wanneer het project, de taak, of de kwestie zoals Voltooid duidelijk zijn, [!UICONTROL Projected Completion Date] wijzigingen in de datum van de [!UICONTROL Actual Completion Date].
 
-Als alles soepel verloopt en zoals gepland, [!UICONTROL Projected Completion date] moet overeenkomen met de [!UICONTROL Planned Completion Date]. Anders vanwege vertragingen bij de voorgaande taken [!UICONTROL Projected Completion Date] kan anders worden dan de [!UICONTROL Planned Completion Date].
+Als alles soepel en volgens plan verloopt, [!UICONTROL Projected Completion date] moet overeenkomen met de [!UICONTROL Planned Completion Date]. Als gevolg van vertragingen bij de voorgaande taken, kan de [!UICONTROL Projected Completion Date] kan anders worden dan de [!UICONTROL Planned Completion Date].
 
 Zie voor meer informatie [Overzicht van de [!UICONTROL Projected Completion Date] voor projecten, taken en kwesties](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ De datum waarvoor u de tijd registreert is [!UICONTROL Hour Entry Date] veld op 
 
 >[!TIP]
 >
->De [!UICONTROL Hour Entry Date] is anders dan de [!UICONTROL Entry Date] in die zin is het niet de datum waarop het uurlogboek werd gecreeerd, maar eerder de datum waaraan u associeerde uren wilt.
+>De [!UICONTROL Hour Entry Date] is anders dan de [!UICONTROL Entry Date] in die zin is het niet de datum waarop het uurlogboek werd gecreeerd, maar eerder de datum waaraan u de uren verbonden wilt.
 
 U kunt de tijd in de volgende gebieden van Workfront registreren en bekijken:
 

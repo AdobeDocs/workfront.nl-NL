@@ -6,9 +6,9 @@ description: Uw [!DNL Adobe Workfront] bevat informatie over uzelf (bijvoorbeeld
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2857'
 ht-degree: 0%
 
 ---
@@ -255,7 +255,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
-   <td> <p> Als uw [!DNL Workfront] de beheerder liet een integratie SSO met toe [!DNL Workfront] en heeft gebruikers voor SSO bijgewerkt, is dit gebied door gebrek geselecteerd. Het type van configuratie SSO die voor uw wordt toegelaten [!DNL Workfront] -instantie is zichtbaar in dit veld.</p> <p>Wanneer dit veld is geselecteerd, moet u zich aanmelden [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] referenties.</p> <p>Voor meer informatie over het configureren [!DNL Workfront] met een SSO-oplossing, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-On [!DNL Adobe Workfront]</a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Gebruikers bijwerken voor eenmalige aanmelding</a>.</p> </td> 
+   <td> <p> Als uw [!DNL Workfront] de beheerder liet een integratie SSO met toe [!DNL Workfront] en heeft gebruikers voor SSO bijgewerkt, is dit gebied door gebrek geselecteerd. Het type van configuratie SSO die voor uw wordt toegelaten [!DNL Workfront] -instantie is zichtbaar in dit veld.</p> <p>Wanneer dit veld is geselecteerd, moet u zich aanmelden [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] referenties.</p> <p>Voor meer informatie over het configureren [!DNL Workfront] met een SSO-oplossing, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single Sign-On [!DNL Workfront]: artikelindex</a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Gebruikers bijwerken voor eenmalige aanmelding</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +348,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) Automatisch proefdrukken genereren bij het uploaden van documenten</strong></td> 
-   <td>Selecteer dit veld om een proefdruk te genereren direct nadat het document is geladen in [!DNL Workfront]. Dit veld is standaard uitgeschakeld en kan alleen door een Workfront-beheerder worden bijgewerkt.<br>Dit veld is alleen beschikbaar als uw bedrijf de Workfront Proof-component voor Workfront heeft aangeschaft en als u als proefgebruiker bent ingeschakeld. Ga voor meer informatie over Workfront Proof naar <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Proefbestanden beheren in Adobe Workfront</a>.
+   <td>Selecteer dit veld om een proefdruk te genereren direct nadat het document is geladen in [!DNL Workfront]. Dit veld is standaard uitgeschakeld en kan alleen door een Workfront-beheerder worden bijgewerkt.<br>Dit veld is alleen beschikbaar als uw bedrijf de Workfront Proof-component voor Workfront heeft aangeschaft en als u als gebruiker voor een proefdruk bent ingeschakeld. Zie voor meer informatie over Workfront Proof <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Proefbestanden beheren in Adobe Workfront</a>.
    <p><b>Opmerking:</b> Documenten die naar een aanvraag zijn geüpload, genereren niet automatisch een proefdruk. </p></td> 
   </tr> 
  </tbody> 

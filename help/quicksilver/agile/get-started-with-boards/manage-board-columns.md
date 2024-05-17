@@ -2,18 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Bordkolommen beheren
-description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolommen toevoegen, de orde van de kolommen veranderen, kolommen anders noemen, en om het even welke kolommen schrappen die u niet nodig hebt.
+description: Een nieuwe board bevat standaard drie kolommen. U kunt meer kolommen toevoegen, de orde van de kolommen veranderen, kolommen anders noemen, en om het even welke kolommen schrappen die u niet nodig hebt. U kunt ook kolombeleid definiëren.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
 # Bordkolommen beheren
+
+<!-- Audited: 05/2024 -->
 
 Een nieuwe board bevat standaard drie kolommen. U kunt meer kolommen toevoegen, de orde van de kolommen veranderen, kolommen anders noemen, en om het even welke kolommen schrappen die u niet nodig hebt.
 
@@ -32,21 +34,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Nieuw: Medewerker of hoger </p>
+        <p>of</p> 
+        <p>Huidige: [!UICONTROL Request] of hoger </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een kolom aan een board toevoegen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klikken **[!UICONTROL Add Column]** rechts van de bestaande kolommen.
 1. Typ een naam in de nieuwe kolom en klik op **[!UICONTROL Add Column]**.

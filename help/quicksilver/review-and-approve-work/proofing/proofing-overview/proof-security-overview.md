@@ -7,9 +7,9 @@ description: U kunt extra beveiligingsmaatregelen toevoegen aan proefdrukken.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 75c42c9145e754cf95f809744a01ab95a41f743a
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ U kunt extra beveiligingsmaatregelen toevoegen aan proefdrukken.
 
 ## Aanmelding vereist
 
-Met de vereiste aanmelding wordt de beveiliging van de proefdrukken in uw account verbeterd. U kunt de aanmeldingsgegevens inschakelen die voor alle proefdrukken op accountniveau zijn vereist, of u kunt deze naar wens inschakelen voor afzonderlijke proefdrukken. Ga voor meer informatie over het inschakelen van uw account naar [Standaardproefdrukinstellingen configureren](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Met de vereiste aanmelding wordt de beveiliging van de proefdrukken in uw account verbeterd. U kunt de aanmeldingsgegevens inschakelen die voor alle proefdrukken op accountniveau zijn vereist, of u kunt de aanmeldingsgegevens desgewenst voor afzonderlijke proefdrukken inschakelen. Ga voor meer informatie over het inschakelen van uw account naar [Standaardproefdrukinstellingen configureren](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 >[!NOTE]
 >
@@ -33,10 +33,9 @@ Wanneer de vereiste aanmelding is ingeschakeld, moeten revisoren zich met hun e-
 >[!TIP]
 >
 >Om het aanmeldingsproces te stroomlijnen, raden we u aan SSO in te stellen in Workfront en Workfront. Voor meer informatie over het inschakelen van SSO raadpleegt u >
->* [Single Sign-On in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Single Sign On configureren voor Workfront Proof-gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Single Sign-On in Workfront: artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Single Sign-On configureren voor Workfront Proof-gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
-
 
 ## Elektronische handtekening
 
@@ -48,7 +47,6 @@ Wanneer de instelling voor de elektronische handtekening is ingeschakeld op een 
 
 >[!IMPORTANT]
 >
->Als u een proefdruk elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie over het inschakelen van SSO raadpleegt u >
->* [Single Sign On configureren voor Workfront Proof-gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Als u een bewijs elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie over het inschakelen van SSO raadpleegt u >
+>* [Single Sign-On configureren voor Workfront Proof-gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
-

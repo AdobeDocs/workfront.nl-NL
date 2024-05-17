@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-U kunt gebruikers in Workfront maken en beheren.
+U kunt gebruikers maken en beheren in Workfront.
 
 Deze index bevat koppelingen naar de volgende subsecties over gebruikersbeheer:
 
@@ -29,5 +29,5 @@ Deze index bevat koppelingen naar de volgende subsecties over gebruikersbeheer:
 * [Hoe de nieuwe toegangsniveaus werken](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [Hoe de toegangsniveaus werken](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
 * [Toegang tot Adobe Workfront configureren](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
-* [Single Sign-On in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+* [Single Sign-On in Workfront: artikelindex](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [Teams maken en beheren](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
