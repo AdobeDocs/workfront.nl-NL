@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
+source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -113,47 +113,10 @@ Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze 
 
 Om u toe te staan om de nieuwe eigenschappen van het bètaprogramma gemakkelijk te testen, hebben wij een nieuwe testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
 
-+++Vergroten om basistestinstructies te bekijken
-
-Meld u aan bij de Workfront Preview- of Sandbox-instantie en voer de volgende stappen uit om de functionaliteit te testen:
-
-1. **Coördinatoren:** Maak in Workfront een project met de `Frame.io testing` groep die als projectgroep wordt toegewezen.
-
-1. **Coördinatoren:** Markeer in Workfront de taken waarvoor creatief werk nodig is als &#39;frame-enabled&#39; (in taakdetails) en wijs uw creatieve projecten hieraan toe (wijs uzelf ook toe als u de hele workflow wilt testen).
-
->[!NOTE]
->
->Subtaken kunnen niet worden gemarkeerd als Frame ingeschakeld.
->
-
-1. **Coördinatoren:** Upload uw creatieve opdracht en verander de projectstatus in &quot;Huidige&quot;.
-
-1. **Creatieve producten:** Controleer uw e-mails voor een uitnodiging tot het zojuist gemaakte Frame.io-project
-
-1. **Creatieve producten:** Klik op de knop &quot;Deelnemen aan project&quot; in de uitnodigings-e-mail om deel te nemen aan het Frame.io-project, bekijk de creatieve samenvatting in het project en start het maken van uw inhoud met het gereedschap Creative Cloud van keuze.
-
-1. **Creatieve producten:** Upload uw gecreeerde activa aan Frame.io en voeg hen aan het verbonden project van Workfront toe door één van de toegewezen Kader-Toegelaten taken te selecteren. Selecteer de optie om de taak als voltooid te markeren.
-
-1. **Coördinatoren:** Zoek in Workfront de gekoppelde Frame.io-elementen in de voor frames ingeschakelde taak en controleer of de status van de taak is gewijzigd in &quot;complete&quot;.
-
-1. **Coördinatoren:** Wijs revisoren/fiatteurs toe aan het gekoppelde Frame.io-element. Wijs uzelf ook als fiatteur toe als u de volledige workflow wilt testen. (Voor meer informatie over het toewijzen van beoordelingen/fiatteurs raadpleegt u [Extra fiatteurs of revisoren toevoegen aan een document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
-
-1. **Belanghebbenden:** Bekijk uw goedkeuringsaanvraag in Workfront in Home, Document Details of in het ontvangen e-mailbericht. Open de middelen in de Kijker Frame.io, geef een commentaar met terugkoppelen, en maak een besluit.
-
-1. **Coördinatoren:** In Workfront bekijkt u de opmerkingen die door de belanghebbende zijn gemaakt in de sectie Updates van het document dat is verbonden met Frame.io, en de beslissing in de sectie Goedkeuring of het samenvattingsvenster van het document.
-
-1. **Creatieve producten:** Merk in Frame.io het algemene goedkeuringsbesluit op dat voor uw elementen is genomen.
-
-1. **Creatieve producten:** Pas in Frame.io de gewenste wijzigingen toe door de bijgewerkte versie toe te voegen aan de versiestapel van het gekoppelde element.
-
-1. **Coördinatoren:** Wijs in Workfront fiatteurs/revisoren toe aan de geüploade versie en controleer de voortgang totdat deze afmelding bereikt.
-
-+++
-
-+++ Uitbreiden om gedetailleerde testinstructies weer te geven
+### Gedetailleerde testinstructies
 
 Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Hier kunt u een handleiding voor dit gedetailleerde testscenario downloaden: [WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## Video demo
 
