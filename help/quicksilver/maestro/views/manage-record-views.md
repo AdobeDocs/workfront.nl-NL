@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Plannin
 * Kalender
 
   Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+In dit artikel wordt de volgende informatie over recordweergaven beschreven:
+
+* [Een weergave maken en bewerken](#create-or-edit-record-views)
+* [Een weergave verwijderen](#delete-views)
+* [Een weergave dupliceren](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Toegangsvereisten
 
@@ -93,7 +101,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Weergaven in Workfront Planning zijn specifiek voor records. U kunt niet dezelfde weergave toepassen op twee verschillende recordtypen.
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
-<!--* Each user can create a maximum of 100 views. -->
+* Elke gebruiker kan maximaal 100 weergaven maken. U kunt meer dan 100 weergaven weergeven voor een recordtype, maar één gebruiker kan slechts 100 weergaven maken.
+* U kunt weergaven die u maakt met anderen delen. Zie voor meer informatie [Weergaven delen](/help/quicksilver/maestro/access/share-views.md).
 * De volgende elementen zijn uniek voor elke recordweergave:
 
    * Filter
@@ -108,14 +117,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   >[!NOTE]
   >
   > Omdat Adobe Workfront Planning momenteel in een bètastaat is, zijn sommige meningselementen niet beschikbaar aan alle meningen.
-
-In dit artikel wordt de volgende informatie over recordweergaven beschreven:
-
-* [Een weergave maken en bewerken](#create-or-edit-record-views)
-* [Een weergave verwijderen](#delete-views)
-* [Een weergave dupliceren](#duplicate-views)
-* [Een weergave delen](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Gelijksoortigheid en verschillen tussen recordweergaven
 
@@ -228,10 +229,6 @@ Eerst moet u mogelijk op **Meer** links van de laatste tab om de weergave te zoe
 1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
 
    De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het recordgebied en kan niet worden hersteld.
-
-## Een weergave delen
-
-Zie voor informatie over het delen van weergaven [Weergaven delen](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Adobe Workfront Planning
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
 | Grootte CSV-bestand dat u kunt importeren* | 5 MB |
+| Aantal weergaven dat een gebruiker voor één recordtype kan maken | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 

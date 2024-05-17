@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 ## Objectkoppen aanpassen
 
 1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In de **Aanpassen wat gebruikers zien** vervolgkeuzelijst, selecteert u **Projecten**, **Taken** of **Problemen**.
+1. In de **Aanpassen wat gebruikers zien** vervolgkeuzelijst, selecteert u **Projecten**, **Taken**, of **Problemen**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
@@ -100,7 +100,7 @@ Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u ee
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
 
    >[!TIP]
    >
