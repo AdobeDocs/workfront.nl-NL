@@ -7,9 +7,9 @@ description: Verbeterde analyses zijn een krachtig hulpmiddel in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -37,21 +37,21 @@ Voor toegang tot het gebied Verbeterde analysemogelijkheden moet u:
 
 * Een bedrijfs- of ondernemingsplan hebben.
 
-   Zie voor meer informatie [Workfront-plannen](https://www.workfront.com/plans).
+  Zie voor meer informatie [Workfront-plannen](https://www.workfront.com/plans).
 
 * Uw Workfront-beheerder uitgebreide analyses laten toevoegen aan uw lay-outsjabloon.
 
-   Zie voor meer informatie [Verbeterde analysemogelijkheden: Analyses toevoegen aan lay-outsjablonen](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Zie voor meer informatie [Verbeterde analyse: analyses toevoegen aan lay-outsjablonen](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
 Om informatie voor projecten en taken te zien, moet u:
 
 * Heb de toestemming van de Mening aan de Projecten en gebieden van Taken in uw toegangsniveau.
 
-   Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Heb toestemming van de Mening voor specifieke taken en/of projecten.
 
-   Voor informatie over het aanvragen van aanvullende toegang raadpleegt u [Toegang tot objecten aanvragen](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  Voor informatie over het aanvragen van aanvullende toegang raadpleegt u [Toegang tot objecten aanvragen](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Aanbevolen werkwijzen voor verbeterde analysemogelijkheden
 
@@ -63,16 +63,16 @@ Om de beste gegevens voor uw projecten te krijgen, gebruik malplaatjes die nauwk
 
 * Geplande uren
 
-   Dit is het belangrijkste veld dat moet worden ingevuld.
+  Dit is het belangrijkste veld dat moet worden ingevuld.
 
-   >[!NOTE]
-   >
-   >Als uw teams niet geplande uren gebruiken, kunt u sommige gegevens nog zien die op projectduur worden gebaseerd.\
-   >Zie de sectie voor meer informatie [Weergave Duur](#duration-view) in dit artikel.
+  >[!NOTE]
+  >
+  >Als uw teams niet geplande uren gebruiken, kunt u sommige gegevens nog zien die op projectduur worden gebaseerd.\
+  >Zie de sectie voor meer informatie [Weergave Duur](#duration-view) in dit artikel.
 
 * Projectnaam
 
-   De naam moet een beschrijving van het project zijn.
+  De naam moet een beschrijving van het project zijn.
 
 * Projectvoorwaarde
 * Projectstatus
@@ -90,30 +90,30 @@ Om de beste gegevens voor uw projecten te krijgen, gebruik malplaatjes die nauwk
 
 >[!IMPORTANT]
 >
->Het kan tot 24 uur duren voor wijzigingen in taken en projecten worden doorgevoerd in Verbeterde analyses.
+>Het kan tot 24 uur duren voor wijzigingen in taken en projecten worden doorgevoerd in Verbeterde analysemogelijkheden.
 
 ## Weergave Duur {#duration-view}
 
-Standaard zijn de video&#39;s voor het branden en het betreden van projecten gebaseerd op geplande uren. Als uw teams geen geplande uren gebruiken, kunt u deze visualisaties bekijken die op projectduur worden gebaseerd.
+Standaard zijn de video&#39;s voor het branden en het betreden van projecten gebaseerd op de geplande uren. Als uw teams geen geplande uren gebruiken, kunt u deze visualisaties bekijken die op projectduur worden gebaseerd.
 
 In de uitgebreide analyse wordt de duur van een project berekend aan de hand van de volgende formules:
 
 * Gepland tijdschema:
 
-   ```
-   Planned Completion Date of the project - Start Date of the project
-   ```
+  ```
+  Planned Completion Date of the project - Start Date of the project
+  ```
 
 * Aantal werkdagen:
 
-   ```
-   Planned Duration for tasks completed in the selected date range / Typical hours per work day
-   ```
+  ```
+  Planned Duration for tasks completed in the selected date range / Typical hours per work day
+  ```
 
-   >[!NOTE]
-   >
-   >8 uur is het standaardnummer voor **Normaal aantal uren per werkdag**. Een Adobe Workfront-beheerder kan de **Normaal aantal uren per werkdag** instellen onder **Instellen** > **Projectvoorkeuren** > **Projecten** > **Tijdlijnen**.\
-   >Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!NOTE]
+  >
+  >8 uur is het standaardnummer voor **Normaal aantal uren per werkdag**. Een Adobe Workfront-beheerder kan de **Normaal aantal uren per werkdag** instellen onder **Instellen** > **Projectvoorkeuren** > **Projecten** > **Tijdlijnen**.\
+  >Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Voor informatie over Geplande Duur, zie [Overzicht van de duur van het project](../manage-work/projects/planning-a-project/project-duration.md).
 
@@ -128,7 +128,7 @@ U kunt de volgende toetsen op het toetsenbord gebruiken om door specifieke hande
 | **Pijltoetsen** | Navigeer naar datums in de kalenderwidget, door filteropties wanneer u een filter toevoegt, en door opties in alle drop-down menu&#39;s op de visualisaties |
 | **Spatiebalk** | Selecteer datums in de kalenderwidget, selecteer een filtertype wanneer u een filter toevoegt, selecteer een exportoptie in het vervolgkeuzemenu voor elke visualisatie en selecteer opties in de vervolgkeuzemenu&#39;s voor de Burndown, Taken tijdens de vlucht en voor de weergave van de projectreemap. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Als u schermleessoftware of een plug-in gebruikt, leest de schermlezer de informatie op het scherm hardop en beschrijft hij de handelingen die u uitvoert terwijl u de bovenstaande toetsen gebruikt.
 
@@ -151,12 +151,12 @@ Raadpleeg de volgende artikelen voor meer informatie over de details van een spe
    <td> <p>U kunt douanefilters, de filters van het projectgebied, of teamfilters toepassen om slechts projecten te bekijken die specifieke criteria passen. Als u filters toevoegt, wordt het aantal projecten dienovereenkomstig bijgewerkt.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Uitgebreide KPI's voor analysemogelijkheden begrijpen</a> </td> 
+   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Uitgebreide analyse-KPI's begrijpen</a> </td> 
    <td> <p>De zeer belangrijke prestatiesindicatoren (KPIs) voor alle projecten binnen een specifiek tijdkader worden gevestigd bij de bovenkant van het scherm.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Bekijk de visualisatie van het vliegplan in de uitgebreide analyse</a> </p> </td> 
-   <td> <p>De <b>Vliegplan</b> visualisatie laat zien dat de conditie is veranderd gedurende de levensduur van een project. Door te communiceren met de visualisatie krijgt u meer informatie over specifieke datums. Als u een project selecteert, worden de functie Branden en Taken in de vluchtvisualisatie geopend.</p> </td> 
+   <td> <p>De <b>Vliegplan</b> visualisatie laat zien dat de conditie is veranderd gedurende de levensduur van een project. Door te communiceren met de visualisatie krijgt u meer informatie over specifieke datums. Als u een project selecteert, worden de functie Burndown en Taken in de vluchtvisualisatie geopend.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Bekijk de Burndown-visualisatie in de uitgebreide analyse</a> </td> 
@@ -178,13 +178,14 @@ Raadpleeg de volgende artikelen voor meer informatie over de details van een spe
    <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">De activiteit per teamvisualisatie bekijken in Uitgebreide analyse</a> </td> 
    <td> <p>De <b>Activiteit per team</b> de visualisatie toont u een heatmap van wanneer de gebruikers op een huisteam in Workfront het programma werden geopend, de status van een taak veranderden, en een taak voltooiden. Door met de visualisatie te communiceren, kunt u deze details voor elke individuele gebruiker zien. U kunt ook specifieke datums voor deze acties zien, evenals het aantal keren dat elke actie is voltooid.</p> </td> 
   </tr> 
+  <!-- Features permanently removed from Workfront
   <tr> 
-   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">De visualisatie van de bronnencapaciteit bekijken in Verbeterde analyse</a> </td> 
-   <td> <p>De <b>Broncapaciteit</b> de visualisatie toont u welke huisteams de capaciteit hebben om meer werk over te nemen en welke huisteams meer werk toegewezen aan hen hebben dan zij kunnen voltooien. Door te communiceren met de visualisatie kunt u meer informatie zien over voltooide en beschikbare uren voor meer werk. Het selecteren van een team opent de capaciteit van het Team visualisatie.</p> </td> 
+   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">View the Resource capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Resource capacity</b> visualization shows you which home teams have the capacity to take on more work and which home teams have more work assigned to them than they can complete. Interacting with the visualization allows you to see more details about work completed and available hours for more work.&nbsp;Selecting a team opens the Team capacity visualization.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">De visualisatie van de teamcapaciteit bekijken in Verbeterde analyse</a> </td> 
-   <td> <p>De <b>Teamcapaciteit</b> de visualisatie toont u een percentage van de hoeveelheid werk een huisteam uit de hoeveelheid werk heeft voltooid dat aan hen wordt toegewezen. Door te communiceren met de visualisatie kunt u geplande uren en geplande uren voor een bepaalde datum zien, evenals het capaciteitspercentage en of het team van de woning op die dag over, onder of op capaciteit was.</p> </td> 
-  </tr> 
+   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">View the Team capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Team capacity</b> visualization shows you a percentage of the amount of work a home team has completed out of the amount of work assigned to them. Interacting with the visualization allows you to see scheduled hours and planned hours for a specific date, as well as the capacity percentage and whether the home team was over, under, or at capacity on that day.</p> </td> 
+  </tr>--> 
  </tbody> 
 </table>

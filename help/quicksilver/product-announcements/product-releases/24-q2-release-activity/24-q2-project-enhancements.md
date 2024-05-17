@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2024; Productieversie voor alle klanten: met 24.7 release (juli 2024).
+>Voorvertoningsrelease: 13 februari 2024; Productie voor snelle release: met de release van 24.5 (16 mei 2024); Productieversie voor alle klanten: met de release van 24.7 (juli 2024).
 
 Dezelfde functionaliteit voor meer relevante slimme toewijzingen is toegevoegd aan het veld Toewijzingen op de volgende gebieden:
 
@@ -37,7 +37,7 @@ Zie voor meer informatie [Overzicht van slimme toewijzingen](/help/quicksilver/m
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 21 december 2023; Productieversie voor alle klanten: met 24.7 release (juli 2024).
+>Voorvertoningsrelease: 21 december 2023; Productie voor snelle release: met de release van 24,5 (16 mei 2024); Productieversie voor alle klanten: met de release van 24,7 (juli 2024).
 
 We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.
 

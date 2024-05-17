@@ -7,10 +7,10 @@ description: U kunt [!DNL JumpSeat] with [!DNL Workfront] om aangepaste, in-prod
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ Voordat u begint, moet u
 
 * Toevoegen en activeren [!DNL Workfront] als een toepassing in [!DNL JumpSeat]. Zie voor meer informatie [Een toepassing toevoegen of verwijderen](https://support.jumpseat.io/article/how-to-add-an-application/).
 
-## Configureer de [!DNL JumpSeat] integratie
+## Vorm [!DNL JumpSeat] integratie
 
 We raden u aan een [!DNL JumpSeat] integratie in zowel uw voorvertoning- als productieomgeving.
 
@@ -61,13 +61,13 @@ We raden u aan een [!DNL JumpSeat] integratie in zowel uw voorvertoning- als pro
 >
 >U moet twee aparte items toevoegen en activeren [!DNL Workfront] toepassingen in [!DNL JumpSeat]—één voor Voorproef en één voor Productie. Zie [Een toepassing toevoegen of verwijderen](https://support.jumpseat.io/article/how-to-add-an-application/) voor meer informatie .
 
-Om het [!DNL JumpSeat] integratie:
+Om te vormen [!DNL JumpSeat] integratie:
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]**.
 1. Klik in het linkerdeelvenster op **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat] Integration]**.
-1. Voer uw **[!UICONTROL [!DNL JumpSeat] URL]**.
+1. Voer uw **[!UICONTROL [!DNL JumpSeat] URL]**, die u vindt op het extensiepictogram in [!DNL JumpSeat].
 
-   **Voorbeeld:** [!DNL https]://{mycompanyname}.spronsat.io
+   **Voorbeeld:** [!DNL https]://{mycompanyname}.sprongSeoel.io
 
 1. Voer de **[!UICONTROL [!DNL JumpSeat] integration token]**. U vindt dit op de **[!UICONTROL Configuration]** pagina in [!DNL JumpSeat].
 
@@ -83,3 +83,7 @@ Om het [!DNL JumpSeat] integratie:
    ![JumpSeat Integration-pagina](assets/jumpseat-integration-page.png)
 
 1. Klik op **[!UICONTROL Save]**.
+
+>[!TIP]
+>
+>Voor meer informatie over het configureren van uw [!DNL JumpSeat] integratie, zie [!DNL JumpSeat] documentatie voor [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).

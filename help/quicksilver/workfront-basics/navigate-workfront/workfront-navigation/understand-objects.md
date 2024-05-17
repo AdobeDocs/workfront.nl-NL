@@ -6,9 +6,9 @@ description: "De informatie die u weergeeft in [!DNL Adobe Workfront] wordt voor
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2149'
 ht-degree: 0%
 
 ---
@@ -300,11 +300,12 @@ U kunt op de volgende voorwerpen rapporteren wanneer het gebruiken van de rappor
 * [!UICONTROL Parameter Group] (of [!UICONTROL Section Break])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
-* [!UICONTROL Project] ([!UICONTROL Financial Data])
+* [!UICONTROL Project (Financial Data)]
+   * Financiële informatie wordt ingevuld in [!UICONTROL Project (Financial Data)] alleen als de gegevens die ermee verband houden, jonger zijn dan 5 jaar. Als bijvoorbeeld in januari 2015 een functie werd toegewezen aan een taak en vandaag september 2021, dan is een financieel dossier zoals de [!UICONTROL Allocation Date] voor de rol job niet wordt gevuld in het dialoogvenster [!UICONTROL Project (Financial Data)] verslag.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >Financiële informatie wordt ingevuld in [!UICONTROL Project] ([!UICONTROL Financial Data]) alleen worden gerapporteerd wanneer de gegevens die ermee verband houden jonger zijn dan 5 jaar. Als bijvoorbeeld in januari 2015 een functie werd toegewezen aan een taak en vandaag september 2021, dan is een financieel dossier zoals de [!UICONTROL Allocation Date] voor de rol job niet wordt gevuld in het dialoogvenster [!UICONTROL Project (Financial Data)] verslag.
+  >Wanneer u een projectrapport (Financial Data) uitvoert, worden uw financiële gegevens opnieuw berekend, waardoor eerdere financiële gegevens kunnen worden overschreven en een aanzienlijke hoeveelheid tijd in beslag kan nemen. Zie voor meer informatie over de gevolgen van herberekening van financiële gegevens [Projectfinanciën opnieuw berekenen](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Proof Approval]
    * Hiermee kunt u verschillende informatie over de goedkeuring van het bewijs bekijken, zoals: het bewijs dat ter goedkeuring is ingediend, informatie over de [!UICONTROL Approver], informatie over de aanvrager (als de aanvrager een vergunning heeft [!DNL Workfront] gebruiker), versiegegevens, de proefdruk-id en de aanmaakdatum van de proefdruk.\

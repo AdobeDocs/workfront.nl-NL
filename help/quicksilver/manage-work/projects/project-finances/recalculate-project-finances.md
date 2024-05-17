@@ -6,9 +6,9 @@ description: De financiën worden berekend op een project aangezien de veranderi
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,9 @@ Wanneer het tarief van een gebruiker of een rol tijdens het leven van een projec
 
 >[!CAUTION]
 >
->Voordat u de financiën voor een bepaald project handmatig opnieuw berekent, wilt u mogelijk alle financiële gegevens behouden die al zijn berekend op basis van een eerder percentage. Wij adviseren om de optie van de Financiën van de Herberekening slechts te gebruiken wanneer u zeker bent dat u geen veranderingen in bestaande informatie aanbrengt, of slechts wanneer dergelijke veranderingen worden gewenst.
+>Voordat u de financiën voor een bepaald project handmatig opnieuw berekent, wilt u mogelijk alle financiële gegevens behouden die al zijn berekend op basis van een eerder percentage. We raden u aan de optie Financiën opnieuw berekenen alleen te gebruiken als u zeker weet dat u geen wijzigingen aanbrengt in bestaande gegevens of alleen als dergelijke wijzigingen gewenst zijn.
+>
+>Merk op dat het runnen van een project (de Gegevens van de Financiën) rapport een herberekening van uw financiële gegevens uitvoert, en als dusdanig zou u de zelfde overwegingen moeten maken alvorens het rapport in werking te stellen.
 
 ## Financiële gegevens behouden voor taken met bestaande uren {#preserve-financial-data-for-tasks-with-existing-hours}
 
