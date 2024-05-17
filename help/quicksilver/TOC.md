@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
 workflow-type: tm+mt
-source-wordcount: '14246'
+source-wordcount: '14253'
 ht-degree: 0%
 
 ---
@@ -1936,6 +1936,7 @@ ht-degree: 0%
          * [Delen van proefdrukken via openbare URL of insluitcode uitschakelen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Veelgestelde vragen: proefdrukken in Adobe Workfront - VS naar EMEA-migratie](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Documentnaam gewijzigd na uploaden en bevat een ongeldig teken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
+         * [Een PowerPoint met een ingesloten video proefdrukken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Tips, trucs en probleemoplossing voor goedkeuringen {#ttt-approvals}
       * [Tips, trucs en probleemoplossing voor goedkeuringen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

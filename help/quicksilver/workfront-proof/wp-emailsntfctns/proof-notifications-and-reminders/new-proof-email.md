@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
 title: Nieuwe proefe-mail
-description: Dit artikel werkt beter voor PiW.
+description: Zorg dat dit artikel beter werkt voor PiW.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
-source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
+source-git-commit: 1030d4110fd5dabb3b5751387585cc66968c2326
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this article work better for PiW.</p>
 -->
 
-Wanneer u een nieuwe proefdruk of een nieuwe versie van een proefdruk maakt, nieuwe personen toevoegt aan een proefdruk of een workflow toevoegt aan een proefdruk, kunt u besluiten of u de controleurs een e-mail wilt sturen, zoals in de volgende artikelen wordt uitgelegd:
+Wanneer u een nieuwe proefdruk of een nieuwe versie van een proefdruk maakt, nieuwe personen aan een proefdruk toevoegt of een workflow aan een proefdruk toevoegt, kunt u besluiten of u de controleurs een e-mail wilt sturen, zoals in de volgende artikelen wordt uitgelegd:
 
 * [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 * [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
@@ -43,19 +43,16 @@ Het e-mailadres voor nieuwe proefdrukken bevat:
 
    * Proefnaam
    * Versienummer
-
-      Zie voor meer informatie.
-
    * Lijst van de controleurs en hun vorderingen op de proefstukken
    * Een koppeling om de proefdruk met iemand anders te delen
 
-      Zo kunt u de proef-URL en/of de downloadkoppeling delen voor het oorspronkelijke bestand. Hierdoor kunt u niet expliciet revisoren aan de proefdruk toevoegen, u deelt alleen de URL van de openbare proefdruk en de ontvanger krijgt alleen-lezen toegang tot de proefdruk.
+     Zo kunt u de proef-URL en/of de downloadkoppeling delen voor het oorspronkelijke bestand. Hierdoor kunt u niet expliciet revisoren aan de proefdruk toevoegen, u deelt alleen de URL van de openbare proefdruk en de ontvanger krijgt alleen-lezen toegang tot de proefdruk.
 
-      Zie [Een proef delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) voor meer informatie .
+     Zie [Een proefexemplaar delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) voor meer informatie .
 
-      Als u niet wilt dat deze koppeling wordt weergegeven in de e-mail van de ontvanger, kunt u de optie [!UICONTROL Public Sharing] instellingen op de proefdruk
+     Als u niet wilt dat deze koppeling wordt weergegeven in de e-mail van de ontvanger, kunt u de optie [!UICONTROL Public Sharing] instellingen op de proefdruk
 
-      (Oorspronkelijke bestand downloaden en Openbare URL). Zie [Proofinggegevens beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie .
+     (Oorspronkelijke bestand downloaden en Openbare URL). Zie [Proofinggegevens beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie .
 
 ## Het activiteitenlog
 
@@ -71,8 +68,7 @@ Een [!UICONTROL New Proof] e-mail naar een revisor is aangemeld bij de [!UICONTR
 
 
 
-
-## De optie [!UICONTROL New Proof] e-mail en omvat een aangepast bericht
+## De optie [!UICONTROL New Proof] e-mail en neem een aangepast bericht op
 
 U kunt opgeven of u een e-mailwaarschuwing wilt verzenden naar de controleurs op een proefdruk wanneer u deze maakt of wanneer u er iemand aan toevoegt.
 
@@ -88,9 +84,9 @@ Wanneer u een nieuwe proefdruk maakt in het dialoogvenster [!UICONTROL New proof
 * Als u besluit uw eigen aangepaste bericht toe te voegen, kunt u een aangepaste onderwerpregel (3) en een bericht in de tekst van de e-mail (4) plaatsen.
 * Als u het aangepaste bericht wilt verwijderen, klikt u gewoon op de koppeling (5).
 
-   >[!NOTE]
-   >
-   >Als u altijd hetzelfde aangepaste bericht naar de controleurs verzendt, is het wellicht een goed idee om het bericht op te slaan in uw persoonlijke instellingen onder de [!UICONTROL Proofing defaults] tab. Zie voor meer informatie.
+  >[!NOTE]
+  >
+  >Als u altijd hetzelfde aangepaste bericht naar de controleurs verzendt, is het wellicht een goed idee om het bericht op te slaan in uw persoonlijke instellingen onder de [!UICONTROL Proofing defaults] tab. Zie voor meer informatie.
 
 ![New_Proof_page_1.png](assets/new-proof-page-1-350x186.png)
 
@@ -100,7 +96,7 @@ Wanneer u een nieuwe proefdruk maakt in het dialoogvenster [!UICONTROL New proof
 
 U kunt aangeven of een nieuwe controleur die aan een bestaande proefdruk is toegevoegd, op de hoogte wordt gesteld van de proefdruk (vergelijkbaar met bovenstaande).
 
-* Voeg eerst nieuwe revisoren toe door op de knop **[!UICONTROL Share this Version]** op de knop **[!UICONTROL Proof details]** pagina (1).
+* Voeg eerst nieuwe revisoren toe door op de knop **[!UICONTROL Share this Version]** op de knop **[!UICONTROL Proof details]** pagina 1.
 
 ![Proef_Details_pagina_1.png](assets/proof-details-page-1-350x118.png)
 
