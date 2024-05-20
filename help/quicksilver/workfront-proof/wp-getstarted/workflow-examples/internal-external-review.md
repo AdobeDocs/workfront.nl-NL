@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Interne en externe revisie in [!DNL Workfront Proof]
-description: Leer hoe u Workfront Proof gebruikt voor revisies buiten uw organisatie.
+description: Leer hoe u Workfront Proof kunt gebruiken voor revisies buiten uw organisatie.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze optie illustreert een workflow waarin clients alle interne opmerkingen kunn
 
 De ontwerper deelt de proef met de Projectleider van (en om het even welke andere collega&#39;s) eerst. Collega&#39;s controleren de proefdruk en als ze deze goedkeuren, kunt u de functie Delen gebruiken om de proefdruk met uw klanten te delen. Zie voor meer informatie [Een proefexemplaar delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Een nieuwe proefdruk maken** - de ontwerper maakt een nieuwe proefdruk in [!DNL Workfront Proof] en deelt het met interne revisoren . De ontwerper maakt tot de projectmanager de eigenaar van de proef.
 1. **Interne revisie** - de projectmanager en andere collega&#39;s evalueren de proefdruk.
@@ -49,7 +49,7 @@ U kunt dit proces herhalen totdat de proefdruk is goedgekeurd.
 
 Deze optie illustreert een workflow waarin het proefdrukproces wordt beheerd door de projectmanager die nieuwe versies maakt (naar wens) en de proefdruk deelt met de client. De ontwerper hoeft niet betrokken te zijn bij het revisieproces.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Een nieuwe proefdruk maken** - De ontwerper maakt een nieuwe proefdruk in [!DNL Workfront Proof] en deelt deze met interne controleurs. De ontwerper maakt de Projectmanager de Eigenaar van het bewijs, of geeft hem anders de rol van [!UICONTROL Author] op het bewijs (zie [Proefrollen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 

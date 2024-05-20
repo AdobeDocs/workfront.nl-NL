@@ -8,9 +8,9 @@ description: In dit voorbeeld wordt de basisworkflow tussen een ontwerper of pro
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 In dit voorbeeld wordt de basisworkflow tussen een ontwerper of projectmanager en een of meer revisoren, zoals een client, uitgelegd.
 
-![basic_workflow.png](assets/basic-workflow-350x67.png)
+![basic_workflow.png](assets/basic_workflow.png)
 
-* **Nieuwe proefdruk maken** - De ontwerper of de projectmanager leidt tot een nieuwe proef in [!DNL Workfront Proof] en deelt de proef met de cliënt. (Zie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
+* **Nieuwe proefdruk maken** - De ontwerper of de projectmanager leidt tot een nieuwe proef in [!DNL Workfront Proof] en deelt de proefdruk met de klant. (Zie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
 
 * **Nieuwe proefe-mail** - De klant ontvangt een e-mail met een koppeling naar de proefdruk.
 
-* **Een bewijs controleren** - De klant controleert de bewijsstukken, voegt opmerkingen toe en beslist. (Zie [Proefdrukken controleren binnen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) en [Beslissen op een bewijs in de professionele drukker](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
+* **Een proefafdruk controleren** - De klant controleert de bewijsstukken, voegt opmerkingen toe en beslist. (Zie [Proefdrukken controleren binnen [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) en [Beslissen op een bewijs in de professionele drukker](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
 
 * **E-mailwaarschuwing** - de ontwerper of de projectmanager ontvangt een e-mail met een samenvatting van de controle van de cliënt, afhankelijk van de e-mailalarm die zij hebben geplaatst. (Zie [Instellingen voor e-mailmeldingen configureren in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
 
