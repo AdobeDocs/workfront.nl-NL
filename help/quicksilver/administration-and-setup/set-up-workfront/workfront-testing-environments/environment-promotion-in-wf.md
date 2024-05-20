@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -58,10 +58,10 @@ De bevordering van het milieu steunt niet de capaciteit om transactionele voorwe
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Lay-outsjabloon (UITMPL) | Lay-outsjabloon<br>Dashboard<br>Kalender*<br>Kalender, sectie*<br>Externe pagina*<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Dashboard (PTLTAB) | Dashboard<br>Kalender*<br>Kalender, sectie*<br>Externe pagina*<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Kalender* (CALEND) | Kalender*<br>Kalender, sectie* |
-| Externe pagina* (EXTSEC) | Externe pagina* |
+| Lay-outsjabloon (UITMPL) | Lay-outsjabloon<br>Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
+| Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
+| Kalender (CALEND) | Kalender<br>Kalender, sectie |
+| Externe pagina (EXTSEC) | Externe pagina |
 | Rapport (PTLSEC) | Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
 | Filter (UIFT) | Filter<br>Parameter |
 | Groeperen (UIGB) | Groepering<br>Parameter |
