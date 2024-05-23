@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ Voordat u de [!DNL Adobe Target] -aansluiting, moet u ervoor zorgen dat aan de v
 
 ## Verbinding maken met [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Voor verbindingen die na 3 juni 2024 worden gemaakt, is een Adobe Target Server-naar-server verbinding vereist.
+>
+>* De bestaande verbindingen van de Rekening van de Dienst zullen tot Januari 2025 blijven werken. U moet uw verbindingen van de Rekening van de Dienst met server-aan-server van Adobe Target tegen Januari 2024 vervangen.
+>* U moet een ontwikkelaar voor uw organisatie zijn om een server-aan-server verbinding van Adobe Target tot stand te brengen. De rol van ontwikkelaar wordt ingesteld in de Adobe Admin Console.
+
 Als u een verbinding wilt maken voor uw [!DNL Adobe Target] modules:
 
 1. Klikken **[!UICONTROL Add]** naast het vak Verbinding.
@@ -94,6 +101,11 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Target] modules:
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Voer een naam in voor deze verbinding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>Selecteer of u een verbinding van de Rekening van de Dienst of een server-aan-server verbinding van Adobe Target creeert.<p><b>BELANGRIJK</b>: Voor verbindingen die na 3 juni 2024 worden gemaakt, is een Adobe Target Server-naar-server verbinding vereist. De bestaande verbindingen van de Rekening van de Dienst zullen tot Januari 2025 blijven werken. U moet uw verbindingen van de Rekening van de Dienst met server-aan-server van Adobe Target tegen Januari 2024 vervangen.
         </td>
       </tr>
       <tr>
