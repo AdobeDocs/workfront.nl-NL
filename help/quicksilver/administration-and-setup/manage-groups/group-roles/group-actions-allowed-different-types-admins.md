@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -46,37 +46,37 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
   <tr> 
    <td>Gebruikersprofielen maken en bewerken</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Subgroepen maken en beheren</p> </td> 
+   <td>Subgroepen maken en beheren</td>
    <td>✓ </td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Project-, taak- en probleemvoorkeuren op systeemniveau configureren</p> </td> 
+   <td>Project-, taak- en probleemvoorkeuren op systeemniveau configureren</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Projecten, taken en uitgaven voor groepen en subgroepen activeren en deactiveren</p> </td> 
+   <td>Projecten, taken en uitgaven voor groepen en subgroepen activeren en deactiveren</td> 
    <td>✓**</td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Voorkeuren voor tijdschriften en uren configureren op systeemniveau</p> </td> 
+   <td>Voorkeuren voor tijdschriften en uren configureren op systeemniveau</td> 
    <td>✓ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Tijdschema en uurvoorkeuren voor groepen en subgroepen activeren en deactiveren</p> </td> 
+   <td>Tijdschema en uurvoorkeuren voor groepen en subgroepen activeren en deactiveren </td> 
    <td>✓**</td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aangepaste formulieren maken en beheren</p> </td> 
+   <td>Aangepaste formulieren maken en beheren</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Lay-outsjablonen maken en beheren</p> </td> 
+   <td>Lay-outsjablonen maken en beheren</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Goedkeuringsprocessen voor een groep maken en beheren</p> </td> 
+   <td>Goedkeuringsprocessen voor een groep maken en beheren</td> 
    <td>✓** </td> 
-   <td> <p>✓**</p> </td> 
+   <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Teams maken en beheren</p> </td> 
+   <td>Teams maken en beheren</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Wisselkoersen maken en beheren</p> </td> 
+   <td>Wisselkoersen maken en beheren</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Uren maken en beheren</p> </td> 
+   <td>Uren maken en beheren</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Mijlpaden maken en beheren</p> </td> 
+   <td>Mijlpaden maken en beheren</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Planningen maken en beheren</p> </td> 
+   <td>Planningen maken en beheren</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Bedrijven maken en beheren</p> </td> 
+   <td>Bedrijven maken en beheren</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Tijdbladprofielen maken en beheren</p> </td> 
+   <td>Tijdbladprofielen maken en beheren</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Prioriteiten, controles en voorwaarden maken en beheren</p> </td> 
+   <td>Prioriteiten, controles en voorwaarden maken en beheren</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Risicotypen maken en beheren</p> </td> 
+   <td>Risicotypen maken en beheren</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
