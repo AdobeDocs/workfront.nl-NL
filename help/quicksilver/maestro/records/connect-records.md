@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Connect-records
-
-### Overwegingen bij het verbinden van records
+## Overwegingen bij het verbinden van records
 
 * Nadat u recordtypen hebt verbonden, worden de verbonden recordtypen weergegeven als gekoppelde recordvelden in de tabel met de recordtypen waarvan ze zijn gekoppeld en op de recordpagina&#39;s.
 * U kunt records en objecten van de gekoppelde record- en objecttypen bladeren en deze toevoegen vanuit de gekoppelde recordvelden.
@@ -150,6 +148,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * [Records maken](../records/create-records.md)
 
    * Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Zie voor meer informatie [Verbind recordtypen](../architecture/connect-record-types.md)
+* U kunt objecten van Workfront verbinden met Workfront-planningsrecords in de volgende gebieden:
+   * Uit een planningsrecord in Workfront Planning.
+   * Vanuit het gedeelte Planning van een Workfront-object.
+
+## Connect-records van Workfront Planning
 
 ### Connect Adobe Workfront-planningsrecords
 
@@ -379,3 +382,13 @@ De laatst geopende werkruimte moet standaard worden geopend.
    Workfront-objectvelden verwijderen uit het dialoogvenster **Geselecteerde velden** gebied.
 
    Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de records. De informatie die aan de verwijderde velden is gekoppeld, blijft in Adobe Experience Assets.
+
+## Connect-records van Workfront-objecten
+
+U moet het volgende hebben om de verslagen van de Planning van Workfront van de voorwerpen van Workfront te verbinden:
+
+* Verbindingen tussen recordtypen en Workfornt-objecttypen.
+* Ten minste één verbinding tussen een record en een Workfront-object.
+* Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-objecttypen die verbinding kunnen maken met de recordtypen voor planning.
+
+Zie voor meer informatie [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

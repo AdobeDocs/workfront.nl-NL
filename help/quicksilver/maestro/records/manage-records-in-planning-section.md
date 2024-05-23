@@ -4,18 +4,19 @@ description: U kunt de records die zijn verbonden met Adobe Workfront-objecten w
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Records beheren in het gedeelte Planning van Adobe Workfront-objecten
@@ -101,7 +102,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Connect-records](/help/quicksilver/maestro/records/connect-records.md)
 * U kunt de sectie Planning weergeven in een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
-* U kunt de verslagen van de Planning met de voorwerpen van Workfront van Workfront, in de sectie van de Planning verbinden.
+* U kunt Planningsrecords verbinden met Workfront-objecten vanuit Workfront, in de sectie Planning wanneer ten minste één record is verbonden met het Workfront-object.
+* U moet over Contribute of hogere machtigingen voor een werkruimte beschikken om records van de Workfront-objecten te kunnen verbinden.
 
 ## Records beheren in de sectie Planning
 
@@ -132,17 +134,15 @@ De objectpagina wordt geopend in Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
-1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
-1. (Optioneel) Klik op de knop **Openen in een nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het voorvertoningsvak om de detailpagina van de record te openen.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. Houd de muisaanwijzer boven een opnamekaart en klik vervolgens op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken**.
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
    * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.
-   * De waarden voor de Workfront-velden die zijn verbonden met de planningsrecord, worden ook verwijderd.
+   * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
 1. Klikken **Verbinden** om meer records te verbinden.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ De volgende dingen doen zich voor:
 
    * De records zijn direct verbonden met het Workfront-object en worden weergegeven in het gedeelte Planning.
    * Het Workfront-object wordt toegevoegd aan het veld voor het maken van een verbinding in het Workfront-planningsrecord.
-   * De waarden voor de Workfront-velden die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
+   * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
 
 <!--add more steps here for what happens after clicking Connect-->
 
