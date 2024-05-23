@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ U kunt dit proces in Workfront uitvoeren door een pakket met objecten te maken d
 
 Het milieu bevorderend vermogen is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerp van één milieu aan een andere te bewegen. Dit zijn objecten die kunnen worden geconfigureerd, zoals projecten, teams of aangepaste formulieren.
 
-De bevordering van het milieu steunt niet de capaciteit om transactionele voorwerpen te bewegen, (met beperkte uitzonderingen). Transactieobjecten kunnen niet worden geconfigureerd. Voorbeelden zijn updates van systeemactiviteit en proefdrukbeslissingen.
+Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de transactionele voorwerpen (voorwerpen die vaak veranderen of die sterk van gebruiksgeval afhankelijk zijn) niet inbegrepen. Voorbeelden van transactieobjecten zijn documenten, problemen, verzoeken, updates en proefdrukbeslissingen.
 
 * [Werkobjecten](#work-objects)
 * [Objecten rapporteren](#reporting-objects)
