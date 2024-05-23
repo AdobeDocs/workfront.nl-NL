@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>De volgende verklaringen zijn alleen van toepassing op de nieuwe plannen.
+>
+>Voor het Uitgezochte plan:
+>
+>1. Systeembeheerders kunnen geen limieten instellen voor Thuisgroepen.
+>2. Systeembeheerders kunnen alleen het totale aantal licenties zien dat wordt gebruikt voor alle Thuisgroepen.
+>3. Groepbeheerders hebben helemaal geen toegang tot de pagina Licenties.
+>
+>Voor de eerste en uiteindelijke plannen:
+>
+>1. Systeembeheerders kunnen Thuisgroepen toevoegen aan de pagina Licenties om het gebruik van licenties in deze groepen weer te geven en kunnen ook licentielimieten instellen.
+>2. Groepbeheerders kunnen toegang krijgen tot de pagina Licenties en het gebruik bekijken van licenties in de groepen die ze beheren en die door systeembeheerders zijn toegevoegd aan de pagina Licenties.
+>3. Groepbeheerders kunnen geen informatie weergeven voor andere startgroepen of maximum&#39;s toevoegen.
+
 ## Licenties van uw organisatie bekijken
 
 Het aantal licenties dat in gebruik is, wordt automatisch bijgewerkt wanneer u toegangsniveaus toewijst aan gebruikers die u aan Workfront toevoegt. Zie voor meer informatie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -63,7 +79,7 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
    >[!NOTE]
    >
-   >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof Add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over deze invoegtoepassing raadpleegt u [Workfront Proof: artikelindex](../../workfront-proof/workfront-proof.md).
+   >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof-add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over deze invoegtoepassing raadpleegt u [Workfront Proof: artikelindex](../../workfront-proof/workfront-proof.md).
 
 1. (Voorwaardelijk) Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep toevoegen** voegt u een thuisgroep toe aan uw systeem, zoals wordt uitgelegd in de sectie [Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties](#add-or-remove-a-home-group-to-the-licenses-page) in dit artikel.
 
@@ -73,7 +89,7 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
 ## Informatie weergeven over licenties voor Workfront-invoegtoepassingen
 
-Als uw organisatie over de betaalde invoegtoepassing Workfront Proof beschikt, worden het aantal gebruikte licenties en het aantal beschikbare licenties weergegeven. Bijvoorbeeld: **5 van 10 Proefvergunningen** geeft aan dat de organisatie momenteel 5 van de 10 Workfront Proof-licenties gebruikt die zij hebben aangeschaft.
+Als uw organisatie over de betaalde Workfront Proof-invoegtoepassing beschikt, worden het aantal gebruikte licenties en het aantal beschikbare licenties weergegeven. Bijvoorbeeld: **5 van 10 Proefvergunningen** geeft aan dat de organisatie momenteel 5 van de 10 Workfront Proof-licenties gebruikt die ze hebben aangeschaft.
 
 ![Licentie voor Workfront-invoegtoepassingen](assets/updated-licenses-page.png)
 
