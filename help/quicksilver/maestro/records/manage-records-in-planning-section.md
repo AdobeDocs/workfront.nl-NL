@@ -4,9 +4,9 @@ description: U kunt de records die zijn verbonden met Adobe Workfront-objecten w
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,9 @@ De objectpagina wordt geopend in Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
+1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
+1. (Optioneel) Klik op de knop **Openen in een nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het voorvertoningsvak om de detailpagina van de record te openen.
 1. Houd de muisaanwijzer boven een opnamekaart en klik vervolgens op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken**.
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.

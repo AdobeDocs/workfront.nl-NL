@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '6456'
+source-wordcount: '6471'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,8 @@ De volgende acties zijn beschikbaar in het gedeelte Planning in Workfront:
 * Workfront-planningsrecords verbinden met het Workfront-object
 
 * Records verbreken
+
+* Open het detailvoorvertoningsvak of de pagina voor meer informatie over de verbonden records
 
 Zie voor meer informatie [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 
