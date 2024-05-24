@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td>
    <p>Nieuw: Medewerker of hoger</p>
    <p>of</p>
@@ -53,12 +53,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td>
+   <td role="rowheader">Configuraties op toegangsniveau</td>
    <td><p>Toegang tot taken en problemen weergeven of vergroten</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td>
-   <td><p>Machtigingen weergeven of hoger voor de Workfront-taak of -uitgave</p></td>
+   <td role="rowheader">Objectmachtigingen</td>
+   <td><p>Machtigingen weergeven of hoger voor de Workfront-taak of -uitgave</p>
+   <p><strong>Opmerking:</strong> Gebruikers met weergavemachtigingen voor een taak of uitgave kunnen geen actie ondernemen op kaarten die ermee zijn verbonden, zoals het verplaatsen van de kaart naar een andere kolom op de kaart. Gebruikers weergeven kunnen de kaart alleen openen om de eigenschappen te bekijken en de verbonden taak of uitgave te openen. Als u aanvullende toegang wilt aanvragen, opent u de taak of geeft u de uitgave op en vraagt u daar om toegang.</td>
   </tr>
  </tbody> 
 </table>

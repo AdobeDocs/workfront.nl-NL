@@ -6,7 +6,7 @@ description: De [!DNL Adobe Workfront] woordenlijst bevat veelgebruikte termen i
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
 source-wordcount: '16482'
 ht-degree: 0%
@@ -96,7 +96,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>Verschilt van traditioneel team omdat zij hun toekomstig werk van een achterstand nemen en aan het binnen een bepaalde periode werken die wordt genoemd een [!UICONTROL Iteration].</td> 
+   <td>Verschillend van een traditioneel team omdat zij hun toekomstig werk van een achterstand nemen en aan het binnen een bepaalde periode werken die wordt genoemd een [!UICONTROL Iteration].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 
