@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,6 @@ ht-degree: 0%
 Adobe Workfront wijzigt het systeembeheer van gebruikers en wachtwoorden. Deze veranderingen zullen uit in een gefaseerde geroepen versie uitrollen **Verbeterde verificatie** ervaring. De verbeterde Authentificatie biedt gebruikers een consistentere en veilige login ervaring over alle producten en de diensten van Workfront.
 
 De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
-
->[!IMPORTANT]
->
->De meeste klanten gebruiken momenteel Verouderde Authentificatie en sommige gebruiken Verbeterde Authentificatie 1.0.
-> 
->Ga naar *your_domain*.my.workfront.com/login. Als u aan /auth/login opnieuw wordt gericht, dan gebruikt u Verbeterde Authentificatie 1.0.
-> 
->Als u wordt omgeleid naar https://login-a-xx.workfront.com/, waar &#39;xx&#39; VS (Verenigde Staten), EU (Europa), of GCP (het Platform van de Wolk van Google) afhankelijk van uw plaats/platform zou kunnen zijn, dan gebruikt u Verbeterde Authentificatie 2.0.
->
->Alle klanten zullen naar Verbeterde Authentificatie 2.0 tegen eind 2021 overgaan.
 
 <table style="table-layout:auto"> 
  <col> 
