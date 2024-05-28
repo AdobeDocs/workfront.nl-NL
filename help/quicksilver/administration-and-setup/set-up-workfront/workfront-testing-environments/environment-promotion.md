@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -28,32 +28,8 @@ Voor instructies over het verplaatsen van objecten tussen omgevingen met de Work
 * [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## Toegangsvereisten
 
-U moet het volgende hebben:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>Enterprise, Prime of Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] licentie</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>U moet een [!DNL Workfront] beheerder. Voor informatie over [!DNL Workfront] beheerders, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Objectmachtigingen</p> </td> 
-   <td> <p>Alles</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Ondersteuningspakket</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred], of [!UICONTROL Enterprise]</p> <p>Het standaard ondersteuningspakket heeft geen toegang tot de aangepaste sandbox Vernieuwen, maar heeft wel toegang tot de voorvertoningssandbox.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## Vereisten
 
