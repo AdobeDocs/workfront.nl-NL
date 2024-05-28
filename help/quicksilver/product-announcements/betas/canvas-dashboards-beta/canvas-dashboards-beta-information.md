@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [Over
 
 **Bètaschema:**
 
-* Gesloten bètabegindatum - 2 mei 2024
+* Gesloten bètabegindatum - TBA
 * bètabegindatum openen - TBA
 * Geplande releasedatum - TBA
 
@@ -36,6 +36,10 @@ Inschrijven in de bètaversie:
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
 
 1. Klik op de knop **Verbinden met de bètaversie van canvasdashboards** bètaknop rechtsboven op de pagina.
+
+   >[!NOTE]
+   >
+   >Deze knoop is beschikbaar slechts als uw organisatie in gesloten bèta is goedgekeurd. Wanneer de open bètaversie begint, is deze beschikbaar voor alle organisaties.
 
 1. Lees de voorwaarden en klik vervolgens op **Accepteren**. U bent nu ingeschreven voor de bètaversie. Het duurt echter een paar minuten voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvas-dashboards.
 
@@ -63,12 +67,13 @@ Hieronder volgt een lijst van de rapporttypes die momenteel in bèta worden gest
 
 ### Functies in ontwikkeling
 
-* Matrixtabelrapporten
+* Jokertekens op basis van datum en gebruiker voor filters
+* Workfront-planningsrapporten
+* Aanvullende Workfront-objecttypen
+* Boekrapporten
+* Andere bruikbaarheidsverbeteringen
 * Werkbladen
 * Ingesloten webinhoud
-* Boekrapporten
-* Dashboardfilters
-* Jokertekens op basis van datum en gebruiker voor filters
 
 ### Toekomstige routekaarten
 
