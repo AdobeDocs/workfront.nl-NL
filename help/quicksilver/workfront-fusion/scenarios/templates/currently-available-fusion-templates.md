@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Klik op de knop **Sjablonen** pictogram ![](assets/fusion-template-icon.png) in 
 ## Workfront-sjablonen
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
+
+### [!BADGE Nieuw!]{type=Informative}
+
+Met dit Fusion-sjabloon maakt u een standaardcontrolelijst voor alle kaarten die een specifieke kolom op een specifieke board op getimed basis invoeren.
 
 ### Workfront - Project maken van CSV
 
@@ -86,15 +90,15 @@ Deze malplaatje vangt een projectbasislijn op wekelijkse basis elke Maandag om 6
 
 Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met dit gemakkelijk te beheren malplaatje dat aangewezen gebruikers op malplaatjes in strijd met uw beleid op de hoogte brengt.
 
-## Workfront - Workfront Prooftemplates
+## Workfront - Workfront Proof-sjablonen
 
 Deze sjablonen automatiseren workflows die Workfront combineren met Workfront Proof.
 
-### Workfront Proof > Workfront - Project Update on Proefing Decision
+### Workfront Proof > Workfront - Project Update on Proef-besluit
 
 Wanneer een besluit wordt genomen over een bewijs dat rechtstreeks aan een project wordt toegevoegd, verzamelt deze automatisering informatie over het proefbesluit, zoals wie het besluit heeft genomen, en weerspiegelt deze vooruitgang in het overeenkomstige Workfront Project als een update.
 
-### Workfront Proef > Workfront - Task Update and Completion (indien goedgekeurd) bij het proefdrukken van het besluit
+### Workfront Proof > Workfront - Taakupdate en Voltooiing (indien goedgekeurd) bij proefbesluit
 
 Wanneer individuele bewijzen aan individuele taken zijn gebonden, sluit dit scenario de bijbehorende taak wanneer een goedkeuringsbesluit over het bewijs wordt genomen. Indien goedgekeurd, voltooit het de taak en werkt het project bij.
 
