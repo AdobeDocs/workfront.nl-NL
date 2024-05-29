@@ -7,14 +7,16 @@ description: De datum van het Vastleggen is de datum waaraan een gebruiker aan t
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # Overzicht van datum vastleggen
+
+<!--{{highlighted-preview}}-->
 
 De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien.
 
@@ -47,6 +49,15 @@ Zie voor meer informatie [Datums vastleggen bijwerken voor taken en problemen](/
 >* Een andere gebruiker met machtigingen voor de taak.
 >
 >Voor meer informatie over de Taakeigenaar, zie [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## De datum van vastleggen van taken en problemen zoeken
+
+U kunt de Vastlegdatum aan taken en kwesties op de volgende gebieden van Workfront vinden:
+
+* De pagina Details
+* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Zie voor meer informatie [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Meldingen en updates die worden geactiveerd door het wijzigen van de Vastlegdatum {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
