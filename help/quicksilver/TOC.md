@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
+source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
 workflow-type: tm+mt
-source-wordcount: '14275'
+source-wordcount: '14300'
 ht-degree: 0%
 
 ---
@@ -897,6 +897,12 @@ ht-degree: 0%
          * [De weergave Home-kalender gebruiken](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
          * [De startagenda weergeven](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Het gebied Mijn updates gebruiken](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+   * AI-assistent {#ai-assistant}
+      * [AI-assistent](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [Samenvatten met AI-assistent](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [Help ophalen van AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [Berekende veldformules met AI Assistant herzien](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [AI-assistent in- of uitschakelen](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * Werkonderdelen bijwerken en updates weergeven {#update-work-items-view-updates}
       * [Werkitems bijwerken en updates weergeven: artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Overzicht van de sectie Updates](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
