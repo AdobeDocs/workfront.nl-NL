@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2059'
 ht-degree: 0%
 
 ---
@@ -509,7 +509,7 @@ Voor elk promotieobject een van de volgende `actions`  wordt ingesteld:
   </tr> 
   <tr> 
    <td>OVERSCHRIJVEN</td> 
-   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Met deze actie kunt u een object bijwerken dat in de doelomgeving bestaat. Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-handeling voordat de handeling wordt uitgevoerd <code>/install</code> vraag.<ul><li>Een gebruiker kan een object bijwerken in de testomgeving en vervolgens de actie OVERSCHRIJVEN gebruiken om dat object bij te werken in de doelomgeving.</p></li><li><p>Als de gebruiker eerst één promotiepakket installeert en vervolgens een nieuw (of bijgewerkt) pakket in de toekomst wijzigingen bevat in objecten in het eerste pakket, kan de gebruiker met OVERSCHRIJVEN eerder geïnstalleerde objecten vervangen (overschrijven). </p></li><ul></td> 
+   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Met deze actie kunt u een object bijwerken dat in de doelomgeving bestaat. Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-handeling voordat de handeling wordt uitgevoerd <code>/install</code> vraag.<ul><li>Een gebruiker kan een object bijwerken in de testomgeving en vervolgens de actie OVERSCHRIJVEN gebruiken om dat object bij te werken in de doelomgeving.</p></li><li><p>Als de gebruiker eerst één promotiepakket installeert en vervolgens een nieuw (of bijgewerkt) pakket in de toekomst wijzigingen bevat in objecten in het eerste pakket, kan de gebruiker met OVERSCHRIJVEN eerder geïnstalleerde objecten vervangen (overschrijven). </p><p>Zie de sectie [Overschrijven](#overschrijven) in dit artikel voor meer informatie over overschrijven.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -891,7 +891,209 @@ _Leeg_
 }
 ```
 
+## Overschrijven
 
+Dit is een proces in drie stappen.
+
+1. Een vertaalkaart maken (dit is te vergelijken met de installatiefase &quot;De installatie voorbereiden&quot;)
+1. Bewerk de gegenereerde vertaalkaart en stel de `action` en `targetId` velden voor elk object dat ze willen overschrijven. De actie moet `OVERWRITING`en de `targetId` moet de uuid zijn van het object dat moet worden overschreven
+1. Voer de installatie uit.
+
+* [Stap 1 - Een vertaalkaart maken](#step-1---create-a-translation-map)
+* [Stap 2 - Wijzig de Omzettingskaart](#step-2---modify-the-translation-map)
+* [Stap 3 - Installeren](#step-3---install)
+
+### **Stap 1 - Een vertaalkaart maken**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Lichaam
+
+Geen
+
+#### Antwoord
+
+Een vertaalkaart, met een `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Voorbeeld
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Stap 2 - Wijzig de Omzettingskaart
+
+Er is geen eindpunt voor deze stap.
+
+1. In de vertaalkaart die is geretourneerd in [Stap 1 - Een vertaalkaart maken](#step-1---create-a-translation-map), inspecteert u de lijst met objecten die worden geïnstalleerd.
+1. Werk het actieveld op elk voorwerp aan de gewenste installatieactie bij.
+1. Valideer de `targetId` op elk object. Als de handeling set `USEEXISTING` of `OVERWRITING`de `targetId` moet worden ingesteld op de UUID van het doelobject in de doelomgeving. Voor elke andere actie moet targetId een lege tekenreeks zijn.
+
+   >[!NOTE]
+   >
+   >De `targetId` is reeds bevolkt als een botsing werd ontdekt.
+
+### **Stap 3 - Installeren**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Lichaam
+
+Dit is een object met één veld `translationMap`, die gelijk moet zijn aan de aangepaste vertaalkaart van [Stap 2 - Wijzig de Omzettingskaart](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Voorbeeld
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Antwoord
+
+De reactie omvat de `{uuid of the created installation}` en `202 - ACCEPTED` status.
+
+Voorbeeld: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
