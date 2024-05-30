@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ Vanaf 30 mei 2024 gaat het Adobe Workfront-planningsprogramma over van de bètaf
 De vroege toegangsfase is ook beperkt tot enkele Workfront-klanten.
 
 Uw accountvertegenwoordiger zal u informeren als u in aanmerking komt om deel te nemen aan de vroege toegangsfase.
+
+### Nieuwe procedure voor het verwijderen van een werkruimte
+
+Productie: 30 mei 2024
+
+Voorbeeld: te bepalen
+
+Omdat het effect voor het schrappen van een werkruimte significant kan zijn, voegen wij een extra stap in het bevestigen van de schrapping toe. Gebruikers moeten nu ‘verwijderen’ typen voordat ze een werkruimte permanent kunnen verwijderen.
+
+Verwijderde werkruimten en de bijbehorende gegevens kunnen niet worden hersteld.
+
+Zie voor meer informatie [Werkruimten verwijderen](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## Week van 20 mei 2024
 

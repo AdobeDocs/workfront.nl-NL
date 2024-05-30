@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,9 @@ Hierdoor wordt de laatste werkruimte geopend die u hebt geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte die u wilt verwijderen.
 1. Klik op de knop **Meer** menu ![](assets/more-menu.png) naast de naam van de werkruimte klikt u op **Verwijderen**.
-   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
 
-1. Klikken **Verwijderen** ter bevestiging.
+   ![](assets/permanently-delete-workspace-confirmation.png)
+
+1. Typ &quot;**delete**&quot; in de beschikbare ruimte klikt u op **Definitief verwijderen**.
 
    De werkruimte wordt verwijderd en kan niet worden hersteld. Alle recordtypen, records, velden en weergaven die eraan zijn gekoppeld, worden ook verwijderd. <!--ensure this is right after closed beta-->
