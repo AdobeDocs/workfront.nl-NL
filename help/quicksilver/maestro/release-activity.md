@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6669'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,15 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-Dit artikel bevat een overzicht van de functies die zijn uitgebracht nadat het bètaprogramma voor planningsmogelijkheden van Adobe Workfront op 22 mei 2023 was afgesloten.
+Dit artikel bevat een overzicht van de functies die zijn uitgebracht na de start van het planningsprogramma van Adobe Workfront op 22 mei 2023.
 
-De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het gesloten bètaprogramma voor planningsmogelijkheden hebben toegang tot alle functies in hun productieomgeving.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De planningsmogelijkheden zijn sinds januari 2024 tijdelijk verwijderd uit de voorvertoning- en sandboxomgevingen. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
+>Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
 
-Dit artikel bevat een overzicht van de functies en patches die zijn uitgebracht na de start van het bètaprogramma voor planningsmogelijkheden van Adobe Workfront, dat op 22 mei 2023 is afgesloten.
-
-De functies worden wekelijks vrijgegeven en worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het gesloten bètaprogramma voor planningsmogelijkheden hebben toegang tot alle functies in hun voorproef- en productieomgeving.
+De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Preview: To be determined
 
 Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
 
-### Share views with all members of a workspace by default
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
-
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
-
 -->
 
 ## Week van 27 mei 2024
@@ -88,6 +74,32 @@ De UNIQUE-operator is beschikbaar voor alle veldtypen, behalve de volgende:
 * Veld Selectievakje
 
 Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+### Weergaven standaard delen met alle leden van een werkruimte
+
+Productie: 30 mei 2024
+
+Voorbeeld: te bepalen
+
+We hebben nu een optie geïntroduceerd waarmee u snel weergavemachtigingen kunt geven aan alle leden van een werkruimte. Vóór deze verbetering hadden alleen gebruikers met wie u een weergave specifiek hebt gedeeld toegang tot de weergave. Deze optie is niet standaard ingeschakeld.
+
+Zie voor meer informatie [Weergaven delen](/help/quicksilver/maestro/access/share-views.md).
+
+### Bijgewerkte blik van het pictogram van de Planning in het Belangrijkste Menu
+
+Productie: 30 mei 2024
+
+Voorbeeld: te bepalen
+
+We hebben de weergave van het pictogram voor het planningsgebied in het hoofdmenu bijgewerkt. Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+
+### De naam van het Workfront-planningsprogramma wijzigen
+
+Vanaf 30 mei 2024 gaat het Adobe Workfront-planningsprogramma over van de bètafase naar een vroege toegangsfase. U zult deze verandering in de terminologie van onze documentatie zien.
+
+De vroege toegangsfase is ook beperkt tot enkele Workfront-klanten.
+
+Uw accountvertegenwoordiger zal u informeren als u in aanmerking komt om deel te nemen aan de vroege toegangsfase.
 
 ## Week van 20 mei 2024
 
@@ -713,7 +725,7 @@ De opmerkingervaring voor planningsmogelijkheden komt overeen met de nieuwe opme
 
 Zie voor meer informatie [Opnameopmerkingen beheren](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Verbinding met planningsmogelijkheden (bèta) voor Adobe Workfront Fusion
+### Workfront-planningsconnector voor Adobe Workfront Fusion
 
 Productie: 21 december 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ hide: yes
 
 # Recordtypen verwijderen
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 U kunt recordtypen verwijderen wanneer deze niet meer relevant zijn.
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
    </td>
   </tr>
   <tr>

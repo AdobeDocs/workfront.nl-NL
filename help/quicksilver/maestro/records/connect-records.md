@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2453'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 # Connect-records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 U kunt Adobe Workfront-planningsrecords met elkaar of met objecten van andere toepassingen verbinden.
 
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
    </td>
   </tr>
   <tr>

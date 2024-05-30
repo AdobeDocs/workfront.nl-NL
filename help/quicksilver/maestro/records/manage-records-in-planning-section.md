@@ -4,9 +4,9 @@ description: U kunt de records die zijn verbonden met Adobe Workfront-objecten w
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Records beheren in het gedeelte Planning van Adobe Workfront-objecten
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 U kunt de records die zijn verbonden met Adobe Workfront-objecten weergeven in het gedeelte Planning van een Workfront-object, in het linkerdeelvenster.
 
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
    </td>
   </tr>
   <tr>

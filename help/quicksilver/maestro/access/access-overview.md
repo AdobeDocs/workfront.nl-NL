@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Overzicht van toegang
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Workfront Planning.
 
@@ -40,7 +40,7 @@ U moet de volgende instellingen hebben om Adobe Workfront Planning te kunnen geb
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. </p>
+<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -94,11 +94,11 @@ U moet de volgende instellingen hebben om Adobe Workfront Planning te kunnen geb
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-Nadat uw organisatie is ingeschreven in het de bètaprogramma van de Planning van Workfront, kunt u het Gebied van de Planning aan het Belangrijkste Menu van alle gebruikers toevoegen door een lay-outmalplaatje te gebruiken.
+Nadat uw organisatie in het Programma van de Planning van Workfront is ingeschreven, kunt u het Gebied van de Planning aan het Belangrijkste Menu van alle gebruikers toevoegen door een lay-outmalplaatje te gebruiken.
 
 1. Aanmelden bij **Workfront** als Workfront-beheerder.
 
-1. Voeg de **Planning** pictogram ![](assets/maestro-icon.png) aan de **Hoofdmenu** met een **Lay-outsjabloon**.
+1. Voeg de **Planning** pictogram ![](assets/planning-icon.png) aan de **Hoofdmenu** met een **Lay-outsjabloon**.
 
    Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

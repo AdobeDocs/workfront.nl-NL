@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Weergaven delen
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u werkt met records in Adobe Workfront Planning.
 
@@ -24,12 +24,12 @@ Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen t
 
 Wanneer u een weergave deelt, geeft u anderen machtigingen om toegang te krijgen tot alle elementen van de weergave. Als u ze bijvoorbeeld de machtiging Beheren geeft aan een weergave, kunnen ze de weergave van de groepering, het filter, de sortering of de balk wijzigen.
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+U kunt een weergave delen met de volgende entiteiten:
+
+* Workfront-gebruikers
+* Workfront-groepen
+<!--* Publicly, with users outside Workfront
 -->
 
 ## Toegangsvereisten
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het gesloten bètaprogramma voor Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -110,14 +110,12 @@ U kunt weergaven delen die u hebt gemaakt of weergaven die u beheerdersmachtigin
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. (Optioneel) Selecteer een van de volgende opties om de weergave te delen:
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **Alleen uitgenodigde personen hebben toegang**: U moet gebruikers of groepen opgeven waarmee u de weergave wilt delen. Dit is de standaardoptie.
+   * **Iedereen in de werkruimte kan de gegevens weergeven**: Alle gebruikers met Weergave of hogere machtigingen voor werkruimten hebben toegang tot de weergave.
 
-
-1. In de **Toegang tot weergave verlenen aan** , typt u de naam van een gebruiker of groep en klikt u erop wanneer deze in de lijst wordt weergegeven.  <!--***********replace screen shot below when global sharing is released***********-->
+1. In de **Toegang tot weergave verlenen aan** , typt u de naam van een gebruiker of groep en klikt u erop wanneer deze in de lijst wordt weergegeven.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

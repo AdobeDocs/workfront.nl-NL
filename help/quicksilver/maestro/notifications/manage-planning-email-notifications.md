@@ -5,16 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
 # E-mailberichten voor Adobe Workfront Planning beheren
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u een e-mailbericht voor die markering.
 
@@ -46,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
-<p>Uw organisatie moet zijn ingeschreven voor het bètaprogramma Adobe Workfront Planning. Neem contact op met uw accountvertegenwoordiger voor meer informatie over dit nieuwe aanbod. </p>
+<p>Uw organisatie moet zijn ingeschreven in de vroege toegangsfase voor Workfront Planning </p>
    </td>
   </tr>
   <tr>
