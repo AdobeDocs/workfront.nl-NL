@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ Deze pagina beschrijft alle projectverhogingen die met de Derde Kwart versie 202
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart de versiecyclus van 2024, zie [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak
+## De taak bewerken en Vastlegdatum en Voorwaarde opgeven in de koptekst- of detailsectie
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 13 februari 2024; Productie voor snelle release: met de release van 24.5 (16 mei 2024); Productieversie voor alle klanten: met de release van 24.7 (juli 2024).
+>Voorvertoningsrelease: 30 mei 2024; Productie voor snelle release: met de release van 24.6 (13 juni 2024); Productieversie voor alle klanten: met de release van 24.7 (juli 2024).
 
-Dezelfde functionaliteit voor meer relevante slimme toewijzingen is toegevoegd aan het veld Toewijzingen op de volgende gebieden:
+Om het voor u gemakkelijker te maken om taken en kwesties bij te werken, hebben wij nu de gebieden van de Datum en van de Voorwaarde van de Vastlegging toegevoegd als opties om aan taak toe te voegen en kopballen en de sectie van Details in een lay-outmalplaatje uit te geven. Gebruikers kunnen deze velden nu bijwerken vanuit de koptekst- of detailsectie van een pagina wanneer ze zijn toegewezen aan de gewijzigde lay-outsjabloon. Voorafgaand aan deze verbetering, kon u niet de Voorwaarde en de Datum van het Vastleggen van taken en kwesties toevoegen wanneer het aanpassen van de kopballen.
 
-* Het Nieuwe vakje van de Taak wanneer het toevoegen van een taak aan een project
+Raadpleeg de volgende artikelen voor informatie over het bijwerken van Vastlegdatum en Voorwaarde:
 
-* In een lijst met projecttaken
+* [Voorwaarde voor bijwerken voor taken en problemen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Datum vastleggen bijwerken voor taken en problemen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Zie voor meer informatie [Overzicht van slimme toewijzingen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Meer relevante slimme toewijzingen
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,26 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">De taak bewerken en Vastlegdatum en Voorwaarde opgeven in de koptekst- of detailsectie</a></p>
+                        <p><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
+                        <p>Om het voor u gemakkelijker te maken om taken en kwesties bij te werken, hebben wij nu de gebieden van de Datum en van de Voorwaarde van de Vastlegging toegevoegd als opties om aan taak toe te voegen en kopballen en de sectie van Details in een lay-outmalplaatje uit te geven. Gebruikers kunnen deze velden nu bijwerken vanuit de koptekst- of detailsectie van een pagina wanneer ze zijn toegewezen aan de gewijzigde lay-outsjabloon.   </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 30 mei 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.6 (13 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak</a></p>
                         <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
