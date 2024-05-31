@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 0%
@@ -26,9 +26,11 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->Adobe Workfront Planning maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>Workfront Planning bevindt zich momenteel in een vroege toegangsfase die voor een beperkt aantal klanten toegankelijk is.
 >
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Workfront Planning.
+>U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>
+>Uw accountvertegenwoordiger zou u hebben laten weten of u deel uitmaakt van deze fase.
 >
 >Voor een volledige lijst van alle secties en artikelen die de Planning van Workfront documenteren, zie [Adobe Workfront Planning: artikelindex](/help/quicksilver/maestro/maestro-information.md).
 
@@ -101,7 +103,7 @@ Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadple
 
 ## Adobe Workfront Planning inschakelen voor de gebruikers in uw Workfront-exemplaar
 
-Uw organisatie moet zich inschrijven bij het gesloten bètaprogramma voor Adobe Workfront-planning voordat u toegang krijgt tot de planningsmogelijkheden. Neem contact op met uw accountvertegenwoordiger voor informatie over inschrijving in het bètaprogramma.
+Uw organisatie moet zich inschrijven in het planningsprogramma van Adobe Workfront alvorens u tot de planningsmogelijkheden kunt toegang hebben. Uw accountvertegenwoordiger had u informatie moeten geven over inschrijving in dit programma als u hiervoor in aanmerking komt.
 
 Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [Overzicht van toegang](/help/quicksilver/maestro/access/access-overview.md).
 
@@ -277,7 +279,7 @@ Workfront-planning zoeken:
 
 1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-workfront.png) in de rechterbovenhoek, of klik op de knop **Hoofdmenu** ![](assets/main-menu-shell.png) in de linkerbovenhoek, indien beschikbaar.
 
-1. Klikken **Planning** ![](assets/maestro-icon.png).
+1. Klikken **Planning** ![](assets/planning-icon.png).
 
    Het gebied Werkruimten wordt geopend.
 

@@ -6,24 +6,22 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
 # Voorwaarde voor bijwerken voor taken en problemen
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 De voorwaarde van een taak of een kwestie is een vlag die op het wordt geplaatst om erop te wijzen hoe het gaat. Dit is anders dan de status van het werkitem, die de huidige fase van de ontwikkeling van het item aangeeft.
 
 U kunt de voorwaarde van een taak of een kwestie of automatisch of manueel plaatsen.
 
 De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschikbaar in Workfront. Uw Adobe Workfront-beheerder kan aangepaste voorwaarden voor uw omgeving maken, zoals beschreven in [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-<!--You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access-requirements) section of this article.-->
 
 ## Toegangsvereisten {#access-requirements}
 
@@ -74,12 +72,11 @@ U moet aan een taak of een kwestie worden toegewezen om zijn Voorwaarde manueel 
 
 De voorwaarden worden weergegeven als een vlag die is gekoppeld aan taken of problemen. Ze kunnen ook worden gekoppeld aan een getal dat in rapporten kan worden weergegeven in plaats van aan het label. Zie voor meer informatie over het koppelen van voorwaarden aan getallen [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-U kunt de voorwaarde van taken en kwesties op de volgende gebieden van Worfront vinden:
+U vindt de voorwaarde voor taken en problemen in de volgende gebieden van Workfront:
 
-<!--* <span class="preview">The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>-->
+* <span class="preview">De pagina Details nadat een Workfront of groepsbeheerder deze aan uw lay-outsjabloon heeft toegevoegd. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">De koptekst van een taak of uitgave, nadat een Workfront of een groepsbeheerder deze aan uw lay-outmalplaatje toevoegt. Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 * Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Zie voor meer informatie [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -123,7 +120,31 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-De voorwaarde van een taak of een kwestie manueel bijwerken:
+Voer een van de volgende handelingen uit om de voorwaarde van een taak of uitgave handmatig bij te werken:
+
+<div class="preview">
+
+1. U kunt als volgt de voorwaarde van een taak of uitgave in de taak- of uitgiftheader bijwerken:
+
+   1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder het veld Voorwaarde heeft toegevoegd aan de taak- of uitgiftekoptekst van uw lay-outsjabloon, klikt u op de knop **Voorwaarde** in de koptekst en selecteer een van de volgende opties:
+      * Vloeiend
+      * Sommige problemen
+      * Belangrijkste wegversperringen
+
+      ![](assets/condition-in-task-header.png)
+   1. Klik op Enter om de voorwaarde op te slaan.
+
+1. U kunt als volgt de voorwaarde van een taak of uitgave bijwerken in de sectie Details van taak of uitgave:
+
+   1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder het veld Voorwaarde heeft toegevoegd aan de sectie Details van een taak of uitgave in uw lay-outsjabloon, klikt u op **Details** in het linkerdeelvenster en klik vervolgens op de knop **Voorwaarde** en selecteer een van de volgende opties:
+      * Vloeiend
+      * Sommige problemen
+      * Belangrijkste wegversperringen
+1. Klikken **Wijzigingen opslaan**. De voorwaarde van de taak of kwestie wordt bijgewerkt.
+
+</div>
+
+De voorwaarde van een taak of kwestie in een rapport of een lijst bijwerken:
 
 1. Ga naar een lijst met taken of problemen waarvoor u beheerdersmachtigingen hebt. Zorg ervoor dat **Voorwaarde** wordt weergegeven in de lijstweergave.
 
@@ -138,50 +159,8 @@ De voorwaarde van een taak of een kwestie manueel bijwerken:
 
 1. Druk **Enter** op uw toetsenbord of klik buiten het veld Voorwaarde om de nieuwe taak of uitgave op te slaan.
 
-
-<!--
-Replace the above with the following when we release Condition to headers and Details page:
-
-To manually update the Condition of a task or an issue do one of the following:
-
-<div class="preview">
-
-1. To update the Condition of a task or issue in the task or issue header:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-
-          ![](assets/condition-in-task-header.png)
-     1. Click Enter to save the Condition. 
-
-1. To update the Condition of a task or issue in the task or issue Details section:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click the **Condition** field and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-1. Click **Save Changes**. The Condition of the task or issue is updated. 
-
-</div>
-
-To update the Condition of a task or issue in a report or list: 
-
-1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
-
-1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
-
-    ![](assets/condition-drop-down-values-in-task-list.png)
-
-     >[!NOTE]
-     >
-     >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-
-1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
-
--->
 <!--   
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->
+
+

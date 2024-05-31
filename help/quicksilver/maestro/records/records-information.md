@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -26,7 +26,7 @@ hide: yes
 
 # Records: artikelindex
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Nadat u recordtypes in de Planning van Adobe Workfront creeert, kunt u individuele verslagen van die types tot stand brengen.
 

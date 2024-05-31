@@ -6,9 +6,9 @@ description: U kunt de datum van Vastleggen van een taak of een kwestie manueel 
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -73,10 +73,10 @@ Voordat u de datum Vastleggen van een taak of uitgave kunt bewerken, moet u word
 U kunt de Vastlegdatum van een taak of kwestie op de volgende gebieden van Workfront bijwerken:
 
 * De sectie Details van een taak of kwestie
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">De taak- of uitgiftekop</span>
+
+  <span class="preview">Uw Workfront of groepsbeheerder moet de datum Vastleggen toevoegen aan de taak- of uitgiftekoptekst van uw lay-outsjabloon om deze weer te geven vanaf de taak- of uitgiftepagina.
+Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
@@ -94,9 +94,9 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
    Zie de sectie voor meer informatie over het achterhalen wie de Taakeigenaar voor een probleem of taak is [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in het artikel [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">(Voorwaardelijk en optioneel) Als uw Workfront of groepsbeheerder de datum Vastleggen aan uw taak of uitgiftekop heeft toegevoegd, klikt u op de knop **Vastlegdatum** in de koptekst en selecteer vervolgens een datum in de kalender. Ga als volgt te werk als de datum vastleggen zich niet in de koptekst bevindt. </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. Klikken **Taakdetails** of **Probleemdetails** in het linkerdeelvenster.
 1. Klikken **Overzicht** om het uit te breiden.
@@ -106,7 +106,7 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
 1. Klikken **Wijzigingen opslaan**.
 
-   Het volgende gebeurt na het aanbrengen van deze wijziging: 
+   Het volgende gebeurt na het aanbrengen van deze wijziging:
 
    * De datum van Vastleggen en de geplande datum van voltooiing van de taak of afgifte zijn niet langer dezelfde.
 
@@ -115,10 +115,13 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * De eigenaar van het project wordt in een Workfront-melding in de app op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum voor de taak of uitgave hebt voorgesteld.
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * De eigenaar van het project wordt in de sectie Updates op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum hebt voorgesteld en zij kunnen, op dit moment, de Geplande Voltooiingsdatum van de taak of kwestie bijwerken om de Vastleggingsdatum aan te passen u voorstelde.
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   Voor informatie over de berichten en updates die door deze verandering teweeggebracht worden, zie de sectie &quot;Meldingen en updates teweeggebracht door het veranderen van de Datum van het Vastleggen&quot;in het artikel [Overzicht van datum vastleggen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     Voor informatie over de berichten en updates die door deze verandering teweeggebracht worden, zie de sectie &quot;Meldingen en updates teweeggebracht door het veranderen van de Datum van het Vastleggen&quot;in het artikel [Overzicht van datum vastleggen](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

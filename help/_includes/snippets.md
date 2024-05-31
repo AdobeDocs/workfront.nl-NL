@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -249,15 +249,17 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Planning]**.
 
-## Belangrijke intro van Maestro - {#maestro-important-intro}
+## Belangrijke intro voor Workfront-planning - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
 >
->Workfront Planning maakt momenteel deel uit van een bètaprogramma dat voor een beperkt aantal klanten toegankelijk is. U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>Workfront Planning bevindt zich momenteel in een vroege toegangsfase die voor een beperkt aantal klanten toegankelijk is.
 >
->Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan het bètaprogramma voor Workfront Planning.
+>U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>
+>Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
 >
 >Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 
@@ -303,7 +305,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 ## Stap 1 - Aan proef worden - {#step1-to-proofing}
 
-1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png)of (indien beschikbaar) klikt u op de knop **[!UICONTROL Main Menu]** in de linkerbovenhoek ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png)en klik vervolgens op **[!UICONTROL Proofing]** om toegang te krijgen tot Workfront Proof.
+1. Klik in Workfront op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png)of (indien beschikbaar) klikt u op de knop **[!UICONTROL Main Menu]** in de linkerbovenhoek ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png)en klik vervolgens op **[!UICONTROL Proofing]** toegang tot Workfront Proof.
 
 ## Laatste DPV-versie {#latest-version}
 

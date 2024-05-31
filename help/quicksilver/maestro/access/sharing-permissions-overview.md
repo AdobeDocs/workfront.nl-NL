@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 5d7a7157c7ffb9634ec44de0b55b3bcf08d88786
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Overzicht van het delen van machtigingen in Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 U kunt machtigingen delen of verwijderen in een werkruimte of weergave in Adobe Workfront Planning.
 
@@ -75,9 +75,9 @@ U moet gebruikers toestemming geven aan werkruimten om hen toegang tot de volgen
 * Recordtypen
 * Records
 * Velden
-<!--* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+* Weergaven*
+
+  *U kunt alle gebruikers met Weergave- of hogere machtigingen ook toegang geven tot de weergaven in de werkruimte. Dit is een extra toestemming die u moet toelaten wanneer het delen van een mening. Zie voor meer informatie [Weergaven delen](/help/quicksilver/maestro/access/share-views.md).
 
 Hieronder vindt u de machtigingsniveaus voor werkruimten:
 
@@ -147,17 +147,19 @@ U moet gebruikers toestemming geven om weergaven weer te geven, zodat ze toegang
 
 Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 
-|        | Beheren | Weergave |
-|--------|--------|-------|
-| Bewerken | ✓ |       |
-| Verwijderen | ✓ |       |
-| Delen | ✓ |       |
-| Weergave | ✓ | ✓ |
-| Toepassen | ✓ | ✓ |
+|        | Beheer (alleen uitgenodigde personen hebben toegang) | Weergave (alleen uitgenodigde personen hebben toegang) | Iedereen in de werkruimte kan* weergeven |
+|--------|--------|-------|------------------------------|
+| Bewerken | ✓ |       |                            |
+| Verwijderen | ✓ |       |                            |
+| Delen | ✓ |       |                           |
+| Weergave | ✓ | ✓ | ✓ |
+| Toepassen | ✓ | ✓ | ✓ |
 
-<!--Replace the above with this when global sharing is released: 
+*Gebruikers moeten over weergave- of hogere machtigingen voor een werkruimte beschikken om toegang te krijgen tot deze weergave.
 
-|        | Manage | View  |View permissions to a workspace*|
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -165,20 +167,19 @@ Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
-
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
+-->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |    
 -->

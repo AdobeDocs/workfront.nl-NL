@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van recordtypen
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in Adobe Workfront Planning uw eigen objecttypen maken. In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
 

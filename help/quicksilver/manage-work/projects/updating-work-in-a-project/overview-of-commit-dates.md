@@ -7,16 +7,16 @@ description: De datum van het Vastleggen is de datum waaraan een gebruiker aan t
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
 
 # Overzicht van datum vastleggen
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 De datum van het Vastleggen is de datum waaraan een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien.
 
@@ -56,8 +56,7 @@ U kunt de Vastlegdatum aan taken en kwesties op de volgende gebieden van Workfro
 
 * De pagina Details
 * Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Zie voor meer informatie [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">De koptekst van een taak of uitgave, nadat een Workfront of een groepsbeheerder deze aan uw lay-outmalplaatje toevoegt. Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Meldingen en updates die worden geactiveerd door het wijzigen van de Vastlegdatum {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
 
 * De verandering van de Datum van het Vastleggen bevolkt in de Activiteit van het Systeem en de Alle lusjes van de sectie van de Update van de taak of de kwestie.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   De verandering van de Vastlegdatum toont op het gebied van Updates van de taak of de kwestie wanneer de beheerder van Workfront deze update in het gebied van de Eisen van Updates in Opstelling toelaat. Zie voor meer informatie [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -83,12 +82,13 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
 
   >[!TIP]
   >
-  >U kunt uw systeem of groepsbeheerder vragen om het veld Datum vastleggen toe te voegen aan het deelvenster Overzicht, zodat het gemakkelijker wordt om dit veld bij te werken in verschillende delen van Workfront waar het deelvenster Samenvatting wordt weergegeven.
+  >U kunt het systeem of de groepsbeheerder vragen om het veld Datum vastleggen toe te voegen aan het deelvenster Overzicht of een koptekst om het bijwerken te vereenvoudigen.
   >
   >Raadpleeg de volgende artikelen voor meer informatie:
   >
   >* [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Objectkoppen aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

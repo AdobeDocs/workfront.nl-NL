@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -28,7 +28,7 @@ hide: yes
 
 # Architectuur: artikelindex
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren.
 
