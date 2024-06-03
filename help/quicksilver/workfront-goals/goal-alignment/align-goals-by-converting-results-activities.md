@@ -6,7 +6,7 @@ description: U kunt twee doelstellingen manueel richten of u kunt de resultaten 
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -37,9 +37,9 @@ Voor informatie over het manueel richten van twee doelstellingen, zie [Richt doe
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
  <td>
- <p>Huidige licentie: contribuant of hoger</p>
+ <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Verouderde licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>

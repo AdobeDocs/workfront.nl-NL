@@ -6,7 +6,7 @@ description: Als u een individuele medewerker bent die een persoonlijk doel heef
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -51,9 +51,9 @@ U moet het volgende hebben:
  <tr>
  <td role="rowheader">Adobe Workfront-licentie*</td>
  <td>
- <p>Huidige licentie: contribuant of hoger</p>
+ <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Verouderde licentie: aanvragen of hoger</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>

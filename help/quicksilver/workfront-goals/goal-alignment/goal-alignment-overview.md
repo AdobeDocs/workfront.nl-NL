@@ -7,9 +7,9 @@ description: De groepering van het doel zorgt ervoor dat iedereen in uw organisa
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -19,32 +19,25 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
->* Een Pro of hoger [Adobe Workfront-plan](https://www.workfront.com/plans).
->* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie. Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
->
->Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+> 
+>* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>    
+>   * Een ultiem plan
+>        
+>     of
+>        
+>   * Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select.
+>       Zie voor meer informatie [Prijzen en verpakking van Adobe Workfront](https://www.workfront.com/plans).
+>      
+>* Voor het huidige plan en de licentiestructuur:
+>    
+>   * Een Pro of hoger [Adobe Workfront-plan]
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>    
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+> 
+>Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
 
 Doelgerichtheid is een belangrijk onderdeel van doelbeheer. U kunt ervoor zorgen iedereen in uw organisatie op de zelfde pagina over is wat moet worden bereikt om strategie vooruit te drijven door hun doelstellingen aan elkaar en aan de organisatorische doelstellingen van teams, groepen, en het bedrijf te richten.
 
@@ -57,9 +50,9 @@ Voor meer informatie over beste praktijken wanneer het richten van doelstellinge
 * Een doel kan niet tegelijkertijd aan meer dan één ander doel bijdragen. Hoewel u veelvoudige kinddoelstellingen kunt hebben die aan het zelfde ouderdoel worden gericht, kan een kinddoel slechts één ouder hebben. Voor informatie over ouder en kinddoelstellingen, zie [Begrijp ouder en kinddoelstellingen](#understand-parent-and-children-goals) in dit artikel.
 * Een doel kan verschillende uitgelijnde (of onderliggende) doelen hebben, maar ook verschillende activiteiten en resultaten. Bovendien kan elk kinddoel andere activiteiten en resultaten hebben die zijn vooruitgang evenals de vooruitgang van het ouderdoel beïnvloeden.
 
-   >[!TIP]
-   >
-   >We raden u aan deze structuur zo eenvoudig mogelijk te houden.
+  >[!TIP]
+  >
+  >We raden u aan deze structuur zo eenvoudig mogelijk te houden.
 
 * Afhankelijk van uw rol moet u verschillende soorten doelen bijwerken. Bijvoorbeeld:
 
@@ -87,7 +80,7 @@ Overweeg het volgende wanneer het werken met kinderen en ouderdoelstellingen:
 * De vooruitgang van de doelstellingen van kinderen die door hun resultaten en activiteiten worden aangegeven beïnvloedt de vooruitgang van het ouderdoel. Andere activiteiten of resultaten die aan het bovenliggende doel zijn gekoppeld, beïnvloeden ook de voortgang van het bovenliggende doel.
 * U kunt de voortgang van een onderliggend doel niet bijwerken op het niveau van het bovenliggende doel. U moet de activiteiten en de resultaten van het kinddoel bijwerken, en dit werkt automatisch de vooruitgang van het kind evenals die van het ouderdoel bij.
 
-   Voor informatie over het bijwerken van vooruitgang bij doelstellingen, zie [Voortgang van Adobe Workfront-doelen bijwerken](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  Voor informatie over het bijwerken van vooruitgang bij doelstellingen, zie [Voortgang van Adobe Workfront-doelen bijwerken](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Uitgelijnde doelen zoeken
 

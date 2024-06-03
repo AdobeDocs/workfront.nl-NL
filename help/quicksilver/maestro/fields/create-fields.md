@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ In Adobe Workfront Planning kunt u aangepaste velden maken voor recordtypen. U k
 
 U moet recordtypen maken voordat u velden kunt maken die u hieraan wilt koppelen. Zie voor meer informatie [Recordtypen maken](../architecture/create-record-types.md).
 
-U kunt velden op de volgende manieren maken in Maestro:
+U kunt velden op de volgende manieren maken in Workfront Planning:
 
 * Van kras
 * Door recordtypen aan te sluiten
@@ -47,7 +47,7 @@ U kunt velden op de volgende manieren maken in Maestro:
 * Door een recordtype te maken
 * Een werkruimte maken op basis van een sjabloon
 
-Zie voor meer informatie over Maestro-velden [Overzicht van veld](/help/quicksilver/maestro/fields/fields-overview.md).
+Zie voor meer informatie over recordvelden [Overzicht van veld](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Toegangsvereisten
 
@@ -106,7 +106,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 ## Velden maken door recordtypen aan te sluiten
 
-U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen van Maestro, of een recordtype en een objecttype vanuit andere toepassingen.
+U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
 Voor informatie over het verbinden van de registratietypen van de Planning van Workfront, zie [Verbind recordtypen](../architecture/connect-record-types.md)
 

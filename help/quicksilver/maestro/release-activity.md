@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '6732'
+source-wordcount: '6799'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,30 @@ ht-degree: 0%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
+>
+>Workfront Planning bevindt zich momenteel in een vroege toegangsfase die voor een beperkt aantal klanten toegankelijk is.
+>
+>U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>
+>Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
+>
+>Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In sommige gevallen is de documentatie waarnaar in de onderstaande secties wordt verwezen, mogelijk beschikbaar nadat de gedocumenteerde functies zijn vrijgegeven voor Production.
 
 Dit artikel bevat een overzicht van de functies die zijn uitgebracht na de start van het planningsprogramma van Adobe Workfront op 22 mei 2023.
 
->[!NOTE]
->
->Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving. De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
-
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
 
->[!IMPORTANT]
->
->De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
+Tussen mei 2023 en december 2023 zijn alle elementen in dit artikel vrijgegeven voor zowel de voorvertoning als de productieomgeving.
+
+De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle functies die na deze datum worden uitgebracht, zijn momenteel beschikbaar in Productie.
+
+
+
 
 <!--
 

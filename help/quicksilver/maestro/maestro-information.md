@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een nieuwe aanbieding van Adobe Workfront.
+>
+>Workfront Planning bevindt zich momenteel in een vroege toegangsfase die voor een beperkt aantal klanten toegankelijk is.
+>
+>U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
+>
+>Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
+>
+>Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In sommige gevallen is de documentatie waarnaar in de onderstaande secties wordt verwezen, mogelijk beschikbaar nadat de gedocumenteerde functies zijn vrijgegeven voor Production.
 
 U kunt deze pagina als uitgangspunt voor alle documentatie met betrekking tot de Planning van Adobe Workfront gebruiken.
 
 De artikelen in de volgende secties beschrijven hoe u de Planning van Workfront kunt vormen en beginnen het te gebruiken.
 
->[!IMPORTANT]
->
->De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
 ## Algemeen overzicht van de planning van Adobe Workfront
 
