@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 0%
 
 ---
@@ -248,29 +248,31 @@ Als u een berekend veld wilt toevoegen, raadpleegt u [Berekende velden toevoegen
 
 ### Keuzerondjes, selectievakjes en vervolgkeuzelijsten toevoegen
 
-U kunt keuzerondjes, selectievakjes en downloads toevoegen aan een aangepast formulier.
+U kunt keuzerondjes, selectievakjes, vervolgkeuzelijsten en meerkeuzevelden toevoegen aan een aangepast formulier.
 
 +++ **Uitbreiden om beschrijvingen van beschikbare velden weer te geven**
 
 * **Keuzerondjes**: Gebruikers mogen slechts één keuze selecteren.
 * **Groep selectievakjes**: Hiermee kunnen gebruikers meerdere keuzen selecteren.
 * **Vervolgkeuzelijst**: Bevat een lijst met keuzemogelijkheden.
+* **Meerdere selecties opheffen**: Hiermee kunnen gebruikers meerdere keuzen in een vervolgkeuzelijst selecteren.
 
 +++
 
 >[!NOTE]
 >
->Velden die meerdere selecties toestaan, zoals Groep Selectievakje en Vervolgkeuzelijst, zijn moeilijk in rapporten in te delen en te groeperen. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
+>Velden die meerdere selecties mogelijk maken, zoals Selectievakjesgroep en Multi-Select Dropdown, zijn moeilijk in te delen en te groeperen in rapporten. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
 
-Keuzerondjes en selectievakjes toevoegen:
+Keuzerondjes, selectievakjes en downloads toevoegen:
 
 1. Zoek aan de linkerkant van het scherm een van de volgende velden en sleep deze naar een sectie op het canvas.
 
    * Keuzerondjes
    * Groep selectievakjes
    * Vervolgkeuzelijst
+   * Meerdere selecties opheffen
 
-   ![](assets/drag-field-to-section.png)
+   ![Sleep een veld naar het canvas](assets/drag-field-to-section-041524.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -288,6 +290,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ Keuzerondjes en selectievakjes toevoegen:
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
     <li>Vervolgkeuzelijst</li>
+    <li>Meerdere selecties opheffen</li>
     </ul></td>
      </tr> 
     </tbody> 
