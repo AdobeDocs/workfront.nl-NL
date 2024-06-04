@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
 workflow-type: tm+mt
-source-wordcount: '14314'
+source-wordcount: '14329'
 ht-degree: 0%
 
 ---
@@ -2046,61 +2046,62 @@ ht-degree: 0%
       * [Terminologie voor Adobe Workfront-doelen aanpassen](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Een doel delen in Workfront-doelen](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Meldingen voor Adobe Workfront-doelen inschakelen](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Maestro {#adobe-maestro}
-   * [Adobe Maestro-informatie](maestro/maestro-information.md)
-   * [Overzicht van Adobe Workfront-planning](maestro/maestro-overview.md)
-   * [Adobe Workfront-planningsvrijgave](maestro/release-activity.md)
-   * Adobe Maestro architectuur {#adobe-maestro-architecture}
-      * [Architectuur: artikelindex](maestro/architecture/architecture-information.md)
-      * [Werkruimten maken](maestro/architecture/create-workspaces.md)
-      * [Overzicht van recordtypen](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [Recordtypen maken](maestro/architecture/create-record-types.md)
-      * [Startrecordtypen voor taxonomie maken](maestro/architecture/create-a-taxonomy.md)
-      * [Verbind recordtypen](maestro/architecture/connect-record-types.md)
-      * [Recordtypen bewerken](maestro/architecture/edit-record-types.md)
-      * [Werkruimten verwijderen](maestro/architecture/delete-workspaces.md)
-      * [Werkruimten bewerken](maestro/architecture/edit-workspaces.md)
-      * [Recordtypen verwijderen](maestro/architecture/delete-record-types.md)
-      * [Voorbeeld van het verbinden van recordtypen en records](maestro/architecture/example-connect-record-types-and-records.md)
-      * [Lijst met werkruimtemalplaatjes](maestro/architecture/workspace-templates.md)
-   * Adobe Maestro-velden {#adobe-maestro-fields}
-      * [Velden: artikelindex](maestro/fields/fields-information.md)
-      * [Overzicht van velden](maestro/fields/fields-overview.md)
-      * [Velden maken](maestro/fields/create-fields.md)
-      * [Velden bewerken](maestro/fields/edit-fields.md)
-      * [Velden verwijderen](maestro/fields/delete-fields.md)
-      * [Overzicht van formuliervelden](maestro/fields/formula-fields.md)
-   * Adobe Maestro-toegang {#adobe-maestro-access}
-      * [Adobe Workfront Planning Access Information: artikelindex](maestro/access/access-information.md)
-      * [Overzicht van toegang](maestro/access/access-overview.md)
-      * [Overzicht van het delen van machtigingen in Adobe Workfront-planningsmogelijkheden](maestro/access/sharing-permissions-overview.md)
-      * [Overzicht van licentietype bij gebruik van Adobe Workfront-planning](maestro/access/license-type-overview.md)
-      * [Werkruimten delen](maestro/access/share-workspaces.md)
-      * [Weergaven delen](maestro/access/share-views.md)
-   * Adobe Maestro records {#adobe-maestro-records}
-      * [Records: artikelindex](maestro/records/records-information.md)
-      * [Records maken](maestro/records/create-records.md)
-      * [Connect-records](maestro/records/connect-records.md)
-      * [Records bewerken](maestro/records/edit-records.md)
-      * [Records verwijderen](maestro/records/delete-records.md)
-      * [Records delen](maestro/records/share-records.md)
-      * [Opnameopmerkingen beheren](maestro/records/manage-record-comments.md)
-      * [Overzicht van de sectie Historie](maestro/records/history-section-overview.md)
-      * [Een miniatuur toevoegen aan een record](maestro/records/add-thumbnails-to-records.md)
-      * [Een omslagafbeelding aan een record toevoegen](maestro/records/add-a-cover-image-to-a-record.md)
-      * [De recordpagina beheren](maestro/records/manage-the-record-page.md)
-      * [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](maestro/records/manage-records-in-planning-section.md)
-   * Adobe Maestro-weergaven {#adobe-maestro-views}
-      * [Weergaven: artikelindex](maestro/views/views-information.md)
-      * [Recordweergaven beheren](maestro/views/manage-record-views.md)
-      * [De tabelweergave beheren](maestro/views/manage-the-table-view.md)
-      * [De tijdlijnweergave beheren](maestro/views/manage-the-timeline-view.md)
-      * [De kalenderweergave beheren](maestro/views/manage-the-calendar-view.md)
-   * Adobe Maestro-kennisgevingen {#adobe-maestro-notifications}
-      * [Adobe Workfront-planningsmeldingen: artikelindex](maestro/notifications/notifications-information.md)
-      * [Voorkeuren voor Adobe Workfront-planningsberichten beheren](maestro/notifications/manage-notification-preferences.md)
-      * [E-mailberichten voor Adobe Workfront Planning beheren](maestro/notifications/manage-planning-email-notifications.md)
-      * [In-app-berichten voor Adobe Workfront-planning beheren](maestro/notifications/manage-planning-in-app-notifications.md)
+* Adobe Workfront Planning {#adobe-workfront-planning}
+   * [Adobe Workfront Planning: artikelindex](planning/planning-information.md)
+   * Algemene informatie over Adobe Workfront Planning {#adobe-workfront-planning-general-information}
+      * [Algemene informatie over Adobe Workfront Planning: artikelindex](planning/general/planning-general-article-index.md)
+      * [Overzicht van Adobe Workfront Planning](planning/general/planning-overview.md)
+      * [Adobe Workfront Planning Release-activiteit](planning/general/release-activity.md)
+   * Adobe Workfront-planningsarchitectuur {#adobe-workfront-planning-architecture}
+      * [Architectuur: artikelindex](planning/architecture/architecture-information.md)
+      * [Werkruimten maken](planning/architecture/create-workspaces.md)
+      * [Overzicht van recordtypen](planning/architecture/overview-of-record-types.md)
+      * [Recordtypen maken](planning/architecture/create-record-types.md)
+      * [Verbind recordtypen](planning/architecture/connect-record-types.md)
+      * [Recordtypen bewerken](planning/architecture/edit-record-types.md)
+      * [Werkruimten verwijderen](planning/architecture/delete-workspaces.md)
+      * [Werkruimten bewerken](planning/architecture/edit-workspaces.md)
+      * [Recordtypen verwijderen](planning/architecture/delete-record-types.md)
+      * [Voorbeeld van het verbinden van recordtypen en records](planning/architecture/example-connect-record-types-and-records.md)
+      * [Lijst met werkruimtemalplaatjes](planning/architecture/workspace-templates.md)
+   * Adobe Workfront-planningsvelden {#adobe-workfront-planning-fields}
+      * [Velden: artikelindex](planning/fields/fields-information.md)
+      * [Overzicht van velden](planning/fields/fields-overview.md)
+      * [Velden maken](planning/fields/create-fields.md)
+      * [Velden bewerken](planning/fields/edit-fields.md)
+      * [Velden verwijderen](planning/fields/delete-fields.md)
+      * [Overzicht van formuliervelden](planning/fields/formula-fields.md)
+   * Toegang tot Adobe Workfront Planning {#adobe-workfront-planning-access}
+      * [Adobe Workfront Planning Access Information: artikelindex](planning/access/access-information.md)
+      * [Overzicht van toegang](planning/access/access-overview.md)
+      * [Overzicht van het delen van machtigingen in Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
+      * [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](planning/access/license-type-overview.md)
+      * [Werkruimten delen](planning/access/share-workspaces.md)
+      * [Weergaven delen](planning/access/share-views.md)
+   * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
+      * [Records: artikelindex](planning/records/records-information.md)
+      * [Records maken](planning/records/create-records.md)
+      * [Connect-records](planning/records/connect-records.md)
+      * [Records bewerken](planning/records/edit-records.md)
+      * [Records verwijderen](planning/records/delete-records.md)
+      * [Records delen](planning/records/share-records.md)
+      * [Opnameopmerkingen beheren](planning/records/manage-record-comments.md)
+      * [Overzicht van de sectie Historie](planning/records/history-section-overview.md)
+      * [Een miniatuur toevoegen aan een record](planning/records/add-thumbnails-to-records.md)
+      * [Een omslagafbeelding aan een record toevoegen](planning/records/add-a-cover-image-to-a-record.md)
+      * [De recordpagina beheren](planning/records/manage-the-record-page.md)
+      * [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](planning/records/manage-records-in-planning-section.md)
+   * Weergaven Adobe Workfront Planning {#adobe-workfront-planning-views}
+      * [Weergaven: artikelindex](planning/views/views-information.md)
+      * [Recordweergaven beheren](planning/views/manage-record-views.md)
+      * [De tabelweergave beheren](planning/views/manage-the-table-view.md)
+      * [De tijdlijnweergave beheren](planning/views/manage-the-timeline-view.md)
+      * [De kalenderweergave beheren](planning/views/manage-the-calendar-view.md)
+   * Adobe Workfront-planningsberichten {#adobe-workfront-planning-notifications}
+      * [Adobe Workfront-planningsmeldingen: artikelindex](planning/notifications/notifications-information.md)
+      * [Voorkeuren voor Adobe Workfront-planningsberichten beheren](planning/notifications/manage-notification-preferences.md)
+      * [E-mailberichten voor Adobe Workfront Planning beheren](planning/notifications/manage-planning-email-notifications.md)
+      * [In-app-berichten voor Adobe Workfront-planning beheren](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Sjabloon voor Fusion Access Table](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 0%
@@ -243,9 +243,9 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Stap 1 - Aan de slag met Maestro - {#step1-to-maestro}
+## Stap 1 - Aan de slag met Maestro - {#step1-to-planning}
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Planning]**.
 
@@ -261,7 +261,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 >
 >Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
 >
->Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
