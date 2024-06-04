@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Omdat het effect voor het schrappen van een werkruimte significant kan zijn, voe
 Verwijderde werkruimten en de bijbehorende gegevens kunnen niet worden hersteld.
 
 Zie voor meer informatie [Werkruimten verwijderen](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### De velden voor de opzoekdatum zijn nu beschikbaar in de tijdlijnweergave
+
+U kunt nu de begin- en einddatum van de tijdlijnweergave instellen op een opzoekveld van een verbonden record of objecttype.
+
+Voor meer informatie over het maken van weergaven raadpleegt u [Recordweergaven beheren](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Week van 20 mei 2024
 

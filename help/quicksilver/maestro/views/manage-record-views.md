@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -192,6 +192,11 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
    Het getal is een automatisch gegenereerde toename.
 
 1. (Voorwaardelijk) Selecteer **Start** en **Einddata** voor de records die worden weergegeven in de tijdlijn of de kalenderweergave.
+
+   >[!TIP]
+   >
+   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslagen of voorwerpen selecteren.
+
 1. Klikken **Maken**.
 
    De weergave wordt weergegeven als een nieuw tabblad. De weergaven worden in chronologische volgorde weergegeven vanaf het moment waarop ze zijn gemaakt of met u zijn gedeeld.

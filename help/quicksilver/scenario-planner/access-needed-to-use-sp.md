@@ -7,7 +7,7 @@ description: Voor de functie Scenario Planner is een aparte licentie en aanvulle
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%
@@ -43,7 +43,7 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
    Afhankelijk van of u het nieuwe of huidige plan van Workfront gebruikt, moet uw organisatie één van het volgende hebben:
 
-   * Voor de huidige plannen, moet uw organisatie één van het volgende hebben:
+   * Voor de nieuwe plannen, moet uw organisatie één van het volgende hebben:
 
       * De [!UICONTROL Ultimate] [!DNL Workfront] plannen. De Scenario Planner is inbegrepen in het Ultimate Plan.
 
