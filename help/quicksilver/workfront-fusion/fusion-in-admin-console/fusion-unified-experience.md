@@ -7,9 +7,9 @@ description: Toegang tot Workfront Fusion via Adobe Experience Cloud biedt u een
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> 
+   <p>Alle</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -86,7 +84,7 @@ Nadat u zich hebt aangemeld bij [!DNL Adobe Experience Cloud]kunt u alle opties 
 
 Gebruik de [!UICONTROL Main Menu] pictogram ![](assets/main-menu-icon-left-nav.png) links van de [!DNL Adobe] de navigatiebalk om de [!UICONTROL Organization] en [!UICONTROL Team] menu&#39;s. Als u een [!DNL Workfront Fusion] beheerder, [!UICONTROL Administration] wordt ook hier weergegeven.
 
-Om teams te schakelen, klik op de teamnaam bij de bovenkant van de pagina, dan selecteer het team. Dit verschijnt slechts op pagina&#39;s die voor een team specifiek zijn, zoals een scenario bouwer of [!UICONTROL Connections] pagina.
+Om teams te schakelen, klik op de teamnaam bij de bovenkant van de pagina, dan selecteer het team. De teamkiezer wordt alleen weergegeven op pagina&#39;s die specifiek zijn voor een team, zoals een scenariobuilder of de [!UICONTROL Connections] pagina.
 
 Om organisaties te schakelen, klik de organisatienaam bij het hoger-recht van uw scherm, dan selecteer de organisatie.
 

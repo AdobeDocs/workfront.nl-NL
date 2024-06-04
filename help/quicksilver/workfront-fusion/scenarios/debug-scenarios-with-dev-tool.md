@@ -7,9 +7,9 @@ description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,13 @@ De toegang tot het apparaat is afhankelijk van of u Fusion gebruikt in het dialo
 * [Toegang tot het gereedschap Ontwikkelen in het dialoogvenster [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Toegang tot het gereedschap Apparaat in de klassieke taal [!DNL Fusion] ervaring](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Toegang tot het gereedschap Ontwikkelen in het dialoogvenster [!DNL Adobe Unified Experience]
+### Toegang tot het gereedschap Ontwikkelen in het dialoogvenster [!DNL Adobe Unified Experience] of de nieuwe Fusion-ervaring
 
-Als u Fusie in de Adobe Verenigde Shell gebruikt, kunt u tot het Dev Hulpmiddel van de redacteur van het Scenario toegang hebben.
+Als u Fusie in de Adobe verenigde Shell gebruikt, of aan de nieuwe ervaring van de Fusie bijgewerkt hebt, kunt u tot het Dev Hulpmiddel van de redacteur van het Scenario toegang hebben.
+
+1. Klik op de knop **Helpgereedschappen** ![Helpgereedschappen](assets/debugger-icon.png) aan de onderkant van het scherm.
+
+Of:
 
 1. Ga naar de redacteur Scenario voor het scenario u wilt zuiveren.
 
