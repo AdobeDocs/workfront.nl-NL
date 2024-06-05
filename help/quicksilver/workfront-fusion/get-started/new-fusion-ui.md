@@ -6,16 +6,17 @@ title: Navigeren door de nieuwe gebruikersinterface in Workfront Fusion
 description: Workfront Fusion heeft de gebruikersinterface bijgewerkt voor gebruikers die geen toegang hebben tot Fusion via de Adobe Experience Cloud. Hun ervaring is nu beter afgestemd op Fusion op de Adobe Experience Cloud.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
+source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Navigeren door de nieuwe ervaring in Workfront Fusion
 
-Workfront Fusion is bijgewerkt voor gebruikers die geen toegang hebben tot Fusion via de Adobe Experience Cloud. De nieuwe Fusion UI verstrekt een naadloze ervaring met andere producten van de Adobe.
+Workfront Fusion is bijgewerkt voor gebruikers die geen toegang hebben tot Fusion via de Adobe Experience Cloud. De nieuwe Fusion UI verstrekt een naadloze ervaring met andere producten van de Adobe, en zal de overgang van uw gebruikers naar Adobe Experience Cloud vlotter maken.
 
 >[!IMPORTANT]
 >
