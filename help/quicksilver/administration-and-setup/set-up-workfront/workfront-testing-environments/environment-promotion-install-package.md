@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 # Een pakket voor milieubescherming installeren
 
 Nadat u een pakket hebt gemaakt, kunt u het in een andere omgeving installeren.
+
+U moet een pakket in de omgeving installeren dat u objecten wilt kopiëren **tot**. Bijvoorbeeld, als u een project in uw milieu van de Sandbox van de Vernieuwen van de Douane vormt en het bevordert aan uw milieu van de Productie, moet u het pakket in uw milieu van de Productie installeren.
+
+>[!IMPORTANT]
+>
+>Als uw Aangepaste vernieuwingssandbox wordt vernieuwd terwijl u een object configureert voor omgevingsbevordering, gaat die configuratie verloren in de update. We raden u aan uw aangepaste vernieuwingssandbox niet te vernieuwen, tenzij alle uitstekende milieupromotieobjecten en -pakketten met succes zijn bevorderd.
 
 ## Vereisten
 

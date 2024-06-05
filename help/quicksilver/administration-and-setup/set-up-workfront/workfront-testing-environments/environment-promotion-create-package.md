@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # Een pakket voor milieubescherming maken of bewerken
+
+U moet in de omgeving een pakket maken dat u objecten wilt kopiëren **van**. Bijvoorbeeld, als u een project in uw milieu vormt van de Sandbox van de Douane verfrist en het aan uw milieu van de Productie bevordert, moet u het pakket in uw milieu van de Sandbox van de Douane creëren vernieuwt.
+
+>[!IMPORTANT]
+>
+>Als uw Aangepaste vernieuwingssandbox wordt vernieuwd terwijl u een object configureert voor omgevingsbevordering, gaat die configuratie verloren in de update. We raden u aan uw aangepaste vernieuwingssandbox niet te vernieuwen, tenzij alle uitstekende milieupromotieobjecten en -pakketten met succes zijn bevorderd.
 
 ## Een pakket maken
 
