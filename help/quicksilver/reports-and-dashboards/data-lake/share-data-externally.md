@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,9 @@ Om uw gegevens van het gegevensMeer van Workfront met een extern product te verb
 >[!IMPORTANT]
 >
 >Zodra één ingang aan de IP lijst van gewenste personen wordt toegevoegd, zijn alle andere IP adressen niet meer toegestaan. Zorg ervoor dat u alle vereiste IP-adressen hebt ingevoerd, zowel voor het maken als voor het lezen van uw visualisatieprogramma, voordat u het gereedschap gaat gebruiken. Als dat niet het geval is, kan er een fout optreden met betrekking tot ongeldige referenties.
+>
+>Als u geen IP adressen inbegrepen in uw lijst van gewenste personen hebt maar nog problemen heeft die met een hulpmiddel verbinden BI, controleer de configuratie van de volmachtsserver voor het hulpmiddel van BI.
+
 
 ## Voeg IPs aan de lijst van gewenste personen toe
 

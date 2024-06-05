@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Een object delen
 description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Zie Aangepaste toegangsniveaus maken of wijzigen voor meer informatie over het verlenen van toegang tot objecten.
-author: Alina
+author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1962'
 ht-degree: 0%
 
 ---
@@ -87,52 +87,34 @@ U moet het volgende hebben om objecten te delen:
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Eén object delen {#share-a-single-object}
+## Een project, taak of uitgave delen vanaf de bijbehorende pagina
 
-1. Ga naar het object dat u wilt delen.
+1. Ga naar de pagina van het project, de taak of de kwestie u wilt delen.
 
    Voor informatie over welke objecten kunnen worden gedeeld, raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. Voor projecten, taken en kwesties:
 
-   Klik op de knop **Delen** naast de objectnaam.
+1. Klik op de knop **Delen** naast de objectnaam.
 
    ![](assets/new-share-button.png)
 
-   of
+1. In de **&lt; objectnaam > toegang verlenen tot** typt u de naam van de gebruiker, het team, de rol, de groep of het bedrijf met wie u het object wilt delen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 
-   Voor documenten, portfolio&#39;s en programma&#39;s:
-
-   Klik op de knop **Meer** pictogram ![](assets/more-icon.png)naast de objectnaam klikt u op **Delen** of **Delen.**
-
-   ![](assets/share-a-document-350x160.png)
-
-1. In de **&lt; Objectnaam > toegang geven tot** vak (voor documenten, portfolio&#39;s en programma&#39;s), of **&lt; Objectnaam > toegang verlenen tot** (voor projecten, taken, en kwesties) beginnen de naam van de gebruiker te typen, het team, de rol, de groep, of het bedrijf met wie u het voorwerp wilt delen, dan de naam klikken wanneer het in de drop-down lijst verschijnt.
-
-   Als u bijvoorbeeld een project deelt, gebruikt u de opdracht **Toegang tot project verlenen aan** veld.
+   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
 
    >[!TIP]
    >
    >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
 
-   ![](assets/nwe-project-sharing-modal-350x456.png)
-
    >[!TIP]
    >
    >Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
    >
-   >
-   >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
-   >
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, elk team, elke rol of elke groep aan wie u toegang tot het object wilt verlenen.
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: esnure this stays accurate; in the editor it looks like step 4 but one step is conditioned entirely for one version or another)
-   </MadCap:conditionalText>
-   -->
+1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 toevoegde door het drop-down menu rechts van hun naam te klikken, dan het toestemmingsniveau te selecteren dat u wilt verlenen.
 
-1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 toevoegde door het drop-down menu te klikken, dan het toestemmingsniveau te selecteren dat u wilt verlenen.
+   ![](assets/new-share-permissions-dropdown.png)
 
    Zie voor het verwijderen van machtigingen uit een object de optie [Rechten van objecten verwijderen](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -140,39 +122,27 @@ U moet het volgende hebben om objecten te delen:
 
    * **Weergave:** Gebruikers kunnen het item bekijken en delen.
    * **Contribute**: Gebruikers kunnen updates uitvoeren, gegevens registreren, kleine wijzigingen aanbrengen en delen, plus alle weergavemachtigingen.
-
-     >[!TIP]
-     >
-     >U kunt Contribute-machtigingen alleen verlenen voor de volgende objecten:
-     >
-     >   
-     >   
-     >   * Projecten
-     >   * Taken
-     >   * Problemen
-     >   
-     >
-
    * **Beheren:** Gebruikers hebben volledige toegang tot het object zonder administratieve rechten (die op toegangsniveau worden verleend). Bovendien beschikken ze over alle machtigingen Weergeven en Contribute.
 
      >[!NOTE]
      >
      >De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het object te configureren.
 
-1. (Optioneel) Klik op **Geavanceerde opties** specifieke machtigingen voor het object configureren.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.\
-   Voor meer informatie over de toestemmingsniveaus, zie [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Voor meer informatie over toestemmingsniveaus, zie [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
+1. (Optioneel) Als u dit object beschikbaar wilt maken voor alle gebruikers in het systeem, klikt u in het vervolgkeuzemenu onder **Wie toegang heeft** klikt u vervolgens in de vervolgkeuzelijst op **Iedereen in het systeem kan bekijken**.
 
-1. (Optioneel) Als u dit object beschikbaar wilt maken voor alle gebruikers in het systeem, klikt u op **Tandwiel** pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) klikt u vervolgens in de vervolgkeuzelijst op **Dit voor het hele systeem zichtbaar maken**.
+   ![](assets/new-share-everyone-access.png)
 
    Alle gebruikers kunnen het object zien op basis van de machtigingen die u instelt.
 
-1. (Optioneel en voorwaardelijk) Klik tijdens het delen van een project op de knop **Tandwiel** pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg)klikt u vervolgens in de vervolgkeuzelijst op **Instellen als sjabloon voor mijn projecttoegang** om de machtigingen als een sjabloon in te stellen.\
+1. (Optioneel en voorwaardelijk) Klik tijdens het delen van een project op de knop **Tandwiel** pictogram ![](assets/gear-icon-settings.png)en schakel vervolgens het selectievakje naast **Instellen als sjabloon voor mijn projecttoegang** om de machtigingen als een sjabloon in te stellen.
+
    Nadat u toestemmingen op één project hebt bepaald, worden deze zelfde toestemmingen automatisch toegepast de volgende tijd u een project van kras creeert.
 
    >[!NOTE]
@@ -185,15 +155,8 @@ U moet het volgende hebben om objecten te delen:
 
    U kunt toestemmingen op de projecten specificeren die van een malplaatje zullen worden gecreeerd wanneer u het malplaatje deelt. Zie voor meer informatie [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Optioneel) Als u het object openbaar wilt maken, klikt u op **Dit openbaar maken voor externe gebruikers**.
+1. (Voorwaardelijk) Als u het object wilt delen met externe gebruikers, klikt u op **Koppeling kopiëren** en de koppeling vervolgens naar externe gebruikers distribueren.
 
-   >[!TIP]
-   >
-   >Deze optie is niet beschikbaar voor alle objecten.
-
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
-
-1. (Voorwaardelijk) Als u het object openbaar hebt gemaakt voor externe gebruikers, klikt u op **kopiëren, koppeling** en de koppeling vervolgens naar externe gebruikers distribueren.\
    Gebruikers met de koppeling kunnen het object weergeven.
 
    >[!CAUTION]
@@ -202,37 +165,177 @@ U moet het volgende hebben om objecten te delen:
 
 1. Klikken **Opslaan**.
 
-## Objecten bulksgewijs delen
+## Een document, portfolio of programma delen vanaf de pagina
 
-Vanuit een lijst met objecten kunt u meerdere objecten tegelijk delen met andere gebruikers, teams, groepen, taakrollen of bedrijven.
+1. Ga naar het object dat u wilt delen.
 
->[!IMPORTANT]
->
->Wanneer u objecten in bulk deelt, worden de namen van de entiteiten die machtigingen hebben voor de afzonderlijke objecten niet weergegeven. Wanneer u objecten in bulk deelt, worden de entiteiten die u toevoegt aan de lijst voor gedeeld gebruik toegevoegd aan de geselecteerde objecten. Ze overschrijven niet de entiteiten die aan de afzonderlijke objecten zijn gekoppeld.
+   Voor informatie over welke objecten kunnen worden gedeeld, raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Objecten in bulk delen:
+1. Voor portefeuilles en programma&#39;s:
 
-1. Blader naar een lijst met objecten.
-1. Selecteer twee of meer objecten in de lijst.
-1. Klik op de knop **Delen** pictogram ![](assets/share-icon.png).\
-   Gebruikers die al toegang tot het object hebben, worden niet vermeld als beschikbaar bij het delen van grote hoeveelheden.
+   Klik op de knop **Delen** naast de objectnaam.
+
+   ![](assets/new-share-button.png)
+
+   of
+
+   Voor documenten:
+
+   Klik op de knop **Meer** pictogram ![](assets/more-icon.png) naast de objectnaam klikt u op **Delen**.
+
+   ![](assets/share-a-document-350x160.png)
+
+1. In de **&lt; Objectnaam > toegang geven tot** typt u de naam van de gebruiker, het team, de rol, de groep of het bedrijf met wie u het object wilt delen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+
+   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+
+   >[!TIP]
+   >
+   >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
+
+
+
+   >[!TIP]
+   >
+   >Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
+   >
+
+1. (Optioneel) Herhaal stap 3 voor elke gebruiker, elk team, elke rol of elke groep aan wie u toegang tot het object wilt verlenen.
+
+1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 toevoegde door het drop-down menu te klikken, dan het toestemmingsniveau te selecteren dat u wilt verlenen.
+
+   Zie voor het verwijderen van machtigingen uit een object de optie [Rechten van objecten verwijderen](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+   De volgende opties zijn beschikbaar:
+
+   * **Weergave:** Gebruikers kunnen het item bekijken en delen.
+   * **Beheren:** Gebruikers hebben volledige toegang tot het object zonder administratieve rechten (die op toegangsniveau worden verleend). Bovendien beschikken ze over alle machtigingen Weergeven en Contribute.
+
+     >[!NOTE]
+     >
+     >De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
+
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+
+1. (Optioneel) Klik op **Geavanceerde instellingen** specifieke machtigingen voor het object configureren.
+
+   Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.\
+   Voor meer informatie over de toestemmingsniveaus, zie [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
+
+1. (Optioneel) Als u dit object beschikbaar wilt maken voor alle gebruikers in het systeem, klikt u op **Tandwiel** pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg)klikt u vervolgens in de vervolgkeuzelijst op **Dit voor het hele systeem zichtbaar maken**.
+
+   Alle gebruikers kunnen het object zien op basis van de machtigingen die u instelt.
+
+1. (Optioneel) Als u het object openbaar wilt maken, klikt u op **Dit openbaar maken voor externe gebruikers**.
+
+   >[!TIP]
+   >
+   >Deze optie is niet beschikbaar voor alle objecten.
+
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+
+1. (Voorwaardelijk) Als u het object openbaar hebt gemaakt voor externe gebruikers, klikt u op **kopiëren, koppeling** en de koppeling vervolgens naar externe gebruikers distribueren.
+
+   Gebruikers met de koppeling kunnen het object weergeven.
+
+   >[!CAUTION]
+   >
+   >We raden u aan voorzichtig te zijn wanneer u een object met vertrouwelijke informatie deelt met externe gebruikers. Op deze manier kunnen ze informatie weergeven zonder dat ze een Workfront-gebruiker of onderdeel van uw organisatie zijn.
+
+1. Klikken **Opslaan**.
+
+## Enkelvoudige of bulkobjecten uit een lijst delen
+
+1. Ga naar de lijst met de objecten die u wilt delen.
+
+   Voor informatie over welke objecten kunnen worden gedeeld, raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+1. Klik op het selectievakje naast de objecten die u wilt delen en klik vervolgens op de knop **Pictogram Delen** ![](assets/share-icon.png) boven aan de pagina.
+
+   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+
+1. In de **&lt; Object > Toegang** wordt weergegeven, begint u in het venster te typen **Bewerken &lt; Objectnaam > toegang voor** de naam van de gebruiker, het team, de rol, de groep of het bedrijf met wie u de objecten wilt delen, en klik dan de naam wanneer het in de drop-down lijst verschijnt.
+
+   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+
+   >[!TIP]
+   >
+   >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
+
+   >[!TIP]
+   >
+   >Als u meerdere entiteiten een soortgelijke naam hebt gegeven, worden deze allemaal vermeld onder hun type. De namen van de entiteiten worden in alfabetische volgorde weergegeven. De volgorde waarin de entiteitstypen worden weergegeven, is echter willekeurig.
+   >
+
+1. (Optioneel) Herhaal stap 3 voor elke gebruiker, team, rol of groep aan wie u toegang wilt verlenen tot de objecten.
+
+1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 toevoegde door het drop-down menu rechts van hun naam te klikken, dan het toestemmingsniveau te selecteren dat u wilt verlenen.
+
+   Zie voor het verwijderen van machtigingen uit een object de optie [Rechten van objecten verwijderen](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+
+   De volgende opties zijn beschikbaar:
+
+   * **Weergave:** Gebruikers kunnen het item bekijken en delen.
+   * **Contribute**: Gebruikers kunnen updates uitvoeren, gegevens registreren, kleine wijzigingen aanbrengen en delen, plus alle weergavemachtigingen.
+
+     >[!TIP]
+     >
+     >U kunt Contribute-machtigingen alleen verlenen voor de volgende objecten:
+     >
+     >   * Projecten
+     >   * Taken
+     >   * Problemen
+     >  
+
+   * **Beheren:** Gebruikers hebben volledige toegang tot het object zonder administratieve rechten (die op toegangsniveau worden verleend). Bovendien beschikken ze over alle machtigingen Weergeven en Contribute.
+
+     >[!NOTE]
+     >
+     >De Workfront-beheerder of de maker van het object kan machtigingen van deze entiteiten verwijderen.
+
+1. (Optioneel) Klik op **Geavanceerde instellingen** specifieke machtigingen voor het object configureren.
+
+   Afhankelijk van het geselecteerde object zijn er verschillende geavanceerde opties voor weergave, beheer en Contribute.\
+   Voor meer informatie over de toestemmingsniveaus, zie [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
+
+1. (Optioneel) Als u dit object beschikbaar wilt maken voor alle gebruikers in het systeem, klikt u op **Tandwiel** pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) klikt u vervolgens in de vervolgkeuzelijst op **Dit voor het hele systeem zichtbaar maken**.
+
+   Alle gebruikers kunnen de objecten zien op basis van de machtigingen die u instelt.
+
+1. (Optioneel en voorwaardelijk) Klik tijdens het delen van een project op de knop **Tandwiel** pictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg)klikt u vervolgens in de vervolgkeuzelijst op **Instellen als sjabloon voor mijn projecttoegang** om de machtigingen als een sjabloon in te stellen.
+
+   Nadat u toestemmingen op één project hebt bepaald, worden deze zelfde toestemmingen automatisch toegepast de volgende tijd u een project van kras creeert.
 
    >[!NOTE]
    >
-   >Als u geen machtigingen hebt om een geselecteerd object te delen, kunt u de opdracht **Delen** is niet zichtbaar.
-
-1. In de **Bewerken &lt; Objectnaam > toegang voor** veld, typ de naam van een gebruiker, team, groep, taakrol of bedrijf waaraan u machtigingen wilt verlenen.
-
-   Als u bijvoorbeeld een project deelt, gebruikt u de opdracht **Projecttoegang verlenen voor** veld.
-
-   ![](assets/share-multiple-projects-people-box-nwe-350x480.png)
-
-1. Doorgaan met het delen van de geselecteerde objecten, zoals beschreven in stap 4-9 in de sectie [Eén object delen](#share-a-single-object) in dit artikel.
+   >Het malplaatje van de projecttoegang treedt de het delen gebreken met voeten die aan u door de beheerder van Workfront in uw Niveau van de Toegang worden verleend.\
+   >Voor meer informatie over het specificeren van het delen gebreken voor projecten in het Niveau van de Toegang, zie [Toegang verlenen tot projecten](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure these steps stay accurate; always look at them in the viewer; because of condiitoning, the steps numbers in the editor are different!!!!!!*****)
-   </MadCap:conditionalText>
-   -->
+   >this note also appears in Understanding Project Permissions-->
+
+   U kunt toestemmingen op de projecten specificeren die van een malplaatje zullen worden gecreeerd wanneer u het malplaatje deelt. Zie voor meer informatie [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+
+1. (Optioneel) Als u het object of de objecten openbaar wilt maken, klikt u op **Dit openbaar maken voor externe gebruikers**.
+
+   >[!TIP]
+   >
+   >Deze optie is niet beschikbaar voor alle objecten.
+
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+
+1. (Voorwaardelijk) Als u het object of de objecten openbaar hebt gemaakt voor externe gebruikers, klikt u op **kopiëren, koppeling** en de koppeling vervolgens naar externe gebruikers distribueren.
+
+   Gebruikers met de koppeling kunnen het object weergeven.
+
+   >[!CAUTION]
+   >
+   >We raden u aan voorzichtig te zijn wanneer u een object met vertrouwelijke informatie deelt met externe gebruikers. Op deze manier kunnen ze informatie weergeven zonder dat ze een Workfront-gebruiker of onderdeel van uw organisatie zijn.
 
 1. Klikken **Opslaan**.
