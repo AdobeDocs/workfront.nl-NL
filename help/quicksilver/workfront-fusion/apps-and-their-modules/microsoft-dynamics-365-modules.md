@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -55,9 +55,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
@@ -73,7 +73,7 @@ Te gebruiken [!DNL Microsoft Dynamics] 365, hebt u een [!DNL Microsoft Dynamics 
 
 ## Connect Microsoft Dynamics 365 to Workfront Fusion
 
-U kunt een verbinding maken met uw [!DNL Microsoft Dynamics 365] rechtstreeks vanuit een [!DNL Microsoft Dynamics 365] module.
+U kunt een verbinding maken met uw [!DNL Microsoft Dynamics 365] rechtstreeks vanuit een [!DNL Microsoft Dynamics 365] -module.
 
 1. In alle [!DNL Microsoft Dynamics 365] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
 1. Voer een naam in voor de verbinding.
@@ -128,7 +128,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Kies de optie [!UICONTROL Microsoft Dynamics 365] recordtype waarop u het scenario wilt letten.</td> 
+   <td>Kies de optie [!UICONTROL Microsoft Dynamics 365] recordtype dat u op het scenario wilt letten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
@@ -186,9 +186,13 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Selecteer het type entiteit dat de module moet maken.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Selecteer de velden waarvoor u waarden wilt opnemen wanneer de record wordt gemaakt. Beschikbare velden zijn afhankelijk van het type entiteit.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>Voer in deze velden de waarde in die het werkitem voor een bepaalde eigenschap moet hebben. Beschikbare velden zijn afhankelijk van het type entiteit.</td> 
+   <td> Dit zijn de velden die u hebt geselecteerd. Voer de waarde in die de record voor een bepaalde eigenschap moet hebben. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -225,7 +229,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -257,7 +261,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td> <p>Selecteer het type entiteit dat u wilt verwijderen uit de module.</p> </td> 
+   <td> <p>Selecteer het type entiteit dat de module moet verwijderen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -321,9 +325,13 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Selecteer het type entiteit dat de module moet bijwerken.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Selecteer de velden waarvoor u waarden wilt opnemen wanneer de record wordt gemaakt. Beschikbare velden zijn afhankelijk van het type entiteit.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>Voer in deze velden de waarde in die het werkitem voor een bepaalde eigenschap moet hebben. Beschikbare velden zijn afhankelijk van het type entiteit.</td> 
+   <td>Dit zijn de velden die u hebt geselecteerd. Voer de waarde in die de record voor een bepaalde eigenschap moet hebben.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 

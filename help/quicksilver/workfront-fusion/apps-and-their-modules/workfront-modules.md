@@ -9,9 +9,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
+source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
 workflow-type: tm+mt
-source-wordcount: '5784'
+source-wordcount: '5783'
 ht-degree: 0%
 
 ---
@@ -1309,7 +1309,7 @@ Zie een lijst met de [!DNL Workfront] objecttypen waarvoor u deze module kunt ge
    <td>Documentversie</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
