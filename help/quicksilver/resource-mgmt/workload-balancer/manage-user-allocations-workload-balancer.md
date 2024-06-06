@@ -6,9 +6,9 @@ description: Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Toewijzingen van gebruikers beheren in Workload Balancer
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 Als Manager van het Middel, kunt u werk aan gebruikers toewijzen en hun dagelijkse, wekelijkse, of maandelijkse toewijzingen van de Balancer van de Werklast beheren om ervoor te zorgen zij een hoeveelheid uren worden toegewezen die in hun beschikbare programma&#39;s past.
 
@@ -111,11 +113,14 @@ Houd rekening met het volgende wanneer u dagelijkse, wekelijkse of maandelijkse 
 
 * Twee gebruikers in verschillende tijdzones of programma&#39;s in verschillende tijdzones dan die van de toegewezen gebruikers kunnen ertoe leiden dat de toewijzingsbedragen anders worden weergegeven voor twee gebruikers die dezelfde werkitems bekijken.
 
-* Wanneer een gebruiker tijd uit heeft gepland, de dag of het gedeelte van de dag in een grijze achtergrond toont. Als de Workfront-beheerder de instelling Gebruikerstijd uit in het gedeelte Setup heeft ingeschakeld om rekening te houden met de tijd van de gebruiker uitgeschakeld, gaan de toegewezen uren naar de volgende beschikbare dag in de tijdlijn. Als de instelling is uitgeschakeld, blijven de toegewezen uren op de dag staan die voor vrije tijd is gemarkeerd en wordt de gebruiker weergegeven als oververdeeld. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Wanneer een gebruiker tijd uit heeft gepland, de dag of het gedeelte van de dag in een grijze achtergrond toont, <span class="preview">en een vliegtuigpictogram geeft aan dat de tijd uit is</span>. Als de Workfront-beheerder de instelling Gebruikerstijd uit in het gedeelte Setup heeft ingeschakeld om rekening te houden met de tijd van de gebruiker uitgeschakeld, gaan de toegewezen uren naar de volgende beschikbare dag in de tijdlijn. Als de instelling is uitgeschakeld, blijven de toegewezen uren op de dag staan die voor vrije tijd is gemarkeerd en wordt de gebruiker weergegeven als oververdeeld. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Als de tijd weg duidelijk was nadat de gebruiker aan een het werkpunt werd toegewezen, moet u de chronologie van het project opnieuw berekenen om de bewogen toewijzing te tonen. Zie voor meer informatie [Projecttijdlijnen opnieuw berekenen](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">Wanneer meerdere gebruikers zijn toegewezen aan een taak en de primaire toegewezen persoon heeft een geplande tijd uit, wordt de tijdlijn verschoven (als de datums niet vast zijn) en worden de geplande uren van alle toewijzingen opnieuw verdeeld over de nieuwe duur van de taak. Als de taak vaste datums heeft, wordt de tijdlijn niet gewijzigd vanwege time-off en worden de uren opnieuw toegewezen aan de resterende dagen.</span>
+   * <span class="preview">Als de toewijzingen handmatig worden uitgevoerd, worden de geplande uren niet opnieuw toegewezen na de tijd uit.</span>
 
 * Als er veelvoudige gebruikers aan de taak worden toegewezen, wordt de hoeveelheid Geplande Uren gelijkmatig verdeeld aan elke gebruiker eerst, dan gelijkmatig aan elke dag binnen de Duur van de taak. Deze distributie wordt de toewijzing van elke gebruiker aan de taak.
 
