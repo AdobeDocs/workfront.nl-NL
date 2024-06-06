@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,12 @@ Te gebruiken [!DNL Microsoft Dynamics] 365, hebt u een [!DNL Microsoft Dynamics 
 ## Connect Microsoft Dynamics 365 to Workfront Fusion
 
 U kunt een verbinding maken met uw [!DNL Microsoft Dynamics 365] rechtstreeks vanuit een [!DNL Microsoft Dynamics 365] -module.
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 1. In alle [!DNL Microsoft Dynamics 365] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
 1. Voer een naam in voor de verbinding.

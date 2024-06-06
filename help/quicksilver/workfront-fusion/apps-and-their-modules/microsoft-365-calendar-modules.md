@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 ## Vereisten
 
 Te gebruiken [!DNL Microsoft Office 365 Calendar] modules, moet u een [!DNL Microsoft Office 365 Calendar] account.
+
+## De [!DNL Office 365 Calendar] service aan [!DNL Workfront Fusion]
+
+Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 ## [!DNL Microsoft Office 365 Calendar] modules en hun velden
 

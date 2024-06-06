@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1581'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!UICONTROL Microsoft Office 365 Email]en deze verbinding maken met meerdere toepassingen en services van derden.
 
-Voor gebruik [!UICONTROL Office 365 Email] with [!DNL Adobe Workfront Fusion]is het noodzakelijk [!UICONTROL Office 365 account]. U kunt er een maken op www.office.com.
+Voor gebruik [!UICONTROL Office 365 Email] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!UICONTROL Office 365 account]. U kunt er een maken op www.office.com.
 
 Voor instructies over het aansluiten van uw [!UICONTROL Office 365] account aan [!DNL Workfront Fusion], zie [Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -53,9 +53,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -68,6 +68,18 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 ## Vereisten
 
 Te gebruiken [!DNL Microsoft Office 365 Email] modules, moet u een [!DNL Microsoft Office 365 Email] account.
+
+
+
+## De [!DNL Office 365 Email] service aan [!DNL Workfront Fusion]
+
+Voor instructies over het aansluiten van uw [!DNL Office 365 Email] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 ## [!DNL Microsoft Office 365 Email] modules en hun velden
 
@@ -400,7 +412,7 @@ Hiermee verzendt u een e-mailbericht dat momenteel in concept is.
 
 #### [!UICONTROL Update a Message]
 
-Werkt een bestaand bericht bij.
+Een bestaand bericht bijwerken.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -556,7 +568,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> </td> 
+   <td> <p> Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 

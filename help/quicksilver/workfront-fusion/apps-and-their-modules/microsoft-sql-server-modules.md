@@ -9,16 +9,16 @@ description: U kunt [!DNL Adobe Workfront Fusion] om verbinding te maken met Mic
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft SQL Server] modules
 
-U kunt [!DNL Adobe Workfront Fusion] om verbinding te maken met [!UICONTROL Microsoft SQL Server].
+U kunt [!DNL Adobe Workfront Fusion] verbinding maken met [!UICONTROL Microsoft SQL Server].
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -58,6 +58,18 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met uw [!DNL Workfront] beheerder.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+
+
+## De [!DNL Microsoft SQL Server] service aan [!DNL Workfront Fusion]
+
+Voor instructies over het aansluiten van uw [!DNL Microsoft SQL Server] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 ## Gebruiken [!DNL Microsoft SQL Server] modules
 
@@ -71,7 +83,7 @@ Voor meer informatie over het creëren van een opgeslagen procedure, zie [!DNL M
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] biedt geen ondersteuning voor meerdere recordsets. Alleen de eerste wordt verwerkt.
+>[!DNL Workfront Fusion] ondersteunt geen meerdere recordsets. Alleen de eerste wordt verwerkt.
 
 ## Probleemoplossing [!UICONTROL ER_LOCK_WAIT_TIMEOUT: Lock wait timeout exceeded; try restarting transaction]
 
@@ -87,4 +99,4 @@ Schakel Automatisch vastleggen in. Automatisch vastleggen voltooit (legt) elke t
 
 1. Klik op de knop [!UICONTROL Scenario settings] pictogram ![](assets/scenario-settings-icon.png)onder aan het scherm.
 1. Klik op de knop **[!UICONTROL Auto commit]** selectievakje.
-1. Klikken **[!UICONTROL OK]** om de scenario-instellingen op te slaan.
+1. Klikken **[!UICONTROL OK]** de scenario-instellingen opslaan.

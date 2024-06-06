@@ -10,9 +10,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 Voor gebruik [!DNL Miscrosoft Word Templates] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Office 365] account. U kunt er een maken op www.office.com.
 
+
+
+## De [!DNL Office] service aan [!DNL Workfront Fusion]
+
+Voor instructies over het aansluiten van uw [!DNL Office] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
+
 ## Gebruiken [!DNL Microsoft Word Templates] modules
 
 U kunt een [!DNL Microsoft Word Template] module voor het samenvoegen van gegevens van meerdere webservices in een [!DNL Microsoft Word] document.
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] sjabloon is een normaal [!DNL Microsoft Word] document (
 Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de naam [!UICONTROL Key] veldwaarde, die binnen dubbele accolades wordt geplaatst, bijvoorbeeld
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Voorbeeld:** Als u een document wilt maken met de tekst &quot;Hi, Petr!&quot;, kunt u een [!DNL Microsoft Word Template] om de volgende sjabloon te maken:
 
-<pre>&gt; Hallo &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hallo {{name}}!</pre>
 
 Hiervoor stelt u de module als volgt in:
 
@@ -111,7 +123,7 @@ Hiervoor stelt u de module als volgt in:
 U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet worden gerenderd als aan bepaalde voorwaarden is voldaan. Als u de tekst wilt laten omlopen, plaatst u deze tussen openingstag en afsluitingstag, bijvoorbeeld &quot;hasPhone&quot; als de voorwaarde is of de gegevens al dan niet een telefoonnummer bevatten. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /, zoals in het onderstaande voorbeeld wordt getoond.
 
 **Voorbeeld:** Als u een document wilt maken dat een telefoonnummer van de klant bevat als de invoergegevens een telefoonnummer maar geen e-mailadres bevatten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
-<pre>&gt; &#123;&#123;#hasPhone}_Telefoon: {{phone&#125;&#125; &#123;&#123;/hasPhone}</pre><pre>&gt; {{#hasEmail}_E-mail: {{email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Hiervoor stelt u de module als volgt in:
+<pre>&gt; {{#hasPhone}_Telefoon: {{phone}} {{/hasPhone}</pre><pre>&gt; {{#hasEmail}_E-mail: {{email}} {{/hasEmail}}</pre>Hiervoor stelt u de module als volgt in:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. 
 
 **Voorbeeld:** Als u een document wilt maken met de naam en het telefoonnummer van elk contact in een lijst met klanten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Hiervoor stelt u de module als volgt in:
 
@@ -191,7 +203,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p> Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld HTTP &gt; Een bestand ophalen of Dropbox &gt; Een bestand ophalen). U kunt het gegevensbestand ook handmatig invoeren.</p> </td> 
+   <td> <p> Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld HTTP &gt; Een bestand of Dropbox ophalen &gt; Een bestandsmodule ophalen). U kunt het gegevensbestand ook handmatig invoeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
@@ -261,7 +273,7 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p> Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld HTTP &gt; Een bestand ophalen of Dropbox &gt; Een bestand ophalen). U kunt het gegevensbestand ook handmatig invoeren.</p> </td> 
+   <td> <p> Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld HTTP &gt; Een bestand of Dropbox ophalen &gt; Een bestandsmodule ophalen). U kunt het gegevensbestand ook handmatig invoeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of filled out file]</td> 

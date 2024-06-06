@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario's, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '3172'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,9 +67,18 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 Te gebruiken [!DNL OneDrive] modules, moet u een [!DNL Microsoft OneDrive] account.
 
+
+
+
 ## De [!DNL OneDrive] service aan [!DNL Workfront Fusion]
 
 Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 ## [!DNL Microsoft OneDrive] modules en hun velden
 
@@ -131,7 +140,7 @@ Deze triggermodule start een scenario wanneer een bestand of map wordt gemaakt o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Selecteer of u bestanden, mappen of beide wilt bekijken.</p> <p>Opmerking: U kunt niet controleren op mappen in een [!UICONTROL Shared With Me] rijden.</p> </td> 
+   <td> <p>Selecteer of u bestanden, mappen of beide wilt bekijken.</p> <p>Opmerking: u kunt niet controleren op mappen in een [!UICONTROL Shared With Me] rijden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -164,13 +173,13 @@ Deze zoekmodule retourneert bestanden en mappen op basis van criteria die u inst
        <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigeer naar de map waarnaar u in de module wilt zoeken. U kunt ook een query invoeren om de geretourneerde resultaten te filteren.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>De module zoekt bestanden die met de eigenaar van het station zijn gedeeld.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Site die u wilt doorzoeken in de module. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die u wilt doorzoeken in de module. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan de aandrijving u de module wilt zoeken.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Selecteer of u naar bestanden, mappen of beide wilt zoeken.</p> <p>Opmerking: U kunt niet zoeken naar mappen in een [!UICONTROL Shared With Me] rijden.</p> </td> 
+   <td> <p>Selecteer of u naar bestanden, mappen of beide wilt zoeken.</p> <p>Opmerking: u kunt niet zoeken naar mappen in een [!UICONTROL Shared With Me] rijden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -340,7 +349,7 @@ Deze actiemodule uploadt een bestand naar de opgegeven map.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station dat het bestand bevat dat u wilt ophalen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Site die de map bevat waarin u een bestand wilt uploaden. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die de map bevat waarin u een bestand wilt uploaden. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station de map bevat waarin u een bestand wilt uploaden.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -384,7 +393,7 @@ Deze actiemodule maakt een nieuwe map in het opgegeven station.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station waarop u een map wilt maken.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Site waar u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site waar u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep die eigenaar is van het stuurprogramma waarop u een map wilt maken.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -433,7 +442,7 @@ Deze actiemodule retourneert een gedeelde koppeling voor het opgegeven bestand.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie waarvoor u een gedeelde koppeling wilt ophalen:</p> 
+   <td> <p>Selecteer de locatie waarvoor u een koppeling voor delen wilt ophalen:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
       <ul> 
@@ -496,7 +505,7 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat dat u wilt verplaatsen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Site die het bestand of de map bevat die u wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die het bestand of de map bevat die u wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand of de map bevat die u wilt verplaatsen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -529,7 +538,7 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u het bestand of de map wilt verplaatsen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Plaats waar u het bestand of de map wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Plaats waar u het bestand of de map wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarnaar u het bestand of de map wilt verplaatsen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -606,7 +615,7 @@ Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u het bestand wilt kopiëren.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Site waar u het bestand wilt kopiëren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site waar u het bestand wilt kopiëren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarnaar u het bestand wilt kopiëren.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -658,7 +667,7 @@ In deze actiemodule wordt het geselecteerde bestand verwijderd.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat die u wilt verwijderen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer [!DNL SharePoint] Site die het bestand of de map bevat die u wilt verwijderen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die het bestand of de map bevat die u wilt verwijderen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand of de map bevat die u wilt verwijderen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -705,7 +714,7 @@ Deze module voert een aangepaste API-aanroep uit.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -723,6 +732,6 @@ Deze module voert een aangepaste API-aanroep uit.
 
 Er zijn verschillende mogelijke problemen wanneer het uploaden of bijwerken van een bestand mislukt:
 
-* Het geüploade bestand is te groot en overschrijdt de maximale bestandsgroottelimiet voor uw [!DNL OneDrive] of u hebt al uw [!DNL OneDrive] opslagquotum van de account. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL OneDrive] of upgrade uw [!DNL OneDrive] account.
+* Het geüploade bestand is te groot en overschrijdt de maximale bestandsgrootte voor uw [!DNL OneDrive] of u hebt al uw [!DNL OneDrive] opslagquotum van de account. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL OneDrive] of upgrade uw [!DNL OneDrive] account.
 * OneDrive staat het uploaden van twee bestanden met dezelfde naam naar één map niet toe. Als de doelmap een bestand bevat met dezelfde naam als het bestand dat wordt geüpload, wordt de uitvoering van het scenario afgesloten met een fout. U kunt de naam wijzigen van het bestand dat wordt geüpload. Als u een bestand wilt bijwerken, gebruikt u de opdracht [!UICONTROL Update a file] handeling.
 * De eerder geselecteerde map, waarnaar het bestand wordt geüpload, bestaat niet meer. Het scenario stopt en u moet de doelmap opnieuw selecteren.

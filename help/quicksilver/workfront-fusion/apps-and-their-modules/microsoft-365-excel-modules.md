@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2350'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>  
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,6 +66,18 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 ## Vereisten
 
 Te gebruiken [!DNL Microsoft office 365 Excel], je moet een Microsoft-account hebben.
+
+
+
+## De [!DNL Office 365 Excel] service aan [!DNL Workfront Fusion]
+
+Voor instructies over het aansluiten van uw [!DNL Office 365 Excel] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 ## [!DNL Microsoft Office 365 Excel] modules en hun velden
 
@@ -115,7 +127,7 @@ Deze trekkermodule begint een scenario wanneer een werkboek wordt gecreeerd.
 
 #### [!UICONTROL Search Workbooks]
 
-In deze actiemodule wordt gezocht naar [!DNL Excel] werkboeken.
+Deze handelingenmodule zoekt naar [!DNL Excel] werkboeken.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -268,7 +280,7 @@ Deze actiemodule leidt tot een nieuw aantekenvel binnen het geselecteerde werkbo
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Name] </td>
-   <td> <p>Voer een naam voor het nieuwe werkblad in of wijs deze toe.</p> </td> 
+   <td> <p>Voer een naam in voor het nieuwe werkblad of wijs een naam toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -345,7 +357,7 @@ Deze actiemodule werkt een bestaande werkbladrij bij.
   <tr> 
     <td role="rowheader" >[!UICONTROL Row]</td>
     <td>Voer voor elke kolom de waarde in die de kolom in de nieuwe rij moet hebben.</td>
-   --&gt; 
+   —&gt; 
   </tr> 
  </tbody> 
 </table>
@@ -497,7 +509,7 @@ Deze actiemodule wint meta-gegevens voor de gespecificeerde lijst terug.
    </td> 
    <td> 
      <p>Voor instructies over het aansluiten van uw Office 365-account op [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p>
-    --&gt; </td> 
+    —&gt; </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a table]</td> 
@@ -700,7 +712,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep maken.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 

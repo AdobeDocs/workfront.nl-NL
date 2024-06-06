@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
    <p>of</p>
    <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td> 
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -65,9 +65,21 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Vereisten
 
-Te gebruiken [!DNL Microsoft OneDrive for Business] with [!DNL Adobe Workfront Fusion]hebt u een [!DNL Microsoft] account.
+Te gebruiken [!DNL Microsoft OneDrive for Business] with [!DNL Adobe Workfront Fusion], hebt u een [!DNL Microsoft] account.
 
 Voor instructies over het aansluiten van uw [!DNL OneDrive for Business] account aan [!DNL Workfront Fusion], zie [Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+
+
+## De [!DNL Microsoft OneDrive for Business] service aan [!DNL Workfront Fusion]
+
+Voor instructies over het aansluiten van uw [!DNL Microsoft OneDrive for Business] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+>
+>Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
 ## [!DNL Microsoft OneDrive for Business] modules en hun velden
 
@@ -103,7 +115,7 @@ Deze triggermodule wordt geactiveerd wanneer een nieuw bestand wordt toegevoegd 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p> Selecteer de map die u wilt controleren. In een scenario kunt u slechts één map controleren.</p> <p>Tip: Als u meerdere mappen wilt bijhouden, maakt u een onafhankelijk scenario voor elk van deze mappen.</p> </td> 
+   <td> <p> Selecteer de map die u wilt controleren. In een scenario kunt u slechts één map controleren.</p> <p>Tip: als u meerdere mappen wilt bijhouden, maakt u een onafhankelijk scenario voor elk van deze mappen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL I want to watch]</p> </td> 
@@ -134,7 +146,7 @@ Deze triggermodule wordt geactiveerd wanneer een nieuwe map wordt toegevoegd aan
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p> Selecteer de map die u wilt controleren. In een scenario kunt u slechts één map controleren.</p> <p>Tip: Als u meerdere mappen wilt bijhouden, maakt u een onafhankelijk scenario voor elk van deze mappen.</p> </td> 
+   <td> <p> Selecteer de map die u wilt controleren. In een scenario kunt u slechts één map controleren.</p> <p>Tip: als u meerdere mappen wilt bijhouden, maakt u een onafhankelijk scenario voor elk van deze mappen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL I want to watch]</p> </td> 
