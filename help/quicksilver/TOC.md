@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
+source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
 workflow-type: tm+mt
-source-wordcount: '14329'
+source-wordcount: '14340'
 ht-degree: 0%
 
 ---
@@ -615,6 +615,7 @@ ht-degree: 0%
                * [Een formulier beheren](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
                * [Objecttypen toevoegen aan of verwijderen uit een bestaand aangepast formulier met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
                * [De naam van een aangepast formulier wijzigen met de formulierontwerper](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+               * [Delen voor aangepaste velden en widgets configureren met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
          * Aangepaste formulieren beheren {#manage-custom-forms}
             * [Aangepaste formulieren en velden beheren](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [Een aangepast formulier delen](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
