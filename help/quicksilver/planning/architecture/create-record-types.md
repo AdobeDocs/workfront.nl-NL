@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -135,8 +135,6 @@ Voor informatie over welke recordtypen in elke sjabloon worden opgenomen, raadpl
 
 {{step1-to-planning}}
 
-De laatst geopende werkruimte moet standaard worden geopend.
-
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. (Optioneel) Klik op **Sectie toevoegen** om een nieuwe sectie aan de werkruimte toe te voegen.
 1. Klikken **Recordtype toevoegen**.
@@ -223,8 +221,6 @@ Houd rekening met het volgende wanneer u recordtypen importeert met een Excel- o
 Recordtypen importeren met een Excel-bestand:
 
 {{step1-to-planning}}
-
-De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt maken.
 1. Klikken **Recordtype toevoegen**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '2432'
 ht-degree: 0%
 
 ---
@@ -158,8 +158,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-De laatst geopende werkruimte moet standaard worden geopend.
-
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Selecteer een **Tabel** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
@@ -224,8 +222,6 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
 
 {{step1-to-planning}}
-
-De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
@@ -309,8 +305,6 @@ De laatst geopende werkruimte moet standaard worden geopend.
 Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Manager Assets, kunt u afzonderlijke records verbinden met Experience Manager-elementen. De elementvelden die u vanaf Experience Manager Assets hebt verbonden toen u de verbinding maakte, worden automatisch ingevuld in het recordtype waarvan u een koppeling hebt gemaakt.
 
 {{step1-to-planning}}
-
-De laatst geopende werkruimte moet standaard worden geopend.
 
 1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u records wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -283,23 +283,35 @@ Workfront-planning zoeken:
 
    Het gebied Werkruimten wordt geopend.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (Optioneel en aanbevolen) Ga door met een aantal van de volgende acties om uw werkstructuur te maken:
 
-   1. Maak een werkruimte helemaal opnieuw of gebruik een sjabloon.
+   1. Maak een werkruimte helemaal opnieuw of gebruik een sjabloon. Zie voor meer informatie [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Voeg secties toe aan de nieuwe werkruimte.
+   1. Voeg secties toe aan de nieuwe werkruimte. Zie voor meer informatie [Werkruimten bewerken](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Wijzig de naam van de bestaande secties in de nieuwe werkruimte.
-   1. Voeg recordtypen toe aan de nieuwe werkruimte.
+   1. Voeg recordtypen toe aan de nieuwe werkruimte. Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Klik op de naam van een recordtype om de pagina van het recordtype te openen. De pagina met recordtypen wordt standaard in de tabelweergave geopend.
 
-      U kunt ook een tijdlijn of een kalenderweergave maken.
+      U kunt ook een tijdlijn of een kalenderweergave maken. Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. Voeg in de tabelweergave records toe door rijen toe te voegen
 
       of
 
       Voeg recordvelden toe door kolommen toe te voegen.
+
+      Raadpleeg de volgende artikelen voor meer informatie:
+
+      * [Records maken](/help/quicksilver/planning/records/create-records.md)
+      * [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront Planning Release-activiteit
 

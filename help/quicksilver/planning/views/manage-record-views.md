@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -172,14 +172,12 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 >
 >Wanneer u een recordtype maakt, wordt de tabelweergave ook standaard gemaakt.
 >
->Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
+>Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben.
+>
+>Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben. Anders worden de tijdlijn of de kalenderopties gedimd weergegeven.
 
 1. (Voorwaardelijk) Klik **Volgende**, wanneer u een tijdlijn- of kalenderweergave maakt.
 
@@ -195,7 +193,7 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
    >[!TIP]
    >
-   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslagen of voorwerpen selecteren.
+   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren.
 
 1. Klikken **Maken**.
 

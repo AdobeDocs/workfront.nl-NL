@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Een herinneringsmelding aan een object koppelen
-description: Herinneringsmeldingen kunnen worden gekoppeld aan de objecttypen Projecten, Taken, Uitgaven, Timesheets, Sjablonen, Sjabloontaken en Herhalende tijdbladprofielen.
+description: "U kunt herinneringsberichten met verscheidene verschillende objecten types associëren: Projecten, Taken, Kwesties, Tijdopnamen, Malplaatjes, de Taken van het Malplaatje, en het Terugkeren de Profielen van de Chronologie."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # Een herinneringsmelding aan een object koppelen
 
-Herinneringsmeldingen kunnen aan verschillende objecttypen worden gekoppeld: Projecten, Taken, Kwesties, Tijdopnamen, Malplaatjes, de Taken van het Malplaatje, en het Terugkeren de Profielen van de Chronologie.
+U kunt herinneringsberichten met verscheidene verschillende objecten types associëren: Projecten, Taken, Kwesties, Tijdopnamen, Malplaatjes, de Taken van het Malplaatje, en het Terugkeren de Profielen van de Chronologie.
 
 Voordat u herinneringsberichten aan een object kunt koppelen, [!DNL Adobe Workfront] de beheerder moet de melding maken, zoals beschreven in [Herinneringsmeldingen instellen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Herinneringsmeldingen aan een object koppelen
 
-1. Ga naar het object waaraan u de herinneringsmelding wilt toevoegen.
+1. Ga naar het object waar u de herinneringsmelding wilt bijvoegen.
 1. Klik op het pictogram Bewerken ![](assets/edit-icon.png).
 1. In het linkerdeelvenster van het dialoogvenster **[!UICONTROL Edit]** vak dat wordt weergegeven, klikt u op **[!UICONTROL Settings]**.
 
@@ -69,4 +69,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op **[!UICONTROL Save Changes]**.
 
-   Raadpleeg uw [!DNL Workfront] beheerder.
+   Als u hulp nodig hebt bij het testen van de levering van een herinnering, raadpleegt u uw [!DNL Workfront] beheerder.

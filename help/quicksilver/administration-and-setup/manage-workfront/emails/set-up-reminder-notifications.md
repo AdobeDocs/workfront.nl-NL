@@ -1,13 +1,13 @@
 ---
 title: Herinneringsmeldingen instellen
-description: Herinneringsmeldingen instellen
+description: Herinneringsberichten genereren e-mails die naar gebruikers worden verzonden op basis van opgegeven criteria. Herinneringsberichten herinneren gebruikers aan een handeling aan de noodzaak om een taak, uitgave, project of tijdspagina uit te voeren.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Herinneringsberichten sturen e-mails naar ontvangers op basis van opgegeven criteria. U kunt herinneringsberichten met uw het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren.
+Als Workfront-beheerder kunt u herinneringsmeldingen maken voor gebruikers en deze koppelen aan objecten waaraan u speciale aandacht wilt besteden.
+
+Herinneringsberichten genereren e-mails die naar gebruikers worden verzonden op basis van opgegeven criteria. Herinneringsberichten herinneren gebruikers aan een handeling aan de noodzaak om een taak, uitgave, project of tijdspagina uit te voeren.
+
+Nadat u de herinneringsberichten creeert, kunnen de gebruikers hen met het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren. Zie voor meer informatie [Een herinneringsmelding aan een object koppelen](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de informatie in deze lijst, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Het e-mailadres voor de herinnering aanpassen
 
@@ -126,7 +130,18 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
      </tr> 
      <tr> 
       <td role="rowheader">Ontvangers</td> 
-      <td>Selecteer de typen gebruikers die u het bericht wilt ontvangen. Maak een keuze uit verschillende objectbelanghebbenden, zoals eigenaar, fiatteur of ontvanger.</td> 
+      <td><p>Afhankelijk van het object waarvoor de herinneringsmelding is bestemd, selecteert u een van de volgende typen gebruikers die u de melding wilt ontvangen:</p>
+      <ul>
+      <li>Toegewezen aan</li>
+      <li>Ingevoerd door</li>
+      <li>Het Team van het project (alle gebruikers in het projectteam ontvangen de herinnering)</li>
+      <li>Afhankelijke taaktoewijzingen (gebruikers die zijn toegewezen aan afhankelijke taken ontvangen de herinnering)</li>
+      <li>Projecteigenaar</li>
+      <li>Toegewezen aan (gebruikers die zijn toegewezen aan een taak of een uitgave ontvangen de herinnering)</li>
+      <li>Timesheet-eigenaar</li>
+      <li>Timesheet Approver</li>
+      <li>Manager van eigenaar van tijdblad</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>
