@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee 
 
 ![Voorbeeld van formulierontwerper](assets/form-designer-example.png)
 
-## Toegang tot de nieuwe formulierontwerper
+## Toegang tot de formulierontwerper
 
-Er is een nieuwe knop boven aan zowel de nieuwe formulierontwerper als de verouderde formulierontwerper. U kunt deze knoop gebruiken om tussen de erfenisbouwer en de nieuwe ontwerper te schakelen.
+Met een knop boven aan de nieuwe formulierontwerper en de verouderde formulierbuilder kunt u schakelen tussen de versies.
 
 ![Overschakelen naar nieuwe formulierontwerper](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om:
   >
   >De sectie Standaard is niet zichtbaar binnen objecten als het formulier eenmaal aan het object is gekoppeld.
 
+* **Een veld Externe opzoekopdracht gebruiken**: Dit veldtype roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld.
+
 ## Functionaliteit verwijderd van de formulierontwerper
 
 De volgende functionaliteit is uit de formulierontwerper verwijderd:
 
-* Formulierinstellingen, Formulier delen, tabbladen voor delen van velden
-
-   * De formulierinstellingen zijn nu beschikbaar boven aan het canvas
-
-   * Het hoofdtabblad Formulier delen en het subtabblad Veld delen
-
-  >[!NOTE]
-  >
-  >U kunt het delen van formulieren en velden besturen via Instellen > Aangepaste Forms > Forms of het gebied Velden.
+* De formulierinstellingen zijn nu beschikbaar boven aan het canvas
 
 * Wijzigingen in veld bijhouden in updateffeeds
 
   >[!NOTE]
   >
-  >U vindt dit in Setup > Interface > feeds bijwerken
+  >U vindt deze optie in Setup > Interface > feeds bijwerken
 
