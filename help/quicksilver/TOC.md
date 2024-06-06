@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 0%
@@ -624,7 +624,7 @@ ht-degree: 0%
             * [Rapporten weergeven die een aangepast veld of een aangepaste widget gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [Aangepaste formulieren weergeven die een aangepast veld of een aangepaste widget gebruiken](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [Aangepaste formuliergegevens overbrengen bij de conversie van een object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [Eigenschappen van een aangepast veld, sectie-einde of widget bewerken](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Een aangepast veld, sectie-einde of widget toevoegen of bewerken](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Een aangepast formulier verwijderen](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [Opslag van rijke tekstvelden in de API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
