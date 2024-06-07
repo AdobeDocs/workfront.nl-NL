@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-1. (Optioneel) Vouw de pijl omlaag naar rechts uit van de naam van een bestaande werkruimte en selecteer de werkruimte waaruit u recordtypen wilt verbinden.
+1. Klik de werkruimte waarvan verslagtypes u wilt verbinden,
+
+   of
+
+   Vouw in een werkruimte de pijl omlaag naar rechts naast de naam van een bestaande werkruimte uit en selecteer de werkruimte waaruit u recordtypen wilt verbinden.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave klikt u op de knop **Nieuwe verbinding** tab.
 

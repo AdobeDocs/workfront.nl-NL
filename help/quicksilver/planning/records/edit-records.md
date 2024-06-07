@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ U kunt een record uit de volgende gebieden bewerken:
 
 {{step1-to-planning}}
 
-De werkruimte die u het laatst hebt geopend.
+1. Klik op de werkruimte waarvan u de records wilt bewerken
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
@@ -192,9 +192,9 @@ De werkruimte die u het laatst hebt geopend.
 
 {{step1-to-planning}}
 
-De werkruimte die u als laatste opent.
+1. Klik op de werkruimte waarvan u de records wilt bewerken
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op een opnametype.
 
@@ -231,9 +231,9 @@ De werkruimte die u als laatste opent.
 
 {{step1-to-planning}}
 
-De werkruimte die u als laatste opent.
+1. Klik op de werkruimte waarvan u de records wilt bewerken
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op een opnametype.
 

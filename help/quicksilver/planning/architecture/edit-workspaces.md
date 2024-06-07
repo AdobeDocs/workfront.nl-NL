@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 {{step1-to-planning}}
 
+1. Klik op een werkruimtekaart om de werkruimte te openen.
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam te wijzigen en druk vervolgens op **Enter**.
 1. Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Bewerken**.
 
@@ -130,7 +131,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 1. (Optioneel) Houd de muisaanwijzer boven een opnametype. Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Verwijderen** om een recordtype te verwijderen.
 
-   Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optioneel) Klik op een opnametype om het te slepen en neer te zetten op een nieuwe locatie. U kunt recordtypen van de ene werkruimtesectie naar de andere slepen.
 

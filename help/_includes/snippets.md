@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2243'
 ht-degree: 0%
 
 ---
@@ -249,20 +249,14 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Planning]**.
 
-   Hiermee opent u het gedeelte Workspaces van Workfront Planning.
+   De landingspagina van Workfront Planning wordt geopend.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Optioneel en voorwaardelijk) Als u een Workfront-beheerder bent, klikt u op de volgende tabbladen:
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **Mijn werkruimten**: De werkruimten die u hebt gemaakt, worden weergegeven.
+   * **Overige werkruimten**: Hiermee geeft u alle werkruimten weer in Workfront Planning, inclusief de werkruimten die met u worden gedeeld.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   Voor alle andere gebruikers worden alle werkruimten die ze hebben gemaakt of met hen worden gedeeld, weergegeven in het dialoogvenster **Werkruimten** gebied.
 
 ## Belangrijke intro voor Workfront-planning - {#planning-important-intro}
 

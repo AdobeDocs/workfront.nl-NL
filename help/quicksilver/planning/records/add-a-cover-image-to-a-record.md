@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ U kunt een record personaliseren door een omslagafbeelding boven aan de voorvert
 
 {{step1-to-planning}}
 
-De werkruimte die u als laatste opent.
+1. Klik op de werkruimte waarvan u de records wilt personaliseren,
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+   of
+
+   Vouw in een werkruimte de pijl omlaag naar rechts naast de naam van een bestaande werkruimte uit en selecteer de werkruimte waarvan u de records wilt aanpassen.
+
+   De werkruimte wordt geopend en de recordtypen worden weergegeven.
 
 1. Klik op een opnametype.
 

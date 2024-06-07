@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -111,19 +111,9 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Klikken **Werkruimte maken**
 
-1. (Voorwaardelijk) Als u geen werkruimten in uw omgeving hebt, klikt u op **Werkruimte maken**
-
-   Of klik in een bestaande werkruimte op de pijl omlaag naar rechts naast de naam van de werkruimte en klik op **Werkruimte maken**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   Het dialoogvenster Maken wordt weergegeven. U kunt een werkruimte helemaal opnieuw maken of maken met een van de beschikbare sjablonen.
 
 1. (Optioneel en voorwaardelijk) Klik op **Voorvertoning** binnen een van de volgende vooraf gedefinieerde werkruimtjablonen:
 
@@ -131,17 +121,19 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
    * Verkoopbeheer
    * Productbeheer
 
+   Het voorbeeldvak voor de sjabloon wordt geopend.
+
    Er is een indicatie van welke operationele recordtypen, taxonomieën en hoeveel velden aan elke sjabloon zijn gekoppeld.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Voor informatie over de sjablonen van de Workfront Planning-werkruimte raadpleegt u [Lijst met werkruimtemalplaatjes](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Klikken **Sjabloon gebruiken** om de werkruimte te maken op basis van de geselecteerde sjabloon
+1. Klik in het voorbeeldvak van de sjabloon op **Sjabloon gebruiken** om de werkruimte te maken op basis van de geselecteerde sjabloon
 
    of
 
-   Klikken **Werkruimte maken** om een werkruimte helemaal opnieuw te maken.
+   Klikken **Vorige** en klik vervolgens op **Werkruimte maken** om een werkruimte helemaal opnieuw te maken.
 
    Er wordt een werkruimte gemaakt voor de volgende typen werkruimten:
 

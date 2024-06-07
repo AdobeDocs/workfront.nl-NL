@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -150,9 +150,13 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 {{step1-to-planning}}
 
 
-De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klik op de kaart van een werkruimte.
 
-1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
+1. Klik op een opnametype.
+
+   De pagina met recordtypen wordt geopend.
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
@@ -218,11 +222,13 @@ De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor i
 
 {{step1-to-planning}}
 
-De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klik op de kaart van een werkruimte.
+
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op een opnametype.
 
-   Zie voor informatie over het maken van een recordtype [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+   De pagina met recordtypen wordt geopend.
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
@@ -247,13 +253,14 @@ De machtigingen voor delen van de oorspronkelijke weergave worden niet overgedra
 
 {{step1-to-planning}}
 
-De werkruimte die u het laatst hebt geopend, wordt standaard geopend.
+1. Klik op de kaart van een werkruimte.
 
-Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Klik op een opnametype.
 
-   Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
+   De pagina met recordtypen wordt geopend.
+Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
 1. Houd de muisaanwijzer boven het tabblad van de weergave die u wilt dupliceren en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Dupliceren**.
 

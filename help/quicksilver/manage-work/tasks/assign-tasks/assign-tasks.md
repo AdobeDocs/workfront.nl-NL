@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Eén taak toewijzen
 
 1. Ga naar een taak die u wilt toewijzen.
-1. Klikken **Toewijzen aan** in de **Toewijzingen** in de koptekst van de taak of uitgave.
+1. Klikken **Toewijzen aan** in de **Toewijzingen** veld in de koptekst van de taak
 
    of
 
    Klik op de naam van de toewijzingen als de taak of uitgave al is toegewezen.
 
-   Voorbeeldafbeelding in de productieomgeving:
+   In de productieomgeving:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Voorbeeldafbeelding in de voorvertoningsomgeving:</span>
+   <span class="preview">In de voorvertoningsomgeving:</span>
    ![Toewijzingen](assets/assignments-box-in-task-header.png)
 
 1. Voer een van de volgende handelingen uit:

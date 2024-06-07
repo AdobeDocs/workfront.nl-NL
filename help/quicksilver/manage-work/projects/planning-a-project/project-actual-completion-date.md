@@ -7,7 +7,7 @@ description: Projecten, taken en problemen hebben een datum waarop ze daadwerkel
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: 3a3dc541219706e3f6a4700889db344c110838bb
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -26,16 +26,16 @@ U kunt bijvoorbeeld een taak of een probleem markeren Gereed op maandag, maar u 
 
 U kunt niet manueel de Ware Datum van de Voltooiing van een project uitgeven, maar u kunt de status van een project manueel veranderen dat een verandering in zijn Ware Datum van de Voltooiing kan teweegbrengen.
 
-De werkelijke uitvoeringsdatum van een project wordt als volgt ingesteld:
+De daadwerkelijke VoltooiingsDatum van een project wordt geplaatst op de volgende manieren:
 
-* Door de status van het project handmatig bij te werken: als de Voltooiingswijze van het project aan Handboek wordt geplaatst en u manueel de status van het project in Voltooid verandert, brengt dit de Ware Datum van Voltooiing van het project teweeg dat wordt bijgewerkt aan de datum en de tijd wanneer u de status verandert.
-* Automatisch, wanneer de laatste taak van het project voltooit: als de Voltooiingswijze van het project aan Automatisch wordt geplaatst en u de laatste taak als Voltooid merkt of de Ware VoltooiingsDatum van de laatste taak bijwerkt, wordt de Ware VoltooiingsDatum van het project ook bijgewerkt met die datum.
+* Door de status van het project manueel bij te werken: als de Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en u manueel de status van het project in Voltooid verandert, teweegbrengt dit de Ware Datum van de Voltooiing van het project dat tot de datum en de tijd van de laatste voltooide taak wordt bijgewerkt.
+* Automatisch, wanneer de laatste taak van het project voltooit: als de Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en u de laatste taak als Voltooid merkt of de Ware Datum van de Voltooiing van de laatste taak bijwerkt, wordt de Ware Datum van de Voltooiing van het project ook bijgewerkt met die datum.
 
-   Zie het artikel voor informatie over het instellen van de Voltooiingsmodus van een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Zie het artikel voor informatie over het instellen van de Voltooiingsmodus van een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   >[!NOTE]
-   >
-   >Workfront gebruikt de datum van daadwerkelijke voltooiing van de taak van het project die het laatst voltooide als de datum van daadwerkelijke voltooiing voor het volledige project.
+  >[!NOTE]
+  >
+  >Workfront gebruikt de datum van daadwerkelijke voltooiing van de taak van het project die het laatst voltooide als de datum van daadwerkelijke voltooiing voor het volledige project.
 
 Een Workfront of groepsbeheerder bepaalt of Workfront de datum van vandaag of de Geplande Datum van Voltooiing van een taak of een kwestie gebruikt wanneer deze aan Voltooid of Gesloten worden geplaatst. Voor informatie over het instellen van taak- en probleemvoorkeuren raadpleegt u [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

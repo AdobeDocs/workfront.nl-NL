@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-De laatst geopende werkruimte wordt standaard geopend.
+1. Klik op de kaart van een werkruimte.
+
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op de kaart van een recordtype die is verbonden met een Workfront-project, -portfolio of -programma.
 1. Kies een tabelweergave in het menu **Weergave** vervolgkeuzelijst.

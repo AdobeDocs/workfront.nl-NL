@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Overweeg het volgende:
 
 {{step1-to-planning}}
 
-1. Selecteer de werkruimte voor de records waaraan u miniaturen wilt toevoegen en klik op de kaart met recordtype.
+1. Klik op de werkruimte voor de records waaraan u miniaturen wilt toevoegen en klik vervolgens op de opnametype-kaart.
 
    Hierdoor wordt de pagina met recordtypen geopend.
 1. Selecteer een tabelweergave in het menu **Weergave** vervolgkeuzelijst. Alle verslagen van het type u selecteerde tonen in een lijst.
@@ -145,7 +145,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -180,7 +180,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 

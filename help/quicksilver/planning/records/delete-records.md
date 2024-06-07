@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,11 @@ U kunt een record uit de volgende gebieden verwijderen:
 
 {{step1-to-planning}}
 
-De werkruimte die u als laatste opent.
+1. Klik op de werkruimte waarvan u de records wilt verwijderen.
 
-1. Klik op een recordtype.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
+1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
 1. Voer een van de volgende handelingen uit:
@@ -126,9 +128,11 @@ De record wordt verwijderd en kan niet worden hersteld.
 
 {{step1-to-planning}}
 
-De werkruimte die u het laatst hebt geopend.
+1. Klik op de werkruimte waarvan u de records wilt verwijderen.
 
-1. Klik op een recordtype.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
+1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
 1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de linkerbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.

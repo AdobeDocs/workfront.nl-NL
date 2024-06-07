@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt verwijderen.
+1. Klik op de werkruimte waarvan u de recordvelden wilt bewerken.
 
-   De werkruimte wordt geopend en de recordtypen die eraan zijn gekoppeld, worden weergegeven.
-1. Klik op de kaart voor het recordtype waarvan u de velden wilt bewerken.
+   De werkruimte wordt geopend en alle recordtypen in de werkruimte worden op kaarten weergegeven.
+
+1. Klik op de kaart van een recordtype.
 
    Hierdoor wordt de pagina van het recordtype geopend.
+
 1. (Voorwaardelijk) Klik op de tab van een **Tabelweergave**.
+
+   Alle bestaande records die aan het recordtype zijn gekoppeld, worden in de rijen van de tabelweergave weergegeven.
 1. Houd de cursor boven de kolomkop van een veld dat u wilt bewerken, klik op de pijl omlaag na de veldnaam en klik vervolgens op **Veld bewerken**
 
    of
@@ -146,7 +150,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!TIP]
    >
-   >U kunt het veldtype niet bijwerken nadat het veld is opgeslagen.
+   >* U kunt het veldtype niet bijwerken nadat het veld is opgeslagen.
+   >
+   >* Als u veldconfiguraties wijzigt (veldopties of formule-expressies), worden de waarden van records die al informatie in de gewijzigde velden bevatten, in real-time bijgewerkt. Er is geen waarschuwing en geen controlelogboek voor de waardeveranderingen die door de veranderingen van de gebiedsconfiguratie worden teweeggebracht. Alle gebruikers die de velden weergeven, zien de nieuwe waarden direct met de wijzigingen.
 
    De veldinformatie wordt bijgewerkt voor iedereen die toegang heeft tot de werkruimte.
 
@@ -154,9 +160,3 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-1. (Optioneel) Breid de pijl omlaag naar rechts uit naar de naam van een bestaande werkruimte en selecteer de werkruimte waarvoor u recordtypen wilt verwijderen.
+1. Klik op de werkruimte waarvan u de recordtypen wilt verwijderen.
+
+   of
+
+   Vouw in een werkruimte de pijl omlaag naar rechts uit, rechts van de naam van een bestaande werkruimte, en selecteer de werkruimte waaruit u recordtypen wilt verwijderen.
 
    De werkruimte wordt geopend en de recordtypen worden weergegeven.
-1. Klik op de kaart voor het recordtype dat u wilt verwijderen.
+1. Voer een van de volgende handelingen uit:
 
-   Hierdoor wordt de pagina van het recordtype geopend.
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van het recordtype klikt u op **Verwijderen**. <!--add screen shot when they finalize the UI-->
-1. Type **Verwijderen** klikt u in het bevestigingsvak op **Definitief verwijderen**.
+   * Houd de muisaanwijzer boven de recordtypekaart, klik op het menu Meer en vervolgens op **Verwijderen**.
+   * Klik op de kaart voor het recordtype dat u wilt verwijderen en klik op de pagina met recordtypen op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van het recordtype klikt u op **Verwijderen**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Type **delete** klikt u in het bevestigingsvak op **Definitief verwijderen**. Dit is niet hoofdlettergevoelig.
 
    Het geselecteerde recordtype en de bijbehorende velden, bijbehorende records en weergaven worden verwijderd.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 0%
 
 ---
@@ -117,9 +117,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-De laatst geopende werkruimte moet standaard worden geopend.
+1. Klik op de werkruimte waarvan u de records wilt maken waarvoor u velden wilt maken.
 
-1. (Optioneel) Vouw de pijl omlaag naar rechts uit, rechts van de naam van een bestaande werkruimte, selecteer de werkruimte waarvan u recordtypen wilt maken en klik op het recordtype.
+   De werkruimte wordt geopend en de recordtypen worden weergegeven.
+
+1. Klik op de kaart van een recordtype.
 
    Alle bestaande records die aan het recordtype zijn gekoppeld, worden in de rijen van de tabelweergave weergegeven.
 
@@ -127,8 +129,11 @@ De laatst geopende werkruimte moet standaard worden geopend.
    >
    >    Als er nog geen records worden weergegeven, hebt u mogelijk nog geen records of hebt u een filter toegepast dat beperkt wat u op het scherm ziet.
 
-   Alle bestaande velden die aan het recordtype zijn gekoppeld, worden weergegeven in de kolommen van de tabelweergave. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Alle bestaande velden die aan het recordtype zijn gekoppeld, worden weergegeven in de kolommen van de tabelweergave.
 
+   >[!TIP]
+   >
+   >    Sommige velden zijn mogelijk verborgen. Klik op Velden en schakel de modus Velden in die u als kolommen wilt weergeven in de tabelweergave.
 
 1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave om nieuwe velden toe te voegen.
 1. In de **Nieuw veld** tabblad, zoekt u naar een veldtype in het dialoogvenster **Veldtype** of selecteer een van de volgende veldtypen:

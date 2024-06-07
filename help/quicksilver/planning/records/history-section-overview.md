@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
 {{step1-to-planning}}
 
-De laatst geopende werkruimte wordt standaard geopend.
+1. Klik op de kaart van een werkruimte.
+
+   De werkruimte wordt geopend en de recordtypen worden op kaarten weergegeven.
+
+1. Klik op een opnametype.
+De recordtypepagina wordt geopend en alle records van dat type worden weergegeven.
 
 1. Kies een tabelweergave in het menu **Weergave** vervolgkeuzelijst.
 1. Klik op de naam van een record in de tabelweergave.

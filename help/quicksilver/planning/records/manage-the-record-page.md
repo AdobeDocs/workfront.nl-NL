@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,10 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
 {{step1-to-planning}}
 
-De werkruimte die u als laatste opent.
+1. Klik op de kaart van een werkruimte.
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
@@ -187,9 +188,10 @@ Alle secties worden standaard uitgevouwen.
 
 {{step1-to-planning}}
 
-De werkruimte die u als laatste opent.
+1. Klik op de kaart van een werkruimte.
 
-1. (Optioneel) Klik op de pijl omlaag rechts van de naam van de werkruimte om de werkruimte te selecteren waarvan u de records wilt bijwerken.
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.

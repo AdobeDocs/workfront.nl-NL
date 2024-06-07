@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,9 @@ Zie voor informatie over het bewerken van recordgegevens [Records bewerken](/hel
 
 {{step1-to-planning}}
 
-De werkruimte die u het laatst hebt geopend, wordt standaard geopend. Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klik op de werkruimte waar u records wilt toevoegen.
+
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op een opnametype. Zie voor informatie over het maken van een recordtype [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
 

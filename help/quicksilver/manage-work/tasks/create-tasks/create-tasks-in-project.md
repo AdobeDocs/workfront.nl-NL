@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    We raden u aan deze optie vooral te gebruiken wanneer u meerdere taken aan de lijst toevoegt.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
 
@@ -141,7 +141,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
          Dit maakt van de nieuwe taak een kind of subtaak van de vorige taak.
 
-         Zie voor meer informatie over kindertaken [Overzicht van taken](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Zie voor meer informatie over kindertaken [Subtaken maken](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Voorwaardelijk) Als u de optie **Automatisch opslaan** optie na drukken **Meer taken toevoegen** kunt u het volgende doen:
 

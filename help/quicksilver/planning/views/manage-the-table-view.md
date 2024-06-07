@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,9 @@ Een filter toevoegen aan een tabelweergave:
 1. Selecteer een tabelweergave en klik op **Filters** rechtsboven in de tabel.
 1. Klikken **Voorwaarde toevoegen** en voeg de volgende informatie toe:
 
-   * Selecteer een veld waarop u wilt filteren <!-- the tip below might change-->
+   * **Een veld selecteren** waarop u wilt filteren <!-- the tip below might change-->
 
-   * Selecteer een optie (of een filteroptie) om te bepalen aan welke voorwaarde het veld moet voldoen
+   * **Selecteer een optie** (of een filteroptie) om te bepalen aan welke voorwaarde het veld moet voldoen
 
      In de onderstaande tabel worden de beschikbare wijzigingstoetsen voor elk veldtype weergegeven.
 
@@ -387,7 +387,7 @@ Een groep toevoegen:
 
    De groepering wordt automatisch toegepast op de tabel en records worden weergegeven onder de scheidingslijn voor cijfergroepering.
 
-1. (Optioneel) Herhaal de bovenstaande stappen om maximaal drie groepen samen te voegen.
+1. (Optioneel) Klik op **Voorwaarde toevoegen** en herhaal de bovenstaande stappen om maximaal drie groepen samen te voegen.
 
    Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
 
@@ -438,13 +438,13 @@ Sorteren <!--ungrouped (add this when sorting for groupings will be available-->
 
    Houd de muis boven de naam van een kolom in de tabelweergave en klik op de pijl omlaag rechts van de kolomkopnaam en klik vervolgens op **Sorteren op dit veld**. Het veld wordt als een sorteerselectie toegevoegd in het pictogram Sorteren rechtsboven in de tabelweergave.
 
-1. In de **Records sorteren op** klikt u op een van de voorgestelde velden of op **Een ander veld kiezen** en zoek naar een ander veld. Klik vervolgens op het veld wanneer het wordt weergegeven in de lijst.
+1. (Voorwaardelijk) In de **Records sorteren op** klikt u op een van de voorgestelde velden of op **Een ander veld kiezen** en zoek naar een ander veld. Klik vervolgens op het veld wanneer het wordt weergegeven in de lijst.
 
    De sortering wordt automatisch toegepast op de tabelweergave en records worden gesorteerd op de geselecteerde criteria.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Optioneel) Herhaal bovenstaande stappen om te sorteren op extra velden.
+1. (Optioneel) Klik op **Voorwaarde toevoegen** en herhaal de bovenstaande stappen om te sorteren op extra velden.
 
    Het aantal velden dat u sorteert, wordt links van het pictogram Sorteren in de rechterbovenhoek van de werkbalk weergegeven. U kunt alleen velden kiezen die in de kolommen van de tabelweergave worden weergegeven.
 

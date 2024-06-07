@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-planning}}
 
-Dit opent de laatste-betreden werkruimte in de Planning van Workfront.
-1. Klik op de kaart van een recordtype waarvan u de velden wilt verwijderen.
-1. (Voorwaardelijk) Selecteer een **Tabelweergave** van de **Weergave** in de rechterbovenhoek van de pagina met recordtypen.
+1. Klik op de werkruimte waarvan u de recordvelden wilt verwijderen.
+
+   De werkruimte wordt geopend en de recordtypen worden weergegeven.
+
+1. Klik op de kaart van een recordtype.
+
+1. (Voorwaardelijk) Als dit nog niet het geval is, klikt u op de tab van een **Tabelweergave** op de pagina met recordtypen.
+
+   Alle bestaande records die aan het recordtype zijn gekoppeld, worden in de rijen van de tabelweergave weergegeven.
+
 1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
