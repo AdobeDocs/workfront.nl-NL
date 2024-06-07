@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Zie voor meer informatie [Een aangepast formulier delen](/help/quicksilver/admin
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 juni 2024; productie voor snelle release: met de release van 24.6 (20 juni 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 6 juni 2024; Productieversie voor alle klanten: met de release van 24.7 (juli 2024)
 
 U kunt nu een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder dat u een aangepast formulier hoeft te openen om het veld te maken. Zo kunt u snel opnieuw bruikbare aangepaste velden maken.
 

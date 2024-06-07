@@ -4,9 +4,9 @@ description: Verbeteringen in het beheer van bronnen in het derde kwartaal van 2
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3a56518ecbcb85b443284402d0e273d6a8485fb2
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 juni 2024; productie voor snelle release: met de release van 24.6 (20 juni 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 6 juni 2024; Productieversie voor alle klanten: met de release van 24.7 (juli 2024)
 
 Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan een taak tijd weg heeft gepland, wijst de Balancer van de Werkbelasting nu uren aan zowel de primaire als secundaire gebruikers opnieuw toe wanneer de projectchronologie wordt herberekend. (Deze functie is alleen beschikbaar als de Workfront-beheerder de instelling Gebruikerstijd uitschakelen in het gedeelte Instellen heeft ingeschakeld om rekening te houden met de tijd van de gebruiker.)
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.6 release (20 juni 2024)</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tijd uit nu weerspiegeld in de werklastbalans</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tijd uit nu weerspiegeld in de werklastbalans</a></p>
                         [!BADGE Nieuw in Voorproef ]{type=Negative}
                         <p>Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan een taak tijd weg heeft gepland, wijst de Balancer van de Werkbelasting nu uren aan zowel de primaire als secundaire gebruikers opnieuw toe wanneer de projectchronologie wordt herberekend.</p>
                     </td>
@@ -274,10 +271,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.6 release (20 juni 2024)</p>
-                            </li>
-                            <li>
-                                <p>Productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
