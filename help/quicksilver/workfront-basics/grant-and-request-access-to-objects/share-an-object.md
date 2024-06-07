@@ -6,9 +6,9 @@ description: Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weerga
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ U moet het volgende hebben om objecten te delen:
 
 ## Een project, taak of uitgave delen vanaf de bijbehorende pagina
 
-1. Ga naar de pagina van het project, de taak of de kwestie u wilt delen.
+1. Ga naar de project-, taak- of uitgavepagina die u wilt delen.
 
    Voor informatie over welke objecten kunnen worden gedeeld, raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -141,7 +141,7 @@ U moet het volgende hebben om objecten te delen:
 
    Alle gebruikers kunnen het object zien op basis van de machtigingen die u instelt.
 
-1. (Optioneel en voorwaardelijk) Klik tijdens het delen van een project op de knop **Tandwiel** pictogram ![](assets/gear-icon-settings.png)en schakel vervolgens het selectievakje naast **Instellen als sjabloon voor mijn projecttoegang** om de machtigingen als een sjabloon in te stellen.
+1. (Optioneel en voorwaardelijk) Klik tijdens het delen van een project op de knop **Tandwiel** pictogram ![](assets/gear-icon-settings.png)en schakel vervolgens het selectievakje in naast **Instellen als sjabloon voor mijn projecttoegang** om de machtigingen als een sjabloon in te stellen.
 
    Nadat u toestemmingen op één project hebt bepaald, worden deze zelfde toestemmingen automatisch toegepast de volgende tijd u een project van kras creeert.
 
@@ -167,7 +167,7 @@ U moet het volgende hebben om objecten te delen:
 
 ## Een document, portfolio of programma delen vanaf de pagina
 
-1. Ga naar het object dat u wilt delen.
+1. Ga naar de document-, portfolio- of programmapagina die u wilt delen.
 
    Voor informatie over welke objecten kunnen worden gedeeld, raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 

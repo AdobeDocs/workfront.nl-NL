@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,15 @@ Objecten in Workfront (en dus in het datumpeer) worden niet alleen gedefinieerd 
 >[!IMPORTANT]
 >
 >Het diagram van de entiteitverhouding is een werk lopend-als dusdanig, is het slechts voor verwijzingsdoeleinden en is onderhevig aan verandering.
+
+## Datumtypen
+
+Er zijn een aantal datumobjecten die informatie bevatten over wanneer specifieke gebeurtenissen plaatsvinden.
+
+* `DL_LOAD_TIMESTAMP`: Deze datum wordt gebruikt voor interne referentie en geeft aan wanneer de gegevens zijn geladen in de tabel Huidige, Gebeurtenis of Dagelijkse historie. Deze datum mag niet worden gebruikt voor gegevensanalyse en zal worden verwijderd tijdens de bètafase van het Workfront data Lake.
+* `CALENDAR_DATE`: Deze datum is alleen aanwezig in de tabel Dagelijkse historie. In deze tabel wordt een overzicht gegeven van hoe de gegevens eruit zien bij 11:59 UTC voor elke datum die is opgegeven in `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de tabellen Gebeurtenis als Dagelijkse historie en legt exact vast wanneer een record is gewijzigd _tot_ De waarde in de huidige rij.
+* `END_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de tabellen Gebeurtenis als Dagelijkse historie en legt exact vast wanneer een record is gewijzigd _van_ de waarde in de huidige rij naar een waarde in een andere rij. Om tussen vragen toe te staan op `BEGIN_EFFECTIVE_TIMESTAMP` en `END_EFFECTIVE_TIMESTAMP` Deze waarde is nooit null, zelfs niet als er geen nieuwe waarde is. Als een record nog geldig is (de waarde is dus niet gewijzigd), `END_EFFECTIVE_TIMESTAMP` heeft een waarde van 2300-01-01.
 
 ## Terminologie tabel
 

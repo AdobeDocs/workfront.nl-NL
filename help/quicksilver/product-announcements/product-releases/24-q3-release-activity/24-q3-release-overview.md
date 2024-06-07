@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
->| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (20 juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
 >
 >Zie voor meer informatie over het snelle releaseproces [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen op het gebied van financieel beheer](#financial-management-enhancements)
 * [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
-<!--
-### Administrator enhancements
+### Beheerdersverbeteringen
 
 <table>
             <col style="width: 50%;" />
@@ -48,37 +48,83 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Functie</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Releasedatums</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Objecten verplaatsen tussen Workfront-omgevingen met behulp van milieubescherming</a></p>
+                        <p>Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Workfront-omgeving naar de andere, zoals van een sandboxomgeving naar een productieomgeving. U kunt voorwerpen vormen en testen zonder enig risico voor de gegevens en de verslagen van uw organisatie. U kunt die voorwerpen aan productie dan bewegen zonder het moeten hen aanpassen, besparend tijd en inspanning.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.6 (20 juni 2024)</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Aangepaste formulieren en aangepaste velden delen in de aangepaste formulierontwerper</a></p>
+                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        <p>U kunt nu zowel aangepaste formulieren als aangepaste velden delen in de nieuwe formulierontwerper. Hierdoor kan er beter worden samengewerkt tussen gebruikers op aangepaste formulieren.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Een nieuw aangepast veld toevoegen vanuit het gebied Velden</a></p>
+                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        <p>U kunt nu een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder dat u een aangepast formulier hoeft te openen om het veld te maken. Zo kunt u snel opnieuw bruikbare aangepaste velden maken.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.6 release (20 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Meerdere keuzelijsttypen beschikbaar in de formulierontwerper</a></p>
+                        [!BADGE in productie ]{type=Informative}
+                        <p>We hebben het veld Multi-Select Dropdown toegevoegd aan de aangepaste formulierontwerper om het eenvoudiger te maken vervolgkeuzelijsten te definiëren. Met dit veldtype kunnen gebruikers meerdere opties in een vervolgkeuzelijst kiezen.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 4 juni 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productie voor alle afnemers: 4 juni 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Verbeteringen op het gebied van financieel beheer
 
@@ -141,7 +187,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">De taak bewerken en Vastlegdatum en Voorwaarde opgeven in de koptekst- of detailsectie</a></p>
-                        <p><span style="color: #ff0000;"> Nieuw in Voorvertoning.</span></p>
                         <p>Om het voor u gemakkelijker te maken om taken en kwesties bij te werken, hebben wij nu de gebieden van de Datum en van de Voorwaarde van de Vastlegging toegevoegd als opties om aan taak toe te voegen en kopballen en de sectie van Details in een lay-outmalplaatje uit te geven. Gebruikers kunnen deze velden nu bijwerken vanuit de koptekst- of detailsectie van een pagina wanneer ze zijn toegewezen aan de gewijzigde lay-outsjabloon.   </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -201,6 +246,45 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
            </tbody>
         </table>
 
+### Verbeteringen voor hulpbronnenbeheer
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tijd uit nu weerspiegeld in de werklastbalans</a></p>
+                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        <p>Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan een taak tijd weg heeft gepland, wijst de Balancer van de Werkbelasting nu uren aan zowel de primaire als secundaire gebruikers opnieuw toe wanneer de projectchronologie wordt herberekend.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.6 release (20 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Andere verbeteringen
 
 <table>
@@ -215,6 +299,26 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De knop Help is verwijderd uit de hoofdnavigatiebalk</a></p>
+                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        <p>Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met 24.6 release (20 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
