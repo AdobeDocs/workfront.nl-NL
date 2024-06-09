@@ -105,14 +105,14 @@ A [!DNL Microsoft Word] sjabloon is een normaal [!DNL Microsoft Word] document (
 Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de naam [!UICONTROL Key] veldwaarde, die binnen dubbele accolades wordt geplaatst, bijvoorbeeld
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 .
 
 **Voorbeeld:** Als u een document wilt maken met de tekst &quot;Hi, Petr!&quot;, kunt u een [!DNL Microsoft Word Template] om de volgende sjabloon te maken:
 
-<pre>&gt; Hallo {{name}}!</pre>
+<pre>&gt; Hallo &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
 
 Hiervoor stelt u de module als volgt in:
 
@@ -123,7 +123,7 @@ Hiervoor stelt u de module als volgt in:
 U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet worden gerenderd als aan bepaalde voorwaarden is voldaan. Als u de tekst wilt laten omlopen, plaatst u deze tussen openingstag en afsluitingstag, bijvoorbeeld &quot;hasPhone&quot; als de voorwaarde is of de gegevens al dan niet een telefoonnummer bevatten. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /, zoals in het onderstaande voorbeeld wordt getoond.
 
 **Voorbeeld:** Als u een document wilt maken dat een telefoonnummer van de klant bevat als de invoergegevens een telefoonnummer maar geen e-mailadres bevatten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
-<pre>&gt; {{#hasPhone}_Telefoon: {{phone}} {{/hasPhone}</pre><pre>&gt; {{#hasEmail}_E-mail: {{email}} {{/hasEmail}}</pre>Hiervoor stelt u de module als volgt in:
+<pre>&gt; &lbrace;&lbrace;#hasPhone}_Telefoon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone}</pre><pre>&gt; &lbrace;&lbrace;#hasEmail}_E-mail: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Hiervoor stelt u de module als volgt in:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -141,7 +141,7 @@ U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. 
 
 **Voorbeeld:** Als u een document wilt maken met de naam en het telefoonnummer van elk contact in een lijst met klanten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
 
 Hiervoor stelt u de module als volgt in:
 
