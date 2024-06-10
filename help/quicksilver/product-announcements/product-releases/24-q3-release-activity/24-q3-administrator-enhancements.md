@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Wor
 Eerder moesten objecten afzonderlijk van sandbox- of voorvertoningsomgevingen worden geconfigureerd in productieomgevingen.
 
 Meer informatie en instructies voor milieubevordering zullen beschikbaar zijn wanneer de bevordering van het milieu met de 24.6 versie leeft.
+
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Aangepaste formulieren en aangepaste velden delen in de aangepaste formulierontwerper
 
