@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 >[!NOTE]
 >
->De bevordering van het milieu zal in zandbak, voorproef, en productiemilieu&#39;s met de 24.6 versie (20 juni 2024) beschikbaar zijn.
+>De bevordering van het milieu zal in zandbak, voorproef, en productiemilieu&#39;s met de 24.6 versie (13 juni 2024) beschikbaar zijn.
 
 Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Workfront-omgeving naar de andere, zoals van een sandboxomgeving naar een productieomgeving. U kunt voorwerpen vormen en testen zonder enig risico voor de gegevens en de verslagen van uw organisatie. U kunt die voorwerpen aan productie dan bewegen zonder het moeten hen aanpassen, besparend tijd en inspanning.
 

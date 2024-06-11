@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
->| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (20 juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (13 juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
 >
 >Zie voor meer informatie over het snelle releaseproces [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -64,7 +64,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.6 (20 juni 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.6 (13 juni 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -297,6 +297,24 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties</a></p>
+                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        <p>Om organisaties toegang tot de voordelen van de Adobe Verenigde Ervaring toe te staan, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront. </p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 13 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor opgegeven klanten: met de release van 24.7 (juli 2024)</p>
+                            </li>
+                         </ul>
+                         <span style="color: #ff0000;">De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De knop Help is verwijderd uit de hoofdnavigatiebalk</a></p>
                         [!BADGE Nieuw in Voorproef ]{type=Negative}
                         <p>Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.</p>
@@ -307,7 +325,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met 24.6 release (20 juni 2024)</p>
+                                <p>Productie voor snelle release: met de release van 24.6 (13 juni 2024)</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)</p>

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,36 @@ Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de re
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart de versiecyclus van 2024, zie [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+REEDS BERICHT - NOLAN KAN NEGEREN
+
+## Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties
+
+>[!NOTE]
+>
+>* De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd.
+>* Voorvertoningsrelease: 11 juni 2024; Productieversie voor opgegeven klanten: met de release van 24.7 (juli 2024)
+
+Om organisaties toegang tot de voordelen van de Adobe Verenigde Ervaring toe te staan, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront.
+
+De Adobe Verenigde Ervaring omvat:
+
+* Eén aanmelding voor alle Adobe-toepassingen via Adobe Experience Cloud
+* Een &quot;bedrijfsswitch&quot; om te schakelen tussen Workfront-organisaties en -omgevingen
+* Navigatie met opties voor Workfront-pagina&#39;s, Adobe Experience Cloud-voorkeuren en uw Workfront-profiel
+
+Als uw organisatie zich aan de Adobe Verenigde Ervaring met 24.7 versie beweegt, heeft uw beheerder van Workfront een bericht van het Centrum van de Aankondiging over de verandering ontvangen.
+
+Eerder, was de Adobe Verenigde Ervaring beschikbaar slechts aan nieuwe klanten van Workfront.
+
+Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
 ## De knop Help is verwijderd uit de hoofdnavigatiebalk
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 juni 2024; productie voor snelle release: met de release van 24.6 (20 juni 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 6 juni 2024; productie voor snelle release: met 24,6 release (13 juni 2024); productie voor driemaandelijkse release: met 24,7 release (juli 2024)
 
 Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.
 
