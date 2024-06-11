@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart de versiecyclus van 2024, zie [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-REEDS BERICHT - NOLAN KAN NEGEREN
 
 ## Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties
 
@@ -47,7 +45,7 @@ Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksi
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 juni 2024; productie voor snelle release: met 24,6 release (13 juni 2024); productie voor driemaandelijkse release: met 24,7 release (juli 2024)
+>Voorvertoningsrelease: 6 juni 2024; Productie voor alle klanten: met de release van 24.7 (juli 2024)
 
 Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.
 
