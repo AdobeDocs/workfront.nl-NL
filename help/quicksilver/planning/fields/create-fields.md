@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -382,9 +382,9 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/plann
 
    >[!NOTE]
    >
-   > U kunt geen multiselect-tekstvelden toevoegen aan een formule.
-
-
+   >* U kunt geen multiselect-tekstvelden toevoegen aan een formule.
+   >
+   >* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een formules gebied voor een type van het verslag van de Activiteit creeert, en de Activiteit met het type van het Verslag van het Product wordt verbonden dat met het type van het verslag van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Eigenaar van het Project in de formule verwijzen u voor het type van het verslag van de Activiteit creeert.
 
 1. Klikken **Maken**.
 
