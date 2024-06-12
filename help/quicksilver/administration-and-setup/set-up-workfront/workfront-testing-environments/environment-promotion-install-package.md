@@ -8,13 +8,11 @@ description: Het milieu bevorderend vermogen is bedoeld om de capaciteit te vers
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -29,9 +27,36 @@ U moet een pakket in de omgeving installeren dat u objecten wilt kopiëren **tot
 >
 >Als uw Aangepaste vernieuwingssandbox wordt vernieuwd terwijl u een object configureert voor omgevingsbevordering, gaat die configuratie verloren in de update. We raden u aan uw aangepaste vernieuwingssandbox niet te vernieuwen, tenzij alle uitstekende milieupromotieobjecten en -pakketten met succes zijn bevorderd.
 
+## Toegangsvereisten
+
+U moet het volgende hebben:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Uw organisatie moet zich op het nieuwe prijsmodel bevinden, en een Premier of Ultimate-plan hebben.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenties</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder.
+   </td>
+  </tr>
+</table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Vereisten
 
-U moet een pakket hebben gemaakt voordat u het kunt installeren.
+Er moet een milieubevorderingspakket worden gemaakt voordat het kan worden geïnstalleerd.
 
 Zie voor instructies [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 

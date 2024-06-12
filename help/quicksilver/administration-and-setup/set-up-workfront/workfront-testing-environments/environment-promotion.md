@@ -8,20 +8,18 @@ description: Het vermogen van de Bevordering van het Milieu is bedoeld om de cap
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2103'
 ht-degree: 0%
 
 ---
 
 # Objecten verplaatsen tussen [!DNL Workfront] omgevingen die de [!DNL Workfront] Omgevingspromotie-API
 
-Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. U kunt deze objecten verplaatsen met de Workfront API, zoals beschreven in dit artikel.
+Met de mogelijkheid Omgevingsbevordering kunt u configuratiegerelateerde objecten van de ene omgeving naar de andere verplaatsen. U kunt deze objecten verplaatsen met de Workfront API, zoals beschreven in dit artikel.
 
 Voor instructies over het verplaatsen van objecten tussen omgevingen met de Workfront-toepassing raadpleegt u:
 
@@ -29,7 +27,32 @@ Voor instructies over het verplaatsen van objecten tussen omgevingen met de Work
 * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Toegangsvereisten
+
+U moet het volgende hebben:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Uw organisatie moet zich op het nieuwe prijsmodel bevinden, en een Premier of Ultimate-plan hebben.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenties</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder.
+   </td>
+  </tr>
+</table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 

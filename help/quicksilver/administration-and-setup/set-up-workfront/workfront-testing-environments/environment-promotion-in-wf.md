@@ -8,20 +8,18 @@ description: Het vermogen van de Bevordering van het Milieu is bedoeld om de cap
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
 
 # Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen (milieubevordering)
 
-De mogelijkheid om het milieu te bevorderen, moet de mogelijkheid bieden om objecten van de ene Workfront-omgeving naar de andere te verplaatsen. U kunt bijvoorbeeld een sjabloon maken en deze configureren in de sandboxomgeving, in de wetenschap dat het testen geen invloed heeft op de feitelijke gegevens van uw organisatie. Nadat het malplaatje wordt gevormd en getest, kunt u het naar uw productiemilieu bewegen, klaar om te gebruiken.
+Met de functie voor milieubescherming kunt u objecten van de ene Workfront-omgeving naar de andere verplaatsen. U kunt bijvoorbeeld een sjabloon maken en deze configureren in de sandboxomgeving, in de wetenschap dat het testen geen invloed heeft op de feitelijke gegevens van uw organisatie. Nadat het malplaatje wordt gevormd en getest, kunt u het naar uw productiemilieu bewegen, klaar om te gebruiken.
 
 Dit proces wordt &quot;milieubevordering&quot; genoemd.
 
