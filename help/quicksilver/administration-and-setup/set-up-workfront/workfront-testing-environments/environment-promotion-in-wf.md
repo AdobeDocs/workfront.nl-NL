@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ U kunt dit proces in Workfront uitvoeren door een pakket met objecten te maken d
    * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 * Voor instructies over het uitvoeren van dit proces via de Workfront API raadpleegt u [Objecten verplaatsen tussen [!DNL Workfront] omgevingen die de [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+
+[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Ondersteunde objecten voor milieubescherming
 

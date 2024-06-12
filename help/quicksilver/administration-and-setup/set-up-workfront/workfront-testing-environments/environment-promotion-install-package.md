@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet het volgende hebben:
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
-   <td> Uw organisatie moet zich op het nieuwe prijsmodel bevinden, en een Premier of Ultimate-plan hebben.
+   <td> Premier of Ultimate (alleen nieuwe plannen)
    </td>
   </tr>
   <tr>
