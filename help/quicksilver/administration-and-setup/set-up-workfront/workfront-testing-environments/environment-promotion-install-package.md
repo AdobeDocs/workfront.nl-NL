@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ Zie voor meer informatie over statussen [Status van milieubescherming](/help/qui
 
 ## Botsingdetectie
 
-Er treden botsingen op wanneer een object dat deel uitmaakt van het installatiepakket, dezelfde naam heeft als een object dat al bestaat in de doelomgeving. Wanneer dit voorkomt, kunt u selecteren hoe te om de botsing op te lossen. De botsingen worden opgelost op het objecten niveau.
+Een botsing is een voorwerp dat in het doelmilieu van een installatie wordt gevonden die één van de voorwerpen aanpast die van het bronmilieu worden geïnstalleerd. De botsingen worden ontdekt door de namen en IDs van de bronvoorwerpen met voorwerpen in het doelmilieu te vergelijken. De botsingen worden ook ontdekt door bronvoorwerpen met verslagen van eerder geïnstalleerde voorwerpen te vergelijken.
+
+Wanneer een botsing voorkomt, kunt u selecteren hoe te om de botsing op te lossen. De botsingen worden opgelost op het objecten niveau.
 
 U kunt botsingen bekijken door op drop-down naast elk objecten type te klikken. De botsingen worden getoond in de kolom van de Botsing.
+
+>[!NOTE]
+>
+>De ontdekte botsingen kunnen niet de voorwerpen zijn die u in uw installatie met voeten wilt treden of gebruiken. Wij adviseren het bevestigen van ontdekte botsingen om ervoor te zorgen dat de installatiedoelstellingen correct zijn.
 
 Om een botsing op te lossen, selecteer een actie in de kolom van de Actie van de Plaatsing, of gebruik de standaardactie die reeds wordt getoond.
 
