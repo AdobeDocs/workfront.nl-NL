@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Een aangepast formulier delen
-
-{{highlighted-preview}}
 
 U kunt toegang voor een douaneformulier vormen om te controleren wie-persoon, rol, groep, team, bedrijf-kan bekijken, delen, en het uitgeven.
 
@@ -109,8 +107,6 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
 
 1. Klikken **Opslaan**.
 
-<div class="preview">
-
 ## Een aangepast formulier delen vanuit de formulierontwerper
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
    >Als u zich zorgen maakt over een aangepast formulier waarin gebruikers vertrouwelijke gegevens kunnen invoeren wanneer deze aan bepaalde objecten zijn gekoppeld, beperkt u het delen voor deze objecten *objecten* Het zou beter kunnen zijn dan de toegang tot het formulier zelf te beperken.
 
 1. Klikken **Opslaan**.
-
-</div>
 
 ## Toegang tot een aangepast formulier verwijderen uit de lijst met formulieren
 

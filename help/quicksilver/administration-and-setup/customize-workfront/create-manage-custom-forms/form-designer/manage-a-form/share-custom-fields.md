@@ -7,7 +7,7 @@ description: Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: d80eb802baa6f03ca6e65e542f16b23e9d42444a
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Delen voor aangepaste velden en widgets configureren met de formulierontwerper
-
-{{highlighted-preview-article-level}}
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 
