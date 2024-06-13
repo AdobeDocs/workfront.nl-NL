@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 0%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 0%
       * [Configuratie van opties voor OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [Valutanotatie ophalen voor een project wanneer de valuta null is (niet toegewezen)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [Het gebruik van de API om een gekoppelde map toe te voegen, wordt niet ondersteund](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [Handeling moveToFolder van document werkt niet](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * Algemeen {#general}
