@@ -6,16 +6,20 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Voorwaarde voor bijwerken voor taken en problemen
 
-{{highlighted-preview}}
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+
+<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 De voorwaarde van een taak of een kwestie is een vlag die op het wordt geplaatst om erop te wijzen hoe het gaat. Dit is anders dan de status van het werkitem, die de huidige fase van de ontwikkeling van het item aangeeft.
 
@@ -136,7 +140,7 @@ Voer een van de volgende handelingen uit om de voorwaarde van een taak of uitgav
 
 1. U kunt als volgt de voorwaarde van een taak of uitgave bijwerken in de sectie Details van taak of uitgave:
 
-   1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder het veld Voorwaarde heeft toegevoegd aan de sectie Details van een taak of uitgave in uw lay-outsjabloon, klikt u op **Details** in het linkerdeelvenster en klik vervolgens op de knop **Voorwaarde** en selecteer een van de volgende opties:
+   1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder het veld Voorwaarde heeft toegevoegd aan de sectie Details van een taak of uitgave in uw lay-outsjabloon, klikt u op **Details** in het linkerdeelvenster en klik vervolgens op **Taakvoorwaarde** of **Uitgiftevoorwaarde** en selecteer een van de volgende opties:
       * Vloeiend
       * Sommige problemen
       * Belangrijkste wegversperringen

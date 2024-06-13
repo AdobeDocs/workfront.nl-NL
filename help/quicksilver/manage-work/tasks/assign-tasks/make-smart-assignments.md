@@ -6,9 +6,9 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
 
 1. Plaats de cursor in het toewijzingsveld en wacht twee seconden.
 
-   <span class="preview">De **Voorgestelde toewijzingen** weergegeven.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Een of meer van de volgende secties met suggesties voor slimme toewijzingen worden weergegeven:
 
-   >[!TIP]
-   >
-   >   De lijstkoptekst wordt weergegeven **Hier volgen enkele aanbevelingen** in plaats van **Voorgestelde toewijzingen** in een lijst met uitgaven.
+   * **Voorgestelde toewijzingen**: wordt weergegeven voor taken.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   De lijstkoptekst wordt weergegeven **Hier volgen enkele aanbevelingen** in plaats van **Voorgestelde toewijzingen** in de productieomgeving.
+     >
+   * **Overige toewijzingen**: Hier worden taken en problemen weergegeven.
+   * **Gebruikers en teams**: Hier worden taken en problemen weergegeven.
+   * **Functies**: Geeft niet voor taken en problemen.
+   </div>
 
-   Voor problemen worden de suggesties voor slimme toewijzingen weergegeven in het dialoogvenster **Voorgestelde toewijzingen** gebied.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
 
    * **Voorgestelde toewijzingen**: Toewijzingen die zijn geïdentificeerd in de eerste fase van de algoritmeberekening van de slimme toewijzing van de taak. <span class="preview">Deze sectie is niet beschikbaar voor problemen.</span>
-   * <span class="preview">**Overige toewijzingen** (of **Gebruikers en teams**, of **Functies**): Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slimme toewijzing van de taak. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Overige toewijzingen**, **Gebruikers en teams**, of **Functies**: Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slim-toewijzing van de taak. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Zie voor meer informatie [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
