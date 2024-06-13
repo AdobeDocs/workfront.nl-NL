@@ -8,7 +8,7 @@ description: De volgende tekenreeksfuncties zijn beschikbaar in het Adobe Workfr
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -56,121 +56,6 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii (text; [remove diacritics])]
-
-Hiermee worden alle niet-ascii-tekens uit een tekstreeks verwijderd.
-
->[!INFO]
->
->**Voorbeelden:**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   Retourneert: [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   Retourneert: [!UICONTROL escrz]
-
-## [!UICONTROL base64 (text)]
-
-Transformeert tekst naar base64.
-
->[!INFO]
->
->**Voorbeeld:**
->
->`base64( workfront )`
->
->Retourneert: d29ya2Zyb250==
-
-## [!UICONTROL capitalize (text)]
-
-Zet het eerste teken in een tekstreeks om in hoofdletters.
-
->[!INFO]
->
->**Voorbeeld:**
->
->`capitalize( workfront )`
->
->Retourneert: [!DNL Workfront]
-
-## contains (text; search string)
-
-Controleert of tekst de zoektekenreeks bevat.
-
->[!INFO]
->
->**Voorbeelden:**
->
->* `contains( Hello World ; Hello )`
->
->   Retourneert: [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   Retourneert: [!UICONTROL false]
-
-## [!UICONTROL decodeURL (text)]
-
-Hiermee worden speciale tekens in een URL gedecodeerd naar tekst.
-
->[!INFO]
->
->**Voorbeeld:**
->`decodeURL( Automate%20your%20workflow )`
->
->Retourneert: [!UICONTROL Automate your workflow]
-
-## [!UICONTROL encodeURL (text)]
-
-Codeert speciale tekens in bepaalde tekst naar een geldig URL-adres.
-
-## [!UICONTROL escapeHTML (text)]
-
-Hiermee kunt u alle HTML-tags in tekst laten knippen.
-
->[!INFO]
->
->**Voorbeeld:**
->
->`escapeHTML( <b>Hello</b> )`
->
-> Retourneert: `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(text)]
-
-Hiermee kunt u alle markeringen voor markeringen in tekst laten knippen.
-
->[!INFO]
->
->**Voorbeeld:**
->
->`escapeMarkdown( # Header )`
->
->Retourneert: `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-Retourneert de positie van de eerste instantie van een opgegeven waarde in een tekenreeks. Deze methode retourneert &#39;-1&#39; als de waarde waarnaar wordt gezocht er niet is. De beginwaarde geeft aan waar in de tekenreeks de zoekopdracht moet beginnen.
-
->[!INFO]
->
->**Voorbeelden:**
->
->* `indexOf( Workfront ; o )`
->
->   Retourneert: 1
->
->* `indexOf( Workfront ; x )`
->
->   Retourneert: -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   Retourneert: 6
-
 ## [!UICONTROL length (text or buffer)]
 
 Retourneert de lengte van de tekstreeks (aantal tekens) of binaire buffer (buffergrootte in bytes).
@@ -195,17 +80,46 @@ Hiermee worden alle alfabetische tekens in een tekstreeks omgezet in kleine lett
 >
 >Retourneert: hello
 
-## [!UICONTROL md5 (text)]
+## [!UICONTROL capitalize (text)]
 
-Berekent de md5 hash van een tekenreeks.
+Zet het eerste teken in een tekstreeks om in hoofdletters.
 
 >[!INFO]
 >
 >**Voorbeeld:**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->Retourneert: `1448bbbeaa7a9b8091d426999f1f666b`
+>Retourneert: [!DNL Workfront]
+
+## [!UICONTROL startcase (text)]
+
+Hiermee zet u de eerste letter van elk woord om in hoofdletters en alle andere letters in kleine letters.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>`startcase( hello WORLD )`
+>
+>Retourneert: [!UICONTROL Hello World]
+
+## [!UICONTROL ascii (text; [remove diacritics])]
+
+Hiermee worden alle niet-ascii-tekens uit een tekstreeks verwijderd.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   Retourneert: [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   Retourneert: [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL replace (text;search string; replacement string)]
 
@@ -251,6 +165,169 @@ De vervangende tekenreeks kan de volgende speciale vervangingspatronen bevatten:
 >Gebruik geen benoemde vastleggroepen, zoals `/ is (?<number>\d+)/` in het vervangingstekenreeksargument. Dit resulteert in een fout.
 
 Zie voor meer informatie over reguliere expressies [Tekstparser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL trim (text)]
+
+Hiermee verwijdert u spaties aan het begin of einde van de tekst.
+
+## [!UICONTROL upper (text)]
+
+Zet alle alfabetische tekens in een tekstreeks om in hoofdletters.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>
+>`upper( Hello )`
+>
+>Retourneert: [!UICONTROL HELLO]
+
+## [!UICONTROL substring (text; start;end)]
+
+Retourneert een gedeelte van een tekstreeks tussen de positie &quot;start&quot; en &quot;end&quot;.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Retourneert: Help
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Retourneert: el
+
+## [!DNL indexOf (string; value; [start])]
+
+Retourneert de positie van de eerste instantie van een opgegeven waarde in een tekenreeks. Deze methode retourneert &#39;-1&#39; als de waarde waarnaar wordt gezocht er niet is. De beginwaarde geeft aan waar in de tekenreeks de zoekopdracht moet beginnen.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   Retourneert: 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   Retourneert: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   Retourneert: 6
+
+## [!UICONTROL toBinary (value)]
+
+Zet om het even welke waarde in binaire gegevens om.
+
+U kunt het coderen als tweede argument ook specificeren om binaire omzettingen van hexuitdraai of base64 op binaire gegevens toe te passen.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>* `toBinary( Workfront )`
+>
+>   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (value)]
+
+Zet een waarde om in een tekenreeks.
+
+## [!UICONTROL encodeURL (text)]
+
+Codeert speciale tekens in bepaalde tekst naar een geldig URL-adres.
+
+## [!UICONTROL decodeURL (text)]
+
+Hiermee worden speciale tekens in een URL gedecodeerd naar tekst.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>Retourneert: [!UICONTROL Automate your workflow]
+
+## [!UICONTROL escapeHTML (text)]
+
+Hiermee kunt u alle HTML-tags in tekst laten knippen.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> Retourneert: `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(text)]
+
+Hiermee kunt u alle markeringen voor markeringen in tekst laten knippen.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>
+>`escapeMarkdown( # Header )`
+>
+>Retourneert: `&#35; Header`
+
+## [!UICONTROL stripHTML (text)]
+
+Hiermee verwijdert u alle HTML-tags uit tekst.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Retourneert: Hello
+
+## contains (text; search string)
+
+Controleert of tekst de zoektekenreeks bevat.
+
+>[!INFO]
+>
+>**Voorbeelden:**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   Retourneert: [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   Retourneert: [!UICONTROL false]
+
+## [!UICONTROL split (text; separator)]
+
+Splitst een tekenreeks in een array van tekenreeksen door de tekenreeks in subtekenreeksen te scheiden.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5 (text)]
+
+Berekent de md5 hash van een tekenreeks.
+
+>[!INFO]
+>
+>**Voorbeeld:**
+>
+>`md5( Workfront )`
+>
+>Retourneert: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1 (text; [encoding]; [key])]
 
@@ -302,89 +379,14 @@ Wanneer u &quot;[!UICONTROL binary]&quot; sleutelcodering, moet een sleutel een 
 >
 >Retourneert: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd11 9b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL split (text; separator)]
+## [!UICONTROL base64 (text)]
 
-Splitst een tekenreeks in een array van tekenreeksen door de tekenreeks in subtekenreeksen te scheiden.
-
->[!INFO]
->
->**Voorbeeld:**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase (text)]
-
-Hiermee zet u de eerste letter van elk woord om in hoofdletters en alle andere letters in kleine letters.
-
->[!INFO]
->
->**Voorbeeld:**
->`startcase( hello WORLD )`
->
->Retourneert: [!UICONTROL Hello World]
-
-## [!UICONTROL stripHTML (text)]
-
-Hiermee verwijdert u alle HTML-tags uit tekst.
+Transformeert tekst naar base64.
 
 >[!INFO]
 >
 >**Voorbeeld:**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->Retourneert: Hello
-
-## [!UICONTROL substring (text; start;end)]
-
-Retourneert een gedeelte van een tekstreeks tussen de positie &quot;start&quot; en &quot;end&quot;.
-
->[!INFO]
->
->**Voorbeelden:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   Retourneert: Help
->
->* `substring( Hello ; 1 ; 3 )`
->
->   Retourneert: el
-
-## [!UICONTROL toBinary (value)]
-
-Zet om het even welke waarde in binaire gegevens om.
-
-U kunt het coderen als tweede argument ook specificeren om binaire omzettingen van hexuitdraai of base64 op binaire gegevens toe te passen.
-
->[!INFO]
->
->**Voorbeelden:**
->
->* `toBinary( Workfront )`
->
->   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   Retourneert: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (value)]
-
-Zet een waarde om in een tekenreeks.
-
-## [!UICONTROL trim (text)]
-
-Hiermee verwijdert u spaties aan het begin of einde van de tekst.
-
-## [!UICONTROL upper (text)]
-
-Zet alle alfabetische tekens in een tekstreeks om in hoofdletters.
-
->[!INFO]
->
->**Voorbeeld:**
->
->`upper( Hello )`
->
->Retourneert: [!UICONTROL HELLO]
+>Retourneert: d29ya2Zyb250==
