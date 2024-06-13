@@ -7,9 +7,9 @@ description: Workfront Fusion heeft de gebruikersinterface bijgewerkt voor gebru
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Workfront Fusion is bijgewerkt voor gebruikers die geen toegang hebben tot Fusio
 
 >[!IMPORTANT]
 >
->De ervaring van de erfenis van Fusion zal op 15 augustus 2024 worden afgekeurd.
+>* De ervaring van de erfenis van Fusion zal op 15 augustus 2024 worden afgekeurd.
+>* Bij het voor het eerst laden kan de nieuwe Fusion-ervaring langzaam (30-60 seconden) worden geladen. Na de eerste keer wordt Fusion sneller geladen.
 
 ## Toegangsvereisten
 
