@@ -3,108 +3,100 @@ title: '''[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 02566b4ab08873fd45afb902ece3fedcecbaa9ee
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workfront] documentatie
 
-Welkom bij de startpagina voor Adobe Workfront-producten en technische documentatie. Adobe Workfront is een werkbeheertoepassing waarmee u de volledige levenscyclus van uw werk op één locatie kunt beheren.
+Welkom bij de startpagina voor Adobe Workfront-producten en technische documentatie. Gebruik de volgende Adobe Workfront-koppelingen, Help-artikelen en aanvullende bronnen voor informatie over het implementeren en effectief gebruiken van Adobe Workfront in uw organisatie.
 
-Gebruik de volgende Adobe Workfront Help-artikelen en aanvullende bronnen voor informatie over het implementeren en effectief gebruiken van Adobe Workfront in uw organisatie.
+## Nieuwe functies
 
-In de volgende secties wordt verwezen naar handige koppelingen in deze handleiding, gerangschikt op doelgroep op basis van standaardfuncties:
+>[!BEGINTABS]
 
-## Beheerders
+>[!TAB Laatste release]
 
-### Aan de slag met Workfront-beheerders
+* [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion-releaseactiviteit](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-Leer meer over de Adobe Workfront-administratie.
+>[!TAB 2024 releases]
 
-Zie [Aan de slag met de Adobe Workfront-administratie](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md).
+* [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+* [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion-releaseactiviteit](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-### Adobe Workfront Fusion
+>[!TAB Betas]
 
-Workfront Fusion maakt naadloos verbinding tussen uw apps en webservices, zodat u zich kunt concentreren op nieuwe taken in plaats van dezelfde taken steeds opnieuw uit te voeren.
+* [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Integratie van Workfront en Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
-Zie [Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion-2.md).
+>[!TAB Bekende problemen]
 
-## Eindgebruikers
-
-### De basisbeginselen voor gebruikers
-
-Ga aan de slag met Workfront door de basisbeginselen onder de knie te krijgen.
-
-Zie [Basisbegrippen voor Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
-
-### Werkbeheer
-
-Leer hoe u Workfront krachtige werkbeheerprocessen en -tools kunt instellen en gebruiken.
-
-Zie [Werk beheren](/help/quicksilver/manage-work/manage-work.md)
+* [Bekende problemen](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
-### Agile in Workfront
+>[!ENDTABS]
 
-Dankzij de flexibele functionaliteit in Workfront kunnen teams kleine, beheerbare hoeveelheden werk op een consistente manier uitvoeren.
 
-Zie [Algemeen overzicht](/help/quicksilver/agile/agile-overview.md).
+## Documentatie verkennen
 
-### Werken met documenten
+<table>
 
-Verbeter uw ervaring door documenten aan uw werkstroom toe te voegen.
+<tr tr style="border: 0;">
+    <td style="text-align: center;"><img src="assets/admin.svg" style="width: 100px; height: 100px;"><p><b>Beheerders</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>Gebruikers</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>Ontwikkelaars</b></p></td>
+  </tr>
+  <tr tr style="border: 0;">
+    <td>
+    <ul>
+    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Aan de slag met Workfront Administration</a></li>
+    <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Aan de slag met Workfront Fusion</li>
+    </ul>
+ </td>
+    <td>
+        <ul>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Aan de slag met Workfront</a></li>
+        <li><a href="/help/quicksilver/manage-work/manage-work.md">Aan de slag met het beheer van het werk</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Aan de slag met rapporten en dashboards</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Aan de slag met de tekstmodus</a></li>
+        </ul>
+    </td>
+    <td><ul>
+        <li><a href="/help/quicksilver/agile/agile-overview.md">Aan de slag met Agile</a></li>
+        <li><a href="/help/quicksilver/documents/documents-overview.md">Aan de slag met documenten</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Aan de slag met de werklastbalans</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Aan de slag met Revisie en goedkeuring</a></li>
+        </ul></td>
+    <td><ul>
+        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API-basisbeginselen</a></li>
+        <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
+        <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront-integratie</a></li>
+        </ul></td>
+  </tr>
+</table>
 
-Zie [Documenten](/help/quicksilver/documents/documents-overview.md).
+## Tips voor het zoeken naar inhoud in Experience League
 
-### Rapportage
+Het zoeken naar documentatie kan efficiënter zijn met een paar strategische benaderingen. Hier volgen enkele tips om u te helpen te vinden wat u effectief nodig hebt:
 
-Gebruik rapporten en dashboards om bestaande informatie in een gemakkelijk te lezen formaat te tonen en het met alle belanghebbenden te delen.
+### De inhoudsopgave en de zoekbalk gebruiken
 
-Zie [Rapporten en dashboards: artikelindex](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+* **Inhoudsopgave**: Begin met de inhoudsopgave om een overzicht van de beschikbare onderwerpen te krijgen en beperk zich tot specifieke onderwerpen door de het uitbreiden secties.
+* **Zoekbalk**: Gebruik de zoekbalk om documentatie te zoeken. Voer specifieke termen in met betrekking tot uw kwestie of onderwerp. In plaats van algemene termen zoals &quot;projectbeheer&quot; gebruikt u &quot;projecttijdlijninstellingen&quot; of &quot;taakafhankelijkheden&quot;.
 
-#### Rapportage tekstmodus
+![](assets/exl-site-nav.png)
 
-Als u niet kunt bepalen hoe te om het rapport tot stand te brengen u in Workfront wenst, zou de oplossing u zoekt kunnen worden gevonden gebruikend de Wijze van de Tekst.
+### Secties voor leren en training verkennen
 
-Zie [Tekstmodusbronnen: artikelindex](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+* **Trainingsmaterialen**: Ga naar de [Workfront-training](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek met trainingsvideo&#39;s en artikelen die zijn ontworpen om u meer inzicht te geven in Workfront-functies en -instellingen. U hebt ook toegang tot betaald trainingsmateriaal op [learning.adobe.com](http://learning.adobe.com/).
+* **Cursussen**: Zoeken [gestructureerde leercursussen](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
 
-### De werklastbalans
+### Antwoorden zoeken in communityforums
 
-Gebruik de werklastbalans als alternatief voor het plannen van bronnen in Workfront.
-
-Zie [De werklastbalans: artikelindex](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
-
-### Adobe Workfront-doelen
-
-Richt uw strategie aan uw werk om groepering te bereiken en succes te bereiken door de Doelstellingen van het Werkfront van de Adobe te gebruiken.
-
-Zie [Adobe Workfront-doelen](/help/quicksilver/workfront-goals/workfront-goals.md).
-
-## Ontwikkelaars
-
-### Basisbeginselen van API
-
-Leer de basisbeginselen van de Workfront API.
-
-Zie [Basisbeginselen van API](/help/quicksilver/wf-api/general/api-basics.md).
-
-### API Explorer
-
-U kunt alle objecten weergeven die beschikbaar zijn via de Adobe Workfront API in de API-verkenner.
-
-Zie de [Workfront API Explorer op developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
-
-### Workfront-integratie
-
-Toegang tot alle toepassingen op één locatie door Workfront te integreren met andere systemen.
-
-Zie [Adobe Workfront-integratie](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
-
-## Workfront-releasegegevens
-
-Meer informatie over nieuwe functies in Workfront!
-
-Zie [Workfront-productreleases](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+* **Vragen stellen**: Als de documentatie uw vraag niet beantwoordt, probeer het posten in [Workfront Community-forums](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) waar andere gebruikers en deskundigen bijstand kunnen bieden.
