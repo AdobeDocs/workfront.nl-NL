@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het derde kwartaal van 2024. Deze verbeteringen zullen naar verwachting in het hele kwartaal beschikbaar komen in de productieomgeving.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het derde kwartaal van 2024 in productie waren) worden geel gemarkeerd.</span>
 
@@ -59,6 +59,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Objecten verplaatsen tussen Workfront-omgevingen met behulp van milieubescherming</a></p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Workfront-omgeving naar de andere, zoals van een sandboxomgeving naar een productieomgeving. U kunt voorwerpen vormen en testen zonder enig risico voor de gegevens en de verslagen van uw organisatie. U kunt die voorwerpen aan productie dan bewegen zonder het moeten hen aanpassen, besparend tijd en inspanning.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -72,7 +73,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Aangepaste formulieren en aangepaste velden delen in de aangepaste formulierontwerper</a></p>
-                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        [!BADGE in productie ]{type=Informative}
                         <p>U kunt nu zowel aangepaste formulieren als aangepaste velden delen in de nieuwe formulierontwerper. Hierdoor kan er beter worden samengewerkt tussen gebruikers op aangepaste formulieren.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -81,7 +82,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: TBD</p>
+                                <p><span class="preview">Productieversie voor alle afnemers: 13 juni</span></p>
                             </li>
                         </ul>
                     </td>
@@ -89,7 +90,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Een nieuw aangepast veld toevoegen vanuit het gebied Velden</a></p>
-                        [!BADGE Nieuw in Voorproef ]{type=Negative}
                         <p>U kunt nu een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder dat u een aangepast formulier hoeft te openen om het veld te maken. Zo kunt u snel opnieuw bruikbare aangepaste velden maken.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -142,7 +142,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Voor projecten en taken beschikbare velden voor aanpasbare en niet-aanpasbare uitgaven</a></p>
-                        <p>[!BADGE in productie ]{type=Informative}</p>
+                        [!BADGE in productie ]{type=Informative}
                         <p>Om u gemakkelijker te helpen uitgaventypes bekijken, zijn de uitgaven in factureerbare en niet factureerbare uitgaven op projecten en taken gescheiden. U kunt de volgende velden toevoegen aan weergaven en rapporten:</p>
                         <ul>
                             <li><p>Geplande aanpasbare kosten</p></li>
@@ -184,7 +184,8 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">De taak bewerken en Vastlegdatum en Voorwaarde opgeven in de koptekst- of detailsectie</a></p>
-                        <p>Om het voor u gemakkelijker te maken om taken en kwesties bij te werken, hebben wij nu de gebieden van de Datum en van de Voorwaarde van de Vastlegging toegevoegd als opties om aan taak toe te voegen en kopballen en de sectie van Details in een lay-outmalplaatje uit te geven. Gebruikers kunnen deze velden nu bijwerken vanuit de koptekst- of detailsectie van een pagina wanneer ze zijn toegewezen aan de gewijzigde lay-outsjabloon.   </p>
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
+                        <p>Om het voor u gemakkelijker te maken om taken en kwesties bij te werken, hebben wij nu de gebieden van de Datum en van de Voorwaarde van de Vastlegging toegevoegd als opties om aan taak toe te voegen en kopballen en de sectie van Details in een lay-outmalplaatje uit te geven. Gebruikers kunnen deze velden nu bijwerken vanuit de koptekst- of detailsectie van een pagina wanneer ze zijn toegewezen aan de gewijzigde lay-outsjabloon.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -262,7 +263,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tijd uit nu weerspiegeld in de werklastbalans</a></p>
-                        [!BADGE Nieuw in Voorproef ]{type=Negative}
                         <p>Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan een taak tijd weg heeft gepland, wijst de Balancer van de Werkbelasting nu uren aan zowel de primaire als secundaire gebruikers opnieuw toe wanneer de projectchronologie wordt herberekend.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -298,7 +298,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties</a></p>
-                        [!BADGE Nieuw in Voorproef ]{type=Negative}
                         <p>Om organisaties toegang tot de voordelen van de Adobe Verenigde Ervaring toe te staan, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront. </p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -316,7 +315,6 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De knop Help is verwijderd uit de hoofdnavigatiebalk</a></p>
-                        [!BADGE Nieuw in Voorproef ]{type=Negative}
                         <p>Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -333,7 +331,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeterde gebruikersinterface voor gebruikers met beperkte toegang tot objecten</a></p>
-                        <p>[!BADGE in productie voor Snelle Versie ]{type=Positive}</p>
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
                         <p>Wanneer een gebruiker geen toegang heeft tot een object, ziet de gebruiker "Geen toegang" op een willekeurige locatie waar de naam van dat object wordt weergegeven in Workfront. Deze verbeterde ervaring geldt ook voor de Workfront API.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>

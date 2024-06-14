@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Wor
 
 Eerder moesten objecten afzonderlijk van sandbox- of voorvertoningsomgevingen worden geconfigureerd in productieomgevingen.
 
-Meer informatie en instructies voor milieubevordering zullen beschikbaar zijn wanneer de bevordering van het milieu met de 24.6 versie leeft.
+Zie voor meer informatie over milieubescherming [Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen (milieubevordering)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>Milieubevordering is alleen beschikbaar voor organisaties met betrekking tot de nieuwe Premier- of Ultimate-plannen.
+>
 
 ## Aangepaste formulieren en aangepaste velden delen in de aangepaste formulierontwerper
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 juni 2024; Productieversie voor alle klanten: TBD
+>Voorvertoningsrelease: 6 juni 2024; Productieversie voor alle klanten: 13 juni
 
 U kunt nu zowel aangepaste formulieren als aangepaste velden delen in de nieuwe formulierontwerper. Hierdoor kan er beter worden samengewerkt tussen gebruikers op aangepaste formulieren.
 
