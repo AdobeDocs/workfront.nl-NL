@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2690'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ U kunt opstelling een Rij van het Verzoek waar de gebruikers occasionele verzoek
 In dit artikel wordt beschreven hoe u een aanvraagwachtrij kunt maken waarin gebruikers aanvragen kunnen indienen. Voor informatie over hoe te om een nieuw verzoek aan een verzoekrij voor te leggen, zie [Verzoeken kopiëren en verzenden](../create-requests/copy-and-submit-requests.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,9 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder als u wilt weten welk plan, licentietype of toegang u hebt
+&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 
 <!--old access levels: 

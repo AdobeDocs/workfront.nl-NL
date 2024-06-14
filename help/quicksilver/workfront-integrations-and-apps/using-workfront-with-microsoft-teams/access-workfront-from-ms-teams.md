@@ -6,9 +6,9 @@ description: U hebt toegang tot [!DNL Adobe Workfront] van [!DNL Microsoft Teams
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ De opdrachten die u gebruikt van [!DNL Microsoft Teams] om deze handelingen uit 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 *Neem contact op met uw [!DNL Workfront] beheerder.
 
 *Raadpleeg voor meer informatie over Workfront-toegangsvereisten [Overzicht van toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

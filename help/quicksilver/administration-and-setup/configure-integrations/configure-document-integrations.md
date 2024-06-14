@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Als [!DNL Adobe Workfront] beheerder, kunt u documentintegratie vormen om docume
 >Openbare communicatie tussen [!DNL Workfront Proof] en de [!DNL Workfront] servers, zou u bepaalde IP adressen aan uw lijst van gewenste personen kunnen moeten toevoegen. Zie voor meer informatie [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ondersteunde integratie
 

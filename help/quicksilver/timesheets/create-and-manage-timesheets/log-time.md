@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '3572'
+source-wordcount: '3583'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ U kunt de tijd voor het werk in Adobe Workfront registreren om op het aantal ure
 Voor meer informatie over het type uren dat u kunt aanmelden in Workfront, raadpleegt u [Uurtypen beheren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en de Specifieke uren van het Project te registreren:
 
@@ -67,6 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Overwegingen bij het aanmelden in Workfront
 

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Wanneer u de URL voor afmelden met ADFS (https://myadfsserver.domain.net/adfs/ls
 Als het probleem zich blijft voordoen, neemt u contact op met de beheerder van deze site en geeft u het volgende referentienummer om het probleem te identificeren: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -58,6 +60,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Oplossing
 

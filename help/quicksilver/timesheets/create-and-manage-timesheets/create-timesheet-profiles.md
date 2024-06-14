@@ -6,9 +6,9 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbla
 Voor meer informatie over het manueel creëren van een timesheet, zie [Een timesheet voor eenmalig gebruik maken](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een tijdbladprofiel maken of bewerken
 

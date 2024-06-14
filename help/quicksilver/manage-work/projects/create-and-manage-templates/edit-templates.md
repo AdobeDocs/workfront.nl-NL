@@ -6,9 +6,9 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
+source-wordcount: '4721'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 U kunt projectmalplaatjes uitgeven om op veranderingen in projectprocessen en montages te wijzen. Nadat u de veranderingen op een malplaatje bijwerkt en bewaart, zijn de nieuwe veranderingen zichtbaar in nieuwe projecten wanneer de projecten gebruikend het malplaatje worden gecreeerd. De wijzigingen die u aanbrengt in de sjabloon, weerspiegelen niet het project dat momenteel die sjabloon gebruikt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,6 +59,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een sjabloon bewerken {#edit-a-template}
 

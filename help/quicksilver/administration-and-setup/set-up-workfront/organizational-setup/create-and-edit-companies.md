@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1400'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 Een onderneming is een organisatorische eenheid in [!DNL Adobe Workfront] die uw organisatie, een afdeling binnen de organisatie, of een cliënt kunnen vertegenwoordigen u met werkt. U kunt bedrijven toevoegen aan [!DNL Workfront] en gebruiken voor financiële planning, rapporteringsdoeleinden, om toestemmingen rond voorwerpen te bepalen, en informatie vertrouwelijk te houden.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Workfront]:
 
@@ -62,6 +64,8 @@ U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Work
 </table>
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voordelen van het toevoegen van gebruikers aan een bedrijf {#benefits-of-adding-users-to-a-company}
 

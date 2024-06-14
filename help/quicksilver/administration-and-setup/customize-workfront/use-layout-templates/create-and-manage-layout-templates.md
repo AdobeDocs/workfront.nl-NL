@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ De standaard Workfront-indeling van elke gebruiker is afhankelijk van het toegan
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -64,6 +66,8 @@ Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzi
 </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Overwegingen bij het maken en beheren van lay-outsjablonen
 

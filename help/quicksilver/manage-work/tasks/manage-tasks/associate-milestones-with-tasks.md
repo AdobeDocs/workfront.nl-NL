@@ -6,9 +6,9 @@ description: U kunt mijlpalen met taken associëren om erop te wijzen wanneer u 
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt mijlpalen met taken associëren om erop te wijzen wanneer u belangrijke stappen in het leven van het project bereikt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +50,9 @@ Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende bep
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Vereisten
 

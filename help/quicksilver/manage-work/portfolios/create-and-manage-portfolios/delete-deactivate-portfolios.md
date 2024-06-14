@@ -6,9 +6,9 @@ description: Portfolio's zijn verzamelingen van projecten of programma's in Adob
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Portfolio&#39;s zijn collecties van projecten of programma&#39;s in [!DNL Adobe 
 Wij adviseren deactivering van een portefeuille die niet meer met toekomstige projecten moet worden geassocieerd in plaats van het te schrappen, om de historische informatie over de projecten te houden die momenteel met de portefeuille en zijn programma&#39;s worden geassocieerd.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van het verwijderen en deactiveren van portfolio&#39;s
 

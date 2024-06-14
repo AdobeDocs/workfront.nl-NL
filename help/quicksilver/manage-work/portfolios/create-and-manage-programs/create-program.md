@@ -6,9 +6,9 @@ description: Een programma vertegenwoordigt een inzameling van projecten die een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden. Programma&#39;s kunnen niet buiten een portfolio bestaan.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -49,6 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Een programma maken
 

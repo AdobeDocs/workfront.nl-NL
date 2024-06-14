@@ -6,9 +6,9 @@ description: U kunt dashboards tot stand brengen om tot informatie in Adobe Work
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ U kunt dashboards tot stand brengen om tot informatie in Adobe Workfront snel to
 Ga voor meer informatie over dashboards naar [Aan de slag met dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -53,6 +55,8 @@ U moet het volgende hebben:
 </table>
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

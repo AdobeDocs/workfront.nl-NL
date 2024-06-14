@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Verpletterend regelcontrole wat Adobe Workfront met kwesties doet wanneer zij aa
 Het verpletteren van regels verzendt kwesties naar specifieke gebruikers of baanrollen het best uitgerust om de voorgelegde kwestie of het verzoek op te lossen. Het verpletteren van regels wordt gewoonlijk geassocieerd met rijonderwerpen, die worden gebruikt om te controleren welke verpletterende regel op de kwestie of het verzoek zal worden toegepast.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <!--drafted - replace the table at P&P:
 
@@ -84,6 +86,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creeer een Verpletterende Regel
 

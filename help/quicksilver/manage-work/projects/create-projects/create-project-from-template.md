@@ -6,9 +6,9 @@ description: U kunt sjablonen als een framework gebruiken om projecten te maken 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ U hebt de volgende opties voor het maken van een project op basis van een sjablo
 * Een project maken van een sjabloon in het gebied Groepen
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <!--drafted for P&P:
 
@@ -102,6 +104,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creeer een project van een malplaatje in het gebied van Projecten
 

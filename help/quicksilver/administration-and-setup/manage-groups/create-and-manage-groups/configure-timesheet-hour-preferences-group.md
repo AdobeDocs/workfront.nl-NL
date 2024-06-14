@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 keywords: groep,voorkeuren,taak,groepen,uitgave,ontgrendelen
 navigation-topic: create-and-manage-groups
 title: Voorkeuren voor tijdschriften en uren voor een groep configureren
-description: Op systeemniveau, kan een beheerder van Adobe Workfront de timesheet en de sectie van de uurvoorkeur Algemene Voorkeur ontgrendelen en pre-bevolkt timesheets met. Dit staat groepsbeheerders toe om de opties in die secties onafhankelijk voor hun eigen groepen te vormen.
+description: Op systeemniveau, kan een beheerder van Adobe Workfront de timesheet en de sectie van de uurvoorkeur Algemene Voorkeur ontgrendelen en pre-bevolkt timesheets met. Hierdoor kunnen groepsbeheerders de opties in die secties onafhankelijk voor hun eigen groepen configureren.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,11 @@ Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoo
 
 >[!TIP]
 >
->Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren en voor taak- en uitgiftevoorkeuren. Zie voor meer informatie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren en voor taak- en uitgavenvoorkeuren. Zie voor meer informatie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,6 +59,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
 
++++
+
 ## Groeptimesheet en voorkeuren voor uren
 
 Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet of uurvoorkeur voor een groep:
@@ -65,7 +69,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
 * Een niet-vergrendelde voorkeur blijft meestal voor onbepaalde tijd ontgrendeld. Als de beheerder van Workfront het opnieuw sluit, wordt het systeem opnieuw plaatsend dat en de montages voor de voorkeur door de groepsbeheerders wordt gemaakt worden verloren.
 * Een timesheet erft timesheet en de uurvoorkeur die voor de Groep van het Huis van de timesheet wordt gevormd.
 
-   <!--
+  <!--
   Add example here?
   -->
 
@@ -101,7 +105,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
        <li>Om het even welke projecten, taken, en kwesties waar zij toegang tot logboektijd, ongeacht de groep van het project hebben</li> 
        <li>Hun tijdschema's als Algemene Tijd</li>
        </ul> 
-       <p>Dit is nuttig wanneer de gebruikers van plan zijn weg van het bureau te zijn en die tijd willen vooraf registreren.</p> 
+       <p>Dit is nuttig wanneer de gebruikers van plan zijn om vanaf het bureau weg te zijn en die tijd willen vooraf registreren.</p> 
        <p><b>OPMERKING</b>: U kunt niet voorkomen dat gebruikers zich aanmelden bij taken of problemen die zijn gesloten of geannuleerd. U kunt gebruikers slechts verhinderen om tijd op volledige of dode projecten te registreren. Wij adviseren dat u filters in lijsten van taken en kwesties gebruikt om degenen uit te sluiten die zijn voltooid of geannuleerd zichtbaar aan gebruikers zijn.</p> </td> 
      </tr> 
      <tr> 
@@ -146,10 +150,10 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
      </tr>
      <tr>
       <td role="rowheader">De tijd van het logboek op projecten die volledig zijn</td>
-      <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat ze in de status Voltooid hebben voltooid.</td>
+      <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat zij in de status Voltooid hebben voltooid voor projecten.</td>
      </tr>
      <tr>
-      <td role="rowheader">De tijd van het programma van het programma op projecten die dood zijn</td> 
+      <td role="rowheader">De tijd van het programma van de logboeken op projecten die dood zijn</td> 
       <td>Wanneer deze optie wordt toegelaten, kunnen de gebruikers uren op projecten met een Dode status registreren.</td>
      </tr>
     </tbody>

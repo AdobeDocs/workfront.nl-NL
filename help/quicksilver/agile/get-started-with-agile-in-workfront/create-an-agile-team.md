@@ -6,9 +6,9 @@ description: Met Adobe Workfront kunnen mobiele teams hun werk op een incremente
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Om het even welke gebruiker in de organisatie kan het agile team zien en alle ag
 * **[!UICONTROL Kanban]:** Teams verplaatsen het werk in de Kanban-weergave naar een vooraf bepaalde status. De standaardstatussen zijn: achterstand, in-proces, en gedaan. Voor meer gedetailleerde informatie over het beheren van een Kanban-team raadpleegt u [Kanban in een team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,7 +53,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met uw [!DNL Workfront] beheerder.
+
++++
 
 ## Beslissen over een flexibele methode
 

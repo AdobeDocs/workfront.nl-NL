@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 96f1d50024605328713ca2019f3b726e27dc569c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 De volgende secties beschrijven hoe te om uw meta-gegevens van de Prijsverhoging van de Bevestiging van de Veiligheid (SAML) 2.0 bij te werken wanneer het gebruiken van de Actieve Diensten van de Federatie van de Folder (ADFS) als uw identiteitsleverancier.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -39,10 +41,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ADFS gebruiken als uw identiteitsprovider
 
@@ -55,10 +59,10 @@ U kunt uw ADFS-metagegevens bijwerken voordat of nadat Adobe Workfront het SAML 
 
 Voer de stappen in deze sectie uit als u de ADFS-metagegevens automatisch wilt bijwerken.
 
-ADFS is standaard geconfigureerd om automatisch te controleren op updates van alle vertrouwensmetagegevens van de vertrouwde partij; de standaard is echter ingesteld op een opiniepeiling om de 24 uur . U kunt deze waarde wijzigen met powershell-opdrachten.
+Door gebrek, wordt ADFS gevormd om updates aan elk van zijn het vertrouwen van de partij meta-gegevens automatisch te controleren; nochtans, wordt het gebrek geplaatst aan opiniepeiling slechts om de 24 uur. U kunt deze waarde wijzigen met powershell-opdrachten.
 
-1. Meld u aan bij de ADFS-server en open de ADFS Management Console.
-1. Vouw in het deelvenster aan de linkerkant de selectie uit **ADFS 2.0** vervolgens uitvouwen **Betrouwbaarheidsrelaties.**
+1. Meld u aan bij de ADFS-server en open de ADFS-beheerconsole.
+1. Vouw in het deelvenster aan de linkerkant de selectie uit **ADFS 2.0** vervolgens uitbreiden **Betrouwbaarheidsrelaties.**
 
 1. Klik op de knop **Vertrouwden op een partij** map.
 1. Selecteer het vertrouwen van de betrouwbare partij dat u eerder om met Workfront vormde te worden gebruikt, dan in het juiste paneel, klik **Bijwerken van metagegevens van Federatie**.
@@ -71,7 +75,7 @@ ADFS is standaard geconfigureerd om automatisch te controleren op updates van al
    1. Klikken **Instellingen bewerken.**
    1. Klikken **Configuratie bewerken** selecteert u vervolgens **SAML 2.0** in de **Type** vervolgkeuzelijst.
 
-   1. Kopieer de **URL metagegevens**, die op het volgende moet lijken:
+   1. De **URL metagegevens**, die op het volgende moet lijken:
 
       `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
@@ -81,7 +85,7 @@ ADFS is standaard geconfigureerd om automatisch te controleren op updates van al
    1. Controleer de opties om **Hoofdkantoor** en **Opnieuw vertrouwde partij automatisch bijwerken**.
 
    1. Klikken **OK.**
-   1. Selecteer het vertrouwen van de betrouwbare partij die u eerder om met Workfront vormde te worden gebruikt; klikt u vervolgens in het rechterdeelvenster op **Bijwerken vanuit federatiemetagegevens.**
+   1. Selecteer het vertrouwen van de betrouwbare partij die u eerder om met Workfront vormde te worden gebruikt; dan, in het juiste paneel, klik **Bijwerken vanuit federatiemetagegevens.**
 
 1. Klikken **OK** om het bericht te negeren dat een deel van de inhoud in de metagegevens van de federatie niet wordt ondersteund door ADFS 2.0.
 1. Openen **Windows PowerShell-modules.**
@@ -97,9 +101,9 @@ ADFS is standaard geconfigureerd om automatisch te controleren op updates van al
 
    `Set-ADFSProperties -MonitoringInterval 1`
 
-   Dit verandert het controleinterval van om de 24 uur in elke minuut. U kunt de waarde 1 wijzigen in een andere hogere waarde als u wilt dat deze minder vaak wordt opiniepeild.
+   Dit verandert het controleinterval van om de 24 uur in elke minuut. U kunt de waarde 1 wijzigen in een andere hogere waarde als u wilt dat deze minder vaak wordt opgevraagd.
 
-1. Om te controleren dat dit correct werkt, gebruik **Gebeurtenisviewer** om de volgende informatie in de logboeken van ADFS2.0 te zoeken:
+1. Om te controleren dat dit correct werkt, gebruik **Event Viewer** om de volgende informatie in de logboeken van ADFS2.0 te zoeken:
 
    **Gebeurtenis ID 156 en 157**
 
@@ -125,21 +129,21 @@ Om meta-gegevens te dwingen die tussen Workfront en uw leverancier SAML 2.0 word
 
    1. In Workfront, in het gebied van de Opstelling, kopieer **URL metagegevens** vanuit het Workfront-scherm Single Sign-On (Single Sign On).
 
-      Om toegang te krijgen tot de informatie voor de **URL metagegevens**:
+      Om tot de informatie voor de **URL metagegevens**:
 
       1. Klikken **Instellen** in de rechterbovenhoek van Adobe Workfront op de algemene navigatiebalk.
       1. Klik > **Systeem** > **Single Sign On (SSO)**.
       1. Klikken **Instellingen bewerken.**
       1. Klikken **Configuratie bewerken** selecteert u vervolgens **SAML 2.0** in de **Type** vervolgkeuzelijst.
-      1. Kopieer de **URL metagegevens**, die op het volgende moet lijken:
+      1. De **URL metagegevens**, die op het volgende moet lijken:
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
+
    1. Voor de server ADFS, klik op het vertrouwen van de afhankelijke partij die u eerder vormde met de rechtermuisknop aan, dan klik **Eigenschappen.**
    1. Klik op de knop **Toezicht** plakken, plakt u vervolgens de URL die u uit Workfront hebt gekopieerd in de **URL van metagegevens van de federatie van de partij** veld.
    1. Controleer de opties om **Hoofdkantoor** en **Opnieuw vertrouwde partij automatisch bijwerken**.
    1. Klikken **OK**.
    1. Selecteer het vertrouwen van de betrouwbare partij dat u eerder om met Workfront vormde te worden gebruikt, dan in het juiste paneel, klik **Bijwerken vanuit federatiemetagegevens.**
-
 
 1. Klikken **OK** om het bericht te negeren dat een deel van de inhoud in de metagegevens van de federatie niet wordt ondersteund door ADFS 2.0.
 1. Klikken **Bijwerken** om het bijwerken van de metagegevens van uw federatie te voltooien.

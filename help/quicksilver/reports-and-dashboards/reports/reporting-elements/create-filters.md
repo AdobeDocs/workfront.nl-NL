@@ -6,9 +6,9 @@ description: U kunt de hoeveelheid informatie beperken die u op het scherm weerg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ U kunt de volgende typen filters toepassen in Adobe Workfront:
   Voor een lijst met alle filters in Workfront en de gebieden waarop u deze kunt toepassen, raadpleegt u [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -80,7 +82,9 @@ of
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Typen filteropbouwinterfaces
 

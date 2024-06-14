@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ De Onderwerpen van de rij werken samen met het Verpletteren van Regels om het in
 Er is geen grens aan het aantal Onderwerpen van de Rij die aan een Groep van het Onderwerp of aan een project kunnen worden toegewezen. De Onderwerpen van de rij zijn een te melden objecten type.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <!--drafted - replace table with P&P:
 
@@ -81,6 +83,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een onderwerp in de wachtrij maken
 

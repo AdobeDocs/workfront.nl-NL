@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for design and video] van de Adobe Mar
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ U kunt [!DNL Adobe Workfront for design and video] van de [!DNL Adobe Marketplac
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -60,7 +62,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met uw [!DNL Workfront] beheerder.
+
++++
 
 ## Vereisten
 
@@ -78,7 +82,7 @@ Als u een [!DNL Adobe Admin Console] beheerder, kunt u [!DNL Adobe Workfront for
 
 U kunt [!DNL Adobe Workfront for design and video] voor uzelf uit de [!DNL Adobe Exchange].
 
-1. Ga naar de [Installatiepagina van Adobe Workfront for Design en Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) op de Adobe Exchange.
+1. Ga naar de [Installatiepagina van Adobe Workfront for Design en Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) over de Adobe Exchange.
 1. Klik in het dialoogvenster dat wordt weergegeven op **Openen [!DNL Adobe Creative Cloud] bureaubladtoepassing**.
 1. Eenmaal [!DNL Adobe Creative Cloud] insteekmodulebeheer wordt geopend, klikt u op **[!UICONTROL Install]**.
 1. Lees de informatie in het dialoogvenster en klik vervolgens op **[!UICONTROL OK]**.
@@ -86,7 +90,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf uit de [!DNL Adobe
 
 1. Ga naar de volgende sectie voor informatie over hoe te openen [!DNL Workfront for design and video].
 
-## Open [!DNL Adobe Workfront for design and video]
+## Openen [!DNL Adobe Workfront for design and video]
 
 1. Open de Creative Cloud plug-in die u wilt gebruiken.
 

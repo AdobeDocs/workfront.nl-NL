@@ -6,9 +6,9 @@ description: Met een basisworkflow kunt u meerdere revisoren een proefdruk laten
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Met een basisworkflow kunt u meerdere revisoren een proefdruk laten maken, maar deze zijn niet in fasen geordend. Alle revisoren die u toevoegt, hebben direct toegang tot de proefdruk nadat u deze hebt gemaakt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,7 +53,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42;Neem contact op met uw Workfront- of Workfront Proof-beheerder om te weten te komen welk plan, welke rol of welk machtigingsprofiel u hebt.
+
++++
 
 ## Een geavanceerde proefdruk maken met een standaardworkflow
 
@@ -298,7 +302,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Aanmelding vereisen - proefdruk kan alleen worden gedeeld met andere gebruikers</td> 
       <td>Als deze optie is uitgeschakeld (standaard), kan iedereen met de URL de proefdruk bekijken. <br>Wanneer deze optie is geselecteerd:
        <ul>
-        <li>Alleen gebruikers met Workfront-proefdrukken kunnen de proefdruk bekijken.</li>
+        <li>Alleen Workfront Proof-gebruikers kunnen de proefdruk bekijken.</li>
         <li>Gebruikers kunnen zich alleen aanmelden bij de proefdruk als ze aan de proefdruk zijn toegevoegd.</li>
         <li>Abonnementen kunnen niet worden ingeschakeld.</li>
        </ul></td> 

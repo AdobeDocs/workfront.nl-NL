@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '7486'
+source-wordcount: '7497'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Wij adv
 Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de status van de Planning is. Voor informatie over het projectteam, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,6 +68,8 @@ Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de statu
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Beperkingen voor het bewerken van projecten
 

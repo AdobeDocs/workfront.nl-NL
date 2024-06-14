@@ -6,9 +6,9 @@ description: U kunt uw werk in [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ U kunt uw werk in [!DNL Experience Manager Assets]&#x200B;:
 >U kunt ook verbinding maken met verschillende [!DNL Experience Manager Assets] repository&#39;s naar één [!UICONTROL Workfront] milieu, of verscheidene [!DNL Workfront] omgevingen naar één [!DNL Experience Manager Assets] opslagplaats voor alle organisatie-id&#39;s. Volg de configuratieinstructies in dit artikel voor elke integratie u opstelling zou willen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -74,6 +76,8 @@ U moet het volgende hebben:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Vereisten

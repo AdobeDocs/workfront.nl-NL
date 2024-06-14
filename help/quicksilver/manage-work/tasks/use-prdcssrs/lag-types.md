@@ -7,9 +7,9 @@ description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorg
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Lag is de hoeveelheid tijd die na de Geplande Voltooiing van een voorganger moet
 De geplande, voorspelde en geschatte datums van de vervolgtaken worden berekend met inachtneming van de vertraging en de geplande, voorspelde en geschatte begindatums (Voltooiing) van de voorgaande taken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <!--drafted - replace table at P&P:
 
@@ -82,6 +84,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lag- en labeltypen aangeven voor taken
 

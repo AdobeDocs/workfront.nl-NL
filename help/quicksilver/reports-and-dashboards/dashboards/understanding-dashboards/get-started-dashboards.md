@@ -7,9 +7,9 @@ description: Het doel van een dashboard is om snel toegang tot informatie te ver
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Het doel van een dashboard is snel toegang tot informatie te verlenen die uit veelvoudige rapporten komt. Eerst, kunt u informatie in rapporten verzamelen en u kunt veelvoudige rapporten op dashboards dan plaatsen om de informatie gemakkelijker te maken om toegang te hebben.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -50,6 +52,8 @@ U moet het volgende hebben:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Objecten die u kunt toevoegen aan een dashboard
 

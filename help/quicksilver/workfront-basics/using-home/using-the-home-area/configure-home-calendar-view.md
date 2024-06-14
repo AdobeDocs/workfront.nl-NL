@@ -6,9 +6,9 @@ description: U kunt de montages van de Kalender van het Huis vormen om met een W
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Ga voor meer informatie over de Home-agenda naar [[!UICONTROL Home Calendar] wee
 In dit artikel wordt beschreven hoe u de instellingen van de agenda van het begin kunt configureren en de startagenda kunt integreren met uw externe Outlook-agenda.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,6 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Neem contact op met uw [!DNL Workfront] beheerder. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Over integratie [!DNL Microsoft Outlook] kalenders
 

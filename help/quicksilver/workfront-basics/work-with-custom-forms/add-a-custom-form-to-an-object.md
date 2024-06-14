@@ -7,9 +7,9 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een
 U kunt een aangepast formulier alleen toevoegen aan de typen objecten waarvoor het formulier is gemaakt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de handelingen uit te voeren die in dit artikel worden beschreven:
 
@@ -68,6 +70,8 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

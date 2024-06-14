@@ -6,9 +6,9 @@ description: Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ In een voorwaardelijk opgemaakte weergave kunt u:
 De veranderingen u in de mening van het rapport aanbrengt worden van kracht slechts op het lusje van Details van het rapport. Deze wijzigingen zijn niet van invloed op de tabbladen Overzicht, Matrix of Diagram van het rapport.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -70,6 +72,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Vereisten
 

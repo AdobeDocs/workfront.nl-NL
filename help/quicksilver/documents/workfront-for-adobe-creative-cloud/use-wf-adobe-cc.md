@@ -6,9 +6,9 @@ description: Met de extensie Workfront kunt u digitale inhoud die u opslaat en m
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '3076'
+source-wordcount: '3087'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ De extensie Workfront wordt ondersteund voor Adobe Creative Cloud 2017 en hoger 
   >We raden u aan de nieuwe [Adobe Workfront voor Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) insteekmodule.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -65,6 +67,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aanmelden bij Workfront Extension vanuit Illustrator of InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 

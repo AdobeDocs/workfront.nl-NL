@@ -6,9 +6,9 @@ description: Een uitgave converteren naar een project in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ U kunt een uitgave in een nieuw project omzetten of u kunt het in een project om
 Wanneer het creëren van een project van een kwestie, bevolken sommige gebieden op het project van andere voorwerpen. Voor meer informatie, zie de &quot;Nieuwe project standaardmontages&quot;sectie in het artikel [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,6 +59,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een uitgave converteren naar een project
 

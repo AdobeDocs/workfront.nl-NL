@@ -6,9 +6,9 @@ description: Met een geautomatiseerde workflow kunt u het controleproces eenvoud
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Zie voor meer informatie over geautomatiseerde workflows [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een geavanceerde proefdruk maken met een geautomatiseerde workflow
 
@@ -181,7 +185,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       <td role="rowheader">Aanmelding vereisen - proefdruk kan alleen worden gedeeld met andere gebruikers</td> 
       <td>Als deze optie is uitgeschakeld (standaard), kan iedereen met de URL de proefdruk bekijken. <br>Wanneer deze optie is geselecteerd:
        <ul>
-        <li>Alleen gebruikers met Workfront-proefdrukken kunnen de proefdruk bekijken.</li>
+        <li>Alleen Workfront Proof-gebruikers kunnen de proefdruk bekijken.</li>
         <li>Gebruikers kunnen zich alleen aanmelden bij de proefdruk als ze aan de proefdruk zijn toegevoegd.</li>
         <li>Abonnementen kunnen niet worden ingeschakeld.</li>
        </ul></td> 

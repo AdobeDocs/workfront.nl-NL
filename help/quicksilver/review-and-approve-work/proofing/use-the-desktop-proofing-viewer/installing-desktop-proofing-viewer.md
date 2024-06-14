@@ -6,9 +6,9 @@ description: De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ Deze toepassing wordt ondersteund door de volgende besturingssystemen:
 * Windows 7 en hoger, 32 en 64 bits
 * Mac OS X 10.9 en hoger, 64-bits
 
+{{latest-version}}
+
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,7 +51,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-{{latest-version}}
++++
+
+
 
 ## De Desktop Proofing Viewer installeren op Mac
 

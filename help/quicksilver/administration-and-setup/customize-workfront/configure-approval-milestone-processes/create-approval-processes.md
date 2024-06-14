@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2174'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ U moet het volgende hebben:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een algemeen goedkeuringsproces op systeemniveau of groepsniveau voor werkitems maken
 

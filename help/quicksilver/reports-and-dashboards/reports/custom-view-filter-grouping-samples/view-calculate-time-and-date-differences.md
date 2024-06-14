@@ -7,9 +7,9 @@ description: Leer tijd- en datumverschillen te berekenen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ U kunt het verschil tussen het volgende berekenen:
 >Deze berekeningen geven het aantal dagen tussen de twee datums aan. Het resultaat wordt in dagen weergegeven. Er wordt ook rekening gehouden met de tijdstempel in het datumveld en het aantal dagen kan worden gevolgd door decimalen als de tijdstempels niet overeenkomen. Als de taak te laat is voltooid, wordt het aantal dagen weergegeven als een negatieve waarde.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -61,6 +63,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Het tijd- en datumverschil berekenen tussen twee datumvelden op hetzelfde object
 

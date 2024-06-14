@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ Documenten die zijn gekoppeld aan een externe cloud, kunt u op dezelfde manier c
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -85,6 +87,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Documentopslag
 

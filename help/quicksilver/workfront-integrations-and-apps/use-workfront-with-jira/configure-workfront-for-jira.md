@@ -6,9 +6,9 @@ description: U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Deze invoegtoepassing is beschikbaar voor de [!UICONTROL Server] en [!UICONTROL 
 Voor een lijst met [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel wordt ondersteund, zie [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) bij de [!DNL Atlassian Marketplace].
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -61,6 +63,8 @@ U moet het volgende hebben:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

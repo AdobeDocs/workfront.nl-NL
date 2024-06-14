@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken oo
 * Door taken van het ene project naar het andere te verplaatsen. Zie voor meer informatie [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,6 +59,8 @@ In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken oo
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Taken maken in een project
 

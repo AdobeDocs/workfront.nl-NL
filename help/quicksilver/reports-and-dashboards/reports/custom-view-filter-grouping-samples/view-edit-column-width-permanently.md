@@ -7,9 +7,9 @@ description: U kunt de breedte van kolommen tijdelijk aanpassen door de marges t
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 261c1b73d785094de4ee8549c856a091920ba04a
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en n
 Als u de breedte van een kolom van een weergave permanent wilt wijzigen, moet u de tekstmodus in de kolom gebruiken wanneer u de weergave bewerkt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De breedte van een kolom permanent bewerken
 

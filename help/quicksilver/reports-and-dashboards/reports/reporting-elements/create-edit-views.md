@@ -6,9 +6,9 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1788'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp va
 In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Zie voor meer informatie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Een weergave maken of aanpassen
 

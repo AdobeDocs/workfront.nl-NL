@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Als beheerder van Adobe Workfront, kunt u het Web van Workfront en mobiele toepa
 Nadat u SAML 2.0 in Workfront hebt gevormd, zoals die in de volgende secties wordt beschreven, kunt u de configuratie handhaven, zoals die in [SAML 2.0-metagegevens bijwerken in uw identiteitsprovider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -56,6 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Verificatie inschakelen voor Workfront met SAML 2.0
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Voor informatie over het toevoegen van een middelenwidget aan een aangepast form
 >In een aangepast formulier met veel aangepaste velden of veel opties voor meerdere selecties in aangepaste velden kunnen gebruikers trager werken wanneer ze waarden toevoegen of wijzigen in die velden. Een formulier met 100 aangepaste velden of meerdere geselecteerde aangepaste velden met meer dan 200 opties kan bijvoorbeeld langzamer zijn wanneer gebruikers ermee werken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -56,6 +58,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een aangepast veld toevoegen aan een aangepast formulier {#add-custom-field-to-custom-form}
 

@@ -6,9 +6,9 @@ description: U kunt een filter in een lijst of rapport uitgeven gebruikend tekst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ U kunt een filter in een lijst of rapport uitgeven gebruikend tekstwijze om tot 
 Zie ook de sectie voor meer voorbeelden in de tekstmodus bij het maken van een filter [Voorbeelden van aangepaste filters](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) in het artikel [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

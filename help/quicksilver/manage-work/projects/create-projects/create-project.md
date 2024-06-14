@@ -6,9 +6,9 @@ description: Een project is een grote eenheid werk in Adobe Workfront. U kunt ge
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,7 @@ Projecten vormen een groot deel van het werk dat in Adobe Workfront moet worden 
 </table>
 
 -->
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -85,6 +86,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Manieren om projecten te maken
 

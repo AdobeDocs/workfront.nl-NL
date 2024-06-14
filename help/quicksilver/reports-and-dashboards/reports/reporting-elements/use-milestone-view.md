@@ -6,9 +6,9 @@ description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Voordat u de milestone-weergave kunt gebruiken, moeten de mijlpalen zijn geconfi
 De mening van de Mijlpaal is beschikbaar wanneer het bekijken van een projectlijst of een projectrapport. De volgende secties beschrijven om de milestone mening te bekijken en te gebruiken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overschakelen naar de milestone-weergave {#switch-to-the-milestone-view}
 

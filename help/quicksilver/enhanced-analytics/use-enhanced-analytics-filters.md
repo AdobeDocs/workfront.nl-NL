@@ -6,9 +6,9 @@ description: Met de filters in het gedeelte Enhanced analytics van Adobe Workfro
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Met de filters in het gedeelte Enhanced analytics van Adobe Workfront kunt u zic
 Desgewenst kunt u filters toevoegen en verwijderen en behoudt Workfront de filters die u toepast, ook als u zich afmeldt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -60,6 +62,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

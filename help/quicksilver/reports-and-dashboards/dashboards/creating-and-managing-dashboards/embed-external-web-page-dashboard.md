@@ -6,9 +6,9 @@ description: U kunt een externe webpagina in een dashboard insluiten om toegang 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,8 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
@@ -79,6 +81,8 @@ U moet het volgende hebben:
 </table>
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 

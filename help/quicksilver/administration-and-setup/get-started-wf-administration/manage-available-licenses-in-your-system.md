@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Als Adobe Workfront-beheerder hebt u toegang tot informatie over uw Workfront-account, waaronder het aantal licenties dat voor uw organisatie is aangeschaft en het aantal licenties dat momenteel in gebruik is.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -64,6 +66,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 >1. Systeembeheerders kunnen Thuisgroepen toevoegen aan de pagina Licenties om het gebruik van licenties in deze groepen weer te geven en kunnen ook licentielimieten instellen.
 >2. Groepbeheerders kunnen toegang krijgen tot de pagina Licenties en het gebruik bekijken van licenties in de groepen die ze beheren en die door systeembeheerders zijn toegevoegd aan de pagina Licenties.
 >3. Groepbeheerders kunnen geen informatie weergeven voor andere startgroepen of maximum&#39;s toevoegen.
+
++++
 
 ## Licenties van uw organisatie bekijken
 

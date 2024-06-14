@@ -6,14 +6,16 @@ description: U maakt een Kanban- of Scrum agile-team in [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
 
 # Configureren [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 U kunt een flexibel team maken in [!DNL Adobe Workfront] zoals beschreven in [Een bestandsteam maken](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Tijdens het creëren van een flexibel team kunt u de methodologie kiezen die het team gebruikt om hun werk te voltooien. U kunt uit de volgende opties kiezen:
 
@@ -33,7 +35,7 @@ Voor informatie over het vormen van een team van het Trommel, zie [Scrum configu
 
 ## Toegangsvereisten
 
-<!--Audited: 12/2023-->
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -64,6 +66,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Neem contact op met uw [!DNL Workfront] beheerder.
+
++++
 
 ## Configureer of artikelen worden geschat in punten of uren
 

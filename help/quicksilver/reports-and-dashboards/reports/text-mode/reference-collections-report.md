@@ -6,9 +6,9 @@ description: Referentieverzamelingen in een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Wanneer u een rapport maakt in Adobe Workfront, kunt u een set objecten, hun res
 Ga voor meer informatie over het samenstellen van een rapport in Workfront naar [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Verzamelingen begrijpen
 
@@ -419,7 +423,7 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
 
    >[!NOTE]
    >
-   Let op: gebruik **kwesties** for the collection object name. De API Explorer biedt momenteel geen naam voor verzamelingsobjecten voor problemen.
+   >Let op: gebruik **kwesties** for the collection object name. De API Explorer biedt momenteel geen naam voor verzamelingsobjecten voor problemen.
 
 1. Klikken **Gereed**.
 1. (Optioneel) Ga door met het bewerken van het rapport.

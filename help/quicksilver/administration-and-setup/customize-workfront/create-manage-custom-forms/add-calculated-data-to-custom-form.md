@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Voor informatie over het maken van aangepaste formulieren voor uw organisatie en
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of configuratie op toegangsniveau u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Een berekend veld toevoegen aan een aangepast formulier {#add-a-calculated-field-to-a-custom-form}

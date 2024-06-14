@@ -6,9 +6,9 @@ description: U kunt het gebruik van uw middelen in het rapport van het Gebruik b
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '7243'
+source-wordcount: '7254'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ U kunt het gebruik van uw middelen in het rapport van het Gebruik bekijken.
 -->
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om tot het rapport van het Gebruik toegang te hebben:
 
@@ -76,6 +78,8 @@ U moet het volgende hebben om tot het rapport van het Gebruik toegang te hebben:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>

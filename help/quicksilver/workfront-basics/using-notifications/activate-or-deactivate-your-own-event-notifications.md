@@ -7,9 +7,9 @@ description: In dit artikel wordt beschreven hoe u uw e-mailmeldingen in uw gebr
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Zie voor meer informatie over e-mailmeldingen [[!DNL Adobe Workfront] meldingen]
 >
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -58,6 +60,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De instellingen voor e-mailmeldingen weergeven en wijzigen
 

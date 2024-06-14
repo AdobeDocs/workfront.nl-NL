@@ -6,9 +6,9 @@ description: Predecessors zijn taken waarvan andere taken afhankelijk zijn voor 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ U kunt de voorgaande relatie afdwingen wanneer u voorgangers voor een project in
 Als een voorganger wordt afgedwongen, kan de opvolgertaak niet worden gestart voordat de voorganger is voltooid. Bijvoorbeeld, het afdwingen van een eind-Begin verhouding tussen Taak A en Taak B betekent dat Taak B niet kan beginnen (de Status moet Nieuw blijven, en Percent moet 0%) blijven tot Taak A zoals voltooid duidelijk is. Het afdwingen van verhoudingen is op alle voorgangstypen van toepassing.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -67,6 +69,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een voorganger op taakniveau afdwingen
 

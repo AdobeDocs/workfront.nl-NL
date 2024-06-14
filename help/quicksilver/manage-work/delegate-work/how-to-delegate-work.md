@@ -6,9 +6,9 @@ description: U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl 
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ U kunt taken delegeren en taken uitgeven, of u kunt goedkeuringen delegeren. In 
 Voor algemene informatie over het delegeren van werk, zie [Overzicht van werkzaamheden delegeren](../../manage-work/delegate-work/delegate-work-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 >[!IMPORTANT]
 >
@@ -79,6 +81,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>

@@ -6,9 +6,9 @@ description: Taken en problemen kunnen worden toegewezen aan een flexibel team e
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Taken of problemen kunnen vanaf elke locatie in het team worden toegewezen aan h
 >Als u veelvoudige teams aan een achterlogpunt toevoegt, toont de taak of de kwestie slechts op de achtergrond van het primaire team. Het primaire team is eerst toegewezen het team.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -56,6 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Artikelen op de achtergrond maken en beheren
 

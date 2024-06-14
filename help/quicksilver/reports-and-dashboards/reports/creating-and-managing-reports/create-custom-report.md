@@ -6,9 +6,9 @@ description: U kunt toegang tot de informatie geven die uw organisatie nodig hee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Voor informatie over het creëren van een rapport door het te kopiëren, zie [Ee
 Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken en beheren van rapporten, waaronder klassen, video&#39;s en zelfstudies.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,6 +59,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Een rapport maken {#create-a-report}
 

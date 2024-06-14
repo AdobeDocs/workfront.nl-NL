@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle proj
 >Deze voorkeuren zijn standaard vergrendeld en groepsbeheerders kunnen deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Zie voor meer informatie [Projectvoorkeuren voor alle groepen in het systeem vergrendelen of ontgrendelen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Projectvoorkeuren configureren voor de gehele organisatie
 

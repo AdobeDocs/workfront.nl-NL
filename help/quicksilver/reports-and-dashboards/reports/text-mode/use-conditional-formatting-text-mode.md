@@ -6,9 +6,9 @@ description: Voorwaardelijke opmaak gebruiken in tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ U kunt voorwaardelijke opmaak toepassen in een weergave met behulp van de standa
 Zie voor meer informatie over het toepassen van voorwaardelijke opmaak op een weergave [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -57,6 +59,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Voorwaardelijke opmaak in tekstmodus

@@ -6,9 +6,9 @@ description: U kunt flexibele functionaliteit voor uw project gebruiken zonder d
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ U kunt flexibele functionaliteit voor uw project gebruiken zonder de administrat
 Als u in een agile milieu wilt werken dat een teamachterstand gebruikt en u toestaat om herhalingen van taken op de backlog tot stand te brengen, volg de instructies in [Werken in een flexibele omgeving](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agile-projecten begrijpen
 

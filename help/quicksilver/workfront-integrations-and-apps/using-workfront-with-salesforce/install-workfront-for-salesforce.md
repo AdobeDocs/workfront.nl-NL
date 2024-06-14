@@ -6,9 +6,9 @@ description: De toepassing installeren voordat deze beschikbaar wordt in het dia
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: e823589247a2231e038142ae8d19f366769060e2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ Voor een algemeen begrip van wat u kunt verwachten door te installeren [!DNL Wor
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de in dit artikel beschreven functionaliteit te kunnen gebruiken:
 
 <table style="table-layout:auto"> 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten voor installatie en gebruik [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 

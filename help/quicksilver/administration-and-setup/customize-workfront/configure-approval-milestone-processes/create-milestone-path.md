@@ -8,9 +8,9 @@ author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 Als beheerder van Adobe Workfront, kunt u milestone wegen tot stand brengen die dan op om het even welk project in het systeem kunnen worden toegepast. De wijzigingen die u aanbrengt in paden met mijlpalen op dit gebied, zijn van invloed op het hele Workfront-systeem.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -41,10 +43,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Mijlpalen en mijlpaden
 
@@ -75,7 +79,7 @@ Voor meer informatie over hoe u een milestone-pad aan een project en een mijlpaa
     </tr>
     <tr>
        <td>Is actief</td>
-      <td>Schakel dit selectievakje in als u het milestone-pad actief wilt maken. Andere gebruikers kunnen deze weg vinden en het aan projecten vastmaken wanneer het creëren van of het uitgeven van projecten. Niet-actieve mijlpaden kunnen niet aan projecten worden gekoppeld. Dit is standaard ingeschakeld.</td>
+      <td>Schakel dit selectievakje in als u het milestone-pad actief wilt maken. Andere gebruikers kunnen dit pad vinden en het aan projecten koppelen wanneer ze projecten maken of bewerken. Niet-actieve mijlpaden kunnen niet aan projecten worden gekoppeld. Dit is standaard ingeschakeld.</td>
     </tr>
     <tr>
       <td>Groepen</td>

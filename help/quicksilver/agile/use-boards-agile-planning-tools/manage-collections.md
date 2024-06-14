@@ -7,9 +7,9 @@ description: Een werkstroom is een configureerbare groep borden en kaarten voor 
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Zie voor meer informatie [De kaartlijst gebruiken](/help/quicksilver/agile/use-b
 Workstreams worden op het dashboard weergegeven, samen met afzonderlijke borden waartoe u toegang hebt en die geen deel uitmaken van een werkstroom. Zie voor meer informatie over het dashboard voor borden [Het dashboard voor tekengebieden gebruiken](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). U kunt op een willekeurige bordnaam op het dashboard klikken om het te openen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Een werkstroom maken
 

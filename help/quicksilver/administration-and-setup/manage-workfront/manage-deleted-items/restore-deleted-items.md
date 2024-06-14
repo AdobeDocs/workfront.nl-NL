@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Een groepsbeheerder kan deze objecten ook herstellen voor een groep die hij of z
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
+
++++
 
 ## Informatie die wordt hersteld wanneer u een project, een taak, of een kwestie herstelt
 

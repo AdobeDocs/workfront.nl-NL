@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Standaard zijn taak- en probleemvoorkeuren vergrendeld en kunnen groepsbeheerder
 
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -54,6 +56,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Configureer taak- en probleemvoorkeuren voor iedereen in de [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">eraan werken</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -114,7 +118,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Bij het converteren van een uitgave naar een taak]</td> 
+    <td role="rowheader" [!UICONTROL>Bij het converteren van een uitgave naar een taak]</td> 
     <td> <p>Met de instellingen in dit gedeelte wordt bepaald wat er gebeurt tijdens het conversieproces van uitgave tot taak:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: Wanneer u de uitgave converteert, blijft deze zichtbaar als een uitgave totdat de taak is voltooid. De status van de uitgave verandert automatisch in [!UICONTROL Closed] als de taak is voltooid. Als deze optie is uitgeschakeld, wordt de uitgave verwijderd.</p> <p><b>OPMERKING</b>:  <p>Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:</p> 

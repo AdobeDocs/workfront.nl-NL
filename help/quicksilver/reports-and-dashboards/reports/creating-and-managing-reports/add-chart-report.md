@@ -6,9 +6,9 @@ description: U kunt uw rapporten verbeteren door een grafiek toe te voegen. U ku
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2768'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Als uw rapport teveel punten toont, wordt een grafiek niet gecreeerd. In dit gev
 Zie voor meer informatie over filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -61,6 +63,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Een diagram toevoegen aan een rapport
 

@@ -6,9 +6,9 @@ description: De [!UICONTROL boards] In het dashboard ziet u de lijst met borden 
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Voor informatie over het maken van een nieuwe board of het bewerken van een best
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Filterborden en werkstromen {#filter-boards}

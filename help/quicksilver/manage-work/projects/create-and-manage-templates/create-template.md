@@ -6,9 +6,9 @@ description: U kunt sjablonen maken en verwijderen vanuit het gebied Sjablonen. 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ U kunt op de volgende manieren een nieuwe sjabloon maken:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ U moet het volgende hebben:
 </table>
 
 Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een sjabloon maken
 

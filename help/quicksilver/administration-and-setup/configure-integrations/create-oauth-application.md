@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Wanneer u een [!UICONTROL OAuth2] toepassing, produceert u een identiteitskaart 
 * Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruikt, zie [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42;Neem contact op met uw [!DNL Workfront] beheerder.
+
++++
 
 ## OAuth2-overzicht
 

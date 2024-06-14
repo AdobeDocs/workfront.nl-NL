@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Instellingen voor e-mailmeldingen configureren in [!DNL Workfront Proof]
-description: Via e-mailberichten die zijn gegenereerd door Workfront Proof worden medewerkers op de hoogte gebracht van recente activiteiten op proefdrukken, zoals opmerkingen, antwoorden of besluiten.
+description: Via e-mailberichten die door Workfront Proof zijn gegenereerd, worden medewerkers op de hoogte gebracht van recente activiteiten op proefdrukken, zoals opmerkingen, antwoorden of besluiten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1860'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 Via e-mailmeldingen worden medewerkers op de hoogte gebracht van recente activiteiten op proefdrukken, zoals opmerkingen, antwoorden of besluiten.
 
 U kunt e-mailmeldingen instellen voor revisoren in de volgende gebieden:
-
-## Toegangsvereisten
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Product</td> 
-   <td>Workfront Proefdruk standalone</td> 
-  </tr> 
-</table>
 
 E-mailmeldingen voor controleurs kunnen worden ingesteld op de pagina Nieuwe proefdruk. [!UICONTROL New version] pagina, en beheerd in [!UICONTROL Workflow] van de [!UICONTROL Proof details] pagina. Zie voor meer informatie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Gebruikers met [!UICONTROL Administrator] of [!UICONTROL Billing Administrator] 
 
 Zie voor informatie over profielen [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Standaardwaarden voor proefdrukken configureren in persoonlijke instellingen ([!DNL Workfront Proof] alleen gebruikers)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [E-mailwaarschuwingen voor een ontvanger wijzigen](#change-email-alerts-for-a-recipient)
-* [Standaardwaarden voor proefdrukken voor een gebruiker configureren](#configure-proof-defaults-for-a-user)
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Proof standalone</td> 
+  </tr> 
+</table>
+
++++
 
 ## Standaardwaarden voor proefdrukken configureren in persoonlijke instellingen ([!DNL Workfront Proof] alleen gebruikers)
 
