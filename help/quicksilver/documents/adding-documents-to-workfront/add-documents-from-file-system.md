@@ -6,9 +6,9 @@ description: U kunt documenten toevoegen aan projecten, taken of problemen in me
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Er gelden geen beperkingen voor de bestandstypen en -grootten die u kunt uploade
 Als u informatie nodig hebt over het uploaden van nieuwe versies van een document naar Workfront, raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -50,15 +52,19 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Documenten toevoegen aan Workfront
 
 U kunt nieuwe documenten vanuit het bestandssysteem op uw werkstation toevoegen aan Workfront. U kunt ook documenten koppelen van toepassingen van derden, zoals Google Drive en SharePoint.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Het uploaden van documenten mag niet groter zijn dan 4 GB.
+>* U kunt maximaal 150 documenten tegelijk uploaden.
+>* De bestandsgrootte is niet beperkt.
+>* Het downloaden van documenten is beperkt tot 4 GB.
 
 Een document toevoegen:
 
