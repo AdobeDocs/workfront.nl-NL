@@ -7,14 +7,16 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Overzicht van slimme toewijzingen
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
 
@@ -122,7 +124,7 @@ Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de 
 
   Bijvoorbeeld, als Rick eerder vandaag aan een gelijkaardige taak werd toegewezen en Jennifer twee dagen geleden aan een gelijkaardige taak werd toegewezen, toont Rick eerst.
 
-* In deze fase geïdentificeerde toewijzingen worden vermeld in de    **Voorgestelde toewijzingen**  in het taakveld.
+* In deze fase geïdentificeerde toewijzingen worden vermeld in de    **Voorgestelde toewijzingen**  in het veld Toewijzingen voor taken.
 
 * Als er geen gelijken gebruikend deze berekening zijn, begint de tweede fase van slimme taken die gebruikend een verschillend algoritme wordt berekend.
 
@@ -132,7 +134,7 @@ Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent 
 
 Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken en problemen](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
 
-In deze fase geïdentificeerde toewijzingen worden vermeld in de   **Overige toewijzingen**, **Gebruikers en teams**, of **Taken toewijzen**  secties in het veld Toewijzingen voor taken.
+In deze fase geïdentificeerde toewijzingen worden vermeld in de **Gebruikers en teams**, **Taken toewijzen**, en **Waarderingskaartrollen**  secties in het veld Toewijzingen. Zie voor meer informatie over tariefkaarten [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criteria voor slimme toewijzingen voor taken en problemen
 

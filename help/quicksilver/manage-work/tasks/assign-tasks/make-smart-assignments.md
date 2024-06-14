@@ -6,14 +6,16 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Slimme toewijzingen maken
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
 
@@ -25,7 +27,7 @@ U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het we
 
 De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst. Workfront baseert zijn suggesties op een algoritme dat de meest aangewezen bron voor de baan bepaalt.
 
-<span class="preview">Er zijn twee aparte algoritmen in Workfront voor taken en problemen. </span>
+<span class="preview">Er zijn twee aparte algoritmen in Workfront die slimme toewijzingen berekenen die verschillend werken voor taken en voor problemen. </span>
 
 Zie voor meer informatie over de criteria die worden gebruikt bij het bepalen van slimme toewijzingen [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
    * Een taak of probleem in het werklastevenwicht
 
-1. Plaats de cursor in het toewijzingsveld en wacht twee seconden.
+1. Plaats de cursor in het veld Toewijzingen en wacht twee seconden.
 
    <div class="preview">
    Een of meer van de volgende secties met suggesties voor slimme toewijzingen worden weergegeven:
 
-   * **Voorgestelde toewijzingen**: wordt weergegeven voor taken.
+   * **Voorgestelde toewijzingen**: wordt weergegeven voor taken. <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   De lijstkoptekst wordt weergegeven **Hier volgen enkele aanbevelingen** in plaats van **Voorgestelde toewijzingen** in de productieomgeving.
      >
-   * **Overige toewijzingen**: Hier worden taken en problemen weergegeven.
    * **Gebruikers en teams**: Hier worden taken en problemen weergegeven.
    * **Functies**: Geeft niet voor taken en problemen.
+   * **Functies voor kaarttaken beoordelen**: wordt weergegeven voor taken. Zie voor meer informatie [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
 
    * **Voorgestelde toewijzingen**: Toewijzingen die zijn geïdentificeerd in de eerste fase van de algoritmeberekening van de slimme toewijzing van de taak. <span class="preview">Deze sectie is niet beschikbaar voor problemen.</span>
-   * <span class="preview">**Overige toewijzingen**, **Gebruikers en teams**, of **Functies**: Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slim-toewijzing van de taak. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Gebruikers en teams**, **Functies**, of **Functies voor kaarttaken beoordelen**: Toewijzingen die zijn geïdentificeerd in de tweede fase van de algoritmeberekening van de slim-toewijzing van de taak. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
