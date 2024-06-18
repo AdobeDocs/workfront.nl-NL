@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -330,17 +330,17 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    Het geëxporteerde bestand met de startfunctie wordt als Excel-bestand of als een bestand met de startfunctie naar de computer gedownload. ZIP-bestand met meerdere Excel- en eigenschappenbestanden. Elk Excel-bestand is een verzameling bladen, waarin elk blad een veld vertegenwoordigt dat is gekoppeld aan het object dat u hebt geselecteerd. Er is een **Eigenschappen** blad dat aan elke export is gekoppeld.
 
-   De **Dashboard** en **Rapport** Met opties kunt u specifieke dashboards en rapporten selecteren die u in de download wilt opnemen. U kunt alleen dashboards exporteren die op het hele systeem worden gedeeld.
+   De **Dashboard** en **Rapport** Met opties kunt u specifieke dashboards en rapporten selecteren die u in de download wilt opnemen. U kunt alleen dashboards exporteren, die in het hele systeem worden gedeeld.
 
    U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Kick-Starts ondersteunt geen tekstmodusfilters. Voor een correct exporteren moeten de rapportfilters worden overgeschakeld op de standaardmodus.
 
    U kunt maximaal 100 dashboards en 100 rapporten selecteren in één exportbewerking.
 
    ![](assets/kickstart-export-350x381.png)
 
    U kunt meerdere objecten tegelijk exporteren.
-
-
 
 1. (Aanbevolen) Analyseer de geëxporteerde gegevens om ervoor te zorgen dat alle informatie die u verwacht te zien, is geëxporteerd.
 

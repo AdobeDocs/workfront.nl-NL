@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Een Kick-Start-sjabloon exporteren:
       <td scope="col"> <p>Parameter</p> <p>Beschrijvende tekst</p><p>Parameteroptie</p> <p>Parametergroep</p> <p>Categorieparameter</p> <p>Categorie</p> <p>Rapport</p> <p>Sectie tabblad Portal</p> <p>Dashboard</p> <p>Voorkeuren</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Rapport</p> <p>Alle rapporten in het systeem zijn beschikbaar om te exporteren. U kunt maximaal 100 specifieke rapporten selecteren in één exportbewerking.</p> </td> 
+      <td scope="col"> <p>Rapport</p> <p>Alle rapporten in het systeem zijn beschikbaar om te exporteren. U kunt maximaal 100 specifieke rapporten selecteren in één exportbewerking.</p> <p>Kick-Starts ondersteunt geen tekstmodusfilters. Voor een correct exporteren moeten de rapportfilters worden overgeschakeld op de standaardmodus.</p> </td> 
       <td scope="col">Exporteren als ZIP-bestand </td> 
       <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Beschrijvende tekst</p> <p scope="col">Parameteroptie</p> <p scope="col">Parametergroep</p> <p scope="col">Categorieparameter</p> <p scope="col">Categorie</p> <p scope="col">Rapport</p> <p scope="col">Voorkeuren</p> </td> 
      </tr> 
