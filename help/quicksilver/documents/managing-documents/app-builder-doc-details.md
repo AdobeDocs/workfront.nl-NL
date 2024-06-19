@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Als AppBuilder behoorlijk wordt gevormd, zou u &quot;project van malplaatje&quot
    >Er is een optie om extra werkruimten aan deze stap toe te voegen. Er werd ons voorgesteld een werkruimte te creëren voor elke ontwikkelaar. Dit houdt geheimen en plaatsingen gescheiden van elkaar aangezien devs werken. Geef de werkruimte een naam met de naam van de ontwikkelaar die de werkruimte gebruikt. De AIO-clip heeft opties voor het schakelen tussen de werkruimte, die we later zullen behandelen.
 
 
-1. Verlaten **Inclusief runtime** geselecteerd. Ik weet echt niet waarom, maar verander het niet!
+1. Verlaten **Inclusief runtime** geselecteerd.
 
 1. Klikken **Opslaan**.
 
