@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    >[!TIP]
    >
-   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren.
+   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren. U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden als Begin en Eind data voor de chronologie en kalendermeningen selecteert. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klikken **Maken**.
 

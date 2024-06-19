@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Voorbeeld: te bepalen
 
 We hebben de ervaring bijgewerkt met het toevoegen van een miniatuur of een omslagafbeelding aan een record op de pagina Details. De verbeteringen zijn onder andere:
 
-* Een miniatuurafbeelding wordt willekeurig toegewezen aan een record wanneer u deze maakt. U kunt deze afbeelding later bewerken.
+* Wanneer u een miniatuurafbeelding en een omslagafbeelding maakt, worden deze automatisch toegewezen aan een record. U kunt deze afbeeldingen later bewerken.
 
 * U kunt een miniatuur toevoegen vanaf de pagina Details. Vóór deze verbetering, kon u een duimnagel slechts van de lijstmening toevoegen.
 
@@ -129,7 +129,7 @@ Productie: 17 juni 2024
 
 Voorbeeld: te bepalen
 
-Er is een koppeling &#39;Meer tonen/Minder tonen&#39; toegevoegd aan een verbonden recordveld, wanneer er records zijn die anders op meer dan twee rijen zouden worden weergegeven.
+Er is een koppeling &#39;Meer tonen/Minder tonen&#39; toegevoegd aan een verbonden recordveld, wanneer er records zijn die anders op meer dan twee rijen op de pagina Details van een record zouden worden weergegeven.
 
 Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ We introduceren een nieuwe bestemmingspagina voor de Planning van Workfront, nad
 
 Enkele informatie op de landingspagina omvat het volgende:
 
-* Een gebied dat uw werkruimten en werkruimten toont die met u worden gedeeld. De eigenaar van de werkruimte wordt vermeld op elke werkruimtekaart.
+* Een gebied dat uw werkruimten en werkruimten toont die met u worden gedeeld. De eigenaar van de werkruimte wordt weergegeven op elke werkruimtekaart.
 
 * Als u Workfront-beheerder bent, worden de volgende tabbladen weergegeven:
 
@@ -324,7 +324,7 @@ Voorbeeld: te bepalen
 
 Om de informatie op de pagina van het verslag voor efficiëntere leesbaarheid en navigatie beter te organiseren, hebben wij secties aan de pagina van het verslag geïntroduceerd. De sectitels fungeren als kopteksten waarmee de velden in verschillende categorieën worden ingedeeld. De secties zijn volledig aanpasbaar en kunnen indien nodig worden uitgevouwen of samengevouwen.
 
-Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Updates in realtime voor wijzigingen in de veldconfiguratie
 
@@ -433,7 +433,7 @@ Voorbeeld: te bepalen
 
 Als Workspace Manager kunt u nu de volgorde wijzigen van de velden op de recordpagina of voorvertoning. Als u de volgorde van de velden bijwerkt, verandert de volgorde van velden in alle records van hetzelfde type, voor iedereen die de recordpagina of de voorvertoning van de record weergeeft.
 
-Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Omslagafbeelding toevoegen om pagina&#39;s op te nemen
@@ -444,7 +444,7 @@ Voorbeeld: te bepalen
 
 Terwijl u recordpagina&#39;s beheert, kunt u nu een omslagafbeelding op een recordpagina of voorvertoning toevoegen, verplaatsen en vervangen om de presentatie en betrokkenheid van belanghebbenden van de record te verrijken. Omslagafbeeldingen zijn zichtbaar voor alle gebruikers die de records weergeven.
 
-Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Week van 25 maart 2024
 

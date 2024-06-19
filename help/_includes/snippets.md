@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -256,7 +256,7 @@ U moet de juiste insteekmodule installeren voor de Adobe Creative Cloud-toepassi
    * **Mijn werkruimten**: De werkruimten die u hebt gemaakt, worden weergegeven.
    * **Overige werkruimten**: Hiermee geeft u alle werkruimten weer in Workfront Planning, inclusief de werkruimten die met u worden gedeeld.
 
-   Voor alle andere gebruikers worden alle werkruimten die ze hebben gemaakt of met hen worden gedeeld, weergegeven in het dialoogvenster **Werkruimten** gebied.
+   Voor alle andere gebruikers worden alle werkruimten die u hebt gemaakt of die met u worden gedeeld, weergegeven in het dialoogvenster **Werkruimten** gebied.
 
 ## Belangrijke intro voor Workfront-planning - {#planning-important-intro}
 

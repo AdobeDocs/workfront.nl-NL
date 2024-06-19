@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ U kunt weergaven delen die u hebt gemaakt of weergaven die u beheerdersmachtigin
 1. Klikken **Koppeling kopiëren** om een koppeling naar de weergave naar het klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 1. Klikken **Opslaan**.
+
+   >[!TIP]
+   >
+   >   Weergaven die met u worden gedeeld, beschikken over een personeels-indicator ![](assets/view-shared-with-others-people-icon.png) naast het weergavepictogram. Weergaven zonder de indicator Personen zijn weergaven die u hebt gemaakt.
+
+
 
 <!--
 ## Share permissions to a view publicly

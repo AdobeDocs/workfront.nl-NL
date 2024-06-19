@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Huidig: Werk of hoger</p>
+   <p>Nieuw: Standaard</p>  
   </td>
   </tr>
 
@@ -67,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Contribute of hoger machtigingen voor een werkruimte </p>  
+   <td> <p>Machtigingen beheren in een werkruimte </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
@@ -80,23 +81,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody>
 </table>
 
+*Zie voor meer informatie [Toegangsvereisten in documentatie van het personeel](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Overwegingen bij het opnemen van miniaturen
 
 Als u visueel onderscheid wilt maken tussen records in een tabelweergave, kunt u een unieke miniatuurafbeelding aan elke record koppelen.
 
 Overweeg het volgende:
 
+* Een miniatuur is uniek voor één record en is niet van toepassing op alle records van hetzelfde type.
 * U kunt alleen afbeeldingsbestanden als miniaturen toevoegen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* U kunt een miniatuurafbeelding toevoegen aan afzonderlijke records in de tabelweergave.
-* Miniaturen horen bij de recordgegevens en worden weergegeven in weergaven waar records worden weergegeven. Miniaturen worden bijvoorbeeld naast recordgegevens weergegeven in de volgende gebieden:
+* U kunt een miniatuurafbeelding toevoegen aan afzonderlijke records in de tabelweergave of vanaf de pagina of het voorvertoningsvak van de record.
+* Workfront uploadt automatisch een miniatuurafbeelding wanneer u een record maakt. U kunt deze afbeelding later wijzigen.
+* Miniaturen horen bij de recordgegevens en worden weergegeven in gebieden waar records worden weergegeven. Miniaturen worden bijvoorbeeld naast recordgegevens weergegeven in de volgende gebieden:
 
    * Het primaire veld van een record in de tabelweergave
    * De recordbalk in de tijdlijnweergave.
-* U kunt geen recordminiaturen toevoegen vanaf de pagina van de record of vanuit een ander type weergave.
-* Miniaturen worden niet weergegeven op de recordpagina.
+   * De detailvoorvertoning en pagina van de record.
 
 ## Een miniatuur toevoegen aan een record
+
+U kunt op de volgende manieren een miniatuur toevoegen:
+
+* [Een miniatuur toevoegen aan een record vanuit de tabelweergave](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [Een miniatuur toevoegen aan een record via de detailpagina](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### Een miniatuur toevoegen aan een record vanuit de tabelweergave
 
 {{step1-to-planning}}
 
@@ -110,72 +121,85 @@ Overweeg het volgende:
 
    >[!TIP]
    >
-   >   Het primaire veld is het veld dat in de eerste kolom van een tabelweergave wordt weergegeven. Het primaire veld is altijd bevroren en kan niet worden verborgen of verplaatst.
+   >   Het primaire veld is het veld dat in de eerste kolom van een tabelweergave wordt weergegeven. Het primaire veld is altijd bevroren en kan niet worden verborgen of verplaatst. De optie Miniatuur is niet beschikbaar in het menu Meer als het primaire veld een formuleringsveld is.
 
-   De **Recordminiatuur** wordt geopend.
+   De **Uploaden** tabblad wordt standaard geopend in het dialoogvenster **Recordminiatuur** doos.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
-
-   <!--update screen shot with correct casing-->
-
-1. In de **Uploaden** slepen en neerzetten van een bestand dat u als miniatuur wilt toevoegen of klikken **Selecteren om te uploaden** Blader vervolgens naar het afbeeldingsbestand dat u wilt toevoegen. Het bestand moet op uw computer worden opgeslagen.
-1. (Optioneel) Gebruik het gereedschap Grootte wijzigen om de afbeelding uit te snijden en de grootte ervan te wijzigen.
-1. Klikken **Afbeelding gebruiken** om de afbeelding als een miniatuur toe te voegen.
-Hiermee sluit u het dialoogvenster **Recordminiatuur** doos.
-1. (Voorwaardelijk) Als u ten minste Contribute-machtigingen voor de tabelweergave hebt, klikt u op **Velden** rechtsboven in de tabelweergave.
-1. Selecteer de **Miniatuur** schakelen om de miniatuur weer te geven. Deze optie is standaard uitgeschakeld.
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   De miniatuur wordt links van de waarde van het primaire veld weergegeven.
-1. (Optioneel en voorwaardelijk) Als u geen Contribute- of hogere machtigingen voor de weergave hebt, selecteert u een nieuwe weergave in het menu **Weergave** of maak een weergave.
-1. (Optioneel) Als u de miniatuur wilt verwijderen, plaatst u de cursor boven het primaire veld en klikt u op de knop **Meer** menu ![](assets/more-menu.png)> **Miniatuur** > de **Verwijderen** pictogram ![](assets/remove-image-icon.png)en klik vervolgens op **Wijzigingen opslaan**.
+   Zie de sectie voor meer informatie over het uploaden van de miniatuur [Een miniatuur toevoegen aan een record via de detailpagina](#add-a-thumbnail-to-a-record-from-the-details-page) in dit artikel, te beginnen met Stap 6. <!--see if this is accurate-->
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### Een miniatuur toevoegen aan een record via de detailpagina
 
 {{step1-to-planning}}
 
-1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Klik op de werkruimte voor de records waaraan u miniaturen wilt toevoegen en klik vervolgens op de opnametype-kaart.
 
-   This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+   Hierdoor wordt de pagina met recordtypen geopend.
+1. Klik vanuit een willekeurige weergave op een record om deze te openen.
 
-   ![](assets/record-more-menu-expanded.png)
+   Het detailvoorbeeld wordt weergegeven.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek.
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   De detailpagina van de record wordt geopend.
+1. Houd de muis boven de miniatuurafbeelding of het pictogram ![](assets/record-thumbnail-icon-on-details-page.png)en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Miniatuur bewerken**.
 
-   The **Record thumbnail** box opens.
+   De **Uploaden** tabblad wordt standaard geopend in het dialoogvenster **Recordminiatuur** doos.
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![](assets/record-thumbnail-box-for-upload.png)
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+1. Een bestand slepen en neerzetten om als miniatuur toe te voegen
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   of
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   Klikken **Afbeeldingen zoeken** Blader vervolgens naar het afbeeldingsbestand dat u wilt toevoegen. Het bestand moet op uw computer worden opgeslagen.
 
+1. (Optioneel) Nadat de afbeelding in het dialoogvenster **Recordminiatuur** gebruiken om de afbeelding uit te snijden en de grootte van de afbeelding te wijzigen.
+1. (Optioneel) Klik op de knop **Nieuwe afbeelding uploaden** pictogram ![](assets/upload-new-image-icon.png) om een andere afbeelding te uploaden.
+1. (Optioneel) Klik op de knop **Galerie** en klikt u op een afbeelding. De galerie met afbeeldingen kan niet worden gewijzigd.
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. (Optioneel) Als u de miniatuur wilt verwijderen voordat deze wordt opgeslagen, klikt u op de knop **Verwijderen** pictogram ![](assets/remove-image-icon.png) rechts van de afbeelding.
+
+1. Klikken **Afbeelding gebruiken** om de afbeelding als een miniatuur toe te voegen.
+Hiermee sluit u het dialoogvenster **Recordminiatuur** doos.
+De miniatuur wordt weergegeven in gebieden van Workfront Planning waar de record wordt weergegeven.
+
+   >[!TIP]
+   >
+   >   Als u miniaturen wilt weergeven in deze weergave, moet u het veld Miniatuur in de tabelweergave inschakelen. Deze optie is standaard uitgeschakeld.
+
+1. (Optioneel) Als u de miniatuur wilt verwijderen nadat deze is opgeslagen, klikt u op een record in een willekeurige weergave om de detailpagina te openen, houdt u de muisaanwijzer boven de miniatuurafbeelding en klikt u op de knop **Meer** menu ![](assets/more-menu.png)> **Verwijderen** pictogram ![](assets/remove-image-icon.png). De miniatuurafbeelding wordt verwijderd.
+
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

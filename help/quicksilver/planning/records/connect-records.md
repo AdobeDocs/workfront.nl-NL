@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>Machtigingen beheren voor een werkruimte om records te verbinden </p>  
-   <p>U kunt machtigingen voor een werkruimte weergeven of vergroten als u alle verbindingen met objecten en velden vanuit andere toepassingen wilt weergeven, ongeacht de toegang die u hebt in andere toepassingen. </p>
+   <p>U kunt machtigingen voor een werkruimte weergeven of vergroten als u alle verbindingen met objecten en velden vanuit andere toepassingen wilt weergeven, ongeacht de toegang die u hebt in de andere toepassing. </p>
+   <p>Geef de objecten die u vanuit Workfront of Experience Manager Assets wilt koppelen weer of geef deze machtigingen hoger op. </p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Nadat u recordtypen hebt verbonden, worden de verbonden recordtypen weergegeven als gekoppelde recordvelden in de tabel met de recordtypen waarvan ze zijn gekoppeld en op de recordpagina&#39;s.
 * U kunt records en objecten van de gekoppelde record- en objecttypen bladeren en deze toevoegen vanuit de gekoppelde recordvelden.
-* U kunt velden van de gekoppelde recordtypen toevoegen aan de tabel van het recordtype waarvan u een koppeling maakt.
-* U kunt de waarden van gekoppelde velden niet handmatig bijwerken in de records waarvan u een koppeling maakt.
+* U kunt velden (opzoekvelden) van de gekoppelde recordtypen toevoegen aan de tabel van het recordtype waarvan u een koppeling maakt.
 
-  De waarden van de gekoppelde velden van de gekoppelde records vullen de Workfront-planningsrecord die u automatisch koppelt vanuit de oorspronkelijke record of het oorspronkelijke object.
+  U kunt velden (opzoekvelden) toevoegen van de recordtypen die u koppelt in de tabel van het recordtype waarnaar u een koppeling maakt.
+
+  Als u bijvoorbeeld het recordtype product van het recordtype Campagne koppelt, kunt u de velden Product voor campagnes en Campagne voor producten weergeven.
+* U kunt de waarden van opzoekvelden in de records waarvan u een koppeling maakt, niet handmatig bijwerken.
+
+  De waarden van de opzoekvelden van de gekoppelde records vullen de Workfront-planningsrecord die u automatisch koppelt vanuit de oorspronkelijke record of het oorspronkelijke object.
 
 * Iedereen met toegang tot de Planning van Workfront en Mening of hogere toestemmingen aan de werkruimte kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
 * U kunt de verbindingen van alle anderen weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte waar de verbonden records zich bevinden.
 * U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing.
-* Als u records wilt koppelen aan andere records of objecten, moet u over het volgende beschikken:
 
-   * Ten minste één werkruimte, recordtype en record.
-
-     Raadpleeg de volgende artikelen voor meer informatie:
-
-      * [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Records maken](/help/quicksilver/planning/records/create-records.md)
-
-   * Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 * U kunt objecten van Workfront verbinden met Workfront-planningsrecords in de volgende gebieden:
    * Uit een planningsrecord in Workfront Planning.
    * Vanuit het gedeelte Planning van een Workfront-object.
+
+* U kunt Workfront Planning-records in de volgende gebieden verbinden met Experience Manager Assets:
+
+   * Uit een planningsrecord in Workfront Planning
+
+
+## Vereisten voor het koppelen van records
+
+Als u records wilt koppelen aan andere records of objecten, moet u over het volgende beschikken:
+
+* Ten minste één werkruimte, recordtype en record.
+
+  Raadpleeg de volgende artikelen voor meer informatie:
+
+   * [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [Records maken](/help/quicksilver/planning/records/create-records.md)
+
+* Verbindingen tussen recordtypen of tussen recordtypen en objecten uit andere toepassingen. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Connect-records van Workfront Planning
 
@@ -186,7 +200,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!TIP]
    >
-   >    U kunt de pagina van een record openen, het gekoppelde recordveld zoeken en op **Connect-records** in het veld om records van het verbonden record- of objecttype toe te voegen.
+   >    U kunt de pagina van een record openen, het gekoppelde recordveld zoeken en op het verbonden veld klikken (als er records zijn verbonden) of op **Connect-records** (als het veld leeg is) om records uit het verbonden record- of objecttype toe te voegen.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 >Als u vragen hebt over instaptoegang tot de Adobe Admin Console, raadpleegt u de [Veelgestelde vragen over Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Manager Assets, kunt u afzonderlijke records verbinden met Experience Manager-elementen. De elementvelden die u vanaf Experience Manager Assets hebt verbonden toen u de verbinding maakte, worden automatisch ingevuld in het recordtype waarvan u een koppeling hebt gemaakt.
+
+>[!NOTE]
+>
+>De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Zie voor meer informatie [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

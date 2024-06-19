@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadple
 | Adobe Workfront-planningsmodules voor Adobe Workfront Fusion | ✓ |                                  |                 |
 | Informatie van het ene veld naar het andere kopiëren en plakken | ✓ |                                  |                 |
 | Toegang tot planningsrecords van Workfront-objecten | ✓ |                                  |                 |
+| Connect-planningsrecords van Workfront-objecten | ✓ |                                  |                 |
 
 ## Adobe Workfront Planning inschakelen voor de gebruikers in uw Workfront-exemplaar
 
@@ -208,9 +209,18 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 * **Gekoppelde velden** (of opzoekvelden): Nadat u de verbinding tussen twee recordtypen tot stand hebt gebracht en u afzonderlijke records aan elkaar koppelt, kunt u verwijzen naar de velden van de gekoppelde records in de record waarmee u verbinding maakt.
 
-  Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Eigenaar van het Project van verbonden projecten op de campagneverslagen tonen.
+  Bijvoorbeeld, als u een type van het verslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Begroting van verbonden projecten op de campagneverslagen tonen.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > U kunt de volgende veldtypen niet toevoegen als opzoekvelden:
+  >
+  >* Mensen
+  >* Gemaakt door
+  >* Laatst gewijzigd door
+  >* Workfront-typeahead-velden (inclusief velden zoals Projecteigenaar of Projectsponsor)
 
   Zie de volgende artikelen voor informatie over het koppelen van recordtypen, records en gekoppelde velden:
 
@@ -285,7 +295,7 @@ Workfront-planning zoeken:
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
+1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
    * **Mijn werkruimten**: De werkruimten die u hebt gemaakt, worden weergegeven.
    * **Overige werkruimten**: Hiermee geeft u alle andere werkruimten in het systeem weer, inclusief de werkruimten die met u worden gedeeld.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architec
 
 ## Toegangsvereisten
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -58,9 +58,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Huidig: Werk of hoger</p>
+   <p>Nieuw: Standaard</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Contribute of hoger machtigingen voor een werkruimte </p>  
+   <td> <p>Machtigingen beheren in een werkruimte </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody>
 </table>
 
+*Zie voor meer informatie [Toegangsvereisten in documentatie van het personeel](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Overwegingen bij omslagafbeeldingen van recordpagina&#39;s
 
 U kunt de pagina van een record personaliseren door er een omslagafbeelding aan toe te voegen.
@@ -94,7 +97,8 @@ Overweeg het volgende:
 * U kunt alleen afbeeldingsbestanden als omslagafbeeldingen toevoegen.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * U kunt een omslagafbeelding aan afzonderlijke records toevoegen vanuit de voorvertoning van de record in een willekeurige weergave of vanaf de recordpagina.
-* U kunt omslagafbeeldingen niet inline toevoegen vanuit recordweergaven.
+* U kunt geen omslagafbeeldingen uit een recordweergave toevoegen.
+* Workfront uploadt automatisch een omslagafbeelding wanneer u een record maakt. U kunt deze afbeelding later wijzigen.
 
 ## Een omslagafbeelding aan een record toevoegen
 
@@ -114,19 +118,15 @@ U kunt een record personaliseren door een omslagafbeelding boven aan de voorvert
 
    De pagina met recordtypen wordt geopend.
 
-1. Klik vanuit een weergave van een willekeurig type op de naam van een record
+1. Klik vanuit een weergave van een willekeurig type op een record
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam.
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
 1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
 
@@ -134,10 +134,25 @@ U kunt een record personaliseren door een omslagafbeelding boven aan de voorvert
 
    ![](assets/details-page.png)
 
-1. Klik in de recordvoorvertoning of pagina op **omslag toevoegen**. <!--check the casing here; I logged a bug for this-->
-De **Omslag van record** wordt geopend.
+1. Klik in de recordvoorvertoning of pagina op **omslag toevoegen**
 
-1. Klikken **Selecteren om te uploaden** en blader naar een afbeelding op uw computer om deze te selecteren, voeg deze toe en klik vervolgens op **Afbeelding gebruiken**.
+
+   of
+
+   Houd de muis boven een bestaande omslagafbeelding en klik op **Meer** menu ![](assets/more-menu.png) en klik vervolgens op **Uploaden**. <!--check the casing here; I logged a bug for this-->
+De **Omslag van record** wordt geopend in het dialoogvenster **Uploaden** tab.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Klikken **Afbeeldingen zoeken** en blader naar een afbeelding op uw computer om deze te selecteren en toe te voegen.
+
+1. (Optioneel) Als u de afbeelding wilt verwijderen voordat deze wordt opgeslagen, klikt u op de knop **Nieuwe afbeelding uploaden** pictogram ![](assets/upload-new-image-icon.png) en uploadt u een nieuwe afbeelding.
+
+1. (Optioneel) Klik op de knop **Galerie** en klikt u op een afbeelding in de galerie met afbeeldingen. De galerie met afbeeldingen kan niet worden gewijzigd.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Klikken **Afbeelding gebruiken**.
 
    De afbeelding wordt boven aan de voorvertoning of pagina van de record geüpload en de wijzigingen worden automatisch opgeslagen.
 
