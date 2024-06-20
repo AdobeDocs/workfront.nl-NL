@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2543'
 ht-degree: 0%
 
 ---
@@ -157,25 +157,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
    Het veld wordt een primair veld, wat betekent dat het wordt weergegeven als de eerste kolom van de tabelweergave. Het vorige primaire veld gaat naar de tweede kolom.
 
-   >[!NOTE]
-   >
-   >   * Alleen velden van de volgende typen kunnen primaire velden zijn:
-   >
-   >       * Tekst met één regel
-   >       * Getal
-   >       * Formule
-   >
-   >   * Het primaire veld is altijd bevroren en kan niet worden verplaatst of verborgen. Het primaire veld is bevroren en maakt geen deel uit van de horizontale schuifbalk. U kunt een ander veld selecteren om een primair veld te vervangen als u het naar een andere positie wilt verplaatsen.
-   >
-   >   * Het wijzigen van het primaire veld in de tabelweergave heeft invloed op de weergave voor alle andere gebruikers die deze selecteren.
-   >
-   >   * Het wijzigen van het primaire veld in een tabelweergave heeft invloed op alle tabelweergaven.
-   >
-   >   * U kunt een primair veld niet verwijderen of verbergen.
-   >
-   >   * De waarde in het primaire veld is altijd gekoppeld aan de pagina van de record.
-   >
-   >   * Primaire velden worden de titel van de record en worden weergegeven in de recordpagina&#39;s in het koptekstgebied van de records, en overal waar de records worden weergegeven. De recordtitel wordt bijvoorbeeld weergegeven in verbonden velden en in alle weergaven.
+   Primaire velden worden de titel van de record en worden weergegeven in het koptekstgebied van de pagina van de record, en overal waar de records worden weergegeven. De recordtitel wordt bijvoorbeeld weergegeven in verbonden velden en in alle weergaven. Zie voor meer informatie over primaire velden [Overzicht van primair veld](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 

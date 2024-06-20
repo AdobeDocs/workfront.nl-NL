@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
    >[!NOTE]
    >
-   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Zie voor meer informatie over primaire velden [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Zie voor meer informatie over primaire velden [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md) en [Overzicht van primair veld](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 

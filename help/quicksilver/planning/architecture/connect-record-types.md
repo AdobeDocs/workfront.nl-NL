@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2486'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,18 @@ author: Alina
 
 {{planning-important-intro}}
 
-Met Adobe Workfront Planning kunt u volledig aanpasbare werkruimten ontwerpen die recordtypen bevatten die in uw organisatie nodig zijn. Een manier om aan te geven hoe individuele recordtypen op elkaar betrekking hebben, is ze met elkaar te verbinden. Bovendien kunt u Workfront Planning-recordtypen verbinden met objecttypen van andere toepassingen om de gebruikerservaring te verbeteren en de focus in één toepassing te houden.
+<!--
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 U kunt recordtypen met elkaar verbinden of typen opnemen met objecttypen van andere toepassingen.
 
-Op deze manier kunt u velden van het gekoppelde record of objecttype weergeven in een Workfront-planningsrecord.
+In dit artikel wordt beschreven hoe u twee Workfront-planningsrecords met een Workfront-planningsrecordtype kunt verbinden met een object uit een andere toepassing.
 
-In dit artikel wordt beschreven hoe u twee recordtypen in Workfront Planning of een recordtype kunt verbinden met een object uit een andere toepassing.
-
-Nadat u de verbinding tussen records of objecttypen tot stand hebt gebracht, kunt u afzonderlijke records met elkaar verbinden.
+Nadat u de verbinding tussen verslagen of objecten types vestigt, kunt u individuele verslagen met elkaar verbinden, en vertoningsgebieden van het verbonden verslag of objecten types op een verslag van de Planning van Workfront tonen.
 
 Voor informatie over het verbinden van een verslag van de Planning van Workfront met een voorwerp van een andere toepassing, zie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
 
-Zie voor een voorbeeld van het verbinden van recordtypen [Voorbeeld van het verbinden van recordtypen en records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+Zie voor een voorbeeld van het verbinden van recordtypen en records [Voorbeeld van het verbinden van recordtypen en records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -75,9 +74,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Nieuw: Standaard</p> 
+   <p>Huidig: Plan</p>
   </td>
   </tr>
 
@@ -100,6 +100,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody>
 </table>
 
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -122,7 +123,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      De recordtypen moeten tot dezelfde werkruimte behoren.
    * Een recordtype en een objecttype uit een andere toepassing.
 
-* U kunt de volgende objecttypen verbinden vanuit de volgende toepassingen met Workfront Planning-recordtypen:
+* U kunt Workfront Planning-recordtypen verbinden met de volgende objecttypen vanuit de volgende toepassingen:
 
    * Adobe Workfront:
 
@@ -159,10 +160,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
         Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
 
-      * Planningsrecords of de bijbehorende velden zijn niet toegankelijk vanuit Workfront.
-      * De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Zie voor meer informatie [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * Planningsrecordvelden zijn niet toegankelijk vanuit Workfront-objecten.
+      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van de Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Zie voor meer informatie [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **Wanneer u opzoekvelden toevoegt van de record of het object waarmee u verbinding maakt**: U kunt velden van het object van de andere toepassing verbinden met het recordtype Workfront Planning. Dit zijn gekoppelde of opzoekvelden. Gekoppelde velden geven automatisch informatie van verbonden records of objecten weer wanneer u de records of de objecten verbindt. De gekoppelde opzoekvelden zijn altijd alleen-lezen en worden automatisch gevuld met de waarden van de verbonden records of objecten.
+   * **Wanneer u gekoppelde (of opzoekvelden) velden toevoegt van de record of het object waarmee u verbinding maakt**: U kunt velden van het object van de andere toepassing verbinden met het recordtype Workfront Planning. Gekoppelde velden zijn alleen-lezen en geven automatisch informatie van verbonden records of objecten weer wanneer u de records of de objecten verbindt.
 
      Als u bijvoorbeeld het recordtype ‘Campagne’ verbindt met een Workfront-project en u selecteert om het veld Geplande afsluitdatum van het project over te brengen naar de planningsrecord van Workfront, wordt automatisch een gekoppeld veld genaamd Geplande voltooiingsdatum (van project) gemaakt voor de campagne. U kunt dit gekoppelde veld niet handmatig bewerken. In het veld Geplande afsluitdatum (van project) wordt de geplande uitvoeringsdatum van de gekoppelde projecten weergegeven.
 
@@ -195,6 +196,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * Een ander recordtype uit het gedeelte van de werkruimte dat u hebt geselecteerd
 
+     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
+
      >[!TIP]
      >
      >Alleen recordtypen uit de geselecteerde werkruimte zijn beschikbaar voor verbinding.
@@ -202,18 +205,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >Als de geselecteerde werkruimte geen andere recordtypen bevat, wordt de sectie Werkruimte niet weergegeven.
 
    * A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **Workfront-objecttypen** sectie.
+
+     ![](assets/workfront-project-connection-selection.png)
+
    * **Experience Manager Assets** van de **Adobe-toepassingen** sectie.
 
-   ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Werk de volgende gegevens bij:
 
-   * **Naam**: De naam van het verbonden veld, zoals deze wordt weergegeven in de tabelweergave of de recordpagina van het oorspronkelijke recordtype. Hiermee maakt u de gekoppelde recordkolom in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordveld voor de oorspronkelijke records.
+   * **Naam**: De naam van het verbonden veld, zoals deze wordt weergegeven in de tabelweergave of de recordpagina van het oorspronkelijke recordtype. Hiermee maakt u de gekoppelde recordkolom in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordveld voor de oorspronkelijke records. Standaard is de naam van het veld de naam van de record of het object waarmee u verbinding maakt.
 
    >[!TIP]
    >
-   >We raden u aan de naam van de record waarnaar u een koppeling maakt, op te nemen in de naam van het verbonden recordveld om vast te leggen van welk recordtype het nieuwe veld afkomstig is. De naam van de gekoppelde record is niet zichtbaar in het nieuwe gekoppelde recordveld of de gekoppelde velden ervan.
+   >U kunt meerdere verbindingen met hetzelfde record- of objecttype hebben. Als u de naam van het verbonden veld niet bewerkt, voegt Workfront een cijfer toe achter de naam van de verbonden record om het aantal verbonden recordtypen aan te geven met dezelfde naam.
 
    * **Beschrijving**: Aanvullende informatie over het verbonden recordveld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
    * **Meerdere records toestaan**: Selecteer deze optie om aan te geven dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het gekoppelde recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
@@ -230,32 +235,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Voorwaardelijk en optioneel) Als u een Workfront-object wilt verbinden, selecteert u een **Aangepast formulier** van de **Alleen objecten koppelen die aan deze criteria voldoen** sectie. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde recordtype. U kunt meerdere formulieren selecteren.
 
-   ![](assets/workfront-project-connection-selection.png)
-
    >[!NOTE]
    >
    > U moet in Workfront aangepaste formulieren maken voor de geselecteerde objecten voordat ze in deze lijst worden weergegeven.
 
 1. (Voorwaardelijk) Als u verbinding wilt maken met Experience Manager Assets, selecteert u een opslagplaats in het menu **Experience Manager-opslagplaats** vervolgkeuzemenu in het dialoogvenster **Elementen koppelen van de volgende gegevensopslagruimte** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
 
-   <!--replace the screen shot below when they fix the permissions info icon bug-->
-
-   ![](assets/aem-assets-connection-selection.png)
-
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Zie voor meer informatie [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+1. (Voorwaardelijk) Als u verbinding wilt maken met Experience Manager Assets of met een recordtype voor Workfront-planning, schakelt u de optie **Titel** schakelen in de **Weergave opnemen** als u de titel van gekoppelde records of elementen niet wilt weergeven in het gekoppelde veld. Als deze optie is uitgeschakeld, worden alleen de miniaturen van records weergegeven in de gekoppelde velden. Records zonder miniatuurafbeelding geven in plaats daarvan een afbeeldingspictogram weer. De schakeloptie is standaard ingeschakeld. Een voorbeeld van hoe de verbonden verslagen in zullen tonen **Weergave opnemen** gebied.
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
-
-    >[!TIP]
-    >
-    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
-    >
-    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
--->
+   >[!TIP]
+   >
+   >    Wanneer u meerdere records toestaat om te worden gekoppeld, bespaart de weergave van alleen de miniatuur ruimte in kleinere gebieden, zoals in recordweergaven.
+   >
+   >De titel van een record is het primaire veld van de record. Zie voor meer informatie [Overzicht van primair veld](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klikken **Maken**.
 
@@ -276,14 +272,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >    Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de gekoppelde velden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen.
 
 
-1. (Optioneel) Klik op **Overslaan** en voeg geen velden toe uit de gekoppelde record of het gekoppelde object. De **Naam** van de gekoppelde record is het enige zichtbare veld in de tabelweergave van de oorspronkelijke record.
+1. (Optioneel) Klik op **Overslaan** om het toevoegen van velden van het gekoppelde record of objecttype over te slaan. De **Naam** of de **Titel** van de gekoppelde record is het enige zichtbare veld in de tabelweergave van het recordtype waarmee u verbinding maakt.
 
 1. (Optioneel en voorwaardelijk) Als u een getal, valuta, percentage of datumveld wilt koppelen, selecteert u ook een aggregatorwaarde. De waarden voor de gekoppelde velden worden gescheiden door komma&#39;s of als een geaggregeerde waarde weergegeven volgens de aggregator die u kiest, wanneer gebruikers meer dan één gekoppelde record selecteren in het veld voor gekoppelde records.
 
    >[!IMPORTANT]
    >
-   >    U moet een aggregatorwaarde selecteren wanneer u datumvelden toevoegt, als u wilt dat de velden beschikbaar zijn om toe te voegen als start- en einddatum voor de tijdlijn- en kalenderweergave.
-
+   >    U moet een aggregatorwaarde selecteren wanneer u opzoekdatumvelden toevoegt, als u wilt dat de velden beschikbaar zijn om toe te voegen als start- en einddatum voor de tijdlijn- en kalenderweergave. U kunt bijvoorbeeld de MAX of de MIN-aggregator selecteren voor een veld voor de opzoekdatum.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 
@@ -321,9 +316,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De volgende items worden toegevoegd:
 
-   * Een gekoppeld recordveld op het recordtype waarvan u een koppeling maakt. In het gekoppelde recordveld worden afzonderlijke records van het gekoppelde recordtype weergegeven nadat u ze handmatig hebt toegevoegd. Zie voor informatie over het toevoegen van records [Connect-records](/help/quicksilver/planning/records/connect-records.md). De naam van het gekoppelde recordveld is de naam die u in stap 6 hebt geselecteerd. <!--accurate-->
+   * Een gekoppeld recordveld op het recordtype waarvan u een koppeling maakt. In het gekoppelde recordveld worden afzonderlijke records van het gekoppelde recordtype weergegeven nadat u ze handmatig hebt toegevoegd. Zie voor informatie over het toevoegen van records [Connect-records](/help/quicksilver/planning/records/connect-records.md). De naam van het gekoppelde recordveld is de naam die u in stap 7 hebt geselecteerd. <!--accurate-->
 
-   * Een gekoppeld veld (of gekoppelde velden) waarin informatie uit de velden van de gekoppelde record of objecttypen wordt weergegeven nadat u de records of objecten handmatig hebt toegevoegd in het gekoppelde recordveld. De gekoppelde velden worden alleen gemaakt wanneer de **Opzoekvelden selecteren** Deze instelling wordt geselecteerd bij het maken van de verbinding. De gekoppelde velden krijgen automatisch een naam op basis van dit patroon:
+   * Een gekoppeld (of opzoekveld) veld (of velden) waarin informatie over de gekoppelde record of objecttypen wordt weergegeven nadat u handmatig de records of objecten in het gekoppelde recordveld hebt toegevoegd. Opzoekvelden worden alleen gemaakt wanneer de **Opzoekvelden selecteren** Deze instelling wordt geselecteerd bij het maken van de verbinding. Velden voor opzoeken krijgen automatisch een naam volgens dit patroon:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
@@ -339,7 +334,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Optioneel en voorwaardelijk) Klik in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
 
-   * **Veld bewerken**: U kunt het dialoogvenster **Naam** en de **Beschrijving** informatie over het veld.
+   * **Veld bewerken**: U kunt de **Naam** en de **Beschrijving** informatie over het veld.
    * **Opzoekvelden bewerken**: Voeg de velden van een gekoppelde record toe of verwijder deze.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

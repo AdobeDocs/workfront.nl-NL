@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Connect-records](/help/quicksilver/planning/records/connect-records.md)
 * U kunt de sectie Planning weergeven in een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
 * U kunt Planningsrecords verbinden met Workfront-objecten vanuit Workfront, in de sectie Planning wanneer ten minste één record is verbonden met het Workfront-object.
-* U moet over Contribute of hogere machtigingen voor een werkruimte beschikken om records van de Workfront-objecten te kunnen verbinden.
+* U moet over beheermachtigingen voor een werkruimte beschikken om records van de Workfront-objecten te kunnen verbinden.
 
 ## Records beheren in de sectie Planning
 
@@ -138,7 +138,7 @@ De objectpagina wordt geopend in Workfront Planning.
 
 1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
 1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
-1. (Optioneel) Klik op de knop **Openen in een nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het voorvertoningsvak om de detailpagina van de record te openen.
+1. (Optioneel) Klik op de knop **Openen in een nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het voorvertoningsvak om de detailpagina van de record te openen. De detailpagina van het verslag opent in de Planning van Workfront.
 1. Houd de muisaanwijzer boven een opnamekaart en klik vervolgens op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken**.
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
@@ -148,7 +148,7 @@ De volgende dingen doen zich voor:
 
    >[!NOTE]
    >
-   >   De knop Verbinden wordt alleen weergegeven voor de werkruimten waarin u Contribute-machtigingen hebt.
+   >   De knop Verbinden wordt alleen weergegeven voor de werkruimten waarin u Contribute-machtigingen hebt. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Klik op de records waarmee u verbinding wilt maken. De volgende dingen doen zich voor:
 

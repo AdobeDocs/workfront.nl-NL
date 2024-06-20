@@ -1,13 +1,13 @@
 ---
 title: Voorbeeld van het verbinden van recordtypen en records
-description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbinding kunt maken tussen een recordtype voor Adobe Workfornt Planning en een Workfront-projectobjecttype. Het beschrijft ook hoe u een verslag van de Planning van Workfront met een individueel project kunt verbinden.
+description: In dit artikel wordt een voorbeeld beschreven van hoe u een verbinding kunt maken tussen een Adobe Workfront-recordtype voor planningen en een Workfront-projectobjecttype. Het beschrijft ook hoe u een verslag van de Planning van Workfront met een individueel project kunt verbinden.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ Dit doet u als volgt:
 
    ![](assets/new-connection-with-product-record-type.png)
 
+1. (Optioneel) Schakel de optie **Titel** schakelen in de **Weergave opnemen** om alleen de miniatuurafbeelding van de record in de verbonden velden weer te geven. Als deze optie is ingeschakeld, worden in de records zowel de miniatuur als de titel weergegeven. De schakeloptie is standaard ingeschakeld.
 1. (Voorwaardelijk) Als u de optie **Optie Opzoekvelden selecteren** in de vorige stap, uit de lijst van gebieden verbonden aan **Product** recordtype, klikt u op de knop **+** pictogram voor de **Begroting** veld, klik vervolgens op **Velden toevoegen**. Hiermee maakt u een veld met de naam **Begroting (op basis van productinformatie)**, de naam van het gekoppelde veld. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -78,7 +79,7 @@ Dit doet u als volgt:
 
 1. Van de **Campagne** recordtype, maak een campagne door een nieuwe rij toe te voegen in de lijst van het type van verslagpagina van de Campagne.
 
-1. Dubbelklik in het dialoogvenster  **Productinformatie** kolom van de nieuwe campagne .
+1. Dubbelklik in het dialoogvenster **Productinformatie** kolom van de nieuwe campagne .
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -96,7 +97,7 @@ Dit doet u als volgt:
 
    of
 
-   Selecteer de productrecords die u wilt koppelen aan de Campagne-records en klik vervolgens op **Objecten verbinden**.
+   Selecteer de productrecords die u wilt verbinden met de campagnerecords en klik vervolgens op **Objecten verbinden**.
 
    >[!TIP]
    >
@@ -166,7 +167,7 @@ Dit doet u als volgt:
 
 1. Van de **Campagne** een tabelweergave met recordtype maken, een campagne maken door een nieuwe rij in de tabel toe te voegen.
 
-1. Dubbelklik in het dialoogvenster  **Projectinformatie** kolom van de nieuwe campagne .
+1. Dubbelklik in de kolom Projectinformatie** van de nieuwe campagne.
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -184,7 +185,7 @@ Dit doet u als volgt:
 
    of
 
-   Selecteer de projectverslagen u met de verslagen van de Campagne wilt verbinden, dan klik **Objecten verbinden**.
+   Selecteer de projectverslagen die u met de verslagen van de Campagne wilt verbinden, dan klik **Objecten verbinden**.
 
    >[!TIP]
    >
@@ -204,15 +205,15 @@ Dit doet u als volgt:
 
 1. Klik de naam van een project op het verbonden verslaggebied.
 
-   Dit opent de read-only pagina van het Project van de Planning van Woekfront.
+   Dit opent de read-only pagina van het Project van de Planning van Workfront.
 Informatie over het project controleren. Alleen geselecteerde projectvelden worden weergegeven op de pagina van de record.
 
 1. Klikken **Ga naar bron** in de hoger-juiste hoek van het scherm om het project in Workfront te openen, als u minstens de toestemmingen van de Mening aan het project hebt.
 1. (Optioneel) Werk informatie over het project in Workfront bij als u hiervoor gemachtigd bent.
 
 1. (Optioneel) Houd de muisaanwijzer in de tabelweergave Campagne boven de **Projectinformatie** veldkoptekst en klik op de pijl omlaag gericht en klik vervolgens op **Opzoekvelden bewerken.**
-1. Klik op de knop **+** pictogram voor om het even welke projectgebieden u aan het verslag van de Planning van Workfront van het Project in wilt toevoegen **Niet-geselecteerde velden** sectie.
-1. Klik op de knop **-** pictogram voor om het even welke projectgebieden u uit het verslag van de Planning van het Project van Workfront in wilt verwijderen **Geselecteerde velden** sectie.
+1. Klik op de knop **+** pictogram voor om het even welke projectgebieden die u aan het verslag van de Planning van Workfront van het Project in wilt toevoegen **Niet-geselecteerde velden** sectie.
+1. Klik op de knop **-** pictogram voor om het even welke projectgebieden die u uit het verslag van de Planning van het Project van Workfront in wilt verwijderen **Geselecteerde velden** sectie.
 1. Klikken **Opslaan**.
 
    Er worden extra gekoppelde velden toegevoegd aan het type Campagne-record.

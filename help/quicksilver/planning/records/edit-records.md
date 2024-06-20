@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ U kunt een record uit de volgende gebieden bewerken:
 * [Vanuit de tabelweergave van een recordtype](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [Uit de voorvertoning van de record in een weergave](#edit-a-record-from-the-records-preview-in-a-view)
 * [Van de recordpagina](#edit-a-record-from-the-records-page)
+* [Van een Workfront-object in de sectie Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
 
@@ -210,7 +211,7 @@ U kunt een record uit de volgende gebieden bewerken:
 
 1. (Optioneel) Klik op de knop **Meer** rechts van de titel van de record en klikt u vervolgens op **Naam wijzigen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
-   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Zie voor meer informatie [Overzicht van primair veld](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Bewerk de veldinformatie in de voorvertoning van de record.
 
@@ -280,3 +281,8 @@ U kunt een record uit de volgende gebieden bewerken:
 
    Workfront slaat uw wijzigingen automatisch op.
 
+## Een record uit een Workfront-object bewerken in de sectie Planning
+
+Nadat u records met Workfront-objecten hebt verbonden, kunt u Workfront Planning-records in Workfront bewerken vanuit de sectie Planning van het object.
+
+Zie voor meer informatie [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

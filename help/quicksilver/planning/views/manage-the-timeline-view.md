@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. Klikken **Stijl van balk** in het linkerdeelvenster om aan te geven welke velden u op de recordbalken wilt weergeven.
 
-   Het veld Naam is standaard geselecteerd. <!--adjust this when the primary field is released??-->
+   Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd. <!--adjust this when the primary field is released??-->
 
 1. (Optioneel en voorwaardelijk) Als u miniaturen aan records hebt toegevoegd, selecteert u de optie Miniatuur om de afbeelding weer te geven die aan records is gekoppeld in de recordbalk.
 

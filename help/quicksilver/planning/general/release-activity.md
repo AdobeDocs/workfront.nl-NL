@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ Voorbeeld: te bepalen
 Er is een koppeling &#39;Meer tonen/Minder tonen&#39; toegevoegd aan een verbonden recordveld, wanneer er records zijn die anders op meer dan twee rijen op de pagina Details van een record zouden worden weergegeven.
 
 Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+
+### Het veld Naam automatisch vullen met de naam van de record bij het verbinden van recordtypen
+
+Productie: 20 juni 2024
+
+Voorbeeld: te bepalen
+
+Wanneer u een verbinding tussen twee verslagen of tussen een verslag en een voorwerp van een andere toepassing creeert, vult de Naam van het verbindingsgebied automatisch met de naam van het verbonden verslag. Voorafgaand aan deze verbetering, moest u manueel een Naam voor het verbindingsgebied toevoegen.
+
+Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Definiëren hoe verbonden verslagen in verbonden gebieden tonen
+
+Productie: 20 juni 2024
+
+Voorbeeld: te bepalen
+
+U kunt nu bepalen hoe verbonden records worden weergegeven in verbonden velden. Wanneer u een nieuwe verbinding toevoegt aan een recordtype, kunt u nu de titel en miniatuur van de verbonden record of alleen de miniatuur weergeven.
+
+De titel van een record is de naam van de record of een veld dat is ingesteld als het primaire veld in de tabelweergave van het recordtype.
+
+Deze verbetering is beschikbaar voor verslagen die van de Planning van Workfront en voor activa verbonden van Adobe Experience Manager worden verbonden.
+
+Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Week van 10 juni 2024
 
@@ -563,6 +587,7 @@ Productie: 14 maart 2024 Voorbeeld: nog te bepalen
 We hebben de weergave van de weergaven op de pagina met recordtypen bijgewerkt. De nieuwe weergaven reageren dynamisch en passen zich snel aan de grootte van het scherm aan. De labels van de werkbalkopties zijn verborgen op kleinere schermen, zodat de werkbalk gebruiksvriendelijker wordt.
 
 Raadpleeg de volgende artikelen voor meer informatie:
+
 * [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
