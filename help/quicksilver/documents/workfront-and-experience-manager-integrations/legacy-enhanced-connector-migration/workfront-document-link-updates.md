@@ -6,9 +6,9 @@ description: U kunt de API gebruiken om gekoppelde mappen en documenten te migre
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/documentFolder/search?fields=*,linkedFolder:*&linkedFolder:externalIntegrationType={providerType}
 ```
 
-API DOCS: (Eindpunten van documentmap worden momenteel niet behandeld op developer.workfront.com)
+API DOCS: (Eindpunten van documentmap worden momenteel niet gedekt door developer.workfront.com)
 
 ### Documenten koppelen
 
@@ -88,7 +88,7 @@ Http Body:
 refObjCode=DOCU&refObjID={documentId}&providerType={providerType}&documentProviderID={documentProviderID}
 ```
 
-API DOCS: (Interne eindpunten van de Verbinding worden momenteel niet behandeld bij developer.workfront.com)
+API DOCS: (Internal Link Endpoints zijn momenteel niet opgenomen in developer.workfront.com)
 
 ### Mappen koppelen
 
@@ -112,7 +112,7 @@ Http Body:
 providerType={providerType}&documentProviderID={documentProviderID}&breadcrumb=[]&linkAction=LINKEXTERNAL&refObjCode={USER|PROJECT_TASK|TEMPLATE_TASK|securityRootObjectCode}&refObjID={userID|taskID|templateTaskID|securityRootId}&destFolderID={parentFolderId}
 ```
 
-API DOCS: (Interne eindpunten van de Verbinding worden momenteel niet behandeld bij developer.workfront.com)
+API DOCS: (Internal Link Endpoints zijn momenteel niet opgenomen in developer.workfront.com)
 
 ## Belangrijke termen
 
@@ -124,45 +124,45 @@ API DOCS: (Interne eindpunten van de Verbinding worden momenteel niet behandeld 
 
 * **Documentmap-id**: Workfront interne id voor een map met digitale middelen
 
-* **Documentprovider-id**: ID gekoppeld aan specifieke DOC-providers
+* **Documentprovider-id**: ID gekoppeld aan specifieke documentproviders
 
 >[!IMPORTANT]
 >
 > Voor een bepaald type documentprovider kunnen er meerdere gekoppelde instanties zijn. Ze kunnen bijvoorbeeld meerdere AEM opslagplaatsen hebben gekoppeld. Of meerdere Google Drive-instanties gekoppeld. De Document Provider ID wijst op de specifieke instantie van het verbindingstype wij of willen vervangen.
 
-* **Documentopslagprovider (ook &quot;type externe integratie&quot;)**: Het type integratie van de documentopslagprovider dat door Workfront wordt ondersteund. Of via een specifieke integratie of een &quot;aangepaste integratie&quot;.
+* **Documentopslagprovider (ook &quot;type externe integratie&quot;)**: Het type integratie van de documentopslagprovider dat Workfront ondersteunt. Of via een specifieke integratie of een &quot;aangepaste integratie&quot;.
 
 * **Huidige typen opslagproviders van documenten ( providerType)**:
 
-   ```
-   ATTASK
-   BOX
-   GOOGLE
-   SHAREPOINT
-   WEBDAM
-   WORKFRONTDAM
-   INFERNO
-   WIDEN
-   DROPBOX
-   DROPBOX_BUSINESS
-   ONEDRIVE
-   QUIP
-   WEBHOOKS
-   AEM
-   MOCK
-   ```
+  ```
+  ATTASK
+  BOX
+  GOOGLE
+  SHAREPOINT
+  WEBDAM
+  WORKFRONTDAM
+  INFERNO
+  WIDEN
+  DROPBOX
+  DROPBOX_BUSINESS
+  ONEDRIVE
+  QUIP
+  WEBHOOKS
+  AEM
+  MOCK
+  ```
 
-* **Gekoppeld document**: Een digitaal middel dat in een externe leverancier van de documentopslag wordt ontvangen. Workfront heeft een eigen interne Document ID voor het element, maar de bytes worden extern opgeslagen. Om dit mogelijk te maken, slaat Workfront ook een &quot;externe document-id&quot; op die u helpt bij het zoeken naar de bron waarnaar extern wordt verwezen in de externe opslagplaats of opslagplaats.
+* **Gekoppeld document**: Een digitaal element dat wordt gehost in een externe documentopslagprovider. Workfront heeft een eigen interne Document ID voor het element, maar de bytes worden extern opgeslagen. Om dit mogelijk te maken, slaat Workfront ook een &quot;externe document-id&quot; op die u helpt bij het zoeken naar de bron waarnaar extern wordt verwezen in de externe opslagplaats of opslagplaats.
 
 * **Map voor gekoppeld document**: Een container voor digitale elementen die wordt gehost in een externe documentopslagprovider. Workfront heeft een eigen interne Document Folder ID voor het element, maar de bytes worden extern opgeslagen. Om dit mogelijk te maken, slaat Workfront ook een &quot;externe document-id&quot; op die u helpt bij het zoeken naar de bron waarnaar extern wordt verwezen in de externe opslagplaats of opslagplaats.
 
-* **Externe document-id**: Id toegewezen wanneer elementen buiten werkfront worden opgeslagen. Workfront wijst zijn interne id toe aan de id die wordt gebruikt om het element in het externe systeem te vinden, via dit veld voor de id van het externe document. Daarom moet bij het koppelen van het document of de map vanuit een nieuwe externe opslag een nieuwe externe document-id worden samengesteld in de juiste indeling voor de externe documentprovider om het document in de nieuwe opslagplaats of opslagplaats te identificeren.
+* **Externe document-id**: ID toegewezen wanneer elementen buiten Workfront zijn opgeslagen. Workfront wijst zijn interne id toe aan de id die wordt gebruikt om het element in het externe systeem te vinden, via dit veld voor de id van het externe document. Daarom moet bij het koppelen van het document of de map vanuit een nieuwe externe opslag een nieuwe externe document-id worden samengesteld in de juiste indeling voor de externe documentprovider om het document in de nieuwe opslagplaats of opslagplaats te identificeren.
 
-   >[!NOTE]
-   >
-   > Workfront heeft nog geen standaard voor externe document-id&#39;s. Er wordt een nieuwe specificatie gebruikt voor AEM-id&#39;s, maar voor andere id&#39;s kan de externe document-id verschillende vormen aannemen, afhankelijk van het providertype.
+  >[!NOTE]
+  >
+  > Workfront heeft nog geen standaard voor externe document-id&#39;s. Er wordt een nieuwe specificatie gebruikt voor AEM-id&#39;s, maar voor andere id&#39;s kan de externe document-id verschillende vormen aannemen, afhankelijk van het providertype.
 
 
-* **Objecttype**: Dit is alleen een API-term voor de doeleinden van dit document. Het is een soort algemeen object binnen het werkfront waarmee je wilt communiceren. In deze gevallen zult u werken met documenten en mappen die respectievelijk de typen &quot;DOCU&quot; en &quot;DOCFDR&quot; hebben.
+* **Objecttype**: Dit is alleen een API-term voor de doeleinden van dit document. Het is een soort algemeen object in Workfront waarmee je wilt communiceren. In deze gevallen zult u werken met documenten en mappen die respectievelijk de typen &quot;DOCU&quot; en &quot;DOCFDR&quot; hebben.
 
 * **Object-id**: De interne Workfront-id voor het algemene object waarmee u wilt communiceren. U gaat werken met documenten en mappen, dus dit is respectievelijk de document-id of de documentmap-id.
