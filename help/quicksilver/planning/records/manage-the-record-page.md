@@ -1,20 +1,20 @@
 ---
-title: De recordpagina beheren
+title: De lay-out van de recordpagina beheren
 description: U kunt de lay-out van de verslagvoorproef en pagina in de Planning van Adobe Workfront uitgeven.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# De recordpagina beheren
+# De lay-out van de recordpagina beheren
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Wijzigingen die u in de voorvertoning van de record aanbrengt, zijn direct zichtbaar op de pagina met recorddetails. Wijzigingen die u aanbrengt in de recordpagina, worden ook weergegeven in het voorvertoningsvak van de record.
 
-* Het toevoegen van een omslagafbeelding aan een record maakt geen deel uit van de algemene lay-out van de voorvertoning of pagina van de record. U kunt unieke omslagafbeeldingen aan elke record toevoegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* Het toevoegen van een omslagafbeelding of een miniatuur aan een record maakt geen deel uit van de algemene lay-out van de voorvertoning of pagina van de record. U kunt unieke omslagafbeeldingen of miniaturen aan elke record toevoegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) en [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## Secties toevoegen aan een recordvoorvertoning of pagina
 
@@ -135,15 +135,11 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam.
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
 1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
 
@@ -200,15 +196,11 @@ Alle secties worden standaard uitgevouwen.
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam.
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
 
 1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
 

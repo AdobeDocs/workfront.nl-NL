@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    * **Standaard (grijs)**: De kleur van de groepen is ingesteld op grijs. Dit is de standaardinstelling.
    * **Veldwaarden**: De kleur van de groepen komt overeen met de kleur van het veld waarop u groepeert.
-U kunt de kleur van de groepen alleen aanpassen aan velden met opties voor kleurcodes.
+
+     >[!NOTE]
+     >
+     >    * U kunt de kleur alleen aanpassen aan velden met opties voor kleurcodes. U kunt bijvoorbeeld de kleur aanpassen aan statusvelden of aan velden met opties die zijn gekoppeld aan kleuren.
+     >    
+     >    * U kunt de kleur niet aanpassen aan opzoekvelden van gekoppelde record- of objecttypen.
+
 
    Multiselect- of single-select-velden kunnen bijvoorbeeld kleuropties hebben.
 

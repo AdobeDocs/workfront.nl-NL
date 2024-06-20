@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 Hieronder vindt u sjablonen voor werkruimten in Workfront-planning en het aantal velden dat deze bevatten:
 
-* **Marketing management**: U kunt al uw marketingcampagnes beheren wanneer u deze sjabloon gebruikt. De sjabloon wordt geleverd met het volgende:
+* **Basis: Marketing Management** Betreft: Ideaal voor organisaties die de basis leggen voor een marktsysteem voor basisproducten. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
-   * Typen operationele record:
+   * Typen operationele records:
 
-      * **Marketing Plan**: 7 velden en 5 gekoppelde velden
-      * **Campagne**: 9 velden en 7 gekoppelde velden
-      * **Programma**: 9 velden en 5 gekoppelde velden
-      * **Activiteit**: 6 velden en 5 gekoppelde velden
+      * **Campagne**: 15 velden
    * Taxonomieën:
-      * **Publiek**: 3 velden en 3 gekoppelde velden
-      * **Segment**: 5 velden en 1 gekoppeld veld
-      * **Klantenreis**: 4 velden
-      * **Productaanbod**: 3 velden en 1 gekoppeld veld
-      * **Regio**: 1 veld
-      * **Tactisch**: 1 veld
-      * **Kanalen**: 1 veld en 1 gekoppeld veld
-      * **Bedrijfseenheid**: 1 veld
-      * **Functie**: 1 veld
 
-* **Verkoopbeheer**: U kunt een uitgebreid verkoopsysteem maken dat uw verkoopproces stroomlijnt en de efficiëntie verhoogt. De sjabloon wordt geleverd met het volgende:
+      * **Personas**: 7 velden
+      * **Merken**: 6 velden
+      * **Producten**: 5 velden
 
-   * Typen operationele record:
+* **Geavanceerd: marketingbeheer**: Geschikt voor teams die gereed zijn om genuanceerde marketingstrategieën te verkennen. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
-      * **Opportunity**: 7 velden en 4 gekoppelde velden
-      * **Activiteit**: 4 velden en 5 gekoppelde velden
-      * **Campagne**: 5 velden en 3 gekoppelde velden
+   * Typen operationele records:
+
+      * **Campagnes**: 14 velden
+      * **Programma&#39;s**: 23 velden
+
    * Taxonomieën:
-      * **Account**: 4 velden en 3 gekoppelde velden
-      * **Lood**: 12 velden en 2 gekoppelde velden
-      * **Contact**: 10 velden en 2 gekoppelde velden
-      * **Regio**: 1 veld en 2 gekoppelde velden
-      * **Industrie**: 1 veld
+      * **Regio&#39;s**: 1 veld
+      * **Reisfasen van klant**: 4 velden
+      * **Soorten publiek**: 8 velden
+      * **Te leveren items**: 12 velden
+      * **Merken**: 6 velden
+
+* **Enterprise: Marketing Management**: Ontworpen voor grote of volwassen organisaties met complexe marketingsystemen. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+
+   * Typen operationele records:
+
+      * **Campagnes**: 15 velden
+      * **Programma&#39;s**: 15 velden
+      * **Tactiek**: 11 velden
+      * **Activiteiten**: 18 velden
+
+   * Taxonomieën:
+
+      * **Producten**: 10 velden
+      * **Te leveren items**: 18 velden
+      * **Doelpubliek**: 8 velden
+      * **Regio&#39;s**: 8 velden
+      * **Subregio&#39;s**: 7 velden
+      * **Partners**: 7 velden
+      * **Gevallen gebruiken**: 7 velden
+      * **Reisfasen van klant**: 3 velden
+
+* **Verkoopbeheer**: U kunt een uitgebreid verkoopsysteem maken dat uw verkoopproces stroomlijnt en de efficiëntie verhoogt. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+
+   * Typen operationele records:
+
+      * **Opportunity**: 11 velden
+      * **Activiteit**: 9 velden
+      * **Campagne**: 8 velden
+   * Taxonomieën:
+      * **Account**: 7 velden
+      * **Lood**: 14 velden
+      * **Contact**: 12 velden
+      * **Regio**: 3 velden
+      * **Industrie**: veld 2
       * **Koopcentrum**: 1 veld
       * **Product/service**: 1 veld
       * **Concurrentie**: 1 veld
 
-* **Productbeheer**: Met deze sjabloon kunt u een efficiënt en gestructureerd productbeheerproces maken. De sjabloon wordt geleverd met het volgende:
+* **Productbeheer**: Met deze sjabloon kunt u een efficiënt en gestructureerd productbeheerproces maken. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
-   * Typen operationele record:
+   * Typen operationele records:
 
-      * **Thema**: 8 velden en 2 gekoppelde velden
-      * **Initiatief**: 8 velden en 2 gekoppelde velden
-      * **Epic**: 9 velden en 3 gekoppelde velden
-      * **Gebruikersartikel**: 9 velden en 2 gekoppelde velden
+      * **Thema**: 10 velden
+      * **Initiatief**: 10 velden
+      * **Epic**: 12 velden
+      * **Gebruikersartikel**: 11 velden
 
    * Taxonomieën:
 
-      * **Klant**: 6 velden en 1 gekoppeld veld
-      * **Sprint**: 7 velden en 1 gekoppeld veld
-      * **Productteam**: 3 velden
-      * **Functieverzoeken**: 8 velden en 1 gekoppeld veld
-      * **Industrie**: 1 veld en 1 gekoppeld veld
+      * **Klant**: 8 velden
+      * **Sprint**: 9 velden
+      * **Productteam**: 4 velden
+      * **Functieverzoeken**: 9 velden
+      * **Industrie**: 2 velden

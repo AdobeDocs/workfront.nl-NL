@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,9 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
 1. (Optioneel en voorwaardelijk) Klik op **Voorvertoning** binnen een van de volgende vooraf gedefinieerde werkruimtjablonen:
 
-   * Marketing management
+   * Basis: Marketing Management
+   * Geavanceerd: marketingbeheer
+   * Enterprise: Marketing Management
    * Verkoopbeheer
    * Productbeheer
 
@@ -133,7 +135,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
    of
 
-   Klikken **Vorige** en klik vervolgens op **Werkruimte maken** om een werkruimte helemaal opnieuw te maken.
+   Klikken **Vorige** en klik vervolgens op **Nieuwe werkruimte** om een werkruimte helemaal opnieuw te maken.
 
    Er wordt een werkruimte gemaakt voor de volgende typen werkruimten:
 

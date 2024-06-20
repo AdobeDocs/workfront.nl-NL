@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Hier volgen vaak gestelde vragen over projecten.
 
 ### Antwoord
 
-Als u de invoegopties wilt gebruiken, moet de takenlijst op nummer worden gesorteerd. Klik op **Aantal** in de kolomkop links van **Taaknaam** om de taak door aantal te gebruiken.
+Als u de invoegopties wilt gebruiken, moet de takenlijst op nummer worden gesorteerd. Als u de kolom op aantal wilt sorteren, klikt u op **Aantal** in de kolomkop links van **Taaknaam** om de taak door aantal te gebruiken.
 
 ## Wat is de werkelijke einddatum?
 
@@ -55,13 +55,13 @@ Als voor het project de modus Voltooien is ingesteld op Automatisch, wordt de st
 
 ## Waarom kan ik geen Project aan een Portfolio toevoegen, hoewel ik de correcte toestemmingen heb om dit te doen?
 
-Hoewel ik de correcte toestemmingen heb, voegt de knoop van Projecten op het lusje van Projecten van Portfolio toe.
+Hoewel ik de correcte toestemmingen heb, voegt de knoop van Projecten op het lusje van Projecten van het Portfolio toe.
 
 ### Antwoord
 
-Dit wordt veroorzaakt door de status van de Portfolio die Inactief is. De status van de Portfolio wijzigen:
+Dit wordt veroorzaakt door de status van het Portfolio die Inactief is. De status van het Portfolio wijzigen:
 
-1. Klikken op **Portfolio Details > Overzicht**.
+1. Klikken op **Portfolio > Details > Overzicht**.
 1. Wijzig de **Status** tot **Actief.**
 
 1. Klikken **Opslaan**.\
@@ -71,7 +71,7 @@ Dit wordt veroorzaakt door de status van de Portfolio die Inactief is. De status
 
 ### Antwoord
 
-De Managers van het middel ontvangen automatisch leiden toegang tot projecten. Als u de gebruiker verwijdert uit de rol Resource Manager, wordt de gedeelde beheertoegang niet verwijderd.
+De Managers van het middel ontvangen automatisch leiden toegang tot projecten. Als u de gebruiker verwijdert uit de rol van Resource Manager, wordt de gedeelde beheertoegang niet verwijderd.
 
 ## Waarom verandert de projectstatus wanneer ik een groep toevoegt?
 

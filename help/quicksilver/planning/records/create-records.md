@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
       * Klikken **Nieuwe record** rechtsboven op de pagina. Het voorvertoningsvak voor records wordt geopend.
 
-1. Typ gegevens in de nieuwe rij over de nieuwe record of in de velden die u in het voorvertoningsvak ziet.
+     Workfront uploadt automatisch een miniatuur en een omslagafbeelding naar elke nieuwe record. U kunt deze afbeeldingen later wijzigen. Raadpleeg de volgende artikelen voor meer informatie:
+
+      * [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. Typ informatie over de nieuwe record in de velden die u in het voorvertoningsvak ziet.
 
    >[!NOTE]
    >
-   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u een Naam voor het verslag toevoegt aangezien het nuttig is om verslagen door hun naam te identificeren wanneer het verbinden van verslagen aan elkaar.
+   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Zie voor meer informatie over primaire velden [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 
@@ -140,7 +145,7 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    >U hebt toegang tot **Details openen** alleen uit het naamveld van de record wanneer het veld Naam een primair veld is.
 
 1. Bewerk de recordgegevens in de voorvertoning van de record. Workfront slaat uw wijzigingen automatisch op.
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de voorvertoning van de record om de pagina van de record in een nieuw tabblad te openen. Ga door met het bewerken van de record op de recordpagina.
+1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van de voorvertoning van de record om de pagina van de record in een nieuw tabblad te openen. Ga door met het bewerken van de record op de recordpagina. Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze in de tabelweergave toevoegt:
 

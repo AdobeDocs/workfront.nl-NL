@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
      >
      >* U kunt het veld Naam niet naar een andere positie verplaatsen, tenzij u een ander veld als primair veld aanwijst. Ga voor meer informatie verder met stap 4. <!--accurate?-->
      >
-     >* U kunt een primair veld niet verbergen of verwijderen.
      >
-     >* Het primaire veld is bevroren en maakt geen deel uit van de horizontale schuifbalk.
 
    * Vervang het veld in de eerste kolom door een ander veld door het primaire veld te wijzigen. Ga voor meer informatie verder met stap 4. <!--accurate?-->
 
@@ -167,7 +165,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >       * Getal
    >       * Formule
    >
-   >   * Het primaire veld is altijd bevroren en kan niet worden verplaatst. U kunt een ander veld selecteren om een primair veld te vervangen als u het naar een andere positie wilt verplaatsen.
+   >   * Het primaire veld is altijd bevroren en kan niet worden verplaatst of verborgen. Het primaire veld is bevroren en maakt geen deel uit van de horizontale schuifbalk. U kunt een ander veld selecteren om een primair veld te vervangen als u het naar een andere positie wilt verplaatsen.
    >
    >   * Het wijzigen van het primaire veld in de tabelweergave heeft invloed op de weergave voor alle andere gebruikers die deze selecteren.
    >
@@ -176,6 +174,8 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >   * U kunt een primair veld niet verwijderen of verbergen.
    >
    >   * De waarde in het primaire veld is altijd gekoppeld aan de pagina van de record.
+   >
+   >   * Primaire velden worden de titel van de record en worden weergegeven in de recordpagina&#39;s in het koptekstgebied van de records, en overal waar de records worden weergegeven. De recordtitel wordt bijvoorbeeld weergegeven in verbonden velden en in alle weergaven.
 
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 
@@ -230,7 +230,7 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
    Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Optioneel) Selecteer een of meerdere records in een rij en sleep vervolgens de records **handgreep** pictogram ![](assets/handle-icon.png) links van de recordnaam om de rijen opnieuw te ordenen.
+1. (Optioneel) Selecteer een of meerdere records in een rij en sleep vervolgens de records **handgreep** pictogram ![](assets/handle-icon.png) links van de record om de rijen opnieuw te ordenen.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de tabelweergave:
 
 * U kunt filteren door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
 
-* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een filter voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Eigenaar van het Project in het filter verwijzen u voor het type van het verslag van de Activiteit creeert.
+* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een filter voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het type van het verslag van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u het Begroting van het project in het filter van verwijzingen voorzien u voor het type van het verslag van de Activiteit creeert.
 
 Een filter toevoegen aan een tabelweergave:
 
@@ -375,7 +375,7 @@ Overweeg het volgende:
 * Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
 * U kunt records bewerken die in een groep worden vermeld.
 * U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
-* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Eigenaar van het Project in de groepering verwijzen u voor het type van het verslag van de Activiteit creeert.
+* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de groepering verwijzen u voor het verslagtype van de Activiteit creeert.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ Een groep toevoegen:
    Klikken **Alles wissen** alle velden verwijderen.
 
 1. Klik buiten de **Records groeperen op** te sluiten.
-1. (Optioneel) Klik op **+ Nieuw &lt; Naam recordtype >** aan het einde van een groepering om nieuwe records toe te voegen, vernieuwt u de pagina om de nieuwe record aan de juiste groepering toe te voegen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Optioneel) Klik op **+ Nieuwe record** aan het einde van een groepering om nieuwe records toe te voegen, vernieuwt u de pagina om de nieuwe record aan de juiste groepering toe te voegen. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Een sortering toevoegen {#sort-information}
 
@@ -432,7 +432,7 @@ Houd rekening met het volgende wanneer u records in de tabelweergave sorteert:
 
 * U kunt sorteren op gekoppelde recordvelden of opzoekvelden, maar niet op velden die koppelingen naar meerdere records toestaan.
 
-* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een soort voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Eigenaar van het Project in de soort van verwijzen u voor het type van het verslag van de Activiteit creeert.
+* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een soort voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de soort van verwijzen u voor het type van het verslag van de Activiteit creeert.
 
 Sorteren <!--ungrouped (add this when sorting for groupings will be available--> records, voert u de volgende handelingen uit:
 

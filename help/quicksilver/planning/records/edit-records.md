@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
 * URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
 * U kunt een omslagafbeelding aan elke record toevoegen. De afbeelding is uniek voor elke record en is niet van toepassing op alle records van hetzelfde moment.
-* U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Zie voor meer informatie [De recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+* U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Records bewerken
 
 U kunt een record uit de volgende gebieden bewerken:
 
-* [Vanuit de tabelweergave van een recordtype](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Uit de voorvertoning van de record in een weergave](#edit-a-record-from-the-records-box-in-a-view)
+* [Vanuit de tabelweergave van een recordtype](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Uit de voorvertoning van de record in een weergave](#edit-a-record-from-the-records-preview-in-a-view)
 * [Van de recordpagina](#edit-a-record-from-the-records-page)
 
 ### Een record inline bewerken in de tabelweergave van een recordtype
@@ -200,17 +200,17 @@ U kunt een record uit de volgende gebieden bewerken:
 
    De pagina met recordtypen wordt geopend.
 
-1. Klik vanuit een weergave van een willekeurig type op de naam van een record
+1. Klik vanuit een weergave van een willekeurig type op de record
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) links van een recordnaam. De voorvertoning van de record wordt in de weergave geopend.
+   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >U kunt de **Details openen** pictogram links van het veld Naam van een record alleen in een tabelweergave als het veld Naam een primair veld is.
+1. (Optioneel) Klik op de knop **Meer** rechts van de titel van de record en klikt u vervolgens op **Naam wijzigen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
+
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. Bewerk de veldinformatie in de voorvertoning van de record.
 
@@ -218,10 +218,12 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Velden opzoeken van andere records die zijn gemaakt door de recordtypen aan te sluiten. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
 1. (Optioneel) Klik op **omslag toevoegen** om een omslagafbeelding aan de record toe te voegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Optioneel) Houd de muisaanwijzer boven het miniatuurpictogram en klik vervolgens op **Meer** ![](assets/more-menu.png) > **Miniatuur bewerken** om een miniatuurafbeelding toe te voegen. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront slaat uw wijzigingen automatisch op.
 
@@ -251,6 +253,10 @@ U kunt een record uit de volgende gebieden bewerken:
 
      ![](assets/details-page.png)
 
+1. (Optioneel) Klik op de knop **Meer** rechts van de titel van de record en klikt u vervolgens op **Naam wijzigen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
+
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. Klik op een bewerkbaar veld op de recordpagina om deze te bewerken.
 
    >[!TIP]
@@ -260,7 +266,17 @@ U kunt een record uit de volgende gebieden bewerken:
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Optioneel) Klik op **omslag toevoegen** om een omslagafbeelding aan de record toe te voegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Optioneel) Klik op **omslag toevoegen** een omslagafbeelding aan de record toevoegen
+
+   of
+
+   Houd de muis boven de bestaande omslagafbeelding en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Uploaden** om een nieuwe omslagafbeelding voor de record toe te voegen.
+
+   Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Optioneel) Houd de muisaanwijzer boven een bestaande miniatuur of de **miniatuurpictogram** ![](assets/record-thumbnail-icon-on-details-page.png)en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Miniatuur bewerken** om een miniatuur voor de record toe te voegen.
+
+   Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront slaat uw wijzigingen automatisch op.
 
