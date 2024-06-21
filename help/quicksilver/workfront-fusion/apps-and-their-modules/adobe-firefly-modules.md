@@ -8,9 +8,10 @@ title: Adobe Firefly
 description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL Adobe Firefly]en deze verbinding maken met meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ Deze actiemodule breidt een afbeelding uit, optioneel met inhoud van een vraag d
    <td>Voer een vraag in of wijs een vraag toe aan de inhoud waarmee u de afbeelding wilt uitvouwen. Als er geen vraag wordt weergegeven, wordt de afbeelding uitgebreid met inhoud die overeenkomt met de oorspronkelijke afbeelding.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal uitgebreide afbeeldingsvariaties.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Expanded image format]</td> 
    <td>Selecteer de bestandsindeling waarin de uitgevouwen afbeelding wordt opgeslagen.</td> 
   </tr> 
@@ -212,6 +217,10 @@ Deze actiemodule vult het gemaskeerde gebied van een afbeelding, optioneel met i
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe aan de inhoud waarmee u de afbeelding wilt vullen. Als er geen vraag wordt weergegeven, wordt de afbeelding gevuld met inhoud die overeenkomt met de oorspronkelijke afbeelding.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal gevulde afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filled image format]</td> 
@@ -253,6 +262,10 @@ Deze actiemodule genereert een afbeelding op basis van een vraag die u opgeeft. 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe aan de afbeelding die u wilt maken. Als u meer details opgeeft in de vraag, hebt u meer controle over wat er in de afbeelding wordt weergegeven.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generated image format]</td> 
@@ -297,5 +310,3 @@ Deze actiemodule genereert een afbeelding op basis van een vraag die u opgeeft. 
   </tr> 
  </tbody> 
 </table>
-
-
