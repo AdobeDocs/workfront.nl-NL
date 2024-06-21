@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,31 @@ ht-degree: 0%
 # AI-assistent in- of uitschakelen
 
 Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI Assistant hebben ingeschakeld. Dit wordt beheerd door toegangsniveaus.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Alle</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Plan</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## AI Assistant in Workfront inschakelen of uitschakelen
 
 AI Assistant is standaard ingeschakeld.
 
