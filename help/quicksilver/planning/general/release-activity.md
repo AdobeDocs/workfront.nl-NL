@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ De titel van een record is de naam van de record of een veld dat is ingesteld al
 Deze verbetering is beschikbaar voor verslagen die van de Planning van Workfront en voor activa verbonden van Adobe Experience Manager worden verbonden.
 
 Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Alleen gebruikers met een licentie voor Standaard of Plan kunnen beheermachtigingen voor werkruimten hebben (titel)
+
+Productie: 21 juni 2024
+
+Voorbeeld: te bepalen
+
+We hebben gewijzigd welke typen gebruikers volledige toegang tot werkruimten kunnen hebben. Nu kunnen alleen gebruikers met een licentie voor Standaard of Plan beschikken over beheermachtigingen voor werkruimten. De toegang tot recordtypen, records en velden wordt overgenomen van een werkruimte. Alle andere gebruikers hebben alleen-weergeven toegang tot werkruimten en hun objecttypen. Gebruikers met een licentie voor Light en Worker kunnen vóór deze update Contribute-machtigingen ontvangen voor werkruimten.
+
+Zie voor meer informatie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Week van 10 juni 2024
 
@@ -366,7 +376,7 @@ Wanneer een gebruiker een veldconfiguratie (naam, beschrijving, lijst met opties
 >
 >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
-Zie voor meer informatie [Velden bewerken](/help/quicksilver/planning/fields/edit-fields.md).
+Zie voor meer informatie [Veldinstellingen bewerken](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Week van 6 mei 2024
 

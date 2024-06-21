@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: a48f51de4de911605b84055cf115e649d5750ca4
+source-git-commit: 1b6d807e3ec560974632bb6667e576efc13a0827
 workflow-type: tm+mt
-source-wordcount: '14367'
+source-wordcount: '14368'
 ht-degree: 0%
 
 ---
@@ -2071,7 +2071,7 @@ ht-degree: 0%
       * [Velden: artikelindex](planning/fields/fields-information.md)
       * [Overzicht van velden](planning/fields/fields-overview.md)
       * [Velden maken](planning/fields/create-fields.md)
-      * [Velden bewerken](planning/fields/edit-fields.md)
+      * [Veldinstellingen bewerken](planning/fields/edit-fields.md)
       * [Velden verwijderen](planning/fields/delete-fields.md)
       * [Overzicht van formuliervelden](planning/fields/formula-fields.md)
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)

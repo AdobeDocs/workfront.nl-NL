@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -135,4 +135,8 @@ De werkruimte die u het laatst hebt geopend.
 
 ## Alle records in een werkruimte delen door de werkruimte te delen
 
-U kunt alle records in een werkruimte delen wanneer u de werkruimte deelt met anderen. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md).
+U kunt alle records in een werkruimte delen wanneer u de werkruimte deelt met anderen.
+
+Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
+
+Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md).

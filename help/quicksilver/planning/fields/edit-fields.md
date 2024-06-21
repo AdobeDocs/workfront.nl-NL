@@ -1,13 +1,13 @@
 ---
-title: Velden bewerken
+title: Veldinstellingen bewerken
 description: In de Planning van Adobe Workfront, kunt u de gebiedsmontages voor gebieden uitgeven die reeds worden gecreeerd. In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -25,7 +25,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Velden bewerken
+# Veldinstellingen bewerken
 
 {{planning-important-intro}}
 
@@ -34,33 +34,6 @@ U kunt de gebiedsmontages voor gebieden uitgeven die reeds in de Planning van Ad
 Voor informatie over het maken van Adobe Workfront-planningsvelden raadpleegt u [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
 
 In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het bewerken van veldwaarden voor records raadpleegt u [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
-
-## Overwegingen bij het bewerken van veldinstellingen
-
-U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de configuratie van een veld:
-
-* U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe de velden behoren.
-* U kunt een veld in de tabel met recordtypen bewerken.
-* U kunt een veld op de recordpagina of in een andere weergave, buiten de tabelweergave, niet bewerken.
-* U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
-* U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
-* U kunt de configuratie van de volgende veldelementen bewerken nadat u het veld hebt opgeslagen:
-
-   * De naam of beschrijving van een veld
-   * De Opties van een Enig-uitgezochte of multi-uitgezochte gebied.
-   * De expressie van een veld Formule.
-
-  >[!WARNING]
-  >
-  >Wanneer formulerendingen veranderen, of de opties van een uitgezocht-type gebied worden toegevoegd of verwijderd, zal er gegevensverlies voor de verslagen zijn die reeds informatie hebben die in de gebieden wordt opgeslagen de waarvan configuratie wordt gewijzigd.
-  >
-  >Er is geen waarschuwing of indicatie dat dit gegevensverlies kan optreden wanneer u de configuratie van velden wijzigt.
-  >
-  >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
-
-<!--this is not yet true, but it might come later:
-* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
--->
 
 ## Toegangsvereisten
 
@@ -91,9 +64,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Nieuw: Standaard</p>
+   <p>Huidig: Plan</p> 
   </td>
   </tr>
 
@@ -118,10 +92,39 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody>
 </table>
 
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+## Overwegingen bij het bewerken van veldinstellingen
+
+U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de configuratie van een veld:
+
+* U kunt velden bewerken die u hebt gemaakt of velden die door andere gebruikers zijn gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe de velden behoren.
+* U kunt een veld in de tabel met recordtypen bewerken.
+* U kunt een veld op de recordpagina of in een andere weergave, buiten de tabelweergave, niet bewerken.
+* U kunt het veldtype niet bewerken nadat het veld is opgeslagen.
+* U kunt de eerder geselecteerde instelling voor negatieve getallen toestaan niet uitschakelen voor een veld Getal, Percentage of Valuta als er al negatieve waarden zijn opgeslagen in de records waaraan deze is gekoppeld.
+* U kunt de configuratie van de volgende veldelementen bewerken nadat u het veld hebt opgeslagen:
+
+   * De naam of beschrijving van een veld
+   * De Opties van een Enig-uitgezochte of multi-uitgezochte gebied.
+   * De expressie van een veld Formule.
+
+  >[!WARNING]
+  >
+  >Wanneer formulerendingen veranderen, of de opties van een uitgezocht-type gebied worden toegevoegd of verwijderd, zal er gegevensverlies voor de verslagen zijn die reeds informatie hebben die in de gebieden wordt opgeslagen de waarvan configuratie wordt gewijzigd.
+  >
+  >Er is geen waarschuwing of indicatie dat dit gegevensverlies kan optreden wanneer u de configuratie van velden wijzigt.
+  >
+  >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
+-->
 
 ## Veldinstellingen bewerken
 

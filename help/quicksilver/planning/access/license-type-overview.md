@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 Uw Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-planningsbevoegdheden en geeft u toegang tot werkruimten, werkruimten of werkruimten. <!--add more objects here when we can grant other object-specific permissions-->
 
+Workfront Planning permissions om meningen te registreren zijn onafhankelijk van de licentietypen van Workfront.
+
 Gebruikers met alle licentietypen kunnen de Workfront-planningsweergaven weergeven, maken, bewerken of beheren.
 
 In dit artikel worden de typen licenties beschreven die nodig zijn in Workfront, en de machtigingen die aan werkruimten worden verleend in Workfront Planning op basis van elk type licentie.
@@ -33,7 +35,7 @@ Een gebruiker met een lager licentietype heeft machtigingen beperkt tot werkruim
 >
 >Aanvragers (of medewerkers volgens het nieuwe licentiemodel) kunnen geen bijdrage leveren aan werkruimten en hun objecten of deze beheren.
 >
->Er is een aanwijzing in het vak Delen dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij over een licentie op een lager niveau beschikken.
+>Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -47,10 +49,9 @@ In de onderstaande tabel wordt de relatie beschreven tussen het licentietype van
 Het verlenen van gebruikerstoestemmingen aan een werkruimte verleent hen ook toestemmingen om types, verslagen, en gebieden te registreren.
 
 
-| Adobe Workfront-licentietype* | Machtigingen toegestaan in Adobe Workfront-planning |
+| Adobe Workfront-licentietype* | Hoogste machtigingen toegestaan in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten, recordtypen en records maken en beheren.<br> Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt. |
-| Nieuw: Licht <br> of <br>Huidig: Werk | Gebruikers kunnen een werkruimte die met hen wordt gedeeld, en de recordtypen en records vanuit die werkruimte, toevoegen en weergeven. <br> Gebruikers kunnen records maken, bewerken en verwijderen in de werkruimten waar zij Contribute-machtigingen hebben. |
-| Nieuw: Medewerker <br> of <br>Huidige: revisor of aanvrager | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes en verslagen van die werkruimten worden gedeeld. <br> Gebruikers kunnen geen recordtypen of records maken, bewerken of verwijderen. |
+| Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten beheren. Ze kunnen werkruimten, recordtypen, records en velden maken, bewerken of verwijderen. <br> Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt. |
+| Nieuw: licht, contribuant <br> of <br>Huidig: Werk, Aanvrager, Reviewer | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld. <br> Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen. |
 
 *Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

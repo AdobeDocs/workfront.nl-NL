@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Nieuw: Licht of hoger</p>
+   <p>Nieuw: Standaard</p>
    of
-   <p>Huidig: Werk of hoger</p> 
+   <p>Huidig: Plan</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen voor een werkruimte beheren of hoger</a> </p>  
+   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
