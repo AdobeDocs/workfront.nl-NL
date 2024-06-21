@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ U kunt aangepaste gegevensvelden ophalen met het voorvoegsel &quot;DE:&quot;. Al
 #### Benoemde query&#39;s gebruiken
 
 Sommige objecttypen hebben benoemde zoekopdrachten die doorgaans worden uitgevoerd en die beschikbaar zijn door de naam van de query aan het einde van het objecttype URI toe te voegen. Met de volgende aanvraag worden bijvoorbeeld de werkitems (taken en problemen) opgehaald waaraan de gebruiker momenteel is toegewezen:
-<pre>/attask/api/v15.0/work/myWork</pre>Benoemde query's ondersteunen het aanvragen van de parameter fields om extra velden op te halen. Sommige benoemde query's accepteren ook extra filters. Zie het tabblad Handeling voor het object in [API Explorer] (../../wf-api/general/api-explorer.md) voor een lijst met toegestane benoemde query's voor een object.
+<pre>/attask/api/v15.0/work/myWork</pre>Benoemde query's ondersteunen het aanvragen van de parameter fields om extra velden op te halen. Sommige benoemde query's accepteren ook extra filters. Zie het tabblad Handeling voor het object in [API Explorer] (https://developer.adobe.com/workfront/api-explorer/) voor een lijst met toegestane benoemde query's voor een object.
 
 #### Gebruiken `Count`
 
