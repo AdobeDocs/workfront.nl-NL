@@ -9,9 +9,9 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -241,8 +241,8 @@ Deze actiemodule vult het gemaskeerde gebied van een afbeelding, optioneel met i
    <td>Selecteer de grootte van de gevulde afbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Voer een geheel getal in of wijs een geheel getal toe. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>Klik voor elke afbeelding die de module genereert op <b>Item toevoegen<b> en voert u een geheel getal in of wijst u dit toe. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. Het aantal zaden dat u toevoegt, moet gelijk zijn aan het veld Aantal variaties.</td> 
   </tr> 
  </tbody> 
 </table>
