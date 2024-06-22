@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
+source-git-commit: 9768756ac444bfe5fc21f20c3431c9cb1235a5f4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,10 @@ Welkom bij het bètaprogramma Workfront + Frame.io! Als onderdeel van deze bèta
 
 Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Om aan dit Bèta deel te nemen, moet u door het productteam worden toegelaten. Neem contact op met uw Customer Success of accountmanager en verzoek om te worden toegevoegd.
+>Deze bètaversie is nu gesloten en we accepteren geen nieuwe deelnemers meer.
+
 
 ## Mei 2024: bètarelease-updates in Workfront
 
