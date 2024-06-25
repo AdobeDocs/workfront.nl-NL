@@ -6,16 +6,14 @@ description: U kunt goedkeuring aanvragen bij andere gebruikers voor een documen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Een documentrevisie of goedkeuringsaanvraag maken
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in Adobe Workfront, of ze vragen een document te bekijken zonder het goed te keuren.
 
@@ -62,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klikken **Goedkeuringen** in het linkerdeelvenster.
 
-1. <span class="preview">(Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.</span>
+1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
 1. Als u een fiatteur wilt toevoegen, klikt u op de knop **Fiatteur** en begint te typen in een gebruiker- of teamnaam.
 
@@ -84,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.</span>
+1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
 1. Als u een fiatteur wilt toevoegen, klikt u op de knop **Fiatteur** en begint te typen in een gebruiker- of teamnaam.
 
