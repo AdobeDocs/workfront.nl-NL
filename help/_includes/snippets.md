@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 0%
 
 1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
 
+## Ontwerper van formulier naar GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>Met de versie 24.7 is de formulierontwerper over het algemeen beschikbaar en wordt deze de standaardeigenschap voor het maken en bewerken van aangepaste formulieren in Adobe Workfront. De verouderde formulierontwikkelaar is niet meer beschikbaar. We raden u aan nu over te schakelen naar de formulierontwerper en de functies ervan te benutten.
+>
+>Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>De verouderde formulierbuilder is op 19 juni 2024 verwijderd uit de voorbeeldomgeving en zal in juli uit de productieomgeving worden verwijderd met de release van 24.7.
 
 ## Rechtergroep koppelen aan team {#right-group-team}
 

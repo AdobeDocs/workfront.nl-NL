@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Een aangepast formulier maken of bewerken met de verouderde formulierbuilder
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 U kunt een nieuw aangepast formulier maken of een bestaand formulier bewerken. Beide taken worden in dit artikel uitgelegd.
 

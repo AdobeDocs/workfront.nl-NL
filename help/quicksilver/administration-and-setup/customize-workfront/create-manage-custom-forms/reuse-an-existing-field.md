@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Een aangepaste veld- of middelenwidget opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder
 description: Wanneer u een aangepast formulier maakt of bewerkt, kunt u een aangepast veld of aangepaste widget toevoegen die al aan een ander aangepast formulier is toegevoegd.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Een aangepaste veld- of middelenwidget opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder
+
+{{form-designer-default}}
 
 Wanneer u een aangepast formulier maakt of bewerkt, kunt u een aangepaste veld- of middelenwidget toevoegen die al aan een ander aangepast formulier is toegevoegd.
 

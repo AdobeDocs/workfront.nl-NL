@@ -1,18 +1,20 @@
 ---
 title: Een afbeeldings- of andere middelenwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder
 description: U kunt de eigenschappen van de volgende widgets voor elementen, zoals afbeeldingen, video's, PDF-bestanden en Adobe XD-bestanden, toevoegen of bewerken in een aangepast formulier. Dit is handig wanneer u visuele inhoud wilt opnemen, zoals brandingafbeeldingen, een instructievideo of een interactief prototype voor een app die u ontwerpt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
 
 # Een afbeeldings- of andere middelenwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder
+
+{{form-designer-default}}
 
 U kunt de eigenschappen van een van de volgende widgets voor elementen toevoegen of bewerken in een aangepast formulier:
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Objecttypen verwijderen op een aangepast formulier
+
+{{form-designer-default}}
 
 Op een bestaand aangepast formulier kunt u objecttypen verwijderen die aan het formulier zijn gekoppeld. Nadat u dit hebt gedaan, kunnen gebruikers het formulier niet meer koppelen aan objecten van dat type.
 

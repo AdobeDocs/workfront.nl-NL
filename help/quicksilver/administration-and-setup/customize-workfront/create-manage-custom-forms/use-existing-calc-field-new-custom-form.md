@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder
 description: U kunt hetzelfde berekende aangepaste veld gebruiken voor aangepaste formulieren die bij verschillende objecten horen. U kunt bijvoorbeeld het berekende veld Winst gebruiken dat u voor het aangepaste formulier voor het project hebt gemaakt, op een aangepaste taakvorm.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder
+
+{{form-designer-default}}
 
 U kunt hetzelfde berekende aangepaste veld gebruiken voor aangepaste formulieren die bij verschillende objecten horen. U kunt bijvoorbeeld het berekende veld Winst gebruiken dat u voor het aangepaste formulier voor het project hebt gemaakt, op een aangepaste taakvorm.
 
