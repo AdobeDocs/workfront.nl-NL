@@ -4,13 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: "Adobe I/O Events Modules"
-description: "Met de Adobe I/O Events modules, kunt u een scenario beginnen van de Fusie van Adobe Workfront dat op gebeurtenissen in uw toepassingen van de Adobe wordt gebaseerd."
+title: Adobe I/O Events-modules
+description: Met de Adobe I/O Events modules, kunt u een scenario beginnen van de Fusie van Adobe Workfront dat op gebeurtenissen in uw toepassingen van de Adobe wordt gebaseerd.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 508f21b6860f13a9cf2a5b19713ed70aaba638c3
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
+source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand 
       </tr>
       <tr>
         <td role="rowheader">Werkruimte-id</td>
-        <td>Voer uw werkruimte-id in. </td>
+        <td>Als u de werkruimte-id van uw project wilt weergeven, downloadt u de projectgegevens van de overzichtspagina van het project in Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
@@ -341,4 +342,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
