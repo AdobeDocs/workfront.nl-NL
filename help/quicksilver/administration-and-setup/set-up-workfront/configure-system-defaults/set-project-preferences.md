@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Het percentage voltooide van een project of oudertaak is gebaseerd op de algemene vooruitgang van de taken. Deze informatie kan op of de Duur of de Geplande Uren van de taken op een project worden berekend.</p> <p>Als u [!UICONTROL Duration], bepaalt de Duur van elke taak in een project het algemene percentage volledig voor het project, en de Duur van elke subtaak bepaalt het algemene percentage volledig voor zijn oudertaak.</p> <p>Als u [!UICONTROL Duration], zorg ervoor dat u de [!UICONTROL Typical hours per work day] en [!UICONTROL Typical work days per week] in de [!UICONTROL Timelines] sectie. [!DNL Workfront] gebruikt deze informatie wanneer het berekenen van het volledige de percent van een taak die op Duur wordt gebaseerd. </p> <p>Als u [!UICONTROL Planned Hours]ervoor zorgen dat alle taken voor elk project de hoeveelheid [!UICONTROL Planned Hours] gedefinieerd en dat de waarde niet nul is.</p> </td> 
+   <td> <p>Workfront berekent het percentage voltooide van een project of oudertaak gebruikend het percentage voltooide van elke taak in het project en of de Duur of de Geplande Uren van elke taak.</p><p>Het percentage voltooide van elke taak wordt manueel geplaatst door taaktoewijzing.</p><p>U kunt hier selecteren of Workfront de Duur of de Geplande Uren van taken zal gebruiken om het percentage te berekenen voltooide projecten.</p> <p>Als u [!UICONTROL Duration], bepaalt de Duur van elke taak in een project het algemene percentage volledig voor het project, en de Duur van elke subtaak bepaalt het algemene percentage volledig voor zijn oudertaak.</p> <p>Als u [!UICONTROL Duration], zorg ervoor dat u de [!UICONTROL Typical hours per work day] en [!UICONTROL Typical work days per week] in de [!UICONTROL Timelines] sectie. [!DNL Workfront] gebruikt deze informatie wanneer het berekenen van het volledige de percent van een taak die op Duur wordt gebaseerd. </p> <p>Als u [!UICONTROL Planned Hours]ervoor zorgen dat alle taken voor elk project de hoeveelheid [!UICONTROL Planned Hours] gedefinieerd en dat de waarde niet nul is.</p><p>Zie voor meer informatie <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Overzicht van projectpercentage voltooid</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
