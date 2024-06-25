@@ -1,7 +1,7 @@
 ---
-source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2341'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Met de versie 24.7 is de formulierontwerper over het algemeen beschikbaar en wordt deze de standaardeigenschap voor het maken en bewerken van aangepaste formulieren in Adobe Workfront. De verouderde formulierontwikkelaar is niet meer beschikbaar. We raden u aan nu over te schakelen naar de formulierontwerper en de functies ervan te benutten.
+>Met de komende release van 15 juli (de release van 24.7) is de formulierontwerper algemeen beschikbaar en wordt deze de standaardervaring voor het maken en bewerken van aangepaste formulieren in Adobe Workfront. De verouderde formulierontwikkelaar is niet meer beschikbaar. We raden u aan nu over te schakelen naar de formulierontwerper en de functies ervan te benutten.
 >
 >Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
