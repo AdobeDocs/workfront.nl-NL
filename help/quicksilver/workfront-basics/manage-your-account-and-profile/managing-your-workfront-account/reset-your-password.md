@@ -6,9 +6,9 @@ description: U kunt uw [!DNL Adobe Workfront] wachtwoord. Als belangrijke veilig
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ U kunt uw [!DNL Adobe Workfront] wachtwoord. Als belangrijke veiligheidsmaatrege
 
 >[!NOTE]
 >
->A [!DNL Workfront] de beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in worden verklaard [Beveiligingsvoorkeuren voor het systeem configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [Wachtwoordbeleid voor verificatie configureren](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>A [!DNL Workfront] de beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in worden verklaard [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [Wachtwoordbeleid voor verificatie configureren](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
->A [!DNL Workfront] De beheerder kan uw wachtwoord in een Verbeterde Authentificatie toegelaten milieu ook terugstellen. Zie voor meer informatie [Het wachtwoord van een gebruiker opnieuw instellen met uitgebreide verificatie](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).
+><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 1. Klik op de knop **[!UICONTROL More menu]** ![](assets/more-icon.png)en klik vervolgens op **[!UICONTROL Edit]**.
 
-1. In de **[!UICONTROL Edit Person]** vak dat wordt weergegeven, onder **[!UICONTROL Personal Info]**, klikt u op **[!UICONTROL Reset Password]**.
+1. In de **[!UICONTROL Edit Person]** vak dat onder wordt weergegeven **[!UICONTROL Personal Info]**, klikt u op **[!UICONTROL Reset Password]**.
 
    ![](assets/edit-person-box-350x196.jpg)
 
@@ -68,7 +68,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
    * Letters
    * Getallen
-   * Speciale tekens (d.w.z. ! @ # $ % enz.)
+   * Speciale tekens (bijv. ! @ # $ % enz.)
 
    De regels van het wachtwoord zouden strenger dan dit, afhankelijk van configuratiemontages kunnen zijn die door uw worden geplaatst [!DNL Workfront] beheerder.
 

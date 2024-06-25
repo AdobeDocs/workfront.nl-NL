@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: De Workfront-migratie naar de Adobe Admin Console begrijpen
-description: Werken met Workfront-product- en gebruikersmigratie naar Adobe Admin Console
+description: Dit artikel beschrijft in algemene termen het proces om een organisatie naar Adobe Admin Console te bewegen, zodat u als beheerder van Workfront kunt weten wat te verwachten.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # De Workfront-migratie naar de Adobe Admin Console begrijpen
 
 Adobe wijzigt de manier waarop u uw Adobe Workfront-gebruikers beheert, waardoor u en uw organisatie meer productiviteit krijgen. Als onderdeel van deze wijziging migreert Adobe uw Workfront-exemplaar en gebruikers naar de Adobe Admin Console. Dit is een noodzakelijke migratie en heeft geen invloed op rapporten, goedkeuringspaden, inhoud of elementen. Dit is van invloed op de manier waarop u gebruikerstoegang beheert en de manier waarop uw gebruikers zich aanmelden.
+
+Dit artikel beschrijft in algemene termen het proces om een organisatie naar Adobe Admin Console te bewegen, zodat u als beheerder van Workfront kunt weten wat te verwachten.
 
 Als u wilt weten hoe u de Adobe Admin Console kunt gebruiken om uw rechten voor Adoben in uw hele organisatie te beheren, raadpleegt u [Gebruikers beheren in de Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
