@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 1b6d807e3ec560974632bb6667e576efc13a0827
+source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
 workflow-type: tm+mt
-source-wordcount: '14368'
+source-wordcount: '14373'
 ht-degree: 0%
 
 ---
@@ -454,6 +454,7 @@ ht-degree: 0%
          * [Herberekeningen van tijdlijn van project](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Aangepaste kwartalen voor projecten](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Snelle releases voor uw organisatie in- of uitschakelen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+         * [Zakelijke regels maken en bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Locaties configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * Plan- en tijdlijnvoorkeuren configureren {#configure-timesheets-schedules}

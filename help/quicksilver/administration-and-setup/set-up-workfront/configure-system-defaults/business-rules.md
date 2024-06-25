@@ -1,0 +1,139 @@
+---
+user-type: administrator
+product-area: system-administration
+navigation-topic: business rules
+title: Zakelijke regels maken en bewerken
+description: U kunt kiezen of u de nieuwe Workfront-functionaliteit op maand- of kwartaalbasis wilt ontvangen.
+author: Lisa
+feature: System Setup and Administration
+role: Admin
+hidefromtoc: true
+hide: true
+recommendations: noDisplay, noCatalog
+source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 0%
+
+---
+
+# Zakelijke regels maken en bewerken
+
+Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bedrijfsregels helpen gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
+
+Eén bedrijfsregel kan slechts aan één object worden toegewezen. Bijvoorbeeld, als u een bedrijfsregel creeert voor het niet uitgeven van projecten onder bepaalde voorwaarden, kunt u niet de zelfde regel op taken toepassen. U zou een afzonderlijke bedrijfsregel met de zelfde voorwaarden voor taken moeten tot stand brengen.
+
+Toegangsniveaus en het delen van objecten hebben een hogere prioriteit dan bedrijfsregels wanneer een gebruiker met een voorwerp in wisselwerking staat. Bijvoorbeeld, als een gebruiker een toegangsniveau of een toestemming heeft die het uitgeven van een project niet toestaat, dan zouden die belangrijkheid over een bedrijfsregel nemen die het uitgeven van een project onder bepaalde voorwaarden toestaat.
+
+Er bestaat ook een hiërarchie wanneer meerdere bedrijfsregels op een object worden toegepast. U hebt bijvoorbeeld twee bedrijfsregels. Eén beperkt het maken van kosten in de maand februari. Het tweede verhindert het uitgeven van een project wanneer de projectstatus Voltooid is. Als een gebruiker probeert om een uitgave aan een voltooid project in juni toe te voegen, kan de uitgave niet worden toegevoegd omdat het de tweede regel heeft teweeggebracht.
+
+De bedrijfsregels zijn van toepassing op het creëren van, het uitgeven van, en het schrappen van voorwerpen door API evenals in de interface van Workfront.
+
+>[!NOTE]
+>
+>Omdat de bedrijfsregels bepaalde acties blokkeren, zou u uw bedrijfsregels eerst in een zandbak of voorproefmilieu moeten vormen en hen grondig testen alvorens hen in productie toe te laten.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet het volgende hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront-plan</td> 
+   <td>Ultieme</td> 
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td>Standaard</td> 
+  </tr> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
+  </tr>  
+ </tbody> 
+</table>
+
+Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Scenario&#39;s voor bedrijfsregels
+
+Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
+
+* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan als volgt worden omschreven: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan als volgt worden omschreven: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+De syntaxis voor het bouwen van een bedrijfsregel is het zelfde als het bouwen van een berekend gebied in een douaneformulier. Zie voor meer informatie over de syntaxis [Berekende velden toevoegen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+
+Zie voor informatie over IF-instructies [Overzicht van &quot;IF&quot;-instructies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [Operatoren voor voorwaarde in berekende aangepaste velden](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+
+Voor informatie over op gebruiker-gebaseerde vervangingen, zie [Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+
+Voor informatie over op datum gebaseerde vervangingen, zie [Gebruik op datum gebaseerde jokertekens om rapporten te generaliseren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+## Voeg een nieuwe bedrijfsregel toe
+
+{{step-1-to-setup}}
+
+1. Klikken **Zakelijke regels** in het linkerdeelvenster.
+1. Klikken **Nieuwe bedrijfsregel**.
+1. Selecteer het objecttype waaraan u de bedrijfsregel wilt toewijzen en klik vervolgens op **Doorgaan**.
+
+   ![Een object selecteren](assets/object-for-business-rule2.png)
+
+1. Typ de **Naam** voor de bedrijfsregel.
+1. In de **Is actief** selecteert u of de regel actief moet zijn wanneer u deze opslaat.
+
+   Als u **Nee**, wordt de regel als inactief opgeslagen en kunt u deze later activeren.
+
+1. Selecteer een **Trigger** voor de bedrijfsregel. De opties zijn:
+
+   * **Bij het maken van objecten:** De regel wordt toegepast wanneer een gebruiker een object probeert te maken.
+   * **Bij bewerken object:** De regel wordt toegepast wanneer een gebruiker een object probeert te bewerken.
+   * **Op object verwijderen:** De regel wordt toegepast wanneer een gebruiker een object probeert te verwijderen.
+
+1. (Optioneel) Voer een **Beschrijving** van de bedrijfsregel en wat gebeurt wanneer het wordt toegepast.
+1. Bouw de formule in de formules redacteur, in het centrum van de dialoog van de bedrijfsregel.
+
+   De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
+
+   In het formuleringsgebied, zijn de delen van de bedrijfsregel u bouwt de voorwaarde, en het bericht dat in Workfront toont wanneer aan de voorwaarde wordt voldaan.
+
+   * Het &quot;object&quot; is het objecttype dat u hebt geselecteerd bij het maken van de bedrijfsregel. Deze wordt weergegeven in de kop van het dialoogvenster.
+   * De &quot;actie&quot; is de trigger die u voor de regel hebt geselecteerd: maak, bewerk of verwijder het object.
+   * Omdat het object en de actie al zijn gedefinieerd, neemt u ze niet op in de formule.
+   * Het aangepaste foutbericht wordt aan de gebruiker weergegeven wanneer deze de bedrijfsregel activeert. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
+
+   ![Dialoogvenster Zakelijke regels toevoegen](assets/add-business-rule-dialog-no-ai-button.png)
+
+   Dit voorbeeld is een bedrijfsregel voor uitgaven. Als de huidige maand Juni is, dan kunnen de gebruikers geen nieuwe uitgaven tot stand brengen, en het bericht verklaart dit.
+
+   Voor meer voorbeelden van bedrijfsregels, zie [Scenario&#39;s voor bedrijfsregels](#scenarios-for-business-rules) in dit artikel.
+
+1. (Optioneel) Gebruik de formule **Expressies** en **Velden** in het juiste paneel helpen bij het bouwen van de regel.
+
+   Zoeken naar een expressie of veld om de lijst met beschikbare items te beperken.
+
+   De lijst met beschikbare velden is beperkt tot velden die betrekking hebben op het objecttype voor de bedrijfsregel.
+
+1. Klikken **Opslaan** wanneer u klaar bent met het bouwen van de bedrijfsregel.
+
+>[!NOTE]
+>
+>Nadat u een bedrijfsregel hebt toegevoegd, moet u deze testen door het bijbehorende object toe te voegen, te bewerken of te verwijderen om ervoor te zorgen dat de regel correct wordt toegepast.
+
+## Een bedrijfsregel activeren
+
+Wanneer een bedrijfsregel inactief is, is Actief gebied in de lijst van bedrijfsregels vals toont. U kunt de status van de regel niet bijwerken in de lijstweergave.
+
+Een bedrijfsregel activeren:
+
+1. Selecteer de bedrijfsregel in de lijst van regels en klik het Edit pictogram.
+1. Selecteren **Ja** for **Is actief** in de dialoog over bedrijfsregels.
+1. Klikken **Opslaan**.
