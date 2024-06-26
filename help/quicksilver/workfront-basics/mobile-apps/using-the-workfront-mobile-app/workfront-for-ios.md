@@ -3,20 +3,20 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront voor iOS
-description: De [!DNL Adobe Workfront] kunt u uw werk op elk iOS-apparaat openen. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] De mobiele app is beschikbaar voor zowel de iPhone als de iPad.
+description: De [!DNL Adobe Workfront] kunt u uw werk op elk iOS-apparaat openen. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] De mobiele app is zowel voor de iPhone als voor de iPad beschikbaar.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] for [!DNL iOS]
 
-De [!DNL Adobe Workfront] kunt u uw werk op elk [!DNL iOS] apparaat. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] de mobiele app is beschikbaar voor beide [!DNL iPhone] en de [!DNL iPad].
+De [!DNL Adobe Workfront] kunt u uw werk openen op elke [!DNL iOS] apparaat. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] de mobiele app is beschikbaar voor beide [!DNL iPhone] en de [!DNL iPad].
 
 Zie de sectie voor informatie over het aanmelden bij de mobiele app [Aanmelden bij de [!UICONTROL Workfront] mobiele app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in het artikel [Aanmelden bij [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
@@ -39,10 +39,10 @@ De [!UICONTROL Home] kunt u rechtstreeks werken aan taken, problemen en goedkeur
    <td> 
     <ul> 
      <li>Taak- en uitgavestatus bijwerken</li> 
-     <li>Plaatsen in het gebied Updates</li> 
+     <li>Post in het gebied Updates</li> 
      <li>Documenten weergeven</li> 
      <li>Foto's koppelen</li> 
-     <li> <p>Een verzoek of een snelle taak maken</p> <p>Opmerking: Snelle taken die thuis worden gemaakt, zijn persoonlijke taken, tenzij u een project toewijst.</p> </li> 
+     <li> <p>Een verzoek of een snelle taak maken</p> <p>Opmerking: snelle taken die thuis worden gemaakt, zijn persoonlijke taken, tenzij u een project toewijst.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +54,7 @@ Zie voor meer informatie [[!UICONTROL Home] gebiedswidgets](../../../workfront-b
 
 ## [!UICONTROL Boards]
 
-De [!UICONTROL Boards] kunt u toegang krijgen tot uw [!DNL Workfront] borden.
+De [!UICONTROL Boards] kunt u uw [!DNL Workfront] borden.
 
 ![Boekgebied](assets/mobile-all-boards-displayed.png)
 
@@ -73,7 +73,7 @@ De [!UICONTROL Projects] kunt u interageren met en beheren [!UICONTROL projects]
     <ul> 
      <li>Projectstatus bijwerken</li> 
      <li>Belangrijke projectdetails weergeven</li> 
-     <li>Plaatsen in de [!UICONTROL Updates] gebied</li> 
+     <li>Post in het [!UICONTROL Updates] gebied</li> 
      <li>Taken, problemen en verzoeken converteren naar projecten</li> 
     </ul> </td> 
    <td> 
@@ -81,7 +81,7 @@ De [!UICONTROL Projects] kunt u interageren met en beheren [!UICONTROL projects]
      <li>Interactie met projecttaken en -kwesties</li> 
      <li>Documenten weergeven</li> 
      <li>Foto's koppelen</li> 
-     <li> <p>Een snelle taak maken</p> <p>Opmerking: De taken die in een project worden gecreeerd worden automatisch toegewezen aan het project u binnen bent. </p> </li> 
+     <li> <p>Een snelle taak maken</p> <p>Nota: De taken die in een project worden gecreeerd worden automatisch toegewezen aan het project u binnen bent. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -113,7 +113,7 @@ De [!UICONTROL Approvals] kunt u bekijken en goedkeuren [!UICONTROL approvals] t
  </tbody>
 </table>
 
-Voor meer informatie over goedkeuringen raadpleegt u [Goedkeuringen in de [!DNL Adobe Workfront] mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Zie voor meer informatie over goedkeuringen [Goedkeuringen in de [!DNL Adobe Workfront] mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
 Voor informatie over het beoordelen en goedkeuren van proefdrukken raadpleegt u [Evalueren en besluiten nemen over proefdrukken in de [!DNL Adobe Workfront] mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
@@ -145,7 +145,7 @@ De [!UICONTROL Requests] kunt u details over verzoeken bekijken. Van de [!UICONT
     </ul> </td>
    <td>
     <ul>
-     <li>Plaatsen in de [!UICONTROL Updates] gebied</li>
+     <li>Post in het [!UICONTROL Updates] gebied</li>
      <li>Documenten weergeven</li>
      <li>Foto's koppelen</li>
      <li>Een verzoek opslaan als concept</li>
@@ -154,13 +154,13 @@ De [!UICONTROL Requests] kunt u details over verzoeken bekijken. Van de [!UICONT
  </tbody>
 </table>
 
-![Verzoeken](assets/mobile-requests-area.png)
+![Gebied Aanvragen](assets/mobile-requests-area.png)
 
 ## Timesheets
 
 De [!UICONTROL timesheets] kunt u details over uw tijdbladen bekijken. In de [!UICONTROL Timesheets] in de app kunt u:
 
-* Plaatsen in de [!UICONTROL Updates] gebied
+* Post in het [!UICONTROL Updates] gebied
 * Urentypen aanpassen
 * De tijd wijzigen die u hebt aangemeld
 * Opmerkingen invoeren op uw timesheet
@@ -192,21 +192,3 @@ De [!UICONTROL Configuration] kunt u:
 * Afmelden
 
 ![Configuratiegebied](assets/ios-configuration-area.png)
-
-## Virtuele assistent
-
-De virtuele medewerker staat u toe om de volgende taken via stembevel uit te voeren:
-
-* [!UICONTROL Show me]
-* [!UICONTROL Delete]
-* [!UICONTROL Search for]
-* [!UICONTROL Help me with commands]
-
-Voor meer informatie over de Virtuele medewerker, zie [[!DNL Adobe Workfront] virtuele mobiele app-assistent](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL Pin]
-
-De [!UICONTROL Pin] in dit gebied hebt u toegang tot opgeslagen opdrachten voor virtuele assistenten en tot punten vanuit uw webbrowser.
-![Query vastzetten en opslaan](assets/pin-and-save-query-adobe-350x285.png)
-
-Voor meer informatie over de Virtuele medewerker, zie [Virtuele assistent voor Adobe Workfront Mobile-app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

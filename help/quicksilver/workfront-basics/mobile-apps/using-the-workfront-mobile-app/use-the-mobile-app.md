@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt de app downloaden en installeren vanuit het dialoogvenster [Apple App Sto
 In de mobiele app kunt u werkitems voltooien en informatie weergeven zoals u dat doet in de browserversie van [!DNL Workfront]. Deze en meer functies zijn beschikbaar:
 
 * Taken en problemen onderbrengen en toewijzen
-* Updates verzenden
+* Post-updates
 * Toegang tot Workfront-borden
 * Projecten weergeven en beheren
 * Weergeven, opmerkingen plaatsen en beslissingen nemen over proefdrukken
@@ -62,5 +62,4 @@ Voor meer informatie over de [!DNL Adobe Workfront] mobiele app, bekijk de volge
 * [Goedkeuringen in de [!DNL Adobe Workfront] mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Configureren [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] virtuele mobiele app-assistent](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 

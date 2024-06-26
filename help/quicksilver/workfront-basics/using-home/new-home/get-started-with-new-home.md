@@ -6,9 +6,9 @@ description: Het nieuwe Home-programma is een krachtige nieuwe functie voor het 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Hieronder ziet u de tien widgets die u momenteel kunt kiezen en een overzicht va
     De taken van vertoningen die aan u in een lijst worden toegewezen. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een taak rechtstreeks vanuit de widget maken. U kunt uw taken ook delegeren terwijl u weg van het bureau bent.
 
 * **Mijn problemen**\
-    Hiermee geeft u problemen weer die aan u zijn toegewezen in een lijst. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een uitgave rechtstreeks vanuit de widget maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig. U kunt uw kwesties ook delegeren terwijl u weg van het bureau bent.
+    Hiermee geeft u problemen weer die aan u zijn toegewezen in een lijst. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een uitgave rechtstreeks vanuit de widget maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig en die geen voltooide projecten bevatten. U kunt uw kwesties ook delegeren terwijl u weg van het bureau bent.
 
 * **Mijn verzoeken**\
     Toont alle verzoeken u hebt voorgelegd, een filter om open verzoeken slechts te tonen, en een knoop die de summiere ruit voor een verzoek opent.
