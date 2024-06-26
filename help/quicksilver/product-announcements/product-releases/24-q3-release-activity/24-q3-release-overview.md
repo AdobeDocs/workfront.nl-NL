@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 11 juni 2024</p>
+                                <p>Voorvertoningsrelease: 20 juni 2024</p>
                             </li>
                             <li>
                                 <p>Productie voor opgegeven klanten: met de release van 24.7 (juli 2024)</p>
@@ -377,9 +377,9 @@ De nieuwe eigenschappen in Workfront Fusion zijn beschikbaar in Productie bij ee
 
 Er zijn op dit punt in de release geen Scenario Planner-updates. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
 
-### Verbeteringen in Workfront Proof
+### Verbeteringen voor Workfront Proof
 
-Er zijn momenteel geen Workfront Proof-updates beschikbaar. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
+Er zijn op dit moment geen Workfront Proof-updates beschikbaar. Dit gebied wordt bijgewerkt wanneer er updates beschikbaar zijn.
 
 ### Verbeteringen voor Workfront-doelen
 

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 >[!NOTE]
 >
 >* De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd.
->* Voorvertoningsrelease: 11 juni 2024; Productieversie voor opgegeven klanten: met de release van 24.7 (juli 2024)
+>* Voorvertoningsrelease: 20 juni 2024; Productieversie voor opgegeven klanten: met de release van 24.7 (juli 2024)
 
 Om organisaties toegang tot de voordelen van de Adobe Verenigde Ervaring toe te staan, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront.
 
