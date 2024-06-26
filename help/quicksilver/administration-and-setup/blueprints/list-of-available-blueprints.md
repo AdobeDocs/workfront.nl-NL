@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,10 @@ Deze blauwdruk bevat een sjabloon voor het [!DNL Workfront] de organisatie van d
 
 Deze blauwdruk bevat één dashboard met 13 rapporten om u te helpen, de voorwerpen en de taken vinden opnieuw toewijzen of anders beheren verbonden aan een gebruiker die Workfront vertrekt. U kunt deze rapporten ook gebruiken voor een gebruiker die naar een nieuwe rol of groep gaat om zijn werk opnieuw toe te wijzen.
 
+[!BADGE Nieuw]{type=negative}**Dashboard voor personenbeheer**
+
+Deze blauwdruk bevat één dashboard met 12 rapporten om mensen managers zichtbaarheid te geven in het werk van hun directe rapporten.
+
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 Deze blauwdruk bevat één sjabloon waarmee het werk dat een [!DNL Workfront] de klant zal moeten voltooien om de uitbreiding aan volgende processen na hun aanvankelijke implementatie te beheren.
 
@@ -133,6 +137,10 @@ Deze blauwdruk bevat één dashboard met 21 rapporten om u te helpen de Waarde v
 **Waarderealisatie | Klantgericht servicedashboard leveren**
 
 Deze blauwdruk bevat één dashboard met 8 rapporten om u te helpen de voordelen van Workfront realiseren. Deze rapporten worden ontworpen om u te helpen uw cliënt-onder ogen ziende diensten in meetbare waarde omzetten die u in tijd kunt volgen om betere resultaten te drijven.
+
+[!BADGE Nieuw]{type=negative}**Waarderealisatie | Het dashboard voor compatibiliteitswerkstromen beheren**
+
+Deze blauwdruk bevat één dashboard met 7 rapporten om u te helpen de waarde van Workfront realiseren. Voor dagelijks gebruik of in sterk gereguleerde industrieën drijven deze tijdbesparende rapporten verantwoordingsplicht en verbeteren resultaten in tijd door te helpen werkstromen en nalevingsbehoeften volgen en te regeren.
 
 **Waarderealisatie | Het dashboard bekijken en goedkeuren**
 
