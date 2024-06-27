@@ -1,12 +1,12 @@
 ---
 title: 'Veelgestelde vragen over Adobe Workfront-planning'
-description: Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren. Dit zijn een aantal veelgestelde vragen over Workfront Planning.
+description: Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren. Dit artikel bevat een aantal veelgestelde vragen over Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -30,146 +30,171 @@ Vroeger genoemd Project Maestro, is de Planning van Workfront een nieuw vermogen
 
 De planningsmodule van Workfront is één van drie verschillende maar aangesloten mogelijkheden van Workfront die samen een marketing systeem van verslag creëren. De drie mogelijkheden zijn:
 
-* Planning: de nieuwe geavanceerde mogelijkheden inbegrepen in de Planning van Workfront.
+* **Planning**: De nieuwe geavanceerde mogelijkheden die zijn opgenomen in de Workfront-planning.
 
-* Workflow: de mogelijkheden voor gezamenlijk werkbeheer die u vandaag in Workfront gebruikt (projectbeheer, beheer van bronnen, enz.).
+* **Workflow**: De samenwerkingsmogelijkheden voor werkbeheer die u vandaag in Workfront gebruikt (projectbeheer, beheer van bronnen, enz.)
 
-* Automatisering en integratie: de uitgebreide integratie- en automatiseringsmogelijkheden van Workfront Fusion.
+* **Automatisering en integratie**: De uitgebreide integratie- en automatiseringsmogelijkheden van Workfront Fusion.
 
 ## Wanneer wordt Workfront Planning vrijgegeven?
 
-De meest recente geplande release van Workfront Planning voor het grote publiek is 28 augustus 2024. Voor bijgewerkte informatie over welke functies momenteel worden vrijgegeven, raadpleegt u [Adobe Workfront Planning Release-activiteit](/help/quicksilver/planning/general/release-activity.md).
+De nieuwste Workfront Planning-release naar algemene beschikbaarheid is gepland voor 28 augustus 2024. Voor bijgewerkte informatie over welke functies momenteel worden vrijgegeven, raadpleegt u [Adobe Workfront Planning Release-activiteit](/help/quicksilver/planning/general/release-activity.md).
 
-<!-- To verify this: are we even saying "Beta"? - What happens after the beta program concludes? 
+## Wat gebeurt er na het begin van de planningsfase van Workfront?
 
-Beta participants that want to leverage Planning in production will be able to purchase it at the GA date. We encourage you to reach out to your sales rep to discuss further details. The environment used for the beta program is not in production and will not be migrated. The data stored in the beta environment will be available until December 2024. -->
+Klanten die hebben deelgenomen aan de bètafase en de aanloopfase voor Workfront Planning, kunnen Workfront Planning aanschaffen vanaf 28 augustus 2024. We raden u aan contact op te nemen met uw accountmanager om verdere details te bespreken.
 
+## Het proces van korte creatie (AI gebruik van trekken in diverse documenten om dynamisch een samenvatting tot stand te brengen). Is dat deel van de bèta?
 
+Deze functie is binnenkort beschikbaar.
 
-KLANTVRAGEN - SESSIE 1 6/13
+## Moeten we migreren naar IMS?
 
+Ja. Klanten die de Planning van Workfront willen kopen zullen aan de Adobe Verenigde Ervaring/Adobe Bedrijfsplatform moeten migreren. Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
+## Kunt u voorbeelden geven van verschillende werkruimten?
 
-Het proces van het korte ontwerp (AI-gebruik van trekken in verschillende documenten om dynamisch een samenvatting te maken). Is dat deel van de bèta?
+U kunt werkruimten op verschillende niveaus van uw organisatie hebben. Wegens de flexibiliteit van het systeem, kan het hebben van werkruimten op diverse niveaus veelvoudige doeleinden op een team of persoonlijk niveau dienen. U kunt werkruimten hebben die voor een team, een afdeling, of een groep in uw organisatie worden gebouwd. Gebruikers kunnen hun eigen werkruimte maken waar ze persoonlijke taken kunnen bijhouden.
 
-We verwachten dat deze functie kan worden getest.
+Het primaire gebruiksgeval voor een werkruimte moet een grotere, gecentraliseerde ruimte voor een organisatie zijn.
 
-Moeten we naar IMS worden gemigreerd?
+Werkruimten kunnen worden gedeeld met groepen of individuele gebruikers.
 
-Ja, klanten die Planning willen kopen zullen naar ABP moeten worden gemigreerd.
+<!--## Can workspaces share funding accounts? -->
 
-Kunt u voorbeelden geven van verschillende werkruimten?
+## Kunnen werkruimten met elkaar spreken? Of moet in elke werkruimte informatie worden ingevoerd?
 
-U kunt werkruimten op verschillende niveaus hebben, en wegens de flexibiliteit van het systeem, die echt veelvoudige doeleinden op een team en persoonlijk niveau kunnen dienen. Hoofdgebruik is grotere gecentraliseerde werkruimten voor organisaties. Enkele specifieke voorbeelden van werkruimten zijn: ...
+Vanaf juni 2024 kunnen werkruimten geen verbinding met elkaar maken. Deze functionaliteit is echter gepland voor een toekomstige release.
 
-Kunnen werkruimten financieringsrekeningen delen?
+## Zijn er zachte of harde grenzen op het aantal werkruimten toegestaan in één organisatie?
 
-Kunnen werkruimten met elkaar spreken? Of moet in elke werkruimte informatie worden ingevoerd?
+U kunt maximaal 1.000 werkruimten hebben in het Workfront-exemplaar van uw organisatie. Zie voor meer informatie over limieten [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-Zijn er momenteel zachte limieten voor het aantal werkruimten dat kan worden ingesteld (dat wil zeggen, zijn er beperkingen voor het aantal werkruimten. prestaties achteruit gaan na dit punt)? Harde limieten voor het aantal werkruimten dat kan worden ingesteld (dat wil zeggen: het systeem niet meer dan dit #) toestaat?
+## Kunnen de huidige voorwerpen in het systeem van Workfront in Planning beschikbaar zijn, of moet dit manueel worden gebouwd?
 
-Tot 1.000 werkruimten in de Workfront-instantie van uw organisatie. Koppeling naar documenten: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/create-workspaces
+U kunt verbindingen tussen een het verslagtype van de Planning en de portefeuilles, programma&#39;s, projecten, groepen, en bedrijven van Workfront tot stand brengen.
 
-Kunnen de huidige voorwerpen in het systeem worden gestopt of moet dit allen manueel worden gebouwd?
+Zodra u een verbinding, bijvoorbeeld met de projecten van Workfront vestigt, kunt u verslagen in Planning met de projecten van Workfront verbinden.
 
-U kunt verbindingen tussen een het verslagtypes van Planning met portefeuilles WF, programma&#39;s, projecten, groepen en bedrijven tot stand brengen. Zodra u een verbinding, bijvoorbeeld met projecten van WF vestigt, kunt u voor verslagen in de lijst van de Planning met projecten verbinden WF. Dit betekent dat de voorwerpen WF nog zullen worden gecreeerd en in Workfront worden beheerd, maar u kunt hen op de verslagen van de Planning richten. U hebt hier wat documentatie: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types en wij zijn ook van plan om een feedbacksessie over Verbindingen te hebben!
+Dit betekent dat u Workfront-projecten in Workfront moet blijven maken en beheren, maar u kunt ze in Workfront Planning uitlijnen op Planningsrecords, zoals campagnes.
 
-Van het testen heb ik gemerkt als u veel verslagen toevoegt worden zij moeilijk om tussen elkaar te onderscheiden wanneer niet in de Mening van de Lijst. Is er een manier om records verschillende kleuren te maken? Het zou goed zijn als u hen configureerbaar door kleur kon maken, die zij tegen elkaar in de mening van de Chronologie en van de Kalender meer uitkomen.
+Zie de volgende artikelen voor meer informatie over het verbinden van recordtypen met Workfront-objecttypen en records met Workfront-objecten:
 
-Zijn de mensen van Workfront of IMS mensen?
+* [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connect-records](/help/quicksilver/planning/records/connect-records.md)
 
-Workfront Instance
+Er zijn ook feedbacksessies gepland over verbindingen.
 
-Kunnen deze lijsten aan veelvoudige werkruimten worden verbonden?
+## Nadat u veel records hebt toegevoegd, worden ze moeilijk van elkaar te onderscheiden wanneer ze zich niet in de tabelweergave bevinden. Is er een manier om records in verschillende kleuren weer te geven?
 
-We zijn van plan recordtypen te koppelen tussen werkruimten. Nog niet klaar.
+Vanaf juni 2024 kunnen records in geen van de beschikbare weergaven (tabel, tijdlijn of kalender) in kleur worden geconfigureerd. U kunt echter wel een miniatuurafbeelding aan elke record toevoegen, zodat u deze gemakkelijker kunt herkennen.
 
-Zijn aangepaste velden die u toevoegt, vergrendeld voor het recordtype waarin ze zijn gemaakt?
+## Zijn de gebruikers in Planning afkomstig uit Workfront of uit Adobe Admin Console (IMS)?
 
-Het staat me niet toe om een verbinding met de gebieden van de Datum van het Begin/van het Eind te maken die gebrek zijn. Moet ik een nieuwe toevoegen als ik verbinding wil maken met een veld dat al bestaat?
+Workfront Planning-gebruikers zijn Workfront-gebruikers.
 
-Zijn er plannen voor echte externe opzoekstijlvelden als een veldtype in de planning?
+## Kunnen de lijsten voor elk verslagtype tussen verslagtypes in veelvoudige werkruimten worden verbonden?
 
-Zijn er plannen om alleen de velden &quot;Gemaakt&quot; &quot;Gemaakt door&quot; &quot;Gewijzigd&quot; en &quot;Gewijzigd door&quot; in records op te nemen - lijkt het alsof velden het moeten toevoegen als we records willen bijhouden?
+Het verbinden van verslagtypes tussen verschillende Werkruimten zal op een recentere datum komen.
 
-Aangezien de module door aan levende voorwerpen in WF verbindt, zullen zij door de activiteiten van de bèta van de Planning worden beïnvloed?
+## Zijn aangepaste velden die u toevoegt, vergrendeld voor het recordtype waarop ze zijn gemaakt?
 
-Zullen we updates krijgen voor de veranderingen die in Fusion worden gezet of is dat iets dat afzonderlijk wordt beheerd?
+Recordvelden zijn momenteel uniek voor de record waarin ze zijn gemaakt. U kunt naar velden van andere records verwijzen wanneer u recordtypen verbindt. U kunt niet hetzelfde veld gebruiken dat u voor een recordtype in een ander recordtype hebt gemaakt, zelfs als de recordtypen zich in dezelfde werkruimte bevinden. U kunt niet naar velden verwijzen vanuit records die zich niet in dezelfde werkruimte bevinden, omdat u voorlopig geen verbinding kunt maken tussen recordtypen vanuit verschillende werkruimten.
 
-Zijn er plannen om met de dashboards van het Canvas te integreren? Hoe te om gegevens te melden?
+<!--## It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? -->
 
-Binnenkort beschikbaar dashboardcanvas is beschikbaar voor visualisatie van planningsgegevens
+<!--## Any plans for true external lookup style fields as a field type in Planning? -->
 
-Kunnen wij werkruimtemalplaatjes tot stand brengen?
+<!-- ## Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? -->
 
-Is deze structuur van Taxonomy/van het Verslag slechts beschikbaar als u Planning koopt?  Een taxonomische structuur zou ook voor standaard Workfront-gebruikers gunstig zijn
+<!--## Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? -->
 
-Zullen beheerders onze eigen sjablonen kunnen maken?
+<!--## Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? -->
 
-Niet tijdens de bèta.
+## Zijn er plannen om met de dashboards van het Canvas te integreren? Hoe kunnen we anders rapporteren over de planningsgegevens van Workfront?
 
-Hebt u allen een ERD gedocumenteerd en beschikbaar om voor het planningsmodel en verslagtypes te delen? Geen ERD op dit moment, maar we hebben korrelige Help-artikelen die u door het proces begeleiden bij het maken en verbinden van recordtypen: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/overview-of-record-types https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types
+Wij zijn van plan om de Dashboards van het Canvas beschikbaar te hebben om de gegevens van de Planning spoedig te visualiseren.
 
-Het is dus één keer (jaarlijkse prijzen) om PLANNING te krijgen, en daar kunnen we zo veel gebruikers toevoegen als nodig is? of er worden kosten per gebruiker in rekening gebracht?
+<!--## Will we be able to create workspace templates? -->
 
-Planning is een betaalde aanbieding die een streefdatum van GA 28 augustus heeft, de tijd waarop u Planning zult moeten kopen om van het in Productie te kunnen genieten. Werk samen met je verkoper voor meer informatie.
+<!--## Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too -->
 
-Is AI Enablement slechts beschikbaar aan WF Systeembeheerders OF kan het op specifieke Niveaus van de Toegang worden toegelaten OF kan het voor slechts specifieke gebruikers (1 of 2) worden toegelaten?
+## Kunnen Workfront-beheerders hun eigen sjablonen maken?
 
-Eerst, hebben slechts de Primaire beheerders van het Systeem toegang zodat kunnen zij door de Niveaus van de Toegang vormen die in hun org toegang zullen krijgen. Na 21 juni, zullen wij AI aan de rest van org toelaten en zij zullen toegang of niet afhankelijk van de configuratie hebben die door System Admin wordt bepaald.
+Niet tijdens het vroege toegangsstadium.
 
-Waar wonen de hier gemaakte VELDS? Kunnen de bestaande VELDEN van die worden geïntroduceerd wij voor andere voorwerpen hebben gecreeerd? Worden ze gescheiden van andere velden gemaakt?
+## Hebt u ERD gedocumenteerd en beschikbaar om voor het model van de Planning en verslagtypes te delen?
 
-Momenteel leven de gebieden binnen het verslagtype zij binnen worden gecreeerd, maar wij hebben een hoog prioritair initiatief voor H2 &#39;24 om de gebieden van de Planning en van Workfront in een gecentraliseerde gebiedsbibliotheek samen te brengen.
+We hebben op dit moment geen ERD, maar we hebben wel diepgaande documentatie die u door alle details leidt met betrekking tot Workfront Planning. Zie voor meer informatie [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
 
-Zullen we rapporten kunnen maken op basis van de records/velden die we maken in de planning?
+## Hoe is de prijsstelling voor Workfront Planning gestructureerd: is het een eenmalig jaarlijks tarief? Of worden we per gebruiker in rekening gebracht?
 
-Ja! Binnenkort beschikbaar via Dashbaord Canvas
+Planning is een betaalde aanbieding naast je Workfront-licentie. De planning is beschikbaar voor aankoop op 28 augustus 2024. Op dat ogenblik, zult u Planning moeten kopen om het in Productie te kunnen blijven gebruiken. Werk samen met uw accountmanager voor meer informatie.
 
-Kunnen we deze gegevens ook ophalen met de API?
+## Is de AI Medewerker slechts beschikbaar aan het systeembeheerders van Workfront, of kan het voor specifieke toegangsniveaus of slechts voor specifieke gebruikers worden toegelaten?
 
-Ja! We beschikken al over API&#39;s en Fusion-connector.
+De AI Assistant is momenteel beschikbaar in bèta en kan worden ingeschakeld voor uw omgeving wanneer u een speciaal verzoek indient bij uw accountmanager. Nadat het verzoek is goedgekeurd en de AI Assistant (bèta) is ingeschakeld in uw omgeving, kan iedereen in de omgeving de AI Assistant gebruiken in alle gebieden van Workfront, inclusief Planning. Workfront-beheerders moeten Planning toevoegen aan de lay-outsjablonen van alle gebruikers en ze kunnen de AI-assistent ook voor gebruikers uitschakelen in hun toegangsniveaus.
 
-Vanuit een marketingwerkruimte - is het beter om één hoofdwerkruimte te gebruiken voor een Global Marketing-team OF is het beter om afzonderlijke werkruimten te hebben voor elke Business Line, Country, Brand, enz. Ik zag dat wij tot 1000 Werkruimten kunnen hebben en potentieel Werkruimten verbinden. is het mogelijk records te koppelen tussen werkruimten ? Gebruik hoofdletters/kleine letters: elk product zijn eigen werkruimte geven, maar dit geldt voor gedeelde recordtypen. Dan zou je een gedeelde visie willen zien die alles combineert.
+## Waar wonen de hier gemaakte velden? Kunnen de bestaande gebieden die wij voor andere voorwerpen hebben gecreeerd worden binnen gebracht? Worden ze gescheiden van andere velden die elders zijn gemaakt?
 
-Kunnen we Portfolio en programma&#39;s naar de campagnes brengen? Dat leidt op zijn beurt tot projecten?
+Momenteel bevinden de velden zich in het recordtype waarvan ze zijn gemaakt. Deze zijn niet beschikbaar voor andere recordtypen of voor Workfront-objecten. Workfront-velden zijn ook niet beschikbaar in Planning. We hebben een initiatief op onze routekaart om de gebieden Planning en Workfront samen te brengen in een gecentraliseerde veldbibliotheek.
 
-Zal het mogelijk zijn om projecten aan verslagen in een werkruimte te verbinden wanneer de projectverwezenlijking, zonder het moeten naar de werkruimte gaan om het te verbinden?
+## Kunnen we rapporten maken op basis van de records en velden die we maken in Planning?
 
-Momenteel hebben wij de sectie van de Planning binnen projecten die om het even welke verbindingsverslagen van de het verslagtypes van de Planning tonen. U kunt records toevoegen aan of verwijderen uit deze verbindingen. Wij zullen spoedig ook de capaciteit toevoegen om aan verslagen in een andere types van het verslag van de Planning te verbinden, zelfs als die verbinding momenteel geen verbonden verslagen heeft.
+Ja. Binnenkort kunnen we met behulp van Canvas-dashboards rapporteren over planningsinformatie.
 
-Ik begrijp dat we uiteindelijk informatie/gegevens van iemand buiten onze organisatie kunnen innemen. Wanneer wordt deze functie beschikbaar gesteld in bèta?
+## Zullen we ook planningsgegevens kunnen ophalen met behulp van de API?
 
-Kan de werkruimte voor middel en capaciteitsplanning door baanrol over een campagne worden gebruikt?
+Ja. We hebben al een plannings-API en een Fusion-connector. Zie voor meer informatie [Adobe Workfront-planningsmodules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentatie voor de Workfront Planning API is binnenkort beschikbaar.
 
-We kunnen een werkruimterecord koppelen om een aanvraag te starten?
+<!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
-KANTOOR 6/18
+## Kunnen we Portfolio en programma&#39;s naar campagnes brengen? Dat leidt op zijn beurt tot projecten?
 
-De mogelijkheid om datums te koppelen aan verbonden Workfront-gegevens. Is dat momenteel actief op alle niveaus (projecten, portefeuilles, programma,...)?
+Ja, u kunt Workfront-planningscampagnes verbinden met Workfront-portfolio&#39;s en -programma&#39;s. Projecten worden echter niet toegevoegd wanneer u portfolio&#39;s en programma&#39;s met elkaar verbindt. U moet recordtypen verbinden met portfolio&#39;s, programma&#39;s en projecten als afzonderlijke objecten.
 
-Ja, is het mogelijk om projecten via raadplegingsgebieden aan te sluiten.
+## Zal het mogelijk zijn om projecten aan verslagen in een werkruimte te verbinden wanneer de projectverwezenlijking, zonder het moeten naar de werkruimte gaan om het te verbinden?
 
-Hoe weet ik dat er een publieke opinie klaar is om te bekijken?
+Momenteel hebben wij de sectie van de Planning binnen projecten die om het even welke verbonden verslagen van de het verslagtypes van de Planning tonen die met projectvoorwerpen worden verbonden. U kunt extra verslagen toevoegen of verwijderen uit de sectie van de Planning. Binnenkort, zullen wij ook de capaciteit toevoegen om aan verslagen van een andere het verslagtypes van de Planning te verbinden, zelfs wanneer die verbinding geen verbonden verslagen heeft. Maar u moet het verslagtype met het objecten van Workfront (project) verbinden om daadwerkelijke verslagen met projecten van Workfront te verbinden.
 
-Openbare weergaven die worden gedeeld, zijn zichtbaar
+<!--I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
 
-Hoe deelt u intern een mening?
+Can the workspace be used for resource and capacity planning by job role across a campaign? 
 
-Telkens wanneer u een nieuwe werkruimte maakt, moet u de weergaven opnieuw delen?
+We will be able to link a Workspace record to start a request? -->
 
-Ja, telkens wanneer u een nieuwe werkruimte maakt, zodat het een nieuw recordtype is. De meningen zijn specifiek voor verslagtypes, en daarom zult u moeten opnieuw delen.
+## Kunt u datums koppelen van verbonden Workfront-gegevens? Is dat momenteel actief op alle niveaus (projecten, portefeuilles, programma)?
 
-Kunnen miniaturen afkomstig zijn uit de inhoud? Stel de miniatuur in op het .pdf- of videobestand. We werken met creatieve mensen en een miniatuurweergave die selecteerbaar is, zou een goede manier zijn om teams betrokken te houden bij die vergaderingen op hoger niveau waar ze onze Content Map zullen bespreken - een link naar de inhoud zou ook geweldig zijn.
+Ja, is het mogelijk om project, programma, of portefeuilledata via raadplegingsgebieden te verbinden.
 
-Kunt u de toestemmingen voorbij aanpassen wat de basis is? Op dit moment kunt u met andere Workfront-objecten aanpassen wat toegang tot Contribute/manage/view kan doen.
+<!-- ******************not sure about the answer here: 
 
-Momenteel hebben we alleen werkruimte- en weergaveniveau-machtigingen, maar geen machtigingen voor het opnemen van typen of afzonderlijke recordniveaus.
+## How do I know there are public view ready to view? 
 
-Kunnen wij de pictogrammen van de Werkruimte aanpassen gelijkend op hoe wij duimnagels kunnen aanpassen?
+Public views that are shared are visible  -->
 
-Zijn er aanpasbare API&#39;s om onze eigen DAM te gebruiken in plaats van de DAM van Adobe?
+## Hoe deelt u intern een mening?
 
-We hebben een openbare API voor Planning en we hebben ook de Fusion-connector. De API-documentatie wordt gepubliceerd en kan worden gebruikt om verbindingen te maken.
+Zie voor informatie over het delen van weergaven [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
 
-Ik zie waarde in Planning (werknemers die Airtable gebruiken). Tot nu toe zijn we ... curieuze back-endverbinding na x die weer tot ~10,47am wordt verbonden
+## Elke keer dat u een werkruimte maakt, moet u de weergaven opnieuw delen?
+
+Ja, elke keer dat u een werkruimte maakt, kunt u ook recordtypen maken. Weergaven zijn specifiek voor recordtypen en daarom moet u de weergaven opnieuw delen.
+
+Weergaven worden gescheiden van werkruimten gedeeld. U moet de werkruimte delen, zodat gebruikers toegang hebben tot de recordtypen en de weergaven, zodat gebruikers toegang hebben tot de recordvelden.
+
+<!--Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. -->
+
+## Kunt u de toestemmingen voorbij aanpassen wat de basis is? Op dit moment kunt u met andere Workfront-objecten aanpassen wat Contribute/Manage/View-machtigingen kunnen doen.
+
+Op dit moment niet. Voor informatie over wat elke toestemming toestaat, zie [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+Momenteel hebben we alleen bevoegdheden op werkruimte- en weergaveniveau, maar niet bevoegdheden op het niveau van type of individuele record. De types van verslag en verslagen erven toestemmingen van de werkruimte zij tot behoren.
+
+## Kunnen we Workspace-pictogrammen aanpassen, net als miniaturen?
+
+Nee.
+
+## Zijn er aanpasbare API&#39;s om onze eigen DAM te gebruiken in plaats van de DAM van Adobe?
+
+We hebben al een plannings-API en een Fusion-connector. Zie voor meer informatie [Adobe Workfront-planningsmodules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentatie voor de Workfront Planning API is binnenkort beschikbaar. U kunt de API gebruiken om aangepaste integratie te bouwen.

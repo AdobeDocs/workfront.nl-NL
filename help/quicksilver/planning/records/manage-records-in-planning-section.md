@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>In Workfront kunt u de machtiging Weergeven of hoger voor een project, portfolio of programma</a> </p> 
-   <p>In Workfront Planning, Mening of hoger toestemmingen aan een werkruimte</a> </p>  
+   <p>In Workfront Planning, Contribute of hoger toestemmingen aan een werkruimte</a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten voor Workfront Planning, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * [Connect-records](/help/quicksilver/planning/records/connect-records.md)
 * U kunt de sectie Planning weergeven in een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
 * U kunt Planningsrecords verbinden met Workfront-objecten vanuit Workfront, in de sectie Planning wanneer ten minste één record is verbonden met het Workfront-object.
-* U moet over beheermachtigingen voor een werkruimte beschikken om records van de Workfront-objecten te kunnen verbinden.
 
 ## Records beheren in de sectie Planning
 
@@ -114,8 +113,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op de kaart van een recordtype die is verbonden met een Workfront-project, -portfolio of -programma.
-1. Kies een tabelweergave in het menu **Weergave** vervolgkeuzelijst.
-1. (Voorwaardelijk) Ga naar het verbonden verslaggebied in de lijst en voeg een voorwerp van Workfront toe, dan klik de naam van het voorwerp van Workfront in het gebied. Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+1. Ga naar een verbonden verslaggebied dat een verbinding met een voorwerp van Workfront heeft, of in de lijstmening of van de detailspagina van een verslag. Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+1. Klik op de naam van een Workfront-object in het verbonden recordveld.
 De objectpagina wordt geopend in Workfront Planning.
 1. Klikken **Ga naar bron** in de rechterbovenhoek van het scherm.
 
