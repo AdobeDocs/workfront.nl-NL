@@ -2,24 +2,28 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Een document verzenden naar Experience Manager Assets of Assets Essentials
-description: U kunt documenten van Workfront naar Experience Manager Assets of Assets Essentials verzenden. Documenten die vanuit Workfront zijn geüpload en naar Assets Essentials zijn verzonden, worden nog steeds in mindering gebracht op de totale opslag van het document. Elementen die verband houden met Assets Essentials tellen niet mee voor de totale opslag.
+description: U kunt documenten van Workfront naar Experience Manager Assets of Assets Essentials verzenden. Documenten die vanuit Workfront zijn geüpload en naar Assets Essentials zijn verzonden, worden nog steeds in mindering gebracht op de totale opslag van het document. Assets gekoppeld van Assets Essentials telt niet mee voor algemene opslag.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # Een document verzenden naar Experience Manager Assets of Assets Essentials
 
-U kunt documenten van Workfront naar Experience Manager Assets of Assets Essentials verzenden. Documenten die vanuit Workfront zijn geüpload en naar Assets Essentials zijn verzonden, worden nog steeds in mindering gebracht op de totale opslag van het document. Elementen die verband houden met Assets Essentials tellen niet mee voor de totale opslag.
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
-De activa die door deze integratie naar Experience Manager worden verzonden hebben een groottegrens **5 GB**.
+U kunt documenten van Workfront naar Experience Manager Assets of Assets Essentials verzenden. Documenten die vanuit Workfront zijn geüpload en naar Assets Essentials zijn verzonden, worden nog steeds in mindering gebracht op de totale opslag van het document. Assets gekoppeld van Assets Essentials telt niet mee voor algemene opslag.
 
-Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Assets Essentials. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Zie voor meer informatie over het configureren van metagegevenstoewijzing [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Assets dat via deze integratie naar Experience Manager wordt gestuurd, heeft een formaatlimiet **5 GB**.
+
+<span class="preview">In de voorvertoningsomgeving geldt dat Assets die via deze integratie naar de Experience Manager wordt verzonden, een formaatlimiet heeft van **30 GB**.</span>
+
+Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Assets Essentials. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Zie voor meer informatie over het configureren van metagegevenstoewijzing [De as a Cloud Service integratie van Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
@@ -43,7 +47,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet Experience Manager as a Cloud Service of Assets Essentials hebben, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.
+   <td>U moet Experience Manager as a Cloud Service Assets Essentials hebben, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.
 </td> 
   </tr> 
   <tr> 
@@ -63,12 +67,12 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Zie voor meer informatie [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Zie voor meer informatie [De as a Cloud Service integratie van Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Een document verzenden vanuit Workfront
 
-Wanneer een gebruiker een document van Workfront naar Experience Manager Assets of Assets Essentials verzendt, worden toegewezen metagegevens over het document overgedragen. Nadat het document is verzonden, worden wijzigingen die zijn aangebracht in de metagegevens van het document in Workfront, niet doorgevoerd in Elementen of Assets Essentials. Als een toegewezen veld in Workfront wordt gewijzigd, moet u een nieuwe versie van het document met de bijgewerkte metagegevens verzenden naar Middelen of Assets Essentials. Als u metagegevens wilt instellen of bewerken, raadpleegt u [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Wanneer een gebruiker een document van Workfront naar Experience Manager Assets of Assets Essentials verzendt, worden toegewezen metagegevens over het document overgedragen. Nadat het document is verzonden, worden wijzigingen die in de metagegevens van het document in Workfront zijn aangebracht, niet doorgevoerd in Assets of Assets Essentials. Als een toegewezen veld in Workfront wordt gewijzigd, moet u een nieuwe versie van het document met de bijgewerkte metagegevens naar Assets of Assets Essentials sturen. Als u metagegevens wilt instellen of bewerken, raadpleegt u [De as a Cloud Service integratie van Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Een document verzenden:
 
@@ -77,7 +81,7 @@ Een document verzenden:
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, zodat het niet specifiek Middelen of Assets Essentials kan noemen.
+   >De Workfront-beheerder kan elke naam voor deze integratie kiezen. Assets of Assets Essentials worden dus niet specifiek vermeld.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
@@ -99,7 +103,7 @@ De meest recente versie verzenden:
 
    >[!NOTE]
    >
-   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus in dit programma wordt mogelijk niet specifiek verwezen naar Middelen of Assets Essentials.
+   >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials worden niet specifiek genoemd.
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 

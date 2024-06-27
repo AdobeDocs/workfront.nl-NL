@@ -3,7 +3,7 @@ title: '''[!DNL Adobe Workfront] documentatie'
 description: Documentatie voor [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Secties voor leren en training verkennen
 
-* **Trainingsmaterialen**: Ga naar de [Workfront-training](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek met trainingsvideo&#39;s en artikelen die zijn ontworpen om u meer inzicht te geven in Workfront-functies en -instellingen. U hebt ook toegang tot betaald trainingsmateriaal op [learning.adobe.com](http://learning.adobe.com/).
+* **Trainingsmaterialen**: Ga naar de [Workfront-training](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek met trainingsvideo&#39;s en artikelen die zijn ontworpen om u meer inzicht te geven in Workfront-functies en -instellingen. U hebt ook toegang tot betaald trainingsmateriaal op [learning.adobe.com](https://learning.adobe.com/).
 * **Cursussen**: Zoeken [gestructureerde leercursussen](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
 
 ### Antwoorden zoeken in communityforums

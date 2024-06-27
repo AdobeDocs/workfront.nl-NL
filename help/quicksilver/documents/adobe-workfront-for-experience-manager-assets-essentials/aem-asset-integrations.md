@@ -6,14 +6,16 @@ description: Dankzij de integratie tussen Workfront en Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Adobe Experience Manager Assets-integratie
+
+<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 <!-- Audited: 12/2023 -->
 
@@ -45,12 +47,18 @@ Met de geïntegreerde native Experience Manager kunt u
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
+## Ondersteunde cloudserviceproviders
+
+* AWS (Amazon Web Services)
+* Azure
+* <span class="preview">GCP (Google Cloud Platform)</span>
+
 
 ## Aan de slag
 
 1. [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 1. De integratie instellen:
-   1. [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+   1. [De as a Cloud Service integratie van Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 of
    1. [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 1. Gebruik de integratie: Verstuur elementen, maak gekoppelde mappen, kaartmetagegevens en nog veel meer. Zie [Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) voor meer informatie .
