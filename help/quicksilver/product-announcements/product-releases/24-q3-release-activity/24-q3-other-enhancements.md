@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 >[!NOTE]
 >
 >* De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd.
->* Voorvertoningsrelease: 20 juni 2024; Productieversie voor opgegeven klanten: met de release van 24.7 (juli 2024)
+>* Voorvertoningsrelease: 20 juni 2024; Productieversie voor opgegeven klanten: met 24.7 release (18 juli 2024)
 
 Om organisaties toegang tot de voordelen van de Adobe Verenigde Ervaring toe te staan, zijn wij begonnen het ter beschikking te stellen aan bestaande klanten van Workfront.
 
@@ -45,7 +45,7 @@ Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksi
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 6 juni 2024; Productie voor alle klanten: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 6 juni 2024; Productie voor alle klanten: met de release van 24.7 (18 juli 2024)
 
 Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Voor een lijst van alle veranderingen beschikbaar met de Derde Kwart versie 2024
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 30 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 30 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (18 juli 2024)
 
 We hebben de lijst Toewijzingen bijgewerkt naar een moderner ontwerp dat op alle gebieden van Workfront consistent is. Wanneer u een toewijzing toevoegt aan een taak of kwestie van de kopbal, lijstmening, of het Geavanceerde scherm van de Toewijzing, is de ervaring het zelfde. De suggesties zijn verdeeld in secties zodat u snel de juiste persoon, het juiste team of de juiste taakrol voor de toewijzing kunt vinden.
 
@@ -34,7 +34,7 @@ Zie voor meer informatie [Taken toewijzen](/help/quicksilver/manage-work/tasks/a
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 29 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 29 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (18 juli 2024)
 
 We hebben de pagina Documentdetails > Aangepaste Forms bijgewerkt naar een modern ontwerp dat aansluit bij andere gebieden van Workfront. De pagina ondersteunt nu geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden.
 
@@ -44,7 +44,7 @@ Zie voor meer informatie [Overzicht van documentdetails](/help/quicksilver/docum
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 29 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 29 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (18 juli 2024)
 
 We hebben de pagina Interferinggegevens > Aangepaste Forms bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. De pagina ondersteunt nu geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden.
 
@@ -54,7 +54,7 @@ Zie voor meer informatie [Een flexibel artikel maken in een herhaling](/help/qui
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 18 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 18 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (18 juli 2024)
 
 We hebben de lijst met hoofdgroepen in het gebied Setup > Groepen bijgewerkt naar een modern ontwerp dat aansluit bij andere gebieden van Workfront. Alle dialoogvensters voor groepen en subgroepen (toevoegen, bewerken, kopiëren, deactiveren, verwijderen), of ze nu worden geopend in de lijst Groepen of in het menu Meer voor een specifieke groep of subgroep, hebben ook het bijgewerkte ontwerp.
 
@@ -64,7 +64,7 @@ Zie voor meer informatie [Een groep maken](/help/quicksilver/administration-and-
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 2 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 2 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (18 juli 2024)
 
 Wij hebben het scherm van de Tarieven van de Uitwisseling aan een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
 
@@ -74,7 +74,7 @@ Zie voor meer informatie [Wisselkoersen instellen](/help/quicksilver/administrat
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 2 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (juli 2024)
+>Voorvertoningsrelease: 2 april 2024; productie voor snelle release: met de release van 24.5 (16 mei 2024); productie voor driemaandelijkse release: met de release van 24.7 (18 juli 2024)
 
 We hebben het scherm Job Roles geüpdatet naar een modern ontwerp dat aansluit bij andere delen van Workfront.
 

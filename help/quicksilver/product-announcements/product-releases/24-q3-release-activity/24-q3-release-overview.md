@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het derde kwartaal van 2024. Deze verbeteringen zullen naar verwachting in het hele kwartaal beschikbaar komen in de productieomgeving.
 
-De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register voor webinar hier](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bekijk hier een videodemonstratie van 24.7 functies](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het derde kwartaal van 2024 in productie waren) worden geel gemarkeerd.</span>
 
@@ -28,7 +28,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
->| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (13 juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 mei 2024)</li><li>24.6 (13 juni 2024)</li><li>24.7 (18 juli 2024)</li></ul> | <ul><li>24.7 (18 juli 2024)</li></ul> |
 >
 >Zie voor meer informatie over het snelle releaseproces [Het proces voor snelle release in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -36,6 +36,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen op het gebied van financieel beheer](#financial-management-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
@@ -54,6 +55,23 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Aangepaste formulierontwerper is algemeen beschikbaar in Adobe Workfront</a></p>
+                        <p>Met de versie 24.7 is de formulierontwerper over het algemeen beschikbaar en wordt deze de standaardeigenschap voor het maken en bewerken van aangepaste formulieren in Adobe Workfront. Wanneer u een nieuw aangepast formulier maakt of een bestaand formulier opent, wordt de werkruimte in canvasstijl van de formulierontwerper weergegeven.</p>
+                        <p>Na deze release kunt u niet meer terugkeren naar de oude formulierbuilder.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 19 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
            </tbody>
         </table>
 
+### Verbeteringen voor integratie
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Functie</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatums</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen in Workfront voor Experience Manager Assets en Assets Essentials</a></p>
+                        [!BADGE Nieuw in Voorproef ]{type=Negative}
+                        <p>We hebben de volgende verbeteringen aangebracht voor de integratie van Workfront voor Experience Manager Assets en Assets Essentials:</p>
+                        <ul>
+                            <li><p>De integratie ondersteunt nu GCP als cloudserviceprovider. AWS en Azure werden eerder ondersteund.</p></li>
+                            <li><p>De formaatlimiet voor bestanden die via de integratie naar de Experience Manager worden verzonden, is verhoogd tot 30 GB. Eerder was de limiet 5 GB.</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 27 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor alle klanten: met de 24,7-release (18 juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Projectverbeteringen
 
 <table>
@@ -196,7 +254,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Productie voor snelle release: met de release van 24.6 (13 juni 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Voorvertoningsrelease: 20 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor opgegeven klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productie voor opgegeven klanten: met de release van 24.7 (18 juli 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd. </p>
@@ -323,7 +381,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24.7 (juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ De 24,7 release webinar zal op 27 juni 2024 worden uitgebracht. U kunt [register
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor driemaandelijkse release: met de release van 24.7 </p>
+                                <p>Productie voor driemaandelijkse release: met 24,7 release (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
