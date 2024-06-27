@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 1. Klik op een werkruimtekaart om de werkruimte te openen.
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam te wijzigen en druk vervolgens op **Enter**.
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png)rechts van de naam van de werkruimte in de koptekst klikt u op **Bewerken**.
+1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de werkruimte in de koptekst klikt u op **Bewerken**.
 
    ![](assets/edit-workspace-box.png)
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >    Sommige velden zijn mogelijk verborgen. Klik op Velden en schakel de modus Velden in die u als kolommen wilt weergeven in de tabelweergave.
 
-1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave om nieuwe velden toe te voegen.
+1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave
+
+   of
+
+   Houd de cursor boven de koptekst van een kolom en klik op de pijl omlaag na de veldnaam en klik vervolgens op **Links invoegen** of **Rechts invoegen** het nieuwe veld toevoegen.
 1. In de **Nieuw veld** tabblad, zoekt u naar een veldtype in het dialoogvenster **Veldtype** of selecteer een van de volgende veldtypen:
 
    * [Tekst met één regel](#single-line-text)

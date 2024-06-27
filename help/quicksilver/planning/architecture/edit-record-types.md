@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Vouw in een werkruimte de pijl omlaag naar rechts naast de naam van een bestaande werkruimte uit en selecteer de werkruimte waarvan u de recordtypen wilt bewerken.
+   Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 
    De werkruimte wordt geopend en de recordtypen worden weergegeven.
 1. Houd de muisaanwijzer boven de kaart van een recordtype en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de recordtypekaart klikt u op **Bewerken**.
@@ -130,4 +130,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. (Optioneel) Breid de pijl omlaag naar rechts uit van de naam van een recordtype en selecteer een ander recordtype dat u wilt bewerken.
+1. (Optioneel) Als u een ander recordtype wilt bewerken, vouwt u de pijl omlaag naar rechts van de naam van een recordtype uit, zoekt u een recordtype en selecteert u deze pijl wanneer deze in de lijst wordt weergegeven.

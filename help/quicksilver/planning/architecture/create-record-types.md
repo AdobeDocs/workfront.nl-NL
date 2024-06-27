@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Voor informatie over welke recordtypen in elke sjabloon worden opgenomen, raadpl
 
    of
 
-   Vouw in een werkruimte de pijl omlaag naar rechts naast de naam van een bestaande werkruimte uit en selecteer de werkruimte waar u recordtypen wilt maken.
+   Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. (Optioneel) Klik op **Sectie toevoegen** om een nieuwe sectie aan de werkruimte toe te voegen.
 1. Klikken **Recordtype toevoegen**.
 1. (Voorwaardelijk) Wanneer u recordtypen maakt door een Excel- of CSV-bestand te importeren, klikt u op **Van kras**. Anders wordt de **Recordtype toevoegen** wordt geopend.
@@ -230,7 +230,7 @@ Recordtypen importeren met een Excel-bestand:
 
    of
 
-   Vouw in een werkruimte de pijl omlaag naar rechts naast de naam van een bestaande werkruimte uit en selecteer de werkruimte waar u recordtypen wilt maken.
+   Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. Klikken **Recordtype toevoegen**.
 1. Klikken **Excel/CSV**.
 1. Sleep en zet een Excel- of CSV-bestand neer dat eerder op uw computer is opgeslagen, of klik op **Een CSV- of Excel-bestand selecteren** om er een te zoeken.
