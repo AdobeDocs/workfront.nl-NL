@@ -4,9 +4,9 @@ description: Als leider van marketing verrichtingen, kunt u de Planning van Adob
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ De planningsmodule van Workfront is één van drie verschillende maar aangeslote
 
 ## Wanneer wordt Workfront Planning vrijgegeven?
 
-De nieuwste Workfront Planning-release naar algemene beschikbaarheid is gepland voor 28 augustus 2024. Voor bijgewerkte informatie over welke functies momenteel worden vrijgegeven, raadpleegt u [Adobe Workfront Planning Release-activiteit](/help/quicksilver/planning/general/release-activity.md).
+De nieuwste Workfront Planning-release naar algemene beschikbaarheid is gepland voor 28 augustus 2024. Voor bijgewerkte informatie over welke functies momenteel worden vrijgegeven, raadpleegt u [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md).
 
 ## Wat gebeurt er na het begin van de planningsfase van Workfront?
 

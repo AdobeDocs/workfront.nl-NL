@@ -4,9 +4,9 @@ description: U kunt de AI-assistent gebruiken om records te genereren, bij te we
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De informatie in dit artikel verwijst naar Adobe Workfront Planning en naar de AI Assistant, die nieuwe aanbiedingen zijn van Adobe Workfront.
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning en naar de Workfront AI Assistant (beta), die nieuwe aanbiedingen zijn van Adobe Workfront.
 >
->Momenteel bevinden Workfront Planning en de AI Assistant zich in een vroege toegangsfase die voor een beperkt aantal klanten toegankelijk is.
+>Workfront Planning bevindt zich momenteel in een vroege toegangsfase en de Workfront AI Assistant bevindt zich in een bètafase.
+>
+>Workfront Planning en de AI Assistant (bèta) staan open voor een beperkt aantal klanten.
 >
 >U moet een Workfront-klant zijn om deze mogelijkheden te kunnen gebruiken.
 >
@@ -28,7 +30,7 @@ ht-degree: 0%
 >
 >Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-U kunt de AI-assistent gebruiken om records te genereren, bij te werken of te verwijderen die zijn gebaseerd op de context van de huidige pagina en de recordstructuur.
+Met de AI-assistent kunt u records genereren, bijwerken of verwijderen op basis van de context en de recordstructuur van de huidige pagina.
 
 De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen om ervoor te zorgen dat de veranderingen door AI worden aangebracht nauwkeurig in uw milieu worden weerspiegeld.
 
@@ -40,25 +42,27 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 
 * De AI Assistant werkt in de context van elke pagina. De aanvragen die u voor de AI-assistent indient, moeten verwijzen naar functionaliteit die beschikbaar is op de pagina die u hebt geopend.
 
-* De acties die door de AI Medewerker worden uitgevoerd zijn in de context van uw toestemmingen van de Planning van Workfront en uw toegangsniveau van Workfront. Raadpleeg de volgende artikelen voor meer informatie:
+* De acties die door de AI Medewerker in het Gebied van de Planning worden uitgevoerd zijn in de context van uw toestemmingen van de Planning van Workfront en uw toegangsniveau van Workfront. Raadpleeg de volgende artikelen voor meer informatie:
 
    * [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Wijzigingen die de AI-assistent namens de gebruiker aanbrengt, worden bijgehouden in het deelvenster Historie van de record.
 
-* Met opdrachten kunt u handelingen ongedaan maken.
+* Met opdrachten kunt u handelingen ongedaan maken. U kunt bijvoorbeeld &quot;Laatste wijziging ongedaan maken&quot; typen om de wijziging ongedaan te maken.
 
 ## Momenteel beschikbare functionaliteit voor de AI-assistent
 
 Momenteel is de AI Assistant beschikbaar in het planningsgebied van Workfront voor de volgende pagina&#39;s:
 
+* Workspace-pagina
 * Tekstpagina opnemen
 * Pagina opnemen
 
 Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 
-* Records maken. Een id met een koppeling naar de nieuwe record wordt weergegeven nadat de record is gemaakt.
+* Zoeken naar records. U kunt zoeken op informatie in alle recordvelden.
+* Records maken. Een id met een koppeling naar de nieuwe record wordt weergegeven nadat de record is gemaakt. U kunt opgeven welke velden u wilt bijwerken tijdens het maken, zoals datums of beschrijving.
 * Maak records op basis van een document dat u uploadt. Workfront ondersteunt de volgende documentindelingen voor de AI Assistant:
 
   .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt en de meeste afbeeldingsindelingen
@@ -70,7 +74,9 @@ Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 
 1. Meld u aan bij Workfront en ga vervolgens naar de **Planning** gebied.
 
-1. Klik op een **werkruimtekaart** > **opnametype**.
+1. Klik op een **werkruimtekaart**.
+
+1. (Optioneel) Klik op een **opnametype**.
 
 1. (Optioneel) Klik op een **opnemen** om de record te openen **Details** pagina.
 
@@ -84,7 +90,7 @@ Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 
    U kunt bijvoorbeeld een van de volgende typen:
 
-   * Een record maken
+   * Maak een campagne met een startdatum van 4 juli en een einddatum van 30 juli
    * Het veld Beschrijving van de record in de zomercampagne bijwerken met de datum die moet worden bepaald
    * Laatste record verwijderen
    * De record herstellen

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,7 @@ Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront g
 Lees de volgende artikelen:
 
 * [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Adobe Workfront Planning Release-activiteit](/help/quicksilver/planning/general/release-activity.md)
-* [Adobe Workfront Planning Release Activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning AI Assistant - overzicht](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
+* [Archieven van Adobe Workfront Planning Release-activiteiten voor 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+

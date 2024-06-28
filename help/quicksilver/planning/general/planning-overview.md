@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Hieronder vindt u een aantal van de belangrijkste mogelijkheden:
 
 In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn in Workfront Planning en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
 
-Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadpleegt u [Adobe Workfront Planning Release-activiteit](/help/quicksilver/planning/general/release-activity.md).
+Voor informatie over nieuwe functies en wanneer deze worden uitgebracht, raadpleegt u [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md).
 
 | Functie | Nu beschikbaar | Binnenkort beschikbaar | Onderzoek |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -116,7 +116,7 @@ Het raamwerk voor Workfront Planning is volledig aanpasbaar. U kunt alle recordt
 
 Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
-* **Werkruimte**: Een verzameling recordtypen die de operationele levenscyclus van een bepaalde organisatie definiëren. Een werkruimte is het werkkader van een organisatorische eenheid.
+* **Workspace**: Een verzameling recordtypen die de operationele levenscyclus van een bepaalde organisatie definiëren. Een werkruimte is het werkkader van een organisatorische eenheid.
 
   Eén Workfront-instantie kan maximaal 1000 werkruimten hebben.
 
@@ -144,7 +144,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Zie voor meer informatie [Records maken](/help/quicksilver/planning/records/create-records.md).
 
-* **Werkruimtemalplaatje**: U kunt een werkruimte maken met vooraf gedefinieerde sjablonen. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
+* **Workspace-sjabloon**: U kunt een werkruimte maken met vooraf gedefinieerde sjablonen. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
@@ -328,5 +328,5 @@ Workfront-planning zoeken:
 
 We geven regelmatig nieuwe functies aan Workfront Planning.
 
-Voor een actuele lijst met vrijgegeven functies raadpleegt u [Adobe Workfront Planning Release-activiteit](/help/quicksilver/planning/general/release-activity.md)
+Voor een actuele lijst met vrijgegeven functies raadpleegt u [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
 
