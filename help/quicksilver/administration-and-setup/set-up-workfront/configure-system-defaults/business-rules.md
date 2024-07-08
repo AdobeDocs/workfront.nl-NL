@@ -7,17 +7,16 @@ description: U kunt kiezen of u de nieuwe Workfront-functionaliteit op maand- of
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Zakelijke regels maken en bewerken
+
+{{highlighted-preview-article-level}}
 
 Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bedrijfsregels helpen gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
 
@@ -25,7 +24,7 @@ Eén bedrijfsregel kan slechts aan één object worden toegewezen. Bijvoorbeeld,
 
 Toegangsniveaus en het delen van objecten hebben een hogere prioriteit dan bedrijfsregels wanneer een gebruiker met een voorwerp in wisselwerking staat. Bijvoorbeeld, als een gebruiker een toegangsniveau of een toestemming heeft die het uitgeven van een project niet toestaat, dan zouden die belangrijkheid over een bedrijfsregel nemen die het uitgeven van een project onder bepaalde voorwaarden toestaat.
 
-Er bestaat ook een hiërarchie wanneer meerdere bedrijfsregels op een object worden toegepast. U hebt bijvoorbeeld twee bedrijfsregels. Eén beperkt het maken van kosten in de maand februari. Het tweede verhindert het uitgeven van een project wanneer de projectstatus Voltooid is. Als een gebruiker probeert om een uitgave aan een voltooid project in juni toe te voegen, kan de uitgave niet worden toegevoegd omdat het de tweede regel heeft teweeggebracht.
+Wanneer meer dan één bedrijfsregel op een voorwerp van toepassing is, dan worden de regels allen gevolgd maar niet in een bepaalde orde toegepast. U hebt bijvoorbeeld twee bedrijfsregels. Eén beperkt het maken van kosten in de maand februari. Het tweede verhindert het uitgeven van een project wanneer de projectstatus Voltooid is. Als een gebruiker probeert om een uitgave aan een voltooid project in juni toe te voegen, kan de uitgave niet worden toegevoegd omdat het de tweede regel heeft teweeggebracht.
 
 De bedrijfsregels zijn van toepassing op het creëren van, het uitgeven van, en het schrappen van voorwerpen door API evenals in de interface van Workfront.
 
@@ -64,18 +63,36 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ## Scenario&#39;s voor bedrijfsregels
 
-Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
+De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
 
-* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan als volgt worden omschreven: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan als volgt worden omschreven: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-De syntaxis voor het bouwen van een bedrijfsregel is het zelfde als het bouwen van een berekend gebied in een douaneformulier. Zie voor meer informatie over de syntaxis [Berekende velden toevoegen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Zie voor meer informatie over de syntaxis [Berekende velden toevoegen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Zie voor informatie over IF-instructies [Overzicht van &quot;IF&quot;-instructies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [Operatoren voor voorwaarde in berekende aangepaste velden](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Voor informatie over op gebruiker-gebaseerde vervangingen, zie [Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Voor informatie over op datum gebaseerde vervangingen, zie [Gebruik op datum gebaseerde jokertekens om rapporten te generaliseren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+Een API-jokerteken is ook beschikbaar in bedrijfsregels. U kunt `$$ISAPI` om de regel alleen in de gebruikersinterface of alleen in de API te activeren.
+
+Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
+
+* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan als volgt worden omschreven: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan als volgt worden omschreven: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Een scenario met geneste IF-instructies is:
+
+De gebruikers kunnen voltooide projecten niet uitgeven en kunnen geen projecten met een Geplande Datum van de Voltooiing in Maart uitgeven. Deze formule kan als volgt worden omschreven:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Voeg een nieuwe bedrijfsregel toe
 

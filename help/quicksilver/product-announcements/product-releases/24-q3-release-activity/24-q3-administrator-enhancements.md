@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Deze pagina beschrijft alle beheerderverhogingen die met Derde Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart de versiecyclus van 2024, zie [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Zakelijke regels zijn nu beschikbaar
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 4 juli 2024; Productieversie voor alle klanten: met 24,7 release (18 juli 2024).
+
+Beheerders kunnen nu bedrijfsregels toevoegen in het gedeelte Setup van Workfront.
+
+Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De regels worden opgebouwd met een formule die vergelijkbaar is met berekende velden in aangepaste formulieren.
+
+Zie voor meer informatie [Zakelijke regels maken en bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>De bedrijfsregels zijn slechts beschikbaar voor organisaties op het nieuwe Ultimate plan.
 
 ## Aangepaste formulierontwerper is algemeen beschikbaar in Adobe Workfront
 

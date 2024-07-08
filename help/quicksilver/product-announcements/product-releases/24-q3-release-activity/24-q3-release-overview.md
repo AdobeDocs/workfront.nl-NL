@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,23 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                     <td>
                         <p><span class="bold">Releasedatums</span>
                         </p>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Zakelijke regels zijn nu beschikbaar</a></p>
+                        <p>Beheerders kunnen nu bedrijfsregels toevoegen in het gedeelte Setup van Workfront.</p>
+                        <p>Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De regels worden opgebouwd met een formule die vergelijkbaar is met berekende velden in aangepaste formulieren.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 4 juli 2024</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
