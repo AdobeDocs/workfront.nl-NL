@@ -5,24 +5,24 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
+source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
 
-# Overzicht release derde kwartaal 2024
+# Overzicht van de release van het derde kwartaal van 2024
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het derde kwartaal van 2024. Deze verbeteringen zullen naar verwachting in het hele kwartaal beschikbaar komen in de productieomgeving.
 
-De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bekijk hier een videodemonstratie van 24.7 functies](https://video.tv.adobe.com/v/3430532/%20).
+De live 24.7-releasewebinar is geannuleerd, maar u kunt [bekijk hier een videodemonstratie van 24.7 functies](https://video.tv.adobe.com/v/3430532/%20).
 
-<span class="preview">Functies die buiten de cyclus vallen (functies die vóór de releasedatum van het derde kwartaal van 2024 in productie waren) worden geel gemarkeerd.</span>
+<span class="preview">Functies die buiten de cyclus vallen (functies die vóór de release van het derde kwartaal van 2024 beschikbaar waren) worden geel gemarkeerd.</span>
 
 >[!IMPORTANT]
 >
->De release van 23.3 bevatte de optie om uw organisatie te verplaatsen naar maandelijkse releases. Daarom heeft Workfront het nummeringsschema van releaseversies gewijzigd om rekening te houden met zowel het maandelijks- als driemaandelijkse releasespoor. Het eerste getal geeft het jaar aan en het tweede getal geeft de maand van de release aan. Voorbeeld: De release voor april 2024 luidt als 24.4.
+>In de 23.3-versie was de optie opgenomen om uw organisatie te verplaatsen naar maandelijkse releases. Daarom heeft Workfront het nummeringsschema van releases aangepast om rekening te houden met zowel de release per maand als de release per kwartaal. Het eerste getal geeft het jaar aan en het tweede getal geeft de maand van de release aan. Voorbeeld: De release voor april 2024 luidt als 24.4.
 >
 >Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen zijn op de donderdag van de tweede volledige week van de maand, tenzij anders vermeld.
 >
@@ -35,14 +35,14 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
 ## Verbeteringen voor Adobe Workfront
 
 * [Beheerdersverbeteringen](#administrator-enhancements)
-* [Verbeteringen op het gebied van financieel beheer](#financial-management-enhancements)
-* [Verbeteringen voor integratie](#integration-enhancements)
+* [Verbeteringen in financieel beheer](#financial-management-enhancements)
+* [Verbeterde integratie](#integration-enhancements)
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Verbeteringen voor hulpbronnenbeheer](#resource-management-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
-### Beheerdersverbeteringen
+### Verbeteringen voor beheerders
 
 <table>
             <col style="width: 50%;" />
@@ -60,7 +60,8 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Zakelijke regels zijn nu beschikbaar</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Bedrijfsregels zijn nu beschikbaar</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
                         <p>Beheerders kunnen nu bedrijfsregels toevoegen in het gedeelte Setup van Workfront.</p>
                         <p>Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De regels worden opgebouwd met een formule die vergelijkbaar is met berekende velden in aangepaste formulieren.</p>
                     </td>
@@ -128,7 +129,7 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Een nieuw aangepast veld toevoegen vanuit het gebied Velden</a></p>
                         <p>U kunt nu een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder dat u een aangepast formulier hoeft te openen om het veld te maken. Zo kunt u snel opnieuw bruikbare aangepaste velden maken.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
+                    <td><p><b>Beschikbaar op deze datums:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
@@ -145,13 +146,13 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                         [!BADGE in productie ]{type=Informative}
                         <p>We hebben het veld Multi-Select Dropdown toegevoegd aan de aangepaste formulierontwerper om het eenvoudiger te maken vervolgkeuzelijsten te definiëren. Met dit veldtype kunnen gebruikers meerdere opties in een vervolgkeuzelijst kiezen.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
+                    <td><p><b>Beschikbaar op deze datums:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 4 juni 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productie voor alle afnemers: 4 juni 2024</span></p>
+                                <p><span class="preview">Productie voor alle klanten: 4 juni 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -159,7 +160,7 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
            </tbody>
         </table>
 
-### Verbeteringen op het gebied van financieel beheer
+### Verbeteringen in financieel beheer
 
 <table>
             <col style="width: 50%;" />
@@ -201,7 +202,7 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
            </tbody>
         </table>
 
-### Verbeteringen voor integratie
+### Verbeterde integratie
 
 <table>
             <col style="width: 50%;" />
@@ -221,13 +222,13 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbeteringen in Workfront voor Experience Manager Assets en Assets Essentials</a></p>
                         [!BADGE Nieuw in Voorproef ]{type=Negative}
-                        <p>We hebben de volgende verbeteringen aangebracht voor de integratie van Workfront voor Experience Manager Assets en Assets Essentials:</p>
+                        <p>We hebben de volgende verbeteringen aangebracht voor de Workfront for Experience Manager Assets en de Assets Essentials-integraties:</p>
                         <ul>
                             <li><p>De integratie ondersteunt nu GCP als cloudserviceprovider. AWS en Azure werden eerder ondersteund.</p></li>
-                            <li><p>De formaatlimiet voor bestanden die via de integratie naar de Experience Manager worden verzonden, is verhoogd tot 30 GB. Eerder was de limiet 5 GB.</p></li>
+                            <li><p>De formaatlimiet voor bestanden die via de integratie naar de Experience Manager worden verzonden, is verhoogd tot 30 GB. Voorheen was de limiet 5 GB.</p></li>
                         </ul>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
+                    <td><p><b>Beschikbaar op deze datums:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 27 juni 2024</p>
@@ -355,7 +356,7 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
            </tbody>
         </table>
 
-### Verbeteringen voor hulpbronnenbeheer
+### Verbeteringen voor middelenbeheer
 
 <table>
             <col style="width: 50%;" />
@@ -373,7 +374,7 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tijd uit nu weerspiegeld in de werklastbalans</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Verkeerde tijd nu weerspiegeld in de tool Werklastbalans</a></p>
                         <p>Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan een taak tijd weg heeft gepland, wijst de Balancer van de Werkbelasting nu uren aan zowel de primaire als secundaire gebruikers opnieuw toe wanneer de projectchronologie wordt herberekend.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -417,10 +418,10 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                                 <p>Voorvertoningsrelease: 20 juni 2024</p>
                             </li>
                             <li>
-                                <p>Productie voor opgegeven klanten: met de release van 24.7 (18 juli 2024)</p>
+                                <p>Productie voor specifieke klanten: met de 24.7-versie (18 juli 2024)</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitrol. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden genegeerd. </p>
+                         <span style="color: #ff0000;">De Adobe verenigde Shell wordt ter beschikking gesteld in een gefaseerde uitlooptraject. De extra organisaties zullen aan de Adobe Verenigde Shell met de 24.10 en 25.1 versies worden onboard. </p>
                     </td>
                 </tr>
                 <tr>
@@ -428,7 +429,7 @@ De live release-webinar van 24.7 is geannuleerd, maar u kunt het nog steeds [bek
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">De knop Help is verwijderd uit de hoofdnavigatiebalk</a></p>
                         <p>Om de ervaring voor gebruikers te verenigen niet op Verenigde Shell, is de knoop van de Hulp op de belangrijkste navigatiebar verwijderd. Deze knoop, die niet voor gebruikers op Verenigde Shell aanwezig is, verbonden aan de documentatie van Workfront en met een gelijkaardige knoop van de Hulp beschikbaar voor alle gebruikers in het Belangrijkste Menu overtollig was.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze data:</b></p>
+                    <td><p><b>Beschikbaar op deze datums:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 6 juni 2024</p>
