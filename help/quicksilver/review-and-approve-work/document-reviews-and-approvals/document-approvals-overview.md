@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,9 @@ Lees verder hieronder voor meer informatie over geplande functies en releases vo
 
 ## Releaseplan
 
-We stellen Goedkeuringen voor nieuwe documenten beschikbaar voor gebruikers in de loop van verschillende releases. Naast het toevoegen van nieuwe eigenschappen, zullen wij ook het aantal rekeningen uitbreiden waarvoor de Goedkeuringen van het Nieuw Document met elke versie beschikbaar zijn. Accountbeheerders ontvangen een e-mail van het Aankondigingscentrum waarin zij op de hoogte worden gesteld van de wijziging voordat deze wordt opgenomen.
+We stellen Goedkeuringen voor nieuwe documenten beschikbaar voor gebruikers in de loop van verschillende releases. Naast het toevoegen van nieuwe eigenschappen, zullen wij ook het aantal rekeningen uitbreiden waarvoor de Goedkeuringen van het Nieuw Document met elke versie beschikbaar zijn.
 
 Als u Goedkeuringen voor nieuwe documenten wilt inschakelen in uw productieomgeving, neemt u contact op met uw Customer Success of Strategic Account Manager.
-
-**Release 1**\
-    Voorbeeld: 31 mei 2023\
-    Productie: 14 juni 2023
 
 ## Goedkeuringen van nieuwe documenten gebruiken
 

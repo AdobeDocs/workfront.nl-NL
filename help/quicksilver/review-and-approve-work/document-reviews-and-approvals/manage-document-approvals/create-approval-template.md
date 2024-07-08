@@ -5,13 +5,13 @@ title: Een goedkeuringssjabloon maken
 description: U kunt goedkeuringssjablonen maken om het goedkeuringsproces te stroomlijnen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
-
 
 # Een goedkeuringssjabloon maken
 
@@ -37,7 +37,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Standaard</p> </td> 
+   <td> <p>Nieuw: Standaard</p> 
+   <p>of</p>
+   <p>Huidig: Plan</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,4 +68,3 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
