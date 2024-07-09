@@ -7,9 +7,9 @@ description: In het gebied Documenten kunt u metagegevens voor naar Adobe Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,19 @@ In het gebied Documenten kunt u metagegevens voor naar Adobe Workfront geüpload
 
 Er zijn twee typen documentgebieden. De eigenschappen en de functionaliteit zijn het zelfde voor beide:
 
-* **Documentgebied in een project, taak of uitgave:** Hiermee geeft u alle documenten weer waartoe u toegang hebt voor een bepaald project, een bepaalde taak of een bepaalde uitgave. Klik op **Documenten** ![](assets/document-icon-12x14.png) in het linkerpaneel terwijl het bekijken van een project, een taak, of een kwestie.
+* **Documentgebied in een programma, portfolio, project, taak of uitgave:** Hiermee geeft u alle documenten weer waartoe u toegang hebt voor een bepaald project, een bepaalde taak of een bepaalde uitgave. Als u dit gebied wilt openen, klikt u op **Documenten** ![](assets/document-icon-12x14.png) in het linkerdeelvenster wanneer u een project, taak of uitgave weergeeft.
 
-* **Gebied Algemene documenten:** Hiermee geeft u alle documenten weer waartoe u toegang hebt in Workfront. Klik op **Documenten** ![](assets/document-icon.png) in het hoofdmenu ![](assets/main-menu-icon.png).
+* **Gebied Algemene documenten:** Hiermee geeft u alle documenten weer waartoe u toegang hebt in Workfront. Als u dit gebied wilt openen, klikt u op **Documenten** ![](assets/document-icon.png) in het hoofdmenu ![](assets/main-menu-icon.png).
 
 Voor informatie over het uploaden van documenten naar Workfront raadpleegt u [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
+
+In het documentgebied wordt een aantal van de volgende items vastgelegd:
+
+* Workfront-mappen
+* Bestanden geüpload vanaf het bestandssysteem
+* Bestanden die via integratie aan Workfront zijn toegevoegd
+* Gekoppelde Experience Manager Assets
 
 ## Het deelvenster Samenvatting
 
@@ -40,7 +48,7 @@ U kunt op de kop Details klikken om naar het volledige gebied Documentdetails te
 
 Voor informatie over de samenvatting raadpleegt u [Overzicht van documenten](../../documents/managing-documents/summary-for-documents.md).
 
-## Bewijsbeslissing
+## Bewijs van beslissing
 
 Zodra een bewijskrachtbesluit is genomen, verschijnt het in de lijst van het Document.
 
