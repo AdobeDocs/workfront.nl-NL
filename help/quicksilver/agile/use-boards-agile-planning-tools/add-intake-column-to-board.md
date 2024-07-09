@@ -7,9 +7,9 @@ description: U kunt desgewenst een inlaatkolom toevoegen aan uw board die taken 
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
+source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ U kunt desgewenst een inlaatkolom aan uw board toevoegen die taken en problemen 
 Er is slechts één inlaatkolom toegestaan op een bord en deze wordt altijd weergegeven als de meest linkse kolom.
 
 De inlaatkolom is niet beschikbaar op een dynamisch bord. U kunt echter wel de filters bijwerken waarmee wordt gedefinieerd welke kaarten op een dynamische kaart worden geplaatst. Wanneer u deze filters wijzigt op een dynamisch bord, worden de kaartinstellingen die geen deel uitmaken van de Workfront-taak of -uitgave (zoals codes), opnieuw ingesteld.
+
+>[!NOTE]
+>
+>Om veiligheidsredenen kan alleen de eigenaar van een board de bordfilters wijzigen in het deelvenster Configureren.
 
 De inlaatkolom is beperkt tot 300 taken en 300 problemen. De standaardvolgorde van items in de inlaatkolom is als volgt:
 
