@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klik op de pijl omlaag ![](assets/dropdown-arrow.png) krachtens **Aanpassen wat gebruikers zien** en klik vervolgens op **Werkruimte Home**.
+1. Klik op de pijl omlaag ![](assets/dropdown-arrow.png) krachtens **Aanpassen wat gebruikers zien** en klik vervolgens op **Home Workspace**.
 
 1. Klik in de tabbladen die aan de rechterkant worden weergegeven op **Ontwerp en lay-out** om widgets en de achtergrond te kiezen en te rangschikken, of **Widget-instellingen** om instellingen voor afzonderlijke widgets, zoals beschikbare filters en groepen, te beheren.
 
@@ -132,3 +132,8 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    of
 
    Als u klaar bent met aanpassen, klikt u op **Opslaan** in de linkerbenedenhoek.
+
+
+>[!NOTE]
+>
+>Beheerders die hun eigen lay-outsjabloon aanpassen, moeten de pagina vernieuwen om de wijzigingen te kunnen zien.

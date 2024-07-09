@@ -6,9 +6,9 @@ description: Met de filter- en voorwaardemodities kunt u filters maken en voorwa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ U kunt de volgende voorwaardelijke wijzigingstoetsen in filters en voorwaardelij
    <td> <p><strong>Niet gelijk</strong> </p> </td> 
    <td> <p><strong>niets</strong> </p> </td> 
    <td> <p>Dit is het <i>hoofdlettergevoelig</i> tegenovergestelde van <strong>in</strong>. Het retourneert alleen resultaten die niet in de opgegeven lijst voorkomen.</p> <p>Deze optie kan alleen worden gebruikt in tekstmodusfilters. Zie voor meer informatie over de tekstmodus in filters <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p> <p>Opmerking: <span>Als het veld waarvoor u filtert meerdere opties heeft, worden hiermee de resultaten uitgefilterd die zowel de door u opgegeven keuze bevatten als de door u opgegeven keuze en eventuele extra opties.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>leuk</strong> </p> </td> 
+   <td> <p>Met deze optie zoekt u naar delen van een <i>hoofdlettergevoelig</i> teksttekenreeks op dezelfde manier als <strong>contains</strong>. Maar <strong>leuk</strong> hiermee kunt u jokertekens invoegen om de tekst te verbreken.</p> <p>Als u bijvoorbeeld naar notities zoekt, kunt u <code>like %Current% %Dead%</code> Hiermee wordt een willekeurige notitie geretourneerd die de uitdrukking "Huidig tot dood" bevat. Notities met de tekst "Dead to Current" worden hier niet in opgenomen. Elke waarde wordt doorzocht in de volgorde waarin deze wordt vermeld. Het percentage vertegenwoordigt een jokerteken waarmee tekens of tekstsegmenten worden vervangen. Een onderstrepingsteken kan ook worden gebruikt voor één jokerteken, zoals in <code>like Project_</code> die zowel "Project"als "Projecten"terugkeert. Als u een <strong>leuk</strong> of <strong>clike</strong> Als u een filter toepast, raden wij u aan %- of _-tekens te vermijden bij namen van aangepaste gegevensvelden, parameteropties of andere objectnamen.</p><p>Deze optie kan alleen worden gebruikt in tekstmodusfilters. Zie voor meer informatie over de tekstmodus in filters <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>knap</strong> </p> </td> 
    <td> <p>Dit is het <i>hoofdlettergevoelig</i> versie van <strong>leuk</strong>. Bijvoorbeeld: <code>cilike %Current% %Dead%</code> retourneert alle notities die bevatten <code>Current to Dead</code> of <code>current to dead</code>.</p> <p>Deze optie kan alleen worden gebruikt in tekstmodusfilters. Zie voor meer informatie over de tekstmodus in filters <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>leuk</strong> </p> </td> 
-   <td> <p>Met deze optie zoekt u naar delen van een <i>hoofdlettergevoelig</i> teksttekenreeks op dezelfde manier als <strong>contains</strong>. Maar <strong>leuk</strong> hiermee kunt u jokertekens invoegen om de tekst te verbreken.</p> <p>Als u bijvoorbeeld naar notities zoekt, kunt u <code>like %Current% %Dead%</code> Hiermee wordt een willekeurige notitie geretourneerd die de uitdrukking "Huidig tot dood" bevat. Notities met de tekst "Dead to Current" worden hier niet in opgenomen. Elke waarde wordt doorzocht in de volgorde waarin deze wordt vermeld. Het percentage vertegenwoordigt een jokerteken waarmee tekens of tekstsegmenten worden vervangen.</p> <p>Deze optie kan alleen worden gebruikt in tekstmodusfilters. Zie voor meer informatie over de tekstmodus in filters <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Bestaat niet</strong> </td> 
