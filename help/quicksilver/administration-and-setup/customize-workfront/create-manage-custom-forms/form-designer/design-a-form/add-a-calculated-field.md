@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 0%
@@ -278,6 +278,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       Als u een haakje openen typt, wordt het haakje sluiten automatisch toegevoegd.
 
 +++ **Uitbreiden om nuttige tips weer te geven**
+
       >[!TIP]
       >
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:

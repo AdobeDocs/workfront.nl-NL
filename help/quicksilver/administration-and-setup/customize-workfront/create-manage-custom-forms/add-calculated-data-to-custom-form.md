@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast v
 
 ## Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten {#calculated-custom-fields-in-multi-object-custom-forms}
 
-In een aangepast formulier met meerdere objecten moeten de geselecteerde objecttypen compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen.
+In een aangepast formulier met meerdere objecten moeten de geselecteerde objecttypen compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier.
 
 >[!INFO]
 >
@@ -310,11 +310,11 @@ In een aangepast formulier met meerdere objecten moeten de geselecteerde objectt
 >
 >`{assignedTo}.{name}`
 >
->Later voegt u het objecttype Project toe aan het aangepaste formulier. Een waarschuwingsbericht geeft aan dat het objecttype Project niet compatibel is met het berekende aangepaste veld.
+>Later voegt u het objecttype Project toe aan het aangepaste formulier, maar het objecttype Project is niet compatibel met het berekende aangepaste veld.
 
 Wanneer dit voorkomt, kunt u één van het volgende doen:
 
-* Verwijder een van de twee incompatibele items uit het aangepaste formulier. Dit is het objecttype of het berekende aangepaste veld waarnaar wordt verwezen.
+* Verwijder een van de twee incompatibele items uit het aangepaste formulier: het objecttype of het berekende aangepaste veld waarnaar wordt verwezen.
 * Beide items behouden en de filtervariabele voor jokertekens gebruiken `$$OBJCODE` als een voorwaarde in een IF-expressie om twee verschillende versies van het veld In laden te maken. Hierdoor werkt het veld goed, ongeacht het type object waaraan het formulier is gekoppeld.
 
 >[!INFO]
@@ -325,7 +325,7 @@ Wanneer dit voorkomt, kunt u één van het volgende doen:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Voor meer informatie over variabelen zoals `$$OBJCODE,` zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor meer informatie over variabelen zoals `$$OBJCODE,` zie [Overzicht van jokertekenfiltervariabelen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatische updates van berekende aangepaste velden
 
