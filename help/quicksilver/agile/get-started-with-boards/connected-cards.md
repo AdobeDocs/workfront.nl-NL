@@ -6,9 +6,9 @@ description: U kunt een kaart aan uw bord toevoegen die met bestaande taken en k
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken en klik op de knop <strong>Bijlage toevoegen</strong> pictogram <img src="assets/attachment-icon.png" alt="Bijlage, pictogram"> om een bestand bij de opmerking te voegen. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn. Gecodeerde gebruikers op verbonden kaarten ontvangen e-mailmeldingen.</p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
-      <p><strong>OPMERKING:</strong> In het gebied met opmerkingen op kaarten wordt de nieuwe Adobe Workfront-ervaring voor opmerkingen gebruikt. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p></td>
+      <td><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken. Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn. Gecodeerde gebruikers op verbonden kaarten ontvangen e-mailmeldingen.</p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
+      <p>Zie voor meer informatie over opmerkingen <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
