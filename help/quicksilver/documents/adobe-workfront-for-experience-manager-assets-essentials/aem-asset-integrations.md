@@ -6,16 +6,14 @@ description: Dankzij de integratie tussen Workfront en Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 63bcf5391dc982b53634dccd7150205a7d09f308
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Adobe Experience Manager Assets-integratie
-
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 
 <!-- Audited: 12/2023 -->
 
@@ -51,7 +49,7 @@ Met de geïntegreerde native Experience Manager kunt u
 
 * AWS (Amazon Web Services)
 * Azure
-* <span class="preview">GCP (Google Cloud Platform)</span>
+* GCP (Google Cloud Platform)
 
 
 ## Aan de slag

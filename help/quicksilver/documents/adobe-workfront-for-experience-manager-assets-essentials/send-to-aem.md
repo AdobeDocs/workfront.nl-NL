@@ -6,22 +6,20 @@ description: U kunt documenten van Workfront naar Experience Manager Assets of A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # Een document verzenden naar Experience Manager Assets of Assets Essentials
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
-
 U kunt documenten van Workfront naar Experience Manager Assets of Assets Essentials verzenden. Documenten die vanuit Workfront zijn geüpload en naar Assets Essentials zijn verzonden, worden nog steeds in mindering gebracht op de totale opslag van het document. Assets gekoppeld van Assets Essentials telt niet mee voor algemene opslag.
 
 Assets dat via deze integratie naar Experience Manager wordt gestuurd, heeft een formaatlimiet **5 GB**.
 
-<span class="preview">In de voorvertoningsomgeving geldt dat Assets die via deze integratie naar de Experience Manager wordt verzonden, een formaatlimiet heeft van **30 GB**.</span>
+In de voorvertoningsomgeving geldt dat Assets die via deze integratie naar de Experience Manager wordt verzonden, een formaatlimiet heeft van **30 GB**.
 
 Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Assets Essentials. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Zie voor meer informatie over het configureren van metagegevenstoewijzing [De as a Cloud Service integratie van Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Wo
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel te voltooien:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ U moet het volgende hebben:
 </table>
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Vereisten
 
