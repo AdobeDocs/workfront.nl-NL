@@ -9,14 +9,14 @@ description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Office 365 Email]
+# [!DNL Microsoft Office 365 Email] modules
 
 In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!UICONTROL Microsoft Office 365 Email]en deze verbinding maken met meerdere toepassingen en services van derden.
 
@@ -96,16 +96,18 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### Bericht
 
-* [[!UICONTROL Watch Messages]](#watch-messages)
-* [[!UICONTROL Search messages]](#search-messages)
-* [[!UICONTROL Get a message]](#get-a-message)
-* [[!UICONTROL Create and Send a Message]](#create-and-send-a-message)
-* [[!UICONTROL Move a Message]](#move-a-message)
+* [[!UICONTROL Create and Send a Message (legacy)]](#create-and-send-a-message)
 * [[!UICONTROL Delete a Message]](#delete-a-message)
+* [[!UICONTROL Get a message]](#get-a-message)
+* [[!UICONTROL Move a Message]](#move-a-message)
+* [[!UICONTROL Search messages]](#search-messages)
+* [[!UICONTROL Watch Messages]](#watch-messages)
 
-#### [!UICONTROL Watch Messages]
 
-Triggers wanneer een nieuw e-mailbericht wordt verzonden of ontvangen.
+
+#### [!UICONTROL Create and Send a Message (legacy)]
+
+Hiermee maakt en verstuurt u een e-mailbericht.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,85 +118,65 @@ Triggers wanneer een nieuw e-mailbericht wordt verzonden of ontvangen.
    <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
-   <td> <p>Selecteer de berichten die u wilt bekijken:</p> 
+   <td role="rowheader">[!UICONTROL Subject]</td> 
+   <td> <p>Voer de onderwerpregel van het bericht in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Body Content Type]</td> 
+   <td>Selecteer of de hoofdinhoud van het bericht HTML of Tekst is.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body content]</td> 
+   <td> <p>Voer de tekst van de berichttekst van de e-mail in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Importance]</td> 
+   <td> <p>Selecteer het belang van de e-mail</p> 
     <ul> 
-     <li>[!UICONTROL Only Unread]</li> 
-     <li>[!UICONTROL Only read]</li> 
-     <li>[!UICONTROL All]</li> 
+     <li>[!UICONTROL Low]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL High]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Selecteer de map met de berichten die u wilt bekijken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie [!DNL Microsoft] ondersteuningsartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">E-mail en personen zoeken in [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Voer het maximum aantal berichten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Search messages]
-
-Hiermee zoekt u berichten op basis van specifieke criteria.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Selecteer de map met de berichten die u wilt doorzoeken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie [!DNL Microsoft] ondersteuningsartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">E-mail en personen zoeken in [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td> <p>Selecteer hoe u de resultaten wilt bestellen:</p> 
+   <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
+   <td> <p>Voeg het e-mailadres toe waarnaar u de berichten wilt verzenden:</p> 
     <ul> 
-     <li>[!UICONTROL Subject (Ascending or descending)]</li> 
-     <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
-     <li>[!UICONTROL Last Modified Date Time (Ascending or descending)]</li> 
-     <li>[!UICONTROL Received Date Time (Ascending or descending)]</li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Voer de naam van de contactpersoon in</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer het e-mailadres van de contactpersoon in.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Voer het maximum aantal berichten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a message]
-
-Hiermee worden de metagegevens van een bepaald bericht opgehaald
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
+   <td> <p>Voeg de ontvangers toe die u een exemplaar van het bericht wilt ontvangen:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Voer de naam van de contactpersoon in</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer het e-mailadres van de contactpersoon in.</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u meta-gegevens voor wilt terugwinnen.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
+   <td> <p>Voeg de ontvangers toe die u in het bericht wilt kopiëren, zonder dat andere ontvangers hun namen of e-mailadressen kunnen zien:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Voer de naam van de contactpersoon in</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer het e-mailadres van de contactpersoon in.</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Get MIME contents]</td> 
-   <td>Schakel deze optie in om gegevens over de MIME-inhoud van het bericht op te halen. [!UICONTROL MIME] inhoud kan afbeeldingen, audio, video of andere bestandstypen bevatten.</td> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
+   <td> <p>Voeg de bijlagen toe aan de e-mail:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Voer de bestandsnaam in. Voorbeeld: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Voer de bestandsgegevens in op het veld of wijs de bron van het bestand toe.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Internet Message Headers]</td> 
+   <td> <p>Voeg de berichtkopteksten voor e-mail toe.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Voer de naam van de koptekst in</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer een waarde in voor de koptekst.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -272,6 +254,62 @@ Hiermee maakt en verstuurt u een e-mailbericht.
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Voer een waarde in voor de koptekst.</p> </li> 
     </ul> </td> 
   </tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a Message]
+
+Hiermee verwijdert u een bestaand e-mailbericht.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u wilt schrappen.</p> </td> 
+  </tr> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a message]
+
+Hiermee worden de metagegevens van een bepaald bericht opgehaald
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u meta-gegevens voor wilt terugwinnen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get MIME contents]</td> 
+   <td>Schakel deze optie in om gegevens over de MIME-inhoud van het bericht op te halen. [!UICONTROL MIME] inhoud kan afbeeldingen, audio, video of andere bestandstypen bevatten.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -298,9 +336,50 @@ Verplaatst een e-mailbericht naar een geselecteerde map in de postbus.
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Message]
+#### [!UICONTROL Search messages]
 
-Hiermee verwijdert u een bestaand e-mailbericht.
+Hiermee zoekt u berichten op basis van specifieke criteria.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
+   <td> <p>Selecteer de map met de berichten die u wilt doorzoeken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie [!DNL Microsoft] ondersteuningsartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">E-mail en personen zoeken in [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td> <p>Selecteer hoe u de resultaten wilt bestellen:</p> 
+    <ul> 
+     <li>[!UICONTROL Subject (Ascending or descending)]</li> 
+     <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
+     <li>[!UICONTROL Last Modified Date Time (Ascending or descending)]</li> 
+     <li>[!UICONTROL Received Date Time (Ascending or descending)]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Voer het maximum aantal berichten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Messages]
+
+Triggers wanneer een nieuw e-mailbericht wordt verzonden of ontvangen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -311,8 +390,25 @@ Hiermee verwijdert u een bestaand e-mailbericht.
    <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u wilt schrappen.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
+   <td> <p>Selecteer de berichten die u wilt bekijken:</p> 
+    <ul> 
+     <li>[!UICONTROL Only Unread]</li> 
+     <li>[!UICONTROL Only read]</li> 
+     <li>[!UICONTROL All]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
+   <td> <p>Selecteer de map met de berichten die u wilt bekijken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie [!DNL Microsoft] ondersteuningsartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">E-mail en personen zoeken in [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Voer het maximum aantal berichten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -388,6 +484,10 @@ Hiermee maakt u een nieuw e-mailbericht.
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Voer de bestandsgegevens in op het veld of wijs de bron van het bestand toe.</p> </li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -402,6 +502,10 @@ Hiermee verzendt u een e-mailbericht dat momenteel in concept is.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Draft Message ID]</td> 
@@ -421,6 +525,10 @@ Een bestaand bericht bijwerken.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a message ID]</td> 
@@ -488,31 +596,8 @@ Een bestaand bericht bijwerken.
 
 ### Bijlage
 
-* [[!UICONTROL List Attachments]](#list-attachments)
 * [[!UICONTROL Download an Attachment]](#download-an-attachment)
-
-#### [!UICONTROL List Attachments]
-
-Deze module wint een lijst van gehechtheid terug die tot het gespecificeerde bericht behoort.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u gehechtheid van wilt terugwinnen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal gehechtheid in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL List Attachments]](#list-attachments)
 
 #### [!UICONTROL Download an Attachment]
 
@@ -527,6 +612,10 @@ Deze module downloadt de opgegeven bijlage.
    <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
   </tr> 
   <tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
    <td> <p> Selecteer of wijs identiteitskaart van het bericht toe dat de gehechtheid bevat u wilt downloaden.</p> </td> 
   </tr> 
@@ -537,10 +626,64 @@ Deze module downloadt de opgegeven bijlage.
  </tbody> 
 </table>
 
+#### [!UICONTROL List Attachments]
+
+Deze module wint een lijst van gehechtheid terug die tot het gespecificeerde bericht behoort.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u gehechtheid van wilt terugwinnen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal gehechtheid in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Overige
 
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
 * [[!UICONTROL Add an Attachment]](#add-an-attachment)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+
+#### [!UICONTROL Add an Attachment]
+
+Deze module voegt een grote gehechtheid aan een bericht toe.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Voer hier het adres in als u een gedeeld e-mailadres wilt gebruiken. De gebruiker van wie referenties in de verbinding worden gebruikt die voor deze module wordt gebruikt moet toegang tot de gedeelde omslag hebben.<p>Laat dit veld leeg om het eigen e-mailadres van de eigenaar van de verbinding te gebruiken.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u een gehechtheid aan wilt toevoegen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Make an API Call]
 
@@ -576,29 +719,6 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add an Attachment]
-
-Deze module voegt een grote gehechtheid aan een bericht toe.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Selecteer of wijs identiteitskaart van het bericht toe u een gehechtheid aan wilt toevoegen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
