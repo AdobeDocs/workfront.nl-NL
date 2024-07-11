@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Revisoren en fiatteurs kunnen worden toegevoegd aan een goedkeuringswerkstroom v
 
 * **Goedkeuring voor eenmalig gebruik**: In het project of de taak waar het middel zich bevindt, kan de projectcoördinator revisoren en fiatteurs aanwijzen en een deadline voor voltooiing stellen. Revisoren en fiatteurs worden 72 en 24 uur vóór de deadline per e-mail herinnerd, evenals op de deadline zelf.
 
-  Zie voor meer informatie [Een documentrevisie of goedkeuringsaanvraag maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  Zie * voor meer informatie [Een revisie- of goedkeuringsaanvraag maken voor een Frame.io-element](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **Goedkeuringssjablonen**: In het gebied van de Opstelling van Workfront, kunnen de projectcoördinatoren duurzame Malplaatjes van de Goedkeuring tot stand brengen. In een sjabloon kunnen gebruikers revisoren en fiatteurs toevoegen en een voltooiingstijd opgeven. Wanneer de goedkeuringssjabloon op een actief wordt toegepast, wordt de deadline berekend vanaf het opgegeven tijdkader.
 

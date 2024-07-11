@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Extra fiatteurs of revisoren toevoegen aan een document
+title: Extra fiatteurs of revisoren toevoegen aan een element of document
 description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat al goedkeuringen in behandeling heeft.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# Extra fiatteurs of revisoren toevoegen aan een document
+# Extra fiatteurs of revisoren toevoegen aan een element of document
 
-U kunt extra fiatteurs of revisoren toevoegen aan een document dat al goedkeuringen in behandeling heeft.
+U kunt extra fiatteurs of revisoren toevoegen aan een element of document waarvoor al goedkeuring in behandeling is.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## Extra fiatteurs of revisoren toevoegen vanaf de documentpagina
+## Extra fiatteurs of revisoren toevoegen vanaf de pagina Documentdetails
 
 1. Ga naar de documentpagina door op de naam van het document te klikken en selecteer vervolgens de versie van het document waaraan u een fiatteur of revisor wilt toevoegen in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
-## Extra fiatteurs of revisoren toevoegen vanuit het venster Documentoverzicht
+## Extra fiatteurs of revisoren toevoegen uit het documentoverzicht
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
 

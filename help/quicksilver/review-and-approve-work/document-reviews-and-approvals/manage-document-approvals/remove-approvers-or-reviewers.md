@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: fiatteurs of revisoren uit een document verwijderen
+title: fiatteurs of revisoren verwijderen uit een middel of document
 description: U kunt afzonderlijke fiatteurs of revisoren uit een document verwijderen.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# fiatteurs of revisoren uit een document verwijderen
+# fiatteurs of revisoren verwijderen uit een middel of document
 
-U kunt afzonderlijke fiatteurs of revisoren uit een document verwijderen nadat ze zijn toegewezen.
+U kunt afzonderlijke fiatteurs of revisoren uit een element of document verwijderen nadat ze zijn toegewezen.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-## fiatteurs of revisoren verwijderen van de documentpagina
+## fiatteurs of revisoren verwijderen van de pagina Documentdetails
 
 1. Ga naar de documentpagina door op de naam van het document te klikken en selecteer vervolgens de versie van het document waarvoor u een goedkeuring wilt verwijderen in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren te verwijderen.
 
-## fiatteurs of revisoren verwijderen uit het venster Documentoverzicht
+## fiatteurs of revisoren verwijderen uit het documentoverzicht
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
 

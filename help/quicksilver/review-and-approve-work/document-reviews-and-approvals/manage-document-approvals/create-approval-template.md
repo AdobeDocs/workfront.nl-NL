@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Een goedkeuringssjabloon maken
+title: Een goedkeuringssjabloon maken voor elementen en documenten
 description: U kunt goedkeuringssjablonen maken om het goedkeuringsproces te stroomlijnen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-# Een goedkeuringssjabloon maken
+# Een goedkeuringssjabloon maken voor elementen en documenten
 
 <span class="preview">De informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de omgeving van de voorvertoningssandbox.</span>
 

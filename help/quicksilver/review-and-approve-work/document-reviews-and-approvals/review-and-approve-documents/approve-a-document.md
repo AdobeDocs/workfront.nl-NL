@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Een document goedkeuren
+title: Een document goedkeuren in Workfront
 description: Als u als fiatteur aan een document wordt toegewezen, zijn er veelvoudige manieren u uw goedkeuringsbesluit kunt nemen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
 
-# Een document goedkeuren
+# Een document goedkeuren in Workfront
 
 Als u als fiatteur aan een document wordt toegewezen, zijn er veelvoudige manieren u uw goedkeuringsbesluit kunt nemen.
 

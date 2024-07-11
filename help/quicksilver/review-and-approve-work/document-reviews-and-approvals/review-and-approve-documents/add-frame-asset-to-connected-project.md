@@ -6,9 +6,9 @@ description: Creatieve personen kunnen elementen toevoegen die moeten worden gec
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ## Vereisten
 
-* Er moet een Workfront-groep zijn verbonden met een Frame.io-team.
-* U moet een Workfront project hebben dat met een project Frame.io wordt verbonden en als gebruiker aan een taak van Workfront worden toegevoegd die voor Frame.io wordt toegelaten.
-
-Zie voor meer informatie [Connect Workfront en Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* U moet de integratie van Workfront en Frame.io configureren. Zie voor meer informatie [De integratie van Workfront en Frame.io configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Frame.io-element toevoegen aan een verbonden Workfront-project
 

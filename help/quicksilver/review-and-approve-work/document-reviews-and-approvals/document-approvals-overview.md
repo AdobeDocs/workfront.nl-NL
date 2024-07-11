@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Overzicht van goedkeuringen van nieuwe documenten
+title: Overzicht van nieuwe documentgoedkeuringen
 description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat al goedkeuringen in behandeling heeft.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
-# Overzicht van goedkeuringen van nieuwe documenten
+# Overzicht van nieuwe documentgoedkeuringen
 
-Goedkeuringen nieuw document is een volledig herontwerp van het bestaande goedkeuringsproces dat momenteel in ontwikkeling is voor Adobe Workfront. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
+Goedkeuring van nieuwe documenten is een volledig herontwerp van het bestaande goedkeuringsproces dat momenteel in ontwikkeling is voor Adobe Workfront. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
 
 Lees verder hieronder voor meer informatie over geplande functies en releases voor goedkeuringen van nieuwe documenten.
 
@@ -47,9 +47,9 @@ Als u Goedkeuringen voor nieuwe documenten wilt inschakelen in uw productieomgev
 
 ## Goedkeuringen van nieuwe documenten gebruiken
 
-Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Documenten goedkeuren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Middelen- en documentgoedkeuringen instellen en beheren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten controleren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten goedkeuren en reviseren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >
