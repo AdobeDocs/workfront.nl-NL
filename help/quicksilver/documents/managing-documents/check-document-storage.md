@@ -6,9 +6,9 @@ description: Hoewel er geen beperkingen zijn op de typen en formaten van afzonde
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van verouderde licenties</a>*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Zie voor informatie over Workfront-beheerders <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,6 +44,8 @@ U moet het volgende hebben:
 1. Klik in het linkerdeelvenster op **Systeem** > **Klantgegevens**.
 1. In de **Basisinformatie** sectie, zoeken **Opslagquotum**. Hier kunt u zien hoeveel opslagruimte u momenteel gebruikt en hoeveel opslagruimte uw Workfront-abonnement in totaal bevat.
 
-   >[!NOTE]
-   >
-   >Deze limiet geldt niet voor documenten die u via een andere externe serviceprovider (SharePoint, Google Drive, Webdam, Box, Dropbox, andere Document Asset Management-provider) naar Workfront koppelt.
+Het opslagquotum wordt dagelijks vernieuwd om het meest actuele aantal weer te geven.
+
+>[!NOTE]
+>
+>Deze limiet is niet van toepassing op documenten die u via een andere externe serviceprovider (SharePoint, Google Drive, Webdam, Box, Dropbox, een andere leverancier van documentmiddelen) naar Workfront koppelt.
