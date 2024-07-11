@@ -8,9 +8,10 @@ title: Adobe Authenticator-module
 description: Met de Adobe Authenticator-module kunt u via één enkele verbinding verbinding verbinding maken met elk Adobe product met een API.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -63,19 +64,19 @@ Voor een lijst met beschikbare Adobe-API&#39;s raadpleegt u [Adobe-API&#39;s](ht
 ## Vereisten
 
 * U moet toegang hebben tot het product van de Adobe dat u de module wilt verbinden met.
-* U moet toegang hebben tot de Adobe Developer-console.
-* U moet een project in de Adobe Developer-console hebben dat de API bevat waarmee u verbinding wilt maken met de module. U kunt:
+* U moet toegang hebben tot de Adobe Developer Console.
+* U moet een project op de Adobe Developer Console hebben dat API omvat die u de module wilt verbinden met. U kunt:
 
    * Maak een nieuw project met de API.
 
      of
    * Voeg API aan een bestaand project toe.
 
-  Voor informatie over het maken of toevoegen van een API aan een project in de Adobe Developer Console raadpleegt u [Een project maken](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie bij de Adobe.
+  Voor informatie over het maken van of het toevoegen van een API aan een project op de Adobe Developer Console raadpleegt u [Een project maken](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie bij de Adobe.
 
 ## Verbinding maken
 
-Een Adobe Authenticator-verbinding maakt verbinding met één project in de Adobe Developer-console. Als u dezelfde verbinding voor meerdere Adobe-API wilt gebruiken, voegt u de API&#39;s toe aan hetzelfde project en maakt u een verbinding met dat project.
+Een Adobe Authenticator-verbinding maakt verbinding met één project op de Adobe Developer Console. Als u dezelfde verbinding voor meerdere Adobe-API wilt gebruiken, voegt u de API&#39;s toe aan hetzelfde project en maakt u een verbinding met dat project.
 
 U kunt afzonderlijke verbindingen aan afzonderlijke projecten tot stand brengen, maar u kunt geen verbinding gebruiken om tot API toegang te hebben die niet op het project is dat in die verbinding wordt gespecificeerd.
 
@@ -157,6 +158,14 @@ Een verbinding maken:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Base URLs]</td>
+        <td>U moet de basis-URL's toevoegen die door deze authenticator worden toegestaan. Wanneer u later in het scenario de aanroepmodule Een aangepaste API maken gebruikt, voegt u een relatief pad naar de gekozen URL toe. Door hier URLs in te gaan, kunt u controleren wat het Merk een douane API vraagmodule kan verbinden, die veiligheid verhoogt.<p>Voor elke basis-URL die u aan de verificator wilt toevoegen, klikt u op <b>Item toevoegen</b> en voer de basis-URL in.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Laat dit leeg als u de standaard Adobe IMS-verificatie-URL van <code>https://ims-na1.adobelogin.com</code>. Als u Adobe IMS niet gebruikt voor verificatie, voert u de URL in die u wilt gebruiken voor verificatie.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
       </tr>
@@ -229,4 +238,3 @@ Met deze actiemodule kunt u elke Adobe-API aanroepen.
     </tr>
   </tbody>
 </table>
-
