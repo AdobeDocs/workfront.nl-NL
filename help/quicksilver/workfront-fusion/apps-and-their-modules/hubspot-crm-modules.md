@@ -4,9 +4,9 @@ description: De [!DNL Adobe Workfront Fusion] De modules van CRM van HubSpot lat
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Te gebruiken [!DNL HubSpot CRM] modules, moet u een [!DNL HubSpot CRM] account.
 ## Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL HubSpot CRM]
 
 Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie [Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Selecteer bij het configureren van een verbinding de optie **HubSpot CRM** verbindingstype. Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
 
 ## [!DNL HubSpot CRM] modules en hun velden
 
