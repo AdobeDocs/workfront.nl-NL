@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systeembeheerders hebben alleen toegang tot de weergaven die ze hebben gemaakt of die met hen worden gedeeld. </p>
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Workfront</p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten voor de weergave beheren</p>  
+   <td> <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied van de Planning in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Overwegingen bij het werken met recordweergaven
 

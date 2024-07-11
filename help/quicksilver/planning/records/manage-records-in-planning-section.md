@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -115,10 +115,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de kaart van een recordtype die is verbonden met een Workfront-project, -portfolio of -programma.
 1. Ga naar een verbonden verslaggebied dat een verbinding met een voorwerp van Workfront heeft, of in de lijstmening of van de detailspagina van een verslag. Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
 1. Klik op de naam van een Workfront-object in het verbonden recordveld.
-De objectpagina wordt geopend in Workfront Planning.
-1. Klikken **Ga naar bron** in de rechterbovenhoek van het scherm.
+De objectpagina wordt geopend in Workfront.
 
-   De objectpagina wordt geopend in Workfront.
 1. Klikken **Planning** in het linkerdeelvenster.
 
    >[!NOTE]

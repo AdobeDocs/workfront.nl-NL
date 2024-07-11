@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ U kunt een weergave delen met de volgende entiteiten:
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
-   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront </p>  
+   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Objectmachtigingen</p></td>
-   <td> <p>Rechten beheren voor een weergave</p>
-
+   <td role="rowheader"><p>Machtigingen</p></td>
+   <td> <p>Rechten beheren voor een weergave</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Machtigingen delen voor een weergave <!--internally-->
 

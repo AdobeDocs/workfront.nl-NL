@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ U wilt een verbindingsgebied op het verslagtype van Campagne tot stand brengen w
 
 Dit doet u als volgt:
 
-1. Ga naar een Workspace waar u het type Campagne-record wilt koppelen aan Workfront-projecten.
+1. Ga naar een Workspace waar u het type van het verslag van de Campagne met de projecten van Workfront wilt verbinden.
 1. Open de tabelweergave voor het type Campagnerecord in de geselecteerde werkruimte.
 1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave om een nieuw veld toe te voegen, klikt u vervolgens op **Nieuwe verbinding** en klik vervolgens op **Project** in de **Workfront-objecttypen** sectie.
 1. Voeg bijvoorbeeld de volgende informatie toe:
@@ -205,10 +205,7 @@ Dit doet u als volgt:
 
 1. Klik de naam van een project op het verbonden verslaggebied.
 
-   Dit opent de read-only pagina van het Project van de Planning van Workfront.
-Informatie over het project controleren. Alleen geselecteerde projectvelden worden weergegeven op de pagina van de record.
-
-1. Klikken **Ga naar bron** in de hoger-juiste hoek van het scherm om het project in Workfront te openen, als u minstens de toestemmingen van de Mening aan het project hebt.
+   Dit opent het project in Workfront, als u minstens de toestemmingen van de Mening aan het project hebt.
 1. (Optioneel) Werk informatie over het project in Workfront bij als u hiervoor gemachtigd bent.
 
 1. (Optioneel) Houd de muisaanwijzer in de tabelweergave Campagne boven de **Projectinformatie** veldkoptekst en klik op de pijl omlaag gericht en klik vervolgens op **Opzoekvelden bewerken.**

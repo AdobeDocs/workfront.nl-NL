@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Voor informatie over recordweergaven raadpleegt u [Recordweergaven beheren](/hel
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systeembeheerders hebben alleen toegang tot de weergaven die ze hebben gemaakt of die met hen worden gedeeld. </p>
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront </p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten voor de weergave beheren</p>  
+   <td> <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied van de Planning in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Een tijdlijnweergave beheren {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
   Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* U kunt filteren door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
+* U kunt filteren op gekoppelde recordvelden of opzoekvelden.
+* U kunt filteren door velden op te zoeken waarin meerdere waarden worden weergegeven.
+
 
 ### Groepering toevoegen
 
@@ -193,11 +201,16 @@ Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergav
 
 * U kunt groepen toepassen in de tabel- en tijdlijnweergave. De groepen van de tabelweergave zijn onafhankelijk van de groepen in de tijdlijnweergave van hetzelfde recordtype.
 * U kunt 3 niveaus van groepering in een mening toepassen. De records worden gegroepeerd in de volgorde van de groepen die u selecteert.
-* U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API.
-* De groepen zijn uniek voor de weergave die u selecteert. In twee tijdlijnweergaven van hetzelfde recordtype kunnen verschillende groeperingen worden toegepast. Twee gebruikers die naar dezelfde tijdlijnweergave kijken, zien dezelfde groepering die op dat moment wordt toegepast.
-* U kunt de groepen die u maakt voor een tijdlijnweergave niet een naam geven.
+&lt;!—* U kunt tot 4 niveaus van groepering toepassen wanneer het gebruiken van API. —deze nu controleren—>
+* De groepen zijn uniek voor de weergave die u selecteert. Op twee tabelweergaven van hetzelfde recordtype kunnen verschillende groepen worden toegepast. Twee gebruikers die naar dezelfde tabelweergave kijken, zien dezelfde groepering die momenteel wordt toegepast.
+* U kunt de groepen die u maakt voor een tabelweergave niet een naam geven.
 * Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
-* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
+* U kunt records bewerken die in een groep worden vermeld.
+* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden.
+* Wanneer u door raadplegingsgebieden met veelvoudige waarden groepeert (die niet door een aggregator zijn samengevat), worden de verslagen gegroepeerd door elke unieke combinatie gebiedswaarden.
+* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de groepering verwijzen u voor het verslagtype van de Activiteit creeert.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 Een groep toevoegen in de tijdlijnweergave:
 

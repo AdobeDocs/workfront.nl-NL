@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -69,12 +69,14 @@ De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt select
 >
 >Niet alle gebruikers kunnen de hieronder beschreven toestemmingsniveaus hebben. De individuele vergunning van gebruikers bepaalt welk niveau van toestemmingen zij voor de voorwerpen van de Planning van Workfront kunnen ontvangen.
 >
->Alleen gebruikers met een standaardlicentie (of abonnement) kunnen over Contribute- of beheermachtigingen voor werkruimten beschikken.
+>Alleen gebruikers met een standaardlicentie (of abonnement) kunnen beschikken over Contribute- of beheermachtigingen voor werkruimten en de machtiging Beheren voor weergaven.
+> 
+>Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor werkruimten en weergaven.
 >
 >Zie voor meer informatie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Werkruimtemachtigingen
+### Workspace-machtigingen
 
 U moet gebruikers toestemming geven aan werkruimten om hen toegang tot de volgende entiteiten te verlenen:
 
@@ -157,7 +159,8 @@ Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 | Verwijderen | ✓ |       |                            |
 | Delen | ✓ |       |                           |
 | Weergave | ✓ | ✓ | ✓ |
-| Toepassen | ✓ | ✓ | ✓ |
+| De weergave openen | ✓ | ✓ | ✓ |
+| Tijdelijke filters, groepen, sorteren toepassen | ✓ | ✓ | ✓ |
 
 *Gebruikers moeten over weergave- of hogere machtigingen voor een werkruimte beschikken om toegang te krijgen tot deze weergave.
 

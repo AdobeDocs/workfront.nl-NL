@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,9 @@ hide: yes
 
 U kunt records en de bijbehorende velden weergeven in een kalenderweergave, vanaf de pagina met recordtypen.
 
-Voor informatie over de meningen van de Mogelijkheden van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Toegangsvereisten
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systeembeheerders hebben alleen toegang tot de weergaven die ze hebben gemaakt of die met hen worden gedeeld. </p>
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten voor de weergave beheren</p>  
+   <td> <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied van de Planning in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een kalenderweergave beheren {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ Houd rekening met het volgende wanneer u werkt met filters in de kalenderweergav
 
   Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* U kunt filteren door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
+* U kunt filteren op gekoppelde recordvelden of opzoekvelden.
+
+* U kunt filteren door velden op te zoeken waarin meerdere waarden worden weergegeven.

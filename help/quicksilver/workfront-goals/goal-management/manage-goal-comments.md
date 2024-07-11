@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,12 @@ Hierdoor wordt de lijst met doelen geopend.
 
    >[!TIP]
    >
-   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Afbeeldingen die aan de opmerking worden toegevoegd, worden ook in het concept opgeslagen. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
+   >Als u weg navigeert uit de sectie Updates voordat u klaar bent met het typen en verzenden van een opmerking, wordt de opmerking op de pagina in de conceptmodus bewaard, zelfs nadat u zich hebt afgemeld en u weer hebt aangemeld. Concepten worden 7 dagen bewaard waarna ze worden verwijderd en kunnen niet worden hersteld. Getekende opmerkingen zijn alleen zichtbaar voor de gebruiker die ze invoert.
 
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
-1. (Optioneel) Als u opmaak met RTF-opmaak wilt toevoegen aan de update, een hyperlink of een afbeelding, gebruikt u de gewenste opties op de werkbalk RTF of de pictogrammen ernaast. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optioneel) Als u opmaak met RTF-opmaak wilt toevoegen aan de update, een hyperlink of een emoji, gebruikt u de gewenste opties op de werkbalk RTF of de pictogrammen ernaast. Zie voor meer informatie [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optioneel) In het dialoogvenster **Tags toewijzen aan personen of teams** -gebied, typt u de naam of het e-mailadres van een gebruiker of een team dat u in deze opmerking wilt opnemen, en selecteert u deze vervolgens wanneer de opmerking in de lijst wordt weergegeven.
 1. Selecteer de **Privé voor mijn bedrijf** Schakel deze optie in om de opmerking alleen zichtbaar te maken voor mensen in uw bedrijf.
 
@@ -150,7 +150,7 @@ Hierdoor wordt de lijst met doelen geopend.
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-icon.png) rechts van het gelijkaardige pictogram, dan klik **Bewerken**.
-1. Bewerk de informatie in de opmerking, voeg afbeeldingen toe of verwijder afbeeldingen of verwijder een van de getagde gebruikers.
+1. Bewerk de informatie in de opmerking of verwijder een van de gelabelde gebruikers.
 U kunt uw opmerking binnen 15 minuten na verzending bewerken. Een indicator &quot;bewerkt&quot; wordt toegevoegd links van de datumstempel die wordt weergegeven wanneer de opmerking is bijgewerkt.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

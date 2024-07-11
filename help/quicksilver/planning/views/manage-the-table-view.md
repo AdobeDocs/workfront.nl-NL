@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Voor informatie over verslagmeningen en hoe te om hen te beheren, zie [Recordwee
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p> 
-   <p>Systeembeheerders hebben alleen toegang tot de weergaven die ze hebben gemaakt of die met hen worden gedeeld. </p>
+   <p>Nieuw: Standaard</p>
+   of
+   <p>Huidig: Plan </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configuratie op toegangsniveau</td>
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de planning van het Aantal Adoben</p>  
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
+   <td> Er zijn geen toegangscontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Rechten voor de weergave beheren</p>  
+   <td> <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Lay-outsjabloon</td>
-   <td> <p>Uw systeembeheerder moet het gebied van de Planning in uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een tabelweergave beheren {#manage-a-table-view}
 
@@ -102,7 +108,7 @@ Een tabelweergave beheren:
 
 1. (Optioneel) Klik op **Rijhoogte** Selecteer vervolgens een van de volgende opties om de hoogte van de tabelrijen te wijzigen:
    * Kort
-   * Normaal
+   * Medium
    * Lang
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
@@ -244,7 +250,9 @@ Houd rekening met het volgende wanneer u werkt met filters in de tabelweergave:
 
 * Filters toevoegen aan de tabelweergave is hetzelfde als filters toevoegen aan de tijdlijnweergave.
 
-* U kunt filteren door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
+* U kunt filteren op gekoppelde recordvelden of opzoekvelden.
+
+* U kunt filteren door velden op te zoeken waarin meerdere waarden worden weergegeven.
 
 * U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een filter voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het type van het verslag van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u het Begroting van het project in het filter van verwijzingen voorzien u voor het type van het verslag van de Activiteit creeert.
 
@@ -356,7 +364,8 @@ Overweeg het volgende:
 * U kunt de groepen die u maakt voor een tabelweergave niet een naam geven.
 * Als u groepen verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en die dezelfde weergave weergeeft als u.
 * U kunt records bewerken die in een groep worden vermeld.
-* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden, maar niet voor die gebieden die het verbinden aan veelvoudige verslagen toestaan.
+* U kunt groeperen door verbonden verslaggebieden of raadplegingsgebieden.
+* Wanneer u door raadplegingsgebieden met veelvoudige waarden groepeert (die niet door een aggregator zijn samengevat), worden de verslagen gegroepeerd door elke unieke combinatie gebiedswaarden.
 * U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een groepering voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de groepering verwijzen u voor het verslagtype van de Activiteit creeert.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ Houd rekening met het volgende wanneer u records in de tabelweergave sorteert:
 
 * U kunt sorteren op zoveel velden als u ziet in de tabelweergave van een recordtype.
 
-* Gekoppelde velden kunnen alleen worden gesorteerd als er enkele waarden zijn of als er meerdere geselecteerde waarden zijn geselecteerd met de optie Overzicht (som, gemiddelde, max, min).
+* U kunt niet sorteren op verbonden verslaggebieden, maar u kunt door raadplegingsgebieden van verbonden verslagtypes sorteren.
+
+* Wanneer u sorteert op opzoekvelden met meerdere waarden (die niet zijn samengevat door een aggregator), wordt de eerste waarde gebruikt voor sorteren.
 
 * Als u sorteercriteria verwijdert, worden deze verwijderd van iedereen die toegang heeft tot hetzelfde recordtype als u en wordt dezelfde weergave gebruikt als u.
-
-* U kunt sorteren op gekoppelde recordvelden of opzoekvelden, maar niet op velden die koppelingen naar meerdere records toestaan.
 
 * U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een soort voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u de Status van het project in de soort van verwijzen u voor het type van het verslag van de Activiteit creeert.
 

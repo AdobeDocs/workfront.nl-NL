@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       * Er wordt een gekoppeld recordveld gemaakt op het recordtype waarmee u verbinding maakt. Er wordt automatisch geen gekoppeld recordveld gemaakt op het objecttype van de andere toepassing.
 
-      * Er wordt alleen een nieuw recordtype voor alleen-lezen-schrijven van Workfront-planning gemaakt voor het object van de andere toepassing wanneer de feitelijke objecten zijn verbonden met de planningsrecords van Workfront.
-
-        Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
-
       * Planningsrecordvelden zijn niet toegankelijk vanuit Workfront-objecten.
       * De gebieden van het verslag van de planning zijn toegankelijk van de activa van de Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Zie voor meer informatie [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Optioneel) Klik op **Overslaan** om het toevoegen van velden van het gekoppelde record of objecttype over te slaan. De **Naam** of de **Titel** van de gekoppelde record is het enige zichtbare veld in de tabelweergave van het recordtype waarmee u verbinding maakt.
 
-1. (Optioneel en voorwaardelijk) Als u een getal, valuta, percentage of datumveld wilt koppelen, selecteert u ook een aggregatorwaarde. De waarden voor de gekoppelde velden worden gescheiden door komma&#39;s of als een geaggregeerde waarde weergegeven volgens de aggregator die u kiest, wanneer gebruikers meer dan één gekoppelde record selecteren in het veld voor gekoppelde records.
+1. (Optioneel en voorwaardelijk) Als u een getal, valuta, percentage of datumveld wilt koppelen, selecteert u ook een aggregatorwaarde om meerdere waarden samen te vatten. De waarden voor de gekoppelde velden worden gescheiden door komma&#39;s of als een samengevatte waarde weergegeven volgens de door u gekozen aggregator, wanneer gebruikers meer dan één gekoppelde record selecteren in het veld voor gekoppelde records.
+
+   Als het opzoekveld meerdere waarden bevat die niet worden samengevat, kunt u het volgende overwegen wanneer u het veld gebruikt bij het sorteren of groeperen in een weergave:
+
+   * De eerste waarde sorteert
+
+   * Records worden gegroepeerd per unieke combinatie van veldwaarden
+
+   * De tijdlijnweergave is gebaseerd op de eerste datumwaarde.
 
    >[!IMPORTANT]
    >

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ Om te weten te komen wat de huidige staat van ontwikkeling voor een project, een
 Bijvoorbeeld, in dit project, wijst de statusPlanning erop dat de manager van het project momenteel aspecten van het project zoals zijn chronologie, taaktaken, en goedkeuringen plant.
 
 ![Voorbeeld van projectstatus](assets/statuses-overview.png)
+
+U moet de volgende toegang en toestemmingen aan een project, een taak, of een kwestie hebben om hun status te bekijken:
+
+* De mening of de hogere toegang in uw toegangsniveau tot Projecten, Taken, en Kwesties
+* Machtigingen voor het object weergeven of hoger
+
+U moet de volgende toegang en toestemmingen aan een project, een taak, of een kwestie hebben om hun status manueel te veranderen:
+
+* Geef toegang in uw toegangsniveau tot Projecten, Taken, en Kwesties uit
+* Contribute of hogere machtigingen voor de taak of uitgave
+* Rechten voor het project beheren.
 
 Het wijzigen van de status van een project, taak of uitgave is meestal een handmatig proces. Er zijn echter momenten waarop de status van een uitgave automatisch wordt gewijzigd, afhankelijk van andere factoren die zich in het systeem voordoen.
 

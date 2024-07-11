@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 0%
 
 ---
@@ -288,19 +288,13 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
 1. (Optioneel) Klik op de naam van een Workfront-object dat is verbonden met een Workfront-planningsrecord in het gekoppelde veld van een tabelweergave of vanuit het gekoppelde veld op de recordpagina.
 
-   Hierdoor wordt de pagina met alleen-lezen Workfront-planningsrecords geopend voor het gekoppelde Workfront-object. De velden die u als opzoekvelden hebt geselecteerd toen u het recordtype koppelde aan de weergave van het Workfront-object op de recordpagina Workfront Planning.
+   Hiermee wordt het Workfront-object in Workfront geopend als u ten minste weergavemachtigingen voor het object hebt.
 
    >[!TIP]
    >
    >* Wanneer u de instelling Meerdere records toestaan inschakelt, worden de waarden van de opzoekvelden weergegeven, gescheiden door komma&#39;s, of worden ze samengevoegd volgens de aggregator die u hebt gekozen.
    >
    >* Er wordt geen gekoppeld recordveld gemaakt voor de gekoppelde Workfront-objecten in Workfront.
-
-1. (Optioneel) Als u het gekoppelde Workfront-object in Workfront wilt openen, klikt u op **Ga naar bron** in de rechterbovenhoek van de recordpagina van het Workfront-object.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Hiermee wordt de Workfront-objectpagina geopend als u minstens weergavemachtigingen hebt om het object weer te geven. U kunt informatie over het Workfront-object bewerken als u hiervoor gemachtigd bent.
 
 1. (Optioneel) Houd de muisaanwijzer in de tabelweergave van het recordtype boven de kolomkop van het gekoppelde Workfront-object en klik op het vervolgkeuzemenu en klik vervolgens op **Opzoekvelden bewerken**.
 
@@ -345,7 +339,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
    >
    >  U kunt toevoegen klik op **+** op het gekoppelde objectveld in de recordpagina om elementen aan de record te koppelen.
 
-   De **Elementen selecteren** wordt weergegeven. <!--we might change this to Connect assets-->
+   De **Assets selecteren** wordt weergegeven. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
    * Gemaakt op
    * Datum gewijzigd
 
-1. (Optioneel) Als u de recordpagina met Experience Manager-elementen in Experience Manager wilt openen, gaat u naar de pagina met recordtypen van de record waarvan u een koppeling maakt, klikt u op de naam van een element in het gekoppelde recordveld om het pop-upvenster te openen en klikt u vervolgens op de knop **Openen** pictogram ![](assets/open-asset-icon.png) om het element te openen.
+1. (Optioneel) Als u de recordpagina met Experience Manager-elementen in Experience Manager wilt openen, gaat u naar de pagina met recordtypen van de record waarvan u een koppeling maakt, klikt u op de naam van een element in het gekoppelde recordveld om het pop-upvenster te openen en klikt u vervolgens op de knop **Openen in AEM** pictogram ![](assets/open-asset-icon.png) om het element te openen.
 
    Hiermee opent u de Experience Manager-asset in Adobe Experience Manager Assets.
 

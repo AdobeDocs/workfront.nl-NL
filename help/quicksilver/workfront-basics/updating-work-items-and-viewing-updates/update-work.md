@@ -6,9 +6,9 @@ description: U kunt een update toevoegen aan een Adobe Workfront-object (project
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2984'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
@@ -61,7 +61,11 @@ Het toevoegen van opmerkingen aan andere objecten is vergelijkbaar met het bijwe
 
   U moet een extra licentie hebben om toegang te krijgen tot Workfront Goals.
 
-* [Een ad-hockaart aan een kaart toevoegen](../../agile/get-started-with-boards/add-card-to-board.md)
+* [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
+
+* [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+
+<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
 
 ## Toegangsvereisten
 
@@ -386,6 +390,10 @@ U kunt uw updates verbeteren met RTF-bestanden of door er verschillende items aa
 
 
    >[!NOTE]
+   >
+   >**BELANGRIJK**
+   >
+   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
    >* Uw Workfront-beheerder moet het toevoegen van afbeeldingen inschakelen in het gedeelte Voorkeuren voor feeds bijwerken van het gebied Workfront Interface voordat u de pictogrammen Afbeelding of Bijlage toevoegen kunt zien. Zie voor meer informatie [Voorkeuren voor gebruikersupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* De maximale bestandsgrootte voor afbeeldingen is 7 MB. Ondersteunde bestandstypen zijn .jpg, .gif en .png.

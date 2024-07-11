@@ -4,9 +4,9 @@ description: Adobe Workfront-planningsmogelijkheden zijn momenteel beschikbaar v
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Zie voor meer informatie [Velden maken](/help/quicksilver/planning/fields/create
 
 Voorbeeld en productie: 31 oktober 2023
 
-U kunt de Workfront-objectpagina&#39;s nu vanuit de volgende gebieden openen in de planningsmogelijkheden:
+U kunt de Workfront-objectpagina&#39;s nu vanuit de volgende gebieden openen in Workfront Planning:
 
 * De alleen-lezen gekoppelde Workfront-objectrecordtabelweergave
 
