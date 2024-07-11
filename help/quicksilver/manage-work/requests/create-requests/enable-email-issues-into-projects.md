@@ -6,7 +6,7 @@ description: Gebruikers toestaan een uitgave per e-mail te verzenden naar een aa
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -76,12 +76,12 @@ Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen
 >
 >* Workfront staat één unieke e-mail per aanvraagwachtrij toe voor alle clusters. Als u ervoor kiest om uw aanvraagwachtrij uit te schakelen, behoudt u het e-mailadres dat u hebt gemaakt zolang dit zich nog in het vak E-mailadres invoegen bevindt. Als u ervoor kiest het gebruik van de inname-e-mail te beëindigen, moet u deze verwijderen uit het veld E-mailbericht innemen, zodat deze later kan worden gebruikt.
 >
->* Als de verzoekrij veelvoudige rijonderwerpen of onderwerpgroepen heeft, zal Workfront willekeurig het rijonderwerp selecteren dat de e-mailverzoeken zullen gaan naar, makend geëmailde verzoeken moeilijk te beheren.
+>* Als de verzoekrij veelvoudige rijonderwerpen of onderwerpgroepen heeft, zal Workfront willekeurig het rijonderwerp selecteren dat de gemailde verzoeken zullen gaan naar, makend gemailde verzoeken moeilijk te beheren.
 >Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klikken **Wachtrij** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** eerst.
-1. In de **Type wachtrij** gebied, selecteren **Publiceren als wachtrij voor Help-aanvragen**.
+1. In de **Type wachtrij** gebied, selecteren **Publish as Help Request-wachtrij**.
 
 1. Omlaag schuiven naar de **E-mailwachtrijinstellingen** gebied, selecteert u vervolgens **Aanvraag via e-mail inschakelen**.
 
