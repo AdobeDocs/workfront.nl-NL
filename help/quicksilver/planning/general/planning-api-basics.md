@@ -4,9 +4,9 @@ description: Het doel voor de Planning API van Adobe Workfront is het vereenvoud
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b50d2746fe6ab0155d0385b92227b203a9eb7fd6
+source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '939'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Objecten worden gemanipuleerd door een HTTP-aanvraag naar hun unieke URI te verz
 
 De standaard HTTP-methoden komen overeen met de volgende bewerkingen:
 
-* **GET** - Hiermee wordt een object opgehaald op ID, wordt naar alle objecten gezocht op een query, worden rapporten uitgevoerd of worden benoemde query&#39;s uitgevoerd
+* **GET** - Hiermee wordt een object opgehaald op ID, wordt gezocht naar alle objecten op basis van een query
 * **POST** - Hiermee wordt een nieuw object ingevoegd
 * **PUT** - Bewerkt een bestaand object
 * **DELETE** - Hiermee wordt een object verwijderd
