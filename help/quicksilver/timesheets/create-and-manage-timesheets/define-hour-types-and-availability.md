@@ -1,36 +1,38 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Bepaal uurtypes en beschikbaarheid voor timesheets
+title: De types en beschikbaarheid van uren bepalen
 description: Een Type van Uur is een etiket dat u toestaat om tijdingang te categoriseren. Afhankelijk van de rapporteringsvereisten van uw organisatie voor uren, kan dit een essentieel deel van registrerentijd zijn.
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
-# Bepaal uurtypes en beschikbaarheid voor timesheets
+# De types en beschikbaarheid van uren bepalen
 
 Een Type van Uur is een etiket dat u toestaat om tijdingang te categoriseren. Afhankelijk van de rapporteringsvereisten van uw organisatie voor uren, kan dit een essentieel deel van registrerentijd zijn.
 
 Adobe Workfront kent twee uurtypen:
 
-* **Algemene uren:** Uren die niet aan een project, zoals zieke tijd of toediening worden geassocieerd. U kunt algemene uren slechts op timesheet registreren.
-* **Projectspecifieke uren:** Uren die projecten, taken, en kwesties het programma werden geopend. U kunt project-specifieke uren van om het even welke plaatsen registreren waar u tijd kunt registreren.
+* **Algemene uren:** Uren die niet met een project, zoals zieke tijd of beleid worden geassocieerd. U kunt algemene uren slechts op timesheet registreren.
+* **project-specifieke uren:** Uren het programma geopende projecten, taken, en kwesties. U kunt project-specifieke uren van om het even welke plaatsen registreren waar u tijd kunt registreren.
 
 Wanneer het registreren van tijd in Workfront, de project-specifieke uurtypes die beschikbaar zijn afhangen van configuratieopties die bij het systeem, het project, en gebruikersniveaus worden geplaatst. (De volgende standaardproject-specifieke uurtypes zijn altijd beschikbaar: de Tijd van het project, de Tijd van de Taak, en Tijd van de Uitgave.)
 
 De uurtypes die beschikbaar zijn om te selecteren wanneer het registreren tijd (op projecten, taken, en kwesties) eerst door de uurtypes worden bepaald die systeem-breed door de systeembeheerder ter beschikking worden gesteld, en dan door de uurtypes die op het project en gebruikersniveaus worden geselecteerd.
 
-Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen in Workfront registreren, zoals die in wordt beschreven [Logtijd](../../timesheets/create-and-manage-timesheets/log-time.md).
+Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen in Workfront, zoals die in [ wordt beschreven tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md) registreren.
 
 ## Toegangsvereisten
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,73 +59,89 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Beschikbaarheid op systeemniveau bepalen
 
-De systeembeheerder bepaalt welke project-specifieke uurtypes beschikbaar worden gemaakt systeembreed, zoals die in wordt beschreven [Uurtypen beheren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+De systeembeheerder bepaalt welke project-specifieke uurtypes beschikbaar worden gemaakt systeem-breed, zoals die in [ worden beschreven beheert uurtypes ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Beschikbaarheid op projectniveau bepalen {#define-availability-at-the-project-level}
 
-De projecteigenaar bepaalt of alle die uurtypes op het systeemniveau worden bepaald op het project (en taken en kwesties binnen het project) beschikbaar zijn, of slechts een ondergroep van die uurtypes beschikbaar zijn. 
+De projecteigenaar bepaalt of alle die uurtypes op het systeemniveau worden bepaald op het project (en taken en kwesties binnen het project) beschikbaar zijn, of slechts een ondergroep van die uurtypes beschikbaar zijn.
 
 1. Ga naar het project waar u de beschikbaarheid van uurtypes wilt bepalen.
-1. Klik op de knop **Meer** naast de naam van de taak klikt u op **Bewerken**.
+1. Klik het **Meer** menu naast de taaknaam, dan klik **uitgeven**.
 
-1. Klikken **Project bewerken**.
-1. In de **Instellingen** de sectie te zoeken **Rijtypen filteren** -optie.
+1. Klik **uitgeven Project**.
+1. In de **sectie van Montages**, bepaal de plaats van de **optie van de Types van Uur van de Filter**.
 
-1. Selecteren **Nee** om alle project-specifieke uurtypes op het project ter beschikking te stellen.
+1. Selecteer **Nr** om alle project-specifieke uurtypes beschikbaar te maken op het project.
 
    of
 
-   Selecteren **Ja** om slechts een ondergroep van de project-specifieke uurtypes beschikbaar te maken op het project, dan selecteer de uurtypes u beschikbaar wilt maken. (Houd Shift ingedrukt als u meerdere uurtypen wilt selecteren.)
+   Selecteer **ja** om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u beschikbaar wilt maken. (Houd Shift ingedrukt als u meerdere uurtypen wilt selecteren.)
 
    Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). Als u deze optie selecteert en u geen uurtypes selecteert, toont het project slechts algemene uurtypes.
 
    De zelfde selecties moeten op het individuele gebruikersniveau worden gemaakt opdat de gebruiker deze uurtypeopties op het project ziet.
 
-1. Klikken **Wijzigingen opslaan**.
+   Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
+
+1. Klik **sparen Veranderingen**.
 
 ## Beschikbaarheid op gebruikersniveau definiëren
 
 U kunt uren voor een bepaald uurtype op projecten, taken, en kwesties registreren slechts als dat uurtype op het systeemniveau, op het projectniveau, en op het gebruikersniveau beschikbaar is gemaakt.
 
-Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze sectie wordt beschreven, maar u ziet niet dat uurtype wanneer het registreren van tijd op een project, een taak, of een kwestie, dat uurtype niet beschikbaar op het project (zoals die in wordt beschreven [Beschikbaarheid op projectniveau bepalen](#define-availability-at-the-project-level)).
+Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze sectie wordt beschreven, maar u ziet niet dat uurtype wanneer het registreren van tijd op een project, een taak, of een kwestie, dat uurtype niet beschikbaar op het project (zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level)) is gemaakt.
 
 Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
 1. Klik op de gebruikersavatar in de linkerbovenhoek.
-1. Klik op de knop **Meer** naast de gebruikersnaam en klik vervolgens op **Bewerken**.
+1. Klik het **Meer** menu naast de gebruikersnaam, dan klik **uitgeven**.
 
 1. Alleen een systeembeheerder kan andere gebruikers bewerken. Als u een licentie voor abonnementen hebt, kunt u de uurtypen in uw eigen profiel bewerken.
-1. In de **Bronplanning** in de **Beschikbare uurtypen** drop-down menu, doe één van beiden van het volgende, afhankelijk van welke uurtypes u beschikbaar wilt maken wanneer het registreren van tijd op een project, een taak, of een kwestie:
+1. In de **Planning van het Middel** sectie, in **Beschikbare types van Uur** drop-down menu, doe één van beiden van het volgende, afhankelijk van welke uurtypes u beschikbaar wilt maken wanneer het registreren van tijd op een project, een taak, of een kwestie:
 
-   * **Alle uurtypen beschikbaar maken voor de gebruiker:** Selecteer alle uurtypen.\
-     Als u alle uurtypen niet selecteert, is dit technisch hetzelfde als het selecteren van alle uurtypen. In dit geval is het hele uurtype echter alleen beschikbaar voor de gebruiker bij projecten, taken en problemen waarbij **Nee** is geselecteerd in het dialoogvenster **Rijtypen filteren** optie bij het bewerken van het project, zoals beschreven in [Beschikbaarheid op projectniveau bepalen](#define-availability-at-the-project-level).
-   * **Alleen een subset van de uurtypen beschikbaar maken voor de gebruiker:** Selecteer alleen de uurtypen die u beschikbaar wilt maken.
+   * **om alle uurtypes ter beschikking te stellen voor de gebruiker:** selecteer alle uurtypes.\
+     Als u alle uurtypen niet selecteert, is dit technisch hetzelfde als het selecteren van alle uurtypen. Nochtans, in dit geval, zijn alle uurtype beschikbaar voor de gebruiker slechts op projecten, taken, en kwesties waar **Nr** in de **optie van de Types van Uur van de Filter** wordt geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
+   * **om slechts een ondergroep van de uurtypes beschikbaar voor de gebruiker te maken:** selecteer slechts de uurtypes u beschikbaar wilt maken.
 
-     Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in worden geselecteerd **Rijtypen filteren** optie bij het bewerken van het project, zoals beschreven in [Beschikbaarheid op projectniveau bepalen](#define-availability-at-the-project-level).
+     Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in de **optie van de Types van Uur van de Filter** worden geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
 
-1. Klikken **Wijzigingen opslaan**.
+1. (Facultatief) in het **drop-down menu van het Type van Uur 0} Standaard, selecteer één uurtype.**
+
+   Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
+
+1. Klik **sparen Veranderingen**.
 
    Nu wanneer u uren op een project, een taak, of een kwestie registreert, zijn de uurtypes u uitgezocht beschikbaar als die zelfde uurtypes op het projectniveau beschikbaar zijn gemaakt.
 
 
 ## Hoe gebruiker-niveau en project-niveau de types van uren samenwerken
 
-De volgende lijst beschrijft welke uurtypes tonen op een voorwerp nadat u zowel gebruiker-niveau als de project-vlakke uurtypes hebt aangepast en gefilterd:
+De volgende lijst beschrijft welke uurtypes tonen op een voorwerp nadat u zowel gebruiker-niveau als de project-vlakke uurtypes hebt aangepast en gefilterd wanneer u tijd op het voorwerp registreert:
 
-* Wanneer u een object opent om de tijd te registreren, wordt standaard in het vervolgkeuzemenu Type uur de standaarduurtypen weergegeven die aan de gebruiker zijn gekoppeld. Dit gebeurt wanneer u uw uurtypes niet aanpast.
+* Nadat u het Type Standaarduren voor de gebruiker en de Gefilterde Types van Uur van Project aanpast, toont het drop-down menu van het Type van Uur één van de volgende uurtypes:
+
+   * Wanneer de gebruiker een Type Standaarduren op hun profiel heeft en het project het zelfde Gefilterde Type van Uur heeft, toont dit Type van Uur als geselecteerd gebrek wanneer het registreren tijd; Project, Taak, of de Tijd van de Uitgave tonen als extra opties.
+
+   * Wanneer de gebruiker geen Type van Uur Standaard heeft, en het Project heeft de Types van Uur gefilterd, het Type standaarduren wanneer het registreren tijd Project, Taak, of Tijd van de Uitgave is, maar de gefiltreerde Types van Uur van het project toont ook als extra opties.
+
+   * Wanneer de gebruiker geen Type van Uur Standaard heeft en het project heeft geen Gefilterde Types van Uur, slechts tonen de de types van uren van het Project, van de Taak, of van de Tijd van de Uitgave als gebreken, afhankelijk van het voorwerp u tijd aan registreert.
+
+   * Wanneer de gebruiker een Type van Uur Standaard heeft en het project heeft geen Gefilterde Types van Uur, tonen het Project, de Taak, of de vertoning van TIme van de Uitgave als gebreken wanneer het registreren van tijd op de voorwerpen, en geen andere Types van Uur zijn beschikbaar als opties, met inbegrip van het Type van Uur Standaard van de gebruiker.
 
 * Nadat u de Types van Uur aanpast en Beschikbare Types van Uur voor uw gebruiker bepaalt of de Types van Uur voor een project filtreert, bestaan de volgende scenario&#39;s:
 
-   * Als u alle uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden niet gefiltreerd, zult u alle beschikbare uurtypes zien wanneer u tijd registreert.
-   * Als u slechts een ondergroep van uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden niet gefiltreerd, zult u slechts de types van uren van de gebruiker zien wanneer u tijd registreert.
-   * Als u alle uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden gefiltreerd, zult u slechts de de uurtypes van het project en de standaarduurtypes zoals de Tijd van het Project, de Tijd van de Taak, de Tijd van de Uitgave afhankelijk van het voorwerp zien.
-   * Als u slechts een ondergroep van uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden gefiltreerd, zult u slechts de uurtypes zien die voor de gebruiker en het project gemeenschappelijk zijn. Als geen uurtypes voor de gebruiker en het project gemeenschappelijk zijn, slechts de standaarduurtypes tonen (de Tijd van het Project, de Tijd van de Taak, de Tijd van de Uitgave).
+   * Wanneer u alle uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden niet gefiltreerd, zult u alle beschikbare uurtypes zien wanneer u tijd registreert.
+   * Wanneer u slechts een ondergroep van uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden niet gefiltreerd, zult u slechts de types van uren van de gebruiker zien wanneer u tijd registreert.
+   * Wanneer u alle uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden gefiltreerd, zult u slechts de de uurtypes van het project en de standaarduurtypes zoals de Tijd van het Project, de Tijd van de Taak, de Tijd van de Uitgave afhankelijk van het voorwerp zien.
+   * Wanneer u slechts een ondergroep van uurtypes voor het Beschikbare gebied van het Type van Uur in het profiel van uw gebruiker selecteerde, en de Types van Uur van het project worden gefiltreerd, zult u slechts de uurtypes zien die voor de gebruiker en het project gemeenschappelijk zijn. Als geen uurtypes voor de gebruiker en het project gemeenschappelijk zijn, slechts de standaarduurtypes tonen (de Tijd van het Project, de Tijd van de Taak, de Tijd van de Uitgave).
 
 >[!TIP]
 >

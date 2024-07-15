@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ U kunt uurtypen koppelen aan uw uren. De types van uren zijn etiketten u gebruik
 
 Er zijn twee reeksen uurtypes:
 
-* **Projectspecifieke uren**: Dit is tijd het programma geopende projecten, taken, en kwesties. Projectspecifieke uurtypen kunnen overal in [!DNL Adobe Workfront] waar u tijd voor projecten, taken, en kwesties kunt registreren.
+* **de Specifieke Types van Uur van het Project**: Dit is tijd het programma geopend projecten, taken, en kwesties. Projectspecifieke urentypen kunnen overal in [!DNL Adobe Workfront] met uurvermeldingen worden geassocieerd waar u tijd voor projecten, taken, en kwesties kunt registreren.
 
-  Bij aanmelden [!DNL Workfront], de project-specifieke uurtypes die beschikbaar zijn hangen van configuratieopties af die bij het systeem, het project, en gebruikersniveaus worden geplaatst.
+  Wanneer het registreren van tijd in [!DNL Workfront], de project-specifieke uurtypes die beschikbaar zijn afhangen van configuratieopties die op het systeem, het project, en gebruikersniveaus worden geplaatst.
 
   De volgende standaardproject-specifieke uurtypes zijn altijd beschikbaar:
 
@@ -35,13 +35,13 @@ Er zijn twee reeksen uurtypes:
    * Taaktijd
    * Uitgiftetijd
 
-  De [!DNL Workfront] de beheerder bepaalt welke project-specifieke uurtypes ter beschikking worden gesteld, zoals die in worden beschreven [Bepaal uurtypes en beschikbaarheid voor timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  De [!DNL Workfront] beheerder bepaalt welke project-specifieke uurtypes beschikbaar worden gemaakt, zoals die in [ worden beschreven bepaalt uurtypes en beschikbaarheid ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
-  >Als u om het even welke project-specifieke uurtypes in uw toelaat [!DNL Workfront] systeem, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten, en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
+  >Als u om het even welke project-specifieke uurtypes in uw [!DNL Workfront] systeem toelaat, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten, en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
 
-* **Algemene uurtypen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en worden geregistreerd direct in timesheet. Voor meer informatie over logboektijd, zie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend. Voor meer informatie over logboektijd, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Toegangsvereisten
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,27 +70,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Workfront wordt geleverd met een aantal ingebouwde uurtypen. Deze uurtypen kunnen niet worden bewerkt en kunnen niet worden verborgen.
 
-De uurtypes die met komen [!DNL Workfront] zijn:
+De uurtypen die bij [!DNL Workfront] worden geleverd, zijn:
 
-* **[!UICONTROL Sick Time]**: Een algemeen uurtype dat niet met uuringangen op een project, een taak, of een kwestie kan worden geassocieerd. Zieke uren kunnen niet als opbrengst worden geteld.
-* **[!UICONTROL Vacation Time]**: Een algemeen uurtype dat niet met uuringangen op een project, een taak, of een kwestie kan worden geassocieerd. Vakantieduur kan niet als inkomsten worden geteld.
-* **[!UICONTROL General Overhead]**: Een algemeen uurtype dat niet met uuringangen op een project, een taak, of een kwestie kan worden geassocieerd. Nochtans, kan het als opbrengst in uw project planningsproces tellen.
-* **[!UICONTROL Project Time]**: Een algemeen uurtype dat slechts met uuringangen op een project kan worden geassocieerd.
-* **[!UICONTROL Task Time]**: Een algemeen uurtype dat slechts met uuringangen op een taak kan worden geassocieerd.
-* **[!UICONTROL Issue Time]**:Een type van algemene uren dat slechts met uuringangen op een kwestie kan worden geassocieerd.
+* **[!UICONTROL Sick Time]**: Een type van algemene uren dat niet met uuringangen op een project, een taak, of een kwestie kan worden geassocieerd. Zieke uren kunnen niet als opbrengst worden geteld.
+* **[!UICONTROL Vacation Time]**: Een type van algemene uren dat niet met uuringangen op een project, een taak, of een kwestie kan worden geassocieerd. Vakantieduur kan niet als inkomsten worden geteld.
+* **[!UICONTROL General Overhead]**: Een type van algemene uren dat niet met uuringangen op een project, een taak, of een kwestie kan worden geassocieerd. Nochtans, kan het als opbrengst in uw project planningsproces tellen.
+* **[!UICONTROL Project Time]**: Een uurtype van algemeen dat slechts met uuringangen op een project kan worden geassocieerd.
+* **[!UICONTROL Task Time]**: een type van algemene uren dat slechts met uuringangen op een taak kan worden geassocieerd.
+* **[!UICONTROL Issue Time]**:Een type van algemene uren dat slechts met uuringangen over een kwestie kan worden geassocieerd.
 
 ## Urentypen maken
 
-Als [!DNL Workfront] beheerder, kunt u nieuwe uurtypes voor uw organisatie op zowel systeem als projectniveaus tot stand brengen. Nadat u uurtypes op het systeem en projectniveaus creeert, kunnen de gebruikers bepalen welke uurtypes voor specifieke projecten en gebruikers beschikbaar zijn. Zie de klasse [Bepaal uurtypes en beschikbaarheid voor timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+Als [!DNL Workfront] beheerder, kunt u nieuwe uurtypes voor uw organisatie op zowel systeem als projectniveaus tot stand brengen. Nadat u uurtypes op het systeem en projectniveaus creeert, kunnen de gebruikers bepalen welke uurtypes voor specifieke projecten en gebruikers beschikbaar zijn. Voor meer informatie, zie [ de types en beschikbaarheid van uren bepalen ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 Nieuwe uurtypen maken:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
 
-1. Klikken **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]**.
+1. Klik op **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]** .
 
-1. Klikken **[!UICONTROL New Hour Type].**
-1. Geef de volgende informatie op over de **[!UICONTROL New Hour Type]** formulier:
+1. Klik op **[!UICONTROL New Hour Type].**
+1. Geef de volgende informatie op in het **[!UICONTROL New Hour Type]** -formulier:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +106,7 @@ Nieuwe uurtypen maken:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Bepaal of het uurtype een algemeen of project-specifiek uurtype door het correcte werkingsgebied in het drop-down menu te selecteren is.</p> <p>De types van algemene uren zijn zichtbaar slechts in timesheets en kunnen niet met projecten, taken, of kwesties worden geassocieerd.</p> <p><b>BELANGRIJK</b>: Als u een aangepast uurtype hebt dat [!UICONTROL Project Specific]en vervolgens wijzigt u deze in [!UICONTROL General], worden alle bestaande Taak, Kwesties en de uren van het Project geplaatst aan hun systeem standaardtypes.</p> </td> 
+      <td> <p>Bepaal of het uurtype een algemeen of project-specifiek uurtype door het correcte werkingsgebied in het drop-down menu te selecteren is.</p> <p>De types van algemene uren zijn zichtbaar slechts in timesheets en kunnen niet met projecten, taken, of kwesties worden geassocieerd.</p> <p><b> BELANGRIJK </b>: Als u een Type van douaneuren hebt dat [!UICONTROL Project Specific] is, dan verandert u het in [!UICONTROL General], worden alle bestaande Taak, Kwesties en de uren van het Project geplaatst aan hun systeem standaardtypes.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -119,21 +119,21 @@ Nieuwe uurtypen maken:
     </tbody> 
    </table>
 
-   **[!UICONTROL Count As Revenue]**: Selecteer deze optie als u wilt dat de uurvermelding die aan dit uurtype is gekoppeld uw inkomstenberekeningen beïnvloedt.
+   **[!UICONTROL Count As Revenue]**: Selecteer deze optie als u wilt dat de uren die aan dit uurtype zijn gekoppeld uw inkomstenberekeningen beïnvloeden.
 
-1. Klikken **[!UICONTROL Create Hour Type].**
+1. Klik op **[!UICONTROL Create Hour Type].**
 
 ## Uren deactiveren
 
 Als de uurtypes verouderd worden en u niet meer gebruikers hun uuringangen met hen wilt associëren, kunt u de uurtypes deactiveren.
 
-Als u uurtypen deactiveert, worden de uurtypen overal verborgen [!DNL Workfront] waarbij uurtypen zichtbaar zijn.
+Als u uurtypen deactiveert, worden de uurtypen verborgen vanaf elke locatie in [!DNL Workfront] waar uurtypen zichtbaar zijn.
 
 Een uurtype deactiveren:
 
-1. Klikken **[!UICONTROL Setup]** in de rechterbovenhoek van [!DNL Adobe Workfront] op de algemene navigatiebalk.
+1. Klik op **[!UICONTROL Setup]** in de rechterbovenhoek van [!DNL Adobe Workfront] op de algemene navigatiebalk.
 
-1. Uitbreiden **[!UICONTROL Timesheet & Hours Preferences]** en klik vervolgens op **[!UICONTROL Hour Types]**.
+1. Vouw **[!UICONTROL Timesheet & Hours Preferences]** uit en klik op **[!UICONTROL Hour Types]** .
 
 1. Selecteer het uurtype u wilt deactiveren.
 
