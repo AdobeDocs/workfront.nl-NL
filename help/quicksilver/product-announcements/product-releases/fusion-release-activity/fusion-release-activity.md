@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: d38dbad360db7317e05d4b9829c574596cca1c34
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,14 @@ ht-degree: 0%
 
 Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en webservices, zodat u zich kunt concentreren op nieuwe taken in plaats van dezelfde taken steeds opnieuw uit te voeren.
 
-Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+Voor informatie over hoe te om de Fusie van Workfront te gebruiken, zie [ de Fusie van Adobe Workfront ](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Fusieleveringen in 2024
+
+### juli 2024
+
+* [Workfront Fusion release activity: Week van 8 juli 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
+
 
 ### Juni 2024
 
@@ -56,7 +61,7 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ## Fusion-releases in 2023
 
-+++**Klik om te openen**
++++**klik om** te openen
 
 ### november 2023
 
@@ -105,7 +110,7 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ## Fusieleveringen in 2022
 
-+++**Klik om te openen**
++++**klik om** te openen
 
 ### december 2022
 
@@ -124,28 +129,28 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 ### september 2022
 
 * [Workfront Fusion release activity: Week van 26 september 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
-* [Workfront Fusion release activity: Week van 19 september 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 19 September, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
 
 ### juli 2022
 
-* [Workfront Fusion release activity: Week van 11 juli 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 11 Juli, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
 
 
 ### juni 2022
 
-* [Workfront Fusion release activity: Week 27 juni 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
-* [Workfront Fusion release activity: Week van 20 juni 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
+* [ Workfront Fusion releaseactiviteit: Week van 27 juni, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
+* [ Workfront Fusion releaseactiviteit: Week van 20 juni, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
 
 
 ### mei 2022
 
-* [Workfront Fusion releaseactiviteit: week van 16 mei 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
-* [Workfront Fusion release activity: Week van 9 mei 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 16 Mei, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 9 Mei, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
 
 
 ### april 2022
 
-* [Workfront Fusion release activity: Week van 25 april 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 25 April, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
 * [Workfront Fusion release activity: Week van 18 april 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
 
 ### maart 2022
@@ -154,9 +159,9 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### februari 2022
 
-* [Workfront Fusion release activity: Week van 28 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
-* [Workfront Fusion release activity: Week van 21 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
-* [Workfront Fusion release activity: Week van 14 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 28 Februari, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 21 Februari, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 14 Februari, 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
 * [Workfront Fusion release activity: Week 7 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
 
 ### Januari 2022
@@ -167,12 +172,12 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ## Fusieleveringen in 2021
 
-+++**Klik om te openen**
++++**klik om** te openen
 
 ### november 2021
 
-* [Workfront Fusion release activity: Week van 29 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
-* [Workfront Fusion release activity: Week van 15 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 29 November, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 15 November, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
 * [Workfront Fusion release activity: Week van 8 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
 
 ### Oktober 2021
@@ -185,8 +190,8 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### augustus 2021
 
-* [Workfront Fusion release activity: Week van 30 augustus 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
-* [Workfront Fusion release activity: Week van 23 augustus 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
+* [ Workfront Fusion releaseactiviteit: Week van 30 augustus, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
+* [ Workfront Fusion releaseactiviteit: Week van 23 augustus, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
 * [Workfront Fusion release activity: Week van 2 augustus 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
 
 ### juli 2021
@@ -201,14 +206,14 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### Mei 2021
 
-* [Workfront Fusion releaseactiviteit: week van 17 mei 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
-* [Workfront Fusion releaseactiviteit: week van 10 mei 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 17 Mei, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 10 Mei, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
 * [Workfront Fusion release activity: Week van 3 mei 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
 
 ### April 2021
 
-* [Workfront Fusion release activity: Week van 26 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
-* [Workfront Fusion release activity: Week van 19 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
+* [ Workfront Fusion releaseactiviteit: Week van 26 april, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 19 April, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### maart 2021
@@ -221,17 +226,17 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### Januari 2021
 
-* [Workfront Fusion release activity: Week van 1 februari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
-* [Workfront Fusion releaseactiviteit: week van 25 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
-* [Workfront Fusion releaseactiviteit: week van 18 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
-* [Workfront Fusion releaseactiviteit: week van 11 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 1 Februari, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 25 Januari, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 18 Januari, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 11 Januari, 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Workfront Fusion release activity: Week van 4 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
 +++
 
 ## Fusieleveringen in 2020
 
-+++**Klik om te openen**
++++**klik om** te openen
 
 ### december 2020
 
@@ -239,8 +244,8 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### november 2020
 
-* [Workfront Fusion release activity: Week van 30 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-* [Workfront Fusion release activity: Week van 16 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 30 November, 2020 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
+* [ de versieactiviteit van de Fusie van Workfront: Week van 16 November, 2020 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
 * [Workfront Fusion release activity: Week van 2 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
 
 ### september 2020
@@ -249,7 +254,7 @@ Ga voor informatie over hoe u Workfront Fusion kunt gebruiken naar [Adobe Workfr
 
 ### augustus 2020
 
-* [Workfront Fusion release activity: Week van 24 augustus 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
+* [ Workfront Fusion releaseactiviteit: Week van 24 augustus, 2020 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Workfront Fusion release activity: Week van 17 augustus 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
 
 +++
