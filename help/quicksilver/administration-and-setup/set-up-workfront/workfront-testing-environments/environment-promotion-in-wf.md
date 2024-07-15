@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ U kunt dit proces in Workfront uitvoeren door een pakket met objecten te maken d
    * [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Voor instructies over het uitvoeren van dit proces via de Workfront API raadpleegt u [Objecten verplaatsen tussen [!DNL Workfront] omgevingen die de [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Voor instructies bij het uitvoeren van dit proces door Workfront API, zie [ voorwerpen van de Beweging tussen  [!DNL Workfront]  milieu&#39;s gebruikend  [!DNL Workfront]  API ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Ondersteunde objecten voor milieubescherming
 
@@ -51,49 +51,49 @@ Omdat de bevordering van het milieu objecten configuratie behandelt, zijn de tra
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Project (PROJ) | Project<br>Taak<br>Toewijzing<br>Voorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-| Sjabloon (TMPL) | Sjabloon<br>Sjabloontaak<br>Toewijzing sjabloontaak<br>Sjabloontaakvoorganger<br>Bedrijf<br>Overschrijvingssnelheid<br>Groep<br>Rol<br>Team<br>Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Schema<br>Onwerkdag<br>Wachtrijdefinitie<br>Onderwerpgroep wachtrij<br>Onderwerp van wachtrij<br>Routeringsregel<br>Mijlpad<br>Mijlsteen<br>Uurtype<br>Bronpool<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
+| Project (PROJ) | De Taak van het project <br> 1} Taak <br> Predecessor <br> Onderneming <br> het Tarief van de Overschrijving van de Groep <br> <br> Rol van het Team <br> het Proces van de Goedkeuring <br> Stap van de Goedkeuring 11} Stap <br> Plan van de Stap 13} Dag van de Werkvoorraad <br> Werkgroep 16} Het Onderwerp van de rij <br> Verpletterend Regel <br> Mijlpad van de Mijlsteen <br> Mijlsteen <br> het Pool van het Type van uur <br> Categorie <br> CategorieParameter <br> de Groep van de Parameter 25} <br> Optie van de Parameter <br> Logica van de Categorie<br><br><br><br><br><br><br><br><br> |
+| Sjabloon (TMPL) | De Taak van het Malplaatje <br> Taak van het Malplaatje <br> Predecessor van de Taak van het Malplaatje <br> Bedrijf <br> het Tarief van de Overschrijving van de Groep <br> Rol van de Groep <br> 8} van de Goedkeuring <br> Stap van de Goedkeuring 11} Stap van de Stap van de Stap <br> Dag van de Werkvoorraad <br> Werkgroep 15} <br> het Onderwerp van de Rij <br> Verpletterend 18} Mijlpad van de Regel <br> Mijlsteen <br> het Type van het Huur <br> Pool van het Middel <br> CategorieParameter <br> de 25} 26} Optie van de Parameter van de Parameter <br> Logica van de Categorie<br><br><br><br><br><br><br><br><br><br><br> |
 
 ### Objecten rapporteren
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Lay-outsjabloon (UITMPL) | Lay-outsjabloon<br>Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalender, sectie<br>Externe pagina<br>Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Kalender (CALEND) | Kalender<br>Kalender, sectie |
+| Lay-outsjabloon (UITMPL) | Het Malplaatje van de lay-out {<br> Kalender <br> Sectie van de Kalender <br> Externe Pagina <br> het Rapport <br> van de Filter <br> Groepering <br> van de Mening <br> van de Parameter <br> Groep<br> |
+| Dashboard (PTLTAB) | De Sectie van de Kalender van het dashboard <br> {<br> Externe Pagina <br> van het Rapport <br> <br> Groepering <br> van de Mening <br> Parameter<br> |
+| Kalender (CALEND) | Kalender <br> Sectie van de Kalender |
 | Externe pagina (EXTSEC) | Externe pagina |
-| Rapport (PTLSEC) | Rapport<br>Filter<br>Groepering<br>Weergave<br>Parameter |
-| Filter (UIFT) | Filter<br>Parameter |
-| Groeperen (UIGB) | Groepering<br>Parameter |
-| Weergave (UIVW) | Weergave<br>Parameter |
+| Rapport (PTLSEC) | Het verslag <br> Groepering van de 1} Filter <br> Mening <br> Parameter<br> |
+| Filter (UIFT) | Filter <br> Parameter |
+| Groeperen (UIGB) | <br> Parameter groeperen |
+| Weergave (UIVW) | Weergave <br> Parameter |
 
 ### Aangepaste gegevensobjecten
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Categorie (CTGY) | Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica<br>Groep |
-| Parameter (PARAM) | Parameter<br>Parameteroptie |
+| Categorie (CTGY) | De Categorie <br> Parameter van de 1} <br> Parameter van de Groep <br> Optie van de Parameter van de Partij <br> Categorie van de Logische Logica van de Vertoning van de Categorie <br> Groep van de Groep van de Categorie {<br> |
+| Parameter (PARAM) | De Optie van de Parameter <br> |
 | Parametergroep (PGRP) | Parametergroep |
 
 ### Organisatie-objecten
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Groep (GROEP) | Groep <br>Subgroepen (maximaal 5 niveaus) *<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
+| Groep (GROEP) | De Groep <br> Subgroepen (tot 5 niveaus) * <br> Categorie <br> CategorieParameter <br> de Groep van de Parameter <br> Optie van de Parameter <br> Logische van de Vertoning van de Categorie<br> |
 | Rol (ROLE) | Rol |
-| Team (TEAM) | Team<br>Groep |
-| Bedrijf (CMPY) | Bedrijf<br>Overschrijvingssnelheid<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameter <br>Categorieweergavelogica<br>Groep |
-| Portfolio (HAVEN) | Portfolio<br>Programma<br>Groep<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
-| Programma (PRGM) | Programma<br>Portfolio<br>Groep<br>Categorie<br>Categorieparameter<br>Parameter<br>Parametergroep<br>Parameteroptie<br>Categorieweergavelogica |
+| Team (TEAM) | Team <br> Groep |
+| Bedrijf (CMPY) | Het bedrijf <br> het Tarief van de Overschrijving <br> Categorie <br> <br> Parameter <br> de Groep van de Parameter <br> Parameter <br> van de Categorie van de Logica van de Vertoning <br> Groep |
+| Portfolio (HAVEN) | Portfolio <br> de Groep van het 1} {<br> Categorie <br> <br> Parameter van de Categorie {<br> van de Parameter van de Groep van de Parameter {<br> Logische van de Vertoning van de Categorie<br><br> |
+| Programma (PRGM) | Het Portfolio van het programma <br> <br> Categorie <br> <br> Parameter van de Categorie <br> Van de Groep van de Parameter van de 1} <br> Categorie van de Logische Logica van de Vertoning van de Partij van de Partij van de Partij van de Categorie {<br><br> |
 
 ### Andere configuratieobjecten
 
 | Promoteerbaar object | Opgenomen promoteerbare gekoppelde objecten |
 | --- | --- |
-| Goedkeuringsproces (ARVPRC) | Goedkeuringsproces<br>Goedkeuringspad<br>Goedkeuringsstap<br>Stap fiatteur<br>Rol<br>Team<br>Groep |
-| Schema (SCHED) | Schema<br>Onwerkdag<br>Groep |
-| Mijlpad (MPATH) | Mijlpad<br>Mijlsteen |
-| Tijdbladprofiel (TSPRO) | Tijdbladprofiel<br>Uurtype |
+| Goedkeuringsproces (ARVPRC) | De Stap van de Stap van de Goedkeuring van het Proces van de Goedkeuring <br> <br> Stap <br> Rol <br> van het Team <br> Groep<br> |
+| Schema (SCHED) | De Groep van de Dag van het Werk van het Programma <br><br> |
+| Mijlpad (MPATH) | Mijlpad <br> Mijlsteen |
+| Tijdbladprofiel (TSPRO) | Het Type van het Profiel van het Tijdopmaakprofiel <br> |
 | Uurtype (URT) | Uurtype |
 | Type kosten (EXPTYP) | Type uitgave |
 | Type risico (RSKTYP) | Type risico |
@@ -142,15 +142,15 @@ Deze statussen zijn onder andere:
   </tr> 
   <tr> 
    <td>ACTIEF</td> 
-   <td><p>Met deze status kan een promotiepakket worden geïnstalleerd in elke omgeving, inclusief Productie.</p><p>Wanneer de pakketstatus is ingesteld op ACTIEF, wordt de instelling <code>publishedAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p></td> 
+   <td><p>Met deze status kan een promotiepakket worden geïnstalleerd in elke omgeving, inclusief Productie.</p><p>Wanneer de pakketstatus is ingesteld op ACTIEF, wordt de datum <code>publishedAt</code> automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p></td> 
   </tr> 
   <tr> 
    <td>UITGESCHAKELD</td> 
-   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakketstatus wordt ingesteld op DISABLED, wordt de <code>retiredAt</code> De datum wordt automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aanbevolen tijdens het gebruik van de <code>DELETE /package</code> eindpunt omdat het terugwinnbaar is, en de installatiegeschiedenis wordt behouden voor om het even welke plaatsingen die met dit pakket worden gemaakt.</p></td> 
+   <td><p>Deze status wordt gebruikt om eerder gebruikte promotiepakketten te verbergen die in de toekomst niet in een omgeving worden geïnstalleerd.</p><p>Wanneer een pakket zich in deze status bevindt, kan het niet in een omgeving worden geïnstalleerd.</p><p>Wanneer de pakketstatus is ingesteld op DISABLED, wordt de datum <code>retiredAt</code> automatisch ingesteld op de huidige tijdstempel van de aanvraag.</p><p>Het gebruik van deze status wordt aangeraden bij het gebruik van het <code>DELETE /package</code> -eindpunt omdat het kan worden opgehaald en de installatiegeschiedenis bewaard blijft voor alle implementaties die met dit pakket zijn gemaakt.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugbrengen naar het ASSEMBLING-werkgebied, moet u het assemblageproces opnieuw activeren.</p><p>Zie de sectie voor meer informatie over het samenstellen van een pakket <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Een bestaand pakket bewerken of samenvoegen</a> in het artikel Een pakket voor milieubescherming maken of bewerken.</td> 
+   <td><p>Het promotiepakket wordt automatisch in deze status geplaatst als de ASSEMBLING-fase mislukt.</p><p>Als u het pakket wilt terugbrengen naar het ASSEMBLING-werkgebied, moet u het assemblageproces opnieuw activeren.</p><p>Voor details bij het assembleren van een pakket, zie de sectie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> uitgeven of een bestaand pakket </a> in artikel assembleren creeer of geef een pakket van de milieubevordering uit.</td> 
   </tr> 
   </tbody> 
 </table>
