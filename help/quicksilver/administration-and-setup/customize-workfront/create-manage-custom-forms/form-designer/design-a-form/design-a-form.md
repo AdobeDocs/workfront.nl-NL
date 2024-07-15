@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 0%
 
 ---
@@ -45,25 +45,25 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast formulier ontwerpen starten
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
+1. Klik **Forms van de Douane** in het linkerpaneel.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klikken **Nieuw aangepast formulier.**
-1. Selecteer de objecttypen waaraan u het aangepaste formulier wilt koppelen en klik vervolgens op **Doorgaan**.
+1. Klik **Nieuwe Vorm van de Douane.**
+1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
 
    ![](assets/choose-object-type.jpg)
 
-1. In de **Titel is vereist** in, typt u de aangepaste titel van het formulier.
-1. (Optioneel) Als u meer objecttypen aan het formulier wilt toevoegen zodat het aan meer objecten kan worden gekoppeld, klikt u op de knop **Toevoegen** pictogram ![](assets/add-objects-icon.png) na **Objecttypen** Selecteer vervolgens de gewenste tekst in het menu dat wordt weergegeven. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
+1. Op **Titel wordt vereist** gebied, typ de titel van de douanevorm.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![](assets/add-objects-icon.png) na **de Types van Objecten** klikken, dan het type selecteert u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
    U kunt ook op de X op een objecttype klikken om het uit het formulier te verwijderen.
 
@@ -71,14 +71,14 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    >
    >Als u een aangepast formulier verwijdert, worden ook alle aangepaste gegevens verwijderd over de objecten die aan het formulier zijn gekoppeld. De verwijderde gegevens kunnen niet worden hersteld. U kunt in plaats daarvan een aangepast formulier deactiveren. Wanneer u een aangepast formulier deactiveert dat u niet meer gebruikt, behoudt u alle bijbehorende historische gegevens.
    >
-   >Zie voor meer informatie [Objecttypen verwijderen op een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >Voor meer informatie, zie [ de objecten types van de Schrapping op een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 
 1. Vervolgens kunt u velden toevoegen aan uw aangepaste formulier. Zie de volgende secties:
    * [Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Tekstvelden toevoegen](#add-text-fields)
    * [Berekende velden toevoegen](#add-calculated-fields)
-   * [Keuzerondjes, groep selectievakjes en vervolgkeuzelijsten toevoegen](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Velden voor typekop en datum toevoegen](#add-typeahead-and-date-fields)
    * [Externe opzoekvelden toevoegen](#add-external-lookup-fields)
    * [Afbeeldingen, PDF en video&#39;s toevoegen](#add-images-pdfs-and-videos)
@@ -91,7 +91,7 @@ U kunt nieuwe of bestaande velden gebruiken bij het ontwerpen van uw aangepaste 
 
 ## Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt
 
-1. Klik in de linkerbovenhoek van het scherm op **Veldbibliotheek**.
+1. Op de top-linkerkant van het scherm, klik **bibliotheek van het Gebied**.
 
 1. Sleep het veld of de widget naar de gewenste positie in het aangepaste formulier.
 1. (Optioneel) Herhaal de vorige stap om andere velden of widgets toe te voegen.
@@ -103,31 +103,31 @@ U kunt nieuwe of bestaande velden gebruiken bij het ontwerpen van uw aangepaste 
    >
    >Voorbeelden van complexe formulieren zijn formulieren met trapsgewijze parameters, berekende aangepaste gegevensvelden en opties voor meerdere waarden in één veld.
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ### Tekstvelden toevoegen
 
 U kunt verschillende tekstvelden toevoegen aan een aangepast formulier.
 
-+++ **Uitbreiden om beschrijvingen van beschikbare tekstvelden weer te geven**
++++ **breid uit om beschrijvingen van beschikbare tekstgebieden** te zien
 
-* **Tekstveld met één regel**: Hiermee kunnen gebruikers één regel tekst in het veld typen.
-* **Alineatekstveld**: Hiermee kunnen gebruikers meerdere tekstregels in het veld typen.
-* **Tekstveld met opmaak**: Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.
+* **Enige Gebied van de Tekst van de Lijn**: Staat gebruikers toe om één enkele lijn van tekst op het gebied te typen.
+* **Gebied van de Tekst van de Paragraaf**: Staat gebruikers toe om veelvoudige lijnen van tekst op het gebied te typen.
+* **Gebied van de Tekst met het Formatteren**: Staat gebruikers toe om veelvoudige lijnen van tekst op het gebied te typen en de tekst met vette, cursieve, onderstreepte, kogels, nummering, hyperlinks, en blokcitaten te formatteren. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.
 
   Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.
 
-  Voor informatie over toegang tot dit veld via de API raadpleegt u [Opslag van rijke tekstvelden in de API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  Voor informatie over de toegang tot van dit gebied door API, zie {de opslag van 0} Rich tekstgebied in API ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).[
 
   >[!NOTE]
   >
   >Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-apps (beschikbaar in volgende versies).
 
-* **Beschrijvende tekst**: Hiermee kunt u instructies en koppelingen naar pagina&#39;s buiten Workfront opnemen.
+* **Beschrijvende tekst**: Staat u toe om instructies en verbinding aan pagina&#39;s buiten Workfront te omvatten.
 
 +++
 
@@ -174,7 +174,7 @@ Een tekstveld toevoegen:
     <tr>
      <td>Naam</td>
     <td><p>(Vereist) Met deze naam geeft het systeem het veld aan. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
-    <p><b>BELANGRIJK</b>:   
+    <p><b> BELANGRIJK </b>:   
       <ul> 
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
@@ -200,7 +200,7 @@ Een tekstveld toevoegen:
     </tr>
     <tr>
     <td>Indeling</td>
-    <td><p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b>OPMERKING</b>:   
+    <td><p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b> NOTA </b>:   
     <ul> 
     <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.</li> 
     <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
@@ -232,30 +232,30 @@ Een tekstveld toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![kopieerpictogram](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ### Berekende velden toevoegen
 
 In een aangepast formulier kunt u een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 
-Als u een berekend veld wilt toevoegen, raadpleegt u [Berekende velden toevoegen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Om een berekend gebied toe te voegen, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-### Keuzerondjes, selectievakjes en vervolgkeuzelijsten toevoegen
+### Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen
 
-U kunt keuzerondjes, selectievakjes, vervolgkeuzelijsten en meerkeuzevelden toevoegen aan een aangepast formulier.
+U kunt keuzerondjes, groepen selectievakjes, vervolgkeuzelijsten en meerkeuzevelden toevoegen aan een aangepast formulier.
 
-+++ **Uitbreiden om beschrijvingen van beschikbare velden weer te geven**
++++ **breid uit om beschrijvingen van beschikbare gebieden** te zien
 
-* **Keuzerondjes**: Gebruikers mogen slechts één keuze selecteren.
-* **Groep selectievakjes**: Hiermee kunnen gebruikers meerdere keuzen selecteren.
-* **Vervolgkeuzelijst**: Bevat een lijst met keuzemogelijkheden.
-* **Meerdere selecties opheffen**: Hiermee kunnen gebruikers meerdere keuzen in een vervolgkeuzelijst selecteren.
+* **Keuzerondjes**: Vereist gebruikers om slechts één keus te selecteren.
+* **Checkbox Groep**: Staat gebruikers toe om veelvoudige keuzen te selecteren.
+* **Dropdown**: Verstrekt een lijst van dropdown keuzen.
+* **Multi-Select Vervolgkeuzelijst**: Staat gebruikers toe om veelvoudige keuzen van een dropdown lijst te selecteren.
 
 +++
 
@@ -263,7 +263,7 @@ U kunt keuzerondjes, selectievakjes, vervolgkeuzelijsten en meerkeuzevelden toev
 >
 >Velden die meerdere selecties mogelijk maken, zoals Selectievakjesgroep en Multi-Select Dropdown, zijn moeilijk in te delen en te groeperen in rapporten. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
 
-Keuzerondjes, selectievakjes en downloads toevoegen:
+Keuzerondjes, groepen selectievakjes en downloads toevoegen:
 
 1. Zoek aan de linkerkant van het scherm een van de volgende velden en sleep deze naar een sectie op het canvas.
 
@@ -272,7 +272,7 @@ Keuzerondjes, selectievakjes en downloads toevoegen:
    * Vervolgkeuzelijst
    * Meerdere selecties opheffen
 
-   ![Sleep een veld naar het canvas](assets/drag-field-to-section-041524.png)
+   ![ belemmering een gebied op het canvas ](assets/drag-field-to-section-041524.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -285,7 +285,7 @@ Keuzerondjes, selectievakjes en downloads toevoegen:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+     <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
@@ -296,12 +296,12 @@ Keuzerondjes, selectievakjes en downloads toevoegen:
      <tr> 
     <td role="rowheader">Naam</td> 
      <td> <p>(Vereist) Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-    <p><b>BELANGRIJK</b>:   
+    <p><b> BELANGRIJK </b>:   
      <ul> 
     <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
     <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-     </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#Add" class="MCXref xref">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
+     </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#Add" class="MCXref xref"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
@@ -323,7 +323,7 @@ Keuzerondjes, selectievakjes en downloads toevoegen:
     </tr> 
     <tr> 
     <td role="rowheader">Indeling</td> 
-    <td> <p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b>OPMERKING</b>:   
+    <td> <p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd.</p> <p><b> NOTA </b>:   
      <ul> 
     <li>Dit veld kan niet worden bewerkt nadat het formulier is opgeslagen. Als u het veld wilt gebruiken voor wiskundige berekeningen, selecteert u een getal- of valutanotatie.<br></li> 
     <li>Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</li>
@@ -360,17 +360,17 @@ Keuzerondjes, selectievakjes en downloads toevoegen:
     <td role="rowheader">Keuzen </td> 
     <td> 
     <ol> 
-    <li> <p>Klikken <b>Opties</b>Schakel vervolgens een van de volgende opties in:</p> 
+    <li> <p>Klik <b> Opties </b>, dan laat om het even welke volgend toe:</p> 
     <ul> 
-    <li><strong>Waarden tonen</strong>: geeft de waarden van elke keuze in het veld weer. Het label van elke keuze wordt standaard weergegeven.</li> 
-     <li><strong>Keuzen A-Z sorteren</strong>: hiermee sorteert u de opties die u alfabetisch in het veld toevoegt.</li> 
+    <li><strong> toon Waarden </strong>: Toont de waarden van elke keus op het gebied. Het label van elke keuze wordt standaard weergegeven.</li> 
+     <li><strong> de Keuzen van de Soort A-z </strong>: Sorteert de keuzen u alfabetisch op het gebied toevoegt.</li> 
     </ul> 
     </li> 
-    <li> <p>Klik voor elke keuze die u voor de gebruiker toevoegt op het tandwielpictogram <img src="assets/gear-icon-settings.png">Selecteer vervolgens een van de volgende opties:</p> 
+    <li> <p>Voor elke keuze die u voor de gebruiker toevoegt, klikt u op het tandwielpictogram <img src="assets/gear-icon-settings.png"> en selecteert u een van de volgende opties:</p> 
     <ul> 
-    <li><strong>Standaard selecteren</strong>: Selecteer de standaardinstelling in het veld.</li> 
-    <li> <p><strong>Keuze verbergen</strong>: Verberg de keuze in het veld. Verborgen keuzen blijven beschikbaar in rapporten.</p> </li> 
-    <li> <p><strong>Keuze verwijderen</strong>: Verwijder de keuze uit het veld.</p> <p><b>WAARSCHUWING</b>: Als u de huidige objecten hebt die deze optie gebruiken, verwijdert u deze niet uit het veld. Als u deze regel verwijdert, gaan historische gegevens verloren. Selecteer in plaats daarvan de optie om deze te verbergen, zodat gebruikers deze optie in de toekomst niet meer kunnen selecteren.</p> </li> 
+    <li><strong> Uitgezocht door Gebrek </strong>: Selecteer de keus door gebrek op het gebied.</li> 
+    <li> <p><strong> Keuze van de Huid </strong>: Verberg de keus op het gebied. Verborgen keuzen blijven beschikbaar in rapporten.</p> </li> 
+    <li> <p><strong> verwijder Keuze </strong>: Verwijder de keus uit het gebied.</p> <p><b> WAARSCHUWING </b>: Als u huidige voorwerpen gebruikend deze keus hebt, verwijder het niet uit het gebied. Als u deze regel verwijdert, gaan historische gegevens verloren. Selecteer in plaats daarvan de optie om deze te verbergen, zodat gebruikers deze optie in de toekomst niet meer kunnen selecteren.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -390,21 +390,21 @@ Keuzerondjes, selectievakjes en downloads toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![kopieerpictogram](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ### Velden voor typekop en datum toevoegen
 
 U kunt datum- en tekstvelden toevoegen aan een aangepast formulier.
 
-+++ **Uitbreiden om beschrijvingen van beschikbare velden weer te geven**
++++ **breid uit om beschrijvingen van beschikbare gebieden** te zien
 
-* **Typeahead**: Hiermee kunnen gebruikers de naam typen van een object dat in Workfront bestaat. Er wordt een lijst met suggesties weergegeven wanneer de gebruiker begint te typen. Dit veldtype ondersteunt de volgende objecten:
+* **Typeahead**: Staat gebruikers toe om de naam van een voorwerp te typen dat in Workfront bestaat. Er wordt een lijst met suggesties weergegeven wanneer de gebruiker begint te typen. Dit veldtype ondersteunt de volgende objecten:
    * Gebruiker
    * Groep
    * Functie
@@ -414,7 +414,7 @@ U kunt datum- en tekstvelden toevoegen aan een aangepast formulier.
    * Team
    * Sjabloon
    * Bedrijf
-* **Datumveld**: Hiermee geeft u een kalender weer waarin gebruikers een datum en tijd kunnen selecteren.
+* **het Gebied van de Datum**: Toont een kalender waar de gebruikers een datum en een tijd kunnen selecteren.
 
 +++
 
@@ -438,7 +438,7 @@ U voegt als volgt velden voor typekop en datum toe:
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Datumveld</li>
@@ -447,12 +447,12 @@ U voegt als volgt velden voor typekop en datum toe:
      <tr> 
       <td role="rowheader">Naam</td> 
       <td> <p>(Vereist) Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-      <p><b>BELANGRIJK</b>:   
+      <p><b> BELANGRIJK </b>:   
       <ul> 
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
       <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#Add" class="MCXref xref">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
+      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#Add" class="MCXref xref"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
          <td><ul>
     <li>Typeahead</li>
     <li>Datumveld</li>
@@ -477,7 +477,7 @@ U voegt als volgt velden voor typekop en datum toe:
      </tr> 
      <tr> 
       <td role="rowheader">Type object waarnaar wordt verwezen</td> 
-      <td> <p>Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b>OPMERKING</b>:   
+      <td> <p>Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b> NOTA </b>:   
         <ul> 
          <li>Als uw Workfront-beheerder de naam voor Portfolio's, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor Workfront voor het object weergegeven in deze vervolgkeuzelijst en niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
          <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, Functie, Portfolio, Programma, Project en Sjabloon.</li> 
@@ -493,8 +493,8 @@ U voegt als volgt velden voor typekop en datum toe:
         <li>Ze behoren tot een of meer groepen die u opgeeft</li> 
         <li>Ze zijn gekoppeld aan een rol of functie die u opgeeft</li> 
         <li>Zij behoren tot dezelfde groep als de persoon die het veld gebruikt</li> 
-       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Zie voor informatie over het maken van een filter in de tekstmodus <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Een filter bewerken in de tekstmodus</a>.</p>
-       <p><b>OPMERKING</b>:
+       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Voor informatie over het creëren van een filter gebruikend de Wijze van de Tekst, zie <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md"> een filter uitgeven gebruikend tekstwijze </a>.</p>
+       <p><b> NOTA </b>:
        <ul> 
         <li>Als u een bestaand aangepast formulier bewerkt en u voegt een filter toe aan een Typeahead-veld, worden er geen objecten (buiten het bereik van het filter) verwijderd die gebruikers al met het veld hebben toegevoegd.</li> 
         <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een Typeahead-veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
@@ -522,19 +522,19 @@ U voegt als volgt velden voor typekop en datum toe:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![kopieerpictogram](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ### Externe opzoekvelden toevoegen
 
 Een extern opzoekveld roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren. Het externe opzoekveld is ook beschikbaar in lijsten en rapporten.
 
-Zie voor voorbeelden van het gebruik van het veld External Lookup om dezelfde instantie van Workfront of een openbare API aan te roepen [Voorbeelden van het veld Externe opzoeken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Voor voorbeelden om het Externe gebied van de Opzoekopdracht te gebruiken om de zelfde instantie van Workfront of openbare API te roepen, zie [ Voorbeelden van het Externe gebied van de Opzoekopdracht in een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -544,7 +544,7 @@ Zie voor voorbeelden van het gebruik van het veld External Lookup om dezelfde in
 
 Een externe zoekopdracht toevoegen:
 
-1. Op de linkerkant van het scherm, vind **Externe zoekopdracht** en sleep het naar een sectie op het canvas.
+1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
 1. Configureer rechts in het scherm de opties voor het aangepaste veld:
 
    <table style="table-layout:auto"> 
@@ -553,17 +553,17 @@ Een externe zoekopdracht toevoegen:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
       <td> <p>(Vereist) Met deze naam geeft het systeem het aangepaste veld aan.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-      <p><b>BELANGRIJK</b>:   
+      <p><b> BELANGRIJK </b>:   
       <ul> 
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
       <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#Add" class="MCXref xref">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
+      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#Add" class="MCXref xref"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
      </tr> 
       <td role="rowheader">Instructies</td> 
       <td> <p>Typ eventuele aanvullende informatie over het aangepaste veld. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.</p> </td> 
@@ -581,31 +581,36 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">Basis-API-URL</td> 
       <td><p>Typ of plak de URL voor de API.</p><p>De API-URL moet een JSON-inhoud retourneren van de opties die u wilt weergeven in het vervolgkeuzemenu. U kunt het veld JSON-pad gebruiken om de specifieke waarden van de geretourneerde JSON-waarden te selecteren die vervolgkeuzemogelijkheden moeten zijn.</p><p>Wanneer u de API-URL invoert, kunt u optioneel de volgende waarden in de URL doorgeven:</p>
       <ul>
-      <li>$$HOST - Dit staat voor de huidige Workfront-host en kan worden gebruikt om API-aanroepen naar de Workfront API te maken. Wanneer dit jokerteken wordt gebruikt, wordt de authentificatie behandeld en de gebruikers te hoeven niet om authentificatiekopballen te verzenden. (Gebruikers kunnen bijvoorbeeld taken zoeken met de basis-URL <code>$$HOST/attask/api/task/search</code> en het zal het zoeken taken en het selecteren van waarden van een teruggekeerde lijst van taken toestaan.)</li>
+      <li>$$HOST - Dit staat voor de huidige Workfront-host en kan worden gebruikt om API-aanroepen naar de Workfront API te maken. Wanneer dit jokerteken wordt gebruikt, wordt de authentificatie behandeld en de gebruikers te hoeven niet om authentificatiekopballen te verzenden. (Gebruikers kunnen bijvoorbeeld taken zoeken met de basis-URL <code>$$HOST/attask/api/task/search</code> , waarna ze zoektaken kunnen uitvoeren en waarden kunnen selecteren in een geretourneerde lijst met taken.)</li>
       <li><p>$$QUERY - Dit vertegenwoordigt de onderzoekstekst die de eindgebruiker op het gebied typt en u toestaat om vraag het filtreren voor uw eind uit te voeren - gebruikers. (De gebruiker zoekt naar de waarde in de vervolgkeuzelijst.)</p>
-      <p>Als de API u van verwijzingen voorziet het toestaat, kunt u bepalingen in uw onderzoeksvraag ook omvatten om te identificeren hoe het onderzoek zou moeten werken. U kunt bijvoorbeeld het volgende gebruiken als basis-API-URL om mensen toe te staan te zoeken naar Workfront-projecten die specifieke tekst bevatten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Meer informatie over de zoekopties van Workfront vindt u in <a href="/help/quicksilver/wf-api/general/api-basics.md">API-basisbeginselen</a>.</p>
-      <p><strong>OPMERKING:</strong> Als u $$QUERY niet gebruikt en de gebruiker tekst in het zoekvak typt, verkleint dit de keuzen die u al hebt. Als u echter $$QUERY gebruikt en de gebruiker iets typt, wordt een nieuwe netwerkaanroep naar uw API uitgevoerd. Daarom als u meer dan 2000 waarden in uw API hebt, en API steunt het vragen, kunt u $$QUERY gebruiken om niet alleen van de bestaande waarden 2000, maar van originele API met de vernauwde benedenopties te zoeken.</p></li>
+      <p>Als de API u van verwijzingen voorziet het toestaat, kunt u bepalingen in uw onderzoeksvraag ook omvatten om te identificeren hoe het onderzoek zou moeten werken. U kunt bijvoorbeeld het volgende gebruiken als basis-API-URL om mensen toe te staan te zoeken naar Workfront-projecten die specifieke tekst bevatten: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code> .</p><p>Leer meer over de het onderzoeksbepalingen van Workfront in <a href="/help/quicksilver/wf-api/general/api-basics.md"> API Grondbeginselen </a>.</p>
+      <p><strong> NOTA:</strong> als u $$QUERY niet gebruikt en de gebruikerstypes tekst in het onderzoeksvakje, zal het onderaan de keuzen versmallen u reeds hebt. Als u echter $$QUERY gebruikt en de gebruiker iets typt, wordt een nieuwe netwerkaanroep naar uw API uitgevoerd. Daarom als u meer dan 2000 waarden in uw API hebt, en API steunt het vragen, kunt u $$QUERY gebruiken om niet alleen van de bestaande waarden 2000, maar van originele API met de vernauwde benedenopties te zoeken.</p></li>
       <li><p>{fieldName} - Waar fieldName een aangepast of native veld in Workfront is. Op deze manier kunt u trapsgewijze dropdown-optiefilters implementeren wanneer u de waarde van een al geselecteerd veld doorgeeft aan het veld Externe opzoeken om opties omlaag te filteren. (Het veld Regio bestaat bijvoorbeeld al op het formulier en u versmalt een lijst met landen van de API naar landen die zich in een specifieke regio bevinden.)</p>
-      <p>Voor een extern opzoekveld dat afhankelijk is van andere velden (met de opdracht {fieldName} (syntaxis), zijn de opties die door de API worden geretourneerd beperkt tot de opties die overeenkomen met tekenreeksen of waarden die in de andere velden zijn ingevoerd. (Deze functionaliteit wordt niet ondersteund in lijsten en rapporten.)</p></li>
-      <li>{referenceObject}.{fieldName} - Waar het veld deel uitmaakt van een object. Deze syntaxis is vergelijkbaar met aangepaste expressies. (bijvoorbeeld portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>OPMERKING:</strong> Controleer de documentatie voor de API u met voor de specifieke vragen werkt u kunt bepalen.</p></td>
+      <p>Voor een extern opzoekveld dat afhankelijk is van andere velden (met de syntaxis {fieldName} ), zijn de opties die door de API worden geretourneerd, beperkt tot de opties die overeenkomen met tekenreeksen of waarden die in de andere velden zijn ingevoerd. (Deze functionaliteit wordt niet ondersteund in lijsten en rapporten.)</p></li>
+      <li>{referenceObject}.{fieldName} - Waar het veld deel uitmaakt van een object. Deze syntaxis is vergelijkbaar met aangepaste expressies. (Bijvoorbeeld, portfolioID= {project}.{portfolioID})</li></ul>
+      <p><strong> NOTA:</strong> herzie de documentatie voor API u met voor de specifieke vragen werkt u kunt bepalen.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP-methode</td> 
-      <td>Selecteren <strong>Get</strong>, <strong>Post</strong>, of <strong>Put</strong> voor de methode.</td> 
+      <td>Selecteer <strong> krijgen </strong>, <strong> Post </strong>, of <strong> Gezet </strong> voor de methode.</td> 
      </tr>
      <tr> 
       <td role="rowheader">JSON-pad</td>
-      <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzemogelijkheden.</p><p>Als uw API-URL bijvoorbeeld JSON retourneert in deze indeling:</br>
+      <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzemogelijkheden.</p><p>Bijvoorbeeld, als uw API URL JSON in dit formaat terugkeert:</br>
       <pre>
-      { data: { name: "USA"}, { name: "Canada"} }
+      {
+       data: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
       </pre>
       </p>
-      <p>vervolgens kunt u "$.data[*].name" gebruiken om de VS en Canada te selecteren als vervolgkeuzemogelijkheden.</p> <p>Raadpleeg voor meer informatie over het JSON-pad en om ervoor te zorgen dat u het juiste JSON-pad schrijft <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>vervolgens kunt u "$.data[*].name" gebruiken om de VS en Canada te selecteren als vervolgkeuzemogelijkheden.</p> <p>Voor meer informatie over de Weg JSON en het verzekeren u de correcte Weg JSON schrijft, verwijs naar <a href="https://jsonpath.com/"> https://jsonpath.com/ </a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Kopteksten</td>
-      <td><p>Klikken <strong>Koptekst toevoegen</strong>en typ of plak het sleutelwaardepaar dat is vereist voor verificatie met de API.</p><p><strong>OPMERKING:</strong> De gebieden van de Kopbal zijn geen veilige plaats om geloofsbrieven op te slaan, en u zou moeten zorgvuldig zijn wat u ingaat en bewaart.</p></td>
+      <td><p>Klik <strong> toevoegen Kopbal </strong>, en type of kleef het zeer belangrijk-waardepaar dat voor authentificatie met API wordt vereist.</p><p><strong> NOTA:</strong> de gebieden van de Kopbal zijn geen veilige plaats om geloofsbrieven op te slaan, en u zou voorzichtig moeten zijn van wat u ingaat en bewaart.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Meerdere selecties opheffen</td>
@@ -619,11 +624,11 @@ Een externe zoekopdracht toevoegen:
     </tbody>
    </table>
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 >[!NOTE]
 >
@@ -649,11 +654,11 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Uitbreiden om beschrijvingen van beschikbare velden weer te geven**
++++ **breid uit om beschrijvingen van beschikbare gebieden** te zien
 
-* **Afbeelding**: Hiermee kunnen gebruikers afbeeldingsbestanden toevoegen.
-* **PDF**: Hiermee kunnen gebruikers PDF toevoegen
-* **Video&#39;s**: Hiermee kunnen gebruikers videobestanden toevoegen.
+* **Beeld**: Staat gebruikers toe om beelddossiers toe te voegen.
+* **PDF**: Staat gebruikers toe om PDF toe te voegen
+* **Video&#39;s**: Staat gebruikers toe om videodossiers toe te voegen.
 
 +++
 
@@ -675,11 +680,11 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd.</p> <p>Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> <p><b>BELANGRIJK</b>: Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem de widget niet meer waar er nu naar kan worden verwezen in andere gebieden van Workfront. </p> <p>Elke widgetnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. </p> </td> 
+      <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd.</p> <p>Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> <p><b> BELANGRIJK </b>: Alhoewel het mogelijk is dit te doen, adviseren wij dat u deze naam niet verandert nadat u of andere gebruikers beginnen de douanevorm in Workfront te gebruiken. Als u dat doet, herkent het systeem de widget niet meer waar er nu naar kan worden verwezen in andere gebieden van Workfront. </p> <p>Elke widgetnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -689,7 +694,7 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
       <li> <p>YouTube- of Vimeo-koppeling</p> </li> 
       <li> <p>Video-koppeling Google Drive</p> </li> 
       <li> <p>Koppeling maken naar video met MP4- en MOV-extensie</p> </li> 
-      <li> <p>Koppeling maken naar video die al is geüpload naar het gebied Documenten in uw Workfront-instantie. Zie voor instructies <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Een videowidget toevoegen aan een aangepast formulier vanuit het gebied Documenten</a> in dit artikel.</p> </li> 
+      <li> <p>Koppeling maken naar video die al is geüpload naar het gebied Documenten in uw Workfront-instantie. Voor instructies, zie <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref"> een video widget aan een douanevorm van het gebied van Documenten </a> in dit artikel toevoegen.</p> </li> 
       </ul> 
        </td> 
      </tr> 
@@ -710,13 +715,13 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![kopieerpictogram](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 #### Een videowidget toevoegen aan een aangepast formulier vanuit het gebied Documenten{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
@@ -724,21 +729,21 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
 >
 >Wanneer u op deze manier een video toevoegt aan een aangepast formulier, gelden alleen de machtigingen die voor het aangepaste formulier zijn ingesteld voor de video wanneer gebruikers het formulier openen op een object, niet de machtigingen die voor de video in het gebied Documenten zijn ingesteld.
 
-1. Ga naar de video in het gebied Documenten en genereer een proefdruk, zoals beschreven in [Een interactieve proefdruk maken voor een website of andere webinhoud](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Ga naar de video in het gebied van Documenten en produceer een proef voor het, zoals die in [ wordt beschreven creeer een interactieve proef voor een website of andere Webinhoud ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Open de proefdruk.
-1. Klik met de rechtermuisknop op een willekeurige locatie in de video en selecteer **Videoadres kopiëren**.
-1. Plak het gekopieerde adres in het aangepaste formulier waar u de videowidget toevoegt **URL** doos.
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Klik overal op de video met de rechtermuisknop aan, dan selecteer **VideoAdres van het Exemplaar**.
+1. In de douanevorm waar u video widget toevoegt, kleef het gekopieerde adres in de **URL** doos.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ### Native Workfront-velden toevoegen
 
 U kunt eigen Workfront-velden toevoegen aan uw aangepaste formulieren. Wanneer het aangepaste formulier aan een object is gekoppeld, wordt het veld gevuld met de objectgegevens. Het veld Beschrijving op een aangepast formulier dat aan een project is gekoppeld, wordt bijvoorbeeld toegevoegd aan de projectbeschrijving. (Het veld mag &quot;N.v.t.&quot; weergeven als er geen gegevens beschikbaar zijn.)
 
-+++ **Uitvouwen om de lijst met ondersteunde native velden weer te geven**
++++ **breid uit om de lijst van gesteunde inheemse gebieden** te zien
 
 Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Workfront-objecten in een aangepast formulier.
 
@@ -785,7 +790,7 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
 
 +++
 
-1. Op de linkerkant van het scherm, vind **Oorspronkelijk veld** en sleep het naar een sectie op het canvas.
+1. Op de linkerkant van het scherm, vind **Inheems gebied** en sleep het aan een sectie op het canvas.
 1. Configureer rechts in het scherm de opties voor het aangepaste veld:
 
    <table style="table-layout:auto"> 
@@ -794,12 +799,12 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
       <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan.</p><p> Wanneer u het veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
-      <p><b>BELANGRIJK</b>:
+      <p><b> BELANGRIJK </b>:
       <ul> 
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem niet langer het veld waar er nu naar kan worden verwezen in andere gebieden van Workfront.</p> </li>
       <li> <p>Elke veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt.</p> </li>
@@ -820,11 +825,11 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
     </tbody> 
    </table>
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ### Adobe XD-bestanden toevoegen
 
@@ -835,7 +840,7 @@ U kunt een Adobe XD-prototype rechtstreeks aan een aangepast formulier toevoegen
 
 Een Adobe XD-bestand toevoegen:
 
-1. Op de linkerkant van het scherm, vind **Adobe XD** en sleep het naar een sectie op het canvas.
+1. Op de linkerkant van het scherm, vind **Adobe XD** en sleep het aan een sectie op het canvas.
 1. Typ of bewerk een van de volgende eigenschappen voor de widget:
 
    <table style="table-layout:auto"> 
@@ -844,12 +849,12 @@ Een Adobe XD-bestand toevoegen:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
       <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
-    <p><b>BELANGRIJK</b>:   
+    <p><b> BELANGRIJK </b>:   
       <ul> 
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
@@ -879,14 +884,14 @@ Een Adobe XD-bestand toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![kopieerpictogram](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
-1. Als u de wijzigingen wilt opslaan, klikt u op **Toepassen** en ga naar een andere sectie om door te gaan met het samenstellen van uw formulier.
+1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
    of
 
-   Klikken **Opslaan en sluiten**.
+   Klik **sparen en Sluiten**.
 
 ## Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 
-Voor informatie over het organiseren en bekijken van een voorbeeld van uw formulier raadpleegt u [Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor informatie over hoe te om een voorproef van uw vorm te organiseren en te zien, zie [ een vorm met de vormontwerper organiseren en voorproef ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
