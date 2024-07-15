@@ -2,25 +2,25 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Weergeven en beheren [!DNL Adobe Workfront] objectdetails van G Suite
-description: U kunt de details van een tijdelijk item weergeven en beheren zonder G Suite te verlaten. U kunt bijvoorbeeld de beschrijving van een taak lezen, het bovenliggende object bekijken, de status ervan wijzigen en markeren als voltooid, allemaal binnen [!DNL Adobe Workfront] voor G Suite.
+title: Bekijk en beheer  [!DNL Adobe Workfront]  objecten details van Google Workspace
+description: U kunt de details van een tijdelijk object weergeven en beheren zonder Google Workspace te verlaten. Bijvoorbeeld, kunt u de beschrijving van een taak lezen, zijn oudervoorwerp bekijken, zijn status veranderen, en het merken als volledig, allen binnen  [!DNL Adobe Workfront]  voor Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
-# Weergeven en beheren [!DNL Adobe Workfront] objectdetails van [!DNL G Suite]
+# [!DNL Adobe Workfront] -objectdetails weergeven en beheren vanuit [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
 
-U kunt de details van een het werkpunt bekijken en beheren zonder te verlaten [!DNL G Suite]. U kunt bijvoorbeeld de beschrijving van een taak lezen, het bovenliggende object bekijken, de status ervan wijzigen en markeren als voltooid, allemaal binnen [!DNL Adobe Workfront for G Suite].
+U kunt de details van een tijdelijk item weergeven en beheren zonder [!DNL Google Workspace] te verlaten. U kunt bijvoorbeeld de beschrijving van een taak lezen, het bovenliggende object bekijken, de status wijzigen en markeren als voltooid, allemaal binnen [!DNL Adobe Workfront for Google Workspace] .
 
 ## Toegangsvereisten
 
@@ -41,45 +41,45 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL G Suite]moet u
+Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL Google Workspace] , moet u
 
-* Installeren [!DNL Workfront for G suite]\
-   Zie voor instructies [Installeren [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installeren [!DNL Workfront for Google Workspace]\
+   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Details van het werkitem weergeven en beheren in [!DNL G Suite]
+## Details van het werkitem weergeven en beheren in [!DNL Google Workspace]
 
-1. Als de [!UICONTROL Workfront for G Suite] wordt niet weergegeven, klikt u op de knop [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de [!DNL G Suite] de zijbalk met invoegtoepassingen bevindt zich uiterst rechts op de pagina.
-1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL G Suite], zoals beschreven in [Toegang [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL Google Workspace], zoals die in [ wordt beschreven Toegang  [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
-   Wanneer u een taak of kwestie selecteert, **[!UICONTROL Details]** is geopend. Het gebied boven de **[!UICONTROL Details]** wordt de naam van het bovenliggende object, de naam van de taak of uitgave weergegeven, en [!UICONTROL Due date] (als het een taak is) of [!UICONTROL Priority date] (als het een probleem is).
+   Wanneer u een taak of uitgave selecteert, is het tabblad **[!UICONTROL Details]** geopend. In het gebied boven het tabblad **[!UICONTROL Details]** worden de naam van het bovenliggende object, de naam van de taak of uitgave en [!UICONTROL Due date] (als het een taak is) of [!UICONTROL Priority date] (als het een uitgave is) weergegeven.
 
 
-   U kunt verschillende taken op dit tabblad uitvoeren zonder dat u [!DNL G Suite], met inbegrip van:
+   U kunt verschillende taken uitvoeren op dit tabblad zonder [!DNL Google Workspace] te verlaten, zoals:
 
-   * De objecten weergeven **[!UICONTROL Description]** en andere details, zoals de gebruikers die aan het object zijn toegewezen, **[!UICONTROL Priority]**, de aanvrager **[!UICONTROL Planned completion date]** en eventuele aangepaste velden en formulieren die aan het object zijn gekoppeld.
+   * Geef de objectgegevens **[!UICONTROL Description]** en andere details weer, zoals de gebruikers die aan het object zijn toegewezen, de **[!UICONTROL Priority]** , de aanvrager, de **[!UICONTROL Planned completion date]** en eventuele aangepaste velden en formulieren die aan het object zijn gekoppeld.
 
      Aangepaste formulieren geven alleen velden weer waarin informatie is toegevoegd.
 
-   * Klik op de knop **[!UICONTROL Parent project]** gebied voor het weergeven van de details van het bovenliggende object.
+   * Klik op het gebied **[!UICONTROL Parent project]** om de details van het bovenliggende object weer te geven.
 
      >[!TIP]
      >
      >Dit kan handig zijn wanneer u taken en problemen met dezelfde naam hebt en deze moet onderscheiden.
 
-   * Accepteer het aan u toegewezen werk door op **[!UICONTROL Work on it]**.
-   * Verschillende opties bewerken, zoals **[!UICONTROL Done]** de **[!UICONTROL Status]** en de **[!UICONTROL Percent complete]**.
+   * Accepteer het aan u toegewezen werk door op **[!UICONTROL Work on it]** te klikken.
+   * Bewerk verschillende opties, zoals de optie **[!UICONTROL Done]** , de optie **[!UICONTROL Status]** en de optie **[!UICONTROL Percent complete]** .
 
-     Onder **[!UICONTROL Percent complete]**, typt u nummers en (optioneel) het procentteken % om de voortgang van een object aan te geven.
+     Typ onder **[!UICONTROL Percent complete]** getallen en (optioneel) het procentteken % om de voortgang van een item aan te geven.
    * Informatie weergeven over een goedkeuringsaanvraag, zoals de eigenaar, de grootte en eventuele bijlagen.
-   * **[!UICONTROL Approve]** of **[!UICONTROL Reject]** goedkeuringsverzoeken en -documenten.
+   * **[!UICONTROL Approve]** of **[!UICONTROL Reject]** goedkeuringsaanvragen en -documenten.
 
    * **[!UICONTROL Grant]** of **[!UICONTROL Ignore]** toegangsverzoeken.
 
-1. (Optioneel) Klik op **[!UICONTROL View in [!DNL Workfront]]** om naar het huidige werkitem te gaan in [!DNL Workfront].
+1. (Optioneel) Klik op **[!UICONTROL View in [!DNL Workfront]]** om naar het huidige tijdelijke item in [!DNL Workfront] te gaan.
 
-* Voor informatie over het gebruik van de [!UICONTROL Updates] tab in [!DNL Workfront for G Suite], zie [Een update [!DNL Adobe Workfront] object van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
-* Voor informatie over het gebruik van de [!UICONTROL Documents] tab in [!DNL Workfront for G Suite], zie [Documenten weergeven en beheren vanuit [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+* Voor informatie over het gebruiken van het [!UICONTROL Updates] lusje in [!DNL Workfront for Google Workspace], zie [ Update een  [!DNL Adobe Workfront]  voorwerp van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* Voor informatie over het gebruiken van het [!UICONTROL Documents] lusje in [!DNL Workfront for Google Workspace], zie [ Mening en beheer documenten van [!DNL G Suite] ](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).

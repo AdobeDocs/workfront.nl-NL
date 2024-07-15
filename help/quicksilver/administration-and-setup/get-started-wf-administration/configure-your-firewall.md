@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Als u uw lijst van gewenste personen wilt configureren als uw organisatie is aangemeld bij de Adobe Admin Console, raadpleegt u [Domeinen die zijn toegestaan voor Adobe-apps en -services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Om uw lijst van gewenste personen te vormen als uw organisatie aan Adobe Admin Console is bezet, zie [ Domeinen worden toegestaan voor Adobe Apps en de Diensten ](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verk
 * Documentwebkoppelingen gebruiken bij het configureren van aangepaste documentintegratie
 * Workfront Event-abonnementen gebruiken
 
-  Zie voor meer informatie [API voor abonnementen voor gebeurtenissen](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Voor meer informatie, zie [ Abonnement API van de Gebeurtenis ](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 U moet ook bepaalde poorten openen om e-mailberichten te coderen wanneer ze worden geleverd.
 
@@ -50,8 +50,8 @@ U moet ook bepaalde poorten openen om e-mailberichten te coderen wanneer ze word
 
 Als uw organisatie het plan van de Onderneming heeft, kunt u twee lijsten van gewenste personen van Workfront ook vormen:
 
-* **E-maillijst van gewenste personen**: Hiermee kunt u bepalen waar gebruikers gegevens kunnen e-mailen die in Workfront zijn opgeslagen. Zie voor meer informatie [Uw e-maillijst van gewenste personen configureren](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP LIJST VAN GEWENSTE PERSONEN**: Beperkt de toegang tot Workfront tot 45 IP adressen of IP adreswaaiers die u specificeert, die een extra laag van veiligheid voor de toepassing van Workfront verstrekken. Zie voor meer informatie [Toegang tot Adobe Workfront beperken tot IP-adres](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **lijst van gewenste personen E-mail**: Laat u controleren waar de gebruikers gegevens kunnen e-mailen die in Workfront worden opgeslagen. Voor meer informatie, zie [ uw e-maillijst van gewenste personen ](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
+* **IP lijst van gewenste personen**: Beperkt toegang tot Workfront tot 45 IP adressen of IP adreswaaiers die u specificeert, die een extra laag van veiligheid voor de toepassing van Workfront verstrekken. Voor meer informatie, zie [ toegang tot Adobe Workfront door IP adres ](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) beperken.
 
 ## Zoek uw Workfront-cluster
 
@@ -59,13 +59,13 @@ De IP adressen die u aan uw lijst van gewenste personen op uw firewall moet toev
 
 De cluster van uw organisatie zoeken:
 
-1. Als Workfront-beheerder klikt u op de knop **Hoofdmenu** pictogram ![Hoofdmenu](assets/main-menu-icon.png)en klik vervolgens op **Instellen**.
-1. Klik in de linkernavigatie op **Systeem** selecteert u vervolgens **Klantgegevens**.
-1. Zoek de **Clusterinstelling** in de rechterbovenhoek van de pagina. De cluster van uw organisatie wordt hier vermeld.
+1. Als beheerder van Workfront, klik het **pictogram 1} van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Opstelling **.**
+1. In de linkernavigatie, klik **Systeem**, dan uitgezochte **Info van de Klant**.
+1. Bepaal de plaats van het **gebied van de Opstelling van de Cluster** bij de hoger-juiste hoek van de pagina. De cluster van uw organisatie wordt hier vermeld.
 
    CL01 verwijst naar Cluster 1, CL02 is Cluster 2, enzovoort.
 
-Zie de sectie voor meer informatie [Het cluster- en Workfront-plan van uw organisatie weergeven](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) in het artikel [Overzicht van firewalls](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Voor meer informatie, zie de sectie [ de cluster van uw organisatie en het plan van Workfront van ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) in het overzicht van de artikel [ Firewall ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP adressen om aan de lijst van gewenste personen toe te voegen
 
@@ -73,18 +73,18 @@ Zie de sectie voor meer informatie [Het cluster- en Workfront-plan van uw organi
 >
 >Sommige integratie van Workfront werkt niet wanneer de lijst van gewenste personen wordt toegelaten omdat zij niet met een statisch IP adres kunnen worden gevormd. Als u de volgende integratie wilt gebruiken, moet u de lijst van gewenste personen uitschakelen.
 >
->* Workfront for G Suite
+>* Workfront voor Google Workspace
 >* Workfront for Outlook
 >* Workfront voor Salesforce
 
-* [IP-adressen voor clusters 1, 2, 3, 5, 7, 8 en 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [IP adressen om voor Cluster 4 toe te staan](#ip-addresses-to-allow-for-cluster-4)
-* [IP adressen om voor Cluster 6 toe te staan](#ip-addresses-to-allow-for-cluster-6)
-* [IP adressen om voor een Aandrijving van de Test toe te staan](#IP%20Addre2)
-* [IP adressen toestaan wanneer het uitvoeren van gebeurtenisabonnementen](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [IP adressen om verbeterde authentificatie toe te staan](#ip-addresses-to-allow-for-enhanced-authentication)
-* [IP-adressen die moeten worden toegevoegd voor toegang tot Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [IP adressen om voor het gebruiken van Workfront voor Jira toe te voegen](#ip-addresses-to-add-for-using-workfront-for-jira)
+* [ IP adressen om voor Clusters 1, 2, 3, 5, 7, 8 en 9 toe te staan ](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
+* [ IP adressen om voor Cluster 4 ](#ip-addresses-to-allow-for-cluster-4) toe te staan
+* [ IP adressen om voor Cluster 6 ](#ip-addresses-to-allow-for-cluster-6) toe te staan
+* [ IP adressen om voor een Aandrijving van de Test ](#IP%20Addre2) toe te staan
+* [ IP adressen om toe te staan wanneer het uitvoeren van gebeurtenisabonnementen ](#ip-addresses-to-allow-when-implementing-event-subscriptions)
+* [ IP adressen om voor verbeterde authentificatie ](#ip-addresses-to-allow-for-enhanced-authentication) toe te staan
+* [ IP adressen om voor de toegang tot van de Fusie van Workfront ](#ip-addresses-to-add-for-accessing-workfront-fusion) toe te voegen
+* [ IP adressen om voor het gebruiken van Workfront voor Jira toe te voegen ](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URL&#39;s die moeten worden toegevoegd voor alle clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### IP-adressen voor clusters 1, 2, 3, 5, 7, 8 en 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -126,7 +126,7 @@ Als uw milieu van de Productie op Cluster 1, 2, 3, 5, of 7 is moet u de volgende
      <li>52.14.70.114</li> 
      <li>52 15 230 220</li> 
      <li>54 71 252,65</li> 
-    </ul> <p>Voor informatie over de volgende IP adressen, zie <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nieuwe IP-adressen voor Adobe Workfront-e-mailberichten met de release 21.1</a></p> 
+    </ul> <p>Voor informatie over de volgende IP adressen, zie <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref"> Nieuwe IP adressen voor Adobe Workfront e-mail met 21.1 versie </a></p> 
     <ul> 
      <li>23 251 237 107</li> 
      <li>23 251 237 108</li> 
@@ -163,7 +163,7 @@ Als uw Productieomgeving zich op Cluster 4 bevindt, voegt u de volgende IP-adres
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-Voor informatie over de volgende IP adressen, zie [Nieuwe IP-adressen voor Adobe Workfront-e-mailberichten met de release 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+Voor informatie over de volgende IP adressen, zie [ Nieuwe IP adressen voor Adobe Workfront e-mail met 21.1 versie ](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23 251 239,98
 * 23 251 239,99
@@ -468,10 +468,10 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
 >
 >Het uitgaande netwerk filtreren is ongewoon. Controleer met uw netwerkbeheerder om te zien of moet u uw lijst van gewenste personen bijwerken om voor het aan te passen.
 
-* `<your domain>`.my.workfront.com
-* `<your domain>`.preview.workfront.com
-* `<your domain>`.sb01.workfront.com
-* `<your domain>`.sb02.workfront.com
+* `<your domain>` .my.workfront.com
+* `<your domain>` .preview.workfront.com
+* `<your domain>` .sb01.workfront.com
+* `<your domain>` .sb02.workfront.com
 * events.split.io
 * sdk.split.io
 * auth.split.io
@@ -509,9 +509,9 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
    <td> 
     <ul> 
      <li>*.workfront.com - Vereist om proefdrukken in Workfront te bekijken</li> 
-     <li>*.proofhq.com - Vereist om proefdrukken te bekijken in Workfront Proof</li> 
+     <li>*.proofhq.com - Vereist om proefdrukken in Workfront Proof te bekijken</li> 
      <li>*.proofhq.eu - Vereist om proefdrukken in Workfront Proof te bekijken</li> 
-    </ul> <p><b>OPMERKING</b>:  <p>Wij steunen het toevoegen van IP adressen aan uw lijst van gewenste personen voor Workfront Proof niet. Ze waren dynamisch nadat Workfront naar AWS was verhuisd. In plaats daarvan raden we u aan alleen Workfront Proof-domeinen toe te staan.</p> <p>Als er een probleem is met het toevoegen van deze domeinen aan uw lijst van gewenste personen en u hebt in plaats daarvan een IP-adres nodig, neemt u contact op met de klantenondersteuning van Workfront.</p> </p> </td> 
+    </ul> <p><b> NOTA </b>:  <p>Wij steunen het toevoegen van IP adressen aan uw lijst van gewenste personen voor Workfront Proof niet. Ze waren dynamisch nadat Workfront naar AWS was verhuisd. In plaats daarvan raden we u aan alleen Workfront Proof-domeinen toe te staan.</p> <p>Als er een probleem is met het toevoegen van deze domeinen aan uw lijst van gewenste personen en u hebt in plaats daarvan een IP-adres nodig, neemt u contact op met de klantenondersteuning van Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -520,7 +520,7 @@ Als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg de volgende do
 
 U moet de volgende IP adressen aan uw lijst van gewenste personen toevoegen om diverse functies te gebruiken.
 
-* [Voor callbacks en webcapture-proefdrukken](#for-callbacks-and-webcapture-proofs)
+* [ voor callbacks en Webcapture proefdrukken ](#for-callbacks-and-webcapture-proofs)
 * [Voor uitgaande e-mail](#for-outgoing-email)
 
 ### Voor callbacks en webcapture-proefdrukken {#for-callbacks-and-webcapture-proofs}
@@ -573,7 +573,7 @@ U moet de volgende IP adressen aan uw lijst van gewenste personen toevoegen om d
      <li>52 30 133 50</li> 
      <li>54 220 93 204</li> 
      <li>34 254 76 122</li> 
-    </ul> <p><b>OPMERKING</b>: DNS-serveropties worden niet meer ondersteund.</p> </td> 
+    </ul> <p><b> NOTA </b>: DNS de serveropties worden niet meer gesteund.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -607,7 +607,7 @@ U moet de volgende IP adressen aan uw lijst van gewenste personen toevoegen om d
  </tbody> 
 </table>
 
-## Poorten om te openen voor de beste Workfront-proefprestaties
+## Poorten om te openen voor de beste Workfront Proof-prestaties
 
 Open de volgende poorten als u problemen ondervindt met het laden van proefdrukken of als u niet werkt in Workfront Proof:
 

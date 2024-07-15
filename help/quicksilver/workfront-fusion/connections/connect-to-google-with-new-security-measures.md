@@ -3,19 +3,19 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
-title: Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] met bijgewerkte veiligheidsmaatregelen
-description: Google heeft onlangs beperkingen geïntroduceerd op de manier waarop gebruikers hun API kunnen gebruiken. In dit artikel wordt beschreven hoe u verbinding kunt maken [!DNL Adobe Workfront Fusion] naar Google, met verantwoording voor deze bijgewerkte beveiligingsmaatregelen.
+title: Verbind  [!DNL Adobe Workfront Fusion]  met  [!DNL Google Services]  met bijgewerkte veiligheidsmaatregelen
+description: Google heeft onlangs beperkingen geïntroduceerd op de manier waarop gebruikers hun API kunnen gebruiken. Dit artikel beschrijft hoe te om  [!DNL Adobe Workfront Fusion]  met Google te verbinden, rekenend voor deze maatregelen van de updateveiligheid.
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
-# Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] met bijgewerkte veiligheidsmaatregelen
+# Verbind [!DNL Adobe Workfront Fusion] met [!DNL Google Services] met bijgewerkte veiligheidsmaatregelen
 
 ## Toegangsvereisten
 
@@ -36,83 +36,83 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!DNL Google Services] beperkingen
 
-[!DNL Google] zijn beperkingen ingevoerd voor de manier waarop gebruikers hun API kunnen gebruiken vanaf 1 juni 2020. Deze beveiligingsmaatregelen beschermen [!DNL Google] gebruikers door lekkage of misbruik van hun persoonsgegevens over [!DNL Google]. De beperkingen houden verband met de [!DNL Gmail] en [!DNL Google Drive] apps. Zie voor meer informatie over deze beperkingen &quot;Aanvullende vereisten voor specifieke API-bereiken&quot; in het gedeelte [[!DNL Google] Gebruikersgegevensbeleid voor API-services](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
+[!DNL Google] introduceerde beperkingen voor hoe gebruikers hun API kunnen gebruiken vanaf 1 juni 2020. Deze beveiligingsmaatregelen beschermen [!DNL Google] -gebruikers tegen lekkage of misbruik van hun persoonlijke gegevens op [!DNL Google] . De beperkingen hebben betrekking op de apps van [!DNL Gmail] en [!DNL Google Drive] . Voor meer informatie over deze beperkingen, zie &quot;Aanvullende Vereisten voor Specifieke API Scopes&quot;in het [[!DNL Google]  API Beleid van de Gegevens van de Gebruiker van de Diensten ](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
 
-Om toegang te krijgen tot beperkt bereik, de verbonden dienst ([!DNL Adobe Workfront Fusion] of elke andere service die via de API toegang wil krijgen tot de gegevens van de gebruiker, moet worden geverifieerd en moet een beoordelingsverklaring hebben om aan te tonen dat de service veilig en transparant is over de manier waarop de gegevens worden gebruikt. [!DNL Workfront Fusion] voldoet aan alle [!DNL Google]de vereisten voor toegang tot beperkte reikwijdte. De meeste verbonden diensten van derden in [!DNL Workfront Fusion] niet over de beoordelingsverklaring beschikken en daarom niet voldoen aan [!DNL Google] voorwaarden. Daarom, [!DNL Workfront Fusion] mogen geen gegevens naar deze services verzenden.
+Om tot beperkt werkingsgebied toegang te hebben, moet de verbonden dienst ([!DNL Adobe Workfront Fusion] of enige andere dienst die tot de gegevens van de gebruiker via API wil toegang hebben) worden geverifieerd en moet een Brief van Beoordeling hebben om te bewijzen dat de dienst veilig en transparant is over hoe zij de gegevens gebruiken. [!DNL Workfront Fusion] voldoet aan alle vereisten van [!DNL Google] voor toegang tot beperkt bereik. De meeste verbonden services van derden in [!DNL Workfront Fusion] hebben echter geen beoordelingsverklaring en voldoen daarom niet aan de voorwaarden van [!DNL Google] . Daarom mag [!DNL Workfront Fusion] geen gegevens naar deze services verzenden.
 
-## Uitzonderingen op [!DNL Google Services] beperkingen
+## Uitzonderingen op [!DNL Google Services] -beperkingen
 
-Er zijn een paar uitzonderingen die het mogelijk maken om gegevens naar een niet-erkende derdedienst te verzenden die niet de Brief van Beoordeling heeft zonder om het even welke nieuwe beperkingen te schenden. Ze verschillen op basis van [!DNL G Suite] met de [!DNL Workfront Fusion] OAuth-client, [!DNL G Suite] met een andere OAuth-client, of [!DNL @gmail.com] en [!DNL @google.mail.com].
+Er zijn een paar uitzonderingen die het mogelijk maken om gegevens naar een niet-erkende derdedienst te verzenden die niet de Brief van Beoordeling heeft zonder om het even welke nieuwe beperkingen te schenden. Ze verschillen op basis van [!DNL Google Workspace] met de [!DNL Workfront Fusion] OAuth client [!DNL Google Workspace] met een andere OAuth client, of [!DNL @gmail.com] en [!DNL @google.mail.com] .
 
-* [[!DNL G-suite] met [!DNL Workfront Fusion] OAuth-client](#g-suite-with-workfront-fusion-oauth-client)
-* [[!DNL G-suite] met een andere OAuth-client](#g-suite-with-another-oauth-client)
-* [[!DNL @gmail.com] en [!DNL @googlemail.com]](#gmailcom-and-googlemailcom)
+* [[!DNL Google Workspace] met  [!DNL Workfront Fusion]  cliënt OAuth](#g-suite-with-workfront-fusion-oauth-client)
+* [[!DNL Google Workspace] met een andere OAuth-client](#g-suite-with-another-oauth-client)
+* [[!DNL @gmail.com] en  [!DNL @googlemail.com]](#gmailcom-and-googlemailcom)
 
-### [!DNL G suite] with [!DNL Workfront Fusion] OAuth-client
+### [!DNL Google Workspace] met [!DNL Workfront Fusion] OAuth-client
 
-[!DNL Workfront Fusion] gebruikt de [!UICONTROL Domain-wide Installation] uitzondering. Installatie in het gehele domein is geschikt voor [!DNL G Suite] gebruikers, en staat gebruikers toe om de niet erkende diensten zonder enige beperkingen te integreren. Als u een gebruiker van de Reeks van G bent, moet u geen extra stappen uitvoeren en kunt direct met niet goedgekeurde diensten verbinden.
+[!DNL Workfront Fusion] gebruikt de uitzondering [!UICONTROL Domain-wide Installation] . Installatie in het gehele domein is geschikt voor [!DNL Google Workspace] -gebruikers en staat gebruikers toe om niet-goedgekeurde services zonder beperkingen te integreren. Als u een Google Workspace-gebruiker bent, hoeft u geen extra stappen uit te voeren en kunt u rechtstreeks verbinding maken met niet-goedgekeurde services.
 
-### [!DNL G suite] met een andere OAuth-client
+### [!DNL Google Workspace] met een andere OAuth-client
 
-[!DNL G Suite] gebruikers die liever hun eigen OAuth-client gebruiken in plaats van de [!DNL Workfront Fusion] OAuth-client kan verbinding maken met [!DNL Google Services] via de [!UICONTROL Internal] Gebruik deze benadering. Deze optie is bedoeld voor geavanceerde gebruikers. Zie voor instructies [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+[!DNL Google Workspace] gebruikers die liever hun eigen OAuth-client gebruiken in plaats van de [!DNL Workfront Fusion] OAuth-client, kunnen verbinding maken met [!DNL Google Services] via de [!UICONTROL Internal] Use-benadering. Deze optie is bedoeld voor geavanceerde gebruikers. Voor instructies, zie [  [!DNL Adobe Workfront Fusion]  verbinden  [!DNL Google Services]  gebruikend een cliënt van douaneOAuth ](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 ### [!DNL @gmail.com] en [!DNL @googlemail.com] {#gmailcom-and-googlemailcom}
 
-Gebruiker die toegang heeft [!DNL Google Services] doorheen [!DNL @gmail.com] of [!DNL @googlemail.com] kan verbinding maken met [!DNL Google Services] door de Persoonlijke benadering van het Gebruik. Deze optie is bedoeld voor geavanceerde gebruikers. Zie voor instructies [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+Gebruiker die [!DNL Google Services] tot [!DNL @gmail.com] of [!DNL @googlemail.com] toegang heeft kan met [!DNL Google Services] verbinden door de Persoonlijke benadering van het Gebruik. Deze optie is bedoeld voor geavanceerde gebruikers. Voor instructies, zie [  [!DNL Adobe Workfront Fusion]  verbinden  [!DNL Google Services]  gebruikend een cliënt van douaneOAuth ](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 ## Veelgestelde vragen
 
-* [Toepassingen in [!DNL Adobe Workfront Fusion] worden beïnvloed?](#what-apps-in-adobe-workfront-fusion-are-affected)
-* [Heb ik een [!DNL G Suite] account?](#do-i-have-a-g-suite-account)
-* [Wat moet ik doen als ik [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
-* [Wat moet ik doen als ik een [!DNL G Suite] gebruiker ben?](#what-should-i-do-if-im-a-g-suite-user)
+* [Welke apps in  [!DNL Adobe Workfront Fusion]  worden beïnvloed?](#what-apps-in-adobe-workfront-fusion-are-affected)
+* [Heb ik a  [!DNL Google Workspace]  rekening?](#do-i-have-a-g-suite-account)
+* [Wat zou ik moeten doen als ik  [!DNL @gmail.com]  of  [!DNL @googlemail.com]  gebruiker ben?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
+* [Wat zou ik moeten doen als ik a  [!DNL Google Workspace]  gebruiker ben?](#what-should-i-do-if-im-a-g-suite-user)
 
-### Toepassingen in [!DNL Adobe Workfront Fusion] worden beïnvloed? {#what-apps-in-adobe-workfront-fusion-are-affected}
+### Welke apps in [!DNL Adobe Workfront Fusion] worden beïnvloed? {#what-apps-in-adobe-workfront-fusion-are-affected}
 
-[!DNL Google Drive], [!DNL Gmail]en e-mail (verbonden met [!DNL Gmail] account).
+[!DNL Google Drive] , [!DNL Gmail] en E-mail (verbonden met [!DNL Gmail] -account).
 
-### Heb ik een [!DNL G Suite] account? {#do-i-have-a-g-suite-account}
+### Heb ik een [!DNL Google Workspace] account? {#do-i-have-a-g-suite-account}
 
-Als uw e-mailadres eindigt met [!DNL @gmail.com] of [!DNL @googlemail.com] uw account is geen [!DNL G Suite] account. Als uw [!DNL Google] account eindigt met een aangepast domein, zoals @my-company.com, dan is het een [!DNL G Suite] account.
+Als uw e-mailadres eindigt met [!DNL @gmail.com] of [!DNL @googlemail.com] is uw account geen [!DNL Google Workspace] -account. Als uw [!DNL Google] -account eindigt met een aangepast domein zoals @my-company.com, is het een [!DNL Google Workspace] -account.
 
-### Wat moet ik doen als ik [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker? {#what-should-i-do-if-im-gmailcom-or-googlemailcom-user}
+### Wat moet ik doen als ik [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker ben? {#what-should-i-do-if-im-gmailcom-or-googlemailcom-user}
 
-Deze nieuwe beperkingen zijn alleen van toepassing als u [!DNL Google Drive] of [!DNL Gmail]. Als u verbinding wilt maken met [!DNL Google Drive] of [!DNL Gmail], kunt u
+Deze nieuwe beperkingen zijn alleen van toepassing als u [!DNL Google Drive] of [!DNL Gmail] integreert. Als u verbinding wilt maken met [!DNL Google Drive] of [!DNL Gmail] , kunt u
 
-* Overschakelen op [!DNL G Suite]
+* Overschakelen naar [!DNL Google Workspace]
 
   of
 
 * Maak een aangepaste OAuth-client. Deze optie is bedoeld voor geavanceerde gebruikers.
 
-  Zie voor instructies [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+  Voor instructies, zie [  [!DNL Adobe Workfront Fusion]  verbinden  [!DNL Google Services]  gebruikend een cliënt van douaneOAuth ](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-Als u een andere dienst wilt integreren dan [!DNL Google Drive] of [!DNL Gmail]Deze beperkingen zijn echter niet van toepassing.
+Als u een andere service dan [!DNL Google Drive] of [!DNL Gmail] wilt integreren, zijn deze beperkingen niet van toepassing.
 
-Voor instructies over het verbinden van elkaar [!DNL Google Services] tot [!DNL Workfront Fusion], zie [Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in het artikel [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Voor instructies over het verbinden van andere [!DNL Google Services] met [!DNL Workfront Fusion], zie [ app of Webdienst van de module verbinden met  [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in het artikel [ creeer een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### Wat moet ik doen als ik een [!DNL G Suite] gebruiker? {#what-should-i-do-if-im-a-g-suite-user}
+### Wat moet ik doen als ik een [!DNL Google Workspace] gebruiker ben? {#what-should-i-do-if-im-a-g-suite-user}
 
 Er is geen vereiste actie.

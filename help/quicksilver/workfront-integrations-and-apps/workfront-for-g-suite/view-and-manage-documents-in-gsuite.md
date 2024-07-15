@@ -2,25 +2,25 @@
 product-area: workfront-integrations;documents
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Documenten van G Suite weergeven en beheren
-description: U kunt documenten die zijn gekoppeld aan een [!DNL Adobe Workfront] object zonder G Suite te verlaten.
+title: Documenten van Google Workspace weergeven en beheren
+description: U kunt documenten bekijken en leiden verbonden aan a  [!DNL Adobe Workfront]  voorwerp zonder Google Workspace te verlaten.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Documenten weergeven en beheren vanuit [!DNL G Suite]
+# Documenten weergeven en beheren vanuit [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >De meest recente versie van de Adobe Workfront-insteekmodule voor Google is uitgebracht op 26 juni 2023.
 
-U kunt documenten die zijn gekoppeld aan een [!DNL Adobe Workfront] object zonder te verlaten [!DNL G Suite].
+U kunt documenten die aan een [!DNL Adobe Workfront] -object zijn gekoppeld, weergeven en beheren zonder [!DNL Google Workspace] te verlaten.
 
 ## Toegangsvereisten
 
@@ -41,19 +41,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-Voordat u kunt bekijken of beheren [!DNL Workfront] documenten in [!DNL G Suite]moet u
+Voordat u [!DNL Workfront] -documenten kunt weergeven of beheren in [!DNL Google Workspace] , moet u
 
-* Installeren [!DNL Workfront for G suite]\
-   Zie voor instructies [Installeren [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installeren [!DNL Workfront for Google Workspace]\
+   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Weergeven en beheren [!DNL Workfront] documenten in [!DNL G Suite]
+## [!DNL Workfront] -documenten weergeven en beheren in [!DNL Google Workspace]
 
-1. Als de [!UICONTROL Workfront for G Suite] wordt niet weergegeven, klikt u op de knop [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de [!DNL G Suite] de zijbalk met invoegtoepassingen bevindt zich uiterst rechts op de pagina.
-1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL G Suite], zoals beschreven in [Toegang [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. Als het deelvenster [!UICONTROL Workfront for Google Workspace] niet wordt weergegeven, klikt u op het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de zijbalk met invoegtoepassingen uiterst rechts op de pagina. [!DNL Google Workspace]
+1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL Google Workspace], zoals die in [ wordt beschreven Toegang  [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Klik op **[!UICONTROL Documents]**.
 
    Het getal geeft aan hoeveel documenten naar de taak of uitgave zijn geüpload, zowel als gekoppelde bestanden als als gedeelde bestanden die in de cloud zijn opgeslagen.
@@ -62,21 +62,21 @@ Voordat u kunt bekijken of beheren [!DNL Workfront] documenten in [!DNL G Suite]
 
 1. (Optioneel) Klik op de naam van een document om informatie over het document weer te geven.
 
-   Wanneer u informatie over een document bekijkt, wordt de informatie boven aan [!DNL Workfront for G Suite] geeft het bovenliggende object van het document en de naam van het document weer. Hieronder vindt u aanvullende informatie over het document, zoals de eigenaar, de datum waarop het aan het object is toegevoegd en de grootte van het document.
+   Wanneer u informatie over een document bekijkt, worden boven in [!DNL Workfront for Google Workspace] het bovenliggende object van het document en de naam van het document weergegeven. Hieronder vindt u aanvullende informatie over het document, zoals de eigenaar, de datum waarop het aan het object is toegevoegd en de grootte van het document.
 
-1. (Optioneel) Klik op **[!UICONTROL Updates]** om updates over het document weer te geven of te plaatsen, klikt u vervolgens op **[!UICONTROL Details]** om terug te keren naar het weergeven van informatie over het document.
+1. (Optioneel) Klik op **[!UICONTROL Updates]** om updates over het document weer te geven of te plaatsen en klik vervolgens op **[!UICONTROL Details]** om de informatie over het document weer te geven.
 
-   Als u informatie nodig hebt over het posten van updates of reacties, raadpleegt u [Een update [!DNL Adobe Workfront] object van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+   Als u informatie over het posten van updates of antwoorden nodig hebt, zie [ Update a  [!DNL Adobe Workfront]  voorwerp van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Download]** pictogram ![](assets/download-icon.png) om een document in de lijst te downloaden.
+1. (Optioneel) Klik op het pictogram **[!UICONTROL Download]** ![](assets/download-icon.png) om een document in de lijst te downloaden.
 
    of
 
-   Als het document is opgeslagen op een cloud-station, klikt u op de knop **[!UICONTROL Open]** pictogram ![](assets/open-icon.png) .
+   Als het document is opgeslagen op een cloud-station, klikt u op het pictogram **[!UICONTROL Open]** ![](assets/open-icon.png) .
 
-1. Klikken **[!UICONTROL View in Workfront]** om naar de pagina Documentdetails voor het document te gaan in [!DNL Workfront].
+1. Klik op **[!UICONTROL View in Workfront]** om naar de pagina Documentdetails voor het document in [!DNL Workfront] te gaan.
 
-U kunt ook documenten (en andere gegevens) die zijn gekoppeld aan een [!DNL Workfront] object in [!DNL G Suite] wanneer u een [!DNL Workfront] meldingsbericht over het object. Zie voor meer informatie [Beheren [!DNL Adobe Workfront] meldingsgegevens van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+U kunt ook documenten (en andere details) die aan een [!DNL Workfront] -object zijn gekoppeld, weergeven en beheren in [!DNL Google Workspace] wanneer u een [!DNL Workfront] -meldingsbericht over het object ontvangt. Voor meer informatie, zie [  [!DNL Adobe Workfront]  meldingsdetails van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md) leiden.
 
-* Voor informatie over het gebruik van de [!UICONTROL Details] tab in [!DNL Workfront for G Suite], zie [Weergeven en beheren [!DNL Adobe Workfront] objectdetails van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
-* Voor informatie over het gebruik van de [!UICONTROL Updates] tab in [!DNL Workfront for G Suite], zie [Een update [!DNL Adobe Workfront] object van [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* Voor informatie over het gebruiken van het [!UICONTROL Details] lusje in [!DNL Workfront for Google Workspace], zie [ Mening en beheer  [!DNL Adobe Workfront]  objecten details van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+* Voor informatie over het gebruiken van het [!UICONTROL Updates] lusje in [!DNL Workfront for Google Workspace], zie [ Update een  [!DNL Adobe Workfront]  voorwerp van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).

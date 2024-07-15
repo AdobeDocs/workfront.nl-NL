@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-## Nieuwe G Suite-integratie nu beschikbaar
+## Nieuwe Google Workspace-integratie nu beschikbaar
 
-Er is nu een nieuwe G Suite-integratie beschikbaar in de Google Marketplace. De nieuwe integratie verifieert gebruikend OAuth2, en vervangt de vorige integratie.
+Een nieuwe Google Workspace-integratie is nu beschikbaar op de Google Marketplace. De nieuwe integratie verifieert gebruikend OAuth2, en vervangt de vorige integratie.
 
-De vorige G Suite-integratie is nu afgekeurd en wordt automatisch verwijderd.
+De vorige Google Workspace-integratie is nu afgekeurd en wordt automatisch verwijderd.
 
-Voor instructies over het installeren van de nieuwe integratie raadpleegt u [Installeren [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+Voor instructies op hoe te om de nieuwe integratie te installeren, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-Zie voor meer informatie over Workfront for G Suite [Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
+Voor meer informatie over Workfront voor Google Workspace, zie [ Workfront voor Google Workspace ](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## De integratie van Adobe Creative Cloud steunt nu veelvoudige toegewezen gebruikers
 
@@ -36,9 +36,9 @@ Eerder, stond de integratie gebruikers toe om een taak te merken zoals gedaan, z
 
 Download en installeer de nieuwste Workfront for Creative Cloud-plug-ins om deze functionaliteit te benutten.
 
-Zie voor meer informatie over de functionaliteit [Werkitems markeren die zijn voltooid met de Adobe Workfront-insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
+Voor meer informatie over de functionaliteit, zie [ volledige het werkpunten van het Teken gebruikend de insteekmodule van Adobe Workfront ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
 
-Voor informatie over het installeren van de Workfront for Creative Cloud plug-ins raadpleegt u [De Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen installeren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Voor informatie bij het installeren van Workfront voor Creative Cloud stoppen, zie [ de stop van Adobe Workfront voor de Toepassingen van het Creative Cloud installeren ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
 ## Workfront-meldingen van de Workfront for Creative Cloud-plug-ins weergeven en beheren
 
@@ -48,9 +48,9 @@ Eerder waren meldingen alleen beschikbaar in Workfront en via e-mail.
 
 Download en installeer de nieuwste Workfront for Creative Cloud-plug-ins om deze functionaliteit te benutten.
 
-Zie voor meer informatie [Weergeven en beheren [!DNL Adobe Workfront] kennisgevingen van Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
+Voor meer informatie, zie [ Mening en beheer  [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
 
-Voor informatie over het installeren van de Workfront for Creative Cloud plug-ins raadpleegt u [De Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen installeren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Voor informatie bij het installeren van Workfront voor Creative Cloud stoppen, zie [ de stop van Adobe Workfront voor de Toepassingen van het Creative Cloud installeren ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
 <!--
 
@@ -72,7 +72,7 @@ Eerder moest de gebruiker actie ondernemen bij het maken van gekoppelde mappen.
 
 Deze functionaliteit is alleen beschikbaar bij Adobe Experience Manager as a Cloud Service-integratie in Workfront. Dit is niet beschikbaar in de verbeterde Adobe Experience Manager-connector.
 
-Zie voor meer informatie [Workflows gebruiken in de Experience Manager Assets-integratie](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Voor meer informatie, zie [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 ## Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets
 
@@ -80,15 +80,15 @@ Nu kunt u elementen categoriseren en snel zoeken op basis van gegevens van Workf
 
 Eerder was het niet mogelijk om Workfront-gegevens toe te wijzen aan Experience Manager Assets-tags.
 
-Voor meer informatie over deze functionaliteit in as a Cloud Service Experience Manager Assets raadpleegt u [Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Zie voor meer informatie over deze functionaliteit in Experience Manager Assets Essentials [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Voor meer informatie over deze functionaliteit in as a Cloud Service Experience Manager Assets, zie [ de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
+Voor meer informatie over deze functionaliteit in de Hoofdzaak van Experience Manager Assets, zie [ de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md) vormen.
 
 ## Workfront-velden toewijzen aan aangepaste Experience Manager Assets-metagegevensvelden
 
 Met de geïntegreerde native modus kunt u nu zowel native als ingebouwde Workfront-velden toewijzen aan aangepaste metagegevensschemavelden in Experience Manager Assets as a Cloud Service.
 
-Voor meer informatie over deze functionaliteit in as a Cloud Service Experience Manager Assets raadpleegt u [Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
-Zie voor meer informatie over deze functionaliteit in Experience Manager Assets Essentials [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Voor meer informatie over deze functionaliteit in as a Cloud Service Experience Manager Assets, zie [ de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
+Voor meer informatie over deze functionaliteit in de Hoofdzaak van Experience Manager Assets, zie [ de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md) vormen.
 
 ## Instellingen voor automatische proefdrukwerkstromen aanpassen met Adobe Workfront for Creative Cloud
 
@@ -101,7 +101,7 @@ U kunt de bestaande sjablooninstellingen voor geautomatiseerde workflows nu rech
 * E-mailmeldingen bijwerken
 * En meer!
 
-Zie voor meer informatie [Documenten en proefdrukken uploaden met de [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
+Voor meer informatie, zie [ documenten en proeven met de  [!DNL Adobe Workfront]  stop in voor  [!DNL Creative Cloud]  Toepassingen ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md) uploaden.
 
 Deze verbeteringen zijn beschikbaar voor de volgende Creative Cloud-apps:
 

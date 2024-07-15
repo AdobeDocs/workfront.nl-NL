@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in January 2022
 
 4 april 2022.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Adobe Workfront met Anaplan-integratie is nu beschikbaar
 
@@ -39,7 +39,7 @@ Andere workflows die u kunt overwegen om de integratie van Workfront naar Anapla
 * Workfront-projecten maken van nieuwe Anaplan-lijstonderdelen
 * Aanvang van verzoeken van Anaplan-leveranciers uit Workfront-projecten
 
-Zie voor meer informatie [Adobe Workfront met Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Voor meer informatie, zie [ Adobe Workfront met Anaplan ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 ## Workfront for Experience Manager verbeterde connectorupdates
 
@@ -51,17 +51,17 @@ Workfront for Experience Manager Enhanced Connector bevat nu de volgende updates
 * Extra ondersteuning voor proxyomgevingen
 * Verscheidene insectenmoeilijke situaties die op partner en klant worden gebaseerd terugkoppelen
 
-Zie voor meer informatie [Overzicht Workfront for Experience Manager Enhanced Connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Voor meer informatie, zie [ Workfront voor Experience Manager verbeterde schakelaaroverzicht ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->Voor de implementatie en configuratie van deze connector is een gecertificeerde partner vereist. Zie [Workfront for Experience Manager Enhanced Connector installeren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) voor meer informatie .
+>Voor de implementatie en configuratie van deze connector is een gecertificeerde partner vereist. Zie [ Workfront voor Experience Manager verbeterde schakelaar ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) voor meer informatie installeren.
 
 ## Adobe Creative Cloud-integratie gebruikt nu OAuth2
 
 Voor grotere veiligheid, en om een consistentere ervaring over integratie te maken, hebben wij de integratie van Adobe Creative Cloud bijgewerkt om authentificatie te gebruiken OAuth2, een industrie-standaardmanier om gebruikers voor authentiek te verklaren. Wanneer uw gebruikers zich nu aanmelden, kunnen ze de specifieke acties en gebieden zien waartoe de integratie toegang heeft en toegang verlenen. Hierna hoeven ze zich niet zo vaak aan te melden.
 
-Zie voor meer informatie [De extensie Workfront voor Illustrator en InDesign gebruiken](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
+Voor meer informatie, zie [ de Uitbreiding van Workfront voor Illustrator en InDesign ](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) gebruiken.
 
 ## Zie details van het Geheim van de Cliënt voor douaneOAuth2 of integratie JWT
 
@@ -69,7 +69,7 @@ Om transparantie in het gebruik van uw douaneOAuth2 en integratie te verstrekken
 
 Eerder waren deze gegevens niet beschikbaar.
 
-Voor meer informatie over de Secreten van de Cliënt in Aangepaste Integraties OAuth2 of JWT, zie [OAuth2-toepassingen maken voor Workfront-integratie](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Voor meer informatie over de Secreten van de Cliënt in OAuth2 of JWT douaneintegratie, zie [ tot toepassingen OAuth2 voor de integratie van Workfront ](../../../administration-and-setup/configure-integrations/create-oauth-application.md) leiden.
 
 ## Zie type authentificatie in lijst van douaneOAuth2 toepassingen
 
@@ -77,13 +77,13 @@ Nu, wanneer u de lijst van douaneOAuth2 toepassingen in uw organisatie bekijkt, 
 
 Eerder kon u deze informatie alleen zien door in de bewerkingsopties voor elke toepassing te gaan.
 
-Zie voor meer informatie [OAuth2-toepassingen maken voor Workfront-integratie](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](../../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
 ## Vervaldatum instellen voor vernieuwingstokens in uw aangepaste OAuth2-integratie
 
 Om toegang en veiligheid voor uw douaneOAuth2 integratie beter te controleren, kunt u de levensduur van verfrist tokens nu aanpassen. Nadat het vernieuwingstoken van een gebruiker verloopt, zullen zij aan login aan de integratie opnieuw moeten.
 
-Zie voor meer informatie [OAuth2-toepassingen maken voor Workfront-integratie](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](../../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
 ## De openbare en privé sleutels van het gebruik in uw douaneOAuth2 integratie voor server-aan-server apps
 
@@ -91,10 +91,10 @@ U kunt server-aan-server OAuth2 toepassingen nu in uw douaneservers plaatsen. Do
 
 Eerder, gebruikte alle authentificatie in uw douane OAuth2 toepassingen de login van de gebruiker geloofsbrieven.
 
-Zie voor meer informatie [OAuth2-toepassingen maken voor Workfront-integratie](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](../../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
-## Google G Suite-integratie gebruikt nu OAuth2
+## Google Google Workspace-integratie gebruikt nu OAuth2
 
-Voor meer veiligheid, en om een consistentere ervaring over integratie te maken, hebben wij de integratie van Google G Suite bijgewerkt om authentificatie te gebruiken OAuth2, een industrie-standaardmanier om gebruikers voor authentiek te verklaren. Wanneer uw gebruikers zich nu aanmelden, kunnen ze de specifieke acties en gebieden zien waartoe de integratie toegang heeft en toegang verlenen. Hierna hoeven ze zich niet zo vaak aan te melden.
+Voor meer veiligheid, en om een consistentere ervaring over integratie te maken, hebben wij de integratie van Google Google Workspace bijgewerkt om authentificatie te gebruiken OAuth2, een industrie-standaardmanier om gebruikers voor authentiek te verklaren. Wanneer uw gebruikers zich nu aanmelden, kunnen ze de specifieke acties en gebieden zien waartoe de integratie toegang heeft en toegang verlenen. Hierna hoeven ze zich niet zo vaak aan te melden.
 
-Zie voor meer informatie [Aanmelden bij en uit Adobe Workfront for G Suite](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Voor meer informatie, zie [ Login en uit Adobe Workfront voor Google Workspace ](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

@@ -9,7 +9,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -22,8 +22,8 @@ Omdat Adobe Workfront communiceert met het netwerk van uw organisatie, moet de f
 
 Dit wordt verwezenlijkt door een lijst van gewenste personen, die hoofdzakelijk een &quot;lijst&quot;van plaatsen is die &quot;toegestaan&quot;zijn om gegevens door de firewall te verzenden of te ontvangen. De plaatsen kunnen op één van twee manieren worden geïdentificeerd:
 
-* **IP-adres**: een reeks getallen zoals 52.31.132.175
-* **Domein**: deel van een URL, zoals &quot;this domain&quot; in www.thisdomain.com
+* **IP adres**: een reeks aantallen zoals 52.31.132.175
+* **Domein**: deel van een URL, zoals &quot;dit domein&quot;in www.thisdomain.com
 
 Workfront gebruikt specifieke IP-adressen en -domeinen voor webcommunicatie. Deze moeten aan de lijst van gewenste personen van uw organisatie worden toegevoegd alvorens u Workfront in uw organisatie kunt gebruiken.
 
@@ -49,19 +49,19 @@ Geef uw netwerkbeheerder de volgende informatie:
  <tbody> 
   <tr> 
    <td role="rowheader">Specifieke IP-adressen en -domeinen die zijn toegestaan</td> 
-   <td> <p>Het artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">De lijst van gewenste personen van uw firewall configureren</a> bevat de lijst van IP adressen en domeinen die uw organisatie aan zijn lijst van gewenste personen moet toevoegen. </p> <p>Uw netwerkbeheerder heeft mogelijk geen toegang tot het artikel "lijst van gewenste personen van uw firewall configureren". In dat geval moet u het aan hen verstrekken. We raden u niet aan een papieren kopie af te drukken. Met een digitale kopie kan uw netwerkbeheerder de adressen kopiëren en plakken. Dit is sneller en nauwkeuriger dan het typen van een gedrukte kopie.</p> </td> 
+   <td> <p>Het artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref"> vormt de lijst van gewenste personen van uw firewall </a> bevat de lijst van IP adressen en domeinen die uw organisatie aan zijn lijst van gewenste personen moet toevoegen. </p> <p>Uw netwerkbeheerder heeft mogelijk geen toegang tot het artikel "lijst van gewenste personen van uw firewall configureren". In dat geval moet u het aan hen verstrekken. We raden u niet aan een papieren kopie af te drukken. Met een digitale kopie kan uw netwerkbeheerder de adressen kopiëren en plakken. Dit is sneller en nauwkeuriger dan het typen van een gedrukte kopie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uw cluster</td> 
-   <td>Als u de cluster van uw organisatie wilt opzoeken, raadpleegt u <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Het cluster- en Workfront-plan van uw organisatie weergeven</a>.</td> 
+   <td>Om van de cluster van uw organisatie de plaats te bepalen, zie <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront </a> bekijken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Je Workfront-abonnement</td> 
-   <td> <p>Als u het plan van uw organisatie wilt opzoeken, raadpleegt u <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Bekijk het cluster van uw organisatie en het plan van Workfront.</a></p> </td> 
+   <td> <p>Om van het plan van uw organisatie de plaats te bepalen, zie <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront bekijken.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uw domein</td> 
-   <td> <p>Als u uw domein wilt zoeken, bekijkt u het webadres dat u gebruikt om verbinding te maken met Workfront.</p> <p>Voorbeeld: in het webadres <code>greatcompany.my.workfront.com</code>, het domein is "groot bedrijf"</p> </td> 
+   <td> <p>Als u uw domein wilt zoeken, bekijkt u het webadres dat u gebruikt om verbinding te maken met Workfront.</p> <p>Voorbeeld: in het webadres <code>greatcompany.my.workfront.com</code> is het domein "big company"</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Andere Adobe Workfront-producten</td> 
@@ -76,7 +76,7 @@ Geef uw netwerkbeheerder de volgende informatie:
    <td>Stel uw netwerkbeheerder op de hoogte als u een van de volgende methoden gebruikt:
     <ul>
      <li><p>Workfront voor Jira</p></li>
-     <li><p>Workfront for G Suite</p></li>
+     <li><p>Workfront voor Google Workspace</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
      <li><p>Workfront voor Salesforce</p></li>
@@ -98,16 +98,16 @@ Geef uw netwerkbeheerder de volgende informatie:
 
 ### Het cluster- en Workfront-plan van uw organisatie weergeven {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 
-1. Klikken **Systeem** in het linkerdeelvenster
-1. Selecteer **Klantgegevens**.
+1. Klik **Systeem** in het linkerpaneel
+1. Om uw cluster te bekijken, selecteer **Info van de Klant**.
 
-   Uw cluster wordt in de rechterbovenhoek van het dialoogvenster weergegeven **Basisinformatie** sectie.
+   Uw clustervertoningen dichtbij het hoger-recht van de **Basis Info** sectie.
 
    ![](assets/locate-cluster.png)
 
-1. Als u uw Workfront-abonnement wilt bekijken, selecteert u **Licenties**.
+1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
 
    Uw abonnement wordt onder aan de pagina weergegeven.
 

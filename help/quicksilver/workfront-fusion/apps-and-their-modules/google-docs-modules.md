@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Docs-modules
-description: De Adobe Workfront Fusion [!DNL Google Docs] met modules kunt u documenten in uw [!DNL Google Docs] en [!DNL Google Docs] (voor [!DNL G Suite]-gebruikers).
+description: De fusie van Adobe Workfront  [!DNL Google Docs]  modules laten u toe om te controleren, tot stand te brengen, en documenten in uw  [!DNL Google Docs]  uit te geven en terug te winnen en  [!DNL Google Docs]  (voor  [!DNL Google Workspace]  gebruikers).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3321'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Docs] modules
 
-De [!DNL Adobe Workfront Fusion] [!DNL Google Docs] met modules kunt u documenten in uw [!DNL Google Docs] en [!DNL Google Docs] (for [!DNL G Suite] gebruikers).
+Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Docs] kunt u documenten in uw [!DNL Google Docs] - en [!DNL Google Docs] -documenten (voor [!DNL Google Workspace] -gebruikers) controleren, maken, bewerken en ophalen.
 
-Voor gebruik [!DNL Google Docs] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Google] account. Als u geen [!DNL Google] -account nog kunt u er een maken op de [!DNL Google] Help-pagina voor account.
+Als u [!DNL Google Docs] met [!DNL Adobe Workfront Fusion] wilt gebruiken, hebt u een [!DNL Google] -account nodig. Als u nog geen [!DNL Google] -account hebt, kunt u er een maken op de pagina [!DNL Google] Account Help.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -45,35 +45,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Google Docs] hebt u een Google-account nodig.
+Als u [!DNL Google Docs] -modules wilt gebruiken, hebt u een Google-account nodig.
 
 ## [!DNL Google Docs] modules en hun velden
 
-Wanneer u [!DNL Google Docs] modules, [!UICONTROL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Google Docs] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Google Docs] modules configureert, geeft [!UICONTROL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Docs] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -101,11 +101,11 @@ Deze triggermodule retourneert documentdetails wanneer een nieuw document wordt 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Documents]</td> 
-   <td> <p style="color: #000000;">Selecteer of u de aanmaak wilt controleren ([!UICONTROL By Created Date]) of gewijzigd ([!UICONTROL By Modified Date]).</p> </td> 
+   <td> <p style="color: #000000;">Selecteer of u creeerde ([!UICONTROL By Created Date]) of gewijzigde ([!UICONTROL By Modified Date]) documenten wilt letten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
@@ -113,7 +113,7 @@ Deze triggermodule retourneert documentdetails wanneer een nieuw document wordt 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map die u wilt controleren voor gemaakte of gewijzigde documenten.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map die u wilt controleren voor gemaakte of gewijzigde documenten.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station dat u wilt controleren.</p> <p>Opmerking: Als u de optie [!DNL Google Shared Drive] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station dat u wilt controleren.</p> <p>Opmerking: als u de optie [!DNL Google Shared Drive] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ Deze actiemodule wint een lijst van documenten van de geselecteerde omslag terug
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
@@ -141,12 +141,12 @@ Deze actiemodule wint een lijst van documenten van de geselecteerde omslag terug
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waaruit u documenten wilt weergeven.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waaruit u documenten wilt weergeven.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waarvan u documenten wilt weergeven.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waarvan u documenten wilt weergeven.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximum aantal documenten instellen [!DNL Workfront Fusion] retourneert in één uitvoeringscyclus.</p> </td> 
+   <td> <p>Stel het maximale aantal documenten in dat [!DNL Workfront Fusion] in één uitvoeringscyclus retourneert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,7 +163,7 @@ Mogelijk moet u uw machtigingen uitbreiden.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get Content of a Document]</td> 
@@ -175,7 +175,7 @@ Mogelijk moet u uw machtigingen uitbreiden.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map met het document dat u wilt ophalen.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map met het document dat u wilt ophalen.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station dat het document bevat dat u wilt ophalen.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station dat het document bevat dat u wilt ophalen.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -185,7 +185,7 @@ Mogelijk moet u uw machtigingen uitbreiden.
      <li>[!UICONTROL Image] (standaard)</li> 
      <li>[!UICONTROL Drawing]</li> 
      <li>[!UICONTROL Chart]</li> 
-    </ul> <p>Opmerking:  <p>Gebruik voor het verder toewijzen van deze objecten de [!UICONTROL Inline Objects Array] waarde in de uitvoer van deze module (in plaats van [!UICONTROL inlineObjects]).</p> <p>De [!UICONTROL Inline Objects Array] objecten worden in dezelfde volgorde gesorteerd als in het document. Het maakt verdere verwerking gemakkelijker.</p> </p> </td> 
+    </ul> <p>Opmerking:  <p>Gebruik voor verdere toewijzing van deze objecten de [!UICONTROL Inline Objects Array] -waarde in de uitvoer van deze module (in plaats van [!UICONTROL inlineObjects] ).</p> <p>De [!UICONTROL Inline Objects Array] -objecten worden in dezelfde volgorde gesorteerd als in het document. Het maakt verdere verwerking gemakkelijker.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -200,7 +200,7 @@ In deze actiemodule kunt u een nieuw document maken in de geselecteerde map.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name] </td> 
@@ -216,7 +216,7 @@ In deze actiemodule kunt u een nieuw document maken in de geselecteerde map.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin u een document wilt maken.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin u een document wilt maken.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar u een document wilt maken.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar u een document wilt maken.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -240,7 +240,7 @@ In deze actiemodule wordt een kopie van een bestaand sjabloondocument gemaakt en
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Create a Document from a Template]</p> </td> 
@@ -252,28 +252,28 @@ In deze actiemodule wordt een kopie van een bestaand sjabloondocument gemaakt en
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waarop de sjabloon zich bevindt. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waarop de sjabloon zich bevindt. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin de sjabloon zich bevindt.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin de sjabloon zich bevindt.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer de gedeelde schijf waarop uw sjabloon zich bevindt.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer de gedeelde schijf waarop uw sjabloon zich bevindt.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
    <td> <p>Voer de waarden in die u wilt invoeren in plaats van de variabelen voor het nieuwe document.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Tags]</strong> <br>Voer de tags in die zich in de documentsjabloon bevinden. Niet gebruiken <code>&#123;&#123;&#125;&#125;</code>. Voorbeeld: gebruiken <code>name</code> in plaats van <code>&#123;&#123;name&#125;&#125;</code>.</li> 
+     <li><strong>[!UICONTROL Tags]</strong> <br>Voer de tags in die zich in de documentsjabloon bevinden. Gebruik <code>&#123;&#123;&#125;&#125;</code> niet. Voorbeeld: gebruik <code>name</code> in plaats van <code>&#123;&#123;name&#125;&#125;</code> .</li> 
      <li><strong>[!UICONTROL Replaced Value]</strong><br>Voer de waarde van de tag in.</li> 
-    </ul> <p>Bijvoorbeeld de<code> &#123;&#123;name&#125;&#125;</code> variabele in het brondocument wordt hier weergegeven als het naamveld, waar de waarde kan worden ingevoegd, zoals <code>John</code>.</p> </td> 
+    </ul> <p>Bijvoorbeeld zal de <code> &#123;&#123;name&#125;&#125;</code> variabele in het brondocument als naamgebied hier worden getoond, waar de waarde, zoals <code>John</code> kan worden opgenomen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Images Replacement]</p> </td> 
-   <td> <p>Voer de koppeling naar de [!UICONTROL Image Object ID] en [!UICONTROL Image URL] Hiermee vervangt u de huidige afbeelding.</p> <p>Opmerking: U kunt de afbeeldings-id's ophalen met [!UICONTROL Get a Document] -module, waarbij de id's zich in de array bevinden [!UICONTROL Inline Object Array].</p> <p>We raden u aan ALT-tekst toe te voegen aan afbeeldingen in uw [!DNL Google] document. </p> <p>Een ALT-tekst toevoegen aan de [!DNL Google Docs] afbeelding:</p> 
+   <td> <p>Voer de koppeling in naar de [!UICONTROL Image Object ID] en [!UICONTROL Image URL] die de huidige afbeelding vervangen.</p> <p>Opmerking: u kunt de beeld-id's ophalen met de module [!UICONTROL Get a Document] , waarin de id's zich bevinden in de array [!UICONTROL Inline Object Array] .</p> <p>We raden u aan ALT-tekst toe te voegen aan afbeeldingen in uw [!DNL Google] -document. </p> <p>Een ALT-tekst toevoegen aan de [!DNL Google Docs] -afbeelding:</p> 
     <ol> 
      <li value="1">Klik met de rechtermuisknop op de afbeelding.</li> 
-     <li value="2">Selecteer [!UICONTROL ALT text] optie.</li> 
-     <li value="3">Voer de [!UICONTROL ALT text] in de [!UICONTROL Title] veld en klik op [!UICONTROL OK].</li> 
+     <li value="2">Selecteer de optie [!UICONTROL ALT text] .</li> 
+     <li value="3">Voer de [!UICONTROL ALT text] in het [!UICONTROL Title] -veld in en klik op [!UICONTROL OK] .</li> 
     </ol> <p>Nadat de ALT-tekst aan de afbeelding is toegevoegd, wordt de ALT-tekst tussen haakjes weergegeven in de veldnaam.</p> </td> 
   </tr> 
   <tr> 
@@ -282,11 +282,11 @@ In deze actiemodule wordt een kopie van een bestaand sjabloondocument gemaakt en
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waarop de sjabloon zich bevindt. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waarop de sjabloon zich bevindt. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waar u het document wilt maken.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waar u het document wilt maken.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar u het document wilt maken.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar u het document wilt maken.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -302,7 +302,7 @@ Deze actiemodule voegt een nieuwe alinea toe aan of voegt een nieuwe alinea in e
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -314,11 +314,11 @@ Deze actiemodule voegt een nieuwe alinea toe aan of voegt een nieuwe alinea in e
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waaraan het document moet worden toegevoegd. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waaraan het document moet worden toegevoegd. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document zich bevindt waaraan u een alinea wilt toevoegen, en selecteer vervolgens het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document zich bevindt waaraan u een alinea wilt toevoegen, en selecteer vervolgens het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar het document zich bevindt waaraan u een alinea wilt toevoegen en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar het document zich bevindt waaraan u een alinea wilt toevoegen en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -329,7 +329,7 @@ Deze actiemodule voegt een nieuwe alinea toe aan of voegt een nieuwe alinea in e
       <ul> 
        <li> <p><strong>[!UICONTROL By index]</strong> </p> 
         <ul> 
-         <li> <p><strong>[!UICONTROL Index]</strong> </p> <p>Voer het indexnummer in waar u de tekst wilt invoegen. U kunt de [!UICONTROL Get a Document] -module indexnummer ophalen.</p> <p>Als u alle tekens (inclusief verborgen) in het document wilt weergeven, kunt u de opdracht [!UICONTROL Show] invoegtoepassing. U kunt de invoegtoepassing onder [!UICONTROL Add-ons] &gt; [!UICONTROL Get add-ons]. Zoeken naar [!UICONTROL Show] en installeer de [!UICONTROL Show] invoegtoepassing.</p> </li> 
+         <li> <p><strong>[!UICONTROL Index]</strong> </p> <p>Voer het indexnummer in waar u de tekst wilt invoegen. Met de module [!UICONTROL Get a Document] kunt u het indexnummer ophalen.</p> <p>Als u alle tekens (inclusief verborgen) in het document wilt weergeven, kunt u de invoegtoepassing [!UICONTROL Show] gebruiken. U kunt de invoegtoepassing vinden onder [!UICONTROL Add-ons] &gt; [!UICONTROL Get add-ons] . Zoek naar [!UICONTROL Show] en installeer de [!UICONTROL Show] add-on.</p> </li> 
          <li> <p><strong>[!UICONTROL Inserted text]</strong> </p> <p>Voer de tekst in die u in het document wilt invoegen.</p> </li> 
         </ul> </li> 
        <li> <p><strong>[!UICONTROL By segment ID]</strong> </p> <p>Selecteer de kop- en voettekst waarop u de tekstinhoud wilt invoegen en voer de tekst in die u aan de corresponderende velden wilt invoegen.</p> <p>Als de kop- of voettekst al tekst bevat, wordt de nieuwe tekst vóór de bestaande tekst toegevoegd.</p> </li> 
@@ -357,7 +357,7 @@ Deze actiemodule voegt een afbeelding van de URL in het document in.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -369,11 +369,11 @@ Deze actiemodule voegt een afbeelding van de URL in het document in.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waaraan het document moet worden toegevoegd. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waaraan het document moet worden toegevoegd. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document zich bevindt waaraan u een afbeelding wilt toevoegen en selecteer vervolgens het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document zich bevindt waaraan u een afbeelding wilt toevoegen en selecteer vervolgens het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar het document zich bevindt waaraan u een afbeelding wilt toevoegen en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar het document zich bevindt waaraan u een afbeelding wilt toevoegen en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -384,10 +384,10 @@ Deze actiemodule voegt een afbeelding van de URL in het document in.
       <ul> 
        <li> <p><strong>[!UICONTROL By index]</strong> </p> 
         <ul> 
-         <li> <p><strong>[!UICONTROL Index]</strong> </p> <p>Voer het indexnummer in waar u de afbeelding wilt invoegen. U kunt de [!UICONTROL Get a Document] module ophalen [!UICONTROL Index number].</p> <p>Als u alle tekens (inclusief verborgen) in het document wilt weergeven, kunt u de opdracht [!UICONTROL Show] invoegtoepassing. U kunt de invoegtoepassing onder [!UICONTROL Add-ons] &gt; [!UICONTROL Get add-ons]. Zoeken naar [!UICONTROL Show] en installeer de [!UICONTROL Show] invoegtoepassing.</p> </li> 
+         <li> <p><strong>[!UICONTROL Index]</strong> </p> <p>Voer het indexnummer in waar u de afbeelding wilt invoegen. U kunt de module [!UICONTROL Get a Document] ophalen [!UICONTROL Index number] gebruiken.</p> <p>Als u alle tekens (inclusief verborgen) in het document wilt weergeven, kunt u de invoegtoepassing [!UICONTROL Show] gebruiken. U kunt de invoegtoepassing vinden onder [!UICONTROL Add-ons] &gt; [!UICONTROL Get add-ons] . Zoek naar [!UICONTROL Show] en installeer de [!UICONTROL Show] add-on.</p> </li> 
          <li> <p><strong>[!UICONTROL Image URL]</strong> </p> <p>Voer de URL in van de afbeelding die u in het document wilt invoegen.</p> <p>De maximale afbeeldingsgrootte is 50 MB. Mag niet groter zijn dan 25 megapixels. Alleen de indeling PNG, JPEG of GIF wordt ondersteund.</p> </li> 
         </ul> </li> 
-       <li> <p><strong>[!UICONTROL By segment ID]</strong> </p> <p>Selecteer de kop- en voettekst waarop u de afbeelding wilt invoegen en typ de afbeeldings-URL naar de desbetreffende velden.</p> <p>De maximale afbeeldingsgrootte is 50 MB. De afbeelding mag niet groter zijn dan 25 megapixels. Alleen de indeling PNG, JPEG of GIF wordt ondersteund.</p> </li> 
+       <li> <p><strong>[!UICONTROL By segment ID]</strong> </p> <p>Selecteer de kop- en voettekst waarop u de afbeelding wilt invoegen en voer de URL van de afbeelding in op de desbetreffende velden.</p> <p>De maximale afbeeldingsgrootte is 50 MB. De afbeelding mag niet groter zijn dan 25 megapixels. Alleen de indeling PNG, JPEG of GIF wordt ondersteund.</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL By appending to the body of the document]</strong> </p> <p>Hiermee voegt u een specifieke afbeelding toe aan het einde van de hoofdinhoud van het document.</p> </li> 
     </ul> 
@@ -412,7 +412,7 @@ Deze actiemodule vervangt een bestaande afbeelding. De hoogte-breedteverhouding 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -424,16 +424,16 @@ Deze actiemodule vervangt een bestaande afbeelding. De hoogte-breedteverhouding 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waar het document staat dat u wilt vervangen. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waar het document staat dat u wilt vervangen. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document staat dat u een afbeelding wilt vervangen en selecteer het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document staat dat u een afbeelding wilt vervangen en selecteer het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar het document zich bevindt dat u wilt vervangen en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar het document zich bevindt dat u wilt vervangen en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Image URL]</p> </td> 
-   <td> <p>Geef de URL op of wijs de URL toe van de nieuwe afbeelding die de bestaande afbeelding vervangt.</p> <p>Afbeeldingen worden weergegeven in de volgorde waarin ze in het document worden weergegeven. Bijvoorbeeld: <code>Body: Image No. 1</code> is de eerste afbeelding in het document.</p> </td> 
+   <td> <p>Geef de URL op of wijs de URL toe van de nieuwe afbeelding die de bestaande afbeelding vervangt.</p> <p>Afbeeldingen worden weergegeven in de volgorde waarin ze in het document worden weergegeven. <code>Body: Image No. 1</code> is bijvoorbeeld de eerste afbeelding in het document.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,7 +448,7 @@ Deze actiemodule vervangt tekst in een document.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -460,11 +460,11 @@ Deze actiemodule vervangt tekst in een document.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waaraan het document moet worden toegevoegd. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waaraan het document moet worden toegevoegd. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document zich bevindt waaraan u tekst wilt toevoegen en selecteer het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document zich bevindt waaraan u tekst wilt toevoegen en selecteer het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar het document zich bevindt waaraan u tekst wilt toevoegen en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar het document zich bevindt waaraan u tekst wilt toevoegen en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -488,7 +488,7 @@ Deze actiemodule converteert en downloadt het geselecteerde document.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
@@ -496,7 +496,7 @@ Deze actiemodule converteert en downloadt het geselecteerde document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document dat u wilt downloaden zich bevindt en selecteer het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document dat u wilt downloaden zich bevindt en selecteer het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar het document dat u wilt downloaden zich bevindt en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar het document dat u wilt downloaden zich bevindt en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -516,7 +516,7 @@ Met deze actiemodule verwijdert u een document.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
@@ -524,12 +524,12 @@ Met deze actiemodule verwijdert u een document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document dat u wilt verwijderen zich bevindt en selecteer het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document dat u wilt verwijderen zich bevindt en selecteer het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waar het document dat u wilt verwijderen zich bevindt en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waar het document dat u wilt verwijderen zich bevindt en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Shared Drive]</td> 
-   <td> <p>Selecteer het station dat het document bevat dat u wilt downloaden en selecteer vervolgens een document. Deze optie is beschikbaar als u [!DNL Google Docs] in de [!UICONTROL Choose a Drive] veld.</p> </td> 
+   <td> <p>Selecteer het station dat het document bevat dat u wilt downloaden en selecteer vervolgens een document. Deze optie is beschikbaar als u [!DNL Google Docs] in het veld [!UICONTROL Choose a Drive] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Document ID]</td> 
@@ -553,19 +553,19 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Een pad invoeren ten opzichte van <code>https://docs.googleapis.com/</code>. Voorbeeld: <code>/v1/documents/{presentationID}</code>. </p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van <code>https://docs.googleapis.com/</code> . Voorbeeld: <code>/v1/documents/{presentationID}</code> . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> <p> </p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref"> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] Hiermee voegt u de machtigingsheaders voor u toe.</p> </td> 
+   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld <code>{"Content-type":"application/json"}</code> . [!DNL Workfront Fusion] voegt de machtigingsheaders voor u toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -573,7 +573,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -581,7 +581,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
  </tbody> 
 </table>
 
-**Voorbeeld:** Met de volgende API-aanroep worden de gegevens voor het opgegeven document opgehaald in uw Google Docs:
+**Voorbeeld:** de volgende API vraag wint de details voor het gespecificeerde document in uw Docs van Google terug:
 
 **URL:**
 
@@ -593,7 +593,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
 
 ![](assets/api-call-example.png)
 
-Details van het opgehaalde document vindt u in de Output van de module onder [!UICONTROL Bundle] > [!UICONTROL Body].
+Meer informatie over het opgehaalde document vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] .
 
 ![](assets/api-output.png)
 
@@ -607,7 +607,7 @@ Met deze actiemodule vindt u alle koppelingen in het document en kunt u erop kli
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Make All Links in a Document]</p> </td> 
@@ -619,16 +619,16 @@ Met deze actiemodule vindt u alle koppelingen in het document en kunt u erop kli
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waarin het document staat waarin u koppelingen klikbaar wilt maken. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld.</p> 
+   <td> <p>Selecteer het type station waarin het document staat waarin u koppelingen klikbaar wilt maken. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document staat waarin u wilt dat koppelingen klikbaar zijn. Selecteer vervolgens het document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document staat waarin u wilt dat koppelingen klikbaar zijn. Selecteer vervolgens het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station]</strong> (beschikbaar voor [!DNL G Suite] alleen gebruikers)</p> <p>Selecteer of u wilt [!UICONTROL Use Domain Admin Access]. Selecteren [!UICONTROL Yes] geeft het verzoek uit als domeinbeheerder, en alle gedeelde aandrijving waarin de aanvrager een beheerder is teruggekeerd.</p> <p>Selecteer het gedeelde station waarin het document zich bevindt waarop u koppelingen klikbaar wilt maken en selecteer vervolgens het document.</p> <p>Opmerking: Als u de optie [!DNL Google Docs] in dit veld en u bent geen [!DNL G Suite] gebruiker, de fout <code>[400] Invalid Value</code> wordt geretourneerd.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waarin het document zich bevindt waarop u koppelingen klikbaar wilt maken en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Shared Drive]</td> 
-   <td> <p>Selecteer het station met het document waarin u de koppelingen wilt bijwerken en selecteer vervolgens een document. Deze optie is beschikbaar als u [!DNL Google Docs] in de [!UICONTROL Choose a Drive field].</p> </td> 
+   <td> <p>Selecteer het station met het document waarin u de koppelingen wilt bijwerken en selecteer vervolgens een document. Deze optie is beschikbaar als u [!DNL Google Docs] hebt geselecteerd in [!UICONTROL Choose a Drive field] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Document ID]</td> 

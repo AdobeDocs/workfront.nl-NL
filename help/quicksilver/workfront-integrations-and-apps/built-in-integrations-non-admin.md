@@ -3,13 +3,13 @@ product-area: workfront-integrations
 keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Overzicht van ingebouwde Adobe Workfront-integratie
-description: U kunt [!DNL Adobe Workfront] met toepassingen van derden. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
+description: U kunt  [!DNL Adobe Workfront]  met derdetoepassingen integreren. Deze integraties kunnen het nut van  [!DNL Workfront]  uitbreiden en het aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de invoegtoepassing Adobe Creative Cloud gebruiken om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-U kunt [!DNL Adobe Workfront] met toepassingen van derden en andere [!DNL Adobe] producten. Deze integratie kan het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Als u bijvoorbeeld een creatieve werknemer bent in de marketingindustrie, kunt u de opdracht [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] toepassingen om middelen rechtstreeks van Photoshop naar Workfront te exporteren.
+U kunt [!DNL Adobe Workfront] integreren met toepassingen van derden en met andere [!DNL Adobe] -producten. Deze integratie kan het nut van [!DNL Workfront] uitbreiden en het aanpassen aan de behoeften van uw organisatie. Als u bijvoorbeeld een creatieve worker bent in de marketingindustrie, kunt u de plug-in [!DNL Adobe Workfront] voor [!DNL Creative Cloud] -toepassingen gebruiken om elementen rechtstreeks van Photoshop naar Workfront te exporteren.
 
-Uw [!DNL Workfront] de beheerder moet ingebouwde integratie toelaten en vormen alvorens u hen kunt gebruiken. Als u wilt weten welke geïntegreerde integratie binnen uw organisatie wordt gebruikt, neemt u contact op met uw [!DNL Workfront] beheerder.
+Uw [!DNL Workfront] beheerder moet ingebouwde integraties toelaten en vormen alvorens u hen kunt gebruiken. Neem contact op met de [!DNL Workfront] -beheerder voor informatie over de ingebouwde integratie die u in uw organisatie gebruikt.
 
 ## Beschikbare ingebouwde integratie
 
@@ -34,7 +34,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integreren [!DNL Workfront] opmerkingen en goedkeuringen met de volgende Adobe Creative Cloud-toepassingen: 
+     <li>Integreer [!DNL Workfront] opmerkingen en goedkeuringen met de volgende Adobe Creative Cloud-toepassingen: 
      <ul>
      <li>InDesign </li>
      <li>Illustrator </li>
@@ -43,8 +43,8 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Downloaden/installeren vanaf <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Zie voor meer informatie en instructies <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installeer de  [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen</a>.</p> </td> 
+     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
+     <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -64,8 +64,8 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Een G-Suite-e-mail toevoegen aan een project of taak </li> 
-     <li>Weergeven en beheren [!DNL Workfront] meldingen in Gmail</li> 
+     <li>Een Google Workspace-e-mail toevoegen aan een project of taak </li> 
+     <li>[!DNL Workfront] -meldingen weergeven en beheren in Gmail</li> 
      <li>Verzoeken verzenden via Gmail </li> 
     </ul> </td> 
   </tr> 
@@ -81,7 +81,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td> 
     <ul> 
      <li>Nieuwe tickets maken in [!DNL Jira] op basis van taken en problemen in [!DNL Workfront]</li> 
-     <li>Updates en status van gekoppelde taken synchroniseren tussen [!DNL Workfront] en [!DNL Jira] </li> 
+     <li>Updates en statussen van gekoppelde taken synchroniseren tussen [!DNL Workfront] en [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td> 
     <ul> 
      <li> <p>Integreer met een Web-based versie van Vooruitzichten in wolk-ontvangen Bureau 365 of Vooruitzichten Live. </p> </li> 
-     <li> <p>Alle gebeurtenissen van uw [!DNL Outlook] kalender en de bijbehorende kalenders die u selecteert, zoals verjaardagen en feestdagen, in uw kalender.</p>  <p>Nota: De de kalenderconfiguratie van Vooruitzichten is volledig gescheiden van Vooruitzichten toe:voegen-binnen (de Integratie van Vooruitzichten of Workfront voor Vooruitzichten). Er is geen installatie vereist om de kalender te configureren.</p></li> 
+     <li> <p>Geef alle gebeurtenissen in uw kalender van [!DNL Outlook] en alle bijbehorende kalenders die u selecteert, zoals verjaardagen en feestdagen, weer in uw kalender.</p>  <p>Nota: De de kalenderconfiguratie van Vooruitzichten is volledig gescheiden van Vooruitzichten toe:voegen-binnen (de Integratie van Vooruitzichten of Workfront voor Vooruitzichten). Er is geen installatie vereist om de kalender te configureren.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -104,28 +104,28 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td> 
     <ul> 
      <li>Een bestaand project/taak/probleem bijwerken met gegevens uit een e-mail </li> 
-     <li>E-mails converteren naar [!DNL Workfront] objecten direct vanuit je Postvak IN </li> 
+     <li>E-mails direct vanuit je postvak converteren naar [!DNL Workfront] items </li> 
      <li>Nieuwe taken maken op basis van een e-mail </li> 
-     <li>Opmerking over [!DNL Workfront] items </li> 
+     <li>Opmerkingen maken over [!DNL Workfront] items </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Get [!DNL Workfront] meldingen in [!DNL Microsoft Teams] </li> 
+     <li>[!DNL Workfront] meldingen ophalen in [!DNL Microsoft Teams] </li> 
      <li>Goedkeuringsbeslissingen nemen </li> 
      <li>Zoeken naar [!DNL Workfront] projecten, taken en problemen </li> 
-     <li>Maken [!DNL Workfront] persoonlijke taken </li> 
-     <li>Verzenden [!DNL Workfront] verzoeken </li> 
+     <li>[!DNL Workfront] persoonlijke taken maken </li> 
+     <li>[!DNL Workfront] -aanvragen verzenden </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Nieuw maken [!DNL Workfront] verzoeken van [!DNL Salesforce] </li> 
-     <li>Maken [!DNL Workfront] projecten van [!DNL Salesforce]</li> 
+     <li>Nieuwe [!DNL Workfront] aanvragen maken van [!DNL Salesforce] </li> 
+     <li>[!DNL Workfront] projecten maken van [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -139,10 +139,10 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Ontvangen [!DNL Workfront] meldingen in [!DNL Slack] </li> 
+     <li>[!DNL Workfront] -meldingen ontvangen in [!DNL Slack] </li> 
      <li>Goedkeuringen beheren in Slack </li> 
-     <li>Maken [!DNL Workfront] taken en problemen van [!DNL Slack] </li> 
-     <li>Opmerkingen van Slack naar een project of taak verzenden</li> 
+     <li>[!DNL Workfront] taken en problemen maken vanuit [!DNL Slack] </li> 
+     <li>Post maakt opmerkingen over een project of taak van Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -164,8 +164,8 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
  </tbody> 
 </table>
 
-&#42;Beschikbaar tegen extra kosten.
+&#42; Beschikbaar aan extra kosten.
 
-## Overige [!DNL Workfront] integratie
+## Overige [!DNL Workfront] -integratie
 
-De integratie die u wilt is mogelijk geen ingebouwde integratie. Maar [!DNL Workfront] biedt andere manieren om met de app of webservice van uw keuze te integreren. Voor meer informatie over andere manieren om met te integreren [!DNL Workfront], zie [Adobe Workfront-integratiemethoden](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
+De integratie die u wilt is mogelijk geen ingebouwde integratie. [!DNL Workfront] biedt echter andere manieren om met de app of webservice van uw keuze te integreren. Voor meer informatie over andere manieren om met [!DNL Workfront] te integreren, zie [ de integratiemethodes van Adobe Workfront ](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).

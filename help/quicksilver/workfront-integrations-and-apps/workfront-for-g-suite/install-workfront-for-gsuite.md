@@ -2,25 +2,25 @@
 product-area: workfront-integrations;setup
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Installeren [!DNL Adobe Workfront] voor G Suite
-description: U kunt de [!DNL Adobe Workfront] voor de invoegtoepassing G Suite vanuit de G Suite Marketplace.
+title: Installeren  [!DNL Adobe Workfront]  voor Google Workspace
+description: U kunt  [!DNL Adobe Workfront]  voor Google Workspace toe:voegen-op van de Marketplace van Workspace van Google installeren.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Installeren [!DNL Adobe Workfront for G Suite]
+# Installeren [!DNL Adobe Workfront for Google Workspace]
 
 >[!NOTE]
 >
->De meest recente versie van de [!DNL Adobe Workfront] insteekmodule voor [!DNL Google] is op 26 juni 2023 vrijgegeven.
+>De meest recente versie van de [!DNL Adobe Workfront] plug-in voor [!DNL Google] is uitgebracht op 26 juni 2023.
 
-U kunt de [!DNL Adobe Workfront for G Suite] invoegtoepassing van de [!DNL G Suite] Marketplace.
+U kunt de invoegtoepassing [!DNL Adobe Workfront for Google Workspace] installeren vanaf de Marketplace van [!DNL Google Workspace] .
 
 ## Toegangsvereisten
 
@@ -41,17 +41,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Installeren [!DNL Workfront for G Suite]
+## Installeren [!DNL Workfront for Google Workspace]
 
-1. Klik op de volgende koppeling: [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
+1. Klik op de volgende koppeling: [[!DNL Workfront for Google Workspace] ](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    of
 
-   Klik op het pictogram met het plusteken in het dialoogvenster [!DNL G Suite] add-ons zijbalk uiterst rechts van een [!DNL G Suite] app ([!DNL Gmail], [!DNL Google Calendar], of [!DNL Google Drive]). Zoeken naar *[!DNL Workfront for G Suite]* klikt u op de knop [!DNL Workfront for G Suite] app-item dat wordt weergegeven.
+   Klik op het pictogram met het plusteken in de zijbalk met invoegtoepassingen uiterst rechts van een [!DNL Google Workspace] app ([!DNL Gmail] , [!DNL Google Calendar] of [!DNL Google Drive] ). [!DNL Google Workspace] Zoek naar *[!DNL Workfront for Google Workspace]* en klik vervolgens op het app-item [!DNL Workfront for Google Workspace] dat wordt weergegeven.
 
-1. Klikken **[!UICONTROL Install]** en volgt u de aanwijzingen die worden weergegeven.
-1. (Voorwaardelijk) In uw [!DNL G Suite] app, als u de [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) in de [!DNL G Suite] De invoegpositie bevindt zich uiterst rechts op de pagina en vernieuwt de pagina.
+1. Klik op **[!UICONTROL Install]** en volg de aanwijzingen die worden weergegeven.
+1. (Voorwaardelijk) Als u het [!DNL Workfront] pictogram ![](assets/wf-lion-icon.png) niet ziet in de zijbalk met invoegtoepassingen van [!DNL Google Workspace] uiterst rechts op de pagina, vernieuwt u de pagina in uw [!DNL Google Workspace] -app.
 
-Voor informatie over het aanmelden raadpleegt u [Aanmelden en uit [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Voor informatie over het registreren binnen, zie [ Login en uit van  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
