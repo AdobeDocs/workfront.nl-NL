@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
+   <td> <p>U moet een systeembeheerder of een groepsbeheerder zijn. De groepsbeheerder heeft een beperkte weergave van licentiegegevens.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 >[!NOTE]
 >
@@ -71,21 +71,21 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ## Licenties van uw organisatie bekijken
 
-Het aantal licenties dat in gebruik is, wordt automatisch bijgewerkt wanneer u toegangsniveaus toewijst aan gebruikers die u aan Workfront toevoegt. Zie voor meer informatie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Het aantal licenties dat in gebruik is, wordt automatisch bijgewerkt wanneer u toegangsniveaus toewijst aan gebruikers die u aan Workfront toevoegt. Voor meer informatie, zie [ gebruikers ](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
 {{step-1-to-setup}}
 
-1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
+1. Bij de bodem van het linkerpaneel, klik **Systeem** > **Vergunningen**.
 
-   Ga voor meer informatie over de licenties die op deze pagina worden vermeld naar [Overzicht van licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Voor meer informatie over de vergunningen die op deze pagina worden vermeld, zie [ overzicht van Vergunningen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
-   >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof-add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over deze invoegtoepassing raadpleegt u [Workfront Proof: artikelindex](../../workfront-proof/workfront-proof.md).
+   >Bewijslicenties zijn alleen beschikbaar voor klanten die de betaalde Workfront Proof-add-on hebben aangeschaft naast hun Workfront-licentie. Voor informatie over dit toe:voegen-op, zie [ Workfront Proof: artikelindex ](../../workfront-proof/workfront-proof.md).
 
-1. (Voorwaardelijk) Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep toevoegen** voegt u een thuisgroep toe aan uw systeem, zoals wordt uitgelegd in de sectie [Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties](#add-or-remove-a-home-group-to-the-licenses-page) in dit artikel.
+1. (Voorwaardelijk) als u het bericht **ziet om een maximum te plaatsen, moet u een Groep van het Huis** toevoegen, een Groep van het Huis in uw systeem zoals die in de sectie [ wordt verklaard toevoegen of een Groep van het Huis aan de pagina van Vergunningen ](#add-or-remove-a-home-group-to-the-licenses-page) in dit artikel verwijderen.
 
    >[!NOTE]
    >
@@ -93,16 +93,16 @@ U kunt als volgt de licentiegegevens in uw systeem weergeven:
 
 ## Informatie weergeven over licenties voor Workfront-invoegtoepassingen
 
-Als uw organisatie over de betaalde Workfront Proof-invoegtoepassing beschikt, worden het aantal gebruikte licenties en het aantal beschikbare licenties weergegeven. Bijvoorbeeld: **5 van 10 Proefvergunningen** geeft aan dat de organisatie momenteel 5 van de 10 Workfront Proof-licenties gebruikt die ze hebben aangeschaft.
+Als uw organisatie over de betaalde Workfront Proof-invoegtoepassing beschikt, worden het aantal gebruikte licenties en het aantal beschikbare licenties weergegeven. Bijvoorbeeld, **5 van 10 vergunningen van het Bewijs** wijst erop dat de organisatie momenteel 5 van de 10 Workfront Proof vergunningen gebruikt die zij kochten.
 
-![Licentie voor Workfront-invoegtoepassingen](assets/updated-licenses-page.png)
+![ Vergunning voor Workfront toe:voegen-ons ](assets/updated-licenses-page.png)
 
 Als uw organisatie Workfront Goals heeft aangeschaft, wordt de licentieinformatie voor dit product ook hier weergegeven. In dit geval kunt u de volgende informatie weergeven:
 
 * Het totale aantal licenties voor Workfront Goals dat uw bedrijf heeft aangeschaft
 * Het aantal licenties voor Workfront Goals dat aan gebruikers is gekoppeld. Dit is het aantal gebruikers aan wie minstens de toegang van de Mening tot Doelstellingen in hun toegangsniveau hebben verleend.
 
-Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over toegang tot Workfront-doelen raadpleegt u [Toegang tot Adobe Workfront-doelen verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/wf-goals-overview.md). Voor informatie over toegang tot de Doelen van Workfront, zie [ Toegang van de Verlening tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -120,21 +120,21 @@ If an organization has other paid add-on products, their license information als
 >* Limiet voor licentietype: limiet voor werknemers
 >* Limiet licentietype: limiet planner
 >
->Ga voor meer informatie over het maken van een rapport naar [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>Meer leren over het creëren van een rapport, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Informatie weergeven over maandelijkse toegewezen bewijzen en documenten
 
 >[!IMPORTANT]
 >
->De limieten voor het bewijs van bevoegdheid en het document gelden alleen voor gebruikers van de nieuwe licenties. Zie voor meer informatie [Overzicht van nieuwe licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>De limieten voor het bewijs van bevoegdheid en het document gelden alleen voor gebruikers van de nieuwe licenties. Voor meer informatie, zie [ Nieuw vergunningsoverzicht ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Voor alle niet-betaalde Workfront-licenties geldt een beperking van het aantal bewijzen en documentbeschikkingen. Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers.
 
 De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement dat u gebruikt. U kunt uw maandelijkse toewijzing bekijken in Opstelling > Vergunningen.
 
-Zie voor meer informatie over de beperkingen van bewijsmiddelen en beslissingen over documenten [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Voor meer informatie over bewijs en documentbeslissingsgrenzen, zie [ Beperkt document en bewijsbesluit voor niet-betaalde gebruikers overzicht ](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![Maandelijkse beslissingstoewijzing](assets/monthly-decision-allotment.png)
+![ Maandelijkse beslissingstoewijzing ](assets/monthly-decision-allotment.png)
 
 ## Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties {#add-or-remove-a-home-group-to-the-licenses-page}
 
@@ -142,11 +142,11 @@ Zie voor meer informatie over de beperkingen van bewijsmiddelen en beslissingen 
 
 Elke gebruiker kan aan slechts één Groep van het Huis worden toegewezen. Workfront biedt een aantal licenties voor groepen door te berekenen hoeveel licenties zijn toegewezen en momenteel worden gebruikt in elke Home Group.
 
-Als u het bericht ziet **Als u een maximum wilt instellen, moet u een thuisgroep toevoegen** op de pagina Licenties moet u ten minste één startgroep toevoegen aan de pagina Licenties.
+Als u het bericht **ziet om een maximum te plaatsen, moet u een Groep van het Huis** op de pagina van Vergunningen toevoegen, moet u minstens één Groep van het Huis aan de pagina van Vergunningen toevoegen.
 
 >[!IMPORTANT]
 >
->* Om vergunningen met huisgroepen effectief te beheren, adviseren wij vestiging specifieke Groepen van het Huis voor bedrijfseenheden alvorens het maximum aantal vergunning bij te werken. Zie voor meer informatie [Overzicht van thuisgroepen](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
+>* Om vergunningen met huisgroepen effectief te beheren, adviseren wij vestiging specifieke Groepen van het Huis voor bedrijfseenheden alvorens het maximum aantal vergunning bij te werken. Voor meer informatie, zie [ overzicht van de Groepen van het Huis ](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
 >* U kunt alleen groepen op hoofdniveau toevoegen als thuisgroepen, niet als subgroepen. Als een gebruiker een subgroep heeft die als hun Groep van het Huis wordt toegewezen, wordt hun vergunning toegevoegd aan de vergunningstelling voor de top-level groep boven die subgroep.
 >
 
@@ -154,19 +154,19 @@ Een thuisgroep toevoegen aan of verwijderen uit de pagina Licenties:
 
 {{step-1-to-setup}}
 
-1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
+1. Bij de bodem van het linkerpaneel, klik **Systeem** > **Vergunningen**.
 
-1. Klikken **Groepenlijst beheren**.
-1. Typ de naam van de bovenste groep in het dialoogvenster **Thuisgroepen** doos.
+1. Klik **beheren de Lijst van de Groep**.
+1. Begin typend de naam van de top-level groep in de **doos van de Groepen van het Huis**.
 1. Als u de groep wilt toevoegen, klikt u op de naam van de groep wanneer deze wordt weergegeven.
 
    of
 
    Als u de groep wilt verwijderen, klikt u op het X-pictogram rechts van de naam.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-Als Workfront-beheerder kunt u het maximale aantal licenties voor de Home Group instellen om te voorkomen dat een bedrijfseenheid Workfront-licenties gebruikt die zijn aangeschaft voor andere bedrijfseenheden. Zie voor instructies [Het maximale aantal licenties voor een thuisgroep instellen](#set-the-maximum-license-count-for-a-home-group) in dit artikel.
+Als Workfront-beheerder kunt u het maximale aantal licenties voor de Home Group instellen om te voorkomen dat een bedrijfseenheid Workfront-licenties gebruikt die zijn aangeschaft voor andere bedrijfseenheden. Voor instructies, zie [ de maximumvergunningstelling voor een Groep van het Huis ](#set-the-maximum-license-count-for-a-home-group) in dit artikel plaatsen.
 
 ## Het maximale aantal licenties voor een thuisgroep instellen {#set-the-maximum-license-count-for-a-home-group}
 
@@ -174,16 +174,16 @@ Als beheerder van Workfront, kunt u maximumvergunningstellingen voor de top-leve
 
 Standaard is het maximale aantal licenties ingesteld op N.v.t., wat betekent dat er geen limiet is.
 
-De beheerders van de groep kunnen het aantal vergunningen bekijken die in een Groep van het Huis worden toegewezen en worden gebruikt zij beheren. Zie voor meer informatie [Het aantal licenties weergeven dat is toegewezen en gebruikt in een groep](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+De beheerders van de groep kunnen het aantal vergunningen bekijken die in een Groep van het Huis worden toegewezen en worden gebruikt zij beheren. Voor meer informatie, zie [ Mening het aantal vergunningen die in een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md) worden toegewezen en worden gebruikt.
 
 Het maximale aantal licenties voor een thuisgroep instellen:
 
 {{step-1-to-setup}}
 
-1. Klik onder aan het linkerdeelvenster op **Systeem** > **Licenties**.
+1. Bij de bodem van het linkerpaneel, klik **Systeem** > **Vergunningen**.
 
 1. Zoek de thuisgroep in de lijst.
-1. In de **Max** Klik op de waarde waarvoor u een maximum wilt instellen.
+1. In de **Max** kolom van de groep, klik de waarde die u een maximum voor wilt plaatsen.
 1. Typ het maximale getal en druk op Enter.
 
    ![](assets/updated-max.png)
