@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,6 @@ Geef uw netwerkbeheerder de volgende informatie:
 
 1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
 
-   Uw abonnement wordt onder aan de pagina weergegeven.
+   Uw plan wordt in de rechterbovenhoek van de pagina weergegeven.
 
    ![](assets/locate-plan.png)
