@@ -6,9 +6,9 @@ description: Portfolio's zijn verzamelingen van projecten of programma's in Adob
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--Audited: 2/2024-->
 
-Portfolio&#39;s zijn collecties van projecten of programma&#39;s in [!DNL Adobe Workfront]. U kunt een portfolio verwijderen of deactiveren als u vindt dat dit niet relevant is voor uw systeem.
+Portfolio&#39;s zijn verzamelingen van projecten of programma&#39;s in [!DNL Adobe Workfront] . U kunt een portfolio verwijderen of deactiveren als u vindt dat dit niet relevant is voor uw systeem.
 
 Wij adviseren deactivering van een portefeuille die niet meer met toekomstige projecten moet worden geassocieerd in plaats van het te schrappen, om de historische informatie over de projecten te houden die momenteel met de portefeuille en zijn programma&#39;s worden geassocieerd.
 
@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> <p>Nieuw: [!UICONTROL Standard] </p>
-   <p>Huidige: [!UICONTROL Plan] </p> </td> 
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,20 +71,22 @@ Houd rekening met het volgende wanneer u besluit of u portfolio&#39;s wilt verwi
 
 ## Een portfolio deactiveren
 
-Wanneer u een portfolio deactiveert, kunt u het nog steeds openen via het dialoogvenster [!UICONTROL Portfolios] , maar wordt niet meer weergegeven in de lijst met portfolio&#39;s wanneer gebruikers deze proberen toe te voegen aan een project.
+Wanneer u een portfolio deactiveert, hebt u nog steeds toegang tot dit portfolio vanuit het [!UICONTROL Portfolios] -gebied, maar het wordt niet meer weergegeven in de lijst met portfolio&#39;s wanneer gebruikers het willen toevoegen aan een project.
 
 >[!NOTE]
 >
->Afhankelijk van hoe uw [!DNL Workfront] of groepsbeheerder configureert uw lay-outmalplaatje, [!UICONTROL Portfolios] gebied wordt mogelijk niet weergegeven in het dialoogvenster [!UICONTROL Main Menu]. Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Afhankelijk van de configuratie van de lay-outsjabloon door de [!DNL Workfront] - of groepsbeheerder, wordt het [!UICONTROL Portfolios] -gebied mogelijk niet weergegeven in de [!UICONTROL Main Menu] . Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
-1. Klikken **[!UICONTROL Portfolios]** .
+{{step1-click-main-menu}}
+
+1. Klik op **[!UICONTROL Portfolios]** .
 1. Klik op de naam van het portfolio.
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van het portfolio klikt u op **[!UICONTROL Deactivate Portfolio]**.
+1. Klik **Meer** menu ![](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
 
 ## Een portfolio verwijderen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek
-1. Klikken **[!UICONTROL Portfolios]** .
-1. Selecteer het portfolio en klik op **[!UICONTROL Delete]**&#x200B; de [!UICONTROL Delete] pictogram ![](assets/delete.png).
-1. Klik in het vak dat wordt weergegeven op **[!UICONTROL Yes, Delete It]** ter bevestiging.
+{{step1-click-main-menu}}
+
+1. Klik op **[!UICONTROL Portfolios]** .
+1. Selecteer het portfolio en klik op **[!UICONTROL Delete]** &#x200B; het [!UICONTROL Delete] pictogram ![](assets/delete.png) .
+1. Klik op **[!UICONTROL Yes, Delete It]** om te bevestigen.

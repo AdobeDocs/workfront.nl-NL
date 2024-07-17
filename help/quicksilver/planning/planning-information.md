@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -48,22 +48,58 @@ Ga naar de volgende artikelen voor een overzicht van de nieuwe Planning van Work
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-* [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md): Een overzicht op hoog niveau van de Planning van Adobe Workfront, met inbegrip van de terminologie en de concepten die uniek aan deze oplossing zijn. We raden je aan om je reis te beginnen met Workfront Planning hier.
-* [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md): Een lijst met alle functies die zijn vrijgegeven sinds de start van het planningsprogramma van Adobe Workfront op 22 mei 2023, met exacte releasedatums en een kort overzicht van elk onderdeel.
-* [Adobe Workfront Planning AI Assistant - overzicht](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de assistent van Workfront AI voor Planning kunt u naar verslagen zoeken, of, verslagen creëren bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
+* [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md): Een overzicht op hoog niveau van de Planning van Adobe Workfront, met inbegrip van de terminologie en de concepten die aan deze oplossing uniek zijn. We raden je aan om je reis te beginnen met Workfront Planning hier.
+* [ Adobe Workfront Plannend huidige versieactiviteit ](/help/quicksilver/planning/general/release-activity.md): Een lijst van alle eigenschappen die sinds de lancering van het Programma van de Planning van Adobe Workfront, op 22 mei, 2023 met nauwkeurige versiedata en een kort overzicht van elke eigenschap zijn vrijgegeven.
+* [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
 
-  De Workfront AI Assistant is momenteel beschikbaar voor het selecteren van klanten in een bètafase. Neem contact op met uw accountvertegenwoordiger om te weten of je in aanmerking komt voor deelname om dit nieuwe aanbod uit te proberen.
+  >[!NOTE]
+  >
+  >    De Workfront AI Assistant is momenteel beschikbaar voor het selecteren van klanten in een bètafase. Neem contact op met uw accountvertegenwoordiger om te weten of je in aanmerking komt voor deelname om dit nieuwe aanbod uit te proberen.
 
-* [Adobe Workfront-planningsmodules voor Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
+* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
 ## Workfront Planning Architectuur en functionaliteit
 
 De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven van de functies die momenteel beschikbaar zijn voor Workfront Planning:
 
-* [Toegang en informatie over machtigingen: artikelindex](/help/quicksilver/planning/access/access-information.md): Informatie over de toegang en de toestemmingen nodig om de Planning van Workfront te gebruiken.
-* [Architectuur: artikelindex](/help/quicksilver/planning/architecture/architecture-information.md): Uitgebreide informatie over de architectuur van de Planning van Workfront, met geleidelijke instructies op hoe u werkruimten en verslagtypes tot stand kunt brengen en beheren.
-* [Velden: artikelindex](/help/quicksilver/planning/fields/fields-information.md): Uitgebreide informatie en stapsgewijze instructies voor het maken van aangepaste velden voor recordtypen.
-* [Records: artikelindex](/help/quicksilver/planning/records/records-information.md): Uitgebreide informatie en stapsgewijze instructies over hoe u records kunt maken en beheren.
-* [Weergaven: artikelindex](/help/quicksilver/planning/views/views-information.md): Uitgebreide informatie over recordweergaven en hoe u deze kunt beheren bij het weergeven van een pagina met recordtypen.
-* [Meldingen: artikelindex](/help/quicksilver/planning/notifications/notifications-information.md): Informatie over e-mail- en in-app-meldingen die zijn gegenereerd door gebeurtenissen in Workfront Planning.
+* [ toegang en toestemmingsinformatie: artikelindex ](/help/quicksilver/planning/access/access-information.md) bevat de volgende informatie:
+
+   * Workfront-licenties en planningsmachtigingen
+   * Machtigingen voor delen plannen
+   * Weergaven delen
+   * Werkruimten delen (recordtypen, records en velden)
+
+* [ Architectuur: artikelindex ](/help/quicksilver/planning/architecture/architecture-information.md) bevat de volgende informatie:
+
+   * Werkruimten maken, bewerken, verwijderen
+   * Recordtypen maken, bewerken en verwijderen
+   * Verbind verslagtypes en voorbeelden van verbindende verslagtypes
+   * Workspace-sjabloon
+
+* [ Gebieden: artikelindex ](/help/quicksilver/planning/fields/fields-information.md) bevat de volgende informatie:
+
+   * Velden maken, bewerken en verwijderen
+   * Formuliervelden
+   * Primaire velden
+
+* [ Verslagen: artikelindex ](/help/quicksilver/planning/records/records-information.md) bevat de volgende informatie:
+
+   * Records maken, bewerken en verwijderen
+   * Connect-records
+   * Een omslagafbeelding of miniatuur toevoegen aan een record
+   * De lay-out van een recordpagina beheren
+   * Opmerkingen en de sectie Historie opnemen
+   * Records delen
+   * sectie Workfront Planning voor Workfront-objecten
+
+* [ Meningen: artikelindex ](/help/quicksilver/planning/views/views-information.md) bevat de volgende informatie:
+
+   * Recordweergaven maken
+   * De tabel-, tijdlijn- en kalenderweergaven beheren
+
+* [ Meldingen: De index van het artikel ](/help/quicksilver/planning/notifications/notifications-information.md) bevat de volgende informatie:
+
+   * Meldingsvoorkeuren beheren
+   * Meldingen in apps plannen
+   * E-mailberichten plannen
 

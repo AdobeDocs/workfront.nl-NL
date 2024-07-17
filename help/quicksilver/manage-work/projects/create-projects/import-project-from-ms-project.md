@@ -6,9 +6,9 @@ description: U kunt projecten van het Project van Microsoft in Adobe Workfront i
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,18 @@ U kunt projecten van het Project van Microsoft in Adobe Workfront invoeren en al
 >
 >Niet alle Microsoft-projectvelden worden overgedragen naar Workfront.
 >
->Ga voor meer informatie over de compatibiliteit van velden tussen Workfront en Microsoft Project naar [Microsoft-projectvelden toewijzen aan Adobe Workfront-projecten](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie [ de gebieden van het Project van Microsoft van de Kaart aan de projecten van Adobe Workfront ](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
@@ -41,19 +43,19 @@ U kunt projecten van het Project van Microsoft in Adobe Workfront invoeren en al
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Wanneer u een project maakt, ontvangt u automatisch beheermachtigingen voor het project </p> <p> Zie voor informatie over projectmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Wanneer u een project maakt, ontvangt u automatisch beheermachtigingen voor het project </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--old permissions model: 
 
@@ -91,21 +93,21 @@ You must have the following access to perform the steps in this article:
 U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of van het gebied van Projecten van een portefeuille of een programma tot stand brengen.
 
 1. Ga naar Microsoft Project en open een project waaruit u wilt importeren in Workfront.
-1. Klikken **Bestand** vervolgens **Opslaan als** om het project als .xml- dossier op te slaan.
+1. Klik **Dossier**, dan **sparen als** om het project als .xml- dossier te bewaren.
 
 1. Meld u aan bij Workfront.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op de knop **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Projecten** vervolgens uitvouwen **Nieuw project**.
-   * Naar een portfolio gaan en vervolgens uitvouwen **Nieuw project**.
-   * Naar een programma gaan en vervolgens uitvouwen **Nieuw project**.
-   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Zie voor meer informatie [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, of klik het **Belangrijkste Menu** ![](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
+   * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
+   * Ga naar een programma, dan breid **Nieuw Project** uit.
+   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Kies de optie **MS-project importeren** -optie.
+1. Kies de **optie van het Project van MS van de Invoer**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Klikken **Bestand selecteren** Blader vervolgens naar het .xml-bestand op uw computer dat u uit Microsoft Project hebt geëxporteerd.
+1. Klik **Uitgezochte Dossier**, dan doorblader voor het .xml- dossier op uw computer die u van het Project van Microsoft uitvoerde.
 1. Het geselecteerde bestand importeren.
 
    Workfront begint het importproces en maakt een nieuw project op basis van het bestand dat is geëxporteerd uit Microsoft Project.
@@ -114,8 +116,8 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
 
    >[!NOTE]
    >
-   >Workfront heeft een tijdlimiet van 15 minuten voor het uploaden van bestanden. Als het uploaden van het bestand langer duurt dan dat, raden we u aan uw project in kleinere projecten op te delen en afzonderlijk te importeren. Zodra zij in Workfront zijn ingevoerd, verplaats de taken van één project naar het andere project om hen in één project te combineren. Voor informatie over het verplaatsen van taken raadpleegt u [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+   >Workfront heeft een tijdlimiet van 15 minuten voor het uploaden van bestanden. Als het uploaden van het bestand langer duurt dan dat, raden we u aan uw project in kleinere projecten op te delen en afzonderlijk te importeren. Zodra zij in Workfront zijn ingevoerd, verplaats de taken van één project naar het andere project om hen in één project te combineren. Voor informatie bij het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-1. (Optioneel) Ga door met het bewerken van het project in Workfront. Zie voor informatie over het bewerken van projecten [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Optioneel) Ga door met het bewerken van het project in Workfront. Voor informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-   De status van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het gebied van de Voorkeur van het Project of door een groepsbeheerder in het gebied van de Voorkeur van het Project van de Groep wordt bepaald. Voor informatie over het vormen van projectvoorkeur, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   De status van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status door uw beheerder van Workfront in het gebied van de Voorkeur van het Project of door een groepsbeheerder in het gebied van de Voorkeur van het Project van de Groep wordt bepaald. Voor informatie over het vormen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.

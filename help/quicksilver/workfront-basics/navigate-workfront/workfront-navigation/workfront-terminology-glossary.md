@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '16726'
+source-wordcount: '16732'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>U kunt de [!UICONTROL Planned Completion Date] handmatig instellen op een door u gekozen datum. Als u de eigenschap [!UICONTROL Planned Completion Date] niet instelt, wordt deze automatisch door [!DNL Workfront] ingesteld. Wanneer de waarde automatisch wordt ingesteld, is [!UICONTROL Planned Completion Date] : [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Raadpleeg de volgende artikelen voor meer informatie:</p> 
+   <td> <p>U kunt de [!UICONTROL Planned Completion Date] van een taak, project of uitgave handmatig instellen op een datum die u kiest. Als u de eigenschap [!UICONTROL Planned Completion Date] niet instelt, wordt deze automatisch door [!DNL Workfront] ingesteld. Wanneer de waarde automatisch wordt ingesteld, is [!UICONTROL Planned Completion Date] : [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Raadpleeg de volgende artikelen voor meer informatie:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref"> Overzicht van de taak [!UICONTROL Planned Completion Date]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref"> Plaats het project [!UICONTROL Planned Completion Date]</a> </p> </li> 

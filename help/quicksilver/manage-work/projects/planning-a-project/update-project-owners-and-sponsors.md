@@ -6,18 +6,21 @@ description: Als u een project maakt in Adobe Workfront, wordt u automatisch ing
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
+
 # Eigenaars en sponsors van projecten bijwerken
+
+<!--Audited: 07/2024-->
 
 Als u een project maakt in Adobe Workfront, wordt u automatisch ingesteld als de eigenaar van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
 
-Voor informatie over eigenaars en sponsors van projecten raadpleegt u [Overzicht van eigenaars en sponsors van projecten](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Voor informatie over projecteigenaars en sponsors, zie [ Overzicht van projecteigenaars en sponsors ](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
@@ -25,7 +28,7 @@ Voor informatie over eigenaars en sponsors van projecten raadpleegt u [Overzicht
 >
 >Als het malplaatje geen Eigenaar heeft, wordt de gebruiker die het project van het teamplate leidt de Eigenaar van het Project.
 >
->Zie voor informatie over het bewerken van sjablonen [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -60,52 +63,53 @@ Voor informatie over eigenaars en sponsors van projecten raadpleegt u [Overzicht
 </table>
 -->
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>Nieuw: Standaard</p> 
+   <p>Huidig: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
-</tr> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen bewerken voor een project</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen bewerken voor een project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De eigenaar van een project bijwerken
 
 Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, geeft Workfront hen automatisch toestemmingen om het project te bekijken.
 
 1. Ga naar het project u wilt bijwerken.
-1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op  **Overzicht**.
+1. Klik **Details van het Project** in het linkerpaneel.
+1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project, dan klik **Overzicht**.
 
-1. Geef de naam van een gebruiker voor de **Projecteigenaar** veld.
+1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0} Project.**
 
    Alleen actieve gebruikers kunnen worden opgegeven als eigenaars van projecten.
 
-1. Klikken  **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    De eigenaar van het Project werkt in de projectkopbal en in het gebied van de Details van het Project bij.
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## De projectsponsor van een project bijwerken
 
@@ -116,14 +120,14 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 >Als de gebruiker die u toevoegt als projectsponsor een systeembeheerder is, worden deze niet toegevoegd aan de lijst voor delen van het project.
 
 1. Ga naar het project dat u wilt bijwerken.
-1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op  **Overzicht**.
+1. Klik **Details van het Project** in het linkerpaneel.
+1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project, dan klik **Overzicht**.
 
-1. Geef de naam van een gebruiker voor de **Projectsponsor** veld.
+1. Specificeer de naam van een gebruiker voor het **Sponsor van het Project** gebied.
 
    Alleen actieve gebruikers kunnen worden opgegeven als projectsponsors.
 
-1. Klikken  **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    De projectsponsor werkt bij in het gebied Projectdetails.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3551'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ U kunt tijd aan de volgende punten in timesheet registreren:
 
 Aan logboektijd op een timesheet:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek.
+{{step1-click-main-menu}}
 
 1. Klik [!UICONTROL **Tijdopnemers**]. Uw huidige timesheet wordt standaard weergegeven.
    ![ Timesheet ](assets/timesheet-redesigned-nwe.png)
