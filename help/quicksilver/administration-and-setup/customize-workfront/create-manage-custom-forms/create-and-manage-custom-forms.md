@@ -1,5 +1,5 @@
 ---
-title: Aangepaste formulieren
+title: 'Aangepaste formulieren: artikelindex'
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,9 +10,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ U kunt een aangepast formulier maken dat gebruikers aan een Workfront-object kun
 
 Er is geen limiet aan het aantal aangepaste formulieren dat u kunt maken in uw Workfront-exemplaar. De limiet van aangepaste formulieren die u aan een object kunt koppelen, is 10.
 
-Deze sectie bevat de volgende artikelen:
+Deze sectie bevat de volgende artikelen en subsecties:
 
-* [ overzicht van de Vorm van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-* [Verouderde aangepaste formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Ontwerper van formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+* [Overzicht van aangepaste formulieren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [Een aangepast formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+* [Aangepaste formulieren en velden beheren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -176,8 +176,8 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
      <li> <p><strong> coreAction </strong> </p> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan geplande uren in de Balancer van de Werkbelasting bijwerken.</p> <p>Voor meer informatie, zie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref"> Gepland Uren van de Update wanneer het beheren van gebruikerstoewijzingen </a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> gebruikerstoewijzingen in de Balancer van de Werkbelasting </a> beheren.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> creeer of geef een douanevorm </a> uit.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> </li> 
       </ul> </li> 
      <li> <p><strong> forbiddenActions </strong> </p> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
       <ul> 
@@ -247,8 +247,8 @@ Als een gebruiker in Workfront geen toegang heeft tot een object dat hij of zij 
      <li> <p style="font-weight: bold;">action</p> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan geplande uren in de Balancer van de Werkbelasting bijwerken.</p> <p>Voor meer informatie, zie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref"> Gepland Uren van de Update wanneer het beheren van gebruikerstoewijzingen </a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> gebruikerstoewijzingen in de Balancer van de Werkbelasting </a> beheren.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> creeer of geef een douanevorm </a> uit.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
      <li><strong> coreAction </strong> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan geplande uren in de Balancer van de Werkbelasting bijwerken.</p> <p>Voor meer informatie, zie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref"> Gepland Uren van de Update wanneer het beheren van gebruikerstoewijzingen </a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> gebruikerstoewijzingen in de Balancer van de Werkbelasting </a> beheren.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> creeer of geef een douanevorm </a> uit.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> </li> 
       </ul> </li> 
      <li> <p><strong> forbiddenActions </strong> </p> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
       <ul> 
@@ -618,7 +618,7 @@ Een object Parameter is een aangepast veld.
 
 Het middel van de Parameter voegde de vlag SHARABLE toe.
 
-Voor meer informatie over douanevelden, zie [ een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [ creëren of uitgeven of een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uitgeven.
+Voor meer informatie over douanevelden, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [ creëren of uitgeven of een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoe
      <li><strong> requestorCoreAction </strong> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan geplande uren in de Balancer van de Werkbelasting bijwerken.</p> <p>Voor meer informatie, zie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref"> Gepland Uren van de Update wanneer het beheren van gebruikerstoewijzingen </a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> gebruikerstoewijzingen in de Balancer van de Werkbelasting </a> beheren.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> creeer of geef een douanevorm </a> uit.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen</p> </li> 
-      </ul> <li> <p><strong> requestForForbiddenActions </strong> </p> <p>De volgende mogelijke waarden zijn toegevoegd:</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Een gebruiker met een toegangsniveau dat deze machtiging bevat, kan velden toevoegen aan aangepaste formulieren.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Een gebruiker met een toegangsniveau dat deze toestemming omvat kan een douane gebied systeem-brede met de toegang van de Schrapping delen.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

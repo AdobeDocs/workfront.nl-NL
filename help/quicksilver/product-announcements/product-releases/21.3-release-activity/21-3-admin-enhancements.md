@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,3 @@ Voor meer informatie, zie [ groepsstatussen beheren ](../../../administration-an
 ## Nieuw voor beheerders: een aangepast formulier voor factureringsrecords maken
 
 Nu kunt u de manier verbeteren waarop gebruikers factureringsgegevens vastleggen door een aangepast factureringsformulier te maken. Gebruikers kunnen het aangepaste formulier aan een factureringsrecord koppelen, het invullen en rapporten uitvoeren die de informatie in het formulier bevatten.
-
-Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
-
-Voor informatie over het vastmaken van een het facturerings de douaneformulier aan een project, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
-

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,11 @@ Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de 
 
 ## Een aangepast formulier maken
 
-Er zijn twee opties om een aangepast formulier te maken in [!DNL Workfront] . U kunt de aangepaste formulierontwerper Verouderd of de nieuwe formulierontwerper gebruiken:
+De formulierontwerper heeft een werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt.
 
-* [Verouderde aangepaste formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Ontwerper van formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![ de vormontwerper van de Steekproef ](assets/form-designer-example.png)
 
 ## Aangepaste velden en widgets
 
@@ -42,15 +43,17 @@ In een aangepast formulier kunt u extra velden maken die gebruikers vragen om in
 
 In Workfront kunt u de volgende typen aangepaste velden toevoegen aan een aangepast formulier:
 
-* Tekstveld met één regel of tekst met één regel in de formulierontwerper
-* Alineatekstveld of Alineatekst in de formulierontwerper
-* Tekstveld met opmaak of Tekst met opmaak in de formulierontwerper
+* Tekst met één regel
+* Alineatekst
+* Tekst met opmaak
 * Vervolgkeuzelijst
-* Extern opzoeken - alleen beschikbaar in de formulierontwerper
+* Meerdere selecties opheffen
+* Extern opzoeken
+* Oorspronkelijk veld
 * Typeahead
 * Berekend
-* Datum- of datumveld in de formulierontwerper
-* Selectievakjes
+* Datumveld
+* Groep selectievakjes
 * Keuzerondjes
 * Beschrijvende tekst
 * Sectie-einde
@@ -58,6 +61,10 @@ In Workfront kunt u de volgende typen aangepaste velden toevoegen aan een aangep
 * Afbeelding
 * PDF
 * Video
+
+>[!NOTE]
+>
+>Als u de wijzigingen in de velden in de updateffeeds wilt bijhouden, gaat u naar Setup > Interface > feeds bijwerken. Voor meer informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
 ## Objecten waar gebruikers een aangepast formulier kunnen toevoegen
 
@@ -81,5 +88,4 @@ Gebruikers kunnen aangepaste formulieren koppelen aan de volgende objecttypen:
 Voor meer informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 Voor informatie over wat aan douaneformulieren wanneer het omzetten van een voorwerp gebeurt, zie [ de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

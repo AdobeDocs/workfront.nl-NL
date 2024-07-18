@@ -7,9 +7,9 @@ description: U kunt een koppeling naar een interne aangepaste URL weergeven door
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Het berekende aangepaste veld Aangepaste URL maken
 
-Voor informatie over het creëren van een berekend douanegebied, zie het artikel [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+Voor informatie over het creëren van een berekend douanegebied, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 Als u toegang hebt om een aangepast formulier te maken, kunt u een berekend aangepast veld maken voor taken die &#39;Aangepaste URL&#39; worden genoemd. Dit gebied verbindt direct met het **Overzicht** subtab binnen de **Details van de Taak** tabel.
 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ Voor een lijst van alle veranderingen die in 2019.4 worden aangebracht, zie [ ov
      <strong> Extra objecten types beschikbaar voor de gebieden van Typeahead in een douanevorm </strong> 
      <p>Nu, wanneer u een douanegebied van Typeahead creeert, kunt u de volgende objecten types met het gebied associëren: Gebruiker, Bedrijf, Groep, de Rol van de Baan, Portfolio, Programma, Project, en Malplaatje.</p> 
      <p>Eerder kon u alleen het objecttype Gebruiker aan een aangepast Typeahead-veld koppelen.</p> 
-     <p>Voor meer informatie, zie de sectie <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}"> een douanevorm </a> in het artikel <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}"> creëren of uitgeven of een douaneformulier </a> uitgeven.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ Voor een lijst van alle veranderingen die in 2019.4 worden aangebracht, zie [ ov
      <p>Als u bijvoorbeeld een veld Selectievakjes hebt gemaakt, kunt u dit wijzigen in een veld Vervolgkeuzelijst of Keuzerondjes. Deze drie weergavetypen in velden zijn onderling verwisselbaar.</p> 
      <p>Als u een tekstveld Eén regel hebt gemaakt, kunt u dit wijzigen in een tekstveld Alineatekst. Deze twee veldweergavetypen zijn onderling verwisselbaar.</p> 
      <p>Eerder moest u een nieuw veld maken en het oude veld verwijderen om het weergavetype van een aangepast veld te wijzigen. Hiervoor moesten gegevens worden overgedragen, wat vaak tijdrovend was.</p> 
-     <p>Voor meer informatie, zie <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}"> een douaneformulier </a> in artikel <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}"> creëren of uitgeven of een douaneformulier </a> uitgeven</p> 
     </div> </td> 
   </tr> 
   <tr> 

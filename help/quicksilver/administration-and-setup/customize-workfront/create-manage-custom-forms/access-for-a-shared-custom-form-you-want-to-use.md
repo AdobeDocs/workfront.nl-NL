@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: toegang, gedeeld,aangepast,formulier
 navigation-topic: create-and-manage-custom-forms
-title: Toegang voor een gedeeld aangepast veld dat u wilt gebruiken
+title: Toegang tot een gedeeld aangepast veld
 description: Wanneer iemand een aangepast veld deelt met de toegang Weergeven of Beheren, kan hij of zij verschillende andere instellingen configureren om die toegang nader te definiëren. Als u een ontvanger van het veld bent, beïnvloeden deze instellingen wat u met het veld kunt doen. Het volgende wordt mogelijk weergegeven wanneer u het veld bekijkt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Toegang voor een gedeeld aangepast veld dat u wilt gebruiken
+# Toegang tot een gedeeld aangepast veld
 
 Wanneer iemand een aangepast veld deelt met de toegang Weergeven of Beheren, kan hij of zij verschillende andere instellingen configureren om die toegang nader te definiëren. Als u een ontvanger van het veld bent, beïnvloeden deze instellingen wat u met het veld kunt doen. Het volgende wordt mogelijk weergegeven wanneer u het veld bekijkt.
 
-Voor meer informatie over hoe de gebruikers het delen montages wanneer het delen van een douanevorm vormen, zie [ het delen voor douanegebieden en widgets ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) vormen.
+Voor meer informatie over hoe de gebruikers het delen montages wanneer het delen van een douanevorm vormen, zie [ het delen voor douanevelden en widgets in een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) vormen.
 
 <table style="table-layout:auto"> 
  <col> 

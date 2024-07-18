@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '6091'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >Als u een aangepast formulier verwijdert, worden ook alle aangepaste gegevens verwijderd over de objecten die aan het formulier zijn gekoppeld. De verwijderde gegevens kunnen niet worden hersteld. U kunt in plaats daarvan een aangepast formulier deactiveren. Wanneer u een aangepast formulier deactiveert dat u niet meer gebruikt, behoudt u alle bijbehorende historische gegevens.
    >
-   >Voor meer informatie, zie [ de objecten types van de Schrapping op een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >Voor meer informatie, zie [ objecttypes van een bestaande douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) toevoegen of schrappen en [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) deactiveren of reactiveren.
 
 
 1. Vervolgens kunt u velden toevoegen aan uw aangepaste formulier. Zie de volgende secties:

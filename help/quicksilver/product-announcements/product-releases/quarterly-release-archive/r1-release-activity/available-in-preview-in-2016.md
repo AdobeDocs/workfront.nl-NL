@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,6 @@ Voor meer informatie over dashboards, zie [ een dashboard ](../../../../reports-
 U kunt nu bepalen wie toegang heeft tot een aangepast formulier door toegang te verlenen aan individuele gebruikers, teams, rollen, groepen of bedrijven. 
 
 Vóór deze wijziging kon u alleen toegang verlenen aan groepen.
-
-Voor meer informatie, zie [ een douanevorm ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven
 
 ## Integratie met Adobe Creative Cloud
 

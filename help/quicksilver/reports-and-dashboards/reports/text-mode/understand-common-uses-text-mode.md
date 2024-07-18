@@ -6,7 +6,7 @@ description: Overzicht van veelvoorkomende toepassingen voor de tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -58,9 +58,9 @@ U kunt de tekstmodus gebruiken wanneer u in Workfront het volgende wilt bereiken
 
 U kunt de tekstmodus gebruiken om een berekend aangepast veld toe te voegen aan een aangepast formulier.
 
-Voor meer informatie over het toevoegen van een berekend douanegebied aan een Vorm van de Douane, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Voor meer informatie over het toevoegen van een berekend douanegebied aan een Vorm van de Douane, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Voor meer informatie over het creëren van een berekend douanegebied op tekstwijze, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+Voor meer informatie over het creëren van een berekend douanegebied op tekstwijze, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 U kunt bijvoorbeeld een berekend aangepast veld toevoegen met een tijd- en datumstempel van het moment waarop een item is gemarkeerd als Bezig. U kunt deze berekening voor andere statussen gebruiken.
 

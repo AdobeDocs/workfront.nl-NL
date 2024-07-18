@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 
 * **Verandering de grootte voor Omschrijvende teksten**: U kunt kleine, middelgrote, of grote grootte aan Beschrijvende tekstgebieden nu toewijzen. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk vertraagd, maar wordt binnenkort uitgevoerd. </span></li>
 
-Voor meer informatie, zie [ Overzicht van de ontwerper van de Vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Voor meer informatie, zie [ overzicht van de Vorm van de Douane ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

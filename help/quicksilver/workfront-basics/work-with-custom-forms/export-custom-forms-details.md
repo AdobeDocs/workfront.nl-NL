@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Voordat u begint, moet u beschikken over alle volgende opties:
 
    U hebt de juiste toegang om een aangepast formulier toe te voegen en de gegevens op het formulier te bewerken.
 
-Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Voor informatie over het creëren van douaneformulieren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Voor informatie over het vastmaken van vormen aan voorwerpen, zie [ een douanevorm aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
@@ -102,7 +102,7 @@ Informatie exporteren uit de sectie Details van een object is identiek voor alle
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en voor het object aangepaste formulieren zijn gekoppeld, wordt de sectie Overzicht niet weergegeven.
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en er geen aangepaste formulieren zijn gekoppeld voor het object, is het vervolgkeuzemenu Exporteren niet zichtbaar.
    >   * Als voor het object geen aangepaste formulieren zijn gekoppeld, kunt u alleen het gebied Overzicht exporteren.
-   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douanevorm, zie [ vertoningslogica toevoegen en logica overslaan aan een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douanevorm, zie [ vertoningslogica toevoegen en logica overslaan aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
    >   
    >
 

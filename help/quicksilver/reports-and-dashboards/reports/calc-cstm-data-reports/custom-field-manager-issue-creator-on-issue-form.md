@@ -7,7 +7,7 @@ description: Met behulp van een berekend aangepast veld kunt u de naam van de be
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -61,8 +61,8 @@ In de volgende stappen wordt aangegeven hoe u een berekend veld kunt maken voor 
 
    Zie de volgende artikelen voor informatie over het maken van een aangepast formulier en het toevoegen van berekende velden aan dit formulier:
 
-   * [ creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit
-   * [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Berekende velden toevoegen aan een formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. Kopieer en kleef de volgende code van de tekstwijze in het **gebied van de Berekening** van de douanevorm:
 

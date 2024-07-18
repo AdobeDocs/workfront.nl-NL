@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Als u bijvoorbeeld een veld Selectievakjes hebt gemaakt, kunt u dit wijzigen in 
 Als u een tekstveld Eén regel hebt gemaakt, kunt u dit wijzigen in een tekstveld Alineatekst. Deze twee veldweergavetypen zijn onderling verwisselbaar.
 
 Eerder moest u een nieuw veld maken en het oude veld verwijderen om het weergavetype van een aangepast veld te wijzigen. Hiervoor moesten gegevens worden overgedragen, wat vaak tijdrovend was.
-
-Voor meer informatie, zie [ een douaneformulier ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in artikel [ creëren of uitgeven of een douaneformulier ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uitgeven
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Voor informatie over tijd weg, zie [ persoonlijke tijd van ](../../../../workfro
 Er is een nieuw veldtype gemaakt in de aangepaste formulierbuilder met de naam Typeahead. In dit veld kunt u velden toevoegen die objecten vertegenwoordigen aan uw aangepaste formulieren. Het object User is momenteel ingeschakeld met Typeahead en andere objecten komen in de toekomst voor.
 
 Eerder moesten beheerders handmatig gebruikers onderhouden als afzonderlijke opties in vervolgkeuzemenu&#39;s voor aangepaste formulieren.
-
-Voor meer informatie, zie [ een douaneformulier ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 >[!NOTE]
 >

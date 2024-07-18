@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Informatie wordt slechts in één richting toegewezen, van [!DNL Workfront] naar
 U kunt hetzelfde [!DNL Workfront] -veld toewijzen aan verschillende [!DNL Workfront DAM] -velden, maar u kunt niet hetzelfde [!DNL Workfront DAM] -veld gebruiken voor meerdere [!DNL Workfront] -velden.
 
 Als u meerdere [!DNL Workfront] -velden moet configureren om te exporteren naar één [!DNL Workfront DAM] -veld, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan één [!DNL Workfront DAM] veld.\
-Voor meer informatie over berekende douanevelden, zie [ berekende gegevens aan een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+Voor meer informatie over berekende douanevelden, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 De toewijzing is van invloed op alle documenten die door een gebruiker zijn geüpload van [!DNL Workfront] naar [!UICONTROL Workfront] DAM.
 

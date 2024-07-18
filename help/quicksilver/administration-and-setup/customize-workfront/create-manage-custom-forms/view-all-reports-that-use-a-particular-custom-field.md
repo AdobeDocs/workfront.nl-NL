@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 U kunt een aangepaste weergave toevoegen in het gebied Aangepaste Forms, waarin wordt aangegeven welke rapporten een bepaald aangepast veld of een bepaalde widget gebruiken. Dit is handig wanneer u het veld of de widget moet bewerken of verwijderen, omdat deze mogelijk al in een of meer rapporten is geïmplementeerd. Het is belangrijk om te beoordelen of die rapporten aanpassingen zullen nodig hebben om behoorlijk te blijven werken.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen en [ een activa widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Toegangsvereisten
 

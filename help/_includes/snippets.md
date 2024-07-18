@@ -1,7 +1,7 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2288'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Met de komende release van 15 juli (de release van 24.7) is de formulierontwerper algemeen beschikbaar en wordt deze de standaardervaring voor het maken en bewerken van aangepaste formulieren in Adobe Workfront. De verouderde formulierontwikkelaar is niet meer beschikbaar. We raden u aan nu over te schakelen naar de formulierontwerper en de functies ervan te benutten.
+>De verouderde formulierbuilder is niet meer beschikbaar vanaf de release 24.7 op 18 juli 2024. De ontwerper van het formulier is nu de standaardeigenschap voor het maken en bewerken van aangepaste formulieren in Adobe Workfront.
 >
 >Voor informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
->
->De verouderde formulierbuilder is op 19 juni 2024 verwijderd uit de voorbeeldomgeving en zal in juli uit de productieomgeving worden verwijderd met de release van 24.7.
 
 ## Rechtergroep koppelen aan team {#right-group-team}
 

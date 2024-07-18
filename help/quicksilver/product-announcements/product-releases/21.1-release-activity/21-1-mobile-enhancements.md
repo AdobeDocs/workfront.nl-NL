@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ We hebben de breedbandnavigatie toegevoegd aan de mobiele app van Workfront. U k
 ## RTF-tekst wordt ondersteund in aangepaste formulieren op de Workfront-app
 
 U kunt nu RTF-opmaak gebruiken in aangepaste formuliertekstvelden in de mobiele toepassing van Workfront.
-
-Voor meer informatie over hoe te om een douanevorm met tekstgebieden tot stand te brengen, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## SSO-gebruikers kunnen zich nu opnieuw aanmelden bij de Workfront-app met Face ID- of Fingerprint-technologie
 

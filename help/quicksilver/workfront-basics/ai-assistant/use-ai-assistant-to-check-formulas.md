@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Een ongeldige berekende veldexpressie herzien:
 >
 >Wij adviseren testend het berekende gebied om ervoor te zorgen dat het het verwachte resultaat terugwint.
 
-Voor meer informatie over berekende gebieden in Workfront, zie [ berekende gegevens aan een douanevorm met de bouwer van de erfenis ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+Voor meer informatie over berekende gebieden in Workfront, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.

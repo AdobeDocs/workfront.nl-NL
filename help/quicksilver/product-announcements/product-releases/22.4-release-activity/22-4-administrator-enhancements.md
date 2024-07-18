@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Voor meer informatie, zie [ vroege eigenschapopt-in voor de Boards van Adobe Wor
 >Deze functie werd voor het eerst geïntroduceerd in de voorvertoningsomgeving tijdens de releaseperiode van 22.3. Met de release van 22.4 gaat het naar Production.
 
 Het bewerken van berekeningen voor aangepaste velden is nu gemakkelijker omdat nuttige foutinformatie rechtstreeks in de berekening wordt vermeld. Tijdens het maken van een berekend veld in een aangepast formulier worden fouten roze gemarkeerd. Wanneer u de muisaanwijzer op het gemarkeerde gedeelte plaatst, wordt knopinfo weergegeven waarin het probleem wordt beschreven.
-
-Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 [ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 

@@ -6,9 +6,9 @@ description: We raden u ten zeerste aan filters te gebruiken in Workload Balance
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2489'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ U kunt een geheel nieuw filter maken of een van de vooraf gedefinieerde filters 
 
       >[!IMPORTANT]
       >
-      >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+      >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. (Voorwaardelijk) als u **klikte doorbladert gebieden**, typ de naam van een gebied op het **3} gebied van het Onderzoek {en selecteer het wanneer het in de lijst toont.**
 

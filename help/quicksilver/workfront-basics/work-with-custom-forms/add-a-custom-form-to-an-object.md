@@ -7,9 +7,9 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een aangepast formulier bevat aangepaste velden waarin u informatie over het object kunt opslaan.
 
-* Projecten (inclusief zakelijke gevallen)
+* Projecten (met inbegrip van zakelijke zaken)
 * Taken
 * Problemen
 * Bedrijven
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
 <tr> 
@@ -59,12 +59,12 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten bewerken waarvoor u aangepaste formulieren beheert</p>
+   <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Beheer machtigingen voor het object waaraan u een aangepast formulier wilt koppelen.</p> <p>De mening of hogere toestemmingen aan de douanevorm, met toestemming <b> verbinden aan de voorwerpen van de Gegevens van de Douane </b> (projecten, taken, en kwesties). Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> Deel een douaneformulier </a>.</p> <p>Belangrijk: Als u geen vergunning van het Plan met administratieve toegang tot Aangepast Forms hebt, moet u specifieke toestemmingen hebben om de douanevorm minstens te bekijken, zoals die in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> wordt beschreven een douanevorm </a> delen. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie bij het verzoeken van extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor het object waarvoor u een aangepast formulier wilt toevoegen.</p> <p>De mening of de hogere toestemmingen aan de douanevorm, met toestemming <b> verbinden aan de voorwerpen van de Gegevens van de Douane </b> (projecten, taken, en kwesties). Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> een douanevorm </a> delen.</p> <p>Belangrijk: Als u geen vergunning van het Plan met administratieve toegang tot Aangepast Forms hebt, moet u specifieke toestemmingen hebben om de douanevorm minstens te bekijken, zoals die in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> wordt beschreven een douanevorm </a> delen. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie bij het verzoeken van extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Een aangepast formulier toevoegen aan een object
 
@@ -114,7 +114,7 @@ U kunt maximaal 10 aangepaste formulieren toevoegen aan een bepaald object, zoda
 
 **Voorbeeld:** als een bestaand project reeds een douanevorm heeft, en meer douanegebieden voor dit project nodig zijn, die op een andere douanevorm bestaan, kunt u een tweede vorm aan het project met de extra gebieden toevoegen, eerder dan de gebieden aan de bestaande douanevorm toevoegen.
 
-## Een aangepast formulier in bulk toevoegen aan meerdere objecten
+## Een aangepast formulier bulksgewijs aan meerdere objecten toevoegen
 
 U kunt aangepaste formulieren aan meerdere objecten toevoegen door deze in een lijst te selecteren.
 
@@ -131,12 +131,12 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Blader naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.
 
-1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **geef** pictogram ![](assets/edit-icon.png) uit.
+1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
 
-   Of
+   of
 
    Klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
-1. Klik **Aangepaste Forms** in het linkerpaneel.
+1. Klik **Forms van de Douane** in het linkerpaneel.
 1. in **maak een selectie** drop-down menu, selecteer de vorm u met alle geselecteerde voorwerpen wilt associëren.
 
    >[!NOTE]

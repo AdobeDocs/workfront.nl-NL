@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * [ creeer Verpletterend Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Ga naar het project u verkoos om als Rij van het Verzoek van de Hulp toe te laten en waar u een nieuw rijonderwerp wilt creëren.\
    Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [ een Rij van het Verzoek van de Vraag ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
@@ -128,7 +128,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader"><strong> Aangepaste Forms </strong> </td> 
-      <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Voor informatie over het creëren van douaneformulieren, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven.</td> 
+      <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standaardgoedkeuring</strong></td> 

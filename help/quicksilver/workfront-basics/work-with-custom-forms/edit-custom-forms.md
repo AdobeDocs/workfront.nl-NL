@@ -7,9 +7,9 @@ description: U kunt gegevens op een aangepast formulier bewerken nadat het formu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U moet het volgende hebben:
    <td> 
     <ul> 
      <li> <p>Contribute- of hogere machtigingen voor het object waarvoor u het aangepaste formulier wilt bewerken</p> </li> 
-     <li>Machtigingen weergeven voor de velden die u wilt bewerken. Voor informatie over het delen van toestemmingen voor douanegebieden, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen.</li> 
+     <li>Machtigingen weergeven voor de velden die u wilt bewerken. Voor informatie over het delen van toestemmingen voor douanegebieden, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen.</li> 
      <li> <p>Machtigingen bewerken voor de secties in het formulier waar de velden die u wilt bewerken zich bevinden</p> </li> 
     </ul> <p>Voor informatie bij het vragen van om extra toegang voor voorwerpen, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ U moet het volgende hebben:
 
 ## Vereisten
 
-* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Er moeten aangepaste formulieren aan een object zijn gekoppeld.
 
   Voor informatie over hoe te om douaneformulieren op een voorwerp toe te passen, zie [ een douaneformulier aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
@@ -91,7 +91,7 @@ Het bewerken van gegevens op een aangepast formulier dat aan een object is gekop
    * U kunt tekstvelden alleen opmaken (vet, cursief of onderstrepen) als de gebruiker die het formulier heeft gemaakt, deze heeft ingesteld als een tekstveld met het veldtype Opmaak. Tekstvelden met één regel en tekstvelden met één regel kunnen niet worden opgemaakt.
    * U kunt de tijd van de dag alleen bijwerken in een datumveldtype als de gebruiker die het formulier heeft gemaakt het heeft opgenomen tijdens het maken van het veld.
 
-   Voor informatie over alle gebiedstypes, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+   Voor informatie over alle gebiedstypes, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **sparen Veranderingen**.
 

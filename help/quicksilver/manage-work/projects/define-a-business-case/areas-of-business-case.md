@@ -6,9 +6,9 @@ description: Dit artikel beschrijft de gebieden van het BedrijfsGeval van een pr
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Voor meer informatie over het toelaten van de gebieden van het BedrijfsGeval, zi
 
 Als u een aangepast formulier wilt toepassen, moet uw Workfront-beheerder eerst een aangepast formulier maken.
 
-Voor meer informatie over het creëren van een douanevorm, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Voor meer informatie over het creëren van een douanevorm, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 U kunt aangepaste formulieren gebruiken voor het verzamelen van aanvullende informatie die niet wordt weergegeven in de andere velden van de kwestie Business.
 

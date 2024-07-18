@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Een bedrijf toevoegen of bewerken:
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] sectie</td> 
-      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet beschikbaar in [!DNL Workfront] zijn, kunt u een douaneformulier bouwen en het associëren met uw bedrijf. </p> <p>U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve aangepaste formulieren worden in het menu weergegeven.</p> <p><strong> Nota:</strong> de Geavanceerde eigenschappen van de douanevorm zoals Externe Velden van de Opzoekopdracht en inheemse gebieden van Workfront zijn slechts beschikbaar wanneer u het bedrijfverslag op de detailspagina, niet op de Edit dialoog van het Bedrijf opent. (Klik in de lijst met bedrijven op de bedrijfsnaam om de gegevens te openen.)</p> <p> Voor informatie over het creëren van douaneformulieren, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven. </p> </td>
+      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet beschikbaar in [!DNL Workfront] zijn, kunt u een douaneformulier bouwen en het associëren met uw bedrijf. </p> <p>U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve aangepaste formulieren worden in het menu weergegeven.</p> <p><strong> Nota:</strong> de Geavanceerde eigenschappen van de douanevorm zoals Externe Velden van de Opzoekopdracht en inheemse gebieden van Workfront zijn slechts beschikbaar wanneer u het bedrijfverslag op de detailspagina, niet op de Edit dialoog van het Bedrijf opent. (Klik in de lijst met bedrijven op de bedrijfsnaam om de gegevens te openen.)</p> <p> Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

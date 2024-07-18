@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
 workflow-type: tm+mt
-source-wordcount: '7474'
+source-wordcount: '7473'
 ht-degree: 0%
 
 ---
@@ -321,7 +321,7 @@ Wanneer het selecteren van meer dan één project om hen in bulk uit te geven, b
 Raadpleeg de volgende artikelen voor informatie over aangepaste toegang tot formulieren:
 
 * [Een aangepast formulier delen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [ voeg een sectieonderbreking aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+* [Een formulier ordenen en een voorbeeld ervan bekijken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 Informatie over aangepaste formulieren bewerken tijdens het bewerken van een project:
 
@@ -334,7 +334,7 @@ Informatie over aangepaste formulieren bewerken tijdens het bewerken van een pro
 
    >[!NOTE]
    >
-   >U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven. U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
+   >U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
 
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan het project hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste gebieden specificeren alvorens u het project kunt bewaren.
@@ -556,7 +556,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
    * Wanneer u veelvoudige projecten van de zelfde groep selecteert, zowel systeem-niveau als groep-specifieke processen van de taakgoedkeuring tonen op dit gebied.
    * Wanneer u veelvoudige projecten van verschillende groepen selecteert, slechts worden de systeem-vlakke processen van de taakgoedkeuring getoond op dit gebied.
 
-1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0}, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
+1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0}, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren te gebruiken.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

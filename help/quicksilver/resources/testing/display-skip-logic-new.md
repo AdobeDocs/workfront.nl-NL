@@ -2,9 +2,9 @@
 title: Weergavelogica toevoegen en logica overslaan naar een aangepast formulier
 description: Weergavelogica toevoegen en logica overslaan naar een aangepast formulier
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ De meerkeuzevelden zijn vervolgkeuzelijsten, selectievakjes en keuzerondjes.
   Dit is vooral handig als u veel andere velden met logo&#39;s, updates van websites en brochures toevoegt die deze gebruiker niet hoeft te zien.
 U kunt een logicaregel voor overslaan alleen toepassen op een aangepast veld, niet op een widget of sectie.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanegebied aan een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen en [ een activa widget in een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 ## Toegangsvereisten
 

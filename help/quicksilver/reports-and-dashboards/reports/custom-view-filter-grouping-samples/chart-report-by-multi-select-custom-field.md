@@ -7,9 +7,9 @@ description: U kunt een rapport alleen in een diagram weergeven op basis van een
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ U kunt geen grafiek in een rapport bouwen door naar een multi-select douanegebie
 Als u een berekend veld wilt maken dat verwijst naar een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
 
 * Een aangepast veld met meerdere selecties in een aangepast formulier.\
-  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [ creeer of geef een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
+  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanegebieden aan hen, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Een aangepast formulier waaraan het aangepaste veld voor meerdere selecties is gekoppeld.
 * Waarden voor het aangepaste veld met meerdere selecties voor elk object.
@@ -95,7 +95,7 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
 1. Een aangepast formulier maken of een bestaand formulier bewerken.
 
-   Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+   Voor informatie over het creëren van douaneformulieren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Selecteer het object of de objecten die u wilt gebruiken voor het aangepaste formulier.
 1. Klik **toevoegen een Gebied**, dan **Berekend** om het multi-uitgezochte douanegebied aan de vorm toe te voegen.

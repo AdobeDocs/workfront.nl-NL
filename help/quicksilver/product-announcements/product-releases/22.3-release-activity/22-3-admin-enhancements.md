@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 We blijven u helpen aangepaste formulieren visueel en informatief te maken met nieuwe middelenwidgets die u kunt toevoegen, zoals afbeeldingen en video&#39;s. Nu kunt u een koppeling naar een PDF-bestand toevoegen aan een aangepast formulier. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken de PDF vanuit het formulier bekijken en ermee werken.
 
-Voor meer informatie, zie [ een beeld of andere activa widget in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
-
 ## In de berekeningeditor van het aangepaste formulierveld worden foutgegevens weergegeven
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Voor meer informatie, zie [ een beeld of andere activa widget in een douanevorm 
 >Deze functie is tijdelijk niet beschikbaar. Deze pagina wordt bijgewerkt wanneer de functie beschikbaar is.
 
 Het bewerken van berekeningen voor aangepaste velden is nu gemakkelijker omdat nuttige foutinformatie rechtstreeks in de berekening wordt vermeld. Tijdens het maken van een berekend veld in een aangepast formulier worden fouten roze gemarkeerd. Wanneer u de muisaanwijzer op het gemarkeerde gedeelte plaatst, wordt knopinfo weergegeven waarin het probleem wordt beschreven.
-
-Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## Aanpassing van koptekst van project
 
@@ -111,6 +107,4 @@ Voor meer informatie, zie [ een groep ](/help/quicksilver/administration-and-set
 Nu kunt u een nieuwe wijze van informatie, visuele interesse, en creativiteit aan een douaneformulier verstrekken door een video toe te voegen. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken de video op elk gewenst moment afspelen.
 
 Eerder kon u alleen op tekst gebaseerde velden en afbeeldingen aan een aangepast formulier toevoegen.
-
-Voor meer informatie, zie [ een beeld of videoactiva widget in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 

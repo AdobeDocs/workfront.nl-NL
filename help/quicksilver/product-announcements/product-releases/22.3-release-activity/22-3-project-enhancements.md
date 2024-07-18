@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfron
 ## Nieuwe syntaxis voor berekeningen in aangepaste velden
 
 Ter voorbereiding op toekomstige verbeteringen die u helpen berekeningen toe te voegen aan aangepaste formulieren, hebben we de syntaxis gestandaardiseerd voor velden waarnaar wordt verwezen en die u toevoegt aan een berekening. Het is eenvoudig om deze nieuwe syntaxis te gebruiken omdat het systeem het voor u ingaat wanneer u begint de naam van een gebied te typen en dan het te selecteren.
-
-Voor meer informatie, zie de sectie &quot;de berekening voor uw berekend douanegebied&quot;in het [ artikel bouwen berekende gegevens aan een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegt.
 
 ## Houd nauwkeurige informatie wanneer twee gebruikers met een gemeenschappelijke rol bij een goedkeuringsproces betrokken zijn
 

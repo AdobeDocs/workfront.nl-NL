@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt zien welke aangepaste formulieren een aangepast veld of een aangepaste widget gebruiken die u wilt wijzigen of verwijderen. Het is belangrijk om te beoordelen of die douaneformulieren aanpassingen nodig zullen hebben om behoorlijk te blijven werken of nuttig te blijven nadat u het gebied of widget verandert of schrapt.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen en [ een activa widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Toegangsvereisten
 

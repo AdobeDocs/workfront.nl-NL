@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/bl
 
 Het aangepaste Forms-gebied heeft een nieuw uiterlijk dat het up-to-date brengt met vele andere gebieden in de nieuwe Workfront-ervaring.
 
-Voor informatie over het creëren van een douanevorm, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
-
 ## Veel verbeteringen voor het maken van berekende aangepaste velden
 
 Het maken van berekende aangepaste velden is nu veel eenvoudiger met deze toevoegingen in de nieuwe Rekeningeditor:
@@ -70,8 +68,6 @@ Het maken van berekende aangepaste velden is nu veel eenvoudiger met deze toevoe
 * U kunt het resultaat van de berekening voorvertonen met een bestaand object zonder de berekeningseditor te verlaten.
 
 In de aanpasbare tekst Instructies voor een berekend aangepast veld kunt u ook de formule van het veld weergeven of verbergen. Dit is handig als u denkt dat de gebruikers die het aangepaste formulier invullen, deze informatie niet nodig hebben.
-
-Voor meer informatie over het creëren van een berekend douanegebied, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## De informatie van het controlelogboek van de mening over statussen en bedrijven
 
@@ -108,8 +104,6 @@ Voor meer informatie, zie [ bedrijflidmaatschappen ](../../../administration-and
 
 We maken het nog steeds gemakkelijker om een berekend veld te maken in een aangepaste vorm. Wanneer u nu op Maximaliseren klikt om de nieuwe berekeningseditor te openen, kunt u de gewenste expressies en velden zoeken en selecteren.
 
-Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
-
 ## De groepen kunnen hun eigen timesheet en uurvoorkeur vormen
 
 >[!NOTE]
@@ -144,8 +138,6 @@ Voor meer informatie, zie [ een groep ](../../../administration-and-setup/manage
 ## Groter gebied voor het maken van berekende velden
 
 Het is nu gemakkelijker om complexe berekende velden te maken in een aangepast formulier. Klik op de nieuwe knop Maximaliseren om een groot bewerkvenster te openen waarin u uw berekening kunt samenstellen. Als u klaar bent, klikt u op Minimaliseren om verder te gaan met het bewerken van uw aangepaste formulier.
-
-Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## Aangepaste formulieren toevoegen aan groepen
 
