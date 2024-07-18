@@ -6,9 +6,9 @@ description: Dit integratiescenario verbindt een  [!DNL Adobe Workfront]  projec
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
    </tbody> 
   </table>
 
-  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven
+  Voor informatie bij het creëren van douaneformulieren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Projectsjablonen die campagnes en andere projecten vertegenwoordigen waarvoor financiering is vereist, geconfigureerd met een [!UICONTROL Budget Request] -rijonderwerp. Het onderwerp in de wachtrij van [!UICONTROL Budget Request] wordt toegewezen aan het aangepaste formulier van [!UICONTROL Budget Request] .
 * Een **[!UICONTROL Campaign Brief]** -formulier voor het projectobject.
@@ -141,7 +141,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
    </tbody> 
   </table>
 
-  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven
+  Voor informatie bij het creëren van douaneformulieren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## [!DNL Anaplan] Configuratie verwacht
 

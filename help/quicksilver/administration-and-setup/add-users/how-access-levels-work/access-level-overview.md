@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -281,8 +281,8 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Project |   | ✓ |   |
 | Taak |   | ✓ |   |
 | Probleem |   |   | ✓ |
-| Portfolio&#39;s | ✓ |   |   |
-| Programma&#39;s | ✓ |   |   |
+| Portfolio&#39;s |   | ✓ |   |
+| Programma&#39;s |   | ✓ |   |
 | Rapporten (inclusief dashboards en kalenderrapporten) |   | ✓ (Alleen het tabblad Details) |   |
 | Filters, weergaven en groepen |   |   | ✓ |
 | Document |   |   | ✓ |
@@ -297,6 +297,13 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Doelen |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Vanaf de release 24.7 hebben Contribute standaard toegang tot programma&#39;s en Portfolio&#39;s.
+>
+> 
+>Medewerkers die vóór de release 24.7 zijn aangemeld, hebben standaard nog steeds geen toegang tot programma&#39;s en Portfolio&#39;s. U kunt de toegang van de gebruiker tot de weergave indien nodig handmatig bijwerken.
 
 ### Toegangsniveau externe gebruiker
 
