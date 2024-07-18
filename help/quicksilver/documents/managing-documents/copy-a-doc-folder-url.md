@@ -6,9 +6,9 @@ description: U kunt een koppeling kopiëren voor elke documentmap die zich in el
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 U kunt een directe koppeling kopiëren voor elke documentmap in een van de volgende [!DNL Workfront] -objecten: [!UICONTROL Program] , [!UICONTROL Portfolio] , [!UICONTROL Project] , [!UICONTROL Task] of [!UICONTROL Issue] . U kunt een koppeling voor mappen in het gebied [!UICONTROL Documents] niet kopiëren vanuit het hoofdmenu, omdat deze mappen rechtstreeks zijn gekoppeld aan uw gebruikersprofiel en niet met anderen kunnen worden gedeeld.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,6 +44,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Een koppeling naar een documentmap kopiëren en delen
 

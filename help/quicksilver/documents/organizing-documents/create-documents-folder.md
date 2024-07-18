@@ -6,9 +6,9 @@ description: Documenten kunnen in mappen worden ingedeeld. U kunt persoonlijke m
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Documenten kunnen in mappen worden ingedeeld. U kunt persoonlijke mappen maken i
 >Als u documenten ordent, worden er koppelingen gemaakt tussen de documenten en de objecten waarmee u deze documenten koppelt. Ze worden niet verplaatst naar het systeem.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,15 +48,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Mappen weergeven
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-1. Klik **Documenten** in het Belangrijkste Menu. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   of
+of
 
-   Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
+Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 1. Klik op de weergaveopties boven het rechterdeelvenster om de weergave van de documenten te wijzigen.
 
@@ -64,11 +68,11 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 
 Maak mappen om uw documenten beter te ordenen. U kunt maximaal 2.000 mappen maken voor een object en maximaal 50 submappen in elke map. Submappen tellen naar maximaal 2.000 mappen.
 
-1. Klik **Documenten** in het Belangrijkste Menu. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   of
+of
 
-   Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
+Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 1. Om een top-level omslag tot stand te brengen, zorg ervoor dat niets wordt geselecteerd, dan klik **voeg Nieuw** toe > **Omslag**.
 

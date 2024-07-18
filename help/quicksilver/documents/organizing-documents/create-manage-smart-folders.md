@@ -6,9 +6,9 @@ description: De slimme omslagen worden gebruikt om documenten buiten een project
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ De slimme omslagen worden gebruikt om documenten buiten een project, een taak, o
 De eerste keer dat u het gebied Documenten opent, hebt u standaard toegang tot twee slimme mappen: Alle documenten en Recent. U kunt slimme standaardmappen bewerken, hernoemen of kopiëren, maar u kunt ze niet verwijderen. U kunt aanvullende slimme mappen maken om te voldoen aan andere behoeften op het gebied van middelenbeheer.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Slimme mappen weergeven 
 
@@ -88,7 +92,7 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 
 1. Breng uw veranderingen aan, dan klik **sparen Omslag**.
 
-## Een slimme map verwijderen 
+## Een slimme map verwijderen
 
 1. Ga naar het **gebied van Documenten** dat de slimme omslag bevat die u wilt schrappen.
 1. In de **kolom van Omslagen**, klik de drop-down pijl naast de slimme omslag die u wilt schrappen.

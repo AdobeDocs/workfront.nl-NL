@@ -6,9 +6,9 @@ description: Een gebruiker met beheerrechten op een document kan het document na
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Wanneer u een document verplaatst, worden ook de volgende elementen verplaatst m
 * Documentgoedkeuringen
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -54,6 +56,8 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een document verplaatsen
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
@@ -66,4 +70,4 @@ U moet het volgende hebben:
 
 1. Klik **Afwerking**.
 
-U kunt een document ook verplaatsen vanaf de pagina Documentdetails. Zie het artikel voor meer informatie.
+U kunt een document ook verplaatsen vanaf de pagina Documentdetails.

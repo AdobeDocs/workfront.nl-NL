@@ -6,9 +6,9 @@ description: U kunt een nieuwe versie toevoegen van een document dat u eerder na
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als het document een proef bevat en u een nieuwe versie van het beschermde docum
 Voor informatie over het toevoegen van een nieuwe versie van een document verbonden aan Workfront van een externe toepassing, zie [ een nieuwe versie van een verbonden document ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [ de documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) toevoegen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -53,6 +55,8 @@ U moet het volgende hebben:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Slepen en neerzetten gebruiken om een nieuwe versie toe te voegen
 

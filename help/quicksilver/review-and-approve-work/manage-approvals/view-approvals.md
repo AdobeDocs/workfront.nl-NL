@@ -6,9 +6,9 @@ description: De processen van de goedkeuring verstrekken de flexibiliteit om mul
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Voor informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuri
 Voor informatie over het associëren van goedkeuringen met het werk in Workfront, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -48,7 +50,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+
++++
 
 ## Goedkeuringen zoeken in Adobe Workfront
 
@@ -111,16 +115,13 @@ U kunt de goedkeuringsstatus van een object weergeven in de volgende secties van
  </tbody> 
 </table>
 
-* [ Gebruik het gebied van Updates om een goedkeuringsstatus ](#use-the-updates-area-to-view-an-approval-status) te bekijken
-* [Geef een goedkeuringsstatus weer in het gebied Goedkeuringen](#use-the-approvals-area-to-view-an-approval-status)
-
 ### In het gedeelte Updates kunt u de goedkeuringsstatus weergeven {#use-the-updates-area-to-view-an-approval-status}
 
 Wanneer een goedkeuring op een project, een taak, of een kwestie in werking wordt gesteld, toont een statusvertoningen in het **** lusje van Updates van het voorwerp, die op de goedkeuringsstatus wijzen. Een nieuwe status wordt altijd weergegeven wanneer het object het goedkeuringsproces doorloopt. Dit zijn onder andere de volgende gebeurtenissen:
 
 * Voor een object wordt een goedkeuringsproces gestart. Het goedkeuringsproces wordt in gang gezet wanneer de status wordt veranderd.
 * Het object wordt geweigerd
-* Het object is goedgekeurd 
+* Het object is goedgekeurd
 
 >[!TIP]
 >

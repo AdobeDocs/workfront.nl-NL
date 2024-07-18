@@ -6,9 +6,9 @@ description: U kunt een afbeeldingsbestand toevoegen aan Adobe Workfront door he
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Deze functie is browserspecifiek, als volgt:
 * **Safari:** Deze functionaliteit wordt niet gesteund.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -56,6 +58,8 @@ U moet het volgende hebben:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Plakken vanaf het Klembord
 

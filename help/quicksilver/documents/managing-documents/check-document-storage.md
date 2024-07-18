@@ -6,9 +6,9 @@ description: Hoewel er geen beperkingen zijn op de typen en formaten van afzonde
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Hoewel er geen beperkingen zijn op de typen en formaten van afzonderlijke bestanden die gebruikers kunnen uploaden naar uw Workfront-instantie, is er een limiet in uw Workfront-abonnement voor de totale hoeveelheid opslagruimte die door uw Workfront-instantie wordt gebruikt. Als beheerder van Adobe Workfront, controleert u het documentopslag van uw instantie van het gebied van de Opstelling.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -38,9 +40,12 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Documentopslag controleren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In het linkerpaneel, klik **Systeem** > **Info van de Klant**.
 1. In de **Basis Info** sectie, vind **Quota van de Opslag**. Hier kunt u zien hoeveel opslagruimte u momenteel gebruikt en hoeveel opslagruimte uw Workfront-abonnement in totaal bevat.
 

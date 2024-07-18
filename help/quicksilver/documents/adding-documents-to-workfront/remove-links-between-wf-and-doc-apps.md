@@ -6,9 +6,9 @@ description: Wanneer Adobe Workfront voor het eerst een document uploadt van een
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Voor informatie over het verbinden van externe documentdiensten aan Workfront, z
 Aangezien de documentservice de service is die toestemming verleent om een koppeling naar Workfront te maken, is het voor Workfront niet mogelijk om de machtigingen die door de documentservice zijn verleend, te verwijderen. U moet de toestemming uit binnen de toepassing van de documentdienst verwijderen of u moet ons Team van de Steun roepen om deze verbinding uit onze servers te verwijderen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -45,6 +47,8 @@ U moet het volgende hebben:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## De koppeling tussen Workfront en Dropbox verwijderen
 

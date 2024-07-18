@@ -6,9 +6,9 @@ description: Workflows gebruiken in de integratie met Experience Manager Assets 
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Een werkstroom is een reeks acties die Workfront verbinden met Adobe Experience 
 
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -62,6 +64,8 @@ Voor informatie bij het vragen van om extra toegang, zie <strong> de toegang van
    </td>
   </tr>
 </table>
+
++++
 
 ## Vereisten
 
@@ -145,7 +149,6 @@ Alle werkstroomwaarden vindt u in:
 >Omdat gekoppelde mappen worden gemaakt wanneer het project wordt gemaakt, is het bewerken van de gekoppelde mapworkflow voor een bestaand project niet effectief. Deze waarden bewerken wanneer u projectfuncties maakt zoals u had verwacht.
 
 De workflow voor gekoppelde mappen bewerken:
-
 
 1. Schakel **[!UICONTROL Create Linked folder]** naar wens in of uit. Als u dit inschakelt, kunt u de configuratie van de gekoppelde map bewerken.
 

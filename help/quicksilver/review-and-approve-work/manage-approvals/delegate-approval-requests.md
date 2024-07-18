@@ -6,9 +6,9 @@ description: Het delegeren van goedkeuringsverzoeken staat u toe om een andere g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ U kunt geen timesheet-, document- of proefdrukgoedkeuringen delegeren.
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw beheerder van Workfront.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
+
++++
 
 ## Gebruikerstoegang voor gedelegeerde goedkeuringen begrijpen
 
@@ -79,9 +83,7 @@ Nadat de delegatie van de goedkeuring is gestopt of geannuleerd, heeft de gebrui
 
 ## Goedkeuringsaanvragen delegeren in het thuisgebied
 
-* [ Delegeer uw goedkeuringen aan een andere gebruiker ](#delegate-your-approvals-to-another-user)
-* [ werk of stop een goedkeuringsdelegatie ](#update-or-stop-an-approval-delegation) bij
-* [Gedelegeerde goedkeuringen weergeven](#view-delegated-approvals)
+U kunt goedkeuringsverzoeken van het gebied van het Huis delegeren.
 
 ### Uw goedkeuringen delegeren aan een andere gebruiker {#delegate-your-approvals-to-another-user}
 

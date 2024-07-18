@@ -7,9 +7,9 @@ description: In het deelvenster Documentdetails en -overzicht voor documenten zi
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 In het deelvenster Documentdetails en -overzicht voor documenten ziet u een real-time weergave van toegewezen metagegevens. Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Assets Essentials. Als uw Workfront-beheerder heeft ingesteld dat objectmetagegevenssynchronisatie is ingeschakeld, blijven de velden up-to-date als deze in een van beide toepassingen zijn gewijzigd.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -62,6 +64,7 @@ Voor informatie bij het vragen van om extra toegang, zie <strong> de toegang van
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
++++
 
 ## Vereisten
 
@@ -77,6 +80,7 @@ Het deelvenster Metagegevens openen in Documentdetails:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Beweeg over het document u nodig hebt, dan selecteren de uitgezochte **Details van het Document**.
 1. Vind en breid de **sectie van Meta-gegevens** uit.
+
    >[!NOTE]
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
@@ -91,6 +95,7 @@ U opent als volgt het deelvenster Metagegevens in het deelvenster Samenvatting:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 1. Klik het **Summiere pictogram van de Samenvatting** ![ summiere pictogram ](assets/summary-panel-icon.png), dan breid de **Meta-gegevens** sectie uit.
+
    >[!NOTE]
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
