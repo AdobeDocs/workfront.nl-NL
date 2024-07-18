@@ -6,9 +6,9 @@ description: U kunt informatie bewerken over programma's die u hebt gemaakt of o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het programma zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het programma zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douanevorm, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Werk alle velden in de aangepaste formulieren bij en klik op **[!UICONTROL Save Changes]** of ga verder met de volgende sectie.
 

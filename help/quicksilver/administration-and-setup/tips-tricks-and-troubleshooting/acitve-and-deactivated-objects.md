@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Een aangepast formulier moet actief zijn om in het veld [!UICONTROL Custom Form]
 
 U kunt een aangepast formulier actief maken tijdens het bewerken van het aangepaste formulier.
 
-Voor informatie over het uitgeven van douaneformulieren en voor een lijst van voorwerpen die u hen met kunt associëren, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Voor informatie over het uitgeven van douaneformulieren en voor een lijst van voorwerpen die u hen met kunt associëren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Bedrijven
 

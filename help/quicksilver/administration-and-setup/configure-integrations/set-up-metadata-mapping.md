@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Wanneer een gebruiker een document van [!DNL Workfront] naar een [!DNL Workfront
 
 U kunt hetzelfde [!DNL Workfront] -veld toewijzen aan verschillende metagegevensvelden in [!DNL Workfront DAM] , maar u kunt in geen van deze toepassingen een metagegevensveld gebruiken voor meerdere metagegevensvelden van [!DNL Workfront] .
 
-Als u meerdere [!DNL Workfront] -velden wilt configureren voor export naar één metagegevensveld in een [!DNL Workfront] -toepassing, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan een metagegevensveld in de [!DNL Workfront] -toepassing. Voor meer informatie over berekende douanevelden, zie [ berekende gegevens aan een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+Als u meerdere [!DNL Workfront] -velden wilt configureren voor export naar één metagegevensveld in een [!DNL Workfront] -toepassing, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan een metagegevensveld in de [!DNL Workfront] -toepassing. Voor meer informatie over berekende douanevelden, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de toepassing inschakelen in [!DNL Workfront] . Voor meer informatie, zie [ documentintegratie ](../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 

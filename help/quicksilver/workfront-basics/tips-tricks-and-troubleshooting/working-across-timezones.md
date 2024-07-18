@@ -5,9 +5,9 @@ title: Werken in tijdzones
 description: Het kan nuttig zijn om te begrijpen hoe  [!DNL Adobe Workfront]  tijdstreken gebruikt om tijdgebieden voor voorwerpen en tijden op andere gebieden zoals e-mails te berekenen.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -111,10 +111,10 @@ U kunt gebruikers helpen die gemakkelijker in verschillende tijdzones werken op 
 
 U kunt een reeks berekende douanevelden op een douaneformulier gebruiken om de huidige tijd voor gebruikers in uw organisatie, zoals een rij van luchthavenklokken te tonen die de tijd in veelvoudige steden tonen. U zou een gebied voor elk van de tijdstreken kunnen tot stand brengen waar uw gebruikers werken, elk die de tijd voor zijn tijdzone berekenen.
 
-Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen, evenals de sectie [ Datum &amp; tijd berekende douanevelden ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor meer informatie, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen, evenals de sectie [ Datum &amp; tijd berekende douanevelden ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Gebruik tekstvelden in plaats van datumvelden in een aangepast formulier {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 Als u niet wilt dat [!DNL Workfront] de tijden omzet u voor in een voorwerp voor gebruikers in verschillende tijdstreken vormt, kunt u een tekstgebied in een douaneformulier gebruiken dat u aan een voorwerp, eerder dan een datumgebied vastmaakt. Op deze manier wordt de tijd weergegeven die u voor iedereen in het project typt.
 
-Als u dit doet, raden we u aan de gebruikers van het formulier eraan te herinneren het verschil tussen hun tijdzone en die van u te berekenen, zodat ze kunnen bepalen wanneer het werk moet beginnen en eindigen. Dit kunt u opnemen in de instructies die u voor het aangepaste formulier typt of in de knopinfo voor dat veld. Voor meer informatie, zie [ een douanegebied aan een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen.
+Als u dit doet, raden we u aan de gebruikers van het formulier eraan te herinneren het verschil tussen hun tijdzone en die van u te berekenen, zodat ze kunnen bepalen wanneer het werk moet beginnen en eindigen. Dit kunt u opnemen in de instructies die u voor het aangepaste formulier typt of in de knopinfo voor dat veld. Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

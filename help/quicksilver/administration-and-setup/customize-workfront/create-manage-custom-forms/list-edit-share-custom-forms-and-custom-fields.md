@@ -4,9 +4,11 @@ description: Als u een lijst weergeeft met aangepaste formulieren van uw organis
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+hidefromtoc: true
+hide: true
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Als u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen en [ een activa widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Toegangsvereisten
 
@@ -53,9 +55,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Raadpleeg de volgende artikelen voor informatie over wat u kunt doen wanneer u een aangepast formulier in de lijst selecteert:
 
-   * [ creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit
+   * [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [ Deel een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [ Kopieer een douanevorm om nieuwe te creëren ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+   * [ Kopieer een douanevorm om nieuwe te creëren ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Een aangepast formulier verwijderen of deactiveren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Klik de **Gebieden** tabel.
@@ -76,12 +78,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    Raadpleeg de volgende artikelen voor informatie over wat u kunt doen wanneer u een item in de lijst selecteert:
 
    * [ voeg of geef een douanegebied, een sectieonderbreking, of widget toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-   * [ vormen het delen voor douanegebieden en widgets ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+   * [Delen configureren voor aangepaste velden en widgets in een formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Selecteer het **lusje van Secties**, dan zorg ervoor dat **de Groep van de Parameter** als **Mening** voor de lijst wordt geselecteerd.
 
    Alle sectie-einden worden in deze weergave weergegeven, samen met een lijst met aangepaste formulieren die elk sectie-einde bevatten.
 
-   Voor informatie over het uitgeven van een douanesectie die u in de lijst selecteert, zie [ een sectieonderbreking aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) toevoegen.
+   Voor informatie over het uitgeven van een douanesectie die u in de lijst selecteert, zie [ organiseren en voorproef een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

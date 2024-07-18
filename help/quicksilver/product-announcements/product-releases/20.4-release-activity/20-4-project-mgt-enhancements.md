@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ Om u meer controle over te geven wie, douanegebieden uitgeven kan schrappen en g
 Tot nu toe, toen u een douanegebied creeerde, was het editable door iedereen in het systeem. Dit is nog steeds de standaardstatus van een aangepast veld, maar u kunt het delen van een aangepast veld nu beperken tot bepaalde gebruikers, rollen, teams, groepen en bedrijven. En u kunt bepalen of uw ontvangers het aangepaste veld kunnen beheren of alleen kunnen weergeven.
 
 Om deze ervaring vertrouwd te maken voor u, hebben we de gebruikersinterface voor deze mogelijkheid zo ontworpen dat deze vergelijkbaar is met andere objectgebieden die door Workfront worden gedeeld.
-
-Voor meer informatie, zie [ het delen voor douanegebieden en widgets ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) vormen.
 
 ## Nieuw voor beheerders: gestandaardiseerd delen van aangepaste formulieren
 

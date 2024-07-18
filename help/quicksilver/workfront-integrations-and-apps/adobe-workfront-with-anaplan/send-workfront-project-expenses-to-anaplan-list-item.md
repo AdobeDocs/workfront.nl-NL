@@ -6,9 +6,9 @@ description: Dit integratiescenario deelt op kosten betrekking hebbende details 
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
   | [!UICONTROL Last Transmission Date] | Datum |
   | [!UICONTROL Integration Notes] | Alineatekstveld |
 
-  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven
+  Voor informatie bij het creëren van douaneformulieren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## [!DNL Anaplan] Configuratie verwacht
 

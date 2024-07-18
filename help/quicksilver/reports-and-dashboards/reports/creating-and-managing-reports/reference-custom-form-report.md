@@ -6,9 +6,9 @@ description: U kunt naar de aangepaste formulieren van een object verwijzen in d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Het aangepaste formulier moet bestaan voordat u ernaar kunt verwijzen in een rapport.
 
-Voor meer informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Voor meer informatie bij het creëren van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Verwijzen naar de inhoud van aangepaste formulieren
 
@@ -61,7 +61,7 @@ U kunt verwijzen naar velden in aangepaste formulieren. Nadat een aangepast form
 >[!NOTE]
 >
 >Voor velden met meerdere opties zijn alle opties beschikbaar in de filters en vragen van het rapport, inclusief de opties die verborgen zijn.\
->Voor meer informatie over het verbergen van keuzen van een douanegebied met veelvoudige opties, zie het artikel [ creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
+>Voor meer informatie over het verbergen van keuzen van een douanegebied met veelvoudige opties, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Wanneer u het rapport maakt, gebruikt u gewoon het objecttype van het formulier als de veldbron en gebruikt u de naam van het aangepaste veld als de veldnaam.
 

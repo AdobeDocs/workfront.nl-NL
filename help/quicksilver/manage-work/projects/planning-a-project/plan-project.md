@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Stel de volgende vragen:
   Voor meer informatie over het bepalen van welke updates aan spoor in Workfront, zie het artikel [ System-Tracked updates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Zijn er gegevens die u nodig hebt om bij te houden en waarin geen veld in Workfront staat om het in te slaan? Als dat het geval is, maakt u een aangepaste Forms voor projecten of taken waarin u deze gegevens kunt opslaan.\
-  Voor meer informatie over het creëren van douaneformulieren, zie het artikel [ creeer of geef een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
+  Voor meer informatie over het creëren van douanevormen, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Zijn er controlepunten voor goedkeuring die moeten worden toegekend voordat de werkzaamheden aan een project kunnen worden voortgezet? Als ja, creeer de Processen van de Goedkeuring voor projecten of taken die u kunt gebruiken aangezien u uw project bouwt.\
   Voor meer informatie over de Processen van de Goedkeuring, zie het artikel [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.

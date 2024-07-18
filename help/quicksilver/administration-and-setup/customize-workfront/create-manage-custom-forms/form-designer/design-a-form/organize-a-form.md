@@ -1,5 +1,5 @@
 ---
-title: Een formulier organiseren en een voorbeeld bekijken met de Form Designer
+title: Een formulier ordenen en een voorbeeld ervan bekijken
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
-# Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
+# Een formulier ordenen en een voorbeeld ervan bekijken
 
 U kunt een aangepast formulier organiseren met de formulierontwerper en er een voorbeeld van bekijken om te controleren of het correct is ingesteld.
 
@@ -79,10 +79,6 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp ee
       <td role="rowheader">Beschrijving</td> 
       <td>Typ tekst als u aan gebruikers wilt uitleggen waarvoor de sectie is bedoeld. Dit wordt weergegeven onder het label van de sectie op het aangepaste formulier.</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>Toegang verlenen</p> </td> 
       <td> <p> Selecteer de machtigingen die gebruikers nodig hebben voor een object waaraan het aangepaste formulier is gekoppeld, om deze sectie weer te geven en de veldwaarden ervan te bewerken. 
@@ -149,19 +145,10 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 
 1. Als u aangepaste velden en widgets op dezelfde rij wilt plaatsen, sleept u een naast elkaar totdat er een lijn tussen de velden en widgets wordt weergegeven.
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* U kunt de **knoop van de Voorproef** in de hoger-juiste hoek gebruiken om een idee van te krijgen hoe de douanegebieden en widgets in de vorm zullen tonen.
->* Aangepaste velden en widgets geven het formulier mogelijk niet altijd op dezelfde manier weer, afhankelijk van hoeveel schermruimte beschikbaar is wanneer een gebruiker het formulier bekijkt. Het derde veld in een rij velden kan bijvoorbeeld omlopen naar de volgende rij velden als de horizontale ruimte beperkt is.
+   >[!NOTE]
+   >
+   >* U kunt de **knoop van de Voorproef** in de hoger-juiste hoek gebruiken om een idee van te krijgen hoe de douanegebieden en widgets in de vorm zullen tonen.
+   >* Aangepaste velden en widgets geven het formulier mogelijk niet altijd op dezelfde manier weer, afhankelijk van hoeveel schermruimte beschikbaar is wanneer een gebruiker het formulier bekijkt. Het derde veld in een rij velden kan bijvoorbeeld omlopen naar de volgende rij velden als de horizontale ruimte beperkt is.
 
 1. (Optioneel) Als u een aangepast veld of een aangepaste widget boven of onder een ander veld of een andere widget wilt plaatsen, sleept u het onder of boven totdat er een horizontale blauwe lijn tussen de items wordt weergegeven.
 

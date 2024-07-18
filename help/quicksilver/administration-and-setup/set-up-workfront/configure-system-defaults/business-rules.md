@@ -7,7 +7,7 @@ description: U kunt kiezen of u de nieuwe Workfront-functionaliteit op maand- of
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Zakelijke regels maken en bewerken
-
-{{highlighted-preview-article-level}}
 
 Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bedrijfsregels helpen gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
 

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2506'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -324,13 +324,13 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. In **voeg douaneformulier** gebied toe, selecteer de douanevorm of de vormen die u met de kwestie wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven. U kunt maximaal tien aangepaste formulieren toevoegen aan een uitgave.
+1. In **voeg douaneformulier** gebied toe, selecteer de douanevorm of de vormen die u met de kwestie wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). U kunt maximaal tien aangepaste formulieren toevoegen aan een uitgave.
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan de uitgave hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de uitgave kunt opslaan.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de uitgave zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven. Voor informatie over het plaatsen van de toestemmingen van de uitgave, zie [ een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
+   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de uitgave zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douanevorm, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Voor informatie over het plaatsen van de toestemmingen van de uitgave, zie [ een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
 
 1. Klik **sparen** of blijf het uitgeven van de volgende sectie.
 

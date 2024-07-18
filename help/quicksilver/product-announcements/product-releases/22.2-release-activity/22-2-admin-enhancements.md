@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,11 @@ Eerder kon u een aangepast formulier zo configureren dat het slechts met één o
 
 Deze functionaliteit werkt met alle aangepaste formulieren die eerder in uw Workfront-systeem zijn gemaakt. Als u bijvoorbeeld al een aangepast formulier hebt dat is gemaakt voor het taakobjecttype, kunt u het formulier nu zo configureren dat het ook werkt met andere objecttypen, zoals Project en Issue.
 
-Voor meer informatie, zie het sectie [ Begin creërend een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) in artikel [ creeer of geef een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
-
 >[!NOTE]
 >
->* Op het moment dat deze functie voor het eerst in de voorbeeldweergave werd geïntroduceerd, konden we tijdelijk geen aangepast formulier voor meerdere objecten kopiëren. Die mogelijkheid werd op 24 maart ingeschakeld. Voor informatie over het kopiëren van een douanevorm, zie [ Kopieer een douanevorm om nieuwe tot stand te brengen ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* In een berekend aangepast veld zijn sommige velden waarnaar u verwijst mogelijk niet compatibel met objecttypen die zijn geconfigureerd voor het formulier. Onze oplossing is een jokerkaart waarmee de berekening verschillende waarden kan uitvoeren, afhankelijk van het object waaraan het formulier is gekoppeld. Op 24 maart hebben we de wilde kaart toegevoegd. Voor informatie over hoe te om het te gebruiken, zie de sectie [ Berekende douanegebieden in multi-objecten douaneformulieren ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) in het artikel [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
->* Voor sectie-einden in aangepaste formulieren hebben we een set algemene weergave- en bewerkingsmachtigingen gemaakt die werken voor alle objecttypen die u kunt configureren voor een formulier. In één scenario, ontdekten wij dat één van deze toestemmingen, Beperkte Edit, fouten op een vorm kon veroorzaken. Dit werd vastgesteld op 24 maart. Voor meer informatie over sectieonderbrekingen, zie [ een sectieonderbreking aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) toevoegen.
+>* Op het moment dat deze functie voor het eerst in de voorbeeldweergave werd geïntroduceerd, konden we tijdelijk geen aangepast formulier voor meerdere objecten kopiëren. Die mogelijkheid werd op 24 maart ingeschakeld.
+>* In een berekend aangepast veld zijn sommige velden waarnaar u verwijst mogelijk niet compatibel met objecttypen die zijn geconfigureerd voor het formulier. Onze oplossing is een jokerkaart waarmee de berekening verschillende waarden kan uitvoeren, afhankelijk van het object waaraan het formulier is gekoppeld. Op 24 maart hebben we de wilde kaart toegevoegd.
+>* Voor sectie-einden in aangepaste formulieren hebben we een set algemene weergave- en bewerkingsmachtigingen gemaakt die werken voor alle objecttypen die u kunt configureren voor een formulier. In één scenario, ontdekten wij dat één van deze toestemmingen, Beperkte Edit, fouten op een vorm kon veroorzaken. Dit werd vastgesteld op 24 maart.
 >
 
 ## De blauwdrukcatalogus is beschikbaar voor alle gebruikers en beheerders kunnen aanvragen toestaan
@@ -60,7 +58,6 @@ Eerder waren aangepaste formulieren volledig gebaseerd op tekst.
 >
 >In de nieuwe Adobe Workfront zijn gebieden zichtbaar die nog niet zijn gemoderniseerd, zoals het vak dat wordt weergegeven wanneer u items in bulk bewerkt, worden aangepaste formulierafbeeldingen niet weergegeven. Ze zullen worden weergegeven wanneer we deze gebieden blijven bijwerken.
 
-Voor meer informatie, zie [ een activa widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 ## Nieuwe standaardconfiguraties op toegangsniveau
 

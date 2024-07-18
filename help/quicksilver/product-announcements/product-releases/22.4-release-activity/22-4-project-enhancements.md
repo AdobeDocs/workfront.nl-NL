@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,6 @@ Op basis van uw feedback hebben we de volgende verbeteringen geïntroduceerd om 
 
 * Voeg een Adobe XD-bestand toe om een aangepast formulier visueel en informatief te maken. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken het XD bestand vanuit het formulier bekijken en ermee werken.
 
-  Voor meer informatie, zie [ een beeld of andere activa widget in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 * Met het snelle filter kunt u gemakkelijk items zoeken in de gemoderniseerde lijst met aangepaste formulieren en velden. Geniet ook van een verbeterde look and feel tijdens het beheren van uw formulieren en velden.
 

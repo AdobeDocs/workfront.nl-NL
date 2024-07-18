@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: ab7877c048ea87180dd518c978b258d266e0f95c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr>
      <tr> 
       <td role="rowheader">Aangepaste Forms-sectie</td> 
-      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet in Workfront beschikbaar zijn, kunt u een Vorm van de Douane bouwen en het associëren met uw bedrijf. U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve bedrijven worden vermeld in de keuzelijst. Voor informatie over het creëren van Douane Forms, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override=""> een douaneformulier </a> creëren of uitgeven. </p> </td> 
+      <td> <p>Als er gebieden zijn die u aan uw bedrijf wilt toevoegen die niet in Workfront beschikbaar zijn, kunt u een douaneformulier bouwen en het associëren met uw bedrijf. U kunt dit formulier aan uw bedrijf koppelen door het in de keuzelijst te selecteren. Alleen actieve bedrijven worden vermeld in de keuzelijst. Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> Ontwerp een vorm met de vormontwerper </a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

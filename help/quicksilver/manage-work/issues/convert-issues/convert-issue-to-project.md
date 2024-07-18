@@ -6,9 +6,9 @@ description: Een uitgave converteren naar een project in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1906'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ U kunt een uitgave in een leeg project omzetten.
      >[!TIP]
      >
      >* Als een multi-objecten douaneformulier in bijlage aan de kwestie voor gebruik met zowel kwesties als projecten wordt gevormd, wordt alle informatie bewaard die in de vorm wordt opgeslagen wanneer u de omzetting maakt als de gebieden zowel op de kwestie als de douaneformulieren van het project bestaan.
-     >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [ berekende gegevens aan een douaneformulier met de bouwer van de erfenis ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+     >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 1. Klik [!UICONTROL **Bekeerling in project**].
 
@@ -237,7 +237,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
         >[!TIP]
         >
         >* Als een multi-objecten douaneformulier in bijlage aan de kwestie voor gebruik met zowel kwesties als projecten wordt gevormd, wordt alle informatie bewaard die in de vorm wordt opgeslagen wanneer u de omzetting maakt als de gebieden zowel op de kwestie als de douaneformulieren van het project bestaan.
-        >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [ berekende gegevens aan een douaneformulier met de bouwer van de erfenis ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+        >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
         >* Als een aangepast formulier dat aan de sjabloon is gekoppeld, een aangepast veld bevat dat ook wordt gevonden in een aangepast formulier dat aan de uitgave is gekoppeld, wordt de veldwaarde van de uitgave gebruikt voor het nieuwe project. Als het aangepaste veld echter leeg is in de uitgave, wordt de waarde uit de sjabloon gebruikt.
 
 1. (Optioneel) Stel desgewenst verdere projectdetails &#x200B; (eigenaar van project, projectdatums) en taken in.

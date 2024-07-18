@@ -6,9 +6,9 @@ description: '''(AL:*Interactief op dit artikel: filteren op aangepaste gegevens
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2416'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Een filter maken in de bronnenplanner:
 
    >[!IMPORTANT]
    >
-   >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+   >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik op de naam van het veld om het aan het filter toe te voegen wanneer het in de lijst wordt weergegeven.\
    Voor meer informatie over de gebieden u in de lijst ziet, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

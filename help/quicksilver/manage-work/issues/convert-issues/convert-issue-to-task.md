@@ -6,9 +6,9 @@ description: Als er meer moet worden gedaan om een probleem op te lossen nadat h
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >[!TIP]
    >
    >* Als een aangepast formulier voor meerdere objecten dat aan de uitgave is gekoppeld, is geconfigureerd voor gebruik met zowel uitgaven als taken, blijft alle informatie die in het formulier is opgeslagen behouden wanneer u de conversie uitvoert als de velden zowel voor de uitgave als voor de aangepaste formulieren van de taak bestaan.
-   >* Als een aangepast formulier met meerdere objecten en een berekend veld aan de uitgave en de taak is gekoppeld, moeten de uitgave en de taak compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [ berekende gegevens aan een douaneformulier met de bouwer van de erfenis ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+   >* Als een aangepast formulier met meerdere objecten en een berekend veld aan de uitgave en de taak is gekoppeld, moeten de uitgave en de taak compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
    >* Als voor het doelproject standaardformulieren zijn gedefinieerd in het veld Standaard aangepaste Forms voor taak bij het bewerken van het project, worden deze taakformulieren ook toegevoegd aan de nieuwe taak. Aangepaste velden die veel voorkomen tussen de oorspronkelijke uitgave en de velden op de standaardtaakformulieren, worden vooraf ingevuld met informatie uit de uitgiftevelden.
 
 

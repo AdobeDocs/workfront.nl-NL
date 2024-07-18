@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,6 @@ Voordat u de in dit artikel beschreven handelingen kunt uitvoeren, moet u het vo
   Leren hoe te om gebieden toe te voegen die u Workfront wilt volgen, zie [ systeemupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
 * Om het even welke douanegebieden die u wilt melden hebben de plaatsende **veranderingen van het het gebiedsgebied van de Vertoning in toegelaten updatevoer**.
-
-  Leren hoe te om dit het plaatsen voor een douanegebied toe te laten, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#) creëren of uitgeven.
 
 ## Overzicht van het Dagboekingrapport
 

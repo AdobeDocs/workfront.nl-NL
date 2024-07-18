@@ -6,9 +6,9 @@ description: Een kalenderrapport is een dynamisch rapport dat een visuele verteg
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Vereisten
 
-1. U moet aangepaste datumvelden hebben en een waarde binnen het veld dat beschikbaar is in uw [!DNL Workfront] -instantie. Als u geen opstelling van de douanevorm met douanedata hebt, volg de instructies in de eerste twee secties in [ creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
+1. U moet aangepaste datumvelden hebben en een waarde binnen het veld dat beschikbaar is in uw [!DNL Workfront] -instantie. Als u geen opstelling van de douanevorm met douanedata hebt, volg de instructies in [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Voeg het aangepaste formulier toe aan een project, taak of uitgave die u wilt toevoegen aan de kalender en geef een datum op. Voor meer informatie, zie [ een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## De groep items instellen

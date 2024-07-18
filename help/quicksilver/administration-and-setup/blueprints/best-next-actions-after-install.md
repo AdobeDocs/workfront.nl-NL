@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -97,4 +97,4 @@ Door de invoering van een nieuw dashboard en de bijbehorende verslagen kan het m
 
 ### Aangepaste gegevens distribueren naar relevante formulieren
 
-Sommige rapporten inbegrepen in een dashboardblauwdruk hebben de gebieden van douanegegevens in of de mening, de filter, of de groepering van het rapport. In sommige gevallen heeft de blauwdruk ook een formulier waaraan deze velden zijn gekoppeld. De aangepaste velden worden echter vaker dan niet toegepast op een aangepast formulier. De kolommen, filters of groepen werken alleen correct als deze velden zijn gekoppeld aan formulieren die zijn verbonden met een gebruiker, project, taak of andere objectreeks. Voor informatie, zie [ een douanegebied aan een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen.
+Sommige rapporten inbegrepen in een dashboardblauwdruk hebben de gebieden van douanegegevens in of de mening, de filter, of de groepering van het rapport. In sommige gevallen heeft de blauwdruk ook een formulier waaraan deze velden zijn gekoppeld. De aangepaste velden worden echter vaker dan niet toegepast op een aangepast formulier. De kolommen, filters of groepen werken alleen correct als deze velden zijn gekoppeld aan formulieren die zijn verbonden met een gebruiker, project, taak of andere objectreeks. Voor informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

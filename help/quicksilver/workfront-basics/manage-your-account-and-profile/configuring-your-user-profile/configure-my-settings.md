@@ -6,9 +6,9 @@ description: Uw  [!DNL Adobe Workfront]  profiel bevat informatie over zich (bij
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -523,7 +523,7 @@ U moet over een van de volgende toegangsrechten of machtigingen beschikken om ee
 
 Alle gebruikers kunnen aangepaste formulieren zien die zijn gekoppeld aan hun profielen.
 
-Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Comment]
 

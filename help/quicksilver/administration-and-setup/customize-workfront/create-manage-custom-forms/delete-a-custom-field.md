@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    1. Voeg de aangepaste velden toe aan het nieuwe formulier dat u uit het oorspronkelijke aangepaste formulier wilt verwijderen.
 
-      * Als u de bouwer van de douanevorm gebruikt, zie [ een douanegebied of een widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) opnieuw gebruiken.
-      * Als u de vormontwerper wordt gebruikt, zie [ nieuwe of bestaande gebieden aan uw douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) toevoegen.
+      Voor informatie, zie de sectie [ nieuwe of bestaande gebieden aan uw douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) in [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) toevoegen.
 
    1. Sla het nieuwe aangepaste formulier op.
 

@@ -6,9 +6,9 @@ description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Wijs Workfront-objectgegevens toe aan middelenmediavelden in Experience Manager 
 Voordat u begint, moet u
 
 * Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Ondersteunde velden voor Workfront en Experience Manager Assets
 

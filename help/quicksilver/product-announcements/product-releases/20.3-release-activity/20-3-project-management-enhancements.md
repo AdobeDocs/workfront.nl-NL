@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ over
 Wanneer de systeembeheerder aangepaste formuliervelden maakt die zijn geconfigureerd voor opmaak, kunt u nu tekst opmaken in die velden waarin u ze het meest gebruikt: in lijsten in Workfront. In plaats van naar het gebied Details te gaan om tekst in het aangepaste formulier op te maken, kunt u op een veld in een lijst klikken en daar Vet, Cursief en Onderstrepen op tekst toepassen.
 
 Deze functionaliteit is alleen beschikbaar in de bijgewerkte lijsten. Voor meer informatie over bijgewerkte lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Voor informatie over hoe een beheerder van Workfront tekstgebieden met het formatteren creeert, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Het bijgewerkte uiterlijk van verschillende algemene koppen
 
@@ -113,5 +111,4 @@ Om u meer flexibiliteit in het etiketteren van en het opnieuw labelen van de geb
 
 In het verleden werd het label zowel boven het veld voor gebruikers weergegeven als door het systeem gebruikt om het veld te identificeren. Door het label voor gebruikers te wijzigen, functioneerde het veld dus niet goed waar het werd gebruikt, omdat het systeem het niet meer kon identificeren.
 
-Voor meer informatie, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 

@@ -7,9 +7,9 @@ description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegeven
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt berekende gegevensexpressies gebruiken in:
 
 * Een berekend aangepast veld op een aangepast formulier
 
-  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [ berekende gegevens aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Een berekende aangepaste kolom in een rapport of lijst wanneer u de tekstmodus gebruikt
 

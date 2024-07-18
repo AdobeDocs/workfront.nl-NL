@@ -6,9 +6,9 @@ description: U kunt het gebruik van uw middelen in het rapport van het Gebruik b
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '7254'
+source-wordcount: '7255'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U kunt het gebruik van uw middelen in het rapport van het Gebruik bekijken.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om tot het rapport van het Gebruik toegang te hebben:
 
@@ -48,7 +48,7 @@ U moet het volgende hebben om tot het rapport van het Gebruik toegang te hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td><p>Nieuw: alle</p>
        <p>of</p>
        <p>Huidig: Pro of hoger</p> </td> 
@@ -118,9 +118,9 @@ Voor informatie over de toegang tot van en het gebruiken van het rapport van het
 
 U kunt de voortgang volgen door te bekijken hoe de begrote en geplande uren vergeleken worden met de werkelijke uren.
 
-Wanneer u de voortgang van een project, programma of portfolio bijhoudt, wordt de voortgang ten opzichte van zowel taken als problemen opgenomen in het gebruiksrapport.
+Wanneer u de voortgang van een project, programma of portfolio volgt, wordt de voortgang ten opzichte van zowel taken als problemen opgenomen in het gebruiksrapport.
 
-De volgende informatie is beschikbaar in het gebruiksrapport bij het bijhouden van uren:
+De volgende informatie is beschikbaar in het rapport Gebruik bij het volgen van Uren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,12 +128,12 @@ De volgende informatie is beschikbaar in het gebruiksrapport bij het bijhouden v
  <thead> 
   <tr> 
    <th><strong> Titel van de Kolom wanneer het Bekijken van uren </strong> </th> 
-   <th><strong> functie </strong> </th> 
+   <th><strong> Functie </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"><strong> Budgeted Hours </strong> </td> 
+   <td scope="col"><strong> Beoogde Uren </strong> </td> 
    <td scope="col"> <p>De totale begrote uren voor de opgenomen projecten. U kunt de totale begrote uren voor de totale levensduur van de opgenomen projecten weergeven, of u kunt de totale begrote uren alleen voor het opgegeven datumbereik weergeven (u kunt een afzonderlijke week of maand opgeven). </p> <p>De begrote Uren zijn bevolkt van informatie beschikbaar in het gebied van de Begroting van het Middel van het BedrijfsGeval of de Planner van het Middel <em>.</em></p> <p>De begrote Uren verschijnen op het rapport van het Gebruik in om het even welke volgende rijen:</p> 
     <ul> 
      <li> De begrote uren uren worden samengevat door baanrol en door individuele gebruiker in het rapport van het Gebruik, als volgt:<br><strong> Individuele Gebruiker:</strong> Begroeide Uren worden samengevat voor elke gebruiker in het gebruiksrapport. Deze begrotingsuren zijn gekoppeld aan de taken en problemen waaraan de gebruiker is toegewezen voor de opgenomen projecten. (U kunt de rij van de overeenkomstige baanrol uitbreiden om een lijst van gebruikers met die baanrol te bekijken.)<br><strong> de Rol van de Baan:</strong> de Begroeide Uren worden samengevat door baanrol in het gebruiksrapport.<br> begrotingsuren verschijnen in een bepaalde baanrol als resultaat van om het even welke volgende scenario's:
@@ -186,12 +186,12 @@ De geplande uren verschijnen op het rapport van het Gebruik in om het even welke
 
 <li>De taakrol wordt gedefinieerd als de primaire taakrol van de gebruiker die is toegewezen aan de taak of uitgave waaraan de geplande uren zijn gekoppeld.
 
-<li>Wanneer u gebruiksinformatie voor één project bekijkt, worden de uren die aan een taakrol zijn gekoppeld niet weergegeven voor de taakrol in de volgende scenario's:   
+<li>Wanneer u gebruiksinformatie voor één enkel project bekijkt, tonen de uren verbonden aan een baanrol niet voor de baanrol in de volgende scenario's:   
 <ul>
 
 <li>Er is geen toewijzing voor de taak of uitgave
 
-<li>Er is een gebruiker toegewezen zonder taakroltoewijzing
+<li>Een gebruiker wordt toegewezen zonder taakroltoewijzing
 
 <li>Een gebruiker krijgt een andere taakrol toegewezen
 
@@ -276,8 +276,8 @@ De volgende informatie is beschikbaar in het gebruiksrapport wanneer het volgen 
    <td scope="col"> <p>De totale werkelijke kosten van de opgenomen projecten. U kunt de totale werkelijke kosten voor de totale levensduur van de opgenomen projecten weergeven of u kunt de totale werkelijke kosten alleen voor het opgegeven datumbereik weergeven (u kunt een afzonderlijke week of maand opgeven).</p> <p>Voor informatie over hoe de Ware Kosten voor het project worden berekend, zie <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs"> hoe Workfront Geplande, Gefabriceerde, en Ware Kosten </a> in <a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md"> Kosten van het Spoor </a> berekent.</p> </td>
   </tr> 
   <tr> 
-   <td><strong> Budgeted Variantie (voor Kosten) </strong> </td> 
-   <td scope="col"> <p>De totale begrote kosten min de totale werkelijke kosten voor de opgenomen projecten. U kunt de totale begrote variantie voor de totale levensduur van de opgenomen projecten bekijken, of u kunt de totale begrote variantie alleen voor het opgegeven datumbereik bekijken (u kunt een afzonderlijke week of maand opgeven).</p> <p>Als de waarde positief is, wordt deze in groen weergegeven. Dit geeft aan dat de totale begrote kosten hoger zijn dan de werkelijke kosten.</p> <p>Als de waarde negatief is, wordt deze in rood weergegeven. Dit geeft aan dat de totale begrote kosten lager zijn dan de werkelijke kosten.</p> </td>
+   <td><strong> Beoogde Variantie (voor Kosten) </strong> </td> 
+   <td scope="col"> <p>De totale begrote kosten minus de totale werkelijke kosten voor de opgenomen projecten. U kunt de totale begrote variantie voor de totale levensduur van de opgenomen projecten bekijken, of u kunt de totale begrote variantie alleen voor het opgegeven datumbereik bekijken (u kunt een afzonderlijke week of maand opgeven).</p> <p>Als de waarde positief is, wordt deze in groen weergegeven. Dit geeft aan dat de totale begrote kosten hoger zijn dan de werkelijke kosten.</p> <p>Als de waarde negatief is, wordt deze in rood weergegeven. Dit geeft aan dat de totale begrote kosten lager zijn dan de werkelijke kosten.</p> </td>
   </tr> 
   <tr> 
    <td><strong> Geplande Variantie (voor Kosten) </strong> </td> 
@@ -331,7 +331,7 @@ In tegenstelling tot andere gebieden van Workfront worden in het gebruiksrapport
 
 In tegenstelling tot andere gebieden van Workfront wordt, wanneer de geplande ontvangsten het plafond overschrijden, het bedrag boven het maximumbedrag als vaste inkomsten beschouwd. De geplande inkomsten worden berekend door de vaste inkomsten gelijkmatig te delen door het aantal geplande uren op de taak, en vervolgens bij het maximumbedrag en de rol of de omzet per uur op te tellen. <br></p> <p>De volgende gevallen bestaan: </p>
 <ul>
-<li> <p><strong> Rol Uur met Kaart:</strong> de Taken worden in rekening gebracht uurs zoals in de Huur van de Rol, maar zij hebben een maximumBedrag van het Kortje dat u kunt specificeren. Workfront gebruikt de volgende formule:</p> <p><code> Rol Uur met Geplande Inkomsten van het Gepland Gepland Gepland Toezicht van de Weg = [ SUM (Geplande Uren van rol op alle taken en kwesties) * Het Facturerings Tarief van de Rol ] + Bedrag van het Gedekte van de taak + SUM (Bedrag over het Bedrag van het Gepland / Geplande Uren van de taak)</code> </p> </li>
+<li> <p><strong> Rol Uur met Kapitaal:</strong> de Taken worden in rekening gebracht elk uur zoals in de Huur van de Rol, maar zij hebben een maximumBedrag van het Uiteinde dat u kunt specificeren. Workfront gebruikt de volgende formule:</p> <p><code> Rol Uur met Geplande Inkomsten van het Gepland Gepland Gepland Toezicht van de Weg = [ SUM (Geplande Uren van rol op alle taken en kwesties) * Het Facturerings Tarief van de Rol ] + Bedrag van het Gedekte van de taak + SUM (Bedrag over het Bedrag van het Gepland / Geplande Uren van de taak)</code> </p> </li>
 <li> <p><strong> Uur van de Gebruiker met/Kop:</strong> de Taken worden per uur zoals in Uur van de Gebruiker in rekening gebracht, maar zij hebben een maximumBedrag van het Uiteinde dat u kunt specificeren. Workfront gebruikt de volgende formule: </p> <p><code> Uur van de Gebruiker met Geplande Inkomsten = [ SUM (Geplande Uren van gebruiker op alle taken) * het Facturerings Tarief van de Gebruiker ] + Bedrag van het Geheime voorwendsel van de taak + SUM (Bedrag over het Bedrag van het Uiteinde / Geplande Uren van de taak)</code> </p> </li>
 </ul> <p>Voor meer informatie over welke rol of gebruiker in aanmerking wordt genomen wanneer het berekenen van Geplande Inkomsten, zie <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref"> Overzicht van Facturering en Inkomsten </a>.</p> </td>
 </tr> 
@@ -368,7 +368,7 @@ Als de gebruiker niet aan een baanrol wordt geassocieerd of als het Factureren p
   </tr> 
   <tr> 
    <td><strong> Geplande Variantie (voor Inkomsten) </strong> </td> 
-   <td> <p>De totale werkelijke inkomsten minus de totale geplande ontvangsten voor de opgenomen projecten.<br> u kunt de totale geplande variantie voor het algemene leven van de inbegrepen projecten bekijken, of u kunt de totale geplande variantie slechts voor de gespecificeerde datumwaaier bekijken (u kunt een individuele week of een maand specificeren). </p> <p>Als de waarde positief is, wordt deze in groen weergegeven. Dit geeft aan dat de totale geplande inkomsten groter zijn dan de werkelijke inkomsten.</p> <p>Als de waarde negatief is, wordt deze in rood weergegeven. Dit geeft aan dat de totale geplande ontvangsten lager zijn dan de werkelijke ontvangsten.</p> </td>
+   <td> <p>De totale werkelijke inkomsten minus de totale geplande ontvangsten voor de opgenomen projecten.<br> u kunt de totale geplande variantie voor het algemene leven van de inbegrepen projecten bekijken, of u kunt de totale geplande variantie slechts voor de gespecificeerde datumwaaier bekijken (u kunt een individuele week of een maand specificeren). </p> <p>Als de waarde positief is, wordt deze in groen weergegeven. Dit geeft aan dat de totale geplande inkomsten groter zijn dan de werkelijke inkomsten.</p> <p>Als de waarde negatief is, wordt deze in rood weergegeven. Dit geeft aan dat de totale geplande inkomsten lager zijn dan de werkelijke inkomsten.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -381,7 +381,7 @@ Als de gebruiker niet aan een baanrol wordt geassocieerd of als het Factureren p
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
    -->
 
-### Opbrengsten vergelijken met geraamde en werkelijke kosten {#compare-revenue-against-planned-and-actual-costs}
+### Vergelijk de ontvangsten met de geplande en de werkelijke kosten {#compare-revenue-against-planned-and-actual-costs}
 
 U kunt de Geplande of Werkelijke Kosten naast de Geplande Inkomsten bekijken. De marge (%) wordt ook weergegeven (de marge wordt berekend als inkomsten - kosten / inkomsten).
 
@@ -546,7 +546,7 @@ Het gebruiksrapport bevat alleen informatie voor de rollen die u opgeeft. Een ta
 
      >[!IMPORTANT]
      >
-     >Typ de veldnaam en niet het veldlabel. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+     >Typ de veldnaam en niet het veldlabel. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
      Voor meer informatie over de gebieden u in de kolommen ziet, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).\
      Kies het filter en de voorwaardomstandigheden voor het filter. De beschikbare bepalingen worden beschreven in [ Filter en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

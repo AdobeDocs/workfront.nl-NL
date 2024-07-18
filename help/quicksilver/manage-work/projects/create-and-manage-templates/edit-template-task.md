@@ -7,9 +7,9 @@ description: Nadat u een sjabloon hebt gemaakt, kunt u informatie over de sjablo
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2385'
 ht-degree: 0%
 
 ---
@@ -350,7 +350,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
    ![ custom_forms_edit_task.png ](assets/custom-forms-edit-task-350x136.png)
 
-1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven. U kunt maximaal tien aangepaste formulieren toevoegen aan een sjabloontaak. De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
+1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). U kunt maximaal tien aangepaste formulieren toevoegen aan een sjabloontaak. De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
 1. (Voorwaardelijk en optioneel) Als u een aangepast formulier aan de sjabloontaak hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de sjabloontaak kunt opslaan.
 
    >[!NOTE]

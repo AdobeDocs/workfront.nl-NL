@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,4 @@ Het weergeven en selecteren van opties voor selectievakjes en keuzerondjes in aa
 Dit hangt af van de positie van de velden in het aangepaste formulier. Als u een ander veld in dezelfde rij plaatst met het selectievakje of keuzerondje, hebben de opties mogelijk slechts voldoende horizontale ruimte om in één kolom weer te geven.
 
 Voor informatie over het invullen van een douanevorm, zie [ informatie op de gebieden van de douanevorm ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
-
-Voor informatie over het creëren van een checkbox of radioknoopgebied in een douanevorm, zie de secties [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) creëren of uitgeven en [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) in artikel [ creëren of uitgeven een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -6,9 +6,9 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in projectpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '4721'
+source-wordcount: '4726'
 ht-degree: 0%
 
 ---
@@ -467,7 +467,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Select the custom form or forms that you want to associate with the template. You must build the custom forms before they are available to select in this field.
 
-   Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Only active custom forms display in the list. s
 
    You can add up to ten custom forms to a template.
 
@@ -491,7 +491,7 @@ For information about how these settings affect creating new tasks, see [Create 
    ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Creating Custom Forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can associate up to ten custom forms with a task.
+1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
 1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
@@ -771,7 +771,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Klik binnen **voeg douaneformulier** gebied toe en selecteer de douanevorm of de vormen die u met het malplaatje wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren.
 
-   Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+   Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    U kunt maximaal tien aangepaste formulieren aan een sjabloon toevoegen.
 
@@ -927,7 +927,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
    ![](assets/edit-template-box-tax-settings-section.png)
 
 1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0}, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ Creërend Aangepaste Forms ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
+1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren in het project te gebruiken dat van het malplaatje wordt gecreeerd.
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu om het percentage voor elk niveau van de Werkinspanning bij te werken. De volgende percentagewaarden zijn de standaardwaarden:
 

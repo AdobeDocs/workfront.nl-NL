@@ -7,9 +7,9 @@ description: Als u meerdere velden in Adobe Workfront wilt samenvoegen en die ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 Als u meerdere velden in Adobe Workfront wilt samenvoegen en die geaggregeerde waarde wilt weergeven in een nieuw veld, kunt u het volgende maken:
 
 * Een berekend aangepast veld in een aangepast formulier\
-  Voor meer informatie over het toevoegen van een berekend douanegebied aan een douaneformulier, zie de sectie [ een berekend gebied aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) in het artikel [ toevoegen berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Voor meer informatie over het toevoegen van een berekend douanegebied aan een douanevorm, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Een berekende kolom in een weergave\
   Voor meer informatie over het gebruiken van berekeningen in een mening, zie de sectie [ Wijze van de Tekst van het Gebruik in meningen ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in het artikel [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

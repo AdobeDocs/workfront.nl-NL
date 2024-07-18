@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2335'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Een Workfront-beheerder moet de volgende componenten van een aanvraagwachtrij ma
   Voor meer informatie, zie het artikel [ creëren de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Optioneel) Aangepast formulier aanvragen.\
-  Voor meer informatie, zie het artikel [ creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
+  Voor meer informatie, zie het artikel [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Optioneel) Verzoek om goedkeuring.\
   Voor meer informatie, zie het artikel [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.

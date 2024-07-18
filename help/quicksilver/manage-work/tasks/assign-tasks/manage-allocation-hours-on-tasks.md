@@ -6,20 +6,14 @@ description: Wanneer het toewijzen van gebruikers of rollen aan een taak, worden
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
 # Gebruikers- en roltoewijzingstijden beheren voor taken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
-
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Wanneer het toewijzen van gebruikers of rollen aan een taak, worden zij toegewezen om een bepaald aantal uren te werken om de taak te voltooien. U kunt de hoeveelheid uren manueel wijzigen dat elke gebruiker of baanrol wordt toegewezen wanneer zij aan een taak worden toegewezen, wanneer het Type van Duur van de taak Eenvoudig is.
 
@@ -82,10 +76,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Zorg ervoor dat het **Type van Duur** van de taak **Eenvoudig** is.
 1. Wijzig **Verdelingen** voor elke taak toegewezen. Dit zijn algemene toewijzingen voor elke toewijzing aan deze taak, voor de volledige duur van de taak. Hierdoor kunnen ook de algemene geplande uren van de taak worden bijgewerkt.
 
-   Voorbeeldafbeelding in de productieomgeving:
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ wijzigt toewijzingen ](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klik **sparen**.

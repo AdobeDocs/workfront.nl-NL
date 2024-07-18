@@ -6,20 +6,14 @@ description: Het percentage van de toewijzing vertegenwoordigt de hoeveelheid ti
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Het percentage gebruikers- of roltoewijzingen beheren voor taken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
-
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Het percentage van de toewijzing vertegenwoordigt de hoeveelheid tijd een toegewezen middel wordt gepland om aan een taak in een dag te werken. Het is het percentage van een het werkdag (volgens het gebruikers of projectprogramma) waarbij een middel door de duur van de taak wordt toegewezen.
 
@@ -91,10 +85,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    U kunt niet het toewijzingspercentage voor een team wijzigen dat aan een taak wordt toegewezen.
 
-   Voorbeeldafbeelding in de productieomgeving:
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ wijzigen toewijzingspercentage ](assets/advanced-assignments-allocation-percentage.png)
 
 1. Klik **sparen**.

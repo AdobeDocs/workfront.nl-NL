@@ -7,9 +7,9 @@ description: Door vervangingen in filters te gebruiken, kunt u een generische ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,6 @@ U kunt uit de volgende op object gebaseerde jokertekens kiezen:
      <p>De variabele $$OBJCODE verwijst naar het type van een object. </p> 
      <p>Wanneer in een aangepast formulier de geselecteerde objecttypen van het formulier niet compatibel zijn met een veld waarnaar wordt verwezen in een berekend aangepast veld, kunt u dit jokerteken gebruiken om te voorkomen dat dubbele formulieren voor deze objecttypen worden gemaakt.</p> 
      <p>In het berekende aangepaste veld doet u dit door het jokerteken op te nemen in een IF-expressie, zodat de berekening verschillende waarden kan uitvoeren voor elk objecttype van het formulier. </p> 
-     <p>Voor meer informatie en een voorbeeld, zie de sectie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref"> Berekende douanegebieden in multi-objecten douaneformulieren </a> in het artikel <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref"> berekende gegevens aan een douaneformulier </a> toevoegen.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

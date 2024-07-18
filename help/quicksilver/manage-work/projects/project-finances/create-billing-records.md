@@ -5,9 +5,9 @@ description: Naast het opzetten van inkomsten en het volgen van uitgaven, kunt u
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Overweeg het volgende wanneer u factureringsrecords wilt gebruiken:
 
 1. (Facultatief) onder **Eigen Forms**, selecteer een het factureren verslagen douaneformulier dat u aan het het facturerings verslag wilt toevoegen.
 
-   U (of een andere gebruiker met toegang tot aangepaste formulieren) moet een aangepaste factureringsrecord maken voordat u deze hier kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
+   U (of een andere gebruiker met toegang tot aangepaste formulieren) moet een aangepaste factureringsrecord maken voordat u deze hier kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    U kunt deze stap herhalen om andere aangepaste formulieren toe te voegen die u nodig hebt voor de factureringsrecord.
 

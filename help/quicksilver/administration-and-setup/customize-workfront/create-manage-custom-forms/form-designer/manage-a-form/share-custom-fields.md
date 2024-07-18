@@ -1,5 +1,5 @@
 ---
-title: Delen voor aangepaste velden en widgets configureren met de formulierontwerper
+title: Delen voor aangepaste velden en widgets configureren
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
 
-# Delen voor aangepaste velden en widgets configureren met de formulierontwerper
+# Delen voor aangepaste velden en widgets configureren
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 

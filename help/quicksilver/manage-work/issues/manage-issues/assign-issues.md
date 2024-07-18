@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 # Problemen toewijzen
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
-
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van het wijzigen van uitgiftetaken ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -126,11 +120,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
    * Typ de naam van een gebruiker, rol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
-     Voorbeeldafbeelding in de productieomgeving:
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-     <span class="preview">![ het onderzoek van Taken ](assets/smart-assignments-issue-header.png)</span>
+     ![ het onderzoek van Taken ](assets/smart-assignments-issue-header.png)
 
    * (Voorwaardelijk) Klik één van de namen, rollen, of teams in de beschikbare lijsten
    * Klik **toewijzen aan me** om het aan zich toe te wijzen
@@ -177,10 +167,6 @@ Om kwesties in een lijst toe te wijzen:
 
    * Klik binnen het **gebied van Taken** en begin de naam van een actieve gebruiker, baanrol, of actief team te typen dat u aan de kwestie wilt toewijzen, dan het klikken wanneer het in de lijst toont.
 
-     Voorbeeldafbeelding in de productieomgeving:
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
      ![ het gebied van Taken ](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]

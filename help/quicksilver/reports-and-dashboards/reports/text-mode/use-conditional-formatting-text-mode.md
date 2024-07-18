@@ -6,9 +6,9 @@ description: Voorwaardelijke opmaak gebruiken in tekstmodus
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ Voor meer informatie over hoe te om `valueexpression line` te formatteren, zie [
 
 U kunt een kolom met een coderegel `valueexpression` niet voorwaardelijk opmaken. In plaats daarvan kunt u een berekend aangepast veld toevoegen aan een aangepast formulier en dit koppelen aan de objecten die u in het rapport weergeeft. Vervolgens kunt u de kolommen met dit veld voorwaardelijk opmaken.
 
-Voor meer informatie over Berekende Gebieden van de Douane, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
+Voor meer informatie over Berekende Gebieden van de Douane, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 ## Een aggregatorwaarde toevoegen in een tekstmoduskolom
 

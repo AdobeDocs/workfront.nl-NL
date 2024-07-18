@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
 
 # Geavanceerde toewijzingen maken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
-
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
-
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 U kunt taken beheren of taken uitgeven door Geavanceerde Toewijzingen te gebruiken.
 
@@ -97,10 +91,6 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 1. Klik **Geavanceerd**.
 
-   Voorbeeldafbeelding in de productieomgeving:
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
    ![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)
 
 1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
@@ -159,10 +149,6 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het vak Rol van de ontvanger om een andere rol te selecteren.  Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
 
-     Voorbeeldafbeelding in de productieomgeving:
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
      ![ Rol van de Ontvanger ](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -181,14 +167,6 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    * **Geplande Uren**: Wanneer het Type van Duur Toewijzing of Eenvoudig wordt berekend, werk het aantal Geplande Uren bij. De toewijzingspercentages of de uren voor elke bron worden als gevolg hiervan gelijkmatig verdeeld. Workfront berekent de geplande uren wanneer het Duur-type Berekend Werk of Gedreven Inspanning is. Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-     Voorbeeldafbeelding in de productieomgeving:
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     Voorbeeldafbeelding in de voorvertoningsomgeving:
      ![ Geavanceerde Taken ](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. Klik **sparen**.

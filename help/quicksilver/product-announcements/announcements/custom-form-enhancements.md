@@ -4,9 +4,9 @@ description: De volgende belangrijke verbeteringen zijn aangebracht voor het beh
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B
 * Het vak Bewerken voor het object, als dit object er anders uitziet dan de nieuwe Adobe Workfront-ervaring (bijvoorbeeld het vak Kosten bewerken)
 * De Workfront Mobile-app &#x200B;
 
-Voor meer informatie over het toevoegen van widgets aan douaneformulieren, zie [ een beeld of andere activa widget in een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
-
 ## Een aangepast formulier koppelen aan meerdere objecttypen
 
 U kunt meerdere objecttypen koppelen aan elk nieuw aangepast formulier:
@@ -68,8 +66,6 @@ Dit is vooral handig wanneer u een uitgave of taak converteert, omdat u een aang
 >
 >Wanneer de conversie plaatsvindt, moet het aangepaste formulier al zijn gekoppeld aan het objecttype waarnaar u converteert.
 
-Voor instructies bij het toevoegen van een activa widget aan een douanevorm, zie [ een beeld of andere activa widget in een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
-
 Houd rekening met het volgende wanneer u een aangepast formulier met meerdere objecten maakt of bewerkt:
 
 * [Machtigingsopties voor sectie-einden](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ De reeks toestemmingen van de sectieonderbreking beschikbaar voor alle andere ob
 In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. Met name in plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set de optie Bewerken met machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
 
 Wanneer u een objecttype koppelt dat andere machtigingsopties gebruikt dan de andere objecttypen die al op een aangepast formulier voorkomen, wordt een bericht weergegeven waarin u kunt overschakelen naar de algemene set machtigingsopties voor het formulier. Deze wijziging is van toepassing op alle velden, zelfs als deze niet onder een sectie-einde vallen.
-
-Voor meer informatie, zie [ een sectieonderbreking aan een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) toevoegen.
 
 ### Compatibiliteit met aangepaste velden berekenen
 
@@ -125,7 +119,6 @@ Wanneer dit voorkomt, kunt u één van het volgende doen:
 >
 >  Als u een objecttype toevoegt vóór een veldnaam, verwijst het naar het bovenliggende object van het object. U kunt `{project}.{name}` dus niet gebruiken met een project, maar u kunt het wel gebruiken met een taak.
 
-Voor instructies bij het toevoegen van een berekend douanegebied aan een douanevorm, zie [ berekende gegevens aan een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [ overzicht van de de filtervariabelen van de Verjaring ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
