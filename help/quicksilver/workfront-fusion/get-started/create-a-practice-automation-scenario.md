@@ -2,212 +2,200 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Creeer een scenario van de praktijkautomatisering in [!DNL Adobe Workfront Fusion]
+title: Creeer een scenario van de praktijkautomatisering in  [!DNL Adobe Workfront Fusion]
 description: In dit artikel wordt beschreven hoe u een automatiseringsscenario kunt maken met Adobe Workfront Fusion. Automatiseringsscenario's automatiseren Workfront-processen, waaronder gegevensmanipulatie en -transformatie. Dit voorbeeld neemt u door het proces om een scenario tot stand te brengen dat naar een project zoekt en dan alle taken verbonden aan dat project terugkeert.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 8769ed5844e340e007f844370791e93393696819
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
 
-# Creeer een scenario van de praktijkautomatisering in [!DNL Adobe Workfront Fusion]
+# Een praktijkautomatiseringsscenario maken in [!DNL Adobe Workfront Fusion]
 
-In dit artikel wordt beschreven hoe u een automatiseringsscenario kunt maken met Adobe Workfront Fusion. Automatiseringsscenario&#39;s automatiseren Workfront-processen, waaronder gegevensmanipulatie en -transformatie. Dit voorbeeld neemt u door het proces om een scenario tot stand te brengen dat naar een project zoekt en dan alle taken verbonden aan dat project terugkeert.
+Automatiseringsscenario&#39;s automatiseren Workfront-processen, waaronder gegevensmanipulatie en -transformatie. Dit artikel neemt u door het proces om een scenario te creëren dat naar een project zoekt en dan alle taken verbonden aan dat project terugkeert.
 
-Voor instructies over het ontwikkelen van een integratiescenario dat afzonderlijke apps verbindt, zie [Een praktijkintegratiescenario maken in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+<!-- not sure why these are here?
+For instructions on building an integration scenario that connects separate apps, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
-Voor meer informatie over de functionaliteit die beschikbaar is bij elke Workfront Fusion-licentie raadpleegt u [Adobe Workfront Fusion-licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For more information on functionality available with each Workfront Fusion license, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+-->
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] of hoger</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
-   <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
-   <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
-   </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto"> 
+  <tbody>  
+    <tr>  
+      <td>Adobe Workfront-plan</td>  
+      <td>Alle</td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront-licentie</td>  
+      <td>
+        Nieuw: Standaard <br>
+        Of<br>
+        Huidig: Werk of hoger
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront Fusion-licentie</td>  
+      <td> 
+        Huidig: Geen Workfront Fusion-licentievereisten.<br>
+        Of<br>
+        Verouderd: alle
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Product</td>  
+      <td> 
+        Nieuw: Select- of Premiere Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.<br>
+        Ultimate Workfront Plan: Workfront Fusion is inbegrepen.<br>
+        Of<br>
+        Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.
+      </td>  
+    </tr> 
+  </tbody>  
 </table>
-Neem contact op met uw [!DNL Workfront] beheerder.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Een praktijkscenario maken
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-De rol van [!DNL Adobe Workfront Fusion] is om uw processen te automatiseren zodat u zich op nieuwe taken kunt concentreren eerder dan het herhalen van de zelfde taken opnieuw en opnieuw. Het werkt door acties binnen en tussen apps en de diensten te verbinden om een scenario tot stand te brengen dat uw gegevens automatisch overbrengt en transformeert. Het scenario dat u voor gegevens in een app of service maakt, verwerkt die gegevens om het gewenste resultaat te verkrijgen.
++++
 
-Een scenario bestaat uit een reeks modules die aangeven hoe gegevens binnen een app moeten worden getransformeerd of moeten worden overgebracht tussen apps en webservices.
-In dit voorbeeld wordt u door het proces geleid voor het maken van een scenario waarin wordt gezocht naar een [!DNL Workfront] en retourneert de taken in het project.
+## Creeer een scenario van de automatiseringspraktijk
+
+Met [!DNL Adobe Workfront Fusion] kunt u zich richten op belangrijke taken door herhalende taken te automatiseren. Er worden scenario&#39;s gemaakt voor het automatisch beheren van uw gegevens in verschillende apps en services.
+
+Elk scenario bestaat uit modules die bepalen hoe gegevens binnen een app worden verwerkt of tussen verschillende apps en services worden overgedragen. U kunt bijvoorbeeld een scenario maken in Fusion om automatisch een [!DNL Workfront] -project te zoeken en de taken ervan weer te geven. Op deze manier bespaart Fusion u tijd en moeite door routinetaken uit te voeren.
+
+Dit praktijkscenario neemt u door het proces om een scenario tot stand te brengen dat naar een [!DNL Workfront] project zoekt en de taken in het project terugkeert.
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
-Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
+### Voordat u begint
 
-## Kies de apps en geef een naam op voor het scenario
+Creeer een project met taken in werkfront u voor deze oefening kunt gebruiken. U hoeft geen aanvullende configuratie buiten het toevoegen van taken aan het project uit te voeren.
 
-1. Aanmelden bij uw [!DNL Workfront Fusion] account.
-1. Klikken **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
+Zie xxx voor informatie over het maken van een project in Workfornt.
+
+### 1. Maak en noem het scenario
+
+1. Meld u aan bij uw [!DNL Workfront Fusion] -account.
+1. Klik op **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
 
    >[!NOTE]
    >
-   >Als u het linkernavigatievenster of de bijbehorende pictogrammen niet ziet, klikt u op Menu ![Menu](assets/main-menu-icon-left-nav.png) pictogram.
+   >Als u niet het linkernavigatievenster of zijn pictogrammen ziet, klik het pictogram van het Menu ![ Menu ](assets/main-menu-icon-left-nav.png).
 
-   In grijs [!UICONTROL Folders] in het deelvenster dat wordt weergegeven, kunt u uw scenario&#39;s in mappen ordenen.
+1. In het [!UICONTROL **paneel van Omslagen**], klik het **[!UICONTROL Add folder]** pictogram ![](assets/add-folder-icon.png), dan typ een naam als &quot;scenario&#39;s van de Praktijk&quot;voor uw eerste omslag.
 
-   Boven aan het hoofdgebied rechts kunt u de **[!UICONTROL All]** scenario&#39;s die u hebt gemaakt, uw **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, en **[!UICONTROL Concepts]**. Concepten zijn scenario&#39;s die nog wat werk nodig hebben [!DNL Workfront Fusion] U kunt ze indelen als actief of inactief.
+1. Open de map en klik vervolgens op **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
 
-<!--
-   ![](assets/scenarios-left-panel-350x215.png)
--->
+1. Voor deze oefening, selecteer **[!DNL Adobe Workfront]** app, dan klik **Onderzoek** dichtbij de bodem.
 
-1. In de [!UICONTROL Folders] klikt u op de knop **[!UICONTROL Add folder]** pictogram ![](assets/add-folder-icon.png)Typ vervolgens een naam als &quot;Praktische scenario&#39;s&quot; voor de eerste map.
 
-1. Open de map en klik op **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
+1. Selecteer de naam van de tijdelijke aanduiding **[!UICONTROL New scenario]** in de linkerbovenhoek en typ een naam zoals &quot;Praktisch scenario 1&quot;.
 
-   Op de openingspagina die wordt weergegeven, kunt u alle toepassingen die u wilt gebruiken, vooraf laden in het scenario dat u gaat maken.
+   ![](assets/name-the-scenario.png)
 
-1. Voor deze oefening zoekt en selecteert u **[!DNL Workfront]** app.
-1. Klikken **[!UICONTROL Continue]** in de rechterbovenhoek.
+1. Ga met [ verder verbind de eerste module ](#2-connect-the-first-module) hieronder.
 
-   De vertoningen van de scenario redacteur, die een lege module in het centrum bevatten, [!DNL Workfront] een vooraf geladen toepassing en enkele opties in de werkbalk onderaan.
+### 2. Sluit de eerste module aan
 
-<!--
-   ![](assets/scenario-editor-350x235.png)
--->
+Nu moet u een geverifieerde verbinding tot stand brengen met uw [!DNL Workfront] -account. Elke module die u aan een scenario toevoegt, moet een verbinding met de bijbehorende app hebben.
 
-Wanneer u begint creërend een nieuw scenario, is het een goed idee om te beginnen door een naam voor het te creëren.
-
-1. Selecteer de **[!UICONTROL New scenario]** naam van plaatsaanduiding in de linkerbovenhoek, typ een naam zoals &quot;Praktisch scenario 1&quot;.
-1. Doorgaan met [De eerste module toevoegen en configureren](#add-and-configure-the-first-module) hieronder.
-
-## De eerste module toevoegen en configureren
-
-De lege module met een vraagteken vertegenwoordigt de trekkermodule u moet toevoegen. Deze module zal het scenario beginnen telkens als het loopt. Het klokpictogram op de lege module wijst erop dat een geplande module is.
-
-![](assets/empty-module.png)
-
-Deze module zal de gegevens bevatten die u het scenario wilt letten op.
-
-Voor dit voorbeeld gebruiken we geen triggermodule. In plaats daarvan begint dit scenario met een zoekopdracht.
-
-1. Klik op de lege module om de app te kiezen waaruit u een module wilt selecteren.
-
-   De toepassing die u eerder hebt geladen, wordt naast de lege module weergegeven. U kunt alle andere toepassingen die modules bevatten toevoegen met de opdracht [!UICONTROL Search] doos.
-
-   ![](assets/pre-loaded-app-wf-350x172.png)
-
-1. Klik op **[!DNL Workfront]**.
-
-   De lijst verandert in een weergave van alle [!DNL Workfront] modules die u als trekkermodule kunt gebruiken.
-
-1. Klik op de module Zoeken **[!UICONTROL Search]**.
-
-   Nu moet u een geverifieerde verbinding tot stand brengen met [!DNL Workfront] account. Elke module die u aan een scenario toevoegt, moet een verbinding met de bijbehorende app hebben.
-
-1. In de **[!DNL Workfront]** onder **[!UICONTROL Connection]**, klikt u op **[!UICONTROL Add]**, typt u vervolgens een naam voor de verbinding, zoals &quot;Olivia&#39;s Workfront account&quot;, en klikt u op **[!UICONTROL Continue]**.
+1. Klik in het vak **[!DNL Workfront]** onder **[!UICONTROL Connection]** op **[!UICONTROL Add]** en typ een naam voor de verbinding, bijvoorbeeld &quot;Workfront-account van Olivia&quot;, en klik vervolgens op **[!UICONTROL Continue]** .
 1. Verifieer de verbinding in het venster dat toont.
 
-   Het proces voor het verifiëren van een verbinding kan een beetje tussen apps variëren. Het volgende proces is specifiek voor [!DNL Workfront], maar het proces is vergelijkbaar met veel apps.
+   Het proces voor het verifiëren van een verbinding kan een beetje tussen apps variëren. Het volgende proces is specifiek voor [!DNL Workfront] , maar het proces is vergelijkbaar met veel apps:
 
-   1. Voer uw [!DNL Workfront] domein, klik dan **[!UICONTROL Continue]**.
-   1. Aanmelden [!DNL Workfront].
-   1. Onderzoek de toegang die [!DNL Workfront Fusion] heeft een aanvraag ingediend en klikt u vervolgens op **[!UICONTROL Allow Access]**.
+   1. Voer uw [!DNL Workfront] -domein in en klik op **[!UICONTROL Continue]** .
+   1. Meld u aan bij [!DNL Workfront] .
+   1. Controleer de toegang die [!DNL Workfront Fusion] aanvraagt en klik op **[!UICONTROL Allow Access]** .
 
-   Voor hulp zie [Overzicht van verbindingen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Als u hulp nodig hebt, zie [ Overzicht van Verbindingen ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
-## De eerste module configureren
+### 3. Vorm de eerste module
 
-Nadat u verbinding hebt gemaakt [!DNL Workfront Fusion] aan uw [!DNL Workfront] -account, kunt u een [!DNL Workfront] verzoekrij die u toegang tot en de gegevens hebt daar die u de eerste module wilt verwerken.
+Nadat u [!DNL Workfront Fusion] met uw [!DNL Workfront] rekening verbindt, kunt u een [!DNL Workfront] project specificeren dat u toegang tot en de gegevens hebt die u de eerste module wilt verwerken.
 
-1. In de [!UICONTROL Record Type] vak, selecteren **[!UICONTROL Project]**. Dit plaatst de module aan onderzoek slechts projecten.
-
-   >[!TIP]
-   >
-   >U kunt zoeken **[!UICONTROL Project]** in de lijst als u begint met het typen van het woord &quot;[!UICONTROL project].&quot;
-
-1. In de **[!UICONTROL Result Set]** vak, selecteren **[!UICONTROL First Matching Record]**. Dit plaatst de module om slechts het eerste verslag terug te keren het vindt dat aan de criteria voldoet. Voor dit voorbeeld hebben we slechts één record nodig die wordt geretourneerd.
-1. In de **[!UICONTROL Search criteria]** in dat gebied, zetten we een filter op om het specifieke project te retourneren.
-
-   1. In het eerste vak onder [!UICONTROL Search Criteria]selecteert u het veld waarvan u de waarden wilt doorzoeken. In dit voorbeeld selecteert u **[!UICONTROL Name]**.
-   1. Selecteer voor de operator [!UICONTROL Contains (case insensitive)]. Hierdoor kan de module projecten zoeken met de door u gekozen woorden in de naam, zelfs als u niet de volledige naam invoert of de naam met het onjuiste geval invoert (zoals alle hoofdletters).
-   1. In het laatste veld onder [!UICONTROL Search Criteria], voert u een woord of woordgroep in waarvan u weet dat deze voorkomt in de naam van het project waarnaar u zoekt.
-
-1. In de **[!UICONTROL Outputs]** selecteert u de velden die u wilt uitvoeren in de module. Selecteer in dit voorbeeld de optie **[!UICONTROL ID]** en **[!UICONTROL Name]** velden.
+1. Selecteer **[!UICONTROL Project]** in het vak [!UICONTROL Record Type] . Dit plaatst de module aan onderzoek slechts projecten.
 
    >[!TIP]
    >
-   >U kunt **Cmd+F** ([!DNL Mac] (besturingssysteem) of **Ctrl-F** ([!DNL Windows] OS) om snel een veld te vinden.
+   >U kunt **[!UICONTROL Project]** in de lijst vinden als u begint het woord &quot;[!UICONTROL project]&quot; te typen.
+
+1. Selecteer **[!UICONTROL First Matching Record]** in het vak **[!UICONTROL Result Set]** . Dit plaatst de module om slechts het eerste verslag terug te keren het vindt dat aan de criteria voldoet. Voor dit voorbeeld hebben we slechts één record nodig die wordt geretourneerd.
+1. In het gebied **[!UICONTROL Search criteria]** wordt een filter ingesteld om het specifieke project te retourneren:
+
+   | Veld | Handeling |
+   |--------|-------------|
+   | Zoekcriteria in velden | Selecteer het veld waarvan u de waarden wilt doorzoeken. Selecteer **[!UICONTROL Name]** voor dit voorbeeld. |
+   | Zoekcriteria | Selecteer **[!UICONTROL Name]** in de eerste vervolgkeuzelijst. |
+   | Basisoperatoren | Selecteer [!UICONTROL Contains (case insensitive)] in de tweede vervolgkeuzelijst. Hierdoor kan de module projecten zoeken met de door u gekozen woorden in de naam, zelfs als u niet de volledige naam invoert of de naam met het onjuiste geval invoert (zoals alle hoofdletters). |
+   | Tekstvak | Voer een woord of woordgroep in waarvan u weet dat deze de naam is van het project waarnaar u zoekt. |
+
++++ Vouw uit om een voorbeeld op het scherm weer te geven.
+   ![](assets/search-name.png)
++++
+
+1. Selecteer in de lijst **[!UICONTROL Outputs]** de velden die de module moet uitvoeren. Selecteer in dit voorbeeld de velden **[!UICONTROL ID]** en **[!UICONTROL Name]** .
+
+   >[!TIP]
+   >
+   >U kunt **Cmd+F** gebruiken ([!DNL Mac] OS) of **CTRL-F** ([!DNL Windows] OS) om een gebied snel te vinden.
 
 1. Klik op **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
-   >(Alleen informatie) Aangezien dit geen triggermodule is, kunt u niet kiezen waar u de module wilt starten. Als u een triggermodule gebruikt, selecteert u nu waar u deze wilt starten.
+   >Aangezien dit geen triggermodule is, kunt u niet kiezen waar u deze wilt starten. Als u een triggermodule gebruikt, selecteert u nu waar u deze wilt starten.
    >
    >
-   >Zie voor meer informatie [Kiezen waar een triggermodule begint in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+   >Voor meer informatie, zie [ kiezen waar een trekkermodule in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md) begint.
 
-1. Klik met de rechtermuisknop op de module en klik op **[!UICONTROL Rename]**, dan typ een naam beschrijft wat u de module wilt doen (zoals &quot;Onderzoek naar project),&quot;dan klik **[!UICONTROL OK]**.
+1. Klik met de rechtermuisknop op de module, klik op **[!UICONTROL Rename]** en typ een naam om aan te geven wat u wilt doen met de module (bijvoorbeeld &quot;Zoeken naar project)&quot;. Klik vervolgens op **[!UICONTROL OK]** .
 
-   De naam wordt net onder de module weergegeven. Hieronder: [!DNL Workfront Fusion] bevat een korte beschrijving van het type actie dat door de module wordt uitgevoerd.
+   De naam wordt net onder de module weergegeven. Hieronder bevat [!DNL Workfront Fusion] een korte beschrijving van het type actie dat door de module wordt uitgevoerd.
 
    ![](assets/module-renamed-wf.png)
 
-1. Doorgaan met [De tweede module toevoegen en configureren](#add-and-configure-the-second-module).
+1. Ga met [ verder toevoegen en vormen de tweede module ](#add-and-configure-the-second-module).
 
-## De tweede module toevoegen en configureren
+### 4. Voeg en vorm de tweede module toe
 
-1. Klik op de gedeeltelijke cirkel rechts van de sectie van de module om **[!UICONTROL Add another module]**.
-1. Selecteren [!DNL Workfront] Kies vervolgens de zoekmodule in de lijst met toepassingen **[!UICONTROL Read Related Records]**.
-1. U hebt al een verbinding gemaakt met [!DNL Workfront] voor de vorige module. U te hoeven om het hier niet opnieuw tot stand te brengen, maar u moet ervoor zorgen deze module de zelfde verbinding zoals de vorige module gebruikt.\
-   In de **[!UICONTROL Connection]** selecteert u de verbinding die u voor de vorige module hebt gemaakt.
-1. Klikken **[!UICONTROL Record type]** selecteert u vervolgens **[!UICONTROL Project]**, omdat we records willen lezen die betrekking hebben op een project.
+1. Klik op de gedeeltelijke cirkel rechts van de sectie van de module naar **[!UICONTROL Add another module]** .
+1. Selecteer [!DNL Workfront] in de lijst met toepassingen en kies vervolgens de zoekmodule **[!UICONTROL Read Related Records]** .
+1. Selecteer in het vak **[!UICONTROL Connection]** de verbinding die u voor de vorige module hebt gemaakt. U moet ervoor zorgen dat deze module dezelfde verbinding gebruikt als de vorige module.
+1. Klik op **[!UICONTROL Record type]** en selecteer vervolgens **[!UICONTROL Project]** omdat we records willen lezen die betrekking hebben op een project.
 
    >[!TIP]
    >
-   >U kunt zoeken **[!UICONTROL Project]** in de lijst als u begint het woord &quot;project&quot; te typen.
+   >U vindt **[!UICONTROL Project]** in de lijst als u het woord &quot;project&quot; begint te typen.
 
-1. Klik op de knop **[!UICONTROL Parent Record ID]** veld. Voor dit veld is de Workfront-id vereist van het project waaruit u taken wilt retourneren.
+1. Klik op het veld **[!UICONTROL Parent Record ID]** . Voor dit veld is de Workfront-id vereist van het project waaruit u taken wilt retourneren.
 
-   Als u op het veld klikt, wordt de lijst met variabelen geopend die u kunt gebruiken in het dialoogvenster **[!UICONTROL Parent Record ID]** ter identificatie van het project in Workfront.
+   Als u op het veld klikt, wordt de lijst geopend met variabelen die u in het veld **[!UICONTROL Parent Record ID]** kunt gebruiken om het project in Workfront te identificeren.
 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
-1. Klik op de variabele **[!UICONTROL ID]** om deze aan de **[!UICONTROL Parent Record ID]** veld. Dit staat identiteitskaart toe die van de eerste module is teruggekeerd om als herkenningsteken voor het project worden gebruikt dat u met in de tweede module wilt werken, die ervoor zorgt dat de teruggekeerde taken tot dat project zullen behoren.
-1. In de **[!UICONTROL Collections]** veld, selecteren **[!UICONTROL Tasks]**. Dit wijst erop dat de module taken verbonden aan het gekozen project moet terugkeren.
+1. Klik op de variabele **[!UICONTROL ID]** om deze aan het veld **[!UICONTROL Parent Record ID]** toe te voegen. Dit staat identiteitskaart toe die van de eerste module is teruggekeerd om als herkenningsteken voor het project worden gebruikt dat u met in de tweede module wilt werken, die ervoor zorgt dat de teruggekeerde taken tot dat project zullen behoren.
+1. Selecteer **[!UICONTROL Tasks]** in het veld **[!UICONTROL Collections]** . Dit wijst erop dat de module taken verbonden aan het gekozen project moet terugkeren.
+1. Selecteer **[!UICONTROL Id]** en **[!UICONTROL Name]** in het veld **[!UICONTROL Outputs]** .
 1. Klikken **[!UICONTROL OK]**
 
    Nu hebt u een werkend scenario.
 
-1. Geef de tweede module een naam zoals &quot;de taken van de Terugkeer verbonden aan project,&quot;dan verdergaan met [Het scenario testen](#test-the-scenario).
+1. Geef de tweede module een naam zoals &quot;de taken van de Terugkeer verbonden aan project,&quot;dan met [ Test het scenario ](#test-the-scenario) verder.
 
 ## Het scenario testen
 
@@ -215,7 +203,7 @@ Alvorens u uw scenario activeert, is het belangrijk om het te testen door het mi
 
 Wij kozen ervoor om 1 project te hebben teruggekeerd, evenals de taken verbonden aan dat project. Als u het scenario in werking stelt, is dat wat zou moeten gebeuren.
 
-1. Klikken **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenario-editor.
+1. Klik op **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenarioeditor.
 1. Nadat het scenario eindigt lopend, klik de bel boven de eerste module.
 
    ![](assets/click-bubble.png)
@@ -230,10 +218,10 @@ Wij kozen ervoor om 1 project te hebben teruggekeerd, evenals de taken verbonden
 
    U kunt meer over leren hoe te om de informatie van de scenariouitvoering in de volgende artikelen te lezen:
 
-   * Zie voor algemene informatie [Uitvoeringsstroom scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * Voor informatie over verwerkte bundels, zie [Uitvoering van scenario&#39;s, cycli en fasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * Voor algemene informatie, zie [ de uitvoeringsstroom van het Scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * Voor informatie over verwerkte bundels, zie [ uitvoering Scenario, cycli, en fasen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-1. In [!DNL Workfront Fusion], klikt u op **[!UICONTROL Save]** ![](assets/save-icon.png) in de linkerbenedenhoek om de voortgang van het scenario op te slaan.
+1. Klik in [!DNL Workfront Fusion] in de linkerbenedenhoek op **[!UICONTROL Save]** ![](assets/save-icon.png) om de voortgang van het scenario op te slaan.
 
    >[!IMPORTANT]
    >
@@ -243,24 +231,22 @@ Wij kozen ervoor om 1 project te hebben teruggekeerd, evenals de taken verbonden
 >
 >Wij adviseren de facultatieve maar nuttige praktijk om nota&#39;s over elke module toe te voegen.
 >
->1. Klik met de rechtermuisknop op een [!DNL Workfront] en klik vervolgens op **[!UICONTROL Add a note]**.
+>1. Klik met de rechtermuisknop op een module [!DNL Workfront] en klik vervolgens op **[!UICONTROL Add a note]** .
 >1. Typ een overzicht voor de module in de notitie die wordt weergegeven.
 >
 >    U kunt meerdere notities toevoegen voor een module.
 >
->1. Sluit het dialoogvenster **[!UICONTROL Notes]** gebied.
+>1. Sluit het **[!UICONTROL Notes]** -gebied.
 >
->     Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het tabblad **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
+>     Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
 >
->1. Klik op de knop **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) om uw notities weer te geven.
+>1. Klik op het pictogram **[!UICONTROL Notes]** ![](assets/notes-icon-w-dot.png) om uw notities weer te geven.
 >
-
-
 
 ## Het scenario activeren
 
 Dit voorbeeldscenario heeft geen triggermodule. Als dit een scenario zou zijn zou u voor echte gegevens gebruiken het met een trekkermodule beginnen, en het laatste ding u zou doen is het activeren. Nadat u een scenario activeert, door gebrek, loopt het om de 15 minuten. U kunt dit veranderen door te bepalen wanneer en hoe vaak u het wilt lopen.
 
-Voor meer informatie over het activeren van scenario&#39;s, zie [Een scenario activeren of deactiveren in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Voor meer informatie over het activeren van scenario&#39;s, zie [ een scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md) activeren of deactiveren.
 
-Voor informatie over programma&#39;s, zie [Een scenario plannen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+Voor informatie over programma&#39;s, zie [ Plan een scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
