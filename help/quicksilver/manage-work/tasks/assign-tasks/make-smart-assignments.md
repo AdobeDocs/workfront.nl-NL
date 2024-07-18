@@ -6,14 +6,16 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Slimme toewijzingen maken
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het we
 
 De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst. Workfront baseert zijn suggesties op een algoritme dat de meest aangewezen bron voor de baan bepaalt.
 
-<span class="preview"> Er zijn twee afzonderlijke algoritmen in Workfront die slimme taken berekenen die verschillend voor taken en voor kwesties werken. </span>
+Er zijn twee aparte algoritmen in Workfront die slimme toewijzingen berekenen die verschillend werken voor taken en voor problemen.
 
 Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Slimme toewijzingen maken
 
@@ -71,35 +75,25 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    * Een taak- of uitgiftenlijst of rapport
    * Een taak- of uitgiftekoptekst
    * Het deelvenster Overzicht van taken of uitgaven
-   * <span class="preview"> Een Nieuwe Taak of de Nieuwe doos van de Uitgave, aangezien u een nieuwe taak of een kwestie aan een project </span> toevoegt
+   * Een nieuwe Taak of het Nieuwe vakje van de Uitgave, aangezien u een nieuwe taak of een kwestie aan een project toevoegt
    * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
    * Een taak of probleem in het werklastevenwicht
 
 1. Plaats de cursor in het veld Toewijzingen en wacht twee seconden.
 
-   <div class="preview">
-   Een of meer van de volgende secties met suggesties voor slimme toewijzingen worden weergegeven:
+   Voor problemen worden de slimme toewijzingen weergegeven in de volgende secties:
 
-   * **voorgestelde taken**: Vertoningen voor taken. <!--remove the note when we go to production with smarter assignments-->
+   * **Gebruikers en teams**
+   * **de rollen van de Baan**
 
-     >[!TIP]
-     >
-     >   De vertoningen van de lijstkopbal **zijn hier een paar aanbevelingen** in plaats van **Voorgestelde taken** in het milieu van de Productie.
-     >
-   * **Gebruikers en teams**: Toont voor taken en kwesties.
-   * **de rollen van de Baan**: Verspreidt voor taken en kwesties.
-   * **de taakrollen van de kaart van het Tarief**: Toont voor taken. Voor meer informatie, zie [ tariefkaarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren.<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
 
-   * **Voorgestelde taken**: Toewijzingen die in de eerste fase van de het algoritmeberekening van de taak slimme taak worden geïdentificeerd. <span class="preview"> deze sectie is niet beschikbaar voor kwesties.</span>
-   * <span class="preview">**Gebruikers en teams**, **de rollen van de Baan**, of **de baanrollen van de kaart van het Tarief**: Taken die in de tweede fase van de het algoritmeberekening van de taak slimme taak worden geïdentificeerd. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Voorgestelde taken**: De taken van vertoningen die in de eerste fase van het taak slimme toewijzingsalgoritme worden geïdentificeerd.
+   * **Gebruikers en teams**, **de rollen van de Baan**, of <span class="preview">**de baanrollen van de kaart van het Tarief**</span>: Taken die in de tweede fase van de het algoritmeberekening van de taak slimme taak worden geïdentificeerd.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

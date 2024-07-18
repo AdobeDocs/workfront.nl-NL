@@ -6,9 +6,9 @@ description: U kunt de datum van Vastleggen van een taak of een kwestie manueel 
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Datums vastleggen bijwerken voor taken en problemen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 U kunt de datum van Vastleggen van een taak of een kwestie manueel bijwerken waaraan u wordt toegewezen. Voor meer informatie over Commit Dates in Adobe Workfront, zie [ Overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -28,7 +30,7 @@ U kunt de datum van Vastleggen van een taak of een kwestie manueel bijwerken waa
 
 <!--Audited: 01/2024-->
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> 
-   Voor de nieuwe vergunningen:
+   Nieuw:
    <ul>
    <li><p>Standaard voor taken</p> </li>
    <li><p>Medewerker of hoger voor problemen</p></li>
    </ul>
-   Voor huidige licenties:
+   Huidige:
 <ul>
    <li><p>Werk of hoger voor taken</p></li> 
    <li><p>Aanvraag of hoger voor problemen</p></li>
@@ -65,7 +67,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -77,10 +81,10 @@ Voordat u de datum Vastleggen van een taak of uitgave kunt bewerken, moet u word
 U kunt de Vastlegdatum van een taak of kwestie op de volgende gebieden van Workfront bijwerken:
 
 * De sectie Details van een taak of kwestie
-* <span class="preview"> de taak of geven kopbal uit </span>
+* De taak- of uitgiftekop
 
-  <span class="preview"> Uw Workfront of groepsbeheerder moet de Vastlegdatum aan de taak of de uitgiftekopbal van uw lay-outmalplaatje toevoegen om het van de taak of uitgiftepagina te bekijken.
-Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  Uw Workfront of groepsbeheerder moet de datum Vastleggen toevoegen aan de taak- of uitgiftekoptekst van uw lay-outsjabloon om deze weer te geven vanaf de taak- of uitgiftepagina.
+Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
@@ -98,9 +102,9 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
    Voor meer informatie over het ontdekken wie de Eigenaar van de Taak voor een kwestie of een taak is, zie de sectie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in het artikel [ uitgeven taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview"> (Voorwaardelijk en facultatief) als uw Workfront of groepsbeheerder de Vastlegdatum aan uw taak of uitgiftekopbal toevoegde, klik het **gebied van de Datum van de Vastleggen** in de kopbal, dan selecteer een datum van de kalender. Ga als volgt te werk als de datum vastleggen zich niet in de koptekst bevindt. </span>
+1. (Voorwaardelijk en facultatief) als uw Workfront of groepsbeheerder de Vastlegdatum aan uw taak of uitgiftekopbal toevoegde, klik het **gebied van de Datum** Vastleggen {in de kopbal, dan selecteer een datum van de kalender. Ga als volgt te werk als de datum vastleggen zich niet in de koptekst bevindt.
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. Klik **Details van de Taak** of **Details van de Uitgave** in het linkerpaneel.
 1. Klik **Overzicht** om het uit te breiden.

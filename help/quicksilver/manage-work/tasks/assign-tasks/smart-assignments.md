@@ -7,9 +7,9 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview"> Een taaklijst of rapport in de kolom van Taken </span>
+* Een taaklijst of rapport in de kolom van Taken
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview"> de taakkopbal van A op het gebied van Taken </span>
+* Een taakkoptekst in het veld Toewijzingen
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Een uitgiftekop in het veld Toewijzingen
 
@@ -63,24 +63,24 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Het deelvenster Overzicht van taken of uitgaven in het gebied Toewijzingen
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview"> het gebied van Taken in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project </span>
+* Het gebied van Toewijzingen in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home wanneer u een taak opent of een uitgave afgeeft
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Werklastverdeling in het gedeelte Toegewezen aan als u een taak of uitgave toewijst
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteria voor slimme toewijzingen
-
-<div class="preview">
 
 Slimme toewijzingen werken anders voor taken dan voor problemen.
 
@@ -134,17 +134,16 @@ Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent 
 
 Voor meer informatie, zie de sectie [ Slimme toewijzingscriteria voor taken en kwesties ](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
 
-De taken die in deze fase worden geïdentificeerd zijn vermeld in de **Gebruikers en teams**, **de roltoewijzingen van de Taak**, en **de kaartrollen van het Tarief** secties van het gebied van Taken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+De taken die in deze fase worden geïdentificeerd zijn vermeld in de **Gebruikers en teams**, **de roltoewijzingen van de Taak**, en <span class="preview">**de kaartrollen van het Tarief**</span> secties van het gebied van Taken. <span class="preview"> voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criteria voor slimme toewijzingen voor taken en problemen
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview"> de volgende criteria zijn van toepassing op taken slechts wanneer de eerste fase van de taak slimme toewijzingsberekening geen gelijken vond. Voor informatie, zie de sectie [ Eerste fase van slimme toewijzingsberekening voor taken ](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen. </span>
+>De volgende criteria zijn alleen van toepassing op taken wanneer de eerste fase van de berekening van de intelligente taak geen overeenkomsten heeft gevonden. Voor informatie, zie de sectie [ Eerste fase van slimme toewijzingsberekening voor taken ](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen die op een combinatie van de volgende criteria (die in orde van belangrijkst tot minst belangrijk worden vermeld) wordt gebaseerd:
 

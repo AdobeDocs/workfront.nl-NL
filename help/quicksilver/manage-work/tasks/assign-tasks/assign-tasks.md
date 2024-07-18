@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    of
 
-   Klik op de naam van de toewijzingen als de taak of uitgave al is toegewezen.
+   Klik op de naam van de toewijzingen als de taak al is toegewezen.
 
-   In de productieomgeving:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview"> in het milieu van de Voorproef:</span>
    ![ Taken ](assets/assignments-box-in-task-header.png)
 
 1. Voer een van de volgende handelingen uit:
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview"> wanneer het toevoegen van een taak roltoewijzing, kunt u naar de baanrol of de plaats zoeken. Selecteer een rol van de rollijst van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een de baanrol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Voorwaardelijk) klik één van de namen in de <span class="preview">**Voorgestelde taken**, **Gebruiker en teams**, of **de rollen van de Baan**, of **lijst van de kaartrollen van het Tarief**</span> wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Voorwaardelijk) klik één van de namen in de **Voorgestelde taken**, **Gebruiker en teams**, of **de rollen van de Baan**, of <span class="preview">**lijst van de kaartrollen van het Tarief**</span> wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      U kunt de naam typen van een gebruiker, team of taakrol die u wilt toewijzen aan de taak, en deze vervolgens selecteren wanneer deze wordt weergegeven in de lijst.
 
@@ -215,7 +211,7 @@ Taken in een lijst toewijzen:
      >
      >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ Toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview"> wanneer het toevoegen van een taak roltoewijzing, kunt u naar de baanrol of de plaats zoeken. Selecteer Systeem/StandaardRol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een Rol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview"> wanneer het toevoegen van een taak roltoewijzing, kunt u naar de baanrol of de plaats zoeken. Selecteer een rol van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een de baanrol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Voorwaardelijk) wanneer zichtbaar op het **gebied van Taken**, klik het **pictogram van Mensen** in de hoger-juiste hoek van de toewijzingsdoos om de **Geavanceerde doos van Toewijzingen** te openen en geavanceerde taken tot stand te brengen.

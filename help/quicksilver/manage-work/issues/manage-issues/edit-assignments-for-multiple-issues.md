@@ -6,20 +6,21 @@ description: Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
 
 # Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
 
+<!--Audited: 07/2024-->
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-U kunt gebruikerstoewijzingen aan veelvoudige kwesties gelijktijdig wijzigen. Zie ook de volgende artikelen voor informatie over het bewerken van uitgaven of het een voor een toewijzen van uitgaven:
+U kunt gebruikerstoewijzingen aan veelvoudige kwesties gelijktijdig wijzigen. Zie ook de volgende artikelen voor informatie over het bewerken van uitgaven of het een voor een toewijzen van uitgaven:
 
 * [ geeft kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uit
 * [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md)
@@ -32,32 +33,35 @@ Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van he
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> <p>Nieuw: Standaard </p>
+   <p>Huidig: Verzoek of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of de hogere toegang tot Projecten en Taken om één kwestie toe te wijzen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen of hoger voor het project of de taak waar het probleem zich bevindt, wanneer u meerdere problemen toewijst.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

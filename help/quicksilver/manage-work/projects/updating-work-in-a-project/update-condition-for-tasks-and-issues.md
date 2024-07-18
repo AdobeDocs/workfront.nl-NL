@@ -6,20 +6,22 @@ description: De voorwaarde van een taak of een kwestie is een vlag die op het wo
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
 
 # Voorwaarde voor bijwerken voor taken en problemen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 De voorwaarde van een taak of een kwestie is een vlag die op het wordt geplaatst om erop te wijzen hoe het gaat. Dit is anders dan de status van het werkitem, die de huidige fase van de ontwikkeling van het item aangeeft.
 
@@ -29,7 +31,7 @@ De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschi
 
 ## Toegangsvereisten {#access-requirements}
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>
-
-Voor de nieuwe vergunningen:
-<ul><li><p>Standaard voor taken</p></li>
+   <td> 
+   Nieuw:
+   <ul><li><p>Standaard voor taken</p></li>
    <li><p>Medewerker of hoger voor problemen</p></li></ul>
-
-
-Voor huidige licenties:
-<ul><li><p>Werk of hoger voor taken</p></li>
+   Huidige:
+   <ul><li><p>Werk of hoger voor taken</p></li>
    <li><p>Aanvraag of hoger voor problemen</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ Voor huidige licenties:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -78,9 +79,9 @@ De voorwaarden worden weergegeven als een vlag die is gekoppeld aan taken of pro
 
 U vindt de voorwaarde voor taken en problemen in de volgende gebieden van Workfront:
 
-* <span class="preview"> de pagina van Details, nadat een Workfront of groepsbeheerder het aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* De pagina Details nadat een Workfront of groepsbeheerder deze aan uw lay-outsjabloon heeft toegevoegd. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-* <span class="preview"> de kopbal van een taak of kwestie, nadat een Workfront of een groepsbeheerder het aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* De koptekst van een taak of uitgave, nadat een Workfront of een groepsbeheerder deze aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 * Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -110,7 +111,7 @@ U kunt de Voorwaarde van een taak of kwestie in een taak of een uitgiftenrapport
 
 >[!NOTE]
 >
->U kunt het systeem of de groepsbeheerder vragen om het veld Voorwaarde toe te voegen aan het deelvenster Samenvatting, zodat het in verschillende delen van Workfront eenvoudiger wordt om de voorwaarde bij te werken.
+>U kunt het systeem of de groepsbeheerder vragen om het veld Voorwaarde toe te voegen aan het deelvenster Overzicht of aan de pagina&#39;s met de taak- of uitgiftekoptekst of Details.
 >
 >Raadpleeg de volgende artikelen voor meer informatie:
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Voer een van de volgende handelingen uit om de voorwaarde van een taak of uitgave handmatig bij te werken:
+U kunt de voorwaarde van taken en kwesties in diverse gebieden van Workfront manueel bijwerken. In de volgende secties wordt beschreven hoe u de voorwaarde van taken en uitgaven handmatig kunt bijwerken.
 
-<div class="preview">
+### Werk de Voorwaarde van een taak of een kwestie in de taak of de uitgiftekopbal bij
 
-1. U kunt als volgt de voorwaarde van een taak of uitgave in de taak- of uitgiftheader bijwerken:
+1. (Voorwaardelijk) als uw Workfront of groepsbeheerder het gebied van de Voorwaarde aan de taak of de uitgiftekopbal van uw lay-outmalplaatje toevoegde, klik het **gebied van de Voorwaarde** in de kopbal en selecteer van de volgende opties:
+   * Vloeiend
+   * Sommige problemen
+   * Belangrijkste wegversperringen
 
-   1. (Voorwaardelijk) als uw Workfront of groepsbeheerder het gebied van de Voorwaarde aan de taak of de uitgiftekopbal van uw lay-outmalplaatje toevoegde, klik het **gebied van de Voorwaarde** in de kopbal en selecteer van de volgende opties:
-      * Vloeiend
-      * Sommige problemen
-      * Belangrijkste wegversperringen
+   ![](assets/condition-in-task-header.png)
+1. Klik op Enter om de voorwaarde op te slaan.
 
-      ![](assets/condition-in-task-header.png)
-   1. Klik op Enter om de voorwaarde op te slaan.
+### Werk de Voorwaarde van een taak of kwestie in de taak of de sectie van de Details van de kwestie bij
 
-1. U kunt als volgt de voorwaarde van een taak of uitgave bijwerken in de sectie Details van taak of uitgave:
-
-   1. (Voorwaardelijk) als uw Workfront of groepsbeheerder het gebied van de Voorwaarde aan de sectie van Details van een taak of kwestie in uw lay-outmalplaatje toevoegde, **Details** in het linkerpaneel klikken, dan **de Voorwaarde van de Taak** of **Voorwaarde van de Uitgave** en selecteren van de volgende opties:
-      * Vloeiend
-      * Sommige problemen
-      * Belangrijkste wegversperringen
+1. (Voorwaardelijk) als uw Workfront of groepsbeheerder het gebied van de Voorwaarde aan de sectie van Details van een taak of kwestie in uw lay-outmalplaatje toevoegde, **Details** in het linkerpaneel klikken, dan **de Voorwaarde van de Taak** of **Voorwaarde van de Uitgave** en selecteren van de volgende opties:
+   * Vloeiend
+   * Sommige problemen
+   * Belangrijkste wegversperringen
 1. Klik **sparen Veranderingen**. De voorwaarde van de taak of kwestie wordt bijgewerkt.
 
-</div>
-
-De voorwaarde van een taak of kwestie in een rapport of een lijst bijwerken:
+### Werk de Voorwaarde van een taak of een kwestie in een rapport of een lijst bij
 
 1. Ga naar een lijst met taken of problemen waarvoor u beheerdersmachtigingen hebt. Verzeker het **gebied van de Voorwaarde** in de mening van de lijst zichtbaar is.
 
