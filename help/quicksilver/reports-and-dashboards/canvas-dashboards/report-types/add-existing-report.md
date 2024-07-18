@@ -5,7 +5,8 @@ title: Een bestaand rapport toevoegen aan een Canvasdashboard
 description: Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapporten, kunnen worden toegevoegd aan een Canvasdashboard.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Een bestaand rapport toevoegen aan een Canvasdashboard
 
-Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapporten, kunnen worden toegevoegd aan een Canvasdashboard. Zie voor meer informatie over het maken van rapporten [Aan de slag met rapporten](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Rapporten die zijn gemaakt met het gereedschap Adobe Workfront-rapporten, kunnen worden toegevoegd aan een Canvasdashboard. Voor meer informatie bij het creëren van rapporten, zie [ begonnen worden met rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-Voor algemene informatie over het toevoegen en rangschikken van rapporten op een dashboard van het Canvas, zie [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Voor algemene informatie bij het toevoegen van en het rangschikken van rapporten over een Dashboard van het Canvas, zie [, rapporten in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) toevoegen verwijderen of rangschikken.
 
 ## Toegangsvereisten
 
@@ -43,10 +44,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een bestaand rapport toevoegen aan een Canvasdashboard
 
 >[!IMPORTANT]
 >
->Dit artikel is nog niet voltooid. Raadpleeg de algemene instructies voor het toevoegen van een rapport aan een canvasdashboard in het artikel [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Dit artikel is nog niet voltooid. Gelieve te verwijzen naar de algemene instructies om een rapport aan een Dashboard van het Canvas in artikel toe te voegen [, te verwijderen of rapporten in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) te schikken.

@@ -5,24 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: ServiceNow-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL ServiceNow]en deze verbinding maken met meerdere toepassingen en services van derden.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL ServiceNow] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
 
 # [!DNL ServiceNow] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL ServiceNow]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL ServiceNow] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,35 +43,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL ServiceNow] modules, moet u een [!DNL ServiceNow] account.
+Als u [!DNL ServiceNow] -modules wilt gebruiken, moet u een [!DNL ServiceNow] -account hebben.
 
-## Verbinden [!DNL ServiceNow] tot [!DNL Workfront Fusion]
+## Verbinden [!DNL ServiceNow] met [!DNL Workfront Fusion]
 
-Als u een verbinding wilt maken voor uw [!DNL ServiceNow] modules:
+Verbinding maken voor uw [!DNL ServiceNow] -modules:
 
-1. Klikken **[!UICONTROL Add]** naast de [!UICONTROL Connection] vakje wanneer u begint vormend eerste [!DNL ServiceNow] module.
+1. Klik op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] wanneer u de eerste module van [!DNL ServiceNow] gaat configureren.
 1. Voer het volgende in:
 
    <table style="table-layout:auto"> 
@@ -80,11 +80,11 @@ Als u een verbinding wilt maken voor uw [!DNL ServiceNow] modules:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
-      <td>Voer een naam in voor de nieuwe [!DNL ServiceNow] verbinding</td> 
+      <td>Geef een naam op voor de nieuwe [!DNL ServiceNow] -verbinding</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Username]</p> </td> 
-      <td>Voer uw [!DNL ServiceNow] gebruikersnaam.</td> 
+      <td>Voer uw [!DNL ServiceNow] gebruikersnaam in.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Password]</p> </td> 
@@ -92,22 +92,22 @@ Als u een verbinding wilt maken voor uw [!DNL ServiceNow] modules:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Instance]</p> </td> 
-      <td> <p>Voer het adres in van uw [!DNL ServiceNow] account zonder <code>https://</code> (gewoonlijk <code>&lt;company>.service-now.com</code>).</p> </td> 
+      <td> <p>Voer het adres in van uw [!DNL ServiceNow] -account zonder <code>https://</code> (gewoonlijk <code>&lt;company>.service-now.com</code> ).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 ## [!UICONTROL ServiceNow] modules en hun velden
 
-Wanneer u [!DNL ServiceNow] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL ServiceNow] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL ServiceNow] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL ServiceNow] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->Als een aangepast record is geselecteerd in een &quot;[!UICONTROL Record type]&quot;, kan het enige tijd duren om de aangepaste velden te laden.
+>Als een douaneverslag op een &quot;[!UICONTROL Record type]&quot;gebied wordt geselecteerd, kan het wat tijd vergen om de douanevelden te laden.
 >
 >Als er geen aangepaste records zijn, is de vervolgkeuzelijst leeg.
 
@@ -132,7 +132,7 @@ Deze triggermodule activeert een scenario wanneer een record wordt gemaakt of bi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -163,7 +163,7 @@ Deze triggermodule activeert een scenario wanneer een record wordt gemaakt of bi
 
 ### [!UICONTROL Custom API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL ServiceNow] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL ServiceNow] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL ServiceNow] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL ServiceNow] -modules kan worden uitgevoerd.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -173,15 +173,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Relative URL]</td> 
-   <td> <p>Typ het adres op de webserver waarmee de module moet communiceren.</p> <p>U kunt een relatieve URL typen, wat betekent dat u het protocol (zoals <code>http://</code>) aan het begin. Dit suggereert aan de Webserver dat de interactie op de server voorkomt.</p> <p>Bijvoorbeeld: <code>[!DNL /api/conversations].create</code></p> </td> 
+   <td> <p>Typ het adres op de webserver waarmee de module moet communiceren.</p> <p>U kunt een relatieve URL typen, wat betekent dat u het protocol (zoals <code>http://</code> ) niet aan het begin hoeft op te nemen. Dit suggereert aan de Webserver dat de interactie op de server voorkomt.</p> <p>Bijvoorbeeld: <code>[!DNL /api/conversations].create</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -189,11 +189,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -203,7 +203,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### [!UICONTROL Read a record]
 
-Deze actiemodule leest een [!DNL ServiceNow] opnemen met de systeem-id.
+Deze actiemodule leest een [!DNL ServiceNow] -record met de systeem-id.
 
 De module retourneert alle standaardvelden die aan de record zijn gekoppeld, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -215,11 +215,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record System ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL ServiceNow] Id van de record die de module moet lezen.</td> 
+   <td>Voer de unieke [!DNL ServiceNow] -id in of wijs deze toe aan de record die u wilt lezen in de module.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -227,7 +227,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Selecteer het type van [!DNL ServiceNow] record dat de module moet lezen.</td> 
+   <td>Selecteer het type [!DNL ServiceNow] record dat u wilt lezen in de module.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Display]</td> 
@@ -242,7 +242,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### [!UICONTROL Deactivate a User]
 
-In deze actiemodule wordt een gebruiker gedeactiveerd in [!DNL ServiceNow] door de systeem-id te gebruiken.
+Met deze actiemodule wordt een gebruiker in [!DNL ServiceNow] gedeactiveerd met de systeem-id.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -250,18 +250,18 @@ In deze actiemodule wordt een gebruiker gedeactiveerd in [!DNL ServiceNow] door 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL User System ID]</td> 
-   <td> De unieke sleutel invoeren of toewijzen [!DNL ServiceNow] Id van de gebruiker die de module moet deactiveren.</td> 
+   <td> Voer de unieke [!DNL ServiceNow] -id in of wijs deze toe aan de gebruiker die de module moet deactiveren.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Download an attachment]
 
-Deze actiemodule downloadt een bijlage in een [!DNL ServiceNow] opnemen.
+Deze actiemodule downloadt een bijlage in een [!DNL ServiceNow] -record.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -269,18 +269,18 @@ Deze actiemodule downloadt een bijlage in een [!DNL ServiceNow] opnemen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Attachment System ID]</td> 
-   <td> De unieke sleutel invoeren of toewijzen [!DNL ServiceNow] Id van de bijlage die u wilt downloaden.</td> 
+   <td> Voer de unieke [!DNL ServiceNow] -id in of wijs deze toe aan de bijlage die u wilt downloaden.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Upload an attachment]
 
-Deze actiemodule uploadt een bijlage naar een [!DNL ServiceNow] opnemen.
+Deze actiemodule uploadt een bijlage naar een [!DNL ServiceNow] -record.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -288,7 +288,7 @@ Deze actiemodule uploadt een bijlage naar een [!DNL ServiceNow] opnemen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table name]</td> 
@@ -296,7 +296,7 @@ Deze actiemodule uploadt een bijlage naar een [!DNL ServiceNow] opnemen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL System ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL ServiceNow] Id van het systeem waar u de bijlage wilt uploaden.</td> 
+   <td>Voer de unieke [!DNL ServiceNow] -id van het systeem in of wijs deze toe waar u de bijlage wilt uploaden.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
@@ -304,14 +304,14 @@ Deze actiemodule uploadt een bijlage naar een [!DNL ServiceNow] opnemen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File content]</td> 
-   <td>Voer het bestand in of wijs het toe waarnaar u wilt uploaden [!DNL ServiceNow].</td> 
+   <td>Voer het bestand in of wijs het bestand toe waarnaar u het bestand wilt uploaden. [!DNL ServiceNow]</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Create a record]
 
-Deze actiemodule maakt een nieuwe [!DNL ServiceNow] opnemen.
+Deze actiemodule maakt een nieuwe [!DNL ServiceNow] -record.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -321,7 +321,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -329,14 +329,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Selecteer het type van [!DNL ServiceNow] record die u met de module wilt maken. Vervolgens kunt u de beschikbare velden voor dit recordtype invullen.</td> 
+   <td>Selecteer het type [!DNL ServiceNow] record dat u met de module wilt maken. Vervolgens kunt u de beschikbare velden voor dit recordtype invullen.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Update a record]
 
-Deze actiemodule maakt een nieuwe [!DNL ServiceNow] opnemen.
+Deze actiemodule maakt een nieuwe [!DNL ServiceNow] -record.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -346,11 +346,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record System ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL ServiceNow] Id van de record die de module moet bijwerken.</td> 
+   <td>Voer de unieke [!DNL ServiceNow] -id in of wijs deze toe aan de record die u wilt bijwerken in de module.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -358,14 +358,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Selecteer het type van [!DNL ServiceNow] record dat de module moet worden bijgewerkt. Vervolgens kunt u de beschikbare velden voor dit recordtype invullen.</td> 
+   <td>Selecteer het type [!DNL ServiceNow] record dat u wilt bijwerken in de module. Vervolgens kunt u de beschikbare velden voor dit recordtype invullen.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Delete a record]
 
-Met deze actiemodule verwijdert u een incident of een gebruiker.
+Deze actiemodule verwijdert een incident of een gebruiker.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -375,7 +375,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -383,7 +383,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL System ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL ServiceNow] Id van de record die u wilt verwijderen uit de module.</td> 
+   <td>Voer de unieke [!DNL ServiceNow] -id in of wijs deze toe aan de record die u wilt verwijderen door de module.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ De module retourneert alle standaardvelden die aan de record zijn gekoppeld, sam
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw account ServiceNow met [!DNL Workfront Fusion], zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL ServiceNow] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL ServiceNow] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw ServiceNow-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -424,11 +424,11 @@ De module retourneert alle standaardvelden die aan de record zijn gekoppeld, sam
     <ul> 
      <li> <p><strong>[!UICONTROL Advanced query]</strong> </p> 
       <ul> 
-       <li> <p>[!UICONTROL Search Query]</p> <p>Voer de aangepaste zoekquery in. Voor informatie over [!DNL ServiceNow] aangepaste zoekopdrachten, raadpleegt u de <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow-querydocumentatie</a>.</p> </li> 
+       <li> <p>[!UICONTROL Search Query]</p> <p>Voer de aangepaste zoekquery in. Voor informatie over [!DNL ServiceNow] vragen van het douaneonderzoek, zie de <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html"> ServiceNow vraagdocumentatie </a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Simple]</strong> </p> 
       <ul> 
-       <li> <p>[!UICONTROL Search Criteria]</p> <p>Voer de criteria in waarmee u de module wilt zoeken. Ga voor meer informatie over het instellen van zoekfilters naar <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Een filter toevoegen aan een scenario in Adobe Workfront Fusion</a>.</p> </li> 
+       <li> <p>[!UICONTROL Search Criteria]</p> <p>Voer de criteria in waarmee u de module wilt zoeken. Voor meer informatie bij vestiging onderzoeksfilters, zie <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref"> een filter aan een scenario in de Fusie van Adobe Workfront </a> toevoegen.</p> </li> 
        <li> <p>[!UICONTROL Sort by]</p> <p>Geef aan op welk veld de module de resultaten moet sorteren en of ze oplopend of aflopend moeten worden gesorteerd.</p> </li> 
       </ul> </li> 
     </ul> <p> </p> </td> 

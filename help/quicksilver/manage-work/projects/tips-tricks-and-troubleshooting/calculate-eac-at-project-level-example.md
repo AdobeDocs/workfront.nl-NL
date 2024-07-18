@@ -9,24 +9,24 @@ feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 6%
+source-wordcount: '2194'
+ht-degree: 0%
 
 ---
 
 # Berekeningsvoorbeeld - berekening EAC op projectniveau
 
-## EAC-methode: Berekenen op projectniveau
+## EAC-methode: berekenen op projectniveau
 
-* [PIM = op uurbasis](#pim-hour-based)
+* [ PIM = op uur-Gebaseerde ](#pim-hour-based)
 * [PIM= op basis van kosten](#pim-cost-based)
 
 ### PIM = op uurbasis {#pim-hour-based}
 
-* [Eenvoudig voorbeeld: project bevat geen onderliggende taken](#simple-example-project-has-no-children-tasks)
-* [Gecompliceerd voorbeeld: project bevat onderliggende taken](#complicated-example-project-has-children-tasks)
+* [ Eenvoudig voorbeeld: het project heeft geen kindtaken ](#simple-example-project-has-no-children-tasks)
+* [Gecompliceerd voorbeeld: project heeft onderliggende taken](#complicated-example-project-has-children-tasks)
 
-#### Eenvoudig voorbeeld: project bevat geen onderliggende taken {#simple-example-project-has-no-children-tasks}
+#### Eenvoudig voorbeeld: project heeft geen onderliggende taken {#simple-example-project-has-no-children-tasks}
 
 PIM = op uurbasis
 
@@ -71,35 +71,35 @@ EAC-methode = Berekenen op projectniveau ***
    </table>
 
 1. De financiering van het project opnieuw berekenen.
-1. **CPI voor Taak 1** = .04, berekend als volgt:\
-   **CPI voor Taak 1** = *IF* Werkelijke uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Actual Hours\
+1. **CPI voor Taak 1** = .04 berekend als volgt:\
+   **CPI voor Taak 1** = *ALS* Ware Uren > 0 *VERVOLGENS* CPI = TotalBudgetedCostWorkPerformance/Ware Uren\
       *ELSE* CPI = 1\
    **CPI voor Taak 1** = 1 / 25\
-   **CPI voor Taak 1** = 0,04
+   **CPI voor Taak 1** = .04
 
-1. **EAC voor Taak 1** = 125 uur, berekend als volgt:\
-   **EAC voor Taak 1** = *IF* CPI &lt;> 0 *DAN* EAC = geplande uren/CPI\
-       *ELSE* EAC = geplande uren + werkelijke uren\
-   **EAC voor Taak 1** = 5 / 0,04\
-   **EAC voor Taak 1** = 125 uur***
+1. **EAC voor Taak 1** = 125 uren berekend als volgt:\
+   **EAC voor Taak 1** = *ALS* CPI &lt;> 0 *VERVOLGENS* EAC = Geplande Uren/CPI\
+       *ELSE* EAC = Gepland  Uren + Werkelijk  Uren\
+   **EAC voor Taak 1** = 5 / .04\
+   **EAC voor Taak 1** = 125 uren***
 
 1. CPI/EAC voor de taken 2 en 3 zijn:\
-   Taak 2 = 0,12 / 83,33 uur\
+   Taak  2 = 0,12 / 83,33  uur\
    Taak 3 = 0,24 / 62,5 uur
 
 1. **CPI voor Project** = .13 berekend als volgt:\
-   **CPI voor Project** = *IF* Werkelijke uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Actual Hours\
+   **CPI voor Project** = *ALS* Ware Uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Ware Uren\
        *ELSE* CPI = 1\
-   **CPI voor Project** = 10 / 75\
-   **CPI voor Project** = 0,13
+   **CPI voor Project** = 10/75\
+   **CPI voor Project** = .13
 
-1. **EAC voor project** = 225 uur, berekend als volgt:\
-   **EAC voor project** = *IF* CPI &lt;> 0 *DAN* EAC = geplande uren/CPI\
-       *ELSE* EAC = geplande uren + werkelijke uren\
-   **EAC voor project** = 30 / 0,1333\
-   **EAC voor project** = 225 uur
+1. **EAC voor Project** = 225 uren berekend als volgt:\
+   **EAC voor Project** = *ALS* CPI &lt;> 0 *VERVOLGENS* EAC = Geplande Uren/CPI\
+       *ELSE* EAC = Gepland  Uren + Werkelijk  Uren\
+   **EAC voor Project** = 30 /.13333\
+   **EAC voor Project** = 225 uren
 
-#### Gecompliceerd voorbeeld: project bevat onderliggende taken {#complicated-example-project-has-children-tasks}
+#### Gecompliceerd voorbeeld: project heeft onderliggende taken {#complicated-example-project-has-children-tasks}
 
 PIM = op uurbasis
 
@@ -127,10 +127,10 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <br> <p><strong>Taak</strong> </p> </th> 
-   <th> <br> <p><strong>Pln uur</strong> </p> </th> 
-   <th> <br> <p><strong>Act Hrs</strong> </p> </th> 
-   <th> <p><strong>% voltooid</strong> </p> </th> 
+   <th> <br> <p><strong> Taak </strong> </p> </th> 
+   <th> <br> <p><strong> PlnHrs </strong> </p> </th> 
+   <th> <br> <p><strong> Akte Hrs </strong> </p> </th> 
+   <th> <p><strong>% voltooid </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -174,66 +174,66 @@ EAC-methode = Berekenen op projectniveau
 </table>
 
 1. Voeg 50 uur rechtstreeks toe aan het project (Meer>Uren>Logtijden).
-1. **CPI voor Taak 2** = .1, berekend als volgt:\
-   **CPI voor Taak 2** = *IF* Werkelijke uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Actual Hours\
+1. **CPI voor Taak 2** = .1 berekend als volgt:\
+   **CPI voor Taak 2** = *ALS* Ware Uren > 0 *VERVOLGENS* CPI = TotalBudgetedCostWorkPerformance/Ware Uren\
        *ELSE* CPI = 1\
    **CPI voor Taak 2** = 1 / 10\
    **CPI voor Taak 2** = .1
 
-1. **EAC voor Taak 2** = 50 uur, berekend als volgt:\
-   **EAC voor Taak 2** = *IF* CPI &lt;> 0 *DAN* EAC = geplande uren/CPI\
-       *ELSE* EAC = geplande uren + werkelijke uren\
-   **EAC voor Taak 2** = 5 / 0,1\
-   **EAC voor Taak 2** = 50 uur
+1. **EAC voor Taak 2** = 50 uren berekend als volgt:\
+   **EAC voor Taak 2** = *ALS* CPI &lt;> 0 *VERVOLGENS* EAC = Geplande Uren/CPI\
+       *ELSE* EAC = Gepland  Uren + Werkelijk  Uren\
+   **EAC voor Taak 2** = 5 / .1\
+   **EAC voor Taak 2** = 50 uren
 
 1. De CPI/EAC voor Taken 4, 5, en 6 zijn als volgt:\
    Taak 4: 0,4 / 25 uur\
    Taak 5: 0,75 / 20 uur\
-   Taak 6: 1,2 uur
+   Taak 6: 1,2 / 16,67 uur
 
-1. **CPI voor Taak 3** = .38 berekend als volgt:\
-   **CPI voor Taak 3** = *IF* Werkelijke uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Actual Hours\
+1. **CPI voor Taak 3** = .38  berekend als volgt:\
+   **CPI voor Taak 3** = *ALS* Ware Uren > 0 *VERVOLGENS* CPI = TotalBudgetedCostWorkPerformance/Ware Uren\
        *ELSE* CPI = 1\
-   **CPI voor Taak 3** = 11,5 / 30\
-   **CPI voor Taak 3** = 0,38
+   **CPI voor Taak 3** = 11.5 / 30\
+   **CPI voor Taak 3** = .38
 
-1. **EAC voor Taak 3** = 65,22 uur, berekend als volgt:\
-   **EAC voor Taak 3** = *IF* CPI &lt;> 0 *DAN* EAC = geplande uren/CPI\
-       *ELSE* EAC = geplande uren + werkelijke uren\
-   **EAC voor Taak 3** = 25 / 0,383333\
-   **EAC voor Taak 3** = 65,22 uur
+1. **EAC voor Taak 3** = 65.22 uren berekend als volgt:\
+   **EAC voor Taak 3** = *ALS* CPI &lt;> 0 *VERVOLGENS* EAC = Geplande Uren/CPI\
+       *ELSE* EAC = Gepland  Uren + Werkelijk  Uren\
+   **EAC voor Taak 3** =  383333\
+   **EAC voor Taak 3** = 65.22 uren
 
-1. **CPI voor Taak 1** = .25, berekend als volgt:\
-   **CPI voor Taak 1** = *IF* Werkelijke uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Actual Hours\
+1. **CPI voor Taak 1** = .25 berekend als volgt:\
+   **CPI voor Taak 1** = *ALS* Ware Uren > 0 *VERVOLGENS* CPI = TotalBudgetedCostWorkPerformance/Ware Uren\
        *ELSE* CPI = 1\
-   **CPI voor Taak 1** = 12,5 / 50\
-   **CPI voor Taak 1** = 0,25
+   **CPI voor Taak 1** = 12.5 / 50\
+   **CPI voor Taak 1** = .25
 
-1. **EAC voor Taak 1** = 120 uur, berekend als volgt:\
-   **EAC voor Taak 1** = *IF* CPI &lt;> 0 *DAN* EAC = geplande uren / CPI\
-       *ELSE* EAC = geplande uren + werkelijke uren\
-   **EAC voor Taak 1** = 30/,25\
-   **EAC voor Taak 1** = 120 uur
+1. **EAC voor Taak 1** = 120 uren berekend als volgt:\
+   **EAC voor Taak 1** = *ALS* CPI &lt;> 0 *VERVOLGENS* EAC = Geplande Uren/CPI\
+       *ELSE* EAC = Gepland  Uren + Werkelijk  Uren\
+   **EAC voor Taak 1** =  30/,25\
+   **EAC voor Taak 1** = 120 uren
 
-1. **CPI voor Project** = .22, berekend als volgt:\
-   **CPI voor Project** = *IF* Werkelijke uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Actual Hours\
+1. **CPI voor Project** = .22 berekend als volgt:\
+   **CPI voor Project** = *ALS* Ware Uren > 0 *DAN* CPI = TotalBudgetedCostWorkPerformance/Ware Uren\
        *ELSE* CPI = 1\
-   **CPI voor Project** = 24,5 / 110\
-   **CPI voor Project** = .22272\
-   **CPI voor Project** = 0,22
+   **CPI voor Project** = 24.5 / 110\
+   **CPI voor Project** = .2272\
+   **CPI voor Project** = .22
 
-1. **EAC voor project** = 224,49 uur, berekend als volgt:\
-   **EAC voor project** = *IF* CPI &lt;> 0 *DAN* EAC = geplande uren/CPI\
-       *ELSE* EAC = geplande uren + werkelijke uren\
-   **EAC voor project** = 50 / 0,22272\
-   **EAC voor project** = 224,49 uur
+1. **EAC voor Project** = 224.49  uur berekend als volgt:\
+   **EAC voor Project** = *ALS* CPI &lt;> 0 *VERVOLGENS* EAC = Geplande Uren/CPI\
+       *ELSE* EAC = Gepland  Uren + Werkelijk  Uren\
+   **EAC voor Project** =  50 / 22272\
+   **EAC voor Project** = 224.49 uur
 
 ### PIM= op basis van kosten {#pim-cost-based}
 
-* [Eenvoudig voorbeeld: project bevat geen onderliggende taken](#simple-example-project-has-no-children-tasks)
-* [Gecompliceerd voorbeeld: project bevat onderliggende taken](#complicated-example-project-has-children-tasks)
+* [ Eenvoudig voorbeeld: het project heeft geen kindtaken ](#simple-example-project-has-no-children-tasks)
+* [Gecompliceerd voorbeeld: project heeft onderliggende taken](#complicated-example-project-has-children-tasks)
 
-#### Eenvoudig voorbeeld: project bevat geen onderliggende taken {#simple-example-project-has-no-children-tasks-1}
+#### Eenvoudig voorbeeld: project heeft geen onderliggende taken {#simple-example-project-has-no-children-tasks-1}
 
 PIM = op kosten gebaseerd
 
@@ -251,37 +251,37 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <br> <p><strong>Taak</strong> </p> </th> 
-   <th> <br> <p><strong>Pln uur</strong> </p> </th> 
-   <th> <br> <p><strong>LBR-kosten afspelen</strong> </p> </th> 
-   <th> <br> <p><strong>Act Hrs</strong> </p> </th> 
-   <th> <br> <p><strong>LBR-kosten van wet</strong> </p> </th> 
-   <th> <p><strong>% voltooid</strong> </p> </th> 
+   <th> <br> <p><strong> Taak </strong> </p> </th> 
+   <th> <br> <p><strong> PlnHrs </strong> </p> </th> 
+   <th> <br> <p><strong> Pln Lbr Kosten </strong> </p> </th> 
+   <th> <br> <p><strong> Akte Hrs </strong> </p> </th> 
+   <th> <br> <p><strong> de Kosten van Lbr van de Akte </strong> </p> </th> 
+   <th> <p><strong>% voltooid </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
    <td> <p>5 uur</p> </td> 
-   <td> <p>$500.00</p> </td> 
+   <td> <p>$ 500,00</p> </td> 
    <td> <p>25 uur</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$ 2.500,00</p> </td> 
    <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> <p>25 uur</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$ 2.500,00</p> </td> 
    <td> <p>30%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 3</p> </td> 
    <td> <p>15 uur</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>$ 1.500,00</p> </td> 
    <td> <p>25 uur</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$ 2.500,00</p> </td> 
    <td> <p>40%</p> </td> 
   </tr> 
  </tbody> 
@@ -296,36 +296,36 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Taak</strong> </p> </th> 
-   <th> <p><strong>Kosten</strong> </p> </th> 
-   <th> <p><strong>Geplande hoeveelheid</strong> </p> </th> 
-   <th> <p><strong>Werkelijk bedrag</strong> </p> </th> 
+   <th> <p><strong> Taak </strong> </p> </th> 
+   <th> <p><strong> Kosten </strong> </p> </th> 
+   <th> <p><strong> Gepland Bedrag </strong> </p> </th> 
+   <th> <p><strong> Ware Bedrag </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
    <td> <p>Taak 1 Exp 1</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>$400.00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
+   <td> <p>$ 400,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
    <td> <p>Taak 1 Exp 2</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>$ 500,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>Taak 2 Exp</p> </td> 
-   <td> <p>$200.00</p> </td> 
-   <td> <p>$100.00</p> </td> 
+   <td> <p>$ 200,00</p> </td> 
+   <td> <p>$ 100,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 3</p> </td> 
    <td> <p>Taak 3 Uitv</p> </td> 
-   <td> <p>$800.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>$ 800,00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -338,21 +338,21 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Kosten</strong> </p> </th> 
-   <th> <p><strong>Geplande hoeveelheid</strong> </p> </th> 
-   <th> <p><strong>Werkelijk bedrag</strong> </p> </th> 
+   <th> <p><strong> Kosten </strong> </p> </th> 
+   <th> <p><strong> Gepland Bedrag </strong> </p> </th> 
+   <th> <p><strong> Ware Bedrag </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Project Exp 1</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
+   <td> <p>$ 1.500,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 1 Exp 2</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>$ 2.500,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -366,126 +366,126 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Taak</strong> </p> </th> 
-   <th> <p><strong>Niet-geplande kosten</strong> </p> </th> 
-   <th> <p><strong>Ongewenste geplande kosten</strong> </p> </th> 
-   <th> <p><strong>Opgelopen werkelijke kosten</strong> </p> </th> 
+   <th> <p><strong> Taak </strong> </p> </th> 
+   <th> <p><strong> niet Beoogde Geplande Uitgaven </strong> </p> </th> 
+   <th> <p><strong> Beoogde Beoogde Uitgaven </strong> </p> </th> 
+   <th> <p><strong> curred daadwerkelijke uitgaven </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>$400.00</p> </td> 
+   <td> <p>$ 500,00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
+   <td> <p>$ 400,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$200.00</p> </td> 
-   <td> <p>$100.00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 200,00</p> </td> 
+   <td> <p>$ 100,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 3</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 800,00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>$3,000.00</p> </td> 
-   <td> <p>$2,300.00</p> </td> 
-   <td> <p> $2,700.00 <strong></strong></p> </td> 
+   <td> <p>$ 3.000,00</p> </td> 
+   <td> <p>$ 2.300,00</p> </td> 
+   <td> <p> $ 2.700,00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 1. Voer vanuit Projecthandelingen de herberekening van financiën uit
-1. **CPI voor Taak 1** = 0,14
-1. **CPI*** voor taak 1** = .14 berekend als volgt:\
-   **CPI**  **voor taak 1** = *IF* Werkelijke loonkosten + IncurredActualExpenseCost &lt;> 0 *DAN*
+1. **CPI voor Taak 1** = .14
+1. **CPI****for Taak 1** = .14 berekend als volgt:\
+   **CPI**  **voor Taak 1** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost  &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *    ELSE* CPI = CPI_Labor\
-   **CPI*** voor taak 1** = (100+300) / (2500+400)\
-   **CPI**  **voor taak 1** = 400 / 2900\
-   **CPI**  **voor taak 1**  = .14***
+   **CPI****for Taak 1** = (100+300) / (2500+400)\
+   **CPI**  **voor Taak 1** = 400 / 2900\
+   **CPI**  **voor Taak 1**  = .14***
 
-1. **EAC****voor taak 1** = $ 13.400,00\
-   **CPI Arbeid**  **voor taak 1** = INDIEN werkelijke loonkosten &lt;> 0 VERVOLGENS
+1. **EAC****for Taak 1** = $13.400.00\
+   **CPI Arbeid**  **voor Taak 1** = ALS de Ware Arbeidskosten &lt;> 0 DAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **CPI Arbeid**  **voor taak 1** = 100/2500\
-   **CPI Arbeid**  **voor taak 1** = 0,04 ****** EAC Arbeid ****voor taak 1 **=*IF *CPI_Labour &lt;> 0*DAN *EAC Labour = Geplande loonkosten/CPI_Labour\
-   *    ELSE* EAC-arbeid = geplande loonkosten + werkelijke loonkosten\
-   **EAC Arbeid ****voor taak 1** = 500.00/.04\
-   **EAC-arbeid**** voor taak 1** = $ 12.500,00\
-   **EAC-uitgaven**** voor taak 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-uitgaven**** voor taak 1** = $ 400,00 + $ 500,00\
-   **EAC-uitgaven**** voor taak 1** = $ 900,00\
-   **EAC****voor taak 1** = EAC-arbeid + EAC-uitgaven\
-   **EAC****voor taak 1**  = $ 12.500,00 + $ 900,00\
-   **EAC****voor taak 1**  = $ 13.400,00
+   **CPI Arbeid**  **voor Taak 1** = 100/2500\
+   **CPI Arbeid**  **voor Taak 1** = .04 ****** Ec Arbeid ****voor Taak 1 **=* IF *CPI_Labor &lt;> 0* *Ec Arbeid = Geplande Arbeid Kosten/CPI_Arbeid\
+   *    ELSE* EAC  Arbeidskosten = geplande arbeidskosten + werkelijke loonkosten\
+   **EAC Arbeid ****voor Taak 1** = 500.00/.04\
+   **Ecc Arbeid****voor Taak 1** = $12.500.00\
+   **uitgaven EAC****voor Taak 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **uitgaven EAC****voor Taak 1** = $400.00 + $500.00\
+   **uitgaven EAC****voor Taak 1** = $900.00\
+   **EAC****for Taak 1** = EC Arbeid + EAC Uitgaven\
+   **EAC****for Taak 1**  = $ 12.500,00 + $ 900,00\
+   **EAC****for Taak 1**  = $ 13.400,00
 
 1. Hier zijn de waarden CPI/EAC voor Taak 2 en Taak 3:\
    Taak 2 = .19 / $8.433.33\
    Taak 3 = .44 / $6.950.00
 
-1. **CPI voor Project** = .32, berekend als volgt:\
-   **CPI**** voor project** = *IF* Werkelijke loonkosten + IncurredActualExpenseCost &lt;> 0 *DAN*
+1. **CPI voor Project** = .32 berekend als volgt:\
+   **CPI***for Project** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost  &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI**** voor project** = (1000 + 2300) / (7500 + 2700)\
-   **CPI**** voor project** = 3300 / 10200\
-   **CPI**** voor project** = 0,32
+   **CPI****for Project** = (1000 + 2300) / (7500 + 2700)\
+   **CPI****for Project** = 3300/10200\
+   **CPI****for Project** = .32
 
-1. **EAC voor project** = $ 28.200,00, berekend als volgt:\
-   **CPI Arbeid*** voor Project** = INDIEN werkelijke loonkosten &lt;> 0 VERVOLGENS
+1. **EAC voor Project** = $28.200.00 berekende als volgt:\
+   **CPI Arbeid****voor Project** = ALS de Ware Arbeidskosten &lt;> 0 DAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed/Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **CPI Arbeid*** voor Project** = 1000 / 7500\
-   **CPI Arbeid*** voor Project** = .13333\
-   **CPI Arbeid*** voor Project** = 0,13
+   **CPI Arbeid****voor Project** = 1000 / 7500\
+   **CPI Arbeid****for Project** = .13333\
+   **CPI Arbeid****for Project** = .13
 
-   **EAC-arbeid*** voor project** = *IF* CPI_Labour &lt;> 0 *DAN*
+   **EAC Arbeid****for Project** = *ALS* CPI_Labour &lt;> 0 *VERVOLGENS*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
-   *   ELSE* EAC-arbeid = geplande loonkosten + werkelijke loonkosten\
-   **EAC-arbeid*** voor project** = 3000/,13333\
-   **EAC-arbeid*** voor project** = $ 22.500,00
+   *   ELSE* EAC  Arbeidskosten = geplande arbeidskosten + werkelijke loonkosten\
+   **Arbeid EAC****voor Project** = 3000/.13333\
+   **Ecc Arbeid****voor Project** = $22.500.00
 
-   **Uitgaven EAC*** Project** =
+   **uitgaven EAC***Project** =
 
    ```
    IncurredActualExpenseCost + NotIncurredPlannedExpense
    ```
 
-   **Uitgaven EAC*** Project** = $ 3000,00 + 2.700,00\
-   **Uitgaven EAC*** Project** = $ 5.700,00
+   **uitgaven EAC***Project** = $3000.00 + 2.700.00\
+   **uitgaven EAC***Project** = $5.700.00
 
-   **EAC*** Project** = EAC-arbeid + EAC-uitgaven\
-   **EAC*** Project**  = $ 22.500,00 + $ 5.700,00\
-   **EAC*** Project**  = $ 28.200,00
+   **EAC***Project** = EC Arbeid + EAC Uitgaven\
+   **EAC***Project**  = $ 22.500,00 + $ 5.700,00\
+   **EAC***Project**  = $ 28.200,00
 
-#### Gecompliceerd voorbeeld: project bevat onderliggende taken {#complicated-example-project-has-children-tasks-1}
+#### Gecompliceerd voorbeeld: project heeft onderliggende taken {#complicated-example-project-has-children-tasks-1}
 
 PIM = op kosten gebaseerd
 
@@ -515,12 +515,12 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <br> <p><strong>Taak</strong> </p> </th> 
-   <th> <br> <p><strong>Pln uur</strong> </p> </th> 
-   <th> <br> <p><strong>LBR-kosten afspelen</strong> </p> </th> 
-   <th> <br> <p><strong>Act Hrs</strong> </p> </th> 
-   <th> <br> <p><strong>LBR-kosten van wet</strong> </p> </th> 
-   <th> <p><strong>% voltooid</strong> </p> </th> 
+   <th> <br> <p><strong> Taak </strong> </p> </th> 
+   <th> <br> <p><strong> PlnHrs </strong> </p> </th> 
+   <th> <br> <p><strong> Pln Lbr Kosten </strong> </p> </th> 
+   <th> <br> <p><strong> Akte Hrs </strong> </p> </th> 
+   <th> <br> <p><strong> de Kosten van Lbr van de Akte </strong> </p> </th> 
+   <th> <p><strong>% voltooid </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -529,15 +529,15 @@ EAC-methode = Berekenen op projectniveau
    <td> </td> 
    <td> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>5 uur</p> </td> 
-   <td> <p>$500.00</p> </td> 
+   <td> <p>$ 500,00</p> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
@@ -545,31 +545,31 @@ EAC-methode = Berekenen op projectniveau
    <td> </td> 
    <td> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 4</p> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 5</p> </td> 
    <td> <p>15 uur</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>$ 1.500,00</p> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 6</p> </td> 
    <td> <p>20 uur</p> </td> 
-   <td> <p>$2,000.00</p> </td> 
+   <td> <p>$ 2.000,00</p> </td> 
    <td> <p>10 uur</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
    <td> <p>60%</p> </td> 
   </tr> 
  </tbody> 
@@ -585,30 +585,30 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Taak</strong> </p> </th> 
-   <th> <p><strong>Kosten</strong> </p> </th> 
-   <th> <p><strong>Geplande hoeveelheid</strong> </p> </th> 
-   <th> <p><strong>Werkelijk bedrag</strong> </p> </th> 
+   <th> <p><strong> Taak </strong> </p> </th> 
+   <th> <p><strong> Kosten </strong> </p> </th> 
+   <th> <p><strong> Gepland Bedrag </strong> </p> </th> 
+   <th> <p><strong> Ware Bedrag </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
    <td> <p>Taak 1 Exp 1</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>-$400.00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
+   <td> <p>- $ 400,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
    <td> <p>Taak 1 Exp 2</p> </td> 
-   <td> <p>-$500.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>-$ 500,00</p> </td> 
+   <td> <p>$ 800,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
    <td> <p>Taak 1 Exp 3</p> </td> 
-   <td> <p>$400.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>$ 400,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,26 +619,26 @@ EAC-methode = Berekenen op projectniveau
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>Taak 2 Uitp 1</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>$ 500,00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>Taak 2 Exp 2</p> </td> 
-   <td> <p>-$400.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>- $ 400,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>Taak 2 Uitp 3</p> </td> 
-   <td> <p>-$200.00</p> </td> 
-   <td> <p>$600.00</p> </td> 
+   <td> <p>- $ 200,00</p> </td> 
+   <td> <p>$ 600,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
    <td> <p>Taak 2 Uitp 4</p> </td> 
-   <td> <p>$700.00</p> </td> 
-   <td> <p>-$200.00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
+   <td> <p>- $ 200,00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -649,8 +649,8 @@ EAC-methode = Berekenen op projectniveau
   <tr> 
    <td> <p>Taak 3</p> </td> 
    <td> <p>Taak 3 Uitv</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -661,20 +661,20 @@ EAC-methode = Berekenen op projectniveau
   <tr> 
    <td> <p>Taak 4</p> </td> 
    <td> <p>Taak 4 Uitp 1</p> </td> 
-   <td> <p>$800.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>$ 800,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 4</p> </td> 
    <td> <p>Taak 4 Exp 2</p> </td> 
-   <td> <p>-$100.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
+   <td> <p>- $ 100,00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 4 </p> </td> 
    <td> <p>Taak 4 Uitp. 3</p> </td> 
-   <td> <p>-200.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
+   <td> <p>-200,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -685,20 +685,20 @@ EAC-methode = Berekenen op projectniveau
   <tr> 
    <td> <p>Taak 5</p> </td> 
    <td> <p>Taak 5 Uitp 1</p> </td> 
-   <td> <p>$700.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
+   <td> <p>$ 800,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 5</p> </td> 
    <td> <p>Taak 5 Uitp 2</p> </td> 
-   <td> <p>-$100.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
+   <td> <p>- $ 100,00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 5</p> </td> 
    <td> <p>Taak 5 Uitp 3</p> </td> 
-   <td> <p>-$400.00</p> </td> 
-   <td> <p>-$200.00</p> </td> 
+   <td> <p>- $ 400,00</p> </td> 
+   <td> <p>- $ 200,00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -709,14 +709,14 @@ EAC-methode = Berekenen op projectniveau
   <tr> 
    <td> <p>Taak 6</p> </td> 
    <td> <p>Taak 6 Uitp 1</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>$ 600,00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 6</p> </td> 
    <td> <p>Taak 6 Uitp 2</p> </td> 
-   <td> <p>$500.00</p> </td> 
-   <td> <p>-$300.0</p> </td> 
+   <td> <p>$ 500,00</p> </td> 
+   <td> <p>-$ 300,0</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -729,21 +729,21 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Kosten</strong> </p> </th> 
-   <th> <p><strong>Geplande hoeveelheid</strong> </p> </th> 
-   <th> <p><strong>Werkelijk bedrag</strong> </p> </th> 
+   <th> <p><strong> Kosten </strong> </p> </th> 
+   <th> <p><strong> Gepland Bedrag </strong> </p> </th> 
+   <th> <p><strong> Ware Bedrag </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Project Exp 1</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
+   <td> <p>$ 1.500,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 1 Exp 2</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
-   <td> <p> $0.00 <strong></strong></p> </td> 
+   <td> <p>$ 2.500,00</p> </td> 
+   <td> <p> $ 0,00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -757,85 +757,85 @@ EAC-methode = Berekenen op projectniveau
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Taak</strong> </p> </th> 
-   <th> <p><strong>Niet-geplande kosten</strong> </p> </th> 
-   <th> <p><strong>Ongewenste geplande kosten</strong> </p> </th> 
-   <th> <p><strong>Opgelopen werkelijke kosten</strong> </p> </th> 
+   <th> <p><strong> Taak </strong> </p> </th> 
+   <th> <p><strong> niet Beoogde Geplande Uitgaven </strong> </p> </th> 
+   <th> <p><strong> Beoogde Beoogde Uitgaven </strong> </p> </th> 
+   <th> <p><strong> curred daadwerkelijke uitgaven </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>Taak 1</p> </td> 
-   <td> <p>$400.00</p> </td> 
-   <td> <p>-$500.00</p> </td> 
-   <td> <p>$800.00</p> </td> 
+   <td> <p>$ 400,00</p> </td> 
+   <td> <p>-$ 500,00</p> </td> 
+   <td> <p>$ 800,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 2</p> </td> 
-   <td> <p>-$400.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
-   <td> <p>$1,300.00</p> </td> 
+   <td> <p>- $ 400,00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
+   <td> <p>$ 1.300,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 3</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 1.000,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 4</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>-$100.00</p> </td> 
-   <td> <p>$300.00</p> </td> 
+   <td> <p>$ 600,00</p> </td> 
+   <td> <p>- $ 100,00</p> </td> 
+   <td> <p>$ 300,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 5</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>$1,100.00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 600,00</p> </td> 
+   <td> <p>$ 1.100,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Taak 6</p> </td> 
-   <td> <p>$0.00</p> </td> 
-   <td> <p>$600.00</p> </td> 
-   <td> <p>$700.00</p> </td> 
+   <td> <p>$ 0,00</p> </td> 
+   <td> <p>$ 600,00</p> </td> 
+   <td> <p>$ 700,00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>$2,500.00</p> </td> 
-   <td> <p>$1000.00</p> </td> 
-   <td> <p>$1,500.00</p> </td> 
+   <td> <p>$ 2.500,00</p> </td> 
+   <td> <p>$ 1000,00</p> </td> 
+   <td> <p>$ 1.500,00</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 1. Voer vanuit Projecthandelingen de herberekening van financiën uit
-1. **CPI** voor taak 2 = .17, berekend als volgt:\
-   **CPI-taak 2** = *IF* Werkelijke loonkosten + IncurredActualExpenseCost &lt;> 0 *DAN* CPI = (TotalBudgetedCostWorkPerformance + IncurredPlannedExpenseCost) / (ActualLabourCost + IncurredActualExpenseCost)\
+1. **CPI** voor Taak 2 = .17 berekend als volgt:\
+   **CPI Taak 2** = ** Ware Arbeidskosten + IncurredActualExpenseCost  &lt;> 0 *DAN* CPI = (TotalBudgetedCostWorkPerformance + IncurredPlannedExpenseCost) / (ActualLabourCost + IncurredActualExpenseCost)\
    *   ELSE* CPI = CPI_Labor\
-   **CPI*** Taak 2** = (100+300) / (1000+1300)\
-   **CPI*** Taak 2**  = 400 / 2300\
-   **CPI*** Taak 2**  = 0,17
+   **CPI****Taak 2** = (100+300) / (1000+1300)\
+   **CPI***Taak 2**  = 400 / 2300\
+   **CPI***Taak 2**  = 0,17
 
 1. **EAC** voor Taak 2 = $5.900.00\
-   **CPI Arbeid*** Taak 2** = INDIEN werkelijke loonkosten &lt;> 0 VERVOLGENS CPI_Labour = TotalBudgetedCostWorkPerformance / Werkelijke loonkosten\
+   **CPI Arbeid****Taak 2** = ALS Ware Arbeidskosten &lt;> 0 DAN CPI_Arbeid = TotalBudgetedCostWorkPerformance/Ware Arbeidskosten\
       ELSE CPI_Labor = 1\
-   **CPI Arbeid*** Taak 2** = 100/1000\
-   **CPI Arbeid*** Taak 2** = .1
+   **CPI Arbeid***Taak 2** = 100/1000\
+   **CPI Arbeid***Taak 2** = .1
 
-   **EAC-arbeid*** Taak 2** = *IF* CPI_Labour &lt;> 0 *DAN*
+   **Ecc Arbeid***Taak 2** = *ALS* CPI_Labor &lt;> 0 *DAN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
    ```
 
-   *   ELSE* EAC-arbeid = geplande loonkosten + werkelijke loonkosten\
-   **EAC-arbeid*** Taak 2** = 500,00/,1\
-   **EAC-arbeid*** Taak 2** = $ 5.000,00 ****** EAC-uitgaven ****Taak 2 **= IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-uitgaven ****Taak 2** = $1.300.00 + -$400.00\
-   **EAC-uitgaven****Taak 2** = $ 900,00
+   *   ELSE* EAC  Arbeidskosten = geplande arbeidskosten + werkelijke loonkosten\
+   **Ecc Arbeid***Taak 2** = 500.00/.1\
+   **Ecc Arbeid***Taak 2** = $5.000.00 ****** Ecc- Uitgaven ****Taak 2 **= IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC Vergoeding ****Taak 2** = $1,300.00 + -$400.00\
+   **uitgaven EAC***Taak 2** = $900.00
 
-   **EAC***Taak 2** = EAC-arbeid + EAC-uitgaven\
+   **EAC****Taak 2** = EC Arbeid + EAC Uitgaven\
    **EAC***Taak 2**  = $ 5.000,00 + $ 900,00\
    **EAC***Taak 2**  = $ 5.900,00
 
@@ -845,83 +845,83 @@ EAC-methode = Berekenen op projectniveau
    Taak 6: 1,06 / $ 2.366,67
 
 1. CPI voor Taak 3 = .31 berekend als volgt:\
-   **CPI*** Taak 3** = *IF* Werkelijke loonkosten + IncurredActualExpenseCost &lt;> 0 *DAN*
+   **CPI***Taak 3** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost  &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI*** Taak 3**  = (1,150 + 500) / (3000 + 2400)\
-   **CPI*** Taak 3**  = 1650 / 5400\
-   **CPI*** Taak 3**  = 0,31 ****** EAC voor Taak 3 **= $ 9.521,74, berekend als volgt:\
-   **CPI Arbeid ****Taak 3** = indien werkelijke loonkosten &lt;> 0 DAN
+   **CPI***Taak 3**  = (1,150 + 500) / (3000 + 2400)\
+   **CPI***Taak 3**  =  1650 / 5400\
+   **CPI***Taak 3**  = .31 ****** EAC voor Taak 3 **= $9.521.74 berekend als volgt:\
+   **CPI Arbeid ****Taak 3** = ALS de Ware Arbeidskosten &lt;> 0 DAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **CPI Arbeid*** Taak 3** = 1150/3000\
-   **CPI Arbeid*** Taak 3** = .383333\
-   **CPI Arbeid*** Taak 3** = 0,38
+   **CPI Arbeid***Taak 3** = 1150/3000\
+   **CPI Arbeid****Taak 3** = .383333\
+   **CPI Arbeid****Taak 3** = .38
 
-   **EAC-arbeid*** Taak 3** = *IF* CPI_Labour &lt;> 0 *DAN*
+   **Ecc Arbeid***Taak 3** = ** CPI_Labor &lt;> 0 *DAN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *   ELSE* EAC-arbeid = geplande loonkosten + werkelijke loonkosten\
-   **EAC-arbeid*** Taak 3** = $ 2.500,00 / ,383333\
-   **EAC-arbeid*** Taak 3** = $ 6.521,74
+   *   ELSE* EAC  Arbeidskosten = geplande arbeidskosten + werkelijke loonkosten\
+   **Arbeid EAC***Taak 3** = $2.500.00 / .383333\
+   **Ecc Arbeid***Taak 3** = $6.521.74
 
-   **EAC-uitgaven****Taak 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-uitgaven****Taak 3** = $ 2.400,00 + $ 600,00\
-   **EAC-uitgaven****Taak 3** = $ 3.000,00
+   **uitgaven EAC***Taak 3** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **uitgaven EAC***Taak 3** = $2.400.00 + $600.00\
+   **uitgaven EAC***Taak 3** = $3.000.00
 
-   **EAC*** Taak 3** = EAC-arbeid + EAC-uitgaven\
-   **EAC*** Taak 3**  = $ 6.521,74 + $ 3.000,00\
-   **EAC*** Taak 3**  = $ 9.521,74
+   **EAC***Taak 3** = EC Arbeid + EAC Uitgaven\
+   **EAC****Taak 3**  = $ 6.521,74 + $ 3.000,00\
+   **EAC****Taak 3**  = $ 9.521,74
 
 1. CPI voor Taak 1 = .16 berekend als volgt:\
-   **CPI*** Taak 1** = *IF* Werkelijke loonkosten + IncurredActualExpenseCost &lt;> 0 *DAN*
+   **CPI***Taak 1** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost  &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    *   ELSE* CPI = CPI_Labor\
-   **CPI*** Taak 1**  = (1250 + 300) / (5000 + 4500)\
-   **CPI*** Taak 1**  = 1550 / 9500=\
-   **CPI*** Taak 1**  = 0,16
+   **CPI***Taak 1**  = (1250 + 300) / (5000 + 4500)\
+   **CPI***Taak 1**  =  1550 / 9500=\
+   **CPI***Taak 1**  = 0,16
 
 1. EAC voor Taak 1 is $17.100.00 die als volgt wordt berekend:\
-   **CPI Arbeid*** Taak 1** = INDIEN werkelijke loonkosten &lt;> 0 VERVOLGENS
+   **CPI Arbeid****Taak 1** = ALS de Ware Arbeidskosten &lt;> 0 DAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **CPI Arbeid*** Taak 1** = 1250 / 5000\
-   **CPI Arbeid*** Taak 1** = 0,25
+   **CPI Arbeid****Taak 1** = 1250 / 5000\
+   **CPI Arbeid****Taak 1** = .25
 
-   **EAC-arbeid*** Taak 1** = *IF* CPI_Labour &lt;> 0 *DAN* EAC Labour = Geplande loonkosten / CPI_Labour\
-   *   ELSE* EAC-arbeid = geplande loonkosten + werkelijke loonkosten\
-   **EAC-arbeid*** Taak 1** = $ 3.000,00 / 0,25\
-   **EAC-arbeid*** Taak 1** = $ 12.000,00
+   **EAC Arbeid***Taak 1** = *ALS* CPI_Labor &lt;> 0 *DAN* EAC Arbeid = Geplande Arbeidskosten / CPI_Arbeid\
+   *   ELSE* EAC  Arbeidskosten = geplande arbeidskosten + werkelijke loonkosten\
+   **Ecc Arbeid***Taak 1** = $3.000.00 / .25\
+   **Ecc Arbeid***Taak 1** = $12.000.00
 
-   **Uitgaven EAC****Taak 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **Uitgaven EAC****Taak 1** = $ 4500 + 600\
-   **Uitgaven EAC****Taak 1** = $ 5.100,00
+   **uitgaven EAC***Taak 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **uitgaven EAC****Taak 1** = $4500 + 600\
+   **uitgaven EAC***Taak 1** = $5.100.00
 
-   **EAC***Taak 1** = EAC-arbeid + EAC-uitgaven\
-   **EAC***Taak 1**  = $ 12.000,00 + 5.100,00\
-   **EAC***Taak 1**  = $ 17.100,00
+   **EAC****Taak 1** = EC Arbeid + EAC Uitgaven\
+   **EAC****Taak 1**  = $ 12.000,00 + 5.100,00\
+   **EAC****Taak 1**  = $ 17.100,00
 
 1. CPI voor Project is .25\
-   **CPI**** voor project** = *IF* Werkelijke loonkosten + IncurredActualExpenseCost &lt;> 0 *DAN*
+   **CPI***for Project** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost  &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -929,37 +929,37 @@ EAC-methode = Berekenen op projectniveau
 
    *   ELSE* CPI = CPI_Labor
 
-   **CPI**** voor project** = (2450 + 1900) / (11000 + 6700)\
-   **CPI**** voor project** = 4350 / 17700\
-   **CPI**** voor project** = 0,25
+   **CPI****for Project** = (2450 + 1900) / (11000 + 6700)\
+   **CPI****for Project** =   4350 / 17700\
+   **CPI****for Project** = .25
 
-1. **EAC voor project** = $ 32.248,98, berekend als volgt:\
-   **CPI Arbeid*** voor Project** = INDIEN werkelijke loonkosten &lt;> 0 VERVOLGENS
+1. **EAC voor Project** = $32.248.98 berekende als volgt:\
+   **CPI Arbeid****voor Project** = ALS de Ware Arbeidskosten &lt;> 0 DAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
       ELSE CPI_Labor = 1\
-   **CPI Arbeid*** voor Project** = 2450 / 11000\
-   **CPI Arbeid*** voor Project** = .22272\
-   **CPI Arbeid*** voor Project** = 0,22
+   **CPI Arbeid****voor Project** = 2450 / 11000\
+   **CPI Arbeid****for Project** = .22272\
+   **CPI Arbeid****for Project** = .22
 
-   **EAC-arbeid*** voor project** = *IF* CPI_Labour &lt;> 0 *DAN*
+   **EAC Arbeid****for Project** = *ALS* CPI_Labour &lt;> 0 *VERVOLGENS*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *   ELSE* EAC-arbeid = geplande loonkosten + werkelijke loonkosten\
-   **EAC-arbeid*** voor project** = $ 5.000,00 / 0,22272\
-   **EAC-arbeid*** voor project** = $ 22.448,97959\
-   **EAC-arbeid*** voor project** = $ 22.448,98
+   *   ELSE* EAC  Arbeidskosten = geplande arbeidskosten + werkelijke loonkosten\
+   **Arbeid EAC****voor Project** = $5.000.00 /.22272\
+   **Arbeid EAC****voor Project** = $22.448.97959\
+   **Arbeid EAC****voor Project** = $22.448.98
 
-   **Uitgaven EAC*** Project** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **Uitgaven EAC*** Project** = $ 3.100,00 + $ 6.700,00\
-   **Uitgaven EAC*** Project** = $ 9.800,00
+   **uitgaven EAC***Project** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **uitgaven EAC***Project** = $3,100.00 + $6,700.00\
+   **uitgaven EAC***Project** = $9.800.00
 
-   **EAC*** Project** = EAC-arbeid + EAC-uitgaven\
-   **EAC*** Project**  = $ 22.448,98 + 9.800,00\
-   **EAC*** Project**  = $ 32.248,98
+   **EAC***Project** = EC Arbeid + EAC Uitgaven\
+   **EAC***Project**  = $ 22.448,98 + 9.800,00\
+   **EAC***Project**  = $ 32.248,98

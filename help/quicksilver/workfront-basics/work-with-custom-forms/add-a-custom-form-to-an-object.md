@@ -22,7 +22,7 @@ ht-degree: 0%
 
 U kunt een bestaand aangepast formulier toevoegen aan de objecten hieronder. Een aangepast formulier bevat aangepaste velden waarin u informatie over het object kunt opslaan.
 
-* Projecten (met inbegrip van zakelijke zaken)
+* Projecten (inclusief zakelijke gevallen)
 * Taken
 * Problemen
 * Bedrijven
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
 <tr> 
@@ -59,62 +59,62 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p>
+   <td> <p>Toegang tot de objecten bewerken waarvoor u aangepaste formulieren beheert</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor het object waarvoor u een aangepast formulier wilt toevoegen.</p> <p>Machtigingen voor het aangepaste formulier weergeven of hoger, met toestemming om <b>Koppelen aan aangepaste gegevens</b> objecten (projecten, taken en problemen). Zie voor meer informatie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>.</p> <p>Belangrijk: als u geen licentie voor abonnementen hebt met beheerdersrechten voor de aangepaste Forms, moet u specifieke machtigingen hebben om ten minste het aangepaste formulier te kunnen bekijken, zoals beschreven in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen</a>.</p> </td> 
+   <td> <p>Beheer machtigingen voor het object waaraan u een aangepast formulier wilt koppelen.</p> <p>De mening of hogere toestemmingen aan de douanevorm, met toestemming <b> verbinden aan de voorwerpen van de Gegevens van de Douane </b> (projecten, taken, en kwesties). Voor meer informatie, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> Deel een douaneformulier </a>.</p> <p>Belangrijk: Als u geen vergunning van het Plan met administratieve toegang tot Aangepast Forms hebt, moet u specifieke toestemmingen hebben om de douanevorm minstens te bekijken, zoals die in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> wordt beschreven een douanevorm </a> delen. Deze machtigingen moeten ook aan u worden verleend als het formulier in het hele systeem zichtbaar is. </p> <p>Voor informatie bij het verzoeken van extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Een aangepast formulier toevoegen aan een object
 
 U kunt op twee manieren een aangepast formulier aan een object toevoegen:
 
-* [Een aangepast formulier aan een object toevoegen door het object te bewerken](#add-a-custom-form-to-an-object-by-editing-the-object)
+* [ voeg een douanevorm aan een voorwerp toe door het voorwerp uit te geven ](#add-a-custom-form-to-an-object-by-editing-the-object)
 * [Een aangepast formulier aan een object toevoegen vanuit het gebied Details](#add-a-custom-form-to-an-object-from-the-details-area)
 
 ### Een aangepast formulier aan een object toevoegen door het object te bewerken {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Ga naar het object waaraan u het aangepaste formulier wilt toevoegen.
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op **Bewerken** ![](assets/edit-icon.png).
-1. Klikken **Aangepaste Forms** > **Forms toevoegen** Selecteer vervolgens maximaal 10 formulieren in het keuzemenu.
+1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven** ![](assets/edit-icon.png).
+1. Klik **Forms van de Douane** > **Forms** toevoegen, dan selecteren tot 10 vormen van het drop-down menu.
 
 1. (Optioneel) Werk de gegevens in de bewerkbare velden op het aangepaste formulier bij.
 
    U moet alle vereiste velden bijwerken op de formulieren die u toevoegt.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ### Een aangepast formulier aan een object toevoegen vanuit het gebied Details {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Ga naar het object waaraan u het aangepaste formulier wilt toevoegen.
-1. Klik op de knop **`<Object type>`Details** in het linkerdeelvenster. Klik bijvoorbeeld op **Projectdetails** aangepaste formulieren aan een project of **Probleemdetails** om aangepaste formulieren aan een uitgave toe te voegen.
-1. Klik op de knop **Aangepast formulier toevoegen** in de rechterbovenhoek, selecteert u vervolgens maximaal 10 aangepaste formulieren in de lijst die wordt weergegeven.
+1. Klik op de sectie **`<Object type>`Details** in het linkerdeelvenster. Bijvoorbeeld, klik **Details van het Project** om douaneformulieren aan een project toe te voegen of **Details van de Uitgave** om douaneformulieren aan een kwestie toe te voegen.
+1. Klik **toevoegen het gebied van de douanevorm** in de hoger-juiste hoek, dan selecteren tot 10 douanevormen van de lijst die toont.
 
    Als het formulier verplichte velden bevat (gemarkeerd met een rood sterretje), hoeft u deze momenteel niet in te vullen.
 
    De geselecteerde formulieren worden automatisch aan het object gekoppeld.
 
-1. (Optioneel) Werk de gegevens bij in de aangepaste velden van het formulier en klik vervolgens op **Wijzigingen opslaan**.
+1. (Facultatief) werk de informatie op de douanegebieden van de vorm bij, dan klik **sparen Veranderingen**.
 
 ## Meerdere aangepaste formulieren voor een object
 
 U kunt maximaal 10 aangepaste formulieren toevoegen aan een bepaald object, zodat u velden ter beschikking kunt stellen van bepaalde gebruikers en niet van andere gebruikers, of u beter kunt voldoen aan de formuliervereisten van meerdere projecten.
 
-**Voorbeeld:** Als een bestaand project al een aangepast formulier heeft en er meer aangepaste velden nodig zijn voor dit project, dat op een ander aangepast formulier staat, kunt u een tweede formulier aan het project toevoegen met de aanvullende velden in plaats van de velden toe te voegen aan het bestaande aangepaste formulier.
+**Voorbeeld:** als een bestaand project reeds een douanevorm heeft, en meer douanegebieden voor dit project nodig zijn, die op een andere douanevorm bestaan, kunt u een tweede vorm aan het project met de extra gebieden toevoegen, eerder dan de gebieden aan de bestaande douanevorm toevoegen.
 
-## Een aangepast formulier bulksgewijs aan meerdere objecten toevoegen
+## Een aangepast formulier in bulk toevoegen aan meerdere objecten
 
 U kunt aangepaste formulieren aan meerdere objecten toevoegen door deze in een lijst te selecteren.
 
@@ -125,25 +125,25 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Het toevoegen van aangepaste formulieren aan objecten is hetzelfde voor alle objecten, behalve voor projecten.
 >
->Zie het artikel voor informatie over het bulksgewijs toevoegen van aangepaste formulieren aan projecten [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
+>Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 
 1. Blader naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.
 
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op de knop **Bewerken** pictogram  ![](assets/edit-icon.png).
+1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **geef** pictogram ![](assets/edit-icon.png) uit.
 
-   of
+   Of
 
-   Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
-1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. in de **Een selectie maken** selecteert u het formulier dat u aan alle geselecteerde objecten wilt koppelen.
+   Klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
+1. Klik **Aangepaste Forms** in het linkerpaneel.
+1. in **maak een selectie** drop-down menu, selecteer de vorm u met alle geselecteerde voorwerpen wilt associëren.
 
    >[!NOTE]
    >
    >Als u het formulier niet kunt vinden in het vervolgkeuzemenu, betekent dit dat aan ten minste een van de objecten het formulier al is gekoppeld. Bepaal welk object dat is en verwijder het uit de selectie voordat u het formulier aan de overige objecten kunt toevoegen.
 
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    Als het formulier verplichte velden bevat (gemarkeerd met een rood sterretje), hoeft u deze momenteel niet in te vullen.

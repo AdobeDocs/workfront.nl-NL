@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 29 november 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Adobe PDF Services is nu beschikbaar in Workfront Fusion
 
@@ -40,4 +40,4 @@ Met de Adobe PDF-gereedschapsmodules kunt u:
 * Een PDF wijzigen door bepaalde pagina&#39;s te verwijderen of te roteren
 * Eigenschappen van PDF-bestanden ophalen, zoals aantal pagina&#39;s, versie of versleuteling
 
-Zie voor meer informatie [Adobe PDF Services](../../../workfront-fusion/apps-and-their-modules/pdf-modules.md).
+Voor meer informatie, zie [ de Diensten van Adobe PDF ](../../../workfront-fusion/apps-and-their-modules/pdf-modules.md).

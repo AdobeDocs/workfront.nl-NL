@@ -21,7 +21,7 @@ U kunt informatie op één enkel timesheet uitgeven, of u kunt veelvoudige times
 
 >[!IMPORTANT]
 >
->Als gebruikers zijn gekoppeld aan tijdlijnprofielen en de tijdbladen automatisch worden gegenereerd, weerspiegelen de wijzigingen die u aanbrengt in bestaande tijdbladen niet de tijdbladen die worden gegenereerd voor toekomstige datums. Alle automatisch gegenereerde tijdbladen beschikken over de instellingen die zijn vastgelegd in de tijdlijnprofielen. Zie voor meer informatie [Tijdbladprofielen maken](../create-and-manage-timesheets/create-timesheet-profiles.md)
+>Als gebruikers zijn gekoppeld aan tijdlijnprofielen en de tijdbladen automatisch worden gegenereerd, weerspiegelen de wijzigingen die u aanbrengt in bestaande tijdbladen niet de tijdbladen die worden gegenereerd voor toekomstige datums. Alle automatisch gegenereerde tijdbladen beschikken over de instellingen die zijn vastgelegd in de tijdlijnprofielen. Voor meer informatie, zie [ timesheet profielen ](../create-and-manage-timesheets/create-timesheet-profiles.md) creëren
 
 
 ## Toegangsvereisten
@@ -42,38 +42,38 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p><b>OPMERKING</b>
+   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Tijdschema&#39;s bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Timesheets**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Tijdopnemers**.
 
-   De **Alles** Het filter wordt standaard geselecteerd, zodat alle tijdbladen worden weergegeven die u kunt bekijken.
+   Het **Al** filter wordt geselecteerd door gebrek dat alle timesheets toont die u toegang tot mening hebt.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optioneel) Klik op de knop **zoeken** pictogram ![](assets/search-icon.png) en typ een trefwoord en zoek naar een specifieke tijdlijn. U kunt bijvoorbeeld zoeken naar een tijdlijnframe of de naam van de eigenaar.
+1. (Facultatief) klik het **onderzoek** pictogram ![](assets/search-icon.png) en typ een sleutelwoord en onderzoek naar specifieke timesheet. U kunt bijvoorbeeld zoeken naar een tijdlijnframe of de naam van de eigenaar.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om het filter in de lijst met tijdbladen bij te werken:
 
-   * Selecteren **Goedkeuringen van mijn tijdsplaat** in de rechterbovenhoek van de pagina om alleen de door u goedgekeurde tijdbladen weer te geven
+   * Selecteer **Mijn Goedkeuringen van het Chronologie** in de hoger-juiste hoek van de pagina om slechts timesheets te bekijken die u goedkeurt
 
      of
 
-     Selecteren **Mijn tijdbladen** om alleen uw tijdbladen weer te geven.
+     Selecteer **Mijn Chronologie** om slechts uw timesheets te bekijken.
 
      Dit past Mijn Goedkeuringen Timesheet of de Mijn filters Timesheet op de lijst van timesheets toe.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen, of creeer nieuwe. Zie voor informatie over het maken of bijwerken van filters [Filters maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -81,19 +81,19 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >
    >   
    >   
-   * [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Optioneel) Klik op de knop **Weergave** ![](assets/view-icon.png) of **Groepering** ![](assets/grouping.png) pictogrammen om een andere weergave of groep toe te passen of om een nieuwe weergave of groep te maken.
+1. (Facultatief) klik de **Mening** ![](assets/view-icon.png) of **Groepering** ![](assets/grouping.png) pictogrammen om een verschillende mening of groepering toe te passen of nieuwe tot stand te brengen.
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 
-   * [Filters maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [Weergaven maken of bewerken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [ creeer of geef filters in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [ creeer of geef meningen in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Groepen maken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Selecteer een of meerdere tijdbladen en klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst met tijdlijnen.
+1. Selecteer één of verscheidene timesheets, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de timesheet lijst.
 1. Geef de volgende informatie weer of geef deze op:
 
    <table style="table-layout:auto"> 
@@ -101,40 +101,40 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Eigenaar</strong> </td> 
+      <td role="rowheader"><strong> Eigenaar </strong> </td> 
       <td> <p>Dit is de naam van de gebruiker waarvoor timesheet werd gecreeerd. U kunt dit veld niet bewerken. </p> <p>Het veld wordt niet weergegeven wanneer u meerdere tijdbladen selecteert. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Begindatum</strong> </td> 
+      <td role="rowheader"><strong> Datum van het Begin </strong> </td> 
       <td>Dit is de begindatum van het tijdspad.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Einddatum</strong> </td> 
+      <td role="rowheader"><strong> Datum van het Eind </strong> </td> 
       <td> Dit is de einddatum van het tijdschema.</td> 
      </tr>
 <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
+      <td role="rowheader"><strong> Status </strong> </td> 
       <td> Dit is de status van het tijdspad.
       Hieronder vindt u mogelijke statusopties voor tijdschriften: 
-      <ul><li><b>Openen</b>: De tijdpagina is geopend en de uuritems kunnen worden bewerkt.</li>
-      <li><b>Verzonden</b>: Het tijdschema wordt ter goedkeuring voorgelegd aan de aangewezen fiatteurs.</li>
-      <li><b>Geweigerd</b>: De tijdpagina is niet goedgekeurd door de fiatteurs en is nu weer beschikbaar voor de gebruiker om de tijdinvoer te bewerken.</li>
-      <li><b>Gesloten</b>: De tijdpagina wordt gesloten door de gebruiker of goedgekeurd door de fiatteur en wordt daarom nu gesloten. U kunt geen tijd aan een gesloten timesheet toevoegen.</li>
+      <ul><li><b> Open </b>: De timesheet is open en de uuringangen kunnen worden uitgegeven.</li>
+      <li><b> voorgelegd </b>: Tijdschema wordt voorgelegd ter goedkeuring aan de aangewezen fiatteurs.</li>
+      <li><b> Verworpen </b>: Tijdschema werd niet goedgekeurd door de fiatteurs en is nu beschikbaar opnieuw voor de gebruiker om de tijdingangen uit te geven.</li>
+      <li><b> Gesloten </b>: Tijdschema wordt of gesloten door de gebruiker of goedgekeurd door de fiatteur en dientengevolge, is het nu gesloten. U kunt geen tijd aan een gesloten timesheet toevoegen.</li>
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fiatteurs</strong> </td> 
-      <td> <p>Approvers zijn gebruikers die timesheet voor de gebruikers goedkeuren verbonden aan timesheet. Alleen gebruikers met beheerdersrechten voor tijdbladen kunnen als fiatteurs worden ingesteld. </p> <p>Voor meer informatie over administratieve rechten op tijdspagina raadpleegt u <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> <p>Voer de namen van de fiatteurs van de tijdpagina in en selecteer deze wanneer ze in de lijst worden weergegeven.</p> <p>U kunt veelvoudige fiatteurs op een timesheet hebben. In dat geval wordt het tijdspad, nadat een van de fiatteurs het tijdsplaat heeft goedgekeurd, als volgt gemarkeerd <strong>Gesloten</strong> en verdwijnt uit de lijst van goedkeuringen volgens het tijdschema van alle resterende fiatteurs.</p> </td> 
+      <td role="rowheader"><strong> Approvers </strong> </td> 
+      <td> <p>Approvers zijn gebruikers die timesheet voor de gebruikers goedkeuren verbonden aan timesheet. Alleen gebruikers met beheerdersrechten voor tijdbladen kunnen als fiatteurs worden ingesteld. </p> <p>Voor meer informatie over timesheet administratieve rechten, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> <p>Voer de namen van de fiatteurs van de tijdpagina in en selecteer deze wanneer ze in de lijst worden weergegeven.</p> <p>U kunt veelvoudige fiatteurs op een timesheet hebben. In dit geval, nadat één van de fiatteurs timesheet goedkeurt, wordt timesheet duidelijk als <strong> Gesloten </strong> en het verdwijnt van de lijst van timesheet goedkeuringen van alle resterende fiatteurs.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Kan tijd bewerken</strong> </td> 
+      <td role="rowheader"><strong> kan tijd </strong> uitgeven </td> 
       <td> <p>Selecteer deze optie als fiatteurs de uren op het tijdblad mogen bewerken.</p> <p>Deze optie is niet beschikbaar wanneer u meerdere tijdbladen selecteert. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Overwerk</span> </td> 
+      <td role="rowheader"><span style="font-weight: bold;"> Overtime </span> </td> 
       <td> <p>U kunt ervoor kiezen om het vak Overuren op het tijdblad te verbergen.</p> <p>Deze optie is standaard uitgeschakeld.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

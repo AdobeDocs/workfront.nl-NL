@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Elementen en mappen koppelen met de verbeterde aansluiting
 
-U kunt een middel of een omslag van Experience Manager Assets aan om het even welk voorwerp van Workfront verbinden dat documenten steunt. Elementen die vanuit Experience Manager Assets worden verzonden, tellen niet mee voor de totale opslag van documenten in Workfront. Documenten die van Workfront naar Experience Manager Assets zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
+U kunt een middel of een omslag van Experience Manager Assets aan om het even welk voorwerp van Workfront verbinden dat documenten steunt. Assets die vanuit Experience Manager Assets wordt verzonden, telt niet mee voor uw totale documentopslag in Workfront. Documenten die van Workfront naar Experience Manager Assets zijn geüpload en verzonden, tellen wel mee voor de totale opslag.
 
 ## Toegangsvereisten
 
@@ -38,16 +38,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang of hoger weergeven op een document</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang of hoger weergeven op een document</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
@@ -57,15 +57,15 @@ Voordat u begint, moet u
 
 ## Middelen van Experience Manager Assets koppelen
 
-U kunt middelen van Experience Manager Assets aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
+U kunt een middel van Experience Manager Assets aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
 
-* [Een gekoppeld element proefdrukken voor Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [ Bewijs van een verbonden activa voor Experience Manager Assets ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Een nieuwe versie van een document uploaden](../../../documents/managing-documents/upload-new-document-version.md)
 
 Een element koppelen aan Experience Manager Assets:
 
-1. Ga naar de **Documenten** in Workfront waar u het document wilt toevoegen.
-1. Klikken **Nieuw toevoegen** en kiest u vervolgens de Experience Manager Assets-integratie die uw beheerder heeft ingesteld.
+1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
+1. Klik **toevoegen nieuw**, dan kies de integratie van Experience Manager Assets uw beheerderopstelling.
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ Een element koppelen aan Experience Manager Assets:
 
    ![](assets/select-an-asset.png)
 
-1. Klikken **Koppeling**.
+1. Klik **Verbinding**.
 
 ## Een map koppelen vanuit Experience Manager Assets
 
@@ -83,8 +83,8 @@ Rechten om afzonderlijke elementen in een map weer te geven, zijn afhankelijk va
 
 Een map koppelen aan Experience Manager Assets:
 
-1. Ga naar de **Documenten** in Workfront waar u het document wilt toevoegen.
-1. Klikken **Nieuw toevoegen** en kiest u vervolgens de Experience Manager Assets-integratie die uw beheerder heeft ingesteld.
+1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
+1. Klik **toevoegen nieuw**, dan kies de integratie van Experience Manager Assets uw beheerderopstelling.
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Een map koppelen aan Experience Manager Assets:
 
    ![](assets/select-a-folder.png)
 
-1. Klikken **Koppeling**.
+1. Klik **Verbinding**.
 
 ## Een nieuwe versie koppelen vanuit Experience Manager Assets
 
@@ -102,13 +102,13 @@ U kunt een nieuw element uit Experience Manager Assets halen en het aan een best
 
 >[!TIP]
 >
->U kunt alle versies van een element weergeven als u naar **Documentdetails** > **Versies**.
+>U kunt alle versies van activa bekijken als u **Details van het Document** > **Versies** gaat.
 
 Een nieuwe versie koppelen vanuit Experience Manager Assets:
 
-1. Ga naar de **Documenten** in Workfront waar u het document wilt toevoegen.
+1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
 1. Selecteer het element dat u wilt vervangen door een nieuwe versie. U kunt geen nieuwe versie van een middel in een verbonden omslag tot stand brengen.
-1. Klikken **Nieuw toevoegen** en kiest u vervolgens de Experience Manager Assets-integratie die uw beheerder heeft ingesteld.
+1. Klik **toevoegen nieuw**, dan kies de integratie van Experience Manager Assets uw beheerderopstelling.
 
    >[!NOTE]
    >
@@ -118,4 +118,4 @@ Een nieuwe versie koppelen vanuit Experience Manager Assets:
 
    ![](assets/select-an-asset.png)
 
-1. Klikken **Koppeling**.
+1. Klik **Verbinding**.

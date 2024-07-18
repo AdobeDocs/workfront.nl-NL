@@ -2,28 +2,28 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: De Workfront for Adobe Experience Manager verbeterde connector verwijderen
-description: U moet de Workfront met Adobe Experience Manager verbeterde connector verwijderen voor de meest recente native integratie die Workfront en Adobe Experience Manager Assets as a Cloud Service verbindt.
+description: U moet de installatie van de Workfront met Adobe Experience Manager Enhanced-aansluiting ongedaan maken voor de meest recente geïntegreerde verbinding tussen Workfront en Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
 # De Workfront verwijderen met de Adobe Experience Manager Enhanced-aansluiting
 
-U moet de Workfront met Adobe Experience Manager verbeterde connector verwijderen voor de meest recente native integratie die Workfront en Adobe Experience Manager Assets as a Cloud Service verbindt.
+U moet de installatie van de Workfront met Adobe Experience Manager Enhanced-aansluiting ongedaan maken voor de meest recente geïntegreerde verbinding tussen Workfront en Adobe Experience Manager Assets as a Cloud Service.
 
 ## Vereisten
 
-* (Optioneel) Herstel indien nodig de wijzigingen die zijn aangebracht in de configuratie van de Workfront-firewall en AEM de verzendinstellingen.
+* (Optioneel) Herstel indien nodig de wijzigingen die zijn aangebracht in de configuratie van de Workfront-firewall en de AEM-verzendinstellingen.
 
 ## De verbeterde aansluiting verwijderen
 
-1. Open en kloon uw AEM as a Cloud Service opslagplaats vanuit Cloud Manager.
+1. Open en kloon uw AEM as a Cloud Service-opslagplaats vanuit Cloud Manager.
 
 1. Open de gekloonde opslagplaats voor kompassen in de IDE van uw keuze.
 
@@ -51,7 +51,7 @@ U moet de Workfront met Adobe Experience Manager verbeterde connector verwijdere
    >
    >Controleer of de versie waarnaar in het bovenstaande codeblok wordt verwezen, namelijk 1.8.0, de versie weergeeft die uit de code wordt verwijderd.
 
-1. Verwijder het volgende gebiedsdeel uit het pom.xml- dossier van genoemde submodule van het project **alles**.
+1. Verwijder het volgende gebiedsdeel uit het pom.xml- dossier van submodule van het project genoemd **allen**.
 
    ```
    <!-- Workfront Tools -->
@@ -102,6 +102,6 @@ U moet de Workfront met Adobe Experience Manager verbeterde connector verwijdere
        </server>
    ```
 
-1. De wijzigingen vastleggen en de code doorsturen naar de gegevensopslagruimte van Cloud Manager
+1. Leg de wijzigingen vast en druk de code naar de Cloud Manager-opslagplaats
 
-1. Voer de pijplijn van de Manager van de Wolk in werking om de veranderingen op uw instantie van Cloud Services op te stellen
+1. Voer de Cloud Manager-pijplijn uit om de wijzigingen op uw Cloud Servicen-instantie te implementeren

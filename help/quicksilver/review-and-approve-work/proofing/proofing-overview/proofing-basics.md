@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Proofingoverzicht
 
-* [Overzicht van machtigingsprofiel proefdrukken](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
-* [Overzicht van proefrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-* [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
-* [Overzicht van geautomatiseerde werkstroomfasen](../../../review-and-approve-work/proofing/proofing-overview/stages.md)
-* [Kennisgevingen met betrekking tot opmerkingen ter staving en besluiten](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
-* [Overzicht van proefdrukken van interactieve inhoud](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
-* [Documentverwerking voor proefdrukken](../../../review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
-* [Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
-* [Overzicht van proefdrukken van beveiliging](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
+* [ overzicht van het Profiel van de Toestemming van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
+* [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [ Geautomatiseerd Overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [ Geautomatiseerd overzicht van de Staven van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/stages.md)
+* [ Meldingen voor het proefdrukcommentaren en besluitoverzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+* [ Interactieve inhoudsproefdrukken ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
+* [ het herverwerken van het Document voor het proef overzicht ](../../../review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
+* [ Ondersteunde het proef van dossiertypes en groottegrenzen overzicht ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
+* [ overzicht van de veiligheid van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
 * [Voortgangsstatus en overzicht van proefdrukken](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
 * [Verschillen tussen de webtestviewer en het overzicht van de Desktop Proofing Viewer](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)

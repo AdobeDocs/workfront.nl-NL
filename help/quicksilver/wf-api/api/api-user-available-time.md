@@ -26,11 +26,11 @@ Het gebruikers beschikbare tijdeindpunt wint gegevens over de beschikbare tijd v
 
 ## Parameters aanvragen
 
-* **userIDs**: array van tekenreeksen. Vereist. Voorbeeld: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
+* **userIDs**: serie van koorden. Vereist. Voorbeeld: `"61a9cc0500002f9fdaa7a6f824f557e1"` .
 
-* **fromDate**: datetime. tekenreeks. Vereist. Voorbeeld:  `"2022-07-10T00:00:00"`.
+* **fromDate**: datetime. tekenreeks. Vereist. Voorbeeld: `"2022-07-10T00:00:00"` .
 
-* **toDate**: datetime. tekenreeks. Vereist. Voorbeeld `"2022-07-20T23:59:59"`.
+* **toDate**: datetime. tekenreeks. Vereist. Voorbeeld `"2022-07-20T23:59:59"` .
 
 ## Voorbeeld van reactie:
 
@@ -76,4 +76,4 @@ Het gebruikers beschikbare tijdeindpunt wint gegevens over de beschikbare tijd v
 ## Responsparameters
 
 * **AVL**: Werkelijke beschikbare uren. Array met getallen.
-* **PAVL**: Zuiver beschikbare uren voor het plannen die geen niet-werkdagen of gebruikerstijd weg omvatten. String.
+* **PAVL**: Zuiver beschikbare uren voor het plannen die niet niet-werkende dagen of gebruikerstijd van omvatten. String.

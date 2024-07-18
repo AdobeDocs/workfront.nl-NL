@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen. U kunt voor kwesties toestaan om in een project worden gemaild slechts als het project als Rij van het Verzoek wordt aangewezen. Voor meer informatie over het creëren van een project van de Rij van het Verzoek, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen. U kunt voor kwesties toestaan om in een project worden gemaild slechts als het project als Rij van het Verzoek wordt aangewezen. Voor meer informatie over het creëren van een project van de Rij van het Verzoek, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Toegangsvereisten
 
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot problemen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,7 +53,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
@@ -80,12 +80,12 @@ Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen
 >Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
-1. Klikken **Wachtrij** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** eerst.
-1. In de **Type wachtrij** gebied, selecteren **Publish as Help Request-wachtrij**.
+1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **tonen meer** eerst.
+1. In het **gebied van het Type van Rij 0}, uitgezochte** Publish als Rij van het Verzoek van de Hulp **.**
 
-1. Omlaag schuiven naar de **E-mailwachtrijinstellingen** gebied, selecteert u vervolgens **Aanvraag via e-mail inschakelen**.
+1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
-1. Voer het begin van het e-mailadres in het dialoogvenster **E-mailadres invoegen** doos.
+1. Ga het begin van het e-mailadres in het **Inname E-mailadres** vakje in.
 
    U moet een uniek e-mailadres maken. We raden u aan uw bedrijfsnaam te gebruiken als onderdeel van uw e-mailadres voor inname.
 
@@ -98,11 +98,11 @@ Aan deze voorwaarden moet worden voldaan voordat u deze functie kunt inschakelen
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Optioneel) Selecteer de optie **Alle problemen doorsturen die niet via e-mail worden verzonden**, dan ga een door:sturen e-mailadres in de doos hieronder in.
+1. (Facultatief) selecteer **door:sturen alle kwesties die er niet in slagen via e-mail** voor te leggen, dan ga een het door:sturen e-mailadres in de doos hieronder in.
 
    Dit e-mailadres ontvangt informatie over e-mailberichten die niet zijn verzonden naar het project.
 
-1. Klikken **Opslaan**. Wanneer gebruikers met een actieve Workfront-account nu een e-mail naar dit e-mailadres sturen, wordt er een uitgave gemaakt in het Workfront-project.
+1. Klik **sparen**. Wanneer gebruikers met een actieve Workfront-account nu een e-mail naar dit e-mailadres sturen, wordt er een uitgave gemaakt in het Workfront-project.
 
    >[!NOTE]
    >

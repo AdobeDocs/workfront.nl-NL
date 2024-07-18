@@ -25,7 +25,7 @@ U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront beki
 * In de Gantt-grafiek
 * In de sectie Predecessors van een afhankelijke taak
 
-Zie voor meer informatie [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
@@ -56,31 +56,31 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront. Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een voorganger maken
 
 1. Ga naar een project.
-1. Klikken **Taken** in het linkerdeelvenster.
-1. Zorg ervoor dat de huidige weergave de **Voorganger** kolom.
+1. Klik **Taken** in het linkerpaneel.
+1. Zorg ervoor dat uw huidige mening de **Predecessor** kolom toont.
 
    Als de mening niet de kolom van Predecessors toont, verander in een mening die, of voeg de kolom aan uw mening toe.
 
 1. Selecteer de taak die u als afhankelijke taak wilt aanwijzen.
-1. Klik in het dialoogvenster **Predecessors** kolom.
-1. Typ het taakaantal dat u als voorganger van de geselecteerde taak wilt aanwijzen, dan druk **Enter**.
+1. Klik binnen de **Predecessors** kolom.
+1. Typ het taakaantal dat u als voorganger van de geselecteerde taak wilt aanwijzen, dan druk **binnengaan**.
 
    >[!TIP]
    >
    >Ga als volgt te werk om een voorganger voor meerdere projecten toe te voegen:
    >
-   >1. Klik op de knop **Abonnementsmodus** pictogram en kies **Automatisch opslaan**.
+   >1. Klik het **pictogram van de Wijze van het Plan** en kies **Autosave**.
    >
    >1. Typ het referentienummer van het project van de voorganger gevolgd door een dubbele punt en het nummer van de taak. Bijvoorbeeld: 765021:12. Dit wijst erop dat het Aantal van de Verwijzing van het project van de voorganger 765021 is en voorganger taaantal 12 op het project is.
    >
-   >1. Voeg het gebiedstype voor deze voorganger toe. Zie voor meer informatie [Predecessors voor meerdere projecten maken](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >1. Voeg het gebiedstype voor deze voorganger toe. Voor meer informatie, zie [ tot dwars-project predecessors ](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
    >
-   >Druk **Enter**.
+   >Pers **gaat** binnen.
    >
    >**BELANGRIJK**
    >
@@ -88,32 +88,32 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    Het voorgangspictogram wordt groen als de voorganger de markering Voltooid heeft. Dit wijst erop dat de afhankelijke taak klaar voor het werk is.
 
-   Voor meer informatie over de relatietypen beschikbaar in de kolom Predecessors, zie [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   Voor meer informatie over de relatietypen beschikbaar in de kolom Predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Details voorganger weergeven
 
 U kunt snel details over de voorganger bekijken in de takenlijst.
 
-1. Houd de muisaanwijzer in de takenlijst boven het vorige nummer in het dialoogvenster **Predecessors** kolom.
+1. Voor de taaklijst, houd over het voorgangersaantal in de **1} kolom van Predecessors {.**
 
    Er verschijnt een vak met de details van de voorganger.
 
-   ![Details voorganger](assets/predecessor-details-in-task-list.png)
+   ![ Details van de Predecessor ](assets/predecessor-details-in-task-list.png)
 
    De volgende details worden weergegeven:
 
-   **Naam voorganger:** De naam van de voorganger waarnaar wordt verwezen. Het taaknummer van de voorganger wordt opgenomen. Klik op de taaknaam om deze te openen. In het bovenstaande voorbeeld is de voorganger Productie/Uitvoering/Levering.
+   **naam van de Voorganger:** De naam van predecessor die van verwijzingen wordt voorzien. Het taaknummer van de voorganger wordt opgenomen. Klik op de taaknaam om deze te openen. In het bovenstaande voorbeeld is de voorganger Productie/Uitvoering/Levering.
 
-   **Projectnaam:** De naam van het project waar de voorganger verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. In het bovenstaande voorbeeld is de projectnaam Digital Asset Production (Integrated) - Project. Voor meer informatie over predecessors voor meerdere projecten raadpleegt u [Predecessors voor meerdere projecten maken](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **naam van het Project:** De naam van het project waar predecessor verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. In het bovenstaande voorbeeld is de projectnaam Digital Asset Production (Integrated) - Project. Voor meer informatie over dwars-project predecessors, zie [ creëren dwars-project predecessors ](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
-   U kunt de projectdetails uitbreiden om de geplande begin en einddata van het project, voorwaarde, status, volledig percentage, en eigenaar te zien. Voor een cross-project kunt u vervolgens op **Zie Project** om het project te openen.
+   U kunt de projectdetails uitbreiden om de geplande begin en einddata van het project, voorwaarde, status, volledig percentage, en eigenaar te zien. Voor een dwars project, kunt u **dan klikken zie Project** om het project te openen.
 
-   **ID:** Het referentienummer van het project waar de voorganger zich bevindt.
+   **identiteitskaart:** het aantal van de Verwijzing van het project waar predecessor wordt gevestigd.
 
-   **Geplande start:** De geplande begindatum van de voorgaande taak.
+   **Geplande Begin:** de Geplande Datum van het Begin van de voorgangstaak.
 
-   **Gepland uiteinde:** De geplande voltooiingsdatum van de voorgangstaak.
+   **Geplande Eind:** de Geplande Datum van de Voltooiing van de voorgangstaak.
 
-   **Aantal voorgangers:** Het aantal voordecessors voor de voorganger waarnaar wordt verwezen. In het bovenstaande voorbeeld heeft de voorganger waarnaar wordt verwezen 1 voorganger.
+   **Aantal predecessors:** het aantal voordecessors voor voorganger die van verwijzingen worden voorzien. In het bovenstaande voorbeeld heeft de voorganger waarnaar wordt verwezen 1 voorganger.
 
-   **Aantal opvolgers:** Het aantal (of afhankelijke) opvolgertaken voor de voorganger waarnaar wordt verwezen. In het bovenstaande voorbeeld heeft de voorganger waarnaar wordt verwezen 1 opvolger.
+   **Aantal opvolgers:** het aantal opvolger (of afhankelijke) taken voor voorganger die van verwijzingen worden voorzien. In het bovenstaande voorbeeld heeft de voorganger waarnaar wordt verwezen 1 opvolger.

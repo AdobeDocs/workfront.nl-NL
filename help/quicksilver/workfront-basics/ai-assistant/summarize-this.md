@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: bddf7a2a9c3e8732bbced042e6fdc28b440870c4
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -30,21 +31,16 @@ In de AI-assistent kunt u de volgende objecten samenvatten:
 >
 >De functies voor het samenvatten van AI-assistent verschillen van die in het deelvenster Samenvatting.
 >
->Voor informatie over het deelvenster Samenvatting in Workfront raadpleegt u [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Voor informatie over het Summiere paneel in Workfront, zie [ Overzicht Overzicht ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Een object samenvatten
 
 Een overzicht van een object weergeven:
 
 1. Navigeer naar het object waarvoor u een overzicht wilt weergeven.
-1. Klik op de knop **AI-assistent** pictogram ![AI Assistant-pictogram](assets/ai-assistant-icon.png) in de rechterbovenhoek van het scherm.
-1. Klik in het deelvenster AI Assistant op **Hierin samenvatten**.
+1. Klik het **pictogram AI van de Medewerker ![ AI Medewerker pictogram ](assets/ai-assistant-icon.png) dichtbij de hoger-juiste hoek van het scherm.**
+1. In het AI Hulppaneel, klik **vat dit** samen.
 
    Het kan enige tijd duren voordat de samenvatting wordt gegenereerd, afhankelijk van de grootte of complexiteit van het object.
 
 1. Bekijk het AI overzicht in het AI Hulppaneel.
-
-
-
-
-

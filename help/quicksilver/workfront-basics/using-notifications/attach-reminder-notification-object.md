@@ -18,7 +18,7 @@ ht-degree: 0%
 
 U kunt herinneringsberichten met verscheidene verschillende objecten types associëren: Projecten, Taken, Kwesties, Tijdopnamen, Malplaatjes, de Taken van het Malplaatje, en het Terugkeren de Profielen van de Chronologie.
 
-Voordat u herinneringsberichten aan een object kunt koppelen, [!DNL Adobe Workfront] de beheerder moet de melding maken, zoals beschreven in [Herinneringsmeldingen instellen](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Alvorens u herinneringsberichten aan een voorwerp kunt vastmaken, moet een [!DNL Adobe Workfront] beheerder het bericht tot stand brengen, zoals die in [ de herinneringsberichten van de Opstelling ](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md) wordt beschreven.
 
 De stappen voor het bijvoegen van herinneringsberichten zijn hetzelfde, ongeacht het objecttype waaraan u ze koppelt.
 
@@ -42,31 +42,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Toegang tot het object beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het object beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Herinneringsmeldingen aan een object koppelen
 
 1. Ga naar het object waar u de herinneringsmelding wilt bijvoegen.
-1. Klik op het pictogram Bewerken ![](assets/edit-icon.png).
-1. In het linkerdeelvenster van het dialoogvenster **[!UICONTROL Edit]** vak dat wordt weergegeven, klikt u op **[!UICONTROL Settings]**.
+1. Klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. Klik in het linkerdeelvenster van het vak **[!UICONTROL Edit]** dat wordt weergegeven op **[!UICONTROL Settings]** .
 
-1. Onder **[!UICONTROL Reminder Notification]** selecteert u de meldingen die u aan het object wilt koppelen.
+1. Selecteer onder **[!UICONTROL Reminder Notification]** de meldingen die u aan het object wilt koppelen.
 
    In dit voorbeeld is het object dat wordt bewerkt een taak:
 
    ![](assets/reminder-notification-select-one-350x213.png)
 
-   Als de [!DNL Workfront] beheerder heeft meerdere herinneringsmeldingen gemaakt. U kunt meerdere meldingen aan één object koppelen.
+   Als de [!DNL Workfront] -beheerder meerdere herinneringsmeldingen heeft gemaakt, kunt u meerdere meldingen aan één object koppelen.
 
 1. Klik op **[!UICONTROL Save Changes]**.
 
-   Als u hulp nodig hebt bij het testen van de levering van een herinnering, raadpleegt u uw [!DNL Workfront] beheerder.
+   Raadpleeg de [!DNL Workfront] beheerder als u hulp nodig hebt bij het testen van de levering van een herinneringsmelding.

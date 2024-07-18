@@ -41,26 +41,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Toon de ouder-kind verhouding in een taak door de taken in te springen
 
 1. Ga naar het project met de taaklijst u zou willen uitvoeren.
-1. Klik op de knop **Weergave** en selecteert u **Nieuwe weergave**.
+1. Klik het **drop-down menu van de Mening**, en selecteer **Nieuwe Mening**.
 
 1. Geef het filter een naam in de linkerbovenhoek van het scherm.
-1. Klik in het dialoogvenster **Taaknaam** kolomkop.
+1. Klik in de **kolomkopbal 0} Naam van de Taak {.**
 
-1. Selecteren **Overschakelen naar tekstmodus** in de rechterbovenhoek.
+1. Selecteer **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek.
 1. Klik ergens in het tekstvak om tekst te bewerken en alle bestaande tekst te verwijderen.
 1. Plak de volgende tekst:
 
@@ -75,5 +75,5 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    valueformat=HTML
 ```
 
-1. Klikken **Opslaan**.
-1. Klikken **Weergave opslaan**.
+1. Klik **sparen**.
+1. Klik **sparen Mening**.

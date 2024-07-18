@@ -23,13 +23,13 @@ Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging 
 
 Lees de volgende artikelen om meer inzicht te krijgen in kalenderrapporten in Adobe Workfront:
 
-* [Overzicht van kalenderrapporten](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
-* [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Gebruiken [!UICONTROL Planned Dates] in een kalenderverslag](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Gebruiken [!UICONTROL Projected Dates] in een kalenderverslag](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-* [Kalenderrapporten en gebeurtenisdetails weergeven](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
-* [Een kalenderrapport delen](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
-* [Een bestaand kalenderrapport bewerken](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md)
-* [Een kalenderrapport verwijderen](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
-* [Een kalenderrapport kopiëren](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
+* [ overzicht van de rapporten van de Kalender ](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
+* [ de gebieden van de douanedatum van het Gebruik in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+* [ Gebruik [!UICONTROL Planned Dates] in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [ Gebruik [!UICONTROL Projected Dates] in een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [ de kalenderrapporten van de Mening en gebeurtenisdetails ](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
+* [ Deel een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+* [ geef een bestaand kalenderrapport ](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md) uit
+* [ Schrap een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
+* [ Kopieer een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
 * [Ad-hocgebeurtenissen toevoegen aan een kalenderrapport](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)

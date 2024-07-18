@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [ 23.2 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Workfront-veldwaarden toewijzen aan labels in Experience Manager Assets
 
@@ -25,9 +25,9 @@ Nu kunt u elementen categoriseren en snel zoeken op basis van gegevens van Workf
 
 Eerder was het niet mogelijk om Workfront-gegevens toe te wijzen aan Experience Manager Assets-tags.
 
-Voor meer informatie over deze functionaliteit in Experience Manager Assets as a Cloud Service, [Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Voor meer informatie over deze functionaliteit in as a Cloud Service Experience Manager Assets, [ vorm de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-Voor meer informatie over deze functionaliteit in Experience Manager Assets Essentials, [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Voor meer informatie over deze functionaliteit in de Hoofdzaak van Experience Manager Assets, [ vorm de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Aangepaste formulieren maken met de nieuwe bètaversie van de formulierontwerper
 
@@ -35,20 +35,20 @@ De nieuwe formulierontwerper is nu beschikbaar in een openbare bètaversie en he
 
 Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om
 
-* **Een veld kopiëren**: U kunt nu bestaande velden kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.
+* **Kopieer een gebied**: U kunt bestaande gebieden nu kopiëren door op het pictogram van het Exemplaar op de gebieden direct van het canvas te klikken.
 
-* **Standaardsectie gebruiken**: Als de maker van het formulier geen sectie boven aan het formulier heeft toegevoegd, wordt nu een sectie Standaard weergegeven op het canvas, zodat gebruikers de machtigingen kunnen aanpassen voor velden waaraan geen aangepaste sectie is toegewezen.
+* **Gebruik een Standaardsectie**: Als de vormschepper geen sectie bij de bovenkant van de vorm heeft toegevoegd, is een Standaardsectie nu zichtbaar in het canvas, zodat de gebruikers de toestemmingen voor gebieden kunnen aanpassen die geen toegewezen douanesectie hebben.
 
-* **De grootte voor beschrijvende tekst wijzigen**: U kunt nu kleine, middelgrote of grote grootten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk uitgesteld, maar komt binnenkort.</span></li>
+* **Verandering de grootte voor Omschrijvende teksten**: U kunt kleine, middelgrote, of grote grootte aan Beschrijvende tekstgebieden nu toewijzen. U kunt ze ook op dezelfde rij gebruiken met andere velden. <span style="color: #ff0000;"> Het wijzigen van de grootte van de beschrijvende tekst is tijdelijk vertraagd, maar wordt binnenkort uitgevoerd. </span></li>
 
-Zie voor meer informatie [Overzicht van de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+Voor meer informatie, zie [ Overzicht van de ontwerper van de Vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3416586/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Naam van punten in lay-outsjabloon wijzigen
 
 U kunt nu de namen van punten in een lay-outsjabloon wijzigen zodat deze voor uw gebruikers betekenisvoller worden in plaats van de standaardnaam voor de vastgezette pagina te gebruiken. Punten die beheerders maken, worden weergegeven voor alle gebruikers die aan de lay-outsjabloon zijn toegewezen en gebruikers kunnen de naam van die punten niet wijzigen.
 
-Zie voor meer informatie [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Voor meer informatie over hoe gebruikers de naam van hun persoonlijke vastgezette pagina&#39;s kunnen wijzigen, raadpleegt u [Pagina&#39;s vastzetten om uw werkruimte aan te passen](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+Voor meer informatie, zie [ vastgezette pagina&#39;s aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Voor details over hoe de gebruikers hun persoonlijke vastgezette pagina&#39;s kunnen anders noemen, zie [ Vastzetten pagina&#39;s om uw werkruimte ](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md) aan te passen.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3414364/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3414364/){target=_blank}

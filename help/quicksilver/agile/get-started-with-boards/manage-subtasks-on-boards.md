@@ -8,16 +8,16 @@ feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Subtaken beheren op tekengebieden
 
-Het gebruiken van subtaken op kaarten staat u toe om een ouder-kind verhouding tussen taken te vestigen en een hiërarchie van het werk tot stand te brengen. Een subtaak die u toevoegt aan een kaart op een Workfront-board, wordt ook toegevoegd aan de taak in het Workfront-project. Voor meer informatie over subtaken en taken op het projectniveau, zie [Subtaken maken](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+Het gebruiken van subtaken op kaarten staat u toe om een ouder-kind verhouding tussen taken te vestigen en een hiërarchie van het werk tot stand te brengen. Een subtaak die u toevoegt aan een kaart op een Workfront-board, wordt ook toegevoegd aan de taak in het Workfront-project. Voor meer informatie over subtaken en taken op het projectniveau, zie [ subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) creëren.
 
-Subtaken zijn alleen beschikbaar op verbonden kaarten en zijn niet beschikbaar op uitgaven. Zie voor informatie over aangesloten kaarten [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Subtaken zijn alleen beschikbaar op verbonden kaarten en zijn niet beschikbaar op uitgaven. Voor informatie over verbonden kaarten, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Toegangsvereisten
 
@@ -40,36 +40,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een subtaak toevoegen aan een kaart
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klik op de kaart om de [!UICONTROL Card Details] doos.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik op de kaart om het vak [!UICONTROL Card Details] te openen.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Edit]**.
 
-   Eventuele bestaande subtaken voor deze taak worden weergegeven op de kaart in de sectie Subtaak, boven de items in de controlelijst. Klik op de knop [!UICONTROL **Zoeken**] pictogram om naar een subtaak te zoeken.
+   Eventuele bestaande subtaken voor deze taak worden weergegeven op de kaart in de sectie Subtaak, boven de items in de controlelijst. Klik het [!UICONTROL **pictogram van het Onderzoek**] aan onderzoek naar een subtask.
 
-1. Als u een nieuwe subtaak wilt toevoegen, klikt u [!UICONTROL **Subtaak toevoegen**]. Dan, typ de titel van subtask en druk binnengaan.
+1. Om nieuwe subtask toe te voegen, klik [!UICONTROL **toevoegen Subtask**]. Dan, typ de titel van subtask en druk binnengaan.
 
    De teller bij de bovenkant van de lijst toont het aantal voltooide subtaken en het totale aantal subtaken.
 
-1. Klikken ![Details, pictogram](assets/checklist-chevron.png) om het vak met details voor de subtaak te openen. De naam van de subtaak wordt bovenaan weergegeven.
+1. Klik ![ pictogram van Details ](assets/checklist-chevron.png) om de doos van subtask details te openen. De naam van de subtaak wordt bovenaan weergegeven.
 1. (Optioneel) Voeg de details van de subtaak toe.
 
-   Deze informatie wordt ook toegevoegd aan de subtaak in de [!DNL Workfront] project.
+   Deze informatie wordt ook toegevoegd aan de subtaak in het [!DNL Workfront] -project.
 
-   Alle velden voor een aangesloten kaart zijn beschikbaar op de subtaakdetails, inclusief extra subtaken. Zie voor informatie over deze velden [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Alle velden voor een aangesloten kaart zijn beschikbaar op de subtaakdetails, inclusief extra subtaken. Voor informatie over om het even welk van deze gebieden, zie [ Verbonden kaarten van het Gebruik op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Klikken **[!UICONTROL Close]** om terug te keren naar de kaartdetails en de volledige lijst van subtaken.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de kaartdetails en de volledige lijst met subtaken.
 
    U kunt de broodkruimels bij de bovenkant van de subtask details ook gebruiken om in de hiërarchie te navigeren.
 
    De toegewezen personen en de vervaldatum worden weergegeven in de subtaak in de lijst.
 
-1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op het item en selecteer **[!UICONTROL Copy]**.
+1. Om een subtask te kopiëren, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op het punt en selecteer **[!UICONTROL Copy]**.

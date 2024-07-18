@@ -33,7 +33,7 @@ Nadat de accountmigratie is voltooid, gaan we al uw bestanden van ons Amerikaans
 
 Nadat de migratie is voltooid, hebben u en uw gebruikers alleen toegang tot bestanden en proefdrukken vanuit het EMEA-datacenter. 
 
-## Wat gebeurt er met de URL die ik gebruik om toegang te krijgen tot Workfront Proof?
+## Wat gebeurt er met de URL die ik gebruik voor toegang tot Workfront Proof?
 
 Om migratie mogelijk te maken, moet de URL die u gebruikt om toegang te krijgen tot het systeem veranderen van proofhq.com in proofhq.eu. Iedereen die de oude proofhq.com URL na de migratie gebruikt, ontvangt een bericht met de nieuwe aanmeldingskoppeling:
 

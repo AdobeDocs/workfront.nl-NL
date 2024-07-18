@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Het gebied Mijn updates gebruiken
-description: U kunt de [!UICONTROL My Updates] om snel de goedkeuringen te bekijken die op uw besluit wachten of de gesprekken u inbegrepen bent.
+description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te herzien die op uw besluit wachten of de gesprekken u in inbegrepen bent.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Gebruik de [!UICONTROL My Updates] gebied
+# Het [!UICONTROL My Updates] -gebied gebruiken
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
 -->
 
-U kunt de [!UICONTROL My Updates] om snel de goedkeuringen te bekijken die op uw besluit wachten of de gesprekken u inbegrepen bent.
+U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te herzien die op uw besluit wachten of de gesprekken u in inbegrepen bent.
 
-Als gebruiker met een [!UICONTROL Review] licentie, kunt u de [!UICONTROL My Updates] in het gebied [!UICONTROL Main Menu] standaard en de [!UICONTROL My Updates] gebied is de standaardbestemmingspagina voor u.
+Als gebruiker met een [!UICONTROL Review] -licentie kunt u standaard het [!UICONTROL My Updates] -gebied in de [!UICONTROL Main Menu] vinden en is het [!UICONTROL My Updates] -gebied de standaardbestemmingspagina voor u.
 
-Voor informatie over [!DNL Adobe Workfront] licenties, zie [[!DNL Adobe Workfront] overzicht van licenties](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+Voor informatie over [!DNL Adobe Workfront] vergunningen, zie [[!DNL Adobe Workfront]  overzicht van vergunningen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Als u een ander licentietype hebt dan Revisie, kunt u de instelling [!DNL Workfront] of de groepsbeheerder moet de [!UICONTROL My Updates] aan uw lay-outmalplaatje om het in het Belangrijkste Menu te tonen. Zie voor meer informatie [De [!UICONTROL Main Menu] een lay-outsjabloon gebruiken](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Als u een ander licentietype hebt dan Revisie, moet de beheerder van [!DNL Workfront] of Groep het [!UICONTROL My Updates] -gebied aan uw lay-outsjabloon toevoegen om het in het hoofdmenu weer te geven. Voor informatie, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Toegangsvereisten
 
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
    <td> <p>Nieuw: Medewerker of hoger</p>
    of   
-   <p>Huidige: [!UICONTROL Request] of hoger</p> </td> 
+   <p>Huidig: [!UICONTROL Request] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
@@ -56,37 +56,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw [!DNL Workfront] beheerder. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
 U moet het volgende hebben voordat u begint:
 
-* Als u een [!DNL Workfront] andere vergunning dan [!UICONTROL Review], uw [!DNL Workfront] of de groepsbeheerder moet de [!UICONTROL My Updates] aan de [!UICONTROL Main Menu] een lay-outsjabloon gebruiken en u toewijzen aan die sjabloon.
+* Als u een andere [!DNL Workfront] licentie dan [!UICONTROL Review] hebt, moet uw [!DNL Workfront] - of groepsbeheerder het [!UICONTROL My Updates] -gebied aan de [!UICONTROL Main Menu] toevoegen met behulp van een lay-outsjabloon en u toewijzen aan die sjabloon.
 
-* Gebruikers met een revisielicentie kunnen de [!UICONTROL My Updates] gebied in hun [!UICONTROL Main Menu] standaard.
+* Gebruikers met een revisie-licentie kunnen het [!UICONTROL My Updates] -gebied standaard in hun [!UICONTROL Main Menu] weergeven.
 
-## Toegang krijgen tot de [!UICONTROL My Updates] gebied
+## Het [!UICONTROL My Updates] -gebied openen
 
-1. Klikken **[!UICONTROL My Updates]** in de **[!UICONTROL Main Menu]**.
+1. Klik op **[!UICONTROL My Updates]** in de **[!UICONTROL Main Menu]** .
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
-   De [!UICONTROL My Updates] wordt geopend.
+   Het gebied [!UICONTROL My Updates] wordt geopend.
 
-   De goedkeuringen en verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn updates**.
+   De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Optioneel) Schuif naar de onderkant van het dialoogvenster [!UICONTROL My Updates] en klik op de pijl naar rechts om meer goedkeuringen weer te geven die op extra pagina&#39;s worden weergegeven.
+1. (Optioneel) Blader naar de onderkant van het [!UICONTROL My Updates] -gebied en klik op de naar rechts wijzende pijl om meer goedkeuringen weer te geven die op extra pagina&#39;s worden weergegeven.
 
    >[!TIP]
    >
-   >De eerste vijf goedkeuringen of verzoeken om toegang tonen door gebrek. De resterende goedkeuringen worden weergegeven op extra pagina&#39;s. U kunt maximaal 2000 goedkeuringen weergeven in de [!UICONTROL My Updates] gebied.
+   >De eerste vijf goedkeuringen of verzoeken om toegang tonen door gebrek. De resterende goedkeuringen worden weergegeven op extra pagina&#39;s. U kunt maximaal 2000 goedkeuringen weergeven in het [!UICONTROL My Updates] -gebied.
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optioneel) Breid de **[!UICONTROL Filter]** vervolgkeuzemenu ![](assets/filter-nwepng.png) in de rechterbovenhoek van het **[!UICONTROL My Updates]** en selecteer een van de volgende opties:
+1. (Optioneel) Vouw het vervolgkeuzemenu **[!UICONTROL Filter]** rechtsboven in de sectie ![](assets/filter-nwepng.png) uit en selecteer een van de volgende opties:**[!UICONTROL My Updates]**
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ U moet het volgende hebben voordat u begint:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
-      <td>Goedkeuringen die aan u worden voorgelegd of aan u door een andere gebruiker worden gedelegeerd. Voor informatie over het delegeren van goedkeuringen, zie <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Goedkeuringsaanvraag delegeren</a>. </td> 
+      <td>Goedkeuringen die aan u worden voorgelegd of aan u door een andere gebruiker worden gedelegeerd. Voor informatie over het delegeren van goedkeuringen, zie <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref"> de goedkeuringsverzoek van de Afgevaardigde </a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
@@ -104,47 +104,47 @@ U moet het volgende hebben voordat u begint:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL My Approvals]</strong></td> 
-      <td> <p>Goedkeuringen ingediend bij u. </p> <p>Voor meer informatie over het goedkeuren van items raadpleegt u <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Goedkeuring van de werkzaamheden </a>.</p> </td> 
+      <td> <p>Goedkeuringen ingediend bij u. </p> <p>Voor meer informatie over het goedkeuren van punten, zie <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref"> het goedkeuren van het werk </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. U kunt als volgt een item goedkeuren of afwijzen of wijzigingen in een document voorstellen voordat u het goedkeurt:
 
-   1. (Optioneel) Klik op de knop **vervolgkeuzelijst** pictogram ![](assets/down-arrow-blue.png) naast je goedkeuringsbesluit (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) en voeg een opmerking toe. Klik vervolgens op **[!UICONTROL Add]**.
+   1. (Facultatief) klik het **drop-down** pictogram ![](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**, **[!UICONTROL Reject]**) en voeg een commentaar toe, dan klik **[!UICONTROL Add]**.
 
       of
 
-      Klikken **[!UICONTROL Skip]** als u geen opmerking wilt invoeren.
+      Klik op **[!UICONTROL Skip]** als u geen opmerking wilt invoeren.
 
       ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
-      >De [!UICONTROL Changes] Deze optie wordt alleen weergegeven voor documentgoedkeuring.
+      >De optie [!UICONTROL Changes] wordt alleen weergegeven voor documentgoedkeuringen.
 
       Afhankelijk van het vervolgkeuzepictogram dat u hebt geselecteerd, wordt het item goedgekeurd, geweigerd of, in het geval van een documentgoedkeuring, goedgekeurd met een aanvraag om aanvullende wijzigingen aan te brengen.
 
       >[!TIP]
       >
-      >Als u geen commentaar aan uw besluit wilt toevoegen, kunt u klikken **[!UICONTROL Approve]**, **[!UICONTROL Reject]**, of **[!UICONTROL Changes]** en het goedkeuringsbesluit onmiddellijk worden genomen.
+      >Als u geen commentaar aan uw besluit wilt toevoegen, kunt u **[!UICONTROL Approve]** klikken, **[!UICONTROL Reject]**, of **[!UICONTROL Changes]** knoop en het goedkeuringsbesluit wordt verleend onmiddellijk.
       >
       >
       >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
-      >Ga voor meer informatie over het goedkeuren van werk naar [Goedkeuring van de werkzaamheden](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >Voor meer informatie over het goedkeuren van het werk, zie [ het goedkeuren van het werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-1. Klikken **[!UICONTROL Grant access]** om het aan u voorgelegde verzoek om toegang te verlenen
+1. Klik op **[!UICONTROL Grant access]** om het aan u verzonden toegangsverzoek te verlenen
 
    of
 
-   Breid uit **[!UICONTROL Change access]** drop-down menu om de gevraagde toegang te wijzigen alvorens u het verleent.
+   Vouw het vervolgkeuzemenu **[!UICONTROL Change access]** uit om de gevraagde toegang te wijzigen voordat u deze verleent.
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. (Optioneel) Klik op **[!UICONTROL Ignore]** om het toegangsverzoek van uw goedkeuringslijst te ontruimen zonder het toe te kennen.
-1. Klikken **[!UICONTROL Delegate my approvals]** om de goedkeuringen te delegeren die aan u worden voorgelegd als u niet voor wat tijd goedkeuringsbesluiten kunt nemen. Voor meer informatie over het delegeren van goedkeuringen, zie [Goedkeuringsaanvraag delegeren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
-1. Naar de **[!UICONTROL Mentions]** onder uw goedkeuringen. Hier, kunt u alle punten bekijken waar u in een gesprek inbegrepen bent geweest.
+1. (Optioneel) Klik op **[!UICONTROL Ignore]** om het toegangsverzoek uit uw goedkeuringslijst te verwijderen zonder het toe te kennen.
+1. Klik op **[!UICONTROL Delegate my approvals]** om de goedkeuringen die u hebt ontvangen te delegeren als u nog enige tijd geen goedkeuringsbeslissingen kunt nemen. Voor meer informatie over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. Blader naar het **[!UICONTROL Mentions]** -gebied onder uw goedkeuringen. Hier, kunt u alle punten bekijken waar u in een gesprek inbegrepen bent geweest.
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
@@ -152,13 +152,13 @@ U moet het volgende hebben voordat u begint:
    >
    >De eerste 50 vermeldingen worden standaard weergegeven.
 
-1. (Optioneel) Klik op **[!UICONTROL Show More Updates]** om meer opmerkingen weer te geven.
-1. (Optioneel) Klik op **[!UICONTROL Reply]** om te reageren op een opmerking en een van de volgende handelingen uit te voeren:
+1. (Optioneel) Klik op **[!UICONTROL Show More Updates]** om meer vermeldingen weer te geven.
+1. (Optioneel) Klik op **[!UICONTROL Reply]** om te reageren op een opmerking en voer een van de volgende handelingen uit:
    * Begin een antwoord te typen
    * Gebruik de werkbalk RTF om uw tekst op te maken, koppelingen, lijsten, emojis, aanhalingstekens of afbeeldingen aan uw bericht toe te voegen
    * Voeg gebruikers of teams toe om hen van uw antwoord op de hoogte te brengen.
 
-     Wanneer u klaar bent met het toevoegen van de reactie, klikt u op **[!UICONTROL Reply]** opnieuw.
+     Klik nogmaals op **[!UICONTROL Reply]** wanneer u klaar bent met het toevoegen van de reactie.
 
      ![](assets/reply-in-the-my-updates-area.png)
-1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om de [!UICONTROL My Updates] naar de bovenste navigatie.
+1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om het [!UICONTROL My Updates] -gebied vast te zetten op de bovenste navigatie.

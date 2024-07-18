@@ -20,9 +20,9 @@ Nadat uw Adobe Workfront-beheerder u de juiste toegang tot de doelstellingen van
 
 Raadpleeg de volgende artikelen voor informatie over het maken van doelen, resultaten en activiteiten:
 
-* [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md)
-* [Aan de slag met resultaten en activiteiten in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [ creeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md)
+* [ worden begonnen met resultaten en activiteiten in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [ voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Toegangsvereisten
@@ -52,7 +52,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -62,7 +62,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Toegangsniveau</p></td>
@@ -74,7 +74,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -85,7 +85,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bewerken van resultaten en activiteiten
 
@@ -94,7 +94,7 @@ According to Vazgen, access levels will add more considerations.)
 -->
 
 * U kunt resultaten en activiteiten uitgeven die tot doelstellingen behoren u creeerde of aan doelstellingen die u toestemmingen hebt te leiden.
-* U kunt de vooruitgang van projecten die met doelstellingen worden verbonden niet als activiteiten van de Doelen van Workfront uitgeven. De voortgang van projecten wordt bijgewerkt wanneer de taken in het project zijn voltooid. U kunt projecten uit het doel verwijderen door hen los te maken. Voor meer informatie, zie de &quot;losmaakt projecten&quot;sectie in het artikel [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* U kunt de vooruitgang van projecten die met doelstellingen worden verbonden niet als activiteiten van de Doelen van Workfront uitgeven. De voortgang van projecten wordt bijgewerkt wanneer de taken in het project zijn voltooid. U kunt projecten uit het doel verwijderen door hen los te maken. Voor meer informatie, zie de &quot;losmaakt projecten&quot;sectie in het artikel [ resultaten, activiteiten, en projecten uit doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md) verwijderen.
 
   >[!NOTE]
   >
@@ -107,11 +107,11 @@ According to Vazgen, access levels will add more considerations.)
   >   * Projectpercentage voltooid
   >   
   >   
-  >Voor informatie over het verbinden van projecten met doelstellingen, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >Voor informatie over het verbinden van projecten met doelstellingen, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
-* U kunt resultaten en activiteiten van doelstellingen schrappen wanneer zij niet meer relevant voor de doelvooruitgang zijn. Verwijderde resultaten en activiteiten kunnen niet worden hersteld. Voor informatie over het verwijderen van resultaten en activiteiten raadpleegt u [Resultaten, activiteiten en projecten verwijderen uit doelen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* U kunt resultaten en activiteiten van doelstellingen schrappen wanneer zij niet meer relevant voor de doelvooruitgang zijn. Verwijderde resultaten en activiteiten kunnen niet worden hersteld. Voor informatie over het schrappen van resultaten en activiteiten, zie [ resultaten, activiteiten, en projecten uit doelstellingen in de Doelen van Adobe Workfront verwijderen ](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * U kunt resultaten en activiteiten verbonden aan doelstellingen van om het even welke tijdspanne, met inbegrip van in het verleden uitgeven.
-* Als u resultaten en activiteiten bewerkt, worden de instellingen bijgewerkt en wordt de voortgang van de bewerkingen niet bijgewerkt. U moet de voortgang van resultaten en activiteiten bijwerken. Voor informatie over het bijwerken van vooruitgang bij doelstellingen, resultaten, en activiteiten, zie [Voortgang van Adobe Workfront-doelen bijwerken](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Als u resultaten en activiteiten bewerkt, worden de instellingen bijgewerkt en wordt de voortgang van de bewerkingen niet bijgewerkt. U moet de voortgang van resultaten en activiteiten bijwerken. Voor informatie over het bijwerken van vooruitgang op doelstellingen, resultaten, en activiteiten, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Resultaten bewerken
 
@@ -140,23 +140,23 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-icon.png)vervolgens **Doelen**.
+1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
-1. Klikken **Voortgangsindicatoren** in het linkerdeelvenster.
-1. Selecteer een resultaat in de lijst Voortgangsindicatoren en klik op **Bewerken** pictogram ![](assets/edit-icon.png).
+1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
+1. Selecteer een resultaat in de lijst van Voortgangsindicatoren en klik **uitgeven** pictogram ![](assets/edit-icon.png).
 
    Het vak Resultaat bewerken wordt geopend.
 
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Bewerk de volgende gegevens:
-   * **Resulterende naam**: De naam van het resultaat. Gebruik een beschrijvende naam die aangeeft welk resultaat u moet behalen om het doel te bereiken.
-   * **Resultaateigenaar**: De eigenaar van het resultaat. De eigenaar moet een actieve Workfront-gebruiker zijn.
-   * **Type waarde**: Hoe u de voortgang van het resultaat meet.
-   * **Beginwaarde**: De oorspronkelijke waarde van het resultaat.
-   * **Doelwaarde**: De gewenste waarde wanneer het resultaat is voltooid.
-Zie voor meer informatie over resultaatvelden [Resultaten toevoegen aan doelen](../results-and-activities/add-results-to-goals.md).
-1. Klikken **Opslaan**.
+   * **naam van het Resultaat**: De naam van het resultaat. Gebruik een beschrijvende naam die aangeeft welk resultaat u moet behalen om het doel te bereiken.
+   * **resultaateigenaar**: De eigenaar van het resultaat. De eigenaar moet een actieve Workfront-gebruiker zijn.
+   * **Type van Waarde**: Hoe u de vooruitgang van het resultaat meet.
+   * **Aanvankelijke Waarde**: De originele waarde van het resultaat.
+   * **Waarde van het Doel**: De gewenste waarde wanneer het resultaat wordt voltooid.
+Voor meer informatie over resultaatgebieden, zie [ resultaten aan doelstellingen ](../results-and-activities/add-results-to-goals.md) toevoegen.
+1. Klik **sparen**.
 
 ## Bewerkingen bewerken
 
@@ -185,19 +185,19 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-icon.png)vervolgens **Doelen**.
+1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
-1. Klikken **Voortgangsindicatoren** in het linkerdeelvenster.
-1. Selecteer een activiteit in de lijst Voortgangsindicatoren en klik op **Bewerken** pictogram ![](assets/edit-icon.png).
+1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
+1. Selecteer een activiteit in de de indicatorenlijst van de Voortgang en klik **uitgeven** pictogram ![](assets/edit-icon.png).
 
    Het vak Activiteit bewerken wordt geopend.
 
    ![](assets/edit-activity-box-unshimmed.png)
 
 1. Bewerk de volgende gegevens:
-   * **Naam activiteit**: De naam van de activiteit. Gebruik een beschrijvende naam die illustreert welke activiteit u zou moeten uitvoeren om erop te wijzen dat het doel voltooit.
-   * **Eigenaar activiteit:** De eigenaar van de activiteit. De eigenaar moet een actieve Workfront-gebruiker zijn.\
-     Zie voor meer informatie over activiteitsvelden [Activiteiten toevoegen aan doelen](../results-and-activities/add-activities-to-goals.md).
-1. Klikken **Opslaan**.
+   * **naam van de Activiteit**: De naam van de activiteit. Gebruik een beschrijvende naam die illustreert welke activiteit u zou moeten uitvoeren om erop te wijzen dat het doel voltooit.
+   * **Eigenaar van de Activiteit:** De eigenaar van de activiteit. De eigenaar moet een actieve Workfront-gebruiker zijn.\
+     Voor meer informatie over activiteitengebieden, zie [ activiteiten aan doelstellingen ](../results-and-activities/add-activities-to-goals.md) toevoegen.
+1. Klik **sparen**.
 
 

@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -39,20 +39,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Toegang- en abonnementsinstellingen configureren tijdens het maken van een proefdruk
 
-Als u toegang- en abonnementsinstellingen wilt instellen voor een proefdruk terwijl u deze maakt:
+Als u toegang- en abonnementsinstellingen voor een proefdruk wilt instellen terwijl u de proefdruk maakt:
 
-1. Ga naar het project, de taak, of de kwestie waar u het proef wilt, dan klik **Documenten** sectie.
-1. Klikken **Nieuwe toevoegen** in de rechterbovenhoek.
-1. Naar de **Proefinstellingen** in de rechterbenedenhoek van het dialoogvenster **Nieuwe proefdruk** pagina.
+1. Ga naar het project, de taak, of de kwestie waar u de proef wilt, dan klik de **sectie van Documenten**.
+1. Klik **toevoegen Nieuw** op het hoger-juiste gebied.
+1. De rol aan de **sectie van de Montages van het Bewijs** in de laag-juiste hoek van de **Nieuwe proef** pagina.
 
 1. Configureer de volgende instellingen:
 
@@ -61,18 +61,18 @@ Als u toegang- en abonnementsinstellingen wilt instellen voor een proefdruk terw
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Delen van proefdrukken via openbare URL of insluitcode toestaan</strong> </td> 
+      <td role="rowheader"><strong> Toestaan het delen van bewijs via openbare URL of bedt code </strong> in </td> 
       <td>Als deze optie is geselecteerd, kan de proefdruk worden gedeeld via een openbare URL of insluitcode.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Abonneren op proefdrukken via openbare URL of insluitcode toestaan</strong> </td> 
+      <td role="rowheader"><strong> sta het abonneren op bewijs via openbare URL toe of bedt code </strong> in </td> 
       <td>Als deze optie is geselecteerd, kunnen personen die niet expliciet aan de proefdruk zijn toegevoegd, zich op de proefdruk abonneren. De persoon die zich op de proef abonneert, krijgt de rol en e-mail die u in de volgende montages bepaalt:
        <ul>
-        <li><p><strong>Abonnementenrol:</strong> De standaardproefdrukrol die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren. </p><p>Belangrijk: Indien <strong>Delen toestaan met</strong> is ingesteld op een andere waarde dan <strong>Iedereen</strong> in de instellingen voor Workfront-proefdrukken werkt het abonnement alleen voor personen binnen de organisatie. Zie voor meer informatie <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Proefinstellingen configureren in Workfront Proof</a>.</p></li>
-        <li><strong>Instellingen voor e-mailwaarschuwingen voor abonnees:</strong> De standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li>
+        <li><p><strong> de rol van de Abonnee:</strong> de standaardproefdrukrol die aan alle recensenten wordt toegewezen die aan de proef intekenen. </p><p>Belangrijk: Als <strong> het Delen met </strong> toestaat wordt geplaatst aan om het even wat buiten <strong> iedereen </strong> in de montages van Workfront Proof, het abonnementswerk slechts voor mensen binnen de organisatie. Voor meer informatie, zie <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref"> de Montages van het Bewijs in Workfront Proof </a> vormen.</p></li>
+        <li><strong> e-mail waakzame montages voor abonnees:</strong> het standaard e-mailalarm dat aan alle recensenten wordt toegewezen die aan de proef intekenen.</li>
        </ul><p>
         <ul>
-         <li><strong>Bewijs van toegang via e-mailkoppeling vereist voor:</strong> Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie-kennisgeving</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</li>
+         <li><strong> vereiste toegang van het Bewijs via e-mailverbinding voor:</strong> Vorm of de abonnee een e-mail met een verbinding aan de proef ontvangt. U kunt <strong> Geen e-mail </strong> selecteren (de e-mailverbinding wordt niet vereist om tot de proef toegang te hebben), <strong> het bericht van het Bewijs slechts </strong> (de abonnee ontvangt een verbinding aan de proef via e-mail zonder enige controle), of <strong> Bevestiging en proef bericht e-mails </strong> (de abonnee ontvangt een verbinding aan de proef via e-mail en moet de verbinding klikken om tot een proef toegang te hebben, is het doel van deze optie ervoor te zorgen dat de persoon een correct is ingegaan e-mailadres waartoe zij toegang hebben).</li>
         </ul><p>Opmerking:  Als de proefdrukken de Geautomatiseerde Werkstroom in bijlage hebben alle abonnementen zullen bevestigingse-mail aan de bewijseigenaars produceren, zodat kunnen zij beslissen welk stadium de persoon aan zou moeten worden toegevoegd.<br></p></p></td> 
      </tr> 
     </tbody> 
@@ -84,8 +84,8 @@ Als u toegang- en abonnementsinstellingen wilt instellen voor een proefdruk terw
 
 U kunt als volgt toegangs- en abonnementsinstellingen instellen voor een proefdruk die al in Workfront bestaat:
 
-1. Selecteer in het gebied Documenten het document met de proefdruk waarvoor u instellingen wilt configureren en klik vervolgens op **Documentdetails**.
-1. Klik in het linkerdeelvenster op **Instellingen van viewer proefdrukken**.
+1. In het gebied van Documenten, selecteer het document dat de proef bevat u montages voor wilt vormen, dan **Details van het Document** klikken.
+1. In het linkerpaneel, klik **het Proofing de Montages van de Kijker**.
 1. Configureer de volgende instellingen:
 
    <table style="table-layout:auto"> 
@@ -93,21 +93,21 @@ U kunt als volgt toegangs- en abonnementsinstellingen instellen voor een proefdr
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Delen van proefdrukken via openbare URL of insluitcode toestaan</strong><strong>e</strong> </td> 
+      <td role="rowheader"><strong> staat het delen van bewijs via openbare URL toe of bedt code </strong> <strong> e </strong> in </td> 
       <td>Als deze optie is geselecteerd, kan de proefdruk worden gedeeld via een openbare URL of insluitcode.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Abonneren op proefdrukken via openbare URL of insluitcode toestaan</strong> </td> 
+      <td role="rowheader"><strong> sta het abonneren op bewijs via openbare URL toe of bedt code </strong> in </td> 
       <td>Als deze optie is geselecteerd, kunnen personen die niet expliciet aan de proefdruk zijn toegevoegd, zich op de proefdruk abonneren. De persoon die zich op de proef abonneert, krijgt de rol en e-mail die u in de volgende montages bepaalt:
        <ul>
-        <li><p><strong>Abonnementenrol:</strong> De standaardproefdrukrol die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren. </p><p>Belangrijk: Indien <strong>Delen toestaan met</strong> is ingesteld op een andere waarde dan <strong>Iedereen</strong> in de instellingen voor Workfront-proefdrukken werkt het abonnement alleen voor personen binnen de organisatie. Zie voor meer informatie <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Proefinstellingen configureren in Workfront Proof</a>.</p></li>
-        <li><strong>Instellingen voor e-mailwaarschuwingen voor abonnees:</strong> De standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li>
+        <li><p><strong> de rol van de Abonnee:</strong> de standaardproefdrukrol die aan alle recensenten wordt toegewezen die aan de proef intekenen. </p><p>Belangrijk: Als <strong> het Delen met </strong> toestaat wordt geplaatst aan om het even wat buiten <strong> iedereen </strong> in de montages van Workfront Proof, het abonnementswerk slechts voor mensen binnen de organisatie. Voor meer informatie, zie <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref"> de Montages van het Bewijs in Workfront Proof </a> vormen.</p></li>
+        <li><strong> e-mail waakzame montages voor abonnees:</strong> het standaard e-mailalarm dat aan alle recensenten wordt toegewezen die aan de proef intekenen.</li>
        </ul><p>
         <ul>
-         <li><strong>Bewijs van toegang via e-mailkoppeling vereist voor:</strong> Configureer of de abonnee een e-mail ontvangt met een koppeling naar de proefdruk. U kunt <strong>Geen e-mail</strong> (E-mailkoppeling is niet vereist voor toegang tot de proefdruk), <strong>Alleen e-mail met verificatie-kennisgeving</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail zonder verificatie), of <strong>E-mails over validatie en proefdrukken</strong> (de abonnee ontvangt een koppeling naar de proefdruk via e-mail en moet op de koppeling klikken om toegang te krijgen tot een proefdruk. Deze optie heeft tot doel ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft).</li>
+         <li><strong> vereiste toegang van het Bewijs via e-mailverbinding voor:</strong> Vorm of de abonnee een e-mail met een verbinding aan de proef ontvangt. U kunt <strong> Geen e-mail </strong> selecteren (de e-mailverbinding wordt niet vereist om tot de proef toegang te hebben), <strong> het bericht van het Bewijs slechts </strong> (de abonnee ontvangt een verbinding aan de proef via e-mail zonder enige controle), of <strong> Bevestiging en proef bericht e-mails </strong> (de abonnee ontvangt een verbinding aan de proef via e-mail en moet de verbinding klikken om tot een proef toegang te hebben, is het doel van deze optie ervoor te zorgen dat de persoon een correct is ingegaan e-mailadres waartoe zij toegang hebben).</li>
         </ul><p>Opmerking:  Als de proefdrukken de Geautomatiseerde Werkstroom in bijlage hebben alle abonnementen zullen bevestigingse-mail aan de bewijseigenaars produceren, zodat kunnen zij beslissen welk stadium de persoon aan zou moeten worden toegevoegd.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

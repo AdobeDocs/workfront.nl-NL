@@ -8,7 +8,7 @@ feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
 source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Houd rekening met het volgende wanneer u subtaken maakt voor bestaande artikelen:
 
-**Wanneer de [!UICONTROL Summary Completion Mode] instellen voor het project is ingesteld op [!UICONTROL Manual]:**
+**wanneer het [!UICONTROL Summary Completion Mode] plaatsen voor het project aan [!UICONTROL Manual] wordt geplaatst:**
 
-* U kunt een bovenliggend artikel met subtaken verplaatsen naar [!UICONTROL Complete], waarmee het bovenliggende artikel wordt bijgewerkt naar 100% en de [!UICONTROL Status] tot [!UICONTROL Complete]. Subtaken worden niet bijgewerkt.
-* Als u het dialoogvenster [!UICONTROL Percent Complete] voor het artikel moet u het bijwerken vanuit de [!UICONTROL Stories] of van de [!UICONTROL Details] pagina van het object.
+* U kunt een bovenliggend artikel met subtaken verplaatsen naar [!UICONTROL Complete] , waar het bovenliggende artikel wordt bijgewerkt naar 100% en de [!UICONTROL Status] naar [!UICONTROL Complete] . Subtaken worden niet bijgewerkt.
+* Als u [!UICONTROL Percent Complete] voor het artikel wilt bijwerken, moet u het bijwerken vanaf de [!UICONTROL Stories] -tab of de [!UICONTROL Details] -pagina van het object.
 
-**Wanneer de [!UICONTROL Summary Completion Mode] instellen voor het project is ingesteld op [!UICONTROL Automatic]:**
+**wanneer het [!UICONTROL Summary Completion Mode] plaatsen voor het project aan [!UICONTROL Automatic] wordt geplaatst:**
 
-* U kunt het bovenliggende artikel niet over de hele linie verplaatsen. Als u het dialoogvenster [!UICONTROL Percent Complete] voor het artikel moet u de [!UICONTROL Percent Complete] voor alle subtaken. De [!UICONTROL Percent Complete] voor het artikel wordt berekend op basis van de [!UICONTROL Percent Complete] van alle subtaken.
-* Een bovenliggend artikel met subtaken verplaatsen naar [!UICONTROL Complete] Hiermee werkt u het bovenliggende artikel bij naar 100% en de [!UICONTROL Status] tot [!UICONTROL Complete]. Subtaken worden ook bijgewerkt naar 100% en de [!UICONTROL Status] wordt bijgewerkt naar [!UICONTROL Complete].
+* U kunt het bovenliggende artikel niet over de hele linie verplaatsen. Als u [!UICONTROL Percent Complete] voor het artikel wilt bijwerken, moet u [!UICONTROL Percent Complete] voor alle subtaken bijwerken. De waarde [!UICONTROL Percent Complete] voor het artikel wordt berekend op basis van de waarde [!UICONTROL Percent Complete] van alle subtaken.
+* Als u een bovenliggend artikel met subtaken verplaatst naar [!UICONTROL Complete] , wordt het bovenliggende artikel bijgewerkt naar 100% en de [!UICONTROL Status] naar [!UICONTROL Complete] . Subtaken worden ook bijgewerkt naar 100% en [!UICONTROL Status] wordt bijgewerkt naar [!UICONTROL Complete] .
 
 ## Toegangsvereisten
 
@@ -45,19 +45,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Contribute] of [!UICONTROL Manage] toegang tot de taak subtask is</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Contribute] of [!UICONTROL Manage] toegang hebben tot de taak waarop de subtaak is uitgevoerd</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Een subtaak toevoegen aan een bestaand artikel op het tabblad [!UICONTROL Kanban] board
+## Een subtaak toevoegen aan een bestaand artikel op het [!UICONTROL Kanban] -bord
 
-1. Ga naar de [!UICONTROL Kanban] board dat het artikel bevat waar u een subtaak wilt toevoegen.
-1. Klik op de naam van de taak in de artikeltegel op het tabblad [!UICONTROL Kanban] bord.
-1. Voeg een subtaak aan de taak toe zoals u in een andere taaklijst binnen [!DNL Workfront], zoals beschreven in [Subtaken maken](../../manage-work/tasks/create-tasks/create-subtasks.md).
+1. Ga naar de [!UICONTROL Kanban] -board die het artikel bevat waar u een subtaak wilt toevoegen.
+1. Klik op de naam van de taak in de artikeltegel op het [!UICONTROL Kanban] -bord.
+1. Voeg een subtask aan de taak toe zoals u in een andere taaklijst binnen [!DNL Workfront] zou doen, zoals die in [ wordt beschreven creeer subtasks ](../../manage-work/tasks/create-tasks/create-subtasks.md).

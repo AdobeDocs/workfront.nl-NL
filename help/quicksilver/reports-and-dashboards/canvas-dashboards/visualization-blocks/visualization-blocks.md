@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een visualisatieblok toevoegen of bewerken in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-* [Vorm een bar visualisatie in het Rapporterende Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
+* [ voeg of geef een visualisatieblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit
+* [ vorm een bar visualisatie in het Rapporterende Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [Vorm een kolomvisualisatie in het Melden van Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [Paardenvisualisatie configureren in Rapportcanvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
 * [Vorm een KPI visualisatie in het Melden van Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)

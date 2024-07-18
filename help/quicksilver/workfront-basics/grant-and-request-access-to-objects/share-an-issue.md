@@ -8,73 +8,74 @@ feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Een uitgave delen
 
-Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsproblemen wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot kwesties, zie [Toegang verlenen tot kwesties](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsproblemen wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot kwesties, zie [ Toegang van de Verlening tot kwesties ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Samen met het toegangsniveau dat gebruikers wordt verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke kwesties die u toegang hebt om te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke kwesties die u toegang hebt om te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
 
 ## Overwegingen bij het delen van problemen
 
-Naast de onderstaande overwegingen, zie ook [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Een Workfront-beheerder kan machtigingen toevoegen of verwijderen voor alle items in het systeem, zonder de eigenaar van die items te zijn.
 
 * De maker van een uitgave heeft er standaard beheerdersmachtigingen voor.
-* U kunt kwesties individueel delen, of u kunt verscheidene van hen tegelijkertijd delen. Delen is hetzelfde als delen van andere objecten in Workfront. Ga voor meer informatie over het delen van objecten in Workfront naar [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* U kunt kwesties individueel delen, of u kunt verscheidene van hen tegelijkertijd delen. Delen is hetzelfde als delen van andere objecten in Workfront. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt de volgende toestemmingen aan een kwestie verlenen: 
 
    * Weergave
 
-      ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![ view_on_issue.png ](assets/view-on-issue-221x216.png)
 
    * Beheren
 
-      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![ manage_on_issues.png ](assets/manage-on-issues-179x199.png)
 
    * Contribute\
-      ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![ contribute_on_issue.png ](assets/contribute-on-issue-156x205.png)
 
 * Als u een uitgave deelt, nemen alle documenten die aan de uitgave zijn gekoppeld dezelfde machtigingen over.
 
-   De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Zie voor meer informatie over het beperken van overerfde machtigingen voor documenten [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-* U kunt overgeërfde machtigingen verwijderen uit een uitgave. Zie voor meer informatie [Rechten van objecten verwijderen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* U kunt overgeërfde machtigingen verwijderen uit een uitgave. Voor meer informatie, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Manieren om een probleem te delen
 
-* Handmatig, wat vergelijkbaar is met het delen van andere objecten in Workfront. Ga voor meer informatie over het delen van objecten in Workfront naar [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Handmatig, wat vergelijkbaar is met het delen van andere objecten in Workfront. Voor meer informatie over hoe te om voorwerpen in Workfront te delen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * Automatisch, door één van het volgende te doen:
 
-   * Geef de machtigingen op voor een van de bovenliggende objecten van de uitgave: project, programma of portfolio. De kwesties erven de toestemmingen van hun oudervoorwerpen. Voor informatie over het weergeven van overgeërfde machtigingen voor objecten raadpleegt u [Overerfde machtigingen voor objecten weergeven](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de kwestie is. Voor informatie over het delen van projecten van malplaatjes, zie [Een sjabloon delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Geef de machtigingen voor een van de bovenliggende objecten van de uitgave op: project, programma of portfolio. De kwesties erven de toestemmingen van hun oudervoorwerpen. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de kwestie is. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
-   * Specificeer de toestemmingen op alle kwesties in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot kwesties of verzoeken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie [](../../manage-work/projects/manage-projects/edit-projects.md#access) in het artikel [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specificeer de toestemmingen op alle kwesties in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot kwesties of verzoeken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-      >[!TIP]
-      >
-      >Als u niet specificeert welke uitgevende toestemmingen u gebruikers wilt hebben wanneer zij aan de kwesties op het project worden toegewezen, ontvangen zij de zelfde toestemmingen die zij op het project hebben, door gebrek.
+     >[!TIP]
+     >
+     >Als u niet specificeert welke uitgevende toestemmingen u gebruikers wilt hebben wanneer zij aan de kwesties op het project worden toegewezen, ontvangen zij de zelfde toestemmingen die zij op het project hebben, door gebrek.
 
-   * Geef de machtigingen op die gebruikers ontvangen bij problemen die ze in een aanvraagwachtrij verzenden wanneer ze een aanvraagwachtrij maken. Zie voor meer informatie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Geef de machtigingen op die gebruikers ontvangen bij problemen die ze in een aanvraagwachtrij verzenden wanneer ze een aanvraagwachtrij maken. Voor informatie, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-      >[!IMPORTANT]
-      >
-      >De toestemmingen worden verleend verschillend afhankelijk van al dan niet het project als verzoekrij wordt gepubliceerd:
-      >
-      >   
-      >   
-      >   * Wanneer een gebruiker een verzoek naar een project voorlegt dat als verzoekrij wordt gepubliceerd, wordt het Primaire Contact en ingegaan door gebruikers verleend de gespecificeerde toestemming.
-      >   * Wanneer een gebruiker een verzoek naar een project indient dat niet als verzoekrij wordt gepubliceerd, wordt het Primaire Contact (als verschillend van ingegaan door gebruiker) de gespecificeerde toestemming verleend, en de Ingegaan door gebruiker wordt verleend leidt toestemmingen aan de kwestie.
-
+     >[!IMPORTANT]
+     >
+     >De toestemmingen worden verleend verschillend afhankelijk van al dan niet het project als verzoekrij wordt gepubliceerd:
+     >
+     >   
+     >   
+     >   * Wanneer een gebruiker een verzoek naar een project voorlegt dat als verzoekrij wordt gepubliceerd, wordt het Primaire Contact en ingegaan door gebruikers verleend de gespecificeerde toestemming.
+     >   * Wanneer een gebruiker een verzoek naar een project indient dat niet als verzoekrij wordt gepubliceerd, wordt het Primaire Contact (als verschillend van ingegaan door gebruiker) de gespecificeerde toestemming verleend, en de Ingegaan door gebruiker wordt verleend leidt toestemmingen aan de kwestie.
+     >   
+     >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -131,9 +132,9 @@ Naast de onderstaande overwegingen, zie ook [Overzicht van het delen van machtig
 </div>
 -->
 
-## Machtigingen voor afgifte
+## Machtigingen geven
 
-In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verlenen wanneer u hen toestaat een uitgave weer te geven, bij te dragen of te beheren:
+In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verlenen wanneer u hen toestaat een uitgave weer te geven, te Contribute of te beheren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -142,10 +143,10 @@ In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verl
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Handelingen</strong> </td> 
-   <td><strong>Beheren</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
-   <td><strong>Weergave</strong> </td> 
+   <td><strong> Acties </strong> </td> 
+   <td><strong> leiden </strong> </td> 
+   <td><strong> Contribute </strong> </td> 
+   <td><strong> Mening </strong> </td> 
   </tr> 
   <tr> 
    <td> <p>Problemen toevoegen</p> </td> 
@@ -244,7 +245,7 @@ In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verl
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Delen op systeemniveau</td> 
+   <td>Delen in het hele systeem</td> 
    <td> </td> 
    <td> </td> 
    <td>✓</td> 
@@ -252,4 +253,4 @@ In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verl
  </tbody> 
 </table>
 
-&#42;Gecontroleerd door de toegangsniveaus en de toestemmingen op het project.
+&#42; gecontroleerd door de toegangsniveaus en de toestemmingen op het project.

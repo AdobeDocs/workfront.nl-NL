@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -35,26 +35,26 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document weergeven</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het document weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 * In dit artikel wordt ervan uitgegaan dat het document meerdere versies heeft.
 
-   Als u informatie nodig hebt over het uploaden van nieuwe versies van een document naar Workfront, raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md).
+  Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 ## Een lijst met alle versies van een document weergeven
 
-1. Blader in het overzicht naar de weergave **Alle versies** sectie. Hier kunt u alle versies van het document weergeven.
+1. In Samenvatting, scrol aan de mening **Alle Versies** sectie. Hier kunt u alle versies van het document weergeven.
 
 ## Details voor een vorige documentversie weergeven en beheren
 
@@ -66,15 +66,15 @@ U moet het volgende hebben:
 
 ## Eén documentversie downloaden
 
-1. In de samenvatting, onder **Versies** Klik op het menu Meer ![](assets/more-icon.png) rechts van de versie klikt u op **Downloaden** in de vervolgkeuzelijst die wordt weergegeven.
+1. In de Samenvatting, onder **Versies**, klik het Meer menu ![](assets/more-icon.png) aan het recht van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
 
    ![](assets/more-versions-350x143.png)
 
 ## Alle versies van een document downloaden
 
-1. Klikken **Documentdetails** selecteert u vervolgens **Alle versies** in het linkerdeelvenster.
+1. Klik **Details van het Document**, dan selecteren **Alle Versies** in het linkerpaneel.
 
-1. Klikken **Alles downloaden** boven aan de lijst.
+1. Klik **Download allen** bij de bovenkant van de lijst.
 
 ## Een documentversie verwijderen
 
@@ -86,18 +86,18 @@ Als u per ongeluk een versie van een document uploadt, of als een versie niet me
 
 Houd rekening met het volgende wanneer u een documentversie verwijdert:
 
-* Er kan slechts één versie tegelijk worden verwijderd. Als een versie wordt verwijderd, wordt deze actie weergegeven in het dialoogvenster **Updates** op het document.
+* Er kan slechts één versie tegelijk worden verwijderd. Als een versie wordt geschrapt, verschijnt deze actie in **Updates** op het document.
 * Als u een nieuwe versie uploadt nadat u een versie hebt verwijderd, ontvangt de nieuwe versie het volgende volgnummer. Als er bijvoorbeeld drie versies van een document zijn en u versie 3 verwijdert, wordt het volgende geüploade document versie 4.
 * Systeemupdates en opmerkingen die in een versie zijn gemaakt, blijven behouden in Workfront nadat de versie is verwijderd.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deleting a document version in Workfront does not delete the Proof version.&nbsp;</li>
   -->
 
 Een documentversie verwijderen:
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.Zoek het document dat u nodig hebt.
-1. In de **Versie** in de samenvatting, klikt u op de versie en vervolgens op **Verwijderen** in de vervolgkeuzelijst die wordt weergegeven. De **Verwijderen** is alleen zichtbaar als er ten minste twee versies zijn.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.Vind het document u wenst.
+1. In het **gebied van de Versie** in de Samenvatting, klik de versie, dan klik **Schrapping** in de drop-down lijst die verschijnt. De **schrapping** optie is zichtbaar slechts als er minstens twee versies zijn.
 
    Als het document is gekoppeld aan een externe bron, wordt die koppeling verwijderd en is het document niet langer toegankelijk via Workfront.
 

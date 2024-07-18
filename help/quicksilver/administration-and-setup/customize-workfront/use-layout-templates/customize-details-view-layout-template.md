@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Als Adobe Workfront-beheerder kunt u met een lay-outsjabloon bepalen welke informatie wordt weergegeven wanneer een gebruiker op het pictogram Details klikt ![](assets/project-details-icon.png) in het linkerdeelvenster wanneer u een taak, uitgave, document, programma of portfolio bekijkt.
+Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om te bepalen welke informatie wordt weergegeven wanneer een gebruiker op het pictogram Details ![](assets/project-details-icon.png) in het linkerdeelvenster klikt terwijl een taak, uitgave, document, programma of portfolio wordt weergegeven.
 
 <!--
 or billing record
@@ -27,11 +27,11 @@ or billing record
 
 U kunt ook de volgorde wijzigen van de gegevens waarin deze gegevens worden weergegeven. Voor alle taken die uw gebruikers bijvoorbeeld zien, kunt u de gegevens van Aangepaste Forms boven aan de weergave Details plaatsen voor alle taken die uw gebruikers zien.
 
-Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen ook de beschikbaarheid en volgorde van velden die gebruikers in de volgende gebieden zien:
 
@@ -51,7 +51,7 @@ De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen o
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Samenvatting ![](assets/summary-panel-icon.png) deelvenster voor lijsten met taken en problemen
+* Overzicht ![](assets/summary-panel-icon.png) voor lijsten met taken en problemen
 
   ![](assets/summary-area.png)
 
@@ -61,9 +61,9 @@ De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen o
 
 * Conversievakken, zoals de kwestie van de Bekeerling aan taak of zet kwestie in projectvakjes om.
 
-  ![Uitgave converteren naar taakvak](assets/convert-issue-to-task-box.png)
+  ![ Bekeerling kwestie aan taakdoos ](assets/convert-issue-to-task-box.png)
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Toegangsvereisten
 
@@ -84,23 +84,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Aanpassen wat gebruikers zien in de weergave Details
 
-1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik op de pijl omlaag ![](assets/dropdown-arrow-12x12.png) krachtens **Aanpassen wat gebruikers zien** en klik vervolgens op **Project**, **Taak**, **Probleem**, **Programma**, of **Portfolio.**
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik de benedenpijl ![](assets/dropdown-arrow-12x12.png) onder **aanpassen wat gebruikers** zien, dan klik **Project**, **Taak**, **Uitgave**, **Programma**, of **Portfolio.**
 <!--
 , or billing record
 -->
 
-1. In de **Details** in, voert u een van de volgende handelingen uit om aan te passen wat gebruikers zien in de weergave Details:
+1. In de **sectie van Details**, doe om het even welke volgend om aan te passen wat de gebruikers in de mening van Details zien:
 
-   * Alle sectiekoppen slepen ![](assets/move-icon---dots.png) om hun orde te veranderen.
-   * Opties in- of uitschakelen onder **Overzicht** en **Aangepaste Forms** om ze te tonen of te verbergen.
+   * Sleep sectiekoppen ![](assets/move-icon---dots.png) om de volgorde te wijzigen.
+   * Laat of maak opties onder **Overzicht** en **Douane Forms** toe onbruikbaar om hen te tonen of te verbergen.
 
      Als u alle velden in een van deze secties verbergt, wordt de volledige sectie verborgen.
 
@@ -110,7 +110,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn</p> <
 
    of
 
-   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen**.
 
    >[!TIP]
    >

@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
 >
->Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 Met de AI-assistent kunt u records genereren, bijwerken of verwijderen op basis van de context en de recordstructuur van de huidige pagina.
 
@@ -38,7 +38,7 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 
 * De AI-assistent is standaard beschikbaar voor Workfront-beheerders.
 
-* De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Zie voor meer informatie [AI-assistent in- of uitschakelen](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 * De AI Assistant werkt in de context van elke pagina. De aanvragen die u voor de AI-assistent indient, moeten verwijzen naar functionaliteit die beschikbaar is op de pagina die u hebt geopend.
 
@@ -72,15 +72,15 @@ Met de AI-assistent kunt u op dit moment de volgende handelingen uitvoeren:
 
 ## De AI-assistent openen
 
-1. Meld u aan bij Workfront en ga vervolgens naar de **Planning** gebied.
+1. Login aan Workfront, dan ga naar het **Planning** gebied.
 
-1. Klik op een **werkruimtekaart**.
+1. Klik a **werkruimtekaart**.
 
-1. (Optioneel) Klik op een **opnametype**.
+1. (Facultatief) klik a **verslagtype kaart**.
 
-1. (Optioneel) Klik op een **opnemen** om de record te openen **Details** pagina.
+1. (Facultatief) klik a **verslag** om de 2} Details van het verslag **pagina te openen.**
 
-1. Klik op de knop **AI Assistant-pictogram** in de rechterbovenhoek van het scherm in de algemene navigatiebalk.
+1. Klik het **AI Hulp pictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

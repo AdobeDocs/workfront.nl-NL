@@ -73,14 +73,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>U moet het gebied van de Planning aan uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>U moet het gebied van de Planning aan uw lay-outmalplaatje toevoegen. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -97,7 +97,7 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 * U kunt werkruimten voor specifieke organisatorische eenheden binnen uw organisatie tot stand brengen, om de unieke manier aan te passen elke eenheid werkt.
 * De recordtypen die een werkruimte bevat, moeten de levenscyclus van een organisatie weerspiegelen.
-* Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md). Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
+* Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Voor informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen. Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
 * U kunt het volgende hebben:
 
    * Tot 50 secties in één werkruimte.
@@ -107,15 +107,15 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 
 ## Een werkruimte maken
 
-U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te ordenen in Workfront Planning. Zie voor meer informatie over het bewerken van een werkruimte [Werkruimten bewerken](/help/quicksilver/planning/architecture/edit-workspaces.md).
+U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te ordenen in Workfront Planning. Voor meer informatie over het uitgeven van een werkruimte, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
 
 {{step1-to-planning}}
 
-1. Klikken **Werkruimte maken**
+1. Klik **creëren werkruimte**
 
    Het dialoogvenster Maken wordt weergegeven. U kunt een werkruimte helemaal opnieuw maken of maken met een van de beschikbare sjablonen.
 
-1. (Optioneel en voorwaardelijk) Klik op **Voorvertoning** binnen een van de volgende vooraf gedefinieerde werkruimtjablonen:
+1. (Facultatief en voorwaardelijk) klik **Voorproef** binnen om het even welke volgende vooraf bepaalde werkruimtesjablonen:
 
    * Basis: Marketing Management
    * Geavanceerd: marketingbeheer
@@ -129,37 +129,37 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Voor informatie over de sjablonen van de Workfront Planning-werkruimte raadpleegt u [Lijst met werkruimtemalplaatjes](/help/quicksilver/planning/architecture/workspace-templates.md).
+   Voor informatie over de malplaatjes van de werkruimte van de Planning van Workfront, zie [ Lijst van werkruimtesjablonen ](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Klik in het voorbeeldvak van de sjabloon op **Sjabloon gebruiken** om de werkruimte te maken op basis van de geselecteerde sjabloon
+1. Van het vakje van de malplaatjevoorproef, klik **malplaatje van het Gebruik** beginnen de werkruimte van het geselecteerde malplaatje te creëren
 
    of
 
-   Klikken **Vorige** en klik vervolgens op **Nieuwe werkruimte** om een werkruimte helemaal opnieuw te maken.
+   Klik **terug**, dan klik **Nieuwe werkruimte** om een werkruimte van kras tot stand te brengen.
 
    Er wordt een werkruimte gemaakt voor de volgende typen werkruimten:
 
-   * Een lege werkruimte met de naam **Naamloze werkruimte** waar u recordtypen handmatig kunt gaan toevoegen wanneer u een werkruimte helemaal zelf maakt.
+   * Een lege werkruimte genoemd **Naamloze Workspace** waar u recordtypes kunt beginnen manueel toe te voegen, wanneer u een werkruimte van kras creeert.
    * Een werkruimte die wordt genoemd naar de geselecteerde sjabloon en die is gevuld met typen voorbeeldrecords. U kunt de recordtypen en de werkruimte verder aanpassen.
 
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 
-1. (Optioneel en voorwaardelijk) Als u de werkruimte hebt gemaakt op basis van een sjabloon, klikt u binnen de naam van het **Operationele recordtypen** of **Taxonomieën** secties
+1. (Facultatief en voorwaardelijk) als u de werkruimte van een malplaatje creeerde, klik binnen de naam van de **Operationele Types van Verslag** of **taxonomieën** secties
 
    of
 
-   Houd de naam van een sectie boven en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Naam wijzigen** om de naam van de sectie te wijzigen.
+   Beweeg de naam van een sectie, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **anders noemen** om de sectie anders te noemen.
 
    >[!TIP]
    >
    >U kunt de naam van elke sectie vanuit elke werkruimte wijzigen, zelfs als u de sectie niet hebt gemaakt.
 
-   Zie voor meer informatie over het bewerken van werkruimten, waaronder secties over de werkruimte voor bewerken [Werkruimten bewerken](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Voor meer informatie over het uitgeven van werkruimten, met inbegrip van het uitgeven van werkruimtesecties, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
 
-1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte in een willekeurige sectie.
+1. (Facultatief) klik **recordtype** toevoegen om verslagtypes aan de werkruimte in om het even welke sectie toe te voegen.
 
-   Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+   Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-   Ga voor meer informatie over het bewerken en verwijderen van recordtypen in een werkruimte naar [Werkruimten bewerken](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Voor meer informatie over het uitgeven van en het schrappen van verslagtypes in een werkruimte, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
 
 

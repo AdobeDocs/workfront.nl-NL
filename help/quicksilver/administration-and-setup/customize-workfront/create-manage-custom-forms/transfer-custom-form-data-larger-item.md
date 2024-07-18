@@ -24,7 +24,7 @@ Afhankelijk van de bedrijfsbehoeften van uw organisatie, zou het werk dat in een
 
 Als u aangepaste formuliergegevens van een uitgave wilt overbrengen naar een taak of project, moet u de twee taken in dit artikel in de onderstaande volgorde uitvoeren.
 
-Zie voor meer informatie [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) of [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md) of [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Toegangsvereisten
 
@@ -52,34 +52,34 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ten eerste: extra objecten toevoegen aan het aangepaste formulier
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms**.
-1. Zoek het formulier dat u nodig hebt en klik op ![Pictogram Bewerken](assets/edit-icon.png).
+1. Klik **Aangepaste Forms**.
+1. Vind de vorm u nodig hebt, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
 1. Voeg boven aan het formulier het object toe waarnaar u de taak of uitgave wilt converteren.
 
    >[!INFO]
    >
-   >**Voorbeeld**: Selecteer Project als u de aangepaste formuliergegevens naar een project wilt overbrengen.
+   >**Voorbeeld**: Als u de gegevens van de douanevorm aan een project wilt overbrengen, uitgezochte Project.
 
-1. Klikken **Toepassen** onder aan het formulier.
+1. Klik **toepassen** bij de bodem van de vorm.
 
-1. Doorgaan naar [Ten tweede: converteer de uitgave of taak en breng de aangepaste formuliergegevens over](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Ga op [ Tweede verder: Zet de kwestie of de taak om en breng de gegevens van de douanevorm ](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data) over.
 
 ## Ten tweede: converteer de uitgave of taak en breng de aangepaste formuliergegevens over {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Voeg aanvullende objecten toe aan het aangepaste formulier voor de uitgave of taak die u converteert, zoals wordt uitgelegd in de sectie [Ten eerste: extra objecten toevoegen aan het aangepaste formulier](#first-add-additonal-objects-to-the-custom-form) in dit artikel.
-1. Converteer het probleem of de taak met de opdracht **Aangepaste Forms** in het vak dat wordt weergegeven om het aangepaste formulier te selecteren dat u nodig hebt. Zie de volgende artikelen voor instructies:
+1. Voeg extra voorwerpen aan de douanevorm op de kwestie of de taak toe u, zoals die in de sectie [ eerst wordt verklaard: Voeg extra voorwerpen aan de douanevorm ](#first-add-additonal-objects-to-the-custom-form) in dit artikel toe.
+1. Zet de kwestie of de taak om gebruikend de **optie van Forms van de Douane** in de doos die toont om de douanevorm te selecteren u wenst. Zie de volgende artikelen voor instructies:
 
    * [Een uitgave converteren naar een project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Een uitgave converteren naar een taak in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Een taak omzetten in een project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. In de **Omzetten in (objecttype)** klikt u op het dialoogvenster dat wordt weergegeven **Forms toevoegen** en selecteert u het formulier dat u in de vorige sectie hebt gekopieerd.
+1. In **Bekeerling aan (objecten type)** dialoogdoos die toont, klik **toevoegen Forms** drop-down menu en selecteer de vorm u in de vorige sectie kopieerde.
 
    De informatie die wordt vastgelegd in de aangepaste velden van de uitgave wordt nu overgebracht naar het aangepaste formulier op de taak.
 

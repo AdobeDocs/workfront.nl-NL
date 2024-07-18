@@ -3,14 +3,14 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
-title: Werken met elektronische handtekeningen in [!DNL Workfront Proof]
+title: Werken met elektronische handtekeningen in  [!DNL Workfront Proof]
 description: Met elektronische handtekeningen kunt u de beveiliging van uw proefdrukken verbeteren en voldoen aan industriestandaarden zoals ISO.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: caff2a03-cccc-4779-9dcc-3362c527dcb9
 source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Met elektronische handtekeningen kunt u de beveiliging van uw proefdrukken verbeteren en voldoen aan industriestandaarden zoals ISO.
 
@@ -29,32 +29,32 @@ Zie voor meer informatie.
 
 Wanneer de instelling voor elektronische handtekeningen is ingeschakeld op een bewijs, wordt elke revisor die een besluit neemt over de proefdruk, via een elektronisch handtekeningvak gevraagd zijn e-mail en wachtwoord in te dienen.
 
-![Electronic_sig_required_box.png](assets/electronic-sig-required-box.png)
+![ Electronic_sig_required_box.png ](assets/electronic-sig-required-box.png)
 
-## Elektronische handtekeningen op de [!UICONTROL Proof Details] Pagina
+## Elektronische handtekeningen op de [!UICONTROL Proof Details] pagina
 
-Als een controleur zijn beslissing neemt door zijn keuze te maken over de [!UICONTROL Proof details] pagina (1) en [!UICONTROL Electronic Signature] pop - up box zal hen lijken te vragen om hun details (2) in te vullen en hun besluit te bevestigen (3).
+Als een revisor zijn beslissing neemt door zijn beslissing te selecteren op de [!UICONTROL Proof details] pagina (1), verschijnt er een pop-upvenster van [!UICONTROL Electronic Signature] waarin hij of zij wordt gevraagd zijn of haar gegevens (2) in te voeren en zijn of haar beslissing te bevestigen (3).
 
 In het pop-upvenster wordt de standaardberichtenset weergegeven (indien aanwezig) en de controleur moet zijn e-mail en wachtwoord invoeren.
 
-De [!UICONTROL Electronic Signature] verschijnt in de proefdrukviewer en op de knop [!UICONTROL Proof details] pagina als de controleur besluit zijn besluit op dat niveau te nemen.
+Het pop-upvenster [!UICONTROL Electronic Signature] wordt weergegeven in de proefdrukviewer en ook op de pagina [!UICONTROL Proof details] als de controleur besluit om zijn of haar beslissing op dat niveau te nemen.
 
-![Electronic_Signature_-_Proof_Details.png](assets/electronic-signature---proof-details-350x146.png)
+![ Electronic_Signature_-_Proof_Details.png ](assets/electronic-signature---proof-details-350x146.png)
 
-![Electronic_Signature_-_Proof_Details_2.png](assets/electronic-signature---proof-details-2-350x148.png)
+![ Electronic_Signature_-_Proof_Details_2.png ](assets/electronic-signature---proof-details-2-350x148.png)
 
-Als de [!UICONTROL Single Sign-On] deze optie is ingeschakeld op de proefdruk, worden de e-mail- en wachtwoordgegevens niet weergegeven in het dialoogvenster [!UICONTROL Electronic Signature] verschijnt wanneer u een beslissing neemt.
+Als de optie [!UICONTROL Single Sign-On] is ingeschakeld op de proefdruk, worden de e-mail- en wachtwoordgegevens niet weergegeven in het pop-upvenster van [!UICONTROL Electronic Signature] wanneer u een beslissing neemt.
 
-In plaats daarvan klikt u op de knop [!UICONTROL Confirm] (4) in deze pop-up wordt de controleur omgeleid naar de [!UICONTROL Single Sign-On] pagina.
+Nadat u op de knop [!UICONTROL Confirm] (4) in deze pop-up hebt geklikt, wordt de controleur omgeleid naar de [!UICONTROL Single Sign-On] -pagina.
 
-Na het invoeren van de SSO-gegevens wordt de controleur automatisch teruggeleid naar de [!UICONTROL Proof details] pagina (of terug naar de [!UICONTROL Proof Viewer] indien het besluit van daaruit wordt genomen).
+Na het invoeren van hun SSO-gegevens wordt de controleur automatisch teruggeleid naar de pagina [!UICONTROL Proof details] (of terug naar de pagina [!UICONTROL Proof Viewer] als de beslissing van daaruit is genomen).
 
-![Electronic_Signature_SSO_-_Proof_Details_3.png](assets/electronic-signature-sso---proof-details-3-350x146.png)
+![ Electronic_Signature_SSO_-_Proof_Details_3.png ](assets/electronic-signature-sso---proof-details-3-350x146.png)
 
 >[!NOTE]
 >
-> Indien het besluit elektronisch is ondertekend, wordt de **[!UICONTROL signature icon]** (5) naast de beslissing in het [!UICONTROL Workflow] de [!UICONTROL Proof details] pagina. Indien de beslissing niet door de beoordelaar maar door een andere persoon met bewerkingsrechten op het bewijs wordt gewijzigd, wordt die persoon niet gevraagd de beslissing elektronisch te ondertekenen en wordt er geen handtekeningpictogram naast de beslissing weergegeven (6).
+> Als de beslissing elektronisch is ondertekend, wordt **[!UICONTROL signature icon]** (5) weergegeven naast de beslissing in de [!UICONTROL Workflow] -sectie op de [!UICONTROL Proof details] -pagina. Indien de beslissing niet door de beoordelaar maar door een andere persoon met bewerkingsrechten op het bewijs wordt gewijzigd, wordt die persoon niet gevraagd de beslissing elektronisch te ondertekenen en wordt er geen handtekeningpictogram naast de beslissing weergegeven (6).
 
-![Electronic_Signature_icon.png](assets/electronic-signature-icon-350x52.png)Voor informatie over Single Sign-On raadpleegt u [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+![ Electronic_Signature_icon.png ](assets/electronic-signature-icon-350x52.png) voor informatie enig teken-op, zie [ Enige Sign-On in Workfront Proof ](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
-Voor informatie over de pagina Proefdrukdetails raadpleegt u [Proofinggegevens beheren in [!DNL Workfront] Proef](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Voor informatie over de de detailpagina van het Bewijs, zie [ Beheers de Details van het Bewijs in  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).

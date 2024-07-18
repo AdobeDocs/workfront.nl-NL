@@ -1,6 +1,6 @@
 ---
 title: HubSpot CRM-modules
-description: De [!DNL Adobe Workfront Fusion] De modules van CRM van HubSpot laten u toe om gebeurtenissen, verslagen, contacten, overeenkomsten, dossier en vormbijdragen te controleren, of, verslagen, contacten, overeenkomsten, gebeurtenissen, of dossiers in te creëren, terug te winnen bij te werken en te schrappen in uw [!DNL HubSpot CRM] account.
+description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u toe om gebeurtenissen, verslagen, contacten, overeenkomsten, dossier en vormvoorlegging te controleren, of, verslagen, contacten, overeenkomsten, gebeurtenissen, of dossiers in uw  [!DNL HubSpot CRM]  rekening te creëren, terug te winnen, bij te werken en te schrappen.
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL HubSpot CRM] modules
 
-De [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] -modules kunt u gebeurtenissen, records, contactpersonen, services, bestanden en formulierverzendingen controleren, of records, contactpersonen, services, gebeurtenissen of bestanden in uw [!DNL HubSpot CRM] account.
+Met de modules [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] kunt u gebeurtenissen, records, contactpersonen, services, bestanden en formulierverzendingen controleren, of records, contactpersonen, services, gebeurtenissen of bestanden in uw [!DNL HubSpot CRM] -account maken, ophalen, bijwerken en verwijderen.
 
 ## Toegangsvereisten
 
@@ -34,43 +34,43 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL HubSpot CRM] modules, moet u een [!DNL HubSpot CRM] account.
+Als u [!DNL HubSpot CRM] -modules wilt gebruiken, moet u een [!DNL HubSpot CRM] -account hebben.
 
-## Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL HubSpot CRM]
+## Verbinden [!DNL Adobe Workfront Fusion] met [!DNL HubSpot CRM]
 
-Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie [Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het verbinden van uw [!DNL HubSpot CRM] rekening met [!DNL Workfront Fusion], zie [ een verbinding tot stand brengen  [!DNL Adobe Workfront Fusion]  - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
->Selecteer bij het configureren van een verbinding de optie **HubSpot CRM** verbindingstype. Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
+>Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0} HubSpot CRM {.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
 
 ## [!DNL HubSpot CRM] modules en hun velden
 
-Wanneer u [!DNL Hubspot CRM] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Hubspot CRM] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Hubspot CRM] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Hubspot CRM] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -95,7 +95,7 @@ Deze zoekmodule zoekt naar CRM-objecten op aangepaste eigenschappen of op query.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -152,7 +152,7 @@ Deze actiemodule leidt tot contact, een bedrijf, of een overeenkomst.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -175,7 +175,7 @@ Deze actiemodule krijgt details van een contact, een bedrijf, of een overeenkoms
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -211,7 +211,7 @@ Deze actiemodule werkt een contact, een bedrijf, of een overeenkomst bij.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -250,7 +250,7 @@ Deze actiemodule schrapt een contact, een bedrijf, of een overeenkomst.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -273,7 +273,7 @@ Deze actiemodule krijgt meta-gegevens voor een specifiek verslagbezit door zijn 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -300,7 +300,7 @@ Deze trekkermodule begint een scenario wanneer een contact, bedrijf, of overeenk
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -342,7 +342,7 @@ Creeert een contact als het niet in een portaal reeds bestaat, of werkt het met 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Properties]</td> 
@@ -361,11 +361,11 @@ Creeert een groep contacten of werkt hen bij als zij reeds bestaan. De prestatie
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Batch of Contacts to Create/Update] </td> 
-   <td> <p>Voeg de partij contacten toe.</p> <p>Klikken <strong>[!UICONTROL Add item]</strong> om een nieuwe contactpersoon toe te voegen. Voer in het venster dat wordt weergegeven de volgende gegevens in of wijs deze toe:</p> 
+   <td> <p>Voeg de partij contacten toe.</p> <p>Klik op <strong>[!UICONTROL Add item]</strong> om een nieuwe contactpersoon toe te voegen. Voer in het venster dat wordt weergegeven de volgende gegevens in of wijs deze toe:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Search Type]</strong> </p> <p>Selecteer hoe u de contactpersoon wilt identificeren:</p> 
       <ul> 
@@ -388,7 +388,7 @@ Deze module voegt contactverslagen toe die reeds in het systeem aan een contactl
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List ID] </td> 
@@ -419,7 +419,7 @@ Hiermee verwijdert u een contactpersoon uit een lijst met contactpersonen.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List ID] </td> 
@@ -440,7 +440,7 @@ Hiermee verwijdert u een contactpersoon uit een lijst met contactpersonen.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID 1] </td> 
@@ -463,7 +463,7 @@ Haalt een lijst met contactpersonen op met de zoekquery.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query]</td> 
@@ -471,14 +471,14 @@ Haalt een lijst met contactpersonen op met de zoekquery.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td>Ga of kaart het maximumaantal contacten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd. </td> 
+   <td>Ga of kaart het maximumaantal contacten in [!DNL Workfront Fusion] zou tijdens één cyclus van de scenariouitvoering moeten terugkeren. </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL List Contacts]
 
-Keert alle contacten terug die in het portaal zijn gecreeerd. De output is beperkt tot 5000 contacten. Om van vorige of volgende contacten een lijst te maken, kunt u gebruiken [!UICONTROL advanced] om de lijst te verschuiven.
+Keert alle contacten terug die in het portaal zijn gecreeerd. De output is beperkt tot 5000 contacten. Als u vorige of volgende contactpersonen wilt vermelden, gebruikt u de parameter [!UICONTROL advanced] om de lijst te verschuiven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -486,11 +486,11 @@ Keert alle contacten terug die in het portaal zijn gecreeerd. De output is beper
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Het maximumaantal contacten [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd. </td> 
+   <td>Het maximumaantal contacten [!DNL Workfront Fusion] zou tijdens één cyclus van de scenariouitvoering moeten terugkeren. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output properties]</td> 
@@ -506,7 +506,7 @@ Keert alle contacten terug die in het portaal zijn gecreeerd. De output is beper
 
 #### [!UICONTROL List Contacts of a Company]
 
-Wint een lijst van contacten in het bedrijf terug. De output is beperkt tot 5000 contacten. Om van vorige of volgende contacten een lijst te maken, kunt u gebruiken [!UICONTROL advanced] om de lijst te verschuiven.
+Wint een lijst van contacten in het bedrijf terug. De output is beperkt tot 5000 contacten. Als u vorige of volgende contactpersonen wilt vermelden, gebruikt u de parameter [!UICONTROL advanced] om de lijst te verschuiven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -514,7 +514,7 @@ Wint een lijst van contacten in het bedrijf terug. De output is beperkt tot 5000
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -522,7 +522,7 @@ Wint een lijst van contacten in het bedrijf terug. De output is beperkt tot 5000
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Het maximumaantal contacten [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd. </td> 
+   <td>Het maximumaantal contacten [!DNL Workfront Fusion] zou tijdens één cyclus van de scenariouitvoering moeten terugkeren. </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Contact ID [start offset] </td> 
@@ -542,7 +542,7 @@ Deze trekkermodule begint een scenario wanneer een nieuw contact aan een lijst w
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List ID]</td> 
@@ -574,7 +574,7 @@ Retourneert alle deal- en kaartpijpleidingen voor een bepaald portaal.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Object Type] </td> 
@@ -593,7 +593,7 @@ Keert een specifieke overeenkomstenpijpleiding terug.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pipeline ID] </td> 
@@ -618,15 +618,15 @@ Haalt een lijst op van bedrijven die op een nauwkeurige gelijke met het domeinbe
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Domain] </td> 
-   <td>Voer het domein in van de bedrijven waarnaar u wilt zoeken, zoals <code>[!DNL hubspot].com</code>. </td> 
+   <td>Voer het domein in van de bedrijven waarnaar u wilt zoeken, zoals <code>[!DNL hubspot].com</code> . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Het maximumaantal ondernemingen [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd. </td> 
+   <td>Het maximumaantal bedrijven [!DNL Workfront Fusion] moet worden geretourneerd tijdens één uitvoeringscyclus van het scenario. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output properties]</td> 
@@ -651,7 +651,7 @@ Deze module maakt een map.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder Name] </td> 
@@ -674,7 +674,7 @@ Hiermee markeert u een map als verwijderd.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -693,7 +693,7 @@ Hiermee verplaatst u een bestand naar een andere map.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID] </td> 
@@ -722,7 +722,7 @@ Verwijdert een bestaand ticket met zijn id.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -754,11 +754,11 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Voer een pad in dat relatief is ten opzichte van https://api.hubapi.com/. Bijvoorbeeld /contacten/v1/lists/all/contacten/all</p> <p>Voor de lijst met beschikbare eindpunten raadpleegt u de <a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] API-documentatie</a>.</p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van https://api.hubapi.com/. Bijvoorbeeld /contacten/v1/lists/all/contacten/all</p> <p>Raadpleeg de <a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] API-documentatie </a> voor de lijst met beschikbare eindpunten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
@@ -774,14 +774,14 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td> <p>Voeg de inhoud van de hoofdtekst van de API-aanroep toe in de vorm van een standaard JSON-object. Plaats de aanhalingstekens buiten de voorwaardelijke instructie wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**Voorbeeld:** De volgende API vraag keert alle contacten in uw terug [!DNL HubSpot] account:
+>**Voorbeeld:** de volgende API vraag keert alle contacten in uw [!DNL HubSpot] rekening terug:
 >
 >**URL**: `/contacts/v1/lists/all/contacts/all`
 >
@@ -789,7 +789,7 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 >
 >![](assets/hubspot-api-config.png)
 >
->De gelijken van het onderzoek kunnen in de Output van de module onder worden gevonden [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL contacts].
+>Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL contacts] .
 >
 >In ons voorbeeld, zijn 3 contacten teruggekeerd:
 >
@@ -797,15 +797,15 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 
 ## Een nieuwe toepassing maken
 
-1. Aanmelden bij uw [!DNL HubSpot] ontwikkelaarsaccount.
-1. Selecteer de **[!UICONTROL Create an App]** -optie.
-1. Voer de toepassingsnaam in en [!UICONTROL Save] het dialoogvenster.
+1. Meld u aan bij uw [!DNL HubSpot] -ontwikkelaarsaccount.
+1. Selecteer de optie **[!UICONTROL Create an App]** .
+1. Voer de toepassingsnaam en het dialoogvenster [!UICONTROL Save] in.
 1. Selecteer het bereik dat u nodig hebt voor uw webhaak.
 
    Bijvoorbeeld, voeg contactwerkingsgebied voor het teweegbrengen van de module toe wanneer een nieuw contact wordt gecreeerd of geschrapt.
 
-   De [!UICONTROL contacts scope] is alles u contacten, overeenkomsten, en de webhooks van de bedrijfgebeurtenis moet ontvangen.
+   De [!UICONTROL contacts scope] is alles wat u nodig hebt om contactpersonen, deals en webpagina&#39;s voor bedrijfsgebeurtenissen te ontvangen.
 
    >[!IMPORTANT]
    >
-   >Vul de [!UICONTROL Redirect URL] veld.
+   >Vul het veld [!UICONTROL Redirect URL] niet in.

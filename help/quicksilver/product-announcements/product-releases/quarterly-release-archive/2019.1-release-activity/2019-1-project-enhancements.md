@@ -24,26 +24,26 @@ Deze pagina beschrijft alle projectverbeteringen inbegrepen met versie 2019.1. D
 
 Voor een lijst van alle veranderingen die in 2019.1 worden aangebracht, zie &quot;Overzicht van de Activiteit van de Versie 2019.1.&quot;
 
-**Voor beheerders**
+**voor beheerders**
 
-* [Sjablonen herstellen vanuit de prullenbak](#restore-templates-from-the-recycle-bin)
-* [Tijdstempels tonen voor Datumvelden in Home](#show-timestamps-for-date-fields-in-home)
+* [ herstelt Malplaatjes van de Bak van de Recycling ](#restore-templates-from-the-recycle-bin)
+* [ toon Tijdstempels voor de Gebieden van de Datum in Huis ](#show-timestamps-for-date-fields-in-home)
 * [Alle soorten Duur Beschikbaar onder de Voorkeur van het Project](#all-duration-types-available-under-project-preferences)
 
-**Voor alle gebruikers**
+**voor alle gebruikers**
 
-* [Agile-verbeteringen](#agile-improvements)
-* [Taken en problemen uit een lijst toevoegen aan een herhaling](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [Nieuwe papierformaten voor Gantt Chart Export](#new-paper-sizes-for-gantt-chart-export)
-* [Toegang tot dialoogvensters in Gantt-diagram is verwijderd terwijl de bewerkingsmodus actief is](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [De Informatie van de Taak van de mening in de Grafiek van Gantt van de Lijst van het Project in een Programma of een Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Heb toegang tot de Gantt Grafiek van de Lijst van de Taak op Malplaatjes](#access-the-task-list-gantt-chart-on-templates)
-* [De naam van de projectweergave wijzigen in de Gantt-grafiek](#renamed-the-project-view-on-the-gantt-chart)
-* [Wat-als Scenario&#39;s in de Grafiek van Gantt van de Lijst van de Taak](#what-if-scenarios-in-the-task-list-gantt-chart)
-* [Verbeteringen taaklijst](#task-list-improvements)
-* [Lijsten op volledig scherm weergeven](#display-lists-in-full-screen)
-* [Nieuwe lijsten in extra gebieden](#new-lists-in-additional-areas)
-* [Verzend een Geleverd Rapport in formaat XLSX](#send-a-delivered-report-in-xlsx-format)
+* [ de Verbeteringen van de Gelijkheid ](#agile-improvements)
+* [ voegt Taken en Kwesties van een Lijst aan een Herhaling ](#add-tasks-and-issues-from-a-list-to-an-iteration) toe
+* [ Nieuwe Grootte van het Papier voor de Uitvoer van de Grafiek van Gantt ](#new-paper-sizes-for-gantt-chart-export)
+* [ Verwijderde Toegang tot de Boxen van de Dialoog in de Grafiek van Gantt terwijl op Edit Wijze ](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [ de Informatie van de Taak van de Mening in de Grafiek van Gantt van de Lijst van het Project in een Programma of een Portfolio ](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [ heb toegang tot de Gantt Grafiek van de Lijst van de Taak op Malplaatjes ](#access-the-task-list-gantt-chart-on-templates)
+* [ anders genoemd de Mening van het Project op de Grafiek van Gantt ](#renamed-the-project-view-on-the-gantt-chart)
+* [ wat-als Scenario&#39;s in de Grafiek van Gantt van de Lijst van de Taak ](#what-if-scenarios-in-the-task-list-gantt-chart)
+* {de Verbeteringen van de Lijst van 0} Taak ](#task-list-improvements)[
+* [ Lijsten van de Vertoning in Volledig Scherm ](#display-lists-in-full-screen)
+* [ Nieuwe Lijsten in Extra Gebieden ](#new-lists-in-additional-areas)
+* [ verzend een Geleverd Rapport in Formaat XLSX ](#send-a-delivered-report-in-xlsx-format)
 * [Controlelogbestanden exporteren](#export-audit-logs)
 
 ## Sjablonen herstellen vanuit de prullenbak {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ Voor informatie over het plannen van rapporten voor levering, zie &quot;de Lever
 
 ## Verbeteringen taaklijst {#task-list-improvements}
 
-[update 18.3 Beta 4 waar dit werd verwijderd uit]
+[ update 18.3 Beta 4 waar dit werd verwijderd uit ]
 
 De nieuw opnieuw ontworpen taaklijsten zijn opnieuw toegelaten, na een korte verwijdering tijdens 18.3 bèta 4 versie. Wij hebben ook de volgende extra eigenschappen aan de taaklijsten geïntroduceerd die geen deel van de originele versie vormden:
 

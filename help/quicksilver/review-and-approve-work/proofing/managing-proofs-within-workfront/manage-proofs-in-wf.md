@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Proefdrukken beheren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
-* [Proefversies beheren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
-* [Revisoren van proefdrukken beheren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
-* [Proofingsberichten beheren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
-* [Proofingdeadlines beheren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+* [ beheert proeven ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+* [ beheert proefversies ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+* [ beheert proefrevisoren ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+* [ beheer proefdrukberichten ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+* [ beheer proefdrukdeadlines ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
 * [Automatisch proefdrukken beheren](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)

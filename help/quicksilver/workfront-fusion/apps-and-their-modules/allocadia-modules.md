@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Allocadia
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die Allocadia gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Allocadia gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Allocadia] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Allocadia]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Allocadia] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,44 +43,44 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Allocadia] modules, moet u een [!DNL Allocadia] account.
+Als u [!DNL Allocadia] -modules wilt gebruiken, moet u een [!DNL Allocadia] -account hebben.
 
-## Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]
+## Verbinden [!DNL Allocadia] met [!DNL Workfront Fusion]
 
-U kunt een verbinding maken met uw [!DNL Allocadia] rechtstreeks vanuit een [!DNL Allocadia] module.
+U kunt rechtstreeks vanuit een [!DNL Allocadia] -module verbinding maken met uw [!DNL Allocadia] -account.
 
-1. In alle [!DNL Allocadia] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
+1. Klik in een willekeurige [!DNL Allocadia] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Selecteer of u de server van Noord-Amerika of de server van Europa wilt gebruiken.
 1. Voer uw gebruikersnaam en wachtwoord in.
-1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug naar de module te gaan.
+1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 ## [!DNL Allocadia] modules en hun velden
 
-Wanneer u [!DNL Allocadia] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Allocadia] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Allocadia] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Allocadia] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -92,7 +92,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Watch Record]
 
-Deze triggermodule voert een scenario uit wanneer objecten van een specifiek type worden toegevoegd, bijgewerkt of beide. De module retourneert alle standaardvelden die zijn gekoppeld aan de record of records, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+Deze triggermodule voert een scenario uit wanneer objecten van een specifiek type worden toegevoegd, bijgewerkt of beide. De module retourneert alle standaardvelden die zijn gekoppeld aan de record of records, samen met aangepaste velden en waarden die de verbinding opent. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -101,11 +101,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het verbinden van uw Allocadia-account met [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] naar Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] voor Workfront Fusion </a> in dit artikel voor instructies over het verbinden van uw Allocadia-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <p>Selecteer of u het scenario op Alleen Nieuwe records wilt letten, [!UICONTROL Updated Records Only]of Nieuwe en bijgewerkte records.</p> </td> 
+   <td> <p>Selecteer of u het scenario op Nieuwe slechts Verslagen, [!UICONTROL Updated Records Only], of Nieuwe en Bijgewerkte Verslagen wilt letten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type entiteit</td> 
@@ -132,7 +132,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Custom API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Allocadia] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Allocadia] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Allocadia] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Allocadia] -modules kan worden uitgevoerd.
 
 De handeling is gebaseerd op het door u opgegeven eenheidstype (allocadia-objecttype).
 
@@ -144,15 +144,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Allocadia] account aan [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Allocadia] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Allocadia] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Een pad invoeren ten opzichte van <code>https://api-na.allocadia.com/{version}</code> of <code>https://api-eu.allocadia.com/{version}</code>.</td> 
+   <td>Voer een pad in dat is gebaseerd op <code>https://api-na.allocadia.com/{version}</code> of <code>https://api-eu.allocadia.com/{version}</code> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -160,11 +160,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -174,7 +174,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Read Record]
 
-Deze actiemodule leest gegevens uit één record in [!DNL Allocadia].
+Deze actiemodule leest gegevens uit één record in [!DNL Allocadia] .
 
 U geeft de id van de record op.
 
@@ -188,19 +188,19 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Allocadia] account aan [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Allocadia] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Allocadia] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Selecteer het type van [!DNL Allocadia] record dat de module moet lezen.</td> 
+   <td>Selecteer het type [!DNL Allocadia] record dat u wilt lezen in de module.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td> <p>Selecteer de velden die u in de uitvoer van de module wilt opnemen. Beschikbare velden zijn afhankelijk van de [!UICONTROL Entity Type] geselecteerd.</p> </td> 
+   <td> <p>Selecteer de velden die u in de uitvoer van de module wilt opnemen. Welke velden beschikbaar zijn, is afhankelijk van de geselecteerde [!UICONTROL Entity Type] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL Allocadia] Id van de record die de module moet lezen.</td> 
+   <td>Voer de unieke [!DNL Allocadia] -id in of wijs deze toe aan de record die u wilt lezen in de module.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +209,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 Deze actiemodule maakt een record.
 
-De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de id van de record en de bijbehorende velden, samen met eventuele aangepaste velden en waarden waartoe de verbinding toegang heeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -219,7 +219,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Allocadia] account aan [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Allocadia] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Allocadia] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -256,7 +256,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Allocadia] account aan [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Allocadia] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Allocadia] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -286,11 +286,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Allocadia] account aan [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Allocadia] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!UICONTROL Allocadia] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Selecteer het type van [!DNL Allocadia] record dat de module moet worden bijgewerkt. Andere velden worden weergegeven op basis van het eenheidstype dat u selecteert.</td> 
+   <td>Selecteer het type [!DNL Allocadia] record dat u wilt bijwerken in de module. Andere velden worden weergegeven op basis van het eenheidstype dat u selecteert.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
@@ -303,13 +303,13 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Search Record]
 
-Deze zoekmodule zoekt naar records in een object in [!DNL Allocadia] die overeenkomen met de zoekquery die u opgeeft.
+Deze zoekmodule zoekt naar records in een object in [!DNL Allocadia] dat overeenkomt met de zoekquery die u opgeeft.
 
 U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 U geeft het gewenste type records op.
 
-Als u deze module configureert, worden de volgende velden weergegeven.
+Wanneer u deze module configureert, worden de volgende velden weergegeven.
 
 <table style="table-layout:auto">
  <col> 
@@ -317,11 +317,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Allocadia] account aan [!DNL Workfront Fusion], zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Allocadia] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Allocadia] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Allocadia] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Selecteer het type van [!DNL Allocadia] record waarnaar u wilt zoeken in de module. </td> 
+   <td>Selecteer het type [!DNL Allocadia] -record waarnaar u in de module wilt zoeken. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
@@ -337,7 +337,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search criteria]</td> 
-   <td>Selecteer het veld waarnaar u wilt zoeken, selecteer de bewerking en voer de waarde in of wijs de waarde toe waarnaar u wilt zoeken. U kunt [!DNL AND] of [!DNL OR] regels om uw zoekopdracht verder te filteren.</td> 
+   <td>Selecteer het veld waarnaar u wilt zoeken, selecteer de bewerking en voer de waarde in die u wilt zoeken. U kunt regels [!DNL AND] of [!DNL OR] toevoegen om uw zoekopdracht verder te filteren.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 

@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario's, kunt u werkschema's automatiseren die OneDrive gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die OneDrive gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Microsoft OneDrive] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL OneDrive]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL OneDrive] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,36 +43,36 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL OneDrive] modules, moet u een [!DNL Microsoft OneDrive] account.
+Als u [!DNL OneDrive] -modules wilt gebruiken, moet u een [!DNL Microsoft OneDrive] -account hebben.
 
 
 
 
-## De [!DNL OneDrive] service aan [!DNL Workfront Fusion]
+## De service [!DNL OneDrive] verbinden met [!DNL Workfront Fusion]
 
-Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -82,9 +82,9 @@ Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!UICONT
 
 ## [!DNL Microsoft OneDrive] modules en hun velden
 
-Wanneer u [!DNL OneDrive] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL OneDrive] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL OneDrive] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL OneDrive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -114,7 +114,7 @@ Deze triggermodule start een scenario wanneer een bestand of map wordt gemaakt o
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Files/Folders]</td> 
@@ -140,7 +140,7 @@ Deze triggermodule start een scenario wanneer een bestand of map wordt gemaakt o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Selecteer of u bestanden, mappen of beide wilt bekijken.</p> <p>Opmerking: u kunt niet controleren op mappen in een [!UICONTROL Shared With Me] rijden.</p> </td> 
+   <td> <p>Selecteer of u bestanden, mappen of beide wilt bekijken.</p> <p>Opmerking: u kunt niet controleren op mappen in een [!UICONTROL Shared With Me] -station.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -161,7 +161,7 @@ Deze zoekmodule retourneert bestanden en mappen op basis van criteria die u inst
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
@@ -173,13 +173,13 @@ Deze zoekmodule retourneert bestanden en mappen op basis van criteria die u inst
        <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigeer naar de map waarnaar u in de module wilt zoeken. U kunt ook een query invoeren om de geretourneerde resultaten te filteren.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>De module zoekt bestanden die met de eigenaar van het station zijn gedeeld.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die u wilt doorzoeken in de module. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarnaar u in de module wilt zoeken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan de aandrijving u de module wilt zoeken.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Selecteer of u naar bestanden, mappen of beide wilt zoeken.</p> <p>Opmerking: u kunt niet zoeken naar mappen in een [!UICONTROL Shared With Me] rijden.</p> </td> 
+   <td> <p>Selecteer of u naar bestanden, mappen of beide wilt zoeken.</p> <p>Opmerking: u kunt niet zoeken naar mappen in een [!UICONTROL Shared With Me] -station.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -198,7 +198,7 @@ Deze actiemodule krijgt de meta-gegevens van een gespecificeerd dossier.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -227,11 +227,11 @@ Deze actiemodule krijgt de meta-gegevens van een gespecificeerd dossier.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u wilt krijgen. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u wilt krijgen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
-   <td> <p>Als u [!UICONTROL Enter Manually], voert u de bestands-id of het pad in van het bestand dat u wilt ophalen.</p> <p>Als u [!UICONTROL Select from the list]selecteert u het bestand dat u wilt ophalen.</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt ophalen.</p> <p>Als u [!UICONTROL Select from the list] hebt geselecteerd, selecteert u het bestand dat u wilt ophalen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -246,7 +246,7 @@ Deze actiemodule downloadt het opgegeven bestand.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -275,11 +275,11 @@ Deze actiemodule downloadt het opgegeven bestand.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u wilt downloaden. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u wilt downloaden. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
-   <td> <p>Als u [!UICONTROL Enter Manually], voert u de bestands-id of het pad in van het bestand dat u wilt downloaden.</p> <p>Als u [!UICONTROL Select from the list]selecteert u het bestand dat u wilt downloaden.</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt downloaden.</p> <p>Als u [!UICONTROL Select from the list] hebt geselecteerd, selecteert u het bestand dat u wilt downloaden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Convert to PDF]</td> 
@@ -334,7 +334,7 @@ Deze actiemodule uploadt een bestand naar de opgegeven map.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (locatie-id en pad van map)</td> 
@@ -349,13 +349,13 @@ Deze actiemodule uploadt een bestand naar de opgegeven map.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station dat het bestand bevat dat u wilt ophalen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die de map bevat waarin u een bestand wilt uploaden. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die de map bevat waarin u een bestand wilt uploaden. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station de map bevat waarin u een bestand wilt uploaden.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer het station dat de map bevat waarnaar u een bestand wilt uploaden. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer het station dat de map bevat waarnaar u een bestand wilt uploaden. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -382,7 +382,7 @@ Deze actiemodule maakt een nieuwe map in het opgegeven station.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
@@ -393,13 +393,13 @@ Deze actiemodule maakt een nieuwe map in het opgegeven station.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station waarop u een map wilt maken.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site waar u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep die eigenaar is van het stuurprogramma waarop u een map wilt maken.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer het station waarop u een map wilt maken. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer het station waarop u een map wilt maken. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -426,7 +426,7 @@ Deze actiemodule retourneert een gedeelde koppeling voor het opgegeven bestand.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -455,11 +455,11 @@ Deze actiemodule retourneert een gedeelde koppeling voor het opgegeven bestand.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u een aandeelverbinding voor wilt terugwinnen. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u een aandeelverbinding voor wilt terugwinnen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
-   <td> <p>Als u [!UICONTROL Enter Manually], voert u de bestands-id of het pad in van het bestand waarvoor u een gedeelde koppeling wilt ophalen.</p> <p>Als u [!UICONTROL Select] Selecteer in de lijst het bestand waarvoor u een gedeelde koppeling wilt ophalen.</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand waarvoor u een gedeelde koppeling wilt ophalen.</p> <p>Als u [!UICONTROL Select] hebt geselecteerd in de lijst, selecteert u het bestand waarvoor u een gedeelde koppeling wilt ophalen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Permission Type]</td> 
@@ -482,7 +482,7 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -505,13 +505,13 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat dat u wilt verplaatsen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die het bestand of de map bevat die u wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die het bestand of de map bevat die u wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand of de map bevat die u wilt verplaatsen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier of de omslag bevat die u wilt bewegen. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier of de omslag bevat die u wilt bewegen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Selecteren [!UICONTROL File/Folder]</td> 
@@ -519,7 +519,7 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> <p role="rowheader">[!UICONTROL Folder] / [!UICONTROL Folder ID] / [!UICONTROL Folder Path]</p> </td> 
-   <td> <p>Als u [!UICONTROL Enter Manually], voert u de id of het pad in van het bestand of de map die u wilt verplaatsen.</p> <p>Als u [!UICONTROL Select] Selecteer in de lijst het bestand of de map die u wilt verplaatsen.</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de id of het pad in van het bestand of de map die u wilt verplaatsen.</p> <p>Als u [!UICONTROL Select] in de lijst hebt geselecteerd, selecteert u het bestand of de map die u wilt verplaatsen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
@@ -538,13 +538,13 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u het bestand of de map wilt verplaatsen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Plaats waar u het bestand of de map wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarnaar u het bestand of de map wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarnaar u het bestand of de map wilt verplaatsen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs het station toe dat de map bevat waarnaar u het bestand of de map wilt verplaatsen. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> <p>Als u dit leeg laat, kunt u het bestand of de map alleen binnen dezelfde map verplaatsen [!DNL OneDrive].</p> <p>U kunt bestanden en mappen verplaatsen vanuit [!UICONTROL My Drive] een [!UICONTROL Site's Drive] of [!UICONTROL Group's Drive]. </p> <p>U kunt bestanden verplaatsen van een [!UICONTROL Site's Drive] alleen op hetzelfde station op dezelfde site.</p> <p>U kunt bestanden verplaatsen van een [!UICONTROL Group's Drive] alleen op hetzelfde station in dezelfde groep.</p> </td> 
+   <td> <p>Selecteer of wijs het station toe dat de map bevat waarnaar u het bestand of de map wilt verplaatsen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> <p>Als u dit leeg laat, kan het bestand of de map alleen binnen dezelfde [!DNL OneDrive] worden verplaatst.</p> <p>U kunt bestanden en mappen verplaatsen van [!UICONTROL My Drive] naar een [!UICONTROL Site's Drive] of een [!UICONTROL Group's Drive] . </p> <p>U kunt bestanden van een [!UICONTROL Site's Drive] alleen naar hetzelfde station op dezelfde site verplaatsen.</p> <p>U kunt bestanden van een [!UICONTROL Group's Drive] alleen naar hetzelfde station in dezelfde groep verplaatsen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -563,7 +563,7 @@ Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -592,11 +592,11 @@ Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat dat u wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat dat u wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> </td> 
-   <td> <p>Als u [!UICONTROL Enter Manually], voert u de id of het pad in van het bestand dat u wilt kopiëren.</p> <p>Als u [!UICONTROL Select] Selecteer het bestand dat u wilt kopiëren in de lijst.</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de id of het pad in van het bestand dat u wilt kopiëren.</p> <p>Als u [!UICONTROL Select] in de lijst hebt geselecteerd, selecteert u het bestand dat u wilt kopiëren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
@@ -615,13 +615,13 @@ Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u het bestand wilt kopiëren.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site waar u het bestand wilt kopiëren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u het bestand wilt kopiëren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarnaar u het bestand wilt kopiëren.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs het station toe dat de map bevat waarnaar u het bestand wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> <p>Als u dit leeg laat, kunt u het bestand of de map alleen kopiëren binnen dezelfde map [!UICONTROL OneDrive].</p> <p>U kunt bestanden en mappen kopiëren uit [!UICONTROL My Drive] een [!UICONTROL Site's Drive] of [!UICONTROL Group's Drive]. </p> <p>U kunt bestanden kopiëren uit een [!UICONTROL Site's Drive] alleen op hetzelfde station op dezelfde site.</p> <p>U kunt bestanden kopiëren uit een [!UICONTROL Group's Drive] alleen op hetzelfde station in dezelfde groep.</p> </td> 
+   <td> <p>Selecteer of wijs het station toe dat de map bevat waarnaar u het bestand wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> <p>Als u dit leeg laat, kan het bestand of de map alleen worden gekopieerd binnen dezelfde [!UICONTROL OneDrive] .</p> <p>U kunt bestanden en mappen kopiëren van [!UICONTROL My Drive] naar een [!UICONTROL Site's Drive] of een [!UICONTROL Group's Drive] . </p> <p>U kunt bestanden van een [!UICONTROL Site's Drive] alleen naar hetzelfde station op dezelfde site kopiëren.</p> <p>U kunt bestanden van een [!UICONTROL Group's Drive] alleen naar hetzelfde station in dezelfde groep kopiëren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -644,7 +644,7 @@ In deze actiemodule wordt het geselecteerde bestand verwijderd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File/Folder ID & Path)]</td> 
@@ -667,13 +667,13 @@ In deze actiemodule wordt het geselecteerde bestand verwijderd.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat die u wilt verwijderen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] Site die het bestand of de map bevat die u wilt verwijderen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die het bestand of de map bevat die u wilt verwijderen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand of de map bevat die u wilt verwijderen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs het station toe dat het bestand of de map bevat die u wilt verwijderen. Dit veld is niet beschikbaar als u [!UICONTROL No] in de [!UICONTROL Enable to Enter a Drive ID] veld.</p> </td> 
+   <td> <p>Selecteer of wijs het station toe dat het bestand of de map bevat die u wilt verwijderen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Selecteren [!UICONTROL File/Folder]</td> 
@@ -681,7 +681,7 @@ In deze actiemodule wordt het geselecteerde bestand verwijderd.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
-   <td> <p>Als u [!UICONTROL Enter Manually], voert u de bestands-id of het pad in van het bestand dat u wilt verwijderen.</p> <p>Als u [!UICONTROL Select] Selecteer in de lijst het bestand dat u wilt verwijderen.</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt verwijderen.</p> <p>Als u [!UICONTROL Select] in de lijst hebt geselecteerd, selecteert u het bestand dat u wilt verwijderen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -698,15 +698,15 @@ Deze module voert een aangepaste API-aanroep uit.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Een pad invoeren ten opzichte van <code>https://graph.microsoft.com</code>. Voorbeeld:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Voer een pad in dat relatief is ten opzichte van <code>https://graph.microsoft.com</code> . Voorbeeld:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -718,7 +718,7 @@ Deze module voert een aangepaste API-aanroep uit.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -732,6 +732,6 @@ Deze module voert een aangepaste API-aanroep uit.
 
 Er zijn verschillende mogelijke problemen wanneer het uploaden of bijwerken van een bestand mislukt:
 
-* Het geüploade bestand is te groot en overschrijdt de maximale bestandsgrootte voor uw [!DNL OneDrive] of u hebt al uw [!DNL OneDrive] opslagquotum van de account. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL OneDrive] of upgrade uw [!DNL OneDrive] account.
-* OneDrive staat het uploaden van twee bestanden met dezelfde naam naar één map niet toe. Als de doelmap een bestand bevat met dezelfde naam als het bestand dat wordt geüpload, wordt de uitvoering van het scenario afgesloten met een fout. U kunt de naam wijzigen van het bestand dat wordt geüpload. Als u een bestand wilt bijwerken, gebruikt u de opdracht [!UICONTROL Update a file] handeling.
+* Het geüploade bestand is te groot en overschrijdt de maximale bestandsgroottelimiet voor uw [!DNL OneDrive] -abonnement of u hebt de volledige opslaglimiet van uw [!DNL OneDrive] -account gebruikt. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL OneDrive] of werkt u een upgrade uit op uw [!DNL OneDrive] -account.
+* OneDrive staat het uploaden van twee bestanden met dezelfde naam naar één map niet toe. Als de doelmap een bestand bevat met dezelfde naam als het bestand dat wordt geüpload, wordt de uitvoering van het scenario afgesloten met een fout. U kunt de naam wijzigen van het bestand dat wordt geüpload. Gebruik de handeling [!UICONTROL Update a file] als u een bestand wilt bijwerken.
 * De eerder geselecteerde map, waarnaar het bestand wordt geüpload, bestaat niet meer. Het scenario stopt en u moet de doelmap opnieuw selecteren.

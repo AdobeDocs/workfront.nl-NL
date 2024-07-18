@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Veelgestelde vragen over Adobe Workfront Fusion-sjablonen
-description: In dit artikel worden veelgestelde vragen over [!DNL Adobe Workfront Fusion scenario] sjablonen.
+description: Dit artikel richt gemeenschappelijke vragen over  [!DNL Adobe Workfront Fusion scenario]  malplaatjes.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] sjablonen, veelgestelde vragen
+# [!DNL Adobe Workfront Fusion] sjablonen - Veelgestelde vragen
 
 ## Toegangsvereisten
 
@@ -35,25 +35,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Hoe kan ik een malplaatje met andere gebruikers delen?
 
@@ -61,13 +61,13 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 De opgeslagen sjabloon wordt automatisch gedeeld met uw teamleden. Als u het met gebruikers wilt delen die geen lid van uw team zijn, moet u het publiceren. U kunt het dan met een verbinding delen, of de beheerder vragen om het malplaatje openbaar te maken.
 
-Zie voor meer informatie [Publiceren en delen [!DNL Adobe Workfront Fusion templates]](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+Voor meer informatie, zie [ Publish en deel  [!DNL Adobe Workfront Fusion templates]](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
 
 ## Hoe kan ik een openbare sjabloon bewerken of verwijderen?
 
 **Antwoord**:
 
-Zie [Weergeven, bewerken en verwijderen [!DNL Adobe Workfront Fusion] sjablonen](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
+Zie [ Mening, geef, en schrap  [!DNL Adobe Workfront Fusion]  malplaatjes ](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md) uit.
 
 ## Ik kan geen openbare malplaatje vinden dat ik oorspronkelijk creeerde. Wat kan ik doen?
 

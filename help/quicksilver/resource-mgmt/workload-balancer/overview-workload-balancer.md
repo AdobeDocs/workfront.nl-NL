@@ -26,11 +26,11 @@ Nadat de projectmanagers het werk op projecten door taken te creëren plannen en
 >
 >U kunt de werklastbalans gebruiken om daadwerkelijk werk (taken en problemen) toe te wijzen aan gebruikers.
 >
->U moet de Planner van het Middel en niet de Balancer van de Werkbelasting gebruiken om baanroltoewijzingen voor uw projecten, op een hoog niveau te schatten. Voor meer informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>U moet de Planner van het Middel en niet de Balancer van de Werkbelasting gebruiken om baanroltoewijzingen voor uw projecten, op een hoog niveau te schatten. Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 In dit artikel wordt het algemene doel van Workload Balancer beschreven en een aantal van de beste werkwijzen voor hoe u projecten en bronnen kunt instellen om het programma met succes te gebruiken.
 
-Ga naar de [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) pagina. Selecteer in het linkermenu de optie **Bronnen beheren** > **Werklastverdeling** en kiest u een zelfstudie.
+Om videoleerprogramma&#39;s van de Balancer van de Werklast te herzien, ga naar de [ Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) pagina. In het linkermenu, uitgezochte **beheert middelen** > **de Balancer van de Werklast** en kiest een leerprogramma.
 
 ## De werklastbalans zoeken
 
@@ -44,7 +44,7 @@ Wij adviseren gebruikend de Balancer van de Werklast op de volgende gebieden voo
 * Op het projectniveau, in de sectie van de Balancer van de Werkbelasting van een project.
 * Op teamniveau, in de sectie van de Balancer van de Werkbelasting van een team.
 
-Zie voor meer informatie over het zoeken naar de werklastbalans [De werklastbalans zoeken](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Voor meer informatie over het lokaliseren van de Balancer van de Werkbelasting, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Voordelen van de werklastbalans
 
@@ -58,53 +58,53 @@ Houd rekening met de volgende voordelen wanneer u de werklastverdeling gebruikt:
 * Als personenmanager kunt u uw mensen beschermen tegen uitbarsting en hen machtigen om hun beste werk met betere nadruk, kwaliteit, en betrokkenheid te doen. U kunt hun volledig gebruik verzekeren, silo&#39;s breken, en groepering van het werk over teams toelaten.
 * Wanneer u werk op het taak- of uitgaveniveau toewijst, hebt u geen zichtbaarheid in hoe druk een gebruiker zou kunnen zijn. Als u de werklastbalans gebruikt, kunt u zien welke gebruikers in hun werklast beschikbaar zijn om de taak of het probleem op tijd te voltooien. Dit omvat hun tijd uit en programma uitzonderingsdetails.
 
-  Zie voor meer informatie [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Voor meer informatie, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  U kunt werkitems ook bulksgewijs toewijzen, waardoor het eenvoudiger wordt om veel werkitems tegelijk over meerdere projecten te distribueren. Zie voor meer informatie [Werk in bulk toewijzen met Werklastverdeling](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  U kunt werkitems ook bulksgewijs toewijzen, waardoor het eenvoudiger wordt om veel werkitems tegelijk over meerdere projecten te distribueren. Voor meer informatie, zie [ werk in bulk toewijzen gebruikend de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * De managers kunnen geschikte personeelsbesluiten door transparantie in maken hoe de mensen in hun organisatie worden gebruikt.
-* De leden van het team profiteren van betere samenwerking, aangezien zij allen kunnen bekijken wat hun medewerkers op elk bepaald ogenblik werken aan. Voor informatie over de toegang nodig om middelen in de Balancer van de Werkbelasting te bekijken of te beheren, zie [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* U deelt de bron met iedereen die geen toegang heeft tot het brongebied door er een koppeling naar in te sluiten in een aangepast tabblad. Zie voor meer informatie [De werklastbalans delen met een koppeling](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* De leden van het team profiteren van betere samenwerking, aangezien zij allen kunnen bekijken wat hun medewerkers op elk bepaald ogenblik werken aan. Voor informatie over de toegang nodig om middelen in de Balancer van de Werklast te bekijken of te beheren, zie [ Toegang nodig om middelen in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md) te beheren.
+* U deelt de bron met iedereen die geen toegang heeft tot het brongebied door er een koppeling naar in te sluiten in een aangepast tabblad. Voor informatie, zie [ de Balancer van de Werkbelasting met een verbinding ](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md) delen
 * U kunt de werklasten en de vraag van mensen visualiseren en beheren in één weergave op algemeen, projectniveau of teamniveau, afhankelijk van uw rol. Bij het beheren van projecten omvat dit niet alleen de toewijzing van middelen voor het project, maar ook het visualiseren van de toewijzing van middelen uit de Adobe Workfront Scenario Planner. Personenmanagers gebruiken de Workfront Scenario Planner om baanvaardigheden in de hele organisatie te beheren. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring.
 
   >[!NOTE]
   >
-  >  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+  >  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../scenario-planner/scenario-planner-overview.md).
 
 
 ## Aanbevolen werkwijzen voor het gebruik van de werklastbalans
 
 Wij adviseren de volgende beste praktijken voor de planning van projecten, het vormen van gebruikers, en het gebruiken van filters alvorens uw middelen te beginnen plannen gebruikend de Balancer van de Werkbelasting.
 
-* [Aanbevolen werkwijzen voor het weergeven van informatie in Workload Balancer](#best-practices-for-displaying-information-in-the-workload-balancer)
-* [Aanbevolen procedures voor het instellen van gebruikers](#best-practices-for-setting-up-users)
+* [ Beste praktijken voor het tonen van informatie in de Balancer van de Werkbelasting ](#best-practices-for-displaying-information-in-the-workload-balancer)
+* [ Beste praktijken voor vestiging gebruikers ](#best-practices-for-setting-up-users)
 * [Aanbevolen procedures voor het instellen van taken en problemen](#best-practices-for-setting-up-tasks-and-issues)
 
 ### Aanbevolen werkwijzen voor het weergeven van informatie in Workload Balancer {#best-practices-for-displaying-information-in-the-workload-balancer}
 
 Wij adviseren dat u filters gebruikt zodat u slechts de informatie kunt tonen die voor u voor zowel unassigned als toegewezen het werkpunten relevant is.
 
-Zie voor informatie over het maken en gebruiken van filters in Workload Balancer [Gegevens in de werklastbalans filteren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Voor informatie over het creëren van en het gebruiken van filters in de Balancer van de Werkbelasting, zie [ informatie van de Filter in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ### Aanbevolen procedures voor het instellen van gebruikers
 
 * Als gebruiker die programma&#39;s voor anderen werkt, moet u de correcte toegang en de toestemmingen hebben om middelen voor het werk te plannen.
 
-  Voor informatie over de toegang nodig om de werkbelasting van uw bronnen in de werklastverhouding te beheren, raadpleegt u [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+  Voor informatie over de toegang nodig om de werkbelasting van uw middelen in de Balancer van de Werkbelasting te beheren, zie [ Toegang nodig om middelen in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md) te beheren.
 
 * De gebruikers van wie werkbelasting u wilt leiden moeten aan de volgende criteria voldoen zodat de informatie over hun beschikbaarheid en vaardigheden nauwkeurig is:
 
    * Aan hun profiel gekoppelde schema&#39;s en taakrollen hebben.
 
-     Voor meer informatie over het associëren van Programma&#39;s en de Rollen van de Baan met gebruikers, zie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+     Voor meer informatie over het associëren van Programma&#39;s en de Rollen van de Baan met gebruikers, zie [ gebruikers ](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen
    * Als een gebruiker niet aan een Programma wordt geassocieerd, wordt het StandaardProgramma van uw systeem van Workfront geassocieerd met de gebruiker door gebrek, voor middelbeheer.
    * Heb de Uitzonderingen van het Programma die in hun programma&#39;s worden bijgewerkt.
 
-     Voor meer informatie over het creëren van programma&#39;s, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+     Voor meer informatie over het creëren van programma&#39;s, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren
 
    * De time-outkalender laten bijwerken in hun profiel.
 
-     Voor informatie over het bijwerken van de kalender van de Tijd van een gebruiker, zie [Persoonlijke tijd uit configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Voor informatie over het bijwerken van de Tijd van een gebruiker van kalender, zie [ persoonlijke tijd van ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen.
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
@@ -115,7 +115,7 @@ Zie voor informatie over het maken en gebruiken van filters in Workload Balancer
 
 * De Workfront-beheerder moet bepalen hoe Workfront de beschikbaarheid van de gebruiker berekent. Zij kunnen beslissen of Workfront het Standaardschema van het Systeem, of het programma van de gebruiker gebruikt om de tijd te berekenen dat de gebruiker aan het werk door de voorkeur van het Beheer van het Middel in het gebied van de Opstelling van Workfront aan te passen beschikbaar is.
 
-  Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 ### Aanbevolen procedures voor het instellen van taken en problemen {#best-practices-for-setting-up-tasks-and-issues}
 
@@ -131,15 +131,15 @@ Zorg ervoor dat de volgende taak en probleeminstellingen aanwezig zijn voordat u
 
 * Lees de volgende artikelen voordat u de werklastbalans gaat gebruiken:
 
-   * In dit artikel wordt uitgelegd hoe u door de werklastbalans kunt navigeren om de volgende handelingen uit te voeren: [Navigeren door werklastbalans](../workload-balancer/navigate-the-workload-balancer.md).
+   * Dit artikel loopt u door hoe te om de Balancer van de Werkbelasting te navigeren om deze acties uit te voeren: [ navigeer de Balancer van de Werkbelasting ](../workload-balancer/navigate-the-workload-balancer.md).
 
    * In de volgende artikelen wordt uitgelegd hoe u werk toewijst en gebruikerstoewijzingen beheert:
 
-      * [Overzicht van het toewijzen van werk in de werklastverdeler](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Toewijzingen van gebruikers beheren in Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* De werklastbalans kan worden gevonden in verschillende delen van Workfront. Ga voor meer informatie over waar u de werklastbalans kunt vinden naar [De werklastbalans zoeken](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* De werklastbalans kan worden gevonden in verschillende delen van Workfront. Voor informatie over waar u de Balancer van de Werkbelasting kunt vinden, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Toegang vereist voor gebruik van werklastbalans
 
-U moet over de juiste Workfront-toegang en -machtigingen voor specifieke projecten beschikken om de Workload Balancer in Workfront te kunnen weergeven en gebruiken. Raadpleeg het artikel voor informatie over de toegang die nodig is om de werklastbalans te gebruiken [Toegang vereist voor het beheer van bronnen in het werklastevenwicht](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+U moet over de juiste Workfront-toegang en -machtigingen voor specifieke projecten beschikken om de Workload Balancer in Workfront te kunnen weergeven en gebruiken. Voor informatie over de toegang nodig om de Balancer van de Werklast te gebruiken, zie de artikel [ Toegang nodig om middelen in de Balancer van de Werklast te beheren ](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

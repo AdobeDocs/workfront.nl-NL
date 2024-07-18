@@ -1,9 +1,9 @@
 ---
-title: OAuth2-toepassingen maken voor [!DNL Workfront] integratie
+title: Creeer toepassingen OAuth2 voor  [!DNL Workfront]  integratie
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Als [!DNL Adobe Workfront] beheerder, kunt u toepassingen OAuth2 voor uw geval tot stand brengen van [!DNL Workfront], waarmee andere toepassingen toegang kunnen krijgen tot Workfront. Uw gebruikers kunnen deze andere toepassingen vervolgens toestemming geven om toegang te krijgen tot hun Workfront-gegevens. Op deze manier kunt u Workfront integreren met uw eigen toepassingen, inclusief uw eigen interne toepassingen.
+description: Als  [!DNL Adobe Workfront]  beheerder, kunt u toepassingen OAuth2 voor uw geval van  [!DNL Workfront] tot stand brengen, die andere toepassingen toestaan om tot Workfront toegang te hebben. Uw gebruikers kunnen deze andere toepassingen vervolgens toestemming geven om toegang te krijgen tot hun Workfront-gegevens. Op deze manier kunt u Workfront integreren met uw eigen toepassingen, inclusief uw eigen interne toepassingen.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 ---
 
-# OAuth2-toepassingen maken voor [!DNL Workfront] integratie
+# OAuth2-toepassingen maken voor [!DNL Workfront] -integratie
 
-Als [!DNL Adobe Workfront] beheerder, kunt u toepassingen OAuth2 voor uw geval tot stand brengen van [!DNL Workfront], die andere toepassingen toegang geven tot [!DNL Workfront]. Uw gebruikers kunnen deze andere toepassingen dan toestemming geven om hun [!DNL Workfront] gegevens. Op deze manier kunt u integreren met toepassingen van uw keuze, inclusief uw eigen interne toepassingen.
+Als [!DNL Adobe Workfront] beheerder kunt u OAuth2-toepassingen maken voor uw instantie van [!DNL Workfront] , waarmee andere toepassingen toegang hebben tot [!DNL Workfront] . Uw gebruikers kunnen deze andere toepassingen vervolgens toestemming geven om toegang te krijgen tot hun [!DNL Workfront] -gegevens. Op deze manier kunt u   met toepassingen van uw keuze, inclusief uw eigen interne toepassingen.
 
-Wanneer u een [!UICONTROL OAuth2] toepassing, produceert u een identiteitskaart van de Cliënt en Geheime cliënt. Uw gebruikers kunnen de client-id vervolgens gebruiken in API-aanroepen om deze te integreren met de toepassing die u hebt gemaakt.
+Wanneer u een [!UICONTROL OAuth2] -toepassing maakt, genereert u een client-id en een clientgeheim. Uw gebruikers kunnen de client-id vervolgens gebruiken in API-aanroepen om deze te integreren met de toepassing die u hebt gemaakt.
 
 >[!NOTE]
 >
->In de context van OAuth2 verwijst het maken van een app naar het maken van dit soort toegangskoppelingen tussen een app en een server, zoals [!DNL Workfront].
+>In de context van OAuth2 verwijst het maken van een app naar het maken van dit soort toegangskoppelingen tussen een app en een server, zoals [!DNL Workfront] .
 
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md).
-* Voor instructies over het vormen van en het gebruiken van de toepassing OAuth2 gebruikend serverauthentificatie (stroom JWT), zie [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruikt, zie [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](../../wf-api/api/oauth-app-pkce-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE ](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Toegangsvereisten
 
@@ -51,20 +51,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> U moet een [!DNL Workfront] beheerder. </td> 
+   <td> U moet een [!DNL Workfront] beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 +++
 
 ## OAuth2-overzicht
 
-Stel dat een toepassing bepaalde specifieke informatie moet ophalen uit [!DNL Workfront]. Een toepassing die om informatie verzoekt wordt genoemd een cliënt. In dit voorbeeld is de naam van de client ClientApp. ClientApp heeft toegang tot de informatie van een bepaalde gebruiker nodig en moet daarom toegang krijgen tot [!DNL Workfront] als die gebruiker. Als uw gebruiker ClientApp hun gebruikersnaam en wachtwoord geeft, kon ClientApp tot alle gegevens toegang hebben die de gebruiker kan toegang hebben. Dit is een beveiligingsrisico, omdat ClientApp slechts een kleine, specifieke verzameling informatie nodig heeft.
+Stel dat een toepassing bepaalde specifieke informatie van [!DNL Workfront] moet ophalen. Een toepassing die om informatie verzoekt wordt genoemd een cliënt. In dit voorbeeld is de naam van de client ClientApp. ClientApp heeft toegang nodig tot de informatie van een bepaalde gebruiker en moet daarom [!DNL Workfront] als die gebruiker benaderen. Als uw gebruiker ClientApp hun gebruikersnaam en wachtwoord geeft, kon ClientApp tot alle gegevens toegang hebben die de gebruiker kan toegang hebben. Dit is een beveiligingsrisico, omdat ClientApp slechts een kleine, specifieke verzameling informatie nodig heeft.
 
-Wanneer u een OAuth2-app voor ClientApp maakt, vertelt u [!DNL Workfront] dat ClientApp toegang heeft tot [!DNL Workfront], maar alleen als de gebruiker wiens account ClientApp benadert, toestemming geeft voor de toegang.
+Wanneer u een OAuth2-app voor ClientApp maakt, vertelt u in feite [!DNL Workfront] dat ClientApp toegang heeft tot [!DNL Workfront] , maar alleen als de gebruiker wiens account ClientApp toegang heeft, toestemming geeft voor de toegang.
 
 ## Een OAuth2-toepassing maken
 
@@ -129,11 +129,11 @@ Wanneer u een OAuth2-toepassing maakt, kiest u het type toepassing dat het beste
 
 {{step-1-to-setup}}
 
-1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
-1. Klikken **[!UICONTROL Create app integration]**.
-De **Nieuwe OAuth2-toepassing** wordt weergegeven.
-1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Machine to Machine Application]**.
-1. Voer een naam in voor de nieuwe toepassing, bijvoorbeeld &quot;[!DNL Workfront] voor ClientApp.&quot;
+1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth2 Applications]** .
+1. Klik op **[!UICONTROL Create app integration]** .
+De **Nieuwe OAuth2 toepassings** vakvertoningen.
+1. In het **Nieuwe OAuth2 toepassings** vakje, uitgezochte **[!UICONTROL Machine to Machine Application]**.
+1. Ga een naam voor de nieuwe toepassing, zoals &quot;[!DNL Workfront] voor ClientApp in.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
 
@@ -147,18 +147,18 @@ De **Nieuwe OAuth2-toepassing** wordt weergegeven.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b>BELANGRIJK</b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een Geheim van de Cliënt.</p> 
+      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b> BELANGRIJK </b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een Geheim van de Cliënt.</p> 
         <ol> 
-         <li value="1"> <p>Klik op de knop <b>[!UICONTROL Delete]</b> pictogram <img src="assets/delete.png"> om het huidige Geheim van de Cliënt te schrappen.</p> </li> 
-         <li value="2"> <p>Klikken <b>[!UICONTROL Add client secret]</b> om een nieuw Geheim van de Cliënt te produceren.</p> </li> 
+         <li value="1"> <p>Klik op het pictogram <b>[!UICONTROL Delete]</b> <img src="assets/delete.png"> om het huidige clientgeheim te verwijderen.</p> </li> 
+         <li value="2"> <p>Klik op <b>[!UICONTROL Add client secret]</b> om een nieuw clientgeheim te genereren.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Public Keys]</td> 
       <td> <p>Server-naar-server-apps gebruiken openbare en persoonlijke sleutels voor verificatie. Voer een van de volgende handelingen uit:</p> 
        <ul> 
-        <li> <p>Klikken <b>[!UICONTROL Add a public key]</b> en voert u de openbare sleutel in vanuit de andere toepassing.</p> </li> 
-        <li> <p>Klikken <b>[!UICONTROL Generate a public/private keypair]</b>deelt u vervolgens de openbare sleutel met de andere toepassing.</p> </li> 
+        <li> <p>Klik op <b>[!UICONTROL Add a public key]</b> en voer de openbare sleutel in vanuit de andere toepassing.</p> </li> 
+        <li> <p>Klik op <b>[!UICONTROL Generate a public/private keypair]</b> en deel de openbare sleutel met de andere toepassing.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -174,18 +174,18 @@ De **Nieuwe OAuth2-toepassing** wordt weergegeven.
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md).
+Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Een OAuth2-toepassing maken met gebruikersgegevens (doorloop machtigingscode) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
 {{step-1-to-setup}}
 
-1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
+1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth2 Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.
 
-   De **Nieuwe OAuth2-toepassing** worden weergegeven.
-1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Web Application]**.
-1. Voer een naam in voor de nieuwe OAuth2-toepassing, bijvoorbeeld &quot;[!DNL Workfront] voor ClientApp.&quot;
+   De **Nieuwe OAuth2 toepassings** vertoningen.
+1. In het **Nieuwe OAuth2 toepassings** vakje, uitgezochte **[!UICONTROL Web Application]**.
+1. Ga een naam voor de nieuwe toepassing OAuth2, zoals &quot;[!DNL Workfront] voor ClientApp in.&quot;
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
 
@@ -199,15 +199,15 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b>BELANGRIJK</b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een Geheim van de Cliënt.</p> 
+      <td> <p>Dit veld wordt automatisch gegenereerd</p> <p><b> BELANGRIJK </b>:  <p>Kopieer de inhoud van dit veld naar een ander beveiligd bestand voordat u deze pagina sluit. Je kunt deze geheime sleutel niet meer zien.</p> <p>Als u deze sleutel verliest, schrap het en creeer een Geheim van de Cliënt.</p> 
         <ol> 
-         <li value="1"> <p>Klik op de knop <b>[!UICONTROL Delete]</b> pictogram <img src="assets/delete.png"> om het huidige Geheim van de Cliënt te schrappen.</p> </li> 
-         <li value="2"> <p>Klikken <b>[!UICONTROL Add client secret]</b> om een nieuw Geheim van de Cliënt te produceren.</p> </li> 
+         <li value="1"> <p>Klik op het pictogram <b>[!UICONTROL Delete]</b> <img src="assets/delete.png"> om het huidige clientgeheim te verwijderen.</p> </li> 
+         <li value="2"> <p>Klik op <b>[!UICONTROL Add client secret]</b> om een nieuw clientgeheim te genereren.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Redirect URLs]</td> 
-      <td>Gebruikers worden omgeleid naar dit pad nadat ze zijn geverifieerd met [!DNL Workfront].</td> 
+      <td>Gebruikers worden omgeleid naar dit pad nadat ze zijn geverifieerd met [!DNL Workfront] .</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Refresh token rotation]</td> 
@@ -215,7 +215,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
-      <td> <p>Selecteer de hoeveelheid tijd dat u een vernieuwingstoken wilt bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteren "[!UICONTROL No expiration]" als u niet wilt dat het token vernieuwen verloopt.</p> </td> 
+      <td> <p>Selecteer de hoeveelheid tijd dat u een vernieuwingstoken wilt bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteer "[!UICONTROL No expiration]"als u niet wilt verfrissen teken verlopen.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Vernieuwingstoken voor inactiviteit verlopen</td> 
@@ -242,18 +242,18 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md).
+Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
 
 ### Een OAuth2-webtoepassing met één pagina maken met PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
 {{step-1-to-setup}}
 
-1. Klik in het linkernavigatievenster op **[!UICONTROL System]** selecteert u vervolgens **[!UICONTROL OAuth2 Applications]**.
+1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth2 Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.
 
-   De **Nieuwe OAuth2-toepassing** wordt weergegeven.
-1. In de **Nieuwe OAuth2-toepassing** vak, selecteren **[!UICONTROL Single Page Web Application]**.
-1. Voer een naam in voor de nieuwe [!UICONTROL OAuth2] , zoals &quot;[!DNL Workfront] voor ClientApp.&quot;
+   De **Nieuwe OAuth2 toepassings** vakvertoningen.
+1. In het **Nieuwe OAuth2 toepassings** vakje, uitgezochte **[!UICONTROL Single Page Web Application]**.
+1. Voer een naam in voor de nieuwe [!UICONTROL OAuth2] -toepassing, bijvoorbeeld &quot;[!DNL Workfront] for ClientApp&quot;.
 1. Klik op **[!UICONTROL Create]**.
 1. Vul de velden voor de nieuwe app in.
 
@@ -275,7 +275,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute expiration]</td> 
-      <td> <p>Selecteer de hoeveelheid tijd u een vernieuwingstoken wenst te bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteren "[!UICONTROL No expiration]" als u niet wilt dat het token vernieuwen verloopt.</p> </td> 
+      <td> <p>Selecteer de hoeveelheid tijd u een vernieuwingstoken wenst te bestaan alvorens het verloopt. Wanneer het verloopt, moeten uw gebruikers zich opnieuw aan de integratie aanmelden. Selecteer "[!UICONTROL No expiration]"als u niet wilt verfrissen teken verlopen.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Inactivity expiration]</td> 
@@ -320,34 +320,34 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 
 De verdere configuratie en het gebruik van de gecreeerde toepassing OAuth2 vereisen wat technische kennis, met inbegrip van API vraag.
 
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md).
-* Voor instructies over het vormen van en het gebruiken van de toepassing OAuth2 gebruikend serverauthentificatie (stroom JWT), zie [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruikt, zie [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](../../wf-api/api/oauth-app-pkce-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE ](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## OAuth2-processen voor de vergunningenscodesstroom
 
 >[!NOTE]
 >
->Uw gebruikers hebben toegang tot de [!UICONTROL OAuth2] via de API. Deze sectie beschrijft de functionaliteit in algemene termen, en slechts ter informatie verstrekt.
+>Uw gebruikers krijgen toegang tot de [!UICONTROL OAuth2] -toepassing via de API. Deze sectie beschrijft de functionaliteit in algemene termen, en slechts ter informatie verstrekt.
 >
->Zie voor specifieke instructies over het gebruik van de OAuth2-toepassing, inclusief specifieke API-aanroepen [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md).
+>Voor specifieke instructies bij het gebruiken van de toepassing OAuth2, met inbegrip van specifieke API vraag, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
 
 ### Autoriseren met een machtigingscode en toegangstoken {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp heeft informatie nodig van [!DNL Workfront], zodat het een verzoek aan de [!DNL Workfront] API `/authorize` eindpunt. Het verzoek omvat de [!UICONTROL response_type] `code`, die aangeeft dat de aanvraag een machtigingscode moet retourneren.
-1. Deze triggers [!DNL Workfront] om een verificatieverzoek naar de gebruiker te verzenden. De gebruiker kan zijn geloofsbrieven in de herinnering ingaan, die geeft [!DNL Workfront] toestemming om te communiceren met ClientApp. Als de gebruiker al is aangemeld [!DNL Workfront], kan deze stap worden overgeslagen.
-1. De [!DNL Workfront] API verzendt een machtigingscode naar ClientApp.
-1. ClientApp verzendt de volgende informatie in een verzoek naar de [!DNL Workfront] API `/token`   eindpunt:
+1. ClientApp heeft informatie nodig van [!DNL Workfront] en verzendt dus een aanvraag naar het eindpunt van de [!DNL Workfront] API `/authorize` . De aanvraag bevat de instructie [!UICONTROL response_type] `code` , die aangeeft dat de aanvraag een machtigingscode moet retourneren.
+1. Dit activeert [!DNL Workfront] om een verificatieverzoek naar de gebruiker te verzenden. De gebruiker kan zijn of haar referenties invoeren bij de vraag, die [!DNL Workfront] toestemming geeft om te communiceren met ClientApp. Als de gebruiker zich al bij [!DNL Workfront] heeft aangemeld, kan deze stap worden overgeslagen.
+1. De [!DNL Workfront] API verzendt een vergunningscode naar ClientApp.
+1. ClientApp verzendt de volgende informatie in een aanvraag naar de [!DNL Workfront] API `/token`   eindpunt:
 
    * De machtigingscode die in stap 3 naar ClientApp is verzonden. Dit identificeert het specifieke geval van gebruikerstoestemming.
-   * Het clientgeheim dat is gegenereerd toen u de ClientApp OAuth2-app instelde in [!DNL Workfront]. Dit maakt [!DNL Workfront] om te weten dat het verzoek van ClientApp komt.
+   * Het clientgeheim dat is gegenereerd toen u de ClientApp OAuth2-app instelde in [!DNL Workfront] . Hierdoor kan [!DNL Workfront] weten dat de aanvraag afkomstig is van ClientApp.
 
-1. Indien de vergunningscode en het cliëntgeheim correct zijn, [!DNL Workfront] verzendt een toegangstoken naar ClientApp. Dit toegangstoken wordt rechtstreeks verzonden van [!DNL Workfront] naar ClientApp en kan niet worden weergegeven, gekopieerd of gebruikt door andere gebruikers- of clienttoepassingen.
+1. Als de machtigingscode en het clientgeheim correct zijn, verzendt [!DNL Workfront] een toegangstoken naar ClientApp. Deze toegangstoken wordt rechtstreeks vanuit [!DNL Workfront] naar ClientApp verzonden en kan niet worden weergegeven, gekopieerd of gebruikt door een andere gebruiker of clienttoepassing.
 1. ClientApp verzendt het toegangstoken naar [!DNL Workfront] samen met het specifieke verzoek om informatie.
-1. Omdat het toegangstoken correct is, [!DNL Workfront] verzendt de informatie naar ClientApp.
+1. Omdat het toegangstoken correct is, verzendt [!DNL Workfront] de informatie naar ClientApp.
 
 #### Toegangstokens vernieuwen
 
-Voor veiligheid, verlopen de toegangstokens na een korte hoeveelheid tijd. Om nieuwe toegangstokens te krijgen zonder het moeten geloofsbrieven telkens ingaan, [!DNL OAuth2] gebruikt vernieuwt tokens. Vernieuwingstokens worden door de client opgeslagen.
+Voor veiligheid, verlopen de toegangstokens na een korte hoeveelheid tijd. Om nieuwe toegangstokens te krijgen zonder het moeten geloofsbrieven telkens ingaan, [!DNL OAuth2] gebruikt verfrist tokens. Vernieuwingstokens worden door de client opgeslagen.
 
-Het proces om een te verwerven vernieuwt teken is het zelfde als de procedure die in de sectie wordt besproken [Autoriseren met een machtigingscode en toegangstoken](#authorizing-with-an-authorization-code-and-access-token). Het verzoek om de vergunningscode omvat het toepassingsgebied `offline_access`, die erop wijst dat het verzoek een verzoekteken samen met de vergunningscode zou moeten terugkeren.
+Het proces om een te verwerven verfrist teken is het zelfde als de procedure die in de sectie [ wordt besproken die met een vergunningscode en toegangstoken ](#authorizing-with-an-authorization-code-and-access-token) goedkeurt. Het verzoek om de vergunningscode omvat het werkingsgebied `offline_access`, dat erop wijst dat het verzoek een verzoekteken samen met de vergunningscode zou moeten terugkeren.

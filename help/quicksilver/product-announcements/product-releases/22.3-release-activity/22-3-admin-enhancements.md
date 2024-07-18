@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 22.3 Verbeteringen voor beheerders
 
-Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de week van 11 juli 2022. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de week van 11 juli 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Adobe Workfront integreren met JumpSeat
 
 U kunt nu JumpSeat integreren met Workfront om aangepaste, in-product richtlijnen voor uw gebruikers te maken. U hebt een Adobe Workfront Enterprise-licentie en een actief JumpSeat-abonnement nodig om de integratie in te schakelen.
 
-Zie voor meer informatie [De integratie met JumpSeat configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Voor meer informatie, zie [ de integratie JumpSeat ](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md) vormen.
 
 ## Standaardinstellingen van proefafdruk verplaatst naar Workfront
 
@@ -31,11 +31,11 @@ U kunt nu de volgende proefdrukinstellingen bewerken in het gedeelte Workfront i
 
 * Instellingen voor proefafhandeling
 
-Zie voor meer informatie [Standaardproefdrukinstellingen configureren](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Voor meer informatie, zie [ standaardproefmontages ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
 
 ## Onvergrendelde statussen gebruiken in een goedkeuringsproces
 
-**Opmerking:** Verwijderd uit de 22.3 Production release. Dit onderdeel zal naar verwachting op 15 september 2022 worden uitgebracht aan Production.
+**Nota:** Verwijderd uit de 2.3 versie van de Productie. Dit onderdeel zal naar verwachting op 15 september 2022 worden uitgebracht aan Production.
 
 Om u meer controle over de goedkeuringsprocessen en statussen in uw systeem te geven, hebben wij het mogelijk gemaakt om een goedkeuringsproces tot stand te brengen dat op een open systeemstatus wordt gebaseerd. Bovendien kunt u nu elke status ontgrendelen die al in een goedkeuringsproces wordt gebruikt.
 
@@ -54,7 +54,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 We blijven u helpen aangepaste formulieren visueel en informatief te maken met nieuwe middelenwidgets die u kunt toevoegen, zoals afbeeldingen en video&#39;s. Nu kunt u een koppeling naar een PDF-bestand toevoegen aan een aangepast formulier. Wanneer het formulier aan een object is gekoppeld, kunnen gebruikers die met het object werken de PDF vanuit het formulier bekijken en ermee werken.
 
-Zie voor meer informatie [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor meer informatie, zie [ een beeld of andere activa widget in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 ## In de berekeningeditor van het aangepaste formulierveld worden foutgegevens weergegeven
 
@@ -64,7 +64,7 @@ Zie voor meer informatie [Een afbeelding of andere middelenwidget toevoegen of b
 
 Het bewerken van berekeningen voor aangepaste velden is nu gemakkelijker omdat nuttige foutinformatie rechtstreeks in de berekening wordt vermeld. Tijdens het maken van een berekend veld in een aangepast formulier worden fouten roze gemarkeerd. Wanneer u de muisaanwijzer op het gemarkeerde gedeelte plaatst, wordt knopinfo weergegeven waarin het probleem wordt beschreven.
 
-Zie voor meer informatie [Berekende gegevens toevoegen aan een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## Aanpassing van koptekst van project
 
@@ -81,7 +81,7 @@ Deze update bevat de volgende verbeteringen:
 
 Vóór deze release konden de velden in de objectkoppen niet worden aangepast.
 
-Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Besturing voor het maken van een leeg project
 
@@ -94,17 +94,17 @@ Als systeem of groepsbeheerder, kunt u nu controleren of de gebruikers lege proj
 
 Het nieuwe plaatsen is &quot;staat gebruikers toe om projecten tot stand te brengen zonder een malplaatje te gebruiken&quot;en het wordt toegelaten door gebrek.
 
-**Opmerking:** Gebruikers kunnen een taak nog steeds omzetten in een leeg project.
+**Nota:** de gebruikers kunnen een taak in een leeg project nog omzetten.
 
-Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Een groep deactiveren op de pagina Groepen
 
-Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nadat u op de naam van een groep hebt geklikt om naar de bijbehorende pagina te gaan, kunt u het menu Meer selecteren ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) naast de naam van de groep selecteert u Deactiveren of Opnieuw activeren.
+Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nadat u op de naam van een groep hebt geklikt om naar de bijbehorende pagina te gaan, kunt u het menu Meer ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) naast de naam van de groep selecteren en vervolgens Deactiveren of Opnieuw activeren selecteren.
 
 Eerder kon u een groep alleen deactiveren of opnieuw activeren met het selectievakje Is actief op de pagina Details.
 
-Zie voor meer informatie [Een groep deactiveren of opnieuw activeren](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+Voor meer informatie, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
 
 ## Video&#39;s toevoegen aan aangepaste formulieren
 
@@ -112,5 +112,5 @@ Nu kunt u een nieuwe wijze van informatie, visuele interesse, en creativiteit aa
 
 Eerder kon u alleen op tekst gebaseerde velden en afbeeldingen aan een aangepast formulier toevoegen.
 
-Zie voor meer informatie [Een afbeeldings- of video-asset-widget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor meer informatie, zie [ een beeld of videoactiva widget in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 

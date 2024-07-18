@@ -25,12 +25,12 @@ In deze sectie vindt u informatie en instructies over de eerste installatie van 
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van het definiëren van doelstellingen voor uw Adobe Workfront-implementatie](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-* [Beschikbare licenties in uw systeem beheren](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
-* [Basisinformatie voor uw systeem configureren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
-* [Overzicht van firewalls](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
-* [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-* [Uw e-maillijst van gewenste personen configureren](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
-* [Aankondigingen verzenden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
-* [Browservereisten voor Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
+* [ Overzicht van het bepalen van doelstellingen voor uw implementatie van Adobe Workfront ](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [ beheer beschikbare vergunningen in uw systeem ](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+* [ vorm basisinformatie voor uw systeem ](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
+* [ Overzicht van de Firewall ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
+* [ vorm de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* [ vorm uw e-maillijst van gewenste personen ](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+* [ verzend aankondigingen ](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+* [ Browser vereisten voor Workfront ](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
 * [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

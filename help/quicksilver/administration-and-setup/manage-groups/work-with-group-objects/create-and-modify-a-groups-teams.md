@@ -21,9 +21,9 @@ Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u met team
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor informatie over hoe de gebruikers met een vergunning van het Plan een team kunnen tot stand brengen, zie [Een team maken](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Voor informatie over hoe de gebruikers met een vergunning van het Plan een team kunnen tot stand brengen, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
-Voor informatie over hoe een beheerder van Workfront een team kan creëren, zie [Een team maken vanuit het gedeelte Setup](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Voor informatie over hoe een beheerder van Workfront een team kan tot stand brengen, zie [ een team van het gebied van de Opstelling ](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
 
 ## Toegangsvereisten
 
@@ -39,25 +39,25 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override=""> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override=""> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## U kunt vanuit het gebied Groepen teams voor uw groep weergeven, werken met en maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u teams wilt maken of wijzigen.
-1. Klik in het linkerdeelvenster op **Teams** ![](assets/teams.png) om de teams te vermelden verbonden aan de groep en met om het even welke subgroepen het kan hebben.
+1. In het linkerpaneel, klik **Teams** ![](assets/teams.png) om van de teams een lijst te maken verbonden aan de groep en met om het even welke subgroups het kan hebben.
 
 1. Voer een van de volgende handelingen uit:
 
-   * **Een team toevoegen**: Klikken **Nieuw team** en gebruik vervolgens de volgende opties om het te configureren:
+   * **voeg een team** toe: Klik **Nieuw Team**, dan gebruik de volgende opties om het te vormen:
 
    <!-- WRITER please check table below. I stripped out wonky conditions-->
 
@@ -71,7 +71,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        </tr> 
        <tr> 
        <td role="rowheader">Groep</td> 
-       <td> <p> Het systeem vult het gebied van de Groep voor het nieuwe team met de groep op u bekijkt. Als u het team aan een verschillende groep wilt associëren, begin de naam van de groep te typen, dan selecteer de naam wanneer het verschijnt.</p> <p>U kunt ervoor zorgen u de juiste groep met het team associeert door over het te hangen en het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p><b>OPMERKING</b>: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar klikken <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
+       <td> <p> Het systeem vult het gebied van de Groep voor het nieuwe team met de groep op u bekijkt. Als u het team aan een verschillende groep wilt associëren, begin de naam van de groep te typen, dan selecteer de naam wanneer het verschijnt.</p> <p>U kunt ervoor zorgen dat u de juiste groep aan het team koppelt door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram <img src="assets/info-icon.png"> te klikken dat naast de groep wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p><b> NOTA </b>: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Teamleden</td> 
@@ -96,7 +96,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       </tbody> 
      </table>
 
-   * **Teams bewerken**: Selecteer minstens één team, klik **de** Pictogram Bewerken ![](assets/edit-icon.png)en gebruik vervolgens de volgende opties om het te configureren:
+   * **geeft teams** uit: Selecteer minstens één team, klik **** uitgeven pictogram ![](assets/edit-icon.png), dan gebruik de volgende opties om het te vormen:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -108,7 +108,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        </tr> 
        <tr> 
        <td role="rowheader">Groep</td> 
-       <td> <p>Associeer het team met een groep. Typ de naam van de groep en selecteer vervolgens de naam wanneer deze wordt weergegeven.</p> <p>U kunt ervoor zorgen u de juiste groep met het team associeert door over het te hangen en het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p><b>OPMERKING</b>: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar klikken <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
+       <td> <p>Associeer het team met een groep. Typ de naam van de groep en selecteer vervolgens de naam wanneer deze wordt weergegeven.</p> <p>U kunt ervoor zorgen dat u de juiste groep aan het team koppelt door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram <img src="assets/info-icon.png"> te klikken dat naast de groep wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p><b> NOTA </b>: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Eigenaar</td> 
@@ -116,7 +116,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        </tr> 
        <tr> 
        <td role="rowheader">Teamleden</td> 
-       <td> <p>Toevoegen en teamleden. Typ de naam van een gebruiker en selecteer vervolgens de naam wanneer deze wordt weergegeven. Herhaal dit proces om meerdere gebruikers aan het team toe te voegen.</p> <p><b>TIP</b>: Er is geen limiet voor het aantal gebruikers dat u aan een team kunt toevoegen. Nochtans, adviseren wij om geen bovenmatig groot aantal gebruikers in één team te hebben, omdat het het werkbeheer van het team te complex zou kunnen worden.</p> </td> 
+       <td> <p>Toevoegen en teamleden. Typ de naam van een gebruiker en selecteer vervolgens de naam wanneer deze wordt weergegeven. Herhaal dit proces om meerdere gebruikers aan het team toe te voegen.</p> <p><b> TIP </b>: Er is geen grens aan hoeveel gebruikers u aan een team kunt toevoegen. Nochtans, adviseren wij om geen bovenmatig groot aantal gebruikers in één team te hebben, omdat het het werkbeheer van het team te complex zou kunnen worden.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Beschrijving</td> 
@@ -124,26 +124,26 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        </tr> 
        <tr> 
        <td role="rowheader">Lay-outsjabloon</td> 
-       <td> <p>Typ de naam van de lay-outsjabloon die het team moet gebruiken en klik vervolgens op de naam wanneer deze wordt weergegeven.</p> <p>Wanneer u het team met dit lay-outmalplaatje als Team van het Huis van gebruikers aanwijst, zullen alle gebruikers in dit team de aanpassingen in dit lay-outmalplaatje zien.<br>Hun individuele montages van het lay-outmalplaatje zullen de montages van het de lay-outmalplaatje van het huisteam met voeten treden. </p> </td> 
+       <td> <p>Typ de naam van de lay-outsjabloon die het team moet gebruiken en klik vervolgens op de naam wanneer deze wordt weergegeven.</p> <p>Wanneer u het team met dit lay-outmalplaatje als Team van het Huis van gebruikers aanwijst, zullen alle gebruikers in dit team de aanpassingen in dit lay-outmalplaatje zien.<br> hun individuele montages van het lay-outmalplaatje zullen met voeten treden de montages van het malplaatje van de huisteamlay-out. </p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Agile</td> 
-       <td>Geef op of dit een flexibel team is. Voor informatie over bestandsteams en hoe ze hun werk kunnen beheren, raadpleegt u <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Een bestandsteam maken</a>.</td> 
+       <td>Geef op of dit een flexibel team is. Voor informatie over mobiele teams en hoe te om hun werk te beheren, zie <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref"> een flexibel team </a> creëren.</td> 
        </tr> 
        <tr> 
        <td role="rowheader">eraan werken</td> 
-       <td> <p>Wijzig de knop Aan de werkbalk in een knop Start. Wanneer een gebruiker op Start klikt, wordt de status van het item automatisch bijgewerkt.</p> <p>Voor meer informatie over hoe te om de knoop van het Begin te vormen, zie <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">De knop Aan de werkbalk vervangen door de knop Start</a>.</p> </td> 
+       <td> <p>Wijzig de knop Aan de werkbalk in een knop Start. Wanneer een gebruiker op Start klikt, wordt de status van het item automatisch bijgewerkt.</p> <p>Voor meer informatie over hoe te om de knoop van het Begin te vormen, zie <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref"> het Werk op het knoop met een knoop van het Begin vervangen </a>.</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">Gereed, knop</td> 
        <td> <p>Pas de knop Gereed aan. Zie voor meer informatie:</p> 
        <ul> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">De knop Gereed configureren voor taken</a> </li> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">De knop Gereed configureren voor problemen</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref"> vorm de Done knoop voor taken </a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref"> vorm de Done knoop voor kwesties </a> </li> 
        </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * **Teams verwijderen**: Selecteer ten minste één team en klik op het pictogram Verwijderen ![](assets/delete.png).
-   * **De lijst met teams exporteren**: Klikken **Exporteren** ![](assets/export.png)selecteert u vervolgens de gewenste bestandsindeling voor de geëxporteerde lijst.
+   * **de teams van de Schrapping**: Selecteer minstens één team, dan klik het pictogram van de Schrapping ![](assets/delete.png).
+   * **Uitvoer de lijst van teams**: Klik **Uitvoer** ![](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.

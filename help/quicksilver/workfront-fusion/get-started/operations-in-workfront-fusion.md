@@ -7,9 +7,10 @@ title: Bewerkingen in Adobe Workfront Fusion
 description: Een bewerking in Adobe Workfront Fusion is een taak die door een module wordt uitgevoerd. Voor het volgen van doeleinden, is om het even welke succesvolle actie die door een module wordt uitgevoerd een verrichting.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8d82fd10a6742f13f62b5479fafa5b42e567700f
+exl-id: 34268fb6-e485-42be-b751-3ee79bbf5797
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -26,9 +27,9 @@ Een bewerking in [!DNL Adobe Workfront Fusion] is een taak die door een module w
 
 * Het aantal keren dat de rest van de gebruikte modules afhangt van het aantal bundels dat zij moeten verwerken.  Één looppas van een module voor één bundel is één verrichting. Een uitzondering hierop is de aggregatormodule, die wordt geteld als één bewerking per set bundels die wordt verwerkt.
 
-* Bewerkingen worden geteld bij de [!UICONTROL Finalization] fase van de uitvoering van een scenario.
+* Bewerkingen worden meegeteld in het [!UICONTROL Finalization] -werkgebied van de uitvoering van een scenario.
 
-* De volgende zijn **niet** geteld als bewerkingen:
+* Het volgende wordt **niet** geteld als verrichtingen:
 
    * Alle filterstappen.
 
@@ -40,15 +41,14 @@ Een bewerking in [!DNL Adobe Workfront Fusion] is een taak die door een module w
 
 ## Bedrijfslimieten
 
-Uw organisatie heeft mogelijk een limiet voor maandelijkse bewerkingen. Dit is gebaseerd op de [!DNL Workfront] plan dat uw organisatie heeft aangeschaft. De [!UICONTROL Ultimate] [!DNL Workfront] het plan biedt onbeperkte verrichtingen aan.
+Uw organisatie heeft mogelijk een limiet voor maandelijkse bewerkingen. Dit is gebaseerd op het [!DNL Workfront] -abonnement dat uw organisatie heeft aangeschaft. Het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement biedt onbeperkte bewerkingen.
 
-Als uw organisatie een maandelijkse limiet heeft, ontvangt u een melding wanneer u de limiet bijna hebt bereikt. Als u de limiet overschrijdt, [!DNL Workfront] zal contact opnemen met uw organisatie om ervoor te zorgen dat uw abonnement aan uw behoeften voldoet.
+Als uw organisatie een maandelijkse limiet heeft, ontvangt u een melding wanneer u de limiet bijna hebt bereikt. Als u de limiet overschrijdt, neemt [!DNL Workfront] contact op met uw organisatie om ervoor te zorgen dat uw abonnement aan uw behoeften voldoet.
 
 ## Het aantal bewerkingen weergeven dat in de afgelopen 30 dagen is uitgevoerd
 
 U kunt een grafiek zien waarin het aantal uitgevoerde bewerkingen wordt weergegeven. Deze grafieken zijn beschikbaar op de volgende locaties:
 
-* **Organisatie-dashboard**: Door de gehele organisatie gebruikte activiteiten
-* **Teamdashboard**: Bewerkingen die worden gebruikt door scenario&#39;s die eigendom zijn van dit team ([!DNL Adobe Experience Cloud] alleen)
-* **Detailpagina Scenario**: Bewerkingen die door dit scenario worden gebruikt ([!DNL Adobe Experience Cloud] alleen)
-
+* **dashboard van de Organisatie**: Verrichtingen die door de volledige organisatie worden gebruikt
+* **dashboard van het Team**: Verrichtingen die door scenario&#39;s worden gebruikt die door dit team ([!DNL Adobe Experience Cloud] slechts) worden bezeten
+* **de detailspagina van het Scenario**: Verrichtingen die door dit scenario worden gebruikt ([!DNL Adobe Experience Cloud] slechts)

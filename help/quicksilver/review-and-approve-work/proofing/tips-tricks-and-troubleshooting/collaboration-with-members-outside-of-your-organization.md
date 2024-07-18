@@ -18,13 +18,13 @@ Er zijn sommige beperkingen om zich van bewust te zijn wanneer het communiceren 
 
 Er zijn drie soorten contacten die in een het proeven milieu bestaan:
 
-* **Gebruikers**: Gebruikers hebben een Workfront Proof-aanmelding in de omgeving van uw organisatie.
-* **Leden**: Leden hebben hun eigen Workfront Proof-aanmelding in de omgeving van een andere organisatie (niet uw eigen omgeving). U kunt leden niet converteren naar gebruikers in uw omgeving.
-* **Gasten**: Gasten beschikken niet over een eigen aanmeldingsnaam voor Workfront-proefdrukken in de omgeving van uw organisatie, maar u hebt wel hun gegevens aan uw account toegevoegd (bijvoorbeeld gastrevisoren op proefdrukken). U kunt gasten converteren naar gebruikers.
+* **Gebruikers**: De gebruikers hebben een login van Workfront Proof in het milieu van uw organisatie.
+* **Leden**: De leden hebben hun eigen login van Workfront Proof in het milieu van een andere organisatie (niet uw). U kunt leden niet converteren naar gebruikers in uw omgeving.
+* **Gasten**: De gasten hebben niet hun eigen login van Workfront Proof in het milieu van uw organisatie, maar u hebt hun details aan uw rekening toegevoegd (bijvoorbeeld, gastrevisoren op proef). U kunt gasten converteren naar gebruikers.
 
-Omdat leden niet naar gebruikers kunnen worden geconverteerd, is hun mogelijkheid om personen in proefdrukopmerkingen van tags te voorzien beperkt tot gebruikers van *hun oorspronkelijke organisatie*.
+Omdat de Leden niet in gebruikers kunnen worden omgezet, is hun capaciteit om mensen in proefdrukcommentaren te etiketteren beperkt tot gebruikers van *hun originele organisatie*.
 
-**Voorbeeld:** Bedrijf A nodigt een externe gebruiker uit om een bewijs te herzien. Deze gebruiker bestaat reeds in afzonderlijke proefdrukmilieu, Onderneming B.
+**Voorbeeld:** Bedrijf A nodigt een buitengebruiker uit om een proef te herzien. Deze gebruiker bestaat reeds in afzonderlijke proefdrukmilieu, Onderneming B.
 
  
 

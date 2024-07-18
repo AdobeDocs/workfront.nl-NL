@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
+source-wordcount: '3620'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De gebruikerservaring voor integratie op basis van een webhaak is vergelijkbaar 
 
 ## Referentie-implementatie
 
-Workfront biedt een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Code hiervoor is te vinden op [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Deze implementatie is gebaseerd op Java en maakt het Workfront mogelijk om verbinding te maken met documenten op een netwerkbestandssysteem.
+Workfront biedt een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. De code voor dit kan in [ https://github.com/Workfront/webhooks-app ](https://github.com/Workfront/webhooks-app) worden gevonden. Deze implementatie is gebaseerd op Java en maakt het Workfront mogelijk om verbinding te maken met documenten op een netwerkbestandssysteem.
 
 ## Registreren van een Integratie Webhaak
 
@@ -108,7 +108,7 @@ toegang om namens hen te handelen. Dit handshaking proces gebeurt slechts eenmaa
 1. De gebruiker begint de integratie met de webhaak aan te sluiten op zijn of haar account. Dit gebeurt momenteel door te klikken op het vervolgkeuzemenu Document toevoegen > Service toevoegen > Aangepaste integratienaam.
 1. Workfront navigeert door de gebruiker naar de verificatie-URL, die de gebruiker kan vragen zich aan te melden bij de externe documentprovider. Deze pagina wordt gehost door de websiteprovider of het externe documentbeheersysteem. Als u dit doet, voegt Workfront een parameter &quot;state&quot; toe aan de URL van de verificatie. Deze waarde moet worden doorgegeven aan Workfront door dezelfde waarde toe te voegen aan de Workfront Return URI in de onderstaande stap.
 1. Na het registreren aan het externe systeem (of als de gebruiker reeds het programma wordt geopend), wordt de gebruiker genomen aan een pagina van de &quot;Authentificatie&quot;, die verklaart dat Workfront toegang aanvraagt om een reeks acties namens de gebruiker uit te voeren.
-1. Als de gebruiker op de knop Toestaan klikt, wordt de browser omgeleid naar de Workfront Redirect URI en wordt &quot;code=&quot; toegevoegd`<code>`&quot; aan het querystring. Conform de OAuth2-specificatie is dit token van korte duur. De querystring moet ook het volgende hebben: &quot;state=`<sent_by_workfront>`&quot;.
+1. Als de gebruiker &quot;toestaat&quot;knoop klikt, zal browser aan Workfront Redirect URI opnieuw richten, toevoegend &quot;code= `<code>`&quot;aan het querystring. Conform de OAuth2-specificatie is dit token van korte duur. Het querystring moet ook het volgende hebben, &quot;state= `<sent_by_workfront>`&quot;.
 1. Workfront verwerkt dit verzoek en doet een API vraag aan het Symbolische Eindpunt URL met de vergunningscode.
 1. De Symbolische URL van het Eindpunt keert vernieuwt teken en toegangstoken terug.
 1. Workfront slaat deze tokens op en past de integratie van de webhaak volledig toe op deze gebruiker.
@@ -172,7 +172,7 @@ HTTP-aanvraagPOST /any/url
 
 URL is configureerbaar en beantwoordt aan de Symbolische waarde van URL van het Eindpunt op de pagina van de Opstelling van de douanevertegratie.
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -216,7 +216,7 @@ URL is configureerbaar en beantwoordt aan de Symbolische waarde van URL van het 
 
  
 
-**Antwoord**
+**Reactie**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -261,7 +261,7 @@ client_secret=6asdf7a7a9a4af
 ```
 
 
-**Antwoord**
+**Reactie**
 
 ```
 {
@@ -277,9 +277,9 @@ Retourneert metagegevens voor het opgegeven bestand of de opgegeven map.
 
 **URL**
 
-GET /metadata?id=[document- of map-id]
+GET /metadata?id= [ document of omslagidentiteitskaart ]
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -300,7 +300,7 @@ GET /metadata?id=[document- of map-id]
 
  
 
-**Antwoord**
+**Reactie**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,7 +364,7 @@ GET /metadata?id=[document- of map-id]
 
 **Voorbeeld:** `https://www.acme.com/api/metadata?id=12345`
 
-**Antwoord**
+**Reactie**
 
 ```
 {
@@ -391,7 +391,7 @@ Retourneert metagegevens voor de bestanden en mappen voor een bepaalde map.
 
 GET/bestanden
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 | Naam  | Beschrijving |
 |---|---|
@@ -401,13 +401,13 @@ GET/bestanden
 
 De API voor documentwebhooks biedt momenteel geen ondersteuning voor paginering.
 
-**Antwoord**
+**Reactie**
 
 JSON bevat een lijst met bestanden en mappen. De meta-gegevens voor elk punt zijn het zelfde dat door het /metadata eindpunt is teruggekeerd.
 
 **Voorbeeld:** `https://www.acme.com/api/files?parentId=123456`
 
-**Antwoord**
+**Reactie**
 
 ```
 [
@@ -442,7 +442,7 @@ Retourneert metagegevens voor de bestanden en mappen die door een zoekopdracht w
 
 GET/zoekopdracht
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -469,13 +469,13 @@ De API voor documentwebhooks biedt momenteel geen ondersteuning voor paginering.
 
  
 
-**Antwoord**
+**Reactie**
 
 JSON bevat een lijst met metagegevens voor bestanden en mappen die overeenkomen met de query. Wat een &quot;gelijke&quot;is wordt bepaald door de websiteleverancier. In het ideale geval wordt een zoekopdracht in volledige tekst uitgevoerd. Het uitvoeren van een op bestandsnaam gebaseerde zoekopdracht werkt ook.
 
 **Voorbeeld:** `https://www.acme.com/api/search?query=test-query`
 
-**Antwoord**
+**Reactie**
 
 ```
 [
@@ -492,7 +492,7 @@ Hiermee worden de onbewerkte bytes van een document geretourneerd
 
 GET/download
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -513,7 +513,7 @@ GET/download
 
  
 
-**Antwoord**
+**Reactie**
 
 The raw bytes of the document.
 
@@ -527,7 +527,7 @@ Retourneert de onbewerkte miniatuurbytes voor een document.
 
 GET /miniatuur
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 | Naam  | Beschrijving |
 |---|---|
@@ -538,7 +538,7 @@ GET /miniatuur
 
  
 
-**Antwoord**
+**Reactie**
 
 De onbewerkte miniatuurbytes.
 
@@ -554,7 +554,7 @@ De document-id en de document-versie-id zijn toegevoegd aan versie 1.1 van deze 
 
 POST /uploadInit
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -587,13 +587,13 @@ POST /uploadInit
 
  
 
-**Antwoord**
+**Reactie**
 
 De meta-gegevens voor het dossier, zoals die door het /metadata eindpunt wordt bepaald.
 
 **Voorbeeld:** `https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b`
 
-**Antwoord**
+**Reactie**
 
 `[file_metadata]` bevat de nieuwe document-id die door de documentprovider wordt gebruikt.
 
@@ -605,7 +605,7 @@ Hiermee uploadt u de bytes van een document naar de websiteprovider.
 
 PUT /upload
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 | Naam  | Beschrijving |
 |---|---|
@@ -614,11 +614,11 @@ PUT /upload
 
  
 
-**Indieningsinstantie**
+**Lichaam van het Verzoek**
 
 De onbewerkte inhoudbytes voor het document.
 
-**Antwoord**
+**Reactie**
 
 ```
 {
@@ -634,9 +634,9 @@ of
 }
 ```
 
-**Voorbeeld:** `https://www.acme.com/api/upload?id=1234` *[documentbytes die zijn opgenomen in updatestroom]*
+**Voorbeeld:** `https://www.acme.com/api/upload?id=1234` *[documentbytes inbegrepen in updatestroom]*
 
-**Antwoord**
+**Reactie**
 
 ```
 {
@@ -656,7 +656,7 @@ Zoekparameters
 
 Geen. Bovendien zouden de vraag aan dit eindpunt geen authentificatie moeten vereisen.
 
-**Antwoord**
+**Reactie**
 
 JSON met informatie over deze service
 
@@ -702,7 +702,7 @@ JSON met informatie over deze service
 
 **Voorbeeld:** https://www.acme.com/api/serviceInfo
 
-**Retourneert**
+**Keert** terug
 
 ```
 {
@@ -722,7 +722,7 @@ URL
 
 POST /createFolder
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 | Naam  | Beschrijving |
 |---|---|
@@ -733,7 +733,7 @@ POST /createFolder
 
  
 
-**Antwoord**
+**Reactie**
 
 De meta-gegevens voor de pas gecreëerde omslag, zoals die door het /metadata eindpunt wordt bepaald.
 
@@ -770,7 +770,7 @@ URL
 
 PUT /delete
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 | Naam  | Beschrijving |
 |---|---|
@@ -781,7 +781,7 @@ PUT /delete
 
 Antwoord Een JSON-tekenreeks die aangeeft of de functie is gelukt of mislukt, zoals is opgegeven in de sectie Foutafhandeling hieronder.
 
-**Voorbeeld:** PUT https://www.acme.com/api/delete
+**Voorbeeld:** PUT https://www.acme.com/api/delete id=1234
 
 retourneert
 
@@ -808,7 +808,7 @@ URL
 
 PUT /naam wijzigen
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 | Naam  | Beschrijving |
 |---|---|
@@ -860,7 +860,7 @@ Gebruikers kunnen de aangepaste handeling activeren door de sectie onder &quot;D
 
 GET /customAction
 
-**Zoekparameters**
+**Parameters van de Vraag**
 
 <table style="table-layout:auto">
  <col>
@@ -889,7 +889,7 @@ GET /customAction
 
  
 
-**Antwoord**
+**Reactie**
 
 Een JSON-tekenreeks die aangeeft of de functie is gelukt of mislukt, zoals is opgegeven in de sectie Foutafhandeling hieronder. Bij een fout (d.w.z. status = &quot;mislukking&quot;) geeft Workfront het aangeboden foutbericht aan de gebruiker weer.
 

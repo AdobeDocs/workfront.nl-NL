@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: Vaste datums'
+title: 'Overzicht taakbeperking: vaste datums'
 description: U kunt de taakbeperking Vaste datums gebruiken wanneer u specifieke informatie wilt over de exacte begindatum en einddatum van uw taken. Voor meer informatie over taakbeperkingen, zie het overzicht van de Restrictie van de Taak.
 author: Alina
 feature: Work Management
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van taakbeperking: Vaste datums
 
-U kunt de taakbeperking Vaste datums gebruiken wanneer u specifieke informatie wilt over de exacte begindatum en einddatum van uw taken. Voor meer informatie over taakbeperkingen, zie [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+U kunt de taakbeperking Vaste datums gebruiken wanneer u specifieke informatie wilt over de exacte begindatum en einddatum van uw taken. Voor meer informatie over taakbeperkingen, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 ## Overzicht van de beperking Vaste datums
 
@@ -31,15 +31,17 @@ Houd rekening met het volgende wanneer u de beperking Vaste datums gebruikt:
 
       * Wanneer om het even welke beperkingsdata van de taak vroeger zijn dan de Datum van het Begin van het Project, verandert de taakbeperking in zo spoedig mogelijk.
       * Wanneer om het even welke of beide beperkingsdata van de taak later zijn dan de Geplande VoltooiingsDatum van het project, verandert de Geplande Datum van de Voltooiing van het project om de voltooiingsbeperkingsdatum van de taak aan te passen.
+
    * Wanneer het bestemmingsproject van Voltooiing wordt gepland:
 
       * Wanneer om het even welke beperkingsdata van de taak later zijn dan de Datum van de Voltooiing van het Project, verandert de taakbeperking in zo laat mogelijk.
       * Wanneer om het even welk of beide beperkingsdata van de taak vroeger zijn dan de Geplande Datum van het Begin van het project, verandert de Geplande Datum van het Begin van het project om de beginbeperkingsdatum van de taak aan te passen.
+
    * Ongeacht het programma van het project, wanneer de beperkingsdata van de taak binnen de Data van het Begin en van de Voltooiing van het project zijn, zijn er geen veranderingen in de Restrictie van de Taak of de projectdata.
 
-   Voor informatie over het verplaatsen van taken raadpleegt u [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken raadpleegt u [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Voor informatie over het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Voor informatie over hoe te om de Beperking van de Taak op een taak bij te werken, zie [Werk de Beperking van de Taak van een taak bij](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: Recenten en favorieten in [!DNL Adobe Workfront]
+title: Recenten en favorieten in  [!DNL Adobe Workfront]
 description: Lees de volgende artikelen voor meer informatie over het gebruik van favorieten en verlopen in Workfront.
 feature: Get Started with Workfront
 author: Lisa

@@ -58,11 +58,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Automatische herinneringen instellen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **E-mail** >**Automatische herinneringen**.
+1. Klik **E-mail** > **Automatische Herinneringen**.
 
-1. In de **Een laattijdige melding verzenden naar** selecteert u een van de volgende opties:
+1. In **verzend een laat bericht naar** gebied, selecteer om het even welke volgende opties:
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr>
     <tr>
         <td>De gebruiker "Toegewezen aan"</td>
-        <td>(In de <b>Herinnering voor deadline verzenden naar</b> gebied.) Selecteer deze optie als u wilt dat de gebruiker die aan een taak of een kwestie wordt toegewezen, een melding ontvangt over zijn het werkpunt dat de vervaldatum nadert.</td>
+        <td>(In <b> verzend eindherinnering aan </b> gebied.) Selecteer deze optie als u wilt dat de gebruiker die aan een taak of een kwestie wordt toegewezen, een melding ontvangt over zijn het werkpunt dat de vervaldatum nadert.</td>
         <td></td>
     </tr>
 </table>
@@ -91,13 +91,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De tijd wordt berekend vanaf de geplande datum van voltooiing van de taak of afgifte.
 
-   Geef het aantal minuten, uren, dagen, weken of maanden op om tijd toe te voegen aan de geplande Voltooiingsdatum van de taken of uitgaven. Selecteren **Verstreken minuten**, **Verstreken uren**, **Verstreken dagen**, of **Verstreken weken** om tijd toe te voegen die weekends, feestdagen en niet-werkuren omvat, zoals in uw planning is aangegeven.
+   Geef het aantal minuten, uren, dagen, weken of maanden op om tijd toe te voegen aan de geplande Voltooiingsdatum van de taken of uitgaven. Selecteer **Verstreken notulen**, **Verstreken Uren**, **Verstreken Dagen**, of **Verstreken Weken** om tijd toe te voegen die om het even welke weekends, vakantie, en niet-werkuren zoals vermeld in uw programma omvat.
 
    Als een taak bijvoorbeeld op vrijdag is toegewezen en een duur van 3 verstreken dagen heeft, wordt de voltooiingsdatum van de taak ingesteld op maandag (ervan uitgaande dat zaterdag en zondag een weekend zijn). Als de taak drie dagen duurt (niet is verstreken), is de datum waarop de taak is voltooid, vastgesteld op woensdag.
 
    ![](assets/time-increments-for-automatic-reminder.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Automatische herinneringen ontvangen
 
@@ -105,10 +105,10 @@ Als u de aangewezen entiteit bent in een Automatische herinnering, ontvangt u ee
 
 De taken met bepaalde gebiedstypes kunnen na de gespecificeerde begindatum leveren, alhoewel zij achterstallig zijn. Bijvoorbeeld, als een taak een voorganger met een eind-Begin (fs) gebiedsdeel heeft, zal het niet in e-mail worden omvat, zelfs als het de gespecificeerde begindatum is overgegaan, omdat u niet de taak kunt beginnen tot voorganger volledig is.
 
-Voor meer informatie over het ontvangen van e-mails met automatische herinneringen raadpleegt u de [Automatische herinneringen](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) sectie in [Adobe Workfront-berichten](../../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie over het ontvangen van Automatische herinneringen e-mails, zie de [ Automatische herinneringen ](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) sectie in [ de berichten van Adobe Workfront ](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatische herinneringen verzenden
 
 Automatische herinneringen worden verzonden zodra de door de Workfront-beheerder geselecteerde tijd is verstreken.
 
-Als u het handmatig verzenden van de automatische herinneringse-mails wilt activeren, kunt u dit doen met Diagnostics. Voor meer informatie over toegang tot en het gebruiken van Diagnostiek in Workfront, zie [Diagnostiek gebruiken om geautomatiseerde processen te activeren](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Als u het handmatig verzenden van de automatische herinneringse-mails wilt activeren, kunt u dit doen met Diagnostics. Voor meer informatie over de toegang tot van en het gebruiken van Diagnostiek in Workfront, zie [ Diagnose van het Gebruik om geautomatiseerde processen ](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.

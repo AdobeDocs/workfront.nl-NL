@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: Zo snel mogelijk"'
+title: 'Overzicht van taakbeperking: zo snel mogelijk'
 description: Zo snel mogelijk is een taakbeperking die de begintijd van de taak zo dicht mogelijk bij het begin van het project plaatst.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Overzicht van taakbeperking: Zo snel mogelijk
+# Overzicht van taakbeperking: zo snel mogelijk
 
 Zo snel mogelijk is een taakbeperking die de begintijd van de taak zo dicht mogelijk bij het begin van het project plaatst.
 
@@ -24,9 +24,9 @@ Zo snel mogelijk is een taakbeperking die de begintijd van de taak zo dicht moge
 
 * Als een project een planningswijze van Programma van de Datum van het Begin gebruikt en als het systeem of de groep standaardDatum van het Begin voor een nieuwe taak aan Vandaag wordt geplaatst, dan is de standaardBeperking van de Taak Geen Eerder dan Begin.
 
-   Voor informatie over waar te om de standaardBeperking voor een nieuwe taak te plaatsen, verwijs naar [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor informatie over waar te om de standaardBeperking voor een nieuwe taak te plaatsen, verwijs naar [ de taak van het hele systeem vormen en voorkeur van de uitgave ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uitgeven.
 
-Voor informatie over hoe te om de Beperking van de Taak op een taak bij te werken, zie [Werk de Beperking van de Taak van een taak bij](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -56,10 +56,10 @@ De oudste beschikbare tijdbeperking verschilt van de restrictie Zo snel mogelijk
 
 In deze situatie:
 
-* **Vroegste beschikbare tijd:** Het gebruik van de oudste beschikbare tijdbeperking op de opvolgertaak geeft prioriteit aan de flexibele beperking van de voorganger.
+* **Vroegst Beschikbare Tijd:** Gebruikend de vroegst Beschikbare beperking van de Tijd op de opvolgertaak geeft prioriteit aan de flexibele beperking van de voorganger.
 
-   Bijvoorbeeld, veronderstel dat Taak A een voorganger aan Taak B is. Taak B heeft de vroegst Beschikbare Beperking van de Tijd en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is de taak zo dicht mogelijk bij de voltooiing van het project gepland.
+  Bijvoorbeeld, veronderstel dat Taak A een voorganger aan Taak B is. Taak B heeft de Vroegst Beschikbare Beperking van de Tijd en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is de taak zo dicht mogelijk bij de voltooiing van het project gepland.
 
-* **Zo snel mogelijk:** In dit scenario, geeft het gebruiken van zo spoedig mogelijk beperking op de opvolgertaak de prioriteit aan de opvolgertaak.
+* **zo spoedig mogelijk:** in dit scenario, die zo spoedig mogelijk de beperking op de opvolgertaak gebruiken geeft de prioriteit aan de opvolgertaak.
 
-   Bijvoorbeeld, veronderstel dat Taak A een voorganger aan Taak B is. Taak B heeft zo snel mogelijk de beperking en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is de taak zo dicht mogelijk bij de start van het project gepland.
+  Bijvoorbeeld, veronderstel dat Taak A een voorganger aan Taak B is. Taak B heeft zo snel mogelijk de beperking en Taak A heeft de Zo laat mogelijk beperking. In deze situatie is de taak zo dicht mogelijk bij de start van het project gepland.

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Bekijk de [!DNL Workfront Proof] beheerdersaccount
-description: Als [!DNL Workfront Proof] beheerder, kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan uw organisatie worden aangebracht [!DNL Workfront Proof] account.
+title: Bekijk de de rekeningsgeschiedenis van uw organisatie  [!DNL Workfront Proof]  beheerderrekening
+description: Als a [!DNL Workfront Proof]  beheerder, kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan de 1} rekening van uw organisatie worden aangebracht rekening. [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b4bd3fe3-558c-4ef6-bc0c-ca1724fcfe8d
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# Bekijk de [!DNL Workfront Proof] beheerdersaccount
+# De [!DNL Workfront Proof] beheerderaccountgeschiedenis van uw organisatie weergeven
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] beheerder, kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan uw organisatie worden aangebracht [!DNL Workfront Proof] account.
+Als [!DNL Workfront Proof] beheerder kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan de [!DNL Workfront Proof] rekening van uw organisatie worden aangebracht.
 
-1. In de rechterbovenhoek van [!DNL Workfront Proof], klikt u op **[!UICONTROL Settings]** > **[!UICONTROL Account Settings]** klikt u op de knop **[!UICONTROL History]** tab.
+1. Klik in de rechterbovenhoek van [!DNL Workfront Proof] op **[!UICONTROL Settings]** > **[!UICONTROL Account Settings]** en klik vervolgens op de tab **[!UICONTROL History]** .
 
-   * **Gebruiksstatussen**: Bijzonderheden over de huidige en de meest recente factuurperioden, met inbegrip van de naam van het plan, de begin- en einddatum van de factureringsperiode, het aantal gebruikte proefdrukken en de totale gebruikte opslag.
-   * **[!UICONTROL Account changes]log**: Recente wijzigingen in uw account, waaronder de datum en beschrijving van de activiteit en de gebruiker die de actie heeft uitgevoerd.
+   * **Statistieken van het Gebruik**: Details voor de huidige en meest recente het factureren periodes, met inbegrip van de naam van het plan, het begin en einddata van het factureringsperiode, het aantal gebruikte proefdrukken en totale gebruikte opslag.
+   * **[!UICONTROL Account changes]log**: Recente wijzigingen die in uw account zijn aangebracht, waaronder de datum en beschrijving van de activiteit en de gebruiker die de handeling heeft uitgevoerd.
 
-1. Als u een volledige lijst met accountwijzigingen wilt weergeven, klikt u op **Zie volledige lijst** in de **[!UICONTROL Usage stats]** sectie.
-De pagina Activiteitenlogboek wordt weergegeven. Zie voor meer informatie [De [!DNL Workfront Proof] Activiteit Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+1. Om een volledige lijst van rekeningsveranderingen te bekijken, klik **zie volledige lijst** in de **[!UICONTROL Usage stats]** sectie.
+De pagina Activiteitenlogboek wordt weergegeven. Voor meer informatie, zie [ Begrijpend het  [!DNL Workfront Proof]  Trail van de Controle van de Activiteit ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).

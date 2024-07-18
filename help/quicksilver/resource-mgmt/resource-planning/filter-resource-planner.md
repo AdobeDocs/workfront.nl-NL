@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Gegevens filteren in de bronnenplanner
-description: '''(AL:*Interactief op dit artikel: filteren op aangepaste gegevens. Andere verbeteringen? Speciale tekens kunnen veranderen. Volg het artikel om te weten wanneer. Het kwam oorspronkelijk in Bèta 3 17.3.)"'
+description: '''(AL:*Interactief op dit artikel: filteren op aangepaste gegevens. Andere verbeteringen? Speciale tekens kunnen veranderen. Volg het artikel om te weten wanneer. Oorspronkelijk kwam het in Beta 3 17.3.)"'
 author: Alina
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
@@ -45,11 +45,11 @@ U moet het volgende hebben:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>De mening of hogere toegang tot Projecten, Gebruikers, en het Beheer van het Middel </p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen of hoger van de mening voor projecten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemmingen of hoger van de mening voor projecten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,16 +58,16 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Overzicht van de filters Bronnen
 
-Om de hoeveelheid informatie te minimaliseren die in de Planner van het Middel wordt getoond, verstrekt Adobe Workfront een StandaardFilter met vooraf geconfigureerde criteria. Zie de sectie voor informatie over het standaardfilter [Overzicht van het standaardfilter in de bronnenplanner](#overview-of-the-default-filter-in-the-resource-planner) in dit artikel.
+Om de hoeveelheid informatie te minimaliseren die in de Planner van het Middel wordt getoond, verstrekt Adobe Workfront een StandaardFilter met vooraf geconfigureerde criteria. Voor informatie over de StandaardFilter, zie het sectie [ Overzicht van de StandaardFilter in de Planner van het Middel ](#overview-of-the-default-filter-in-the-resource-planner) in dit artikel.
 
-U kunt ook aangepaste filters maken. Zie de sectie voor informatie over het aanpassen van filters in de functie Bronnen [Bronplannerfilters maken](#create-resource-planner-filters) in dit artikel.
+U kunt ook aangepaste filters maken. Voor informatie van het aanpassen van filters in de Planner van het Middel, zie de sectie [ de filters van de Planner van het Middel ](#create-resource-planner-filters) in dit artikel creëren.
 
 Overweeg het volgende wanneer het gebruiken van filters in de Planner van het Middel:
 
 * De filters die u maakt, zijn alleen voor u zichtbaar. U kunt filters delen om deze beschikbaar te maken voor andere gebruikers.
 * Als Workfront-beheerder kunt u alleen filters zien die u maakt of die met u worden gedeeld.
 * De gefilterde resultaten veranderen niet wanneer u een verschillende mening voor de Planner van het Middel selecteert.\
-  Voor meer informatie over het veranderen van de mening in de Planner van het Middel, zie de de selectiesectie van de &quot;van het Project/van de Rol/van de mening van de Gebruiker&quot;in [Overzicht van de navigatie in de bronnenplanner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Voor meer informatie over het veranderen van de mening in de Planner van het Middel, zie de de selectiesectie van de &quot;van het Project/van de Rol/van de Gebruiker&quot;in [ navigatie van de Planner van het Middel ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 * Het toepassen van een filter verandert niet de toewijzing en beschikbaarheidsgegevens in de Planner van het Middel voor projecten, rollen, of gebruikers. Een filter wijzigt alleen het aantal objecten dat u in de functie Bronnen ziet.
 * Filteren is van toepassing op alle voorwerpen die tezelfdertijd in de Planner van het Middel tonen. Als u bijvoorbeeld voor een specifieke gebruiker filtert, geeft de functie Bronnen alleen de volgende resultaten weer:
@@ -78,7 +78,7 @@ Overweeg het volgende wanneer het gebruiken van filters in de Planner van het Mi
 
 ## Overzicht van het standaardfilter in de bronnenplanner {#overview-of-the-default-filter-in-the-resource-planner}
 
-Als u de functie Bronnen voor het eerst opent, past Workfront het filter Standaard toe. U kunt het filter Standaard bewerken en alleen filteren op de items die u wilt weergeven. Zie de sectie voor informatie over het wijzigen van filters [Een filter bewerken in de functie Bronnen](#edit-a-filter-in-the-resource-planner) in dit artikel.
+Als u de functie Bronnen voor het eerst opent, past Workfront het filter Standaard toe. U kunt het filter Standaard bewerken en alleen filteren op de items die u wilt weergeven. Voor informatie bij het wijzigen van een filters, zie de sectie [ een filter in de Planner van het Middel ](#edit-a-filter-in-the-resource-planner) in dit artikel uitgeven.
 
 Houd rekening met het volgende wanneer u het filter Standaard gebruikt:
 
@@ -97,7 +97,7 @@ Houd rekening met het volgende wanneer u het filter Standaard gebruikt:
 * U kunt een kopie van het filter Standaard dupliceren en bewerken, de gewenste criteria erin wijzigen en deze vervolgens opslaan als een nieuw filter.
 * U kunt het standaardfilter niet verwijderen of delen.
 
-  ![RP_new_default_filterler_criteria__1_.PNG](assets/rp-new-default-fitler-criteria--1--301x547.png)
+  ![ RP_new_default_fitler_criteria__1_.PNG ](assets/rp-new-default-fitler-criteria--1--301x547.png)
 
 ## Bronplannerfilters maken {#create-resource-planner-filters}
 
@@ -108,7 +108,7 @@ Houd rekening met het volgende wanneer u het filter Standaard gebruikt:
 Het maken van een filter in de Planner van het Middel is identiek voor alle meningen.
 
 Zorg ervoor dat de eerste vereisten voor het weergeven van de juiste informatie in de functie Bronnen aanwezig zijn voordat u een filter maakt.\
-Voor informatie over het voldoen aan de noodzakelijke eerste vereisten voor het werken met de Planner van het Middel, zie de &quot;Vereisten voor het werken in de Planner van het Middel&quot;sectie in [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artikel.
+Voor informatie over het ontmoeten van de noodzakelijke eerste vereisten om met de Planner van het Middel te werken, zie de &quot;Eerste vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het ](../../resource-mgmt/resource-planning/get-started-resource-planner.md) artikel van de Planner van 0} het overzicht van het Middel.[
 
 Houd rekening met het volgende wanneer u een filter maakt:
 
@@ -117,56 +117,56 @@ Houd rekening met het volgende wanneer u een filter maakt:
 
 Een filter maken in de bronnenplanner:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Bronnen**.
+1. Klik **Middelen**.
 
-   De **Planner** worden standaard weergegeven.
+   De **vertoningen van de Planner** door gebrek.
 
-   De eerste keer dat u toegang krijgt tot de functie Bronnen, <strong>Standaardfilter</strong> wordt toegepast.<br>Zie voor meer informatie over het filter Standaard het dialoogvenster <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Overzicht van het standaardfilter in de bronnenplanner</a> in dit artikel.
+   Door gebrek, de eerste keer u tot de Planner van het Middel toegang hebt, wordt de <strong> StandaardFilter </strong> toegepast.<br> voor meer informatie over de Standaardfilter, zie het <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref"> Overzicht van de StandaardFilter in de 2} sectie van de Planner van het Middel {in dit artikel.</a>
 
-1. Klik in de linkerbovenhoek van het dialoogvenster op de knop **Filter** pictogram.\
-   ![filter_icon.png](assets/filter-icon.png)\
+1. In de upper-left hoek van, klik het **pictogram van de Filter**.\
+   ![ filter_icon.png ](assets/filter-icon.png)\
    of\
-   Breid uit **Filter** vervolgkeuzelijst en klik op **Nieuw filter toevoegen**.\
+   Vouw het **drop-down menu van de Filter** uit en klik **voeg Nieuwe Filter** toe.\
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Als u een filter wilt maken aan de hand van de ingebouwde criteria, geeft u een van de volgende velden op:
 
-   * **Portfolio**: Typ de naam van het portfolio dat de gegevens bevat die u wilt opnemen in de bronnenplanner en klik vervolgens op de naam wanneer deze wordt weergegeven in de lijst.\
+   * **Portfolio**: Begin typend de naam van de portefeuille die de informatie bevat u in de Planner van het Middel wilt omvatten, dan klik de naam wanneer het in de lijst verschijnt.\
      Herhaal dit proces om informatie uit meerdere portfolio&#39;s op te nemen.
 
-   * **Projectstatus**: Vouw het vervolgkeuzemenu Projectstatus uit en selecteer een of meerdere projectstatussen in de lijst.
-   * **Team**: Typ de naam van een of meerdere teams die zijn gekoppeld aan de gebruikers die zijn toegewezen aan taken in de projecten die u wilt weergeven.
-   * **Functie**: Typ de naam van een of meerdere taakrollen die zijn gekoppeld aan de gebruikers die zijn toegewezen aan taken in de projecten die u wilt weergeven.
-   * **Pools**: Begin typend de naam van één of veelvoudige Pools van het Middel die met de projecten (voor de Mening van het Project), de gebruikers (voor de Mening van de Gebruiker) worden geassocieerd, of met zowel de projecten als de gebruikers (voor de Mening van de Rol) die u wilt bekijken.
-   * **Groep**: Typ de naam van een of meerdere groepen die zijn gekoppeld aan de gebruikers (in de weergave Gebruiker) of projecten (in de weergave Project en Rol) die u wilt weergeven.
+   * **Status van het Project**: Breid het drop-down menu van de Status van het Project uit en selecteer één of veelvoudige projectstatussen beschikbaar in de lijst.
+   * **Team**: Begin typend de naam van één of veelvoudige teams verbonden aan de gebruikers die aan taken in de projecten worden toegewezen u wilt bekijken.
+   * **Rol van de Baan**: Begin typend de naam van één of veelvoudige baanrollen verbonden aan de gebruikers die aan taken in de projecten worden toegewezen u wilt bekijken.
+   * **Pools**: Begin typend de naam van één of veelvoudige Groepen van het Middel die met de projecten (voor de Mening van het Project), de gebruikers (voor de Mening van de Gebruiker), of verbonden met zowel de projecten als de gebruikers (voor de Mening van de Rol) worden geassocieerd die u wilt bekijken.
+   * **Groep**: Begin typend de naam van één of veelvoudige groepen verbonden aan de gebruikers (in de mening van de Gebruiker) of projecten (in de meningen van het Project en van de Rol) die u wilt bekijken.
 
-1. Klikken **Filterregel toevoegen** typt u vervolgens de veldnaam waarop u wilt filteren in het dialoogvenster **Tekst om items te filteren** doos. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld.
+1. Klik **toevoegen de Regel van de Filter**, dan begin het typen van de gebiedsnaam die u door in het **Type aan filterpunten** doos wilt filteren. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld.
 
    >[!IMPORTANT]
    >
-   >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Zie voor informatie over het verschil tussen het label en de naam van een aangepast veld  [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+   >Wanneer u naar aangepaste velden verwijst, moet u de veldnaam en niet het veldlabel typen. Het veldlabel wordt weergegeven op een aangepast formulier dat is gekoppeld aan een object. Voor informatie over het verschil tussen het etiket en de naam van een douanegebied, zie [ een douanevorm ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 1. Klik op de naam van het veld om het aan het filter toe te voegen wanneer het in de lijst wordt weergegeven.\
-   Voor meer informatie over de velden die u in de lijst ziet, raadpleegt u [Woordenlijst met Adobe Workfront-terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Voor meer informatie over de gebieden u in de lijst ziet, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-1. (Optioneel) Selecteer de filter- en voorwaardomstandigheden voor het filter. De beschikbare modifiers worden beschreven in [Filter- en voorwaardenmodificatoren](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. (Optioneel) Selecteer de filter- en voorwaardomstandigheden voor het filter. De beschikbare bepalingen worden beschreven in [ Filter en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    U kunt op gebruiker-gebaseerde of op datum-gebaseerde vervangingen gebruiken om voor informatie te filtreren verbonden aan het het programma geopende gebruiker.\
-   Zie voor informatie over ondersteunde jokertekens in filters [Overzicht van jokertekenfiltervariabelen](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Voor informatie over gesteunde vervangingen in filters, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-1. Klikken **Opslaan** om de filterregel op te slaan.
-1. (Optioneel) Klik op **Filterregel toevoegen** om een nieuwe regel toe te voegen voor een ander object of veld.
-1. Klikken **Toepassen** om het filter toe te passen zonder het op te slaan.
+1. Klik **sparen** om de filterregel te bewaren.
+1. (Facultatief) klik **toevoegen de Regel van de Filter** om een nieuwe regel voor een ander voorwerp of gebied toe te voegen.
+1. Klik **toepassen** om de filter toe te passen zonder het op te slaan.
 
    of
 
-   Klikken **Filter opslaan** het filter opslaan.\
-   ![RP_Apply_or_Save_buttons_on_filters.png](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
+   Klik **sparen Filter** om de filter te bewaren.\
+   ![ RP_Apply_or_Save_buttons_on_filters.png ](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
 
-1. (Voorwaardelijk) Nadat u klikt **Opslaan** geeft u een naam op voor het filter in het dialoogvenster **Filternaam** in de **Filter opslaan** in. Dit is een verplicht veld.\
-   ![RP_new_save_filter_box__with_Save_button__without_apply.png](assets/rp-new-save-filter-box--with-save-button--without-apply-350x175.png)
+1. (Voorwaardelijk) nadat u **** klikt sparen, specificeer een naam voor de filter in het **vakje van de Naam van de Filter** binnen **sparen de dialoogdoos van de Filter**. Dit is een verplicht veld.\
+   ![ RP_new_save_filter_box__with_Save_button__without_apply.png ](assets/rp-new-save-filter-box--with-save-button--without-apply-350x175.png)
 
    >[!NOTE]
    >
@@ -177,7 +177,7 @@ Een filter maken in de bronnenplanner:
    >* Afbreekstreepje
    >* Onderstrepingsteken
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    De resultaten in de Planner van het Middel worden nu gefiltreerd door de informatie u in de filterregels omvatte.
 
@@ -188,10 +188,10 @@ Wanneer u of iemand met toegang tot de Planner van het Middel een filter opslaat
 Een bestaand filter toepassen:
 
 1. Ga naar de bronnenplanner.
-1. Vouw in de linkerbovenhoek de **Filter** vervolgkeuzelijst.
+1. In de upper-left hoek, breid het **drop-down menu van de Filter** uit.
 
    In dit menu ziet u filters die u hebt gemaakt of andere filters die met u zijn gemaakt en gedeeld.\
-   ![RP_filter_drop_down.png](assets/rp-filter-drop-down-350x152.png)
+   ![ RP_filter_drop_down.png ](assets/rp-filter-drop-down-350x152.png)
 
 1. Selecteer een filter in het vervolgkeuzemenu. U kunt filters zien die u of andere gebruikers in dit menu hebben gemaakt.\
    Wanneer u een filter selecteert, vermindert het automatisch de hoeveelheid informatie die in de Planner van het Middel toont.
@@ -200,8 +200,8 @@ Een bestaand filter toepassen:
 
 U kunt een filter in de Planner van het Middel uitgeven door één van het volgende te doen:
 
-* [De naam van een filter wijzigen](#rename-a-filter)
-* [De informatie in een filter bewerken](#edit-the-information-in-a-filter)
+* [ noem een filter ](#rename-a-filter) anders
+* [ geef de informatie in een filter ](#edit-the-information-in-a-filter) uit
 * [Een filter dupliceren](#duplicate-a-filter)
 
 Wanneer u een filter bewerkt, wordt het bijgewerkt voor alle gebruikers in het systeem die toegang hebben tot de functie voor het toewijzen van bronnen.
@@ -210,56 +210,56 @@ Wanneer u een filter bewerkt, wordt het bijgewerkt voor alle gebruikers in het s
 
 U kunt de naam van een filter wijzigen zonder de criteria te wijzigen. We raden u aan andere gebruikers in het systeem op de hoogte te stellen van deze wijziging, aangezien filters zichtbaar zijn voor andere gebruikers. Deze wijziging is van invloed op de lijsten met filters voor iedereen die de functie Bronnen kan zien.
 
-1. Ga naar de functie Bronnen en vouw de **Filter** een opgeslagen filter te selecteren.
-1. Breid uit **Filter** vervolgkeuzelijst. Zoek het filter waarvan u de naam wilt wijzigen en houd het boven de naam.
-1. Selecteer de **Naam filter wijzigen** naast de naam van het filter.
+1. Ga naar de Planner van het Middel en breid **drop-down menu van de Filter** uit om een bewaarde filter te selecteren.
+1. Vouw het **drop-down menu van de Filter** uit. Zoek het filter waarvan u de naam wilt wijzigen en houd het boven de naam.
+1. Selecteer **anders noemen filter** pictogram naast de naam van de filter.
 
    ![](assets/rp-filter-options-edit-350x154.png)
 
-1. Geef een nieuwe naam voor het filter op in het dialoogvenster **Filternaam** doos.
-1. Klikken **Opslaan**.\
+1. Specificeer een nieuwe naam voor de filter in de **Naam van de Filter** doos.
+1. Klik **sparen**.\
    De informatie in het filter is gelijk en de naam wordt bijgewerkt.
 
 ### De informatie in een filter bewerken {#edit-the-information-in-a-filter}
 
 U kunt de gegevens die u in een filter opneemt, wijzigen zonder de naam ervan te wijzigen. We raden u aan andere gebruikers in het systeem op de hoogte te stellen van deze wijziging, aangezien filters voor hen zichtbaar zijn. Deze wijziging is van invloed op de lijsten met filters voor iedereen die de functie Bronnen kan zien.
 
-1. Ga naar de functie Bronnen en vouw de **Filter** in de linkerbovenhoek.
+1. Ga naar de Planner van het Middel en breid **drop-down menu van de Filter** in de upper-left hoek uit.
 1. Selecteer een bestaand filter dat u wilt bewerken.
-1. Klik op de knop **Filter** pictogram.\
-   ![filter_icon.png](assets/filter-icon.png)
+1. Klik het **pictogram van de Filter**.\
+   ![ filter_icon.png ](assets/filter-icon.png)
 
 1. Voeg nieuwe velden toe aan het filter.\
-   Voor informatie over het bouwen van filters, zie [Bronplannerfilters maken](#create-resource-planner-filters).
+   Voor informatie over de bouw van filters, zie [ de filters van de Planner van het Middel ](#create-resource-planner-filters) creëren.
 
-1. Houd de aanwijzer boven de bestaande velden die voor het filter zijn geselecteerd en klik op de knop **Bewerken** pictogram om een ander veld te selecteren, of **Verwijderen** pictogram om het veld te verwijderen.\
-   ![RP_custom_filter_delete_and_edit_icons.png](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
+1. Beweeg over de bestaande gebieden die voor de filter worden geselecteerd, en klik **uitgeven** pictogram om een ander gebied te selecteren, of **schrap** pictogram om het gebied te schrappen.\
+   ![ RP_custom_filter_delete_and_edit_icons.png ](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
 
-1. (Optioneel) Klik op **Filterregel toevoegen** om nieuwe velden aan het filter toe te voegen.\
-   Zie voor meer informatie over het definiëren van filtercriteria [Bronplannerfilters maken](#create-resource-planner-filters).
+1. (Facultatief) klik **toevoegen de Regel van de Filter** om nieuwe gebieden aan de filter toe te voegen.\
+   Voor meer informatie over het bepalen van filtercriteria, zie [ de filters van de Planner van het Middel ](#create-resource-planner-filters) creëren.
 
-1. Klikken **Toepassen** om het filter toe te passen zonder het op te slaan.
+1. Klik **toepassen** om de filter toe te passen zonder het op te slaan.
 
    of
 
-   Klikken **Opslaan** het filter opslaan.\
+   Klik **sparen** om de filter te bewaren.\
    Het filter wordt met dezelfde naam maar met nieuwe filtercriteria opgeslagen.
 
 ### Een filter dupliceren {#duplicate-a-filter}
 
 U kunt een bestaand filter dupliceren. De oorspronkelijke filtercriteria blijven hetzelfde in het gedupliceerde filter en u kunt het nieuwe filter onder een andere naam opslaan.
 
-1. Ga naar de functie Bronnen en vouw de **Filter** in de linkerbovenhoek.
+1. Ga naar de Planner van het Middel en breid **drop-down menu van de Filter** in de upper-left hoek uit.
 1. Houd de muis boven de naam van een opgeslagen filter dat u wilt dupliceren.
-1. Klik op de knop **Dupliceren** pictogram.
+1. Klik het **Dubbele** pictogram.
 
    ![](assets/rp-filter-options---duplicate-350x154.png)\
    Het vak Filter dupliceren wordt weergegeven.
 
-1. In de **Filternaam** geeft u een nieuwe naam voor het gedupliceerde filter op.\
-   De standaardnaam voor het nieuwe filter is *`<Original Filter Name>`(kopie)*.
+1. Op het **gebied van de Naam van de Filter**, specificeer een nieuwe naam voor de gedupliceerde filter.\
+   De standaardnaam voor de nieuwe filter is *`<Original Filter Name>`(exemplaar)*.
 
-1. Klikken **Opslaan**. Er wordt een nieuw filter gemaakt met dezelfde criteria als het oorspronkelijke filter en met een nieuwe naam.
+1. Klik **sparen**. Er wordt een nieuw filter gemaakt met dezelfde criteria als het oorspronkelijke filter en met een nieuwe naam.
 
    >[!NOTE]
    >
@@ -269,20 +269,20 @@ U kunt een bestaand filter dupliceren. De oorspronkelijke filtercriteria blijven
 
 U kunt een filter verwijderen wanneer het niet meer nodig is. U kunt het standaardfilter niet verwijderen.
 
-Voor informatie over het standaardfilter raadpleegt u de [Overzicht van het standaardfilter in de bronnenplanner](#overview-of-the-default-filter-in-the-resource-planner) in dit artikel.
+Voor informatie over de StandaardFilter, zie het [ Overzicht van de StandaardFilter in de sectie van de Planner van het Middel ](#overview-of-the-default-filter-in-the-resource-planner) in dit artikel.
 
 Wanneer u een filter verwijdert, wordt het filter verwijderd voor alle Workfront-gebruikers die toegang hebben tot de Resource Planner. Voordat u het filter verwijdert, moet u ervoor zorgen dat het filter dat u wilt verwijderen niet meer wordt gebruikt door iemand anders die in de Resource Planner werkt. Een verwijderd filter kan niet worden hersteld.
 
 Een filter verwijderen:
 
 1. Ga naar de bronnenplanner.
-1. Breid uit **Filter** vervolgkeuzelijst.
+1. Vouw het **drop-down menu van de Filter** uit.
 1. Zoek het filter dat u wilt verwijderen en houd de muisaanwijzer boven de naam van het filter.
-1. Selecteer de **Filter verwijderen** naast de naam van het filter.
+1. Selecteer het **filter van de Schrapping** pictogram naast de naam van de filter.
 
    ![](assets/rp-filter-options---delete-350x154.png)
 
-1. Klikken **Verwijderen** in de **Filter verwijderen** in.
+1. Klik **Schrapping** in het **de dialoogvakje van de Filter van de Schrapping**.
 
 1. Het filter wordt verwijderd uit de bronnenplanner.
 
@@ -294,37 +294,37 @@ U kunt een filter delen dat u hebt gemaakt of dat u toegang hebt om met andere g
 >
 >Alle gebruikers, inclusief Workfront-beheerders, hebben alleen toegang tot filters die ze hebben gemaakt of die met hen zijn gedeeld. U kunt een filter met specifieke gebruikers delen om een filter ter beschikking te stellen van alle gebruikers van de Planner van het Middel.
 
-Voor informatie over het standaardfilter raadpleegt u de [Overzicht van het standaardfilter in de bronnenplanner](#overview-of-the-default-filter-in-the-resource-planner) in dit artikel.
+Voor informatie over de StandaardFilter, zie het [ Overzicht van de StandaardFilter in de sectie van de Planner van het Middel ](#overview-of-the-default-filter-in-the-resource-planner) in dit artikel.
 
-Voor informatie over het dupliceren van filters raadpleegt u de [Een filter dupliceren](#duplicate-a-filter) in dit artikel.
+Voor informatie over het dupliceren van filters, zie [ een filter ](#duplicate-a-filter) sectie in dit artikel dupliceren.
 
 1. Ga naar de bronnenplanner.
-1. Breid uit **Filter** vervolgkeuzelijst.
+1. Vouw het **drop-down menu van de Filter** uit.
 1. Zoek het filter dat u wilt delen en houd de muisaanwijzer boven de naam van het filter.
-1. Selecteer de **Delen, filter** naast de naam van het filter.
+1. Selecteer het **filter van het Aandeel** pictogram naast de naam van de filter.
 
    ![](assets/rp-filter-options---share-350x154.png)
 
    Het dialoogvenster Filtertoegang wordt weergegeven.
 
-1. (Optioneel) Als u het filter beschikbaar wilt maken voor alle gebruikers van de Resource Planner, klikt u op de knop **Instellingen** pictogram, dan selecteren **Dit voor het hele systeem zichtbaar maken**.
+1. (Facultatief) om de filter ter beschikking te stellen van alle gebruikers van de Planner van het Middel, klik het **pictogram van Montages**, dan uitgezocht **maak dit zichtbare systeem-breed**.
 
    ![](assets/make-this-visible-system-wide-350x119.png)
 
-1. In de **Toegang tot het bronnenplannerfilter verlenen aan:** typt u de namen van gebruikers, teams, rollen, groepen of bedrijven waarmee u het filter wilt delen.
+1. In **geef de filtertoegang van de middelplanner tot:** doos, begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen die u de filter met wilt delen.
 1. Selecteer een van de volgende machtigingsniveaus:
 
    * Weergave
    * Beheren
 
-     Zie voor informatie over machtigingen in Workfront [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+     Voor informatie over toestemmingen in Workfront, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
-1. (Optioneel) Klik op **Geavanceerde instelling** s om toestemmingen voor elk niveau toe te voegen door hen te selecteren of toestemmingen voor elk niveau te verwijderen door hen te schrappen.
+1. (Facultatief) klik **Geavanceerde Plaatsende** s om toestemmingen voor elk niveau toe te voegen door hen te selecteren of toestemmingen voor elk niveau te verwijderen door hen te deselecteren.
 
    ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-   Het filter wordt gedeeld met de entiteiten die u hebt geselecteerd en wordt weergegeven in het dialoogvenster **Gedeeld met mij** gebied.
+   Het filter wordt gedeeld met de entiteiten die u selecteerde en het verschijnt in het **Gedeeld met me** gebied.
 
    ![](assets/rp-shared-with-me-area.png)

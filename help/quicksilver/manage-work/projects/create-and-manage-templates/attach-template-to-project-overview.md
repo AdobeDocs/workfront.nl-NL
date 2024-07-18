@@ -10,7 +10,7 @@ feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Wanneer u een malplaatje aan een bestaand project vastmaakt, wijzigt u sommige informatie over het project volgens dat van het malplaatje. Een deel van de informatie over het project blijft ongewijzigd.
 
-Voor informatie over hoe te om een malplaatje aan een project vast te maken, zie [Een sjabloon aan een project koppelen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Voor informatie over hoe te om een malplaatje aan een project vast te maken, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 ## Overwegingen bij het toevoegen van sjablonen aan projecten
 
 Overweeg het volgende wanneer het toevoegen van malplaatjes aan projecten:
 
 * U kunt alleen actieve sjablonen aan projecten koppelen.
-* U kunt een malplaatje aan een project vastmaken wanneer het project in een status van Voltooid, Dead, of in In afwachting van Goedkeuring is, slechts wanneer uw beheerder van Adobe Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project heeft toegelaten. Voor informatie over het instellen van projectvoorkeuren raadpleegt u [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* U kunt een malplaatje aan een project vastmaken wanneer het project in een status van Voltooid, Dead, of in In afwachting van Goedkeuring is, slechts wanneer uw beheerder van Adobe Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project heeft toegelaten. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * Tenzij u specifieke malplaatjetaken van wordt toegevoegd in het gehechtheidsproces uitsluiten, worden alle malplaatjetaken toegevoegd aan het bestaande project.
-* De meeste sjablooninstellingen worden toegevoegd aan het project. Sommige projectinstellingen blijven behouden. Zie de sectie [Wijzigingen in projectvelden begrijpen bij het koppelen van een sjabloon](#understand-changes-to-project-fields-when-attaching-a-template) in dit artikel.
+* De meeste sjablooninstellingen worden toegevoegd aan het project. Sommige projectinstellingen blijven behouden. Voor informatie, zie de sectie [ veranderingen in projectgebieden begrijpen wanneer het vastmaken van een malplaatje ](#understand-changes-to-project-fields-when-attaching-a-template) in dit artikel.
 
 ## Wijzigingen in projectvelden begrijpen bij het koppelen van een sjabloon {#understand-changes-to-project-fields-when-attaching-a-template}
 
@@ -38,7 +38,7 @@ Overweeg het volgende wanneer het toevoegen van malplaatjes aan projecten:
 
 Sommige malplaatjemontages brengen automatisch over naar het project, tenzij u hen specifiek merkt om tijdens het proces van de malplaatjegehechtheid worden uitgesloten. Wanneer u hen merkt om worden uitgesloten, worden de waarden van het projectgebied bewaard.
 
-Nochtans, zijn niet alle projectgebieden beschikbaar om in het proces te leiden om een malplaatje aan een project vast te maken. Zie voor meer informatie [Een sjabloon aan een project koppelen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Nochtans, zijn niet alle projectgebieden beschikbaar om in het proces te leiden om een malplaatje aan een project vast te maken. Voor informatie, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wanneer u een malplaatje vastmaakt en welke gebieden u tijdens het gehechtheidsproces kunt beheren om het standaardgedrag met voeten te treden:
 
@@ -238,8 +238,8 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
    <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><span>Gebruikers toestaan inline uitgaven toe te voegen</span> </td> 
-   <td><span>Projectinformatie blijft behouden</span> </td> 
+   <td><span> staat gebruikers toe om kwesties inline toe te voegen </span> </td> 
+   <td><span> de informatie van het Project wordt bewaard </span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
   </tr> 
   <tr> 
    <td>De Details van de rij, de Groepen van het Onderwerp, de Onderwerpen van de Rij, die Regels verpletteren</td> 
-   <td> <p>Van sjabloon overgedragen</p> <p>Als u <strong>Wachtrij instellen eigenschappen en problemen</strong> optie tijdens het gehechtheidsproces, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br>Als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de rijinformatie van het project verwijderd als u het verlaten <strong>Wachtrij instellen eigenschappen en problemen</strong> ingeschakeld. <br>Als u de optie <strong>Wachtrij-eigenschappen en Uitgave instellen</strong> doos, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage.</p> </td> 
+   <td> <p>Van sjabloon overgedragen</p> <p>Als u de <strong> optie van de Eigenschappen van de Rij &amp; van de Opstelling van Kwesties </strong> tijdens het gehechtheidsproces selecteert, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br> als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de rijinformatie van het project verwijderd als u de <strong> gecontroleerde doos van de Eigenschappen &amp; van de Rij van de Rij </strong> verlaat. <br> als u de <strong> Eigenschappen van de Rij &amp; doos van de Opstelling van de Uitgave </strong> schrapt, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -319,7 +319,7 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
   </tr> 
   <tr> 
    <td>Opties voor delen</td> 
-   <td> <p>Als deze optie niet is geselecteerd tijdens het bijlageproces, blijven de projectmachtigingen ongewijzigd.</p> <p>Als geselecteerd tijdens het gehechtheidsproces, worden de malplaatjetoestemmingen toegevoegd aan of die van het project beschrijven. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Als de Gebruiker A de toestemming van de Mening aan het project heeft, maar zij hebben leiden toestemmingen op het malplaatje, na het vastmaken van het malplaatje zal de Gebruiker A toegang tot het project krijgen leidt.</p> </td> 
+   <td> <p>Als deze optie niet is geselecteerd tijdens het bijlageproces, blijven de projectmachtigingen ongewijzigd.</p> <p>Als geselecteerd tijdens het gehechtheidsproces, worden de malplaatjetoestemmingen toegevoegd aan of die van het project beschrijven. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> als de Gebruiker A de toestemming van de Mening aan het project heeft, maar zij hebben leiden toestemmingen op het malplaatje, na het vastmaken van het malplaatjeGebruiker A zal toegang tot het project krijgen leiden.</p> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

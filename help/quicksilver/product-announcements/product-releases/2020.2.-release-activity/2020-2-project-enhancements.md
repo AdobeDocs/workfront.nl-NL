@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 2020.2 voor de productieomgeving. Deze verbeteringen zijn in de productieomgeving beschikbaar gesteld in de week van 11 mei 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 2020.2, zie [Overzicht van de release 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [ overzicht van de versie 2020.2 ](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Voor Workfront-beheerders: Nieuwe failsafe wanneer de projectstatus voor nieuwe projecten verborgen of ontgrendeld is
 
@@ -26,9 +26,9 @@ In Opstelling, vormt u een voorkeur om ervoor te zorgen dat elk nieuw project ee
 
 Om ervoor te zorgen dat de nieuwe projecten altijd een status hebben, zelfs als een beheerder de status voor nieuwe projecten verbergt of ontgrendelt, wijst het systeem nu de eerste status in de lijst van de Status aan alle nieuwe projecten toe tot u de nieuwe status voor nieuwe projecten opnieuw vormt.
 
-Voor informatie over het plaatsen van de voorkeur voor de status van alle nieuwe projecten, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (of als u Adobe Workfront Classic gebruikt, zie [Projectvoorkeuren instellen](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Voor informatie over het plaatsen van de voorkeur voor het statuut van alle nieuwe projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -42,9 +42,9 @@ De ervaring met het instellen van projectvoorkeuren is nu intuïtiever en gebrui
 * Als u een ongeldig getal typt voor een optie zoals &quot;Normaal aantal uren per werkdag&quot;, wordt direct een waarschuwingsbericht weergegeven in plaats van dat het bericht wordt weergegeven nadat u op Opslaan hebt geklikt.
 * Optie-labels komen overeen met de overeenkomende interfacetekst elders in Workfront, zoals in het gebied Details en rapporten.
 
-Voor informatie over het gebied van de Voorkeur van het Project, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (of als u Adobe Workfront Classic gebruikt, zie [Projectvoorkeuren instellen](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Voor informatie over het gebied van de Voorkeur van het Project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -55,7 +55,7 @@ Nu wordt het laatste filter, de weergave of de groepering die op een specifiek r
 
 Eerder, nadat een gebruiker een Filter, Mening, of Groepering op een lijst van het Rapport toepaste en dan vanaf die pagina navigeerde, verscheen de standaardFilter, Mening, of Groepering de volgende tijd de gebruiker aan dat zelfde rapport navigeerde.
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * De nieuwe Adobe Workfront-ervaring
 * Adobe Workfront Classic
@@ -68,13 +68,13 @@ Bijvoorbeeld, wanneer u of kopieert een taak met moet Begin op beperking aan een
 
 Voorafgaand aan deze verandering, verandert de Beperking van de Taak altijd in zo spoedig mogelijk.
 
-Zie voor informatie over het verplaatsen van taken [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Adobe Workfront Classic gebruikt, zie [Taken verplaatsen](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Voor informatie over het kopiëren van taken raadpleegt u [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u Adobe Workfront Classic gebruikt, zie [Taken kopiëren en dupliceren](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605) Exemplaar en Dupliceren).
 
-Voor een overzicht van alle Taakbeperkingen, zie [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Adobe Workfront Classic gebruikt, zie [Overzicht van taakbeperking](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -83,9 +83,9 @@ Voor een overzicht van alle Taakbeperkingen, zie [Overzicht van taakbeperking](.
 
 Om gegevensverlies te verhinderen wanneer u informatie over de pagina van Details over een voorwerp of taken in een taaklijst op het projectniveau wanneer het opslaan van veranderingen manueel bijwerkt, toont een waarschuwingsbericht nu, om u op de hoogte te brengen dat u unsaved veranderingen hebt alvorens u probeert om informatie in de kopbal uit te geven. De enige handelingen die u hebt toegestaan voordat u uw wijzigingen opslaat, zijn het abonneren of het toevoegen van het object aan uw favorieten.
 
-Voor informatie over het bewerken van taken in een lijst raadpleegt u [Taken in een lijst bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+Voor informatie over het uitgeven van taken in een lijst, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * De nieuwe Adobe Workfront-ervaring
 

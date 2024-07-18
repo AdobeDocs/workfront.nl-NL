@@ -21,7 +21,7 @@ Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwe
 
 U kunt het tabblad Details van uw rapporten aanpassen door speciale of voorwaardelijke opmaak toe te voegen aan de weergave van uw rapporten.
 
-Zie het artikel voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Door kolommen in de mening van het rapport voorwaardelijk te formatteren, kunt u opstellingsregels die de manier beïnvloeden de rapportvertoningen. Wanneer aan deze voorwaarden of regels is voldaan, wordt de speciale opmaak toegepast.
 
@@ -62,16 +62,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te bewerken</p> <p><b>OPMERKING</b></p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te bewerken</p> <p><b>OPMERKING</b></p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Rechten beheren voor een weergave</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Rechten beheren voor een weergave</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 +++
 
@@ -79,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U moet een rapport maken voordat u voorwaardelijke opmaak aan de weergave kunt toevoegen.
 
-Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een weergave met voorwaardelijke opmaak maken
 
@@ -89,13 +89,13 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
 
    of
 
-   Klikken **Nieuw rapport** Selecteer vervolgens een objecttype om een nieuw rapport op te bouwen.
+   Klik **Nieuw Rapport**, dan selecteer een objecten type om een nieuw rapport te bouwen.
 
-1. (Voorwaardelijk) Als u een bestaand rapport bewerkt, klikt u op **Handelingen rapporteren** en klik vervolgens op **Bewerken**.
+1. (Voorwaardelijk) als u een bestaand rapport uitgeeft, klik **Acties van het Rapport**, dan klik **uitgeven**.
 
-1. In de **Kolommen (weergave)** klikt u om een bestaande kolom te selecteren of klikt u op **Kolom toevoegen** om een kolom te maken.
-1. In de **Tonen in deze kolom** in de upper-left hoek van de rapportbouwer, selecteer het gebied u in de nieuwe kolom wilt tonen.
-1. Klikken **Geavanceerde opties**.
+1. In de **Kolommen (Mening)** tabel, klik om een bestaande kolom te selecteren, of klik **voeg Kolom** toe om een kolom tot stand te brengen.
+1. In **toon in dit kolom** gebied in de upper-left hoek van de rapportbouwer, selecteer het gebied u in de nieuwe kolom wilt tonen.
+1. Klik **Geavanceerde Opties**.
 
 1. Geef de volgende informatie op:
 
@@ -118,7 +118,7 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
     </tbody> 
    </table>
 
-1. Klikken **Een regel toevoegen voor deze kolom**.
+1. Klik **voeg een Regel voor deze Kolom** toe.
 
    <!--
    <note type="note">
@@ -126,10 +126,10 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
    </note>
    -->
 
-1. In de **Wanneer:** , stelt u een voorwaardelijke instructie in voor de kolom.
+1. In **wanneer:** sectie, plaats een voorwaardenverklaring voor de kolom.
 
    Bijvoorbeeld: &quot;wanneer het Volledige Percentage van de Taak (Gevoelig voor Gevallen) 50 evenaart.&quot;
-1. In de **Het veld als volgt weergeven:** geeft u op hoe dit veld eruitziet als aan de bovenstaande voorwaarde is voldaan.
+1. In **toon het gebied als dit:** sectie specificeert hoe dit gebied kijkt wanneer de hierboven bepaalde voorwaarde wordt voldaan aan.
 
    Geef de volgende informatie op:
 
@@ -159,7 +159,7 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tekst tonen</strong></td> 
-      <td> <p>Selecteer deze optie om een aangepast label voor deze kolom weer te geven in plaats van de werkelijke waarde ervan. Geef de tekst op die u wilt weergeven in plaats van de waarde in het opgegeven veld.</p> <p><b>BELANGRIJK</b></p> <p>Selecteren <strong>Tekst tonen</strong> Hiermee schakelt u de mogelijkheid uit om de tekst in deze kolom inline te bewerken.<br>Ook, kunt u niet de waarde van een kolom veranderen van de Voorganger omdat het ingebouwde logica bevat.</p> </td> 
+      <td> <p>Selecteer deze optie om een aangepast label voor deze kolom weer te geven in plaats van de werkelijke waarde ervan. Geef de tekst op die u wilt weergeven in plaats van de waarde in het opgegeven veld.</p> <p><b>BELANGRIJK</b></p> <p>Het selecteren van <strong> toont Tekst </strong> maakt de capaciteit onbruikbaar om de tekst in deze kolom gealigneerd uit te geven.<br> ook, kunt u niet de waarde van een kolom veranderen van de Voorganger omdat het ingebouwde logica bevat.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Toepassen op de hele rij</strong></td> 
@@ -168,7 +168,7 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
     </tbody> 
    </table>
 
-1. Klikken **Regel toevoegen**.\
+1. Klik **toevoegen Regel**.\
    U kunt extra regels toevoegen aan dezelfde kolom of regels toevoegen aan andere kolommen.
 
    Regels worden toegepast in de volgorde waarin ze zijn gemaakt. Zij worden gecombineerd maar zij beschrijven elkaar niet, hoewel een kolomregel belangrijkheid over een rijregel op de zelfde cel neemt.
@@ -189,6 +189,6 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
    * Voeg opnieuw de kolomregel voor de rode achtergrond op late projecten toe.
    * Wanneer u de regels en de weergave opslaat, wordt de rode achtergrond niet toegepast op een geannuleerd project.
 
-1. Klikken **Gereed**.
-1. Klikken **Opslaan + Sluiten**.\
+1. Klik **Gedaan**.
+1. Klik **sparen + Sluiten**.\
    In het rapport zien gebruikers wijzigingen in de indeling als aan de opgegeven voorwaarden is voldaan.

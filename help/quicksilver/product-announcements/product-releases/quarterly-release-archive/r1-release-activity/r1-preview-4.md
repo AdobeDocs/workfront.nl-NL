@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle veranderingen beschikbaar in het milieu van de Voorproef met R1.4 versie. De functionaliteit op deze pagina is op 15 februari 2017 beschikbaar gesteld in de voorvertoningsomgeving.
 
-Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [De Workfront R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
+Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [ de versie van Workfront R1 ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
 
 ## Bijgewerkt project, Taak, en Kwestie goedkeurt
 
@@ -36,20 +36,20 @@ Wanneer het creëren van goedkeuringsprocessen voor project, taak, en uitgevende
 
 * Bijgewerkt uiterlijk.
 
-Voor meer informatie over het creëren van goedkeuringsprocessen, zie [Een goedkeuringsproces voor werkitems maken](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Voor meer informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 Wanneer het associëren van een goedkeuringsproces met een project, een taak, of een kwestie, zijn de volgende verhogingen en de veranderingen nu beschikbaar:
 
 * Bijgewerkt uiterlijk.
 * Het goedkeuringsdiagram wordt weergegeven op het tabblad Goedkeuring en geeft een visuele weergave weer van eerdere, huidige en toekomstige goedkeuringsstappen.
 
-Zie voor meer informatie over het koppelen van goedkeuringen aan projecten, taken en problemen [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Voor meer informatie over het associëren van goedkeuringen met projecten, taken, en kwesties, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## De status van een project rechtstreeks wijzigen vanaf de projectpagina
 
 U hoeft een project niet meer te bewerken om de projectstatus te wijzigen. U kunt de status van een project nu rechtstreeks wijzigen vanaf de hoofdpagina van het project.
 
-Zie voor meer informatie [De status van een project wijzigen](../../../../manage-work/projects/manage-projects/change-project-status.md).
+Voor meer informatie, zie [ Verandering de status van een project ](../../../../manage-work/projects/manage-projects/change-project-status.md).
 
 ## Gebruikers plannen voor deactivering
 
@@ -61,13 +61,13 @@ Het plannen van een gebruiker om worden gedeactiveerd kan in een verscheidenheid
 
 Deze functie is ook beschikbaar voor gebruikers die bulkbewerkingen uitvoeren. 
 
-Voor meer informatie over het plannen van gebruikers voor deactivering, zie [Een gebruiker deactiveren of opnieuw activeren](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) en [Gebruikers toevoegen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Voor meer informatie over het plannen van gebruikers voor deactivering, zie [ een gebruiker ](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren en [ gebruikers ](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 ## Nieuwe e-maildigest-opties voor &quot;Acties vereist&quot;
 
 De optie Dagelijkse samenvatting is nu beschikbaar in het gedeelte Actie vereist van de instellingen voor Meldingen.
 
-Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen. Dit is vereist omdat de voorvertoningssandbox de e-mailadressen van alle gebruikers wist.
 
@@ -77,12 +77,12 @@ De volgende verbeteringen zijn toegevoegd bij het herstellen van verwijderde pro
 
 * U ontvangt nu een e-mailbericht nadat u een object hebt teruggezet.\
   Als Workfront-beheerder ontvangt u nu een e-mailbericht nadat u een project, taak of uitgave hebt hersteld die eerder is verwijderd. In het e-mailbericht wordt u geïnformeerd over de status van het herstelproces.\
-  Ga voor meer informatie over het herstellen van objecten in Workfront naar [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Voor meer informatie over het herstellen van voorwerpen in Workfront, zie [ geschrapte punten ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 * Wanneer het object is hersteld, wordt het verwijderen en herstellen van het object nu opgenomen in de updatestream van het object zelf en in de updatestream van het bovenliggende object.\
   Eerder werd alleen de verwijdering opgenomen in de updatestream van het bovenliggende object.\
   Wanneer de taak bijvoorbeeld is hersteld, wordt een bericht toegevoegd aan de updatestream van zowel het project als de taak zelf om aan te geven dat de taak is hersteld. (Verwijderen en herstellen worden niet opgenomen bij subtaken. Informatie over het verwijderen en herstellen van subtaken is alleen beschikbaar voor bovenliggende taken.)\
-  Zie voor meer informatie [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Voor meer informatie, zie [ geschrapte punten ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
  
 
@@ -92,7 +92,7 @@ Er is een nieuwe interface voor het beheer van Groepen en Subgroups die een gema
 
 Het veld Groepseigenaren en het veld Groepsleden worden nu gecombineerd in één veld, met een lijst van hieronder vermelde groepsleden. Bovendien kunt u de lijst met groepsleden filteren en wijzigen of ze eigenaar of lid zijn. 
 
-Voor meer informatie over het toevoegen van subgroepen aan groepen en het aanwijzen van gebruikers als leden of groepseigenaren van groepen, zie [Een groep maken](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) en [Een groep maken](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Voor meer informatie over het toevoegen van subgroepen aan groepen evenals het aanwijzen van gebruikers als leden of groepseigenaars van groepen, zie [ een groep ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ een groep ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren. 
 
  
 
@@ -105,4 +105,4 @@ U kunt tekst kopiëren in de volgende velden van alle objecten die zichtbaar zij
 * Referentienummer
 * Opmerkingen
 
-Deze functionaliteit moet in de week van 13 februari worden vrijgegeven voor de App Store van iOS en Android.
+Deze functionaliteit moet worden vrijgegeven aan de iOS- en Android-App Store in de week van 13 februari.

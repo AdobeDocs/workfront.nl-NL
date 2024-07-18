@@ -79,17 +79,17 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 
 <table>
   <tr>
-   <td><strong>Functie </strong>
+   <td><strong> Functie </strong>
    </td>
-   <td><strong>Bestaat in oude ervaring met opmerkingen </strong>
+   <td><strong> Bestaat in oude het becommentariëren ervaring </strong>
    </td>
-   <td><strong>Bestaat in de nieuwe opmerkingervaring </strong>
+   <td><strong> Bestaat in de nieuwe het becommentariëren ervaring </strong>
    </td>
-   <td><strong>Wordt geïntroduceerd in de nieuwe ervaring met opmerkingen </strong>
+   <td><strong> Wordt geïntroduceerd in de nieuwe opmerkingervaring </strong>
    </td>
-   <td><strong>Wanneer wordt de nieuwe ervaring met opmerkingen toegevoegd </strong>
+   <td><strong> Wanneer wordt geïntroduceerd in de nieuwe opmerkingervaring </strong>
    </td>
-   <td><strong>Onderzoek </strong>
+   <td><strong> In onderzoek </strong>
    </td>
   </tr>
   <tr>
@@ -514,9 +514,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 
 >[!IMPORTANT]
 >
->Voor meer informatie over de functies die tijdens de bètaperiode naar de nieuwe opmerkingervaring worden vrijgegeven, raadpleegt u [Nieuwe bètaervaringsactiviteit voor opmerkingen](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Voor informatie over de eigenschappen die aan de nieuwe het becommentariëren ervaring tijdens het bètatijdkader worden vrijgegeven, zie [ Nieuwe het becommentariëren activiteit van de bètaervaring versie ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Ga voor meer informatie over het beheren van updates voor Workfront-objecten naar [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Voor meer informatie over het beheren van updates voor de voorwerpen van Workfront, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 Hieronder volgt een gepland tijdschema met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen.
@@ -526,21 +526,21 @@ Raadpleeg de overzichtspagina van de huidige release voor informatie over de fun
 Hier volgt een geplande tijdlijn voor de release van de nieuwe opmerkingervaring:
 
 * Met de release van 23.2 (6 april 2023):
-   * Het bètaprogramma voor opmerkingen starten voor problemen
+   * Beta voor opmerkingen starten voor problemen
    * De nieuwe ervaring met opmerkingen opheffen voor doelen (als enige ervaring)
 * Met 23.3 release (20 juli 2023):
-   * Start het bètaprogramma voor opmerkingen voor projecten, taken en documenten.
+   * Start de opmerkingervaring in Beta voor projecten, taken en documenten.
    * De nieuwe opmerkingervaring opheffen voor kaarten in het gebied Boards (als enige ervaring)
 * Tijdens de release van het vierde kwartaal van 2023 (beperkte release, alleen beschikbaar voor klanten die de snelle release kiezen):
    * De nieuwe ervaring met opmerkingen opheffen voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring)
-   * Werk het Bèta van de het becommentariëren ervaring voor projecten, taken, kwesties, en documenten bij om de standaardoptie te worden. Het label &quot;Bèta&quot; wordt verwijderd.
+   * Werk de opmerkingervaring in Beta bij zodat projecten, taken, problemen en documenten de standaardoptie worden. Het label &quot;Beta&quot; wordt verwijderd.
 * In de vierde release van 23.10 uur in 2023 (26 oktober 2023)
    * Laat de nieuwe opmerkingervaring voor sjablonen, sjabloontaken, programma&#39;s, portfolio&#39;s, teams, gebruikers en tijdbladen (als enige ervaring) aan alle klanten los.
    * Maak de nieuwe opmerkingervaring voor projecten, taken, kwesties, en documenten de standaardoptie.
 
   >[!IMPORTANT]
   >
-  >    Hiermee wordt de bètafase van de nieuwe opmerkingervaring afgesloten.
+  >    Hiermee wordt de Beta-fase van de nieuwe ervaringen met opmerkingen afgesloten.
 
    * Maak alle functies die voor de nieuwe opmerkingervaring worden vrijgegeven vanaf deze datum onderdeel van de huidige reguliere maandelijkse en driemaandelijkse releases.
 * Eind 2023:
@@ -561,7 +561,7 @@ De nieuwe ervaring met opmerkingen is beschikbaar op de volgende gebieden van Wo
 
 * In de sectie Updates van alle objecten.
 
-  Voor informatie over het openen van de sectie Updates van Workfront-objecten raadpleegt u [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Voor informatie over de toegang tot van de sectie van Updates van de voorwerpen van Workfront, zie [ het sectieoverzicht van Updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 * In het paneel Overzicht van taken, kwesties, en documenten op alle gebieden waar dit beschikbaar is (lijsten, timesheets, de Balancer van de Werkbelasting, en Huis).
 * In het gebied van het Huis voor taken en kwesties.

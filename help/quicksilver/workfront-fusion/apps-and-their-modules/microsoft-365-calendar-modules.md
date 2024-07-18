@@ -5,7 +5,7 @@ product-area: workfront-integrations;calendars
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365-kalender
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die Microsoft Office 365 Kalender gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Microsoft Office 365 Kalender gebruiken, evenals het met veelvoudige derstoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 # [!DNL Microsoft Office 365 Calendar]
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Microsoft Office 365 Calendar]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Microsoft Office 365 Calendar] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor gebruik [!DNL Office 365 Calendar] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Office 365 Excel] account. U kunt er een maken op [www.office.com](https://www.office.com/).
+Als u [!DNL Office 365 Calendar] met [!DNL Adobe Workfront Fusion] wilt gebruiken, hebt u een [!DNL Office 365 Excel] -account nodig. U kunt één in [ www.office.com ](https://www.office.com/) tot stand brengen.
 
-Voor instructies over het aansluiten van uw Office 365-account op [!DNL Workfront Fusion], zie [Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het verbinden van uw Bureau 365 rekening met [!DNL Workfront Fusion], zie [ een verbinding aan Adobe  [!DNL Workfront Fusion]  - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md) creëren
 
-Nadat u toestemming hebt verleend, wordt u teruggeleid naar [!UICONTROL Workfront Fusion] beleidspagina waar u kunt blijven creërend uw scenario.
+Nadat u toestemming hebt verleend, wordt u teruggeleid naar de [!UICONTROL Workfront Fusion] beheerpagina waar u kunt doorgaan met het maken van uw scenario.
 
 ## Toegangsvereisten
 
@@ -45,33 +45,33 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Microsoft Office 365 Calendar] modules, moet u een [!DNL Microsoft Office 365 Calendar] account.
+Als u [!DNL Microsoft Office 365 Calendar] -modules wilt gebruiken, moet u een [!DNL Microsoft Office 365 Calendar] -account hebben.
 
-## De [!DNL Office 365 Calendar] service aan [!DNL Workfront Fusion]
+## De service [!DNL Office 365 Calendar] verbinden met [!DNL Workfront Fusion]
 
-Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -81,9 +81,9 @@ Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] account a
 
 ## [!DNL Microsoft Office 365 Calendar] modules en hun velden
 
-Wanneer u [!DNL Microsoft Office 365 Calendar] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Microsoft Office 365 Calendar] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Microsoft Office 365 Calendar] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Microsoft Office 365 Calendar] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -106,7 +106,7 @@ Deze triggermodule haalt de details van een gebeurtenis op wanneer de gebeurteni
 
 >[!NOTE]
 >
->Selecteer [!UICONTROL By Updated Time] in de [!UICONTROL Watch events] veld. Deze module controleert niet op verwijderde, enkele gebeurtenissen of verwijderde gebeurtenisreeksen.
+>Selecteer [!UICONTROL By Updated Time] in het veld [!UICONTROL Watch events] om te controleren op verwijderde exemplaren van een gebeurtenisreeks. Deze module controleert niet op verwijderde, enkele gebeurtenissen of verwijderde gebeurtenisreeksen.
 
 
 <table style="table-layout:auto"> 
@@ -116,7 +116,7 @@ Deze triggermodule haalt de details van een gebeurtenis op wanneer de gebeurteni
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch events]</td> 
@@ -140,7 +140,7 @@ Deze triggermodule haalt de details van een gebeurtenis op wanneer de gebeurteni
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Voer het maximum aantal berichten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</p> </td> 
+   <td> <p>Voer het maximale aantal berichten in dat [!DNL Workfront Fusion] tijdens één cyclus van de uitvoering van het scenario moet retourneren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,7 +156,7 @@ In deze zoekmodule worden de details van een gebeurtenis opgehaald wanneer de ge
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar Group ID]</td> 
@@ -188,7 +188,7 @@ In deze zoekmodule worden de details van een gebeurtenis opgehaald wanneer de ge
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Voer het maximale aantal gebeurtenissen in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</td> 
+   <td>Voer het maximale aantal gebeurtenissen in dat [!DNL Workfront Fusion] tijdens één cyclus van uitvoering van het scenario moet retourneren.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ Deze actiemodule wint details van de gespecificeerde gebeurtenis terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event ID]</td> 
@@ -223,7 +223,7 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject]</td> 
@@ -231,11 +231,11 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>({date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>({date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL End date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>{date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>{date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 
@@ -259,9 +259,9 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
    <td> <p>Selecteer de gevoeligheid van deze gebeurtenis.</p> 
     <ul> 
      <li><strong>[!UICONTROL Normal]</strong> </li> 
-     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"- bericht.</p> </li> 
-     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"- bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
-     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"- bericht. </p> </li> 
+     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"bericht.</p> </li> 
+     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
+     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"bericht. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -270,7 +270,7 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body content]</td> 
-   <td>Typ of wijs de hoofdtekst van het bericht toe dat aan de gebeurtenis is gekoppeld. Het kan in HTML of tekstformaat (zoals gespecificeerd in [!UICONTROL Body Content Type] veld hierboven).</td> 
+   <td>Typ of wijs de hoofdtekst van het bericht toe dat aan de gebeurtenis is gekoppeld. De notatie kan HTML of tekst zijn (zoals opgegeven in het veld [!UICONTROL Body Content Type] hierboven).</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Location]</td> 
@@ -278,7 +278,7 @@ Deze actiemodule maakt een nieuwe gebeurtenis.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Response requested]</td> 
-   <td>Selecteren <strong>[!UICONTROL Yes]</strong> om de genodigde te verzoeken een antwoord op de uitnodiging voor de gebeurtenis te verzenden.</td> 
+   <td>Selecteer <strong>[!UICONTROL Yes]</strong> om de genodigde te vragen een antwoord op de uitnodiging voor de gebeurtenis te verzenden.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Show as]</td> 
@@ -318,7 +318,7 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event ID]</td> 
@@ -330,11 +330,11 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>{date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>{date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL End date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. De indeling gebruiken <code>({date}T{time}</code>; bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code>. Voor een lijst met ondersteunde datum- en tijdnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>({date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 
@@ -358,9 +358,9 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
    <td> <p>Selecteer de gevoeligheid van deze gebeurtenis.</p> 
     <ul> 
      <li><strong>[!UICONTROL Normal]</strong> </li> 
-     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"- bericht.</p> </li> 
-     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"- bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
-     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"- bericht. </p> </li> 
+     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Personal]"bericht.</p> </li> 
+     <li> <p><strong>[!UICONTROL Private]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Private]"bericht. Deze gebeurtenis wordt niet doorgestuurd of door de inbox-regels van de ontvanger omgeleid.</p> </li> 
+     <li> <p><strong>[!UICONTROL Confidential]</strong> </p> <p>De ontvanger ziet een "[!UICONTROL Please treat this as Confidential]"bericht. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -369,7 +369,7 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body content]</td> 
-   <td>Typ of wijs de hoofdtekst van het bericht toe dat aan de gebeurtenis is gekoppeld. Het kan in HTML of tekstformaat (zoals gespecificeerd in [!UICONTROL Body Content Type] veld hierboven).</td> 
+   <td>Typ of wijs de hoofdtekst van het bericht toe dat aan de gebeurtenis is gekoppeld. De notatie kan HTML of tekst zijn (zoals opgegeven in het veld [!UICONTROL Body Content Type] hierboven).</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Location]</td> 
@@ -377,7 +377,7 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Response requested]</td> 
-   <td>Selecteren <strong>[!UICONTROL Yes]</strong> om de genodigde te verzoeken een antwoord op de uitnodiging voor de gebeurtenis te verzenden.</td> 
+   <td>Selecteer <strong>[!UICONTROL Yes]</strong> om de genodigde te vragen een antwoord op de uitnodiging voor de gebeurtenis te verzenden.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Show as]</td> 
@@ -417,7 +417,7 @@ Deze actiemodule verwijdert een bestaande gebeurtenis.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event ID]</td> 
@@ -445,7 +445,7 @@ Deze zoekmodule haalt een lijst op met alle kalenders van de geverifieerde gebru
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar Group ID]</td> 
@@ -453,7 +453,7 @@ Deze zoekmodule haalt een lijst op met alle kalenders van de geverifieerde gebru
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Voer het maximumaantal kalenders in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</td> 
+   <td>Voer het maximale aantal kalenders in dat [!DNL Workfront Fusion] tijdens één cyclus van uitvoering van het scenario moet retourneren.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -469,7 +469,7 @@ Deze actiemodule wint details over één enkele kalender terug.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar ID]</td> 
@@ -489,7 +489,7 @@ Met deze actiemodule maakt u een nieuwe kalender in uw Google-account.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar name]</td> 
@@ -509,11 +509,11 @@ Deze actiemodule bewerkt een bestaande kalender.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar ID]</td> 
-   <td>Voer de [!UICONTROL Calendar ID] voor de kalender die u wilt bijwerken. </td> 
+   <td>Voer de [!UICONTROL Calendar ID] in voor de kalender die u wilt bijwerken. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL New Calendar name]</td> 
@@ -533,11 +533,11 @@ Met deze actiemodule verwijdert u een bestaande kalender.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calendar ID]</td> 
-   <td>Voer de [!UICONTROL Calendar] Id voor de kalender die u wilt verwijderen.</td> 
+   <td>Voer de [!UICONTROL Calendar] -id in voor de kalender die u wilt verwijderen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -555,19 +555,19 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Een pad invoeren ten opzichte van <code>https://graph.microsoft.com</code>. Voorbeeld:<code> /v1.0/me/events</code></p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van <code>https://graph.microsoft.com</code> . Voorbeeld:<code> /v1.0/me/events</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] Hiermee voegt u de machtigingsheaders voor u toe.</p> </td> 
+   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld <code>{"Content-type":"application/json"}</code> . [!DNL Workfront Fusion] voegt de machtigingsheaders voor u toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -575,7 +575,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:   <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:   <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

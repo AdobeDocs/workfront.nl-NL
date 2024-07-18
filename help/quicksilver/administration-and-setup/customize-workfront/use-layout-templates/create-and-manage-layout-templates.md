@@ -35,7 +35,7 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u lay-outsjablonen maken e
 
 Nadat u een lay-outmalplaatje creeert of wijzigt, kunt u het aan individuele gebruikers, teams, groepen, of baanrollen toewijzen.
 
-De standaard Workfront-indeling van elke gebruiker is afhankelijk van het toegangsniveau en het type licentie. Sommige gebruikers zien bepaalde gebieden bijvoorbeeld niet in het hoofdmenu. Zie voor meer informatie [De standaard Adobe Workfront-lay-out](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+De standaard Workfront-indeling van elke gebruiker is afhankelijk van het toegangsniveau en het type licentie. Sommige gebruikers zien bepaalde gebieden bijvoorbeeld niet in het hoofdmenu. Voor meer informatie, zie [ Ongeveer de standaardAdobe Workfront lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Toegangsvereisten
 
@@ -60,9 +60,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
-<p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>:</p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.
+<p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>:</p> <p>Als u geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.
 
-Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -75,7 +75,7 @@ Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzi
 * Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen lay-outsjablonen op systeemniveau en op groepsniveau toevoegen aan de gebruikers die ze kunnen beheren tijdens het bewerken van hun profiel.
 * Groepbeheerders kunnen geen lay-outsjablonen toewijzen aan taakrollen of teams.
 
-Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 <!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
 * Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
@@ -85,34 +85,34 @@ Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen](../../../admin
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Interface** > **Layoutsjablonen**.
+1. In het linkerpaneel, klik **de Interface van 0} >** Malplaatjes van de Lay-out **.**
 
-1. Klikken **Nieuwe lay-outsjabloon**.
+1. Klik **Nieuw Malplaatje van de Lay-out**.
 
    of
 
    Klik op de naam van de lay-outsjabloon die u wilt wijzigen.
 
-1. Als u een nieuwe lay-outsjabloon maakt, typt u een **Naam van lay-outsjabloon** en (facultatief) a **Beschrijving** daarvoor.
+1. Als u een nieuw lay-outmalplaatje creeert, typ de naam van het a **malplaatje van de Lay-out** en (facultatief) a **Beschrijving** voor het.
 
 1. Pas gebieden van de gebruikersinterface aan, zoals die in de volgende artikelen worden beschreven:
 
-   * [Het hoofdmenu aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-   * [Het linkerdeelvenster aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-   * [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Home en overzicht aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-   * [De landingspagina aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-   * [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   * [ pas het Belangrijkste Menu aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+   * [ pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [ pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
+   * [ pas de mening van Details aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [ pas Huis en Samenvatting aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
+   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Test de lay-outsjabloon en stel deze ter beschikking van gebruikers, zoals in de volgende artikelen wordt beschreven:
 
-   * [Een nieuwe lay-outsjabloon testen](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-   * [Administratieve toegang verlenen voor een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+   * [ het Testen van een nieuw lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [ verlenen administratieve toegang voor een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Gebruikers toewijzen aan een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 >[!TIP]
 >
->U kunt ook een lay-outsjabloon maken door deze te kopiëren en de kopie te wijzigen. Zie voor meer informatie [Een lay-outsjabloon kopiëren](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>U kunt ook een lay-outsjabloon maken door deze te kopiëren en de kopie te wijzigen. Voor meer informatie, zie [ een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md) kopiëren.
 

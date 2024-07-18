@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [Aanvraagwachtrijen maken en beheren](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [ creeer en beheer de Queues van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
 * [Verzoeken maken](../../manage-work/requests/create-requests/create-requests.md)

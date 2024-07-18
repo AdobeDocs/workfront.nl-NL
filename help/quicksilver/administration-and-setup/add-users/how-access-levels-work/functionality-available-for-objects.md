@@ -61,7 +61,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Taken
 
@@ -93,7 +93,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Problemen
 
@@ -121,7 +121,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Portfolio&#39;s
 
@@ -145,7 +145,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot portfol
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Programma&#39;s
 
@@ -169,7 +169,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot program
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Rapporten, dashboards en kalenders
 
@@ -189,7 +189,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Documenten
 
@@ -236,14 +236,14 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 | Proef | ✓ | ✓ | ✓ | ✓ |
 | Proef genereren | ✓ |   |   |   |
 | Proef verwijderen | ✓ | ✓ | ✓ |   |
-| Toevoegen/verwijderen&#42;&#42; | ✓ | ✓ | ✓ |   |
-| Naam wijzigen&#42;&#42; | ✓ | ✓ | ✓ |   |
+| Toevoegen/verwijderen &#42;&#42; | ✓ | ✓ | ✓ |   |
+| Naam wijzigen &#42;&#42; | ✓ | ✓ | ✓ |   |
 | Koppeling (met integratie) | ✓ | ✓ | ✓ |   |
 | Ontkoppelen (met integratie) | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Gebruikers
 
@@ -258,9 +258,9 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-&#42;&#42;Externe gebruikers kunnen alleen naar andere gebruikers zoeken.
+&#42;&#42; de Externe gebruikers kunnen slechts naar andere gebruikers zoeken.
 
 ## Teams
 
@@ -275,7 +275,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Sjablonen
 
@@ -291,7 +291,7 @@ Gebruikers met een standaardlicentie kunnen volledige toegang krijgen tot rappor
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Financiële gegevens
 
@@ -306,16 +306,16 @@ Alleen gebruikers met een standaardlicentie hebben volledige toegang tot financi
 | Factureringsrecords beheren | ✓ |   |   |   |
 | Kosten beheren | ✓ |   |   |   |
 | Financiële gegevens weergeven | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Creditcards beheren</span> | ✓ |   |   |   |
+| <span class="preview"> beheert tariefkaarten </span> | ✓ |   |   |   |
 | De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |   |
-| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |   |
-| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel&#42; | ✓ | ✓ |   |   |
+| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |
+| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel &#42; | ✓ | ✓ |   |   |
 | Risico&#39;s maken voor projecten | ✓ |   |   |   |
 | Risico&#39;s weergeven voor projecten | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
 ## Bronbeheer
 
@@ -324,32 +324,32 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 | Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |
-| Brongroepen maken, bewerken en verwijderen&#42;&#42; | ✓&#42; |   |   |   |
+| Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; |   |   |
 | Brongroepen weergeven | ✓&#42; | ✓&#42; |   |   |
-| De middelen van de begroting in de hulpmiddelen van de Planning van Middelen&#42;&#42; | ✓ |   |   |   |
+| De middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |
 | Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-&#42;&#42;Vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [Financiële machtigingen delen op een object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Hiervoor is toestemming vereist om Contribute aan het object toe te voegen, waarbij Toewijzingen inschakelen onder Geavanceerde instellingen is ingeschakeld. Zie de sectie [Begrijp geërfde toestemmingen en de hiërarchie van voorwerpen](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42; vereist toestemming aan Contribute aan het voorwerp, met de Toewijzingen van het Merk die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
 
 ## Scenario Planner, gebied
 
 | Handeling | Standaard | Licht | Medewerker | Externe gebruiker |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Bestaande plannen en initiatieven maken/bewerken | ✓ | ✓ |   |   |
-| Informatie over een taakrol toevoegen of bewerken in plannen en initiatieven&#42; | ✓ | ✓ |   |   |
-| Kosteninformatie over plannen en initiatieven toevoegen of bewerken&#42; | ✓ | ✓ |   |   |
+| Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ |   |   |
+| Kosteninformatie over plannen en initiatieven toevoegen of bewerken &#42; | ✓ | ✓ |   |   |
 | Plannen en initiatieven verwijderen | ✓ | ✓ |   |   |
 | Scenario&#39;s weergeven in het hoofdmenu | ✓ | ✓ |   |   |
-| Abonnementen en initiatieven weergeven die de gebruiker heeft gemaakt&#42; | ✓ | ✓ |   |   |
+| De plannen en de initiatieven van de mening die de gebruiker &#42; creeerde | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -357,7 +357,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 >
 >De gebruikers kunnen een plan bekijken dat een andere gebruiker creeerde slechts als een verbinding aan het plan met hen wordt gedeeld.
 
-&#42; Gebruikers die financiële gegevens in een plan of initiatief willen bekijken, hebben toegang tot financiële gegevens nodig. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Gebied met Workfront-doelen
 

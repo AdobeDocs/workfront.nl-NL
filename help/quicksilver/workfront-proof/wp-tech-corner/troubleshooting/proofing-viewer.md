@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Problemen oplossen - [!DNL Workfront Proof] proefdrukviewer
+title: Het oplossen van problemen -  [!DNL Workfront Proof]  het proef kijker
 description: Als de inhoud van uw proefdrukken niet wordt geladen en u alleen een lege proefdrukviewer kunt zien, is dit zeer waarschijnlijk omdat deze actie lokaal wordt geblokkeerd.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Problemen oplossen - [!DNL Workfront Proof] proefdrukviewer
+# Problemen oplossen - [!DNL Workfront Proof] de viewer controleren
 
 <!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Als de inhoud van uw proefdrukken niet wordt geladen en u alleen een lege proefdrukviewer kunt zien, is dit zeer waarschijnlijk omdat deze actie lokaal wordt geblokkeerd. Probeer hieronder de mogelijke oplossingen.
 
-## De browser controleren <!--and [!DNL Flash Player]--> is bijgewerkt
+## Zorg ervoor dat de browserversie <!--and [!DNL Flash Player]--> up-to-date is
 
 Alle ontwikkelaars werken constant aan hun toepassingen en zij geven regelmatig nieuwe eigenschappen en moeilijke situaties voor hun producten vrij. Dit moet gebruikerservaring verbeteren en veiligheidsniveau handhaven zodat is het de beste praktijken om slechts de nieuwste versies te gebruiken. Dit helpt ook conflicten tussen de toepassingen te voorkomen.
 
@@ -45,11 +45,11 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 Meestal werken de meeste browsers automatisch bij, maar als u problemen ondervindt, is het de moeite waard om te controleren welke versie u gebruikt en een update uit te voeren, indien nodig.
 
-Ga in uw browser naar [!UICONTROL Menu] en zoek de [!UICONTROL About] optie (in sommige gevallen kan dit zichtbaar zijn onder een [!UICONTROL Help] ). In de [!UICONTROL About] in het pop-upvenster vindt u informatie over de huidige browserversie en ook een optie om bij te werken of te controleren op updates.
+Ga in uw browser naar [!UICONTROL Menu] en zoek de optie [!UICONTROL About] (in sommige gevallen is dit zichtbaar onder een [!UICONTROL Help] -menu). In het pop-upvenster [!UICONTROL About] vindt u informatie over de huidige browserversie en ook een optie voor het bijwerken/controleren op updates.
 
 Bijvoorbeeld in Chrome:
 
-![Browserversie van Chrome](assets/proofview-3.png)
+![ browser van Chrome versie ](assets/proofview-3.png)
 
 Wanneer de meest recente browserversie is geïnstalleerd, probeert u de proefdruk opnieuw te openen en te controleren of het probleem is opgelost.
 
@@ -70,25 +70,25 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 * We hebben geen voorkeursbrowser, maar als er prestatieproblemen optreden in uw huidige browser, raden we u aan over te schakelen op een andere browser.
 * Worden de proefdrukken geopend op een andere computer op uw locatie?
 Als de proefdruk niet wordt geopend in een browser op uw computer, probeert u deze dan op een andere computer op uw locatie en/of buiten uw locatie te openen. Hierdoor kunt u bepalen of een probleem zich op uw specifieke computer voordoet of dat het probleem zich in uw lokale netwerk bevindt.
-Als uw veiligheidsniveau hoger is, uw verbindingen aan [!DNL Workfront Proof] kan worden geblokkeerd door:
+Als uw beveiligingsniveau hoger is, kunnen de verbindingen met [!DNL Workfront Proof] worden geblokkeerd door:
 
    * Uw lokale AV-software
    * Uw oplossing voor netwerkbeveiliging
    * DNS-, firewall- of proxyconfiguratie
-   * Dit zijn de instellingen die buiten onze controle liggen. Er zijn diverse beschikbare veiligheidsoplossingen en wij kunnen niet zien welke in uw netwerk worden uitgevoerd en welke verbindingen kunnen blokkeren aan [!DNL Workfront Proof]. Het is ook niet aan [!DNL Workfront Proof] om uw interne veiligheidsconfiguratie te beslissen. Als u problemen hebt met het openen van de proefdrukken op de veelvoudige machines in uw plaats/netwerk, zouden wij u adviseren in contact met uw team van IT zodat konden zij de netwerkmontages controleren en machtigen of toevoegen [!DNL Workfront Proof] in de lijst van gewenste personen, indien nodig.
+   * Dit zijn de instellingen die buiten onze controle liggen. Er zijn verschillende beveiligingsoplossingen beschikbaar en we kunnen niet zien welke in uw netwerk zijn geïmplementeerd en welke verbindingen met [!DNL Workfront Proof] blokkeren. Het is ook niet aan [!DNL Workfront Proof] om te beslissen over uw interne veiligheidsconfiguratie. Als u problemen hebt met het openen van de proefdrukken op de veelvoudige machines in uw plaats/netwerk, zouden wij u adviseren in contact met uw team van IT zodat konden zij de netwerkmontages controleren en [!DNL Workfront Proof] machtigen of toevoegen aan de lijst van gewenste personen, indien nodig.
 
 * Zijn de verbindingen met [!DNL Workfront Proof] toegestaan in uw netwerk?
-In de Proefweergave laden we de tegels - fragmenten van de pagina&#39;s. Als deze inhoud aan uw uiteinde niet correct wordt geladen, kan het zijn dat sommige verbindingen met [!DNL Workfront Proof] worden geblokkeerd in uw netwerk. U zult ervoor willen zorgen dat alle verbindingen en alle inhoud van *.proofhq.com aan de lijst van gewenste personen wordt toegevoegd. Uw IT-team moet hierbij kunnen helpen.
+In de Proefweergave laden we de tegels - fragmenten van de pagina&#39;s. Als deze inhoud aan uw uiteinde niet correct wordt geladen, worden sommige verbindingen met [!DNL Workfront Proof] mogelijk geblokkeerd in uw netwerk. U zult ervoor willen zorgen dat alle verbindingen en alle inhoud van *.proofhq.com aan de lijst van gewenste personen wordt toegevoegd. Uw IT-team moet hierbij kunnen helpen.
 
 ## Insteekmodules controleren
 
-Als uw browser bijgewerkt is en uw netwerk blokkeert niet de verbindingen aan [!DNL Workfront Proof]kan er iets in uw browser zijn dat invloed heeft op het weergeven van de proefdrukken. Er zijn vaak meerdere plug-ins en extensies beschikbaar in uw browser. Sommige van deze plug-ins kunnen problemen veroorzaken of een conflict veroorzaken met andere plug-ins.
+Als uw browser bijgewerkt is en uw netwerk de verbindingen met [!DNL Workfront Proof] niet blokkeert, kan er iets in uw browser zijn die het bekijken van de proefdrukken beïnvloedt. Er zijn vaak meerdere plug-ins en extensies beschikbaar in uw browser. Sommige van deze plug-ins kunnen problemen veroorzaken of een conflict veroorzaken met andere plug-ins.
 
-De beste praktijken moeten alle onbekende toe:voegen-ons verwijderen en slechts degenen houden die u gebruikt en die u vertrouwt. Elke browser moet u opties bieden om de plug-ins en extensies te controleren, te wijzigen of te verwijderen. We gebruiken JavaScript om de [!DNL Workfront Proof] de viewer, zodat u vooral de plug-ins wilt bekijken die dat kunnen beïnvloeden.
+De beste praktijken moeten alle onbekende toe:voegen-ons verwijderen en slechts degenen houden die u gebruikt en die u vertrouwt. Elke browser moet u opties bieden om de plug-ins en extensies te controleren, te wijzigen of te verwijderen. We gebruiken JavaScript om de viewer van [!DNL Workfront Proof] te laden, zodat u vooral de plug-ins wilt bekijken die dat kunnen beïnvloeden.
 
 Als er om het even welke bepaalde toe:voegen-op interfereert met het laden van de proeven, kunt u proberen controlerend de details in de console van browser.
 
-![Browserconsole](assets/proofview-4.png)
+![ Browser console ](assets/proofview-4.png)
 
 In de meeste nieuwere browsers zijn er enkele extra tools voor ontwikkelaars beschikbaar die kunnen worden gebruikt voor geavanceerdere probleemoplossing.
 
@@ -101,8 +101,8 @@ Als u problemen hebt met het bekijken van de proefdrukken:
 
 ## Instellingen voor gemengde inhoud controleren
 
-Alle verbindingen met [!DNL Workfront Proof] zijn via HTTPS. In de [!DNL Workfront Proof] Viewer we laden de tegels via HTTP en de gegevens worden beveiligd met de tokens. Dit leidt tot Gemengde Inhoud die sommige browsers of veiligheidsoplossingen (door gebrek of door handconfiguratie) kunnen blokkeren.
+Alle verbindingen met [!DNL Workfront Proof] zijn via HTTPS. In de [!DNL Workfront Proof] Viewer worden de tegels echter via HTTP geladen en worden de gegevens met de tokens beveiligd. Dit leidt tot Gemengde Inhoud die sommige browsers of veiligheidsoplossingen (door gebrek of door handconfiguratie) kunnen blokkeren.
 
-Als dit de reden is waarom de proeven niet op uw computer openen (u zou de relevante alarm in de console van browser moeten kunnen zien), dergelijke verbindingen voor toestaan [!DNL Workfront Proof] of wijzig de instellingen om passief gemengde inhoud op uw computer toe te staan. De gemengde inhoud kan door uw browser, software AV, of netwerkconfiguratie worden geblokkeerd om de nauwkeurige oorzaak te bepalen. U moet contact opnemen met uw IT-team/netwerkbeheerders. Ze moeten ook de gemengde inhoud op uw computer kunnen inschakelen.
+Als dit de reden is waarom de proeven niet op uw computer openen (u zou de relevante alarm in de console van browser moeten kunnen zien), dergelijke verbindingen voor [!DNL Workfront Proof] goedkeuren of uw montages wijzigen om passieve gemengde inhoud op uw machine toe te staan. De gemengde inhoud kan door uw browser, software AV, of netwerkconfiguratie worden geblokkeerd om de nauwkeurige oorzaak te bepalen. U moet contact opnemen met uw IT-team/netwerkbeheerders. Ze moeten ook de gemengde inhoud op uw computer kunnen inschakelen.
 
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De volledige waarde van Percentage van een project wordt berekend gebaseerd op of de Duur of Geplande Uren van taken in het project. Uw beheerder van Adobe Workfront of een groepsbeheerder bepaalt welke waarde in rekening wordt gebracht wanneer het berekenen van percent volledig in uw systeem wanneer zij informatie in het gebied van de Voorkeur van het Project vormen.
 
-Voor informatie over het vormen van projectvoorkeur, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Voor informatie over het vormen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Percentage voltooid van een oudertaak is gebaseerd op de Duur of Geplande Uren van elk van zijn subtaken.
 
@@ -40,7 +40,7 @@ U kunt het percentage van een taak handmatig wijzigen. Dit is geen berekening.
 
 Workfront gebruikt het percentage voltooide van een individuele taak om het percentage te berekenen voltooit van zijn oudertaak of het percentage voltooide van het project.
 
-Voor informatie over het bijwerken van het percentage voltooide taken raadpleegt u [Percentage van voltooiing weergeven en bijwerken voor taken](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Voor informatie over het bijwerken van het percentage voltooide van een taak, zie [ Mening en werk Percentage bij Voltooid voor taken ](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Hoe Workfront Percentage voltooide op een bovenliggende taak berekent {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

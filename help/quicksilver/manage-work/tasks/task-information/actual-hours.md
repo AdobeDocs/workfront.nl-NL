@@ -24,7 +24,7 @@ Wij adviseren dat de uren op het werkpunten zouden moeten worden geregistreerd, 
 
 Nochtans, als beheerder van Workfront, kunt u gebruikers toestaan om tijd op projecten, afhankelijk van wat de werkschema&#39;s in uw organisatie zijn te registreren.
 
-Voor meer informatie over hoe te opstelling uw systeem om gebruikers toe te staan om tijd op projecten te registreren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor meer informatie over hoe te opstelling uw systeem om gebruikers toe te staan om tijd op projecten te registreren, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ## Toegangsvereisten
 
@@ -44,16 +44,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of hogere toegang tot Taken, Projecten, of Kwesties</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>De mening of hogere toegang tot Taken, Projecten, of Kwesties</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Bekijk of hogere toestemmingen aan een taak, een project, of een kwestie</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Bekijk of hogere toestemmingen aan een taak, een project, of een kwestie</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Werkelijke uren voor taken en problemen versus Werkelijke uren voor projecten
 
@@ -81,9 +81,9 @@ Het vinden van de waarde voor Werkelijke Uren voor een punt is identiek voor tak
 
 U vindt de informatie Werkelijke uren over taken op de volgende locaties:
 
-* [Werkelijke uren in de sectie Details](#actual-hours-in-the-details-section)
-* [Werkelijke uren in de sectie Uren](#actual-hours-in-the-hours-section)
-* [Werkelijke uren in rapporten](#actual-hours-in-reports)
+* [ Ware Uren in de sectie van Details ](#actual-hours-in-the-details-section)
+* [ Werkelijke Uren in de sectie van Uren ](#actual-hours-in-the-hours-section)
+* [ Werkelijke Uren in rapporten ](#actual-hours-in-reports)
 * [Werkelijke uren aan hulpmiddelen voor bronnenbeheer](#actual-hours-in-resource-management-tools)
 
 ### Werkelijke uren in de sectie Details {#actual-hours-in-the-details-section}
@@ -93,8 +93,8 @@ Werkelijke uren zoeken in de sectie Details is identiek voor projecten, taken en
 Werkelijke uren zoeken in taakdetails:
 
 1. Ga naar een taak waarvoor u de Werkelijke Uren wilt herzien.
-1. Klikken **Taakdetails** in het linkerdeelvenster.
-1. Klikken **Overzicht** en de **Werkelijke uren** waarde.
+1. Klik **Details van de Taak** in het linkerpaneel.
+1. Klik **Overzicht** en merk de **Ware waarde van Uren** op.
 
    Dit is het totaal aantal uren dat op deze taak is aangemeld.
 
@@ -105,15 +105,15 @@ Het vinden van Werkelijke Uren in de sectie van Uren is identiek voor projecten,
 Werkelijke uren zoeken in de sectie Uren:
 
 1. Ga naar een taak waarvoor u de Werkelijke Uren wilt herzien.
-1. Klikken **Uren** in het linkerdeelvenster.
+1. Klik **Uren** in het linkerpaneel.
 
-   Afhankelijk van uw configuratie, zou de sectie van Uren onder kunnen worden vermeld **Meer weergeven**.
+   Afhankelijk van uw configuratie, zou de sectie van Uren onder **kunnen worden vermeld tonen meer**.
 
    Dit toont een lijst van uuringangen die op de taak worden geregistreerd.
 
-1. Zorg ervoor dat de **Standaard** en de **Project** groeperen wordt toegepast op deze lijst.
+1. Zorg ervoor dat de **Standaard** mening en de **groepering van het Project** op deze lijst worden toegepast.
 
-   Het getal dat wordt weergegeven in de groeperingsregel voor de **Uren** de kolom is het totale aantal Werkelijke Uren op de taak.
+   Het aantal dat in de groeperingslijn voor de **wordt getoond van Uren** kolom is het totale aantal Werkelijke Uren op de taak.
 
 ### Werkelijke uren in rapporten {#actual-hours-in-reports}
 
@@ -123,12 +123,12 @@ Het toevoegen van de kolom Werkelijke uren aan een taakmening is gelijkaardig aa
 
 Werkelijke uren weergeven in een taakrapport:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** en kiest u **Taak** als uw object.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan kies **Taak** als uw voorwerp.
 
-1. Klikken **Kolom toevoegen** en begint te typen **Werkelijke uren** wanneer de **Tonen in deze kolom** vervolgkeuzelijst wordt weergegeven. Selecteer het veld wanneer dit in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom**, en beginnen **Werkelijke Uren** te typen wanneer **tonen in deze kolom** drop-down gebied wordt getoond. Selecteer het veld wanneer dit in de lijst wordt weergegeven.
 
-1. Klikken **Opslaan + Sluiten** om het rapport op te slaan.
+1. Klik **sparen + Sluiten** om het rapport te bewaren.
 
    In de kolom Werkelijke uren wordt het aantal uren weergegeven dat voor elke taak is aangemeld.
 
@@ -137,14 +137,14 @@ Werkelijke uren weergeven in een taakrapport:
 Als u de vooruitgang wilt zien van het werk uw gebruikers aan hun toegewezen taken en kwesties doen, kunt u hen in de volgende hulpmiddelen van het Beheer van het Middel bekijken:
 
 * Gebruiksrapport.\
-   Voor informatie over het gebruiksrapport raadpleegt u [Overzicht van het verslag over het gebruik van hulpbronnen](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+  Voor informatie over het gebruiksrapport, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * Bronplanner.
 
-   Voor informatie over het bekijken van Werkelijke Uren in de Planner van het Middel, zie [Beschikbare, geplande en Werkelijke uren of FTE weergeven in de bronnenplanner bij gebruik van de gebruikersweergave](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+  Voor informatie over het bekijken van Werkelijke Uren in de Planner van het Middel, zie [ Beschikbare Mening, Geplant, en Ware Uren of FTE in de Planner van het Middel wanneer het gebruiken van de mening van de Gebruiker ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 ## Logtijd
 
 U kunt tijd op taken, kwesties, en projecten op veelvoudige manieren registreren.
 
-Voor meer informatie over het registreren van tijd in Workfront, zie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor meer informatie over het registreren van tijd in Workfront, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).

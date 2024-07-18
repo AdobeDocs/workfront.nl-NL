@@ -26,23 +26,23 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Workfront </a>*</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van verouderde licenties</a>*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Zie voor informatie over Workfront-beheerders <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> overzicht van de Vergunningen van de Vererfenis </a>*</td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Documentopslag controleren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
-1. Klik in het linkerdeelvenster op **Systeem** > **Klantgegevens**.
-1. In de **Basisinformatie** sectie, zoeken **Opslagquotum**. Hier kunt u zien hoeveel opslagruimte u momenteel gebruikt en hoeveel opslagruimte uw Workfront-abonnement in totaal bevat.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. In het linkerpaneel, klik **Systeem** > **Info van de Klant**.
+1. In de **Basis Info** sectie, vind **Quota van de Opslag**. Hier kunt u zien hoeveel opslagruimte u momenteel gebruikt en hoeveel opslagruimte uw Workfront-abonnement in totaal bevat.
 
 Het opslagquotum wordt dagelijks vernieuwd om het meest actuele aantal weer te geven.
 

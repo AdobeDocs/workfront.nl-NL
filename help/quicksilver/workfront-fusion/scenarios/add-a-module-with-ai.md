@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -51,14 +52,14 @@ De Fusion AI kan momenteel modules genereren die verbinding maken met de volgend
 
 ## Een module genereren
 
-1. Voeg een module toe en selecteer **Genereren met AI** in de lijst met toepassingen.
+1. Voeg een module toe en selecteer **produceren met AI** van de lijst van toepassingen.
 
    of
 
-   Klik met de rechtermuisknop op een leeg gebied van de scenarioeditor en selecteer vervolgens **Genereren met AI**.
+   Klik met de rechtermuisknop op een leeg gebied van de scenario-editor en selecteer vervolgens **Genereren met AI** .
 1. Typ een tekstprompt in het vak.
 
-   Voor tips over aanwijzingen raadpleegt u [Tips voor het maken van tekstaanwijzingen](#tips-for-creating-text-prompts) in dit artikel.
+   Voor uiteinden op herinneringen, zie [ Uiteinden voor het creëren van tekstherinneringen ](#tips-for-creating-text-prompts) in dit artikel.
 1. Voeg uw API-token voor de toepassing toe aan de module.
 1. Controleer de module om ervoor te zorgen dat het voor de aangewezen toepassing en de actie lijkt te worden gevormd.
 1. (Voorwaardelijk) als de module niet in bijlage aan uw scenario is, sleep het in plaats.
@@ -78,17 +79,14 @@ Tekstopdrachten moeten minimaal de volgende informatie bevatten:
 >
 >* `Retrieve a list of my calendars from Google Calendar`
 >
->   Dit omvat de toepassing `Google Calendar` en de actie `Retrieve a list of my calendars`.
+>   Dit omvat de toepassing `Google Calendar` en de handeling `Retrieve a list of my calendars` .
 >
 >* `Retrieve popular songs from Spotify`
 >
->   Dit omvat de toepassing `Spotify` en de actie `Retrieve popular songs`.
+>   Dit omvat de toepassing `Spotify` en de handeling `Retrieve popular songs` .
 
 Houd rekening met het volgende wanneer u tekstaanwijzingen maakt:
 
 * Omdat elke Fusion-module één actie uitvoert, moet uw tekstprompt één specifieke actie beschrijven.
 * Gebruik directe, eenvoudige taal.
 * Controleer en test de module. Als het niet zoals verwacht uitvoert, verfuw herinnering en probeer opnieuw.
-
-
-

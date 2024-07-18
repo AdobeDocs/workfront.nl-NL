@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
-In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Zie voor meer informatie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
 
@@ -39,16 +39,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 +++
 
@@ -56,26 +56,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave of een blokweergave maakt of aanpast.
 
-* [Een standaardweergave maken of aanpassen](#create-or-customize-a-standard-view)
+* [ creeer of pas een standaardmening ](#create-or-customize-a-standard-view) aan
 * [Een eenvoudige weergave maken of aanpassen](#create-or-customize-an-agile-view)
 
 ### Een standaardweergave maken of aanpassen {#create-or-customize-a-standard-view}
 
 U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aanpassen die u eerder hebt gemaakt.
 
-1. Klik op de knop **Weergave** vervolgkeuzemenu in een lijst waarin u een weergave wilt maken of aanpassen.
+1. Klik het **drop-down menu van de Mening** op om het even welke lijst waar u een mening tot stand wilt brengen of aanpassen.
 1. (Optioneel) Als u een bestaande weergave wilt aanpassen, selecteert u de standaardweergave die u wilt aanpassen.\
    De standaardmeningen zijn beschikbaar op om het even welk type van lijst in Workfront, zoals een rapport, een projectlijst, of taaklijst.
-1. Klik op de knop **Weergave** vervolgkeuzemenu en vervolgens op **Weergave aanpassen** of **Nieuwe weergave**.\
-   De **Weergave aanpassen** wordt weergegeven.
+1. Klik het **drop-down menu van de Mening**, dan klik **aanpassen Mening** of **Nieuwe Mening**.\
+   **past de vertoningen van de de dialoogdoos van de Mening** aan.
 
-1. In de **Kolomvoorvertoning** in, voert u een van de volgende handelingen uit:
+1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
 
    * Wijzig de waarde van om het even welke kolom door de kolomtitel te klikken en dan een nieuw gebied te selecteren.
-   * Een kolom toevoegen door te klikken op **Kolom toevoegen** typt u eerst de naam van de kolom die u wilt toevoegen en klikt u erop wanneer deze kolom in de vervolgkeuzelijst wordt weergegeven.
+   * Voeg een kolom toe door **te klikken voeg Kolom** toe, begin typend de naam van de kolom die u wilt toevoegen, dan het klikken wanneer het in de drop-down lijst verschijnt.
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
-      * (Optioneel) In het dialoogvenster **Kolominstellingen** gebied, klik **Deze kolom samenvatten met** selecteert u een van de beschikbare opties voor het samenvatten van de gegevens. Wanneer u deze optie kiest, wordt de informatie in uw kolom samengevoegd in de groepen van het rapport.\
+      * (Facultatief) in het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** drop-down lijst samen, dan selecteer één van de beschikbare opties om de informatie samen te vatten. Wanneer u deze optie kiest, wordt de informatie in uw kolom samengevoegd in de groepen van het rapport.\
         Voor datumvelden kunt u de waarden als volgt samenvatten:
 
          * Maximum
@@ -99,9 +99,9 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
         >   
         >
 
-        Zie het artikel voor meer informatie over het gebruik van groepen in een rapport [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Optioneel) Klik op **Geavanceerde opties** om de volgende informatie voor de kolom te specificeren:
+      * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
         <table style="table-layout:auto"> 
          <col> 
@@ -121,22 +121,22 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Kolomregels</strong></td> 
-           <td><p>Klikken <strong>Een regel toevoegen voor deze kolom</strong> om een regel voor de kolom te definiëren. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klikken <strong>Regel toevoegen</strong> nadat u klaar bent met het definiëren van de regel.</p></td> 
+           <td><p>Klik <strong> voeg een Regel voor deze Kolom </strong> toe om een regel voor de kolom te bepalen. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik <strong> toevoegen Regel </strong> nadat u het bepalen van de regel hebt gebeëindigd.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        Zie het artikel voor meer informatie over de voorwaardelijke opmaak van weergaven in rapporten [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-1. (Voorwaardelijk) Als u hebt geklikt **Geavanceerde opties**, klikt u op **Gereed**.
+1. (Voorwaardelijk) als u **Geavanceerde Opties** klikte, klik **Gedaan**.
 
-1. Klikken **Weergave opslaan** om een nieuwe weergave te maken of om de huidige weergave te vervangen door uw wijzigingen.\
+1. Klik **sparen Mening** om een nieuwe mening tot stand te brengen of de huidige mening met uw veranderingen te vervangen.\
    of\
-   Klikken **Opslaan als nieuwe weergave** om uw wijzigingen als een nieuwe weergave op te slaan.
+   Klik **sparen als Nieuwe Mening** om uw veranderingen als nieuwe mening te bewaren.
 
    >[!TIP]
    >
-   >De **Opslaan als nieuwe weergave** is de enige beschikbare optie wanneer u een ingebouwde weergave van Workfront aanpast.
+   >**sparen als Nieuwe Mening** is de enige beschikbare optie wanneer u een ingebouwde mening van Workfront aanpast.
 
    Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
 
@@ -148,7 +148,7 @@ U kunt een flexibele weergave maken of een bestaande, flexibele weergave aanpass
 >
 >Gegraveerde weergaven zijn alleen beschikbaar wanneer u een project weergeeft.
 
-Raadpleeg het artikel voor meer informatie over de Google-weergaven [Een project beheren in de Google View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor meer informatie over de Gelijke meningen, zie het artikel [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
 >[!NOTE]
 >
@@ -157,24 +157,24 @@ Raadpleeg het artikel voor meer informatie over de Google-weergaven [Een project
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik op de knop **Raad** pictogram ![Bordebord, pictogram](assets/board-icon-for-agile-view.png)en klik vervolgens op **Oudere pagina gebruiken** in de mening van de raad.
+1. Klik het **pictogram van de Raad ![ raad ](assets/board-icon-for-agile-view.png), en klik dan** erfenis van het Gebruik {**op de boordmening.**
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
-   1. Klik op de knop **Weergave** en selecteert u vervolgens de apparaatweergave die u wilt aanpassen.\
+   1. Klik het **drop-down menu van de Mening**, dan selecteer de Gelijke mening u wilt aanpassen.\
       U kunt de standaardweergave Gelijk niet aanpassen.
 
-   1. Klik op de knop **Weergave** vervolgkeuzemenu nogmaals, en klik vervolgens op **Weergave aanpassen**.\
+   1. Klik opnieuw het **drop-down menu van de Mening**, dan klik **aanpassen Mening**.\
       ![](assets/view-agile-customize.png)
 
-1. (Voorwaardelijk) Als u een nieuwe beoordelingsweergave wilt maken, klikt u op **Nieuwe weergave**.\
-   De **Gelijkmatige weergave aanpassen** wordt weergegeven.
+1. (Voorwaardelijk) om een nieuwe Gelijke mening tot stand te brengen, klik **Nieuwe Mening**.\
+   Het **** de dialoogvakje van de Mening van de Gelijkheid aanpassen.
 
-1. In de **Gelijkmatige weergave aanpassen** geeft u een naam op voor de weergave Gelijk.\
+1. In **pas de dialoogdoos van de Mening van de Gelijkheid aan**, specificeer een naam voor de Gelijke mening.\
    We raden u aan het woord &#39;Gelijk&#39; op te nemen in de weergavenaam, zodat gebruikers weten dat dit een Gegale weergave is.\
-   Deze naam wordt weergegeven in het dialoogvenster **Weergave** vervolgkeuzelijst wanneer u een weergave selecteert.
+   Deze naam wordt getoond in het **drop-down menu van de Mening** wanneer het selecteren van een mening.
 
-1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [ wordt beschreven creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 
    Alleen de systeemstatussen zijn beschikbaar voor gebruik op het artikel. Als een status alleen beschikbaar is voor een afzonderlijke groep waarvan u lid bent, is de status niet beschikbaar op de agile-artikelkaart. Bovendien zijn taken die zich in een status bevinden die alleen voor een aangepaste groep beschikbaar is, niet zichtbaar wanneer u het project in een georiënteerde weergave bekijkt.
 
@@ -186,16 +186,16 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Statuskolommen opnieuw ordenen:</strong> </td> 
+      <td role="rowheader"><strong> herschikt statuskolommen:</strong> </td> 
       <td> Sleep een statuskolom naar de volgorde waarin u deze wilt weergeven.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Statuskolommen verwijderen:</strong> </td> 
-      <td>Klik op het pictogram (x) in de kolom die u wilt verwijderen.<br>U kunt de status 'Nieuw' alleen verwijderen als er een aangepaste status is toegevoegd aan de weergave en die aangepaste status overeenkomt met 'Nieuw'.<br>Voor informatie over het maken van een aangepaste status raadpleegt u <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Een status maken of bewerken</a>.</td> 
+      <td role="rowheader"><strong> verwijder statuskolommen:</strong> </td> 
+      <td>Klik op het pictogram (x) in de kolom die u wilt verwijderen.<br> u kunt niet de "Nieuwe"status verwijderen tenzij een douanestatus aan de mening is toegevoegd en die douanestatus met "Nieuw."evenaart<br> voor informatie over het creëren van een douanestatus, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref"> creeer of geef een status </a> uit.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Statuskolommen toevoegen:</strong> </td> 
-      <td> <p>Klik op de knop <strong>Plus</strong> en selecteert u vervolgens de status die u wilt toevoegen.<br>Alle standaardsysteemstatussen worden weergegeven, evenals eventuele aangepaste statussen die met u zijn gedeeld.<br>U kunt maximaal 10 statussen configureren voor weergave.</p></td> 
+      <td role="rowheader"><strong> voeg statuskolommen toe:</strong> </td> 
+      <td> <p>Klik <strong> plus </strong> pictogram, dan selecteer de status u wilt toevoegen.<br> Alle standaardsysteemstatussen worden getoond, evenals om het even welke douanestatus die met u zijn gedeeld.<br> u kunt tot 10 statussen aan vertoning vormen.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,37 +204,37 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
        -->
 
-1. In de **Kaartkleur koppelen aan** selecteert u een van de volgende opties:
+1. In het **Geassocieerde Kleur van de Kaart aan** gebied, selecteer van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Artikel:</strong> </td> 
-      <td>Eventuele subtaken komen overeen met de kleur van de bovenliggende taak, zodat de kleuren van alle artikelen in een bepaalde sjabloon gelijk zijn.<br>De kleuren worden willekeurig toegewezen aan taken wanneer zij worden gecreeerd als de taak geen subtaken heeft of geen oudertaak heeft.</td> 
+      <td role="rowheader"><strong> Artikel:</strong> </td> 
+      <td>Eventuele subtaken komen overeen met de kleur van de bovenliggende taak, zodat de kleuren van alle artikelen in een bepaalde sjabloon gelijk zijn.<br> de Kleuren worden willekeurig toegewezen aan taken wanneer zij worden gecreeerd als de taak geen subtaken heeft of geen oudertaak heeft.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Vrije vorm:</strong> </td> 
-      <td> Alle kaarten worden standaard als blauw weergegeven totdat een gebruiker de kleur handmatig wijzigt, zoals in het artikel wordt beschreven <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Artikelen op kleur categoriseren op het scrollbord</a>. </td> 
+      <td role="rowheader"><strong> Vrije Vorm:</strong> </td> 
+      <td> Alle kaarten worden getoond als blauw door gebrek tot een gebruiker de kleur manueel verandert, zoals die in het artikel <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref"> wordt beschreven Categoriseer verhalen door kleur op het board van het Trommel </a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Prioriteit:</strong> </td> 
+      <td role="rowheader"><strong> Prioriteit:</strong> </td> 
       <td> <p> Kleuren worden als volgt gekoppeld aan de prioriteit van het artikel:</p> 
        <ul> 
         <li>Hoog = rood</li> 
-        <li>Normaal = geel</li> 
-        <li>Laag = groen<br>Als uw Workfront-beheerder aangepaste prioriteiten voor uw Workfront-systeem heeft geconfigureerd, heeft de hoogste prioriteit rood, is de op één na hoogste geel en zijn de resterende prioriteiten groen.</li> 
+        <li>Medium = geel</li> 
+        <li>Laag = Groen <br> als uw beheerder van Workfront douaneprioriteiten voor uw systeem van Workfront heeft gevormd, is de hoogste prioriteit rood, het tweede hoogste is geel, en het resterende is groen.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Taakeigenaar:</strong> </td> 
-      <td> Alle artikelen met dezelfde primaire toewijzing hebben dezelfde kleur.<br>De primaire ontvanger is de gebruiker die voor het eerst aan de taak is toegewezen. </td> 
+      <td role="rowheader"><strong> Eigenaar van de Taak:</strong> </td> 
+      <td> Alle artikelen met dezelfde primaire toewijzing hebben dezelfde kleur.<br> de primaire ontvanger is de gebruiker die eerst aan de taak werd toegewezen. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. In de **Agile** in de **Aanvullende velden** gebied, klikken **Veld toevoegen** Selecteer vervolgens het veld dat u aan artikelkaarten wilt toevoegen. (Dit zijn de zelfde gebieden u kunt toevoegen wanneer het creëren van het aanpassen van een mening of het creëren van kolommen voor een rapport.)\
+1. In de **sectie 0} van het Gangs {, op het** Extra Gebieden **gebied, klik** voeg Gebied **toe, dan selecteer het gebied u aan verhaalkaarten wilt toevoegen.** (Dit zijn de zelfde gebieden u kunt toevoegen wanneer het creëren van het aanpassen van een mening of het creëren van kolommen voor een rapport.)\
    Herhaal dit proces om maximaal drie extra velden aan de artikelkaarten toe te voegen.\
    Wanneer u velden toevoegt aan artikelkaarten, zijn velden alleen-weergeven en alleen weergeven wanneer het veld is gevuld.
 
@@ -250,7 +250,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
    U kunt aanvullende gegevens (inclusief aangepaste gegevens) weergeven op artikelkaarten. U wilt mogelijk om een aantal redenen extra velden weergeven op artikelkaarten. Bijvoorbeeld, zou u identiteitskaart van de Klant kunnen willen tonen als u aan verhalen voor veelvoudige klanten binnen het project werkt, of u zou de Datum van het Begin van de Taak kunnen willen tonen.
 
-1. Klikken **Opslaan**.\
+1. Klik **sparen**.\
    Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
 
-1. (Optioneel) Klik op de knop **Lijst** pictogram om terug te keren naar de takenlijst.
+1. (Facultatief) klik het **pictogram van de Lijst** om aan de lijst van taken terug te keren.

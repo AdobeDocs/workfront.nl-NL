@@ -22,11 +22,11 @@ In het gebied Documenten kunt u metagegevens voor naar Adobe Workfront geüpload
 
 Er zijn twee typen documentgebieden. De eigenschappen en de functionaliteit zijn het zelfde voor beide:
 
-* **Documentgebied in een programma, portfolio, project, taak of uitgave:** Hiermee geeft u alle documenten weer waartoe u toegang hebt voor een bepaald project, een bepaalde taak of een bepaalde uitgave. Als u dit gebied wilt openen, klikt u op **Documenten** ![](assets/document-icon-12x14.png) in het linkerdeelvenster wanneer u een project, taak of uitgave weergeeft.
+* **documenteert gebied in een programma, een portefeuille, een project, een taak, of een kwestie:** maakt een lijst van alle documenten die u toegang tot voor een bepaald project, een taak, of een kwestie hebt. Om tot dit gebied toegang te hebben, klik **Documenten ![](assets/document-icon-12x14.png) in het linkerpaneel terwijl het bekijken van een project, een taak, of een kwestie.**
 
-* **Gebied Algemene documenten:** Hiermee geeft u alle documenten weer waartoe u toegang hebt in Workfront. Als u dit gebied wilt openen, klikt u op **Documenten** ![](assets/document-icon.png) in het hoofdmenu ![](assets/main-menu-icon.png).
+* **Globaal gebied van Documenten:** maakt een lijst van alle documenten die u toegang tot in Workfront hebt. Om tot dit gebied toegang te hebben, klik **Documenten** ![](assets/document-icon.png) in het Belangrijkste Menu ![](assets/main-menu-icon.png).
 
-Voor informatie over het uploaden van documenten naar Workfront raadpleegt u [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Voor informatie over het uploaden van documenten aan Workfront, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
 
 In het documentgebied wordt een aantal van de volgende items vastgelegd:
@@ -46,7 +46,7 @@ U kunt op de kop Details klikken om naar het volledige gebied Documentdetails te
 
 ![](assets/documents-area-v2-350x199.png)
 
-Voor informatie over de samenvatting raadpleegt u [Overzicht van documenten](../../documents/managing-documents/summary-for-documents.md).
+Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../documents/managing-documents/summary-for-documents.md).
 
 ## Bewijs van beslissing
 
@@ -56,13 +56,13 @@ Zodra een bewijskrachtbesluit is genomen, verschijnt het in de lijst van het Doc
 
 ## Mappen
 
-Voor een project, een taak, of een kwestie waar de documenten worden geupload, kunt u opstellingsomslagen om de documenten te organiseren. Zie voor meer informatie [Documentmappen maken](../../documents/organizing-documents/create-documents-folder.md).
+Voor een project, een taak, of een kwestie waar de documenten worden geupload, kunt u opstellingsomslagen om de documenten te organiseren. Voor meer informatie, zie [ documentomslagen ](../../documents/organizing-documents/create-documents-folder.md) creëren.
 
 In het gebied van globale Documenten, kunt u opstelling twee types van omslagen om de documenten te organiseren u toegang hebt tot:
 
-* **Slimme mappen:** Alleen de documenten weergeven die u wilt zien. Zie voor meer informatie [Slimme mappen maken en beheren](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **Slimme Omslagen:** toon slechts de documenten die u wilt zien. Voor meer informatie, zie [ Slimme Omslagen ](../../documents/organizing-documents/create-manage-smart-folders.md) creëren en beheren.
 
-* **Mijn mappen:** U kunt documenten ordenen op de manier waarop u ze wilt. Zie voor meer informatie [Documentmappen maken](../../documents/organizing-documents/create-documents-folder.md).
+* **Mijn Omslagen:** organiseer documenten de manier u hen wilt. Voor meer informatie, zie [ documentomslagen ](../../documents/organizing-documents/create-documents-folder.md) creëren.
 
 ## Uitgebreide documentdetails
 

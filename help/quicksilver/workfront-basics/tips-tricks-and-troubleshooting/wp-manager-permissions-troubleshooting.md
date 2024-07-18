@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Problemen met Workfront Proofing Manager-machtigingen oplossen
-description: De machtigingsprofielen beschikbaar in [!DNL Adobe] Workfront voor het proefdrukken van gebruikers is Beheerder, Supervisor, en Manager.
+title: Problemen met Workfront Proof Manager-machtigingen oplossen
+description: De toestemmingsprofielen beschikbaar in  [!DNL Adobe]  Workfront voor het proefdrukken van gebruikers zijn Beheerder, Supervisor, en Manager.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL [!DNL Workfront] Proof Manager] problemen met machtigingen
+# [!UICONTROL [!DNL Workfront] Proof Manager] problemen met machtigingen oplossen
 
-Hieronder vindt u de machtigingsprofielen die beschikbaar zijn in [!DNL Adobe Workfront] voor proefdrukgebruikers:
+Hier volgen de machtigingsprofielen die beschikbaar zijn in [!DNL Adobe Workfront] voor het maken van proefdrukken van gebruikers:
 
 * [!UICONTROL Administrator]
 * [!UICONTROL Supervisor]
@@ -24,20 +24,20 @@ Hieronder vindt u de machtigingsprofielen die beschikbaar zijn in [!DNL Adobe Wo
 
 <!--For detailed information about these options and how to configure them, see .-->
 
-Wanneer een gebruiker een [!UICONTROL Manager] toestemmingen, is de volgende het oplossen van problemeninformatie beschikbaar:
+Bij het verlenen van [!UICONTROL Manager] gebruikersmachtigingen zijn de volgende informatie over probleemoplossing beschikbaar:
 
-* **PROBLEEM:** Gebruikers met [!UICONTROL Manager] rechten kunnen geen proefdrukken weergeven die door andere gebruikers zijn gemaakt. In plaats daarvan zien ze de [!UICONTROL Access Denied] scherm.
+* **PROBLEEM:** De gebruikers met [!UICONTROL Manager] toestemmingen kunnen geen proeven bekijken die door andere gebruikers worden gecreeerd. In plaats daarvan zien ze het scherm [!UICONTROL Access Denied] .
 
-   ![](assets/access-denied-350x161.png)
+  ![](assets/access-denied-350x161.png)
 
-   **OPLOSSING:** Gebruikers met [!UICONTROL Manager] rechten moeten expliciet aan de proefdrukken worden toegevoegd. Proefdrukken moeten altijd worden gemaakt via de [!UICONTROL Advanced proofing options] venster en gebruikers moeten altijd via deze optie worden toegevoegd.
+  **OPLOSSING:** Gebruikers met [!UICONTROL Manager] toestemmingen moeten uitdrukkelijk aan de proeven worden toegevoegd. Proefbestanden moeten altijd worden gemaakt via het venster [!UICONTROL Advanced proofing options] en gebruikers moeten altijd via deze optie worden toegevoegd.
 
-* **PROBLEEM:** Gebruikers met [!UICONTROL Manager] met machtigingen kunnen geen proefversies worden toegevoegd aan de proefdrukken die door andere gebruikers zijn gemaakt (ze kunnen mogelijk een proefdruk indienen in de set documenten, maar de versies zouden NIET verbonden zijn met de oorspronkelijke set die door een andere gebruiker is gemaakt).\
-   **OPLOSSING:** Gebruikers met [!UICONTROL Manager] machtigingen kunnen de versies alleen naar de proefdruk van een andere gebruiker verzenden als de gebruiker met [!UICONTROL Manager] machtigingen als aan beide volgende voorwaarden wordt voldaan:
+* **PROBLEM:** De gebruikers met [!UICONTROL Manager] toestemmingen kunnen proefversies aan de proeven niet toevoegen die door andere gebruikers worden gecreeerd (zij konden potentieel een proef in de documentenreeks voorleggen, maar de versies zouden NIET met de originele reeks worden verbonden die door een andere gebruiker wordt gecreeerd).\
+   **OPLOSSING:** De gebruikers met [!UICONTROL Manager] toestemmingen kunnen de versies naar de proef van een andere gebruiker voorleggen slechts als de gebruiker met [!UICONTROL Manager] toestemmingen wanneer allebei van het volgende:
 
    * Expliciet toegevoegd aan de proefdrukken
-   * Instellen als [!UICONTROL Authors] (proefrol) op proefdrukken
+   * Instellen als [!UICONTROL Authors] (proefdrukrol) op proefdrukken
 
-* **PROBLEEM:** Gebruikers met [!UICONTROL Manager] machtigingen kunnen opmerkingen van andere gebruikers niet bewerken op een proefdruk die ze niet hebben of niet hebben gemaakt.\
-   **OPLOSSING:** Als gebruikers met [!UICONTROL Manager] rechten zijn niet de eigenaar van de proefdrukken, maar ze moeten opmerkingen kunnen bewerken en toevoegen als [!UICONTROL Authors] (of [!UICONTROL Moderators]).\
-   Deze drie typen machtigingen zijn beschikbaar in [!DNL Workfront] for [!UICONTROL Planner], [!UICONTROL Worker], [!UICONTROL Requester], [!UICONTROL Reviewer] type licenties. Systeembeheerder of -beheerder in [!DNL Workfront] kan gebruikersprofielen bewerken en aanpassen [!DNL Workfront Proof] rechten van daar.
+* **PROBLEEM:** De gebruikers met [!UICONTROL Manager] toestemmingen kunnen geen commentaren van andere gebruikers op een proef uitgeven zij niet bezitten of zij niet creeerden.\
+   **OPLOSSING:** als de gebruikers met [!UICONTROL Manager] toestemmingen niet de proeven bezitten, maar zij zouden commentaren moeten kunnen uitgeven, hen toevoegen als [!UICONTROL Authors] (of [!UICONTROL Moderators]).\
+   Deze drie typen machtigingen zijn beschikbaar in [!DNL Workfront] voor [!UICONTROL Planner] -, [!UICONTROL Worker] -, [!UICONTROL Requester] - [!UICONTROL Reviewer] tekstlicenties. Systeembeheerder of Gebruikersbeheerder in [!DNL Workfront] kan gebruikersprofielen bewerken en [!DNL Workfront Proof] -machtigingen van daaruit aanpassen.

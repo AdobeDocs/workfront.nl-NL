@@ -1,6 +1,6 @@
 ---
-title: Werken met de  [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen
-description: Werken met de  [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen
+title: Het werk met de  [!DNL Adobe Workfront]  stop in voor  [!DNL Creative Cloud]  Toepassingen beheren
+description: Het werk met de  [!DNL Adobe Workfront]  stop in voor  [!DNL Creative Cloud]  Toepassingen beheren
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Werken met de  [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen
+# Werken beheren met de insteekmodule [!DNL Adobe Workfront] voor [!DNL Creative Cloud] -toepassingen
 
-* [Zoek uw werk met de [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-* [Gegevens over het werkitem weergeven met de functie [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-* [Werk bij met de functie [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-* [Werkitems markeren die zijn voltooid met de [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [De tijd van het logboek gebruiken [!DNL Adobe Workfront] insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-* [Weergeven en beheren [!DNL Adobe Workfront] meldingen van [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+* [Vind uw werk gebruikend de  [!DNL Adobe Workfront]  stop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+* [De informatie van het het werkpunt van de mening gebruikend de  [!DNL Adobe Workfront]  stop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+* [Werk uw werk bij gebruikend de  [!DNL Adobe Workfront]  insteekmodule](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+* [De punten van het het werkstuk van het teken volledig gebruikend de  [!DNL Adobe Workfront]  stop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+* [De tijd die van het logboek  [!DNL Adobe Workfront]  insteekmodule gebruikt](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [De mening en leidt  [!DNL Adobe Workfront]  berichten van  [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

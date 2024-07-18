@@ -19,7 +19,7 @@ Wanneer u een doel maakt, slaat Adobe Workfront Goals het op met de status Conce
 
 Als u wilt bijhouden hoe dicht u bij het bereiken van een doel bent door de voortgang bij te werken, moet u het activeren. Hiermee wijzigt u de status in Actief.
 
-Voor informatie over het creëren van een doel, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
+Voor informatie over het creëren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -63,7 +63,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -75,7 +75,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -86,7 +86,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Vereisten
@@ -97,19 +97,19 @@ Voer ten minste een van de volgende handelingen uit om een doel te activeren:
 
 * Een resultaat toevoegen aan het doel
 
-  Zie voor meer informatie [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Voor informatie, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
 
 * Een activiteit toevoegen aan het doel
 
-  Zie voor meer informatie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Voor informatie, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
 * Een project verbinden met het doel
 
-  Zie voor meer informatie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../results-and-activities/connect-projects-to-goals-overview.md).
+  Voor informatie, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
 * Een ander doel uitlijnen op het doel dat u wilt activeren
 
-  Zie voor meer informatie [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Voor informatie, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden richten.
 
 ## Doelstellingen activeren
 
@@ -117,7 +117,7 @@ U kunt doelen activeren die u hebt gemaakt of een doel waarvoor u beheermachtigi
 
 1. Ga naar een doel dat u wilt activeren. De doelpagina wordt geopend.
 
-1. Klik op de knop **Meer** menu ![](../goal-management/assets/more-icon.png) rechts van de doelnaam klikt u op **Activeren**.
+1. Klik **Meer** menu ![](../goal-management/assets/more-icon.png) aan het recht van de doelnaam, dan klik **activeert**.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

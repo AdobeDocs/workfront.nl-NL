@@ -23,13 +23,13 @@ ht-degree: 0%
 </div>
 -->
 
-Met de Adobe Workfront-tools voor hulpbronnenbeheer kunt u de toewijzing van uw middelen voorspellen, zodat u precies weet of uw projecten op tijd en binnen het budget worden geleverd. Voor een overzicht van het hulpbronnenbeheer in Workfront raadpleegt u [Aan de slag met Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Met de Adobe Workfront-tools voor hulpbronnenbeheer kunt u de toewijzing van uw middelen voorspellen, zodat u precies weet of uw projecten op tijd en binnen het budget worden geleverd. Voor een overzicht van het Beheer van het Middel in Workfront, zie [ begonnen worden met het Beheer van het Middel ](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 U kunt middelen planningshulpmiddelen gebruiken om uw baanrollen, hun beschikbaarheid, en algemene toewijzing aan projecten te beheren die op deze beschikbaarheid worden gebaseerd.
 
 De algemene toewijzing van de gebruikers aan projecten wordt niet in de begroting opgenomen voor het echte werk (taken en kwesties). U moet uw bronnen aan het werk toewijzen met behulp van Workload Balancer.
 
-Voor meer informatie over het plannen van middelen in Workfront die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van werklastbalans](../workload-balancer/overview-workload-balancer.md).
+Voor meer informatie over het plannen van middelen in Workfront die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../workload-balancer/overview-workload-balancer.md).
 
 ## Hulpprogramma&#39;s voor bronnenplanning in Workfront
 
@@ -39,19 +39,19 @@ Als u tijd wilt vrijmaken voor uw bronnen voor de projecten waaraan u deze wilt 
 
   U kunt tot de Planner van het Middel toegang hebben door naar de sectie van de Planner in het Bronsgebied te gaan.
 
-  Voor informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Voor informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Voor het in de begroting opnemen van toewijzingen voor één enkel project: gebruik de project-vlakke Planner van het Middel op het gebied van de Begroting van het Middel van het BedrijfsGeval van het project. Zie het artikel voor informatie over het budgetteren van middelen voor één project [Begrotingsmiddelen in het bedrijfscase](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* Voor het in de begroting opnemen van toewijzingen voor één enkel project: gebruik de project-vlakke Planner van het Middel op het gebied van de Begroting van het Middel van het BedrijfsGeval van het project. Voor informatie over het opnemen van middelen voor één project, zie de middelen van de artikel [ Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Om gebruikers te beheren en hen te organiseren in groepen die op gemeenschappelijke vaardigheden of departementale structuur worden gebaseerd en dan hun toewijzingen voor de projecten te beheren zij aan worden toegewezen, moet u middelgroepen creëren. Zie voor meer informatie over het maken van bronnenpools [Brongroepen maken](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Om gebruikers te beheren en hen te organiseren in groepen die op gemeenschappelijke vaardigheden of departementale structuur worden gebaseerd en dan hun toewijzingen voor de projecten te beheren zij aan worden toegewezen, moet u middelgroepen creëren. Voor meer informatie over het creëren van middelpools, zie [ middelpools ](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
   >[!TIP]
   >
   >Het budgetterende gebied van het Middel van een project is de Planner van het Middel op het projectniveau. Wanneer u middelen in het BedrijfsGeval van een project begrotingsmiddelen, wordt de informatie ook weerspiegeld in de systeem-vlakke Planner van het Middel.
 
-* Gebruik de Adobe Workfront Scenario Planner om bronnen op een hoog niveau te beheren voor meerdere initiatieven en uw werk af te stemmen op de strategie van uw organisatie. Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+* Gebruik de Adobe Workfront Scenario Planner om bronnen op een hoog niveau te beheren voor meerdere initiatieven en uw werk af te stemmen op de strategie van uw organisatie. Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../scenario-planner/scenario-planner-overview.md).
 
-  U kunt de Planner van het Middel zowel op het systeem-niveau, over veelvoudige projecten, evenals aan begrotingsmiddelen voor één enkel project in het gebied van de Begroting van het Middel van het bedrijfsgeval gebruiken. Voor meer informatie over het in de begroting opnemen van middelen voor een project in het bedrijfsgeval, zie [Begrotingsmiddelen in het bedrijfscase](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  U kunt de Planner van het Middel zowel op het systeem-niveau, over veelvoudige projecten, evenals aan begrotingsmiddelen voor één enkel project in het gebied van de Begroting van het Middel van het bedrijfsgeval gebruiken. Voor meer informatie over het in de begroting opnemen van middelen voor een project in het bedrijfsgeval, zie [ middelen van de Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## Het doel van de hulpmiddelen van de middelplanning
 
@@ -61,11 +61,11 @@ Als u tijd wilt vrijmaken voor uw bronnen voor de projecten waaraan u deze wilt 
    * Begrijp de beschikbaarheid van uw middelen die op het programma van uw gebruikers worden gebaseerd.
    * Het uur van de begroting, FTE, of kostentoewijzingen voor uw middelen (gebruikers en baanrollen) voor de projecten waaraan zij worden toegewezen.
 
-  Raadpleeg het artikel voor informatie over het werken in de functie Resource Planner [Overzicht van de bronnenplanner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Voor informatie over het werken in de Planner van het Middel, zie het overzicht van de Planner van het Artikel [ Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Gebruikend de Planner van het Scenario, kunt u onderneming-vlakke plannen over veelvoudige initiatieven bouwen die de algemene strategische resultaten van uw bedrijf schetsen. Zie voor meer informatie [Aan de slag met de functie Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
+* Gebruikend de Planner van het Scenario, kunt u onderneming-vlakke plannen over veelvoudige initiatieven bouwen die de algemene strategische resultaten van uw bedrijf schetsen. Voor meer informatie, zie [ begonnen worden met de Planner van het Scenario ](../../scenario-planner/get-started-with-scenario-planning.md).
 
-  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../scenario-planner/scenario-planner-overview.md).
+  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

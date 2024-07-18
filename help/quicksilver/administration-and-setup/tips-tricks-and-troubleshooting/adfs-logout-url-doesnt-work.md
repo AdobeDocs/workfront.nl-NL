@@ -22,15 +22,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!UICONTROL Adobe Admin Console].
+>De procedure die op deze pagina wordt beschreven, is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!UICONTROL Adobe Admin Console] .
 >
->Als uw organisatie is aangemeld bij de [!UICONTROL Adobe Admin Console], zie [Verschillen in beheer op basis van platforms ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Als uw organisatie aan [!UICONTROL Adobe Admin Console] is bezet, zie [ Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Probleem
 
 Wanneer u de URL voor afmelden met ADFS (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0) gebruikt, ontvangt u een berichtpagina met de fout: &quot;Er is een probleem opgetreden bij het openen van de site. Blader opnieuw naar de site.&quot;
 
-Als het probleem zich blijft voordoen, neemt u contact op met de beheerder van deze site en geeft u het volgende referentienummer om het probleem te identificeren: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
+Als het probleem voortduurt, contacteer de beheerder van deze plaats en verstrek het volgende verwijzingsaantal om het probleem te identificeren: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
 ## Toegangsvereisten
 
@@ -54,20 +54,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p>  </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Oplossing
 
-1. Ga in uw ADFS-beheerserver naar **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` eigenschappen.
+1. Ga in uw ADFS-beheerserver naar **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` -eigenschappen.
 
-1. Onder de **[!UICONTROL Endpoints]** tabblad, klikt u op **[!UICONTROL Add]**.
+1. Klik onder het tabblad **[!UICONTROL Endpoints]** op **[!UICONTROL Add]** .
 
 1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2286'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Workfront heeft API-versie 15 uitgebracht op 14 juni 2022. API-versie 15 b
 
 Het object Initiative maakt in de Workfront Scenario Planner ramingen voor het soort en het aantal functies, de vaste kosten en het geplande voordeel.
 
-Zie voor meer informatie over initiatieven [Overzicht van initiatieven in het scenario Planner](../../scenario-planner/initiatives-overview.md).
+Voor meer informatie over Initiatieven, zie [ Overzicht van Initiatieven in de Planner van het Scenario ](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -47,67 +47,67 @@ Zie voor meer informatie over initiatieven [Overzicht van initiatieven in het sc
       <td>
         <ul>
           <li>
-            <p><b>customerID</b>
+            <p><b> customerID </b>
             </p>
             <p>Dit is een intern object.</p>
           </li>
           <li>
-            <p><b>duur</b>
+            <p><b> duur </b>
             </p>
             <p>De hoeveelheid tijd tussen endDate en startDate.</p>
           </li>
           <li>
-            <p><b>endDate</b>
+            <p><b> endDate </b>
             </p>
             <p>De geplande datum voor de voltooiing van het initiatief.</p>
           </li>
           <li>
-            <p><b>enteredByID</b>
+            <p><b> enteredByID </b>
             </p>
             <p>De id die is gekoppeld aan de gebruiker die het verzoek heeft verzonden.</p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>De id die aan de handeling is gekoppeld</p>
           </li>
           <li>
-            <p><b>initiativeID</b>
+            <p><b> initiativeID </b>
             </p>
             <p>De id die aan het initiatief is gekoppeld.</p>
           </li>
           <li>
-            <p><b>lastPublishedDate</b>
+            <p><b> lastPublishedDate </b>
             </p>
             <p>De datum waarop het initiatief voor het laatst is gepubliceerd in de Workfront Scenario Planner.</p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b> naam </b>
             </p>
             <p>De naam van het initiatief</p>
           </li>
           <li>
-            <p><b>planID</b>
+            <p><b> planID </b>
             </p>
             <p>De id van het plan dat aan het initiatief is gekoppeld.</p>
           </li>
           <li>
-            <p><b>planName</b>
+            <p><b> planName </b>
             </p>
             <p>De naam van het plan dat bij het initiatief hoort.</p>
           </li>
           <li>
-            <p><b>projectID</b>
+            <p><b> projectID </b>
             </p>
             <p>De id van het project dat aan het initiatief is gekoppeld.</p>
           </li>
           <li>
-            <p><b>scenarioID</b>
+            <p><b> scenarioID </b>
             </p>
             <p>De id van het scenario in Workfront Scenario Planner die verband houdt met het initiatief.</p>
           </li>
           <li>
-            <p><b>startDate</b>
+            <p><b> startDate </b>
             </p>
             <p>De geplande aanvangsdatum van het initiatief.</p>
           </li>
@@ -119,15 +119,15 @@ Zie voor meer informatie over initiatieven [Overzicht van initiatieven in het sc
       <td >
         <ul>
           <li>
-            <p><b>klant</b>
+            <p><b> klant </b>
             </p>
           </li>
           <li>
-            <p><b>enterBy</b>
+            <p><b> enteredBy </b>
             </p>
           </li>
           <li>
-            <p><b>project</b>
+            <p><b> project </b>
             </p>
           </li>
         </ul>
@@ -138,15 +138,15 @@ Zie voor meer informatie over initiatieven [Overzicht van initiatieven in het sc
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b> naam </b>
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
           </li>
         </ul>
@@ -157,19 +157,19 @@ Zie voor meer informatie over initiatieven [Overzicht van initiatieven in het sc
       <td>
         <ul>
           <li>
-            <p><b>TELLEN</b>
+            <p><b> TELLING </b>
             </p>
           </li>
           <li>
-            <p><b>GET</b>
+            <p><b> GET </b>
             </p>
           </li>
           <li>
-            <p><b>RAPPORT </b>
+            <p><b> RAPPORT </b>
             </p>
           </li>
           <li>
-            <p><b>ZOEKEN</b>
+            <p><b> ZOEKEN </b>
             </p>
           </li>
         </ul>
@@ -191,11 +191,11 @@ Het IssueDef-object vertegenwoordigt een set gegevens met betrekking tot de inde
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>isInlineAddEnabled</b>
+            <p><b> isInlineAddEnabled </b>
             </p>
           </li>
         </ul>
@@ -206,11 +206,11 @@ Het IssueDef-object vertegenwoordigt een set gegevens met betrekking tot de inde
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
           </li>
         </ul>
@@ -232,22 +232,22 @@ In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppe
       <td>
         <ul>
           <li>
-            <p><b>customerID</b>
+            <p><b> customerID </b>
             </p>
             <p>Dit is een intern object.</p>
           </li>
           <li>
-            <p><b>entryDate</b>
+            <p><b> entryDate </b>
             </p>
             <p>De datum en de tijd dat ObjectIntegration in het Systeem van Workfront werd ingegaan.</p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>De unieke Workfront-id van het specifieke ObjectIntegration-object.</p>
           </li>
           <li>
-            <p><b>integrationType</b>
+            <p><b> integrationType </b>
             </p>
             <p>De externe software waarmee het object ObjectIntegration een koppeling maakt. Mogelijke waarden zijn:</p>
             <ul>
@@ -263,32 +263,32 @@ In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppe
             </ul>
           </li>
           <li>
-            <p><b>linkedObjectID</b>
+            <p><b> linkedObjectID </b>
             </p>
           </li>
           <li>
-            <p><b>objID</b>
+            <p><b> objID </b>
             </p>
             <p>Het object in Workfront waaraan de ObjectIntegration is gekoppeld.</p>
           </li>
           <li>
-            <p><b>objObjCode</b>
+            <p><b> objObjCode </b>
             </p>
             <p>De objectcode van het object in Workfront waaraan ObjectIntegration is gekoppeld.</p>
           </li>
           <li>
-            <p><b>param1</b>
+            <p><b> param1 </b>
             </p>
           </li>
           <li>
-            <p><b>param2</b>
+            <p><b> param2 </b>
             </p>
           </li>
           <li>
             <p style="font-weight: bold;">param3</p>
           </li>
           <li>
-            <p><b>URL</b>
+            <p><b> URL </b>
             </p>
           </li>
         </ul>
@@ -299,7 +299,7 @@ In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppe
       <td >
         <ul>
           <li>
-            <p><b>klant</b>
+            <p><b> klant </b>
             </p>
           </li>
         </ul>
@@ -310,11 +310,11 @@ In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppe
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
           </li>
         </ul>
@@ -336,11 +336,11 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>autoCalcPlannedHours </b>
+            <p><b> autoCalcPlannedHours </b>
             </p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
         </ul>
@@ -351,7 +351,7 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td >
         <ul>
           <li>
-            <p><b>defaultApprovalProcess </b>
+            <p><b> defaultApprovalProcess </b>
             </p>
           </li>
         </ul>
@@ -362,7 +362,7 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>objectCategories
+            <p><b> objectCategories
 </b>
             </p>
           </li>
@@ -374,11 +374,11 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
           </li>
         </ul>
@@ -398,31 +398,31 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>fiatverID</b>
+            <p><b> ApproverID </b>
             </p>
           </li>
           <li>
-            <p><b>customerID</b>
+            <p><b> customerID </b>
             </p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>requestedDate</b>
+            <p><b> requestedDate </b>
             </p>
           </li>
           <li>
-            <p><b>aanvragerID</b>
+            <p><b> requestID </b>
             </p>
           </li>
           <li>
-            <p><b>status</b>
+            <p><b> status </b>
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b> userID </b>
             </p>
           </li>
         </ul>
@@ -433,19 +433,19 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td >
         <ul>
           <li>
-            <p><b>fiatteur</b>
+            <p><b> fiatteur </b>
             </p>
           </li>
           <li>
-            <p><b>klant</b>
+            <p><b> klant </b>
             </p>
           </li>
           <li>
-            <p><b>aanvrager</b>
+            <p><b> aanvrager </b>
             </p>
           </li>
           <li>
-            <p><b>user</b>
+            <p><b> gebruiker </b>
             </p>
           </li>
         </ul>
@@ -456,11 +456,11 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
           </li>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
           </li>
         </ul>
@@ -471,19 +471,19 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td >
         <ul>
           <li>
-            <p><b>fiatverID</b>
+            <p><b> ApproverID </b>
             </p>
           </li>
           <li>
-            <p><b>aanvragerID</b>
+            <p><b> requestID </b>
             </p>
           </li>
           <li>
-            <p><b>status</b>
+            <p><b> status </b>
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b> userID </b>
             </p>
           </li>
         </ul>
@@ -494,11 +494,11 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>goedkeuren</b>
+            <p><b> keurt </b> goed
             </p>
           </li>
           <li>
-            <p><b>afwijzen</b>
+            <p><b> verwerpen </b>
             </p>
           </li>
         </ul>
@@ -509,27 +509,27 @@ Het TaskDef-object vertegenwoordigt een set gegevens met betrekking tot de indel
       <td>
         <ul>
           <li>
-            <p><b>ADD</b>
+            <p><b> TOEVOEGEN </b>
             </p>
           </li>
           <li>
-            <p><b>TELLEN</b>
+            <p><b> TELLING </b>
             </p>
           </li>
           <li>
-            <p><b>DELETE</b>
+            <p><b> DELETE </b>
             </p>
           </li>
           <li>
-            <p><b>GET</b>
+            <p><b> GET </b>
             </p>
           </li>
           <li>
-            <p><b>RAPPORT</b>
+            <p><b> RAPPORT </b>
             </p>
           </li>
           <li>
-            <p><b>ZOEKEN</b>
+            <p><b> ZOEKEN </b>
             </p>
           </li>
         </ul>
@@ -604,7 +604,7 @@ Er zijn geen bronnen verwijderd voor API-versie 15.
 
 Een voorwerp AccessLevel wordt geassocieerd met gebruikers, en beschrijft de reeks van AccessLevelPermissions die bepalen wat de gebruiker tot toegang heeft.
 
-Voor meer informatie over toegangsniveaus, zie [Toegangsniveaus](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Voor meer informatie over toegangsniveaus, zie [ niveaus van de Toegang ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table>
   <col/>
@@ -615,7 +615,7 @@ Voor meer informatie over toegangsniveaus, zie [Toegangsniveaus](../../administr
       <td>
         <ul>
           <li>
-            <p><b>fieldAccessPrivileges</b> (tekenreeks[])</p>
+            <p><b> fieldAccessPrivileges </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -645,7 +645,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (tekenreeks[])</p>
+            <p><b> coreAction </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -657,7 +657,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (tekenreeks[])</p>
+            <p><b> forbiddenActions </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -669,7 +669,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
             </ul>
           </li>
           <li>
-            <p><b>secundairActions</b> (tekenreeks[])</p>
+            <p><b> secundairActions </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -699,7 +699,7 @@ Als een gebruiker in Workfront geen toegang heeft tot een object dat hij of zij 
       <td>
         <ul>
           <li>
-            <p><b>action</b> (tekenreeks)</p>
+            <p><b> actie </b> (koord)</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -711,7 +711,7 @@ Als een gebruiker in Workfront geen toegang heeft tot een object dat hij of zij 
             </ul>
           </li>
           <li>
-            <p><b>autoShareAction</b> (tekenreeks)</p>
+            <p><b> autoShareAction </b> (koord)</p>
             <p>De volgende mogelijke waarde is toegevoegd:</p>
             <ul>
               <li>
@@ -738,7 +738,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (tekenreeks[])</p>
+            <p><b> coreAction </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -750,7 +750,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (tekenreeks[])</p>
+            <p><b> forbiddenActions </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -762,7 +762,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
             </ul>
           </li>
           <li>
-            <p><b>secundairActions</b> (tekenreeks[])</p>
+            <p><b> secundairActions </b> (koord [])</p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
               <li>
@@ -792,7 +792,7 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerBudgetedHours </b>
+            <p><b> resourcePlannerBudgetedHours </b>
             </p>
           </li>
         </ul>
@@ -803,18 +803,18 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
       <td >
         <ul>
           <li>
-            <p><b>initiatief</b>
+            <p><b> initiatief </b>
             </p>
             <p>Toegevoegd.</p>
             <p>Het object Initiative maakt in de Workfront Scenario Planner ramingen voor het soort en het aantal functies, de vaste kosten en het geplande voordeel. </p>
           </li>
           <li>
-            <p><b>issueDef</b>
+            <p><b> issueDef </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
           <li>
-            <p><b>taskDef</b>
+            <p><b> taskDef </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -826,7 +826,7 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
       <td>
         <ul>
           <li>
-            <p style="font-weight: bold;"><b>objectIntegrations
+            <p style="font-weight: bold;"><b> objectIntegrations
 </b>
             </p>
             <p style="font-weight: normal;">Toegevoegd.</p>
@@ -851,7 +851,7 @@ Een object Categorie is een aangepast formulier.
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b> (tekenreeks)</p>
+            <p><b> catObjCode </b> (koord)</p>
             <p>De volgende mogelijke waarde is toegevoegd:</p>
             <ul>
               <li>
@@ -860,7 +860,7 @@ Een object Categorie is een aangepast formulier.
             </ul>
           </li>
           <li>
-            <p><b>objTypes</b> (tekenreeks[])</p>
+            <p><b> objTypes </b> (koord [])</p>
             <p>Toegevoegd.</p>
             <p style="font-weight: normal;">Deze parameter is een array van mogelijke objecten waaraan het aangepaste formulier kan worden gekoppeld. Deze is toegevoegd ter ondersteuning van de mogelijkheid om een aangepast formulier aan meerdere typen objecten te koppelen.</p>
             <p>Mogelijke waarden: </p>
@@ -874,7 +874,7 @@ Een object Categorie is een aangepast formulier.
       <td>
         <ul>
           <li>
-            <p><b>objTypes</b> (tekenreeks[])</p>
+            <p><b> objTypes </b> (koord [])</p>
             <p>Toegevoegd.</p>
             <p style="font-weight: normal;">Deze parameter is een array van mogelijke objecten waaraan het aangepaste formulier kan worden gekoppeld. Deze is toegevoegd ter ondersteuning van de mogelijkheid om een aangepast formulier aan meerdere typen objecten te koppelen.</p>
             <p>Mogelijke waarden: </p>
@@ -897,17 +897,17 @@ Een object Categorie is een aangepast formulier.
       <td>
         <ul>
           <li>
-            <p><b>hideFormulaFromDescription</b>
+            <p><b> hideFormulaFromDescription </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
           <li>
-            <p><b>journaledObjCodes</b>
+            <p><b> journaledObjCodes </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
           <li>
-            <p><b>rawCustomExpression</b>
+            <p><b> rawCustomExpression </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -930,7 +930,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b> naam </b>
             </p>
             <p>De volgende waarden zijn toegevoegd:</p>
             <ul>
@@ -956,13 +956,13 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
 
 Documenten kunnen in mappen worden ingedeeld. U kunt persoonlijke mappen maken in het gebied Persoonlijke documenten. Het object DocumentFolder vertegenwoordigt een van deze mappen.
 
-Het object DocumentFolder heeft de markering toegevoegd `SHARABLE`.
+Het object DocumentFolder heeft de markering `SHARABLE` toegevoegd.
 
 ### DocumentVersion (DOCV)
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Zie voor meer informatie over documentversies [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md).
+Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table>
   <col/>
@@ -973,7 +973,7 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
       <td>
         <ul>
           <li>
-            <p><b>externalIntegrationType</b>
+            <p><b> externalIntegrationType </b>
             </p>
             <p>De volgende waarde is toegevoegd: </p>
             <ul>
@@ -995,7 +995,7 @@ Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenw
 
 Voor meer informatie over groepen, zie Groepen vs. teams.
 
-Het Group-object heeft de markering toegevoegd `DATA_EXTENDIBLE`
+Het Group-object heeft de vlag toegevoegd `DATA_EXTENDIBLE`
 
 <table>
   <col/>
@@ -1007,12 +1007,12 @@ Het Group-object heeft de markering toegevoegd `DATA_EXTENDIBLE`
         <p>De volgende velden zijn toegevoegd:</p>
         <ul>
           <li>
-            <p><b>categoryID</b>
+            <p><b> categoryID </b>
             </p>
             <p>Een categorie is een aangepast formulier. Deze parameter is toegevoegd ter ondersteuning van de mogelijkheid om aangepaste Forms toe te voegen aan Group-objecten. </p>
           </li>
           <li>
-            <p><b>isActive</b>
+            <p><b> isActive </b>
             </p>
             <p>Dit is een Booleaanse parameter die de waarde true heeft als een object Actief is en false als dit niet het geval is. Objecten die zijn ingesteld op Actief, worden weergegeven in vervolgkeuzemenu's en keuzelijsten die kunnen worden gekoppeld aan andere objecten.</p>
           </li>
@@ -1025,19 +1025,19 @@ Het Group-object heeft de markering toegevoegd `DATA_EXTENDIBLE`
         <p>De volgende velden zijn toegevoegd:</p>
         <ul>
           <li>
-            <p><b>fiatteur</b>
+            <p><b> fiatteur </b>
             </p>
           </li>
           <li>
-            <p><b>klant</b>
+            <p><b> klant </b>
             </p>
           </li>
           <li>
-            <p><b>aanvrager</b>
+            <p><b> aanvrager </b>
             </p>
           </li>
           <li>
-            <p><b>user</b>
+            <p><b> gebruiker </b>
             </p>
           </li>
         </ul>
@@ -1049,11 +1049,11 @@ Het Group-object heeft de markering toegevoegd `DATA_EXTENDIBLE`
         <p>De volgende velden zijn toegevoegd:</p>
         <ul>
           <li>
-            <p><b>objectCategories</b>
+            <p><b> objectCategories </b>
             </p>
           </li>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b> objectIntegrations </b>
             </p>
             <p>In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppelen aan objecten in een extern softwareproduct. Het object ObjectIntegration vertegenwoordigt deze koppeling.</p>
           </li>
@@ -1066,7 +1066,7 @@ Het Group-object heeft de markering toegevoegd `DATA_EXTENDIBLE`
         <p>Het volgende veld is toegevoegd:</p>
         <ul>
           <li>
-            <p><b>isActive</b>
+            <p><b> isActive </b>
             </p>
             <p>Dit is een Booleaanse parameter die de waarde true heeft als een object Actief is en false als dit niet het geval is. Objecten die zijn ingesteld op Actief, worden weergegeven in vervolgkeuzemenu's en keuzelijsten die kunnen worden gekoppeld aan andere objecten.</p>
           </li>
@@ -1079,20 +1079,20 @@ Het Group-object heeft de markering toegevoegd `DATA_EXTENDIBLE`
         <p>De volgende velden zijn toegevoegd:</p>
         <ul>
           <li>
-            <p><b>calculateDataExtension</b>
+            <p><b> calculateDataExtension </b>
             </p>
             <p>Met deze handeling worden de expressies in aangepaste formuliervelden opnieuw berekend.</p>
           </li>
           <li>
-            <p><b>completeGroupInfo</b>
+            <p><b> completeGroupInfo </b>
             </p>
           </li>
           <li>
-            <p><b>linkExternalObject</b>
+            <p><b> linkExternalObject </b>
             </p>
           </li>
           <li>
-            <p><b>unlinkExternalObject</b>
+            <p><b> unlinkExternalObject </b>
             </p>
           </li>
         </ul>
@@ -1112,7 +1112,7 @@ Het object JournalEntry kan worden ingesteld om informatie over specifieke objec
     <tr>
       <td role="rowheader">Directe velden</td>
       <td>
-        <p><b>changeType</b>
+        <p><b> changeType </b>
         </p>
         <p>De volgende waarde is toegevoegd: </p>
         <ul>
@@ -1140,7 +1140,7 @@ Zie Documenten van externe toepassingen koppelen voor meer informatie over Gekop
       <td>
         <ul>
           <li>
-            <p><b>externalIntegrationType</b>
+            <p><b> externalIntegrationType </b>
             </p>
             <p>De volgende waarde is toegevoegd: </p>
             <ul>
@@ -1170,18 +1170,18 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
         <p>De volgende acties zijn toegevoegd:</p>
         <ul>
           <li>
-            <p><b>bulkMoveWithOptions</b>
+            <p><b> bulkMoveWithOptions </b>
             </p>
           </li>
           <li>
-            <p><b>getRequestPath</b>
+            <p><b> getRequestPath </b>
             </p>
           </li>
         </ul>
         <p>De volgende handeling is gewijzigd:</p>
         <ul>
           <li>
-            <p><b>copyIssue</b>
+            <p><b> copyIssue </b>
             </p>
             <p>Toegevoegd veld <code>parentID</code></p>
           </li>
@@ -1205,22 +1205,22 @@ Een object Parameter is een aangepast veld.
         <p>Het volgende veld is toegevoegd:</p>
         <ul>
           <li>
-            <p><b>fieldDefinition</b>
+            <p><b> fieldDefinition </b>
             </p>
           </li>
         </ul>
         <p>De volgende velden zijn gewijzigd:</p>
         <ul>
           <li>
-            <p><b>dataType</b>
+            <p><b> dataType </b>
             </p>
-            <p>De mogelijke waarde toegevoegd <code>WIDGET </code>(Widget) </p>
+            <p>De mogelijke waarde <code>WIDGET </code> (Widget) toegevoegd </p>
             <p>Deze waarde ondersteunt het gebruik van afbeeldingen in aangepaste formulieren.</p>
           </li>
           <li>
-            <p><b>displayType</b>
+            <p><b> displayType </b>
             </p>
-            <p>De mogelijke waarde toegevoegd <code>WIDGET </code>(Widget)</p>
+            <p>De mogelijke waarde <code>WIDGET </code> (Widget) toegevoegd</p>
             <p>Deze waarde ondersteunt het gebruik van afbeeldingen in aangepaste formulieren.</p>
           </li>
         </ul>
@@ -1242,7 +1242,7 @@ Een object Portfolio is een verzameling projecten die concurreren om dezelfde br
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b> objectIntegrations </b>
             </p>
           </li>
         </ul>
@@ -1253,11 +1253,11 @@ Een object Portfolio is een verzameling projecten die concurreren om dezelfde br
       <td>
         <ul>
           <li>
-            <p><b>linkExternalObject</b>
+            <p><b> linkExternalObject </b>
             </p>
           </li>
           <li>
-            <p><b>unlinkExternalObject</b>
+            <p><b> unlinkExternalObject </b>
             </p>
           </li>
         </ul>
@@ -1279,7 +1279,7 @@ Een programmaobject is een subset van projecten binnen een portfolio, waarin ver
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b> objectIntegrations </b>
             </p>
           </li>
         </ul>
@@ -1290,11 +1290,11 @@ Een programmaobject is een subset van projecten binnen een portfolio, waarin ver
       <td>
         <ul>
           <li>
-            <p><b>linkExternalObject</b>
+            <p><b> linkExternalObject </b>
             </p>
           </li>
           <li>
-            <p><b>unlinkExternalObject</b>
+            <p><b> unlinkExternalObject </b>
             </p>
           </li>
         </ul>
@@ -1316,7 +1316,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerBudgetedHours</b>
+            <p><b> resourcePlannerBudgetedHours </b>
             </p>
           </li>
         </ul>
@@ -1327,16 +1327,16 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
       <td >
         <ul>
           <li>
-            <p><b>initiatief</b>
+            <p><b> initiatief </b>
             </p>
             <p>Het object Initiative maakt in de Workfront Scenario Planner ramingen voor het soort en het aantal functies, de vaste kosten en het geplande voordeel. </p>
           </li>
           <li>
-            <p><b>issueDef</b>
+            <p><b> issueDef </b>
             </p>
           </li>
           <li>
-            <p><b>taskDef</b>
+            <p><b> taskDef </b>
             </p>
           </li>
         </ul>
@@ -1347,7 +1347,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b> objectIntegrations </b>
             </p>
             <p>In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppelen aan objecten in een extern softwareproduct. Het object ObjectIntegration vertegenwoordigt deze koppeling.</p>
           </li>
@@ -1361,7 +1361,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het gebied van de Desk van de Hulp is gepubliceerd om gebruikers toe te staan om kwesties aan het voor te leggen.
 
-Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table>
   <col/>
@@ -1372,7 +1372,7 @@ Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../
       <td>
         <ul>
           <li>
-            <p><b>aanvragerCoreAction</b>
+            <p><b> requestorCoreAction </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -1385,7 +1385,7 @@ Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../
             </ul>
           </li>
           <li>
-            <p><b>requestorForbiddenActions</b>
+            <p><b> requestForForbiddenActions </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -1407,7 +1407,7 @@ Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../
 
 Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
-Voor meer informatie over Scorecard-vragen raadpleegt u [Een scorecard maken](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Voor meer informatie over Scorecard Vragen, zie [ een scorecard ](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 <table>
   <col/>
@@ -1418,9 +1418,9 @@ Voor meer informatie over Scorecard-vragen raadpleegt u [Een scorecard maken](..
       <td>
         <ul>
           <li>
-            <p><b>displayType</b>
+            <p><b> displayType </b>
             </p>
-            <p>De mogelijke waarde toegevoegd <code>WIDGET </code>(Widget)</p>
+            <p>De mogelijke waarde <code>WIDGET </code> (Widget) toegevoegd</p>
           </li>
         </ul>
       </td>
@@ -1441,7 +1441,7 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b> objectIntegrations </b>
             </p>
             <p>In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppelen aan objecten in een extern softwareproduct. Het object ObjectIntegration vertegenwoordigt deze koppeling.</p>
           </li>
@@ -1464,11 +1464,11 @@ Een voorwerp van het Malplaatje vertegenwoordigt een patroon voor een project. P
       <td>
         <ul>
           <li>
-            <p><b>issueDef</b>
+            <p><b> issueDef </b>
             </p>
           </li>
           <li>
-            <p><b>taskDef</b>
+            <p><b> taskDef </b>
             </p>
           </li>
         </ul>
@@ -1491,7 +1491,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
         <p>Het volgende veld is verwijderd:</p>
         <ul>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
           </li>
         </ul>
@@ -1511,7 +1511,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
           <li>
-            <p><b>uiviewType</b>
+            <p><b> uiviewType </b>
             </p>
             <p>De volgende mogelijke waarden zijn verwijderd:</p>
             <ul>
@@ -1572,9 +1572,9 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
       <td>
         <ul>
           <li>
-            <p><b>updateType</b>
+            <p><b> updateType </b>
             </p>
-            <p>De mogelijke waarde toegevoegd <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>De mogelijke waarde <code>documentVersionDownload </code> (enum.updatetypeenum.documentversiondownload) toegevoegd</p>
           </li>
         </ul>
       </td>
@@ -1595,7 +1595,7 @@ Een object User vertegenwoordigt een persoon met een account in Workfront die zi
       <td>
         <ul>
           <li>
-            <p><b>userApproval</b>
+            <p><b> userApproval </b>
             </p>
           </li>
         </ul>
@@ -1606,11 +1606,11 @@ Een object User vertegenwoordigt een persoon met een account in Workfront die zi
       <td>
         <ul>
           <li>
-            <p><b>getUsersAvailableTime</b>
+            <p><b> getUsersAvailableTime </b>
             </p>
           </li>
           <li>
-            <p><b>resetRopgPassword</b>
+            <p><b> resetRopgPassword </b>
             </p>
           </li>
         </ul>
@@ -1632,7 +1632,7 @@ Een object UserNote is een melding.
       <td>
         <ul>
           <li>
-            <p><b>eventType</b>
+            <p><b> eventType </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -1663,7 +1663,7 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
       <td>
         <ul>
           <li>
-            <p><b>objectIntegrations</b>
+            <p><b> objectIntegrations </b>
             </p>
             <p>In sommige gevallen is het mogelijk om Workfront-werkitems rechtstreeks te koppelen aan objecten in een extern softwareproduct. Het object ObjectIntegration vertegenwoordigt deze koppeling.</p>
           </li>

@@ -18,19 +18,19 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in het beheer van hulpbronnen die zijn aangebracht met de versie 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Uren opnemen uit uitgaven in het werkgebied Toegewezen werklastbalans
 
 Om u een volledig beeld van al uw werklasten van mensen te laten zien, hebben wij een het plaatsen geïntroduceerd die u toestaat om uren van kwesties in het Toegewezen Werkgebied van de Balancer van de Werkbelasting te omvatten.
 
-Voor informatie over het werken in de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Voor informatie over het werken in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Toewijzingen aanpassen voor niet-werkdagen in werklastbalans
 
 U kunt toewijzingen voor uw bronnen voor niet-werkdagen aanpassen met behulp van Workload Balancer.
 
-Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor informatie over het beheren van toewijzingen in de Balancer van de Werklast, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Variabele filters beschikbaar in Workload Balancer
 
@@ -44,13 +44,13 @@ Deze filters vervangen de jokertekenfiltervariabelen $$USER.ID, $$USER.roleID, $
 
 Wanneer u een van deze filters toepast en vervolgens de werklastbalans deelt of op een dashboard plaatst, zien alle andere gebruikers hun eigen gegevens.
 
-Zie voor informatie over het toepassen van filters op de werklastbalans [Gegevens in de werklastbalans filteren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Voor informatie over het toepassen van filters op de Balancer van de Werkbelasting, zie [ informatie van de Filter in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ## Nieuwe sortering voor projecten in het werklastevenwicht
 
 De werklastbalans sorteert nu de projecten op basis van de vroegste geplande begindatum en op basis van de laatste geplande einddatum van de taken in het project die plaatsvinden tijdens het tijdsbestek dat de gebruiker op het scherm weergeeft. Hierdoor kunt u het werk ordenen in een boomachtige hiërarchie, zodat u het werk voor een dag gemakkelijker kunt identificeren.
 
-Voor informatie over het bekijken van projecten en het werkpunten in de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Voor informatie over het bekijken van projecten en het werkpunten in de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Werklastbalans weergeven
 
@@ -58,12 +58,12 @@ Om u een nauwkeurig perspectief van de vooruitgang van uw werkbelasting te geven
 
 Als met deze verbetering een taak of een kwestie eerder wordt voltooid dan de geplande Voltooiingsdatum, worden de toegewezen uren van de resterende dagen doorgehaald om aan te geven dat zij niet meetellen voor de totale toewijzing van de gebruiker.
 
-Voor informatie over het navigeren door de werklastverdeler en het inschakelen van instellingen raadpleegt u [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Voor informatie over het navigeren van de Balancer van de Werkbelasting en het toelaten van montages zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Functies voor werklastverdeling die eerder werden meegedeeld als releasing met de release van 20.2
 
-* [De dagelijkse en wekelijkse toewijzing in de werklastbalans aanpassen](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
-* [Taak geplande uren bijwerken in werklastbalans](#update-task-planned-hours-in-the-workload-balancer)
+* [ Pas dagelijks en wekelijkse toewijzing in de Balancer van de Werklast aan ](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
+* [ Taak Geplande Uren van de Update in de Balancer van de Werkbelasting ](#update-task-planned-hours-in-the-workload-balancer)
 * [Een handigere manier om toewijzingen bij te werken in het werklastevenwicht](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
 ### De dagelijkse en wekelijkse toewijzing in de werklastbalans aanpassen {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}
@@ -72,9 +72,9 @@ U kunt de dagelijkse en wekelijkse toewijzing van uw gebruikers nu aanpassen aan
 
 Voorafgaand aan deze verhoging, was dit slechts mogelijk gebruikend het Middel dat hulpmiddelen plant.
 
-Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor informatie over het beheren van toewijzingen in de Balancer van de Werklast, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -87,12 +87,12 @@ Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadp
 
 Een nieuwe optie in het gebied van het Beheer van het Middel van het toegangsniveau staat nu gebruikers met deze toegang toe om Geplande Uren van de Balancer van de Werkbelasting uit te geven. Wanneer u toewijzingen aanpast in het werklastevenwicht, hoeft het totaal van de dagelijkse toewijzingen niet overeen te komen met het aantal geplande uren van de taken. Als u uw toewijzingen hebt opgeslagen, wordt het totaal van de toewijzingstijden de geplande uren van de taak. Dit is alleen mogelijk voor taken met een eenvoudig type duur.
 
-Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor informatie over het beheren van toewijzingen in de Balancer van de Werklast, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Voor informatie over het verlenen van toegang tot het Beheer van het Middel, zie [Toegang verlenen tot beheer van hulpbronnen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over het verlenen van toegang tot het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ### Een handigere manier om toewijzingen bij te werken in het werklastevenwicht {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 
 Om het gemakkelijker te maken om de toewijzingen van een gebruiker aan een het werkpunt in de Balancer van de Werkbelasting te beheren, kunt u het het werkpunt nu tweemaal klikken. U kunt ook nog steeds de bestaande menuoptie Toewijzingen bewerken gebruiken. Bovendien hoeft u de weergave van toewijzingen niet meer in te schakelen om deze bij te werken.
 
-Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor informatie over het beheren van toewijzingen in de Balancer van de Werklast, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 16 mei 2022 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 
 ## De module &quot;Voer een handeling uit&quot; is nu beschikbaar voor de Anaplan-connector in Workfront Fusion
@@ -31,4 +31,4 @@ Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u 
 Om de Workfront Anaplan schakelaar te vereenvoudigen, hebben wij de Looppas een actiemodule gecreeerd. Deze module bevat de functionaliteit van de gegevensmodules Gegevens importeren en Gegevens exporteren. U kunt deze module ook gebruiken om een actie te schrappen Anaplan of een proces in werking te stellen Anaplan.
 Eerder werd het importeren en exporteren van gegevens beheerd via afzonderlijke modules, en het verwijderen van handelingen en actieve processen was niet beschikbaar.
 
-Zie voor meer informatie [Anaplan Modules](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+Voor meer informatie, zie [ Modules Anaplan ](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Als beheerder van Adobe Workfront, kunt u gebruikers toegang tot mening verlenen of malplaatjes uitgeven wanneer u hun toegangsniveau toewijst. Een gebruiker moet een licentie voor een abonnement hebben om toegang te hebben tot Sjablonen bewerken.
 
-Voor meer informatie over het verlenen van toegang tot malplaatjes, zie [Toegang tot sjablonen verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+Voor meer informatie over het verlenen van toegang tot malplaatjes, zie [ Toegang van de Verlening tot malplaatjes ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
 Samen met het toegangsniveau dat u verleent, kan een gebruiker toestemmingen om specifieke malplaatjes van andere gebruikers ook te bekijken of te beheren die hen delen.
 
@@ -29,37 +29,37 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
 
 ## Overwegingen bij het delen van een sjabloon
 
-* Naast de onderstaande overwegingen, zie ook [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-* De maker van een sjabloon en de sjablooneigenaar hebben standaard beheermachtigingen voor de sjabloon. Voor informatie over het aanwijzen van een gebruiker als de Eigenaar van het Malplaatje, zie [Projectsjablonen bewerken](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+* Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* De maker van een sjabloon en de sjablooneigenaar hebben standaard beheermachtigingen voor de sjabloon. Voor informatie over het aanwijzen van een gebruiker als Eigenaar van het Malplaatje, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 * U kunt het volgende delen bij het delen van een sjabloon:
 
    * De sjabloon
 
-      Zie voor meer informatie over het delen van een sjabloon [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     Voor meer informatie over hoe te om een malplaatje te delen, zie [ het projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-      U kunt de volgende machtigingen aan een sjabloon verlenen:
+     U kunt de volgende machtigingen aan een sjabloon verlenen:
 
       * Weergave
 
-         ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
       * Beheren
 
-         ![](assets/manage-on-template-225x280.png)
+        ![](assets/manage-on-template-225x280.png)
+
    * De toekomstige projecten die gebruikend het malplaatje worden gecreeerd. U kunt de zelfde niveaus van toestemmingen aan projecten geven die van een malplaatje worden gecreeerd zoals u een individueel project. 
 
-      Voor informatie over hoe te om een project van een malplaatje op het malplaatjeniveau te delen, zie [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
-
+     Voor informatie over hoe te om een project van een malplaatje op het malplaatjeniveau te delen, zie [ het projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * Wanneer u een malplaatje of een project deelt dat van het malplaatje wordt gecreeerd, erven de gebruikers de zelfde toestemmingen aan alle kindvoorwerpen verbonden aan het malplaatje of het project, door gebrek.
 
-   Voor meer informatie over de hiërarchie van objecten in Workfront raadpleegt u  [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Zie voor meer informatie over de hiërarchie van objecten in Workfront  [ Begrijp voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Wanneer u een malplaatje deelt, erven alle malplaatjetaken en documenten, evenals de kwesties op het toekomstige project dat van het malplaatje wordt gecreeerd de zelfde toestemmingen, tenzij anders gespecificeerd.
 
-   Voor informatie over het beheren van de toegang tot malplaatjetaken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie [Toegang](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) in het artikel [Projectsjablonen bewerken](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  Voor informatie over het beheren van de toegang tot malplaatjetaken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de ](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) sectie van de Toegang [ in artikel [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-* De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Zie voor meer informatie over het beperken van overerfde machtigingen voor documenten [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ You can share an object only with active users, teams,
 
 ## Geavanceerde instellingen voor het delen van sjablonen
 
-In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verlenen wanneer u hen toestaat een sjabloon te bekijken of te beheren. Zie de sectie voor instructies over het delen van een sjabloon [Een sjabloon delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) in het artikel [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verlenen wanneer u hen toestaat een sjabloon te bekijken of te beheren. Voor de instructies bij het delen van een malplaatje, zie de sectie [ een malplaatje ](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) in het artikel [ het projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -146,16 +146,16 @@ In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verl
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Delen op systeemniveau</td> 
+   <td>Delen in het hele systeem</td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Documenten toevoegen</p> <p>Tip: Soms voegen mensen documenten aan een projectmalplaatje toe die denken dat zij hen aan een project toevoegen. U kunt dit voor uw ontvangers verhinderen door dit het plaatsen onbruikbaar te maken.</p> </td> 
+   <td> <p>Documenten toevoegen</p> <p>Tip: Soms voegen mensen documenten toe aan een projectsjabloon terwijl ze denken dat ze ze aan een project toevoegen. U kunt dit voor uw ontvangers verhinderen door dit het plaatsen onbruikbaar te maken.</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-Om de toestemmingen te begrijpen u gebruikers aan projecten verleent die van een malplaatje worden gecreeerd, zie [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Om de toestemmingen te begrijpen u gebruikers aan projecten verleent die van een malplaatje worden gecreeerd, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.

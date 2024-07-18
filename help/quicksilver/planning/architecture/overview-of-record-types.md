@@ -20,18 +20,18 @@ ht-degree: 0%
 
 In tegenstelling tot Workfront waar de objecttypen vooraf zijn gedefinieerd, kunt u in Adobe Workfront Planning uw eigen objecttypen maken. In Workfront zijn bijvoorbeeld al de objecttypen Programma, Portfolio, Project, Taak of Probleem gemaakt.
 
-Workfront Planning-objecttypen worden &#39;recordtypen&#39; genoemd en bestaan alleen wanneer gebruikers ze maken. Recordtypen zijn de bouwstenen van een Workfront-werkruimte voor planning. Zie voor informatie over werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning-objecttypen worden &#39;recordtypen&#39; genoemd en bestaan alleen wanneer gebruikers ze maken. Recordtypen zijn de bouwstenen van een Workfront-werkruimte voor planning. Voor informatie over werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 ## Overzicht van recordtypen
 
 In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die aan de behoeften van uw organisatie voldoen.
 
-Zie voor informatie over het maken van recordtypen [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * Wanneer u een werkruimte maakt op basis van een sjabloon, worden recordtypen gemaakt in de volgende werkruimtesecties:
 
-   * **Operationele recordtypen**: De types van verslag die strategische plannen, initiatieven, of gepland werk vertegenwoordigen. Campagne, Activiteit, Tactiek, Opportunity zijn bijvoorbeeld operationele recordtypen.
-   * **Taxonomieën**: Typen opnemen die kenmerken vastleggen over een operationeel recordtype. Regio, Adres, Publiek zijn bijvoorbeeld taxonomieën.
+   * **Operationele Types van Verslag**: De types van verslag die strategische plannen, initiatieven, of gepland werk vertegenwoordigen. Campagne, Activiteit, Tactiek, Opportunity zijn bijvoorbeeld operationele recordtypen.
+   * **Taxonomies**: De types van verslag die attributen over een operationeel verslagtype vangen. Regio, Adres, Publiek zijn bijvoorbeeld taxonomieën.
 
 * Wanneer u een recordtype maakt in een werkruimte die u zelf hebt gemaakt, kunt u het recordtype in elke gewenste sectie plaatsen die u in de werkruimte maakt.
 * Wanneer u een recordtype maakt, kunnen alleen u en de personen die u toegangsrechten tot de werkruimte geven, het recordtype weergeven.

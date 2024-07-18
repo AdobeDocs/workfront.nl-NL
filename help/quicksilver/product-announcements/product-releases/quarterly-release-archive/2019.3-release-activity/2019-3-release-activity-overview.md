@@ -22,7 +22,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  To download this page in PDF&nbsp;format, go  <a href="https://documentation.my.workfront.com/library/a/1c7547fc-9d72-400e-84ed-3382bca498f4" target="_blank">here</a>. </MadCap:conditionalText>
 -->
 
-Als u een lijst wilt weergeven met verbeteringen die zijn uitgebracht na de release van 2019.3, raadpleegt u [Productintroducties](../../../../product-announcements/product-releases/product-releases.md).
+Om een lijst van verhogingen te bekijken die na de versie 2019.3 worden vrijgegeven, zie {de versies van het 0} Product ](../../../../product-announcements/product-releases/product-releases.md).[
 
 ## Verbeteringen voor alle gebruikers
 
@@ -152,11 +152,11 @@ De release 2019.3 bevat de volgende verbeteringen:
 
   Gebruikers worden na 8 minuten inactiviteit automatisch afgemeld om de mobiele app van Workfront veiliger te maken voor u en uw bedrijf.
 
-* [Filteren op projecten met de dood in de mobiele app](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filteren op projecten met de dood in de mobiele app](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [ Filter door Dode Projecten in Mobiele app ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [ Filter door Dode Projecten in Mobiele app ](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   We hebben Dode projecten als filteroptie toegevoegd op het tabblad Projecten in de mobiele app.
 
-* [Objecten verwijderen met de toepassing Mobile op iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [ de voorwerpen van de Schrapping gebruikend Mobiele app op iOS ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -198,7 +198,7 @@ We hebben verschillende nieuwe verbeteringen toegevoegd om uw ervaring in de Wor
 
 In deze sectie worden de wijzigingen beschreven die zijn aangebracht tijdens de releaseperiode van 2019.3 die worden vrijgegeven in de productieomgeving vóór de algemene release van 2019.3.
 
-* [Het weergavetype van een veld in een aangepast formulier wijzigen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [ Verandering het vertoningstype van een gebied in een douanevorm ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -357,12 +357,12 @@ Zie voor informatie over de onderhoudsupdates die tijdens de release van 2019.3 
 
 ## Aankondigingen
 
-* [De nieuwe bètaversie van Workfront is nu beschikbaar in Voorvertoning](#the-new-workfront-experience-beta-now-available-in-preview)
-* [Workfront Library is nu beschikbaar](#workfront-library-now-available)
-* [API-versie 3 wordt niet meer ondersteund](#api-version-3-no-longer-supported)
-* [Ondersteuning voor TLS 1.0 en 1.1 loopt af](#tls-1-0-and-1-1-support-is-ending)
-* [Verwijderen van Flash](#flash-application-removal)
-* [Verschillende Single Sign-On-opties die moeten worden verwijderd](#various-single-sign-on-options-to-be-removed)
+* [ de nieuwe de ervaringsbèta van Workfront nu beschikbaar in Voorproef ](#the-new-workfront-experience-beta-now-available-in-preview)
+* [ de Bibliotheek van Workfront nu beschikbaar ](#workfront-library-now-available)
+* [ API Versie 3 niet meer gesteund ](#api-version-3-no-longer-supported)
+* [ TLS 1.0 en 1.1 steun beëindigt ](#tls-1-0-and-1-1-support-is-ending)
+* [ verwijdering van de toepassing van de Flash ](#flash-application-removal)
+* [ Diverse Enige Sign-On te verwijderen opties ](#various-single-sign-on-options-to-be-removed)
 * [Q3 Roadmap-webinar voor producten](#q3-product-roadmap-webinar)
 
 ### De nieuwe bètaversie van Workfront is nu beschikbaar in Voorvertoning {#the-new-workfront-experience-beta-now-available-in-preview}
@@ -375,7 +375,7 @@ Workfront Library is een digitale-inhoudhub voor bedrijven die u kunt gebruiken 
 
 ### API-versie 3 wordt niet meer ondersteund {#api-version-3-no-longer-supported}
 
-Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Zie voor meer informatie over het ondersteuningsschema voor versies van de Workfront API [API-versieschema en ondersteuningsschema](../../../../wf-api/api/api-version-support-schedule.md)
+Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Alle functionaliteit die afhankelijk is van de technologie van de Flash is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * LDAP
 
-  Ga voor meer informatie over het gebruik van LDAP met Workfront naar [Adobe Workfront configureren met LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Adobe Workfront met LDAP ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -431,7 +431,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * Active Directory
 
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [Adobe Workfront configureren met Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Adobe Workfront met Actieve Folder ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * SAML 1.1
 
-  Voor meer informatie over het gebruik van SAML 1.1 met Workfront raadpleegt u [Adobe Workfront configureren met SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Adobe Workfront met SAML 1.1 vormen ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
 ### Q3 Roadmap-webinar voor producten {#q3-product-roadmap-webinar}
 
-Meer informatie over wat er tijdens de [Q3 Roadmap webinar](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) op 1 augustus om 9.00 uur. MST.
+Leer meer over wat tijdens [ Q3 Roadmap webinar ](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) op 1 augustus om 9:00 uur moet komen. MST.

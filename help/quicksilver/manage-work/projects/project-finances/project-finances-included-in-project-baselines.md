@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Projectfinanciën opgenomen in de basislijnen van projecten
+title: Projectfinanciën die in de basislijnen van projecten zijn opgenomen
 description: Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een bepaald moment uitzagen. Ze slaan belangrijke informatie over het project op, zoals belangrijke data, voortgang, kosten en inkomstenwaarden.
 author: Alina
 feature: Work Management
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Projectfinanciën opgenomen in de basislijnen van projecten
+# Projectfinanciën die in de basislijnen van projecten zijn opgenomen
 
 Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een bepaald moment uitzagen. Ze slaan belangrijke informatie over het project op, zoals belangrijke data, voortgang, kosten en inkomstenwaarden.
 
 Wanneer u een basislijn maakt, worden de taakgegevens ook vastgelegd op de basislijntaken van die basislijn.
 
-Voor informatie over het creëren van projectbasislijnen, zie [Projectbasislijnen maken](../../../manage-work/projects/create-projects/create-baselines.md).
+Voor informatie over het creëren van projectbasislijnen, zie [ projectbasislijnen ](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
 
 ## Financiële informatie in basislijnen
 
@@ -28,9 +28,9 @@ U kunt de rapporten van de Taak van de Basislijn of van de Basislijn tot stand b
 
 Naast naam- en datumgegevens bevatten basislijnen en basislijntaken ook financiële informatie over het project of de taken. De lijsten hieronder tonen de financiële informatie van het project en van de taken die van de voorwerpen van de Taak van de Basislijn of van de Basislijn toegankelijk zijn.
 
-Voor informatie over wat elk gebied toont, zie [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor informatie over wat elke gebiedsvertoningen, [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) zien.
 
-* [Financiële informatie in basisrapporten](#financial-information-included-in-baseline-reports)
+* [ Financiële informatie inbegrepen in de rapporten van de Basislijn ](#financial-information-included-in-baseline-reports)
 * [Financiële informatie in basislijntaakrapporten](#financial-information-included-in-baseline-task-reports)
 
 ### Financiële informatie in basisrapporten {#financial-information-included-in-baseline-reports}
@@ -45,7 +45,7 @@ De volgende project financiële informatie is toegankelijk van het voorwerp van 
 * Geraamde kosten
 * Kosten van begrote arbeid in de planning van hulpbronnen
 
-   De begrote loonkosten van het bronnenplan zijn de loonkosten van het project op basis van de uren die voor het project in de bronnenplanner op het moment dat de basislijn werd gemaakt in de begroting zijn opgenomen.
+  De begrote loonkosten van het bronnenplan zijn de loonkosten van het project op basis van de uren die voor het project in de bronnenplanner op het moment dat de basislijn werd gemaakt in de begroting zijn opgenomen.
 
 * Vaste kosten
 * Geplande inkomsten

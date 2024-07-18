@@ -10,7 +10,7 @@ role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td>Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Een aangepaste voorwaarde maken of bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Projectvoorkeuren** > **Voorwaarden**.
+1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 
-1. Klik op de tab van het objecttype (**Project**, **Taak**, of **Probleem**) die u aan de voorwaarde wilt koppelen.
+1. Klik het lusje van het objecten type (**Project**, **Taak**, of **Uitgave**) dat u met de voorwaarde wilt associëren.
 
-1. Als u een nieuwe voorwaarde wilt maken, klikt u op **Een nieuwe voorwaarde toevoegen**.
+1. Om een nieuwe voorwaarde tot stand te brengen, klik **voeg een Nieuwe Voorwaarde** toe.
 
    of
 
-   Als u een bestaande voorwaarde wilt bewerken, houdt u de muisaanwijzer boven de voorwaarde die u wilt bewerken en klikt u op de knop **Bewerken** pictogram helemaal rechts.
+   Om een bestaande voorwaarde uit te geven, over de voorwaarde te bewegen u wilt uitgeven, dan **uitgeven** pictogram klikken dat aan uiterst rechts verschijnt.
 
    ![](assets/custom-condition-edit-nwe.jpg)
 
@@ -79,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td>Vergelijkt met </td> 
       <td><p>(Vereist, alleen voor projecten) Klik op de optie in de vervolgkeuzelijst die de functie van de nieuwe voorwaarde het best beschrijft. Bijvoorbeeld, voor een voorwaarde genoemd het Volgen goed, zou u op Doel klikken. Dit bepaalt hoe uw standaardvoorwaarden werken. Elke voorwaarde die u maakt, moet overeenkomen met een van de opties in het keuzemenu.</p>
-      <p>Voor informatie over standaardvoorwaarden, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Een aangepaste voorwaarde instellen als standaard voor projecten</a> en <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Een aangepaste voorwaarde instellen als standaard voor taken en problemen</a>.</p>
+      <p>Voor informatie over standaardvoorwaarden, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref"> Plaats een douanetoewijzing als gebrek voor projecten </a> en <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref"> plaats een douanetoewijzing als gebrek voor taken en kwesties </a>.</p>
       <p>Deze optie kan niet worden gewijzigd nadat u de voorwaarde hebt gemaakt.</p></td> 
      </tr> 
      <tr> 
@@ -100,24 +100,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >U kunt de terminologie en de kleuren van voorwaarden standaardiseren voor alle drie de objecttypen. Om dit te doen, kopieer de voorwaardenNaam en de hexadecimale code van de Kleur van één lusje (Project, Taak, Kwestie) aan de overeenkomstige voorwaarde op de andere twee lusjes.
 
-1. (Optioneel) Slepen ![](assets/move-icon---dots.png) alle voorwaarden naar een nieuwe positie om de lijst opnieuw te ordenen.
+1. (Optioneel) Sleep ![](assets/move-icon---dots.png) een voorwaarde naar een nieuwe positie om de volgorde van de lijst te wijzigen.
 
    Dit verandert de orde waarin de voorwaarden in projecten, taken en kwesties tonen:
 
    * Wanneer een gebruiker een project bewerkt
 
-      ![](assets/change-condition-edit-project.png)
+     ![](assets/change-condition-edit-project.png)
 
    * Wanneer een gebruiker de voorwaarde voor een taak of kwestie op het lusje van Updates verandert:
 
-      ![](assets/change-condition-update-comment.png)
+     ![](assets/change-condition-update-comment.png)
 
    * Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
 
-      ![](assets/change-conditions-list-dropdown-only.png)
+     ![](assets/change-conditions-list-dropdown-only.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-U kunt uw douanevoorwaarde als standaardvoorwaarde voor projecten of voor taken en kwesties plaatsen. Zie voor meer informatie [Een aangepaste voorwaarde instellen als standaard voor projecten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) en [Een aangepaste voorwaarde instellen als standaard voor taken en problemen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
+U kunt uw douanevoorwaarde als standaardvoorwaarde voor projecten of voor taken en kwesties plaatsen. Voor meer informatie, zie [ Plaats een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) en [ plaats een douanetoewijzing als gebrek voor taken en kwesties ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
-Zie voor meer informatie over aangepaste voorwaarden [Aangepaste voorwaarden](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Voor meer informatie over douanevoorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

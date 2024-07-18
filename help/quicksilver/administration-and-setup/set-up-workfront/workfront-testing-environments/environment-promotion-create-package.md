@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Een pakket voor milieubescherming maken of bewerken
 
-U moet in de omgeving een pakket maken dat u objecten wilt kopiëren **van**. Bijvoorbeeld, als u een project in uw milieu vormt van de Sandbox van de Douane verfrist en het aan uw milieu van de Productie bevordert, moet u het pakket in uw milieu van de Sandbox van de Douane creëren vernieuwt.
+U moet een pakket in het milieu tot stand brengen dat u voorwerpen **van** wilt kopiëren. Bijvoorbeeld, als u een project in uw milieu vormt van de Sandbox van de Douane verfrist en het aan uw milieu van de Productie bevordert, moet u het pakket in uw milieu van de Sandbox van de Douane creëren vernieuwt.
 
 >[!IMPORTANT]
 >
@@ -31,13 +31,13 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td><strong>[!DNL Adobe Workfront] plan </strong>
    </td>
    <td> Premier of Ultimate (alleen nieuwe plannen)
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties</strong>
+   <td><strong>[!DNL Adobe Workfront] licenties </strong>
    </td>
    <td> [!UICONTROL Standard]
    </td>
@@ -45,43 +45,43 @@ U moet het volgende hebben:
    <tr>
    <td>Configuraties op toegangsniveau
    </td>
-   <td>U moet een [!DNL Workfront] beheerder.
+   <td>U moet een [!DNL Workfront] beheerder zijn.
    </td>
   </tr>
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een pakket maken
 
-1. Ga naar de omgeving waarin u het pakket wilt maken. Dit is de omgeving waarin u objecten kopieert **van**.
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
-1. Selecteren **Systeem** in de linkernavigatie selecteert u vervolgens **Milieubevordering**.
-1. Klikken **Pakket maken**.
+1. Ga naar de omgeving waarin u het pakket wilt maken. Dit is het milieu dat u voorwerpen **van** kopieert.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Bevordering van het Milieu**.
+1. Klik **Create Pakket**.
 
    De pagina Nieuw promotiepakket wordt geopend.
 
-1. In de **Pakketnaam** voert u een naam in voor het pakket.
-1. In de **Beschrijving** Voer een beschrijving in voor dit pakket.
-1. Als u een object aan het pakket wilt toevoegen, klikt u op **Objecten toevoegen** in de linkernavigatie en selecteer het type van voorwerp u wilt toevoegen.
+1. Op het **gebied van de naam van het Pakket** {, ga een naam voor het pakket in.
+1. Op het **gebied van de Beschrijving**, ga een beschrijving voor dit pakket in.
+1. Om een voorwerp aan het pakket toe te voegen, klik **voegt Voorwerpen** in de linkernavigatie toe en selecteert het type van voorwerp u wilt toevoegen.
 1. Selecteer een of meer objecten in de lijst of typ de naam in de zoekbalk en selecteer het object wanneer het in de lijst wordt weergegeven. U kunt meerdere objecten in de lijst selecteren.
-1. Klikken **Toevoegen (X-objecten)** om de geselecteerde objecten aan het pakket toe te voegen.
+1. Klik **toevoegen (de Voorwerpen van X)** om de geselecteerde voorwerpen aan het pakket toe te voegen.
 
    >[!INFO]
    >
    >**Voorbeeld**
    >
-   >Als u drie projecten hebt geselecteerd om aan het project toe te voegen, zegt de knoop **3 projecten toevoegen**.
+   >Als u drie projecten hebt geselecteerd om aan het project toe te voegen, zegt de knoop **3 Projecten** toevoegen.
 
    De objecten die u hebt toegevoegd, worden weergegeven in het gebied Inhoud pakket rechts van de pagina.
 
 1. Herhaal stap 7-9 om een ander type object toe te voegen.
 1. (Optioneel) Als u een object uit het pakket wilt verwijderen, beweegt u de muisaanwijzer over het object in het gebied Inhoud pakket en klikt u op de X naast het object.
-1. Nadat u alle gewenste objecten aan het pakket hebt toegevoegd, klikt u **Opslaan en sluiten** om het pakket op te slaan zonder het samen te stellen.
+1. Nadat u alle gewenste voorwerpen aan het pakket hebt toegevoegd, klik **sparen en sluit** om het pakket te bewaren zonder het te assembleren.
 
    of
 
-   Klikken **Opslaan en samenstellen** om het pakket op te slaan en samen te stellen.
+   Klik **sparen en assembleren** om het pakket te bewaren en samen te stellen.
 
    >[!NOTE]
    >
@@ -90,14 +90,14 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ## Een bestaand pakket bewerken of samenvoegen
 
-1. Ga naar de omgeving waarin u het pakket wilt maken. Dit is de omgeving waarin u objecten kopieert **van**.
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **[!UICONTROL Setup]** ![Pictogram Instellen](/help/_includes/assets/gear-icon-setup.png).
-1. Selecteren **Systeem** in de linkernavigatie selecteert u vervolgens **Milieubevordering**.
+1. Ga naar de omgeving waarin u het pakket wilt maken. Dit is het milieu dat u voorwerpen **van** kopieert.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Bevordering van het Milieu**.
 1. Selecteer het pakket in de weergegeven lijst.
-1. (Voorwaardelijk) Schakel de optie **Gecodeerde pakketten tonen** -optie.
-1. (Optioneel) Als u de inhoud wilt weergeven, inclusief alle objecten en de bijbehorende subobjecten, klikt u op de vervolgkeuzepijl naast het objecttype in het dialoogvenster **Inhoud** sectie.
-1. (Optioneel) Klik op **Inzet**.
-1. (Optioneel) Klik op **Pakket bewerken** rechtsboven in het scherm.
-1. Klik op **Installeren** rechtsboven in het scherm.
+1. (Voorwaardelijk) om gehandicapte pakketten te zien, laat **toe tonen gepensioneerde pakketten** optie.
+1. (Facultatief) om de inhoud, met inbegrip van alle voorwerpen en hun sub-voorwerpen te bekijken, klik de drop-down pijl naast het objecten type in de **sectie van de Inhoud**.
+1. (Facultatief) om vorige installaties en installatiepogingen van dit pakket te bekijken, klik **Plaatsingen**.
+1. (Facultatief) om het pakket uit te geven, klik **uitgeven Pakket** bij het hoger-recht van het scherm.
+1. Om het pakket te installeren, klik **installeer** bij het hoger-recht van het scherm.
 
-   Zie voor instructies over het installeren van een pakket [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+   Voor instructies bij het installeren van een pakket, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

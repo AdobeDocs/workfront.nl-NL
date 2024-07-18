@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Gegevens filteren in Adobe Workfront Goals
 
-U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Workfront toevoegde. Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md). Wanneer u doelstellingen bekijkt, kunt u informatie in de Doelen van Workfront filtreren om slechts doelstellingen te bekijken die voor u belangrijk zijn.
+U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Workfront toevoegde. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren. Wanneer u doelstellingen bekijkt, kunt u informatie in de Doelen van Workfront filtreren om slechts doelstellingen te bekijken die voor u belangrijk zijn.
 
 ## Toegangsvereisten
 
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overzicht van filters in Workfront Goals
 
@@ -91,7 +91,7 @@ In Workfront kunt u zoeken naar doelen in de volgende secties van het gebied Doe
 * Grafieken
 * Goal Alignment
 
-Voor informatie over de gedeelten van het gebied Doelstellingen raadpleegt u [Overzicht van de secties Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Voor informatie over de secties van het gebied van Doelen, zie [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -113,7 +113,7 @@ Houd rekening met het volgende wanneer u werkt met filters in Workfront Goals:
 
 U kunt een snel filter in een lijst van doelstellingen gebruiken om u van slechts punten te helpen de plaats bepalen die voor u belangrijk zijn. U kunt snelle filters niet opslaan en deze zijn niet blijvend. Workfront wist de resultaten van een snel filter wanneer u de pagina vernieuwt.
 
-Zie voor meer informatie [Het snelle filter toepassen op een lijst](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Voor meer informatie, zie [ de snelle filter op een lijst ](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
 ## Een filter maken en toepassen in Workfront Goals
 
@@ -123,15 +123,15 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. Ga naar de Workfront-doelen.
 
-   Voor informatie over het benaderen van Workfront Goals raadpleegt u [Toegang tot en open doelen in Adobe Workfront-doelen](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Voor informatie over de toegang tot van Workfront Doelen, zie [ Toegang en open doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Standaard wordt de sectie Lijst met doelstellingen weergegeven.
 
-1. Klikken **Filter** rechtsboven in de lijst.
+1. Klik **Filter** in de hoger-juiste hoek van de lijst.
 
    ![](assets/filter-icon-and-label.png)
 
-   Standaard past Workfront de **Alles** filter dat alle doelstellingen in uw systeem toont.
+   Door gebrek, past Workfront de **Al** filter toe dat alle doelstellingen in uw systeem toont.
 
    >[!TIP]
    >
@@ -167,15 +167,15 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
        </tr> 
        <tr> 
         <td>Bedrijf</td> 
-        <td> <p>De doelstellingen verbonden aan uw organisatie. </p> <p><b>TIP</b>
+        <td> <p>De doelstellingen verbonden aan uw organisatie. </p> <p><b> TIP </b>
         <p>In de Doelen van Adobe Workfront, toont de filter van het Bedrijf de doelstellingen waarvoor uw organisatie als eigenaar wordt geselecteerd. </p> <p>U kunt niet zoeken naar bedrijven die dit veld gebruiken. Alleen uw organisatie die eigenaar is van uw Workfront-exemplaar is standaard geselecteerd. </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * Houd de aanwijzer boven de naam van een filter en klik vervolgens op de knop **Bewerken** pictogram ![](assets/edit-icon.png) naast zijn naam om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan selecteer het wanneer zij op de lijst verschijnen.
+   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) naast zijn naam om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
 
-   * Klikken **Nieuw filter** om een nieuw filter te maken, selecteert u een van de volgende opties om het nieuwe filter aan te passen:
+   * Klik **Nieuwe Filter** om een nieuw filter tot stand te brengen, dan selecteer van de volgende opties om de nieuwe filter aan te passen:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -208,18 +208,18 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
         <td role="rowheader">Eigenaar</td> 
         <td> <p>Typ de naam van een eigenaar en selecteer deze wanneer deze in de lijst wordt weergegeven. </p> <p>U kunt de namen van gebruikers, teams, groepen of de naam van uw organisatie typen of u kunt een van de vooraf gedefinieerde opties selecteren. </p> <p>De volgende vooraf gedefinieerde filteropties verwijzen altijd naar de gebruiker die momenteel is aangemeld: </p> 
          <ul> 
-          <li> <p><strong>Mij</strong>: Hiermee geeft u doelen weer waar u de eigenaar bent.</p> </li> 
-          <li> <p><strong>Mijn thuisteam</strong> en <strong>Al mijn teams</strong>: De doelstellingen van vertoningen waar of uw Team van het Huis of om het even welk van uw teams als eigenaar worden aangewezen. </p> <p>Tip: er worden geen doelen weergegeven wanneer u niet aan een team bent toegewezen. </p> </li> 
-          <li> <p><strong>Mijn startgroep</strong> en <strong>Al mijn groepen</strong>: Hiermee geeft u doelen weer waarbij uw thuisgroep of een van uw groepen is aangewezen als eigenaar.</p> </li> 
+          <li> <p><strong> me </strong>: De doelstellingen van vertoningen waar u de eigenaar bent.</p> </li> 
+          <li> <p><strong> Mijn Team van het Huis </strong> en <strong> Al Mijn Teams </strong>: De doelstellingen van vertoningen waar of uw Team van het Huis of om het even welk van uw teams als eigenaar worden aangewezen. </p> <p>Tip: er worden geen doelen weergegeven wanneer u niet aan een team bent toegewezen. </p> </li> 
+          <li> <p><strong> Mijn Groep van het Huis </strong> en <strong> Al Mijn Groepen </strong>: De doelstellingen van vertoningen waar of uw Groep van het Huis of om het even welke groepen als eigenaar worden aangewezen.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. (Optioneel) Klik op **Herstellen** in de rechterbenedenhoek van het filtervak om alle velden te wissen die u hebt geselecteerd en het filter helemaal opnieuw op te bouwen.
-1. (Optioneel) Klik op **Toepassen** om het filter toe te passen zonder op te slaan.
+1. (Facultatief) klik **Terugstellen** in de laag-juiste hoek van de filterdoos om alle gebieden te ontruimen u hebt geselecteerd en beginnen de filter van kras te bouwen.
+1. (Optioneel) Klik op **Toepassen** om het filter toe te passen zonder het op te slaan.
 
-   Het filter wordt weergegeven in het dialoogvenster **Niet opgeslagen** gebied van de filterconstrucder als **Nieuw filter**.
+   De filtervertoningen in het **Niet bewaarde** gebied van de filterbouwer als **Nieuwe Filter**.
 
    U kunt de naam van een niet-opgeslagen filter niet wijzigen.
 
@@ -229,26 +229,26 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
    >
    >U kunt slechts één niet-opgeslagen nieuw filter tegelijk gebruiken.
 
-1. Klikken **Opslaan** om het filter op te slaan zodat het later kan worden gebruikt, voegt u een naam voor het filter toe in het dialoogvenster **Filternaam toevoegen** veld en klik op **Gereed**.
+1. Klik **sparen** om de filter te bewaren om het later te gebruiken, dan voeg een naam voor de filter in **toe voeg filternaam** gebied toe en klik **Gedaan**.
 
-   Hiermee slaat u het filter op in het dialoogvenster **Opgeslagen** van de filterconstructor. U kunt dit filter in de toekomst gebruiken.
+   Dit bewaart de filter in de **Bewaarde** sectie van de filterbouwer. U kunt dit filter in de toekomst gebruiken.
 
    De laatst opgeslagen en toegepaste filter wordt standaard weergegeven wanneer u zich weer aanmeldt bij Workfront
 
-1. (Optioneel) Klik op de knop **pijl naar links** naast **Nieuw filter** om de filterbuilder af te sluiten en terug te keren naar de lijst met filters.
-1. (Optioneel) Klik op de knop **Meer** en klik vervolgens op **Verwijderen** vervolgens **Verwijderen**. Hiermee verwijdert u het filter en kunt u het niet herstellen.
+1. (Optioneel) Klik op de **pijl-links** naast **Nieuwe filter** om de filterbuilder te verlaten en terug te keren naar de lijst met filters.
+1. (Facultatief) Beweeg over de naam van een douanefilter, klik **Meer** menu, dan klik **Schrapping**, dan **Schrapping**. Hiermee verwijdert u het filter en kunt u het niet herstellen.
 
    >[!TIP]
    >
    >U kunt vooraf gedefinieerde filters niet verwijderen.
 
-1. Klik op de knop **X-pictogram** in de rechterbovenhoek van de filterconstructor om de filterconstructor te sluiten.
+1. Klik het **pictogram van X** in de hoger-juiste hoek van de filteraannemer om de filteraannemer te sluiten.
 
    De naam van het filter dat momenteel wordt toegepast, wordt rechts van het pictogram Filter weergegeven in de rechterbovenhoek van de lijst met doelen.
 
    De lijst met doelen wordt gefilterd door de filtercriteria.
 
-1. (Optioneel en voorwaardelijk) Klik bij het bekijken van doelen in het gedeelte Uitlijning van doel op **Deze weergeven** als u de gefilterde doelstellingen wilt bekijken.
+1. (Facultatief en voorwaardelijk) wanneer het bekijken van doelstellingen in de sectie van de Groepering van het Doel, klik **tonen hen** als u de gefiltreerde uit doelstellingen wilt bekijken.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (Optioneel en voorwaardelijk) Klik op **Filter opnieuw toepassen** om het filter toe te passen en de items weg te laten die u in de vorige stap hebt weergegeven.
+1. (Facultatief en voorwaardelijk) klik **filter opnieuw toepassen** om de filter toe te passen en de punten weg te laten u in de vorige stap toonde.
 
 

@@ -45,7 +45,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -55,7 +55,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Toegangsniveau</p></td>
@@ -67,7 +67,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -78,7 +78,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -87,7 +87,7 @@ U moet het volgende hebben voordat u kunt beginnen:
 * Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
 * Een bestaand doel.
 
-  Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
+  Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 >[!IMPORTANT]
 >Een doel kan niet meer dan 1000 activiteiten, resultaten, projecten, of gerichte doelstellingen hebben.
@@ -138,25 +138,25 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klik op het hoofdmenu ![](assets/main-menu-icon.png)vervolgens **Doelen**.
+1. Klik het Belangrijkste Menu ![](assets/main-menu-icon.png), toen **Doelen**.
 
-1. Van de **Lijst met doelen** klikt u op de naam van een doel om de doelpagina te openen.
-1. Klikken **Voortgangsindicatoren** in het linkerdeelvenster.
-1. Breid uit **Nieuwe voortgangsindicator** vervolgkeuzemenu en vervolgens op **Resultaat maken**.
+1. Van de **Lijst van het Doel**, klik de naam van een doel om de doelpagina te openen.
+1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
+1. Vouw de **Nieuwe voortgangsindicator** drop-down menu uit, dan klik **creeer resultaat**.
 
    Het vak Nieuw resultaat wordt geopend.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Voer een naam in voor het resultaat in het dialoogvenster **Resulterende naam** veld. Dit is een verplicht veld.
-1. (Optioneel) Verwijder uw naam uit het dialoogvenster **Resultaateigenaar** veld als u het resultaat aan een andere gebruiker wilt toewijzen. Standaard bent u de eigenaar van een activiteit die u maakt.
+1. Ga een naam voor het resultaat in het **gebied van de Naam van het Resultaat** in. Dit is een verplicht veld.
+1. (Facultatief) verwijder uw naam uit het **gebied van de resultaateigenaar** als u het resultaat aan een andere gebruiker wilt toewijzen. Standaard bent u de eigenaar van een activiteit die u maakt.
 
    >[!NOTE]
    >
    >U kunt geen team, groep, of het bedrijf als resultaateigenaar toewijzen.
 
-1. In de **Hoe wilt u het resultaat meten?** in het gebied, geeft u de volgende informatie op:
-   * **Type waarde**: Dit geeft aan hoe u de voortgang van het resultaat wilt meten. U kunt de voortgang numeriek meten met een percentage of met een valutabedrag.
+1. In **hoe wilt u uw resultaat meten?** , geeft u de volgende informatie op:
+   * **Type van Waarde**: Dit wijst erop hoe u de vooruitgang op het resultaat wilt meten. U kunt de voortgang numeriek meten met een percentage of met een valutabedrag.
 
      Selecteer een waardetype van de opties die in de volgende lijst worden vermeld:
 
@@ -166,10 +166,10 @@ Adding results to goals differs depending on which environment you use.
      | % | Waarde percentage |
      | CN ¥,DKK,KR,Mex$, R, R$, zł, ¥ , € , ₹, ฿, MYR, ₪, $ | Valuta |
 
-   * **Beginwaarde**: De waarde die het resultaat aan het begin heeft, voordat er enige voortgang is opgenomen.
-   * **Doelwaarde**: De waarde die het resultaat beoogt te bereiken wanneer het als voltooid wordt beschouwd.
-1. Klikken **Resultaat maken**.
+   * **Aanvankelijke Waarde**: De waarde die het resultaat in het begin heeft, alvorens om het even welke vooruitgang op het is geregistreerd.
+   * **Waarde van het Doel**: De waarde die het resultaat probeert te bereiken wanneer het wordt beschouwd als voltooid.
+1. Klik **creeer resultaat**.
 
    Het resultaat wordt weergegeven in de sectie Voortgangsindicatoren van de doelpagina, onder de resultatengroep.
 
-   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer u de voortgang van een resultaat bijwerkt. Voor informatie over het activeren van een doel raadpleegt u [Doelen in Adobe Workfront-doelen activeren](../goal-management/activate-goals.md).
+   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer u de voortgang van een resultaat bijwerkt. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/activate-goals.md) activeren.

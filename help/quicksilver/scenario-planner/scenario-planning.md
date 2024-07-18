@@ -19,25 +19,25 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [De [!DNL Scenario Planner] overzicht](../scenario-planner/scenario-planner-overview.md)
-* [Aan de slag met de [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
-* [Toegang nodig om de [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)
-* [Overzicht van plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
-* [Plannen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)
-* [Plan-scenario&#39;s maken en vergelijken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)
-* [Plannen verwijderen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
-* [Overzicht van initiatieven in het [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)
-* [Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
-* [Initiatieven kopiëren in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)
-* [Prioriteiten van initiatieven bijwerken in het [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)
-* [Initiatieven verwijderen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
-* [Initiatiefconflicten oplossen in de [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
-* [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
-* [Toegang aanvragen tot een abonnement in de [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
-* [Een abonnement delen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)
-* [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-* [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-* [Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Toon roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [ het  [!DNL Scenario Planner]  overzicht ](../scenario-planner/scenario-planner-overview.md)
+* [ worden begonnen met  [!DNL Scenario Planner]](../scenario-planner/get-started-with-scenario-planning.md)
+* [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken
+* [ Overzicht van plannen in  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md)
+* [ creeer en geef plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) uit
+* [ creeer en vergelijk planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)
+* [ Schrap plannen in  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)
+* [ overzicht van Initiatieven in  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md)
+* [ creeer en geef initiatieven in uit  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)
+* [ initiatieven van het Exemplaar in  [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md)
+* [ de initiatiefprioriteiten van de Update in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)
+* [ schrapt initiatieven in  [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md)
+* [ los initiatiefconflicten in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) op
+* [ de projecten van de Invoer aan plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
+* [ toegang van het verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
+* [ Deel een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md)
+* [ werk of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren bij
+* [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
+* [ toon roltoewijzing voor projecten en initiatieven in de taaklijst ](../scenario-planner/show-role-allocation-task-list-nwe.md)
+* [Roltoewijzing voor projecten en initiatieven weergeven in het dialoogvenster [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

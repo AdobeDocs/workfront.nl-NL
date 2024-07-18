@@ -47,7 +47,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objecttypen verwijderen op een aangepast formulier
 
@@ -63,11 +63,11 @@ Een aangepast formulier moet ten minste één objecttype hebben.
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op ![Pictogram Bewerken](assets/edit-icon.png).
-1. Klik op de X op een van de **Objecttypen** die u uit het formulier wilt verwijderen, klikt u op **Verwijderen** in het waarschuwingsbericht dat wordt weergegeven.
+1. Klik **Forms van de Douane** in het linkerpaneel.
+1. Selecteer de douanevorm u wilt uitgeven, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
+1. Klik X op om het even welke **Types van Objecten** die u van de vorm wilt schrappen, dan **Schrapping** op het waarschuwingsbericht klikken dat toont.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Optioneel) Herhaal de vorige stap voor elk ander objecttype dat u uit het formulier wilt verwijderen.
-1. Klikken **Gereed** en klik vervolgens op **Opslaan en sluiten**.
+1. Klik **Gedaan**, dan klik **sparen en sluit**.

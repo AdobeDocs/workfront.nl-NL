@@ -6,7 +6,8 @@ title: Fusion Basics-video's
 description: Fusion Basics-video's
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b27577fbc57e1efc23f57e2f03ae75d7af2409d1
+exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -19,24 +20,15 @@ Deze video&#39;s zijn beschikbaar om u te helpen vertrouwd te maken met enkele f
 
 ## Basisbeginselen
 
-* [Introductie tot webhaken](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [Tussenliggende webhaken](https://video.tv.adobe.com/v/3427030/){target=_blank}
-* [Gegevensopslag](https://video.tv.adobe.com/v/3427029/){target=_blank}
-* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}
-* [Mappen synchroniseren](https://video.tv.adobe.com/v/3427033/){target=_blank}
+* [ Intro aan Webhooks ](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [ intermediaire Webhooks ](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [ de Opslag van Gegevens ](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [ het Hulpmiddel van de Ontwikkeling van de Fusie ](https://video.tv.adobe.com/v/3427031/){target=_blank}
+* [ Synchronizing Omslagen ](https://video.tv.adobe.com/v/3427033/){target=_blank}
 
 ## Aansluitingen
 
-* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
-* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
-* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
-* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
-
-
-
-
-
-
-
-
-
+* [ Marketo ](https://video.tv.adobe.com/v/3427026/){target=_blank}
+* [ Frame.io ](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [ Adobe Experience Manager Assets ](https://video.tv.adobe.com/v/3427034/){target=_blank}
+* [ Salesforce ](https://video.tv.adobe.com/v/3427027/){target=_blank}

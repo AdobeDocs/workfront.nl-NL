@@ -38,7 +38,7 @@ Bekijk de volledige video die hieronder doorloopt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428023/)
 
-## _Eerdere versies_
+## _Afgelopen versies_
 
 ## Release van de Alpha 6 - januari 2024
 
@@ -62,7 +62,7 @@ In deze vijfde release van de Alpha hebben we het volgende:
 * De mogelijkheid toegevoegd om externe fiatteurs toe te voegen
 * De weergave voor externe fiatteurs is verbeterd voor het weergeven, downloaden en toevoegen van opmerkingen aan een document
 
-Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+Bekijk de [ videolooppas-door ](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Release van de Alpha 4 - mei 2023
 
@@ -70,23 +70,23 @@ In deze release van de 4de Alpha hebben we, voordat we de productie voor slechts
 
 We zijn enthousiast over deze mijlpaal en kijken uit naar nog veel meer.
 
-Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+Bekijk de [ videolooppas-door ](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Release 3 van de Alpha - maart 2023
 
 In deze release van de derde Alpha hebben we uw feedback verwerkt door succesberichten te introduceren die worden weergegeven wanneer acties worden voltooid, zoals het toevoegen of verwijderen van fiatteurs en revisoren. Bovendien biedt deze release uitgebreide zichtbaarheid van goedkeuringen die in behandeling zijn en die nu kunnen worden weergegeven op de pagina&#39;s Home en Mijn updates, zodat gebruikers eenvoudig documenten rechtstreeks vanaf deze pagina&#39;s kunnen goedkeuren.
 
-Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+Bekijk de [ videolooppas-door ](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Release 2 van Alpha - januari 2023
 
 Met deze release van Alpha 2 kunt u personen en teams toevoegen als revisoren of fiatteurs en rechtstreeks goedkeuringsbesluiten nemen op de pagina met documentdetails.
 
-Kijk naar de [video doorlopen](https://video.tv.adobe.com/v/3413941){target=_blank}.
+Bekijk de [ videolooppas-door ](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Release 1 van de Alpha - nov. 2022
 
-Kijk naar onze [video doorlopen](https://video.tv.adobe.com/v/3412837){target=_blank} en voel je vrij om mee te volgen als je wilt!
+Bekijk onze [ videolooppas-door ](https://video.tv.adobe.com/v/3412837){target=_blank} en voel vrij om mee te volgen als u zou willen!
 
 Als u de videobeelden wilt volgen, moet u de volgende instellingen instellen in de voorvertoningsomgeving:
 
@@ -102,4 +102,4 @@ Als u de videobeelden wilt volgen, moet u de volgende instellingen instellen in 
 
 ## Feedback verzenden
 
-Wij waarderen uw input en geloven dat uw perspectief cruciaal is om ons te helpen het best mogelijke product tot stand te brengen. Aangezien u specifieke feedback hebt over wat uw bedrijf nodig heeft om deze oplossing in Productie te kunnen gebruiken, kunt u deze naar [jbarron@adobe.com](mailto:jbarron@adobe.com).
+Wij waarderen uw input en geloven dat uw perspectief cruciaal is om ons te helpen het best mogelijke product tot stand te brengen. Aangezien u specifieke terugkoppelt op wat zou worden vereist opdat uw bedrijf deze oplossing in Productie goedkeurt, gelieve het naar [ jbarron@adobe.com ](mailto:jbarron@adobe.com) te verzenden.

@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]
+title: De informatie van de kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]
 description: Toewijzing is het proces om de output van een module, gestructureerd in punten, aan de inputgebieden van een andere module toe te wijzen.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
 source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
 
-# De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]
+# Gegevens van de ene module toewijzen aan de andere in [!DNL Adobe Workfront Fusion]
 
 Toewijzing is het proces om de output van een module, gestructureerd in punten, aan de inputgebieden van een andere module toe te wijzen.
 
@@ -39,25 +39,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Bundels en artikelen
 
@@ -65,20 +65,20 @@ De verrichting van een module veroorzaakt nul, één, of meer bundels als zijn o
 
 De uitvoer van een module verkennen:
 
-1. Klikken **[!UICONTROL Run once]** om de module uit te voeren.
+1. Klik op **[!UICONTROL Run once]** om de module uit te voeren.
 1. Klik op de ballon boven de module.
 
-   Een logboek dat alle de fasenvertoningen van de module bevat. U kunt de bundel of de bundels vinden die door de verrichtingsfase van een module onder wordt uitgevoerd **[!UICONTROL Output]** kop. Elke bundel bevat zijn punten en de waarden van elk punt.
+   Een logboek dat alle de fasenvertoningen van de module bevat. U kunt de bundel of bundels vinden die door de verrichtingsfase van een module onder de **[!UICONTROL Output]** rubriek worden uitgevoerd. Elke bundel bevat zijn punten en de waarden van elk punt.
 
 >[!INFO]
 >
->**Voorbeeld:** Dit voorbeeld toont de module [!UICONTROL Email] > [!UICONTROL Watch emails]. U kunt zien dat het 1 verrichting uitvoerde die één enkele bundel produceerde die diverse punten zoals bevat `Date`, `Email ID (UID)`, `size`, enzovoort.
+>**Voorbeeld:** Dit voorbeeld toont de module [!UICONTROL Email] > [!UICONTROL Watch emails]. U ziet dat de toepassing 1 bewerking heeft uitgevoerd waarbij één bundel wordt gemaakt die verschillende items bevat, zoals `Date` , `Email ID (UID)` , `size` , enzovoort.
 >
 >![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
->De output van modules tussen verpakt [!UICONTROL Iterator] en [!UICONTROL Aggregator] niet toegankelijk zijn buiten [!UICONTROL Aggregator] -module.
+>De uitvoer van modules tussen een [!UICONTROL Iterator] en [!UICONTROL Aggregator] is niet toegankelijk buiten de module [!UICONTROL Aggregator] .
 
 ## Een item toewijzen
 
@@ -96,7 +96,7 @@ Om de punten aan de inputgebieden van een module toe te wijzen:
 
    Zoekresultaten bevatten de zoekterm en zijn niet hoofdlettergevoelig.
 
-Zie voor meer informatie [De instellingen van een module configureren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+Voor meer informatie, zie [ de montages van een module in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md) vormen.
 
 ## Formulas
 
@@ -108,34 +108,34 @@ U vindt de functies en operatoren in het deelvenster Toewijzing onder een van de
 
 ![](assets/functions-toolbar-350x189.png)
 
-De eerste tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (weergegeven bij het openen van het deelvenster) geeft de items weer die u vanuit andere modules kunt toewijzen.
+Op de eerste tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (weergegeven bij het openen van het deelvenster) worden de items weergegeven die u vanuit andere modules kunt toewijzen.
 
 De andere tabbladen bevatten de volgende typen functies:
 
-* **Algemene functies** ![](assets/toolbar-icon-general-function.png) - Zie [Algemene functies in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) voor meer informatie .
+* **Algemene functies** ![](assets/toolbar-icon-general-function.png) - zie [ Algemene functies in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) voor meer informatie.
 
-* **Math-functies** ![](assets/toolbar-icon-math-functions.png) - Zie [Wiskundige functies in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) voor meer informatie .
+* **functies Math** ![](assets/toolbar-icon-math-functions.png) - zie [ functies Math in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) voor meer informatie.
 
-* **Tekst- en binaire functies** ![](assets/toolbar-icon-text&binary-functions.png) - Zie [Tekenreeksfuncties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) voor meer informatie .
+* **Tekst en binaire functies** ![](assets/toolbar-icon-text&binary-functions.png) - zie [ functies van het Koord in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) voor meer informatie.
 
-* **Datum en tijd** ![](assets/toolbar-icon-date&time-functions.png) - Zie [Datum- en tijdfuncties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) en de artikelen hieronder voor meer informatie .
+* **Datum en tijd** ![](assets/toolbar-icon-date&time-functions.png) - zie [ Datum en tijdfuncties in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) en de hieronder artikelen voor meer informatie.
 
-   * [Tokens voor datum- en tijdnotaties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens voor datum- en tijdnotatie in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
    * [Tokens voor datum- en tijdparsering in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Functies voor het werken met arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - Zie [Arrayfuncties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) voor meer informatie .
+* **Functies voor het werken met series** ![](assets/toolbar-icon-functions-for-arrays.png) - zie [ functies van de Serie in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) voor meer informatie.
 
 >[!TIP]
 >
 >Wanneer u een complexe formule maakt die u opnieuw wilt gebruiken in een ander veld, kunt u klikken op het veld dat de combinatie bevat, Command-A of Ctrl-A gebruiken om de combinatie te selecteren en vervolgens kopiëren en in het andere veld plakken.
 
-Zie voor meer informatie over het toewijzen van items met behulp van functies [Items toewijzen met behulp van functies in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
+Voor meer informatie bij het in kaart brengen van punten die functies gebruiken, zie [ punten van de Kaart gebruikend functies in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
 
 ## Verzamelingen
 
 Sommige items kunnen meerdere waarden van verschillende typen bevatten. Dit zijn verzamelingstypepunten.
 
-U kunt een [!UICONTROL collection] Typ item door de kleine zwarte rechthoek rechts van het label van het item en de automatisch uitgevouwen lijst met subitems:
+U kunt een [!UICONTROL collection] type-item identificeren door de kleine zwarte rechthoek die rechts van het label van het item en de automatisch uitgevouwen lijst met subitems wordt weergegeven:
 
 ![](assets/collection.png)
 
@@ -143,7 +143,7 @@ U kunt een [!UICONTROL collection] Typ item door de kleine zwarte rechthoek rech
 >
 >In de meeste gevallen wijst u de subitems van de verzameling toe in plaats van het item dat de gehele verzameling vertegenwoordigt.
 
-Zie voor meer informatie over verzamelingen [Gegevenstypen item in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Voor meer informatie over inzamelingen, zie [ de gegevenstypes van het Punt in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ## Arrays
 
@@ -153,11 +153,11 @@ U kunt een arraytype-item herkennen aan de vierkante haakjes aan het einde van h
 
 ![](assets/array.png)
 
-Zie voor meer informatie over arrays [Gegevenstypen item in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Voor meer informatie over series, zie {de gegevenstypen van 0} Punt in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)[
 
 ### Het eerste element van een array toewijzen
 
-Als u een array toewijst `Recipient name` item, wordt het als volgt in het veld weergegeven:
+Wanneer u het `Recipient name` -item van een array toewijst, wordt dit als volgt in het veld weergegeven:
 
 ![](assets/map-array-1st-element.png)
 
@@ -173,7 +173,7 @@ Als u toegang wilt krijgen tot een ander element, klikt u op de vierkante haakje
 
 Sommige arrays bevatten verschillende verzamelingen met sleutel- en waardeitems. Dit zijn doorgaans verschillende metagegevens, kenmerken, enzovoort.
 
-In het volgende voorbeeld wordt de uitvoer van de [!DNL Jira] App.
+In het volgende voorbeeld wordt de uitvoer van de [!DNL Jira] App getoond.
 
 ![](assets/output-of-jira-app-350x100.png)
 
@@ -183,12 +183,12 @@ De uitvoer van [!DNL Jira] ziet er als volgt uit:
 
 ![](assets/output-from-jira-350x261.png)
 
-De typische eis moet een element door zijn bepaalde zeer belangrijke waarde opzoeken en de overeenkomstige waarde van het waardepunt verkrijgen. Dit kan worden bereikt met een formule die een combinatie van de `map()` en `get()` functies.
+De typische eis moet een element door zijn bepaalde zeer belangrijke waarde opzoeken en de overeenkomstige waarde van het waardepunt verkrijgen. Dit kan worden bereikt met een formule die een combinatie van de functies `map()` en `get()` gebruikt.
 
 Hieronder volgt een gedetailleerde uitsplitsing van de formule:
 
-1. De eerste parameter van de `map()` function is the entire array item.
-1. De tweede parameter is de onbewerkte naam van het waardeitem. Als u de onbewerkte naam wilt verkrijgen, plaatst u de muisaanwijzer boven het item in het dialoogvenster [!UICONTROL mapping] paneel:
+1. De eerste parameter van de functie `map()` is het gehele arrayitem.
+1. De tweede parameter is de onbewerkte naam van het waardeitem. Als u de onbewerkte naam wilt verkrijgen, plaatst u de muisaanwijzer op het item in het deelvenster [!UICONTROL mapping] :
 
    ![](assets/obtain-raw-name-350x124.png)
 
@@ -202,19 +202,19 @@ Hieronder volgt een gedetailleerde uitsplitsing van de formule:
 
 1. De vierde parameter is de opgegeven sleutelwaarde.
 
-Omdat de `map()` functie retourneert een array (aangezien er meer elementen met de opgegeven sleutelwaarde kunnen zijn), is het nodig om de `get()` functie om het eerste element op te halen:
+Omdat de functie `map()` een array retourneert (omdat er meer elementen met de opgegeven sleutelwaarde kunnen zijn), is het nodig de functie `get()` toe te passen om het eerste element op te halen:
 
-* De eerste parameter van de `get()` functie is het resultaat van de `map()` functie.
+* De eerste parameter van de functie `get()` is het resultaat van de functie `map()` .
 
 * De tweede parameter is de index van het element - één.
 
-Voor meer informatie over de `map()` functie, zie [Arrayfuncties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
+Voor meer informatie over de `map()` functie, zie [ functies van de Serie in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
-Voor meer informatie over de `get()` functie, zie [Algemene functies in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
+Voor meer informatie over de `get()` functie, zie [ Algemene functies in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
 ## Elementen omzetten in een reeks pakketten
 
-Arrays kunnen in een reeks bundels worden omgezet met behulp van de [!UICONTROL Iterator] -module. Zie voor meer informatie [[!UICONTROL Iterator] module in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Arrays kunnen met de module [!UICONTROL Iterator] worden omgezet in een reeks bundels. Zie [[!UICONTROL Iterator] in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) voor meer informatie.
 
 ![](assets/series-of-bundles-350x169.png)
 
@@ -226,13 +226,13 @@ In het deelvenster Toewijzing worden voor elke module alle uitvoeritems weergege
 
 #### Instant trigger
 
-1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het weergegeven menu.
+1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven.
 
    Als er geen webhooks in de wachtrij zijn, wacht de module tot een nieuwe webhaak wordt verwerkt.
 
 1. Genereer een webhaak.
 
-   De module Webhaak **[!DNL Slack]>[!UICONTROL Listen for new events]** (die voor nieuwe kanaalberichten in een kanaal) kijkt verzendt een bericht naar het kanaal.
+   Bijvoorbeeld, verzendt de module webhaak **[!DNL Slack]>[!UICONTROL Listen for new events]** (die voor nieuwe kanaalberichten in een kanaal) een bericht naar het kanaal.
 
 1. Wanneer de module eindigt lopend, klik de bel boven de module om zijn volledige output te onderzoeken.
 
@@ -240,11 +240,11 @@ In het deelvenster Toewijzing worden voor elke module alle uitvoeritems weergege
 
 #### Opiniepeilingtrigger
 
-1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het weergegeven menu.
-1. Als er geen uitvoer is, klikt u **[!UICONTROL Choose where to start]** en pas de instellingen aan.
+1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven.
+1. Als er geen uitvoer is, klikt u op **[!UICONTROL Choose where to start]** en past u de instellingen aan.
 1. Als er geen gebeurtenis moet worden verwerkt, maakt u er een en gaat u terug naar stap 2.
 
-   De module Webhaak **[!UICONTROL Gmail]>[!UICONTROL Watch emails]** verzendt een e-mail naar de map die de module volgt.
+   Bijvoorbeeld, verzendt de module webhaak **[!UICONTROL Gmail]>[!UICONTROL Watch emails]** een e-mail naar de omslag die de module let.
 
 1. Wanneer de module eindigt lopend, klik de bel boven de module om zijn volledige output te onderzoeken.
 
@@ -256,14 +256,14 @@ U kunt kiezen om uit te voeren:
 
 * Het hele scenario (of alleen het onderdeel dat de module bevat)
 
-  Als uw scenario met een trekker begint, verwijs naar [Instant trigger](#instant-trigger) of [Opiniepeilingtrigger](#polling-trigger) hierboven.
+  Als uw scenario met een trekker begint, verwijs naar de [ Onmiddellijke trekker ](#instant-trigger) of [ Opiniepeilende trekker ](#polling-trigger) hierboven sectie.
 
 * Alleen de enkele module
 
 Als u ervoor kiest om alleen de enkele module uit te voeren:
 
 1. Klik met de rechtermuisknop op de module en klik vervolgens op **[!UICONTROL Run this module only]** in het menu dat wordt weergegeven.
-1. Geef voorbeeldwaarden op voor de invoeritems en klik vervolgens op **[!UICONTROL OK]** .
+1. Geef voorbeeldwaarden op voor de invoeritems en klik op **[!UICONTROL OK]** .
 1. Wanneer de module eindigt lopend, klik de bel boven de module om zijn volledige output te onderzoeken.
 
    Het deelvenster Toewijzing bevat nu alle items die zijn aangetroffen in de uitvoer van de module.

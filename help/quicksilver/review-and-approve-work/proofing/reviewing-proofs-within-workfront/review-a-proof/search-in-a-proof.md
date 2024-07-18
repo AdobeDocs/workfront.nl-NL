@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -47,17 +47,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Inhoud zoeken in een proefdruk
 
 1. Open de proefdruk die u wilt zoeken.
-1. Klik op de werkbalk boven de proefdruk op de knop **Document doorzoeken** pictogram.
+1. In de toolbar boven de proef, klik het **document van het Onderzoek** pictogram.
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 
@@ -65,6 +65,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Met het gereedschap Zoeken markeert u de tekst in het document terwijl u typt.
 
-   ![Search_text_highlight_as_you_type.png](assets/search-text-highlighted-as-you-type-350x214.png)
+   ![ Search_text_highlight_as_you_type.png ](assets/search-text-highlighted-as-you-type-350x214.png)
 
-1. Voltooi het typen van de tekst u wilt zoeken, dan klik **Omhoog** en **Omlaag** pijlen om door de onderzoeksresultaten binnen de proef te scannen.
+1. Voltooi het typen van de tekst u wilt zoeken, dan klik **Omhoog** en **Omlaag** pijlen om door de onderzoeksresultaten binnen de proef af te tasten.

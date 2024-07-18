@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Mappen en de inhoud ervan beheren in [!DNL Workfront Proof]
-description: Een van de voordelen van het organiseren van projecten en proefdrukken in mappen is de mogelijkheid om deze op de [!UICONTROL Folder details] pagina. Deze pagina is een controlecentrum voor uw project. Vanaf dit punt kunt u eenvoudig afzonderlijke proefdrukken en bestanden beheren en acties in grote hoeveelheden uitvoeren.
+title: Mappen en hun inhoud beheren in  [!DNL Workfront Proof]
+description: Een van de voordelen van het organiseren van projecten en proefdrukken in mappen is dat u deze kunt beheren op de pagina [!UICONTROL Folder details] . Deze pagina is een controlecentrum voor uw project. Vanaf dit punt kunt u eenvoudig afzonderlijke proefdrukken en bestanden beheren en acties in grote hoeveelheden uitvoeren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -18,99 +18,99 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Een van de voordelen van het organiseren van projecten en proefdrukken in mappen is de mogelijkheid om deze op de [!UICONTROL Folder details] pagina. Deze pagina is een controlecentrum voor uw project. Vanaf dit punt kunt u eenvoudig afzonderlijke proefdrukken en bestanden beheren en acties in grote hoeveelheden uitvoeren.
+Een van de voordelen van het organiseren van projecten en proefdrukken in mappen is dat u deze kunt beheren op de pagina [!UICONTROL Folder details] . Deze pagina is een controlecentrum voor uw project. Vanaf dit punt kunt u eenvoudig afzonderlijke proefdrukken en bestanden beheren en acties in grote hoeveelheden uitvoeren.
 
 ## Items groeperen zodat revisoren samen aan deze items kunnen werken
 
-U kunt mappen gebruiken om proefdrukken te groeperen waaraan u revisoren wilt laten samenwerken. Wanneer een controleur een van de proefdrukken in de map opent om de proefdrukviewer te starten, zijn alle andere proefdrukken in de map beschikbaar. De controleur kan aan elke proefdruk in de map werken zonder de proefdrukviewer te verlaten. Zie voor meer informatie [Werken met meerdere proefdrukken in de proefdrukviewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
+U kunt mappen gebruiken om proefdrukken te groeperen waaraan u revisoren wilt laten samenwerken. Wanneer een controleur een van de proefdrukken in de map opent om de proefdrukviewer te starten, zijn alle andere proefdrukken in de map beschikbaar. De controleur kan aan elke proefdruk in de map werken zonder de proefdrukviewer te verlaten. Voor meer informatie, zie [ Werk met veelvoudige proeven in de het proef kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
 
 ## Nieuwe items aan een map toevoegen
 
-Wanneer u een proef creeert of een dossier uploadt, kunt u de omslag selecteren waar u het in wilt opslaan [!UICONTROL Organize] de [!UICONTROL New proof] of de [!UICONTROL New file] pagina.
+Wanneer u een proefdruk maakt of een bestand uploadt, kunt u de map selecteren waarin u het bestand wilt opslaan in de sectie [!UICONTROL Organize] op de pagina [!UICONTROL New proof] of [!UICONTROL New file] .
 
-Zie voor meer informatie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) of [Bestanden en webinhoud uploaden naar [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) of [ upload Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) produceren.
 
 >[!NOTE]
 >
->Als u momenteel de map bekijkt waaraan u een nieuw item wilt toevoegen, wordt die map automatisch weergegeven in het dialoogvenster [!UICONTROL Organize] als u de pagina Nieuwe proefdruk of de [!UICONTROL New file] pagina.
+>Als u momenteel de map bekijkt waaraan u een nieuw item wilt toevoegen, wordt die map automatisch weergegeven in de sectie [!UICONTROL Organize] wanneer u de pagina Nieuwe proefdruk of de pagina [!UICONTROL New file] opent.
 
 ## Bestaande items toevoegen aan een map
 
 U kunt een bestaand bestand of proefdruk toevoegen aan een map.
 
-Zie voor meer informatie [Bestanden beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) of [Proefdrukgegevens beheren in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Voor meer informatie, zie [ Dossiers in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beheren of [ Beheert de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
 
-   * Als u een proefdruk aan een omslag toevoegt, ga naar [!UICONTROL Proof details] pagina zoals beschreven in [[!UICONTROL Manage Proof Details] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
-   * Als u een bestand aan een map toevoegt, gaat u naar de pagina Bestandsdetails, zoals beschreven in [Bestanden beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).&quot;
+   * Als u een proef aan een omslag toevoegt, ga naar de [!UICONTROL Proof details] pagina zoals die in [[!UICONTROL Manage Proof Details] in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) wordt beschreven
+   * Als u een dossier aan een omslag toevoegt, ga naar de de detailpagina van het Dossier zoals die in [ wordt beschreven leidt Dossiers in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).&quot;
 
-1. Klik op de naam van de **Map** Klik op de locatie van het bestand of de proefdruk en klik vervolgens op de naam van de map waarnaar u het bestand of de proefdruk wilt verplaatsen.\
-   ![Managing_folder_items-adding_items_to_a_folder.png](assets/managing-folder-items-adding-items-to-a-folder-350x121.png)
+1. Klik de naam van de **Omslag** waar het dossier of de proef wordt gevestigd, dan klik de naam van de omslag waar u het wilt bewegen.\
+   ![ Managing_folder_items-adding_items_to_a_folder.png ](assets/managing-folder-items-adding-items-to-a-folder-350x121.png)
 
 ## Items uit een map verplaatsen
 
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
 
-   * Als u een proef uit een omslag verplaatst, ga naar [!UICONTROL Proof details] pagina zoals beschreven in [[!UICONTROL Manage Proof Details] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)\
+   * Als u een proef uit een omslag verplaatst, ga naar de [!UICONTROL Proof details] pagina zoals die in [[!UICONTROL Manage Proof Details] in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) wordt beschreven \
 
-      of\
-      Als u een bestand uit een map verplaatst, gaat u naar de pagina Bestandsdetails, zoals beschreven in [Bestanden beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).&quot;
+     of\
+      Als u een dossier uit een omslag beweegt, ga naar de de detailpagina van het Dossier zoals die in [ wordt beschreven leidt Dossiers in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).&quot;
 
-1. Klik op de naam van de **Map** waar het bestand of de proefdruk zich bevindt, klikt u op **[!UICONTROL Move to]** > **[!UICONTROL (No folder selected)]**.\
-   ![Managing_folder_items-moving_items_out_of_folders.png](assets/managing-folder-items-moving-items-out-of-folders-350x123.png)
+1. Klik de naam van de **Omslag** waar het dossier of de proef wordt gevestigd, dan klik **[!UICONTROL Move to]** > **[!UICONTROL (No folder selected)]**.\
+   ![ Managing_folder_items-moving_items_out_of_folders.png ](assets/managing-folder-items-moving-items-out-of-folders-350x123.png)
 
-## Een map en de bijbehorende items in het dialoogvenster [!UICONTROL Folder Details] Pagina
+## Een map en de bijbehorende items op de pagina [!UICONTROL Folder Details] beheren
 
-U kunt uw bestanden eenvoudig beheren vanuit de [!UICONTROL Folder details] pagina.
+U kunt uw bestanden eenvoudig beheren vanaf de pagina [!UICONTROL Folder details] .
 
 >[!NOTE]
 >
->Als u niet de maker of eigenaar van het bestand bent, zijn de beschikbare opties afhankelijk van de gebruiker [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+>Als u niet de schepper of eigenaar van het dossier bent, zullen de beschikbare opties van uw gebruiker [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) afhangen.
 
-1. Op de **[!UICONTROL Folders]** in het navigatiemenu links klikt u op een willekeurige map om het dialoogvenster [!UICONTROL Folder details] pagina.
-1. Als de map alleen gearchiveerde proefdrukken bevat, wordt boven aan de pagina een geel bericht weergegeven. Als u op de koppeling in het bericht klikt, verandert de mappenweergave in de [!UICONTROL Archived proofs] weergeven.
-1. Klikken **[!UICONTROL Folder details]** Voer vervolgens een van de volgende handelingen uit met de map met de weergegeven opties:
+1. Klik op het tabblad **[!UICONTROL Folders]** in het navigatiemenu links op een willekeurige map om de pagina [!UICONTROL Folder details] te openen.
+1. Als de map alleen gearchiveerde proefdrukken bevat, wordt boven aan de pagina een geel bericht weergegeven. Als u op de koppeling in het bericht klikt, verandert de mappenweergave in de [!UICONTROL Archived proofs] -weergave.
+1. Klik op **[!UICONTROL Folder details]** en voer een van de volgende handelingen uit met de map met de weergegeven opties:
 
    * Voeg de miniatuurafbeelding voor de map toe of wijzig deze.
-   * De **Beschrijving**, **Bovenliggende map**, **Eigenaar**, **Client**, of **Project** is gekoppeld aan de map.
+   * Bekijk of geef de **Beschrijving**, **omslag van de Ouder**, **Eigenaar**, **Cliënt** uit, of **Project** verbonden aan de omslag.
 
-   * Map maken **Persoonlijk**.
-   * Controleren of de map **Gemaakt**.
-   * Zie de naam van de map **Maker**.
+   * Maak de omslag **Privé**.
+   * Zie wanneer de omslag **** werd gecreeerd.
+   * Zie de naam van de 2} creator van de omslag ****.
 
-1. (Optioneel) Als u de informatie wilt wijzigen die aan een item in de map is gekoppeld, klikt u op de knop **[!UICONTROL More]** rechts van het item en gebruik vervolgens een van de opties die worden weergegeven.\
+1. (Optioneel) Als u de informatie wilt wijzigen die aan een item in de map is gekoppeld, klikt u op het pictogram **[!UICONTROL More]** rechts van het item en gebruikt u een van de opties die worden weergegeven.\
    ![](assets/more-button-small.png)\
    Welke opties worden weergegeven, is afhankelijk van het feit of het een proefdruk of een bestand is.
 
-   * **[!UICONTROL View proof details]** of **[!UICONTROL View file details]**: Hiermee opent u de pagina Proefgegevens of Bestandsgegevens. Zie voor meer informatie [Bestanden beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) of [Proofinggegevens beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * **[!UICONTROL View proof details]** of **[!UICONTROL View file details]** : opent de pagina Proefgegevens of Bestandsdetails. Voor meer informatie, zie [ Dossiers in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beheren of [ Beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-   * **[!UICONTROL Share]**: Hiermee kunt u het bestand delen met extra personen. Zie voor meer informatie [Bestanden delen in [!UICONTROL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
+   * **[!UICONTROL Share]**: hiermee kunt u het bestand delen met extra personen. Voor meer informatie, zie [ Dossiers van het Aandeel in [!UICONTROL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
-   * **[!UICONTROL Message]**: Stuur een e-mail naar de personen met wie de proefdruk is gedeeld.
+   * **[!UICONTROL Message]**: stuur een e-mail naar de personen met wie de proefdruk is gedeeld.
    * **[!UICONTROL New Version]**: Maak een nieuwe versie van de proefdruk.
    * **[!UICONTROL Copy]**: Kopieer de proefdruk met eventuele opmerkingen als een nieuwe versie van een bestaande proefdruk of als een nieuwe proefdruk.
-   * **[!UICONTROL Download original]**: Hiermee kunt u het oorspronkelijke bestand downloaden. Zie voor meer informatie [Bestanden downloaden die zijn opgeslagen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+   * **[!UICONTROL Download original]**: hiermee kunt u het oorspronkelijke bestand downloaden. Voor meer informatie, zie [ Opgeslagen Dossiers van de Download  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-   * **[!UICONTROL Delegate ownership]**: Eigendom van de proefdruk toewijzen aan een andere gebruiker.
-   * **[!UICONTROL Share proof links]**: Stuur een e-mail met een koppeling naar de proefdruk.
-   * **[!UICONTROL Print comments]**: Druk de opmerkingen af die revisoren op de proefdruk hebben gemaakt.
+   * **[!UICONTROL Delegate ownership]**: de eigenaar van de proefdruk toewijzen aan een andere gebruiker.
+   * **[!UICONTROL Share proof links]**: verzend een e-mail met een koppeling naar de proefdruk.
+   * **[!UICONTROL Print comments]**: druk de opmerkingen die revisoren hebben gemaakt op de proefdruk.
    * **[!UICONTROL Excel summary]**: Maak een Excel-bestand met het afdrukoverzicht voor de proefdruk.
-   * **[!UICONTROL Lock]**: Vergrendel de proefdruk zodat andere gebruikers deze niet kunnen openen.
-   * **[!UICONTROL Delete]**: Hiermee verwijdert u het bestand uit [!DNL Workfront] Proef.
+   * **[!UICONTROL Lock]**: vergrendel de proefdruk zodat andere gebruikers deze niet kunnen openen.
+   * **[!UICONTROL Delete]** : hiermee verwijdert u het bestand uit [!DNL Workfront] Proef.
 
-1. (Optioneel) In het dialoogvenster **[!UICONTROL Shared with]** als u een herinnering wilt verzenden aan een controleur op de proefdruk, klikt u op de knop **[!UICONTROL More]** rechts van de naam van de gebruiker klikt u op **[!UICONTROL Message]**.\
-   U kunt op **[!UICONTROL Remove]** om het delen van de map met de persoon op te heffen.\
+1. (Optioneel) Klik in de sectie **[!UICONTROL Shared with]** op het pictogram **[!UICONTROL More]** rechts van de naam van de gebruiker en klik vervolgens op **[!UICONTROL Message]** om een herinnering naar de controleur te sturen.\
+   U kunt op **[!UICONTROL Remove]** klikken om het delen van de map met de persoon op te heffen.\
    Eigenaars en makers van mappen worden altijd in deze lijst weergegeven en kunnen niet worden verwijderd. Als een gebruiker de eigendom van een map overneemt, worden deze automatisch weergegeven en kunnen deze niet worden verwijderd.\
-   U kunt een omslag met individuele gebruikers en de bedrijven van de Partner delen. Als de omslag met een bedrijf van de Partner wordt gedeeld, kunt u de volledige lijst van ontvangers zien door te klikken [!UICONTROL information] pictogram dat wordt weergegeven wanneer u de muisaanwijzer op de rij plaatst. Zie voor meer informatie [Partneraccounts.](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
+   U kunt een omslag met individuele gebruikers en de bedrijven van de Partner delen. Als de map wordt gedeeld met een partnerbedrijf, kunt u de volledige lijst met ontvangers weergeven door op het pictogram [!UICONTROL information] te klikken dat wordt weergegeven wanneer u de muisaanwijzer op de rij plaatst. Voor meer informatie, zie [ de Rekeningen van de Partner.](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
 
-1. (Optioneel) Bewerk de machtigingen van de manager voor privémappen door onder **[!UICONTROL Allow on folder]** en geeft u vervolgens op of de persoon items in die map moet kunnen maken, bewerken en verwijderen. **OPMERKING** Deze optie is alleen beschikbaar voor managers van dezelfde account als de eigenaar van de map die zijn toegevoegd aan persoonlijke mappen. Supervisors, beheerders en factureringsbeheerders hebben bewerkingsrechten voor alle mappen in de account en waarnemers kunnen geen items maken. Voor informatie over toestemmingen, zie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+1. (Optioneel) Bewerk de machtigingen van de manager voor privémappen door onder **[!UICONTROL Allow on folder]** op de regel van die persoon te klikken. Geef vervolgens op of de persoon items in die map moet kunnen maken, bewerken en verwijderen. **NOTA** Deze optie is beschikbaar slechts voor Managers van de zelfde rekening zoals de omslageigenaar die aan privé omslagen wordt toegevoegd. Supervisors, beheerders en factureringsbeheerders hebben bewerkingsrechten voor alle mappen in de account en waarnemers kunnen geen items maken. Voor informatie over toestemmingen, zie de [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-1. (Optioneel) Klik op **[!UICONTROL Activity]** om alle handelingen die in de map zijn uitgevoerd, in chronologische volgorde weer te geven.
-1. (Optioneel) Klik op **[!UICONTROL Messages]** om de berichten weer te geven die naar gebruikers in de map zijn verzonden.\
-   Wanneer u de muisaanwijzer op een bericht plaatst, kunt u op de knop **i** aan de rechterkant om het volledige bericht te bekijken.\
+1. (Optioneel) Klik op **[!UICONTROL Activity]** om alle acties in de map in chronologische volgorde weer te geven.
+1. (Optioneel) Klik op de sectie **[!UICONTROL Messages]** om de berichten weer te geven die naar gebruikers in de map zijn verzonden.\
+   Wanneer u over een bericht beweegt, kunt u het **i** pictogram aan het recht klikken om het volledige bericht te bekijken.\
    ![](assets/messages-1-350x74.png)\
    Een pop-up met de volledige e-mailvertoningen:\
    ![](assets/messages-2-350x252.png)
@@ -119,17 +119,17 @@ U kunt uw bestanden eenvoudig beheren vanuit de [!UICONTROL Folder details] pagi
 
 U kunt de submappen beheren via de detailpagina Mappen.
 
-1. Op de **[!UICONTROL Folders]** klikt u in het navigatiemenu aan de linkerkant op de naam van de bovenliggende map die de submap bevat om het dialoogvenster **[!UICONTROL Folder details]** pagina.
+1. Klik op het tabblad **[!UICONTROL Folders]** in het navigatiemenu links op de naam van de bovenliggende map die de submap bevat om de pagina **[!UICONTROL Folder details]** te openen.
 
-1. Klik op de knop **[!UICONTROL More]** rechts van de submap.\
-   ![Meer_knop_klein.png](assets/more-button-small.png)
+1. Klik op het menu **[!UICONTROL More]** rechts van de submap.\
+   ![ More_button_small.png ](assets/more-button-small.png)
 
 1. Klik op een van de volgende opties:
 
-   * **[!UICONTROL View folder details]**: Hiermee opent u de [!UICONTROL Folder details] pagina.
-   * **[!UICONTROL New proof]**: Hiermee kunt u een nieuwe proefdruk toevoegen aan de submap.
-   * **[!UICONTROL Upload file]**: Hiermee kunt u een bestand uploaden naar de submap.
-   * **[!UICONTROL New sub-folder]**: Hiermee maakt u een nieuwe submap in de submap.
-   * **[!UICONTROL Share]**: Hiermee kunt u de submap delen met andere gebruikers.
-   * **[!UICONTROL Excel summary]**: Hiermee kunt u een Excel-overzicht van de submap aanvragen.
-   * **[!UICONTROL Delete]**: Hiermee kunt u de submap verwijderen.
+   * **[!UICONTROL View folder details]** : opent de pagina [!UICONTROL Folder details] .
+   * **[!UICONTROL New proof]**: hiermee kunt u een nieuwe proefdruk toevoegen aan de submap.
+   * **[!UICONTROL Upload file]**: hiermee kunt u een bestand uploaden naar de submap.
+   * **[!UICONTROL New sub-folder]**: hiermee maakt u een nieuwe submap in de submap.
+   * **[!UICONTROL Share]**: hiermee kunt u de submap delen met andere gebruikers.
+   * **[!UICONTROL Excel summary]**: hiermee kunt u een Excel-overzicht van de submap aanvragen.
+   * **[!UICONTROL Delete]**: hiermee kunt u de submap verwijderen.

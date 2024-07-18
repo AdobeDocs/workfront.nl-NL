@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Artikelen en problemen toevoegen uit het dialoogvenster [!UICONTROL Kanban] board
+# Artikelen en problemen toevoegen vanuit het [!UICONTROL Kanban] -bord
 
-U kunt snel een nieuw artikel of een nieuwe uitgave rechtstreeks maken via het dialoogvenster [!UICONTROL Kanban] bord.
+U kunt snel een nieuw artikel maken of rechtstreeks vanuit het [!UICONTROL Kanban] -bord publiceren.
 
 ## Toegangsvereisten
 
@@ -35,23 +35,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot de taak of afgifte</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] toegang tot de taak of afgifte</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Nieuw artikel of onderwerp maken van het Kanban-bord
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuwe [!UICONTROL Kanban] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
-1. Klikken **[!UICONTROL Add]** aan de rechterkant van het Kanban-bord en selecteer **[!UICONTROL New Story]** of **[!UICONTROL New Issue]**.
-1. In de **[!UICONTROL New]** voegt u de volgende informatie toe:
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Kanban] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik op **[!UICONTROL Add]** rechts van het Kanban-bord en selecteer **[!UICONTROL New Story]** of **[!UICONTROL New Issue]** .
+1. Voeg de volgende informatie toe in het dialoogvenster **[!UICONTROL New]** :
 
    <table style="table-layout:auto">
     <tr>
@@ -72,4 +72,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr>
    </table>
 
-1. Klikken **[!UICONTROL Add Story]** of **[!UICONTROL Add Issue]**.
+1. Klik op **[!UICONTROL Add Story]** of **[!UICONTROL Add Issue]** .

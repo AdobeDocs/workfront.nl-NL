@@ -10,7 +10,7 @@ role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau van de Beheerder van het Systeem. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-     <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Voor informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over <b> Gebruikers </b> die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -50,8 +50,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 Workfront registreert de volgende informatie over gebruikers die zich aanmelden bij het systeem:
 
-* **Aantal aanmeldingen**: Workfront telt elke 24 uur een gebruiker die zich aanmeldt bij de toepassing. Als een gebruiker zich meerdere keren aanmeldt met verschillende browsers, computers of mobiele apparaten, telt Workfront alle logins die zich op één dag hebben voorgedaan als één aanmelding. Het aantal aanmelding bevat gegevens die beginnen bij het maken van de gebruiker.
-* **Laatste aanmeldingsdatum**: De laatste datum waarop een gebruiker zich heeft aangemeld. De datum van elke aanmelding van een browser, mobiel apparaat of andere toepassingen wordt in dit veld vastgelegd.
+* **Login Telling**: Workfront telt een gebruiker die aan de toepassing het programma opent eens om de 24 uur. Als een gebruiker zich meerdere keren aanmeldt met verschillende browsers, computers of mobiele apparaten, telt Workfront alle logins die zich op één dag hebben voorgedaan als één aanmelding. Het aantal aanmelding bevat gegevens die beginnen bij het maken van de gebruiker.
+* **Laatste Login Datum**: De laatste datum toen een gebruiker het programma opende. De datum van elke aanmelding van een browser, mobiel apparaat of andere toepassingen wordt in dit veld vastgelegd.
 
 Aanmelden bij Workfront op een van de volgende manieren telt als aanmelding bij Workfront:
 
@@ -61,27 +61,27 @@ Aanmelden bij Workfront op een van de volgende manieren telt als aanmelding bij 
 * Elke aangepaste integratie tussen Workfront en een andere toepassing van derden.
 * De Workfront API
 
-   >[!NOTE]
-   >
-   >Aanmelden bij Workfront via de Workfront API is alleen beschikbaar voor organisaties die nog niet zijn aangemeld bij het Adobe Business Platform.
+  >[!NOTE]
+  >
+  >Aanmelden bij Workfront via de Workfront API is alleen beschikbaar voor organisaties die nog niet zijn aangemeld bij het Adobe Business Platform.
 
 ## Gebruiksgegevens weergeven in een gebruikerslijst of rapport
 
 U kunt het Aantal Login en de Laatste gebieden van de Datum van Aanmelding in de mening van een lijst van gebruikers, of in een rapport voor gebruikers tonen.\
-Voor meer informatie over het creëren van een rapport, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Gebruiksinformatie weergeven in de weergave van een lijst met gebruikers:
 
 1. Ga naar een lijst met gebruikers in Workfront.
-1. Van de **Weergave** vervolgkeuzelijst, selecteert u **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen** in de rechterbenedenhoek van het scherm.
-1. In de **Tonen in deze kolom** veld, beginnen met typen **Aantal aanmeldingen** en selecteert u de selectie wanneer deze in de lijst onder wordt weergegeven **Gebruiker**.
+1. Klik **toevoegen Kolom** dichtbij de laag-juiste hoek van het scherm.
+1. In **toon in dit kolom** gebied, begin **Login Telling** te typen, dan het te selecteren wanneer het in de lijst onder **Gebruiker** verschijnt.
 
-1. Klikken **Kolom toevoegen** opnieuw.
-1. In de **Tonen in de kolom** veld, beginnen met typen **Laatste aanmeldingsdatum** en selecteert u de selectie wanneer deze in de lijst onder wordt weergegeven **Gebruiker**.
+1. Klik **toevoegen opnieuw Kolom**.
+1. In **toon in het kolom** gebied, begin **Laatste Login Datum** te typen, dan het te selecteren wanneer het in de lijst onder **Gebruiker** verschijnt.
 
-1. (Optioneel) Klik op **Geavanceerde opties** Selecteer vervolgens een **Veldindeling** in het keuzemenu om de tijd of de dag van de week van de laatste aanmelding in uw kolom op te nemen.
+1. (Facultatief) klik **Geavanceerde Opties**, dan selecteren a **Formaat van het Gebied** van het drop down menu om de tijd of de dag van de week van laatste login in uw kolom te omvatten.
 
-1. Klikken **Weergave opslaan**.\
+1. Klik **sparen Mening**.\
    De weergave bevat informatie over het aantal keren dat de gebruikers zich hebben aangemeld en het tijdstip waarop ze zich voor het laatst hebben aangemeld.

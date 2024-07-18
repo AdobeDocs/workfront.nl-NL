@@ -30,12 +30,12 @@ Systeembeheerders kunnen een instelling bijwerken, zodat u zich kunt aanmelden b
 
 Als systeembeheerder, doe het volgende:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Uitbreiden **Timesheets en uren** en klik vervolgens op **Voorkeuren**.
+1. Breid **Tijdopnamen &amp; Uren** uit, dan klik **Voorkeur**.
 
-1. In de **Algemene voorkeuren** selecteert u de **Loguren voor toekomstige datums**.
+1. In de **Algemene sectie van de Voorkeur**, selecteer de **uren van het Logboek voor toekomstige data**.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-Voor meer informatie over dit en andere opties betreffende timesheets en uren, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor meer informatie over dit en andere opties betreffende timesheets en uren, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.

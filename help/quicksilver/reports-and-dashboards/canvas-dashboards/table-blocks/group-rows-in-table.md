@@ -17,28 +17,28 @@ U kunt de informatie in een rapport organiseren door het in groepen te tonen die
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Rijen in een tabel groeperen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapportage**.
-1. Klikken **Nieuw rapport**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik op de knop **Meer menu** pictogram ![](assets/more-icon.png) in de rapportkopbal, dan selecteer **Bewerken**.
+   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
 
 1. Als u rijen op een nieuwe tabel wilt groeperen, sleept u een tabelblok naar het canvas of dubbelklikt u erop.
 
    of
 
-   Als u rijen op een bestaande tabel wilt groeperen, klikt u op de knop **Bewerken** pictogram ![](assets/edit-icon.png) in de tabelkop.
+   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![](assets/edit-icon.png) in de lijstkopbal.
 
-1. Zoek in het rechterdeelvenster een veld dat u wilt groeperen en sleep het naar het **Groep** sectie.
+1. In het juiste paneel, bepaal de plaats van een gebied dat u wilt groeperen door en het slepen aan de **sectie van de Groep**.
 
-   U kunt de **Zoeken** om een specifieke groep te zoeken.
+   U kunt het **vakje van het Onderzoek** gebruiken om een specifieke groep te vinden.
 
-1. In het vervolgkeuzemenu rechts van het dialoogvenster **Groep** , selecteert u hoe u de groep wilt sorteren.
+1. In het drop-down menu rechts van het **gebied van de Groep**, selecteer hoe u de groep zou willen worden gesorteerd.
 
    De opties variëren afhankelijk van het type veld dat u gebruikt om de rijen te groeperen.
 
@@ -91,10 +91,10 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 1. Voer een van de volgende handelingen uit:
 
    * Als u een andere groep wilt toevoegen, sleept u een ander veld uit het zijpaneel.
-   * Als u rijen wilt weergeven in een groep die standaard is samengevouwen, klikt u op de knop **Het menu Meer** pictogram ![](assets/more-icon.png) naast de groep klikt u op **Groep samenvouwen**.
+   * Om rijen in een groep te tonen die door gebrek wordt samengevouwen, klik het **Meer menu** pictogram ![](assets/more-icon.png) naast de groep, dan klik **groep van de Samenvouwen**.
 
      Elke groep kan individueel worden gevormd om met samengevouwen of uitgevouwen rijen te tonen. Standaard worden alle gegroepeerde rijen samengevouwen.
 
-   * Als u een telling in de groepstrij wilt weergeven, klikt u op de knop **Het menu Meer** pictogram ![](assets/more-icon-27x15.png) naast de groep klikt u op **Aantal weergeven**.
-   * Klik op de knop **Het menu Meer** pictogram ![](assets/more-icon.png) naast de groep klikt u op **Groep verwijderen**.
-   * Als u meerdere groepen die u hebt gemaakt opnieuw wilt rangschikken, sleept u deze ![](assets/move-icon---dots.png) in een nieuwe volgorde.
+   * Om een telling in de groepstrij te tonen, klik het **Meer menu** pictogram ![](assets/more-icon-27x15.png) naast de groep, dan klik **Aantal van de Vertoning**.
+   * Om een groep te verwijderen, klik het **Meer menu** pictogram ![](assets/more-icon.png) naast de groep, dan klik **verwijdert groep**.
+   * Als u meerdere groepen die u hebt gemaakt opnieuw wilt rangschikken, sleept u deze ![](assets/move-icon---dots.png) naar een nieuwe volgorde.

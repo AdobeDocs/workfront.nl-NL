@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 4 januari 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Updates voor Microsoft 365 E-mailconnector
 
@@ -40,4 +40,4 @@ Om de manieren uit te breiden u de Microsoft 365 E-mailschakelaar kunt gebruiken
 
 We hebben ook de module Bijlagen zoeken verwijderd. U kunt de module Lijst met bijlagen combineren met de module Iterator om bijlagen te doorlopen.
 
-Zie voor meer informatie [Microsoft Office 365-e-mail](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).
+Voor meer informatie, zie [ Microsoft Office 365 E-mail ](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).

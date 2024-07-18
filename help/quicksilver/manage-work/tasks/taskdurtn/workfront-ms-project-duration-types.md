@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Duur typen in Adobe Workfront en Microsoft-project
+title: Duur typen in Adobe Workfront- en Microsoft-project
 description: De types van Duur beschikbaar in Adobe Workfront zijn verschillend dan hun tegenhangers in het Project van Microsoft die de Types van Taak worden genoemd. Dit kan soms verwarrend zijn bij het exporteren of importeren van projecten tussen Workfront en Microsoft Project.
 author: Alina
 feature: Work Management
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Duur typen in Adobe Workfront en Microsoft-project
+# Duur typen in Adobe Workfront- en Microsoft-project
 
 De types van Duur beschikbaar in Adobe Workfront zijn verschillend dan hun tegenhangers in het Project van Microsoft die de Types van Taak worden genoemd. Dit kan soms verwarrend zijn bij het exporteren of importeren van projecten tussen Workfront en Microsoft Project.
 
 Raadpleeg de volgende artikelen voor informatie over het importeren en exporteren van projecten tussen Workfront en Microsoft Project:
 
-* [Een project exporteren naar een Microsoft-project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [Een project importeren uit een Microsoft-project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
+* [ Uitvoer een project naar het Project van Microsoft ](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [Een project importeren uit Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 
-## Duur typen in Workfront en Microsoft-project
+## Duur typen in Workfront- en Microsoft-project
 
 Workfront heeft vier typen taakduur:
 
-* Eenvoudig
+* eenvoudig
 * Inzet gedreven
 * Berekend werk
 * Berekende toewijzing
 
-Zie voor meer informatie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Voor informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Deze soorten duur worden niet herkend door Microsoft Project. Microsoft Project heeft momenteel drie taaktypen die lijken op Duur-typen in Workfront:
 
@@ -46,7 +46,7 @@ Wanneer u projecten exporteert van Workfront naar Microsoft Project, worden take
 
 ## Wijzigingen in Duur bij importeren van MS Project naar Workfront
 
-Wanneer u projecten importeert van Microsoft Project in naar Workfront, worden Vaste eenheden gebaseerd op inspanningen. Vast werk en Vaste Duur ontvangen het standaardduurtype dat uw beheerder van Workfront voor uw systeem selecteerde. Zie voor meer informatie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Wanneer u projecten importeert van Microsoft Project in naar Workfront, worden Vaste eenheden gebaseerd op inspanningen. Vast werk en Vaste Duur ontvangen het standaardduurtype dat uw beheerder van Workfront voor uw systeem selecteerde. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 <!--
 <note type="warning">

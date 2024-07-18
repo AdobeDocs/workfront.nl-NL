@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Retourneert metagegevens voor het opgegeven bestand of de opgegeven map.
 
 **URL**
 
-GET /metadata?id=[document- of map-id]
+GET /metadata?id= [ document of omslagidentiteitskaart ]
 
 ## Zoekparameters
 
@@ -109,7 +109,7 @@ GET /metadata?id=[document- of map-id]
 </table>
 
 **Voorbeeld:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>titel:"Mijn document",<br>kind:"bestand"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>grootte: "32554694"<br>}</pre>
+<pre>{<br> titel:"Mijn Document", <br> soort:"dossier"<br> identiteitskaart":"12345", <br> viewLink:"https://www.acme.com/viewDocument?id=12345", <br> downloadLink:"https://www.acme.com/downloadDocument?id=12345", <br> mimeType:"image/png", <br> dateModified:"2014065T 17 :39: 45.251Z", <br> grootte: "32554694"<br></pre>
 
 >[!NOTE]
 >

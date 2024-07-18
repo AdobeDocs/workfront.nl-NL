@@ -27,7 +27,7 @@ Als u wilt integreren met Workfront en uw clienttoepassing in staat wilt stellen
 
 ## Een OAuth2-toepassing maken
 
-Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-toepassing maken met gebruikersgegevens (doorloop machtigingscode)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [ een toepassing OAuth2 gebruikend gebruikersgeloofsbrieven (de stroom van de vergunningscode) ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [ creëren toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ Uw gebruikers moeten zich aanmelden om deze integratie in hun eigen account te a
 
 * `client_id`: Dit is de client-id die is gegenereerd toen u de OAuth2-app in Workfront maakte.
 
-* `redirect_uri`: Dit is de omleidings-URL die u hebt ingevoerd bij het maken van de app. Uw gebruikers worden naar deze pagina geleid nadat zij de app voor hun account hebben geautoriseerd.
+* `redirect_uri`: dit is de omleidings-URL die u hebt ingevoerd bij het maken van de app. Uw gebruikers worden naar deze pagina geleid nadat zij de app voor hun account hebben geautoriseerd.
 
-* `response_type`: Dit moet de waarde hebben `code`.
+* `response_type`: Dit moet de waarde `code` hebben.
 
 De URL voor de machtigingspagina is daarom:
 
@@ -70,11 +70,11 @@ De externe toepassing kan configuratie vereisen. De volgende lijst bevat informa
  <tbody> 
   <tr> 
    <td role="rowheader">Autorisatie-URI</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Token-URL</td> 
-   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
+   <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Segmenten</td> 
@@ -97,15 +97,15 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
 1. Als de gebruiker de toegang toestaat, wordt de pagina omgeleid naar `redirect_url`. Het omleiden moet de volgende vraagparameters omvatten:
 
-* `code`: De vergunningscode die voor het krijgen van het toegangs/verfrist teken wordt vereist.
-* `domain`: Het domein van uw organisatie. Voorbeeld: in `myorganization.my.workfront.com`, is het domein `myorganization`.
-* `lane`: de weg van het verzoek. Voorbeeld: in `myorganization.preview.workfront.com`, is de weg `preview`.
+* `code`: De machtigingscode die is vereist voor het ophalen van het token voor toegang/vernieuwing.
+* `domain`: Het domein van uw organisatie. Voorbeeld: in `myorganization.my.workfront.com` is het domein `myorganization` .
+* `lane` : het pad van de aanvraag. Voorbeeld: in `myorganization.preview.workfront.com` is de strook `preview` .
 
   >[!IMPORTANT]
   >
   >De `code` is slechts 2 minuten geldig. Daarom moet u verfrissen krijgen en toegang tokens binnen die tijd.
 
-1. Wanneer u een code hebt, kunt u verzoeken om vernieuwings- en toegangstokens door de code samen met de gegevens van de clienttoepassing naar de `/integrations/oauth2/api/v1/token` eindpunt.
+1. Wanneer u een code hebt, kunt u vragen om vernieuwings- en toegangstokens door de code samen met de gegevens van de client-app naar het `/integrations/oauth2/api/v1/token` -eindpunt te verzenden.
 
    De volledige token request-URL is
 
@@ -113,7 +113,7 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **Voorbeelden:**  Voorbeeld van CURL-aanroep naar token-eindpunt:
+   **Voorbeelden:** Voorbeeld van vraag CURL aan symbolisch eindpunt:
 
    Voorbeeld 1
 
@@ -157,7 +157,7 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
    }
    ```
 
-   Het toegangstoken is het zelfde als ```sessionID```, en het verloopt op dezelfde manier als normaal ```sessionID```
+   Het toegangstoken is hetzelfde als ```sessionID``` en verloopt op dezelfde manier als normaal ```sessionID```
 
    >[!IMPORTANT]
    >
@@ -208,4 +208,4 @@ Het retourneert het volgende resultaat:
 }
 ```
 
-Nogmaals, het toegangstoken is het `sessionID` die kan worden gebruikt om een API-aanvraag in te dienen bij Workfront.
+Nogmaals, het toegangstoken is de `sessionID` die kan worden gebruikt om een API-verzoek aan Workfront uit te voeren.

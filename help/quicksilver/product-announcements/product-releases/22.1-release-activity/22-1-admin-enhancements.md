@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Documentdownloads zijn aangemeld in het gebied Updates
 
@@ -35,7 +35,7 @@ Om uw gebruikers te helpen het downloaden van documenten volgen die zij in Workf
 >
 >We raden u aan deze functie te testen in Voorvertoning op een nieuw geüpload document.
 
-Ga voor meer informatie over hoe Workfront automatische updates van objecten registreert [Door het systeem bijgehouden updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Voor informatie over hoe Workfront automatische updates op voorwerpen registreert, zie [ systeem-geleide updates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Toegang verlenen aan teams die gebruikmaken van toegangsniveaus
 
@@ -51,13 +51,13 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 Sommige blauwdrukken bevatten nu groepen die u kunt aanpassen voordat u de blauwdruk installeert. U kunt een groep in de blauwdruk toewijzen aan een bestaande groep in uw Workfront-instantie of zo nodig een nieuwe groep maken.
 
-Zie voor meer informatie [Een blauwdruk configureren](../../../administration-and-setup/blueprints/configure-template-package.md).
+Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
 ## Updates opmaken in het gebied Aangepaste Forms
 
 Het aangepaste Forms-gebied heeft een nieuw uiterlijk dat het up-to-date brengt met vele andere gebieden in de nieuwe Workfront-ervaring.
 
-Voor informatie over het maken van een aangepast formulier raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor informatie over het creëren van een douanevorm, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Veel verbeteringen voor het maken van berekende aangepaste velden
 
@@ -71,7 +71,7 @@ Het maken van berekende aangepaste velden is nu veel eenvoudiger met deze toevoe
 
 In de aanpasbare tekst Instructies voor een berekend aangepast veld kunt u ook de formule van het veld weergeven of verbergen. Dit is handig als u denkt dat de gebruikers die het aangepaste formulier invullen, deze informatie niet nodig hebben.
 
-Zie voor meer informatie over het maken van een berekend aangepast veld [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Voor meer informatie over het creëren van een berekend douanegebied, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## De informatie van het controlelogboek van de mening over statussen en bedrijven
 
@@ -82,7 +82,7 @@ Bijvoorbeeld:
 * U kunt erachter komen wie de naam van de status heeft gewijzigd, wie de status heeft vergrendeld of verborgen en wanneer ze dat hebben gedaan.
 * U kunt erachter komen wie sommige leden of baanrollen van een bedrijf heeft verwijderd, en wanneer zij dit deden.
 
-Voor informatie over het bekijken van de informatie van het controlelogboek, zie [Controleverslagen weergeven en exporteren](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Voor informatie over het bekijken van de informatie van het controlelogboek, zie [ de controlelogboeken van de Mening en van de uitvoer ](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Blauwdrukbedrijven in kaart brengen en andere verbeteringen
 
@@ -92,7 +92,7 @@ De volgende verbeteringen voor blauwdrukken zijn nu beschikbaar:
 * Er is nu een nieuw blauwdruktype beschikbaar, de Organizational Structure. Sommige blauwdrukken bevatten elementen van meerdere typen (bijvoorbeeld Projectsjabloon en Organisatiestructuur). U kunt filteren op het type blauwdruk op de cataloguspagina.
 * De secties &quot;Voorkeuren installeren&quot; en &quot;Sjablooneigendom&quot; op de configuratiepagina zijn voor de eenvoud gecombineerd tot &quot;Sjabloonvoorkeuren&quot;.
 
-Zie voor meer informatie [Een blauwdruk configureren](../../../administration-and-setup/blueprints/configure-template-package.md).
+Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
 ## Beheer bedrijfslidmaatschappen gemakkelijker
 
@@ -102,13 +102,13 @@ Eerder waren deze acties alleen beschikbaar in het vak Bedrijf bewerken.
 
 De bijgewerkte werkbalk bevat ook alle acties die beschikbaar waren op de vorige werkbalk, zoals het bewerken van de gebruikersprofielgegevens van leden en het deactiveren van deze gegevens in het systeem.
 
-Zie voor meer informatie [Ondernemingslidmaatschappen beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Voor meer informatie, zie [ bedrijflidmaatschappen ](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md) leiden.
 
 ## Expressies en velden selecteren in het nieuwe berekende veldvenster
 
 We maken het nog steeds gemakkelijker om een berekend veld te maken in een aangepaste vorm. Wanneer u nu op Maximaliseren klikt om de nieuwe berekeningseditor te openen, kunt u de gewenste expressies en velden zoeken en selecteren.
 
-Zie voor meer informatie [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## De groepen kunnen hun eigen timesheet en uurvoorkeur vormen
 
@@ -120,9 +120,9 @@ In een grote organisatie, zouden sommige groepen timesheet en uurvoorkeur onafha
 
 Deze mogelijkheid is onlangs ook toegevoegd voor projectvoorkeuren en voor voorkeuren voor taken en uitgaven.
 
-Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [Tijdschema en uurvoorkeuren voor groepen ontgrendelen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [ timesheet en de uurvoorkeur voor groepen ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [ vormen timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Voor informatie over hoe een groepsbeheerder ontgrendelde taken en voorkeuren voor de afgifte van een groep configureert, raadpleegt u [Voorkeuren voor tijdschriften en uren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Voor informatie over hoe een groepsbeheerder ontgrendelde taak vormt en voorkeur voor een groep uitgeven, zie [ timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
 
 ## Meerdere meldingen selecteren die u wilt ontgrendelen of opnieuw vergrendelen voor groepen
 
@@ -130,7 +130,7 @@ Het is nu sneller en eenvoudiger om e-mailberichten voor groepen te ontgrendelen
 
 Eerder moest u meldingen een voor een ontgrendelen en opnieuw vergrendelen. Workfront heeft momenteel 95 meldingen, dus het duurde even voordat u dit voor al deze of vele ervan moest doen.
 
-Zie voor meer informatie [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Voor meer informatie, zie [ configuratie van de Ontgrendeling of van het slot van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 ## Voor groepsbeheerders: eenvoudiger om een vervangingsgroep te selecteren wanneer u een groep verwijdert
 
@@ -139,13 +139,13 @@ Wanneer u een groep verwijdert, kunt u met twee verbeteringen in het vak Groep v
 * U kunt de naam van de groep typen om deze snel te vinden. Eerder was er alleen een vervolgkeuzelijst die u niet kon typen. Dit was problematisch voor organisaties met vele groepen omdat u door de lijst moest scrollen om de groep te vinden u wilde. Bovendien had de vervolgkeuzelijst een itemlimiet, zodat het mogelijk was dat de gewenste groep niet werd weergegeven.
 * U kunt het nieuwe infopictogram gebruiken om ervoor te zorgen u de vervangingsgroep selecteert u wilt. Als u de muisaanwijzer op het pictogram plaatst, wordt knopinfo met informatie over de groep weergegeven, zoals de hiërarchie van de bovenliggende groepen en de namen van de beheerders.
 
-Zie voor meer informatie [Een groep verwijderen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+Voor meer informatie, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md) schrappen.
 
 ## Groter gebied voor het maken van berekende velden
 
 Het is nu gemakkelijker om complexe berekende velden te maken in een aangepast formulier. Klik op de nieuwe knop Maximaliseren om een groot bewerkvenster te openen waarin u uw berekening kunt samenstellen. Als u klaar bent, klikt u op Minimaliseren om verder te gaan met het bewerken van uw aangepaste formulier.
 
-Zie voor meer informatie [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Voor meer informatie, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## Aangepaste formulieren toevoegen aan groepen
 
@@ -157,7 +157,7 @@ Aangepaste formulieren worden nu ondersteund voor het Group-object. Hierdoor wor
 * Een aangepast formulier verwijderen
 * Aangepaste gegevens bewerken uit lijsten en, in de nieuwe Workfront-ervaring, uit de pagina Groep
 
-Voor informatie over aangepaste formulieren raadpleegt u [Aangepaste formulieren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+Voor informatie over douaneformulieren, zie [ de vormen van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 ## OAuth2-apps maken om toepassingen te integreren met Workfront
 
@@ -165,10 +165,10 @@ Nu kunt u Workfront integreren met andere toepassingen waarvoor Workfront geen i
 
 Eerder kon u alleen integreren met andere toepassingen via ingebouwde integratie, Workfront Fusion of de Workfront API.
 
-Zie voor meer informatie [OAuth2-toepassingen maken voor Workfront-integratie](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](../../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
 ## Verbeteringen in interfacetekst in het gebied Ondernemingen
 
 In het gebied van Bedrijven in Opstelling, maken de nieuwe bevestigingsberichten en de lichte formuleringsveranderingen het gemakkelijker om het lidmaatschap van het bedrijf te beheren. De sectienaam &quot;Personen&quot; in het linkerdeelvenster is bijvoorbeeld &quot;Bedrijfsleden&quot;.
 
-Voor informatie over het beheren van bedrijflidmaatschappen, zie [Ondernemingslidmaatschappen beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Voor informatie over het beheren van bedrijflidmaatschappen, zie [ bedrijflidmaatschappen beheren ](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

@@ -19,4 +19,4 @@ ht-degree: 0%
 Deze sectie bevat de volgende subsecties:
 
 * [Nieuwe startpagina](../../workfront-basics/using-home/new-home/new-home.md)
-* [Gebruik de [!UICONTROL Home] gebied](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Het [!UICONTROL Home] -gebied gebruiken](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

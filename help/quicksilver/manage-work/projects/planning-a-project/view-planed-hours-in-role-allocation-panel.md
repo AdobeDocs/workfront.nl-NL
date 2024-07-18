@@ -21,10 +21,11 @@ U kunt roltoewijzing voor alle baanrollen bekijken die aan het werkpunten in een
 >
 >In dit artikel wordt verwezen naar het weergeven van de taakrollen die horen bij taken en problemen in een project en de toegewezen geplande uren in het deelvenster Rollen van een project. Raadpleeg het volgende voor informatie over het combineren van geplande uren met initiatiefuren via het deelvenster Roltoewijzing bij gebruik van de Adobe Workfront Scenario-planner:
 >
->* [Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
->* [Roltoewijzing voor projecten en initiatieven weergeven in Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md)
+>* [ toon roltoewijzing voor projecten en initiatieven in de taaklijst ](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
+>* [ toon roltoewijzing voor projecten en initiatieven in de Balancer van de Werkbelasting ](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  U moet een vergunning Scenario Planner hebben om initiatiefuren in het paneel van de Toewijzing van de Rol te zien. Voor informatie over de Planner van het Scenario, zie [Aan de slag met de functie Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>  U moet een vergunning Scenario Planner hebben om initiatiefuren in het paneel van de Toewijzing van de Rol te zien. Voor informatie over de Planner van het Scenario, zie [ begonnen worden met de Planner van het Scenario ](../../../scenario-planner/get-started-with-scenario-planning.md).
+>
 
 ## Toegangsvereisten
 
@@ -74,16 +75,16 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De mening of hogere toestemmingen op het project</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De mening of hogere toestemmingen op het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
@@ -91,27 +92,32 @@ U moet het volgende hebben:
 
 * Taken of problemen die zijn toegewezen aan taakrollen of aan gebruikers die zijn gekoppeld aan een taakrol.
 
-   >[!TIP]
-   Als de taken of problemen niet zijn toegewezen, niet zijn toegewezen aan teams of zijn toegewezen aan gebruikers zonder taakrol, is de geplande uren van het project nul in het deelvenster Roltoewijzing.
+  >[!TIP]
+  >
+  >Als de taken of problemen niet zijn toegewezen, niet zijn toegewezen aan teams of zijn toegewezen aan gebruikers zonder taakrol, is de geplande uren van het project nul in het deelvenster Roltoewijzing.
 
 * Taken en kwesties met een Duur hoger dan nul.
 
 ## Geplande uren van project weergeven in het deelvenster Roltoewijzing
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Projecten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Projecten**.
 1. Klik op de naam van een project om het te openen. Hiermee opent u de projectpagina.
 1. Klik op een van de volgende opties in het linkerdeelvenster:
 
    * **Taken**
-   * **Werklastverdeling**
+   * **de Balancer van de Werkbelasting**
 
-1. Klik op de knop **Roltoewijzing tonen** pictogram ![](assets/show-role-allocation-icon.png).
+1. Klik **tonen roltoewijzing** pictogram ![](assets/show-role-allocation-icon.png).
 
    Het deelvenster Roltoewijzing wordt weergegeven.
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. Controleer de volgende informatie in het dialoogvenster **Roltoewijzing** paneel: |Veld | Beschrijving| |—|—| | **Functie** |Functierollen die zijn toegewezen aan taken en kwesties in verband met het project. Dit kunnen taakrollen zijn die rechtstreeks aan taken en kwesties of baanrollen worden toegewezen verbonden aan gebruikers die aan taken en kwesties op het project worden toegewezen.  | | **Geplande uren** |Het totale aantal geplande uren van taken en kwesties die aan baanrollen of gebruikers worden toegewezen verbonden verbonden aan een baanrol op het project. |
+1. Herzie de volgende informatie in het **deelvenster van de Toewijzing van de Rol**:
+|Veld | Beschrijving|
+|—|—|
+| **Rol van de Baan** |Functierollen die zijn toegewezen aan taken en kwesties in verband met het project. Dit kunnen taakrollen zijn die rechtstreeks aan taken en kwesties of baanrollen worden toegewezen verbonden aan gebruikers die aan taken en kwesties op het project worden toegewezen.  |
+| **Geplande Uren** |Het totale aantal geplande uren van taken en kwesties die aan baanrollen of gebruikers worden toegewezen verbonden verbonden aan een baanrol op het project.  |
 
 
 

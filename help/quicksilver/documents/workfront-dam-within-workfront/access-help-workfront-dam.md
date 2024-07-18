@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Adobe Workfront DAM DAM is een native Digital Asset Management (DAM)-systeem in Workfront waarmee u digitale bestanden kunt opslaan, organiseren, zoeken, ophalen en delen.
 
-U hebt toegang tot de ondersteuningsdocumentatie voor Workfront DAM op de volgende locaties:
+U hebt toegang tot ondersteuningsdocumentatie voor Workfront DAM  op de volgende locaties:
 
-* Als u de zelfstandige Workfront DAM-toepassing gebruikt (buiten de Workfront-hoofdtoepassing), raadpleegt u  [damsuccess.com](https://www.damsuccess.com).
-* Als u Workfront DAM-functionaliteit gebruikt in de belangrijkste Workfront-toepassing, raadpleegt u [Adobe Workfront DAM in Adobe Workfront](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* Als u de zelfstandige Workfront DAM-toepassing gebruikt (buiten de Workfront-hoofdtoepassing), raadpleegt u  [ damsuccess.com ](https://www.damsuccess.com).
+* Als u Workfront DAM functionaliteit binnen de belangrijkste toepassing van Workfront leveraging, zie [ Adobe Workfront DAM binnen Adobe Workfront ](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 
   >[!NOTE]
   >
-  >Als u een verzoek voor een functie moet indienen of een probleem wilt registreren, neemt u contact op met de klantenondersteuning van Workfront via telefoon, e-mail of de Help-site van Workfront. Zie voor meer informatie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+  >Als u een verzoek voor een functie moet indienen of een probleem wilt registreren, neemt u contact op met de klantenondersteuning van Workfront via telefoon, e-mail of de Help-site van Workfront. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

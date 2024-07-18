@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Als u een individuele medewerker bent die een persoonlijk doel heeft, kunt u het aan de doelstellingen van uw team willen richten om de vooruitgang van uw eigen doel in de grotere context van de strategie van uw organisatie effectief te tonen.
 
-Wanneer iedereen in uw organisatie hun doelstellingen heeft die aan de doelstellingen van uw organisatie worden gericht, kunnen zij duidelijk zien hoe hun individuele bijdragen en teaminspanningen helpen om de naald op grotere, bedrijf-vlakke prioriteiten vooruit te bewegen. Voor meer informatie over de beste praktijken voor het richten van doelstellingen, zie [Overzicht van uitlijning van doelstellingen in Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+Wanneer iedereen in uw organisatie hun doelstellingen heeft die aan de doelstellingen van uw organisatie worden gericht, kunnen zij duidelijk zien hoe hun individuele bijdragen en teaminspanningen helpen om de naald op grotere, bedrijf-vlakke prioriteiten vooruit te bewegen. Voor meer informatie over de beste praktijken voor het richten van doelstellingen, zie [ het groeperingsoverzicht van het Doel in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
 Er zijn twee manieren om doelen te verbinden in Adobe Workfront Goals:
 
@@ -29,7 +29,7 @@ Er zijn twee manieren om doelen te verbinden in Adobe Workfront Goals:
 >
 >Een doel kan in totaal 1000 voortgangsindicatoren hebben.
 
-In dit artikel wordt beschreven hoe u doelen kunt uitlijnen door ze met elkaar te verbinden. Voor informatie over het richten van doelstellingen door resultaten en activiteiten in doelstellingen om te zetten, zie [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+In dit artikel wordt beschreven hoe u doelen kunt uitlijnen door ze met elkaar te verbinden. Voor informatie over het richten van doelstellingen door resultaten en activiteiten in doelstellingen om te zetten, zie [ doelstellingen richten door resultaten en activiteiten in doelstellingen ](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md) om te zetten.
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -75,7 +75,7 @@ U moet het volgende hebben:
 
 <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
    </td>
  </tr>
 <tr>
@@ -86,7 +86,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Richt doelstellingen door hen met elkaar te verbinden
 
@@ -128,25 +128,25 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 -->
-1. Maak twee doelen die u wilt uitlijnen. Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
-1. (Optioneel) Activeer de doelen die u wilt uitlijnen. U kunt doelstellingen richten die een Ontwerp, Actief, of Inactieve status hebben. Voor informatie over het activeren van doelstellingen, zie [Doelen in Adobe Workfront-doelen activeren](../../workfront-goals/goal-management/activate-goals.md).
+1. Maak twee doelen die u wilt uitlijnen. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+1. (Optioneel) Activeer de doelen die u wilt uitlijnen. U kunt doelstellingen richten die een Ontwerp, Actief, of Inactieve status hebben. Voor informatie over het activeren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
 1. Ga naar het doel dat u (kinddoel) aan een ander doel (ouderdoel) wilt richten en zijn naam klikken om de doelpagina te openen.
 
    >[!INFO]
    >
    >Als u bijvoorbeeld wilt dat doelstelling 2 de voortgang van doelstelling 1 beïnvloedt, moet u naar doelstelling 2 gaan.
 
-1. Klikken **Doelgegevens** in het linkerdeelvenster.
+1. Klik **de details van het Doel** in het linkerpaneel.
 
-1. In de **Informatie over bovenliggende doelen** gebied, klikken **Toevoegen** in de **Bovenliggende doelstelling** veld indien er geen hoofddoel is;
+1. In het **gebied van de het doel van de Ouder**, klik **** op het **Hoofddoel** gebied toevoegen als er geen ouderdoel is,
 
    of
 
    Klik op de naam van het bovenliggende doel om een ander doel te kiezen.
 
-1. Begin de naam van een bestaand doel in te typen **Bovenliggende doelstelling** en selecteert u deze wanneer deze in de lijst wordt weergegeven. Alleen doelen die afkomstig zijn van dezelfde of toekomstige perioden worden weergegeven in de lijst.
+1. Begin de naam van een bestaand doel op het **het doel van de Ouder doel** gebied te typen, dan het te selecteren wanneer het in de lijst verschijnt. Alleen doelen die afkomstig zijn van dezelfde of toekomstige perioden worden weergegeven in de lijst.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    Het doel waarmee u bent begonnen (doelstelling 2) is nu het onderliggende doel van het bovenliggende doel waarmee u het hebt uitgelijnd (doelstelling 1).\
    De uitgelijnde doelweergave die is verbonden in de sectie Goal Alignment met doelstelling 2 als secundair aan doelstelling 1.
@@ -154,12 +154,12 @@ Het kinddoel toont in de de indicatorensectie van de Voortgang van het ouderdoel
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. (Optioneel) Als u de doelen wilt weergeven in het gedeelte Doeluitlijning van Workfront, gaat u naar het gebied Doelen en klikt u op de knop **Goal Alignment** in het linkerdeelvenster. Voor informatie over de sectie van de Groepering van het Beleid, zie [Navigeren in de sectie Goal Alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. (Facultatief) om de doelstellingen in de sectie van de Groepering van het Doel te bekijken, ga naar het gebied van Doelen van Workfront, dan klik de **sectie van de Groepering van het Doel** in het linkerpaneel. Voor informatie over de sectie van de Groepering van het Doel, zie [ de sectie van de Groepering van het Doel in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md) navigeren.
 
 1. (Optioneel) Voeg activiteiten en resultaten toe aan beide doelen om de voortgang ervan aan te geven. Raadpleeg de volgende artikelen voor informatie over het toevoegen van activiteiten en resultaten:
 
-   * [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [ voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-1. (Optioneel) Verwijder de uitlijning tussen twee doelen wanneer u van mening bent dat deze niet langer relevant zijn voor de algemene strategie van uw organisatie. Voor informatie over het verwijderen van groepering tussen doelstellingen, zie [Doeluitlijning van Adobe Workfront-doelen verwijderen](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
+1. (Optioneel) Verwijder de uitlijning tussen twee doelen wanneer u van mening bent dat deze niet langer relevant zijn voor de algemene strategie van uw organisatie. Voor informatie over het verwijderen van groepering tussen doelstellingen, zie [ doelgroepering in de Doelen van Adobe Workfront verwijderen ](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

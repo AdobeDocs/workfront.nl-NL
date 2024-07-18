@@ -10,7 +10,7 @@ role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 U kunt intermediaire verwerkingscomponenten bouwen die u kunnen helpen slechts de berichten van het gebeurtenisabonnement filtreren en verwerken die uw zaken vereist.
 
-Zie voor meer informatie over gebeurtenisabonnementen [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md).
+Om over gebeurtenisabonnementen te leren, zie [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md).
 
 ## Gebeurtenisberichten filteren
 
 Deze sectie bevat codefragmenten van het filtreren die u kunt uitvoeren om de lading van de berichten van het gebeurtenisabonnement te verminderen.  Deze fragmenten illustreren dezelfde set filters die in de volgende talen zijn geschreven, zodat u de verschillen in de syntaxis van de verschillende talen kunt zien:
 
-U kunt voorbeelden bekijken van filteren bij [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), waar u de verschillen in syntaxis voor elke taal en de middelen van interactie met de SDK van AWS kunt zien.Deze voorbeelden worden geschreven als AWS Lambdas, die een gemeenschappelijke methode voor het toepassen van intermediaire filtreren en verwerkingscomponenten is.
+U kunt voorbeelden bekijken van het filtreren in [ https://github.com/workfront/workfront-event-subscription-filter-examples ](https://github.com/workfront/workfront-event-subscription-filter-examples), waar u de verschillen in de syntaxis voor elke taal en de middelen van interactie met AWS SDK kunt zien.Deze voorbeelden worden geschreven als AWS Lambdas, die een gemeenschappelijke methode is om intermediaire het filtreren en verwerkingscomponenten aan te wenden.
 
 De volgende codefragmenten zijn dichtbij plaatsing-klaar en kunnen als uitgangspunt worden gebruikt om u te helpen uw eigen, complexere, filters en verwerkingscomponenten schrijven.
 
 ### Java
 
-Het volgende voorbeeld in Java toont hoe te om projectlading te filtreren die op identiteitskaart van de Groep van het project wordt gebaseerd, zoals gedaan in [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
+Het volgende voorbeeld in Java toont hoe te om projectlading te filtreren die op identiteitskaart van de Groep van het project wordt gebaseerd, zoals gedaan in [ ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
 1. Bepaal de groep-id die u zoekt en maak deze als een statische constante.
 
@@ -61,11 +61,11 @@ Het volgende voorbeeld in Java toont hoe te om projectlading te filtreren die op
    }
    ```
 
-   Ga voor meer informatie over de nieuweState-indeling naar [Uitgaande berichtindeling voor gebeurtenisabonnementen](../../wf-api/api/message-format-event-subs.md).
+   Om over het formaat te leren newState, zie [ Uitgaand berichtformaat voor gebeurtenisabonnementen ](../../wf-api/api/message-format-event-subs.md).
 
 3. Na het ontleden van de Kaart &quot;newState&quot;van het bericht, zorg ervoor de de groepsidentiteitskaart van objecten de groepsidentiteitskaart aanpast u in Stap 1 identificeerde.
 
-4. (Voorwaardelijk) Als de id&#39;s **niet** laten aflopen, het bericht neerzetten, zodat een lege reactie wordt geretourneerd.
+4. (Voorwaardelijk) als IDs **niet** aanpast, laat vallen het bericht zodat een lege reactie is teruggekeerd.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ Het volgende voorbeeld in Java toont hoe te om projectlading te filtreren die op
 
    Het doel van het overdragen van de verantwoordelijkheid om het bericht aan een andere Lambda te leveren is een onderbreking van het leveringsverzoek te vermijden die van de dienst van het Abonnement van de Gebeurtenis komt. Momenteel, wordt de toegestane onderbreking voor levering geplaatst aan vijf seconden. Als het filter langer duurt dan toegestaan door het plaatsen, kunt u het verzoek verwerken, maar de dienst van het Abonnement van de Gebeurtenis zal uit en in een hertry lijn vallen tot het een 200 niveaureactie binnen de onderbrekingsperiode ontvangt.
 
-   Voor meer informatie over het beheren van berichtlevering, zie [Berichtlevering verbeteren tijdens het aanpassen van time-outs](#improving-message-delivery-while-accommodating-timeouts).
+   Meer leren over het beheren van berichtlevering, zie [ het Verbeteren van de Levering van het Bericht terwijl het Aanpassen van Onderbreking ](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
 Het belangrijkste verschil tussen de Java- en Python-voorbeelden is dat in het Java-voorbeeld het abonnementsbericht voor een gebeurtenis als eerste parameter wordt ontvangen. In het Python-voorbeeld is de eerste parameter een Lambda-proxygebeurtenis, die het abonnementsbericht voor een gebeurtenis bevat, samen met informatie over het proxyverzoek van AWS Lambda.
 
-Het volgende voorbeeld in Python toont hoe te om projectlading te filtreren die op identiteitskaart van de Groep van het project wordt gebaseerd, zoals gedaan in  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+Het volgende voorbeeld in Python toont hoe te om projectlading te filtreren die op identiteitskaart van de Groep van het project wordt gebaseerd, zoals gedaan in [ projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. Bepaal de groep-id die u zoekt en maak deze als een statische constante.
 
@@ -147,7 +147,7 @@ Het volgende voorbeeld in Python toont hoe te om projectlading te filtreren die 
    new_state = json.loads(event_subscription_message['newState'])
    ```
 
-   Ga voor meer informatie over de nieuweState-indeling naar [Uitgaande berichtindeling voor gebeurtenisabonnementen](../../wf-api/api/message-format-event-subs.md).
+   Om over het formaat te leren newState, zie [ Uitgaand berichtformaat voor gebeurtenisabonnementen ](../../wf-api/api/message-format-event-subs.md).
 
 1. Na het ontleden van de Kaart &quot;newState&quot;van het bericht, zorg ervoor de de groepsidentiteitskaart van objecten de groepsidentiteitskaart aanpast u in Stap 1 identificeerde.
 
@@ -188,7 +188,7 @@ Het volgende voorbeeld in Python toont hoe te om projectlading te filtreren die 
 
 Het voorbeeld Node.js van het filtreren van identiteitskaart van de projectgroep leest gelijkaardig aan Java en de voorbeelden van Python. Net als bij het Python-voorbeeld is de eerste parameter een Lambda-proxygebeurtenis en de tweede parameter de Lambda-context.
 
-Het volgende voorbeeld in Node.js toont hoe te om projectladingen te filtreren die op identiteitskaart van de Groep van het project worden gebaseerd, zoals binnen gedaan  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+Het volgende voorbeeld in Node.js toont hoe te om projectlading te filtreren die op identiteitskaart van de Groep van het project wordt gebaseerd, zoals gedaan in [ projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Bepaal de groep-id die u zoekt en maak deze als een statische constante.
 
@@ -218,7 +218,7 @@ Het volgende voorbeeld in Node.js toont hoe te om projectladingen te filtreren d
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 
    ```
 
-   Ga voor meer informatie over de nieuweState-indeling naar [Uitgaande berichtindeling voor gebeurtenisabonnementen](../../wf-api/api/message-format-event-subs.md).
+   Om over het formaat te leren newState, zie [ Uitgaand berichtformaat voor gebeurtenisabonnementen ](../../wf-api/api/message-format-event-subs.md).
 
 4. (Voorwaardelijk) Als de id&#39;s niet overeenkomen, zet het bericht neer, zodat een leeg antwoord wordt geretourneerd.\
    In het volgende voorbeeld worden overeenkomende groep-id&#39;s weergegeven:
@@ -261,24 +261,24 @@ Het volgende voorbeeld in Node.js toont hoe te om projectladingen te filtreren d
 
    AWS SDK wordt gebruikt om een andere Lambda aan te halen, die voor het leveren van het gefiltreerde bericht aan ons gewenste eindpunt verantwoordelijk is.\
    Het doel van het overdragen van de verantwoordelijkheid om het bericht aan een andere Lambda te leveren is een onderbreking van het leveringsverzoek te vermijden die van de dienst van het Abonnement van de Gebeurtenis komt. Momenteel is de time-out voor levering ingesteld op vijf seconden. Als het filter langer duurt dan toegestaan door het plaatsen, kunt u het verzoek verwerken, maar de dienst van het Abonnement van de Gebeurtenis zal uit en in een hertry lijn vallen tot het een 200 niveaureactie binnen de onderbrekingsperiode ontvangt.\
-   Om over het beheren van berichtlevering te leren, zie [Berichtlevering verbeteren tijdens het aanpassen van time-outs](#improving-message-delivery-while-accommodating-timeouts).
+   Om over het beheren van berichtlevering te leren, zie [ het Verbeteren van de Levering van het Bericht terwijl het Aanpassen van Onderbreking ](#improving-message-delivery-while-accommodating-timeouts).
 
 ## Berichtlevering verbeteren tijdens het aanpassen van time-outs
 
 De dienst van het Abonnement van de Gebeurtenis heeft een strikte onderbreking van **vijf seconden** voor alle leveringsverzoeken. Als de levering van een bericht de toegestane tijd overschrijdt, begint de dienst van het Abonnement van de Gebeurtenis een herprobeer cyclus voor dat bericht.
 
-Bijvoorbeeld, bouwt u een filter van identiteitskaart van de projectgroep gelijkend op één van de voorbeelden die in worden gevonden [Gebeurtenisberichten filteren](#filtering-event-messages) en u omvat een gegevensbestandraadpleging om te bepalen of het bericht nodig is. Het is mogelijk dat de gegevensbestandraadpleging samen met de tijd nodig voor vereiste verwerking en voor Lambda aan kou-start meer dan vijf seconden kon vergen, die de dienst van het Abonnement van de Gebeurtenis ertoe brengen om het leveren van het bericht opnieuw te proberen.
+Bijvoorbeeld, bouwt u een filter van identiteitskaart van de projectgroep gelijkend op één van de voorbeelden die in [ worden gevonden die de Berichten van de Gebeurtenis ](#filtering-event-messages) filtreren en u omvat een gegevensbestandraadpleging om te bepalen of het bericht nodig is. Het is mogelijk dat de gegevensbestandraadpleging samen met de tijd nodig voor vereiste verwerking en voor Lambda aan kou-start meer dan vijf seconden kon vergen, die de dienst van het Abonnement van de Gebeurtenis ertoe brengen om het leveren van het bericht opnieuw te proberen.
 
-U kunt een herpoging voorkomen door de tijdrovende delen van het proces te scheiden van de logica die verantwoordelijk is voor het bepalen of het bericht één is u wilt verwerken en leveren. Door dit te doen, kunt u het bericht goedkeuren en een 200-vlakke reactie op de dienst van het Abonnement van de Gebeurtenis terugsturen, terwijl het asynchroon voortzetten om het bericht op de achtergrond te verwerken of te filtreren (zie Stap 5 in [Java](#java) bijvoorbeeld).
+U kunt een herpoging voorkomen door de tijdrovende delen van het proces te scheiden van de logica die verantwoordelijk is voor het bepalen of het bericht één is u wilt verwerken en leveren. Door dit te doen, kunt u het bericht goedkeuren en een 200-vlakke reactie op de dienst van het Abonnement van de Gebeurtenis terugsturen, terwijl het asynchroon voortzetten om het bericht op de achtergrond (zie Stap 5 in [ Java ](#java) voor een voorbeeld) te verwerken of te filtreren.
 
 
 Zelfs als uw verwerking of het filtreren niet de vijf-tweede onderbreking overschrijdt, is het nog steeds voordelig om het eerste aanraakpunt van berichtfiltratie of verwerking van de andere verwerking of leveringsstappen op de cliëntkant te scheiden. Zo heeft de overdracht van het bericht aan de bestemming van de dienst van het Abonnement van de Gebeurtenis minimale tijd en prestatiesinvloed aan beide partijen.
 
-Ga voor meer informatie over het mechanisme voor opnieuw proberen naar [Abonnementspogingen voor gebeurtenissen opnieuw proberen](../../wf-api/api/event-sub-retries.md).
+Om meer over het hertry mechanisme te leren, zie [ het abonnementsherpogingen van de Gebeurtenis ](../../wf-api/api/event-sub-retries.md).
 
 ## Gehoste filters implementeren in cloudloze architectuur
 
-Als u geen cloudarchitectuur kunt gebruiken voor het filteren van abonnementen op gebeurtenissen, kunt u de voorbeelden in [Gebeurtenisberichten filteren](#filtering-event-messages) als roadmaps van hoe te om uw eigen ontvangen filters of verwerkingscomponenten uit te voeren.
+Als u geen wolkenarchitectuur voor het filtreren van het gebeurtenisabonnement kunt gebruiken, kunt u nog de voorbeelden in [ Filtrerend de Berichten van de Gebeurtenis ](#filtering-event-messages) als roadmaps van gebruiken hoe te om uw eigen ontvangen filters of verwerkingscomponenten uit te voeren.
 
 ### Het aanpassen van Filtrerende Voorbeelden voor Zelfstandige Diensten
 
@@ -288,7 +288,7 @@ Ga als volgt te werk voordat u de filtervoorbeelden gebruikt in een cloudloze om
 
 * Wijzig de aanroepen van andere Lambdas in de voorbeelden in aanvullende asynchrone HTTP-aanvragen voor andere filters of verwerkingscomponenten die u host.
 
-* Als u verwijst naar de voorbeelden Python en Node.js, vervangt u de eerste gebeurtenisparameter door de eerste parameter voor laadbewerking die in het Java-voorbeeld wordt getoond. Zie Stap 1 in [Java](#java).
+* Als u verwijst naar de voorbeelden Python en Node.js, vervangt u de eerste gebeurtenisparameter door de eerste parameter voor laadbewerking die in het Java-voorbeeld wordt getoond. Zie Stap 1 in [ Java ](#java).
 
 * De filters of processors implementeren met een webgebaseerde API.
 
@@ -330,6 +330,6 @@ Door middelen te vragen, zorgt u ervoor dat uw integrerende systemen de recentst
 
 ### Het uitvoeren van Asynchrone Verwerking in het leveren van Berichten
 
-Alle voorbeelden in het dialoogvenster [Gebeurtenisberichten filteren](#filtering-event-messages) de verantwoordelijkheid voor het afleveren van gefilterde berichten aan een andere AWS Lambda. Dit wordt gedaan vermijden overschrijdend de vijf-tweede onderbreking in het leveringsverzoek, die door de dienst van het Abonnement van de Gebeurtenis wordt afgedwongen die het verzoek uitgeeft.
+Alle voorbeelden in de [ Filtrerende sectie van de Berichten van de Gebeurtenis ](#filtering-event-messages) gaat de verantwoordelijkheid over om gefilterde berichten aan een andere AWS Lambda te leveren. Dit wordt gedaan vermijden overschrijdend de vijf-tweede onderbreking in het leveringsverzoek, die door de dienst van het Abonnement van de Gebeurtenis wordt afgedwongen die het verzoek uitgeeft.
 
 In een cloudloze architectuur, zou u een asynchroon verwerkingsmechanisme kunnen moeten uitvoeren gelijkend op hoe SDK van AWS voor asynchrone vraag aan andere Lambdas van AWS toestaat. De meeste moderne programmeertalen beschikken over bibliotheken van derden of kernbibliotheken die asynchrone verwerking afhandelen, zodat u de asynchrone verwerkingsstijl die in onze voorbeelden is geïmplementeerd, kunt benutten.

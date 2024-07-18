@@ -19,7 +19,7 @@ De geplande en werkelijke kosten van de taken en hun arbeidskosten worden bepaal
 
 U kunt het Type van Kosten voor individuele taken binnen het project vormen. Elk kostentype beïnvloedt de Geplande Kosten en de Ware Waarden van Kosten.
 
-Voor informatie over trackingkosten in Adobe Workfront raadpleegt u [Trackkosten](../../../manage-work/projects/project-finances/track-costs.md).
+Voor informatie over het volgen van kosten in Adobe Workfront, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Toegangsvereisten
 
@@ -39,32 +39,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten, taken en financiële gegevens bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten, taken en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hoger machtigingen voor een project</p> <p>Rechten voor een taak beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute- of hogere machtigingen voor een project</p> <p>Rechten voor een taak beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vorm het Type van Kosten van een individuele taak
 
 1. Ga naar de taak waar u het Type van Kosten wilt vormen.
-1. Klikken **Taakdetails** in het linkerpaneel, dan breid uit **Financiën** gebied.
-1. Dubbelklikken **Kostensoort** en selecteer het kostentype dat u op de taak wilt toepassen.
+1. Klik **Details van de Taak** in het linkerpaneel, dan breid het **Financiën** gebied uit.
+1. Dubbelklik **Type van Kosten** en selecteer het kostentype dat u op de taak wilt toepassen.
 
    ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Selecteer een van de volgende opties:
 
    * Geen kosten
-   * Vaste uren
+   * Vast uurwerk
    * Uur gebruiker
    * Rol Uur
 
-   Voor meer informatie over elk type van taakkosten, zie [Trackkosten](../../../manage-work/projects/project-finances/track-costs.md).
+   Voor meer informatie over elk type van taakkosten, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
 
-1. Klikken **Opslaan** **Wijzigingen** **.**
+1. Klik **sparen** **Veranderingen** **.**

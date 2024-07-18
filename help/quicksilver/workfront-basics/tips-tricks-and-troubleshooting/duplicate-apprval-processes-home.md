@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Dubbele goedkeuringsprocessen die in de [!UICONTROL Home Work List]
+# Dubbele goedkeuringsprocessen worden weergegeven in de [!UICONTROL Home Work List]
 
 ## Probleem
 
-U ziet meer dan één zelfde goedkeuring in uw [!UICONTROL Home Work List].
+In de [!UICONTROL Home Work List] ziet u meerdere goedkeuringen.
 
 ## Oorzaak
 

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt de interface van de tekstwijze gebruiken om complexere meningen, filters, groeperingen, en aangepaste herinneringen in lijsten en rapporten tot stand te brengen. Met de tekstmodus hebt u toegang tot velden en de bijbehorende kenmerken die niet beschikbaar zijn in de standaardmodus.
 
-Voor informatie en overwegingen over tekstwijze alvorens u begint, zie [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie en overwegingen over tekstwijze alvorens u begint, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Voor een volledige lijst van al onze te rapporteren gebieden en hun attributen, zie [API Explorer](../../../wf-api/general/api-explorer.md).
+Voor een volledige lijst van al onze te melden gebieden en hun attributen, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
 Ga naar de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
 
@@ -42,7 +42,7 @@ De volgende richtlijnen gelden voor het samenstellen van rapporten of lijsteleme
    * U kunt een object weergeven dat zich drie objecten buiten het rapport- of lijstobject in een weergave bevindt.
    * U kunt niet verwijzen naar objecten die zich meer dan twee objecten buiten het hoofdobject bevinden in een groep, filter of aangepaste vraag.
 
-  **Voorbeeld:** U kunt de naam of GUID van de Eigenaar van het Portfolio in een taakmening tonen:
+  **Voorbeeld:** u kunt de naam of GUID van de Eigenaar van het Portfolio in een taakmening tonen:
 
 
   `valuefield=project:portfolio:ownerID`
@@ -56,7 +56,7 @@ De volgende richtlijnen gelden voor het samenstellen van rapporten of lijsteleme
 
   Zie voor meer informatie over de hiërarchie van objecten in Workfront:
 
-   * [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+   * [ Begrijp voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Gebruik zoveel mogelijk jokertekens om uw rapporten en lijsten dynamischer te maken en om te voorkomen dat deze voor verschillende gebruikers en vergelijkbare tijdlijnen worden gedupliceerd.
@@ -77,7 +77,7 @@ De kenmerken van kamelendoosjes zijn:
 * De volgende woorden beginnen altijd met een hoofdletter.
 * Er zijn geen spaties tussen de woorden.
 
-**Voorbeeld:** Als u wilt verwijzen naar de datum van daadwerkelijke voltooiing van een project, is de naam van het veld dat u zou gebruiken bij het samenstellen van de tekstmodus die elementen rapporteert,
+**Voorbeeld:** om de Ware Datum van de Voltooiing van een project van verwijzingen te voorzien, de naam van het gebied dat u zou gebruiken wanneer het bouwen van tekstwijze het melden van elementen is
 
 `actualCompletionDate`
 
@@ -89,14 +89,14 @@ De volgende overeenkomsten bestaan tussen de syntaxis van de hieronder vermelde 
 
   Voor informatie over de belangrijkste lijnen van codes voor meningen en groeperingen wanneer het bouwen van hen op tekstwijze, zie:
 
-   * [Een weergave bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+   * [ geef een mening uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Tekstmodus in een groep bewerken](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * De regels van code en syntaxis zijn gelijkaardig voor filters en douaneherinneringen.
 
   Zie voor meer informatie:
 
-   * [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+   * [ geef een filter uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntaxis voor weergaven en groepen
@@ -105,10 +105,10 @@ De coderegels bij het samenstellen van weergaven en groepen zijn vergelijkbaar.
 
 Raadpleeg de volgende artikelen voor informatie over het maken van weergaven en groepen:
 
-* [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [ Overzicht van meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-De belangrijkste coderegel voor een weergave of groep is de regel die het object aangeeft waarnaar wordt verwezen in de kolom van de weergave of in de groep. Deze coderegel kan beginnen met `valuefield` of `valueexpression` op basis van of dit veld een directe verwijzing naar een Workfront-databaseveld of een berekening tussen verschillende velden is.
+De belangrijkste coderegel voor een weergave of groep is de regel die het object aangeeft waarnaar wordt verwezen in de kolom van de weergave of in de groep. Deze coderegel kan beginnen met `valuefield` of `valueexpression` op basis van het feit of dit veld een directe verwijzing naar een Workfront-databaseveld of een berekening tussen verschillende velden is.
 
 De volgende tabel bevat een lijst met de meestvoorkomende regels voor codes in een weergave of groep:
 
@@ -134,61 +134,61 @@ De volgende tabel bevat een lijst met de meestvoorkomende regels voor codes in e
 >
 >  `column.0.valuefield=name`
 >  
->  Zie voor informatie over het delen van kolommen [Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>  Voor informatie over het delen van kolommen, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 >
 
 #### `Valuefield` syntaxisoverzicht voor weergaven en groepen
 
-`Valuefield=` is een belangrijke coderegel in weergaven en groepen die het object aangeeft waarnaar u rechtstreeks verwijst.
+`Valuefield=` is een belangrijke coderegel in weergaven en groepen die het object identificeert waarnaar u rechtstreeks verwijst.
 
 De syntaxis voor velden die rechtstreeks naar velden verwijzen, is identiek voor groepen en weergaven.
 
-De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-objecten die een `valuefield` regel:
+De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-objecten die een `valuefield` -regel gebruiken:
 
 * Gebruik kameel-hoofdlettergebruik om rechtstreeks naar velden te verwijzen.
 
-  **Voorbeeld:** Als u in een taakweergave wilt verwijzen naar de datum van feitelijke voltooiing van de taak, gebruikt u de volgende regel:
+  **Voorbeeld:** om de Werkelijke Datum van de Voltooiing van de Taak in een taakmening van verwijzingen te voorzien, gebruik de volgende lijn:
 
   `valuefield=actualCompletionDate`
 
 * Gebruik kameelhoofdletters en dubbele punten om aan elkaar verwante velden voor hetzelfde object te scheiden.
 
-  **Voorbeeld:** Als u in een taakweergave wilt verwijzen naar de geplande projectuitvoeringsdatum, gebruikt u de volgende regel:
+  **Voorbeeld:** om het Project Geplande Datum van de Voltooiing in een taakmening van verwijzingen te voorzien, gebruik de volgende lijn:
 
   `valuefield=project:plannedCompletionDate`
 
-  Voor informatie over hoe objecten naar elkaar verwijzen in de Workfront-database raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
+  Voor informatie over hoe de voorwerpen naar elkaar in het gegevensbestand van Workfront van verwijzingen voorzien, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
 * Wanneer u naar een aangepast veld verwijst, gebruikt u de naam van het veld exact zoals deze in de interface wordt weergegeven.
 
-  **Voorbeeld:** Om een gebied van de projectdouane van verwijzingen te voorzien geëtiketteerd Extra Details in een taakmening, gebruik de volgende lijn:
+  **Voorbeeld:** om een gebied van de projectdouane van verwijzingen te voorzien geëtiketteerd Extra Details in een taakmening, gebruik de volgende lijn:
 
   `valuefield=project:Additional Details`
 
 #### `Valueexpression` syntaxisoverzicht voor weergaven en groepen
 
-U kunt de opdracht `valuefield=` regel met code `valueexpression=` wanneer u weergaven en groepen maakt in de tekstmodus wanneer u wilt verwijzen naar een berekening tussen twee of meer velden.
+U kunt de coderegel `valuefield=` vervangen door `valueexpression=` bij het samenstellen van weergaven en groepen in de tekstmodus als u wilt verwijzen naar een berekening tussen twee of meer velden.
 
 >[!TIP]
 >
 >Hoewel u berekende velden kunt maken die u in rapporten kunt weergeven, zijn berekende weergaven en groeperingen dynamischer. De berekende meningen en de groeperingen verfrissen zich met nieuwe informatie telkens als u het rapport in werking stelt of een lijst toont.
 >
->Zie voor informatie over het maken van berekende kolommen in een weergave [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>Voor informatie over het creëren van berekende kolommen in een mening, zie [ Berekende douanegebieden vs. berekende kolommen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 Het bouwen van een berekende groepering is gelijkaardig aan het bouwen van een berekende kolom in een mening.
 
-De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-objecten die een `valueexpression` regel:
+De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-objecten die een `valueexpression` -regel gebruiken:
 
 * Gebruik kameel-hoofdlettergebruik om rechtstreeks naar velden te verwijzen en sluit elk veld tussen accolades.
 
-  **Voorbeeld:** Om het gebied van de Naam van de Taak in een taakkolom te tonen die `valueexpression`gebruikt u de volgende regel:
+  **Voorbeeld:** om het gebied van de Naam van de Taak in een taakkolom te tonen gebruikend `valueexpression`, gebruik de volgende lijn:
 
   `valueexpression={name}`
 
 
 * Gebruik kameelhoofdletters en -punten om velden die aan elkaar zijn gerelateerd, van elkaar te scheiden.
 
-  **Voorbeeld:** Om de naam van een project te tonen dat met de naam van de taak in een taakrapport wordt aaneengeschakeld, gebruik de volgende lijnen:
+  **Voorbeeld:** om de naam van een project te tonen dat met de naam van de taak in een taakrapport wordt samengevoegd, gebruik de volgende lijnen:
 
    * In een weergave:
 
@@ -198,7 +198,7 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-  Voor informatie over hoe objecten naar elkaar verwijzen in de Workfront-database raadpleegt u de [API Explorer](../../../wf-api/general/api-explorer.md).
+  Voor informatie over hoe de voorwerpen naar elkaar in het gegevensbestand van Workfront van verwijzingen voorzien, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
 * Gebruik de volgende regels wanneer u naar een aangepast veld verwijst:
 
@@ -207,33 +207,33 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
    * Plaats het veld tussen accolades.
    * Scheid de velden die betrekking hebben op het object met punten.
 
-  **Voorbeeld:** Om het Extra het projectdouaneveld van Details in een taakmening in een lijn van de waardeuitdrukking te tonen, gebruik de volgende lijn:
+  **Voorbeeld:** om het Extra gebied van de het projectdouane van Details in een taakmening in een lijn van de waardeuitdrukking te tonen, gebruik de volgende lijn:
 
   `valueexpression={project}.{DE:Additional Details}`
 
-* U kunt jokertekens gebruiken in een `valueexpression` maar niet in een `valuefield` lijn.
+* U kunt een jokerteken gebruiken in een `valueexpression` maar niet in een `valuefield` -regel.
 
-  Voor informatie over vervangingen, zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Voor informatie over vervangingen, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` overzicht voor weergaven en groepen
 
-De tweede belangrijkste coderegel in een weergave of groep is de `valueformat=` lijn. Dit vertelt Workfront in welke notatie de waarde die u opgeeft in het dialoogvenster `valuefield` of `valueexpression` lijnen. Hoewel u verschillende indelingen kunt gebruiken voor de `valueformat` lijnen, adviseren wij altijd de volgende waarde te gebruiken wanneer het gebruiken `valueexpression`:
+De tweede belangrijkste coderegel in een weergave of groep is de regel `valueformat=` . Dit vertelt Workfront in welke notatie de waarde moet worden geretourneerd die u opgeeft in de `valuefield` - of `valueexpression` -regels. Hoewel u verschillende indelingen kunt gebruiken voor de `valueformat` -regels, raden we u aan altijd de volgende waarde te gebruiken wanneer u `valueexpression` gebruikt:
 
 `valueformat=HTML`
 
-Voor extra `valueformat` waarden, zie ook de volgende artikelen:
+Zie ook de volgende artikelen voor aanvullende `valueformat` -waarden:
 
 * [Datums opmaken in tekstmodusrapporten](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Getallen, valuta en percentagewaarden in tekstmodusrapporten opmaken](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
 #### `width` overzicht voor weergaven
 
-`width=` Dit is de coderegel waarin u de breedte van elke kolom in pixels kunt opgeven. Workfront biedt een aanbevolen breedte voor elk veld, maar afhankelijk van het type veld en de indeling kunt u de breedte aanpassen.
+`width=` is de coderegel waarin u de breedte van elke kolom in pixels kunt opgeven. Workfront biedt een aanbevolen breedte voor elk veld, maar afhankelijk van het type veld en de indeling kunt u de breedte aanpassen.
 
-U moet de extra `usewidths=true` coderegel om de voor de kolom opgegeven breedte af te dwingen.
+U moet de extra `usewidths=true` coderegel gebruiken om de voor de kolom opgegeven breedte in te stellen.
 
-**Voorbeeld:** Gebruik de volgende regels om een kolom met een breedte van 80 pixels weer te geven:
+**Voorbeeld:** om een kolom met een breedte van 80 pixel te tonen, gebruik de volgende lijnen:
 
 `width=80`
 
@@ -241,11 +241,11 @@ U moet de extra `usewidths=true` coderegel om de voor de kolom opgegeven breedte
 
 #### `stretch` overzicht voor weergaven
 
-De `stretch` wordt gebruikt om aan te geven welke kolommen extra ruimte innemen die niet nodig is voor de weergave. De breedte van de gebruikersinterface van de werkruimte voor een standaardgebruiker is ongeveer 850 pixels. Dit betekent dat als u een weergave hebt met vier kolommen (elk 150 pixels), uw weergave 600 van 850 pixels in beslag neemt. Er zijn 250 extra pixel in UI die aan de kolommen zullen worden toegevoegd die een rekbaarheidspercentage hebben verstrekt.
+`stretch` wordt gebruikt om te identificeren welke kolommen extra ruimte innemen die niet nodig is voor de weergave. De breedte van de gebruikersinterface van de werkruimte voor een standaardgebruiker is ongeveer 850 pixels. Dit betekent dat als u een weergave hebt met vier kolommen (elk 150 pixels), uw weergave 600 van 850 pixels in beslag neemt. Er zijn 250 extra pixel in UI die aan de kolommen zullen worden toegevoegd die een rekbaarheidspercentage hebben verstrekt.
 
-Het uitrekken van een kolom wordt afgedwongen wanneer u de extra coderegel gebruikt: `usewidths=true` voor ten minste een van de kolommen in de weergave.
+Het uitrekken van een kolom wordt afgedwongen wanneer u de extra coderegel: `usewidths=true` gebruikt voor ten minste een van de kolommen in de weergave.
 
-**Voorbeeld:** Als u wilt aangeven dat een kolom 70% van de lege ruimte in een weergave kan gebruiken, gebruikt u de volgende regels:
+**Voorbeeld:** om erop te wijzen dat een kolom 70% van de lege ruimte in een mening kon gebruiken, gebruik de volgende lijnen:
 
 `stretch=70`
 
@@ -261,10 +261,10 @@ De syntaxis voor het maken van filters lijkt op die voor het maken van aangepast
 
 Voor informatie over het bouwen van filters en douaneherinneringen, zie:
 
-* [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Zie voor informatie over het maken van filters in de tekstmodus [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Voor informatie over het creëren van filters op tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 U kunt de volgende elementen gebruiken om filters en aangepaste herinneringen op tekstwijze te bouwen:
 
@@ -287,4 +287,4 @@ U kunt de volgende elementen gebruiken om filters en aangepaste herinneringen op
      >
      >De schakelaars van de verklaring zijn case sensitive en altijd in hoofdletters. &quot;AND&quot; kan worden weggelaten in de tekstmodus.
 
-* Jokertekens om filters dynamischer te maken en ze aan te passen voor de huidige tijd of de gebruiker die is aangemeld. Voor informatie over vervangingen, zie [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Jokertekens om filters dynamischer te maken en ze aan te passen voor de huidige tijd of de gebruiker die is aangemeld. Voor informatie over vervangingen, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

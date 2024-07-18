@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Modules voor gegevensopslag
-description: An [!DNL Adobe Workfront Fusion] de gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario's opslaan, die het mogelijk maken om gegevens tussen individuele scenario's of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
+description: Een  [!DNL Adobe Workfront Fusion]  gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario's opslaan, makend het mogelijk om gegevens tussen individuele scenario's of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # [!UICONTROL Data store] modules
 
-An [!DNL Adobe Workfront Fusion] de gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario&#39;s opslaan, die het mogelijk maken om gegevens tussen individuele scenario&#39;s of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
+Een [!DNL Adobe Workfront Fusion] gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario&#39;s opslaan, die het mogelijk maken om gegevens tussen individuele scenario&#39;s of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 
-Met de gegevensopslagmodules kunt u records in uw [!DNL Adobe Workfront Fusion] gegevensopslag.
+Met de gegevensopslagmodules kunt u records toevoegen, vervangen, bijwerken, ophalen, verwijderen, zoeken of tellen in de [!DNL Adobe Workfront Fusion] -gegevensopslag.
 
-Voor informatie over het creëren van, het uitgeven van, en het oplossen van problemengegevensopslag, zie [Gegevensopslag in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Voor informatie bij het creëren van, het uitgeven van, en het oplossen van problemengegevensopslag, zie [ Opslag van Gegevens in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 Ga voor een video-introductie over gegevensopslag in Workfront Fusion naar:
 
-* [Gegevensopslag](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [ de Opslag van Gegevens ](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -46,41 +46,41 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!UICONTROL Data Store] modules, moet u eerst een gegevensopslag creëren.
+Als u [!UICONTROL Data Store] -modules wilt gebruiken, moet u eerst een gegevensopslag maken.
 
-Voor informatie over het maken van gegevensopslagruimten raadpleegt u [Gegevensopslag in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+Voor informatie bij het creëren van gegevensopslag, zie [ de Opslag van Gegevens in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 ## [!UICONTROL Data Store] modules en hun velden
 
-Wanneer u de modules van de Opslag van Gegevens vormt, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Naast deze opties worden mogelijk extra gegevensopslagvelden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u de modules van de Opslag van Gegevens vormt, [!DNL Workfront Fusion] toont de hieronder vermelde gebieden. Naast deze opties worden mogelijk extra gegevensopslagvelden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Alles [!UICONTROL Data Store] modules zijn ActionScript-modules.
+Alle [!UICONTROL Data Store] -modules zijn ActionScript-modules.
 
 * [Een record toevoegen/vervangen](#addreplace-a-record)
 * [Een record bijwerken](#update-a-record)
@@ -101,7 +101,7 @@ De module retourneert de id van de record en de bijbehorende velden, samen met a
 
 >[!NOTE]
 >
->De module genereert een fout wanneer u de record probeert toe te voegen die zich al in de gegevensopslag onder dezelfde naam en de [!UICONTROL Overwrite an existing record] is uitgeschakeld.
+>De module genereert een fout wanneer u de record probeert toe te voegen die zich al onder dezelfde naam in de gegevensopslag bevindt en de optie [!UICONTROL Overwrite an existing record] is uitgeschakeld.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -271,7 +271,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p> Het maximum aantal zoekresultaten instellen [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</p> </td> 
+   <td> <p> Stel het maximale aantal zoekresultaten in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 

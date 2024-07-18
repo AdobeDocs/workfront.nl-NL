@@ -37,14 +37,14 @@ U kunt de Risico&#39;s voor een project en hun Mogelijke Kosten op de volgende g
 
 * Op het tabblad Risks van het project.
 * In de Samenvatting Bedrijfs van Gevallen.\
-   Raadpleeg het artikel voor meer informatie over de Business Case of a project [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Voor meer informatie over het BedrijfsGeval van een project, zie het artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 * In een projectrapport wanneer u het Geplande gebied van de Kosten van het Risico aan de kolommen van het rapport toevoegt.\
-   Raadpleeg het artikel voor meer informatie over het samenstellen van rapporten in Workfront [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Voor meer informatie over de bouw van rapporten in Workfront, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 * In Portfolio optimizer, wanneer het project met een Portfolio, in de kolom van het Risico wordt geassocieerd.\
-   De som van alle potentiële risicokosten van alle projecten in de portefeuille komt overeen met het risico van de Portfolio.\
-   Raadpleeg het artikel voor meer informatie over de Portfolio Optimizer [Overzicht van Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  De som van alle potentiële risicokosten van alle projecten in de portefeuille vormt het risico van het Portfolio.\
+  Voor meer informatie over Portfolio Optimizer, zie het artikel [ overzicht van de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-Raadpleeg het artikel voor meer informatie over het maken van risico&#39;s voor een project [Risico&#39;s maken en bewerken voor projecten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
+Voor meer informatie over het creëren van Risken op een project, zie artikel [ risico&#39;s op projecten ](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven
 
-Raadpleeg het artikel voor meer informatie over de Business Case of a project [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Voor meer informatie over het BedrijfsGeval van een project, zie het artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.

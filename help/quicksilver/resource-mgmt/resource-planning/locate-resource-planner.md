@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Bronnen zoeken
-description: '''(Dit artikel is van toepassing: concept dat inhoud in het artikel bevat wanneer dit live gaat : /Content/Resource Management/Resource Planning/get-started-resource-planner.html)"'
+description: '(Dit kwam uit dit artikel: concept dat inhoud in het artikel als dit live verschijnt: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
 author: Alina
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
@@ -39,28 +39,28 @@ U moet het volgende hebben:
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
       </MadCap:conditionalText>
-     --></p> <p>Plan of hoger om van de Planner van het Middel in het globale gebied de plaats te bepalen</p> </td> 
+     --></p> <p>Plan of hoger om de Planner van het Middel in het globale gebied te bepalen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot of hoger weergeven voor bronnenbeheer</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen voor projecten en gebruikers weergeven </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemmingen voor projecten en gebruikers weergeven </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 Zorg ervoor dat aan alle voorwaarden voor toegang tot en het werken met de Planner van het Middel wordt voldaan alvorens het te beginnen te gebruiken. Op deze manier zorgt u ervoor dat de functie Bronnen de juiste gegevens weergeeft voordat u begint met het budgetteren van uw bronnen.
 
-Voor informatie over de voorwaarden van de Planner van het Middel, zie [Aan de slag met bronnenplanning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Voor informatie over de eerste vereisten van de Planner van het Middel, zie [ begonnen met de Planning van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Bronnen zoeken
 
@@ -70,7 +70,7 @@ Voor informatie over de voorwaarden van de Planner van het Middel, zie [Aan de s
 
 U kunt van de Planner van het Middel in twee gebieden van Workfront de plaats bepalen, afhankelijk van of u uw middelen voor veelvoudige projecten, of voor enkel één project wilt begroten.
 
-* [Gebruik de Planner van het Middel voor veelvoudige projecten](#use-the-resource-planner-for-multiple-projects)
+* [ gebruik de Planner van het Middel voor veelvoudige projecten ](#use-the-resource-planner-for-multiple-projects)
 * [Gebruik de Planner van het Middel voor één project](#use-the-resource-planner-for-one-project)
 
 ### Gebruik de Planner van het Middel voor veelvoudige projecten {#use-the-resource-planner-for-multiple-projects}
@@ -79,23 +79,23 @@ Wanneer het gebruiken van de Planner van het Middel voor veelvoudige projecten, 
 
 De sectie Planner openen in het gebied Bronnen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Bronnen**. Standaard wordt de Planner weergegeven.  Zie het artikel voor informatie over budgettering van bronnen in de functie voor middelenbeheer [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+1. Klik **Middelen**. Standaard wordt de Planner weergegeven.  Voor informatie over het opnemen van middelen in de Planner van het Middel, zie de artikel [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Houd de cursor boven het linkerdeelvenster en klik op **Brongroepen**.\
-   Voor informatie over het maken van bronnenpools raadpleegt u [Brongroepen maken](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. Beweeg over het linkerpaneel, en klik **Pools van het Middel**.\
+   Voor informatie over het creëren van middelpools, zie [ middelpools ](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 ### Gebruik de Planner van het Middel voor één project {#use-the-resource-planner-for-one-project}
 
 Wanneer het gebruiken van de Planner van het Middel voor één project, vertegenwoordigen de toewijzingsaantallen voor uw middelen aantallen voor het geselecteerde project.
 
 1. Ga naar een project waarvoor u middelen wilt begroten.
-1. Klikken **Bedrijfs-case** in het linkerdeelvenster.
-1. Naar de **Bronnen begroten** van de Business Case.
-1. Klikken **Resource Budgeting bewerken** om bronnenpools aan uw project toe te voegen en uw bronnen in de begroting op te nemen.
+1. Klik **Bedrijfs Geval** in het linkerpaneel.
+1. De rol aan de **Begrotende 1} sectie van het Middel van het BedrijfsGeval.**
+1. Klik **uitgeven Middel die** begroten om middelpools aan uw project toe te voegen en beginnen uw middelen in de begroting op te nemen.
 
    >[!TIP]
    >
@@ -103,4 +103,4 @@ Wanneer het gebruiken van de Planner van het Middel voor één project, vertegen
 
    ![](assets/resource-budgeting-area-on-project-350x70.png)
 
-   Zie het artikel voor informatie over het budgetteren van middelen voor één project [Begrotingsmiddelen in het bedrijfscase](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Voor informatie over het opnemen van middelen voor één project, zie de middelen van de artikel [ Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

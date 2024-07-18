@@ -19,12 +19,12 @@ ht-degree: 0%
 Als u meerdere velden in Adobe Workfront wilt samenvoegen en die geaggregeerde waarde wilt weergeven in een nieuw veld, kunt u het volgende maken:
 
 * Een berekend aangepast veld in een aangepast formulier\
-  Zie de sectie voor meer informatie over het toevoegen van een berekend aangepast veld aan een aangepast formulier [Een berekend veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) in het artikel [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Voor meer informatie over het toevoegen van een berekend douanegebied aan een douaneformulier, zie de sectie [ een berekend gebied aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) in het artikel [ toevoegen berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * Een berekende kolom in een weergave\
-  Zie de sectie voor meer informatie over het gebruik van berekeningen in een weergave [Tekstmodus gebruiken in weergaven](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in het artikel [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Voor meer informatie over het gebruiken van berekeningen in een mening, zie de sectie [ Wijze van de Tekst van het Gebruik in meningen ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in het artikel [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Hoewel u de tekstmodus gebruikt om zowel berekende velden als berekende kolommen samen te stellen, verschilt de syntaxis voor het samenstellen van deze velden. Raadpleeg de bovenstaande artikelen voor meer informatie over het bouwen van berekende velden en berekende kolommen. Zie de sectie voor informatie over de verschillende syntaxis die wordt gebruikt in berekende gegevensexpressies, zoals berekende aangepaste velden en kolommen [Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel.
+Hoewel u de tekstmodus gebruikt om zowel berekende velden als berekende kolommen samen te stellen, verschilt de syntaxis voor het samenstellen van deze velden. Raadpleeg de bovenstaande artikelen voor meer informatie over het bouwen van berekende velden en berekende kolommen. Voor informatie over de verschillende syntaxis die in berekende gegevensuitdrukkingen zoals berekende douanegebieden en kolommen wordt gebruikt, zie de sectie [ Syntaxis van berekende douanegebieden vs. berekende douanekolommen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel.
 
 U kunt dezelfde berekeningen gebruiken in beide berekende velden en in een berekende kolom. Afhankelijk van wat uw doel is voor deze berekeningen, kunt u echter overwegen om een voor een te bouwen.
 
@@ -61,21 +61,21 @@ De verschillen tussen de twee syntaxis zijn als volgt:
    <td><strong>Berekend aangepast rapporteringselement</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>Gebruik de naam van de velden zoals deze worden weergegeven in de Workfront-interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Voorbeeld van een veldnaam die in een berekend aangepast veld wordt gebruikt: <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Gebruik de naam van de objecten of velden zoals deze worden weergegeven in de Workfront-database. De namen van objecten en velden worden in kleine letters of hoofdletters gespeld, als het samengestelde namen betreft. </p> <p>Voor een overzicht van alle Workfront-objecten en -velden die in de database worden weergegeven, raadpleegt u <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Voorbeeld van een veldnaam die wordt gebruikt in een berekend aangepast rapporteringselement: <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Gebruik de naam van de velden zoals deze worden weergegeven in de Workfront-interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> Voorbeeld van gebiedsnaam die op een berekend douanegebied wordt gebruikt: <code>Planned Completion Date</code>.</p> </td> 
+   <td> <p>Gebruik de naam van de objecten of velden zoals deze worden weergegeven in de Workfront-database. De namen van objecten en velden worden in kleine letters of hoofdletters gespeld, als het samengestelde namen betreft. </p> <p>Voor een inventaris van alle voorwerpen en gebieden van Workfront aangezien zij in het gegevensbestand verschijnen, zie <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref"> API Ontdekkingsreiziger </a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> Voorbeeld van gebiedsnaam die in een berekend douanerapporteringselement wordt gebruikt: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Veldnamen tussen haakjes of accolades plaatsen</td> 
-   <td> <p>Veldnamen tussen haakjes of haakjes plaatsen wanneer u ze in een <code>valuefield </code>lijn.</p> <p>Veldnamen tussen accolades plaatsen wanneer ze worden gebruikt in een <code>valueexpression</code> lijn.</p> </td> 
+   <td> <p>Sluit geen gebiedsnamen in steunen of haakjes in wanneer het gebruiken van hen in a <code>valuefield </code> lijn.</p> <p>Plaats veldnamen tussen accolades wanneer u ze op een <code>valueexpression</code> -regel gebruikt.</p> </td> 
   </tr> 
   <tr> 
    <td>De velden scheiden met punten</td> 
-   <td> <p>De velden scheiden met dubbele punten wanneer u ze in een <code>valuefield</code>lijn.</p> <p>De velden van elkaar scheiden op punten wanneer u ze in een <code>valueexpression</code>lijn.</p> </td> 
+   <td> <p>Scheid de gebieden door dubbelepunten wanneer het gebruiken van hen in a <code>valuefield</code> lijn.</p> <p>Scheid de gebieden door periodes wanneer het gebruiken van hen in a <code>valueexpression</code> lijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Wanneer moeten berekende aangepaste velden worden gebruikt
 
@@ -85,10 +85,10 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 
 ## Handelingen die de update van een berekend aangepast veld activeren
 
-* Klik op het pictogram Meer op de hoofdpagina van een object ![](assets/more-icon.png)en klik vervolgens op **Expressies opnieuw berekenen**
+* Op de belangrijkste pagina van een voorwerp, klikkend het Meer pictogram ![](assets/more-icon.png), dan klikkend **opnieuw berekend Uitdrukkingen**
 
-* Bulk die meerdere objecten bewerkt wanneer **Aangepaste expressies opnieuw berekenen** is ingeschakeld
-* Een aangepast formulier bewerken wanneer **Vorige berekeningen bijwerken** is ingeschakeld voor het berekende aangepaste veld
+* Onk die veelvoudige voorwerpen uitgeven wanneer **de Uitdrukkingen van de Douane** opnieuw berekenen wordt toegelaten
+* Het uitgeven van een douaneformulier wanneer **vorige berekeningen** bijwerken wordt toegelaten voor het berekende douanegebied
 
 ## Wanneer moeten berekende kolommen in een weergave worden gebruikt
 
@@ -106,9 +106,9 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 
 ## Voorbeelden van berekende aangepaste velden en kolommen
 
-Zie voor voorbeelden van berekende aangepaste velden [Berekende aangepaste gegevens in rapporten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Voor voorbeelden van berekende douanegebieden, zie [ Berekende douanegegevens in rapporten ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
 Raadpleeg de volgende artikelen voor voorbeelden van berekende aangepaste kolommen in weergaven:
 
-* [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

@@ -20,13 +20,13 @@ Hier volgen vaak gestelde vragen over projecten.
 
 ### Antwoord
 
-Als u de invoegopties wilt gebruiken, moet de takenlijst op nummer worden gesorteerd. Als u de kolom op aantal wilt sorteren, klikt u op **Aantal** in de kolomkop links van **Taaknaam** om de taak door aantal te gebruiken.
+Als u de invoegopties wilt gebruiken, moet de takenlijst op nummer worden gesorteerd. Om de kolom door aantal te sorteren, klik **#** in de kolomkopbal links van **Naam van de Taak** om de taak door aantal opnieuw in te sorteren.
 
 ## Wat is de werkelijke einddatum?
 
 ### Antwoord
 
-De datum van daadwerkelijke voltooiing vertegenwoordigt de datum en de tijd het werk wordt voltooid. Zie voor meer informatie [Overzicht van het project Werkelijke uitvoeringsdatum](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+De datum van daadwerkelijke voltooiing vertegenwoordigt de datum en de tijd het werk wordt voltooid. Voor meer informatie, zie [ Overzicht van het project de Ware Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 ## Waarom ontbreekt de knop Inspringing/Uitspringen?
 
@@ -38,7 +38,7 @@ Als u de knop Inspringing/Uitspringen wilt gebruiken, zorgt u ervoor dat de take
 
 Ik krijg het volgende foutbericht wanneer ik probeer mijn project te markeren voltooid:
 
-![Project_FAQ_Complete_Error_message.png](assets/project-faq-complete-error-message-350x138.png)
+![ Project_FAQ_Complete_Error_message.png ](assets/project-faq-complete-error-message-350x138.png)
 
 ### Antwoord
 
@@ -51,7 +51,7 @@ U kunt de status van een project niet wijzigen om te voltooien als u een van de 
 
 ### Antwoord
 
-Als voor het project de modus Voltooien is ingesteld op Automatisch, wordt de status van het project automatisch ingesteld op Voltooien als alle taken en problemen zijn voltooid en kunt u de status niet wijzigen in een andere status. De Voltooiingswijze van het project moet aan Handboek worden geplaatst om een volledig project aan Huidig te kunnen veranderen. Zie voor meer informatie [De projectstatus verandert niet van Voltooid in Huidige](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Als voor het project de modus Voltooien is ingesteld op Automatisch, wordt de status van het project automatisch ingesteld op Voltooien als alle taken en problemen zijn voltooid en kunt u de status niet wijzigen in een andere status. De Voltooiingswijze van het project moet aan Handboek worden geplaatst om een volledig project aan Huidig te kunnen veranderen. Voor informatie, zie [ de status van het Project niet van Voltooid in Huidige ](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen.
 
 ## Waarom kan ik geen Project aan een Portfolio toevoegen, hoewel ik de correcte toestemmingen heb om dit te doen?
 
@@ -61,11 +61,11 @@ Hoewel ik de correcte toestemmingen heb, voegt de knoop van Projecten op het lus
 
 Dit wordt veroorzaakt door de status van het Portfolio die Inactief is. De status van het Portfolio wijzigen:
 
-1. Klikken op **Portfolio > Details > Overzicht**.
-1. Wijzig de **Status** tot **Actief.**
+1. Klik op **Details van het Portfolio > Overzicht**.
+1. Verander de **Status** aan **Actief.**
 
-1. Klikken **Opslaan**.\
-   De **Projecten toevoegen** moet nu zichtbaar zijn op de knop **Projecten** tab.
+1. Klik **sparen**.\
+   **voeg Projecten** knoop toe zou nu op de **Projecten** tabel zichtbaar moeten zijn.
 
 ## Welke toegang ontvangt een Manager van het Middel wanneer toegevoegd aan een project?
 
@@ -79,7 +79,7 @@ De Managers van het middel ontvangen automatisch leiden toegang tot projecten. A
 
 De status van het project verandert als gevolg van de standaardstatus van de groep. Wanneer u een groep aan een project toevoegt, verandert het de lijst van statussen in de standaardstatussen die voor de groep worden geplaatst.
 
-Zie het artikel voor meer informatie [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Voor meer informatie, zie het artikel [ creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 
 ## Wat is de begrotingsstatus?
 
@@ -101,4 +101,4 @@ De beheerder van Adobe Workfront beperkte u tot het bekijken van slechts Bedrijv
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Voor informatie over het toelaten van een gebruiker om alle teams in het systeem te bekijken, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Voor informatie over het toelaten van een gebruiker om alle teams in het systeem te bekijken, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.

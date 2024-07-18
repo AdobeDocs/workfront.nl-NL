@@ -18,20 +18,20 @@ ht-degree: 0%
 
 # [!DNL Salesforce] modules
 
-In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Salesforce]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Salesforce] gebruiken en er verbinding mee maken met meerdere toepassingen en services van derden.
 
 Voor een video-introductie van de Salesforce-connector raadpleegt u:
 
-* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
+* [ Salesforce ](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 >[!NOTE]
 >
->* Niet alle edities van [!DNL Salesforce] API-toegang hebben. Zie de informatie over [!DNL Salesforce] edities met API-toegang op de [!DNL Salesforce] Community site.
->* Voor informatie over specifieke fouten die door de [!DNL Salesforce] API, zie [!DNL Salesforce] API-documenten. U kunt ook de status van het dialoogvenster [!DNL Salesforce] API voor mogelijke uitvallen van de service.
+>* Niet alle versies van [!DNL Salesforce] hebben API-toegang. Zie voor meer informatie de informatie over [!DNL Salesforce] -edities met API-toegang op de [!DNL Salesforce] -communitysite.
+>* Zie de API-documenten van [!DNL Salesforce] voor informatie over specifieke fouten die door de [!DNL Salesforce] API worden geretourneerd. U kunt ook de status van de [!DNL Salesforce] API controleren op mogelijke uitval van de service.
 >
 
 ## Toegangsvereisten
@@ -53,31 +53,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Salesforce] modules, moet u een [!DNL Salesforce] account.
+Als u [!DNL Salesforce] -modules wilt gebruiken, moet u een [!DNL Salesforce] -account hebben.
 
-## Informatie over zoeken naar [!DNL Salesforce] objecten
+## Informatie over zoeken naar [!DNL Salesforce] -objecten
 
 Bij het zoeken naar objecten kunt u afzonderlijke zoekwoorden invoeren of een complexere query maken met behulp van jokertekens en operatoren:
 
@@ -85,12 +85,12 @@ Bij het zoeken naar objecten kunt u afzonderlijke zoekwoorden invoeren of een co
 * Wilde kaart met vraagteken gebruiken (?) als vervanging van één teken. Bijvoorbeeld, vindt een onderzoek naar Jo?n punten met de term John of Joan maar niet Jon
 * Gebruik de operator voor aanhalingstekens (&quot; &quot;) om een exacte woordovereenkomst te zoeken. Bijvoorbeeld: &quot;Maandvergadering&quot;
 
-Raadpleeg voor meer informatie over zoekmogelijkheden de [!DNL Salesforce] ontwikkelaarsdocumentatie over SOQL en SOSL.
+Zie de [!DNL Salesforce] documentatie voor ontwikkelaars over SOQL en SOSL voor meer informatie over zoekmogelijkheden.
 
 ## [!DNL Salesforce] modules en hun velden
 
-* [Triggers](#triggers)
-* [Handelingen](#actions)
+* [ Trekkers ](#triggers)
+* [ Acties ](#actions)
 * [Zoekopdrachten](#searches)
 
 ### Triggers
@@ -111,11 +111,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type] </td> 
-   <td> <p>Selecteer het type van [!DNL Salesforce] neem op dat u de module wilt letten.</p> </td> 
+   <td> <p>Selecteer het type [!DNL Salesforce] -record waarin de module moet worden opgenomen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Fields]</td> 
@@ -138,27 +138,27 @@ Deze trekkermodule voert een scenario uit wanneer iemand een bericht verzendt. D
 
 Voor deze module is extra installatie vereist:
 
-1. Ga naar de [!DNL Salesforce] instellingspagina.
+1. Ga naar de instellingspagina van [!DNL Salesforce] .
 
-   Zoek en klik op de knop met het label &quot;[!UICONTROL Setup]&quot; in de rechterbovenhoek van het [!DNL Salesforce] account. Van de [!DNL Salesforce] opstellingspagina, zoek de map &quot;[!UICONTROL Quick Find / Search]&quot; aan de linkerzijde. Zoeken naar &quot;[!UICONTROL Workflow Rules].&quot;
+   Ga naar de knop met het label &quot; [!UICONTROL Setup]&quot; in de rechterbovenhoek van het [!DNL Salesforce] -account en klik op deze knop om de instellingspagina te openen. Van de [!DNL Salesforce] opstellingspagina, bepaal de plaats van de &quot;[!UICONTROL Quick Find / Search]&quot;bar op de linkerkant. Zoek naar &quot;[!UICONTROL Workflow Rules].&quot;
 
 1. Klik op **[!UICONTROL Workflow Rules]**.
-1. Op de [!UICONTROL Workflow Rules] pagina die wordt weergegeven, klikt u op **[!UICONTROL New Rule]** en selecteer het objecttype waarop de regel van toepassing is (bijvoorbeeld &quot;[!UICONTROL Opportunity]&quot; als u updates van de verslagen van de Opportunity controleert).
+1. Voor de [!UICONTROL Workflow Rules] pagina die verschijnt, klik **[!UICONTROL New Rule]** en selecteer het objecten type de regel zal van toepassing zijn (zoals &quot; [!UICONTROL Opportunity]&quot;als u updates aan verslagen van de Opportunity controleert).
 1. Klik op **[!UICONTROL Next]**.
-1. Plaats een regelnaam, evaluatiecriteria, en regelcriteria, dan klik **[!UICONTROL Save]** en **[!UICONTROL Next]**.
+1. Stel een regelnaam, evaluatiecriteria en regelcriteria in en klik op **[!UICONTROL Save]** en **[!UICONTROL Next]** .
 
 1. Klik op **[!UICONTROL Done]**.
-1. Klik op de regel Nieuw workflow **[!UICONTROL Edit]**..
+1. Klik op **[!UICONTROL Edit]**..
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Add Workflow Action]** de optie **[!UICONTROL New Outbound Message]**.
 
-1. Geef een naam, beschrijving, URL van eindpunt en velden op die u wilt opnemen in het nieuwe uitgaande bericht en klik vervolgens op **[!UICONTROL Save]**.
+1. Geef een naam, beschrijving, URL van eindpunt en velden op die u in het nieuwe uitgaande bericht wilt opnemen en klik op **[!UICONTROL Save]** .
 
-   De **[!UICONTROL Endpoint URL]** bevat de URL die is opgegeven in het veld [!DNL Salesforce] [!UICONTROL Outbound Message] in [!DNL Workfront Fusion].
+   Het veld **[!UICONTROL Endpoint URL]** bevat de URL die wordt opgegeven in de lus [!DNL Salesforce] [!UICONTROL Outbound Message] in [!DNL Workfront Fusion] .
 
-1. Vorm een scenario dat met begint [!UICONTROL Outbound Message] gebeurtenis.
+1. Configureer een scenario dat begint met de gebeurtenis [!UICONTROL Outbound Message] .
 
-1. Klik op de knop **&lt;/>** in de rechterbenedenhoek en kopieer de opgegeven URL.
-1. Terugkeren naar de **[!UICONTROL Workflow Rules]** pagina, zoek de nieuwe regel en klik op **[!UICONTROL Activate]**.
+1. Klik **&lt;/>** pictogram in het bodemrecht en kopieer verstrekte URL.
+1. Ga terug naar de pagina **[!UICONTROL Workflow Rules]** , zoek de nieuwe regel en klik op **[!UICONTROL Activate]** .
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -168,11 +168,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken. Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de website in.</p> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken. Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de webhaak in.</p> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Selecteer het type van [!DNL Salesforce] verslag dat u de module voor uitgaande berichten wilt letten.</p> </td> 
+   <td> <p>Selecteer het type [!DNL Salesforce] record dat de module moet controleren voor uitgaande berichten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fields]</td> 
@@ -183,7 +183,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### *[!UICONTROL Watch a field]*
 
-Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL Salesforce].
+Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL Salesforce] .
 
 <table style="table-layout:auto"> 
  <col> 
@@ -191,11 +191,11 @@ Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Selecteer het type record dat het veld bevat waarop de module moet letten. U moet een recordtype kiezen dat [!UICONTROL Field History] ingeschakeld [!DNL Salesforce] instellen. Zie voor meer informatie <a href="https://help.salesforce.com/articleView?id=tracking_field_history.htm&amp;type=5">Veldhistorie bijhouden</a> in de [!DNL Salesforce] documentatie. </p> </td> 
+   <td> <p>Selecteer het type record dat het veld bevat waarop de module moet letten. Kies een recordtype waarvoor [!UICONTROL Field History] is ingeschakeld in [!DNL Salesforce] . Voor meer informatie, zie <a href="https://help.salesforce.com/articleView?id=tracking_field_history.htm&amp;type=5"> het Volgen van de Geschiedenis van het Gebied </a> in de [!DNL Salesforce] documentatie. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Field]</td> 
@@ -233,11 +233,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Record Type] </p> </td> 
-   <td> <p>Selecteer het type van [!DNL Salesforce] record die u met de module wilt maken. Velden worden beschikbaar op basis van het type record dat is geselecteerd in het dialoogvenster [!UICONTROL Record Type] veld. Deze velden zijn gebaseerd op de [!DNL Salesforce] API.</p> </td> 
+   <td> <p>Selecteer het type [!DNL Salesforce] record dat u met de module wilt maken. Velden worden beschikbaar op basis van het type record dat is geselecteerd in het veld [!UICONTROL Record Type] . Deze velden zijn gebaseerd op de API van [!DNL Salesforce] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select fields to map]</td> 
@@ -248,7 +248,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Read a Record]
 
-Deze actiemodule leest gegevens van één object in [!DNL Salesforce].
+Deze actiemodule leest gegevens van één object in [!DNL Salesforce] .
 
 U geeft de id van de record op.
 
@@ -262,11 +262,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr>
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Record Type]</td>
-    <td>Selecteer het type van [!DNL Salesforce] record dat u de module [action].read wilt.</td>
+    <td>Selecteer het type [!DNL Salesforce] record dat de module [action].read moet gebruiken.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Record Fields]</td>
@@ -274,7 +274,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr>
     <td>[!UICONTROL ID]</td>
-    <td> <p>De unieke sleutel invoeren of toewijzen [!DNL Salesforce] Id van de record die de module moet lezen.</p> <p>Als u de id wilt ophalen, opent u de [!DNL Salesforce] -object in uw browser en kopieer de tekst aan het einde van de URL na de laatste slash (/). Bijvoorbeeld: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
+    <td> <p>Voer de unieke [!DNL Salesforce] -id in of wijs deze toe aan de record die u wilt lezen in de module.</p> <p>Als u de id wilt ophalen, opent u het object [!DNL Salesforce] in uw browser en kopieert u de tekst aan het einde van de URL na de laatste schuine streep (/). Bijvoorbeeld: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -295,31 +295,31 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Selecteer het type van [!DNL Salesforce] record die u wilt verwijderen.</p> </td> 
+   <td> <p>Selecteer het type [!DNL Salesforce] -record dat u wilt verwijderen door de module.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>De unieke sleutel invoeren of toewijzen [!DNL Salesforce] Id van de record die u wilt verwijderen uit de module.</p> <p>Als u de id wilt ophalen, opent u de [!DNL Salesforce] -object in uw browser en kopieer de tekst aan het einde van de URL na de laatste slash (/). Bijvoorbeeld: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+   <td> <p>Voer de unieke [!DNL Salesforce] -id in of wijs deze toe aan de record die u wilt verwijderen door de module.</p> <p>Als u de id wilt ophalen, opent u het object [!DNL Salesforce] in uw browser en kopieert u de tekst aan het einde van de URL na de laatste schuine streep (/). Bijvoorbeeld: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Custom API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Salesforce] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Salesforce] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Salesforce] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Salesforce] -modules kan worden uitgevoerd.
 
 De module retourneert het volgende:
 
-* **[!UICONTROL Status Code]** (getal): Dit geeft aan of uw HTTP-aanvraag is geslaagd of mislukt. Dit zijn standaardcodes die u kunt opzoeken op internet.
+* **[!UICONTROL Status Code]** (nummer): Dit geeft aan of uw HTTP-aanvraag is geslaagd of mislukt. Dit zijn standaardcodes die u kunt opzoeken op internet.
 * **[!UICONTROL Headers]** (object): een gedetailleerdere context voor de respons-/statuscode die geen betrekking heeft op de hoofdtekst van de uitvoer. Niet alle kopteksten in een antwoordkoptekst zijn reactiekoppen. Sommige koppen zijn daarom niet altijd even handig.
 
   De antwoordheaders zijn afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module.
 
-* **[!UICONTROL Body]** (object): afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module, ontvangt u mogelijk gegevens terug. Deze gegevens, zoals de gegevens van een [!UICONTROL GET] request, bevindt zich in dit object.
+* **[!UICONTROL Body]** (object): afhankelijk van de HTTP-aanvraag die u hebt gekozen bij het configureren van de module, ontvangt u mogelijk gegevens terug. Die gegevens, zoals de gegevens van een [!UICONTROL GET] aanvraag, bevinden zich in dit object.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -329,19 +329,19 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Een pad invoeren ten opzichte van<code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>Voor de lijst met beschikbare eindpunten raadpleegt u de <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Handleiding voor ontwikkelaars van Salesforce REST API</a>.</p> </td> 
+   <td> <p>Ga een weg met betrekking tot <code> &lt;Instance URL&gt;/services/data/v46.0/</code> in.</p> <p>Voor de lijst van beschikbare eindpunten, verwijs naar de <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm"> Gids van de Ontwikkelaar van de REST API van Salesforce </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld: <code>{"Content-type":"application/json"}</code>. Workfront Fusion voegt de machtigingsheaders voor u toe.</p> </td> 
+   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld <code>{"Content-type":"application/json"}</code> . Workfront Fusion voegt de machtigingsheaders voor u toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -349,7 +349,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -359,19 +359,19 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 >[!INFO]
 >
->**Voorbeeld:** De volgende API-aanroep retourneert de lijst met alle gebruikers in uw [!DNL Salesforce] account:
+>**Voorbeeld:** de volgende API vraag keert de lijst van alle gebruikers in uw [!DNL Salesforce] rekening terug:
 >
 >* **URL**: `query`
 >
 >* **Methode**: [!UICONTROL GET]
 >
->* **Tekenreeks query**:
+>* **Koord van de Vraag**:
 >
 >* **Sleutel**: `q`
 >
 >* **Waarde**: `SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10`
 >
->De gelijken van het onderzoek kunnen in de Output van de module onder worden gevonden **[!UICONTROL Bundle]> [!UICONTROL Body] >[!UICONTROL records]**.
+>Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder **[!UICONTROL Bundle]> [!UICONTROL Body] >[!UICONTROL records]** .
 >
 >In ons voorbeeld werden 6 gebruikers geretourneerd:
 >
@@ -392,7 +392,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type of Upload]</td> 
@@ -400,11 +400,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Voer de id in of wijs de id toe van het object waarnaar u een bijlage wilt uploaden.</td> 
+   <td>Voer de id in of wijs deze toe aan het object waarnaar u een bijlage wilt uploaden.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td>Selecteer de map met het bestand dat u wilt uploaden in de module. </td> 
+   <td>Selecteer de map met het bestand dat de module moet uploaden. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source File]</td> 
@@ -419,9 +419,9 @@ Deze actiemodule downloadt een document of bijlage uit een record.
 
 U geeft de id van de record op en het gewenste type download.
 
-De module retourneert de id van de bijlage of het document en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de id van de bijlage of het document en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die de verbinding opent. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-Als u deze module configureert, worden de volgende velden weergegeven.
+Wanneer u deze module configureert, worden de volgende velden weergegeven.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -429,7 +429,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr>
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Type of Download]</td>
@@ -437,12 +437,12 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <ul> 
       <li>[!UICONTROL Attachment]</li> 
       <li>[!UICONTROL Document]</li> 
-      <li>[!UICONTROL ContentDocument] (Dit is een document dat is geüpload naar een bibliotheek in [!DNL Saleforce CRM Content] of [!DNL Salesforce Files].)</li> 
+      <li>[!UICONTROL ContentDocument] (Dit is een document dat is geüpload naar een bibliotheek in [!DNL Saleforce CRM Content] of [!DNL Salesforce Files] .)</li> 
      </ul> </td>
   </tr> 
   <tr>
     <td> <p>[!UICONTROL ID] / </p> <p>[!UICONTROL Attachment ID] / </p> <p>[!UICONTROL ContentDocument ID]</p> </td>
-    <td> <p>De unieke sleutel invoeren of toewijzen [!DNL Salesforce] Id van de record die de module moet downloaden.</p> <p>Als u de id wilt ophalen, opent u de [!DNL Salesforce] -object in uw browser en kopieer de tekst aan het einde van de URL na de laatste slash (/). Bijvoorbeeld: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
+    <td> <p>Voer de unieke [!DNL Salesforce] -id in of wijs deze toe aan de record die u wilt downloaden met de module.</p> <p>Als u de id wilt ophalen, opent u het object [!DNL Salesforce] in uw browser en kopieert u de tekst aan het einde van de URL na de laatste schuine streep (/). Bijvoorbeeld: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -464,7 +464,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
@@ -472,7 +472,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Record Type] </p> </td> 
-   <td> <p>Selecteer het type van [!DNL Salesforce] record dat de module moet worden bijgewerkt. Velden worden beschikbaar op basis van het type record dat is geselecteerd in het veld Recordtype. Deze velden zijn gebaseerd op de [!DNL Salesforce] API.</p> </td> 
+   <td> <p>Selecteer het type [!DNL Salesforce] record dat u wilt bijwerken in de module. Velden worden beschikbaar op basis van het type record dat is geselecteerd in het veld Recordtype. Deze velden zijn gebaseerd op de API van [!DNL Salesforce] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select fields to map]</td> 
@@ -485,7 +485,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Search with Query]
 
-Deze zoekmodule zoekt naar records in een object in [!DNL Salesforce] die overeenkomen met de zoekquery die u opgeeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+Deze zoekmodule zoekt naar records in een object in [!DNL Salesforce] dat overeenkomt met de zoekquery die u opgeeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -495,7 +495,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search Type]</td> 
@@ -508,11 +508,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Type] </p> </td> 
-   <td> <p>Als u het eenvoudige zoektype hebt geselecteerd, kiest u het type van [!DNL Salesforce] record waarnaar u wilt zoeken in de module.</p> </td> 
+   <td> <p>Als u het eenvoudige zoektype hebt geselecteerd, kiest u het type [!DNL Salesforce] -record waarnaar u in de module wilt zoeken.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>Voer de query in waarop u wilt zoeken.</p> <p>Zie voor meer informatie over SOSL <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> in de [!DNL Salesforce] documentatie.</p> <p>Zie voor meer informatie over SOQL <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> in de [!DNL Salesforce] documentatie.</p> <p>Opmerking: de waarde van de parameter <code>RETURNING </code>beïnvloedt de output van de module. Als u <code>LIMIT</code>, [!DNL Fusion] de instellingen in het dialoogvenster [!UICONTROL Maximal count of records] veld. Als u geen limiet instelt, voegt Fusion de waarde in [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
+   <td> <p>Voer de query in waarop u wilt zoeken.</p> <p>Voor meer informatie over SOSL, zie {de Taal van het Onderzoek van de Objecten van 0} Salesforce van de Taal (SOSL) </a> in de [!DNL Salesforce] documentatie.<a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm"></p> <p>Voor meer informatie over SOQL, zie {de Taal van de Vraag van de Vraag van de Objecten van 0} Salesforce (SOQL) </a> in de [!DNL Salesforce] documentatie.<a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm"></p> <p>Nota: Gelieve te merken op dat de waarde van de parameter <code>RETURNING </code> de output van de module beïnvloedt. Als u <code>LIMIT</code> gebruikt, negeert [!DNL Fusion] de instellingen in het veld [!UICONTROL Maximal count of records] . Als u geen limiet instelt, voegt Fusion de waarde [!UICONTROL LIMIT = Maximal count of records] in.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximal count of records]</td> 
@@ -531,7 +531,7 @@ Deze actiemodule wint alle verslagen terug die aan een bepaalde criteria voldoen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met[!DNL  Adobe Workfront Fusion] - Basisinstructies</a></td> 
+   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 

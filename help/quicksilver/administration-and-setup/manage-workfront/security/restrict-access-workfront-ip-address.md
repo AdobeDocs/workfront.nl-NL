@@ -10,7 +10,7 @@ role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
 source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -39,26 +39,26 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Overige lijsten van gewenste personen
 
-Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Zie voor meer informatie hierover [De lijst van gewenste personen van uw firewall configureren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Zie voor meer informatie [Uw e-maillijst van gewenste personen configureren](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [ uw e-maillijst van gewenste personen ](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
 
 ## IP adressen toevoegen aan de lijst van gewenste personen
 
 Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, slechts kunnen die IP adressen worden gebruikt om tot Workfront toegang te hebben. Gebruikers die Workfront proberen te openen vanaf een ander IP-adres ontvangen een foutbericht om aan te geven dat hun IP-adres is geblokkeerd.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Systeem** > **Klantgegevens.**
+1. Klik **Systeem** > **Info van de Klant.**
 
-1. In de **IP lijst van gewenste personen** sectie, selecteert u **Laat IP lijst van gewenste personen toe.**
+1. In de **sectie van de lijst van gewenste personen van 0} IP, uitgezochte** laat IP lijst van gewenste personen toe.****
 
    Deze optie is standaard uitgeschakeld.
 
@@ -66,13 +66,13 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 
    of
 
-   Geef een bereik van IP-adressen op dat het adres bevat dat u momenteel gebruikt voor toegang tot het Workfront-systeem.
+   Geef een bereik van IP-adressen op dat het adres bevat dat u momenteel gebruikt om toegang te krijgen tot het Workfront-systeem.
 
    Het IP adres u gebruikt om tot Workfront toegang te hebben moet aan de lijst van gewenste personen worden toegevoegd alvorens de lijst van gewenste personen wordt toegelaten.
 
-1. Klikken **IP-bereik toevoegen,** Geef vervolgens het IP-adres of het IP-bereik op van de IP-adressen waartoe u Workfront wilt kunnen openen.
+1. Klik **toevoegen IP Waaier,** dan specificeer het IP adres of de waaier van IP adressen die u tot Workfront wilt kunnen toegang hebben.
 1. (Optioneel) Herhaal de vorige stap om extra IP-adressen of IP-adresbereiken toe te voegen.
 
    U kunt maximaal 45 adressen of bereiken toevoegen.
 
-1. Klikken **Opslaan.**
+1. Klik **sparen.**

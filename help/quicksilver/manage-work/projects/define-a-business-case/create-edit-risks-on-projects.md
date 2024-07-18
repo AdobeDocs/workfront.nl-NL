@@ -21,7 +21,7 @@ Risico&#39;s kunnen verband houden met kosten, maar de werkelijke risicokosten h
 
 >[!NOTE]
 >
->Dit artikel bepaalt de risico&#39;s verbonden aan het project aangezien u hen in het BedrijfsGeval van het project of aangezien u hen in het lusje van Risken van het project toevoegt. Voor informatie over het gebied van het Risico dat beschikbaar is wanneer het uitgeven van een project, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Dit artikel bepaalt de risico&#39;s verbonden aan het project aangezien u hen in het BedrijfsGeval van het project of aangezien u hen in het lusje van Risken van het project toevoegt. Voor informatie over het gebied van het Risico dat wanneer het uitgeven van een project beschikbaar is, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -41,89 +41,89 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Machtigingen beheren die onder meer de functie Financiën beheren voor het project waarvoor u risico's wilt maken of bewerken </p> <p>Voor meer informatie over projecttoestemmingen, zie het artikel <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Machtigingen beheren die onder meer de functie Financiën beheren voor het project waarvoor u risico's wilt maken of bewerken </p> <p>Voor meer informatie over projecttoestemmingen, zie het artikel <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Risico&#39;s maken en bewerken in Business Case
 
-U kunt risico&#39;s tot stand brengen als deel van het plannen van het BedrijfsGeval van een project. U kunt hen in het BedrijfsGeval later uitgeven, wanneer de veranderingen in hun waarschijnlijkheid, matigingsplan, of kosten, bijvoorbeeld voorkomen. Voor informatie over het creëren van een BedrijfsGeval, zie [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+U kunt risico&#39;s tot stand brengen als deel van het plannen van het BedrijfsGeval van een project. U kunt hen in het BedrijfsGeval later uitgeven, wanneer de veranderingen in hun waarschijnlijkheid, matigingsplan, of kosten, bijvoorbeeld voorkomen. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-Uw Workfront-beheerder of groepsbeheerder moet **Risico&#39;s** in uw BedrijfsGeval in het gebied van de Voorkeur van het Project alvorens u het op het projectniveau in de sectie Bedrijfs van het Geval kunt bekijken. Voor informatie over het instellen van projectvoorkeuren raadpleegt u [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Uw beheerder van Workfront of groepsbeheerder moet de **sectie van Risken** in uw BedrijfsGeval in het gebied van de Voorkeur van het Project toelaten alvorens u het op het projectniveau in de BedrijfsGevallensectie kunt bekijken. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Het creëren en het uitgeven van risico&#39;s in het BedrijfsGeval is identiek.
 
 Een risico maken of bewerken in de Business Case:
 
 1. Ga naar het project waarvoor u risico&#39;s wilt creëren.
-1. Klikken **Bedrijfs-case** in het linkerdeelvenster.
-1. In de **Risico&#39;s** sectie, klikt u op **Risico&#39;s bewerken**.
+1. Klik **Bedrijfs Geval** in het linkerpaneel.
+1. In de **sectie van Risico&#39;s**, klik **uitgeven Risks**.
 1. Voer de volgende gegevens in of bewerk deze:
 
-   * **Omschrijving:** een beschrijving van het risico.
+   * **Beschrijving:** beschrijf het risico.
 
-   * **Potentiële kosten**: de geraamde kosten vermelden indien het risico zich zou voordoen.
+   * **Potentiële Kosten**: wijs op de geschatte kosten als het risico zou moeten voorkomen.
 
-   * **Waarschijnlijkheid**: de waarschijnlijkheid dat het risico zich voordoet als een procentuele waarde aangeven.
+   * **Kans**: wijs op de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
 
-   * **Type:** aangeven onder welke categorie het risico valt.
-   * **Beheersplan**: de beschrijving van het plan bijwerken om het risico te beperken.
+   * **Type:** wijs op welke categorie het risico onder valt.
+   * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
 
-   * **Kosten voor matiging**: Geef de kosten aan van het mitigatieplan dat u moet invoeren om het risico te voorkomen.
+   * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
 
    ![](assets/crp1-350x117.png)
 
-1. (Optioneel) Klik op **Nog een risico toevoegen** om extra risico&#39;s toe te voegen.
-1. Klikken **Opslaan**.
+1. (Facultatief) klik **Voeg een ander Risico** toe om extra risico&#39;s toe te voegen.
+1. Klik **sparen**.
 
-## Risico&#39;s maken en bewerken in het gebied Risico&#39;s
+## Risico&#39;s maken en bewerken in het risicogebied
 
-Naast het creëren van en het uitgeven van risico&#39;s in het BedrijfsGeval, kunt u dit doen gebruikend **Risico&#39;s** van een project.
+Naast het creëren van en het uitgeven van risico&#39;s in het BedrijfsGeval, kunt u dit doen gebruikend de **sectie van Risken** van een project.
 
-* [Risico&#39;s creëren in het risicogebied](#create-risks-in-the-risks-area)
+* [ creeer risico&#39;s op het gebied van Risken ](#create-risks-in-the-risks-area)
 * [Risico&#39;s bewerken in het risicogebied](#edit-risks-in-the-risks-area)
 
 ### Risico&#39;s creëren in het risicogebied {#create-risks-in-the-risks-area}
 
 1. Ga naar het project u risico&#39;s voor wilt creëren.
-1. Klikken **Risico&#39;s** in het linkerdeelvenster.
+1. Klik **Risks** in het linkerpaneel.
 
-   ![Sectie met risico&#39;s van taak](assets/risks-section-on-project-2022.png)
+   ![ sectie van de Risico&#39;s van taak ](assets/risks-section-on-project-2022.png)
 
-1. Klikken **Risico&#39;s toevoegen starten** en risico&#39;s te maken door de informatie online te bewerken.
+1. Klik **Begin Toevoegend Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie.
 
    of
 
-   Klikken **Nieuw risico**. De **Nieuw risico** wordt geopend.
+   Klik **Nieuw Risico**. Het **Nieuwe de dialoogvakje van het Risico** opent.
 
 1. Voer de volgende gegevens in:
 
-   * **Beschrijving**: een beschrijving van het risico.
-   * **Type risico**: aangeven onder welke categorie het risico valt.\
-      Uw Workfront-beheerder definieert de typen risico&#39;s die beschikbaar zijn in uw omgeving. Zie het artikel voor informatie over het definiëren van risicokypen [Risicotypen bewerken en maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+   * **Beschrijving**: beschrijf het risico.
+   * **Type van Risico**: wijs op welke categorie het risico onder valt.\
+     Uw Workfront-beheerder definieert de typen risico&#39;s die beschikbaar zijn in uw omgeving. Voor informatie over het bepalen van de Types van Risico, zie het artikel [ uitgeven en creeer risicstypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-   * **Waarschijnlijkheid**: de waarschijnlijkheid dat het risico zich voordoet als een procentuele waarde aangeven.
-   * **Potentiële kosten**: de geraamde kosten vermelden indien het risico zich zou voordoen.
-   * **Kosten voor matiging**: Geef de kosten aan van het mitigatieplan dat u moet invoeren om het risico te voorkomen.
-   * **Werkelijke kosten**: de werkelijke kosten van het risico indien het risico zich heeft voorgedaan.
-   * **Beheersplan**: de beschrijving van het plan bijwerken om het risico te beperken.
+   * **Kans**: wijs op de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
+   * **Potentiële Kosten**: wijs op de geschatte kosten als het risico zou moeten voorkomen.
+   * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
+   * **Ware Kosten**: wijs op de daadwerkelijke kosten van het risico als het risico voorkwam.
+   * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
 
-1. (Voorwaardelijk) Klik **Enter** als u het risico online creeert.
+1. (Voorwaardelijk) klik **binnengaan** als u het risico in-lijn creeert.
 
    of
 
-   Klikken **Opslaan** als u de gegevens in het dialoogvenster **Nieuw risico** in.
+   Klik **sparen** als u de informatie in het **Nieuwe de dialoogvakje van het Risico** uitgeeft.
 
-1. (Optioneel) Selecteer een andere **Status** voor het risico, in de **Status** vervolgkeuzelijst, bij het toepassen van de **Standaard** de lijst met risico &#39; s wordt weergegeven .
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
-   Standaard is de status van een risico **Geïdentificeerd**.
+   Door gebrek, wordt de Status van een risico **geïdentificeerd**.
 
 ### Risico&#39;s bewerken in het risicogebied {#edit-risks-in-the-risks-area}
 
@@ -134,32 +134,32 @@ U kunt één risico tegelijkertijd uitgeven, of u kunt veelvoudige risico&#39;s 
 Risico&#39;s bewerken:
 
 1. Navigeer naar een project waarvoor u bestaande risico&#39;s wilt bewerken.
-1. Klikken **Risico&#39;s** in het linkerdeelvenster.
+1. Klik **Risks** in het linkerpaneel.
 1. Begin online het uitgeven van de gebieden voor de risico&#39;s u in de lijst ziet om één risico tegelijkertijd uit te geven.
 
    of
 
-   Selecteer een of meerdere risico&#39;s en klik op **Bewerken** meerdere risico&#39;s tegelijk bewerken.
+   Selecteer één of verscheidene risico&#39;s, dan klik **uitgeven** om veelvoudige risico&#39;s tezelfdertijd uit te geven.
 
    >[!NOTE]
    >
    >U past dezelfde informatie toe op alle geselecteerde risico&#39;s wanneer u meerdere risico&#39;s tegelijk bewerkt. De informatie die aan elk risico voorafgaand aan uw veranderingen wordt geassocieerd wordt beschreven in bulkgeef uit.
 
-1. Als u hebt geklikt **Bewerken** de **Risico bewerken** wordt geopend.
+1. Als u **hebt geklikt geef** uit, **geeft het 3} dialoogvakje van het Risico {uit opent.**
 
    U kunt de volgende velden bewerken:
 
-   * **Beschrijving**: de beschrijving van het risico te bewerken.
-   * **Type risico**: aangeven onder welke categorie het risico valt.
-   * **Waarschijnlijkheid**: de waarschijnlijkheid dat het risico zich voordoet als een procentuele waarde aangeven.
-   * **Potentiële kosten**: de geraamde kosten vermelden indien het risico zich zou voordoen.
-   * **Kosten voor matiging**: Geef de kosten aan van het mitigatieplan dat u moet invoeren om het risico te voorkomen.
-   * **Werkelijke kosten**: de werkelijke kosten van het risico indien het risico zich heeft voorgedaan.
-   * **Beheersplan**: de beschrijving van het plan bijwerken om het risico te beperken.
+   * **Beschrijving**: geef de beschrijving van het risico uit.
+   * **Type van Risico**: wijs op welke categorie het risico onder valt.
+   * **Kans**: wijs op de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
+   * **Potentiële Kosten**: wijs op de geschatte kosten als het risico zou moeten voorkomen.
+   * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
+   * **Ware Kosten**: wijs op de daadwerkelijke kosten van het risico als het risico voorkwam.
+   * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
 
-1. Klikken **Wijzigingen opslaan**.
-1. (Optioneel) Bewerk de **Status** voor een risico, in de **Status** vervolgkeuzelijst, bij het toepassen van de **Standaard** de lijst met risico &#39; s wordt weergegeven .
+1. Klik **sparen Veranderingen**.
+1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >
-   >U kunt de **Status** van risico&#39;s in de **Risico bewerken** in. U kunt dit alleen doen in een inline bewerking.
+   >U kunt niet de **Status** van risico&#39;s in **uitgeven het de dialoogvakje van het Risico**. U kunt dit alleen doen in een inline bewerking.

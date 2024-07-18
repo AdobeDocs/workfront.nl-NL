@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 9 mei 2022 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 
 ## Verbeteringen aan de zoekfunctionaliteit voor Geschiedenis van scenario-uitvoering
@@ -39,4 +39,4 @@ Om het gemakkelijker te maken om van de gegevens de plaats te bepalen u in uw Ge
 
 Eerder konden gebruikers alleen zoeken naar tekst en alleen filters gebruiken in de volledige lijst met uitvoeringen.
 
-Zie voor meer informatie [De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Voor meer informatie, zie [ Mening de uitvoeringsgeschiedenis van een scenario in de Fusie van Adobe Workfront ](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).

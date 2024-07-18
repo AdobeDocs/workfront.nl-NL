@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 17 mei 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Modules kopiëren in Workfront Fusion-scenario&#39;s
 
 Om uw Workfront Fusion Scenario&#39;s gemakkelijker te maken om met te werken, hebben wij het mogelijk gemaakt om modules te kopiëren en te kleven. Nu, kunt u een module of een groep modules kopiëren en hen kleven in het zelfde of een verschillend scenario. Bij het kopiëren van modules blijven de veldwaarden in die module behouden.
 
-Zie voor meer informatie [Modules of scenario&#39;s kopiëren in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
+Voor meer informatie, zie [ modules of scenario&#39;s van het Exemplaar in de Fusie van Adobe Workfront ](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 
 ## Meerdere modules selecteren in een Workfront Fusion-scenario
 
@@ -41,7 +41,7 @@ Nu, wanneer het uitgeven van een scenario, kunt u veelvoudige modules tegelijker
 
 Het kopiëren en het bewegen modules bewaren de modulewaarden en om het even welke lijnen die de modules verbinden.
 
-Zie voor meer informatie over bewerkingsscenario&#39;s [Een scenario maken in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Voor meer informatie bij het uitgeven van scenario&#39;s, zie [ een scenario in de Fusie van Adobe Workfront ](../../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
 ## Modules behouden nu niet-opgeslagen gegevens
 
@@ -54,4 +54,4 @@ De nieuwe verslagen en de updates aan bestaande verslagen worden nu behandeld do
 * Om op nieuwe verslagen te letten, kunt u de de trekkermodule van de Verslagen van het Controle gebruiken. Deze module zoekt niet meer naar bijgewerkte records.
 * Om bijgewerkte verslagen te krijgen, kunt u de nieuwe module van de Delta van de Gebruikers/van Groepen van het Onderzoek gebruiken. Deze module retourneert nieuwe, bijgewerkte en verwijderde records.
 
-Zie voor meer informatie [Azure Active Directory-modules](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+Voor meer informatie, zie [ Azure Actieve modules van de Folder ](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).

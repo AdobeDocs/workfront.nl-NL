@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 28 februari 2022 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## API-versie selecteren in Azure DevOps > Aangepaste API-aanroepmodule
 
@@ -28,4 +28,4 @@ Om u meer controle over uw API vraag in de Azure DevOps schakelaar van Workfront
 
 Eerder kon u de API-versie niet selecteren.
 
-Zie voor meer informatie [Azure DevOps-modules](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Voor meer informatie, zie [ Azure modules DevOps ](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Versleuteling
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] kunt u alle tekstgegevens coderen. Ze ondersteunen momenteel berichtversleuteling via AES256 en PGP ([!UICONTROL OpenPGP]).
+[!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] -modules kunt u alle tekstgegevens versleutelen. Zij steunen momenteel berichtencryptie via AES256 en PGP ([!UICONTROL OpenPGP]).
 
 ## Toegangsvereisten
 
@@ -35,35 +35,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Berichtversleuteling en -ontsleuteling met PGP
 
 Wanneer het coderen en het decrypteren via PGP, is het noodzakelijk om keychain te gebruiken en een privé of openbare sleutel (of allebei) tot stand te brengen.
 
-Zie voor meer informatie over openbare en persoonlijke sleutels [Basistermen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Voor meer informatie over keyketins, zie [Toetsen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
+Voor meer informatie over openbare en privé sleutels, zie [ Basistermijnen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). Voor meer informatie over keyketins, zie [ Sleutels in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
 ## [!UICONTROL Encryptor] modules en hun velden
 
-Wanneer u vormt [!UICONTROL Encryptor] -modules, worden de volgende velden weergegeven. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Encryptor] modules configureert, worden de volgende velden weergegeven. Een bolde titel in een module wijst op een vereist gebied.
 
 ### Een PGP-bericht versleutelen
 

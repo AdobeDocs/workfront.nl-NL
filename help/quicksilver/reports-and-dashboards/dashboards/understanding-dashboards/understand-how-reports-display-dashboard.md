@@ -18,20 +18,20 @@ ht-degree: 0%
 
 U kunt beheren hoe rapporten die aan dashboards worden toegevoegd op de dashboards tonen.
 
-Voor informatie over het bewerken van de indeling van rapporten op een dashboard, raadpleegt u [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Voor informatie over het uitgeven van de lay-out van rapporten over een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 U kunt selecteren welke rapportkolommen op een dashboard zouden moeten tonen wanneer u een rapport creeert. Als u alle kolommen van het rapport op een dashboard altijd wilt tonen, zorg ervoor dat u dat voor elke kolom specificeert wanneer u het rapport creeert.
 
-Voor meer informatie over het selecteren van welke kolommen van een rapport op een dashboard zouden moeten tonen, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor meer informatie over het selecteren van welke kolommen van een rapport op een dashboard zouden moeten tonen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-![Tonen in dashboard, optie](assets/show-in-dashboard.png)
+![ toon in dashboardoptie ](assets/show-in-dashboard.png)
 
 ## Alle kolommen van het rapport weergeven op een dashboard
 
 Wanneer het rapport voor een gebied van het dashboard wordt geselecteerd dat de volledige breedte van het dashboard neemt, dan door gebrek alle kolommen van de rapportvertoning op het dashboard.\
-![Alle kolomopties tonen](assets/qs-dashboard-full-reports-350x118.png)
+![ toon alle kolomopties ](assets/qs-dashboard-full-reports-350x118.png)
 
 ## Alleen de eerste kolom van het rapport op een dashboard weergeven
 
 Wanneer het rapport voor een gebied van het dashboard wordt geselecteerd dat minder dan de volledige breedte van het dashboard omhoog neemt, dan door gebrek slechts de eerste kolom van het rapport toont op het dashboard.\
-![Opties voor eerste kolom tonen](assets/qs-dashboard-truncated-reports-350x118.png)
+![ toon eerste kolomopties ](assets/qs-dashboard-truncated-reports-350x118.png)

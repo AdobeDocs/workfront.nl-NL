@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Tokens voor datum- en tijdnotaties in [!DNL Adobe Workfront Fusion]
-description: De volgende tokens voor datum- en tijdnotatie zijn beschikbaar in het dialoogvenster [!DNL Adobe Workfront Fusion mapping] deelvenster.
+title: Tokens voor datum- en tijdnotatie in  [!DNL Adobe Workfront Fusion]
+description: De volgende tokens voor datum en tijd het formatteren zijn beschikbaar in het  [!DNL Adobe Workfront Fusion mapping]  paneel.
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# Tokens voor datum- en tijdnotaties in [!DNL Adobe Workfront Fusion]
+# Tokens voor datum- en tijdnotatie in [!DNL Adobe Workfront Fusion]
 
 ## Toegangsvereisten
 
@@ -36,25 +36,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Jaar-, maand- en dag-tokens
 
@@ -73,7 +73,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
   <tr> 
    <td><code>YY </code> </td> 
    <td><code>70 71 ... 29 30</code> </td> 
-   <td> <p> 2-cijferjaar</p> </td> 
+   <td> <p> 2-cijferige jaar</p> </td> 
   </tr> 
   <tr> 
    <td><code>YYYY </code> </td> 
@@ -93,7 +93,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
   <tr> 
    <td><code>Qo</code> </td> 
    <td><code>1st 2nd 3rd 4th </code></td> 
-   <td> <p>Kwartaal van jaar met rangtelwoord</p> </td> 
+   <td> <p>Kwartaal van het jaar met rangtelwoord</p> </td> 
   </tr> 
   <tr> 
    <td><code>M</code> </td> 
@@ -138,7 +138,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
   <tr> 
    <td><code>DDD</code> </td> 
    <td><code>1 2 ... 364 365 </code></td> 
-   <td> <p>Dag van het jaar</p> </td> 
+   <td> <p>Dag van jaar</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDDo</code> </td> 
@@ -200,7 +200,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
   <tr> 
    <td><code>w </code> </td> 
    <td><code>1 2 ... 52 53 </code> </td> 
-   <td> <p>Week van het jaar</p> </td> 
+   <td> <p>Week van jaar</p> </td> 
   </tr> 
   <tr> 
    <td><code>wo </code> </td> 

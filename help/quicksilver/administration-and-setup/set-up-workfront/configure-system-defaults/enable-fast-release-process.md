@@ -7,9 +7,10 @@ description: U kunt kiezen of u de nieuwe Workfront-functionaliteit op maand- of
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -34,25 +35,25 @@ Voorbeeld:
 
 Houd rekening met het volgende wanneer u het snelle releaseproces in- of uitschakelt:
 
-* **Inschakelen** het snelle releaseproces in het midden van een kwart geeft uw organisatie toegang tot functies en functionaliteit die al zijn vrijgegeven voor de snelle release.
+* **toelatend** het snelle versieproces in het midden van een kwart geeft uw organisatie toegang tot eigenschappen en functionaliteit die reeds aan de snelle versie zijn vrijgegeven.
 
   Bijvoorbeeld, als eigenschap A in Augustus wordt vrijgegeven, en eigenschap B in September wordt vrijgegeven, zal om het even welke organisatie die het snelle versieproces in September toelaat onmiddellijk toegang tot eigenschappen A en B hebben.
 
-* **Uitschakelen** het snelle releaseproces treedt pas in werking na de volgende driemaandelijkse release.
+* **onbruikbaar makend** het snelle versieproces treedt niet tot de volgende driemaandelijkse versie in werking.
 
   Als een organisatie die snelle release heeft ingeschakeld, deze bijvoorbeeld in augustus uitschakelt, zullen zij in september nog steeds de functies voor snelle release ontvangen, omdat ze pas naar de driemaandelijkse release gaan als de volgende driemaandelijkse release in oktober plaatsvindt.
 
 ## Het snelle releaseproces voor uw organisatie in- of uitschakelen
 
-U kunt als volgt het snelle releaseproces in- of uitschakelen:
+U schakelt het snelle releaseproces in of uit:
 
-1. Klik op de knop **Pictogram Hoofdmenu** en klik vervolgens op **Instellen**.
-1. Uitbreiden **Systeem** in de linkernavigatie, dan klik **Voorkeuren**.
-1. Om snelle versies toe te laten, controleer **Snelle release toestaan** selectievakje.
+1. Klik het **Belangrijkste pictogram van het Menu**, dan klik **Opstelling**.
+1. Breid **Systeem** in de linkernavigatie uit, dan klik **Voorkeur**.
+1. Om snelle versies toe te laten, controleer **snel versieproces** checkbox toestaan.
 
    of
 
-   Als u snelle releases wilt uitschakelen en wilt overstappen op een driemaandelijkse releasecyclus, schakelt u de optie **Snelle release toestaan** selectievakje.
+   Om snelle versies onbruikbaar te maken en naar een driemaandelijkse versiecyclus te bewegen, uncheck **snel versieproces** checkbox toestaat.
 
 1. Bevestig uw keuze in het pop-upvenster.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

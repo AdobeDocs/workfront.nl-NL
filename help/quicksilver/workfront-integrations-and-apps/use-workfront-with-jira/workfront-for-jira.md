@@ -11,7 +11,7 @@ exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Installeren [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
-* [Configureren [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
-* [Items koppelen tussen [!DNL Adobe Workfront] en [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
-* [Gekoppelde items bijwerken tussen [!DNL Jira] en [!DNL Adobe Workfront]](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
-* [De weergave [!UICONTROL [!DNL Jira] Activiteitenlogboek]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
+* [Installeren  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
+* [Configureren  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
+* [De punten van de verbinding tussen  [!DNL Adobe Workfront]  en  [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
+* [Werk verbonden punten tussen  [!DNL Jira]  en  [!DNL Adobe Workfront] bij](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
+* [Het [!UICONTROL [!DNL Jira] activiteitenlog weergeven]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)

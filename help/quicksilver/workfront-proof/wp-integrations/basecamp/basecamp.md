@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een proefdruk toevoegen aan een [!DNL Basecamp] Project](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [Integreren [!DNL Workfront Proof] with [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [Een proefafdruk controleren in [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Begrijp het [!DNL Basecamp] Integratie met [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Voeg een Bewijs aan a [!DNL Basecamp]  Project toe](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Integreer  [!DNL Workfront Proof]  met  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [Een proef bekijken in  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [Begrijp de  [!DNL Basecamp]  Integratie met  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

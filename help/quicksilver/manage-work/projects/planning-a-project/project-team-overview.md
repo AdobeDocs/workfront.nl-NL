@@ -20,13 +20,13 @@ De gebruikers die met een project in één of andere capaciteit worden geassocie
 
 ## Projectteamleden
 
-U kunt gebruikers aan een projectteam of manueel of automatisch toewijzen. Voor meer informatie, zie de sectie &quot;gebruikers aan een Team van het Project&quot;in het artikel toevoegen [Het projectteam beheren](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+U kunt gebruikers aan een projectteam of manueel of automatisch toewijzen. Voor meer informatie, zie de sectie &quot;gebruikers aan een Team van het Project&quot;in artikel [ toevoegen het Team van het Project ](../../../manage-work/projects/planning-a-project/manage-project-team.md) beheert.
 
 Wanneer u gebruikers aan het Team van het Project manueel toevoegt, ontvangen zij de toestemmingen van de Mening aan het project evenals de taken, de kwesties, en de documenten van het project.
 
 ## Meldingen aan projectteamleden
 
-Afhankelijk van welke e-mailberichten uw beheerder van Adobe Workfront toelaat, worden de gebruikers op een projectteam op de hoogte gebracht van diverse acties op een project. Ga voor meer informatie over het inschakelen van e-mailmeldingen naar [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Afhankelijk van welke e-mailberichten uw beheerder van Adobe Workfront toelaat, worden de gebruikers op een projectteam op de hoogte gebracht van diverse acties op een project. Voor meer informatie over het toelaten van e-mailberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 >[!NOTE]
 >
@@ -38,10 +38,10 @@ Om op rol-gebaseerde goedkeuringen op een project te gebruiken, moeten de gebrui
 
 Zie de volgende artikelen voor informatie over hoe te om een gebruiker aan het projectteam toe te voegen en hoe te om hen een baanrol toe te wijzen:
 
-* [Het projectteam beheren](../../../manage-work/projects/planning-a-project/manage-project-team.md)
+* [ beheer het Team van het Project ](../../../manage-work/projects/planning-a-project/manage-project-team.md)
 * [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-Als u niet de gebruiker wilt vereisen om op het projectteam voor op rol-gebaseerde goedkeuringen te zijn, kunt u dit in goedkeuringsmontages controleren. Zie voor meer informatie [Algemene goedkeuringsinstellingen configureren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+Als u niet de gebruiker wilt vereisen om op het projectteam voor op rol-gebaseerde goedkeuringen te zijn, kunt u dit in goedkeuringsmontages controleren. Voor meer informatie, zie [ globale goedkeuringsmontages ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen.
 
 ## Projecten die ik heb ingeschakeld, filter
 

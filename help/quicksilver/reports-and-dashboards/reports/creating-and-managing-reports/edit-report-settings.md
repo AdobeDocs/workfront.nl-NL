@@ -35,26 +35,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Procedure
 
-1. Maak een rapport door naar de **Hoofdmenu** > **Rapporten** selecteert u vervolgens het object van het rapport.
+1. Begin creërend een rapport door naar het **Belangrijkste menu** te gaan > **Rapporten**, dan het voorwerp van uw rapport te selecteren.
 
    of
 
-   Open een bestaand rapport en klik vervolgens op **Handelingen rapporteren** > **Bewerken**.
+   Open een bestaand rapport, dan klik **de Acties van het Rapport** > **uitgeven**.
 
-1. Klikken **Rapportinstellingen** in de hoger-juiste hoek van de rapportaannemer.
+1. Klik **Montages van het Rapport** in de hoger-juiste hoek van de rapportbouwer.
 1. Vorm de volgende rapportmontages:
 
    <table style="table-layout:auto"> 
@@ -71,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Dit rapport uitvoeren met de toegangsrechten van</td> 
-      <td>Selecteer de gebruiker van wie de toegangsrechten u dit rapport wilt gebruiken wanneer het tonen voor andere gebruikers. Raadpleeg het artikel voor meer informatie over het uitvoeren van een rapport met de toegangsrechten van een andere gebruiker <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Een rapport uitvoeren en leveren met de toegangsrechten van een andere gebruiker</a>.</td> 
+      <td>Selecteer de gebruiker van wie de toegangsrechten u dit rapport wilt gebruiken wanneer het tonen voor andere gebruikers. Voor meer informatie over het runnen van een rapport met de toegangsrechten van een andere gebruiker, zie het artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref"> Looppas en lever een rapport met de toegangsrechten van een andere gebruiker </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wanneer het rapport wordt geladen, geeft u de opdracht</td> 
@@ -95,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Dit rapport standaard weergeven in een Gantt-weergave</td> 
-      <td>(Alleen projectrapport en taakrapport) Selecteer deze optie als u de Gantt-weergave automatisch wilt inschakelen wanneer gebruikers het tabblad Details in dit rapport weergeven.<br>Voor meer informatie over het bekijken van de grafiek van Gantt in projectrapporten en taakrapporten, zie de sectie "de taakomschrijving van de Mening in de projectenlijst Gantt Grafiek"in het artikel <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Informatie weergeven in de Gantt-grafiek </a>.</td> 
+      <td>(Alleen projectrapport en taakrapport) Selecteer deze optie als u de Gantt-weergave automatisch wilt inschakelen wanneer gebruikers het tabblad Details in dit rapport weergeven.<br> voor meer informatie over het bekijken van de grafiek van Gantt in projectrapporten en taakrapporten, zie de sectie "de taakinformatie van de Mening in de van de projectlijst Gantt Grafiek"in de artikel <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref"> informatie van de Mening in de Grafiek van Gantt </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Weergave wijzigen in rapport toestaan</td> 
@@ -112,16 +112,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Klikken **Prompts rapporteren** aan opstelling om het even welke herinneringen voor het rapport.\
-   Raadpleeg het artikel voor meer informatie over het toevoegen van aanwijzingen aan een rapport [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. Klik **Vragen van het Rapport** aan opstelling om het even welke herinneringen voor het rapport.\
+   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. Klikken **Gereed,** klik vervolgens op **Opslaan + Sluiten**.
+1. Klik **Gedaan,** dan klik **sparen + Sluiten**.
 
 ## Aanvullende informatie
 
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Aan de slag met rapporten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Ingebouwde Adobe Workfront-rapporten gebruiken](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [ worden begonnen met rapporten ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

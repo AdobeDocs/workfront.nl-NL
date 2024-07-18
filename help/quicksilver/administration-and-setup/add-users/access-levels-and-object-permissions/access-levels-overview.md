@@ -46,19 +46,19 @@ Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking 
  <tbody> 
   <tr> 
    <td><p><strong>Licenties</strong></p></td> 
-   <td> <p>De vergunning verbonden aan een toegangsniveau bepaalt hoe het toegangsniveau kan worden gevormd.</p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van licenties</a>.</p> <p><strong>Tip</strong>: U kunt zien welk toegangsniveau en welke vergunning aan elke gebruiker door een gebruikerslijst of een rapport wordt toegewezen te bekijken. Zie voor instructies <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">De toegangsniveaus en licenties van uw gebruikers weergeven</a>.</p> </td> 
+   <td> <p>De vergunning verbonden aan een toegangsniveau bepaalt hoe het toegangsniveau kan worden gevormd.</p> <p>Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> overzicht van Vergunningen </a>.</p> <p><strong> Uiteinde </strong>: U kunt zien welk toegangsniveau en vergunning aan elke gebruiker door een gebruikerslijst of een rapport te bekijken wordt toegewezen. Voor instructies, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref"> van de de toegangsniveaus en vergunningen van uw gebruikers een lijst maken </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Ingebouwde toegangsniveaus</strong></td> 
-   <td> <p>Voor meer informatie over de 6 ingebouwde toegangsniveaus die in het beeld hierboven worden getoond, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Ingebouwde toegangsniveaus</a>.</p> </td> 
+   <td> <p>Voor meer informatie over de 6 ingebouwde toegangsniveaus die in het beeld hierboven worden getoond, zie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref"> Ingebouwde toegangsniveaus </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Toegangsniveaus toewijzen</strong></td> 
-   <td> <p>Voor instructies over hoe te om een toegangsniveau aan een gebruiker toe te wijzen, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Gebruikersprofiel bewerken</a>.</p> </td> 
+   <td> <p>Voor instructies op hoe te om een toegangsniveau aan een gebruiker toe te wijzen, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> </td> 
   </tr> 
   <tr> 
    <td>Toegangsniveaus, standaard, licht, contribuant</td> 
-   <td> <p>Als u deze toegangsniveaus in uw milieu in plaats van Plan, het Werk, het Overzicht, of het Verzoek ziet, gebruikt uw organisatie het nieuwe model van het toegangsniveau. Voor informatie over het nieuwe model raadpleegt u <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van nieuwe toegangsniveaus</a>.</p> </td> 
+   <td> <p>Als u deze toegangsniveaus in uw milieu in plaats van Plan, het Werk, het Overzicht, of het Verzoek ziet, gebruikt uw organisatie het nieuwe model van het toegangsniveau. Voor informatie over het nieuwe model, zie <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref"> Nieuw overzicht van toegangsniveaus </a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Inleiding tot de [!DNL Workfront Proof] en [!DNL Box] integratie](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Een proefdruk maken via uw [!DNL Box] Account](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [Sync [!DNL Box] Mappen met [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [Origineel bestand van proefdrukken weergeven in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Inleiding aan  [!DNL Workfront Proof]  en  [!DNL Box]  integratie](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Creeer een Bewijs via Uw  [!DNL Box]  Rekening](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Synchroniseer  [!DNL Box]  Omslagen met  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [Het Originele Dossier van een Bewijs in  [!DNL Box] bekijken](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

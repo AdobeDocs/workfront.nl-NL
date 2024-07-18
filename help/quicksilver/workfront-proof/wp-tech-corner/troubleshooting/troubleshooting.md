@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
-title: Problemen oplossen in [!DNL Workfront Proof]
+title: Problemen oplossen in  [!DNL Workfront Proof]
 description: Leer Workfront Proof problemen op te lossen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
 * [Problemen oplossen - beschadigd interfacefont in proefdrukviewer op Mac](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-* [Begrijp hoe het Geheime voorgeheugen en de Koekjes beïnvloeden [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [Problemen met snelheid in [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [Problemen oplossen - [!DNL Workfront Proof] proefdrukviewer](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+* [Begrijp hoe het Geheime voorgeheugen en de Koekjes beïnvloeden  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+* [Problemen met snelheid in  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [Het oplossen van problemen -  [!DNL Workfront Proof]  het proef kijker](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

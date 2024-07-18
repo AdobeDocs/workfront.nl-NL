@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of een taak registreren. U kunt verzoeken ook voorleggen, die als kwesties op een project worden geregistreerd dat als Rij van het Verzoek wordt aangewezen. Kwesties en verzoeken worden in Adobe Workfront als onderling verwisselbaar beschouwd.
 
-Voor informatie over het maken van problemen in [!DNL Workfront], zie [Problemen maken](../../../manage-work/issues/manage-issues/create-issues.md). Voor informatie over het maken van aanvragen in [!DNL Workfront], zie [Maken en verzenden [!DNL Adobe Workfront] verzoeken](../../../manage-work/requests/create-requests/create-submit-requests.md). Voor informatie over het associëren van de Types van Verzoek met projecten, zie [Bepaal de Types van Verzoek voor een project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Voor informatie over het creëren van kwesties in [!DNL Workfront], zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren. Voor informatie over het creëren van verzoeken in [!DNL Workfront], zie [  [!DNL Adobe Workfront]  verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen. Voor informatie over het associëren van de Types van Verzoek met projecten, zie [ de Types van Verzoek voor een project ](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md) bepalen.
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,33 +63,33 @@ You must have at least one request type selected. You can select multiple reques
 
 ## De namen van de aanvraagtypen aanpassen
 
-Als [!DNL Workfront] beheerder, kunt u de namen van de verzoektypes in uw systeem vormen. De nieuwe namen zijn zichtbaar in elk gebied van [!DNL Workfront] waarbij **[!UICONTROL Issue Type]** of **[!UICONTROL Request Type]** weergegeven velden:
+Als [!DNL Workfront] beheerder, kunt u de namen van de verzoektypes in uw systeem vormen. De nieuwe namen zijn zichtbaar in elk gebied van [!DNL Workfront] waar de **[!UICONTROL Issue Type]** - of **[!UICONTROL Request Type]** -velden worden weergegeven:
 
-* In de **[!UICONTROL Queue Details]** gebied van een project dat de kwesties of verzoeken zal ontvangen.
-* Als er meer dan één aanvraagtype is geselecteerd voor een aanvraagwachtrij, gaat u naar **[!UICONTROL New Issue]Formulier** in de **[!UICONTROL Issue Type]** wanneer u een nieuwe uitgave maakt of een nieuwe aanvraag indient.
+* In het **[!UICONTROL Queue Details]** -gebied van een project dat de problemen of aanvragen ontvangt.
+* Als er meer dan één aanvraagtype is geselecteerd voor een aanvraagwachtrij, gaat u in het veld **[!UICONTROL New Issue]Formulier** in het veld **[!UICONTROL Issue Type]** naar een nieuwe uitgave of een nieuwe aanvraag.
 
-   Voor meer informatie over het maken van problemen in [!DNL Workfront], zie  [Problemen maken](../../../manage-work/issues/manage-issues/create-issues.md)
+  Voor meer informatie over het creëren van kwesties in [!DNL Workfront], zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren
 
-   Voor meer informatie over het maken van aanvragen in [!DNL Workfront], zie  [Maken en verzenden [!DNL Adobe Workfront] verzoeken](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Voor meer informatie over het creëren van verzoeken in [!DNL Workfront], zie [ creëren en voorleggen  [!DNL Adobe Workfront]  verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* Op de **[!UICONTROL Queue Topic Detail]** vorm, wanneer u het Onderwerp van de Rij vormt.\
-   Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Op het **[!UICONTROL Queue Topic Detail]** formulier, wanneer u het onderwerp van de wachtrij configureert.\
+   Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 U kunt als volgt de namen van de aanvraagtypen aanpassen:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
 
-1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
+1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]** .
 
-1. Klik op de knop **[!UICONTROL Issues]** tab.
-1. Aan de bovenkant van de **[!UICONTROL Issues]** , plaatst u de aanwijzer boven de naam van een aanvraagtype en klikt u vervolgens op de knop **[!UICONTROL Edit]** pictogram dat wordt weergegeven.
+1. Klik op de tab **[!UICONTROL Issues]** .
+1. Plaats de aanwijzer boven aan het tabblad **[!UICONTROL Issues]** boven de naam van een aanvraagtype en klik vervolgens op het pictogram **[!UICONTROL Edit]** dat wordt weergegeven.
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. Typ een nieuwe naam in het vak dat wordt weergegeven en druk vervolgens op **[!UICONTROL Enter]**.
+1. Typ een nieuwe naam in het vak dat wordt weergegeven en druk op **[!UICONTROL Enter]** .
 
 ## Uitgavestatus binnen verschillende aanvraagtypen configureren
 
 U kunt elk aanvraagtype aan verschillende uitgavestatussen koppelen. U kunt ook de volgorde wijzigen waarin de statussen op een uitgave worden weergegeven, afhankelijk van het type uitgave.
 
-Zie voor meer informatie over het wijzigen van de standaardvolgorde van emissiestatus en het configureren van emissiestatus de [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) sectie in [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Voor meer informatie over het veranderen van de standaardorde van uitgevende statussen en het vormen van uitgavestatus, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) sectie in [ creëren of uitgeven een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

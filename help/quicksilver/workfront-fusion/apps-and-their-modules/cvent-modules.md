@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Cilummodules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die Cvent gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Cvent gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Cvent] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Cvent]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Cvent] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,58 +43,58 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Cvent] modules, moet u een [!DNL Cvent] account.
+Als u [!DNL Cvent] -modules wilt gebruiken, moet u een [!DNL Cvent] -account hebben.
 
-## Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
+## Verbinden [!DNL Cvent] met [!DNL Adobe Workfront Fusion] {#connect-cvent-to-adobe-workfront-fusion}
 
 >[!NOTE]
 >
->De [!DNL Cvent] modules werken via een [!UICONTROL SOAP] API. Verbinding maken met [!DNL Cvent]moet u het volgende doen:
+>De [!DNL Cvent] -modules gebruiken een [!UICONTROL SOAP] API. Als u een verbinding met [!DNL Cvent] wilt maken, moet u het volgende controleren:
 >
 >* U hebt [!UICONTROL SOAP] toegang tot de [!DNL Cvent] API.
->* De [!DNL Workfront Fusion] IP de adressen zijn toegevoegd aan de lijst van gewenste personen van uw organisatie.
+>* De [!DNL Workfront Fusion] IP adressen zijn toegevoegd aan de lijst van gewenste personen van uw organisatie.
 >
->  Voor een lijst met [!DNL Workfront Fusion] IP-adressen, zie [IP Adressen voor de toegang tot [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+>  Voor een lijst van [!DNL Workfront Fusion] IP adressen, zie [ IP Adressen voor de toegang tot van  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
 
-U kunt een verbinding maken met uw [!DNL Cvent] rechtstreeks vanuit een [!DNL Cvent] module.
+U kunt rechtstreeks vanuit een [!DNL Cvent] -module verbinding maken met uw [!DNL Cvent] -account.
 
-1. In alle [!DNL Cvent] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
+1. Klik in een willekeurige [!DNL Cvent] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Selecteer het gebied waarmee u verbinding wilt maken.
 
    * [!UICONTROL North America]
    * [!UICONTROL Europe]
    * [!UICONTROL Sandbox]
 
-1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug naar de module te gaan.
+1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 ## [!DNL Cvent] modules en hun velden
 
-Wanneer u [!DNL Cvent] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Cvent] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Cvent] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Cvent] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -113,7 +113,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Custom API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Cvent] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Cvent] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Cvent] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Cvent] -modules kan worden uitgevoerd.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -125,11 +125,11 @@ De module keert een statuscode, samen met de kopballen en het lichaam van de API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewerking</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Hoofdtekst (XML)</td> 
@@ -148,7 +148,7 @@ Deze actiemodule leest informatie over een specifieke record.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Record type]</p> </td> 
@@ -175,7 +175,7 @@ In deze actiemodule wordt een genodigde voor een gebeurtenis geregistreerd.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Id genodigde</p> </td> 
@@ -198,7 +198,7 @@ Deze actiemodule nodigt een contactpersoon voor een gebeurtenis uit.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Contact ID]</p> </td> 
@@ -221,7 +221,7 @@ Deze actiemodule schrapt één enkel contact in Gebeurtenis.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Contact ID]</td> 
@@ -240,7 +240,7 @@ Deze actiemodule werkt een bestaand contact bij gebruikend zijn identiteitskaart
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Contact ID]</p> </td> 
@@ -267,7 +267,7 @@ Met deze actiemodule voegt u een verzoek voor een vergadering toe aan uw account
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Form ID]</p> </td> 
@@ -283,7 +283,7 @@ Met deze actiemodule voegt u een verzoek voor een vergadering toe aan uw account
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL RFP Request Fields]</td> 
-   <td> <p>Selecteer het verzoek om voorstellen gebieden die u informatie voor wilt invoeren, dan vult de gewenste waarden voor die gebieden in.</p> </td> 
+   <td> <p>Selecteer het verzoek om voorstellen gebieden die u informatie voor, dan de gewenste waarden voor die gebieden wilt invoeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -300,13 +300,13 @@ Deze onderzoeksmodule wint informatie over alle verslagen van een specifiek type
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Cvent] account aan [!DNL Workfront Fusion], zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Verbinden [!DNL Cvent] tot [!DNL Adobe Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Cvent] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Cvent] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Record type]</p> </td> 
    <td> <p>Selecteer het type record dat u wilt weergeven.</p> 
     <ul> 
-     <li> <p>Alle gebeurtenissen van uw [!DNL Cvent] account</p> </li> 
+     <li> <p>Alle gebeurtenissen van uw [!DNL Cvent] -account</p> </li> 
      <li> <p>Alle sessies voor een gebeurtenis</p> </li> 
      <li> <p>Alle genodigden voor een gebeurtenis</p> </li> 
     </ul> </td> 

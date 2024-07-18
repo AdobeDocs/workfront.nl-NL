@@ -9,7 +9,7 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -61,14 +61,14 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
+| updateType <sup> 1 </sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID <sup>  </sup> |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in mogelijke waarden
 
-<sup>2</sup> hasFilters-kenmerk gewijzigd in true
+<sup> 2 </sup> hasFilters die attribuut in waar wordt veranderd
 
  
 
@@ -77,16 +77,16 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate<sup>1</sup> |   |   |   |   |   |   |
+| constraintDate <sup> 1 </sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired<sup>2</sup> |   |   |   |   |   |   |
+| workRequired <sup> 2 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Validatie van datum toegevoegd
+<sup> 1 </sup> toegevoegde de bevestiging van de Datum
 
-<sup>2</sup> NOT_FILTERABLE, markering toegevoegd
+<sup> 2 </sup> NOT_FILTERABLE toegevoegde vlag
 
  
 
@@ -106,15 +106,15 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| approvalType<sup>1</sup> |   |   |   |   |   |   |
+| approvalType <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in mogelijke Waarden
 
  
 
-### Goedkeuringspad<sup>1</sup>
+### De Weg van de goedkeuring <sup> 1 </sup>
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -127,13 +127,13 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 | isPrivate |   |   |   |   |   | Zoeken |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name<sup>2</sup> |   |   |   |   |   |   |
+| name <sup> 2 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Gewijzigd in Te Rapporteren
+<sup> 1 </sup> Gewijzigd in Te Rapporteren
 
-<sup>2</sup> Validator voor Max. lengte toegevoegd
+<sup> 2 </sup> Toegevoegde Max Validator van de Lengte
 
  
 
@@ -141,14 +141,14 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate <sup> 1 </sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired <sup> 2 </sup> |   |   |   | workItemStatusLabels  |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Datum van validatie toegevoegd
+<sup> 1 </sup> Toegevoegde Bevestiging van de Datum
 
-<sup>2</sup> Niet_filterbare vlag toegevoegd
+<sup> 2 </sup> toegevoegde niet_Filterable vlag
 
  
 
@@ -168,11 +168,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired<sup>1</sup> |   |   |   |   |   |   |
+| workRequired <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Niet_filterbare vlag toegevoegd
+<sup> 1 </sup> toegevoegde niet_Filterable vlag
 
  
 
@@ -180,11 +180,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired<sup>1</sup> |   |   |   |   |   |   |
+| workRequired <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Niet_filterbare vlag toegevoegd
+<sup> 1 </sup> toegevoegde niet_Filterable vlag
 
  
 
@@ -192,11 +192,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| factureringsdatum<sup>1</sup> |   |   |   |   |   |   |
+| billingDate <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> markering toegevoegd NO_TIME-veld
+<sup> 1 </sup> toegevoegde NO_TIME gebiedsvlag
 
 ### Burndown-gebeurtenis 
 
@@ -247,11 +247,11 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| tarief<sup>1</sup> |   |   |   |   |   |   |
+| tarief <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Gewijzigde PRECISION-validator voor 8-9
+<sup> 1 </sup> veranderde PRECISION validator voor 8 in 9
 
  
 
@@ -269,29 +269,29 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| changeType<sup>1</sup> |   |   |   |   |   |   |
+| changeType <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in mogelijke Waarden
 
  
 
-### Optask (probleem)<sup>1</sup> 
+### Optask (Kwestie) <sup> 1 </sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired<sup>2</sup> |   |   |   |   |   |   |
+| workRequired <sup> 2 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Met vlag gemarkeerd als HERSTELBAAR
+<sup> 1 </sup> Gemarkeerd als RESTORABLE
 
-<sup>2</sup> Niet_filterbare vlag toegevoegd
+<sup> 2 </sup> toegevoegde niet_Filterable vlag
 
  
 
-### Project<sup>1</sup> 
+### Project <sup> 1 </sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -304,26 +304,26 @@ Wisselkoers 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Met vlag gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
+<sup> 1 </sup> Gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
 
-<sup>2</sup> Niet_filterbare vlag toegevoegd
+<sup> 2 </sup> toegevoegde niet_Filterable vlag
 
  
 
-### Taak<sup>1</sup>
+### Taak <sup> 1 </sup>
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| constraintDate<sup>2</sup> |   |   |   |   |   |   |
-| workRequired<sup>3</sup> |   |   |   |   |   |   |
+| constraintDate <sup> 2 </sup> |   |   |   |   |   |   |
+| workRequired <sup>  </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Met vlag gemarkeerd als HERSTELBAAR
+<sup> 1 </sup> Gemarkeerd als RESTORABLE
 
-<sup>2</sup> AT_DATE_YEAR_BEFORE-validator toegevoegd
+<sup> 2 </sup> AT_DATE_YEAR_BEFORE toegevoegde validator
 
-<sup>3</sup> Niet_filterbare vlag toegevoegd
+<sup> 3 </sup> toegevoegde niet_Filterable vlag
 
  
 
@@ -338,7 +338,7 @@ Wisselkoers 
 
  
 
-### Sjabloon<sup>1</sup> 
+### Malplaatje <sup> 1 </sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -346,19 +346,19 @@ Wisselkoers 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Met vlag gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
+<sup> 1 </sup> Gemarkeerd als RESTORABLE en RESOURCE_MANAGEABLE
 
-### Sjabloontaak<sup>1</sup> 
+### De Taak van het malplaatje <sup> 1 </sup> 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired<sup>2</sup> |   |   |   |   |   |   |
+| workRequired <sup> 2 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Met vlag gemarkeerd als HERSTELBAAR
+<sup> 1 </sup> Gemarkeerd als RESTORABLE
 
-<sup>2</sup> Niet_filterbare vlag toegevoegd
+<sup> 2 </sup> toegevoegde niet_Filterable vlag
 
  
 
@@ -366,11 +366,11 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| myInfo<sup>1</sup> |   |   |   |   |   |   |
+| myInfo <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> MAX_LENGTH-overtreders
+<sup> 1 </sup> MAX_LENGTH-overtreders
 
  
 
@@ -378,13 +378,13 @@ Wisselkoers 
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
+| eventType <sup> 1 </sup> |   |   |   |   | myNotifications <sup> 2 </sup> |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Mogelijke waarden gewijzigd
+<sup> 1 </sup> Mogelijke Gewijzigde Waarden
 
-<sup>2</sup> heeft filters Gewijzigd in `[true]`
+<sup> 2 </sup> heeft filters Gewijzigd in `[true]`
 
  
 

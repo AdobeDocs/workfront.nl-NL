@@ -38,21 +38,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## De herhalingen van de mening die aan een bepaald team worden toegewezen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen, of **[!UICONTROL Current Iteration]**.
+1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
 
-   ![Iteratielijst](assets/view-iteration-NWE.png)
+   ![ Lijst van de Interlatie ](assets/view-iteration-NWE.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Current Iteration]** wordt alleen weergegeven in het linkerdeelvenster wanneer deze is toegewezen aan de lay-outsjabloon en er ten minste één taak of uitgave op de herhaling staat. Zie voor meer informatie [Het linkerdeelvenster aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL Current Iteration]** wordt alleen in het linkerdeelvenster weergegeven wanneer deze is toegewezen aan de lay-outsjabloon en er ten minste één taak of uitgave op de herhaling staat. Voor meer informatie, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 1. (Optioneel) Klik op de naam van de specifieke herhaling die u wilt weergeven.\

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 26 juli 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Vereenvoudigde modules in de Salesforce-connector
 
@@ -30,11 +30,11 @@ Eerder werden alle beschikbare velden van een record weergegeven in de module, w
 
 De functionaliteit van bestaande scenario&#39;s die gebruikmaken van de eerder beschikbare modules zal niet veranderen, hoewel die modules niet beschikbaar zullen zijn voor gebruik in nieuwe scenario&#39;s.
 
-Zie voor meer informatie [Salesforce-modules](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Voor meer informatie, zie {de modules van 0} Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).[
 
 ## Meer duidelijkheid over de toegang tot accounts bij het verlenen van toestemming aan Adobe Workfront Fusion connectors
 
 De machtigingsschermen voor verbindingen met Adobe Workfront Fusion worden nu bijgewerkt. Nu kunt u de specifieke acties en gebieden zien waartoe de verbindingen toegang hebben, zodat u beter kunt begrijpen waartoe u de toepassing toegang geeft.
 
-Zie de klasse [Sluit de app of webservice van de module aan op Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) sectie in [Een scenario maken in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Voor meer informatie, zie [ app of Webdienst van de module verbinden met de sectie van de Fusie van Workfront ](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) in [ creeer een scenario in de Fusie van Adobe Workfront ](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

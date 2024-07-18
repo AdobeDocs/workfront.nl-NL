@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -45,31 +45,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een interactieve proefdruk maken voor een website of andere webinhoud
 
 1. Ga naar het project, de taak of de uitgave waar u een nieuwe websiteproef of een nieuwe versie van bestaande wilt tot stand brengen.
-1. Klikken **Documenten** in het linkerdeelvenster.
-1. (Voorwaardelijk) Als u een nieuwe proef creeert, klik **Nieuwe toevoegen** en klik vervolgens op **Proef** in het menu dat wordt weergegeven.
+1. Klik **Documenten** in het linkerpaneel.
+1. (Voorwaardelijk) als u een nieuwe proef creeert, klik **voeg Nieuw** toe, dan klik **Bewijs** in het menu dat verschijnt.
 
-1. (Voorwaardelijk) Op de **Nieuwe proefdruk** wordt weergegeven als u een nieuwe versie van een bestaande proefdruk maakt:
+1. (Voorwaardelijk) op de **Nieuwe proef** pagina verschijnt, als u een nieuwe versie van een bestaand bewijs creeert:
 
    1. Houd de muisaanwijzer boven de URL-proefdruk waarvoor u een nieuwe versie wilt maken en selecteer deze door op de lichtblauwe achtergrond eromheen te klikken.
 
-      ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![ Select_proof_by_selecting_light_blue_background.png ](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. In de **Nieuw toevoegen** vervolgkeuzelijst, klikken **Versie** > **Proef**.
+   1. In **voeg nieuwe** drop-down toe, klik **Versie** > **Bewijs**.
 
-1. In de **Bestanden toevoegen** , typt u de URL van de website die u wilt controleren en drukt u vervolgens op **Enter**.  U kunt dit proces herhalen om meerdere websites toe te voegen die u wilt controleren.
+1. In **voeg dossiers** sectie toe, typ URL van de website u wilt bewijzen, dan druk **binnengaan**.  U kunt dit proces herhalen om meerdere websites toe te voegen die u wilt controleren.
 
-   ![proof_website.png](assets/proof-website-350x65.png)
+   ![ proof_website.png ](assets/proof-website-350x65.png)
 
 
    >[!NOTE]
@@ -80,14 +80,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![](assets/click-url-350x137.png)
 
-1. (Optioneel) Als u de naam van de proefdruk wilt wijzigen van de URL van de website naar iets anders, typt u een **Proefnaam**.
-1. Selecteren **Interactief** en klik vervolgens op **Gereed**.
+1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs**.
+1. Selecteer **Interactief**, dan klik **Gedaan**.
 
    >[!NOTE]
    >
    >Als u een nieuwe versie toevoegt aan een bestaande URL-proefdruk, blijven de opties die op de oorspronkelijke proefdruk of vorige versie zijn geconfigureerd, behouden in deze versie.
 
-1. Klikken **Proef maken** om een eenvoudige proefdruk te maken zonder controleproces.\
+1. Klik **creeer proef** om een eenvoudige proef zonder overzichtsproces tot stand te brengen.\
    of\
    Doorgaan met het configureren van een geavanceerde proefdruk:
 

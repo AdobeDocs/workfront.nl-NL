@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-<span class="preview">U kunt een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het gebied Velden in Workfront toevoegen zonder een aangepast formulier te openen om het veld te maken.</span>
+<span class="preview"> u kunt een nieuw douanegebied of widget direct van het gebied van Gebieden in Workfront toevoegen, zonder een douaneformulier te openen om het gebied tot stand te brengen.</span>
 
 U kunt ook de eigenschappen bewerken van een aangepast veld, sectie-einde of widget dat wordt gebruikt in aangepaste formulieren. Dit zijn onder andere het label, de naam, de instructies, enzovoort van het item.
 
-Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md), [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md), [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen, en [ voeg of geef een activa widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) uit.
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <div class="preview">
 
@@ -59,16 +59,16 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms**.
-1. Klikken **Velden** het gebied Velden openen.
-1. Klikken **Nieuw aangepast veld**.
+1. Klik **Aangepaste Forms**.
+1. Klik **Gebieden** om het gebied van Gebieden te openen.
+1. Klik **Nieuw Gebied van de Douane**.
 1. Voer in het vak dat wordt weergegeven de vereiste en optionele informatie in voor het item dat u toevoegt.
 
    Meer informatie over deze opties vindt u:
-   * Als u de formulierontwerper gebruikt, raadpleegt u [Een formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-   * Als u de aangepaste formulierbuilder gebruikt, raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) of [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Als u de vormontwerper gebruikt, zie [ Ontwerp een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Als u de bouwer van de douanevorm gebruikt, zie [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen of [ een activa widget in een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
 </div>
 
@@ -76,13 +76,13 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms**.
-1. Klikken **Velden** om het gebied Velden te openen, of **Secties** om het gebied Secties te openen.
-1. Selecteer het aangepaste veld, het sectie-einde of de widget en klik vervolgens op ![Pictogram Bewerken](assets/edit-icon.png).
+1. Klik **Aangepaste Forms**.
+1. Klik **Gebieden** om het gebied van Gebieden te openen, of **Secties** om het gebied van Secties te openen.
+1. Selecteer het douanegebied, de sectieonderbreking, of widget, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
 1. Wijzig in het vak dat wordt weergegeven de opties die beschikbaar zijn voor het item dat u bewerkt.
 
    Meer informatie over deze opties vindt u:
-   * Als u de formulierontwerper gebruikt, raadpleegt u [Een formulier ontwerpen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-   * Als u de aangepaste formulierbuilder gebruikt, raadpleegt u [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) of [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * Als u de vormontwerper gebruikt, zie [ Ontwerp een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Als u de bouwer van de douanevorm gebruikt, zie [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen of [ een activa widget in een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
-1. Klik op **Bewerken**.
+1. Wanneer u wordt gebeëindigd, geeft de klik **** uit.

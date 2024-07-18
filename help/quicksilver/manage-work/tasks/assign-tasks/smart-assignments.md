@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste bron is om het werk te voltooien. De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. De slimme taken kunnen gebruikers, baanrollen, of teams zijn.
 
 >[!NOTE]
 >
->Bij het voorstellen van gebruikers houden slimme toewijzingen geen rekening met de beschikbaarheid van de gebruiker. De beschikbaarheid volgens de planning is echter van invloed op de geplande en verwachte datum van taken en problemen wanneer deze worden toegewezen. Raadpleeg het artikel voor informatie over schema&#39;s [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Bij het voorstellen van gebruikers houden slimme toewijzingen geen rekening met de beschikbaarheid van de gebruiker. De beschikbaarheid volgens de planning is echter van invloed op de geplande en verwachte datum van taken en problemen wanneer deze worden toegewezen. Voor informatie over programma&#39;s, zie het artikel [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
-Dit artikel bevat algemene informatie over slimme toewijzingen. Voor informatie over het gebruiken van slimme taken om taken en kwesties aan gebruikers toe te wijzen, zie [Slimme toewijzingen maken](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+Dit artikel bevat algemene informatie over slimme toewijzingen. Voor informatie over het gebruiken van slimme taken om taken en kwesties aan gebruikers toe te wijzen, zie [ Slimme taken ](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md) maken.
 
 ## Overzicht van slimme toewijzingen
 
@@ -49,11 +49,11 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">Een taaklijst of rapport in de kolom van Taken </span>
+* <span class="preview"> Een taaklijst of rapport in de kolom van Taken </span>
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* <span class="preview">Een taakkoptekst in het veld Toewijzingen</span>
+* <span class="preview"> de taakkopbal van A op het gebied van Taken </span>
 
   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
@@ -65,7 +65,7 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* <span class="preview">Het gebied van Toewijzingen in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project</span>
+* <span class="preview"> het gebied van Taken in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project </span>
 
   <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
@@ -88,7 +88,7 @@ Slimme toewijzingen werken anders voor taken dan voor problemen.
 
 De taak slimme toewijzingsberekening werkt in twee fasen die twee verschillende algoritmen gebruiken.
 
-Afhankelijk van welk algoritme de slimme taak vindt, worden de taken vermeld onder twee afzonderlijke secties in het gebied van Taken. Zie voor meer informatie [Slimme toewijzingen maken](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+Afhankelijk van welk algoritme de slimme taak vindt, worden de taken vermeld onder twee afzonderlijke secties in het gebied van Taken. Voor informatie, zie [ Slimme taken van het Merk ](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -124,7 +124,7 @@ Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de 
 
   Bijvoorbeeld, als Rick eerder vandaag aan een gelijkaardige taak werd toegewezen en Jennifer twee dagen geleden aan een gelijkaardige taak werd toegewezen, toont Rick eerst.
 
-* In deze fase geïdentificeerde toewijzingen worden vermeld in de    **Voorgestelde toewijzingen**  in het veld Toewijzingen voor taken.
+* In deze fase geïdentificeerde toewijzingen worden vermeld in de    **stelde de 1} sectie van taken {van de taken {van het gebied van Toewijzingen voor taken voor.**
 
 * Als er geen gelijken gebruikend deze berekening zijn, begint de tweede fase van slimme taken die gebruikend een verschillend algoritme wordt berekend.
 
@@ -132,9 +132,9 @@ Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de 
 
 Als de eerste stap van taak slimme taken geen gelijken heeft gevonden, berekent Workfront slimme taken voor taken op dezelfde manier als ze voor problemen worden berekend.
 
-Zie de sectie voor meer informatie [Criteria voor slimme toewijzingen voor taken en problemen](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
+Voor meer informatie, zie de sectie [ Slimme toewijzingscriteria voor taken en kwesties ](#smart-assignments-criteria-for-tasks-and-issues) in dit artikel.
 
-In deze fase geïdentificeerde toewijzingen worden vermeld in de **Gebruikers en teams**, **Taken toewijzen**, en **Waarderingskaartrollen**  secties in het veld Toewijzingen. Zie voor meer informatie over tariefkaarten [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+De taken die in deze fase worden geïdentificeerd zijn vermeld in de **Gebruikers en teams**, **de roltoewijzingen van de Taak**, en **de kaartrollen van het Tarief** secties van het gebied van Taken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criteria voor slimme toewijzingen voor taken en problemen
 
@@ -142,7 +142,7 @@ In deze fase geïdentificeerde toewijzingen worden vermeld in de **Gebruikers en
 
 >[!NOTE]
 >
-><span class="preview">De volgende criteria zijn alleen van toepassing op taken wanneer de eerste fase van de berekening van de intelligente taak geen overeenkomsten heeft gevonden. Zie de sectie [Eerste fase van berekening van slimme toewijzing voor taken](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen. </span>
+><span class="preview"> de volgende criteria zijn van toepassing op taken slechts wanneer de eerste fase van de taak slimme toewijzingsberekening geen gelijken vond. Voor informatie, zie de sectie [ Eerste fase van slimme toewijzingsberekening voor taken ](#first-phase-of-smart-assignment-calculation-for-tasks) in dit artikel. De volgende criteria zijn standaard altijd van toepassing op problemen. </span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

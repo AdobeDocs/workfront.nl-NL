@@ -19,11 +19,11 @@ ht-degree: 0%
 
 U kunt rapporten tot stand brengen gebruikend berekende douanegegevens. In de volgende artikelen wordt beschreven hoe:
 
-* [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
-* [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
-* [Operatoren voor voorwaarde in berekende aangepaste expressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
-* [Overzicht van &quot;IF&quot;-instructies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
-* [Voorbeeld van berekend aangepast veld: geef de manager van de maker van een uitgave weer op het aangepaste formulier voor uitgave](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
-* [Voorbeeld van een berekend aangepast veld: een statustijdstempel weergeven in een aangepast formulier](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-* [Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+* [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+* [ Berekende douanevelden vs. berekende kolommen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
+* [ de exploitanten van de Voorwaarde in berekende douaneuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
+* [ &quot;IF&quot;verklaringen overzicht ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
+* [ Berekend het voorbeeld van het douanegebied: toon de manager van de schepper van een kwestie op de vorm van de uitgave douaneformulier ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
+* [ Berekend de voorbeeld van het douanegebied: toon een timestamp van de Status in een Vorm van de Douane ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
+* [ Berekend het voorbeeld van het douanegebied: toon de Edit geschiedenis van een gebied ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

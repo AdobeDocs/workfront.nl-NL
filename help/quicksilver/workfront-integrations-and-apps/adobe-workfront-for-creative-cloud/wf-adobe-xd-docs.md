@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: XD tekengebieden als documenten uploaden naar Workfront
+title: XD tekengebieden uploaden naar Workfront
 description: U kunt uw tekengebieden uploaden als documenten voor een snelle revisie en goedkeuring of eenvoudig in Adobe Workfront opslaan.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -14,9 +14,9 @@ ht-degree: 0%
 ---
 
 
-# Uploaden [!DNL XD] tekengebieden als documenten naar [!DNL Workfront]
+# [!DNL XD] tekengebieden als documenten uploaden naar [!DNL Workfront]
 
-U kunt uw tekengebieden uploaden als documenten voor een snelle revisie en goedkeuring of eenvoudig opslaan in [!DNL Adobe Workfront].
+U kunt uw tekengebieden uploaden als documenten voor een snelle revisie en goedkeuring of eenvoudig in [!DNL Adobe Workfront] opslaan.
 
 ## Toegangsvereisten
 
@@ -36,44 +36,44 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> -->
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot [!UICONTROL Documents]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang bewerken tot [!UICONTROL Documents]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] toegang tot of hoger voor het object waar u een document wilt uploaden.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] toegang tot of hoger voor het object waar u een document wilt uploaden.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-* U moet de [!DNL Adobe Workfront for XD] -insteekmodule voordat u XD tekengebieden als documenten kunt uploaden naar Workfront.
+* U moet de plug-in [!DNL Adobe Workfront for XD] installeren voordat u XD tekengebieden als documenten kunt uploaden naar Workfront.
 
-Zie voor instructies [Installeren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+Voor instructies, zie [ installeren  [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 ## Een nieuw document toevoegen
 
-1. Klik op de knop **[!UICONTROL Menu]** in de rechterbovenhoek, en selecteer vervolgens **[!UICONTROL Work List]**. U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
+1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
    ![](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waar u een document wilt uploaden.
-1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png) in de navigatiebalk.
+1. Klik op het pictogram **[!UICONTROL Document]** ![](assets/documents.png) op de navigatiebalk.
 
-1. Klikken **[!UICONTROL New File]** aan de onderkant van de plug-in.
-1. Selecteer het tekengebied dat u wilt uploaden.
+1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
+1. Selecteer het te uploaden tekengebied.
 
    >[!TIP]
    >
    >Als u meerdere tekengebieden wilt selecteren, klikt u en sleept u de muis over de gewenste tekengebieden.
-1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
-1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu:
+1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
+1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst:
 
    <table style="table-layout:auto">
     <col>
@@ -84,47 +84,47 @@ Zie voor instructies [Installeren [!DNL Adobe Workfront for XD]](/help/quicksilv
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>De tekengebieden worden als een PNG-bestand geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>De tekengebieden worden als een PNG-bestand geüpload naar het tabblad [!UICONTROL Documents] van het tijdelijke item in [!DNL Workfront] . </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>De tekengebieden worden als een JPG geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
+      <td>De tekengebieden worden als een JPG geüpload naar het tabblad [!UICONTROL Documents] van het werkitem in [!DNL Workfront] . <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>De tekengebieden worden als een SVG geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>De tekengebieden worden als een SVG geüpload naar het tabblad [!UICONTROL Documents] van het werkitem in [!DNL Workfront] . </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Kies of u de geselecteerde tekengebieden als een <strong>Eén PDF-bestand</strong> of <strong>Meerdere PDF-bestanden</strong>. De tekengebieden worden als een PDF geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront].</td>
+      <td>Kies als u geselecteerde artboards als a <strong> Enig dossier van PDF </strong> of <strong> Veelvoudige dossiers van PDF </strong> wilt uploaden. De tekengebieden worden als een PDF geüpload naar het tabblad [!UICONTROL Documents] van het werkitem in [!DNL Workfront] .</td>
      </tr>
     </tbody>
    </table>
 
 
 1. Klik op **[!UICONTROL Upload]**.\
-   Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+   Het document wordt weergegeven in het gebied [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
 
 ## Een nieuwe versie toevoegen
 
-1. Klik op de knop **[!UICONTROL Menu]** in de rechterbovenhoek, en selecteer vervolgens **[!UICONTROL Work List]**. U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
+1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
    ![](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waar u een document wilt uploaden.
-1. Klik op de knop **[!UICONTROL Document]** pictogram ![](assets/documents.png)in de navigatiebalk.
+1. Klik op het **[!UICONTROL Document]** pictogram ![](assets/documents.png) op de navigatiebalk.
 
 1. Klik op het document waaraan u een nieuwe versie wilt toevoegen.
-1. Klikken **[!UICONTROL New version]** aan de onderkant van de plug-in.
+1. Klik op **[!UICONTROL New version]** onder aan de plug-in.
 1. Selecteer de tekengebieden die u wilt uploaden.
 
    >[!NOTE]
    >
    >Als u een nieuwe versie van een SVG, PNG of JPG wilt uploaden, kunt u slechts één tekengebied uploaden.
 
-1. (Optioneel) Typ een opmerking in het dialoogvenster **[!UICONTROL Updates]** gebied.
+1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-1. Kies de optie **[!UICONTROL Asset Type]** in het keuzemenu:
+1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst:
 
    <table style="table-layout:auto">
     <col>
@@ -135,24 +135,24 @@ Zie voor instructies [Installeren [!DNL Adobe Workfront for XD]](/help/quicksilv
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>Het tekengebied wordt als een PNG-bestand geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>Het tekengebied wordt als een PNG-bestand geüpload naar het tabblad [!UICONTROL Documents] van het tijdelijke item in [!DNL Workfront] . </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Het tekengebied wordt als een JPG geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
+      <td>Het tekengebied wordt als een JPG geüpload naar het tabblad [!UICONTROL Documents] van het werkitem in [!DNL Workfront] . <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Het tekengebied wordt als een SVG geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>Het tekengebied wordt als een SVG geüpload naar het tabblad [!UICONTROL Documents] van het werkitem in [!DNL Workfront] . </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>De tekengebieden worden als een PDF geüpload naar het werkitem [!UICONTROL Documents] tab in [!DNL Workfront].</p>
-      <p><strong>Opmerking</strong>: U kunt slechts één tekengebied uploaden voor een nieuwe documentversie.</p>
+      <td><p>De tekengebieden worden als een PDF geüpload naar het tabblad [!UICONTROL Documents] van het werkitem in [!DNL Workfront] .</p>
+      <p><strong> Nota </strong>: U kunt slechts één artboard voor een nieuwe documentversie uploaden.</p>
       </td>
      </tr>
     </tbody>
    </table>
 
 1. Klik op **[!UICONTROL Upload]**.\
-   Het document wordt weergegeven in het dialoogvenster [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
+   Het document wordt weergegeven in het gebied [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.

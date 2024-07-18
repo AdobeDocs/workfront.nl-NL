@@ -18,13 +18,13 @@ ht-degree: 0%
 
 # De standaard Adobe Workfront-lay-out
 
-De standaardindeling is de rangschikking van het hoofdmenu ![](assets/main-menu-icon.png), het linkerdeelvenster en de weergaven, groepen en filters voordat een Adobe Workfront-beheerder wijzigingen aanbrengt met een lay-outsjabloon.
+De standaardindeling is de rangschikking van het Hoofdmenu ![](assets/main-menu-icon.png) , het linkerdeelvenster en de weergaven, groeperingen en filters voordat een Adobe Workfront-beheerder wijzigingen aanbrengt met behulp van een lay-outsjabloon.
 
-Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [Gebruikers toewijzen aan een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [ gebruikers aan een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 >[!NOTE]
 >
->Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Zie de klasse [Voorkeuren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) sectie in [Mijn instellingen configureren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [ sectie van de Voorkeur ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 ## Standaardschermindelingen voor elk toegangsniveau
 
@@ -55,17 +55,17 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
  </thead> 
  <tbody> 
   <tr> 
-   <td rowspan="2"><strong>Projecten</strong> </td> 
-   <td><strong>Projecten</strong> </td> 
-   <td>✔ <br>(Standaardlandingsgebied)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Standaardlandingsgebied)</td> 
+   <td rowspan="2"><strong> Projecten </strong> </td> 
+   <td><strong> Projecten </strong> </td> 
+   <td>✔ <br> (Standaardlandingsgebied)</td> 
+   <td><span style="font-weight: 400;"> ✔ </span> <br> (Standaardlandingsgebied)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Portfolio's</strong> </td> 
+   <td><strong> Portfolio's </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -74,17 +74,8 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Rapportage</strong> </td> 
-   <td><strong>Rapporten</strong> </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td>✔ </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p><strong>Dashboards</strong> </p> </td> 
+   <td rowspan="3"><strong> Meldend </strong> </td> 
+   <td><strong> Rapporten </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -93,7 +84,16 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Kalenders</strong> </td> 
+   <td> <p><strong> Dashboards </strong> </p> </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td>✔ </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><strong> Kalenders </strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -102,8 +102,8 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Mensen</strong> (hernoemd naar <strong>Teams</strong> voor gebruikers met een werkvergunning)</td> 
-   <td><strong>Teams</strong> </td> 
+   <td rowspan="5"><strong> Mensen </strong> (anders genoemd aan <strong> Teams </strong> voor gebruikers met een vergunning van het Werk)</td> 
+   <td><strong> Teams </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔</td> 
@@ -112,7 +112,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Mensen</strong> </td> 
+   <td><strong> Mensen </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -131,7 +131,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    </tr>
   --> 
   <tr> 
-   <td><strong>Planning</strong> </td> 
+   <td><strong> Planning </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -140,7 +140,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Planning</strong> </td> 
+   <td><strong> Plannend </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -149,8 +149,8 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Verzoeken</strong> </td> 
-   <td><strong>Nieuwe aanvraag</strong> </td> 
+   <td rowspan="3"><strong> Verzoeken </strong> </td> 
+   <td><strong> Nieuw Verzoek </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -159,16 +159,16 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><strong>Verzoeken die ik heb ingediend</strong> </td> 
+   <td><strong> Verzoeken ik heb voorgelegd </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Standaardlandingsgebied)</td> 
-   <td>✔ <br>(Standaardlandingsgebied)</td> 
+   <td>✔ <br> (Standaardlandingsgebied)</td> 
+   <td>✔ <br> (Standaardlandingsgebied)</td> 
   </tr> 
   <tr> 
-   <td><strong>Alle verzoeken</strong> </td> 
+   <td><strong> Alle Verzoeken </strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -177,8 +177,8 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>Tijdschema</strong> </td> 
-   <td><strong>Mijn tijdbladen</strong> </td> 
+   <td rowspan="3"><strong> Timesheet </strong> </td> 
+   <td><strong> Mijn Chronologie </strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -187,7 +187,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Timesheets die ik keur</strong> </td> 
+   <td><strong> Timesheets I goedkeuren </strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
@@ -196,7 +196,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Alle tijdbladen</strong> </td> 
+   <td><strong> Alle Chronologie </strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
@@ -205,7 +205,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Documenten</strong> </td> 
+   <td><strong> Documenten </strong> </td> 
    <td> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -215,7 +215,7 @@ In de volgende tabel wordt standaard aangegeven welke items van het linkerdeelve
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Instellen</strong> </td> 
+   <td><strong> Opstelling </strong> </td> 
    <td> </td> 
    <td>✔ </td> 
    <td>Beperkte functionaliteit</td> 

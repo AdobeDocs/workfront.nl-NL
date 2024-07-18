@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Projectsjablonen verwijderen
 
-We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Zie voor informatie over het deactiveren van een sjabloon [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een malplaatje, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 >[!IMPORTANT]
 >
@@ -39,23 +39,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot sjablonen bewerken die toegang tot Verwijderen bevatten</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot sjablonen bewerken die toegang tot Verwijderen bevatten</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor de sjabloon die machtigingen bevat om de sjabloon te verwijderen</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor de sjabloon die machtigingen bevat om de sjabloon te verwijderen</p> <p> <img src="assets/template-manage-permissions-with-advanced-settings-350x352.png" style="width: 350;height: 352;"> </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Overwegingen bij het verwijderen van sjablonen
 
 * De taken die aan projecten werden toegevoegd toen het malplaatje in bijlage was blijven op de projecten. Nochtans, wordt de informatie van de malplaatjetaak verbonden aan de taken geschrapt.
-* De naam van de sjabloon wordt niet meer vermeld in het dialoogvenster **Sjabloon** veld op **Overzicht** subtabblad van het project.
+* De naam van het malplaatje is niet meer vermeld in het **Malplaatje** gebied op het **Overzicht** sub-lusje van het project.
 
-* U kunt een onlangs verwijderde sjabloon uit de prullenbak herstellen. Voor informatie over het terugkrijgen van punten van de KringloopBak, zie [Verwijderde items herstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* U kunt een onlangs verwijderde sjabloon uit de prullenbak herstellen. Voor informatie over het terugkrijgen van punten van de Prullenbak, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Een sjabloon verwijderen
 
@@ -63,10 +63,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Hiermee wordt een lijst met sjablonen geopend
 
-1. Selecteer de sjabloon die u wilt verwijderen door op het selectievakje links van de sjabloonnaam te klikken en klik vervolgens op **Verwijderen > Ja, verwijderen** om de schrapping te bevestigen.
+1. Selecteer het malplaatje dat u wilt schrappen door checkbox links van de malplaatjenaam te klikken, dan **Schrapping > ja, schrap het** om de schrapping te bevestigen.
 
    of
 
-   Klik op de naam van een sjabloon om deze te openen en klik vervolgens op de knop **Meer** menu ![](assets/qs-more-icon-on-an-object.png) vervolgens **Sjabloon verwijderen > Ja, verwijderen**.
+   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan **Schrapping Malplaatje > ja, schrap het**.
 
    Het malplaatje is niet meer beschikbaar om met een project worden geassocieerd.

@@ -10,7 +10,7 @@ role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Zie voor informatie over het bewerken van alle informatie voor een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een project zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -43,42 +43,42 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot of hoger voor projecten weergeven </p>
 
-<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Toegang tot het project weergeven om beperkte informatie over het project weer te geven</p> 
-   <p>Toegang tot het project beheren om informatie over het project te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <p>Toegang tot het project beheren om informatie over het project te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De sectie Overzicht openen
 
 1. Ga naar het project waarvan de sectie van het Overzicht u wilt bekijken.
-1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. De **Overzicht** de sectie zou eerst als deel van de Details van het Project moeten tonen en zou door gebrek moeten worden uitgebreid
+1. Klik **Details van het Project** in het linkerpaneel.
+1. De **sectie van het Overzicht** zou eerst als deel van de Details van het Project moeten tonen en zou door gebrek moeten worden uitgebreid
 
    of
 
-   Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) in de rechterbovenhoek van de sectie Details klikt u op **Overzicht**. Hiermee opent u het gebied Overzicht voor bewerking.
+   Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Overzicht**. Hiermee opent u het gebied Overzicht voor bewerking.
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik **Het menu Meer** ![](assets/more-icon.png) naast de projectnaam, dan **Bewerken** om meer projectgebieden te bekijken.
+1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik het **Meer menu** ![](assets/more-icon.png) naast de projectnaam, dan **geeft** uit om meer projectgebieden te bekijken.
 
-   Zie voor meer informatie over het bewerken van projecten [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Voor meer informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-1. Bewerk of bekijk de velden in de onderstaande tabel die worden weergegeven in het dialoogvenster **Overzicht** sectie.\
-   Als u een veld wilt bewerken dat beschikbaar is voor bewerking, klikt u op het veld of klikt u op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
+1. Bewerk of herzie de gebieden in de lijst onder die vertoning in de **sectie van het Overzicht**.\
+   Als u een veld wilt bewerken dat beschikbaar is voor bewerking, klikt u op het veld of klikt u op **+ Toevoegen** om informatie toe te voegen aan een leeg veld.
 
    >[!NOTE]
    >
-   >Afhankelijk van de configuratie van uw lay-outsjabloon door uw Workfront-beheerder, worden mogelijk niet alle velden weergegeven. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de configuratie van uw lay-outsjabloon door uw Workfront-beheerder, worden mogelijk niet alle velden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
@@ -86,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
     <tr> 
       <td role="rowheader"><b>Veld</b></td> 
-      <td><b>Beschrijving</b> </td> 
+      <td><b> Beschrijving </b> </td> 
      </tr>
      <tr> 
       <td role="rowheader">Beschrijving</td> 
@@ -106,7 +106,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Type voorwaarde</td> 
-      <td>Bepaalt of de manager de Voorwaarde van het project plaatst of als Workfront. Zie het artikel voor informatie over de projectvoorwaarde <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overzicht van het type Projectvoorwaarde en Voorwaarde</a>.</td> 
+      <td>Bepaalt of de manager de Voorwaarde van het project plaatst of als Workfront. Voor informatie over de Voorwaarde van het Project, zie het artikel <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref"> Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planningsmodus</td> 
@@ -130,11 +130,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Groep</td> 
-      <td> <p>De groep die aan het project is gekoppeld.</p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+      <td> <p>De groep die aan het project is gekoppeld.</p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram <img src="assets/info-icon.png"> naast de groep te klikken. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
       Door gebrek, wordt één van de volgende groepen automatisch geassocieerd met een project wanneer het wordt gecreeerd, tenzij u een verschillende groep specificeert:
         <ul> 
-         <li> <p><span>Wanneer het project van het gebied van Projecten wordt gecreeerd, wordt de Groep van het Huis van de projectmaker geassocieerd met het project.</span> </p> </li> 
-         <li> <p><span>Wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep automatisch geassocieerd met het project.</span> </p> </li> 
+         <li> <p><span> wanneer het project van het gebied van Projecten wordt gecreeerd, wordt de Groep van het Huis van de projectmaker geassocieerd met het project.</span> </p> </li> 
+         <li> <p><span> wanneer het project van de belangrijkste pagina van een groep in het gebied van de Opstelling wordt gecreeerd, wordt die groep automatisch geassocieerd met het project.</span> </p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -151,7 +151,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Resource Manager</td> 
-      <td> <p>Dit is de persoon die gebruikersmiddelen in het project kan beheren. </p> <p>Zie het artikel voor informatie over Resource Managers <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Bronbeheerders aanwijzen voor een project of sjabloon </a>.</p> </td> 
+      <td> <p>Dit is de persoon die gebruikersmiddelen in het project kan beheren. </p> <p>Voor informatie over de Managers van het Middel, zie het artikel <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref"> toewijzen de Managers van het Middel voor een project of een malplaatje </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -162,7 +162,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    > 
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Bekijk de volgende velden in de sectie Overzicht. U kunt de volgende velden niet bewerken:
@@ -191,36 +191,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader"><b>Veld</b></td> 
-      <td><b>Beschrijving</b> </td> 
+      <td><b> Beschrijving </b> </td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span>Duur van initiatief</span> </td> 
-      <td><span>De duur van het desbetreffende initiatief wanneer het project verband houdt met een initiatief. Dit veld kan niet worden bewerkt.</span> </td> 
+      <td role="rowheader"><span> Duur van het Initiatief </span> </td> 
+      <td><span> de duur van het overeenkomstige initiatief wanneer het project met een initiatief verbonden is. Dit veld kan niet worden bewerkt.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Laatste gepubliceerde datum</span> </td> 
-      <td><span>De datum waarop het project voor het laatst is gepubliceerd op basis van een overeenkomstig initiatief.</span> </td> 
+      <td role="rowheader"><span> Laatste Gepubliceerde Datum </span> </td> 
+      <td><span> de datum toen het project het laatst van een overeenkomstig initiatief werd gepubliceerd.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Begindatum initiatief</span> </td> 
-      <td><span>De eerste dag van de startmaand van het initiatief, wanneer het project aan een initiatief is gekoppeld.</span> </td> 
+      <td role="rowheader"><span> Datum van het Begin van het Initiatief </span> </td> 
+      <td><span> de eerste dag van de beginmaand van het initiatief, wanneer het project met een initiatief wordt verbonden.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Einddatum van initiatief</span> </td> 
-      <td><span>De laatste dag van de laatste maand van het initiatief, wanneer het project gekoppeld is aan een initiatief. </span> </td> 
+      <td role="rowheader"><span> Einddatum van het Initiatief </span> </td> 
+      <td><span> de laatste dag van de eindmaand van het initiatief, wanneer het project met een initiatief verbonden is. </span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>De Rollen van de Baan van het initiatief in FTEs en Uren</span> </td> 
+      <td role="rowheader">{de Rollen van de Baan van 0} Initiatief in FTEs en Uren </span><span> </td> 
       <td> <p>Informatie over de bijbehorende functies en de tijdstoewijzingen voor het initiatief. Dit omvat:</p> 
        <ul> 
         <li>Functienaam</li> 
         <li>Aantal FTE's</li> 
-        <li> <p>Aantal uren voor alle VTE's</p> <p>U kunt de hoeveelheid baanrollen schatten nodig voor uw plan of initiatief gebruikend uren of FTEs. </p> <p>Zie voor meer informatie <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Abonnementen maken en bewerken in Scenario Planner</a>. </p> </li> 
-       </ul> <p>Tip: <span>Als het aantal functies per maand in het initiatief verschilt, wordt in dit veld het maximale aantal rollen weergegeven dat nodig is voor het initiatief. Bijvoorbeeld, als u 1 Consultant voor Januari en 2 voor Februari nodig hebt, toont de kolom 2FTE en de overeenkomstige hoeveelheid uren voor 2 FTEs voor alle maanden.</span> </p> </td> 
+        <li> <p>Aantal uren voor alle VTE's</p> <p>U kunt de hoeveelheid baanrollen schatten nodig voor uw plan of initiatief gebruikend uren of FTEs. </p> <p>Voor meer informatie, zie <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref"> plannen in de Planner van het Scenario creëren en uitgeven </a>. </p> </li> 
+       </ul> <p>Tip: <span> als het aantal baanrol voor elke maand in het initiatief verschillend is, toont dit gebied de maximumhoeveelheid rollen nodig voor het initiatief. Bijvoorbeeld, als u 1 Consultant voor Januari en 2 voor Februari nodig hebt, toont de kolom 2FTE en de overeenkomstige hoeveelheid uren voor 2 FTEs voor alle maanden.</span> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Zie voor informatie over het koppelen van projecten aan initiatieven [Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md).
+   Voor informatie over het verbinden van projecten met initiatieven, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.

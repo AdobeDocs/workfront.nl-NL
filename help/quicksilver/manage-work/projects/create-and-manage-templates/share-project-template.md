@@ -19,9 +19,9 @@ U kunt een malplaatje met gebruikers delen, of u kunt bepalen hoe de projecten d
 
 Wanneer u een object deelt in Adobe Workfront, staat u andere gebruikers toe dat object te bekijken, bij te dragen of te bewerken.
 
-Voor informatie over Workfront-machtigingen raadpleegt u [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor informatie over de toestemmingen van Workfront, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Voor informatie over de toestemmingen u gebruikers kunt geven wanneer het delen van een malplaatje, zie [Een sjabloon delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+Voor informatie over de toestemmingen kunt u gebruikers geven wanneer het delen van een malplaatje, zie [ een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
 ## Toegangsvereisten
 
@@ -41,16 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot sjablonen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een sjabloon beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor een sjabloon beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een sjabloon delen {#share-a-template}
 
@@ -58,40 +58,40 @@ Met Sjabloon delen kunt u uw sjablonen delen met andere gebruikers. Deze actie b
 
 >[!NOTE]
 >
->Wanneer u een actieve gebruiker als Eigenaar van het Malplaatje aanwijst, ontvangt die gebruiker automatisch Manage toestemmingen op het malplaatje. Voor informatie over het aanwijzen van iemand als Sjablooneigenaar raadpleegt u [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Wanneer u een actieve gebruiker als Eigenaar van het Malplaatje aanwijst, ontvangt die gebruiker automatisch Manage toestemmingen op het malplaatje. Voor informatie over het aanwijzen van iemand als Eigenaar van het Malplaatje, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 Een sjabloon delen:
 
-1. Van de **Hoofdmenu** pictogram ![](assets/main-menu-icon.png), klikt u op **Sjablonen**.
+1. Van het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), klik **Malplaatjes**.
 
 1. Voer een van de volgende handelingen uit:\
-   Klik op de naam van een sjabloon om deze te openen en klik vervolgens op de knop **Meer** menu ![](assets/qs-more-icon-on-an-object.png)vervolgens **Sjabloon delen**.
+   Klik de naam van een malplaatje om het te openen, dan klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.
 
    of
 
-   Selecteer een sjabloon in de lijst en klik op het pictogram Delen ![](assets/share-icon.png)en klik vervolgens op **Sjabloon.**
+   Selecteer een malplaatje van de lijst, klik het pictogram van het Aandeel ![](assets/share-icon.png), dan klik **Malplaatje.**
 
    >[!TIP]
    >
    >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
 
-1. In de **Sjabloontoegang** selecteert u de personen, teams, rollen, groepen of bedrijven waarmee u de sjabloon wilt delen.
+1. In het **vakje van de Toegang van het Malplaatje**, selecteer de mensen, de teams, de rollen, de groepen, of de bedrijven u het malplaatje met wilt delen.
 
-   U kunt ook op de knop **Opties** pictogram om de sjabloon voor het hele systeem beschikbaar te maken:
+   U kunt het **pictogram van Opties** ook klikken om het malplaatje beschikbaar te maken voor het hele systeem:
 
 1. Selecteer een van de volgende opties in het keuzemenu voor elke entiteit waarmee u deelt:
 
-   * **Weergave**: De gebruikers met deze toestemmingen kunnen het malplaatje bekijken en een project tot stand brengen gebruikend het, of het vastmaken aan een bestaand project.
+   * **Mening**: De gebruikers met deze toestemmingen kunnen het malplaatje bekijken en een project tot stand brengen gebruikend het, of het aan een bestaand project vastmaken.
 
-      >[!TIP]
-      >
-      >Uw Workfront-beheerder moet u toegang geven tot projecten om projecten te kunnen maken.
+     >[!TIP]
+     >
+     >Uw Workfront-beheerder moet u toegang geven tot projecten om projecten te kunnen maken.
 
-   * **Beheren**: Gebruikers met deze machtigingen kunnen de sjabloon bewerken of verwijderen.
+   * **leidt**: De gebruikers met deze toestemmingen kunnen het malplaatje uitgeven of schrappen.
 
-      Voor informatie over de geavanceerde instellingen ![](assets/gear-icon-in-access-levels.png) hier beschikbaar, zie de sectie [Geavanceerde instellingen voor het delen van sjablonen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in het artikel [Een sjabloon delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Voor informatie over de Geavanceerde Montages ![](assets/gear-icon-in-access-levels.png) beschikbaar hier, zie de sectie [ Geavanceerde Montages voor malplaatje het delen ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in het artikel [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Een project delen via een sjabloon {#share-a-project-from-a-template}
 
@@ -100,15 +100,15 @@ Met het Delen van het malplaatjeProject, kunt u bepalen wie toestemmingen op de 
 Om toekomstige projecten te delen die van een malplaatje met gebruikers worden gecreeerd:
 
 1. Voer een van de volgende handelingen uit:\
-   Klik op de naam van een sjabloon om deze te openen en klik vervolgens op de knop **Meer** menu ![](assets/qs-more-icon-on-an-object.png)vervolgens **Sjabloon delen**.
+   Klik de naam van een malplaatje om het te openen, dan klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), toen **Malplaatje dat** deelt.
 
-   ![Project delen vanuit sjabloon](assets/project-sharing-on-template-nwe-2022-350x172.png)
+   ![ project van het Aandeel van malplaatje ](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
    of
 
-   Selecteer een sjabloon in de lijst en klik op **Delen** en klik vervolgens op **Project.**
+   Selecteer een malplaatje van de lijst, klik **Aandeel**, dan klik **Project.**
 
-1. In de **Projecttoegang** selecteert u de personen, teams, rollen, groepen of bedrijven waarmee de sjabloon wordt gedeeld.
+1. In het **vakje van de Toegang van het Project**, selecteer de mensen, de teams, de rollen, de groepen, of de bedrijven het malplaatje wordt gedeeld met.
 
    >[!TIP]
    >
@@ -116,14 +116,14 @@ Om toekomstige projecten te delen die van een malplaatje met gebruikers worden g
 
 1. Selecteer een van de volgende opties in het keuzemenu voor elke entiteit:
 
-   * **Geen toegang**: U kunt opgeven welke gebruikers geen toegang hebben tot de sjabloon.\
-      Deze optie is alleen beschikbaar wanneer projecten voor het delen in bulk worden gedeeld via sjablonen. 
-   * **Weergave**: De gebruikers met deze toestemmingen kunnen projecten bekijken die van het malplaatje worden gecreeerd.
+   * **Geen toegang**: U kunt specificeren welke gebruikers geen toegang tot het malplaatje zullen hebben.\
+     Deze optie is alleen beschikbaar wanneer projecten voor het delen in bulk worden gedeeld via sjablonen. 
+   * **Mening**: De gebruikers met deze toestemmingen kunnen projecten bekijken die van het malplaatje worden gecreeerd.
    * **Contribute**: De gebruikers met deze toestemmingen kunnen tot projecten bijdragen die van het malplaatje worden gecreeerd 
-   * **Beheren**: De gebruikers met deze toestemmingen kunnen projecten leiden of schrappen die van dit malplaatje worden gecreeerd.
+   * **leidt**: De gebruikers met deze toestemmingen kunnen projecten leiden of schrappen die van dit malplaatje worden gecreeerd.
 
-1. (Optioneel) Klik op de knop **Opties** pictogram om de projecten voor het hele systeem beschikbaar te maken.
-1. Klikken **Opslaan**.
+1. (Facultatief) klik het **pictogram van Opties** om de projecten beschikbaar te maken voor het hele systeem.
+1. Klik **sparen**.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -147,21 +147,21 @@ U kunt veelvoudige malplaatjes evenals projecten van veelvoudige malplaatjes tez
 >Wanneer u meerdere sjablonen selecteert, kunt u niet zien wie al machtigingen heeft voor de afzonderlijke sjablonen.
 
 1. Ga naar een lijst met sjablonen.
-1. Selecteer meerdere sjablonen en klik op ![Delen](assets/share-icon.png).
+1. Selecteer veelvoudige malplaatjes, dan klik ![ Aandeel ](assets/share-icon.png).
 
-   ![Sjablonen of projecten bulksgewijs delen](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe-2022.png)
+   ![ de malplaatjes of de projecten van het Aandeel in bulk ](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe-2022.png)
 
    >[!TIP]
    >
    >U kunt een object alleen delen met actieve gebruikers, teams, rollen of bedrijven.
 
-1. Klikken **Sjabloon** om de geselecteerde sjablonen te delen.
+1. Klik **Malplaatje** om de geselecteerde malplaatjes te delen.
 
    of
 
-   Klikken **Project** om de projecten te delen die van de geselecteerde malplaatjes zullen worden gecreeerd.
+   Klik **Project** om de projecten te delen die van de geselecteerde malplaatjes zullen worden gecreeerd.
 
 1. Doorgaan met het delen van de sjablonen voor de projecten, zoals beschreven in de volgende secties in dit artikel:
 
-   * [Een sjabloon delen](#share-a-template)
+   * [ Deel een malplaatje ](#share-a-template)
    * [Een project delen via een sjabloon](#share-a-project-from-a-template)

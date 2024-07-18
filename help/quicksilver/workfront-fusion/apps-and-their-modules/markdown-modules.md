@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Markeringsmodules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u de modules van de Prijsverhoging gebruiken om Markering in HTML en HTML in Prijsverhoging om te zetten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u de modules van de Prijsverhoging gebruiken om Markering in HTML en HTML in Prijsverhoging om te zetten.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # [!UICONTROL Markdown] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u gebruiken [!UICONTROL Markdown] modules om Markdown in HTML en HTML in Markdown om te zetten.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u de [!UICONTROL Markdown] -modules gebruiken om Markering om te zetten in HTML en HTML in Markeringen.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -42,25 +42,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Markdown to HTML]
 
@@ -78,7 +78,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Schakel deze optie in om de GitHub-gearomatiseerde markering om te zetten in HTML.</p> <p>Zie de map Mar voor meer informatie[!DNL ]kdown cheatsheet in [!DNL GitHub] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in om de GitHub-gearomatiseerde markering om te zetten in HTML.</p> <p>Voor meer informatie, zie Mar [!DNL ] kdown cheatsheet in de [!DNL GitHub] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sanitize]</td> 
@@ -101,7 +101,7 @@ Deze module zet HTML code in Markdown om.
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Schakel deze optie in om de HTML om te zetten in [!DNL GitHub Flavored Markdown].</p> <p>Zie de vervolgkeuzelijst Markering in het dialoogvenster [!DNL GitHub] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in om de HTML om te zetten in [!DNL GitHub Flavored Markdown] .</p> <p>Zie het vervolgkeuzemenu Markering in de [!DNL GitHub] -documentatie voor meer informatie.</p> </td> 
   </tr> 
  </tbody> 
 </table>

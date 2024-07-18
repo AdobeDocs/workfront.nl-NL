@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Excel-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die Microsoft 365 Excel gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Microsoft 365 Excel gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Microsoft Office 365 Excel] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Microsoft 365 Excel]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Microsoft 365 Excel] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,35 +43,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Microsoft office 365 Excel], je moet een Microsoft-account hebben.
+Als u [!DNL Microsoft office 365 Excel] wilt gebruiken, moet u een Microsoft-account hebben.
 
 
 
-## De [!DNL Office 365 Excel] service aan [!DNL Workfront Fusion]
+## De service [!DNL Office 365 Excel] verbinden met [!DNL Workfront Fusion]
 
-Voor instructies over het aansluiten van uw [!DNL Office 365 Excel] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Office 365 Excel] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -81,9 +81,9 @@ Voor instructies over het aansluiten van uw [!DNL Office 365 Excel] account aan 
 
 ## [!DNL Microsoft Office 365 Excel] modules en hun velden
 
-Wanneer u [!DNL Microsoft 365 Excel] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Microsoft 365 Excel] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Microsoft 365 Excel] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Microsoft 365 Excel] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -108,7 +108,7 @@ Deze trekkermodule begint een scenario wanneer een werkboek wordt gecreeerd.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -127,7 +127,7 @@ Deze trekkermodule begint een scenario wanneer een werkboek wordt gecreeerd.
 
 #### [!UICONTROL Search Workbooks]
 
-Deze handelingenmodule zoekt naar [!DNL Excel] werkboeken.
+Deze actiemodule zoekt naar [!DNL Excel] werkboeken.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -135,7 +135,7 @@ Deze handelingenmodule zoekt naar [!DNL Excel] werkboeken.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -162,14 +162,14 @@ Deze actiemodule downloadt de inhoud van het gespecificeerde werkboek van Excel.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a workbook]</td> 
    <td> <p>Selecteer hoe u het werkboek voor de module wilt identificeren om te downloaden.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL By entering an ID manually]</strong> </p> <p>In de [!UICONTROL Workbook ID] gebied, ga of kaart identiteitskaart van het specifieke werkboek in dat u de module wilt downloaden.</p> </li> 
-     <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>In de [!UICONTROL Workbook] gebied, selecteer het werkboek dat u de module wilt downloaden.</p> </li> 
+     <li> <p><strong>[!UICONTROL By entering an ID manually]</strong> </p> <p>Op het [!UICONTROL Workbook ID] gebied, ga of kaart identiteitskaart van het specifieke werkboek in dat u de module wilt downloaden.</p> </li> 
+     <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>Op het [!UICONTROL Workbook] gebied, selecteer het werkboek dat u de module wilt downloaden.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -195,7 +195,7 @@ Deze triggermodule start een scenario wanneer een nieuwe rij aan het werkblad wo
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -222,7 +222,7 @@ Deze actiemodule wint een lijst van aantekenvellen in het gespecificeerde werkbo
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -245,7 +245,7 @@ Deze actiemodule wint een lijst van rijen in het gespecificeerde aantekenvel ter
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -272,7 +272,7 @@ Deze actiemodule leidt tot een nieuw aantekenvel binnen het geselecteerde werkbo
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -295,7 +295,7 @@ Deze actiemodule voegt een nieuwe rij toe aan het geselecteerde werkblad.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -331,7 +331,7 @@ Deze actiemodule werkt een bestaande werkbladrij bij.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -372,7 +372,7 @@ Met deze actiemodule verwijdert u een rij uit een werkblad.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -416,7 +416,7 @@ Deze trigger start een scenario wanneer een nieuwe rij aan een tabel wordt toege
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Workbook]</p> </td> 
@@ -447,7 +447,7 @@ Deze zoekmodule haalt een lijst met alle tabelobjecten op.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -474,7 +474,7 @@ Deze onderzoeksmodule wint een lijst van alle lijstrijen in een werkboek terug.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -508,14 +508,14 @@ Deze actiemodule wint meta-gegevens voor de gespecificeerde lijst terug.
      <p >[!UICONTROL Connection]</p>
    </td> 
    <td> 
-     <p>Voor instructies over het aansluiten van uw Office 365-account op [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p>
+     <p>Voor instructies over het verbinden van uw Office 365 rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> app of de Webdienst van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> creeer een scenario in [!DNL Adobe Workfront Fusion]</a>.</p>
     —&gt; </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a table]</td> 
    <td> <p>Selecteer hoe u de tabel wilt identificeren die u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>In de [!UICONTROL Workbook ID] gebied, ga of kaart identiteitskaart van het werkboek in dat de lijst bevat u wilt terugwinnen.</p> <p>In de [!UICONTROL Table Name] Voer de naam in van de tabel die u wilt ophalen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Op het [!UICONTROL Workbook ID] gebied, ga of kaart identiteitskaart van het werkboek in dat de lijst bevat u wilt terugwinnen.</p> <p>Voer in het veld [!UICONTROL Table Name] de naam in van de tabel die u wilt ophalen of wijs deze naam toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer het werkboek en het aantekenvel die de lijst bevatten u wilt terugwinnen, dan de lijst selecteren.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -532,7 +532,7 @@ Deze actiemodule leidt tot een lijstelement binnen het aantekenvel van Excel.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workbook] </td> 
@@ -548,7 +548,7 @@ Deze actiemodule leidt tot een lijstelement binnen het aantekenvel van Excel.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Address]</p> </td> 
-   <td> <p>Stel de grootte van de tabel in door de cellen linksboven en rechtsonder aan te geven. Voorbeeld: <code>A1:C10</code> Hiermee maakt u een tabel met 3 kolommen en 10 rijen.</p> </td> 
+   <td> <p>Stel de grootte van de tabel in door de cellen linksboven en rechtsonder aan te geven. Voorbeeld: <code>A1:C10</code> maakt een tabel met 3 kolommen en 10 rijen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -563,7 +563,7 @@ Deze actiemodule wijzigt een bestaande tabel.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Workbook] </td>
@@ -598,13 +598,13 @@ Deze actiemodule werkt een bestaande tabel bij.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Update a table]</td> 
    <td> <p>Selecteer hoe u de tabel wilt identificeren die u wilt bijwerken.</p> 
     <ul> 
-     <li> <p><strong>Handmatig invoeren</strong> </p> <p>In de [!UICONTROL Workbook ID] gebied, ga identiteitskaart van het werkboek in of kaart die de lijst bevat u wilt bijwerken.</p> <p>In de [!UICONTROL Table Name] voert u de naam in van de tabel die u wilt bijwerken.</p> </li> 
+     <li> <p><strong> ga manueel binnen </strong> </p> <p>Op het [!UICONTROL Workbook ID] gebied, ga of kaart identiteitskaart van het werkboek in dat de lijst bevat u wilt bijwerken.</p> <p>Voer in het veld [!UICONTROL Table Name] de naam in van de tabel die u wilt bijwerken of wijs deze naam toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer het werkboek en het aantekenvel die de lijst bevatten u wilt bijwerken, dan de lijst selecteren.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -633,7 +633,7 @@ Deze actiemodule werkt een bestaande tabel bij.
 
 #### [!UICONTROL Delete a table]
 
-Met deze actiemodule verwijdert u de opgegeven tabel uit een [!DNL Excel] werkblad.
+Met deze actiemodule verwijdert u de opgegeven tabel uit een [!DNL Excel] -werkblad.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -641,13 +641,13 @@ Met deze actiemodule verwijdert u de opgegeven tabel uit een [!DNL Excel] werkbl
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a table]</td> 
    <td> <p>Selecteer hoe u de tabel wilt identificeren die u wilt verwijderen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>In de [!UICONTROL Workbook ID] gebied, ga identiteitskaart van het werkboek in of kaart die de lijst bevat u wilt schrappen.</p> <p>In de [!UICONTROL Table Name] Voer de naam in van de tabel die u wilt verwijderen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Op het [!UICONTROL Workbook ID] gebied, ga of kaart identiteitskaart van het werkboek in dat de lijst bevat u wilt schrappen.</p> <p>Voer in het veld [!UICONTROL Table Name] de naam in van de tabel die u wilt verwijderen of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer het werkboek en het aantekenvel die de lijst bevatten u wilt schrappen, dan de lijst selecteren.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -669,7 +669,7 @@ Deze actie wint gegevens van de bepaalde aantekenvelwaaier terug, en keert een b
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workbook] </td> 
@@ -696,15 +696,15 @@ Met deze actiemodule kunt u een aangepaste API-aanroep maken.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Office 365] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Een pad invoeren ten opzichte van <code>https://graph.microsoft.com</code>. Voorbeeld:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Voer een pad in dat relatief is ten opzichte van <code>https://graph.microsoft.com</code> . Voorbeeld:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -716,7 +716,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep maken.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:   <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:   <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

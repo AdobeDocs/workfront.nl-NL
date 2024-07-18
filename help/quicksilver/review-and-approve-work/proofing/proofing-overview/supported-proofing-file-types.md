@@ -239,7 +239,7 @@ Workfront heeft de volgende limieten:
 
 ## Web Capture
 
-U kunt statische webpaginaproeven maken. Zie voor meer informatie [Een statische proefdruk maken voor een website of andere webinhoud](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) en [Een statisch proefexemplaar van een website maken met Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+U kunt statische webpaginaproeven maken. Voor meer informatie, zie [ tot een statisch bewijs voor een website of andere Web-inhoud ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) leiden en [ tot een Statische Bewijs van de Website gebruikend Workfront Proof ](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Bestanden overslaan
 
@@ -247,7 +247,7 @@ Om veiligheidsredenen ondersteunen of extraheren we geen bestanden uit ZIP-besta
 
 U kunt ZIP-bestanden alleen verzenden als ze een volledig interactief project bevatten en als voor uw account interactieve functies zijn ingeschakeld (Premium-abonnementen).
 
-Zie voor meer informatie [Overzicht van proefdrukken van interactieve inhoud](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## InDesign- en Quark-bestanden
 

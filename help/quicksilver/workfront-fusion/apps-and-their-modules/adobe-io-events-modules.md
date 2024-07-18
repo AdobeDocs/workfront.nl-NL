@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
-&#42;&#42;Voor informatie over Adobe Workfront Fusion-licenties raadpleegt u [Adobe Workfront Fusion-licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Vereisten
 
@@ -85,15 +85,15 @@ Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand 
       </tr>
       <tr>
         <td role="rowheader">Extra bereik</td>
-        <td>Als u extra bereik wilt toevoegen, klikt u op <b>Item toevoegen</b> en voert u het bereik in.</td>
+        <td>Om om het even welk extra werkingsgebied toe te voegen, <b> voeg punt </b> toe en ga het werkingsgebied in.</td>
       </tr>
       <tr>
         <td role="rowheader">Client-id</td>
-        <td>Voer uw client-id voor de Adobe in. Dit vindt u in het gedeelte Credentials details van de Adobe Developer Console</td>
+        <td>Voer uw client-id voor de Adobe in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Clientgeheim</td>
-        <td>Voer uw Adobe Client Secret in. Dit vindt u in het gedeelte Credentials details van de Adobe Developer Console</td>
+        <td>Voer uw Adobe Client Secret in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -106,26 +106,26 @@ Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand 
       </tr>
       <tr>
         <td role="rowheader">IMS-organisatie-id</td>
-        <td>Voer uw organisatie-id voor de Adobe in. Dit vindt u in het gedeelte Credentials details van de Adobe Developer Console</td>
+        <td>Voer uw organisatie-id voor de Adobe in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">Project-id</td>
         <td>Voer uw project-id in. Dit vindt u in de referentie-URL van het project: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">Werkruimte-id</td>
-        <td>Als u de werkruimte-id van uw project wilt weergeven, downloadt u de projectgegevens van de overzichtspagina van het project in Adobe Developer Console. </td>
+        <td role="rowheader">Workspace-id</td>
+        <td>Als u de Workspace-id van uw project wilt weergeven, downloadt u de projectgegevens van de overzichtspagina van het project in Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
 
-1. Klikken **Doorgaan** om de verbinding op te slaan en terug te keren naar de module.
+1. Klik **verdergaan** om de verbinding te bewaren en aan de module terug te keren.
 
 ## Adobe I/O Events-modules en de bijbehorende velden
 
-Wanneer u [!DNL Adobe I/O Events] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Adobe I/O Events] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe I/O Events] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe I/O Events] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,7 +141,7 @@ Deze actiemodule gebruikt een webhaak om een gebeurtenisbeschrijving te maken. U
 
 Een webhaak maken:
 
-1. Klikken **Toevoegen** naast het veld Webhaak.
+1. Klik **toevoegen** naast het gebied van de Webhaak.
 1. Vul de volgende velden in:
 
    <table>
@@ -154,7 +154,7 @@ Een webhaak maken:
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events], zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel.</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ Deze zoekmodule haalt alle gebeurtenissen voor een registratie uit een journaal 
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events], zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel.</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -250,7 +250,7 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe I/O Events
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events], zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel.</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -265,7 +265,7 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe I/O Events
         <p>[!UICONTROL Method]</p>
       </td>
       <td>
-  <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p>  
+  <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p>  
       </td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe I/O Events
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ Deze zoekmodule haalt de Adobe I/O Events-id&#39;s voor de opgegeven provider en
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events], zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel.</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
        </tr>
        <tr>
          <td role="rowheader">

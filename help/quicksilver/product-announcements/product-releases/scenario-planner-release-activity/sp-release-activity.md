@@ -21,8 +21,8 @@ De volgende releases zijn beschikbaar gesteld voor Workfront Scenario Planner:
 
 <!--* [Adobe Workfront Scenario Planner with the 21.4 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-4.md) -->
 
-* [Adobe Workfront Scenario Planner met release 21.3](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
-* [Adobe Workfront Scenario Planner met release 21.2](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
-* [Adobe Workfront Scenario Planner met release 21.1](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
-* [Workfront Scenario Planner met 20.4 release - 14 oktober 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
+* [ de Planner van het Scenario van Adobe Workfront met 21.3 versie ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
+* [ de Planner van het Scenario van Adobe Workfront met 21.2 versie ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md)
+* [ de Planner van het Scenario van Adobe Workfront met 21.1 versie ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md)
+* [ de Planner van het Scenario van Workfront met 20.4 versie - 14 oktober, 2020 ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)
 * [Workfront Scenario Planner met 20.3 release - 14 augustus 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)

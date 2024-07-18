@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 1 februari 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,7 +42,7 @@ Met de MariaDB-modules kunt u:
 * Een query uitvoeren
 * Rijen uit een tabel selecteren
 
-Zie voor meer informatie [MariaDB-modules](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
+Voor meer informatie zie [ modules MariaDB ](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
 ## Marketo-connector en modules nu beschikbaar
 
@@ -56,7 +56,7 @@ Zie voor meer informatie [MariaDB-modules](../../../workfront-fusion/apps-and-th
 * Een programma kopiëren
 * Een aangepaste API-aanroep maken
 
-Zie voor meer informatie [Marketo-modules](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+Voor meer informatie, zie [ modules van Marketo ](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
 <!--
 

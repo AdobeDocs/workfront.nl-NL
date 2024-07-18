@@ -65,13 +65,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Contribute of hoger machtigingen voor een werkruimte</a> </p>  
+   <td> <p>Contribute of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
@@ -97,7 +97,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 U kunt een record uit de volgende gebieden verwijderen:
 
 * [Van de recordpagina](#delete-a-record-from-the-records-page)
-* [Vanuit de tabelweergave van een recordtype](#delete-a-record-from-the-record-type-table-view)
+* [ Van de lijstmening van een verslagtype ](#delete-a-record-from-the-record-type-table-view)
 
 ### Een record verwijderen van de recordpagina
 
@@ -113,14 +113,14 @@ U kunt een record uit de volgende gebieden verwijderen:
 1. Voer een van de volgende handelingen uit:
 
    * Klik in een tabelweergave op de naam van een record.
-   * Houd de muisaanwijzer in de tabelweergave boven de naam van een record en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
+   * Van de mening van de Lijst, houd over de naam van een verslag, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **Mening**
 
      ![](assets/contextual-menu-for-record-row.png)
    * Klik in een tijdlijnweergave op een recordbalk.
 
    De recordpagina wordt geopend.
 
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Verwijderen** vervolgens **Verwijderen** nogmaals ter bevestiging.
+1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**, dan **Schrapping** opnieuw om te bevestigen.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 De record wordt verwijderd en kan niet worden hersteld.
@@ -136,17 +136,17 @@ De record wordt verwijderd en kan niet worden hersteld.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de linkerbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) van **Mening** drop-down menu in de upper-left hoek van de lijst, selecteer een mening van de Lijst. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik met de rechtermuisknop op een recordrij en klik vervolgens op **Verwijderen**.
-   * Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de record klikt u op **Verwijderen**
+   * Klik een verslagrij met de rechtermuisknop aan, dan klik **Schrapping**.
+   * Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagnaam, dan klik **Schrapping**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Klik op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) om het vak met de gedetailleerde informatie van de record te openen en klik op **Meer** ![](assets/more-menu.png) rechts van de naam van de record, vervolgens **Verwijderen**.
+   * Klik het **Open detailleert** pictogram ![](assets/open-details-icon-in-table-name-field.png) om de doos met de gedetailleerde informatie van het verslag te openen, en klik **Meer** ![](assets/more-menu.png) rechts van de verslagnaam, dan **Schrapping**.
 
    De record wordt verwijderd en kan niet worden hersteld.
 

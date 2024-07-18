@@ -25,7 +25,7 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 >
 >* Vanwege beveiligingsredenen kunt u met bepaalde websites geen webpagina&#39;s insluiten als een iframe. Als de webpagina die u in een dashboard wilt insluiten dit niet toestaat, wordt de pagina niet weergegeven in het dashboard. U kunt de externe pagina echter nog steeds openen door op de naam van het dashboard te klikken.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Als u insluiten wilt toestaan voor een website die u bezit, werkt u samen met uw webbeheerder om de instelling **X-frame-opties** instellen. Zie voor meer informatie [X-frame-opties](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>Om het inbedden voor een website toe te staan u bezit, werk met uw Webbeheerder om **x-kader-Opties** het plaatsen aan te passen. Voor meer informatie, zie [ x-kader-Opties ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
 >* Dashboardpagina&#39;s worden niet meer ondersteund als ingesloten externe pagina&#39;s in dashboards. Bestaande dashboards worden niet automatisch gewijzigd om deze externe pagina&#39;s te verwijderen, maar wijzigingen aan een dashboard die een dergelijke verwijzing bevat, kunnen pas worden opgeslagen wanneer de verwijzing wordt verwijderd of gewijzigd.
@@ -47,7 +47,7 @@ Als uw organisatie bijvoorbeeld een op het web gebaseerde opslagplaats voor docu
 >     * /group/:ID/content-dashboard__:dashboardID &#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Als alternatieve oplossing kunt u overwegen een lijstrapport op te nemen in het dashboard, zoals wordt uitgelegd in [Een rapport toevoegen aan een dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Als alternatieve oplossing, overweeg het omvatten van een lijstrapport in uw dashboard zoals verklaard in [ voeg een rapport aan een Dashboard ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md) toe
 
 ## Toegangsvereisten
 
@@ -80,7 +80,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,13 +88,13 @@ U moet het volgende hebben:
 
 U moet een dashboard maken voordat u er een externe pagina in kunt insluiten.
 
-Zie voor informatie over het maken van dashboards [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een externe pagina insluiten in een dashboard
 
 >[!IMPORTANT]
 >
->U kunt een externe pagina van een dashboard verwijderen als het niet meer nodig is. U kunt een externe pagina echter niet verwijderen nadat u deze hebt gemaakt in Workfront. U kunt een externe pagina alleen verwijderen met de API. Zie voor meer informatie [Een externe pagina verwijderen van een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>U kunt een externe pagina van een dashboard verwijderen als het niet meer nodig is. U kunt een externe pagina echter niet verwijderen nadat u deze hebt gemaakt in Workfront. U kunt een externe pagina alleen verwijderen met de API. Voor meer informatie, zie [ een Externe Pagina uit een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md) verwijderen.
 
 1. Zoek de URL van de pagina die u wilt weergeven in Workfront en kopieer de URL in de adresbalk.
 
@@ -104,22 +104,22 @@ Zie voor informatie over het maken van dashboards [Een dashboard maken](../../..
 
 {{step1-to-dashboards}}
 
-1. Als u een bestaand dashboard wilt bewerken, selecteert u het dashboard waarin u de websitepagina wilt insluiten en klikt u op **Dashboardhandelingen** en klik vervolgens op **Bewerken**
+1. Om een bestaand dashboard uit te geven, selecteer het dashboard u de website binnen wilt inbedden pagina, dan klik **Acties van het Dashboard**, dan klik **uitgeven**
 of\
-   Als u een nieuw dashboard wilt maken, klikt u **Nieuw dashboard**.\
-   Ga voor meer informatie over het maken van een dashboard naar [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+   Om een nieuw dashboard tot stand te brengen, klik **Nieuw Dashboard**.\
+   Voor meer informatie over het creëren van een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
-1. Klikken **Externe pagina toevoegen** onder de **Selecteer Layout/Rapporten toevoegen/Kalenders toevoegen** gebied.
+1. Klik **toevoegen Externe Pagina** onder **Uitgezochte Lay-out/voeg Rapporten/toevoegt Calendars** gebied toe.
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   De **Externe pagina toevoegen** wordt weergegeven.
+   **voegt Externe de vakvertoningen van de Pagina** toe.
 
 1. Geef de volgende informatie op over de externe pagina:
 
    * **Naam**: Voeg een naam voor het dashboard toe.
-   * **Beschrijving**: Voeg meer informatie over het dashboard toe om de informatie te identificeren die het bevat. De beschrijving wordt op het dashboard weergegeven voor iedereen die toegang heeft om de beschrijving weer te geven, nadat u deze hebt opgeslagen.
-   * **URL**: plak de URL die u eerder in dit veld hebt gekopieerd.
+   * **Beschrijving**: Voeg meer informatie over het dashboard toe om de informatie te identificeren het bevat. De beschrijving wordt op het dashboard weergegeven voor iedereen die toegang heeft om de beschrijving weer te geven, nadat u deze hebt opgeslagen.
+   * **URL**: Deeg URL u vroeger op dit gebied kopieerde.
 
      U kunt de volgende typen URL&#39;s opgeven:
 
@@ -130,19 +130,19 @@ of\
       * Een sjabloon-URL die sessiegegevens voor een specifieke website bevat.\
         Bijvoorbeeld: *https://localhost/?session={!$$SESSION}*
 U moet zijn aangemeld bij de opgegeven website om de externe pagina weer te geven.\
-        Voor informatie over hoe u een SessionID kunt verkrijgen van Workfront raadpleegt u [Basisbeginselen van API](../../../wf-api/general/api-basics.md).\
+        Voor informatie over hoe te om een SessionID van Workfront te verkrijgen, zie [ API basissen ](../../../wf-api/general/api-basics.md).\
         Uw Workfront-beheerder kan uw systeemvoorkeuren zodanig configureren dat sessiegegevens uit beveiligingsoverwegingen niet kunnen worden gebruikt in externe pagina&#39;s. In dit geval wordt de externe pagina niet op het dashboard geladen.\
-        Zie voor meer informatie over de voorkeuren voor systeembeveiliging [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
-        ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+        Voor meer informatie over de voorkeur van de systeemveiligheid, zie [ de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.\
+        ![ external_page_with_session_id_example.png ](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
      >
      >Het gebruik van de SessionID is onveilig en wordt niet aangeraden.
      >
 
-   * **Hoogte**: Typ een getal groter dan 0 om de ruimte te definiëren die de externe pagina inneemt op het dashboard. De standaardhoogte is 500.
+   * **Hoogte**: Type een aantal groter dan 0 om de ruimte te bepalen die de externe pagina op het dashboard bezet. De standaardhoogte is 500.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    De pagina wordt automatisch toegevoegd aan het dashboard.
 
@@ -158,16 +158,16 @@ De gegevens bijwerken voor een externe pagina die in een dashboard wordt gebruik
 
 {{step1-to-dashboards}}
 
-1. Klik op de naam van het dashboard dat u wilt bijwerken om het te openen, en klik op **Dashboardhandelingen** vervolgens **Bewerken**.
+1. Klik de naam van het dashboard dat u wilt bijwerken om het te openen, en **Acties Dashboard** te klikken, dan **geeft** uit.
 
-   De **Details dashboard** wordt geopend.
+   Het **vakje van de Details van het Dashboard** opent.
 
-1. In de **Selecteer Indeling / Rapporten toevoegen / Kalenders toevoegen** gebied van de **Details dashboard** , zoekt u de externe pagina die u wilt bijwerken, plaatst u de muis boven de pagina en klikt u op de knop **Bewerken** pictogram.\
+1. In **Uitgezochte Lay-out/voeg Rapporten toe/voeg het gebied van Kalenders** van de **doos van de Details van het Dashboard** toe, bepaal de plaats van de externe pagina u, over het wilt bijwerken, en **klikken geeft** pictogram uit.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. In de **Externe pagina bewerken** , werkt u de velden bij die u wilt wijzigen en klikt u vervolgens op **Opslaan**.
-1. (Optioneel) Klik op de knop **Verwijderen** pictogram ![](assets/delete.png) om de externe pagina uit het dashboard te verwijderen. Zie voor meer informatie [Een externe pagina verwijderen van een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
-1. Klikken **Opslaan + Sluiten**.
+1. In **geef Externe de doos van de Pagina** uit, werk de gebieden bij u wilt veranderen, dan klik **sparen**.
+1. (Facultatief) klik **Schrapping** pictogram ![](assets/delete.png) om de externe pagina uit het dashboard te verwijderen. Voor meer informatie, zie [ een Externe Pagina uit een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md) verwijderen.
+1. Klik **sparen + Sluiten**.
 
 ## Externe pagina&#39;s in een rapport weergeven
 
@@ -175,15 +175,15 @@ U kunt alle externe pagina&#39;s in Workfront weergeven in een rapport Externe p
 
 {{step1-to-reports}}
 
-1. Klikken **Nieuw rapport** > selecteren **Externe pagina**.
+1. Klik **Nieuw Rapport** > selecteren **Externe Pagina**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Optioneel) Werk de tabbladen Weergave, Filters of Groepen van het rapport bij.
 
-   Zie voor meer informatie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Voor meer informatie, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-1. Klikken **Opslaan en sluiten**.
+1. Klik **sparen+Sluiten**.
 
    U kunt de naam en de URL die aan de externe pagina&#39;s in uw systeem zijn gekoppeld in het nieuwe rapport bekijken.
 

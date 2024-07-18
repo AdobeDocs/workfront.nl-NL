@@ -36,10 +36,10 @@ U moet het volgende hebben:
 
 1. Navigeer naar een van de volgende opties:
 
-* Werkgebied: [https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
-* Prod: [https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
+* Stadium: [ https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
+* Prod: [ https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
 
-1. Klik in de sectie Gebruikers op **Ontwikkelaars** > **Ontwikkelaars toevoegen**.
+1. In de sectie van Gebruikers, klik **Ontwikkelaars** > **ontwikkelaars** toevoegen.
 
    ![](assets/manage-users-admin-console.png)
 
@@ -49,7 +49,7 @@ U moet het volgende hebben:
 
 1. Voeg de e-mail van de gebruiker toe. Het zou bestaande gebruikers moeten zoeken die reeds van binnen de admin console zijn toegevoegd.
 
-1. Voeg de benodigde producten toe aan het ontwikkelaarsprofiel en klik op **Opslaan**.
+1. Voeg noodzakelijke producten aan het ontwikkelaarprofiel toe, en klik **sparen**.
 
 ![](assets/add-developer.png)
 
@@ -66,7 +66,7 @@ Als AppBuilder behoorlijk wordt gevormd, zou u &quot;project van malplaatje&quot
 
 ## Een nieuw project maken in de Dev Console
 
-1. Klikken **Project maken van sjabloon**.
+1. Klik **creeer project van malplaatje**.
 
    >[!IMPORTANT]
    >
@@ -74,31 +74,31 @@ Als AppBuilder behoorlijk wordt gevormd, zou u &quot;project van malplaatje&quot
 
    ![](assets/create-from-template.png)
 
-1. Selecteren **App Builder**.
+1. Selecteer **App Builder**.
 
-1. Voer een **Projecttitel** en **Toepassingsnaam**. Beide hebben gebreken, maar het zal gemakkelijker zijn om het Project te identificeren u later wilt als u de waarde aanpast.
+1. Ga de titel van het a **Project** en **App naam** in. Beide hebben gebreken, maar het zal gemakkelijker zijn om het Project te identificeren u later wilt als u de waarde aanpast.
 
    >[!NOTE]
    >
    >Er is een optie om extra werkruimten aan deze stap toe te voegen. Er werd ons voorgesteld een werkruimte te creëren voor elke ontwikkelaar. Dit houdt geheimen en plaatsingen gescheiden van elkaar aangezien devs werken. Geef de werkruimte een naam met de naam van de ontwikkelaar die de werkruimte gebruikt. De AIO-clip heeft opties voor het schakelen tussen de werkruimte, die we later zullen behandelen.
 
 
-1. Verlaten **Inclusief runtime** geselecteerd.
+1. Laat **omvatten runtime** geselecteerd.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Adobe IO (aio) CLI
 
-Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van de Bouwer van de App tot stand brengen. Documentatie is hier te vinden: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) en Adobe App Builder-instructies [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe biedt een open-source CLI die kan worden gebruikt om de App Builder-toepassingen te maken. De documentatie kan hier worden gevonden: [ https://github.com/adobe/aio-cli ](https://github.com/adobe/aio-cli) evenals de Instructies van App Builder van de Adobe [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/ ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installatie
-   1. Als u het hulpprogramma wilt installeren, voert u het volgende uit (zorg dat u zich eerst op knooppunt v18 bevindt): `npm install -g @adobe/aio-cli `.
+   1. Als u het gereedschap wilt installeren, voert u het volgende uit (zorg dat u zich eerst op knooppunt v18 bevindt): `npm install -g @adobe/aio-cli ` .
 
 1. Verifiëren in terminal
-   1. Start de terminal en meld u aan bij AIO met de opdracht: `aio login`.
+   1. Start de terminal en meld u aan bij AIO met de opdracht: `aio login` .
 
 1. Uw toepassing initialiseren
-   1. Start het instellen van uw app door: `aio app init example-app`.
+   1. Start het instellen van de app door: `aio app init example-app` .
 
 1. Configuratieselectie
    1. Ga door om uw Organisatie en Project van de verstrekte opties te selecteren.\
@@ -106,7 +106,7 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
       ![](assets/select-project.png)
 
 1. Sjabloonselectie en -instellingen
-   1. Blader door alle beschikbare sjablonen en kies de **@adobe/aem-cf-editor-ui-ext-tpl** sjabloon voor uw project.
+   1. Blader door alle beschikbare sjablonen en kies de sjabloon **@adobe/aem-cf-editor-ui-ext-tpl** voor uw project.
       ![](assets/search-template.png)
       ![](assets/select-template.png)
 
@@ -114,22 +114,22 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
    1. Geef de extensie een naam.
    1. Geef een beschrijvend overzicht van de functionaliteit van uw extensie.
    1. Selecteer een eerste versienummer waarmee u wilt beginnen.
-   1. Bevestig voltooiing door te selecteren **Ik ben klaar**.
+   1. Bevestig voltooiing door **te selecteren wordt ik gedaan**.
       ![](assets/define-extension.png)
 
 1. Ga naar uw projectmap
    1. De map src openen
-   1. Naam van map wijzigen `aem-cf-editor-1` tot `workfront-doc-details-1`.
+   1. Wijzig de naam van de map `aem-cf-editor-1` in `workfront-doc-details-1` .
 
 1. Configuratiebestanden wijzigen
    1. App.config.yaml openen
-   1. De regel bijwerken vanuit `aem/cf-editor/1` tot `workfront/doc-details/1`.
-   1. Het include-pad aanpassen vanuit `src/aem-cf-editor-1/ext.config.yaml` tot `src/workfront-doc-details-1/ext.config.yaml`.
+   1. Werk de regel bij van `aem/cf-editor/1` naar `workfront/doc-details/1` .
+   1. Pas het include-pad aan van `src/aem-cf-editor-1/ext.config.yaml` naar `src/workfront-doc-details-1/ext.config.yaml` .
 
 1. De Extension Registration Component bewerken
    1. Open `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
-   1. Voeg in de sectie Methoden een functie toe `secondaryNav` die een asynchrone functie bevat `getButtons`.
-   1. `getButtons` ontvangen een object met de volgende structuur:
+   1. Voeg in de sectie Methoden een functie `secondaryNav` toe die een asynchrone functie `getButtons` bevat.
+   1. `getButtons` ontvangt een object met de volgende structuur:
 
       ```
           {
@@ -172,7 +172,7 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
       ```
 
 1. Documentgegevens openen
-   1. Voer de verstrekte functie uit `document.getDocumentDetails` in uw toepassing om essentiële documentspecificaties op te halen. Deze functie haalt een object op dat `docId` en `docvId`, naast een `sharedContext` object met `hostname`, `protocol`en verificatiegegevens. Zorg ervoor dat de toepassing deze gegevens op de juiste wijze verwerkt.
+   1. Voer de geleverde functie `document.getDocumentDetails` in uw toepassing uit om essentiële documentspecificaties op te halen. Deze functie haalt een object op dat `docId` en `docvId` bevat, naast een `sharedContext` -object met `hostname` , `protocol` en verificatiegegevens. Zorg ervoor dat de toepassing deze gegevens op de juiste wijze verwerkt.
 
 1. Gegevens ophalen in uw componenten integreren
    1. Voeg een nieuwe component aan de componentenomslag van uw toepassing toe. Stel binnen deze component een verbinding met Workfront tot stand om documentgegevens en verificatiegegevens op te halen via de verbinding die met de hosttoepassing is gemaakt. Hier is een voorbeeld van hoe u uw component kunt structureren om dit te behandelen:
@@ -218,12 +218,12 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
 
 1. Configuratiebestanden bijwerken
    1. Open `app.config.yaml`.
-   1. Wijzig de configuratie door de verwijzing van bij te werken `aem/cf-editor/1` tot `workfront/doc-details/1`. Met deze aanpassing worden de bestandspaden uitgelijnd op de huidige projectstructuur.
+   1. Wijzig de configuratie door de verwijzing van `aem/cf-editor/1` naar `workfront/doc-details/1` bij te werken. Met deze aanpassing worden de bestandspaden uitgelijnd op de huidige projectstructuur.
 
 1. De Extension Registration Component herzien
-   1. Zoek en open het bestand met de naam `ExtensionRegistration.js`.
-   1. Voeg in de sectie Methoden een functie toe `secondaryNav` die een asynchrone functie bevat `getButtons`.
-   1. `getButtons` ontvangen een object met de volgende structuur:
+   1. Zoek en open het bestand met de naam `ExtensionRegistration.js` .
+   1. Voeg in de sectie Methoden een functie `secondaryNav` toe die een asynchrone functie `getButtons` bevat.
+   1. `getButtons` ontvangt een object met de volgende structuur:
 
       ```
           {
@@ -257,7 +257,7 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
    ```
 
 1. Toepassingsroutering configureren
-   1. Open uw `App.js`en vorm de routes om de onlangs ontwikkelde functionaliteit te omvatten. U zult aan opstellingsroutes voor de standaardmening en om het even welke extra meningen zoals de overzichtspagina moeten. Hier is hoe u deze routes zou kunnen bepalen:
+   1. Open uw `App.js` dossier en vorm de routes om de onlangs ontwikkelde functionaliteit te omvatten. U zult aan opstellingsroutes voor de standaardmening en om het even welke extra meningen zoals de overzichtspagina moeten. Hier is hoe u deze routes zou kunnen bepalen:
 
       ```
           <Route index element={<ExtensionRegistration />} />
@@ -266,7 +266,7 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
       ```
 
 1. Documentgegevens openen
-   1. Voer de verstrekte functie uit `document.getDocumentDetails` in uw toepassing om essentiële documentspecificaties op te halen. Deze functie haalt een object op dat `docId` en `docvId`, naast een `sharedContext` object met `hostname`, `protocol`en verificatiegegevens. Zorg ervoor dat de toepassing deze gegevens op de juiste wijze verwerkt.
+   1. Voer de geleverde functie `document.getDocumentDetails` in uw toepassing uit om essentiële documentspecificaties op te halen. Deze functie haalt een object op dat `docId` en `docvId` bevat, naast een `sharedContext` -object met `hostname` , `protocol` en verificatiegegevens. Zorg ervoor dat de toepassing deze gegevens op de juiste wijze verwerkt.
 
 1. Gegevens ophalen in uw componenten integreren
    1. Voeg een nieuwe component aan de componentenomslag van uw toepassing toe. Stel binnen deze component een verbinding met Workfront tot stand om documentgegevens en verificatiegegevens op te halen via de verbinding die met de hosttoepassing is gemaakt. Hier is een voorbeeld van hoe u uw component kunt structureren om dit te behandelen:
@@ -308,7 +308,7 @@ Adobe verstrekt open bron CLI die kan worden gebruikt helpen de toepassingen van
           export default Review;
       ```
 
-## Toepassingen publiceren
+## Publish-toepassingen
 
 >[!IMPORTANT]
 >
@@ -320,12 +320,12 @@ Als een gasttoepassing in Workfront moet worden geladen, moet de toepassing naar
    1. `aio app use -w Production `
    1. `aio app deploy `
 
-1. Navigeren naar [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) of [https://developer.adobe.com/](https://developer.adobe.com/).
-   1. Klikken **Console** in de rechterbovenhoek
+1. Navigeer aan [ https://developer-stage.adobe.com/ ](https://developer-stage.adobe.com/) of [ https://developer.adobe.com/ ](https://developer.adobe.com/).
+   1. Klik **Console** in de hogere juiste hoek.
 
 1. Vind het project dat u gebruikte om de toepassing te creëren AppBuilder.
 
-1. Selecteer de productiewerkruimte.
+1. Selecteer de Productie-Workspace.
    ![](assets/find-application.png)
 
 1. Verzend de toepassing voor privérevisie (u krijgt waarschuwingen die we niet publiceren naar de marketplace van de app-uitwisseling, wat prima is).
@@ -339,9 +339,9 @@ Als een gasttoepassing in Workfront moet worden geladen, moet de toepassing naar
 
 ## De verzending goedkeuren
 
-1. Als systeembeheerder navigeert u naar [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) of [https://exchange.adobe.com/](https://exchange.adobe.com/).
+1. Als systeembeheerder, navigeer aan [ https://stage.exchange.adobe.com/ ](https://stage.exchange.adobe.com/) of [ https://exchange.adobe.com/ ](https://exchange.adobe.com/).
 
-1. Klikken **Beheren** > **Experiencen Cloud**. De verzonden toepassingen worden weergegeven met opties voor goedkeuren/afwijzen.
+1. Klik **leiden** > **Toepassingen van het Experience Cloud**. De verzonden toepassingen worden weergegeven met opties voor goedkeuren/afwijzen.
 Nadat de gepubliceerde toepassingsextensies zijn goedgekeurd, worden deze automatisch in uw Workfront-omgeving geladen.
 
    ![](assets/approve-submission.png)
@@ -352,18 +352,18 @@ Adobe heeft geweldige documentatie over hoe u apps voor AppBuilder kunt gaan ont
 
 Hier volgen enkele handige koppelingen:
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [ https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
-* [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
+* [ https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 
-* [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
+* [ https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
 
 ## Lokale ontwikkeling
 
 Wanneer u uw App Builder-toepassing voor Workfront ontwikkelt, is het mogelijk dat u uw app in Workfront moet testen zonder deze te publiceren. Gelukkig hebben we daarvoor een oplossing.
 
-In uw app App Builder kunt u `aio app run` voor lokale ontwikkeling. Hiermee krijgt u een URL, meestal iets als `https://localhost:9080`. U kunt ook uitvoeren `aio app deploy` om een statisch domein van de Adobe te verkrijgen. Noteer deze URL&#39;s voor toekomstig gebruik.
+In uw App Builder-app kunt u `aio app run` starten voor lokale ontwikkeling. Hierdoor krijgt u een URL, meestal iets als `https://localhost:9080` . U kunt `aio app deploy` ook uitvoeren om een statisch Adobe-domein te verkrijgen. Noteer deze URL&#39;s voor toekomstig gebruik.
 
-Navigeer vervolgens naar de specifieke pagina met documentdetails die u wilt ontwikkelen in uw browser. Open de tools voor ontwikkelaars en open de Local Storage voor workfront.com of workfront.adobe.com. Hier, moet u een ingang toevoegen. Gebruiken `appBuilderDocDetailsOverride` als de sleutel en de eerder vermelde URL van de App Builder als de waarde.
+Navigeer vervolgens naar de specifieke pagina met documentdetails die u wilt ontwikkelen in uw browser. Open de tools voor ontwikkelaars en open de Local Storage voor workfront.com of workfront.adobe.com. Hier, moet u een ingang toevoegen. Gebruik `appBuilderDocDetailsOverride` als de sleutel en de eerder vermelde URL van de App Builder als de waarde.
 
-Wanneer u de pagina opnieuw laadt, ziet u dat de knoppen uit de toepassing App Builder worden weergegeven. Als u op deze knoppen klikt, kunt u uw app in actie bekijken.
+Wanneer u de pagina opnieuw laadt, worden de knoppen uit uw App Builder-toepassing weergegeven. Als u op deze knoppen klikt, kunt u uw app in actie bekijken.

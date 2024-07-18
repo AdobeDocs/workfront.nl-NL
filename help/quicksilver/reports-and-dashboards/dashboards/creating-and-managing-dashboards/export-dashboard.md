@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 3%
 
 ---
@@ -40,27 +40,27 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Machtigingen weergeven voor het dashboard</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor het dashboard</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 Het dashboard moet worden gemaakt voordat u het kunt exporteren.
 
-Voor informatie over het maken van dashboards raadpleegt u [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard exporteren naar een .pdf-bestand:
 
 1. Ga naar het dashboard dat u wilt exporteren.
-1. Klikken **Handelingen in het dashboard** selecteert u vervolgens **Afdrukken**.
+1. Klik {de acties van 0} Dashboard **, dan selecteren** Druk **.**
 
    ![](assets/dashboard-actions-print-350x254.png)
 
@@ -82,31 +82,31 @@ Voor informatie over het maken van dashboards raadpleegt u [Een dashboard maken]
       <td>Google Chrome</td> 
       <td> 
        <ol> 
-        <li value="1">In de <strong>Doel</strong> veld, selecteren <strong>Opslaan als PDF</strong>wijzigt u vervolgens de andere afdrukopties die u wilt wijzigen.</li> 
-        <li value="2">Klikken <strong>Opslaan</strong>.</li> 
-        <li value="3">(Optioneel) Bewerk de <strong>Bestandsnaam</strong>Selecteer vervolgens een nieuwe mapbestemming voor het bestand.</li> 
-        <li value="4">Klikken <strong>Opslaan</strong> om het .pdf-bestand op de vaste schijf op te slaan.<br><br></li> 
+        <li value="1">Op het <strong> gebied van de Bestemming </strong>, uitgezocht <strong> sparen als PDF </strong>, dan wijzig om het even welke andere drukopties u wilt veranderen.</li> 
+        <li value="2">Klik <strong> sparen </strong>.</li> 
+        <li value="3">(Optioneel) Bewerk de <strong> naam van het Dossier </strong>, dan selecteer een nieuwe omslagbestemming voor het dossier.</li> 
+        <li value="4">Klik <strong> sparen </strong> om het .pdf- dossier aan uw harde aandrijving te bewaren.<br><br></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge en Mozilla Firefox</td> 
-      <td> <p>Opmerking: Als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
+      <td> <p>Opmerking: als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
        <ol> 
-        <li value="1">In de <strong>Printer</strong> of <strong>Printer selecteren</strong> veld, selecteren <strong>Microsoft Print to PDF</strong>wijzigt u vervolgens de andere afdrukopties die u wilt wijzigen.</li> 
-        <li value="2">Klikken <strong>Afdrukken</strong>.</li> 
-        <li value="3">Voer een <strong>Bestandsnaam</strong></li> 
+        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3} gebied van de Printer {, de uitgezochte <strong> Afdruk van Microsoft aan PDF </strong>, wijzigt dan om het even welke andere drukopties u wilt veranderen.</strong></li> 
+        <li value="2">Klik <strong> Druk </strong>.</li> 
+        <li value="3">Ga a <strong> Naam van het Dossier </strong> in</li> 
         <li value="4">(Optioneel) Selecteer een nieuwe mapbestemming voor het bestand.</li> 
-        <li value="5">Klikken <strong>Opslaan</strong>.</li> 
+        <li value="5">Klik <strong> sparen </strong>.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Safari</td> 
       <td> 
        <ol> 
-        <li value="1">Klik in de linkerbenedenhoek op de vervolgkeuzepijl en selecteer <strong>Opslaan als PDF</strong>.</li> 
-        <li value="2">Voer een <strong>Bestandsnaam</strong>.</li> 
+        <li value="1">In de bodem-linkerhoek, klik de drop-down pijl, dan uitgezocht <strong> sparen als PDF </strong>.</li> 
+        <li value="2">Ga a <strong> naam van het Dossier </strong> in.</li> 
         <li value="3">(Optioneel) Wijzig andere afdrukopties die u wilt wijzigen, zoals het selecteren van een nieuwe mapbestemming voor het bestand.</li> 
-        <li value="4">Klikken <strong>Opslaan</strong>.</li> 
+        <li value="4">Klik <strong> sparen </strong>.</li> 
        </ol> </td> 
      </tr> 
     </tbody> 

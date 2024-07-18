@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle andere verbeteringen die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nieuwe thuiservaring
 
@@ -30,9 +30,9 @@ New Home is een belangrijke nieuwe functie die we graag verder willen ontwikkele
 
 Nieuwe introductiepagina is de standaardervaring voor alle gebruikers bij de release. U kunt er echter voor kiezen om terug te keren naar de bestaande Home-ervaring terwijl we de mogelijkheden van de website blijven ontwikkelen.
 
-Zie voor meer informatie [Aan de slag met New Home in Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Voor meer informatie, zie [ begonnen worden met Nieuw Huis in Adobe Workfront ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Nieuwe ervaring met opmerkingen voor extra objecten
 
@@ -40,16 +40,16 @@ De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kor
 
 Dit is de enige opmerkingervaring voor deze objecten, aangezien de oudere opmerkingervaring wordt verwijderd.
 
-Zie voor meer informatie [Nieuwe releaseactiviteit voor opmerkingervaring](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Voor meer informatie, zie [ Nieuwe het becommentariëren de activiteit van de ervaringsversie ](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Nieuwe bètaervaring voor opmerkingen voor projecten, taken en problemen
+## Nieuwe Beta-ervaring met opmerkingen voor projecten, taken en problemen
 
-De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de bètaervaring voor opmerkingen alleen beschikbaar voor problemen en doelen.
+De nieuwe Beta-ervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de Beta-ervaring met opmerkingen alleen beschikbaar voor problemen en doelen.
 
-Voor informatie over de functies die momenteel beschikbaar zijn in de bètaervaring voor opmerkingen raadpleegt u [Nieuwe bètaervaringsactiviteit voor opmerkingen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Voor informatie over de eigenschappen momenteel beschikbaar in de het becommentariëren ervaring van Beta, zie [ Nieuwe het becommentariëren activiteit van de bètaervaring van de ervaringsversie ](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Profielen zonder avatars geven nu gebruikersinitialen weer
 
 Om het gemakkelijker te maken om specifieke gebruikers binnen grote lijsten te vinden, tonen de profielen zonder aangepaste avatars nu de initialen van de gebruiker op een gekleurde achtergrond in lijsten en erfenisrapporten. Dit is een kleine cosmetische wijziging die niet van toepassing is als een avatar-foto al wordt gebruikt of als de gebruiker wordt gedeactiveerd.
 
-Voor meer informatie over het bewerken van gebruikersprofielen raadpleegt u [Gebruikersprofiel bewerken](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Voor meer informatie bij het uitgeven van gebruikersprofielen, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.

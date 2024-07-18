@@ -14,6 +14,6 @@ ht-degree: 0%
 
 ---
 
-# Naast een project gebruiken
+# Tegeleffect gebruiken voor een project
 
-U kunt flexibele functionaliteit voor uw project zonder de administratieve uitdagingen gebruiken die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand, het creëren van herhalingen, etc.). Zie voor meer informatie [Een project beheren in het dialoogvenster [!UICONTROL Agile] Weergave](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+U kunt flexibele functionaliteit voor uw project zonder de administratieve uitdagingen gebruiken die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand, het creëren van herhalingen, etc.). Voor meer informatie, zie [ een project in de [!UICONTROL Agile] Mening ](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.

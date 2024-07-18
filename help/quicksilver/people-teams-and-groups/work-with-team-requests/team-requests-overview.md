@@ -18,36 +18,36 @@ ht-degree: 0%
 
 ## Inzicht krijgen in teamverzoeken
 
-De verzoeken van het team worden gevonden in [!UICONTROL Teams] in het gebied [!UICONTROL Main Menu]. Klik op de knop [!UICONTROL Team Requests] pictogram ![Aanvraagpictogram](assets/request-icon.png) in het linkerpaneel om teamverzoeken te bekijken.
+Teamaanvragen vindt u in het gebied [!UICONTROL Teams] in [!UICONTROL Main Menu] . Klik op het [!UICONTROL Team Requests] pictogram van het pictogram ![ Verzoek ](assets/request-icon.png) in het linkerpaneel om teamverzoeken te bekijken.
 
 >[!NOTE]
 >
 >Gegraveerde teams hebben geen teamaanvragen.
 
-De [!UICONTROL Team Requests] toont de verzoeken die op taak voor het team wachten dat momenteel in de drop-down lijst wordt geselecteerd. Het getal tussen haakjes geeft aan hoeveel items klaar zijn om te worden bewerkt.
+Op het tabblad [!UICONTROL Team Requests] worden de aanvragen weergegeven die op toewijzing wachten voor het team dat momenteel is geselecteerd in de vervolgkeuzelijst. Het getal tussen haakjes geeft aan hoeveel items klaar zijn om te worden bewerkt.
 
 Een teamverzoek vertegenwoordigt een in afwachting van het werkpunt dat niet aan een specifieke gebruiker wordt toegewezen. In plaats daarvan, wordt het toegewezen aan een team, en om het even welk lid van dat team kan vrijwilliger zijn om verantwoordelijkheid voor het punt te aanvaarden. Als een gebruiker zich ertoe aanzet om aan een teamverzoek te werken, accepteert de gebruiker de werktoewijzing als zijn eigen. De taak wordt toegewezen aan de individuele gebruiker naast het team.
 
 >[!NOTE]
 >
->Een teamverzoek zou niet voor samenwerkende taaktaken moeten worden gebruikt. Als u meerdere gebruikers wilt toewijzen om samen te werken aan een taak, doet u dit via [!UICONTROL Advanced Assignments] en niet door de verzoeken van het Team. Zie voor meer informatie [Geavanceerde toewijzingen maken](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+>Een teamverzoek zou niet voor samenwerkende taaktaken moeten worden gebruikt. Als u veelvoudige gebruikers moet toewijzen om aan een taak samen te werken, doe dit door [!UICONTROL Advanced Assignments] en niet door de verzoeken van het Team. Voor meer informatie, zie [ Geavanceerde taken ](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
-## Begrijp het [!UICONTROL Ready to Start] en [!UICONTROL All] opties
+## De opties [!UICONTROL Ready to Start] en [!UICONTROL All] begrijpen
 
-Er zijn twee opties bij de bovenkant van de sectie van de Verzoeken van het Team: [!UICONTROL Ready to Start] en [!UICONTROL All].
+De sectie Teamverzoeken bevat twee opties: [!UICONTROL Ready to Start] en [!UICONTROL All] .
 
-De [!UICONTROL Ready to Start] alleen taken en problemen worden weergegeven die aan alle volgende criteria voldoen:
+De optie [!UICONTROL Ready to Start] geeft alleen taken en problemen weer die aan alle volgende criteria voldoen:
 
 * Alle voorgangers hebben aan de voorwaarden voor hun voorganger afhankelijkheidstypen voldaan.\
-   Bijvoorbeeld als het type van predecessor verhouding is [!UICONTROL Finish-Start] (de voorganger taak moet eindigen alvorens de afhankelijke taak kan beginnen), moet predecessor als duidelijk worden gemerkt [!UICONTROL Complete]. (Voor meer informatie over de types van predecessor gebiedsdeel, zie [Overzicht van typen taakafhankelijkheid](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
+  Als het type van de voorgangerrelatie bijvoorbeeld [!UICONTROL Finish-Start] is (de voorgangertaak moet zijn voltooid voordat de afhankelijke taak kan worden gestart), moet de voorganger zijn gemarkeerd als [!UICONTROL Complete] . (Voor meer informatie over de types van voorgangsafhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
 
 * De het programma geopende gebruiker is de persoon die aan deze taken en kwesties (voor het werkverzoeken) wordt toegewezen, of het geselecteerde team wordt toegewezen aan deze taken en kwesties (voor teamverzoeken).
-* De projectstatus bevindt zich in een status van [!UICONTROL Current].
-* De [!UICONTROL Projected Start Date] of [!UICONTROL Planned Start Date] is verstreken of is gepland binnen twee weken na de datum van vandaag (of [!UICONTROL Projected Start Date] of [!UICONTROL Planned Start Date] is gedefinieerd).
-* De [!UICONTROL Handoff Date] heeft plaatsgevonden of zal binnen twee weken na de huidige datum voorkomen.
+* De status van het project is ingesteld op [!UICONTROL Current] .
+* [!UICONTROL Projected Start Date] of [!UICONTROL Planned Start Date] is overgegaan of zal volgens planning binnen twee weken na de datum van vandaag (of er is geen [!UICONTROL Projected Start Date] of [!UICONTROL Planned Start Date] gedefinieerd) beginnen.
+* [!UICONTROL Handoff Date] is al opgetreden of zal binnen twee weken na de huidige datum voorkomen.
 
 >[!NOTE]
 >
->Als de taak aan de eerste drie criteria voldoet en binnen twee weken na de huidige datum een Handoff-datum heeft, zal het als [!UICONTROL Ready to Start] zelfs als de geplande/voorspelde data verder zijn dan twee weken. Als de taak geen Handoff datum heeft, dan moeten de Geplande/Geprojecteerde data binnen twee weken na de huidige datum zijn.
+>Als de taak aan de eerste drie criteria voldoet en binnen twee weken na de huidige datum een Handoff-datum heeft, wordt deze weergegeven als [!UICONTROL Ready to Start], zelfs als de geplande/geprojecteerde data verder zijn dan twee weken. Als de taak geen Handoff datum heeft, dan moeten de Geplande/Geprojecteerde data binnen twee weken na de huidige datum zijn.
 
-De [!UICONTROL All] de optie toont alle taken en kwesties op huidige projecten die aan de het programma geopende gebruiker of alle taken of kwesties worden toegewezen die aan het team worden toegewezen.
+De optie [!UICONTROL All] toont alle taken en kwesties op huidige projecten die aan de het programma geopende gebruiker of alle taken of kwesties worden toegewezen die aan het team worden toegewezen.

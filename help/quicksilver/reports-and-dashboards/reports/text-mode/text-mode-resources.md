@@ -27,13 +27,13 @@ Gebruik de volgende documentatie om het gebruik van de interface van de Wijze va
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Overzicht van veelvoorkomende toepassingen voor de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Een weergave bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-* [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Tekstmodus in een groep bewerken](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-* [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [ geef een mening uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [ geef een filter uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [ geeft tekstwijze op een groepering ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md) uit
+* [ de mening van de Douane, filter, en groeperingssteekproeven: artikelindex ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -41,7 +41,7 @@ Deze sectie bevat de volgende artikelen:
   </MadCap:conditionalText>
   -->
 
-* [Berekende aangepaste gegevens in rapporten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [ Berekende douanegegevens in rapporten ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -49,11 +49,11 @@ Deze sectie bevat de volgende artikelen:
   </MadCap:conditionalText>
   -->
 
-* [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
-* [Datums opmaken in tekstmodusrapporten](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Getallen, valuta en percentagewaarden in tekstmodusrapporten opmaken](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
-* [Velden in voorwaardelijke opmaak vergelijken](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
-* [Referentieverzamelingen in een rapport](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [Instructies OR maken in tekstmodusfilters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-* [Complexe tekstmodusfilters maken met EXISTS-instructies](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [ voorwaardelijke het formatteren van het Gebruik op de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
+* [ data van het Formaat op de rapporten van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
+* [ de aantallen van het Formaat, munt en percentagewaarden op de rapporten van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [ vergelijk gebieden in voorwaardelijk formatteren ](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
+* [ inzamelingen van de Verwijzing in een rapport ](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+* [ creeer &quot;OF&quot;verklaringen op de filters van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
+* [ creeer de complexe filters van de Wijze van de Tekst gebruikend EXISTS verklaringen ](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

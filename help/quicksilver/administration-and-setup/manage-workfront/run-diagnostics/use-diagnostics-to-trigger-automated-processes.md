@@ -9,7 +9,7 @@ role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -31,21 +31,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van licenties</a> </td> 
-   <td> <p>Plan </p>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> overzicht van Vergunningen </a> </td> 
+   <td> <p>Plan </p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Gebruik diagnostiek om geautomatiseerde processen te activeren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Uitbreiden **Systeem** en klik vervolgens op **Diagnostiek**.
+1. Breid **Systeem** uit, dan klik **Diagnostiek**.
 1. Selecteer een van de volgende opties:
 
    <table style="table-layout:auto"> 
@@ -54,15 +54,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader">Te late meldingen verzenden</td> 
-      <td> <p>Hiermee verzendt u handmatig de automatische herinneringsmeldingen voor achterstallige taken en problemen. </p> <p>Voor meer informatie over het instellen van automatische herinneringen raadpleegt u <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Automatische herinneringen instellen</a>.</p> </td> 
+      <td> <p>Hiermee verzendt u handmatig de automatische herinneringsmeldingen voor achterstallige taken en problemen. </p> <p>Voor meer informatie over vestiging automatische herinneringen, zie <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref"> Opstelling automatische herinneringen </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vroege meldingen verzenden</td> 
-      <td> <p>Hiermee verzendt u handmatig de automatische herinneringsmeldingen voor taken en problemen die hun vervaldatum naderen.</p> <p>Voor meer informatie over het instellen van automatische herinneringen raadpleegt u <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Automatische herinneringen instellen</a>.</p> </td> 
+      <td> <p>Hiermee verzendt u handmatig de automatische herinneringsmeldingen voor taken en problemen die de vervaldatums bereiken.</p> <p>Voor meer informatie over vestiging automatische herinneringen, zie <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref"> Opstelling automatische herinneringen </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Herinneringsmeldingen verzenden</td> 
-      <td> <p>Hiermee verzendt u herinneringsberichten handmatig. </p> <p>Voor meer informatie over het instellen van herinneringsmeldingen raadpleegt u <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Herinneringsmeldingen instellen</a>.</p> </td> 
+      <td> <p>Hiermee verzendt u herinneringsberichten handmatig. </p> <p>Voor meer informatie over vestiging herinneringsberichten, zie <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref"> de herinneringsberichten van de Opstelling </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alle POP-accounts controleren</td> 
@@ -72,11 +72,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Tijdlijnen opnieuw berekenen</td> 
-      <td> <p>Hiermee wordt de tijdlijn opnieuw berekend voor alle projecten in Workfront met de status Huidig. </p> <p>Voor meer informatie over het automatisch of manueel berekenen van de chronologie van projecten, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projecttijdlijnen opnieuw berekenen</a>.</p> </td> 
+      <td> <p>Hiermee wordt de tijdlijn opnieuw berekend voor alle projecten in Workfront met de status Huidig. </p> <p>Voor meer informatie over het berekenen van de chronologie van projecten automatisch of manueel, zie één project in een tijd, <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref"> projectchronologie </a> opnieuw berekenen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Standaardrapporten van klanten herstellen</td> 
-      <td>Hiermee herstelt u de standaardrapporten die oorspronkelijk met Workfront zijn geleverd, zodat deze zichtbaar zijn in het dialoogvenster <strong>Rapporten</strong> voor alle gebruikers.</td> 
+      <td role="rowheader">Standaardrapporten herstellen</td> 
+      <td>Herstelt de standaardrapporten die oorspronkelijk met Workfront werden geleverd, zodat zij in de <strong> sectie van Rapporten </strong> voor alle gebruikers zichtbaar zijn.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets genereren</td> 

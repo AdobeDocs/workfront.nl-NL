@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Forms-modules
-description: De [!DNL Adobe Workfront Fusion Google Forms] kunt u reacties op uw Google Forms controleren, selecteren, toevoegen, bijwerken of verwijderen.
+description: De  [!DNL Adobe Workfront Fusion Google Forms]  modules staan u toe om reacties op uw Google Forms te controleren, te selecteren, toe te voegen, bij te werken of te schrappen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms] modules
 
-De [!DNL Adobe Workfront Fusion] [!DNL Google Forms] -modules waarmee u reacties op uw [!DNL Google Forms].
+Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Forms] kunt u reacties op uw [!DNL Google Forms] controleren, selecteren, toevoegen, bijwerken of verwijderen.
 
-Voor gebruik [!DNL Google Docs] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Google] account. Als u geen [!DNL Google] -account nog kunt u er een maken op de [!DNL Google] Help-pagina voor account.
+Als u [!DNL Google Docs] met [!DNL Adobe Workfront Fusion] wilt gebruiken, hebt u een [!DNL Google] -account nodig. Als u nog geen [!DNL Google] -account hebt, kunt u er een maken op de pagina [!DNL Google] Account Help.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -45,46 +45,46 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Google Forms] modules, moet u een [!DNL Google] account.
+Als u [!DNL Google Forms] -modules wilt gebruiken, moet u een [!DNL Google] -account hebben.
 
 ## Een werkblad maken op basis van het formulier
 
 Als u wilt werken met formulierreacties, moet u het werkblad met de reacties maken.
 
 1. Open het formulier.
-1. Ga naar de **[!UICONTROL Responses]** tab.
-1. Klik op de knop **[!UICONTROL Create Spreadsheet]** pictogram ![](assets/spreadsheet-icon.png).
+1. Ga naar de tab **[!UICONTROL Responses]** .
+1. Klik op het pictogram **[!UICONTROL Create Spreadsheet]** ![](assets/spreadsheet-icon.png) .
 
-1. Selecteer of u een nieuw spreadsheet of een bestaand spreadsheet wilt tot stand brengen
+1. Selecteer of u een nieuw spreadsheet of een bestaand spreadsheet wilt creëren
 1. Klik op **[!UICONTROL Create]**.
 
 ## [!DNL Google Forms] modules en hun velden
 
-Wanneer u [!DNL Google Forms] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Google Forms] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Google Forms] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Forms] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -104,7 +104,7 @@ Hiermee controleert u het formulier op nieuwe reacties.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -116,24 +116,24 @@ Hiermee controleert u het formulier op nieuwe reacties.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Row with headers]</td> 
-   <td>Geef de koptekstrij van de tabel op. De standaardrij is <code>A1:Z1</code>.</td> 
+   <td>Geef de koptekstrij van de tabel op. De standaardrij is <code>A1:Z1</code> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Value Render Option]</td> 
-   <td> <p>Geef op hoe de waarden in de uitvoer moeten worden gerenderd.</p> 
+   <td> <p>Geef op hoe de waarden in de uitvoer moeten worden weergegeven.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Formatted value]</strong> </p> <p>Waarden worden berekend en opgemaakt in de reactie op basis van de opmaak van de cel. Opmaak is gebaseerd op de landinstelling van het werkblad, niet op de landinstelling van de gebruiker die het verzoek indient. Als <code>A1</code> is <code>1. 23</code> en <code>A2 </code>is <code>=A1</code> en worden opgemaakt als valuta, en vervolgens <code>A2</code> retourneert <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Waarden worden berekend, maar niet opgemaakt in de reactie. Als <code>A1</code> is <code>1. 23</code> en <code>A2 </code>is <code>=A1</code> en worden opgemaakt als valuta, en vervolgens <code>A2</code> retourneert het getal <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Waarden worden niet berekend. Het antwoord bevat de formules. Als <code>A1</code> is <code>1. 23</code> en <code>A2 </code>is <code>=A1</code> en worden opgemaakt als valuta, en vervolgens <code>A2</code> retourneert <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Formatted value]</strong> </p> <p>Waarden worden berekend en opgemaakt in de reactie op basis van de opmaak van de cel. Opmaak is gebaseerd op de landinstelling van het werkblad, niet op de landinstelling van de gebruiker die het verzoek indient. Als <code>A1</code> bijvoorbeeld <code>1. 23</code> is en <code>A2 </code> <code>=A1</code> is en als valuta is opgemaakt, retourneert <code>A2</code> <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Waarden worden berekend, maar niet opgemaakt in de reactie. Als <code>A1</code> bijvoorbeeld <code>1. 23</code> is en <code>A2 </code> <code>=A1</code> is en als valuta is opgemaakt, retourneert <code>A2</code> het getal <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Waarden worden niet berekend. Het antwoord bevat de formules. Als <code>A1</code> bijvoorbeeld <code>1. 23</code> is en <code>A2 </code> <code>=A1</code> is en als valuta is opgemaakt, retourneert <code>A2</code> <code>=A1</code> .</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Date and time render option]</td> 
-   <td>Selecteer hoe u datums, tijden en duur wilt weergeven in de uitvoer. Dit veld wordt genegeerd als [!UICONTROL Value Render Option] is ingesteld op [!UICONTROL Formatted Value].</td> 
+   <td>Selecteer hoe u datums, tijden en duur wilt weergeven in de uitvoer. Dit veld wordt genegeerd als [!UICONTROL Value Render Option] is ingesteld op [!UICONTROL Formatted Value] .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p> Het maximale aantal reacties instellen [!DNL Workfront Fusion] werkt met één cyclus.</p> </td> 
+   <td> <p> Stel het maximumaantal reacties in waarmee [!DNL Workfront Fusion] werkt tijdens één cyclus.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,7 +156,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -168,14 +168,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
-   <td> <p>Voer de gewenste waarden in voor de bladkolommen.</p> <p>Voor de [!UICONTROL Timestamp] Gebruik de volgende waarde in de juiste notatie:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
+   <td> <p>Voer de gewenste waarden in voor de bladkolommen.</p> <p>Gebruik de volgende waarde voor de kolom [!UICONTROL Timestamp] in de juiste notatie:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De waarden die de gebruiker invoert, worden niet geparseerd en worden als zodanig opgeslagen. </p> </li> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>De waarden worden geparseerd alsof de gebruiker hen in UI typt. Getallen blijven getallen, maar tekenreeksen kunnen in getallen, datums of andere indelingen worden omgezet volgens dezelfde regels die gelden wanneer u tekst in een cel invoert via de [!DNL Google Sheets] UI.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>De waarden worden geparseerd alsof de gebruiker hen in UI typt. Getallen blijven getallen, maar tekenreeksen kunnen in getallen, datums of andere indelingen worden omgezet volgens dezelfde regels die worden toegepast bij het invoeren van tekst in een cel via de gebruikersinterface van [!DNL Google Sheets] .</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -201,7 +201,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -224,7 +224,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De waarden die de gebruiker invoert, worden niet geparseerd en worden als zodanig opgeslagen. </p> </li> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>De waarden worden geparseerd alsof de gebruiker hen in UI typt. Getallen blijven getallen, maar tekenreeksen kunnen in getallen, datums of andere indelingen worden omgezet volgens dezelfde regels die gelden wanneer u tekst in een cel invoert via de [!DNL Google Sheets] UI.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>De waarden worden geparseerd alsof de gebruiker hen in UI typt. Getallen blijven getallen, maar tekenreeksen kunnen in getallen, datums of andere indelingen worden omgezet volgens dezelfde regels die worden toegepast bij het invoeren van tekst in een cel via de gebruikersinterface van [!DNL Google Sheets] .</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -240,7 +240,7 @@ In deze module wordt een geselecteerde reactie verwijderd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -271,7 +271,7 @@ Deze module retourneert antwoorden die voldoen aan de opgegeven criteria.
  <col data-mc-conditions=""> 
  <tbody> 
     <td>Verbinding</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
     <td>[!UICONTROL Spreadsheet]</td>
@@ -299,11 +299,11 @@ Deze module retourneert antwoorden die voldoen aan de opgegeven criteria.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Value Render Option]</td> 
-   <td> <p>Geef op hoe de waarden in de uitvoer moeten worden gerenderd.</p> 
+   <td> <p>Geef op hoe de waarden in de uitvoer moeten worden weergegeven.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Formatted value]</strong></p> <p>Waarden worden berekend en opgemaakt in de reactie op basis van de opmaak van de cel. Opmaak is gebaseerd op de landinstelling van het werkblad, niet op de landinstelling van de gebruiker die het verzoek indient. Als <code>A1</code> is <code>1. 23</code> en <code>A2 </code>is <code>=A1</code> en worden opgemaakt als valuta, en vervolgens <code>A2</code> retourneert <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Waarden worden berekend, maar niet opgemaakt in de reactie. Als <code>A1</code> is <code>1. 23</code> en <code>A2 </code>is <code>=A1</code> en worden opgemaakt als valuta, en vervolgens <code>A2</code> retourneert het getal <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Waarden worden niet berekend. Het antwoord bevat de formules. Als <code>A1</code> is <code>1. 23</code> en <code>A2 </code>is <code>=A1</code> en worden opgemaakt als valuta, en vervolgens <code>A2</code> retourneert <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Formatted value]</strong></p> <p>Waarden worden berekend en opgemaakt in de reactie op basis van de opmaak van de cel. Opmaak is gebaseerd op de landinstelling van het werkblad, niet op de landinstelling van de gebruiker die het verzoek indient. Als <code>A1</code> bijvoorbeeld <code>1. 23</code> is en <code>A2 </code> <code>=A1</code> is en als valuta is opgemaakt, retourneert <code>A2</code> <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Waarden worden berekend, maar niet opgemaakt in de reactie. Als <code>A1</code> bijvoorbeeld <code>1. 23</code> is en <code>A2 </code> <code>=A1</code> is en als valuta is opgemaakt, retourneert <code>A2</code> het getal <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Waarden worden niet berekend. Het antwoord bevat de formules. Als <code>A1</code> bijvoorbeeld <code>1. 23</code> is en <code>A2 </code> <code>=A1</code> is en als valuta is opgemaakt, retourneert <code>A2</code> <code>=A1</code> .</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
@@ -312,14 +312,14 @@ Deze module retourneert antwoorden die voldoen aan de opgegeven criteria.
   </tr> 
   <tr>
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">[!UICONTROL Maximum number of returned responses]</td>
-   <td> <p> Het maximale aantal reacties instellen [!DNL Workfront Fusion] retourneert gedurende één cyclus.</p> </td> 
+   <td> <p> Stel het maximumaantal reacties in dat [!DNL Workfront Fusion] tijdens één cyclus retourneert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Search Responses (Advanced)]
 
-Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Language]](https://developers.google.com/chart/interactive/docs/querylanguage). Deze module retourneert geen rijnummer.
+Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Language] ](https://developers.google.com/chart/interactive/docs/querylanguage). Deze module retourneert geen rijnummer.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -327,7 +327,7 @@ Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Langua
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Sluit de app of webservice van de module aan op [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Een scenario maken in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref"> De app of webservice van de module verbinden met [!DNL Workfront Fusion]</a> in het artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref"> Een scenario maken in [!DNL Adobe Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Spreadsheet]</td>
@@ -339,11 +339,11 @@ Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Langua
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td> <p>Definieer de zoekquery met de opdracht <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a>.</p> <p>Voorbeeld: <code>select * where C = "John"</code> wint alle waarden voor de rij terug waar de kolom van C "John" is.</p> </td> 
+   <td> <p>Definieer de zoekquery met de <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a> .</p> <p>Voorbeeld: <code>select * where C = "John"</code> haalt alle waarden op voor de rij waarin de kolom C "John" is.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Maximum number of returned rows]</td>
-   <td> <p> Het maximale aantal reacties instellen [!DNL Workfront Fusion] retourneert gedurende één cyclus.</p> </td> 
+   <td> <p> Stel het maximumaantal reacties in dat [!DNL Workfront Fusion] tijdens één cyclus retourneert.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,18 +18,17 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)</p>
 -->
 
-Revisoren krijgen de opdracht [!UICONTROL My Updates] gebied standaard. Ze hebben toegang tot een gewijzigde versie van de [!UICONTROL Home] alleen gebied wanneer een [!DNL Adobe Workfront] beheerder voegt de [!UICONTROL Home] aan hun lay-outsjabloon.
+Revisoren krijgen standaard het gebied [!UICONTROL My Updates] toegewezen. Ze hebben alleen toegang tot een gewijzigde versie van het [!UICONTROL Home] -gebied als een [!DNL Adobe Workfront] beheerder het [!UICONTROL Home] -gebied aan hun lay-outsjabloon toevoegt.
 
-In dit artikel worden de activiteiten beschreven die u kunt uitvoeren in het dialoogvenster [!UICONTROL Home] gebied als u een [!UICONTROL Review] licentie.
+In dit artikel worden activiteiten beschreven die u in het [!UICONTROL Home] -gebied kunt uitvoeren als u een [!UICONTROL Review] -licentie hebt.
 
-Voor meer informatie over de standaardnavigatie van [!UICONTROL Review]-license users, zie [De navigatie voor een [!UICONTROL Review]-license user](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md). Voor meer informatie over de [!UICONTROL My Updates] gebied, zie [Gebruik de [!UICONTROL My Updates] gebied](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Voor meer informatie over de standaardnavigatie van [!UICONTROL Review] - vergunning gebruikers, zie [ de navigatie voor a [!UICONTROL Review] - vergunning gebruiker ](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) begrijpen. Voor meer informatie over het [!UICONTROL My Updates] gebied, zie [ Gebruik het [!UICONTROL My Updates] gebied ](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 >[!TIP]
 >
 >* Algemene updates tussen gebruikers buiten een object worden niet ingeschakeld.
->* Hoewel gebruikers met een [!UICONTROL Review] De licentie kan taken worden toegewezen, ze ontvangen geen e-mail of andere meldingen met betrekking tot taken en ze kunnen deze niet markeren als &quot;[!UICONTROL Done].&quot;
+>* Hoewel gebruikers met een [!UICONTROL Review] licentie taken kunnen worden toegewezen, ontvangen ze geen e-mail of andere meldingen met betrekking tot toewijzingen en kunnen ze ze niet markeren als &quot;[!UICONTROL Done]&quot;.
 >
-
 
 
 
@@ -54,31 +53,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Werk goedkeuren
 
-1. (Voorwaardelijk) Als uw [!DNL Workfront] beheerder heeft het gebied Home toegevoegd aan uw lay-outsjabloon en klikt op de knop **[!DNL Workfront]avatar** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront].
+1. (Voorwaardelijk) Als uw [!DNL Workfront] -beheerder het gebied Home aan uw lay-outsjabloon heeft toegevoegd, klikt u op het pictogram **[!DNL Workfront]avatar** ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront] .
 
    of
 
-   Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)en klik vervolgens op **[!UICONTROL Home]**.
+   Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en vervolgens op **[!UICONTROL Home]** .
 
    >[!NOTE]
    >
-   >De [!DNL Workfront] de beheerder kan de volgende wijzigingen aanbrengen in de [!DNL Workfront] pictogram in uw omgeving:
+   >De beheerder van [!DNL Workfront] kan de volgende wijzigingen aanbrengen in het pictogram [!DNL Workfront] in uw omgeving:
    >
    >   
    >   
    >   * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >   * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **[!UICONTROL Home]**.
-
+   >   * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina en klik vervolgens op **[!UICONTROL Home]** .
 
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Selecteer een goedkeuring in het menu [!UICONTROL Work List] aan de linkerkant van het scherm.
-1. Klikken **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, of **[!UICONTROL Reject]**.
+1. Selecteer een goedkeuring in de [!UICONTROL Work List] aan de linkerkant van het scherm.
+1. Klik op **[!UICONTROL Approve]** , **[!UICONTROL Changes]** of **[!UICONTROL Reject]** .
 
    >[!IMPORTANT]
    >
@@ -88,50 +86,50 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Goedkeuringen delegeren
 
-1. (Voorwaardelijk) Als uw [!DNL Workfront] beheerder heeft het gebied Home toegevoegd aan uw lay-outsjabloon en klikt op de knop **[!UICONTROL Workfront]avatar** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront]
+1. (Voorwaardelijk) Als uw [!DNL Workfront] -beheerder het gebied Home aan uw lay-outsjabloon heeft toegevoegd, klikt u op het pictogram **[!UICONTROL Workfront]avatar** ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront]
 
    of
 
-   Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)en klik vervolgens op **[!UICONTROL Home]**.
+   Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en vervolgens op **[!UICONTROL Home]** .
 
-1. Klikken **[!UICONTROL Delegate My Approvals]** boven de werklijst.
+1. Klik op **[!UICONTROL Delegate My Approvals]** boven de werklijst.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
 1. Typ de naam van een gebruiker u uw goedkeuringen aan wilt delegeren. U kunt alleen goedkeuringen voor projecten, taken en uitgaven delegeren.
-1. Kies een **[!UICONTROL Start Date]**.
-1. Kies een **[!UICONTROL End Date]**.\
+1. Kies een **[!UICONTROL Start Date]** .
+1. Kies een **[!UICONTROL End Date]** .\
    of\
-   Kies **[!UICONTROL No end date]**.
+   Kies **[!UICONTROL No end date]** .
 
 1. Klik op **[!UICONTROL Save]**.
 
 ## Goedkeuringen onthouden of terugroepen die u hebt verzonden
 
-1. (Voorwaardelijk) Als uw [!DNL Workfront] beheerder heeft het gebied Home toegevoegd aan uw lay-outsjabloon en klikt op de knop **[!UICONTROL Workfront]avatar** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront].
+1. (Voorwaardelijk) Als uw [!DNL Workfront] -beheerder het gebied Home aan uw lay-outsjabloon heeft toegevoegd, klikt u op het pictogram **[!UICONTROL Workfront]avatar** ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront] .
 
    of
 
-   Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)en klik vervolgens op **[!UICONTROL Home]**.
+   Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en vervolgens op **[!UICONTROL Home]** .
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Breid uit **[!UICONTROL Approvals I've Submitted]** groeperen in de werklijst.
+1. Vouw de groep **[!UICONTROL Approvals I've Submitted]** in de werklijst uit.
 1. Selecteer een goedkeuring.
-1. Klik in de rechterbovenhoek op **[!UICONTROL Recall]** of **[!UICONTROL Remind]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL Recall]** of **[!UICONTROL Remind]** .
 
 ## Opmerkingen maken
 
-1. (Voorwaardelijk) Als uw [!DNL Workfront] beheerder heeft de [!UICONTROL Home] gebied aan uw lay-outmalplaatje, klik **[!UICONTROL Workfront]avatar** pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront].
+1. (Voorwaardelijk) Als uw [!DNL Workfront] -beheerder het [!UICONTROL Home] -gebied aan uw lay-outsjabloon heeft toegevoegd, klikt u op het **[!UICONTROL Workfront]avatar** -pictogram ![](assets/home-icon-30x29.png) in de linkerbovenhoek van [!DNL Adobe Workfront] .
 
    of
 
-   Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)en klik vervolgens op **[!UICONTROL Home]**.
+   Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en vervolgens op **[!UICONTROL Home]** .
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Selecteer een goedkeuring in het menu [!UICONTROL Work List] aan de linkerkant van het scherm.
-1. Klik in het rechterdeelvenster op de knop **[!UICONTROL Start a new update]** doos.
+1. Selecteer een goedkeuring in de [!UICONTROL Work List] aan de linkerkant van het scherm.
+1. Klik in het rechterdeelvenster in het vak **[!UICONTROL Start a new update]** .
 1. Werk de update uit.
 1. Klik op **[!UICONTROL Update]**.
 

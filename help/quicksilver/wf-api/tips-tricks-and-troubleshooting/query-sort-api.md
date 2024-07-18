@@ -23,6 +23,6 @@ U kunt de resultaten op elk veld sorteren als u het volgende aan uw API-aanroep 
 &entryDate_Sort=asc
 ```
 
-Als u bijvoorbeeld wilt sorteren op taak Geplande begindatum, verwijdert u `entryDate` en vervangen door `plannedCompletionDate`.
+Als u bijvoorbeeld wilt sorteren op taak Geplande begindatum, verwijdert u `entryDate` en vervangt u deze door `plannedCompletionDate` .
 
 Dit werkt voor de meeste velden in Adobe Workfront.

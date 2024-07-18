@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Organisatorische instellingen
-description: Als onderdeel van het organiseren van uw gebruikers in [!DNL Adobe Workfront], kunt u ze koppelen aan functies of bedrijven.
+description: Als deel van het organiseren van uw gebruikers in  [!DNL Adobe Workfront], kunt u hen met baanrollen of bedrijven associëren.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Organisatorische instellingen
 
-Als onderdeel van het organiseren van uw gebruikers in [!DNL Adobe Workfront], kunt u ze koppelen aan functies of bedrijven.
+Als onderdeel van het indelen van uw gebruikers in [!DNL Adobe Workfront] kunt u ze koppelen aan functies of bedrijven.
 
 Deze sectie bevat de volgende artikelen:
 

@@ -27,15 +27,15 @@ Met alle beschikbare opties om te bepalen en te bepalen hoe de gebruikers commun
 
 Deze sectie bevat de volgende artikelen:
 
-* [Pagina E-mailberichten](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
-* [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-* [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-* [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
-* [E-mailonderwerpen aanpassen voor gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [Instellingen voor e-mailmeldingen van meerdere gebruikers wijzigen](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
-* [Herinneringsmeldingen instellen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
-* [Een herinneringsmelding aan een object koppelen](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
-* [Automatische herinneringen instellen](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
-* [E-mailsjablonen configureren](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
-* [E-mails toestaan vanuit de Adobe Workfront-toepassing](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
+* [ pagina van de Berichten E-mail ](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+* [ vorm gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+* [ de berichttypes van gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+* [ ontgrendel of slotconfiguratie van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [ Pas e-mailonderwerpen voor gebeurtenisberichten aan ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
+* [ wijzigt de montages van het de e-mailbericht van veelvoudige gebruikers ](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [ de herinneringsberichten van de opstelling ](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
+* [ maak een herinneringsbericht aan een voorwerp ](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md) vast
+* [ Opstelling automatische herinneringen ](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
+* [ vorm e-mailmalplaatjes ](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
+* [ Toestaand e-mails van de toepassing van Adobe Workfront ](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
 * [E-mailuitnodigingen beheren voor nieuwe gebruikers](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

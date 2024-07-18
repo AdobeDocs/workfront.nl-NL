@@ -23,8 +23,8 @@ Als u een rapport met de toegangsrechten van een andere gebruiker in werking ste
 
 >[!TIP]
 >
->U moet de opdracht **Voer dit rapport uit met de toegangsrechten van:** veld met een actieve gebruiker alleen als u het rapport wilt weergeven met de toegangsrechten van die gebruiker. Bijvoorbeeld, zou een werk-vergunning gebruiker geen toestemmingen kunnen hebben om alle punten in een rapport te zien dat door een plan-vergunning gebruiker of een Beheerder van het Systeem wordt gebouwd, tenzij het rapport met de toegangsrechten van een Planner of een Beheerder van het Systeem toont.\
-Als het rapport wordt gedeeld met gebruikers met vergelijkbare toegang als de gebruiker die in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld kunt u dit veld leeg laten.
+>U zou **dit rapport met de Rechten van de Toegang van moeten vervangen:** gebied met een actieve gebruiker slechts wanneer u het rapport met de toegangsrechten van die gebruiker wilt tonen. Bijvoorbeeld, zou een werk-vergunning gebruiker geen toestemmingen kunnen hebben om alle punten in een rapport te zien dat door een plan-vergunning gebruiker of een Beheerder van het Systeem wordt gebouwd, tenzij het rapport met de toegangsrechten van een Planner of een Beheerder van het Systeem toont.\
+>Als het rapport met gebruikers met gelijkaardige toegang zoals de gebruiker wordt gedeeld die in **wordt gespecificeerd stel dit rapport met de Rechten van de Toegang van in werking:** gebied, kunt u dit gebied leeg verlaten.
 
 ## Toegangsvereisten
 
@@ -44,70 +44,70 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen aan een rapport (om het geleverde rapport te bekijken)</p> <p>Rechten beheren voor een rapport (om het rapport uit te voeren)</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemmingen aan een rapport (om het geleverde rapport te bekijken)</p> <p>Rechten beheren voor een rapport (om het rapport uit te voeren)</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een rapport weergeven met de toegangsrechten van een andere gebruiker
 
-De **Voer dit Rapport uit met de toegangsrechten van:** het gebied verzekert een rapport de zelfde gegevens bevat, ongeacht welke gebruiker tot het rapport toegang heeft. Het rapport wordt weergegeven zoals het zou zijn voor de opgegeven gebruiker.
+Het bevolken van **stelt dit Rapport met de Rechten van de Toegang van in werking:** het gebied verzekert een rapport de zelfde gegevens bevat, ongeacht welke gebruiker tot het rapport toegang heeft. Het rapport wordt weergegeven zoals het zou zijn voor de opgegeven gebruiker.
 
-De gebruikers die tot het rapport toegang hebben moeten minstens de toestemmingen van de Mening op het rapport hebben om het te kunnen zien. Als de gebruiker in **Voer dit Rapport uit met de toegangsrechten van:** het veld is gedeactiveerd, wordt het rapport niet meer weergegeven voor andere gebruikers met wie het rapport wordt gedeeld.
+De gebruikers die tot het rapport toegang hebben moeten minstens de toestemmingen van de Mening op het rapport hebben om het te kunnen zien. Als de gebruiker in de **wordt vermeld stel dit Rapport met de Rechten van de Toegang van in werking:** gebied wordt gedeactiveerd, toont het rapport niet meer voor andere gebruikers die het rapport met wordt gedeeld.
 
 Een rapport uitvoeren met de toegangsrechten van een andere gebruiker:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Rapporten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
 
 1. Selecteer het rapport dat u wilt weergeven met de toegangsrechten van een andere gebruiker.
-1. Klikken **Handelingen rapporteren** en klik vervolgens op **Bewerken**.
+1. Klik **de Acties van het Rapport**, dan klik **uitgeven**.
 
-1. Klikken **Rapportinstellingen**.
+1. Klik **Montages van het Rapport**.
 
-1. In de **Voer dit rapport uit met de toegangsrechten van:** veld, typt u de naam van de gebruiker die het rapport moet weergeven als, en selecteert u het rapport wanneer het in de lijst wordt weergegeven.\
+1. In de **looppas dit rapport met de Rechten van de Toegang van:** gebied, begin de naam van de gebruiker te typen die u het rapport wilt tonen als, dan het selecteren wanneer u het in de lijst ziet.\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
-   Gebruikers met een lager toegangsniveau die rapporten mogen samenstellen, kunnen geen andere gebruiker dan henzelf selecteren voor de **Voer dit Rapport uit met de toegangsrechten van:** veld.
+   >De gebruikers met een lager toegangsniveau dat wordt toegestaan om rapporten te bouwen hebben niet de capaciteit om een gebruiker buiten zich voor **in werking te stellen dit Rapport met de Rechten van de Toegang van:** gebied te selecteren.
 
-1. Klikken **Gereed**.
-1. Klikken **Opslaan + Sluiten**.\
-   Het rapport wordt nu weergegeven voor alle gebruikers met wie het rapport wordt gedeeld alsof het werd bekeken door de gebruiker die in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld.
+1. Klik **Gedaan**.
+1. Klik **sparen + Sluiten**.\
+   Het rapport toont nu voor alle gebruikers die het rapport wordt gedeeld met alsof het door de gebruiker werd bekeken die in **wordt gespecificeerd dit rapport met de Rechten van de Toegang van:** gebied in werking stellen.
 
 >[!IMPORTANT]
 >
-Het ingaan van een andere gebruiker dan het programma geopende gebruiker voor **Voer dit rapport uit met de toegangsrechten van:** het gebied beïnvloedt de informatie die in het rapport wordt getoond als het rapport een filter bevat dat een vervanging gebruikt die naar de het programma geopende gebruiker verwijst. Het rapport wordt weergegeven op basis van de waarde die in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** in plaats van wat wordt gedefinieerd in het jokertekenfilter.
+>Het ingaan van een gebruiker buiten het programma geopende gebruiker voor **stel dit rapport met de Rechten van de Toegang van in werking:** gebied beïnvloedt de informatie die in het rapport wordt getoond als het rapport een filter bevat dat een vervanging gebruikt die naar de het programma geopende gebruiker verwijst. Het rapport toont volgens de waarde die in **wordt gespecificeerd stelt dit rapport met de Rechten van de Toegang van in werking:** gebied eerder dan wat in de vervangingsfilter wordt bepaald.
 >
-Voor meer informatie over vervangingen voor gebruikersgebieden, zie de &quot;Op gebruiker gebaseerde variabelen&quot;sectie in [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Voor meer informatie over vervangingen voor gebruikersgebieden, zie de &quot;Op gebruiker-gebaseerde variabelen&quot;sectie in [ overzicht van de de filtervariabelen van de Weigerkaart ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Een rapport leveren met de toegangsrechten van een andere gebruiker
 
-U kunt rapporten instellen die als bijlage bij een e-mailbericht moeten worden bezorgd. U kunt opstelling deze geleverde rapporten aan vertoning aangezien zij voor gebruikers van een hoger toegangsniveau tonen, zodat kunnen alle gebruikers de zelfde informatie in de geleverde rapporten zien. De gebruikers die het rapport zullen zien dat in e-mail wordt geleverd moeten aan Send aan lijst van ontvangers binnen de rapportlevering worden toegevoegd. Raadpleeg het artikel voor meer informatie over het instellen van een rapport voor levering. [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+U kunt rapporten instellen die als bijlage bij een e-mailbericht moeten worden bezorgd. U kunt opstelling deze geleverde rapporten aan vertoning aangezien zij voor gebruikers van een hoger toegangsniveau tonen, zodat kunnen alle gebruikers de zelfde informatie in de geleverde rapporten zien. De gebruikers die het rapport zullen zien dat in e-mail wordt geleverd moeten aan Send aan lijst van ontvangers binnen de rapportlevering worden toegevoegd. Voor meer informatie bij vestiging een rapport voor levering, zie het artikel [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Een rapport leveren met de toegangsrechten van een andere gebruiker:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Rapporten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Rapporten**.
 
 1. Selecteer het rapport dat u wilt leveren met de toegangsrechten van een andere gebruiker.
 1. Klik op de naam van het rapport om het te selecteren.
-1. Klikken **Handelingen rapporteren**.
-1. Klikken **Rapport verzenden**.
+1. Klik **Acties van het Rapport**.
+1. Klik **verzenden Rapport**.
 
-1. In de **Dit rapport leveren met de toegangsrechten van:** veld, typt u de naam van de gebruiker die het rapport moet weergeven alsof het in een e-mailbericht wordt verzonden en selecteert u deze vervolgens wanneer het rapport in de lijst wordt weergegeven. Het gebrek is de naam van de gebruiker die het rapport bouwt.\
+1. In **lever dit rapport met de Rechten van de Toegang van:** gebied, begin de naam van de gebruiker te typen die u het rapport wilt tonen aangezien wanneer het in e-mail wordt geleverd, dan het selecteren wanneer u het in de lijst ziet. Het gebrek is de naam van de gebruiker die het rapport bouwt.\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
-   Gebruikers met een lager toegangsniveau die rapporten mogen samenstellen, kunnen geen andere gebruiker dan henzelf selecteren voor de **Dit rapport leveren met de toegangsrechten van:** veld.
+   >De gebruikers met een lager toegangsniveau dat wordt toegestaan om rapporten te bouwen hebben niet de capaciteit om een gebruiker buiten zich voor **te selecteren leveren dit Rapport met de Rechten van de Toegang van:** gebied.
 
-1. Selecteer de **Indeling** u wilt dat het rapport in de e-mail wordt weergegeven:
+1. Selecteer het **Formaat** u het rapport in e-mail wilt tonen:
 
    * HTML
    * PDF
@@ -115,24 +115,24 @@ Een rapport leveren met de toegangsrechten van een andere gebruiker:
    * MS Excel (.xlsx)
    * TSV
 
-1. Klikken **Nu verzenden** om het onmiddellijk te verzenden.\
+1. Klik **verzenden nu** om het onmiddellijk te verzenden.\
    of\
-   Klikken **Herhalende levering maken** om een terugkomende levering voor het rapport te plannen.\
-   Raadpleeg het artikel voor meer informatie over rapportleveringen [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+   Klik **maken Herhalende Levering** om een terugkomende levering voor het rapport te plannen.\
+   Voor meer informatie over rapportleveringen, zie het artikel [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Beperkingen voor rapporten met een kolom Bron
+## Beperkingen voor rapporten met een Source-kolom
 
-In de volgende rapporten wordt een kolom Bron weergegeven waarin u informatie over het bovenliggende object kunt weergeven:
+De volgende rapporten tonen een kolom van Source waar u informatie over het oudervoorwerp kunt bekijken:
 
 * Problemen melden
 * Uur-rapporten
 * Documentrapporten
 
-Als de gebruikers geen toestemmingen aan het oudervoorwerp van een kwestie, een uur, of een document hebben, toont de Bronkolom van het rapport leeg, zelfs wanneer het rapport aan vertoning wordt gevormd, of met de toegangsrechten van een andere gebruiker moet worden geleverd.
+Als de gebruikers geen toestemmingen aan het oudervoorwerp van een kwestie, een uur, of een document hebben, toont de kolom van Source van het rapport leeg, zelfs wanneer het rapport aan vertoning wordt gevormd, of met de toegangsrechten van een andere gebruiker moet worden geleverd.
 
 Om informatie over het oudervoorwerp in het rapport te tonen, adviseren wij toevoegend een kolom voor het oudervoorwerp waar u de naam van de ouder kunt tonen.
 
-Bijvoorbeeld, kunt u om het even welke volgend aan een rapport met een Bronkolom toevoegen:
+U kunt bijvoorbeeld het volgende toevoegen aan een rapport met een Source-kolom:
 
 * De kolommen van de Naam van het Project, van de Naam van de Taak, of van de Naam van de Uitgave aan een document of uurrapport.
 * De kolommen van de Naam van het Project of van de Naam van de Taak aan een probleemrapport.
@@ -154,4 +154,4 @@ Bijvoorbeeld, kunt u om het even welke volgend aan een rapport met een Bronkolom
 
   `valueformat=HTML`
 
-  Zie voor informatie over de weergaven van de tekstmodus [Een weergave bewerken in de tekstmodus](../text-mode/edit-text-mode-in-view.md).
+  Voor informatie over de meningen van de tekstwijze, zie [ een mening uitgeven gebruikend tekstwijze ](../text-mode/edit-text-mode-in-view.md).

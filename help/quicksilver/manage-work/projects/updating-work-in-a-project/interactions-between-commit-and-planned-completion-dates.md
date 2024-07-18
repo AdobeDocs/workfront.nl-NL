@@ -33,11 +33,11 @@ De volgende tabel bevat informatie over het verschil tussen de datum waarop de b
  <tbody> 
   <tr> 
    <td role="rowheader">Vastlegdatum</td> 
-   <td> <p>De datum van Vastleggen is de datum waarop de persoon die aan een taak is toegewezen of manueel uitgeeft, schat dat hij de taak of uitgifte zal hebben voltooid.</p> <p>Voor informatie over Datums vastleggen raadpleegt u <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Overzicht van datum vastleggen</a>.</p> </td> 
+   <td> <p>De datum van Vastleggen is de datum waarop de persoon die aan een taak is toegewezen of manueel uitgeeft, schat dat hij de taak of uitgifte zal hebben voltooid.</p> <p>Voor informatie over Commit Dates, zie <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref"> Overzicht van de Datum van het Vastleggen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Geplande afsluitdatum</td> 
-   <td> <p>De Geplande Datum van de Voltooiing toont wanneer de projecteigenaar de taak of de kwestie verwacht wordt voltooid. Het kan handmatig worden ingesteld door de eigenaar van het project of door iedereen met de machtiging Beheren op de taak of uitgave, of het kan automatisch worden berekend door Adobe Workfront.</p> <p>Zie voor meer informatie over geplande afwerkingsdatums <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overzicht van de geplande voltooiing van de taak</a></p> </td> 
+   <td> <p>De Geplande Datum van de Voltooiing toont wanneer de projecteigenaar de taak of de kwestie verwacht wordt voltooid. Het kan handmatig worden ingesteld door de eigenaar van het project of door iedereen met de machtiging Beheren op de taak of uitgave, of het kan automatisch worden berekend door Adobe Workfront.</p> <p>Voor meer informatie over Geplande data van de Voltooiing, zie <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref"> Overzicht van de taak Geplande Datum van de Voltooiing </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,5 +63,5 @@ Als de Vastlegdatum die door de aangewezen wordt aangeboden voor de eigenaar van
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Overzicht van datum vastleggen](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+* [ het overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Datums vastleggen bijwerken voor taken en problemen](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

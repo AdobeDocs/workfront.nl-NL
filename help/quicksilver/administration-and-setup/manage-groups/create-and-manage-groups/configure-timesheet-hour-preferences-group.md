@@ -30,11 +30,11 @@ De volgende secties op de pagina van de Voorkeur van Timesheet en van Uren zijn 
 
 * Verwijderde projecten, taken en problemen
 
-Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [Tijdschema en uurvoorkeuren voor groepen ontgrendelen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [ timesheet en de uurvoorkeur voor groepen ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [ vormen timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren en voor taak- en uitgavenvoorkeuren. Zie voor meer informatie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren en voor taak- en uitgavenvoorkeuren. Voor informatie, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen en [ vorm taak en geef voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 
 ## Toegangsvereisten
 
@@ -52,12 +52,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 +++
 
@@ -73,7 +73,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
   Add example here?
   -->
 
-* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt en u het voor uw groep vormt, kunt u het dan sluiten om ervoor te zorgen dat iedereen in de groepen onder u de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Zie voor meer informatie [Een groepsoverzicht en uurvoorkeur vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt en u het voor uw groep vormt, kunt u het dan sluiten om ervoor te zorgen dat iedereen in de groepen onder u de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ Slot of ontgrendel een groep timesheet en een uurvoorkeur ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Vorm een niet gesloten timesheet of een uurvoorkeur voor een groep
 
@@ -81,14 +81,14 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
 >
 >Als u een Workfront-beheerder bent, kunt u de stappen 1 tot en met 4 omzeilen door naar Setup > Tijdblad en uren > Voorkeuren te gaan en vervolgens naar de naam van de groep te zoeken in het vak boven aan de pagina.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik de naam van de groep waarvan timesheet of uurvoorkeur u wilt vormen.
-1. Klik in het linkerdeelvenster op **Timesheets en uren**.
+1. In het linkerpaneel, klik **Chronologie &amp; Uren**.
 
-1. Op de pagina die wordt weergegeven, in het dialoogvenster **Algemene voorkeuren** configureren, configureert u een van de volgende opties:
+1. Op de pagina die, in de **Algemene voorkeur** sectie toont, vorm om het even welke volgende opties:
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
        <li>Hun tijdschema's als Algemene Tijd</li>
        </ul> 
        <p>Dit is nuttig wanneer de gebruikers van plan zijn om vanaf het bureau weg te zijn en die tijd willen vooraf registreren.</p> 
-       <p><b>OPMERKING</b>: U kunt niet voorkomen dat gebruikers zich aanmelden bij taken of problemen die zijn gesloten of geannuleerd. U kunt gebruikers slechts verhinderen om tijd op volledige of dode projecten te registreren. Wij adviseren dat u filters in lijsten van taken en kwesties gebruikt om degenen uit te sluiten die zijn voltooid of geannuleerd zichtbaar aan gebruikers zijn.</p> </td> 
+       <p><b> NOTA </b>: U kunt gebruikers niet verhinderen tijd op taken of kwesties te registreren die worden gesloten of geannuleerd. U kunt gebruikers slechts verhinderen om tijd op volledige of dode projecten te registreren. Wij adviseren dat u filters in lijsten van taken en kwesties gebruikt om degenen uit te sluiten die zijn voltooid of geannuleerd zichtbaar aan gebruikers zijn.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Uitgaven toevoegen uit een tijdsplaat</td> 
@@ -116,7 +116,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
      </tr> 
      <tr> 
       <td role="rowheader">Taken handmatig toewijzen aan uurwaarden</td> 
-      <td> <p>Gebruikers toestaan handmatig een taakrol te selecteren die in hun gebruikersprofiel is toegewezen of aan het object is toegewezen.</p> <p><b>BELANGRIJK</b>:  
+      <td> <p>Gebruikers toestaan handmatig een taakrol te selecteren die in hun gebruikersprofiel is toegewezen of aan het object is toegewezen.</p> <p><b> BELANGRIJK </b>:  
         <ul> 
          <li>Als u dit het plaatsen na het toewijzen van baanrollen aan uuringangen onbruikbaar maakt, moeten de gebruikers uren aanpassen die onder diverse rollen op het lusje van Uren van het project, de taak, of de kwestie worden geregistreerd.</li> 
          <li>Als de gebruiker geen taakrol heeft toegewezen in zijn profiel en er een taak is toegewezen als Taakeigenaar in het dialoogvenster Geavanceerde toewijzingen, wordt die taakrol weergegeven wanneer de gebruiker zich aanmeldt voor de taak.</li> 
@@ -138,7 +138,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
     </tbody> 
    </table>
 
-1. In de **Waar gebruikers tijd kunnen vastleggen** configureren, configureert u een van de volgende opties:
+1. In **waar de gebruikers tijd** sectie kunnen registreren, om het even welke volgende opties vormen:
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
    >
    >Deze voorkeur wordt toegepast gebaseerd op configuratie van de voorkeur van de Groep van het Huis van de gebruiker. Als deze montages in de voorkeur van de Groep van het Huis van de gebruiker worden toegelaten, zullen zij tijd op projecten, met inbegrip van voltooide of dode projecten, kunnen direct registreren, ongeacht of de de groepsvoorkeur van het project het toestaat of niet.
 
-1. In de **Vooraf invullen van tijdbladen** configureren, configureert u een van de volgende opties:
+1. In **pre-bevolkt timesheets** sectie, vorm om het even welke volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Werk binnen &lt;number of="" weeks=""&gt; van het werkrooster</td> 
+      <td role="rowheader">Werk dat binnen &lt;aantal weken&gt; van de het werkwaaier van timesheet is</td> 
       <td> <p>Bepaalt het aantal weken vóór en na de datumwaaier van timesheet die data van taken en kwesties bevat die aan de gebruiker worden toegewezen. De standaardinstelling is 1 week en u kunt dit bereik uitbreiden tot 4 weken. Dit betekent dat het tijdschema vooraf gevuld is met taken en kwesties die data tussen vier weken vóór de datumwaaier van timesheet hebben tot vier weken na de datumwaaier van timesheet, als u 4 weken voor uw waaier selecteert. </p> </td> 
      </tr> 
      <tr> 
@@ -188,4 +188,4 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

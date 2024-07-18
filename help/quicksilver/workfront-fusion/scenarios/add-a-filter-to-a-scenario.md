@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Een filter toevoegen aan een scenario in [!DNL Adobe] Workfront Fusion
+title: Voeg een filter aan een scenario in  [!DNL Adobe]  de Fusie van Workfront toe
 description: In sommige scenario's, moet u slechts met bundels werken die aan specifieke criteria voldoen. Met filters kunt u deze bundels selecteren.
 author: Becky
 feature: Workfront Fusion
@@ -48,25 +48,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
@@ -74,19 +74,19 @@ U moet beide modules aan een scenario toevoegen alvorens u een filter tussen hen
 
 ## Voeg een filter tussen twee modules toe:
 
-1. Klikken **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerpaneel, dan selecteer het scenario om het te openen.
-1. Klik in de rechterbovenhoek van het venster op **[!UICONTROL Edit]**.
+1. Klik op **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster en selecteer het scenario dat u wilt openen.
+1. Klik in de rechterbovenhoek van het venster op **[!UICONTROL Edit]** .
 1. Klik op de verbindingslijn tussen de modules.
-1. Typ in het vak dat wordt weergegeven een **[!UICONTROL Label]** voor het filter.
-1. Een filter definiëren **[!UICONTROL Condition]**.
+1. Typ een **[!UICONTROL Label]** voor het filter in het vak dat wordt weergegeven.
+1. Definieer een filter **[!UICONTROL Condition]** .
 
    U kunt een of twee operanden invoeren in de twee vakken. Als u operanden in beide vakken invoert, kunt u een operator selecteren in het vervolgkeuzemenu tussen de operanden om de relatie tussen de operanden op te geven.
 
    >[!TIP]
    >
-   >In de operandvelden kunt u waarden invoeren op dezelfde manier als u deze toewijst, zoals wordt beschreven in [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+   >In de operandgebieden, kunt u waarden op de zelfde manier ingaan aangezien u hen in kaart zou brengen, zoals die in [ wordt beschreven de informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
-   Als u bijvoorbeeld wilt dat het filter bestanden zoekt in [!DNL Adobe Workfront] eindigen met XML en doorgeven aan [!DNL Dropbox], voert u in **[!UICONTROL File name]** in het eerste vak en .**[!UICONTROL xml]** in het tweede vak. In het vervolgkeuzemenu ertussen selecteert u **[!UICONTROL Ends with (case insensitive)]**. Dit filter wordt toegepast op binnenkomende bundels uit de eerste module (Workfront). Alleen pakketten met XML-bestanden worden doorgegeven aan de volgende module ([!DNL Dropbox]).
+   Als u bijvoorbeeld wilt dat het filter bestanden zoekt in [!DNL Adobe Workfront] die eindigen met XML en deze doorgeeft aan [!DNL Dropbox] , typt u **[!UICONTROL File name]** in het eerste vak en.**[!UICONTROL xml]** in het tweede vak. In het vervolgkeuzemenu ertussen selecteert u **[!UICONTROL Ends with (case insensitive)]** . Dit filter wordt toegepast op binnenkomende bundels uit de eerste module (Workfront). Alleen bundels die XML-bestanden bevatten, worden doorgegeven aan de volgende module ([!DNL Dropbox]).
 
    ![](assets/set-up-filter-box-350x368.jpg)
 
@@ -100,23 +100,23 @@ Momenteel, omvat de scenario redacteur geen eigenschap voor het kopiëren van ee
 >
 >Als u de modules aan weerszijden van het filter kopieert, wordt het filter ook gekopieerd.
 >
->Voor meer informatie over het kopiëren van modules, zie [Modules of scenario&#39;s kopiëren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+>Voor meer informatie bij het kopiëren van modules, zie [ modules of scenario&#39;s van het Exemplaar in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 
-Als u een filter wilt kopiëren zonder modules te kopiëren, kunt u [!DNL Google] Chroom voor de volgende tijdelijke oplossing:
+Als u een filter wilt kopiëren zonder modules te kopiëren, kunt u [!DNL Google] Chrome gebruiken voor de volgende oplossing:
 
-1. Installeer de [!UICONTROL [!DNL Adobe Workfront Fusion] DevTool Chrome] extensie.
-1. In [!DNL Workfront Fusion], opent u het scenario.
-1. Klik op het menu Chrome met drie punten en klik op **[!UICONTROL More tools*]* > **[!UICONTROL Developer tools]**.
+1. Installeer de extensie [!UICONTROL [!DNL Adobe Workfront Fusion] DevTool Chrome] .
+1. Open het scenario in [!DNL Workfront Fusion] .
+1. Klik op het Chrome-menu met drie punten en klik vervolgens op * *[!UICONTROL More tools*]* > **[!UICONTROL Developer tools]** .
 
-1. In de [!UICONTROL Developer tools] in het deelvenster dat wordt weergegeven, op de menubalk aan de bovenkant, klikt u op de knop [!UICONTROL Workfront Fusion] tab.
+1. Klik in het deelvenster [!UICONTROL Developer tools] dat wordt weergegeven op de menubalk boven in het scherm op de tab [!UICONTROL Workfront Fusion] .
 
    ![](assets/copy-a-filter-350x174.png)
 
-1. Klik op de knop **[!UICONTROL Tools]** pictogram ![](assets/devtools-tools-icon.png) in de linkerzijbalk.
+1. Klik op het pictogram **[!UICONTROL Tools]** ![](assets/devtools-tools-icon.png) in de linkerzijbalk.
 
-1. Klikken **[!UICONTROL Copy Filter]** en configureer vervolgens de **[!UICONTROL Copy Filter]** in het rechterzijpaneel:
+1. Klik op **[!UICONTROL Copy Filter]** en configureer het gereedschap **[!UICONTROL Copy Filter]** in het rechterdeelvenster:
 
-   1. Stel de **[!UICONTROL Source Module]** als de module rechts na het filter dat u wilt kopiëren.
-   1. Stel de **[!UICONTROL Target Module]** als de module vlak voor het filter dat u wilt kopiëren.
+   1. Stel de **[!UICONTROL Source Module]** in als de module rechts na het filter dat u wilt kopiëren.
+   1. Stel de **[!UICONTROL Target Module]** in als de module vlak voor het filter dat u wilt kopiëren.
 
 1. Klik op **[!UICONTROL Run]**.

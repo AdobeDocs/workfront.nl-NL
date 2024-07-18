@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!DNL Adobe Admin Console]. Als uw organisatie is aangemeld bij de [!DNL Adobe Admin Console], moet u deze handeling uitvoeren via de [!DNL Adobe Admin Console].
+>De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!DNL Adobe Admin Console] . Als uw organisatie is aangemeld bij de [!DNL Adobe Admin Console] , moet u deze handeling uitvoeren via de [!DNL Adobe Admin Console] .
 >
->Voor instructies over het toevoegen van een gebruiker in de[!DNL  Adobe Admin Console], zie de sectie &quot;Gebruikersdetails bewerken&quot; in het artikel [Gebruikers individueel beheren](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) of neem contact op met uw [!UICONTROL Adobe Admin Console] Beheerder.
+>Voor instructies bij het toevoegen van een gebruiker in [!DNL  Adobe Admin Console], zie de sectie &quot;geef gebruikersdetails&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) uit of contacteer uw [!UICONTROL Adobe Admin Console] Beheerder.
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (het Bedrijfs Platform van de Fusie van Adobe Workfront/Adobe) ](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Toegangsvereisten
 
@@ -43,32 +43,32 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> 
-     <p>U moet een [!DNL Workfront Fusion] beheerder van uw organisatie.</p>
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team.</p>
+     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw organisatie zijn.</p>
+     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team zijn.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Gebruikers aan een organisatie toevoegen
 
@@ -94,19 +94,19 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 -->
 
-Als u gebruikers wilt toevoegen aan de organisatie, moet u een beheerder zijn bij de organisatie waaraan u gebruikers wilt toevoegen. Voor informatie over rollen, zie [Organisatiefuncties in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
+Als u gebruikers wilt toevoegen aan de organisatie, moet u een beheerder zijn bij de organisatie waaraan u gebruikers wilt toevoegen. Voor informatie over rollen, zie {de rollen van 0} Organisatie in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).[
 
 Een gebruiker toevoegen aan de organisatie:
 
-1. Navigeren naar **[!UICONTROL Organizations]** in het menu en selecteer de organisatie waaraan u een gebruiker wilt toevoegen.
-1. Open de **[!UICONTROL Users]** in het dashboard.
-1. Klikken **[!UICONTROL Invite a new user]**, vult het formulier in (E-mail, Bericht, Rol) en verzendt de uitnodiging door op **[!UICONTROL Send]**.
+1. Ga naar **[!UICONTROL Organizations]** in het menu en selecteer de organisatie waaraan u een gebruiker wilt toevoegen.
+1. Open de tab **[!UICONTROL Users]** in het dashboard.
+1. Klik op **[!UICONTROL Invite a new user]**, vul het formulier in (E-mail, Bericht, Rol) en verzend de uitnodiging door op **[!UICONTROL Send]** te klikken.
 
 >[!NOTE]
 >
 >   
->Als u het geneesmiddel niet ziet [!UICONTROL Invite a new user] -knop, uw organisatie is aangemeld bij de [!DNL Adobe Business Platform.]
+>Als de knop [!UICONTROL Invite a new user] niet wordt weergegeven, is uw organisatie aangemeld bij de [!DNL Adobe Business Platform.]
 >
->  Voor instructies over het toevoegen van een gebruiker aan een organisatie die aan is geregistreerd [!DNL Adobe Business Platform], zie [Gebruikers toevoegen aan [!DNL Adobe Workfront Fusion] via de [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+>  Voor instructies bij het toevoegen van een gebruiker aan een organisatie die aan [!DNL Adobe Business Platform] is bezet, zie [ gebruikers aan  [!DNL Adobe Workfront Fusion]  door  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) toevoegen
 
 De gebruiker ontvangt een e-mailuitnodiging waarin hij of zij de uitnodiging kan accepteren.

@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
 * [Veelgestelde vragen - proefdrukken en bestanden maken en delen](../../../workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
 * [Veelgestelde vragen - proefdrukken bekijken](../../../workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-* [FAQ - [!DNL Workfront Proof] account](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
-* [Aanmelden en uw wachtwoord en e-mail wijzigen voor [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
+* [Veelgestelde vragen -  [!DNL Workfront Proof]  rekening](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+* [Aanmelden en uw wachtwoord en e-mail wijzigen voor  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>
   -->
 
-* [Tijdzones instellen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
+* [Tijdzones instellen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)

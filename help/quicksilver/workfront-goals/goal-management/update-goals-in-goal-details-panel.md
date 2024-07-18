@@ -54,7 +54,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -64,7 +64,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau*</td>
@@ -76,7 +76,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -87,7 +87,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Doelen bijwerken in de sectie met de details van het doel
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Klik de naam van een doel in de Lijst van het Doel, dan klik de naam van een doel.
 
-   Hierdoor wordt het **Doelgegevens** aan de linkerkant.
+   Dit opent de **sectie van de Details van het Doel** op de linkerzijde.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klik op de knop **Pictogram Bewerken** ![](assets/edit-icon.png) in de rechterbovenhoek klikt u op **Alles bewerken** of **Overzicht**
+1. Klik het **uitgeven pictogram** ![](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **uitgeven allen** of **Overzicht**
 
    of
 
@@ -196,14 +196,14 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Werk de volgende velden bij of bekijk deze:
 
-   * **Beschrijving**: Voeg informatie over het doel toe of werk deze bij.
-   * **Voortgang**: Geeft aan welk percentage van het doel tot dusver is bereikt. U kunt de voortgang van een doel niet handmatig bijwerken. De voortgang van het doel is een berekening van alle voortgangsindicatoren.
-   * **Voorwaarde**: Geeft aan of het doel nieuw is en nog niet is bijgewerkt, of het op doel staat om op tijd te worden voltooid of een achterstand heeft. U kunt de voorwaarde van een doel niet bijwerken. De voorwaarde van het doel wordt automatisch berekend door Worfront.\
+   * **Beschrijving**: Voeg of werk informatie over het doel toe bij.
+   * **Voortgang**: Wijst op welk percentage van het doel tot dusver wordt voltooid. U kunt de voortgang van een doel niet handmatig bijwerken. De voortgang van het doel is een berekening van alle voortgangsindicatoren.
+   * **Voorwaarde**: Wijst erop of het doel nieuw is en het nog niet bijgewerkt is, of het op doel is om op tijd te voltooien, of achter achterblijft. U kunt de voorwaarde van een doel niet bijwerken. De voorwaarde van het doel wordt automatisch berekend door Worfront.\
      Voor meer informatie over doelvoorwaarde en vooruitgang, zie
-     [Overzicht van de voortgang en conditie van het doel in de Adobe Workfront-doelstellingen](../goal-management/calculate-goal-progress.md).
-   * **Status**: U kunt de status van een doel niet handmatig bijwerken. Zie voor meer informatie [Overzicht van de status van objecten in Adobe Workfront Goals](../goal-management/goal-status-overview.md).
-   * **Goedereneigenaar**: Klik om de naam van de eigenaar van het doel bij te werken. Typ de naam van een gebruiker, team, groep of de naam van uw organisatie en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven. U kunt slechts één eigenaar voor een doel hebben.
-   * **Bovenliggende doelstelling**: Typ de naam van een doel dat u als bovenliggend element wilt instellen voor het doel dat u hebt geselecteerd. De voortgang van het geselecteerde doel wordt automatisch aangepast aan de voortgang van het bovenliggende doel.
+     [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../goal-management/calculate-goal-progress.md).
+   * **Status**: U kunt niet de status van een doel manueel bijwerken. Voor meer informatie, zie [ de statusoverzicht van het Doel in de Doelen van Adobe Workfront ](../goal-management/goal-status-overview.md).
+   * **eigenaar van het Doel**: Klik om de naam van de eigenaar van het doel bij te werken. Typ de naam van een gebruiker, team, groep of de naam van uw organisatie en selecteer deze vervolgens wanneer deze in de lijst wordt weergegeven. U kunt slechts één eigenaar voor een doel hebben.
+   * **Bovenliggend doel**: Begin typend de naam van een doel dat u als ouder van het doel zou willen plaatsen u selecteerde. De voortgang van het geselecteerde doel wordt automatisch aangepast aan de voortgang van het bovenliggende doel.
 
      >[!TIP]
      >
@@ -214,9 +214,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
      >      
      >U moet deze informatie over het ouderdoel zelf bijwerken.
 
-   * **Periode**: Klik om de tijdsperiode voor het doel bij te werken\
+   * **Periode**: Klik om de tijdspanne voor het doel bij te werken\
      of\
-     Selecteren **Aangepaste datums inschakelen** om data voor het doel te specificeren **Start** en **Einddata**.
-   * **Slotopmerkingen**: Dit veld is alleen zichtbaar voor doelen met de status Gesloten. Gesloten doelen kunnen niet worden bewerkt. Als u een gesloten doel opnieuw opent, worden de afsluitende notities permanent verwijderd.
+     Selecteer **douanedata** toelaten om data voor het 2} Begin van het doel **en** Eind data **te specificeren.**
+   * **Sluiten nota&#39;s**: Dit gebied is zichtbaar slechts voor doelstellingen met een status van Gesloten. Gesloten doelen kunnen niet worden bewerkt. Als u een gesloten doel opnieuw opent, worden de afsluitende notities permanent verwijderd.
 
 

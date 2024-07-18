@@ -25,11 +25,11 @@ U kunt taaktoewijzingen op verschillende manieren beheren in Adobe Workfront. De
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van het wijzigen van taaktaken](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
-* [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-* [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Overzicht van slimme toewijzingen](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Slimme toewijzingen maken](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Meerdere gebruikerstoewijzingen in een takenlijst wijzigen](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Gebruikers- en roltoewijzingstijden beheren voor taken](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+* [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [ wijs taken ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) toe
+* [ creeer geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [ Slim overzicht van taken ](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [ maak slimme taken ](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [ wijzigt veelvoudige gebruikerstoewijzingen in een taaklijst ](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [ beheert gebruikers en de uren van de roltoewijzing op taken ](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
 * [Het percentage gebruikers- of roltoewijzingen beheren voor taken](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

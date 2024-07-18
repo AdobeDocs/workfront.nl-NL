@@ -19,4 +19,4 @@ U kunt een exemplaar van een standaardrapport wijzigen dat met uw geval van Adob
 
 Nadat u een standaardrapport kopieert, wordt u de eigenaar van het gekopieerde rapport en het toont in de Mijn sectie van Rapporten in het gebied van Rapporten.
 
-Voor informatie over het kopiëren van een rapport raadpleegt u [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Voor informatie over het kopiëren van een rapport, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.

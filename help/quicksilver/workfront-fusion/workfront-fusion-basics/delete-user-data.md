@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Gebruikersgegevens verwijderen in [!DNL Adobe Workfront Fusion]
-description: U kunt gebruikersgegevens opslaan en verwijderen in uw [!DNL Adobe Workfront Fusion] account.
+title: Gebruikersgegevens verwijderen in  [!DNL Adobe Workfront Fusion]
+description: U kunt gebruikersgegevens in uw  [!DNL Adobe Workfront Fusion]  rekening opslaan en schrappen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Gebruikersgegevens verwijderen in [!DNL Adobe Workfront Fusion]
 
-U kunt gebruikersgegevens opslaan en verwijderen in de volgende gebieden van uw [!DNL Adobe Workfront Fusion] account:
+U kunt gebruikersgegevens opslaan en verwijderen in de volgende gebieden van uw [!DNL Adobe Workfront Fusion] -account:
 
 * [!UICONTROL Scenario]
 * [!UICONTROL Connections]
@@ -49,17 +49,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Gebruikersgegevens verwijderen
 
@@ -69,5 +69,5 @@ Gebruikersgegevens verwijderen:
 
    Als u bijvoorbeeld een scenario wilt verwijderen, klikt u op **[!UICONTROL Scenario]** in het linkerdeelvenster.
 
-1. Klik op de pijl-omlaag rechts van het item dat u wilt verwijderen en klik vervolgens op **[!UICONTROL Delete]**.
-1. Klikken **[!UICONTROL Really]** ter bevestiging.
+1. Klik op de pijl-omlaag rechts van het item dat u wilt verwijderen en klik vervolgens op **[!UICONTROL Delete]** .
+1. Klik op **[!UICONTROL Really]** om te bevestigen.

@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Aangepaste uitgaventypen maken
-description: Als [!DNL Adobe Workfront] beheerder, kunt u de types van douanefontages tot stand brengen om de uitgaven te bepalen en te volgen verbonden aan uw taken en projecten. De kosten zijn niet-arbeidskosten die met taken of projecten kunnen worden geassocieerd.
+description: Als  [!DNL Adobe Workfront]  beheerder, kunt u de types van douanefoto tot stand brengen om de uitgaven te bepalen en te volgen verbonden aan uw taken en projecten. De kosten zijn niet-arbeidskosten die met taken of projecten kunnen worden geassocieerd.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als [!DNL Adobe Workfront] beheerder, kunt u de types van douanefontages tot stand brengen om de uitgaven te bepalen en te volgen verbonden aan uw taken en projecten. De kosten zijn niet-arbeidskosten die met taken of projecten kunnen worden geassocieerd.
+Als [!DNL Adobe Workfront] beheerder, kunt u de types van douaneuitgave tot stand brengen om de uitgaven te bepalen en te volgen verbonden aan uw taken en projecten. De kosten zijn niet-arbeidskosten die met taken of projecten kunnen worden geassocieerd.
 
-U kunt alle onkostentypen die u maakt, bewerken of verwijderen. U kunt de ingebouwde [!DNL Workfront] kostentypen.
+U kunt alle onkostentypen die u maakt, bewerken of verwijderen. U kunt de ingebouwde uitgaventypen van [!DNL Workfront] niet verwijderen of bewerken.
 
 ## Toegangsvereisten
 
@@ -41,14 +41,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Standaardkostentypen
 
-De kostentypen waarin [!DNL Workfront] U kunt standaard het volgende niet verwijderen of bewerken:
+De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwijderd of bewerkt, zijn onder andere:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consulting]
@@ -59,10 +59,10 @@ De kostentypen waarin [!DNL Workfront] U kunt standaard het volgende niet verwij
 
 ## Aangepaste uitgaventypen maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront].
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
 1. Klik op **[!UICONTROL Expense Types]**.
 1. Klik op **[!UICONTROL New Expense Type]**.
-1. In de **[!UICONTROL New Expense Type]** Geef de volgende informatie op in het vak dat wordt weergegeven:
+1. Geef in het vak **[!UICONTROL New Expense Type]** dat wordt weergegeven de volgende informatie op:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,7 +91,7 @@ De kostentypen waarin [!DNL Workfront] U kunt standaard het volgende niet verwij
      </tr> 
      <tr> 
       <td role="rowheader">Snelheid</td> 
-      <td> <p>Geef de prijs per eenheid op. Dit is een valutaveld dat de kosten vertegenwoordigt van elke eenheid die in het <strong>[!UICONTROL Calculated Unit]</strong> veld. </p> <p>De snelheid kan een numerieke waarde met maximaal 4 cijfers achter de komma bevatten. Bijvoorbeeld 1,0375</p> </td> 
+      <td> <p>Geef de prijs per eenheid op. Dit is een valutaveld dat de kosten vertegenwoordigt van elke eenheid die in het veld <strong>[!UICONTROL Calculated Unit]</strong> wordt ingesteld. </p> <p>De snelheid kan een numerieke waarde met maximaal 4 cijfers achter de komma bevatten. Bijvoorbeeld 1,0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -101,13 +101,13 @@ De kostentypen waarin [!DNL Workfront] U kunt standaard het volgende niet verwij
 
 ## Aangepaste kostentypen wijzigen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront].
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
 1. Klik op **[!UICONTROL Expense Types]**.
-1. Selecteer het type uitgave dat u wilt wijzigen en klik vervolgens op **[!UICONTROL Edit]**.
+1. Selecteer het kostentype dat u wilt wijzigen en klik op **[!UICONTROL Edit]** .
 
-   De **[!UICONTROL Edit Expense Type]** wordt weergegeven.
+   Het dialoogvenster **[!UICONTROL Edit Expense Type]** wordt weergegeven.
 
-1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Save Changes]**.\
+1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Save Changes]** .\
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 
-Raadpleeg het artikel voor meer informatie over het gebruik van kosten en de manier waarop deze de kosten van een project kunnen beïnvloeden [Projectkosten beheren](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Voor meer informatie over hoe te om kosten te gebruiken en hoe zij de kosten van een project kunnen beïnvloeden, zie artikel [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).

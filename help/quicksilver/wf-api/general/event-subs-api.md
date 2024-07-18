@@ -9,7 +9,7 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2147'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ Wanneer een actie op een voorwerp van Adobe Workfront voorkomt dat door gebeurte
 
 Als u via uw firewall gebeurtenisabonnementen wilt ontvangen, moet u de volgende IP-adressen aan uw lijst van gewenste personen toevoegen:
 
-**Voor klanten in Europa:**
+**voor klanten in Europa:**
 
-* 52.30.133.50
-* 52.208.159.124
-* 54.220.93.204
-* 52.17.130.201
-* 34.254.76.122
-* 34.252.250.191
+* 52 30 133 50
+* 52 208 159 124
+* 54 220 93 204
+* Op 52.17.130.2011
+* 34 254 76 122
+* 34 252 250 191
 
-**Voor klanten op andere locaties dan Europa:**
+**voor klanten in plaatsen buiten Europa:**
 
-* 54.244.142.219
-* 44.241.82.96
-* 52.36.154.34
-* 34.211.224.9
-* 54.218.48.56
-* 52.39.217.230
+* 54 244 142 219
+* 44 241 82 96
+* 52 36 154,34
+* 34 211 224,9
+* 54 218 48 56
+* 52 39 217 230
 
 De volgende onderwerpen ondersteunen de API voor abonnementen op gebeurtenissen:
 
@@ -70,18 +70,18 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Sjabloon
 * Tijdschema
 * Gebruiker
-* Werkruimte
+* Workspace
 
-Zie voor een lijst met velden die worden ondersteund door gebeurtenisabonnementsobjecten [Bronvelden voor abonnementen](../../wf-api/api/event-sub-resource-fields.md).
+Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md).[
 
 ## Verificatie van abonnement op gebeurtenis
 
 Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement te maken, te vragen of te verwijderen:
 
 * Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
-* A `sessionID`  header is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
+* Een header `sessionID` is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-  Zie voor meer informatie [Verificatie](api-basics.md#authentication) in [API-basisbeginselen](api-basics.md).
+  Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
 
 ## Het vormen van het Middel van het Abonnement
 
@@ -89,11 +89,11 @@ De abonnementsbron bevat de volgende velden.
 
 * objId (optioneel)
 
-   * **String** - De id van het object van de opgegeven objCode waarvoor gebeurtenissen worden geactiveerd. Als dit veld niet is opgegeven, ontvangt de gebruiker gebeurtenissen voor alle objecten van het opgegeven type.
+   * **Koord** - identiteitskaart van het voorwerp van gespecificeerde objCode waarvoor de gebeurtenissen in brand worden gestoken. Als dit veld niet is opgegeven, ontvangt de gebruiker gebeurtenissen voor alle objecten van het opgegeven type.
 
 * objCode (vereist)
 
-   * **String** - De objCode van het voorwerp dat aan veranderingen wordt geabonneerd. De mogelijke waarden voor objCode worden in de onderstaande tabel weergegeven.
+   * **Koord** - objCode van het voorwerp dat aan veranderingen wordt ingetekend. De mogelijke waarden voor objCode worden in de onderstaande tabel weergegeven.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -182,15 +182,15 @@ De abonnementsbron bevat de volgende velden.
         <td scope="col">GEBRUIKER</td> 
        </tr> 
        <tr> 
-        <td scope="col">Werkruimte</td> 
-        <td scope="col">WERKRUIMTE</td> 
+        <td scope="col">Workspace</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
 
 * eventType (vereist)
 
-   * **String** - Een waarde die het type gebeurtenis vertegenwoordigt waarop het object is geabonneerd. De beschikbare gebeurtenistypen zijn:
+   * **Koord** - een waarde die het type van gebeurtenis vertegenwoordigt waarop het voorwerp wordt ingetekend. De beschikbare gebeurtenistypen zijn:
 
       * MAKEN
       * DELETE 
@@ -198,11 +198,11 @@ De abonnementsbron bevat de volgende velden.
 
 * url (vereist)
 
-   * **String** - De URL van het eindpunt waarnaar abonnementsgebeurtenistaken via HTTP worden verzonden.
+   * **Koord** - URL van het eindpunt waaraan de nuttige ladingen van de abonnementsgebeurtenis via HTTP worden verzonden.
 
 * authToken (vereist)
 
-   * **String** - Het token OAuth2 dat wordt gebruikt voor verificatie met de URL die is opgegeven in het veld URL. 
+   * **Koord** - het token OAuth2 dat wordt gebruikt om met URL voor authentiek te verklaren die op het &quot;URL&quot;gebied wordt gespecificeerd. 
 
 ## API-aanvragen voor abonnementen voor gebeurtenissen maken
 
@@ -210,14 +210,14 @@ Nadat u ervoor hebt gezorgd dat de gebruiker beheerderstoegang heeft en de abonn
 
 Gebruik de volgende syntaxis om de URL samen te stellen.
 
-**Aanvraag-URL:**
+**Verzoek URL:**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Aanvraagkoppen:**
+**Kopballen van het Verzoek:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -240,7 +240,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Voorbeeld hoofdtekst aanvraag:**
+**Voorbeeld van het Lichaam van het Verzoek:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -260,13 +260,13 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (Niet-geautoriseerd) | De opgegeven sessionID is leeg of wordt als ongeldig beschouwd. |
 | 403 (verboden) | De gebruiker die de verstrekte sessionID aanpast heeft beheerdertoegang niet. |
 
-Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij het inhoudstype &#39;application/json&#39; is), wordt een gebeurtenisabonnement gemaakt voor het opgegeven object. Een antwoordcode van 201 (Gemaakt) geeft aan dat het abonnement is gemaakt. Een andere antwoordcode dan 201 betekent dat het abonnement **NOT** gemaakt.
+Als u een abonnementsbron doorgeeft als de hoofdtekst van een aanvraag (waarbij het inhoudstype &#39;application/json&#39; is), wordt een gebeurtenisabonnement gemaakt voor het opgegeven object. Een antwoordcode van 201 (Gemaakt) geeft aan dat het abonnement is gemaakt. Een antwoordcode buiten 201 betekent het abonnement **NIET** werd gecreeerd.
 
 >[!NOTE]
 >
 > De responsheader &#39;Locatie&#39; bevat de URI van het zojuist gemaakte gebeurtenisabonnement.
 
-**Voorbeeld van responsheaders:**
+**Voorbeeld van de Kopballen van de Reactie:**
 
 | Antwoordheaders | Voorbeeld |
 |---|---|
@@ -283,12 +283,12 @@ Bij het opvragen van Workfront HTTP gebruikt u de methode GET. Er zijn twee mani
 
 U kunt alle gebeurtenissenabonnementen voor een klant vragen, of het volgende gebruiken om de reactie te beheren. U kunt ook de volgende opties gebruiken om de reactie te beheren:
 
-* **page**: optie voor queryparameter om op te geven hoeveel pagina&#39;s moeten worden geretourneerd. De standaardwaarde is 1.
-* **limiet**: optie voor queryparameter om het aantal resultaten op te geven dat per pagina moet worden geretourneerd. De standaardwaarde is 100 met een maximum van 1000.
+* **pagina**: de optie van de vraagparameter om het aantal pagina&#39;s te specificeren om terug te keren. De standaardwaarde is 1.
+* **grens**: de optie van de vraagparameter om het aantal resultaten te specificeren per pagina terug te keren. De standaardwaarde is 100 met een maximum van 1000.
 
 De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een specifieke klant is als volgt:
 
-**Aanvraag-URL:**
+**Verzoek URL:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -296,7 +296,7 @@ De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Aanvraagkoppen:**
+**Kopballen van het Verzoek:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -315,7 +315,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Responscodes:**
+**Codes van de Reactie:**
 
 | Antwoordcode | Beschrijving |
 |---|---|
@@ -324,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
-**Voorbeeld van responsheaders:**
+**Voorbeeld van de Kopballen van de Reactie:**
 
 | Reactiekoptekst | Voorbeeld |
 |---|---|
@@ -334,7 +334,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Overdrachtscodering | `→chunked` |
 
 
-**Voorbeeld van reactiebody:**
+**Voorbeeld van het Lichaam van de Reactie:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -373,15 +373,15 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 Wanneer
 
-* **page** en **limiet** zijn de waarden die in het verzoek worden vermeld of de standaardwaarde als er geen waarden worden opgegeven.
-* **page_count** is het totale aantal pagina&#39;s waarop een query kan worden uitgevoerd.
-* **total_count** is het totale aantal abonnementen dat de vraag aanpast.
+* **pagina** en **grens** zijn de waarden die in het verzoek of het gebrek worden verstrekt als geen waarden worden verstrekt
+* **page_count** is het totale aantal pagina&#39;s die kunnen worden gevraagd.
+* **total_count** is het totale aantal abonnementen die de vraag aanpassen.
 
 ### Query uitvoeren op de abonnements-id
 
 U kunt zoeken naar gebeurtenisabonnementen op basis van de id van het abonnement op de gebeurtenis. De aanvraagsyntaxis voor abonnementen op gebeurtenissen ziet er als volgt uit:
 
-**Aanvraag-URL:**
+**Verzoek URL:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -389,7 +389,7 @@ U kunt zoeken naar gebeurtenisabonnementen op basis van de id van het abonnement
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Aanvraagkoppen:**
+**Kopballen van het Verzoek:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -408,7 +408,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Responscodes:**
+**Codes van de Reactie:**
 
 | Antwoordcode | Beschrijving |
 |---|---|
@@ -417,7 +417,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (verboden) | De gebruiker, die verstrekte sessionID aanpast, heeft beheerdertoegang niet. |
 
 
-**Voorbeeld van reactiebody:**
+**Voorbeeld van het Lichaam van de Reactie:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 Filteren met gebeurtenisabonnementen kan worden gebruikt om ervoor te zorgen dat u alleen relevante berichten ontvangt. Het creëren van filters voor uw abonnementen kan het aantal berichten beduidend verminderen dat uw eindpunt moet verbruiken.
 
-Een **BIJWERKEN - TAAK** gebeurtenisabonnement kan alleen worden geactiveerd wanneer de **newState** van een gebeurtenislading bepaalt **taskStatus** als **huidig**.
+Bijvoorbeeld, kan een **UPDATE - TASK** gebeurtenisabonnement worden geplaatst om slechts teweeg te brengen wanneer **newState** van een gebeurtenislading **taskStatus** als **huidig** bepaalt.
 
 >[!IMPORTANT]
 >
-De volgende kenmerken zijn van toepassing op het filteren van gebeurtenisabonnementen
+>De volgende kenmerken zijn van toepassing op het filteren van gebeurtenisabonnementen
 
-* Wanneer een filterveld een niet-lege waarde heeft, alleen berichten met een **newState** met de filtersleutels en -waarden worden naar de geabonneerde URL verzonden
-* U kunt filteren op aangepaste gegevens die zijn opgenomen in het dialoogvenster **newState** EN/OF **oldState** van het object
+* Wanneer een filtergebied een niet lege waarde slechts berichten met a **newState** heeft die de filtersleutels bevatten en de waarden worden verzonden naar geabonneerde URL
+* U kunt door douanegegevens filtreren inbegrepen in **newState** EN/OF **oldState** van het voorwerp
 * Filters worden alleen beoordeeld op het feit of ze al dan niet gelijk zijn aan een specifieke waarde
-* Als de filtersyntaxis onjuist is of niet overeenkomt met de gegevens in het dialoogvenster **newState** van de lading, zal een bevestigingsbericht niet zijn teruggekeerd om erop te wijzen dat een fout is voorgekomen
+* Als uw filtersyntaxis onjuist is of geen gegevens aanpast in **newState** van de nuttige lading, zal een bevestigingsbericht niet zijn teruggekeerd om op te wijzen een fout is voorgekomen
 * Filters kunnen niet worden bijgewerkt op een abonnement dat momenteel bestaat. Een nieuw abonnement moet worden gemaakt met nieuwe filterparameters.
 * Er kunnen meerdere filters worden toegepast op één abonnement en het abonnement wordt alleen geleverd als aan alle filtervoorwaarden is voldaan.
-* Het toepassen van meerdere filters op één abonnement staat gelijk aan het gebruik van een **EN** logische operator.
+* Het toepassen van veelvoudige filters op één enkel abonnement is een praktijk gelijkwaardig aan het gebruiken van een **EN** logische exploitant.
 * Meerdere gebeurtenisabonnementen kunnen op één object worden toegepast zolang er een of meer parameters voor het abonnementsveld voor gebeurtenissen verschillen tussen de abonnementen voor elke gebeurtenis.
-* Wanneer meerdere gebeurtenisabonnementen worden toegewezen aan één object, kunnen alle gebeurtenisabonnementen die aan dat object zijn gekoppeld, worden geretourneerd naar één eindpunt. Deze praktijk kan worden gebruikt als equivalent substituut voor logische operator **OF** die niet kunnen worden ingesteld met filterparameters.
+* Wanneer meerdere gebeurtenisabonnementen worden toegewezen aan één object, kunnen alle gebeurtenisabonnementen die aan dat object zijn gekoppeld, worden geretourneerd naar één eindpunt. Deze praktijk kan als gelijkwaardig substituut voor logische exploitant **worden gebruikt OF** die niet kan worden geplaatst gebruikend filterparameters.
 
 ### Vergelijkingsoperatoren gebruiken
 
@@ -459,7 +459,7 @@ U kunt samen met het filterveld een vergelijkingsveld opgeven. Gebruik een verge
 
 #### eq: gelijk
 
-Met dit filter kunnen berichten worden doorlopen als de wijziging die is opgetreden overeenkomt met `fieldValue` in het filter. De `fieldValue` waarde is hoofdlettergevoelig.
+Met dit filter kunnen berichten worden doorlopen als de wijziging die zich heeft voorgedaan precies overeenkomt met `fieldValue` in het filter. De waarde `fieldValue` is hoofdlettergevoelig.
 
 ```
 {
@@ -479,7 +479,7 @@ Met dit filter kunnen berichten worden doorlopen als de wijziging die is opgetre
 
 #### ne: niet gelijk
 
-Met dit filter kunnen berichten worden weergegeven als de wijziging die is opgetreden niet overeenkomt `fieldValue` in het filter. De `fieldValue` waarde is hoofdlettergevoelig.
+Met dit filter kunnen berichten worden doorlopen als de wijziging die zich heeft voorgedaan niet exact overeenkomt met `fieldValue` in het filter. De waarde `fieldValue` is hoofdlettergevoelig.
 
 ```
 {
@@ -499,7 +499,7 @@ Met dit filter kunnen berichten worden weergegeven als de wijziging die is opget
 
 #### gt: groter dan
 
-Met dit filter kunnen berichten worden weergegeven als de update van de opgegeven `fieldName` is groter dan de waarde voor `fieldValue`.
+Met dit filter kunnen berichten worden weergegeven als de update voor de opgegeven `fieldName` groter is dan de waarde voor `fieldValue` .
 
 ```
 {
@@ -519,7 +519,7 @@ Met dit filter kunnen berichten worden weergegeven als de update van de opgegeve
 
 #### gte: groter dan of gelijk aan
 
-Met dit filter kunnen berichten worden weergegeven als de update van de opgegeven `fieldName` is groter dan of gelijk aan de waarde voor `fieldValue`.
+Met dit filter kunnen berichten worden weergegeven als de update voor de opgegeven `fieldName` groter is dan of gelijk is aan de waarde voor `fieldValue` .
 
 ```
 {
@@ -539,7 +539,7 @@ Met dit filter kunnen berichten worden weergegeven als de update van de opgegeve
 
 #### lt: minder dan
 
-Met dit filter kunnen berichten worden weergegeven als de update van de opgegeven `fieldName` is kleiner dan de waarde voor `fieldValue`.
+Met dit filter kunnen berichten worden weergegeven als de update van de opgegeven `fieldName` kleiner is dan de waarde voor `fieldValue` .
 
 ```
 {
@@ -559,7 +559,7 @@ Met dit filter kunnen berichten worden weergegeven als de update van de opgegeve
 
 #### lte: kleiner dan of gelijk aan
 
-Met dit filter kunnen berichten worden weergegeven als de update van de opgegeven `fieldName` is kleiner dan of gelijk aan de waarde voor `fieldValue`.
+Met dit filter kunnen berichten worden weergegeven als de update voor de opgegeven `fieldName` kleiner is dan of gelijk is aan de waarde voor `fieldValue` .
 
 ```
 {
@@ -579,7 +579,7 @@ Met dit filter kunnen berichten worden weergegeven als de update van de opgegeve
 
 #### contains
 
-Met dit filter kunnen berichten doorkomen als de wijziging die zich heeft voorgedaan, de `fieldValue` in het filter. De `fieldValue` waarde is hoofdlettergevoelig
+Met dit filter kunnen berichten worden doorlopen als de wijziging die zich heeft voorgedaan de `fieldValue` in het filter bevat. De waarde `fieldValue` is hoofdlettergevoelig
 
 ```
 {
@@ -599,11 +599,11 @@ Met dit filter kunnen berichten doorkomen als de wijziging die zich heeft voorge
 
 #### wijzigen
 
-Met dit filter kunnen alleen berichten worden weergegeven als het opgegeven veld (`fieldName`) heeft een andere waarde in de oude en de nieuwe staat. Andere velden bijwerken naast het opgegeven veld (`fieldName`) retourneert deze wijziging niet.
+Dit filter staat berichten toe om door te komen slechts als het gespecificeerde gebied (`fieldName`) een verschillende waarde in oldstate en newstate heeft. Het bijwerken van andere gebieden naast gespecificeerd (`fieldName`) zal niet die verandering terugkeren.
 
 >[!NOTE]
 >
-`fieldValue` in de array filters hieronder heeft geen effect.
+>`fieldValue` in de array filters eronder heeft geen effect.
 
 ```
 {
@@ -624,12 +624,12 @@ Met dit filter kunnen alleen berichten worden weergegeven als het opgegeven veld
 #### state
 
 Met deze connector wordt het filter toegepast op de nieuwe status of oude status van het object dat is gemaakt of bijgewerkt. Dit is handig als u wilt weten waar een wijziging van de ene naar de andere wijziging heeft plaatsgevonden.
-`oldState` is niet mogelijk op CREATE `eventTypes`.
+`oldState` is niet mogelijk op CREATE `eventTypes` .
 
 >[!NOTE]
 >
-Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` op de `oldState`, wat het was voordat er een update van de taak werd uitgevoerd.
-Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
+>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
@@ -650,7 +650,7 @@ Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van �
 
 ### Verbindingsvelden gebruiken
 
-De `filterConnector` in het veld voor de abonnementspayload kunt u kiezen hoe de filters moeten worden toegepast. De standaardwaarde is &quot;AND&quot;, waarbij alle filters moeten zijn ingesteld op `true` voor het abonnementsbericht om door te komen. Als &quot;OR&quot; is opgegeven, moet slechts één filter overeenkomen voor het abonnementsbericht dat wordt doorgestuurd.
+In het veld `filterConnector` op de payload van het abonnement kunt u kiezen hoe de filters moeten worden toegepast. De standaardwaarde is &quot;AND&quot;, waarbij de filters `true` moeten zijn voordat het abonnementsbericht wordt weergegeven. Als &quot;OR&quot; is opgegeven, moet slechts één filter overeenkomen voor het abonnementsbericht dat wordt doorgestuurd.
 
 ```
 {
@@ -678,7 +678,7 @@ De `filterConnector` in het veld voor de abonnementspayload kunt u kiezen hoe de
 
 Bij het verwijderen van Workfront HTTP gebruikt u de methode DELETE. De aanvraagsyntaxis voor het verwijderen van één gebeurtenisabonnement op basis van abonnement-id ziet er als volgt uit:
 
-**Aanvraag-URL:**
+**Verzoek URL:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -686,7 +686,7 @@ Bij het verwijderen van Workfront HTTP gebruikt u de methode DELETE. De aanvraag
 DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Aanvraagkoppen:**
+**Kopballen van het Verzoek:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -705,7 +705,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </tbody> 
 </table>
 
-**Responscodes:**
+**Codes van de Reactie:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -736,7 +736,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </tbody> 
 </table>
 
-**Voorbeeld van responsheaders:**
+**Voorbeeld van de Kopballen van de Reactie:**
 
 | Reactiekoptekst | Voorbeeld |
 |---|---|
@@ -744,7 +744,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
 | Server | `→Apache-Coyote/1.1` |
 
 
-**Voorbeeld van reactiebody:** NVT
+**Voorbeeld van het Lichaam van de Reactie:** nvt
 
 ## Voorbeelden van gebeurtenistaken
 
@@ -881,7 +881,7 @@ Het base64Encoding-veld is een optioneel veld dat wordt gebruikt om Base64-coder
 
 ### Voorbeeld van een aanvraag met het base64Encoding-veld
 
-Als een verzoek wordt ingediend gebruikend base64Encoding gebied dat aan waar wordt geplaatst, dan **newState** en **oldState** objecten in de payload worden geleverd als basis 64-coderingstekenreeksen. Als het base64Encoding-veld is ingesteld op false, leeg wordt gelaten of niet is opgenomen in de aanvraag, wordt de geretourneerde payload niet gecodeerd in basis 64.
+Als een verzoek wordt gemaakt gebruikend het base64Encoding gebied dat aan waar wordt geplaatst, dan worden de **newState** en **oldState** voorwerpen in de nuttige lading geleverd als basis 64 coderende koorden. Als het base64Encoding-veld is ingesteld op false, leeg wordt gelaten of niet is opgenomen in de aanvraag, wordt de geretourneerde payload niet gecodeerd in basis 64.
 
 Hieronder ziet u een voorbeeld van een aanvraag die het veld base64Encoding gebruikt:
 
@@ -917,7 +917,7 @@ Hieronder ziet u een voorbeeld van een aanvraag die het veld base64Encoding gebr
 
 ## Verouderde methode voor het opvragen van alle abonnementen op gebeurtenissen
 
-Het volgende API eindpunt is afgekeurd en zou niet voor nieuwe implementaties moeten worden gebruikt. Wij adviseren ook overgangen oude implementaties aan de methode in **Abonnementen voor opvragen van gebeurtenissen** hierboven beschreven.
+Het volgende API eindpunt is afgekeurd en zou niet voor nieuwe implementaties moeten worden gebruikt. Wij adviseren ook overbrengend oude implementaties aan de methode in de **het Vragen van de Abonnementen van de Gebeurtenis** hierboven beschreven sectie.
 
 U kunt alle gebeurtenisabonnementen voor een klant zoals die door de sessionID waarde wordt gespecificeerd vragen. De aanvraagsyntaxis voor het aanbieden van alle gebeurtenisabonnementen voor een specifieke klant is de volgende URL:
 
@@ -927,7 +927,7 @@ U kunt alle gebeurtenisabonnementen voor een klant zoals die door de sessionID w
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
 ```
 
-**Aanvraagkoppen:**
+**Kopballen van het Verzoek:**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -946,7 +946,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
-**Responscodes:**
+**Codes van de Reactie:**
 
 <table style="table-layout:auto"> 
  <col> 

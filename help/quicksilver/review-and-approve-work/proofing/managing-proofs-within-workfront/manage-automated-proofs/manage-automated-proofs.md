@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Automatisch proefdrukken beheren
 
-* [Geautomatiseerde werkstroomfasen weergeven op een proefdruk](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-* [Actieve stadia weergeven op een proefdruk](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-* [Een geautomatiseerde workflow maken of bewerken voor een bestaande proefdruk](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
-* [Proofingfasen en controleurs bewerken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
-* [Een standaardworkflow converteren naar een geautomatiseerde workflow op basis van een proefdruk](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
+* [ de stadia van het Werkschema van de Mening Geautomatiseerde op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+* [ actieve stadia van de Mening op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+* [ creeer of geef een Geautomatiseerd Werkschema voor een bestaand bewijs ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md) uit
+* [ geef proefdrukstadia en recensenten uit ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
+* [ zet een basiswerkschema in een Geautomatiseerd Werkschema op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md) om
 * [Voeg stadia en gebruikers aan een Geautomatiseerde Werkstroom op een proef toe](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)

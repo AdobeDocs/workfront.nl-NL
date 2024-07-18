@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Verbeterde integratie
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.3 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de Productomgeving in januari 2022, de week van 11 juli 2022. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.3 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de Productomgeving in januari 2022, de week van 11 juli 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integratie Adobe Workfront voor Experience Manager Assets
 
@@ -34,7 +34,7 @@ U kunt deze integratie alleen gebruiken als u Workfront en Adobe Experience Mana
 
 Voor informatie over het vormen van de integratie, zie
 
-* [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [De as a Cloud Service integratie van Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
 * [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 
@@ -49,7 +49,7 @@ U verliest de toegang tot documenten die momenteel via de verouderde SharePoint-
 
 Workfront-beheerders kunnen de integratie van SharePoint en oudere SharePoint afzonderlijk in- en uitschakelen op basis van de behoeften van hun organisatie.
 
-Zie voor meer informatie [De integratie met de Legacy SharePoint configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+Voor meer informatie zie [ de integratie van SharePoint van de Verouderde vorm ](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md) vormen.
 
 ## Meerdere bestanden combineren in één proefdruk in de insteekmodule Creative Cloud
 

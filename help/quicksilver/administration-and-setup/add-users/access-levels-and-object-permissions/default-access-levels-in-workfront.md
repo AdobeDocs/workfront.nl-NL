@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->In dit artikel worden de huidige ingebouwde toegangsniveaus in Adobe Workfront beschreven. Voor informatie over de nieuwe ingebouwde toegangsniveaus, zie [Overzicht van nieuwe toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>In dit artikel worden de huidige ingebouwde toegangsniveaus in Adobe Workfront beschreven. Voor informatie over de nieuwe ingebouwde toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Elk van de zes huidige ingebouwde toegangsniveaus wordt ontworpen voor een bepaald type van gebruiker. Met deze toegangsniveaus kunt u bepalen welke gebruikers in het systeem kunnen bewerken en weergeven.
@@ -60,13 +60,13 @@ Als u een douanepanager, de Arbeider, de Vraag, of het toegangsniveau van de Rec
 >
 >U kunt de toegangsniveaus van de Systeembeheerder of de externe gebruiker niet wijzigen.
 
-Voor informatie bij het creëren van een niveau van de douanetoegang of het wijzigen van één van de ingebouwde toegangsniveaus, zie [Aangepaste toegangsniveaus maken en wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Voor informatie bij het creëren van een niveau van de douanetoegang of het wijzigen van één van de ingebouwde toegangsniveaus, zie [ douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 >[!IMPORTANT]
 >
 >Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers.
 
-Voor algemene informatie over deze toegangsniveaus, zie [Overzicht van toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Voor algemene informatie over deze toegangsniveaus, zie [ overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Toegangsniveau van systeembeheerder
 
@@ -74,9 +74,9 @@ Het ingebouwde toegangsniveau van de Beheerder van het Systeem, verbonden aan de
 
 Gebruikers met het toegangsniveau voor systeembeheerders kunnen alles doen in Workfront. Ze kunnen alle Workfront-objecten en informatie die door alle andere gebruikers in Workfront is ingevoerd, weergeven en bewerken.
 
-Zij hebben ook volledige toegang tot het gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen. En ze hebben toegang tot alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar.
+Zij hebben ook volledige toegang tot het gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen. En ze hebben toegang tot alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) , indien beschikbaar.
 
-Zie voor meer informatie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Voor meer informatie, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Toegangsniveau van planner
 
@@ -86,9 +86,9 @@ Het toegangsniveau van de Planner is ook gekoppeld aan de licentie voor abonneme
 * Iedereen die verantwoordelijk is voor het plannen, maken en beheren van taken, projecten, portfolio&#39;s en programma&#39;s
 * Iedereen die verantwoordelijk is voor het toewijzen van werk (taken en problemen) aan andere gebruikers
 * Gebruikers die rapporten maken en die tijdbladen, werkitems en documenten goedkeuren
-* Gebruikers die toegang tot alle gebieden in het hoofdmenu nodig hebben ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar
+* Gebruikers die toegang tot alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) nodig hebben, indien beschikbaar
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Planner maken en de mate van toegang bepalen die het toestaat voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Planner maken en de mate van toegang bepalen die het toestaat voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten in het toegangsniveau van de Planner:
 
@@ -122,10 +122,10 @@ Gebruikers met dit toegangsniveau:
 * Werk en documenten kunnen worden goedgekeurd, maar geen timesheets
 * Kan rapporten openen en delen
 * Kan communiceren met andere gebruikers in het systeem
-* Kan niet alle gebieden openen in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar, en hun &quot;Gebruikers&quot;gebied wordt genoemd Teams. In het gebied van Teams, kunnen de gebruikers met dit toegangsniveau slechts teams bekijken die zij tot behoren, samen met het werk dat aan die teams wordt toegewezen.
+* Kan niet alle gebieden in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) openen, indien beschikbaar, en het gebied &quot;Gebruikers&quot; heeft de naam Teams. In het gebied van Teams, kunnen de gebruikers met dit toegangsniveau slechts teams bekijken die zij tot behoren, samen met het werk dat aan die teams wordt toegewezen.
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Worker maken en de mate van toegang bepalen die dit toestaat voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Worker maken en de mate van toegang bepalen die dit toestaat voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van Worker:
 
@@ -142,7 +142,7 @@ Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objec
 | Gebruikers |   |   | ✓ |
 | Teams |   |   | ✓ (beperkte toegang) |
 | Sjablonen | ✓ |   |   |
-| Financiële gegevens |   | ✓ (De standaardinstelling is Geen toegang. Met de instelling Weergave kan de gebruiker alleen het gebied Financiën in Projectdetails bekijken.) |   |
+| Financiële gegevens |   | ✓ (De standaardinstelling is Geen toegang. Met de instelling Weergave kan de gebruiker alleen het gebied Financiën bekijken   in projectdetails.) |   |
 | Bronbeheer |   | ✓ |   |
 | Scenario Planner |   |   | ✓ (De standaardinstelling is Geen toegang.) |
 | Workfront-doelen |   |   | ✓ (De standaardinstelling is Geen toegang.) |
@@ -158,10 +158,10 @@ Een belanghebbende met dit toegangsniveau kan zich bijvoorbeeld aanmelden bij Wo
 Gebruikers met het toegangsniveau van de Revisor:
 
 * Kan geen werkitems toewijzen of tijdbladen goedkeuren
-* Kan de gebieden Verzoeken en Documenten openen in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar
+* Toegang krijgen tot de gebieden Aanvragen en Documenten in het Hoofdmenu ![](assets/main-menu-icon.png) of het Hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar
 * Heb beperkte capaciteit om tot voorwerp-zij tot stand te brengen geen projecten, portefeuilles, programma&#39;s, of rapporten kunnen leiden.
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau van Reviewer maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+U kunt een aangepaste versie van het ingebouwde toegangsniveau van Reviewer maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 Beperkt voor projecten en taken tot het toegangsniveau van de Worker, zijn de hoogste toegangsmontages beschikbaar voor voorwerpen in het de toegangsniveau van de Recensent:
 
@@ -249,7 +249,7 @@ Beperkt voor projecten en taken tot het toegangsniveau van de Worker, zijn de ho
   <tr> 
    <td>Financiële gegevens</td> 
    <td> </td> 
-   <td> <p>✓ (De standaardinstelling is Geen toegang. Met de instelling Weergave kan de gebruiker alleen het gebied Financiën in Projectdetails bekijken.)</p> </td> 
+   <td> <p>✓ (De standaardinstelling is Geen toegang. Met de instelling Weergave kan de gebruiker alleen het gebied Financiën bekijken   in projectdetails.)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,9 +285,9 @@ Gebruikers met dit toegangsniveau:
 * Documenten uploaden en goedkeuren
 * Kan de status van de verzonden problemen bekijken
 * Kan niet toewijzen aan werkitems
-* Kan verzoeken alleen benaderen vanuit het gebied Verzoeken in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png), indien beschikbaar. Voor meer informatie over verzoekrijen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* U hebt alleen toegang tot aanvragen via het gedeelte Verzoeken in het hoofdmenu ![](assets/main-menu-icon.png) of het hoofdmenu ![](assets/lines-main-menu.png) , indien beschikbaar. Voor meer informatie over verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-U kunt een aangepaste versie van het ingebouwde toegangsniveau voor de aanvrager maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Zie voor meer informatie [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+U kunt een aangepaste versie van het ingebouwde toegangsniveau voor de aanvrager maken en bepalen hoeveel toegang er wordt verleend voor de verschillende Workfront-objecttypen. Voor meer informatie, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van de aanvrager:
 
@@ -327,7 +327,7 @@ U kunt dit toegangsniveau niet wijzigen.
 
 >[!IMPORTANT]
 >
->De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Zie voor meer informatie [Systeembeveiligingsvoorkeuren configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Voor meer informatie, zie [ de voorkeur van de systeemveiligheid ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 Hoewel deze instellingen niet zichtbaar zijn in het gebied Toegangsniveaus voor het toegangsniveau van de externe gebruiker, heeft een gebruiker met deze toegang de volgende hoogste toegang tot de objecttypen van Workfront:
 

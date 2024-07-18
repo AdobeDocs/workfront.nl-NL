@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dit artikel bevat een lijst met de meestgestelde vragen over de nieuwe opmerkingervaring.
 
-Ga voor meer informatie over de nieuwe opmerkingervaring naar [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor meer informatie over de nieuwe het becommentariëren ervaring, zie [ Nieuwe het becommentariëren ervaring ](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Kan ik verschillende bestandstypen naast afbeeldingen aan opmerkingen koppelen?
 

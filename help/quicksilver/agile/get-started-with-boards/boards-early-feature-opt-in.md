@@ -2,8 +2,8 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Aanmelden met vroege functies voor [!DNL Adobe Workfront] Borden
-description: Lees dit artikel voor meer informatie over de [!DNL Workfront Boards] opt-in voor vroege functies.
+title: Vroege eigenschapopt-in voor  [!DNL Adobe Workfront]  Boven
+description: Lees dit artikel om over de  [!DNL Workfront Boards]  vroege eigenschap te leren opt-in.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Aanmelden met vroege functies voor [!DNL Adobe Workfront] [!UICONTROL Boards]
+# Aanmelden met de functie Vroege [!DNL Adobe Workfront] [!UICONTROL Boards]
 
-De vroege eigenschapopt-in voor [!DNL Adobe Workfront] [!UICONTROL Boards] is in juli 2022 van start gegaan.
+De vroege functie-opt-in voor [!DNL Adobe Workfront] [!UICONTROL Boards] is gestart in juli 2022.
 
-[!DNL Adobe Workfront] [!UICONTROL Boards] zijn flexibele hulpmiddelen die teamsamenwerking toestaan door toegang tot een gedeelde raad te verlenen die kolommen en kaarten bevat.
+[!DNL Adobe Workfront] [!UICONTROL Boards] zijn flexibele gereedschappen die teamsamenwerking mogelijk maken door toegang te bieden tot een gedeelde board die kolommen en kaarten bevat.
 
-Zie voor algemene informatie over borden [[!UICONTROL Boards] overzicht](/help/quicksilver/agile/boards-overview.md).
+Voor algemene informatie over borden, zie [[!UICONTROL Boards] overzicht ](/help/quicksilver/agile/boards-overview.md).
 
 ## Functies
 
@@ -49,7 +49,7 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
    <td>Vrijgegeven</td>
   </tr>
   <tr>
-   <td>Kaarten maken die zijn verbonden met [!DNL Workfront] objecten</td>
+   <td>Kaarten maken die zijn verbonden met [!DNL Workfront] -objecten</td>
    <td>Vrijgegeven</td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ In de volgende tabel worden de belangrijkste functies van tekengebieden in combi
    <td>Vrijgegeven</td>
   </tr>
   <tr>
-   <td>Toevoegen [!UICONTROL Work in Progress] limieten voor kolommen</td>
+   <td>[!UICONTROL Work in Progress] limieten toevoegen aan kolommen</td>
    <td>Vrijgegeven</td>
   </tr>
   <tr>
@@ -191,40 +191,40 @@ Vroege functies voor borden zijn beschikbaar voor alle organisaties. Betrokkenhe
 
 ### Aanmelden
 
-Alleen [!DNL Workfront] beheerders kunnen zich aanmelden bij de eerste functies voor raden van bestuur. Wanneer een [!DNL Workfront] de beheerder laat vroege eigenschappen toe, alle gebruikers in de organisatie worden gekozen binnen.
+Alleen [!DNL Workfront] -beheerders kunnen zich aanmelden voor de eerste functies van tekengebieden. Wanneer een [!DNL Workfront] -beheerder functies in een vroeg stadium inschakelt, worden alle gebruikers in de organisatie ingeschakeld.
 
 {{step1-to-boards}}
 
-1. Klikken ![Aanmelden met vroege functies](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) boven aan het dashboardscherm.
+1. Klik ![ vroege eigenschap opt-in ](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) bij de bovenkant van het dashboardscherm.
 1. Klik op **[!UICONTROL Enable]**.
 1. Begin met het gebruik van de vroege functies van borden.
 
 ## Feedback verzenden
 
-1. Terwijl in een board, klik **[!UICONTROL Feedback]** knop.
-1. Vul het formulier in en klik op **[!UICONTROL Submit]**.
+1. Klik in een board op de knop **[!UICONTROL Feedback]** .
+1. Vul het formulier in en klik op **[!UICONTROL Submit]** .
 
 ## Veelgestelde vragen over vroege aanmelding
 
 ### Hoe weet ik of mijn organisatie heeft gekozen voor vroege functies?
 
-Neem contact op met uw [!DNL Workfront] beheerder om te weten te komen of hebben zij vroege eigenschappen voor raden van bestuur toegelaten.
+Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen of deze functies voor raden van bestuur in een vroeg stadium heeft ingeschakeld.
 
 ### Kunnen vroege eigenschappen slechts voor bepaalde gebruikers worden toegelaten?
 
-Wanneer de [!DNL Workfront] de beheerder laat vroege eigenschappen voor raden van bestuur toe, alle gebruikers in de organisatie worden gekozen binnen.
+Wanneer de beheerder van [!DNL Workfront] vroege eigenschappen voor planken toelaat, worden alle gebruikers in de organisatie verkozen binnen.
 
-De [!DNL Workfront] de beheerder kan de optie Boven verbergen voor de [!UICONTROL Main Menu] voor individuele gebruikers of groepen gebruikers met een lay-outsjabloon. Zie voor meer informatie [De [!UICONTROL Main Menu] een lay-outsjabloon gebruiken](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+De beheerder van [!DNL Workfront] kan de optie Borden echter verbergen in [!UICONTROL Main Menu] voor afzonderlijke gebruikers of groepen gebruikers met een lay-outsjabloon. Voor informatie, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Dit weerhoudt gebruikers er niet van om borden te openen met een URL. Het voorkomt alleen dat ze de [!DNL Boards] in de [!UICONTROL Main Menu].
+>Dit weerhoudt gebruikers er niet van om borden te openen met een URL. Hiermee voorkomt u alleen dat ze de optie [!DNL Boards] in [!UICONTROL Main Menu] zien.
 
 ### Kan ik me afmelden voor de eerste functies nadat ik lid ben geworden?
 
-Alleen [!DNL Workfront] beheerders kunnen ervoor kiezen om functies in een vroeg stadium niet meer te ontvangen. Indien een [!DNL Workfront] de beheerder maakt de vroege eigenschappen onbruikbaar, alle gebruikers in de organisatie uit worden gekozen.
+Alleen [!DNL Workfront] -beheerders kunnen ervoor kiezen om functies uit het begin niet meer te ontvangen. Als een [!DNL Workfront] -beheerder de functies in het begin uitschakelt, worden alle gebruikers in de organisatie uitgeschakeld.
 
 {{step1-to-boards}}
 
-1. Klikken ![Aanmelden met vroege functie ingeschakeld](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) boven aan het dashboardscherm.
+1. Klik ![ vroege eigenschap toe:laten opt-in ](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) bij de bovenkant van het dashboardscherm.
 1. Klik op **[!UICONTROL Disable]**.

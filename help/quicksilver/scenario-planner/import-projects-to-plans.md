@@ -1,19 +1,19 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Projecten importeren naar plannen in het scenario Scenario Planner
+title: Projecten importeren naar plannen in de Scenario-planner
 description: U kunt bestaande projecten in een plan invoeren. De geïmporteerde projecten worden omgezet in initiatieven en u kunt ze binnen het plan beheren zoals u een nieuw initiatief zou beheren. Het oorspronkelijke project blijft gekoppeld aan het nieuwe initiatief.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
 source-git-commit: 844dddec944b6cfb0957eecf09c2980e9d0577cc
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
 
-# Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]
+# Projecten importeren naar plannen in de [!DNL Scenario Planner]
 
 U kunt bestaande projecten in een plan invoeren. De geïmporteerde projecten worden omgezet in initiatieven en u kunt ze binnen het plan beheren zoals u een nieuw initiatief zou beheren. Het oorspronkelijke project blijft gekoppeld aan het nieuwe initiatief.
 
@@ -34,45 +34,45 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
    <td>[!UICONTROL Business] of hoger</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licentie*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> license* </b> </p> </td> 
    <td> <p>[!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
-   <td> <p>U moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] voor toegang tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Toegang nodig om de [!DNL Scenario Planner]</a>. </p> </td> 
+   <td><b> Product </b> </td> 
+   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configuraties op toegangsniveau*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie over het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Toegang tot een abonnement aanvragen in de Scenario Planner</a>.</p> </td> 
+   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het verzoeken van extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> toegang van het Verzoek tot een plan in de Planner van het Scenario </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Overwegingen over het invoeren van projecten in plannen als nieuwe initiatieven
 
 * U moet projecten creëren alvorens u hen in een plan als nieuwe initiatieven kunt invoeren.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: no caveats for project statuses yet, mentioned in the import steps as a tip) </p>
   -->
 
-* U moet ten minste [!UICONTROL View] machtigingen aan de projecten om deze als nieuw initiatief in een plan te kunnen importeren.
+* U moet minstens [!UICONTROL View] toestemmingen aan de projecten hebben om hen in een plan als nieuw initiatief te kunnen invoeren.
 * U kunt het zelfde project in veelvoudige plannen invoeren.
-* Voor de projecten die u wilt importeren, moeten datums zijn opgenomen in het tijdsbestek van uw abonnement. U kunt geen projecten importeren met een [!UICONTROL Planned Completion Date] vóór de aanvang van de regeling of een [!UICONTROL Planned Start Date] later dan het einde van het plan.
+* Voor de projecten die u wilt importeren, moeten datums zijn opgenomen in het tijdsbestek van uw abonnement. U kunt geen projecten importeren met een [!UICONTROL Planned Completion Date] eerdere datum dan het begin van het abonnement of een [!UICONTROL Planned Start Date] later dan het einde van het abonnement.
 * U kunt niet meer dan 100 projecten tegelijk importeren.
-* Sommige projectinformatie wordt ook ingevoerd in het plan en wordt initiatiefinformatie. Voor informatie over welke projectinformatie in het plan wordt ingevoerd en initiatiefinformatie wordt, zie [In het plan geïmporteerde projectgegevens](#project-information-imported-into-the-plan) in dit artikel.
+* Sommige projectinformatie wordt ook ingevoerd in het plan en wordt initiatiefinformatie. Voor informatie over welke projectinformatie in het plan wordt ingevoerd en initiatiefinformatie wordt, zie de [ informatie van het Project die in de plan ](#project-information-imported-into-the-plan) sectie in dit artikel wordt ingevoerd.
 * Wijzigingen in de gekoppelde projecten hebben geen invloed op de initiatieven in het plan.
-* Wijzigingen die worden aangebracht in de initiatieven op het plan hebben niet automatisch invloed op de gekoppelde projectwijzigingen die worden aangebracht in het initiatief, maar zijn alleen van invloed op de gekoppelde projecten wanneer u het initiatief publiceert vanuit het plan. Voor informatie over hoe het publiceren van initiatieven de verwante projecten beïnvloedt, zie [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+* Wijzigingen die worden aangebracht in de initiatieven op het plan hebben niet automatisch invloed op de gekoppelde projectwijzigingen die worden aangebracht in het initiatief, maar zijn alleen van invloed op de gekoppelde projecten wanneer u het initiatief publiceert vanuit het plan. Voor informatie over hoe het publiceren van initiatieven de verbonden projecten beïnvloedt, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 * Als u een initiatief verwijdert dat is gemaakt door een project te importeren, wordt het project niet verwijderd.
 * Als u een project verwijdert dat verband houdt met een initiatief, wordt het initiatief niet verwijderd.
 
@@ -101,26 +101,26 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
    <td> <p>Initiatief begint en eindigt maanden.</p> <p>Als een project in het midden van een maand begint of eindigt, worden de ingevoerde data uitgebreid tot een volledige maand in het plan. Als de geplande projectdata bijvoorbeeld 20 maart - 5 mei 2020 zijn, zijn de data van het geïmporteerde initiatief maart - mei 2020.</p> <p>Indien de geplande begin- of einddatum langer is dan de looptijd van het plan, is er een visuele indicatie dat het ingevoerde initiatief begint of eindigt na het plan. </p> </td> 
   </tr> 
   <tr> 
-   <td>Functie-rollen die zijn toegewezen aan taken en problemen</td> 
-   <td> <p>Initiatief taakrollen. </p> <p>Opmerking:   <p>Als een gebruiker rollen tijdens het leven van het project verandert, hangen de rollen die van de status van de taak af wanneer u het project invoert. De volgende scenario's bestaan:</p> 
+   <td>Functie-rollen toegewezen aan taken en problemen</td> 
+   <td> <p>De Rollen van de Baan van het initiatief. </p> <p>Opmerking:   <p>Als een gebruiker rollen tijdens het leven van het project verandert, hangen de rollen die van de status van de taak af wanneer u het project invoert. De volgende scenario's bestaan:</p> 
      <ul> 
-      <li> <p>Als een gebruiker aan een taak of een kwestie zijn rol veranderde nadat zij hun taak als merkten [!UICONTROL Done], [!DNL Workfront] importeert naar initiatief de rol die de gebruiker heeft vervuld voordat hij de toewijzing als [!UICONTROL Done].</p> </li> 
-      <li> <p>Als een gebruiker die aan een taak of een kwestie wordt toegewezen de rol tijdens het leven van het project veranderde maar hun taak op de taak of de kwestie is niet duidelijk zoals [!UICONTROL Done] wanneer u het project importeert, [!DNL Workfront] Hiermee importeert u alleen de huidige rol van de toegewezen gebruiker. </p> </li> 
-     </ul> <p>Zie "Toekeningsstatus" in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Woordenlijst van Adobe [!DNL Workfront] terminologie</a>. </p> </p> </td> 
+      <li> <p>Als een gebruiker die aan een taak of een kwestie is toegewezen zijn rol veranderde nadat zij hun taak als [!UICONTROL Done] merkten, voert [!DNL Workfront] in het initiatief de rol in die de gebruiker vervulde alvorens zij de taak als [!UICONTROL Done] merkten.</p> </li> 
+      <li> <p>Als een gebruiker die aan een taak of kwestie wordt toegewezen de rol tijdens het leven van het project veranderde maar hun taak op de taak of de kwestie niet duidelijk als [!UICONTROL Done] wanneer u het project invoert, [!DNL Workfront] voert slechts de huidige rol van de toegewezen gebruiker in. </p> </li> 
+     </ul> <p>Voor informatie over het statuut van een taak, zie "Status van de Toewijzing"in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref"> Verklarende woordenlijst van Adobe [!DNL Workfront] terminologie </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Project [!UICONTROL Planned Hours] gekoppeld aan taakrollen die zijn toegewezen aan taken of problemen</td> 
-   <td> <p><span>Afhankelijk van het feit of het plan is ingesteld om FTE's of uren te gebruiken, [!UICONTROL Planned Hours] van de taken van het project</span> [!UICONTROL Required FTEs] <span>of [!UICONTROL Required hours] over het plan</span>. </p> <p>Voor informatie over vestiging een plan om FTEs of uren te gebruiken, zie <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Plannen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]</a>. </p> <p>Overweeg het volgende:</p> 
+   <td> <p><span> afhankelijk van of het plan opstelling is om FTEs of uren te gebruiken, wordt [!UICONTROL Planned Hours] van de taken op het project of </span> [!UICONTROL Required FTEs] <span> of [!UICONTROL Required hours] op het plan </span>. </p> <p>Voor informatie over vestiging een plan om FTEs of uren te gebruiken, zie <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref"> plannen in [!DNL Scenario Planner]</a> creëren en uitgeven. </p> <p>Overweeg het volgende:</p> 
     <ul> 
      <li> <p>[!DNL Workfront] gebruikt de baanrollen die aan taken en kwesties worden toegewezen of de baanrollen die de gebruikers aan taken of kwesties worden toegewezen met betrekking tot het project worden geassocieerd en hen naar het nieuwe initiatief als Vereiste Rollen van de Baan overbrengt. </p> </li> 
-     <li> <p>Wanneer het plan opstelling is om FTEs te gebruiken, worden de Geplande Uren verbonden aan de baanrollen op de taken en de kwesties van het project eerst omgezet in FTE. Deze VTE wordt vervolgens toegewezen aan de functie van het initiatief. <span>Geplande uren worden gelijkelijk verdeeld in [!DNL Workfront]. Als een taak of een uitgifte meerdere maanden bestrijkt, wordt het bedrag van de geplande uren voor elke maand tijdens de duur van het initiatief in maandelijkse VTE omgezet en naar elke maand van het initiatief overgedragen.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><span>Als een taak bijvoorbeeld is toegewezen aan een taak voor 80 geplande uren in september, wordt voor het initiatief in september de geïmporteerde rol 0,5 VTE weergegeven.</span> </p> </li> 
-     <li> <p>[!DNL Workfront] berekent de FTE van de vereiste functies van de Taak verbonden aan het initiatief gebruikend de volgende formule:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: De [!DNL Scenario Planner] gaat ervan uit dat er 160 werkuren per maand zijn.</p> <p>Als een project bijvoorbeeld een duur van 1200 minuten heeft en een functie voor het project is gekoppeld aan 600 minuten geplande uren, is de FTE 0,5. Bij het importeren van het project is de vereiste taakrol FTE voor het nieuwe initiatief 0,5 voor elke maand van het initiatief. </p> </li> 
+     <li> <p>Wanneer het plan opstelling is om FTEs te gebruiken, worden de Geplande Uren verbonden aan de baanrollen op de taken en de kwesties van het project eerst omgezet in FTE. Deze VTE wordt vervolgens toegewezen aan de functie van het initiatief. <span> Geplande Uren worden gelijkelijk verdeeld in [!DNL Workfront]. Als een taak of een kwestie veelvoudige maanden overspant, wordt het bedrag van Geplande Uren voor elke maand in de duur van het initiatief omgezet in maandelijkse VTE en overgebracht naar elke maand van het initiatief.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> <span> bijvoorbeeld, als een taak aan een baanrol voor 80 Geplande Uren in September wordt toegewezen, dan toont de ingevoerde baanrol 0.5 FTE voor het initiatief in September.</span> </p> </li> 
+     <li> <p>[!DNL Workfront] berekent de FTE van de vereiste functies van de Taak verbonden aan het initiatief gebruikend de volgende formule:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: de [!DNL Scenario Planner] gaat ervan uit dat er 160 werkuren per maand zijn.</p> <p>Als een project bijvoorbeeld een duur van 1200 minuten heeft en een functie voor het project is gekoppeld aan 600 minuten geplande uren, is de FTE 0,5. Bij het importeren van het project is de vereiste taakrol FTE voor het nieuwe initiatief 0,5 voor elke maand van het initiatief. </p> </li> 
      <li>Wanneer een baanrol aan een taak op het project met nul Geplande Uren wordt toegewezen, is de Vereiste VTE voor de baanrol van het initiatief door gebrek nul. <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
       --></li> 
-     <li>Wanneer een baanrol aan een taak op het project met nul wordt toegewezen [!UICONTROL Duration], de vereiste VTE <span>of uren</span> voor de banenrol van het initiatief is standaard nul, zelfs als de taak uren heeft gepland. </li> 
+     <li>Wanneer een baanrol aan een taak op het project met nul [!UICONTROL Duration] wordt toegewezen, Vereiste VTE <span> of uren </span> voor de baanrol van het initiatief is nul door gebrek, zelfs als de taak Uren geplant heeft. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -142,16 +142,17 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 >  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
 >  -->
 >
->* Wijzigingen in het initiatief zijn van invloed op de informatie in het [!DNL Scenario Planner] gebied op het project slechts wanneer u het initiatief aan het overeenkomstige project publiceert. Anders hebben ze geen invloed op de [!UICONTROL Planned Hours] informatie voor de taken en kwesties van het project.
+>* Wijzigingen in het initiatief zijn alleen van invloed op de informatie in het gebied [!DNL Scenario Planner] over het project als u het initiatief publiceert naar het bijbehorende project. Anders hebben ze geen invloed op de [!UICONTROL Planned Hours] -informatie voor de taken en problemen van het project.
 >
->  Voor informatie over hoe het publiceren van initiatieven de verwante projecten beïnvloedt, zie  [Werk of creeer projecten bij door initiatieven in de Planner van het Scenario te publiceren](../scenario-planner/publish-scenarios-update-projects.md).
+>  Voor informatie over hoe het publiceren van initiatieven de verbonden projecten beïnvloedt, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../scenario-planner/publish-scenarios-update-projects.md).
+>
 
-1. Klik op de knop **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Workfront]en klik vervolgens op [!DNL Scenarios] toegang tot [!DNL Scenario Planner].
+1. Klik op **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Workfront] en klik vervolgens op [!DNL Scenarios] om het dialoogvenster [!DNL Scenario Planner] te openen.
 
 1. Klik op de naam van een abonnement waarin u projecten wilt importeren.
-1. Klikken **[!UICONTROL New Initiative]** en klik vervolgens op **[!UICONTROL Import Projects]**.
+1. Klik op **[!UICONTROL New Initiative]** en vervolgens op **[!UICONTROL Import Projects]** .
 
-   De [!UICONTROL Import Projects] wordt weergegeven. Projecten met datums die zijn opgenomen in het tijdkader van uw abonnement, worden in een lijst weergegeven.
+   Het vak [!UICONTROL Import Projects] wordt weergegeven. Projecten met datums die zijn opgenomen in het tijdkader van uw abonnement, worden in een lijst weergegeven.
 
    ![](assets/project-import-ui-projects-selected-350x72.png)
 
@@ -163,23 +164,24 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Filter icon]** ![](assets/filter-nwepng.png)en selecteer een beschikbaar filter in de lijst om de hoeveelheid projecten in uw lijst te verminderen. Door gebrek, wordt de lijst van projecten gefiltreerd door de momenteel geselecteerde projectfilter van de gebruiker in een lijst van projecten.
+1. (Optioneel) Klik op **[!UICONTROL Filter icon]** ![](assets/filter-nwepng.png) en selecteer een beschikbaar filter in de lijst om de hoeveelheid projecten in de lijst te verminderen. Door gebrek, wordt de lijst van projecten gefiltreerd door de momenteel geselecteerde projectfilter van de gebruiker in een lijst van projecten.
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Search icon]** ![](assets/search-icon.png) en voeg een sleutelwoord toe dat op om het even welk gebied op het scherm wordt getoond. De items met het zoekwoord worden automatisch in de lijst weergegeven en alle items worden verborgen.
+1. (Optioneel) Klik op **[!UICONTROL Search icon]** ![](assets/search-icon.png) en voeg een trefwoord toe dat in een veld op het scherm wordt weergegeven. De items met het zoekwoord worden automatisch in de lijst weergegeven en alle items worden verborgen.
 
-1. (Voorwaardelijk) Klik op de knop **[!UICONTROL X icon]** om het onderzoek te verwijderen en alle projecten te tonen.
-1. Selecteer maximaal 100 projecten en klik op **[!UICONTROL Import]**.
+1. (Voorwaardelijk) klik **[!UICONTROL X icon]** om het onderzoek te verwijderen en alle projecten te tonen.
+1. Selecteer maximaal 100 projecten en klik op **[!UICONTROL Import]** .
 
    De projecten worden geïmporteerd als nieuwe initiatieven.
 
    Let op het volgende:
 
-   * Een projectpictogram ![](assets/project-icon-sp.png) rechts van de initiatiefnaam worden weergegeven.
+   * Een projectpictogram ![](assets/project-icon-sp.png) wordt rechts van de initiatiefnaam weergegeven.
    * Als het projecttijdschema de looptijd van het plan overschrijdt, eindigt de balk van het initiatief met een puntige marge naar links (wanneer de begindatum eerder is dan de datum van het plan) of naar rechts (wanneer de einddatum later is dan de datum van het plan).
 
-      ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * Het aantal maanden en de functies zijn bijgewerkt en aangepast aan die van het project.
+
    >[!TIP]
    >
    >De kosten in verband met de functies worden op initiatiefniveau bijgewerkt en worden niet uit het project geïmporteerd.
@@ -188,7 +190,7 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 
    ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
-   In de **[!UICONTROL Initiative Duration]** de volgende informatie te raadplegen:
+   Controleer de volgende informatie in het gebied **[!UICONTROL Initiative Duration]** :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -204,7 +206,7 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Project]</td> 
-      <td> <p>De [!UICONTROL Planned Start] en [!UICONTROL Completion dates] van het gekoppelde project.</p> <p>Tip: Als de [!UICONTROL Project] Er ontbreekt informatie, het project is verwijderd.</p> </td> 
+      <td> <p>De [!UICONTROL Planned Start] en [!UICONTROL Completion dates] van het gekoppelde project.</p> <p>Tip: als de [!UICONTROL Project] -informatie ontbreekt, is het project verwijderd.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -212,14 +214,14 @@ Wanneer u een project in een plan invoert wordt sommige projectinformatie ook in
 1. Bewerk de naam van het initiatief. Standaard komt deze overeen met de naam van het project.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Taken in het dialoogvenster bijwerken **[!UICONTROL Required Job Roles]** sectie
-   * Werk de **[!UICONTROL Fixed Costs]** in de **[!UICONTROL Costs]** sectie
+   * Taken bijwerken in de sectie **[!UICONTROL Required Job Roles]**
+   * De **[!UICONTROL Fixed Costs]** in de **[!UICONTROL Costs]** -sectie bijwerken
 
-   * Klikken **[!UICONTROL Update available job roles]** of **[!UICONTROL Update available budget]** conflicten tussen het nieuwe initiatief en andere initiatieven in verband met het plan op te lossen .
+   * Klik op **[!UICONTROL Update available job roles]** of **[!UICONTROL Update available budget]** om conflicten op te lossen tussen het nieuwe initiatief en andere initiatieven in het plan.
 
-1. (Voorwaardelijk) Klik **[!UICONTROL Apply]** om wijzigingen in uw initiatief op te slaan.
-1. Klikken **[!UICONTROL Save Plan]** om de wijzigingen in uw abonnement op te slaan.
-1. (Optioneel) Als u de wijzigingen die u in het initiatief aanbrengt, wilt bijwerken naar het project waaruit het is geïmporteerd, publiceert u het project uit het plan. Voor informatie over het publiceren van plannen, zie [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+1. (Voorwaardelijk) Klik **[!UICONTROL Apply]** om de wijzigingen in uw initiatief op te slaan.
+1. Klik op **[!UICONTROL Save Plan]** om de wijzigingen in uw abonnement op te slaan.
+1. (Optioneel) Als u de wijzigingen die u in het initiatief aanbrengt, wilt bijwerken naar het project waaruit het is geïmporteerd, publiceert u het project uit het plan. Voor informatie over het publiceren van plannen, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 1. (Optioneel) Klik op het projectpictogram om het gekoppelde project te openen.
 
    ![](assets/project-icon-on-initiative-highlighted-350x49.png)

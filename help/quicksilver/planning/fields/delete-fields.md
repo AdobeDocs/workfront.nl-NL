@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 In de Planning van Adobe Workfront, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
 
-Voor informatie over het creëren van douanevelden in de Planning van Workfront, zie [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
+Voor informatie over het creëren van douanegebieden in de Planning van Workfront, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 
@@ -42,7 +42,7 @@ U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 * Alle informatie die in het veld is opgeslagen, wordt verwijderd en kan niet worden hersteld.
 * Wanneer u een gekoppeld recordveld verwijdert, worden alle gekoppelde opzoekvelden ook verwijderd uit het recordtype waaruit u een koppeling maakt. De gekoppelde recordvelden van de recordtypen waarnaar u een koppeling maakt, worden niet verwijderd.
 
-  Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -88,12 +88,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de kaart van een recordtype.
 
-1. (Voorwaardelijk) Als dit nog niet het geval is, klikt u op de tab van een **Tabelweergave** op de pagina met recordtypen.
+1. (Voorwaardelijk) als niet reeds geselecteerd, klik het lusje van de mening van de a **Lijst** op de verslagtype pagina.
 
    Alle bestaande records die aan het recordtype zijn gekoppeld, worden in de rijen van de tabelweergave weergegeven.
 
@@ -127,10 +127,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Klikken **Verwijderen**. <!-- check this: they might replace it with **Delete field**-->
+1. Klik **Schrapping**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. Klikken **Verwijderen** ter bevestiging.
+1. Klik **Schrapping** om te bevestigen.
 
    Het veld wordt verwijderd, kan niet worden hersteld en kan niet meer aan records worden gekoppeld.

@@ -25,7 +25,7 @@ De malplaatjes voorzien u van een manier om herhaalbare processen, informatie, e
 >
 >Workfront definieert de groep en status van het nieuwe project als volgt:
 >
->* De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status die door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project wordt bepaald, of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor een groep. Voor informatie over het vormen van projectvoorkeur, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) of [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* De standaardstatus van een nieuw project dat van een malplaatje wordt gecreeerd beantwoordt aan de status die door uw beheerder van Workfront in het belangrijkste gebied van de Voorkeur van het Project wordt bepaald, of door een groepsbeheerder (of beheerder van Workfront) in het gebied van de Voorkeur van het Project voor een groep. Voor informatie over het vormen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen of [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
 >
 >* De Groep van het nieuwe project is de Groep van het malplaatje. Als het malplaatje niet met een Groep wordt geassocieerd, dan is de Groep van het project de Groep van het Huis van de gebruiker die tot het project leidt.
 >
@@ -37,7 +37,7 @@ U hebt de volgende opties voor het maken van een project op basis van een sjablo
 * Een project maken op basis van een sjabloon op sjabloonniveau
 * Een sjabloon aan een bestaand project koppelen
 
-  Zie voor meer informatie [Een sjabloon aan een project koppelen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Voor informatie, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 * Een project maken van een sjabloon in het gebied Groepen
 
@@ -103,7 +103,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,20 +117,20 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek Klikken **Projecten** vervolgens uitvouwen **Nieuw project**.
-   * Naar een portfolio gaan en vervolgens uitvouwen **Nieuw project**.
+   * Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek. Klik **Projecten**, dan breid **Nieuw Project** uit.
+   * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
 
      >[!TIP]
      >
      >Wanneer u een project gebruikend een malplaatje van een portefeuille creeert, werkt het gebied van het Portfolio van het nieuwe project bij om de portefeuille te tonen u verkoos om het project tot stand te brengen van. Hiermee wordt het veld Portfolio in de sjabloon overschreven, als dit is opgegeven.
 
-   * Naar een programma gaan en vervolgens uitvouwen **Nieuw project**.
+   * Ga naar een programma, dan breid **Nieuw Project** uit.
 
      >[!TIP]
      >
      >Wanneer u een project gebruikend een malplaatje van een programma creeert, werkt het gebied van het Programma van de nieuwe projecten bij om het Programma te tonen u verkoos om het project van tot stand te brengen. Het gebied van het Portfolio van het malplaatje werkt bij om de portefeuille van het programma te tonen u verkoos om het project van tot stand te brengen. Hiermee overschrijft u de velden Programma en Portfolio in de sjabloon, als deze zijn opgegeven.
 
-   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Zie voor meer informatie [Projecten van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
@@ -140,18 +140,18 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
    <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
-   ![Nieuwe projectopties](assets/new-project-dropdown.png)
+   ![ Nieuwe opties van het Project ](assets/new-project-dropdown.png)
 
-1. Klik op de naam van een sjabloon in het dialoogvenster **Favoriete sjablonen** lijst.
+1. Klik de naam van een malplaatje in de **Favoriete malplaatjes** lijst.
 
-   ![Een favoriete sjabloon selecteren](assets/new-project-from-template-dropdown-with-template-favorites.png)
+   ![ selecteer een favoriet malplaatje ](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
    of
 
    Ga als volgt te werk:
 
-   1. Selecteren **Nieuw project van sjabloon**.
-   1. In de **Sjablonen zoeken** , typt u de naam van een sjabloon en klikt u erop wanneer de sjabloon in de lijst wordt weergegeven.
+   1. Selecteer **Nieuw Project van Malplaatje**.
+   1. Op het **gebied van de Malplaatjes van het Onderzoek**, begin de naam van een malplaatje te typen en het te klikken wanneer het in de lijst toont.
    1. Bekijk de sjabloondetails aan de rechterkant.
 
       De sjabloondetails bevatten onder meer de volgende informatie:
@@ -162,34 +162,34 @@ U kunt een project van het gebied van Projecten in het Belangrijkste Menu, of va
       * Het aantal taken in de sjabloon
       * De namen van de aangepaste sjabloonformulieren
 
-   1. (Optioneel) Houd de muisaanwijzer boven de naam van een sjabloon in het linkervenster en klik op de knop **Favorieten** **pictogram** ![](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te merken.
+   1. (Facultatief) Beweeg over de naam van een malplaatjenaam in de linkerruit en klik de **Favorieten** **pictogram** ![](assets/favorites-icon-small.png) om het als favoriet voor toekomstig gebruik te merken.
 
       of
 
-      Breid uit **Favoriete sjablonen** en selecteer een sjabloon in de vervolgkeuzelijst.
+      Breid de **Favoriete malplaatjes** lijst uit en selecteer een malplaatje van de drop-down lijst.
 
       >[!TIP]
       >
       >Je kunt maximaal 40 Workfront-objecten als favorieten laten markeren. Dit omvat sjablonen en andere items.
 
-   1. Klikken **Sjabloon gebruiken** als u een sjabloon hebt geselecteerd.
+   1. Klik **malplaatje van het Gebruik** wanneer u een malplaatje hebt geselecteerd.
 
-      ![Sjabloondetails](assets/new-project-from-template-small-box-with-template-details-panel.png)
+      ![ de details van het Malplaatje ](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
       >[!NOTE]
       >
-      >Als u de mening van de Mijlpaal hebt toegepast op de lijst van projecten, klik de naam van een malplaatje in **Nieuw vanuit gedeelte Sjabloon**.
+      >Als u de Mening van de Mijlpaal hebt die op de lijst van projecten wordt toegepast, klik de naam van een malplaatje in **Nieuw van de sectie van het Malplaatje**.
       >
       >
-      >![De mening van de mijlpaal van het creëren van een project van een malplaatje](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![ de mening van de Mijlpaal van het creëren van een project van een malplaatje ](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
-   De **Nieuw project** wordt geopend.
+   Het **Nieuwe vakje van het Project** opent.
 
-   ![Nieuw projectvak](assets/new-project-from-template-box.png)
+   ![ Nieuwe doos van het Project ](assets/new-project-from-template-box.png)
 
-1. Als een veld al in de sjabloon is ingevuld, wordt het veld vooraf ingevuld in het dialoogvenster **Nieuw project** doos. U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Zie voor meer informatie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
-1. Klikken **Project maken**.
+1. Als een gebied reeds in het malplaatje bevolkt is, is het gebied pre-bevolkt in het **Nieuwe vakje van het Project**. U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Voor meer informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+1. Klik **creëren Project**.
 
    Alle details die in het malplaatje worden bepaald associëren automatisch met het pas gecreëerde project als u hen in de vorige stap niet veranderde.
 
@@ -200,18 +200,18 @@ In plaats van in het gebied van Projecten te beginnen, kunt u een project van ee
 {{step1-to-templates}}
 
 1. Klik op de naam van een sjabloon die u wilt gebruiken.
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op **Project maken**.
+1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **leidt tot Project**.
 
-   ![Project maken van sjabloon](assets/project-sharing-on-template.png)
+   ![ creeer project van malplaatje ](assets/project-sharing-on-template.png)
 
-   De **Nieuw project** wordt geopend.
+   Het **Nieuwe vakje van het Project** opent.
 
 1. Ga een naam voor het project in, herzie dan elke sectie en breng om het even welke noodzakelijke veranderingen aan.
 
-   ![Nieuw projectvak](assets/new-project-from-template-box.png)
+   ![ Nieuwe doos van het Project ](assets/new-project-from-template-box.png)
 
-   Als een veld al in de sjabloon is ingevuld, wordt het veld vooraf ingevuld in het dialoogvenster **Nieuw project** doos. U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Zie voor meer informatie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Als een gebied reeds in het malplaatje bevolkt is, is het gebied pre-bevolkt in het **Nieuwe vakje van het Project**. U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Voor meer informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-1. Klikken **Project maken**.
+1. Klik **creëren Project**.
 
    Alle details die in het malplaatje worden bepaald associëren automatisch met het pas gecreëerde project als u hen in de vorige stap niet veranderde.

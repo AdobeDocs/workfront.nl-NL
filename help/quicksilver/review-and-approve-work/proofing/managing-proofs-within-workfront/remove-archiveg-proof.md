@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Een proefdruk verwijderen
 
-Als u een proefdruk uit een document wilt verwijderen, moet u het hele document verwijderen. Zie voor meer informatie [Documenten verwijderen](../../../documents/managing-documents/delete-documents.md).
+Als u een proefdruk uit een document wilt verwijderen, moet u het hele document verwijderen. Voor meer informatie, zie [ Documenten ](../../../documents/managing-documents/delete-documents.md) schrappen.

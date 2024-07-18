@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in projectbeheer die zijn aangebracht met de versie 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Aangepaste veldopmaak in lijsten
 
@@ -28,9 +28,9 @@ Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - r
 
 Wanneer de systeembeheerder aangepaste formuliervelden maakt die zijn geconfigureerd voor opmaak, kunt u nu tekst opmaken in die velden waarin u ze het meest gebruikt: in lijsten in Workfront. In plaats van naar het gebied Details te gaan om tekst in het aangepaste formulier op te maken, kunt u op een veld in een lijst klikken en daar Vet, Cursief en Onderstrepen op tekst toepassen.
 
-Deze functionaliteit is alleen beschikbaar in de bijgewerkte lijsten. Zie voor meer informatie over bijgewerkte lijsten [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Deze functionaliteit is alleen beschikbaar in de bijgewerkte lijsten. Voor meer informatie over bijgewerkte lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Ga voor informatie over hoe een Workfront-beheerder tekstvelden met opmaak maakt naar [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor informatie over hoe een beheerder van Workfront tekstgebieden met het formatteren creeert, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Het bijgewerkte uiterlijk van verschillende algemene koppen
 
@@ -60,7 +60,7 @@ Naast een bijgewerkte look and feel zijn de volgende verbeteringen beschikbaar i
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-Voor informatie over het nieuwe Edit vakje van het Project, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+Voor informatie over het nieuwe Edit vakje van het Project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Nieuw deelvenster Samenvatting en verbeteringen voor documentenlijst
 
@@ -72,7 +72,7 @@ Het nieuwe deelvenster Samenvatting rechts van de documentenlijst is nu beschikb
 
 Sommige acties zijn momenteel niet beschikbaar, maar worden in een toekomstige versie toegevoegd. Deze acties omvatten de testworkflow.
 
-Zie voor meer informatie [Overzicht van documenten](../../../documents/managing-documents/summary-for-documents.md).
+Voor meer informatie, zie [ Samenvatting voor documentoverzicht ](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Verbeteringen in documentdetails
 
@@ -87,7 +87,7 @@ Ga naar de volgende verbeteringen op de pagina Documentdetails:
 * Grotere voorvertoningsminiatuur, zodat u het document gemakkelijk kunt herkennen
 * Het pictogram Globaal bewerken is toegevoegd, zodat u meerdere velden tegelijk kunt bewerken.
 
-Zie voor meer informatie [Overzicht van documentdetails](../../../documents/managing-documents/document-details-overview.md).
+Voor meer informatie, zie [ Overzicht van de Details van het Document ](../../../documents/managing-documents/document-details-overview.md).
 
 ## Voor beheerders: projectvoorkeuren instellen op groepsniveau
 
@@ -99,7 +99,7 @@ Om uw beheerders van de Groep meer autonomie te geven en voor meer groep-vlakke 
 
 Alle projectvoorkeuren kunnen op groepsniveau worden aangepast, behalve voor Tijdlijnberekeningen en Aangepaste kwartsen.
 
-Voor meer informatie over de Voorkeur van het Project van de Groep, zie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Voor meer informatie over de Voorkeur van het Project van de Groep, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
 
 ## Nieuw voor beheerders: aangepaste formuliervelden maken waarin gebruikers tekst kunnen opmaken
 
@@ -109,9 +109,9 @@ Zie Een aangepast formulier maken in de nieuwe Workfront-ervaring voor meer info
 
 ## Nieuw voor beheerders: zowel een interne naam als een label voor een aangepast formulier maken
 
-Om u meer flexibiliteit te geven bij het labelen en opnieuw labelen van aangepaste formuliervelden, kunt u nu een interne *name* voor een veld naast de gebruikersgerichte *label* je hebt het gebruikt. Zo hebt u de vrijheid om het veldlabel dat uw gebruikers zien te wijzigen zonder de veldnaam die het systeem ziet te wijzigen.
+Om u meer flexibiliteit in het etiketteren van en het opnieuw labelen van de gebieden van de Vorm van de Douane te geven, kunt u een interne *naam* voor een gebied naast het user-Onder ogen ziet *etiket* nu tot stand brengen u hebt gebruikt. Zo hebt u de vrijheid om het veldlabel dat uw gebruikers zien te wijzigen zonder de veldnaam die het systeem ziet te wijzigen.
 
 In het verleden werd het label zowel boven het veld voor gebruikers weergegeven als door het systeem gebruikt om het veld te identificeren. Door het label voor gebruikers te wijzigen, functioneerde het veld dus niet goed waar het werd gebruikt, omdat het systeem het niet meer kon identificeren.
 
-Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor meer informatie, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 

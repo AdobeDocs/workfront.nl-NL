@@ -35,7 +35,7 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
 * U kunt alleen velden maken vanuit de tabelweergave van een recordtypepagina. Velden worden als kolommen weergegeven in de tabelweergave. Alle velden die aan een recordtype zijn gekoppeld, worden ook op de recordpagina weergegeven.
 
-  Voor informatie over het beheren van lijstkolommen (of verslaggebieden), zie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Voor informatie over het beheren van lijstkolommen (of verslaggebieden), zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
   Zie ook de volgende artikelen voor informatie over het beheren van velden:
 
@@ -58,9 +58,9 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Voor meer informatie over het verbinden van verslagtypes, zie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+        Voor meer informatie over het verbinden van verslagtypes, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Door recordtypen te importeren met een Excel- of CSV-bestand. Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+      * Door recordtypen te importeren met een Excel- of CSV-bestand. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    * Automatisch:
 
@@ -79,11 +79,11 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 
         U kunt meer waarden toevoegen of de naam van de bestaande waarden wijzigen.
 
-     Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon. Zie voor meer informatie [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+     Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon. Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 * De gebieden van de Planning van Workfront zijn niet toegankelijk van Workfront.
 
-* Workfront-velden zijn alleen toegankelijk vanuit Workfront Planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Workfront-velden zijn alleen toegankelijk vanuit Workfront Planning wanneer u recordtypen verbindt met Workfront-objecttypen en gekoppelde of opzoekvelden toevoegt uit Workfront-objecten. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 * U kunt de instellingen weergeven en bijwerken voor de velden die u of een andere gebruiker heeft gemaakt, als u beheerdersmachtigingen hebt voor de werkruimte waartoe het veld behoort.
 

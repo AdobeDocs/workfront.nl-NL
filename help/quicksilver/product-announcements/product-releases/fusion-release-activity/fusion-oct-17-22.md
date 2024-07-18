@@ -25,6 +25,6 @@ Omdat elementen in uw Adobe Creative Cloud-bibliotheken vaak gedetailleerd en co
 
 Eerder was het uploaden van bestanden in deze module beperkt tot 5 MB.
 
-Voor meer informatie over de modules van de Bibliotheken van Adobe Creative Cloud, zie [Adobe Creative Cloud-bibliotheekmodules](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Voor meer informatie over de modules van de Bibliotheken van Adobe Creative Cloud, zie {de Modules van de Bibliotheken van 0} Adobe Creative Cloud ](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).[
 
-Voor informatie over andere Workfront Fusion-prestatiehandleidingen, waaronder beperkingen voor bestandsgrootte, raadpleegt u [Adobe Workfront Fusion-prestatiehandleidingen](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Voor informatie over andere de prestatiesgidsen van de Fusie van Workfront, met inbegrip van de grenzen van de dossiergrootte, zie [ de prestatiesgidsen van de Fusie van Adobe Workfront ](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

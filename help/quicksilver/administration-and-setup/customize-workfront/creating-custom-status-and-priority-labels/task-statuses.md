@@ -38,26 +38,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Toegang krijgen tot taakstatussen
 
-Voor informatie over het bewerken van de systeemstatus of het maken van nieuwe aangepaste statussen raadpleegt u [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Voor informatie over het uitgeven van de systeemstatussen of het creëren van nieuwe douanestatus, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Projectvoorkeuren** > **Statussen**.
+1. Klik **Voorkeur van het Project** > **Statussen**.
 
-1. Klik op de knop **Taken** tab.
+1. Klik de **Taken** tabel.
 
    De taakstatussen die beschikbaar zijn in Workfront, worden weergegeven op dit tabblad.
 
    ![](assets/task-status.png)
 
-   Voor details over elk van de ingebouwde statussen van de systeemtaak, zie [Status van systeemtaken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
+   Voor details over elk van de ingebouwde statussen van de systeemtaak, zie [ de taakstatussen van het Systeem ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 
 ## Aangepaste taakstatussen maken
 
@@ -67,4 +67,4 @@ Als eigenaar van een groep kunt u aangepaste taakstatussen toevoegen voor uw gro
 
 Wanneer u een status van een aangepaste taak maakt, moet u de nieuwe status altijd vergelijken met een bestaande systeemstatus. U moet het gedrag van de systeemstatus begrijpen om te weten welke status geschikt is om uw aangepaste status met te vergelijken. Nadat u de gelijkheidsstatus hebt geselecteerd, kan deze selectie niet meer worden gewijzigd.
 
-Ga voor meer informatie over het maken van aangepaste statussen, het bewerken van systeemstatussen of het selecteren van nieuwe standaardstatussen voor uw taken naar [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Voor meer informatie over het creëren van douanestatus, het uitgeven systeemdegenen, of het selecteren van nieuwe standaardstatussen voor uw taken, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.

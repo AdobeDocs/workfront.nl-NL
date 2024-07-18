@@ -48,15 +48,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast formulier kopiëren om een nieuw formulier te maken
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms.**
-1. Selecteer het aangepaste formulier dat u als basis voor een nieuw aangepast formulier wilt gebruiken en klik op ![Pictogram kopiëren](assets/copy-icon.png).
-1. In de **Aangepast formulier kopiëren** Typ de volgende informatie in het vak dat wordt weergegeven:
+1. Klik **Aangepaste Forms.**
+1. Selecteer de douanevorm die u als basis voor een nieuwe douanevorm wilt gebruiken, dan klik ![ pictogram van het Exemplaar ](assets/copy-icon.png).
+1. In het **vakje van het Exemplaar van de Vorm van de Douane** dat verschijnt, typ de volgende informatie:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -68,7 +68,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Formuliertypen </p> </td> 
-      <td> <p>In de <b>Formuliertype</b> Selecteer de objecttypen waarmee u het aangepaste formulier wilt bewerken en klik op de X naast de typen die u wilt verwijderen. Typen die al aan het formulier zijn gekoppeld, worden in de lijst uitgeschakeld.</p> 
+      <td> <p>In het <b> vakje van het Type van Vorm </b>, selecteer de objecten types die u de douanevorm wilt werken met, en klik X naast om het even welke types die u wilt verwijderen. Typen die al aan het formulier zijn gekoppeld, worden in de lijst uitgeschakeld.</p> 
       <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Het formulier moet aan ten minste één objecttype zijn gekoppeld.</p> 
       </td> 
@@ -76,21 +76,21 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     </tbody> 
    </table>
 
-1. Klikken **Kopiëren**.
+1. Klik **Exemplaar**.
 
    Als berekende velden in het oorspronkelijke formulier niet compatibel zijn met een objecttype dat u aan het nieuwe formulier toevoegt, wordt u in een bericht gevraagd de berekeningen in die velden te wijzigen.
 
    Als een toegangsoptie voor een sectie-einde op het oorspronkelijke formulier niet compatibel is met een objecttype dat u toevoegt aan het nieuwe formulier, wordt u in een bericht gevraagd de optie aan te passen.
 
-1. Selecteer het formulier dat u net hebt gekopieerd en klik op **Bewerken**.
+1. Selecteer de vorm die u enkel kopieerde, dan klik **uitgeven**.
 1. Breng wijzigingen aan in het formulier, zoals wordt uitgelegd in de volgende artikelen:
 
-   * [Een aangepast formulier kopiëren om een nieuw formulier te maken met de oudere formulierbuilder](#Add2)
-   * [Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Aangepaste velden en widgets in een aangepast formulier plaatsen met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [ Kopieer een douaneformulier om nieuwe tot stand te brengen met de erfenisvormbouwer ](#Add2)
+   * [ voeg berekende gegevens aan een douanevorm met de bouwer van de erfenisvorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [ de douanegebieden en widgets van de Positie in een douanevorm met de bouwer van de erfenis ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [ voeg of geef activa widget in een douanevorm met de erfenisvormbouwer toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [ hergebruik een bestaand berekend douanegebied in een douanevorm met de bouwer van de erfenisvorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [ voegt vertoningslogica en overslaat logica aan een douanevorm met de bouwer van de erfenisvorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Een aangepast formulier voorvertonen en invullen met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
-1. (Optioneel) Klik op **Opslaan en sluiten** voegt u het formulier toe aan het object waar u het wilt gebruiken, zoals wordt beschreven in [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Facultatief) nadat u **sparen+Close** klikt, maak de vorm aan het voorwerp vast waar u het wilt gebruiken, zoals die in [ wordt beschreven een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.

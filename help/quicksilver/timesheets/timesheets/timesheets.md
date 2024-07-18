@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van tijdbladen](../../timesheets/timesheets/timesheets-overview.md)
+* [ Overzicht van Tijdopnamen ](../../timesheets/timesheets/timesheets-overview.md)
 * [Overzicht van de tijdlijnindeling](../../timesheets/timesheets/timesheet-layout.md)

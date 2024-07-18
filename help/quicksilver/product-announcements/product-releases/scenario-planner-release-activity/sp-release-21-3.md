@@ -7,7 +7,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Adobe Workfront Scenario Planner is alleen beschikbaar met de nieuwe Adobe Workf
 
 De volgende functies zijn opgenomen in de release 21.3:
 
-## De middelen van het project van de begroting in BedrijfsGeval gebruikend informatie van de Planner van het Scenario
+## De middelen van het project van de begroting in BedrijfsGeval gebruikend informatie van de Planner Scenario
 
 >[!NOTE]
 >
 >Deze functie is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring.
 
-Om degenen die het Plan van het Scenario van Adobe Workfront gebruiken één enkele bron van waarheid te geven wanneer het begroten van middelen voor hun projecten, hebben wij op het gebied van de Begroting van het Middel van het BedrijfsGeval van een project geïntroduceerd dat u toestaat om te selecteren of om de Planner van het Middel of Scenario aan begrotingsmiddelen voor het project te gebruiken. Wanneer u verkiest om de Planner van het Scenario te gebruiken, geeft de informatie van de baanrol van het initiatief met betrekking tot het project op het gebied van de Begroting van het Middel van het BedrijfsGeval en berekent de begrote Arbeidskosten van het project.
+Om degenen die het Plan van het Scenario van Adobe Workfront gebruiken één enkele bron van waarheid te geven wanneer het begroten van middelen voor hun projecten, hebben wij op het gebied van de Begroting van het Middel van het BedrijfsGeval van een project geïntroduceerd dat u toestaat om te selecteren of om de Planner van het Middel of de Planner van het Scenario aan begrotingsmiddelen voor het project te gebruiken. Wanneer u verkiest om de Planner van het Scenario te gebruiken, geeft de informatie van de baanrol van het initiatief met betrekking tot het project op het gebied van de Begroting van het Middel van het BedrijfsGeval en berekent de begrote Arbeidskosten van het project.
 
 Dit is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring voor klanten die een licentie voor de Adobe Workfront Scenario Planner hebben aangeschaft.
 
-Zie voor meer informatie [De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Punt- en bestemmingspagina&#39;s maken voor Scenario Planner en Doelen in een lay-outsjabloon
 
@@ -42,6 +42,6 @@ Voorafgaand aan deze verbetering kon u de Planner van het Scenario en het gebied
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [De landingspagina aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [Vastgezette pagina&#39;s aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
+* [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

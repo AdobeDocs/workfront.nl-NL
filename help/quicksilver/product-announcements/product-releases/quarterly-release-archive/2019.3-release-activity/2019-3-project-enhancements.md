@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle wijzigingen beschreven die zijn aangebracht in Projectverbeteringen in de release van 2019.3. Het werd in de week van 19 augustus 2019 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2019 zijn aangebracht, raadpleegt u [Overzicht van releaseactiviteiten 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.3 worden aangebracht, zie [ 2019.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Het weergavetype van een veld in een aangepast formulier wijzigen
 
@@ -30,7 +30,7 @@ Als u een tekstveld Eén regel hebt gemaakt, kunt u dit wijzigen in een tekstvel
 
 Eerder moest u een nieuw veld maken en het oude veld verwijderen om het weergavetype van een aangepast veld te wijzigen. Hiervoor moesten gegevens worden overgedragen, wat vaak tijdrovend was.
 
-Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in het artikel [Een aangepast formulier maken of bewerken](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+Voor meer informatie, zie [ een douaneformulier ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in artikel [ creëren of uitgeven of een douaneformulier ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uitgeven
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ Vóór deze verbetering werden de nieuwe lijsten alleen toegepast op:
 * Een takenlijst
 * Een lijst van projecten
 
-Zie voor informatie over het weergeven van items in een lijst [Aan de slag met lijsten in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over het bekijken van punten in een lijst, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Gantt bewerken zonder een speciale bewerkingsmodus in te schakelen
 
 U kunt het Gantt-diagram van de takenlijst nu bewerken wanneer Automatisch opslaan is ingeschakeld of niet. U kunt wijzigingen niet ongedaan maken wanneer de schakeloptie is ingeschakeld. In dit geval worden de wijzigingen die u in het project aanbrengt, automatisch opgeslagen.
 
-Voor informatie over het uitgeven van de lijst Gantt grafiek van de taaklijst, zie [Informatie bijwerken in de Gantt-grafiek van de takenlijst](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Voor informatie over het uitgeven van de grafiek van Gantt van de taaklijst, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Het tabblad Issues verwijderen van het Kanban-bord
 
@@ -95,8 +95,8 @@ We verwijderen het tabblad Issues uit het Kanban-bord in de 19.3 Production rele
 
 De tabbladen Documenten en Problemen worden verwijderd van de pagina met details voor de eenvoudige iteratie:
 
-* **Documenten:** Alle documenten die op het tabblad Documenten zijn opgeslagen, moeten worden verplaatst vóór de productievrijgave. Als u uw documenten niet verplaatst, hebt u geen toegang meer tot deze documenten.
-* **Problemen:** Dit tabblad bevindt zich meestal in het vervolgkeuzemenu Meer. U kunt het subtabblad Problemen nog steeds openen via het tabblad Werkitems in de herhaling.
+* **Documenten:** Alle documenten die in het lusje van Documenten worden opgeslagen moeten worden bewogen vóór de productiesversie. Als u uw documenten niet verplaatst, hebt u geen toegang meer tot deze documenten.
+* **Kwesties:** Dit lusje wordt over het algemeen gevestigd onder het Meer drop-down menu. U kunt het subtabblad Problemen nog steeds openen via het tabblad Werkitems in de herhaling.
 
 ## Overweeg of negeer gebruikerstijd in taakdata weg
 
@@ -106,9 +106,9 @@ U kunt dit besluit of op het systeemniveau, als beheerder van Workfront, of op h
 
 Vóór deze verandering, de tijd van de Primaire Ontvanger heeft altijd de geplande data van de taak aangepast, als de Beperking van de Taak voor te wijzigen data toestaat.
 
-Voor informatie over het plaatsen van de Tijd van de Gebruiker op systeemniveau, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Voor informatie over de systeem-vlakke Tijd van de Gebruiker van het plaatsen, zie [ systeem-brede projectvoorkeur ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Voor informatie over het project-vlakke de Tijd van de Gebruiker van het plaatsen, zie [Projecten bewerken](../../../../manage-work/projects/manage-projects/edit-projects.md).
+Voor informatie over de project-vlakke Tijd van de Gebruiker van het plaatsen, zie [ projecten ](../../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Ook, als u rechten hebt om een taak of een kwestie uit te geven maar u niet aan 
 
 Voorheen konden Voorwaarden niet worden aangepast of gewijzigd en alleen gebruikers konden de Voorwaarde van een taak of uitgave wijzigen als ze eraan waren toegewezen.
 
-Zie voor meer informatie [Aangepaste voorwaarden](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Voor meer informatie, zie [ de voorwaarden van de Douane ](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Als het object deel uitmaakt van een project, wordt uw opmerking over het docume
 
 Eerder werden opmerkingen voor updates alleen weergegeven op het tabblad Updates voor het document.
 
-Zie de sectie voor meer informatie [Werk bijwerken](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) in het artikel [Werk bijwerken](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie het werk van de sectie [ Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) in het artikel [ Werk van de Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
@@ -171,9 +171,9 @@ Zie de sectie voor meer informatie [Werk bijwerken](../../../../workfront-basics
 
 Wanneer u een gebruiker aan een taak of een kwestie toewijst, kunt u nu een in-linewaarschuwing zien als de geselecteerde gebruiker tijd van geplande tijd tussen de geplande data van de taak of de kwestie heeft.
 
-Voor informatie over het toewijzen van taken raadpleegt u [Taken toewijzen](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+Voor informatie over het toewijzen van taken, zie [ Taken toewijzen ](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Voor informatie over time off, zie [Persoonlijke tijd uit configureren](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Voor informatie over tijd weg, zie [ persoonlijke tijd van ](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Er is een nieuw veldtype gemaakt in de aangepaste formulierbuilder met de naam T
 
 Eerder moesten beheerders handmatig gebruikers onderhouden als afzonderlijke opties in vervolgkeuzemenu&#39;s voor aangepaste formulieren.
 
-Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor meer informatie, zie [ een douaneformulier ](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 >[!NOTE]
 >
@@ -209,5 +209,5 @@ Nu, wanneer u een nieuw verzoek aan een Rij van het Verzoek voorlegt, gaat u de 
 
 Voorafgaand aan deze wijziging voert u de naam van de aanvraag in het veld Onderwerp in.
 
-Voor informatie over het creëren van verzoeken, zie [Workfront-aanvragen maken en verzenden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Voor informatie over het creëren van verzoeken, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 

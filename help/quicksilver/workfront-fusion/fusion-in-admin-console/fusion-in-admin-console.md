@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion]in de [!DNL Adobe Admin Console]
+# [!DNL Adobe Workfront Fusion] in de [!DNL Adobe Admin Console]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] naast een [!DNL Adobe Workfront] licentie.
+>[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront] licentie.
 
 Deze sectie bevat de volgende artikelen:
 
-* [Gebruikers toevoegen aan [!DNL Adobe Workfront Fusion] via de [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
-* [Gebruikers verwijderen in [!DNL Adobe Workfront Fusion] via de [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-* [Verschillen in beheer op basis van platforms ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
-* [[!DNL Adobe Workfront Fusion] op de [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)
+* [ voeg gebruikers aan  [!DNL Adobe Workfront Fusion]  door  [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) toe
+* [Schrap gebruikers in  [!DNL Adobe Workfront Fusion]  door  [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+* [ Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform]) ](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
+* [[!DNL Adobe Workfront Fusion] op de  [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)

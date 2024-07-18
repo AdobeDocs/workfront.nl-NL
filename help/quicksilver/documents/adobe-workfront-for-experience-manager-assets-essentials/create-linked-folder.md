@@ -25,31 +25,31 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-abonnement*</strong>
+   <td><strong> plan* van Adobe Workfront </strong>
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenties*</strong>
+   <td><strong> Adobe Workfront vergunningen* </strong>
    </td>
    <td>Plan
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong> Product </strong>
    </td>
-   <td>Experience Manager Assets moet as a Cloud Service zijn of Assets Essentials bevatten en u moet als gebruiker aan het product worden toegevoegd.
+   <td>U moet Experience Manager Assets as a Cloud Service Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd.
    </td>
   </tr>
   <tr>
-   <td><strong>Machtigingen Experience Manager</strong>
+   <td>{de toestemmingen van 0} Experience Manager </strong><strong>
    </td>
    <td>U moet schrijftoegang tot de bestemmingsomslag in de integratie van de Manager van de Ervaring hebben.
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraties op toegangsniveau</strong>
+   <td><strong> het niveauconfiguraties van de Toegang </strong>
    </td>
    <td>U moet een beheerder van Workfront zijn om een integratie van de Experience Manager te vormen. Nadat het wordt gevormd, kunnen de gebruikers met een vergunning van het Plan opstelling verbonden omslagen op individuele projecten.
    </td>
@@ -64,7 +64,7 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Zie voor meer informatie [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Een gekoppelde map maken
@@ -78,11 +78,11 @@ Een gekoppelde map maken:
 
 
 1. Ga naar het project waar u de omslag wilt.
-1. Selecteren **Nieuwe toevoegen** en ga dan naar de integratie van de Erviteitsmanager uw beheerderopstelling.
+1. Selecteer **toevoegen Nieuw**, dan ga naar de integratie van de Manager van de Ervaring uw beheerderopstelling.
 
    >[!NOTE]
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Experience Manager Assets of Assets Essentials worden niet specifiek genoemd.
 
-1. Selecteren **Gekoppelde map maken**. Het systeem maakt automatisch een map in de Experience Manager op basis van de locatie die is opgegeven bij het instellen van de integratie.
-   ![een gekoppelde map maken](assets/linked-folder.png)
+1. Selecteer **creeer verbonden omslag**. Het systeem maakt automatisch een map in de Experience Manager op basis van de locatie die is opgegeven bij het instellen van de integratie.
+   ![ creeer een verbonden omslag ](assets/linked-folder.png)

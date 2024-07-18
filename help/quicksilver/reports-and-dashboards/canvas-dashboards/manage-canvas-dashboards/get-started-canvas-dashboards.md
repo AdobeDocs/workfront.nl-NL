@@ -5,7 +5,8 @@ title: Aan de slag met canvasdashboards
 description: Basisinstructies voor het gebruik van Canvasdashboards, zoals hoe u naar uw lijst met Canvasdashboards kunt navigeren en hoe u deze kunt maken en bewerken.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -19,47 +20,47 @@ Met Canvasdashboards kunt u uw Adobe Workfront-gegevens gemakkelijk visualiseren
 ## Vereisten
 
 * U moet beschikken over een planlicentie (huidige licenties) of een standaardlicentie (nieuwe licenties) om een Canvas-dashboard te maken.\
-  Zie voor informatie over Workfront-licentietypen [Overzicht van licenties](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) voor lopende vergunningen, en [Overzicht van nieuwe licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) voor nieuwe licenties.
+  Voor informatie over de licentietypen van Workfront, zie [ Overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) voor huidige vergunningen, en [ Overzicht van Nieuwe vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) voor nieuwe vergunningen.
 
 * Uw Workfront-beheerder moet u toegang geven tot het bewerken van dashboards in uw toegangsniveau om een Canvasdashboard te maken of te bewerken.\
-  Voor informatie over het verlenen van Edit toegang voor dashboards, zie [Toegang verlenen tot rapporten, dashboards en kalenders](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Voor informatie over het verlenen geeft toegang voor dashboards uit, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Navigeren naar een canvasdashboard
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards**.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Een lijst met uw canvasdashboards wordt weergegeven onder de **Mijn dashboards** tab. Klik op de naam van een canvasdashboard om het te openen. U kunt ook de Canvasdashboards zien die met u zijn gedeeld in het dialoogvenster **Gedeelde dashboards** en alle andere dashboards op uw Adobe Workfront-exemplaar in de **Alle dashboards** tab.
+1. Een lijst van uw Dashboards van het Canvas zal onder **Mijn Dashboards** tabel verschijnen. Klik op de naam van een canvasdashboard om het te openen. U kunt de Dashboards van het Canvas ook zien die met u in het **Gedeelde Dashboards** lusje, evenals alle andere dashboards op uw instantie van Adobe Workfront in **Alle Dashboards** tabel zijn gedeeld.
 
-1. (Optioneel) Als u vanaf een geopend Canvasdashboard wilt terugkeren naar uw lijst met canvasdashboards, klikt u op **Dashboards** linksboven op de pagina.
+1. (Facultatief) om aan uw lijst van de Dashboards van het Canvas van een open Dashboard van het Canvas terug te keren, klik **Dashboards** in de hoogste-linkerhoek van de pagina.
 
 ## Nieuw canvasdashboard maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards**.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Klik op de knop **+ Nieuw dashboard** in de rechterbovenhoek van de pagina
+1. Klik op de knop **+ Nieuw dashboard** rechtsboven op de pagina.
 
-1. Voer een **Naam** en **Beschrijving** voor het nieuwe canvasdashboard klikt u op **Maken**.
+1. Ga a **Naam** en **Beschrijving** voor uw nieuw Dashboard van het Canvas in, dan klik **creeer**.
 
-1. In de **Rapport toevoegen** venster dat wordt weergegeven, kunt u het eerste rapport toevoegen aan het nieuwe canvasdashboard door op het **Toevoegen** onder het type rapport dat u wilt toevoegen. U kunt het venster ook sluiten door te klikken op de knop **Annuleren** in de rechterbovenhoek als u wilt wachten om een rapport toe te voegen. Ga voor meer informatie over het toevoegen, verwijderen en bewerken van de lay-out van rapporten in een Canvas-dashboard naar [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+1. In **voeg rapport** venster toe dat verschijnt, kunt u het eerste rapport aan uw nieuw Dashboard van het Canvas toevoegen door op **te klikken voeg** knoop onder het type van rapport toe u zou willen toevoegen. U kunt het venster ook sluiten door **te klikken annuleert** knoop in de hoger-juiste hoek als u zou willen wachten om een rapport toe te voegen. Voor meer informatie bij het toevoegen van, het verwijderen van en het uitgeven van de lay-out van rapporten in een Dashboard van het Canvas, zie [ toevoegen, verwijderen, of rangschikken rapporten in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
 
 ## De naam of beschrijving van een canvasdashboard bewerken
 
-1. Open het canvasdashboard waarvan u de naam of beschrijving wilt bewerken, zoals wordt beschreven in [Navigeren naar een canvasdashboard](#navigate-to-a-canvas-dashboard) hierboven.
+1. Open het dashboard van het Canvas waarvan u de naam of de beschrijving zou willen uitgeven, zoals die in [ wordt beschreven navigeer aan een Dashboard van het Canvas ](#navigate-to-a-canvas-dashboard) hierboven.
 
-1. Klik op de knop **Eigenschappen van dashboard** in de linkerbovenhoek van de pagina naast de naam van het canvasdashboard.
+1. Klik het **eigenschappen van het Dashboard** pictogram naast de naam van het Dashboard van het Canvas in de upper-left hoek van de pagina.
 
-1. In het venster dat wordt weergegeven, kunt u de opdracht **Naam** en **Beschrijving** informatie voor het dashboard van het Canvas. Klik op **Opslaan**.
+1. In het venster dat verschijnt, kunt u de **Naam** uitgeven en **Beschrijving** informatie voor uw Dashboard van het Canvas. Wanneer u wordt gebeëindigd, klik **sparen**.
 
 ## Een canvasdashboard verwijderen
 
-1. Open het canvasdashboard dat u wilt verwijderen, zoals beschreven in [Navigeren naar een canvasdashboard](#navigate-to-a-canvas-dashboard) hierboven.
+1. Open het dashboard van het Canvas dat u, zoals die in [ wordt beschreven aan een Dashboard van het Canvas ](#navigate-to-a-canvas-dashboard) hierboven zou willen schrappen.
 
 1. Klik op de naam van het canvasdashboard dat u wilt verwijderen in de lijst met dashboards die wordt weergegeven.
 
-1. Klik op de knop **Meer** in de rechterbovenhoek van de pagina en klikt u op **Dashboard verwijderen**.
+1. Klik de **Meer** knoop in de hoger-juiste hoek van de pagina, dan klik **Dashboard van de Schrapping**.
 
-1. Schakel in het venster dat wordt weergegeven het selectievakje in om te bevestigen dat u het dashboard Canvas wilt verwijderen en klik vervolgens op **Verwijderen**.
+1. In het venster dat verschijnt, controleer de doos om u te bevestigen zou willen schrappen het Dashboard van het Canvas, dan **Schrapping** klikken.

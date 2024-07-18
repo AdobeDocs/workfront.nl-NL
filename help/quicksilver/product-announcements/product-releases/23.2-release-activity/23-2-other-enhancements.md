@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [ 23.2 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nieuw bij de Workfront for Creative Cloud plug-ins
 
@@ -26,7 +26,7 @@ De volgende wijzigingen zijn toegevoegd aan de Workfront for Creative Cloud-plug
 * De insteekmodule waarschuwt u nu wanneer een taak een voorganger heeft
 * Koreaans is nu een ondersteunde taal
 
-## Nieuwe ervaring met opmerkingen voor bètaproblemen
+## Nieuwe ervaring met opmerkingen voor Beta
 
 Momenteel wordt een update van de opmerkingervaring in Adobe Workfront ontwikkeld. Deze update bevat een nieuwe interface, nieuwe functies en verbeterde prestaties in de sectie Updates van sommige objecten.
 
@@ -50,9 +50,9 @@ Met dit nieuwe ontwerp hebben we het toevoegen van opmerkingen aan systeemupdate
 
 In toekomstige versies worden meer functies toegevoegd, aangezien deze verbeteringen nog steeds aan andere objecten worden toegevoegd.
 
-Voor informatie over wat de nieuwe opmerkingervaring aanbiedt, raadpleegt u [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor informatie over wat de nieuwe het becommentariëren ervaring aanbiedt, zie [ Nieuwe het becommentariëren ervaring ](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3416962/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD
 
@@ -60,8 +60,8 @@ In de Adobe Workfront for XD-plug-in kunt u uw tekengebieden nu exporteren als �
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Uploaden [!DNL XD] tekengebieden als documenten naar [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [Uploaden [!DNL XD] tekengebieden als proefdrukken naar [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [Upload  [!DNL XD]  kunstborden als documenten aan  [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Upload  [!DNL XD]  kunstraad als proef aan  [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## Netto nieuwe klanten die aan Adobe Verenigde Ervaring moeten worden bezeten
 
@@ -75,9 +75,9 @@ De Adobe Verenigde Ervaring omvat:
 * Een &quot;bedrijfsswitch&quot; om te schakelen tussen Workfront-organisaties en -omgevingen
 * Navigatie met opties voor Workfront-pagina&#39;s, Adobe Experience Cloud-voorkeuren en uw Workfront-profiel
 
-Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## De proefdrukviewer wordt geopend op een nieuw tabblad voor gebruikers met de Unified Experience
 

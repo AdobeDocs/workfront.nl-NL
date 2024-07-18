@@ -33,12 +33,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Een groep verplaatsen onder een andere groep
 
@@ -48,16 +48,16 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 >
 >Als de status van de verplaatste groep ontgrendeld is, worden de statussen van de nieuwe bovenliggende groep niet overgenomen en neemt de nieuwe bovenliggende groep de status niet over.
 >
->Voor meer informatie over groepsstatussen raadpleegt u [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) en [Een groepsstatus maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Voor meer informatie over groepsstatussen, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven en [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
-1. Selecteer de doelgroep waarnaar u de groep wilt verplaatsen en klik op het pictogram Bewerken ![](assets/edit-icon.png).
-1. In de **Groep bewerken** vak dat wordt weergegeven onder **Groepsleden en groepbeheerders** typt u de naam van de groep die u wilt verplaatsen en klikt u erop wanneer deze wordt weergegeven.
-1. Klikken **Opslaan**.
+1. Selecteer de doelgroep waarnaar u de groep wilt verplaatsen en klik op het pictogram Bewerken ![](assets/edit-icon.png) .
+1. In **geef de doos van de Groep** uit die, onder **Leden van de Groep en de Beheerders van de Groep** verschijnt, begin de naam van de groep te typen u wilt bewegen, dan het klikken wanneer het verschijnt.
+1. Klik **sparen**.
 
 >[!TIP]
 >
->U kunt een subgroep ook tot een groep op hoofdniveau maken. Zie de sectie [Een subgroep verwijderen uit de bovenliggende groep en deze maken tot een groep op hoofdniveau](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>U kunt een subgroep ook tot een groep op hoofdniveau maken. Voor instructies, zie de sectie [ een subgroep uit zijn oudergroep verwijderen en het maken een top-level groep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [ beheren een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Met deze instellingen kunt u standaardwaarden instellen die van toepassing zijn op alle nieuwe proefdrukken die door uw gebruikers worden gemaakt. Gebruikers kunnen de meeste van deze instellingen echter overschrijven bij het maken van een proefdruk.
 
-## Nieuwe standaardinstellingen voor proefdrukken configureren
+## Nieuwe standaardproefinstellingen configureren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen**.
-1. Klik in het linkerdeelvenster op **Proefdrukken** > **Proefinstellingen**.
-1. In de **Nieuwe standaardwaarden voor proefdrukken** de volgende instellingen configureren:
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling**.
+1. In het linkerpaneel, klik **Proefdrukken** > **montages van het Bewijs**.
+1. In de **Nieuwe proefdrukgebreken** sectie, vorm de volgende montages:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -34,7 +34,7 @@ Met deze instellingen kunt u standaardwaarden instellen die van toepassing zijn 
      </tr> 
      <tr> 
       <td role="rowheader">Aanmelding vereisen</td> 
-      <td> <p>Revisoren moeten zich met hun e-mail en wachtwoord aanmelden voordat ze de proefdrukken kunnen bekijken die in de account van uw organisatie zijn gemaakt. Als deze optie is ingeschakeld, kunnen gebruikers de proefdruk niet delen met gastrevisoren.</p> <p><b>BELANGRIJK</b>: Als deze optie is ingeschakeld, moet u zich aanmelden voor alle nieuwe proefdrukken.</p> </td> 
+      <td> <p>Revisoren moeten zich met hun e-mail en wachtwoord aanmelden voordat ze de proefdrukken kunnen bekijken die in de account van uw organisatie zijn gemaakt. Als deze optie is ingeschakeld, kunnen gebruikers de proefdruk niet delen met gastrevisoren.</p> <p><b> BELANGRIJK </b>: Wanneer toegelaten, login wordt vereist voor alle pas gecreëerde proefdrukken.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Eigenaar kopiëren uit oorspronkelijke proefversie voor nieuwe versies</td> 
@@ -46,7 +46,7 @@ Met deze instellingen kunt u standaardwaarden instellen die van toepassing zijn 
      </tr> 
      <tr> 
       <td role="rowheader">Vereisen dat besluiten elektronisch worden ondertekend </td> 
-      <td> <p>Besluitvormers wordt gevraagd hun aanmeldingsgegevens voor Workfront in te voeren wanneer zij een besluit nemen over een bewijs.</p> <p><b>BELANGRIJK</b>: Als deze optie is ingeschakeld, kunnen gebruikers de proefdruk niet delen met gastrevisoren die geen aanmeldingsgegevens hebben.</p> </td> 
+      <td> <p>Besluitvormers wordt gevraagd hun aanmeldingsgegevens voor Workfront in te voeren wanneer zij een besluit nemen over een bewijs.</p> <p><b> BELANGRIJK </b>: Wanneer toegelaten, kunnen de gebruikers niet het bewijs met de recensenten van de Gast delen die login geloofsbrieven niet hebben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"><b>Deadline</b></td> 
@@ -69,7 +69,7 @@ Met deze instellingen kunt u standaardwaarden instellen die van toepassing zijn 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Proofingbeslissingen configureren
 
@@ -81,25 +81,25 @@ Gebruikers kunnen de status van het bewijs na controle aangeven aan de hand van 
 
 Om proefdrukbesluiten te vormen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen**.
-1. Klik in het linkerdeelvenster op **Proefdrukken** > **Proefinstellingen**.
-1. In de **Besluiten** sectie, kunt u
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling**.
+1. In het linkerpaneel, klik **Proefdrukken** > **montages van het Bewijs**.
+1. In de **sectie van Besluiten**, kunt u
 
-   1. **Naam van de beslissing wijzigen**: Klik op de tekst in het beslissingsvak en typ het nieuwe beslissingslabel.
+   1. **noem het besluit** anders: Klik op de tekst binnen de besluitvormingsdoos, en begin typend het nieuwe besluitvormingsetiket.
 
       >[!TIP]
       >
-      >Behoud de logica voor een besluit wanneer u het anders noemt. De standaardbeslissing Afgewezen kan bijvoorbeeld worden gewijzigd in *Nieuwe versie vereist*, maar het mag niet worden gewijzigd in *Naar printers verzenden*.
+      >Behoud de logica voor een besluit wanneer u het anders noemt. Bijvoorbeeld, kon het afgewezen standaardbesluit in *Nieuwe vereiste versie* worden veranderd, maar het zou niet moeten worden veranderd in *verzenden naar Printers*.
 
       ![](assets/rename-decision-350x109.png)
 
-   1. **De beslissingsvolgorde wijzigen**: Sleep de beslissingsvakken in de volgorde waarin u ze wilt weergeven in de proefdrukviewer.
+   1. **herschikt de besluitvormingsorde**: Sleep de besluitvormingsvakjes in de orde u hen in de het proef kijker wilt verschijnen.
 
       ![](assets/move-decision-350x110.png)
 
-   1. **Een beslissing verbergen**: Houd de cursor boven het beslissingsvak en klik op het pictogram Verbergen in de rechterbovenhoek.
+   1. **verberg een besluit**: Beweeg over de besluitvormingsdoos, en klik het pictogram van de Huid in de hoger-juiste hoek.
 
       ![](assets/hide-decision-350x109.png)
 
-1. (Optioneel) Klik op **Standaardinstellingen herstellen**.
-1. Klikken **Opslaan**.
+1. (Facultatief) om terug naar de gebreken van Workfront te gaan, klik **herstellen gebreken**.
+1. Klik **sparen**.

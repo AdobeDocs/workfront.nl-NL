@@ -43,27 +43,27 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document beheren</p> <p>Toestemming om Documenten aan het nieuwe voorwerp toe te voegen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het document beheren</p> <p>Toestemming om Documenten aan het nieuwe voorwerp toe te voegen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een document verplaatsen
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik op de knop **Verplaatsen** pictogram ![](assets/move-document--25x19.png).
-1. Klik in het keuzemenu in het vak dat wordt weergegeven op **Probleem**, **Project** of **Taak** om het type object aan te geven waar u het document wilt verplaatsen. 
+1. Klik het **pictogram van de Beweging** ![](assets/move-document--25x19.png).
+1. Van het drop-down menu in de doos die verschijnt, klik **Uitgeven**, **Project** of **Taak** om op het type van voorwerp te wijzen waar u het document wilt bewegen. 
 
-1. Typ de naam van de **Probleem**, **Project** of **Taak** in het tekstvak.
+1. Typ de naam van de **Uitgave**, **Project** of **Taak** in het tekstvakje.
 
-1. Klikken **Voltooien**.
+1. Klik **Afwerking**.
 
 U kunt een document ook verplaatsen vanaf de pagina Documentdetails. Zie het artikel voor meer informatie.

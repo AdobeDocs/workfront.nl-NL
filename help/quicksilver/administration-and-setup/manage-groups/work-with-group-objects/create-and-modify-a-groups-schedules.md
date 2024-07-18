@@ -21,13 +21,13 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u beki
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor algemene informatie over het creëren van en het uitgeven van een programma, zie [Een schema maken](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Voor algemene informatie over het creëren van en het uitgeven van een programma, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 >[!NOTE]
 >
 >Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen een schema op systeemniveau of op groepsniveau aan een andere gebruiker toevoegen wanneer deze het profiel van die gebruiker bewerkt.
 
-Voor informatie over hoe de programma&#39;s in middelplanning worden gebruikt, zie [Overzicht van schema&#39;s](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [Overzicht van de bronnenplanner](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [ Overzicht van Programma&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [ overzicht van de Planner van het Middel ](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Toegangsvereisten
 
@@ -43,25 +43,25 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## De schema&#39;s voor een groep maken of wijzigen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Groepen**.
+1. Klik **Groepen**.
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik de naam van de groep waar u programma&#39;s wilt bekijken.
-1. Klik in het linkerdeelvenster op **Planningen**.
+1. In het linkerpaneel, klik **Programma&#39;s**.
 1. Voer een van de volgende handelingen uit:
 
-   * Klikken **Nieuw schema** om een nieuw programma te creëren
-   * Selecteer een schema en gebruik vervolgens de besturingselementen op de werkbalk om **Bewerken**, **Kopiëren**, of **Verwijderen** het.
-   * **Exporteren** de lijst van schema&#39;s voor de groep.
+   * Klik **Nieuw Programma** om een nieuw programma tot stand te brengen
+   * Selecteer een programma, dan gebruik de controles op de toolbar om **uit te geven**, **Exemplaar**, of **schrap** het.
+   * **de Uitvoer** de lijst van programma&#39;s voor de groep.

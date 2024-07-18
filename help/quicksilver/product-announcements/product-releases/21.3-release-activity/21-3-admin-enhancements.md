@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.3 [21.3 Overzicht van de release](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ overzicht van de Versie 21.3 ](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Blauwdrukken beschikbaar in Productie met release 21.3
 
@@ -25,9 +25,9 @@ De blauwdrukken-functionaliteit is over het algemeen beschikbaar met de 21.3 Pro
 
 De blauwdrukken verstrekt basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen installeren.
 
-Zie voor meer informatie [Overzicht van blauwdrukken](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Voor meer informatie, zie [ Overzicht van Vervagen ](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Projectsjablonen in de nieuwe Workfront-ervaring](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) leerpad op Workfront One.
+Deze eigenschap is nu inbegrepen in de [ malplaatjes van het Project in de nieuwe ervaring van Workfront ](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) het leren weg op Workfront Één.
 
 ## Nieuw voor groepsbeheerders: statussen voor een groep op elk niveau maken en beheren
 
@@ -43,13 +43,13 @@ Workfront-beheerders kunnen dit ook doen (voor alle groepen).
 
 Eerder was deze functionaliteit alleen beschikbaar voor groepen op hoofdniveau.
 
-Zie voor meer informatie [Groepsstatussen beheren](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Voor meer informatie, zie [ groepsstatussen beheren ](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
 ## Nieuw voor beheerders: een aangepast formulier voor factureringsrecords maken
 
 Nu kunt u de manier verbeteren waarop gebruikers factureringsgegevens vastleggen door een aangepast factureringsformulier te maken. Gebruikers kunnen het aangepaste formulier aan een factureringsrecord koppelen, het invullen en rapporten uitvoeren die de informatie in het formulier bevatten.
 
-Zie voor informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
-Voor informatie over het vastmaken van een het facturerings verslag douaneformulier aan een project, zie [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Voor informatie over het vastmaken van een het facturerings de douaneformulier aan een project, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 

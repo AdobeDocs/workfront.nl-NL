@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfront-browservereisten
-description: Zowel Adobe Workfront als Workfront Proof vereisen het gebruik van een internetbrowser.
+description: Zowel Adobe Workfront als Workfront Proof hebben het gebruik van een internetbrowser nodig.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Zowel Adobe Workfront als Workfront Proof vereisen het gebruik van een internetbrowser.
+Zowel Adobe Workfront als Workfront Proof hebben het gebruik van een internetbrowser nodig.
 
 ## Browsers Workfront-ondersteuning
 
-* **Webbrowser:** Workfront biedt officieel ondersteuning voor de huidige browserversie en een eerdere versie (en een eerdere versie die ten minste vijf procent van het totale Workfront-verkeer uitmaakt) voor de volgende browsers:
+* **browser van het Web:** Workfront steunt officieel de huidige browser versie en één vorige versie (en om het even welke vorige versie die minstens vijf percenten van totaal Workfront verkeer) voor volgende browsers vormt:
 
-   * Chroom
+   * Chrome
    * Firefox
    * Safari
-   * Microsoft Edge (niet Microsoft Edge Legacy)
+   * Microsoft Edge (niet Microsoft Edge verouderd)
 
   >[!NOTE]
   >
@@ -34,12 +34,12 @@ Zowel Adobe Workfront als Workfront Proof vereisen het gebruik van een internetb
 
 ## Browsers Workfront biedt geen ondersteuning
 
-* **Internet Explorer 11** wordt niet meer ondersteund vanaf de release van 21.2 (mei 2021).
+* **Internet Explorer 11** wordt niet meer gesteund vanaf 21.2 versie (Mei 2021).
 
-* **Internet Explorer 7, 8, 9 en 10**: Microsoft heeft op 12 januari 2016 alle ondersteuning voor IE 7 en IE 8 stopgezet (inclusief ernstige beveiligingsrisico&#39;s). Daarnaast zijn IE 9 en IE 10 in de meeste gevallen ook stopgezet. De redenering van Microsoft achter dit besluit was gebaseerd op de aanzienlijke veiligheidsproblemen met de architectuur van deze browsers die de gebruikers ernstig zouden kunnen treffen.
-  >Zie de klasse [Veelgestelde vragen over levenscyclus - Internet Explorer en Microsoft Edge](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer) op de Microsoft Support-site. <!--the title of this page changes; ensure accuracy-->
+* **versies 7, 8, 9, en 10 van de Ontdekkingsreiziger van Internet**: Microsoft beëindigde alle steun (met inbegrip van ernstige veiligheidskwetsbaarheid) voor IE 7 en IE 8 op 12 Januari, 2016. Daarnaast zijn IE 9 en IE 10 in de meeste gevallen ook stopgezet. De redenering van Microsoft achter dit besluit was gebaseerd op de aanzienlijke veiligheidsproblemen met de architectuur van deze browsers die de gebruikers ernstig zouden kunnen treffen.
+  >Voor meer informatie, zie [ Veelgestelde vragen van de Levenscyclus - Internet Explorer en Microsoft Edge ](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer) op de plaats van de Steun van Microsoft. <!--the title of this page changes; ensure accuracy-->
 
-* **Browsers op een mobiel apparaat:** Workfront biedt geen ondersteuning voor browsers op mobiele apparaten. Gebruik in plaats daarvan de mobiele Workfront-apps die zowel voor iOS als voor Android beschikbaar zijn. Zie voor meer informatie [De mobiele Adobe Workfront-app gebruiken](../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+* **Browsers op een mobiel apparaat:** Workfront steunt geen browsers op een mobiel apparaat. Gebruik in plaats daarvan de mobiele Workfront-apps die zowel voor iOS als voor Android beschikbaar zijn. Voor meer informatie, zie [ Gebruik mobiele app van Adobe Workfront ](../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
 
 

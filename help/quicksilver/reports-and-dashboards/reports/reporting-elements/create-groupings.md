@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Groepen maken in Adobe Workfront
-description: U kunt een nieuwe aangepaste groep maken of een bestaande groep aanpassen.
+description: U kunt een aangepaste groepering helemaal opnieuw maken of een bestaande groepering aanpassen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 De resultaten van een rapport of een lijst kunnen met een groepering worden georganiseerd. Groepen categoriseren informatie op basis van een bepaalde informatie.
 
-U kunt een nieuwe aangepaste groep maken of een bestaande groep aanpassen. Voer de onderstaande stappen uit om een geheel nieuwe groep te maken.
+U kunt een aangepaste groepering helemaal opnieuw maken of een bestaande groepering aanpassen. Voer de onderstaande stappen uit om een geheel nieuwe groep te maken.
 
 ## Toegangsvereisten
 
@@ -41,33 +41,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een groep in een rapport te maken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een groep in een rapport te maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten beheren voor een rapport om een groep in een rapport te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor een rapport om een groep in een rapport te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een groep maken
 
 1. Ga naar het rapport of de lijst waar u uw douanegroep wilt tot stand brengen.
-1. Klik op de knop **Groepering** pictogram.
+1. Klik het **Groeperen** pictogram.
 
-   ![Nieuwe groepering selecteren](assets/newgrouping-nwe-standard-350x304.png)
+   ![ Uitgezochte Nieuwe Groepering ](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Klikken **Nieuwe groepering**.
+1. Klik **Nieuwe Groepering**.
 De interfacebouwer voor het creëren van de groeperingslanceringen.
 
-1. In de **Voorvertoning groeperen** sectie, klikt u op **Groepering toevoegen** om te bepalen hoe u informatie in het rapport wilt worden georganiseerd. Hieronder ziet u een voorbeeld van hoe de groep er in het rapport uitziet.
+1. In de **sectie van de Voorproef van de Groepering**, klik **Voeg Groepering** toe om te bepalen hoe u informatie in het rapport wilt worden georganiseerd. Hieronder ziet u een voorbeeld van hoe de groep er in het rapport uitziet.
 
 1. Typ de naam van het veld dat de manier aangeeft waarop u de gegevens in het rapport wilt indelen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-1. (Optioneel en voorwaardelijk) Selecteer bij het samenstellen van een groep in een bijgewerkte lijst de optie **Deze groep standaard samenvouwen** als u wilt dat de resultaten in de groep worden samengevouwen in plaats van uitgevouwen. Deze instelling is standaard uitgeschakeld en de resultaten van de groepering worden altijd weergegeven in de uitgevouwen lijst.
+1. (Facultatief en voorwaardelijk) wanneer het bouwen van een groepering in een bijgewerkte lijst, uitgezochte **Vouw deze groepering door gebrek** samen als u de resultaten in de groepering wilt doen ineenstorten eerder dan uitgevouwen tonen. Deze instelling is standaard uitgeschakeld en de resultaten van de groepering worden altijd weergegeven in de uitgevouwen lijst.
 
-   Zie de sectie voor informatie over bijgewerkte en verouderde lijsten [Het verschil tussen de bijgewerkte en de oudere lijsten](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in het artikel [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Voor informatie over bijgewerkte en erfenislijsten, zie het sectie [ Het verschil tussen de bijgewerkte en erfenislijsten ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in het artikel [ worden begonnen met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -78,18 +78,17 @@ De interfacebouwer voor het creëren van de groeperingslanceringen.
    >* Wanneer u groepen handmatig aanpast wanneer u een lijst weergeeft, onthoudt Workfront uw handmatige voorkeur totdat u zich afmeldt. Wanneer u zich weer aanmeldt, wordt de lijst weergegeven volgens deze instelling.
    >* De resultaten van een groepering tonen altijd uitgevouwen na de toegang tot hen van een grafiekelement of in een erfenislijst. In deze gevallen wordt deze instelling genegeerd.
 
-
 1. Herhaal stap 4, 5 en 6 om extra groepen te definiëren.\
-   U kunt maximaal drie groepen definiëren voor het ordenen van informatie. U kunt uw gegevens verder ordenen met maximaal vier groepen door een matrixrapport te maken. Voor meer informatie over matrixrapporten raadpleegt u [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   U kunt maximaal drie groepen definiëren voor het ordenen van informatie. U kunt uw gegevens verder ordenen met maximaal vier groepen door een matrixrapport te maken. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
-1. Klikken **Groepering opslaan**.
+1. Klik **sparen Groepering**.
 
 ## Aanvullende informatie
 
 Zie ook:
 
-* [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [Elementen rapporteren: filters, weergaven en groepen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Bestaande groepen bewerken](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 8 november 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Een recordmodule die nu beschikbaar is voor Workfront-connector converteren
 
@@ -32,4 +32,4 @@ Wij hebben een module voor één van de gemeenschappelijkste acties beschikbaar 
 
 Eerder waren deze conversies alleen beschikbaar via de module Diverse acties.
 
-Zie voor meer informatie [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

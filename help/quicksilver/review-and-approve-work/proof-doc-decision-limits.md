@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers
 
-Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Zie voor meer informatie [Overzicht van nieuwe licenties](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Voor meer informatie, zie [ Nieuw vergunningsoverzicht ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebruikers. De beslissingslimieten voor elke licentie verschillen afhankelijk van het abonnement waarop u werkt:
 
@@ -23,17 +23,17 @@ Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebru
   <tr>
    <td> 
    </td>
-   <td><strong>Extern</strong> 
+   <td><strong> Extern </strong> 
    </td>
-   <td><strong>Medewerker</strong> 
+   <td><strong> Medewerker </strong> 
    </td>
-   <td><strong>Licht</strong> 
+   <td><strong> Licht </strong> 
    </td>
-   <td><strong>Standaard</strong> 
+   <td><strong> Standaard </strong> 
    </td>
   </tr>
   <tr>
-   <td><strong>Selecteren</strong> 
+   <td><strong> Uitgezocht </strong> 
    </td>
    <td>3 
    </td>
@@ -45,7 +45,7 @@ Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebru
    </td>
   </tr>
   <tr>
-   <td><strong>Eerste</strong> 
+   <td><strong> eerste </strong> 
    </td>
    <td>5 
    </td>
@@ -53,7 +53,7 @@ Beperkingen worden elke maand opnieuw ingesteld op basis van afzonderlijke gebru
    </td>
   </tr>
   <tr>
-   <td><strong>Ultieme</strong> 
+   <td><strong> Ultimate </strong> 
    </td>
    <td>7 
    </td>
@@ -68,7 +68,7 @@ Als een externe gebruiker zijn beslissingslimiet bereikt, zal hij of zij de toeg
 
 ## Gebruikers van contribuanten
 
-Zodra een gebruiker met een Medewerker- vergunning hun beslissingsgrens bereikt, zullen zij automatisch aan de Lichte vergunning met onbeperkte bewijs en documentbesluiten worden bevorderd. Voor meer informatie over de Lichte vergunning, zie [Lichttoegangsniveau](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) in de [Overzicht van toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artikel.
+Zodra een gebruiker met een Medewerker- vergunning hun beslissingsgrens bereikt, zullen zij automatisch aan de Lichte vergunning met onbeperkte bewijs en documentbesluiten worden bevorderd. Voor meer informatie over de Lichte vergunning, zie de [ Lichte toegangsniveau ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) sectie in het [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artikel.
 
 >[!NOTE]
 >
@@ -77,4 +77,4 @@ Zodra een gebruiker met een Medewerker- vergunning hun beslissingsgrens bereikt,
 
 ## Het aantal beslissingen voor een gebruiker weergeven
 
-U kunt het aantal beslissingen voor een gebruiker weergeven in het gedeelte Gebruikers van Workfront. Zie voor meer informatie [Het aantal beslissingen voor alle gebruikers weergeven](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+U kunt het aantal beslissingen voor een gebruiker weergeven in het gedeelte Gebruikers van Workfront. Voor meer informatie, zie [ Mening het aantal besluiten voor alle gebruikers ](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

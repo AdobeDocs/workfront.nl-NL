@@ -2,27 +2,27 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Weergave: percentage gebruikersrol van beschikbaarheid van FTE'
-description: U kunt een kolom aan de mening van een gebruikerslijst toevoegen om een lijst van de Rollen van de Baan te tonen de gebruiker met evenals het percentage van VTE beschikbaarheid voor elke baanrol wordt geassocieerd, zoals die in het gebruikersprofiel wordt bepaald.
+title: '''Weergeven: rolpercentage van gebruiker in beschikbaarheid FTE''s'''
+description: U kunt een kolom toevoegen aan de weergave van een gebruikerslijst om een lijst weer te geven met de functies waaraan de gebruiker is gekoppeld en het percentage beschikbare FTE's voor elke functie, zoals is gedefinieerd in het gebruikersprofiel.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
-# Weergave: Percentage gebruikersrol rol van beschikbaarheid van FTE
+# Weergave: percentage gebruikersrol van FTE-beschikbaarheid
 
 U kunt een kolom aan de mening van een gebruikerslijst toevoegen om een lijst van de Rollen van de Baan te tonen de gebruiker met evenals het percentage van VTE beschikbaarheid voor elke baanrol wordt geassocieerd, zoals die in het gebruikersprofiel wordt bepaald.
 
-Voor informatie over het bepalen van het percentage van VTE beschikbaarheid voor gebruikers, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Voor informatie over het bepalen van het percentage van VTE beschikbaarheid voor gebruikers, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ![user_with_percent_avialbility_per_role.png](assets/user-with-percent-avialbility-per-role-350x138.png)
 
-## Toegangsvereisten
+## Vereisten voor toegang
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -31,42 +31,41 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-lidmaatschap*</td> 
+   <td> <p>Enig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Verzoek om een weergave te wijzigen </p>
+   <td> <p>Verzoek voor het wijzigen van een weergave </p>
    <p>Plan om een rapport te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>NOTITIE</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als je nog steeds geen toegang hebt, vraag je je Workfront-beheerder of deze extra beperkingen instelt voor je toegangsniveau. Zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus</a> maken of wijzigen voor informatie over de wijze waarop een Workfront-beheerder je toegangsniveau kan wijzigen.</p> </td>
 </tr>   
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen voor een rapport beheren</p> <p>Zie Toegang aanvragen tot objecten </a>voor meer informatie over het aanvragen van aanvullende toegang<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42;Neem contact op met je Workfront-beheerder als je wilt kijken welk lidmaatschap, welk licentietype of welke toegang je hebt.
 
-## Het percentage van de Rol van de Taak van de gebruiker van de Mening van VTE beschikbaarheid
+## Het percentage functies van gebruiker in de beschikbaarheid van FTE&#39;s weergeven
 
 1. Ga naar een lijst met gebruikers.
-1. Van de **Weergave** vervolgkeuzelijst, selecteert u **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 
-1. In de **Kolomvoorvertoning** gebied, klikken **Kolom toevoegen**.
+1. In het **gebied van de Voorproef van de Kolom**, klik **voegt Kolom** toe.
 
-1. Klik op de kop van de nieuwe kolom en klik vervolgens op **Overschakelen naar tekstmodus**.
-1. Plaats de muis boven het gebied in de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
+1. Klik op de koptekst van de nieuwe kolom en klik vervolgens op Overschakelen naar **de tekstmodus**.
+1. Plaats de muis boven het tekstmodusgebied en klik op **Klik om de tekst** te bewerken.
+1. Verwijder de tekst die u vindt in het **vak Tekstmodus** en vervang deze door de volgende code:
+   <pre>displayname=Roles Time Percentage<br>listdelimiter=<p><br>listmethod=nested(userRoles).lists<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({role},'-',{timePercentage}'%')<br>valueformat=HTML</pre>
 
-   <pre>displayname=Roltijd Percentage<br>listdelimiter=<p><br>listmethod=nested(userRoles).lists<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({role},'-',{timePercentage},'%')<br>valueformat=HTML</pre>
+1. Klik op Opslaan **en vervolgens** op **Weergave** opslaan.
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
-
-1. (Optioneel) Geef een naam op voor uw weergave en klik vervolgens op **Weergave opslaan**.
+1. (Optioneel) Geef een naam op voor uw weergave en klik op **Weergave** opslaan.

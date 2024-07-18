@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -62,12 +62,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## De instellingen voor de proefdrukviewer configureren
 
@@ -75,32 +75,32 @@ De instellingen voor de proefdrukviewer configureren:
 
 1. Open de webtestviewer of de Desktop Proofing Viewer op een van de volgende manieren:
 
-   * Als u in Adobe Workfront een proefdruk maakt, gaat u naar een documentlijst met een proefdruk die u wilt bekijken, beweegt u de muisaanwijzer over het document en klikt u op **Proef openen**.
-   * Als u Workfront Proof gebruikt, klikt u op de knop **Ga naar proefafdruk** pictogram voor de proefdruk in het dashboard of een lijst met weergaven ![](assets/go-to-proof-blue-icon.png).
+   * Als u bewijs binnen Adobe Workfront, naar een documentlijst gaat die een proef bevat u wilt bekijken, over het document beweegt, dan klik **Open proef**.
+   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of een lijst van Mening ![](assets/go-to-proof-blue-icon.png).
 
-1. Als de linkerwerkbalk niet wordt weergegeven, klikt u op **Menu** in de linkerbovenhoek van de Web Proofing Viewer.
+1. Als de linkertoolbar niet toont, klik het **pictogram van het Menu**, dat in de upper-left hoek van de Kijker van het Bewijs van het Web wordt gevestigd.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klik op de linkerwerkbalk op de knop **Instellingen** pictogram ![](assets/settings-icon-in-pv.png).
+1. In de linkertoolbar, klik het **pictogram van Montages** ![](assets/settings-icon-in-pv.png).
 
-1. Configureer een van de volgende mogelijkheden **Instellingen** die weergave.
+1. Vorm om het even welke volgende **Montages** die vertoning.
 
    Welke instellingen beschikbaar zijn, is afhankelijk van het type proefdruk dat u hebt geopend.
 
-   * **Markeringen tonen** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): dit zijn de opmerkingsmarkeringen die revisoren aan proefdrukken toevoegen wanneer ze de markeringsgereedschappen gebruiken. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
+   * **toon markeringen** (altijd beschikbaar in de Kijker van het Keuren van het Web en de Kijker van het Bewijs van de Desktop): Dit zijn de commentaarmarkeringen die de recensenten aan proeven toevoegen wanneer zij de prijsverhogingshulpmiddelen gebruiken. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
 
      Deze instelling is van invloed op alle proefdrukken die u opent.
 
-   * **Punten tonen** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): dit zijn de genummerde punten die revisoren aan proefdrukken toevoegen wanneer ze de markeringsgereedschappen gebruiken. Ze geven aan waar en in welke volgorde de revisor opmerkingen heeft toegevoegd. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
+   * **toon spelden** (altijd beschikbaar in de Kijker van het Keuren van het Web en de Kijker van het Bewijs van de Desktop): Dit zijn de genummerde spelden die de recensenten aan proeven toevoegen wanneer zij de prijsverhogingshulpmiddelen gebruiken. Ze geven aan waar en in welke volgorde de revisor opmerkingen heeft toegevoegd. Als u deze uitschakelt, kunt u ze nog steeds zien wanneer u op een opmerking in de lijst met opmerkingen klikt.
 
      Deze instelling is van invloed op alle proefdrukken die u opent.
 
-   * **Uitgebreide markeringsgereedschappen gebruiken** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): standaard worden de opties voor het markeringsgereedschap boven in de testviewer weergegeven. U kunt deze configureren voor weergave in een verticaal menu dat alleen wordt geopend wanneer u erop klikt.
+   * **gebruik uitgebreide prijsverhogingshulpmiddelen** (altijd beschikbaar in de Kijker van het Keuren van het Web en de Kijker van het Proofing van de Desktop): Door gebrek, tonen de de optiesvertoning van het prijsverhogingshulpmiddel over de bovenkant van de het proef kijker. U kunt deze configureren voor weergave in een verticaal menu dat alleen wordt geopend wanneer u erop klikt.
 
      Deze instelling geldt voor alle proefdrukken die u opent.
 
-   * **Stuur me e-mailberichten over** (altijd beschikbaar in de webtestviewer en de Desktop Proofing Viewer): klik op een van de onderstaande opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Zie voor meer informatie [Kennisgevingen met betrekking tot opmerkingen ter staving en besluiten](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **verzend me e-mailberichten over** (altijd beschikbaar in de Kijker van het Proofing van het Web en de Kijker van het Proofing van de Desktop): Klik één van de hieronder opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Voor meer informatie, zie [ Meldingen voor de proefdrukcommentaren en besluiten overzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 
@@ -112,7 +112,7 @@ De instellingen voor de proefdrukviewer configureren:
        </tr> 
        <tr> 
         <td role="rowheader">Reacties op mijn opmerkingen</td> 
-        <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Zie voor meer informatie over opmerkingen <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Opmerkingen over proefdrukken weergeven en beantwoorden</a>.</p></td> 
+        <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Voor informatie over commentaren, zie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref"> Mening en antwoord aan proefdrukcommentaren </a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Besluiten</td> 
@@ -128,11 +128,11 @@ De instellingen voor de proefdrukviewer configureren:
        </tr> 
        <tr> 
         <td role="rowheader">Dagelijkse samenvatting</td> 
-        <td>Workfront verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Zie voor meer informatie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Meldingen beheren voor proefopmerkingen en -beslissingen</a>.</p></td> 
+        <td>Workfront verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Voor meer informatie, zie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref"> berichten voor proefdrukcommentaren en besluiten </a> leiden.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Geen e-mail</td> 
-        <td>Workfront verzendt geen e-mailberichten.<br>Dit is nuttig voor een persoon die alleen ter referentie aan een bewijs wordt toegevoegd en niet van wijzigingen in kennis hoeft te worden gesteld.<p>Het systeemgebrek is Dagelijkse samenvatting (ook gezien als niet Geplaatst). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td> 
+        <td>Workfront verzendt geen e-mailberichten.<br> dit is nuttig voor een persoon die aan een proef slechts voor verwijzingsdoeleinden wordt toegevoegd en te hoeven niet van om het even welke veranderingen worden op de hoogte gebracht.<p>Het systeemgebrek is Dagelijkse samenvatting (ook gezien als niet Geplaatst). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td> 
        </tr> 
       </tbody> 
      </table>
@@ -141,7 +141,7 @@ De instellingen voor de proefdrukviewer configureren:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see in the article . For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>   
      -->
 
-   * **Wanneer u klikt op hyperlinks in een proefdruk** (alleen beschikbaar in de Desktop Proofing Viewer): selecteer een optie om op te geven wat er gebeurt in de Desktop Proofing Viewer wanneer u op een koppeling klikt die is ingesteld op openen in een nieuw browsertabblad of venster.
+   * **wanneer het klikken van hyperlinks in een proef** (beschikbaar slechts in de Kijker van het Bewijs van de Desktop): Selecteer een optie om te specificeren wat in de Kijker van het Bewijzen van de Desktop gebeurt wanneer u een verbinding klikt die in een nieuw browser lusje of een venster wordt geplaatst te openen.
 
      Deze instelling geldt voor alle interactieve proefdrukken die u opent.
 
@@ -168,7 +168,7 @@ De instellingen voor de proefdrukviewer configureren:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Cache wissen**: Wist de cachegegevens van de browser die mogelijk worden opgeslagen met een interactieve proefdruk die u bekijkt. Hierdoor kan inhoud zoals pop-ups (die door cachegegevens van de browser kunnen worden geblokkeerd) worden weergegeven in de Desktop Proofing Viewer.
+   * **Duidelijk geheime voorgeheugen**: ontruimt de browser geheim voorgeheugengegevens die met een interactieve proef zouden kunnen worden bewaard u bekijkt. Hierdoor kan inhoud zoals pop-ups (die door cachegegevens van de browser kunnen worden geblokkeerd) worden weergegeven in de Desktop Proofing Viewer.
 
      De gegevens die gewist worden, zijn onder andere de HTTP-cache (zoals afbeeldingen die opnieuw worden gebruikt nadat de volgende pagina is vernieuwd) en de cache met gegevens over de webopslag (zoals cookies en gegevens die gebruikers identificeren).
 

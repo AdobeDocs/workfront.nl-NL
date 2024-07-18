@@ -4,22 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Gereedschappen
-description: De [!DNL Adobe Workfront Fusion Tools] de sectie omvat verscheidene nuttige modules die uw scenario kunnen verbeteren.
+description: De  [!DNL Adobe Workfront Fusion Tools]  sectie omvat verscheidene nuttige modules die uw scenario kunnen verbeteren.
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Tools]
 
-De [!DNL Adobe Workfront Fusion Tools] de sectie omvat verscheidene nuttige modules die uw scenario kunnen verbeteren.
+De sectie [!DNL Adobe Workfront Fusion Tools] bevat verschillende nuttige modules die uw scenario kunnen verbeteren.
 
-[!UICONTROL Tools] zijn beschikbaar in de lijst met toepassingen of vanuit de [!UICONTROL Tools] pictogram ![](assets/tools-icon-small.png) onder aan het scherm.
+[!UICONTROL Tools] -modules zijn beschikbaar via de lijst met toepassingen of via het [!UICONTROL Tools] pictogram ![](assets/tools-icon-small.png) onder aan het scherm.
 
 ## Toegangsvereisten
 
@@ -40,27 +40,27 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Tools] en hun velden
+## [!UICONTROL Tools] en de bijbehorende velden
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -73,7 +73,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 In deze module kunt u een aangepaste trigger maken en de bijbehorende invoerbundels definiëren.
 
-U kunt deze module bijvoorbeeld gebruiken voor contactpersonen of een andere lijst die volgens planning naar een opgegeven e-mailadres moet worden verzonden (zoals [!UICONTROL Email] >[!UICONTROL Send an Email], of [!DNL Gmail] >[!UICONTROL Send an Email] (modules) of als een eenvoudige herinnering die op elk gewenst moment moet worden geactiveerd.
+U kunt deze module, bijvoorbeeld, voor contacten of een andere lijst gebruiken die om naar een gespecificeerd e-mailadres (zoals [!UICONTROL Email] > [!UICONTROL Send an Email], of [!DNL Gmail] > [!UICONTROL Send an Email] modules) gepland is te worden verzonden, of als eenvoudige herinnering die moet worden teweeggebracht wanneer u wilt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,9 +97,9 @@ U kunt deze module bijvoorbeeld gebruiken voor contactpersonen of een andere lij
 
 #### [!UICONTROL Get Multiple Variables]
 
-Deze module wint waarden terug die eerder door werden gecreeerd [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] module.
+Deze module haalt waarden op die eerder door de module [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] zijn gemaakt.
 
-Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar [!UICONTROL Get Multiple Variables] is gevonden. De enige vereiste is dat de [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] module wordt uitgevoerd vóór de [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] module. Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [Router module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Multiple Variables] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ module van de Router in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -114,17 +114,17 @@ Deze module kan variabelen lezen die overal in het scenario werden geplaatst, ze
 
 >[!INFO]
 >
->**Voorbeelden:**  Het volgende is mogelijk gebruik te maken van de [!UICONTROL Set]/[!UICONTROL Get (multiple) variable(s)] modules:
+>**Voorbeelden:** het volgende is mogelijk gebruik van de [!UICONTROL Set] [!UICONTROL Get (multiple) variable(s)] modules:
 >
 >* Een berekende waarde opslaan voor later gebruik, zelfs in een verschillende route. Dit is handig wanneer de waarde in meerdere modules wordt gebruikt en de formule voor het berekenen van de waarde te complex is.
->* Fouten opsporen in een formule. Als een in een module gebruikte formule ogenschijnlijk geen correct resultaat oplevert, kopieert u de formule en plakt u deze in een [!UICONTROL Set Variable] die u vóór de relevante module invoegt. Koppel de module(s) los na de [!UICONTROL Set Variable] en voert het scenario uit. Controleer de [!UICONTROL Set Variable] de output van de module, past of vereenvoudigt de formule, voert opnieuw het scenario uit, en blijft dit doen tot de kwestie is opgelost.
+>* Fouten opsporen in een formule. Als een in een module gebruikte formule ogenschijnlijk geen correct resultaat oplevert, kopieert u de formule en plakt u deze in een [!UICONTROL Set Variable] -module die u vóór de relevante module invoegt. Koppel de module(s) los na de module [!UICONTROL Set Variable] en voer het scenario uit. Verifieer de output van de module [!UICONTROL Set Variable], pas of vereenvoudig de formule aan, voer opnieuw het scenario uit, en ga zo te werk tot de kwestie is opgelost.
 
 
 #### [!UICONTROL Get Variable]
 
-Deze module wint een waarde terug die eerder door [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] module.
+Deze module haalt een waarde op die eerder door de module [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] is gemaakt.
 
-Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar [!UICONTROL Get Variable] is gevonden. De enige vereiste is dat de [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] module wordt uitgevoerd vóór de [!UICONTROL Tools] > [!UICONTROL Get Variable] module. Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [Router module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Variable] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Variable] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ module van de Router in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -168,20 +168,20 @@ Deze module keert een waarde terug die door 1 na de verrichting van elke module 
 >![](assets/example-email-350x246.gif)
 >
 >1. Dit scenario maken:
->1. De modules instellen **[!UICONTROL Reset a value]** veld naar Nooit.
->1. Stel de route in voor oneven waarden. Plaats de filter voor deze route gebruikend de modulus mathfunctie die evenaart `1`:
+>1. Stel het veld **[!UICONTROL Reset a value]** van de module in op Nooit.
+>1. Stel de route in voor oneven waarden. Stel het filter voor deze route in met de rekenkundige modulusfunctie die gelijk is aan `1` :
 >
 >   ![](assets/odd-350x459.png)
 >
->  **Opmerking**: Vergeet niet de [!UICONTROL Equal to] van de standaardoperator [!UICONTROL Text] aan de [!UICONTROL Numeric] operator.
+>  **Nota**: Vergeet niet om de [!UICONTROL Equal to] exploitant van de standaard [!UICONTROL Text] exploitant in de [!UICONTROL Numeric] exploitant te veranderen.
 >
->1. Plaats de route voor zelfs waarden gebruikend de modulus wiskundige functie die evenaart `0`:
+>1. Stel de route voor even waarden in met de wiskundige functie &#39;restbepaling bij deling&#39; die gelijk is aan `0` :
 >
 >De verhogingsfunctie voegt één toe telkens als het scenario loopt. De filters controleren de verhoging en handelen op zijn waarde, die ervoor zorgt dat de e-mails gelijkelijk worden verdeeld.
 
 #### [!UICONTROL Set Multiple Variables]
 
-Deze module leidt tot variabelen die door andere modules in de route kunnen worden in kaart gebracht. De variabele kan ook worden toegewezen aan de [!UICONTROL Get Variable] of [!UICONTROL Get Multiple Variables] modules voor om het even welke route in het scenario.
+Deze module leidt tot variabelen die door andere modules in de route kunnen worden in kaart gebracht. De variabele kan ook voor elke route in het scenario worden toegewezen aan de modules [!UICONTROL Get Variable] of [!UICONTROL Get Multiple Variables] .
 
 <table style="table-layout:auto"> 
  <col> 
@@ -204,7 +204,7 @@ Deze module leidt tot variabelen die door andere modules in de route kunnen word
    <td> <p>Selecteer hoe lang de variabelen geldig moeten blijven (dezelfde waarde behouden).</p> 
     <ul> 
      <li><strong>[!UICONTROL One cycle]</strong>: De variabele is geldig voor één cyclus. Nuttig wanneer meerdere webhaken in één scenario worden ontvangen (meer webhooks = meer cycli). </li> 
-     <li><strong>[!UICONTROL One execution]</strong>: De variabele is geldig voor één scenario uitvoering. Een uitvoering kan een of meer cycli bevatten.</li> 
+     <li><strong>[!UICONTROL One execution]</strong>: De variabele is geldig voor één scenario-uitvoering. Een uitvoering kan een of meer cycli bevatten.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +212,7 @@ Deze module leidt tot variabelen die door andere modules in de route kunnen word
 
 #### [!UICONTROL Set Variable]
 
-Deze module leidt tot een variabele die door andere modules in de route kan worden in kaart gebracht. De variabele kan ook worden toegewezen aan de [!UICONTROL Get Variable] of [!UICONTROL Get Multiple Variables] modules voor om het even welke route in het scenario.
+Deze module leidt tot een variabele die door andere modules in de route kan worden in kaart gebracht. De variabele kan ook voor elke route in het scenario worden toegewezen aan de modules [!UICONTROL Get Variable] of [!UICONTROL Get Multiple Variables] .
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ Deze module leidt tot een variabele die door andere modules in de route kan word
    <td> <p>Selecteer hoe lang de variabelen geldig moeten blijven (dezelfde waarde behouden).</p> 
     <ul> 
      <li><strong>[!UICONTROL One cycle]</strong>: De variabele is geldig voor één cyclus. Nuttig wanneer meerdere webhaken in één scenario worden ontvangen (meer webhooks = meer cycli). </li> 
-     <li><strong>[!UICONTROL One execution]</strong>: De variabele is geldig voor één scenario uitvoering. Een uitvoering kan een of meer cycli bevatten.</li> 
+     <li><strong>[!UICONTROL One execution]</strong>: De variabele is geldig voor één scenario-uitvoering. Een uitvoering kan een of meer cycli bevatten.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ Deze module leidt tot een variabele die door andere modules in de route kan word
 
 Deze module staat u toe om de scenariostroom tot 300 seconden (5 minuten) te vertragen.
 
-Deze functie kan bijvoorbeeld nuttig zijn als u de [!DNL target] laden van serviceserver of om menselijk gedrag na te bootsen bij het verzenden van sms- of e-mailberichten.
+Deze functie kan bijvoorbeeld nuttig zijn als u de belasting van de [!DNL target] -serviceserver wilt verminderen of als u menselijk gedrag wilt simuleren bij het verzenden van sms-berichten of e-mails.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -263,9 +263,9 @@ Deze functie kan bijvoorbeeld nuttig zijn als u de [!DNL target] laden van servi
 >
 >In het eerste scenario worden alle benodigde gegevens samen met de huidige tijdstempel opgeslagen in een gegevensopslagruimte. Het tweede scenario zou de gegevensopslag periodiek controleren op verslagen met een timestamp ouder dan de voorgenomen vertraging, de verslagen terugwinnen, de verwerking van de gegevens voltooien en de verslagen uit de gegevensopslag verwijderen.
 >
->Voor meer informatie over gegevensopslag, zie [Gegevensopslag in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md).
+>Voor meer informatie over gegevensopslag, zie [ de Opslag van Gegevens in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md).
 >
->Voor meer informatie over specifieke modules van de gegevensopslag, zie [[!UICONTROL Data store] modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+>Voor meer informatie over specifieke modules van de gegevensopslag, zie [[!UICONTROL Data store] modules ](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ### Samenvoegapparatuur
 
@@ -322,11 +322,11 @@ In deze module worden waarden uit de geselecteerde velden met ontvangen bundels 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Column separator]</p> </td> 
-   <td> <p>Selecteer of typ het type scheidingsteken waarmee de kolommen met veldwaarden in de resulterende bundel worden gescheiden. Als u [!UICONTROL Other]voert u het teken in dat u wilt gebruiken om waarden te scheiden in het scheidingsveld.</p> </td> 
+   <td> <p>Selecteer of typ het type scheidingsteken waarmee de kolommen met veldwaarden in de resulterende bundel worden gescheiden. Als u [!UICONTROL Other] selecteert, voert u het teken in dat u wilt gebruiken om waarden te scheiden in het scheidingsveld.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Row separator]</p> </td> 
-   <td> <p>Selecteer of typ het type scheidingsteken waarmee de rijen met veldwaarden in de resulterende bundel worden gescheiden. Als u [!UICONTROL Other]voert u het teken in dat u wilt gebruiken om waarden te scheiden in het scheidingsveld.</p> </td> 
+   <td> <p>Selecteer of typ het type scheidingsteken waarmee de rijen met veldwaarden in de resulterende bundel worden gescheiden. Als u [!UICONTROL Other] selecteert, voert u het teken in dat u wilt gebruiken om waarden te scheiden in het scheidingsveld.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
@@ -353,7 +353,7 @@ In deze module worden waarden uit de geselecteerde velden met ontvangen bundels 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Row separator]</p> </td> 
-   <td> <p>Selecteer of typ het type scheidingsteken waarmee de rijen met veldwaarden in de resulterende bundel worden gescheiden. Als u [!UICONTROL Other]voert u het teken in dat u wilt gebruiken om waarden te scheiden in het scheidingsveld.</p> </td> 
+   <td> <p>Selecteer of typ het type scheidingsteken waarmee de rijen met veldwaarden in de resulterende bundel worden gescheiden. Als u [!UICONTROL Other] selecteert, voert u het teken in dat u wilt gebruiken om waarden te scheiden in het scheidingsveld.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
@@ -372,7 +372,7 @@ In deze module worden waarden uit de geselecteerde velden met ontvangen bundels 
 
 >[!INFO]
 >
->**Voorbeeld:** U kunt de tekstaggregator gebruiken om meer waarden (bijvoorbeeld klantnamen of notities) in één bundel in te voegen en een e-mail te verzenden die alle waarden in de e-mailhoofdtekst of het onderwerp van de e-mail bevat.
+>**Voorbeeld:** u kunt de tekstaggregator gebruiken om meer waarden (bijvoorbeeld, klantennamen of nota&#39;s) in één enkele bundel op te nemen en een e-mail te verzenden die alle waarden in het e-maillichaam of het e-mailonderwerp bevat.
 
 ### Transformatoren
 
@@ -382,7 +382,7 @@ In deze module worden waarden uit de geselecteerde velden met ontvangen bundels 
 
 #### [!UICONTROL Compose a string]
 
-Zet om het even welke waarde in een type van koordgegevens (tekst) om. Het maakt de afbeelding gemakkelijker wanneer het in kaart brengen, bijvoorbeeld, binaire gegevens.
+Zet om het even welke waarde in een type van koordgegevens (tekst). Het maakt de afbeelding gemakkelijker wanneer het in kaart brengen, bijvoorbeeld, binaire gegevens.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -405,7 +405,7 @@ Hiermee wordt ingevoerde invoertekst (of binaire gegevens) omgezet in de geselec
  <tbody> 
   <tr> 
    <td> <p>[!UICONTROL Input data]</p> </td> 
-   <td> <p>Typ of wijs de inhoud toe die u wilt omzetten.</p> </td> 
+   <td> <p>Voer de inhoud in of wijs de inhoud toe die u wilt omzetten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Input data codepage]</td> 
@@ -437,18 +437,18 @@ Controleert de invoerwaarde voor een overeenkomst met de opgegeven lijst met waa
      <p>Een reguliere expressie is een reeks tekens waarin elk teken een metateken is met een speciale betekenis of een regulier teken met een letterlijke betekenis. Met deze teken- en metatekens wordt een patroon geïdentificeerd dat kan worden gebruikt voor het zoeken naar tekst. Als u bijvoorbeeld naar namen wilt zoeken, kunt u een reguliere expressie instellen om te zoeken naar een patroon dat bestaat uit twee opeenvolgende woorden die beginnen met hoofdletters. Reguliere expressies zijn een krachtig gereedschap voor het zoeken en bewerken van tekst.</p> 
      <p>Een discussie over reguliere expressies valt buiten het toepassingsgebied van dit artikel. Wij adviseren de volgende middelen:</p> 
      <ul> 
-      <li>Voor de volledige lijst met metatekens raadpleegt u <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Reguliere expressies</a> in MDN-webdocumenten.</li> 
-      <li>Voor een zelfstudie over het maken van reguliere expressies raden we aan <a href="https://regexone.com/">RegexOne</a>.</li> 
-      <li>Voor het experimenteren met reguliere expressies raden we de <a href="https://regex101.com/">Gewone uitdrukkingen 101</a> website. Selecteer de ECMAScript-FLAVOR (JavaScript) in het linkerdeelvenster.</li> 
+      <li>Voor de volledige lijst van metacharacters, zie <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"> Reguliere uitdrukkingen </a> in MDN Web docs.</li> 
+      <li>Voor een leerprogramma op hoe te om regelmatige uitdrukkingen tot stand te brengen, adviseren wij <a href="https://regexone.com/"> RegexOne </a>.</li> 
+      <li>Voor het experimenteren met regelmatige uitdrukkingen, adviseren wij de <a href="https://regex101.com/"> Reguliere Uitdrukkingen 101 </a> website. Selecteer de ECMAScript-FLAVOR (JavaScript) in het linkerdeelvenster.</li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cases] </td> 
-   <td> <p>Als de invoer een waarde bevat die is ingevoerd voor de [!UICONTROL Pattern] veld, dan de waarde die is ingevoerd voor het [!UICONTROL Output] wordt geretourneerd.</p> <p>Als de invoer niet overeenkomt met een van de waarden die u in een [!UICONTROL Pattern] in het veld wordt een van de volgende handelingen uitgevoerd:</p> 
+   <td> <p>Als de invoer een waarde bevat die is ingevoerd in het veld [!UICONTROL Pattern] , wordt de waarde die is ingevoerd in het veld [!UICONTROL Output] geretourneerd.</p> <p>Als de invoer niet overeenkomt met een van de waarden die u in een [!UICONTROL Pattern] -veld hebt ingesteld, vindt een van de volgende gebeurtenissen plaats:</p> 
     <ul> 
-     <li>De waarde van de [!UICONTROL Else] field is returned</li> 
-     <li>Als er geen waarde in de [!UICONTROL Else] veld, wordt geen uitvoer geretourneerd.</li> 
+     <li>De waarde van het veld [!UICONTROL Else] wordt geretourneerd</li> 
+     <li>Wanneer het veld [!UICONTROL Else] geen waarde bevat, wordt geen uitvoer geretourneerd.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -17,35 +17,35 @@ De de inhoudsblokken van het Web staan u toe om informatie van externe websites 
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een webinhoud-blok toevoegen of bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapportage**.
-1. Klikken **Nieuw rapport**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Meldend**.
+1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik op de knop **Meer** pictogram ![](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **Bewerken**.
+   Ga naar een bestaand rapport, klik **Meer** pictogram ![](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
 
-1. Rechts van het scherm, onder **Een blok toevoegen**, ofwel:
+1. Op de rechterkant van het scherm, onder **voeg een Blok** toe, of:
 
-   Sleep de **Webinhoud** rechtstreeks naar de gewenste locatie op het canvas.
+   Sleep het **inhoudspictogram van het Web** op het canvas direct aan uw gewenste plaats.
 
    of
 
-   Dubbelklik op de knop **Webinhoud** pictogram om een blok aan de bovenkant van het canvas toe te voegen.
+   Dubbelklik het **inhoudspictogram van het Web** om een blok aan de bovenkant van het canvas toe te voegen.
 
    >[!TIP]
    >
    >U kunt de grootte van het blok wijzigen nadat het is geplaatst door de hoekgrepen te slepen.
 
-1. Klikken **Naamloze webinhoud** in de blokoptekst typt u een titel voor het blok.
-1. Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) in de blokoptekst.
+1. Klik **Naamloze Webinhoud** in de blokkopbal, dan typ een titel voor het blok.
+1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de blokkopbal.
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. In de **Instellingen** in het deelvenster dat wordt geopend, typt u de volledige URL voor de pagina die u wilt weergeven (inclusief &quot;https://&quot;) in het dialoogvenster **URL** veld.
+1. In het **paneel van Montages** dat opent, ga volledige URL voor de pagina in die u (met inbegrip van &quot;https://&quot;) op het **URL** gebied zou willen tonen.
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    {style="table-layout:auto"}
 
-1. (Optioneel) Klik op de knop **Parameters doorgeven** schakelen om een lijst met beschikbare passeerparameters te openen.
+1. (Facultatief) klik de **knevel van de Parameters van de pas** om een lijst van beschikbare omloopparameters te openen.
 
    >[!WARNING]
    >
    >De parameters voor doorgeven zijn momenteel uitgeschakeld.
 
-1. Klikken **URL insluiten** om uw selecties op te slaan en terug te keren naar uw rapport.
+1. Klik **bed URL** in om uw selecties te bewaren en aan uw rapport terug te keren.

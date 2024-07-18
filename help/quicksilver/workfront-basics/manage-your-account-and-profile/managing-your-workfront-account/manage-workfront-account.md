@@ -2,8 +2,8 @@
 content-type: reference
 product-area: user-management
 navigation-topic: manage-your-account-and-profile
-title: Uw [!DNL Adobe Workfront] account
-description: Lees deze artikelen om te leren hoe u uw [!DNL Workfront] account.
+title: Uw  [!DNL Adobe Workfront]  rekening beheren
+description: Herzie deze artikelen om te leren hoe te om uw  [!DNL Workfront]  rekening te beheren.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# Uw [!DNL Adobe Workfront] account
+# Uw [!DNL Adobe Workfront] -account beheren
 
 Deze sectie bevat de volgende artikelen:
 
-* [Aanmelden bij [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
-* [Afmelden bij [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-* [E-mailuitnodigingen ontvangen en een wachtwoord maken voor [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
-* [Een account maken in [!DNL Adobe Workfront] als externe gebruiker](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
-* [Wachtwoord opnieuw instellen](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
+* [Aanmelden bij  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
+* [Afmelden bij  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
+* [Ontvang e-mailuitnodigingen en maak een wachtwoord voor  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+* [Creeer een rekening in  [!DNL Adobe Workfront]  als externe gebruiker](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
+* [ terugstellen uw wachtwoord ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
   <!--* [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)-->

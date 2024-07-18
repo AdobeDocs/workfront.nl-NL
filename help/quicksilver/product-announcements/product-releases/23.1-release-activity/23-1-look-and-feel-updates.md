@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden kleine updates beschreven van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 23.1 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 23.1, zie [ overzicht van de Versie 23.1 ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Bijgewerkte lijsten in de Opstelling > het gebied van de Interface
 
@@ -43,7 +43,7 @@ Naast een bijgewerkte look and feel zijn de volgende wijzigingen ook beschikbaar
 * We hebben het selectievakje &quot;Is actief&quot; verwijderd om redundantie te voorkomen met de menuopties Meer op de sjabloonpagina.
 * We hebben de sectie Opmerking verwijderd om redundantie te voorkomen in de sectie Updates.
 
-Zie voor meer informatie [Projectsjablonen bewerken](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Voor meer informatie, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ## Nieuwe look en feel voor de integratie van Workfront voor Jira
 
@@ -55,7 +55,7 @@ Om een consistentere ervaring in Jira te creëren, hebben we de Workfront for Ji
 
 De functionaliteit van de Workfront for Jira-integratie is ongewijzigd gebleven.
 
-Zie voor meer informatie over de integratie van Workfront for Jira [Adobe Workfront voor Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+Voor meer informatie over Workfront voor de integratie van Jira, zie [ Adobe Workfront voor Jira ](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
 ## Selectie van slimme gebruikers tijdens het bijwerken van gebruikersvelden
 
@@ -83,7 +83,7 @@ Er is aanvullende gebruikersinformatie die wordt weergegeven wanneer u gebruiker
 
 Wanneer u nu een gebruiker toevoegt aan de bovenstaande gebruikersvelden, worden naast de gebruikersnaam en avatar ook de primaire rol en de e-mail van de gebruiker weergegeven. Zo kunt u beter onderscheid maken tussen meerdere gebruikers met dezelfde of vergelijkbare namen.
 
-Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigenschap te bekijken, zie &quot;Slimme gebruikersselectie voor projectrollen in Edit en de gebieden van Details&quot;in [22.4 Projectverbeteringen](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigenschap te bekijken, zie &quot;Slimme gebruikersselectie voor projectrollen in Edit en de gebieden van Details&quot;in [ 2.4 de verhogingen van het Project ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Updates van de pagina Meldingen weergeven en weergeven
 
@@ -99,7 +99,7 @@ De ervaring met bètfilters is op 4 augustus 2022 toegevoegd aan de lijst met pr
 
 Op deze pagina wordt vastgelegd wanneer de nieuwe filters tijdens de releaseperiode van 23.1 worden toegevoegd aan andere delen van de Adobe Workfront-toepassing.
 
-Ga voor informatie over het gebruik van de nieuwe filters naar [Filters maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Voor informatie over hoe te om de nieuwe filters te gebruiken, zie [ creeer of geef filters in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) uit.
 
 ### Lijsten bijgewerkt met de nieuwe filters
 

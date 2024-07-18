@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Verbeterde proefdrukken
 
-Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Beslissing van het bewijs is nu zichtbaar in de lijst Documenten
 
@@ -31,21 +31,21 @@ Met deze verbetering, kunt u alle proeven gemakkelijk zien die een algemene besl
 
 Eerder moest u naar de documentdetails en de proefwerkstroom gaan om het algemene proefdrukbesluit te bekijken, dat veelvoudige kliks vereiste.
 
-Zie voor meer informatie over bewijsbeslissingen [Het gebied Documenten](../../../documents/managing-documents/documents-area.md).
+Voor meer informatie over proefdrukbesluiten, zie [ het gebied van Documenten ](../../../documents/managing-documents/documents-area.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Proefversies en versies beheren in de nieuwe Workfront-ervaring](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) leerpad op Workfront One.
+Deze eigenschap is nu inbegrepen in [ leidt proeven en versies in de nieuwe ervaring van Workfront ](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) het leren weg op Workfront Één.
 
 ## Nieuwe velden in het rapport Goedkeuring proef
 
 Voor informatie over bruikbare proefdrukken hebben we de volgende velden toegevoegd aan het rapport Goedkeuring proef:
 
-* **Datum besluit:** Geeft de datum weer waarop een fiatteur een beslissing neemt over een bewijs. U kunt deze datum ook vinden op de Samenvatting van de Druk van de proef.
-* **Niveau fiatteur:** Hiermee geeft u de huidige werkgebiedinformatie weer.
-* **Werkstroomsjabloon:** Hier worden workflowsjablonen weergegeven die aan de proefdruk zijn gekoppeld. Als er geen malplaatje in bijlage is, is de kolom leeg.
+* **Datum van het Besluit:** toont de datum een fiatteur een besluit over een bewijs neemt. U kunt deze datum ook vinden op de Samenvatting van de Druk van de proef.
+* **Approver Stadium:** toont de huidige werkgebiedinformatie.
+* **Malplaatje van het Werkschema:** toont om het even welke werkschemamalplaatjes in bijlage aan de proef. Als er geen malplaatje in bijlage is, is de kolom leeg.
 
 Deze gebieden maken geen deel uit van het standaardrapport. U moet ze toevoegen als u ze wilt zien.
 
-Deze functie is nu opgenomen in het dialoogvenster [Proefsysteeminstellingen, Deel 2: Workflowbeheer](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) leerpad op Workfront One.
+Deze eigenschap is nu inbegrepen in de [ systeemmontages van het Bewijs, Deel 2: Het beheer van het werkschema ](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) het leren weg op Workfront Één.
 
 ## De bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie
 
@@ -57,4 +57,4 @@ De bestaande proefdrukworkflow wordt nu toegepast op nieuwe versies die u maakt,
 
 Eerder was er een klein verschil in de manier waarop de proefdrukworkflow werd overgedragen, afhankelijk van waar u deze in Workfront hebt gegenereerd.
 
-Zie voor meer informatie [Een nieuwe versie van een proefdruk maken](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Voor meer informatie, zie [ een nieuwe versie van een proef ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md) creëren.

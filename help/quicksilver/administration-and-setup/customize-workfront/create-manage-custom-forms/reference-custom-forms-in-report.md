@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Verwijzen naar aangepaste formulieren in een rapport
 
-Voor informatie over het van verwijzingen voorzien van douaneformulieren in een rapport, zie [Verwijs een douaneformulier in een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).
+Voor informatie bij het van verwijzingen voorzien van douaneformulieren in een rapport, zie [ Verwijzing een douaneformulier in een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md).

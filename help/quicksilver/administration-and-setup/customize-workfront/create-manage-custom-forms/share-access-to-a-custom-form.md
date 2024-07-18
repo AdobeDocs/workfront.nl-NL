@@ -45,7 +45,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegang tot aangepaste formulieren {#access-to-custom-forms}
 
@@ -58,13 +58,13 @@ Op een object waaraan het aangepaste formulier nog niet is gekoppeld, kan een ge
 
 ## Een aangepast formulier delen vanuit de lijst met formulieren
 
-In plaats van een aangepast formulier in de standaard deelstatus te laten (beschreven in [Toegang tot aangepaste formulieren](#access-to-custom-forms) in dit artikel), kunt u specifieke niveaus van toegang tot het formulier voor bepaalde gebruikers, baanrollen, groepen, teams, en bedrijven vormen.
+Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ Toegang tot douanevormen ](#access-to-custom-forms) in dit artikel wordt beschreven), kunt u specifieke niveaus van toegang tot de vorm voor bepaalde gebruikers, baanrollen, groepen, teams, en bedrijven vormen.
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier en klik op ![Pictogram Delen](assets/share-icon.png).
-1. In het vak dat wordt weergegeven, onder **Aangepaste formuliertoegang verlenen aan** typt u de naam van de gebruiker, het team, de taakrol, de groep of het bedrijf waarmee u het aangepaste formulier wilt delen. Druk vervolgens op **Enter** wanneer de naam wordt weergegeven.
+1. In het linkerpaneel, klik **Aangepaste Forms**.
+1. Selecteer de douanevorm, dan klik het ![ pictogram van het Aandeel ](assets/share-icon.png).
+1. In de doos die toont, onder **geef de toegang van de douanevorm tot**, begin de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf u de douanevorm met wilt delen, dan **binnengaan** wanneer de naamvertoningen.
 1. Als u de toegang wilt aanpassen voor de gebruiker, het team, de taakrol, de groep of het bedrijf dat u net hebt toegevoegd, klikt u op het vervolgkeuzemenu rechts van de naam en configureert u vervolgens een van de volgende beschikbare opties en een van de geavanceerde instellingen:
 
    <table style="table-layout:auto"> 
@@ -73,48 +73,48 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
     <tbody> 
      <tr> 
       <td role="rowheader">Weergeven</td> 
-      <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b>OPMERKING</b>: Voor gebruikers met lichte licenties en bijdragelicenties (of Work-, Review- en Request-licenties) is dit de hoogst beschikbare optie.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of u het volgende wilt toestaan:</p> 
+      <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b> NOTA </b>: Voor gebruikers met Lichte en Medewerker vergunningen (of het Werk, het Overzicht, en de vergunningen van het Verzoek), is dit de hoogste beschikbare optie.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
-        <li><strong>Koppelen aan aangepaste gegevens</strong>: Mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</li> 
-        <li> <p><strong>Delen</strong>: Mogelijkheid om het aangepaste formulier te delen met anderen in het systeem</p> <p>Gebruikers met een licentie voor licht of contribuant (of een licentie voor werken, revisie of aanvragen) kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport.</p> </li>
+        <li><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</li> 
+        <li> <p><strong> Aandeel </strong>: Mogelijkheid om de douanevorm met anderen in het systeem te delen</p> <p>Gebruikers met een licentie voor licht of contribuant (of een licentie voor werken, revisie of aanvragen) kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport.</p> </li>
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beheren</td> 
-      <td> <p>Alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of u het volgende wilt toestaan:</p> 
+      <td> <p>Alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
-        <li> <p><strong>Koppelen aan aangepaste gegevens</strong>: Mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</p> </li> 
-        <li><strong>Verwijderen</strong>: Het aangepaste formulier verwijderen van het systeem</li> 
-        <li><strong>Delen</strong>: Het aangepaste formulier delen met anderen in het systeem</li> 
+        <li> <p><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</p> </li> 
+        <li><strong> Schrapping </strong>: Schrap de douanevorm van het systeem</li> 
+        <li><strong> Aandeel </strong>: Deel de douanevorm met anderen in het systeem</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optioneel) Herhaal stap 4-5 om andere namen aan de lijst toe te voegen en de opties te configureren.
-1. (Optioneel) Als u de toegang tot het aangepaste formulier (op objecten waaraan het is gekoppeld) wilt beperken tot de objecten die u in de vorige stappen hebt opgegeven, klikt u op het tandwielpictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) in de rechterbovenhoek van het dialoogvenster voor delen klikt u op **Toegang voor het hele systeem verwijderen**.
+1. (Facultatief) als u toegang tot de douanevorm (op voorwerpen wilt beperken waar het) aan die u in de vorige stappen hebt gespecificeerd, klik het tandwielpictogram ![](assets/gear-icon-settings-with-dn-arrow.jpg) in de hogere juiste hoek van de het delen doos, dan klik **verwijderen systeem-brede toegang**.
 
-   Als u van mening verandert, kunt u klikken **Dit voor het hele systeem zichtbaar maken** (de standaardoptie).
+   Als u uw mening verandert, kunt u **klikken maakt dit zichtbare systeem-breed** (de standaardoptie).
 
    >[!NOTE]
    >
    >* Wanneer u een aangepast formulier systeembreed zichtbaar maakt, staat u gebruikers toe het formulier alleen te bekijken en in te vullen op objecten waaraan ze zijn toegewezen, en niet het aan andere objecten te koppelen. U kunt de mogelijkheid bieden om het aangepaste formulier aan objecten te koppelen met de optie &quot;Bijvoegen aan aangepaste gegevens&quot; die in stap 5 wordt beschreven.
-   >* De meeste organisaties willen ervoor zorgen dat iedereen in het systeem een douaneformulier kan invullen wanneer het aan voorwerpen wordt vastgemaakt zij werken en zijn gegevens in rapporten bekijken. Als dit voor uw organisatie waar is, adviseren wij dat u gebruikt **Dit voor het hele systeem zichtbaar maken**. Wanneer de optie deze manier wordt gevormd, &quot;Zichtbare systeem-brede&quot;vertoningen in de dialoogdoos:
+   >* De meeste organisaties willen ervoor zorgen dat iedereen in het systeem een douaneformulier kan invullen wanneer het aan voorwerpen wordt vastgemaakt zij werken en zijn gegevens in rapporten bekijken. Als dit voor uw organisatie waar is, adviseren wij dat u **dit zichtbare systeem-breed** maakt. Wanneer de optie deze manier wordt gevormd, &quot;Zichtbare systeem-brede&quot;vertoningen in de dialoogdoos:
    >   
    >![](assets/visible-system-wide-350x480.png)
    >   
-   >Als u zich zorgen maakt over een aangepast formulier waarin gebruikers vertrouwelijke gegevens kunnen invoeren wanneer deze aan bepaalde objecten zijn gekoppeld, beperkt u het delen voor deze objecten *objecten* Het zou beter kunnen zijn dan de toegang tot het formulier zelf te beperken.
+   >Als u zich over een douaneformulier bezorgd bent waar de gebruikers gevoelige gegevens zouden kunnen ingaan wanneer het aan bepaalde voorwerpen in bijlage is, zou het beperken van het delen voor die *voorwerpen* beter kunnen zijn eerder dan het beperken van toegang tot de vorm zelf.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Een aangepast formulier delen vanuit de formulierontwerper
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
+1. In het linkerpaneel, klik **Aangepaste Forms**.
 1. Open een aangepast formulier of maak een nieuw aangepast formulier.
-1. Klikken **Delen** rechtsboven in de formulierontwerper als u klaar bent om het formulier te delen.
-1. In het vak dat wordt weergegeven, onder **Aangepaste formuliertoegang verlenen aan** typt u de naam van de gebruiker, het team, de taakrol, de groep of het bedrijf waarmee u het aangepaste formulier wilt delen. Druk vervolgens op **Enter** wanneer de naam wordt weergegeven.
+1. Klik **Aandeel** op het hoogste recht van de vormontwerper wanneer u bereid bent om de vorm te delen.
+1. In de doos die toont, onder **de toegang van de douanevorm van de Verlening tot**, begint de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf te typen u de douanevorm met wilt delen, dan **binnengaan** wanneer de naamvertoningen.
 1. Als u de toegang wilt aanpassen voor de gebruiker, het team, de taakrol, de groep of het bedrijf dat u net hebt toegevoegd, klikt u op het vervolgkeuzemenu rechts van de naam en configureert u vervolgens een van de volgende beschikbare opties en een van de geavanceerde instellingen:
 
    <table style="table-layout:auto"> 
@@ -123,46 +123,46 @@ In plaats van een aangepast formulier in de standaard deelstatus te laten (besch
     <tbody> 
      <tr> 
       <td role="rowheader">Weergeven</td> 
-      <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b>OPMERKING</b>: Voor gebruikers met lichte licenties en bijdragelicenties (of Work-, Review- en Request-licenties) is dit de hoogst beschikbare optie.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of u het volgende wilt toestaan:</p> 
+      <td> <p>U kunt het aangepaste formulier weergeven en invullen op objecten.</p> <p><b> NOTA </b>: Voor gebruikers met Lichte en Medewerker vergunningen (of het Werk, het Overzicht, en de vergunningen van het Verzoek), is dit de hoogste beschikbare optie.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
-        <li><strong>Koppelen aan aangepaste gegevens</strong>: Mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</li> 
-        <li> <p><strong>Delen</strong>: Mogelijkheid om het aangepaste formulier te delen met anderen in het systeem</p> <p>Gebruikers met een licentie voor licht of contribuant (of een licentie voor werken, revisie of aanvragen) kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport.</p> </li>
+        <li><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</li> 
+        <li> <p><strong> Aandeel </strong>: Mogelijkheid om de douanevorm met anderen in het systeem te delen</p> <p>Gebruikers met een licentie voor licht of contribuant (of een licentie voor werken, revisie of aanvragen) kunnen een aangepast formulier alleen delen via de API of een aangepast formulierrapport.</p> </li>
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beheren</td> 
-      <td> <p>Alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of u het volgende wilt toestaan:</p> 
+      <td> <p>Alleen beschikbaar voor gebruikers met een Standard- of Plan-licentie. </p> <p>Gebruikers kunnen het formulier niet alleen toevoegen aan objecten die ze kunnen bewerken, maar kunnen ook het aangepaste formulier volledig bewerken, zoals velden toevoegen, bewerken en verwijderen.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u het volgende wilt toestaan:</p> 
        <ul> 
-        <li> <p><strong>Koppelen aan aangepaste gegevens</strong>: Mogelijkheid om het aangepaste formulier te koppelen aan projecten, taken en problemen waarvoor zij toegang hebben tot Beheren</p> </li> 
-        <li><strong>Verwijderen</strong>: Het aangepaste formulier verwijderen van het systeem</li> 
-        <li><strong>Delen</strong>: Het aangepaste formulier delen met anderen in het systeem</li> 
+        <li> <p><strong> Band aan douanegegevens </strong>: Mogelijkheid om de douanevorm aan projecten, taken, en kwesties vast te maken waarvoor zij hebben leiden toegang</p> </li> 
+        <li><strong> Schrapping </strong>: Schrap de douanevorm van het systeem</li> 
+        <li><strong> Aandeel </strong>: Deel de douanevorm met anderen in het systeem</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optioneel) Herhaal stap 5-6 om andere namen aan de lijst toe te voegen en hun opties te configureren.
-1. (Optioneel) Als u de toegang tot het aangepaste formulier (op objecten waaraan het is gekoppeld) wilt beperken tot de objecten die u in de vorige stappen hebt opgegeven, klikt u op de vervolgkeuzepijl onder **Wie toegang heeft** selecteert u vervolgens **Alleen uitgenodigde personen hebben toegang**.
+1. (Facultatief) als u toegang tot de douanevorm (op voorwerpen wilt beperken waar het) aan die u in de vorige stappen hebt gespecificeerd, klik de drop-down pijl onder **die toegang** heeft, dan selecteren **slechts uitgenodigde mensen kunnen toegang hebben**.
 
-   Als u van gedachten verandert, kunt u selecteren **Iedereen in het systeem kan bekijken**.
+   Als u uw mening verandert, kunt u **iedereen in het systeem selecteren kan** bekijken.
 
    >[!NOTE]
    >
    >* Wanneer u een aangepast formulier systeembreed zichtbaar maakt, staat u gebruikers toe het formulier alleen te bekijken en in te vullen op objecten waaraan ze zijn toegewezen, en niet het aan andere objecten te koppelen. U kunt de mogelijkheid bieden om het aangepaste formulier aan objecten te koppelen met de optie &quot;Bijvoegen aan aangepaste gegevens&quot; die in stap 6 wordt beschreven.
-   >* De meeste organisaties willen ervoor zorgen dat iedereen in het systeem een douaneformulier kan invullen wanneer het aan voorwerpen wordt vastgemaakt zij werken en zijn gegevens in rapporten bekijken. Als dit voor uw organisatie waar is, adviseren wij dat u gebruikt **Iedereen in het systeem kan bekijken**. Wanneer de optie deze manier wordt gevormd, &quot;Zichtbare systeem-brede&quot;vertoningen in de dialoogdoos:
+   >* De meeste organisaties willen ervoor zorgen dat iedereen in het systeem een douaneformulier kan invullen wanneer het aan voorwerpen wordt vastgemaakt zij werken en zijn gegevens in rapporten bekijken. Als dit voor uw organisatie waar is, adviseren wij dat u **iedereen in het systeem** kunt bekijken. Wanneer de optie deze manier wordt gevormd, &quot;Zichtbare systeem-brede&quot;vertoningen in de dialoogdoos:
    >   
-   >![Aangepast formulier delen](assets/share-custom-form-in-designer.png)
+   >![ Aangepaste vorm van het Aandeel ](assets/share-custom-form-in-designer.png)
    >   
-   >Als u zich zorgen maakt over een aangepast formulier waarin gebruikers vertrouwelijke gegevens kunnen invoeren wanneer deze aan bepaalde objecten zijn gekoppeld, beperkt u het delen voor deze objecten *objecten* Het zou beter kunnen zijn dan de toegang tot het formulier zelf te beperken.
+   >Als u zich over een douaneformulier bezorgd bent waar de gebruikers gevoelige gegevens zouden kunnen ingaan wanneer het aan bepaalde voorwerpen in bijlage is, zou het beperken van het delen voor die *voorwerpen* beter kunnen zijn eerder dan het beperken van toegang tot de vorm zelf.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Toegang tot een aangepast formulier verwijderen uit de lijst met formulieren
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Selecteer het aangepaste formulier en klik op ![Pictogram Delen](assets/share-icon.png).
+1. In het linkerpaneel, klik **Aangepaste Forms**.
+1. Selecteer de douanevorm, dan klik het ![ pictogram van het Aandeel ](assets/share-icon.png).
 1. Klik in het vak dat wordt weergegeven op de X rechts van de naam van de gebruiker, het team, de rol, de groep of het bedrijf waartoe u geen speciale toegang meer wilt hebben.
 1. (Optioneel) Herhaal de vorige stap naar voor andere namen die u wilt verwijderen.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

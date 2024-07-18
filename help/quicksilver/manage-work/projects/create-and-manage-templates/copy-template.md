@@ -35,16 +35,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot sjablonen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot sjablonen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen voor een sjabloon weergeven of vergroten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen voor een sjabloon weergeven of vergroten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 
 ## Overwegingen bij het kopiëren van sjablonen
@@ -69,10 +69,10 @@ De volgende items worden nooit van een bestaand project naar een nieuw project g
 ## Een sjabloon kopiëren
 
 1. Ga naar de sjabloon die u wilt kopiëren.
-1. Klik op de knop **Meer** menu ![](assets/qs-more-icon-on-an-object.png)en klik vervolgens op **Kopiëren**.
-1. Geef een naam voor de sjabloon op in het dialoogvenster **Nieuwe sjabloonnaam** veld.
+1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan klik **Exemplaar**.
+1. Specificeer een naam voor het malplaatje op het **Nieuwe gebied van de Naam van het Malplaatje**.
 
-   Standaard is de nieuwe naam **Kopie van `<original template name>`.**
+   Door gebrek, is de nieuwe naam **Exemplaar van `<original template name>`.**
 
-1. Selecteer of u wilt **Gebruikerstoewijzingen op taken en sjabloon behouden**: selecteer deze optie als u alle taken en sjabloontoewijzingen van de oorspronkelijke sjabloon naar de nieuwe sjabloon wilt verplaatsen.
-1. Klikken **Opslaan** een kopie van de sjabloon maken.
+1. Selecteer of u gebruikerstaken op taken en malplaatje **wilt behouden: selecteer deze optie om alle taak en malplaatjetaken van het originele malplaatje aan het nieuwe malplaatje te dragen.**
+1. Klik **sparen** om een exemplaar van het malplaatje tot stand te brengen.

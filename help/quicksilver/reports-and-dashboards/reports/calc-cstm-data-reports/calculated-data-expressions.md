@@ -24,11 +24,11 @@ U kunt berekende gegevensexpressies gebruiken in:
 
 * Een berekend aangepast veld op een aangepast formulier
 
-  Ga voor meer informatie over het maken van berekende aangepaste velden op aangepaste formulieren in Workfront naar [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [ berekende gegevens aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 * Een berekende aangepaste kolom in een rapport of lijst wanneer u de tekstmodus gebruikt
 
-  Ga voor meer informatie over het gebruik van de tekstmodus in rapporten en weergaven naar [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Voor meer informatie over het gebruiken van tekstwijze in rapporten en meningen, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen
 
@@ -77,17 +77,17 @@ Bijvoorbeeld:
   >
   >Dezelfde syntaxis is van toepassing op alle rapportelementen in de tekstmodus waarvoor berekende expressies worden gebruikt: weergaven, filters, groepen en aanwijzingen.
 
-Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Gegevensexpressies die u kunt gebruiken
 
 In de onderstaande lijsten worden de beschikbare expressies gedefinieerd die u kunt gebruiken wanneer u een van de drie verschillende typen berekende aangepaste velden maakt in Workfront:
 
-* [Berekende datum en tijd, aangepaste velden](#date-time-calculated-custom-fields)
-* [Wiskundige berekende aangepaste velden](#mathematical-calculated-custom-fields)
+* [ Datum en tijd berekende douanevelden ](#date-time-calculated-custom-fields)
+* [ Wiskundige berekende douanevelden ](#mathematical-calculated-custom-fields)
 * [Berekende tekst, aangepaste velden](#text-calculated-custom-fields)
 
-U kunt de hieronder vermelde uitdrukkingen gebruiken om berekende douanekolommen te bouwen. U moet echter de juiste syntaxis gebruiken voor een berekende aangepaste kolom, zoals beschreven in de sectie  [Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel.
+U kunt de hieronder vermelde uitdrukkingen gebruiken om berekende douanekolommen te bouwen. Nochtans, moet u de correcte syntaxis voor een berekende douanekolom gebruiken, zoals die in de sectie [ Syntaxis van berekende douanegebieden vs. berekende douanekolommen ](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel wordt beschreven.
 
 ### Berekende datum en tijd, aangepaste velden {#date-time-calculated-custom-fields}
 
@@ -108,127 +108,127 @@ U kunt een datum- of tijdberekend aangepast veld maken met de volgende expressie
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>ADDDAYS</strong> </td> 
+   <td><strong> ADDDAYS </strong> </td> 
    <td> <p>Hiermee voegt u het aantal dagen toe aan de datum. De getalwaarde kan gedeeltelijke dagen omvatten. 1,5 voegt bijvoorbeeld anderhalve dag toe aan de datum.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>ADDDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDWEEKDAYS</strong> </td> 
+   <td><strong> ADDWEEKDAYS </strong> </td> 
    <td> <p>Hiermee voegt u het aantal weekdagen toe aan de datum. Met deze expressie worden alleen gehele gehele getallen aan de datum toegevoegd, naar beneden afgerond. </p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDMONTHS</strong> </td> 
+   <td><strong> ADDMONTHS </strong> </td> 
    <td> <p>Hiermee voegt u het aantal maanden toe aan de datum. De notatie is als volgt:
 
 </p><p><code>ADDMONTHS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDYEARS</strong> </td> 
+   <td><strong> ADDYEARS </strong> </td> 
    <td> <p>Hiermee voegt u het aantal jaren toe aan de datum. De notatie is als volgt:</p>
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>CLEARTIME</strong> </td> 
+   <td><strong> CLEARTIME </strong> </td> 
    <td> <p>Wist het tijdgedeelte van een datum en is als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>CLEARTIME({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DATE</strong> </td> 
+   <td><strong> DATUM </strong> </td> 
    <td> <p>Converteert een tekenreeks naar een datum en is als volgt opgemaakt:</p>
 
 <p><code>DATE(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DATEDIFF</strong> </td> 
+   <td><strong> DATEDIFF </strong> </td> 
    <td> <p>Geeft als resultaat het aantal dagen tussen de twee datums, rekening houdend met de begin- en einddagen van de geselecteerde periode en de tijdstempels op die dagen. Als de begintijd van de begindatum bijvoorbeeld 3 PM is, wordt de begindag niet geteld als een volledige dag.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>DATEDIFF(date1, date2)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAYOFMONTH</strong> </td> 
+   <td><strong> DAYOFMONTH </strong> </td> 
    <td> <p>Retourneert de dag van de maand voor de datum als een getal tussen 1 en 31.</p> <p>De expressie wordt als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>DAYOFMONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAYOFWEEK</strong> </td> 
+   <td><strong> DAYOFWEEK </strong> </td> 
    <td> <p>Retourneert de dag van de week voor de datum als een getal tussen 1 (zondag) en 7 (zaterdag).</p> <p>De expressie wordt als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>DAYOFWEEK({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAYSINMONTH</strong> </td> 
+   <td><strong> DAYSINMONTH </strong> </td> 
    <td> <p>Retourneert het totaal aantal dagen in de maand van de datum als een getal en wordt als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>DAYSINMONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAYSINSPLITWEEK</strong> </td> 
+   <td><strong> DAYSINSPLITWEEK </strong> </td> 
    <td> <p>Geeft als resultaat het totale aantal weekdagen tussen de datum en het einde van de week of, indien dit eerder is, het einde van de maand. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>DAYSINSPLITWEEK({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAYSINYEAR</strong> </td> 
+   <td><strong> DAYSINYEAR </strong> </td> 
    <td> <p>Retourneert het totaal aantal dagen in het jaar van de datum als een getal en wordt als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>DAYSINYEAR({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DMAX</strong> </td> 
+   <td><strong> DMAX </strong> </td> 
    <td> <p>Retourneert de laatste datum in de lijst en is als volgt opgemaakt:</p>
 
 <p><code>DMAX(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DMIN</strong> </td> 
+   <td><strong> DMIN </strong> </td> 
    <td> <p>Retourneert de vroegste datum in de lijst en is als volgt opgemaakt:</p>
 
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>UUR</strong> </td> 
+   <td><strong> UUR </strong> </td> 
    <td> <p>Retourneert het uur van de datum als een getal tussen 0 en 23.</p> <p>De expressie wordt als volgt opgemaakt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MINUUT</strong> </td> 
+   <td><strong> MINUUTE </strong> </td> 
    <td> <p>Retourneert de minuut van de datum als een getal tussen 0 en 60, opgemaakt als volgt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>MAAND</strong> </td> 
+   <td><strong> MAAND </strong> </td> 
    <td> <p>Retourneert de maand van de datum als een getal tussen 1 en 12, opgemaakt als volgt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>TWEEDE</strong> </td> 
+   <td><strong> TWEEDE </strong> </td> 
    <td> <p>Retourneert de tweede van de datum als een getal tussen 0 en 60, opgemaakt als volgt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>WEEKDAYDIFF</strong> </td> 
+   <td><strong> WEEKDAYDIFF </strong> </td> 
    <td> <p>Geeft als resultaat het aantal weekdagen tussen twee datums, rekening houdend met de begin- en einddagen van de geselecteerde periode en de tijdstempels op die dagen. Als de begintijd van de begindatum bijvoorbeeld 3 PM is, wordt de begindag niet als een volledige dag geteld.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>WEEKDAYDIFF(date2, date1)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>WORKMINUTESDIFF</strong> </td> 
+   <td><strong> WORKMINUTESDIFF </strong> </td> 
    <td> <p>Retourneert het aantal geplande minuten tussen de datums volgens het standaardschema.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>WORKMINUTESDIFF(date1, date2)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>JAAR</strong> </td> 
+   <td><strong> JAAR </strong> </td> 
    <td> <p>Retourneert het jaar van de datum als een getal van 4 cijfers, opgemaakt als volgt. In dit voorbeeld is de datum de ingangsdatum voor een werkobject.</p>
 
 <p><code>YEAR({entryDate})</code></p> </td> 
@@ -251,71 +251,71 @@ U kunt een berekend aangepast veld maken dat een aantal van de volgende wiskundi
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>ABS</strong> </td> 
+   <td><strong> ABS </strong> </td> 
    <td>Retourneert de absolute waarde van het getal en is als volgt opgemaakt. In dit voorbeeld wordt het aantal objecten gebruikt onder het object waaraan het aangepaste formulier is gekoppeld.
 
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>GEMIDDELD</strong> </td> 
+   <td><strong> GEMIDDELD </strong> </td> 
    <td>Retourneert het gemiddelde van getallen en is als volgt opgemaakt:
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>CEIL</strong> </td> 
+   <td><strong> CEIL </strong> </td> 
    <td>Rondt een getal af tot op het dichtstbijzijnde gehele getal en wordt als volgt opgemaakt. In dit voorbeeld wordt het aantal objecten gebruikt onder het object waaraan het aangepaste formulier is gekoppeld.
 
 <p><code>CEIL({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>DIV</strong> </td> 
+   <td><strong> DIV </strong> </td> 
    <td>Verdeelt alle getallen in de opgegeven volgorde en is als volgt opgemaakt:
 
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOOR</strong> </td> 
+   <td><strong> VLOER </strong> </td> 
    <td>Rondt een getal af naar het dichtstbijzijnde gehele getal en wordt als volgt opgemaakt. In dit voorbeeld wordt het aantal objecten gebruikt onder het object waaraan het aangepaste formulier is gekoppeld.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>LN</strong> </td> 
+   <td><strong> LN </strong> </td> 
    <td>Retourneert de natuurlijke logaritmewaarde van het getal en wordt als volgt opgemaakt:
 
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>LOG</strong> </td> 
+   <td><strong> LOG </strong> </td> 
    <td>Retourneert de logaritmewaarde van number2 naar het basissenummer1 en is als volgt opgemaakt:
 
 <p><code>LOG(number1, number2)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>MAX</strong> </td> 
+   <td><strong> MAX </strong> </td> 
    <td>Retourneert het grootste item in de lijst en is als volgt opgemaakt:
 
 <p><code>MAX(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>MIN</strong> </td> 
+   <td><strong> MIN </strong> </td> 
    <td>Retourneert het kleinste item in de lijst en is als volgt opgemaakt:
 
 <p><code>MIN(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>NUMMER</strong> </td> 
+   <td><strong> GETAL </strong> </td> 
    <td>Zet een tekenreeks om in een getal en is als volgt opgemaakt:<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>POWER</strong> </td> 
+   <td><strong> KRACHT </strong> </td> 
    <td>Retourneert een getal dat tot een macht is verheven en dat als volgt is opgemaakt:
 
 <p><code>POWER(number, power)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>PROD</strong> </td> 
+   <td><strong> PROD </strong> </td> 
    <td>Vermenigvuldigt alle getallen en is als volgt opgemaakt:
 
 <p><code>PROD(number1, number2, ....)</code></p>
@@ -325,37 +325,37 @@ U kunt een berekend aangepast veld maken dat een aantal van de volgende wiskundi
    </td> 
   </tr> 
   <tr> 
-   <td><strong>ROND</strong> </td> 
+   <td><strong> ROND </strong> </td> 
    <td>Rondt het getal af tot de opgegeven decimalen met de nauwkeurigheid en wordt als volgt opgemaakt:
 
 <p><code>ROUND(number, precision)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SORTASCNUM</strong> </td> 
+   <td><strong> SORTASCNUM </strong> </td> 
    <td> <p> De getallen worden in oplopende volgorde gesorteerd en worden als volgt opgemaakt:</p>
 
 <p><code>SORTASCNUM(number1,number2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SORTDESCNUM</strong> </td> 
+   <td><strong> SORTDESCNUM </strong> </td> 
    <td>De getallen worden in aflopende volgorde gesorteerd en worden als volgt opgemaakt:
 
 <p><code>SORTDESCNUM(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SQRT</strong> </td> 
+   <td><strong> SQRT </strong> </td> 
    <td> <p>Retourneert een vierkantswortel van een getal en is als volgt opgemaakt. In dit voorbeeld wordt het aantal objecten gebruikt onder het object waaraan het aangepaste formulier is gekoppeld.</p>
 
 <p><code>SQRT({numberOfChildren})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUB</strong> </td> 
+   <td><strong> SUB </strong> </td> 
    <td>Trekt alle aantallen in de verstrekte orde af en is geformatteerd als volgt:
 
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong> SUM </strong> </td> 
    <td>Voegt alle getallen toe en wordt als volgt opgemaakt:
 
 <p><code>SUM(number1, number2, ...)</code></p></td> 
@@ -378,7 +378,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>CASE</strong> </td> 
+   <td><strong> ZAAK </strong> </td> 
    <td> <p>Wordt gebruikt met andere expressies om een waarde in een lijst te kiezen op basis van een indexnummer. </p>
    <p>Een indexnummer is een veld of functie die een numerieke waarde retourneert (gewoonlijk in een bekend bereik).</p> 
    <p>De expressie wordt als volgt opgemaakt:</p>
@@ -391,7 +391,7 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 <p>Werkt het best met andere expressies die een getal retourneren, zoals DAYOFWEEK, DAYOFMONTH en MONTH.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>CONCREET</strong> </td> 
+   <td><strong> CONCAT </strong> </td> 
    <td> <p>Voegt de tekenreeks samen en is als volgt opgemaakt:</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>Hieronder volgen voorbeelden van scheidingstekens die u kunt opnemen:</p> 
     <ul> 
      <li>een spatie: " "</li> 
@@ -402,19 +402,19 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>BEVATTEN</strong> </td> 
+   <td><strong> BEVAT </strong> </td> 
    <td>Retourneert true als de findText-tekenreeks is gevonden binnen de withinText-tekenreeks en als volgt is opgemaakt:
 
 <p><code>CONTAINS(findText, withinText)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>ENCODEURL</strong> </td> 
+   <td><strong> ENCODEURL </strong> </td> 
    <td>Hiermee worden alle speciale tekens in de tekenreeks verwijderd, zodat deze in een URL-argument kunnen worden opgenomen.<p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>IF</strong> </td> 
+   <td><strong> IF</strong> </td> 
    <td> <p>Evalueert een voorwaarde die u specificeert en de waarde van trueExpression terugkeert als het waar is, of de waarde van falseExpression als het vals is.</p>
 
 <p>De expressie wordt als volgt opgemaakt:</p>
@@ -434,10 +434,10 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Voor meer informatie over het samenstellen van "IF"verklaringen, zie <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Overzicht van "IF"-instructies</a>.</p> </td> 
+<p>Voor meer informatie over de bouw van "IF"verklaringen, zie <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref"> "IF"verklaringen overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>IFIN</strong> </td> 
+   <td><strong> IFIN </strong> </td> 
    <td> <p>Hiermee kunt u zoeken naar een specifieke waarde in een reeks mogelijke waarden. Als de waarde u zoekt één van de verstrekte waarden evenaart, dan keert de uitdrukking trueExpression terug; anders, keert het falseExpression terug.</p> 
    <p>De expressie wordt als volgt opgemaakt:</p>
 
@@ -452,85 +452,85 @@ U kunt een berekend aangepast veld maken waarin een waarde met tekstopmaak wordt
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","")</code></p> </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>IN</strong> </td> 
+   <td><strong> IN </strong> </td> 
    <td> <p>Retourneert true als de waarde gelijk is aan een van de opgegeven waarden; anders retourneert de expressie false.</p> <p>De expressie wordt als volgt opgemaakt:
 
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ISBLANK</strong> </td> 
+   <td><strong> ISBLANK </strong> </td> 
    <td> <p>Retourneert true als de waarde null of leeg is; anders retourneert de expressie false.</p> <p>De expressie wordt als volgt opgemaakt:
 
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LINKS</strong> </td> 
+   <td><strong> LINKS </strong> </td> 
    <td> <p>Retourneert een opgegeven aantal tekens vanaf de linkerzijde van een tekenreeks en wordt als volgt opgemaakt:</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LEN</strong> </td> 
+   <td><strong> LEN </strong> </td> 
    <td> <p>Retourneert de lengte van een tekenreeks en is als volgt opgemaakt:</p>
 
 <p><code>LEN(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>LAGER</strong> </td> 
+   <td><strong> LAGER </strong> </td> 
    <td>Retourneert de tekenreeks in kleine letters en is als volgt opgemaakt:
 
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>VERVANGEN</strong> </td> 
+   <td><strong> VERVANGEN </strong> </td> 
    <td> <p>Vervangt alle instanties van string2 door string3 in string1.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>RECHTS</strong> </td> 
+   <td><strong> RECHTS </strong> </td> 
    <td> <p>Retourneert een opgegeven aantal tekens vanaf de rechterzijde van een tekenreeks en wordt als volgt opgemaakt:</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ZOEKEN</strong> </td> 
+   <td><strong> ZOEKEN </strong> </td> 
    <td> <p>Retourneert de index van de eerste instantie van findText in de tekenreeks binnenText, te beginnen bij de opgegeven startpositie, of -1 als de tekst niet wordt gevonden.</p> <p>De expressie wordt als volgt opgemaakt:</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>TEKENREEKS</strong> </td> 
+   <td><strong> TEKENREEKS </strong> </td> 
    <td> <p>Zet een getal om in een tekenreeks en is als volgt opgemaakt:</p>
 
 <p><code>STRING(number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SORTASCSTRING</strong> </td> 
+   <td><strong> SORTASCSTRING </strong> </td> 
    <td> <p>Hiermee wordt een lijst met tekenreeksen oplopend gesorteerd. De lijst is als volgt opgemaakt:</p>
 
 <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SORTDESCSTRING</strong> </td> 
+   <td><strong> SORTDESCSTRING </strong> </td> 
    <td> <p> Sorteert een lijst van koorden in dalende orde en is geformatteerd als volgt:</p>
 
 <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>SUBSTR</strong> </td> 
+   <td><strong> SUBSTR </strong> </td> 
    <td> <p>Retourneert tekens van een tekenreeks op basis van de opgegeven begin- en eindindex en is als volgt opgemaakt:</p>
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>TRIM</strong> </td> 
+   <td><strong> TRIM </strong> </td> 
    <td> <p>Verwijdert witruimte aan het begin en einde van een tekenreeks en wordt als volgt opgemaakt:</p>
 
 <p><code>TRIM(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>BOVEN</strong> </td> 
+   <td><strong> BOVENSTE </strong> </td> 
    <td> <p>Retourneert een tekenreeks in hoofdletters en is als volgt opgemaakt:</p>
 
 <p><code>UPPER(string)</code></p> </td> 

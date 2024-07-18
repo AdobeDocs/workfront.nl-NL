@@ -30,7 +30,7 @@ hide: yes
 
 {{planning-important-intro}}
 
-Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergave van recordtypen bewerken die u of iemand anders heeft gemaakt. Voor informatie over het maken van recordtypen voor Workfront Planning raadpleegt u [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergave van recordtypen bewerken die u of iemand anders heeft gemaakt. Voor informatie over het creëren van het verslagtypes van de Planning van Workfront, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Toegangsvereisten
 
@@ -75,13 +75,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
@@ -104,23 +104,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 
    De werkruimte wordt geopend en de recordtypen worden weergegeven.
-1. Houd de muisaanwijzer boven de kaart van een recordtype en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de recordtypekaart klikt u op **Bewerken**.
+1. Beweeg over de kaart van een verslagtype en klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. In de **Recordtype bewerken** werkt u de volgende gegevens bij:
+1. In **geef verslagtype** doos uit, werk de volgende informatie bij:
 
    * Bewerk indien nodig de naam van het recordtype. <!--did they add a field label for this? -->
-   * **Beschrijving**: Bewerk of voeg een beschrijving voor het recordtype toe met meer informatie erover.
+   * **Beschrijving**: geef of voeg een beschrijving voor het verslagtype met meer informatie over het uit.
    * Bewerk de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
      ![](assets/update-record-type-box.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 1. (Optioneel) Klik op de kaart met het recordtype in de werkruimte om de pagina met het recordtype te openen.
-1. Klik op de knop **Meer** rechts van de naam van het recordtype klikt u op **Bewerken** om informatie over het recordtype bij te werken.
+1. Klik het **Meer** menu rechts van de naam van het verslagtype, dan klik **uitgeven** om informatie over het verslagtype bij te werken.
 
    >[!TIP]
    >

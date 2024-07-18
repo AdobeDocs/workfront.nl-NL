@@ -9,7 +9,7 @@ role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## Nieuwe bronnen
 
-Dit is een lijst met bronnen die nieuw zijn voor API-versie 9. Voor een lijst met updates van de bronnen van versie 8 gaat u naar [Updates voor API versie 8](../../wf-api/api/new-api-version-8-updates.md)
+Dit is een lijst met bronnen die nieuw zijn voor API versie 9. Voor een lijst van updates die aan de middelen van versie 8 zijn gemaakt te bezoeken gelieve [ Updates aan API Versie 8 ](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 

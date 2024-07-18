@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt de mening van de Mijlpaal op een projectlijst of een rapport toepassen.
 
-Voordat u de milestone-weergave kunt gebruiken, moeten de mijlpalen zijn geconfigureerd, moeten de milestone-paden aan projecten worden toegevoegd en moeten de mijlpalen worden gekoppeld aan taken, zoals beschreven in de artikelen [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) en [Mijlpalen koppelen aan taken](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Alvorens u de milestone mening kunt gebruiken, moeten de Mijlpalen worden gevormd, moeten de Wegen van de Mijlsteen aan projecten worden toegevoegd, en de Mijlpalen moeten met taken worden geassocieerd, zoals die in de artikelen [ worden beschreven leidt tot een milestone weg ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) en [ Verwante mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 De mening van de Mijlpaal is beschikbaar wanneer het bekijken van een projectlijst of een projectrapport. De volgende secties beschrijven om de milestone mening te bekijken en te gebruiken.
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,11 +64,11 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 {{step1-to-projects}}
 
-1. Klik op de knop **Weergave** vervolgkeuzemenu en vervolgens op **Mijlsteen**.
+1. Klik het **drop-down menu van de Mening**, dan klik **Mijlpaal**.
 
    De lijst of het rapport wordt weergegeven in een Mijlsteenweergave.
 
-   Zie de sectie voor informatie over de mijlpaalweergave [Overzicht van de mijlpaalweergave](#milestone-view-overview) in dit artikel.
+   Voor informatie over de milestone mening, zie het overzicht van de sectie [ mening Mijlsteen ](#milestone-view-overview) in dit artikel.
 
 ## Overzicht van de mijlpaalweergave {#milestone-view-overview}
 
@@ -82,9 +82,9 @@ De mening van de Mijlpaal is beschikbaar op projectlijsten en projectrapporten. 
 >* Tijdschema&#39;s, in de projectlijst wanneer het toevoegen van een project.
 
 
-Zie de sectie voor informatie over het schakelen naar de Mijlsteenweergave [Overschakelen naar de milestone-weergave](#switch-to-the-milestone-view) in dit artikel.
+Voor informatie over hoe te om aan de mening van de Mijlpaal over te schakelen, zie de sectie [ Schakelaar aan de mening van de Mijlpaal ](#switch-to-the-milestone-view) in dit artikel.
 
-![Project met mijlpaalweergave](assets/project-with-milestone-view-with-complete.png)
+![ Project met milestone mening ](assets/project-with-milestone-view-with-complete.png)
 
 ### Fragmenten uit de Mijlsteenweergave
 
@@ -104,19 +104,19 @@ Wanneer het toepassen van de mening van de Mijlpaal op een lijst van projecten, 
 
 Wanneer het bekijken van een projectlijst of een projectrapport in de mening van de Mijlpaal, is de volgende informatie beschikbaar:
 
-* **Geplande datums of verwachte datums:** Geef op of u geplande datums of geprojecteerde datums wilt weergeven in de milestone-weergave.\
+* **Geplande Data of Geprojecteerde Datums:** specificeer of u Geplande Data of Geprojecteerde Datums in de mening van de Mijlpaal wilt tonen.\
   Datums worden weergegeven voor het begin en de voltooiing en voor elke mijlpaal in het pad van de mijlpaal.\
   Als u Geplande Data bekijkt en u hebt ook beheertoegang tot het project, kunt u de volgende datums rechtstreeks vanuit de Mijlpaal-weergave bewerken: (Als u Geprojecteerde datums weergeeft, kunnen de datums niet worden bewerkt omdat Geprojecteerde datums worden berekend en niet handmatig kunnen worden gewijzigd.)
 
-   * **Begindatums van project:** Als een project van de Datum van het Begin gepland is, kunt u de Datum van het Begin van het project manueel veranderen, en de Datum van de Voltooiing wordt dan berekend.
-   * **Voltooiingsdata van project:** Als een project van de Datum van de Voltooiing gepland is, kunt u de Datum van de Voltooiing van het project manueel veranderen, en de Datum van het Begin wordt dan berekend.
-   * **Voltooiingsdatums taak:** U kunt Voltooiing voor taken rechtstreeks vanuit de Mijlsteenweergave handmatig bijwerken.
+   * **Datums van het Begin van het Project:** als een project van de Datum van het Begin wordt gepland, kunt u de Datum van het Begin van het project manueel veranderen, en de Datum van de Voltooiing wordt dan berekend.
+   * **de Datums van de Voltooiing van het Project:** als een project van de Datum van de Voltooiing wordt gepland, kunt u de Datum van de Voltooiing van het project manueel veranderen, en de Datum van het Begin wordt dan berekend.
+   * **Datums van de Voltooiing van de Taak:** u kunt Voltooiing voor taken direct van de mening van de Mijlpaal manueel bijwerken.
 
-* **Percentage voltooid:** Toont het voltooiingspercentage van elke taak en project.\
-  U kunt de weergave van het voltooiingspercentage uitschakelen, zoals wordt beschreven in de sectie [Vorm welke informatie in de mening van de Mijlpaal toont](#configure-what-information-displays-in-the-milestone-view) in dit artikel.\
-  U kunt het voltooiingspercentage rechtstreeks vanuit de milestone-weergave aanpassen, zoals wordt beschreven in de sectie [Percentage van voltooiing aanpassen voor taken in de weergave Mijlpaal](#adjust-percent-complete-for-tasks-in-the-milestone-view) in dit artikel.
+* **Volledige Percentage:** toont het voltooiingspercentage van elke taak en project.\
+  U kunt het voltooiingspercentage van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.\
+  U kunt het voltooiingspercentage direct van de mening van de Mijlpaal aanpassen, zoals die in de sectie [ wordt beschreven Pas Percentage volledig voor taken in de mening van de Mijlpaal ](#adjust-percent-complete-for-tasks-in-the-milestone-view) in dit artikel aan.
 
-* **Taakstatuspictogrammen:** Er wordt een statuspictogram weergegeven naast elk project en elke taak in de Mijlsteenweergave.
+* **de statuspictogrammen van de Taak:** A statuspictogram wordt getoond naast elk project en taak in de mening van de Mijlpaal.
 
    * Op tijd\
      ![](assets/gantt-ontime.png)
@@ -130,35 +130,35 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
    * Late\
      ![](assets/gantt-late.png)
 
-  U kunt de weergave van deze statuspictogrammen uitschakelen, zoals beschreven in de sectie [Vorm welke informatie in de mening van de Mijlpaal toont](#configure-what-information-displays-in-the-milestone-view) in dit artikel.\
-  Raadpleeg het artikel voor meer informatie over elk statustype [Overzicht van status voortgang taak](../../../manage-work/tasks/task-information/task-progress-status.md).
+  U kunt deze statuspictogrammen van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.\
+  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [ ](../../../manage-work/tasks/task-information/task-progress-status.md).
 
-* **Taakstatusarcering voor voltooide taken**: Nadat een taak is gemarkeerd als Voltooid, wordt de achtergrond van de taak gearceerd weergegeven in de milestone-weergave om aan te geven of de taak op tijd of te laat is voltooid:
+* **de status die van de Taak voor voltooide taken** wordt in de schaduw gesteld: Nadat een taak voltooid is, wordt de achtergrond van de taak gearceerd in de mening van de Mijlpaal om erop te wijzen of de taak op tijd of laat werd voltooid:
 
-   * **Rode arcering voor taakkolom**: De achtergrond van een taak is rood wanneer de status van de voortgang is **Late**.
+   * **Rode schaduwen voor taakkolom**: De achtergrond van een taak is rood wanneer de Status van de Voortgang **Late** is.
 
-   * **Groene arcering voor taakkolom**: De achtergrond van een taak is groen wanneer de status van de voortgang is **Op tijd**.
+   * **Groene het in de schaduw stellen voor taakkolom**: De achtergrond van een taak is groen wanneer de Status van de Voortgang **op Tijd** is.
 
-* **Projectstatusschaduw voor de kolommen Start en Voltooiing van het project**:
+* **de status die van het Project voor de kolommen van het Begin en van de Voltooiing van het Project** wordt in de schaduw gesteld:
 
-   * **Beginkolom project**: De achtergrond van de kolom Start van project is alleen rood of groen als de werkelijke begindatum is ingevuld:
+   * **Kolom van het Begin van het Project**: De achtergrond van de kolom van het Begin van het Project is rood of groen slechts wanneer de Ware Datum van het Begin wordt bevolkt:
 
-      * **Rode arcering voor de kolom Start van project**: De achtergrond van de kolom van het Begin van het Project is rood wanneer de Voortgangsstatus van het project is **Late**.
+      * **Rode schaduwen voor de kolom van het Begin van het Project**: De achtergrond van de kolom van het Begin van het Project is rood wanneer de Voortgangsstatus van het project **Late** is.
 
-      * **Groene arcering voor de kolom Start van project**: De achtergrond van de kolom van het Begin van het Project is groen wanneer de Voortgangsstatus van het project is **Op tijd**.
+      * **Groene schaduw voor de kolom van het Begin van het Project**: De achtergrond van de kolom van het Begin van het Project is groen wanneer de Voortgangsstatus van het project **op Tijd** is.
 
-   * **Kolom Projectvoltooiing**: De achtergrond van de kolom Voltooiing van project is alleen rood of groen als de datum van feitelijke voltooiing is ingevuld:
+   * **de kolom van de Voltooiing van het Project**: De achtergrond van de kolom van de Voltooiing van het Project is rood of groen slechts wanneer de Ware Datum van de Voltooiing wordt bevolkt:
 
-      * **Rode arcering voor kolom Voltooien project**: De achtergrond van de kolom Projectvoltooiing is rood wanneer de Voortgangsstatus van het project is **Late**.
+      * **Rood het Schaduwen voor de kolom van de Voltooiing van het Project**: De achtergrond van de kolom van de Voltooiing van het Project is rood wanneer de Voortgangsstatus van het project **Late** is.
 
-      * **Groene arcering voor de kolom Projectvoltooiing**: De achtergrond van de kolom Projectvoltooiing is groen wanneer de Voortgangsstatus van het project is **Op tijd**.
+      * **Groene het in de schaduw stellen voor de kolom van de Voltooiing van het Project**: De achtergrond van de kolom van de Voltooiing van het Project is groen wanneer de Voortgangsstatus van het project **op Tijd** is.
 
    * Er wordt geen kleurschaduw toegewezen aan de kolommen Start en Voltooiing wanneer de taken de status Voortgang hebben van Op risico of Achter.
 
-  ![Mijlpaal, weergave met schaduw](assets/milestone-view-with-shading.png)
+  ![ Mijlsteenmening met het in de schaduw stellen ](assets/milestone-view-with-shading.png)
 
-* **Projectnaam**: De projectnaam wordt weergegeven met een koppeling naar het project.
-* **Pictogram Projectvoorwaarde**: Er wordt een pictogram weergegeven naast de projectnaam om de voorwaarde van het project aan te geven.
+* **naam van het Project**: De projectnaam wordt getoond met een verbinding aan het project.
+* **het pictogram van de Voorwaarde van het Project**: Een pictogram wordt getoond naast de projectnaam, die op de voorwaarde van het project wijzen.
 
 ## Vorm welke informatie in de mening van de Mijlpaal toont {#configure-what-information-displays-in-the-milestone-view}
 
@@ -175,11 +175,11 @@ Om te vormen of de pictogrammen van de projectstatus en voltooiingspercentage va
 
 {{step1-to-projects}}
 
-1. Klik op de knop **Weergave** vervolgkeuzemenu en vervolgens op **Mijlsteen**.\
-   Als u een lijst met projecten in een Portfolio of programma weergeeft, selecteert u de opdracht **Mijlsteen** subtab.
+1. Klik het **drop-down menu van de Mening**, dan klik **Mijlpaal**.\
+   Als u een lijst van projecten binnen een Portfolio of een Programma bekijkt, selecteer **Mijlsteen** subtab.
 
-1. Klikken **Opties** in de rechterbovenhoek van de milestone-weergave.\
-   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
+1. Klik **Opties** in de hoger-juiste hoek van de mening van de Mijlpaal.\
+   ![ milestone_view_options.png ](assets/milestone-view-options-350x141.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -206,8 +206,8 @@ Om het percentage aan te passen volledig voor een taak in de mening van de Mijlp
 
 {{step1-to-projects}}
 
-1. Klik op de knop **Weergave** vervolgkeuzemenu en vervolgens op **Mijlsteen**.
+1. Klik het **drop-down menu van de Mening**, dan klik **Mijlpaal**.
 
-1. (Voorwaardelijk) Als de voltooiingspercentages niet worden weergegeven in de Mijlsteenweergave, klikt u op **Opties** in de rechterbovenhoek van de Milestone-weergave en zorg vervolgens dat **Percentage voltooid** is ingeschakeld.
+1. (Voorwaardelijk) als de voltooiingspercentages niet huidig zijn die in de mening van de Mijlpaal tonen, klik **Opties** in de hoger-juiste hoek van de mening van de Mijlpaal, dan ervoor zorgen dat **Volledige Percentage** wordt toegelaten.
 
 1. Klik op het voltooiingspercentage onder een taak, geef een nieuw percentage op en druk op Enter.

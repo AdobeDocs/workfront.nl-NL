@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # [!DNL Microsoft Word Template] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Microsoft Word Templates]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Microsoft Word Templates] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
@@ -60,19 +60,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Voor gebruik [!DNL Miscrosoft Word Templates] with [!DNL Adobe Workfront Fusion], is het noodzakelijk [!DNL Office 365] account. U kunt er een maken op www.office.com.
+Als u [!DNL Miscrosoft Word Templates] met [!DNL Adobe Workfront Fusion] wilt gebruiken, hebt u een [!DNL Office 365] -account nodig. U kunt er een maken op www.office.com.
 
 
 
-## De [!DNL Office] service aan [!DNL Workfront Fusion]
+## De service [!DNL Office] verbinden met [!DNL Workfront Fusion]
 
-Voor instructies over het aansluiten van uw [!DNL Office] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Office] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -80,11 +80,11 @@ Voor instructies over het aansluiten van uw [!DNL Office] account aan [!UICONTRO
 >
 >Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
-## Gebruiken [!DNL Microsoft Word Templates] modules
+## [!DNL Microsoft Word Templates] modules gebruiken
 
-U kunt een [!DNL Microsoft Word Template] module voor het samenvoegen van gegevens van meerdere webservices in een [!DNL Microsoft Word] document.
+Met een module [!DNL Microsoft Word Template] kunt u gegevens van meerdere webservices samenvoegen in een [!DNL Microsoft Word] -document.
 
-U kunt deze [!DNL Microsoft Word] sjabloon:
+U kunt bijvoorbeeld deze [!DNL Microsoft Word] -sjabloon gebruiken:
 
 ![](assets/word-template-before-filled-350x62.png)
 
@@ -94,25 +94,25 @@ Dit document maken:
 
 ## Waardetags
 
-A [!DNL Microsoft Word] sjabloon is een normaal [!DNL Microsoft Word] document (.docx-bestand) met speciale codes in de tekst die bepalen waar en hoe gegevens moeten worden samengevoegd of ingevuld. Er zijn drie typen tags:
+Een [!DNL Microsoft Word] -sjabloon is een regulier [!DNL Microsoft Word] -document (.docx-bestand) met speciale codes in de tekst die bepalen waar en hoe gegevens moeten worden samengevoegd of ingevuld. Er zijn drie typen tags:
 
-* [Tag voor eenvoudige waarde](#simple-value-tag)
-* [Voorwaardetag](#condition-tag)
+* [ Eenvoudige waardetag ](#simple-value-tag)
+* [ markering van de Voorwaarde ](#condition-tag)
 * [Tag herhalen](#loop-tag)
 
 ### Tag voor eenvoudige waarde {#simple-value-tag}
 
-Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de naam [!UICONTROL Key] veldwaarde, die binnen dubbele accolades wordt geplaatst, bijvoorbeeld
+Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waarde. De naam van de tag komt overeen met de waarde van het veld [!UICONTROL Key] , die binnen dubbele accolades wordt geplaatst, bijvoorbeeld
 
 
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
-**Voorbeeld:** Als u een document wilt maken met de tekst &quot;Hi, Petr!&quot;, kunt u een [!DNL Microsoft Word Template] om de volgende sjabloon te maken:
+**Voorbeeld:** om een document tot stand te brengen dat &quot;Hi, Petr!&quot;zegt, kon u een [!DNL Microsoft Word Template] module gebruiken om het volgende malplaatje tot stand te brengen:
 
-<pre>&gt; Hallo &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+<pre>&gt; Hallo {{name}}!</pre>
 
 Hiervoor stelt u de module als volgt in:
 
@@ -122,8 +122,8 @@ Hiervoor stelt u de module als volgt in:
 
 U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet worden gerenderd als aan bepaalde voorwaarden is voldaan. Als u de tekst wilt laten omlopen, plaatst u deze tussen openingstag en afsluitingstag, bijvoorbeeld &quot;hasPhone&quot; als de voorwaarde is of de gegevens al dan niet een telefoonnummer bevatten. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /, zoals in het onderstaande voorbeeld wordt getoond.
 
-**Voorbeeld:** Als u een document wilt maken dat een telefoonnummer van de klant bevat als de invoergegevens een telefoonnummer maar geen e-mailadres bevatten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
-<pre>&gt; &lbrace;&lbrace;#hasPhone}_Telefoon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone}</pre><pre>&gt; &lbrace;&lbrace;#hasEmail}_E-mail: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Hiervoor stelt u de module als volgt in:
+**Voorbeeld:** om een document te veroorzaken dat het telefoonaantal van een klant omvat als de inputgegevens een telefoonaantal, maar geen e-mailadres omvatten, kon u een [!DNL Microsoft Word Template] module gebruiken en het volgende malplaatje creëren:
+<pre>&gt; {#hasPhone} Telefoon: {{phone}} {{/hasPhone}</pre><pre>&gt; {#hasEmail} E-mail: {{email}} {{/hasEmail}}</pre>Hiervoor stelt u de module als volgt in:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -134,14 +134,14 @@ In het document ziet het telefoonnummer er als volgt uit:
 
 U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. Plaats de tekst tussen de openings- en sluitingslustags. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /.
 
-* [Tag herhalen met een documentmodule invullen](#loop-tag-with-fill-out-a-document-module)
+* [ markering van de Lijn met Vul een documentmodule ](#loop-tag-with-fill-out-a-document-module)
   <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### Tag herhalen met een documentmodule invullen {#loop-tag-with-fill-out-a-document-module}
 
-**Voorbeeld:** Als u een document wilt maken met de naam en het telefoonnummer van elk contact in een lijst met klanten, kunt u een [!DNL Microsoft Word Template] en maak de volgende sjabloon:
+**Voorbeeld:** om een document te veroorzaken dat van de naam en het telefoonaantal van elk contact in een klantenlijst een lijst maakt, kon u a [!DNL Microsoft Word Template] module gebruiken en het volgende malplaatje creëren:
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+<pre>&gt; {#contact}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Hiervoor stelt u de module als volgt in:
 
@@ -182,7 +182,7 @@ The module would create the following document:
 
 Deze modules vereisen geen verbinding.
 
-* [Een document invullen](#fill-out-a-document)
+* [ Vul een document ](#fill-out-a-document)
 * [Een document vullen met een batch gegevens](#fill-a-document-with-a-batch-of-data)
 
 ### [!UICONTROL Fill out a document] {#fill-out-a-document}
@@ -195,11 +195,11 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Enter <code>[[</code> als u een tekst wilt vervangen die vergelijkbaar is met deze: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>[[</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Enter <code>]]</code> als u een tekst wilt vervangen die vergelijkbaar is met deze: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>]]</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -218,9 +218,9 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
    <td> <p>Dit moet een array van verzamelingen zijn, waarbij:</p> 
     <ul> 
      <li>Elke verzameling komt overeen met één gegevensitem en bevat één item <code>entry</code></li> 
-     <li>Item <code>entry </code>bevat een verzameling van de <code>key </code>en <code>value</code></li> 
-     <li>Item <code>key </code>bevat de naam van de tag</li> 
-     <li>item <code>value </code>bevat de waarde van de tag</li> 
+     <li>Het punt <code>entry </code> bevat een inzameling van <code>key </code> en <code>value</code></li> 
+     <li>Het punt <code>key </code> bevat de naam van de markering</li> 
+     <li>het punt <code>value </code> bevat de waarde van de markering</li> 
     </ul> 
     <p>Een item toevoegen:</p>
     <ol> 
@@ -241,7 +241,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
 
 Deze aggregatormodule is handig als de gegevensinvoer uit afzonderlijke bundels bestaat. Met deze module, kunt u opstelling gemakkelijk de structuur die voor het gebied van de Waarde wordt vereist en het punten aan elk waardepunt in kaart brengen. In tegenstelling tot de module Een document invullen staat het veld Waarden in het veld Een document vullen met een batch gegevensmodule slechts één item met variabelen toe.
 
-U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door te gebruiken *Iterator* om de inhoud van de array te transformeren naar een reeks bundels.
+U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0} {om de inhoud van de serie in een reeks bundels om te zetten.*
 
 De werkelijke waarden worden gemaakt en ingevuld voor elke binnenkomende bundel. De sjabloon wordt gemaakt nadat alle invoerbundels zijn verwerkt.
 
@@ -257,11 +257,11 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Enter <code>[[</code> als u een tekst wilt vervangen die vergelijkbaar is met deze: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>[[</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Enter <code>]]</code> als u een tekst wilt vervangen die vergelijkbaar is met deze: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>]]</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group by]</td> 
@@ -288,9 +288,9 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
    <td> <p>Dit moet een array van verzamelingen zijn, waarbij:</p> 
     <ul> 
      <li>Elke verzameling komt overeen met één gegevensitem en bevat één item <code>entry</code></li> 
-     <li>Item <code>entry </code>bevat een verzameling van de <code>key </code>en <code>value</code></li> 
-     <li>Item <code>key </code>bevat de naam van de tag</li> 
-     <li>item <code>value </code>bevat de waarde van de tag</li> 
+     <li>Het punt <code>entry </code> bevat een inzameling van <code>key </code> en <code>value</code></li> 
+     <li>Het punt <code>key </code> bevat de naam van de markering</li> 
+     <li>het punt <code>value </code> bevat de waarde van de markering</li> 
     </ul> 
     <p>Een item toevoegen:</p>
     <ol> 

@@ -19,7 +19,7 @@ Het rapport Dagboekingang bevat systeemupdates van het gebied Updates van projec
 >[!TIP]
 >
 >Het rapport van de Ingang van het Dagboek bevat slechts systeemupdates van het gebied van Updates van voorwerpen. Als u opmerkingen wilt rapporteren die nog in het gedeelte Updates staan, moet u het notitierapport gebruiken.\
->Voor meer informatie over het rapport van de Nota, zie [Alle updates in een notitierapport weergeven](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
+>Voor meer informatie over het verslag van de Nota, zie [ Mening alle updates in een Nota- rapport ](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
 
 Het rapport van de Ingang van het Dagboek kan tonen:
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,17 +68,17 @@ Voordat u de in dit artikel beschreven handelingen kunt uitvoeren, moet u het vo
 
 * Alle velden waarvoor je een melding wilt maken, worden bijgehouden in Workfront. U kunt alleen gegevens rapporteren in het gebied Updates dat wordt bijgehouden.
 
-  Ga voor meer informatie over het toevoegen van velden die Workfront moet bijhouden naar [Systeemupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Leren hoe te om gebieden toe te voegen die u Workfront wilt volgen, zie [ systeemupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
-* Voor aangepaste velden waarvoor u een rapport wilt opstellen, geldt de instelling **Wijzigingen in velden weergeven in updateffeeds** ingeschakeld.
+* Om het even welke douanegebieden die u wilt melden hebben de plaatsende **veranderingen van het het gebiedsgebied van de Vertoning in toegelaten updatevoer**.
 
-  Zie voor meer informatie over het inschakelen van deze instelling voor een aangepast veld [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
+  Leren hoe te om dit het plaatsen voor een douanegebied toe te laten, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#) creëren of uitgeven.
 
 ## Overzicht van het Dagboekingrapport
 
 Omdat het rapport van de Ingang van het Dagboek systeemupdates vraagt, kan het een significant aantal resultaten terugkeren. Om deze reden, adviseren wij dat u aan specifiek voorwerp-zoals projecten, programma&#39;s, portefeuilles, groepen, etc.-wanneer het creëren van het rapport filtreert.
 
-Ga voor meer informatie over de verschillende objecttypen in Workfront naar [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Om meer over de verschillende objecten types in Workfront te leren, zie [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 >[!NOTE]
 >
@@ -97,11 +97,11 @@ De standaardmening voor dit rapport bevat de volgende kolommen:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Veldnaam</strong> </td> 
-   <td> <p><span style="font-weight: normal;">De naam van het desbetreffende veld. Afhankelijk van hoe u opstelling het rapport, deze kolom zou Status, identiteitskaart van de Eigenaar, Naam van de Taak, Geplande Datum van de Voltooiing, of andere gebieden kunnen bevatten.</span> </p> <p><span style="font-weight: normal;">Wanneer</span> <strong>DE</strong>:<span style="font-weight: normal;"> in deze kolom wordt aangegeven dat het vermelde veld een aangepast veld is.</span></p> </td> 
+   <td><strong> Naam van het Gebied </strong> </td> 
+   <td> <p><span style="font-weight: normal;"> de naam van het beïnvloede gebied. Afhankelijk van hoe u opstelling het rapport, deze kolom Status, identiteitskaart van de Eigenaar, de Naam van de Taak, Geplande Datum van de Voltooiing, of andere gebieden kon bevatten.</span> </p> <p><span style="font-weight: normal;"> wanneer </span> <strong> DE </strong>:<span style="font-weight: normal;"> vertoningen in deze kolom, wijst het erop dat het vermelde gebied een douanegebied is.</span></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Type wijzigen</strong> </td> 
+   <td><strong> Type van Verandering </strong> </td> 
    <td> <p>Het type wijziging dat in het desbetreffende veld wordt aangebracht. Afhankelijk van de filterregels die u instelt en de acties die gebruikers ondernemen, kan het volgende in dit veld worden weergegeven:</p> 
     <ul> 
      <li> <p>Toevoegen</p> </li> 
@@ -113,19 +113,19 @@ De standaardmening voor dit rapport bevat de volgende kolommen:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>ObjCode boven</strong> </td> 
+   <td><strong> Top ObjCode </strong> </td> 
    <td> <p>Het hoogste bovenliggende object in de hiërarchie.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Toepassingsgebied</strong> </td> 
+   <td><strong> Reikwijdte </strong> </td> 
    <td> <p>Het type object dat is gewijzigd.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Invoerdatum</strong> </td> 
+   <td><strong> Datum van de Ingang </strong> </td> 
    <td> <p>De datum waarop het veld is gewijzigd.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Bewerkt op naam</strong> </td> 
+   <td><strong> die door Naam </strong> wordt uitgegeven </td> 
    <td> <p>De gebruiker die het veld heeft gewijzigd.</p> </td> 
   </tr> 
  </tbody> 
@@ -142,10 +142,10 @@ Zie de desbetreffende sectie voor meer informatie over het instellen van de weer
 </div>
 -->
 
-* [Controleren welke statuswijzigingen zijn opgetreden](#see-what-status-changes-occurred)
-* [Controleren wanneer een taak of probleem is verwijderd](#see-when-a-task-or-issue-was-deleted)
-* [Bekijk hoe aangepaste velden zijn gewijzigd tijdens de levenscyclus van een project](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
-* [Zie hoe de geplande afwerkingsdatum is gewijzigd tijdens de levenscyclus van een project](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
+* [ zie welke statusveranderingen voorkwamen ](#see-what-status-changes-occurred)
+* [ zie wanneer een taak of een kwestie werd geschrapt ](#see-when-a-task-or-issue-was-deleted)
+* [ zie hoe de douanevelden tijdens de het levenscyclus van een project ](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle) veranderden
+* [ zie hoe de Geplande Datum van de Voltooiing tijdens de het levenscyclus van een project ](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle) veranderde
 * [Controleren of de eigenaar van een project is gewijzigd](#see-if-the-owner-of-a-project-changed)
 
 ## Controleren welke statuswijzigingen zijn opgetreden {#see-what-status-changes-occurred}
@@ -158,7 +158,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen:
 * Wie de status heeft gewijzigd
 * Wanneer de status is gewijzigd
 
-Als u de gezondheid van een project wilt zien, kon u opstelling het rapport ook om deze zelfde informatie te tonen gebruikend het project **Voorwaarde** veld.
+Als u de gezondheid van een project wilt zien, kon u opstelling het rapport ook om deze zelfde informatie te tonen gebruikend het 1} gebied van de Voorwaarde van het project **{.**
 
 Deze informatie kan worden gebruikt om met controle te helpen en te illustreren hoe goed u en uw organisatie plannen.
 
@@ -169,16 +169,16 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 >[!TIP]
 >
 >Als u het verschil in dagen tussen voorwaardenveranderingen wilt vergelijken, kunt u Verbeterde analysemogelijkheden gebruiken.\
->Ga voor meer informatie over Verbeterde analysemogelijkheden naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
-1. In de **Kolommen (weergave)** voegt u de volgende kolommen toe:
+1. In de **Kolommen (Mening)** tabel, voeg de volgende kolommen toe:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -192,11 +192,11 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Veldnaam</p> </td> 
-      <td> <p>De naam van het desbetreffende veld. In dit geval: <strong>status</strong> moet in deze kolom worden weergegeven.</p> </td> 
+      <td> <p>De naam van het desbetreffende veld. In dit geval, <strong> status </strong> zou in deze kolom moeten tonen.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Type wijzigen</p> </td> 
-      <td> <p>Het type wijziging dat in het desbetreffende veld wordt aangebracht, zoals <strong>Toevoegen</strong>, <strong>Verwijderen</strong>, of <strong>Bewerken</strong>.</p> </td> 
+      <td> <p>Het type van verandering die aan het beïnvloede gebied wordt aangebracht, zoals <strong> voegt </strong> toe, <strong> schrapt </strong>, of <strong> geeft </strong> uit.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bewerkt op naam</p> </td> 
@@ -210,15 +210,15 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
       <td> <p style="font-weight: bold;">Oude tekstwaarde</p> </td> 
       <td> <p>De sleutel voor de vorige status. Hier volgen de statussleutels voor de standaardstatus van een project:</p> 
        <ul> 
-        <li> <p> <strong>CUR</strong>: Huidige</p> </li> 
-        <li> <p><strong>DED</strong>: dood</p> </li> 
-        <li> <p><strong>ONH</strong>: In de wachtstand</p> </li> 
-        <li> <p><strong>PLN</strong>: Planning</p> </li> 
-        <li> <p><strong>CPL</strong>: Voltooid</p> </li> 
-        <li> <p><strong>REQ</strong>: Gevraagd</p> </li> 
-        <li> <p><strong>APR</strong>: goedgekeurd</p> </li> 
-        <li> <p><strong>REJ</strong>: Afgewezen</p> </li> 
-        <li> <p><strong>IDA</strong>: Idea</p> </li> 
+        <li> <p> <strong> CUR </strong>: Huidige</p> </li> 
+        <li> <p><strong> VERBORGEN </strong>: Dode</p> </li> 
+        <li> <p><strong> ONH </strong>: Op Greep</p> </li> 
+        <li> <p><strong> PLN </strong>: Planning</p> </li> 
+        <li> <p><strong> CPL </strong>: Volledig</p> </li> 
+        <li> <p><strong> REQ </strong>: Gevraagd</p> </li> 
+        <li> <p><strong> APR </strong>: Goedgekeurd</p> </li> 
+        <li> <p><strong> REJ </strong>: Geweigerd</p> </li> 
+        <li> <p><strong> IDA </strong>: Idea</p> </li> 
        </ul> <p>Als uw organisatie aangepaste statussen heeft ingesteld, worden mogelijk andere statussleutels in deze kolom weergegeven. Neem contact op met uw Workfront-beheerder of groepsbeheerder voor meer informatie over de aangepaste status die gerelateerd is aan een statussleutel.</p> </td> 
      </tr> 
      <tr> 
@@ -234,27 +234,27 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
       <td> <p>Het type object waarvoor de status is gewijzigd.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Naam van uitgave<br>(Optioneel)</p> </td> 
+      <td> <p style="font-weight: bold;">Naam van uitgave <br> (optioneel)</p> </td> 
       <td> <p>De naam van de kwestie die een statusverandering had.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Taaknaam<br>(Optioneel)</p> </td> 
+      <td> <p style="font-weight: bold;">Taaknaam <br> (optioneel)</p> </td> 
       <td> <p>De naam van de taak waarvoor de status is gewijzigd.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens de filterregel toe **Veldnaam** > **Gelijk** > **status**.
+1. In het **lusje van Filters**, klik **filterregel** toevoegen, dan voeg de Naam van het filterregel **Gebied** toe > **Gelijk** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Als u wijzigingen in de voorwaarde wilt rapporteren, kunt u in plaats daarvan de filterregel toevoegen **Veldnaam** > **Gelijk** > **Voorwaarde**.
+   >Om op voorwaardenveranderingen te rapporteren, kunt u in plaats daarvan de naam van het filterregel **Gebied** toevoegen > **Gelijk** > **Voorwaarde**.
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -264,15 +264,15 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
 
    >[!IMPORTANT]
    >
-   >Een filterregel maken die de optie gebruikt **Bevat** kan de laadtijden daadwerkelijk verhogen. Daarom raden we u aan een andere modifier te gebruiken, zoals **Gelijk** indien mogelijk filteren voor een specifiek project of objecten-id op een hoger niveau.
+   >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Zie voor meer informatie over het toevoegen van een vraag [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. In de **Groepen** tabblad, klikt u op **Een bestaande groepering toepassen** selecteert u vervolgens **Project**.
+1. In het **lusje van Groepen**, klik **een Bestaande Groepering** toepassen, dan selecteren **Project**.
 
-   Zie voor meer informatie over het toevoegen van groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
    Uw nieuwe rapport wordt geladen.
 
@@ -285,14 +285,14 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen:
 
 Zo ziet u wanneer een taak of uitgave is verwijderd:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
-1. In de **Kolommen (weergave)** voegt u de volgende kolommen toe:
+1. In de **Kolommen (Mening)** tabel, voeg de volgende kolommen toe:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -310,7 +310,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Type wijzigen</p> </td> 
-      <td> <p>Het soort verandering dat is gebeurd. De <strong>Verwijderen</strong> in deze kolom worden weergegeven als u een wijziging wilt aanbrengen.</p> </td> 
+      <td> <p>Het soort verandering dat is gebeurd. De <strong> schrapping </strong> veranderingsvertoningen in deze kolom.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Invoerdatum</p> </td> 
@@ -327,17 +327,17 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens de volgende filters toe:
+1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg de volgende filters toe:
 
-   * **Type wijzigen** > **Gelijk** > **Verwijderen**
-   * **Project-id** > **Gelijk** > **`<project>`**
+   * **Type van Verandering** > **Gelijk** > **Schrapping**
+   * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -347,15 +347,15 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
 
    >[!IMPORTANT]
    >
-   >Een filterregel maken die de optie gebruikt **Bevat** kan de laadtijden daadwerkelijk verhogen. Daarom raden we u aan een andere modifier te gebruiken, zoals **Gelijk** indien mogelijk filteren voor een specifiek project of objecten-id op een hoger niveau.
+   >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Zie voor meer informatie over het toevoegen van een vraag [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. (Optioneel) In het dialoogvenster **Groepen** tabblad, klikt u op **Een bestaande groepering toepassen** selecteert u vervolgens **Project**.
+1. (Facultatief) in het **lusje van Groepen 0}, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
 
-   Zie voor meer informatie over het toevoegen van groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
    Uw nieuwe rapport wordt geladen.
 
@@ -369,14 +369,14 @@ U kunt belangrijke gebiedsveranderingen tijdens de loop van het project volgen. 
 
 Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gewijzigd:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
-1. In de **Kolommen (weergave)** voegt u de volgende kolommen toe:
+1. In de **Kolommen (Mening)** tabel, voeg de volgende kolommen toe:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -390,11 +390,11 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Veldnaam</p> </td> 
-      <td> <p>De naam van het desbetreffende aangepaste veld.</p> <p><span style="font-weight: normal;">Wanneer</span> <strong>DE</strong>:<span style="font-weight: normal;"> in deze kolom wordt aangegeven dat het vermelde veld een aangepast veld is.</span></p> </td> 
+      <td> <p>De naam van het desbetreffende aangepaste veld.</p> <p><span style="font-weight: normal;"> wanneer </span> <strong> DE </strong>:<span style="font-weight: normal;"> vertoningen in deze kolom, wijst het erop dat het vermelde gebied een douanegebied is.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Type wijzigen</p> </td> 
-      <td> <p>Het type wijziging dat in het desbetreffende veld wordt aangebracht, zoals <strong>Toevoegen</strong>, <strong>Verwijderen</strong>, of <strong>Bewerken</strong>.</p> </td> 
+      <td> <p>Het type van verandering die aan het beïnvloede gebied wordt aangebracht, zoals <strong> voegt </strong> toe, <strong> schrapt </strong>, of <strong> geeft </strong> uit.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bewerkt op naam</p> </td> 
@@ -426,26 +426,26 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nieuwe tekstwaarde</p> </td> 
-      <td> <p>De huidige tekstwaarde in het aangepaste veld.</p> <p>Als het aangepaste veld een tekstkopveld is, wordt de instelling <strong>Nieuwe tekstwaarde</strong> geeft de object-id weer.</p> </td> 
+      <td> <p>De huidige tekstwaarde in het aangepaste veld.</p> <p>Als het douanegebied een typeahead gebied is, toont de <strong> Nieuwe kolom van de Waarde van de Tekst </strong> objecten identiteitskaart</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens de volgende filters toe:
+1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg de volgende filters toe:
 
-   * **Itemveldnaam journaal** > **Bevat** > **DE**
+   * **>** bevat de Naam van het Gebied van de Ingang van het Dagboek **>** DE ****
 
      >[!TIP]
      >
-     >Als u dit rapport wilt beperken tot specifieke aangepaste velden, voegt u de filterregel toe **Itemveldnaam journaal** > **Gelijk** > **`<custom field>`**.
+     >Om dit rapport tot specifieke douanegebieden te beperken, voeg de naam van het Gebied van de Ingang van het Dagboek **>** Gelijk **>**`<custom field>`**toe.**
 
-   * **Project-id** > **Gelijk** > **`<project>`**
+   * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -455,15 +455,15 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    >[!IMPORTANT]
    >
-   >Een filterregel maken die de optie gebruikt **Bevat** kan de laadtijden daadwerkelijk verhogen. Daarom raden we u aan een andere modifier te gebruiken, zoals **Gelijk** indien mogelijk filteren voor een specifiek project of objecten-id op een hoger niveau.
+   >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Zie voor meer informatie over het toevoegen van een vraag [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. In de **Groepen** tabblad, klikt u op **Een bestaande groepering toepassen** selecteert u vervolgens **Project**.
+1. In het **lusje van Groepen**, klik **een Bestaande Groepering** toepassen, dan selecteren **Project**.
 
-   Zie voor meer informatie over het toevoegen van groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
    Uw nieuwe rapport wordt geladen.
 
@@ -471,14 +471,14 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
 U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Geplande Datum van de Voltooiing in de loop van het leven van een project verandert.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
-1. In de **Kolommen (weergave)** voegt u de volgende kolommen toe:
+1. In de **Kolommen (Mening)** tabel, voeg de volgende kolommen toe:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -492,11 +492,11 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Veldnaam</p> </td> 
-      <td> <p>De naam van het desbetreffende veld.</p> <p><span style="font-weight: normal;">Wanneer</span> <strong>DE</strong>:<span style="font-weight: normal;"> in deze kolom wordt aangegeven dat het vermelde veld een aangepast veld is.</span></p> </td> 
+      <td> <p>De naam van het desbetreffende veld.</p> <p><span style="font-weight: normal;"> wanneer </span> <strong> DE </strong>:<span style="font-weight: normal;"> vertoningen in deze kolom, wijst het erop dat het vermelde gebied een douanegebied is.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Type wijzigen</p> </td> 
-      <td>Het type wijziging dat is opgetreden, zoals <strong>Toevoegen</strong>, <strong>Verwijderen</strong>, of <strong>Bewerken</strong>.</td> 
+      <td>Het type van verandering dat gebeurde, zoals <strong> voegt </strong> toe, <strong> schrapt </strong>, of <strong> geeft </strong> uit.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bewerkt op naam</p> </td> 
@@ -537,16 +537,16 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens het volgende toe:
+1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg het volgende toe:
 
-   * **Veldnaam** > **Gelijk** > **Datum**
-   * **Project-id** > **Gelijk** > **`<project>`**
+   * **Naam van het Gebied** > **Gelijk** > **Datum**
+   * **identiteitskaart van het Project** > **Gelijk** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -556,15 +556,15 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 
    >[!IMPORTANT]
    >
-   >Een filterregel maken die de optie gebruikt **Bevat** kan de laadtijden daadwerkelijk verhogen. Daarom raden we u aan een andere modifier te gebruiken, zoals **Gelijk** indien mogelijk filteren voor een specifiek project of objecten-id op een hoger niveau.
+   >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Zie voor meer informatie over het toevoegen van een vraag [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. In de **Groepen** tabblad, klikt u op **Een bestaande groepering toepassen** selecteert u vervolgens **Project**.
+1. In het **lusje van Groepen**, klik **een Bestaande Groepering** toepassen, dan selecteren **Project**.
 
-   Zie voor meer informatie over het toevoegen van groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
    Uw nieuwe rapport wordt geladen.
 
@@ -572,14 +572,14 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 
 U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel keer het project eigenaar-of projectmanager-verandert over de cursus van het leven van een project.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Dagboekinvoer**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
-1. In de **Kolommen (weergave)** voegt u de volgende kolommen toe:
+1. In de **Kolommen (Mening)** tabel, voeg de volgende kolommen toe:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -593,11 +593,11 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Veldnaam</p> </td> 
-      <td>De naam van het desbetreffende veld. De <strong>ownerID</strong> in deze kolom.</td> 
+      <td>De naam van het desbetreffende veld. De <strong> ownerID </strong> vertoningen in deze kolom.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Type wijzigen</p> </td> 
-      <td> <p>Het type wijziging dat is opgetreden, zoals <strong>Toevoegen</strong>, <strong>Verwijderen</strong>, of <strong>Bewerken</strong>.</p> </td> 
+      <td> <p>Het type van verandering dat gebeurde, zoals <strong> voegt </strong> toe, <strong> schrapt </strong>, of <strong> geeft </strong> uit.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">ObjCode boven</p> </td> 
@@ -605,7 +605,7 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Invoerdatum</p> </td> 
-      <td>De datum waarop de eigenaar van het project is gewijzigd.<br>U moet dit veld in aflopende volgorde sorteren.</td> 
+      <td>De datum waarop de eigenaar van het project is gewijzigd.<br> u zou door dit gebied in dalende orde moeten sorteren.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Bewerkt op naam</p> </td> 
@@ -626,16 +626,16 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In de **Filters** tabblad, klikt u op **Filterregel toevoegen** Voeg vervolgens het volgende toe:
+1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg het volgende toe:
 
-   * **Veldnaam** > **Gelijk** > **ownerID**
-   * **Project-id** > **Gelijk** > **`<project name>`**
+   * **Naam van het Gebied** > **Gelijk** > **ownerID**
+   * **identiteitskaart van het Project** > **Gelijk** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   Zie voor meer informatie over het toevoegen van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -645,14 +645,14 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
 
    >[!IMPORTANT]
    >
-   >Een filterregel maken die de optie gebruikt **Bevat** kan de laadtijden daadwerkelijk verhogen. Daarom raden we u aan een andere modifier te gebruiken, zoals **Gelijk** indien mogelijk filteren voor een specifiek project of objecten-id op een hoger niveau.
+   >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Zie voor meer informatie over het toevoegen van een vraag [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-1. (Optioneel) In het dialoogvenster **Groepen** tabblad, klikt u op **Een bestaande groepering toepassen** selecteert u vervolgens **Project**.
+1. (Facultatief) in het **lusje van Groepen 0}, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
 
-   Zie voor meer informatie over het toevoegen van groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
    Uw nieuwe rapport wordt geladen.

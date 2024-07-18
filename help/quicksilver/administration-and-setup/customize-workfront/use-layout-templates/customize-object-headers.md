@@ -25,11 +25,11 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 
 ![](assets/object-header-fields.png)
 
-Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -38,19 +38,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-plan</strong>
+   <td><strong> plan van Adobe Workfront </strong>
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licentie</strong>
+   <td><strong> Adobe Workfront vergunning </strong>
    </td>
    <td>Plan
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraties op toegangsniveau</strong>
+   <td><strong> het niveauconfiguraties van de Toegang </strong>
    </td>
    <td>U moet Workfront of een groepsbeheerder zijn.
 <p>
@@ -58,21 +58,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 </table>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [ tot douanetoegangsniveaus ](../../add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 ## Objectkoppen aanpassen
 
-1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In de **Aanpassen wat gebruikers zien** vervolgkeuzelijst, selecteert u **Projecten**, **Taken**, of **Problemen**.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. In **pas aan welke gebruikers** drop-down menu zien, selecteren **Projecten**, **Taken**, of **Kwesties**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. In de [!UICONTROL Header fields] te klikken, de muis over de weergegeven velden te verplaatsen en een van de volgende handelingen uit te voeren:
-   * Klik op de knop **x** pictogram om een veld te verwijderen
+1. Plaats de muisaanwijzer op de weergegeven velden in de sectie [!UICONTROL Header fields] en voer een van de volgende handelingen uit:
+   * Klik het **x** pictogram om een gebied te verwijderen
 
      of
 
-   * Klik en houd het **grijpen** om het veld naar een nieuwe locatie te slepen.
+   * Klik en houd het **greep** pictogram om het gebied in een nieuwe plaats te slepen en te laten vallen.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 1. U kunt maximaal vijf velden in de koptekst van een object opnemen.
 Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u een nieuw veld kunt toevoegen.
-1. In de **Veld toevoegen** typt u de naam van een niet-bewerkbaar Workfront-veld dat u wilt toevoegen en selecteert u het veld wanneer het in de lijst wordt weergegeven. Het veld wordt direct rechts van het veld Toevoegen toegevoegd en wordt weergegeven als het eerste veld in de linkerbovenhoek van de koptekst van het object.
+1. Op **voeg gebied** doos toe, begin de naam van een niet-editable gebied van Workfront te typen dat u wilt toevoegen, dan het selecteren wanneer het in de lijst toont. Het veld wordt direct rechts van het veld Toevoegen toegevoegd en wordt weergegeven als het eerste veld in de linkerbovenhoek van de koptekst van het object.
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u ee
 
    of
 
-   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen**.
 
    >[!TIP]
    >

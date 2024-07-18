@@ -17,21 +17,21 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprojecten wanneer u uw toegangsniveau toewijst. Zie voor meer informatie [Toegang verlenen tot projecten](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprojecten wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Samen met het toegangsniveau dat gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen, bijdragen, of beheren specifieke projecten die u toegang hebt om te delen.
+Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening, Contribute, of beheer specifieke projecten ook verlenen die u toegang hebt om te delen.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
 
 ## Overwegingen bij het delen van projecten
 
-Naast de onderstaande overwegingen, zie ook [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * Door gebrek, heeft de schepper van een project toestemmingen om het project te beheren en ook aangewezen als Eigenaar van het Project. Als het project aan een andere eigenaar wordt toegewezen, heeft die gebruiker ook toestemmingen om het project te beheren. Wanneer de projectmaker (of eigenaar) het project met andere gebruikers deelt, verlenen zij bepaalde toestemmingen aan die gebruikers om te controleren wat zij kunnen doen aangezien zij aan het project werken.
 
-  Als de eigenaar van een project echter geen Planner-licentie heeft, hebben deze geen volledige toegang om het project te beheren. Slechts kan een gebruiker met een vergunning van het Plan toestemmingen hebben om een project te beheren. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Als de eigenaar van een project echter geen Planner-licentie heeft, hebben deze geen volledige toegang om het project te beheren. Slechts kan een gebruiker met een vergunning van het Plan toestemmingen hebben om een project te beheren. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
-* U kunt projecten afzonderlijk delen, maar u kunt ook verschillende projecten tegelijk delen. Projecten delen is hetzelfde als andere objecten delen. Ga voor meer informatie over het delen van objecten in Workfront naar [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* U kunt projecten afzonderlijk delen, maar u kunt ook verschillende projecten tegelijk delen. Projecten delen is hetzelfde als andere objecten delen. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt de volgende toestemmingen aan een project verlenen:
 
    * Weergave
@@ -42,11 +42,11 @@ Naast de onderstaande overwegingen, zie ook [Overzicht van het delen van machtig
 
 * Wanneer u een project deelt, erven alle taken, kwesties, en de documenten de zelfde toestemmingen, tenzij anders gespecificeerd.
 
-  Voor informatie over het beheren van de toegang tot taken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie [](../../manage-work/projects/manage-projects/edit-projects.md#access) in het artikel [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
+  Voor informatie over het beheren van de toegang tot taken en kwesties op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Zie voor meer informatie over het beperken van overerfde machtigingen voor documenten [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-* U kunt geërfte toestemmingen uit een project verwijderen zodat de kindvoorwerpen hen niet zullen erven. Voor meer informatie over het verwijderen van erfrechten uit objecten raadpleegt u [Rechten van objecten verwijderen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* U kunt geërfte toestemmingen uit een project verwijderen zodat de kindvoorwerpen hen niet zullen erven. Voor meer informatie over het verwijderen van geërfte toestemmingen uit voorwerpen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Manieren om een project te delen {#ways-to-share-a-project}
 
@@ -55,31 +55,31 @@ U kunt een project op de volgende manieren delen:
 * Handmatig door een van de volgende handelingen uit te voeren:
 
    * Gebruikers toevoegen aan het projectteam. Wanneer u gebruikers aan het projectteam toevoegt, verkrijgen zij automatisch de toestemmingen van de Mening aan het project.\
-     Voor meer informatie over het toevoegen van gebruikers aan een projectteam, zie de &quot;Toevoegende Gebruikers aan een Team van het Project&quot;sectie in [Overzicht van het projectteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * De projecten afzonderlijk of in bulk delen bij gebruik van de **Delen** -optie.
+     Voor meer informatie over het toevoegen van gebruikers aan een projectteam, zie de &quot;Toevoegende Gebruikers aan een sectie van het Team van het Project&quot;in [ overzicht van het Team van het Project ](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * Individueel of bulk-delend de projecten wanneer het gebruiken van **het Delen** optie.
 
      Het delen van een project is vergelijkbaar met het delen van alle andere objecten in Adobe Workfront.
 
-     Voor informatie over het delen van objecten in Workfront raadpleegt u [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Voor informatie over het delen van voorwerpen in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 * Automatisch, door één van het volgende te doen:
 
-   * Een project plaatsen in een **Portfolio** of **Programma** dat al met anderen wordt gedeeld. Gebruikers krijgen dezelfde machtigingen voor het project als voor het portfolio of programma.\
-     Voor informatie over het toevoegen van een project aan een **Portfolio**, zie [Projecten toevoegen aan een portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Voor informatie over het toevoegen van een project aan een **Programma**, zie [Een project toevoegen aan een programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * Plaats een project in a **Portfolio** of **Programma** dat reeds met anderen wordt gedeeld. Gebruikers krijgen dezelfde machtigingen voor het project als voor het portfolio of programma.\
+     Voor informatie over het toevoegen van een project aan a **Portfolio**, zie [ projecten aan een portefeuille ](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.\
+     Voor informatie over het toevoegen van een project aan a **Programma**, zie [ een project aan een programma ](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toevoegen.
 
-     Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zie [Overerfde machtigingen voor objecten weergeven](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Voor informatie over het bekijken van geërfte toestemmingen op een voorwerp, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen. Voor informatie over het delen van projecten van malplaatjes, zie [Een sjabloon delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
    * Bepaal het malplaatje van de projecttoegang.
 
-     Om het malplaatje van de projecttoegang te bepalen, zie [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Om het malplaatje van de projecttoegang te bepalen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
      >[!TIP]
      >
      >Wanneer het vastmaken van of het bewaren van een malplaatje, kunt u de het Delen van het Project van het Malplaatje regels ontruimen.
 
-   * Een project bewerken en de opdracht **Wanneer iemand toegang krijgt tot dit project** instellen. Zie voor meer informatie [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Bewerk een project en het bepalen van **wanneer iemand toegang tot dit project** het plaatsen wordt gegeven. Voor meer informatie, zie [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ U kunt een project op de volgende manieren delen:
 
 * De gebruikers met een vergunning van de Arbeider hebben geen toestemmingen om projecten te beheren. Voor Workers is Contribute de hoogste machtiging voor delen.
 * De gebruikers met een vergunning van het Verzoek kunnen projectinformatie bekijken, maar zij hebben beperkte projecttoegang.
-* Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook wordt opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
+* Een uitzondering op het wijzigen van de status van een project treedt op wanneer een gebruiker met de machtiging Weergeven of Contribute ook is opgenomen in een goedkeuringsproces. Zij kunnen het project goedkeuren, dat de status van het project verandert, maar de status is de vooraf bepaalde status voor goedkeuring of voor verwerping.
 * Om een project te kunnen kopiëren, moet een gebruiker ook toegang hebben om projecten in hun Niveau van de Toegang tot stand te brengen.
 
 <!--
@@ -133,7 +133,7 @@ The
 
 ## Opties voor projectmachtigingen
 
-De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen verlenen wanneer het delen van een project. Voor meer informatie over de toegang krijgen de gebruikers gebaseerd op hun vergunning, zie [Toegang verlenen tot projecten](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen verlenen wanneer het delen van een project. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [ toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -142,10 +142,10 @@ De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Handelingen</strong> </p> </th> 
-   <th> <p><strong>Beheren</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
-   <th> <p><strong>Weergave</strong> </p> </th> 
+   <th> <p><strong> Acties </strong> </p> </th> 
+   <th> <p><strong> leiden </strong> </p> </th> 
+   <th> <p><strong> Contribute </strong> </p> </th> 
+   <th> <p><strong> Mening </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -350,4 +350,4 @@ De volgende lijst maakt een lijst van de toestemmingen die de gebruikers kunnen 
  </tbody> 
 </table>
 
-&#42;Gebruikers zonder toegang tot financiële gegevens kunnen risico&#39;s en financiën voor projecten niet beheren, zelfs niet als zij Edit toegang tot projecten hebben. Voor informatie over de toegang tot financiële gegevens raadpleegt u [Toegang tot financiële gegevens verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; de gebruikers zonder toegang tot financiële gegevens kunnen geen risico en financiën voor projecten beheren, zelfs als zij Edit toegang tot projecten hebben. Voor informatie over toegang tot financiële gegevens, zie [ Toegang van de Verlening tot financiële gegevens ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

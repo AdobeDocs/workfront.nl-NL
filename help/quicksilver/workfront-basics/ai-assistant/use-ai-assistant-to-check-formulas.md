@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b5ec158fc1484df193120a9c7aca9f19d2b65265
+exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -19,7 +20,7 @@ U kunt de Medewerker van AI gebruiken om fouten in uw ongeldige douaneuitdrukkin
 
 Wanneer u het berekende veld maakt in de aangepaste formulierbuilder, verschijnt er een foutbericht onder het veld als de formule ongeldig is.
 
-![Ongeldige expressiefout](assets/invalid-expression.png)
+![ Ongeldige uitdrukkingsfout ](assets/invalid-expression.png)
 
 Met AI Assistant kunt u de formule wijzigen in een geldige berekende veldexpressie.
 
@@ -27,11 +28,11 @@ Met AI Assistant kunt u de formule wijzigen in een geldige berekende veldexpress
 
 Een ongeldige berekende veldexpressie herzien:
 
-1. Klik op de knop **AI-assistent** pictogram ![AI Assistant-pictogram](assets/ai-assistant-icon.png) in de rechterbovenhoek van het scherm.
+1. Klik het **pictogram AI van de Medewerker ![ AI Medewerker pictogram ](assets/ai-assistant-icon.png) dichtbij de hoger-juiste hoek van het scherm.**
 1. Voer een vraag in het gebied met de vraag onder aan het deelvenster AI-assistent in, zoals:
    `Rewrite this formula to remove the invalid expression error`
 1. Kopieer de ongeldige expressie uit de aangepaste formulierbuilder en plak deze in het promptiegebied.
-1. Druk **Enter**.
+1. Pers **gaat** binnen.
 
    AI Assistant kan enkele ogenblikken duren om de herziene formule te genereren, afhankelijk van hoe groot of complex de formule is.
 1. Bekijk de herziene formule in het AI Hulppaneel.
@@ -41,7 +42,4 @@ Een ongeldige berekende veldexpressie herzien:
 >
 >Wij adviseren testend het berekende gebied om ervoor te zorgen dat het het verwachte resultaat terugwint.
 
-Zie voor meer informatie over berekende velden in Workfront [Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-
-
+Voor meer informatie over berekende gebieden in Workfront, zie [ berekende gegevens aan een douanevorm met de bouwer van de erfenis ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.

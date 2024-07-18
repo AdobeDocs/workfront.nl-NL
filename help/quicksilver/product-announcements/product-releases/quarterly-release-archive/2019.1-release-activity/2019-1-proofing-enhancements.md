@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van proefdrukken beschreven die zijn opgenomen in de release 2019.1. De functionaliteit is nu beschikbaar in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2019.1 zijn aangebracht, raadpleegt u [Overzicht van releaseactiviteiten 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.1 worden aangebracht, zie [ 2019.1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Voor beheerders
 
@@ -26,11 +26,11 @@ Voor een lijst met alle wijzigingen die in 2019.1 zijn aangebracht, raadpleegt u
 
 ## Voor alle gebruikers
 
-* [Interactieve inhoud proefdrukken in de webproefdrukviewer](#proof-interactive-content-in-the-web-proofing-viewer)
+* [ Proef Interactieve Inhoud in de Kijker van het Bewijs van het Web ](#proof-interactive-content-in-the-web-proofing-viewer)
 * [Standaardsorteervolgorde voor opmerkingen in de Proofingviewer is nu oudst naar nieuwste](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [Verbeterde revisie voor opmerkingen in de Proofing Viewer gekoppeld aan een videobereik](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
-* [Koppeling maken naar documentdetails via een proefdrukmelding of de proefdrukweergave](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [Uw e-mailmeldingen wijzigen in de Proofingviewer](#change-your-email-notifications-in-the-proofing-viewer)
+* [ Verbeterde Recensent voor Commentaren in de Beproefende Kijker verbonden aan een Waaier van Video ](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [ Verbinding aan de Details van het Document van een Bericht van het Bewijs of de Beproefende Kijker ](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
+* [ verander uw e-mailberichten in de het Proofing Kijker ](#change-your-email-notifications-in-the-proofing-viewer)
 * [De achtergrondkleur in de Desktop Proofing Viewer wijzigen](#change-the-background-color-in-the-desktop-proofing-viewer)
 * [Browsergegevens in cache wissen met een proefdruk in de Desktop Proofing Viewer](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
@@ -88,7 +88,7 @@ Eerder kon alleen de eigenaar van de proefdruk of de verkeersmanager de e-mailwa
 
 Deze instellingen staan los van de instellingen voor e-mailwaarschuwingen die u kunt configureren in Workfront.
 
-Zie voor meer informatie [Meldingen beheren voor proefopmerkingen en -beslissingen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Voor meer informatie, zie [ berichten voor proefdrukcommentaren en besluiten beheren ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VIDEO
 
@@ -96,7 +96,7 @@ VIDEO
 
 Nu kunt u de achtergrondkleur van de Desktop Proofing Viewer wijzigen van de standaard bijna-zwarte kleur in wit. Hierdoor is het gemakkelijker om inhoud met een transparante achtergrond te controleren.
 
-Zie voor meer informatie [De instellingen voor de proefdrukviewer configureren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Voor meer informatie, zie [ het proefdrukken van kijkersmontages ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
 
 VIDEO
 
@@ -106,6 +106,6 @@ Wanneer de cookie- en cacheinstellingen van uw browser zo zijn ingesteld dat inh
 
 Nu kunt u de cachegegevens van de browser wissen die met een proefdruk worden opgeslagen, zodat alle inhoud in de Desktop Proofing Viewer wordt weergegeven en revisoren er opmerkingen over kunnen zien en opmerkingen over kunnen maken.
 
-Zie voor meer informatie [De instellingen voor de proefdrukviewer configureren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Voor meer informatie, zie [ het proefdrukken van kijkersmontages ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
 
 VIDEO

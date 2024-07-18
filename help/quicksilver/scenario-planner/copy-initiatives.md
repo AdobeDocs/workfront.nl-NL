@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Initiatieven kopiëren in het dialoogvenster [!DNL Scenario Planner]
+# Initiatieven kopiëren in de [!DNL Scenario Planner]
 
 U kunt initiatieven creëren door bestaande te kopiëren. U kunt initiatieven kopiëren op een plan dat u creeert of op een plan dat iemand met u deelt.
 
@@ -24,24 +24,24 @@ U kunt initiatieven creëren door bestaande te kopiëren. U kunt initiatieven ko
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
    <td>[!UICONTROL Business] of hoger</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licentie</b>*</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> license </b>*</p> </td> 
    <td> <p>[!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
-   <td> <p>U moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] voor toegang tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Toegang nodig om de [!DNL Scenario Planner]</a>. </p> </td> 
+   <td><b> Product </b> </td> 
+   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configuraties op toegangsniveau*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie over het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Toegang aanvragen tot een abonnement in de [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,26 +70,26 @@ Houd rekening met het volgende wanneer u initiatieven kopieert:
 
    * Het dupliceert niet het project dat aan het initiatief is gekoppeld.
    * Het verbindt niet het gekopieerde initiatief met het project.
-   * Het wijzigt de [!DNL Scenario Planner] voor projecten die ten minste eenmaal zijn gepubliceerd.
+   * De sectie [!DNL Scenario Planner] over het project wordt niet gewijzigd voor projecten die minstens één keer zijn gepubliceerd.
 
-   Voor informatie over het publiceren van initiatieven aan projecten, zie [Werk of creeer projecten bij door initiatieven in te publiceren [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
-   Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [Projecten importeren naar plannen in het dialoogvenster [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
+  Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [ projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 ## Initiatieven kopiëren
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png)en klik vervolgens op [!UICONTROL Scenarios].
+1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en klik vervolgens op [!UICONTROL Scenarios] .
 
    Een lijst met plannen wordt weergegeven.
 
 1. Klik op de naam van een abonnement om het te openen en zoek de initiatieven die u wilt kopiëren.
-1. Selecteer het vak links van het initiatief dat of de initiatieven die u wilt kopiëren en klik op **[!UICONTROL Copy]** in het menu dat onder aan het abonnement wordt weergegeven.
+1. Selecteer het vakje links van het initiatief of de initiatieven die u wilt kopiëren, en klik dan **[!UICONTROL Copy]** van het menu dat bij de bodem van het plan verschijnt.
 
    ![](assets/bottom-manage-initiative-menu-350x45.png)
 
-   [!DNL Workfront] kopieert de initiatieven onmiddellijk en plaatst ze onder het laatst geselecteerde initiatief .
+   [!DNL Workfront] kopieert de initiatieven onmiddellijk en plaatst ze onder het laatst geselecteerde initiatief.
 
-   De naam van het gekopieerde initiatief is *[!UICONTROL Copy of]`<Name of original initiative>`*.
+   De naam van het gekopieerde initiatief is *[!UICONTROL Copy of]`<Name of original initiative>`* .
 
    >[!NOTE]
    >
@@ -103,6 +103,6 @@ Houd rekening met het volgende wanneer u initiatieven kopieert:
 
 1. (Optioneel) Werk de prioriteit van uw nieuwe initiatieven bij.
 
-   Voor informatie over het prioriteren van initiatieven, zie [Prioriteiten van initiatieven bijwerken in het [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   Voor informatie over het prioriteren van initiatieven, zie [ de initiatiefprioriteiten van de Update in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
-1. Klikken **[!UICONTROL Save Plan]** om uw wijzigingen op te slaan.
+1. Klik op **[!UICONTROL Save Plan]** om de wijzigingen op te slaan.

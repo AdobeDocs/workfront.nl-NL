@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en neer te zetten, zodat deze overeenkomen met de gewenste breedte. Zie voor meer informatie [Kolombreedte en -volgorde wijzigen](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en neer te zetten, zodat deze overeenkomen met de gewenste breedte. Voor meer informatie, zie [ kolombreedte en orde wijzigen ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 Als u de breedte van een kolom van een weergave permanent wilt wijzigen, moet u de tekstmodus in de kolom gebruiken wanneer u de weergave bewerkt.
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,21 +59,21 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 >[!IMPORTANT]
 >
->Als u de breedte van een kolom handmatig wijzigt, zoals wordt beschreven in de sectie [De breedte en volgorde van kolommen tijdelijk wijzigen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) in het artikel [Kolombreedte en -volgorde wijzigen](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) Nadat u de breedte van de kolom permanent hebt gewijzigd, blijft de breedte van de kolom behouden op basis van de grootte van de kolom. In dit geval wordt de breedte van de kolom die wordt bijgewerkt volgens de volgende stappen, overschreven. U kunt de kolom weergeven op basis van de breedte die in de volgende stappen is gedefinieerd nadat u de cache hebt gewist of zich hebt aangemeld vanuit een andere browser.
+>Als u manueel de breedte van een kolom zoals die in de sectie [ wordt beschreven wijzigt tijdelijk breedte en orde van kolommen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) in het artikel [ wijzigt kolombreedte en orde ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) nadat u permanent de breedte van de kolom hebt gewijzigd, wordt de breedte van de kolom bewaard volgens uw handresizing. In dit geval wordt de breedte van de kolom die wordt bijgewerkt volgens de volgende stappen, overschreven. U kunt de kolom weergeven op basis van de breedte die in de volgende stappen is gedefinieerd nadat u de cache hebt gewist of zich hebt aangemeld vanuit een andere browser.
 >
->Zie de definities &quot;breedte&quot; en &quot;uitrekken&quot; in het gedeelte [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>Voor extra informatie over het aanpassen van de breedte van kolommen wanneer het gebruiken van de interface van de Wijze van de Tekst, zie de &quot;breedte&quot;en &quot;uitrekbare&quot;definities in de [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ga naar een lijst met objecten.
-1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen** een nieuwe kolom toevoegen.
+1. Klik **toevoegen Kolom** om een nieuwe kolom toe te voegen.
 
    of
 
    Klik op de kolomkop van een bestaande kolom.
 
-1. Klikken **Overschakelen naar tekstmodus**.
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
 1. Voeg de volgende code aan de tekstwijze van de kolom toe:
 
    ```
@@ -81,8 +81,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    usewidths=true
    ```
 
-   Voor de **width** Geef een willekeurig aantal (in pixels) op dat aangeeft in welke mate de kolom moet worden weergegeven in de weergave.
+   Voor de **breedte** lijn, specificeer om het even welk aantal (in pixel) dat vertegenwoordigt hoe breed u de kolom in de mening wilt tonen.
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+1. Klik **sparen**, dan **sparen Mening**.
 
 

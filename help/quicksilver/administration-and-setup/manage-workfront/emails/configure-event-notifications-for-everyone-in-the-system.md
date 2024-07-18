@@ -26,11 +26,11 @@ Afhankelijk van de gebeurtenis die u inschakelt en de gebruiker ingeschakeld bli
 
 U moet eerst opgeven welke meldingen alle gebruikers moeten ontvangen in het gedeelte Setup van uw Workfront-exemplaar. Nadat u een melding hebt geactiveerd in het gedeelte Setup, wordt het voor elke gebruiker op de profielpagina weergegeven.
 
-Nadat meldingen zijn geactiveerd in het gedeelte Setup en worden weergegeven op de pagina&#39;s met gebruikersprofielen, kunnen afzonderlijke gebruikers of een andere gebruiker met een licentie voor het abonnement de geactiveerde meldingen ook configureren in een gebruikersprofiel om te bepalen welke meldingen specifieke gebruikers ontvangen en hoe vaak. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Nadat meldingen zijn geactiveerd in het gedeelte Setup en worden weergegeven op de pagina&#39;s met gebruikersprofielen, kunnen afzonderlijke gebruikers of een andere gebruiker met een licentie voor het abonnement de geactiveerde meldingen ook configureren in een gebruikersprofiel om te bepalen welke meldingen specifieke gebruikers ontvangen en hoe vaak. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Ga voor een lijst met alle gebeurtenismeldingen die u kunt activeren en deactiveren naar [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor een lijst van alle gebeurtenisberichten die u kunt activeren en deactiveren, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Voor informatie over het ontgrendelen van een gebeurtenisbericht zodat de groepsbeheerders het voor hun groepen kunnen vormen, zie [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) en [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Voor informatie over het ontgrendelen van een gebeurtenisbericht zodat de groepsbeheerders het voor hun groepen kunnen vormen, zie [ ontgrendelen of configuratie van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) en [ Mening en vormen gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,28 +70,28 @@ U moet meldingen inschakelen in het gedeelte Setup van Workfront voordat gebruik
 
 >[!TIP]
 >
->U kunt geen berichten voor de Doelen van Workfront van het gebied van de Opstelling activeren. Gebruikers kunnen deze meldingen alleen activeren in hun profielen. Gebruikers met een abonnement kunnen deze activeren voor andere gebruikers. Voor informatie over het inschakelen van Workfront Goals-meldingen voor gebruikers raadpleegt u [Meldingen: Doelstellingen](../../../workfront-basics/using-notifications/notifications-goals.md).
+>U kunt geen berichten voor de Doelen van Workfront van het gebied van de Opstelling activeren. Gebruikers kunnen deze meldingen alleen activeren in hun profielen. Gebruikers met een abonnement kunnen deze activeren voor andere gebruikers. Voor informatie over het toelaten van de berichten van de Doelen van Workfront voor gebruikers, zie [ Meldingen: Doelen ](../../../workfront-basics/using-notifications/notifications-goals.md).
 
 {{step-1-to-setup}}
 
-1. Klikken **E-mail** > **Meldingen**.
+1. Klik **E-mail** > **Meldingen**.
 
    ![](assets/notifications-area-under-setup-emails.png)
 
 
-1. Zorg ervoor dat de **Gebeurtenismeldingen** is geopend.
+1. Zorg ervoor de **Berichten van de Gebeurtenis** tabel open is.
 1. Schakel de schakelaar links van de naam van de gebeurtenis in of uit.
 
-   Zie de standaardmeldingsstatus voor een gebeurtenis [Gebeurtenismeldingen](../../../workfront-basics/using-notifications/event-notifications.md).
+   Om de standaardberichtstatus voor een gebeurtenis te zien, zie [ de berichten van de Gebeurtenis ](../../../workfront-basics/using-notifications/event-notifications.md).
 
 1. (Optioneel) Klik op de naam van een gebeurtenismelding om de onderwerpregel van het e-mailbericht aan te passen.
 
-   Zie voor meer informatie over het aanpassen van de onderwerpregel van e-mailberichten [E-mailonderwerpen aanpassen voor gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+   Voor meer informatie over het aanpassen van de onderwerplijnen van e-mailberichten, zie [ E-mailonderwerpen voor gebeurtenisberichten aanpassen ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Optioneel) Als u de configuratie voor een e-mailbericht wilt ontgrendelen zodat groepsbeheerders de configuratie voor hun groepen afzonderlijk kunnen configureren, klikt u op de knop ![](assets/lock-toggle-button.png) rechts van het bericht om het over te schakelen naar de ontgrendelde positie ![](assets/unlock-toggle-button.png).
+1. (Optioneel) Als u de configuratie voor een e-mailbericht wilt ontgrendelen zodat groepsbeheerders de configuratie voor hun groepen afzonderlijk kunnen configureren, klikt u op de knop ![](assets/lock-toggle-button.png) rechts van het bericht om deze naar de ontgrendelde positie te verplaatsen ![](assets/unlock-toggle-button.png) .
 
    >[!NOTE]
    >
    >Deze functionaliteit is in eerste instantie alleen beschikbaar voor klanten met Cluster 4 als onderdeel van een gefaseerde uitrol. Het zal kort daarna beschikbaar worden voor andere clusters. Dit artikel wordt bijgewerkt naarmate dit gebeurt.
 
-   Zie voor meer informatie [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+   Voor meer informatie, zie [ configuratie van de Ontgrendeling of van het slot van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).

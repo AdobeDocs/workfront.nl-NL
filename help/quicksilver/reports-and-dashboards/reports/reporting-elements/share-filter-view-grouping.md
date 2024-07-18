@@ -22,9 +22,9 @@ ht-degree: 0%
 </div>
 -->
 
-Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Ga voor meer informatie over het verlenen van toegang tot objecten naar [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot voorwerpen, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen ook verlenen om specifieke voorwerpen te bekijken of uit te geven die u creeerde of toegang om hebt te delen. Zie voor meer informatie over toegangsniveaus en machtigingen [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen ook verlenen om specifieke voorwerpen te bekijken of uit te geven die u creeerde of toegang om hebt te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 U kunt filters, weergaven en groeperingen delen die u kunt bekijken met andere gebruikers.
 
@@ -32,8 +32,8 @@ Wanneer een filter, weergave of groep met u wordt gedeeld, kunt u dat filter, di
 
 Zie de volgende artikelen voor informatie over het maken van een filter, weergave of groepering:
 
-* [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [ Overzicht van meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Toegangsvereisten
@@ -54,16 +54,16 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Machtigingen weergeven of hoger met toegang voor delen naar een weergave, filter of groep</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger met toegang voor delen naar een weergave, filter of groep</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een filter, weergave of groep delen
 
@@ -71,7 +71,7 @@ U moet het volgende hebben:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-Het delen van filters in geselecteerde lijsten is anders, afhankelijk van de interface die u gebruikt om het filter te delen: standaard of verouderd. Voor informatie over de types van filter-bouwt interfaces, zie [Filters maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Het delen van filters in geselecteerde lijsten is anders, afhankelijk van de interface die u gebruikt om het filter te delen: standaard of verouderd. Voor informatie over de types van filter-bouwt interfaces, zie [ filters in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 U kunt weergaven en groepen alleen delen in de oudere interface.
 
@@ -82,9 +82,9 @@ U kunt een filter in de standaardinterface van lijsten van projecten, taken, kwe
 Een filter delen met de standaardbuilderinterface:
 
 1. Ga naar een lijst met projecten, taken of problemen.
-1. Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-nwepng.png).
+1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
 
-   ![Standaardfilterconstructor](assets/new-filters-all-filter-types.png)
+   ![ Standaard filterbouwer ](assets/new-filters-all-filter-types.png)
 
 1. Bekijk de volgende lijsten met filters:
 
@@ -111,24 +111,24 @@ Een filter delen met de standaardbuilderinterface:
    </tbody>
    </table>
 
-1. Als u de muisaanwijzer boven een filter houdt, hebt u toegang tot minstens de volgende opties: **Meer** menu ![Het menu Meer](assets/more-icon-spectrum.png)en klik vervolgens op **Delen**.
+1. Beweeg over een filter u toegang tot minstens mening en aandeel hebt, dan klik **Meer** menu ![ Meer menu ](assets/more-icon-spectrum.png), dan klik **Aandeel**.
 
-   ![Meer menuopties](assets/new-filters-more-menu-options-with-delete.png)
+   ![ Meer menuopties ](assets/new-filters-more-menu-options-with-delete.png)
 
    Het dialoogvenster Filter delen wordt weergegeven.
 
-1. Begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen u met in wilt delen **Toegang verlenen aan** veld.
+1. Begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen die u met in **wilt delen geef toegang tot** gebied.
 
-   ![Filter delen, vak](assets/new-filters-share-filter.png)
+   ![ het delen van de Filter doos ](assets/new-filters-share-filter.png)
 
-1. (Optioneel) Klik op de pijl naar rechts naast de naam van een entiteit om de machtigingen voor het filter te bewerken en schakel vervolgens de optie **Weergave** of **Beheren** -optie. **Weergave** is de standaardwaarde.
+1. (Facultatief) klik de juist-richt pijl naast de naam van een entiteit om hun toestemmingen aan de filter uit te geven, dan of toelaten de **Mening** of **leiden** optie. **Mening** is het gebrek.
 
-   ![Machtigingen delen](assets/new-filters-sharing-permissions.png)
+   ![ het Delen toestemmingen ](assets/new-filters-sharing-permissions.png)
 
 1. (Optioneel) Schakel de aanvullende machtigingen voor een entiteit in of uit door een van de volgende handelingen uit te voeren:
 
-   1. Klikken **Weergave** en schakelt u de **Delen** -optie. Deze optie is standaard ingeschakeld.
-   1. Klikken **Beheren** en schakelt u **Delen** of de **Verwijderen** -optie. Deze zijn standaard ingeschakeld.
+   1. Klik **Mening** en maak de **optie van het Aandeel** onbruikbaar. Deze optie is standaard ingeschakeld.
+   1. Klik **leiden** en maak of het **Aandeel** of de **Schrapping** optie onbruikbaar. Deze zijn standaard ingeschakeld.
 
       >[!NOTE]
       >
@@ -138,41 +138,41 @@ Een filter delen met de standaardbuilderinterface:
    >
    >Gebruikers kunnen geen hogere machtigingen ontvangen dan hun toegangsniveau. Als zij geen toegang tot Edit filters in hun toegangsniveau hebben, kunnen zij geen toestemmingen ontvangen om een filter te beheren. Workfront schakelt de optie Beheren voor deze gebruikers uit en de optie is grijs.
 
-1. Klikken **Delen**. Het filter wordt gedeeld met de entiteiten u specificeerde.
+1. Klik **Aandeel**. Het filter wordt gedeeld met de entiteiten u specificeerde.
 
    >[!TIP]
    >
    >Delen met groepen geeft machtigingen aan het filter voor de leden van de groep en voor alle subgroepen.
 
-   De filters die u in de **Gedeeld met mij** van het filterdeelvenster voor deze entiteiten.
+   De filters u vertoning in **deelde met me** sectie van het filterpaneel voor die entiteiten.
 
-   ![Filters die met mij worden gedeeld](assets/new-filters-shared-with-me.png)
+   ![ Filters die met me worden gedeeld ](assets/new-filters-shared-with-me.png)
 
 ### De filters, de meningen, en de groeperingen van het aandeel gebruikend de erfenisinterface
 
 Het delen van filters, weergaven en groepen in de oudere interface is identiek.
 
 1. Ga naar een lijst met objecten of een rapport.
-1. (Voorwaardelijk) Klik in een lijst op de knop **Filter**, **Weergave**, of **Groepering** klikt u op het pictogram en plaatst u de aanwijzer op het filter, de weergave of de groep die u wilt delen **Meer** pictogram ![Meer pictogram](assets/more-icon.png)vervolgens **Delen**.
+1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groeperend** pictogram, dan over de filter, de mening, of het groeperen u wilt delen, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan **Aandeel**.
 
-   Klik in een rapport op de knop **Filter**, **Weergave**, of **Groepering** selecteert u vervolgens het filter, de weergave of de groep die u wilt delen.
+   Van een rapport, klik de **Filter**, **Mening**, of **het Groeperen** drop-down menu, dan selecteren de filter, de mening, of het groeperen u wilt delen.
 
-1. (Voorwaardelijk) Als u wilt delen via een rapport, klikt u op de knop **Filter**, **Weergave**, of **Groepering** vervolgkeuzemenu nogmaals, en klik vervolgens op **Filter delen**, **Weergave delen**, of **Groepering delen**.\
-   De **Filtertoegang**, **Toegang weergeven**, of **Toegang groeperen** wordt weergegeven.
+1. (Voorwaardelijk) als het delen van een rapport, klik de **Filter**, **Mening**, of **het drop-down menu van de Groepering** opnieuw, dan klik de Filter van het Aandeel **,** Mening van het Aandeel **, of** Groepering van het Aandeel **.**\
+   De **Toegang van de Filter**, **Toegang van de Mening**, of **de vertoningen van de de dialoogdoos van de Toegang van de Groepering**.
 
-   ![Delen, filter](assets/share-filter-people-box-nwe-350x458.png)
+   ![ filter van het Aandeel ](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Voer een van de volgende twee handelingen uit, afhankelijk van wie u wilt delen:
 
-   **Om met individuele gebruikers, teams, rollen, groepen, of bedrijven te delen:** Typ in het opgegeven veld de naam van de gebruiker, het team, de rol, de groep of het bedrijf waarmee u wilt delen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.\
+   **om met individuele gebruikers, teams, rollen, groepen, of bedrijven te delen:** op het verstrekte gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.\
    Herhaal dit proces om toegang met veelvoudige gebruikers, teams, rollen, groepen, of bedrijven te delen.
 
    >[!TIP]
    >
    >Delen met groepen geeft machtigingen voor het filter, de weergave of de groep aan de leden van de groep en van alle subgroepen.
 
-   **Met alle gebruikers in het systeem delen:** Klik op de knop **Instellingen** pictogram, klik vervolgens op **Dit voor het hele systeem zichtbaar maken**.\
-   Uw beheerder moet de optie voor het delen van het hele systeem selecteren om deze optie beschikbaar te maken. Zie de artikelen voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) en [Rapporten, dashboards en kalenders delen](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   **om met alle gebruikers in het systeem te delen:** klik het **pictogram van Montages**, dan klik **maken dit zichtbare systeem-breed**.\
+   Uw beheerder moet de optie voor het delen van het hele systeem selecteren om deze optie beschikbaar te maken. Voor meer informatie, zie de artikelen [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen en [ rapporten, dashboards, en kalenders van het Aandeel ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Voorwaardelijk) als u met individuele gebruikers, teams, rollen, groepen, of bedrijven deelt, klik het drop-down menu om het niveau van toegang te bepalen u wilt verlenen.
 
@@ -192,13 +192,13 @@ Het delen van filters, weergaven en groepen in de oudere interface is identiek.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Delen</strong></td> 
-      <td> <p>Klikken <strong>Geavanceerde instellingen</strong>selecteert of wist vervolgens de <strong>Delen</strong> afhankelijk van de vraag of de ontvangers met anderen mogen delen.</p> </td> 
+      <td> <p>Klik <strong> Geavanceerde Montages </strong>, dan selecteren of ontruimen de <strong> optie van het Aandeel </strong>, afhankelijk van of u de ontvangers met anderen wilt kunnen delen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-   Gebruikers met wie u het filter, de weergave of de groep hebt gedeeld, hebben toegang tot het filter door op de knop **Filter**, **Weergave**, of **Groepering** vervolgkeuzemenu of pictogram en omlaag schuiven naar de **Gedeeld met mij** sectie.
+   De gebruikers met wie u de filter, de mening, of het groeperen deelde kunnen tot het toegang hebben door de **Filter**, **Mening**, of **Groepering** drop-down menu of pictogram te klikken en neer aan **te scrollen die met me** sectie wordt gedeeld.
 
 

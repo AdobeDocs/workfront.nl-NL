@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Verbeteringen voor mobiele apparaten
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Opmerkingen bij tijdpagina
 
@@ -27,7 +27,7 @@ Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de v
 
 Met de mobiele app kunt u nu opmerkingen op uw tijdbladen invoeren.
 
-Zie voor meer informatie [Adobe Workfront voor iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) en [Adobe Workfront voor Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Voor meer informatie, zie [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) en [ Adobe Workfront voor Android ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Extra objecten die worden ondersteund met typeahead — alleen voor iOS-gebruikers
 
@@ -46,7 +46,7 @@ De mobiele app ondersteunt nu de volgende objecten in aangepaste velden voor for
 * Team
 * Sjabloon
 
-Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor meer informatie, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Aanvragen opslaan als concepten in de mobiele app van Workfront
 
@@ -56,4 +56,4 @@ Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../../ad
 
 U kunt gedeeltelijk ingevulde aanvragen nu opslaan als concepten in de mobiele app. Er is een nieuwe sectie Concepten toegevoegd aan het gebied Aanvraag, zodat u gemakkelijk uw concepten kunt vinden.
 
-Zie voor meer informatie [Adobe Workfront voor Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) of [Adobe Workfront voor iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Voor meer info, zie [ Adobe Workfront voor Android ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) of [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 In Adobe Workfront Planning kunt u aangepaste velden maken voor recordtypen. U kunt de gebieden met de verslagen van de Planning van Workfront dan associëren om verslaginformatie te verbeteren.
 
-U moet recordtypen maken voordat u velden kunt maken die u hieraan wilt koppelen. Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+U moet recordtypen maken voordat u velden kunt maken die u hieraan wilt koppelen. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 U kunt velden op de volgende manieren maken in Workfront Planning:
 
@@ -47,7 +47,7 @@ U kunt velden op de volgende manieren maken in Workfront Planning:
 * Door een recordtype te maken
 * Een werkruimte maken op basis van een sjabloon
 
-Voor meer informatie over de gebieden van de Planning van Workfront, zie [Overzicht van veld](/help/quicksilver/planning/fields/fields-overview.md).
+Voor meer informatie over de planningsgebieden van Workfront, zie [ Overzicht van het Gebied ](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Toegangsvereisten
 
@@ -92,13 +92,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
@@ -135,22 +135,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >    Sommige velden zijn mogelijk verborgen. Klik op Velden en schakel de modus Velden in die u als kolommen wilt weergeven in de tabelweergave.
 
-1. Klik op de knop **+** in de rechterbovenhoek van de tabelweergave
+1. Klik op het pictogram **+** rechtsboven in de tabelweergave
 
    of
 
-   Houd de cursor boven de koptekst van een kolom en klik op de pijl omlaag na de veldnaam en klik vervolgens op **Links invoegen** of **Rechts invoegen** het nieuwe veld toevoegen.
-1. In de **Nieuw veld** tabblad, zoekt u naar een veldtype in het dialoogvenster **Veldtype** of selecteer een van de volgende veldtypen:
+   Beweeg over de kopbal van om het even welke kolom, klik de naar beneden wijzende pijl na de gebiedsnaam, dan klik links **of** Tussenvoegsel rechts **om het nieuwe gebied toe te voegen.**
+1. Op het **Nieuwe gebied** lusje, onderzoek naar een gebiedstype op het **type van Gebied** vakje, of selecteer van de volgende gebiedstypes:
 
    * [Tekst met één regel](#single-line-text)
    * [Alinea](#paragraph)
    * [Meerdere selecties](#multi-select)
    * [Enkel selecteren](#single-select)
    * [Datum](#date)
-   * [Getal](#number)
+   * [ Aantal ](#number)
    * [Percentage](#percentage)
    * [Valuta](#currency)
-   * [Selectievakje](#checkbox)
+   * [ Checkbox ](#checkbox)
    * [Formule](#formula)
    * [Mensen](#people)
    * [Gemaakt door](#created-by)
@@ -168,14 +168,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Tekstvelden van één regel bevatten beperkte alfanumerieke informatie. U kunt bijvoorbeeld de gegevens van de eigenaar, de belanghebbende, het team of de organisatie-eenheid vastleggen in een tekstveld met één regel. De inhoud van een tekstveld met één regel kan maximaal 250 tekens bevatten. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Tekst met één regel** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **single-line tekst** gebiedstype.
 
    ![](assets/single-line-text-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolomkop van het veld in een tabel plaatst.
-1. Klikken **Maken**.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolomkop van het veld in een tabel plaatst.
+1. Klik **creëren**.
 
    Het nieuwe veld met één regel wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
@@ -188,17 +188,17 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 >
 >* De inhoud van een alinea-veld kan maximaal 1000 tekens bevatten.
 >
->* U kunt RTF-opmaak gebruiken om de inhoud van alineasvelden te verbeteren wanneer deze worden weergegeven in de tabelweergave of op de pagina Details van een record. Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+>* U kunt RTF-opmaak gebruiken om de inhoud van alineasvelden te verbeteren wanneer deze worden weergegeven in de tabelweergave of op de pagina Details van een record. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Alinea** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Paragraaf {.**
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-1. Klikken **Maken**.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+1. Klik **creëren**.
 
    Het nieuwe paragraafgebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
@@ -207,21 +207,21 @@ In alineasvelden wordt aanvullende alfanumerieke informatie over een record vast
 
 U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in elke gewenste indeling vast te leggen door meerdere opties in een vervolgkeuzemenu te selecteren.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Meerdere selecties** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **multi-uitgezochte** gebiedstype.
 
    ![](assets/multi-select-field-type.png)
 
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Keuzen**: De opties die beschikbaar zijn om in het keuzemenu te selecteren nadat het veld is opgeslagen. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
-1. Klikken **Keuze toevoegen** om zoveel opties toe te voegen als nodig is. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Keuzen**: De opties beschikbaar om van het drop-down menu te selecteren nadat het gebied wordt bewaard. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
+1. Klik **toevoegen keus** om zo vele keuzen toe te voegen zoals nodig. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld met meerdere selecties.
 1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie
-   **Keuzen A-Z sorteren** als u wilt dat de keuzen automatisch in alfabetische volgorde worden weergegeven. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Optioneel) Als u een keuze wilt verwijderen, klikt u op **x** rechts van het pictogram.
+   **de keuzen van de Soort a-z** optie als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe multi-select gebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
@@ -229,21 +229,21 @@ U kunt een veld met meerdere selecties gebruiken om aanvullende informatie in el
 
 Met velden die een enkele selectie maken, wordt aanvullende informatie in elke gewenste indeling vastgelegd door een optie in een vervolgkeuzemenu te selecteren.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Enkel selecteren** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **enig-uitgezochte** gebiedstype.
 
    ![](assets/single-select-field-type.png)
 
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de pagina Details van de record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Keuzen**: De opties die beschikbaar zijn om in het keuzemenu te selecteren nadat het veld is opgeslagen. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de pagina van Details van het verslag zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Keuzen**: De opties beschikbaar om van het drop-down menu te selecteren nadat het gebied wordt bewaard. U kunt zowel cijfers als letters voor de naam van elke keus hebben.
 
-1. Klikken **Keuze toevoegen** om zoveel opties toe te voegen als nodig is. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
-1. (Optioneel) Sleep een keuze handmatig in de gewenste volgorde of selecteer de optie **Keuzen A-Z sorteren** als u wilt dat de keuzen automatisch in alfabetische volgorde worden weergegeven. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Optioneel) Als u een keuze wilt verwijderen, klikt u op **x** rechts van het pictogram.
+1. Klik **toevoegen keus** om zo vele keuzen toe te voegen zoals nodig. Er geldt geen limiet voor het aantal keuzen dat u kunt toevoegen aan een veld voor één keuze.
+1. (Facultatief) sleep en laat manueel elke keus in de gewenste orde vallen, of selecteer de **optie van de Soort A-Z** als u de keuzen automatisch in alfabetische orde wilt worden vermeld. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Facultatief) om een keus te verwijderen, klik het **x** pictogram rechts van het.
 1. Klik op het kleurstaal links van een keuze om de kleurkiezer uit te vouwen en de kleur van elke optie aan te passen.
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe veld Eén keuze wordt toegevoegd als kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
@@ -251,30 +251,30 @@ Met velden die een enkele selectie maken, wordt aanvullende informatie in elke g
 
 U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de datum- en tijdnotatie.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Datum** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Datum** gebiedstype.
 
    ![](assets/date-field-type.png)
 
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Datumnotatie**: Het type datumnotatie dat u in dit veld wilt weergeven. <!--update this casing - submitted bug for it-->
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Formaat van de Datum**: Het type van datumformaat u op dit gebied wilt tonen. <!--update this casing - submitted bug for it-->
 
      Selecteer een van de volgende indelingen:
-      * **Landinstelling**: Komt overeen met de landinstelling van de browser.
-      * **Standaard** 16-05-2023
-      * **Lang**: 16 mei 2023
-      * **Europees** Debat : 16 mei 2023
-      * **ISO** 2023-05-16
-   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld. <!--update this setting name - submitted bug for it to be changed-->
+      * **Landinstelling**: Gelijke aan de scène van uw browser.
+      * **Norm**: 05/16/2023
+      * **Lang**: 16 mei, 2023
+      * **Europees**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--update this setting name - submitted bug for it to be changed-->
 
      Selecteer een van de volgende opties:
 
-      * **24 uur**: Bijvoorbeeld: 18:00
-      * **12 uur**: Bijvoorbeeld: 6:00 PM
+      * **24hr**: Bijvoorbeeld: 18:00
+      * **12hr**: Bijvoorbeeld: 6:00 PM
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe datumveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen worden gekoppeld aan records.
 
@@ -282,21 +282,21 @@ U kunt een datumveld gebruiken om aanvullende informatie vast te leggen in de da
 
 Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Getal** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Aantal {.**
 
    ![](assets/number-field-type.png)
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina.
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
-   * **Negatieve getallen toestaan**: Selecteer deze optie als u negatieve getallen in dit veld wilt toestaan. Deze optie is standaard uitgeschakeld.
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
+   * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve aantallen op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
    >[!NOTE]
    >
    >    Als u negatieve getallen toestaan selecteert en negatieve waarden worden opgeslagen in de records waaraan het veld is gekoppeld, kunt u de instelling in de toekomst niet meer uitschakelen.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe nummerveld wordt als kolom toegevoegd aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
@@ -304,21 +304,21 @@ Met een getalveldtype wordt informatie vastgelegd in een getalnotatie.
 
 Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een percentageteken.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Percentage** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van het Percentage {.**
 
    ![](assets/percentage-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina.
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
-   * **Negatieve getallen toestaan**: Selecteer deze optie als u negatieve percentagewaarden in dit veld wilt toestaan. Deze optie is standaard uitgeschakeld.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
+   * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve percentagewaarden op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
    >[!NOTE]
    >
    >    Als u negatieve getallen toestaan selecteert en negatieve waarden worden opgeslagen in de records waaraan het veld is gekoppeld, kunt u de instelling in de toekomst niet meer uitschakelen.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe percentageveld wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
@@ -326,22 +326,22 @@ Percentageveldtypen leggen informatie vast in een getalnotatie gevolgd door een 
 
 Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een valutasymbool.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Valuta** veldtype.
+1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van de Valuta {.**
 
    ![](assets/currency-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Valuta**: Het type valuta dat u in dit veld wilt weergeven. Dit is een lijst van valuta&#39;s volgens de Internationale Organisatie voor Normalisatie (ISO).
-   * **Precisie**: Het aantal decimalen dat u voor het veld wilt opnemen. U kunt maximaal 6 decimalen weergeven.
-   * **Negatieve getallen toestaan**: Selecteer deze optie als u negatieve valutawaarden wilt toestaan in dit veld. Deze optie is standaard uitgeschakeld.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Valuta**: Het type van munt u op dit gebied wilt tonen. Dit is een lijst van valuta&#39;s volgens de Internationale Organisatie voor Normalisatie (ISO).
+   * **Precisie**: Het aantal decimalen die u voor het gebied wilt registreren. U kunt maximaal 6 decimalen weergeven.
+   * **sta negatieve aantallen** toe: selecteer deze optie als u negatieve muntwaarden op dit gebied wilt toestaan. Deze optie is standaard uitgeschakeld.
 
    >[!NOTE]
    >
    >    Als u negatieve getallen toestaan selecteert en negatieve waarden worden opgeslagen in de records waaraan het veld is gekoppeld, kunt u de instelling in de toekomst niet meer uitschakelen.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe valutaveld wordt toegevoegd als een kolom aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
@@ -349,14 +349,14 @@ Valutatypen leggen informatie vast in een getalnotatie voorafgegaan door een val
 
 Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een record toevoegen. U kunt dit veld gebruiken om een specifiek kenmerk of een specifieke status voor die specifieke record aan te geven. U kunt deze bijvoorbeeld gebruiken als vlag voor het bijhouden van voltooiing, goedkeuring of een ander binair kenmerk voor elke record.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Selectievakje** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **CheckBox** gebiedstype.
 
    ![](assets/checkbox-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-1. Klikken **Maken**.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+1. Klik **creëren**.
 
    Het nieuwe selectievakje wordt als kolom toegevoegd aan het recordtype en de waarden ervan kunnen aan records worden gekoppeld.
 
@@ -364,23 +364,23 @@ Met het veldtype Selectievakje kunt u één optie voor het selectievakje aan een
 
 Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
-Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/planning/fields/formula-fields.md).
+Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Formule** veldtype.
+1. Begin creërend een gebied zoals die in sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Formule** gebiedstype.
 
    ![](assets/new-formula-field-with-list-of-expressions.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
-   * **Naam**: Voer een naam in voor het nieuwe veld.
-   * **Beschrijving**: Voeg informatie toe over het nieuwe veld.
-   * **Formule**: Typ ten minste één teken om toegang te krijgen tot een expressie en selecteer het teken wanneer het in de lijst wordt weergegeven.
+   * **Naam**: Ga een naam voor het nieuwe gebied in.
+   * **Beschrijving**: Voeg informatie over het nieuwe gebied toe.
+   * **Formule**: Begin typend minstens één karakter om tot een uitdrukking toegang te hebben, dan selecteer het wanneer het in de lijst toont.
 
 1. Klik op de geselecteerde expressie om de definitie weer te geven en de opmaak weer te geven.
 
    ![](assets/description-of-formula-expression.png)
 
-   Ga voor meer informatie over welke expressies worden ondersteund naar [Overzicht van formuliervelden](/help/quicksilver/planning/fields/formula-fields.md).
+   Voor meer informatie over welke uitdrukkingen worden gesteund, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
 
 1. Voeg veldnamen toe zoals deze worden weergegeven in Workfront Planning om ernaar te verwijzen in een formule.
 
@@ -390,29 +390,29 @@ Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/plann
    >
    >* U kunt verwijzen naar een veld dat zich op maximaal 4 niveaus van het huidige recordtype bevindt. Bijvoorbeeld, als u een formuleringsgebied voor een type van het verslag van de Activiteit creeert, en de Activiteit wordt verbonden met het type van het Verslag van het Product dat met het verslagtype van de Campagne wordt verbonden dat met een Project van Workfront wordt verbonden, kunt u het Begroting van het project in de formule verwijzen u voor het type van het verslag van de Activiteit creeert.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe formuleveld wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
 
 ### Mensen
 
-U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job role, or team--> naar een record. Dit is een typeveld en u kunt alleen gebruikers toevoegen<!--, roles, or teams--> die al in je Workfront-exemplaar bestaan.
+Met het veldtype Personen kunt u een gebruiker <!--, job role, or team--> aan een record toevoegen. Dit is een type-vooruit gebied, en u kunt slechts gebruikers <!--, roles, or teams--> toevoegen die reeds in uw instantie van Workfront bestaan.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Mensen** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **3} gebiedstype van Mensen {.**
 
    ![](assets/people-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina.
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Meerdere waarden toestaan**: Selecteer deze optie als u wilt toestaan dat gebruikers meer dan één gebruiker toevoegen in dit veld. Deze optie is standaard uitgeschakeld.
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen.
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **staat veelvoudige waarden** toe: Selecteer deze optie als u gebruikers wilt toestaan om meer dan één gebruiker op dit gebied toe te voegen. Deze optie is standaard uitgeschakeld.
 
    >[!NOTE]
    >
    >    Als u Meerdere waarden toestaan selecteert en meerdere gebruikers zijn opgeslagen in de records waaraan het veld is gekoppeld, kunt u de instelling in de toekomst niet meer uitschakelen wanneer u dit veld bewerkt.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe Mensen-type gebied wordt toegevoegd als kolom aan het verslagtype, en zijn waarden kunnen met verslagen worden geassocieerd.
 
@@ -420,16 +420,16 @@ U kunt het veldtype Mensen gebruiken om een gebruiker toe te voegen <!--, job ro
 
 U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heeft gemaakt, toe te voegen aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de naam van de gebruiker die is aangemeld toen de record werd gemaakt.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Gemaakt door** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer **die door** gebiedstype wordt gecreeerd.
 
    ![](assets/created-by-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe veld Gemaakt door type wordt toegevoegd als kolom aan het recordtype en de waarden ervan worden voorgevuld met de naam van de gebruiker die elke record heeft gemaakt.
 
@@ -438,31 +438,31 @@ U kunt het veld Gemaakt op veldtype gebruiken om de gebruiker die de record heef
 
 Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gemaakt aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en eventueel met de tijd) waarop de record is gemaakt.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Aanmaakdatum** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Gemaakt datum** gebiedstype.
 
    ![](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Datumnotatie**: Kies een van de volgende indelingen:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
 
-      * **Landinstelling**: Komt overeen met de landinstelling van de browser.
-      * **Standaard** 16-05-2023
-      * **Lang**: 16 mei 2023
-      * **Europees** Debat : 16 mei 2023
-      * **ISO** 2023-05-16
-   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
+      * **Landinstelling**: Gelijke aan de scène van uw browser.
+      * **Norm**: 05/16/2023
+      * **Lang**: 16 mei, 2023
+      * **Europees**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
 
      Selecteer een van de volgende opties:
 
-      * **24 uur**: Bijvoorbeeld: 18:00
-      * **12 uur**: Bijvoorbeeld: 6:00 PM
+      * **24hr**: Bijvoorbeeld: 18:00
+      * **12hr**: Bijvoorbeeld: 6:00 PM
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe datumtekstveld Gemaakt wordt toegevoegd als een kolom aan het recordtype en de waarden ervan worden voorgevuld met de datum (of datum en tijd) waarop de record is gemaakt.
 
@@ -471,16 +471,16 @@ Met het veldtype Gemaakt datum kunt u de datum toevoegen waarop de record is gem
 
 U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record het laatst heeft gewijzigd, toe te voegen aan een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de naam van de gebruiker die is aangemeld toen de record voor het laatst werd bijgewerkt.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Laatst gewijzigd door** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Laatst gewijzigd door** gebiedstype.
 
    ![](assets/last-modified-by-field-type.png)
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe subtekstveld Laatst gewijzigd wordt toegevoegd als een kolom aan het recordtype en de waarden ervan worden voorgevuld met de naam van de gebruiker die elke record het laatst heeft gewijzigd.
 
@@ -489,31 +489,31 @@ U kunt de Laatst gewijzigd op veldtype gebruiken om de gebruiker die de record h
 
 Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record voor het laatst is gewijzigd in een record. Dit is een alleen-lezen veld en het veld wordt automatisch gevuld met de datum (en eventueel met de tijd) waarop de record voor het laatst is gewijzigd.
 
-1. Een veld maken zoals wordt beschreven in de sectie [geheel nieuwe velden maken](#create-fields-from-scratch) in dit artikel selecteert u vervolgens de **Aanmaakdatum** veldtype.
+1. Begin creërend een gebied zoals die in de sectie [ wordt beschreven creeer gebieden van kras ](#create-fields-from-scratch) in dit artikel, dan selecteer het **Gemaakt datum** gebiedstype.
 
    ![](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Voeg de volgende informatie toe in de **Nieuw veld** tab:
+1. Voeg de volgende informatie op het **Nieuwe gebied** tabel toe:
 
-   * **Naam**: De naam van het veldtype, zoals deze wordt weergegeven in een tabel of op de recordpagina. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschrijving**: Aanvullende informatie over het veld. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **Datumnotatie**: Kies een van de volgende indelingen:
+   * **Naam**: De naam van het gebiedstype, aangezien het in een lijst of de verslagpagina zal verschijnen. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Beschrijving**: Aanvullende informatie over het gebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+   * **Formaat van de Datum**: Uitgezocht van de volgende formaten:
 
-      * **Landinstelling**: Komt overeen met de landinstelling van de browser.
-      * **Standaard** 16-05-2023
-      * **Lang**: 16 mei 2023
-      * **Europees** Debat : 16 mei 2023
-      * **ISO** 2023-05-16
-   * **Een tijdveld opnemen**: Selecteer deze optie als u een tijdstempel wilt opnemen. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
+      * **Landinstelling**: Gelijke aan de scène van uw browser.
+      * **Norm**: 05/16/2023
+      * **Lang**: 16 mei, 2023
+      * **Europees**: 16/05/2023
+      * **ISO**: 2023-05-16
+   * **omvat een tijdgebied**: Selecteer deze optie als u een tijdstempel wilt omvatten. Deze optie is standaard uitgeschakeld. <!--submitted a UI text change for this - check the UI-->
 
      Selecteer een van de volgende opties:
 
-      * **24 uur**: Bijvoorbeeld: 18:00
-      * **12 uur**: Bijvoorbeeld: 6:00 PM
+      * **24hr**: Bijvoorbeeld: 18:00
+      * **12hr**: Bijvoorbeeld: 6:00 PM
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het nieuwe datum-type veld Laatst gewijzigd wordt toegevoegd als kolom aan het recordtype en de waarden ervan worden voorgevuld met de datum (of datum en tijd) waarop de record voor het laatst is gewijzigd.
 
@@ -521,18 +521,18 @@ Met het veldtype Laatst gewijzigd kunt u de datum toevoegen waarop een record vo
 
 U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tussen twee recordtypen of een recordtype en een objecttype vanuit andere toepassingen.
 
-Voor informatie over het verbinden van de registratietypen van de Planning van Workfront, zie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+Voor informatie over het verbinden van het verslagtypes van de Planning van Workfront, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md)
 
 ## Velden maken door recordtypen te importeren met een Excel- of CSV-bestand
 
-Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Velden maken door een recordtype te maken
 
-Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe recordtype zijn gekoppeld, standaard gemaakt. Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Wanneer u een recordtype maakt, worden ook een aantal velden die aan het nieuwe recordtype zijn gekoppeld, standaard gemaakt. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Velden maken door een werkruimte te maken van een sjabloon
 
 Adobe Workfront Planning maakt velden voor recordtypen wanneer u een werkruimte maakt op basis van een sjabloon.
 
-Zie voor meer informatie [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.

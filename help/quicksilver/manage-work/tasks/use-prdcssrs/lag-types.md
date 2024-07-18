@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,47 +94,47 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 ### Wijs op de Types van Lag in de Predecessors sectie van een taak {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Ga naar een taak waarvoor u voorganger en het Type van Lag wilt bepalen.
-1. Klikken **Predecessors** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** en vervolgens **Predecessors**.
-1. Klikken **Voorganger toevoegen**.
-1. (Optioneel) Als u een voorganger voor meerdere projecten wilt toevoegen, vervangt u de opdracht **Bovenliggend project** naam met een ander project.
+1. Klik **Predecessors** in het linkerpaneel. U zou **kunnen moeten klikken tonen Meer**, en dan **Predecessors**.
+1. Klik **toevoegen Voorganger**.
+1. (Facultatief) als u een dwars-projectvoorganger wilt toevoegen, vervang de **naam van het Project van de ouder** {met een ander project.
 1. Typ de naam van de voorgaande taak en selecteer deze wanneer deze in de lijst wordt weergegeven.
-1. Selecteer de **Type afhankelijkheid**.
+1. Selecteer het **Type van Afhankelijkheid**.
 
-   Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Geef een **Lag** hoeveelheid met een numerieke waarde. U kunt negatieve getallen opgeven om een negatieve vertraging aan te geven.
+1. Specificeer a **bedrag van de a** Lag gebruikend een numerieke waarde. U kunt negatieve getallen opgeven om een negatieve vertraging aan te geven.
 1. Selecteer een van de volgende opties om het type vertraging aan te geven dat u voor uw voorganger wilt opgeven:
 
    * **Dagen**
-   * **Kalenderdagen**
+   * **de Dagen van de Kalender**
    * **Percentage**
-   * **Dag van de week**
-   * **Dag van de week (niet nul)**
+   * **Dag van de Week**
+   * **Dag van de Week (Nul)**
 
-     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de sectie [Laagtypen](#lag-types) in dit artikel.
+     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de types van sectie [ Lag ](#lag-types) in dit artikel.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ### Wijs op de Types van Lag in een taaklijst  {#indicate-lag-types-in-a-task-list}
 
-1. Ga naar een takenlijst en selecteer de **Standaard** weergeven.
+1. Ga naar een taaklijst, en selecteer de **Standaard** mening.
 
-1. Klik in het dialoogvenster **Predecessors** kolom die overeenkomt met de taak waarvoor u een voorganger en een hoeveelheid vertraging wilt opgeven.
+1. Klik binnen de **1} kolom van Predecessors {die aan de taak beantwoordt waarvoor u een voorganger en een vertragingsbedrag wilt specificeren.**
 1. Voer het volgende in zonder spaties:
 
    * het aantal van de taak u als voorganger van de geselecteerde taak wilt wijzen
    * de afkorting voor het gebiedstype u tussen de taken wilt wijzen
 
-     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * ofwel **+** voor een positieve vertraging of een **-** voor een negatieve vertraging
+   * of a **+** voor een positieve vertraging of a **-** voor een negatieve vertraging
 
    * de omvang van de vertraging
    * de afkorting voor het gewenste Laagtype
 
-     Zie de sectie voor meer informatie over de afkortingen voor Lagtypen [Laagtypen](#lag-types) in dit artikel.
+     Voor meer informatie over de afkortingen voor de Types van Lag, zie de sectie [ Types van Lag ](#lag-types) in dit artikel.
 
-   Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, voert u `1fs+2d` in de kolom Voorgangers.
+   Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, typt u `1fs+2d` in de kolom Voorgangers.
 
 1. Druk op Enter op het toetsenbord om de wijzigingen in uw taak op te slaan.
 
@@ -149,8 +149,8 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>Waarde</strong> </p> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td> <p><strong> Waarde </strong> </p> </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
@@ -183,7 +183,7 @@ De volgende tabel illustreert de typen labels en hoe u de hoeveelheid tijd voor 
 
 <p><b>OPMERKING</b></p>
 
-Als de Datum van het Begin van de opvolger wordt berekend om een bepaalde Dinsdag te zijn en die dag die voor de huidige week wordt overgegaan, dan is de Geplande Datum van het Begin van de opvolgertaak de zelfde dag (Dinsdag) van de volgende week, als beschikbaar. </p> <p>Als u wilt erop wijzen dat de vertraging op een Zaterdag van de huidige week zou moeten vallen, en de Zaterdag is na de Geplande Datum van Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen:</p> <p><code>4fs+7w</code> </p> <p>Als zaterdag een niet-werkdag is, wordt de volgende beschikbare dag na zaterdag (om positieve vertraging aan te geven) geselecteerd als de geplande begindatum van de opvolger. </p>
+Als de Datum van het Begin van de opvolger wordt berekend om een bepaalde Dinsdag te zijn en die dag die voor de huidige week wordt overgegaan, dan is de Geplande Datum van het Begin van de opvolgertaak de zelfde dag (Dinsdag) van de volgende week, als beschikbaar. </p> <p>Als u wilt erop wijzen dat de vertraging op een Zaterdag van de huidige week zou moeten vallen, en de Zaterdag is na de Geplande Datum van Voltooiing van de voorganger, zou u uw opvolger met de volgende formule coderen:</p> <p><code> 4fs+7w</code> </p> <p>Als zaterdag een niet-werkdag is, wordt de volgende beschikbare dag na zaterdag (om positieve vertraging aan te geven) geselecteerd als de geplande begindatum van de opvolger. </p>
 
 <p>Dit is niet van toepassing op planningsuitzonderingen. Als een datum ook een kalenderuitzondering is en de Datum van het Begin van de opvolger wordt berekend om die dag te zijn, dan probeert het systeem om de dichtstbijzijnde beschikbare datum te vinden die de dag van de week is die in de voorgangersuitdrukking wordt gespecificeerd.</p>
 

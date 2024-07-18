@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront voor iOS
-description: De [!DNL Adobe Workfront] kunt u uw werk op elk iOS-apparaat openen. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] De mobiele app is zowel voor de iPhone als voor de iPad beschikbaar.
+description: De  [!DNL Adobe Workfront]  app staat u toe om tot uw werk op om het even welk apparaat van iOS toegang te hebben. U kunt  [!DNL Workfront]  mobiele app op telefoons en tabletten installeren en gebruiken die iOS 10 in werking stellen of later. Een specifieke  [!DNL Workfront]  mobiele app is beschikbaar voor zowel iPhone als iPad.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] for [!DNL iOS]
 
-De [!DNL Adobe Workfront] kunt u uw werk openen op elke [!DNL iOS] apparaat. U kunt de [!DNL Workfront] mobiele app op telefoons en tablets met iOS 10 of hoger. Een specifieke [!DNL Workfront] de mobiele app is beschikbaar voor beide [!DNL iPhone] en de [!DNL iPad].
+Met de app [!DNL Adobe Workfront] hebt u toegang tot uw werk op elk [!DNL iOS] -apparaat. U kunt de mobiele app van [!DNL Workfront] installeren en gebruiken op telefoons en tablets met iOS 10 of hoger. Er is een toegewijde [!DNL Workfront] mobiele app beschikbaar voor zowel de [!DNL iPhone] als de [!DNL iPad] .
 
-Zie de sectie voor informatie over het aanmelden bij de mobiele app [Aanmelden bij de [!UICONTROL Workfront] mobiele app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in het artikel [Aanmelden bij [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Voor informatie over het aanmelden bij mobiele app, zie het sectie [ Login aan [!UICONTROL Workfront] mobiele app ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in het artikel [ Login aan  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Home]
 
-De [!UICONTROL Home] kunt u rechtstreeks werken aan taken, problemen en goedkeuringen die aan u zijn toegewezen. Van de [!UICONTROL Home] in de app kunt u:
+In het gebied [!UICONTROL Home] kunt u rechtstreeks werken aan taken, problemen en goedkeuringen die aan u zijn toegewezen. Vanuit het gebied [!UICONTROL Home] van de app kunt u:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,21 +48,21 @@ De [!UICONTROL Home] kunt u rechtstreeks werken aan taken, problemen en goedkeur
  </tbody> 
 </table>
 
-Zie voor meer informatie [[!UICONTROL Home] gebiedswidgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) en [[!UICONTROL My Work] in de mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Zie de secties [[!UICONTROL Home] Gebiedswidgets ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) en [[!UICONTROL My Work] in de mobiele app ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md) voor meer informatie.
 
-![Thuisgebied](assets/mobile-home-area.png)
+![ gebied van het Huis ](assets/mobile-home-area.png)
 
 ## [!UICONTROL Boards]
 
-De [!UICONTROL Boards] kunt u uw [!DNL Workfront] borden.
+In het gebied [!UICONTROL Boards] hebt u toegang tot uw [!DNL Workfront] -borden.
 
-![Boekgebied](assets/mobile-all-boards-displayed.png)
+![ het gebied van Boden ](assets/mobile-all-boards-displayed.png)
 
-Zie voor meer informatie [[!DNL Adobe Workfront] [!UICONTROL Boards] voor mobiel](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md) voor meer informatie.
 
 ## [!UICONTROL Projects]
 
-De [!UICONTROL Projects] kunt u interageren met en beheren [!UICONTROL projects] jij hebt en projecten waar je mee bezig bent. Vanuit het projectgebied van de app kunt u:
+In het gebied [!UICONTROL Projects] kunt u communiceren met en projecten beheren die u in [!UICONTROL projects] bezit en die u uitvoert. Vanuit het projectgebied van de app kunt u:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +73,7 @@ De [!UICONTROL Projects] kunt u interageren met en beheren [!UICONTROL projects]
     <ul> 
      <li>Projectstatus bijwerken</li> 
      <li>Belangrijke projectdetails weergeven</li> 
-     <li>Post in het [!UICONTROL Updates] gebied</li> 
+     <li>Post in het gebied [!UICONTROL Updates]</li> 
      <li>Taken, problemen en verzoeken converteren naar projecten</li> 
     </ul> </td> 
    <td> 
@@ -87,11 +87,11 @@ De [!UICONTROL Projects] kunt u interageren met en beheren [!UICONTROL projects]
  </tbody> 
 </table>
 
-![Projectgebied](assets/mobile-projects-area.png)
+![ Gebied van Projecten ](assets/mobile-projects-area.png)
 
 ## Goedkeuringen
 
-De [!UICONTROL Approvals] kunt u bekijken en goedkeuren [!UICONTROL approvals] toegewezen of gedelegeerd aan u. Vanuit het goedkeuringsgebied kunt u het volgende goedkeuren:
+In het gebied [!UICONTROL Approvals] kunt u [!UICONTROL approvals] die aan u is toegewezen of die u hebt gedelegeerd, weergeven en goedkeuren. Vanuit het goedkeuringsgebied kunt u het volgende goedkeuren:
 
 <table style="table-layout:auto">
  <col>
@@ -113,24 +113,24 @@ De [!UICONTROL Approvals] kunt u bekijken en goedkeuren [!UICONTROL approvals] t
  </tbody>
 </table>
 
-Zie voor meer informatie over goedkeuringen [Goedkeuringen in de [!DNL Adobe Workfront] mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Voor meer informatie over goedkeuringen, zie [ Goedkeuringen in  [!DNL Adobe Workfront]  mobiele app ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Voor informatie over het beoordelen en goedkeuren van proefdrukken raadpleegt u [Evalueren en besluiten nemen over proefdrukken in de [!DNL Adobe Workfront] mobiele app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Voor informatie bij het herzien van en het goedkeuren van proeven, zie [ Overzicht en maak besluiten over proeven in  [!DNL Adobe Workfront]  mobiele app ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
-![Goedkeuringslijst in mobiele app](assets/mobile-approvals-adobe-350x574.png)
+![ lijst van Goedkeuringen in mobiele app ](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notifications]
 
-De [!UICONTROL Notifications] kunt u in de app meldingen voor uw werk weergeven en hierop reageren.
+In het gebied [!UICONTROL Notifications] kunt u meldingen in de app voor uw werk weergeven en hierop reageren.
 
 >[!NOTE]
 >Hyperlinks zijn niet beschikbaar in de updatemeldingen, tenzij de volledige inhoud van een notitie een hyperlink zonder weergavetekst is.
 
-![Gebied met meldingen](assets/mobile-notifications-area.png)
+![ gebied van Meldingen ](assets/mobile-notifications-area.png)
 
 ## [!UICONTROL Requests]
 
-De [!UICONTROL Requests] kunt u details over verzoeken bekijken. Van de [!UICONTROL Requests] in de app kunt u:
+In het gebied [!UICONTROL Requests] kunt u details over aanvragen weergeven. Vanuit het gebied [!UICONTROL Requests] van de app kunt u:
 
 <table style="table-layout:auto">
  <col>
@@ -145,7 +145,7 @@ De [!UICONTROL Requests] kunt u details over verzoeken bekijken. Van de [!UICONT
     </ul> </td>
    <td>
     <ul>
-     <li>Post in het [!UICONTROL Updates] gebied</li>
+     <li>Post in het gebied [!UICONTROL Updates]</li>
      <li>Documenten weergeven</li>
      <li>Foto's koppelen</li>
      <li>Een verzoek opslaan als concept</li>
@@ -154,35 +154,35 @@ De [!UICONTROL Requests] kunt u details over verzoeken bekijken. Van de [!UICONT
  </tbody>
 </table>
 
-![Gebied Aanvragen](assets/mobile-requests-area.png)
+![ gebied van Verzoeken ](assets/mobile-requests-area.png)
 
 ## Timesheets
 
-De [!UICONTROL timesheets] kunt u details over uw tijdbladen bekijken. In de [!UICONTROL Timesheets] in de app kunt u:
+In het gebied [!UICONTROL timesheets] kunt u details over uw tijdbladen bekijken. In het gebied [!UICONTROL Timesheets] van de app kunt u:
 
-* Post in het [!UICONTROL Updates] gebied
+* Post in het gebied [!UICONTROL Updates]
 * Urentypen aanpassen
 * De tijd wijzigen die u hebt aangemeld
 * Opmerkingen invoeren op uw timesheet
 * Uw timesheet sluiten
 
-![Gebied Timesheets](assets/mobile-timesheets-area.png)
+![ gebied van Tijdopnemers ](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favorites]
 
-U kunt bestaande items openen via het menu Favorieten en nieuwe items toevoegen aan het menu [!UICONTROL Favorites] -menu.
+U kunt bestaande items openen via het menu Favorieten en nieuwe items toevoegen aan het menu [!UICONTROL Favorites] .
 
-![Het gebied Favorieten](assets/mobile-favorites-area.png)
+![ gebied van Favorieten ](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL Contacts]
 
-De [!UICONTROL Contacts] kunt u de contactgegevens van alle gebruikers in uw bedrijf bekijken.
+In het gebied [!UICONTROL Contacts] kunt u de contactgegevens van alle gebruikers in uw bedrijf bekijken.
 
-![Contactgebied](assets/mobile-contacts-area.png)
+![ het gebied van Contacten ](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configuration]
 
-De [!UICONTROL Configuration] kunt u:
+In het gebied [!UICONTROL Configuration] kunt u het volgende doen:
 
 * Uw instellingen beheren
 * Toegewezen teams weergeven
@@ -191,4 +191,4 @@ De [!UICONTROL Configuration] kunt u:
 * Help-inhoud openen
 * Afmelden
 
-![Configuratiegebied](assets/ios-configuration-area.png)
+![ gebied van de Configuratie ](assets/ios-configuration-area.png)

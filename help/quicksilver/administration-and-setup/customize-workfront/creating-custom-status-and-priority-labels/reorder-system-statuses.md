@@ -29,10 +29,9 @@ Als beheerder van Workfront, kunt u de orde van project, taak veranderen, en sta
 >
 >  Nochtans, erven de statussen binnen een pas gecreëerde top-level groep de orde van de systeem-vlakke statussen. (Een nieuwe subgroep erft de volgorde van de statussen in de groep één niveau omhoog.)
 >
->* U kunt vergrendelde statussen opnieuw ordenen. Voor informatie over vergrendelde statussen raadpleegt u [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
->* De beheerders van de groep kunnen statussen ook herschikken die in hun groepen worden gebruikt. Zie voor meer informatie [Groepsstatussen opnieuw ordenen](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
+>* U kunt vergrendelde statussen opnieuw ordenen. Voor informatie over gesloten statussen, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+>* De beheerders van de groep kunnen statussen ook herschikken die in hun groepen worden gebruikt. Voor meer informatie, zie [ groepsstatussen van de herschikking ](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
 >
-
 
 ## Toegangsvereisten
 
@@ -48,12 +47,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Standaardvolgorde van statussen
 
@@ -109,14 +108,14 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor taken en projecten in het gehele systeem of voor een groep
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Projectvoorkeuren > Statussen**.
+1. In het linkerpaneel, klik **Voorkeur van het Project > Statussen**.
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Klik boven de lijst Statussen die wordt weergegeven op de knop **Projecten** of **Taken** tab.
+1. Boven de lijst van Statussen die toont, klik de **Projecten** of **Taken** tabel.
 
 1. Sleep de statussen naar de gewenste volgorde.
 
@@ -126,21 +125,20 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor problemen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Projectvoorkeuren > Statussen.**
+1. Klik **Voorkeur van het Project > Statussen.**
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.
 
    ![](assets/issue-statuses-group-name.png)
 
-1. Klik op de knop **Problemen** tab.
-1. (Optioneel) Selecteer een type uitgave (**Foutrapport**, **Volgorde wijzigen**, **Probleem**, of **Verzoek**).
+1. Klik de **Kwesties** tabel.
+1. (Facultatief) selecteer een type van kwestie (**Bug Rapport**, **de Orde van de Verandering**, **Uitgave**, of **Verzoek**).
 
    >[!NOTE]
    >
-   >* U kunt de volgorde van statussen voor de Master lijst niet aanpassen.
-   >* Wij adviseren dat u orde van statussen voor elke kwestie de zelfde manier typt. Voor meer informatie over emissietypen raadpleegt u [Aanvraagtypen configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
-
+   >* U kunt de volgorde van statussen voor de hoofdlijst niet aanpassen.
+   >* Wij adviseren dat u orde van statussen voor elke kwestie de zelfde manier typt. Voor meer informatie over kwesties types, zie [ aanvraagtypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
 
 1. Sleep de statussen naar de gewenste volgorde.
 

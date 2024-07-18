@@ -77,21 +77,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>In Workfront kunt u de machtiging Weergeven of hoger voor een project, portfolio of programma</a> </p> 
-   <p>In Workfront Planning, Contribute of hoger toestemmingen aan een werkruimte</a> </p>  
+   <td> <p>In Workfront, Mening of hogere toestemmingen aan een project, portefeuille, of programma </a> </p> 
+   <p>In de Planning van Workfront, Contribute of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten voor Workfront Planning, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het gebied van de Planning in het Belangrijkste Menu en de sectie van de Planning in het linkerpaneel aan uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het gebied van de Planning in het Belangrijkste Menu en de sectie van de Planning in het linkerpaneel aan uw lay-outmalplaatje toevoegen. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen over de sectie Planning van Workfront-objecten
 
@@ -113,11 +113,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op de kaart van een recordtype die is verbonden met een Workfront-project, -portfolio of -programma.
-1. Ga naar een verbonden verslaggebied dat een verbinding met een voorwerp van Workfront heeft, of in de lijstmening of van de detailspagina van een verslag. Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+1. Ga naar een verbonden verslaggebied dat een verbinding met een voorwerp van Workfront heeft, of in de lijstmening of van de detailspagina van een verslag. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 1. Klik op de naam van een Workfront-object in het verbonden recordveld.
 De objectpagina wordt geopend in Workfront.
 
-1. Klikken **Planning** in het linkerdeelvenster.
+1. Klik **Planning** in het linkerpaneel.
 
    >[!NOTE]
    >
@@ -135,13 +135,13 @@ De objectpagina wordt geopend in Workfront.
 
 1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
 1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
-1. (Optioneel) Klik op de knop **Openen in een nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de rechterbovenhoek van het voorvertoningsvak om de detailpagina van de record te openen. De detailpagina van het verslag opent in de Planning van Workfront.
-1. Houd de muisaanwijzer boven een opnamekaart en klik vervolgens op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken**.
+1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
+1. Beweeg over een verslagkaart, dan klik los verslagpictogram **-**, dan klik **losmaakt**.
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
    * Het Workfront-object wordt ook verwijderd uit het verbonden veld van de record uit Workfront Planning.
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
-1. Klikken **Verbinden** om meer records te verbinden.
+1. Klik **verbinden** om meer verslagen te verbinden.
 
    >[!NOTE]
    >

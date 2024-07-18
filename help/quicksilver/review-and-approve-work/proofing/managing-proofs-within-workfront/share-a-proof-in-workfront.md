@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als u de proefdruk deelt, zoals in dit artikel wordt uitgelegd, heeft de ontvang
 
 >[!TIP]
 >
->U kunt ook een proef delen vanuit de testviewer. Zie voor instructies [Een proefdruk delen vanuit de proefdrukviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+>U kunt ook een proefdruk delen vanuit de proefdrukviewer. Voor instructies, zie [ een proef van de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md) delen.
 
 ## Toegangsvereisten
 
@@ -33,11 +33,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -49,12 +49,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een proefdrukkoppeling delen
 
@@ -68,16 +68,16 @@ Als u een proefdrukkoppeling deelt, kunnen Workfront-gebruikers toegang bekijken
 
    U kunt slechts één document selecteren. U kunt de koppeling voor meerdere documenten niet tegelijkertijd delen.
 
-1. Klikken **Delen** > **Koppeling proefdrukken**.
-1. In de **Koppeling proefdrukken** Voer een van de volgende handelingen uit in het vak dat wordt weergegeven:
+1. Klik **Aandeel** > **Verbinding van het Bewijs**.
+1. In de **verbinding van het Bewijs** doos die verschijnt, doe één van beiden van het volgende:
 
-   * Als u de koppeling naar het klembord wilt kopiëren, klikt u op **Koppeling kopiëren**.
+   * Om de verbinding aan uw klembord te kopiëren, klik **verbinding van het Exemplaar**.
 
      U kunt de koppeling nu distribueren via een hulpprogramma van derden, zoals een chat of een e-mailtoepassing.
 
    * Ga als volgt te werk om de koppeling rechtstreeks vanuit Adobe Workfront te e-mailen:
 
-      1. In de **Of e-mailkoppeling naar** -veld, begint u te typen en selecteert u de naam van de ontvanger. Of geef het e-mailadres op van een externe gebruiker met wie u wilt delen.
+      1. In het **of e-mailverbinding aan** gebied, begin typend en selecteer de naam van uw ontvanger. Of geef het e-mailadres op van een externe gebruiker met wie u wilt delen.
 
          >[!NOTE]
          >
@@ -91,7 +91,7 @@ Als u een proefdrukkoppeling deelt, kunnen Workfront-gebruikers toegang bekijken
           <tbody>
            <tr>
             <td role="rowheader">Openbare koppeling verzenden</td>
-            <td><p>Bevat een knop in het e-mailbericht waarmee gebruikers naar de proefdruk worden geleid in de kijker die ze controleren en waarmee ze toegang krijgen tot de weergave.</p><p>Indien <strong>Abonneren op bewijs via openbare URL of insluitcode</strong> is uitgeschakeld voor de proefdruk, kunnen gebruikers zich aanmelden met hun aanmeldingsgegevens voor Workfront om opmerkingen toe te voegen aan de proefdruk. Als deze optie is ingeschakeld, kan iedereen die zijn e-mailadres en naam (geen wachtwoord vereist) opgeeft, ondertekenen en opmerkingen toevoegen aan de proefdruk.</p></td>
+            <td><p>Bevat een knop in het e-mailbericht waarmee gebruikers naar de proefdruk worden geleid in de kijker die ze controleren en waarmee ze toegang krijgen tot de weergave.</p><p>Als <strong> aan bewijs via openbare URL of inbedt code </strong> wordt toegelaten voor de proef, kunnen de gebruikers binnen met hun login van Workfront geloofsbrieven ondertekenen om commentaren aan de proef toe te voegen. Als deze optie is ingeschakeld, kan iedereen die zijn e-mailadres en naam (geen wachtwoord vereist) opgeeft, ondertekenen en opmerkingen toevoegen aan de proefdruk.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Download-koppeling verzenden</td>
@@ -104,7 +104,7 @@ Als u een proefdrukkoppeling deelt, kunnen Workfront-gebruikers toegang bekijken
           </tbody>
          </table>
 
-      1. Klikken **Verzenden**.
+      1. Klik **verzenden**.
 
          De ontvangers ontvangen een e-mailbericht met informatie over de proefdruk en de knoppen die u wilt opnemen.
 
@@ -126,31 +126,31 @@ U kunt elke Workfront-gebruiker aan de proefdruk toevoegen als u bewerkingsrecht
 >Houd rekening met het volgende als u een verouderd Workfront-plan gebruikt waarin proefdrukken voor een gebruiker kan worden in- en uitgeschakeld:
 >
 >* De ontvangers hoeven geen proef te hebben toegelaten om de proef te herzien.
->* Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. (Zie voor meer informatie [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
+>* Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. (Voor meer informatie, zie [ Geautomatiseerd Overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
 
 ### Gebruikers toevoegen aan een bestaande proefdruk via het tabblad Documenten
 
 1. Selecteer het document met de proefdruk waaraan u gebruikers wilt toevoegen.
-1. Als de proefdruk geen geautomatiseerde workflow (stadia) heeft, klikt u op de knop **Meer** in de rechterbovenhoek van de sectie Stage 1, klikt u op **Delen** in het vervolgkeuzemenu.
+1. Als de proef geen geautomatiseerd werkschema (stadia) heeft, klik het **Meer** pictogram in de hoger-juiste hoek van Stadium 1 sectie, dan klik **Aandeel** in het drop-down menu.
 
    of
 
-   Als de proefdruk wel een geautomatiseerde workflow heeft, klikt u op de knop **Meer** in de rechterbovenhoek van het werkgebied waar u de revisor wilt toevoegen, klikt u op **Delen** in het vervolgkeuzemenu.
+   Als de proef een Geautomatiseerd Werkschema heeft, klik het **Meer** pictogram in de hoger-juiste hoek van het stadium waar u de recensent wilt toevoegen, dan **Aandeel** in het drop-down menu klikken.
 
-1. In de **Deze versie delen** vak dat wordt weergegeven onder **Delen** typt u eerst de naam of het e-mailadres van de gebruiker met wie u de proefdruk wilt delen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+1. In het **Aandeel deze versie** doos die, onder **Aandeel** verschijnt, begint typend de naam of het e-mailadres van een gebruiker die u de proef met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
 1. (Optioneel) Herhaal deze stap om meerdere gebruikers aan de proefdruk toe te voegen.
 1. (Optioneel) Stel een deadline in voor de controleurs.
-1. (Optioneel) Controleer of **Personen per e-mail op de hoogte stellen** is geselecteerd als u wilt dat de controleurs weten dat u ze aan de proefdruk hebt toegevoegd.
-1. (Optioneel) **Een aangepast bericht toevoegen** naar de e-mail.
-1. Als u alle revisoren hebt toegevoegd, klikt u op **Delen**.
+1. (Facultatief) zorg ervoor **mensen door e-mail** op de hoogte brengt wordt geselecteerd als u de recensenten wilt laten weten u hen aan de proef hebt toegevoegd.
+1. (Facultatief) **voeg een douanebericht** aan e-mail toe.
+1. Wanneer u alle recensenten hebt toegevoegd, klik **Aandeel**.
 
 ### Gebruikers aan een bestaande proefdruk toevoegen vanuit de proefdrukviewer
 
 U kunt gebruikers aan een proefdruk toevoegen terwijl u een proef in de Kijker van het Keuren van het Web en in de Kijker van het Proofing van de Desktop bekijkt.
 
-Zie voor meer informatie [Een proefdruk delen door er gebruikers aan toe te voegen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in het artikel [Een proefdruk delen vanuit de proefdrukviewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+Voor meer informatie, zie [ een proef delen door gebruikers aan het ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in het artikel [ toe te voegen Deel een bewijs van de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
 
 ## Verslag over goedkeuringen voor proefdrukken
 
@@ -162,12 +162,12 @@ U kunt een rapport maken dat rapporten weergeeft over de proefdrukgoedkeuringen 
 * Proef-id
 * Aanmaakdatum proefdrukken
 
-U hebt toegang tot deze goedkeuring wanneer u een rapport maakt dat is gebaseerd op een object, zoals wordt beschreven in [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+U hebt toegang tot deze goedkeuring wanneer het creëren van een rapport dat op een voorwerp wordt gebaseerd, zoals die in [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Voor meer informatie over het rapport van het object Goedkeuringen proef raadpleegt u de [Objecten rapporteren](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) sectie in [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+Voor meer informatie over het Proef keurt objecten rapport goed, zie het [ Rapport over voorwerpen ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) sectie in [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen
 
 ## Een gedeelde proefdruk goedkeuren
 
-Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver gebruikend Geautomatiseerde Workflow verleent, toont het goedkeuringsverzoek op het lusje van Goedkeuringen in uw Huis of Mijn Gebied van het Werk. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen.
+Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver gebruikend Geautomatiseerde Workflow verleent, toont het goedkeuringsverzoek op het lusje van Goedkeuringen in uw Huis of Mijn Gebied van het Werk. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen over het bewijs.
 
-Voor informatie over hoe te om goedkeuringsbesluiten van het Mijn gebied van het Werk te nemen, zie [Werk goedkeuren vanuit het thuisgebied](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) of [Goedkeuring van de werkzaamheden](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Goedkeuring van de werkzaamheden](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Voor informatie over hoe te om goedkeuringsbesluiten van het Mijn gebied van het Werk te nemen, zie [ werk van het gebied van het Huis goedkeuren ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) of [ het werk ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [ goedkeurend werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).

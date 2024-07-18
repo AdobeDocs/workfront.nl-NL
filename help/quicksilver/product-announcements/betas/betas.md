@@ -1,6 +1,6 @@
 ---
 navigation-topic: betas
-title: Bètaprogramma's
+title: Beta-programma's
 description: Meer informatie over de huidige bètareleases in Adobe Workfront.
 author: Alina
 feature: Product Announcements
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Bètaprogramma&#39;s
+# Beta-programma&#39;s
 
 In de artikelen die op deze pagina zijn gekoppeld, worden de bètaprogramma&#39;s beschreven die momenteel beschikbaar zijn in Adobe Workfront. Functies die in bèta beschikbaar zijn, zijn mogelijk niet voor alle klanten beschikbaar.
 

@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Begrotingsmiddelen in het bedrijfscase
 
-Als deel van middelplanning, kunt u de baanrollen noodzakelijk voor de voltooiing van het werk in een project begroeten wanneer u het bedrijfscase bouwt. Voor meer informatie over het creëren van een BedrijfsGeval, zie [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Als deel van middelplanning, kunt u de baanrollen noodzakelijk voor de voltooiing van het werk in een project begroeten wanneer u het bedrijfscase bouwt. Voor meer informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 >[!NOTE]
 >
->Het begroten van middelen is niet het zelfde als het plannen van middelen voor een project. Wanneer u middelen begroot, schat u de rollen die noodzakelijk zouden kunnen zijn om het werk aan een project te voltooien. Voor het eigenlijk plannen van of het toewijzen van gebruikers aan het werk aan een project, zie [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Het begroten van middelen is niet het zelfde als het plannen van middelen voor een project. Wanneer u middelen begroot, schat u de rollen die noodzakelijk zouden kunnen zijn om het werk aan een project te voltooien. Voor eigenlijk het plannen van of het toewijzen van gebruikers aan het werk aan een project, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 U moet baanrollen met het project associëren alvorens u de middelen voor het kunt begroten. Hieronder vindt u manieren om taakrollen toe te wijzen aan een project:
 
 * Gebruik de Planner van het Middel om de Pools van Middel op het project en de rollen van de begrotingsbaan toe te passen.
 
-   Zie voor meer informatie [De middelen van de begroting in BedrijfsGeval die de Planner van het Middel gebruiken](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Voor meer informatie, zie {de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Middel ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).[
 
-* Gebruik het Plan Scenario om initiatieven met vereiste baanrollen tot stand te brengen en hen te verbinden met het project. Zie voor meer informatie [De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Gebruik het Plan Scenario om initiatieven met vereiste baanrollen tot stand te brengen en hen te verbinden met het project. Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-   >[!NOTE]
-   >
-   >De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

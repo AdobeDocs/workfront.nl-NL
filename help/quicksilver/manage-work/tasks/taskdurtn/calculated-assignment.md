@@ -2,21 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Overzicht van het type Duur: Berekende toewijzing'''
+title: 'Type duur overzicht: berekende toewijzing'
 description: Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie Overzicht van het Type van Duur en van de Duur van de Taak.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
-# Overzicht van het type duur: Berekende toewijzing
+# Overzicht duur: berekende toewijzing
 
-Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overzicht van het berekende Type van Duur van de Toewijzing
 
@@ -25,16 +25,16 @@ Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kun
 -->
 
 * Wanneer u een Berekend Type van Duur van de Taak gebruikt, moet u zowel een Duur als een aantal Geplande Uren voor de taak specificeren. Workfront verdeelt dan de hoeveelheid Geplande Uren door de hoeveelheid uren in de Duur, dan door het aantal middelen die aan de taak worden toegewezen om het toewijzingspercentage (berekent de taak) voor elke middel te berekenen. Elke bron heeft dezelfde waarde voor het toewijzingspercentage. In dit geval kunt u de toewijzingswaarden voor elke bron niet wijzigen.
-* Uw Workfront of een groepsbeheerder kan het standaard Duur Type van uw systeem of groep als Berekende Toewijzing plaatsen. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het wijzigen van uw taak en het uitgeven voorkeur als deel van uw systeem-vlakke of groep-vlakke projectvoorkeur, zie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Uw Workfront of een groepsbeheerder kan het standaard Duur Type van uw systeem of groep als Berekende Toewijzing plaatsen. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
-   In dit geval, heeft de taak een gebrek van een Duur van één dag en een gebrek van 0 uren Geplande Uren. Tenzij de projectmanager een nauwkeurigere Duur plaatst en het Geplande gebied van Uren met een realistische raming bevolkt, dan lijken de middelen onderverdeeld.
+  In dit geval, heeft de taak een gebrek van een Duur van één dag en een gebrek van 0 uren Geplande Uren. Tenzij de projectmanager een nauwkeurigere Duur plaatst en het Geplande gebied van Uren met een realistische raming bevolkt, dan lijken de middelen onderverdeeld.
 
 De berekende Toewijzing is het aangewezen Type van Duur in de volgende situaties:
 
 * Wanneer de taken een venster van activiteit hebben maar niet de volledige Toegewezen Duur nemen om hun werk te voltooien. Bijvoorbeeld, wordt u toegewezen om een rapport aan uw supervisor tegen het eind van de week te leveren. U hebt een duur van vijf dagen, maar het duurt slechts tien uur om het document te maken.
 * Wanneer één enkel middel aan een taak wordt toegewezen omdat de projectmanager de geplande Duur en de geplande hoeveelheid inspanning onafhankelijk van elkaar kan schatten.
 
-   U kunt het Berekende Type van Duur van het Werk voor het zelfde resultaat gebruiken, maar de projectmanager moet een percentaletoewijzing voor het middel invoeren om de berekende waarde voor Geplande Uren te beïnvloeden. Dit maakt projectplanning moeilijker en tijdrovend.
+  U kunt het Berekende Type van Duur van het Werk voor het zelfde resultaat gebruiken, maar de projectmanager moet een percentaletoewijzing voor het middel invoeren om de berekende waarde voor Geplande Uren te beïnvloeden. Dit maakt projectplanning moeilijker en tijdrovend.
 
 Het toewijzingspercentage voor elke bron wordt als volgt berekend:
 
@@ -48,7 +48,7 @@ In het onderstaande scenario heeft elke taak bijvoorbeeld een Duur van 3 dagen. 
 
 ## Verander het Type van Duur van een taak in Berekende Taak
 
-Voor informatie over het veranderen van het Type van Duur van een taak, zie [Werk het Type van Duur van een taak bij](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Voor informatie over het veranderen van het Type van Duur van een taak, zie [ het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

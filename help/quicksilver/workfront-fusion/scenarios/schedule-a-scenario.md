@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Een scenario plannen in [!DNL Adobe Workfront Fusion]
+# Een scenario inplannen in [!DNL Adobe Workfront Fusion]
 
 Door gebrek, loopt een scenario om de 15 minuten. U kunt dit veranderen door te bepalen wanneer en hoe vaak een geactiveerd scenario loopt. De scenario&#39;s van de fusie kunnen worden gepland zo vaak zoals om de 5 minuten te lopen.
 
@@ -37,24 +37,24 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>    </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Een scenario plannen
 
@@ -62,7 +62,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
    of
 
-   Klik op de knop **[!UICONTROL Scheduling]** pictogram (klok) op de de trekkermodule van het scenario.
+   Klik op het pictogram **[!UICONTROL Scheduling]** (klok) op de triggermodule van het scenario.
 
 1. Voer gegevens in de volgende velden in:
 
@@ -75,26 +75,26 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
       <td> <p>Selecteer de frequentie waarmee u het scenario wilt uitvoeren, en selecteer dan het interval.</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL At regular intervals]</strong> </p> <p>Voer het aantal minuten in tussen de uitvoeringen. De standaardwaarde is 15 minuten.</p> </li> 
-        <li> <p><strong>[!UICONTROL Once]</strong> </p> <p>Voer de datum en tijd in waarop het scenario moet worden uitgevoerd. De indeling gebruiken <code>MM/DD/YYYY h:mm A</code>. Voorbeeld: <code>06/25/2019 11:00 PM</code>.</p> </li> 
-        <li> <p><strong>[!UICONTROL Every day]</strong> </p> <p>Voer de tijd in waarop het scenario moet worden uitgevoerd. De indeling gebruiken <code>h:mm A</code>. Voorbeeld: <code>11:00 PM</code>.</p> </li> 
-        <li> <p><strong>[!UICONTROL Days of the week]</strong> </p> <p>Dagen: selecteer de dagen van de week dat u het scenario wilt lopen. U kunt een of meer dagen selecteren.</p> <p>Tijd: ga de tijd in dat u het scenario op de geselecteerde dagen wilt lopen. De indeling gebruiken <code>h:mm A</code>. Voorbeeld: <code>11:00 PM</code></p> </li> 
-        <li> <p><strong>[!UICONTROL Days of the month]</strong> </p> <p>Dagen: selecteer de dagen van de maand die u het scenario wilt lopen. U kunt een of meer dagen selecteren.</p> <p>Tijd: ga de tijd in dat u het scenario op de geselecteerde dagen wilt lopen. De indeling gebruiken <code>h:mm A</code>. Voorbeeld: <code>11:00 PM</code></p> </li> 
-        <li> <p><strong>[!UICONTROL Specified dates]</strong> </p> <p>Maanden: selecteer de maanden die u het scenario wilt uitvoeren. U kunt een of meer maanden selecteren.</p> <p>Dagen: selecteer de dagen van de maand die u het scenario wilt lopen. U kunt een of meer dagen selecteren.</p> <p>Tijd: ga de tijd in dat u het scenario op de geselecteerde dagen wilt lopen. De indeling gebruiken <code>h:mm A</code>. Voorbeeld: <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL Once]</strong> </p> <p>Voer de datum en tijd in waarop het scenario moet worden uitgevoerd. Gebruik de indeling <code>MM/DD/YYYY h:mm A</code> . Voorbeeld: <code>06/25/2019 11:00 PM</code> .</p> </li> 
+        <li> <p><strong>[!UICONTROL Every day]</strong> </p> <p>Voer de tijd in waarop het scenario moet worden uitgevoerd. Gebruik de indeling <code>h:mm A</code> . Voorbeeld: <code>11:00 PM</code> .</p> </li> 
+        <li> <p><strong>[!UICONTROL Days of the week]</strong> </p> <p>Dagen: selecteer de dagen van de week dat u het scenario wilt lopen. U kunt een of meer dagen selecteren.</p> <p>Tijd: ga de tijd in dat u het scenario op de geselecteerde dagen wilt lopen. Gebruik de indeling <code>h:mm A</code> . Voorbeeld: <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL Days of the month]</strong> </p> <p>Dagen: selecteer de dagen van de maand die u het scenario wilt lopen. U kunt een of meer dagen selecteren.</p> <p>Tijd: ga de tijd in dat u het scenario op de geselecteerde dagen wilt lopen. Gebruik de indeling <code>h:mm A</code> . Voorbeeld: <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL Specified dates]</strong> </p> <p>Maanden: selecteer de maanden die u het scenario wilt uitvoeren. U kunt een of meer maanden selecteren.</p> <p>Dagen: selecteer de dagen van de maand die u het scenario wilt lopen. U kunt een of meer dagen selecteren.</p> <p>Tijd: ga de tijd in dat u het scenario op de geselecteerde dagen wilt lopen. Gebruik de indeling <code>h:mm A</code> . Voorbeeld: <code>11:00 PM</code></p> </li> 
        </ul> <p>Opmerking: een scenario kan alleen op die datum worden uitgevoerd als er een datum is. Een scenario dat bijvoorbeeld alleen voor de 31e van de maand is gepland, loopt niet in februari, april, juni, september of november, omdat die maanden geen 31e dag hebben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Advanced scheduling]</td> 
-      <td>U kunt specifieke tijdintervallen bepalen waarin uw scenario moet lopen. U kunt tijdsintervallen van dagen, weekdagen of maanden opgeven. Voor elk interval klikt u op <strong>[!UICONTROL Add]</strong> en vult de velden in zoals beschreven in het dialoogvenster [!UICONTROL Run scenario] veld.</td> 
+      <td>U kunt specifieke tijdintervallen bepalen waarin uw scenario moet lopen. U kunt tijdsintervallen van dagen, weekdagen of maanden opgeven. Klik voor elk interval op <strong>[!UICONTROL Add]</strong> en vul de velden in zoals wordt beschreven in het veld [!UICONTROL Run scenario] .</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Start]</td> 
-      <td>Ga de datum en de tijd in waarna u het scenario wilt lopen. De indeling gebruiken <code>MM/DD/YYYY h:mm A</code>. Voorbeeld: <code>06/25/2019 11:00 PM</code>.</td> 
+      <td>Ga de datum en de tijd in waarna u het scenario wilt lopen. Gebruik de indeling <code>MM/DD/YYYY h:mm A</code> . Voorbeeld: <code>06/25/2019 11:00 PM</code> .</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL End]</td> 
-      <td>Voer de datum en tijd in waarop het scenario moet worden uitgevoerd. De indeling gebruiken <code>MM/DD/YYYY h:mm A</code>. Voorbeeld: <code>06/25/2019 11:00 PM</code>.</td> 
+      <td>Voer de datum en tijd in waarop het scenario moet worden uitgevoerd. Gebruik de indeling <code>MM/DD/YYYY h:mm A</code> . Voorbeeld: <code>06/25/2019 11:00 PM</code> .</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **[!UICONTROL OK]** om de planningsmontages te bewaren en aan het scenario terug te keren.
+1. Klik **[!UICONTROL OK]** om de planningsmontages te bewaren en aan het scenario terug te keren.

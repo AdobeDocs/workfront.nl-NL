@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Modules of scenario's kopiëren in [!DNL Adobe Workfront Fusion]
-description: Modules of scenario's kopiëren in [!DNL Adobe Workfront Fusion]
+title: Modules of scenario's van het exemplaar in  [!DNL Adobe Workfront Fusion]
+description: Modules of scenario's van het exemplaar in  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Modules of scenario&#39;s kopiëren in [!DNL Adobe Workfront Fusion]
 
-U kunt modules, groepen modules, of volledige scenario&#39;s in kopiëren [!DNL Adobe Workfront Fusion]. Deze capaciteit staat u toe om scenario&#39;s of delen van scenario&#39;s opnieuw te gebruiken zonder het moeten hen opnieuw bouwen
+U kunt modules, groepen modules, of volledige scenario&#39;s in [!DNL Adobe Workfront Fusion] kopiëren. Deze capaciteit staat u toe om scenario&#39;s of delen van scenario&#39;s opnieuw te gebruiken zonder het moeten hen opnieuw bouwen
 
 ## Toegangsvereisten
 
@@ -37,25 +37,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
@@ -84,49 +84,49 @@ Het kopiëren van een groep modules is vergelijkbaar met het kopiëren van één
 
    >[!NOTE]
    >
-   >U kunt meer dan één module selecteren door te houden [!UICONTROL shift] en klik op de modules die u wilt kopiëren. Het kopiëren van een groep modules kopieert ook om het even welke verbindende lijnen, filters, of het verpletteren van logica tussen hen.
+   >U kunt meer dan één module selecteren door [!UICONTROL shift] te houden en op de modules te klikken die u wilt kopiëren. Het kopiëren van een groep modules kopieert ook om het even welke verbindende lijnen, filters, of het verpletteren van logica tussen hen.
 
-1. Selecteren **[!UICONTROL Copy module]**.
+1. Selecteer **[!UICONTROL Copy module]** .
 1. Verplaats de curseur naar het gebied van het scenario waar u het exemplaar van het scenario wilt.
-1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Paste]**.
+1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Paste]** .
 1. Sluit de geplakte modules aan op het scenario door deze naar de juiste locatie in het scenario te slepen.
 
    U kunt ook met sneltoetsen kopiëren en plakken.
 
-## Een scenario kopiëren door klonen
+## Een scenario kopiëren door te klonen
 
 Het klonen van een scenario leidt tot een exemplaar van het scenario, dat u dan kunt uitgeven.
 
 1. Open de pagina met de details van het scenario:
 
-   1. Klik op de knop **[!UICONTROL Scenario]** in het linkerpaneel, dan klik een scenario u details op zou willen.
+   1. Klik op de tab **[!UICONTROL Scenario]** in het linkerdeelvenster en klik op een scenario waarin u details wilt weergeven.
 
       of
 
-      Als u aan het scenario in werkt [De scenario-editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), klikt u op de pijl naar links ![](assets/exit-editing-arrow.png) in de linkerbovenhoek van het venster.
+      Als u aan het scenario in [ de scenarioredacteur in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
 
-1. Klikken met rechtermuisknop **[!UICONTROL Options]** rechtsboven op de pagina.
-1. Selecteren **[!UICONTROL Clone]**.
+1. Klik met de rechtermuisknop **[!UICONTROL Options]** rechtsboven op de pagina.
+1. Selecteer **[!UICONTROL Clone]** .
 1. (Optioneel) Voer een naam in voor het nieuwe scenario.
-1. (Optioneel) Inschakelen **[!UICONTROL Keep the states of any new modules the same as those being duplicated]** om ervoor te zorgen dat het gekopieerde scenario ook informatie over de meest recente verslagen omvat die door het originele scenario worden verwerkt.
-1. Klikken **[!UICONTROL Save]** om het scenario te maken.
+1. (Optioneel) Schakel **[!UICONTROL Keep the states of any new modules the same as those being duplicated]** in om ervoor te zorgen dat het gekopieerde scenario ook informatie bevat over de meest recente records die door het oorspronkelijke scenario zijn verwerkt.
+1. Klik op **[!UICONTROL Save]** om het scenario te maken.
 
 ## Een scenario kopiëren met behulp van blauwdrukken
 
 Scenario-blauwdrukken vertegenwoordigen de rangschikking, toewijzing en veldwaarden van een bepaald scenario op een bepaald tijdstip. U kunt een scenario-blauwdruk naar een JSON-bestand op uw computer exporteren en het vervolgens importeren wanneer u een nieuw scenario maakt. Scenario&#39;s die uit een scenario-blauwdruk zijn geïmporteerd, kunnen worden bewerkt.
 
-Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts bepaalde modules van een scenario wilt kopiëren, zie [Een module of een groep modules kopiëren](#copy-a-module-or-a-group-of-modules) in dit artikel.
+Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts bepaalde modules van een scenario wilt kopiëren, zie [ een module of een groep modules ](#copy-a-module-or-a-group-of-modules) in dit artikel kopiëren.
 
 >[!NOTE]
 >
->Voor informatie over blauwdrukken in de context van [!DNL Adobe Workfront], zie [Overzicht van blauwdrukken](../../administration-and-setup/blueprints/blueprints-overview.md).
+>Voor informatie over blauwdrukken in de context van [!DNL Adobe Workfront], zie [ Overzicht van Vervagen ](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ### Een scenario-blauwdruk exporteren
 
-1. Klik in het scenario op de knop **[!UICONTROL More]** in het gebied met scenario-instellingen.
+1. Klik in het scenario op het menu **[!UICONTROL More]** in het gebied met scenario-instellingen.
 1. Klik op **[!UICONTROL Export Blueprint]**.
 
-   Er wordt een JSON-bestand gemaakt en gedownload naar de computer. U kunt dit bestand zoeken in uw [!DNL Downloads] map.
+   Er wordt een JSON-bestand gemaakt en gedownload naar de computer. U kunt dit bestand zoeken in de map [!DNL Downloads] .
 
 ### Een blauwdruk importeren
 
@@ -135,16 +135,16 @@ Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts be
 >Als u een blauwdruk in een bestaand scenario invoert, vervangt het scenario blauwdruk het bestaande scenario. U kunt geen blauwdruk aan een bestaand scenario toevoegen.
 
 1. Beginnen met het maken van een nieuw scenario.
-1. Klik in het scenario op de knop **[!UICONTROL More]** in het gebied met scenario-instellingen.
+1. Klik in het scenario op het menu **[!UICONTROL More]** in het gebied met scenario-instellingen.
 1. Klik op **[!UICONTROL Import Blueprint]**.
 1. Klik in het dialoogvenster dat wordt weergegeven op **[!UICONTROL Browse]**
-1. Navigeer naar de blauwdruk die u wilt importeren en klik op **[!UICONTROL Open]**.
+1. Navigeer naar de blauwdruk die u wilt importeren en klik op **[!UICONTROL Open]** .
 1. Klik op **[!UICONTROL Save]**.
 
-   Er wordt een JSON-bestand gemaakt en gedownload naar de computer. U kunt dit bestand zoeken in uw [!UICONTROL Downloads] map.
+   Er wordt een JSON-bestand gemaakt en gedownload naar de computer. U kunt dit bestand zoeken in de map [!UICONTROL Downloads] .
 
 ## De scenario&#39;s van het exemplaar en hergebruik door malplaatjes te gebruiken
 
-U kunt sjablonen maken als beginpunt voor uw [!DNL Workfront Fusion] scenario&#39;s. Wanneer u een scenario van een malplaatje creeert, kunt u het scenario wijzigen zonder het malplaatje te wijzigen. Veldwaarden worden niet opgeslagen in sjablonen.
+U kunt sjablonen maken als beginpunt voor uw [!DNL Workfront Fusion] -scenario&#39;s. Wanneer u een scenario van een malplaatje creeert, kunt u het scenario wijzigen zonder het malplaatje te wijzigen. Veldwaarden worden niet opgeslagen in sjablonen.
 
-Zie voor meer informatie over het maken en gebruiken van sjablonen [Scenario-sjablonen](../../workfront-fusion/scenarios/templates/fusion-templates.md).
+Voor meer informatie bij het creëren van en het gebruiken van malplaatjes, zie {de Malplaatjes van het 0} Scenario ](../../workfront-fusion/scenarios/templates/fusion-templates.md).[

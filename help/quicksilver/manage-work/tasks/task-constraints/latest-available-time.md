@@ -24,7 +24,7 @@ U kunt de LAT beperking gebruiken wanneer u een taak wilt plannen om bij de rece
 
 Deze beperking verschilt van Zo snel mogelijk in zoverre dat zij voorgangers of opvolgers niet dwingt om opnieuw te worden gepland. In plaats daarvan, zal het slechts het programma van de taak beïnvloeden het met wordt geassocieerd, die het aan de recentste beschikbare tijd plaatst op zijn verhouding aan andere taken wordt gebaseerd.
 
-Voor informatie over hoe te om de Beperking van de Taak op een taak bij te werken, zie [Werk de Beperking van de Taak van een taak bij](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,15 +54,15 @@ De laatst beschikbare tijdbeperking verschilt van de beperking Zo laat mogelijk 
 
 In deze situatie:
 
-* **Laatste beschikbare tijd:** Het gebruiken van de Latest Beschikbare Beperking van de Tijd op de voorgangertaak geeft prioriteit aan flexibele beperking van de opvolger.
+* **Latest Beschikbare Tijd:** Gebruikend de Latest Beschikbare Beperking van de Tijd op de voorgangertaak geeft prioriteit aan flexibele beperking van de opvolger.
 
-  **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Meest recente Beschikbare Beperking van de Tijd en Taak B heeft zo spoedig mogelijk de Beperking. In deze situatie is taak A zo dicht mogelijk bij de start van het project gepland.
+  **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Latest Beschikbare Beperking van de Tijd en Taak B heeft zo spoedig mogelijk de beperking. In deze situatie is taak A zo dicht mogelijk bij de start van het project gepland.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Zo laat mogelijk:** In dit scenario, geeft het gebruiken van zo laat mogelijk beperking op de voorgangertaak de prioriteit aan de voorgangertaak.
+* **zo laat mogelijk:** in dit scenario, die zo laat mogelijk beperking op de voorgangerstaak gebruiken geeft de prioriteit aan de voorgangertaak.
 
-  **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft de Zo laat mogelijke beperking en de Taak B heeft zo spoedig mogelijk de beperking. In deze situatie is taak A zo dicht mogelijk bij het einde van het project gepland.
+  **Voorbeeld:** Bijvoorbeeld, is Taak A een voorganger aan Taak B. Taak A heeft zo laat mogelijk beperking en de Taak B heeft zo snel mogelijk beperking. In deze situatie is taak A zo dicht mogelijk bij het einde van het project gepland.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

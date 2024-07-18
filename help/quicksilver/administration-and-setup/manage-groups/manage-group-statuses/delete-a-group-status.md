@@ -10,7 +10,7 @@ role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 >* De ingebouwde statussen Planning, Huidig, en Volledig. U kunt hun namen bijwerken, hun kleuren bewerken en vergrendelen of ontgrendelen, maar ze kunnen niet worden verwijderd.
 >* Statussen die zich in een toestand van goedkeuring bevinden voor ten minste één object dat aan de groep of een van de subgroepen ervan is gekoppeld.
 
-
 ## Toegangsvereisten
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
@@ -43,21 +42,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Een groepsstatus verwijderen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen**.
+1. In het linkerpaneel, klik **Groepen**.
 1. Klik op de naam van de bovenste groep.
-1. Klik in het linkerdeelvenster op **Statussen**.
-1. Houd de muisaanwijzer boven de status die u wilt verwijderen in de lijst met statussen die worden weergegeven en klik vervolgens op **Verwijderen** wanneer het helemaal rechts lijkt.
+1. In het linkerpaneel klik **Statussen**.
+1. In de lijst van statussen die toont, over de status bewegen u wilt schrappen, dan **Schrapping** klikken wanneer het aan uiterst rechts verschijnt.
 
    ![](assets/hover-click-delete.jpg)
 
@@ -67,18 +66,18 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    De statussen die worden weergegeven, zijn ook afhankelijk van het feit of de status die u verwijdert, is ontgrendeld of vergrendeld:
 
-   * **Als het ontgrendeld is**: Niet-verborgen vergrendelde en ontgrendelde statussen zijn beschikbaar.
+   * **als het** ontgrendeld is: De niet-verborgen gesloten en ontgrendelde statussen zijn beschikbaar.
 
-      Samen met de statussen die voor de subgroep zijn gemaakt, worden statussen opgenomen die van systeemniveau- en bovenste groepen zijn overgenomen.
+     Samen met de statussen die voor de subgroep zijn gemaakt, worden statussen opgenomen die van systeemniveau- en bovenste groepen zijn overgenomen.
 
-   * **Als het vergrendeld is**: Een van de volgende uitspraken is waar:
+   * **als het** gesloten is: Één van het volgende is waar:
 
       * Als er andere vergrendelde, niet-verborgen statussen zijn, zijn alleen deze beschikbaar.
       * Als er geen vergrendelde, niet-verborgen status is, is de standaard Workfront-status beschikbaar, zelfs als deze verborgen of ontgrendeld is.
 
-         Voor informatie over de standaard Workfront-statussen raadpleegt u [Heb toegang tot de lijst van de statussen van het systeemproject](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [De lijst met taakstatussen van het systeem openen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)en de informatie over de vier vereiste uitgiftestatussen in [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+        Voor informatie over de status standaard van Workfront, zie [ Toegang tot de lijst van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [ toegang tot de lijst van de statussen van de systeemtaak ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), en de informatie over de 4 vereiste uitgevende status in [ toegang tot de lijst van de statussen van de systeemkwestie ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Klikken **Status verwijderen**.
+1. Klik **Status van de Schrapping**.
 
    Als de verwijderde status de standaardstatus voor dat type in de groep was, wordt de vervangende status gebruikt.
 
@@ -86,4 +85,4 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Wanneer een groep wordt verwijderd
 
-Wanneer een groep wordt verwijderd en door een andere groep wordt vervangen, worden alle unieke statussen die de verwijderde groep had, toegevoegd aan de statussen van de vervangingsgroep. Zie voor meer informatie [Aangepaste statussen in een groep die wordt verplaatst of verwijderd](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).
+Wanneer een groep wordt verwijderd en door een andere groep wordt vervangen, worden alle unieke statussen die de verwijderde groep had, toegevoegd aan de statussen van de vervangingsgroep. Voor meer informatie, zie {de statussen van 0} Douane in een groep die wordt bewogen of ](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md) geschrapt.[

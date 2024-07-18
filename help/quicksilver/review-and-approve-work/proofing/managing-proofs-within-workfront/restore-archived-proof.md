@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr>
 
 <tr> 
@@ -37,16 +37,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk abonnement of welke proefversie u hebt.
+&#42; om te weten te komen welk plan of proefdruk toegang u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een gearchiveerde proefdruk herstellen
 
 Iedereen, zelfs gastrevisoren, kan een gearchiveerde proefdruk herstellen.
 
 1. Ga naar het document dat de gearchiveerde proef bevat die u wilt toegang hebben.
-1. Klikken **Proef openen**.
+1. Klik **Open Bewijs**.
 
    Er wordt een pagina weergegeven waarin wordt uitgelegd dat de proefdruk is gearchiveerd.
 
-1. Klikken **Unarchive** om de proefdruk te verwijderen.
-1. Vernieuw browser, dan klik **Proef** opnieuw.
+1. Klik **unarchive** om de proef ongedaan te maken.
+1. Vernieuw browser, dan klik opnieuw **Bewijs**.

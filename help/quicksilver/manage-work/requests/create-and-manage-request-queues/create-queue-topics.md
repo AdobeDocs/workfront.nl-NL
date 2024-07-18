@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,12 +91,12 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 1. Creeer een Verpletterende Regel, een Groep van het Onderwerp, en een douaneformulier, als u van plan bent om hen met uw Onderwerp van de Rij te associëren.\
    Voor meer informatie over hoe te om het Verpletteren van Regels, de Groepen van het Onderwerp of douanevormen tot stand te brengen, verwijs naar de volgende artikelen:
 
-   * [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
-   * [Onderwerpgroepen maken](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [ creeer Verpletterend Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Ga naar het project u verkoos om als Rij van het Verzoek van de Hulp toe te laten en waar u een nieuw rijonderwerp wilt creëren.\
-   Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [ een Rij van het Verzoek van de Vraag ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
    U kunt verwante Onderwerpen van de Rij onder een Groep van het Onderwerp organiseren. De aanvrager krijgt dan een aantal vervolgkeuzemenu&#39;s bij het indienen van een aanvraag.
 
@@ -104,37 +104,37 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    U kunt de Onderwerpen van de Rij onder het project direct nesten dat als Rij van het Verzoek van de Hulp, zonder een Groep van het Onderwerp wordt aangewezen.
 
-   Voor informatie over het creëren van de Groepen van het Onderwerp, zie [Onderwerpgroepen maken](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   Voor informatie over het creëren van de Groepen van het Onderwerp, zie [ de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
 
-1. Klikken **Werkvoorraadonderwerpen** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** vervolgens **Werkvoorraadonderwerpen**.
-1. Klikken **Nieuw onderwerp van de Rij**.
-1. Op de **Nieuw onderwerp van de Rij** Voer het volgende in:
+1. Klik **de Onderwerpen van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **de Onderwerpen van de Rij**.
+1. Klik **Nieuw Onderwerp van de Rij**.
+1. Op de **Nieuwe vorm van het Onderwerp van de Rij**, ga het volgende in:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Naam</strong> </td> 
+      <td role="rowheader"><strong> Naam </strong> </td> 
       <td> Naam van het Onderwerp van de Rij.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Beschrijving</strong> </td> 
+      <td role="rowheader"><strong> Beschrijving </strong> </td> 
       <td>Beschrijf de verzoekwachtrij. De beschrijving toont wanneer de gebruikers het rijonderwerp in het proces selecteren om een nieuw verzoek voor te leggen. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Toevoegen aan onderwerpgroep</strong> </td> 
-      <td> Als er geen Groepen van het Onderwerp op het project zijn, blijft de naam van het project als Groep van het Onderwerp in gebreke.<br>Als u van hieruit extra onderwerpgroepen wilt maken, selecteert u <strong>Nieuwe onderwerpgroep maken</strong> in het keuzemenu.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td role="rowheader"><strong> voeg aan de Groep van het Onderwerp toe </strong> </td> 
+      <td> Als er geen Groepen van het Onderwerp op het project zijn, blijft de naam van het project als Groep van het Onderwerp in gebreke.<br> als u de extra Groepen van het Onderwerp van hier wilt tot stand brengen, <strong> creeer Nieuwe Groep van het Onderwerp </strong> van het drop-down menu.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aangepaste Forms</strong> </td> 
-      <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Zie voor informatie over het maken van aangepaste formulieren <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Een aangepast formulier maken of bewerken</a>.</td> 
+      <td role="rowheader"><strong> Aangepaste Forms </strong> </td> 
+      <td>Selecteer de aangepaste formulieren die u aan het onderwerp van de wachtrij wilt koppelen. U moet aangepaste formulieren maken voor problemen voordat u deze kunt koppelen aan onderwerpen in de wachtrij. Voor informatie over het creëren van douaneformulieren, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref"> een douaneformulier </a> creëren of uitgeven.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standaardgoedkeuring</strong></td> 
-      <td> <p>Koppel een goedkeuringsproces aan dit rijonderwerp. In dit keuzemenu worden alleen processen voor goedkeuring van uitgaven weergegeven. Alle problemen die naar deze wachtrij worden verzonden, worden gekoppeld aan dit goedkeuringsproces. Uw beheerder van Adobe Workfront moet de processen van de Goedkeuring op systeemniveau bepalen alvorens u hen met rijonderwerpen kunt associëren. <span>Een gebruiker met administratieve toegang tot de Processen van de Goedkeuring kan tot groep-specifieke goedkeuringsprocessen ook leiden.</span> Ga voor meer informatie over het maken van goedkeuringsprocessen naar <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Een goedkeuringsproces voor werkitems maken</a>.<br></p> 
+      <td> <p>Koppel een goedkeuringsproces aan dit rijonderwerp. In dit keuzemenu worden alleen processen voor goedkeuring van uitgaven weergegeven. Alle problemen die naar deze wachtrij worden verzonden, worden gekoppeld aan dit goedkeuringsproces. Uw beheerder van Adobe Workfront moet de processen van de Goedkeuring op systeemniveau bepalen alvorens u hen met rijonderwerpen kunt associëren. <span> de gebruiker van A met administratieve toegang tot de Processen van de Goedkeuring kan tot groep-specifieke goedkeuringsprocessen ook leiden.</span> voor meer informatie over het creëren van de Processen van de Goedkeuring, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref"> een goedkeuringsproces voor het werkpunten </a> creëren.<br></p> 
        <div> 
-        <p>Belangrijk: als de groep van het project verandert, wordt het groepsspecifieke goedkeuringsproces verbonden aan bestaande kwesties een goedkeuringsproces voor eenmalig gebruik. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">De invloed van wijzigingen in groep- en goedkeuringsproces op toegewezen goedkeuringsprocessen</a>.</p> 
+        <p>Belangrijk: als de groep van het project verandert, wordt het groepsspecifieke goedkeuringsproces verbonden aan bestaande kwesties een goedkeuringsproces voor eenmalig gebruik. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref"> hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen </a> beïnvloeden.</p> 
         <p>Overweeg het volgende wanneer het toevoegen van goedkeuringsprocessen aan rijonderwerpen: </p> 
         <ul style="list-style-type: circle;"> 
          <li>Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. </li> 
@@ -143,20 +143,20 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standaardduur</strong> </td> 
+      <td role="rowheader"><strong> StandaardDuur </strong> </td> 
       <td>Dit is de standaardduur van het verzoek, en de Geplande Datum van Voltooiing van het verzoek wordt berekend gebaseerd op deze waarde.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standaardroute</strong> </td> 
-      <td>Specificeer de verpletterende regel u met het Onderwerp van de Rij wilt associëren. U moet de verpletterende regel tot stand brengen alvorens u het aan een Onderwerp van de Rij kunt vastmaken. Zie voor meer informatie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Verpletterende regels maken</a>. </td> 
+      <td role="rowheader"><strong> StandaardRoute </strong> </td> 
+      <td>Specificeer de verpletterende regel u met het Onderwerp van de Rij wilt associëren. U moet de verpletterende regel tot stand brengen alvorens u het aan een Onderwerp van de Rij kunt vastmaken. Voor informatie, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md"> het Verpletteren van Regels </a> creëren. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aanvraagtypen</strong> </td> 
-      <td> <p>Kies welk soort verzoeken dit rijonderwerp opslaat. De zichtbare opties worden ingesteld op het tabblad <strong>Wachtrij</strong> tabblad van het project. Dit is een verplicht veld. </p>
+      <td role="rowheader"><strong> Types van Verzoek </strong> </td> 
+      <td> <p>Kies welk soort verzoeken dit rijonderwerp opslaat. De zichtbare opties worden geplaatst op het <strong> lusje van de Details van de Rij </strong> van het project. Dit is een verplicht veld. </p>
 
-   <p><b>OPMERKING</b>:
+   <p><b> NOTA </b>:
 
-   De types tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Een aanvraagwachtrij maken</a>. </p> <p>Selecteer een van de volgende typen:</p>
+   De types tonen als selectie op het gebied van Verzoeken slechts als het Type van Verzoek in zowel de Details van de Rij als de pagina&#39;s van het Onderwerp van de Rij wordt geselecteerd. Voor informatie over vestiging het gebied van de Details van de Rij van een project, zie <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref"> een Rij van het Verzoek </a> creëren. </p> <p>Selecteer een van de volgende typen:</p>
    <ul>
    <li>Foutrapport</li>
    <li>Volgorde wijzigen</li>
@@ -167,7 +167,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     </tbody> 
    </table>
 
-   ![Het nieuwe vakje van het Onderwerp van de Rij](assets/new-queue-topic-box.png)
+   ![ Nieuwe doos van het Onderwerp van de Rij ](assets/new-queue-topic-box.png)
 
-1. Klikken **Opslaan**.\
+1. Klik **sparen**.\
    Het onderwerp van de Rij is nu beschikbaar aan gebruik en is zichtbaar in het gebied van Verzoeken van Workfront, nadat een Rij van het Verzoek en een Groep van het Onderwerp worden geselecteerd.

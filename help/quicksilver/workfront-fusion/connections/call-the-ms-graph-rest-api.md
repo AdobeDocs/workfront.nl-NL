@@ -1,6 +1,6 @@
 ---
-title: De MS Graph REST API bellen via de [!DNL Adobe Workfront Fusion] HTTP &gt; een OAuth 2.0-aanvraagmodule maken
-description: De MS Graph REST API bellen via de [!DNL Adobe Workfront Fusion] HTTP &gt; een OAuth 2.0-aanvraagmodule maken
+title: Roep de WEERGAVE API van de Grafiek van MS via  [!DNL Adobe Workfront Fusion]  HTTP &gt; maak een OAuth 2.0 verzoekmodule
+description: Roep de WEERGAVE API van de Grafiek van MS via  [!DNL Adobe Workfront Fusion]  HTTP &gt; maak een OAuth 2.0 verzoekmodule
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# Roep de[!UICONTROL  MS Graph REST API] via de [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
+# Roep de module [!UICONTROL  MS Graph REST API] aan via de module [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] .
 
 <!-- Audited: 3/2024-->
 
-Veel [!DNL Microsoft] webservices zijn toegankelijk via [!DNL Microsoft Graph API]. U kunt een verbinding maken met de [!DNL Microsoft Graph API]door de [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Make an OAuth 2.0 request] -module.
+Veel [!DNL Microsoft] -webservices zijn toegankelijk via [!DNL Microsoft Graph API] . U kunt een verbinding met de [!DNL Microsoft Graph API] maken met de module [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Make an OAuth 2.0 request] .
 
 ## Toegangsvereisten
 
@@ -31,12 +31,12 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -44,30 +44,30 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p>
+   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Registreren [!DNL Workfront Fusion] in de [!DNL Microsoft Application Registration Portal]
 
-Een verbinding maken met de [!DNL Microsoft Graph REST API], u moet zich eerst registreren [!DNL Adobe Workfront Fusion].
+Als u een verbinding met de [!DNL Microsoft Graph REST API] wilt maken, moet u eerst [!DNL Adobe Workfront Fusion] registreren.
 
-1. Start met de registratie van een nieuwe toepassing zoals beschreven in [Uw app registreren](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de [!DNL Microsoft] documentatie.
+1. Begin registrerend een nieuwe toepassing zoals die in [ wordt beschreven registreer uw app ](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de [!DNL Microsoft] documentatie.
 
-   Als onderdeel van de registratie: [!DNL Microsoft] vereist de volgende informatie:
+   Als onderdeel van de registratie vereist [!DNL Microsoft] de volgende informatie:
 
    <table style="table-layout:auto">
       <tr>
         <td>[!UICONTROL Application name]</td>
-        <td>Voer een naam in voor de toepassing, bijvoorbeeld "Mijn [!DNL Workfront Fusion] toepassing."</td>
+        <td>Voer een naam voor de toepassing in, bijvoorbeeld "Mijn [!DNL Workfront Fusion] toepassing".</td>
       </tr>
       <tr>
         <td>[!UICONTROL Redirect URL]</td>
@@ -75,23 +75,23 @@ Een verbinding maken met de [!DNL Microsoft Graph REST API], u moet zich eerst r
       </tr>
     </table>
 
-1. Wanneer u de registratie van de app hebt voltooid, neemt u nota van de [!UICONTROL Application ID].
+1. Wanneer u de registratie van de app hebt voltooid, noteert u de [!UICONTROL Application ID] .
 
    >[!IMPORTANT]
    >
-   >U hebt de toepassings-id nodig om uw verbinding in te stellen in [!DNL Workfront Fusion].
+   >U hebt de toepassings-id nodig om de verbinding in te stellen in [!DNL Workfront Fusion] .
 
-1. Een [!UICONTROL Application Secret]. Noteer dit geheim.
+1. Een [!UICONTROL Application Secret] genereren. Noteer dit geheim.
 
-   Zie voor instructies [Uw app registreren](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de [!DNL Microsoft] documentatie.
+   Voor instructies, zie [ registreren uw app ](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de [!DNL Microsoft] documentatie.
 
    >[!IMPORTANT]
    >
-   >U hebt de [!UICONTROL Application Secret] om uw verbinding in te stellen [!DNL Workfront Fusion].
+   >U hebt de [!UICONTROL Application Secret] nodig om uw verbinding in te stellen in [!DNL Workfront Fusion] .
 
 1. Configureer de machtigingen voor uw toepassing.
 
-   Zie de sectie &quot;Machtigingen voor Microsoft Graph configureren&quot; in [Toegang krijgen zonder een gebruiker](https://docs.microsoft.com/en-us/graph/auth-v2-service) in de [!UICONTROL Microsoft] documentatie.
+   Voor details bij het bepalen van en het vormen van deze gebieden, zie de &quot;toestemmingen voor de Grafiek van Microsoft&quot;sectie in [ toegang zonder een gebruiker ](https://docs.microsoft.com/en-us/graph/auth-v2-service) in de [!UICONTROL Microsoft] documentatie krijgen.
 
    <table style="table-layout:auto">
     <col> 
@@ -99,7 +99,7 @@ Een verbinding maken met de [!DNL Microsoft Graph REST API], u moet zich eerst r
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL What type of permissions does your application require?]</td> 
-      <td>Selecteren <code>[!UICONTROL Delegated permissions]</code>.</td> 
+      <td>Selecteer <code>[!UICONTROL Delegated permissions]</code> .</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Select permissions]</td> 
@@ -107,20 +107,20 @@ Een verbinding maken met de [!DNL Microsoft Graph REST API], u moet zich eerst r
        <ul> 
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
-        <li> <p>Eventuele andere machtigingen die vereist zijn voor uw integratie (voorbeeld: <code>User.Read</code>)</p> </li> 
-       </ul> <p><b>Belangrijk</b>: U hebt de geselecteerde machtigingen nodig om uw verbinding in te stellen in [!DNL Workfront Fusion].</p> </td> 
+        <li> <p>Eventuele andere machtigingen die vereist zijn voor uw integratie (bijvoorbeeld: <code>User.Read</code>)</p> </li> 
+       </ul> <p><b> Belangrijk </b>: U zult de geselecteerde toestemmingen aan opstelling uw verbinding in [!DNL Workfront Fusion] nodig hebben.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Doorgaan naar [Configureer uw [!DNL MS Graph API] verbinding in [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion).
+1. Ga aan [ te werk vormen uw  [!DNL MS Graph API]  verbinding in  [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion).
 
-## Configureer uw [!DNL MS Graph API] verbinding in [!DNL Workfront Fusion]
+## Uw [!DNL MS Graph API] verbinding configureren in [!DNL Workfront Fusion]
 
-Nadat u zich hebt geregistreerd [!DNL Workfront Fusion] zoals besproken in [Registreren [!DNL Workfront Fusion] in de [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)kunt u uw verbinding configureren in het dialoogvenster [!UICONTROL HTTP] > [!UICONTROL Make an Oauth 2.0] aanvraagmodule.
+Nadat u [!DNL Workfront Fusion] zoals besproken in [ Register  [!DNL Workfront Fusion]  in  [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal) registreert, kunt u uw verbinding in [!UICONTROL HTTP] vormen > [!UICONTROL Make an Oauth 2.0] verzoekmodule.
 
-1. Een [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 call] aan uw scenario.
-1. Klikken **[!UICONTROL Add]** naast de [!UICONTROL connection] veld.
+1. Voeg een module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 call] toe aan uw scenario.
+1. Klik op **[!UICONTROL Add]** naast het veld [!UICONTROL connection] .
 1. Configureer de verbindingsvelden als volgt:
 
    <table style="table-layout:auto"> 
@@ -145,7 +145,7 @@ Nadat u zich hebt geregistreerd [!DNL Workfront Fusion] zoals besproken in [Regi
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Voer de machtigingen in die u in stap 4 van <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registreren [!DNL Workfront Fusion] in de [!DNL Microsoft Application Registration Portal]</a>.</p> <p>Voor elk bereik klikt u op <b>[!UICONTROL Add]</b> en typ de machtiging.</p> <p>Voorbeeld: <code>offline_access</code>.</p> </td> 
+      <td> <p>Ga de toestemmingen in die u in stap 4 van <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref"> Register [!DNL Workfront Fusion] in [!DNL Microsoft Application Registration Portal]</a> selecteerde.</p> <p>Voor elk bereik klikt u op <b>[!UICONTROL Add]</b> en typt u de machtiging.</p> <p>Voorbeeld: <code>offline_access</code> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator]</td> 
@@ -153,17 +153,17 @@ Nadat u zich hebt geregistreerd [!DNL Workfront Fusion] zoals besproken in [Regi
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client ID]</td> 
-      <td>Voer de [!UICONTROL Application ID] vanaf stap 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registreren [!DNL Workfront Fusion] in de [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>Ga [!UICONTROL Application ID] van stap 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref"> Register [!DNL Workfront Fusion] in [!DNL Microsoft Application Registration Portal]</a> in.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client Secret]</td> 
-      <td>Voer de [!UICONTROL Application Secret] die u in stap 3 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Registreren [!DNL Workfront Fusion] in de [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>Ga [!UICONTROL Application Secret] in dat u in stap 3 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref"> Register [!DNL Workfront Fusion] in [!DNL Microsoft Application Registration Portal]</a> produceerde.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authorize parameters]</td> 
       <td> <p>Voeg de volgende machtigingsparameters toe:</p> 
        <ul> 
-        <li> <p>[!UICONTROL Key]:<code> response_mode</code> [!UICONTROL Value]: <code>query</code></p> </li> 
+        <li> <p>[!UICONTROL Key]:<code> response_mode</code> [!UICONTROL Value] : <code>query</code></p> </li> 
         <li> <p>[!UICONTROL Key]: <code>prompt </code>[!UICONTROL Value]: <code>consent</code></p> </li> 
        </ul> </td> 
      </tr> 
@@ -176,8 +176,8 @@ Nadat u zich hebt geregistreerd [!DNL Workfront Fusion] zoals besproken in [Regi
       <td> 
        <ol> 
         <li value="1"> <p>Klik op <b>[!UICONTROL Add]</b>.</p> </li> 
-        <li value="2"> <p>In de <b>[!UICONTROL Key]</b> veld, Enter <code>scope</code>.</p> </li> 
-        <li value="3"> <p>In de <b>[!UICONTROL Value]</b> veld, voert u alle [!UICONTROL scope]In het bereikveld hebt u een waarde ingevoerd, gescheiden door spaties.</p> <p>Voorbeeld: <code>offline_access openid User.Read</code></p> </li> 
+        <li value="2"> <p>Typ <code>scope</code> in het veld <b>[!UICONTROL Key]</b> .</p> </li> 
+        <li value="3"> <p>Voer in het veld <b>[!UICONTROL Value]</b> alle [!UICONTROL scope] s in die u in het bereikveld hebt ingevoerd, gescheiden door spaties.</p> <p>Voorbeeld: <code>offline_access openid User.Read</code></p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -192,4 +192,4 @@ Nadat u zich hebt geregistreerd [!DNL Workfront Fusion] zoals besproken in [Regi
    </table>
 
 1. Klik op **[!UICONTROL Continue]**.
-1. Klik in het venster dat wordt weergegeven op **[!UICONTROL Accept]** om de verbinding te voltooien en aan de module terug te keren.
+1. Klik in het venster dat wordt weergegeven op **[!UICONTROL Accept]** om de verbinding te voltooien en terug te keren naar de module.

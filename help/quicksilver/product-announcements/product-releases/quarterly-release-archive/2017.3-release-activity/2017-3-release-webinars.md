@@ -20,13 +20,13 @@ Deze webinars waren gericht op functionaliteit die is opgenomen in de release va
 
 De release van 2017.3 is momenteel beschikbaar om te testen in Preview; de release van 2017.3 zal in november 2017 beschikbaar zijn in de productieomgeving.
 
-Als u meer gedetailleerde informatie wilt bekijken over de functionaliteit die in de webinars wordt beschreven, raadpleegt u de [Overzicht van releaseactiviteiten 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md) pagina.
+Om meer gedetailleerde informatie over de functionaliteit te bekijken die in webinars wordt behandeld, zie [ 2017.3 het overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md) pagina.
 
 De volgende webinar-opnamen zijn beschikbaar:
 
-* [2017.3 Release Webinar](#2017-3-release-webinar)
-* [Workfront 2017.3 September Preview-releases](#workfront-2017-3-september-preview-releases)
-* [Workfront 2017.3 Beta 1 en Beta 2 Webinar](#workfront-2017-3-beta-1-and-beta-2-webinar)
+* [ Webinar van de Versie 2017.3 ](#2017-3-release-webinar)
+* [ Workfront 2017.3 de Versies van de Voorproef van de September ](#workfront-2017-3-september-preview-releases)
+* [ Workfront 2017.3 Beta 1 en Beta 2 Webinar ](#workfront-2017-3-beta-1-and-beta-2-webinar)
 * [August Mobile Release Webinar](#august-mobile-release-webinar)
 
 ## 2017.3 Release Webinar {#2017-3-release-webinar}
@@ -35,14 +35,14 @@ Het Workfront 2017.3 Release Webinar werd op 11 oktober door het Workfront Produ
 
 Voor gemak, is webinar verdeeld in de volgende onderwerpen:
 
-* [Inleiding](#introduction)
-* [Projectverbeteringen](#project-enhancements)
-* [Verbeteringen rapporteren](#reporting-enhancements)
-* [Verbeteringen voor mobiele apparaten](#agile-enhancements)
-* [Verbeteringen voor bronnenbeheer](#resource-management-enhancements)
-* [Toepassingen en integratie](#apps-and-integrations)
-* [Verbeteringen voor proefdrukken](#proofing-enhancements)
-* [API-verbeteringen](#api-enhancements)
+* [ Inleiding ](#introduction)
+* [ de Verbeteringen van het Project ](#project-enhancements)
+* [ Meldend Verbeteringen ](#reporting-enhancements)
+* [ Gelijke Verbeteringen ](#agile-enhancements)
+* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
+* [ Apps en Integraties ](#apps-and-integrations)
+* [ het Proofing Verbeteringen ](#proofing-enhancements)
+* [ API Verbeteringen ](#api-enhancements)
 * [Conclusie](#conclusion)
 
 ## Workfront 2017.3 September Preview-releases {#workfront-2017-3-september-preview-releases}
@@ -51,6 +51,6 @@ Het Workfront 2017.3 September Preview Release Webinar werd op 26 september 2017
 
 ## Workfront 2017.3 Beta 1 en Beta 2 Webinar {#workfront-2017-3-beta-1-and-beta-2-webinar}
 
-Het 2017.3 Beta 1 en Beta 2 Release Webinar werd voorgesteld door het team van de Gereedheid van de Versie van Workfront op 23 augustus 2017. Dit webinar concentreert zich op de nieuwe functionaliteit die in Voorproef in de maand van Augustus ter beschikking is gesteld.
+Het Beta 1- en Beta 2 Release-webinar van 2017.3 werd op 23 augustus 2017 gepresenteerd door het Workfront Release-team. Dit webinar concentreert zich op de nieuwe functionaliteit die in Voorproef in de maand van Augustus ter beschikking is gesteld.
 
 ## August Mobile Release Webinar {#august-mobile-release-webinar}

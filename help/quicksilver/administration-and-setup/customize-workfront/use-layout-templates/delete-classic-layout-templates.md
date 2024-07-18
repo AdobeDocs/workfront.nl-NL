@@ -7,9 +7,10 @@ description: Layoutsjablonen uit de klassieke Workfront-ervaring zijn niet meer 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -67,6 +68,3 @@ U kunt API-aanroepen invoeren in de URL-balk van uw browser en op Enter drukken.
 1. Plak de API-aanroep vanuit stap 4 in de URL-balk van uw browser en druk op Enter.
 
    Hiermee verwijdert u de lay-outsjabloon.
-
-
-

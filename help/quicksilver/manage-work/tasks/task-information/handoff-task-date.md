@@ -36,24 +36,24 @@ De Handoff Datum is de datum dat een taak voor het werk beschikbaar wordt. Dit b
 
 Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatum van een taak:
 
-* **Als de taak een onvolledige voorganger heeft**: De afhandelingsdatum voor de taak is null.
-* **Als de taak een volledige voorganger heeft**: De afhandelingsdatum is gelijk aan de werkelijke afsluitende datum van de voorgaande taak. Als de voorganger een vertraging heeft, berekent Workfront de afhandelingsdatum van de opvolgertaak aan de hand van de volgende formule:
+* **wanneer de taak een onvolledige voorganger** heeft: De Handoff Datum voor de taak is ongeldig.
+* **wanneer de taak een volledige voorganger** heeft: De Handoff Datum is het zelfde als de Ware Datum van de Voltooiing van de voorgangertaak. Als de voorganger een vertraging heeft, berekent Workfront de afhandelingsdatum van de opvolgertaak aan de hand van de volgende formule:
 
   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-  Voor informatie over vertragingstijd raadpleegt u [Overzicht van labeltypen](../use-prdcssrs/lag-types.md).
+  Voor informatie over vertragingstijd, zie [ Overzicht van de Types van Markeringen ](../use-prdcssrs/lag-types.md).
 
   Als de opvolgertaak meer dan één voorganger heeft, wordt de afhandelingsdatum berekend op basis van de laatste werkelijke Voltooiingsdatum van de voorgangers. Als de werkelijke Voltooiingsdata van de twee voorgangers bijvoorbeeld 8 november 2022 en 20 november 2022 zijn, is de Handoff Date van de opvolger 20 november 2022.
 
   >[!NOTE]
   >
-  >   Het berekenen van de Handoff Datum van een opvolgertaak die op de Ware Datum van Voltooiing of een voorgangertaak wordt gebaseerd is het zelfde of voorganger wordt afgedwongen of niet. Voor meer informatie over gedwongen predecessors, zie [Voorgangers afdwingen](../use-prdcssrs/enforced-predecessors.md).
+  >   Het berekenen van de Handoff Datum van een opvolgertaak die op de Ware Datum van Voltooiing of een voorgangertaak wordt gebaseerd is het zelfde of voorganger wordt afgedwongen of niet. Voor meer informatie over gedwongen predecessors, zie [ predecessors ](../use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 
-* **Als de taak geen voorganger heeft en**:
+* **wanneer de taak geen voorganger en** heeft:
 
-   * **De geplande begindatum ligt in het verleden**: De afhandelingsdatum is gelijk aan de geplande begindatum van het project als voor de taak geen dwangbeperking is ingesteld. In de gevallen waarin taken gedwongen beperkingen hebben, raadpleegt u de sectie &quot;Wanneer de taak een gedwongen beperking voor de geplande datums heeft&quot; hieronder.
-   * **De geplande begindatum is in de toekomst (elke datum na de huidige datum)**: De afhandelingsdatum is gelijk aan de geplande begindatum van de taak als voor de taak geen dwangbeperking is ingesteld. In de gevallen waarin taken gedwongen beperkingen hebben, raadpleegt u de sectie &quot;Wanneer de taak een gedwongen beperking voor de geplande datums heeft&quot; hieronder.
+   * **de Geplande Datum van het Begin is in het verleden**: De Handoff Datum is het zelfde als de Geplande Datum van het Begin van het project als de taak geen gedwongen geplaatste beperking heeft. In de gevallen waarin taken gedwongen beperkingen hebben, raadpleegt u de sectie &quot;Wanneer de taak een gedwongen beperking voor de geplande datums heeft&quot; hieronder.
+   * **de Geplande Datum van het Begin is in de toekomst (om het even welke datum na de huidige datum)**: De Handoff Datum is het zelfde als de Geplande Datum van het Begin van de taak als de taak geen gedwongen geplaatste beperking heeft. In de gevallen waarin taken gedwongen beperkingen hebben, raadpleegt u de sectie &quot;Wanneer de taak een gedwongen beperking voor de geplande datums heeft&quot; hieronder.
 
 >[!NOTE]
 >
@@ -62,9 +62,9 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 >* U berekent manueel de chronologie van het project van de opvolger opnieuw. U moet over beheerdersmachtigingen voor het project beschikken om de tijdlijn opnieuw te berekenen.
 >* De tijdlijn van het project van de opvolger wordt automatisch &#39;s nachts opnieuw berekend.
 >
->Zie voor informatie over het opnieuw berekenen van de tijdlijn van het project [Projecttijdlijnen opnieuw berekenen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Voor informatie over het opnieuw berekenen van de chronologie van het project, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
-* **Wanneer de taak een gedwongen beperking voor de Geplande Datums heeft**: De afhandelingsdatum is afhankelijk van het type beperking en of de taak een werkelijke begindatum heeft of niet.\
+* **wanneer de taak een gedwongen beperking voor de Geplande Datums** heeft: De Datum van de Aflevering varieert afhankelijk van het type van beperking en of de taak een Ware Datum van het Begin heeft of niet.\
   De volgende taken zijn geforceerde beperkingen:
 
    * Moet beginnen op
@@ -75,9 +75,9 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 
   De volgende scenario&#39;s bestaan:
 
-   * **Wanneer de taak een beperking van moet beginnen of niet vroeger dan begint**: Als de datum van de taakbeperking in het verleden is en er geen Ware Datum van het Begin op de taak (de taak is nog niet begonnen) is de Datum van Handoff de dichtstbijzijnde mogelijke datum de taak kan worden begonnen om te worden gewerkt aan. Als de taak is begonnen, evenaart de Datum van Handoff de begindatum van het project.
-   * **Wanneer de taak een beperking heeft van moet Eindigen of niet later beginnen dan**: Als de datum van de taakbeperking in de toekomst is en er geen Ware Datum van het Begin op de taak (de taak is nog niet begonnen) is de Datum van de Afhandeling de Geplande Datum van het Begin van de taak. Als er op de taak als Werkelijke Datum van het Begin is dan is de Datum van Handoff de begindatum van het project.
-   * **Wanneer de taak een beperking van Vaste Datums heeft**: De afhandelingsdatum is de geplande begindatum van de taak, ongeacht of deze al dan niet een voorganger heeft en of de voorganger al dan niet is voltooid.
+   * **wanneer de taak een beperking van moet beginnen op of Begin niet vroeger dan** heeft: Als de datum van de taakbeperking in het verleden is en er geen Werkelijke Datum van het Begin op de taak (de taak is nog niet begonnen) is de Datum van Handoff de dichtstbijzijnde mogelijke datum de taak kan worden begonnen om te worden gewerkt aan. Als de taak is begonnen, evenaart de Datum van Handoff de begindatum van het project.
+   * **wanneer de taak een beperking van moet op of Begin niet later dan** beëindigen: Als de datum van de taakbeperking in de toekomst is en er geen Ware Datum van het Begin op de taak (de taak is nog niet begonnen) is de Datum van de Afhandeling de Geplande Datum van het Begin van de taak. Als er op de taak als Werkelijke Datum van het Begin is dan is de Datum van Handoff de begindatum van het project.
+   * **wanneer de taak een beperking van Vaste Datums** heeft: De Handoff Datum is de Geplande Datum van het Begin van de taak, ongeacht of het een predecessor of niet heeft en ongeacht of predecessor wordt voltooid of niet.
 
 <!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
    * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
@@ -89,4 +89,4 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 ## De Handoff-datum zoeken
 
 U kunt de Handoff Datum van een taak in een taakrapport of de mening van een taaklijst tonen.\
-Ga voor meer informatie over het samenstellen van een rapport naar [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.

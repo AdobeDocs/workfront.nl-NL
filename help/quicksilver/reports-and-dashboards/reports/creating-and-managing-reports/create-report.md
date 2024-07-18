@@ -19,6 +19,6 @@ De informatie in dit artikel is verplaatst.
 
 Zie:
 
-* [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): In dit artikel wordt uitgelegd hoe u een geheel nieuw rapport kunt maken.
-* [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): In dit artikel wordt uitgelegd hoe u een kopie van een rapport kunt maken.
-* [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): Dit artikel bevat informatie over tekstwijze, die u toestaat om de informatie te verbeteren u reeds aan het rapport met de standaard rapportbouwer hebt toegevoegd.
+* [ creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): Dit artikel verklaart hoe te om een rapport van kras tot stand te brengen.
+* [ creeer een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): Dit artikel verklaart hoe te om een exemplaar van een rapport tot stand te brengen.
+* [ het overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): Dit artikel bevat informatie over tekstwijze, die u toestaat om de informatie te verbeteren u reeds aan het rapport met de standaardrapportaannemer hebt toegevoegd.

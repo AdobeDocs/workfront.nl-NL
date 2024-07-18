@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [Overzicht van groepen](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-* [Groepen maken en beheren](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
-* [Subgroepen maken en beheren](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
-* [Groepsrollen](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
-* [Werken met de objecten van een groep](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
+* [ Overzicht van Groepen ](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+* [ creeer en beheer groepen ](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
+* [ creeer en beheer subgroups ](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+* [ de rollen van de Groep ](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
+* [ Werk met de voorwerpen van een groep ](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
 * [Groepsstatussen beheren](../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)

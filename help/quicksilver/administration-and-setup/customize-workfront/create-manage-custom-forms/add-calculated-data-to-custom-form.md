@@ -33,19 +33,19 @@ Een berekend aangepast veld kan het volgende bevatten:
 
   >[!INFO]
   >
-  > **Voorbeeld:** Om de opbrengst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend douanegebied tot stand brengen dat de ingebouwde Ware Inkomsten van het gebied bevat. Wanneer iemand de douaneformulier aan een project of een taak vastmaakt, toont de opbrengst voor het project of de taak op het gebied.
+  > **Voorbeeld:** om de opbrengst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend douanegebied tot stand brengen dat de ingebouwde Ware Inkomsten van het gebied bevat. Wanneer iemand de douaneformulier aan een project of een taak vastmaakt, toont de opbrengst voor het project of de taak op het gebied.
 
 * Een expressie die naar een of meer velden verwijst. Dit kunnen aangepaste velden, andere berekende aangepaste velden en ingebouwde velden zijn.
 
   >[!INFO]
   >
-  >**Voorbeeld:** Om de winst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend gebied tot stand brengen genoemd Winst die een wiskundige uitdrukking bevat die kosten van opbrengst aftrekt.
+  >**Voorbeeld:** om de winst te berekenen die door projecten en taken wordt geproduceerd, kon u een berekend gebied tot stand brengen genoemd Winst die een wiskundige uitdrukking bevat die kosten van opbrengst aftrekt.
   >
   >Hiervoor kunt u de wiskundige expressie SUB (subtract) gebruiken met de ingebouwde velden Werkelijke kosten en Werkelijke inkomsten van Workfront.
   >
   >In de onderstaande stappen kunt u zien hoe dit voorbeeld kan worden uitgevoerd.
 
-Voor informatie over het maken van aangepaste formulieren voor uw organisatie en het begrijpen van het type velden dat u ermee kunt koppelen, raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor informatie over het creëren van douaneformulieren voor uw organisatie en het begrip van het type van gebieden u met hen kunt associëren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Toegangsvereisten
 
@@ -75,7 +75,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of configuratie op toegangsniveau u hebt. Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of configuratie op toegangsniveau u hebt. Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,9 +88,9 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
 >
 >Voordat u een berekend aangepast veld maakt, identificeert u de bestaande velden die u wilt opnemen, zodat u zeker weet dat de gegevens die nodig zijn voor de berekening aanwezig zijn in Workfront.
 
-1. Beginnen met het maken of bewerken van een aangepast formulier, zoals beschreven in [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Beginnen creërend of het uitgeven van een douanevorm, zoals die in [ wordt beschreven creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
 
-1. Op de **Veld toevoegen** tabblad, klikt u op **Berekend**.
+1. Op **voeg een Gebied** tabel toe, klik **Berekend**.
 
    In het weergavegebied rechts ziet u in het veld een vulwaarde van 12345. Dit is een indicator om u eraan te herinneren dat het veld een berekend aangepast veld is terwijl u het aangepaste formulier maakt of bewerkt. Wanneer het formulier aan een object is gekoppeld en gebruikers het invullen, zien ze in het veld het resultaat van de berekening en niet de waarde 12345.
 
@@ -104,12 +104,12 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Typ een label voor het veld. Dit zien gebruikers wanneer ze het aangepaste formulier gebruiken. Het veld <b>Naam</b>In rapporten wordt door Workfront naar dit item verwezen. Dit vult automatisch in en komt overeen met het label. Dit is een verplicht veld.</td> 
+      <td>Typ een label voor het veld. Dit zien gebruikers wanneer ze het aangepaste formulier gebruiken. Het gebied <b> Naam </b>, dat automatisch invult en het Etiket aanpast, wordt van verwijzingen voorzien door Workfront in rapporten. Dit is een verplicht veld.</td> 
      </tr>
 
    <tr> 
    <td role="rowheader">Naam</td> 
-   <td>Standaard is de naam van een veld gelijk aan de naam van het veld. U kunt de naam van een veld echter wijzigen zodat deze anders is dan de naam van een veld. Het veld <b>Naam</b> Workfront verwijst hiernaar in rapporten. Dit is een verplicht veld.</td> 
+   <td>Standaard is de naam van een veld gelijk aan de naam van het veld. U kunt de naam van een veld echter wijzigen zodat deze anders is dan de naam van een veld. Het gebied <b> Naam </b> wordt van verwijzingen voorzien door Workfront in rapporten. Dit is een verplicht veld.</td> 
    </tr>
 
    <tr> 
@@ -123,40 +123,40 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
       <li> <p>Als herinnering aan wat de formule is en hoe het werkt. Dit is vooral handig als u dit berekende aangepaste veld wilt gebruiken op meerdere formulieren.</p> </li> 
        <li> <p>Als knopinfo kunnen gebruikers zien wanneer ze de muisaanwijzer op het veld plaatsen. U kunt hier alle tekst toevoegen die u in de knopinfo wilt zien.</p> </li> 
        </ul>
-       <p>Als u niet wilt dat gebruikers de formule in tooltip zien, die voor hen verwarrend zou kunnen zijn, voeg het niet aan het gebied van Instructies toe. Gebruik in plaats daarvan de instelling "Weergaveformule in instructies" om de formule weer te geven of te verbergen, zoals verder wordt beschreven in dit artikel. <a href="#build-the-calculation-for-your-calculated-custom-field">De berekening maken voor het berekende aangepaste veld</a> in dit artikel.</p>
+       <p>Als u niet wilt dat gebruikers de formule in tooltip zien, die voor hen verwarrend zou kunnen zijn, voeg het niet aan het gebied van Instructies toe. In plaats daarvan, gebruik de "formule van de Vertoning in instructies"het plaatsen om de formule te tonen of te verbergen, aangezien het verder in dit artikel <a href="#build-the-calculation-for-your-calculated-custom-field"> wordt beschreven bouwt de berekening voor uw berekend douanegebied </a> in dit artikel.</p>
 
-   <p>Zie voor informatie over het gebruik van hetzelfde berekende aangepaste veld op een nieuw formulier <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier</a>.</p>
+   <p>Voor informatie over het gebruiken van het zelfde berekende douanegebied op een nieuwe vorm, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref"> een bestaand berekend douanegebied in een douanevorm </a> opnieuw gebruiken.</p>
 
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Indeling</td> 
-      <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als u het veld wilt gebruiken in wiskundige berekeningen, moet u altijd een <strong>Getal</strong> of <strong>Valuta</strong> gebruiken. Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</p> 
-      <p><b>BELANGRIJK</b>: <p>Voordat u een indeling kiest, moet u rekening houden met de juiste indeling voor het nieuwe veld. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p>
-      <p><strong>OPMERKING:</strong> Berekende velden met de notatie Valuta mogen geen aanhalingstekens bevatten. (Gebruik bijvoorbeeld 800.00 en niet "800.00.") Het gebruik van aanhalingstekens kan onverwachte gevolgen hebben als gevolg van verschillen in de taalopmaak voor valutatypen.</p></td> 
+      <td> <p>De indeling waarin u de resultaten van het veld wilt opslaan en weergeven.</p> <p>Als u van plan bent om het gebied in wiskundige berekeningen te gebruiken, gebruik altijd a <strong> Aantal </strong> of a <strong> het formaat van de Valuta </strong>. Als u Getal of Valuta selecteert, wordt het systeem automatisch gebruikt voor het afkappen van getallen die met 0 beginnen.</p> 
+      <p><b> BELANGRIJK </b>: <p>Voordat u een indeling kiest, moet u rekening houden met de juiste indeling voor het nieuwe veld. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p>
+      <p><strong> NOTA:</strong> Berekende gebieden met een formaat van de Valuta zouden geen aanhalingstekens moeten omvatten. (Gebruik bijvoorbeeld 800.00 en niet "800.00.") Het gebruik van aanhalingstekens kan onverwachte gevolgen hebben als gevolg van verschillen in de taalopmaak voor valutatypen.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. De aangepaste veldgegevens blijven bijwerken, zoals wordt beschreven in de sectie [De berekening maken voor het berekende aangepaste veld](#build-the-calculation-for-your-calculated-custom-field) in dit artikel.
+1. Ga verder om de informatie van het douanegebied bij te werken, zoals die in de sectie [ wordt beschreven bouwt de berekening voor uw berekend douanegebied ](#build-the-calculation-for-your-calculated-custom-field) in dit artikel.
 
 ## De berekening maken voor het berekende aangepaste veld {#build-the-calculation-for-your-calculated-custom-field}
 
-1. Beginnen met het maken van het berekende aangepaste veld, zoals beschreven in de sectie [Een berekend veld toevoegen aan een aangepast formulier](#add-a-calculated-field-to-a-custom-form) in dit artikel.
+1. Begin creërend het berekende douaneveld, zoals die in de sectie [ wordt beschreven voeg een berekend gebied aan een douanevorm ](#add-a-calculated-field-to-a-custom-form) in dit artikel toe.
 
-1. Klikken **Maximaliseren** om de **Rekeneditor** en maak uw berekening.
+1. Klik **maximaliseren** om de **Redacteur van de Berekening** te openen en uw berekening te bouwen.
 
    >[!INFO]
    >
-   >**Voorbeeld:** Gebruikend het voorbeeld in de inleiding aan dit artikel, kon u een berekend gebied tot stand brengen van de douane genoemd Winst in een douaneformulier voor projecten en taken. Dit veld kan een berekening bevatten die het verschil weergeeft tussen de werkelijke en de werkelijke kosten:
+   >**Voorbeeld:** Gebruikend het voorbeeld in de inleiding aan dit artikel, kon u een berekend douanegebied tot stand brengen genoemd Winst in een douaneformulier voor projecten en taken. Dit veld kan een berekening bevatten die het verschil weergeeft tussen de werkelijke en de werkelijke kosten:
    >
    >`SUB({actualRevenue},{actualCost})`
    >
-   >In dit voorbeeld: `SUB` is de expressie en de velden waarnaar wordt verwezen, zijn `actualRevenue` en `actualCost`.
+   >In dit voorbeeld is `SUB` de expressie en zijn de velden waarnaar wordt verwezen `actualRevenue` en `actualCost` .
 
-   Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de velden bevatten waarnaar u wilt verwijzen wanneer het aangepaste formulier aan een object is gekoppeld. Zie voor informatie over de beschikbare expressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de velden bevatten waarnaar u wilt verwijzen wanneer het aangepaste formulier aan een object is gekoppeld. Voor informatie over de uitdrukkingen die beschikbaar zijn, zie [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   Elk veld moet tussen accolades staan, zoals in de sectie wordt uitgelegd [Syntaxis vereist in berekende aangepaste velden](#syntax-required-in-calculated-custom-fields) in dit artikel. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen.
+   Elk gebied moet door krullende steunen worden omringd, zoals die in de sectie [ Syntaxis wordt verklaard die op berekende douanegebieden ](#syntax-required-in-calculated-custom-fields) in dit artikel wordt vereist. Wanneer u de naam van een veld begint te typen, doet het systeem suggesties en kunt u er een selecteren om het veld in de berekening in te voegen.
 
    >[!NOTE]
    >
@@ -165,9 +165,9 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
    >   * Tekstveld met opmaak
    >   * Beschrijvende tekst.
    >   
-   >   Zie voor informatie over de aangepaste veldtypen [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   >   Voor informatie over de types van douanegebied, zie [ een douanegebied aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen.
 
-1. Klik in het grote tekstvak in het vak Rekeningeditor en klik vervolgens op Zoeken of Uitvouwen en klik op een optie in het menu **Expressies** en **Velden** aan de rechterkant van het tekstvak. Dit voegt ze toe aan de berekening.
+1. Klik in het grote tekstvakje in het vakje van de Redacteur van de Berekening, dan klik of onderzoek of breid uit en klik een optie van de **uitdrukkingen** en **Gebieden** secties rechts van het tekstvakje. Dit voegt ze toe aan de berekening.
 
    U kunt ook een expressie of veld in het grote tekstvak typen en deze selecteren wanneer deze wordt weergegeven. Elk item wordt weergegeven met een &#39;F&#39; voor een veld of een &#39;E&#39; voor een expressie.
 
@@ -177,18 +177,18 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
    >
    >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
    > 
-   >* Houd de muisaanwijzer boven een expressie in uw berekening om een beschrijving te bekijken, een voorbeeld van het gebruik ervan en een koppeling Meer informatie in het artikel [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en een &quot;Leer meer&quot;verbinding aan meer informatie in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
    >  ![](assets/colors-fields-expressions.jpg)
    >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak ervan weer te geven.
    >  ![](assets/error-help.png)
-   >* In de **Voorvertoning op een bestaand object** onder de berekening, typt u de naam van een Workfront-object en selecteert u het object wanneer het in de lijst wordt weergegeven. Zo kunt u zien hoe het veld eruitziet wanneer het formulier aan het object wordt gekoppeld.
+   >* In het **Voorproef op een bestaand objecten** gebied onder uw berekening, begin de naam van een voorwerp van Workfront te typen, selecteer het wanneer het in de lijst toont. Zo kunt u zien hoe het veld eruitziet wanneer het formulier aan het object wordt gekoppeld.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
 
-1. Klikken **Minimaliseren** als u klaar bent met het maken van de berekening voor het berekende aangepaste veld.
+1. Klik **minimaliseren** wanneer u wordt gebeëindigd creërend de berekening voor het berekende douanegebied.
 
    >[!NOTE]
    >
@@ -202,7 +202,7 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
     <tbody> 
      <tr> 
       <td role="rowheader">Logica toevoegen</td> 
-      <td>U kunt DisplayLogic toevoegen om te bepalen of het berekende veld wordt weergegeven op basis van ten minste één keuze die een gebruiker maakt in een voorafgaand meerkeuzeveld (vervolgkeuzelijst, Selectievakjes of Keuzerondjes) bij het invullen van het formulier. Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Weergavelogica toevoegen en logica overslaan naar een aangepast formulier</a>. <p>Dit is alleen beschikbaar als ten minste één selectievakje, keuzerondje of vervolgkeuzelijst voorafgaat aan het berekende aangepaste veld op het formulier. </p> <p>Logica overslaan is niet beschikbaar voor berekende aangepaste velden.</p> </td> 
+      <td>U kunt DisplayLogic toevoegen om te bepalen of het berekende veld wordt weergegeven op basis van ten minste één keuze die een gebruiker maakt in een voorafgaand meerkeuzeveld (vervolgkeuzelijst, Selectievakjes of Keuzerondjes) bij het invullen van het formulier. Voor meer informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref"> vertoningslogica toevoegen en logica overslaan aan een douaneformulier </a>. <p>Dit is alleen beschikbaar als ten minste één selectievakje, keuzerondje of vervolgkeuzelijst voorafgaat aan het berekende aangepaste veld op het formulier. </p> <p>Logica overslaan is niet beschikbaar voor berekende aangepaste velden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorige berekeningen bijwerken</td> 
@@ -210,27 +210,27 @@ U kunt zowel ingebouwde Workfront-velden als aangepaste velden gebruiken die u a
      </tr> 
      <tr> 
       <td role="rowheader">Formule weergeven in instructies</td> 
-      <td>Laat deze optie ingeschakeld als u wilt dat gebruikers die het aangepaste formulier invullen, de formule van het veld zien wanneer ze de muisaanwijzer op het veld plaatsen. Zie de informatie over <a href="#instructions" class="MCXref xref">Instructies</a> eerder in deze tabel.</td> 
+      <td>Laat deze optie ingeschakeld als u wilt dat gebruikers die het aangepaste formulier invullen, de formule van het veld zien wanneer ze de muisaanwijzer op het veld plaatsen. Voor meer informatie, zie de informatie over <a href="#instructions" class="MCXref xref"> Instructies </a> vroeger in deze lijst.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Gereed** wanneer alle wijzigingen zijn voltooid in het berekende aangepaste veld.
+1. Klik **Gedaan** wanneer alle veranderingen op het berekende douanegebied volledig zijn.
 
-   Of klik op **Toepassen** om uw wijzigingen tot nu toe op het formulier toe te passen als u aangepaste velden wilt blijven toevoegen aan het formulier.
+   Of, klik **van toepassing zijn** om uw veranderingen op de vorm tot dusverre toe te passen als u douanegebieden aan de vorm wilt blijven toevoegen.
 
-   Of klik op **Opslaan + Sluiten** als alle wijzigingen zijn voltooid op het aangepaste formulier.
+   Of, klik **sparen + Sluiten** wanneer alle veranderingen op de douanevorm volledig zijn.
 1. Als u wilt controleren of het berekende aangepaste veld correct werkt, koppelt u het aangepaste formulier aan een object en bekijkt u het resultaat in het berekende aangepaste veld.
 
-   Zie voor instructies over het bijvoegen van een aangepast formulier [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+   Voor instructies bij het vastmaken van een douanevorm, zie [ een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
    Als u op andere manieren een aangepast formulier wilt maken, kunt u verdergaan met het samenstellen van een van de volgende artikelen:
 
-   * [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-   * [Aangepaste velden en widgets in een aangepast formulier plaatsen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [ voeg een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toe
+   * [ de douanegebieden en widgets van de Positie in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [ voeg of geef activa widget in een douanevorm toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [ hergebruik een bestaand berekend douanegebied in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [ voeg vertoningslogica toe en overslaat logica aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Een aangepast formulier voorvertonen en invullen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## Syntaxis vereist in berekende aangepaste velden
@@ -249,15 +249,15 @@ Bijvoorbeeld: `{actualRevenue}`
 
 Veldnamen zijn hoofdlettergevoelig en moeten worden weergegeven in de indeling voor camelgevallen, zoals ze worden weergegeven in het Workfront-systeem.
 
-* Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes. Aangepaste velden zijn hoofdlettergevoelig en moeten worden opgemaakt zoals ze in de Workfront-interface worden weergegeven.
+* Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes worden voorafgegaan. Aangepaste velden zijn hoofdlettergevoelig en moeten worden opgemaakt zoals ze in de Workfront-interface worden weergegeven.
 
 Bijvoorbeeld: `{DE:Profit}`
 
-In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen wanneer u typt `DE:`.
+Het systeem bevat een lijst met alle aangepaste velden waaruit u kunt kiezen wanneer u `DE:` typt.
 
 * Als u wilt dat de berekening verwijst naar een veld dat gegevens van het bovenliggende object trekt wanneer het aangepaste formulier aan een object is gekoppeld, moet u de veldnaam voorafgaan aan het objecttype van het bovenliggende object, ook tussen accolades.
 
-  Als het aangepaste formulier bijvoorbeeld is geconfigureerd voor taken en u wilt dat het veld de werkelijke inkomsten van het bovenliggende object berekent wanneer het formulier aan een taak is gekoppeld, moet u aangeven `project` als het objecttype van het veld:
+  Als het aangepaste formulier bijvoorbeeld is geconfigureerd om te werken met taken en u wilt dat het veld de werkelijke inkomsten van het bovenliggende object berekent wanneer het formulier aan een taak is gekoppeld, moet u `project` aangeven als het objecttype van het veld:
 
   `{project}.{actualRevenue}`
 
@@ -265,7 +265,7 @@ In het systeem worden alle aangepaste velden weergegeven waaruit u kunt kiezen w
 
   `{project}.{DE:profit}`
 
-  Als u niet zeker weet wat het objecttype van het bovenliggende object is omdat het aangepaste formulier is geconfigureerd voor meerdere objecttypen, kunt u de variabele jokertekenfilter gebruiken `$$OBJCODE` om de berekening voor elk van de mogelijke typen te laten werken. Zie voor meer informatie [Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten](#calculated-custom-fields-in-multi-object-custom-forms) in dit artikel.
+  Als u niet zeker weet wat het objecttype van het bovenliggende object is omdat het aangepaste formulier is geconfigureerd voor meerdere objecttypen, kunt u de variabele jokertekenfilter `$$OBJCODE` gebruiken om de berekening toe te staan voor elk van de mogelijke typen. Voor meer informatie, zie [ Berekende douanegebieden in multi-objecten douaneformulieren ](#calculated-custom-fields-in-multi-object-custom-forms) in dit artikel.
 
 ### Afzonderlijke items met perioden
 
@@ -292,7 +292,7 @@ Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast v
 
 >[!NOTE]
 >
->De syntaxis voor een Typeahead-veld is anders dan voor andere typen velden, omdat u het veld moet toevoegen `:name` aan het einde.
+>De syntaxis voor een veld Typeahead is anders dan voor andere typen velden, omdat u `:name` aan het einde moet toevoegen.
 >
 >Als u bijvoorbeeld wilt verwijzen naar de geselecteerde optie in een aangepast tekstveld met de naam &quot;Executive sponsor&quot;, typt u:
 >
@@ -315,17 +315,17 @@ In een aangepast formulier met meerdere objecten moeten de geselecteerde objectt
 Wanneer dit voorkomt, kunt u één van het volgende doen:
 
 * Verwijder een van de twee incompatibele items uit het aangepaste formulier: het objecttype of het berekende aangepaste veld waarnaar wordt verwezen.
-* Beide items behouden en de filtervariabele voor jokertekens gebruiken `$$OBJCODE` als een voorwaarde in een IF-expressie om twee verschillende versies van het veld In laden te maken. Hierdoor werkt het veld goed, ongeacht het type object waaraan het formulier is gekoppeld.
+* Houd beide items en gebruik de variabele voor het jokertekenfilter `$$OBJCODE` als voorwaarde in een IF-expressie om twee verschillende versies van het veld In lading te maken. Hierdoor werkt het veld goed, ongeacht het type object waaraan het formulier is gekoppeld.
 
 >[!INFO]
 >
->**Voorbeeld:** Hoewel er geen Toegewezen aan is: Het gebied van de Naam in projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert).
+>**Voorbeeld:** hoewel er geen Toegewezen aan is: Het gebied van de naam in projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon die het project creeerde, tenzij iemand manueel dit verandert) invult.
 >
->In het veld Aangepast in lading kunt u dus `$$OBJCODE` zoals hieronder wordt getoond om naar het gebied van de Eigenaar te verwijzen wanneer het douaneformulier aan een project in bijlage is, en het Toegewezen aan: gebied van de Naam wanneer het formulier aan een taak in bijlage is:
+>Zo kunt u in het veld Aangepast in kosten `$$OBJCODE` gebruiken, zoals hieronder wordt weergegeven, om te verwijzen naar het veld Eigenaar wanneer het aangepaste formulier aan een project is gekoppeld en naar het veld Toegewezen aan: Naam wanneer het formulier aan een taak is gekoppeld:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Voor meer informatie over variabelen zoals `$$OBJCODE,` zie [Overzicht van jokertekenfiltervariabelen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor meer informatie over variabelen als `$$OBJCODE,` zie [ overzicht van de de filtervariabelen van de Weigering ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatische updates van berekende aangepaste velden
 

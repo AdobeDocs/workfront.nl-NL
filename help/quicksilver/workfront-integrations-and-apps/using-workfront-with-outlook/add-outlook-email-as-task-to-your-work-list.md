@@ -2,20 +2,20 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Een Outlook-e-mail als taak toevoegen aan uw werklijst
-description: U kunt omzetten [!DNL Outlook] e-mails naar [!DNL Adobe Workfront] taken. Nadat een e-mailbericht is omgezet, is de taak beschikbaar in uw werklijst in het gebied Start.
+description: U kunt  [!DNL Outlook]  e-mails in  [!DNL Adobe Workfront]  taken omzetten. Nadat een e-mailbericht is omgezet, is de taak beschikbaar in uw werklijst in het gebied Start.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# Een [!DNL Outlook] e-mailen als een taak naar uw werklijst
+# Voeg een [!DNL Outlook] e-mailbericht als taak toe aan uw werklijst
 
-U kunt omzetten [!DNL Outlook] e-mails naar [!DNL Adobe Workfront] taken. Nadat een e-mail is geconverteerd, is de taak beschikbaar in uw [!UICONTROL Work] Lijst in het dialoogvenster [!UICONTROL Home] gebied.
+U kunt [!DNL Outlook] e-mailberichten converteren naar [!DNL Adobe Workfront] -taken. Nadat een e-mailbericht is omgezet, is de taak beschikbaar in de lijst [!UICONTROL Work] in het gebied [!UICONTROL Home] .
 
 ## Toegangsvereisten
 
@@ -36,34 +36,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!DNL Workfront] voordat u deze integratie kunt gebruiken.
+Uw [!DNL Workfront] beheerder moet [!DNL Outlook for Office] with [!DNL Workfront] inschakelen voordat u deze integratie kunt gebruiken.
 
-## Een [!DNL Outlook] e-mailen als een taak naar uw werklijst
+## Voeg een [!DNL Outlook] e-mailbericht als taak toe aan uw werklijst
 
 1. Selecteer de e-mail binnen [!DNL Outlook] die u naar een taak wilt converteren.
-1. Klik op de knop **[!DNL Workfront]** in de rechterbovenhoek van het e-mailbericht om het bericht weer te geven [!DNL Workfront] invoegtoepassing.\
-   Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
+1. Klik op het pictogram **[!DNL Workfront]** rechtsboven in het e-mailbericht om de [!DNL Workfront] add-in weer te geven.\
+   Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het pictogram [!DNL Workfront] te openen.
 
-1. Klik op de knop **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) pictogram om de lijst met beschikbare [!DNL Workfront] opties.\
+1. Klik **[!UICONTROL Menu]** ![ o365_addin_menu_icon.png ](assets/o365-addin-menu2-icon.png) pictogram om de lijst van beschikbare [!DNL Workfront] opties te tonen.\
 
 
 1. Klik op **[!UICONTROL Add to Work]**.\
 
-1. Schakel de optie **[!UICONTROL Add to Project]** veld.
+1. Hef de selectie van het veld **[!UICONTROL Add to Project]** op.
 1. (Optioneel) U kunt de volgende gegevens uit de e-mail bijwerken voordat u deze als taak opslaat:
 
-   * **[!UICONTROL Task Name]:** Standaard is de naam van de taak gelijk aan de naam van het e-mailonderwerp. U kunt de taaknaam naar wens wijzigen.
-   * **[!UICONTROL Description]:** Standaard is de beschrijving hetzelfde als de e-mailtekst. U kunt de beschrijving naar wens wijzigen.
-   * **[!UICONTROL Attachments]:** Alle e-mailbijlagen worden opgeslagen in de [!UICONTROL Documents] taakgebied. U kunt bijlagen verwijderen voordat u het e-mailbericht als een taak opslaat.
+   * **[!UICONTROL Task Name]:** door gebrek, is de taaknaam het zelfde als het e-mailonderwerp. U kunt de taaknaam naar wens wijzigen.
+   * **[!UICONTROL Description]:** door gebrek, is de beschrijving het zelfde als het e-maillichaam. U kunt de beschrijving naar wens wijzigen.
+   * **[!UICONTROL Attachments]:** Eventuele e-mailbijlagen worden opgeslagen in het [!UICONTROL Documents] -gebied van de taak. U kunt bijlagen verwijderen voordat u het e-mailbericht als een taak opslaat.
 
 1. Klik op **[!UICONTROL Add]**.\
-   De taak wordt toegevoegd aan de [!UICONTROL Work List] in uw thuisgebied zonder datum van betrokkenheid.
+   De taak wordt zonder vastlegdatum toegevoegd aan de [!UICONTROL Work List] in het gebied Home.
 
-1. (Optioneel) Klik op **[!UICONTROL View in Workfront]** om de taak weer te geven binnen de [!DNL Workfront] op een nieuw tabblad.
+1. (Optioneel) Klik op **[!UICONTROL View in Workfront]** om de taak in de [!DNL Workfront] -toepassing op een nieuw tabblad weer te geven.
 
-1. (Optioneel) Ga terug naar [!DNL Outlook]en selecteer het originele e-mailbericht.\
-   Aan de bovenkant van de [!DNL Workfront] in het invoegvenster wordt bevestigd dat het e-mailbericht als taak aan Workfront is toegevoegd. De koppeling bevat de datum waarop deze is geconverteerd.\
+1. (Optioneel) Navigeer terug naar [!DNL Outlook] en selecteer het oorspronkelijke e-mailadres.\
+   Boven aan het venster voor de [!DNL Workfront] invoegtoepassing ziet u dat met een koppeling is bevestigd dat het e-mailbericht als taak aan Workfront is toegevoegd. De koppeling bevat de datum waarop deze is geconverteerd.\

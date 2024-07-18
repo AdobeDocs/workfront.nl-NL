@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Toetsen in Adobe Workfront Fusion
-description: De sleutelhanger in [!DNL Adobe Workfront Fusion] Hiermee kunt u openbare en persoonlijke sleutels beheren. Toetsen worden bijvoorbeeld gebruikt door de Encryptor-app voor het coderen of decoderen van PGP-berichten.
+description: Keychain in  [!DNL Adobe Workfront Fusion]  zal u helpen om openbare en privé sleutels te beheren. Toetsen worden bijvoorbeeld gebruikt door de Encryptor-app voor het coderen of decoderen van PGP-berichten.
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Toetsen in Adobe Workfront Fusion
 
-De sleutelhanger in [!DNL Adobe Workfront Fusion] Hiermee kunt u openbare en persoonlijke sleutels beheren. Toetsen worden bijvoorbeeld gebruikt door de [!UICONTROL Encryptor] app voor het coderen of decoderen van PGP-berichten.
+De sleutelhanger in [!DNL Adobe Workfront Fusion] helpt u om openbare en privé sleutels te beheren. Toetsen worden bijvoorbeeld gebruikt door de app [!UICONTROL Encryptor] voor het coderen of decoderen van PGP-berichten.
 
 ## Toegangsvereisten
 
@@ -38,29 +38,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Sleutels gebruiken in [!DNL Workfront Fusion]
+## Toetsen gebruiken in [!DNL Workfront Fusion]
 
-Als een module een openbare of privé sleutel vereist, kunt u het aan keychain toevoegen. Zie voor meer informatie [De instellingen van een module configureren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+Als een module een openbare of privé sleutel vereist, kunt u het aan keychain toevoegen. Voor meer informatie, zie [ de montages van een module in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md) vormen.
 
 
-Zie voor meer informatie over openbare en persoonlijke sleutels [Basistermen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md).
+Voor meer informatie over openbare en privé sleutels, zie [ Basistermijnen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md).

@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario-details in [!DNL Adobe Workfront Fusion]
-description: Scenario-details in [!DNL Adobe Workfront Fusion]
+title: Scenario-details in  [!DNL Adobe Workfront Fusion]
+description: Scenario-details in  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De pagina met de details van het scenario is de startpagina van een specifiek scenario. Het verleent toegang tot specifieke informatie voor het scenario dat op de pagina wordt vertegenwoordigd.
 
-Het verleent u ook toegang tot [De scenario-editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), waar u het scenario kunt bewerken.
+Het verleent u ook toegang tot [ de scenarioredacteur in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), waar u het scenario kunt uitgeven.
 
 ## Toegangsvereisten
 
@@ -43,25 +43,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Open de [!UICONTROL Scenario detail] pagina:
+## Open de pagina [!UICONTROL Scenario detail] :
 
-1. Klik op de knop **[!UICONTROL Scenario]** in het linkerpaneel, dan klik een scenario u details op zou willen.
+1. Klik op de tab **[!UICONTROL Scenario]** in het linkerdeelvenster en klik op een scenario waarin u details wilt weergeven.
 
    of
 
-   Als u aan het scenario in werkt [De scenario-editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), klikt u op de pijl naar links ![](assets/exit-editing-arrow.png) in de linkerbovenhoek van het venster.
+   Als u aan het scenario in [ de scenarioredacteur in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
 
 1. Op de pagina die wordt weergegeven, kunt u de elementen bekijken die in de onderstaande tabel worden vermeld.
 
@@ -77,7 +77,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tab) </td> 
-      <td> <p>Open dit lusje om een geschiedenis van het scenario, met inbegrip van om het even welke het uitgeven van het scenario te zien. </p> <p>De [!UICONTROL History] tab geeft ook de geschiedenis van de uitvoering van elk scenario weer, met inbegrip van het volgende:</p> 
+      <td> <p>Open dit lusje om een geschiedenis van het scenario, met inbegrip van om het even welke het uitgeven van het scenario te zien. </p> <p>Het tabblad [!UICONTROL History] bevat ook de geschiedenis van de uitvoering van het scenario van elke uitvoering, die het volgende bevat:</p> 
        <ul> 
         <li>Status van elke uitvoering (geslaagd of fout)</li> 
         <li>Runtimeduur</li> 
@@ -132,7 +132,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
-      <td>Deze grafiek staat u toe om de hoeveelheid gegevensoverdracht en verrichtingen te bekijken die door de looppas van het scenario in worden gebruikt [!UICONTROL line] grafiek.</td> 
+      <td>In deze grafiek kunt u de hoeveelheid gegevensoverdracht en bewerkingen bekijken die tijdens de uitvoering van het scenario in een [!UICONTROL line] -grafiek worden gebruikt.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Processing banner]</p>  </td> 

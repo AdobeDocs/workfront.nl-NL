@@ -18,8 +18,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een basisscenario maken in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-* [Voeg een trekkermodule aan een basisscenario binnen toe [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-* [Gebruik een functie om een project in een eenvoudig scenario bij te werken in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-* [Een filter toevoegen aan een basisscenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-* [Webhaak toevoegen aan een basisscenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+* [Creeer een basisscenario in  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+* [Voeg een trekkermodule aan een basisscenario in  [!DNL Adobe Workfront Fusion] toe](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+* [Gebruik een functie om een project in een eenvoudig scenario in  [!DNL Adobe Workfront Fusion] bij te werken](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+* [Voeg een filter aan een basisscenario in  [!DNL Adobe Workfront Fusion] toe](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+* [Een webhaak toevoegen aan een basisscenario in  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)

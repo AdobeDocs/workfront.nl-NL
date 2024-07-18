@@ -9,14 +9,14 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # Nieuwe functies in API-versie 9 (vervolg)
 
-Deze lijst is de tweede helft van een grotere lijst. De eerste helft kan worden gevestigd bij [Nieuw in API-versie 9](../../wf-api/api/new-api-version-9.md). U vindt de lijst met updates voor versie 9 op [Updates voor API versie 9](../../wf-api/api/new-api-version-9-updates.md).
+Deze lijst is de tweede helft van een grotere lijst. De eerste helft kan bij [ worden gevestigd wat in API Versie 9 ](../../wf-api/api/new-api-version-9.md) Nieuw is. U zult de lijst van updates aan versie 9 bij [ Updates aan API Versie 9 ](../../wf-api/api/new-api-version-9-updates.md) vinden.
 
 ## PortalSection
 

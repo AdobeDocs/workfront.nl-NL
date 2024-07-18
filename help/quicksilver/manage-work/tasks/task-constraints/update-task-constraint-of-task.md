@@ -8,14 +8,14 @@ feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
 # Werk de Beperking van de Taak van een taak bij
 
-De beperkingen van de taak bepalen wanneer een taak op een project zou moeten beginnen en eindigen. Zie voor meer informatie [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+De beperkingen van de taak bepalen wanneer een taak op een project zou moeten beginnen en eindigen. Voor meer informatie, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 ## Toegangsvereisten
 
@@ -35,42 +35,42 @@ U moet het volgende hebben om de Beperking van de Taak van een taak te verandere
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toegang tot de taak beheren </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toegang tot de taak beheren </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Werk de Beperking van de Taak van een taak bij
 
-1. Klikken **Hoofdmenu** > **Projecten** klikt u vervolgens op een project om het te openen.
-1. Klik op de knop **Taken** in het linkerdeelvenster.
-1. Klikken **Taakdetails** in het linkerpaneel, dan in het gebied van het Overzicht klikt **Taakbeperking**.
+1. Klik **HoofdMenu** > **Projecten**, dan klik een project om tot het toegang te hebben.
+1. Klik de **sectie van Taken** in het linkerpaneel.
+1. Klik **Details van de Taak** in het linkerpaneel, dan in het gebied van het Overzicht klikt **de Beperking van de Taak**.
 
    ![](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Selecteer een van de volgende opties
 
-   | Vaste datums | Zie voor meer informatie [Overzicht van taakbeperking: Vaste datums](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
+   | Vaste datums | Voor informatie, zie [ Overzicht van de Beperking van de Taak: Vaste Datums ](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
-   | Moet beginnen op | Zie voor meer informatie [Overzicht van taakbeperking: Moet beginnen op](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Moet worden voltooid op | Zie voor meer informatie [Overzicht van taakbeperking: Moet worden voltooid op](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
-   | Zo snel mogelijk | Zie voor meer informatie [Overzicht van taakbeperking: Zo snel mogelijk](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
-   | Zo laat mogelijk | Zie voor meer informatie [Overzicht van taakbeperking: Zo laat mogelijk](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
-   | Vroegst beschikbare tijd | Zie voor meer informatie [Overzicht van taakbeperking: Vroegst beschikbare tijd](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
-   | Laatste beschikbare tijd | Zie voor meer informatie [Overzicht van taakbeperking: Laatste beschikbare tijd](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
-   | Niet later starten dan | Zie voor meer informatie [Overzicht van taakbeperking: Niet later starten dan](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
-   | Niet eerder starten dan | Zie voor meer informatie [Overzicht van taakbeperking: Niet eerder starten dan](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | Niet later voltooien dan | Zie voor meer informatie [Overzicht van taakbeperking: Niet later voltooien dan](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Niet eerder voltooien dan | Zie voor meer informatie [Overzicht van taakbeperking: Niet eerder voltooien dan](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Moet beginnen op | Voor informatie, zie [ overzicht van de Restrictie van de Taak: Moet ](../../../manage-work/tasks/task-constraints/must-start-on.md) beginnen. |
+   | Moet worden voltooid op | Voor informatie, zie [ overzicht van de Beperking van de Taak: Moet ](../../../manage-work/tasks/task-constraints/must-finish-on.md) beëindigen. |
+   | Zo snel mogelijk | Voor informatie, zie [ overzicht van de Restrictie van de Taak: Zo spoedig mogelijk ](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
+   | Zo laat mogelijk | Voor informatie, zie [ overzicht van de Taakbeperking: Zo laat mogelijk ](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
+   | Vroegst beschikbare tijd | Voor informatie, zie [ Overzicht van de Beperking van de Taak: De vroegste Beschikbare Tijd ](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
+   | Laatste beschikbare tijd | Voor informatie, zie [ Overzicht van de Beperking van de Taak: De nieuwste Beschikbare Tijd ](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
+   | Niet later starten dan | Voor informatie, zie [ overzicht van de Restrictie van de Taak: Begin niet later dan ](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | Niet eerder starten dan | Voor informatie, zie [ overzicht van de Restrictie van de Taak: Begin niet vroeger dan ](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
+   | Uiterlijk op | Voor informatie, zie [ overzicht van de Restrictie van de Taak: Eindig niet later dan ](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | Niet eerder voltooien dan | Voor informatie, zie [ overzicht van de Restrictie van de Taak: Eindig geen vroeger dan ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Klikken **Opslaan** **Wijzigingen**.
+1. Klik **sparen** **Veranderingen**.
 
  

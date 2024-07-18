@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Proef van staat in Workfront
-description: In [!DNL Workfront Proof], bestaan er bewijzen in verschillende staten. Deze staten bepalen welke acties u kunt ondernemen op het bewijs, zoals het maken van opmerkingen of het nemen van beslissingen.
+title: Proefstaat in Workfront Proof begrijpen
+description: In  [!DNL Workfront Proof], bestaan de proefdrukken in verschillende staten. Deze staten bepalen welke acties u kunt ondernemen op het bewijs, zoals het maken van opmerkingen of het nemen van beslissingen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Proef van staat in Workfront
+# Proefstaat in Workfront Proof begrijpen
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-In [!DNL Workfront Proof], bestaan er bewijzen in verschillende staten. Deze staten bepalen welke acties u kunt ondernemen op het bewijs, zoals het maken van opmerkingen of het nemen van beslissingen.
+In [!DNL Workfront Proof] bestaan proeven in verschillende staten. Deze staten bepalen welke acties u kunt ondernemen op het bewijs, zoals het maken van opmerkingen of het nemen van beslissingen.
 
 ## Proefstatus
 
@@ -33,13 +33,13 @@ De vier staten zijn als volgt:
 
 ### Actief {#active}
 
-Proefdrukken waarnaar wordt geüpload [!DNL Workfront Proof] door de Nieuwe pagina van het Bewijs of Dropzone verschijnen als Actief nadat zij worden verwerkt. Wanneer een proefdruk actief is, kunnen gebruikers opmerkingen maken en besluiten nemen over de proefdruk.
+Proefdrukken die via de pagina Nieuwe proef of de dropzone naar [!DNL Workfront Proof] zijn geüpload, worden na verwerking als actief weergegeven. Wanneer een proefdruk actief is, kunnen gebruikers opmerkingen maken en besluiten nemen over de proefdruk.
 
 >[!NOTE]
 >
 >Proefdrukken die via de Dropzone worden geüpload, worden alleen als Actief weergegeven als de optie Proefdruk bij verzending activeren is ingeschakeld. Als deze optie niet is ingeschakeld, moet u de proefdruk handmatig activeren.
 
-Zie voor meer informatie over Dropzone-instellingen [De dropzone configureren in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+Voor meer informatie over montages Dropzone, zie [ dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) vormen.
 
 ### Vergrendeld {#locked}
 
@@ -47,7 +47,7 @@ U kunt een proefdruk vergrendelen wanneer u deze hebt gecontroleerd. Een bewijs 
 
 Gebruikers die bewerkingsrechten hebben op de proefdruk, kunnen deze ontgrendelen.
 
-Voor meer informatie over rechten raadpleegt u [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor meer informatie over rechten, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
@@ -63,22 +63,22 @@ Nadat de beheerder een concept heeft geactiveerd, wordt uw proefdruk weergegeven
 
 ## Proefstatus weergeven en wijzigen
 
-Voor informatie over het bekijken van een lijst van alle proeven in een specifieke staat, zoals het bekijken van alle Actieve of Vergrendelde proeven, zie [Items op de weergavepagina beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) in het artikel [Items op de weergavepagina beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+Voor informatie over het bekijken van een lijst van alle proeven in een specifieke staat, zoals het bekijken van alle Actieve of Vergrendelde proeven, zie [ Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) in artikel [ leiden Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Toegang tot uw [!DNL Workfront Proof] Dashboard.
+1. Open het [!DNL Workfront Proof] -dashboard.
 
-   Zie voor meer informatie [Toegang [!DNL Workfront Proof] uit Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+   Voor meer informatie, zie [ Toegang  [!DNL Workfront Proof]  van Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-1. Op de **[!UICONTROL Dashboard]** klikt u op de knop **[!UICONTROL Expand]** de pijl naast de proef u de staat van bekijken of wilt veranderen.
+1. Klik op de pijl **[!UICONTROL Dashboard]** naast de proefdruk die u wilt weergeven of wijzig de status van de proefdruk.**[!UICONTROL Expand]**
 
    ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
-   De **[!UICONTROL Workflow process]** wordt weergegeven.
+   De sectie **[!UICONTROL Workflow process]** wordt weergegeven.
 
    ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
-1. De weergave van **[!UICONTROL State]** in de **[!UICONTROL Workflow process]**.
+1. Bekijk **[!UICONTROL State]** in **[!UICONTROL Workflow process]**.
 
-1. (Optioneel) Als u de status wilt wijzigen, beweegt u de muis over de huidige **[!UICONTROL State]** en klikt u op het vervolgkeuzemenu en selecteert u vervolgens een nieuwe staat.
+1. (Optioneel) Als u de status wilt wijzigen, plaatst u de muis boven de huidige status **[!UICONTROL State]** en klikt u op de vervolgkeuzelijst. Selecteer vervolgens een nieuwe status.
 
    ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

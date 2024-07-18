@@ -22,7 +22,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
      of
 
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor meer informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
 
 * Voor het huidige plan en de licentiestructuur:
 
@@ -32,7 +32,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
 Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
-Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Elke organisatie moet duidelijke doelstellingen plaatsen en meedelen om hun teams productief, gericht, en betrokken te houden. Het is van essentieel belang dat we weten hoe werk op de strategie is afgestemd. Maar zonder een systeem van verslagen dat uw strategie en doelstellingen met het werk in de organisatie verbindt, kan het bereiken van aanpassing echt moeilijk zijn.
 
@@ -40,7 +40,7 @@ Met Workfront-doelen kunt u strategische resultaten definiëren, communiceren en
 
 Workfront Goals is een add-on module voor het belangrijkste Workfront-platform voor werkbeheer. Het is bedoeld om samen te werken met het Workfront-platform en gebruikt veel van de instellingen van het platform, zoals gebruikers, teams, groepen en projecten.
 
-Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../workfront-goals/goal-management/wf-goals-overview.md).
+Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Een visie en strategie voor uw organisatie definiëren
 
@@ -48,8 +48,8 @@ Doorgaans veranderen de missie en visie van een organisatie niet regelmatig. Maa
 
 Wij hebben de volgende stappen voor het bepalen van uw visie en strategie voor uw organisatie geïdentificeerd:
 
-* [Het einddoel definiëren en uitdrukken](#define-and-express-the-end-goal)
-* [Samenwerken rond bedrijfs- en organisatorische doelstellingen](#collaborate-around-enterprise-and-organizational-goals)
+* [ bepaalt en uitdrukt het einddoel ](#define-and-express-the-end-goal)
+* [ werk rond onderneming en organisatorische doelstellingen samen ](#collaborate-around-enterprise-and-organizational-goals)
 * [Groepen en teams op strategie afstemmen](#align-groups-and-teams-to-strategy)
 
 ### Het einddoel definiëren en uitdrukken {#define-and-express-the-end-goal}
@@ -72,7 +72,7 @@ We raden het volgende aan:
 
 Raadpleeg de volgende artikelen voor informatie over het maken van doelen en het toevoegen van resultaten:
 
-* [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md)
+* [ creeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md)
 * [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Samenwerken rond bedrijfs- en organisatorische doelstellingen {#collaborate-around-enterprise-and-organizational-goals}
@@ -90,7 +90,7 @@ Houd rekening met de volgende richtlijnen bij het maken en uitlijnen van doelen:
 
 Raadpleeg de volgende artikelen voor informatie over het maken en uitlijnen van doelen:
 
-* [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md)
+* [ creeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md)
 * [Overzicht van uitlijning van doelstellingen in Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Groepen en teams op strategie afstemmen {#align-groups-and-teams-to-strategy}
@@ -117,8 +117,8 @@ Ga als volgt te werk:
 
   Raadpleeg de volgende artikelen voor informatie over het activeren, toevoegen van activiteiten en het bijwerken van doelen:
 
-   * [Doelen in Adobe Workfront-doelen activeren](../../workfront-goals/goal-management/activate-goals.md)
-   * [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [ activeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md)
+   * [ voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Voortgang van Adobe Workfront-doelen bijwerken](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Richtlijnen voor het vaststellen van Workfront-doelstellingen
@@ -134,11 +134,11 @@ Volg deze richtlijnen om ervoor te zorgen dat u behoorlijk wordt gevormd om bego
 >
 >Houd er bij het identificeren van de primaire eigenaars rekening mee dat u strategische doelen voor bedrijfsresultaten en niet voor persoonlijke ontwikkelingsdoelen stelt.
 
-Voor informatie over het vormen van toegang tot de Doelen van Workfront, zie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor informatie over het vormen van toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 ## Objecten Workfront Goals
 
-In de onderstaande tabel worden de objecten Workfront Goals beschreven. U kunt hun naam aanpassen door een lay-outmalplaatje te wijzigen en het toe te wijzen aan gebruikers, teams, of groepen. Voor informatie over het aanpassen van objectnamen met een lay-outsjabloon raadpleegt u [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+In de onderstaande tabel worden de objecten Workfront Goals beschreven. U kunt hun naam aanpassen door een lay-outmalplaatje te wijzigen en het toe te wijzen aan gebruikers, teams, of groepen. Voor informatie over het aanpassen van objecten namen die een lay-outmalplaatje gebruiken, zie [ gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Bij Doelen van Workfront worden de volgende hoofdobjecten gebruikt:
 
@@ -156,5 +156,5 @@ Naast resultaten en activiteiten, kunt u projecten met doelstellingen ook verbin
 
 Voor informatie over doelstellingen, resultaten, en activiteiten, zie:
 
-* [Overzicht van Adobe Workfront-doelen](../../workfront-goals/goal-management/wf-goals-overview.md)
+* [ overzicht van de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/wf-goals-overview.md)
 * [Aan de slag met resultaten en activiteiten in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)

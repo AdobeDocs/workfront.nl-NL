@@ -45,18 +45,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
-## Voorbeeld: Vervang de naam van een project in een projectweergave door een afbeelding:
+## Voorbeeld: vervang de naam van een project in een projectweergave door een afbeelding:
 
 1. Upload een afbeelding naar een website of server buiten Adobe Workfront. U moet de afbeelding kunnen openen met uw webbrowser.
 
@@ -66,7 +66,6 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >* Gebruik geen afbeeldingen die naar Workfront zijn geüpload. Aangezien afbeeldingen die in Workfront zijn opgeslagen, niet openbaar beschikbaar zijn en een toegangstoets hebben die na een bepaalde periode vervalt, worden deze afbeeldingen niet meer in de weergave weergegeven.
    >* Een afbeelding die op uw computer is opgeslagen, heeft geen inherente URL. Zoek een site die beeldhosting biedt en host uw afbeelding daar. Uw organisatie heeft een dergelijke site mogelijk al.
 
-
 1. Ga in uw webbrowser naar de afbeelding die u hebt opgeslagen.
 1. Verkrijg URL van het beeld door het volgende te doen:
 
@@ -74,14 +73,14 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. Klik met de rechtermuisknop en selecteer **Afbeeldingslocatie kopiëren**, of **Koppeling ophalen**, afhankelijk van uw browser. U hebt nu de URL voor die specifieke afbeelding en kunt deze plakken vanaf het klembord.
+   1. Klik met de rechtermuisknop en selecteer **het beeldplaats van het Exemplaar**, of **krijg verbinding**, afhankelijk van uw browser. U hebt nu de URL voor die specifieke afbeelding en kunt deze plakken vanaf het klembord.
    1. Zorg ervoor dat iedereen met die verbinding toestemmingen heeft om het beeld te bekijken door enkel naar de verbinding te gaan en zij hebben geen login nodig om tot het toegang te hebben.
 
-1. Ga naar een project, klik **Meer** menu ![](assets/more-icon-45x33.png) naast de naam van het project klikt u op **Bewerken**.
+1. Ga naar een project, klik **Meer** menu ![](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
 
-1. In de **URL** , voegt u de koppeling naar de afbeelding toe.
+1. Op het **URL** gebied, voeg de verbinding aan het beeld toe.
 1. Navigeer naar een projectweergave in een lijst of rapport en pas de weergave aan.
-1. Klik op de kop van de kolom voor de **Projectnaam** en klik vervolgens op **Overschakelen naar tekstmodus**.
+1. Klik de kopbal van de kolom voor de **Naam van het Project**, dan klik **Schakelaar aan de Wijze van de Tekst**.
 
 1. Voeg de volgende code aan de kolom aan de bestaande code toe:
 
@@ -135,4 +134,4 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    Het geselecteerde beeld vervangt de Naam van het Project in de projectweergave en het beeld is een verbinding aan het project.
 
-1. Klikken **Weergave opslaan**.
+1. Klik **sparen Mening**.

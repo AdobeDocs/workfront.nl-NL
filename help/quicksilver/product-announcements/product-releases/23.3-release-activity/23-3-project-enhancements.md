@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverhogingen die met versie 23.3 worden gemaakt. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Goedkeuring van nieuwe documenten
 
@@ -29,10 +29,10 @@ In deze eerste versie is het goedkeuringsproces gestroomlijnd voor zowel het mak
 * Goedkeuringsbesluiten rechtstreeks nemen via Mijn updates en startpagina
 * Goedkeuringen maken voor specifieke documentversies
 
-Voor meer informatie over het gebruik van de goedkeuringen voor nieuwe documenten raadpleegt u [Overzicht van goedkeuringen van nieuwe documenten](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+Voor meer informatie bij het gebruiken van de nieuwe documentgoedkeuringen, zie [ het Nieuwe Overzicht van de Goedkeuringen van het Document ](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
 
 ## Knop Nieuw delen
 
 De optie Delen is uit het menu Meer gehaald voor projecten, taken en problemen om delen intuïtiever te maken. De nieuwe knop Delen wordt nu weergegeven naast de naam van een object vlak voor het menu Meer. Het delen van documenten, portfolio&#39;s en programma&#39;s blijft ongewijzigd.
 
-Zie voor meer informatie over het delen van objecten [Een object delen](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
+Voor meer informatie bij het delen van voorwerpen, zie [ een voorwerp ](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html) delen.

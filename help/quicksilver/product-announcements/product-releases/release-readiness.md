@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Voorbereiden op een [!DNL Adobe Workfront] vrijgeven
+title: Bereid voor een  [!DNL Adobe Workfront]  versie voor
 description: Volg deze tips om uw organisatie voor elke nieuwe Workfront-release probleemloos bij te werken.
 author: Becky
 feature: Product Announcements
@@ -14,62 +14,62 @@ ht-degree: 0%
 
 ---
 
-# Voorbereiden op een [!DNL Adobe Workfront] geplande release
+# Een [!DNL Adobe Workfront] geplande release voorbereiden
 
 >[!NOTE]
 >
 >Workfront biedt twee modellen voor de release van nieuwe functies en updates. Uw organisatie kan kiezen of nieuwe functionaliteit op een driemaandelijkse basis, of op een sneller versieschema wordt ontvangen. Het proces om voor een versie voor te bereiden is gelijkaardig, ongeacht het model uw organisatie gebruikt.
 >
->Voor een gedetailleerde uitleg van de twee releasemodellen raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor een gedetailleerde verklaring van de twee versiemodellen, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
 
-[!DNL Adobe Workfront] regelmatig belangrijke updates van de productieomgeving uit te voeren. Als [!DNL Workfront] beheerder, hebt u de kans om ervoor te zorgen dat uw organisatie een vlotte overgang aan elke nieuwe versie van heeft [!DNL Workfront] product.
+[!DNL Adobe Workfront] geeft regelmatig belangrijke updates voor de productieomgeving weer. Als [!DNL Workfront] beheerder hebt u de mogelijkheid om ervoor te zorgen dat uw organisatie een vloeiende overgang naar elke nieuwe versie van het [!DNL Workfront] -product heeft.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Bekijk de onderstaande video voor meer informatie over manieren waarop u zich kunt voorbereiden op een [!DNL Adobe Workfront] vrijgeven.
+Bekijk de onderstaande video voor meer informatie over manieren waarop u een [!DNL Adobe Workfront] -release kunt voorbereiden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
 ## Begrijp het [!DNL Workfront] releaseproces
 
-Voor een gedetailleerde beschrijving van de [!DNL Workfront] releaseproces, zie [[!DNL Adobe Workfront] releaseplanning en -proces](workfront-release-schedule.md).
+Voor een gedetailleerde beschrijving van het [!DNL Workfront] versieproces, zie [[!DNL Adobe Workfront]  versieschema en proces ](workfront-release-schedule.md).
 
-## Voorbereiden op een [!DNL Workfront] vrijgeven
+## Een release van [!DNL Workfront] voorbereiden
 
 >[!TIP]
 >
->U kunt een projectmalplaatje tot stand brengen om het werk te volgen met betrekking tot gepland [!DNL Workfront] lozingen.
+>U kunt een projectmalplaatje tot stand brengen om het werk te volgen met betrekking tot geplande [!DNL Workfront] versies.
 >
->Zie voor meer informatie [Een [!DNL Workfront] project om releasewerkzaamheden bij te houden](#use-a-workfront-project-to-track-release-work) in dit artikel.
+>Voor meer informatie, zie [ Gebruik a  [!DNL Workfront]  project om het werk van de versie ](#use-a-workfront-project-to-track-release-work) in dit artikel te volgen.
 
 
 Wij adviseren dat u enkele of alle volgende acties overweegt die u kunnen helpen uw organisatie voor komende versies voorbereiden:
 
 * [Houd up-to-date met opmerkingen bij releases](#stay-up-to-date-with-release-notes)
-* [Kijk naar de [!DNL Workfront] Aankondigingscentrum](#watch-the-workfront-announcement-center)
-* [Ontdek de [!UICONTROL Preview Sandbox] milieu](#explore-the-preview-sandbox-environment)
+* [Kijk het  [!DNL Workfront]  Centrum van de Aankondiging](#watch-the-workfront-announcement-center)
+* [De [!UICONTROL Preview Sandbox] -omgeving verkennen](#explore-the-preview-sandbox-environment)
 * [De releasewebinar bijwonen](#attend-the-release-webinar)
 * [Feedback op Workfront aanbieden](#offer-feedback-to-workfront)
 
 ### Houd up-to-date met opmerkingen bij releases
 
-Opmerkingen bij de release voor een bepaalde functie worden gepubliceerd wanneer de functie naar uw [!UICONTROL Preview Sandbox] milieu. Op die manier kunt u de functie kennen en verkennen voordat deze deel uitmaakt van uw productieomgeving.
+Opmerkingen bij de release voor een bepaalde functie worden gepubliceerd wanneer de functie naar de [!UICONTROL Preview Sandbox] -omgeving gaat. Op die manier kunt u de functie kennen en verkennen voordat deze deel uitmaakt van uw productieomgeving.
 
 Elke release heeft een overzichtspagina met korte beschrijvingen van elke functie en koppelingen naar diepgaande notities die aanvullende informatie en demo-video&#39;s bevatten. Deze diepgaande nota&#39;s worden georganiseerd door week aangezien de versies aan voorproef voorkomen, en dan door gebied dichter aan de daadwerkelijke de versiedatum van de Productie driemaandelijkse uitgave reorganiseren.
 
 We raden u aan de demo-video&#39;s in de opmerkingen bij de release te bekijken. Deze kunnen bijzonder nuttig zijn om de eigenschap in actie te zien, of voor een snel onderzoek naar de context van de eigenschap als u kort op tijd bent.
 
-Voor koppelingen naar de releaseoverzichten raadpleegt u [Productintroducties](product-releases.md).
+Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product ](product-releases.md).[
 
-### Kijk naar de [!DNL Workfront] Aankondigingscentrum
+### Kijk naar het [!DNL Workfront] Aankondigingscentrum
 
 >[!IMPORTANT]
 >
->Berichten van het Aankondigingscentrum rechtstreeks van [!DNL Workfront] zijn alleen beschikbaar voor [!DNL Workfront] beheerders.
+>De berichten van het Centrum van de aankondiging direct van [!DNL Workfront] zijn beschikbaar slechts aan [!DNL Workfront] beheerders.
 
-Als [!DNL Workfront] beheerder, ontvangt u het bericht van het Centrum van de Aankondiging van [!DNL Workfront] over verschillende aspecten van de release. U ontvangt een bericht van het Aankondigingscentrum wanneer om het even welk van het volgende voorkomt:
+Als [!DNL Workfront] beheerder ontvangt u een bericht van het Aankondigingscentrum van [!DNL Workfront] over verschillende aspecten van de release. U ontvangt een bericht van het Aankondigingscentrum wanneer om het even welk van het volgende voorkomt:
 
 * Nieuwe functies zijn beschikbaar in de productieomgeving
 * Functies die worden vrijgegeven voor Voorvertoning, worden vrijgegeven voor de geplande release.
@@ -78,36 +78,36 @@ Als [!DNL Workfront] beheerder, ontvangt u het bericht van het Centrum van de Aa
 
 >[!TIP]
 >
->Zorg ervoor dat u informatie over nieuwe versies ontvangt door &quot;[!UICONTROL New releases]&quot; in uw [!UICONTROL Announcement Center] instellingen.
+>Zorg ervoor dat u informatie over nieuwe releases ontvangt door &quot;[!UICONTROL New releases]&quot; in de [!UICONTROL Announcement Center] -instellingen uit te schakelen.
 >
->Zie voor meer informatie [Abonnement op berichten van het Aankondigingscentrum opzeggen](../announcements/unsubscribe-from-ac-messages.md).
+>Voor meer informatie, zie [ Unsubscribe van de Berichten van het Centrum van de Aankondiging ](../announcements/unsubscribe-from-ac-messages.md).
 
 
-### Ontdek de [!UICONTROL Preview Sandbox] milieu
+### De [!UICONTROL Preview Sandbox] -omgeving verkennen
 
-De [!UICONTROL Preview Sandbox] milieu, ook bekend als [!UICONTROL Preview] milieu, dient als milieu waar de gebruikers in uw organisatie veilig met een afzonderlijke exemplaar van uw gegevens van het milieu van de Productie kunnen testen en werken. [!UICONTROL Workfront] geeft gewoonlijk nieuwe eigenschappen en functionaliteit de milieu van de Voorproef minstens twee weken uit alvorens zij aan het milieu van de Productie worden vrijgegeven. U hebt de kans om met deze eigenschappen vertrouwd te maken alvorens zij in de dagelijkse werkschema&#39;s van uw gebruikers worden vrijgegeven. Als uw gebruikers dan problemen hebben met het gebruik van de nieuwe functies, kunt u ze gemakkelijker helpen zich aan te passen.
+De [!UICONTROL Preview Sandbox] -omgeving, ook wel de [!UICONTROL Preview] -omgeving genoemd, fungeert als een omgeving waarin gebruikers in uw organisatie uw gegevens veilig kunnen testen en met een aparte kopie van de gegevens uit de productieomgeving kunnen werken. [!UICONTROL Workfront] geeft doorgaans ten minste twee weken nieuwe functies en functionaliteit vrij in de voorvertoningsomgeving     voordat zij in de productieomgeving worden gebracht. U hebt de kans om met deze eigenschappen vertrouwd te maken alvorens zij in de dagelijkse werkschema&#39;s van uw gebruikers worden vrijgegeven. Als uw gebruikers dan problemen hebben met het gebruik van de nieuwe functies, kunt u ze gemakkelijker helpen zich aan te passen.
 
 >[!TIP]
 >
 >We raden u aan de voorvertoningsomgeving te gebruiken om functies te testen en te leren voordat deze worden vrijgegeven voor uw productieomgeving.
 
-Wanneer een functie wordt losgelaten naar de omgeving van de voorvertoningssandbox, [!DNL Workfront] de documentatie wordt bijgewerkt om de nieuwe functionaliteit te omvatten. U kunt naar het toepasselijke artikel zoeken of koppelingen naar de documentatie in de opmerkingen bij de release volgen.
+Wanneer een functie naar de omgeving van de voorvertoningssandbox wordt uitgebracht, wordt de documentatie van [!DNL Workfront] bijgewerkt met de nieuwe functionaliteit. U kunt naar het toepasselijke artikel zoeken of koppelingen naar de documentatie in de opmerkingen bij de release volgen.
 
-Voor meer informatie over de [!UICONTROL Preview Sandbox] milieu, zie [De [!DNL Adobe Workfront] [!UICONTROL Preview Sandbox] milieu](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Voor meer informatie over het [!UICONTROL Preview Sandbox] milieu, zie [ het  [!DNL Adobe Workfront] [!UICONTROL Preview Sandbox] milieu ](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### De releasewebinar bijwonen
 
-[!DNL Workfront] gastheren een Verlenen Webinar kort voor sommige versies. Hier, [!DNL Workfront] het productteam verklaart en toont nieuwe eigenschappen en functionaliteit, en kan vragen van die het bijwonen beantwoorden.
+In [!DNL Workfront] wordt kort voor sommige releases een releasewebinar gehost. Hier geeft het productteam van [!DNL Workfront] uitleg en demonstreert nieuwe functies en functionaliteit en kan het vragen beantwoorden van aanwezigen.
 
-Release-webinars worden aangekondigd via de [!DNL Workfront] Aankondigingscentrum. Registratiekoppelingen vindt u op de overzichtspagina van de release.
+Release-webinars worden aangekondigd via het [!DNL Workfront] Aankondigingscentrum. Registratiekoppelingen vindt u op de overzichtspagina van de release.
 
-Voor koppelingen naar de releaseoverzichten raadpleegt u [Productintroducties](product-releases.md).
+Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product ](product-releases.md).[
 
 ### Feedback op Workfront aanbieden
 
 Sommige nieuwe functies hebben mogelijk de knop Feedback geven. We houden rekening met deze feedback wanneer we de functie voorbereiden op productie.
 
-Neem bovendien contact op met de ondersteuning van Workfront als er een probleem is opgetreden of als u een probleem hebt met nieuwe functies. Zie voor meer informatie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Neem bovendien contact op met de ondersteuning van Workfront als er een probleem is opgetreden of als u een probleem hebt met nieuwe functies. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 
@@ -124,11 +124,11 @@ Aangezien u zich voorbereidt om versieinformatie aan uw gebruikers mee te delen,
 
 * Interne nieuwsbrieven
 * E-mail
-* Berichten van het Centrum van de Aankondiging (door:sturen van [!DNL Workfront] of gemaakt door u)
-* Aankondigingen over samenwerkingsgereedschappen, zoals [!DNL Slack] of [!DNL Microsoft Teams]
+* Berichten in het Aankondigingscentrum (doorgestuurd vanuit [!DNL Workfront] of gemaakt door u)
+* Mededelingen over samenwerkingsgereedschappen, zoals [!DNL Slack] of [!DNL Microsoft Teams]
 * Interne webinars of training
 
-U kunt de balans kiezen tussen [!DNL Workfront] bronnen (zoals documentatie, releaseopmerkingen en training) met informatie die beter is afgestemd op de behoeften en workflows van uw organisatie. Als u gebruikers laat zien hoe nieuwe functies hun werk kunnen verbeteren of tijd en energie kunnen besparen, kunnen uw gebruikers de wijzigingen omarmen, maar u kunt tijd besparen door de demo&#39;s of documentatie te gebruiken die al beschikbaar zijn via [!DNL Workfront].
+U kunt de balans tussen [!DNL Workfront] -bronnen (zoals documentatie, releaseopmerkingen en training) kiezen met informatie die beter is afgestemd op de behoeften en workflows van uw organisatie. Als u gebruikers laat zien hoe nieuwe functies hun werk kunnen verbeteren of tijd en energie kunnen besparen, kunnen uw gebruikers de wijzigingen omarmen, maar u kunt tijd besparen door de demo&#39;s of documentatie te gebruiken die al beschikbaar zijn via [!DNL Workfront] .
 
 In tijd, zult u de mededeling erkennen die voor uw organisatie het meest effectief is. We raden u aan uw processen te documenteren, het succes te beoordelen en uw communicatie voor de volgende release te verfijnen.
 
@@ -136,9 +136,9 @@ In tijd, zult u de mededeling erkennen die voor uw organisatie het meest effecti
 
 Wanneer het verzamelen van informatie over de versie, kunt u besluiten dat uw gebruikers niet voor een nieuwe eigenschap klaar zijn. In dit geval kunt u lay-outsjablonen gebruiken om te beperken wat uw gebruikers zien, zodat ze de nieuwe functie niet kunnen tegenkomen en gebruiken. Wanneer uw gebruikers over voldoende communicatie en training voor de nieuwe functie beschikken, kunt u de lay-outsjabloon bijwerken en de functie beschikbaar maken.
 
-Zie voor informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-## Een [!DNL Workfront] project om releasewerkzaamheden bij te houden
+## Een [!DNL Workfront] -project gebruiken om releasewerk bij te houden
 
 We raden u aan een project voor uw account te maken om ervoor te zorgen dat uw organisatie klaar is voor de nieuwe release. Hier kunt u taken maken voor elke workflow of elk aspect van [!DNL Workfront] dat u wilt testen in de voorvertoningsomgeving. Door u te concentreren op uw workflows, gaat u nieuwe functies in overweging nemen die bestaande workflows kunnen wijzigen en begrijpen welke workflows niet worden beïnvloed. U kunt taken uitvoeren zoals:
 

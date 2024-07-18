@@ -19,7 +19,7 @@ Het proces om timesheets goed te keuren geeft managers zichtbaarheid in de werku
 
 Adobe Workfront biedt de mogelijkheid om timesheet-goedkeuringen te configureren voor ondersteuning op dit gebied.
 
-Voor informatie bij het voorleggen van een timesheet, zie [Een tijdschema ter goedkeuring indienen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+Voor informatie bij het voorleggen van een timesheet, zie [ een timesheet voor goedkeuring ](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) voorleggen.
 
 ## Toegangsvereisten
 
@@ -50,23 +50,23 @@ Meestal worden timesheets goedgekeurd door functionele managers of personeel. (T
 
 Er wordt een fiatteur voor het tijdlijnprofiel gedefinieerd. U moet een licentie voor het abonnement hebben die u als fiatteur wilt opgeven.
 
-Voor meer informatie over het bepalen van timesheet fiatteurs, zie de sectie [Een tijdbladprofiel maken of bewerken](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in het artikel [Werkbladprofielen maken, bewerken en toewijzen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Voor meer informatie over het aanwijzen van timesheet fiatteurs, zie de sectie [ creeer of geef een timesheet profiel ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in artikel [ uit, geef, en wijs timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 
 ## Een tijdschema goedkeuren
 
-U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet ter goedkeuring wordt voorgelegd, is timesheet vermeld in **Goedkeuringen** gebied op uw **Home**  pagina. Zie voor meer informatie [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md).
+U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in het **goedkeurt** gebied op uw **Huis**  pagina. Voor meer informatie, zie [ het goedkeuren van het werk ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Zie voor informatie over het inschakelen van gebeurtenismeldingen [Typen gebeurtenismeldingen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Voor informatie over het toelaten van gebeurtenisberichten, zie [ de berichttypes van de Gebeurtenis ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Een tijdschema goedkeuren:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
-1. Klikken **Timesheets**.
-1. Selecteer de **Goedkeuringen van mijn tijdsplaat** in de rechterbovenhoek van de pagina om alleen de door u goedgekeurde tijdbladen weer te geven
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik **Tijdopnemers**.
+1. Selecteer **Mijn Goedkeuringen van het Tijdoppervlak** in de hoger-juiste hoek van de pagina om slechts timesheets te bekijken die u goedkeurt
 
    of
 
-   Selecteer de **Goedkeuringen van mijn tijdsplaat** boven aan de lijst met tijdlijnen.
+   Selecteer de **Mijn Goedkeuringen van de Chronologie** filter bij de bovenkant van de timesheet lijst.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -76,24 +76,24 @@ Een tijdschema goedkeuren:
    >
    >   
    >   
-   >   * [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Optioneel) Klik op de knop **zoeken** pictogram ![](assets/search-icon.png) bij de bovenkant van de timesheet lijst en typ een sleutelwoord om van specifieke timesheet de plaats te bepalen. U kunt zoeken naar een tijdkader of de naam van een eigenaar of fiatteur.
+1. (Facultatief) klik het **onderzoek** pictogram ![](assets/search-icon.png) bij de bovenkant van de timesheet lijst en typ een sleutelwoord om van specifieke timesheet de plaats te bepalen. U kunt zoeken naar een tijdkader of de naam van een eigenaar of fiatteur.
 1. Klik het tijdkader voor timesheet u wilt goedkeuren. De tijdpagina wordt geopend.
 
    >[!TIP]
    >
-   >Tijdschema&#39;s die nog moeten worden goedgekeurd, hebben de status [!UICONTROL Submitted].
+   >Tijdschema&#39;s die nog moeten worden goedgekeurd, hebben de status [!UICONTROL Submitted] .
 
 
-1. Klikken **Goedkeuren**
+1. Klik **goedkeuren**
 
    of
 
-   Als u de tijdpagina wilt afwijzen, klikt u op **Afwijzen** in de linkerbenedenhoek van het tijdblad.
+   Als u timesheet wilt verwerpen, klik **Weigeren** in de laag-linkerhoek van timesheet.
 
-   Indien goedgekeurd, verandert de timesheet-status in **Gesloten**.
+   Indien goedgekeurd, verandert de chronologiestatus in **Gesloten**.
 
-   Indien afgewezen, verandert de status van de tijdpagina in **Geweigerd**.
+   Indien verworpen, verandert de chronologiestatus in **Verworpen**.

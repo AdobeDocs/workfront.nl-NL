@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta 1 releaseactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.2 bèta 1-release. De functionaliteit is op 22 maart 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
+title: 2018.2 Beta 1-releaseactiviteit
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 1-release van 2018.2. De functionaliteit is op 22 maart 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta 1 releaseactiviteit
+# 2018.2 Beta 1-releaseactiviteit
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.2 bèta 1-release. De functionaliteit is op 22 maart 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 1-release van 2018.2. De functionaliteit is op 22 maart 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
 
 >[!IMPORTANT]
 >
 >De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u [Overzicht van releaseactiviteiten 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2018.2 worden aangebracht, zie [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-De 2018.2 bèta 1-release bevat de volgende verbeteringen:
+De Beta 1-release van 2018.2 bevat de volgende verbeteringen:
 
-* [Taakdatums wijzigen in Gantt-diagram](#modify-task-dates-in-the-gantt-chart)
-* [Open de Grafiek van de Gantt van het Project van het Lusje van Updates](#access-the-project-gantt-chart-from-the-updates-tab) (Tijdelijk verwijderd)
+* [ wijzig de Datums van de Taak in de Grafiek van Gantt ](#modify-task-dates-in-the-gantt-chart)
+* [ heb toegang tot de Grafiek van Gantt van het Project van het Lusje van Updates ](#access-the-project-gantt-chart-from-the-updates-tab) (tijdelijk Verwijderd)
 
-* [Verschillende koppelingen worden opnieuw geïntroduceerd in documenten in de documentlijst](#various-links-re-introduced-to-documents-on-the-document-list)
-* [Verbeteringen in de weergave van gebruikers in de functie Bronnen](#user-view-improvements-in-the-resource-planner)
-* [Nieuwe ervaring voor projectlijst](#new-project-list-experience)
-* [Nieuw tabblad Zoeken naar updates](#new-look-for-updates-tab)
+* [ Diverse Verbindingen opnieuw geïntroduceerd aan Documenten op de Lijst van het Document ](#various-links-re-introduced-to-documents-on-the-document-list)
+* {de Verbeteringen van de Mening van 0} Gebruiker in de Planner van het Middel ](#user-view-improvements-in-the-resource-planner)[
+* [ Nieuwe Ervaring van de Lijst van het Project ](#new-project-list-experience)
+* [ Nieuw zoek het Lusje van Updates ](#new-look-for-updates-tab)
 * [Mobiele verbeteringen](#mobile-improvements)
 
 ## Taakdatums wijzigen in Gantt-diagram {#modify-task-dates-in-the-gantt-chart}
@@ -41,7 +41,7 @@ U kunt nu de taakballon slepen om de Geplande Begin en Geplande Aantal van de Vo
 
 Voordat u deze wijziging aanbrengt, kunt u de taakdatums alleen in de takenlijst of op taakniveau wijzigen.
 
-Zie voor meer informatie [Informatie bijwerken in de Gantt-grafiek van de takenlijst](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Voor meer informatie, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Open de Grafiek van de Gantt van het Project van het Lusje van Updates {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ U kunt tot de nieuwe grafiek van projectwantt van de Updates nu toegang hebben t
 
 Vóór deze verandering, opende de verbinding van de Chronologie van het Project de Oudere Grafiek van Gantt.
 
-Zie voor meer informatie [Overzicht van datum vastleggen](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Voor meer informatie, zie [ Overzicht van de Datum van het Vastleggen ](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Zie voor meer informatie [Overzicht van Portfolio optimaliseren](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Voor meer informatie, zie [ Portfolio Optimizer overzicht ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Verschillende koppelingen worden opnieuw geïntroduceerd in documenten in de documentlijst {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -95,7 +95,7 @@ De volgende functionaliteit is tijdelijk uitgeschakeld in de bronnenplanner:
 
 Voorafgaand aan deze verbeteringen, hebt u gemeld dat de Planner van het Middel langzaam te laden was en dat u incongruenties in de getoonde gegevens had opgemerkt. Deze verbeteringen moeten nu worden opgeheven.
 
-Voor meer informatie over de gebieden van de Planner van het Middel, zie [Overzicht van de navigatie in de bronnenplanner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor meer informatie over de gebieden van de Planner van het Middel, zie [ het navigatieoverzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -119,12 +119,12 @@ De wijzigingen zijn grotendeels van invloed op de snelheid en efficiëntie van d
 
 De volgende functies zijn tijdelijk uitgeschakeld in de opgegeven projectlijsten:
 
-* Kolomgrootte wijzigen (deze functionaliteit is opnieuw geïntroduceerd in de bètaversie 2018.2 van 2018.2)
+* Kolomgrootte wijzigen (deze functie is opnieuw geïntroduceerd in de Beta 5-release van 2018.2)
 * Kolom opnieuw ordenen
-* Statuspictogramvelden worden als leeg weergegeven (deze functionaliteit is opnieuw geïntroduceerd in de bètaversie 2018.2 van 2018.2)
-* Het Gantt-diagram is niet toegankelijk (deze functionaliteit is opnieuw geïntroduceerd in de 2018.2 Beta 3-release.)
+* Statuspictogramvelden worden als leeg weergegeven (deze functionaliteit is opnieuw geïntroduceerd in de Beta 5-release van 2018.2)
+* Het Gantt-diagram is niet toegankelijk (deze functionaliteit is opnieuw geïntroduceerd in de Beta 3-release van 2018.2.)
 
-Zie voor meer informatie over het werken in lijsten [Aan de slag met lijsten in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor meer informatie over het werken in lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Nieuw tabblad Zoeken naar updates {#new-look-for-updates-tab}
 
@@ -143,10 +143,10 @@ In de volgende tabel worden de wijzigingen weergegeven die op het tabblad Update
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Taak</strong> </p> </th> 
-   <th> <p><strong>Vorige gebruikershandeling</strong> </p> </th> 
-   <th> <p><strong>Nieuwe gebruikershandeling</strong> </p> </th> 
-   <th> <p><strong>Zie voor meer informatie...</strong> </p> </th> 
+   <th> <p><strong> Taak </strong> </p> </th> 
+   <th> <p><strong> Vorige gebruikersactie </strong> </p> </th> 
+   <th> <p><strong> Nieuwe gebruikersactie </strong> </p> </th> 
+   <th> <p><strong> voor meer informatie, zie.. </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -154,43 +154,43 @@ In de volgende tabel worden de wijzigingen weergegeven die op het tabblad Update
    <td> <p>Registratietijd op een timesheet</p> </td> 
    <td> <p>Klik op de koppeling Logtijd</p> </td> 
    <td> <p>Klik op de knop Logtijd</p> </td> 
-   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Logtijd</a> </p> </td> 
+   <td> <p><a href="../../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref"> tijd van het Logboek </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Systeemupdates filteren op het tabblad Updates</p> </td> 
    <td> <p>Klik op de koppeling Updates filtersysteem</p> </td> 
    <td> <p>De schakeloptie Activiteitenlogboek weergeven uitschakelen</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> het werk van de Update </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Systeemupdates weergeven op het tabblad Updates</p> </td> 
    <td> <p>Klik op Alle updates tonen</p> </td> 
    <td> <p>De schakeloptie Activiteitenlogboek weergeven inschakelen</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> het werk van de Update </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Andere gebruikers een tag toewijzen aan een update of opmerking</p> </td> 
    <td> <p>Klik op het pictogram Andere elementen opnemen in deze update</p> </td> 
    <td> <p>Gebruikers en teams toevoegen in het veld Waarschuwen</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> het werk van de Update </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Alleen gebruikers binnen uw bedrijf een object laten weergeven</p> </td> 
    <td> <p>Klik op het pictogram Vergrendelen</p> </td> 
    <td> <p>Privé aan Mijn Bedrijf toestaan knevel</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref"> Tags anderen op updates </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gebruikers buiten uw bedrijf toestaan een object te bekijken</p> </td> 
    <td> <p>Klik op het pictogram Vergrendelen</p> </td> 
    <td> <p>Privé aan Mijn Bedrijf onbruikbaar maken knevel</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref"> Tags anderen op updates </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Een antwoord toevoegen of bijwerken aan een opmerking of update</p> </td> 
    <td> <p>Klik op de knop Opmerking</p> </td> 
    <td> <p>Klik op de knop Reageren of Update</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Taakstatus bijwerken</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Voorwaarde voor bijwerken voor taken en problemen</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Een update toevoegen aan een document</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> het werk van de Update </a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref"> de taakstatus van de Update </a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref"> Voorwaarde van de Update voor taken en kwesties </a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref"> voeg een update aan een document toe </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ De mobiele app bevat de volgende verbeteringen:
 
   Zie voor meer informatie over het delen van koppelingen.
 
-  Deze update wordt soms deze week vrijgegeven naar iOS en de Android-update zal kort daarna volgen.
+  Deze update wordt soms deze week vrijgegeven aan iOS en de Android-update zal kort daarna volgen.
 
 * We hebben onze supportvereisten voor het iOS-platform bijgewerkt om iPhone X te ondersteunen.
 

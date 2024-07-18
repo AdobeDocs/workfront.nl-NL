@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: Niet eerder voltooien dan'''
+title: '''Overzicht van taakbeperking: op ''Geen eerdere manier voltooien'''
 description: Eindigen Neen vroeger dan (FNET) is een Restrictie van de Taak die een taak plant na de datum te voltooien u specificeert.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Overzicht van taakbeperking: Niet eerder voltooien dan
+# Overzicht van taakbeperking: voltooien niet eerder dan
 
 Eindigen Neen vroeger dan (FNET) is een Restrictie van de Taak die een taak plant na de datum te voltooien u specificeert.
 
@@ -23,22 +23,24 @@ Eindigen Neen vroeger dan (FNET) is een Restrictie van de Taak die een taak plan
 Overweeg het volgende wanneer het gebruiken van Eindig Nr. vroeger dan (FNET) beperking voor een taak:
 
 * U zou deze beperking moeten gebruiken wanneer het project van de Datum van de Voltooiing gepland is. In dit geval, kunt u een zachte beperking op de taak verstrekken alvorens andere afhankelijke taken te dwingen om bij Risico te tonen.
-* Wanneer u FNET op een gepland project gebruikt **Vanaf begindatum**, dan plant de beperking de taak zoals het het zou plannen als de beperking zo spoedig mogelijk was.
+* Wanneer u FNET op een project gebruikt dat **van Datum van het Begin** wordt gepland, dan plant de beperking de taak aangezien het het zou plannen als de beperking zo spoedig mogelijk was.
 * Wanneer u een taak met een beperking FNET aan een ander project beweegt of kopieert, zou de beperking van de taak of de data van het project afhankelijk van kunnen veranderen wat de beperkingsdatums zijn en wat de Datums van het Begin en van de Voltooiing van het project zijn. De volgende scenario&#39;s bestaan:
 
    * Wanneer het bestemmingsproject van Begin wordt gepland:
 
       * Wanneer de beperkingsdatum van de taak vroeger is dan de geplande begindatum van het project, verandert de taakbeperking in zo snel mogelijk.
       * Wanneer de beperkingsdatum van de taak later is dan de geplande de VoltooiingsDatum van het project, verandert de geplande Datum van de Voltooiing van het project om de voltooiingsbeperkingsdatum van de taak aan te passen.
+
    * Wanneer het bestemmingsproject van Voltooiing wordt gepland:
 
       * Wanneer de beperkingsdatum van de taak later is dan de Datum van de Voltooiing van het Project, verandert de taakbeperking in zo laat mogelijk.
       * Wanneer de beperkingsdatum van de taak vroeger is dan de Geplande Datum van het Begin van het project, verandert de Geplande Datum van het Begin van het project om de beginbeperkingsdatum van de taak aan te passen.
+
    * Ongeacht het programma van het project, wanneer de beperkingsdatum van de taak binnen de Datums van het Begin en van de Voltooiing van het project is, zijn er geen veranderingen in de Beperking van de Taak of de projectdata.
 
-   Voor informatie over het verplaatsen van taken raadpleegt u [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken raadpleegt u [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Voor informatie over het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-   Voor informatie over hoe te om de Beperking van de Taak op een taak bij te werken, zie [Werk de Beperking van de Taak van een taak bij](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

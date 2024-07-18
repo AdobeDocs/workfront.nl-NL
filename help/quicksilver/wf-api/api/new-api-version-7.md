@@ -9,7 +9,7 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
   <tr> 
    <th>Velden</th> 
    <th>Verwijzingen</th> 
-   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Verzamelingen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Verzamelingen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">++++ </p> </th> 
    <th>Zoeken</th> 
    <th>Handelingen</th> 
    <th>Zoekopdrachten</th> 
@@ -222,11 +222,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| updateType<sup>1</sup> |   |   |   |   |   |   |
+| updateType <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden 
+<sup> 1 </sup> Veranderingen in mogelijke waarden 
 
  
 
@@ -235,16 +235,16 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
+| approvalStartDate <sup> 1 </sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
 {style="table-layout:auto"}
 
  
 
-### AccessRule<sup>1</sup>
+### AccessRule <sup> 1 </sup>
 
-<sup>1</sup> Gemarkeerd als te rapporteren
+<sup> 1 </sup> Gemarkeerd als rapporteerbaar
 
  
 
@@ -258,7 +258,7 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
   
 
-### Goedkeuringspad<sup>1</sup>
+### De Weg van de goedkeuring <sup> 1 </sup>
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
@@ -268,7 +268,7 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Te rapporteren vlag verwijderd
+<sup> 1 </sup> Te rapporteren vlag Verwijderde
 
  
 
@@ -282,9 +282,9 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Datum van validatie toegevoegd
+<sup> 1 </sup> Toegevoegde Bevestiging van de Datum
 
-<sup>2</sup> Niet_filterbare vlag toegevoegd
+<sup> 2 </sup> toegevoegde niet_Filterable vlag
 
  
 
@@ -292,13 +292,13 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnprojects<sup>1</sup> |   |   |
-|   |   |   |   | swapUsersOnProjecten<sup>1</sup> |   |   |
-|   |   |   |   | unassignUserFromprojects<sup>1</sup> |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects <sup> 1 </sup> |   |   |
+|   |   |   |   | swapUsersOnprojects <sup> 1 </sup> |   |   |
+|   |   |   |   | unassignUserFromprojects <sup> 1 </sup> |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> IncludeIssues toegevoegd veld
+<sup> 1 </sup> Toegevoegd gebied includeIssues
 
  
 
@@ -306,11 +306,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
+| bizRuleExclusions <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden 
+<sup> 1 </sup> Veranderingen in mogelijke waarden 
 
  
 
@@ -353,7 +353,7 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Gewijzigde PRECISION-validator voor 8-9
+<sup> 1 </sup> Veranderde validator van de PRECISIE voor 8 tot 9
 
  
 
@@ -375,11 +375,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| changeType<sup>1</sup> |   |   |   |   |   |   |
+| changeType <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in mogelijke Waarden
 
  
 
@@ -455,11 +455,11 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| workRequired<sup>1</sup> |   |   |   |   |   |   |
+| workRequired <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Tekst gewijzigd van Int in Double 
+<sup> 1 </sup> Type veranderde van Int in Dubbel 
 
  
 
@@ -497,9 +497,9 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">planningDeactivationDate</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}"> planningDeactivationDate </span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}"> timesheetProfileHourTypes </span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -566,4 +566,4 @@ Wijzigingen in bestaande objecten: toevoegingen worden gewoon weergegeven, verwi
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in mogelijke Waarden

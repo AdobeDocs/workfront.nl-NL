@@ -39,16 +39,16 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang weergeven of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
@@ -62,12 +62,12 @@ U kunt statische, video- of interactieve proefdrukken maken.
 
 Een proefdruk maken:
 
-1. Ga naar het project, de taak, of de kwestie waar u het proef wilt, dan klik **Documenten** sectie.
-1. Houd de cursor boven het document en klik vervolgens op de knop **Proef maken** koppeling die onder de documentnaam wordt weergegeven.
+1. Ga naar het project, de taak, of de kwestie waar u de proef wilt, dan klik de **sectie van Documenten**.
+1. Beweeg over het document, dan klik **creeer de verbinding van het Bewijs** die onder de documentnaam verschijnt.
 
    >[!NOTE]
    >
-   >Als u **Automatisch proefdrukken genereren bij het uploaden van documenten** in uw gebruikersprofiel is ingeschakeld, maakt het systeem automatisch een eenvoudige proefdruk.
+   >Als u **hebt produceren automatisch proeven wanneer het uploaden van documenten** toegelaten in uw gebruikersprofiel, leidt het systeem automatisch tot een eenvoudige proef.
 
 1. Kies een van de volgende opties:
 
@@ -77,14 +77,14 @@ Een proefdruk maken:
     <tbody> 
      <tr> 
       <td role="rowheader">Eenvoudige proefdruk</td> 
-      <td>Met deze optie maakt u een proefdruk zonder workflow en past u de standaardproefdrukinstellingen toe. U kunt de standaardproefmontages bijwerken of een werkschema toevoegen nadat u de proef hebt gecreeerd. Voor meer informatie over proefdrukinstellingen raadpleegt u <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Proefdrukinstellingen bewerken</a>.</td> 
+      <td>Met deze optie maakt u een proefdruk zonder workflow en past u de standaardproefdrukinstellingen toe. U kunt de standaardproefmontages bijwerken of een werkschema toevoegen nadat u de proef hebt gecreeerd. Voor meer informatie over proefdrukmontages, zie <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref"> proefdrukmontages </a> uitgeven.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Geavanceerde proefdruk</td> 
+      <td role="rowheader">Geavanceerd proefdrukken</td> 
       <td> <p>Met deze optie kunt u een basisworkflow of een geavanceerde workflow configureren en proefdrukinstellingen wijzigen voor de proefdruk die u maakt. Zie voor meer informatie </p> 
        <ul> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Een geavanceerde proefdruk maken met een standaardworkflow</a> </p> </li> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Een geavanceerde proefdruk maken met een geautomatiseerde workflow</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref"> creeer een geavanceerd bewijs met een Basiswerkschema </a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref"> creeer een geavanceerd bewijs met een Geautomatiseerd werkschema </a> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -98,15 +98,15 @@ Zodra u een bewijs hebt gecreeerd, kunt u dingen als doen
 * Revisoren en deadlines bijwerken
 * De workflow bewerken
 
-Ga voor meer informatie over het beheren van een bestaande proefdruk naar [Proefbestanden beheren in Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
+Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [ proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
 
-## Een bewijs controleren
+## Een proefafdruk controleren
 
-Toegewezen revisoren kunnen dingen als
+Toegewezen revisoren kunnen dingen doen zoals
 
 * Het element weergeven en opmerkingen maken
 * Handelingen toevoegen aan opmerkingen
 * Versies vergelijken
 * Het bewijs goedkeuren of afwijzen
 
-Ga voor meer informatie over wat u kunt doen met het proefdrukprogramma naar [Proefversies bekijken in Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

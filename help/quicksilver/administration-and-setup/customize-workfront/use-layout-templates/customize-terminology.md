@@ -34,14 +34,14 @@ Nadat u een lay-outsjabloon hebt opgeslagen waarin u de terminologie hebt gewijz
 >[!NOTE]
 >
 >* In het gebied Outlook Add-in worden de aangepaste labels niet weergegeven.
->* Er kunnen grammatica en andere problemen optreden wanneer u labels aanpast. Als u bijvoorbeeld &quot;Issue&quot; wijzigt in &quot;Request&quot;, kunnen er plaatsen in de gebruikersinterface zijn waar de uitdrukking &quot;An request&quot; wordt weergegeven. Zie voor meer informatie [Implicaties van het aanpassen van objectnamen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) in het artikel [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+>* Er kunnen grammatica en andere problemen optreden wanneer u labels aanpast. Als u bijvoorbeeld &quot;Issue&quot; wijzigt in &quot;Request&quot;, kunnen er plaatsen in de gebruikersinterface zijn waar de uitdrukking &quot;An request&quot; wordt weergegeven. Voor meer informatie, zie [ Implicaties van het aanpassen van objecten namen ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) in het artikel [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen
 >
 
-Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -62,24 +62,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## De terminologie van de gebruikersinterface aanpassen
 
-1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klikken **Terminologie instellen** in de rechterbovenhoek van de pagina.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik **Vastgestelde Terminologie** dichtbij de hoger-juiste hoek van de pagina.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik op de pijl-omlaag als u een andere term van Workfront wilt gebruiken  ![](assets/dropdown-arrow.png) naast het label klikt u op het gewenste alternatieve label in de vervolgkeuzelijst.
+   * Als u een andere term wilt gebruiken die door Workfront wordt geboden, klikt u op de pijl-omlaag ![](assets/dropdown-arrow.png) naast het label en klikt u vervolgens op het alternatieve label dat u in de vervolgkeuzelijst wilt gebruiken.
 
      >[!NOTE]
      >
      >Alternatieve labels in de vervolgkeuzelijsten worden ondersteund in versies van Workfront die zijn gelokaliseerd voor niet-Engelse talen.
 
-   * Als u uw eigen aangepaste alternatief wilt opgeven voor het label dat voor een object wordt weergegeven, klikt u op **Aangepaste naam instellen** rechts van het label typt u vervolgens het **Enkelvoudig** en **meervoudig** vormen van de aangepaste term. U kunt op **Herstellen** als je van gedachten verandert.
+   * Om uw eigen douanealternatief voor het etiket te verstrekken dat voor een voorwerp wordt getoond, klik **Vastgestelde douanenaam** rechts van het etiket, dan typ de **Enkelvoudige** en **Plurale** vormen van de douaneterm. U kunt **Terugstellen** klikken als u uw mening verandert.
 
      U kunt de volgende objectnamen aanpassen:
 
@@ -100,7 +100,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
           <p>Resultaat</p>
           <p>Activiteit</p>
          </ul></td>
-        <td><p>Zie voor meer informatie over deze objecten <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objecten in Adobe Workfront begrijpen</a>.</p></td>
+        <td><p>Voor meer informatie over deze voorwerpen, zie <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref"> voorwerpen in Adobe Workfront </a> begrijpen.</p></td>
        </tr>
        <tr>
         <td role="rowheader"><p>Objecten Workfront Goals</p></td>
@@ -110,7 +110,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
           <p>Resultaat</p>
           <p>Activiteit</p>
          </ul></td>
-        <td><p>Voor deze objecten is een extra licentie vereist. Zie voor meer informatie <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Overzicht van Adobe Workfront-doelen</a>.</p></td>
+        <td><p>Voor deze objecten is een extra licentie vereist. Voor meer informatie, zie <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref"> overzicht van de Doelen van Adobe Workfront </a>.</p></td>
        </tr>
        <tr data-mc-conditions="">
         <td role="rowheader"><p>Workfront Scenario Planner-objecten</p></td>
@@ -120,12 +120,12 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
           <p>Scenario</p>
           <p>Plan </p>
          </ul></td>
-        <td><p>Voor deze objecten is een extra licentie vereist. Zie voor meer informatie <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Aan de slag met de functie Scenario Planner</a>.</p></td>
+        <td><p>Voor deze objecten is een extra licentie vereist. Voor informatie, zie <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref"> begonnen worden met de Planner van het Scenario </a>.</p></td>
        </tr>
       </tbody>
      </table>
 
-1. Als u klaar bent, klikt u op **Gereed**.
+1. Wanneer u wordt gebeëindigd, klik **Gedaan**.
 
    >[!TIP]
    >
@@ -135,7 +135,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **Opslaan**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen**.
 
 1. Om uw terminologiewijzigingen te zien:
 
@@ -146,4 +146,4 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    >
    >Dit is ook vereist voor iedereen die de lay-outsjabloon heeft gebruikt voordat u de terminologiewijzigingen aanbrengt.
 
-Voor meer informatie over lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.

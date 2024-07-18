@@ -1,5 +1,5 @@
 ---
-title: Uitgebreide KPI's voor analysemogelijkheden begrijpen
+title: Uitgebreide analyse-KPI's begrijpen
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ---
 
-# Uitgebreide KPI&#39;s voor analysemogelijkheden begrijpen
+# Uitgebreide analyse-KPI&#39;s begrijpen
 
 >[!IMPORTANT]
 >
 >Een bedrijfsplan of hoger is vereist om deze functie te kunnen gebruiken.\
->Voor meer informatie over de verschillende beschikbare plannen raadpleegt u [Adobe Workfront-plannen](https://www.workfront.com/plans).
+>Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Adobe Workfront ](https://www.workfront.com/plans).
 
 Boven aan het scherm in het gedeelte Enhanced Analytics worden vier KPI&#39;s (Key Performance Indicators) weergegeven. Deze metriek staat u toe om snel te begrijpen hoe lang projecten nemen, hoe groot de projecten zijn, en hoeveel projecten binnen een specifiek tijdkader worden voltooid. Deze aantallen zijn niet beperkt tot het 50 projectmaximum dat voor de visualisaties op deze pagina toont. In plaats daarvan, is dit gegeven gebaseerd op alle projecten die op om het even welke vastgestelde filters van toepassing zijn, en deze aantallen passen als u de geselecteerde datumwaaier of om het even welke filters verandert.
 
-Ga voor meer informatie over het toevoegen van filters naar [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+Leren hoe te om filters toe te voegen, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 ## Voltooide projecten
 
@@ -39,7 +39,7 @@ De projecten die tijdig zijn voltooid, geven het percentage van de projecten bin
 
 ## Gem. projectduur
 
-Het gemiddelde. De projectduur KPI toont de gemiddelde hoeveelheid voltooiingstijd-in dagen, weken, of jaar-voor projecten met daadwerkelijke einddata binnen de gefilterde tijdspanne, evenals hoe het percentage sinds de vorige tijdspanne steeg of daalde. Onder deze aantallen, kunt u de gemiddelde hoeveelheid voltooiingstijd voor projecten met daadwerkelijke einddata in de vorige tijdspanne zien, evenals het aantal dagen in de vorige tijdspanne.
+Het Gem. De projectduur KPI toont de gemiddelde hoeveelheid voltooiingstijd-in dagen, weken, of jaar-voor projecten met daadwerkelijke einddata binnen de gefilterde tijdspanne, evenals hoe het percentage sinds de vorige tijdspanne steeg of daalde. Onder deze aantallen, kunt u de gemiddelde hoeveelheid voltooiingstijd voor projecten met daadwerkelijke einddata in de vorige tijdspanne zien, evenals het aantal dagen in de vorige tijdspanne.
 
 ![](assets/kpi-avg.-project-duration-350x168.png)
 

@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
 source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voorbeelden van aangepaste velden met meerdere selecties zijn:
 * Selectievakjes
 * Meerdere vervolgkeuzemenu&#39;s selecteren
 
-Zie het artikel voor informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [ ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Als het echter niet mogelijk is afzonderlijke velden te hebben voor elke optie van een veld met meerdere selecties, kunt u een rapport aan de hand van een aangepast veld met meerdere selecties weergeven door berekende aangepaste velden te gebruiken om de keuzen van het veld met meerdere selecties eerst te groeperen. Daarna, kunt u het rapport door de berekende gebieden in kaart brengen.
 
@@ -55,20 +55,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
-Voordat u begint, moet u een berekend aangepast veld maken waarin de waarden worden weergegeven die in het aangepaste veld voor meerdere selecties zijn geselecteerd. Zie voor meer informatie de [Een berekend aangepast veld maken dat verwijst naar een aangepast veld met meerdere selecties](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in dit artikel.
+Voordat u begint, moet u een berekend aangepast veld maken waarin de waarden worden weergegeven die in het aangepaste veld voor meerdere selecties zijn geselecteerd. Voor informatie, zie [ een berekend douanegebied bouwen dat verwijzingen een multi-uitgezochte sectie van het douanegebied ](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) in dit artikel.
 
 ## Een rapport weergeven op basis van meerdere geselecteerde aangepaste velden
 
@@ -78,7 +78,7 @@ Voordat u begint, moet u een berekend aangepast veld maken waarin de waarden wor
 
 U kunt geen grafiek in een rapport bouwen door naar een multi-select douanegebied van verwijzingen te verwijzen. In plaats daarvan kunt u een berekend veld maken waarmee de waarden van het aangepaste veld voor meerdere selecties voor een bepaald object en een bepaalde groep worden vastgelegd in het berekende veld. 
 
-* [Een berekend aangepast veld maken dat verwijst naar een aangepast veld met meerdere selecties](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
+* [ bouwt een berekend douanegebied dat verwijzingen een multi-uitgezochte douanegebied ](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [Bouw een grafiek die verwijzingen een berekend douanegebied](#build-a-chart-that-references-a-calculated-custom-field)
 
 ### Een berekend aangepast veld maken dat verwijst naar een aangepast veld met meerdere selecties {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
@@ -86,7 +86,7 @@ U kunt geen grafiek in een rapport bouwen door naar een multi-select douanegebie
 Als u een berekend veld wilt maken dat verwijst naar een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
 
 * Een aangepast veld met meerdere selecties in een aangepast formulier.\
-  Zie het artikel voor informatie over het maken van aangepaste formulieren en het toevoegen van aangepaste velden aan deze formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [ creeer of geef een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
 
 * Een aangepast formulier waaraan het aangepaste veld voor meerdere selecties is gekoppeld.
 * Waarden voor het aangepaste veld met meerdere selecties voor elk object.
@@ -95,16 +95,16 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
 1. Een aangepast formulier maken of een bestaand formulier bewerken.
 
-   Zie voor informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 1. Selecteer het object of de objecten die u wilt gebruiken voor het aangepaste formulier.
-1. Klikken **Veld toevoegen** vervolgens **Berekend** om het aangepaste veld voor meerdere selecties toe te voegen aan het formulier.
+1. Klik **toevoegen een Gebied**, dan **Berekend** om het multi-uitgezochte douanegebied aan de vorm toe te voegen.
 
-1. In de **Label** geeft u het nieuwe berekende veld een naam om aan te geven dat het naar het aangepaste veld voor meerdere selecties verwijst.
+1. In het **vakje van het Etiket**, noem het nieuwe berekende gebied om erop te wijzen dat het multi-select douanegebied van verwijzingen voorziet.
 
    Bijvoorbeeld: &quot;Berekend veld voor meerdere selecties.&quot;
 
-1. In de **Berekening** voert u de volgende code in:
+1. In het **vakje van de Berekening**, ga de volgende code in:
 
    `{DE:Multi-select Custom Field}`
 
@@ -114,36 +114,36 @@ U kunt als volgt het berekende aangepaste veld bouwen dat verwijst naar het aang
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Optioneel) Als het aangepaste veld voor meerdere selecties al op dit formulier staat en als dit formulier al aan objecten is gekoppeld, schakelt u het selectievakje **Vorige berekeningen bijwerken (op de achtergrond)** -optie.
+1. (Facultatief) als multi-uitgezochte douanegebied reeds op deze vorm is en als deze vorm reeds aan voorwerpen in bijlage is, laat de **Update vorige berekeningen (op de achtergrond)** optie toe.
 
    Dit zorgt ervoor dat het nieuwe berekende veld automatisch wordt gevuld met de waarde uit het aangepaste veld voor meerdere selecties, aangezien dit veld wordt toegevoegd aan de formulieren die al aan de objecten zijn gekoppeld.
 
-1. Klikken **Gereed**.
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **Gedaan**.
+1. Klik **sparen + Sluiten**.
 
    Het berekende aangepaste veld wordt toegevoegd aan het aangepaste formulier en als het formulier momenteel aan objecten is gekoppeld, wordt in het veld informatie uit het aangepaste veld met meerdere selecties ingevuld.
 
 ### Bouw een grafiek die verwijzingen een berekend douanegebied {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Optioneel) Als u wilt dat alle berekende velden waarop u een diagram wilt maken, worden gevuld met waarden, selecteert u op het tabblad Details van het rapport alle objecten die het aangepaste formulier bevatten met zowel het aangepaste veld voor meerdere selecties als het berekende aangepaste veld en klikt u vervolgens op **Bewerken**.
-1. (Optioneel en voorwaardelijk) Selecteer de optie **Aangepaste expressies opnieuw berekenen** veld, klik vervolgens op **Wijzigingen opslaan**.\
+1. (Facultatief) om ervoor te zorgen dat alle berekende gebieden die u door wilt in kaart brengen met waarden bevolkt zijn, van het lusje van Details van het rapport selecteert alle voorwerpen die de douanevorm met zowel het multi-uitgezochte douanegebied als het berekende douanegebied bevatten, dan klik **geeft** uit.
+1. (Facultatief en voorwaardelijk) selecteer **opnieuw berekend het gebied van de Uitdrukkingen van de Douane**, dan klik **sparen Veranderingen**.\
    ![](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Deze optie is verwijderd uit het bulksgewijs bewerken van projecten.  U kunt expressies voor projecten in bulk nog steeds opnieuw berekenen door op de knop **Meer** pictogram ![](assets/more-icon-45x33.png) boven aan een projectlijst, dan **Expressies opnieuw berekenen**.
+   >Deze optie is verwijderd uit het bulksgewijs bewerken van projecten.  U kunt uitdrukkingen voor projecten in massa nog opnieuw berekenen door **Meer** pictogram ![](assets/more-icon-45x33.png) bij de bovenkant van een projectlijst te klikken, dan **opnieuw te berekenen Uitdrukkingen**.
 
 1. Ga naar het rapport waar u de grafiek voor het berekende gebied wilt toevoegen dat multi-select douaneveld van verwijzingen voorziet.
-1. Klikken **Handelingen rapporteren** vervolgens **Bewerken**.
+1. Klik **de Acties van het Rapport**, dan **uitgeven**.
 
-1. Selecteer de <strong>Groepen</strong> tab, en klik vervolgens op <strong>Groepering toevoegen</strong>.
-1. Voeg de <strong>Berekend multiselect veld</strong> hebt u als groep gemaakt.
-1. Selecteer de <strong>Diagram</strong> en voeg een grafiek aan uw rapport toe.
+1. Selecteer het <strong> lusje van Groepen </strong>, dan klik <strong> groepering </strong> toevoegen.
+1. Voeg het <strong> Berekende Multi-uitgezochte Gebied </strong> toe u als uw groepering creeerde.
+1. Selecteer het <strong> lusje van de Grafiek </strong>, en voeg een grafiek aan uw rapport toe.
 
-   Kies bijvoorbeeld een **Kolom** grafiek.
-   <br>Voor informatie over het toevoegen van een grafiek aan een rapport, zie de sectie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Een diagram toevoegen aan een rapport</a> in het artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Een aangepast rapport maken</a>.
-1. In de **Onderste (X) as** veld selecteert u de <strong>Berekend multiselect veld</strong> in het diagram weer te geven.
-1. Klikken <strong>Opslaan + Sluiten</strong>.
+   Bijvoorbeeld, kies a **Kolom** grafiek.
+   <br> voor informatie over het toevoegen van een grafiek aan een rapport, zie de sectie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref"> een grafiek aan een rapport </a> in het artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref"> een douanerapport </a> creëren.
+1. Op het **Onderste (X) gebied van de As**, selecteer het <strong> Berekende Multi-uitgezochte Gebied </strong> om in de grafiek te tonen.
+1. Klik <strong> sparen + Sluiten </strong>.
 
    Het rapport toont de resultaten die door het Berekende Multi-uitgezochte Gebied in een grafiek worden gegroepeerd.
 

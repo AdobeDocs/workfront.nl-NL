@@ -28,8 +28,8 @@ U kunt aan de verslagen van de Planning van Adobe Workfront samenwerken, door co
 
 In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
-* **Opmerkingen**: Hiermee geeft u opmerkingen en antwoorden weer die gebruikers aan records toevoegen.
-* **Historie**: Hiermee geeft u door het systeem opgenomen wijzigingen weer die gebruikers in de recordvelden aanbrengen. Zie voor meer informatie [Overzicht van de sectie Historie](/help/quicksilver/planning/records/history-section-overview.md).
+* **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe.
+* **Geschiedenis**: De systeem-geregistreerde veranderingen van vertoningen die de gebruikers aan de verslaggebieden aanbrengen. Voor meer informatie, zie [ het sectieoverzicht van de Geschiedenis ](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Toegangsvereisten
 
@@ -73,14 +73,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen voor een werkruimte weergeven of vergroten</a> </p>  
+   <td> <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -95,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * U kunt opmerkingen toevoegen aan Workfront Planning-records die zijn gemaakt als gevolg van een verbinding tussen een record en een object uit een andere toepassing.
 
-  Bijvoorbeeld, kunt u op het verslag van de Planning van Workfront van het Project commentaar geven nadat u de projecten van Workfront met de verslagen van de Planning van Workfront verbindt. Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+  Bijvoorbeeld, kunt u op het verslag van de Planning van Workfront van het Project commentaar geven nadat u de projecten van Workfront met de verslagen van de Planning van Workfront verbindt. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 * Opmerkingen die zijn toegevoegd aan gekoppelde objecten in andere toepassingen, worden niet weergegeven in Workfront Planning en opmerkingen die zijn toegevoegd aan gekoppelde objecten in Workfront Planning worden niet weergegeven in andere toepassingen.
 
@@ -130,14 +130,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op een opnametype.
 De recordtypepagina wordt geopend en alle records van dat type worden weergegeven.
 
-1. Kies een tabelweergave in het menu **Weergave** vervolgkeuzelijst.
+1. Kies een lijstmening van het **drop-down menu van de Mening**.
 1. Klik op de naam van een record in de tabelweergave.
 
-   De record **Details** pagina wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
+   De 1} pagina van de Details van het verslag **{opent.** Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 
-1. (Voorwaardelijk) Als het rechterdeelvenster niet standaard wordt geopend, klikt u op de knop **Opmerkingen tonen** ![](assets/show-comments-icon.png) in de rechterbovenhoek om de sectie Opmerkingen te openen.
+1. (Voorwaardelijk) als het juiste paneel niet door gebrek opent, klik **toon Commentaren** ![](assets/show-comments-icon.png) pictogram in de hoger-juiste hoek om de sectie van Commentaren te openen.
 
-1. Beginnen met een opmerking in het dialoogvenster **Nieuwe opmerking** doos.
+1. Begin een commentaar in de **Nieuwe commentaardoos** in te gaan.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -148,11 +148,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. (Optioneel) Als u een wijziging ongedaan wilt maken of opnieuw wilt uitvoeren, gebruikt u de volgende sneltoetsen:
    * CTRL + Z ( ⌘+z voor Mac) om een wijziging ongedaan te maken
    * CTRL + Y ( ⌘+y voor Mac) om een wijziging opnieuw uit te voeren
-1. (Optioneel) Toevoegen **@** gevolgd door de naam van een gebruiker om iemand in de update van tags te voorzien.
+1. (Optioneel) Voeg **@** toe, gevolgd door de naam van een gebruiker, om een tag toe te wijzen aan iemand in de update.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Zie de sectie &#39;Rijke tekst gebruiken in een Workfront-update&#39; in het artikel voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optioneel) Gebruik de opties op de werkbalk RTF om de tekst op te maken, emoties, koppelingen of afbeeldingen aan de update toe te voegen om de inhoud te verbeteren. Voor meer informatie, zie de &quot;Rijke Tekst van het Gebruik in een update van Workfront&quot;sectie in het artikel [ werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. Klikken **Verzenden** om de update toe te voegen aan de record.
-1. (Optioneel) Als u een opmerking wilt bewerken, klikt u op **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking klikt u op **Bewerken**.
+1. Klik **voorleggen** om de update aan het verslag toe te voegen.
+1. (Facultatief) om een commentaar uit te geven, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
    >[!IMPORTANT]
    >
@@ -175,32 +175,32 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
    >
    >Opmerkingen van het lopende jaar worden niet in het datumstempel weergegeven. Als u de muis boven een tijdstempel houdt, wordt de volledige datum weergegeven, inclusief het jaar.
 
-1. (Optioneel en voorwaardelijk) Als u naar een bestaande opmerking wilt zoeken, typt u een trefwoord in het zoekvak rechtsboven in het dialoogvenster **Opmerkingen** gebied.
+1. (Facultatief en voorwaardelijk) aan onderzoek naar een bestaande commentaar, begin een sleutelwoord in het onderzoeksvakje in de hoger-juiste hoek van het **gebied van Commentaren** te typen.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Optioneel) Klik op **Antwoord** of u begint een opmerking te typen in het dialoogvenster **Antwoord toevoegen...** om te reageren op een bestaande opmerking, volgt u stap 4-8 hierboven. <!--(**************accurate??***********)-->
+1. (Facultatief) klik **Reageren** of beginnen een commentaar in **te typen toevoegt antwoord...** gebied, om op een bestaande commentaar te antwoorden, dan stappen 4-8 hierboven te volgen. <!--(**************accurate??***********)-->
 
-1. (Voorwaardelijk en optioneel) Als andere gebruikers opmerkingen hebben toegevoegd die buiten het zichtbare gebied in de sectie Opmerkingen worden weergegeven terwijl u uw opmerkingen toevoegde, klikt u op **Weergave** in de **banner voor nieuwe opmerkingen** onder aan het scherm om deze opmerkingen weer te geven.
+1. (Voorwaardelijk en facultatief) als andere gebruikers commentaren hebben toegevoegd die buiten het zichtbare gebied in de sectie van Commentaren tonen terwijl u uw commentaren toevoegde, **Mening** binnen de **nieuwe commentaarbanner** bij de bodem van het scherm klikken om deze commentaren te tonen.
 
    ![](assets/new-comments-banner-on-record.png)
 
    Aanvullende opmerkingen worden onder in het scherm weergegeven.
 
-1. (Optioneel) Klik op de knop **leuk** gebruiken om een update te volgen of te bevestigen dat u deze hebt gelezen. Het pictogram wordt bijgewerkt met het aantal ‘like’.
+1. (Facultatief) klik het **als** pictogram om van een update te houden of te erkennen dat u het leest. Het pictogram wordt bijgewerkt met het aantal ‘like’.
 1. (Voorwaardelijk en optioneel) Als u extra personen hebt toegevoegd aan uw opmerking, klikt u op de avatars van de gebruikers die zijn opgenomen in de update om een lijst weer te geven met gebruikers waarmee de opmerking wordt gedeeld.
-1. (Optioneel) Klik op de knop **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik op een van de volgende opties om informatie van een opmerking te kopiëren:
+1. (Facultatief) klik **Meer** pictogram ![](assets/more-menu.png) in de hoger-juiste hoek van de commentaar en klik één van de volgende opties, om een informatie van een commentaar te kopiëren:
 
-   * **Koppeling kopiëren**: Hiermee wordt een koppeling naar de opmerking naar het klembord gekopieerd.
-   * **Platte tekst kopiëren**: Hiermee wordt de tekst van de opmerking naar het klembord gekopieerd.
-   * **Offerteantwoord**: Hiermee kopieert u de inhoud van uw opmerking naar een nieuw antwoord. Afbeeldingen worden niet opgenomen in het gekopieerde antwoord.
+   * **verbinding van het Exemplaar**: Dit kopieert een verbinding aan de commentaar aan uw klembord.
+   * **het lichaamstekst van het Exemplaar**: Dit kopieert de tekst van de commentaar aan uw klembord.
+   * **het antwoord van het Citaat**: Dit kopieert de inhoud van uw commentaar in een nieuw antwoord. Afbeeldingen worden niet opgenomen in het gekopieerde antwoord.
 
-   Zie voor meer informatie [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optioneel) Klik op de knop **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking klikt u op **Verwijderen** om de opmerking te verwijderen.
-1. (Optioneel) Klik op de knop **Opmerkingen verbergen** pictogram ![](assets/hide-comments-icon.png) om het rechterdeelvenster te sluiten.
+   Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optioneel) Klik op het **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik vervolgens op **Verwijderen** om de opmerking te verwijderen.
+1. (Optioneel) Klik op het **pictogram ![](assets/hide-comments-icon.png) Opmerkingen verbergen** om het rechterdeelvenster te sluiten.
 
 ## Overzicht van de sectie Historie
 
 U kunt de wijzigingen in de record controleren in de sectie Historie van het rechterdeelvenster van een record.
 
-Zie voor meer informatie [Overzicht van de sectie Historie](/help/quicksilver/planning/records/history-section-overview.md).
+Voor meer informatie, zie [ het sectieoverzicht van de Geschiedenis ](/help/quicksilver/planning/records/history-section-overview.md).

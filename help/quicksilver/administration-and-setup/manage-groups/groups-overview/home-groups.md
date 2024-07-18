@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Overzicht van thuisgroepen
 
-Er wordt een thuisgroep toegewezen in het profiel van de gebruiker. Alle gebruikers hebben een startgroep nodig. Een gebruiker kan tot meer dan één groep behoren, maar zij kunnen slechts één Groep van het Huis hebben. Voor meer informatie over Groepen, zie [Overzicht van groepen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Er wordt een thuisgroep toegewezen in het profiel van de gebruiker. Alle gebruikers hebben een startgroep nodig. Een gebruiker kan tot meer dan één groep behoren, maar zij kunnen slechts één Groep van het Huis hebben. Voor meer informatie over Groepen, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 Hoewel om het even welke bestaande groep in het systeem als Groep van het Huis van een gebruiker kan worden toegewezen, adviseren wij het creëren van en het toewijzen van nieuwe groepen die grotere organisatorische eenheden vertegenwoordigen.
 
@@ -31,11 +31,9 @@ Houd bij het instellen van thuisgroepen rekening met de verdeling van Adobe Work
 >[!NOTE]
 >
 >Als u uw Thuisgroepen moet reorganiseren in organisatorische eenheden, moet u>
->1. Maak de nieuwe groep, zoals wordt uitgelegd in [Een groep maken](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
->1. Wijs de nieuwe groep opnieuw toe als de Thuisgroep van de gebruiker, zoals uitgelegd in [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
+>1. Creeer de nieuwe groep, zoals verklaard in [ creeer een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+>1. Wijs de nieuwe groep als Groep van het Huis van de gebruiker opnieuw toe, zoals die in [ wordt verklaard geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
 >
-
 
 ## Lay-outsjabloonbeheer
 
@@ -43,7 +41,7 @@ Wanneer u een lay-outsjabloon toewijst aan een groep, kunnen alle gebruikers waa
 
 Als er een lay-outsjabloon is toegewezen aan een thuisgroep, is dit alleen zichtbaar voor gebruikers die zijn toegewezen aan die thuisgroep.
 
-Zie voor meer informatie [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor meer informatie, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) in [ creëren en leiden lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Licentiebeheer
 
@@ -53,4 +51,4 @@ Workfront-beheerders hebben de mogelijkheid om het maximale aantal licenties voo
 
 Als u een maximale hoeveelheid licenties instelt, kunnen Workfront-beheerders voorkomen dat een bedrijfseenheid Workfront-licenties gebruikt die zijn aangeschaft voor andere bedrijfseenheden.
 
-Zie voor meer informatie [Beschikbare licenties in uw systeem beheren](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Voor meer informatie, zie [ beschikbare vergunningen in uw systeem ](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Uw organisatie moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] zodat u de informatie over een initiatief kunt bekijken over een project. Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie [Toegang nodig om de [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+>Uw organisatie moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] , zodat u de informatie over initiatieven in een project kunt bekijken. Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
 Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast elkaar beheren om ervoor te zorgen zij aanpassen. Hiermee vermijdt u overmatige of onderbenutte toewijzingen.
 
-In dit artikel wordt beschreven hoe u bronnen met behulp van de [!UICONTROL Role Allocation] in de takenlijst van een project.
+In dit artikel wordt beschreven hoe u bronnen kunt combineren met het deelvenster [!UICONTROL Role Allocation] in de takenlijst van een project.
 
-Zie voor algemene informatie over het in overeenstemming brengen van middelen tussen projecten en initiatieven, inclusief voorwaarden [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Toegangsvereisten
 
@@ -34,51 +34,51 @@ U moet het volgende doen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
    <td>[!UICONTROL Business] of hoger</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licentie*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> license* </b> </p> </td> 
    <td> <p>[!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
-   <td> <p>U moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] voor toegang tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Toegang nodig om de [!DNL Scenario Planner]</a>. </p> </td> 
+   <td><b> Product </b> </td> 
+   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configuraties op toegangsniveau*</strong> </td> 
-   <td> <p>[!UICONTROL View] of betere toegang tot projecten </p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!UICONTROL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!UICONTROL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
+   <td> <p>[!UICONTROL View] of betere toegang tot projecten </p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!UICONTROL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!UICONTROL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
-   <td> <p>[!UICONTROL View] of hogere machtigingen voor het project</p> <p>Voor informatie over het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Toegang aanvragen tot een abonnement in de [!DNL Scenario Planner]</a>.</p> <p>Voor informatie over het vragen van om extra toegang tot een project, zie <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>. </p> </td> 
+   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+   <td> <p>[!UICONTROL View] of hogere toestemmingen aan het project</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> <p>Voor informatie over het vragen van om extra toegang tot een project, zie <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst
 
-Als uw bedrijf een [!DNL Workfront Scenario Planner] vergunning, kunt u de middeltoewijzingen tussen het initiatief en het project met betrekking tot het in [!UICONTROL Tasks] van het project.
+Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft, kunt u de brontoewijzingen afstemmen tussen het initiatief en het project dat eraan is gekoppeld in het [!UICONTROL Tasks] -gedeelte van het project.
 
-1. (Voorwaardelijk) Verbind een project met een initiatief gebruikend één van de methodes die in [Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst](#Connect) van dit artikel.
+1. (Voorwaardelijk) verbind een project met een initiatief gebruikend één van de methodes die in [ worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst ](#Connect) van dit artikel.
 
    >[!IMPORTANT]
    >
    >Als u middelen op het initiatief verandert, moet u het scenario opnieuw publiceren dat het initiatief tot behoort opdat de recentste middelinformatie van het initiatief over het project kan bijwerken.
 
 1. Ga naar het project waar u de toewijzing van baanrollen voor het project evenals voor het bijbehorende initiatief wilt herzien.
-1. Klikken **[!UICONTROL Tasks]** in het linkerdeelvenster.
-1. Klik op de knop **[!UICONTROL Show role allocation]** pictogram ![](assets/show-role-allocation-icon.png) in de rechterbovenhoek van de werkbalk.
+1. Klik op **[!UICONTROL Tasks]** in het linkerdeelvenster.
+1. Klik op het pictogram **[!UICONTROL Show role allocation]** ![](assets/show-role-allocation-icon.png) rechtsboven op de werkbalk.
 
-   De [!UICONTROL Role Allocation] wordt weergegeven.
+   Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-1. Controleer de volgende informatie in het dialoogvenster **[!UICONTROL Project Totals]** gebied van de [!UICONTROL Role Allocation] paneel:
+1. Controleer de volgende informatie in het gebied **[!UICONTROL Project Totals]** van het deelvenster [!UICONTROL Role Allocation] :
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,7 +103,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] vergunning, kunt u de midde
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Variance]</td> 
-      <td> <p>Het verschil tussen de voor het initiatief vereiste uren en de geplande uren voor de werkzaamheden aan het project. [!DNL Workfront] berekent de [!UICONTROL Variance] aan de hand van deze formule:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wanneer de middelen voor meer uren zijn gepland dan voor het initiatief vereist is, [!UICONTROL Variance] is negatief en wordt rood weergegeven. Dit betekent dat uw middelen worden oververdeeld. </p> </td> 
+      <td> <p>Het verschil tussen de voor het initiatief vereiste uren en de geplande uren voor de werkzaamheden aan het project. [!DNL Workfront] berekent de [!UICONTROL Variance] aan de hand van de volgende formule:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wanneer bronnen langer dan vereist voor het initiatief gepland zijn, is de waarde van [!UICONTROL Variance] negatief en wordt deze in rood weergegeven. Dit betekent dat uw middelen worden oververdeeld. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,26 +116,26 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] vergunning, kunt u de midde
    >   
    >   * Wanneer taken of kwesties niet aan baanrollen worden toegewezen, of gebruikers met een baanrol verbonden aan hen.
    >   * Wanneer de taken of de kwesties een Duur van nul hebben.
+   >   
+   >
 
 
 
-
-1. (Optioneel) Als de [!UICONTROL Variance] in de kolom wordt aangegeven dat uw bronnen zijn oververdeeld, past u een van de volgende opties aan:
+1. (Optioneel) Als in de kolom [!UICONTROL Variance] wordt aangegeven dat uw bronnen zijn oververdeeld, past u een van de volgende opties aan:
 
    * Verlaag het aantal Geplande Uren voor één baanrol die overtoegewezen toont of meer middelen aan de taken toevoegt en meer Geplande Uren aan de nieuwe middelen verdeelt. U kunt toewijzingen of het aantal geplande uren voor taken of problemen bijwerken wanneer u deze bewerkt. Zie de volgende artikelen voor meer informatie:
 
-      * [Taken bewerken](../manage-work/tasks/manage-tasks/edit-tasks.md)
+      * [ geef taken ](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
       * [Problemen bewerken](../manage-work/issues/manage-issues/edit-issues.md)
 
-      >[!NOTE]
-      >
-      >U moet over aanvullende toegang en machtigingen beschikken om taken en problemen te kunnen bewerken.
+     >[!NOTE]
+     >
+     >U moet over aanvullende toegang en machtigingen beschikken om taken en problemen te kunnen bewerken.
 
-   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Zie voor meer informatie [Initiatieven maken en bewerken in het dialoogvenster [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
+   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [ initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
 
-      >[!NOTE]
-      >
-      >U moet over extra toegang en toestemmingen beschikken om plannen uit te geven.
-
+     >[!NOTE]
+     >
+     >U moet over extra toegang en toestemmingen beschikken om plannen uit te geven.
 
 

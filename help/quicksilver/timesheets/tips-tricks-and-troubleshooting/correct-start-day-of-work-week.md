@@ -9,7 +9,7 @@ feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Probleem
 
-De begindag van de week op mijn timesheet komt niet overeen met de begindag van de week die op mijn timesheet-profiel is geconfigureerd (zoals beschreven in [Werkbladprofielen maken, bewerken en toewijzen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+De begindag van de week op mijn timesheet past niet de begindag van de week aan die op mijn timesheet profiel (zoals die in [ wordt beschreven creeert, geeft uit, en wijst timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.)
 
 ## Oplossing
 
@@ -32,9 +32,9 @@ De wijziging van de landinstelling heeft geen invloed op de begindag van de week
 
 Hier volgt een overzicht van de aanwijzingen voor het wijzigen van de taal- en landinstellingen voor verschillende browsers die worden ondersteund door Workfront.
 
-* **Chroom:** Kopieer en plak de volgende koppeling in uw Chrome-browser: `chrome://settings/languages` ga vervolgens naar Talen.
-* **Firefox:**Kopieer en plak de volgende koppeling in uw Firefox-browser: `about:preferences#content` ga vervolgens naar Talen.
-* **IE 11:** Gereedschappen -> Internetopties -> Algemeen -> Talen
-* **Safari:** Helaas is het met Safari niet mogelijk webbrowseringstalen te wijzigen zonder ook de taal van het besturingssysteem te wijzigen. Het is waarschijnlijk gemakkelijker om een andere browser zoals Chrome of Firefox te installeren.
+* **Chrome:** Kopieer en kleef de volgende verbinding in uw browser van Chrome: `chrome://settings/languages` ga dan naar Talen.
+* **Firefox:**Kopieer en plak de volgende koppeling naar uw Firefox-browser: `about:preferences#content` ga vervolgens naar Talen.
+* **IE 11:** Hulpmiddelen -> de Opties van Internet -> Algemeen -> Talen
+* **Safari:** Jammer genoeg, staat Safari niet veranderende Web het doorbladeren talen toe zonder ook uw volledige werkend systeemtaal te veranderen. Het is waarschijnlijk gemakkelijker om een andere browser, zoals Chrome of Firefox, te installeren.
 
  

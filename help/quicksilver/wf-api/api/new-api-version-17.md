@@ -9,7 +9,7 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -205,13 +205,13 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een bepaald moment uitzagen. Ze slaan belangrijke informatie over het project op, zoals belangrijke data, voortgang, kosten en inkomstenwaarden.
 
-Het object Baseline heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Basislijn verwijderde de vlag **INLINE_EDITABLE**.
 
 ### Factureringsrecord (BILL)
 
 Een object BillingRecord registreert de inkomsten, uren of kosten die in rekening kunnen worden gebracht. Deze informatie kan worden gebruikt om facturen op te stellen in een extern boekhoudsysteem.
 
-Het object BillingRecord heeft de vlag verwijderd **INLINE_EDITABLE**.
+Het voorwerp BillingRecord verwijderde de vlag **INLINE_EDITABLE**.
 
 <!--
 
@@ -234,7 +234,7 @@ Een object Company vertegenwoordigt een organisatie die bestaat uit een verzamel
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b> defaultInterface </b>
             </p>
             <p>Verwijderd</p>
           </li>
@@ -257,7 +257,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b> naam </b>
             </p>
             <p>De mogelijke waarde "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p? toegevoegd?<p>Hierdoor kan een organisatie de nieuwe Home-ervaring als standaard voor haar gebruikers instellen.</p>
           </li>
@@ -280,12 +280,12 @@ Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestan
       <td>
         <ul>
           <li>
-            <p><b>externalIntegrationType</b>
+            <p><b> externalIntegrationType </b>
             </p>
             <p>De mogelijke waarde Frame.io (FRAMEIO) is toegevoegd</p>
           </li>
           <li>
-            <p><b>fileType</b>
+            <p><b> fileType </b>
             </p>
             <p>De mogelijke waarde "enum.filetype.site" (site) toegevoegd</p>
           </li>
@@ -328,7 +328,7 @@ Een ExchangeRate-object vertegenwoordigt een wisselkoers die in Workfront is ing
 
 De kosten vertegenwoordigen de niet-loonkosten die tijdens de looptijd van een project kunnen worden gemaakt.
 
-Het object Expense heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Kosten verwijderde de vlag **INLINE_EDITABLE**.
 
 ### Groep (GROEP)
 
@@ -343,7 +343,7 @@ Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenw
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b> defaultInterface </b>
             </p>
             <p>Verwijderd</p>
           </li>
@@ -357,13 +357,13 @@ Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenw
 
 Een voorwerp van het Uur vertegenwoordigt een uur dat door een gebruiker op timesheet wordt geregistreerd.
 
-Het object Hour heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van het Uur verwijderde de vlag **INLINE_EDITABLE**.
 
 ### Iteratie (ITRN)
 
 Een Iteration-object vertegenwoordigt één Agile Iteration. Herhalingen zijn discrete tijdsperiodes die worden gebruikt om artikelen van het type Agile te plannen en te voltooien.
 
-Het object Iteration heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Herhaling verwijderde de vlag **INLINE_EDITABLE**.
 
 
 ### JournalEntry (JRNLE)
@@ -379,7 +379,7 @@ Het object JournalEntry kan worden ingesteld om informatie over specifieke objec
       <td>
         <ul>
           <li>
-            <p><b>changeType</b>
+            <p><b> changeType </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -395,7 +395,7 @@ Het object JournalEntry kan worden ingesteld om informatie over specifieke objec
               <li>Revisor gewijzigd (ARC)</li>
               <li>Evaluatie voltooid (RDC)</li>
               <li>Herziening ingetrokken (RDR)</li>
-              <li>Publiceren (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -408,7 +408,7 @@ Het object JournalEntry kan worden ingesteld om informatie over specifieke objec
 
 Een Kanban-bord wordt gebruikt om taken in een behendige omgeving bij te houden.
 
-Het Kanban Board-object heeft de vlag verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Raad Kanban verwijderde de vlag **INLINE_EDITABLE**.
 
 
 ### LinkedFolder (LNKFDR)
@@ -424,7 +424,7 @@ Een object LinkedFolder vertegenwoordigt een map die is gekoppeld vanuit een ext
       <td>
         <ul>
           <li>
-            <p><b>externalIntegrationType</b>
+            <p><b> externalIntegrationType </b>
             </p>
             <p>Toegevoegde mogelijke waarde "Frame.io (FRAMEIO)</p>
           </li>
@@ -438,13 +438,13 @@ Een object LinkedFolder vertegenwoordigt een map die is gekoppeld vanuit een ext
 
 Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werkpunt dat gewoonlijk wijst op een probleem verhinderend de voltooiing van een taak of een project. Een probleem kan ook een verzoek van de Helpdesk zijn. Wijzigingsorders, verzoeken en bugs zijn ook problemen.
 
-Het object Issue heeft de vlag verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Uitgave verwijderde de vlag **INLINE_EDITABLE**.
 
 ### Project (PROJ)
 
 Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen voor de manier waarop Workfront mensen helpt om te werken. Een voorwerp van het Project vertegenwoordigt een groep taken met een gemeenschappelijk, specifiek doel.
 
-Het object Project heeft de vlag verwijderd **INLINE_EDITABLE**.
+Het voorwerp van het Project verwijderde de vlag **INLINE_EDITABLE**.
 
 ### ProjectUser (PRTU)
 
@@ -459,7 +459,7 @@ Een voorwerp ProjectUser vertegenwoordigt een gebruiker verbonden aan een specif
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -471,7 +471,7 @@ Een voorwerp ProjectUser vertegenwoordigt een gebruiker verbonden aan een specif
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -493,7 +493,7 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 Een object Rate vertegenwoordigt een factureringssnelheid in Workfront.
 
-Het object Rate heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van het Tarief verwijderde de vlag **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -508,7 +508,7 @@ Het object Rate heeft de markering verwijderd **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>De <b>setRatesForRole</b> Actie is gewijzigd om de volgende velden toe te voegen:
+        <p>De <b> setRatesForRole </b> actie is gewijzigd om de volgende gebieden toe te voegen:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -523,7 +523,7 @@ Het object Rate heeft de markering verwijderd **INLINE_EDITABLE**.
 
 Een object Risk vertegenwoordigt een mogelijke gebeurtenis die kan voorkomen dat een project op tijd of binnen het budget wordt voltooid. Er worden in de planningsfase risico&#39;s toegevoegd aan projecten om potentiële obstakels te identificeren voordat eventuele werkzaamheden worden goedgekeurd.
 
-Het object Risk heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van het Risico verwijderde de vlag **INLINE_EDITABLE**.
 
 ### Rol/Taakrol (ROLE)
 
@@ -538,7 +538,7 @@ Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaa
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b> defaultInterface </b>
             </p>
             <p>Verwijderd</p>
           </li>
@@ -552,7 +552,7 @@ Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaa
 
 Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het bereiken van een definitief doel (het voltooien van een Project) moet worden uitgevoerd.
 
-Het taakobject heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Taak verwijderde de vlag **INLINE_EDITABLE**.
 
 ### Team (TEAMOB)
 
@@ -567,7 +567,7 @@ Een voorwerp van het Team is een inzameling van Gebruikers die aan een het werkp
       <td>
         <ul>
           <li>
-            <p><b>defaultInterface</b>
+            <p><b> defaultInterface </b>
             </p>
             <p>Verwijderd</p>
           </li>
@@ -590,7 +590,7 @@ Een voorwerp TeamMember is een gebruiker verbonden aan een specifiek team.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -602,7 +602,7 @@ Een voorwerp TeamMember is een gebruiker verbonden aan een specifiek team.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -623,7 +623,7 @@ Een voorwerp TeamMember is een gebruiker verbonden aan een specifiek team.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -635,7 +635,7 @@ Een voorwerp TeamMember is een gebruiker verbonden aan een specifiek team.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -658,7 +658,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
           <li>
-            <p><b>objCode</b>
+            <p><b> objCode </b>
             </p>
             <p>Verwijderd</p>
           </li>
@@ -681,7 +681,7 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
       <td>
         <ul>
           <li>
-            <p><b>changeType</b>
+            <p><b> changeType </b>
             </p>
             <p>De volgende waarden zijn toegevoegd:</p>
             <ul>
@@ -712,7 +712,7 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
 
 Een object User vertegenwoordigt een persoon met een account in Workfront die zich kan aanmelden en met het systeem kan communiceren.
 
-Het object User heeft de markering verwijderd **INLINE_EDITABLE**.
+Het voorwerp van de Gebruiker verwijderde de vlag **INLINE_EDITABLE**.
 
 <table>
   <col/>
@@ -723,7 +723,7 @@ Het object User heeft de markering verwijderd **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>workTime</b>
+            <p><b> workTime </b>
             </p>
             <p>Dit gebied is toegevoegd, en is een aantal tussen 0 en 1 dat het percentage van tijd vertegenwoordigt dat een gebruiker aan projectwerk (niet-overheadwerk) elke dag kan uitgeven. De waarde 1 betekent dat de gebruiker 100% van zijn tijd aan projectwerk kan doorbrengen.</p>
           </li>
@@ -735,7 +735,7 @@ Het object User heeft de markering verwijderd **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>userLocations</b>
+            <p><b> userLocations </b>
             </p>
           </li>
         </ul>
@@ -755,7 +755,7 @@ Het object User heeft de markering verwijderd **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -767,7 +767,7 @@ Het object User heeft de markering verwijderd **INLINE_EDITABLE**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -790,7 +790,7 @@ Een object UserNote is een melding.
       <td>
         <ul>
           <li>
-            <p><b>changeType</b>
+            <p><b> changeType </b>
             </p>
             <p>De volgende waarden zijn toegevoegd:</p>
             <ul>
@@ -832,7 +832,7 @@ Een object UserNote is een melding.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -844,7 +844,7 @@ Een object UserNote is een melding.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b> identiteitskaart </b>
             </p>
             <p>Toegevoegd.</p>
           </li>

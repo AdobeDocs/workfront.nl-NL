@@ -3,24 +3,24 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Spoofberichten voorkomen en toevoegen [!DNL Adobe Workfront] SPF-records
-description: Als gebruikers [!DNL Adobe Workfront] e-mailberichten, moet u toevoegen [!DNL Workfront] SPF registreert aan uw firewall. U moet met uw team van IT werken om verslagen toe te voegen SPF.
+title: Prevent spoofing en voeg  [!DNL Adobe Workfront]  SPF- verslagen toe
+description: Als de gebruikers  [!DNL Adobe Workfront]  e-mailberichten niet ontvangen, moet u  [!DNL Workfront]  verslagen SPF aan uw firewall toevoegen. U moet met uw team van IT werken om verslagen toe te voegen SPF.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# Spoofberichten voorkomen en toevoegen [!DNL Adobe Workfront] SPF-records
+# Spoofsvorming voorkomen en [!DNL Adobe Workfront] SPF-records toevoegen
 
 ## Probleem
 
-Als gebruikers [!DNL Adobe Workfront] e-mailberichten, moet u toevoegen [!DNL Workfront] SPF registreert aan uw firewall. U moet met uw team van IT werken om verslagen toe te voegen SPF.
+Als gebruikers geen e-mailmeldingen van [!DNL Adobe Workfront] ontvangen, moet u [!DNL Workfront] SPF-records toevoegen aan uw firewall. U moet met uw team van IT werken om verslagen toe te voegen SPF.
 
 ## Toegangsvereisten
 
@@ -40,20 +40,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Oplossing
 
-Als u reeds de IP adressen aan uw lijst van gewenste personen voor uw productiemilieu zoals die in wordt beschreven toevoegde [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) en gebruikers ontvangen nog steeds geen e-mails:
+Als u reeds de IP adressen aan uw lijst van gewenste personen voor uw productiemilieu zoals die in [ wordt beschreven toevoegde vormt de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) en de gebruikers ontvangen nog geen e-mail:
 
 1. Voeg het volgende SPF verslag aan uw firewall toe:
 
    *spf.workfront.com*
 
-   Hiermee worden automatisch alle [!DNL Workfront] IP adressen aan uw lijst van gewenste personen op uw firewall en staat alle spamfilters (die verslagen gebruiken SPF) toe om te bevestigen [!DNL Workfront] servers als geldige afzenders voor uw domein.
+   Hierdoor worden automatisch alle [!DNL Workfront] IP-adressen aan de lijst van gewenste personen op uw firewall toegevoegd en kunnen alle spamfilters (die gebruikmaken van SPF-records) [!DNL Workfront] -servers valideren als geldige afzenders voor uw domein.
 
    >[!NOTE]
    >
@@ -70,6 +70,6 @@ Als u reeds de IP adressen aan uw lijst van gewenste personen voor uw productiem
    * exists (https://dmarcian.com/spf-syntax-table/#exists)
    * include (https://dmarcian.com/spf-syntax-table/#include)
 
-   Bijvoorbeeld, &quot;v=spf1 a mx omvat: spf.workfront.com -all&quot;
+   Bijvoorbeeld &quot;v=spf1 a mx include: spf.workfront.com -all&quot;
 
-Als u geen verslagen SPF aan uw firewall wegens bedrijfbeleid kunt toevoegen, gelieve met uw te werken [!DNL Workfront] Vertegenwoordiger van de steun.
+Als u vanwege het bedrijfsbeleid geen SPF-records aan uw firewall kunt toevoegen, werkt u samen met uw [!DNL Workfront] ondersteuningsvertegenwoordiger.

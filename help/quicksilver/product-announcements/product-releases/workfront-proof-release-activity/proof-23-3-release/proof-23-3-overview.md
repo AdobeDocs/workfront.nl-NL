@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Proof die binnen de releaseperiode van 23.3 wordt vrijgegeven voor de productieomgeving.
 
-Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voor alle gebieden van Workfront beschikbaar zijn, raadpleegt u [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.3 versiecyclus, zie [ 23.3 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -27,17 +27,17 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Functie</span>
+                        <p><span class="bold"> Eigenschap </span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Releasedatums</span>
+                        <p><span class="bold"> de data van de Versie </span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Updates voor de Desktop Proofing Viewer uitstellen</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}"> de updates van de Post voor de Kijker van het Proofing van de Desktop </a> </p>
                         <p>Op basis van feedback van gebruikers voegen we de optie toe om updates voor de Desktop Proofing Viewer uit te stellen. Gebruikers kunnen nu ervoor kiezen een update uit te stellen en door te gaan met hun werk, maar ze herinneren eraan dat er een update beschikbaar is telkens wanneer ze de Desktop Proofing Viewer openen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -55,7 +55,7 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Ondersteuning voor Microsoft Office-proefdrukken wijzigen</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}"> Veranderende steun voor de proeven van Microsoft Office </a></p>
                         <p>Om een robuuste en schaalbare proefdrukverwerkingsoplossing te behouden, wijzigen we onze ondersteunde Microsoft Office-bestandstypen en maximale bestandsgrootte.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -71,7 +71,7 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing Viewer-update</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md"> Desktop Proofing de update van de Kijker </a></p>
                         <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.24! Deze update bevat Chrome v100-ondersteuning voor het controleren van interactieve proefdrukken en een aantal probleemoplossingen.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>

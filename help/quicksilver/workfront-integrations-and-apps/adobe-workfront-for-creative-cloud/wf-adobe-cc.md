@@ -16,11 +16,11 @@ ht-degree: 0%
 ---
 
 
-# [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Apps
+# [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] apps
 
 <!--Audited: 12/2023-->
 
-U kunt de [!DNL Adobe Workfront] for [!DNL Creative Cloud] insteekmodule
+U kunt de [!DNL Adobe Workfront] for [!DNL Creative Cloud] -plug-in gebruiken om
 
 * Logtijd
 * Evaluatie- en goedkeuringsprocedures starten
@@ -28,21 +28,21 @@ U kunt de [!DNL Adobe Workfront] for [!DNL Creative Cloud] insteekmodule
 * Projecten en taken weergeven
 * en meer
 
-[Een video-overzicht weergeven van de functionaliteit die beschikbaar is in het dialoogvenster [!DNL Adobe Workfront] for [!DNL Creative Cloud] insteekmodule](https://video.tv.adobe.com/v/3418801/){target=_blank}.
+[ Mening een videooverzicht van de functionaliteit beschikbaar in  [!DNL Adobe Workfront]  voor  [!DNL Creative Cloud]  insteekmodule ](https://video.tv.adobe.com/v/3418801/){target=_blank}.
 
 ## De insteekmodule installeren en gebruiken
 
-De [!DNL Adobe Workfront] for [!DNL Creative Cloud] insteekmodule is beschikbaar in de volgende Creative Cloud-apps
+De [!DNL Adobe Workfront] for [!DNL Creative Cloud] -plug-in is beschikbaar in de volgende Creative Cloud-apps
 
 {{cc-app-list}}
 
 Zie de volgende bronnen voor informatie over het gebruik en installeren van de plug-in:
 
-* [Installeer de [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [Werken met de [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [Documenten en proefdrukken uploaden met de [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [Videozelfstudie: Gebruik [!DNL Adobe Workfront] plug-ins voor [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
-* [Videozelfstudie: pakketten maken en beheren, updates implementeren en installatiefouten oplossen](https://www.youtube.com/watch?v=zzvXNLIBzrc)
+* [Installeer de  [!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [Het werk met de  [!DNL Adobe Workfront]  stop in voor  [!DNL Creative Cloud]  Toepassingen beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [Upload documenten en proeven met de  [!DNL Adobe Workfront]  stop - in voor  [!DNL Creative Cloud]  Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [ Videozelfstudie: Gebruik  [!DNL Adobe Workfront]  stoppen voor  [!DNL Creative Cloud] ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [ Videozelfstudie: Het creëren van en het leiden van pakketten, het opstellen van updates, en de fouten van de het oplossen van problemeninstallatie ](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]
 >

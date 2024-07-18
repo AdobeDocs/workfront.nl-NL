@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 20.3, zie [20.3 - releaseoverzicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Verbeterde analysemogelijkheden!
 
@@ -34,5 +34,5 @@ U kunt zich op verschillende projecten concentreren of de hoeveelheid projecten 
 
 Naast de inzichten kunt u krijgen, kunt u acties op taken-zoals het bijwerken van de status, het vragen van om een update, het toewijzen van de taak aan iemand, enz. ook voltooien.—rechtstreeks vanuit het gebied Enhanced Analytics.
 
-Zie voor meer informatie [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Voor meer informatie, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

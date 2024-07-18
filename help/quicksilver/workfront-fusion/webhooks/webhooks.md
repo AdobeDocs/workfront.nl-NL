@@ -20,8 +20,8 @@ ht-degree: 0%
 
 # Webhaken in [!DNL Adobe Workfront Fusion]
 
-[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] naast een Adobe Workfront-licentie.
+[!DNL Adobe Workfront Fusion] vereist naast een Adobe Workfront-licentie een [!DNL Adobe Workfront Fusion] -licentie.
 
 Deze sectie bevat de volgende artikelen:
 
-* [Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [Instant triggers (webhooks) in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

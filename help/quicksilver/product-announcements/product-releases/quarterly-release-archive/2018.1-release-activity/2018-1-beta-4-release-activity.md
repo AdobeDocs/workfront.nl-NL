@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta 4 releaseactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.1 bèta 4-release. De functionaliteit is op 24 januari 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
+title: 2018.1 Beta 4-releaseactiviteit
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 4-release van 2018.1. De functionaliteit is op 24 januari 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,48 +14,48 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta 4 releaseactiviteit
+# 2018.1 Beta 4-releaseactiviteit
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.1 bèta 4-release. De functionaliteit is op 24 januari 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 4-release van 2018.1. De functionaliteit is op 24 januari 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
 
 >[!IMPORTANT]
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.1 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.1 zijn aangebracht, raadpleegt u  [ 2018.1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-De 2018.1 bèta 4-versie bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
+De Beta 4-release van 2018.1 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-**Voor beheerders**
+**voor Beheerders**
 
 * [Planningen beheerd door groepsbeheerders](#schedules-managed-by-group-administrators)
 
-**Voor alle gebruikers**
+**voor Alle Gebruikers**
 
-* [Verbeteringen voor proefdrukken in Workfront](#proofing-improvements-within-workfront)
-* [Maken van proefafdruk in Workfront-proefafdruk - Verbeterde gebruikerservaring en extra functionaliteit](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Proofingverbeteringen in Workfront en Workfront](#proofing-improvements-within-workfront-and-workfront-proof)
-* [Bijgewerkte look and Feel met Basecamp Integration in Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
-* [Afbeeldingen vanaf het Klembord naar Workfront plakken](#paste-images-to-workfront-from-the-clipboard)
-* [Verbeteringen in gebruiksrapport](#utilization-report-improvements)
-* [Verwijder het Resource Budgeted Hour-object uit Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
-* [Gebruiksstatistieken rapporteren](#report-usage-statistics)
-* [Updates van Gantt Chart](#gantt-chart-updates)
-* [Nieuwe Portfolio optimaliseren](#new-portfolio-optimizer)
-* [Budget Date Adjustment Option in the Resource Planner](#budget-date-adjustment-option-in-the-resource-planner)
-* [Bronplanning: Toewijzingen beperken tot gebruikers op basis van groepslidmaatschap](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [Bronplanning: Toewijzingen aan gebruikers toestaan ongeacht de rol](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [ het Bewijzen Verbeteringen binnen Workfront ](#proofing-improvements-within-workfront)
+* [ Maken van proef in Workfront Proof - betere Ervaring van de Gebruiker en Extra Functionaliteit ](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [ het Proofing Verbeteringen binnen Workfront en Workfront Proof ](#proofing-improvements-within-workfront-and-workfront-proof)
+* [ Bijgewerkte Kijken en voelen met de Integratie van Basecamp in Workfront Proof ](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
+* [ Deeg Beelden aan Workfront van het Klembord ](#paste-images-to-workfront-from-the-clipboard)
+* [ Verbeteringen van het Rapport van het Gebruik ](#utilization-report-improvements)
+* [ verwijder het Bron Beoogd Voorwerp van het Uur van Workfront ](#remove-the-resource-budgeted-hour-object-from-workfront)
+* [ Statistieken van het Gebruik van het Rapport ](#report-usage-statistics)
+* [ de Updates van de Grafiek van de Gantt ](#gantt-chart-updates)
+* [ Nieuwe Optimizer van het Portfolio ](#new-portfolio-optimizer)
+* [ Optie van de Aanpassing van de Datum van de Begroting in de Planner van het Middel ](#budget-date-adjustment-option-in-the-resource-planner)
+* [ Middel dat plant: Beperk Toewijzingen aan Gebruikers die op het Lidmaatschap van de Groep ](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership) worden gebaseerd
+* [ Middel die plant: Toestaan de Taken aan Gebruikers ongeacht Rol ](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Ondersteuning voor Emoji](#emoji-support)
 
 ## Verbeteringen voor proefdrukken in Workfront {#proofing-improvements-within-workfront}
 
 De documentlijst in Workfront is als volgt verbeterd: 
 
-* [Proefvoortgang weergeven in de documentlijst](#view-proof-progress-from-the-document-list)
-* [Nieuwe optie voor het weergeven van het afdrukoverzicht in de documentlijst](#new-option-to-view-the-print-summary-from-the-document-list)
-* [Bijgewerkte weergave en weergave voor genereren of openen van proefdrukken in de documentlijst](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
-* [Verschillende koppelingen zijn verwijderd uit documenten in de documentlijst](#various-links-removed-from-documents-on-the-document-list)
-* [Bestandsnamen weergeven op gecombineerde proefdrukken](#view-file-names-on-combined-proofs)
+* [ Voortgang van het Bewijs van de Mening van de Lijst van het Document ](#view-proof-progress-from-the-document-list)
+* [ Nieuwe Optie om de Samenvatting van de Druk van de Lijst van het Document te bekijken ](#new-option-to-view-the-print-summary-from-the-document-list)
+* [ Bijgewerkte Kijken en voelen voor het Genereren van of het Openen van het Bewijs van de Lijst van het Document ](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
+* [ Diverse Verbindingen die uit Documenten op de Lijst van het Document worden verwijderd ](#various-links-removed-from-documents-on-the-document-list)
+* [ Namen van het Dossier van de Mening op Gecombineerde Proofs ](#view-file-names-on-combined-proofs)
 * [Het huidige actieve werkgebied van een proefdruk weergeven in de documentlijst](#view-the-current-active-stage-of-a-proof-from-the-document-list)
 
 ### Proefvoortgang weergeven in de documentlijst {#view-proof-progress-from-the-document-list}
@@ -64,7 +64,7 @@ Proefvoortgangsindicatoren worden nu voor alle proefdrukken weergegeven wanneer 
 
 Voordat u deze wijziging aanbrengt, moet u een proefdruk selecteren in de documentlijst om de voortgang van de proefdruk weer te geven in het rechterdeelvenster. 
 
-Zie voor meer informatie [Voortgang van proefdrukken en statusoverzicht](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
+Voor meer informatie, zie [ vooruitgang van het Bewijs en statusoverzicht ](../../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 
 ### Nieuwe optie voor het weergeven van het afdrukoverzicht in de documentlijst {#new-option-to-view-the-print-summary-from-the-document-list}
 
@@ -72,7 +72,7 @@ U kunt het afdrukoverzicht nu rechtstreeks vanuit de documentlijst bekijken voor
 
 Voordat u deze wijziging aanbrengt, kunt u het afdrukoverzicht alleen vanuit de proefdrukviewer bekijken. 
 
-Ga voor meer informatie over het weergeven van het afdrukoverzicht in de documentlijst naar [Een proefdrukoverzicht afdrukken in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md).
+Voor meer informatie over het bekijken van de druksamenvatting van de documentlijst, zie [ een proefdruksamenvatting binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
 
 ### Bijgewerkte weergave en weergave voor genereren of openen van proefdrukken in de documentlijst {#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list}
 
@@ -121,11 +121,11 @@ Zie Alle bestanden in een gecombineerde proefdruk weergeven voor meer informatie
 
 Wanneer u nu een proefdruk selecteert in de documentlijst, worden de huidige actieve stadia weergegeven in de rechterkolom op het tabblad Details. 
 
-Zie voor meer informatie [Actieve stadia weergeven op een proefdruk](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
+Voor meer informatie, zie [ actieve stadia van de Mening op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
-## Maken van proefafdruk in Workfront-proefafdruk - Verbeterde gebruikerservaring en extra functionaliteit {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## Maken van proefafdruk in Workfront Proof - Verbeterde gebruikerservaring en extra functionaliteit {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
-Naast een verbeterde gebruikerservaring bij het maken van proefdrukken in Workfront Proof, is de volgende extra functionaliteit nu beschikbaar:
+Naast een verbeterde gebruikerservaring bij het maken van proefdrukken in Workfront Proof, is nu de volgende aanvullende functionaliteit beschikbaar:
 
 * Voeg meerdere afbeeldingen samen tot één proefdruk.
 * Bewijs van websites in meerdere resoluties (meerdere resoluties kunnen worden gemaakt als afzonderlijke proefdrukken of kunnen worden gecombineerd tot één proefdruk).
@@ -137,16 +137,16 @@ Naast een verbeterde gebruikerservaring bij het maken van proefdrukken in Workfr
 
 >[!NOTE]
 >
->Deze nieuwe pagina voor het maken van proefdrukken in Workfront Proof komt nu overeen met de pagina voor het maken van proefdrukken die onlangs beschikbaar is gemaakt tijdens het maken van proefdrukken in Workfront. 
+>Deze nieuwe pagina voor het maken van proefdrukken in Workfront Proof komt nu overeen met de pagina voor het maken van proefdrukken die onlangs beschikbaar is gesteld tijdens het maken van proefdrukken in Workfront. 
 
-Zie voor meer informatie  [Proefdrukken genereren in Workfront-proefdrukken](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Zie voor meer informatie  [ produceer Proofs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-## Proofingverbeteringen in Workfront en Workfront {#proofing-improvements-within-workfront-and-workfront-proof}
+## Verbeteringen voor proefdrukken in Workfront en Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
-De volgende wijzigingen zijn van toepassing wanneer u documenten toevoegt aan Workfront en aan Workfront-proefdrukken:
+De volgende wijzigingen zijn van toepassing wanneer u documenten toevoegt aan Workfront en Workfront Proof:
 
-* [De grootte van de lijst met opmerkingen wijzigen bij het bekijken van proefdrukken](#resize-the-comment-list-when-reviewing-proofs)
-* [Hyperlinks zijn actief tijdens het controleren van statische proefdrukken](#hyperlinks-are-active-when-reviewing-static-proofs)
+* [ vergroot de lijst van de Commentaar wanneer het herzien van Proofs ](#resize-the-comment-list-when-reviewing-proofs)
+* [ de Hyperlinks zijn actief wanneer het herzien van statische proefdrukken ](#hyperlinks-are-active-when-reviewing-static-proofs)
 * [Verbeteringen bij het toevoegen van proefdrukken](#improvements-when-adding-proofs)
 
 ### De grootte van de lijst met opmerkingen wijzigen bij het bekijken van proefdrukken {#resize-the-comment-list-when-reviewing-proofs}
@@ -198,7 +198,7 @@ U kunt nu afbeeldingsbestanden toevoegen aan Workfront door een afbeelding vanaf
 
 De mogelijkheid om van het klembord te plakken is in een vorige release uit Workfront verwijderd en wordt opnieuw geïntroduceerd met deze release. De nieuwe methode is gestroomlijnder en intuïtiever.
 
-Zie voor meer informatie [Afbeeldingen plakken vanaf het Klembord](../../../../documents/managing-documents/paste-image-clipboard.md). 
+Voor meer informatie, zie [ beelden van het Klembord ](../../../../documents/managing-documents/paste-image-clipboard.md) kleven. 
 
 ## Verbeteringen in gebruiksrapport {#utilization-report-improvements}
 
@@ -227,7 +227,7 @@ Het gebruiksrapport bevat de volgende verbeteringen:
 
 * Verbeterde prestaties
 
-Zie voor meer informatie over het gebruiksrapport [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie over het rapport van het Gebruik, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Verwijder het Resource Budgeted Hour-object uit Workfront {#remove-the-resource-budgeted-hour-object-from-workfront}
 
@@ -235,7 +235,7 @@ Om prestatieproblemen op te lossen, is het veld Budgeted Hour resource tijdelijk
 
 Als herinnering, zijn de Bron begrote Uren de uren die u voor uw middelen of uw projecten in de Planner van het Middel begroot. Voorlopig kunt u niet langer rapporteren over dit veld in de webtoepassing of via de API. Het veld wordt in een toekomstige release opnieuw geplaatst wanneer de prestatieproblemen zijn opgelost.
 
-Voor meer informatie over de begrotings uren in de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Voor meer informatie over het in de begroting opnemen van uren in de Planner van het Middel, zie [ overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Gebruiksstatistieken rapporteren {#report-usage-statistics}
 
@@ -250,13 +250,13 @@ U kunt nu de volgende gebruiksinformatie voor uw Workfront-rapporten weergeven i
 
 Voordat deze update werd uitgevoerd, was de gebruiksinformatie die u in uw rapporten kon zien beperkt.
 
-Voor meer informatie over rapportgebruik, zie [Rapportgebruik weergeven](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+Voor meer informatie over rapportgebruik, zie [ het rapportgebruik van de Mening ](../../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
 
 ## Planningen beheerd door groepsbeheerders {#schedules-managed-by-group-administrators}
 
 Als groepsbeheerder, kunt u programma&#39;s tot stand brengen en uitgeven verbonden aan de groepen u, evenals hun subgroepen beheert. Vóór deze wijziging konden alleen Workfront-beheerders planningen maken en bewerken.
 
-Voor meer informatie over het beheren van programma&#39;s, zie [Een schema maken](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+Voor meer informatie bij het beheren van programma&#39;s, zie [ een programma ](../../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren
 
 ## Updates van Gantt Chart {#gantt-chart-updates}
 
@@ -269,25 +269,25 @@ Het Gantt-diagram kan nu worden bewerkt. Met behulp van het Gantt-diagram kunt u
 
 Voorafgaand aan deze wijziging kon u alleen relaties met eerdere versies verwijderen in het Gantt-diagram en kunt u taken alleen in de takenlijst bewerken.
 
-Zie voor meer informatie over de Gantt-grafiek [Informatie bijwerken in de Gantt-grafiek van de takenlijst](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+Voor meer informatie over de grafiek van Gantt, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## Nieuwe Portfolio optimaliseren {#new-portfolio-optimizer}
 
 Het gebied Portfolio optimaliseren van Workfront wordt nu bijgewerkt met een nieuwe vormgeving. De functionaliteit is niet gewijzigd.
 
-Voor meer informatie over Portfolio Optimizer, zie [Overzicht van Portfolio optimaliseren](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Voor meer informatie over Portfolio Optimizer, zie [ Portfolio Optimizer overzicht ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Budget Date Adjustment Option in the Resource Planner {#budget-date-adjustment-option-in-the-resource-planner}
 
 We hebben een optie toegevoegd om u snel zichtbaar te maken in tijdframes zonder conflicten in de begroting op te nemen. Nadat u hebt bekeken wanneer de tijdframes zonder conflicten in de begroting optreden, kunt u uw begrote uren naar die tijden manueel verplaatsen. Hierdoor worden ook de begrotingsdata van de uren aangepast. Voorafgaand aan deze update was het niet mogelijk om begrotingsconflicten voor een project in één oogopslag weer te geven.
 
-Voor meer informatie over het aanpassen van gebudgetteerde data in de Planner van het Middel, zie de &quot;Aanpassende Begrotingdata&quot;sectie in [Overzicht van de bronnenplanner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+Voor meer informatie over het aanpassen van in de begroting opgenomen data in de Planner van het Middel, zie de &quot;Aanpassende het Begrotingstermijnen&quot;sectie in het [ overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 ## Bronplanning: Toewijzingen beperken tot gebruikers op basis van groepslidmaatschap {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Wanneer het maken van gebruikerstoewijzingen in het Plannende gebied (zoals die in &quot;manueel unassigned taken en kwesties in de Plannende gebieden&quot;worden beschreven), kunt u Workfront nu vormen om taken en kwesties slechts tot die gebruikers te beperken die lid van de groep zijn die op het project wordt bepaald waar de taak of de kwestie voortkomt. 
 
@@ -339,4 +339,4 @@ Voor meer informatie over het vormen van deze optie, zie &quot;begonnen met het 
 
 Nu kunt u de toon voor opmerkingen en updates die u in Workfront maakt, instellen door emojis in te voegen. Eventuele emoties die zijn toegevoegd aan opmerkingen op het tabblad Updates, worden ook weergegeven in het e-mailbericht voor updates. 
 
-Zie voor meer informatie [Werk bijwerken](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie zie, [ het werk van de Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

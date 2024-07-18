@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Mappen beheren in [!DNL Workfront Proof]
-description: Alle mappen worden toegewezen in de linkernavigatiebalk van het dialoogvenster [!UICONTROL Folders] tab. Als een gebruiker van een andere [!DNL Workfront Proof] account deelt een map met u (of deelt proefdrukken die zich in een map bevinden), de map wordt ook weergegeven in de [!UICONTROL Folders] tab.
+title: Mappen beheren in  [!DNL Workfront Proof]
+description: Al uw mappen worden toegewezen in de linkernavigatiebalk op het tabblad [!UICONTROL Folders] . Als een gebruiker van een verschillende  [!DNL Workfront Proof]  rekening een omslag met u deelt (of bewijzen deelt die in een omslag zijn), is de omslag ook vermeld op het [!UICONTROL Folders] lusje.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Alle mappen worden toegewezen in de linkernavigatiebalk van het dialoogvenster [!UICONTROL Folders] tab. Als een gebruiker van een andere [!DNL Workfront Proof] account deelt een map met u (of deelt proefdrukken die zich in een map bevinden), de map wordt ook weergegeven in de [!UICONTROL Folders] tab.
+Al uw mappen worden toegewezen in de linkernavigatiebalk op het tabblad [!UICONTROL Folders] . Als een gebruiker van een andere [!DNL Workfront Proof] -account een map deelt met u (of proefdrukken deelt die zich in een map bevinden), wordt de map ook weergegeven op het tabblad [!UICONTROL Folders] .
 
-## Mappen beheren vanuit de [!UICONTROL Account Folders] Pagina
+## Mappen beheren vanaf de pagina [!UICONTROL Account Folders]
 
-De [!UICONTROL Account folders] op de pagina worden alle mappen in uw account weergegeven (inclusief mappen die met u zijn gedeeld door gebruikers in andere [!DNL Workfront Proof] accounts) en kunt u deze eenvoudig beheren.
+Op de pagina [!UICONTROL Account folders] ziet u alle mappen in uw account (inclusief mappen die met u zijn gedeeld door gebruikers in andere [!DNL Workfront Proof] -accounts) en kunt u deze eenvoudig beheren.
 
-1. Klikken **[!UICONTROL [Your account name] folders]** in de linkernavigatiebalk.\
+1. Klik op **[!UICONTROL [Your account name] folders]** in de linkernavigatiebalk.\
    Deze pagina bevat de volgende informatie voor elke map:
 
    * Naam
@@ -41,28 +41,28 @@ De [!UICONTROL Account folders] op de pagina worden alle mappen in uw account we
    * Selecteer een map door het selectievakje naast de map in te schakelen.
    * Selecteer alle mappen door het selectievakje boven de lijst in te schakelen.
 
-      >[!NOTE]
-      >
-      >U kunt alleen mappen selecteren waarvoor u bewerkingsrechten hebt.
+     >[!NOTE]
+     >
+     >U kunt alleen mappen selecteren waarvoor u bewerkingsrechten hebt.
 
-      Er verschijnt een werkbalk boven de mappenlijst.
+     Er verschijnt een werkbalk boven de mappenlijst.
 
 1. Voer vanuit de werkbalk een van de volgende handelingen uit:
 
    * Verplaats de mappen naar een andere map.
    * Deel de mappen met andere gebruikers.
    * Verwijder de mappen.
-   * Van de **[!UICONTROL More]** , wijzigt u de eigenaar van de map.
+   * Wijzig in het menu **[!UICONTROL More]** de eigenaar van de map.
 
-1. Schakel het selectievakje voor één map in en klik op de knop **[!UICONTROL More]** (drie punten) aan de rechterkant om de volgende aanvullende opties weer te geven (afhankelijk van uw toegangsniveau):
+1. Schakel het selectievakje voor één map in en klik vervolgens op het menu **[!UICONTROL More]** (drie punten) rechts om de volgende aanvullende opties weer te geven (afhankelijk van uw toegangsniveau):
 
-   * **[!UICONTROL View folder details]**: Geeft de pagina met mapdetails voor die map weer.
-   * **[!UICONTROL New proof]**: Hiermee geeft u de nieuwe proefdrukpagina weer met het mapveld dat automatisch wordt gevuld met de naam van de geselecteerde map.
-   * **[!UICONTROL Upload file]**: Hiermee geeft u de nieuwe bestandspagina weer. Het mapveld wordt automatisch gevuld met de naam van de geselecteerde map.
-   * **[!UICONTROL New sub-folder]**: Hiermee kunt u een geneste map in de geselecteerde map maken.
-   * **[!UICONTROL Share]**: Hiermee kunt u nieuwe personen aan de map toevoegen.
-   * **[!UICONTROL Excel summary]**: Hiermee kunt u een Excel-overzicht van de proefdrukken in de map downloaden.
-   * **[!UICONTROL Delete]**: Hiermee verplaatst u de map naar de prullenmand.
+   * **[!UICONTROL View folder details]**: geeft de pagina met mapgegevens voor die map weer.
+   * **[!UICONTROL New proof]**: geeft de nieuwe proefdrukpagina weer, waarbij het mapveld automatisch wordt gevuld met de naam van de geselecteerde map.
+   * **[!UICONTROL Upload file]**: geeft de nieuwe bestandspagina weer. Het mapveld wordt automatisch gevuld met de naam van de geselecteerde map.
+   * **[!UICONTROL New sub-folder]**: hiermee kunt u een geneste map in de geselecteerde map maken.
+   * **[!UICONTROL Share]**: hiermee kunt u nieuwe personen aan de map toevoegen.
+   * **[!UICONTROL Excel summary]**: hiermee kunt u een Excel-overzicht downloaden van de proefdrukken in de map.
+   * **[!UICONTROL Delete]** - Verplaatst de map naar de prullenmand.
 
 >[!NOTE]
 >
@@ -70,14 +70,14 @@ De [!UICONTROL Account folders] op de pagina worden alle mappen in uw account we
 
 ## Een map beheren via de pagina Mapdetails
 
-1. Klik op de knop **[!UICONTROL More]** (drie punten) rechts van een map en klikt u op **[!UICONTROL View folder details]**.\
-   U kunt ook op de mapnaam in het dialoogvenster **[!UICONTROL My folders]** in de linkerzijbalk om toegang te krijgen tot de **[!UICONTROL Folder details]** pagina.
+1. Klik op het menu **[!UICONTROL More]** (drie punten) rechts van een map en klik vervolgens op **[!UICONTROL View folder details]** .\
+   U kunt ook op de mapnaam in de lijst **[!UICONTROL My folders]** in de linkerzijbalk klikken om de pagina **[!UICONTROL Folder details]** te openen.
 
 1. Voer een van de volgende handelingen uit:
 
    * Verplaats de map naar een andere bovenliggende map.\
 
-      De map naar het hoogste niveau verplaatsen door op **[!UICONTROL No folder selected]** in het vervolgkeuzemenu.
+     Verplaats de map naar het bovenste niveau door op **[!UICONTROL No folder selected]** in de vervolgkeuzelijst te klikken.
 
    * De map delen met andere gebruikers.
    * Maak een nieuwe submap.
@@ -86,16 +86,16 @@ De [!UICONTROL Account folders] op de pagina worden alle mappen in uw account we
 
 ## De naam van een map wijzigen
 
-1. Klik op de knop **[!UICONTROL More]** (drie punten) rechts van een map en klikt u op **[!UICONTROL View folder details]**.\
-   U kunt ook op de mapnaam in het dialoogvenster **[!UICONTROL My folders]** in de linkerzijbalk om toegang te krijgen tot de **[!UICONTROL Folder details]** pagina.
+1. Klik op het menu **[!UICONTROL More]** (drie punten) rechts van een map en klik vervolgens op **[!UICONTROL View folder details]** .\
+   U kunt ook op de mapnaam in de lijst **[!UICONTROL My folders]** in de linkerzijbalk klikken om de pagina **[!UICONTROL Folder details]** te openen.
 
 1. Klik op de mapnaam boven aan de pagina.
 1. Bewerk de naam en klik buiten het vak.\
-   Met Workfront Proof worden uw wijzigingen automatisch opgeslagen.
+   Workfront Proof slaat uw wijzigingen automatisch op.
 
 ## Een openbare map wijzigen in een privémap
 
-1. Klik op de knop **[!UICONTROL More]** (drie punten) rechts van een map en klikt u op **[!UICONTROL View folder details]**.
+1. Klik op het menu **[!UICONTROL More]** (drie punten) rechts van een map en klik vervolgens op **[!UICONTROL View folder details]** .
 
 1. Klik op het mappictogram naast de naam van de map.
 
@@ -103,20 +103,20 @@ De [!UICONTROL Account folders] op de pagina worden alle mappen in uw account we
 
 U kunt een map van de volgende locaties verwijderen:
 
-* [Een map verwijderen uit het dialoogvenster [!UICONTROL Account Folders] Pagina](#deleting-a-folder-from-the-account-folders-page)
-* [Een map verwijderen uit het dialoogvenster [!UICONTROL Folder Details] Pagina](#deleting-a-folder-from-the-folder-details-page)
+* [Een map verwijderen van de pagina [!UICONTROL Account Folders]](#deleting-a-folder-from-the-account-folders-page)
+* [Een map verwijderen van de pagina [!UICONTROL Folder Details]](#deleting-a-folder-from-the-folder-details-page)
 
 >[!NOTE]
 >
->Wanneer u een bovenliggende map verwijdert, worden alle submappen, proefdrukken en bestanden in de map verplaatst naar de map [De prullenbak herstellen en leegmaken [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>Wanneer u een ouderomslag schrapt, alle subomslagen, proeven en dossiers binnen de omslag zich naar [ herstelt en leegmaakt het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-### Een map verwijderen uit het dialoogvenster [!UICONTROL Account Folders] Pagina {#deleting-a-folder-from-the-account-folders-page}
+### Een map verwijderen van de pagina [!UICONTROL Account Folders] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Klikken **(Uw accountnaam)[!UICONTROL folders]** in de linkernavigatiebalk voor toegang tot de [!UICONTROL Account folders] pagina.\
-   U kunt ook op de mapnaam in het dialoogvenster **[!UICONTROL My folders]** in de linkerzijbalk om toegang te krijgen tot de **[!UICONTROL Folder details]** pagina.
+1. Klik op **(Uw accountnaam)[!UICONTROL folders]** in de linkernavigatiebalk om de pagina [!UICONTROL Account folders] te openen.\
+   U kunt ook op de mapnaam in de lijst **[!UICONTROL My folders]** in de linkerzijbalk klikken om de pagina **[!UICONTROL Folder details]** te openen.
 
 1. Schakel het selectievakje voor een of meer mappen in.
-1. Klik op de knop **[!UICONTROL Delete]** (prullenbak).
+1. Klik op het pictogram **[!UICONTROL Delete]** (prullenbak).
 
    >[!NOTE]
    >
@@ -124,8 +124,8 @@ U kunt een map van de volgende locaties verwijderen:
 
 ### Een map verwijderen uit de pagina Mapdetails {#deleting-a-folder-from-the-folder-details-page}
 
-1. Klik op de knop **[!UICONTROL More]** (drie punten) rechts van een map en klikt u op **[!UICONTROL View folder details]**.\
-   U kunt ook op de mapnaam in het dialoogvenster **[!UICONTROL My folders]** in de linkerzijbalk om toegang te krijgen tot de **[!UICONTROL Folder details]** pagina.
+1. Klik op het menu **[!UICONTROL More]** (drie punten) rechts van een map en klik vervolgens op **[!UICONTROL View folder details]** .\
+   U kunt ook op de mapnaam in de lijst **[!UICONTROL My folders]** in de linkerzijbalk klikken om de pagina **[!UICONTROL Folder details]** te openen.
 
-1. Klik op de knop **[!UICONTROL Delete]** (prullenbak) aan de bovenkant van de pagina.
-1. Klikken **[!UICONTROL OK]** om de schrapping te bevestigen.
+1. Klik op het pictogram **[!UICONTROL Delete]** (prullenbak) boven aan de pagina.
+1. Klik op **[!UICONTROL OK]** om het verwijderen te bevestigen.

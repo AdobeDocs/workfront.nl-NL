@@ -2,20 +2,20 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Een Outlook-e-mail aan een project toevoegen als een taak of een probleem
-description: U kunt e-mails converteren naar [!DNL Adobe Workfront] taken of problemen. Nadat een e-mail is geconverteerd, wordt de taak of uitgave weergegeven in het project dat is geselecteerd tijdens de conversie.
+description: U kunt e-mails in  [!DNL Adobe Workfront]  taken of kwesties omzetten. Nadat een e-mail is geconverteerd, wordt de taak of uitgave weergegeven in het project dat is geselecteerd tijdens de conversie.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
 source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
-# Een [!DNL Outlook] e-mailen naar een project als taak of probleem
+# Een [!DNL Outlook] e-mail aan een project toevoegen als een taak of een uitgave
 
-U kunt e-mails converteren naar [!DNL Adobe Workfront] taken of problemen. Nadat een e-mail is geconverteerd, wordt de taak of uitgave weergegeven in het project dat is geselecteerd tijdens de conversie.
+U kunt e-mailberichten converteren naar [!DNL Adobe Workfront] taken of uitgaven. Nadat een e-mail is geconverteerd, wordt de taak of uitgave weergegeven in het project dat is geselecteerd tijdens de conversie.
 
 ## Toegangsvereisten
 
@@ -36,41 +36,41 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-Uw [!DNL Workfront] beheerder moet inschakelen [!DNL Outlook for Office] with [!DNL Workfront] voordat u deze integratie kunt gebruiken.
+Uw [!DNL Workfront] beheerder moet [!DNL Outlook for Office] with [!DNL Workfront] inschakelen voordat u deze integratie kunt gebruiken.
 
-## Een [!DNL Outlook] e-mailen naar een project als taak of uitgave
+## Een [!DNL Outlook] e-mail aan een project toevoegen als een taak of uitgave
 
-1. Selecteer de e-mail binnen [!DNL Outlook] die u wilt converteren naar een taak of een uitgave.
-1. Klik op de knop **[!DNL Workfront]** in de rechterbovenhoek van het e-mailbericht om de invoegtoepassing Workfront weer te geven.
+1. Selecteer de e-mail binnen [!DNL Outlook] die u naar een taak of een uitgave wilt converteren.
+1. Klik op het pictogram **[!DNL Workfront]** rechtsboven in het e-mailbericht om de invoegtoepassing Workfront weer te geven.
 
-   Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
+   Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het pictogram [!DNL Workfront] te openen.
 
-1. Klik op de knop **[!UICONTROL Menu]** pictogram ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) om de lijst met beschikbare [!DNL Workfront] opties.
+1. Klik het **[!UICONTROL Menu]** pictogram ![ o365_addin_menu_icon.png ](assets/o365-addin-menu2-icon.png) om de lijst van beschikbare [!DNL Workfront] opties te tonen.
 
 
 
 1. Klik op **[!UICONTROL Add to Work]**.
 
-1. Selecteer de **[!UICONTROL Add to Project]** veld.
-1. Typ de naam van een project in het dialoogvenster **[!UICONTROL Project]** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
-1. Selecteer de **[!UICONTROL Task]** keuzerondje als u een taak wilt toevoegen aan het geselecteerde project.
+1. Selecteer het veld **[!UICONTROL Add to Project]** .
+1. Typ de naam van een project in het veld **[!UICONTROL Project]** en selecteer het vervolgens wanneer het in de lijst wordt weergegeven.
+1. Selecteer het keuzerondje **[!UICONTROL Task]** als u een taak wilt toevoegen aan het geselecteerde project.
 
    of
 
-   Selecteer de **[!UICONTROL Issue]** keuzerondje als u een uitgave wilt toevoegen aan het geselecteerde project.
+   Selecteer het keuzerondje **[!UICONTROL Issue]** als u een uitgave aan het geselecteerde project wilt toevoegen.
 
-1. (Optioneel) Geef op aan aan wie deze taak of uitgave is toegewezen in het dialoogvenster **[!UICONTROL Assign this to]** veld.
+1. (Optioneel) Geef in het veld **[!UICONTROL Assign this to]** aan aan wie deze taak of uitgave is toegewezen.
 
    >[!TIP]
    >
    >U kunt de taak of de kwestie aan een team toewijzen, als u verscheidene mensen hiervan bewust wilt zijn. Als de teamleden hun e-mailmeldingen hebben ingeschakeld, ontvangen zij een e-mail over de nieuwe taak of uitgave die aan hen is toegewezen.
 
 
-1. (Optioneel) Geef de **[!UICONTROL Due by date]**. Dit wordt [!UICONTROL Planned Completion Date] van de taak of kwestie.
+1. (Optioneel) Geef de waarde **[!UICONTROL Due by date]** op. Dit wordt de [!UICONTROL Planned Completion Date] van de taak of kwestie.
 1. (Optioneel) Werk de volgende gegevens uit de e-mail bij voordat deze als taak of uitgave wordt opgeslagen (verplichte velden worden voorafgegaan door een sterretje).
 
    <table style="table-layout:auto">
@@ -85,7 +85,7 @@ Uw [!DNL Workfront] beheerder moet inschakelen [!DNL Outlook for Office] with [!
       </tr>
       <tr>
         <td>[!UICONTROL Attachments]</td>
-        <td>Alle e-mailbijlagen worden opgeslagen in de [!UICONTROL Documents] gebied van de taak of kwestie. U kunt bijlagen verwijderen voordat u het e-mailbericht opslaat als een taak of uitgave.</td>
+        <td>Eventuele e-mailbijlagen worden opgeslagen in het [!UICONTROL Documents] -gebied van de taak of uitgave. U kunt bijlagen verwijderen voordat u het e-mailbericht opslaat als een taak of uitgave.</td>
       </tr>
    </table>
 
@@ -93,11 +93,11 @@ Uw [!DNL Workfront] beheerder moet inschakelen [!DNL Outlook for Office] with [!
 
    De taak of kwestie wordt toegevoegd aan het gespecificeerde project
 
-1. (Optioneel) Klik op **[!UICONTROL View in [!DNL Workfront]]** om de taak weer te geven binnen de [!DNL Workfront] op een nieuw tabblad.
+1. (Optioneel) Klik op **[!UICONTROL View in [!DNL Workfront]]** om de taak in de [!DNL Workfront] -toepassing op een nieuw tabblad weer te geven.
 
-1. (Optioneel) Ga terug naar [!DNL Outlook]en selecteer het geconverteerde e-mailbericht.
+1. (Optioneel) Ga terug naar [!DNL Outlook] en selecteer het geconverteerde e-mailbericht.
 
-   Aan de bovenkant van de [!DNL Workfront] invoegvenster, ziet u de bevestiging met een koppeling waaraan het e-mailbericht is toegevoegd [!DNL Workfront] als een taak of een probleem. De koppeling bevat de datum waarop deze is geconverteerd.
+   Boven aan het venster voor de [!DNL Workfront] invoegtoepassing ziet u de bevestiging met een koppeling dat het e-mailbericht aan [!DNL Workfront] is toegevoegd als een taak of een uitgave. De koppeling bevat de datum waarop deze is geconverteerd.
 
 
 

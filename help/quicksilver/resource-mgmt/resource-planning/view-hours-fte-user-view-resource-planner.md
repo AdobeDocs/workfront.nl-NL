@@ -3,13 +3,13 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Beschikbare, geplande en Werkelijke uren of FTE weergeven in de bronnenplanner bij gebruik van de gebruikersweergave
-description: De mening Beschikbare, Geplande, en Ware Uren of FTE in de Planner van het Middel wanneer het gebruiken van de gebruiker viewPlanning"in RP" - misschien "het opnemen van middelen in RP"of "het Leiden Middelen in RP." enz. - of moet een andere POV opnieuw worden gebruikt?!)"
+description: De mening Beschikbare, Geplande, en Ware Uren of FTE in de Planner van het Middel wanneer het gebruiken van de gebruiker viewPlanning"in RP" - misschien "het opnemen van middelen in RP"of "het Leiden Middelen in RP." etc.. - of zou moeten worden hergebruikt van een andere POV?!)"
 author: Alina
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -35,33 +35,33 @@ Overweeg het volgende wanneer het bekijken van de informatie van Uren of FTE in 
 * U kunt het verschil tussen de Beschikbare Gebruiker en de hoeveelheid Geplande Uren of VTE of als aantal of als percentagewaarde in de mening van de Gebruiker tonen.
 * U kunt de gegevens niet in de weergave Gebruiker weergeven op kosten.
 * Adobe Workfront vult Beschikbare uren of VTE volgens de arbeidstijd verbonden aan de gebruikers in hun programma&#39;s.\
-   De gebruikers niet verbonden aan een programma tonen beschikbaarheid volgens het StandaardProgramma.\
-   Voor informatie over het Standaard Programma, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  De gebruikers niet verbonden aan een programma tonen beschikbaarheid volgens het StandaardProgramma.\
+  Voor informatie over het StandaardProgramma, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
-* Workfront vult geplande uren of VTE van de Geplande Uren informatie over de taken en de kwesties betreffende de projecten.
+* Workfront vult Geplande uren of VTE van de Geplande Uren informatie over de taken en de kwesties betreffende de projecten.
 * Workfront vult Werkelijke uren met de daadwerkelijke tijd die aan taken en kwesties wordt geregistreerd door de gebruikers die aan hen worden toegewezen. Dit omvat tijd die op een project wordt het programma wordt geopend.
 * In de weergave Gebruiker kunt u het volgende doen:
 
    * Breid elke gebruiker uit om een lijst van projecten te tonen waar die gebruiker wordt toegewezen.
 
-      >[!NOTE]
-      >
-      >Alleen gebruikers die zijn gekoppeld aan de projecten die in de filters zijn opgenomen, kunnen worden uitgebreid.
+     >[!NOTE]
+     >
+     >Alleen gebruikers die zijn gekoppeld aan de projecten die in de filters zijn opgenomen, kunnen worden uitgebreid.
 
    * Breid elk project uit om een lijst van baanrollen te tonen die de gebruiker op die projecten kan vervullen.
    * Breid elke rol uit om een lijst van taken te tonen de gebruiker in die rol wordt toegewezen aan.
 
-   Als gebruikers geen functies hebben die aan hen zijn gekoppeld, worden hun Beschikbare, Geplande en Werkelijke uren of VTE vermeld in het dialoogvenster **Geen rol** sectie.\
-   Voor informatie over welke gebieden en punten wanneer het toepassen van de mening van de Gebruiker op de Planner van het Middel tonen, zie de &quot;sectie van het Project/van de Rol/van de Mening van de Gebruiker van de Selectie&quot;in [Overzicht van de navigatie in de bronnenplanner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Als de gebruikers geen baanrollen verbonden aan hen hebben, zijn hun Beschikbaar, Gepland, en Ware Uren of FTE vermeld in **Geen sectie van de Rol**.\
+  Voor informatie over welke gebieden en punten tonen wanneer het toepassen van de mening van de Gebruiker op de Planner van het Middel, zie de &quot;sectie van de Selectie van de Mening van het Project/van de Rol/van de Gebruiker&quot;in [ navigatie van de Planner van het Middel ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Overzicht van velden die zichtbaar zijn in de weergave Gebruiker van de functie voor middelenplanner
 
 Verwijs naar de volgende lijsten voor het begrip van de informatie die in de mening van de Gebruiker van de Planner van het Middel wordt getoond. De informatie wordt weergegeven in uren of FTE-waarden.
 
-* [De kolom AVL (Beschikbaar)](#the-avl-available-column)
-* [De kolom PLN (gepland)](#the-pln-planned-column)
-* [De kolom ACT (Actual)](#The%C2%A0ACT)
-* [De DIF-kolom (Verschil)](#the-dif-difference-column)
+* [ de (Beschikbare) AVL kolom ](#the-avl-available-column)
+* [ PLN (Geplande) kolom ](#the-pln-planned-column)
+* [ ACT (Ware) kolom ](#The%C2%A0ACT)
+* [ DIF (Verschil) kolom ](#the-dif-difference-column)
 * [De kolom % (percentage geplande uren toewijzing)](#the-planned-hours-allocation-percentage-column)
 
 ### De kolom AVL (Beschikbaar) {#the-avl-available-column}
@@ -71,8 +71,8 @@ Verwijs naar de volgende lijsten voor het begrip van de informatie die in de men
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td><strong> die door </strong> wordt getoond </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
@@ -84,7 +84,7 @@ Verwijs naar de volgende lijsten voor het begrip van de informatie die in de men
   </tr> 
   <tr> 
    <td>Rol</td> 
-   <td> <p>Het totaal van Beschikbare uren of VTE voor de rol volgens het programma van de gebruiker en <strong>Percentage van de beschikbaarheid van VTE</strong> van de rol.</p> </td> 
+   <td> <p>Het totaal van Beschikbare Uren of FTE voor de rol volgens het programma van de gebruiker en het <strong> Percentage van VTE Beschikbaarheid </strong> van de rol.</p> </td> 
   </tr> 
   <tr> 
    <td>Taak of probleem</td> 
@@ -93,7 +93,7 @@ Verwijs naar de volgende lijsten voor het begrip van de informatie die in de men
  </tbody> 
 </table>
 
-Voor meer informatie over hoe de gebruiker en rolbeschikbaarheid gebaseerd op het programma van de gebruiker en het Percentage van VTE Beschikbaarheid van de rol wordt berekend, zie [Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Voor meer informatie over hoe de gebruiker en rolbeschikbaarheid gebaseerd op het programma van de gebruiker en het Percentage van VTE Beschikbaarheid van de rol wordt berekend, zie [ Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel ](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ### De kolom PLN (gepland) {#the-pln-planned-column}
 
@@ -102,20 +102,20 @@ Voor meer informatie over hoe de gebruiker en rolbeschikbaarheid gebaseerd op he
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td><strong> die door </strong> wordt getoond </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
-   <td> Het totaal van Geplande Uren of VTE van alle taken of kwesties die aan de gebruiker op alle projecten worden toegewezen.<br><p>Dit omvat taken en kwesties die aan de gebruiker worden toegewezen maar niet verbonden aan enige baanrol en taken of kwesties die niet op projecten zijn die u toegang tot Beheren hebt.</p><p>Wanneer de gebruikerstoewijzing voor uren is gewijzigd met behulp van Workload Balancer, kunnen de gegevens in de Planner van het Middel worden beïnvloed als de geselecteerde data slechts een gedeelte van een taak of kwestie bevatten. Voor informatie over het wijzigen van toewijzingen voor gebruikers raadpleegt u <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Toewijzingen van gebruikers beheren in Workload Balancer</a> . </p></td> 
+   <td> Het totaal van Geplande Uren of VTE van alle taken of kwesties die aan de gebruiker op alle projecten worden toegewezen.<br><p>Dit omvat taken en kwesties die aan de gebruiker worden toegewezen maar niet verbonden aan enige baanrol en taken of kwesties die niet op projecten zijn die u toegang tot Beheren hebt.</p><p>Wanneer de gebruikerstoewijzing voor uren is gewijzigd met behulp van Workload Balancer, kunnen de gegevens in de Planner van het Middel worden beïnvloed als de geselecteerde data slechts een gedeelte van een taak of kwestie bevatten. Voor informatie over het wijzigen van toewijzingen voor gebruikers, zie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> gebruikerstoewijzingen in de Balancer van de Werklast beheren </a>. </p></td> 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td> Het totaal van Geplande Uren of VTE van alle taken en kwesties die aan een specifieke gebruiker op het project worden toegewezen.<br><p>Opmerking: Hieronder vallen niet de geplande uren of VTE van taken of problemen die niet aan gebruikers zijn toegewezen. </p></td> 
+   <td> Het totaal van Geplande Uren of VTE van alle taken en kwesties die aan een specifieke gebruiker op het project worden toegewezen.<br><p>Opmerking: De geplande uren of VTE van taken of problemen die niet aan gebruikers zijn toegewezen, zijn hier niet onder begrepen. </p></td> 
   </tr> 
   <tr> 
    <td>Rol</td> 
-   <td> <p>Het totaal van Geplande Uren of VTE van alle taken en kwesties die aan de gebruiker in deze rol op het project worden toegewezen.</p> <p> <p>Opmerking: Dit omvat niet de Geplande Uren of VTE van taken of kwesties die aan deze rol maar niet aan deze gebruiker in deze rol worden toegewezen. </p> </p> </td> 
+   <td> <p>Het totaal van Geplande Uren of VTE van alle taken en kwesties die aan de gebruiker in deze rol op het project worden toegewezen.</p> <p> <p>Opmerking: deze functie omvat niet de geplande uren of VTE van taken of problemen die aan deze rol zijn toegewezen, maar niet aan deze gebruiker in deze rol. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Taak of probleem</td> 
@@ -131,29 +131,29 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
 -->
 
 * De geplande uren worden gelijkelijk verdeeld aan elke dag binnen de Duur van taken en kwesties, voor elke middelen die aan hen worden toegewezen. De taak of de duur van de kwestie is gebaseerd op hun Geplande Datum van Begin en Voltooiing en omvat elke kalenderdag binnen die periode.\
-   Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van Geplande Uren aan gebruikers of projecten. In dit geval worden de geplande uren gelijkelijk verdeeld over elke dag binnen de Duur van taken of kwesties exclusief weekends, time-off dagen, en planningsuitzonderingen.
+  Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van Geplande Uren aan gebruikers of projecten. In dit geval worden de geplande uren gelijkelijk verdeeld over elke dag binnen de Duur van taken of kwesties exclusief weekends, tijd-off dagen, en planningsuitzonderingen.
 
-   Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken op projecten overspannen, hangt het aantal Geplande Uren per week af van hoeveel dagen binnen die week deel van de taakDuur uitmaken. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.\
-   De dagen van het weekeinde, de programmauitzonderingen, en de tijd-off dagen worden uitgesloten van deze distributie.
+  Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken op projecten overspannen, hangt het aantal Geplande Uren per week af van hoeveel dagen binnen die week deel van de taakDuur uitmaken. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.\
+  De dagen van het weekeinde, de programmauitzonderingen, en de tijd-off dagen worden uitgesloten van deze distributie.
 
 * De volgende taakcategorieën worden opgenomen in de berekening van de geplande uren voor elke bron:
 
    * taken die aan gebruikers in de Groepen van het Middel, baanrollen, of teams op het project worden toegewezen.
 
-      >[!TIP]
-      >
-      >Als de taken aan teams worden toegewezen, zal hun toewijzing onder **Geen rol** en **Geen gebruiker** secties. U kunt de Geplande Uren zien verbonden aan teams, maar u kunt niet de uren begroten, omdat geen rollen noch gebruikers met de taken worden geassocieerd.
+     >[!TIP]
+     >
+     >Als de taken aan teams worden toegewezen, zal hun toewijzing onder **Geen Rol** en **verschijnen Geen Gebruiker** secties. U kunt de Geplande Uren zien verbonden aan teams, maar u kunt niet de uren begroten, omdat geen rollen noch gebruikers met de taken worden geassocieerd.
 
 * De geplande uren in de Planner van het Middel omvatten geen Geplande Uren verbonden aan het volgende:
 
    * bovenliggende taken
    * niet toegewezen taken
-   * , wanneer de **Uren opnemen uit uitgaven** instellen is uitgeschakeld.
+   * kwesties, wanneer **omvat uren van Kwesties** het plaatsen gehandicapt is.
 
 * Geplande uren worden niet weergegeven in de bronnenplanner als de taak of uitgave nul is.
 * De geplande uren die zijn gekoppeld aan gedeactiveerde gebruikers worden niet weergegeven.
 
-Voor meer informatie over Geplande Uren en VTE in de Planner van het Middel, zie [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Voor meer informatie over Geplande Uren en FTE in de Planner van het Middel, zie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ### De kolom ACT (Actual)
 
@@ -162,8 +162,8 @@ Voor meer informatie over Geplande Uren en VTE in de Planner van het Middel, zie
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td><strong> die door </strong> wordt getoond </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker </td> 
@@ -200,7 +200,7 @@ Voor meer informatie over Geplande Uren en VTE in de Planner van het Middel, zie
 >
 >De tijd het programma wordt geopend toont in timeframe die overeenkomt met de ingangsdatum van de ingang van het uur, ongeacht het tijdframe van de taak, uitgave of project waar de uren worden geregistreerd.
 
-Zie voor meer informatie over Werkelijke uren [Werkelijke uren weergeven](../../manage-work/tasks/task-information/actual-hours.md).
+Voor meer informatie over Werkelijke Uren, zie [ Werkelijke Uren van de Mening ](../../manage-work/tasks/task-information/actual-hours.md).
 
 ### De DIF-kolom (Verschil) {#the-dif-difference-column}
 
@@ -209,12 +209,12 @@ Zie voor meer informatie over Werkelijke uren [Werkelijke uren weergeven](../../
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td><strong> die door </strong> wordt getoond </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
-   <td> <p>Het verschil tussen de Beschikbare en Geplande Uren of VTE van de gebruiker. </p> <p>Het Uur- of FTE-verschil wordt berekend aan de hand van de volgende formule:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Opmerking: Als de waarde in negatieve rode getallen wordt weergegeven, wordt de gebruiker oververdeeld. </p> </p> </td> 
+   <td> <p>Het verschil tussen de Beschikbare en Geplande Uren of VTE van de gebruiker. </p> <p>Het Uur- of FTE-verschil wordt berekend aan de hand van de volgende formule:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Opmerking: als de waarde in negatieve rode cijfers wordt weergegeven, wordt de gebruiker oververdeeld. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Project</td> 
@@ -222,7 +222,7 @@ Zie voor meer informatie over Werkelijke uren [Werkelijke uren weergeven](../../
   </tr> 
   <tr> 
    <td>Rol</td> 
-   <td> <p>Het verschil tussen de Beschikbare en Geplande Uren of VTE van de baanrol. </p> <p>Het Uur- of FTE-verschil wordt berekend aan de hand van de volgende formule:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Opmerking: Als de waarde in negatieve rode aantallen wordt getoond, is de rol oververdeeld. </p> </p> </td> 
+   <td> <p>Het verschil tussen de Beschikbare en Geplande Uren of VTE van de baanrol. </p> <p>Het Uur- of FTE-verschil wordt berekend aan de hand van de volgende formule:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Opmerking: als de waarde in negatieve rode getallen wordt weergegeven, wordt de rol te veel toegewezen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Taak of probleem</td> 
@@ -238,8 +238,8 @@ Zie voor meer informatie over Werkelijke uren [Werkelijke uren weergeven](../../
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td><strong> die door </strong> wordt getoond </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
@@ -247,7 +247,7 @@ Zie voor meer informatie over Werkelijke uren [Werkelijke uren weergeven](../../
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td>Deze informatie is niet beschikbaar voor het project wanneer u het <strong>Weergeven op gebruiker</strong> aan de Planner van het Middel.</td> 
+   <td>Deze informatie is niet beschikbaar voor het Project wanneer het toepassen van de <strong> Mening door Gebruiker </strong> mening op de Planner van het Middel.</td> 
   </tr> 
   <tr> 
    <td>Rol</td> 
@@ -262,7 +262,7 @@ Zie voor meer informatie over Werkelijke uren [Werkelijke uren weergeven](../../
 
 Als de waarde van de Geplande Uren of VTE nul is, is de Percentage Toewijzing 0%. Als de waarde van de Beschikbare Uren of FTE nul is, kan de Percentage van Toewijzing niet worden berekend.
 
-Voor meer informatie over Geplande Uren en VTE en hoe zij in de Planner van het Middel worden getoond, zie [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Voor meer informatie over Geplande Uren en FTE en hoe zij in de Planner van het Middel worden getoond, zie {de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).[
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Voorwaarde voor bijwerken voor taken en problemen
 
-<span class="preview">De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze functie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten of in de productieomgeving voor klanten die snelle releases hebben ingeschakeld.</span>
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview">Voor informatie over snelle versies raadpleegt u [Snelle releases voor uw organisatie in- of uitschakelen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
-<span class="preview">Voor informatie over de huidige versie raadpleegt u [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 De voorwaarde van een taak of een kwestie is een vlag die op het wordt geplaatst om erop te wijzen hoe het gaat. Dit is anders dan de status van het werkitem, die de huidige fase van de ontwikkeling van het item aangeeft.
 
 U kunt de voorwaarde van een taak of een kwestie of automatisch of manueel plaatsen.
 
-De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschikbaar in Workfront. Uw Adobe Workfront-beheerder kan aangepaste voorwaarden voor uw omgeving maken, zoals beschreven in [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+De Condition-waarden waarnaar we in dit artikel verwijzen, zijn standaard beschikbaar in Workfront. Uw beheerder van Adobe Workfront kan douaneVoorwaarden voor uw milieu tot stand brengen, zoals die in [ wordt beschreven creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
 
 ## Toegangsvereisten {#access-requirements}
 
@@ -66,7 +66,7 @@ Voor huidige licenties:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -74,15 +74,15 @@ U moet aan een taak of een kwestie worden toegewezen om zijn Voorwaarde manueel 
 
 ## De voorwaarde van taken en problemen opzoeken
 
-De voorwaarden worden weergegeven als een vlag die is gekoppeld aan taken of problemen. Ze kunnen ook worden gekoppeld aan een getal dat in rapporten kan worden weergegeven in plaats van aan het label. Zie voor meer informatie over het koppelen van voorwaarden aan getallen [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+De voorwaarden worden weergegeven als een vlag die is gekoppeld aan taken of problemen. Ze kunnen ook worden gekoppeld aan een getal dat in rapporten kan worden weergegeven in plaats van aan het label. Voor meer informatie over het associëren van voorwaarden met aantallen, zie [ een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.
 
 U vindt de voorwaarde voor taken en problemen in de volgende gebieden van Workfront:
 
-* <span class="preview">De pagina Details nadat een Workfront of groepsbeheerder deze aan uw lay-outsjabloon heeft toegevoegd. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview"> de pagina van Details, nadat een Workfront of groepsbeheerder het aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-* <span class="preview">De koptekst van een taak of uitgave, nadat een Workfront of een groepsbeheerder deze aan uw lay-outmalplaatje toevoegt. Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview"> de kopbal van een taak of kwestie, nadat een Workfront of een groepsbeheerder het aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
-* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Zie voor meer informatie [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 * Hiermee worden rapporten en lijsten weergegeven wanneer u het veld Voorwaarde weergeeft in een weergave of Groepering.
 
@@ -92,15 +92,15 @@ U vindt de voorwaarde voor taken en problemen in de volgende gebieden van Workfr
 
 ## De voorwaarde automatisch bijwerken door de status bij te werken
 
-Wanneer u een taak of kwestie toewijst en u klikt **eraan werken** , Start Taak of Start Uitgave of werk de status van de taak bij. De voorwaarde van de taak of uitgave wordt automatisch gewijzigd in de standaardvoorwaarde die is gekoppeld aan **Vloeiend**.
+Wanneer u een taak of een kwestie wordt toegewezen en u **Werk op het** klikt, de Taak van het Begin of Uitgave van het Begin, of zijn status bijwerkt, verandert de Voorwaarde van de taak of de kwestie automatisch in de standaardVoorwaarde verbonden aan **Vloeiend**.
 
-Zie de artikelen voor informatie over het gebruik van een aangepaste voorwaarde als een standaardvoorwaarde  [Een aangepaste voorwaarde instellen als standaard voor taken en problemen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) en [Een aangepaste voorwaarde instellen als standaard voor projecten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Voor informatie over het gebruiken van een douanevoorwaarde als standaardVoorwaarde, zie de artikelen [ plaatsen een douanetoestand als gebrek voor taken en kwesties ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md) en [ plaatsen een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 
-Zie voor informatie over het wijzigen van de taakstatus [Taakstatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
+Voor informatie over het veranderen van de taakstatus, zie [ de taakstatus van de Update ](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md).
 
-Voor informatie over het wijzigen van de status van de uitgave raadpleegt u [Uitgiftestatus bijwerken](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
+Voor informatie over het veranderen van de uitgavestatus, zie [ de uitgevende status van de Update ](../../../manage-work/projects/updating-work-in-a-project/update-issue-status.md).
 
-Voor informatie over het plaatsen van het Werk aan het knoop aan een Taak van het Begin of de knoop van de Uitgave van het Begin, zie [De knop Aan de werkbalk vervangen door de knop Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Voor informatie over het plaatsen van het Werk op het knoop aan een Taak van het Begin of de knoop van de Uitgave van het Begin, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 ## De voorwaarde handmatig bijwerken
 
@@ -114,8 +114,8 @@ U kunt de Voorwaarde van een taak of kwestie in een taak of een uitgiftenrapport
 >
 >Raadpleeg de volgende artikelen voor meer informatie:
 >
->* [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Home en overzicht aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [ pas Huis en Samenvatting aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -130,7 +130,7 @@ Voer een van de volgende handelingen uit om de voorwaarde van een taak of uitgav
 
 1. U kunt als volgt de voorwaarde van een taak of uitgave in de taak- of uitgiftheader bijwerken:
 
-   1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder het veld Voorwaarde heeft toegevoegd aan de taak- of uitgiftekoptekst van uw lay-outsjabloon, klikt u op de knop **Voorwaarde** in de koptekst en selecteer een van de volgende opties:
+   1. (Voorwaardelijk) als uw Workfront of groepsbeheerder het gebied van de Voorwaarde aan de taak of de uitgiftekopbal van uw lay-outmalplaatje toevoegde, klik het **gebied van de Voorwaarde** in de kopbal en selecteer van de volgende opties:
       * Vloeiend
       * Sommige problemen
       * Belangrijkste wegversperringen
@@ -140,28 +140,28 @@ Voer een van de volgende handelingen uit om de voorwaarde van een taak of uitgav
 
 1. U kunt als volgt de voorwaarde van een taak of uitgave bijwerken in de sectie Details van taak of uitgave:
 
-   1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder het veld Voorwaarde heeft toegevoegd aan de sectie Details van een taak of uitgave in uw lay-outsjabloon, klikt u op **Details** in het linkerdeelvenster en klik vervolgens op **Taakvoorwaarde** of **Uitgiftevoorwaarde** en selecteer een van de volgende opties:
+   1. (Voorwaardelijk) als uw Workfront of groepsbeheerder het gebied van de Voorwaarde aan de sectie van Details van een taak of kwestie in uw lay-outmalplaatje toevoegde, **Details** in het linkerpaneel klikken, dan **de Voorwaarde van de Taak** of **Voorwaarde van de Uitgave** en selecteren van de volgende opties:
       * Vloeiend
       * Sommige problemen
       * Belangrijkste wegversperringen
-1. Klikken **Wijzigingen opslaan**. De voorwaarde van de taak of kwestie wordt bijgewerkt.
+1. Klik **sparen Veranderingen**. De voorwaarde van de taak of kwestie wordt bijgewerkt.
 
 </div>
 
 De voorwaarde van een taak of kwestie in een rapport of een lijst bijwerken:
 
-1. Ga naar een lijst met taken of problemen waarvoor u beheerdersmachtigingen hebt. Zorg ervoor dat **Voorwaarde** wordt weergegeven in de lijstweergave.
+1. Ga naar een lijst met taken of problemen waarvoor u beheerdersmachtigingen hebt. Verzeker het **gebied van de Voorwaarde** in de mening van de lijst zichtbaar is.
 
-1. Werk de **Voorwaarde** van de kwestie of de taak gealigneerd, door de bestaande voorwaarde te tweemaal te klikken en een nieuwe waarde van het drop-down menu te selecteren.
+1. Werk de **Voorwaarde** van de kwestie of de taak gealigneerd bij, door de bestaande voorwaarde tweemaal te klikken en een nieuwe waarde van het drop-down menu te selecteren.
 
    ![](assets/condition-drop-down-values-in-task-list.png)
 
    >[!NOTE]
    >
-   >De voorwaarden kunnen voor uw milieu worden aangepast, zodat kunt u meer dan drie opties voor Voorwaarde in uw milieu vinden. De namen van de Voorwaarden kunnen verschillen van de hierboven vermelde. Voor informatie over het aanpassen van Voorwaarden in Workfront raadpleegt u [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >De voorwaarden kunnen voor uw milieu worden aangepast, zodat kunt u meer dan drie opties voor Voorwaarde in uw milieu vinden. De namen van de Voorwaarden kunnen verschillen van de hierboven vermelde. Voor informatie over het aanpassen van Voorwaarden in Workfront, zie [ creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
 
 
-1. Druk **Enter** op uw toetsenbord of klik buiten het veld Voorwaarde om de nieuwe taak of uitgave op te slaan.
+1. De pers **gaat** op uw toetsenbord binnen, of klikt buiten het gebied van de Voorwaarde om de nieuwe taak of de uitgave Voorwaarde te bewaren.
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

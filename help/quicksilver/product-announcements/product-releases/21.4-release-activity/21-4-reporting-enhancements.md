@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.4 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 21.4, zie [21.4 Overzicht van de release](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nieuwe look en feel voor het veld Toewijzingen in bijgewerkte lijsten en rapporten
 
@@ -38,7 +38,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Een nieuw pictogram voor beperkte toegang
 * Andere kleine ontwerpwijzigingen
 
-Zie voor meer informatie over toewijzingen in lijsten [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md).
+Voor meer informatie over taken in lijsten, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [ kwesties toewijzen ](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -58,6 +58,6 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Wanneer u op een veld van de typekop klikt, wordt het menu met suggesties weergegeven voordat u tekst invoert.
 * Het menu met suggesties reageert beter op de lengte van waarden en deze waarden worden nu afgekapt aan het einde wanneer aan de tekenlimiet wordt voldaan in plaats van in het midden van de waarde.
 
-Voor informatie over bijgewerkte lijsten raadpleegt u de [Het verschil tussen de bijgewerkte en de oudere lijsten](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in het artikel [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over bijgewerkte lijsten, zie het [ verschil tussen de bijgewerkte en erfenislijsten ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sectie in het artikel [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

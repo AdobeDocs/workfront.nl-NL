@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: HTTP &gt; Overige modules
-description: De [!DNL Adobe Workfront Fusion] De HTTP-toepassing biedt verschillende modules voor communicatie op basis van het HTTP-protocol (Hypertext Transfer Protocol). HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina's en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
+title: HTTP&gt; Overige modules
+description: De  [!DNL Adobe Workfront Fusion]  app van HTTP verstrekt diverse modules voor mededeling die op het protocol van de Overdracht van de Hypertext (HTTP) wordt gebaseerd. HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina's en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] vereist een [!UICONTROL Adobe Workfront Fusion] naast een [!UICONTROL Adobe Workfront] licentie.
+>[!UICONTROL Adobe Workfront Fusion] vereist een [!UICONTROL Adobe Workfront Fusion] licentie naast een [!UICONTROL Adobe Workfront] licentie.
 
-De [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app biedt verschillende modules voor communicatie op basis van het HTTP-protocol (Hypertext Transfer Protocol). HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina&#39;s en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
+De app [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] biedt verschillende modules voor communicatie op basis van het HTTP-protocol (Hypertext Transfer Protocol). HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina&#39;s en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 
 De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemechanisme waartoe de bron waartoe u toegang wilt hebben, behoort. Hieronder volgen voorbeelden van modules
 
 * Voer een verzoek in:universele module hoofdzakelijk bedoeld voor middelen die geen enkele vorm van authentificatie/vergunning gebruiken
-* Voer een basisverzoek van de Auth:voor middelen die aanwenden [!DNL HTTP] Basisverificatie (BA)
+* Voer een Basic Auth-verzoek uit:voor bronnen die gebruikmaken van [!DNL HTTP] Basic authentication (BA)
 * Maak een OAuth 2.0 verzoek: voor middelen die OAuth 2.0 vergunningsprotocol gebruiken
 * Maak een verzoek van de Auteur van het Certificaat van de Cliënt: voor middelen die vergunningsprotocol gebruiken dat een cliënt-zijcertificaat vereist.
 * Maak een aanvraag voor een API-sleutelautorisatie: voor bronnen die API-sleutels gebruiken voor autorisatie.
@@ -36,16 +36,16 @@ De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemec
 >
 >Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
->Zie voor meer informatie [Adobe Authenticator-module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>Voor meer informatie, zie [ module van Adobe Authenticator ](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Aanvraagmodules
 
 Zie de volgende artikelen voor specifieke instructies van de verzoekmodule:
 
-* [[!UICONTROL HTTP] >[!UICONTROL Make a request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make a request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Make an API Key Authorization request]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## Overige actiemodules
@@ -78,11 +78,11 @@ Deze actiemodule verhelpt een keten van HTTP-omleidingen en retourneert een doel
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
-   <td> <p>Voer de URL die u wilt omzetten in of wijs deze toe, zoals een [!DNL bit.ly] URL.</p> </td> 
+   <td> <p>Voer de URL die u wilt omzetten in of wijs deze toe, bijvoorbeeld een [!DNL bit.ly] URL.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method] </td> 
-   <td> <p>Selecteer of u de [!UICONTROL HEAD] of de [!UICONTROL GET] methode.</p> </td> 
+   <td> <p>Selecteer of u de methode [!UICONTROL HEAD] of [!UICONTROL GET] wilt gebruiken.</p> </td> 
   </tr> 
  </tbody> 
 </table>

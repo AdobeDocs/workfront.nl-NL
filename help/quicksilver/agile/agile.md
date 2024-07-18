@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Agile
 
-[!DNL Adobe Workfront] bevat verschillende gereedschappen waarmee u flexibele workflows kunt definiëren. De raden zijn eenvoudige maar flexibele hulpmiddelen voor teamsamenwerking. De oude &#39;agile&#39; planningtools bevatten een achterstand en een verhaalbord voor Kanban- of Scrum-teams.
+[!DNL Adobe Workfront] biedt verschillende gereedschappen waarmee u flexibele workflows kunt definiëren. De raden zijn eenvoudige maar flexibele hulpmiddelen voor teamsamenwerking. De oude &#39;agile&#39; planningtools bevatten een achterstand en een verhaalbord voor Kanban- of Scrum-teams.
 
 Deze sectie bevat de volgende subsecties:
 
@@ -25,7 +25,7 @@ Deze sectie bevat de volgende subsecties:
 * [Aan de slag met borden: artikelindex](../agile/get-started-with-boards/get-started-with-boards.md)
 * [Hulpprogramma&#39;s voor flexibele planning gebruiken in tekengebieden](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Algemeen overzicht](../agile/agile-overview.md)
-* [Ga aan de slag met de functie Bestand in [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [Aan de slag met &#39;agile&#39; in  [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban in een team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Scrum in een mobiel team](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Werken in een flexibele omgeving](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

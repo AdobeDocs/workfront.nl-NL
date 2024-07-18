@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: SharePoint-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die SharePoint gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die SharePoint gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL SharePoint] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL SharePoint]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL SharePoint] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,65 +43,65 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL SharePoint] modules, moet u een [!DNL SharePoint] account.
+Als u [!DNL SharePoint] -modules wilt gebruiken, moet u een [!DNL SharePoint] -account hebben.
 
-## Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
+## Verbinden [!DNL SharePoint] met [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
 
-* [Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion] met een [!DNL Microsoft] account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
-* [Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion] geavanceerde instellingen gebruiken](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
+* [Verbind  [!DNL SharePoint]  met  [!DNL Workfront Fusion]  gebruikend a [!DNL Microsoft]  rekening](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
+* [Verbind  [!DNL SharePoint]  met  [!DNL Workfront Fusion]  gebruikend geavanceerde montages](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
 
-### Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion] met een [!DNL Microsoft] account
+### Verbind [!DNL SharePoint] met [!DNL Workfront Fusion] via een [!DNL Microsoft] -account
 
-U kunt uw [!DNL Microsoft] account om verbinding te maken met [!DNL SharePoint]. Voor instructies over het aansluiten van uw [!DNL Sharepoint] account aan [!DNL Workfront Fusion], zie [Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Met uw [!DNL Microsoft] -account kunt u een verbinding maken met [!DNL SharePoint] . Voor instructies over het verbinden van uw [!DNL Sharepoint] rekening met [!DNL Workfront Fusion], zie [ een verbinding tot stand brengen  [!DNL Adobe Workfront Fusion]  - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-### Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion] geavanceerde instellingen gebruiken
+### Verbind [!DNL SharePoint] met [!DNL Workfront Fusion] gebruikend geavanceerde montages
 
-Verbinding maken [!DNL SharePoint] tot [!DNL Workfront Fusion] zonder [!DNL Microsoft] account, hebt u een client-id, clientgeheim en huurnummer-id nodig.
+Als u [!DNL SharePoint] wilt verbinden met [!DNL Workfront Fusion] zonder een [!DNL Microsoft] -account, hebt u een client-id, clientgeheim en huurnummer-id nodig.
 
-1. Klikken **[!UICONTROL Add]** aan de bovenkant van de **[!DNL SharePoint]** om de **[!UICONTROL Create a connection]** doos.
+1. Klik op **[!UICONTROL Add]** boven in het vak **[!DNL SharePoint]** om het vak **[!UICONTROL Create a connection]** te openen.
 
-1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]**.
+1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]** .
 1. Klik op **[!UICONTROL Show advanced settings]**.
-1. Voer de [!DNL SharePoint] **[!UICONTROL Client ID]** en **[!UICONTROL Client Secret]**.
+1. Voer [!DNL SharePoint] **[!UICONTROL Client ID]** en **[!UICONTROL Client Secret]** in.
 
 1. Klik op **[!UICONTROL Continue]**.
 1. Voer in het aanmeldingsvenster dat wordt weergegeven uw aanmeldingsgegevens in om u aan te melden bij de app als u dat nog niet hebt gedaan.
-1. (Voorwaardelijk) Als een **[!UICONTROL Allow]** klikt u op de knop om de app te verbinden met [!DNL Workfront Fusion].
+1. (Voorwaardelijk) Als een knop **[!UICONTROL Allow]** wordt weergegeven, klikt u op de knop om de app te verbinden met [!DNL Workfront Fusion] .
 
 ## [!DNL SharePoint] modules en hun velden
 
-Wanneer u [!DNL SharePoint] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL SharePoint] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL SharePoint] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL SharePoint] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 * [Drive-item](#drive-item)
 * [Item](#item)
 * [Lijst](#list)
-* [Pagina (bèta)](#page-beta)
+* [Pagina (Beta)](#page-beta)
 * [Site](#site)
 * [Overige](#other)
 
@@ -122,13 +122,13 @@ Deze module retourneert wijzigingen die zijn aangebracht in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
-   <td> <p>Selecteer hoe u de locatie wilt identificeren van de map waarin u de wijzigingen wilt ophalen.</p> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van de map waarin u wijzigingen wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Folder ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u de wijzigingen wilt ophalen. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -148,13 +148,13 @@ Deze actiemodule maakt een nieuwe map in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
    <td> <p>Selecteer hoe u de locatie wilt identificeren van de map die u wilt maken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Folder ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u de map wilt maken. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -175,13 +175,13 @@ Deze actiemodule haalt het opgegeven SharePoint-bestand op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
    <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL File ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL File ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie van het bestand. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -198,18 +198,18 @@ Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een m
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
    <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL folder ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie van de map die u wilt controleren. </p> </li> 
     </ul> </td> 
   </tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Voer het maximum aantal objecten in [!DNL Workfront Fusion] moet tijdens één cyclus van de scenariouitvoering worden geretourneerd.</td> 
+   <td>Voer het maximumaantal items in dat [!DNL Workfront Fusion] tijdens één cyclus van uitvoering van het scenario moet retourneren.</td> 
   <tr>
   </tr>
 </tbody> 
@@ -224,7 +224,7 @@ Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een m
 * [[!UICONTROL List Items]](#list-items)
 * [[!UICONTROL Move Item]](#move-an-item)
 * [[!UICONTROL Update an item]](#update-an-item)
-* [[!UICONTROL Watch Items] (Gepland)](#watch-items-scheduled)
+* [[!UICONTROL Watch Items] (gepland)](#watch-items-scheduled)
 
 
 #### [!UICONTROL Copy Item]
@@ -237,13 +237,13 @@ Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Site-, station- en map-id's invoeren</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt kopiëren.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Item ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype of u een veld of een map verplaatst.  Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -268,13 +268,13 @@ Deze actiemodule maakt een nieuw item in een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Create an Item]</td> 
    <td> <p>Selecteer hoe u de site wilt identificeren en vermeld waar u een item wilt maken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de weergegeven velden in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijst bevat waar u een item wilt maken en selecteer vervolgens de lijst. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -295,13 +295,13 @@ Met deze actiemodule verwijdert u een bestaand item uit een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Update an Item]</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt verwijderen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Item ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die het item bevat dat u wilt verwijderen, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -318,13 +318,13 @@ Deze actiemodule retourneert de gegevens van een opgegeven item.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get an Item]</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Item ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site met de lijst waarvan u een item wilt ophalen, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -341,13 +341,13 @@ Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst ter
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List Items]</td> 
    <td> <p>Selecteer hoe u de lijst wilt identificeren waarvan u items wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de weergegeven velden in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site met de lijst waaruit u items wilt ophalen en selecteer vervolgens de lijst. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -368,13 +368,13 @@ Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Site-, station- en map-id's invoeren</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt verplaatsen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Item ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>Selecteer in het veld Itemtype of u een veld of een map verplaatst. Selecteer de site die het item bevat dat u wilt kopiëren, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -399,13 +399,13 @@ Deze actiemodule werkt een bestaand item in een SharePoint-lijst bij.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Update an Item]</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt bijwerken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, en <strong>[!UICONTROL Item ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Item ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die het item bevat dat u wilt bijwerken, selecteer vervolgens de lijst en selecteer vervolgens het item. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -416,7 +416,7 @@ Deze actiemodule werkt een bestaand item in een SharePoint-lijst bij.
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch Items] (Gepland)
+#### [!UICONTROL Watch Items] (gepland)
 
 Deze triggermodule start een scenario wanneer een item wordt gemaakt of gewijzigd.
 
@@ -426,7 +426,7 @@ Deze triggermodule start een scenario wanneer een item wordt gemaakt of gewijzig
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Lists]</td> 
@@ -436,7 +436,7 @@ Deze triggermodule start een scenario wanneer een item wordt gemaakt of gewijzig
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>Selecteer hoe u de site wilt identificeren en welke lijst u wilt bekijken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL List ID]</strong> in de weergegeven velden in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die u wilt controleren en selecteer vervolgens de lijst. Deze drop-down wint slechts volgende plaatsen terug.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -464,13 +464,13 @@ Deze actiemodule maakt een nieuwe lijst in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a Site ID]</td> 
    <td> <p>Selecteer hoe u de site wilt identificeren en vermeld waar u een lijst wilt maken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> waar u een lijst wilt maken.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Typ of wijs de <strong>[!UICONTROL Site ID]</strong> toe waar u een lijst wilt maken.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site waarop u een lijst wilt maken. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -484,7 +484,7 @@ Deze actiemodule maakt een nieuwe lijst in SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Add Columns]</td> 
-   <td>Voer voor elke kolom die u voor de nieuwe lijst wilt instellen een <strong>[!UICONTROL Name]</strong> voor het veld en selecteert u de <strong>[!UICONTROL Type]</strong> van waarde die de nieuwe kolom moet hebben.</td> 
+   <td>Voor elke kolom die u voor de nieuwe lijst wilt plaatsen, ga <strong>[!UICONTROL Name]</strong> voor het gebied in, en selecteer <strong>[!UICONTROL Type]</strong> van waarde die u de nieuwe kolom wilt hebben.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -499,13 +499,13 @@ Deze actiemodule retourneert de gegevens van een opgegeven lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a List]</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>Lijst-id</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ga of kaart <strong>[!UICONTROL Site ID]</strong> en <strong> identiteitskaart van de Lijst </strong> op de gebieden in die verschijnen.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijst bevat die u wilt ophalen en selecteer vervolgens de lijst. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -522,13 +522,13 @@ Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst ter
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List Lists]</td> 
    <td> <p>Selecteer hoe u de site wilt identificeren waarvan u lijsten wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de lijsten bevat die u wilt ophalen. In de vervolgkeuzelijst worden alleen de volgende sites opgehaald.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -549,7 +549,7 @@ Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Lists]</td> 
@@ -559,7 +559,7 @@ Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzi
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>Selecteer hoe u de site wilt identificeren en welke lijst u wilt bekijken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> waar de lijst die u wilt controleren zich bevindt.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> in of wijs deze toe op de locatie van de lijst die u wilt controleren.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die u wilt bekijken. Met de vervolgkeuzelijst haalt u alleen de volgende site op.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -570,7 +570,7 @@ Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzi
  </tbody> 
 </table>
 
-### Pagina (bèta)
+### Pagina (Beta)
 
 >[!NOTE]
 >
@@ -586,13 +586,13 @@ Deze actiemodule retourneert de gegevens van een opgegeven pagina.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a Page]</td> 
    <td> <p>Selecteer hoe u de pagina wilt identificeren die u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>en <strong>[!UICONTROL Page ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL Page ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de pagina bevat die u wilt ophalen en selecteer vervolgens de pagina.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -614,13 +614,13 @@ Deze actiemodule retourneert de gegevens van een opgegeven site.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a Site]</td> 
    <td> <p>Selecteer hoe u de pagina wilt identificeren die u wilt ophalen.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die u wilt ophalen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -637,7 +637,7 @@ Deze actiemodule zoekt naar sites op basis van een parameter die u opgeeft.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
@@ -662,13 +662,13 @@ Deze module haalt toevoegingen, updates, en schrappingen terug die in de omslag 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
    <td> <p>Selecteer hoe u de site en de lijst wilt identificeren die het item bevatten dat u wilt bijwerken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL Drive ID]</strong>, en <strong>[!UICONTROL Folder ID]</strong> in de velden die worden weergegeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de velden <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL Drive ID]</strong> en <strong>[!UICONTROL Folder ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die het item bevat dat u wilt bijwerken, selecteer vervolgens het station en selecteer vervolgens de map. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -689,23 +689,23 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL SharePoint] account aan [!DNL Workfront Fusion], zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Verbinden [!DNL SharePoint] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL SharePoint] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL SharePoint] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Een pad invoeren ten opzichte van <code>https://graph.microsoft.com</code>. Voorbeeld:<code> /beta/sites</code></p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van <code>https://graph.microsoft.com</code> . Voorbeeld:<code> /beta/sites</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] Hiermee voegt u de machtigingsheaders voor u toe.</p> </td> 
+   <td> <p>Voeg de kopteksten van de aanvraag toe in de vorm van een standaard JSON-object. Bijvoorbeeld <code>{"Content-type":"application/json"}</code> . [!DNL Workfront Fusion] voegt de machtigingsheaders voor u toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> </td> 
+   <td> <p> Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 
@@ -713,7 +713,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

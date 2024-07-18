@@ -29,8 +29,8 @@ Workfront- of groepsbeheerders kunnen de tekenlimieten in velden niet wijzigen.
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Veldtype</strong> </p> </th> 
-   <th> <p><strong>Limiet tekens (</strong><strong>inclusief spaties)</strong> </p> </th> 
+   <th> <p><strong> Type van Gebied </strong> </p> </th> 
+   <th> <p><strong> Grens van het Karakter (</strong> <strong> met inbegrip van ruimten) </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

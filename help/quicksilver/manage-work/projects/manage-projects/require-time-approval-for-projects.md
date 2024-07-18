@@ -20,7 +20,7 @@ ht-degree: 0%
 -->
 
 U kunt het project vormen om te vereisen dat de uren tegen het project worden geregistreerd door de Eigenaar van het Project worden goedgekeurd. Als deze configuratie zo is, moeten de uren eerst worden goedgekeurd door de eigenaar van het project voordat ze in aanmerking komen voor gebruik op een factureringsrecord.\
-Raadpleeg het artikel voor meer informatie over factureringsrecords [Factureringsrecords maken](../../../manage-work/projects/project-finances/create-billing-records.md).
+Voor meer informatie over het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 >[!NOTE]
 >
@@ -48,11 +48,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten of hoger bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor het project of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemmingen voor het project of hoger weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aanvullende toegang</td> 
@@ -61,7 +61,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
      <li>U bent de Eigenaar van het Project met de toegang en de toestemmingen hierboven gespecificeerd. In dit geval kunt u het volgende doen als een van de onderstaande voorwaarden bestaat: 
       <ul>
        <li>Als u beheerdersmachtigingen voor het project hebt, kunt u uren die door een andere gebruiker zijn aangemeld, goedkeuren of afwijzen.</li>
-       <li> Als u Contribute of de Toegang van de Mening tot het project hebt zult u slechts de uren kunnen goedkeuren of verwerpen die door u of een andere gebruiker worden geregistreerd die u meldt.<br></li>
+       <li> Als u Contribute of de toegang van de Mening tot het project hebt zult u slechts de uren kunnen goedkeuren of verwerpen die door u of een andere gebruiker worden geregistreerd die u meldt.<br></li>
       </ul></li> 
      <li>U hebt een licentie voor abonnementen met beheerdersrechten voor timesheets en uren. In dit geval:
       <ul>
@@ -72,18 +72,18 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Tijd vereisen om te worden goedgekeurd voor een project
 
 U kunt als volgt de goedkeuring van een projectmanager urenlang voor het project vereisen:
 
 1. Ga naar het project waar u goedkeuring urenlang wilt vereisen.
-1. Klik op de knop **Meer** pictogram ![](assets/more-icon.png) rechts van de projectnaam klikt u op **Bewerken**.\
+1. Klik **Meer** pictogram ![](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.\
    Het dialoogvenster Project bewerken wordt weergegeven.
 
-1. In de **Projectinstellingen** sectie, selecteert u **Voor dit project goed te keuren tijd vereisen**.
-1. Klikken **Opslaan**.\
+1. In de **sectie van de Montages van het Project**, uitgezochte **vereist tijd om voor dit project** worden goedgekeurd.
+1. Klik **sparen**.\
    Nu wanneer de tijd wordt geregistreerd en goedgekeurd, worden die uren gesloten en kunnen niet door de gebruiker worden veranderd die hen op het project of timesheet inging. Alleen een Workfront-beheerder kan de opgenomen tijd aanpassen.
 
 ## Tijd voor een project goedkeuren en afwijzen
@@ -92,20 +92,20 @@ Als projectmanager, kunt u uren goedkeuren of verwerpen die voor taken, kwesties
 
 Het goedkeuren van de uren op het projectniveau heeft geen invloed op timesheet van om het even welke gebruikers die de uren registreerden. Bijvoorbeeld, kunnen de uren in het project door de projectmanager worden goedgekeurd, maar timesheet is nog te worden goedgekeurd door de manager van de gebruiker of timesheet fiatteur. 
 
-Als u opstelling een project om goedkeuring op de geregistreerde uren te vereisen, moet de projectmanager de uren goedkeuren opdat zij beschikbaar zijn om in een factureringsverslag voor het project te worden omvat. Raadpleeg het artikel voor meer informatie over het maken van factureringsrecords [Factureringsrecords maken](../../../manage-work/projects/project-finances/create-billing-records.md).
+Als u opstelling een project om goedkeuring op de geregistreerde uren te vereisen, moet de projectmanager de uren goedkeuren opdat zij beschikbaar zijn om in een factureringsverslag voor het project te worden omvat. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 Uren voor een project goedkeuren of afwijzen:
 
 1. Ga naar het project.
-1. Klik op de knop **Uren** in het linkerdeelvenster. Dit kan zich bevinden onder de **Meer weergeven** gebied.
+1. Klik het **gebied van Uren** in het linkerpaneel. Dit zou onder **kunnen worden gevestigd tonen meer** gebied.
 
-1. De uren die voor kwesties, taken, en de projectvertoning worden geregistreerd en zouden een status van moeten hebben **Verzonden**.\
+1. De uren die voor kwesties, taken, en de projectvertoning worden geregistreerd en zouden een status van **moeten hebben voorgelegd**.\
    Klik op het vakje links van de uurvermeldingen om de uren te selecteren die u wilt goedkeuren.
 
-1. Klikken **Goedkeuren**.\
-   De status van de uren verandert in **Goedgekeurd**.\
-   Als u de goedgekeurde uren later afwijst, verandert de status van de uren in **Niet goedgekeurd**.\
-   Wanneer u de goedgekeurde uren opneemt in een factureringsrecord, verandert de status van de uren in **Gefactureerd en goedgekeurd**. De uren die aan een factureringsverslag worden toegevoegd kunnen niet worden geschrapt. Raadpleeg het artikel voor meer informatie over het maken van factureringsrecords [Factureringsrecords maken](../../../manage-work/projects/project-finances/create-billing-records.md)
+1. Klik **goedkeuren**.\
+   Het statuut van de urenveranderingen in **Goedgekeurd**.\
+   Als u later de goedgekeurde uren verwerpt, verandert het statuut van de uren in **niet Goedgekeurd**.\
+   Wanneer u de goedgekeurde uren in een het facturerings verslag omvat, verandert het statuut van de uren in **In rekening gebracht en goedgekeurd**. De uren die aan een factureringsverslag worden toegevoegd kunnen niet worden geschrapt. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren
 
-1. (Optioneel) Klik op **Afwijzen** om de tijdsinvoer voor het project af te wijzen.\
-   De status van de uren verandert in **Geweigerd**.
+1. (Facultatief) klik **Weigeren** om de tijdingangen op het project te verwerpen.\
+   Het statuut van de urenveranderingen in **Afgewezen**.

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met 
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor meer informatie over herstelde items raadpleegt u [Verwijderde items herstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Voor meer informatie over herstelde punten, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Toegangsvereisten
 
@@ -40,7 +40,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -49,16 +49,16 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Onlangs herstelde items van een groep weergeven en beheren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik op de naam van de groep.
-1. Klik in het linkerdeelvenster op **Onlangs hersteld**.
+1. In het linkerpaneel, klik **onlangs Herstelde**.
 1. Open een van de volgende tabbladen waarin u de onlangs herstelde items van de groep wilt weergeven en beheren:
 
    * Projecten
@@ -77,11 +77,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>De volledige lijst met objecten op het tabblad exporteren</p> </td> 
-      <td> <p>Klikken <strong>Exporteren</strong>.</p> </td> 
+      <td> <p>Klik <strong> Uitvoer </strong>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>De weergave van informatie in de lijst wijzigen</p> </td> 
-      <td> <p>Gebruik in de rechterbovenhoek boven de lijst <strong>Filter</strong> om te bepalen wat wordt getoond gebaseerd op criteria u verstrekt. Gebruiken <strong>Weergave</strong> om te bepalen welke gebieden als kolommen worden getoond. Gebruiken <strong>Groepering</strong> om de objecten in rubrieken te groeperen.</p> </td> 
+      <td> <p>In de hoger-juiste hoek boven de lijst, gebruik <strong> Filter </strong> om te bepalen wat wordt getoond gebaseerd op criteria u verstrekt. Gebruik <strong> Mening </strong> om te bepalen welke gebieden als kolommen worden getoond. Gebruik <strong> Groepering </strong> om de punten in categorieën te groeperen.</p> </td> 
      </tr> 
     </tbody> 
    </table>

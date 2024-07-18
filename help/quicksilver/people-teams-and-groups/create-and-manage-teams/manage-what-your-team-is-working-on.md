@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Beheer waaraan uw team werkt
 
-U ziet een lijst met items waaraan uw team werkt in het dialoogvenster [!UICONTROL Team Requests] van uw team.
+In de sectie [!UICONTROL Team Requests] van uw team kunt u een lijst met items weergeven waaraan uw team werkt.
 
-U kunt niet-toegewezen items toewijzen, huidige toewijzingen aanpassen, huidige toewijzingen aanpassen en meer in het deelvenster [!UICONTROL Workload Balancer] van uw team.
+U kunt niet-toegewezen items toewijzen, de huidige toewijzingen aanpassen, de huidige toewijzingen aanpassen en meer opgeven in de sectie [!UICONTROL Workload Balancer] van uw team.
 
-Voor gedetailleerde informatie over hoe te om het werk te beheren dat aan uw team wordt toegewezen, zie [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Zie [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) voor meer informatie over het beheren van taken die aan uw team zijn toegewezen.
 
 ![](assets/team-page-with-team-requests-and-balancer-sections-left.png)

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Voorkeuren voor tijdpagina's en uren configureren
-description: Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in specificeren [!DNL Workfront] om te bepalen welke punten timesheets met kunnen vooraf invullen en welke punten gebruikers tijd aan registreren kunnen.
+description: Als  [!DNL Adobe Workfront]  beheerder, kunt u voorkeur voor timesheets en uren in  [!DNL Workfront]  specificeren om te bepalen welke punten de timesheets met kunnen pre-bevolken en welke punten gebruikers tijd kunnen registreren aan.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in specificeren [!DNL Workfront] om te bepalen welke punten timesheets met kunnen vooraf invullen en welke punten gebruikers tijd aan registreren kunnen.
+Als [!DNL Adobe Workfront] -beheerder kunt u voorkeuren opgeven voor tijdbladen en uren in [!DNL Workfront] om te definiëren met welke items de tijdbladen vooraf kunnen worden ingevuld en welke items gebruikers zich kunnen aanmelden.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Als [!DNL Adobe Workfront] beheerder, kunt u voorkeur voor timesheets en uren in
 >* Items die zijn vastgezet aan de tijdpagina
 >* Items die u zoekt en die u handmatig toevoegt aan de tijdpagina. Items die handmatig worden toegevoegd, worden standaard vastgezet.
 >
->Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md) en [Overzicht van tijdschriften](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md) en [ overzicht van de Tijdopnemer ](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 
 
@@ -58,28 +58,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p>  </td>
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p>  </td>
 </tr> 
  </tbody> 
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voorkeuren voor tijdbladen en uren instellen
 
 {{step-1-to-setup}}
 
-1. Klikken **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
+1. Klik op **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]** .
 
    De pagina Voorkeuren tijdbladen en uren wordt weergegeven.
 
-1. (Optioneel) In het dialoogvenster **Voorkeuren voor systeemtijdbladen en -uren** in het zoekvak typt u de naam van een groep en selecteert u deze wanneer de groep in de lijst wordt weergegeven.
+1. (Facultatief) in de **het onderzoekvakje van de Tijdopnamen en van de Huren van het Systeem**, begin de naam van een groep te typen, dan het te selecteren wanneer het in de lijst toont.
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   De pagina met voorkeuren voor tijdbladen en uren wordt bijgewerkt met de voorkeuren voor de groep die u hebt geselecteerd. Voorkeuren op systeemniveau moeten zijn ontgrendeld om voorkeuren op groepsniveau te kunnen wijzigen. Zie de sectie voor meer informatie [Tijdschema en uurvoorkeuren voor groepen ontgrendelen](#unlock-timesheet-and-hour-preferences-for-groups) in dit artikel.
+   De pagina met voorkeuren voor tijdbladen en uren wordt bijgewerkt met de voorkeuren voor de groep die u hebt geselecteerd. Voorkeuren op systeemniveau moeten zijn ontgrendeld om voorkeuren op groepsniveau te kunnen wijzigen. Voor meer informatie, zie de sectie [ timesheet en uurvoorkeur voor groepen ](#unlock-timesheet-and-hour-preferences-for-groups) in dit artikel ontgrendelen.
 
-1. In de **[!UICONTROL General preferences]** configureren, configureert u een van de volgende opties:
+1. Configureer in de sectie **[!UICONTROL General preferences]** een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,21 +91,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
        <ul> 
         <li>Om het even welke projecten, taken, en kwesties waar zij toegang tot logboektijd hebben</li> 
         <li>Hun tijdschema's als Algemene Tijd</li> 
-       </ul> <p>Dit is nuttig wanneer de gebruikers van plan zijn om vanaf het bureau weg te zijn en die tijd willen vooraf registreren.</p> <p><b>OPMERKING</b>:</p> 
+       </ul> <p>Dit is nuttig wanneer de gebruikers van plan zijn om vanaf het bureau weg te zijn en die tijd willen vooraf registreren.</p> <p><b> NOTA </b>:</p> 
        <p>U kunt niet voorkomen dat gebruikers zich aanmelden bij taken of problemen die zijn gesloten of geannuleerd. U kunt gebruikers slechts verhinderen om tijd op volledige of dode projecten te registreren. Wij adviseren dat u filters in lijsten van taken en kwesties gebruikt om degenen uit te sluiten die zijn voltooid of geannuleerd zichtbaar aan gebruikers zijn.</p> </td> 
      </tr>
 
    <tr> 
       <td role="rowheader">[!UICONTROL Assign Job Roles to hour entries manually]</td> 
-      <td> <p>Gebruikers toestaan handmatig een taakrol te selecteren die in hun gebruikersprofiel is toegewezen of aan het object is toegewezen.</p> <p><b>BELANGRIJK</b>:  
+      <td> <p>Gebruikers toestaan handmatig een taakrol te selecteren die in hun gebruikersprofiel is toegewezen of aan het object is toegewezen.</p> <p><b> BELANGRIJK </b>:  
         <ul> 
-         <li>Als u dit het plaatsen na het toewijzen van baanrollen aan uuringangen onbruikbaar maakt, moeten de gebruikers uren aanpassen die onder diverse rollen op worden geregistreerd [!UICONTROL Hours] tabblad van het project, de taak of de uitgave.</li> 
-         <li>Als aan de gebruiker geen taakrol is toegewezen in zijn profiel en er een taak is toegewezen als de [!UICONTROL Task Owner] in de [!UICONTROL Advanced Assignments] wordt die taakrol weergegeven wanneer de gebruiker zich aanmeldt bij de taak.</li> 
+         <li>Als u deze instelling uitschakelt nadat u taakrollen hebt toegewezen aan uren, moeten gebruikers de uren aanpassen die zijn geregistreerd onder verschillende rollen op het tabblad [!UICONTROL Hours] van het project, de taak of de uitgave.</li> 
+         <li>Als er geen taakrol is toegewezen aan de gebruiker in het profiel en er een taak is toegewezen als [!UICONTROL Task Owner] in het dialoogvenster [!UICONTROL Advanced Assignments] , wordt die taakrol weergegeven wanneer de gebruiker zich op de taak aanmeldt.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and administrators]</td> 
-      <td> <p>Bewerken beperken tot eigenaars van tijdbladen en [!DNL Workfront] beheerders. Als deze optie is uitgeschakeld, kunt u tijdbladen ook bewerken door:</p> 
+      <td> <p>Bewerken beperken tot eigenaars van tijdbladen en [!DNL Workfront] -beheerders. Als deze optie is uitgeschakeld, kunt u tijdbladen ook bewerken door:</p> 
        <ul> 
         <li> <p>Gebruikers met beheerbare toegang tot timesheets en uren op hun toegangsniveau</p> </li> 
         <li> <p>Goedkeuringen van tijdspagina als "Kan uren uitgeven"op timesheet wordt toegelaten</p> </li> 
@@ -114,36 +114,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Restrict hour editing to owners and administrators]</td> 
-      <td>Bewerken beperken tot de gebruiker die de uren en [!DNL Workfront] beheerders. Deze instelling is van toepassing op de [!UICONTROL Hours] in een project of in een rapport van Uren.</td> 
+      <td>Beperk het bewerken tot de gebruiker die de uren invoert en tot [!DNL Workfront] -beheerders. Deze instelling is van toepassing op het tabblad [!UICONTROL Hours] in een project of in een Uren-rapport.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. In de **[!UICONTROL Where users can log time]** configureren, configureert u een van de volgende opties:
+1. Configureer in de sectie **[!UICONTROL Where users can log time]** een van de volgende opties:
 
    <table style="table-layout:auto">
     <tr>
         <td>[!UICONTROL Directly on projects]</td>
-        <td>Staat gebruikers toe om tijd op het project (zowel op [!UICONTROL Updates] (en tijdblad). Als de gebruikers geen tijd op het projectniveau registreren, zouden deze opties ongecontroleerd moeten blijven.</td>
+        <td>Hiermee kunnen gebruikers zich aanmelden bij het project (zowel op de tab [!UICONTROL Updates] als op het tijdblad). Als de gebruikers geen tijd op het projectniveau registreren, zouden deze opties ongecontroleerd moeten blijven.</td>
     </tr>
     <tr>
         <td>[!UICONTROL On projects that are complete]</td>
-        <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd vastleggen voor het werk dat zij hebben uitgevoerd voor projecten in het dialoogvenster [!UICONTROL Complete] status.</td>
+        <td>Staat gebruikers toe om tijd op een project te registreren dat volledig is gemerkt. Als deze optie is uitgeschakeld, kunnen gebruikers geen tijd opnemen voor het werk dat ze in de status [!UICONTROL Complete] aan projecten hebben voltooid.</td>
     </tr>
     <tr>
         <td>[!UICONTROL On projects that are dead]</td>
-        <td>Wanneer deze optie is ingeschakeld, kunnen gebruikers uren aanmelden bij projecten met een [!UICONTROL Dead] status.</td>
+        <td>Wanneer deze optie is ingeschakeld, kunnen gebruikers uren aanmelden bij projecten met de status [!UICONTROL Dead] .</td>
     </tr>
    </table>
 
-1. In de **[!UICONTROL Pre-populate timesheets]** configureren, configureert u een van de volgende opties:
+1. Configureer in de sectie **[!UICONTROL Pre-populate timesheets]** een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Work that is within] &lt;number of weeks&gt; [!UICONTROL of the timesheet's work range]</td> 
+      <td role="rowheader">[!UICONTROL Work that is within] &lt;aantal weken&gt; [!UICONTROL of the timesheet's work range]</td> 
       <td> <p>Bepaalt het aantal weken vóór en na de datumwaaier van timesheet die data van taken en kwesties bevat die aan de gebruiker worden toegewezen.</p> 
       <p>De standaardinstelling is 1 week en u kunt dit bereik uitbreiden tot 4 weken.</p> 
       <p>Dit betekent dat het tijdschema vooraf gevuld is met taken en kwesties die data tussen vier weken vóór de datumwaaier van timesheet hebben tot vier weken na de datumwaaier van timesheet, als u 4 weken voor uw waaier selecteert. </p> </td> 
@@ -163,7 +163,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. In de **[!UICONTROL Deleted projects, tasks, and issues]** in de sectie, geeft u het volgende op:
+1. Geef in de sectie **[!UICONTROL Deleted projects, tasks, and issues]** het volgende op:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -182,7 +182,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td> 
        <ul> 
         <li><strong>[!UICONTROL Move any logged time to the project]</strong> waar de taak of uitgave zich bevindt: Als deze taak of uitgave later wordt hersteld, blijft de tijd op het project.<br></li> 
-        <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Als deze taak of uitgave later wordt hersteld, wordt de geregistreerde tijd hersteld aan de taak of de kwestie.</p> <p>Zie voor meer informatie over deze opties <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] op uren dat een object wordt verwijderd en hersteld</a>.</p> </li> 
+        <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: Als deze taak of uitgave later wordt hersteld, wordt de geregistreerde tijd hersteld aan de taak of de kwestie.</p> <p>Zie <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] Uren wanneer een object wordt verwijderd en hersteld </a> voor meer informatie over deze opties.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,22 +196,22 @@ De groepen in uw organisatie zouden timesheets of de voorkeur van het uur kunnen
 
 Wanneer een voorkeur wordt ontgrendeld en een groepsbeheerder het wijzigt, beïnvloedt het timesheet eigenaars als de groep hun Groep van het Huis is.
 
-Voor informatie over hoe een groepsbeheerder timesheet en uurvoorkeur voor een groep vormt, zie [Voorkeuren voor tijdschriften en uren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Voor informatie over hoe een groepsbeheerder timesheet en uurvoorkeur voor een groep vormt, zie [ timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
 
 >[!NOTE]
 >
->Na een [!DNL Workfront] de beheerder ontgrendelt een voorkeur op systeemniveau, kan om het even welke groepsbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] de beheerder moet een voorkeur voor iedereen in het systeem vormen en sluiten. Zie voor meer informatie [Een groepsoverzicht en uurvoorkeur vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ Slot of ontgrendel een groep timesheet en een uurvoorkeur ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 Een projectvoorkeur ontgrendelen zodat groepen deze kunnen configureren:
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Timesheets & Hours]** en klik vervolgens op **[!UICONTROL Preferences]**.
+1. Klik in het linkerdeelvenster op **[!UICONTROL Timesheets & Hours]** en klik vervolgens op **[!UICONTROL Preferences]** .
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u wilt dat groepsbeheerders een voorkeur voor hun groepen kunnen vormen, klik **ontgrendelen** schakelen ![](assets/unlock-toggle-button.png) om het te ontgrendelen.
-   * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het de knevel gesloten is ![](assets/locked-preference-toggle.png) (dit is de standaardwaarde).
+   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, klik **ontgrendelen** knevel ![](assets/unlock-toggle-button.png) om het te ontgrendelen.
+   * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het de knevel gesloten ![](assets/locked-preference-toggle.png) is (dit is het gebrek).
 
      >[!IMPORTANT]
      >

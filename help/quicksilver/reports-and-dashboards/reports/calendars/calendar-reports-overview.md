@@ -24,7 +24,7 @@ Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging 
 * Problemen
 * Projecten
 
-Uw mogelijkheden om kalenderrapporten te openen in [!DNL Adobe Workfront] wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Uw vermogen om tot kalenderrapporten in [!DNL Adobe Workfront] toegang te hebben wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Uw eigen kalenders maken
 
@@ -40,18 +40,18 @@ Uw mogelijkheden om kalenderrapporten te openen in [!DNL Adobe Workfront] wordt 
 >
 >De persoonlijke kalender wordt niet gecreeerd als u toegang tot andere kalenders, zoals een systeem-brede gedeelde kalender of kalenders hebt die specifiek met u worden gedeeld.
 
-Bovendien kunt u kalenders en toegangskalenders tot stand brengen die met u door andere gebruikers worden gedeeld. Er is geen limiet voor het aantal kalenders waartoe u toegang kunt hebben [!DNL Workfront].
+Bovendien kunt u kalenders en toegangskalenders tot stand brengen die met u door andere gebruikers worden gedeeld. Er is geen limiet aan het aantal kalenders waartoe u toegang kunt hebben in [!DNL Workfront] .
 
 >[!NOTE]
 >
->U moet [!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te creëren. Neem contact op met uw [!DNL Workfront] beheerder voor meer informatie.
+>U moet [!UICONTROL Edit] toegang hebben tot [!UICONTROL Reports] , [!UICONTROL Dashboards] en [!UICONTROL Calendars] in uw toegangsniveau om een kalenderrapport te maken. Neem contact op met de [!DNL Workfront] -beheerder voor meer informatie.
 
 ## Items groeperen op datums
 
 Binnen elk kalenderrapport, kunt u groepen punten tot stand brengen die u toestaan om de nadruk van de kalender te beperken. Bijvoorbeeld, kon u een kalendergroep hebben die de data voor alle taken op een specifiek project, de marketing teamleden die momenteel aan het project werken, en de achterstallige kwesties toont die aan het projectteam worden toegewezen. Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Gebruiken [!UICONTROL Planned Dates] in een kalenderverslag](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-* [Gebruiken [!UICONTROL Projected Dates] in een kalenderverslag](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+* [[!UICONTROL Planned Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [[!UICONTROL Projected Dates] gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Aangepaste datumvelden gebruiken in een kalenderrapport](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
 >[!NOTE]
@@ -60,4 +60,4 @@ Binnen elk kalenderrapport, kunt u groepen punten tot stand brengen die u toesta
 
 ## Uw kalenders toevoegen aan een dashboard
 
-U kunt uw kalenderrapporten snel toegang hebben door hen op een dashboard te tonen. Ga voor meer informatie over het toevoegen van een kalender aan een dashboard naar [Een dashboard bewerken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+U kunt uw kalenderrapporten snel toegang hebben door hen op een dashboard te tonen. Leren hoe te om een kalender aan een dashboard toe te voegen, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uitgeven.

@@ -9,14 +9,14 @@ feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
 
 # Gegevens bewerken in aangepaste formuliervelden
 
-U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een object is gekoppeld. Zie voor informatie over het toevoegen van aangepaste formulieren aan objecten [Een aangepast formulier toevoegen aan een object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een object is gekoppeld. Voor informatie over het toevoegen van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -36,48 +36,48 @@ U moet het volgende hebben:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot het object waarvoor u het aangepaste formulier wilt bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang bewerken tot het object waarvoor u het aangepaste formulier wilt bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objectmachtigingen</p> </td> 
    <td> 
     <ul> 
-     <li> <p>Contribute of hoger voor het object waarvoor u het aangepaste formulier wilt bewerken</p> </li> 
-     <li>Machtigingen weergeven voor de velden die u wilt bewerken. Zie voor informatie over het delen van machtigingen voor aangepaste velden <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Delen voor aangepaste velden en widgets configureren</a>.</li> 
+     <li> <p>Contribute- of hogere machtigingen voor het object waarvoor u het aangepaste formulier wilt bewerken</p> </li> 
+     <li>Machtigingen weergeven voor de velden die u wilt bewerken. Voor informatie over het delen van toestemmingen voor douanegebieden, zie <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref"> het delen voor douanegebieden en widgets </a> vormen.</li> 
      <li> <p>Machtigingen bewerken voor de secties in het formulier waar de velden die u wilt bewerken zich bevinden</p> </li> 
-    </ul> <p>Zie voor informatie over het aanvragen van aanvullende toegang voor objecten <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+    </ul> <p>Voor informatie bij het vragen van om extra toegang voor voorwerpen, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
-* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Zie voor meer informatie [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 * Er moeten aangepaste formulieren aan een object zijn gekoppeld.
 
-  Voor informatie over hoe u aangepaste formulieren op een object kunt toepassen, raadpleegt u [Een aangepast formulier toevoegen aan een object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  Voor informatie over hoe te om douaneformulieren op een voorwerp toe te passen, zie [ een douaneformulier aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Informatie bewerken op een aangepast formulier
 
-Het bewerken van gegevens op een aangepast formulier dat aan een object is gekoppeld, is identiek voor alle objecten. Voor informatie over welke objecten een aangepast formulier kunnen bevatten, raadpleegt u [Overzicht van aangepaste formulieren](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Het bewerken van gegevens op een aangepast formulier dat aan een object is gekoppeld, is identiek voor alle objecten. Voor informatie over welke voorwerpen een douanevorm kunnen hebben, zie [ overzicht van de Vorm van de Douane ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Ga naar een object waarvan u de gegevens in het aangepaste formulier wilt bewerken.
-1. Klikken **`<Object type>`Details** in het linkerdeelvenster.
+1. Klik op **`<Object type>`Details** in het linkerdeelvenster.
 
-   Als u bijvoorbeeld gegevens bewerkt op een aangepast formulier voor een project, klikt u op **Projectdetails**.
+   Bijvoorbeeld, wanneer het uitgeven van informatie over een vorm van de projectdouane, klik **Details van het Project**.
 
 1. Blader naar het aangepaste formulier. Als er een aangepast formulier aan het object is gekoppeld, wordt de naam van het formulier als een gebied weergegeven in de sectie Details.
 1. Klik zo nodig op de pijl ![](assets/expand-arrow-right.png) links van de naam van het aangepaste formulier om het uit te vouwen.
-1. Klik rechtsboven op de pagina op het pictogram Bewerken ![](assets/edit-icon.png).
+1. Klik in de rechterbovenhoek van de pagina op het pictogram Bewerken ![](assets/edit-icon.png) .
 1. Voer de gegevens in een veld in waartoe u toegang hebt.
 
    ![](assets/click-in-field-to-edit-info-350x132.png)
 
    of
 
-   Als er nog geen gegevens op het formulier zijn ingevoerd, klikt u op **Toevoegen+** voor om het even welk gebied u toegang hebt tot en begint informatie in te gaan.
+   Als geen informatie nog op de vorm is ingegaan, klik **Add+** voor om het even welk gebied u toegang tot hebt en begin informatie in te gaan.
 
    ![](assets/plus-add-to-edit-info-350x180.png)
 
@@ -91,9 +91,9 @@ Het bewerken van gegevens op een aangepast formulier dat aan een object is gekop
    * U kunt tekstvelden alleen opmaken (vet, cursief of onderstrepen) als de gebruiker die het formulier heeft gemaakt, deze heeft ingesteld als een tekstveld met het veldtype Opmaak. Tekstvelden met één regel en tekstvelden met één regel kunnen niet worden opgemaakt.
    * U kunt de tijd van de dag alleen bijwerken in een datumveldtype als de gebruiker die het formulier heeft gemaakt het heeft opgenomen tijdens het maken van het veld.
 
-   Voor informatie over alle veldtypen raadpleegt u [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Voor informatie over alle gebiedstypes, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    >[!IMPORTANT]
    >
@@ -101,16 +101,16 @@ Het bewerken van gegevens op een aangepast formulier dat aan een object is gekop
    >
    >![](assets/nwe-required-custom-field.png)
 
-   Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Zie voor informatie over het handmatig bijwerken van alle berekende aangepaste velden in het object [Alle berekende aangepaste velden voor een object opnieuw berekenen](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel.
+   Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Voor informatie over het manueel bijwerken van alle berekende douanegebieden in uw voorwerp, zie [ alle berekende douanegebieden voor een voorwerp ](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel opnieuw berekenen.
 
    Wanneer afhankelijke velden op de pagina worden gewijzigd, worden berekende velden op het aangepaste formulier dynamisch opnieuw berekend in real-time. U kunt de nieuwe berekende veldwaarde zien zonder het formulier op te slaan, maar deze wordt pas daadwerkelijk toegepast op het formulier en het object als u de wijzigingen opslaat. Dit geldt zowel voor berekende velden op standaardformulieren als voor aangepaste formulieren.
 
-   U kunt ook handmatig alle berekende aangepaste velden voor een object bijwerken wanneer u het object samen met andere objecten in een lijst bulksgewijs bewerkt. Zie voor instructies [Alle berekende aangepaste velden voor meerdere objecten in een lijst opnieuw berekenen wanneer u de objecten bewerkt](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in dit artikel.
+   U kunt ook handmatig alle berekende aangepaste velden voor een object bijwerken wanneer u het object samen met andere objecten in een lijst bulksgewijs bewerkt. Voor instructies, zie [ alle berekende douanegebieden voor veelvoudige voorwerpen in een lijst opnieuw berekenen wanneer het uitgeven van de voorwerpen ](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in dit artikel.
 
 ## Alle berekende aangepaste velden voor een object opnieuw berekenen  {#recalculate-all-calculated-custom-fields-for-an-object}
 
 1. Ga naar de hoofdpagina van het object waarvan u de aangepaste velden opnieuw wilt berekenen.
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de naam van het object klikt u op **Expressies opnieuw berekenen**.
+1. Klik **Meer** menu ![](assets/more-icon.png) aan het recht van de naam van het voorwerp, dan klik **opnieuw berekende Uitdrukkingen**.
 
    Hiermee worden alle aangepaste velden op het formulier van het object opnieuw berekend.
 
@@ -124,9 +124,9 @@ U kunt de aangepaste velden van verschillende objecten handmatig opnieuw bereken
 
 1. Ga naar een lijst met objecten die aangepaste formulieren met berekende velden bevatten.
 1. Selecteer de objecten waarvan u de berekende aangepaste velden wilt bijwerken.
-1. Klik op de knop **Pictogram Bewerken**.
-1. Klikken **Aangepaste Forms** in het linkermenu selecteert u vervolgens **Aangepaste expressies opnieuw berekenen**.
-1. Klikken **Opslaan** **Wijzigingen**.
+1. Klik het **uitgeven pictogram**.
+1. Klik **Forms van de Douane** in het linkermenu, dan selecteren **de Uitdrukkingen van de Douane** opnieuw berekenen.
+1. Klik **sparen** **Veranderingen**.
 
    Workfront berekent alle aangepaste velden voor alle geselecteerde objecten.
 
@@ -137,7 +137,7 @@ U kunt de aangepaste velden van verschillende objecten handmatig opnieuw bereken
 >Aangepaste expressies bulksgewijs herberekenen in een lijst met projecten:
 >
 >1. Ga naar een projectlijst of rapport en selecteer één of verscheidene projecten.
->1. Klik op de knop **Meer** menu ![](assets/more-icon.png)en klik vervolgens op **Aangepaste expressies opnieuw berekenen**.
+>1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **opnieuw berekenen de Uitdrukkingen van de Douane**.
 >
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >

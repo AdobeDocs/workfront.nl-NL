@@ -33,12 +33,11 @@ Of de status vergrendeld of ontgrendeld is, bepaalt of de status voor alle groep
 >
 >  U kunt echter een ontgrendelde systeemstatus verwijderen die wordt gebruikt in een goedkeuringsproces op basis van één gebruik of op groepsniveau dat momenteel in afwachting is van goedkeuring.
 >
->  U kunt een rapport uitvoeren om de objecten te zoeken en de goedkeuringen in behandeling op te lossen en vervolgens opnieuw proberen om de status te verwijderen. Zie voor instructies [Objecten met een bepaalde status weergeven die in behandeling zijn](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
+>  U kunt een rapport uitvoeren om de objecten te zoeken en de goedkeuringen in behandeling op te lossen en vervolgens opnieuw proberen om de status te verwijderen. Voor instructies, zie [ de voorwerpen van de Lijst met een hangende goedkeuringsprocessen gebruikend een bepaalde status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
 >
 >* Statussen die worden gebruikt in goedkeuringsprocessen die momenteel in afwachting zijn van goedkeuring voor ten minste één object in uw systeem.
 
-
-Voor instructies over het verwijderen van een groepsstatus raadpleegt u [Een groepsstatus verwijderen](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
+Voor instructies bij het schrappen van een groepsstatus, zie [ een groepsstatus schrappen ](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
 ## Toegangsvereisten
 
@@ -58,26 +57,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Een aangepaste systeemstatus verwijderen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Projectvoorkeuren** > **Statussen**.
+1. In het linkerpaneel, klik **Voorkeur van het Project** > **Statussen**.
 
-1. Als u de status in het hele systeem wilt verwijderen (ook voor afzonderlijke groepen), klikt u met de muis op de status **Bewerken** zorgt ervoor dat **Vergrendelen voor alle groepen** is geselecteerd. Klikken **Opslaan**.
+1. Om de status over het volledige systeem (met inbegrip van individuele groepen), muis over de status te schrappen, geeft de klik **** uit, dan zorgt ervoor dat **Slot voor alle groepen** wordt geselecteerd. Klik **sparen**.
 
    of
 
-   Als u de systeemstatus wilt verwijderen maar deze voor afzonderlijke groepen wilt behouden, klikt u met de muis op de status **Bewerken** zorgt ervoor dat **Vergrendelen voor alle groepen** is uitgeschakeld. Klikken **Opslaan**.
+   Om de systeemstatus te schrappen maar het voor individuele groepen, muis over de status te behouden, **uitgeeft**, dan zorg ervoor dat **Slot voor alle groepen** niet geselecteerd is. Klik **sparen**.
 
-1. Houd de cursor boven de status die u wilt verwijderen en klik vervolgens op **Verwijderen**.
-1. Klik in het bericht dat wordt weergegeven op **Status verwijderen**.
-1. In de **Status verwijderen** die wordt weergegeven, selecteert u een status in het veld met het label **Stel alle projecten met deze status in op**.
+1. Beweeg over de status u wilt schrappen, dan **Schrapping** klikken.
+1. In het bericht dat verschijnt, klik **Status van de Schrapping**.
+1. In de **doos van de Status van de Schrapping** die toont, selecteer een status op het gebied geëtiketteerd **plaats momenteel alle projecten met deze status aan**.
 
    Projecten die de status gebruikten die u verwijdert, worden ingesteld op de status die u selecteert.
 
@@ -85,4 +84,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Als u bijvoorbeeld een status verwijdert die gelijk is aan Huidig, kunnen alleen statussen worden geselecteerd die ook overeenkomen met Huidig.
 
-1. Klikken **Status verwijderen**.
+1. Klik **Status van de Schrapping**.

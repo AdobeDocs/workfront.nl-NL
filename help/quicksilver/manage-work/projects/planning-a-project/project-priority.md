@@ -67,32 +67,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Typen projectprioriteit in Adobe Workfront
 
 Hier volgt een overzicht van de prioriteiten waarmee u projecten in Adobe Workfront kunt rangschikken:
 
-* **Het veld Projectprioriteit**: U kunt handmatig een prioriteit aan een project toewijzen. In dit artikel wordt beschreven hoe u handmatig een prioriteit aan een project toewijst.
+* **het Prioriteitsgebied van het Project**: U kunt een Prioriteit aan een project manueel toewijzen. In dit artikel wordt beschreven hoe u handmatig een prioriteit aan een project toewijst.
 
-  Zie de sectie voor meer informatie [Overwegingen over projectprioriteit](#considerations-about-project-priority) in dit artikel.
+  Voor meer informatie, zie de sectie [ Overwegingen over projectprioriteit ](#considerations-about-project-priority) in dit artikel.
 
-* **De prioriteit van een project in de Optimizer van het Portfolio**, indien het project aan een portefeuille is gekoppeld:
+* **de prioriteit van een project in Portfolio Optimizer**, als het project met een portefeuille wordt geassocieerd:
 
-  Voor meer informatie over de prioriteit van een project in Portfolio Optimizer, zie in het artikel [Prioriteit geven aan projecten in Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Voor meer informatie over de prioriteit van een project in Portfolio Optimizer, zie in het artikel [ projecten in de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
 
-* **De prioriteit van een project in de Planner van het Middel**: U kunt projecten in de Planner van het Middel manueel voorrang geven, om erop te wijzen welke projecten middelen eerst zouden moeten ontvangen.
+* **de prioriteit van een project in de Planner van het Middel**: U kunt projecten in de Planner van het Middel manueel voorrang geven, om erop te wijzen welke projecten eerst middelen zouden moeten ontvangen.
 
-  Voor meer informatie over het prioriteren van projecten in de Planner van het Middel, zie de &quot;Prioriteit van de Planning van het Project&quot;sectie in het artikel [Overzicht van de navigatie in de bronnenplanner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Voor meer informatie over het prioriteren van projecten in de Planner van het Middel, zie de &quot;sectie van de Prioriteit van de Planning van het Project&quot;in het artikel [ overzicht van de navigatie van de Planner van het Middel ](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Overwegingen over projectprioriteit {#considerations-about-project-priority}
 
@@ -102,7 +102,7 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
 
 * Uw Workfront-beheerder bepaalt de prioriteiten die beschikbaar zijn in Workfront. Nadat zij hen vestigen, zijn zij beschikbaar voor u om met projecten op het Prioritaire gebied te associëren.
 
-  Raadpleeg het artikel voor meer informatie over het maken van prioriteiten in Workfront [Prioriteiten maken en aanpassen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Voor meer informatie over het creëren van Prioriteiten in Workfront, zie het artikel [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 * Wanneer u het Prioriteitsveld van een project bijwerkt, wordt deze Prioriteit niet overgedragen naar de Portfolio Optimizer of de Resource Planner. Het gebied van de Prioriteit van het project is eenvoudig een handmarkering die u op het project plaatst om zijn belang aan andere gebruikers te wijzen.
 * De prioritaire waarde van een project wordt hoofdzakelijk gebruikt voor rapportagedoeleinden.
@@ -111,17 +111,17 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
 * Taken en kwesties hebben ook Prioriteiten, maar de taak, de kwestie, en de projectprioriteiten werken onafhankelijk van elkaar en beïnvloeden elkaar niet automatisch. U kunt een hoog-prioritaire kwestie of een middel-prioritaire taak in een laag-prioritaire project hebben.
 * U kunt de Prioriteit van projecten op de volgende gebieden van Workfront bijwerken:
 
-   * In de **Project bewerken** in.
-   * In de **Projectdetails** tabblad van een project.
+   * In **geef de dialoogdoos van het Project** uit.
+   * In het **lusje van de Details van het Project** van een project.
    * In een projectlijst of rapport.
 
 ## Het veld Projectprioriteit bijwerken
 
 1. Ga naar het project waarvan Prioriteit u wilt bijwerken.
-1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/qs-edit-icon.png) in de rechterbovenhoek van het gebied Projectdetails klikt u op **Overzicht**.
+1. Klik **Details van het Project** in het linkerpaneel.
+1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project, dan klik **Overzicht**.
 
-1. In de **Prioriteit** in het veld selecteert u een van de volgende opties:
+1. Op het **Prioritaire** gebied, selecteer van de volgende opties:
 
    * Geen
    * Laag
@@ -134,6 +134,6 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
 
    ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    U moet met andere gebruikers communiceren en het inzicht hebben wat elk niveau van prioriteit voor het project betekent.

@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 30 november 2020 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Snelheidslimiet voor Workfront Fusion 2.0-webhaken.
 
@@ -32,7 +32,7 @@ We hebben een nieuwe prestatiegarantie geïntroduceerd voor Workfront Fusion 2.0
 
 Eerder waren de aanvragen voor webhaken niet beperkt.
 
-Zie voor meer informatie [Adobe Workfront Fusion-prestatiehandleidingen](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+Voor meer informatie, zie [ de prestatiesgidsen van de Fusie van Adobe Workfront ](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
 ## Een aangepast formulier toevoegen aan een Workfront-object in Workfront Fusion 2.0
 
@@ -40,7 +40,7 @@ Als u aangepaste formulieren aan objecten wilt toevoegen, is Workfront Fusion 2.
 
 Eerder was het niet mogelijk om een Workfront Fusion 2.0-module te gebruiken om een aangepast formulier toe te voegen aan een object in Workfront.
 
-Meer informatie over de Workfront > Dic. Actiemodule, zie [Adobe Workfront-modules](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Meer informatie over de Workfront > Dic. De module van de actie, zie [ modules van Adobe Workfront ](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

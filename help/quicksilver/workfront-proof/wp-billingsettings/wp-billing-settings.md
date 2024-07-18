@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Factureringsinstellingen Workfront Proof
+title: Workfront Proof-factureringsinstellingen
 description: Meer weten over Workfront Proof-facturering?
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende subsecties:
 

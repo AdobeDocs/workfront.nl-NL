@@ -31,12 +31,12 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td>  
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td>  
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>  
    <td> 
-   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p> 
+   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p> 
    <p>of</p> 
    <p>Verouderd: alle </p> 
    </td>  
@@ -44,17 +44,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul> 
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li></ul> 
    <p>of</p> 
-   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p> 
+   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Functies
 
@@ -67,15 +67,15 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 * [remove](#remove-array-value1-value2)
 * [toevoegen](#add-array-value1-value2)
 * [map](#map-complex-array-keykey-for-filteringpossible-values-for-filtering)
-* [schudden]
+* [ willekeurige volgorde ]
 * [sorteren](#sort-array-order-key)
 * [omkeren](#reverse-array)
 * [afvlakken](#flatten-array)
 * [onderscheiden](#distinct-array-key)
-* [toCollection]
+* [ toCollection ]
 * [toArray](#toarray)
 * [arrayDifference](#arraydifference-array1-array2-mode)
-* [dedupliceren]
+* [ deduplicate ]
 
 ### [!UICONTROL join (array; separator)]
 
@@ -125,13 +125,13 @@ Retourneert een primitieve array met waarden van een complexe array. Deze functi
 >
 >  Retourneert een primitieve array met e-mails met een label dat gelijk is aan werk of privé
 
-Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 ### schudden
 
 ### [!UICONTROL sort (array; [order]; [key])]
 
-Sorteert waarden van een array. De geldige waarden van de `order` parameter zijn:
+Sorteert waarden van een array. De geldige waarden voor de parameter `order` zijn:
 
 * `asc`
 
@@ -149,7 +149,7 @@ Sorteert waarden van een array. De geldige waarden van de `order` parameter zijn
 
   niet-hoofdlettergevoelige aflopende volgorde: ..., C, c, B, b, A, a voor tekst.
 
-Gebruik de `key` parameter voor toegang tot eigenschappen in complexe objecten.
+Gebruik de parameter `key` om eigenschappen binnen complexe objecten te benaderen.
 
 Gebruik namen van onbewerkte variabelen voor sleutels.
 
@@ -187,7 +187,7 @@ Hiermee wordt een nieuwe array gemaakt waarin alle elementen van de subarray rec
 
 ### [!UICONTROL distinct (array; [key])]
 
-Hiermee worden duplicaten uit een array verwijderd. Gebruik de &quot;[!UICONTROL key]&quot; argument om eigenschappen binnen complexe objecten te benaderen. Gebruik puntnotatie voor toegang tot geneste eigenschappen. Het eerste item in een array is index 1.
+Hiermee worden duplicaten uit een array verwijderd. Gebruik het argument &quot;[!UICONTROL key]&quot; om toegang te krijgen tot eigenschappen binnen complexe objecten. Gebruik puntnotatie voor toegang tot geneste eigenschappen. Het eerste item in een array is index 1.
 
 >[!INFO]
 >
@@ -221,13 +221,13 @@ Deze functie converteert een verzameling naar een array van sleutelwaardeparen.
 
 Geeft het verschil tussen twee arrays.
 
-Voer een van de volgende waarden in voor de `mode` parameter.
+Voer een van de volgende waarden in voor de parameter `mode` .
 
-* `classic`: Retourneert een nieuwe array die alle elementen van `array1` die niet bestaan in `array2`.
+* `classic`: Geeft een nieuwe array met alle elementen van `array1` die niet bestaan in `array2` .
 
-* `symmetric`: Retourneert een array met elementen die niet voor beide arrays hetzelfde zijn.
+* `symmetric`: retourneert een array met elementen die niet voor beide arrays hetzelfde zijn.
 
-  Met andere woorden, de functie retourneert een array die alle elementen van `array1` die niet bestaan in `array2`en alle elementen van `array2` die niet bestaan in `array1`.
+  Met andere woorden, de functie retourneert een array die alle elementen van `array1` bevat die niet bestaan in `array2` , en alle elementen van `array2` die niet bestaan in `array1` .
 
   >[!INFO]
   >

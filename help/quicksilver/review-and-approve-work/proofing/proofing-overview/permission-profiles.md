@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel.
 
-Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [Overzicht van proefrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Beheerders kunnen aangepaste profielen maken voor gebruikers in uw organisatie. Zie voor meer informatie [Aangepaste profielen configureren in Workfront Proef](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>Beheerders kunnen aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [ douaneprofielen in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -48,31 +48,31 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
   <tr>
    <td colspan="1" ><strong></strong>
    </td>
-   <td colspan="4" ><strong>Eigen items</strong>
+   <td colspan="4" ><strong> Eigen Punten </strong>
    </td>
-   <td colspan="3" ><strong>Andere gebruikersitems</strong>
+   <td colspan="3" ><strong> Andere gebruikers' punten </strong>
    </td>
-   <td><strong>Beheerder</strong>
+   <td><strong> Admin </strong>
    </td>
   </tr>
   <tr>
    <td>
    </td>
-   <td><strong>Toevoegen</strong>
+   <td><strong> voeg toe </strong>
    </td>
-   <td><strong>Weergave</strong>
+   <td><strong> Mening </strong>
    </td>
-   <td><strong>Bewerken</strong>
+   <td><strong> geeft </strong> uit
    </td>
-   <td><strong>Verwijderen</strong>
+   <td><strong> Schrapping </strong>
    </td>
-   <td><strong>Weergave</strong>
+   <td><strong> Mening </strong>
    </td>
-   <td><strong>Bewerken</strong>
+   <td><strong> geeft </strong> uit
    </td>
-   <td><strong>Verwijderen</strong>
+   <td><strong> Schrapping </strong>
    </td>
-   <td><strong>Bewerken en verwijderen</strong>
+   <td><strong> geef uit en schrap </strong>
    </td>
   </tr>
   <tr>
@@ -139,7 +139,7 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
 
 ### Beheerder
 
-Beheerders hebben toegang tot [Accountinstellingen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en beschikken over de volgende machtigingen:
+De beheerders hebben toegang tot [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en hebben de volgende toestemmingen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Beheerders hebben toegang tot [Accountinstellingen](https://support.workfront.co
  </tbody> 
 </table>
 
-&#42;Alleen beschikbaar in het Workfront Proof-product.
+&#42; beschikbaar slechts in het standalone product van Workfront Proof.
 
 ### Toezichthouder
 

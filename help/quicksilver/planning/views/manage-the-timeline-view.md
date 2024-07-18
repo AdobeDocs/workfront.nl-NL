@@ -30,7 +30,7 @@ role: User
 
 U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Workfront Planning.
 
-Voor informatie over recordweergaven raadpleegt u [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ## Toegangsvereisten
 
@@ -86,13 +86,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Een tijdlijnweergave beheren {#manage-a-timeline-view}
@@ -115,7 +115,7 @@ Overweeg het volgende:
 Een tijdlijnweergave beheren:
 
 1. Ga naar de pagina met recordtypen waarvoor u de tijdlijn wilt weergeven.
-1. Een tijdlijnweergave maken, zoals wordt beschreven in het artikel [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/timeline-view-example.png)
 
@@ -129,23 +129,23 @@ Een tijdlijnweergave beheren:
 1. Voer een van de volgende handelingen uit om door de tijdlijn te navigeren:
 
    * Klik op de pictogrammen links en rechts of gebruik de horizontale schuifbalk om naar voren en naar achteren in de tijdlijn te gaan.
-   * Klikken **Vandaag** om de tijdlijn te centreren op de datum van vandaag.
+   * Klik **vandaag** om de chronologie aan de datum van vandaag te centreren.
    * Selecteer een van de volgende opties in het vervolgkeuzemenu voor het tijdframe om de tijdtoename bij te werken:
 
       * Jaar
       * Kwart
       * Maand
-1. Klikken **Overschakelen naar standaard** weergeven om records in afzonderlijke regels weer te geven <!--check to see if they updated the name of the setting here-->
+1. Klik **Schakelaar aan Standaard** mening om verslagen in afzonderlijke lijnen <!--check to see if they updated the name of the setting here--> te tonen
 
    of
 
-   Klikken **Overschakelen naar compacte weergave** om de records weer te geven waarvan de datums elkaar niet op dezelfde regel snijden. <!--check to see if they updated the name of the setting here-->
+   Klik **Schakelaar aan Compacte mening** om de verslagen te tonen waarvan data niet op de zelfde lijn snijden. <!--check to see if they updated the name of the setting here-->
 
    Records worden standaard weergegeven in de compacte weergave.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik op de knop **Zoeken** pictogram ![](assets/search-icon.png) en begint een sleutelwoord te typen verbonden aan om het even welk gebied van een verslag dat op het scherm toont. Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het 1} Onderzoek ![](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont.** Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,12 +155,12 @@ Een tijdlijnweergave beheren:
 
    1. Druk op Enter op het toetsenbord om naar het volgende gevonden veld te gaan.
    1. (Optioneel) Als er meer dan één overeenkomst is, klikt u op de pijl-omhoog of -omlaag rechts van het trefwoord Zoeken om alle overeenkomende items in de tabel te zoeken.
-   1. Klik op de knop **x** in het zoekvak om het zoekwoord te wissen.
+   1. Klik het **x** pictogram in het onderzoeksvakje om het onderzoekssleutelwoord te ontruimen.
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)
    * [Groepering](#add-grouping)
-   * [Instellingen](#edit-the-timeline-view-settings)
+   * [ Montages ](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Filters toevoegen
@@ -183,7 +183,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
 * Het toevoegen van filters in de tijdlijnweergave is hetzelfde als het toevoegen van filters in de tabelweergave.
 
-  Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Voor meer informatie, zie &quot;filters&quot;sectie in artikel [ toevoegen de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leidt.
 
 * U kunt filteren op gekoppelde recordvelden of opzoekvelden.
 * U kunt filteren door velden op te zoeken waarin meerdere waarden worden weergegeven.
@@ -214,12 +214,12 @@ Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergav
 
 Een groep toevoegen in de tijdlijnweergave:
 
-1. Een tijdlijnweergave maken voor een recordtype, zoals beschreven in het artikel [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klikken **Groepering** in de rechterbovenhoek van de tijdlijnweergave.
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klik **Groepering** in de hoger-juiste hoek van de chronologiemening.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Klik op een van de voorgestelde velden of klik op **Een ander veld kiezen**, zoek naar een ander veld en klik op het veld wanneer het in de lijst wordt weergegeven.
+1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
 
    De groepering wordt automatisch toegepast op de tijdlijn en records worden weergegeven in het groepsvak.
 
@@ -233,14 +233,14 @@ Een groep toevoegen in de tijdlijnweergave:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optioneel) Binnen de **Records groeperen op** klikt u op **x** pictogram rechts van een veld dat is geselecteerd voor de groep om de groep te verwijderen
+1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
 
    of
 
-   Klikken **Alles wissen** alle velden verwijderen.
+   Klik **ontruimen allen** om alle gebieden te verwijderen.
 
-1. Klik buiten de **Records groeperen op** te sluiten.
-1. (Optioneel) Klik op **Instellingen** vervolgens **Kleur** aan kleurcodenegroepen. Zie de klasse [De weergave-instellingen voor de tijdlijn bewerken](#edit-the-timeline-view-settings) in dit artikel.
+1. Klik buiten de **verslagen van de Groep door** doos om het te sluiten.
+1. (Facultatief) klik **Montages**, toen **Kleur** aan kleur-code groeperingen. Voor meer informatie, zie [ uitgeven de sectie van de chronologiemening montages ](#edit-the-timeline-view-settings) in dit artikel.
 
 <!-- 
 
@@ -254,15 +254,15 @@ this is not possible right now; if this is the same functionality as the table v
 
 Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe informatie wordt weergegeven in het tijdlijngedeelte van de weergave.
 
-1. Een tijdlijnweergave maken voor een recordtype, zoals beschreven in het artikel [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klikken **Instellingen**.
-1. Klikken **Datum en tijd** in het linkerdeelvenster selecteert u vervolgens een **Begindatum** en **Einddatum** om weer te geven op de tijdlijn. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is. De balken die de records weergeven, beginnen op de datum die u aangeeft voor de begindatum en eindigen op de datum die overeenkomt met de einddatum.
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klik **Montages**.
+1. Klik **Datum en tijd** in het linkerpaneel, dan de datum van het a **Begin** en een **einddatum** om op de chronologie te tonen. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is. De balken die de records weergeven, beginnen op de datum die u aangeeft voor de begindatum en eindigen op de datum die overeenkomt met de einddatum.
 
    >[!NOTE]
    >
    >Records die geen waarden hebben voor de begin- of einddatum of die later een begindatum hebben dan de einddatum, worden niet weergegeven in de tijdlijnweergave.
 
-1. Klikken **Stijl van balk** in het linkerdeelvenster om aan te geven welke velden u op de recordbalken wilt weergeven.
+1. Klik **stijl van de Bar** in het linkerpaneel, om te wijzen op welke gebieden u op de verslagbars wilt tonen.
 
    Het primaire veld (of de titel) van de record, zoals gedefinieerd in de tabelweergave van de record, wordt standaard geselecteerd. <!--adjust this when the primary field is released??-->
 
@@ -270,29 +270,29 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    >[!NOTE]
    >
-   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de tijdlijnweergave. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de tijdlijnweergave. Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
-1. Klikken **Veld toevoegen** om maximaal vier velden aan de recordbalken toe te voegen.
-1. Klik in het dialoogvenster **Zoeken in velden** en klik op het veld dat u wilt toevoegen.
+1. Klik **voeg gebied** toe om tot 4 gebieden aan de verslagbars toe te voegen.
+1. Klik binnen de **gebieden van het Onderzoek** doos, en klik het gebied u wilt toevoegen.
 
    >[!TIP]
    >
    >   * U moet de velden maken voordat u deze aan de recordbalken kunt toevoegen.
    > 
-   >   * Er moet ten minste één veld zijn geselecteerd. **Naam** is standaard geselecteerd.
+   >   * Er moet ten minste één veld zijn geselecteerd. **Naam** wordt geselecteerd door gebrek.
 
    Aan de rechterkant wordt een voorvertoning weergegeven van hoe de balken eruit zullen zien op de tijdlijn.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Klikken **Kleur** in het linkerdeelvenster om de kleuren van de records en groepen in de tijdlijn aan te passen.
+1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Voorwaardelijk en optioneel) Als u een groepering aan de tijdlijnweergave hebt toegevoegd, kunt u een van de volgende opties selecteren om een kleur in te stellen voor de groepering in het dialoogvenster **Groeperingskleur instellen** sectie:
+1. (Voorwaardelijk en facultatief) als u een groepering aan de chronologiemening toevoegde, selecteer van de volgende opties om een kleur voor de groepering in de **Vastgestelde groeperingskleur** sectie te plaatsen:
 
-   * **Standaard (grijs)**: De kleur van de groepen is ingesteld op grijs. Dit is de standaardinstelling.
-   * **Veldwaarden**: De kleur van de groepen komt overeen met de kleur van het veld waarop u groepeert.
+   * **Gebrek (grijs)**: De kleur van de groeperingen wordt geplaatst aan grijs. Dit is de standaardinstelling.
+   * **waarden van het Gebied**: De kleur van de groeperingen past de kleur van het gebied aan u groepert door.
 
      >[!NOTE]
      >
@@ -309,14 +309,14 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
    >
    >Als u geen groepen hebt toegevoegd aan de tijdlijnweergave, wordt deze sectie niet weergegeven.
 
-1. In de **Recordkleur instellen** selecteert u een van de volgende opties om een kleur in te stellen voor de records:
+1. In de **plaats verslagkleur** sectie, selecteer van de volgende opties om een kleur voor de verslagen te plaatsen:
 
-   * **Recordtype**: De kleur van de records komt overeen met de kleur van het geselecteerde recordtype. Dit is de standaardoptie.
-   * **Veldwaarden**: De kleur van de records komt overeen met de kleur van een veld dat u opgeeft. Ga verder met stap 10. <!--ensure this stays accurate-->
-   * **Groepering**: De kleur van de records komt overeen met de kleur die u voor de groepen hebt opgegeven. Deze optie is grijs als er geen groepen zijn toegepast op de tijdlijnweergave.
-   * **Geen**: Records worden weergegeven in een witte balk.
+   * **type van Verslag**: De kleur van de verslagen past de kleur van het verslagtype aan u selecteerde. Dit is de standaardoptie.
+   * **waarden van het Gebied**: De kleur van de verslagen past de kleur van een gebied aan dat u specificeert. Ga verder met stap 10. <!--ensure this stays accurate-->
+   * **Groepering**: De kleur van de verslagen past de kleur aan die u voor de groeperingen verwees. Deze optie is grijs als er geen groepen zijn toegepast op de tijdlijnweergave.
+   * **niets**: De vertoningen van verslagen in een witte bar.
 
-1. (Voorwaardelijk) Als u **Veldwaarden** voor de recordkleuren selecteert u een veld in het dialoogvenster **De recordkleur afstemmen op** vervolgkeuzelijst.
+1. (Voorwaardelijk) als u **waarden van het Gebied** voor de verslagkleuren selecteerde, selecteer een gebied van **gelijke de verslagkleur aan** drop-down menu.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 
@@ -326,6 +326,6 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Als u geen veld hebt met kleurgecodeerde opties voor het geselecteerde recordtype, wordt deze optie grijs weergegeven.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    De records worden in de tijdlijnweergave weergegeven met de specificaties die u hebt geselecteerd.

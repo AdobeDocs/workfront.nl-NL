@@ -44,7 +44,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -54,7 +54,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -66,7 +66,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -77,7 +77,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bewerken van doelen
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png)en klik vervolgens op **Doelen**.\
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Doelen**.\
    Er wordt een lijst met doelen weergegeven.
 1. Klik op een doel.\
    De doelpagina wordt weergegeven.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. Voer een van de volgende handelingen uit om informatie voor het doel te bewerken:
    * Klik op velden die in de doelkoptekst worden weergegeven om deze bij te werken. Niet alle velden in de koptekst kunnen worden bewerkt.
-   * Klik op de knop **Meer pictogram** ![](assets/more-icon.png) rechts van de doelnaam klikt u op **Bewerken**.
-   * Klikken **Doelgegevens** in het linkerdeelvenster en klik op de knop **Pictogram Bewerken** ![](assets/edit-icon.png) in de rechterbovenhoek klikt u op **Alles bewerken**. Start met het bijwerken van velden in de sectie Goal details.
+   * Klik het **Meer pictogram** ![](assets/more-icon.png) aan het recht van de doelnaam, dan klik **uitgeven**.
+   * Klik **Goal details** in het linkerpaneel en klik **uitgeven pictogram** ![](assets/edit-icon.png) in de hoger-juiste hoek, dan klik **geeft allen** uit. Start met het bijwerken van velden in de sectie Goal details.
 
      >[!IMPORTANT]
      >
@@ -164,28 +164,28 @@ Editing goals differs depending on what environment you use.
 1. (Voorwaardelijk) Afhankelijk van wat u in de vorige stap selecteerde, werk de volgende informatie over het doel bij:
 
    * Werk de volgende informatie in de doelkopbal bij, dan druk binnengaan om uw veranderingen te bewaren:
-      * **Doelnaam**: Klik op de naam van het doel en typ een nieuwe naam.
-      * **Eigenaar**: Klik op de naam van de eigenaar en typ de naam van een gebruiker, team, groep of bedrijf en selecteer de naam wanneer deze wordt weergegeven in de lijst. U kunt slechts één eigenaar voor een doel hebben.
-   * Werk de volgende informatie in het Edit vakje van het Doel bij, dan klik **Opslaan**:
-      * **Doelnaam**
-      * **Periode**: Klik om de tijdsperiode voor het doel bij te werken\
+      * **Goal naam**: Klik de naam van het doel en begin een nieuwe naam te typen.
+      * **Eigenaar**: Klik de naam van de eigenaar, en begin de naam van een gebruiker, een team, een groep, of uw bedrijf te typen, dan het te selecteren wanneer het in de lijst toont. U kunt slechts één eigenaar voor een doel hebben.
+   * Werk de volgende informatie in het Edit vakje van het Doel bij, dan klik **sparen**:
+      * **Goal name**
+      * **Periode**: Klik om de tijdspanne voor het doel bij te werken\
         of\
-        Selecteren **Aangepaste datums inschakelen** om data voor het doel te specificeren **Start** en **Einddata**.
+        Selecteer **douanedata** toelaten om data voor het 2} Begin van het doel **en** Eind data **te specificeren.**
 
         >[!TIP]
         >
-        >Deselecteren **Aangepaste datums inschakelen** om terug te keren naar de oorspronkelijke periode voor het doel.
+        >Deselecteer **douanedata** toelaten om op de originele tijdspanne voor het doel terug te keren.
 
-      * **Goedereneigenaar**
-      * **Beschrijving**: Voeg informatie over het doel toe of werk deze bij.
-   * Werk of herzie informatie in de sectie van de Details van het Doel bij. Zie voor meer informatie [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
+      * **Goal owner**
+      * **Beschrijving**: Voeg of werk informatie over het doel toe bij.
+   * Werk of herzie informatie in de sectie van de Details van het Doel bij. Voor meer informatie, zie [ doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront ](../goal-management/update-goals-in-goal-details-panel.md).
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (Optioneel) Klik op **Voortgangsindicatoren** in het linkerpaneel om resultaten, activiteiten, of projecten aan het doel toe te voegen. Door voortgangsindicatoren toe te voegen, kunt u de voortgang van het doel volgen.
+1. (Facultatief) klik **Indicatoren van de Voortgang** in het linkerpaneel om resultaten, activiteiten, of projecten aan het doel toe te voegen. Door voortgangsindicatoren toe te voegen, kunt u de voortgang van het doel volgen.
 Raadpleeg de volgende artikelen voor meer informatie:
    * [Activiteiten toevoegen aan doelen in Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   * [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../results-and-activities/add-results-to-goals.md).
-   * [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [ voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe ](../results-and-activities/add-results-to-goals.md).
+   * [ voeg projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toe.
 
 </div>

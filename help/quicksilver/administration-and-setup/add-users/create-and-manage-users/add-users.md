@@ -23,15 +23,15 @@ ht-degree: 0%
 >
 >Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u systeembeheerders maken via de Adobe Admin Console.
 >
->Voor instructies over het maken van systeembeheerders in de Adobe Admin Console raadpleegt u [Systeembeheerders beheren in de Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Voor instructies bij het creëren van systeembeheerders in Adobe Admin Console, zie [ systeembeheerders in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 >
 >De beheerders van de groep in organisaties die aan Adobe Admin Console zijn genegeerd kunnen deze procedure gebruiken om gebruikers tot stand te brengen en de gebruiker voor admin goedkeuring voor te leggen.
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 U kunt gebruikers toevoegen in Adobe Workfront door nieuwe individuele gebruikers te maken of bestaande gebruikers te kopiëren.
 
-Voor informatie over hoe u meerdere gebruikers tegelijk kunt importeren, raadpleegt u [Gebruikers importeren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+Voor informatie over hoe te om veelvoudige gebruikers gelijktijdig in te voeren, zie [ de gebruikers van de Invoer ](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
 <!--
 Replace this intro with something like the following when we switch to Admin Console:
@@ -58,14 +58,14 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau voor systeembeheerders. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-     <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Voor informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over <b> Gebruikers </b> die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -80,55 +80,55 @@ Voordat u een gebruiker toevoegt, verzamelt u de informatie over de hieronder ve
 
   >[!NOTE]
   >
-  >U kunt bepalen of gebruikers de contactinformatie van andere gebruikers kunnen bekijken door het plaatsen van de Mening van Gebruikers te verfijnen wanneer het specificeren van toegangsniveaus voor de voorwerpen van Workfront. Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  >U kunt bepalen of gebruikers de contactinformatie van andere gebruikers kunnen bekijken door het plaatsen van de Mening van Gebruikers te verfijnen wanneer het specificeren van toegangsniveaus voor de voorwerpen van Workfront. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 * Wat is de positie van de nieuwe gebruiker binnen het bedrijf? Heeft deze persoon directe meldingen? Aan wie rapporteert deze persoon?
-* Welke functie vervult de persoon? Bestaat deze functie in Workfront? Bestaat er een limiet voor het aantal mensen dat deze functie kan vervullen? Zie voor informatie over het maken van taakrollen [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-* Welk toegangsniveau zou de gebruiker moeten hebben? Bestaat deze al of moet u een nieuwe maken? Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-* In welke thuisgroep moet deze gebruiker zich bevinden? Moet de persoon in meer dan één groep zijn? Zie voor informatie over groepen [Overzicht van groepen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
-* Welk huisteam zou deze gebruiker binnen moeten zijn? Moet de persoon in meer dan één team zitten? Voor informatie over teams, zie [Teams overzicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+* Welke functie vervult de persoon? Bestaat deze functie in Workfront? Bestaat er een limiet voor het aantal mensen dat deze functie kan vervullen? Voor informatie over het creëren van baanrollen, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+* Welk toegangsniveau zou de gebruiker moeten hebben? Bestaat deze al of moet u een nieuwe maken? Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+* In welke thuisgroep moet deze gebruiker zich bevinden? Moet de persoon in meer dan één groep zijn? Voor informatie over groepen, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+* Welk huisteam zou deze gebruiker binnen moeten zijn? Moet de persoon in meer dan één team zitten? Voor informatie over teams, zie [ Overzicht van Teams ](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Welke douaneinformatie moet u met deze gebruiker associëren?
 
-  Als informatie over gebruikers wordt vastgelegd in aangepaste velden die u hebt gemaakt, moet u een aangepast formulier klaar hebben wanneer u een gebruiker maakt. Voor informatie over aangepaste formulieren raadpleegt u [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Als informatie over gebruikers wordt vastgelegd in aangepaste velden die u hebt gemaakt, moet u een aangepast formulier klaar hebben wanneer u een gebruiker maakt. Voor informatie over douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Een nieuwe gebruiker maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
-1. Klikken **Nieuwe gebruiker > Nieuwe gebruiker** om een gebruiker toe te voegen die nog niet aan Workfront is toegevoegd.
+1. Klik **Nieuwe Gebruiker > Nieuwe Gebruiker** om een gebruiker toe te voegen die nog niet aan Workfront is toegevoegd.
 
    of
 
-   Klikken **Nieuwe gebruiker > Gebruikers importeren** om gebruikers toe te voegen door een spreadsheet-importbestand te uploaden.
+   Klik **Nieuwe Gebruiker > de Gebruikers van de Invoer** om gebruikers toe te voegen door een spreadsheetinvoerdossier te uploaden.
 
-   Als u gebruikers importeert, hoeft u deze stappen niet uit te voeren. Zie voor meer informatie [Gebruikers importeren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+   Als u gebruikers importeert, hoeft u deze stappen niet uit te voeren. Voor meer informatie, zie [ de gebruikers van de Invoer ](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
-1. In de **Nieuwe gebruiker** vak dat wordt weergegeven, klikt u op **Geavanceerde opties tonen** en configureert u vervolgens de beschikbare opties om de gegevens van de persoon in te voeren.
+1. In het **Nieuwe vakje van de Gebruiker** dat verschijnt, klik **tonen Geavanceerde Opties**, dan vormen de beschikbare opties om de informatie van de persoon in te gaan.
 
-   Zie voor informatie over deze opties [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Voor informatie over deze opties, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Verlaten **Een uitnodigingsbericht sturen naar deze persoon** ingeschakeld. Als u dit doet, ontvangt de gebruiker een e-mail waar hij of zij een koppeling kan volgen om zijn of haar eigen wachtwoord voor Workfront te maken. Gebruikers die de e-mailuitnodiging niet accepteren en een Workfront-wachtwoord maken, worden in Workfront vermeld als Niet-geregistreerd.
-   * Uitschakelen **Een uitnodigingsbericht sturen naar deze persoon** Typ vervolgens een **Wachtwoord** voor de persoon en bevestig deze in de **Wachtwoord bevestigen** doos. U moet dit wachtwoord delen met de gebruiker buiten Workfront.
+   * Het verlaten **verzendt een uitnodigingsE-mail naar deze persoon** toegelaten. Als u dit doet, ontvangt de gebruiker een e-mail waar hij of zij een koppeling kan volgen om zijn of haar eigen wachtwoord voor Workfront te maken. Gebruikers die de e-mailuitnodiging niet accepteren en een Workfront-wachtwoord maken, worden in Workfront vermeld als Niet-geregistreerd.
+   * Schakel **uit verzend een uitnodigingsE-mail naar deze persoon**, dan type a **Wachtwoord** voor de persoon en bevestig het in **Bevestig Wachtwoord** doos. U moet dit wachtwoord delen met de gebruiker buiten Workfront.
 
    >[!NOTE]
    >
-   >* Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, is de optie Alleen toestaan &lt;sso configuration=&quot;&quot;> Het verificatieveld is verborgen als u de e-mailuitnodiging uitschakelt. De federatie-id of &lt;sso configuration=&quot;&quot;> Het veld Gebruikersnaam blijft zichtbaar.
+   >* Als uw Workfront-beheerder een SSO-integratie met Workfront heeft ingeschakeld, wordt het veld Alleen verificatie toestaan verborgen als u de e-mailuitnodiging uitschakelt. Het veld Federation ID of &lt;SSO Configuration> Gebruikersnaam blijft zichtbaar.
    >
    * Als uw organisatie is aangemeld bij de Admin Console en u een gebruiker toevoegt via Workfront, kunt u geen e-mailuitnodiging verzenden.
    >
    Voor bestaande gebruikers van de Adobe kan de gebruiker al dan niet een e-mail ontvangen over de beschikbaarheid van Workfront. Dit is een voorkeur die door de beheerder van de Adobe voor het product wordt gecontroleerd.
 
-1. Klikken **Deze persoon toevoegen**.
+1. Klik **toevoegen Deze persoon**.
 
    of
 
-   Klikken **Persoon toevoegen en een andere starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
+   Klik **Add Persoon &amp; Begin een andere** om de nieuwe gebruiker te bewaren en een andere toe te voegen.
 
    >[!NOTE]
    >
-   Als u een groepsbeheerder bent die een gebruiker aan een organisatie toevoegt die aan Adobe Admin Console is geregistreerd, zijn de opties voor deze stap **Gebruiker verzenden voor goedkeuring door beheerder** en **Ter goedkeuring verzenden en een andere beginnen**. De gebruiker wordt aangemaakt in een gedeactiveerde en in afwachting van de goedkeuringsstatus. Een Workfront-beheerder moet de gebruiker goedkeuren, die de gebruiker in Workfront activeert en deze aan de Adobe Admin Console toevoegt.
+   Als u een groepsbeheerder bent die een gebruiker aan een organisatie toevoegt die aan Adobe Admin Console is bezet, zijn de opties voor deze stap **gebruikers voor Goedkeuring Admin** en **voorleggen voor Goedkeuring &amp; Begin een andere**. De gebruiker wordt aangemaakt in een gedeactiveerde en in afwachting van de goedkeuringsstatus. Een Workfront-beheerder moet de gebruiker goedkeuren, die de gebruiker in Workfront activeert en deze aan de Adobe Admin Console toevoegt.
 
 ## Een gebruiker kopiëren om een nieuwe te maken
 
@@ -145,17 +145,17 @@ Wanneer u op deze manier een gebruiker maakt, wordt alle informatie van de oorsp
 
 Nieuwe gebruiker maken door een bestaande gebruiker te kopiëren:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
-1. Selecteer de gebruiker die u wilt kopiëren en klik op het pictogram Kopiëren ![](assets/copy-icon.png).
-1. In de **Gebruiker kopiëren** de velden die beschikbaar zijn voor de nieuwe gebruiker bewerken.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Selecteer de gebruiker die u wilt kopiëren en klik op het pictogram Kopiëren ![](assets/copy-icon.png) .
+1. In het **vakje van de Gebruiker van het Exemplaar** dat toont, geef de gebieden beschikbaar voor de nieuwe gebruiker uit.
 
-   Voor informatie over alle gebieden verbonden aan een gebruiker, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Voor informatie over alle gebieden verbonden aan een gebruiker, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
-1. Klikken **Deze persoon toevoegen**.
+1. Klik **toevoegen Deze persoon**.
 
    of
 
-   Klikken **Persoon toevoegen en een andere starten** om de nieuwe gebruiker op te slaan en een andere gebruiker toe te voegen.
+   Klik **Add Persoon &amp; Begin een andere** om de nieuwe gebruiker te bewaren en een andere toe te voegen.
 
 Hiermee maakt u in Workfront een nieuwe account voor de gebruiker.
 

@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Adobe Workfront-beheerders moeten Workfront DAM inschakelen voordat Workfront-gebruikers deze kunnen gaan gebruiken.
 
-Ga voor informatie over hoe u Workfront DAM kunt inschakelen naar [Documentintegratie configureren](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Voor informatie over hoe te om Workfront DAM toe te laten, zie [ documentintegratie ](../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.

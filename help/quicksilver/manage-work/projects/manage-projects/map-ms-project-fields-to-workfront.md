@@ -20,11 +20,11 @@ Projecten in Adobe Workfront en Microsoft Project zijn meestal compatibel. Met d
 * Projecten exporteren uit Microsoft Project en deze importeren in Workfront
 * Exporteer projecten uit Workfront en importeer ze naar Microsoft Project. 
 
-Voor meer informatie over het invoeren van projecten van het Project van Microsoft in aan Workfront, zie [Een project importeren uit een Microsoft-project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+Voor meer informatie over het invoeren van projecten van het Project van Microsoft in Workfront, zie [ een project van het Project van Microsoft invoeren ](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-Voor meer informatie over het exporteren van een project uit Workfront naar Microsoft Project raadpleegt u [Een project exporteren naar een Microsoft-project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
+Voor meer informatie over het uitvoeren van een project van Workfront om het in het Project van Microsoft in te voeren, zie [ Uitvoer een project aan het Project van Microsoft ](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Bij het uitvoeren van dergelijke invoer van gegevens is het belangrijk om te begrijpen hoe de informatie van één toepassing aan andere vertaalt. Meestal zult u enkele handmatige wijzigingen in het project moeten aanbrengen nadat u het importeren hebt voltooid. 
+Bij het uitvoeren van dergelijke invoer van gegevens, is het belangrijk om te begrijpen hoe de informatie van één toepassing aan andere vertaalt. Meestal zult u enkele handmatige wijzigingen in het project moeten aanbrengen nadat u het importeren hebt voltooid. 
 
 ## Overzicht van veldtoewijzing
 
@@ -32,7 +32,7 @@ Bij het uitvoeren van dergelijke invoer van gegevens is het belangrijk om te beg
 >
 >De geplande data komen niet altijd overeen tussen beide systemen. Verschillen tussen Workfront en Microsoft Project zijn te wijten aan schema en verschillen in systeemvoorkeuren. Deze datumverschillen kunnen ook resulteren in verschillen in inspanning, duur, en volledig percentage.
 
-| **Microsoft-projectveld** | **Workfront-veld** |
+| **het Gebied van het Project van Microsoft** | **het Gebied van Workfront** |
 |---|---|
 | Projecttitel | Projectnaam |
 | Begin- en einddatum | Geplande begin- en einddatum |
@@ -62,5 +62,6 @@ Deze velden omvatten onder meer, maar zijn niet beperkt tot:
 * Toewijzingen
 * Taakbeperkingen
 
-   >[!NOTE]
-   Omdat de Beperkingen niet tussen het Project van Microsoft en Workfront in kaart brengen, zorg ervoor dat er voorgangersverhoudingen tussen de taken zijn. Anders is het mogelijk dat de geplande begin- en einddatum van de taken in het geïmporteerde project niet nauwkeurig zijn. 
+  >[!NOTE]
+  >
+  >Omdat de Beperkingen niet tussen het Project van Microsoft en Workfront in kaart brengen, zorg ervoor dat er voorgangersverhoudingen tussen de taken zijn. Anders is het mogelijk dat de geplande begin- en einddatum van de taken in het geïmporteerde project niet nauwkeurig zijn. 

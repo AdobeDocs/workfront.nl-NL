@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -37,25 +37,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken met toegang tot Verwijderen</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot taken raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Toegang verlenen tot taken</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken met toegang tot Verwijderen</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot taken, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref"> Toegang van de Verlening tot taken </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Een taak delen </a>. </p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref"> een taak delen </a>. </p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Begrijp het proces om taken te schrappen
 
-* [Beperkingen voor het verwijderen van taken](#limitations-for-deleting-tasks)
+* [ Beperkingen voor het schrappen van taken ](#limitations-for-deleting-tasks)
 * [Het effect van het verwijderen van taken](#the-impact-of-deleting-tasks)
 
 ### Beperkingen voor het verwijderen van taken  {#limitations-for-deleting-tasks}
 
-* Wanneer een project de status Voltooid heeft, kunt u taken alleen verwijderen als uw Workfront-beheerder of een groepsbeheerder dit heeft toegestaan in het gebied met projectvoorkeuren. Voor informatie over het instellen van projectvoorkeuren raadpleegt u [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Wanneer een project de status Voltooid heeft, kunt u taken alleen verwijderen als uw Workfront-beheerder of een groepsbeheerder dit heeft toegestaan in het gebied met projectvoorkeuren. Voor informatie over vestiging projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * Als de taak uren heeft geregistreerd, moet de Workfront of groepsbeheerder de schrapping van deze taken toestaan door de Voorkeur van de Taak &amp; van de Uitgave in uw instantie van Workfront te vormen. Dit is ook van toepassing wanneer u probeert om projecten te schrappen die taken met het programma geopende uren hebben hen.
 
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-  Voor meer informatie over het toelaten van de schrapping van taken waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor meer informatie over het toelaten van de schrapping van taken waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Het effect van het verwijderen van taken {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ De volgende objecten die aan een taak zijn gekoppeld, worden ook verwijderd wann
 
 * Documenten
 
-  U kunt een taak waarvoor een document is uitgecheckt, niet verwijderen. Zie voor meer informatie over het uitchecken van documenten [Documenten uitchecken](../../../documents/managing-documents/check-out-documents.md).
+  U kunt een taak waarvoor een document is uitgecheckt, niet verwijderen. Voor meer informatie over het controleren van documenten, zie [ Controle uit documenten ](../../../documents/managing-documents/check-out-documents.md).
 
 * Problemen
 * Subtaken
@@ -93,68 +93,68 @@ Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van 
   </MadCap:conditionalText>
   -->
 
-  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 * De kosten van de taak zullen naar het project worden verplaatst.
 
 * De gebruikers die aan de taak of aan de taakgoedkeuring worden toegewezen blijven op het projectteam.
 
-  Voor meer informatie over projectteams, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Voor meer informatie over projectteams, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Taken verwijderen
 
-* [Meerdere taken in een project tegelijk verwijderen](#delete-multiple-tasks-in-a-project-simultaneously)
+* [ Schrap veelvoudige taken in een project gelijktijdig ](#delete-multiple-tasks-in-a-project-simultaneously)
 * [Eén taak verwijderen](#delete-a-single-task)
 
 ### Meerdere taken in een project tegelijk verwijderen  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Projecten**.
+1. Klik **Projecten**.
 1. Klik op de projectnaam die de taken bevat die u wilt verwijderen.
-1. Klikken **Taken** in het linkerdeelvenster.
+1. Klik **Taken** in het linkerpaneel.
 1. Voer een van de volgende handelingen uit:
 
-   1. (Voorwaardelijk) Als de optie **Automatisch opslaan** toggle is ingeschakeld:
+   1. (Voorwaardelijk) wanneer **Autosave** knevel wordt toegelaten:
 
-      1. Selecteer de taken die u wilt verwijderen en klik vervolgens op **Meer**
-      1. Klikken **Verwijderen** vervolgens **Ja, verwijderen** om de schrapping te bevestigen.
+      1. Selecteer de taken u wilt schrappen, dan klikken **Meer**
+      1. Klik **Schrapping**, dan **ja, schrap het** om de schrapping te bevestigen.
 
          De taken worden verwijderd.
 
-   1. (Voorwaardelijk) Klik op de knop **Abonnementsmodus** pictogram en selecteer **Handmatig opslaan** als u de wijzigingen die u in de takenlijst aanbrengt, wilt omkeren.
+   1. (Voorwaardelijk) klik het **pictogram van de Wijze van het Plan** en selecteer **Handboek sparen** als u de veranderingen wilt terugkeren u aan de taaklijst aanbrengt.
 
-      ![Handmatig opslaan selecteren](assets/manual-save-option.png)
+      ![ Uitgezochte Hand sparen ](assets/manual-save-option.png)
 
       Ga als volgt te werk:
 
       1. Selecteer de taken die u wilt verwijderen.
-      1. Klikken **Verwijderen**.
-      1. (Optioneel) Klik op **Ongedaan maken** om de wijziging om te keren en niet de taken te verwijderen.
-      1. Klikken **Opnieuw** als u de wijziging wilt behouden en de taak wilt verwijderen.
-      1. Klikken **Opslaan** om de taken te verwijderen.
+      1. Klik **Schrapping**.
+      1. (Facultatief) klik **ongedaan maken** om uw verandering om te keren en niet de taken te schrappen.
+      1. Klik **opnieuw** als u de verandering wilt houden en de taak schrappen.
+      1. Klik **sparen** om de taken te schrappen.
 
          Taken worden pas verwijderd nadat u de wijzigingen hebt opgeslagen.
 
 ### Eén taak verwijderen {#delete-a-single-task}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Projecten**.
+1. Klik **Projecten**.
 1. Klik op de projectnaam die de taak bevat die u wilt verwijderen.
-1. Klikken **Taken** in het linkerdeelvenster.
+1. Klik **Taken** in het linkerpaneel.
 1. Klik op de naam van de taak die u wilt verwijderen.
-1. Klik op de knop **Meer** pictogram ![](assets/qs-more-menu.png)in de rechterbovenhoek.
+1. Klik **Meer** pictogram ![](assets/qs-more-menu.png) in de hoger-juiste hoek.
 
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
-1. Klikken **Taak verwijderen**.
-1. Als het verwijderen is toegestaan, klikt u op **Ja, verwijderen**.
+1. Klik **Taak van de Schrapping**.
+1. Als de schrapping wordt toegestaan, klik ja **, schrap het**.
 
    Uw Workfront-beheerder of groepsbeheerder staat mogelijk niet toe dat taken worden verwijderd waarvoor uren zijn geregistreerd.
 
-   Voor meer informatie over de toegang en de toestemmingen nodig om een taak te schrappen, zie de sectie [Beperkingen voor het verwijderen van taken](#limitations-for-deleting-tasks) in dit artikel.
+   Voor meer informatie over de toegang en de toestemmingen nodig om een taak te schrappen, zie de sectie [ Beperkingen voor het schrappen van taken ](#limitations-for-deleting-tasks) in dit artikel.
 
 ## Verwijderde taken herstellen
 
-Een Workfront of groepsbeheerder kan taken herstellen binnen 30 dagen nadat ze zijn verwijderd, zoals beschreven in [Verwijderde items herstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Een Workfront of groepsbeheerder kan taken herstellen binnen 30 dagen nadat zij worden geschrapt, zoals die in [ worden beschreven herstelt geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

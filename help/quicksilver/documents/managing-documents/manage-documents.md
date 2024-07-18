@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
 source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ U kunt documenten organiseren en beheren in Workfront in het gebied Documenten.
 
 Deze sectie bevat de volgende artikelen: &#x200B;
 
-* [Het gebied Documenten](../../documents/managing-documents/documents-area.md)
-* [Overzicht van documentdetails](../../documents/managing-documents/document-details-overview.md)
-* [Overzicht van documenten](../../documents/managing-documents/summary-for-documents.md)
-* [Documenten voorvertonen](../../documents/managing-documents/preview-documents.md)
-* [Goedkeuringen van documenten en proefdrukken](../../documents/managing-documents/document-approvals-and-proofing.md)
-* [Een update toevoegen aan een document](../../documents/managing-documents/add-update-documents.md)
-* [Een aangepast formulier toevoegen aan of bewerken in een document](../../documents/managing-documents/add-custom-form-documents.md)
+* [ het gebied van Documenten ](../../documents/managing-documents/documents-area.md)
+* [ Overzicht van de Details van het Document ](../../documents/managing-documents/document-details-overview.md)
+* [ Samenvatting voor documentenoverzicht ](../../documents/managing-documents/summary-for-documents.md)
+* [ de documenten van de Voorproef ](../../documents/managing-documents/preview-documents.md)
+* [ Goedkeuringen en het proef van het Document ](../../documents/managing-documents/document-approvals-and-proofing.md)
+* [ voeg een update aan een document toe ](../../documents/managing-documents/add-update-documents.md)
+* [ voeg of geef een douanevorm aan een document toe uit ](../../documents/managing-documents/add-custom-form-documents.md)
 * [Een koppeling naar een documentmap kopiëren en delen](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md)
-* [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md)
-* [Documentversies beheren](../../documents/managing-documents/manage-document-versions.md)
-* [Documenten controleren](../../documents/managing-documents/check-out-documents.md)
-* [Documenten downloaden](../../documents/managing-documents/download-documents.md)
-* [Documenten verplaatsen](../../documents/managing-documents/move-documents.md)
-* [Documentopslaglimieten controleren](../../documents/managing-documents/check-document-storage.md)
-* [Documenten verwijderen](../../documents/managing-documents/delete-documents.md)
+* [ upload een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md)
+* [ beheer documentversies ](../../documents/managing-documents/manage-document-versions.md)
+* [ Controle uit documenten ](../../documents/managing-documents/check-out-documents.md)
+* [ de Documenten van de Download ](../../documents/managing-documents/download-documents.md)
+* [ de documenten van de Beweging ](../../documents/managing-documents/move-documents.md)
+* [ de grenzen van de documentopslag van de Controle ](../../documents/managing-documents/check-document-storage.md)
+* [ Schrap Documenten ](../../documents/managing-documents/delete-documents.md)
 * [Afbeeldingen plakken vanaf het Klembord](../../documents/managing-documents/paste-image-clipboard.md)

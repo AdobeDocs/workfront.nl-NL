@@ -46,7 +46,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -56,7 +56,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -68,7 +68,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -79,7 +79,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -99,16 +99,16 @@ Houd rekening met het volgende wanneer u de voortgang op het gebied van doelstel
 
   Zie ook de volgende artikelen:
 
-   * Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Voor informatie over hoe Workfront Goals de voortgang op een doel berekent, raadpleegt u [Overzicht van de voortgang en conditie van het doel in de Adobe Workfront-doelstellingen](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+   * Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
+   * Voor informatie over hoe de Doelen van Workfront de vooruitgang op een doel berekent, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * U moet doelen maken en deze activeren voordat u de voortgang kunt bijwerken.
 
   Zie ook de volgende artikelen:
 
-   * Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
-   * Voor informatie over het activeren van doelstellingen, zie [Doelen in Adobe Workfront-doelen activeren](../../workfront-goals/goal-management/activate-goals.md).
+   * Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+   * Voor informatie over het activeren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
 
   >[!IMPORTANT]
   >
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Voortgang van doelen bijwerken:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) > **Doelen** in de rechterbovenhoek.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -255,7 +255,7 @@ Voortgang van doelen bijwerken:
    U kunt ook in het linkerdeelvenster op Uitlijning van doel klikken.
 
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
-1. Klikken **Voortgangsindicatoren** in het linkerdeelvenster.
+1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 
    In de lijst Voortgangsindicatoren worden alle voortgangsindicatoren weergegeven voor het doel dat u hebt geselecteerd.
 
@@ -268,7 +268,7 @@ Voortgang van doelen bijwerken:
    >    De vooruitgang van de kinderdoelen en de voortgang van de projecten leiden op hun beurt tot de voortgang van het geselecteerde doel.
 
 
-1. Als u de voortgang van een resultaat of activiteit wilt bijwerken, klikt u op de waarde in de **Werkelijke voortgang** kolom van het resultaat of de activiteit en typ een aantal om zijn waarde bij te werken, dan druk binnengaan.
+1. Om de vooruitgang van een resultaat of een activiteit bij te werken, klik de waarde binnen de **Ware kolom van de Voortgang** van het resultaat of de activiteit en typ een aantal om zijn waarde bij te werken, dan druk binnengaan.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

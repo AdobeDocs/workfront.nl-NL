@@ -24,6 +24,6 @@ Het type van berichten dat u ontvangt hangt af van of uw bedrijf een Adobe Veren
 
 In de volgende artikelen wordt beschreven welk type berichten u ontvangt over Workfront Planning en hoe u uw voorkeuren kunt beheren:
 
-* [Voorkeuren voor Adobe Workfront-planningsberichten beheren](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+* [ beheert de het berichtvoorkeur van de Planning van Adobe Workfront ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 * [E-mailberichten voor Adobe Workfront Planning beheren](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
 * [In-app-berichten voor Adobe Workfront-planning beheren](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

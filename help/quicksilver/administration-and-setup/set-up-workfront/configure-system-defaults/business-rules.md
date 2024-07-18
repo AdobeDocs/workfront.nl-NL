@@ -57,7 +57,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,20 +65,20 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
 
-De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Zie voor meer informatie over de syntaxis [Berekende velden toevoegen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-Zie voor informatie over IF-instructies [Overzicht van &quot;IF&quot;-instructies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [Operatoren voor voorwaarde in berekende aangepaste velden](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Voor informatie over IF- verklaringen, zie [ &quot;IF&quot;verklaringenoverzicht ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [ de exploitanten van de Voorwaarde in berekende douanevelden ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Voor informatie over op gebruiker-gebaseerde vervangingen, zie [Gebruik op gebruiker gebaseerde jokertekens om rapporten te generaliseren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+Voor informatie over op gebruiker-gebaseerde vervangingen, zie [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
-Voor informatie over op datum gebaseerde vervangingen, zie [Gebruik op datum gebaseerde jokertekens om rapporten te generaliseren](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Voor informatie over op datum-gebaseerde vervangingen, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
-Een API-jokerteken is ook beschikbaar in bedrijfsregels. U kunt `$$ISAPI` om de regel alleen in de gebruikersinterface of alleen in de API te activeren.
+Een API-jokerteken is ook beschikbaar in bedrijfsregels. U kunt `$$ISAPI` gebruiken om de regel alleen in de gebruikersinterface of alleen in de API te activeren.
 
 Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
 
-* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan als volgt worden omschreven: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan als volgt worden omschreven: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan worden weergegeven als: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan worden weergegeven als: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Een scenario met geneste IF-instructies is:
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Klikken **Zakelijke regels** in het linkerdeelvenster.
-1. Klikken **Nieuwe bedrijfsregel**.
-1. Selecteer het objecttype waaraan u de bedrijfsregel wilt toewijzen en klik vervolgens op **Doorgaan**.
+1. Klik **BedrijfsRegels** in het linkerpaneel.
+1. Klik **Nieuwe bedrijfsregel**.
+1. Selecteer het objecten type om de bedrijfsregel aan toe te wijzen, dan klik **verdergaan**.
 
-   ![Een object selecteren](assets/object-for-business-rule2.png)
+   ![ Uitgezocht een voorwerp ](assets/object-for-business-rule2.png)
 
 1. Typ de **Naam** voor de bedrijfsregel.
-1. In de **Is actief** selecteert u of de regel actief moet zijn wanneer u deze opslaat.
+1. Op **is Actief** gebied, selecteer of de regel actief zou moeten zijn wanneer u het bewaart.
 
-   Als u **Nee**, wordt de regel als inactief opgeslagen en kunt u deze later activeren.
+   Als u **Nr** selecteert, wordt de regel bewaard als inactief, en u kunt het later activeren.
 
-1. Selecteer een **Trigger** voor de bedrijfsregel. De opties zijn:
+1. Selecteer a **Trekker** voor de bedrijfsregel. De opties zijn:
 
-   * **Bij het maken van objecten:** De regel wordt toegepast wanneer een gebruiker een object probeert te maken.
-   * **Bij bewerken object:** De regel wordt toegepast wanneer een gebruiker een object probeert te bewerken.
-   * **Op object verwijderen:** De regel wordt toegepast wanneer een gebruiker een object probeert te verwijderen.
+   * **op objecten verwezenlijking:** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp tot stand te brengen.
+   * **op voorwerp uitgeven:** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp uit te geven.
+   * **op voorwerp schrapt:** de regel wordt toegepast wanneer een gebruiker probeert om een voorwerp te schrappen.
 
-1. (Optioneel) Voer een **Beschrijving** van de bedrijfsregel en wat gebeurt wanneer het wordt toegepast.
+1. (Facultatief) ga a **Beschrijving** van de bedrijfsregel in en wat gebeurt wanneer het wordt toegepast.
 1. Bouw de formule in de formules redacteur, in het centrum van de dialoog van de bedrijfsregel.
 
    De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
@@ -127,19 +127,19 @@ IF(
    * Omdat het object en de actie al zijn gedefinieerd, neemt u ze niet op in de formule.
    * Het aangepaste foutbericht wordt aan de gebruiker weergegeven wanneer deze de bedrijfsregel activeert. Het zou duidelijke instructies moeten geven over wat er mis ging en hoe de kwestie te verhelpen.
 
-   ![Dialoogvenster Zakelijke regels toevoegen](assets/add-business-rule-dialog-no-ai-button.png)
+   ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-dialog-no-ai-button.png) toe
 
    Dit voorbeeld is een bedrijfsregel voor uitgaven. Als de huidige maand Juni is, dan kunnen de gebruikers geen nieuwe uitgaven tot stand brengen, en het bericht verklaart dit.
 
-   Voor meer voorbeelden van bedrijfsregels, zie [Scenario&#39;s voor bedrijfsregels](#scenarios-for-business-rules) in dit artikel.
+   Voor meer voorbeelden van bedrijfsregels, zie [ Scenario&#39;s voor bedrijfsregels ](#scenarios-for-business-rules) in dit artikel.
 
-1. (Optioneel) Gebruik de formule **Expressies** en **Velden** in het juiste paneel helpen bij het bouwen van de regel.
+1. (Facultatief) gebruik de formule **Uitdrukkingen** en **Gebieden** in het juiste paneel om bij de bouw van de regel bij te wonen.
 
    Zoeken naar een expressie of veld om de lijst met beschikbare items te beperken.
 
    De lijst met beschikbare velden is beperkt tot velden die betrekking hebben op het objecttype voor de bedrijfsregel.
 
-1. Klikken **Opslaan** wanneer u klaar bent met het bouwen van de bedrijfsregel.
+1. Klik **sparen** wanneer u klaar bent met het bouwen van de bedrijfsregel.
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ Wanneer een bedrijfsregel inactief is, is Actief gebied in de lijst van bedrijfs
 Een bedrijfsregel activeren:
 
 1. Selecteer de bedrijfsregel in de lijst van regels en klik het Edit pictogram.
-1. Selecteren **Ja** for **Is actief** in de dialoog over bedrijfsregels.
-1. Klikken **Opslaan**.
+1. Selecteer **ja** voor **is Actief** in de dialoog van de bedrijfsregel.
+1. Klik **sparen**.

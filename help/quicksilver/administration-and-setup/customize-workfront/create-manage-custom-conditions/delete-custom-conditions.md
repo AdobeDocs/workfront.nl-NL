@@ -35,34 +35,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Een aangepaste voorwaarde verwijderen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Projectvoorkeuren** > **Voorwaarden**.
+1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 
    <!--
    <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
-1. Selecteer de tab van het objecttype (**Project**, **Taak**, of **Probleem**) waar de voorwaarde die u wilt verwijderen zich bevindt.
+1. Selecteer het lusje van het objecten type (**Project**, **Taak**, of **Uitgave**) waar de voorwaarde die u wilt schrappen wordt gevestigd.
 
-1. Houd de muisaanwijzer boven de voorwaarde die u wilt verwijderen en klik op de knop **Verwijderen** pictogram ![](assets/delete.png) dat lijkt helemaal rechts .
-1. Klik in het bevestigingsbericht dat wordt weergegeven op **Voorwaarde verwijderen**.
+1. Beweeg over de voorwaarde u wilt schrappen, dan **Schrapping** pictogram ![](assets/delete.png) klikken dat op uiterst rechts verschijnt.
+1. In het bevestigingsbericht dat verschijnt, klik **Voorwaarde van de Schrapping**.
 
-1. In de **Voorwaarde verwijderen** Selecteer een nieuwe voorwaarde in de vervolgkeuzelijst voor alle projecten die de voorwaarde gebruikten die u verwijdert.
+1. In het **vakje van de Voorwaarde van de Schrapping** dat verschijnt, selecteer een nieuwe voorwaarde in de drop-down lijst voor alle projecten die de voorwaarde gebruikten die u schrapt.
 
    De voorwaarden van de douane zijn beschikbaar in de drop-down lijst slechts als zij met de zelfde ingebouwde voorwaarde evenaart als u schrapt. Als u bijvoorbeeld een voorwaarde verwijdert die overeenkomt met Bij risico, zijn alleen aangepaste voorwaarden die ook overeenkomen met Bij risico beschikbaar om te selecteren.
 
-1. Klikken **Voorwaarde verwijderen**.
+1. Klik **Voorwaarde van de Schrapping**.
 
 >[!NOTE]
 >
 >U kunt niet de ingebouwde voorwaarden schrappen, die op Doel, op Risico, en in Problemen zijn. U kunt de namen en kleuren van de bestanden echter wijzigen.
 
-Voor informatie over aangepaste voorwaarden raadpleegt u [Aangepaste voorwaarden](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Voor informatie over douanevoorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

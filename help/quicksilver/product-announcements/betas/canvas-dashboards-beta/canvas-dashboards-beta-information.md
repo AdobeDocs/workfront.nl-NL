@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # bètagegevens van dashboards op canvas
 
-Canvasdashboards is een eigenschap momenteel in ontwikkeling die u toestaat om uw gegevens van Adobe Workfront gemakkelijk te visualiseren door diverse rapporttypes op een aanpasbaar canvas toe te voegen. Hoewel we u dankbaar zijn voor uw deelname tijdens de bètatestfase, zijn onderdelen van deze functie mogelijk niet compleet of werken ze niet naar behoren. Geef feedback over je ervaring door de instructies in het [Feedback geven](#provide-feedback) hieronder.
+Canvasdashboards is een eigenschap momenteel in ontwikkeling die u toestaat om uw gegevens van Adobe Workfront gemakkelijk te visualiseren door diverse rapporttypes op een aanpasbaar canvas toe te voegen. Hoewel we u dankbaar zijn voor uw deelname tijdens de bètatestfase, zijn onderdelen van deze functie mogelijk niet compleet of werken ze niet naar behoren. Gelieve te dienen om het even welke terugkoppel betreffende uw ervaring door de instructies in [ te volgen verstrekt terugkoppelt ](#provide-feedback) hieronder sectie.
 
-Voor basisinformatie over het gebruik van Canvasdashboards raadpleegt u [Aan de slag met canvasdashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Voor basisinformatie over het gebruiken van de Dashboards van het Canvas, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Bètaschema:**
+**programma Bèta:**
 
-* Gesloten bètabegindatum - TBA
+* Start bètadatum gesloten - TBA
 * bètabegindatum openen - TBA
 * Geplande releasedatum - TBA
 
@@ -33,25 +33,25 @@ Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [Over
 
 Inschrijven in de bètaversie:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik op de knop **Verbinden met de bètaversie van canvasdashboards** bètaknop rechtsboven op de pagina.
+1. Klik **toetreden tot de bètaknoop van de Dashboards van het Canvas** in de hoger-juiste hoek van de pagina.
 
    >[!NOTE]
    >
-   >Deze knoop is beschikbaar slechts als uw organisatie in gesloten bèta is goedgekeurd. Wanneer de open bètaversie begint, is deze beschikbaar voor alle organisaties.
+   >Deze knop is alleen beschikbaar als uw organisatie is geaccepteerd voor de gesloten bètaversie. Wanneer de geopende bètaversie begint, is deze beschikbaar voor alle organisaties.
 
-1. Lees de voorwaarden en klik vervolgens op **Accepteren**. U bent nu ingeschreven voor de bètaversie. Het duurt echter een paar minuten voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvas-dashboards.
+1. Lees de termijnen, dan klik **Accepteren**. U bent nu ingeschreven voor de bètaversie. Houd er echter rekening mee dat het een paar minuten duurt voordat uw Workfront-gegevens volledig toegankelijk zijn in de Canvas-dashboards.
 
 ### Feedback geven
 
-Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van de bètaversie. Volg de onderstaande instructies om uw ervaring met ons te delen.
+Feedback wordt gewaardeerd terwijl we dit gereedschap ontwikkelen gedurende de bètaperiode. Volg de onderstaande instructies om uw ervaring met ons te delen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards**.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Klik op de knop **Feedback verzenden** in de rechterbenedenhoek van de pagina, voert u uw feedback in het formulier in dat wordt weergegeven en klikt u op **Verzenden**.
+1. Klik **verzenden Terugkoppeling** knoop bij de bodem-juiste hoek van de pagina, dan ga uw terug in de vorm die verschijnt en klik **voorleggen**.
 
 ## Geplande functies
 
@@ -59,11 +59,11 @@ Hieronder volgt een lijst van de rapporttypes die momenteel in bèta worden gest
 
 ### Ondersteunde rapporttypen
 
-* Bestaande rapporten (rapporten die zijn gemaakt met het huidige rapportagegereedschap)
+* Bestaande rapporten (rapporten gemaakt met het huidige rapportagegereedschap)
 * Grafiekrapporten
 * KPI-rapporten
 * Tabelrapporten
-* Goedkeuringsrapporten in behandeling
+* Rapporten over goedkeuringen in behandeling
 
 ### Functies in ontwikkeling
 
@@ -78,4 +78,4 @@ Hieronder volgt een lijst van de rapporttypes die momenteel in bèta worden gest
 ### Toekomstige routekaarten
 
 * Vragen op dashboardniveau
-* Ondersteuning voor valuta
+* Currency Support

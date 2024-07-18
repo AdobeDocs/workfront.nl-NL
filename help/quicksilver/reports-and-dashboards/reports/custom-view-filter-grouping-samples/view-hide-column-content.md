@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,9 @@ U kunt informatie in de kolom van een mening willen verbergen. U kunt dit doen d
 >[!TIP]
 >
 >* U kunt verborgen kolommen gebruiken om te sorteren op een bepaald object dat u niet wilt weergeven in de weergave.\
-   >  U kunt bijvoorbeeld sorteren op Taaknummer in een taakweergave en de gegevens van Taaknummer verbergen in de weergave. In dit geval helpt het object waarnaar in de kolom wordt verwezen, de weergave te sorteren, maar wordt de informatie van dat object niet weergegeven in de weergave.
+>  U kunt bijvoorbeeld sorteren op Taaknummer in een taakweergave en de gegevens van Taaknummer verbergen in de weergave. In dit geval helpt het object waarnaar in de kolom wordt verwezen, de weergave te sorteren, maar wordt de informatie van dat object niet weergegeven in de weergave.
 >* Als u een kolom verbergt, ziet u dat de informatie in de kolom verborgen is, maar dat de kolom nog steeds in de weergave voorkomt.
 >
-
 
 ## Toegangsvereisten
 
@@ -47,29 +46,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Voorbeeld: U kunt de kolom Taaknummer in een taakweergave sorteren en verbergen:
 
 1. Ga naar een takenlijst.
-1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen** en begint &quot;Taaknummer&quot; te typen in het dialoogvenster **Tonen in deze kolom** selecteert u het veld wanneer het in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom** en beginnen &quot;Aantal van de Taak&quot;in **tonen in dit kolom** gebied dan selecteren het wanneer het in de lijst toont.
 
-1. Klikken **Overschakelen naar tekstmodus**.
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
 
-   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>De belangrijkste wijzigingen in deze code waardoor de kolom verborgen wordt, zijn:
+   <pre><strong> displayname= </strong> linkedname=direct <br> querysort=taskNumber <br> sortOrder=1 <br> sortType=asc <br> textmode=true <br><strong> value= </strong> valueformat=int <br><strong> width=0 </strong></pre>De belangrijkste wijzigingen in deze code waardoor de kolom verborgen wordt, zijn:
 
    ```
    displayname
@@ -81,12 +80,12 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    valuefield
    ```
 
-   Deze is vervangen door *value* en moet leeg zijn.
+   Dit is vervangen door *waarde*, en moet leeg zijn.
 
    ```
    width
    ```
 
-   : Afhankelijk van het veld moet dit de waarde *0* of *1*.
+   : Afhankelijk van het gebied, moet dit een waarde van *0* of *1* hebben.
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+1. Klik **sparen**, dan **sparen Mening**.

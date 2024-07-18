@@ -35,7 +35,7 @@ U gebruikt licenties om te bepalen wat een gebruiker kan zien en doen in Workfro
 * Verzoek
 * Extern
 
-Zie [Overzicht van verouderde licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) voor een beschrijving van de verschillende licentietypen in Workfront.
+Zie [ het overzicht van de Vergunningen van de Oudheid ](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) voor een beschrijving van de verschillende vergunningstypes in Workfront.
 
 ## Workfront DAM-roltypen
 

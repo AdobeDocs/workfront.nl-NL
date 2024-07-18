@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle veranderingen beschikbaar in het milieu van de Voorproef met R1.3 versie. De functionaliteit op deze pagina is op 1 februari 2017 beschikbaar gesteld in de voorvertoningsomgeving.
 
-Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [Overzicht van de release van R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [ R1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Verbeterde methode voor het koppelen van externe bestanden
 
@@ -28,13 +28,13 @@ Bovendien is het nu intuïtiever om een documentleverancier toe te staan voordat
 
 Vóór deze wijzigingen bevindt de optie voor het koppelen van bestanden uit een externe bron zich in het dialoogvenster Documenten toevoegen in het gebied Documenten. Voordat een document voor het eerst vanuit een externe bron wordt gekoppeld, moest de gebruiker die het document koppelt, de documentprovider autoriseren in het gedeelte Instellen.
 
-Zie voor meer informatie  [Documenten van externe toepassingen koppelen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Zie voor meer informatie  [ de documenten van de Verbinding van externe toepassingen ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Bijgewerkt team dat aan Kalender werkt
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 De kalender Werken aan die beschikbaar is voor teams bevat nu extra functionaliteit en een bijgewerkte look en feel. Het team dat aan kalender werkt functioneert nu gelijkend op het middel die hulpmiddel voor projecten plannen.
 
@@ -70,7 +70,7 @@ De tijdlijn voor planning bevat de volgende verbeteringen:
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Het filter kan nu worden gebruikt om te bepalen welke gebruikers worden weergegeven op de planningstijdlijn, naast welke taken en problemen worden weergegeven in het gebied Niet toegewezen. Wanneer gebruikers in het filter worden geselecteerd, worden alleen de gebruikers weergegeven die u selecteert, ongeacht of ze een roltoewijzing hebben die overeenkomt met de roltoewijzing van taken in het niet-toegewezen gebied. Alle taken die momenteel aan die gebruiker zijn toegewezen, worden ook weergegeven.
 
@@ -120,7 +120,7 @@ In de volgende gebieden wordt de bijgewerkte naam van de objecten niet weergegev
 * Mobiele apps
 * Outlook Add-in
 
-Voor meer informatie over hoe te om de terminologie van Workfront aan te passen gebruikend een Malplaatje van de Lay-out, zie de &quot;Aangepaste sectie van Terminologie&quot;in &quot;het Creëren en het Leiden de Malplaatjes van de Lay-out&quot;en de &quot;Begrip van de Gevolgen van het Aanpassen van de Namen van Objecten&quot;sectie in [Objecten in Adobe Workfront begrijpen](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor meer informatie over hoe te om de terminologie van Workfront aan te passen gebruikend een Malplaatje van de Lay-out, zie de &quot;Aanpasende sectie van Terminologie&quot;in &quot;het Creëren van en het Leiden de Malplaatjes van de Lay-out&quot;en &quot;Begrijpend de Gevolgen van het Aanpassen van de sectie van de Namen van Objecten&quot;in [ voorwerpen in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 ## Begin- en einddatum van goedkeuring opnemen in rapporten
 
@@ -131,9 +131,9 @@ U kunt nu de volgende velden opnemen wanneer u rapporten maakt of wijzigt:
 
 Met deze velden kunt u inzicht krijgen in het moment waarop het huidige of meest recente goedkeuringspad is gestart en het moment waarop het is gemarkeerd als Voltooid.
 
-Zie voor meer informatie over deze velden [Woordenlijst met Adobe Workfront-terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor meer informatie over deze gebieden, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Voor meer informatie over goedkeuringspaden, hoe deze worden gemaakt en geactiveerd en de functie die ze in goedkeuringsprocessen gebruiken, raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Voor meer informatie over goedkeuringswegen, hoe zij worden gecreeerd en teweeggebracht, en de functie zij in goedkeuringsprocessen dienen, zie [ een goedkeuringsproces voor het werkpunten ](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 De volgende velden zijn uit Workfront verwijderd en kunnen niet langer in de rapporten worden opgenomen (deze velden bevatten informatie over het project in plaats van informatie over de goedkeuringen zelf, en werden vaak misbruikt):
 
@@ -145,7 +145,7 @@ De volgende velden zijn uit Workfront verwijderd en kunnen niet langer in de rap
 
 De leveringsoptie Dagelijkse samenvatting is toegevoegd aan het gedeelte &quot;Verzoeken die ik heb gemaakt&quot; van uw meldingsinstellingen.
 
-Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen. Dit is vereist omdat de voorvertoningssandbox de e-mailadressen van alle gebruikers wist.
 
@@ -153,7 +153,7 @@ Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om de
 
 De vormgeving van het bericht voor &quot;Documentgoedkeuring&quot; is bijgewerkt met een nieuwe interface:
 
-Zie voor meer informatie over e-mailmeldingen [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie over e-mailberichten, zie [ de berichten van Adobe Workfront ](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen. Dit is vereist omdat de voorvertoningssandbox de e-mailadressen van alle gebruikers wist.
 
@@ -166,4 +166,4 @@ De milestone-weergave die beschikbaar is wanneer u een projectlijst of projectra
 
 Voordat deze wijziging werd doorgevoerd, moest u naar de individuele taak gaan om de datums of het weergavepercentage te kunnen bewerken.
 
-Zie voor meer informatie [De milestone-weergave gebruiken](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

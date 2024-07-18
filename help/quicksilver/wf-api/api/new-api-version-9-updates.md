@@ -9,8 +9,8 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '257'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## Bijgewerkte bronnen
 
-De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Als u de nieuwe bronnen van versie 9 wilt bekijken, gaat u naar [Nieuw in API-versie 9](../../wf-api/api/new-api-version-9.md) en [Nieuwe functies in API-versie 9 (vervolg)](../../wf-api/api/new-api-version-9-continue.md). Wijzigingen in een bron worden als volgt aangegeven:
+De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Om de middelen te bekijken die aan versie 9 nieuw zijn kunt u [ bezoeken wat in API Versie 9 ](../../wf-api/api/new-api-version-9.md) Nieuw is en [ wat in (voortgezette) API Versie 9 Nieuw is ](../../wf-api/api/new-api-version-9-continue.md). Wijzigingen in een bron worden als volgt aangegeven:
 
 * Toevoegingen worden gewoon vermeld
 * Verwijderingen worden aangegeven met doorhalingstekst
@@ -28,13 +28,13 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workf
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
-| `taskID`<sup>2</sup> |   |   |  |  |  |  |
+| `opTaskID`<sup> 2 </sup> |  |   |  |   |   |  |
+| `taskID`<sup> 2 </sup> |   |   |  |  |  |  |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Markering verwijderd: RAPPORTABLE\
-<sup>2</sup> Markering verwijderd: NOT_GROUPABLE
+<sup> 1 </sup> verwijderde vlag: VERSLAGBARE\
+<sup> 2 </sup> verwijderde vlag: NOT_GROUPABLE
 
 ### Goedkeuring
 
@@ -48,24 +48,24 @@ Toewijzing
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
-|   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
-|   |   |   |   | `swapUsersOnProjects`<sup>1</sup> |   |   |
-|   |   |   |   | `swapUsersOnTasks`<sup>1</sup> |   |   |
+| |   |  |  | `assignUserToRoleOnProjects`<sup> 1 </sup> |   |   |
+|   |   |   |   | `assignUserToRoleOnTasks`<sup> 1 </sup> |   |   |
+|   |   |   |   | `swapUsersOnProjects`<sup> 1 </sup> |   |   |
+|   |   |   |   | `swapUsersOnTasks`<sup> 1 </sup> |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Toegevoegd veld: lockToRole
+<sup> 1 </sup> Toegevoegd gebied: lockToRole
 
 ### Klantvoorkeuren
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| `name`<sup>1</sup> |   |   |   |   |   |   |
+| `name`<sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in possibleValues
 
 ### Uur
 
@@ -121,7 +121,7 @@ Toewijzing
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Markering verwijderd: RAPPORTABLE
+<sup> 1 </sup> verwijderde vlag: VERSLAGBARE
 
 ### Schema
 

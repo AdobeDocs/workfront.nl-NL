@@ -9,7 +9,7 @@ feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De mobiele app van Adobe Workfront moet begin augustus 2017 worden bijgewerkt in de Apple App en Google Play Stores. 
 
-De update bevat de volgende verbeteringen voor zowel de mobiele Android-platforms als de mobiele iOS-platforms:
+De update bevat de volgende verbeteringen voor zowel de mobiele Android- als de iOS-platforms:
 
 ## Verzoeken verzenden
 
@@ -53,6 +53,6 @@ Zie de sectie &quot;Aangepaste Forms bewerken&quot; in voor meer informatie over
 
 Vanaf de nieuwe versie van de mobiele app kunt u proefdrukken van documenten goedkeuren op uw mobiele apparaat. U ontvangt ook een melding in het gebied Meldingen wanneer u als fiatteur op een bewijs wordt aangewezen. 
 
-Vóór deze update kon u project-, taak-, uitgave- en documentgoedkeuringen uitvoeren met de mobiele app. Voor het goedkeuren van proefdrukken van documenten in de mobiele app hebt u een bewijs van hoofdletters nodig. 
+Vóór deze update kon u project-, taak-, uitgave- en documentgoedkeuringen uitvoeren met de mobiele app. Voor het goedkeuren van proefdrukken van documenten in de mobiele app hebt u een licentie voor het proefdrukken van HQ nodig. 
 
-Raadpleeg voor meer informatie over proefdrukken in Workfront de [Proofing](../../../review-and-approve-work/proofing/proofing.md) sectie. 
+Voor meer informatie over het proef binnen Workfront, zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md) sectie. 

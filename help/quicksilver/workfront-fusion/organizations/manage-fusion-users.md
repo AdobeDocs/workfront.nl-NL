@@ -3,8 +3,8 @@ filename: manage-fusion-users
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Beheren [!DNL Adobe Workfront Fusion] gebruikers in uw organisatie
-description: Beheren [!DNL Adobe Workfront Fusion] gebruikers in uw organisatie
+title: Beheer  [!DNL Adobe Workfront Fusion]  gebruikers in uw organisatie
+description: Beheer  [!DNL Adobe Workfront Fusion]  gebruikers in uw organisatie
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# Beheren [!DNL Adobe Workfront Fusion] gebruikers in uw organisatie
+# [!DNL Adobe Workfront Fusion] -gebruikers in uw organisatie beheren
 
-[!DNL Adobe Workfront Fusion] beheerders kunnen gebruikersrollen beheren binnen [!DNL Workfront Fusion].
+[!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikersrollen beheren binnen [!DNL Workfront Fusion] .
 
 <!--
 
@@ -54,56 +54,56 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> 
-     <p>U moet een [!DNL Workfront Fusion] beheerder van uw organisatie.</p>
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team.</p>
+     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw organisatie zijn.</p>
+     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team zijn.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Gebruikersrollen weergeven of bewerken {#view}
 
-[!DNL Adobe Workfront Fusion] beheerders kunnen gebruikersrollen weergeven en bijwerken.
+[!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikersrollen weergeven en bijwerken.
 
-1. Tijdens het aanmelden [!DNL Workfront Fusion] beheerder, selecteer **[!UICONTROL Users]** in de linkernavigatie.
-1. Klikken **[!UICONTROL Details]** in de rij van de gebruiker die u wilt bekijken.
-1. (Optioneel) Als u de rol van de gebruiker wilt bijwerken, klikt u op het vervolgkeuzemenu in het dialoogvenster **[!DNL Role]** kolom in de rij van de organisatie waar u de rol van de gebruiker wilt veranderen, dan selecteer de nieuwe rol.
+1. Als u bent aangemeld als [!DNL Workfront Fusion] beheerder, selecteert u **[!UICONTROL Users]** in de linkernavigatie.
+1. Klik op **[!UICONTROL Details]** in de rij van de gebruiker die u wilt weergeven.
+1. (Optioneel) Als u de rol van de gebruiker wilt bijwerken, klikt u op het vervolgkeuzemenu in de kolom **[!DNL Role]** in de rij van de organisatie waar u de rol van de gebruiker wilt wijzigen en selecteert u vervolgens de nieuwe rol.
 
 ## Gebruikersgegevens weergeven of bewerken {#view2}
 
-[!DNL Adobe Workfront Fusion] beheerders kunnen gebruikersgegevens weergeven en bijwerken.
+[!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikersgegevens weergeven en bijwerken.
 
-1. Tijdens het aanmelden [!DNL Workfront Fusion] beheerder, selecteer **[!UICONTROL Users]** in de linkernavigatie.
-1. Klikken **[!UICONTROL Details]** in de rij van de gebruiker die u wilt bekijken.
-1. (Optioneel) Klik op **[!UICONTROL Options]** in de rechterbovenhoek van het scherm selecteert u **[!UICONTROL Change Details]**.
+1. Als u bent aangemeld als [!DNL Workfront Fusion] beheerder, selecteert u **[!UICONTROL Users]** in de linkernavigatie.
+1. Klik op **[!UICONTROL Details]** in de rij van de gebruiker die u wilt weergeven.
+1. (Optioneel) Als u de details van de gebruiker wilt bijwerken, klikt u op **[!UICONTROL Options]** in de rechterbovenhoek van het scherm en selecteert u **[!UICONTROL Change Details]** .
 
 ## Een gebruiker verwijderen {#delete}
 
-[!DNL Adobe Workfront Fusion] beheerders kunnen gebruikers verwijderen.
+[!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikers verwijderen.
 
-1. Tijdens het aanmelden [!DNL Workfront Fusion] beheerder, selecteer [!UICONTROL Users] in de linkernavigatie.
-1. Klikken **[!UICONTROL Details]** in de rij van de gebruiker die u wilt bekijken.
-1. (Optioneel) Klik op **[!UICONTROL Options]** in de rechterbovenhoek van het scherm selecteert u **[!UICONTROL Delete]**.
+1. Als u bent aangemeld als [!DNL Workfront Fusion] beheerder, selecteert u [!UICONTROL Users] in de linkernavigatie.
+1. Klik op **[!UICONTROL Details]** in de rij van de gebruiker die u wilt weergeven.
+1. (Optioneel) Als u de details van de gebruiker wilt bijwerken, klikt u op **[!UICONTROL Options]** in de rechterbovenhoek van het scherm en selecteert u **[!UICONTROL Delete]** .
 
 ### Overwegingen bij het verwijderen van een gebruiker in Workfront Fusion
 

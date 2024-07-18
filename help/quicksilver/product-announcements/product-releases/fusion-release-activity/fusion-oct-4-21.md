@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 4 oktober 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Zie bestaande gebeurtenisfilters in Workfront > Controlemodules voor gebeurtenissen
 
@@ -28,7 +28,7 @@ Voor meer duidelijkheid hebben we het mogelijk gemaakt om de gebeurtenisfilters 
 
 Eerder konden gebruikers alleen gebeurtenisfilters zien bij het instellen van de webhaak en was er geen manier om de filters weer te geven in een bestaande Workfront > de module Gebeurtenissen controleren.
 
-Zie voor meer informatie [Filters voor gebeurtenisabonnementen in de modules Workfront > Watch Events](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie {de filters van het 0} Abonnement van de Gebeurtenis in Workfront > de modules van Gebeurtenissen van het Controle ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).[
 
 ## Aangepaste formulieren aan Workfront-objecten koppelen met de Workfront > Record maken en Record-modules bijwerken
 
@@ -36,7 +36,7 @@ Om het gebruik van aangepaste formulieren meer op de ervaring in Workfront te la
 
 Eerder kon u waarden invoeren in velden op aangepaste formulieren, maar deze waren niet op formulier geordend en konden moeilijk te vinden zijn.
 
-Zie voor meer informatie [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## RTF-tekst gebruiken in opmerkingen en aangepaste velden die zijn gemaakt door Workfront Fusion
 
@@ -55,6 +55,6 @@ Updates ondersteunen de volgende RTF-indelingen:
 
 Eerder kon RTF-tekst alleen via Workfront zelf of de Workfront API aan opmerkingen of aangepaste velden worden toegevoegd.
 
-Voor meer informatie over Create verslag en Update verslagmodules, zie [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie over Create verslag en Update verslagmodules, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-Voor meer informatie over de rijke tekst beschikbaar in commentaren of douanevelden, zie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie over de rijke tekst beschikbaar in commentaren of douanegebieden, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

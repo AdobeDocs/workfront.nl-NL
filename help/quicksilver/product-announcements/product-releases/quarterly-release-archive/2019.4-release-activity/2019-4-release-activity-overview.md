@@ -32,13 +32,13 @@ De release van 2019.4 werd in de week van 11 november 2019 beschikbaar gesteld i
 
 ## Verbeteringen voor alle gebruikers
 
-Een deel van de functionaliteit is vrijgegeven vóór de release van 2019.4. Als u wilt zien wat er is uitgebracht vóór de release van 2019.4, gaat u naar [2019.4 andere verbeteringen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md).
+Een deel van de functionaliteit is vrijgegeven vóór de release van 2019.4. Om te zien wat vóór de versie 2019.4 werd vrijgegeven, zie [ 2019.4 andere verhogingen ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md).
 
 De release 2019.4 bevat de volgende verbeteringen:
 
-* [Verbeteringen voor lijsten](#list-enhancements)
-* [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
-* [Verbeteringen voor middelenplanning](#resource-scheduling-enhancements)
+* [ Verbeteringen van de Lijst ](#list-enhancements)
+* [ Mobiele verhogingen ](#mobile-enhancements)
+* [ Middel plannend verhogingen ](#resource-scheduling-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor lijsten {#list-enhancements}
@@ -52,29 +52,29 @@ De release 2019.4 bevat de volgende verbeteringen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Functie</strong> </p> </td> 
-   <td> <p><strong>Releasedatums</strong> </p> </td> 
+   <td> <p><strong> Eigenschap </strong> </p> </td> 
+   <td> <p><strong> de data van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">De bijgewerkte weergave van nieuwe lijsten</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> bijgewerkte blik en gevoel van nieuwe lijsten </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
-     --> <span style="color: #ff0000;">- Gewijzigd</span></p> <p>De lijsten van het project, van de Taak, en van Uren hebben nu een bijgewerkte blik en een gevoel. Andere lijsten die in de release 2019.4 moesten worden bijgewerkt, worden in de toekomst bijgewerkt.</p> </td> 
+     --> <span style="color: #ff0000;"> - Gewijzigd </span></p> <p>De lijsten van het project, van de Taak, en van Uren hebben nu een bijgewerkte blik en een gevoel. Andere lijsten die in de release 2019.4 moesten worden bijgewerkt, worden in de toekomst bijgewerkt.</p> </td> 
    <td> <p>Voorvertoningsrelease: 4 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nieuw ontwerp toegepast op lijsten voor Rapporten, de taken van het Malplaatje, Portfolio's, en meer</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> Nieuw ontwerp dat op lijsten voor Rapporten, de taken van het Malplaatje, Portfolio's, en meer </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
-     --><span style="color: #ff0000;"> -Verwijderd uit release</span> </p> <p>Het nieuwe lijstontwerp is nu beschikbaar op vele extra lijsttypes.</p> </td> 
+     --> wordt toegepast <span style="color: #ff0000;"> - Verwijderd uit versie </span> </p> <p>Het nieuwe lijstontwerp is nu beschikbaar op vele extra lijsttypes.</p> </td> 
    <td> <p>Voorvertoningsrelease: 11 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nieuwe knopinfo die aan snelle filters is toegevoegd</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new2" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> Nieuwe tooltip die aan snelle filters wordt toegevoegd </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New tooltip added to quick filters</a>
      --> </p> <p> In plaats van de native functionaliteit van uw browser te gebruiken voor het zoeken naar een item in een lijst, kunt u snelle filters gebruiken in alle opnieuw ontworpen lijsten. </p> </td> 
    <td> <p>Voorvertoningsrelease: 11 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Nieuwe sneltoetsen voor snelle filters</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new3" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> Nieuwe kortere weg voor snelle filters </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New shortcuts for quick filters</a>
      --> </p> <p>Herinneringen voor sneltoetsen zijn nu beschikbaar in het zoekvak met snelle filters in lijsten, zodat u gemakkelijker toegang hebt tot de filters.</p> </td> 
    <td> <p>Voorvertoningsrelease: 30 augustus 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
@@ -89,35 +89,35 @@ De release 2019.4 bevat de volgende verbeteringen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Functie</strong> </p> </td> 
-   <td> <p><strong>Releasedatums</strong> </p> </td> 
+   <td> <p><strong> Eigenschap </strong> </p> </td> 
+   <td> <p><strong> de data van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Workfront-app voor iPad</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#workfron" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> app van Workfront voor iPad </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Workfron" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Workfront app for iPad</a>
-     --> </p> <p>Workfront biedt nu een nieuwe mobiele app die speciaal voor iPad is ontworpen en geoptimaliseerd. </p> <p>Ga voor meer informatie over het gebruik van Workfront op zowel iPad als iPhone naar <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref">Adobe Workfront voor iOS</a>.</p> </td> 
+     --> </p> <p>Workfront biedt nu een nieuwe mobiele app die speciaal voor iPad is ontworpen en geoptimaliseerd. </p> <p>Voor meer informatie over het gebruiken van Workfront op zowel iPad als iPhone, zie <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref"> Adobe Workfront voor iOS </a>.</p> </td> 
    <td> <p>Voorvertoningsrelease: Geen beschikbaarheid voorvertoning</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Objecten verwijderen met de toepassing Mobile op Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> de voorwerpen van de Schrapping gebruikend Mobiele app op Android </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on Android</a>
-     --> </p> <p>U kunt nu objecten zoals taken, problemen en tijdbladen verwijderen in de mobiele Android-app.</p> </td> 
+     --> </p> <p>U kunt nu objecten zoals taken, problemen en tijdbladen verwijderen in de mobiele app van Android.</p> </td> 
    <td> <p>Voorvertoningsrelease: 4 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Taken, problemen en verzoeken naar een project converteren met de mobiele app op Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> zet Taken, Kwesties, en Verzoeken in een Project om gebruikend mobiele app op Android </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
-     --> </p> <p>U kunt nu afzonderlijke taken, problemen en verzoeken omzetten naar projecten in de mobiele app van Workfront op Android.</p> </td> 
+     --> </p> <p>U kunt nu afzonderlijke taken, problemen en verzoeken naar projecten converteren in de mobiele app van Workfront op Android.</p> </td> 
    <td> <p>Voorvertoningsrelease: 4 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Bestaande Favorieten openen en nieuwe Favorieten toevoegen op mobiele apparaten</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#access" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> toegang bestaande Favorieten en voeg nieuwe Favorieten op mobiele </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Access" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Access existing Favorites and add new Favorites on mobile</a>
-     --> </p> <p>U hebt nu toegang tot het menu Favorieten op de mobiele app van Workfront op zowel iOS- als Android-apparaten. U kunt tot bestaande punten van het menu van Favorieten toegang hebben en nieuwe punten toevoegen aan het menu van Favorieten.</p> </td> 
+     --> toe </p> <p>U hebt nu toegang tot het menu Favorieten op de mobiele app van Workfront op zowel iOS- als Android-apparaten. U kunt tot bestaande punten van het menu van Favorieten toegang hebben en nieuwe punten toevoegen aan het menu van Favorieten.</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Bijgewerkte navigatie op Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> Bijgewerkte navigatie op Android </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
      --> </p> <p>Navigatie in de mobiele Android-app lijkt meer op navigatie wanneer u Workfront opent in een browser</p> </td> 
    <td> <p> </p> </td> 
@@ -132,17 +132,17 @@ De release 2019.4 bevat de volgende verbeteringen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Functie</strong> </p> </td> 
-   <td> <p><strong>Releasedatums</strong> </p> </td> 
+   <td> <p><strong> Eigenschap </strong> </p> </td> 
+   <td> <p><strong> de data van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">De bèta van werklastbalans</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> de bèta van de Balancer van de Werkbelasting </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Workload Balancer beta</a>
      --> </p> <p>De werklastbalans biedt een nieuwe interface voor het beheer van de werklast van uw bronnen. Dit is bedoeld om de Planner van het Middel ergens in de toekomst te vervangen.</p> </td> 
    <td> <p>Voorvertoningsrelease: 11 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Bronnen, aangepaste kolommen</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#resource" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly"> de douanekolommen van de Planner van het Middel </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Resource&nbsp;Planner custom columns</a>
      --> </p> <p>Nu, kunt u de kolommen aanpassen die u in de Planner van het Middel toont om enkel de informatie te omvatten die de meeste u interesseert.</p> </td> 
    <td> <p>Voorvertoningsrelease: 24 oktober 2019</p> <p>Productieversie: november 2019 met de release 2019.4</p> </td> 
@@ -157,8 +157,8 @@ De release 2019.4 bevat de volgende verbeteringen:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Functie</strong> </p> </td> 
-   <td> <p><strong>Releasedatums</strong> </p> </td> 
+   <td> <p><strong> Eigenschap </strong> </p> </td> 
+   <td> <p><strong> de data van de Versie </strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md#start" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Een automatische proefdrukworkflow starten vanuit een Adobe CC-document</a> <!--
@@ -205,14 +205,14 @@ De release 2019.4 bevat de volgende verbeteringen:
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de release van 2019.4 zijn uitgevoerd, raadpleegt u [Workfront-onderhoudsupdates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Voor informatie over de onderhoudsupdates die tijdens de versie 2019.4 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront ](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).[
 
 ## Aankondigingen
 
-* [Verschillende Single Sign-On-opties die moeten worden verwijderd](#various-single-sign-on-options-to-be-removed)
-* [API-versie 3 wordt niet meer ondersteund](#api-version-3-no-longer-supported)
-* [Ondersteuning voor TLS 1.0 en 1.1 loopt af](#tls-1-0-and-1-1-support-is-ending)
-* [Verwijderen van Flash](#flash-application-removal)
+* [ Diverse Enige Sign-On te verwijderen opties ](#various-single-sign-on-options-to-be-removed)
+* [ API Versie 3 niet meer gesteund ](#api-version-3-no-longer-supported)
+* [ TLS 1.0 en 1.1 steun beëindigt ](#tls-1-0-and-1-1-support-is-ending)
+* [ verwijdering van de toepassing van de Flash ](#flash-application-removal)
 * [Q4-product routekaart webinar](#q4-product-roadmap-webinar)
 
 ### Verschillende Single Sign-On-opties die moeten worden verwijderd {#various-single-sign-on-options-to-be-removed}
@@ -221,7 +221,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * LDAP
 
-  Ga voor meer informatie over het gebruik van LDAP met Workfront naar [Adobe Workfront configureren met LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Adobe Workfront met LDAP ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -233,7 +233,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * Active Directory
 
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [Adobe Workfront configureren met Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Adobe Workfront met Actieve Folder ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -245,7 +245,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * SAML 1.1
 
-  Voor meer informatie over het gebruik van SAML 1.1 met Workfront raadpleegt u [Adobe Workfront configureren met SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Adobe Workfront met SAML 1.1 vormen ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -270,7 +270,7 @@ Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
 ### API-versie 3 wordt niet meer ondersteund {#api-version-3-no-longer-supported}
 
-Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Zie voor meer informatie over het ondersteuningsschema voor versies van de Workfront API [API-versieschema en ondersteuningsschema](../../../../wf-api/api/api-version-support-schedule.md)
+Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -298,7 +298,7 @@ TLS 1.2 to be required in Workfront
 
 Alle functionaliteit die afhankelijk is van de technologie van de Flash is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -309,4 +309,4 @@ Replacement of Flash-based tools in Workfront
 
 ### Q4-product routekaart webinar {#q4-product-roadmap-webinar}
 
-Meer informatie over wat er tijdens de [Q4 Roadmap webinar](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). Dit webinar vond plaats op 6 november 2019. Klik op de koppeling om de opname op aanvraag te registreren en te bekijken.
+Leer meer over wat tijdens [ Q4 Roadmap webinar ](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter) moet komen. Dit webinar vond plaats op 6 november 2019. Klik op de koppeling om de opname op aanvraag te registreren en te bekijken.

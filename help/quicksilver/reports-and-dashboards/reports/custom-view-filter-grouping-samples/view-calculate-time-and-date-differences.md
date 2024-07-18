@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,16 +73,16 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
-1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen** en typ &quot;Geplande afsluitdatum&quot; in het dialoogvenster **Tonen in deze kolom** selecteert u het veld wanneer het in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom** en beginnen &quot;Geplande Datum van de Voltooiing&quot;in **tonen in dit kolom** gebied dan selecteren het wanneer het in de lijst toont.
 
-1. Klikken **Kolom toevoegen** en typ &quot;Datum van daadwerkelijke voltooiing&quot; in het dialoogvenster **Tonen in deze kolom** selecteert u het veld wanneer het in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom** en beginnen &quot;Ware Datum van de Voltooiing&quot;in **tonen in dit kolom** gebied dan selecteren het wanneer het in de lijst toont.
 
-1. Klikken **Kolom toevoegen** en klik vervolgens op **Overschakelen naar tekstmodus**.
+1. Klik **toevoegen Kolom**, dan klik **Schakelaar aan de Wijze van de Tekst**.
 
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,26 +93,26 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
     valueformat=HTML
    ```
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+1. Klik **sparen**, dan **sparen Mening**.
 
 ## Het tijd- en datumverschil berekenen tussen het veld op een object en een ander veld op een bovenliggend object
 
-Voor een lijst met objecten en hun bovenliggende elementen raadpleegt u de sectie &#39;Interdependentie en hiërarchie van objecten begrijpen&#39; in [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+Voor een lijst van voorwerpen en hun ouders, zie het &quot;Begrijpen van de Interdependentie en de Hiërarchie van de sectie van Objecten&quot;in [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.\
 Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van een taak en de Geplande Datum van Voltooiing van zijn oudertaak, of van het project berekenen dat de taak is.
 
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
-1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen** en typ &quot;&quot;Geplande Voltooiingsdatum van project&quot; of &quot;Bovenliggende Voltooiingsdatum&quot; in het dialoogvenster **Tonen in deze kolom** selecteert u het veld wanneer het in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom** en beginnen &quot;Project Geplande Datum van de Voltooiing&quot;of &quot;Ouder Datum van de Voltooiing&quot;in **tonen in dit kolom** gebied dan selecteren het wanneer het in de lijst toont.
 
-1. Klikken **Kolom toevoegen** en typ &quot;Geplande afsluitdatum&quot; in het dialoogvenster **Tonen in deze kolom** selecteert u het veld wanneer het in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom** en beginnen &quot;Geplande Datum van de Voltooiing&quot;in **tonen in dit kolom** gebied dan selecteren het wanneer het in de lijst toont.
 
-1. Klikken **Kolom toevoegen** en klik vervolgens op **Overschakelen naar tekstmodus**.
+1. Klik **toevoegen Kolom**, dan klik **Schakelaar aan de Wijze van de Tekst**.
 
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervangt het door een van de volgende codes:
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met één van de volgende codes:
 
    * U kunt als volgt het verschil weergeven tussen de geplande uitvoeringsdatum van het project en die van de taak:
 
@@ -131,4 +131,4 @@ Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van ee
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+1. Klik **sparen**, dan **sparen Mening**.

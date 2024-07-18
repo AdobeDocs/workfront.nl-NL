@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Subgroepen maken en beheren
 
-* [Een subgroep maken](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
-* [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
+* [ creeer subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
+* [ beheer subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
 * [Subgroepleden weergeven en beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)

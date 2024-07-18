@@ -18,7 +18,7 @@ ht-degree: 0%
 
 U kunt een scorecard gebruiken om te meten hoe goed een project zich op de eerder vastgestelde criteria van een portefeuille richt. Een scorecard weerspiegelt vaak de missie, de waarden, en de strategische doelstellingen van een organisatie.
 
-Voor meer informatie over scorecards en hoe u kunt creëren, zie [Een scorecard maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Voor meer informatie over scorecards en hoe u één kunt tot stand brengen, zie [ een scorecard ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 ## Toegangsvereisten
 
@@ -55,53 +55,53 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Projectscorecards {#project-scorecards}
 
-* [Overzicht van Scorecards](#scorecards-overview)
+* [ Scorecards overzicht ](#scorecards-overview)
 * [Pas een scorecard op een project toe](#apply-a-scorecard-to-a-project)
 
 ### Overzicht van Scorecards {#scorecards-overview}
 
 Typisch, voltooit een projectmanager de scorecard informatie om een groeperingswaarde tussen 0 en 100 voor het project te veroorzaken. De geproduceerde waarde wordt later gebruikt wanneer de portefeuillebeheerder de projecten in portefeuille optimizer controleert om hen te vergelijken.
 
-Zie voor meer informatie over het optimaliseren van portfolio&#39;s [Overzicht van Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Voor meer informatie over portefeuillestimalisatie, zie [ Portfolio Optimizer overzicht ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Pas een scorecard op een project toe
 
 Als gebruiker met een Standaard of vergunning van het Plan en leidt toestemmingen aan een project, kunt u een scorecard aan het project vastmaken.
 
-Zie voor meer informatie over projectmachtigingen [Een project delen in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Voor meer informatie over projecttoestemmingen, zie [ een project in Adobe Workfront ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
 U kunt scorecards aan een project als deel van de bouw van het bedrijfsgeval voor het project toevoegen.
 
-Voor meer informatie over het bouwen van een bedrijfsgeval, zie [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Voor meer informatie over de bouw van een bedrijfsgeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van het Scorecard op het BedrijfsGeval gebied van uw projecten toelaten alvorens u tot scorecards van de BedrijfsGeval kunt toegang hebben. Voor informatie over het opzetten van projectvoorkeur en het toelaten van gebieden van het BedrijfsGeval, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van het Scorecard op het BedrijfsGeval gebied van uw projecten toelaten alvorens u tot scorecards van de BedrijfsGeval kunt toegang hebben. Voor informatie over vestiging projectvoorkeur en toelatend gebieden van het BedrijfsGeval, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Een scorecard toepassen op een project:
 
 1. Ga naar een project waarop u een scorecard wilt toepassen.
-1. Klikken **Bedrijfs-case** in het linkerdeelvenster.
-1. Zoek de **Scorecard** van de Business Case.\
-   U moet een scorecard vóór creëren **Scorecard** in de Business Case weergegeven.
+1. Klik **Bedrijfs Geval** in het linkerpaneel.
+1. Vind de **Scorecard** sectie van het BedrijfsGeval.\
+   U moet een scorecard vóór de **Scorecard** sectievertoningen op het BedrijfsGeval tot stand brengen.
 
-   Voor informatie over het creëren van een scorecard, zie [Een scorecard maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+   Voor informatie over het creëren van een scorecard, zie [ een scorecard ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 1. Selecteer een scorecard in het keuzemenu.
 
-   ![Nieuwe scorecard](assets/new-scorecard.png)
+   ![ Nieuwe scorecard ](assets/new-scorecard.png)
 
 1. Voer een antwoord in voor alle vragen in de scorecard.
 
    Workfront past een score toe op elke beantwoorde vraag en berekent een algemene projectscore op basis van de individuele score van elke vraag.
 
-   Voor meer informatie over het produceren van de project algemene groeperingsscore, zie [Een uitlijningsscore genereren voor een project](#generate-an-alignment-score-for-a-project).
+   Voor meer informatie over het produceren van de project algemene groeperingsscore, zie [ een Score van de Groepering voor een project ](#generate-an-alignment-score-for-a-project) produceren.
 
-1. Klikken **Opslaan** om scorecard te bewaren en het project te scoren.
+1. Klik **sparen** om scorecard te bewaren en het project te scoren.
 
    scorecard wordt nu geassocieerd met het project en het project wordt genoteerd.
 
@@ -122,7 +122,7 @@ Een scorecard toepassen op een project:
 
 ## Een uitlijningsscore genereren
 
-* [Een uitlijningsscore genereren voor een project](#generate-an-alignment-score-for-a-project)
+* [ produceer een Score van de Groepering voor een project ](#generate-an-alignment-score-for-a-project)
 * [Een uitlijningsscore genereren voor een portfolio](#generate-an-alignment-score-for-a-portfolio)
 
 ### Een uitlijningsscore genereren voor een project {#generate-an-alignment-score-for-a-project}
@@ -135,7 +135,7 @@ Wanneer scorecard wordt voltooid, berekent Workfront de groeperingsscore van het
 
 `Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
-Zie voor meer informatie [Een scorecard maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Voor meer informatie, zie [ een scorecard ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 ### Een uitlijningsscore genereren voor een portfolio {#generate-an-alignment-score-for-a-portfolio}
 
@@ -153,42 +153,42 @@ Wanneer de scorecards van de projecten worden voltooid, gebruikt Workfront die w
 
 U kunt de groeperingsscore van een project op het projectniveau, of in Portfolio bekijken Optimizer.
 
-* [De score voor uitlijning weergeven voor een project](#view-the-alignment-score-on-a-project)
+* [ Mening de Score van de Groepering op een project ](#view-the-alignment-score-on-a-project)
 * [De scores voor uitlijning van het project en het portfolio weergeven in Portfolio optimaliseren](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### De score voor uitlijning weergeven voor een project
 
-U kunt de uitlijningsscore van een project weergeven op projectniveau als u Contribute-rechten voor het project hebt.
+U kunt de groeperingsscore van een project op het projectniveau bekijken als u de rechten van Contribute op het project hebt.
 
 1. Ga naar het project waarvan de Score van de Uitlijning u wilt bekijken.
-1. Klikken **Bedrijfs-case** in het linkerdeelvenster.
-1. Ga naar de **Overzicht van bedrijfscase** aan de rechterkant van het scherm.
+1. Klik **Bedrijfs Geval** in het linkerpaneel.
+1. Ga naar de **Samenvatting van BedrijfsGeval** op de rechterkant van uw scherm.
 
-   De score voor uitlijning bevindt zich in het overzicht Bedrijfscase, in het gedeelte **Uitgelijnd** waarde.
+   De Score van de Groepering wordt gevestigd in de Samenvatting Bedrijfs van het Geval, in de **Uitgelijnde** waarde.
 
-   ![Uitlijningsscore op een project](assets/alignment-score-on-a-project.png)
+   ![ score van de Groepering op een project ](assets/alignment-score-on-a-project.png)
 
 ### De scores voor uitlijning van het project en het portfolio weergeven in Portfolio optimaliseren
 
 U kunt de uitlijningsscore van een project of van een portfolio weergeven in Portfolio optimaliseren als u beheertoegang tot het portfolio hebt.
 
-Voor meer informatie over de informatie die in Optimizer van het Portfolio wordt getoond, zie [Overzicht van Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Voor meer informatie over de informatie die in de Optimizer van het Portfolio wordt getoond, zie [ overzicht van de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* [Zoek de score voor uitlijning van het project in Portfolio optimaliseren](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [ bepaal de plaats van de Score van de Groepering van het project in Portfolio Optimizer ](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [De uitlijningsscore van het portfolio zoeken in Portfolio optimaliseren](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Uitlijningsscore in Portfolio optimaliseren](assets/alignment-score-in-portfolio-optimizer.png)
+  ![ score van de Groepering in Portfolio Optimizer ](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Zoek de score voor uitlijning van het project in Portfolio optimaliseren {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Klik op de naam van een portfolio.
-1. Klikken **Portfolio optimaliseren** in het linkerdeelvenster.
+1. Klik **Optimalisering van het Portfolio** in het linkerpaneel.
 
    De functie Portfolio optimaliseren wordt weergegeven.
 
-   De uitlijningsscore van een project wordt weergegeven als een percentage in het deelvenster **Uitlijning** kolom van Portfolio Optimizer.
+   De groeperingsscore van een project wordt getoond als percentage in de **kolom van de Groepering** van Portfolio Optimizer.
 
    Dit is de groeperingsscore van het project dat op scorecard wordt gebaseerd verbonden aan het project.
 
@@ -197,12 +197,12 @@ Voor meer informatie over de informatie die in Optimizer van het Portfolio wordt
 {{step1-to-portfolios}}
 
 1. Klik op de naam van een portfolio.
-1. Klikken **Portfolio optimaliseren** in het linkerdeelvenster.
-1. Boven aan het Portfolio Optimizer vindt u de **Uitgelijnd** en de **Uitlijning** profiel, dat de uitlijningsscore van de portfolio aangeeft.
+1. Klik **Optimalisering van het Portfolio** in het linkerpaneel.
+1. Bij de bovenkant van Optimizer van het Portfolio vindt **Uitgelijnde** waarde, evenals **de 3} maat van de Groepering {, die op de groeperingsscore van de portefeuille wijzen.**
 
    Dit is de uitlijningsscore van het portfolio.
 
-   Zie voor meer informatie over hoe de uitlijningsscore van een portfolio wordt gegenereerd [Een uitlijningsscore genereren voor een portfolio](#generate-an-alignment-score-for-a-portfolio).
+   Voor meer informatie over hoe de groeperingsscore van een portefeuille wordt geproduceerd, zie [ een Score van de Groepering voor een portefeuille ](#generate-an-alignment-score-for-a-portfolio) produceren.
 
 ## Overzicht van de Portfolio Optimizer Score
 
@@ -210,10 +210,10 @@ Er is een verschil tussen de uitlijningsscore en de optimaliseringsscore van een
 
 De groeperingsscore van een project wordt berekend gebaseerd op de punten die na de voltooiing van scorecard worden verkregen. Deze score wordt vervolgens gebruikt om de uitlijningsscore van het portfolio te bepalen. De uitlijningsscore wordt weergegeven als een percentage.
 
-De uitlijningsscore van een project wordt weergegeven in het deelvenster **Uitlijning** kolom van Portfolio Optimizer.
+De groeperingsscore van een projectvertoningen in de **kolom van de Groepering** van Portfolio Optimizer.
 
-De score voor het optimaliseren van het portfolio is een positie die automatisch wordt berekend in Portfolio Optimizer op basis waarvan aan projecten prioriteiten kunnen worden toegewezen. De score voor het optimaliseren van het portfolio wordt weergegeven als een indicatiepictogram en er wordt een nummer weergegeven in het dialoogvenster **Score** kolom van Portfolio Optimizer. Een score van de Optimizer van het Portfolio wordt geproduceerd slechts wanneer alle secties van het BedrijfsGeval, behalve Doelstellingen worden voltooid.
+De score voor het optimaliseren van het portfolio is een positie die automatisch wordt berekend in Portfolio Optimizer op basis waarvan aan projecten prioriteiten kunnen worden toegewezen. De portefeuille optimizer score wordt getoond als indicatorpictogram vergezeld van een aantal en het toont in de **kolom van de Score** van Portfolio Optimizer. Een score van de Optimizer van het Portfolio wordt geproduceerd slechts wanneer alle secties van het BedrijfsGeval, behalve Doelstellingen worden voltooid.
 
-Voor meer informatie over het creëren van een BedrijfsGeval voor een project, zie [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Voor meer informatie over het creëren van een BedrijfsGeval voor een project, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-Voor meer informatie over het berekenen van de score van een project voor het optimaliseren van het portfolio raadpleegt u [Overzicht van de Portfolio Optimizer Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+Voor meer informatie over het berekenen van de portefeuille optimizer score van een project, zie [ Overzicht van de Score van de Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).

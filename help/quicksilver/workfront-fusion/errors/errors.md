@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] naast een [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront license] .
 
 Deze sectie bevat de volgende artikelen:
 
-* [Fout bij verwerken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
-* [Foutafhandeling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
-* [Richtlijnen voor foutafhandeling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [Foutafhandeling opnieuw uitvoeren in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
-* [Foutafhandeling genereren in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
-* [Geavanceerde foutafhandeling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)
+* [Fout bij verwerken in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
+* [Foutafhandeling in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
+* [Richtlijnen voor foutafhandeling in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [Foutafhandeling opnieuw proberen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
+* [Foutafhandeling door genereren in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
+* [Geavanceerde foutafhandeling in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)

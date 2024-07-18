@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten voor Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Reageren op een update van een e-mailbericht
 
@@ -78,16 +78,16 @@ Wanneer u een e-mailbericht ontvangt, kunt u het bijbehorende Workfront-object s
 
 1. Open de e-mailmelding die door een update wordt gegenereerd in Workfront.
 
-   ![email.png](assets/email-350x202.png)
-1. Klikken **Opmerking** uit de e-mailmelding.
+   ![ email.png ](assets/email-350x202.png)
+1. Klik **Commentaar** van het e-mailbericht.
 
    De pagina Details voor het object wordt geopend in Workfront.
 
 1. Ga naar de update waaraan u een antwoord wilt toevoegen.
 
-   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Als u meer gebruikers wilt labelen, raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Naast het zien van de gebruikers die actief in het gesprek betrokken zijn, kunt u zien wie in elk antwoord bij de bovenkant van die updatedraad werd geëtiketteerd. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. Om meer gebruikers te etiketteren, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Klikken **Antwoord** voer uw antwoord in, dan klik **Antwoord**.
+1. Klik **Antwoord,** ga uw antwoord in, dan klik **antwoordt**.
 
    Het antwoord wordt als een nieuwe opmerking toegevoegd aan de commentaarthread.
 
@@ -113,6 +113,6 @@ Een update toevoegen aan een Workfront-e-mail:
 1. Typ de update in het e-mailantwoord.
 
    Bijlagen zijn niet toegestaan en elke RTF-opmaak die wordt toegepast op een update in een e-mailbericht, wordt niet weergegeven in de update wanneer deze wordt weergegeven op het tabblad Updates.
-1. Klikken **Verzenden**.
+1. Klik **verzenden**.
 
    Uw update wordt toegevoegd als antwoord op de communicatie draad van het voorwerp.

@@ -10,7 +10,7 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Status van Issue Group:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Al deze drie eindpunten aanvaarden het **includeHidden=true** parameter om de verborgen status van een project/taak/uitgave van een bepaalde groep op te halen. Door het modelleren van query&#39;s voor statuszoekopdrachten na deze voorbeelden van best practices wordt ervoor gezorgd dat alle informatie over de groepsstatus in elke reactie wordt opgenomen.
+Alle drie van deze eindpunten keuren **includeHidden=true** parameter goed om het verborgen project/de taak/de uitgevende status van een bepaalde groep te halen. Door het modelleren van query&#39;s voor statuszoekopdrachten na deze voorbeelden van best practices wordt ervoor gezorgd dat alle informatie over de groepsstatus in elke reactie wordt opgenomen.
 
-Hier is een voorbeeld van een vraag van het statusonderzoek die aan een taakgroep wordt gemaakt die een systeem-vlakke gesloten status omvat **Aangepast_1** en een ontgrendelde status **Aangepast_2**:
+Hier is een voorbeeld van een vraag van het statusonderzoek die aan een taakgroep wordt gemaakt die een systeem-vlakke gesloten status **Custom_1** en een ontgrendelde status **Custom_2** omvat:
 
 >**Voorbeeld:**
 

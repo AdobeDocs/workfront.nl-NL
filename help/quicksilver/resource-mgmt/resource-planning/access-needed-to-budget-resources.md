@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Wanneer uw bedrijf een vergunning van Adobe Workfront heeft gekocht die de Planning van het Middel omvat kunt u middel het in de begroting opnemen informatie voor de projecten bekijken die u toestemmingen hebt om te bekijken. U kunt de informatie over budgettering weergeven in de functie voor middelenplanning.
 
-Voor meer informatie over de voorwaarden voor het gebruik van de begrotingsinstrumenten in Workfront raadpleegt u [Aan de slag met bronnenplanning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Voor extra informatie over eerste vereisten om de het in de begroting opnemen hulpmiddelen in Workfront te gebruiken, zie [ begonnen met de Planning van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Als u middelen wilt begroten, bronnenpools wilt beheren en kosteninformatie wilt zien in de tools voor bronnenplanning, moeten uw bedrijf en u de volgende toegang hebben: 
 
@@ -51,19 +51,19 @@ Als u middelen wilt begroten, bronnenpools wilt beheren en kosteninformatie wilt
      <li> <p>Geef toegang tot het Beheer van het Middel in uw Niveau van de Toegang uit dat omvat:</p> 
       <ul> 
        <li> <p>Toegang tot het bewerken van projectprioriteiten en begrotingstijden. </p> </li> 
-       <li> <p>Toegang tot het beheer van bronnenpools, als u de bronnenpool moet beheren.</p> </li> 
-      </ul> <p>Voor informatie over het de toegangsniveau van het Beheer van het Middel, zie het artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Toegang verlenen tot beheer van hulpbronnen</a>.</p> </li> 
+       <li> <p>Toegang tot het beheer van bronnenpools, als u Bronpool moet beheren.</p> </li> 
+      </ul> <p>Voor informatie over het de toegangsniveau van het Beheer van het Middel, zie de artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref"> toegang van de Verlening tot het Beheer van het Middel </a>.</p> </li> 
      <li> <p>Toegang tot projecten en gebruikers bewerken. </p> </li> 
-     <li> <p> Bewerk de toegang tot financiële gegevens in uw toegangsniveau als u informatie op kosten wilt weergeven of beheren.</p> <p>Raadpleeg het artikel voor meer informatie over het toegangsniveau voor financiële gegevens <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a>.</p> </li> 
+     <li> <p> Bewerk de toegang tot financiële gegevens in uw toegangsniveau als u informatie op kosten wilt weergeven of beheren.</p> <p>Voor meer informatie over het de toegangsniveau van Financiële Gegevens, zie de artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> Toegang van de Verlening tot financiële gegevens </a>.</p> </li> 
     </ul>
 
-<p><b>OPMERKING</b> </p>
+<p><b> NOTA </b> </p>
 
-<p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+<p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren, waaronder de machtiging Beheren van financiën.</p> <p>Voor informatie over projecttoestemmingen, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Zie het artikel voor informatie over financiële machtigingen voor een project <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Financiële machtigingen delen op een object</a></a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Toegang tot objecten aanvragen </a>.</p>
+   <td> <p>Rechten voor het project beheren, waaronder de machtiging Beheren van financiën.</p> <p>Voor informatie over projecttoestemmingen, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> <p>Voor informatie over financiële toestemmingen op een project, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref"> financiële toestemmingen van het Aandeel over een voorwerp </a></a>.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md"> de toegang van het Verzoek tot voorwerpen </a>.</p>
 
 <p><b>OPMERKING</b>
 

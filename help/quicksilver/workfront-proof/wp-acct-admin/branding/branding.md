@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: Branding [!DNL Workfront Proof]
-description: Meer informatie over branding in Workfront Proof.
+title: Branding  [!DNL Workfront Proof]
+description: Meer weten over branding in Workfront Proof?
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Merk de [!DNL Workfront Proof] site - geavanceerd](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-* [Merk de [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+* [Merk de  [!DNL Workfront Proof]  plaats - geavanceerd](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+* [Merk de  [!DNL Workfront Proof]  plaats](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)

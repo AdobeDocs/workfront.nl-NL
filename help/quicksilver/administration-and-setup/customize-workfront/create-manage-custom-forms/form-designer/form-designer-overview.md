@@ -21,29 +21,29 @@ Met de nieuwe formulierontwerper kunt u een aangepast formulier ontwerpen dat ge
 
 De nieuwe formulierontwerper heeft een nieuwe werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt.
 
-![Voorbeeld van formulierontwerper](assets/form-designer-example.png)
+![ de vormontwerper van de Steekproef ](assets/form-designer-example.png)
 
 ## Toegang tot de formulierontwerper
 
 Met een knop boven aan de nieuwe formulierontwerper en de verouderde formulierbuilder kunt u schakelen tussen de versies.
 
-![Overschakelen naar nieuwe formulierontwerper](assets/switch-views.png)
+![ Schakelaar aan nieuwe vormontwerper ](assets/switch-views.png)
 
 ## Nieuwe functionaliteit beschikbaar bij de formulierontwerper
 
 Met de nieuwe formulierontwerper hebben we de mogelijkheid toegevoegd om:
 
-* **Een veld kopiëren**: U kunt nu bestaande velden kopiëren door rechtstreeks vanaf het canvas op het pictogram Kopiëren op de velden te klikken.
+* **Kopieer een gebied**: U kunt bestaande gebieden nu kopiëren door op het pictogram van het Exemplaar op de gebieden direct van het canvas te klikken.
 
-* **De grootte voor beschrijvende tekst wijzigen**: U kunt nu kleine, middelgrote of grote grootten toewijzen aan beschrijvende tekstvelden. U kunt ze ook op dezelfde rij gebruiken met andere velden.
+* **Verandering de grootte voor Omschrijvende teksten**: U kunt kleine, middelgrote, of grote grootte aan Beschrijvende tekstgebieden nu toewijzen. U kunt ze ook op dezelfde rij gebruiken met andere velden.
 
-* **Standaardsectie gebruiken**: Als de maker van het formulier geen sectie boven aan het formulier heeft toegevoegd, wordt nu een sectie Standaard weergegeven op het canvas, zodat gebruikers de machtigingen kunnen aanpassen voor velden waaraan geen aangepaste sectie is toegewezen.
+* **Gebruik een Standaardsectie**: Als de vormschepper geen sectie bij de bovenkant van de vorm heeft toegevoegd, is een Standaardsectie nu zichtbaar in het canvas, zodat de gebruikers de toestemmingen voor gebieden kunnen aanpassen die geen toegewezen douanesectie hebben.
 
   >[!NOTE]
   >
   >De sectie Standaard is niet zichtbaar binnen objecten als het formulier eenmaal aan het object is gekoppeld.
 
-* **Een veld Externe opzoekopdracht gebruiken**: Dit veldtype roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld.
+* **Gebruik een Extern Opzoeken gebied**: Dit gebiedstype roept externe API en keert waarden als opties op een dropdown gebied terug.
 
 ## Functionaliteit verwijderd van de formulierontwerper
 

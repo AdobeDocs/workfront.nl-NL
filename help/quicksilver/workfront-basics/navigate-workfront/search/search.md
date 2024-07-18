@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: navigate-workfront
-title: Adobe [!DNL Workfront] Zoeken
+title: Adobe  [!DNL Workfront]  Onderzoek
 description: Lees deze artikelen om te leren zoeken in Workfront.
 feature: Get Started with Workfront
 author: Lisa
@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Zoeken [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
+* [Zoeken  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
 * [Het referentienummer van objecten gebruiken](../../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)

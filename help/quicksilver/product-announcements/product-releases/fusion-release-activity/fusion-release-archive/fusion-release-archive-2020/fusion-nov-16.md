@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 16 november 2020 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Updates voor de Jira Cloud-aansluiting
 
@@ -35,13 +35,13 @@ Om de manieren uit te breiden u de schakelaar van de Wolk van Jira kunt gebruike
 
 We hebben ook bestaande modules bijgewerkt ter ondersteuning van het objecttype Sprint. Eerder, kon het &quot;voorwerp van de &quot;Sprint&quot;slechts door de module van de Vraag van de Douane API worden betreden.
 
-Zie voor meer informatie [Jira-softwaremodules](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Voor meer informatie, zie {de modules van de Software 0} Jira ](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).[
 
 ## Uitvoerings-id is nu beschikbaar voor toewijzing in scenario&#39;s
 
 De uitvoerings-id voor een scenario is nu beschikbaar in het deelvenster Toewijzing. Deze id vertegenwoordigt een specifieke uitvoering van het scenario en kan als metagegevens worden gebruikt. De uitvoerings-id kan bijvoorbeeld worden opgeslagen met een record die door Fusion wordt gemaakt, zodat u later kunt bepalen welke Fusion-uitvoering de record heeft gemaakt. U vindt de uitvoerings-id in het deelvenster Toewijzing onder Algemene functies.
 
-Voor meer informatie over scenario-uitvoering, zie [Uitvoering, cycli en fasen van scenario&#39;s in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Voor meer informatie over scenario uitvoeringen, zie [ uitvoering Scenario, cycli, en fasen in de Fusie van Adobe Workfront ](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Sneltoetsen voor Workfront Fusion 2.0-scenario&#39;s
 
@@ -50,7 +50,7 @@ Om scenario&#39;s gemakkelijker te maken bouwen, hebben wij sommige toetsenbordk
 * Ctrl/Cmd+Shift+Enter: een scenario eenmaal uitvoeren
 * Ctrl/Cmd + Shift + S: Een scenario opslaan
 
-Zie voor meer informatie over het ontwikkelen van scenario&#39;s voor Workfront Fusion 2.0 [Een scenario maken in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
+Voor meer informatie bij de bouw van de scenario&#39;s van de Fusie van Workfront 2.0, zie [ een scenario in de Fusie van Adobe Workfront ](../../../../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
 ## Updates voor Office 365 Excel-connector
 
@@ -66,7 +66,7 @@ Om de manieren uit te breiden u Office 365 de schakelaar van Excel kunt gebruike
 
 Eerder beschikbare modules zijn nog steeds aanwezig in de app.
 
-Zie voor meer informatie [Microsoft Office 365 Excel-modules](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
+Voor meer informatie, zie [ Microsoft Office 365 modules van Excel ](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
 
 ## OAuth 2.0 gebruiken in uw Workfront-toepassingsverbindingen
 
@@ -74,4 +74,4 @@ We hebben de Workfront-connector bijgewerkt om OAuth 2.0 te gebruiken. Deze upda
 
 Voor bestaande verbindingen hoeven momenteel geen wijzigingen te worden aangebracht. U kunt bestaande verbindingen echter opnieuw autoriseren als u wilt profiteren van de voordelen van OAuth 2.0.
 
-Zie voor meer informatie [Adobe Workfront-modules](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie [ modules van Adobe Workfront ](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

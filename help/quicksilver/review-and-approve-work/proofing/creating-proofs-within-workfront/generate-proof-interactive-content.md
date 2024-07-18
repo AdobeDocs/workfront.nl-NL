@@ -27,7 +27,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -39,12 +39,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een proef maken voor interactieve inhoud in een ZIP-bestand
 
@@ -63,10 +63,10 @@ Nadat u interactieve inhoud in een ZIP-bestand aan een proefdruk hebt toegevoegd
    * In het geval van ZIP-bestanden die in iOS zijn gemaakt, identificeert het programma automatisch de juiste map waarin de inhoud is geplaatst.
 
 1. Ga naar het project, de taak of het probleem waar u het ZIP-bestand wilt uploaden.
-1. Klikken **Documenten** in het linkerdeelvenster.
-1. Klikken **Nieuwe toevoegen** en klik vervolgens op **Proef** in het menu dat wordt weergegeven.
-1. In de **Bestanden toevoegen** , slepen en neerzetten of bladeren naar het ZIP-bestand dat u nodig hebt.
-1. Klikken **Proef maken** om een eenvoudige proefdruk te maken zonder controleproces.\
+1. Klik **Documenten** in het linkerpaneel.
+1. Klik **toevoegen Nieuw**, dan klik **Bewijs** in het menu dat verschijnt.
+1. In **voeg Dossiers** sectie toe, sleep en laat vallen of doorblader voor het dossier van het PIT u wenst.
+1. Klik **creeer proef** om een eenvoudige proef zonder overzichtsproces tot stand te brengen.\
    of\
    Doorgaan met het configureren van een geavanceerde proefdruk:
 

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen of financiën voor specifieke projecten, taken, of kwesties beheren die u toegang hebt om te delen.
 
-Voor informatie over wat de gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [Financiële gegevens](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in het artikel [Beschikbare functionaliteit voor elk objecttype](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [ Financiële gegevens ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Toegangsvereisten
 
@@ -70,30 +70,30 @@ U moet de volgende opties hebben om financiële gegevens over objecten te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of de hogere toegang tot Projecten, Taken, Kwesties, en Financiële Gegevens</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>De mening of de hogere toegang tot Projecten, Taken, Kwesties, en Financiële Gegevens</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger aan projecten, taken, en kwesties die minstens de toestemmingen van de Financiën van de Mening omvatten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger aan projecten, taken, en kwesties die minstens de toestemmingen van de Financiën van de Mening omvatten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een object delen en financiële machtigingen verlenen
 
 Houd rekening met het volgende wanneer u financiële machtigingen toekent aan objecten:
 
-* U kunt financiële toestemmingen verlenen aan projecten, taken, kwesties, <span class="preview">en tariefkaarten</span>.
-* Machtigingen kunnen worden overgeërfd: als u de toestemmingen van de Financiën van de Mening aan een project hebt, erft u automatisch de toestemmingen van de Financiën van de Mening aan de taken en kwesties op het project.
+* U kunt financiële toestemmingen aan projecten, taken, kwesties, <span class="preview"> en tariefkaarten </span> verlenen.
+* De toestemmingen kunnen worden geërft: als u de toestemmingen van de Financiën van de Mening aan een project hebt, erft u automatisch de toestemmingen van de Financiën van de Mening aan de taken en de kwesties op het project.
 
 Financiële machtigingen verlenen aan een object:
 
 1. Ga naar een taak, project, of kwestie die u met anderen wilt delen.
-1. Klik op het menu Meer naast de naam van het object ![](assets/more-icon.png)en klik vervolgens op **Delen**.
+1. Bij de naam van het voorwerp, klik het Meer menu ![](assets/more-icon.png), dan klik **het Delen**.
 
-1. In de **Geef `<Object name>` toegang tot** het begin van het gebied de naam van een gebruiker, een team, een rol, een groep of een bedrijf te typen u het voorwerp met wilt delen.
+1. In **geef `<Object name>` toegang tot** gebiedsbegin het typen van de naam van een gebruiker, een team, een rol, een groep of een bedrijf dat u het voorwerp met wilt delen.
 
    >[!TIP]
    >
@@ -101,18 +101,18 @@ Financiële machtigingen verlenen aan een object:
 
 1. Als rechts van de geselecteerde naam een vervolgkeuzelijst wordt weergegeven, klikt u op een van de volgende beschikbare opties:
 
-   * **Weergeven**
-   * **Bijdragen aan**
-   * **Beheren**
+   * **Mening het**
+   * **Contribute aan het**
+   * **leidt het**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-1. Klik in hetzelfde vervolgkeuzemenu op **Geavanceerde instellingen** Voer vervolgens een van de volgende handelingen uit:
+1. In het zelfde drop-down menu, klik **Geavanceerde Montages**, dan doe één van het volgende:
 
-   * Als u in de vorige stap een van de drie opties hebt geselecteerd, controleert u of **Financiën weergeven** is geselecteerd.
-   * Als u **Financiën beheren** in de vorige stap, zorg ervoor **Financiën beheren** is geselecteerd.
+   * Als u één van de drie opties in de vorige stap selecteerde, zorg ervoor **de Financiën van de Mening** wordt geselecteerd.
+   * Als u **selecteerde beheert de Financiën** in de vorige stap, zorg ervoor **leidt Financiën** wordt geselecteerd.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Financiële toestemming voor alle niveaus voor delen
 
@@ -125,10 +125,10 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Handelingen</strong> </th> 
-   <th><strong>Beheren</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
-   <th><strong>Weergave</strong> </th> 
+   <th><strong> Acties </strong> </th> 
+   <th><strong> leiden </strong> </th> 
+   <th><strong> Contribute </strong> </th> 
+   <th><strong> Mening </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -175,7 +175,7 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>De middelen van de begroting in de hulpmiddelen van de Planning van het Middel*</td> 
+   <td>De middelen van de begroting in de hulpmiddelen van de Planning van Middelen*</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -189,6 +189,6 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
  </tbody> 
 </table>
 
-&#42;Vereist extra toegang van het Beheer van het Middel.
+&#42; vereist de extra toegang van het Beheer van het Middel.
 
-Voor informatie over de toegang van het Beheer van het Middel, zie [Toegang verlenen tot beheer van hulpbronnen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over de toegang van het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

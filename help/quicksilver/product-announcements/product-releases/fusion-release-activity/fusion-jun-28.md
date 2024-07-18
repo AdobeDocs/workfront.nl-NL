@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 28 juni 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Nieuwe zoekmodule in de Salesforce-connector
 
@@ -32,7 +32,7 @@ Om het eenvoudiger te maken om voorwerpen te zoeken Salesforce, hebben wij een a
 
 Als u verkiest om de vragen in te gaan zelf, kunt u de eerder bestaande functionaliteit in het Onderzoek met de module van de Vraag gebruiken.
 
-Voor meer informatie, [Salesforce-modules](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Voor meer informatie, [ modules Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
 ## Filteren op abonnementen voor gebeurtenissen is beschikbaar in de module Workfront > Watch records
 
@@ -40,4 +40,4 @@ Als u de nieuwe functionaliteit voor het filteren van abonnementen voor gebeurte
 
 Eerder, zou de module van het Horloge verslagen alle verslagen terugwinnen. Gebruikers kunnen alleen filteren door filters in latere scenario-modules in te stellen.
 
-Zie voor meer informatie [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

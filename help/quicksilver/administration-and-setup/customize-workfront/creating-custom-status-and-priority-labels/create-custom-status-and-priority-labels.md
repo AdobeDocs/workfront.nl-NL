@@ -21,18 +21,18 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
-* [Heb toegang tot de lijst van de statussen van het systeemproject](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [Overzicht van de status van systeemprojecten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
-* [De lijst met taakstatussen van het systeem openen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
-* [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
-* [Statussen op systeemniveau en groepen opnieuw ordenen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
-* [Vergrendelde en ontgrendelde statussen op systeemniveau](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
-* [Aangepaste statussen gebruiken als standaardstatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
+* [ Overzicht van Statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
+* [ heb toegang tot de lijst van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [ Overzicht van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+* [ heb toegang tot de lijst van de statussen van de systeemtaak ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [ heb toegang tot de lijst van de statussen van de systeemkwestie ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
+* [ creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit
+* [ opnieuw ordenen systeem-niveau en groepstatussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md)
+* [ Vergrendelde en ontgrendelde status op systeemniveau ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md)
+* [ de douanestatus van het Gebruik als standaardstatussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md)
 * [Een aangepaste status verwijderen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/delete-a-custom-status.md)
-* [Objecten met een bepaalde status weergeven die in behandeling zijn](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
-* [Prioriteiten maken en aanpassen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)
+* [ de voorwerpen van de Lijst met een hangende goedkeuringsprocessen die een bepaalde status gebruiken ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md)
+* [ creeer en pas prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) aan
 * [Uitgiftecontroles maken of aanpassen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md)
 
-Voor informatie over statussen op groepsniveau raadpleegt u [Groepsstatussen beheren](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Voor informatie over groep-vlakke statussen, zie [ groepsstatussen beheren ](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

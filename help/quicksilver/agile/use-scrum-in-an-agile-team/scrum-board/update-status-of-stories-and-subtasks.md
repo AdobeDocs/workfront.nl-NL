@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Werk de status van artikelen en subtaken bij in het dialoogvenster [!UICONTROL Scrum] board
+# De status van artikelen en subtaken op de [!UICONTROL Scrum] -board bijwerken
 
 U kunt de status van een artikel rechtstreeks wijzigen via het &#39;agile story board&#39; om aan te geven hoe de artikelen de herhaling of het project doorlopen.
 
 >[!NOTE]
 >
->Alleen statussen geselecteerd in het dialoogvenster [!UICONTROL Story Board] in het gedeelte met teaminstellingen zijn beschikbaar op het tabblad [!UICONTROL Scrum] en in het vervolgkeuzemenu Status. Zie voor meer informatie [Scrum configureren](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Alleen statussen die zijn geselecteerd in de sectie [!UICONTROL Story Board] in het gebied met teaminstellingen, zijn beschikbaar op de [!UICONTROL Scrum] -board en in de vervolgkeuzelijst met status. Voor meer informatie, zie [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormen.
 
 ## Toegangsvereisten
 
@@ -41,19 +41,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## De status van een artikel of subtaak bijwerken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Navigeer naar een actieve herhaling.
 1. Sleep een artikel van de ene statuskolom op het artikelbord naar een andere kolom.\
-   ![Een artikel naar een andere kolom verplaatsen](assets/agile-storyboard-progress.png)
+   ![ verhaal van de beweging aan een andere kolom ](assets/agile-storyboard-progress.png)

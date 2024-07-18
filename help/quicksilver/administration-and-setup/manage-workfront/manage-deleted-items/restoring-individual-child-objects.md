@@ -9,7 +9,7 @@ role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,25 @@ ht-degree: 0%
 
 In dit document wordt beschreven hoe u hulp kunt krijgen bij het herstellen van afzonderlijke onderliggende objecten die minder dan 30 dagen geleden zijn verwijderd uit uw Adobe Workfront Production- of Preview-omgeving.
 
-Een Workfront-beheerder kan projecten, taken, problemen en documenten in elk Workfront-exemplaar herstellen, zoals wordt beschreven in [Verwijderde items herstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Maar alleen het Workfront-databaseteam kan objecten zoals taken, uitgaven, documenten, aangepaste formulieren, uren en notities, onafhankelijk van het bovenliggende object herstellen.
+Een beheerder van Workfront kan projecten, taken, kwesties, en documenten in elke instantie van Workfront herstellen, zoals die in [ wordt beschreven herstelt geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Maar alleen het Workfront-databaseteam kan objecten zoals taken, uitgaven, documenten, aangepaste formulieren, uren en notities, onafhankelijk van het bovenliggende object herstellen.
 
 Gegevens uit uw live omgeving zijn maximaal 7 dagen beschikbaar in de voorvertoningssandbox. Dit betekent dat u de standalone gegevens van het milieu van de Sandbox van de Voorproef kunt uitvoeren gebruikend de volgende methodes:
 
 * Kick-start
 * Een rapport maken en de resultaten exporteren
 
-Voor meer informatie over het exporteren van gegevens uit Workfront raadpleegt u [Gegevens exporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Voor meer informatie over het uitvoeren van gegevens van Workfront, zie [ Gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 U kunt de geëxporteerde gegevens op de volgende manieren importeren:
 
 * Handmatig als u geëxporteerde rapporten gebruikt
 * Als u Kick-Starts in bulk gebruikt
 
-   Voor meer informatie over het invoeren van gegevens in Workfront die Kick-Starts gebruiken, zie [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor meer informatie over het invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 De omgeving van de zandbak van de Voorproef wordt verfrist tijdens onze onderhoudsvensters tijdens het weekend.
 
-Voor meer informatie over de vensters van onderhoud voor het milieu van de Sandbox van de Voorproef, zie [de Adobe status site](https://status.adobe.com).
+Voor meer informatie over de vensters van onderhoud voor het milieu van Sandbox van de Voorproef, zie [ de plaats van de de statusstatus van de Adobe ](https://status.adobe.com).
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Zodra u hebt bepaald dat een geschrapt voorwerp door ons Team van het Gegevensbe
 * Geschatte datum en tijdstip van verwijdering
 * ObjectGUID (indien mogelijk)
 
-   Verwijs naar de volgende informatie wanneer het bepalen van GUID van een voorwerp:
+  Verwijs naar de volgende informatie wanneer het bepalen van GUID van een voorwerp:
 
    * GUID kan worden gevonden door van e-mailberichten van verwijzingen te voorzien die door met het voorwerp (taken aan, commentaren op, enz.) worden teweeggebracht
    * Voorbeeld van een GUID die aan het eind van een URL wordt gevonden: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`

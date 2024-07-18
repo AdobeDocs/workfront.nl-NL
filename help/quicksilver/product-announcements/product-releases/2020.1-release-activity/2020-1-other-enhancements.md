@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van alle verbeteringen die zijn aangebracht in algemene gebieden van Workfront met de release 2020.1. Deze verbeteringen zijn momenteel beschikbaar in de voorvertoningsomgeving en worden eind maart of begin april 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 2020.1, zie [Overzicht van de release 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Wijziging vereist voor het toevoegen van proefdrukken aan de lijst van gewenste personen
 
@@ -30,11 +30,11 @@ Het proefdrukdomein verandert van from proofhq.com in workfront.com.
 
 Als uw firewall of mailserver zo is geconfigureerd dat alleen bepaalde leveranciers toegang krijgen, moet u de volgende aanvullende URL toevoegen aan uw lijst van gewenste personen om ervoor te zorgen dat gebruikers in uw organisatie proofs kunnen weergeven in Workfront in zowel de viewer voor proef in de browser als de viewer voor proef in het bureaublad:
 
-&#42;.workfront.com
+&#42; .workfront.com
 
-De &#42;proofhq.com is ook nog steeds vereist.
+Ook &#42; proofhq.com URL wordt vereist.
 
-Voor meer informatie over het bijwerken van uw lijst van gewenste personen, zie [De lijst van gewenste personen van uw firewall configureren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Voor meer informatie over het bijwerken van uw lijst van gewenste personen, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ De Workfront for Jira-integratie synchroniseert nu uw Workfront-opmerkingen naar
 
 Eerder was het mogelijk om opmerkingen van Jira naar Workfront te synchroniseren, maar niet van Workfront naar Jira.
 
-Zie voor meer informatie [Adobe Workfront voor Jira configureren](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+Voor meer informatie, zie [ Adobe Workfront voor Jira ](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
 
 ## De Flash Portfolio Optimizer is verwijderd
 
@@ -63,4 +63,4 @@ Wij hebben de capaciteit verwijderd om tussen het nieuwe en erfenis (gebaseerd o
 
 Ga voor meer informatie over de functie voor het optimaliseren van portfolio naar https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Voor informatie over het afschaffen van op Flash gebaseerde gereedschappen in Workfront raadpleegt u [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Voor informatie over afgekeurde op Flash-gebaseerde hulpmiddelen in Workfront zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

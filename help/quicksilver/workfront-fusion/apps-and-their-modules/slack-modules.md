@@ -4,25 +4,25 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Slack-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die Slack gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+title: Slack
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Slack gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
 
 # [!DNL Slack] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Slack]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Slack] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,35 +43,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Vereisten
 
-Te gebruiken [!DNL Slack] modules, moet u een [!DNL Slack] account.
+Als u [!DNL Slack] -modules wilt gebruiken, moet u een [!DNL Slack] -account hebben.
 
 ## [!DNL Slack] modules en hun velden
 
-Wanneer u [!DNL Slack] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Slack] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Slack] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Slack] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -100,7 +100,7 @@ Deze trekkermodule begint het scenario wanneer een nieuw bericht aan een openbaa
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel] </td> 
@@ -108,7 +108,7 @@ Deze trekkermodule begint het scenario wanneer een nieuw bericht aan een openbaa
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximum aantal berichten instellen [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Stel het maximumaantal berichten in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,7 +125,7 @@ Deze trekkermodule begint het scenario wanneer een nieuw bericht aan een privé 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel] </td> 
@@ -133,7 +133,7 @@ Deze trekkermodule begint het scenario wanneer een nieuw bericht aan een privé 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximum aantal berichten instellen [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Stel het maximumaantal berichten in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,15 +229,15 @@ Deze actiemodule wint de details van een bericht van een geselecteerd kanaal ter
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Voer de kanaalid in (kaart).</p> <p>Opmerking: De kanaalid kan worden opgehaald met de [!UICONTROL List Channels] module.</p> </td> 
+   <td> <p>Voer de kanaalid in (kaart).</p> <p>Opmerking: de kanaal-id kan worden opgehaald met de module [!UICONTROL List Channels] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Message ID (Time stamp)]</p> </td> 
-   <td> <p> Ga of kaart de stempel van de berichttijd van het bericht in u informatie over wilt terugwinnen.</p> <p>Opmerking: De tijdstempel kan worden opgehaald met een andere module, zoals de [!UICONTROL Watch Public Channel] module.</p> </td> 
+   <td> <p> Ga of kaart de stempel van de berichttijd van het bericht in u informatie over wilt terugwinnen.</p> <p>Opmerking: de tijdstempel kan worden opgehaald met een andere module, zoals de module [!UICONTROL Watch Public Channel] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,15 +254,15 @@ Deze actiemodule keert een bericht met bepaalde identiteitskaart van een gespeci
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Voer de kanaalid in of wijs deze toe.</p> <p>Opmerking: De kanaalid kan worden opgehaald met de [!UICONTROL List Channels] module.</p> </td> 
+   <td> <p>Voer de kanaalid in of wijs deze toe.</p> <p>Opmerking: de kanaal-id kan worden opgehaald met de module [!UICONTROL List Channels] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID (Time stamp)]</td> 
-   <td> <p> Ga of kaart de stempel van de berichttijd van het bericht in u informatie over wilt terugwinnen.</p> <p>Opmerking: De tijdstempel kan worden opgehaald met een andere module, zoals de [!UICONTROL Watch Public Channel] module.</p> </td> 
+   <td> <p> Ga of kaart de stempel van de berichttijd van het bericht in u informatie over wilt terugwinnen.</p> <p>Opmerking: de tijdstempel kan worden opgehaald met een andere module, zoals de module [!UICONTROL Watch Public Channel] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -312,23 +312,23 @@ Deze actiemodule maakt een nieuw bericht.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter a channel ID or name]</p> </td> 
    <td> <p>Kies hoe u het kanaal wilt selecteren waar u een bericht wilt maken.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>In de <strong>[!UICONTROL Channel ID or name]</strong> Voer de kanaalid of naam in van het kanaal waar u het bericht wilt plaatsen.</p> <p>Opmerking: De kanaalid kan worden opgehaald met de [!UICONTROL List Channels] module.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer in het veld <strong>[!UICONTROL Channel ID or name]</strong> de kanaalid of de naam van het kanaal in of wijs deze toe op de plaats waar u het bericht wilt plaatsen.</p> <p>Opmerking: de kanaal-id kan worden opgehaald met de module [!UICONTROL List Channels] .</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer het type kanaal en selecteer vervolgens het kanaal.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>Voer de tekstinhoud in van het bericht dat u wilt maken.</p> <p>Opmerking: Zie voor meer informatie over tekstopmaak <a href="https://api.slack.com/reference/surfaces/formatting">Tekst opmaken voor toepassingsoppervlakken</a> in de [!DNL Slack] documentatie.</p> </td> 
+   <td> <p>Voer de tekstinhoud in van het bericht dat u wilt maken.</p> <p>Nota: Voor gedetailleerde informatie over tekst het formatteren, zie <a href="https://api.slack.com/reference/surfaces/formatting"> Formatterende tekst voor toepassingsoppervlakten </a> in de [!DNL Slack] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blocks]</td> 
-   <td>Blokken zijn herbruikbare componenten die u kunt gebruiken om uw berichten aan te passen en in te delen. Voor meer informatie over blokken raadpleegt u <a href="https://api.slack.com/block-kit">Blokkerit</a> in de [!DNL Slack] documentatie.</td> 
+   <td>Blokken zijn herbruikbare componenten waarmee u uw berichten kunt aanpassen en ordenen. Voor meer informatie over blokken, zie <a href="https://api.slack.com/block-kit"> Uitrusting van het Blok </a> in de [!DNL Slack] documentatie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Thread message ID (time stamp)]</td> 
@@ -336,7 +336,7 @@ Deze actiemodule maakt een nieuw bericht.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reply broadcast]</td> 
-   <td> <p>Selecteren <strong>[!UICONTROL Yes]</strong> indien beide volgende twee van toepassing zijn:</p> 
+   <td> <p>Selecteer <strong>[!UICONTROL Yes]</strong> als beide volgende opties van toepassing zijn:</p> 
     <ul> 
      <li> <p>Het nieuwe bericht is een antwoord op een ander bericht</p> </li> 
      <li> <p>U wilt dat het nieuwe bericht zichtbaar is voor iedereen in het kanaal</p> </li> 
@@ -344,23 +344,23 @@ Deze actiemodule maakt een nieuw bericht.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Link names]</p> </td> 
-   <td> <p>Schakel deze optie in als u namen en kanalen wilt gebruiken <code>@username</code> of <code>#channel</code> gebruiken. </p> <p>Zie voor meer informatie <a href="https://api.slack.com/docs/formatting">Tekst opmaken voor toepassingsoppervlakken</a> in de [!DNL Slack] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in als u namen en kanalen de <code>@username</code> - of <code>#channel</code> -indeling wilt laten gebruiken. </p> <p>Voor meer informatie, zie <a href="https://api.slack.com/docs/formatting"> Formatterende tekst voor toepassingsoppervlakten </a> in de [!DNL Slack] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Parse message text]</p> </td> 
-   <td> <p>Schakel deze optie in als u automatisch parseren wilt toestaan. </p> <p>Zie voor meer informatie <a href="https://api.slack.com/docs/formatting">Tekst opmaken voor toepassingsoppervlakken</a> in de [!DNL Slack] documentatie.</p> <p>Opmerking: Als u [!UICONTROL Link names] of [!UICONTROL Parse message text] in het oorspronkelijke bericht, moet u deze opgeven wanneer u de [!UICONTROL Update a Message] ook.</p> </td> 
+   <td> <p>Schakel deze optie in als u automatisch parseren wilt toestaan. </p> <p>Voor meer informatie, zie <a href="https://api.slack.com/docs/formatting"> Formatterende tekst voor toepassingsoppervlakten </a> in de [!DNL Slack] documentatie.</p> <p>Opmerking: als u [!UICONTROL Link names] - of [!UICONTROL Parse message text] -opties hebt gebruikt in het oorspronkelijke bericht, moet u deze ook opgeven wanneer u de module [!UICONTROL Update a Message] uitvoert.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Use markdown]</p> </td> 
-   <td> <p>Schakel deze optie in om toe te staan [!DNL Slack] om markeringen in de tekst te gebruiken.</p> </td> 
+   <td> <p>Schakel deze optie in als u wilt dat [!DNL Slack] markeringen in de tekst kan gebruiken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Unfurl primarily text-based content]</p> </td> 
-   <td> <p>Schakel deze optie in als u het opheffen van inhoud die voornamelijk op tekst is gebaseerd, wilt toestaan. </p> <p>Voor meer informatie over het ongedaan maken van de beweging in [!DNL Slack], zie <a href="https://api.slack.com/reference/messaging/link-unfurling">Koppelingen in berichten opheffen</a> in de [!DNL Slack] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in als u het opheffen van inhoud die voornamelijk op tekst is gebaseerd, wilt toestaan. </p> <p>Voor meer informatie over het ontrafelen in [!DNL Slack], zie <a href="https://api.slack.com/reference/messaging/link-unfurling"> het Onthullen van verbindingen in berichten </a> in de [!DNL Slack] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Unfurl media content]</p> </td> 
-   <td> <p>Schakel deze optie in als u het wissen van media-inhoud wilt toestaan. </p> <p>Voor meer informatie over het ongedaan maken van de beweging in [!DNL Slack], zie <a href="https://api.slack.com/reference/messaging/link-unfurling">Koppelingen in berichten opheffen</a> in de [!DNL Slack] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in als u het wissen van media-inhoud wilt toestaan. </p> <p>Voor meer informatie over het ontrafelen in [!DNL Slack], zie <a href="https://api.slack.com/reference/messaging/link-unfurling"> het Onthullen van verbindingen in berichten </a> in de [!DNL Slack] documentatie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -377,31 +377,31 @@ Met deze actiemodule kunt u een bestaand bericht bewerken.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter a channel ID or name]</p> </td> 
    <td> <p>Kies hoe u het bericht wilt selecteren u wilt.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>In de <strong>[!UICONTROL Channel ID or name]</strong> veld, voer de kanaalid of het kanaal met het bericht in of wijs deze toe en voer vervolgens de <strong>[!UICONTROL Time Stamp (Message ID)]</strong> van het bericht. .</p> <p>Opmerking: De kanaalid kan worden opgehaald met de [!UICONTROL List Channels] module.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer het type kanaal, selecteer het kanaal en selecteer het bericht.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer in het veld <strong>[!UICONTROL Channel ID or name]</strong> de kanaalid of het kanaal met het bericht in of wijs deze toe en voer vervolgens de <strong>[!UICONTROL Time Stamp (Message ID)]</strong> van het bericht in. .</p> <p>Opmerking: de kanaal-id kan worden opgehaald met de module [!UICONTROL List Channels] .</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer het type kanaal, selecteer vervolgens het kanaal en selecteer het bericht.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>Voer de nieuwe tekstinhoud in van het bericht dat u wilt bijwerken.</p> <p>Zie voor meer informatie <a href="https://api.slack.com/docs/formatting">Tekst opmaken voor toepassingsoppervlakken</a> in de [!DNL Slack] documentatie.</p> </td> 
+   <td> <p>Voer de nieuwe tekstinhoud in van het bericht dat u wilt bijwerken.</p> <p>Voor meer informatie, zie <a href="https://api.slack.com/docs/formatting"> Formatterende tekst voor toepassingsoppervlakten </a> in de [!DNL Slack] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blocks]</td> 
-   <td>Blokken zijn herbruikbare componenten die u kunt gebruiken om uw berichten aan te passen en in te delen. Voor meer informatie over blokken raadpleegt u <a href="https://api.slack.com/block-kit">Blokkerit</a> in de [!DNL Slack] documentatie.</td> 
+   <td>Blokken zijn herbruikbare componenten waarmee u uw berichten kunt aanpassen en ordenen. Voor meer informatie over blokken, zie <a href="https://api.slack.com/block-kit"> Uitrusting van het Blok </a> in de [!DNL Slack] documentatie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Link names]</p> </td> 
-   <td> <p>Schakel deze optie in als u namen en kanalen wilt gebruiken <code>@username</code> of <code>#channel</code> gebruiken. </p> <p>Zie voor meer informatie <a href="https://api.slack.com/docs/formatting">Tekst opmaken voor toepassingsoppervlakken</a> in de [!DNL Slack] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in als u namen en kanalen de <code>@username</code> - of <code>#channel</code> -indeling wilt laten gebruiken. </p> <p>Voor meer informatie, zie <a href="https://api.slack.com/docs/formatting"> Formatterende tekst voor toepassingsoppervlakten </a> in de [!DNL Slack] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Parse message text]</p> </td> 
-   <td> <p>Schakel deze optie in als u automatisch parseren wilt toestaan. </p> <p> Zie voor meer informatie <a href="https://api.slack.com/docs/formatting">Tekst opmaken voor toepassingsoppervlakken</a> in de [!DNL Slack] documentatie.</p> <p>Opmerking: Als u [!UICONTROL Link names] of [!UICONTROL Parse message text] in het oorspronkelijke bericht, zou u hen moeten specificeren wanneer het runnen van Update een module van het Bericht eveneens.</p> </td> 
+   <td> <p>Schakel deze optie in als u automatisch parseren wilt toestaan. </p> <p> Voor meer informatie, zie <a href="https://api.slack.com/docs/formatting"> Formatterende tekst voor toepassingsoppervlakten </a> in de [!DNL Slack] documentatie.</p> <p>Opmerking: als u [!UICONTROL Link names] - of [!UICONTROL Parse message text] -opties hebt gebruikt in het oorspronkelijke bericht, moet u deze opgeven wanneer u de module Bericht bijwerken ook uitvoert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,15 +418,15 @@ Deze actiemodule verwijdert een opgegeven bericht.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Voer de kanaalid in of wijs deze toe.</p> <p>Opmerking: De kanaalid kan worden opgehaald met de [!UICONTROL List Channels] module.</p> </td> 
+   <td> <p>Voer de kanaalid in of wijs deze toe.</p> <p>Opmerking: de kanaal-id kan worden opgehaald met de module [!UICONTROL List Channels] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Voer de tijdstempel in of wijs deze toe van het bericht dat u wilt verwijderen.</p> <p>Opmerking: De tijdstempel kan worden opgehaald met een andere module, zoals de module Privékanaal controleren.</p> </td> 
+   <td> <p> Voer de tijdstempel in of wijs deze toe van het bericht dat u wilt verwijderen.</p> <p>Opmerking: de tijdstempel kan worden opgehaald met een andere module, zoals de module Privékanaal controleren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -658,11 +658,11 @@ Deze zoekmodule retourneert een lijst met alle kanalen in een werkruimte.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Exclude archived]</p> </td> 
-   <td> <p>Selecteren [!UICONTROL Yes] om gearchiveerde kanalen uit te sluiten in resultaten.</p> </td> 
+   <td> <p>Selecteer [!UICONTROL Yes] om gearchiveerde kanalen uit te sluiten in de resultaten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type] </td> 
@@ -670,7 +670,7 @@ Deze zoekmodule retourneert een lijst met alle kanalen in een werkruimte.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximum aantal kanalen instellen [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Stel het maximumaantal kanalen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -687,11 +687,11 @@ Deze actiemodule retourneert informatie over een werkruimtekanaal.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Ga of kaart identiteitskaart van het kanaal in dat u informatie over wilt terugwinnen.</p> <p>Opmerking: De kanaalid kan worden opgehaald met de [!UICONTROL List Channels] module.</p> </td> 
+   <td> <p>Ga of kaart identiteitskaart van het kanaal in dat u informatie over wilt terugwinnen.</p> <p>Opmerking: de kanaal-id kan worden opgehaald met de module [!UICONTROL List Channels] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -708,7 +708,7 @@ Deze zoekmodule retourneert een lijst met gebruikers in het geselecteerde kanaal
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel type]</td> 
@@ -720,7 +720,7 @@ Deze zoekmodule retourneert een lijst met gebruikers in het geselecteerde kanaal
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximumaantal leden instellen [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Stel het maximumaantal leden dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus in.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1488,7 +1488,7 @@ This action module updates a user's current status.
 
 +++ **[!UICONTROL Make an API Call]**
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Slack] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Slack] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Slack] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Slack] -modules kan worden uitgevoerd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1496,15 +1496,15 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het make
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Slack] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Een pad invoeren ten opzichte van <code>https://slack.com/api/</code>. Voorbeeld: <code>/users/identity</code>.</td> 
+   <td>Voer een pad in dat relatief is ten opzichte van <code>https://slack.com/api/</code> . Voorbeeld: <code>/users/identity</code> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -1512,11 +1512,11 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het make
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -1532,10 +1532,10 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het make
 
 ## Terminologie
 
-De volgende terminologie kan nuttig zijn bij het configureren [!DNL Slack] modules:
+De volgende terminologie kan nuttig zijn bij het configureren van [!DNL Slack] modules:
 
 * **DM**: [!UICONTROL Direct Message]
 * **IM**: [!UICONTROL Instant Message]
-* **Privékanaal**: vroeger [!UICONTROL Group]
-* **Direct bericht**: vroeger [!UICONTROL IM]
-* **Kanaal**: [!UICONTROL Conversation] in de API-documentatie, [!UICONTROL channel] in de [!DNL Slack] app.
+* **Privé Kanaal**: vroeger [!UICONTROL Group]
+* **Direct Bericht**: vroeger [!UICONTROL IM]
+* **Kanaal**: [!UICONTROL Conversation] in de API documentatie, [!UICONTROL channel] in [!DNL Slack] app.

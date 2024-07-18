@@ -16,7 +16,7 @@ ht-degree: 0%
 
 U kunt een aangepaste weergave toevoegen in het gebied Aangepaste Forms, waarin wordt aangegeven welke rapporten een bepaald aangepast veld of een bepaalde widget gebruiken. Dit is handig wanneer u het veld of de widget moet bewerken of verwijderen, omdat deze mogelijk al in een of meer rapporten is geïmplementeerd. Het is belangrijk om te beoordelen of die rapporten aanpassingen zullen nodig hebben om behoorlijk te blijven werken.
 
-Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) en [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen en [ een activa widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 ## Toegangsvereisten
 
@@ -44,34 +44,34 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een lijst weergeven van de rapporten die een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Klikken **Velden** om een rapport weer te geven met alle aangepaste velden en widgets in uw Workfront-exemplaar.
+1. In het linkerpaneel, klik **Aangepaste Forms**.
+1. Klik **Gebieden** om een rapport te tonen dat van alle douanegebieden en widgets in uw instantie van Workfront een lijst maakt.
 
-1. Klik op de knop **Weergave** controleert u vervolgens op aangepaste weergaven in de lijst die de **Rapporten** kolom (dit is geen standaardkolom op dit tabblad).
+1. Klik het **menu van de Mening**, dan controle voor om het even welke douanemeningen in de lijst die de **kolom van Rapporten** omvatten (die geen standaardkolom op dit lusje is).
 
-   In de kolom Rapporten kunt u zien welke rapporten elk aangepast veld en elke aangepaste widget gebruiken die aan een aangepast formulier in uw systeem is toegevoegd. Het is mogelijk dat iemand al een weergave heeft gemaakt die de **Rapporten** kolom.
+   In de kolom Rapporten kunt u zien welke rapporten elk aangepast veld en elke aangepaste widget gebruiken die aan een aangepast formulier in uw systeem is toegevoegd. Het is mogelijk dat iemand reeds een mening heeft gecreeerd die de **kolom van Rapporten** omvat.
 
-1. Als er geen weergave wordt weergegeven die het **Rapporten** een nieuwe weergave maken die deze bevat:
+1. Als u geen mening ziet die de **kolom van Rapporten** omvat, creeer een nieuwe mening die het omvat:
 
-   1. Klik op de knop **Weergave** en klik vervolgens op **Nieuwe weergave**.
+   1. Klik het **menu van de Mening**, dan klik **Nieuwe Mening**.
 
-   1. Op de **Nieuwe weergave** pagina die in het vak bij de linkerbovenhoek wordt weergegeven, vervangen **Nieuwe parameterweergave** met een beschrijvende naam voor de weergave, zoals *Velden en widgets*.
+   1. Op de **Nieuwe pagina van de Mening** die, in de doos dichtbij de upper-left hoek verschijnt, vervang **Nieuwe Mening van de Parameter** met een beschrijvende naam voor de mening, zoals *Gebieden en widgets*.
 
-   1. Klikken **Kolom toevoegen** in de rechterbenedenhoek.
-   1. In de **Tonen in deze kolom** tekstvak dat in de linkerbovenhoek wordt weergegeven, beginnen met typen *verslag* selecteert u vervolgens **Rapporten** in de lijst onder het vak.
+   1. Klik **toevoegen Kolom** dichtbij de laag-juiste hoek.
+   1. In **toon in deze kolom** doos die dichtbij de upper-left hoek toont, begin *rapport* te typen, dan uitgezochte **Rapporten** wanneer het in de lijst onder de doos verschijnt.
 
-   1. (Voorwaardelijk) Als u het dialoogvenster **Rapporten** de kolom u enkel aan een verschillende horizontale positie toevoegde, sleept zijn kopbal in **Kolomvoorvertoning** onder aan de pagina.
+   1. (Voorwaardelijk) als u de **kolom wilt bewegen van Rapporten** u enkel aan een verschillende horizontale positie toevoegde, versleep zijn kopbal in het **gebied van de Voorproef van de Kolom** bij de bodem van de pagina.
 
-   1. Klikken **Gereed** en klik vervolgens op **Weergave opslaan**.
+   1. Klik **Gedaan**, dan klik **sparen Mening**.
 
-1. Klik op de knop **Weergave** en selecteert u de naam van de aangepaste weergave die u zojuist hebt gemaakt.
-1. In de **Naam** de kolom, vindt het douanegebied of widget u van plan bent uit te geven of te schrappen, dan bekijken **Rapporten** kolom op die rij om te zien welke rapporten het gebruiken, als om het even welk.
+1. Klik het **drop-down menu van de Mening**, dan selecteer de naam van de douanemening u enkel creeerde.
+1. In de **kolom van de Naam**, vind het douanegebied of widget u van plan bent uit te geven of te schrappen, dan bekijk de **kolom van Rapporten** op die rij om te zien welke rapporten het gebruiken, als om het even welk.
 
    Workfront zoekt naar de aangepaste velden en widgets in alle rapportfilters, weergaven en groepen om de informatie voor deze kolom te zoeken.
 
@@ -87,10 +87,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    >
    >Deze mening is ook beschikbaar in een rapport van de Parameter:
    >      
-   > 1. Klik in het hoofdmenu op **Rapporten**.
-   > 1. Klik in de linkerbovenhoek op **Nieuw rapport** en klik vervolgens op **Parameter** in de lijst die wordt weergegeven.
-   > 1. Klikken **Kolom toevoegen** in de rechterbenedenhoek.
-   > 1. In de **Tonen in deze kolom** tekstvak dat in de linkerbovenhoek wordt weergegeven, beginnen met typen *verslag* selecteert u vervolgens **Rapporten** in de lijst onder het vak.
-   > 1. (Voorwaardelijk) Als u het dialoogvenster **Rapporten** de kolom u enkel aan een verschillende horizontale positie toevoegde, sleept zijn kopbal in **Kolomvoorvertoning** onder aan de pagina.
-   > 1. Klikken **Gereed** en klik vervolgens op **Opslaan en sluiten**.
-   > 1. Typ een beschrijvende naam voor het rapport, zoals *Velden en widgets*.
+   > 1. In het Belangrijkste Menu, klik **Rapporten**.
+   > 1. Bij de upper-left hoek, klik **Nieuw Rapport**, dan klik **Parameter** in de lijst die toont.
+   > 1. Klik **toevoegen Kolom** dichtbij de laag-juiste hoek.
+   > 1. In **toon in deze kolom** doos die dichtbij de upper-left hoek toont, begin *rapport* te typen, dan uitgezochte **Rapporten** wanneer het in de lijst onder de doos verschijnt.
+   > 1. (Voorwaardelijk) als u de **kolom wilt bewegen van Rapporten** u enkel aan een verschillende horizontale positie toevoegde, versleep zijn kopbal in het **gebied van de Voorproef van de Kolom** bij de bodem van de pagina.
+   > 1. Klik **Gedaan**, dan klik **sparen+Sluiten**.
+   > 1. Typ een beschrijvende naam voor het rapport, zoals *Gebieden en widgets*.

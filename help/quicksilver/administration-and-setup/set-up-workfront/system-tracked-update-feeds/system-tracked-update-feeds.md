@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Door het systeem bijgehouden updates
-description: Adobe Workfront legt de activiteit vast die plaatsvindt op bepaalde objecten door statusinformatie te registreren in de [!UICONTROL Updates] gebied.
+description: Adobe Workfront legt de activiteit vast die plaatsvindt op bepaalde objecten door statusinformatie in het gebied [!UICONTROL Updates] van het object te registreren.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] legt de activiteit vast die op bepaalde voorwerpen door statusinformatie in de objecten te registreren plaatsvindt [!UICONTROL Updates] sectie.
+[!DNL Adobe Workfront] legt de activiteit vast die op bepaalde objecten plaatsvindt door statusinformatie in de [!UICONTROL Updates] -sectie van het object te registreren.
 
-Voor informatie over de sectie van Updates, zie [Overzicht van de sectie Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Voor informatie over de sectie van Updates, zie [ overzicht van de sectie van Updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-De [!UICONTROL Updates] omvat de volgende typen updates:
+Het gebied [!UICONTROL Updates] bevat de volgende typen updates:
 
-* **Gebruikers: updates:** Handmatig ingevoerd door gebruikers. Wordt ook opmerkingen, antwoorden en notities genoemd. De updates van de gebruiker tonen in de Commentaren en Alle lusjes van de sectie van Updates van een voorwerp.
+* **de updates van de Gebruiker:** manueel ingegaan door gebruikers. Wordt ook opmerkingen, antwoorden en notities genoemd. De updates van de gebruiker tonen in de Commentaren en Alle lusjes van de sectie van Updates van een voorwerp.
 
-  Voor meer informatie over het configureren van gebruikersupdates raadpleegt u [Voorkeuren voor gebruikersupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+  Voor meer informatie over het vormen van gebruikersupdates, zie [ voorkeur voor gebruikersupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) vormen.
 
   ![](assets/updates-qs-350x125.png)
 
-* **Systeemupdates:** Automatisch gemaakt door het systeem. Een systeemupdate bevat een korte beschrijving van het type wijziging dat met het item is opgetreden. De updates van het systeem tonen in de Activiteit van het Systeem en de Alle lusjes van de sectie van Updates van een voorwerp.
+* **de updates van het Systeem:** automatisch gemaakt door het systeem. Een systeemupdate bevat een korte beschrijving van het type wijziging dat met het item is opgetreden. De updates van het systeem tonen in de Activiteit van het Systeem en de Alle lusjes van de sectie van Updates van een voorwerp.
 
-  Voor meer informatie over de feeds van systeemupdates en hoe te om hen toe te laten, zie [Systeemupdates configureren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Voor meer informatie over de feeds van de systeemupdate en hoe te om hen toe te laten, zie [ systeemupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -56,7 +56,7 @@ De [!UICONTROL Updates] omvat de volgende typen updates:
 
 Door het systeem bijgehouden updates zijn niet beschikbaar voor alle objecten die het gebied Updates hebben.
 
-* De [!UICONTROL Updates] is beschikbaar voor de volgende objecten:
+* Het gebied [!UICONTROL Updates] is beschikbaar voor de volgende objecten:
 
    * [!UICONTROL Project]
    * [!UICONTROL Task]
@@ -71,14 +71,14 @@ Door het systeem bijgehouden updates zijn niet beschikbaar voor alle objecten di
    * [!UICONTROL Timesheet]
    * [!UICONTROL Story]
 
-     In [!DNL Workfront]Een verhaal is een taak.
+     In [!DNL Workfront] is een artikel een taak.
    * [!UICONTROL Iteration]
    * [!UICONTROL Goal]
 
-     U moet een extra licentie hebben om toegang te hebben tot de [!UICONTROL Goals] gebied. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL Card] aan boord
+     U moet een extra licentie hebben om toegang te hebben tot het [!UICONTROL Goals] -gebied. Voor informatie, zie [ Vereisten om de Doelen van Workfront ](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+   * [!UICONTROL Card] op een bord
 
-     Voor meer informatie over updates van kaarten raadpleegt u [Gekoppelde kaarten op borden gebruiken](../../../agile/get-started-with-boards/connected-cards.md).
+     Voor meer informatie over updates op kaarten, zie [ Gebruik verbonden kaarten op raad ](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] houdt geen systeemupdates bij voor de volgende objecten:
 
@@ -96,7 +96,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * De updates van de gebruiker tonen op het lusje van Commentaren en systeemupdates tonen in de Activiteit van het Systeem en de Alle lusjes.
 
-  Voor een lijst met objecten die niet over de tabbladen Systeemactiviteit of Alle beschikken, raadpleegt u [Overzicht van de sectie Bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  Voor een lijst van voorwerpen die niet de Activiteit van het Systeem of Alle lusjes hebben, zie [ overzicht van de sectie van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * U kunt geen antwoord toevoegen aan een systeemupdate. Alle antwoorden die vóór 11 april 2024 in de oudere opmerkingervaring naar de systeemactiviteitenrecords zijn verzonden, worden echter als alleen-lezen ingevuld op het tabblad Systeemactiviteit.
 
@@ -119,7 +119,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] beheerders kunnen bepalen welk type van veranderingen het systeem in zou moeten volgen [!UICONTROL Updates] gebied. Niet alle objecten met een [!UICONTROL Updates] gebied ook configureerbaar [!UICONTROL update] feeds. De volgende objecten hebben een [!UICONTROL Updates] gebied dat door het systeem bijgehouden updateffeeds vastlegt, maar geen configureerbare bijwerkingsfeeds heeft:
+* [!DNL Workfront] beheerders kunnen bepalen welk type wijzigingen het systeem in het [!UICONTROL Updates] -gebied moet bijhouden. Niet alle objecten met een [!UICONTROL Updates] -gebied hebben configureerbare [!UICONTROL update] -feeds. De volgende objecten hebben een [!UICONTROL Updates] -gebied dat door het systeem bijgehouden bijwerkingsfeeds vastlegt, maar geen configureerbare bijwerkingsfeeds hebben:
 
    * [!UICONTROL Document]
    * [!UICONTROL Timesheet]

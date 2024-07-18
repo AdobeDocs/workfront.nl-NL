@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 'Filter: Bewijs van goedkeuring om vorige proefversies weg te laten'
+title: 'Filter: rapport Goedkeuring proef om vorige proefversies weg te laten'
 description: Voor een rapport van de Goedkeuring van het Bewijs, kunt u het Is Huidige filter van de Versie van het Document gebruiken om slechts de huidige versies van proeven te omvatten die op uw goedkeuring wachten.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Filter: rapport Goedkeuring proef om vorige proefversies weg te laten
 
-Voor een rapport van de Goedkeuring van het Bewijs kunt u gebruiken **Is huidige documentversie** filter om alleen de huidige versies van proefdrukken op te nemen die op uw goedkeuring wachten.
+Op een rapport van de Goedkeuring van het Bewijs, kunt u **gebruiken is Huidige filter van de Versie van het Document** om slechts de huidige versies van proeven te omvatten die op uw goedkeuring wachten.
 
 Dit is bijvoorbeeld handig als u is gevraagd proefdrukken met meerdere versies goed te keuren. Wanneer u het rapport Goedkeuring van het Bewijs met het Huidige filter van de Versie van het Document van Is in werking stelt, maakt het rapport een lijst van slechts de huidige versie van elke proef die op uw goedkeuring wacht, die vroegere versies weglaat die u niet meer hoeft te werken. 
 
@@ -41,16 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Rapport Goedkeuring proef filteren om vorige proefversies weg te laten
 
@@ -62,15 +62,15 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Als u uw eigen goedkeuringsrapport voor proefdrukken wilt maken, klikt u op het hoofdmenu ![](assets/main-menu-icon.png)en klik vervolgens op **Rapporten** ![](assets/reports-in-main-menu.png). Klikken **Nieuw rapport**. Blader naar de lijst die wordt weergegeven en klik op **Goedkeuring proefdrukken**. Klikken **Opslaan + Sluiten**, typt u een **Rapportnaam** (optioneel) en klik vervolgens op **Rapport opslaan**.
+   Om uw eigen rapport van de Goedkeuring van het Bewijs tot stand te brengen, klik het Belangrijkste Menu ![](assets/main-menu-icon.png), dan klik **Rapporten** ![](assets/reports-in-main-menu.png). Klik **Nieuw Rapport**. In de lijst die verschijnt, scrol aan en klik **Goedkeuring van het Bewijs**. Klik **sparen + Sluiten**, type a **Naam van het Rapport** (facultatief), dan klik **sparen Rapport**.
 
-1. Klikken **Handelingen rapporteren > Bewerken**.
-1. Klikken **Filters** en klik vervolgens op **Filterregel toevoegen**.
+1. Klik **de Acties van het Rapport > uitgeven**.
+1. Klik **Filters**, dan klik **voegt een Regel van de Filter** toe.
 
    <!--
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
    -->
 
-1. Klikken **Goedkeuring proefdrukken**.
-1. Klik in de lijst die wordt weergegeven op **Is huidige documentversie**.
-1. Klikken **Opslaan + Sluiten** in de linkerbenedenhoek van Adobe Workfront klikt u op **Rapport opslaan** in het vak dat wordt weergegeven.
+1. Klik **Goedkeuring van het Bewijs**.
+1. In de lijst die verschijnt, is de klik **Huidige Versie van het Document**.
+1. Klik **sparen + Sluiten** in de laag-linkerhoek van Adobe Workfront, dan klik **sparen Rapport** in de doos die verschijnt.

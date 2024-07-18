@@ -6,7 +6,8 @@ title: Een triggermodule toevoegen aan een basisscenario
 description: Leer hoe te om een trekkermodule toe te voegen om het scenario toe te staan om periodiek naar nieuwe verzoeken te zoeken en hen in projecten om te zetten.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -21,31 +22,31 @@ De modules van de opiniepeiling controleren de dienst bij een vastgestelde tijdi
 
 In dit voorbeeld, zult u een trekkermodule toevoegen die om de 15 minuten in werking stelt en begint een scenario als om het even welke verzoeken aan een specifieke rij zijn voorgelegd. Het scenario zet dan die verzoeken in een project om.
 
-In dit voorbeeld wordt het scenario gewijzigd dat in [Een basisscenario maken](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+Dit voorbeeld wijzigt het scenario dat in [ wordt gecreeerd leidt tot een basisscenario ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Vereisten
 
-U moet het scenario creëren dat in wordt beschreven [Een basisscenario maken](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) voordat deze procedure wordt gevolgd.
+U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een basisscenario ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) alvorens deze procedure te volgen.
 
 ## De triggermodule toevoegen en configureren
 
 ### De triggermodule toevoegen
 
 1. Open het scenario in de scenarioredacteur.
-1. Klik met de rechtermuisknop op de eerste module (Zoeken) en selecteer **Module verwijderen**.
+1. Klik op de eerste (Onderzoek) module met de rechtermuisknop aan en selecteer **module van de Schrapping**.
 
    De module wordt verwijderd en er blijft een lege tijdelijke aanduiding achter.
 
-1. Klik op de lege module en selecteer **Adobe Workfront** uit de lijst met apps.
-1. Selecteren **Record bekijken**.
+1. Klik de lege module, en selecteer **Adobe Workfront** van de lijst van apps.
+1. Selecteer **Verslag van het Controle**.
 1. Zorg ervoor dat de module de zelfde verbinding zoals de rest modules in het scenario gebruikt.
-1. Selecteer in het veld Filter de optie **Alleen nieuwe records**.
-1. Selecteer in het vak Uitvoer de optie `ID`, `Name`, en `Project ID`.
-1. Klikken **OK** om de module-instellingen op te slaan.
+1. Op het gebied van de Filter, uitgezochte **Alleen Nieuwe Verslagen**.
+1. Selecteer `ID`, `Name` en `Project ID` in het vak Uitvoer.
+1. Klik **O.K.** om de modulemontages te bewaren.
 
    Er verschijnt een venster waarin u wilt beginnen.
 
-1. Selecteren **Vanaf nu**.
+1. Selecteer **van nu op**.
 
 ### De triggermodule inplannen
 
@@ -53,9 +54,9 @@ U moet het scenario creëren dat in wordt beschreven [Een basisscenario maken](/
 
    Het venster Schema-instelling wordt geopend.
 
-1. Selecteer in het scenario Uitvoeren de optie **Op gezette tijden**.
+1. Op het het scenario van de Looppas gebied, selecteer **met regelmatige intervallen**.
 
-1. Klikken **OK**.
+1. Klik **OK**.
 
 ### De tweede module bijwerken
 
@@ -64,17 +65,17 @@ Omdat de eerste module is vervangen, moet de tweede module aan de nieuwe eerste 
 1. Open de module Object omzetten.
 1. Verwijder het zwarte-id-blok in het veld Uitgave-id. Het blok is zwart omdat de module waarvan het is toegewezen niet meer beschikbaar is.
 1. Selecteer het blok van identiteitskaart onder de eerste module (de Verslagen van het Controle) om het aan de tweede module in kaart te brengen.
-1. Klikken **OK**.
+1. Klik **OK**.
 
 ### Testen en activeren
 
 1. Ga naar de Workfront-omgeving waarmee Fusion verbinding maakt en voeg een probleem toe.
-1. Klikken **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenario-editor.
+1. Klik op **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenarioeditor.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u tevreden bent dat het scenario zoals verwacht werkt, klikt u op de knop **Planning** linksonder van het scherm schakelen naar **Aan**.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
 
    Dit activeert het scenario.
-1. In [!DNL Workfront Fusion], klikt u op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.
+1. Klik in [!DNL Workfront Fusion] in de linkerbenedenhoek op **[!UICONTROL Save]** om de voortgang van het scenario op te slaan.
 
    >[!IMPORTANT]
    >
@@ -82,4 +83,4 @@ Omdat de eerste module is vervangen, moet de tweede module aan de nieuwe eerste 
 
 ## Bronnen
 
-* Voor meer informatie over webhooks raadpleegt u [Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* Voor meer informatie over webhooks, zie [ Onmiddellijke trekkers (webhooks) in  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).

@@ -35,27 +35,27 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot of hoger weergeven voor de sjablonen die u wilt weergeven en waarmee u wilt werken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot of hoger weergeven voor de sjablonen die u wilt weergeven en waarmee u wilt werken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
-## De mening, het werk met, en creeert malplaatjes voor uw groep van het gebied van Groepen
+## Sjablonen voor uw groep weergeven, bewerken en maken vanuit het gebied Groepen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u sjablonen wilt maken of wijzigen.
-1. Klik in het linkerdeelvenster op **Sjablonen** om een lijst te maken van de malplaatjes die met de groep en met om het even welke subgroups worden geassocieerd het zou kunnen hebben.
+1. In het linkerpaneel, klik **Malplaatjes** om van de malplaatjes een lijst te maken die met de groep en met om het even welke subgroups worden geassocieerd het zou kunnen hebben.
 
-   U moet toegang tot een sjabloon weergeven als u de sjabloon in deze lijst wilt zien. Voor informatie over deze toegang, zie [Toegang tot sjablonen verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+   U moet toegang tot een sjabloon weergeven als u de sjabloon in deze lijst wilt zien. Voor informatie over deze toegang, zie [ toegang van de Verlening tot malplaatjes ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
 1. Voer een van de volgende handelingen uit:
 
@@ -65,27 +65,27 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader">Een sjabloon toevoegen</td> 
-      <td> <p>Klikken <strong>Nieuwe sjabloon</strong>en configureer de toepassing vervolgens met de beschikbare opties. Voor informatie over deze opties raadpleegt u <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Een projectsjabloon maken</a>.</p> <p>De sjabloon wordt automatisch gekoppeld aan de groep.</p> <p>Voor informatie over hoe groepsvoorkeuren van toepassing zijn op nieuwe sjablonen raadpleegt u <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref">Hoe voorkeuren van toepassing zijn op sjablonen en sjabloontaken</a> in dit artikel.</p> </td> 
+      <td> <p>Klik <strong> Nieuw Malplaatje </strong>, dan vorm het gebruikend de beschikbare opties. Voor informatie over deze opties, zie <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref"> een projectmalplaatje </a> creëren.</p> <p>De sjabloon wordt automatisch gekoppeld aan de groep.</p> <p>Voor informatie over hoe de groepsvoorkeur op nieuwe malplaatjes van toepassing is, zie <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref"> hoe voorkeur op malplaatjes en malplaatjetaken </a> in dit artikel van toepassing is.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een of meer sjablonen bewerken</td> 
-      <td> <p>Selecteer ten minste één sjabloon en klik op het pictogram Bewerken <img src="assets/edit-icon.png">en gebruik vervolgens een van de beschikbare opties om de toepassing te configureren. Voor informatie over deze opties raadpleegt u <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Projectsjablonen bewerken</a>.</p> <p>Het pictogram Bewerken is alleen beschikbaar als u toegang hebt tot alle sjablonen die u selecteert. Voor informatie over deze toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Toegang tot sjablonen verlenen</a>.</p> </td> 
+      <td> <p>Selecteer ten minste één sjabloon, klik op het pictogram Bewerken <img src="assets/edit-icon.png"> en gebruik vervolgens een van de beschikbare opties om de sjabloon te configureren. Voor informatie over deze opties, zie <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref"> projectmalplaatjes </a> uitgeven.</p> <p>Het pictogram Bewerken is alleen beschikbaar als u toegang hebt tot alle sjablonen die u selecteert. Voor informatie over deze toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref"> toegang van de Verlening tot malplaatjes </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een of meer sjablonen verwijderen</td> 
-      <td> <p>Selecteer ten minste één sjabloon en klik op het pictogram Verwijderen <img src="assets/delete.png">.</p> <p>Dit pictogram is alleen beschikbaar als u toegang tot alle sjablonen hebt die u selecteert. Voor informatie over deze toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Toegang tot sjablonen verlenen</a>.</p> </td> 
+      <td> <p>Selecteer ten minste één sjabloon en klik op het pictogram Verwijderen <img src="assets/delete.png"> .</p> <p>Dit pictogram is alleen beschikbaar als u toegang tot alle sjablonen hebt die u selecteert. Voor informatie over deze toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref"> toegang van de Verlening tot malplaatjes </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een of meer sjablonen delen</td> 
-      <td> <p>Selecteer ten minste één sjabloon en klik op het pictogram Delen <img src="assets/share-icon.png">Klik vervolgens op een van de volgende opties in het vervolgkeuzemenu:</p> 
+      <td> <p>Selecteer ten minste één sjabloon, klik op het pictogram Delen <img src="assets/share-icon.png"> en klik vervolgens op een van de volgende opties in het vervolgkeuzemenu:</p> 
        <ul> 
-        <li> <p><strong>Sjabloon</strong>: In de <strong>Sjabloontoegang</strong> In dit vak voegt u namen toe om aan te geven wie toegang tot de sjabloon wilt hebben.</p> <p>Zie de sectie voor meer informatie <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Een sjabloon delen</a> in het artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Projectsjablonen delen</a>.</p> </li> 
-        <li><strong>Project</strong>: In de <strong>Projecttoegang</strong> doos die toont, voeg namen toe om te specificeren wie u toegang tot de projecten wilt hebben die van het malplaatje worden gecreeerd</li> 
-       </ul> <p>Het pictogram Delen is alleen beschikbaar als u toegang hebt tot alle sjablonen die u selecteert. Voor informatie over deze toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Toegang tot sjablonen verlenen</a>.</p> </td> 
+        <li> <p><strong> Malplaatje </strong>: In het <strong> vakje van de Toegang van het Malplaatje </strong> dat toont, voeg namen toe om te specificeren wie u toegang tot het malplaatje zelf wilt hebben.</p> <p>Voor meer informatie, zie de sectie <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref"> een malplaatje </a> in het artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref"> het projectmalplaatjes van het Aandeel </a>.</p> </li> 
+        <li><strong> Project </strong>: In het <strong> vakje van de Toegang van het Project </strong> dat toont, voeg namen toe om te specificeren wie u toegang tot de projecten wilt hebben die van het malplaatje worden gecreeerd</li> 
+       </ul> <p>Het pictogram Delen is alleen beschikbaar als u toegang hebt tot alle sjablonen die u selecteert. Voor informatie over deze toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref"> toegang van de Verlening tot malplaatjes </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">De lijst met sjablonen exporteren</td> 
-      <td>Klikken <strong>Exporteren</strong> <img src="assets/export.png">Selecteer vervolgens de bestandsindeling die u voor de geëxporteerde lijst wilt gebruiken.</td> 
+      <td>Klik <strong> Uitvoer </strong> <img src="assets/export.png">, dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -111,9 +111,8 @@ Wanneer u een projectmalplaatje creeert, worden de montages die in de lijsten hi
 >* U geeft geen groep op wanneer u de sjabloon maakt met de API
 >
 
-
-* [Instellingen voor projectsjablonen geconfigureerd door project- en taakvoorkeuren](#project-template-settings-configured-by-project-and-task-preferences)
-* [Taakinstellingen voor sjablonen configureren op basis van taakvoorkeuren](#template-task-settings-configured-by-task-preferences)
+* [ het malplaatjemontages van het Project die door project en taakvoorkeur worden gevormd ](#project-template-settings-configured-by-project-and-task-preferences)
+* [Taakinstellingen voor sjablonen geconfigureerd door taakvoorkeuren](#template-task-settings-configured-by-task-preferences)
 
 ### Instellingen voor projectsjablonen geconfigureerd door project- en taakvoorkeuren {#project-template-settings-configured-by-project-and-task-preferences}
 
@@ -148,25 +147,26 @@ Wanneer u een projectmalplaatje creeert, worden de montages die in de lijsten hi
  </tbody> 
 </table>
 
-Voor informatie over de projectvoorkeur die in deze lijst wordt vermeld, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Voor informatie over de projectvoorkeur die in deze lijst wordt vermeld, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Voor informatie over de taak en uitgiftevoorkeur raadpleegt u [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor informatie over de taak en de uitgiftevoorkeur, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 >[!NOTE]
 >
 >* Als u de groep wijzigt die aan een bestaand projectmalplaatje wordt geassocieerd, blijven de montages van het malplaatje het zelfde.
 >* Als u een bestaande sjabloontaak naar een andere sjabloon verplaatst, blijven de volgende instellingen ongewijzigd in de sjabloontaak, ongeacht de groep die aan de nieuwe sjabloon is gekoppeld:>
-   >   * Duur
-   >   * Type inkomsten
-   >   * Kostensoort
+>   * Duur
+>   * Type inkomsten
+>   * Kostensoort
 >
->  Nochtans, wordt de malplaatjetaak beïnvloed door het plaatsen &quot;wanneer iemand aan een taak&quot;op het nieuwe malplaatje wordt toegewezen. Zie de sectie voor meer informatie [Toegang](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) in het artikel [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>  Nochtans, wordt de malplaatjetaak beïnvloed door het plaatsen &quot;wanneer iemand aan een taak&quot;op het nieuwe malplaatje wordt toegewezen. Voor meer informatie, zie de sectie [ Toegang ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) in het artikel [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 >
 >* Wanneer een beheerder een project als malplaatje bewaart, worden alle montages voor het malplaatje geërft van het project, met inbegrip van de groep.
 >
 >  Wanneer een beheerder een taak of een kwestie in een project gebruikend een malplaatje omzet, worden alle montages voor het malplaatje bepaald door wat reeds op het malplaatje wordt bewaard.
+>
 
-### Taakinstellingen voor sjablonen configureren op basis van taakvoorkeuren {#template-task-settings-configured-by-task-preferences}
+### Taakinstellingen voor sjablonen geconfigureerd door taakvoorkeuren {#template-task-settings-configured-by-task-preferences}
 
 Wanneer u een malplaatjetaak creeert, worden sommige van zijn montages gevormd automatisch door een correlerende taakvoorkeur. Deze instellingen worden in de onderstaande tabel weergegeven.
 
@@ -189,4 +189,4 @@ Wanneer u een malplaatjetaak creeert, worden sommige van zijn montages gevormd a
  </tbody> 
 </table>
 
-Voor informatie over de taakvoorkeuren in deze tabel raadpleegt u [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor informatie over de taakvoorkeur die in deze lijst wordt vermeld, zie [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).

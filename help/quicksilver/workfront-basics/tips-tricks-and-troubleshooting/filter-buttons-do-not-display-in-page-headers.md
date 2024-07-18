@@ -71,25 +71,25 @@ De volgende filterknoppen worden niet weergegeven in de desbetreffende gebieden:
 
 ## Oplossing
 
-De filterknoppen in het dialoogvenster [!UICONTROL Projects and Timesheets] worden niet weergegeven omdat de bijbehorende filters niet zijn opgenomen in de lay-outsjabloon die op de gebruiker is toegepast. De [!DNL Workfront] de beheerder moet een lay-outmalplaatje toewijzen dat de filters omvat.
+De filterknoppen in het gebied [!UICONTROL Projects and Timesheets] worden niet weergegeven omdat de bijbehorende filters niet zijn opgenomen in de lay-outsjabloon die op de gebruiker is toegepast. De [!DNL Workfront] -beheerder moet een lay-outsjabloon toewijzen die de filters bevat.
 
 >[!NOTE]
 >
->Soms worden de filters verwijderd uit de [!UICONTROL List Controls] gebied in [!UICONTROL Setup]. De [!DNL Workfront] de beheerder moet hen in de lijsten op dit gebied omvatten opdat zij in de lay-outmalplaatjes beschikbaar zijn.
+>Soms worden de filters verwijderd uit het [!UICONTROL List Controls] -gebied in [!UICONTROL Setup] . De [!DNL Workfront] -beheerder moet deze in de lijsten in dit gebied opnemen, anders zijn ze niet beschikbaar in de lay-outsjablonen.
 
 1. Controleer of in de lay-outsjabloon de volgende filters worden weergegeven:
 
-   * [!UICONTROL Projects I'm On] en [!UICONTROL Projects I Own] in de [!UICONTROL Projects] gebied
-   * [!UICONTROL My Timesheet Approvals] en [!UICONTROL My Timesheets] in de [!UICONTROL Timesheet] gebied
+   * [!UICONTROL Projects I'm On] en [!UICONTROL Projects I Own] in het [!UICONTROL Projects] -gebied
+   * [!UICONTROL My Timesheet Approvals] en [!UICONTROL My Timesheets] in het [!UICONTROL Timesheet] -gebied
 
    Dit doet u als volgt:
 
    1. Open de lay-outsjabloon.
-   1. Selecteren **[!UICONTROL Lists]** krachtens **[!UICONTROL Customize what users see]**.
-   1. Selecteren **[!UICONTROL Projects]** of **[!UICONTROL Timesheets]** krachtens **[!UICONTROL Select a list to customize]**.
-   1. In de **[!UICONTROL Filter]** sectie, verifieer dat **[!UICONTROL Projects I'm On]**, **[!UICONTROL Projects I Own]** (voor projecten) en **[!UICONTROL My Timesheet Approvals]** en **[!UICONTROL My Timesheets]** (voor tijdbladen) geselecteerd.
+   1. Selecteer **[!UICONTROL Lists]** onder **[!UICONTROL Customize what users see]** .
+   1. Selecteer **[!UICONTROL Projects]** of **[!UICONTROL Timesheets]** onder **[!UICONTROL Select a list to customize]** .
+   1. Controleer in de sectie **[!UICONTROL Filter]** of **[!UICONTROL Projects I'm On]** , **[!UICONTROL Projects I Own]** (voor projecten) en **[!UICONTROL My Timesheet Approvals]** en **[!UICONTROL My Timesheets]** (voor tijdbladen) zijn geselecteerd.
    1. Klik op **[!UICONTROL Save]**.
 
-   Zie voor meer informatie [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Voor meer informatie, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. Wijs het lay-outmalplaatje aan de correcte gebruikers, baanrollen, teams, of groepen toe. Zie voor meer informatie [Gebruikers toewijzen aan een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. Wijs het lay-outmalplaatje aan de correcte gebruikers, baanrollen, teams, of groepen toe. Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.

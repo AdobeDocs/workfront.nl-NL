@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Een array toewijzen in [!DNL Adobe] Workfront Fusion
+title: Wijs een serie in  [!DNL Adobe]  de Fusie van Workfront toe
 description: U kunt een array toewijzen aan een moduleveld in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
@@ -23,9 +23,9 @@ Een array is een speciaal type item dat het volgende kan bevatten:
 
 >[!INFO]
 >
->**Voorbeeld:** De [!UICONTROL Watch emails] retourneert een array met bijlagen voor elke e-mail. Elke bijlage vertegenwoordigt een verzameling die een naam, inhoud, grootte enzovoort kan bevatten.
+>**Voorbeeld:** de [!UICONTROL Watch emails] module keert een serie van gehechtheid voor elke e-mail terug. Elke bijlage vertegenwoordigt een verzameling die een naam, inhoud, grootte enzovoort kan bevatten.
 
-Zie voor meer informatie [Gegevenstypen item in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+Voor meer informatie, zie {de gegevenstypes van 0} Punt in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).[
 
 ## Toegangsvereisten
 
@@ -46,25 +46,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Een array toewijzen
 
@@ -72,14 +72,14 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
    >[!INFO]
    >
-   >  **Voorbeeld:** In het bovenstaande voorbeeld klikt u op de knop [!UICONTROL Add an attachment] voor een e-mailbericht.
+   >  **Voorbeeld:** Voor het bovenstaande voorbeeld, zou u de [!UICONTROL Add an attachment] knoop voor een e-mail klikken.
    >
    >![](assets/add-an-attachment-button-350x152.jpg)
 
 1. Voer het item in het vak dat wordt weergegeven.
 
-   In het deelvenster kunt u velden op dezelfde manier toewijzen als bij elk ander type item. Als u niet elk punt afzonderlijk wilt invullen, maar een andere serie in het doelgebied wilt in kaart brengen, gebruik [!UICONTROL Map] knop. In dit geval moet u ervoor zorgen dat beide arrays (de bronarray en de doelarray) dezelfde structuur hebben.
+   In het deelvenster kunt u velden op dezelfde manier toewijzen als bij elk ander type item. Als u niet elk item afzonderlijk wilt invullen, maar een andere array wilt toewijzen aan het doelveld, gebruikt u de knop [!UICONTROL Map] . In dit geval moet u ervoor zorgen dat beide arrays (de bronarray en de doelarray) dezelfde structuur hebben.
 
    U kunt elk gewenst aantal items aan een array toevoegen.
 
-U kunt een array in afzonderlijke bundels verdelen met behulp van een iterator. Zie voor meer informatie [[!UICONTROL Iterator] module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+U kunt een array in afzonderlijke bundels verdelen met behulp van een iterator. Zie [[!UICONTROL Iterator] module in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) voor meer informatie.

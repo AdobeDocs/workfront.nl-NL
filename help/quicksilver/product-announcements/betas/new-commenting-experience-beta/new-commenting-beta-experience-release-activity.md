@@ -33,7 +33,7 @@ ht-degree: 0%
 >
 >Het bètaprogramma voor de nieuwe opmerkingservaring begon in april 2023 en eindigde in oktober 2023, met de release van oktober 2023.
 > 
->Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Voor meer informatie, zie [ Nieuwe het becommentariëren ervaring ](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Alle functies die in de nieuwe opmerkingervaring zijn opgenomen, zijn sinds 11 april 2024 beschikbaar voor alle klanten in de productieomgeving.
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 De nieuwe ervaring met opmerkingen brengt een nieuw ontwerp aan in de sectie Updates van Workfront-objecten.
 
-Voor informatie over welke Workfront-objecten de sectie Updates weergeven, raadpleegt u [Overzicht van de sectie Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Voor informatie waarover de voorwerpen van Workfront de sectie van Updates tonen, zie [ het sectieoverzicht van Updates ](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Voor informatie over de releasetijdlijn voor de nieuwe opmerkingervaring raadpleegt u [Nieuwe ervaring met opmerkingen](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor informatie over de versiechronologie voor de nieuwe het becommentariëren ervaring, zie [ Nieuwe het becommentariëren ervaring ](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Functies die tijdens de bètaperiode worden vrijgegeven
@@ -70,12 +70,12 @@ Voorbeeld en productie voor alle klanten: 19 oktober 2023.
 
 >[!NOTE]
 >
->Deze beperking werd opgeheven na 28 november 2023. Zie voor meer informatie [Overzicht eerste release 2024, kwartaal 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Deze beperking werd opgeheven na 28 november 2023. Voor meer informatie, zie [ Eerste Kwartaal 2024 releaseoverzicht ](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 
 Projecten, taken, problemen en documenten geven updates weer vanaf 1 januari 2019. Vóór deze verbetering werd de nieuwe opmerkingervaring alleen bijgewerkt vanaf juni 2022 voor deze objecten.
 
-Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../new-commenting-experience-beta/unified-commenting-experience.md).
+Voor meer informatie, zie [ Nieuwe het becommentariëren ervaring ](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 Voorbeeld en productie voor alle klanten: 11 september 2023.
 
@@ -91,7 +91,7 @@ Voorbeeld en productie voor alle klanten: 24 augustus 2023
 
 ### Week van 14 augustus 2023
 
-[Bekijk een videodemonstratie van alle functies die in de week van 14 augustus 2023 zijn uitgebracht](https://video.tv.adobe.com/v/3422912/){target=_blank}
+[ Bekijk een videodemonstratie van alle eigenschappen die tijdens de week van 14 augustus, 2023 ](https://video.tv.adobe.com/v/3422912/){target=_blank} worden vrijgegeven
 
 #### Nieuwe ervaring met opmerkingen voor extra objecten
 
@@ -103,7 +103,7 @@ De nieuwe ervaring met opmerkingen is beschikbaar voor de volgende objecten, kor
 
 Dit is de enige opmerkingervaring voor deze objecten, omdat de oudere opmerkingervaring wordt verwijderd wanneer u deze objecten opent.
 
-Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor meer informatie, zie [ Nieuwe het becommentariëren ervaring ](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Voorvertoningsrelease: 17 augustus 2023
 
@@ -131,7 +131,7 @@ We hebben de nieuwe commentaarstroom opnieuw ontworpen om deze een meer bijgewer
 
 * Er is een scheidingslijn tussen elke commentaardraad
 
-Zie voor meer informatie [Overzicht van het tabblad Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Voor meer informatie, zie [ het lusjeoverzicht van Updates ](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Voorvertoningsrelease: 17 augustus 2023
 
@@ -147,9 +147,9 @@ Productie voor driemaandelijkse release: met 23.10 release (oktober 2023)
 
 De nieuwe opmerkingervaring wordt gebruikt voor de volgende objecten: projecten, taken, problemen en documenten.  De oudere ervaring met opmerkingen blijft een alternatieve optie bij het benaderen van deze objecten.
 
-Om deze wijziging te ondersteunen, hebben we ook de schakeloptie &quot;Opmerkingen verzenden&quot; gewijzigd in &quot;Nieuwe opmerkingen&quot;.
+Om deze wijziging te ondersteunen, hebben we ook de schakeloptie &quot;Opmerkingen Beta&quot; gewijzigd in &quot;Nieuwe opmerkingen&quot;.
 
-Zie voor meer informatie [Nieuwe ervaring met opmerkingen](../new-commenting-experience-beta/unified-commenting-experience.md).
+Voor meer informatie, zie [ Nieuwe het becommentariëren ervaring ](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 Voorvertoningsrelease: 17 augustus 2023
 
@@ -159,7 +159,7 @@ Productie voor driemaandelijkse release: met 23.10 release (oktober 2023)
 
 #### Verbeteringen aanbrengen bij het coderen van gebruikers in een update
 
-Om u beter inzicht te geven in welke gebruikers in een update zijn gelabeld, geven we nu de namen weer van de gebruikers (maximaal twee gebruikers) die in een update zijn gelabeld. Zie voor meer informatie [Andere tags toewijzen in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Om u beter inzicht te geven in welke gebruikers in een update zijn gelabeld, geven we nu de namen weer van de gebruikers (maximaal twee gebruikers) die in een update zijn gelabeld. Voor meer informatie, zie [ Tags anderen in updates ](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 Voorvertoningsrelease: 17 augustus 2023
 
@@ -173,7 +173,7 @@ Productie voor alle klanten: met de release van 23.10 (oktober 2023)
 
 U kunt nu emoties aan een opmerking toevoegen met een optie op de werkbalk RTF in de nieuwe opmerkingervaring.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
+Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). De documentatie wordt bijgewerkt op het moment van de release.
 
 Voorbeeld en productie: 10 augustus 2023
 
@@ -193,7 +193,7 @@ Productieversie: 13 juli 2023
 
 We hebben de interface voor logtijd opnieuw ontworpen vanuit het gebied Updates in de nieuwe opmerkingervaring.
 
-Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Voorvertoningsrelease: 5 juli 2023
 
@@ -205,7 +205,7 @@ Productieversie: met de release van 23.3 (juli 2023)
 
 U kunt nu de inhoud van een opmerking kopiëren en deze als een nieuw aanhalingsteken toevoegen aan een antwoord in dezelfde thread wanneer u de nieuwe opmerkingervaring gebruikt.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorbeeld: 28 juni 2023
 
@@ -215,7 +215,7 @@ Productieversie: 29 juni 2023
 
 #### Nieuwe opmerkingervaring voor kaarten in het gebied van de kamers
 
-De nieuwe ervaring met opmerkingen is nu beschikbaar voor kaarten in het gebied van de raden van bestuur. Dit is de enige ervaring die beschikbaar is voor kaarten. Zie voor meer informatie [23.3 releaseoverzicht](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+De nieuwe ervaring met opmerkingen is nu beschikbaar voor kaarten in het gebied van de raden van bestuur. Dit is de enige ervaring die beschikbaar is voor kaarten. Voor meer informatie, zie [ overzicht van de versie 23.3 ](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
 Voorbeeld: 15 juni 2023
 
@@ -225,9 +225,9 @@ Productie voor alle klanten: met de release van 23.3 (juli 2023)
 
 #### Blokkeraanhalingstekens toevoegen aan een opmerking
 
-U kunt nu blokaanhalingstekens aan een opmerking toevoegen met de werkbalkoptie RTF in de nieuwe bètaervaring voor opmerkingen.
+U kunt nu blokaanhalingstekens aan een opmerking toevoegen met een werkbalkoptie RTF in de nieuwe Beta-ervaring voor opmerkingen.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorbeeld: 14 juni 2023
 
@@ -241,7 +241,7 @@ U kunt nu de volgende sneltoetsen gebruiken bij het bewerken van opmerkingen:
 
 * CTRL + Y (CMD + Y voor Mac) om een wijziging opnieuw uit te voeren
 
-Voorafgaand aan deze verbeteringen kunt u wijzigingen tijdens het bewerken van een opmerking niet ongedaan maken of opnieuw uitvoeren. Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voorafgaand aan deze verbeteringen kunt u wijzigingen tijdens het bewerken van een opmerking niet ongedaan maken of opnieuw uitvoeren. Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorbeeld: 13 juni 2023
 
@@ -251,9 +251,9 @@ Productie: 13 juni 2023
 
 ### Week van 29 mei 2023
 
-#### Nieuwe bètaervaring voor opmerkingen voor projecten, taken en documenten
+#### Nieuwe Beta-ervaring voor opmerkingen voor projecten, taken en documenten
 
-De nieuwe bètaervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de bètaervaring voor opmerkingen alleen beschikbaar voor problemen en doelen.
+De nieuwe Beta-ervaring voor opmerkingen is nu beschikbaar voor projecten, taken en documenten. Vóór deze update was de Beta-ervaring met opmerkingen alleen beschikbaar voor problemen en doelen.
 
 Voorbeeld: 1 juni 2023
 
@@ -261,11 +261,11 @@ Productie: met 23.3 release (juli 2023)
 
 >[!NOTE]
 >
->Alle functies die vanaf 1 juni 2023 worden vrijgegeven voor de nieuwe bètaervaring met opmerkingen, zijn beschikbaar in Production voor projecten, taken en documenten na de release van 23.3 naar Production. Zie voor meer informatie [23.3 releaseoverzicht](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+>Alle functies die vanaf 1 juni 2023 worden vrijgegeven voor de nieuwe Beta-ervaring met opmerkingen, zijn beschikbaar in Production voor projecten, taken en documenten na de release van 23.3 naar Production. Voor informatie, zie [ overzicht van de versie 23.3 ](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 #### Nieuwe vormgeving van de tag &quot;bewerkt&quot; na het bewerken van een opmerking
 
-Wanneer u een opmerking bewerkt in de nieuwe bètaervaring voor opmerkingen, wordt een &quot;bewerkte&quot; tag toegevoegd aan de opmerking. Deze tag heeft nu een nieuw uiterlijk op de tag die oorspronkelijk werd uitgebracht. De datum- en tijdstempels van de opmerking zijn die van de oorspronkelijke opmerking. Dit zijn niet de datum- en tijdstempels van het moment waarop de bewerking is uitgevoerd.  Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Als u een opmerking bewerkt in de nieuwe Beta-ervaring met opmerkingen, wordt een &quot;bewerkte&quot; tag toegevoegd aan de opmerking. Deze tag heeft nu een nieuw uiterlijk op de tag die oorspronkelijk werd uitgebracht. De datum- en tijdstempels van de opmerking zijn die van de oorspronkelijke opmerking. Dit zijn niet de datum- en tijdstempels van het moment waarop de bewerking is uitgevoerd.  Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorbeeld: 31 mei 2023
 
@@ -273,15 +273,15 @@ Productie: 1 juni 2023
 
 #### Opmerkingen van onderliggende objecten worden doorgegeven aan een bovenliggend object
 
-Wanneer u de bètaervaring voor opmerkingen inschakelt, worden de opmerkingen die aan een onderliggend object zijn gekoppeld nu naar het bovenliggende object verplaatst. Opmerkingen van documenten worden nu bijvoorbeeld weergegeven over de kwestie waaraan de documenten zijn gekoppeld. Zie voor meer informatie [Overzicht van de sectie Bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Wanneer u de opmerkingervaring van Beta inschakelt, worden de opmerkingen die aan een onderliggend object zijn gekoppeld nu naar het bovenliggende object verplaatst. Opmerkingen van documenten worden nu bijvoorbeeld weergegeven over de kwestie waaraan de documenten zijn gekoppeld. Voor informatie, zie [ overzicht van de sectie van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Voorbeeld: 1 juni 2023
 
 Productie: 1 juni 2023
 
-#### Tijd vastleggen in de nieuwe bètaervaring voor opmerkingen
+#### Logtijd in de nieuwe Beta-ervaring voor opmerkingen
 
-U kunt tijd voor kwesties, taken, en projecten van het gebied van Updates registreren, wanneer het gebruiken van de nieuwe opmerkende ervaring van Bèta. Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+U kunt tijd voor kwesties, taken, en projecten van het gebied van Updates registreren, wanneer het gebruiken van de nieuwe het becommentariëren ervaring van Beta. Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Voorbeeld: 1 juni 2023
 
@@ -296,7 +296,7 @@ U kunt nu hyperlinks aan commentaren toevoegen gebruikend de volgende kortere we
 * CTRL + V (CMD + V voor Mac) plakt een koppeling over geselecteerde tekst
 * Met CTRL + K (CMD + K voor Mac) wordt het vak Koppelingen toevoegen geopend.
 
-Voorafgaand aan deze verbeteringen kunt u alleen hyperlinks toevoegen door op het koppelingspictogram op de werkbalk RTF te klikken. Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voorafgaand aan deze verbeteringen kunt u alleen hyperlinks toevoegen door op het koppelingspictogram op de werkbalk RTF te klikken. Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Voorbeeld: 17 mei 2023
 
@@ -306,9 +306,9 @@ Productie: 18 mei 2023
 
 #### Afbeeldingen worden verwijderd uit het gebied Documenten wanneer bijlagen worden verwijderd uit opmerkingen of wanneer opmerkingen met een bijlage worden verwijderd
 
-We wijzigen de manier waarop bijlagen werken wanneer u een opmerking met een bijlage verwijdert of bewerkt. Wanneer u nu een opmerking bewerkt en de bijlage verwijdert, of wanneer u een opmerking verwijdert die een bijlage bevat, wordt de bijlage ook verwijderd uit het gebied Documenten. Vóór deze wijziging bleven de bijlagen in de vorige opmerkingervaring in het gebied Documenten. Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+We wijzigen de manier waarop bijlagen werken wanneer u een opmerking met een bijlage verwijdert of bewerkt. Wanneer u nu een opmerking bewerkt en de bijlage verwijdert, of wanneer u een opmerking verwijdert die een bijlage bevat, wordt de bijlage ook verwijderd uit het gebied Documenten. Vóór deze wijziging bleven de bijlagen in de vorige opmerkingervaring in het gebied Documenten. Voor informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Deze optie is standaard beschikbaar voor opmerkingen over bètaervaringen en voor Workfront-doelen op de volgende datums:
+Deze optie is standaard beschikbaar voor opmerkingen over Beta-ervaringen en Workfront Goals op de volgende datums:
 
 * Voorbeeld en productie: 4 mei 2023
 
@@ -317,22 +317,22 @@ Deze optie is standaard beschikbaar voor opmerkingen over bètaervaringen en voo
 
 De volgende onderhoudsupdate is uitgebracht voor de bètaversie van opmerkingen bij uitgaven en voor doelen:
 
-Bewerk gekoppelde afbeeldingen tijdens het bewerken van een opmerking. Zie de sectie &quot;Onderhoudsupdate op 27 april&quot; in het artikel voor meer informatie. <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in april 2023</a>.
+Bewerk gekoppelde afbeeldingen tijdens het bewerken van een opmerking. Voor informatie, zie de &quot;Update van het Onderhoud op 27 April&quot;sectie in de artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023"> Updates in April 2023 </a>.
 
 ### 20 april 2023
 
 De volgende onderhoudsupdate is uitgebracht voor de bètaversie van opmerkingen bij uitgaven en voor doelen:
 
-Houd afbeeldingen als concept wanneer u overstapt van een update voor doelen en voor problemen in de bètaervaring met opmerkingen. Zie de sectie &quot;Onderhoudsupdate op 20 april&quot; in het artikel voor meer informatie. <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in april 2023</a>.
+Houd afbeeldingen als concept wanneer u overstapt van een update voor doelen en voor problemen in de bètaervaring met opmerkingen. Voor informatie, zie de &quot;Update van het Onderhoud op April 20&quot;sectie in de artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023"> Updates in April 2023 </a>.
 
 ### 17 april 2023
 
 De volgende onderhoudsupdate is uitgebracht voor de bètaversie van opmerkingen bij uitgaven en voor doelen:
 
-Toon nieuwe commentaren buiten het zichtbare schermgebied in de sectie van Updates van kwesties (nieuwe opmerkingentabeleving) en Doelstellingen. Zie de sectie &quot;Onderhoudsupdate op 17 april&quot; in het artikel voor meer informatie.  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in april 2023</a>.
+Toon nieuwe commentaren buiten het zichtbare schermgebied in de sectie van Updates van kwesties (nieuwe het becommentariëren Beta ervaring) en Doelstellingen. Voor informatie, zie de &quot;Update van het Onderhoud op 17 April&quot;sectie in de artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023"> Updates in April 2023 </a>.
 
 
 ### Week van 6 april 2023
 
 De nieuwe bètaervaring voor opmerkingen die is gestart voor problemen.
-Dezelfde functies die worden vrijgegeven voor de bètaversie met opmerkingen voor Workfront-objecten, worden tegelijkertijd vrijgegeven voor doelen voor alle gebruikers die toegang hebben tot Workfront Goals. Zie voor meer informatie [23.2 Overzicht van de release](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+Dezelfde functies die worden vrijgegeven voor de bètaversie met opmerkingen voor Workfront-objecten, worden tegelijkertijd vrijgegeven voor doelen voor alle gebruikers die toegang hebben tot Workfront Goals. Voor informatie, zie [ overzicht van de Versie 23.2 ](../../product-releases/23.2-release-activity/23-2-release-overview.md).

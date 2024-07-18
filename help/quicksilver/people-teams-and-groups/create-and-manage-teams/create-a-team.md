@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Wanneer u een team creeert wordt u de Eigenaar van het Team, door gebrek.
 
-U kunt de Eigenaars van het Team voor alle teams bekijken wanneer u een rapport voor Teams creeert en omvat [!UICONTROL Owner Name] in uw rapport. (Voor meer informatie over het creëren van een rapport, zie [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+U kunt de Eigenaars van het Team voor alle teams bekijken wanneer u een rapport voor Teams creeert en het [!UICONTROL Owner Name] gebied in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.)
 
-Voor informatie over hoe een [!DNL Adobe Workfront] de beheerder kan een team van [!UICONTROL Setup] gebied, zie [Een team maken van de [!UICONTROL Setup] gebied](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Voor informatie over hoe een [!DNL Adobe Workfront] beheerder een team van het [!UICONTROL Setup] gebied kan tot stand brengen, zie [ een team van het [!UICONTROL Setup] gebied ](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
 
 ## Toegangsvereisten
 
@@ -42,43 +42,43 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een team maken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. Klik op de knop **[!UICONTROL Switch Teams]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)en klik vervolgens op **[!UICONTROL Create New Team]**.
+1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan klik **[!UICONTROL Create New Team]**.
 
-   ![Selecteer Nieuw team maken.](assets/create-new-team-350x198.png)
+   ![ Uitgezocht creeer nieuw team.](assets/create-new-team-350x198.png)
 
-1. In de **[!UICONTROL New Team]** Voer de volgende informatie in in het vak dat wordt weergegeven:
+1. Voer in het vak **[!UICONTROL New Team]** dat wordt weergegeven de volgende informatie in:
 
-   * **[!UICONTROL Team Name]:** Typ een naam voor het nieuwe team.
-   * **[!UICONTROL Group]**: Als u het team aan een bijbehorende groep wilt toewijzen, begint de naam van de groep te typen, dan selecteer de naam wanneer het verschijnt.
+   * **[!UICONTROL Team Name]:** typ een naam voor het nieuwe team.
+   * **[!UICONTROL Group]**: Als u het team aan een geassocieerde groep wilt toewijzen, begint u de naam van de groep te typen en selecteert u vervolgens de naam wanneer deze wordt weergegeven.
 
-      U kunt ervoor zorgen u de juiste groep met het team associeert door over het te hangen en het informatiepictogram te klikken ![](assets/info-icon.png) die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
+     U kunt ervoor zorgen dat u de juiste groep aan het team koppelt door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram ![](assets/info-icon.png) te klikken dat naast de groep wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
 
-      >[!NOTE]
-      >
-      >Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar klikken ![Teampictogram wisselen](assets/switch-team-icon.png) om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.
+     >[!NOTE]
+     >
+     >Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de het teampictogram van de Teams van de Schakelaar ![ ](assets/switch-team-icon.png) klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.
 
-   * **[!UICONTROL This is an Agile Team]:** Selecteer deze optie als u dit nieuwe team wilt vormen om een flexibel team te worden.
+   * **[!UICONTROL This is an Agile Team]:** selecteer deze optie als u dit nieuwe team wilt vormen om een flexibel team te zijn.
 
-      Voor meer informatie over bestandsteams raadpleegt u [Een bestandsteam maken](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Voor meer informatie over mobiele teams, zie [ een nieuw team ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
 
-   * **[!UICONTROL Team Members]:** Typ de naam van een gebruiker die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
+   * **[!UICONTROL Team Members]:** typ de naam van een gebruiker die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
-      Herhaal dit proces om meerdere gebruikers aan het team toe te voegen.
+     Herhaal dit proces om meerdere gebruikers aan het team toe te voegen.
 
-      Er is geen limiet voor het aantal gebruikers dat u aan een team kunt toevoegen. Nochtans, adviseren wij om geen bovenmatig hoog aantal gebruikers in één team te hebben, aangezien uw werkbeheer voor deze teams te complex zou kunnen worden.
+     Er is geen limiet voor het aantal gebruikers dat u aan een team kunt toevoegen. Nochtans, adviseren wij om geen bovenmatig hoog aantal gebruikers in één team te hebben, aangezien uw werkbeheer voor deze teams te complex zou kunnen worden.
 
-   * **[!UICONTROL Description]:** Typ een beschrijving voor het team.
+   * **[!UICONTROL Description]:** typ een beschrijving voor het team.
 
-      De beschrijving wordt rechtsboven in het gebied Teams weergegeven wanneer het team is geselecteerd.
+     De beschrijving wordt rechtsboven in het gebied Teams weergegeven wanneer het team is geselecteerd.
 
-      >[!NOTE]
-      >
-      >Als de beschrijving lang is, kunt u erop klikken om de volledige beschrijving in een pop-up te tonen. Als u toegang hebt om de teaminstellingen te bewerken, kunt u de beschrijving ook rechtstreeks in het pop-upvenster bewerken.
+     >[!NOTE]
+     >
+     >Als de beschrijving lang is, kunt u erop klikken om de volledige beschrijving in een pop-up te tonen. Als u toegang hebt om de teaminstellingen te bewerken, kunt u de beschrijving ook rechtstreeks in het pop-upvenster bewerken.
 
 1. Klik op **[!UICONTROL Create]**.

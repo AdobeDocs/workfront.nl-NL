@@ -23,7 +23,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
      of
 
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
 
 * Voor het huidige plan en de licentiestructuur:
 
@@ -32,7 +32,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
 Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
-Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Adobe Workfront berekent automatisch de voortgang van het doel op basis van de voortgangsindicatoren.
 
@@ -56,8 +56,8 @@ Nadat u een doel hebt geactiveerd, begint u met het berekenen van de voortgang e
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
-* [Werkelijk percentage voltooid](#actual-percent-complete)
-* [Verwacht percentage voltooid](#expected-percent-complete)
+* [ Werkelijk volledig percent ](#actual-percent-complete)
+* [ Verwacht percentage volledig ](#expected-percent-complete)
 * [Voortgang en toestand](#progress)
 
 ### Werkelijk percentage voltooid {#actual-percent-complete}
@@ -68,15 +68,15 @@ De volgende punten worden beschouwd als voortgangsindicatoren voor doelstellinge
 
 * Resultaten
 
-  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
 
 * Activiteiten
 
-  Voor informatie over het toevoegen van activiteiten met inbegrip van projecten aan doelstellingen, zie [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Voor informatie over het toevoegen van activiteiten met inbegrip van projecten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
 * Uitgelijnde onderliggende doelen
 
-  Voor informatie over ouder en kinddoelstellingen, zie [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Voor informatie over ouder en kinddoelstellingen, zie [ doelstellingen richten door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden.
 
   Workfront Goals berekent het werkelijke percentage voltooid met de volgende formule:
 
@@ -137,27 +137,27 @@ In de onderstaande tabel staan de labels voor de doelvoorwaarde en de percentage
   </tr> 
   <tr> 
    <td>Nieuw</td> 
-   <td> <p>Het doel is pas gecreëerd en het registreert nog geen vooruitgang. De voortgang van een doel wordt als Nieuw weergegeven totdat iemand de voortgang voor het eerst bijwerkt. </p> <p>Voor informatie over het bijwerken van de voortgang van het doel raadpleegt u <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Voortgang van Adobe Workfront-doelen bijwerken</a>.</p> </td> 
+   <td> <p>Het doel is pas gecreëerd en het registreert nog geen vooruitgang. De voortgang van een doel wordt als Nieuw weergegeven totdat iemand de voortgang voor het eerst bijwerkt. </p> <p>Voor informatie over het bijwerken van doelvooruitgang, zie <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref"> het doel van de Update vooruitgang in de Doelen van Adobe Workfront </a>.</p> </td> 
    <td>Geen percentage</td> 
    <td>Geen balk</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Op doel</span> </p> </td> 
+   <td> <p><span> op Doel </span> </p> </td> 
    <td>Het doel presteert zoals verwacht en het is zeer waarschijnlijk dat het op tijd zal worden voltooid. </td> 
    <td>90-100%</td> 
    <td>Groen</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Risico</span> </p> </td> 
+   <td> <p><span> Bij Risico </span> </p> </td> 
    <td>Het doel loopt achter, maar het kan nog steeds mogelijk zijn om het op tijd af te ronden. </td> 
    <td>70-89,99%</td> 
    <td>Geel</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>In problemen</span> </p> </td> 
+   <td> <p><span> in Problemen </span> </p> </td> 
    <td> <p>Het is zeer waarschijnlijk dat het doel niet op tijd zal worden bereikt. </p> </td> 
    <td>0-69,99%</td> 
    <td>Rood</td> 

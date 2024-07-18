@@ -45,7 +45,7 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
    <td> 
    <p>Nieuwe licentie: Medewerker of hoger</p>
    of
-   <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td> 
+   <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td> 
   </tr> 
   <tr>
  <td role="rowheader">Product*</td>
@@ -55,7 +55,7 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -71,7 +71,7 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
     <div> 
      <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p> 
      <p>Machtigingen beheren om het te bewerken</p> 
-     <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p> 
+     <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p> 
     </div> </td> 
   </tr> 
   <tr>
@@ -82,11 +82,11 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
  </tbody> 
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegang tot Workfront-doelen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Doelen**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Doelen**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -106,9 +106,9 @@ U moet het volgende hebben om de activiteiten uit te voeren die in dit artikel w
 
    of
 
-   Klikken **Nieuw doel** om een nieuw doel toe te voegen.
+   Klik **Nieuw doel** om een nieuw doel toe te voegen.
 
-   Voor informatie over het creëren van doelstellingen, zie [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md).
+   Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 ## Afzonderlijke doelen openen en beheren
 
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 Om tot een individueel doel toegang te hebben:
 
-1. Klik op de knop **Hoofdmenu** in de rechterbovenhoek van Workfront en klik vervolgens op **Doelen** .
+1. Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van Workfront, dan klik **Doelen**.
 De vertoningen van de Lijst van het Goal door gebrek.
    ![](assets/goal-list-unshimmed.png)
 1. Klik op de naam van een doel in de lijst.
 De doelpagina wordt weergegeven.
    ![](assets/goal-page-unshimmed.png)
-1. Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van de doelnaam om het doel verder te bewerken of te delen.
-1. Klikken **Doelgegevens** in het linkerpaneel om informatie over het doel uit te geven. Zie voor meer informatie [Doelen bijwerken in de sectie Gooddetails in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md).
+1. Klik **Meer** menu ![](assets/more-icon.png) rechts van de doelnaam om het doel verder uit te geven of te delen.
+1. Klik **de details van het Doel** in het linkerpaneel om informatie over het doel uit te geven. Voor meer informatie, zie [ doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront ](../goal-management/update-goals-in-goal-details-panel.md).
 
 

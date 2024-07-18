@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
 source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Als er meer moet worden gedaan om een probleem op te lossen nadat het probleem is verzonden, kunt u het probleem omzetten in een taak.
 
-Voor algemene informatie over het converteren van problemen raadpleegt u [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor algemene informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Toegangsvereisten
 
@@ -37,11 +37,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen, taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen, taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de uitgave</p> <p>Contribute-machtigingen voor het project</p> <p>U krijgt beheermachtigingen voor de taak nadat de uitgave is omgezet</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de uitgave</p> <p>Contribute-machtigingen voor het project</p> <p>U krijgt beheermachtigingen voor de taak nadat de uitgave is omgezet</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,70 +50,70 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een uitgave converteren naar een taak
 
-1. Ga naar een project en klik op [!UICONTROL **Problemen** ] in het linkerdeelvenster.
+1. Ga naar een project en klik [!UICONTROL **Kwesties**] in het linkerpaneel.
 1. Klik op de uitgave die u wilt converteren om naar de openingspagina van de uitgave te gaan.
-1. Klik op de knop [!UICONTROL **Meer**] menu over de kwestie, dan [!UICONTROL **Omzetten in taak**].
+1. Klik het [!UICONTROL **Meer**] menu op de kwestie, dan [!UICONTROL **zet in Taak**] om.
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
-   >Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven aan het dialoogvenster een waarschuwing weer [!UICONTROL Convert to Project] om aan te geven dat de goedkeuring is verwijderd of dat het oplossende object tijdens de conversie is overschreven. Zie voor meer informatie [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   >Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven in het vak [!UICONTROL Convert to Project] een waarschuwing weer om aan te geven dat de goedkeuring is verwijderd of dat het oplossende object tijdens de conversie is overschreven. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Werk de taaknaam bij in het dialoogvenster [!UICONTROL Task Name] sectie. Standaard krijgt de taak dezelfde naam als de oorspronkelijke uitgave.
+1. Werk de taaknaam bij in de sectie [!UICONTROL Task Name] . Standaard krijgt de taak dezelfde naam als de oorspronkelijke uitgave.
 
    ![](assets/convert-to-task-box-nwe.png)
 
-1. Klikken [!UICONTROL **Doelproject**], dan begin de naam van het project te typen waar u de nieuwe taak in wilt plaatsen [!UICONTROL **Doelproject**] en selecteert u deze wanneer deze in de lijst wordt weergegeven. Het project van de kwestie wordt geselecteerd door gebrek.
+1. Klik [!UICONTROL **Project van de Bestemming**], dan begin de naam van het project te typen waar u de nieuwe taak in het [!UICONTROL **gebied van het Project van de Bestemming**] wilt plaatsen en het selecteren wanneer het in de lijst toont. Het project van de kwestie wordt geselecteerd door gebrek.
 
-1. Klikken [!UICONTROL **Overzicht**] Typ vervolgens een [!UICONTROL **Beschrijving**] voor de taak.
+1. Klik [!UICONTROL **Overzicht**], dan type a [!UICONTROL **Beschrijving**] voor de taak.
 
    >[!TIP]
    >
    >   Een systeem- of groepsbeheerder kan de volgorde van de secties in het linkerdeelvenster van het conversievak wijzigen door de lay-outsjabloon te wijzigen.
 
-1. (Optioneel en voorwaardelijk) Klik op [!UICONTROL **Opties**] selecteert u een van de onderstaande opties.
+1. (Facultatief en voorwaardelijk) klik [!UICONTROL **Opties**], selecteer om het even welke hieronder opties.
 
    De Workfront-beheerder of groepsbeheerder moet deze voorkeuren inschakelen voordat deze zichtbaar zijn tijdens de conversie van uitgaven:
 
-   * [!UICONTROL **Behoud het oorspronkelijke probleem en koppel zijn resolutie aan deze taak**]
+   * [!UICONTROL **houd de originele kwestie en verbind zijn resolutie aan deze taak**]
 
-      Als deze optie niet is geselecteerd, wordt de oorspronkelijke uitgave verwijderd.
+     Als deze optie niet is geselecteerd, wordt de oorspronkelijke uitgave verwijderd.
 
-      >[!NOTE]
-      >
-      >Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:
-      >   
-      >   * [Toegang verlenen tot kwesties](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-      >   * [Een uitgave delen](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+     >[!NOTE]
+     >
+     >Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:
+     >   
+     >   * [ de toegang van de Verlening tot kwesties ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     >   * [ Deel een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+     >   
+     >
 
+   * [!UICONTROL **staat (de Naam van de Gebruiker) toe om toegang tot deze taak te hebben**]
 
-   * [!UICONTROL **(Gebruikersnaam) toegang tot deze taak geven**]
+     Als deze optie niet is geselecteerd, heeft de primaire contactpersoon van de uitgave geen toegang tot de nieuwe taak.
 
-      Als deze optie niet is geselecteerd, heeft de primaire contactpersoon van de uitgave geen toegang tot de nieuwe taak.
+   * [!UICONTROL **houd de geplande voltooiingsdatum van de kwestie**]
 
-   * [!UICONTROL **Behoud de geplande einddatum van de uitgifte**]
+     Als deze optie niet is geselecteerd, wordt de [!UICONTROL Planned Completion Date] van de nieuwe taak berekend vanuit de [!UICONTROL Planned Start Date] van de taak. De [!UICONTROL Planned Start Date] van de nieuwe taak wordt ingesteld op basis van de systeemvoorkeuren voor nieuwe taken.
 
-      Als deze optie niet is geselecteerd, wordt [!UICONTROL Planned Completion Date] van de nieuwe taak wordt berekend op basis van [!UICONTROL Planned Start Date] van de taak. De [!UICONTROL Planned Start Date] van de nieuwe taak wordt ingesteld volgens de systeemvoorkeuren voor nieuwe taken .
+     >[!NOTE]
+     >
+     >
+     >Welke opties hier worden weergegeven, is afhankelijk van de configuratie die de Workfront-beheerder heeft opgegeven voor iedereen in het systeem. Voor meer informatie, zie [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     >
+     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de opties die hier tonen af van welke groep met het project wordt geassocieerd u in stap 6 selecteerde. Voor meer informatie, zie [ taak vormen en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-      >[!NOTE]
-      >
-      >
-      >Welke opties hier worden weergegeven, is afhankelijk van de configuratie die de Workfront-beheerder heeft opgegeven voor iedereen in het systeem. Zie voor meer informatie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-      >
-      >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de opties die hier tonen af van welke groep met het project wordt geassocieerd u in stap 6 selecteerde. Zie voor meer informatie [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
-
-1. (Optioneel) Klik op [!UICONTROL **Aangepaste Forms**] en voeg een aangepast formulier toe voor de nieuwe taak.
+1. (Facultatief) klik [!UICONTROL **Aangepaste Forms**] en maak een douaneformulier voor de nieuwe taak vast.
 
    >[!TIP]
    >
    >* Als een aangepast formulier voor meerdere objecten dat aan de uitgave is gekoppeld, is geconfigureerd voor gebruik met zowel uitgaven als taken, blijft alle informatie die in het formulier is opgeslagen behouden wanneer u de conversie uitvoert als de velden zowel voor de uitgave als voor de aangepaste formulieren van de taak bestaan.
-   >* Als een aangepast formulier met meerdere objecten en een berekend veld aan de uitgave en de taak is gekoppeld, moeten de uitgave en de taak compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Zie de sectie &quot;Berekende aangepaste velden in aangepaste formulieren voor meerdere objecten&quot; in het dialoogvenster [Berekende gegevens toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Als een aangepast formulier met meerdere objecten en een berekend veld aan de uitgave en de taak is gekoppeld, moeten de uitgave en de taak compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [ berekende gegevens aan een douaneformulier met de bouwer van de erfenis ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
    >* Als voor het doelproject standaardformulieren zijn gedefinieerd in het veld Standaard aangepaste Forms voor taak bij het bewerken van het project, worden deze taakformulieren ook toegevoegd aan de nieuwe taak. Aangepaste velden die veel voorkomen tussen de oorspronkelijke uitgave en de velden op de standaardtaakformulieren, worden vooraf ingevuld met informatie uit de uitgiftevelden.
 
 
-
-1. Klikken [!UICONTROL **Omzetten in taak**].
+1. Klik [!UICONTROL **Bekeerling aan taak**].
 
    De kwestie is nu een taak op het aangewezen project, als u besloot om de originele kwestie te schrappen.
 
@@ -121,13 +121,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Het probleem is nu gekoppeld aan de nieuwe taak voor het project dat u hebt gekozen en wordt voltooid zodra de taak is voltooid, als u de oorspronkelijke uitgave wilt behouden.
 
-   Sommige probleemvelden worden overgebracht naar de taak. Zie voor meer informatie de [Originele informatie over projecten en taken weergeven](#view-original-issue-information-on-projects-and-tasks) in dit artikel.
+   Sommige probleemvelden worden overgebracht naar de taak. Voor informatie, zie de [ oorspronkelijke de uitgevende informatie van de Mening over projecten en taken ](#view-original-issue-information-on-projects-and-tasks) sectie in dit artikel.
 
 1. (Optioneel) Ga desgewenst verder met het bewerken van de taak.
 
 ## Originele informatie over projecten en taken weergeven {#view-original-issue-information-on-projects-and-tasks}
 
-U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over bouwrapporten, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 In de volgende tabel wordt aangegeven welke velden zichtbaar zijn van de omgezette projecten en taken.
 
@@ -140,4 +140,4 @@ In de volgende tabel wordt aangegeven welke velden zichtbaar zijn van de omgezet
 
 >[!CAUTION]
 >
->Als de [!UICONTROL Primary Contact] van een emissie verandert of als de uitgave loskomt van het project of de taak nadat de uitgave is omgezet, [!UICONTROL Converted Issue Originator Name ]wordt niet bijgewerkt en het origineel wordt weergegeven [!UICONTROL Primary Contact] van de emissie op het tijdstip van omzetting van de emissie.
+>Als [!UICONTROL Primary Contact] van een kwestie verandert of als de kwestie van het project of de taak losgemaakt wordt nadat de kwestie is omgezet, [!UICONTROL Converted Issue Originator Name] werkt niet bij en het toont origineel [!UICONTROL Primary Contact] van de kwestie op het tijdstip dat de kwestie werd omgezet.

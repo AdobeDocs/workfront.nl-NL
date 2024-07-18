@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: 'Kick-start scenario: Bedrijf, Groep, Rol, en Gebruiker Kick-Begint Voorbereiding'
+title: 'Het "Kick-Begint Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker"'
 description: Wanneer u begint met het implementeren van Adobe Workfront, in plaats van handmatig gegevens in te voeren, kunt u uw lijst met klanten, interne afdelingen, taakrollen en gebruikersgegevens importeren.
 author: Caroline
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
-# Kick-start-scenario: Bedrijf, Groep, Rol, en Gebruiker Kick-Begint Voorbereiding
+# Kick-start Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker
 
 Wanneer u begint met het implementeren van Adobe Workfront, in plaats van handmatig gegevens in te voeren, kunt u uw lijst met klanten, interne afdelingen, taakrollen en gebruikersgegevens importeren.
 
@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,16 +53,16 @@ In de volgende tabel worden de te importeren bedrijven, groepen en rollen weerge
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Bedrijven</strong> </th> 
-   <th><strong>Groepen</strong> </th> 
-   <th><strong>Rollen</strong> </th> 
+   <th><strong> Bedrijven </strong> </th> 
+   <th><strong> Groepen </strong> </th> 
+   <th><strong> Rollen </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Uw bedrijf</em> </p> <p>XYZ, Inc.</p> </td> 
+   <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em> Uw Bedrijf </em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Financiën</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Verkoop</p> </td> 
-   <td valign="top"> <p valign="top">Zakelijke analist</p> <p valign="top">Controller, creatief</p> <p valign="top">Designer</p> <p valign="top">Resource Manager</p> <p valign="top">Master scrubben</p> <p valign="top">Technisch schrijver</p> <p valign="top">Webontwikkelaar</p> </td> 
+   <td valign="top"> <p valign="top">Zakelijke analist</p> <p valign="top">Controller, creatief</p> <p valign="top">Designer</p> <p valign="top">Resource Manager</p> <p valign="top">Scrumstramien</p> <p valign="top">Technisch schrijver</p> <p valign="top">Webontwikkelaar</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,97 +76,97 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 | **Voornaam** | Chris |
 |---|---|
 | **Achternaam** | Manning |
-| **Gebruikersnaam/e-mail** | mailto:cmanning@foo.com |
+| **Gebruikersnaam/E-mail** | mailto:cmanning@foo.com |
 | **Wachtwoord** | updateMe |
 | **Toegang** | Teamlid |
-| **Bedrijf** | &lt;*Uw bedrijf>* |
-| **Thuisgroep** | Marketing |
-| **Functie** | Zakelijke analist |
+| **Bedrijf** | &lt;*Uw Bedrijf>* |
+| **Groep van het Huis** | Marketing |
+| **Rol van de Baan** | Zakelijke analist |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gebruiker 2
 
 | **Voornaam** | Jennifer |
 |---|---|
 | **Achternaam** | Campbell |
-| **Gebruikersnaam/e-mail** | jcampbell@foo.com |
+| **Gebruikersnaam/E-mail** | jcampbell@foo.com |
 | **Wachtwoord** | updateMe |
 | **Toegang** | Projectmanager |
-| **Bedrijf** | &lt;*Uw bedrijf>* |
-| **Thuisgroep** | Marketing |
-| **Functie** | Projectmanager |
+| **Bedrijf** | &lt;*Uw Bedrijf>* |
+| **Groep van het Huis** | Marketing |
+| **Rol van de Baan** | Projectmanager |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gebruiker 3
 
 | **Voornaam** | Jill |
 |---|---|
 | **Achternaam** | Sullivan |
-| **Gebruikersnaam/e-mail** | jsullivan@foo.com |
+| **Gebruikersnaam/E-mail** | jsullivan@foo.com |
 | **Wachtwoord** | updateMe |
 | **Toegang** | Helpdesk |
-| **Bedrijf** | &lt;*Uw bedrijf>* |
-| **Thuisgroep** | Verkoop |
-| **Functie** | Verkoopvertegenwoordiger |
+| **Bedrijf** | &lt;*Uw Bedrijf>* |
+| **Groep van het Huis** | Verkoop |
+| **Rol van de Baan** | Verkoopvertegenwoordiger |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gebruiker 4
 
 | **Voornaam** | Marc |
 |---|---|
 | **Achternaam** | Lewis |
-| **Gebruikersnaam/e-mail** | mlewis@foo.com |
+| **Gebruikersnaam/E-mail** | mlewis@foo.com |
 | **Wachtwoord** | updateMe |
 | **Toegang** | Portfolio Manager |
-| **Bedrijf** | &lt;*Uw bedrijf>* |
-| **Thuisgroep** | Financiën |
-| **Functie** | Controller |
+| **Bedrijf** | &lt;*Uw Bedrijf>* |
+| **Groep van het Huis** | Financiën |
+| **Rol van de Baan** | Controller |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gebruiker 5
 
 | **Voornaam** | Pam |
 |---|---|
 | **Achternaam** | Reynolds |
-| **Gebruikersnaam/e-mail** | preynolds@foo.com |
+| **Gebruikersnaam/E-mail** | preynolds@foo.com |
 | **Wachtwoord** | updateMe |
 | **Toegang** | Projectmanager |
-| **Bedrijf** | *Uw bedrijf>* |
-| **Thuisgroep** | Marketing |
-| **Functie** | IT |
+| **Bedrijf** | *Uw Bedrijf>* |
+| **Groep van het Huis** | Marketing |
+| **Rol van de Baan** | IT |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gebruiker 6
 
 | **Voornaam** | Ray |
 |---|---|
 | **Achternaam** | Andrews |
-| **Gebruikersnaam/e-mail** | randrews@foo.com |
+| **Gebruikersnaam/E-mail** | randrews@foo.com |
 | **Wachtwoord** | updateMe |
 | **Toegang** | Beheerder |
-| **Bedrijf** | *Uw bedrijf>* |
-| **Thuisgroep** | Resource Manager |
-| **Functie** | none |
+| **Bedrijf** | *Uw Bedrijf>* |
+| **Groep van het Huis** | Resource Manager |
+| **Rol van de Baan** | none |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Een Kick-Start-sjabloon downloaden
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Systeem** > **Kick-start** > **Gegevens importeren.**
+1. Klik **Systeem** > **Kick-Begint** > **de Gegevens van de Invoer.**
 
-1. Klikken **Meer opties** voor een volledige lijst met importopties.
+1. Klik **Meer Opties** om de volledige lijst van de invoeropties te zien.
 1. Selecteer het Niveau van de Toegang, Bedrijf, Groep, de Rol van de Baan, en de voorwerpen van de Gebruiker die u wilt invoeren.
 
 ## Informatie over invoerbedrijf
 
-1. Open de **Workfront.xlsx** bestand dat u zojuist hebt gedownload.
+1. Open het {**dossier 0} Workfront.xlsx u enkel downloadde.**
 
    >[!TIP]
    >
@@ -178,7 +178,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    ![](assets/companyid--1--350x78.png)
 
-1. Geef TRUE op in het dialoogvenster **isNew** kolom.
+1. Specificeer WAAR in de **isNew** kolom.
 1. Herhaal deze handeling voor elk bedrijf dat wordt toegevoegd. (In dit voorbeeld voert u deze handeling uit voor de rijen 3-6, omdat er vier bedrijven worden toegevoegd.)
 
    ![](assets/cmpyisnew-350x86.png)
@@ -191,7 +191,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Stel een naam in.
 
-   Geef de namen van elke klant op in het dialoogvenster **setName** kolom.
+   Specificeer de namen van elke klant in de **setName** kolom.
 
    ![](assets/companyid-350x78.png)
 
@@ -201,7 +201,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. Stel de **isNew** column.Volgens het scenario, zullen 4 groepen worden ingevoerd, zo specificeer WAAR in rijen 4 door 7 voor de &quot;isNew&quot;kolom.
+1. Plaats **isNew** column.Volgens het scenario, zullen 4 groepen worden ingevoerd, zo specificeer WAAR in rijen 4 door 7 voor de &quot;isNew&quot;kolom.
 1. Geef een unieke id op.
 
    Dit moet voor elke rij voor de kolom van identiteitskaart worden gedaan. Gehele getallen die bij 1 beginnen, werken goed bij het maken van nieuwe records.
@@ -210,7 +210,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Stel een naam in.
 
-   Geef de namen op van elke afdeling in het dialoogvenster **setName** kolom.
+   Specificeer de namen van elke afdeling in de **setName** kolom.
 
    ![](assets/groupnames-350x85.png)
 
@@ -266,15 +266,15 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 1. Geef waarden op voor Toegangsniveau.
 
-   Bijvoorbeeld, Chris Manning, die een Lid van het Team is, kijkt omhoog identiteitskaart op het blad van het Niveau van de Toegang van ACSLVL voor het de toegangsniveau van het Lid van het Team. Kopieer de id naar het klembord en plak deze op het gebruikersblad in de **setAccessLevelID** kolom op Chris&#39; rij.
+   Bijvoorbeeld, Chris Manning, die een Lid van het Team is, kijkt omhoog identiteitskaart op het blad van het Niveau van de Toegang van ACSLVL voor het de toegangsniveau van het Lid van het Team. Kopieer identiteitskaart in uw klembord, en op het blad van de Gebruiker kleeft het in de **setAccessLevelID** kolom op de rij van Chris.
 
    Herhaal deze stap voor elke gebruiker en toegangsniveau.
 
    ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
 
-1. Geef details voor de thuisgroep op.
+1. Geef de gegevens van de thuisgroep op.
 
-   Volgens het scenario behoort Chris Manning tot de marketinggroep. Zoek in het groepsblad GROUP de id voor de marketinggroep, kopieer deze naar het klembord en plak deze op het gebruikersblad in de **setHomeGroupID** kolom op Chris&#39; rij. &#x200B;Herhaal deze stap voor elke gebruiker en groepstoewijzing.
+   Volgens het scenario behoort Chris Manning tot de marketinggroep. Op het blad van de Groep van de GROEP, bepaal de plaats van identiteitskaart voor de groep van de Marketing, kopieer het in het klembord, en op het blad van de Gebruiker kleeft het in **setHomeGroupID** kolom op Chris&#39; rij. &#x200B;Herhaal deze stap voor elke gebruiker en groepstoewijzing.
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
@@ -297,6 +297,6 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
    ![](assets/pasteroleid-350x95.png)
 
 1. Vul desgewenst andere gebruikersgegevens in en sla het bestand op.
-1. Importeer het Excel-bestand.
+1. Het Excel-bestand importeren.
 
-   Volg de aanwijzingen in het dialoogvenster **Kick Start-bestanden importeren** van dit artikel.
+   Volg de richtingen die in de **worden verstrekt die de Dossiers van het Begin van de Kick** sectie van dit artikel invoeren.

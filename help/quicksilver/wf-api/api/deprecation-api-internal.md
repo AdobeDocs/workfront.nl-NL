@@ -9,7 +9,7 @@ role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 source-git-commit: acc7414a9c6eef838147aee675603b6cc2566fb9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 API-Internal is een versie van de Adobe Workfront API die niet wordt ondersteund vanwege het ontwerp en het doel ervan. Hoewel het de meest recente updates van de Workfront API bevat, kan het zonder voorafgaande kennisgeving worden gewijzigd en moet het daarom met voorzichtigheid worden gebruikt bij de integratie van de productie. Workfront raadt ten zeerste aan alle API-interne integratie naar een versioned API bij te werken.
 
-Ga voor meer informatie over ondersteunde versies van de Workfront API naar [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
+Meer over gesteunde versies van Workfront API leren, zie [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md).
 
-**API-toepassingen gebruiken die niet worden ondersteund**
+**Gebruikend API-niet gesteund**
 
 Als voor uw integratie functies nodig zijn die niet beschikbaar zijn in een versioned API, raadt Workfront aan API-Unsupported te gebruiken. API-niet-ondersteund wordt niet ondersteund, vergelijkbaar met API-intern. API-Niet-ondersteund bevat ook de meest recente wijzigingen in de Workfront API en kan zonder voorafgaande kennisgeving worden gewijzigd. Workfront raadt u aan API-Unsupported te gebruiken in uw testomgeving waar u nieuwe functionaliteit kunt verkennen en ervoor kunt zorgen dat de API vrij is van fouten.
 
-**De API-versie bepalen die u gebruikt**
+**Bepalend de API Versie u** gebruikt
 
 U kunt de versie van API bepalen uw integraties door REST te gebruiken om URI te construeren die een vraag over HTTPS naar Workfront verzendt en dan een reactie JSON terugkeert.
 
@@ -42,7 +42,7 @@ https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 
 >[!NOTE]
 >
->API-Niet-ondersteunde aanroepen laten de `/api` van de URL.
+>API-Niet-ondersteunde aanroepen laten de sectie `/api` van de URL weg.
 
 In het volgende voorbeeld ziet u een URI die versie 15.0 van de API aanroept:
 

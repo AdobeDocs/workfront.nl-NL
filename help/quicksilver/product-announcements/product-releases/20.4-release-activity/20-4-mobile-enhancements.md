@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle mobiele verbeteringen beschreven die zijn aangebracht met de release 20.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving in de week van 9 november 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 20.4, zie [20.4 - releaseoverzicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [ overzicht van de versie 20.4 ](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Extra functionaliteit in meldingen voor Microsoft Teams
 
@@ -32,15 +32,15 @@ Om het voor u gemakkelijker te maken om Workfront door Microsoft Teams te gebrui
 * We hebben het voor u mogelijk gemaakt om de aangepaste formulieren van een werkitem in de melding te bekijken en het aangepaste formulier uit te breiden om de velden ervan te zien.
 * Wanneer u een bericht over een project, een taak, of een kwestie ontvangt, kunt u de status van het het werkpunt direct in het bericht nu veranderen.
 
-Zie voor meer informatie [Adobe Workfront-meldingen beheren in Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Voor meer informatie, zie [ Adobe Workfront berichten in Microsoft Teams beheren ](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Introductie van Workfront for MobileIron
 
 Workfront heeft samengewerkt met MobileIron, een MDM-platform (Mobile Device Management), om organisaties een veiligere en meer gecontroleerde mobiele ervaring te bieden.
 
-Met Workfront for MobileIron kunnen beheerders functies zoals kopiëren/plakken en schermvastleggingen beperken. U kunt de Workfront for MobileIron-app downloaden op [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Met Workfront for MobileIron kunnen beheerders functies zoals kopiëren/plakken en schermvastleggingen beperken. U kunt Workfront voor toepassing MobileIron in [ https://marketplace.mobileiron.com/listing/workfront ](https://marketplace.mobileiron.com/listing/workfront) downloaden.
 
-Voor informatie over het configureren van de app raadpleegt u [Adobe Workfront for MobileIron configureren](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Voor informatie bij het vormen van app, zie [ Adobe Workfront voor MobileIron ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
 
 ## Maak snel een taak in de mobiele Workfront-app
 
@@ -50,7 +50,7 @@ Eerder waren de beschrijvings- en toewijzingsvelden altijd zichtbaar tijdens het
 
 Zie voor meer informatie
 
-* [Adobe Workfront voor iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront voor Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## Hulp bij de opdrachten van de virtuele assistent van Workfront Mobile
@@ -62,4 +62,4 @@ In de mobiele app kunt u de virtuele assistent vragen om u te helpen met opdrach
 
 Deze bevelen tonen een lijst van de verschillende dingen u de medewerker kunt vragen over.
 
-**Opmerking: de mobiele virtuele assistent is vanaf april 2024 verouderd.**
+**Nota: De mobiele Virtuele Medewerker is afgekeurd vanaf April 2024.**

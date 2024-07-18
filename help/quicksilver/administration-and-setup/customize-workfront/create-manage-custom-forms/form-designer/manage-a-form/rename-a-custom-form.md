@@ -45,22 +45,22 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De naam van een aangepast formulier wijzigen met de formulierontwerper
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
+1. Klik **Forms van de Douane** in het linkerpaneel.
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer het aangepaste formulier waarvan u de naam wilt wijzigen en klik op ![Pictogram Bewerken](assets/edit-icon2.png).
+1. Selecteer de douanevorm u wilt anders noemen, dan klik ![ uitgeven pictogram ](assets/edit-icon2.png).
 1. Als u de titel wilt wijzigen, klikt u op de naam van het formulier.
 1. Als u de beschrijving wilt wijzigen, klikt u in het tekstvak Beschrijving.
 
-1. Klikken **Opslaan en sluiten**.
+1. Klik **sparen en Sluiten**.
 
    >[!TIP]
    >
-   >U kunt op **Toepassen** op elk gewenst moment tijdens het maken van een aangepast formulier om uw wijzigingen op te slaan en het formulier open te houden.
+   >U kunt **klikken toepast** op om het even welk punt terwijl u een douaneformulier creeert om uw veranderingen te bewaren en de vorm open te houden.

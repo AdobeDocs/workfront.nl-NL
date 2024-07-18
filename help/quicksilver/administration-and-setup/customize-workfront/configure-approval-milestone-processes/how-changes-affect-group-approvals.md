@@ -4,14 +4,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: In dit artikel wordt uitgelegd wat er gebeurt wanneer een goedkeuringsproces al wordt gebruikt wanneer een Workfront-beheerder (of een gebruiker met beheerdersrechten voor goedkeuringsprocessen) zijn koppeling met een groep wijzigt.
+description: In dit artikel wordt uitgelegd wat er gebeurt wanneer een goedkeuringsproces al in gebruik is wanneer een Workfront-beheerder (of een gebruiker met beheerdersrechten voor goedkeuringsprocessen) zijn koppeling met een groep wijzigt.
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Dit artikel verklaart wat gebeurt wanneer een goedkeuringsproces reeds met taken
 * Hiermee wordt het goedkeuringsproces (op groepsniveau) van de ene groep gewijzigd in de andere
 * Hiermee wijzigt u de groep die aan het project is gekoppeld
 * Verandert het goedkeuringsproces van groepsniveau in systeemniveau
-* Hiermee wordt het goedkeuringsproces van systeemniveau gewijzigd in groepsniveau
+* Verandert het goedkeuringsproces van systeem tot groep-niveau
 
 Het artikel beschrijft ook wat gebeurt wanneer het bewegen van of het kopiëren van taken of kwesties verbonden aan een groep-vlakke goedkeuringsproces tussen twee projecten van verschillende groepen.
 
-Voor informatie over de drie typen goedkeuringsprocessen die u in Workfront kunt gebruiken, raadpleegt u [Overzicht van goedkeuringsproces](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Voor informatie over de 3 types van goedkeuringsprocessen kunt u in Workfront gebruiken, zie [ overzicht van het proces van de Goedkeuring ](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ Voor informatie over de drie typen goedkeuringsprocessen die u in Workfront kunt
 >
 >U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep van het project bijwerkt.
 >
->Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie [Goedkeuringsprocessen op groepsniveau](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+>Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie [ groep-vlakke goedkeuringsprocessen ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 >
->Voor informatie over het creëren van een groep-vlakke douanestatus, zie [Een groepsstatus maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
+>Voor informatie over het creëren van een groep-vlakke douanestatus, zie [ een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) creëren of uitgeven
 
 ## Een groepsspecifiek goedkeuringsproces van de ene groep naar de andere wijzigen
 
@@ -178,12 +178,12 @@ Wanneer iemand de optie Groep in een groep-specifiek goedkeuringsproces in &quot
   <tr> 
    <td>De sectie van de Details van de rij van een project of een malplaatje</td> 
    <td>Probleem</td> 
-   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in verband met het project</p> </td> 
+   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in het project</p> </td> 
   </tr> 
   <tr> 
    <td>De sectie van het Onderwerp van de rij van een project of een malplaatje</td> 
    <td>Probleem</td> 
-   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in verband met het project</p> </td> 
+   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in het project</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,12 +217,12 @@ Wanneer iemand de beschikbaarheid van een systeembreed goedkeuringsproces van &q
   <tr> 
    <td>De sectie van de Details van de rij voor een project of een malplaatje dat tot de groep van het goedkeuringsproces behoort</td> 
    <td>Probleem</td> 
-   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in verband met het project</p> </td> 
+   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in het project</p> </td> 
   </tr> 
   <tr> 
    <td>De sectie van het Onderwerp van de rij voor een project of een malplaatje dat tot de groep van het goedkeuringsproces behoort</td> 
    <td>Probleem</td> 
-   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in verband met het project</p> </td> 
+   <td> <p>Geen wijziging in het goedkeuringsproces, maar is standaard gekoppeld aan nieuwe kwesties of verzoeken in het project</p> </td> 
   </tr> 
   <tr> 
    <td>Project, taak, kwestie, malplaatje, of malplaatjetaak die tot een groep buiten de groep van het goedkeuringsproces behoort</td> 
@@ -253,7 +253,7 @@ Het bewegen of het kopiëren van een taak of een kwestie van een project aan een
 
 | Oorspronkelijke taak of goedkeuringsproces van afgifte | Groepen van de twee projecten | Wijzigingen in het goedkeuringsproces nadat de taak of uitgave naar een ander project is verplaatst |
 |---|---|---|
-| Goedkeuring voor eenmalig gebruik in combinatie met een systeembrede status | Projecten bevinden zich in dezelfde of verschillende groepen | Geen wijziging |
+| Goedkeuringsprocedure voor eenmalig gebruik in combinatie met een systeembrede status | Projecten bevinden zich in dezelfde of verschillende groepen | Geen wijziging |
 | Goedkeuringsprocedure voor eenmalig gebruik in verband met een groepsspecifieke status | Projecten bevinden zich in verschillende groepen | De goedkeuring blijft een goedkeuringsproces voor eenmalig gebruik en de status die aan de goedkeuring is gekoppeld, wordt bijgewerkt zodat deze overeenkomt met een vergelijkbare status voor de nieuwe groep. |
 | Goedkeuringsprocedure voor het hele systeem | Projecten bevinden zich in dezelfde of verschillende groepen | Geen wijziging |
 | Groepsspecifieke goedkeuringsprocedure | Projecten bevinden zich in dezelfde groep | Geen wijziging |

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt projectmalplaatjes gebruiken om de meeste herhaalbare processen, informatie, en montages te vangen verbonden aan de projecten in uw organisatie. Hoewel projecten specifieke start- en voltooiingsdatums hebben, hebben sjablonen algemene start- en voltooiingsdagen als indicatie voor de plaats waar deze data op het project zullen vallen, op basis van de algemene tijdslijn van het project.
 
-**Voorbeeld:** Als de Begindatum van een project 1 april is en u een taak op 3 april (twee dagen na het begin van het project) wilt beginnen, zou de overeenkomstige taak op het malplaatje dat tot het project leidt op Dag 2 van het malplaatje moeten beginnen, waar de eerste dag van het malplaatje als Dag 0 wordt beschouwd.
+**Voorbeeld:** als de Datum van het Begin van een project 1 April is en u een taak wilt beginnen op 3 April (twee dagen na het begin van het project), zou de overeenkomstige taak op het malplaatje dat tot het project leidt op Dag 2 van het malplaatje moeten beginnen, waar de eerste dag van het malplaatje als Dag 0 wordt beschouwd.
 
 ## Begindag
 
@@ -31,7 +31,7 @@ Hier volgen enkele acties die de Begindag van de sjabloontaken kunnen wijzigen:
 * Werk de Duur van de taken van het voorgangersmalplaatje bij
 * De taakbeperkingen bijwerken
 
-   Wanneer het gebruiken van op datum-gebaseerde Beperkingen van de Taak, kunt u de Dag van het Begin van de malplaatjetaken manueel bijwerken. Sommige voorbeelden van op datum-gebaseerde Taakbeperkingen zijn Vaste Data, Begin niet vroeger dan, Begin niet later dan, moet beginnen op.
+  Wanneer het gebruiken van op datum-gebaseerde Beperkingen van de Taak, kunt u de Dag van het Begin van de malplaatjetaken manueel bijwerken. Sommige voorbeelden van op datum-gebaseerde Taakbeperkingen zijn Vaste Data, Begin niet vroeger dan, Begin niet later dan, moet beginnen op.
 
 * Voorgangers voor sjabloontaken bijwerken
 
@@ -41,16 +41,16 @@ De voltooiingsdag van de sjabloon is de dag waarop de laatste sjabloontaak is vo
 
 Hier volgen enkele acties die de Voltooiingsdag van de sjabloontaken kunnen wijzigen:
 
-* Werk de Duur van de malplaatjetaken bij
+* De duur van de sjabloontaken bijwerken
 * De taakbeperkingen bijwerken
 
-   Wanneer het gebruiken van op datum-gebaseerde Beperkingen van de Taak, kunt u de Dag van de Voltooiing van de malplaatjetaken manueel bijwerken. Sommige voorbeelden van op datum-gebaseerde taakbeperkingen zijn Vaste DATA, beëindigen niet vroeger dan, beëindigen niet later dan, moet beëindigen op.
+  Wanneer het gebruiken van op datum-gebaseerde Beperkingen van de Taak, kunt u de Dag van de Voltooiing van de malplaatjetaken manueel bijwerken. Sommige voorbeelden van op datum-gebaseerde taakbeperkingen zijn Vaste DATA, beëindigen niet vroeger dan, beëindigen niet later dan, moet beëindigen op.
 
 * Voorgangers voor sjabloontaken bijwerken
 
 ## Werken met sjablonen die zijn gepland na voltooiing
 
-U kunt een sjabloon plannen vanaf Voltooiingsdag. Zie voor meer informatie [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+U kunt een sjabloon plannen vanaf Voltooiingsdag. Voor meer informatie, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 Denk aan het volgende wanneer u werkt met sjablonen die vanaf de Voltooiingsdatum zijn gepland:
 
@@ -58,4 +58,4 @@ Denk aan het volgende wanneer u werkt met sjablonen die vanaf de Voltooiingsdatu
 * Als u de voltooiingsdag wijzigt, wordt de taakbeperking ingesteld op Op.
 * Wanneer het malplaatje van de Dag van de Voltooiing gepland is, wordt de Dag van de Beperking van de Taak berekend vanaf de Dag van de Voltooiing.
 
-   **Voorbeeld:** De duur van de sjabloon is 285 dagen en je hebt een sjabloontaak van 60 dagen. Als u de Taakbeperking instelt op Moet beginnen op en Beperkingsdag op 120, hebt u een Begindag van 165 (285 - 120) en Voltooiingsdag van 225 (165 + 60). Dus als je de Begindag bewerkt, wordt deze geïnterpreteerd als Restrictiedag.
+  **Voorbeeld:** de duur van uw malplaatje is 285 dagen, en u hebt een malplaatjetaak met duur 60 dagen. Als u de Taakbeperking instelt op Moet beginnen op en Beperkingsdag op 120, hebt u een Begindag van 165 (285 - 120) en Voltooiingsdag van 225 (165 + 60). Dus als je de Begindag bewerkt, wordt deze geïnterpreteerd als Restrictiedag.

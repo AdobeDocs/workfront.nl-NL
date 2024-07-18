@@ -18,29 +18,29 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront] Proef. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>In dit artikel wordt verwezen naar de functionaliteit van het zelfstandige [!DNL Workfront] proefexemplaar. Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Wanneer u een e-mail over een proefdruk ontvangt, bevat deze een persoonlijke URL voor toegang tot de proefdruk. Zie voor meer informatie [Nieuwe proefe-mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+Wanneer u een e-mail over een proefdruk ontvangt, bevat deze een persoonlijke URL voor toegang tot de proefdruk. Voor meer informatie, zie [ Nieuwe proef e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 >[!CAUTION]
 >
->De URL van het e-mailbericht is persoonlijk voor u en opent de proefdruk met u die al als controleur is geïdentificeerd. Het is belangrijk dat u de URL niet doorstuurt naar iemand anders. als u dat doet, staan de opmerkingen of beslissingen die ze maken op uw naam. Als u wilt dat iemand anders de proefdruk kan bekijken en u beschikt over de proefdrukmachtiging, gebruikt u de functie voor het delen van proefdrukken die wordt beschreven in [Een proef delen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). Voor informatie over proefdrukmachtigingen raadpleegt u [Een document delen](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)of, als u [!DNL Workfront Proof], zie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+>De URL van het e-mailbericht is persoonlijk voor u en opent de proefdruk met u die al als controleur is geïdentificeerd. Het is belangrijk dat u de URL niet doorstuurt naar iemand anders. Als u dat wel doet, staan de opmerkingen of beslissingen die ze maken in uw naam. Als u iemand anders de proef zou willen bekijken en u de proeftoestemming hebt om dit te doen, gebruik de proef delende functionaliteit die in [ wordt verklaard een Bewijs van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). Voor informatie over proefdruktoestemmingen, zie [ een document ](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen, of, als u [!DNL Workfront Proof] gebruikt, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 >
->Als het delen van proefdrukken is ingeschakeld op de proefdruk, kunt u de proefdruk ook door iemand anders laten bekijken door de URL van de proefdrukken te delen via de viewer of via de [!UICONTROL Share this proof with someone else] in uw e-mailbericht met nieuwe proefdrukken).
+>Als het delen van proefdrukken is ingeschakeld op de proefdruk, kunt u de proefdruk ook door iemand anders laten bekijken door de URL van de proefdrukken te delen via de viewer of via de koppeling [!UICONTROL Share this proof with someone else] in uw e-mail met nieuwe proefdrukken).
 
 Overweeg het volgende over gedeelde proefdrukken:
 
-* Iedereen met een geldig e-mailadres kan aan een bewijs worden toegevoegd. Ze hoeven geen [!DNL Workfront Proof] gebruiker met aanmeldingsgegevens.
-* Alle bewijzen die met u zijn gedeeld, worden weergegeven in het dialoogvenster [!DNL Views] pagina van uw account. Zie voor meer informatie [Items op de weergavepagina beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
-* Wanneer iemand een proef-URL deelt met u, kunt u tot het bewijs toegang hebben zoals die in wordt beschreven [[!UICONTROL Share the Public URL in [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
+* Iedereen met een geldig e-mailadres kan aan een bewijs worden toegevoegd. Ze hoeven geen [!DNL Workfront Proof] -gebruiker met aanmeldingsgegevens te zijn.
+* Elke proefdruk die met u is gedeeld, wordt weergegeven op de pagina [!DNL Views] van uw account. Voor meer informatie, zie [ Punten op de Pagina van Bekijken binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+* Wanneer iemand een proefURL met u deelt, kunt u tot de proef toegang hebben zoals die in [[!UICONTROL Share the Public URL in [!DNL Workfront Proof] wordt beschreven] ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
 * U kunt zoeken naar een proef die met u is gedeeld op basis van de volgende criteria:
 
    * Proefnaam
    * Beschrijving (bericht gekoppeld aan een bewijs)
-   * Tagnaam (zie [Tags maken en beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
+   * De naam van de markering (zie [ Codes creëren en beheren in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
 
 Een proefdruk openen via een e-mail die u hebt ontvangen:
 
-1. Klikken **[!UICONTROL Go to proof]** in de e-mail.
+1. Klik op **[!UICONTROL Go to proof]** in de e-mail.
 
-   De proefdruk wordt geopend in de proefdrukviewer, klaar voor revisie. Voor informatie over het controleren van de proefdruk raadpleegt u [Een bewijs controleren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+   De proefdruk wordt geopend in de proefdrukviewer, klaar voor revisie. Voor informatie over het herzien van de proef, zie [ Overzicht een proef ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

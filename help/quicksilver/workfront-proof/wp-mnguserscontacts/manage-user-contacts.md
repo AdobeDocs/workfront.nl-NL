@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
-title: Gebruikers en contactpersonen beheren in [!DNL Workfront Proof]
+title: Het leiden van gebruikers en contacten in  [!DNL Workfront Proof]
 description: Gebruikers en contactpersonen beheren in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende subsecties:
 
 * [Gebruikers](../../workfront-proof/wp-mnguserscontacts/users/users.md)
 * [Groepen](../../workfront-proof/wp-mnguserscontacts/groups/groups.md)
 * [Contactpersonen](../../workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
-* [Tips, trucs en probleemoplossing voor [!DNL Workfront Proof] gebruikers en contacten](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+* [Tips, trucs, en het oplossen van problemen voor  [!DNL Workfront Proof]  gebruikers en contacten](../../workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)

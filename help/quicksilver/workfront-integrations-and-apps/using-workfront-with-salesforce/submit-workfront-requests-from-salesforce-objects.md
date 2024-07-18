@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
-title: Verzenden [!DNL Adobe Workfront] verzoeken van [!DNL Salesforce] objecten
-description: Na installatie [!DNL Adobe Workfront] for [!DNL Salesforce], you can submit [!DNL Workfront] verzoeken van [!DNL Salesforce] Kansen en accounts. Deze functionaliteit is beschikbaar in zowel de raamwerken voor klassieke en bliksemervaring.
+title: Verzend  [!DNL Adobe Workfront]  verzoeken van  [!DNL Salesforce]  voorwerpen
+description: Na het installeren van  [!DNL Adobe Workfront]  voor  [!DNL Salesforce], you can submit [!DNL Workfront]  verzoeken van  [!DNL Salesforce]  Kansen en Rekeningen. Deze functionaliteit is beschikbaar in zowel de raamwerken voor klassieke en bliksemervaring.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
-# Verzenden [!DNL Adobe Workfront] verzoeken van [!DNL Salesforce] objecten
+# [!DNL Adobe Workfront] aanvragen verzenden vanuit [!DNL Salesforce] -objecten
 
-Na installatie [!DNL Adobe Workfront for Salesforce], kunt u verzenden [!DNL Workfront] verzoeken van [!DNL Salesforce] Kansen en accounts. Deze functionaliteit bestaat in beide [!DNL Classic] en [!DNL Lightning Experience] frameworks.
+Nadat u [!DNL Adobe Workfront for Salesforce] hebt geïnstalleerd, kunt u [!DNL Workfront] -aanvragen van [!DNL Salesforce] Opportunity and Accounts verzenden. Deze functionaliteit bestaat zowel in de [!DNL Classic] - als in [!DNL Lightning Experience] -frameworks.
 
 ## Toegangsvereisten
 
@@ -36,63 +36,63 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-Een [!DNL Workfront] verzoek van een [!DNL Salesforce] De kans of de Rekening zorgen ervoor dat u het volgende in uw milieu hebt:
+Als u een [!DNL Workfront] -aanvraag van een [!DNL Salesforce] Opportunity of Account wilt verzenden, moet u het volgende doen in uw omgeving:
 
-* Uw [!DNL Workfront] beheerder heeft geïnstalleerd [!DNL Workfront for Salesforce].\
-   Meer informatie over installeren [!DNL Workfront for Salesforce], zie [Installeren [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Uw [!DNL Workfront] -beheerder heeft [!DNL Workfront for Salesforce] geïnstalleerd.\
+   Voor meer informatie over het installeren van [!DNL Workfront for Salesforce], zie [ installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* Uw [!DNL Workfront] beheerder heeft de [!DNL Workfront] in uw [!UICONTROL Opportunity] en [!UICONTROL Account] paginalay-outs.\
-   Voor meer informatie over het toevoegen van de [!DNL Workfront] sectie naar een pagina-indeling, zie [Configureer de [!DNL Adobe Workfront] sectie voor [!DNL Salesforce] gebruikers](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* De beheerder van [!DNL Workfront] heeft de sectie [!DNL Workfront] toegevoegd aan uw pagina-indelingen [!UICONTROL Opportunity] en [!UICONTROL Account] .\
+   Voor meer informatie over het toevoegen van de [!DNL Workfront] sectie aan een paginalay-out, zie [ de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
 
-* U hebt een [!DNL Workfront] en u kunt zich hier aanmelden via het dialoogvenster [!DNL Workfront] in uw Opportunity of Account.\
-   Wanneer u zich aanmeldt, kunt u de [!UICONTROL New Requests] tabblad waar u aanvragen kunt invoeren.
+* U hebt een [!DNL Workfront] -account en u kunt zich er vanuit de [!DNL Workfront] -sectie in uw Opportunity of Account aan aanmelden.\
+   Nadat u zich hebt aangemeld, kunt u het tabblad [!UICONTROL New Requests] zien waarop u aanvragen kunt invoeren.
 
-## Verzenden [!DNL Workfront] verzoeken van [!DNL Salesforce]
+## [!DNL Workfront] aanvragen verzenden vanuit [!DNL Salesforce]
 
 1. Ga naar een opportunity of account in Salesforce.
-1. Ga naar de [!DNL Workfront] sectie.
-1. In de **[!UICONTROL New Requests]** selecteert u een aanvraagtype in het dialoogvenster **[!UICONTROL Select a Request Type]** vervolgkeuzemenu.
+1. Ga naar de sectie [!DNL Workfront] .
+1. Selecteer op het tabblad **[!UICONTROL New Requests]** een aanvraagtype in de vervolgkeuzelijst **[!UICONTROL Select a Request Type]** .
 
    Je kunt dezelfde aanvraagrijen zien die je in Workfront kunt zien.
 
 1. Vul de beschikbare velden voor uw aanvraag in.
 
-   Een verzoek indienen van [!DNL Salesforce] is identiek aan het indienen van een verzoek in het [!DNL Workfront] webtoepassing.
+   Het verzenden van een aanvraag van [!DNL Salesforce] is hetzelfde als het verzenden van een aanvraag in de [!DNL Workfront] -webtoepassing.
 
    >[!NOTE]
    >
-   >Een document uploaden met de [!DNL Workfront] insteekmodule [!DNL Salesforce] is tijdelijk niet beschikbaar.
+   >Het uploaden van een document met de [!DNL Workfront] plug-in [!DNL Salesforce] is tijdelijk niet beschikbaar.
 
-   Ga door met het volgen van de stappen beschreven in [Maken en verzenden [!DNL Adobe Workfront] verzoeken](../../manage-work/requests/create-requests/create-submit-requests.md).
+   Ga verder om de stappen te volgen die in [ worden beschreven creeer en voorleg  [!DNL Adobe Workfront]  verzoeken ](../../manage-work/requests/create-requests/create-submit-requests.md).
 
 1. Klik op **[!UICONTROL Submit]**.
 
-## Weergave [!DNL Workfront] verzoeken
+## [!DNL Workfront] aanvragen weergeven
 
-1. Naar een opportunity of account gaan in [!DNL Salesforce].
-1. Ga naar de **[!DNL Workfront]** sectie.
+1. Ga naar een opportunity of account in [!DNL Salesforce] .
+1. Ga naar de sectie **[!DNL Workfront]** .
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw [!DNL Workfront] beheerder vormde deze sectie, zou het een verschillende naam kunnen hebben.
+   >Afhankelijk van de configuratie van deze sectie door de [!DNL Workfront] -beheerder, heeft deze mogelijk een andere naam.
 
-1. Selecteer **[!UICONTROL Submitted Requests]** tab.
+1. Selecteer de tab **[!UICONTROL Submitted Requests]** .
 
-   U kunt alle verzoeken die u of anderen van deze Opportunity of Account hebben verzonden op dit tabblad bekijken. Verzoeken die naar deze aanvraagwachtrij worden verzonden in de webtoepassing, worden niet weergegeven in deze lijst in [!DNL Salesforce].
+   U kunt alle verzoeken die u of anderen van deze Opportunity of Account hebben verzonden op dit tabblad bekijken. Verzoeken die naar deze aanvraagwachtrij worden verzonden in de webtoepassing, worden niet weergegeven in deze lijst in [!DNL Salesforce] .
 
    >[!NOTE]
    >
    >Verzoeken die naar deze aanvraagwachtrij in de webtoepassing worden verzonden, worden niet weergegeven in deze lijst in Salesforce.
 
-   ![salesforce_submitted_Requests.png](assets/salesforce-submitted-requests-350x58.png)
+   ![ salesforce_submitted_Requests.png ](assets/salesforce-submitted-requests-350x58.png)
 
    U kunt de volgende informatie over de verzonden verzoeken bekijken:
 
-   * Naam van verzoeken (in de [!UICONTROL Subject] kolom)
+   * Naam aanvragen (in de kolom [!UICONTROL Subject] )
    * Referentienummer
    * Type aanvraag
    * Status
@@ -100,16 +100,16 @@ Een [!DNL Workfront] verzoek van een [!DNL Salesforce] De kans of de Rekening zo
    * Aangevraagd op naam
    * Toegewezen aan naam\
 
-      Wanneer deze informatie wordt bijgewerkt in [!DNL Workfront], wordt het ook in deze lijst bijgewerkt.
+     Wanneer deze informatie wordt bijgewerkt in [!DNL Workfront] , wordt deze ook bijgewerkt in deze lijst.
 
-1. (Optioneel) Klik op de naam van de aanvraag om deze te openen in [!DNL Workfront].
+1. (Optioneel) Klik op de naam van de aanvraag om deze te openen in [!DNL Workfront] .
 
-1. (Optioneel) Klik op **[!UICONTROL Go to [!DNL Salesforce]]** om toegang te krijgen tot de Opportunity or Account waar het probleem is ontstaan uit de volgende gebieden van Workfront:
+1. (Optioneel) Klik op **[!UICONTROL Go to [!DNL Salesforce]]** om toegang te krijgen tot de Opportunity or Account waar het probleem is ontstaan in de volgende Workfront-regio&#39;s:
 
-   * In de [!UICONTROL Details] deel van de kwestie
-   * Klik in het deelvenster Samenvatting als u een probleem in een lijst selecteert nadat u op [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) op de werkbalk van de lijst.
-   * In de uitgiftekopbal, wanneer [!UICONTROL Integrations] is beschikbaar. Uw systeem- of groepsbeheerder moet de [!UICONTROL Integrations] in naar uw lay-outsjabloon om de koppeling Ga naar Salesforce in de uitgiftheader weer te geven. Zie voor meer informatie [Objectkoppen aanpassen met een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+   * In de sectie [!UICONTROL Details] van het probleem
+   * Klik in het deelvenster Samenvatting nadat u op [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) op de werkbalk van de lijst hebt geklikt om het probleem in een lijst te selecteren.
+   * Wanneer het veld [!UICONTROL Integrations] beschikbaar is in de uitgiftekop. Uw systeem- of groepsbeheerder moet het veld [!UICONTROL Integrations] toevoegen aan uw lay-outsjabloon om de koppeling Ga naar Salesforce weer te geven in de uitgiftheader. Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >
-   >De [!UICONTROL Go to Salesforce] koppeling is voor iedereen zichtbaar [!DNL Workfront] gebruikers die de uitgave kunnen bekijken. U moet beschikken over een [!DNL Salesforce] om naar de [!DNL Salesforce] Opportunity of Account waar het probleem is geregistreerd.
+   >De koppeling [!UICONTROL Go to Salesforce] is zichtbaar voor alle [!DNL Workfront] -gebruikers die de uitgave kunnen bekijken. U moet een [!DNL Salesforce] -account hebben om naar de [!DNL Salesforce] Opportunity or Account te kunnen gaan waar de uitgave is geregistreerd.

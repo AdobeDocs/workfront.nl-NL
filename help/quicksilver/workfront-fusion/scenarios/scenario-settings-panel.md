@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Het deelvenster met scenario-instellingen in Adobe Workfront Fusion
-description: In dit artikel worden de instellingen beschreven die beschikbaar zijn in het dialoogvenster [!UICONTROL scenario settings] in uw [!DNL Adobe Workfront Fusion] scenario's.
+description: Dit artikel beschrijft de montages beschikbaar in het [!UICONTROL scenario settings] paneel in uw  [!DNL Adobe Workfront Fusion]  scenario's.
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
@@ -35,42 +35,42 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## De scenario-instellingen openen
 
-1. Open de scenario-editor, zoals wordt uitgelegd in [De scenario-editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md).
+1. Open de scenario redacteur, zoals die in [ wordt verklaard de scenarioredacteur in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md).
 1. Klik op het tandwielpictogram links onder op de pagina.
 
    ![](assets/scenario-settings-350x221.png)
 
-   In de [!UICONTROL Scenario settings] die toont, kunt u diverse geavanceerde montages voor het scenario vormen.
+   In het deelvenster [!UICONTROL Scenario settings] dat wordt weergegeven, kunt u verschillende geavanceerde instellingen voor het scenario configureren.
 
 ## [!UICONTROL Allow storing incomplete executions]
 
-Deze optie bepaalt hoe [!DNL Adobe Workfront Fusion] gaat verder als er een fout optreedt tijdens de uitvoering van een scenario. Als deze optie is ingeschakeld, wordt het scenario gepauzeerd en verplaatst naar [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Dit geeft u de mogelijkheid om de kwestie te bevestigen en verder uit te voeren van waar het scenario werd tegengehouden. Als deze optie is uitgeschakeld, stopt de uitvoering van het scenario en wordt een terugdraaifase gestart.
+Deze optie bepaalt hoe [!DNL Adobe Workfront Fusion] te werk gaat als er een fout optreedt tijdens de uitvoering van een scenario. Met deze toegelaten optie, wordt het scenario gepauzeerd en verplaatst naar [ Mening en lost onvolledige uitvoeringen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) op. Dit geeft u de mogelijkheid om de kwestie te bevestigen en verder uit te voeren van waar het scenario werd tegengehouden. Als deze optie is uitgeschakeld, stopt de uitvoering van het scenario en wordt een terugdraaifase gestart.
 
 ## [!UICONTROL Sequential processing]
 
-Deze optie bepaalt hoe [!DNL Workfront Fusion] gaat te werk als een fout voorkomt en de uitvoering van een scenario wordt verplaatst naar [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Als de [!UICONTROL Sequential processing] is ingeschakeld, stopt Workfront Fusion met het verwerken van de taakreeks totdat alle onvolledige uitvoeringen zijn opgelost. Als de [!UICONTROL Sequential processing] deze optie is uitgeschakeld, blijft het scenario volgens zijn planning lopen, samen met herhaalde pogingen om de onvolledige executies opnieuw uit te voeren.
+Deze optie bepaalt hoe [!DNL Workfront Fusion] te werk gaat als een fout voorkomt en de uitvoering van een scenario wordt bewogen aan de [ Mening en onvolledige uitvoeringen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) oplossen. Als de optie [!UICONTROL Sequential processing] is ingeschakeld, stopt Workfront Fusion met het verwerken van de taakreeks totdat alle onvolledige uitvoeringen zijn opgelost. Als de optie [!UICONTROL Sequential processing] is uitgeschakeld, blijft het scenario volgens het schema lopen, samen met herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
 
 >[!NOTE]
 >
@@ -78,13 +78,13 @@ Deze optie bepaalt hoe [!DNL Workfront Fusion] gaat te werk als een fout voorkom
 >
 >Als het gebruiksgeval voor uw scenario&#39;s geen opeenvolgende verwerking vereist, adviseren wij onbruikbaar makend de opeenvolgende verwerkingsoptie.
 
-Voor meer informatie bij het plannen, zie [Een scenario plannen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+Voor meer informatie bij het plannen, zie [ Plan een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Gegevens zijn vertrouwelijk
 
-Zodra een scenario is uitgevoerd, kunt u door gebrek vertoningsinformatie tonen over welke gegevens door modules in het scenario werden verwerkt. Als u deze gegevens niet wilt opslaan, schakelt u het [!UICONTROL Data is confidential] -optie.
+Zodra een scenario is uitgevoerd, kunt u door gebrek vertoningsinformatie tonen over welke gegevens door modules in het scenario werden verwerkt. Schakel de optie [!UICONTROL Data is confidential] in als u niet wilt dat deze gegevens worden opgeslagen.
 
-Zie voor meer informatie over het weergeven van informatie [Uitvoeringsstroom scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+Voor meer informatie over het tonen van informatie, zie [ de uitvoeringsstroom van het Scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
 >[!IMPORTANT]
 >
@@ -92,19 +92,19 @@ Zie voor meer informatie over het weergeven van informatie [Uitvoeringsstroom sc
 
 ## Gegevensverlies inschakelen
 
-Deze optie heeft te maken met het inschakelen van gegevensverlies als [!DNL Workfront Fusion] kan een bundel niet opslaan in de wachtrij van [Onvolledige uitvoeringen weergeven en oplossen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (bijvoorbeeld vanwege een gebrek aan vrije ruimte). Als deze optie is ingeschakeld, gaan de gegevens verloren om onderbrekingen in de uitvoering van het algemene scenario te voorkomen. Dit is nuttig voor scenario&#39;s waar de hoogste prioriteit is ononderbroken uitvoering en de inkomende onjuiste gegevens niet zo belangrijk zijn.
+Deze optie moet met het toelaten van gegevensverlies doen als [!DNL Workfront Fusion] er niet in slaagt om een bundel aan de rij van [ Mening te bewaren en onvolledige uitvoeringen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) op te lossen (bijvoorbeeld, wegens een gebrek aan vrije ruimte). Als deze optie is ingeschakeld, gaan de gegevens verloren om onderbrekingen in de uitvoering van het algemene scenario te voorkomen. Dit is nuttig voor scenario&#39;s waar de hoogste prioriteit is ononderbroken uitvoering en de inkomende onjuiste gegevens niet zo belangrijk zijn.
 
-Buiten dat, wanneer het uitvoeren van een scenario, kan een module soms een dossier ontmoeten dat groter is dan de maximaal toegestane grootte. In dit geval: [!DNL Workfront Fusion] de opbrengsten overeenkomstig de vaststelling van de [!UICONTROL Enable data loss] en er wordt een waarschuwingsbericht weergegeven.
+Buiten dat, wanneer het uitvoeren van een scenario, kan een module soms een dossier ontmoeten dat groter is dan de maximaal toegestane grootte. In dit geval gaat [!DNL Workfront Fusion] verder volgens de instelling van de optie [!UICONTROL Enable data loss] en wordt een waarschuwingsbericht weergegeven.
 
-Zie voor meer informatie over de maximale bestandsgrootte [Bestanden toewijzen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
+Voor meer informatie over maximumdossiergrootte, zie [ Ongeveer toewijzingsdossiers in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
 
-Zie voor meer informatie over waarschuwingen [Fout bij verwerken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+Voor meer informatie over waarschuwingen, zie [ de verwerking van de Fout in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
 
 ## [!UICONTROL Auto commit]
 
-De [!UICONTROL Auto commit] de montages zijn op transacties van toepassing en bepalen de manier om een scenario te verwerken. Als Auto begaan optie is, begint de commit fase op elke module onmiddellijk na de voltooiing van de verrichtingsfase. Als de optie Automatisch vastleggen is uitgeschakeld, wordt pas een bewerking uitgevoerd als alle modules worden uitgevoerd (dit is de standaardmodus).
+De instellingen [!UICONTROL Auto commit] zijn van toepassing op transacties en definiëren de manier waarop een scenario moet worden verwerkt. Als Auto begaan optie is, begint de commit fase op elke module onmiddellijk na de voltooiing van de verrichtingsfase. Als de optie Automatisch vastleggen is uitgeschakeld, wordt pas een bewerking uitgevoerd als alle modules worden uitgevoerd (dit is de standaardmodus).
 
-Zie voor meer informatie over transacties [Uitvoering van scenario&#39;s, cycli en fasen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Voor meer informatie over transacties, zie [ uitvoering Scenario, cycli, en fasen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Maximumaantal cycli
 
@@ -112,37 +112,37 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 
 * Als het scenario met een opiniepeilingtrigger begint, bepaalt het plaatsen het maximum aantal cycli die tijdens de uitvoering van het scenario worden toegestaan.
 
-  Zie voor meer informatie over opiniepeilingtriggers [Opiniepeilingtriggers](../../workfront-fusion/modules/module-types.md#polling) in [Typen modules](../../workfront-fusion/modules/module-types.md).
+  Voor meer informatie over opiniepeilingstrekkers, zie [ Opiniepeilende trekkers ](../../workfront-fusion/modules/module-types.md#polling) in [ Types van modules ](../../workfront-fusion/modules/module-types.md).
 
 * Als het scenario met een onmiddellijke trekker begint, wordt het plaatsen genegeerd en alle hangende gebeurtenissen worden verwerkt tijdens één enkele scenariouitvoering, één gebeurtenis per één cyclus.
 
-  Zie voor meer informatie over instant triggers [Instant triggers](../../workfront-fusion/modules/module-types.md#instant) in [Typen modules](../../workfront-fusion/modules/module-types.md).
+  Voor meer informatie over onmiddellijke trekkers, zie [ Onmiddellijke trekkers ](../../workfront-fusion/modules/module-types.md#instant) in [ Types van modules ](../../workfront-fusion/modules/module-types.md).
 
 * Als het scenario niet met een trekker (instant/polling) begint, wordt het gespecificeerde maximumaantal cycli altijd uitgevoerd.
 
 >[!INFO]
 >
->**Voorbeelden:**  [!DNL Workfront] > [!UICONTROL Watch record] zoekt naar nieuwe problemen die binnenkomen, en [!DNL Workfront] >[!UICONTROL Convert object] converteert het nieuwe verzoek in een project en wijst het het aangewezen malplaatje toe.
+>**Voorbeelden:** [!DNL Workfront] > [!UICONTROL Watch record] horloges voor nieuwe kwesties die binnen komen, en [!DNL Workfront] > [!UICONTROL Convert object] zet het nieuwe verzoek in een project om en wijst het het aangewezen malplaatje toe.
 >
 >![](assets/scenario-settings-ex-1-350x157.png)
 >
->A [!UICONTROL more cycles] het plaatsen wordt toegepast slechts wanneer u de uitvoering van het scenario plant. Wanneer u de opdracht [!UICONTROL Run once] , wordt rekening gehouden met de cyclusinstellingen.
+>Een instelling [!UICONTROL more cycles] wordt alleen toegepast wanneer u de uitvoering van het scenario plant. Wanneer u de knop [!UICONTROL Run once] gebruikt, wordt rekening gehouden met de cyclusinstellingen.
 >
 >### Max. aantal cycli is ingesteld op 1 (standaardwaarde)
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->De [!UICONTROL Maximum number of returned files] in de [!UICONTROL Dropbox] >[!UICONTROL Watch files] module is ingesteld op `10`.
+>[!UICONTROL Maximum number of returned files] in de [!UICONTROL Dropbox] > [!UICONTROL Watch files] module wordt geplaatst aan `10`.
 >
 >![](assets/max-number-cycles-10-350x175.png)
 >
->Indien 100 verzoeken worden ingediend bij [!DNL Workfront]en de [!UICONTROL Limit] het veld is ingesteld op 10 en 90 bestanden worden niet verwerkt nadat één scenario is uitgevoerd. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
+>Als 100 aanvragen worden verzonden naar [!DNL Workfront] en het veld [!UICONTROL Limit] is ingesteld op 10, worden 90 bestanden niet verwerkt nadat één scenario is uitgevoerd. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
 >
 >### Max. aantal cycli is ingesteld op 10
 >
->De [!UICONTROL Maximum number of returned files] in de [!UICONTROL Dropbox] >[!UICONTROL Watch files] module is ingesteld op `10`.
+>[!UICONTROL Maximum number of returned files] in de [!UICONTROL Dropbox] > [!UICONTROL Watch files] module wordt geplaatst aan `10`.
 >
->Als 100 bestanden worden toegevoegd aan de map Dropbox en de map [!UICONTROL Maximum number of returned files] Deze optie is ingesteld op 10, vervolgens worden 10 bestanden verwerkt tijdens de eerste cyclus, de volgende 10 bestanden in de tweede cyclus, de volgende 10 bestanden in de derde cyclus enzovoort, totdat alle bestanden zijn verwerkt.
+>Als 100 bestanden worden toegevoegd aan de map Dropbox en de optie [!UICONTROL Maximum number of returned files] is ingesteld op 10, worden 10 bestanden verwerkt tijdens de eerste cyclus, de volgende 10 bestanden in de tweede cyclus, de volgende 10 bestanden in de derde cyclus enzovoort, totdat alle bestanden zijn verwerkt.
 >
 >Alle bestanden worden verwerkt binnen 1 scenario-uitvoering.
 >
@@ -150,13 +150,13 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 >
 >![](assets/scenario-detail-350x207.png)
 >
->Zie voor meer informatie over deze pagina [Scenario-details in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
+>Voor meer informatie over deze pagina, zie [ details van het Scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
 
 ## Aantal opeenvolgende fouten
 
-Definieert het maximumaantal opeenvolgende uitvoeringspogingen voordat de uitvoering van een scenario wordt gedeactiveerd (exclusief [!UICONTROL DataError], [!UICONTROL DuplicateDataError] en [!UICONTROL ConnectionError]).
+Definieert het maximum aantal opeenvolgende uitvoeringspogingen voordat de uitvoering van een scenario wordt gedeactiveerd (exclusief [!UICONTROL DataError] , [!UICONTROL DuplicateDataError] en [!UICONTROL ConnectionError] ).
 
-Zie voor meer informatie over fouten [Fout bij verwerken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+Voor meer informatie over fouten, zie [ de verwerking van de Fout in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
 
 >[!NOTE]
 >

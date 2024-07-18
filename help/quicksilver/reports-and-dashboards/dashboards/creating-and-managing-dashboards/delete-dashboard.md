@@ -35,31 +35,31 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor het dashboard beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het dashboard beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een dashboard verwijderen uit het menu Handelingen
 
 Als u een dashboard wilt verwijderen, kunt u het verwijderen via het menu Handelingen.
 
-Voor informatie over het verwijderen van een dashboard met een ingesloten externe pagina raadpleegt u [Een dashboard verwijderen uit het dashboardgebied](#delete-a-dashboard-from-the-dashboards-area).
+Voor informatie bij het schrappen van een dashboard met een externe ingebedde pagina, zie [ een dashboard van het gebied van Dashboards ](#delete-a-dashboard-from-the-dashboards-area) schrappen.
 
 Een dashboard verwijderen:
 
 1. Ga naar het dashboard dat u wilt bewerken.
-1. Klikken **Dashboardhandelingen** en klik vervolgens op **Verwijderen**.
+1. Klik **Acties van het Dashboard**, dan klik **Schrapping**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
-1. Om te bevestigen dat u het dashboard wilt schrappen, klik **Ja, verwijder deze.**
+1. Om te bevestigen dat u het dashboard wilt schrappen, klik **ja, schrap het.**
 Het dashboard wordt verwijderd uit Workfront.
 
 ## Een dashboard verwijderen uit het dashboardgebied {#delete-a-dashboard-from-the-dashboards-area}
@@ -68,10 +68,10 @@ Als u meerdere dashboards verwijdert, kunt u de dashboards van het gebied van Da
 
 Meerdere dashboards verwijderen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Dashboards**.
-1. Selecteer elk dashboard in de lijst dat u wilt verwijderen en klik vervolgens op **Verwijderen** ![](assets/delete.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Dashboards**.
+1. Selecteer elk dashboard in de lijst die u wilt schrappen, dan **Schrapping** ![](assets/delete.png) klikken.
 
    ![](assets/nwe-deletedashboard2021-350x182.png)
 
-1. Om te bevestigen dat u het dashboard wilt schrappen, klik **Ja, verwijder deze.**
+1. Om te bevestigen dat u het dashboard wilt schrappen, klik **ja, schrap het.**
 Het dashboard wordt verwijderd uit Workfront.

@@ -26,21 +26,21 @@ Enkele redenen voor het exporteren van gegevens zijn:
 * U wilt een externe back-up van uw Workfront-gegevens maken.
 * Er geldt een limiet voor het weergeven van slechts 2.000 resultaten op één pagina in de Workfront-webtoepassing. Als uw rapport meer dan 2.000 produceert, kunt u het rapport naar om het even welke beschikbare formaten uitvoeren en alle resultaten in het rapport in één lijst bekijken.
 
-U kunt of een rapport manueel, van de interface van Workfront uitvoeren, of u kunt een levering voor een rapport plannen en dat rapport zal naar u op een recentere tijd worden verzonden. Voor meer informatie bij het plannen van geleverde rapporten, zie [Overzicht van levering rapporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+U kunt of een rapport manueel, van de interface van Workfront uitvoeren, of u kunt een levering voor een rapport plannen en dat rapport zal naar u op een recentere tijd worden verzonden. Voor meer informatie bij het plannen van geleverde rapporten, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 De informatie in dit artikel is niet van toepassing op de volgende exporttransacties:
 
 * Gegevens uit grafiekrapporten exporteren.
 
-  Voor meer informatie over het uitvoeren van een grafiekrapport, zie [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Voor meer informatie over het uitvoeren van een grafiekrapport, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 * Informatie exporteren uit het Gantt-diagram.
 
-  Zie voor meer informatie over het exporteren van de Gantt-grafiek [De Gantt-grafiek exporteren naar PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+  Voor meer informatie over het uitvoeren van de grafiek van Gantt, zie [ de Grafiek van Gantt naar PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) uitvoeren.
 
 * Informatie exporteren vanuit de bronnenplanner.
 
-  Voor meer informatie over het uitvoeren van de informatie van de Planner van het Middel, zie &quot;Optie van de Uitvoer&quot;in [Overzicht van de navigatie in de bronnenplanner](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Voor meer informatie over het uitvoeren van de informatie van de Planner van het Middel, zie &quot;Optie van de Uitvoer&quot;in [ het navigatieoverzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Toegangsvereisten
 
@@ -76,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 Het rapport moet worden gemaakt voordat u de gegevens kunt exporteren.
 
-Zie voor meer informatie over het maken van rapporten [Een aangepast rapport maken](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) of [Een kopie van een rapport maken](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Voor meer informatie bij het creëren van rapporten, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) of [ creëren een exemplaar van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Exportindelingen en -beperkingen
 
@@ -109,11 +109,11 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront worden weergegeven en voor de manier waarop ze via handmatige export, een geleverd rapport of de API worden geëxporteerd.
 
-* **50.000 cellen:** Het maximumaantal cellen dat in een rapport wordt toegestaan uitvoeren voor de dossiers van Excel.
-* **50.000 rijen:** Het aantal rijen gegevens dat is toegestaan in een rapport dat wordt geëxporteerd voor bestanden met de indeling .pdf en Tab gescheiden.
+* **50.000 cellen:** het maximumaantal cellen die in een rapportuitvoer voor de dossiers van Excel worden toegestaan.
+* **50.000 rijen:** het aantal rijen van gegevens toegestaan in een rapportuitvoer voor .pdf en Van het Lusje Gescheiden dossiers.
 
-   * Voor Excel .xls- dossiers, is deze grens **65.000 rijen**.
-   * Voor Excel .xlsx-bestanden is deze limiet **100.000 rijen**.
+   * Voor de dossiers van Excel .xls, is deze grens **65.000 rijen**.
+   * Voor de dossiers van Excel .xlsx, is deze grens **100.000 rijen**.
    * Deze grenzen sluiten de kolomrubrieken, evenals rijen voor groepen in het rapport uit. Bijvoorbeeld, als u 6 groeperingen in een rapport hebt, en 50.000 rijen van gegevens, zal het uitgevoerde dossier 50.000 rijen hebben.
 
   >[!IMPORTANT]
@@ -127,9 +127,9 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 
   Als uw rapport meer dan 50.000/65.000/100.000 rijen heeft en u alle gegevens wilt uitvoeren, adviseren wij dat u filters of herinneringen gebruikt om kleinere ladingen gegevens te verkrijgen, en veelvoudige uitvoeren uit te voeren.
 
-  Zie voor informatie over het gebruik van filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor informatie bij het gebruiken van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Voor informatie over het gebruiken van herinneringen, zie [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Voor informatie over het gebruiken van herinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 * Deze grenswaarden gelden voor:
 
@@ -138,7 +138,7 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
    * Een export via een API-integratie.
    * Gegevens geëxporteerd via een trap-start.
 
-     Zie voor meer informatie over het exporteren van gegevens via het starten [Gegevens exporteren uit Adobe Workfront via Kick-start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Voor meer informatie over het uitvoeren van gegevens via schop-begin, zie [ Gegevens van de Uitvoer van Adobe Workfront via Kick-Begarts ](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -146,11 +146,11 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 
    * Gebruiksinformatie voor een project exporteren.
 
-     Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [Overzicht van het verslag over het gebruik van hulpbronnen](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
-* **10 MB bestandsgrootte:** Maximale bestandsgrootte voor elk geëxporteerd rapport dat is gepland voor levering. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
-* **65.530 hyperlinks:** Dit is een door Excel opgelegde limiet voor documenten die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen. 
-* **256 kolommen**: Dit is een door Excel opgelegde limiet voor documenten die meer dan 256 kolommen bevatten. Deze documenten kunnen niet handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen.
+* **10MB dossiergrootte:** de groottelimiet van het Dossier voor om het even welk uitgevoerd rapport dat voor levering wordt gepland. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
+* **65.530 hyperlinks:** dit is een grens die door Excel op documenten wordt opgelegd die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen. 
+* **256 kolommen**: Dit is een grens die door Excel op documenten wordt opgelegd die meer dan 256 kolommen bevatten. Deze documenten kunnen niet handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen.
 
 Als u probeert gegevens te exporteren die de limiet overschrijden, ontvangt u mogelijk niet alle verwachte gegevens in de exportbewerking. In plaats daarvan wordt een gewijzigd verslag binnen de limiet opgesteld.
 
@@ -171,7 +171,7 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 
    Laat alle items uitgeschakeld om de volledige lijst te exporteren.
 
-1. Klikken **Exporteren** Selecteer vervolgens een indeling.
+1. Klik **Uitvoer**, dan selecteer een formaat.
 
    <!--
    This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
@@ -183,7 +183,7 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 
    of
 
-   Klik op de knop **Exporteren** pictogram ![Exportpictogram](assets/export-icon-nwe.png)Selecteer vervolgens een indeling.
+   Klik het **pictogram van de Uitvoer ![ het pictogram van de Uitvoer ](assets/export-icon-nwe.png), dan selecteer een formaat.**
 
    Welke PDF-exportopties beschikbaar zijn, is afhankelijk van de landinstellingen in de Workfront-gebruikersinstellingen:
 
@@ -200,21 +200,21 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
      -->
 
 1. (Voorwaardelijk) Afhankelijk van het besturingssysteem dat u gebruikt, hebt u mogelijk de mogelijkheid om het bestand te openen of op te slaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
-1. Doorgaan met [Het geëxporteerde document gebruiken](#use-the-exported-document).
+1. Ga met [ Gebruik het uitgevoerde document ](#use-the-exported-document) verder.
 
 ### Gegevens exporteren uit een dashboard {#export-data-from-a-dashboard}
 
 U kunt de gegevens van een dashboard afdrukken of exporteren als .pdf-bestand.
 
-Ga voor meer informatie over het exporteren van gegevens van een dashboard naar [Een dashboard exporteren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+Voor meer informatie over het uitvoeren van gegevens van een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md) uitvoeren.
 
 ## Het geëxporteerde document gebruiken {#use-the-exported-document}
 
-* [Bestandsnamen](#file-names)
-* [Titels](#titles)
-* [Tijdstempels](#timestamps)
-* [Opmaak](#formatting)
-* [Koppelingen](#links)
+* [ Namen van het Dossier ](#file-names)
+* [ Titels ](#titles)
+* [ Tijdstempels ](#timestamps)
+* [ Formatterend ](#formatting)
+* [ Verbindingen ](#links)
 * [Branding](#branding)
 
 ### Bestandsnamen {#file-names}
@@ -225,29 +225,29 @@ Of u nu een lijst met objecten of een rapport exporteert, het geëxporteerde bes
 
 Wanneer u een lijst met objecten exporteert, wordt het objecttype in het geëxporteerde bestand weergegeven in de bestandsnaam en in de titel van de lijst.
 
-Wanneer u een lijst met taken of problemen exporteert, worden de **Bestandsnaam** kan een van de volgende zijn:
+Wanneer u een lijst van taak of kwesties uitvoert, kan de **Naam van het Dossier** één van het volgende zijn:
 
 * Wanneer u taak en uitgiftenlijsten in een project uitvoert:
 
-   * *The_project_name_Exported_Tasks*(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
-   * *The_project_name_Exported_Issues*(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
+   * *The_project_name_Exported_Tasks* (*in PDF, Excel, Excel (.xlsx), of Door het Lusje afgebakende formaten)*
+   * *The_project_name_Exported_Issues* (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
 
 * Wanneer u taak en uitgiftenlijsten in een taak (subtaken) uitvoert:
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
-   * **The_project_name_the_task_name_Exported_Issues**(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
+   * **The_project_name_the_task_name_Exported_Tasks** (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
+   * **The_project_name_the_task_name_Exported_Issues** (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
 
 Wanneer u een lijst met andere objecten uit een project naar een PDF-bestand exporteert, geeft de bestandsnaam van het geëxporteerde document het type object aan dat u hebt geëxporteerd.\
 De bestandsnaam kan bijvoorbeeld als volgt zijn:
 
-* *Geëxporteerde_Gebruikers*, bij het exporteren van het tabblad Personen in het project *in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
-* *Exported_Risks*, bij het exporteren van een lijst met risico&#39;s voor het project *in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
+* *Exported_Users*, wanneer het uitvoeren van het lusje van Mensen op het project (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
+* *Exported_Risks*, wanneer het uitvoeren van een lijst van Risken op het project (*in PDF, Excel, Excel (.xlsx), of Door tabs afgebakende formaten)*
 
 #### Bestandsnamen voor geëxporteerde rapporten {#file-names-for-exported-reports}
 
 Wanneer u een rapport exporteert, krijgt het geëxporteerde rapport de volgende bestandsnaam:
 
-*The_report_name*(*in de indelingen PDF, Excel, Excel (.xlsx) of Door tabs gescheiden)*
+*The_report_name* (*in PDF, Excel, Excel (.xlsx), of Door het Lusje afgebakende formaten)*
 
 ### Titels {#titles}
 
@@ -257,19 +257,19 @@ Wanneer u een lijst met objecten exporteert, heeft alleen het bestand in de inde
 
 Wanneer u taak en uitgeeft lijsten in een project naar een dossier van PDF uitvoert, is de titel van het uitgevoerde document één van het volgende:
 
-* *Projectnaam - Geëxporteerde taken*
-* *Projectnaam - Geëxporteerde problemen*
+* *naam van het Project - de Uitgevoerde Taken*
+* *naam van het Project - de Uitgevoerde Kwesties*
 
 Wanneer u taak- en uitgavelijsten in een taak exporteert naar een PDF-bestand, is de tegel van het geëxporteerde document een van de volgende:
 
-* *Projectnaam - Taaknaam - Geëxporteerde taken*
-* *Projectnaam - Taaknaam - Geëxporteerde problemen*
+* *naam van het Project - de Naam van de Taak - Uitgevoerde Taken*
+* *naam van het Project - de Naam van de Taak - Uitgevoerde Kwesties*
 
 Wanneer u een lijst met andere objecten uit een project exporteert naar een PDF-bestand, geeft de titel van het geëxporteerde document het type objecten aan dat u hebt geëxporteerd.\
 De titel kan bijvoorbeeld als volgt zijn:
 
-* *Geëxporteerde gebruikers*, bij het exporteren van het tabblad Personen in het project.
-* *Geëxporteerde risico&#39;s*, bij het exporteren van een lijst met risico&#39;s voor het project.
+* *Uitgevoerde Gebruikers*, wanneer het uitvoeren van het lusje van Mensen op het project.
+* *Uitgevoerde Risken*, wanneer het uitvoeren van een lijst van Risken op het project.
 
 #### Titels voor geëxporteerde rapporten {#titles-for-exported-reports}
 
@@ -291,8 +291,8 @@ De tijdstempel bevat:
 
 Afhankelijk van het type document dat u exporteert, worden tijdstempels op verschillende locaties weergegeven:
 
-* **PDF:** Tijdstempels worden weergegeven op de voettekst van elke pagina en in de bestandsnaam.
-* **Excel:** Tijdstempels worden weergegeven in de bestandsnaam.
+* **PDF:** Tijdstempels worden getoond op footer van elke pagina en in het dossier - naam.
+* **Excel:** Tijdstempels worden getoond in het dossier - naam.
 
 ### Opmaak {#formatting}
 
@@ -306,7 +306,7 @@ Als uw rapport speciale opmaak heeft in de webtoepassing, moet het rapport worde
 >
 >Als de gegevens die u exporteert gedeelde kolommen bevatten en u exporteert naar een indeling die is gescheiden door Excel of Tab, worden deze kolommen gescheiden in het geëxporteerde bestand.
 
-Voor meer informatie over hoe te om het formatteren in een rapport aan te passen, zie [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Voor meer informatie over hoe te om het formatteren in een rapport aan te passen, zie [ Voorwaardelijke het formatteren van het Gebruik in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ### Koppelingen {#links}
 
@@ -314,7 +314,7 @@ Koppelingen kunnen verwijzen naar elk object in Workfront dat koppelingen onders
 
 >[!TIP]
 >
->Indien de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden worden niet weergegeven in een geëxporteerd .pdf-bestand. U moet dan aanvullende coderegels invoeren in de tekstmodus.
+>Als de regel `valueformat=HTML` wordt weergegeven in de tekstmodus voor een aangepaste veldkolom en de koppelingswaarden niet worden weergegeven in een geëxporteerd .pdf-bestand, moet u extra coderegels aan de kolom toevoegen in de tekstmodus.
 >
 >Bijvoorbeeld, als u een douanegebied genoemd Open Q1 Projecten hebt die verbindingen bevatten, zou u de volgende code toevoegen:
 >
@@ -335,4 +335,4 @@ Als uw Workfront-beheerder aangepaste branding heeft toegevoegd aan uw Workfront
 
 Gegevens die in andere indelingen worden geëxporteerd, kunnen niet worden gepersonaliseerd met uw logo.
 
-Zie voor meer informatie over het brandmerken van uw Workfront-instantie en de algemene navigatiebalk [Adobe Workfront-exemplaar merkbaar](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Voor meer informatie over branding uw instantie van Workfront en de Globale Bar van de Navigatie, zie [ Merk uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het vierde Kwartaal 2023 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met de Vierde Versie van het Kwartaal 2023, zie [Overzicht release 4de kwartaal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2023 versie, zie [ Vierde Kwartaal 2023 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Zoeken naar updates voor e-mailsjabloon voor documentgoedkeuringen
 
@@ -35,7 +35,7 @@ Het e-mailsjabloon voor meldingen voor documentgoedkeuring is bijgewerkt zodat h
 
 Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
 
-Zie voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor meer informatie, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nieuwe look-and-feel updates voor tabbladen in het gedeelte Instellingmeldingen
 
@@ -45,7 +45,7 @@ Zie voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balanc
 
 We hebben de tabbladen voor e-mailmeldingen, herinneringsberichten en e-mailsjablonen in het gedeelte Instellen > E-mail > Meldingen bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront.
 
-Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Voor informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 ## Updates voor taakrolschermen bekijken en voelen
 
@@ -55,4 +55,4 @@ Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het
 
 We hebben de schermen New Job Role en Edit Job Role bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 
-Zie voor meer informatie [Taakrollen maken en beheren](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Voor informatie, zie [ baanrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en leiden.

@@ -31,8 +31,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd lidmaatschap: selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -49,11 +49,11 @@ De Desktop Proofing Viewer controleert automatisch op updates wanneer deze wordt
 
 Handmatig controleren op updates:
 
-1. Klik op een Mac op **Workfront Proof** > **Informatie over Workfront Proof** in de navigatiebalk van Apple boven de Desktop Proofing Viewer. 
+1. Voor een Mac, klik **Workfront Proof** > **Ongeveer Workfront Proof** in de navigatiebar van Apple boven de Desktop het Proofing Kijker. 
 
-   of
+   Of
 
-   Klik in Windows op **Venster** > **Informatie over Workfront Proof** in de menubalk boven de Desktop Proofing Viewer.
+   In Vensters, klik **Venster** > **Ongeveer Workfront Proof** in de menubar boven de Desktop Proofing Kijker.
 
    De Desktop Proofing Viewer controleert op updates.
 
@@ -61,21 +61,21 @@ Handmatig controleren op updates:
 
 ## Standaardupdates
 
-De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voor een optimale functionaliteit raden we u echter aan deze toe te passen als ze beschikbaar zijn. U ontvangt een melding wanneer deze beschikbaar zijn via een **App-update** in de linkerzijbalk van de Desktop Proofing Viewer.
+De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voor een optimale functionaliteit raden we u echter aan deze toe te passen als ze beschikbaar zijn. U zult op de hoogte worden gesteld wanneer zij door een **update** knoop van de App {in de linkerzijbalk van de Kijker van het Proofing van de Desktop beschikbaar zijn.
 
-1. Klikken **App-update.**
+1. Klik **update van de App.**
 
    De updates worden gedownload.
 
-1. Klikken **Opnieuw starten.**
+1. Klik **opnieuw beginnen.**
 
-   De **Desktop Proofing Viewer** wordt opnieuw gestart en u kunt het werk aan uw proefdruk hervatten.
+   De **Desktop Proofing Kijker** herstelt en u kunt het werk aan uw proef hervatten.
 
 ## Vereiste updates
 
 Het is belangrijk dat u de vereiste updates voor de Desktop Proofing Viewer uitvoert. Daarna moet u opnieuw starten om de viewer te kunnen blijven gebruiken.
 
 1. Open de Desktop Proofing Viewer.
-1. Klik in het vak dat wordt weergegeven op **Opnieuw starten.**
+1. In de doos die verschijnt, klik **opnieuw lanceren.**
 
    De Desktop Proofing Viewer wordt opnieuw gestart en u kunt uw proefdrukken hervatten. 

@@ -27,7 +27,7 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
 * Kopieer een koppeling naar de pagina van de record wanneer u records bekijkt in de tabelweergave van het recordtype.
 
-* U kunt alle records in een werkruimte delen met andere gebruikers door de werkruimte te delen. Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md).
+* U kunt alle records in een werkruimte delen met andere gebruikers door de werkruimte te delen. Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
 In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
 
@@ -80,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
@@ -111,14 +111,14 @@ De werkruimte die u het laatst hebt geopend.
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) Van de **Weergave** Selecteer een tabelweergave in de rechterbovenhoek van de tabel. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
+1. (Voorwaardelijk) van **Mening** drop-down menu in de hoger-juiste hoek van de lijst, selecteer een lijstmening. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik met de rechtermuisknop op een recordrij
 
    of
 
-   Houd de muisaanwijzer boven de naam van een record en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Koppeling kopiëren**.
+   Beweeg over de naam van een verslag, klik **Meer** menu ![](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
 
    ![](assets/contextual-menu-for-record-row.png)
 
@@ -139,4 +139,4 @@ U kunt alle records in een werkruimte delen wanneer u de werkruimte deelt met an
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
 
-Zie voor meer informatie [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md).
+Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.

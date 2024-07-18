@@ -9,15 +9,15 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Nieuw in API-versie 10
 
-* [Nieuwe bronnen](#new-resources)
-* [Bijgewerkte bronnen](#updated-resources)
+* [ Nieuwe Middelen ](#new-resources)
+* [ Bijgewerkte Middelen ](#updated-resources)
 * [Verwijderde bronnen](#removed-resources)
 
 ## Nieuwe bronnen {#new-resources}
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-**Bijgewerkte bronnen**
+**Bijgewerkte Middelen**
 
 De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront API. Wijzigingen in een bron worden als volgt aangegeven:
 
@@ -129,12 +129,12 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| toewijzingspercentage `<sup>1</sup>` |   |   |   |   |   |   |
+| assignPercent `<sup>1</sup>` |   |   |   |   |   |   |
 | viewByAssignedToUser |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`added validator LESS_THAN_EQUAL
+`<sup>1</sup>` toegevoegde validator LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -154,7 +154,7 @@ De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Workfront A
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -184,14 +184,14 @@ DocumentVersion
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
+| externalIntegrationType <sup> 1 </sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in possibleValues
 
 Kosten
 
@@ -214,21 +214,21 @@ Kosten
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
+| externalIntegrationType <sup> 1 </sup> |  |  |  |  |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Wijzigingen in mogelijke waarden
+<sup> 1 </sup> Veranderingen in possibleValues
 
 ### OpTask
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
+| priorityColor |   |  | pendingApproval <sup> 1 </sup> |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Type gewijzigd van null in Boolean
+<sup> 1 </sup> Type veranderde van ongeldig in boolean
 
 ### PortalSection
 
@@ -270,11 +270,11 @@ Kosten
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| rateValue <sup>1</sup> |  |  |  |  |  |   |
+| rateValue <sup> 1 </sup> |  |  |  |  |  |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>added validator CURRENCY
+<sup> 1 </sup> toegevoegde VALUTA van de validator
 
 ### Taak
 
@@ -292,11 +292,11 @@ Kosten
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
+| hoursPerPoint <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> added validator LESS_THAN
+<sup> 1 </sup> toegevoegde validator LESS_THAN
 
 ### TeamAssignment
 
@@ -330,7 +330,7 @@ Kosten
 
 {style="table-layout:auto"}
 
-<sup>1</sup> wijzigingen in possibleValues
+<sup> 1 </sup> veranderingen in possibleValues
 
 ### Gebruiker
 
@@ -344,23 +344,23 @@ Kosten
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| eventType <sup>1</sup> |   |   |   |   |   |   |
+| eventType <sup> 1 </sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> wijzigingen in possibleValues
+<sup> 1 </sup> veranderingen in possibleValues
 
 ### Werk
 
 | Velden | Verwijzingen | Verzamelingen | Zoeken | Handelingen | Zoekopdrachten | Bewerkingen |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup> 1 </sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Type gewijzigd van null in Boolean
+<sup> 1 </sup> Type veranderde van ongeldig in boolean
 
 ## Verwijderde bronnen {#removed-resources}
 

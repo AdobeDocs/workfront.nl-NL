@@ -22,7 +22,7 @@ In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatse
 
 Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
 
-Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+Voor informatie over het creëren van werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 Alle wijzigingen die u aanbrengt in een werkruimte, zijn zichtbaar voor iedereen die beschikt over minstens weergavemachtigingen voor de werkruimte.
 
@@ -76,14 +76,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>U moet het gebied van de Planning aan uw lay-outmalplaatje toevoegen. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>U moet het gebied van de Planning aan uw lay-outmalplaatje toevoegen. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Een werkruimte bewerken
@@ -91,52 +91,52 @@ Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront
 {{step1-to-planning}}
 
 1. Klik op een werkruimtekaart om de werkruimte te openen.
-1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam te wijzigen en druk vervolgens op **Enter**.
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van de werkruimte in de koptekst klikt u op **Bewerken**.
+1. Klik binnen de naam van de werkruimte in de kopbal van de nieuwe werkruimte om het anders te noemen, dan druk **binnengaan**.
+1. Klik **Meer** menu ![](assets/more-menu.png) aan het recht van de werkruimtenaam in de kopbal, dan klik **uitgeven**.
 
    ![](assets/edit-workspace-box.png)
 
-   Werk de volgende informatie bij in het dialoogvenster **Werkruimte Bewerken** vak:
+   Werk de volgende informatie in **uit geeft werkruimte** doos:
 
    * Voeg een naam voor de werkruimte toe. <!--did they add a label for this field?-->
-   * **Beschrijving**: Voeg informatie toe over de werkruimte.
+   * **Beschrijving**: Voeg informatie over de werkruimte toe.
    * Selecteer een pictogram dat u aan de werkruimte wilt koppelen.
 
-1. Klikken **Opslaan** om het vak Bewerken te sluiten en de wijzigingen toe te passen.
+1. Klik **sparen** om het Edit werkruimtevakje te sluiten en uw veranderingen toe te passen.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een nieuwe werkruimtesectie toe te voegen:
 
-   * Klikken **Sectie toevoegen** onder aan de werkruimte.
-   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Sectie toevoegen hierboven** of **Sectie toevoegen hieronder**.
+   * Klik **toevoegen sectie** bij de bodem van de werkruimte.
+   * Beweeg over de naam van een sectie en klik **Meer** menu ![](assets/more-menu.png), dan klik **toevoegen sectie hierboven** of **voeg hieronder sectie toe**.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om de locatie van een sectie te wijzigen:
 
-   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **grijpen** pictogram ![](assets/grab-icon.png)en sleep deze vervolgens naar de rechterkant.
-   * Houd de muisaanwijzer boven de naam van een sectie en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Omhoog verplaatsen** of **Omlaag verplaatsen**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
+   * Beweeg over de naam van een sectie en klik **greep** pictogram ![](assets/grab-icon.png), dan belemmering en laat vallen het in de juiste vlek.
+   * Beweeg over de naam van een sectie en klik **Meer** menu ![](assets/more-menu.png), dan klik **Beweging omhoog** of **Beweging neer**. De sectie wordt omhoog of omlaag verplaatst binnen de werkruimte.
 
 1. (Optioneel) Ga als volgt te werk om een sectie van een werkruimte te verwijderen:
 
-   1. Houd de cursor boven de naam van een sectie en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Verwijderen**. <!--add screen shot when UI is final?-->
-   1. Selecteer een nieuwe sectie om alle recordtypen naar de sectie te verplaatsen en klik vervolgens op **Verwijderen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. Beweeg over de naam van een sectie, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **Schrapping**. <!--add screen shot when UI is final?-->
+   1. Selecteer een nieuwe sectie om alle verslagtypes aan het te bewegen, dan **Schrapping** te klikken. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Alle recordtypen worden naar de selectiesectie verplaatst en de sectie wordt verwijderd.
 
-1. (Optioneel) Klik op **Recordtype toevoegen** om recordtypen toe te voegen aan de werkruimte.
+1. (Facultatief) klik **recordtype** toevoegen om verslagtypes aan de werkruimte toe te voegen.
 
-   Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+   Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-1. (Optioneel) Houd de muisaanwijzer boven een opnametype. Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Bewerken** om de weergave van een recordtype te wijzigen.
+1. (Facultatief) Beweeg over een kaart van het verslagtype, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek, dan klik **geef** uit om de verschijning van een verslagtype te wijzigen.
 
-   Zie voor meer informatie [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-1. (Optioneel) Houd de muisaanwijzer boven een opnametype. Klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Verwijderen** om een recordtype te verwijderen.
+1. (Facultatief) Beweeg over een kaart van het verslagtype, klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek, dan klik **Schrapping** om een verslagtype te schrappen.
 
-   Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md).
+   Voor informatie, zie [ verslagtypes van Schrapping ](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optioneel) Klik op een opnametype om het te slepen en neer te zetten op een nieuwe locatie. U kunt recordtypen van de ene werkruimtesectie naar de andere slepen.
 
    ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
-1. (Optioneel) Klik op **Delen** in de rechterbovenhoek van de werkruimte om de werkruimte met anderen te delen.
+1. (Facultatief) klik **Aandeel** in de hoger-juiste hoek van de werkruimte om de werkruimte met anderen te delen.
 
-   Zie voor meer informatie [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md).
+   Voor informatie, zie [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md).

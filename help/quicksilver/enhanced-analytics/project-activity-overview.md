@@ -23,7 +23,7 @@ De de activiteitenvisualisatie van het Project toont een gezamenlijke mening van
 >[!NOTE]
 >
 >De activiteit door teamvisualisatie gedraagt zich gelijkaardig aan deze visualisatie, maar de Activiteit door teamvisualisatie toont huisteamactiviteit voor alle projecten.\
->Voor informatie over de Activiteit door teamvisualisatie, zie [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](../enhanced-analytics/activity-by-team-overview.md).
+>Voor informatie over de Activiteit door teamvisualisatie, zie [ de Activiteit door teamvisualisatie in Verbeterde analyses ](../enhanced-analytics/activity-by-team-overview.md) bekijken.
 
 ## Toegangsvereisten
 
@@ -56,25 +56,25 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie de &quot;sectie van Eerste vereisten&quot;in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Begrijp de activiteit van het Project visualisatie
 
 Projectactiviteiten worden in verschillende kleuren weergegeven om een overzicht te geven van specifieke gebeurtenissen in een project over een bepaalde periode:
 
-* **Gebruikers die zijn aangemeld**: De paarse dozen tonen dat de mensen die aan het project worden toegewezen op die dag het programma werden geopend. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
+* **Gebruikers het programma opende**: De paarse dozen tonen dat de mensen aan het project dat op die dag het programma worden geopend worden toegewezen. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Wijziging taakstatus**: Roze dozen tonen dat mensen de status van een taak voor het project op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
+* **de statusverandering van de Taak**: De roze dozen tonen dat de mensen het statuut van een taak voor het project op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Voltooide taken**: Blauwe vakken tonen aan dat mensen een taak voor het project hebben uitgevoerd. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
+* **voltooide Taken**: De blauwe dozen tonen dat de mensen een taak voor het project voltooiden. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -86,16 +86,16 @@ Aan de hand van deze informatie kunt u bepalen:
 * De activiteit van één project in vergelijking met andere projecten.
 * Welke gebruikers werken aan een project en met welke frequentie.
 
-Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De projectactiviteit visualiseren
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
 1. (Voorwaardelijk) als u de reeks van projectgegevens moet beperken, selecteer en pas de filters toe die u wilt gebruiken.
 
-   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor meer informatie bij het toevoegen van filters in Verbeterde analyses, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -113,7 +113,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optioneel) Als u de sortering van de projecten wilt wijzigen, klikt u op de knop **Sorteren op** en selecteert u vervolgens een nieuwe sorteeroptie:
+1. (Facultatief) om te veranderen hoe de projecten worden gesorteerd, klik de **Soort door** menu, dan selecteer een nieuwe sorteeroptie:
 
    * **A - Z**
    * **Z - A**
@@ -136,8 +136,8 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * **Grafiek (PNG)**
+   * **Lijst van Gegevens (XSLX)**
 

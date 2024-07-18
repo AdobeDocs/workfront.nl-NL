@@ -21,15 +21,15 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-Als [!DNL Adobe Workfront] klant, kunt u [!DNL Workfront] Het team van de Steun van de klant telefonisch of door een kaartje online voor te leggen.
+Als klant van [!DNL Adobe Workfront] kunt u telefonisch contact opnemen met het klantenondersteuningsteam van [!DNL Workfront] of een ticket online verzenden.
 
 >[!NOTE]
 >
->Voor kritieke problemen kunt u contact opnemen met [!DNL Workfront] Klantenondersteuning per telefoon.
+>Neem voor kritieke problemen telefonisch contact op met de [!DNL Workfront] Klantenondersteuning.
 
 ## Telefoon
 
-U kunt contact [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per dag, door de volgende getallen:
+U kunt [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per dag, door de volgende aantallen contacteren:
 
 * VS: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -37,30 +37,30 @@ U kunt contact [!DNL Workfront Customer Support] 7 dagen per week, 24 uur per da
 
 ## Web
 
-U kunt een steunkaartje van zelfbediening voorleggen [!DNL Experience League] portaal.
+U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL Experience League] .
 
 >[!IMPORTANT]
 >
 >Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
-1. Van de [[!DNL Experience League]](https://experienceleague.adobe.com) website, klikken **[!UICONTROL Support]**  boven aan de pagina.
+1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com) -website **[!UICONTROL Support]** boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   De [!UICONTROL Support] pagina wordt geopend.
+   De pagina [!UICONTROL Support] wordt geopend.
 
-   Van de [!UICONTROL Support] homepage, kunt u aan uw open steungevallen navigeren, een nieuw geval registreren, de bovenkant bekijken [!UICONTROL Support] artikelen of toegang tot aanvullende leerbronnen.
+   Vanuit de [!UICONTROL Support] -startpagina kunt u naar de geopende ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste [!UICONTROL Support] -artikelen weergeven of aanvullende leerbronnen openen.
 
-1. Selecteer de optie om een kwestie te verzenden **[!UICONTROL Open a support case]** en klik vervolgens op **[!UICONTROL Sign]In**.
+1. Als u een hoofdlettergebruik wilt verzenden, selecteert u de optie **[!UICONTROL Open a support case]** en klikt u op **[!UICONTROL Sign]In** .
 
-1. Klikken **[!UICONTROL Open case]** in de linkerzijbalk.
+1. Klik op **[!UICONTROL Open case]** in de linkerzijbalk.
 
 <!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 -->
 
-De [!UICONTROL case creation] pagina wordt geopend waar u uw productnaam kunt invoeren ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], enz.), titel van de zaak en beschrijving van de zaak.
+De pagina [!UICONTROL case creation] wordt geopend waar u de productnaam ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], enz.), de titel van het geval en de beschrijving van het geval kunt invoeren.
 
 >[!TIP]
 >
@@ -69,14 +69,14 @@ De [!UICONTROL case creation] pagina wordt geopend waar u uw productnaam kunt in
 
 1. Vul de gegevens in voor de volgende velden om ons meer specifieke details te geven:
 
-   * **[!UICONTROL Case Priority]** ([!UICONTROL Low], [!UICONTROL Medium], [!UICONTROL High], [!UICONTROL Critical])
-   * **[!UICONTROL Case Product]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], enz.)
-   * **[!UICONTROL Environment]** ([!UICONTROL Production], [!UICONTROL Preview], [!UICONTROL Sandbox], enz.)
+   * **[!UICONTROL Case Priority]** ([!UICONTROL Low] , [!UICONTROL Medium] , [!UICONTROL High] , [!UICONTROL Critical])
+   * **[!UICONTROL Case Product]** ([!UICONTROL DAM] , [!DNL Fusion] , [!DNL Goals] , enzovoort)
+   * **[!UICONTROL Environment]** ([!UICONTROL Production] , [!UICONTROL Preview] , [!UICONTROL Sandbox] , enzovoort)
    * **[!UICONTROL Customer Region]** (Amerika, EMEA, APAC)
 
-1. Upload relevante bestanden en klik vervolgens op **[!UICONTROL Submit case]**.
+1. Upload relevante bestanden en klik op **[!UICONTROL Submit case]** .
 
-   De zaak wordt ingediend en de [!UICONTROL My cases] wordt weergegeven.
+   Het hoofdlettergebruik wordt verzonden en de pagina [!UICONTROL My cases] wordt weergegeven.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -87,17 +87,17 @@ Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u he
 
 ## Bekijk en beheer uw ondersteuningszaken
 
-1. Ga naar de **[!UICONTROL My cases]** pagina. Deze pagina wordt geopend wanneer u een kwestie verzendt, of u kunt het openen door te klikken **[!UICONTROL My cases]** in de linkernavigatie.
+1. Navigeer naar de pagina **[!UICONTROL My cases]** . Deze pagina wordt geopend wanneer u een kwestie verzendt, of u kunt het openen door **[!UICONTROL My cases]** in de linkernavigatie te klikken.
 
-1. (Optioneel) Gebruik de opties boven aan de pagina om te filteren op **Product ([!DNL Experience Cloud] oplossing)** of geval **[!UICONTROL Status]** ([!UICONTROL Open] of Clgespoeld). U kunt ook de opdracht [!UICONTROL search] om te zoeken naar trefwoorden die betrekking hebben op uw ondersteuningsgevallen.
+1. (Facultatief) gebruik de opties bij de bovenkant van de pagina aan filter door **Product ([!DNL Experience Cloud] oplossing)** of geval **[!UICONTROL Status]** ([!UICONTROL Open] of Cl  gebruikt). U kunt ook het vak [!UICONTROL search] gebruiken om te zoeken naar trefwoorden die betrekking hebben op ondersteuningsgevallen.
 
-1. (Optioneel) Klik op de knop **Hoofdletternummer** om toegang te krijgen tot het bestand.
+1. (Facultatief) om meer details op een geval te bekijken, klik het **Aantal van het Geval** om tot het toegang te hebben.
 
    De weergave Hoofd-kleine letter wordt geopend.
 
 1. (Optioneel) Controleer in de weergave Case de meest recente opmerkingen met de toegewezen eigenaar van het geval en voeg aanvullende bijlagen of reacties toe.
 
-1. (Optioneel) Klik op **[!UICONTROL Escalate to management]** aan de rechterkant van de pagina onder **[!UICONTROL Case Detail].
+1. (Optioneel) Als u het hoofdlettergebruik wilt laten escaleren, klikt u op **[!UICONTROL Escalate to management]** aan de rechterkant van de pagina onder **[!UICONTROL Case Detail] .
 
 1. Klik op de knop **[!UICONTROL Close case]** om de kwestie te sluiten.
 

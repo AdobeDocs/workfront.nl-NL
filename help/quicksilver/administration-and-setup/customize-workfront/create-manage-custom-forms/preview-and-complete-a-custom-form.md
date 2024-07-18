@@ -39,30 +39,30 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Ga voor informatie over hoe Workfront-beheerders deze toegang verlenen naar <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang verlenen tot bepaalde gebieden </a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of configuraties van het toegangsniveau u hebt, contacteer uw beheerder van Workfront.
 
 ## Een aangepast formulier maken en voorvertonen
 
-1. Beginnen met het maken en configureren van een aangepast formulier, zoals wordt beschreven in de artikelen [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Een aangepast veld toevoegen aan een aangepast formulier met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Een elementwidget toevoegen of bewerken in een aangepast formulier met de verouderde formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)en andere.
+1. Beginnen creërend en vormend een douanevorm, zoals die in de artikelen [ wordt beschreven creeer of geef een douanevorm met de bouwer van de erfenisvorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit, [ voeg een douanegebied aan een douanevorm met de bouwer van de erfenisvorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toe, [ voeg of geef een activa widget in een douanevorm met de bouwer van de erfenis ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) uit.
 
-1. (Optioneel) Klik op **Voorvertoning** om te zien hoe het formulier er uitziet wanneer het wordt gebruikt, klikt u op **Voorvertoning beëindigen** om terug te keren naar het bewerken van het formulier.
+1. (Facultatief) klik **Voorproef** om te zien hoe de vorm wanneer wordt gebruikt zal kijken, dan klik **Voorproef van het Eind** om op het uitgeven van de vorm terug te keren.
 
-1. Klikken **Opslaan en sluiten** om uw wijzigingen op te slaan.
+1. Klik **sparen+Sluiten** om uw veranderingen te bewaren.
 
    of
 
-   Als u de wijzigingen niet wilt bijhouden op het formulier, klikt u op **Annuleren** en klik vervolgens op **Ga voor en sluit**.
+   Als u uw veranderingen op de vorm niet wilt houden, annuleert de klik ****, dan klikt **vooruit en sluit**.
 
    >[!NOTE]
    >
    >Als het formulier al aan een groot aantal objecten is gekoppeld, kan het enkele minuten duren voordat de wijzigingen op alle objecten worden toegepast. Dit gebeurt op de achtergrond, zodat u aan andere taken in Workfront kunt werken terwijl u wacht.
 
-1. (Optioneel) Voeg het formulier toe aan het Workfront-object waar u het wilt gebruiken, zoals beschreven in [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Facultatief) voeg de vorm aan het voorwerp van Workfront toe waar u het wilt gebruiken, zoals die in [ wordt beschreven voeg een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe.
 
    Gewone gebruikers kunnen dit ook doen als zij beheerrechten voor het object hebben.
 

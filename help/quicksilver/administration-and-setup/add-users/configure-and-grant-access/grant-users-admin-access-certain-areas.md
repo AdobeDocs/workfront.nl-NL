@@ -7,7 +7,7 @@ role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebrui
 
 >[!NOTE]
 >
->Dit is anders dan het geven van volledige administratieve toegang tot Workfront aan een gebruiker, zoals wordt uitgelegd in [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md). &#x200B;
+>Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [ een gebruiker volledige administratieve toegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
 
 ## Toegangsvereisten
 
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override=""> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,11 +51,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >
 >Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. (U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.)
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Toegangsniveaus**.
+1. In het linkerpaneel, klik **Niveaus van de Toegang**.
 1. Klik op de naam van het toegangsniveau dat u wilt gebruiken om gebruikers administratieve toegang te verlenen tot bepaalde gebieden van Workfront.
-1. In de **Beheertoegang toestaan voor** , selectievakjes om de nodige administratieve toegang te verlenen.
+1. In **sta administratieve toegang voor** sectie toe, controledozen om de noodzakelijke administratieve toegang te verlenen.
 
    Met deze opties kunt u de volgende mogelijkheden bieden:
 
@@ -96,7 +96,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li>Bestaande taakrollen weergeven en bewerken</li> 
         <li>Nieuwe taakrollen toevoegen</li> 
         <li>Rolfacturering en kostentarieven bewerken</li> 
-       </ul> <p><b>BELANGRIJK</b>: Als u een gebruiker van de Planner administratieve toegang tot baanrollen verleent, wordt de de toegang die van Gegevens van de Financiële plaatsen de Facturering van de Rol &amp; Tarieven van de Kosten uitgeeft voor de gebruiker automatisch toegelaten. Later, als u administratieve toegang tot baanrollen voor de gebruiker van de Planner onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat Edit de Facturering van de Rol &amp; het plaatsen van de Tarieven nog wordt toegelaten. Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Zie voor instructies <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a>.</p> </td> 
+       </ul> <p><b> BELANGRIJK </b>: Als u een gebruiker van de Planner administratieve toegang tot baanrollen verleent, wordt de toegang van Financiële Gegevens het plaatsen geeft Rol het Factureren &amp; Tarieven van Kosten toe voor de gebruiker automatisch. Later, als u administratieve toegang tot baanrollen voor de gebruiker van de Planner onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat Edit de Facturering van de Rol &amp; het plaatsen van de Tarieven van Kosten nog wordt toegelaten. Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> toegang van de Verlening tot financiële gegevens </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mijlpalen in mijn fractie</td> 
@@ -104,7 +104,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Herinneringsmeldingen</td> 
-      <td>Herinneringsberichten maken en beheren in Workfront.<br>Zonder deze toegang zijn gebruikers beperkt tot het ontvangen en weergeven van meldingen.</td> 
+      <td>Herinneringsberichten maken en beheren in Workfront.<br> Zonder deze toegang, zijn de gebruikers beperkt tot het ontvangen van en het bekijken van berichten.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets en uren</td> 
@@ -114,14 +114,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <li>Hun eigen tijdschema</li> 
         <li>Een tijdspad van iemand die een melding ontvangt</li> 
         <li>Een door hen goed te keuren tijdschema</li> 
-       </ul> <p><b>OPMERKING</b>:  <p>Of deze optie nu in- of uitgeschakeld is, groepsbeheerders kunnen timesheet-profielen maken voor de groepen en subgroepen die zij beheren en deze toewijzen aan groepsleden waarvan zij de gebruikersprofielen kunnen bewerken.</p> <p>Het toelaten van deze optie zou teveel toegang voor sommige groepsbeheerders kunnen verlenen omdat zij timesheets kunnen bekijken die door timesheet profielen (en de uren) voor alle gebruikers in het systeem worden geproduceerd, niet alleen voor die in de groepen die zij beheren. U kunt deze optie voor groepsbeheerders onbruikbaar maken die niet veel toegang nodig hebben.</p> </p> </td> 
+       </ul> <p><b> NOTA </b>:  <p>Of deze optie nu in- of uitgeschakeld is, groepsbeheerders kunnen timesheet-profielen maken voor de groepen en subgroepen die zij beheren en deze toewijzen aan groepsleden waarvan zij de gebruikersprofielen kunnen bewerken.</p> <p>Het toelaten van deze optie zou teveel toegang voor sommige groepsbeheerders kunnen verlenen omdat zij timesheets kunnen bekijken die door timesheet profielen (en de uren) voor alle gebruikers in het systeem worden geproduceerd, niet alleen voor die in de groepen die zij beheren. U kunt deze optie voor groepsbeheerders onbruikbaar maken die niet veel toegang nodig hebben.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Als u klaar bent, klikt u op **Opslaan**.
-1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in wordt beschreven [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+1. Wanneer u wordt gebeëindigd, klik **sparen**.
+1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [ wordt beschreven voegt gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
 
    >[!NOTE]
    >
-   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [ de toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).

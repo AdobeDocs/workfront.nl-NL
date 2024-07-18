@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: GitHub-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die GitHub gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die GitHub gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5e520aab-8307-4a52-96b6-13b284f9cb53
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
 # [!DNL GitHub] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!UICONTROL GitHub]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!UICONTROL GitHub] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 ## Toegangsvereisten
 
@@ -39,39 +39,39 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL GitHub] modules, moet u een [!DNL GitHub] account.
+Als u [!DNL GitHub] modules wilt gebruiken, hebt u een [!DNL GitHub] account nodig.
 
-## Verbinden [!DNL GitHub] tot [!DNL Workfront Fusion]
+## Verbinden [!DNL GitHub] met [!DNL Workfront Fusion]
 
-Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-## [!DNL GitHub] modules en hun velden.
+## [!DNL GitHub] -modules en de bijbehorende velden.
 
-Wanneer u [!DNL GitHub] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL GitHub] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL GitHub] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL GitHub] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -96,7 +96,7 @@ Deze module activeert wanneer een nieuwe uitgave wordt toegevoegd of een bestaan
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL I want to watch]</td> 
@@ -108,7 +108,7 @@ Deze module activeert wanneer een nieuwe uitgave wordt toegevoegd of een bestaan
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch]</td> 
@@ -146,11 +146,11 @@ Deze module activeert wanneer een opslagplaats wordt gemaakt of gewijzigd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned repositories]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch]</td> 
@@ -169,7 +169,7 @@ Deze module activeert wanneer een nieuwe vork wordt gemaakt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -177,7 +177,7 @@ Deze module activeert wanneer een nieuwe vork wordt gemaakt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned forks]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -192,7 +192,7 @@ Deze module activeert wanneer een nieuwe opmerking wordt toegevoegd of een besta
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -204,7 +204,7 @@ Deze module activeert wanneer een nieuwe opmerking wordt toegevoegd of een besta
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch]</td> 
@@ -223,7 +223,7 @@ Deze module activeert wanneer een nieuwe pull-aanvraag wordt toegevoegd of een b
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -231,11 +231,11 @@ Deze module activeert wanneer een nieuwe pull-aanvraag wordt toegevoegd of een b
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned pull requests]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL State]</td> 
-   <td>Selecteer of u wilt controleren [!UICONTROL only open pull] verzoeken, [!UICONTROL only closed ones]of alle intrekkingsverzoeken. </td> 
+   <td>Selecteer of u [!UICONTROL only open pull] aanvragen, [!UICONTROL only closed ones] of alle pull-aanvragen wilt bekijken. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch]</td> 
@@ -267,11 +267,11 @@ Deze module zoekt naar problemen die voldoen aan uw zoekcriteria.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned issues]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] zal met tijdens één cyclus werken (het aantal herhalingen per scenario looppas). </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt (het aantal herhalingen per uitgevoerde scenario). </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sort by]</td> 
@@ -285,11 +285,11 @@ Deze module zoekt naar problemen die voldoen aan uw zoekcriteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sort direction]</td> 
-   <td> <p>Selecteer oplopend of aflopend. </p> <p>Voor datums selecteert u <strong>[!UICONTROL descending]</strong> retourneert eerst de meest recente datum. </p> <p>Voor [!UICONTROL number of comments], selecteren <strong>[!UICONTROL descending]</strong> retourneert het probleem met het hoogste aantal opmerkingen eerst.</p> </td> 
+   <td> <p>Selecteer oplopend of aflopend. </p> <p>Als u voor datums selecteert, retourneert u eerst de meest recente datum. <strong>[!UICONTROL descending]</strong> </p> <p>Als u [!UICONTROL number of comments] selecteert, retourneert <strong>[!UICONTROL descending]</strong> het probleem met het hoogste aantal opmerkingen eerst.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query]</td> 
-   <td>Voer de zoekquery in of wijs deze toe. Voor een gedetailleerde beschrijving van zoekopties raadpleegt u <a href="https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests">Problemen zoeken en aanvragen intrekken</a> op de [!DNL GitHub] Help-site.</td> 
+   <td>Voer de zoekquery in of wijs deze toe. Voor een gedetailleerde beschrijving van onderzoeksopties, zie <a href="https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests"> zoekend kwesties en trekkingsverzoeken </a> op de [!DNL GitHub] hulpplaats.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -304,7 +304,7 @@ Deze module maakt een nieuwe uitgave in de geselecteerde repository.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -312,7 +312,7 @@ Deze module maakt een nieuwe uitgave in de geselecteerde repository.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignee]</td> 
-   <td>Selecteer de personen die u aan het probleem wilt toewijzen. Tot de beschikbare toewijzingen behoren iedereen met schrijfmachtigingen naar de opslagplaats en leden van de organisatie met leesmachtigingen naar de opslagplaats. </td> 
+   <td>Selecteer de personen die u aan het probleem wilt toewijzen. Tot de beschikbare toewijzingen behoren iedereen met schrijfmachtigingen voor de gegevensopslagruimte en leden van de organisatie met leesmachtigingen voor de gegevensopslagruimte. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Milestone]</td> 
@@ -324,18 +324,18 @@ Deze module maakt een nieuwe uitgave in de geselecteerde repository.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Title]</td> 
-   <td>Voer een titel voor de nieuwe uitgave in of wijs deze toe.</td> 
+   <td>Voer een titel in of wijs een titel toe voor de nieuwe uitgave.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td>Voer de hoofdtekst van de uitgave in of wijs deze toe, zoals een beschrijving of aanvullende informatie</td> 
+   <td>Typ of wijs de hoofdtekst van de uitgave aan, zoals een beschrijving of aanvullende informatie</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Update an issue]
 
-Deze module werkt een bestaande [!DNL GitHub] probleem.
+Deze module werkt een bestaand [!DNL GitHub] -probleem bij.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -343,7 +343,7 @@ Deze module werkt een bestaande [!DNL GitHub] probleem.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -375,7 +375,7 @@ Deze module werkt een bestaande [!DNL GitHub] probleem.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td>Voer de hoofdtekst van de uitgave in of wijs deze toe, zoals een beschrijving of aanvullende informatie</td> 
+   <td>Typ of wijs de hoofdtekst van de uitgave aan, zoals een beschrijving of aanvullende informatie</td> 
   </tr> 
  </tbody> 
 </table>
@@ -390,7 +390,7 @@ Deze module wint details over de gespecificeerde kwestie terug
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -413,7 +413,7 @@ Deze module voegt toewijzingen toe aan de opgegeven uitgave
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -440,7 +440,7 @@ Deze module verwijdert toewijzingen uit de opgegeven uitgave.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -467,7 +467,7 @@ Deze module voegt labels toe aan een uitgave. Labels worden gedefinieerd op het 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -494,7 +494,7 @@ Deze module verwijdert één label uit een uitgave.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -521,7 +521,7 @@ In deze module wordt een opmerking over het opgegeven probleem gemaakt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -548,7 +548,7 @@ In deze module worden alle opmerkingen over het opgegeven probleem weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL GitHub] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Repository]</td> 
@@ -560,11 +560,11 @@ In deze module worden alle opmerkingen over het opgegeven probleem weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Since]</td> 
-   <td>De module retourneert opmerkingen die na deze datum zijn gemaakt. Voor een lijst met ondersteunde datumnotaties raadpleegt u <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td>De module retourneert opmerkingen die na deze datum zijn gemaakt. Voor een lijst van gesteunde datumformaten, zie <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned comments]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. </td> 
+   <td>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. </td> 
   </tr> 
  </tbody> 
 </table>

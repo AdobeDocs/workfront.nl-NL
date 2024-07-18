@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [Uitgaven converteren](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [Informatie over uitgifte](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [ Bekeerling kwesties ](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [ informatie van de Uitgave ](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [Problemen beheren](../../manage-work/issues/manage-issues/manage-issues-overview.md)

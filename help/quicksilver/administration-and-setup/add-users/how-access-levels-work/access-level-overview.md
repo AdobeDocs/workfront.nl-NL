@@ -51,7 +51,7 @@ Afhankelijk van het toegangsniveau zijn maximaal drie machtigingen beschikbaar v
     </tr>
 </table>
 
-Als u een aangepast toegangsniveau nodig hebt, kunt u het ingebouwde toegangsniveau kopiëren en de hoeveelheid toegang aanpassen die u voor de verschillende Workfront-objecttypen wilt gebruiken. Voor informatie over het creëren van een niveau van de douanetoegang, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Als u een aangepast toegangsniveau nodig hebt, kunt u het ingebouwde toegangsniveau kopiëren en de hoeveelheid toegang aanpassen die u voor de verschillende Workfront-objecttypen wilt gebruiken. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Gebruikers met het toegangsniveau voor systeembeheerders kunnen alles doen in Wo
 
 Zij hebben ook toegang tot het volledige gebied van de Opstelling, waar zij om het even welk plaatsen op het systeemniveau kunnen veranderen, en zij kunnen tot alle gebieden in het Belangrijkste Menu toegang hebben.
 
-Zie voor meer informatie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Voor meer informatie, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Standaardtoegangsniveau
 
@@ -81,9 +81,9 @@ Dit toegangsniveau is ook gekoppeld aan de standaardlicentie en is bedoeld voor 
 
 >[!NOTE]
 >
->U kunt een aangepaste versie van het standaard ingebouwde toegangsniveau maken en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie over het creëren van een niveau van de douanetoegang, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>U kunt een aangepaste versie van het standaard ingebouwde toegangsniveau maken en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-#### **Toegangsgegevens**
+#### **de details van de Toegang**
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het niveau Standaard:
 
@@ -127,9 +127,9 @@ Gebruikers met het toegangsniveau Licht:
 
 >[!NOTE]
 >
->U kunt een aangepaste versie maken van het ingebouwde toegangsniveau Licht en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie over het creëren van een niveau van de douanetoegang, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>U kunt een aangepaste versie maken van het ingebouwde toegangsniveau Licht en de mate van toegang aanpassen die dit toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-#### **Toegangsgegevens**
+#### **de details van de Toegang**
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten in het toegangsniveau Licht:
 
@@ -266,13 +266,13 @@ Gebruikers met dit ingebouwde toegangsniveau:
 * Kan projecten, taken en problemen goedkeuren
 * Kan de status van de verzonden problemen bekijken
 * Kan worden toegewezen aan werkitems maar kan deze niet voltooien
-* U hebt alleen toegang tot aanvragen via het hoofdmenu. Voor meer informatie over verzoekrijen, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* U hebt alleen toegang tot aanvragen via het hoofdmenu. Voor meer informatie over verzoekrijen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 >[!NOTE]
 >
->U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Medewerker maken en de mate van toegang aanpassen die het toestaat voor de verschillende Workfront-objecttypen. Voor informatie over het creëren van een niveau van de douanetoegang, zie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>U kunt een aangepaste versie van het ingebouwde toegangsniveau van de Medewerker maken en de mate van toegang aanpassen die het toestaat voor de verschillende Workfront-objecttypen. Voor informatie bij het creëren van een niveau van de douanetoegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-#### **Toegangsgegevens**
+#### **de details van de Toegang**
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van de Contribute-medewerker:
 
@@ -314,9 +314,9 @@ U kunt dit toegangsniveau niet wijzigen.
 
 >[!IMPORTANT]
 >
->De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Zie voor meer informatie [Systeembeveiligingsvoorkeuren configureren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>De externe Gebruiker is beschikbaar slechts als de optie &quot;met mensen zonder de rekeningen van Workfront samenwerken door hun e-mailadres te gebruiken&quot;in het gebied van de Voorkeur van het Systeem in Opstelling wordt toegelaten. Voor meer informatie, zie [ de voorkeur van de systeemveiligheid ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
-#### **Toegangsgegevens**
+#### **de details van de Toegang**
 
 Hieronder ziet u de hoogste toegangsinstellingen die beschikbaar zijn voor objecten op het toegangsniveau van de externe gebruiker.
 
@@ -393,14 +393,14 @@ Gebruikers krijgen toegang tot afzonderlijke objecten wanneer andere gebruikers 
 
 Een gebruiker kan de ontvanger een van de volgende machtigingen verlenen aan het afzonderlijke object:
 
-* **Weergave**: Met dit machtigingsniveau kan de ontvanger het object op een van de volgende manieren delen:
+* **Mening**: Dit niveau van toestemming staat de ontvanger toe om het voorwerp op één van de volgende manieren te delen:
 
    * In het hele systeem, zodat alle gebruikers het kunnen zien (niet beschikbaar voor alle objecten)
    * Met externe gebruikers zonder Workfront-licentie (niet beschikbaar voor alle objecten)
    * Met een e-mailadres (alleen beschikbaar voor documenten en kalenders)
 
-* **Contribute**: (niet beschikbaar voor alle objecten)
-* **Beheren**: Wanneer iemand een object deelt, worden de rechten van de ontvanger op het object bepaald door een combinatie van het toegangsniveau van de ontvanger en de machtigingen voor het object die door de deler zijn verleend. De laagste toegangsgraad beschikbaar in die combinatie is wat bepaalt wat de ontvanger met het voorwerp kan doen.
+* **Contribute**: (niet beschikbaar voor alle voorwerpen)
+* **beheert**: Wanneer iemand een voorwerp deelt, worden de rechten van de ontvanger op het voorwerp bepaald door een combinatie van het de toegangsniveau van de ontvanger en de toestemmingen aan het voorwerp die door de aandeelhouder werden verleend. De laagste toegangsgraad beschikbaar in die combinatie is wat bepaalt wat de ontvanger met het voorwerp kan doen.
 
 ### Voorbeeldscenario&#39;s
 

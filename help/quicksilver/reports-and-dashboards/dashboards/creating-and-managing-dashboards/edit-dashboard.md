@@ -19,15 +19,15 @@ Het doel van het dashboard is om snel toegang tot informatie te bieden. In Adobe
 
 * Rapporten
 
-  Zie voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Voor meer informatie over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 * Kalenders
 
-  Zie voor meer informatie over het maken van kalenders [Kalenders: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  Voor meer informatie over het creëren van kalenders, zie [ Kalenders: artikelindex ](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * Externe pagina&#39;s
 
-  Ga voor meer informatie over het maken van externe pagina&#39;s naar [Een externe webpagina insluiten in een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Voor meer informatie over het creëren van externe pagina&#39;s, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
 Nadat u deze items hebt gemaakt en deze aan een dashboard hebt toegevoegd, kunt u het dashboard bewerken om er meer items aan toe te voegen, er bestaande items uit te verwijderen of de dashboardgegevens te bewerken.
 
@@ -53,40 +53,40 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor het dashboard beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het dashboard beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 U moet een dashboard maken voordat u het kunt bewerken.
 
-Zie voor informatie over het maken van dashboards [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard bewerken
 
 1. Ga naar het dashboard dat u wilt bewerken.
-1. Klikken **Dashboardhandelingen** en klik vervolgens op **Bewerken**.
+1. Klik **Acties van het Dashboard**, dan klik **uitgeven**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
    >[!TIP]
    >
-   >Ga voor meer informatie over het verwijderen van een dashboard naar [Een dashboard verwijderen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+   >Leren hoe te om een dashboard te schrappen, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md) schrappen.
 
 1. U kunt de volgende velden bewerken:
 
-   * **Naam**: Bewerk de naam van het dashboard.
-   * **Beschrijving**: Geef een beschrijving op voor het dashboard.
+   * **Naam**: geef de naam van het dashboard uit.
+   * **Beschrijving**: Specificeer een beschrijving voor het dashboard.
 
-1. In de **Beschikbare rapporten en kalenders** sectie, begint de naam van een rapport, kalender, of externe pagina in te typen **Zoeken op naam of type...** en sleep het rapport of de kalender in het layoutvenster naar rechts.
+1. In de **Beschikbare Rapporten &amp; Calendars** sectie, begin de naam van een rapport, een kalender, of externe pagina in het **Onderzoek door naam of type...** gebied, dan belemmering en laat vallen het rapport of de kalender in de lay-outruit aan het recht.
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ Zie voor informatie over het maken van dashboards [Een dashboard maken](../../..
 1. (Optioneel) Wijzig de volgorde van de rapporten op het dashboard door op de naam van een rapport te klikken, het te slepen en neer te zetten op de gewenste plaats in het layoutvenster.
 1. (Optioneel) Klik op **Externe pagina toevoegen** om een externe pagina aan het dashboard toe te voegen.\
    of\
-   Zoek een bestaande externe pagina in het dashboard, klik er vervolgens met de muis overheen en klik op de knop **Bewerken** pictogram om de externe pagina te bewerken.\
-   Ga voor meer informatie over het toevoegen of bewerken van externe pagina&#39;s in een dashboard naar [Een externe webpagina insluiten in een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Bepaal de plaats van een bestaande externe pagina in het dashboard, dan muis over het en klik **uitgeven** pictogram om de externe pagina uit te geven.\
+   Voor meer informatie over het toevoegen van of het uitgeven van externe pagina&#39;s in een dashboard, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.

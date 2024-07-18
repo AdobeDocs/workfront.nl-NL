@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Vergrendelde scenario's beheren in [!DNL Adobe Workfront Fusion]
-description: Vergrendelde scenario's beheren in [!DNL Adobe Workfront Fusion]
+title: Vergrendelde scenario's beheren in  [!DNL Adobe Workfront Fusion]
+description: Vergrendelde scenario's beheren in  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # Vergrendelde scenario&#39;s beheren in [!DNL Adobe Workfront Fusion]
 
-In sommige gevallen kan een scenario tijdelijk zijn vergrendeld in [!DNL Workfront Fusion]. Vergrendelde uitvoeringen worden binnen 2-4 uur automatisch ontgrendeld. U kunt scenario&#39;s ook manueel ontgrendelen.
+In sommige gevallen kan een scenario tijdelijk zijn vergrendeld in [!DNL Workfront Fusion] . Vergrendelde uitvoeringen worden binnen 2-4 uur automatisch ontgrendeld. U kunt scenario&#39;s ook manueel ontgrendelen.
 
 >[!IMPORTANT]
 >
@@ -44,14 +44,14 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vergrendelde scenario&#39;s
 
@@ -74,6 +74,6 @@ Het ontgrendelen van een scenario kan fouten in de uitvoeringen van een scenario
 >Het ontgrendelen van een scenario kan fouten in de uitvoeringen van een scenario manueel veroorzaken.
 
 1. Ga de de detailpagina van het Scenario van het gesloten scenario.
-1. Klikken **[!UICONTROL Options]** in de rechterbovenhoek van het scherm.
-1. Selecteren **[!UICONTROL Unlock execution]**.
+1. Klik op **[!UICONTROL Options]** in de rechterbovenhoek van het scherm.
+1. Selecteer **[!UICONTROL Unlock execution]** .
 1. Klik op **[!UICONTROL Unlock]**.

@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: Instellingen voor e-mailmeldingen configureren in [!DNL Workfront Proof]
+title: Instellingen voor e-mailmeldingen configureren in  [!DNL Workfront Proof]
 description: Via e-mailberichten die door Workfront Proof zijn gegenereerd, worden medewerkers op de hoogte gebracht van recente activiteiten op proefdrukken, zoals opmerkingen, antwoorden of besluiten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -20,24 +20,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Via e-mailmeldingen worden medewerkers op de hoogte gebracht van recente activiteiten op proefdrukken, zoals opmerkingen, antwoorden of besluiten.
 
 U kunt e-mailmeldingen instellen voor revisoren in de volgende gebieden:
 
-E-mailmeldingen voor controleurs kunnen worden ingesteld op de pagina Nieuwe proefdruk. [!UICONTROL New version] pagina, en beheerd in [!UICONTROL Workflow] van de [!UICONTROL Proof details] pagina. Zie voor meer informatie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+E-mailmeldingen voor revisoren kunnen worden ingesteld op de pagina Nieuwe proefdruk [!UICONTROL New version] en worden beheerd in de sectie [!UICONTROL Workflow] van de pagina [!UICONTROL Proof details] . Voor meer informatie, zie [ Proefdrukken binnen produceren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * De pagina Nieuwe proefdruk
-* De [!UICONTROL New version] page
-* De [!UICONTROL Workflow] van de [!UICONTROL Proof details] pagina.
+* De pagina [!UICONTROL New version]
+* De sectie [!UICONTROL Workflow] van de pagina [!UICONTROL Proof details] .
 
-Zie voor meer informatie [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Voor meer informatie, zie [ Proefdrukken binnen produceren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 
-* [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Proefdrukken genereren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [ produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [ produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
-* [Proofinggegevens beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* [ beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 
 Elke gebruiker kan ook zijn eigen instellingen voor e-mailwaarschuwingen instellen die automatisch worden toegepast wanneer een proefdruk met hen wordt gedeeld als de medewerkers hun voorkeuren hebben of als accountbeheerders hun aanbeveling over de frequentie van waarschuwingen hebben. Dit kan als proefgebrek op de pagina&#39;s van gebruikersdetails worden geplaatst.
@@ -48,9 +48,9 @@ Elke gebruiker kan ook zijn eigen instellingen voor e-mailwaarschuwingen instell
 >
 >Deze instellingen worden voorgesteld wanneer gebruikers de proefdrukken maken en deze deelnemers toevoegen. Dit zijn echter alleen suggesties, zodat ze op elk moment tijdens het herzieningsproces kunnen worden aangepast en de wijzigingen van toepassing zijn op alle activiteiten die na de wijziging worden verricht. De standaardinstellingen voor proefdrukken worden overschreven door de instellingen op proefdrukniveau.
 
-Gebruikers met [!UICONTROL Administrator] of [!UICONTROL Billing Administrator] kunnen ook de standaardwaarden voor proefdrukken instellen voor andere gebruikers in hun account vanuit de accountinstellingen.
+Gebruikers met [!UICONTROL Administrator] - of [!UICONTROL Billing Administrator] -profielen kunnen de standaardwaarden voor proefdrukken ook instellen voor andere gebruikers in hun account vanuit de accountinstellingen.
 
-Zie voor informatie over profielen [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor informatie over profielen, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).[
 
 ## Toegangsvereisten
 
@@ -73,18 +73,18 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. Klikken **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
+1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]** .
 
-1. Klik op de knop **[!UICONTROL Proofing defaults]** tab.
-1. Klikken **[!UICONTROL Default email notification settings]** om het uit te breiden.
+1. Klik op de tab **[!UICONTROL Proofing defaults]** .
+1. Klik op **[!UICONTROL Default email notification settings]** om het uit te vouwen.
 1. Selecteer in de vervolgkeuzelijst rechts van de volgende twee instellingen een van de opties die in de onderstaande tabel worden beschreven.
 
    * **[!UICONTROL Default email alert]**: beïnvloedt elke proef die met u wordt gedeeld. Deze instelling kan worden overschreven op proefdrukniveau.
-   * **[!UICONTROL Default email alert for new guest reviewers]**: Heeft gevolgen voor controleurs die voorheen niet als contactpersonen in uw account bestonden.
+   * **[!UICONTROL Default email alert for new guest reviewers]**: heeft invloed op controleurs die voorheen niet als contactpersonen in uw account bestonden.
 
    >[!NOTE]
    >
-   >Als u geen van de volgende opties kiest, [!DNL Workfront Proof] geeft u dagelijks een overzicht van de activiteiten op uw proefdrukken.
+   >Als u geen van de volgende opties kiest, verzendt [!DNL Workfront Proof] u dagelijks een overzicht van de activiteiten op uw proefdrukken.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Replies to my comments]</td> 
-      <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Zie voor meer informatie over opmerkingen <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Opmerkingen over proefdrukken weergeven en beantwoorden</a>.</p></td> 
+      <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Voor informatie over commentaren, zie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref"> Mening en antwoord aan proefdrukcommentaren </a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Decisions]</td> 
@@ -112,11 +112,11 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Daily Summary]</td> 
-      <td>[!DNL Workfront] verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Zie voor meer informatie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Meldingen beheren voor proefopmerkingen en -beslissingen</a>.</p></td> 
+      <td>[!DNL Workfront] verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Voor meer informatie, zie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref"> berichten voor proefdrukcommentaren en besluiten </a> leiden.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL No email]</td> 
-      <td>[!DNL Workfront] verzendt geen e-mailberichten.<br>Dit is nuttig voor een persoon die alleen ter referentie aan een bewijs wordt toegevoegd en niet van wijzigingen in kennis hoeft te worden gesteld.<p>Het systeemgebrek is [!UICONTROL Daily summary] (ook gezien als [!UICONTROL Not Set]). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td> 
+      <td>[!DNL Workfront] verzendt geen e-mailberichten.<br> dit is nuttig voor een persoon die aan een proef slechts voor verwijzingsdoeleinden wordt toegevoegd en te hoeven niet van om het even welke veranderingen worden op de hoogte gebracht.<p>De standaardwaarde van het systeem is [!UICONTROL Daily summary] (ook gezien als [!UICONTROL Not Set]). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -129,17 +129,17 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Email confirmation when proofs are ready]</td> 
-      <td>Geef op of u een [!UICONTROL Proof made] e-mail wanneer u een proef creeert. Zie voor meer informatie <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">De [!UICONTROL Proof Made] email</a></td> 
+      <td>Geef op of u een [!UICONTROL Proof made] -e-mail wilt ontvangen wanneer u een proefdruk maakt. Voor meer informatie, zie <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref"> E-mail [!UICONTROL Proof Made] </a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
       <td> <p>U kunt kiezen tussen e-mails met HTML-stijl en e-mails met normale tekst. </p> <p><b>OPMERKING</b></p>
-      <p>De standaardinstellingen voor proefdrukken worden overschreven door de instellingen op proefdrukniveau. Als e-mailmeldingen met proefdrukken echter zijn uitgeschakeld voor de gehele account in [!UICONTROL Account] instellingen, worden er geen e-mailwaarschuwingen verzonden naar de deelnemers, zelfs als de [!UICONTROL Disabled email alert] is niet geselecteerd op proefdrukken.<br></p> </td> 
+      <p>De standaardinstellingen voor proefdrukken worden overschreven door de instellingen op proefdrukniveau. Als de instellingen voor [!UICONTROL Account] echter de optie E-mailmeldingen met een proefdruk voor de gehele account uitschakelen, worden er geen e-mailwaarschuwingen verzonden naar de deelnemers, zelfs als de [!UICONTROL Disabled email alert] niet is geselecteerd op proefdrukken.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Onder **[!UICONTROL Message settings]** wijzigt u een van de volgende opties:
+1. Wijzig onder **[!UICONTROL Message settings]** een of meer van de volgende instellingen:
 
    | Proefsjabloon | Beschrijving |
    |---|---|
@@ -150,35 +150,35 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
 
 U kunt e-mailwaarschuwingen voor een bepaalde ontvanger wijzigen in een batchactie.
 
-1. Klikken **[!UICONTROL Contacts]** in het linkernavigatievenster.
-1. Klik op de knop **[!UICONTROL More]** menu ![](assets/more-button-small.png) voor de ontvanger, dan klik **[!UICONTROL View member details]** in de vervolgkeuzelijst.
+1. Klik op **[!UICONTROL Contacts]** in het navigatievenster aan de linkerkant.
+1. Klik op het **[!UICONTROL More]** menu ![](assets/more-button-small.png) voor de ontvanger en klik vervolgens op **[!UICONTROL View member details]** in het vervolgkeuzemenu.
 
-1. Open de **[!UICONTROL Shared items]** sectie.
+1. Open de sectie **[!UICONTROL Shared items]** .
 1. Schakel het selectievakje links van elk item waarvoor u de e-mailwaarschuwing wilt wijzigen in.
-1. Klikken **[!UICONTROL More]** boven de lijst met gedeelde items, klikt u op **[!UICONTROL Change email alert]** in de vervolgkeuzelijst.
+1. Klik op **[!UICONTROL More]** boven de lijst met gedeelde items en klik vervolgens op **[!UICONTROL Change email alert]** in het vervolgkeuzemenu.
 
-1. Wijzig de e-mailwaarschuwing en klik op **[!UICONTROL Submit]**.
+1. Wijzig de e-mailwaarschuwing en klik op **[!UICONTROL Submit]** .
 
 ## Standaardwaarden voor proefdrukken voor een gebruiker configureren
 
-Als u een [!DNL Workfront Proof] beheerder, kunt u proefdrukstandaardinstellingen instellen voor gebruikers in uw account.
+Als u een [!DNL Workfront Proof] beheerder bent, kunt u proefdrukstandaardinstellingen instellen voor gebruikers in uw account.
 
-1. Klikken **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**.
+1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** .
 
-1. Open de **[!UICONTROL Users]** tab.
-1. Open de **[!UICONTROL  More]** menu ![Meer_knop_klein.png](assets/more-button-small.png) rechts van de gebruikersnaam.
+1. Open de tab **[!UICONTROL Users]** .
+1. Open het **[!UICONTROL  More]** menu ![ More_button_small.png ](assets/more-button-small.png) aan het recht van de naam van de gebruiker.
 
-1. Klikken **[!UICONTROL View users details]** in de vervolgkeuzelijst.
-1. Onder **[!UICONTROL Settings]**, klikt u op **[!UICONTROL Default email alert settings]** om het uit te breiden.
+1. Klik op **[!UICONTROL View users details]** in de vervolgkeuzelijst.
+1. Klik onder **[!UICONTROL Settings]** op **[!UICONTROL Default email alert settings]** om het uit te vouwen.
 
 1. Selecteer in de vervolgkeuzelijst rechts van de volgende twee instellingen een van de opties die in de onderstaande tabel worden beschreven:
 
    * **[!UICONTROL Default email alert]**: beïnvloedt elke proef die met u wordt gedeeld. Deze instelling kan worden overschreven op proefdrukniveau.
-   * **[!UICONTROL Default email alert for new guest reviewers]**: Heeft gevolgen voor controleurs die voorheen niet als contactpersonen in uw account bestonden.
+   * **[!UICONTROL Default email alert for new guest reviewers]**: heeft invloed op controleurs die voorheen niet als contactpersonen in uw account bestonden.
 
    >[!NOTE]
    >
-   >Als u geen van de volgende opties voor een gebruiker kiest, [!DNL Workfront Proof] stuurt gebruikers dagelijks een overzicht van de activiteiten op hun proefdrukken.
+   >Als u geen van de volgende opties voor een gebruiker kiest, stuurt [!DNL Workfront Proof] gebruikers een dagelijks overzicht van de activiteiten op hun proefdrukken.
 
    <table style="table-layout:auto">
     <col>
@@ -190,7 +190,7 @@ Als u een [!DNL Workfront Proof] beheerder, kunt u proefdrukstandaardinstellinge
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Replies to my comments]</td>
-      <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Zie voor meer informatie over opmerkingen <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Opmerkingen over proefdrukken weergeven en beantwoorden</a>.</p></td>
+      <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Voor informatie over commentaren, zie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref"> Mening en antwoord aan proefdrukcommentaren </a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Decisions]</td>
@@ -206,16 +206,16 @@ Als u een [!DNL Workfront Proof] beheerder, kunt u proefdrukstandaardinstellinge
      </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Daily Summary]</td>
-      <td>[!DNL Workfront] verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Zie voor meer informatie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Meldingen beheren voor proefopmerkingen en -beslissingen</a>.</p></td>
+      <td>[!DNL Workfront] verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Voor meer informatie, zie <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref"> berichten voor proefdrukcommentaren en besluiten </a> leiden.</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">[!UICONTROL No email]</td>
-      <td>[!DNL Workfront] verzendt geen e-mailberichten.<br>Dit is nuttig voor een persoon die alleen ter referentie aan een bewijs wordt toegevoegd en niet van wijzigingen in kennis hoeft te worden gesteld.<p>Het systeemgebrek is [!UICONTROL Daily summary] (ook gezien als [!UICONTROL Not Set]). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td>
+      <td>[!DNL Workfront] verzendt geen e-mailberichten.<br> dit is nuttig voor een persoon die aan een proef slechts voor verwijzingsdoeleinden wordt toegevoegd en te hoeven niet van om het even welke veranderingen worden op de hoogte gebracht.<p>De standaardwaarde van het systeem is [!UICONTROL Daily summary] (ook gezien als [!UICONTROL Not Set]). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td>
      </tr>
     </tbody>
    </table>
 
-1. In de resterende **[!UICONTROL Default email alert settings]** wijzigt u een van de volgende opties:
+1. Wijzig in de resterende **[!UICONTROL Default email alert settings]** een van de volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -223,11 +223,11 @@ Als u een [!DNL Workfront Proof] beheerder, kunt u proefdrukstandaardinstellinge
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Email confirmation when proofs are ready]</td> 
-      <td>Geef op of u een [!UICONTROL Proof made] e-mail wanneer u een proef creeert. Zie voor meer informatie <a href="https://support.workfront.com/hc/en-us/article">De [!UICONTROL Proof Made] E-mail.</a></td> 
+      <td>Geef op of u een [!UICONTROL Proof made] -e-mail wilt ontvangen wanneer u een proefdruk maakt. Voor meer informatie, zie <a href="https://support.workfront.com/hc/en-us/article"> E-mail [!UICONTROL Proof Made].</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
-      <td> <p>U kunt kiezen tussen e-mails met HTML-stijl en e-mails met normale tekst. </p> <p><b>OPMERKING</b></p> <p>De standaardinstellingen voor proefdrukken worden overschreven door de instellingen op proefdrukniveau. Als e-mailmeldingen met proefdrukken echter zijn uitgeschakeld voor de gehele account in [!UICONTROL Account] instellingen, worden er geen e-mailwaarschuwingen verzonden naar de deelnemers, zelfs als de [!UICONTROL Disabled email alert] is niet geselecteerd op proefdrukken.<br></p> </td> 
+      <td> <p>U kunt kiezen tussen e-mails met HTML-stijl en e-mails met normale tekst. </p> <p><b>OPMERKING</b></p> <p>De standaardinstellingen voor proefdrukken worden overschreven door de instellingen op proefdrukniveau. Als de instellingen voor [!UICONTROL Account] echter de optie E-mailmeldingen met een proefdruk voor de gehele account uitschakelen, worden er geen e-mailwaarschuwingen verzonden naar de deelnemers, zelfs als de [!UICONTROL Disabled email alert] niet is geselecteerd op proefdrukken.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

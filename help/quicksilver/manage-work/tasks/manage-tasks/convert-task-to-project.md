@@ -35,16 +35,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Bekijk of hogere toegang tot Malplaatjes, wanneer het omzetten in een project gebruikend een malplaatje</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Bekijk of hogere toegang tot Malplaatjes, wanneer het omzetten in een project gebruikend een malplaatje</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een taak beheren</p> <p>De toestemmingen van de mening op een malplaatje, als het omzetten in een project gebruikend een malplaatje</p> <p>Nadat u het project hebt gemaakt, hebt u beheerdersmachtigingen voor het project</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor een taak beheren</p> <p>De toestemmingen van de mening op een malplaatje, als het omzetten in een project gebruikend een malplaatje</p> <p>Nadat u het project hebt gemaakt, hebt u beheerdersmachtigingen voor het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Overwegingen bij het omzetten van taken in projecten
 
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr> 
     <tr> 
     <td>Status</td> 
-    <td> Standaardstatus geselecteerd voor de groep op de sjabloon. Als het malplaatje niet met de groep wordt geassocieerd, wordt de projectstatus geplaatst aan de standaardstatus die door de beheerder van Workfront op het gebied van de Voorkeur van het Project van Opstelling wordt geplaatst. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Projectvoorkeuren voor het hele systeem configureren</a>
+    <td> Standaardstatus geselecteerd voor de groep op de sjabloon. Als het malplaatje niet met de groep wordt geassocieerd, wordt de projectstatus geplaatst aan de standaardstatus die door de beheerder van Workfront op het gebied van de Voorkeur van het Project van Opstelling wordt geplaatst. Voor informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md"> systeem-brede projectvoorkeur </a> vormen
 
   De volgende scenario&#39;s bestaan voor het bijwerken van de Status van het project:
   <ul>
@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr> 
     <tr> 
     <td>Projectvoorwaarde</td> 
-    <td>Komt overeen met de standaardvoorkeur op systeemniveau zoals bepaald door de Workfront-beheerder in het gedeelte Setup. Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Een aangepaste voorwaarde instellen als standaard voor projecten</a>
+    <td>Komt overeen met de standaardvoorkeur op systeemniveau zoals bepaald door de Workfront-beheerder in het gedeelte Setup. Voor informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md"> plaats een douanetoewijzing als gebrek voor projecten </a>
     </td> 
     </tr> 
     <tr> 
@@ -102,8 +102,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <td>Projectdatums</td> 
     <td> 
       <ul> 
-      <li> <p><b>Geplande begindatum</b>: De dichtstbijzijnde arbeidstijd op basis van de arbeidstijd van het sjabloonschema moet vooraf worden geselecteerd, afhankelijk van de tijdzone van het schema van de sjabloon. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van voltooiing. </p> </li> 
-      <li> <p><b>Geplande afsluitdatum</b>: De dichtstbijzijnde arbeidstijd op basis van de arbeidstijd van het sjabloonschema moet vooraf worden geselecteerd, afhankelijk van de tijdzone van het schema van de sjabloon. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van begin. </p> </li> 
+      <li> <p><b> Geplande Datum van het Begin </b>: De dichtstbijzijnde arbeidstijd die op de het werktijd van het malplaatjeprogramma wordt gebaseerd zou, volgens de tijdzone van het programma van het malplaatje vooraf moeten worden geselecteerd. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van voltooiing. </p> </li> 
+      <li> <p><b> Geplande Datum van de Voltooiing </b>: De dichtstbijzijnde die arbeidstijd op de de werktijd van het malplaatjeprogramma wordt gebaseerd zou, volgens de tijdzone van het programma van het malplaatje vooraf moeten worden geselecteerd. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van begin. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -162,34 +162,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Een taak omzetten in een project
 
 1. Ga naar de taak die u in een project wilt omzetten.
-1. Klik op de knop **Meer** pictogram ![](assets/more-icon.png)vervolgens **Omzetten in project**.
+1. Klik **Meer** pictogram ![](assets/more-icon.png), toen **Bekeerling in Project**.
 1. Kies een van de volgende opties:
 
-   * **Nieuw project**
-   * Een sjabloon in het dialoogvenster **Selecteren uit sjablonen** sectie
+   * **Nieuw Project**
+   * Een malplaatje in **Uitgezocht van de sectie van Malplaatjes**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. Klikken **Doorgaan** in het bericht dat wordt weergegeven.
-1. In de **Omzetten in project** het volgende opgeven:
+1. Klik **verdergaan** op het bericht dat verschijnt.
+1. In de **Bekeerling aan de doos van het Project**, specificeer het volgende:
 
-   * **Naam**: Geef uw project een naam. De standaardnaam is de naam van de taak.
-   * (Optioneel) **Beschrijving**: Beschrijf het doel van dit project.
-   * (Optioneel en voorwaardelijk) Als u een project wilt maken op basis van een sjabloon, werkt u de beschikbare velden in het dialoogvenster **Omzetten in project** in.
+   * **Naam**: Noem uw project. De standaardnaam is de naam van de taak.
+   * (Facultatief) **Beschrijving**: Beschrijf het doel voor dit project.
+   * (Facultatief en voorwaardelijk) als u hebt geselecteerd om een project van een malplaatje tot stand te brengen, werk de beschikbare gebieden in de **Bekeerling in de dialoogdoos van het Project** bij.
 
-     Voor meer informatie over het uitgeven van gebieden op projecten, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-     >[!TIP]
-     >
-     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [Een sjabloon delen](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-
-   * (Optioneel) Toevoegen **Aangepaste Forms** aan het nieuwe project.
+     Voor meer informatie over het uitgeven van gebieden op projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
      >[!TIP]
      >
-     Als een aangepast formulier voor meerdere objecten dat aan de taak is gekoppeld, is geconfigureerd voor zowel taken als projecten, blijft alle informatie die in het formulier is opgeslagen, behouden wanneer u de conversie uitvoert.
-     >
-     >
-     Als u een sjabloon voor de conversie gebruikt en een aangepast formulier dat aan de sjabloon is gekoppeld, een aangepast veld bevat dat ook wordt gevonden in een aangepast formulier dat aan de taak is gekoppeld, wordt de veldwaarde van de taak gebruikt voor het nieuwe project. Als het aangepaste veld echter leeg is op de taak, wordt de waarde uit de sjabloon gebruikt.
+     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-1. Klikken **Wijzigingen opslaan**.
+   * (Facultatief) voeg **Aangepaste Forms** aan het nieuwe project toe.
+
+     >[!TIP]
+     >
+     >Als een aangepast formulier voor meerdere objecten dat aan de taak is gekoppeld, is geconfigureerd voor zowel taken als projecten, blijft alle informatie die in het formulier is opgeslagen, behouden wanneer u de conversie uitvoert.
+     >
+     >
+     >Als u een sjabloon voor de conversie gebruikt en een aangepast formulier dat aan de sjabloon is gekoppeld, een aangepast veld bevat dat ook wordt gevonden in een aangepast formulier dat aan de taak is gekoppeld, wordt de veldwaarde van de taak gebruikt voor het nieuwe project. Als het aangepaste veld echter leeg is op de taak, wordt de waarde uit de sjabloon gebruikt.
+
+1. Klik **sparen Veranderingen**.

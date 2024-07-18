@@ -53,8 +53,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau voor systeembeheerders. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-     <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Voor informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over <b> Gebruikers </b> die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,11 +62,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Een spreadsheet-importbestand gebruiken om gebruikers te importeren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
-1. Klik op de knop **Nieuwe gebruiker** vervolgkeuzepijl en klik vervolgens op **Gebruikers importeren**.
+1. Klik de **Nieuwe Gebruiker** drop-down pijl, dan klik **de Gebruikers van de Invoer**.
 
-1. In de **Gebruikers importeren** weergegeven, downloadt u het voorbeeldbestand en werkt u het voorbeeldbestand bij met persoonlijke gegevens van uw eigen gebruiker.
+1. In het **vakje van de Gebruikers van de Invoer** dat toont, download het steekproefdossier, dan werk het steekproefdossier bij om de persoonlijke informatie van uw eigen gebruiker te omvatten.
 
    Elke rij bevat de volgende velden:
 
@@ -76,11 +76,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
      E-mailadressen moeten uniek zijn.
 
-   * **Toegangsniveau**
+   * **Niveau van de Toegang**
 
      Toegangsniveaus zijn hoofdlettergevoelig.
 
-   * **SSO-aanmeldings-id**
+   * **identiteitskaart van de Login SSO**
 
      Dit veld wordt alleen opgenomen als SSO in uw systeem is ingeschakeld. U moet de federatie-id in dit veld toevoegen voor elke gebruiker. Wanneer u een gebruiker maakt op het tabblad Personen, kunt u een wachtwoord instellen voor de gebruiker als u gebruikers wilt toestaan zich aan te melden zonder SSO. Met de functie Importeren kunt u de id voor AANMELDING VAN DE SSO echter niet leeg laten.
 
@@ -88,16 +88,16 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Wanneer u met een rij wordt gebeëindigd, zou het als volgt moeten kijken:
 
-   ![importeren-new-users.png](assets/importing-new-users.png)
+   ![ het invoeren-nieuw-users.png ](assets/importing-new-users.png)
 
 1. Sla het bestand op een locatie op uw werkstation op.
-1. Klikken **Bestand kiezen** in de **Gebruikers importeren** doos.
+1. Klik **kiezen Dossier** in de **Gebruikers van de Invoer** doos.
 
 1. Navigeer naar en selecteer het bestand dat u hebt opgeslagen.
-1. (Optioneel) Selecteer de optie **E-mail met een uitnodiging verzenden aan deze gebruiker** om een e-mailuitnodiging naar de gebruiker te verzenden, deze op de hoogte te stellen van het feit dat een Workfront-account is gemaakt en hen te vragen hun wachtwoord in te stellen.
+1. (Facultatief) selecteer **verzend een uitnodigingsE-mail naar deze gebruiker** optie om een e-mailuitnodiging naar de gebruiker te verzenden, hen op de hoogte te brengen dat een rekening van Workfront is gecreeerd en hen ertoe te brengen om hun wachtwoord te plaatsen.
 
    Schakel deze optie uit als u het wachtwoord voor de gebruiker wilt instellen.
 
-1. Klikken **Importeren**.
+1. Klik **Invoer**.
 
    U ontvangt boven aan het scherm een bevestigingsbericht dat de gebruiker is geïmporteerd.

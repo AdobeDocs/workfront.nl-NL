@@ -28,12 +28,12 @@ Objecten worden gemanipuleerd door een HTTP-aanvraag naar hun unieke URI te verz
 
 De standaard HTTP-methoden komen overeen met de volgende bewerkingen:
 
-* **GET** - Hiermee wordt een object opgehaald op ID, wordt gezocht naar alle objecten op basis van een query
-* **POST** - Hiermee wordt een nieuw object ingevoegd
-* **PUT** - Bewerkt een bestaand object
-* **DELETE** - Hiermee wordt een object verwijderd
+* **GET** - wint een voorwerp door identiteitskaart terug, onderzoeken naar alle voorwerpen door een vraag
+* **POST** - neemt een nieuw voorwerp op
+* **PUT** - geeft een bestaand voorwerp uit
+* **DELETE** - schrapt een voorwerp
 
-Zie voor meer informatie en voorbeelden van elke bewerking de opdracht [Workfront Planning API-ontwikkelaarsdocumentatie](https://developer.adobe.com/wf-planning/).
+Voor meer details en voorbeelden van elke verrichting, zie de [ de ontwikkelaarsdocumentatie van de Planning API van Workfront ](https://developer.adobe.com/wf-planning/).
 
 ### Veldtypen en zoekopties die hiermee worden gebruikt
 
@@ -116,25 +116,25 @@ Workfront Planning ondersteunt de volgende zoekopties:
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Hiermee worden records geretourneerd waarvan de veldwaarde na het filter ligt  </td>
-        <td>"2024-05-15T20:00:00,000Z"  </td>
+        <td>"2024-05-15T20 :00: 00.000Z"  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Hiermee worden records geretourneerd waarvan de veldwaarde vóór het filter ligt </td>
-        <td>"2024-05-12T20:00:00,000Z" </td>
+        <td>"2024-05-12T20 :00: 00.000Z" </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Hiermee worden records geretourneerd waarvan de veldwaarde zich tussen de filters bevindt  </td>
-        <td><ul><li>"2024-05-12T20:00:00,000Z" </li><li>"2024-05-14T20:00:00,000Z" </li><ul>  </td>
+        <td><ul><li>"2024-05-12T20 :00: 00.000Z" </li><li>"2024-05-14T20 :00: 00.000Z" </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Hiermee worden records geretourneerd waarvan de veldwaarde zich niet tussen het filter bevindt  </td>
-        <td><ul><li>"2024-05-09T20:00:00,000Z"  </li><li>"2024-05-17T20:00:00,000Z"  </li><ul>  </td>
+        <td><ul><li>"2024-05-09T20 :00: 00.000Z"  </li><li>"2024-05-17T20 :00: 00.000Z"  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>
@@ -329,9 +329,9 @@ Instantie van aanvraag:
 
 ### Zoeklimieten en gepagineerde reacties
 
-Standaard retourneren API-aanvragen 500 resultaten, vanaf het begin van de lijst. Als u de standaardbeperking voor het aantal resultaten wilt overschrijven, kunt u de opdracht `limit` in uw verzoeken en het plaatsen aan een verschillend aantal, tot 2000 resultaten.
+Standaard retourneren API-aanvragen 500 resultaten, vanaf het begin van de lijst. Als u de standaardbeperking voor het aantal resultaten wilt overschrijven, gebruikt u de parameter `limit` in uw aanvragen en stelt u deze in op een ander getal, met maximaal 2000 resultaten.
 
-Wij adviseren dat u overweegt gepagineerde reacties voor grote datasets te gebruiken door `offset` aan uw verzoeken. Met gepagineerde reacties kunt u de locatie opgeven van het eerste resultaat dat moet worden geretourneerd.
+We raden u aan gepagineerde reacties voor grote gegevenssets te gebruiken door de parameter `offset` aan uw aanvragen toe te voegen. Met gepagineerde reacties kunt u de locatie opgeven van het eerste resultaat dat moet worden geretourneerd.
 
 Als u bijvoorbeeld de resultaten 2001-4000 wilt retourneren, kunt u de volgende aanvraag gebruiken. Dit voorbeeld keert 2000 verslagen terug die in actieve status zijn, die van het resultaat van 2001st beginnen:
 
@@ -354,7 +354,7 @@ Instantie van aanvraag:
 
 Gebruik een sorteerparameter om ervoor te zorgen dat de resultaten correct worden gepagineerd. Hierdoor kunnen de resultaten in dezelfde volgorde worden geretourneerd, zodat de paginering de resultaten niet herhaalt of overslaat.
 
-Zie voor meer informatie over sorteren [Zoekresultaten sorteren in de API](#sorting-query-results-in-the-api) in dit artikel.
+Voor meer informatie bij het sorteren, zie [ Sorterend vraagresultaten in API ](#sorting-query-results-in-the-api) in dit artikel.
 
 
 

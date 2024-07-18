@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 26 april 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Microsoft OneDrive-connector en -modules nu beschikbaar
 
@@ -35,7 +35,7 @@ Met de Microsoft OneDrive-connector kunt u:
 * Bestanden ophalen of koppelingen voor delen ophalen voor een bestand
 * Een aangepaste API-aanroep maken
 
-Zie voor meer informatie [Microsoft OneDrive-modules](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md).
+Voor meer informatie, zie [ Microsoft OneDrive modules ](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md).
 
 ## Split.io-connector en modules nu beschikbaar
 
@@ -47,4 +47,4 @@ Nu kunt u Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Split.io-
 * Hiermee wordt een lijst opgehaald met werkruimten, omgevingen, splitsingsdefinities of verkeerstypen
 * Een aangepaste API-aanroep uitvoeren
 
-Zie voor meer informatie [Split.io-modules](../../../workfront-fusion/apps-and-their-modules/split-io-modules.md).
+Voor meer informatie, zie [ modules Split.io ](../../../workfront-fusion/apps-and-their-modules/split-io-modules.md).

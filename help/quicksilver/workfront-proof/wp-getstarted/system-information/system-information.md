@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
-title: Systeeminformatie in [!DNL Workfront Proof]
-description: Meer informatie over systeemgegevens vindt u in Workfront Proof.
+title: Systeeminformatie in  [!DNL Workfront Proof]
+description: Meer informatie over systeemgegevens in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Testomgeving voor sandbox voorvertonen - [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [Taalinstellingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
-* [Codecs in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+* [Testomgeving voor sandbox voorvertonen- [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+* [Taalinstellingen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [Codecs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

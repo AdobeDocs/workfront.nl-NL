@@ -18,11 +18,11 @@ ht-degree: 0%
 
 U kunt bestanden uploaden met Workfront API&#39;s met API-gereedschappen, zoals Postman, of met eenvoudige cURL-opdrachten.
 
-Zie de instructies voor het uploaden van documenten **Documenten uploaden** in Workfront [Gedrag na](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). U kunt dezelfde instructies ook gebruiken voor cURL-aanvragen.
+Om documenten te uploaden, zie de instructies voor **Uploading Documenten** in het Gedrag van Workfront [ Post ](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). U kunt dezelfde instructies ook gebruiken voor cURL-aanvragen.
 
-**Houd u aan de volgende richtlijnen wanneer u API-gereedschappen gebruikt om bestanden te uploaden:**
+**wanneer het gebruiken van API hulpmiddelen om dossiers te uploaden, volg deze richtlijnen:**
 
-* Gebruik de optie voor het gereedschap API om het bestand te uploaden. Dit is vaak een **Bestand kiezen** op het aanvraagscherm.
+* Gebruik de optie voor het gereedschap API om het bestand te uploaden. Dit is vaak a **kies de knoop van het Dossier** op het verzoekscherm.
 
 * Gebruik de HTTP-methode van de POST om een aanvraag in te dienen om het bestand te uploaden.
 

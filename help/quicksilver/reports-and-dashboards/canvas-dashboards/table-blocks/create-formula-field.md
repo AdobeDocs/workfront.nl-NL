@@ -17,12 +17,12 @@ De gebiedsbouwer in het Melden van Canvas staat u toe om gebieden tot stand te b
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Zie voor meer informatie [Bewerken van canvas melden: overzicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een veld met een formule maken
 
-1. Een tabelblok maken of naar een tabelblok navigeren, zoals beschreven in [Een tabelblok toevoegen of bewerken in het rapportcanvas](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. Voor de lijstkopbal in het rapport, klik **Bewerken** pictogram ![](assets/edit-icon.png).
+1. Creeer of navigeer aan een lijstblok, zoals die in [ wordt beschreven voeg of geef een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
+1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![](assets/edit-icon.png).
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    >
    >Als u de tabel hebt gemaakt en nog geen velden hebt toegevoegd, klikt u in plaats daarvan op de knop Bewerken in het midden van de tabel.
 
-1. Klikken **Nieuw +** boven aan het dialoogvenster **Velden** in het rechterdeelvenster.
-1. Klik op de nieuwe pagina die wordt geopend op de knop **Bewerken** pictogram ![](assets/edit-icon.png) naast de veldnaam in de linkerbovenhoek om de naam van het formuleveld te wijzigen.
-1. Slepen **Functies** of **Velden** van het linkerpaneel op de gebiedsbouwer in het centrum om hen aan uw formuleringsgebied toe te voegen.
+1. Klik **Nieuw +** bij de bovenkant van de **lijst van Gebieden** op het juiste paneel.
+1. In de nieuwe pagina die opent, klik **geeft** pictogram ![](assets/edit-icon.png) naast de gebiedsnaam in de top-left hoek uit om de naam van het formuleringsgebied te veranderen.
+1. Sleep **Functies** of **Gebieden** van het linkerpaneel op de gebiedsbouwer in het centrum om hen aan uw formuleringsgebied toe te voegen.
 
 
    >[!TIP]
    >
-   >Wanneer u het veld voor de formule maakt, **Voorvertoning veld** rechts in het scherm worden voorbeelden van het resulterende veld weergegeven.
+   >Aangezien u uw formuleringsgebied bouwt, **de voorproef van het Gebied** op het recht toont voorbeelden van het resulterende gebied.
 
    Elke functie bevat een aantal lege gestippelde rechthoeken die als argumenten voor het berekenen van een resultaat zullen worden gebruikt. Deze kunnen worden gevuld door statische tekst of getallen in te voeren, een veld vanuit het linkerdeelvenster te slepen (met de waarde van het veld in de berekening) of door een andere functie te slepen en neer te zetten (een geneste functie maken). Mogelijke functies zijn:
 
@@ -67,4 +67,4 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
    {style="table-layout:auto"}
 
-1. Klik op de knop **Terug** om terug te keren naar uw tabel.
+1. Klik **gaan terug** pijl in de upper-left hoek van het scherm om aan uw lijst terug te keren.

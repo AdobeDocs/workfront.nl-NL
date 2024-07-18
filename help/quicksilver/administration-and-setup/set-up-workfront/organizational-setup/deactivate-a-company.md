@@ -21,7 +21,7 @@ U kunt een bedrijf deactiveren dat u niet meer gebruikt terwijl het behouden van
 
 ## Toegangsvereisten
 
-U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Workfront]:
+U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Workfront] :
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -36,38 +36,38 @@ U moet over het volgende beschikken om bedrijven te kunnen beheren in [!DNL Work
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong> </td> 
+   <td role="rowheader"><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
    <td> <p>Een van de volgende opties:</p> 
     <ul> 
-     <li> <p>De [!UICONTROL System Administrator] toegangsniveau, dat u toestaat om het even welk bedrijf in het systeem uit te geven. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-     <li> <p>Administratieve toegang om bedrijven te beheren, die u toestaat om het even welk bedrijf in het systeem uit te geven. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </li> 
-    </ul> <p><b>OPMERKING</b>:  
+     <li> <p>Het toegangsniveau van [!UICONTROL System Administrator], dat u toestaat om het even welk bedrijf in het systeem uit te geven. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+     <li> <p>Administratieve toegang om bedrijven te beheren, die u toestaat om het even welk bedrijf in het systeem uit te geven. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> </li> 
+    </ul> <p><b> NOTA </b>:  
      <ul> 
       <li> <p>U kunt ook bedrijven beheren die zijn gekoppeld aan een groep waaraan u als groepsbeheerder bent toegewezen.</p> </li> 
-      <li> <p>Om gebruikers toe te voegen aan en te verwijderen uit de [!DNL Workfront] -systeem hebt u een van de volgende mogelijkheden:</p> 
+      <li> <p>Als u gebruikers wilt toevoegen aan en verwijderen uit het [!DNL Workfront] -systeem, moet u een van de volgende opties hebben:</p> 
        <ul> 
-        <li> <p>De [!UICONTROL System Administrator] toegangsniveau. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-        <li> <p>In uw toegangsniveau, [!UICONTROL Edit] moet worden geselecteerd voor de [!UICONTROL Users] instellen. Ook voor de [!UICONTROL Users] instellen, onder [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> de [!UICONTROL Create] en ten minste één van beide [!UICONTROL User Admin] moeten opties zijn ingeschakeld. </p> <p> <img src="assets/access-req-users.png" style="width: 350;height: 101;"> </p> <p>Als u het [!UICONTROL User Admin (Group Users)] moet u een groepsbeheerder zijn van een groep waarvan de gebruiker lid is.</p> </li> 
-       </ul> <p>Voor informatie over de Gebruikers die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+        <li> <p>Het toegangsniveau van [!UICONTROL System Administrator]. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+        <li> <p>In uw toegangsniveau, moet [!UICONTROL Edit] voor het [!UICONTROL Users] plaatsen worden geselecteerd. Voor de instelling [!UICONTROL Users] onder [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> moeten ook de optie [!UICONTROL Create] en ten minste een van de twee opties [!UICONTROL User Admin] zijn ingeschakeld. </p> <p> <img src="assets/access-req-users.png" style="width: 350;height: 101;"> </p> <p>Als u de optie [!UICONTROL User Admin (Group Users)] gebruikt, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> </li> 
+       </ul> <p>Voor informatie over de Gebruikers die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> toegang van de Verlening tot gebruikers </a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, licentietype, of configuraties van het toegangsniveau u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een bedrijf deactiveren of opnieuw activeren
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Companies]** ![](assets/companies-icon-left-panel.png).
+1. Klik in het linkerdeelvenster op **[!UICONTROL Companies]** ![](assets/companies-icon-left-panel.png) .
 
 1. Selecteer een of meer bedrijven om te deactiveren of opnieuw te activeren.
 1. Klik op **[!UICONTROL Edit]**.
-1. Voor één bedrijf schakelt u het **[!UICONTROL Is Active]** om het te deactiveren, of de optie in te schakelen om het te activeren.
+1. Voor één bedrijf schakelt u de optie **[!UICONTROL Is Active]** uit om het te deactiveren of schakelt u de optie in om het te activeren.
 
    of
 
-   Voor meerdere bedrijven selecteert u **[!UICONTROL No]** van de **[!UICONTROL Is Active]** vervolgkeuzelijst om ze te deactiveren, of **[!UICONTROL Yes]** om ze te activeren.
+   Voor meerdere bedrijven selecteert u **[!UICONTROL No]** in de vervolgkeuzelijst **[!UICONTROL Is Active]** om de bedrijven te deactiveren of **[!UICONTROL Yes]** om de bedrijven te activeren.
 
 1. Klik op **[!UICONTROL Save Changes]**.

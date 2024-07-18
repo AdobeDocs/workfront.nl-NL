@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. De meldingen zijn standaard ingeschakeld en u kunt in de voorkeursinstellingen voor de raden selecteren welke e-mails u wilt ontvangen.
 
-U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aangesloten kaart, afhankelijk van de instellingen voor e-mailmeldingen. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
+U ontvangt ook een e-mail wanneer u bent gelabeld in een opmerking op een aangesloten kaart, afhankelijk van de instellingen voor e-mailmeldingen. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
 
 ## Toegangsvereisten
 
@@ -41,16 +41,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Voorkeuren instellen voor e-mailberichten in kamers
 
 {{step1-to-boards}}
 
-1. Klikken [!UICONTROL **Voorkeuren**] op het dashboard Borden.
+1. Klik [!UICONTROL **Voorkeur**] op het borden dashboard.
 1. Selecteer of u e-mails wilt ontvangen die u aan een kaart wilt toevoegen en aan een kaart wilt toewijzen.
 
-   ![E-mailvoorkeuren voor e-mailberichten worden ingesloten](assets/boards-email-preferences.png)
+   ![ Borden e-mailvoorkeur ](assets/boards-email-preferences.png)
 
    De voorkeuren die u instelt voor e-mailberichten, gelden voor al uw borden.
 

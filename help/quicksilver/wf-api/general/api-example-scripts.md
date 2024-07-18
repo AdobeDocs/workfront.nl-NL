@@ -9,7 +9,7 @@ role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Hieronder volgen voorbeelden van verschillende programmeertalen die worden gebru
 * Hiermee verwijdert u het project
 * Afmelden
 
-U kunt deze voorbeelden downloaden op de Workfront Github-pagina:  [https://github.com/Workfront](https://github.com/Workfront)
+U kunt deze voorbeelden downloaden op de Workfront Github-pagina:  [ https://github.com/Workfront](https://github.com/Workfront)
 
-Als u voorbeelden wilt zoeken in de opslagplaats, voert u `example` in de **Een gegevensopslagruimte zoeken...** doos.
+Om van voorbeelden in de bewaarplaats de plaats te bepalen, ga `example` in **Vondst een bewaarplaats in..** doos.
 
 >[!NOTE]
 >

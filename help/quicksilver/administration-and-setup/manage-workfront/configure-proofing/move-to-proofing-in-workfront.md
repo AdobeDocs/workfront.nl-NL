@@ -3,7 +3,7 @@ filename: move-to-proofing-in-workfront
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Standalone Workfront Proof to Integrated Proofing in Workfront overzicht
+title: Standalone Workfront Proof to Integrated Proofing in Workfront-overzicht
 description: Als uw organisatie overschakelt van de stand-alone versie van Workfront Proof naar het Workfront Pro-plan, waarin Workfront Proof Premium is geïntegreerd met Workfront, is niet alle mogelijkheden voor proefdrukken beschikbaar.
 author: Courtney
 source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
@@ -14,40 +14,40 @@ ht-degree: 0%
 ---
 
 
-# Standalone Workfront Proof to Integrated Proofing in Workfront overzicht
+# Standalone Workfront Proof to Integrated Proofing in Workfront-overzicht
 
-Als uw organisatie overschakelt van de stand-alone versie van Workfront Proof naar het Workfront Pro-plan, waarin Workfront Proof Premium is geïntegreerd met Workfront, is de volgende functionaliteit niet beschikbaar:
+Als uw organisatie overschakelt van de zelfstandige versie van Workfront Proof naar het Workfront Pro-plan, waarin Workfront Proof Premium is geïntegreerd met Workfront, is de volgende functionaliteit niet beschikbaar:
 
-* Mogelijkheid om Workfront Proof te openen (beperkt tot Workfront-beheerders). Zie voor meer informatie [Workfront Proof openen vanuit Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+* Mogelijkheid om Workfront Proof te openen (beperkt tot Workfront-beheerders). Voor meer informatie, zie [ Toegang Workfront Proof van Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-   >[!NOTE]
-   >
-   >In Workfront Proof is de knop Nieuwe proefdruk uitgeschakeld. alleen Workfront kan proefdrukken maken.
+  >[!NOTE]
+  >
+  >In Workfront Proof is de knop Nieuwe proefdruk uitgeschakeld. Proefdrukken kunnen alleen in Workfront worden gemaakt.
 
-* De mogelijkheid om een versie van een proefdruk te kopiëren. Zie voor meer informatie  [Proefdrukken kopiëren in Workfront-proefdrukken](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+* U kunt een versie van een proefdruk kopiëren. Voor meer informatie, zie [ het Kopiëren Bewijzen in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
-* De mogelijkheid om de instellingen van een bestaande proefdruk te kopiëren. Zie voor meer informatie [Bestaande proefdrukinstellingen kopiëren voor een nieuw proefexemplaar](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file) in [Proefdrukken kopiëren in Workfront-proefdrukken](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+* De mogelijkheid om de instellingen van een bestaande proefdruk te kopiëren. Voor meer informatie, zie [ het Kopiëren van Bestaande Montages van het Bewijs voor een Nieuwe Bewijs ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file) in [ het Kopiëren Bewijzen in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
-* Mogelijkheid om de vorige versie van een proefdruk te wijzigen. Zie voor meer informatie [Proefversies koppelen](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#linking-and-unlinking-proof-versions) in [Proefversies beheren in Workfront-proefdrukken](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
+* Mogelijkheid om de vorige versie van een proefdruk te wijzigen. Voor meer informatie, zie [ het Verbinden van de Versies van het Bewijs ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#linking-and-unlinking-proof-versions) in [ het Leiden Versies van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
-* De koppeling naar de vorige versie van een proefdruk kan worden verwijderd. Zie voor meer informatie [Proefversies ontkoppelen](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#unlinkingproofversions) in [Proefversies beheren in Workfront-proefdrukken](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
+* De koppeling naar de vorige versie van een proefdruk kan worden verwijderd. Voor meer informatie, zie [ Ontkoppelde Versies van het Bewijs ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#unlinkingproofversions) in [ het Leiden Versies van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
-* Mogelijkheid om codes toe te voegen aan proefdrukken. Zie voor meer informatie [Tags maken en beheren in Workfront Proef](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
+* Mogelijkheid om codes toe te voegen aan proefdrukken. Voor meer informatie, zie [ Codes in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) creëren en beheren.
 
-* Beheerder kan aangepaste proefdrukprofielen toewijzen. Zie voor meer informatie  [Aangepaste profielen configureren in Workfront Proef](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+* Beheerder kan aangepaste proefdrukprofielen toewijzen. Voor meer informatie, zie [ douaneprofielen in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
 
-* De mogelijkheid van de beheerder om de proefdrukfunctionaliteit voor één gebruiker in en uit te schakelen.
+* De mogelijkheid van de beheerder om de proefdrukfunctionaliteit voor één gebruiker in- en uit te schakelen.
 
-   Zie voor meer informatie [Proofing voor een gebruiker inschakelen en uitschakelen (alleen oudere plannen)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in het artikel [De proefdruktoegang van een gebruiker configureren](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+  Voor meer informatie, zie [ het proef voor een gebruiker (erfenisplannen slechts) toelaten en onbruikbaar maken ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in het artikel [ vormt het proefdrukken van een gebruiker toegang ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
 * Deze mogelijkheid is niet meer nodig omdat de proefdrukfunctionaliteit nu beschikbaar is voor alle gebruikers met een licentie voor workers of hoger. Revisoren en gasten kunnen proefdrukken openen en bewerken, maar kunnen geen proefdrukken maken.
-* Mogelijkheid voor gebruikers om toegang te krijgen tot de stand-alone versie van Workfront Proof (deze is beperkt tot Workfront-beheerders).
+* Mogelijkheid voor gebruikers om toegang te krijgen tot de zelfstandige versie van Workfront Proof (dit is beperkt tot Workfront-beheerders).
 * Mogelijkheid om verbinding te maken tussen de nieuwe geïntegreerde account en de Workfront Proof-account.
 * Mogelijkheid om Workfront Proof-rapporten uit te voeren:
 
    * Onlangs geopende objecten
    * Proefversies die ik beheer met On-Time, met risico en te laat
-   * Proefversies die mijn beslissing wachten met On-Time, met risico&#39;s en te laat
+   * Proefversies die mijn beslissing wachten met On-Time, met risico&#39;s en een te late status
    * Proefdrukken die ik moet controleren
    * Actieve proefdrukken
    * Gearchiveerde proefdrukken
@@ -56,7 +56,7 @@ Als uw organisatie overschakelt van de stand-alone versie van Workfront Proof na
    * Ga rechtstreeks naar Details proef vanuit Rapport
    * Proef rechtstreeks delen via rapport
    * Bewijs van bericht rechtstreeks vanuit rapport
-   * Proef kopiëren uit rapport
+   * Proefexemplaar van rapport kopiëren
    * Origineel downloaden uit rapport
    * Eigendom delegeren van rapport
    * Proefkoppelingen delen vanuit rapport

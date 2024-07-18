@@ -11,7 +11,7 @@ role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Er zijn twee manieren om gegevens te exporteren in Workfront:
 
 * Gegevens uit een rapport of lijst exporteren
 
-  Voor meer informatie over het uitvoeren van gegevens uit een rapport of een lijst, zie [Gegevens exporteren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Voor meer informatie over het uitvoeren van gegevens van een rapport of een lijst, zie [ gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Gegevens exporteren via een startprocedure
 
@@ -86,12 +86,12 @@ In de volgende tabel worden de voor- en nadelen van elke methode weergegeven:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Gegevens exporteren uit een lijstweergave</strong> </p> <p>Zie voor meer informatie over het exporteren van gegevens uit een lijst <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Gegevens exporteren</a></p> </td> 
+   <td> <p><strong> het Uitvoeren Gegevens van een Mening van de Lijst </strong> </p> <p>Voor meer informatie over het uitvoeren van gegevens van een lijst, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref"> Gegevens van de Uitvoer </a></p> </td> 
    <td> <p>Ja</p> <p>Zowel eigen Workfront-velden als aangepaste velden die aan de objecten zijn gekoppeld, worden geëxporteerd.</p> </td> 
    <td> <p>Nee</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Gegevens exporteren via Kick-start</strong> </p> </td> 
+   <td> <p><strong> het Uitvoeren Gegevens via Kick-Begint </strong> </p> </td> 
    <td> <p>Ja (beperkt)</p> <p>De meeste eigen Workfront-velden die aan objecten zijn gekoppeld, worden geëxporteerd, maar sommige niet. U kunt bijvoorbeeld de velden Planning, Projecteigenaar of Projectsponsor niet exporteren via het exporteren van de start van een project.</p> <p>In een project waaraan een aangepast formulier is gekoppeld, worden de gegevens die zijn ingevoerd in de velden op het formulier, niet geëxporteerd.</p> <p>Maar u kunt een aangepast formulier exporteren. In het resulterende bestand worden de velden weergegeven die in het formulier zijn geconfigureerd, zoals tekstvakken en keuzerondjes.</p> </td> 
    <td> <p>Ja</p> <p>Met Kick-Starts kunt u Workfront-gegevens exporteren, zodat u gegevens die betrekking hebben op meerdere objecttypen in één exportbewerking kunt exporteren. U kunt bijvoorbeeld taken, problemen en projecten in één exportbewerking opnemen.</p> </td> 
   </tr> 
@@ -102,16 +102,16 @@ In de volgende tabel worden de voor- en nadelen van elke methode weergegeven:
 
 De volgende beperkingen gelden voor het exporteren van gegevens via de functie voor het starten van een computer (gegevens worden geëxporteerd in Excel-bestandsindeling):
 
-* **50.000 rijen:** Het aantal rijen dat is toegestaan in het bestand.
-* **65.530 hyperlinks:** Dit is een door Excel opgelegde limiet voor documenten die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend nadat ze zijn geëxporteerd. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend.
+* **50.000 rijen:** het aantal rijen toegestaan in het dossier.
+* **65.530 hyperlinks:** dit is een grens die door Excel op documenten wordt opgelegd die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend nadat ze zijn geëxporteerd. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend.
 
 ## Gegevens exporteren via de startprocedure
 
 {{step-1-to-setup}}
 
-1. Klikken **Systeem** > **Kick-start,** klik vervolgens op **Gegevens exporteren.**
+1. Klik **Systeem** > **Kick-Begint,** dan klik **Gegevens van de Uitvoer.**
 
-1. Selecteer het object dat u wilt exporteren. Standaard worden de volgende objecten onder **Wat moet u opnemen?**:
+1. Selecteer het object dat u wilt exporteren. Door gebrek, worden de volgende voorwerpen getoond onder **wat te omvatten**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -119,62 +119,62 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
     <col> 
     <thead> 
      <tr> 
-      <th> <p><strong>Object</strong> </p> </th> 
-      <th> <p><strong>Geëxporteerde bladen van het Excel-bestand</strong> </p> </th> 
-      <th> <p> <strong>Exportindeling</strong></p> </th> 
+      <th> <p><strong> Voorwerp </strong> </p> </th> 
+      <th> <p><strong> Uitgevoerde Bladen van het Dossier van Excel </strong> </p> </th> 
+      <th> <p> <strong> het Formaat van de Uitvoer </strong></p> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
       <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Sectie tabblad Portal<br>Dashboard<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter <br> Categorie van de Parameter <br> Categorie <br> van het Rapport <br> Poorttabs van het Poort <br> Dashboard <br> Voorkeur<br></p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Rapport</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Rapport<br>Voorkeuren</td> 
+      <td scope="col" valign="top">De Optie van de Parameter van de Optie van de Parameter <br> <br> Categorie van de Parameter <br> Categorie <br> Voorkeur van het Rapport <br><br></td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Goedkeuring</p> </td> 
-      <td scope="col" valign="top"> <p>Stap fiatteur<br>Goedkeuringsstap<br>Goedkeuring<br>Goedkeuringsproces<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p>De Stap van de Stap van de Goedkeuring <br> Stap van de Goedkeuring <br> <br> Voorkeur van het Proces van de Goedkeuring<br></p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameteroptie<br>Parametergroep<br>Categorieparameter<br>Categorie<br>Voorkeuren</p> </td> 
+      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1} <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Type uitgave</p> </td> 
-      <td valign="top"> <p>Type uitgave<br>Voorkeuren</p> </td> 
+      <td valign="top"> <p>Het Type van onkosten <br> Voorkeur</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Uurtype</p> </td> 
-      <td valign="top"> <p>Uurtype<br>Voorkeuren</p> </td> 
+      <td valign="top"> <p>Het Type van uur <br> Voorkeur</p> </td> 
       <td scope="col" valign="top"> <p>Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Teamlid<br>Team<br>Voorkeuren </td> 
+      <td valign="top"> De Voorkeur van het Team van het Lid van het team <br> <br> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
       <td valign="top"> <p>Gebruiker</p> </td> 
-      <td valign="top"> <p>Gebruiker<br>Voorkeuren</p> </td> 
+      <td valign="top"> <p>Gebruiker <br> Voorkeur</p> </td> 
       <td valign="top"> <p> Excel</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Meer opties** om de volledige lijst met objecten weer te geven.
+1. Klik **Meer Opties** om de volledige lijst van voorwerpen te zien.
 
    Alle objecten die hier worden vermeld, kunnen ook worden gebruikt om gegevens te importeren in Workfront.
 
-   De enige uitzondering is de **Toegangsniveaus** object. Het gegevensblad van de Niveaus van de Toegang dat in de uitvoer inbegrepen is wordt verstrekt slechts voor verwijzingsdoeleinden. Hiermee kunt u een toegangsniveau aan een nieuwe gebruikersaccount toewijzen met een id.
+   De enige uitzondering is het **voorwerp van de Niveaus van de Toegang**. Het gegevensblad van de Niveaus van de Toegang dat in de uitvoer inbegrepen is wordt verstrekt slechts voor verwijzingsdoeleinden. Hiermee kunt u een toegangsniveau aan een nieuwe gebruikersaccount toewijzen met een id.
 
-   Ga voor meer informatie over het importeren van gegevens naar Workfront via het starten naar [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Hieronder volgt een lijst met alle objecten die kunnen worden geëxporteerd via het starten van een trap:
+   Voor meer informatie over het invoeren van gegevens in Workfront via schop-begin, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Hieronder volgt een lijst met alle objecten die kunnen worden geëxporteerd via het starten van een trap:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -190,149 +190,149 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
     <tbody> 
      <tr> 
       <td scope="col" valign="top">Toegangsniveau</td> 
-      <td scope="col" valign="top">Toegangsniveau<br>Voorkeuren</td> 
+      <td scope="col" valign="top">De Voorkeur van het Niveau van de toegang <br></td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Toewijzing</td> 
-      <td scope="col" valign="top">Toewijzing<br>Voorkeuren</td> 
+      <td scope="col" valign="top">De Voorkeur van de toewijzing <br></td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Bedrijf</td> 
-      <td scope="col" valign="top"> Bedrijf<br>Voorkeuren </td> 
+      <td scope="col" valign="top"> Bedrijfs <br> Voorkeur </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">E-mailsjabloon</td> 
-      <td scope="col" valign="top"> E-mailsjabloon<br>Voorkeuren </td> 
+      <td scope="col" valign="top"> E-mailMalplaatje <br> Voorkeur </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top">Kosten</td> 
-      <td valign="top"> Kosten<br>Voorkeuren </td> 
+      <td valign="top"> De onkosten <br> Voorkeur </td> 
       <td scope="col" valign="top"> Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Externe pagina</td> 
-      <td valign="top"> Externe pagina<br>Voorkeuren </td> 
+      <td valign="top"> Externe pagina <br> Voorkeur </td> 
       <td scope="col" valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Filter</td> 
-      <td valign="top"> Filter<br>Voorkeuren </td> 
+      <td valign="top"> Filter <br> Voorkeur </td> 
       <td valign="top">ZIP </td> 
      </tr> 
      <tr> 
       <td valign="top">Groep</td> 
-      <td valign="top"> Groep<br>Voorkeuren  </td> 
+      <td valign="top"> Groep <br> Voorkeur  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Groepering</td> 
-      <td valign="top"> Groepering<br>Voorkeuren </td> 
+      <td valign="top"> <br> Voorkeuren groeperen </td> 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
       <td valign="top">Uur</td> 
-      <td valign="top"> Uur<br>Voorkeuren </td> 
+      <td valign="top"> Uur <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Probleem</td> 
-      <td valign="top"> Probleem<br>Voorkeuren </td> 
+      <td valign="top"> Uitgave <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Functie</td> 
-      <td valign="top"> Functie<br>Voorkeuren </td> 
+      <td valign="top"> De rol van de baan <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Mijlpad</td> 
-      <td valign="top"> Mijlsteen<br>Mijlpad<br>Voorkeuren </td> 
+      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0} Mijl<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Opmerking</td> 
-      <td valign="top"> Opmerking<br>Voorkeuren </td> 
+      <td valign="top"> Nota <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Portfolio</td> 
-      <td valign="top"> Portfolio<br>Voorkeuren  </td> 
+      <td valign="top"> Portfolio <br> Voorkeur  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Project</td> 
-      <td valign="top"> Wachtrij<br>Project<br>Routeringsregel<br>Onderwerp van wachtrij<br>Voorkeuren </td> 
+      <td valign="top"> Het Project van de rij <br> <br> Verpletterend het Onderwerp van de Rij <br> <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Bronschatting</td> 
-      <td valign="top"> Bronschatting<br>Voorkeuren </td> 
+      <td valign="top"> De Raming van het middel <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Bronpool</td> 
-      <td valign="top"> Bronpool<br>Voorkeuren </td> 
+      <td valign="top"> De Pool van het middel <br> Voorkeur </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Risico</td> 
-      <td valign="top"> Risico<br>Voorkeuren  </td> 
+      <td valign="top"> Voorkeuren voor risico <br>  </td> 
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
       <td valign="top">Type risico</td> 
-      <td valign="top"> Type risico<br>Voorkeuren  </td> 
+      <td valign="top"> Het Type van risico <br> Voorkeur  </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Scorecard</td> 
-      <td valign="top">Scorecard-vragen<br>Scorecard-optie<br>Scorecard<br>Voorkeuren </td> 
+      <td valign="top">De Optie van het Scorecard van de Vragen van het scorebord <br> Scorecard <br> Voorkeur<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Taak</td> 
-      <td valign="top"> Taak<br>Voorkeuren </td> 
+      <td valign="top"> Taak <br> Voorkeur </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Sjabloon</td> 
-      <td valign="top"> Wachtrij<br>Sjabloon<br>Routeringsregel<br>Onderwerp van wachtrij<br>Voorkeuren </td> 
+      <td valign="top"> Het Malplaatje van de rij <br> <br> Verpletterend het Onderwerp van de Rij <br> <br> Voorkeur </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
       <td valign="top">Sjabloontoewijzing</td> 
-      <td valign="top"> Sjabloontoewijzing<br>Voorkeuren </td> 
+      <td valign="top"> Sjabloontoewijzing <br> Voorkeuren </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Sjabloontaak</td> 
-      <td valign="top"> Sjabloontaak<br>Voorkeuren </td> 
+      <td valign="top"> De Taak van het malplaatje <br> Voorkeur </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
       <td valign="top">Tijdschema</td> 
-      <td valign="top"> Tijdbladprofiel<br>Tijdschema<br>Voorkeuren </td> 
+      <td valign="top"> De Voorkeur van het Profiel van de Tijdopnemer <br><br> </td> 
       <td valign="top">Excel  </td> 
      </tr> 
      <tr> 
       <td valign="top"> Weergave </td> 
-      <td valign="top"> Weergave<br>Voorkeuren  </td> 
+      <td valign="top"> <br> Voorkeur van de mening  </td> 
       <td valign="top">ZIP</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Downloaden.**
+1. Klik **Download.**
 
-   Het geëxporteerde bestand met de startfunctie wordt als Excel-bestand of als een bestand met de startfunctie naar de computer gedownload. ZIP-bestand met meerdere Excel- en eigenschappenbestanden. Elk Excel-bestand is een verzameling bladen, waarin elk blad een veld vertegenwoordigt dat is gekoppeld aan het object dat u hebt geselecteerd. Er is een **Eigenschappen** blad dat aan elke export is gekoppeld.
+   Het geëxporteerde bestand met de startfunctie wordt als Excel-bestand of als een bestand met de startfunctie naar de computer gedownload. ZIP-bestand met meerdere Excel- en eigenschappenbestanden. Elk Excel-bestand is een verzameling bladen, waarin elk blad een veld vertegenwoordigt dat is gekoppeld aan het object dat u hebt geselecteerd. Er is a **Eigenschappen** blad verbonden aan elke uitvoer.
 
-   De **Dashboard** en **Rapport** Met opties kunt u specifieke dashboards en rapporten selecteren die u in de download wilt opnemen. U kunt alleen dashboards exporteren, die in het hele systeem worden gedeeld.
+   De **opties van het Dashboard** en **Rapport** staan u toe om specifieke dashboards en rapporten te selecteren om in de download te omvatten. U kunt alleen dashboards exporteren, die in het hele systeem worden gedeeld.
 
-   U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
    Kick-Starts ondersteunt geen tekstmodusfilters. Voor een correct exporteren moeten de rapportfilters worden overgeschakeld op de standaardmodus.
 

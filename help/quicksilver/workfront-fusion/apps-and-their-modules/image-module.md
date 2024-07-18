@@ -10,14 +10,14 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
 
 # Afbeeldingsmodules
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Image] kunt u informatie ophalen over een bepaalde afbeelding (afmetingen, type, enzovoort), een afbeelding omzetten in een andere bestandsindeling en de grootte van de afbeelding rechtstreeks wijzigen.
+[!DNL Adobe Workfront Fusion] [!UICONTROL Image] -modules kunt u informatie ophalen over een bepaalde afbeelding (afmetingen, type, enzovoort), een afbeelding omzetten in een andere bestandsindeling en de grootte van de afbeelding rechtstreeks wijzigen.
 
 ## Toegangsvereisten
 
@@ -38,25 +38,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Image] modules en hun velden
 
@@ -80,11 +80,11 @@ Deze transformatormodule wijzigt de hoogte en breedte van een afbeelding op basi
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data]</td> 
-   <td>Wijs het bestand toe dat u wilt converteren. Dit veld is beschikbaar als u [!UICONTROL Map] in de [!UICONTROL Source file] veld.</td> 
+   <td>Wijs het bestand toe dat u wilt converteren. Dit veld is beschikbaar als u [!UICONTROL Map] in het veld [!UICONTROL Source file] hebt geselecteerd.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
-   <td>Voer een naam in voor het omgezette bestand. Dit veld is beschikbaar als u [!UICONTROL Map] in de [!UICONTROL Source file] veld.</td> 
+   <td>Voer een naam in voor het omgezette bestand. Dit veld is beschikbaar als u [!UICONTROL Map] in het veld [!UICONTROL Source file] hebt geselecteerd.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL I want to]</td> 
@@ -123,7 +123,7 @@ Deze transformatormodule wijzigt de indeling van een afbeeldingsbestand. Deze mo
 * GIF
 * BMP
 
-Zowel het bronbestand als de uitvoer moeten een van deze indelingen hebben. De [!UICONTROL Image] >[!UICONTROL Convert a format] kan een PNG-bestand omzetten in een BMP-bestand of een BMP-bestand in een JPG.
+Zowel het bronbestand als de uitvoer moeten een van deze indelingen hebben. De module [!UICONTROL Image] > [!UICONTROL Convert a format] kan bijvoorbeeld een PNG-bestand omzetten in een BMP-bestand of een BMP in een JPG.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -135,11 +135,11 @@ Zowel het bronbestand als de uitvoer moeten een van deze indelingen hebben. De [
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data]</td> 
-   <td>Wijs het bestand toe dat u wilt converteren. Dit veld is beschikbaar als u [!UICONTROL Map] in de [!UICONTROL Source file] veld.</td> 
+   <td>Wijs het bestand toe dat u wilt converteren. Dit veld is beschikbaar als u [!UICONTROL Map] in het veld [!UICONTROL Source file] hebt geselecteerd.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
-   <td>Voer een naam in voor het omgezette bestand. Dit veld is beschikbaar als u [!UICONTROL Map] in de [!UICONTROL Source file] veld.</td> 
+   <td>Voer een naam in voor het omgezette bestand. Dit veld is beschikbaar als u [!UICONTROL Map] in het veld [!UICONTROL Source file] hebt geselecteerd.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output format]</td> 
@@ -162,11 +162,11 @@ Deze transformatormodule keert basisinformatie over een module terug.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data]</td> 
-   <td>Wijs het bestand toe dat u wilt converteren. Dit veld is beschikbaar als u Kaart hebt geselecteerd in het dialoogvenster [!UICONTROL Source file] veld.</td> 
+   <td>Wijs het bestand toe dat u wilt converteren. Dit veld is beschikbaar als u Kaart hebt geselecteerd in het veld [!UICONTROL Source file] .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
-   <td>Voer een naam in voor het omgezette bestand. Dit veld is beschikbaar als u Kaart hebt geselecteerd in het dialoogvenster [!UICONTROL Source file] veld.</td> 
+   <td>Voer een naam in voor het omgezette bestand. Dit veld is beschikbaar als u Kaart hebt geselecteerd in het veld [!UICONTROL Source file] .</td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,6 +177,6 @@ Deze transformatormodule keert basisinformatie over een module terug.
 
 Er zijn drie gevallen waarin een handeling kan worden beëindigd met een fout:
 
-* De ontvangen gegevens hebben niet de indeling JPG/GIF/PNG/BMP
+* De ontvangen gegevens hebben niet de JPG-GIF/PNG-BMP-indeling
 * De maximale breedte/hoogte is overschreden bij het wijzigen van de afmetingen van de afbeelding. De afbeelding mag niet groter zijn dan 3840 px breedte en 2160 px hoogte
 * De maximaal toegestane grootte van een afbeelding is overschreden tijdens het wijzigen van de afmetingen of de indeling van de afbeelding.

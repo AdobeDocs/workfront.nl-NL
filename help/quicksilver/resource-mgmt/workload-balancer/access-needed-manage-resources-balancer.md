@@ -42,9 +42,9 @@ In de volgende tabel ziet u de verbinding tussen het Workfront-plan dat uw bedri
  </tbody> 
 </table>
 
-Voor informatie over de plannen van Workfront raadpleegt u [Onze plannen](https://www.workfront.com/plans).
+Voor informatie over de plannen van Workfront, zie [ Onze Plannen ](https://www.workfront.com/plans).
 
-Ga voor informatie over waar u de werklastbalans in Workfront kunt vinden naar [De werklastbalans zoeken](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Voor informatie over waar u van de Balancer van de Werkbelasting in Workfront kunt de plaats bepalen, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Toegang nodig om werklastbalans weer te geven
 
@@ -61,18 +61,18 @@ U moet de volgende toegang hebben om de werklastbalans te kunnen bekijken:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot resourcebeheer weergeven of vergroten</p> <p>Voor informatie over het de toegangsniveau van het Beheer van het Middel, zie het artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Toegang verlenen tot beheer van hulpbronnen</a>.</p> <p><b>OPMERKING</b>
+   <td> <p>Toegang tot resourcebeheer weergeven of vergroten</p> <p>Voor informatie over het de toegangsniveau van het Beheer van het Middel, zie de artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref"> toegang van de Verlening tot het Beheer van het Middel </a>.</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>U hebt de toestemmingen van de Mening op het project waarvan taken u wilt bekijken. </p> <p>Zie het artikel voor informatie over projectmachtigingen <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>U hebt de toestemmingen van de Mening op het project waarvan taken u wilt bekijken. </p> <p>Voor informatie over projecttoestemmingen, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Toegang nodig voor het beheer van toewijzingen in Workload Balancer
 
@@ -91,19 +91,19 @@ U moet de volgende toegang hebben om de werklastverdeling te beheren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot resourcebeheer bewerken</p> 
-     <p>Voor informatie over het de toegangsniveau van het Beheer van het Middel, zie het artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Toegang verlenen tot beheer van hulpbronnen</a>.</p>
+     <p>Voor informatie over het de toegangsniveau van het Beheer van het Middel, zie de artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref"> toegang van de Verlening tot het Beheer van het Middel </a>.</p>
      <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Draag of hogere toestemmingen op het project bij waarvan taken u wilt beheren die toestemmingen omvat om taken te maken. </p> <p>Zie het artikel voor informatie over projectmachtigingen <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p> Contribute- of hogere machtigingen voor het project waarvan u de toewijzingen wilt beheren, waaronder machtigingen om toewijzingen te maken. </p> <p>Voor informatie over projecttoestemmingen, zie het artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

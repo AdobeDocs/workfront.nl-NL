@@ -19,9 +19,9 @@ U kunt de toewijzing van gebruikers ongedaan maken uit werkitems in het gedeelte
 
 U kunt de toewijzing aan gebruikers van werkitems handmatig ongedaan maken door te slepen en neer te zetten of in bulk. In dit artikel wordt beschreven hoe u de toewijzing van gebruikers handmatig ongedaan kunt maken.
 
-Voor informatie over het verwijderen van de toewijzing van gebruikers door slepen en neerzetten, raadpleegt u [Werk toewijzen in Workload Balancer door slepen en neerzetten](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+Voor informatie over het ongedaan maken van gebruikers door te slepen en te laten vallen, zie [ werk in de Balancer van de Werkbelasting toewijzen door te slepen en te laten vallen ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
 
-Voor informatie over het ongedaan maken van gebruikers in bulk, zie [Werk in bulk toewijzen met Werklastverdeling](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Voor informatie over het unassigning van gebruikers in bulk, zie [ werk in bulk toewijzen gebruikend de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Toegangsvereisten
 
@@ -50,16 +50,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <li> <p>Projecten</p> </li> 
      <li> <p>Taken</p> </li> 
      <li> <p>Problemen</p> </li> 
-    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
  
 
@@ -69,14 +69,14 @@ U kunt de toewijzing van items aan gebruikers ongedaan maken en deze verplaatsen
 
 U kunt als volgt de toewijzing van werkitems door gebruikers ongedaan maken:
 
-1. Ga in de werklastbalans naar de **Toegewezen werk** en een gebruiker uitbreiden.
+1. In de Balancer van de Werklast, ga naar het **Toegewezen gebied van het Werk** en breid een gebruiker uit.
 1. Voer een van de volgende handelingen uit:
 
    * Zoek het item dat u wilt vrijmaken in het gebied van de gebruiker, klik erop en sleep het item naar het gebied Niet toegewezen of naar het gebied van een andere gebruiker.
-   * Klik op de knop **Meer** pictogram ![](assets/more-icon-task-list.png) rechts van de naam van een tijdelijk onderdeel klikt u op **Deze toewijzen aan** en verwijder vervolgens de naam van de entiteiten die aan het werkitem zijn toegewezen of voer een andere naam in en klik op **Opslaan**.
+   * Klik **Meer** pictogram ![](assets/more-icon-task-list.png) aan het recht van de naam van een het werkpunt, klik **toewijzen dit aan**, dan verwijderen de naam van de entiteiten die aan het het werkpunt worden toegewezen of een andere naam ingaan, en klikken **sparen**.
 
      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    Het punt toont in het Niet toegewezen gebied van het Werk als het de het filtreren criteria voor dat gebied aanpast en het niet aan andere gebruikers wordt toegewezen, of het toont in het gebruikersgebied als het aan een andere gebruiker wordt toegewezen.
 
-   Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [Gegevens in de werklastbalans filteren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+   Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [ informatie van de Filter in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Nieuwe bronnen
 
-Dit is een lijst met bronnen die nieuw zijn voor API-versie 9. Ga naar [Updates voor API versie 9](../../wf-api/api/new-api-version-9-updates.md)
+Dit is een lijst van middelen die nieuw zijn aan API Versie 9, om een lijst van updates te zien die aan de middelen van versie 9 zijn gemaakt, gelieve [ Updates aan API Versie 9 ](../../wf-api/api/new-api-version-9-updates.md) te bezoeken
 
 ### AccessLevel
 
@@ -140,4 +140,4 @@ Dit is een lijst met bronnen die nieuw zijn voor API-versie 9. Ga naar [Updates 
 
  
 
-Deze lijst is opgesplitst in twee helften. Als u de tweede helft wilt weergeven, raadpleegt u [Nieuwe functies in API-versie 9 (vervolg)](../../wf-api/api/new-api-version-9-continue.md). Als u de lijst met versie 9-updates wilt weergeven, gaat u naar [Updates voor API versie 9](../../wf-api/api/new-api-version-9-updates.md)
+Deze lijst is opgesplitst in twee helften. Om de tweede helft te bekijken, gelieve te zien [ wat in (voortgezette) API Versie 9 Nieuw is ](../../wf-api/api/new-api-version-9-continue.md). Om de lijst van versie 9 updates te bekijken, gelieve te bezoeken [ Updates aan API Versie 9 ](../../wf-api/api/new-api-version-9-updates.md)

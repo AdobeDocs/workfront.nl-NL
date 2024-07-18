@@ -3,7 +3,7 @@ content-type: api;reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
-title: Workfront Proof API
+title: WORKFRONT PROOF API
 description: Meer informatie over de Workfront Proof API.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# Workfront Proof API
+# WORKFRONT PROOF API
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [De [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [De  [!DNL Workfront Proof]  API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)

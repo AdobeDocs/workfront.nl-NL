@@ -7,14 +7,14 @@ feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
 
 # [!DNL CloudConvert] modules
 
-In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebruik maken van CloudConvert en deze koppelen aan meerdere toepassingen en services van derden. De [!DNL CloudConvert] met modules kunt u taken, taken en bestanden importeren en exporteren in uw [!DNL CloudConvert] account.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebruik maken van CloudConvert en deze koppelen aan meerdere toepassingen en services van derden. Met de [!DNL CloudConvert] -modules kunt u taken, taken en bestanden in uw [!DNL CloudConvert] -account beheren en importeren en exporteren.
 
 <table style="table-layout:auto">
  <col> 
@@ -31,56 +31,56 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebrui
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
+## Verbinden [!DNL CloudConvert] met [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 
-Als u verbinding wilt maken met uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], moet u de API-sleutel verkrijgen van uw [!DNL CloudConvert] account.
+Als u uw [!DNL CloudConvert] -account wilt verbinden met [!DNL Workfront Fusion] , moet u de API-sleutel verkrijgen via uw [!DNL CloudConvert] -account.
 
-1. Meld u aan bij uw [!DNL CloudConvert] account en open uw [!UICONTROL Dashboard].
-1. Open de **[!UICONTROL Authorization]>[!UICONTROL API Keys]** sectie.
+1. Meld u aan bij uw [!DNL CloudConvert] -account en open uw [!UICONTROL Dashboard] .
+1. Open de sectie **[!UICONTROL Authorization]>[!UICONTROL API Keys]** .
 1. Klik op **[!UICONTROL Create New API key]**.
-1. Voer de naam voor de API-sleutel in, schakel het bereik in dat u wilt gebruiken en klik vervolgens op **[!UICONTROL Create]**.
+1. Voer de naam voor de API-sleutel in, schakel het bereik in dat u wilt gebruiken en klik op **[!UICONTROL Create]** .
 1. Kopieer het meegeleverde token en sla het op een veilige plaats op.
-1. In [!DNL Workfront Fusion], begint een scenario te maken en opent u de knop [!DNL CloudConvert] module **[!UICONTROL Create a connection]** .
+1. Maak in [!DNL Workfront Fusion] een scenario en open het dialoogvenster [!DNL CloudConvert] module **[!UICONTROL Create a connection]** .
 
-   Zie voor instructies [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Voor instructies, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-1. Voer het token in dat u in stap 5 hebt opgeslagen en klik vervolgens op **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
+1. Voer het token in dat u in stap 5 hebt opgeslagen en klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
 
 ## [!DNL CloudConvert] modules en hun velden {#cloudconvert-modules-and-their-fields}
 
-Wanneer u [!DNL CloudConvert] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL CloudConvert] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL CloudConvert] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL CloudConvert] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Algemene taken](#common-tasks)
-* [Taken](#jobs)
-* [Taken](#tasks)
+* [ Gemeenschappelijke taken ](#common-tasks)
+* [ Banen ](#jobs)
+* [ Taken ](#tasks)
 * [Overige](#other)
 
 ### Algemene taken
 
-* [Een website vastleggen](#capture-a-website)
+* [ Vang een Website ](#capture-a-website)
 * [[!UICONTROL Convert a file]](#convert-a-file)
-* [Een archief maken](#create-an-archive)
-* [Bestanden samenvoegen](#merge-files)
+* [ creeer een Archief ](#create-an-archive)
+* [ de Dossiers van de Fusie ](#merge-files)
 * [Een bestand optimaliseren](#optimize-a-file)
 
 #### [!UICONTROL Capture a Website]
@@ -97,7 +97,7 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -117,7 +117,7 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conversion and engine specific options] </p> </td> 
-   <td>Geef opties op voor conversie en de engine. Als u de beschikbare opties wilt weergeven, raadpleegt u de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentatie voor <code>input_format</code> en <code>output_format</code>.</td> 
+   <td>Geef opties op voor conversie en de engine. Zie de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -documentatie voor <code>input_format</code> en <code>output_format</code> voor informatie over de beschikbare opties.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a file] </td> 
@@ -128,7 +128,7 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
 
 #### [!UICONTROL Convert a file]
 
-Hiermee converteert u een bestand naar een geselecteerde uitvoerindeling.
+Een bestand wordt omgezet in een geselecteerde uitvoerindeling.
 
 <table style="table-layout:auto">
  <col> 
@@ -136,7 +136,7 @@ Hiermee converteert u een bestand naar een geselecteerde uitvoerindeling.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input file]</td> 
@@ -172,7 +172,7 @@ Hiermee converteert u een bestand naar een geselecteerde uitvoerindeling.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Conversion and engine specific options] </p> </td> 
-   <td>Geef opties op voor conversie en de engine. Als u de beschikbare opties wilt weergeven, raadpleegt u de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentatie voor <code>input_format</code> en <code>output_format</code>.</td> 
+   <td>Geef opties op voor conversie en de engine. Zie de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -documentatie voor <code>input_format</code> en <code>output_format</code> voor informatie over de beschikbare opties.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Download a file] </td> 
@@ -191,7 +191,7 @@ Hiermee kunt u een of meer bestanden toevoegen aan het archief ZIP, RAR, 7Z, TAR
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -215,7 +215,7 @@ Hiermee kunt u een of meer bestanden toevoegen aan het archief ZIP, RAR, 7Z, TAR
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options] </td> 
-   <td> <p>Geef opties op voor conversie en de engine. Als u de beschikbare opties wilt weergeven, raadpleegt u de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentatie voor <code>input_format</code> en <code>output_format</code>.</p> </td> 
+   <td> <p>Geef opties op voor conversie en de engine. Zie de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -documentatie voor <code>input_format</code> en <code>output_format</code> voor informatie over de beschikbare opties.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a File]</td> 
@@ -234,7 +234,7 @@ Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -258,7 +258,7 @@ Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options] </td> 
-   <td> <p>Geef opties op voor conversie en de engine. Als u de beschikbare opties wilt weergeven, raadpleegt u de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentatie voor <code>input_format</code> en <code>output_format</code>.</p> </td> 
+   <td> <p>Geef opties op voor conversie en de engine. Zie de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -documentatie voor <code>input_format</code> en <code>output_format</code> voor informatie over de beschikbare opties.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a File]</td> 
@@ -269,7 +269,7 @@ Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF 
 
 #### [!UICONTROL Optimize a File]
 
-Met deze actiemodule optimaliseert en comprimeert u een bestand in de indeling PDF, PNG of JPG.
+Deze actiemodule optimaliseert en comprimeert een bestand in de indeling PDF, PNG of JPG.
 
 U geeft het bestand en de parameters op voor het optimaliseren en opslaan ervan.
 
@@ -283,7 +283,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input File]</td> 
@@ -308,7 +308,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li> <p><strong>[!UICONTROL Web]</strong>: Optimalisatie voor het web (standaard)</p> 
       <ul> 
        <li>Verwijder overtollige en onnodige gegevens voor het Web</li> 
-       <li>Afbeeldingen downsamplen, knippen en op intelligente wijze comprimeren</li> 
+       <li>Afbeeldingen downsamplen, knippen en intelligent comprimeren</li> 
        <li>Lettertypen samenvoegen en subset maken</li> 
        <li>Kleuren converteren naar RGB</li> 
       </ul> </li> 
@@ -317,7 +317,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li> <p><strong>[!UICONTROL Print]</strong>: Optimalisatie voor afdrukken</p> 
       <ul> 
        <li> <p>Overbodige en overbodige gegevens verwijderen voor afdrukken</p> </li> 
-       <li> <p>Afbeeldingen downsamplen, knippen en op intelligente wijze comprimeren</p> </li> 
+       <li> <p>Afbeeldingen downsamplen, knippen en intelligent comprimeren</p> </li> 
        <li> <p>Lettertypen samenvoegen en subset maken</p> </li> 
        <li> <p>Kleuren converteren naar CMYK</p> </li> 
       </ul> </li> 
@@ -332,7 +332,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
        <li> <p>Profiel geoptimaliseerd voor PDF die voornamelijk bestaan uit rasterafbeeldingen</p> </li> 
        <li> <p>De afbeeldingen comprimeren zonder de visuele kwaliteit aanzienlijk te verlagen</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL maximal size reduction]</strong>: Optimalisatie voor maximale groottevermindering</p> 
+     <li> <p><strong>[!UICONTROL maximal size reduction]</strong>: Optimalisatie voor maximale reductie van grootte</p> 
       <ul> 
        <li> <p>Maximale compressie gebruiken</p> </li> 
        <li> <p>De visuele kwaliteit kan verminderen</p> </li> 
@@ -349,7 +349,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options]</td> 
-   <td> <p>Geef opties op voor conversie en de engine. Als u de beschikbare opties wilt weergeven, raadpleegt u de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> documentatie voor <code>input_format</code> en <code>output_format</code>.</p> </td> 
+   <td> <p>Geef opties op voor conversie en de engine. Zie de <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -documentatie voor <code>input_format</code> en <code>output_format</code> voor informatie over de beschikbare opties.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a file]</td> 
@@ -368,7 +368,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Create a Job (advanced)]
 
-Deze module maakt een taak. Een taak kan een of meer taken zijn die worden geïdentificeerd in het dialoogvenster [!UICONTROL Name] veld en onderling gekoppeld via [!UICONTROL Input] veld.
+Deze module maakt een taak. Een taak kan een of meer taken zijn die in het veld [!UICONTROL Name] worden geïdentificeerd en die via het veld [!UICONTROL Input] met elkaar zijn verbonden.
 
 <table style="table-layout:auto">
  <col> 
@@ -376,11 +376,11 @@ Deze module maakt een taak. Een taak kan een of meer taken zijn die worden geïd
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input Files]</td> 
-   <td> <p>Selecteer of u een bestand wilt uploaden met [!DNL Workfront Fusion]of geef de URL op vanwaar het bestand wordt geüpload.</p> </td> 
+   <td> <p>Selecteer of u een bestand wilt uploaden met [!DNL Workfront Fusion] of geef de URL op vanwaar het bestand wordt geüpload.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Upload a File]</td> 
@@ -399,13 +399,13 @@ Deze module maakt een taak. Een taak kan een of meer taken zijn die worden geïd
    <td> <p>Voeg taken toe die binnen de taak worden uitgevoerd.</p> <p>Zie de beschrijvingen van de velden van de bewerkingen in de bijbehorende sectie.</p> 
     <ul> 
      <li><a href="#convert-a-file" class="MCXref xref">[!UICONTROL Convert a file]</a> </li> 
-     <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL Capture a Websit]e</a> </li> 
+     <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL Capture a Websit] e </a> </li> 
      <li><a href="#optimize-a-file" class="MCXref xref">[!UICONTROL Optimize a File]</a> </li> 
      <li><a href="#create-an-archive" class="MCXref xref">[!UICONTROL Create an Archive]</a> </li> 
      <li><a href="#merge-files" class="MCXref xref">[!UICONTROL Merge Files]</a> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Execute a Command]</strong> </p> <p>Voor meer informatie bij het uitvoeren van een bevel, zie <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API-documentatie</a>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Execute a Command]</strong> </p> <p>Zie de <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API-documentatie </a> voor meer informatie over het uitvoeren van een opdracht.</p> </li> 
      <li> <p><strong>[!UICONTROL Export a File to Temporary URL]</strong> </p> <p> Geef de naam van de taak en de naam van de invoertaak op (bijvoorbeeld Conversie).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -430,7 +430,7 @@ Deze module verwijdert een taak, inclusief alle taken en gegevens.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Job ID]</td> 
@@ -449,7 +449,7 @@ Deze module haalt taakdetails op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Job ID]</td> 
@@ -468,7 +468,7 @@ Deze module haalt alle taken op die in uw account zijn uitgevoerd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status] </td> 
@@ -487,8 +487,8 @@ Triggers worden geactiveerd wanneer een taak in uw account of taak wordt gemaakt
 
 >[!NOTE]
 >
->* De door de [!UICONTROL Create a Job (advanced)] module bestaat uit *verscheidene* taken.
->* De [!UICONTROL New Job Event] trigger wordt ook geactiveerd wanneer een *individueel* taak is gemaakt, voltooid of mislukt.
+>* De baan die door de [!UICONTROL Create a Job (advanced)] module wordt gecreeerd bestaat uit *verscheidene* taken.
+>* De [!UICONTROL New Job Event] trekker wordt ook teweeggebracht wanneer een *individuele* taak wordt gecreeerd, gebeëindigd is, of ontbroken.
 >
 
 <table style="table-layout:auto">
@@ -501,7 +501,7 @@ Triggers worden geactiveerd wanneer een taak in uw account of taak wordt gemaakt
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format] </td> 
@@ -516,7 +516,7 @@ Triggers worden geactiveerd wanneer een taak in uw account of taak wordt gemaakt
 
 >[!NOTE]
 >
->* Als u werkt met de Arrayaggregator (u hebt bijvoorbeeld veel bestanden in verschillende indelingen die moeten worden omgezet), gebruikt u de opdracht **[!UICONTROL I don't know the input format]** in de [!UICONTROL Add a task] . Anders wordt de fout geretourneerd.
+>* Als u met de Arrayaggregator werkt (u hebt bijvoorbeeld veel bestanden in verschillende indelingen die moeten worden omgezet), gebruikt u de optie **[!UICONTROL I don't know the input format]** in het dialoogvenster [!UICONTROL Add a task] . Anders wordt de fout geretourneerd.
 >* Taken in de taak koppelen (naam > invoer, naam > invoer,...):
 >
 >  ![](assets/linking-name-across-jobs-350x808.png)>
@@ -540,7 +540,7 @@ Deze module annuleert een taak die een status van wachten of verwerking heeft.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -563,7 +563,7 @@ Een taak verwijderen, inclusief alle gegevens.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -582,7 +582,7 @@ Deze module wint dossier - naam en dossiergegevens van de gespecificeerde taak t
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -601,7 +601,7 @@ Deze module wint taakdetails terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -620,7 +620,7 @@ Deze module haalt alle taken in uw account op basis van filterinstellingen op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status] </td> 
@@ -632,7 +632,7 @@ Deze module haalt alle taken in uw account op basis van filterinstellingen op.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Operation] </td> 
-   <td> <p>Voer het type bewerking in om alleen taken met de opgegeven bewerking te retourneren. </p> <p>Opmerking: Gebruik de [!UICONTROL List Possible Operations] om bewerkingen op te halen.</p> </td> 
+   <td> <p>Voer het type bewerking in om alleen taken met de opgegeven bewerking te retourneren. </p> <p>Opmerking: gebruik de module [!UICONTROL List Possible Operations] om bewerkingen op te halen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
@@ -651,7 +651,7 @@ Deze module leidt tot een nieuwe taak, die op de montages (lading) van een ander
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -675,7 +675,7 @@ Hiermee worden geverifieerde accountgegevens over de huidige gebruiker opgehaald
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] account aan [!DNL Workfront Fusion], zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL CloudConvert] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -690,15 +690,15 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Ga voor instructies over het verbinden van uw [Fusion App]-account met Workfront Fusion naar <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe Workfront Fusion - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [Fusion App] rekening aan de Fusie van Workfront, zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Een pad invoeren ten opzichte van <code>https://api.cloudconvert.com/</code>. Bijvoorbeeld: <code>/v2/tasks</code></p> <p>Voor de lijst met beschikbare eindpunten raadpleegt u de <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] API v2-documentatie</a>.</p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van <code>https://api.cloudconvert.com/</code> . Bijvoorbeeld: <code>/v2/tasks</code></p> <p>Zie de <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] API v2-documentatie </a> voor een lijst met beschikbare eindpunten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -706,16 +706,16 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td> <p>Voeg de inhoud van de hoofdtekst van de API-aanroep toe in de vorm van een standaard JSON-object. Plaats de aanhalingstekens buiten de voorwaardelijke instructie wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld:** Lijsttaken
+**Voorbeeld:** de Taken van de Lijst
 
 De volgende API-aanroep retourneert alle taken van uw CloudFront-account:
 
@@ -725,7 +725,7 @@ Methode: `GET`
 
 ![](assets/cloudconvert-api-example-input.png)
 
-De gelijken van het onderzoek kunnen in de Output van de module onder worden gevonden [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data].
+Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data] .
 
 In ons voorbeeld werden 6 taken geretourneerd:
 
@@ -751,7 +751,7 @@ Zie de volgende tabel voor mogelijke fouten en de bijbehorende oplossingen:
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL You have exceeded the maximum conversion time.]</span> </p> </td> 
-   <td> <p>De gratis [!DNL CloudConvert] het abonnement biedt dagelijks 25 conversiminuten aan. Als uw gebruik de limiet van het gratis abonnement overschrijdt, kunt u overschakelen op een (prepaid) pakket of abonnement.</p> </td> 
+   <td> <p>Het gratis abonnement van [!DNL CloudConvert] biedt dagelijks 25 conversiminuten. Als uw gebruik de limiet van het gratis abonnement overschrijdt, kunt u overschakelen op een (prepaid) pakket of abonnement.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL Failed to read frame size: Could not seek to 1508. �/output/JLIADSA00137P0.mp3: Invalid argument.]</span> </p> </td> 
@@ -759,42 +759,42 @@ Zie de volgende tabel voor mogelijke fouten en de bijbehorende oplossingen:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL RuntimeError:] </p> <p><span style="font-weight: normal;">[!UICONTROL Maximum number of repeats exceeded.]</span> </p> </td> 
-   <td> <p>Ga naar de bijbehorende [!DNL CloudConvert] in uw [!DNL CloudConvert] dashboard ' s lijst met banen en check the job ' s duration :</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>De [!DNL CloudConvert] &gt; [!UICONTROL Convert a File] de time-out van de module is ingesteld op 3 minuten. Als de duur van de taak langer is dan 3 minuten (mogelijk als gevolg van een tijdelijke overbelasting van de [!DNL CloudConvert] (service), genereert de module de hierboven vermelde fout.</p> <p>Overweeg in dit geval een van de volgende opties:</p> 
+   <td> <p>Zoek de bijbehorende [!DNL CloudConvert] -taak in de lijst met taken van het [!DNL CloudConvert] -dashboard en controleer de duur van de taak:</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>De time-out van de module [!DNL CloudConvert] &gt; [!UICONTROL Convert a File] is ingesteld op 3 minuten. Als de duur van de taak langer is dan 3 minuten (mogelijk als gevolg van een tijdelijke overbelasting van de service [!DNL CloudConvert] ), genereert de module de hierboven vermelde fout.</p> <p>Overweeg in dit geval een van de volgende opties:</p> 
     <ul> 
-     <li>De optie <strong>[!UICONTROL Allow storing of Incomplete Executions]</strong> in de scenario-instellingen om de onvolledige uitvoeringen op te slaan voor latere handmatige resolutie. U kunt desgewenst een foutafhandelingsroute aan de [!DNL CloudConvert] met de [!UICONTROL Break] richtlijn om de onvolledige executies automatisch op te lossen.</li> 
-     <li>De opdracht <strong>[!UICONTROL Download a file] option</strong> in de [!DNL CloudConvert] &gt; [!UICONTROL Convert a file] module. In dit geval wacht de module niet op het omzettingsresultaat. Om het omzettingsresultaat te verkrijgen, creeer een nieuw scenario en gebruik [!DNL CloudConvert] &gt; [!UICONTROL New Job Event] trigger.</li> 
+     <li>Schakel de optie <strong>[!UICONTROL Allow storing of Incomplete Executions]</strong> in de scenario-instellingen in om de onvolledige uitvoeringen op te slaan voor latere handmatige resolutie. U kunt desgewenst een foutafhandelingsroute aan de module [!DNL CloudConvert] koppelen met de aanwijzing [!UICONTROL Break] om de onvolledige uitvoeringen automatisch op te lossen.</li> 
+     <li>Schakel de optie <strong>[!UICONTROL Download a file] </strong> uit in de module [!DNL CloudConvert] &gt; [!UICONTROL Convert a file] . In dit geval wacht de module niet op het omzettingsresultaat. Maak een nieuw scenario en gebruik de trigger [!DNL CloudConvert] &gt; [!UICONTROL New Job Event] om het omzettingsresultaat te verkrijgen.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Voorbeeld van een workflow voor [!DNL CloudConvert] connector
+## Voorbeeld van een workflow voor [!DNL CloudConvert] -connector
 
 >[!INFO]
 >
->**Voorbeeld:** Een video converteren van MOV naar MP4-indeling
+>**Voorbeeld:** Converterend een video van MOV in formaat MP4
 >
->1. Bezoek [https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
->1. Klikken **[!UICONTROL Select File]** en kies uw voorbeeld-MOV-bestand.
->1. Klik op het vervolgkeuzemenu naast **[!UICONTROL Convert to]** en kiest u **[!UICONTROL MP4]**.
+>1. Bezoek [ https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
+>1. Klik op **[!UICONTROL Select File]** en kies het MOV-voorbeeldbestand.
+>1. Klik op de vervolgkeuzelijst naast **[!UICONTROL Convert to]** en kies **[!UICONTROL MP4]** .
 >
->1. Klik op de knop **[!UICONTROL wrench]** pictogram.
+>1. Klik op het pictogram **[!UICONTROL wrench]** .
 >1. Configureer de compressie-instellingen voor MP4 naar wens.
 >1. Klik op **[!UICONTROL Convert]**.
->1. Wanneer de conversie is voltooid, klikt u op **[!UICONTROL Download]**.
+>1. Klik op **[!UICONTROL Download]** als de conversie is voltooid.
 >1. Controleer de omgezette video.
 >1. Herhaal stap 1 tot en met 8 totdat u de optimale conversie-instellingen voor stap 5 hebt gevonden.
->1. Bezoek [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
->1. Kies **[!UICONTROL mov]** voor de **[!UICONTROL input_format]** veld.
+>1. Bezoek [ https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
+>1. Kies **[!UICONTROL mov]** voor het veld **[!UICONTROL input_format]** .
 >
->1. Kies **[!UICONTROL mp4]** voor de **[!UICONTROL output_format]** veld.
+>1. Kies **[!UICONTROL mp4]** voor het veld **[!UICONTROL output_format]** .
 >
 >1. Een lijst met alle mogelijke parameters, zoals video_codec, crf, enz. wordt weergegeven.
->1. Voeg in Workfront Fusion 2.0 de **[!UICONTROL CloudConvert]** > **[!UICONTROL Convert a File]** in uw scenario.
+>1. Voeg in Workfront Fusion 2.0 de module **[!UICONTROL CloudConvert]** > **[!UICONTROL Convert a File]** in uw scenario in.
 >
 >1. Open de instellingen van de module.
 >1. Configureer de module zoals hieronder wordt weergegeven:
 >
 >   ![](assets/cloudconvert-mp4-example.png)
 >
->1. Zorg ervoor dat u alle instellingen opneemt in het veld Conversie en motorspecifieke opties: Zoek voor elke instelling in stap 5 de overeenkomstige parameter uit stap 13 en de bijbehorende waarde.
+>1. Zorg ervoor dat u alle instellingen opneemt in het veld Conversie en motorspecifieke opties: zoek voor elke instelling in stap 5 de corresponderende parameter uit stap 13 en de bijbehorende waarde.

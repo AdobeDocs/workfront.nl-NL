@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 3 mei 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## De Salesforce-connector kan nu zoeken met SOQL
 
 In de module Salesforce > Zoeken naar records kunt u nu zoeken met SOQL (Salesforce Object Query Language). U kunt ook zoeken met de eerder beschikbare opties (SOSL en eenvoudige zoekopdrachten).
 
-Zie voor meer informatie [Salesforce-modules](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+Voor meer informatie, zie {de modules van 0} Salesforce ](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).[
 
 ## Voor een nieuw verbindingstype in de Azure DevOps-connector is minder bereik vereist
 
@@ -45,4 +45,4 @@ Om de beveiliging te verbeteren, hebben we een nieuw connectortype toegevoegd aa
 
 Wij adviseren dat u het Azure DevOps verbindingstype in al uw nieuwe scenario&#39;s gebruikt die Azure DevOps gebruiken. Wij adviseren ook dat u om het even welke Azure modules DevOps in uw bestaande scenario&#39;s verandert om het nieuwe verbindingstype te gebruiken. Het oudere Azure DevOps-verbindingstype (Request all scopes) wordt in de nabije toekomst vervangen.
 
-Zie voor meer informatie [Azure DevOps-modules](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Voor meer informatie, zie [ Azure modules DevOps ](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).

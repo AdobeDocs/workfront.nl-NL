@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront beschikt over een Kick-Start-sjabloon die u kunt gebruiken om dit te doen, zoals wordt uitgelegd in [Kick-start gegevensimporteur](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront verstrekt een Kick-Begin malplaatje u kunt gebruiken om dit te doen, zoals verklaard in [ Kick-Begint gegevensimporteur ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Dit proces wordt opgedeeld in drie hoofdtaken:
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,11 +81,11 @@ Een Kick-Start-sjabloon exporteren:
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Klikken **Systeem** > **Gegevens importeren (Kick-start)**.
+1. Klik **Systeem** > **de Gegevens van de Invoer (Kick-Begint)**.
 
 1. Selecteer de soorten informatie die u wilt opnemen.
 
-   Elke optie die u selecteert, vertegenwoordigt een verzameling meerdere tabbladen in het geëxporteerde werkblad. Als u bijvoorbeeld de optie **Rapport** alle benodigde objecten voor het maken van een rapport worden opgenomen in het spreadsheet (weergaven, filters, groepen, rapporten).
+   Elke optie die u selecteert, vertegenwoordigt een verzameling meerdere tabbladen in het geëxporteerde werkblad. Bijvoorbeeld, als u de **optie van het Rapport** selecteert, zullen alle noodzakelijke voorwerpen voor het creëren van een rapport in spreadsheet (meningen, filters, groeperingen, rapporten) worden omvat.
 
    U kunt alle hieronder vermelde objecttypen gebruiken om gegevens te importeren in Workfront. (De enige uitzondering is de optie Toegangsniveaus. Het gegevensblad van Niveaus van de Toegang in de uitvoer wordt verstrekt voor verwijzingsdoeleinden-het staat u toe om een toegangsniveau aan een nieuw gebruikersrekening door identiteitskaart toe te wijzen.)
 
@@ -97,9 +97,9 @@ Een Kick-Start-sjabloon exporteren:
     <col> 
     <thead> 
      <tr> 
-      <th> <p><strong>Object</strong> </p> </th> 
-      <th> <p><strong>Exporteren als</strong> </p> </th> 
-      <th> <p><strong>Werkbladen in het geëxporteerde werkblad</strong> </p> </th> 
+      <th> <p><strong> Voorwerp </strong> </p> </th> 
+      <th> <p><strong> voert uit als </strong> </p> </th> 
+      <th> <p><strong> Bladen in de uitgevoerde spreadsheet </strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -140,7 +140,7 @@ Een Kick-Start-sjabloon exporteren:
      </tr> 
      <tr> 
       <td> <p>Gebruiker</p> </td> 
-      <td> <p>Exporteert als Excel-bestand. Klik op <strong>Meer opties</strong>.</p> </td> 
+      <td> <p>Exporteert als Excel-bestand. Om de volledige lijst van opties te zien, klik <strong> Meer Opties </strong>.</p> </td> 
       <td> <p>Gebruiker</p> <p>Voorkeuren</p> </td> 
      </tr> 
      <tr> 
@@ -278,22 +278,22 @@ Een Kick-Start-sjabloon exporteren:
     </tbody> 
    </table>
 
-1. Klikken **Downloaden**.
-1. Doorgaan met [De spreadsheetsjabloon vullen met uw gegevens](#populate-the-spreadsheet-template-with-your-data) om de lege sjabloonspreadsheet te vullen met uw gegevens.
+1. Klik **Download**.
+1. Ga met [ verder bevolken het spreadsheetmalplaatje met uw gegevens ](#populate-the-spreadsheet-template-with-your-data) om het lege malplaatjespreadsheet met uw informatie te bevolken.
 
 ## De spreadsheetsjabloon vullen met uw gegevens {#populate-the-spreadsheet-template-with-your-data}
 
 * [Overzicht van de tabbladen (gegevensbladen) in het werkblad](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
-* [Een record importeren](#import-a-record)
-* [Datums opnemen](#include-dates)
-* [Jokertekens gebruiken](#use-wildcards)
+* [ de Invoer een verslag ](#import-a-record)
+* [ omvat data ](#include-dates)
+* [ vervangingen van het Gebruik ](#use-wildcards)
 * [Vervanging van kenmerknaam voor id&#39;s](#attribute-name-substitution-for-ids)
 
 ### Overzicht van de tabbladen (gegevensbladen) in het werkblad
 
 >[!TIP]
 >
->Om beter te begrijpen hoe u de informatie in elke kolom zult moeten formatteren wanneer u het Kick-Begin malplaatje bevolkt, denk na handelend een praktijk door een Kick-Begin met bestaande gegevens van Workfront over de voorwerpen uit te voeren u probeert om in te voeren. Zie voor instructies [Gegevens exporteren uit Adobe Workfront via Kick-start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>Om beter te begrijpen hoe u de informatie in elke kolom zult moeten formatteren wanneer u het Kick-Begin malplaatje bevolkt, denk na handelend een praktijk door een Kick-Begin met bestaande gegevens van Workfront over de voorwerpen uit te voeren u probeert om in te voeren. Voor instructies, zie [ gegevens van de Uitvoer van Adobe Workfront via Kick-Begint ](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 Wanneer u een leeg Kick-Begint malplaatje opent, zijn een aantal lusjes (gegevensbladen) beschikbaar. Ze zijn afhankelijk van de objecten die u hebt geselecteerd om te downloaden. Elk object vertegenwoordigt een object in de toepassing, zoals project, taken, uren, dashboard en gebruikers:
 
@@ -309,28 +309,28 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >
 >     Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
 >
->     Bijvoorbeeld op **PROJ Project** de **setCondition** en **setConditionType** velden kunnen leeg blijven, maar de **setGroupID** en **setName** kolommen kunnen niet.
+>     Bijvoorbeeld, op het **lusje van het Project van 0} PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
 >
->* Bepaalde velden, waaronder **setResourceRevenue** en **setEnteredByID**, automatisch door het systeem worden gegenereerd. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
+>* Bepaalde gebieden, met inbegrip van **setResourceRevenue** en **setEnteredByID**, worden automatisch geproduceerd door het systeem. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
 
 ### Een record importeren  {#import-a-record}
 
 Elke rij van het blad komt overeen met een uniek object.
 
-1. Gegevens toevoegen in het dialoogvenster **isNew** kolom:
+1. Voeg informatie in **isNew** kolom toe:
 
-   * Als het object dat u importeert nieuw is, typt u **TRUE** de gegevens in de rij importeren. Deze waarde is hoofdlettergevoelig en moet altijd in hoofdletters staan
-   * Als het object zich al in Workfront bevindt, typt u **FALSE** in de **isNew** om de rij te negeren. Deze waarde is hoofdlettergevoelig en moet altijd in hoofdletters staan
+   * Als het voorwerp u invoert nieuw is, type **WAAR** om de gegevens in de rij in te voeren. Deze waarde is hoofdlettergevoelig en moet altijd in hoofdletters staan
+   * Als het voorwerp reeds in Workfront is, type **VALS** in **isNew** kolom om de rij te negeren. Deze waarde is hoofdlettergevoelig en moet altijd in hoofdletters staan
 
       * Records die al in Workfront bestaan, worden niet bijgewerkt.
-      * Als u een sjabloon hebt gedownload met gegevens uit Workfront, zijn bestaande objecten al gemarkeerd met **FALSE**.
+      * Als u een malplaatje met gegevens van Workfront downloadde, zijn de bestaande voorwerpen reeds duidelijk met **VALS**.
       * Als u een lege sjabloon hebt gedownload, hoeft u geen nieuwe rijen voor bestaande objecten toe te voegen.
 
-1. Gegevens toevoegen in het dialoogvenster **ID** kolom op een van de volgende manieren:
+1. Voeg informatie in de **identiteitskaart** kolom in één van de volgende manieren toe:
 
-   * Als het object dat u importeert nieuw is (en u typt **TRUE** in de **isNew** (kolom), typt u een willekeurig nummer voor de id. Dit nummer moet uniek zijn in het werkblad. Als u bijvoorbeeld drie objecten importeert, kunt u deze de id 1, 2 of 3 geven.
+   * Als het voorwerp u invoert nieuw is (en u **WAAR** in **isNew** kolom) typt, type om het even welk aantal voor identiteitskaart. Dit nummer moet uniek zijn in het werkblad. Als u bijvoorbeeld drie objecten importeert, kunt u deze de id 1, 2 of 3 geven.
 
-   * Als het object al bestaat in Workfront (en **FALSE** bevindt zich in de **isNew** kolom), en u importeert nieuwe informatie over bestaande voorwerpen, moet identiteitskaart alfanumerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
+   * Als het voorwerp reeds in Workfront (en **VALS** is in **isNew** kolom) bestaat, en u voert nieuwe informatie over bestaande voorwerpen in, moet identiteitskaart de alpha-numerieke GUID zijn die in Workfront voor dat voorwerp bestaat.
 
    >[!TIP]
    >
@@ -338,29 +338,29 @@ Elke rij van het blad komt overeen met een uniek object.
 
    * Records die al in Workfront bestaan, worden niet bijgewerkt.
    * Als u een malplaatje met gegevens downloadde, bevatten de bestaande voorwerpen reeds GUID als identiteitskaart
-   * U kunt een nieuw object importeren op basis van een bestaand object door **FALSE** tot **TRUE** in de **isNew** kolom, wijzigt u de id en brengt u de benodigde gegevensaanpassingen aan voordat u gaat importeren.
+   * U kunt een nieuw voorwerp invoeren dat op een bestaand voorwerp wordt gebaseerd door **VALS** te veranderen **WAAR** in de **isNew** kolom, die identiteitskaart veranderen, en de noodzakelijke gegevensaanpassingen alvorens in te voeren.
 
-   ![Voorbeeld-id voor een groep](assets/kick-start-group-example.png)
+   ![ identiteitskaart van de Steekproef voor een Groep ](assets/kick-start-group-example.png)
 
    * Wanneer u een project invoert, moet u op een identiteitskaart van de Groep wijzen.
 
-      * Als de groep al in Workfront bestaat, moet u de unieke id ervan toevoegen aan de **setGroupID** veld voor het project.
-      * Als de groep niet bestaat in Workfront, kunt u de opdracht **GROEP** blad naar uw importbestand instellen **isNew** veld naar **TRUE** op het groepsblad en geef een numerieke id op voor de nieuwe groep in de **ID** kolom. De **setGroupID** veld voor het nieuwe project moet overeenkomen met het numerieke veld **ID** voor de nieuwe groep.
+      * Als de groep reeds in Workfront bestaat, moet u zijn unieke identiteitskaart aan het **setGroupID** gebied voor het project toevoegen.
+      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0} GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
 
-     **Voorbeeld:** Voor een project, de waarde die in **setGroupID** kolom moet een van de volgende vermeldingen bevatten:
+     **Voorbeeld:** voor een project, moet de waarde die in de **wordt getoond setGroupID** kolom één van het volgende:
 
       * GUID voor een bestaande Groep in uw instantie van Workfront
-      * De waarde (getal) in de kolom Id in het dialoogvenster **GROEP** blad als u tijdens het importeren een nieuwe groep maakt
+      * De waarde (aantal) in de kolom van identiteitskaart op het **blad van de Groep van de GROEP** als u een nieuwe Groep tijdens de invoer creeert
 
 1. Voer waarden in voor de vereiste velden en alle andere velden die u tijdens het importeren wilt vullen.
 1. (Optioneel) Aangepaste gegevens toevoegen:
 
    * Maak een nieuwe kolom voor elk aangepast veld dat u wilt opnemen in het importproces.
-   * Geef elke nieuwe kolom voor het bijbehorende aangepaste veld de volgende naam: **DE:[Naam van het aangepaste veld zoals dit wordt weergegeven in Workfront]**. U kunt bijvoorbeeld het volgende aangepaste veld maken: &quot;DE: Afdelingen&quot;.
-   * In de kolom **setCategorieID**, typ GUID van de bestaande douanevorm waarop dit douaneveld verblijft. Dit veld is vereist bij het importeren van aangepaste gegevens.
+   * Naam elke nieuwe kolom voor zijn overeenkomstig douanegebied als volgt: **DE:[ Naam van het douanegebied aangezien het in Workfront]** verschijnt. U kunt bijvoorbeeld het volgende aangepaste veld maken: &quot;DE: Afdelingen&quot;.
+   * In de kolom **setCategoryID**, typ GUID van de bestaande douanevorm waarop dit douanegebied verblijft. Dit veld is vereist bij het importeren van aangepaste gegevens.
    * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste gegevens op de balk &quot;|&quot; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
 
-     **Voorbeeld:** Typ A|D onder de kolom DE:Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
+     **Voorbeeld:** Type A|D onder DE:De kolom van Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
 
 ### Datums opnemen  {#include-dates}
 
@@ -396,51 +396,51 @@ U kunt de volgende vervangingen gebruiken wanneer het bevolken van uw Kick-Begin
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Jokerteken</strong> </p> </th> 
-   <th> <p><strong>Gedrag</strong> </p> </th> 
+   <th> <p><strong> Jokerteken </strong> </p> </th> 
+   <th> <p><strong> Gedrag </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>$$TODAY</p> </td> 
-   <td> <p>Indien gebruikt op een <strong>setDate</strong> in dit veld wordt de datum ingesteld op middernacht op de dag waarop u Kick-Start importeert.</p> <p>U kunt het jokerteken wijzigen met de standaardsyntaxis die is toegestaan met het jokerteken op een filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Als u wilt dat een project begint op de maandag van de week waarop het wordt geïmporteerd, kunt u <strong>$$TODAYbw</strong>. Hierdoor wordt de geplande startdatum van uw project ingesteld op zondag 12:00 uur. Aangezien het programma voor het project op dat moment waarschijnlijk geen werk toelaat, zal het om 9:00 beginnen maandagochtend.</p> </td> 
+   <td> <p>Wanneer gebruikt op a <strong> setDate </strong> gebied, plaatst dit vervangingsplaatsen de datum als middernacht op de dag wanneer u Kick-Begin invoert.</p> <p>U kunt het jokerteken wijzigen met de standaardsyntaxis die is toegestaan met het jokerteken op een filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> als u een project op de Maandag van de week wilt beginnen wordt het ingevoerd, ongeacht de dag u daadwerkelijk de invoer uitvoert, kon u <strong> $$TODAYbw </strong> gebruiken. Hierdoor wordt de geplande startdatum van uw project ingesteld op zondag 12:00 uur. Aangezien het programma voor het project op dat moment waarschijnlijk geen werk toelaat, zal het om 9:00 beginnen maandagochtend.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>Indien gebruikt op een <strong>setDate</strong> in dit veld wordt de datum ingesteld op basis van het tijdstip waarop u de record maakt tijdens het importeren Kick-Start.</p> <p>U kunt het jokerteken wijzigen met de standaardsyntaxis die is toegestaan met het jokerteken op een filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span>Als u wilt dat een project 3 uur na het importeren start, kunt u <strong>$$NOW+3h</strong>.</p> </td> 
+   <td> <p>Wanneer gebruikt op a <strong> setDate </strong> gebied, plaatst dit vervangingsplaatsen de datum volgens het moment wanneer u het verslag tijdens de Kick-Begin invoer creeert.</p> <p>U kunt het jokerteken wijzigen met de standaardsyntaxis die is toegestaan met het jokerteken op een filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> als u een project 3 uren wilt beginnen nadat het wordt ingevoerd, kon u <strong> $$NOW+3h </strong> gebruiken.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>Indien gebruikt op een <strong>setAssignedToID</strong> of een ander op userID gebaseerd veld, wijst dit jokerteken het werk toe of associeert de record op een andere manier met de persoon die de import uitvoert.</p> </td> 
+   <td> <p>Wanneer gebruikt op a <strong> setAssignedToID </strong> of ander userID gebaseerd gebied, wijst dit vervangingstoe het werk of anders associeert het verslag met het individu dat de invoer uitvoert.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>Dit jokerteken is speciaal toegevoegd voor Kick-Start-invoer van gebruikers. Wanneer een Workfront-account wordt gemaakt, wordt een gebruiker met het toegangsniveau Systeembeheerder gemaakt. De gebruikersnaam die aan de standaardbeheerder is toegewezen, kan als voorvoegsel worden gebruikt bij het maken van andere gebruikers in de account.</p> <p>Omdat gebruikersnamen in alle klanten uniek moeten zijn, is dit nuttig wanneer u verscheidene individuen met zeer gemeenschappelijke gebruikersnamen zoals John Smith hebt, die een gebruikersbenaming "jsmith."zouden kunnen hebben Door de gebruikersnaamtoewijzing met de standaardbeheerdersgebruikersnaam voor te bereiden, garandeert u dat elke gebruikersnaam uniek is (bijvoorbeeld: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tip: een elegantere manier om ervoor te zorgen dat gebruikersnamen in het hele systeem uniek zijn, is door het e-mailadres van het individu in te voeren in de <strong>setUserName</strong> veld.</p> </td> 
+   <td> <p>Dit jokerteken is speciaal toegevoegd voor Kick-Start-invoer van gebruikers. Wanneer een Workfront-account wordt gemaakt, wordt een gebruiker met het toegangsniveau Systeembeheerder gemaakt. De gebruikersnaam die aan de standaardbeheerder is toegewezen, kan als voorvoegsel worden gebruikt bij het maken van andere gebruikers in de account.</p> <p>Omdat gebruikersnamen in alle klanten uniek moeten zijn, is dit nuttig wanneer u verscheidene individuen met zeer gemeenschappelijke gebruikersnamen zoals John Smith hebt, die een gebruikersbenaming "jsmith."zouden kunnen hebben Door de gebruikersnaamtoewijzing met de standaardbeheerdersgebruikersnaam voor te bereiden, garandeert u dat elke gebruikersnaam uniek is (bijvoorbeeld: <strong>$$CUSTOMER.jsmith </strong> ).</p> <p>Tip: Een elegantere manier om ervoor te zorgen dat de gebruikersnamen uniek systeem wijd zijn moet het e-mailadres van het individu in het <strong> setGebruikersnaam </strong> gebied invoeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Vervanging van kenmerknaam voor id&#39;s  {#attribute-name-substitution-for-ids}
 
-Hoewel het aan te raden is om waar mogelijk id&#39;s te gebruiken, is het soms lastig om te verwijzen naar id&#39;s van het ene vel naar het andere bij het instellen van een **setAttributeID** waarde. U kunt eenvoudig naar waarden verwijzen door de kolomkop te wijzigen.
+Hoewel het een beste praktijk is om IDs te gebruiken waar mogelijk, soms is het ongelegen aan verwijzing IDs van één blad aan een andere wanneer het plaatsen van a **setAttributeID** waarde. U kunt eenvoudig naar waarden verwijzen door de kolomkop te wijzigen.
 
 **Voorbeelden:**
 
-* **Projectimport**
+* **de invoer van het Project**
 
-  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door **GROEP** blad, nota nemend van de respectieve Groep IDs, en het kleven van hen in de correcte cellen (**setGroupID** kolom) op de **PROJ Project** blad.
+  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7} blad van het Project van de PROJ.**
 
   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 
-  Om de Vervanging van de Naam van Attributen voor het hierboven beschreven voorbeeld te doen, verandert u **setGroupID** kolomkop naar **#setGroupID GROUP name**. U kunt dan de groep van elk project door naam van verwijzingen voorzien.
+  Om de Vervanging van de Naam van Attributen voor het hierboven beschreven voorbeeld te doen, verandert u **setGroupID** kolomkopbal in **#setGroupID GROUP naam**. U kunt dan de groep van elk project door naam van verwijzingen voorzien.
 
   >[!NOTE]
   >
   >De optie om Vervanging van de Naam van Attributen te gebruiken is beperkt tot verwijzingen voor bestaande slechts verslagen. U kunt naamvervanging niet gebruiken voor objecten die u in dezelfde importbewerking maakt.
 
-* **Gebruikersimport**
+* **de invoer van de Gebruiker**
 
-  Vul bij het importeren van gebruikers de **setRoleID** uit een lijst met rollen in het **ROL** tab.
+  Wanneer het invoeren van gebruikers, vul **setRoleID** van een lijst van rollen op de **Rol van de ROL** tabel in.
 
   Sommige rol-id&#39;s zijn bedoeld voor records die al in de account staan, terwijl andere id&#39;s tijdens het importeren worden gemaakt.
 
@@ -448,13 +448,13 @@ Hoewel het aan te raden is om waar mogelijk id&#39;s te gebruiken, is het soms l
 
   Op deze manier kunt u beide methoden gebruiken voor hetzelfde importbestand:
 
-   * Voeg een kolom in het spreadsheet links van toe **setRoleID** kolom.
-   * Geef de nieuwe kolom een naam **#setRoleID ROLE name**.
-   * Voor roltoewijzingen aan bestaande records voert u de rolnamen in het dialoogvenster **#setRoleID ROLE name** kolom.
+   * Voeg een kolom in spreadsheet links van de **setRoleID** kolom toe.
+   * Noem de nieuwe kolom **#setRoleID ROLE naam**.
+   * Voor roltoewijzingen aan bestaande verslagen, input de rolnamen in **#setRoleID ROLE naamkolom**.
 
      Voor roltoewijzingen aan nieuwe rolverslagen, input identiteitskaart u op het blad van de Rol van de ROL in setRoleID toewees.
 
-     ![Rol-id voor gebruikers](assets/set-role-id.png)
+     ![ identiteitskaart van de Rol voor gebruikers ](assets/set-role-id.png)
 
 ## De spreadsheetgegevens importeren in Workfront
 
@@ -482,11 +482,11 @@ De sjabloonspreadsheetgegevens importeren in Workfront:
 
 {{step-1-to-setup}}
 
-1. Klikken **Systeem** > **Gegevens importeren (Kick-start)**.
+1. Klik **Systeem** > **de Gegevens van de Invoer (Kick-Begint)**.
 
-1. In de **Gegevens uploaden met werkblad Kick-Start** sectie, klikken **Bestand kiezen** Blader vervolgens naar de gevulde spreadsheet en selecteer deze.
+1. In **uploadt gegevens met Kick-Begin spreadsheet** sectie, klik **kies Dossier**, dan doorblader aan en selecteer de bevolkte spreadsheet.
 
-1. Klikken **Uploaden.**
+1. Klik **uploaden.**
 
    Als het Excel-bestand langer dan 5 minuten duurt om naar Workfront te uploaden, worden de time-out van de toepassing en kan Workfront het bestand niet uploaden.
 

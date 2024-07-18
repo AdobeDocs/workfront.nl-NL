@@ -23,7 +23,7 @@ De activiteit door teamvisualisatie toont activiteiten die tijdens een specifiek
 >[!NOTE]
 >
 >De activiteitenvisualisatie van het Project is gelijkaardig aan deze visualisatie, maar het toont activiteit die op mensen wordt gebaseerd die aan projecten eerder dan aan mensen worden toegewezen aan een huisteam wordt toegewezen.\
->Voor informatie over de activiteit van het Project visualisatie, zie [De visualisatie van projectactiviteit weergeven in Verbeterde analyse](../enhanced-analytics/project-activity-overview.md).
+>Voor informatie over de activiteitenvisualisatie van het Project, zie [ de activiteitenvisualisatie van het Project in Verbeterde analyses ](../enhanced-analytics/project-activity-overview.md) bekijken.
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
@@ -59,25 +59,25 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie de &quot;sectie van Eerste vereisten&quot;in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Begrijp de Activiteit door teamvisualisatie
 
 De verschillende activiteiten worden in verschillende kleuren weergegeven om een overzicht te geven van specifieke gebeurtenissen tijdens de gefilterde periode:
 
-* **Gebruikers die zijn aangemeld**: Purple boxes laten zien dat mensen in het team van de woning zich op die dag hebben aangemeld. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
+* **Gebruikers het programma opende**: De paarse dozen tonen dat de mensen op het huisteam op die dag het programma opende. Een donkerdere tint geeft een groter aantal personen aan die zich aanmelden.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Wijziging taakstatus**: Roze vakjes tonen aan dat de mensen op het huisteam de status van een taak op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
+* **verandering van de status van de Taak**: De roze dozen tonen dat de mensen op het huisteam de status van een taak op die dag veranderden. Een donkerdere schaduw geeft aan dat er een groter aantal taakstatussen wordt gewijzigd.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Voltooide taken**: Blauwe dozen laten zien dat de mensen in het huisteam op die dag een taak hebben voltooid. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
+* **voltooide Taken**: De blauwe dozen tonen dat de mensen op het huisteam een taak op die dag voltooiden. Een donkerdere schaduw geeft een hoger aantal taken aan die worden voltooid.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -89,12 +89,12 @@ Aan de hand van deze informatie kunt u bepalen:
 * Welke huisteams worden overwerkt of gebruiken meer het systeem.
 * Als de distributie van het werk voor het huisteam aangewezen is.
 
-Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De activiteit per teamvisualisatie weergeven
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
-1. Selecteer in het linkerdeelvenster de optie **Mensen**.
+1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
+1. In het linkerpaneel, uitgezochte **Mensen**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
@@ -102,11 +102,11 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Voorwaardelijk) als u uw filter van het Team niet hebt geplaatst, voeg de filter van het Team toe en selecteer elk team dat u gegevens voor wilt zien.
 
-   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor meer informatie bij het toevoegen van filters in Verbeterde analyses, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -138,8 +138,8 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optioneel) Klik op het pictogram Exporteren om de visualisatiegegevens te exporteren ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op het pictogram Exporteren ![](assets/export.png) in de rechterbovenhoek van de visualisatie en selecteert u de exportindeling:
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * **Grafiek (PNG)**
+   * **Lijst van Gegevens (XSLX)**
 

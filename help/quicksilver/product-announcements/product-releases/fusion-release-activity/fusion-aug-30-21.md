@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 30 augustus 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Gebeurtenissen filteren die de module Workfront > Watch-gebeurtenissen activeren
 
@@ -43,5 +43,5 @@ Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u 
 
    Eerder was dit filter niet beschikbaar. Daarom was het gemakkelijker voor veranderingen die in de modules van Workfront worden aangebracht om scenario&#39;s teweeg te brengen die die modules bevatten, potentieel veroorzakend scenario&#39;s om zich in een oneindige lijn teweeg te brengen.
 
-Zie voor meer informatie over gebeurtenisfilters in de module Workfront > Watch-gebeurtenissen [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie over gebeurtenisfilters in Workfront > de gebeurtenismodule van het Controle, zie {de modules van Adobe Workfront 0} ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).[
 

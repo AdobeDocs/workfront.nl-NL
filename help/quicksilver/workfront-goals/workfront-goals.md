@@ -23,7 +23,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
      of
 
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
 
 * Voor het huidige plan en de licentiestructuur:
 
@@ -32,14 +32,14 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
 Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
-Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Deze sectie bevat de volgende subsecties:
 
-* [Overzicht van Adobe Workfront-doelen](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Goederenbeheer in Adobe Workfront-doelstellingen](../workfront-goals/goal-management/goal-management.md)
-* [Doelstellingen in Adobe Workfront](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Doelstellingen en de Adobe Workfront-doelstellingen](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [ overzicht van de Doelen van Adobe Workfront ](../workfront-goals/goal-management/wf-goals-overview.md)
+* [ Goal beheer in de Doelen van Adobe Workfront ](../workfront-goals/goal-management/goal-management.md)
+* [ Goal groepering in de Doelen van Adobe Workfront ](../workfront-goals/goal-alignment/goal-alignment.md)
+* [ het overzicht van het Doel en de secties van de Doelen van Adobe Workfront ](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
 * [Resultaten en activiteiten in de Adobe Workfront-doelstellingen](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--

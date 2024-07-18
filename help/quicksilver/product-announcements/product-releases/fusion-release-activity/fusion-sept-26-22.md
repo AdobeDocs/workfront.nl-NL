@@ -29,4 +29,4 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw GitLab-
 * Bouwt opnieuw of ontbroken pijpleidingsbanen
 * GitLab-objecten bewerken, wijzigen of bijwerken
 
-Zie voor meer informatie, waaronder een volledige lijst met beschikbare acties [GitLab-modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md).
+Voor meer informatie, met inbegrip van een volledige lijst van beschikbare acties, zie {de modules van 0} GitLab ](/help/quicksilver/workfront-fusion/apps-and-their-modules/gitlab-modules.md).[

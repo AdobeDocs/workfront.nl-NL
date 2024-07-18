@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Uitgiftestatus
 
@@ -68,7 +68,7 @@ Uw Adobe Workfront-beheerder kan aangepaste statussen toevoegen voor problemen v
 
 Raadpleeg de volgende artikelen voor meer informatie over aangepaste statussen en uitgavetypen:
 
-* [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
+* [ creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit
 * [Problemen maken](../../../manage-work/issues/manage-issues/create-issues.md)
 
 U kunt de status van uitgaven handmatig bijwerken of u kunt Workfront toestaan deze automatisch bij te werken wanneer bepaalde handelingen plaatsvinden.
@@ -86,8 +86,8 @@ U kunt de status van de uitgave bijwerken in de volgende gebieden van Workfront:
 U kunt als volgt de status van de uitgave in de uitgaveheader handmatig bijwerken:
 
 1. Ga naar een kwestie waarvoor u de status wilt bijwerken.
-1. Klik op de knop **Status** in de uitgiftheader en selecteer een nieuwe status.
-1. Als u een visuele indicatie van het voltooien van de uitgave wilt weergeven, sleept u of dubbelklikt u op de bel onder **Percentage voltooid** in de koptekst van de uitgave
+1. Klik het **gebied van de Status** in de uitgiftekopbal en selecteer een nieuwe status.
+1. Om een visuele aanwijzing van kwestie voltooiing te verstrekken, sleep of dubbelklik de bel onder **Volledige Percentage** in de kopbal van de kwestie tweemaal
 
    of
 
@@ -97,12 +97,12 @@ U kunt als volgt de status van de uitgave in de uitgaveheader handmatig bijwerke
 
 1. (Optioneel) Voer een van de volgende handelingen uit om aanvullende informatie over de update op te geven:
 
-   * Als u een notitie over de update wilt toevoegen, gaat u naar de **Updates** sectie en klik op **Nieuwe opmerking** Typ vervolgens een notitie.
+   * Om een nota over de update toe te voegen, ga naar de **sectie van Updates** en klik **Nieuwe commentaar**, dan typ een nota.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Als u bepaalde gebruikers op de hoogte wilt stellen van de update, typt u hun namen in het dialoogvenster **Tags toewijzen aan personen of teams** wordt weergegeven wanneer u een opmerking typt. Zie voor meer informatie [Andere tags toepassen op updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Als u de datum van afgifte vastleggen wilt bijwerken, klikt u op **Probleemdetails** en bewerkt u vervolgens de **Vastlegdatum** veld. Zie voor meer informatie [Problemen bewerken](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [ Tags anderen op updates ](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om de Vastlegdatum van de kwestie bij te werken, klik **Details van de Uitgave**, dan geef **het gebied van de Datum** toe. Voor informatie, zie [ kwesties ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 
    >[!IMPORTANT]
@@ -136,7 +136,7 @@ Workfront werkt de bestaande status van een uitgave automatisch bij naar een and
 
 >[!NOTE]
 >
->De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het maken en beheren van statussen in Workfront raadpleegt u [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,12 +161,12 @@ Workfront werkt de bestaande status van een uitgave automatisch bij naar een and
   <tr> 
    <td>De status bijwerken van een oplossend object dat is gekoppeld aan het probleem</td> 
    <td>Verschillende statussen</td> 
-   <td> <p>Verschillende statussen</p> <p>Voor informatie over het oplossen van voorwerpen en hoe zij de status van kwesties beïnvloeden, zie de sectie "Synchronize de Status van het Oplosbare Voorwerp met dat van het Oplossende Voorwerp"in het artikel <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overzicht van Oplossende en Oplosbare objecten </a>.</p> </td> 
+   <td> <p>Verschillende statussen</p> <p>Voor informatie over het oplossen van voorwerpen en hoe zij de status van kwesties beïnvloeden, zie de sectie "Synchronize de Status van het Oplosbare Voorwerp met dat van het Oplossende Voorwerp"in het artikel <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Klik op Uitgave starten om te accepteren dat u werkt aan een probleem dat aan u is toegewezen</span> </td> 
-   <td><span>Nieuw</span> </td> 
-   <td> <p>Om het even welke status verbonden aan de knoop van de Uitgave van het Begin in uw montages van het Team van het Huis. </p> <p>Voor informatie over het vervangen van de knop Werk aan het door een knop Uitgave starten, raadpleegt u <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">De knop Aan de werkbalk vervangen door de knop Start</a></span><span>.</span> </p> <p>Tip: klikken <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">de knop Ongedaan maken</span> nadat u op Uitgave starten hebt geklikt, wordt de status teruggezet naar Nieuw. </p> </td> 
+   <td><span> klik de knoop van de Uitgave van het Begin om het werken aan een kwestie goed te keuren die aan u wordt toegewezen </span> </td> 
+   <td><span> Nieuw </span> </td> 
+   <td> <p>Om het even welke status verbonden aan de knoop van de Uitgave van het Begin in uw montages van het Team van het Huis. </p> <p>Voor informatie over het vervangen van het Werk op het knoop met een knoop van de Uitgave van het Begin, zie <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref"> het Werk op het knoop met een knoop van het Begin vervangen </a></span> <span>.</span> </p> <p>Tip: Het klikken <span data-mc-conditions="QuicksilverOrClassic.Quicksilver"> ongedaan maakt knoop </span> na het klikken van de Uitgave van het Begin keert de status aan Nieuw terug. </p> </td> 
   </tr> 
  </tbody> 
 </table>

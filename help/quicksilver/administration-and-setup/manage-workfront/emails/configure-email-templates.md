@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,13 +59,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **E-mail** > **Meldingen**> **E-mailsjablonen**.
+1. In het linkerpaneel, klik **E-mail** > **Meldingen** > **E-mailMalplaatjes**.
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. Klikken **Nieuwe e-mailsjabloon**.
+1. Klik **Nieuw E-mailMalplaatje**.
 
-1. In de **Nieuwe e-mailsjabloon** de volgende gegevens op:
+1. In het **Nieuwe E-mailvakje van het Malplaatje**, specificeer de volgende informatie:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,27 +97,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Lichaam </td> 
-      <td> <p>Voeg de tekst voor de inhoud van het e-mailbericht toe.</p> <p>U kunt HTML-opmaak gebruiken voor de e-mailinhoud, zoals beschreven in de sectie <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">HTML-opmaak toevoegen aan een e-mailsjabloon</a> in dit artikel.</p> </td> 
+      <td> <p>Voeg de tekst voor de inhoud van het e-mailbericht toe.</p> <p>U kunt HTML het formatteren voor de e-mailinhoud gebruiken, zoals die in de sectie <a href="#add-html-formatting-to-an-email-template" class="MCXref xref"> wordt beschreven voeg HTML het formatteren aan een e-mailmalplaatje </a> in dit artikel toe.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## HTML-opmaak toevoegen aan een e-mailsjabloon {#add-html-formatting-to-an-email-template}
 
 U kunt HTML-tags toevoegen aan e-mailsjablonen om aangepaste meldingen te maken.\
-Beginnen met het maken van de e-mailsjabloon zoals beschreven in [Een nieuwe e-mailsjabloon maken](#create-a-new-email-template).
+Begin creërend het e-mailmalplaatje zoals die in [ wordt beschreven creeer een nieuw e-mailmalplaatje ](#create-a-new-email-template).
 
 Met HTML-opmaak kunt u uw e-mailsjablonen verrijken, zoals in de volgende secties wordt getoond.
 
-* [Koppeling naar Workfront-objecten](#link-to-workfront-objects)
-* [Koppelen naar aangepaste velden met HTML](#link-to-custom-fields-with-html)
+* [ Verbinding aan de voorwerpen van Workfront ](#link-to-workfront-objects)
+* [ Verbinding aan douanegebieden met HTML ](#link-to-custom-fields-with-html)
 * [E-mailvoorbeelden HTML](#html-email-examples)
 
 ### Koppeling naar Workfront-objecten {#link-to-workfront-objects}
 
-U kunt koppelingen naar Workfront-velden opnemen met de `$$` jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan een specifiek voorwerp.
+U kunt koppelingen naar Workfront-velden opnemen door met de joker `$$` naar waarden te zoeken in de database die aan een specifiek object is gekoppeld.
 
 De hoofdtekst van de e-mail voor een melding waarin de taakontvanger wordt gewaarschuwd voor de taak die op het punt staat te worden gestart, kan bijvoorbeeld de volgende structuur volgen:
 
@@ -143,15 +143,15 @@ De hoofdtekst van de e-mail voor een melding waarin de taakontvanger wordt gewaa
 
 Voer een van de volgende handelingen uit om de waarde &quot;jokerteken&quot; voor een object op te halen:
 
-* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Zie voor meer informatie over de API Explorer [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
+* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Voor meer informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Zie voor meer informatie over waarden voor de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Voor meer informatie over de waarden van de tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-De `heading` De waarde kan de naam van het object zijn, zoals u deze in de hoofdtekst van de e-mail wilt weergeven.
+De waarde `heading` kan de naam van het object zijn, zoals u deze in de hoofdtekst van de e-mail wilt weergeven.
 
 ### Koppelen naar aangepaste velden met HTML {#link-to-custom-fields-with-html}
 
-U kunt koppelingen naar gebruikers en aangepaste velden opnemen met de `$$` jokerteken om de e-mailgenerator te vertellen naar waarden van het gegevensbestand te zoeken verbonden aan het voorwerp. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
+U kunt koppelingen naar gebruikers en aangepaste velden opnemen door met de joker `$$` naar waarden te zoeken in de database die aan het object is gekoppeld. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
 
 Als u bijvoorbeeld de volgende tekst toevoegt als HTML, wordt de voornaam van de toegewezen gebruiker toegevoegd aan het herinneringsbericht dat aan een taak is gekoppeld:
 
@@ -163,7 +163,7 @@ Als u aangepaste velden wilt toevoegen met dezelfde opmaak, kunt u het volgende 
 
 Dit is bijvoorbeeld een e-mailsjabloon met een verwijzing naar een aangepast veld met de naam Datum van levering. Hierbij wordt ervan uitgegaan dat het veld Datum van levering tot een taak behoort.
 
-Vervangen `<your domain>` met het Workfront-domein van uw bedrijf, zonder de vierkante haakjes:
+Vervang `<your domain>` door het Workfront-domein van uw bedrijf, zonder de accolades:
 
 ```html
 <html>
@@ -199,16 +199,16 @@ Vervangen `<your domain>` met het Workfront-domein van uw bedrijf, zonder de vie
 
 ### E-mailvoorbeelden HTML {#html-email-examples}
 
-* [Melding van laatste herinnering voor project (voorbeeld)](#late-project-reminder-notification-example)
+* [ laat bericht van de herinnering van het Project (voorbeeld) ](#late-project-reminder-notification-example)
 * [Herinnering voor taak of probleem bij Start (voorbeeld)](#task-or-issue-about-to-start-reminder-example)
 
 #### Melding van laatste herinnering voor project (voorbeeld) {#late-project-reminder-notification-example}
 
 Als u een e-mailsjabloon wilt bewerken voor een herinnering voor een laat project, moet u rekening houden met deze informatie voor de velden Onderwerp en Inhoud.
 
-Vervangen `<your domain>` met het Workfront-domein van uw bedrijf, zonder de vierkante haakjes.
+Vervang `<your domain>` door het Workfront-domein van uw bedrijf, zonder de vierkante haken.
 
-**Betreft:**
+**Onderwerp:**
 
 Een project dat u beheert is te laat geworden
 
@@ -242,11 +242,11 @@ U kunt ook een herinneringsbericht voor een volgende taak of kwestie tot stand b
 
 De volgende code kan worden opgenomen in een e-mailsjabloon dat moet worden gebruikt voor taak- en uitgifteherinneringsberichten die een willekeurig aantal dagen vóór de geplande begindatum van de taak of uitgave worden verzonden.
 
-Vervangen `<your domain>` met het Workfront-domein van uw bedrijf, zonder de vierkante haakjes.
+Vervang `<your domain>` door het Workfront-domein van uw bedrijf, zonder de vierkante haken.
 
-Als u dit voor een e-mailbericht over een uitgave wilt gebruiken, wijzigt u de optie `/task/view.` waarde in de koppeling naar het werkitem `/issue/view`.
+Als u dit voor een e-mailbericht over een probleem wilt gebruiken, wijzigt u de waarde `/task/view.` in de koppeling naar het werkitem in `/issue/view` .
 
-**Betreft:**
+**Onderwerp:**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
@@ -287,6 +287,6 @@ Als u dit voor een e-mailbericht over een uitgave wilt gebruiken, wijzigt u de o
 </html>
 ```
 
-![email_template_delivery.png](assets/email-template-delivered.png)
+![ email_template_delivery.png ](assets/email-template-delivered.png)
 
-Nadat een e-mailsjabloon is gemaakt, kunnen gebruikers deze koppelen aan herinneringsberichten, zoals beschreven in [Herinneringsmeldingen instellen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Nadat een e-mailmalplaatje wordt gecreeerd, kunnen de gebruikers het met herinneringsberichten associëren, zoals die in [ worden beschreven de herinneringsberichten van de Opstelling ](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

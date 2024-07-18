@@ -21,6 +21,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van groepen](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
-* [Overzicht subgroepen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
+* [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
+* [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
 * [Overzicht van thuisgroepen](../../../administration-and-setup/manage-groups/groups-overview/home-groups.md)

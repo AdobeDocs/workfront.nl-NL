@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Archiefmodules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u een archief, zoals een gecomprimeerd dossier, met veelvoudige derdetoepassingen en de diensten verbinden. U kunt bijvoorbeeld een scenario configureren dat
+title: Modules archiveren
+description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u een archief, zoals een gecomprimeerd dossier, met veelvoudige derdetoepassingen en de diensten verbinden. U kunt bijvoorbeeld een scenario configureren dat
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 In een [!DNL Adobe Workfront Fusion] scenario, kunt u een archief, zoals een gecomprimeerd dossier, in uw scenario gebruiken, toestaand u om het in uw automatiseringen of integraties te gebruiken.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren. Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## [!UICONTROL Archive] modules en hun velden
 
-Wanneer u [!UICONTROL Archive] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!UICONTROL Archive] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Archive] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Archive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -46,20 +46,20 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
-   <td> <p> Selecteer het bestand dat u wilt extraheren. Dit bestand kan worden toegewezen uit een vorige module (zoals de [!DNL Workfront] &gt;[!UICONTROL Download a document] module).</p>  </td> 
+   <td> <p> Selecteer het bestand dat u wilt extraheren. Dit dossier kan van een vorige module (zoals [!DNL Workfront] worden in kaart gebracht &gt; [!UICONTROL Download a document] module).</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**Voorbeeld:** ZIP-bestand ophalen uit de definitie [!DNL Dropbox] map (bijvoorbeeld Archives), extraheer deze met de [!UICONTROL Archive] en uitgepakte bestanden als bijlagen naar het gewenste e-mailadres sturen met de [!UICONTROL Email] of [!DNL Gmail] module.
+>**Voorbeeld:** krijg het dossier van het PIT van de bepaalde [!DNL Dropbox] omslag (bijvoorbeeld, Archives), haalt het uit gebruikend de [!UICONTROL Archive] module en verzendt geciteerde dossiers naar het gewenste e-mailadres als gehechtheid met [!UICONTROL Email] of [!DNL Gmail] module.
 >
 >![](assets/example-dropbox-350x134.png)
 
 ## [!UICONTROL Create an archive]
 
-Deze aggregatormodule voegt de gewenste bestanden toe aan een [!UICONTROL ZIP] of [!UICONTROL TAR] archief.
+Deze aggregatormodule voegt de gewenste bestanden toe aan een [!UICONTROL ZIP] - of [!UICONTROL TAR] -archief.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -100,7 +100,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 >[!INFO]
 >
->**Voorbeeld:** Ontbrekende e-mails bekijken met de [!DNL Gmail] >[!UICONTROL Watch emails] module. Als een e-mail wordt ontvangen, worden de bijlagen herhaald in afzonderlijke bundels en vervolgens gearchiveerd naar de [!DNL ZIP] en opgeslagen naar de gedefinieerde map Dropbox.
+>**Voorbeeld:** bekijk inkomende e-mails gebruikend [!DNL Gmail] > [!UICONTROL Watch emails] module. Als een e-mail wordt ontvangen, worden de bijlagen herhaald in afzonderlijke bundels, vervolgens naar het [!DNL ZIP] -bestand gearchiveerd en in de gedefinieerde map Dropbox opgeslagen.
 >
 >![](assets/example-gmail-350x102.png)
 

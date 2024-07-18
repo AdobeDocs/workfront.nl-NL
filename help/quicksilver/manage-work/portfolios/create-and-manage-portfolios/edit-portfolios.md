@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt gegevens bewerken over portfolio&#39;s die u hebt gemaakt of die andere gebruikers hebben gemaakt als ze deze met u hebben gedeeld.
 
-U kunt een [!UICONTROL portfolio] in de portfoliopagina of u kunt portfolio&#39;s in een lijst bewerken.
+U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#39;s in een lijst bewerken.
 
 ## Toegangsvereisten
 
@@ -37,21 +37,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over toegang tot portefeuilles in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">Toegang tot portefeuilles verlenen</a>. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot portefeuilles in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref"> Toegang van de Verlening tot portefeuilles </a>. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een portfolio</p> <p> Zie voor informatie over het verlenen van machtigingen aan portfolio's <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Een portfolio delen </a>. </p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een portfolio</p> <p> Voor informatie over het verlenen van toestemmingen aan portefeuilles, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref"> een portefeuille delen </a>. </p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
 ## Portfolio&#39;s bewerken
 
-1. Ga naar de **[!UICONTROL Main Menu]**.
-1. Klikken **[!UICONTROL Portfolios]** en klikt u op de naam van een portfolio om dit te openen.
+1. Ga naar de **[!UICONTROL Main Menu]** .
+1. Klik op **[!UICONTROL Portfolios]** en klik vervolgens op de naam van een portfolio om het te openen.
 1. (Optioneel) Als u de beperkte informatie over het portfolio wilt bewerken, klikt u op **[!UICONTROL Portfolio Details]** in het linkerdeelvenster.
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
@@ -62,15 +62,15 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw [!DNL Workfront] de beheerder of de beheerder van de Groep wijzigde uw Malplaatje van de Lay-out, de gebieden in [!UICONTROL Portfolio Details] gebied kan opnieuw worden gerangschikt of niet worden weergegeven. Zie voor meer informatie [De [!UICONTROL Details] weergeven met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw [!DNL Workfront] -beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het [!UICONTROL Portfolio Details] -gebied opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de [!UICONTROL Details] mening aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Gegevens bewerken in het dialoogvenster [!UICONTROL Details] Ga als volgt te werk:
+   Ga als volgt te werk om informatie in de sectie [!UICONTROL Details] te bewerken:
 
-   1. (Optioneel) Klik op de knop **[!UICONTROL Collapse All]** om alle gebieden samen te vouwen.
-   1. (Optioneel en voorwaardelijk) Klik op het pictogram **pijl-rechts** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
-   1. Voor informatie over de velden die in het dialoogvenster [!UICONTROL Portfolio Details] sectie, doorgaan met het bewerken van het portfolio in de [!UICONTROL Edit Portfolio] zoals hieronder beschreven.
-   1. (Optioneel) Als er geen aangepaste formulieren aan het portfolio zijn gekoppeld, typt u de naam van een formulier in het dialoogvenster **[!UICONTROL Add custom form]** , selecteert u het veld wanneer het wordt weergegeven in de lijst en klikt u vervolgens op **[!UICONTROL Save Changes]**.
-   1. (Optioneel) Klik op de knop **[!UICONTROL Export]** pictogram ![](assets/export.png) om de [!UICONTROL Overview] en aangepaste formuliergegevens naar een PDF-bestand, klikt u vervolgens op **[!UICONTROL Export]**. Selecteer een van de volgende opties:
+   1. (Optioneel) Klik op het pictogram **[!UICONTROL Collapse All]** in de rechterbovenhoek om alle gebieden samen te vouwen.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. Voor informatie over de velden die zichtbaar zijn in de sectie [!UICONTROL Portfolio Details] , gaat u verder met het bewerken van het portfolio in het vak [!UICONTROL Edit Portfolio] , zoals hieronder wordt beschreven.
+   1. (Optioneel) Als er geen aangepaste formulieren aan het portfolio zijn gekoppeld, typt u de naam van een formulier in het veld **[!UICONTROL Add custom form]** , selecteert u het formulier wanneer het in de lijst wordt weergegeven en klikt u op **[!UICONTROL Save Changes]** .
+   1. (Optioneel) Klik op het pictogram **[!UICONTROL Export]** ![](assets/export.png) om de [!UICONTROL Overview] -gegevens en aangepaste formuliergegevens te exporteren naar een PDF-bestand en klik vervolgens op **[!UICONTROL Export]** . Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
@@ -80,7 +80,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      Zie voor meer informatie [Aangepaste formulieren en objectdetails exporteren](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Voer een van de volgende handelingen uit als u alle informatie over een of meer portfolio&#39;s wilt bewerken:
@@ -89,22 +89,22 @@ Neem contact op met uw [!DNL Workfront] beheerder.
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
 
-   * Klik op de knop **[!UICONTROL More]** naast de naam van het portfolio, en vervolgens **[!UICONTROL Edit].**
+   * Klik op het menu **[!UICONTROL More]** naast de naam van het portfolio en klik vervolgens op **[!UICONTROL Edit].**
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * Ga naar een lijst met portfolio&#39;s en selecteer een of meer portfolio die u wilt bewerken. Klik vervolgens op de knop **[!UICONTROL Edit]** pictogram ![](assets/edit-icon.png) boven aan de lijst.
+   * Ga naar een lijst met portfolio&#39;s en selecteer een of meer portfolio die u wilt bewerken. Klik vervolgens op het pictogram **[!UICONTROL Edit]** ![](assets/edit-icon.png) boven aan de lijst.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
-   De **[!UICONTROL Edit Portfolio]** wordt weergegeven.
+   Het dialoogvenster **[!UICONTROL Edit Portfolio]** wordt weergegeven.
 
    ![](assets/edit-portfolio-box-classic-350x224.png)
 
-   Alle portfoliovelden zijn beschikbaar in het dialoogvenster [!UICONTROL Edit Portfolio] en worden gegroepeerd door de gebieden in het linkerdeelvenster.
+   Alle portfoliovelden zijn beschikbaar in het vak [!UICONTROL Edit Portfolio] en worden gegroepeerd op de gebieden in het linkerdeelvenster.
 
 1. Overweeg informatie op te geven in een van de volgende secties:
 
@@ -115,7 +115,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 ### [!UICONTROL Overview] {#overview}
 
 1. Een portfolio bewerken zoals hierboven beschreven.
-1. Klikken **[!UICONTROL Overview]** en geef de volgende velden op:
+1. Klik op **[!UICONTROL Overview]** en geef de volgende velden op:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below is drafted: drafted till they release new Edit Portfolio boxes)</p>
@@ -142,15 +142,15 @@ Neem contact op met uw [!DNL Workfront] beheerder.
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Typ de naam van een gebruiker die u wilt aangeven als portfoliobeheerder en selecteer deze naam wanneer deze wordt weergegeven in de lijst. Dit is hetzelfde als [!UICONTROL Portfolio Owner]. Dit is de persoon die het werk kan controleren dat in de projecten van de portefeuille wordt bepaald en het BedrijfsGeval kan goedkeuren.</p> <p>Belangrijk: wanneer u iemand aanwijst als Portfolio Manager, wordt deze automatisch opgehaald [!UICONTROL Manage] machtigingen voor het portfolio, de programma's en de projecten in het portfolio. </p> <p>Tip: u kunt het portfoliobeheer snel bijwerken in de koptekst van het portfolio. </p> </td> 
+      <td> <p>Typ de naam van een gebruiker die u wilt aangeven als portfoliobeheerder en selecteer deze naam wanneer deze wordt weergegeven in de lijst. Dit is het zelfde als [!UICONTROL Portfolio Owner]. Dit is de persoon die het werk kan controleren dat in de projecten van de portefeuille wordt bepaald en het BedrijfsGeval kan goedkeuren.</p> <p>Belangrijk: wanneer u iemand aanwijst als Portfolio Manager, krijgt deze automatisch [!UICONTROL Manage] machtigingen voor het portfolio, de programma's en de projecten in het portfolio. </p> <p>Tip: u kunt het portfoliobeheer snel bijwerken in de koptekst van het portfolio. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Voeg de naam van één groep toe als de groep is gekoppeld aan het portfolio of verantwoordelijk is voor het voltooien ervan. </p> <p>Tip:  <p>Wanneer u het dialoogvenster [!UICONTROL Group] veld van de [!UICONTROL Portfolio Details] pagina, ga als volgt te werk: </p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op de knop [!UICONTROL information] pictogram <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Deze optie is niet beschikbaar in het dialoogvenster [!UICONTROL Edit Portfolio] doos. </p> </p> </td> 
+      <td> <p>Voeg de naam van één groep toe als de groep is gekoppeld aan het portfolio of verantwoordelijk is voor het voltooien ervan. </p> <p>Tip:  <p>Ga als volgt te werk wanneer u het veld [!UICONTROL Group] opent vanaf de pagina [!UICONTROL Portfolio Details] : </p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het pictogram [!UICONTROL information] <img src="assets/info-icon.png"> naast de groep te klikken. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Deze optie is niet beschikbaar in het vak [!UICONTROL Edit Portfolio] . </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Alignment Scorecard]</p> </td> 
-      <td> <p>Selecteer in de vervolgkeuzelijst het uitlijningsscorecard dat u wilt gebruiken. Een scorecard wordt gebruikt om te meten hoe goed een project zich aan de gevestigde criteria van een Portfolio richt vaak die de opdracht, de waarden, en de strategische doelstellingen van een organisatie weerspiegelen. Zie voor meer informatie <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Pas een scorecard op een project toe en produceer een Score van de Uitlijning</a> en <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Een scorecard maken</a>.</p> </td> 
+      <td> <p>Selecteer in de vervolgkeuzelijst het uitlijningsscorecard dat u wilt gebruiken. Een scorecard wordt gebruikt om te meten hoe goed een project zich aan de gevestigde criteria van een Portfolio richt vaak die de opdracht, de waarden, en de strategische doelstellingen van een organisatie weerspiegelen. Voor meer informatie, zie <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref"> een scorecard op een project toepassen en een Score van de Uitlijning </a> produceren en <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref"> creeer een scorecard </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
@@ -159,20 +159,20 @@ Neem contact op met uw [!DNL Workfront] beheerder.
     </tbody> 
    </table>
 
-1. Klikken **[!UICONTROL Save Changes]** of ga door met het bewerken van de volgende secties.
+1. Klik op **[!UICONTROL Save Changes]** of ga door met het bewerken van de volgende secties.
 
 ### Aangepaste Forms
 
 1. Bewerk het portfolio zoals hierboven beschreven.
-1. Klik op de knop **[!UICONTROL Add Forms]** vervolgkeuzelijst om aangepaste formulieren te selecteren en toe te voegen aan het portfolio.
+1. Klik op het vervolgkeuzemenu **[!UICONTROL Add Forms]** om aangepaste formulieren te selecteren en toe te voegen aan het portfolio.
 
    U moet aangepaste portfolioformulieren maken voordat u deze kunt toevoegen.
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw [!DNL Workfront] beheerder stelt de machtigingen in voor de secties in het aangepaste formulier. Niet iedereen kan dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het portfolio zelf. Zie voor informatie over het instellen van machtigingen voor secties in een aangepast formulier [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het portfolio zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
-1. Werk alle velden in de aangepaste formulieren bij en klik vervolgens op **[!UICONTROL Save Changes]** of ga verder met de volgende sectie.
+1. Werk alle velden in de aangepaste formulieren bij en klik op **[!UICONTROL Save Changes]** of ga verder met de volgende sectie.
 
 ### Opmerking {#comment}
 
@@ -181,7 +181,7 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
    ![](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. Voeg een opmerking toe in het dialoogvenster **[!UICONTROL Post an update to the portfolio]** veld.
-1. (Optioneel) Klik op de knop **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.
-1. (Optioneel) Klik op de knop **[!UICONTROL Lock]** pictogram om de opmerking te vergrendelen en deze alleen toegankelijk te maken voor gebruikers in uw bedrijf.
+1. Voeg een opmerking toe in het veld **[!UICONTROL Post an update to the portfolio]** .
+1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.
+1. (Optioneel) Klik op het pictogram **[!UICONTROL Lock]** om de opmerking te vergrendelen en deze alleen toegankelijk te maken voor gebruikers in uw bedrijf.
 1. Klik op **[!UICONTROL Save Changes]**.

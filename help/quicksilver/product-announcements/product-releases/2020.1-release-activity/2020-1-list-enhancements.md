@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in Lijsten beschreven die zijn aangebracht met de release 2020.1. Deze verbeteringen zijn momenteel beschikbaar in de voorvertoningsomgeving en worden eind maart of begin april 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 2020.1, zie [Overzicht van de release 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Nieuwe opslagmodus wanneer u wijzigingen aanbrengt in een takenlijst: de modus Tijdlijn plannen
 
@@ -30,7 +30,7 @@ Houd rekening met de volgende voordelen wanneer u de planningsmodus van de tijdl
 * Het verzenden van elke wijziging is sneller dan wanneer u de modi Automatisch of Handmatig opslaat gebruikt.
 * U kunt uw wijzigingen terugdraaien voordat u ze opslaat.
 
-Zie de sectie &quot;Taken bewerken met de planningsinstelling voor de tijdlijn&quot; in het artikel voor meer informatie over het opslaan van wijzigingen in een takenlijst [Taken in een lijst bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Voor meer informatie over het bewaren van veranderingen in een taaklijst, zie &quot;taken uitgeven gebruikend de Chronologie plannend&quot;sectie in het artikel [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 ## De bijgewerkte weergave van nieuwe lijsten
 
@@ -40,7 +40,7 @@ Zie de sectie &quot;Taken bewerken met de planningsinstelling voor de tijdlijn&q
 
 De projecten, de Taken, en de lijsten van Uren hebben nu een bijgewerkte blik en een gevoel.
 
-Zie voor informatie over het weergeven van items in lijsten [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over het bekijken van punten in lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 Enkele updates omvatten:
 
@@ -54,19 +54,19 @@ Enkele updates omvatten:
 
 U ziet nu duidelijker het verschil tussen verschillende lagen van groepen in lijsten met een nieuw kleurenschema. De resultaten van de groepering worden ook duidelijker in een afzonderlijk kader geschetst. Deze wijziging is toegepast op alle nieuwe lijsten.
 
-Voor informatie over het maken en aanpassen van groepen raadpleegt u [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Voor informatie over het creëren van en het aanpassen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Overeenkomende items in lijsten markeren bij gebruik van snelle filters
 
 Het zoeken naar items in lijsten gaat nu sneller: wanneer u een item zoekt met behulp van snelle filters, worden de overeenkomende velden in de resultaten geel gemarkeerd, zodat u duidelijk kunt zien welke veldwaarde overeenkomt met uw trefwoord. De velden worden geel gemarkeerd in standalone velden, maar ook in gedeelde kolommen en complexe velden. Enkele voorbeelden van complexe velden zijn toewijzingen, toewijzingen en status, Percentage voltooid, voorgangers, fiatteurs en status, Resource Managers, Categorieën, Condition Update, enzovoort.
 
-Zie voor informatie over het gebruik van snelle filters [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over het gebruiken van snelle filters, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Beperk de mogelijkheden van gebruikers om de besturingselementen Filter, Weergave en Groepering in lijsten en rapporten te bewerken
 
 Nu kunt u een toegangsniveau gebruiken om de capaciteit te beperken die de gebruikers de Filter, Mening, en het Groeperen controles op lijsten en rapporten moeten uitgeven. Dit is handig als u aangepaste velden hebt die u alleen zichtbaar wilt maken voor gebruikers op een bepaald toegangsniveau.
 
-Zie voor meer informatie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+Voor meer informatie, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 ## Nieuw meer menu in het gedeelte Updates
 
@@ -76,13 +76,13 @@ Gebruik het menu Meer in een update voor:
 * De directe koppeling naar een updatethread of één update kopiëren
 * Een update verwijderen
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nieuwe voortgangsbalk in het gedeelte Updates
 
 Het percentage van de volledige voortgangsbalk in het updategebied heeft een nieuw uiterlijk. Klik en sleep om het percentage bij te werken of dubbelklik om het getal handmatig in te voeren.
 
-Zie voor meer informatie [Werk bijwerken](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Kolomkoppen van lijsten en rapporten weergeven in hoofdlettergebruik
 
@@ -100,4 +100,4 @@ Standaard worden de resultaten weergegeven in een uitgevouwen lijst onder de gro
 
 Vóór deze wijziging worden de resultaten altijd weergegeven in een samengevouwen lijst.
 
-Voor informatie over het maken van een groep raadpleegt u [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Voor informatie over het creëren van een groepering, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).

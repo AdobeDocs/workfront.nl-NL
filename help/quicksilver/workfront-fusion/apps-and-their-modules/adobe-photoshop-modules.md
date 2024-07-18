@@ -18,12 +18,12 @@ ht-degree: 0%
 
 # [!DNL Adobe Photoshop] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Adobe Photoshop]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Adobe Photoshop] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario ](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -53,28 +53,28 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td>
+      <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-&#42;&#42;Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; Zie [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md) voor informatie over [!DNL Adobe Workfront Fusion] -licenties.
 
 ## Vereisten
 
-Voordat u de [!DNL Adobe Photoshop] -aansluiting, moet u ervoor zorgen dat aan de volgende voorwaarden wordt voldaan:
+Voordat u de [!DNL Adobe Photoshop] -connector kunt gebruiken, moet u controleren of aan de volgende voorwaarden is voldaan:
 
-* U moet een actieve [!DNL Adobe Photoshop] account.
+* U moet een actieve [!DNL Adobe Photoshop] account hebben.
 
 ## Verbinding maken met [!DNL Adobe Photoshop]
 
-Als u een verbinding wilt maken voor uw [!DNL Adobe Photoshop] modules:
+Verbinding maken voor uw [!DNL Adobe Photoshop] -modules:
 
-1. Klikken **[!UICONTROL Add]** naast het vak Verbinding.
+1. Klik op **[!UICONTROL Add]** naast het vak Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -92,24 +92,24 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Photoshop] modules:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials] sectie details van de [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials] sectie details van de [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials] sectie details van de [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials] sectie details van de [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
-          <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in het dialoogvenster [!DNL Adobe Developer Console]. </p>
+          <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in de [!DNL Adobe Developer Console] . </p>
           <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
           <ol>
             <li value="1">
@@ -125,7 +125,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Photoshop] modules:
               <p>Voer het wachtwoord voor het bestand in.</p>
             </li>
             <li value="5">
-              <p>Klikken <b>Opslaan</b> om het bestand uit te pakken en terug te keren naar[!UICONTROL ]e verbinding instellen.</p>
+              <p>Klik <b> sparen </b> om het dossier te halen en aan de [!UICONTROL ] verbindingsopstelling terug te keren.</p>
             </li>
           </ol>
         </td>
@@ -133,13 +133,13 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Photoshop] modules:
       </tbody>
     </table>
 
-1. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL Adobe Photoshop] modules en hun velden
 
-Wanneer u [!DNL Adobe Photoshop] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Adobe Photoshop] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe Photoshop] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Photoshop] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -158,7 +158,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 Deze actiemodule maakt een nieuwe PSD met optionele lagen en genereert uitvoeringen of slaat op als een PSD.
 
-Voor velden die betrekking hebben op deze module, raadpleegt u [Een nieuwe PSD maken](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) in de documentatie van Adobe Photoshop.
+Voor gebieden met betrekking tot deze module, zie [ een nieuwe PSD ](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) in de documentatie van Adobe Photoshop creëren.
 
 #### Tekstlagen bewerken
 
@@ -170,7 +170,7 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop], zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel.</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -198,7 +198,7 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Layers]</td>
-   <td> <p>Zie voor meer informatie over laagopties <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">Tekstlaag bewerken</a> in de documentatie van Adobe Photoshop.</p>  </td>     </tr>
+   <td> <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text"> tekstlaag </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
@@ -242,7 +242,7 @@ Deze actiemodule voert Diepte vervagen op het geselecteerde bestand uit.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop], zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel.</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -277,7 +277,7 @@ Deze actiemodule voert Diepte vervagen op het geselecteerde bestand uit.
     <tr>
       <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
-        <p>Voor meer informatie over andere opties voor Diepte vervagen raadpleegt u <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">Diepte vervagen uitvoeren </a>in de Adobe Photoshop API-documentatie.</p>
+        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
       </td>
     </tr>
     <tr>
@@ -305,7 +305,7 @@ Deze actiemodule voert een Photoshop-actie uit op de geselecteerde afbeelding.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop], zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel.</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -392,7 +392,7 @@ Deze actiemodule voert het Uitsnijden van het Product op het geselecteerde beeld
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop], zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel.</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -467,7 +467,7 @@ Deze actiemodule wint laaginformatie van het gespecificeerde dossier van PSD ter
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop], zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel.</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -500,19 +500,19 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop], zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel.</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Een pad invoeren ten opzichte van <code>https://image.adobe.io/pie/psdService</code>. Voorbeeld: <code>/photoshopActions</code></p>
+        <p>Voer een pad in dat relatief is ten opzichte van <code>https://image.adobe.io/pie/psdService</code> . Voorbeeld: <code>/photoshopActions</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -530,7 +530,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

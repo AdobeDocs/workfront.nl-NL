@@ -16,10 +16,10 @@ ht-degree: 0%
 
 # Help openen voor [!UICONTROL [!DNL Adobe Workfront] DAM]
 
-[!UICONTROL [!DNL Adobe Workfront] DAM] is een native Digital Asset Management (DAM)-systeem binnen [!DNL Workfront] waarmee u digitale bestanden kunt opslaan, organiseren, zoeken, ophalen en delen.
+[!UICONTROL [!DNL Adobe Workfront] DAM] is een native Digital Asset Management (DAM)-systeem in [!DNL Workfront] waarmee u digitale bestanden kunt opslaan, organiseren, zoeken, ophalen en delen.
 
-U hebt toegang tot ondersteuningsdocumentatie voor [!UICONTROL [!DNL Workfront] DAM]  op de volgende locaties:
+U hebt toegang tot de ondersteuningsdocumentatie voor [!UICONTROL [!DNL Workfront] DAM] op de volgende locaties:
 
-* Als u de stand-alone gebruikt [!UICONTROL Workfront DAM] toepassing (buiten de hoofdtoepassing [!DNL Workfront] toepassing), zie [!DNL Webdam] Help-site.
-* Als u gebruikmaakt van [!UICONTROL [!DNL Workfront] DAM] functionaliteit in het hoofdgedeelte [!DNL Workfront] toepassing, zie [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] binnen [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-* OPMERKING: Als u een eigenschapverzoek moet voorleggen of een kwestie registreert, contacteer [!DNL Workfront] Klantenondersteuning via telefoon, e-mail of de [!DNL Workfront] Help-site. Zie voor meer informatie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+* Zie de Help-site van [!DNL Webdam] als u de zelfstandige [!UICONTROL Workfront DAM] -toepassing gebruikt (buiten de hoofdtoepassing van [!DNL Workfront] ).
+* Zie [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] in  [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md) als u [!UICONTROL [!DNL Workfront] DAM] -functionaliteit gebruikt in de [!DNL Workfront] -hoofdtoepassing.
+* OPMERKING: als u een verzoek voor een functie moet indienen of een probleem wilt registreren, neemt u contact op met de [!DNL Workfront] Klantenondersteuning via telefoon, e-mail of de Help-site van [!DNL Workfront] . Voor meer informatie, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configureren [!UICONTROL Scrum]
 
-U kunt een flexibel team maken in [!DNL Adobe Workfront] zoals beschreven in [Een bestandsteam maken](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Tijdens het creëren van een flexibel team kunt u de methodologie kiezen die het team gebruikt om hun werk te voltooien. U kunt uit de volgende opties kiezen:
+U kunt een nieuw team in [!DNL Adobe Workfront] tot stand brengen zoals die in [ wordt beschreven leidt tot een mobiel team ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Tijdens het creëren van een flexibel team kunt u de methodologie kiezen die het team gebruikt om hun werk te voltooien. U kunt uit de volgende opties kiezen:
 
 * Schuiven
 * Kanban
@@ -28,7 +28,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor een scrubteam configu
 * De manier waarop kleurindicatoren worden gebruikt voor artikelen op de whiteboardpagina
 * Hoe datums worden toegepast bij het toevoegen van werkitems aan een herhaling
 
-Voor informatie over het vormen van een team Kanban, zie [Kanban configureren](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Voor informatie over het vormen van een team Kanban, zie [ Kanban ](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td> <p>Nieuw: [!UICONTROL Standard]</p> 
    of
-   <p>Huidige: [!UICONTROL Work] of hoger</p> </td> 
+   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr>
 
 <tr> 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody> 
 </table>
 
-*Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met de [!DNL Workfront] beheerder als u wilt weten welk abonnement- of licentietype u hebt.
 
 ## Configureer of artikelen worden geschat in punten of uren
 
@@ -72,18 +72,18 @@ U kunt artikelen configureren om te worden geschat aan de hand van punten of ure
 
 Om te vormen hoe de verhalen voor uw agile team worden geschat:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!UICONTROL Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!UICONTROL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. Klik op de knop **[!UICONTROL Switch team]** selecteert u vervolgens een nieuw team in het keuzemenu of zoekt u naar een team in de zoekbalk.
+1. Klik op het pictogram **[!UICONTROL Switch team]** en selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
 1. Selecteer het flexibele team dat u wilt beheren.
-1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.\
-   ![Team bewerken](assets/edit-team-settings-350x205.png)
+   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.\
+   ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
-1. In de **[!UICONTROL Agile]** in de **[!UICONTROL Estimate Stories in]** selecteert u of u punten of uren wilt gebruiken voor het schatten van de grootte (werkbelasting) van artikelen. Als u Punten selecteert, geeft u op hoeveel uren gelijk zijn aan 1 punt. (De standaardwaarde is 1 punt = 8 uur.) Dit is het aantal geplande uren dat aan het artikel wordt toegevoegd.
+1. Selecteer in de sectie **[!UICONTROL Agile]** in het gebied **[!UICONTROL Estimate Stories in]** of u punten of uren wilt gebruiken om de grootte (werklast) van artikelen te schatten. Als u Punten selecteert, geeft u op hoeveel uren gelijk zijn aan 1 punt. (De standaardwaarde is 1 punt = 8 uur.) Dit is het aantal geplande uren dat aan het artikel wordt toegevoegd.
 
-   **Voorbeeld:** Als u artikelen in punten en 1 punt wilt schatten, is dit gelijk aan 8 uur en een artikel wordt geschat op 3 punten, worden 24 geplande uren toegevoegd aan het artikel.
+   **Voorbeeld:** als u hebt geselecteerd om verhalen in punten en 1 punt te schatten evenaart 8 uren, en een verhaal wordt geschat op 3 punten, worden 24 Geplande Uren toegevoegd aan het verhaal.
 
 1. Klik op **[!UICONTROL Save changes]**.
 
@@ -100,41 +100,41 @@ U kunt de statussen bepalen die op de verhaalraad voor het flexibele team bestaa
 
 U definieert de statussen die beschikbaar zijn voor de artikelkaart die is gekoppeld aan het mobiele team:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer het flexibele team dat u wilt beheren.
-1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
+   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
 
-   ![Team bewerken](assets/edit-team-settings-350x205.png)
+   ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
-1. In de **[!UICONTROL Agile]** de sectie te zoeken **[!UICONTROL Story Board]** gebied.
+1. Zoek in de sectie **[!UICONTROL Agile]** het **[!UICONTROL Story Board]** -gebied.
 
-1. (Optioneel) Klik op **[!UICONTROL Add Column]** om een extra statuskolom toe te voegen aan het artikelbord.
+1. (Optioneel) Klik op **[!UICONTROL Add Column]** om een extra statuskolom aan het artikelbord toe te voegen.
 1. (Optioneel) Sleep een statuskolom met de indicator voor slepen en neerzetten om de volgorde van de statuskolommen op het artikelbord te wijzigen. De eerste kolom kan niet worden verplaatst en u kunt geen andere kolom vóór de eerste kolom slepen.
 
-   ![Slepen en slepen](assets/agile-story-card-drag-and-drop.png)
+   ![ belemmering en daling ](assets/agile-story-card-drag-and-drop.png)
 
 1. Selecteer zowel taak- als uitgavestatus. De status van de taak wordt getoond als kolomtitel voor elke kolom op de verhaalraad. De uitgiftestatus die u selecteert, wordt toegewezen aan de taakstatus. Dit betekent dat wanneer u een uitgave naar een andere kolom van het artikelbord verplaatst, de status van de uitgave verandert in de hier weergegeven uitgiftestatus en niet in de naam van de kolom op het artikelbord (die de taakstatus weerspiegelt).
 
    >[!IMPORTANT]
    >
-   >Alleen vergrendelde statussen voor het hele systeem kunnen worden geselecteerd. U kunt geen groepspecifieke statussen selecteren. Bovendien komt de status van de eerste kolom altijd overeen met **[!UICONTROL New]**.
+   >Alleen vergrendelde statussen voor het hele systeem kunnen worden geselecteerd. U kunt geen groepspecifieke statussen selecteren. Bovendien komt de status van de eerste kolom altijd overeen met **[!UICONTROL New]** .
 
-   U kunt aangepaste statussen toevoegen als uw [!DNL Workfront] de beheerder heeft hen gevormd; de douanestatus kan worden gevormd zoals die in [Een status maken of bewerken](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   U kunt douanestatus toevoegen als uw [!DNL Workfront] beheerder hen heeft gevormd; de douanestatus kan worden gevormd zoals die in [ wordt beschreven creeer of geef een status ](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 
    >[!NOTE]
    >
-   >Bij het selecteren van uitgiftestatussen wordt de derde kolom altijd standaard ingesteld op [!UICONTROL Closed]. Als u meer dan drie kolommen hebt, moet u de kolommen handmatig bijwerken om de juiste status te weerspiegelen.
+   >Wanneer u uitgavestatussen selecteert, wordt de derde kolom altijd standaard ingesteld op [!UICONTROL Closed] . Als u meer dan drie kolommen hebt, moet u de kolommen handmatig bijwerken om de juiste status te weerspiegelen.
 
 1. Klik op **[!UICONTROL Save changes]**.
 
 ### Statuskolommen configureren voor projecten {#configure-status-columns-for-projects}
 
-Voor informatie over hoe te om statuskolommen voor een project te vormen, zie de sectie [Een [!UICONTROL Agile] weergave](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) in het artikel [Weergaven maken of bewerken in [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Voor informatie over hoe te om statuskolommen voor een project te vormen, zie de sectie [ creëren of aanpassen een [!UICONTROL Agile] mening ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) in het artikel [ creeert of geeft meningen in  [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
 
 ## Aanvullende velden configureren voor weergave op artikelkaarten op de kaart van het gegenereerde artikel
 
@@ -158,22 +158,22 @@ U kunt aanvullende gegevens (inclusief aangepaste gegevens) weergeven op artikel
 
 U kunt als volgt artikelkaarten configureren die aan het mobiele team zijn toegewezen om extra velden weer te geven:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!UICONTROL Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!UICONTROL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer het flexibele team dat u wilt beheren.
-1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.\
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
+   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
 
-   ![Team bewerken](assets/edit-team-settings-350x205.png)
+   ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
-1. In de **[!UICONTROL Agile]** -sectie, typt u een veldnaam om deze te zoeken.
+1. Typ in de sectie **[!UICONTROL Agile]** een veldnaam om deze te zoeken.
 
-   ![Aanvullende velden](assets/agile-additional-fields-scrum.png)
+   ![ Extra gebieden ](assets/agile-additional-fields-scrum.png)
 
 1. Selecteer de naam van het veld dat u wilt toevoegen.
-1. Typ de **[!UICONTROL Display name]** voor het veld dat wordt weergegeven op het artikel of de uitgiftekaart.
+1. Typ de **[!UICONTROL Display name]** voor het veld dat moet worden weergegeven op het artikel of de uitgiftekaart.
 1. Klik op **[!UICONTROL Save changes]**.
 
 ## Configureer hoe kleurindicatoren worden gebruikt voor artikelen op de agile-artikelkaart
@@ -182,29 +182,29 @@ Standaard worden artikelbordelementen in een flexibele herhaling gekleurd volgen
 
 U wijzigt als volgt het gedrag van de manier waarop kleuren worden toegewezen aan artikelen voor een bestandsteam:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer het flexibele team dat u wilt beheren.
-1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
+   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
 
-   ![Team bewerken](assets/edit-team-settings-350x205.png)
+   ![ geef team ](assets/edit-team-settings-350x205.png) uit
 
-1. In de [!UICONTROL Agile] in de [!UICONTROL Associate Card Color to] selecteert u een van de volgende opties:
+1. Selecteer in de sectie [!UICONTROL Agile] in het gebied [!UICONTROL Associate Card Color to] een van de volgende opties:
 
-   * **[!UICONTROL Project]**: Kleuren worden gekoppeld aan het project waaraan het artikel is gekoppeld. (Wanneer een artikel wordt gemaakt, moet het worden gekoppeld aan een project, zoals wordt beschreven in [Een flexibel artikel maken](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alle taken van hetzelfde project worden met dezelfde kleur weergegeven.
-   * **[!UICONTROL Free Form]**: Alle kaarten worden standaard als blauw weergegeven totdat een gebruiker de kleur handmatig wijzigt, zoals wordt beschreven in [[!UICONTROL Categorize stories by color] op het trommelbord](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL Project]**: kleuren zijn gekoppeld aan het project waaraan het artikel is gekoppeld. (Wanneer een verhaal wordt gecreeerd, moet het met een project worden geassocieerd, zoals die in [ wordt beschreven leidt tot een Artikel van de Gelijkheid ](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Alle taken van hetzelfde project worden met dezelfde kleur weergegeven.
+   * **[!UICONTROL Free Form]**: Alle kaarten worden standaard als blauw weergegeven totdat een gebruiker de kleur handmatig wijzigt, zoals wordt beschreven in [[!UICONTROL Categorize stories by color] op het Klembord ](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md) .
    * **[!UICONTROL Priority]**: Kleuren worden als volgt gekoppeld aan de prioriteit van het artikel:
 
       * Hoog = rood
-      * Normaal = geel
+      * Medium = geel
       * Laag = Groen\
 
-        Als uw systeembeheerder douaneprioriteiten voor uw [!DNL Workfront] -systeem, de hoogste prioriteit is rood, de op één na hoogste geel en de op twee na hoogste groen.
-   * **[!UICONTROL Task Owner]**: Alle artikelen met dezelfde primaire toewijzing hebben dezelfde kleur. De primaire ontvanger is de gebruiker die voor het eerst aan de taak is toegewezen.
+        Als uw systeembeheerder douaneprioriteiten voor uw [!DNL Workfront] systeem heeft gevormd, is de hoogste prioriteit rood, is het op één na hoogste geel, en het derde hoogste groen.
+   * **[!UICONTROL Task Owner]**: alle artikelen met dezelfde primaire toewijzing hebben dezelfde kleur. De primaire ontvanger is de gebruiker die voor het eerst aan de taak is toegewezen.
 
 
 1. Klik op **[!UICONTROL Save changes]**.
@@ -213,16 +213,16 @@ U wijzigt als volgt het gedrag van de manier waarop kleuren worden toegewezen aa
 
 Wanneer u een tijdelijk item toevoegt aan een scrubherhaling, worden de geplande begindatum en de geplande voltooiingsdatum voor het werkitem standaard aangepast aan de begin- en einddatum van de herhaling. U kunt ervoor kiezen om de oorspronkelijke datums op alle werkitems voor het team te houden.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Teams]**.
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
-1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.\
-   Alleen teamleden met een van beide [!UICONTROL Plan] of [!UICONTROL Work] Deze optie ziet u voor een licentie.
-1. In de [!UICONTROL Agile] in de [!UICONTROL When a Work Item is Added to an Iteration] selecteert u een van de volgende opties:
+1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Teams]** .
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
+   Deze optie wordt alleen weergegeven voor teamleden met een [!UICONTROL Plan] - of [!UICONTROL Work] -licentie.
+1. Selecteer in de sectie [!UICONTROL Agile] in het gebied [!UICONTROL When a Work Item is Added to an Iteration] een van de volgende opties:
 
    * **[!UICONTROL Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: Wanneer werkitems aan een herhaling worden toegevoegd, worden de datums van de werkitems gewijzigd in de herhalingsdatums.\
 
-     Zie de sectie voor meer informatie over het wijzigen van datums [Begrijp hoe het toevoegen van artikelen takendatums beïnvloedt](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) in het artikel [Artikelen toevoegen aan een bestaande herhaling](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
-   * **[!UICONTROL Do not modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: Wanneer de het werkpunten aan een herhaling worden toegevoegd, behouden de het werkpunten hun originele data.
+     Voor meer informatie over hoe de data worden gewijzigd, zie de sectie [ begrijpen hoe het toevoegen van verhalen taakdata ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) in het artikel [ beïnvloedt verhalen aan een bestaande herhaling ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+   * **[!UICONTROL Do not modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: Wanneer werkitems aan een herhaling worden toegevoegd, behouden de werkitems hun oorspronkelijke datums.
 
    Als u de datumoptie wijzigt, worden de datums voor de werkitems die zich al in de herhaling bevinden, niet aangepast.
 

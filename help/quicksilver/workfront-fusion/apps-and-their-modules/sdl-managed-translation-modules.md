@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Door SDL beheerde vertaalmodules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u uw SDL Beheerde Vertaalrekening met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw SDL Beheerde rekening van de Vertaling met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # [!DNL SDL Managed Translation] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u uw [!DNL SDL Managed Translation] account voor meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw [!DNL SDL Managed Translation] -account verbinden met meerdere toepassingen en services van derden.
 
 ## Toegangsvereisten
 
@@ -39,41 +39,41 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!DNL SDL Managed Translation] Modules
 
 >[!NOTE]
 >
->De verrichtingonderbreking voor vraag aan [!DNL SDL Managed Translation] is **120 seconden**.
+>De verrichtingstijdout voor vraag aan [!DNL SDL Managed Translation] is **120 seconden**.
 
 ### Bestanden
 
 #### [!UICONTROL Download Translated File]
 
-Deze module wint de inhoud van één enkel vertaald dossier, binnen het gespecificeerde project terug. Als het gewenste bestand nog niet de status Downland heeft, is het mogelijk dat de inhoud van het bestand nog niet volledig is vertaald. Als het bestand de status Downloaden heeft en u hebt het opgehaald, moet u controleren of het bestand is voltooid met de opdracht `Cancel or Complete File` methode.
+Deze module wint de inhoud van één enkel vertaald dossier, binnen het gespecificeerde project terug. Als het gewenste bestand nog niet de status Downland heeft, is het mogelijk dat de inhoud van het bestand nog niet volledig is vertaald. Als het bestand de status Downloaden heeft en u hebt het opgehaald, moet u controleren of het bestand is voltooid met de methode `Cancel or Complete File` .
 
 #### [!UICONTROL Upload a File]
 
-Deze module staat uploads van dossiers voor vertaling of voor opneming in een vertaalproject als verwijzingsmateriaal toe. Uploads moeten worden verzonden met behulp van multipart/form-data en kunnen meerdere bestanden bevatten. U geeft de `ProjectOptionId` die moeten worden gebruikt om de geüploade bestanden te evalueren. Hiermee bepaalt u of elk bestand dat u uploadt, mogelijk kan worden omgezet of als referentiemateriaal moet worden verwerkt. In het geval van archieven (`zip `, `rar`, `7z`, `tar` (bestanden) de app controleert de inhoud van het archief en geeft aan of het archief als geheel kan worden vertaald of dat het een combinatie van vertaalbare en niet-vertaalbare bestanden bevat.
+Deze module staat uploads van dossiers voor vertaling of voor opneming in een vertaalproject als verwijzingsmateriaal toe. Uploads moeten worden verzonden met behulp van multipart/form-data en kunnen meerdere bestanden bevatten. U geeft de `ProjectOptionId` op die moet worden gebruikt om het geüploade bestand of de bestanden te evalueren. Hiermee bepaalt u of elk bestand dat u uploadt, mogelijk kan worden omgezet of als referentiemateriaal moet worden verwerkt. In het geval van archieven (`zip `, `rar`, `7z`, `tar` dossiers) onderzoekt app de inhoud van het archief en wijst erop of het archief als geheel kan worden vertaald, of het een mengeling van vertaalbare en niet-vertaalbare dossiers bevat.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Deze module annuleert of voltooit het gespecificeerde project. Als het project o
 
 #### [!UICONTROL Download Project Zip]
 
-Deze module haalt de `zip` bestand met vertaalde bestanden voor het opgegeven project.
+Deze module krijgt het `zip` dossier van vertaalde dossiers voor het gespecificeerde project.
 
 #### [!UICONTROL Read a Project]
 
@@ -103,11 +103,11 @@ Deze module krijgt het gespecificeerde project.
 
 #### [!UICONTROL Get Projects at Status]
 
-Deze module krijgt alle beschikbare projecten in de gespecificeerde status. Met deze methode kunnen de resultaten worden geplakt door `$top`, `$skip`, en `$orderby` queryparameters.
+Deze module krijgt alle beschikbare projecten in de gespecificeerde status. Met deze methode kunnen de resultaten worden gepagineerd door parameters voor `$top` , `$skip` en `$orderby` query op te geven.
 
 #### [!UICONTROL Get Projects List]
 
-Haalt een eenvoudige lijst op van alle projecten, die algemene informatie over elk project verstrekken. Met deze methode kunnen de resultaten pagina&#39;s zijn, door `$top`, `$skip`, en `$orderby` queryparameters.
+Haalt een eenvoudige lijst op van alle projecten, die algemene informatie over elk project verstrekken. Met deze methode kunnen de resultaten pagina&#39;s zijn, door de parameters `$top` , `$skip` en `$orderby` query op te geven.
 
 #### [!UICONTROL Search Project Creation Options]
 

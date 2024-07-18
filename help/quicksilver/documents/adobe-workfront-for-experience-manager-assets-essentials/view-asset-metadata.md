@@ -24,37 +24,37 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-abonnement*</strong>
+   <td><strong> plan* van Adobe Workfront </strong>
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenties*</strong>
+   <td><strong> Adobe Workfront vergunningen* </strong>
    </td>
    <td>Aanvraag of hoger
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong> Product </strong>
    </td>
-   <td>U moet Experience Manager Assets as a Cloud Service of Assets Essentials hebben, en u moet als gebruiker in de Admin Console aan het product worden toegevoegd.
+   <td>U moet Experience Manager Assets as a Cloud Service Assets Essentials hebben, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraties op toegangsniveau*</strong>
+   <td><strong> het niveauconfiguraties van de Toegang* </strong>
    </td>
    <td>Toegang tot documenten bewerken
 <p>
-<strong>Opmerking: </strong>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong>Aangepaste toegangsniveaus maken of wijzigen</strong>.
+<strong> Nota: </strong> als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong> tot douanetoegangsniveaus </strong> leiden of wijzigen.
    </td>
   </tr>
   <tr>
-   <td><strong>Objectmachtigingen</strong>
+   <td><strong> de toestemmingen van Objecten </strong>
    </td>
    <td>Toegang weergeven of hoger
 <p>
-Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <strong>Toegang tot objecten aanvragen </strong>.
+Voor informatie bij het vragen van om extra toegang, zie <strong> de toegang van het Verzoek tot voorwerpen </strong>.
    </td>
   </tr>
 </table>
@@ -67,32 +67,32 @@ Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <strong>
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Zie voor meer informatie [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [De integratie met Experience Manager Assets Essentials configureren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Documentdetails
 
 Het deelvenster Metagegevens openen in Documentdetails:
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Houd de muisaanwijzer boven het gewenste document en selecteer **Documentdetails**.
-1. Zoeken en uitvouwen **Metagegevens** sectie.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Beweeg over het document u nodig hebt, dan selecteren de uitgezochte **Details van het Document**.
+1. Vind en breid de **sectie van Meta-gegevens** uit.
    >[!NOTE]
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
 
-![documentdetails, deelvenster](assets/metadata-panel-doc-details.png)
+![ paneel van documentdetails ](assets/metadata-panel-doc-details.png)
 
 
 ## Samenvatting voor documenten
 
 U opent als volgt het deelvenster Metagegevens in het deelvenster Samenvatting:
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
-1. Klik op de knop **Pictogram Samenvatting** ![overzichtspictogram](assets/summary-panel-icon.png)Vouw vervolgens de **Metagegevens** sectie.
+1. Klik het **Summiere pictogram van de Samenvatting** ![ summiere pictogram ](assets/summary-panel-icon.png), dan breid de **Meta-gegevens** sectie uit.
    >[!NOTE]
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
 
-![samenvatting voor documenten](assets/metadata-panel-summary.png)
+![ samenvatting voor documenten ](assets/metadata-panel-summary.png)

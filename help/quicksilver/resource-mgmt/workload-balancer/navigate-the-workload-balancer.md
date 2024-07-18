@@ -19,7 +19,7 @@ Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruiker
 
 De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navigeren is vergelijkbaar in alle gebieden.
 
-Ga voor meer informatie over waar de werklastbalans zich bevindt naar [De werklastbalans zoeken](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Toegangsvereisten
@@ -87,11 +87,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <li> <p>Projecten</p> </li> 
      <li> <p>Taken</p> </li> 
      <li> <p>Problemen</p> </li> 
-    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,8 +104,8 @@ Houd rekening met het volgende wanneer u de werklastbalans weergeeft:
 
 * In Workload Balancer worden de werkitems in twee afzonderlijke gebieden weergegeven, afhankelijk van hun toewijzingen. Werkitems en gebruikers worden in de volgende gebieden weergegeven:
 
-   * **Niet toegewezen werk**: Items die geen toewijzingen hebben of die alleen aan taakrollen of teams zijn toegewezen.
-   * **Toegewezen werk**: Items die aan ten minste één gebruiker zijn toegewezen. De toegewezen items worden onder de naam van de toegewezen gebruiker weergegeven.
+   * **Niet toegewezen Werk**: Punten die geen taken hebben of slechts aan baanrollen of teams toegewezen zijn.
+   * **Toegewezen Werk**: Punten die aan minstens één gebruiker worden toegewezen. De toegewezen items worden onder de naam van de toegewezen gebruiker weergegeven.
 
   >[!NOTE]
   >
@@ -113,15 +113,15 @@ Houd rekening met het volgende wanneer u de werklastbalans weergeeft:
   >* De punten van het werk die aan een gebruiker en een baanrol worden toegewezen, waar de baanrol als primaire ontvanger van het punt wordt geselecteerd, tonen in het Niet toegewezen gebied van het Werk.
   >* De punten van het werk die aan meer dan één gebruikersvertoning onder alle toegewezen gebruikersnamen in het Toegewezen gebied van het Werk worden toegewezen.
 
-  Zie &quot;Toewijzingsgebieden in werklastbalans&quot; in [Overzicht van het toewijzen van werk in de werklastverdeler](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Voor meer informatie, zie &quot;de gebieden van de Toewijzing in de Balancer van de Werkbelasting&quot;in [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Wanneer een project geen taken tijdens een periode heeft, is de bar op het projectniveau leeg voor die tijd.
 
-  ![Project zonder taken gedurende een bepaalde periode](assets/wb-no-tasks-in-time-period.png)
+  ![ Project zonder taken tijdens een periode ](assets/wb-no-tasks-in-time-period.png)
 
-* Wanneer u geen toestemmingen hebt om bepaalde punten te zien, tonen zij zoals **Ontoegankelijke werkitems** of **Ontoegankelijke projecten**.
+* Wanneer u geen toestemmingen hebt om bepaalde punten te zien, tonen zij als **Niet toegankelijke het werkpunten** of **Ontoegankelijke projecten**.
 
-  ![Ontoegankelijke werkitems](assets/wb-inaccessible-work-items.png)
+  ![ Ontoegankelijke het werkpunten ](assets/wb-inaccessible-work-items.png)
 
 * De namen van de werkitems worden links weergegeven en de tijdlijn wordt rechts weergegeven.
 * Het totaal van Geplande Uren voor elk het werkpunt toont rechts van de naam van het het werkpunt en links van de bar die de chronologie van het het werkpunt vertegenwoordigt.
@@ -134,12 +134,12 @@ Zie ook de volgende artikelen voor meer informatie over het weergeven van inform
 * [De werklastbalans zoeken](../workload-balancer/locate-workload-balancer.md)
 * [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md)
 * [De werklastbalans delen met een koppeling](../workload-balancer/share-link-for-workload-balancer.md)
-* [Werk de werkitems in de werklastbalans bij met de samenvatting](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+* [ het werkpunten van de Update in de Balancer van de Werkbelasting gebruikend de Samenvatting ](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Zie ook de volgende artikelen voor informatie over het beheer van bronnen met behulp van Workload Balancer:
 
-* [Overzicht van het toewijzen van werk in de werklastverdeler](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [Toewijzingen van gebruikers beheren in Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
+* [ beheer gebruikerstoewijzingen in de Balancer van de Werklast ](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
 
 
 ## Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen
@@ -156,23 +156,23 @@ Nadat u de instellingen hebt geselecteerd die u op de weergave wilt toepassen, o
 
 Om de Balancer van de Werkbelasting voor veelvoudige projecten te navigeren:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Bronnen**.
-1. Klikken **Werklastverdeling** in het linkerdeelvenster.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Resourcing**.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel.
 
-   ![Werklastverdeling](assets/nwe-balancer-global.png)
+   ![ de Balancer van de Werkbelasting ](assets/nwe-balancer-global.png)
 
    De werklastbalans geeft werktoewijzingsinformatie weer die begint met de huidige week op de volgende twee gebieden:
 
-   * De **Niet toegewezen werk** worden de volgende werkitems weergegeven:
+   * Het **Niet toegewezen gebied van het Werk** toont de volgende het werkpunten:
 
       * De punten van het werk (taken en kwesties) die aan rollen, teams worden toegewezen, of die unassigned vertoning zijn nadat u filters toepast.
 In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven. We raden u aan filters te gebruiken om relevante informatie voor u in dit gebied weer te geven.
 
-        Zie voor informatie over het gebruik van filters [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md).
+        Voor informatie over het gebruiken van filters, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
-      * De vertoning van projecten slechts wanneer u de Groep door het plaatsen van het Project toelaat. Zie de sectie [De weergave aanpassen](#customize-the-view) in dit artikel.
+      * De vertoning van projecten slechts wanneer u de Groep door het plaatsen van het Project toelaat. Voor informatie, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen.
 
-   * De **Toegewezen werk** worden de volgende werkitems weergegeven:
+   * Het **Toegewezen gebied van het Werk** toont de volgende het werkpunten:
 
       * Alle actieve gebruikers in het systeem worden standaard in dit gebied weergegeven. We raden u aan filters te gebruiken om de hoeveelheid informatie op dit gebied te beperken. Als gebruikers aan punten worden toegewezen, tonen de het werkpunten ook onder hun naam.
 
@@ -190,9 +190,9 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
             >
             >* Projecten worden alleen weergegeven wanneer u de instelling &quot;Groeperen op project&quot; inschakelt.
             > 
-            >Zie de sectie voor informatie over het aanpassen van instellingen [De weergave aanpassen](#customize-the-view) in dit artikel.
+            >Voor informatie over het aanpassen van montages, zie de sectie [ de mening ](#customize-the-view) in dit artikel aanpassen.
 
-1. (Optioneel) Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-icon.png) in de **Toegewezen werk** en selecteert u vervolgens het **Standaardfilter** in de **Voorgesteld** gebied van het filtervak.
+1. (Facultatief) klik het **pictogram van de Filter ![ filter ](assets/filter-icon.png) in het** Toegewezen gebied van het Werk **, dan selecteren de** Standaard filter **in het** Voorgestelde **gebied van de filterdoos.**
 
    Wanneer het toepassen van het Standaardfilter, tonen de gebruikers die tot om het even welk van uw teams en hun het werkpunten behoren. U kunt een kopie van dit filter bewerken.
 
@@ -203,21 +203,21 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 1. Ga door met de volgende stappen om door Workload Balancer te navigeren:
 
    * [Een tijdframe selecteren in het deelvenster Werklastbalans](#select-a-time-frame-in-the-workload-balancer)
-   * [De weergave aanpassen](#customize-the-view)
+   * [ pas de mening ](#customize-the-view) aan
    * [Werkitems toewijzen en gebruikerstoewijzingen aanpassen](#assign-work-items-and-adjust-user-allocations)
    * [Toewijzingen weergeven in een grafiek](#view-allocations-in-a-chart)
 
 ### Een tijdframe selecteren in het deelvenster Werklastbalans
 
-1. Open de werklastbalans in de **Bronnen** gebied, zoals beschreven in de sectie [Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+1. Heb toegang tot de Balancer van de Werkbelasting op het **Bronende** gebied, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
    De werklastbalans geeft informatie over werktoewijzing weer, te beginnen met de huidige week.
 
 1. Gebruik de horizontale schuifbalk om de tijdlijn weer te geven van de werkitems die buiten de grenzen van het scherm vallen.
-1. Klik op de knop **terug of vooruit** pictogrammen ![pictogrammen voor Vorige en Volgende](assets/back-and-forward-icons.png) in de linkerbovenhoek om door de tijdlijn te navigeren, klikt u vervolgens op **Vandaag** om terug te keren naar de huidige week.
-1. Klik op de knop **vervolgkeuzemenu voor tijdframes** klikt u op de werkbalk op de begindatum van de periode die u wilt weergeven. Standaard is de eerste week die u in de kalender hebt geselecteerd, de week waarnaar u hebt genavigeerd.
+1. Klik de **rug of door:sturen** pictogrammen ![ terug en door:sturen pictogrammen ](assets/back-and-forward-icons.png) in de upper-left hoek om de chronologie te navigeren, dan klik **vandaag** om aan de huidige week terug te keren.
+1. Klik het **drop-down menu van het tijdkader** op de toolbar, dan klik de begindatum van de periode u wilt tonen. Standaard is de eerste week die u in de kalender hebt geselecteerd, de week waarnaar u hebt genavigeerd.
 
-   ![Kalenderselectie](assets/calendar-date-picker-wb.png)
+   ![ de selectie van de Kalender ](assets/calendar-date-picker-wb.png)
 
 1. Selecteer uit de volgende opties het aantal weken dat u in één keer wilt weergeven in Workload Balancer:
    * 1 week
@@ -226,24 +226,24 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
    * 6 weken
    * 3 maanden
 
-   ![Weken selecteren](assets/3-months-12-weeks-drop-down-wb.png)
+   ![ Uitgezochte weken ](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. Klik op een van de volgende opties op de werkbalk om de informatie in verschillende tijdframes weer te geven:
-   * **Dag**: De informatie van vertoningen door dag vier weken die met de datum van vandaag beginnen, door gebrek.
-   * **Week**: Hiermee geeft u informatie vier weken per week weer.
-   * **Maand**: Geeft informatie weer per maand gedurende drie maanden.
+   * **Dag**: De informatie van vertoningen door dag voor vier weken die met de datum van vandaag beginnen, door gebrek.
+   * **Week**: De informatie van vertoningen door week voor vier weken.
+   * **Maand**: De informatie van vertoningen door maand voor drie maanden.
 
 1. Ga verder met het navigeren door de werklastbalans, zoals beschreven in de volgende secties.
 
 ### De weergave aanpassen
 
-1. Open de werklastbalans in de **Bronnen** gebied, zoals beschreven in de sectie [Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+1. Heb toegang tot de Balancer van de Werkbelasting op het **Bronende** gebied, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
    De namen van werkitems worden links weergegeven en worden rechts in Workload Balancer weergegeven door balken. De lengte van de balk staat voor de tijdlijn van een tijdelijk item.
 
 1. (Optioneel en aanbevolen) Gebruik filters in de werkgebieden Niet toegewezen en Toegewezen om alleen werkitems of gebruikers weer te geven die voor u van belang zijn.
 
-   Zie voor meer informatie [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md).
+   Voor meer informatie, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
    Standaard staan blauwe balken voor de tijdlijnen van projecten en taken en maroon-balken voor problemen.
 
@@ -254,30 +254,30 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
    1. Geplande afsluitdatum (oudste eerst)
    1. Alfabetisch per project (alleen wanneer de eerste twee criteria identiek zijn voor meerdere werkitems)
 
-1. Klik op de knop **pijl-rechts** links van Niet toegewezen of Toegewezen gebieden om alle punten onder de projectnamen (in het Niet toegewezen gebied) en onder de gebruikersnamen (in het Toegewezen gebied) uit te breiden.
+1. Klik de **juist-richt pijl** links van Niet toegewezen of Toegewezen gebieden om alle punten onder de projectnamen (in het Niet toegewezen gebied) en onder de gebruikersnamen (in het Toegewezen gebied) uit te breiden.
 
    >[!TIP]
    >
    >De punten van het werk zijn vermeld onder projectnamen in Unassigned gebied slechts wanneer u &quot;Groep door Project&quot;het plaatsen toelaat.
 
-1. Klik op de knop **pijl-omlaag** links van de Niet toegewezen of Toegewezen gebieden om alle punten onder de projectnamen (in het Niet toegewezen gebied) en onder de gebruikersnamen (in het Toegewezen gebied) samen te vouwen.
+1. Klik op de **pijl-omlaag** links van de gebieden Niet toegewezen of Toegewezen om alle items onder de projectnamen (in het gebied Niet toegewezen) en onder de gebruikersnamen (in het gebied Toegewezen) samen te vouwen.
 
-1. Sleep de **scheidingslijn** tussen het linkerdeelvenster en het tijdlijngebied om de grootte van het linkerdeelvenster aan te passen.
+1. De belemmering en laat vallen de **scheidingslijn** tussen het linkerpaneel en het chronologiegebied om de grootte van het linkerpaneel aan te passen.
 
-   ![Scheidingslijn](assets/wb-adjust-panel-size.png)
+   ![ de lijn van de Scheiding ](assets/wb-adjust-panel-size.png)
 
-1. Klik op de knop **Instellingen** pictogram ![Instellingenpictogram](assets/settings-gear-icon.png).
+1. Klik het **pictogram van Montages ![ pictogram van Montages** ](assets/settings-gear-icon.png).
 
    Het deelvenster Instellingen wordt aan de rechterkant weergegeven.
 
-   ![Het deelvenster Instellingen](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+   ![ het paneel van Montages ](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
-   Selecteer een van de onderstaande opties om de informatie bij te werken die u in Workload Balancer bekijkt. Klik vervolgens op de knop **X-pictogram** in de hoger-juiste van de doos van Montages om het te sluiten.
+   Selecteer van de hieronder vermelde opties om de informatie bij te werken u in de Balancer van de Werklast bekijkt, dan klik het **X pictogram** in het hoger-recht van de doos van Montages om het te sluiten.
 
-   * **Groeperen op project**: Wanneer dit wordt geselecteerd, worden de punten in de Niet toegewezen en Toegewezen gebieden van het Werk gegroepeerd door project. Dit is standaard geselecteerd.
+   * **Groep door Project**: Wanneer dit wordt geselecteerd, worden de punten in de Niet toegewezen en Toegewezen gebieden van het Werk gegroepeerd door project. Dit is standaard geselecteerd.
 
-   * **Uren opnemen uit uitgaven**: Als deze optie is geselecteerd, worden uitgaven die aan gebruikers zijn toegewezen onder de naam van de gebruiker weergegeven in het toegewezen werkgebied en problemen die niet aan gebruikers zijn toegewezen, worden weergegeven in het gebied Niet toegewezen werk. De geplande uren van de uitgaven tellen naar de Geplande Uren voor het project en voor de gebruiker in het Toegewezen Gewerkte gebied van het Werk.
-   * **Geprojecteerde datums tonen**: Wanneer deze optie is geselecteerd, wordt de geprojecteerde tijdlijn van de werkitems weergegeven naast de geplande tijdlijn. Let op het volgende:
+   * **omvat uren van kwesties**: Wanneer dit wordt geselecteerd, kwesties die aan gebruikers worden toegewezen tonen onder de naam van de gebruiker in het Toegewezen gebied van het Werk en kwesties die niet aan gebruikers worden toegewezen tonen in het Niet toegewezen gebied van het Werk. De geplande uren van de uitgaven tellen naar de Geplande Uren voor het project en voor de gebruiker in het Toegewezen Gewerkte gebied van het Werk.
+   * **toon Geprojecteerde Datums**: Wanneer dit wordt geselecteerd, toont de geprojecteerde chronologie van het werkpunten naast de geplande chronologie. Let op het volgende:
       * De geprojecteerde chronologie van project, taken, en kwesties toont als donkerblauwe lijn boven de taak, de kwestie, en de projectbars.
       * De geprojecteerde tijdlijn die buiten de geplande tijdlijn valt, wordt in lichtblauw weergegeven, zelfs wanneer u het kleurthema bijwerkt, zoals hieronder beschreven.
       * De geprojecteerde tijdlijn voor de items die u niet kunt weergeven, wordt lichtgrijs weergegeven met een onderliggende lijn.
@@ -287,30 +287,30 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
      >
      >U ziet dat de werkitems in de werklastbalans worden weergegeven wanneer de geplande of geprojecteerde tijdlijnen (niet noodzakelijkerwijs beide tegelijk) plaatsvinden tijdens het geselecteerde tijdkader.
 
-   * **Voltooid werk tonen**: Als deze optie is ingeschakeld, worden voltooide taken en problemen weergegeven in het gebied Toegewezen werk. Dit is standaard ingeschakeld.
+   * **toon voltooid werk**: Wanneer dit wordt toegelaten, voltooide taken en kwesties tonen in het Toegewezen gebied van het Werk. Dit is standaard ingeschakeld.
 
      Een groen vinkje wordt in de rechterbovenhoek van een taak of uitgiftebalk weergegeven wanneer deze klaar zijn. Het zelfde pictogram toont voor een project wanneer de taken of de kwesties voor het geselecteerde tijdkader van het project worden voltooid.
-   * **Resterende tijd tonen**: Wanneer dit wordt toegelaten, toont Workfront het verschil tussen de dagelijkse tijd waarvoor de gebruiker beschikbaar is om te werken die op hun programma&#39;s wordt gebaseerd en de uren waarvoor zij in het Toegewezen gebied van het Werk voor de gebruikers worden toegewezen. Dit is standaard uitgeschakeld en er wordt standaard toegewezen tijd weergegeven.
-   * In de **Kleurthema selecteren** selecteert u de gewenste kleur voor het project en de taakbalken.
+   * **toon resterende tijd**: Wanneer dit wordt toegelaten, toont Workfront het verschil tussen de dagelijkse tijd waarvoor de gebruiker beschikbaar is om op hun programma&#39;s en de uren te werken waarvoor zij in het Toegewezen gebied van het Werk voor de gebruikers worden toegewezen. Dit is standaard uitgeschakeld en er wordt standaard toegewezen tijd weergegeven.
+   * In de **Uitgezochte sectie van het kleurenthema**, selecteer de kleur die u voor het project en de taakbars wilt.
 
      >[!TIP]
      >
      >De instelling voor het selecteren van het kleurenthema heeft geen invloed op de kleur van de uitgavedubalken. Problemen worden altijd weergegeven in een kleurenbalk.
 
      Selecteer een van de volgende opties:
-      * **Standaard**: De balken voor alle projecten en hun werkitems worden in blauw weergegeven.
+      * **Gebrek**: De bars voor alle projecten en hun het werkpunten tonen in blauw.
       * **Project**: De bars verbonden aan elk project en zijn taken veranderen volgens de naam van het project. Alle taken die tot de projectvertoning in bars behoren die de kleur van het project aanpassen. De projecubalken worden lichter weergegeven om ze te onderscheiden van de taken. De projectbars omvatten ook een projectpictogram wanneer het kiezen om geen toewijzingen te tonen.
-      * **Projectstatus**: De bars verbonden aan elk project en zijn het werkpunten veranderen in de kleur van de status van het project.
+      * **Status van het Project**: De bars verbonden aan elk project en zijn het werkpunten veranderen in de kleur van het statuut van het project.
 
-        De projectstatus is die verbonden aan de Groep van het project. Als de Groep geen groep-specifieke statussen heeft, is de kleur van de bars van het het werkpunt die van de systeem-vlakke projectstatus. Zowel het systeem als de aangepaste status worden weergegeven. Zie voor informatie over groepsstatussen [Een groepsstatus maken of bewerken](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        De projectstatus is die verbonden aan de Groep van het project. Als de Groep geen groep-specifieke statussen heeft, is de kleur van de bars van het het werkpunt die van de systeem-vlakke projectstatus. Zowel het systeem als de aangepaste status worden weergegeven. Voor informatie over groepsstatussen, zie [ tot stand brengen of een groepsstatus ](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
 
-   * In de **Gebruikerstoewijzing weergeven in** selecteert u een van de volgende opties:
-      * **Uren**: Hiermee geeft u toegewezen tijd weer als uren. Dit is de standaardinstelling.
-      * **Percentage**: Hiermee geeft u toegewezen tijd weer als een percentage van de totale beschikbare tijd
-   * In de **Voorkeuren voor sorteren** selecteert u in Workload Balancer hoe u de items wilt sorteren. Selecteer een van de volgende opties:
-      * **Gebruikers sorteren op primaire rol**: De gebruikers tonen in alfabetische orde van hun Primaire Rollen in het Toegewezen gebied van het Werk.
-      * **Gebruikers alfabetisch sorteren**: De gebruikers tonen in alfabetische orde van hun eerste namen in het Toegewezen gebied van het Werk.
-      * **Projecten sorteren op**: Selecteer een projectveld in het keuzemenu om projecten alfabetisch te sorteren op dat veld in de gebieden Niet toegewezen of Toegewezen werk.
+   * In de **de gebruikerstoewijzing van de Vertoning in** sectie, selecteer van het volgende:
+      * **Uren**: Vertoningen toegewezen tijd als uren. Dit is de standaardinstelling.
+      * **Percentage**: Vertoningen toegewezen tijd als percentage van de totale beschikbare tijd
+   * In de **Sorterende voorkeur** sectie, selecteer hoe u de punten in de Balancer van de Werkbelasting wilt worden gesorteerd. Selecteer een van de volgende opties:
+      * **de gebruikers van de Soort door Primaire Rol**: De gebruikers tonen in de alfabetische orde van hun Primaire Rollen in het Toegewezen gebied van het Werk.
+      * **de gebruikers van de Soort alfabetisch**: De vertoningen van gebruikers in de alfabetische orde van hun eerste namen in het Toegewezen gebied van het Werk.
+      * **de projecten van de Soort door**: Selecteer een projectgebied van het drop-down menu om projecten alfabetisch door dat gebied in de Niet toegewezen of Toegewezen gebieden van het Werk te sorteren.
 
    >[!TIP]
    >
@@ -318,12 +318,12 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
 1. (Optioneel en voorwaardelijk) Wanneer u het kleurthema wijzigt in Projectstatus, houdt u de muisaanwijzer boven de naam van een project aan de linkerkant om de status van het project weer te geven.
 
-   ![Knopinfo voor projectstatus](assets/hover-over-project-status-tooltip-350x115.png)
+   ![ tooltip van de statusstatus van het Project ](assets/hover-over-project-status-tooltip-350x115.png)
 
 ### Werkitems toewijzen en gebruikerstoewijzingen aanpassen
 
-1. Toegang tot de werklastbalans in het gebied Bronnen, zoals beschreven in de sectie [Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
-1. Klik op de knop **Toewijzingspictogram tonen** ![Toewijzingspictogram tonen](assets/show-allocations-icon-small.png) om de dagelijkse of wekelijkse geplande uren voor het werk te bekijken.
+1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+1. Klik het **pictogram van de Toon toewijzingen** ![ toont toewijzingspictogram ](assets/show-allocations-icon-small.png) om de dagelijkse of wekelijkse Gepland Uren voor het werkpunten te bekijken.
 
    Dit vervangt de naam in de bars van de het werkpunten met de hoeveelheid dagelijkse of wekelijkse Geplande Uren in de Niet toegewezen en Toegewezen Gewerkte gebieden van het Werk. Deze instelling is standaard uitgeschakeld.
 
@@ -338,72 +338,72 @@ In het gedeelte Niet toegewezen werk worden standaard geen werkitems weergegeven
 
 1. (Optioneel) Houd de toegewezen tijd in de gebruikerslijn over om inzicht te krijgen in de capaciteit en de toewijzing van de gebruiker. De capaciteit is de beschikbaarheid van de gebruiker volgens hun planning.
 
-   ![Toegewezen tijddetails](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
+   ![ Toegewezen tijddetails ](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. (Optioneel) Klik op de knop **Pictogram Toewijzingen verbergen** ![](assets/show-allocations-icon-small.png) om de naam van de taken en uitgaven in de bars van de het werkpunten te tonen.
-1. Klik op de knop **Het menu Meer** pictogram ![](assets/more-icon.png) rechts van de naam van een taak of uitgave klikt u op een van de onderstaande opties.
+1. (Facultatief) klik het **pictogram van de Toewijzingen van de Verbergen** ![](assets/show-allocations-icon-small.png) om de naam van de taken en de kwesties in de bars van de het werkpunten te tonen.
+1. Klik het **Meer menu** pictogram ![](assets/more-icon.png) rechts van een taak of een kwestie naam, dan klik één van de opties hieronder.
 
-   ![Het menu Meer](assets/more-menu-right-of-task-350x104.png)
+   ![ Meer menu ](assets/more-menu-right-of-task-350x104.png)
 
-   * **Deze toewijzen aan**, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in wilt toewijzen **Personen, rollen of teams zoeken** veld.
+   * **wijs dit aan** toe, dan begin de naam van een gebruiker, een rol, of een team te typen u het het werkpunt aan in het **de mensen van het Onderzoek, de rol, of het 3} gebied van teams wilt toewijzen.**
 
      U kunt ook de volgende sneltoetsen gebruiken om taken of problemen toe te wijzen:
 
       * In Windows: CTRL + klik de taak of de uitgiftebar.
       * In Mac: CMD + klik op de taak of de uitgiftebalk.
 
-     Ga voor meer informatie over het toewijzen van werkitems aan gebruikers in Workload Balancer naar [Overzicht van het toewijzen van werk in de werklastverdeler](../workload-balancer/assign-work-in-workload-balancer.md).
+     Voor meer informatie over het toewijzen van het werkpunten aan gebruikers in de Balancer van de Werkbelasting, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../workload-balancer/assign-work-in-workload-balancer.md).
 
      >[!TIP]
      >
-     >Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Voor informatie over het delegeren van het werk, zie [Taak beheren en taken delegeren](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Voor informatie over het delegeren van het werk, zie [ taak beheren en de delegatie van de kwestie ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-   * **Toewijzingen bewerken** Bewerk vervolgens de dagelijkse of wekelijkse toewijzingen voor de gebruiker. Voor informatie over het beheren van gebruikerstoewijzingen raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   * **geeft toewijzingen** uit, dan geef de dagelijkse of wekelijkse toewijzingen voor de gebruiker uit. Voor informatie over het beheren van gebruikerstoewijzingen, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   * **Samenvatting openen**. Het paneel van de Samenvatting opent op het recht, klikt dan het gebied van Toewijzingen en begint de naam van een gebruiker, een rol, of een team in te typen **Personen, rollen of teams zoeken** veld om het item toe te wijzen. Zie de sectie voor meer informatie [Meer informatie over taken en problemen weergeven](#display-more-information-about-tasks-and-issues) in dit artikel.
+   * **Open Samenvatting**. Het Summiere paneel opent op het recht, dan klik het gebied van Toewijzingen en begin de naam van een gebruiker, een rol, of een team in het **gebied van het Onderzoek de mensen, de rol, of teams** te typen om het punt toe te wijzen. Voor meer informatie, zie de sectie [ meer informatie over taken en kwesties ](#display-more-information-about-tasks-and-issues) in dit artikel.
 
-1. (Optioneel) Dubbelklik op een dagelijkse of wekelijkse toewijzing voor een gebruiker in de balk van een werkitem om het aantal toegewezen uren te bewerken en klik vervolgens op de knop **Opslaan** pictogram ![Pictogram voor opslaan](assets/save-allocations-wb.png) om de toewijzingen of de **Annuleren** pictogram ![Pictogram Annuleren](assets/cancel-allocations-wb.png) om de toewijzingen te verwijderen die u hebt aangepast.
+1. (Optioneel) Dubbelklik op een dagelijkse of wekelijkse toewijzing voor een gebruiker binnen de bar van een het werkpunt om het aantal toegewezen uren uit te geven, dan klik **sparen** pictogram ![ sparen pictogram ](assets/save-allocations-wb.png) om de toewijzingen te bewaren of **annuleer** pictogram ![ pictogram ](assets/cancel-allocations-wb.png) om de toewijzingen te verwijderen u aanpast.
 
    >[!TIP]
    >
    >De pictogrammen Opslaan en Annuleren worden weergegeven aan het einde van een taak of de tijdlijnbalk van een uitgave.
    >
-   >![Handmatige toewijzingen opslaan of annuleren](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
+   >![ sparen of annuleer handtoewijzingen ](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
-   Voor informatie over het beheren van gebruikerstoewijzingen raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   Voor informatie over het beheren van gebruikerstoewijzingen, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. Klikken **Bulktoewijzingen** om werkitems in bulk toe te wijzen.
+1. Klik **BulkTaken** om het werkpunten in bulk toe te wijzen.
 
-   Zie voor meer informatie [Werk in bulk toewijzen met Werklastverdeling](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
-1. Items slepen vanuit de **Niet toegewezen werk** van een gebruiker en zet ze neer op een andere gebruiker om ze toe te wijzen.
+   Voor meer informatie, zie [ werk in bulk toewijzen gebruikend de Balancer van de Werkbelasting ](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+1. De punten van de belemmering van het **Niet toegewezen Werk** gebied of van een gebruiker en laat vallen hen op een andere gebruiker om hen toe te wijzen.
 
-   Zie voor meer informatie [Werk toewijzen in Workload Balancer door slepen en neerzetten](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+   Voor meer informatie, zie [ werk in de Balancer van de Werklast toewijzen door te slepen en te laten vallen ](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 ### Toewijzingen weergeven in een grafiek
 
 In plaats van toewijzingen per dag of per week weer te geven, kunt u ze in een grafiek bekijken.
 
-1. Toegang tot de werklastbalans in het gebied Bronnen, zoals beschreven in de sectie [Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
-1. Klik op de knop **Pictogram Diagram** ![Pictogram Diagram](assets/user-allocation-chart-icon.png) om de gebruikerstoewijzing in een grafiekformaat te tonen.
+1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+1. Klik het **pictogram van de Grafiek** ![ pictogram van de Grafiek ](assets/user-allocation-chart-icon.png) om de gebruikerstoewijzing in een grafiekformaat te tonen.
 
    Dagen waarop de gebruiker te veel toegewezen krijgt, worden weergegeven als rode blokken, en dagen waarop de gebruiker te weinig toegewezen is of dat de gebruiker op capaciteit wordt weergegeven als blauwe blokken.
 
    De grootte van de blokken geeft de hoeveelheid toewijzing aan: hoe groter de doos, des te meer tijd de gebruiker wordt toegewezen aan werkitems voor die dag of week.
 
-   ![Toewijzing van gebruikers als diagram](assets/wb-allocation-as-chart.png)
+   ![ Toewijzing van de Gebruiker als grafiek ](assets/wb-allocation-as-chart.png)
 
 ### Meer informatie over taken en problemen weergeven
 
 U kunt meer informatie bekijken over de taken en de problemen in Workload Balancer.
 
-1. Toegang tot de werklastbalans in het gebied Bronnen, zoals beschreven in de sectie [Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 1. Voer een van de volgende handelingen uit om meer informatie weer te geven in het deelvenster Samenvatting:
 
    * Klik op de balk van een taak of uitgave om het deelvenster Samenvatting aan de rechterkant te openen.
-   * Klik op de knop **Samenvatting openen** pictogram ![](assets/summary-panel-icon.png)en klikt u vervolgens op de balk van een taak of uitgave om het deelvenster Samenvatting te openen.
-   * Klik op de knop **Meer** rechts van een taak of uitgave klikt u op **Samenvatting openen**.
+   * Klik het **Open Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
+   * Klik het **Meer** menu rechts van een taak of een kwestie, dan klik **Open Samenvatting**.
 
-   Voor informatie over het bijwerken van taakinformatie in de Samenvatting in de Balancer van de Werkbelasting, zie [Werk de werkitems in de werklastbalans bij met de samenvatting](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+   Voor informatie over het bijwerken van taakinformatie in de Samenvatting in de Balancer van de Werkbelasting, zie [ de het werkpunten van de Update in de Balancer van de Werkbelasting gebruikend de Samenvatting ](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 1. Houd de muis boven de naam van een taak of uitgave om meer informatie over de taak of uitgave weer te geven. Boven de taak of de uitgave wordt een vak weergegeven met de volgende informatie:
 
@@ -414,62 +414,62 @@ U kunt meer informatie bekijken over de taken en de problemen in Workload Balanc
    * Voor taken geeft u het vorige nummer op.
    * Voor taken geeft een indicator in de bovenhoek van het vak aan of de taak al dan niet kan worden uitgevoerd.
 
-   ![Taakdetails](assets/task-bar-hover-over-detail-wb.png)
+   ![ de details van de Taak ](assets/task-bar-hover-over-detail-wb.png)
 
 1. Klik op de naam van een tijdelijk item aan de linkerkant om het te openen. Het het werkpunt opent in een nieuw browser tabel.
 
 ### De werklastbalans op volledig scherm weergeven
 
-1. Toegang tot de werklastbalans in het gebied Bronnen, zoals beschreven in de sectie [Heb toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+1. Heb toegang tot de Balancer van de Werkbelasting op het gebied van het Middelen, zoals die in de sectie [ wordt beschreven toegang tot de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen ](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
 
-1. Klik op de knop **Volledig scherm** pictogram ![Pictogram Volledig scherm](assets/full-screen.png) om de werklastverdeling op een volledig scherm weer te geven.
+1. Klik het **pictogram van het 1} Volledige scherm ![ Volledige het schermpictogram ](assets/full-screen.png) om de Balancer van de Werkbelasting in het volledige scherm te tonen.**
 
    De werklastbalans neemt het volledige scherm in beslag. Browservensters en tabbladen worden niet weergegeven.
 
-1. Klik op de knop **Volledig scherm afsluiten** pictogram ![Pictogram Volledig scherm afsluiten](assets/exit-full-screen.png) om terug te keren naar het standaardscherm en de taakverdeler in het browsertabblad weer te geven.
+1. Klik het **pictogram ![ van de Uitgang het volledige het schermpictogram ](assets/exit-full-screen.png) om op het standaardscherm terug te keren en de Balancer van de Werkbelasting binnen browser tabel te bekijken.**
 
 
 ## Navigeren door de taakverdeler van een team
 
-Het navigeren van de Balancer van de Werkbelasting van een team is gelijkaardig aan hoe u de Balancer van de Werkbelasting voor veelvoudige projecten navigeert. Zie de sectie [Navigeren in Workload Balancer voor meerdere projecten](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel.
+Het navigeren van de Balancer van de Werkbelasting van een team is gelijkaardig aan hoe u de Balancer van de Werkbelasting voor veelvoudige projecten navigeert. Voor informatie, zie de sectie [ de Balancer van de Werklast voor veelvoudige projecten ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in dit artikel navigeren.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![Hoofdmenu](assets/main-menu-icon.png)en klik vervolgens op **Teams**.
+1. Klik het **Belangrijkste menu** pictogram ![ Belangrijkste menu ](assets/main-menu-icon.png), dan klik **Teams**.
 De pagina van uw Team van het Huis toont door gebrek.
-1. Klikken **Werklastverdeling** in het linkerdeelvenster. De taakverdeler van een team zou door gebrek moeten tonen.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. De taakverdeler van een team zou door gebrek moeten tonen.
 
-   ![Werklastverdeling van een team](assets/nwe-balancer-team-350x172.png)
+   ![ de Balancer van de Werkbelasting van een team ](assets/nwe-balancer-team-350x172.png)
 
    De werklastbalans van een team geeft standaard de volgende informatie weer:
 
-   * In de **Niet toegewezen werk** gebied: de punten van het werk die aan het team of aan het team en baanrollen worden toegewezen en die niet aan gebruikers worden toegewezen.
-   * In de **Toegewezen werk** gebied: De punten van het werk die aan gebruikers worden toegewezen tonen onder de namen van gebruikers.
+   * In het **Niet toegewezen gebied van het Werk**: De punten van het werk die aan het team of aan het team en baanrollen worden toegewezen en die niet aan gebruikers worden toegewezen.
+   * In het **Toegewezen gebied van het Werk**: De punten van het werk die aan gebruikers worden toegewezen tonen onder de namen van gebruikers.
 
-1. Ga verder met de werklastbalans van een team, zoals wordt beschreven in het dialoogvenster [Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) van dit artikel.
+1. Ga door het navigeren van de Balancer van de Werkbelasting van een team zoals die in [ wordt beschreven de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Hulpbron ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sectie van dit artikel.
 
 ## Navigeer de Balancer van de Werkbelasting van één enkel project
 
-1. Klik op de knop **Hoofdmenu** pictogram ![Hoofdmenu](assets/main-menu-icon.png)en klik vervolgens op **Projecten**.
+1. Klik het **Belangrijkste menu** pictogram ![ Belangrijkste menu ](assets/main-menu-icon.png), dan klik **Projecten**.
 1. Klik op de naam van een project om de projectpagina te openen.
-1. Klikken **Werklastverdeling** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** vervolgens **Werklastverdeling**.
+1. Klik **de Balancer van de Werkbelasting** in het linkerpaneel. U zou **kunnen moeten klikken tonen meer**, dan **de Balancer van de Werkbelasting**.
 
-   ![Werklastverdeling van een project](assets/nwe-balancer-project-350x152.png)
+   ![ de Balancer van de Werkbelasting van een project ](assets/nwe-balancer-project-350x152.png)
 
    In Workload Balancer voor het project wordt standaard de volgende informatie weergegeven:
 
-   * In de **Niet toegewezen werk** gebied: De punten van het werk op het project die aan rollen of teams worden toegewezen en niet aan gebruikers toegewezen.
-   * In de **Toegewezen werk** gebied: de punten van het werk aan het project die aan minstens één gebruiker worden toegewezen.
+   * In het **Niet toegewezen gebied van het Werk**: De punten van het werk op het project die aan rollen of teams worden toegewezen en niet aan gebruikers worden toegewezen.
+   * In het **Toegewezen gebied van het Werk**: De punten van het werk op het project die aan minstens één gebruiker worden toegewezen.
 
    We raden u aan filters te gebruiken om alleen gebruikers weer te geven die voor u van belang zijn.
 
-   U kunt bijvoorbeeld overwegen alleen gebruikers weer te geven die tot uw teams of groepen behoren. Zie voor meer informatie [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md).
+   U kunt bijvoorbeeld overwegen alleen gebruikers weer te geven die tot uw teams of groepen behoren. Voor meer informatie, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Optioneel) Klik op de knop **Filter** pictogram ![Filterpictogram](assets/filter-icon.png) in het gebied Toegewezen werk en selecteer **Werkonderdelen van dit project** van de **Voorgesteld** van het filterdeelvenster. Dit filter is standaard uitgeschakeld.
+1. (Facultatief) klik het **pictogram van de Filter ![ filter ](assets/filter-icon.png) in het Toegewezen gebied van het Werk en selecteer de** het werkpunten van dit project **optie van het** Voorgestelde **gebied van het filterpaneel.** Dit filter is standaard uitgeschakeld.
 
    Wanneer deze optie wordt geselecteerd, slechts de punten die aan gebruikers op de geselecteerde projectvertoning worden toegewezen.
 
    Wanneer de optie niet wordt geselecteerd, alle punten die aan de gebruikers op de projectvertoning worden toegewezen, ongeacht tot welke projecten de punten behoren.
 
-1. (Optioneel en aanbevolen) Pas een filter toe in het gebied Toegewezen werk om gebruikers weer te geven die belangrijk zijn voor u maar mogelijk niet zijn toegewezen aan items in het project. Klik vervolgens op de knop **Alle gebruikers tonen** pictogram ![Pictogram Alle gebruikers tonen](assets/show-all-users-icon-project-workload-balancer.png).
+1. (Facultatief en geadviseerd) pas een filter op het Toegewezen gebied van het Werk toe om gebruikers te tonen die voor u belangrijk zijn maar niet aan punten op het project zouden kunnen worden toegewezen, dan klik **tonen alle gebruikers** pictogram ![ tonen alle gebruikerspictogram ](assets/show-all-users-icon-project-workload-balancer.png).
 
    Door alle gebruikers te tonen, kunt u alle gebruikers in Workfront tonen die nog niet aan het werk of andere rollen op het project worden toegewezen.
 
@@ -477,26 +477,26 @@ De pagina van uw Team van het Huis toont door gebrek.
 
    Bijvoorbeeld, zou u eerst voor gebruikers kunnen willen filtreren die tot uw teams of groepen behoren, en dan al die gebruikers tonen.
 
-   Voor informatie over hoe te om een filter te bouwen, zie [Gegevens in de werklastbalans filteren](../workload-balancer/filter-information-workload-balancer.md).
+   Voor informatie over hoe te om een filter te bouwen, zie [ informatie van de Filter in de Balancer van de Werklast ](../workload-balancer/filter-information-workload-balancer.md).
 
    >[!NOTE]
    >
    > De optie Alle gebruikers weergeven is alleen beschikbaar voor de werklastverdeling van een project.
 
-1. (Optioneel) Klik op de knop **Roltoewijzingen weergeven** pictogram ![Pictogram Roltoewijzingen weergeven](assets/show-role-allocation-icon.png).
+1. (Facultatief) klik **de roltoewijzingen van de Show** pictogram ![ tonen het pictogram van de roltoewijzingen ](assets/show-role-allocation-icon.png).
 
    Het deelvenster Roltoewijzing wordt weergegeven.
 
    U kunt informatie bekijken over Geplande Uren verbonden aan de baanrollen op het project en die baanrollen verbonden aan initiatieven met betrekking tot de projecten van de Planner van het Scenario.
 
-   Zie voor meer informatie [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+   Voor meer informatie, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 
    >[!NOTE]
    >
-   >U kunt informatie over de rol van initiatieftaken niet weergeven als uw organisatie geen licentie voor de Workfront Scenario Planner heeft aangeschaft. In dit geval, kunt u de geplande uren slechts bekijken verbonden aan baanrollen op het project. Zie voor meer informatie [Toegang nodig om de Planner van het Scenario te gebruiken](../../scenario-planner/access-needed-to-use-sp.md).
+   >U kunt informatie over de rol van initiatieftaken niet weergeven als uw organisatie geen licentie voor de Workfront Scenario Planner heeft aangeschaft. In dit geval, kunt u de geplande uren slechts bekijken verbonden aan baanrollen op het project. Voor meer informatie, zie [ Toegang nodig om de Planner van het Scenario te gebruiken ](../../scenario-planner/access-needed-to-use-sp.md).
 
-1. Ga door met het navigeren door de werklastverdeler van een project zoals beschreven in het dialoogvenster [Navigeren in Workload Balancer voor meerdere projecten](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) van dit artikel.
+1. Ga door het navigeren van de Balancer van de Werkbelasting van een project zoals die in [ wordt beschreven de Balancer van de Werkbelasting voor veelvoudige projecten ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) sectie van dit artikel.
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

@@ -49,10 +49,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-boards}}
 
-1. Als u een werkstroom wilt openen, klikt u op [!UICONTROL **Werkstroom weergeven**].
-1. Klik op de knop [!UICONTROL **Kaartlijst**] tab.
-1. Klikken [!UICONTROL **Kaart toevoegen**].
-1. In de [!UICONTROL **Kaart maken/bewerken**] voegt u de volgende informatie toe:
+1. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
+1. Klik de [!UICONTROL **Lijst van de Kaart**] tabel.
+1. Klik [!UICONTROL **toevoegen kaart**].
+1. In [!UICONTROL **creeer/geef Kaart**] dialoog uit, voeg de volgende informatie toe:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -83,55 +83,55 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Klikken [!UICONTROL **Opslaan**].
+1. Klik [!UICONTROL **sparen**].
 1. Ga door met het toevoegen van kaarten totdat u de kaartlijst hebt gemaakt.
 
 ## Kaarten weergeven
 
-Als u alle kaarten voor de werkstroom in één lijst wilt weergeven, klikt u op [!UICONTROL **Lijstweergave**] op het tabblad Kaartlijst.
+Om alle kaarten voor de werkstroom in één enkele lijst te bekijken, klik [!UICONTROL **mening van de Lijst**] op het lusje van de Lijst van de Kaart.
 
-Als u alle kaarten voor de werkstroom wilt weergeven, gegroepeerd op herhaling, klikt u op [!UICONTROL **Weergave herhaling**]. Niet-geplande kaarten worden in hun eigen groep weergegeven.
+Om alle kaarten voor de werkstroom te bekijken die door herhaling wordt gegroepeerd, klik [!UICONTROL **mening van de Herhaling**]. Niet-geplande kaarten worden in hun eigen groep weergegeven.
 
-Als u een bestaande kaart wilt bewerken, selecteert u deze in de lijst en klikt u op [!UICONTROL **Bewerken**].
+Om een bestaande kaart uit te geven, het in de lijst te selecteren en [!UICONTROL **te klikken geeft**] uit.
 
-Als u een kaart wilt verwijderen, selecteert u deze in de lijst en klikt u op [!UICONTROL **Verwijderen**].
+Om een kaart te schrappen, het in de lijst te selecteren en [!UICONTROL **Schrapping**] te klikken.
 
 ### Filterkaarten
 
-Kaarten kunnen alleen worden gearchiveerd vanaf het iteratiebord. Wanneer een kaart wordt gearchiveerd, wordt deze niet weergegeven in de kaartlijst, tenzij u filtert om gearchiveerde kaarten weer te geven. Voor informatie over het archiveren van een kaart raadpleegt u [Een kaart van een kaart verwijderen of archiveren](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+Kaarten kunnen alleen worden gearchiveerd vanaf het iteratiebord. Wanneer een kaart wordt gearchiveerd, wordt deze niet weergegeven in de kaartlijst, tenzij u filtert om gearchiveerde kaarten weer te geven. Voor informatie over het archiveren van een kaart, zie [ Schrapping of archiveer een kaart van een raad ](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Open de kaartlijst voor de werkstroom.
-1. Klikken [!UICONTROL **Filter**] en selecteert u [!UICONTROL **Alles**], [!UICONTROL **Actieve kaarten**], of [!UICONTROL **Gearchiveerde kaarten**].
+1. Klik [!UICONTROL **Filter**] en selecteer [!UICONTROL **Alle**], [!UICONTROL **Actieve kaarten**], of [!UICONTROL **Gearchiveerde kaarten**].
 
-   Wanneer een ander filter dan het gebrek op de kaartlijst wordt toegepast, wordt een indicator getoond op het filterpictogram ![Toegepast filter](assets/boards-filterapplied-30x30.png).
+   Wanneer een filter buiten het gebrek op de kaartlijst wordt toegepast, wordt een indicator getoond op het toegepaste filter van het filterpictogram ![ filter ](assets/boards-filterapplied-30x30.png).
 
 ### Zoeken in de kaartlijst
 
 1. Open de kaartlijst voor de werkstroom.
-1. Klikken [!UICONTROL **Zoeken**] en typ een zoekterm. Druk vervolgens op Enter.
+1. Klik [!UICONTROL **Onderzoek**] en typ een onderzoekstermijn. Druk vervolgens op Enter.
 
    Alle kaarten die de zoekterm bevatten, worden weergegeven.
 Klik op de X om de zoekopdracht te wissen.
 
-   ![Kaarten in een kaart zoeken](assets/boards-searchbox.png)
+   ![ Onderzoek naar kaarten in een raad ](assets/boards-searchbox.png)
 
 ## Kaarten aan een herhaling toevoegen
 
 >[!NOTE]
 >
->U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Voor informatie, zie [ een herhaling in een werkstroom ](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) creëren.
 
 1. Open de kaartlijst voor de werkstroom.
-1. Selecteer de [!UICONTROL **Weergave herhaling**] om te zien welke kaarten aan een herhaling worden toegewezen en welke niet gepland zijn.
-1. Selecteer een ongeplande kaart in de lijst en klik op [!UICONTROL **Bewerken**].
-1. Selecteer een herhaling in het dialoogvenster [!UICONTROL **Herhalingen**] veld.
-1. Als u artikelpunten gebruikt, voert u een waarde in het dialoogvenster [!UICONTROL **Schatting**] veld.
-1. Klikken [!UICONTROL **Opslaan**].
+1. Selecteer de [!UICONTROL **mening van de Interlatie**] om te zien welke kaarten aan een herhaling worden toegewezen en die niet gepland zijn.
+1. Selecteer een ongeplande kaart in de lijst en de klik [!UICONTROL **geeft**] uit.
+1. Selecteer een herhaling op het [!UICONTROL **gebied van Herhalingen**].
+1. Als u verhaalpunten gebruikt, ga een waarde op het [!UICONTROL **gebied van de Schatting**] in.
+1. Klik [!UICONTROL **sparen**].
 
    De kaart wordt verplaatst naar de iteratie en de iteratiemetriek geeft het aantal kaarten en punten aan.
 
-   U kunt een kaart ook slepen en neerzetten vanuit de groep Niet-geplande kaarten naar de herhaling of op [!UICONTROL **Kaart toevoegen**] om een nieuwe kaart aan de iteratie toe te voegen.
+   U kunt een kaart van de Ongeplande kaartgroep in de herhaling ook slepen en laten vallen, of [!UICONTROL **klikken voegt kaart**] toe om een nieuwe kaart aan de herhaling toe te voegen.
 
 >[!TIP]
 >
->Als u een herhalingsprocesboard hebt gemaakt, worden alle ongeplande kaarten in de kaartlijst weergegeven in de [!UICONTROL Backlog] kolom. Wanneer een kaart naar een andere kolom wordt verplaatst, wordt deze onderdeel van de actieve herhaling. Kaarten die u toevoegt aan de iteratie in de kaartlijst, worden op basis van hun status toegevoegd aan een kolom.
+>Als u een herhalingsprocesboard hebt gemaakt, worden alle ongeplande kaarten in de kaartlijst weergegeven in de kolom [!UICONTROL Backlog] . Wanneer een kaart naar een andere kolom wordt verplaatst, wordt deze onderdeel van de actieve herhaling. Kaarten die u toevoegt aan de iteratie in de kaartlijst, worden op basis van hun status toegevoegd aan een kolom.

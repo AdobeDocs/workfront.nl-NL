@@ -8,7 +8,7 @@ description: U kunt configureren of het systeem automatisch proefdrukken generee
 author: Courtney
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,44 +27,44 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van licenties</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> Overzicht van Vergunningen </a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegang tot configuraties</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Configureer of er automatisch proeven worden gegenereerd voor één gebruiker
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
-1. Selecteer een gebruiker met proefdruktoegang en klik vervolgens op **Bewerken**.
-1. In de **Voorkeuren** in- of uitschakelen **Automatisch proefdrukken genereren bij het uploaden van documenten** selectievakje.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Selecteer een gebruiker met het proef toegang, dan klik **uitgeven**.
+1. In de **sectie van de Voorkeur**, laat toe of maak **automatisch produceren proeven wanneer het uploaden van documenten** checkbox onbruikbaar.
 
    ![](assets/autogenerate-proofs-350x216.png)
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
 ## Configureer of er automatisch proeven worden gegenereerd voor meerdere gebruikers
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
-1. Selecteer gebruikers met proefdruktoegang en klik vervolgens op **Bewerken**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Selecteer gebruikers met het proef toegang, dan klik **uitgeven**.
 
    >[!IMPORTANT]
    >
    >Als alle gebruikers geen proefdruktoegang hebben, verschijnt de optie Automatisch proefdrukken genereren bij het uploaden van documenten niet.
 
-1. In de **Voorkeuren** sectie, inschakelen **Automatisch proefdrukken genereren bij het uploaden van documenten** selectievakje en selecteer vervolgens **Ja** of **Nee**.
+1. In de **sectie van de Voorkeur**, laat **automatisch proeven toe wanneer het uploaden van documenten** checkbox, dan uitgezochte **ja** of **Nr**.
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 

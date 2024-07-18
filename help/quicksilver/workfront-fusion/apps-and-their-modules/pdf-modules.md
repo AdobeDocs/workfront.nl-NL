@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # [!DNL Adobe PDF Services]
 
-Met de [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services]kunt u gegevens uit een PDF-bestand extraheren of een nieuw PDF-bestand genereren op basis van de gegevens die u opgeeft. Daarnaast kunt u verschillende bestandstypen omzetten in PDF of PDF in andere bestandstypen. Met PDF Services kunt u ook metagegevens voor een PDF-bestand combineren, comprimeren of lezen, en wachtwoordbeveiliging voor het bestand instellen.
+Met [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] kunt u gegevens uit een PDF-bestand extraheren of een nieuw PDF-bestand genereren op basis van gegevens die u opgeeft. Daarnaast kunt u verschillende bestandstypen omzetten in PDF of PDF in andere bestandstypen. Met PDF Services kunt u ook metagegevens voor een PDF-bestand combineren, comprimeren of lezen, en wachtwoordbeveiliging voor het bestand instellen.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [Adobe van API voor documentgeneratie](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [ de Generatie API van het Document van de Adobe ](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## Beveiligingsoverwegingen bij gebruik [!DNL Adobe PDF Services]
+## Beveiligingsoverwegingen bij gebruik van [!DNL Adobe PDF Services]
 
 <!--
 
@@ -39,10 +39,10 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 -->
 
-De [!DNL Adobe PDF Services] kan uw bestanden lezen, converteren of wijzigen, maar geen van beide [!DNL Adobe] noch [!DNL Workfront Fusion] Sla uw bestanden of gegevens op. Dit betekent dat:
+[!DNL Adobe PDF Services] kan uw bestanden lezen, converteren of wijzigen, maar [!DNL Adobe] noch [!DNL Workfront Fusion] kan uw bestanden of gegevens opslaan. Dit betekent dat:
 
 * U behoudt de controle over uw bestanden, inclusief de beveiliging ervan
-* U hoeft geen [!UICONTROL Adobe] opslag- of cloudopslagaccount voor gebruik van de PDF Services.
+* U hebt geen [!UICONTROL Adobe] opslag- of cloudopslagaccount nodig om de PDF Services te kunnen gebruiken.
 
 ## Toegangsvereisten
 
@@ -63,37 +63,37 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
 Als u een OAuth Server-to-Server wilt maken, moet u de Adobe PDF Services API toevoegen in uw Adobe Developers Console. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
 
-Zie voor instructies [API aan project toevoegen gebruikend OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) In de documentatie van de ontwikkelaar van de Adobe.
+Voor instructies, zie [ API aan project toevoegen gebruikend OAuth ](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) in de documentatie van de ontwikkelaar van de Adobe.
 
 ## Verbinding maken met [!DNL Adobe PDF Services]
 
-Als u een verbinding wilt maken voor uw [!DNL Adobe PDF Services] modules:
+Verbinding maken voor uw [!DNL Adobe PDF Services] -modules:
 
-1. In alle [!DNL Adobe PDF Services] module, klikt u op **[!UICONTROL Add]** naast het vak Verbinding.
+1. Klik in een willekeurige [!DNL Adobe PDF Services] -module op **[!UICONTROL Add]** naast het vak Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -117,19 +117,19 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe PDF Services] modules:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p></td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID]. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].<p>Zie voor instructies over het zoeken naar referenties <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Credentials</a> in de Adobe Developer documentation.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes] (alleen JWT)</td>
@@ -139,14 +139,14 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe PDF Services] modules:
         </tr>
        </tbody>
     </table>
-1. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 
 ## [!DNL Adobe PDF Services] modules en hun velden
 
-Wanneer u [!DNL PDF Services], [!DNL Workfront Fusion] geeft de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
+Wanneer u [!DNL PDF Services] configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -170,14 +170,14 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### [!UICONTROL Generate document]
 
-De [!UICONTROL Generate document] is een krachtige manier om een PDF te maken die gegevens bevat die u selecteert. U kunt het formatteren door te gebruiken [!DNL Microsoft Word] of door gegevens in JSON-indeling op te geven.
+De module [!UICONTROL Generate document] is een krachtige manier om een PDF te maken die door u geselecteerde gegevens bevat. U kunt het opmaken met behulp van een [!DNL Microsoft Word] -sjabloon of door gegevens in JSON-indeling op te geven.
 
-Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie [Overzicht van het genereren van documenten](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
+Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie het [ Overzicht van de Generatie van het Document ](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
 
-* [Gebruik de [!UICONTROL Generate document] met een [!DNL Microsoft Word] template](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [Gebruik de [!UICONTROL Generate document] module met JSON](#use-the-generate-document-module-with-json)
+* [ Gebruik de [!UICONTROL Generate document] module met a  [!DNL Microsoft Word]  malplaatje ](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [De module [!UICONTROL Generate document] gebruiken met JSON](#use-the-generate-document-module-with-json)
 
-#### Gebruik de [!UICONTROL Generate document] met een [!DNL Microsoft Word] template
+#### De module [!UICONTROL Generate document] gebruiken met een [!DNL Microsoft Word] -sjabloon
 
 <!--
 >[!NOTE]
@@ -187,9 +187,9 @@ Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate docu
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
 -->
 
-Als u de opdracht [!UICONTROL Generate document] met een [!UICONTROL Microsoft Word] sjabloon, moet u eerst de sjabloon maken. Zoek naar &quot;Een sjabloon maken&quot; in het dialoogvenster [!DNL Microsoft Office] documentatie.
+Als u de module [!UICONTROL Generate document] met een [!UICONTROL Microsoft Word] -sjabloon wilt gebruiken, moet u eerst de sjabloon maken. Zoek naar &quot;Een sjabloon maken&quot; in de [!DNL Microsoft Office] -documentatie voor instructies.
 
-Vul de [!UICONTROL Generate document] Modulevelden als volgt:
+Vul de velden van de module [!UICONTROL Generate document] als volgt in:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,11 +197,11 @@ Vul de [!UICONTROL Generate document] Modulevelden als volgt:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Dit bronbestand is het [!DNL Microsoft Word ]sjabloon die de module gebruikt om de nieuwe PDF te genereren.</p> <p>We raden u aan een project te maken in [!DNL Workfront] voor de [!DNL Microsoft Word] sjablonen die u gebruikt in [!DNL Workfront Fusion]. U kunt dan de [!DNL Workfront] &gt; [!UICONTROL Download document] om de aangewezen malplaatje in uw scenario te trekken.</p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Dit brondossier is het [!DNL Microsoft Word ] malplaatje dat de module gebruikt om nieuwe PDF te produceren.</p> <p>We raden u aan een project te maken in [!DNL Workfront] voor de [!DNL Microsoft Word] -sjablonen die u gebruikt in [!DNL Workfront Fusion] . Vervolgens kunt u de module [!DNL Workfront] &gt; [!UICONTROL Download document] gebruiken om de juiste sjabloon in uw scenario te plaatsen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format]</td> 
@@ -215,7 +215,7 @@ Vul de [!UICONTROL Generate document] Modulevelden als volgt:
    <td role="rowheader">[!UICONTROL Data for merge]</td> 
    <td> <p>Vul voor elke waardetag in de sjabloon die u door tekst wilt vervangen het volgende in:</p> 
     <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>Voer een toets in. In de sjabloon is de sleutel de tekst die wordt weergegeven in de tag value. Als u bijvoorbeeld tekst wilt plaatsen in de tag value <code>&#123;&#123;name&#125;&#125;</code>, enter <code>name </code>in het sleutelveld.</p> </li> 
+     <li> <p>[!UICONTROL Key]</p> <p>Voer een toets in. In de sjabloon is de sleutel de tekst die wordt weergegeven in de tag value. Bijvoorbeeld, als u tekst in de waardemarkering <code>&#123;&#123;name&#125;&#125;</code> wilt plaatsen, ga <code>name </code> op het belangrijkste gebied in.</p> </li> 
      <li> <p>Type waarde</p> <p>Selecteer of de gegevens in het waardeveld een waarde, een object of een array van objecten zijn.</p> </li> 
      <li> <p>[!UICONTROL Value]</p> <p>Typ of wijs de tekst toe die u in het gegenereerde document wilt weergeven in plaats van de waardetag.</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
@@ -223,9 +223,9 @@ Vul de [!UICONTROL Generate document] Modulevelden als volgt:
  </tbody> 
 </table>
 
-#### Gebruik de [!UICONTROL Generate document] module met JSON
+#### De module [!UICONTROL Generate document] gebruiken met JSON
 
-Als u de opdracht [!UICONTROL Generate document] Vul de velden als volgt in met JSON:
+Als u de module [!UICONTROL Generate document] wilt gebruiken met JSON, vult u de velden als volgt in:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -233,7 +233,7 @@ Als u de opdracht [!UICONTROL Generate document] Vul de velden als volgt in met 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source File]</td> 
@@ -264,7 +264,7 @@ Met deze actiemodule kunt u gegevens uit een PDF-bestand extraheren. De module v
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -291,7 +291,7 @@ Met deze actiemodule kunt u gegevens uit een PDF-bestand extraheren. De module v
 
 ### [!UICONTROL Combine PDF files]
 
-Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-bestand. In deze module kunnen bijvoorbeeld alle documenten in een [!UICONTROL Workfront] in één enkele PDF na voltooiing van het project.
+Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-bestand. In deze module kunnen bijvoorbeeld alle documenten in een [!UICONTROL Workfront] -project na voltooiing van het project worden samengevoegd tot één PDF.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -299,15 +299,15 @@ Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-b
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
-   <td> <p>U kunt een aggregatormodule gebruiken om documenten te verzamelen die in een PDF moeten worden gecombineerd, of u kunt de documenten handmatig toevoegen. </p> <p>We raden u aan een [!UICONTROL Array Aggregator] aan gezamenlijke output van een vorige module. Door een aggregator te gebruiken, te hoeven u niet de namen, de plaatsen, of de aantallen dossiers te kennen om te combineren. Het gebruik van een aggregator is daarom veel flexibeler en schaalbaarder dan het handmatig invoeren van de te combineren documenten.</p> <p>Als u de opdracht [!UICONTROL Combine PDF] bestandsmodule met een aggregator, moet u toewijzing inschakelen op de [!UICONTROL Documents] veld. </p> <p>In dit voorbeeld wordt [!UICONTROL Read Related Records] identificeert documenten verbonden aan een project, en [!UICONTROL Download Documents] elke module wordt gedownload. Alle PDF worden geaggregeerd in een array die wordt doorgegeven aan de [!UICONTROL Combine PDF] bestandenmodule.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>U kunt documenten ook handmatig invoeren.</p> <p>Voor elk document dat in de gecombineerde PDF moet worden opgenomen:</p> 
+   <td> <p>U kunt een aggregatormodule gebruiken om documenten te verzamelen die in een PDF moeten worden gecombineerd, of u kunt de documenten handmatig toevoegen. </p> <p>We raden u aan een [!UICONTROL Array Aggregator] -module te gebruiken om de uitvoer van een vorige module samen te voegen. Door een aggregator te gebruiken, te hoeven u niet de namen, de plaatsen, of de aantallen dossiers te kennen om te combineren. Het gebruik van een aggregator is daarom veel flexibeler en schaalbaarder dan het handmatig invoeren van de te combineren documenten.</p> <p>Als u de module [!UICONTROL Combine PDF] Bestanden wilt gebruiken met een aggregator, moet u toewijzing inschakelen in het veld [!UICONTROL Documents] . </p> <p>In dit voorbeeld identificeert de module [!UICONTROL Read Related Records] documenten die aan een project zijn gekoppeld en downloadt de module [!UICONTROL Download Documents] elk document. Alle PDF worden geaggregeerd in een array die wordt doorgegeven aan de module [!UICONTROL Combine PDF] files.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>U kunt documenten ook handmatig invoeren.</p> <p>Voor elk document dat in de gecombineerde PDF moet worden opgenomen:</p> 
     <ol> 
      <li value="1"> <p>Klikken [!UICONTROL Add a Document]</p> </li> 
-     <li value="2"> <p>In de [!UICONTROL Source file] , selecteert u de module die het document uitvoert dat u wilt opnemen, of wijst u de naam en gegevens van het bronbestand toe. </p> </li> 
-     <li value="3"> <p>(Optioneel) Als u alleen bepaalde pagina's uit het bronbestand wilt opnemen, klikt u voor elk paginabereik dat u wilt toevoegen op <strong>[!UICONTROL Add item]</strong> in de [!UICONTROL Pages] veld, voert u vervolgens de eerste en laatste pagina in van het paginabereik dat u wilt opnemen, en klikt u op <strong>[!UICONTROL Add]</strong>. U kunt meerdere paginabereiken uit één document opnemen.</p> </li> 
+     <li value="2"> <p>Selecteer in het veld [!UICONTROL Source file] de module die het document uitvoert dat u wilt opnemen, of wijs de naam en gegevens van het bronbestand toe. </p> </li> 
+     <li value="3"> <p>(Optioneel) Als u alleen bepaalde pagina's uit het bronbestand wilt opnemen, klikt u in het veld [!UICONTROL Pages] op <strong>[!UICONTROL Add item]</strong> voor elk paginabereik dat u wilt toevoegen, voert u de eerste en laatste pagina in van het paginabereik dat u wilt opnemen en klikt u op <strong>[!UICONTROL Add]</strong> . U kunt meerdere paginabereiken uit één document opnemen.</p> </li> 
      <li value="4"> <p>Klik op <strong>[!UICONTROL Add]</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
@@ -326,7 +326,7 @@ Deze actiemodule maakt een PDF-bestand en comprimeert dit. Dit kan handig zijn o
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -357,7 +357,7 @@ Met dit gereedschap wordt een document geconverteerd naar een PDF-bestand. Het b
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -426,15 +426,15 @@ Met dit gereedschap wordt een HTML-bestand geconverteerd naar een PDF-bestand.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Belangrijk: bronbestand moet de HTML- of ZIP-indeling hebben. </p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Belangrijk: Source-bestanden moeten de HTML- of ZIP-indeling hebben. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL JSON]</td> 
-   <td> <p>Als uw HTML verwijst naar JavaScript-variabelen, kunt u deze variabelen hier opnemen. </p> <p>Voor elke variabele klikt u op <strong>[!UICONTROL Add item]</strong> en neemt de sleutel en de waarde van de variabele op.</p> <p>Opmerking:   
+   <td> <p>Als uw HTML verwijst naar JavaScript-variabelen, kunt u deze variabelen hier opnemen. </p> <p>Klik voor elke variabele op <strong>[!UICONTROL Add item]</strong> en neem de sleutel en waarde van de variabele op.</p> <p>Opmerking:   
      <ul> 
       <li> <p>Wanneer u een PDF maakt van een ZIP-bestand, moet het bronelement een scriptelement bevatten, zoals: <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
       <li> <p>Wanneer u een PDF maakt van een URL, wordt de inhoud van dit JSON-object in de browser-VM geïnjecteerd voordat de pagina wordt weergegeven. </p> </li> 
@@ -471,7 +471,7 @@ Met dit gereedschap zet u een afbeelding om in een PDF-bestand.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -498,7 +498,7 @@ Met dit gereedschap wordt een PDF-bestand geconverteerd naar een document. U kun
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -532,7 +532,7 @@ Een bestand met de naam &#39;TestFile&#39; met 8 pagina&#39;s zou bijvoorbeeld 8
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -561,7 +561,7 @@ Met dit gereedschap lineariseert u een PDF-document om een voor het web geoptima
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -582,7 +582,7 @@ Met dit gereedschap wordt OCR (Optical Character Recognition) op een bestand uit
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -615,7 +615,7 @@ In deze module kunt u pagina&#39;s in een PDF-document selectief roteren of verw
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -631,7 +631,7 @@ In deze module kunt u pagina&#39;s in een PDF-document selectief roteren of verw
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pages]</td> 
-   <td> <p>Klik voor elk paginabereik dat u wilt verwijderen op <strong>[!UICONTROL Add]</strong> en voer vervolgens de eerste en laatste pagina van het paginabereik in. </p> <p>Opmerking:   
+   <td> <p>Voor elk paginabereik dat u wilt verwijderen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de eerste en laatste pagina van het paginabereik in. </p> <p>Opmerking:   
      <ul> 
       <li> <p>U kunt negatieve getallen gebruiken om terug te tellen vanaf het einde van het document. De laatste pagina van een document is -1, de tweede tot de laatste pagina is -2, enzovoort.</p> </li> 
       <li> <p>Als u één pagina wilt verwijderen, stelt u hetzelfde paginanummer in als het begin en het einde van het bereik.</p> </li> 
@@ -656,7 +656,7 @@ In deze actiemodule wordt een PDF gemaakt die is gelabeld voor gebruik door toeg
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -690,7 +690,7 @@ Dit hulpmiddel haalt basisinformatie over het document, zoals:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -711,7 +711,7 @@ Met dit gereedschap beveiligt u een PDF-document met een gebruikers- of eigenaar
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -740,11 +740,11 @@ Met dit gereedschap beveiligt u een PDF-document met een gebruikers- of eigenaar
      <li> <p>[!UICONTROL All content]</p> </li> 
      <li> <p>[!UICONTROL All content except metadata]</p> </li> 
      <li> <p>[!UICONTROL Only embedded data] </p> </li> 
-    </ul> <p>Selecteren "[!UICONTROL Only embedded data]" geeft alle verleende toegangsmachtigingen als ineffectief weer.</p> </td> 
+    </ul> <p>Als u "[!UICONTROL Only embedded data]" selecteert, worden alle toegangsmachtigingen die u hebt opgegeven, ongeldig.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Permissions]</td> 
-   <td> <p>Selecteer de machtigingen die u wilt opnemen om het afdrukken, bewerken of kopiëren van inhoud toe te staan.</p> <p>Machtigingsinstellingen worden alleen gebruikt als de [!UICONTROL ownerPassword] wordt ingesteld in het dialoogvenster [!UICONTROL Password Protection Type] veld.</p> </td> 
+   <td> <p>Selecteer de machtigingen die u wilt opnemen om het afdrukken, bewerken of kopiëren van inhoud toe te staan.</p> <p>Machtigingsinstellingen worden alleen gebruikt als [!UICONTROL ownerPassword] is ingesteld in het veld [!UICONTROL Password Protection Type] .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -761,7 +761,7 @@ Met dit gereedschap verwijdert u beveiliging (wachtwoordbeveiliging) uit een PDF
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -786,7 +786,7 @@ In deze actiemodule wordt een PDF-document in meerdere kleinere documenten gespl
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -796,7 +796,7 @@ In deze actiemodule wordt een PDF-document in meerdere kleinere documenten gespl
    <td role="rowheader">[!UICONTROL Split option]</td> 
    <td>Selecteer hoe u het bestand wilt splitsen. 
    <ul>
-   <li><p><b>Paginabereik</b></p><p>Voor elk paginabereik dat u in een afzonderlijk document wilt splitsen, klikt u op <b>Toevoegen</b> en voert u de pagina in waarop u wilt beginnen en de pagina waarop u wilt eindigen.</p></li>
+   <li><p><b>Paginabereik</b></p><p>Voor elke paginabereik dat u in een afzonderlijk document wilt verdelen, <b> toevoegen </b> en ingaan de pagina waarop u en de pagina wilt beginnen waarop u wilt beëindigen.</p></li>
    <li><p><b>Aantal pagina's</b></p><p>Voer het aantal pagina's in dat u in de nieuwe documenten wilt opnemen.</p></li>
    <li><p><b>Aantal bestanden</b></p><p>Voer het aantal bestanden van gelijke grootte in waarin u het document wilt splitsen.</p></li>
    </ul>
@@ -815,7 +815,7 @@ Deze actie module een verzoek van douaneHTTP aan de PDF Diensten API.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services], zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel. </td> 
+   <td> <p>Selecteer de verbinding die u voor deze module wilt gebruiken.</p> Zie <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" > Verbinding maken met [!DNL Adobe PDF Services]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe PDF Services] . </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -823,7 +823,7 @@ Deze actie module een verzoek van douaneHTTP aan de PDF Diensten API.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -835,7 +835,7 @@ Deze actie module een verzoek van douaneHTTP aan de PDF Diensten API.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields]</td> 
-   <td> <p>Voor elk gebied dat u aan de API vraag wilt toevoegen, klik <b>Item toevoegen</b> en voert u de sleutel en optionele waarde van het veld in.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voor elk gebied dat u aan de API vraag wilt toevoegen, <b> klikt toevoegt punt </b> en gaat de sleutel en de facultatieve waarde van het gebied in.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

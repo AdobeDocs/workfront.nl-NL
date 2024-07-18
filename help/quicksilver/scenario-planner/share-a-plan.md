@@ -9,14 +9,14 @@ feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
-# Een abonnement delen in het dialoogvenster [!DNL Scenario Planner]
+# Een abonnement delen in de [!DNL Scenario Planner]
 
-U kunt een abonnement delen in het dialoogvenster [!DNL Adobe Workfront Scenario Planner] met andere gebruikers, zodat zij aan het zelfde werk kunnen samenwerken dat u doet.
+U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met andere gebruikers, zodat zij aan het werk kunnen samenwerken dat u doet.
 
 >[!TIP]
 >
@@ -31,25 +31,25 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
    <td>[!UICONTROL Business] of hoger</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licentie*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> license* </b> </p> </td> 
    <td> <p>[!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
-   <td> <p>U moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] voor toegang tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van de [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Toegang nodig om de [!DNL Scenario Planner]</a>. </p> </td> 
+   <td><b> Product </b> </td> 
+   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configuraties op toegangsniveau*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> <p>Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> <p>Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
+   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
    <td> <p> [!UICONTROL Manage] machtigingen voor het abonnement
-     <p>Voor informatie over het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL Request] toegang tot een plan in het [!DNL Scenario Planner]</a>.</p> </td> 
+     <p>Zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL Request] Toegang tot een abonnement in [!DNL Scenario Planner]</a> voor informatie over het aanvragen van aanvullende toegang tot een abonnement.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ U moet het volgende hebben:
 
 ## Vereisten
 
-* De gebruikers die toestemmingen aan het plan worden verleend moeten toegang hebben tot [!DNL Scenario Planner] gebied in hun Niveaus van de Toegang, zoals verleend door uw [!DNL Workfront] beheerder, om toestemmingen aan een plan te ontvangen.
+* De gebruikers die machtigingen voor het abonnement hebben, moeten toegang hebben tot het [!DNL Scenario Planner] -gebied in hun toegangsniveaus, zoals toegestaan door uw [!DNL Workfront] -beheerder, om machtigingen voor een abonnement te kunnen ontvangen.
 
-   Bijvoorbeeld: [!UICONTROL Requestors] kan plannen niet weergeven, maken of bewerken. Houd dit in gedachten wanneer u een abonnement deelt met een gebruiker die een licentie voor de aanvrager heeft.
+  [!UICONTROL Requestors] kan bijvoorbeeld geen plannen weergeven, maken of bewerken. Houd dit in gedachten wanneer u een abonnement deelt met een gebruiker die een licentie voor de aanvrager heeft.
 
 <!--
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-Voor meer informatie over de toegang tot de [!DNL Scenario Planner] voor diverse licentietypen raadpleegt u [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+Voor meer informatie over toegang tot [!DNL Scenario Planner] voor diverse licentietypen, zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 ## Overwegingen bij het delen van plannen
 
@@ -74,12 +74,12 @@ Voor meer informatie over de toegang tot de [!DNL Scenario Planner] voor diverse
 * U kunt geen plannen bekijken die u niet creeerde of die niet met u worden gedeeld.
 * U kunt een abonnement alleen met andere gebruikers delen. U kunt geen plannen met groepen, teams, of bedrijven delen.
 * U moet een abonnement eerst opslaan voordat u het kunt delen.
-* U kunt een URL naar een abonnement met een andere gebruiker delen. Als de gebruiker geen toestemmingen heeft om het plan minstens te bekijken, kunnen zij om toegang tot het plan van een andere gebruiker verzoeken wanneer zij URL ontvangen. Voor informatie over het vragen van toegang tot een plan, zie [Toegang aanvragen tot een abonnement in de [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* U kunt een URL naar een abonnement met een andere gebruiker delen. Als de gebruiker geen toestemmingen heeft om het plan minstens te bekijken, kunnen zij om toegang tot het plan van een andere gebruiker verzoeken wanneer zij URL ontvangen. Voor informatie over het verzoeken van toegang tot een plan, zie [ toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Wanneer u meerdere plannen deelt die al met anderen zijn gedeeld, worden de gebruikers met wie u deelt niet vervangen, maar toegevoegd aan de bestaande gebruikers op elk abonnement dat u hebt geselecteerd.
 
 ## Abonnementen delen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **[!UICONTROL Scenarios]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in Workfront en klik vervolgens op **[!UICONTROL Scenarios]** .
 1. Klik op de naam van een abonnement om het te openen
 
    of
@@ -90,19 +90,18 @@ Voor meer informatie over de toegang tot de [!DNL Scenario Planner] voor diverse
    >
    >U kunt een plan delen door de avatars van gebruikers te klikken met wie het plan in de hoger-juiste hoek van de plankopbal wordt gedeeld.
 
-1. (Voorwaardelijk) Als u een abonnement hebt geopend, klikt u op de knop **[!UICONTROL More]** pictogram ![](assets/more-icon.png) rechts van de [!UICONTROL Plan] naam, klik vervolgens op **[!UICONTROL Share]**
+1. (Voorwaardelijk) Als u een abonnement hebt geopend, klikt u op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) rechts van de naam [!UICONTROL Plan] en vervolgens klikt u op **[!UICONTROL Share]**
 
    of
 
-   Als u meerdere plannen hebt geselecteerd om deze in bulk te delen, klikt u op de knop **[!UICONTROL Share]** pictogram ![](assets/share-icon-26x26.png) boven aan de lijst van plannen om de [!UICONTROL Plan] toegangsvak.
+   Als u meerdere plannen hebt geselecteerd om deze in bulk te delen, klikt u op het pictogram **[!UICONTROL Share]** ![](assets/share-icon-26x26.png) boven aan de lijst met plannen om het toegangsvak [!UICONTROL Plan] te openen.
 
    >[!TIP]
    >
-   >* Gebruikers die machtigingen hebben voor alle plannen die u selecteert, worden in het dialoogvenster [!UICONTROL Plan] toegangsvak.
+   >* Gebruikers die machtigingen hebben voor alle plannen die u selecteert, worden in het toegangsvak [!UICONTROL Plan] weergegeven.
    >* Eventuele extra gebruikers worden toegevoegd aan en vervangen de bestaande gebruikers op alle geselecteerde plannen niet.
 
-
-1. In de **[!UICONTROL Give plan access to]** veld, typt u de naam van de gebruikers met wie u het abonnement wilt delen en selecteert u ze wanneer ze in de lijst worden weergegeven.
+1. Typ in het veld **[!UICONTROL Give plan access to]** de naam van de gebruikers met wie u het abonnement wilt delen en selecteer de gebruikers in de lijst.
 1. Van het drop-down menu van toestemmingen rechts van de gebruikersnaam, selecteer het niveau van toestemming u hen aan het plan wilt verlenen.
 1. Selecteer een van de volgende opties:
 
@@ -133,11 +132,11 @@ Voor meer informatie over de toegang tot de [!DNL Scenario Planner] voor diverse
 
    >[!TIP]
    >
-   >U kunt plannen bekijken die met u door toepassing van worden gedeeld [!UICONTROL Shared with me] in een lijst met plannen.
+   >U kunt plannen weergeven die met u worden gedeeld door het filter [!UICONTROL Shared with me] toe te passen in een lijst met plannen.
 
 ## Opties voor overzichtsmachtigingen
 
-De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een plan. Voor meer informatie over de toegang krijgen de gebruikers gebaseerd op hun vergunning, zie [Toegang verlenen aan [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een plan. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [ toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -145,7 +144,7 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Handelingen</strong> </p> </th> 
+   <th> <p><strong> Acties </strong> </p> </th> 
    <th> <p><strong>[!UICONTROL Manage]</strong> </p> </th> 
    <th> <p><strong>[!UICONTROL View]</strong> </p> </th> 
   </tr> 
@@ -164,7 +163,7 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
   <tr> 
    <td>Weergavescenario's</td> 
    <td>✓</td> 
-   <td><span style="font-weight: normal;">✓</span> </td> 
+   <td><span style="font-weight: normal;"> ✓ </span> </td> 
   </tr> 
   <tr> 
    <td>Taakrollen weergeven</td> 
@@ -202,17 +201,17 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publicatiescenario's**</td> 
+   <td>Publish-scenario's**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*U moet toegang tot Financiële Gegevens hebben om financiële informatie over plannen te kunnen bekijken of beheren, zelfs als u toestemmingen aan plannen beheert. Voor informatie over de toegang tot financiële gegevens raadpleegt u [Toegang tot financiële gegevens verlenen](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+*U moet toegang tot Financiële Gegevens hebben om financiële informatie over plannen te kunnen bekijken of beheren, zelfs als u toestemmingen aan plannen beheert. Voor informatie over toegang tot financiële gegevens, zie [ Toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 **U moet toegang hebben tot creëren en toestemmingen om projecten te beheren om scenario&#39;s te kunnen publiceren.
 
-Voor informatie over het niveau van de projecttoegang, zie [Toegang verlenen tot projecten](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Voor informatie over het niveau van de projecttoegang, zie [ Toegang van de Verlening tot projecten ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Voor informatie over projecttoestemmingen, zie [Een project delen in [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Voor informatie over projecttoestemmingen, zie [ een project in  [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.

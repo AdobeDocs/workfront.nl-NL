@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >De releasedatum voor deze functie moet nog worden bepaald.
 
-Keert informatie over de dienst, zoals eigenschappen en mogelijkheden terug. Adobe Workfront gebruikt deze informatie om de gebruikersinterface in Workfront aan te passen. Als de implementatie van de webhaak bijvoorbeeld aangepaste handelingen bevat, moet de JSON deze bewerkingen in de JSON opnemen. Gebruikers kunnen deze acties dan aanroepen vanuit Workfront.
+Retourneert informatie over de service, zoals functies en mogelijkheden. Adobe Workfront gebruikt deze informatie om de gebruikersinterface in Workfront aan te passen. Als de implementatie van de webhaak bijvoorbeeld aangepaste handelingen bevat, moet de JSON deze bewerkingen in de JSON opnemen. Gebruikers kunnen deze acties dan aanroepen vanuit Workfront.
 
 **URL**
 
@@ -56,12 +56,12 @@ JSON met informatie over deze service
   <tr> 
    <td>versie </td> 
    <td>String </td> 
-   <td>Het interne versienummer voor deze service. Dit nummer wordt bepaald door de webshservice provider en wordt alleen ter informatie gebruikt.<br><br></td> 
+   <td>Het interne versienummer voor deze service. Dit nummer wordt bepaald door de webhookprovider en wordt alleen ter informatie gebruikt.<br><br></td> 
   </tr> 
   <tr> 
    <td>uitgever </td> 
-   <td>String </td> 
-   <td>De naam van het bedrijf dat de implementatie van de website verstrekt.</td> 
+   <td>Tekenreeks </td> 
+   <td>De naam van het bedrijf dat de webhook-implementatie verzorgt.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
@@ -71,7 +71,7 @@ JSON met informatie over deze service
   <tr> 
    <td>customActions </td> 
    <td>String</td> 
-   <td>  <p>Een lijst met de aangepaste bewerkingen die door deze webhaak worden uitgevoerd. Elk lijstitem bevat een naam en een weergavenaam. De weergavenaam wordt weergegeven in het vervolgkeuzemenu "Documenthandelingen" in Workfront. Het klikken op het punt in dropdown zal de actie in webhaak aanhalen door het /customAction eindpunt te roepen.</p></td> 
+   <td>  <p>Een lijst met de aangepaste bewerkingen die door deze webhook zijn geïmplementeerd. Elk lijstitem bevat een naam en een weergavenaam. De weergavenaam wordt weergegeven in het vervolgkeuzemenu Documenthandelingen in Workfront. Wanneer u op het item in de vervolgkeuzelijst klikt, wordt de handeling in de webhook aangeroepen door het eindpunt /customAction aan te roepen.</p></td> 
   </tr> 
  </tbody> 
 </table>

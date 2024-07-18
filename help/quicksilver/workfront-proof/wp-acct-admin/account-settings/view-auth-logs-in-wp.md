@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Aanmelden voor verificatie weergeven [!DNL Workfront Proof]
-description: Als [!DNL Workfront Proof] beheerder, kunt u de gebruiksinformatie voor elke gebruiker bekijken die zich heeft aangemeld [!DNL Workfront Proof].
+title: Logboeken voor verificatie weergeven  [!DNL Workfront Proof]
+description: Als a [!DNL Workfront Proof]  beheerder, kunt u de gebruiksinformatie voor elke gebruiker bekijken die in  [!DNL Workfront Proof] het programma heeft geopend.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d458989b-884f-4253-8dc9-9a545377cc63
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] beheerder, kunt u de gebruiksinformatie voor elke gebruiker bekijken die zich heeft aangemeld [!DNL Workfront Proof].
+Als [!DNL Workfront Proof] beheerder kunt u de gebruiksinformatie weergeven voor elke gebruiker die zich heeft aangemeld bij [!DNL Workfront Proof] .
 
-1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Activity]**.
-1. In de **[!UICONTROL Proofs and media logs]** vervolgkeuzelijst, klikt u op **[!UICONTROL Authentication logs]**.
+1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Activity]** .
+1. Klik in de vervolgkeuzelijst **[!UICONTROL Proofs and media logs]** op **[!UICONTROL Authentication logs]** .
 De login geschiedenis voor elke gebruiker in de systeemvertoningen.

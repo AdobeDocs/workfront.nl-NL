@@ -23,7 +23,7 @@ U kunt de Status van een project aan een status manueel bijwerken die Volledige 
 
 Anders markeert Adobe Workfront automatisch het project als voltooid wanneer alle taken en problemen van het project zijn voltooid en goedgekeurd.
 
-Voor meer informatie over de Wijze van de Voltooiing van het project, zie [Projecten bewerken](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Voor meer informatie over de Wijze van de Voltooiing van het project, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -55,22 +55,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bijwerken naar specifieke statussen
 
-* **Bij het bijwerken van een project naar Voltooid:** Zorg ervoor dat alle taken en problemen met het project zijn voltooid. U kunt niet de Volledige status voor een project selecteren, of een andere status die Voltooid vergelijkt wanneer er taken of kwesties zijn die niet op het project zijn voltooid. Dit omvat het goedkeuren van elke taak of kwestie die in een volledig-in afwachting status van de Goedkeuring is.
-* **Bij het bijwerken van een project van Voltooid naar Huidig:** Als alle taken en problemen met het project zijn voltooid, controleert u of de modus Voltooien van het project is ingesteld op Handmatig. Als de modus Voltooien van het project Automatisch is, blijft de status van het project voltooid.
+* **wanneer het bijwerken van een te voltooien project:** zorg ervoor dat alle taken en kwesties op het project worden voltooid. U kunt niet de Volledige status voor een project selecteren, of een andere status die Voltooid vergelijkt wanneer er taken of kwesties zijn die niet op het project zijn voltooid. Dit omvat het goedkeuren van elke taak of kwestie die in een volledig-in afwachting status van de Goedkeuring is.
+* **wanneer het bijwerken van een project van Volledig aan Huidig:** als alle taken en kwesties op het project worden voltooid, zorg ervoor dat de Wijze van de Voltooiing van het project aan Handboek wordt geplaatst. Als de modus Voltooien van het project Automatisch is, blijft de status van het project voltooid.
 
 ## Projectstatus wijzigen
 
 1. Ga naar het project waarvan status u wilt bijwerken.
-1. Klik in de projectheader op de naam van de status in het dialoogvenster **Status** en selecteert u vervolgens een nieuwe status.
+1. In de projectkopbal, klik de naam van de status op het **gebied van de Status**, dan selecteer een nieuwe status.
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    of
 
-   Klik op de knop **Meer** menu ![](assets/qs-more-menu.png) naast de naam van het project en klik op **Bewerken** en selecteer een nieuwe status in het dialoogvenster **Status** veld, klik vervolgens op **Opslaan**.
+   Klik **Meer** menu ![](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteer een nieuwe status op het **6} gebied van de Status {, dan klik** sparen **.**
 
    De projectstatus wordt bijgewerkt naar de status die u hebt geselecteerd.

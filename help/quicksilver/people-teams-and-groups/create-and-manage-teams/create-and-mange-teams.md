@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Teams overzicht](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
-* [Een team maken](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
-* [Agile-teams maken en beheren](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
-* [Teaminstellingen bewerken](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
-* [Beheer waaraan uw team werkt](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-* [Een team deactiveren](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
-* [Vorm [!UICONTROL Done] knop voor taken](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [Vorm [!UICONTROL Done] knop voor problemen](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Vervang de [!UICONTROL Work On It] met een [!UICONTROL Start] knop](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [ Overzicht van Teams ](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+* [ creeer een team ](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
+* [ creeer en beheer de teams van de Gelijkheid ](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
+* [ geef teammontages ](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md) uit
+* [ beheer wat uw team aan ](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md) werkt
+* [ deactivate een team ](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+* [ vorm de [!UICONTROL Done] knoop voor taken ](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [ vorm de [!UICONTROL Done] knoop voor kwesties ](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+* [De knop [!UICONTROL Work On It] vervangen door een knop [!UICONTROL Start]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

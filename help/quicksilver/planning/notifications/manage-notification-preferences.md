@@ -22,7 +22,7 @@ Wanneer iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u zowel
 >
 >Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
 >
->Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Toegangsvereisten
 
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Om in-app berichten van de Planning van Workfront te ontvangen en berichtvoorkeur te beheren, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience voor Workfront</a>.</p>
+   <p>Om in-app berichten van de Planning van Workfront te ontvangen en berichtvoorkeur te beheren, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Voor informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
@@ -68,14 +68,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen voor een werkruimte weergeven of vergroten</a> </p>  
+   <td> <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -84,15 +84,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Meldingsvoorkeuren beheren
 
 1. Meld u aan bij Workfront met uw Adobe Experience Cloud-referenties.
-1. Klik op de knop **accountmenu** pictogram ![](assets/account-menu-icon-on-experience-cloud.png) in de rechterbovenhoek van het scherm klikt u op **Voorkeuren**.
-1. Onder de **Meldingen** sectie, klikken **Workfront**Voer vervolgens de stappen in het volgende artikel uit om uw berichtgevingsvoorkeuren voor Workfront Planning te beheren:
-   [Accountvoorkeuren en -meldingen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Klik het **pictogram van het 0} rekeningsmenu ![](assets/account-menu-icon-on-experience-cloud.png) in het hoger-recht van het scherm, dan klik** Voorkeur **.**
+1. Onder de **sectie van Meldingen**, klik **Workfront**, dan volg de stappen in het volgende artikel om uw berichtvoorkeur voor de Planning van Workfront te beheren:
+   [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Raadpleeg ook de volgende artikelen voor meer informatie over berichten over Workfront Planning:
 
-* Voor informatie over opmerkingen over records raadpleegt u [Opnameopmerkingen beheren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Voor informatie over in-app meldingen van Workfront Planning raadpleegt u [Meldingen in apps voor Adobe Workfront-planning beheren](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Voor informatie over e-mailmeldingen via Workfront Planning raadpleegt u [E-mailmeldingen beheren voor Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Voor informatie over commentaren op verslagen, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+* Voor informatie over in-app berichten van de Planning van Workfront, zie [ binnen-app berichten voor de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Voor informatie over e-mailberichten van de Planning van Workfront, zie [ e-mailberichten voor de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 

@@ -19,7 +19,7 @@ Als controleur kunt u een document bekijken dat ter controle aan u is voorgelegd
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -39,16 +39,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 <!--
 ## Review a document from Home
@@ -63,32 +63,32 @@ Add once functionality is added
 
 1. Houd de muisaanwijzer boven het document in het vak Voorbeeld. Vervolgens:
 
-   Klikken **Voorvertoning** om een alleen-lezen versie van het document in een nieuw venster te openen.
+   Klik **Voorproef** om een read-only versie van het document in een nieuw venster te openen.
 
    OF
 
-   Klikken **Downloaden** om een lokale kopie van het document naar het apparaat te downloaden.
+   Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Optioneel) Nadat u het document hebt gereviseerd, kunt u een opmerking voor de aanvrager achterlaten in de **Updates** sectie. Zie voor meer informatie over opmerkingen [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Als u wilt opnemen dat de revisie is voltooid, klikt u op **Volledige revisie**.
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit het venster Documentoverzicht
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 
 1. Klik op het gewenste document en het deelvenster Documentoverzicht wordt geopend.
 
 1. Selecteer in het vervolgkeuzemenu de versie van het document die u wilt reviseren. De meest recente versie wordt standaard geselecteerd.
 
-1. Houd de voorvertoning van het document boven in het dialoogvenster **Details** boven aan het deelvenster Documentoverzicht. Vervolgens:
+1. Beweeg over de voorproef van het document in de **sectie van Details** bij de bovenkant van de ruit van de Samenvatting van het Document. Vervolgens:
 
-   Klikken **Voorvertoning** om een alleen-lezen versie van het document in een nieuw venster te openen.
+   Klik **Voorproef** om een read-only versie van het document in een nieuw venster te openen.
 
    OF
 
-   Klikken **Downloaden** om een lokale kopie van het document naar het apparaat te downloaden.
+   Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Optioneel) Nadat u het document hebt gereviseerd, kunt u een opmerking voor de aanvrager achterlaten in de **Updates** sectie. Zie voor meer informatie over opmerkingen [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optioneel) U kunt ook een bepaalde versie van het document voorvertonen of downloaden door omlaag te schuiven naar de **Versies** in het deelvenster Documentsamenvatting en klik vervolgens op het pictogram Meer ![](../assets/more-icon.png) naast de versie die u wilt bekijken en selecteren **Downloaden** of **Voorvertoning**.
-1. Als u wilt opnemen dat de revisie is voltooid, klikt u op **Volledige revisie**.
+1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van de ruit van de Samenvatting van het Document te scrollen, dan klikkend op het Meer pictogram ![](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
+1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.

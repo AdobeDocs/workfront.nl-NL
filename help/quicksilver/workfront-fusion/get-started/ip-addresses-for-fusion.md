@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# IP Adressen voor de toegang tot [!DNL Adobe Workfront Fusion]
+# IP-adressen voor toegang tot [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] naast een [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront license] .
 
-Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen om open communicatie tussen uw milieu en toe te staan [!DNL Adobe Workfront Fusion].
+Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen om open communicatie tussen uw milieu en [!DNL Adobe Workfront Fusion] toe te staan.
 
-Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om toe te laten [!DNL Workfront Fusion] om toegang te krijgen tot uw systeem.
+Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om [!DNL Workfront Fusion] toe te laten om tot uw systeem toegang te hebben.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ Ook, als uw organisatie uitgaande netwerk het filtreren gebruikt, voeg het volge
 >
 >Het uitgaande netwerk filtreren is ongewoon. Controleer met uw netwerkbeheerder om te zien of moet u uw lijst van gewenste personen bijwerken om voor het aan te passen.
 
-Voor meer informatie over vestiging de lijst van gewenste personen van uw organisatie, zie [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Voor meer informatie bij vestiging ziet de lijst van gewenste personen van uw organisatie, [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.

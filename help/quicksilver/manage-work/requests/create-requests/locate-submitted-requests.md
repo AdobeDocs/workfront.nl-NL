@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden, of aanvragen die u hebt gestart maar die u nooit hebt verzonden. U kunt deze aanvragen vinden in de volgende gebieden van Adobe Workfront:
 
-* **Verzonden sectie**: Alle verzoeken die u of iemand anders heeft ingediend en u hebt toegang tot minstens Mening.
-* **Conceptsectie** : Alle aanvragen die u hebt gestart, maar die u nooit hebt voltooid en die u nooit hebt verzonden. Voor meer informatie over ontwerpverzoeken raadpleegt u [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **voorgelegde sectie**: Alle verzoeken die u of iemand anders voorlegde en u toegang tot minstens Mening hebt.
+* **sectie van het Ontwerp**: Alle verzoeken die u begon maar u nooit beëindigde en u voorlegde nooit. Voor meer informatie over ontwerp verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
   >[!TIP]
   >
@@ -48,11 +48,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot problemen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de aanvragen of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de aanvragen of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,8 +63,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgelegd:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
-1. Klikken **Verzonden** in het linkerdeelvenster om alle verzonden aanvragen weer te geven.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik **Voorgelegd** in het linkerpaneel om alle voorgelegde verzoeken te bekijken.
 
    U kunt maximaal 2000 verzoeken weergeven en deze kunnen op meerdere pagina&#39;s worden weergegeven.
 
@@ -85,7 +85,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
          <td role="rowheader">Naam</td> 
          <td> <p>De naam van de aanvraag.</p> <p>Klik op de naam van een aanvraag om deze te openen. </p> <p><b>TIP</b>
 
-   Als de kwestie niet werd bewaard toen het in een taak of een project werd omgezet, wordt de naam van de kwestie verduisterd en kan niet meer worden geklikt. Voor informatie over het converteren van problemen raadpleegt u <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overzicht van conversie van problemen in Adobe Workfront</a>. </p> </td>
+   Als de kwestie niet werd bewaard toen het in een taak of een project werd omgezet, wordt de naam van de kwestie verduisterd en kan niet meer worden geklikt. Voor informatie over het omzetten van kwesties, zie <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref"> Overzicht van het omzetten van kwesties in Adobe Workfront </a>. </p> </td>
    </tr> 
       <tr> 
          <td role="rowheader">Omgezet in</td> 
@@ -116,17 +116,17 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    >
    >Wanneer u bij de lijst Verzendverzoeken vandaan navigeert, blijft de geselecteerde sorteeroptie behouden.
 
-1. (Optioneel) Selecteer een aanvraag in de lijst en klik op de knop **Samenvatting openen** pictogram ![](assets/open-summary-with-text-nwe.png) om het deelvenster Samenvatting te openen en aanvullende informatie over de aanvraag weer te geven, voegt u opmerkingen, documenten toe of wijst u deze toe. Voor informatie over het deelvenster Samenvatting raadpleegt u [Overzicht van samenvattingen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facultatief) selecteer een verzoek in de lijst, dan klik het **Open Samenvatting** pictogram ![](assets/open-summary-with-text-nwe.png) om het Summiere paneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [ Overzicht ](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Als het deelvenster Samenvatting al is geopend, verandert het pictogram Samenvatting openen in Samenvatting sluiten.
 
-1. (Optioneel en voorwaardelijk) Klik op de knop **X** in de rechterbovenhoek of de **Samenvatting sluiten** pictogram ![](assets/close-summary-with-text-nwe.png) om het deelvenster Samenvatting te sluiten.
+1. (Facultatief en voorwaardelijk) klik het **X** pictogram in de hoger-juiste hoek of het **Dichte Samenvatting** pictogram ![](assets/close-summary-with-text-nwe.png) om het Summiere Comité te sluiten.
 
-   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het converteren van problemen raadpleegt u [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Van de **Filterpictogram** ![](assets/filter-nwepng.png) in de rechterbovenhoek van de lijst selecteert u een van de filters die in de onderstaande tabel worden vermeld.
+1. Van het **pictogram van de Filter** ![](assets/filter-nwepng.png) in het hoogste recht van de lijst, selecteer om het even welke filters die in de hieronder lijst worden vermeld.
 
    >[!TIP]
    >
@@ -141,8 +141,8 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
       <td>Alle ingediende verzoeken, ongeacht hun status of wie ze heeft ingediend.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Open</td> 
-      <td> <p>Alle ingediende verzoeken die momenteel open zijn, ongeacht wie ze heeft ingediend. U kunt alleen aanvragen waarvoor u ten minste machtigingen hebt om de weergave hier weer te geven als u deze niet zelf hebt verzonden. </p> <p>Aanvragen zonder de datum van feitelijke voltooiing of waarvan het oplossende object geen werkelijke datum van voltooiing heeft, worden vermeld op het subtabblad Openen.</p> <p><b>TIP</b>
+      <td role="rowheader">Openen</td> 
+      <td> <p>Alle ingediende verzoeken die momenteel open zijn, ongeacht wie ze heeft ingediend. U kunt alleen een aanvraag indienen waarvoor u ten minste machtigingen hebt om de weergave hier weer te geven als u deze niet zelf hebt verzonden. </p> <p>Aanvragen zonder de datum van feitelijke voltooiing of waarvan het oplossende object geen werkelijke datum van voltooiing heeft, worden vermeld op het subtabblad Openen.</p> <p><b>TIP</b>
 
    Verzoeken die zich in een status bevinden die niet gelijk is aan Gesloten, worden als open beschouwd.</p> </td>
    </tr> 
@@ -159,7 +159,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
     </tbody> 
    </table>
 
-1. (Optioneel) Klik op de knop **Pagina filteren** pictogram ![](assets/search-icon.png) boven aan de lijst om een aanvraag op naam te zoeken. De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
+1. (Optioneel) Klik op het **pictogram ![](assets/search-icon.png) van de pagina met filters** boven aan de lijst om naar een verzoek op naam te zoeken. De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    </ul></li>
    -->
 
-1. Klikken **Concepten** alle geformuleerde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Zie voor meer informatie [Verzoeken maken op basis van concepten](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
  
 

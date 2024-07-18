@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Een abonnement kan ook andere kenmerken hebben, zoals een eigen unieke id en de 
 
 ## Kan ik selecteren welke gebeurtenissen naar een eindpunt worden verzonden dat op bepaalde criteria binnen een gebeurtenislading wordt gebaseerd?
 
-Filters voor gebeurtenisabonnementen zijn een manier waarop subs van gebeurtenissen op opgegeven criteria kunnen worden gesorteerd. Men adviseert dat u filters op gebeurtenisabonnementen toepast aangezien het het aantal berichten kan beduidend verminderen dat een eindpunt moet verbruiken. Zie voor meer informatie [Filteren op abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md#event).
+Filters voor gebeurtenisabonnementen zijn een manier waarop subs van gebeurtenissen op opgegeven criteria kunnen worden gesorteerd. Men adviseert dat u filters op gebeurtenisabonnementen toepast aangezien het het aantal berichten kan beduidend verminderen dat een eindpunt moet verbruiken. Voor meer informatie zie [ het abonnement filtreren van de Gebeurtenis ](../../wf-api/general/event-subs-api.md#event).
 
 ## Waarom retourneert de API een 409-conflictreactiecode?
 
@@ -45,9 +45,9 @@ Als u een gebeurtenisabonnement probeert te maken en een antwoordcode ontvangt: 
 
 Zoek de volgende scenario&#39;s en gebruik de geadviseerde oplossing:
 
-* Zorg ervoor dat uw abonnement eindpunt-door wordt bepaald **url** field—retourneert een 2XX HTTP-antwoordcode. Als dit niet het geval is, neemt u contact op met Workfront Support of raadpleegt u [Vereisten voor levering van abonnementen](../../wf-api/general/setup-event-sub-endpoint.md).
+* Zorg ervoor dat uw abonnement eindpunt-bepaald door **url** gebied-een 2XX de reactiecode van HTTP terugkeert. Als het niet is, contacteer de Steun van Workfront of zie {de leveringsvereisten van het Abonnement van 0} Gebeurtenis ](../../wf-api/general/setup-event-sub-endpoint.md).[
 
-* Het verzoek om gebeurtenislevering kan een time-out zijn voordat het is voltooid. Zorg ervoor dat uw eindpunt constant binnen 5 seconden antwoordt. Dit is de standaardonderbreking die voor de HTTP- aanvraag wordt geplaatst om een bericht van het Abonnement van de Gebeurtenis te leveren. Als uw eindpunt niet binnen 5 seconden reageert, neemt u contact op met Workfront Support of raadpleegt u [Vereisten voor levering van abonnementen](../../wf-api/general/setup-event-sub-endpoint.md).
+* Het verzoek om gebeurtenislevering kan een time-out zijn voordat het is voltooid. Zorg ervoor dat uw eindpunt constant binnen 5 seconden antwoordt. Dit is de standaardonderbreking die voor de HTTP- aanvraag wordt geplaatst om een bericht van het Abonnement van de Gebeurtenis te leveren. Als uw eindpunt niet binnen 5 seconden antwoordt, contacteer de Steun van Workfront of zie {de leveringsvereisten van het Abonnement van 0} Gebeurtenis ](../../wf-api/general/setup-event-sub-endpoint.md).[
 * De gebeurtenissen genereren mogelijk niet de manier waarop u denkt. Zorg ervoor dat u geen veronderstellingen maakt over hoe of wanneer gebeurtenissen moeten worden uitgevoerd en dat u niets doet. U zou bijvoorbeeld kunnen denken dat het bijwerken van een document op een taak een gebeurtenis van de taakupdate produceert, maar in plaats daarvan, creeert het een document tot stand brengen of gebeurtenis van de documentupdate.
 * Uw abonnement is mogelijk niet geconfigureerd zoals u verwacht. U kunt gebeurtenissenabonnementen in verschillende omgevingen maken en verwachten dat deze op dezelfde manier worden overgedragen als hun andere Workfront-gegevens. Gebeurtenisabonnementsgegevens zijn echter niet geconfigureerd voor het kopiëren of promoten van gegevens naar andere omgevingen. Zorg ervoor dat u API-verzoeken naar de juiste omgeving verzendt en dat de abonnementen in die omgeving op de verwachte wijze zijn geconfigureerd.
 * De lading werd niet ontvangen omdat het noodzakelijke adres van Workfront IP niet aan de lijst van gewenste personen op uw firewall is toegevoegd. Gebeurtenissen van het Abonnement van de gebeurtenis worden verzonden van slechts een paar IP adressen. Zorg ervoor dat het bestemmingsnetwerk alle IP uitzonderingen noodzakelijk heeft om ladingen van de Abonnementen van de Gebeurtenis van Workfront te ontvangen.
@@ -73,11 +73,11 @@ Sommige van de volgende scenario&#39;s kunnen verantwoordelijk zijn:
 
 ## Wat zou ik moeten doen als ik een 500 reactiestatus ontvang wanneer ik probeer om het Abonnement API van de Gebeurtenis te roepen?
 
-Neem contact op met Workfront Support. Ga voor meer informatie over contact met ondersteuning naar [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Neem contact op met Workfront Support. Leren hoe te om steun te contacteren, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Welke verschillende verificatietypen kan ik gebruiken met Workfront Event Subscriptions?
 
-U kunt om het even welke authentificatie gebruiken die een dragertoken gebruikt. De **authToken** Het veld van een abonnement is een tekenreeks die een token vertegenwoordigt dat wordt gebruikt voor verificatie met de URL die is opgegeven in het dialoogvenster **url** veld. In theorie zou deze symbolische waarde om het even wat kunnen zijn zolang het bestemmingspunt zich van bewust is hoe te om zijn het coderen te behandelen, wat is **utf-8**.
+U kunt om het even welke authentificatie gebruiken die een dragertoken gebruikt. Het **authToken** gebied van een abonnement is een koord dat een token vertegenwoordigt OAuth2 dat wordt gebruikt om met URL voor authentiek te verklaren die in het **wordt gespecificeerd url** gebied. In theorie, zou deze symbolische waarde om het even wat kunnen zijn zolang het bestemmingshindpunt zich van bewust is hoe te om zijn het coderen te behandelen, die **utf-8** is.
 
 ## Hoe lang moet het zijn voordat ik mijn gebeurtenislading van Workfront Event Abonnementen ontvang?
 
@@ -85,12 +85,12 @@ Over het algemeen kunt u verwachten dat u binnen minder dan 5 seconden na de geg
 
 ## Aanvullende bronnen
 
-* **API-documentatie**: [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md)
+* **API Documentatie**: [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md)
 
-* **Aanbevolen procedures**: [Aanbevolen werkwijzen voor abonnementen op gebeurtenissen](../../wf-api/general/event-sub-best-practice.md)
+* **Beste praktijken**: [ beste praktijken van het abonnement van de Gebeurtenis ](../../wf-api/general/event-sub-best-practice.md)
 
-* **Velden die de payloads van een gebeurtenisabonnement activeren**: [Bronvelden voor abonnementen](../../wf-api/api/event-sub-resource-fields.md)
+* **Gebieden die de nuttige ladingen van het Abonnement van de Gebeurtenis** teweegbrengen: [ het middelgebieden van het abonnement van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Opnieuw proberen met gebeurtenisabonnementen**: [Abonnementspogingen voor gebeurtenissen opnieuw proberen](../../wf-api/api/event-sub-retries.md)
+* **Begrijpend de Abonnementen van de Gebeurtenis** opnieuw: [ het abonnementsherangen van de Gebeurtenis ](../../wf-api/api/event-sub-retries.md)
 
-* **Firewall configureren voor Workfront**: [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Vormend uw firewall voor Workfront**: [ vorm de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

@@ -21,19 +21,19 @@ ht-degree: 0%
 
 Een volledige herbezinning van rapportering in Workfront, is het nieuwe hulpmiddel van het Canvas van de Rapportering momenteel in ontwikkeling. Bij het ontwerpen van het Rapporterende Canvas, hebben wij hard gewerkt om een ervaring te verstrekken die maximalistische flexibiliteit in combinatie met een intuïtief, modulair ontwerp-zodat de gebruikers als u het meest effectief hefboomwerking uw eigen gegevens in het maken van en het delen van rapporten aanbiedt. Door een nieuw, verenigd rapporttype dat u toestaat om bijna elk element op een onbegrensd canvas te slepen-en-daling, zal het creëren van een visuele gegevensmeesterwerk spoedig gemakkelijker zijn dan ooit voordien.
 
-Dit artikel bevat informatie over de huidige persoonlijke bètaversie, die beperkt is tot specifieke klanten. De nieuwe eigenschappen van het Canvas van de Rapportering worden nu opgesteld door de Dashboards van het Canvas. Zie **Ontwikkelingsplan** hieronder voor meer informatie .
+Dit artikel bevat informatie over de huidige persoonlijke bètaversie, die beperkt is tot specifieke klanten. De nieuwe eigenschappen van het Canvas van de Rapportering worden nu opgesteld door de Dashboards van het Canvas. Zie **Plan van de Ontwikkeling** hieronder voor meer informatie.
 
 ### Ontwikkelingsplan
 
 We bevinden ons in de laatste fase van het oplossen van een probleem op het gebied van gegevenskwaliteit dat we al eerder in de bètaversie van Reporting Canvas hebben gezien. Binnenkort zullen we opnieuw werken aan nieuwe visualisaties, de selectie van te rapporteren Workfront-objecten uitbreiden en de ervaringen met het maken en verspreiden van rapporten verbeteren. Deze zijn allemaal van wezenlijk belang voor het realiseren van onze doelstellingen voor het rapporteren van Canvas.
 
-We bieden deze nieuwe ervaringen incrementeel, te beginnen met de release 23.2, via de nieuwe pagina Canvas-dashboards die nu beschikbaar is in uw voorvertoningsomgeving. De Dashboards van het canvas staan u toe om bestaande rapporten naast de nieuwe rapporteringsmogelijkheden te tonen wij bouwen, en zullen als onze primaire milieu voor het opstellen van en het testen van nieuwe eigenschappen voor het Melden van Canvas dienen. Ga voor meer informatie over het inschakelen en gebruiken van Canvasdashboards naar [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+We bieden deze nieuwe ervaringen incrementeel, te beginnen met de release 23.2, via de nieuwe pagina Canvas-dashboards die nu beschikbaar is in uw voorvertoningsomgeving. De Dashboards van het canvas staan u toe om bestaande rapporten naast de nieuwe rapporteringsmogelijkheden te tonen wij bouwen, en zullen als onze primaire milieu voor het opstellen van en het testen van nieuwe eigenschappen voor het Melden van Canvas dienen. Voor meer informatie bij het toelaten van en het gebruiken van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Deelnemen aan de bètaversie
 
 >[!IMPORTANT]
 >
->De bètainformatie hieronder is voor beheerders die reeds in de bètaversie van het Canvas van de Rapportering zijn inbegrepen, die nieuwe deelnemers niet meer goedkeurt. Als u nieuwe eigenschappen van het Melden van Canvas zou willen testen aangezien zij worden toegevoegd, zie **Ontwikkelingsplan** hierboven voor informatie over het inschakelen van Canvasdashboards.
+>De bètainformatie hieronder is voor beheerders die reeds in de bètaversie van het Canvas van de Rapportering zijn inbegrepen, die nieuwe deelnemers niet meer goedkeurt. Als u nieuwe eigenschappen van het Melden van Canvas zou willen testen aangezien zij worden toegevoegd, zie **Plan van de Ontwikkeling** hierboven voor informatie bij het toelaten van de Dashboards van het Canvas.
 
 ### Beschikbaarheid
 
@@ -43,8 +43,8 @@ De bèta van het Canvas van de Rapportering is beschikbaar aan alle organisaties
 
 De bèta van het Canvas van de Rapportering is volledig facultatief, maar kan slechts door een beheerder van Workfront worden gekozen. Als u zich wilt aanmelden als systeembeheerder:
 
-1. Selecteer de **Rapportage (bèta)** in het hoofdmenu van uw Workfront-instantie.
-1. Klikken **Accepteren** om de voorwaarden te aanvaarden.
+1. Selecteer het **Melden (bèta)** pictogram in het Belangrijkste menu van uw instantie van Workfront.
+1. Klik **goedkeuren** om de voorwaarden goed te keuren.
 1. Toestaan dat de gegevens van uw organisatie worden toegevoegd aan het rapportcanvas (dit kan een paar uur duren).
 1. Begin met het melden van canvas.
 
@@ -52,26 +52,26 @@ Nadat de gegevens van uw organisatie aan het Melden van Canvas worden toegevoegd
 
 Andere gebruikers die geen Workfront-beheerders zijn, aanmelden:
 
-1. Selecteer de **Rapportage (bèta)** in het hoofdmenu van uw Workfront-instantie.
-1. Klikken op **Canvasmachtigingen rapporteren**.
+1. Selecteer het **Melden (bèta)** pictogram in het Belangrijkste menu van uw instantie van Workfront.
+1. Klik op **het Melden van de toestemmingen van het Canvas**.
 1. Zoek naar en selecteer de specifieke gebruikers u wilt deelnemen.
 
    >[!IMPORTANT]
    >
-   >De gebruikers die u toegang tot het Melden van Canvas verleent zullen toegang hebben tot **alles** gegevens in het systeem in een read-only capaciteit, ongeacht hun standaardtoestemmingen om deze gegevens te bekijken.
+   >De gebruikers die u toegang tot het Melden van Canvas verleent zullen toegang tot **alle** gegevens in het systeem in een read-only capaciteit, ongeacht hun standaardtoestemmingen hebben om deze gegevens te bekijken.
 
-1. Klikken **Opslaan**.
-1. Voeg de **Rapportage (bèta)** in de hoofdlay-outsjabloon van elke gebruiker die is geselecteerd. Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-1. Elke gebruiker moet dan afzonderlijk naar de **Rapportage (bèta)** in het hoofdmenu en accepteert de voorwaarden.
+1. Klik **sparen**.
+1. Voeg het **Melden (bèta)** pictogram in het belangrijkste lay-outmalplaatje van elke gebruiker toe die werd geselecteerd. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Elke gebruiker moet dan individueel aan **het Melden (bèta)** pictogram in hun belangrijkste menu navigeren en de voorwaarden goedkeuren.
 
 ### Feedback verzenden
 
 Feedback over de bètaversie verzenden:
 
-1. Klik tijdens het rapporteren van canvas in Workfront op de knop **Feedback verzenden** knop.
-1. Vul het formulier in en klik op **Verzenden**.
+1. Terwijl in het Melden van Canvas in Workfront, klik **verzendt Terugkoppeling** knoop.
+1. Vul de vorm uit, dan klik **voorleggen**.
 
-## Veelgestelde vragen over bèta
+## Veelgestelde vragen over Beta
 
 +++Kan ik mijn oudere rapporten migreren naar het Rapporteren van Canvas?
 
@@ -86,7 +86,7 @@ Onze huidige strategie voor migratie in de officiële release moet u in staat st
    1. Geef u de capaciteit om een CSV van alle rapporten en dashboards in het systeem samen met om het even welke relevante het volgen informatie (aantal meningen, wanneer, en door wie) uit te voeren.
    1. Geef een exportbestand op van rapporten die samen met de ontvangers zijn ingesteld op geplande leveringen.
 
-1. Selecteer de rapporten en dashboards die u wilt migreren, dan klik **Migreren**
+1. Selecteer de rapporten en de dashboards die u wilt migreren, dan klikken **migreren**
 
    Dit is een eenrichtingsmigratie. Het leidt tot een exemplaar van de geselecteerde rapporten en dashboards aan het Melden van Canvas, verlatend het erfenisrapport of dashboard intact in het huidige rapporteringshulpmiddel.
 
@@ -125,7 +125,7 @@ Een Workfront-beheerder kan niet de bètaversie uitschakelen, maar niet-systeemb
 
 1. Meld u aan als systeembeheerder.
 1. Navigeer naar het rapportcanvas.
-1. Klik op Canvas melden **machtigingen**.
+1. Klik het Melden van de toestemmingen van het Canvas ****.
 1. Verwijder de gebruikers die u wilt uitschakelen uit de bètalijst die u hebt geselecteerd.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 +++

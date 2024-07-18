@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving in de week van 9 november 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 20.4, zie [20.4 - releaseoverzicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [ overzicht van de versie 20.4 ](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Paginering en sorteren toegevoegd aan uitgebreide analyse
 
@@ -29,4 +29,4 @@ Om u toe te staan om de informatie te bekijken u wilt zien zonder het moeten res
 
 Eerder, beperkte het Verbeterde analysegebied het aantal projecten dat u kon bekijken tot 50.
 
-Deze functie is nu opgenomen in het dialoogvenster [Enhanced Analytics, Part 1-leerpad](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) op Workfront One.
+Deze eigenschap is nu inbegrepen in [ Verbeterde Analytics, Deel 1 het leren weg ](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) op Workfront Één.

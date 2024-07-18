@@ -37,12 +37,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Een groep deactiveren of opnieuw activeren
 
@@ -52,38 +52,38 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 >
 >Als u een van deze programma&#39;s opnieuw moet activeren, kunt u dit doen nadat u een van de volgende handelingen hebt uitgevoerd:
 >
->* Verwijder het uit de bovenliggende groep. Zie de sectie voor meer informatie [Een subgroep verwijderen uit de bovenliggende groep en deze maken tot een groep op hoofdniveau](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Verwijder het uit de bovenliggende groep. Voor meer informatie, zie de sectie [ een subgroep van zijn oudergroep verwijderen en het maken een top-level groep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [ beheren een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
->* Verplaats het onder een actieve groep. Zie de sectie voor meer informatie [Een subgroep maken, verplaatsen, weergeven, bewerken, kopiëren, hernoemen, exporteren of verwijderen](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Verplaats het onder een actieve groep. Voor meer informatie, zie de sectie [ creëren, bewegen, bekijken, uitgeven, exemplaar, anders noemen, uitvoeren of schrappen subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) in artikel [ een subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) beheert.
 >
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Selecteer in het linkerdeelvenster de optie **Groepen**.
+1. In het linkerpaneel, uitgezochte **Groepen**.
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep om de pagina te openen.
 
-1. Klik op het menu Meer ![](assets/more-icon.png) naast de naam van de groep klikt u op **Deactiveren** of **Opnieuw activeren**.
+1. Klik het Meer menu ![](assets/more-icon.png) naast de naam van de groep, dan klik **Deactivate** of **Reactivate**.
 
    >[!NOTE]
    >
    >De optie Is actief (optie Opnieuw activeren in Voorvertoning) is niet beschikbaar als de groep een subgroep van een gedeactiveerde groep is. Voordat u de toepassing opnieuw kunt activeren, moet u deze uit de bovenliggende groep verwijderen of verplaatsen naar een actieve groep, zoals in de notitie hierboven wordt beschreven.
 
-1. (Voorwaardelijk) Als u de groep deactiveert, klikt u op **Deactiveren** in de **Groep deactiveren** weergegeven.
+1. (Voorwaardelijk) als u de groep deactiveert, klik **** deactivate in **** doos van de Deactiveer groep die toont.
 
 ## Overwegingen voor inactieve groepen
 
-Overweeg het volgende over een groep die u door onbruikbaar te maken is Actieve optie in de sectie wordt verklaard die [Een groep deactiveren of opnieuw activeren](#View) in dit artikel.
+Overweeg het volgende over een groep die u door de Is Actieve optie onbruikbaar te maken die in de sectie [ wordt verklaard een groep ](#View) in dit artikel deactiveren of reactiveert.
 
 * Als u een groep deactiveert, worden ook alle onderliggende subgroepen gedeactiveerd. Dit geldt ook voor subgroepen die u toevoegt nadat u de toepassing hebt gedeactiveerd.
 
-  Voor informatie over het opnieuw activeren van een subgroep in deze situatie, zie [Subgroepen opnieuw activeren onder een niet-actieve bovenliggende groep](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in dit artikel.
+  Voor informatie over het opnieuw activeren van een subgroep in deze situatie, zie [ Ongeveer het opnieuw activeren van een subgroep onder een inactieve oudergroep ](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in dit artikel.
 
-* Wanneer u naar het gebied van Groepen in Opstelling gaat, kunt u slechts actieve groepen in de lijst zien omdat Actief de standaardfilter is ![](assets/filter-nwepng.png) daarvoor. Als u alle groepen wilt zien die u beheert, inclusief de niet-actieve groepen, kunt u het filter Alles gebruiken. U kunt ook het filter Inactief gebruiken om alleen de inactieve filters weer te geven.
+* Wanneer u naar het gebied Groepen in Opstelling gaat, kunt u slechts actieve groepen in de lijst zien omdat Actief het standaardfilter ![](assets/filter-nwepng.png) voor het is. Als u alle groepen wilt zien die u beheert, inclusief de niet-actieve groepen, kunt u het filter Alles gebruiken. U kunt ook het filter Inactief gebruiken om alleen de inactieve filters weer te geven.
 
-  Zie voor meer informatie over filters in lijsten [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor meer informatie over filters in lijsten, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Als u een groep deactiveert, verandert het volgende niet:
 
@@ -102,10 +102,10 @@ Overweeg het volgende over een groep die u door onbruikbaar te maken is Actieve 
 
 Als u een groep deactiveert, worden ook alle onderliggende subgroepen gedeactiveerd. Als u een van de subgroepen opnieuw moet activeren onder een niet-actieve groep, kunt u een van de volgende twee handelingen uitvoeren:
 
-* Verplaats de subgroep onder een actieve groep. Schakel vervolgens de optie Is actief in voor de verplaatste groep, zoals in de sectie wordt uitgelegd [Een groep deactiveren of opnieuw activeren](#View) in dit artikel.
+* Verplaats de subgroep onder een actieve groep. Dan laat zijn Actieve optie voor de verplaatste groep toe, zoals die in de sectie [ wordt verklaard een groep ](#View) in dit artikel deactiveren of opnieuw activeren.
 
-  Voor instructies over het verplaatsen van een groep raadpleegt u [Een groep verplaatsen](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+  Voor instructies bij het bewegen van een groep, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md) bewegen.
 
-* Verwijder de subgroep uit de bovenliggende groep (die van de subgroep een bovenste groep maakt). Schakel vervolgens de optie Is actief in voor de verplaatste groep, zoals in de sectie wordt uitgelegd [Een groep deactiveren of opnieuw activeren](#View) in dit artikel.
+* Verwijder de subgroep uit de bovenliggende groep (die van de subgroep een bovenste groep maakt). Dan laat zijn Actieve optie voor de verplaatste groep toe, zoals die in de sectie [ wordt verklaard een groep ](#View) in dit artikel deactiveren of opnieuw activeren.
 
-  Zie de sectie voor instructies over het verwijderen van een subgroep uit de bovenliggende groep [Een subgroep verwijderen uit de bovenliggende groep en deze maken tot een groep op hoofdniveau](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [Een subgroep beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Voor instructies bij het verwijderen van een subgroep uit zijn oudergroep, zie de sectie [ een subgroep uit zijn oudergroep verwijderen en het maken een top-level groep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [ een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) beheren.

@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: De instellingen van een module configureren in [!DNL Adobe Workfront Fusion]
+title: Vorm de montages van een module in  [!DNL Adobe Workfront Fusion]
 description: U moet montages voor elke module vormen u creeert.
 author: Becky
 feature: Workfront Fusion
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 U moet montages voor elke module vormen u creeert.
 
-Bijvoorbeeld de [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) voor modules moet u de doelmap opgeven waarin u bestanden wilt uploaden. Voor de [[!UICONTROL Email] modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) moet u het e-mailadres invoeren waarnaar e-mails moeten worden verzonden.
+Bijvoorbeeld, vereisen de [[!DNL Dropbox]  modules ](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) modules u om de doelomslag te specificeren waar u dossiers wilt uploaden. Voor de [[!UICONTROL Email] modules ](../../workfront-fusion/apps-and-their-modules/email-modules.md) modules, moet u het e-mailadres ingaan waar de e-mail zou moeten worden verzonden.
 
 >[!NOTE]
 >
@@ -43,25 +43,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## De instellingen van een module configureren
 
@@ -69,17 +69,17 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
    of
 
-   Klik het pictogram van de module in de scenarioredacteur, zoals die in wordt beschreven [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Klik het pictogram van de module in de scenarioredacteur, zoals die in [ wordt beschreven creeer een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Indien vereist voor de module, maakt u een **[!UICONTROL Connection]** aan uw geregistreerde gebruikersaccount voor die bepaalde service, zoals beschreven in [Overzicht van verbindingen](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Indien vereist voor de module, creeer a **[!UICONTROL Connection]** aan uw geregistreerde gebruikersrekening voor die bepaalde dienst, zoals die in [ het overzicht van Verbindingen ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) wordt beschreven.
 1. Typ in elk veld de juiste tekst.
 
    of
 
-   Klikken **[!UICONTROL Map]** als het aan het recht van het gebied verschijnt, dan kaart een punt van een andere module in uw scenario.
+   Klik **[!UICONTROL Map]** als het aan het recht van het gebied verschijnt, dan kaart een punt van een andere module in uw scenario.
 
    Uitgebreide parameters zijn vereist.
 
-   Voor informatie over de verschillende itemgegevenstypen [!DNL Workfront Fusion] kan herkennen (zoals datum, nummer en tekst), raadpleegt u [Gegevenstypen item in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   Voor informatie over de verschillende types van puntgegevens [!DNL Workfront Fusion] kan erkennen (zoals datum, aantal, en tekst), zie {de gegevenstypes van 1} Punt in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).[
 
-1. (Voorwaardelijk) Als de module geavanceerde opties heeft u wilt tonen en gebruiken, selecteert **[!UICONTROL Show advanced settings]**.
+1. (Voorwaardelijk) Als de module geavanceerde opties heeft u wilt tonen en gebruiken, uitgezocht **[!UICONTROL Show advanced settings]**.

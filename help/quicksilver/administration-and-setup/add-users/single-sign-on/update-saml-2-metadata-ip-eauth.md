@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Als beheerder van Adobe Workfront, kunt u Workfront enig sign-on (SSO) met om het even welke identiteitsleverancier integreren die het protocol van de Prijsverhoging van de Bevestiging van de Veiligheid (SAML) 2.0 steunt.
 
-In de volgende secties wordt het integratieproces beschreven wanneer uw Workfront-account is bijgewerkt naar de uitgebreide verificatieervaring (nog niet beschikbaar voor alle organisaties). Voor meer informatie over de verbeterde authentificatieervaring, zie [Overzicht van uitgebreide verificatie](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+In de volgende secties wordt het integratieproces beschreven wanneer uw Workfront-account is bijgewerkt naar de uitgebreide verificatieervaring (nog niet beschikbaar voor alle organisaties). Voor meer informatie over de verbeterde authentificatieervaring, zie [ Verbeterd overzicht van de Authentificatie ](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
 
-Voor informatie over het vormen van SAML voorafgaand aan uw migratie aan de verbeterde authentificatieervaring, zie [SAML 2.0-metagegevens bijwerken in uw identiteitsprovider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+Voor informatie over het vormen van SAML voorafgaand aan uw migratie aan de verbeterde authentificatieervaring, zie [ de meta-gegevens van SAML 2.0 van de Update in uw identiteitsleverancier ](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 
 ## Toegangsvereisten
@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,20 +58,20 @@ Okta is een voorbeeld van een identiteitsleverancier die SAML 2.0 steunt. In dez
 
 Voer de volgende secties in om Okta te configureren als uw identiteitsprovider in Workfront.
 
-* [Een Workfront-app maken in Okta](#create-a-workfront-app-in-okta)
+* [ creeer een app van Workfront in Okta ](#create-a-workfront-app-in-okta)
 * [Voeg uw instantie Okta als identiteitsprovider in Workfront toe](#add-your-okta-instance-as-an-identity-provider-in-workfront)
 
 ### Een Workfront-app maken in Okta {#create-a-workfront-app-in-okta}
 
 1. Meld u aan bij uw Okta-omgeving.
-1. Zorg ervoor dat **Klassieke interface** wordt in de linkerbovenhoek van de interface Okta geselecteerd.
-1. Klik op **Toepassingen** > **Toepassingen**.
+1. Zorg ervoor dat **Klassieke UI** in de upper-left hoek van de interface Okta wordt geselecteerd.
+1. In het menu, klik **Toepassingen** > **Toepassingen**.
 
-1. Klikken **Toepassing toevoegen** en klik vervolgens op **Nieuwe app maken**.
+1. Klik **toevoegen Toepassing**, dan klik **creeer Nieuwe App**.
 
-1. In de **Het dialoogvenster Nieuwe toepassingsintegratie maken** vak, selecteren **SAML 2.0** en klik vervolgens op **Maken**.
+1. In **creeer een Nieuwe de dialoogdoos van de Integratie van de Toepassing**, uitgezochte **SAML 2.0**, dan klik **creeer**.
 
-1. Geef een naam op voor uw Workfront-toepassing en klik vervolgens op **Volgende**.
+1. Specificeer een naam voor uw Workfront app, dan klik **daarna**.
 1. Zoek op de pagina met SAML-instellingen die wordt weergegeven de informatie die vereist is voor de pagina SAML-instellingen:
 
    1. Open zonder het browsertabblad te verlaten waar de interface Okta wordt weergegeven, een apart browsertabblad of venster.
@@ -79,72 +79,72 @@ Voer de volgende secties in om Okta te configureren als uw identiteitsprovider i
 
       `https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata`
 
-   1. Geef in het resulterende XML-bestand de waarden op voor **entityID** en **Locatie**.
+   1. In het resulterende dossier van XML, identificeer de waarden voor **entityID** en **Plaats**.
 
-      ![sso-okta.png](assets/sso-okta.png)
+      ![ sso-okta.png ](assets/sso-okta.png)
 
-   1. Kopieer de waarde van de **entityID** aan uw systeemklembord. Sluit dit browsertabblad niet.
+   1. Kopieer de waarde van het **entityID** gebied aan uw systeemklembord. Sluit dit browsertabblad niet.
 
 1. Ga terug naar de pagina van de Montages van SAML die u in Stap 6 opende.
-1. Plak de waarde in het menu **entityID** in het veld **Audience URI (SP Entiteit ID)** veld.
+1. Plak de waarde van het **entityID** gebied in het **Soortpubliek URI (identiteitskaart van de Entiteit van SP)** gebied.
 
-1. Kopieer in het XML-bestand op het andere browsertabblad de waarde uit het dialoogvenster **Locatie** veld.
-1. Plak de waarde in het menu **Locatie** in het veld **Single Sign On** **URL** veld.
+1. In het dossier van XML op uw andere browser lusje, kopieer de waarde van het **gebied van de Plaats**.
+1. Plak de waarde van het **gebied van de Plaats** in het **Enige teken op** **URL** gebied.
 
-1. Naar de **Kenmerkinstructies (optioneel)** sectie.
-1. In de **Naam** veld, specificeren **email**.
+1. De rol aan de **Verklaringen van Attributen (Facultatieve)** sectie.
+1. Op het **gebied van de Naam**, specificeer **e-mail**.
 
-1. In de **Waarde** veld, specificeren **user.email**.
+1. Op het **gebied van de Waarde**, specificeer **user.email**.
 
 1. (Optioneel) Voeg geavanceerde waarden toe.
-1. Klikken **Volgende**.
-1. Selecteren **Ik ben een klant van Okta die een interne app toevoegt** en klik vervolgens op **Voltooien**.
+1. Klik **daarna**.
+1. Selecteer, **ik ben een klant van Okta toevoegend een interne app**, dan klik **Afwerking**.
 
 ### Voeg uw instantie Okta als identiteitsprovider in Workfront toe {#add-your-okta-instance-as-an-identity-provider-in-workfront}
 
-Deze procedure biedt essentiële informatie voor het configureren van Okta als een identiteitsprovider in Workfront. Voor extra informatie over andere afbeeldingen of configuratieopties raadpleegt u [Adobe Workfront configureren met SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+Deze procedure biedt essentiële informatie voor het configureren van Okta als een identiteitsprovider in Workfront. Voor extra informatie over andere afbeeldingen of configuratieopties, zie [ Adobe Workfront met SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) vormen.
 
 1. Download de metagegevens van de identiteitsprovider voor uw Okta-instantie:
 
    1. Meld u aan bij uw Okta-omgeving.
-   1. Zorg ervoor dat **Klassieke interface** wordt in de linkerbovenhoek van de interface Okta geselecteerd.
-   1. Klik op **Toepassingen** > **Toepassingen**.
+   1. Zorg ervoor dat **Klassieke UI** in de upper-left hoek van de interface Okta wordt geselecteerd.
+   1. In het menu, klik **Toepassingen** > **Toepassingen**.
 
-   1. Klik op de Workfront-toepassing die u hebt gemaakt, zoals beschreven in de sectie. [Een Workfront-app maken in Okta](#create-a-workfront-app-in-okta)
-   1. Op de **Aanmelden** tabblad, klikt u op **Metagegevens identiteitsprovider**.
+   1. Klik Workfront app die u creeerde, zoals die in de sectie wordt beschreven, [ creeer een app van Workfront in Okta ](#create-a-workfront-app-in-okta)
+   1. Voor het **Teken** lusje, klik **meta-gegevens van de Leverancier van de Identiteit**.
 
-      ![idp_okta_metadata.png](assets/idp-okta-metadata.png)
+      ![ idp_okta_metadata.png ](assets/idp-okta-metadata.png)
 
       De metagegevens worden geopend als XML in een nieuw browsertabblad.
 
    1. Kopieer de URL die wordt weergegeven in het URL-veld van de browser.
 
 1. Meld u aan bij Workfront als Workfront-beheerder.
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Systeem** > **Eenmalige aanmelding (SSO)**.
+1. In het linkerpaneel, klik **Systeem** > **Enige Sign-On (SSO)**.
 
-1. (Voorwaardelijk) Als u twee tabbladen ziet, klikt u op de **Nieuwe SSO-providers** tab.
+1. (Voorwaardelijk) als u twee lusjes ziet, klik de **Nieuwe Leveranciers SSO** tabel.
 
-   ![sso_idp_halflife.png](assets/sso-idp-halflife-350x234.png)
+   ![ sso_idp_halflife.png ](assets/sso-idp-halflife-350x234.png)
 
    >[!IMPORTANT]
    >
-   >Verwijder de bestaande SSO-configuratie-instellingen niet uit het dialoogvenster **Huidige SSO-provider** tot uw account is bijgewerkt naar de verbeterde verificatieervaring en de nieuwe SSO-configuratie volledig functioneert.
+   >Schrap niet uw bestaande SSO configuratiemontages in het **Huidige Sso- Leverancier** lusje tot uw rekening aan de verbeterde authentificatieervaring wordt bijgewerkt en de nieuwe configuratie SSO volledig functioneel is.
 
-1. Klikken **Nieuwe SSO-provider**.
+1. Klik **Nieuwe Leverancier SSO**.
 1. Geef een naam op, bijvoorbeeld Okta IDP, en geef vervolgens een beschrijving op.
-1. In de **Velden vullen met metagegevens van identiteitsprovider** plakt u de URL die u in stap 1 hebt gekopieerd in de **URL metagegevens** veld.\
-   U kunt ook op **Bestand kiezen** om een .xml- dossier te uploaden, maar wij adviseren dat u URL kleeft.
+1. In **bevolkt gebieden van de Meta-gegevens van Identiteitsprovider** sectie, kleef URL die u in Stap 1 in het **Meta-gegevens URL** gebied kopieerde.\
+   Alternatief, kunt u **kiezen Dossier** klikken om een .xml- dossier te uploaden, maar wij adviseren dat u URL kleeft.
 
-1. In de **Gebruikerskenmerken toewijzen** in de **Directory-kenmerk** veld, type **email**. (**E-mailadres** is al ingevuld in het dialoogvenster **Workfront-gebruikerskenmerk** veld.)
+1. In de **sectie van de Attributen van de Gebruiker van de Kaart**, op het **3} gebied van het Attribuut van de Folder, type** e-mail **.** (**E-mailAdres** is reeds bevolkt op het **gebied van het Attribuut van de Gebruiker van Workfront**.)
 
-1. (Optioneel) Inschakelen **Standaard SSO-provider maken** ongeautoriseerde gebruikers naar het aanmeldingsscherm van de identiteitsprovider sturen in plaats van naar het Workfront-aanmeldingsscherm voor verificatie. We raden u aan deze optie alleen in te schakelen als alle gebruikers in uw systeem via de identiteitsprovider toegang hebben tot Workfront.
-1. Selecteer de **Inschakelen** selectievakje. Voordat u dit doet, moet u ervoor zorgen dat gebruikers in uw systeem op de hoogte zijn van de nieuwe aanmeldervaring om ervoor te zorgen dat ze geen toegang verliezen tot het Workfront-systeem.
-1. Klikken **Verbinding testen**.\
+1. (Optioneel) Schakel **Standaard SSO-provider maken** in om onbevoegde gebruikers naar het aanmeldingsscherm van de identiteitsprovider te verzenden in plaats van naar het Workfront-aanmeldingsscherm voor verificatie. We raden u aan deze optie alleen in te schakelen als alle gebruikers in uw systeem via de identiteitsprovider toegang hebben tot Workfront.
+1. Selecteer **toelaten** checkbox. Voordat u dit doet, moet u ervoor zorgen dat gebruikers in uw systeem op de hoogte zijn van de nieuwe aanmeldervaring om ervoor te zorgen dat ze geen toegang verliezen tot het Workfront-systeem.
+1. Klik **Verbinding van de Test**.\
    Er wordt een bericht weergegeven waarin wordt gemeld dat de verbinding is gelukt.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Andere identiteitsproviders gebruiken
 

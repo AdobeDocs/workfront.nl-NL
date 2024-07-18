@@ -22,9 +22,9 @@ U kunt recordgegevens bewerken in Adobe Workfront Planning door de waarden te be
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
 
-Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-Zie voor informatie over het maken van records [Records maken](/help/quicksilver/planning/records/create-records.md).
+Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 &lt;!— vermeld hier dat de velden in de weergave Details hetzelfde zijn als die in de tabelweergave — dit artikel is gekoppeld vanuit de recordweergave Beheren om naar deze informatie te verwijzen.—>
 
@@ -72,20 +72,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Contribute of hoger machtigingen voor een werkruimte</a> </p>  
+   <td> <p>Contribute of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij het bewerken van records
 
@@ -106,7 +106,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
 * URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
 * U kunt een omslagafbeelding aan elke record toevoegen. De afbeelding is uniek voor elke record en is niet van toepassing op alle records van hetzelfde moment.
-* U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+* U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Records bewerken
 
@@ -127,7 +127,7 @@ U kunt een record uit de volgende gebieden bewerken:
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
-1. (Voorwaardelijk) klik het lusje van een lijstmening of klik **+ Weergave** een tabelweergave maken. De tabelweergave moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het voor het laatst opende.
+1. (Voorwaardelijk) klik het lusje van een lijstmening of klik **+ Mening** om een lijstmening tot stand te brengen. De tabelweergave moet de standaardweergave zijn, tenzij u het recordtype in een ander type weergave hebt bekeken toen u het voor het laatst opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
@@ -138,10 +138,10 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Optioneel en voorwaardelijk) Als u een veld van het type Alinea bewerkt, gebruikt u het volgende **RTF** opmaakopties:
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -152,8 +152,8 @@ U kunt een record uit de volgende gebieden bewerken:
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
 
-1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
-1. Druk **Enter** op uw toetsenbord of klik buiten een rij om uw wijzigingen op te slaan. De wijzigingen worden automatisch opgeslagen. A **Opgeslagen** de indicator wordt kort weergegeven in de rechterbovenhoek van de tabelweergave om aan te geven dat de wijzigingen zijn opgeslagen.
+1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+1. De pers **gaat** op uw toetsenbord binnen of klikt buiten een rij om uw veranderingen te bewaren. De wijzigingen worden automatisch opgeslagen. A **de Bewaarde** indicatorvertoningen kort in de hoger-juiste hoek van de lijstmening om te tonen dat de veranderingen werden bewaard.
 
 
 1. (Optioneel) Voer een van de volgende handelingen uit om gegevens van het ene veld naar het andere te kopiëren en te plakken:
@@ -175,7 +175,7 @@ U kunt een record uit de volgende gebieden bewerken:
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
    >
    >
-   >    * Gekoppelde velden (of opzoekvelden) die worden gemaakt door het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Gekoppelde velden (of opzoekvelden) die worden gemaakt door het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om het bewerken of kopiëren en plakken van recordgegevens ongedaan te maken of opnieuw uit te voeren:
@@ -187,7 +187,7 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >    U kunt de sneltoetsen meerdere malen achter elkaar gebruiken om meerdere wijzigingen ongedaan te maken.
 
-1. (Optioneel) Voeg een miniatuur toe aan een record. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Optioneel) Voeg een miniatuur toe aan een record. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
 ### Een record uit de voorvertoning van de record bewerken in een weergave
 
@@ -205,13 +205,13 @@ U kunt een record uit de volgende gebieden bewerken:
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
+   Van de lijstmening, klik het **Open detailleert** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
 
-1. (Optioneel) Klik op de knop **Meer** rechts van de titel van de record en klikt u vervolgens op **Naam wijzigen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
+1. (Facultatief) klik het **Meer** menu rechts van de titel van het verslag, dan klik **anders noemen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
-   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Zie voor meer informatie [Overzicht van primair veld](/help/quicksilver/planning/fields/primary-field-overview.md).
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Voor informatie, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Bewerk de veldinformatie in de voorvertoning van de record.
 
@@ -219,16 +219,16 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Velden opzoeken van andere records die zijn gemaakt door de recordtypen aan te sluiten. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Velden opzoeken van andere records die zijn gemaakt door de recordtypen aan te sluiten. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Optioneel) Klik op **omslag toevoegen** om een omslagafbeelding aan de record toe te voegen. Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Facultatief) klik **omslag** toevoegen om een omslagbeeld aan het verslag toe te voegen. Voor meer informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-1. (Optioneel) Houd de muisaanwijzer boven het miniatuurpictogram en klik vervolgens op **Meer** ![](assets/more-menu.png) > **Miniatuur bewerken** om een miniatuurafbeelding toe te voegen. Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Facultatief) Beweeg over het duimnagelpictogram, dan klik **Meer** ![](assets/more-menu.png) > **geef duimnagel** uit om een duimnagelbeeld toe te voegen. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de voorvertoning van de record om de pagina van de record in een nieuw tabblad te openen. Doorgaan met het bewerken van de record zoals beschreven in [Een record op de recordpagina bewerken](#edit-a-record-from-the-records-page) in dit artikel.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [ wordt beschreven geef een verslag van de pagina van het verslag ](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
 
 ### Een record op de recordpagina bewerken
 
@@ -244,9 +244,9 @@ U kunt een record uit de volgende gebieden bewerken:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Vanuit een willekeurige weergave toegang tot de voorvertoning van de record, zoals beschreven in het dialoogvenster [Een record uit de voorvertoning van de record bewerken in een weergave](#edit-a-record-from-the-records-preview-in-a-view) in dit artikel en klik vervolgens op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
+   * Van om het even welke mening, toegang tot de voorproef van het verslag, zoals die in [ wordt beschreven geef een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uit, dan klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
-   * Van de **Tabel** weergegeven, plaatst u de muisaanwijzer op de naam van een record en klikt u op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Weergave**
+   * Van de **mening van de Lijst**, houd over de naam van een verslag, dan klik **Meer** menu ![](assets/more-menu.png), dan klik **Mening**
 
      ![](assets/contextual-menu-for-record-row.png)
 
@@ -254,9 +254,9 @@ U kunt een record uit de volgende gebieden bewerken:
 
      ![](assets/details-page.png)
 
-1. (Optioneel) Klik op de knop **Meer** rechts van de titel van de record en klikt u vervolgens op **Naam wijzigen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
+1. (Facultatief) klik het **Meer** menu rechts van de titel van het verslag, dan klik **anders noemen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
-   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 1. Klik op een bewerkbaar veld op de recordpagina om deze te bewerken.
 
@@ -264,20 +264,20 @@ U kunt een record uit de volgende gebieden bewerken:
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Optioneel) Klik op **omslag toevoegen** een omslagafbeelding aan de record toevoegen
+1. (Facultatief) klik **omslag** toevoegen om een omslagbeeld aan het verslag toe te voegen
 
    of
 
-   Houd de muis boven de bestaande omslagafbeelding en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Uploaden** om een nieuwe omslagafbeelding voor de record toe te voegen.
+   Beweeg over het bestaande omslagbeeld, dan klik **Meer** menu ![](assets/more-menu.png) > **uploadt** om een nieuw omslagbeeld voor het verslag toe te voegen.
 
-   Zie voor meer informatie [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+   Voor meer informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-1. (Optioneel) Houd de muisaanwijzer boven een bestaande miniatuur of de **miniatuurpictogram** ![](assets/record-thumbnail-icon-on-details-page.png)en klik vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Miniatuur bewerken** om een miniatuur voor de record toe te voegen.
+1. (Facultatief) Beweeg over een bestaande duimnagel, of het **duimnagelpictogram** ![](assets/record-thumbnail-icon-on-details-page.png), dan klik het **Meer** menu ![](assets/more-menu.png) > **geeft duimnagel** uit om een duimnagel voor het verslag toe te voegen.
 
-   Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
 
@@ -285,4 +285,4 @@ U kunt een record uit de volgende gebieden bewerken:
 
 Nadat u records met Workfront-objecten hebt verbonden, kunt u Workfront Planning-records in Workfront bewerken vanuit de sectie Planning van het object.
 
-Zie voor meer informatie [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

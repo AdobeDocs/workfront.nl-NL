@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -38,23 +38,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een koppeling delen naar een aanvraagwachtrij
 
-1. Een aanvraag indienen zoals beschreven in [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Begin een verzoek voor te leggen zoals die in [ wordt beschreven creeer en voorlegt de verzoeken van Adobe Workfront ](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Voer een van de volgende handelingen uit:
 
    * Selecteer een aanvraagwachtrij in het veld Request Type
    * Selecteer een aanvraagwachtrij en maximaal 10 onderwerpgroepen
    * Selecteer een verzoekrij, een groep van het Onderwerp, en een Onderwerp van de Rij
 
-1. Voordat u het verzoek verzendt, klikt u op **Pad delen** in de rechterbovenhoek van de pagina.
+1. Alvorens u het verzoek voorlegt, klik **Weg van het Aandeel** in de hoger-juiste hoek van de pagina.
 
    Dit kopieert een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwerp die u in de vorige stap aan uw klembord selecteerde.
 
@@ -67,5 +67,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * De gekopieerde koppeling delen met anderen
    * Deze pagina als externe pagina insluiten op een dashboard
 
-      Voor informatie over het insluiten van een verzoekrij in een dashboard, zie [Een aanvraagwachtrij insluiten in een dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+     Voor informatie over het inbedden van een verzoekrij in een dashboard, zie [ een verzoekrij in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) inbedden.
+
    Gebruikend de gedeelde verbinding, kunnen andere gebruikers direct aan de verzoekrij, onderwerpgroep, of rijonderwerp navigeren u selecteerde. Ze kunnen dit ook doen als het verzoek niet is verzonden en als concept is opgeslagen.

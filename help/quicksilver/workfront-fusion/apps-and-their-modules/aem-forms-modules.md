@@ -6,10 +6,11 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Forms-modules
-description: Met de [!DNL Adobe Experience Manager Forms] connector voor [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] mappen en elementen opslaan, maken, uploaden en bijwerken, en kopiëren of verplaatsen.
+description: Met de  [!DNL Adobe Experience Manager Forms]  schakelaar voor  [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms]  rekening, creeer, upload, en werk activa bij, en kopieer of verplaats omslagen en activa.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c4e068729d8de4bef4b2018868e3fa020ca61a06
+exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
@@ -18,9 +19,9 @@ ht-degree: 1%
 
 # [!DNL Adobe Experience Manager Forms] modules
 
-Met de [!DNL Adobe Experience Manager Forms] connector voor [!DNL Adobe Workfront Fusion], kunt u een scenario beginnen dat op gebeurtenissen in uw [!DNL Adobe Experience Manager Forms] door een webhaak te maken.
+Met de [!DNL Adobe Experience Manager Forms] -connector voor [!DNL Adobe Workfront Fusion] kunt u een scenario starten op basis van gebeurtenissen in uw [!DNL Adobe Experience Manager Forms] -account door een webhaak te maken.
 
-U kunt een formulier configureren binnen [!DNL Adobe Experience Manager Forms] om formulierverzendingen naar deze website te sturen.
+U kunt een formulier binnen [!DNL Adobe Experience Manager Forms] configureren om formulierverzendingen naar deze website te verzenden.
 
 ## Toegangsvereisten
 
@@ -41,35 +42,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-* U moet een [!DNL Adobe Experience Manager Forms] account om deze module te gebruiken.
+* U moet een [!DNL Adobe Experience Manager Forms] -account hebben om deze module te kunnen gebruiken.
 
 ## Verbinding maken met Adobe Experience Manager Forms
 
-Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Forms] modules:
+Verbinding maken voor uw [!DNL Adobe Experience Manager Forms] -modules:
 
-1. Klikken **[!UICONTROL Add]** naast het vak Verbinding.
+1. Klik op **[!UICONTROL Add]** naast het vak Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -111,19 +112,19 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Forms] mo
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!DNL Adobe] Client-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] client-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] Clientgeheim. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] clientgeheim in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Org ID]</td>
-        <td>Voer uw [!DNL Adobe] Organisatie-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] Organisatie-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Voer uw [!DNL Adobe] Technische account-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -132,7 +133,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Forms] mo
       <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
-          <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in het dialoogvenster [!DNL Adobe Developer Console]. </p>
+          <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in de [!DNL Adobe Developer Console] . </p>
           <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
           <ol>
             <li value="1">
@@ -148,7 +149,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Forms] mo
               <p>Voer het wachtwoord voor het bestand in.</p>
             </li>
             <li value="5">
-              <p>Klikken <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
+              <p>Klik op <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
             </li>
           </ol>
         </td>
@@ -156,7 +157,7 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Forms] mo
     </tbody>
     </table>
 
-1. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## Adobe Experience Manager Forms-module en de bijbehorende velden
 
@@ -182,18 +183,7 @@ Met deze instant trigger (webhaak) kunt u een scenario starten wanneer een hande
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">Verbinding maken met [!DNL Adobe Experience Manager Forms]</a></p> </td> 
+   <td> <p>Zie <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref"> Verbinding maken met [!DNL Adobe Experience Manager Forms]</a> voor instructies over het verbinden van uw [!DNL Adobe Experience Manager] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr>
 
-In de module wordt een webhaak gemaakt en krijgt u het adres van de webhaak, dat u kunt invoeren in het dialoogvenster voor het verzenden van formulieren in [!DNL Adobe Experience Manager Forms].
-
-
-
-
-
-
-
-
-
-
-
+De module maakt een webhaak en geeft u het adres van de webhaak, dat u kunt invoeren in het dialoogvenster voor het verzenden van formulieren in [!DNL Adobe Experience Manager Forms] .

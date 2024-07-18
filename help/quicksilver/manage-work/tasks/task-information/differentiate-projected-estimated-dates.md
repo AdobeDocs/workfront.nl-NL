@@ -27,7 +27,7 @@ In dit artikel worden de verschillen beschreven tussen de geraamde en de geraamd
 
 Wanneer de taak voor het eerst wordt gemaakt, moeten de geplande, geprojecteerde en geschatte datums overeenkomen. Er zijn enkele uitzonderingen. 
 
-Ga voor meer informatie over het project, de taak en de uitgiftedatums in Adobe Workfront naar [Overzicht van de project-, taak- en emissiedata in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Voor meer informatie over het project, de taak, en de uitgiftedata in Adobe Workfront, zie [ Overzicht van het Project, de Taak, en de data van de Uitgave in Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Overzicht van geplande datums
 
@@ -60,7 +60,7 @@ Het verschil tussen de voorspelde en de geschatte datums is:
 
 * Bij de geschatte data wordt alleen rekening gehouden met de werkelijke voortgang van een taak op een bepaald tijdstip.
 
-**Voorbeeld:** Als wij een taak hebben die een geplande aanvangsdatum van 20 september en een geplande afsluitende datum van 24 september heeft, en die op restrictieve wijze moet worden voltooid, dan zal de geplande afsluitende datum 24 september zijn. Deze taak duurt 4 dagen.
+**Voorbeeld:** als wij een taak hebben die een Geplande Datum van het Begin van 20 september en een Geplande Voltooiingsdatum van 24 september heeft, en het op Beperking moet beëindigen, de Verwachte Datum van de Voltooiing 24 september. Deze taak duurt 4 dagen.
 
 De geschatte datum van voltooiing wordt berekend op basis van de huidige voortgang van de werkzaamheden. Dus als vandaag 23 september is en de taak nog niet is begonnen, is de geschatte Voltooiingsdatum 27 september (deze moet na vier dagen worden voltooid, ervan uitgaande dat het werk vandaag van start gaat).
 
@@ -75,35 +75,35 @@ De volgende lijst toont verscheidene scenario&#39;s wanneer de Geprojecteerde Da
 
 * Als een taak is gemarkeerd als Voltooid:
 
-  *Geprojecteerde data = geschatte data = werkelijke data*
+  *Geprojecteerde Datums = Geschatte Datums = Ware Data*
 
 * Wanneer een taak een Werkelijke Datum van het Begin heeft:
 
-  *Geprojecteerde begindatum = geschatte begindatum = werkelijke begindatum*
+  *Geprojecteerde Datum van het Begin = Geschatte Datum van het Begin = de Ware Datum van het Begin*
 
 * Wanneer een taak geen Werkelijke Datum van het Begin heeft, maar er een gedwongen beperking op de Geplande Datum van het Begin (moet beginnen) is die in de toekomst is:
 
-  *Geprojecteerde begindatum = beperkingsdatum*
+  *Geprojecteerde Datum van het Begin = BeperkingsDatum*
 
-  Voor informatie over de Datum van de Beperking, zie [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Voor informatie over de Datum van de Beperking, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Wanneer een taak geen Werkelijke Datum van het Begin heeft en de taak geen gedwongen beperkingsdatum heeft:
 
-  *Verwachte begindatum = de volgende beschikbare datum in de toekomst die binnen het werkschema valt*
+  *Geprojecteerde Datum van het Begin = de volgende beschikbare datum in de toekomst die binnen het werkende programma valt*
 
 * Wanneer de toegewezen persoon de datum van vastleggen bijwerkt:
 
-  *Geprojecteerde afsluitdatum = Vastlegdatum*
+  *Geprojecteerde Datum van de Voltooiing = VastleggingsDatum*
 
-  Voor informatie over de Datum van het Vastleggen, zie [Overzicht van datum vastleggen](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Voor informatie over Vastlegdatum, zie [ Overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Wanneer de taak geen bijgewerkte Vastlegdatum heeft en de taak een gedwongen beperking (moet beëindigen) voor de Geplande Voltooiingsdatum heeft die in de toekomst is:
 
-  *Geprojecteerde afwerkingsdatum = Restrictiedatum*
+  *Geprojecteerde Datum van de Voltooiing = BeperkingsDatum*
 
 * Wanneer een taak geen bijgewerkte Vastlegdatum, een gedwongen beperkingsdatum in de toekomst heeft, of het heeft een Datum van de Beperking in het verleden:
 
-  *Geprojecteerde afsluitdatum = systeemberekening voor de afsluitende datum op basis van de huidige voortgang en het resterende werk*
+  *Geprojecteerde Datum van de Voltooiing = systeemberekening voor de Datum van de Voltooiing die op de huidige vooruitgang wordt gebaseerd en het werk dat moet worden gedaan*
 
 ### Begrijp wanneer de Geschatte Data op taken bijwerken {#understand-when-the-estimated-dates-update-on-tasks}
 

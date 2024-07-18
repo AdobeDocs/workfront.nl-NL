@@ -3,7 +3,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Nettowaarde berekenen
-description: De nettowaarde van een project is de totale verwachte waarde van het project na berekening van het voordeel en verwijdering van de kosten.
+description: De nettowaarde van een project is de totale verwachte waarde van het project na de berekening van het voordeel en de verwijdering van de kosten.
 author: Alina
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
@@ -16,52 +16,53 @@ ht-degree: 0%
 
 # Nettowaarde berekenen
 
-De nettowaarde van een project is de totale verwachte waarde van het project na berekening van het voordeel en verwijdering van de kosten. 
+De nettowaarde van een project is de totale verwachte waarde van het project na de berekening van het voordeel en de verwijdering van de kosten. 
 
 ## Overzicht van de netto-waarde van het project
 
-Adobe Workfront berekent de Netto Waarde van een project gebruikend de volgende formule: 
+Adobe Workfront berekent de nettowaarde van een project aan de hand van de volgende formule: 
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 ```
 
-De volgende gebieden kunnen de Netto Waarde van een project beïnvloeden:
+De volgende velden kunnen van invloed zijn op de nettowaarde van een project:
 
-* **Gepland voordeel**: Dit is een handmatige invoer die door de eigenaar van het project wordt opgegeven bij het voltooien van de **Projectinfo** in de Business Case.\
-   Voor meer informatie over het Geplande Voordeel van een project, zie [Projectinfo](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) sectie in artikel [Overzicht van de gebieden van de bedrijfscase](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+* **Gepland Voordeel**: Dit is een handingang die door de Eigenaar van het Project wordt gespecificeerd wanneer het voltooien van het **gebied van Info van het Project** van het BedrijfsGeval.\
+  Voor meer informatie over het Geplande Voordeel van een project, zie de ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) sectie van Info van het 0} Project {in artikel [ Overzicht van de Gebieden van het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).[
 
-* **Geraamde kosten**: Dit zijn de totale kosten verbonden aan het project zoals geschat wanneer u het project eerst lanceert.
+* **Voorspelde Kosten**: Dit is de totale kosten verbonden aan het project zoals geschat wanneer u eerst het project lanceert.
 
-   De **Geraamde kosten** gebruikt de **begrote arbeidskosten** Waarde die wordt berekend in het gebied van de Begroting van het Middel van het BedrijfsGeval en het houdt rekening met de uren die voor uw baanrollen in de Planner van het Middel worden begroot en het tarief van Kosten per Uur van elke baanrol.\
-   De begrote kosten beïnvloeden de **Nettowaarde** van het project. Voor meer informatie over hoe de begrote Kosten wordt berekend, zie [Geraamde kosten berekenen](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  De **Begrappte Kosten** gebruikt de **Begrappte waarde van de Kosten van de Arbeid** die in het gebied van de Begroting van het Middel van het BedrijfsGeval wordt berekend en het houdt rekening met de uren die voor uw baanrollen in de Planner van het Middel worden begroot en de Kosten per tarief van het Uur van elke baanrol.\
+  De begrote Kosten beïnvloedt de **Netto Waarde** van het project. Voor meer informatie over hoe de Begrappte Kosten wordt berekend, zie [ Berekende Begrappte Kosten ](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
-* **Potentiële risicokosten**: Dit zijn de kosten verbonden aan om het even welke risico&#39;s op het project, zoals zij in het BedrijfsGeval, of het lusje van Risks van het project worden bepaald.\
-   Raadpleeg het artikel voor meer informatie over het berekenen van de potentiële risicokosten van een project [Mogelijke risicokosten berekenen](../../../manage-work/projects/project-finances/potential-risk-cost.md).
+* **Potentiële Kosten van het Risico**: Dit is de kosten verbonden aan om het even welke risico&#39;s op het project, aangezien zij in het BedrijfsGeval, of het lusje van Risico&#39;s van het project worden bepaald.\
+  Voor meer informatie over het berekenen van de Potentiële Kosten van het Risico van een project, zie het artikel [ Mogelijke Kosten van het Risico berekenen ](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-    
+   
 
 ## De netto-waarde van het project zoeken
 
-U kunt de Netto Waarde voor een project in de volgende gebieden in Workfront vinden:
+U kunt de Nettowaarde voor een project in de volgende gebieden in Workfront vinden:
 
-* In bedrijfscase - Samenvatting van de bedrijfscase \
-   Raadpleeg voor meer informatie over het gedeelte Overzicht van bedrijfscase de sectie &quot;Understanding the Business Case Summary&quot; in het artikel [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* In Business Case Summary-gebied van de business case \
+  Voor meer informatie over het Samenvattingsgebied van het BedrijfsGeval, zie de &quot;Begrijpende Samenvatting van het BedrijfsGeval&quot;sectie in het artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) [ creëren een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* In Portfolio optimizer als het project met een portefeuille wordt geassocieerd
+* In de Optimizer van het Portfolio als het project met een portefeuille wordt geassocieerd
 
-   >[!TIP]
-   >
-   >Het totaal van alle netto waarden van het project is de Netto Waarde van de portefeuille.
+  >[!TIP]
+  >
+  >Het totaal van alle netto waarden van het project is de Nettowaarde van de portefeuille.
 
-   Voor meer informatie over de Portfolio Optimizer, zie [Overzicht van Portfolio optimaliseren](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Voor meer informatie over Portfolio Optimizer, zie [ overzicht van Optimizer van het Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* In het gebied van de Waarde van het Project Netto van de volgende lijsten en rapporten:
+* Op het gebied van de Netto Waarde van het Project van de volgende lijsten en rapporten:
 
    * Project
    * Taak
    * Probleem
    * Project (financiële gegevens)
-   Raadpleeg het artikel voor meer informatie over het maken van een rapport [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+  Voor meer informatie over het creëren van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.

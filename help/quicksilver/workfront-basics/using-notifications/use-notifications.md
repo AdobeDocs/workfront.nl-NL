@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Meldingen gebruiken: artikelindex
 
-[!DNL Adobe Workfront] verzendt e-mailmeldingen, meldingen in de app en mobiele meldingen om u te informeren over activiteiten in [!DNL Workfront].
+[!DNL Adobe Workfront] verzendt e-mailmeldingen, meldingen in de app en mobiele meldingen om u te informeren over activiteiten in [!DNL Workfront] .
 
 <!-- Audited: 01/2024 -->
 
@@ -24,7 +24,7 @@ Deze sectie bevat de volgende artikelen:
 
 * [[!DNL Adobe Workfront] meldingen](../../workfront-basics/using-notifications/wf-notifications.md)
 * [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [Abonneren op objecten in [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [Abonneren op items in  [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [Overzicht van meldingen in de app](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [Verzending van e-mails vanuit de voorbeeldsandbox-omgeving inschakelen](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

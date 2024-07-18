@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt toegang tot de informatie verlenen die uw organisatie in Adobe Workfront nodig heeft door rapporten te maken. U kunt alle ingebouwde rapporten gebruiken die beschikbaar zijn in Workfront, of u kunt uw aangepaste rapporten helemaal zelf samenstellen.
 
-Voor meer informatie over ingebouwde rapporten, zie [Ingebouwde Adobe Workfront-rapporten gebruiken](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Voor meer informatie over ingebouwde rapporten, zie [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
-Voor informatie over het creëren van een rapport door het te kopiëren, zie [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Voor informatie over het creëren van een rapport door het te kopiëren, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
 
 Zie de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken en beheren van rapporten, waaronder klassen, video&#39;s en zelfstudies.
 
@@ -49,16 +49,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p><b>OPMERKING</b></p>
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>U krijgt beheermachtigingen voor de rapporten die u maakt.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>U krijgt beheermachtigingen voor de rapporten die u maakt.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 +++
 
@@ -66,17 +66,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-reports}}
 
-1. Klikken **Nieuw rapport** Selecteer vervolgens het objecttype dat u voor het rapport wilt gebruiken.
+1. Klik **Nieuw Rapport**, dan selecteer het objecten type dat u voor het rapport wilt.
 
    De rapportbuilder laadt.
 
-   Zie de sectie voor specifieke informatie over beschikbare objectrapporten [Objecten rapporteren](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in het artikel [Objecten in Adobe Workfront begrijpen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Voor specifieke informatie over beschikbare objecten rapporten, zie het sectie [ Rapport over voorwerpen ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in het artikel [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
    ![](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
-   >U kunt ook een rapport maken door een kopie van een bestaand rapport te maken. Zie voor meer informatie [Een kopie van een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   >U kunt ook een rapport maken door een kopie van een bestaand rapport te maken. Voor meer informatie, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
 
 1. In de rapportaannemer, voeg het volgende aan uw rapport toe:
 
@@ -92,47 +92,47 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td>Kolommen (weergave)</td> 
-      <td> <p>Het toevoegen van kolommen aan uw rapport bepaalt welke informatie uw rapport bevat.</p> <p>Zie voor meer informatie over het toevoegen van een kolom <a href="#add-columns-view-to-a-report" class="MCXref xref">Kolommen (weergave) toevoegen aan een rapport</a>.<br></p> </td> 
+      <td> <p>Het toevoegen van kolommen aan uw rapport bepaalt welke informatie uw rapport bevat.</p> <p>Leren hoe te om een kolom toe te voegen, zie <a href="#add-columns-view-to-a-report" class="MCXref xref"> kolommen (mening) aan een rapport </a> toevoegen.<br></p> </td> 
      </tr> 
      <tr> 
       <td>Groepen</td> 
-      <td> <p>Het toevoegen van groeperingen aan uw rapport bepaalt hoe uw rapport wordt georganiseerd.</p> <p>Ga voor meer informatie over het toevoegen van een groep naar <a href="#add-groupings-to-a-report" class="MCXref xref">Groepen toevoegen aan een rapport</a>.</p> </td> 
+      <td> <p>Het toevoegen van groeperingen aan uw rapport bepaalt hoe uw rapport wordt georganiseerd.</p> <p>Leren hoe te om een groepering toe te voegen, zie <a href="#add-groupings-to-a-report" class="MCXref xref"> groeperingen aan een rapport </a> toevoegen.</p> </td> 
      </tr> 
      <tr> 
       <td>Filters</td> 
-      <td> <p>Het toevoegen van filterregels aan uw rapport bepaalt informatie u in uw rapport ziet.</p> <p>Ga voor meer informatie over het toevoegen van een filter naar <a href="#add-filters-to-a-report" class="MCXref xref">Filters toevoegen aan een rapport</a>.</p> </td> 
+      <td> <p>Het toevoegen van filterregels aan uw rapport bepaalt informatie u in uw rapport ziet.</p> <p>Leren hoe te om een filter toe te voegen, zie <a href="#add-filters-to-a-report" class="MCXref xref"> filters aan een rapport </a> toevoegen.</p> </td> 
      </tr> 
      <tr> 
       <td>Diagram</td> 
-      <td> <p>Het toevoegen van een grafiek aan uw rapport bepaalt hoe de informatie in uw rapport visueel wordt voorgesteld.</p> <p>Zie voor meer informatie over het toevoegen van een diagram <a href="#add-a-chart-to-a-report" class="MCXref xref">Een diagram toevoegen aan een rapport</a>.</p> </td> 
+      <td> <p>Het toevoegen van een grafiek aan uw rapport bepaalt hoe de informatie in uw rapport visueel wordt voorgesteld.</p> <p>Leren hoe te om een grafiek toe te voegen, zie <a href="#add-a-chart-to-a-report" class="MCXref xref"> een grafiek aan een rapport </a> toevoegen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Op om het even welk punt tijdens het proces van de rapportverwezenlijking, klik **Toepassen** om uw wijzigingen op te slaan.
-1. Klik op **Opslaan + Sluiten**.
+1. Op om het even welk punt tijdens het proces van de rapportverwezenlijking, is de klik **** van toepassing om uw veranderingen te bewaren.
+1. Nadat u wordt gebeëindigd, klik **sparen + Sluiten**.
 
 ### Kolommen (weergave) toevoegen aan een rapport {#add-columns-view-to-a-report}
 
-1. Een rapport maken zoals wordt beschreven in het dialoogvenster [Een rapport maken](#create-a-report) in dit artikel.
-1. Selecteer in de rapportbuilder de optie **Kolommen (weergave)** om de kolommen te identificeren die in het rapport moeten verschijnen.
-1. (Optioneel) Klik op **Een bestaande weergave toepassen** en klik op de naam van een weergave in het keuzemenu om een bestaande weergave te gebruiken.
+1. Begin creërend een rapport zoals die in [ wordt beschreven creeer een rapport ](#create-a-report) sectie in dit artikel.
+1. In de rapportbouwer, selecteer de **Kolommen (Mening)** tabel om de kolommen te identificeren om in het rapport te verschijnen.
+1. (Optioneel) Klik op **Een bestaande weergave toepassen** en klik op de naam van een weergave in het vervolgkeuzemenu om een bestaande weergave te gebruiken.
 
-   Ga voor meer informatie over het maken van een weergave naar [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie over het creëren van een mening, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Optioneel) Als u een bestaande kolom wilt verwijderen, klikt u op de kolom die u wilt verwijderen en klikt u vervolgens op de knop **x** naast de huidige naam in de kolomkop.
+1. (Facultatief) om een bestaande kolom te verwijderen, klik de kolom die u wilt verwijderen, dan klik **x** naast de huidige naam in de kolomkopbal.
 
-1. Als u een nieuwe kolom wilt toevoegen, klikt u **Kolom toevoegen**.
+1. Om een nieuwe kolom toe te voegen, klik **Kolom** toevoegen.
 
    of
 
-   Als u een bestaande kolom wilt wijzigen, klikt u op de kolom **Verwijderen** pictogram ![](assets/x-icon-circled.png) links van het huidige veld in het dialoogvenster **Tonen in dit kolomveld** in de upper-left hoek van de rapportbouwer, en begin een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
+   Om een bestaande kolom te veranderen, klik de kolom, **verwijder** pictogram ![](assets/x-icon-circled.png) links van het huidige gebied in **tonen op dit kolomgebied** doos in de upper-left hoek van de rapportbouwer, en begin een nieuw gebied te typen, dan het te klikken wanneer het in de lijst toont.
 
-   Voor meer informatie over de gebieden u in de kolommen ziet, zie [Woordenlijst met Adobe Workfront-terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Voor meer informatie over de gebieden u in de kolommen ziet, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
    ![](assets/nwe-add-column-typeahead-350x459.png)
 
-1. (Optioneel) In het dialoogvenster **Kolominstellingen** gebied, selecteren **Sorteren op deze kolom** Als u de waarden in de kolom in oplopende alfabetische volgorde wilt sorteren, geeft u aan of de lijst deze kolom als eerste sortering moet gebruiken.
+1. (Facultatief) in het **gebied van de Montages van de Kolom**, uitgezochte **Soort door deze kolom** om de waarden in de kolom of in het stijgen op dalende alfabetische orde te sorteren, dan erop te wijzen of de lijst deze kolom als zijn eerste soort zou moeten gebruiken.
 
    U kunt veelvoudige niveaus van soorten in een rapportmening hebben als u door de waarde in één kolom eerst wilt sorteren, de waarde in een tweede kolom tweede, etc.
 
@@ -145,13 +145,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
-1. (Optioneel) Als u groepen gebruikt en u de gegevens in een kolom wilt samenvatten (samenvoegen), klikt u op de knop **Deze kolom samenvatten met** vervolgkeuzelijst in de **Kolominstellingen** selecteert u vervolgens de optie die u wilt gebruiken om de gegevens in de kolom samen te voegen.
+1. (Facultatief) als u groeperingen gebruikt en u (bijeengevoegde) de informatie in een kolom wilt samenvatten, **samenvatten deze kolom door** drop-down lijst in het **gebied van de Montages van de Kolom**, dan de optie selecteren u wilt gebruiken om de informatie in de kolom samen te voegen.
 
    De samengevoegde informatie wordt weergegeven in de kolom in de rijen voor cijfergroepering.
 
-   ![Samengevoegde samenvatting over groepen](assets/aggregate-summary-displays-on-groupings-2022-350x195.png)
+   ![ Samengevoegde samenvatting op groeperingen ](assets/aggregate-summary-displays-on-groupings-2022-350x195.png)
 
-   Voor meer informatie over het samenvatten van gegevens in een kolom, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie over het samenvatten van gegevens in een kolom, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
    >[!NOTE]
    >
@@ -161,9 +161,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
    >* Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken.
 
-   Voor meer informatie over het gebruiken van groeperingen in een rapport, zie [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie over het gebruiken van groeperingen in een rapport, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. (Optioneel) Klik op **Geavanceerde opties** om de volgende informatie voor de kolom te specificeren:
+1. (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -183,33 +183,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Kolomregels</td> 
-      <td> <p>Klikken <strong>Een regel toevoegen voor deze kolom</strong> om voorwaardelijke opmaak toe te voegen aan de kolom. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klikken <strong>Regel toevoegen</strong> nadat u klaar bent met het definiëren van de regel. Zie voor meer informatie over voorwaardelijke opmaak in een weergave <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Voorwaardelijke opmaak gebruiken in weergaven</a>.</p> </td> 
+      <td> <p>Klik <strong> voeg een Regel voor deze Kolom </strong> toe om voorwaardelijk formatteren aan de kolom toe te voegen. Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik <strong> toevoegen Regel </strong> nadat u het bepalen van de regel hebt gebeëindigd. Voor meer informatie over voorwaardelijk formatteren in een mening, zie <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref"> Voorwaardelijk het Gebruik formatteren in meningen </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Toepassen** om uw wijzigingen tot nu toe toe toe toe te passen en het rapport verder te bewerken met de volgende opties.
+1. Klik **toepassen** om uw veranderingen tot nu toe toe toe te passen en het rapport met de volgende opties verder uit te geven.
 
-   Klikken **Opslaan + Sluiten** als u klaar bent met het bewerken van de kolommen in het rapport en u het rapport wilt opslaan.
+   Klik **sparen + Sluiten** als u klaar bent met het uitgeven van de kolommen in het rapport en u het rapport wilt bewaren.
 
 ### Groepen toevoegen aan een rapport {#add-groupings-to-a-report}
 
-1. Een rapport maken zoals wordt beschreven in het dialoogvenster [Een rapport maken](#create-a-report) in dit artikel.
-1. Selecteer in de rapportbuilder de optie **Groepen** om te identificeren hoe u punten in het rapport wilt groeperen.
-1. Klikken **Groepering toevoegen** om een nieuwe groep toe te voegen.
+1. Begin creërend een rapport zoals die in [ wordt beschreven creeer een rapport ](#create-a-report) sectie in dit artikel.
+1. In de rapportbouwer, selecteer het **lusje van Groepen** om te identificeren hoe u punten in het rapport wilt groeperen.
+1. Klik **toevoegen Groepering** om een nieuwe groepering toe te voegen.
 
    of
 
-   Kies **Een bestaande groepering toepassen** om een bestaande groep te selecteren wanneer deze in de lijst wordt weergegeven.
+   Kies **een Bestaande Groepering** toepassen om een bestaande groepering te selecteren wanneer het in de lijst toont.
 
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Typ het veld dat u als groep wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan die groep toe te voegen.
-1. (Optioneel) U kunt een groep maken in de tekstmodus door te klikken op **Overschakelen naar tekstmodus**. Zie voor meer informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+1. (Facultatief) u kunt verkiezen om een groepering op tekstwijze te bouwen, door **Schakelaar aan de Wijze van de Tekst te klikken**. Voor meer informatie over het gebruiken van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   Zie voor meer informatie over het maken van nieuwe groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie over het creëren van nieuwe groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. (Optioneel) Selecteer **Deze groep standaard samenvouwen** als u wilt dat de resultaten in deze groep worden samengevouwen in plaats van uitgevouwen.
+1. (Optioneel) Selecteer **deze groepering samenvouwen door gebrek** als u de resultaten in deze groepering wilt doen ineenstorten eerder dan uitgevouwen tonen.
 
    Deze instelling is standaard uitgeschakeld en de resultaten van de groepering worden altijd weergegeven in een uitgevouwen lijst.
 
@@ -218,46 +218,46 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >* Wanneer u groepen handmatig aanpast wanneer u een lijst weergeeft, onthoudt Workfront uw handmatige voorkeur totdat u zich afmeldt. Wanneer u zich weer aanmeldt, wordt de lijst weergegeven volgens deze instelling.
    >* De resultaten van een groepering tonen altijd uitgevouwen na de toegang tot hen van een grafiekelement.
 
-1. (Optioneel) Klik op **Overschakelen naar matrixgroepering** om een matrixgroepering samen te stellen en de resultaten in een rasterindeling weer te geven.
+1. (Facultatief) klik **Schakelaar aan de Groepering van de Matrijs**, om een matrixgroepering te bouwen en uw resultaten in een netformaat te tonen.
 
-   Voor meer informatie over het bouwen van een matrixrapport, zie [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   Voor meer informatie over de bouw van een matrixrapport, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
-1. Klikken **Toepassen** om uw wijzigingen tot nu toe toe toe toe te passen en het rapport verder te bewerken met de volgende opties.
+1. Klik **toepassen** om uw veranderingen tot nu toe toe toe te passen en het rapport met de volgende opties verder uit te geven.
 
-   Klikken **Opslaan + Sluiten** als u klaar bent met het bewerken van de groepen in het rapport en u het rapport wilt opslaan.
+   Klik **sparen + Sluiten** als u klaar bent met het uitgeven van de groeperingen in het rapport en u het rapport wilt bewaren.
 
 ### Filters toevoegen aan een rapport {#add-filters-to-a-report}
 
-1. Een rapport maken zoals wordt beschreven in het dialoogvenster [Een rapport maken](#create-a-report) in dit artikel.
-1. Selecteer in de rapportbuilder de optie **Filters** om de hoeveelheid informatie te identificeren die u het rapport wilt omvatten.
-1. Klikken **Filterregel toevoegen** een aangepast filter toevoegen.\
+1. Begin creërend een rapport zoals die in [ wordt beschreven creeer een rapport ](#create-a-report) sectie in dit artikel.
+1. In de rapportbouwer, selecteer het **lusje van Filters** om de hoeveelheid informatie te identificeren die u het rapport wilt omvatten.
+1. Klik **toevoegen een Regel van de Filter** om een douanefilter toe te voegen.\
    of\
-   Kies **Een bestaand filter toepassen** een bestaand filter gebruiken.
+   Kies **een Bestaande Filter** toepassen om een bestaand filter te gebruiken.
 
    ![](assets/nwe-add-a-filter-350x93.png)
 
-1. Als u klikt **Filterregel toevoegen** typt u het veld dat u als filter wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan dat filter toe te voegen.\
-   Gebruik filtermodifiers om het filter te maken. Zie voor meer informatie over filtermodifiers [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. Als u **klikte voeg een Regel van de Filter** toe, begin het gebied te typen dat u als filter wilt toevoegen. Als het veld beschikbaar is, wordt het gevuld voor elk object waaraan het kan worden gekoppeld. Klik op de naam van het veld om het aan dat filter toe te voegen.\
+   Gebruik filtermodifiers om het filter te maken. Voor meer informatie over filterbepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   Zie voor meer informatie over het maken van nieuwe filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie over het creëren van nieuwe filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Optioneel) U kunt desgewenst een filter maken in de tekstmodus door op **Overschakelen naar tekstmodus**.
+1. (Facultatief) u kunt verkiezen om een filter op tekstwijze te bouwen door **Schakelaar aan de Wijze van de Tekst te klikken**.
 
-   Zie voor meer informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+   Voor meer informatie over het gebruiken van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-1. Klikken **Toepassen** als u klaar bent met het bewerken van de filters in het rapport om uw wijzigingen tot nu toe toe toe te passen en het rapport verder te bewerken met de volgende opties.
+1. Klik **toepassen** wanneer u gebeëindigd bent het uitgeven van de filters in het rapport om uw veranderingen tot dusverre toe toe te passen en het rapport met de volgende opties te blijven uitgeven.
 
-   Klikken **Opslaan + Sluiten** als het rapport en u het rapport wilt bewaren.
+   Klik **sparen + Sluiten** als het rapport en u het rapport wilt bewaren.
 
 ### Een diagram toevoegen aan een rapport {#add-a-chart-to-a-report}
 
-1. Een rapport maken zoals wordt beschreven in het dialoogvenster [Een rapport maken](#create-a-report) in dit artikel.
-1. Selecteer in de rapportbuilder de optie **Diagram** selecteert u vervolgens het type diagram dat u wilt toevoegen.
+1. Begin creërend een rapport zoals die in [ wordt beschreven creeer een rapport ](#create-a-report) sectie in dit artikel.
+1. In de rapportbouwer, selecteer het **lusje van de Grafiek**, dan selecteer het type van grafiek u wilt toevoegen.
 
    ![](assets/nwe-add-a-chart-350x247.png)
 
-   Voor meer informatie over het bouwen van een grafiek in een rapport, zie [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   Voor meer informatie over de bouw van een grafiek in een rapport, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
-1. Klikken **Toepassen** om uw wijzigingen tot nu toe toe toe toe te passen en het rapport verder te bewerken met de volgende opties.
+1. Klik **toepassen** om uw veranderingen tot nu toe toe toe te passen en het rapport met de volgende opties verder uit te geven.
 
-   Klikken **Opslaan + Sluiten** als u klaar bent met het bewerken van het rapport en u het rapport wilt opslaan.
+   Klik **sparen + Sluiten** als u het uitgeven van het rapport gebeëindigd bent en u het rapport wilt bewaren.

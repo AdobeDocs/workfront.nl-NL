@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -45,36 +45,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Handelingen gebruiken voor opmerkingen
 
 Een actie toepassen op een bestaande opmerking in de conceptviewer:
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Voer een van de volgende handelingen uit:
 
    * Klik op het vlagpictogram in de rechterbenedenhoek van de opmerking en klik vervolgens op de gewenste actie in het vervolgkeuzemenu.
 
-      ![](assets/actions-flag-icon-350x198.png)
+     ![](assets/actions-flag-icon-350x198.png)
 
-   * Klik op de knop **Meer** (drie horizontale punten op de opmerking) en klik vervolgens op de gewenste actie in de onderste sectie van het vervolgkeuzemenu dat wordt weergegeven.
+   * Klik het **Meer** pictogram (drie horizontale punten op de commentaar), dan klik de actie u in de lagere sectie van het drop-down menu wilt dat verschijnt.
 
-      ![Actions_on_comments-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
+     ![ Actions_on_comments-More_menu.png ](assets/actions-on-coments-more-menu-350x347.png)
 
 1. (Optioneel) Als u van gedachten verandert, kunt u een van de volgende handelingen uitvoeren:
 
-   * Klik op het vlagpictogram of het pictogram **Meer** opnieuw, en klik vervolgens op **Handeling verwijderen**.
+   * Klik opnieuw het vlagpictogram of **Meer** pictogram, dan klik **verwijdert actie**.
 
    * Herhaal stap 1 om een andere handeling toe te passen.
 
 >[!TIP]
 >
->U kunt opmerkingen filteren op een bepaalde handeling. Zie voor meer informatie [Zoeken, filteren en sorteren, proefdrukopmerkingen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).
+>U kunt opmerkingen filteren op een bepaalde handeling. Voor meer informatie, zie [ Onderzoek, filter, en de commentaren van de soortproef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).

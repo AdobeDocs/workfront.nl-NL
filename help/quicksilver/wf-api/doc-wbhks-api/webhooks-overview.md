@@ -30,9 +30,9 @@ De gebruikerservaring voor integratie op basis van een webhaak is vergelijkbaar 
 * Bestanden uploaden naar de externe documentprovider
 * Een miniatuur voor het document weergeven
 
-**Referentie-implementatie**
+**Implementatie van de Verwijzing**
 
-Workfront geeft voorbeelden van een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Deze voorbeelden zijn te vinden op [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). De voorbeelden zijn gebaseerd op Java en stellen Workfront in staat om documenten te verbinden met een netwerkbestandssysteem. 
+Workfront geeft voorbeelden van een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Deze voorbeelden kunnen in [ https://github.com/Workfront/webhooks-app ](https://github.com/Workfront/webhooks-app) worden gevonden. De voorbeelden zijn gebaseerd op Java en stellen Workfront in staat om documenten te verbinden met een netwerkbestandssysteem. 
 
 >[!NOTE]
 >

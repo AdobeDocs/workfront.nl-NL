@@ -17,24 +17,24 @@ ht-degree: 0%
 
 Wanneer u taken in een lijst bewerkt, kunt u afzonderlijke opslaginstellingen gebruiken om aan te geven of de wijzigingen automatisch moeten worden opgeslagen wanneer u taken in een lijst bewerkt.
 
-Zie het artikel voor informatie over het bewerken van taken in een takenlijst [Taken in een lijst bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Voor informatie over het uitgeven van taken in een taaklijst, zie het artikel [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 Soms kunnen conflicten optreden als twee gebruikers wijzigingen aanbrengen in dezelfde taken.
 
 Houd rekening met het volgende wanneer u taken in een takenlijst bewerkt:
 
-* Adobe Workfront slaat de wijzigingen die u aanbrengt in taken direct op wanneer u ervoor kiest om uw wijzigingen automatisch op te slaan als het type projectupdate Automatisch of Automatisch of bij Wijzigen is. Voor informatie over het Type van projectupdate, zie [Selecteer het Type van projectupdate](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Adobe Workfront slaat de wijzigingen die u aanbrengt in taken direct op wanneer u ervoor kiest om uw wijzigingen automatisch op te slaan als het type projectupdate Automatisch of Automatisch of bij Wijzigen is. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 * Workfront werkt de informatie op de lijst bij u aan elke minuut met veranderingen werkt die andere gebruikers overal anders in het systeem zouden kunnen aanbrengen. Dit zorgt ervoor dat u altijd de recentste informatie over de taken krijgt.
 
 De volgende scenario&#39;s bestaan wanneer de veelvoudige gebruikers de zelfde taken uitgeven:
 
-* **De ene gebruiker slaat de wijzigingen automatisch op in een takenlijst en de andere handmatig**: Als een gebruiker (Gebruiker A) veranderingen manueel bewaart terwijl Gebruiker B de zelfde taken uitgeeft maar zij automatisch hun veranderingen opslaan, worden de levende veranderingen die door Gebruiker B worden aangebracht bijgewerkt in de lijst voor Gebruiker A elke minuut. Als er conflicten zijn tussen de wijzigingen die door de twee gebruikers zijn aangebracht, verschijnt er een waarschuwing wanneer de gebruiker handmatig opslaat (gebruiker A) voordat de gebruikers hun wijzigingen kunnen opslaan. Het waarschuwingsbericht geeft de items weer die conflicterende wijzigingen hebben. Op dit ogenblik, kan Gebruiker A verkiezen of zij hun veranderingen zouden moeten houden (die de veranderingen door Gebruiker B worden aangebracht) overschrijft, of hen verwerpen (die de veranderingen houdt die door Gebruiker B worden aangebracht).
+* **één gebruiker bewaart automatisch de veranderingen in een taaklijst en een andere manueel**: Als een gebruiker (Gebruiker A) veranderingen manueel opslaat terwijl Gebruiker B de zelfde taken uitgeeft maar zij sparen hun veranderingen automatisch, worden de levende veranderingen die door Gebruiker B worden aangebracht bijgewerkt op de lijst voor Gebruiker A elke minuut. Als er conflicten zijn tussen de wijzigingen die door de twee gebruikers zijn aangebracht, wordt voor het handmatig opslaan van de gebruiker (gebruiker A) een waarschuwingsbericht weergegeven voordat de gebruikers hun wijzigingen kunnen opslaan. Het waarschuwingsbericht geeft de items weer die conflicterende wijzigingen hebben. Op dit ogenblik, kan Gebruiker A verkiezen of zij hun veranderingen zouden moeten houden (die de veranderingen door Gebruiker B worden aangebracht) overschrijft, of hen verwerpen (die de veranderingen houdt die door Gebruiker B worden aangebracht).
 
 >[!NOTE]
 >
 >Wanneer u ervoor kiest om de aangebrachte wijzigingen te verwijderen, geldt dit voor alle wijzigingen en niet alleen voor wijzigingen die een conflict hebben met de bewerkingen die door een andere gebruiker zijn aangebracht.
 
-* **Verschillende gebruikers slaan de wijzigingen handmatig op in een takenlijst**: Als meerdere gebruikers die wijzigingen aanbrengen in taken in een lijst, de wijzigingen handmatig opslaan die zijn aangebracht door de gebruiker die het eerst opslaat. Als u deze wijzigingen opslaat, treden er geen conflicten op. Workfrontthen vergelijkt de veranderingen die door alle andere gebruikers met de informatie worden aangebracht die het reeds bewaarde en toont een waarschuwing over de conflicterende veranderingen aan de andere gebruikers alvorens zij hun informatie kunnen bewaren.
+* **Verscheidene gebruikers bewaren manueel de veranderingen in een taaklijst**: Als verscheidene gebruikers die veranderingen in taken in een lijst aanbrengen manueel tezelfdertijd sparen, slaat Workfront de veranderingen op die door de gebruiker worden aangebracht die eerst bewaart. Als u deze wijzigingen opslaat, treden er geen conflicten op. Workfrontthen vergelijkt de veranderingen die door alle andere gebruikers met de informatie worden aangebracht die het reeds bewaarde en toont een waarschuwing over de conflicterende veranderingen aan de andere gebruikers alvorens zij hun informatie kunnen bewaren.
 
 >[!IMPORTANT]
 >

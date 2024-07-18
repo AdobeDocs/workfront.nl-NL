@@ -3,29 +3,29 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Opslag van rijke tekstvelden in de API
-description: Als een object zoals een project, uitgave of taak RTF-opmaak bevat, wordt het opgeslagen en toegankelijk als parameterwaarde via de Workfront API.
+description: Als een object zoals een project, uitgave of taak tekst met opmaak bevat, wordt het opgeslagen en toegankelijk als parameterwaarde via de Workfront API.
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # Opslag van rijke tekstvelden in de API
 
-Als een object zoals een project, uitgave of taak RTF-opmaak bevat, wordt het opgeslagen en toegankelijk als parameterwaarde via de Workfront API.
+Als een object zoals een project, uitgave of taak tekst met opmaak bevat, wordt het opgeslagen en toegankelijk als parameterwaarde via de Workfront API.
 
-Het aanvragen van tekstinformatie van een projectvoorwerp dat rijke tekst bevat kan het gebruiken van het gebied doen **parameterValues**.
+Het vragen van tekstinformatie van een projectobject dat rijke tekst bevat kan worden gedaan gebruikend het gebied **parameterValues**.
 
 Een eenvoudige HTTP-aanvraag kan er bijvoorbeeld als volgt uitzien:
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-Als dit voorbeeldproject een aangepast formulier met 3 aangepaste velden bevatte: calc-veld, alineatekst en rich 1. Vervolgens retourneert het bovenstaande verzoek een reactie die lijkt op het volgende, waarbij het veld &quot;rich 1&quot; een RTF-parameterveld is en de tekstwaarde &quot;**Hallo** *Wereld!*&quot;:
+Als dit voorbeeldproject een aangepast formulier bevatte met drie aangepaste velden: calc-veld, alineatekst en rich 1. Dan zou het bovengenoemde verzoek een reactie terugkeren die op het volgende lijkt, waar het gebied &quot;rijk 1&quot;een rijk gebied van de tekstparameter is en de tekstwaarde &quot;**Hello** *Wereld is!*&quot;:
 
 ```
 {
@@ -69,4 +69,4 @@ Als dit voorbeeldproject een aangepast formulier met 3 aangepaste velden bevatte
 }
 ```
 
-Zie voor meer informatie over hoe uitgebreide tekstgegevens worden opgeslagen en kunnen worden opgehaald via de Adobe Workfront API voor meer informatie [Rijke tekstvelden in de Adobe Workfront API](../../../wf-api/general/rich-text-field-api.md).
+Voor een meer diepgaande blik bij hoe de rijke tekstinformatie wordt opgeslagen en door Adobe Workfront API kan worden teruggewonnen, zie [ Rijke tekstgebieden in Adobe Workfront API ](../../../wf-api/general/rich-text-field-api.md).

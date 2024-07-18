@@ -23,9 +23,9 @@ Om de systeemprestaties te verbeteren en formulieren gemakkelijker te gebruiken 
 >
 >Als u een aangepast veld verwijdert, worden ook alle aangepaste gegevens verwijderd die gebruikers in het veld hebben ingevoerd wanneer ze aangepaste formulieren invullen die aan objecten zijn gekoppeld. Die verwijderde gegevens kunnen niet worden hersteld.
 >
->U kunt alle aangepaste formulieren en rapporten weergeven die een aangepast veld gebruiken dat u wilt verwijderen, om te beoordelen wat de gevolgen kunnen zijn. Zie voor meer informatie [Alle aangepaste formulieren weergeven die een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) en [Alle rapporten weergeven die een bepaald aangepast veld of een bepaalde widget gebruiken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>U kunt alle aangepaste formulieren en rapporten weergeven die een aangepast veld gebruiken dat u wilt verwijderen, om te beoordelen wat de gevolgen kunnen zijn. Voor meer informatie, zie [ Mening alle douanevormen die een bepaald douanegebied of widget ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) en [ gebruiken Mening alle rapporten die een bepaald douanegebied of widget ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md) gebruiken.
 >
->Of, voor een oplossing kunt u gebruiken om gegevensverlies te vermijden in velden die niet meer worden gebruikt, zie [Een aangepast veld verwijderen zonder gegevens te verliezen die gebruikers hebben ingevoerd](#remove-a-custom-field-without-losing-data-that-users-have-entered) in dit artikel.
+>Of, voor een alternerende actie kunt u gebruiken om het verliezen van gegevens op niet meer gebruikte gebieden te vermijden, zie [ een douanegebied verwijderen zonder gegevens te verliezen die de gebruikers ](#remove-a-custom-field-without-losing-data-that-users-have-entered) in dit artikel zijn ingegaan.
 
 ## Toegangsvereisten
 
@@ -53,16 +53,16 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast veld of aangepaste widget uit het systeem verwijderen
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms.**
-1. Klikken **Velden** het gebied Velden openen.
-1. Selecteer het aangepaste veld of de aangepaste widget en klik vervolgens op **Verwijderen**.
-1. Als u zeker weet dat u het item permanent wilt verwijderen en (in het geval van een aangepast veld) alle bijbehorende gegevens op de objecten waar het is gekoppeld, klikt u op **Ja, verwijderen**.
+1. Klik **Aangepaste Forms.**
+1. Klik **Gebieden** om het gebied van Gebieden te openen.
+1. Selecteer het douanegebied of widget, dan klik **Schrapping**.
+1. Als u zeker bent u het punt en (in het geval van een douanegebied) alle bijbehorende gegevens over voorwerpen permanent wilt schrappen waar het in bijlage was, ja klikken **, schrap het**.
 
 ## Een aangepast veld verwijderen zonder gegevens te verliezen die gebruikers hebben ingevoerd {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -75,13 +75,13 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    1. Voeg de aangepaste velden toe aan het nieuwe formulier dat u uit het oorspronkelijke aangepaste formulier wilt verwijderen.
 
-      * Als u de aangepaste formulierbuilder gebruikt, raadpleegt u [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * Als u de formulierontwerper gebruikt, raadpleegt u [Nieuwe of bestaande velden toevoegen aan uw aangepaste formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      * Als u de bouwer van de douanevorm gebruikt, zie [ een douanegebied of een widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) opnieuw gebruiken.
+      * Als u de vormontwerper wordt gebruikt, zie [ nieuwe of bestaande gebieden aan uw douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) toevoegen.
 
    1. Sla het nieuwe aangepaste formulier op.
 
-1. De toegang tot het aangepaste formulier beperken tot gebruikers met beheerdersrechten, zoals beschreven in [Een aangepast formulier delen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. Pas het nieuwe aangepaste formulier toe op de objecten waarop het oorspronkelijke aangepaste formulier al is toegepast, zoals beschreven in [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. De toegang van de beperking tot de douanevorm tot slechts gebruikers met administratieve toegang, zoals die in [ wordt beschreven Deel een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+1. Pas de nieuwe douanevorm op de voorwerpen toe waar de originele douanevorm reeds wordt toegepast, zoals die in [ wordt beschreven voeg een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe.
 
    Als u het nieuwe aangepaste formulier op deze objecten toepast, worden historische rapportgegevens niet gewijzigd.
 

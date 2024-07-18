@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta Slotactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.2 Beta Final-release. De functionaliteit is op 20 juni 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juli 2018 beschikbaar worden gesteld in de productieomgeving.
+title: 2018.2 Beta Slotrelease
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta Final release van 2018.2. De functionaliteit is op 20 juni 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juli 2018 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta Slotactiviteit
+# 2018.2 Beta Slotrelease
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.2 Beta Final-release. De functionaliteit is op 20 juni 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juli 2018 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta Final release van 2018.2. De functionaliteit is op 20 juni 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juli 2018 beschikbaar worden gesteld in de productieomgeving.
 
 >[!IMPORTANT]
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 De volgende nieuwe functies worden vrijgegeven op het moment van de 18.2 Production-release:
 
-* [Services voor e-maillevering opgeven om te reageren op Workfront-e-mailberichten](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [E-mailberichten ontvangen voor opmerkingen op documenten](#receive-email-notifications-for-comments-on-documents)
-* [Updates die door het systeem worden bijgehouden, bevatten niet langer een pictogram](#system-tracked-updates-no-longer-contain-an-icon)
-* [Optie voor het converteren van een opmerking naar een taak is verwijderd](#option-to-convert-a-comment-to-a-task-was-removed)
-* [Workfront voor Salesforce](#workfront-for-salesforce)
-* [Workfront for Slack Improvement](#workfront-for-slack-improvements)
+* [ specificeer de Diensten van de Levering van de Post voor het Reageren op Workfront E-mailberichten ](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
+* [ ontvang E-mailberichten voor Commentaren op Documenten ](#receive-email-notifications-for-comments-on-documents)
+* [ systeem-Getraceerde Updates bevatten niet meer een Pictogram ](#system-tracked-updates-no-longer-contain-an-icon)
+* [ Optie om een Commentaar in een Taak om te zetten werd verwijderd ](#option-to-convert-a-comment-to-a-task-was-removed)
+* [ Workfront voor Salesforce ](#workfront-for-salesforce)
+* [ Workfront voor de Verbeteringen van de Slack ](#workfront-for-slack-improvements)
 * [Mobiele verbeteringen](#mobile-improvements)
 
 ## Services voor e-maillevering opgeven om te reageren op Workfront-e-mailberichten {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -50,7 +50,7 @@ U ontvangt nu een e-mailbericht wanneer iemand opmerkingen maakt over een docume
 
 Voordat u deze wijziging aanbracht, hebt u geen meldingen ontvangen wanneer iemand opmerkingen maakte over een document dat u bezit. 
 
-Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Telkens wanneer het Workfront-systeem een update maakt in het gedeelte Updates v
 
 Vóór deze wijziging bevatte een systeemupdate ook een pictogram dat de uitgevoerde update vertegenwoordigde.
 
-Zie voor meer informatie over systeemupdates [Door het systeem bijgehouden updates](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Voor meer informatie over systeemupdates, zie [ systeem-geleide updates ](../../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Optie voor het converteren van een opmerking naar een taak is verwijderd {#option-to-convert-a-comment-to-a-task-was-removed}
 
@@ -79,7 +79,7 @@ We geven een nieuwe out-of-the-box integratie tussen Salesforce en Workfront. U 
 
 Deze integratie is beschikbaar voor alle klanten met een Workfront Pro-editie of hoger en is gratis.
 
-Zie voor meer informatie over Workfront for Salesforce  [Adobe Workfront voor Salesforce](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
+Zie voor meer informatie over Workfront for Salesforce  [ Adobe Workfront voor Salesforce ](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
 
 ## Workfront for Slack Improvement {#workfront-for-slack-improvements}
 
@@ -93,7 +93,7 @@ De volgende Workfront-meldingen kunnen ook worden geconfigureerd voor levering i
 
 Vóór deze verbetering kon je geen Workfront-berichten in de Slack ontvangen.
 
-Ga voor meer informatie over Workfront-berichten in Slack naar [Adobe Workfront-berichten ontvangen in Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Voor meer informatie over de berichten van Workfront in Slack, zie [ de berichten van Adobe Workfront in Slack ](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md) ontvangen.
 
 ## Mobiele verbeteringen {#mobile-improvements}
 
@@ -113,10 +113,10 @@ De volgende nieuwe functies worden vrijgegeven voor de mobiele winkels op het mo
 
   Deze functie is alleen beschikbaar voor de mobiele app van iOS.
 
-De volgende functies zijn al vrijgegeven voor de Android Beta-versie van de mobiele app Workfront en worden ook vrijgegeven voor de openbare mobiele apps voor Android en iOS. De ervaring voor het iOS-platform wijkt af van de reeds gepubliceerde Android-ervaring:
+De volgende functies zijn al vrijgegeven voor de Android Beta-versie van de Workfront mobile-app en worden ook vrijgegeven voor de openbare mobiele apps voor Android en iOS. De ervaring voor het iOS-platform wijkt af van de ervaring die Android al heeft opgedaan:
 
 * Nieuwe onderste navigatiebalk voor iOS 
 
 * Nieuwe zelfstudie voor iOS 
 
-Ga voor meer informatie over deze functies en voor video&#39;s waarin ze worden gedemonstreerd naar [2018.2 Beta 4 releaseactiviteit](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) en [2018.2 Beta 5 releaseactiviteit](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Voor meer informatie over deze eigenschappen en om video&#39;s te bekijken die hen aantonen, zie [ 2018.2 Beta 4 versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) en [ 2018.2 Beta 5 versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

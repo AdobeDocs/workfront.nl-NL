@@ -2,24 +2,24 @@
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: Widgets bijwerken in de weergave Projectdetails
-description: U kunt aanvullende informatie weergeven over de [!UICONTROL project] nadat u het van de projectlijst hebt betreden door widgets aan uw toe te voegen [!UICONTROL Project Details] scherm. Elke gebruiker kan zijn eigen widgets aanpassen.
+description: U kunt aanvullende informatie over de [!UICONTROL project] weergeven nadat u deze hebt geopend in de projectlijst door widgets toe te voegen aan het [!UICONTROL Project Details] -scherm. Elke gebruiker kan zijn eigen widgets aanpassen.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-# Widgets bijwerken in het dialoogvenster [!UICONTROL Project Details] weergave
+# Widgets bijwerken in de [!UICONTROL Project Details] -weergave
 
-U kunt aanvullende informatie weergeven over de [!UICONTROL project] nadat u het van de projectlijst hebt betreden door widgets aan uw toe te voegen [!UICONTROL Project Details] scherm. Elke gebruiker kan zijn eigen widgets aanpassen.
+U kunt aanvullende informatie over de [!UICONTROL project] weergeven nadat u deze hebt geopend in de projectlijst door widgets toe te voegen aan het [!UICONTROL Project Details] -scherm. Elke gebruiker kan zijn eigen widgets aanpassen.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben in [!DNL Workfront] om de stappen in dit artikel uit te voeren:
+U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ U moet de volgende toegang hebben in [!DNL Workfront] om de stappen in dit artik
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## De widgets in het dialoogvenster [!UICONTROL Project Details] weergave
+## De widgets bijwerken in de weergave [!UICONTROL Project Details]
 
-1. Van de [!DNL Adobe Workfront View] homepage, navigeer aan een project door zijn naam te tikken.
+1. Navigeer op de startpagina van [!DNL Adobe Workfront View] naar een project door op de naam ervan te tikken.
 1. Tik op de tab onderaan in het midden van het scherm.\
-   De [!UICONTROL widget] wordt weergegeven.\
+   Het gebied [!UICONTROL widget] wordt weergegeven.\
    Blader door de widgets door van links naar rechts te vegen.\
    ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
@@ -55,37 +55,37 @@ U moet de volgende toegang hebben in [!DNL Workfront] om de stappen in dit artik
 
 1. Selecteer een van de volgende widgets:
 
-   * **[!UICONTROL Task Condition]**: Toont alle taken in het project door [!UICONTROL Condition] in een cirkeldiagram.
-   * **[!UICONTROL Issues]**: Geeft de tijdlijn van alle problemen in een lijndiagram weer. Het aantal openstaande kwesties wordt tussen haakjes aangegeven.
-   * **[!UICONTROL Hours]**: Hiermee geeft u het dialoogvenster [!UICONTROL Actual] en [!UICONTROL Planned Hours] op de taken van het project in een gecombineerde lijngrafiek.
-   * **[!UICONTROL Issue]** [!UICONTROL Status]: Hiermee geeft u alle uitgaven weer op basis van status in een cirkeldiagram.
-   * **[!UICONTROL Updates]**: Toont alle updates en commentaren op het project.
-   * **[!UICONTROL Costs]**: Hiermee geeft u het dialoogvenster [!UICONTROL Actual] en de [!UICONTROL Planned Cost] van het project in een gecombineerd staafdiagram.
-   * **[!UICONTROL Revenue]**: Hiermee geeft u het dialoogvenster [!UICONTROL Actual] en de [!UICONTROL Planned Revenue] van het project in een gecombineerd staafdiagram.
-   * **[!UICONTROL Task Progress]**: Toont alle taken in het project door [!UICONTROL Progress Status] in een cirkeldiagram.
-   * **[!UICONTROL Upcoming Tasks]**: Geeft maximaal zes aanstaande taken weer. De widget sorteert de projecttaken in de volgende volgorde:
+   * **[!UICONTROL Task Condition]** - Alle taken in het project worden door [!UICONTROL Condition] weergegeven in een cirkeldiagram.
+   * **[!UICONTROL Issues]** - Geeft de tijdlijn van alle problemen in een lijndiagram weer. Het aantal openstaande kwesties wordt tussen haakjes aangegeven.
+   * **[!UICONTROL Hours]** - De [!UICONTROL Actual] en [!UICONTROL Planned Hours] worden voor de taken van het project weergegeven in een gecombineerd lijndiagram.
+   * **[!UICONTROL Issue]** [!UICONTROL Status] : geeft alle problemen weer op basis van status in een cirkeldiagram.
+   * **[!UICONTROL Updates]**: geeft alle updates en opmerkingen voor het project weer.
+   * **[!UICONTROL Costs]** - De [!UICONTROL Actual] en [!UICONTROL Planned Cost] van het project worden in een gecombineerd staafdiagram weergegeven.
+   * **[!UICONTROL Revenue]** - De [!UICONTROL Actual] en [!UICONTROL Planned Revenue] van het project worden in een gecombineerd staafdiagram weergegeven.
+   * **[!UICONTROL Task Progress]** - Alle taken in het project worden door [!UICONTROL Progress Status] weergegeven in een cirkeldiagram.
+   * **[!UICONTROL Upcoming Tasks]**: geeft maximaal 6 aanstaande taken weer. De widget sorteert de projecttaken in de volgende volgorde:
 
-      * in de eerste plaats door de [!UICONTROL Estimated Due Date]
-      * tweede [!UICONTROL Work Breakdown Structure]
+      * eerst, door [!UICONTROL Estimated Due Date]
+      * seconde, door [!UICONTROL Work Breakdown Structure]
 
-      De laatste twee volledige taken (indien van toepassing) en de volgende vier taken worden weergegeven. Om te begrijpen welke taken in zullen worden getoond [!DNL Workfront] U kunt een taakrapport maken voor het project dat u bekijkt en dit sorteren op de geschatte vervaldatum en vervolgens op de knop [!DNL Workfront] Indelingsstructuur. De eerste 6 taken zijn de taken die worden vermeld in de mobiele app Workfront View in het dialoogvenster [!UICONTROL Upcoming] De widget Taken.
+     De laatste twee volledige taken (indien van toepassing) en de volgende vier taken worden weergegeven. Als u wilt weten welke taken worden weergegeven in de app voor mobiele weergave van [!DNL Workfront] , maakt u een taakrapport voor het project dat u bekijkt en sorteert u dit op de geschatte vervaldatum en vervolgens op de [!DNL Workfront] Breakdown-structuur. De eerste 6 taken zijn de taken die worden vermeld in de mobiele app Workfront View in de widget [!UICONTROL Upcoming] Taken.
 
-   * **[!UICONTROL Remaining Tasks]**: Toont de onvolledige taken in een lijngrafiek.
-   * **[!UICONTROL Documents]**: Hiermee geeft u een lijst weer met documenten die aan het project zijn gekoppeld.\
+   * **[!UICONTROL Remaining Tasks]**: geeft de onvolledige taken weer in een lijndiagram.
+   * **[!UICONTROL Documents]**: geeft een lijst weer met documenten die aan het project zijn gekoppeld.\
 
-      U kunt de volgende documentindelingen openen met [!DNL Workfront View]:
+     U kunt de volgende documentindelingen openen met [!DNL Workfront View] :
 
       * alle tekstbestanden
       * .pdf
       * afbeeldingsbestanden (.jpg, .jpeg, .png, enz.)
       * .xls
-   * **[!UICONTROL Details]**: Toont de volgende details over het project:
+   * **[!UICONTROL Details]**: geeft de volgende details over het project weer:
 
       * Projectnaam
       * Naam van de maker van het project
       * Projectstatus
       * Projectgroep
       * Projectplanning
-   * **[!UICONTROL Team]**: Toont de namen van de gebruikers die op het Team van het Project zijn.\
+   * **[!UICONTROL Team]**: geeft de namen weer van de gebruikers die deel uitmaken van het projectteam.\
 
-      Voor meer informatie over projectteams, zie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Voor meer informatie over projectteams, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).

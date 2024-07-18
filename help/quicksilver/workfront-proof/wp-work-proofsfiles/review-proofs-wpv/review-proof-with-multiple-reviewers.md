@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Meerdere revisoren kunnen een proefdruk tegelijkertijd controleren. Wanneer u een proefdruk bekijkt, kunt u zien wie momenteel dezelfde proefdruk controleert.
 
-U kunt aanwezigheidsindicatoren zien wanneer andere revisoren dezelfde proefdruk hebben geopend, ongeacht of ze opmerkingen aan de proefdruk toevoegen. Als ze wel opmerkingen toevoegen, worden de opmerkingen weergegeven tijdens het controleren van de proefdruk. u hoeft de proefdrukviewer niet te vernieuwen om deze weer te geven.
+U kunt aanwezigheidsindicatoren zien wanneer andere revisoren dezelfde proefdruk hebben geopend, of ze nu opmerkingen toevoegen aan de proefdruk of niet. Als ze wel opmerkingen toevoegen, worden de opmerkingen weergegeven terwijl u de proefdruk controleert. U hoeft de proefdrukviewer niet te vernieuwen om deze te kunnen zien.
 
 1. De aanwezigheidsindicatoren weergeven in de rechterbovenhoek van de proefdrukviewer.
 
-   Als u [!DNL Workfront Proof] (niet de proefdrukfunctionaliteit die is geïntegreerd met [!DNL Workfront]), bevatten aanwezigheidsindicatoren de [!DNL Workfront Proof] profielafbeelding of, als er geen profielafbeelding is, de eerste en laatste eerste als de gebruiker.
+   Als u [!DNL Workfront Proof] gebruikt (niet de proofingfunctie die is geïntegreerd met [!DNL Workfront] ), bevatten aanwezigheidsindicatoren de [!DNL Workfront Proof] profielafbeelding van de gebruiker of, als er geen profielafbeelding is, het eerste en laatste eerste als de gebruiker.
 
-   Afbeeldingen profiel in [!DNL Workfront] niet worden weergegeven in de proefdrukviewer.
+   Profielafbeeldingen in [!DNL Workfront] worden niet weergegeven in de proefdrukviewer.
 
 1. (Optioneel) Plaats de muisaanwijzer op een aanwezigheidsindicator om de naam van de gebruiker weer te geven.
 

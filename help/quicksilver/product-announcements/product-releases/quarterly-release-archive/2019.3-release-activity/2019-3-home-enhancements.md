@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van alle wijzigingen die in Home zijn aangebracht met de release 2019.3. Het werd in de week van 19 augustus 2019 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2019 zijn aangebracht, raadpleegt u [Overzicht van releaseactiviteiten 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.3 worden aangebracht, zie [ 2019.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Updates van de look and feel in Home
 

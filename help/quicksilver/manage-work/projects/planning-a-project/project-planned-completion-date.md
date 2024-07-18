@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De geplande uitvoeringsdatum van een project is de datum waarop het project moet worden voltooid.
 
-Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt beschreven hoe u de geplande voltooiingsdatum van een project handmatig of automatisch kunt instellen. Voor meer informatie over de Geplande Datum van Voltooiing van een taak, zie [Overzicht van de geplande voltooiing van de taak](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt beschreven hoe u de geplande voltooiingsdatum van een project handmatig of automatisch kunt instellen. Voor meer informatie over de Geplande Datum van de Voltooiing van een taak, zie [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 De geplande Voltooiingsdatum van een project kan manueel of automatisch worden geplaatst, afhankelijk van of u het project van het Begin of van de Datum van de Voltooiing plant.
 
@@ -74,16 +74,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De geplande voltooiingsdatum van een project handmatig instellen
 
@@ -96,20 +96,20 @@ U moet manueel de Geplande Datum van de Voltooiing van een project plaatsen wann
 
 Een project plannen vanaf de voltooiingsdatum:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Projecten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Projecten**.
 
-1. Klikken **Nieuw project** dan **Nieuw project**.
+1. Klik **Nieuw Project** toen **Nieuw Project**.
 
-   Raadpleeg het artikel voor meer informatie over het maken van projecten [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+   Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-1. Selecteren **Projectdetails** in het linkerdeelvenster en klik vervolgens op de knop **Project bewerken** in de rechterbovenhoek.
+1. Selecteer **Details van het Project** in het linkerpaneel, dan klik **uitgeven het pictogram van het Project** in de hoger-juiste hoek.
 
-1. In de **Planningsmodus** veld, selecteren **Voltooiingsdatum**.
+1. Op het **gebied van de Wijze van het Programma**, uitgezochte **Datum van de Voltooiing**.
 
-1. Geef de **Geplande afsluitdatum** van het project.
-1. Klikken **Wijzigingen opslaan**.
+1. Specificeer de **Geplande Datum van de Voltooiing** van het project.
+1. Klik **sparen Veranderingen**.
 
-   Terwijl u taken aan uw project toevoegt, **Geplande begindatum** van het project wordt berekend op basis van de totale duur van alle taken. 
+   Aangezien u begint taken aan uw project toe te voegen, berekent de **Geplande Datum van het Begin** van het project gebaseerd op de totale Duur van alle taken. 
 
 ## De geplande voltooiingsdatum van een project automatisch instellen
 
@@ -117,22 +117,22 @@ De geplande Voltooiingsdatum van een project wordt automatisch berekend door Wor
 
 Een project plannen vanaf de begindatum:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Projecten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Projecten**.
 
-1. Klikken **Nieuw project** dan **Nieuw project**.
+1. Klik **Nieuw Project** toen **Nieuw Project**.
 
-   Raadpleeg het artikel voor meer informatie over het maken van projecten [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+   Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-1. Selecteren **Projectdetails** in het linkerdeelvenster en klik vervolgens op de knop **Project bewerken** in de rechterbovenhoek.
+1. Selecteer **Details van het Project** in het linkerpaneel, dan klik **uitgeven het pictogram van het Project** in de hoger-juiste hoek.
 
-1. In de **Planningsmodus** veld, selecteren **Begindatum**.
+1. Op het **gebied van de Wijze van het Programma**, uitgezochte **Datum van het Begin**.
 
-1. Geef de **Geplande begindatum** van het project.
-1. Klikken **Wijzigingen opslaan**.
+1. Specificeer de **Geplande Datum van het Begin** van het project.
+1. Klik **sparen Veranderingen**.
 
-   Terwijl u taken aan uw project toevoegt, **Geplande afsluitdatum** van het project wordt berekend op basis van de totale duur van alle taken. 
+   Aangezien u begint taken aan uw project toe te voegen, berekent de **Geplande Datum van de Voltooiing** van het project gebaseerd op de totale Duur van alle taken. 
 
-   Voor meer informatie over de Duur van de Taak, zie het artikel [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Voor meer informatie over de Duur van de Taak, zie het artikel [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    De geplande datum van voltooiing van het project valt in dit geval samen met de geplande datum van voltooiing van de laatste taak van het project.
 

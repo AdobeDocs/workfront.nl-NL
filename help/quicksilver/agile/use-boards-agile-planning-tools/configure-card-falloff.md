@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 U kunt een kaart zodanig configureren dat kaarten volgens een schema worden gearchiveerd of &#39;van de kaart vallen&#39;. U kunt kaarten in een bepaalde kolom instellen om over een bepaald aantal dagen of weken van het bord af te vallen.
 
-Wanneer een kaart van het bord valt, wordt deze gearchiveerd. U kunt gearchiveerde kaarten met een filter weergeven. Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Wanneer een kaart van het bord valt, wordt deze gearchiveerd. U kunt gearchiveerde kaarten met een filter weergeven. Voor meer informatie, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Toegangsvereisten
 
@@ -41,22 +41,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Afvalfunctie van kaart configureren
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klikken **[!UICONTROL Configure]** rechts van de board om het Configure paneel te openen.
-1. Uitbreiden **[!UICONTROL Cards]**.
-1. Inschakelen **[!UICONTROL Automatically archive cards from the board]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Boards]**.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik op **[!UICONTROL Configure]** rechts van de board om het deelvenster Configureren te openen.
+1. Vouw **[!UICONTROL Cards]** uit.
+1. Schakel **[!UICONTROL Automatically archive cards from the board]** in.
 
-   ![Instellingen voor wegvallen van kaarten](assets/card-falloff-switch.png)
+   ![ de wegvalmontages van de Kaart ](assets/card-falloff-switch.png)
 
 1. Selecteer wanneer u kaarten van het bord wilt archiveren. U kunt maximaal 8 weken of tot 60 dagen kiezen.
 
    De datum wordt bepaald vanaf wanneer de kaart voor het laatst is gewijzigd.
 
 1. Selecteer uit welke kolom de kaarten moeten worden verwijderd.
-1. Klikken **[!UICONTROL Save]** in het bevestigingsbericht.
-1. Klikken **[!UICONTROL Hide configure]** om de [!UICONTROL Configure] deelvenster. De configuratie-instellingen worden automatisch toegepast wanneer u de kaart vernieuwt.
+1. Klik op **[!UICONTROL Save]** in het bevestigingsbericht.
+1. Klik op **[!UICONTROL Hide configure]** om het deelvenster [!UICONTROL Configure] te sluiten. De configuratie-instellingen worden automatisch toegepast wanneer u de kaart vernieuwt.

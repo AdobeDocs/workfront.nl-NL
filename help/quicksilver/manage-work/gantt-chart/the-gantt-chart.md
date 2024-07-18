@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: De Gantt-grafiek
-description: Meer informatie over de [!UICONTROL Gantt] Grafiek in de volgende subsectie.
+description: Meer informatie over het diagram [!UICONTROL Gantt] vindt u in de volgende subsectie.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog

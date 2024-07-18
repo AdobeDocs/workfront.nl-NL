@@ -23,10 +23,10 @@ Een voorwaarde is een visuele representatie van hoe een project, taak of kwestie
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een aangepaste voorwaarde maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
-* [De weergavevolgorde van voorwaarden wijzigen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
-* [Een aangepaste voorwaarde instellen als standaard voor projecten](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
-* [Een aangepaste voorwaarde instellen als standaard voor taken en problemen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
+* [ creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit
+* [ Verandering de vertoningsorde van voorwaarden ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
+* [ plaats een douanevoorwaarde als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)
+* [ plaats een douanevoorwaarde als gebrek voor taken en kwesties ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
 * [Een aangepaste voorwaarde verwijderen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
 
-Voor meer informatie over voorwaarden en hoe te om hen op projecten, taken, en kwesties toe te passen, zie [Overzicht van het type Projectvoorwaarde en Voorwaarde](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) en [Voorwaarde voor bijwerken voor taken en problemen](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+Voor meer informatie over voorwaarden en hoe te om hen op projecten, taken, en kwesties toe te passen, zie [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) en [ Voorwaarde van de Update voor taken en kwesties ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).

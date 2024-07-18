@@ -24,6 +24,6 @@ In het venster Delen worden twee verschillende machtigingen voor één gebruiker
 
 ## Antwoord
 
-Gebruikers hebben de hoogste machtigingen die worden weergegeven op het scherm voor delen. Zie het artikel voor meer informatie over machtigingen [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Gebruikers hebben de hoogste machtigingen die worden weergegeven op het scherm voor delen. Voor meer informatie over toestemmingen, zie het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ![](assets/screen-shot-2014-03-19-at-3.36.28-pm-350x403.png)

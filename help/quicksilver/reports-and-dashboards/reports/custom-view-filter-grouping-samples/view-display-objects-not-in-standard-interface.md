@@ -19,14 +19,14 @@ ht-degree: 0%
 U kunt objecten weergeven die niet in de standaardmodusinterface zijn opgenomen. U kunt dit alleen doen door ernaar te verwijzen via de tekstmodus.\
 U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worden opgenomen:
 
-* Gebruik de [API Explorer](../../../wf-api/general/api-explorer.md) om andere objecten te zoeken waarnaar in de tekstmodus kan worden verwezen.\
+* Gebruik [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) om andere voorwerpen te ontdekken die via tekstwijze kunnen worden van verwijzingen voorzien.\
   Niet alle velden die in de API Explorer worden beschreven, zijn geldige velden voor de tekstmodus. Sommige velden worden alleen gemeld via de API.
 
 * Zoek het veld Id van het object in een kolom. De meeste objecten met een veld-id hebben ook een corresponderende kolom- of veldnaam die niet toegankelijk is via de standaardmodus.
 
-  U kunt de tekstmodus gebruiken om in een weergave de kolom- of veldnaam op te nemen in plaats van de id door de naam `fieldnameID` met de `fieldname:name`.
+  U kunt de tekstmodus gebruiken om de kolom- of veldnaam op te nemen in een weergave in plaats van de id door de `fieldnameID` te vervangen door de `fieldname:name` .
 
-  In de standaardmodus kunt u bijvoorbeeld de opdracht **Eigenaar-id Portfolio** is beschikbaar voor een projectweergave, maar de **Naam eigenaar Portfolio** niet. U kunt de tekstmodus gebruiken om de **Naam eigenaar Portfolio** in de kolom van een weergave.
+  Bijvoorbeeld, op de standaardwijzeinterface, is het **gebied van identiteitskaart van de Eigenaar van 0} Portfolio beschikbaar voor een projectweergave, maar het** gebied van de Naam van de Eigenaar van de Portfolio **is niet.** U kunt tekstwijze gebruiken om de **Naam van de Eigenaar van het Portfolio** in de kolom van een mening te tonen.
 
 ## Toegangsvereisten
 
@@ -49,27 +49,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Voorbeeld: voeg de kolom Naam eigenaar Portfolio toe aan een projectweergave
 
 1. Ga naar een lijst met projecten.
-1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen** Typ vervolgens &quot;Eigenaar-id van Portfolio&quot; in het dialoogvenster **Tonen in deze kolom** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. Klik **toevoegen Kolom** dan begin &quot;identiteitskaart van de Eigenaar van het Portfolio&quot;in **tonen in dit kolom** gebied, dan selecteren het wanneer het in de lijst toont.
 
-1. Klikken **Overschakelen naar tekstmodus**.
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Vervang de `valuefield` line (`valuefield=portfolio:ownerID`) met de volgende regel:
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Vervang de regel `valuefield` (`valuefield=portfolio:ownerID`) door de volgende regel:
 
    ```
    valuefield=portfolio:owner:name
@@ -77,7 +77,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    of
 
-   Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
+   Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
 
    ```
    valuefield=portfolio:owner:name
@@ -87,10 +87,10 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    linkedname=portfolio
    ```
 
-   In dit specifieke voorbeeld wordt het rapport gesorteerd op de eigenaar-id van het Portfolio, zoals aangegeven door de `querysort` lijn.
+   In dit specifieke voorbeeld wordt het rapport gesorteerd op de Portfolio Eigenaar-id, zoals aangegeven door de regel `querysort` .
 
    >[!TIP]
    >
-   >Een veld vervangen `ID` met het veld `name` in tekstmodus gebruiken, altijd vervangen `ID` with `:name` in de `valuefield` lijn.
+   >Als u een veld `ID` met de tekstmodus `name` wilt vervangen, vervangt u `ID` altijd door `:name` in de `valuefield` -regel.
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+1. Klik **sparen**, dan **sparen Mening**.

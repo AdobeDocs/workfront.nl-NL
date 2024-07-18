@@ -40,16 +40,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Probleem
 
-De [!UICONTROL **Projecten waar ik aan sta**] filter bevat resultaten die ik niet verwacht, omdat ik niet ben toegewezen aan of verbonden met die projecten.
+De [!UICONTROL **Projecten ik**] filter ben omvat resultaten die ik niet zou verwachten, aangezien ik niet toegewezen of met die projecten associeerde.
 
 ## Oplossing
 
-De [!UICONTROL **Projecten waar ik aan sta**] filter omvat projecten die de gebruiker in om het even welk van zijn bevatten [!UICONTROL **Projectdetails**] velden, inclusief gemakkelijk overgeslagen of automatisch gevulde velden, zoals [!UICONTROL **Ingevoerd door**] of [!UICONTROL **Sponsor-id**]. Er zijn twee mogelijke oplossingen om ongewenste resultaten te verwijderen:
+De [!UICONTROL **Projecten ik ben op**] filter omvat projecten die de gebruiker in om het even welk van zijn [!UICONTROL **gebieden van de Details van het Project**] bevatten, met inbegrip van gemakkelijk gemiste of automatisch gevulde gebieden zoals [!UICONTROL **die door**] of [!UICONTROL **identiteitskaart van Sponsor**] worden binnengegaan. Er zijn twee mogelijke oplossingen om ongewenste resultaten te verwijderen:
 
-1. Controleer de [!UICONTROL **Projectdetails**] voor elk onverwacht project inbegrepen door de filter, en verwijder uw naam uit alle gebieden.
+1. Controleer de [!UICONTROL **Details van het Project**] voor elk onverwacht project inbegrepen door de filter, en verwijder uw naam uit alle gebieden.
 
    OF
 
-1. Probeer een vergelijkbaar filter te gebruiken, zoals [!UICONTROL **Projecten die ik heb**], die alleen projecten bevat die specifiek aan u zijn toegewezen.
+1. Probeer gebruikend een gelijkaardige filter, zoals [!UICONTROL **Projecten I Bezit**], die slechts projecten omvat die specifiek aan u worden toegewezen.
 
-Voor meer informatie over het gebruik van filters in [!DNL Workfront], zie [Overzicht van filters](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

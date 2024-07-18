@@ -13,16 +13,16 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Home] gebiedswidgets
+# [!UICONTROL Home] gebiedwidgets
 
-De thuisgebiedwidgets voor beide [!DNL iOS] en [!DNL Android] Help je je werk snel te vinden.
+De widgets voor het thuisgebied van [!DNL iOS] en [!DNL Android] helpen u uw werkitems snel te vinden.
 
-![Widgets thuisgebied](assets/mobile-home-area-widgets.png)
+![ het gebiedswidgets van het Huis ](assets/mobile-home-area-widgets.png)
 
-**[!UICONTROL Due Today]:** Hier wordt het aantal werkitems weergegeven dat vandaag verschuldigd is. Selecteer de widget om de lijst met items weer te geven.
+**[!UICONTROL Due Today]:** toont het aantal het werkpunten vandaag verschuldigd. Selecteer de widget om de lijst met items weer te geven.
 
-**[!UICONTROL Weekly Work]:** Hier wordt het aantal werkitems weergegeven dat deze week verschuldigd is. Selecteer de widget om de lijst met items weer te geven.
+**[!UICONTROL Weekly Work]:** toont het aantal het werkpunten deze week verschuldigd zijn. Selecteer de widget om de lijst met items weer te geven.
 
-**[!UICONTROL Late Work]:** Hier wordt het aantal te laat uitgevoerde werkitems weergegeven (na de geplande voltooiingsdatum). Selecteer de widget om de lijst met items weer te geven.
+**[!UICONTROL Late Work]:** toont het aantal het werkpunten die (voorbij de geplande voltooiingsdatum) te laat zijn. Selecteer de widget om de lijst met items weer te geven.
 
-**[!UICONTROL Mentions]:** Hier wordt het aantal ongelezen vermeldingen weergegeven. Een vermelding is een melding waarin u tags hebt toegewezen of een melding hebt ontvangen in het dialoogvenster [!UICONTROL Updates] tab voor een object in [!DNL Adobe Workfront]. Selecteer de widget om de lijst met vermeldingen weer te geven.
+**[!UICONTROL Mentions]:** geeft het aantal ongelezen vermeldingen weer. Een vermelding is een melding waarin een tag of een melding wordt weergegeven op het tabblad [!UICONTROL Updates] voor een object in [!DNL Adobe Workfront] . Selecteer de widget om de lijst met vermeldingen weer te geven.

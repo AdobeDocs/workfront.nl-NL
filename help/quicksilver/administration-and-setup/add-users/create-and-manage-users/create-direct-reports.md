@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Directe rapporten maken
 
-U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont. Zie voor meer informatie [Het organigram weergeven](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont. Voor meer informatie, zie [ Mening de organisatorische grafiek ](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Toegangsvereisten
 
@@ -39,8 +39,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
-     <li> <p>Het toegangsniveau van de Beheerder van het Systeem. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> </li> 
-     <li> <p><b>Gebruikers</b> het plaatsen in uw toegangsniveau dat wordt gevormd aan <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Voor informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
+     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over <b> Gebruikers </b> die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -48,12 +48,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Directe rapporten maken
 
-1. Beginnen met het bewerken van een gebruiker zoals beschreven in [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-1. In de **Organisatie** , zorgt u ervoor dat een bedrijf in het **Bedrijf** veld.
+1. Begin het uitgeven van een gebruiker zoals die in [ wordt beschreven geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
+1. In de **sectie van de Organisatie**, zorg ervoor dat een bedrijf op het **gebied van het Bedrijf** wordt geselecteerd.
 
    Dit veld mag niet leeg zijn.
 
-1. In de **Directe rapporten** , geeft u gebruikers op die aan de gebruiker rapporteren die u bewerkt.
+1. Op het **Directe gebied van Rapporten**, specificeer om het even welke gebruikers die aan de gebruiker rapporteren u uitgeeft.
 
-1. (Optioneel) In het dialoogvenster **Rapporten aan** geeft u de naam op van de gebruiker aan wie deze gebruiker rapporteert.
-1. Klikken **Wijzigingen opslaan**.
+1. (Facultatief) op de **Rapporten aan** gebied, specificeer de naam van de gebruiker die deze gebruiker aan rapporteert.
+1. Klik **sparen Veranderingen**.

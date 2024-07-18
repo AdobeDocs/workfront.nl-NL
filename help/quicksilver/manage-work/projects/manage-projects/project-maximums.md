@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
 source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De volgende voorwerpen verbonden aan projecten hebben de volgende grenzen:
    <td role="rowheader"><p>Taken</p></td> 
    <td>  <p>Het maximumaantal taken per project is 5.000. Er wordt een waarschuwingsbericht weergegeven wanneer het aantal taken dit maximum bereikt. Wanneer het maximum wordt bereikt, toont een foutenmelding en kunnen de extra taken niet aan het project worden toegevoegd.</p> <p>Verplaats taken die zijn gesloten voor een ander project dat is bestemd voor gesloten taken om te voorkomen dat u dit maximum bereikt. Het kan nodig zijn de verslagen over deze projecten aan te passen.</p>
 
-<b>BELANGRIJK</b>
+<b> BELANGRIJK </b>
 
 Voor projecten waar de taken veel gebiedsdelen hebben, zou een prestatiesdegradatie in het berekenen van de chronologie kunnen voorkomen of wanneer het werken in het project.
 
@@ -53,7 +53,7 @@ Enkele voorbeelden van taakgebiedsdelen die het opnieuw berekenen van de chronol
   </tr> 
   <tr> 
    <td role="rowheader"><p>Tijdlijnberekeningen</p></td> 
-   <td>Workfront voert geen automatische tijdlijnberekeningen uit voor projecten die niet in 6 maanden zijn bijgewerkt en zal niet hervat tot een update wordt gemaakt.<p>Voor projecten die niet in 3 maanden zijn bijgewerkt, voert Workfront wekelijks tijdlijnberekeningen uit in plaats van iedere avond.</p><p>Zie voor informatie over het berekenen van de projecttijdlijn <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projecttijdlijnen opnieuw berekenen</a>. </p></td> 
+   <td>Workfront voert geen automatische tijdlijnberekeningen uit voor projecten die niet in 6 maanden zijn bijgewerkt en zal niet hervat tot een update wordt gemaakt.<p>Voor projecten die niet in 3 maanden zijn bijgewerkt, voert Workfront wekelijks tijdlijnberekeningen uit in plaats van iedere avond.</p><p>Voor informatie over het berekenen van projectchronologie, zie <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref"> projectchronologie </a> opnieuw berekenen. </p></td> 
   </tr> 
  </tbody> 
 </table>

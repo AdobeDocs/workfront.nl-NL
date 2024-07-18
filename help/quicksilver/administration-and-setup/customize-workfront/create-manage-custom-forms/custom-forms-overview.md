@@ -29,7 +29,7 @@ Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de 
 
 ## Een aangepast formulier maken
 
-Er zijn twee opties om een aangepast formulier te maken in [!DNL Workfront]. U kunt de aangepaste formulierontwerper Verouderd of de nieuwe formulierontwerper gebruiken:
+Er zijn twee opties om een aangepast formulier te maken in [!DNL Workfront] . U kunt de aangepaste formulierontwerper Verouderd of de nieuwe formulierontwerper gebruiken:
 
 * [Verouderde aangepaste formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Ontwerper van formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
@@ -78,8 +78,8 @@ Gebruikers kunnen aangepaste formulieren koppelen aan de volgende objecttypen:
 * Iteratie
 * Factureringsrecord
 
-Zie voor meer informatie over het koppelen van aangepaste formulieren aan objecten [Een aangepast formulier toevoegen aan een object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Voor meer informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
-Voor informatie over wat er met aangepaste formulieren gebeurt wanneer u een object omzet, raadpleegt u [Aangepaste formuliergegevens overbrengen bij de conversie van een object](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+Voor informatie over wat aan douaneformulieren wanneer het omzetten van een voorwerp gebeurt, zie [ de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 

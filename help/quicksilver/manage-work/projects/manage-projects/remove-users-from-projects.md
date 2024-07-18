@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Gebruikers uit projecten verwijderen
 
-U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Zie voor meer informatie over het projectteam [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -39,11 +39,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,10 +54,10 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Wanneer een gebruiker uit een project wordt verwijderd, zouden om het even welke taken of kwesties die aan hen worden toegewezen kunnen worden beïnvloed, afhankelijk van of de taak of de kwestie werd voltooid toen de gebruiker werd verwijderd:
 
-* **Als het item niet is voltooid wanneer de gebruiker wordt verwijderd:** Het punt wordt opnieuw toegewezen aan een baanrol als een baanrol reeds werd toegewezen, of het wordt toegewezen aan de baanrol de gebruiker op het punt vervulde. Als het item of de gebruiker geen taakrol heeft toegewezen, moet u het item handmatig opnieuw toewijzen.
-* **Als het item is voltooid wanneer de gebruiker wordt verwijderd:** De naam van de verwijderde gebruiker blijft op het item staan.
-* **Als de verwijderde gebruiker ook de maker van een project is:** Het project wordt niet verwijderd uit hun **Projecten waar ik aan sta** lijst in het gebied Projecten. Het project wordt verwijderd uit de lijsten voor alle andere gebruikers die voor dat project door het Ingegaan door gebied filtreren.
-* **Als de gebruiker de eigenaar of sponsor van het project is:** De gebruiker blijft in zijn rol als sponsor of eigenaar van het project.
+* **als het punt niet wordt voltooid wanneer de gebruiker wordt verwijderd:** het punt wordt opnieuw toegewezen aan een baanrol als een baanrol reeds werd toegewezen, of het wordt toegewezen aan de baanrol de gebruiker op het punt vervulde. Als het item of de gebruiker geen taakrol heeft toegewezen, moet u het item handmatig opnieuw toewijzen.
+* **als het punt wordt voltooid wanneer de gebruiker wordt verwijderd:** De naam van de verwijderde gebruiker blijft op het punt.
+* **als de verwijderde gebruiker ook de schepper van een project is:** het project wordt niet verwijderd uit hun **Projecten I op** lijst in het gebied van Projecten. Het project wordt verwijderd uit de lijsten voor alle andere gebruikers die voor dat project door het Ingegaan door gebied filtreren.
+* **als de gebruiker de eigenaar of Sponsor van het project is:** de gebruiker blijft in hun rollen als sponsor of eigenaar van het project.
 
 ## Verwijder gebruikers uit een project en het Team van het Project
 
@@ -67,16 +67,16 @@ Wanneer de gebruikers rollen op een project vervullen, worden zij een deel van h
 
 Wanneer u gebruikers uit hun rollen op het project verwijdert, blijven zij deel van het projectteam.
 
-Voor informatie over de rollen van gebruikers op een project, zie [Het projectteam beheren](../planning-a-project/manage-project-team.md).
+Voor informatie over de rollen van gebruikers op een project, zie [ het Team van het Project beheren ](../planning-a-project/manage-project-team.md).
 
 Om gebruikers uit het Team van het Project te verwijderen:
 
 1. Ga naar het project waar u de gebruikers wilt verwijderen.
 
-1. Klikken **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen. Mogelijk moet u op **Meer weergeven** vervolgens **Mensen**.
+1. Klik **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen. U zou kunnen moeten klikken **Meer** tonen, dan **Mensen**.
 
-1. Klik op de knop **Verwijderen** pictogram  ![Item verwijderen](assets/remove-icon---x-in-circle.png) boven aan de lijst met gebruikers.
+1. Klik **verwijderen** pictogram ![ verwijderen punt ](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
 
-1. Klikken **Ja, geselecteerde gebruikers verwijderen** om de verwijdering te bevestigen.
+1. Klik **ja, verwijder Geselecteerde Gebruikers** om verwijdering te bevestigen.
 
    De gebruikers worden verwijderd uit het projectteam en uit om het even welke onvolledige taken of kwesties die zij zouden kunnen worden toegewezen aan. Zij ontvangen niet meer berichten voorgenomen voor het Team van het Project.

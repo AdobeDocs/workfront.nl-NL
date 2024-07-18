@@ -24,7 +24,7 @@ ht-degree: 0%
 De standaardinterfacebouwer verstrekt een grote waaier van flexibiliteit wanneer het creëren van rapporteringselementen om aan de behoeften in uw organisatie te voldoen.
 
 U kunt voorwaardelijke opmaak toepassen in een weergave met behulp van de standaardinterface.\
-Zie voor meer informatie over het toepassen van voorwaardelijke opmaak op een weergave [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Voor meer informatie over het toepassen van voorwaardelijke het formatteren op een mening, zie [ Voorwaardelijk het gebruiken formatterend in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,9 +67,9 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 In de tekstmodus kunt u complexere weergaven, filters, groepen en aanwijzingen maken door u toe te staan velden te gebruiken die niet beschikbaar zijn in de standaardinterface.
 
-Voor een volledige lijst van al onze te melden gebieden, zie  [API Explorer](../../../wf-api/general/api-explorer.md).
+Voor een volledige lijst van al onze te melden gebieden, zie [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
-Zie voor meer informatie over het gebruik van syntaxis in de tekstmodus [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Voor meer informatie over het gebruiken van de syntaxis van de tekstwijze, zie [ overzicht van de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 U kunt de tekstmodus ook gebruiken om weergaven in rapporten en lijsten op te maken. Met voorwaardelijke opmaak kunt u de weergaven van uw rapporten wijzigen door het lettertype en de achtergrond van de resultaten in het rapport te wijzigen, maar ook door pictogrammen en vlaggen. Wij adviseren dat u altijd uw meningen gebruikend de standaardinterface eerst bouwt en op de interface van de tekstwijze slechts wanneer absoluut noodzakelijk schakelt.
 
@@ -79,25 +79,25 @@ U kunt de tekstmodus ook gebruiken om weergaven in rapporten en lijsten op te ma
 
 ## Voorwaardelijke opmaak toevoegen aan weergaven
 
-Zie voor meer informatie over het toepassen van voorwaardelijke opmaak op een weergave in de standaardbuilderinterface [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Voor meer informatie over het toepassen van voorwaardelijke het formatteren op een mening in de standaard bouwerinterface, zie [ Voorwaardelijk het Gebruik formatteren in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 Voorwaardelijke opmaak toevoegen aan een weergave in de interface van de tekstmodus:
 
 1. Ga naar een lijst met objecten.
 1. Vouw het vervolgkeuzemenu uit van een weergave waaraan u voorwaardelijke opmaak wilt toevoegen.
-1. Klikken **Weergave aanpassen**.
+1. Klik **aanpassen Mening**.
 1. Klik op de kolom in de weergave waarop u voorwaardelijke opmaak wilt toepassen.
-1. Klikken **Overschakelen naar tekstmodus**.
-1. In de **Tonen in deze kolom:** gebied, klikken **Klik om tekst te bewerken**.
-1. Voeg de codesteekproeven toe die in worden verstrekt [Weergaven opmaken met de tekstmodus](#format-views-using-text-mode) onder aan de tekst in de kolom die u hebt geselecteerd.
-1. Klikken **Opslaan** en klik vervolgens op **Weergave opslaan**.
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. In **toon in deze kolom:** gebied, klik **om tekst** uit te geven.
+1. Voeg de codesteekproeven toe die in [ de Mening van het Formaat worden verstrekt gebruikend de Wijze van de Tekst ](#format-views-using-text-mode) bij de bodem van de tekst in de kolom u selecteerde.
+1. Klik **sparen**, dan klik **sparen Mening**.
 
 ## Weergaven opmaken met de tekstmodus {#format-views-using-text-mode}
 
 U kunt de volgende componenten aan een kolom in een mening toevoegen om het voorwaardelijk op tekstwijze te formatteren:
 
-* [Kolominstellingen](#column-settings)
-* [Kolomregels](#column-rules)
+* [ montages van de Kolom ](#column-settings)
+* [ de regels van de Kolom ](#column-rules)
 * [Voorwaardelijk een waarde-expressie opmaken](#conditionally-format-a-valueexpression)
 
 ### Kolominstellingen {#column-settings}
@@ -106,13 +106,13 @@ Voordat u voorwaardelijke opmaak kunt toevoegen aan uw weergaven, moet u bekend 
 
 U kunt de volgende elementen van een kolom aanpassen wanneer u voorwaardelijke opmaak gebruikt in een weergave:
 
-* [Kolomkoppen](#column-headers)
-* [Datums opmaken](#format-dates)
+* [ Kopballen van de Kolom ](#column-headers)
+* [ data van het Formaat ](#format-dates)
 * [Getallen opmaken](#format-numbers)
 
 #### Kolomkoppen {#column-headers}
 
-Als u de weergegeven kolomkop wilt wijzigen, voegt u de volgende code toe aan uw kolom: `displayname= [Name of column]`. Als u bijvoorbeeld een kolomeigenaar een naam wilt geven, ziet de tekstcode er als volgt uit:
+Als u de weergegeven kolomkop wilt wijzigen, voegt u de volgende code toe aan de kolom: `displayname= [Name of column]` . Als u bijvoorbeeld een kolomeigenaar een naam wilt geven, ziet de tekstcode er als volgt uit:
 
 `displayname=Project Owner`
 
@@ -120,7 +120,7 @@ Als u de weergegeven kolomkop wilt wijzigen, voegt u de volgende code toe aan uw
 
 Datums kunnen worden geconfigureerd voor weergave in verschillende indelingen.
 
-Zie voor meer informatie [Datums opmaken in tekstmodusrapporten](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+Voor meer informatie, zie [ data van het Formaat op de rapporten van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -183,7 +183,7 @@ Zie voor meer informatie [Datums opmaken in tekstmodusrapporten](../../../report
 
 U kunt numerieke waarden opmaken om informatie weer te geven die het beste aansluit bij uw rapportagebehoeften.
 
-Zie voor meer informatie [Getallen, valuta en percentagewaarden in tekstmodusrapporten opmaken](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+Voor meer informatie, zie {de aantallen van 0} Formaat, munt en percentagewaarden op de rapporten van de tekstwijze ](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).[
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -247,10 +247,10 @@ Zie voor meer informatie [Getallen, valuta en percentagewaarden in tekstmodusrap
 
 Met kolomregels kunt u afbeeldingen, kleur, opmaak en tekstoverschrijvingen in een weergave toevoegen. Kolomregels kunnen onafhankelijk worden opgesteld of kunnen meerdere voorwaarden voor een kolom bevatten.
 
-* [Voorwaardelijke opmaak](#conditional-formatting)
-* [Meerdere voorwaardelijke indelingen](#multiple-conditional-formats)
-* [Tekst toepassen](#apply-text)
-* [Rijindelingen toepassen](#apply-row-formats)
+* [ Voorwaardelijke het formatteren ](#conditional-formatting)
+* [ Veelvoudige voorwaardelijke formaten ](#multiple-conditional-formats)
+* [ pas tekst ](#apply-text) toe
+* [ pas rijformaten ](#apply-row-formats) toe
 * [Afbeeldingen toepassen](#apply-images)
 
 #### Voorwaardelijke opmaak {#conditional-formatting}
@@ -260,7 +260,7 @@ Er moet een specifieke instructie voor de tekstmodus worden toegepast bij het op
 >[!NOTE]
 >
 >Voorwaardelijke opmaak wordt mogelijk niet ondersteund in samengevoegde kolommen.\
->Voor meer informatie over het samenvoegen van kolommen met de Wijze van de Tekst, zie [Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>Voor meer informatie bij het samenvoegen van kolommen met de Wijze van de Tekst, zie [ Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 Voeg de volgende code in een kolom in waaraan u voorwaardelijke opmaak wilt toevoegen:
 
@@ -278,11 +278,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->De `styledef.case.0.comparison.icon` regel is altijd false, tenzij u met pictogrammen werkt.
+>De regel `styledef.case.0.comparison.icon` is altijd false, tenzij u met pictogrammen werkt.
 >
->De `styledef.case.0.comparison.truetext` regel wordt altijd leeg gelaten totdat u werkt met overschrijven van tekst.
+>De regel `styledef.case.0.comparison.truetext` wordt altijd leeg gelaten totdat u werkt met het overschrijven van tekst.
 >
->De `styledef.case.0.comparison.righttext` regel is leeg wanneer de kwalificatie niet leeg is.
+>De regel `styledef.case.0.comparison.righttext` is leeg wanneer de kwalificatie niet leeg is.
 
 Bijvoorbeeld, als wij de Naam van het Bedrijf in groene tekst op een projectrapport wilden tonen, kunt u de volgende code gebruiken:
 
@@ -300,8 +300,8 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* Terwijl deze verklaring op een kolom van de Naam van het Bedrijf kon worden toegepast, kon het ook op een andere kolom op het rapport worden toegepast. De groene tekst zou slechts worden getoond als het project een Bedrijf verbonden aan het had. De `[field name]`, `[value]`, en `[qualifier]` rijden, ongeacht of de conditionering uiteindelijk op de kolom wordt weergegeven.
->* Als u werkt met kwalificatietekens, raden we u aan `cicontains` eerder dan `equal`. Standaard, `equal` zoekt naar id-nummers. Met de `cicontains` kwalificatie, kunt u tot punten door hun naam toegang hebben.
+>* Terwijl deze verklaring op een kolom van de Naam van het Bedrijf kon worden toegepast, kon het ook op een andere kolom op het rapport worden toegepast. De groene tekst zou slechts worden getoond als het project een Bedrijf verbonden aan het had. Onthoud het station `[field name]` , `[value]` en `[qualifier]` , ongeacht of de conditionering uiteindelijk op de kolom wordt weergegeven.
+>* Als u met kwalificatietoetsen werkt, raden we u aan `cicontains` te gebruiken in plaats van `equal` . Standaard zoekt `equal` naar id-nummers. Met de kwalificatie `cicontains` hebt u toegang tot items op basis van hun naam.
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
@@ -318,7 +318,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 Gebruik de volgende tabellen om te bepalen welke regels moeten worden gewijzigd en welke waarden u moet opgeven om de opmaakstijl van de kolom te definiëren:
 
-| **Tekstkleur** | **Regel: textcolor=** |
+| **Kleur van de Tekst** | **Lijn: textcolor=** |
 |---|---|
 | Zwart | `000000` |
 | Donkerblauw | `0c6aca` |
@@ -331,7 +331,7 @@ Gebruik de volgende tabellen om te bepalen welke regels moeten worden gewijzigd 
 
 {style="table-layout:auto"}
 
-| **Uitlijning** | **Regel: uitlijnen=** |
+| **Uitlijning** | **Lijn: align=** |
 |---|---|
 | Links uitlijnen | `left` |
 | Rechts uitlijnen | `right` |
@@ -339,14 +339,14 @@ Gebruik de volgende tabellen om te bepalen welke regels moeten worden gewijzigd 
 
 {style="table-layout:auto"}
 
-| Lettertype | Regel: ***fontstyle=*** |
+| Lettertype | Lijn: ***fontstyle=*** |
 |---|---|
 | Vet | `bold` |
 | Cursief | `italic` |
 
 {style="table-layout:auto"}
 
-| **Achtergrondkleur** | **Regel: bgcolor=** |
+| **Achtergrondkleur** | **Lijn: bgcolor=** |
 |---|---|
 | Groen | `dcf6f7` |
 | Groen | `def6e2` |
@@ -408,7 +408,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->De regels waarmee wordt begonnen `case.0.` gebruik vergelijkingen tussen hoofdletters en kleine letters om het gebruik van tekst te identificeren. De regels waarmee wordt begonnen `styledef.case.0.` zijn vroege voorwaardelijke het formatteren verklaringen waar wij het gebruik van tekst door `truetext` expressie. Zorg ervoor dat deze is ingesteld `truetext` naar een waarde, in plaats van deze leeg te laten.
+>De regels die beginnen met `case.0.` gebruiken hoofdlettervergelijkingen met het identificeren van het gebruik van tekst. De regels die beginnen met `styledef.case.0.` zijn vroege voorwaardelijke opmaakinstructies waarin we het gebruik van tekst identificeren via de `truetext` -expressie. Stel `truetext` in op een waarde in plaats van deze leeg te laten.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -473,7 +473,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->De instructie gebruikt de instructie `icon=true` expressie. Deze instructie verschilt ook van andere instructies voor voorwaardelijke opmaak, omdat deze geen gebruik maakt van de instructie `style.def` , maar eerder een unieke afbeeldingsindeling.
+>De instructie gebruikt de expressie `icon=true` . Deze instructie verschilt ook van andere instructies voor voorwaardelijke opmaak, omdat deze niet de `style.def` -indeling gebruikt, maar een unieke afbeeldingsindeling.
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -481,15 +481,15 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 Als u de beschikbare afbeeldingen wilt gebruiken, past u de volgende code en waarden toe:
 
-| **Pictogram** | **Regel: image.case.0.compare.truetext=** |
+| **Pictogram** | **Lijn: image.case.0.compare.truetext=** |
 |---|---|
-| Kikkervlak ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Happy Face ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blauwe vlag  ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Groene vlag  ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Rode vlag  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Gele vlag  ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Zwarte cirkel  ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Voorkant ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Fijne kant ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Blauwe vlag ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Groene vlag ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Rode vlag ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Gele markering ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Zwarte cirkel ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
 | Blauwe cirkel ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
 | Grijze cirkel ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
 | Groene cirkel ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
@@ -502,15 +502,15 @@ Als u de beschikbare afbeeldingen wilt gebruiken, past u de volgende code en waa
 
 {style="table-layout:auto"}
 
-### Maak een voorwaardelijke indeling `valueexpression` {#conditionally-format-a-valueexpression}
+### Een `valueexpression` voorwaardelijk opmaken {#conditionally-format-a-valueexpression}
 
-Als u een berekende waarde in een kolom wilt weergeven, kunt u de optie `valuefield` coderegel met een `valueexpression`. Met een berekende waarde kunt u een nieuwe waarde voor een object weergeven op basis van de berekening tussen twee bestaande velden op hetzelfde object.
+Als u een berekende waarde in een kolom wilt weergeven, kunt u de coderegel `valuefield` in de kolom vervangen door een `valueexpression` . Met een berekende waarde kunt u een nieuwe waarde voor een object weergeven op basis van de berekening tussen twee bestaande velden op hetzelfde object.
 
-Voor meer informatie over het opmaken van de `valueexpression line`, zie [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Voor meer informatie over hoe te om `valueexpression line` te formatteren, zie [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-U kunt een kolom die een `valueexpression` coderegel In plaats daarvan kunt u een berekend aangepast veld toevoegen aan een aangepast formulier en dit koppelen aan de objecten die u in het rapport weergeeft. Vervolgens kunt u de kolommen met dit veld voorwaardelijk opmaken.
+U kunt een kolom met een coderegel `valueexpression` niet voorwaardelijk opmaken. In plaats daarvan kunt u een berekend aangepast veld toevoegen aan een aangepast formulier en dit koppelen aan de objecten die u in het rapport weergeeft. Vervolgens kunt u de kolommen met dit veld voorwaardelijk opmaken.
 
-Voor meer informatie over Berekende Gebieden van de Douane, zie [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Voor meer informatie over Berekende Gebieden van de Douane, zie [ berekende gegevens aan een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
 ## Een aggregatorwaarde toevoegen in een tekstmoduskolom
 
@@ -524,7 +524,7 @@ Houd rekening met het volgende wanneer u aggregators toevoegt aan een kolom in d
    * Datum
    * Valuta
 
-* U kunt een aggregator aan een kolom toevoegen die een berekening toont. De samengevoegde waarde wordt weergegeven in de groep van de weergave of het rapport. Zie voor meer informatie [Groeperen: het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* U kunt een aggregator aan een kolom toevoegen die een berekening toont. De samengevoegde waarde wordt weergegeven in de groep van de weergave of het rapport. Voor meer informatie, zie [ Groepering: toon het resultaat van het samenvoegen van veelvoudige berekende waarden in een groepering ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * De coderegels voor de definitie van de kolom moeten identiek zijn aan de coderegels die de aggregator introduceren en worden voorafgegaan door &quot;aggregator&quot;. Als u bijvoorbeeld een kolom hebt waarin u de geplande uren voor een project weergeeft, is de tekstmodus van de hoofdlijnen van de kolom:
 
 ```
@@ -534,10 +534,10 @@ Houd rekening met het volgende wanneer u aggregators toevoegt aan een kolom in d
 
 Als u de waarden van alle regels in de groepering van de weergave wilt samenvoegen, kunt u de volgende code toevoegen om de aggregatorwaarden toe te voegen:
 
-`aggregator.valuefield=workRequired` (de `aggregator.valuefield` regel moet gelijk zijn aan `valuefield` die de kolom beschrijft)
+`aggregator.valuefield=workRequired` (de `aggregator.valuefield` lijn moet het zelfde zijn als `valuefield` die de kolom beschrijft)
 
-`aggregator.valueformat=compound` (de `aggregator.valueformat` regel moet dezelfde waarde hebben als `valueformat` die de kolom beschrijft)
+`aggregator.valueformat=compound` (de `aggregator.valueformat` -regel moet dezelfde waarde hebben als de `valueformat` die de kolom beschrijft)
 
-`aggregator.function=SUM` (Dit is een verplichte regel die aangeeft hoe u de kolom wilt samenvoegen. In dit geval wilt u alle individuele geplande uren toevoegen aan één getal in de groeperingsregel.)
+`aggregator.function=SUM` (dit is een verplichte regel die aangeeft hoe u de kolom wilt samenvoegen. In dit geval wilt u alle individuele geplande uren in één getal op de groeperingsregel plaatsen)
 
-`aggregator.displayformat=minutesAsHoursString` (omdat de uren in Workfront in minuten worden opgeslagen, willen wij wijzen op `displayformat` voor uren dat ze in minuten worden opgeslagen)
+`aggregator.displayformat=minutesAsHoursString` (omdat uren in Workfront in minuten worden opgeslagen, willen we de `displayformat` aangeven voor uren dat ze in minuten worden opgeslagen)

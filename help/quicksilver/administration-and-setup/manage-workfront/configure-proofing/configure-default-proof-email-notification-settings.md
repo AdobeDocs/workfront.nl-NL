@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
 title: Standaardinstellingen voor e-mailmeldingen configureren
-description: Proofinggebruikers in Adobe Workfront kunnen e-mailberichten van zowel Workfront als Workfront Proef ontvangen wanneer opmerkingen of beslissingen op een bewijs worden genomen. Als gebruikers al e-mailmeldingen ontvangen van Workfront Proof, raden we u aan om berichten die vanuit Workfront zijn verzonden uit te schakelen om dubbele berichtgevingsberichten te voorkomen.
+description: Proofinggebruikers in Adobe Workfront kunnen e-mailmeldingen ontvangen van zowel Workfront als Workfront Proof wanneer opmerkingen of beslissingen op een bewijs worden genomen. Als gebruikers al e-mailberichten van Workfront Proof ontvangen, raden we u aan om de berichten die vanuit Workfront worden verzonden uit te schakelen om dubbele berichten te voorkomen.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Standaardinstellingen voor e-mailmeldingen configureren
 
-Proofinggebruikers in Adobe Workfront kunnen e-mailberichten van zowel Workfront als Workfront Proef ontvangen wanneer opmerkingen of beslissingen op een bewijs worden genomen. Als gebruikers al e-mailmeldingen ontvangen van Workfront Proof, raden we u aan om berichten die vanuit Workfront zijn verzonden uit te schakelen om dubbele berichtgevingsberichten te voorkomen.
+Proofinggebruikers in Adobe Workfront kunnen e-mailmeldingen ontvangen van zowel Workfront als Workfront Proof wanneer opmerkingen of beslissingen op een bewijs worden genomen. Als gebruikers al e-mailberichten van Workfront Proof ontvangen, raden we u aan om de berichten die vanuit Workfront worden verzonden uit te schakelen om dubbele berichten te voorkomen.
 
-Voor informatie over het configureren van meldingsinstellingen die vanuit Workfront Proof worden verzonden, raadpleegt u [Instellingen voor e-mailmeldingen configureren in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+Voor informatie over het vormen berichtmontages die van Workfront Proof worden verzonden, zie [ de montages van het e-mailbericht in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
 
 ## Toegangsvereisten
 
@@ -39,24 +39,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over Workfront-beheerders raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Standaardinstellingen voor e-mailmeldingen configureren
 
 Instellingen voor proefdrukmeldingen configureren die vanuit Workfront worden verzonden:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Uitbreiden **E-mail** en klik vervolgens op **Controle en goedkeuring**.
+1. Breid **E-mail** uit, dan klik **Overzicht en Goedkeuring**.
 
-1. In de **Proefmeldingen in Workfront** , kiest u of u de optie wilt in- of uitschakelen. Stuur e-mails van Workfront wanneer er een opmerking wordt gemaakt op een proefdruk.
+1. In de **Meldingen van het Bewijs in Workfront** sectie, besluit of om de optie toe te laten of onbruikbaar te maken, verzend e-mail van Workfront wanneer een commentaar op een proef wordt gemaakt.
 
    * Als deze instelling is ingeschakeld, ontvangen gebruikers een e-mail van Workfront wanneer er een opmerking wordt gemaakt op een proefdruk.
    * Als deze instelling is uitgeschakeld, ontvangen gebruikers geen e-mail van Workfront wanneer er een opmerking wordt gemaakt op een proefdruk.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

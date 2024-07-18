@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het document beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
@@ -54,23 +54,23 @@ U moet het volgende hebben:
 
 Een aangepast formulier toevoegen aan een document:
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik op de knop **Samenvatting** pictogram ![](assets/summary-panel-icon.png)en zoekt vervolgens naar de **Details** sectie.
-1. In de **Aangepast formulier toevoegen** begint te typen en selecteert u een aangepast formulier. Het formulier wordt automatisch in het document opgeslagen.
+1. Klik het **Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
+1. In **voeg douanevorm** doos toe, begin typend en selecteer een douanevorm. Het formulier wordt automatisch in het document opgeslagen.
 
    >[!NOTE]
    >
-   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een aangepast formulier wilt maken, raadpleegt u [Een aangepast formulier maken of bewerken](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [ een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven
 
 ## Een aangepast formulier bewerken
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik op de knop **Samenvatting** pictogram ![](assets/summary-panel-icon.png)en zoekt vervolgens naar de **Details** aan de bovenkant.
-1. Klikken **Bewerken** in de rechterbovenhoek vouwt u het gewenste formulier uit.
-1. Breng de gewenste wijzigingen aan en klik vervolgens op **Opslaan**.
+1. Klik het **Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
+1. Klik **uitgeven** in de hoger-juiste hoek, dan breid de gewenste vorm uit.
+1. Breng de noodzakelijke veranderingen aan, dan klik **sparen**.
 
    ![](assets/edit-custom-form-350x265.png)

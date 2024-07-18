@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.3 Bèta 2 releaseactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2017.3 bèta 2-release. De functionaliteit op deze pagina is op 23 augustus 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal begin november 2017 beschikbaar worden gesteld in de productieomgeving.
+title: 2017.3 Beta 2-releaseactiviteit
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 2-release van 2017.3. De functionaliteit op deze pagina is op 23 augustus 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal begin november 2017 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,29 +14,29 @@ ht-degree: 0%
 
 ---
 
-# 2017.3 Bèta 2 releaseactiviteit
+# 2017.3 Beta 2-releaseactiviteit
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2017.3 bèta 2-release. De functionaliteit op deze pagina is op 23 augustus 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal begin november 2017 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 2-release van 2017.3. De functionaliteit op deze pagina is op 23 augustus 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal begin november 2017 beschikbaar worden gesteld in de productieomgeving.
 
 >[!IMPORTANT]
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [ 2017.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-De 2017.3 bèta 2-versie bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
+De Beta 2-release van 2017.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-**Voor beheerders**
+**voor Beheerders**
 
 * [Toegang tot werkstromen beperken door activering van werkgebied (Workfront Proof)](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
-**Voor alle gebruikers**
+**voor Alle Gebruikers**
 
-* [Optie voor bronnenplanner om de weergave te wijzigen](#resource-planner-option-to-change-the-view)
-* [Inhoud filteren in een gebruiksrapport van een project](#filter-content-within-a-utilization-report-on-a-project)
-* [Kosteninformatie weergeven in het gebruiksrapport van een project](#view-cost-information-in-the-utilization-report-on-a-project)
-* [Gebruikers abonneren en hun abonnement op objecten opzeggen](#subscribing-and-unsubscribing-users-to-items)
-* [Het bekijken van de Lijst van de Abonnee in een Rapport of een Mening](#viewing-the-subscriber-list-in-a-report-or-view)
+* [ Optie van de Planner van het Middel om de Mening ](#resource-planner-option-to-change-the-view) te veranderen
+* [ Inhoud van de Filter binnen een Rapport van het Gebruik over een Project ](#filter-content-within-a-utilization-report-on-a-project)
+* [ de Informatie van de Kosten van de Mening in het Rapport van het Gebruik over een Project ](#view-cost-information-in-the-utilization-report-on-a-project)
+* [ het Abonneren en het Abonneren Gebruikers aan Punten ](#subscribing-and-unsubscribing-users-to-items)
+* [ het Bekijken van de Lijst van de Abonnee in een Rapport of een Mening ](#viewing-the-subscriber-list-in-a-report-or-view)
 * [Nieuwe weergave voor e-mails over communicatie](#new-look-for-communication-emails)
 
 ## Optie voor bronnenplanner om de weergave te wijzigen {#resource-planner-option-to-change-the-view}
@@ -45,7 +45,7 @@ U kunt middeltoewijzing en beschikbaarheid door baanrol in de Planner van het Mi
 
 Voorafgaand aan deze verandering, kon u de informatie in de Planner van het Middel slechts door project eerst, dan door baanrol, en toen gebruikers bekijken.
 
-Voor meer informatie over planningsmiddelen in de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over planningsmiddelen in de Planner van het Middel, zie [ overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Dashboardgegevens in rapportlijsten
 
@@ -55,13 +55,13 @@ Voor meer informatie over planningsmiddelen in de Planner van het Middel, zie [O
 
 Het veld &quot;Dashboards&quot; is nu beschikbaar in rapporten en lijsten voor het rapportobject. Dit gebied is beschikbaar in de mening en de filter van rapporten en lijsten voor het rapportvoorwerp. Wanneer toegevoegd aan een mening, toont het een lijst van dashboards waarop het rapport wordt toegevoegd.
 
-Voorafgaand aan deze wijziging kon u niet zien of een rapport op een dashboard wordt vermeld. Voor meer informatie over het beheren van rapporten, zie [Rapporten openen en ordenen](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md) in [Rapporten openen en ordenen](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md).
+Voorafgaand aan deze wijziging kon u niet zien of een rapport op een dashboard wordt vermeld. Voor meer informatie over het beheren van rapporten, zie [ Toegang en organiseer rapporten ](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md) in [ Toegang en organiseer rapporten ](../../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md).
 
 ## Inhoud filteren in een gebruiksrapport van een project {#filter-content-within-a-utilization-report-on-a-project}
 
 Nu kunt u de inhoud filtreren die in een Rapport van het Gebruik op een project wordt getoond.
 
-Zie voor meer informatie [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Kosteninformatie weergeven in het gebruiksrapport van een project {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +69,7 @@ Nu kunt u kosteninformatie binnen het gebruiksrapport, naast uurinformatie tonen
 
 Vóór deze verandering, was slechts uurinformatie beschikbaar in het gebruiksrapport.
 
-Zie voor meer informatie [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Gebruikers abonneren en hun abonnement op objecten opzeggen {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,23 +79,23 @@ Wanneer u een gebruiker op een punt intekent of afmeldt, wordt een verslag autom
 
 Zodra de gebruiker zich heeft geabonneerd, ontvangt de gebruiker een melding in de app wanneer een opmerking wordt gemaakt om de stream van het geabonneerde object bij te werken. Bovendien kan de abonnee ervoor kiezen e-mail en mobiele berichten te ontvangen.
 
-Zie voor meer informatie over het abonneren en het opzeggen van gebruikers op objecten: [Abonneren op objecten in Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) in   [Abonneren op objecten in Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Om meer over het intekenen en het opzeggen van gebruikers aan voorwerpen te leren zien, [ aan punten in Adobe Workfront ](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) intekenen   [ Abonneren aan punten in Adobe Workfront ](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## Het bekijken van de Lijst van de Abonnee in een Rapport of een Mening {#viewing-the-subscriber-list-in-a-report-or-view}
 
-U kunt snel bekijken wie aan een project, een taak, of een kwestie door het gebied van de Abonnee aan een Rapport of een Mening toe te voegen wordt ingetekend. Voor meer informatie over het toevoegen van een veld aan een rapport of weergave raadpleegt u [Woordenlijst met Adobe Workfront-terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+U kunt snel bekijken wie aan een project, een taak, of een kwestie door het gebied van de Abonnee aan een Rapport of een Mening toe te voegen wordt ingetekend. Meer leren over het toevoegen van een gebied aan een rapport of een mening, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Nieuwe weergave voor e-mails over communicatie {#new-look-for-communication-emails}
 
 De weergave van e-mails over communicatie is bijgewerkt, waardoor u veel meer context krijgt voor de communicatie over een object. U kunt nu snel een commentaardraad en mening volgen wie in de mededelingen inbegrepen is.
 
-Zie voor meer informatie [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md) in  [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie zie, [ de berichten van Adobe Workfront ](../../../../workfront-basics/using-notifications/wf-notifications.md) binnen  [ de berichten van Adobe Workfront ](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Toegang tot werkstromen beperken door activering van werkgebied (Workfront Proof) {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 
 >[!NOTE]
 >
->Deze optie is alleen beschikbaar als u de stand-alone Workfront Proof-toepassing gebruikt. Deze optie is niet beschikbaar als u een Workfront Proof-instantie gebruikt die is geïntegreerd met Workfront.
+>Deze optie is alleen beschikbaar bij gebruik van de zelfstandige Workfront Proof-toepassing; deze optie is niet beschikbaar bij gebruik van een Workfront Proof-instantie die is geïntegreerd met Workfront.
 
 In Workfront Proof kunt u nu configureren wanneer proefdrukken met een geautomatiseerde workflow zichtbaar zijn voor gebruikers die zijn gekoppeld aan een bepaald werkgebied.
 

@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -50,29 +50,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een matrixrapport instellen
 
 1. Creeer een traditioneel rapport dat numerieke gegevens in de rapportoutput bevat.\
-   Voor informatie over hoe te om een rapport tot stand te brengen, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Voor informatie over hoe te om een rapport tot stand te brengen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-1. Ga naar het rapport dat u in Stap 1 creeerde, klik **Handelingen rapporteren** selecteert u vervolgens **Bewerken**.
+1. Ga naar het rapport dat u in Stap 1 creeerde, klik **Acties van het Rapport**, dan uitgezocht **geef** uit.
 
-1. (Voorwaardelijk) Als u reeds een Mening creeerde en u het op dit rapport wilt toepassen, klik **Een bestaande weergave toepassen** Selecteer vervolgens de optie Weergave in de vervolgkeuzelijst.
+1. (Voorwaardelijk) als u reeds een Mening creeerde en u het op dit rapport wilt toepassen, klik **een Bestaande Mening** toepassen, dan de Mening van de drop-down lijst selecteren.
 1. (Voorwaardelijk) Als u een nieuwe Mening voor het rapport wilt tot stand brengen, voltooi de volgende stappen:
 
-   1. Klik op de knop **Kolommen (weergave)** selecteert u vervolgens een kolom die u wilt samenvatten in het matrixrapport.
-   1. In de **Kolominstellingen** gebied, klikt u op **Deze kolom samenvatten met** selecteert u een van de beschikbare opties voor het samenvatten van de gegevens.
+   1. Klik de **Kolommen (Mening)** tabel, dan selecteer een kolom die u in het matrixrapport wilt worden samengevat.
+   1. In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** drop-down lijst samen, dan selecteer één van de beschikbare opties om de informatie samen te vatten.
 
       >[!IMPORTANT]
       >
@@ -80,52 +80,55 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
       ![](assets/qs-report-matrix-summarized-350x392.png)
 
-   1. Herhaal dit proces voor elke kolom op het tabblad Kolommen (Weergave) en klik vervolgens op **Gereed**.
+   1. Herhaal dit proces voor elke kolom in het lusje van Kolommen (Mening), dan klik **Gedaan**.
 
-1. Klik op de knop **Groepen** tab.
-1. (Voorwaardelijk) Als u reeds een Groepering creeerde en u wilt het op dit rapport toepassen, klik **Een bestaande groepering toepassen** Selecteer vervolgens Groeperen in de vervolgkeuzelijst.
+1. Klik de **Groepen** tabel.
+1. (Voorwaardelijk) als u reeds een Groepering creeerde en u het op dit rapport wilt toepassen, **toepassen een Bestaande Groepering**, dan selecteren de Groepering van de drop-down lijst.
 1. (Voorwaardelijk) als u een nieuwe matrixgroepering voor het rapport wilt tot stand brengen, voltooi de volgende stappen:
 
-   1. Selecteren **Overschakelen naar matrixgroepering** in de rechterbovenhoek van de builderinterface.
-   1. In de **Rijgroepen** in de sectie, identificeert u de rijgroepering, waarmee de horizontale groepen van de tabel worden ingesteld.
-   1. (Optioneel) Als u een extra rijgroepering wilt toevoegen, klikt u op **Secundaire rijgroepering toevoegen**.
-   1. In de **Kolomgroepen** de kolomgroepering aan, die de verticale groepen van de tabel bepaalt.
-   1. (Optioneel) Als u een extra kolomgroepering wilt toevoegen, klikt u op **Secundaire kolomgroepering toevoegen**.
+   1. Selecteer **Schakelaar aan de Groepering van de Matrijs** in de hoger-juiste hoek van de bouwerinterface.
+   1. In de **sectie van de Groepen van de Rij**, identificeer de rij groepering, die de horizontale groeperingen van de lijst vestigt.
+   1. (Facultatief) om extra rij toe te voegen groeperen, **voeg secundaire Groepering van de Rij** toe.
+   1. In de **sectie van de Groepen van de Kolom**, identificeer de kolomgroepering, die de verticale groeperingen van de lijst vestigt.
+   1. (Facultatief) om een extra kolom toe te voegen groeperen, **voeg secundaire Kolomgroepering** toe.
    1. (Voorwaardelijk) Als u een groepering door datum toevoegt, specificeer ook of de resultaten door dag, week, maand, kwartaal of jaar worden gegroepeerd.\
       ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
-   1. (Voorwaardelijk) Als u hebt geselecteerd om op datum te groeperen en resultaten per kwartaal weer te geven, geeft u bijvoorbeeld op of u kwarten zonder gegevens wilt weergeven door de optie **Rijen zonder resultaten tonen** selectievakje.\
+   1. (Voorwaardelijk) als u aan groep door datum selecteerde en resultaten door kwartaal te tonen, bijvoorbeeld, specificeer of u kwarten zonder gegevens wilt tonen door **te selecteren toont kwarten zonder resultaten** checkbox.\
       ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >
-      >De **Rijen zonder resultaten tonen** Het veld is alleen beschikbaar voor matrixgroepen en niet voor standaardgroepen.\
+      >**toon kwarten zonder resultaten** gebied is slechts beschikbaar voor matrixgroeperingen, en niet voor standaardgroeperingen.\
       >Alleen de kwartalen zonder gegevens tussen twee kwartalen met geldige gegevens geven nul weer voor de gegevenswaarden op het matrixtabblad. De kwartalen die geen gegevens hebben die aan het begin en het eind van het tijdkader worden gevestigd door uw filter wordt geselecteerd verschijnen bij allen niet in de matrixgroepering die. De kwartalen zonder resultaten zullen niet in een groepering op het lusje van Details van het rapport tonen.
 
-1. (Optioneel en voorwaardelijk) Klik op **Matrixinstellingen** Selecteer vervolgens een van de volgende opties:\
-   **Aantal records tonen:** Selecteer deze optie om een rij weer te geven met het totale aantal items voor het opgegeven veld.\
-   **Waarde kolom tonen:** Selecteer deze optie om de volgende informatie in de matrix weer te geven:
+1. (Facultatief en voorwaardelijk) klik {de Montages van de Matrijs 0} **, dan selecteer van de volgende opties:**\
+   **toon de Tellingen van het Verslag:** selecteer deze optie om een rij met het totale aantal ingangen voor het bepaalde gebied te tonen.\
+   **toon de Kolom van de Waarde:** selecteer deze optie om de volgende informatie in de matrijs te tonen:
 
    * Aantal records
    * De kolom Waarde
 
-      >[!NOTE]
-      >
-      >Deze kolom bevat informatie die beschrijft wat de gegevens in elke rij vertegenwoordigen.\
-      >De volgende uitzonderingen gelden voor bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
-      >
-      >   
-      >   
-      >   * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
-      >   * Werkelijke uren tellen de waarden voor de hoofdouder en de standalone taken samen; zij tellen niet de aantallen voor de ouders van oudertaken of de kindtaken samen.
-      >   * Aangepaste gegevensvelden voor getal- en valutawaarden voegen alle taken samen: ouders, kinderen, ouders van ouders en zelfstandige taken. Als u het matrixrapport hebt gemaakt om de geplande uren of de werkelijke uren in het dialoogvenster weer te geven **Waarde** kolom, moet u er rekening mee houden dat uren- of kosteninformatie voor bovenliggende objecten (zoals bovenliggende taken) niet wordt weergegeven in het matrixrapport. Als u uren op bovenliggende objecten wilt weergeven, moet u de opdracht **Details** tab.
+     >[!NOTE]
+     >
+     >Deze kolom bevat informatie die beschrijft wat de gegevens in elke rij vertegenwoordigen.\
+     >De volgende uitzonderingen zijn van toepassing op bovenliggende objecten (bijvoorbeeld bovenliggende taken) wanneer u waarden samenvoegt voor de volgende velden in groepen:
+     >
+     >   
+     >   
+     >   * Alle getallen en valutavelden behalve Werkelijke uren (bijvoorbeeld Geplande/Werkelijke loonkosten, Geplande/Werkelijke kosten, Geplande/Werkelijke kosten, Geplande/Geplande uren) tellen alleen de waarden voor de kindertaken en standalone taken samen. De waarden voor de bovenliggende taken of ouders van ouders worden niet samengevoegd.
+     >   * Werkelijke uren tellen de waarden voor de hoofdbovenliggende en zelfstandige taken samen; ze tellen de getallen voor de bovenliggende taken of de onderliggende taken niet samen.
+     >   * Aangepaste gegevensvelden voor getal- en valutawaarden bevatten alle taken: ouders, kinderen, ouders van ouders en zelfstandige taken. Als u het matrixrapport aan vertoning Geplande Uren of Werkelijke Uren in de **kolom van de Waarde** creeerde, ben zich ervan bewust dat uren of kosteninformatie voor om het even welke oudervoorwerpen (zoals oudertaken) niet in het matrixrapport worden getoond. Om uren op oudervoorwerpen te bekijken, moet u de **Details** tabel bekijken.
+     >   
+     >   
+     >
 
-   **Voorwaardelijke regels:** Stel eventuele opmaakregels in voor waarden die worden samengevoegd.\
-   Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klikken **Regel toevoegen** nadat u klaar bent met het definiëren van de regel, **Gereed** om de regel op te slaan.
+   **Voorwaardelijke Regels:** opstelling om het even welke het formatteren regels voor waarden die worden bijeengevoegd.\
+   Nadat u een regel hebt toegevoegd, kunt u veld- en tekststijlen definiëren voor de weergave van velden die overeenkomen met die regel. Klik **toevoegen Regel** nadat u het bepalen van de regel gebeëindigd hebt, toen **Gedaan** om de regel te bewaren.
 
-1. Klik op de knop **Filters** om te bepalen welke informatie in het rapport zal tonen.
-1. (Voorwaardelijk) Als u reeds een Filter creeerde en u wilt het op dit rapport toepassen, klik **Een bestaand filter toepassen** Selecteer vervolgens het filter in de vervolgkeuzelijst.
-1. (Voorwaardelijk) als u een nieuwe Filter voor dit rapport wilt tot stand brengen, zie [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+1. Klik het **lusje van Filters** om te bepalen welke informatie in het rapport zal tonen.
+1. (Voorwaardelijk) als u reeds een Filter creeerde en u het op dit rapport wilt toepassen, klik **een Bestaand Filter** toepassen, dan selecteer de Filter van de drop-down lijst.
+1. (Voorwaardelijk) Als u een nieuwe Filter voor dit rapport wilt tot stand brengen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -136,4 +139,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    voor informatie over de verschillende aanduidingen die u kunt gebruiken bij het maken van filters.
 
-1. Klikken **Opslaan en sluiten** om het matrixrapport op te slaan en te bekijken.
+1. Klik **sparen+Sluiten** om het matrixrapport te bewaren en te bekijken.

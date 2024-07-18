@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In Adobe Workfront kunt u op meerdere manieren voorgangersrelaties maken. Eén methode is het koppelen van taken.
 
-Voor informatie over voorgangerstaken raadpleegt u [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor informatie over voorgangerstaken, zie [ Overzicht van taakvoorgangers ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Door taken in een keten op te nemen, kunt u het systeem toestaan om automatisch de voorgangersrelaties te maken voor geselecteerde taken, in plaats van handmatig zelf een relatie te maken voor elke taak. De verschillende types van voorgangersverhouding kunnen nog tussen taken worden gebruikt.
 
@@ -39,22 +39,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De taken van de ketting om voorgangersverhoudingen tot stand te brengen
 
 1. Ga naar het project dat de taken bevat die u wilt ketenen.
-1. Klikken **Taken** in het linkerdeelvenster.
-1. (Voorwaardelijk) Selecteren **Automatisch opslaan** in de rechterbovenhoek van de takenlijst selecteert u vervolgens de taken die u wilt koppelen.
+1. Klik **Taken** in het linkerpaneel.
+1. (Voorwaardelijk) Uitgezochte **Autosave** in de hoger-juiste hoek van de taaklijst, dan selecteer de taken die u wilt ketenen.
 
    ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
@@ -62,17 +62,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Het is niet mogelijk taken in een takenlijst te voorzien wanneer u handmatig wijzigingen in taken opslaat of de planningsmodus van de tijdlijn gebruikt om taken op te slaan.
 
-1. Klik met de rechtermuisknop op de geselecteerde taken en klik vervolgens op **Keten**.
+1. Klik de geselecteerde taken met de rechtermuisknop aan, dan klik **Keten**.
 1. Selecteer een van de volgende afhankelijkheidstypen:
 
-   * **Voltooien**
-   * **Voltooien**
-   * **Start**
-   * **Begin-afwerking**
+   * **beëindigen-Begin**
+   * **beëindigen-Afwerking**
+   * **begin-Begin**
+   * **begin-Afwerking**
 
-   Voor meer informatie over de types van predecessor gebiedsdeel, zie [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor meer informatie over de types van voorgangsafhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. (Optioneel) Klik op **Ongedaan maken** als sommige van de taken eerder in een keten zijn opgenomen.
+1. (Facultatief) klik **Unchain** als sommige taken eerder zijn geketend.
 
    >[!CAUTION]
    >

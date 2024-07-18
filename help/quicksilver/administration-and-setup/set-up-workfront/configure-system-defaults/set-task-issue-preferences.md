@@ -22,9 +22,9 @@ ht-degree: 0%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-Als [!DNL Adobe Workfront] beheerder, kunt u systeembrede voorkeur voor taken en kwesties vormen. Deze voorkeuren zijn van invloed op de manier waarop uw gebruikers taken en problemen maken in [!DNL Workfront].
+Als [!DNL Adobe Workfront] beheerder kunt u systeembrede voorkeuren configureren voor taken en problemen. Deze voorkeuren zijn van invloed op de manier waarop uw gebruikers taken en problemen maken in [!DNL Workfront] .
 
-Standaard zijn taak- en probleemvoorkeuren vergrendeld en kunnen groepsbeheerders deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Zie de sectie voor meer informatie [Taak- en uitgavevoorkeuren voor groepen vergrendelen](#lock-task-and-issue-preferences-for-groups) in dit artikel.
+Standaard zijn taak- en probleemvoorkeuren vergrendeld en kunnen groepsbeheerders deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie de sectie [ taak van het Slot en geef voorkeur voor groepen ](#lock-task-and-issue-preferences-for-groups) in dit artikel uit.
 
 
 ## Toegangsvereisten
@@ -49,22 +49,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Configureer taak- en probleemvoorkeuren voor iedereen in de [!DNL Workfront]
+## Taak- en probleemvoorkeuren configureren voor iedereen in [!DNL Workfront]
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Project Preferences]** >**[!UICONTROL Tasks & Issues].**
+1. In het linkerpaneel, klik **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues].**
 
-1. Ga op de pagina die wordt weergegeven verder met een van de vijf onderstaande secties om instellingen te configureren voor [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates], en [!UICONTROL Access]:
+1. Ga op de pagina die wordt weergegeven verder met een van de vijf onderstaande secties om instellingen voor [!UICONTROL New Task Defaults] , [!UICONTROL Issues] , [!UICONTROL Deletion] , [!UICONTROL Actual Dates] en [!UICONTROL Access] te configureren:
 
    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
    * [[!UICONTROL Issues]](#issues)
@@ -73,8 +73,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    * [[!UICONTROL Delegation]](#delegation)
 
    <!--
-<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">eraan werken</a> </li>
-  -->
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref"> werk op het </a> </li>
+  —&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -90,15 +90,15 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     </tr> 
     <tr> 
     <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-    <td> <p>Bepaalt het verband tussen het aantal middelen (en hun toewijzingspercentage) en de duur of de totale inspanning voor de taak. Zie voor meer informatie <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">De Duur van de taak en de Types van Duur</a></p> </td> 
+    <td> <p>Bepaalt het verband tussen het aantal middelen (en hun toewijzingspercentage) en de duur of de totale inspanning voor de taak. Voor meer informatie, zie {de Duur van de Taak 0} en de Types van Duur </a><a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref"></p> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>Berekent de geplande en werkelijke inkomstenramingen voor een taak. Wanneer de <strong>[!UICONTROL Revenue Type]</strong> is ingesteld op <strong>[!UICONTROL Not Billable]</strong>de geplande uren en de werkelijk geregistreerde uren geen inkomstenraming voor de taak opleveren, en de werkzaamheden aan de taak dragen niet bij tot de ontvangsten op projectniveau.</p> </td> 
+    <td> <p>Berekent de geplande en werkelijke inkomstenramingen voor een taak. Wanneer <strong>[!UICONTROL Revenue Type]</strong> wordt geplaatst aan <strong>[!UICONTROL Not Billable]</strong>, produceren de geplande uren en de daadwerkelijke geregistreerde uren geen opbrengstraming voor de taak, en het werk aan de taak draagt niet aan project-vlakke opbrengst bij.</p> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
-    <td> <p>Berekent geplande en daadwerkelijke kostenramingen voor een taak. Wanneer ingesteld op <strong>[!UICONTROL No Cost]</strong>de geplande uren en de werkelijk geregistreerde uren geen geplande of werkelijke kostenraming voor de taak opleveren en de werkzaamheden voor de taak dragen niet bij tot de kosten op projectniveau.</p> </td> 
+    <td> <p>Berekent geplande en daadwerkelijke kostenramingen voor een taak. Wanneer deze waarde op <strong>[!UICONTROL No Cost]</strong> is ingesteld, genereren de geplande uren en de werkelijk geregistreerde uren geen geplande of feitelijke kostenraming voor de taak en dragen de werkzaamheden aan de taak niet bij aan de kosten op projectniveau.</p> </td> 
     </tr> 
   </tbody> 
 </table>
@@ -111,20 +111,20 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL Automatically update Resolvable Issue status when the status of the Resolving Object changes]</td> 
-    <td> <p>Wanneer iemand een kwestie in een project of een taak omzet, zowel worden de originele kwestie als het omgezette project of de taak het oplossen van voorwerpen. Met deze instelling kunt u de resolutie van het oorspronkelijke probleem correleren met de resolutie van het oplosbare object. Zie voor meer informatie over het omzetten van objecten <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overzicht van Oplossende en Oplosbare objecten </a>.</p> <p>Deze instelling heeft alleen effect als u <strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong> moet worden geselecteerd.</p> 
+    <td> <p>Wanneer iemand een kwestie in een project of een taak omzet, zowel worden de originele kwestie als het omgezette project of de taak het oplossen van voorwerpen. Met deze instelling kunt u de resolutie van het oorspronkelijke probleem correleren met de resolutie van het oplosbare object. Voor meer informatie over het oplossen van voorwerpen, zie <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.</p> <p>Deze instelling heeft alleen effect als de optie <strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong> is geselecteerd.</p> 
       <ul> 
       <li>Wanneer deze instelling is ingeschakeld, kunt u aangepaste statussen maken met dezelfde sleutel voor zowel uitgaven als projecten of taken. Wanneer het project of de taak (als oplosbaar voorwerp) in de douanestatus verandert, weerspiegelt de verandering ook de status van de kwestie. De statussleutel moet gelijk zijn voor de uitgave en project- of taakstatus.</li> 
-      <li>Als deze instelling is uitgeschakeld, wordt de status van het oplossen van objecten automatisch ingesteld op de standaardstatus in plaats van op de status Aangepast. Zie voor meer informatie over de standaardstatussen <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Toegang krijgen tot de lijst met systeemuitgiftestatussen</a>.</li> 
+      <li>Als deze instelling is uitgeschakeld, wordt de status van het oplossen van objecten automatisch ingesteld op de standaardstatus in plaats van op de status Aangepast. Voor meer informatie over de standaardstatussen, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref"> Toegang tot de lijst van de statussen van de systeemkwestie </a>.</li> 
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Bij het converteren van een uitgave naar een taak]</td> 
+    <td role="rowheader" [!UICONTROL>Bij het converteren van een uitgave naar een taak]</td> 
     <td> <p>Met de instellingen in dit gedeelte wordt bepaald wat er gebeurt tijdens het conversieproces van uitgave tot taak:</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: Wanneer u de uitgave converteert, blijft deze zichtbaar als een uitgave totdat de taak is voltooid. De status van de uitgave verandert automatisch in [!UICONTROL Closed] als de taak is voltooid. Als deze optie is uitgeschakeld, wordt de uitgave verwijderd.</p> <p><b>OPMERKING</b>:  <p>Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:</p> 
+      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: Wanneer u de uitgave converteert, blijft deze zichtbaar als een uitgave totdat de taak is voltooid. De status van de uitgave verandert automatisch in [!UICONTROL Closed] wanneer de taak is voltooid. Als deze optie is uitgeschakeld, wordt de uitgave verwijderd.</p> <p><b> NOTA </b>:  <p>Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:</p> 
         <ul> 
-          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a> </p> </li> 
-          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a> </p> </li> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> de toegang van de Verlening tot kwesties </a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> Een uitgave delen </a> </p> </li> 
         </ul> </p> </li> 
       <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Geeft de primaire contactpersoon (maker van de uitgave) toegang tot de taak om de taak te beoordelen, op de hoogte te blijven van de voortgang van de taak en opmerkingen te maken over de sectie Updates van de taak.</li> 
       <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Hiermee kan de gebruiker die de uitgave converteert, deze opties wijzigen tijdens de conversie van een uitgave naar een taak.</p></li> 
@@ -134,10 +134,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     <td role="rowheader">[!UICONTROL When converting an issue to a project]</td> 
     <td> <p>Met de instellingen in deze sectie wordt bepaald wat er gebeurt tijdens het conversieproces van uitgave naar project:</p> 
       <ul> 
-      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>: Wanneer u de uitgave omzet, blijft het zichtbaar als een kwestie tot het project volledig is. De status van de uitgave verandert automatisch in [!UICONTROL Closed] wanneer het project is voltooid. Als deze optie is uitgeschakeld, wordt de uitgave verwijderd. </p> <p><b>OPMERKING</b>:  <p>Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:</p> 
+      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>: Wanneer u de uitgave omzet, blijft het zichtbaar als een kwestie tot het project volledig is. De status van de uitgave verandert automatisch in [!UICONTROL Closed] wanneer het project is voltooid. Als deze optie is uitgeschakeld, wordt de uitgave verwijderd. </p> <p><b> NOTA </b>:  <p>Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:</p> 
         <ul> 
-          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a> </p> </li> 
-          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a> </p> </li> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> de toegang van de Verlening tot kwesties </a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> Een uitgave delen </a> </p> </li> 
         </ul> </p> </li> 
       <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Geeft de primaire contactpersoon (maker van de uitgave) toegang tot het project om het project te beoordelen, op de hoogte te blijven van de voortgang van het project en opmerkingen te maken over de sectie Updates van het project.</li> 
       <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Hiermee kan de gebruiker die de uitgave converteert, de weergegeven opties wijzigen tijdens de conversie van een uitgave naar een project.</li> 
@@ -148,17 +148,17 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ### [!UICONTROL Deletion] {#deletion}
 
-**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Laat u bepalen of u het schrappen van taken of kwesties toestaat waar de uren worden geregistreerd. Deze optie is standaard ingeschakeld.
+**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Hiermee kunt u bepalen of u het verwijderen van taken of problemen toestaat waarbij uren worden geregistreerd. Deze optie is standaard ingeschakeld.
 
 >[!TIP]
 >
 >Deze instelling is ook van toepassing op het verwijderen van projecten die taken of problemen hebben met het aantal uren dat is aangemeld. Deze instelling is niet van toepassing op het verwijderen van projecten waarbij de tijd rechtstreeks voor het project wordt vastgelegd.
 
-* Als deze optie is geselecteerd, ontvangt u een informatieve waarschuwing wanneer u een taak of uitgave verwijdert. De waarschuwing herinnert u eraan dat als de taak of de kwestie uren het programma heeft geopend, zij of naar het project zullen worden verplaatst of worden geschrapt. U kunt vormen of de uren worden geschrapt of naar het project in [!UICONTROL Timesheet & Hours Preferences] gebied van de [!UICONTROL Setup]. Nadat u hebt bevestigd dat u de waarschuwing hebt gezien, wordt de taak of het probleem verwijderd. Voor meer informatie over het vormen van de Voorkeur van Timesheet &amp; van Uren zie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Als deze optie is geselecteerd, ontvangt u een informatieve waarschuwing wanneer u een taak of uitgave verwijdert. De waarschuwing herinnert u eraan dat als de taak of de kwestie uren het programma heeft geopend, zij of naar het project zullen worden verplaatst of worden geschrapt. U kunt configureren of de uren worden verwijderd of naar het project worden verplaatst in het [!UICONTROL Timesheet & Hours Preferences] -gebied van [!UICONTROL Setup] . Nadat u hebt bevestigd dat u de waarschuwing hebt gezien, wordt de taak of het probleem verwijderd. Voor meer informatie over het vormen van de Voorkeur van Timesheet &amp; van Uren, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
   >[!TIP]
   >
-  >Wanneer u een project met taken en kwesties schrapt die uren het programma geopend hebben, worden de geregistreerde uren of geschrapt of zij worden bewaard volgens de montages in [!UICONTROL Timesheet & Hours Preferences] gebied van [!UICONTROL Setup]. Het waarschuwingsbericht wordt niet weergegeven wanneer u een project verwijdert.
+  >Wanneer u een project verwijdert met taken en problemen die het programma &#39;uren&#39; hebben geopend, worden de geregistreerde uren verwijderd of behouden volgens de instellingen in het [!UICONTROL Timesheet & Hours Preferences] -gebied van [!UICONTROL Setup] . Het waarschuwingsbericht wordt niet weergegeven wanneer u een project verwijdert.
 
 * Wanneer u deze optie deselecteert, ontvangt u een prohibitieve waarschuwing wanneer u een taak of een kwestie met geregistreerde uren schrapt, of wanneer u een project met uren schrapt die voor zijn taken of kwesties worden geregistreerd. De waarschuwing geeft aan dat de beheerder het niet toestaat dat taken of problemen met geregistreerde uren worden verwijderd. De taken, de kwesties, of de projecten die uren hebben voor taken en kwesties worden geregistreerd kunnen niet worden geschrapt.
 
@@ -170,7 +170,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL When a task or issue goes from "New" to "In Progress," set the Actual Start Date to]</td> 
-    <td> <p>Selecteer een van de volgende opties als de werkelijke begindatum wordt vastgelegd in [!DNL Workfront] wanneer een taak of probleem begint <strong>[!UICONTROL New]</strong> tot <strong>[!UICONTROL In Progress]</strong>:</p> 
+    <td> <p>Selecteer een van de volgende opties wanneer de werkelijke begindatum wordt opgenomen in [!DNL Workfront] wanneer een taak of uitgave van <strong>[!UICONTROL New]</strong> naar <strong>[!UICONTROL In Progress]</strong> gaat:</p> 
       <ul> 
       <li><strong>[!UICONTROL Now]:</strong> De werkelijke begindatum wordt ingesteld op de huidige datum.</li> 
       <li><strong>[!UICONTROL The Planned Start Date]:</strong> De werkelijke begindatum wordt ingesteld op de geplande begindatum van de taak of uitgave.</li> 
@@ -178,10 +178,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL When a task or issue is completed, set the Actual Completion Date to]</td> 
-    <td> <p>Selecteer een van de volgende opties voor wanneer de datum van werkelijke voltooiing wordt vastgelegd in [!DNL Workfront] wanneer een taak of kwestie is voltooid:</p> 
+    <td> <p>Selecteer een van de volgende opties als de werkelijke afwerkingsdatum wordt opgenomen in [!DNL Workfront] wanneer een taak of uitgave is voltooid:</p> 
       <ul> 
-      <li><strong>[!UICONTROL Now]:</strong> De datum van werkelijke voltooiing is ingesteld op de huidige datum.</li> 
-      <li> <p><strong>[!UICONTROL The Planned Completion Date]:</strong> De datum van daadwerkelijke voltooiing wordt geplaatst aan de Geplande VoltooiingsDatum van de taak of de kwestie.</p> </li> 
+      <li><strong>[!UICONTROL Now]:</strong> De datum van feitelijke voltooiing wordt geplaatst aan de huidige datum.</li> 
+      <li> <p><strong>[!UICONTROL The Planned Completion Date]: </strong> De datum van daadwerkelijke voltooiing wordt geplaatst aan de Geplande Datum van Voltooiing van de taak of de kwestie.</p> </li> 
       </ul> </td> 
     </tr> 
   </tbody> 
@@ -189,14 +189,14 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 ### Delegatie
 
-Het inschakelen van de **[!UICONTROL Allow users to delegate their tasks & issues]** met deze instelling kunnen alle gebruikers tijdelijk hun werk delegeren aan anderen.
+Als u de instelling **[!UICONTROL Allow users to delegate their tasks & issues]** inschakelt, kunnen alle gebruikers tijdelijk hun werk delegeren aan anderen.
 
 Wanneer deze instelling is ingeschakeld, kunnen gebruikers het volgende zien:
 
-* De [!UICONTROL Delegate] in hun [!UICONTROL Home] gebied. Zij kunnen goedkeuringen delegeren, of taak en taken van hier uitgeven.
-* Een indicatie dat een taak of kwestie aan een andere gebruiker in wordt gedelegeerd [!UICONTROL Assignments and delegations] in de taak- of uitgiftekop.
+* De koppeling [!UICONTROL Delegate] in het bijbehorende [!UICONTROL Home] -gebied. Zij kunnen goedkeuringen delegeren, of taak en taken van hier uitgeven.
+* Een indicatie dat een taak of kwestie aan een andere gebruiker in het [!UICONTROL Assignments and delegations] gebied in de taak of uitgiftekopbal wordt gedelegeerd.
 
-  Als u de optie [!UICONTROL Allow users to delegate their tasks & issues] de delegaties die momenteel op de agenda staan , zullen worden stopgezet en de gedelegeerde gebruikers zullen via e - mail op de hoogte worden gesteld van het feit dat de delegatie is gestopt .
+  Als u de instelling [!UICONTROL Allow users to delegate their tasks & issues] uitschakelt, worden de delegaties die momenteel zijn gepland, gestopt en ontvangen de gedelegeerde gebruikers een e-mail met de melding dat de delegatie is gestopt.
 
 Raadpleeg de volgende artikelen voor informatie over het delegeren van werk aan anderen:
 
@@ -240,23 +240,23 @@ I have not had a chance to follow up with customers to verify if this is still a
     <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Zie voor meer informatie over taakmachtigingen <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</li> 
-      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Bepaalt de standaardtoestemming een gebruiker aan het project heeft waarop zij een taak hebben die aan hen wordt toegewezen. Zie voor meer informatie over projectmachtigingen <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p> </li> 
+      <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Voor meer informatie over taaktoestemmingen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Toegang van de Verlening tot gebruikers </a>.</li> 
+      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Bepaalt de standaardtoestemming een gebruiker aan het project heeft waarop zij een taak hebben die aan hen wordt toegewezen. Voor meer informatie over projecttoestemmingen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Zie voor meer informatie over taakmachtigingen <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</li> 
-      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Bepaalt de standaardtoestemming een gebruiker aan het project heeft waarop zij een taak hebben die aan hen wordt toegewezen. Zie voor meer informatie over projectmachtigingen <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</p> </li> 
+      <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft voor de taak waaraan hij of zij is toegewezen. Voor meer informatie over taaktoestemmingen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Toegang van de Verlening tot gebruikers </a>.</li> 
+      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Bepaalt de standaardtoestemming een gebruiker aan het project heeft waarop zij een taak hebben die aan hen wordt toegewezen. Voor meer informatie over projecttoestemmingen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL When someone submits a request]</td> 
     <td> 
       <ul> 
-      <li><strong>[!UICONTROL Give them ... access to the issue]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft op een verzoek dat hij of zij heeft ingediend. Zie voor meer informatie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a>.</li> 
+      <li><strong>[!UICONTROL Give them ... access to the issue]</strong>: Definieert de standaardmachtigingen die een gebruiker heeft op een verzoek dat hij of zij heeft ingediend. Voor meer informatie, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a>.</li> 
       <li> <p><strong>[!UICONTROL People from the same company will inherit the same permissions for all requests]</strong>: Staat gebruikers toe verzoeken te zien die door andere gebruikers van het zelfde bedrijf worden voorgelegd zoals zij. Zij hebben de zelfde toestemmingen op die verzoeken zoals zij op hun hebben voorgelegd.</p> </li> 
       </ul> </td> 
     </tr> 
@@ -269,17 +269,17 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 Als de groepen in uw organisatie een taak of uitgiftevoorkeur nodig hebben die verschillend voor hun unieke werkschema&#39;s wordt gevormd, kunt u de voorkeur voor alle groepen door de organisatie ontgrendelen zodat zij het op hun kunnen vormen. Wanneer een voorkeur wordt ontgrendeld en de groepsbeheerder het wijzigt, worden de taken of kwesties verbonden aan de groep beïnvloed door groep-niveau die voor de voorkeur plaatst in plaats van systeem-niveau het plaatsen.
 
-Voor informatie over hoe een groepsbeheerder taak vormt en uit te geven voorkeur voor een groep, zie [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Voor informatie over hoe een groepsbeheerder taak vormt en uit:geven voorkeur voor een groep, zie [ taak en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) vormen.
 
 >[!NOTE]
 >
->Na een [!DNL Workfront] de beheerder ontgrendelt een voorkeur op systeemniveau, kan om het even welke groepsbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] de beheerder moet een voorkeur voor iedereen in het systeem vormen en sluiten. Zie voor meer informatie [Projectvoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [Een project, taak of uitgave van subgroepen vergrendelen of ontgrendelen](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [ Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md) vormen.
 
 Een taak of een uitgiftevoorkeur vergrendelen of ontgrendelen zodat groepen deze kunnen configureren:
 
 {{step-1-to-setup}}
 
-1. Klikken **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues]**.
+1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks & Issues]** .
 
 1. Voer een van de volgende handelingen uit:
 

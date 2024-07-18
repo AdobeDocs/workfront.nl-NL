@@ -1,8 +1,8 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Projecten optimaliseren in Portfolio Optimizer
-description: U kunt de [!UICONTROL Portfolio Optimizer] om aan uw projecten prioriteit te geven op basis van hun scores en andere waarden. Optimizer houdt rekening met belangrijke projectinformatie zoals de kosten, de groepering, het risico en het ROI om de projecten volgens wat voor u belangrijker is voorrang te geven.
+title: Projecten optimaliseren in Portfolio optimaliseren
+description: U kunt [!UICONTROL Portfolio Optimizer] gebruiken om aan uw projecten voorrang te geven die op hun scores en andere waarden worden gebaseerd. Optimizer houdt rekening met belangrijke projectinformatie zoals de kosten, de groepering, het risico en het ROI om de projecten volgens wat voor u belangrijker is voorrang te geven.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Projecten optimaliseren in het dialoogvenster [!UICONTROL Portfolio Optimizer]
+# Projecten optimaliseren in de [!UICONTROL Portfolio Optimizer]
 
-U kunt de [!UICONTROL Portfolio Optimizer] om aan uw projecten prioriteit te geven op basis van hun scores en andere waarden. De [!UICONTROL Optimizer] neemt belangrijke projectinformatie zoals de kosten, de groepering, het risico en het ROI in acht om de projecten volgens wat voor u belangrijker is voorrang te geven.
+U kunt [!UICONTROL Portfolio Optimizer] gebruiken om aan uw projecten voorrang te geven die op hun scores en andere waarden worden gebaseerd. [!UICONTROL Optimizer] houdt rekening met belangrijke projectinformatie zoals de kosten, de groepering, het risico en het ROI om de projecten volgens wat voor u belangrijker is voorrang te geven.
 
 ## Toegangsvereisten
 
@@ -35,47 +35,47 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en Portfolio's</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hoger machtigingen voor de projecten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hogere machtigingen voor de projecten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Projecten optimaliseren in Portfolio Optimizer
+## Projecten optimaliseren in Portfolio optimaliseren
 
 1. Open een Portfolio en klik vervolgens op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster.
 
-   De [!UICONTROL Portfolio Optimizer] worden weergegeven.
+   De [!UICONTROL Portfolio Optimizer] wordt weergegeven.
 
-1. Klik op de knop **[!UICONTROL Optimize]** pictogram.
+1. Klik op het pictogram **[!UICONTROL Optimize]** .
 
    ![](assets/optimize-icon-portfolio-optimizer.png)\
-   De categorieën waardoor een project kan worden genoteerd tonen links van [!UICONTROL Optimize] pictogram.
+   De categorieën waarmee een project kan worden gescoord, worden links van het pictogram [!UICONTROL Optimize] weergegeven.
 
 1. Wijzig met de schuifcirkel de optimalisatie van een van de volgende categorieën:
 
-   * **[!UICONTROL Low Cost]**: Sleep de schuifregelaar naar rechts om projecten met de laagste waarde weer te geven [!UICONTROL Planned Cost].
-   * **[!UICONTROL High Alignment]**: Verplaats de schuifregelaar naar rechts om projecten met de hoogste uitlijning weer te geven op basis van de [!UICONTROL Scorecard].
-   * **[!UICONTROL High Value]**: Sleep de schuifregelaar naar rechts om projecten met een hogere waarde weer te geven [!UICONTROL Net Value] score.
-   * **[!UICONTROL Low Risk to Benefit]**: Verplaats de schuifregelaar naar rechts om projecten met de laagste verhouding tussen risico&#39;s en voordelen weer te geven.
-   * **[!UICONTROL High ROI]**: Verplaats de schuif naar het recht om projecten met een hoger rendement van investering (ROI) te bekijken.
+   * **[!UICONTROL Low Cost]**: verplaats de schuifregelaar naar rechts om projecten met de laagste [!UICONTROL Planned Cost] weer te geven.
+   * **[!UICONTROL High Alignment]**: verplaats de schuifregelaar naar rechts om projecten met de hoogste uitlijning weer te geven op basis van de [!UICONTROL Scorecard] .
+   * **[!UICONTROL High Value]**: verplaats de schuifregelaar naar rechts om projecten met een hogere [!UICONTROL Net Value] score weer te geven.
+   * **[!UICONTROL Low Risk to Benefit]**: verplaats de schuifregelaar naar rechts om projecten met de laagste verhouding tussen risico&#39;s en voordelen weer te geven.
+   * **[!UICONTROL High ROI]**: verplaats de schuifregelaar naar rechts om projecten met een hoger rendement van investeringen weer te geven.
 
-1. Klik op de knop **x-pictogram** om de optimalisatiecategorieën te sluiten.
+1. Klik het **x pictogram** om de optimalisatiecategorieën te sluiten.
 
-   Hiermee werkt u de [!UICONTROL Score] waarden voor elk project in de **[!UICONTROL Score]** kolom.
+   Hiermee werkt u de [!UICONTROL Score] -waarden bij voor elk project in de kolom **[!UICONTROL Score]** .
 
-   Voor informatie over de [!UICONTROL Portfolio Optimizer] Score, zie [Overzicht van de [!UICONTROL Portfolio Optimizer] Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   Voor informatie over de [!UICONTROL Portfolio Optimizer] Score, zie [ Overzicht van de [!UICONTROL Portfolio Optimizer] Score ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
-1. Nadat de juiste gewichten zijn ingesteld voor de **[!UICONTROL Score]** Klik op de kop van de **[!UICONTROL Score]** op deze kolom te sorteren. Het project met de hoogste score wordt getoond bij de bovenkant van de lijst.
+1. Nadat de juiste gewichten voor de kolom **[!UICONTROL Score]** zijn ingesteld, klikt u op de kop van de kolom **[!UICONTROL Score]** om op deze kolom te sorteren. Het project met de hoogste score wordt getoond bij de bovenkant van de lijst.
 
 1. (Optioneel) Sleep projecten in de volgorde van de prioriteit.\
-   Hierdoor wordt de volgorde van de projecten in de [!UICONTROL Portfolio Optimizer].
-1. (Optioneel) Klik op **[!UICONTROL Set Priority]** de nieuwe prioriteit van de projecten te redden .\
-   Voor meer informatie over het prioriteren van projecten in de [!UICONTROL Portfolio Optimizer], zie het artikel [Prioriteit geven aan projecten in de [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+   Hierdoor verandert de volgorde van de projecten in de [!UICONTROL Portfolio Optimizer] .
+1. (Optioneel) Klik op **[!UICONTROL Set Priority]** om de nieuwe prioriteit van de projecten op te slaan.\
+   Voor meer informatie over het prioriteren van projecten in [!UICONTROL Portfolio Optimizer], zie het artikel [ projecten van Prioriteit in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Klikken **[!UICONTROL Save]** om uw [!UICONTROL Portfolio Optimizer].
+1. Klik op **[!UICONTROL Save]** om de [!UICONTROL Portfolio Optimizer] op te slaan.

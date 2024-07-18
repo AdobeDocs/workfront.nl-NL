@@ -10,7 +10,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 66847d81-75db-45b0-83b0-168a1cc5ebdd
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Om de waarde van de hulpmiddelen te verhogen u gebruikt om uw middelen voor stra
 
 * Naast het plannen van middelen door hun VTE beschikbaarheid of vereiste te schatten, kunt u uren ook nu gebruiken.
 * Naast het aanpassen van de maandelijkse vereisten voor de rol van de baan voor initiatieven, kunt u nu ook de beschikbaarheid van maandelijkse baanrollen voor plannen aanpassen.
-* U kunt de namen van de objecten Scenario Planner bijwerken met behulp van lay-outsjablonen. De objecten van de Planner van het Scenario zijn: initiatief, plan en scenario.
+* U kunt de namen van de objecten Scenario Planner bijwerken met behulp van lay-outsjablonen. De voorwerpen van de Planner van het Scenario zijn: initiatief, plan, en scenario.
 * U kunt de de portefeuilleprioritaire waarde van het project nu bekijken wanneer het invoeren van projecten in een plan.
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Abonnementen maken en bewerken in Scenario Planner](../../../scenario-planner/create-and-edit-plans.md)
-* [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
-* [Projecten importeren naar plannen in het scenario Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
+* [ creeer en geef plannen in de Planner van het scenario uit ](../../../scenario-planner/create-and-edit-plans.md)
+* [ pas gebruikersinterfaceterminologie aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+* [Projecten importeren naar plannen in de Scenario-planner](../../../scenario-planner/import-projects-to-plans.md)
 
 ## Verbinding tussen de Planner van het Scenario, de Balancer van de Werkbelasting, en taaklijst
 
@@ -46,8 +46,8 @@ Om u bij de strategische planning van uw projecten te helpen en ervoor te zorgen
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 * [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
-Zie voor meer informatie [Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor informatie, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 

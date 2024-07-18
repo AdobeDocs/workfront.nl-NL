@@ -28,37 +28,37 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-abonnement*</strong>
+   <td><strong> plan* van Adobe Workfront </strong>
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenties*</strong>
+   <td><strong> Adobe Workfront vergunningen* </strong>
    </td>
    <td>Aanvraag of hoger
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong> Product </strong>
    </td>
-   <td><p>U moet Experience Manager Assets hebben as a Cloud Service of Assets Essentials, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p><p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
+   <td><p>U moet Experience Manager Assets as a Cloud Service Assets Essentials hebben, en u moet aan het product als gebruiker in de Admin Console worden toegevoegd.</p><p>U moet schrijftoegang hebben tot de repository in Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraties op toegangsniveau*</strong>
+   <td><strong> het niveauconfiguraties van de Toegang* </strong>
    </td>
    <td>Toegang tot documenten bewerken
 <p>
-<strong>Opmerking: </strong>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong>Aangepaste toegangsniveaus maken of wijzigen</strong>.
+<strong> Nota: </strong> als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <strong> tot douanetoegangsniveaus </strong> leiden of wijzigen.
    </td>
   </tr>
   <tr>
-   <td><strong>Objectmachtigingen</strong>
+   <td><strong> de toestemmingen van Objecten </strong>
    </td>
    <td>Toegang of hoger beheren voor het project 
 <p>
-Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <strong>Toegang tot objecten aanvragen </strong>.
+Voor informatie bij het vragen van om extra toegang, zie <strong> de toegang van het Verzoek tot voorwerpen </strong>.
    </td>
   </tr>
 </table>
@@ -67,23 +67,23 @@ Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <strong>
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet workflows configureren in een Adobe Experience Manager-integratie. Zie voor meer informatie [De as a Cloud Service integratie met Experience Manager Assets configureren](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Uw Workfront-beheerder moet workflows configureren in een Adobe Experience Manager-integratie. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional) vormen.
 
 ## Een workflow toevoegen aan een sjabloon
 
 U kunt een werkschema aan een projectmalplaatje toevoegen. De workflow wordt toegepast op alle projecten die op basis van de sjabloon zijn gemaakt.
 
-1. Een sjabloon openen door te klikken **Sjablonen** in het Hoofdmenu selecteert u de sjabloon in de lijst.
-1. Klikken **Experience Manager Assets** in het linkernavigatievenster.
+1. Open een malplaatje door **Malplaatjes** in het Belangrijkste Menu te klikken, dan selecterend het malplaatje van de lijst.
+1. Klik **Experience Manager Assets** in het linkernavigatievenster.
 
    >[!NOTE]
    >
    >Als de sectie Experience Manager Assets niet wordt weergegeven in de linkernavigatie, heeft uw Workfront-beheerder geen workflows voor uw organisatie ingeschakeld. <!--Is this right?-->
 
-1. In de **Een integratie selecteren voor het veld Automatische workflows**, selecteer de integratie met de werkschema&#39;s u voor projecten wilt gebruiken die van dit malplaatje worden gecreeerd.
+1. In **selecteer een integratie voor geautomatiseerd werkstroomgebied**, selecteer de integratie met de werkschema&#39;s u voor projecten wilt gebruiken die van dit malplaatje worden gecreeerd.
 1. (Optioneel) Bewerk de workflowwaarden die u wilt toepassen op projecten die op basis van deze sjabloon zijn gemaakt.
 
-   Zie voor instructies over specifieke workflows [Werkstroomwaarden in een project bewerken](#edit-workflow-values-in-a-project) in dit artikel.
+   Voor instructies op specifieke werkschema&#39;s, zie [ werkschemawaarden in een project ](#edit-workflow-values-in-a-project) in dit artikel uitgeven.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -97,10 +97,10 @@ U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoe
 
 1. Beginnen met het maken van een project.
 
-   Zie voor instructies [Een project maken met een sjabloon](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   Voor instructies, zie [ een project creëren gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. Wanneer het selecteren van een malplaatje voor het project, selecteer het malplaatje dat de werkschema&#39;s bevat u voor dit project wilt gebruiken.
-1. (Optioneel) Bewerk eventuele workflowwaarden voor het project, zoals beschreven in [Werkstroomwaarden in een project bewerken](#edit-workflow-values-in-a-project).
+1. (Facultatief) geef om het even welke werkschemawaarden voor het project uit, zoals die in [ worden beschreven werkschemawaarden in een project ](#edit-workflow-values-in-a-project) uitgeven.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -113,10 +113,10 @@ U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoe
 
 1. Begin een malplaatje aan het project toe te voegen.
 
-   Zie voor instructies [Een sjabloon aan een project koppelen](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   Voor instructies, zie [ een malplaatje aan een project ](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 1. Wanneer het selecteren van een malplaatje voor het project, selecteer het malplaatje dat de werkschema&#39;s bevat u voor dit project wilt gebruiken.
-1. (Optioneel) Bewerk eventuele workflowwaarden voor het project, zoals beschreven in [Werkstroomwaarden in een project bewerken](#edit-workflow-values-in-a-project).
+1. (Facultatief) geef om het even welke werkschemawaarden voor het project uit, zoals die in [ worden beschreven werkschemawaarden in een project ](#edit-workflow-values-in-a-project) uitgeven.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -147,30 +147,30 @@ Alle werkstroomwaarden vindt u in:
 De workflow voor gekoppelde mappen bewerken:
 
 
-1. Schakelen tussen **[!UICONTROL Create Linked folder]** aan of uit naar wens. Als u dit inschakelt, kunt u de configuratie van de gekoppelde map bewerken.
+1. Schakel **[!UICONTROL Create Linked folder]** naar wens in of uit. Als u dit inschakelt, kunt u de configuratie van de gekoppelde map bewerken.
 
-   Zie voor meer informatie over de configuratie van de gekoppelde map [Gekoppelde Adobe Experience Manager-mappen maken](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in het artikel [Vorm [!UICONTROL Experience Manager Assets as a Cloud Service] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   Voor details op de verbonden omslagconfiguratie, zie [ Adobe Experience Manager verbonden omslagen ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in het artikel [ vormen de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-1. (Optioneel) Als u de mappenstructuur alleen wilt samenstellen als bepaalde waarden aanwezig zijn op een aangepast formulier dat is gekoppeld aan het project, klikt u op de knop **Filter toepassen** voor die mapstructuur selecteert u het aangepaste formulier dat het veld, het veld en de veldwaarde bevat. Als het veld op het aangepaste formulier dat is gekoppeld aan het nieuwe project de gekozen waarde bevat, wordt de mapstructuur gemaakt.
+1. (Facultatief) als u de omslagboom wilt worden gebouwd slechts als bepaalde waarden op een douaneformulier aanwezig zijn in bijlage aan het project, **filter** voor die omslagboom toepassen, dan de douaneformulier selecteren die het gebied, het gebied, en de gebiedswaarde bevat. Als het veld op het aangepaste formulier dat is gekoppeld aan het nieuwe project de gekozen waarde bevat, wordt de mapstructuur gemaakt.
 1. (Optioneel) Bij het configureren van mapnamen kunt u een van de volgende opties kiezen:
 
-   * **Naam**: Typ een naam voor de map.
+   * **Naam**: Type in een naam voor de omslag.
 
-   * **Objectgegevens**: Selecteer de bron voor de mapnaam, zoals de naam van het project.
+   * **gegevens van Objecten**: Selecteer de bron voor de omslagnaam, zoals de naam van het Project.
 
-   * **Aangepaste formuliergegevens**: Selecteer de aangepaste formuliergegevens die u als mapnaam wilt gebruiken.
+   * **de vormgegevens van de Douane**: Selecteer de gegevens van de douanevorm om als omslagnaam te gebruiken.
 
      Het gebruik van aangepaste formuliergegevens voor mapnamen is alleen beschikbaar op sjabloonniveau en kan niet worden geconfigureerd op integratieniveau.
 
      Als een omslagnaam aan douanegegevens wordt geplaatst die niet op de douane voor in bijlage aan het project bestaan, zal willekeurige identiteitskaart als omslagnaam worden toegewezen.
 
-1. Als u de mappenstructuur wilt weergeven, klikt u op de knop **Voorvertoning** ![Pictogram Voorvertoning](assets/preview-icon.png) pictogram
+1. Om de omslagboom te bekijken, klik het **![ pictogram van de Voorproef ](assets/preview-icon.png)**
 1. Klik op **[!UICONTROL Save]**.
 
 #### Elementen publiceren
 
 De workflow voor het publiceren van elementen bewerken:
 
-1. Schakelen **Elementen automatisch publiceren** aan of uit naar wens.
+1. Wissel {de activa van Publish van 0} automatisch **of weg zoals gewenst.**
 1. (Voorwaardelijk) Als u het publiceren toestaat, selecteer of u aan de publicatieservice, het merkportaal, of allebei wilt publiceren.
 1. Klik op **[!UICONTROL Save]**.

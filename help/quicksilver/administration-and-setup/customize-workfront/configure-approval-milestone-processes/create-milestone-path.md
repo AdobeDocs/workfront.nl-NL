@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ De som van alle vooraf gedefinieerde mijlpalen wordt een milestone-pad genoemd.
 
 De eerste stap bij het bouwen van een mijlpaden is het identificeren van de mijlpalen en het vaststellen van de mijlpalen. Omdat u een mijlpaden aan veelvoudige projecten kunt associëren, moeten de mijlpaalstappen algemene fasen of stadia van om het even welk project zijn.
 
-Voor meer informatie over hoe u een milestone-pad aan een project en een mijlpaal aan een taak kunt koppelen, raadpleegt u [Mijlpalen koppelen aan taken](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Voor meer informatie over hoe u een milestone weg met een project en een mijlpaal met een taak kunt associëren, zie [ Geassocieerde mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ## Een milestone-pad maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Processen** > **Mijlpaden**.
-1. Klikken **Nieuw milestone-pad.**
-1. Geef de volgende informatie op in het dialoogvenster **Basisinformatie** gebied:
+1. Klik **Processen** > **Mijlsteenwegen**.
+1. Klik **Nieuwe Weg van de Mijlpaal.**
+1. Specificeer de volgende informatie in het **BasisInfo** gebied:
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ Voor meer informatie over hoe u een milestone-pad aan een project en een mijlpaa
     </tr>
    </table>
 
-1. Geef de volgende informatie op in het dialoogvenster **Mijlpalen** gebied:
+1. Specificeer de volgende informatie in het **1} gebied van de Mijlpalen {:**
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ Voor meer informatie over hoe u een milestone-pad aan een project en een mijlpaa
     </tbody> 
    </table>
 
-1. Klikken **Mijlsteen toevoegen** en blijven zo nodig mijlpalen toevoegen totdat het pad is voltooid.
-1. Klikken **Mijlpad maken** om uw wijzigingen op te slaan.
+1. Klik **toevoegen Mijlsteen** en blijven mijlpalen toevoegen zoals nodig tot de weg wordt voltooid.
+1. Klik **creëren Weg van de Mijlpaal** om uw veranderingen te bewaren.
 
    Uw milestone-pad kan aan een project worden gekoppeld.
 
-   Voor meer informatie over hoe te om mijlpaden aan projecten en mijlpalen aan taken te associëren, zie [Mijlpalen koppelen aan taken](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   Voor meer informatie over hoe te om milestone wegen aan projecten en mijlpalen aan taken te associëren, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.

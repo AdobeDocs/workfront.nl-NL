@@ -36,21 +36,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Probleem
 
 Wanneer het runnen van een rapport, of het tonen van het in een dashboard, keert de volgende fout terug:\
-*Laten we dat opnieuw proberen. U bent momenteel niet aangemeld.*
+*proberen opnieuw dat. U wordt momenteel niet het programma geopend.*
 
 Er worden geen resultaten weergegeven in het rapport.
 
@@ -64,12 +64,12 @@ U moet beheerderstoestemmingen aan het rapport hebben om de rapportmontages te k
 U kunt als volgt het rapport aanpassen en de resultaten bekijken:
 
 1. Ga naar het rapport.
-1. Klikken **Handelingen rapporteren** > **Bewerken** > **Rapportinstellingen**.
+1. Klik **de Acties van het Rapport** > **uitgeven** > **Montages van het Rapport**.
 
-1. Geef de naam van een actieve gebruiker op in het dialoogvenster **Voer dit rapport uit met de toegangsrechten van:** veld.\
+1. Specificeer de naam van een actieve gebruiker in de **Looppas dit rapport met de Rechten van de Toegang van:** gebied.\
    of\
-   Laat de **Voer dit rapport uit met de toegangsrechten van:** veld leeg.
+   Verlaat **dit rapport met de Rechten van de Toegang van:** gebied leeg in werking stellen.
 
-1. Klikken **Gereed**.
-1. Klikken **Opslaan + Sluiten**.\
+1. Klik **Gedaan**.
+1. Klik **sparen + Sluiten**.\
    De fout zou niet opnieuw moeten verschijnen wanneer het runnen van dit rapport.

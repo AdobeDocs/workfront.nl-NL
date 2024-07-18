@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle beheerderverhogingen die met de Tweede Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## De logica voor het weergeven en overslaan is nu beschikbaar in de voorbeeldmodus van de formulierontwerper
 
@@ -26,7 +26,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 Met de aangepaste bètaformulierontwerper kunt u nu de logica voor weergave testen en logica in de voorbeeldmodus overslaan. Eerder werden alle velden in de voorvertoning weergegeven, zelfs toen de logica werd toegepast.
 
-Zie voor meer informatie over het weergeven van een voorbeeld van een aangepast formulier in de formulierontwerper [Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor meer informatie bij het voorvertonen van een douanevorm in de vormontwerper, zie [ een vorm met de vormontwerper organiseren en voorproef ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Bedrijven en gebruikers ondersteunen nu geavanceerde aangepaste formuliervelden
 
@@ -36,7 +36,7 @@ Zie voor meer informatie over het weergeven van een voorbeeld van een aangepast 
 
 Geavanceerde aangepaste formulierfuncties, zoals Externe opzoekvelden en eigen Workfront-velden, zijn nu beschikbaar wanneer u een aangepast formulier koppelt aan een bedrijf of gebruiker. De geavanceerde eigenschappen zijn beschikbaar op de pagina&#39;s van de Details van het Bedrijf en van de Details van de Gebruiker, niet op Edit Bedrijf en geef de dialogen van de Gebruiker uit. Het aangepaste formulier moet in de nieuwe formulierontwerper worden gemaakt om deze veldtypen te kunnen gebruiken.
 
-Zie voor meer informatie over aangepaste formuliervelden [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie over de gebieden van de douanevorm, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat-integratie is nu beschikbaar voor nieuwe pakkettypen
 
@@ -46,7 +46,7 @@ Zie voor meer informatie over aangepaste formuliervelden [Een formulier ontwerpe
 
 De bestaande JumpSeat-integratie is nu beschikbaar voor accounts die een van de nieuwe pakkettypen gebruiken (selecteren, premier of Ultimate). U moet nog een actief JumpSeat-abonnement hebben om de integratie in te schakelen.
 
-Voor meer informatie over de integratie JumpSeat raadpleegt u [De integratie met JumpSeat configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Voor meer informatie over de integratie JumpSeat, zie [ de integratie JumpSeat ](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md) vormen.
 
 ## Native velden voor Workfront zijn beschikbaar in de bètaversie van de formulierontwerper
 
@@ -64,9 +64,9 @@ Native velden die worden gebruikt in aangepaste formulieren, worden beschikbaar 
 
 Deze functie is alleen beschikbaar in de bètaversie van de formulierontwerper, niet in de verouderde formulierbuilder.
 
-Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Kenmerktoewijzing is nu beschikbaar voor organisaties die zijn gemigreerd naar Adobe IMS
 
@@ -78,7 +78,7 @@ Systeembeheerders van Workfront kunnen nu gebruikerskenmerktoewijzingen instelle
 
 Eerder was deze functionaliteit alleen beschikbaar voor organisaties die nog niet waren aangemeld bij Adobe IMS.
 
-Voor instructies bij het vormen attributenafbeelding, zie [Gebruikerskenmerken toewijzen in de verenigde Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in het artikel **Kenmerken van gebruikers toewijzen en nieuwe gebruikers automatisch instellen**.
+Voor instructies bij het vormen van attributenafbeelding, zie [ de gebruikersattributen van de Kaart in de Adobe verenigde ervaring ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de artikel **gebruikersattributen van de Kaart en auto-voorziening nieuwe gebruikers**.
 
 ## Logica voor overslaan en weergeven is nu beschikbaar in de bètaversie van de formulierontwerper
 
@@ -90,4 +90,4 @@ U kunt nu bestaande weergave bewerken, logica overslaan en nieuwe logica toevoeg
 
 Pictogrammen op een veld in het canvas van de formulierontwerper geven aan dat logica is geconfigureerd voor dat veld of dat het veld wordt gebruikt in logische regels die zijn geconfigureerd voor andere velden.
 
-Zie voor meer informatie [Weergavelogica toevoegen en logica overslaan met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+Voor meer informatie, zie [ vertoningslogica toevoegen en logica met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) overslaan.

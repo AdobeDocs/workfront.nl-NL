@@ -28,11 +28,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Controleren</p> <p>Ouder plan: Controleren</p> </td> 
+   <td> <p>Huidige abonnement: revisie</p> <p>Ouder plan: revisie</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -40,12 +40,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Twee verschillende proefdrukken vergelijken
 
@@ -58,7 +58,7 @@ U kunt twee proefdrukken vergelijken binnen om het even welke enige documentlijs
    >
    >Voor elk document dat u ter vergelijking selecteert, moet al een proefdruk worden gegenereerd.
 
-1. Klikken **Proofs vergelijken**.
+1. Klik **vergelijkt Proofs**.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
@@ -72,8 +72,8 @@ U kunt twee proefdrukken vergelijken binnen om het even welke enige documentlijs
 
    ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   Voor informatie over de gereedschappen die u kunt gebruiken om de twee proefdrukken te vergelijken, raadpleegt u  [De vergelijkingsgereedschappen gebruiken](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Proofs vergelijken in de proefdrukviewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+   Voor informatie over de gereedschappen die u kunt gebruiken om de twee proefdrukken te vergelijken, raadpleegt u  [ Gebruik de vergelijkingshulpmiddelen ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [ vergelijkt proeven in de het proef kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 
 ## Twee versies van dezelfde proefdruk vergelijken
 
-Voor informatie over het vergelijken van twee versies van het zelfde bewijs, zie [Versies met proefdrukken vergelijken](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Proofs vergelijken in de proefdrukviewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+Voor informatie over het vergelijken van twee versies van de zelfde proef, zie [ bewijsversies ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [ vergelijkt proef in de het proeven kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).

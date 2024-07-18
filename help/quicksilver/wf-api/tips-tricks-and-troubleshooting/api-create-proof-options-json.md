@@ -9,7 +9,7 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ In deze sectie wordt beschreven hoe u een proefdruk maakt met geavanceerde optie
 
 De API ProofHQ bevat een aantal acties die niet beschikbaar zijn voor proefdrukken in de Workfront API. Door deze acties te gebruiken, kunt u de proef wijzigen of vormen met nauwkeuriger dan beschikbaar in Workfront API.
 
-Voor een overzicht van de API van het BewijsHK, zie [Overzicht van PoofHQ](../../proofhq-api/general/overview.md). U kunt ook verwijzen naar de [Documentatie van hoofdkwartier proefdrukken](https://api.proofhq.com/home.html).
+Voor een overzicht van API ProofHQ, zie het [ Overzicht PoofHQ ](../../proofhq-api/general/overview.md). U kunt ook naar de [ Documentatie ProofHQ ](https://api.proofhq.com/home.html) verwijzen.
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Voor een overzicht van de API van het BewijsHK, zie [Overzicht van PoofHQ](../..
 
 ### Een proefdruk maken met geavanceerde opties voor proefdrukken
 
-1. Een proef maken met de `Document createProof` in de Workfront API.
+1. Maak een proefdruk met de handeling `Document createProof` in de Workfront API.
 
    >[!NOTE]
    >
-   Wanneer u de proefdruk maakt, stelt u `{}` als de waarde voor de `advancedProofingOptions` parameter.
+   >Wanneer u de proefdruk maakt, stelt u `{}` in als de waarde voor de parameter `advancedProofingOptions` .
 
 1. Nadat de proefdruk is gemaakt, gebruikt u de API ProofHQ om geavanceerde opties toe te voegen.
 
@@ -55,13 +55,13 @@ In deze sectie worden enkele voorbeeldupdates weergegeven die u kunt maken met d
 
 **Voorbeelden:**
 
-* [Een proef kan worden gedownload, heeft een bericht en wordt openbaar gedeeld](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [Een fase bijwerken zodat deze niet privé is, niet verplicht is en slechts één goedkeuring vereist](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [ A Bewijs kan worden gedownload, heeft een bericht, en wordt openbaar gedeeld ](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [ werk een stadium bij zodat het niet privé, niet verplicht is, en vereist slechts één goedkeuring ](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [Twee ontvangers toevoegen aan een bewijs zonder primaire beslisser](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Een proef kan worden gedownload, heeft een bericht en wordt openbaar gedeeld**
+**A Bewijs kan worden gedownload, heeft een bericht, en wordt openbaar gedeeld**
 
-Documentatie voor dit eindpunt kan op worden gevonden [ProefHQ API-updateProof](https://api.proofhq.com/home/proofs/updateproof.html) pagina.
+De documentatie voor dit eindpunt kan op [ ProofHQ API updateProof ](https://api.proofhq.com/home/proofs/updateproof.html) pagina worden gevonden.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ Documentatie voor dit eindpunt kan op worden gevonden [ProefHQ API-updateProof](
 </soapenv:Envelope>
 ```
 
-**Een fase bijwerken zodat deze niet privé is, niet verplicht is en slechts één goedkeuring vereist**
+**werk een stadium bij zodat het niet privé, niet verplicht is, en vereist slechts één goedkeuring**
 
-Documentatie voor dit eindpunt kan op worden gevonden [ProofHQ API-updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) pagina.
+De documentatie voor dit eindpunt kan op de [ ProofHQ API updateWorkflowProofStage ](https://api.proofhq.com/updateworkflowproofstage.html) pagina worden gevonden.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -108,9 +108,9 @@ Documentatie voor dit eindpunt kan op worden gevonden [ProofHQ API-updateWorkflo
 </soapenv:Envelope>
 ```
 
-**Twee ontvangers toevoegen aan een bewijs zonder primaire beslisser**
+**voeg twee ontvangers aan een bewijs zonder primaire besluitvormer toe**
 
-Documentatie voor dit eindpunt kan op worden gevonden [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) pagina.
+De documentatie voor dit eindpunt kan op [ ProofHQ API addWorkflowProofReviewers ](https://api.proofhq.com/addworkflowproofreviewers.html) pagina worden gevonden.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,17 +149,17 @@ In deze sectie wordt beschreven hoe u een proefdruk maakt met geavanceerde optie
 
 ### Een proefdruk maken met geavanceerde opties voor proefdrukken
 
-U kunt proefdrukken maken met de Workfront API via de `Document createProof` handeling. Deze handeling accepteert de `advancedProofingOptions` parameter, die het waardetype van heeft `string`. Geavanceerde opties voor proefdrukken opnemen in uw `createProof` handeling, moet u de opties in `advancedProofingOptions` parameter in JSON-indeling.
+Met de handeling `Document createProof` kunt u proefdrukken maken via de Workfront API. Deze handeling accepteert de parameter `advancedProofingOptions` , die het waardetype `string` heeft. Als u geavanceerde proefdrukopties wilt opnemen in de `createProof` -actie, moet u de opties in de `advancedProofingOptions` -parameter invoeren in JSON-indeling.
 
 >[!NOTE]
 >
-Het kan moeilijk zijn om de gebieden te voorspellen om in uw advancedProofingOptions JSON te omvatten. U kunt de netwerkgegevens van uw organisatie willen onderzoeken terwijl het gebruiken van geavanceerd proef in Workfront, en uw JSON baseren op de gebieden en de waarden die algemeen door uw organisatie worden gebruikt.
+>Het kan moeilijk zijn om de gebieden te voorspellen om in uw advancedProofingOptions JSON te omvatten. U kunt de netwerkgegevens van uw organisatie willen onderzoeken terwijl het gebruiken van geavanceerd proef in Workfront, en uw JSON baseren op de gebieden en de waarden die algemeen door uw organisatie worden gebruikt.
 >
-Omdat deze velden moeilijk te voorspellen zijn, raden we u aan een proefdruk te maken met de Workfront API en deze vervolgens bij te werken met de ProofHQ-API. Zie voor meer informatie [Een proefdruk maken met de API&#39;s Workfront en ProofHQ (aanbevolen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in dit artikel
+>Omdat deze velden moeilijk te voorspellen zijn, raden we u aan een proefdruk te maken met de Workfront API en deze vervolgens bij te werken met de ProofHQ-API. Voor meer informatie, zie [ een proef creëren gebruikend Workfront en ProofHQ APIs (Geadviseerd) ](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in dit artikel
 
 ### Voorbeeld
 
-In dit voorbeeld worden velden en opmaak weergegeven die u kunt gebruiken bij het maken van uw JSON voor de `advancedProofingOptions` parameter. Uw `advancedProofingOptions` JSON-bestand kan meer of minder velden hebben dan hier wordt weergegeven.
+In dit voorbeeld worden velden en opmaak weergegeven die u kunt gebruiken bij het maken van uw JSON voor de parameter `advancedProofingOptions` . Uw `advancedProofingOptions` JSON-bestand kan meer of minder velden hebben dan hier wordt weergegeven.
 
 **Voorbeeld:**
 

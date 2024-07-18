@@ -23,9 +23,9 @@ ht-degree: 0%
 
 U kunt een nieuw aangepast formulier maken of een bestaand formulier bewerken. Beide taken worden in dit artikel uitgelegd.
 
-Voor informatie over het maken van een nieuw aangepast formulier op basis van een bestaand formulier raadpleegt u [Een aangepast formulier kopiëren om een nieuw formulier te maken met de oudere formulierbuilder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+Voor informatie over het creëren van een nieuwe douanevorm van bestaande, zie [ Kopieer een douanevorm om nieuwe tot stand te brengen met de bouwer van de erfenisvorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
-In dit artikel wordt beschreven hoe u een aangepast formulier kunt maken met de verouderde formulierbuilder. Voor informatie over het maken van een aangepast formulier met de formulierontwerper raadpleegt u [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+In dit artikel wordt beschreven hoe u een aangepast formulier kunt maken met de verouderde formulierbuilder. Voor informatie over het creëren van een douanevorm die de vormontwerper gebruikt, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,42 +62,42 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
+1. Klik **Forms van de Douane** in het linkerpaneel.
 
    Aangepaste formulieren worden weergegeven in een lijst. U kunt alle aangepaste formulieren en aangepaste velden bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, welke objecten eraan zijn gekoppeld en of het actief is.
 
-1. Klikken **Nieuw aangepast formulier.**
-1. Selecteer ten minste één objecttype dat u aan het aangepaste formulier wilt koppelen en klik op **Doorgaan**.
+1. Klik **Nieuwe Vorm van de Douane.**
+1. Selecteer minstens één objecten type dat u met de douanevorm wilt associëren, dan **blijven** klikken.
 
    ![](assets/choose-object-type.jpg)
 
-1. Op de **Formulierinstellingen** tab die wordt geopend, typt u een **Formuliertitel** en een facultatieve **Beschrijving** voor het aangepaste formulier.
+1. Op het **lusje van de Montages van de Vorm** dat opent, typ a **Titel van de Vorm** en een facultatieve **Beschrijving** voor de douanevorm.
 
-1. (Optioneel) Als u meer objecttypen aan het formulier wilt toevoegen zodat het aan meer objecten kan worden gekoppeld, klikt u op de knop **plus** aanmelden na **Objecttypen** Selecteer vervolgens het gewenste objecttype in het menu dat wordt weergegeven.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, klik **plus** teken na **de Types van Objecten**, dan selecteer het objecten type u in het menu wilt dat toont.
 
    U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
-1. (Optioneel) Klik op de knop **X** op een objecttype om het uit het formulier te verwijderen.
+1. (Facultatief) klik **X** op een objecten type om het van de vorm te schrappen.
 
-   Voor informatie over het verwijderen van objecttypen uit een aangepast formulier dat u al hebt opgeslagen, raadpleegt u [Objecttypen verwijderen op een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   Voor informatie over het schrappen van objecten types van een douaneformulier u reeds hebt bewaard, zie [ Objecttypes van de Schrapping op een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Klikken **Gereed** linksonder in het scherm.
+1. Klik **Gedaan** in de laag-linkerhoek van het scherm.
 
    >[!TIP]
    >
-   >U kunt op **Toepassen** op elk gewenst moment tijdens het maken van een aangepast formulier om uw wijzigingen op te slaan en het formulier open te houden.
+   >U kunt **klikken toepast** op om het even welk punt terwijl u een douaneformulier creeert om uw veranderingen te bewaren en de vorm open te houden.
 
-1. Als u een nieuw aangepast veld aan het formulier wilt toevoegen, gaat u verder met [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) of [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+1. Als u een nieuw douanegebied aan de vorm wilt toevoegen, ga [ verder een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen of [ een douanegebied of widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) opnieuw gebruiken.
 
    of
 
    Als u uw aangepaste formulier op andere manieren wilt blijven bouwen, gaat u verder naar een van de volgende artikelen:
 
-   * [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Aangepaste velden en widgets in een aangepast formulier plaatsen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Een sectie-einde toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [ voeg of geef activa widget in een douanevorm toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [ de douanegebieden en widgets van de Positie in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [ voeg een sectieonderbreking aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [ voeg berekende gegevens aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [ hergebruik een bestaand berekend douanegebied in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ## Een aangepast formulier bewerken starten
@@ -106,42 +106,42 @@ U kunt een aangepast formulier op elk gewenst moment na het maken bewerken.
 
 >[!CAUTION]
 >
->Zie de sectie voor informatie over het verwijderen van velden uit een aangepast formulier zonder dat gebruikers gegevens verliezen die ze in die velden hebben ingevoerd [Een aangepast veld verwijderen zonder gegevens te verliezen die gebruikers hebben ingevoerd](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) in het artikel [Een aangepast veld of aangepaste widget uit het systeem verwijderen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+>Voor informatie over het verwijderen van gebieden uit een douanevorm zonder gegevens te verliezen die de gebruikers op die gebieden zijn ingegaan, zie de sectie [ een douanegebied verwijderen zonder gegevens te verliezen die de gebruikers ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) in het artikel [ zijn ingegaan een douanegebied of widget van het systeem ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.
 >
 >Over het algemeen raden we u aan om het aantal keren dat u een aangepast formulier bewerkt dat al in gebruik is, te minimaliseren. Er is geen meldingssysteem om mensen die het aangepaste formulier gebruiken te waarschuwen voor uw wijzigingen.
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms** in het linkerdeelvenster.
+1. Klik **Forms van de Douane** in het linkerpaneel.
 
    Aangepaste formulieren worden weergegeven in een lijst. U kunt alle aangepaste formulieren en aangepaste velden bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, welke objecten eraan zijn gekoppeld en of het actief is.
 
-1. Selecteer het aangepaste formulier dat u wilt bewerken en klik op ![Pictogram Bewerken](assets/edit-icon.png).
-1. (Optioneel) Als u de titel en beschrijving van het aangepaste formulier wilt wijzigen, klikt u op de knop **Formulierinstellingen** en typt u vervolgens een **Formuliertitel** en **Beschrijving**.
+1. Selecteer de douanevorm u wilt uitgeven, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
+1. (Facultatief) om de titel en de beschrijving van de douanevorm te veranderen, klik het **lusje van de Montages van de Vorm**, dan typ a **Titel van de Vorm** en **Beschrijving**.
 
-1. (Optioneel) Als u meer objecttypen aan het formulier wilt toevoegen zodat het aan meer objecten kan worden gekoppeld, klikt u op het plusteken + na **Objecttypen** Selecteer vervolgens de gewenste tekst in het menu dat wordt weergegeven.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, klik plus teken + na **Types van Objecten**, dan selecteer het type u in het menu wilt dat toont.
 
    ![](assets/add-object-type-existing-form.png)
 
    U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
-   U kunt ook op de X op een objecttype klikken om het uit het formulier te verwijderen. Dit moet voorzichtig gebeuren als u een objecttype wilt verwijderen uit een aangepast formulier dat u al hebt opgeslagen. Zie voor meer informatie [Objecttypen verwijderen op een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   U kunt ook op de X op een objecttype klikken om het uit het formulier te verwijderen. Dit moet voorzichtig gebeuren als u een objecttype wilt verwijderen uit een aangepast formulier dat u al hebt opgeslagen. Voor meer informatie, zie [ de objecten types van de Schrapping op een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Klikken **Gereed**.
+1. Klik **Gedaan**.
 
    >[!TIP]
    >
-   >U kunt op **Toepassen** op elk gewenst moment tijdens het maken van een aangepast formulier om uw wijzigingen op te slaan en het formulier open te houden.
+   >U kunt **klikken toepast** op om het even welk punt terwijl u een douaneformulier creeert om uw veranderingen te bewaren en de vorm open te houden.
 
-1. Als u een nieuw aangepast veld aan het formulier wilt toevoegen, gaat u verder met [Een aangepast veld toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) of [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+1. Als u een nieuw douanegebied aan de vorm wilt toevoegen, ga [ verder een douanegebied aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) toevoegen of [ een douanegebied of widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) opnieuw gebruiken.
 
    of
 
    Als u uw aangepaste formulier op andere manieren wilt blijven bouwen, gaat u verder naar een van de volgende artikelen:
 
-   * [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Aangepaste velden en widgets in een aangepast formulier plaatsen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Een sectie-einde toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [ voeg of geef activa widget in een douanevorm toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [ de douanegebieden en widgets van de Positie in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [ voeg een sectieonderbreking aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [ voeg berekende gegevens aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [ hergebruik een bestaand berekend douanegebied in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
    * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)

@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # Beslissing over een bewijs
 
-* [Een bewijs goedkeuren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-* [Beslissen op een bewijs in de professionele drukker](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* [ keur een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md) goed
+* [ maak een besluit over een bewijs in de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 * [Een bestaande beslissing op een bewijs wijzigen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)

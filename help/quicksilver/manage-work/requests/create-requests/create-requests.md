@@ -31,10 +31,10 @@ Alle verzoeken worden weergegeven in het gebied Kwesties van de projecten die zi
 
 Raadpleeg de volgende artikelen voor meer informatie over het maken, verzenden of e-mailverzoeken naar Workfront:
 
-* [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md)
-* [Verzoeken maken op basis van concepten](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
-* [Verzoeken kopiëren en verzenden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
-* [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-* [Verzonden aanvragen zoeken](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
-* [Een koppeling delen naar een aanvraagwachtrij](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
+* [ creeer en verzend Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [ creeer verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
+* [ het Exemplaar en legt verzoeken ](../../../manage-work/requests/create-requests/copy-and-submit-requests.md) voor
+* [ laat gebruikers toe om een kwestie in een project van de Rij van het Verzoek te e-mailen ](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
+* [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
+* [ Deel een verbinding aan een verzoekrij ](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Een aanvraagconcept verwijderen](../../../manage-work/requests/create-requests/delete-request-draft.md)

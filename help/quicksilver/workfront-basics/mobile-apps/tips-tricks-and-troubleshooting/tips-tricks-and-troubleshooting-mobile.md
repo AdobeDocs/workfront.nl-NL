@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Tips, trucs en probleemoplossing voor [!DNL Adobe Workfront] Mobiele apps
-description: Tips, trucs en probleemoplossing voor [!DNL Adobe Workfront] Mobiele apps
+title: Tips, Tricks, en het Oplossen van problemen voor  [!DNL Adobe Workfront]  Mobiele Apps
+description: Tips, Tricks, en het Oplossen van problemen voor  [!DNL Adobe Workfront]  Mobiele Apps
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Tips, trucs en probleemoplossing voor [!DNL Adobe Workfront] Mobiele apps
+# Tips, trucs en probleemoplossing voor [!DNL Adobe Workfront] mobiele apps
 
 Deze sectie bevat de volgende artikelen:
 
-* [Foutbericht op de [!DNL Adobe Workfront] Mobiele app: &quot;[!UICONTROL Your account is not API enabled.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [Het Bericht van de fout op  [!DNL Adobe Workfront]  Mobiele App: &quot;[!UICONTROL Your account is not API enabled.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

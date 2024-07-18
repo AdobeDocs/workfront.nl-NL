@@ -9,7 +9,7 @@ role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Deze fout treedt op wanneer u via de API een aangepast veld probeert te importer
 
 Voeg de correcte douanevorm aan het Onderwerp van de Rij toe.
 
-Meer over de Onderwerpen van de Rij leren, zie [Werkvoorraadonderwerpen maken](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Meer over de Onderwerpen van de Rij leren, zie [ de Onderwerpen van de Rij ](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Meldingen: Doelstellingen
 
-U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen die plaatsvinden in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] de licentie kan deze ook voor andere gebruikers inschakelen. Zie voor meer informatie [[!DNL Adobe Workfront] meldingen](../../workfront-basics/using-notifications/wf-notifications.md).
+U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten ](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Toegangsvereisten
 
@@ -39,11 +39,11 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Product</strong></td> 
-   <td>[!DNL Workfront Goals] <p>Voor informatie over [!DNL Workfront Goals], zie <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overzicht</a>.</p> </td> 
+   <td>[!DNL Workfront Goals] <p>Voor informatie over [!DNL Workfront Goals], zie <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] toegang tot [!DNL Goals] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] toegang tot [!DNL Goals] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,14 +53,14 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-De gebruiker waarvan [!DNL Goals] de meldingen moeten als volgt worden bijgewerkt:
+De gebruiker van wie [!DNL Goals] meldingen worden bijgewerkt, moet het volgende hebben:
 
-* Een lay-outsjabloon die de [!DNL Goals] in het gebied [!UICONTROL Main Menu].
-* Toegang tot de nieuwe [!DNL Adobe Workfront] ervaring.
+* Een lay-outsjabloon die het [!DNL Goals] -gebied in [!UICONTROL Main Menu] bevat.
+* Toegang tot de nieuwe [!DNL Adobe Workfront] -ervaring.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -68,17 +68,17 @@ De gebruiker waarvan [!DNL Goals] de meldingen moeten als volgt worden bijgewerk
   </MadCap:conditionalText>
   -->
 
-## [!DNL Goals] meldingen in de [!UICONTROL user profile] gebied
+## [!DNL Goals] -meldingen in het [!UICONTROL user profile] -gebied
 
-De meldingen in de volgende tabel geven een waarschuwing over gebeurtenissen die plaatsvinden in [!DNL Workfront Goals], zoals iemand die u een doel, resultaat of activiteit toewijst of iemand die een update uitvoert voor een doel, resultaat of activiteit die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
->Directe meldingen voor [!DNL Goals] zijn standaard uitgeschakeld. U kunt dagelijkse meldingen niet in- of uitschakelen en u ontvangt geen dagelijkse samenvattingse-mails voor de gebeurtenissen in deze categorie. U kunt afzonderlijke instantmeldingen in- of uitschakelen voor de [!DNL Goals] categorie.
+>Instant-meldingen voor [!DNL Goals] zijn standaard uitgeschakeld. U kunt dagelijkse meldingen niet in- of uitschakelen en u ontvangt geen dagelijkse samenvattingse-mails voor de gebeurtenissen in deze categorie. U kunt afzonderlijke expresmeldingen voor de categorie [!DNL Goals] in- of uitschakelen.
 
-Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-notifications.md).
+Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,27 +86,27 @@ Zie ook [Gebeurtenismeldingen](../../workfront-basics/using-notifications/event-
  <tbody> 
   <tr> 
    <td><strong>Melding</strong></td> 
-   <td> <p><strong>Inclusief velden</strong> </p> <p><strong>*Alleen directe meldingen</strong></p> </td> 
+   <td> <p><strong> inbegrepen Gebieden </strong> </p> <p><strong>*Alleen directe meldingen</strong></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Iemand heeft mij een resultaat/activiteit toegewezen</strong></td> 
-   <td> <p>De naam van de persoon die het resultaat of de activiteit aan u heeft toegewezen</p> <p>De periode van het doel voor het resultaat of de activiteit</p> <p>De naam van het resultaat of de activiteit</p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
+   <td> <p>De naam van de persoon die het resultaat of de activiteit aan u heeft toegewezen</p> <p>De periode van het doel voor het resultaat of de activiteit</p> <p>De naam van het resultaat of de activiteit</p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Iemand creëerde een nieuw persoonlijk doel voor mij</strong> </td> 
-   <td> <p>De naam van de persoon die het doel heeft toegewezen</p> <p>De periode van het doel</p> <p>De naam van het doel</p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
+   <td><strong> Iemand creeerde een nieuw persoonlijk Doel voor me </strong> </td> 
+   <td> <p>De naam van de persoon die het doel heeft toegewezen</p> <p>De periode van het doel</p> <p>De naam van het doel</p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Iemand heeft een opmerking achtergelaten over mijn doel</strong></td> 
-   <td> <p>De naam van de persoon die de opmerking heeft achtergelaten</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De tekst van de opmerking</p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
+   <td> <p>De naam van de persoon die de opmerking heeft achtergelaten</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De tekst van de opmerking</p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Iemand vond mijn commentaar op een doelstelling leuk</strong></td> 
-   <td> <p>De naam van de persoon die de opmerking leuk vond</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De tekst van de opmerking </p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
+   <td> <p>De naam van de persoon die de opmerking leuk vond</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De tekst van de opmerking </p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Iemand vond een update van mijn doel leuk</strong></td> 
-   <td> <p>U ontvangt een e-mail wanneer iemand van een commentaar houdt u over een doel maakte of wanneer u de vooruitgang van uw resultaten of activiteiten op het doel bijwerkt. </p> <p>De naam van de persoon die van de update hield</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De <strong>[!UICONTROL Open in web app]</strong> knop die de [!UICONTROL Goal Details] deelvenster</p> <p>De <strong>[!UICONTROL Change Notifications Settings]</strong> knop waarmee u uw meldingen kunt beheren.</p> </td> 
+   <td> <p>U ontvangt een e-mail wanneer iemand van een commentaar houdt u over een doel maakte of wanneer u de vooruitgang van uw resultaten of activiteiten op het doel bijwerkt. </p> <p>De naam van de persoon die van de update hield</p> <p>De periode van het doel </p> <p>De naam van het doel</p> <p>De knop <strong>[!UICONTROL Open in web app]</strong> waarmee het deelvenster [!UICONTROL Goal Details] wordt geopend</p> <p>De knop <strong>[!UICONTROL Change Notifications Settings]</strong> waarmee u uw meldingen kunt beheren.</p> </td> 
   </tr> 
  </tbody> 
 </table>

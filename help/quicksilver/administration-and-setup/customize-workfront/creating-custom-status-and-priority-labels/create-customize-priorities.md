@@ -38,7 +38,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,33 +47,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Als beheerder van Workfront, kunt u de volgende wijzigingen in de standaardprioriteiten aanbrengen die in Workfront worden verstrekt:
 
-* Naam van prioriteiten wijzigen.
+* Wijzig de naam van prioriteiten.
 * Herstel de prioriteiten.
 
-   Ga voor meer informatie over het aanpassen van prioriteiten naar [Een prioriteit maken voor een projecttaak of uitgave](#create-a-priority-for-a-project-task-or-issue).
+  Voor meer informatie over hoe te om prioriteiten te herschikken, zie [ een prioriteit voor een projecttaak, of uitgeven ](#create-a-priority-for-a-project-task-or-issue) creëren.
 
 * Wijzig de standaardprioriteit.
 
-   Voor meer informatie over de functionaliteit om de standaardprioriteit te veranderen, zie [Een prioriteit maken voor een projecttaak of uitgave](#create-a-priority-for-a-project-task-or-issue).
+  Voor meer informatie over de functionaliteit om de standaardprioriteit te veranderen, zie [ een prioriteit voor een projecttaak, of kwestie ](#create-a-priority-for-a-project-task-or-issue) creëren.
 
 * Bewerk de beschrijving van de prioriteiten.
 * Stel een kleur in voor elke prioriteit.
 
-   De kleur van de prioriteit wordt gebruikt in grafiekrapporten, wanneer u uw resultaten door groepeert **Prioriteit**.
+  De kleur van de prioriteit wordt gebruikt in grafiekrapporten, wanneer u uw resultaten door **Prioriteit** groepeert.
 
-   Voor meer informatie over grafiekrapporten, zie [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Voor meer informatie over grafiekrapporten, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 * Prioriteiten verwijderen.
 
-   Wanneer u een bestaande prioriteit verwijdert, moet u een vervangende prioriteit selecteren.
+  Wanneer u een bestaande prioriteit verwijdert, moet u een vervangende prioriteit selecteren.
 
 * Prioriteiten verbergen.
 
-   Ga voor meer informatie over de functionaliteit van het verbergen van prioriteiten naar [Een prioriteit maken voor een projecttaak of uitgave](#create-a-priority-for-a-project-task-or-issue).
+  Voor meer informatie over de functionaliteit om prioriteiten te verbergen, zie [ een prioriteit voor een projecttaak, of uitgeven ](#create-a-priority-for-a-project-task-or-issue) creëren.
 
-   >[!NOTE]
-   >
-   >U moet voor elk object ten minste één prioriteit in uw Workfront-account hebben.
+  >[!NOTE]
+  >
+  >U moet voor elk object ten minste één prioriteit in uw Workfront-account hebben.
 
 De prioriteiten die standaard worden opgegeven voor elk objecttype (project, taak en uitgave) zijn identiek:
 
@@ -87,12 +87,12 @@ De prioriteiten die standaard worden opgegeven voor elk objecttype (project, taa
 
 Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toevoegen om aan de behoeften van uw organisatie te voldoen.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Projectvoorkeuren** > **Prioriteiten**.
+1. In het linkerpaneel, klik **Voorkeur van het Project** > **Prioriteiten**.
 
-1. Klik op de tab voor het objecttype waarvoor u een prioriteit wilt maken (**Project**, **Taak**, of **Probleem**).
-1. Klikken **Een nieuwe prioriteit toevoegen**.
+1. Klik het lusje voor het objecten type u een prioriteit voor (**Project**, **Taak**, of **Kwestie**) wilt tot stand brengen.
+1. Klik **toevoegen een Nieuwe Prioriteit**.
 1. Geef de volgende informatie op voor de nieuwe prioriteit:
 
    <table style="table-layout:auto"> 
@@ -105,15 +105,15 @@ Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toe
      </tr> 
      <tr> 
       <td role="rowheader">Belang</td> 
-      <td> <p>Wanneer het toevoegen van een nieuwe prioriteit, wordt een aantal toegewezen aan het door gebrek. Bewerk dit nummer als het niet aan uw wensen voldoet.</p> <p>De <strong>Belang</strong> Het nummer voor elke prioriteit moet uniek zijn voor het object dat u hebt geselecteerd.<br>Het nummer van de prioriteit geeft het belang van het project, de taak of het vraagstuk weer: het hoogste aantal komt overeen met de hoogste prioriteit .</p> <p><b>OPMERKING</b>: U kunt het belangrijke nummer niet meer bewerken nadat u de prioriteit hebt opgeslagen. </p> </td> 
+      <td> <p>Wanneer het toevoegen van een nieuwe prioriteit, wordt een aantal toegewezen aan het door gebrek. Bewerk dit nummer als het niet aan uw wensen voldoet.</p> <p>Het </strong> aantal van het belang <strong> {voor elke prioriteit moet voor het voorwerp uniek zijn u selecteerde.<br> het aantal van de prioriteit wijst op het belang van het project, de taak of de kwestie: het hoogste aantal beantwoordt aan de hoogste prioriteit.</p> <p><b> NOTA </b>: U kunt niet het aantal van de Belangrijkheid uitgeven, nadat u sparen de prioriteit. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kleur</td> 
-      <td> <p>Kies een kleur voor uw prioriteit.</p> <p>De kleur van de prioriteit wordt gebruikt in grafiekrapporten en de Montages van het Team van de Gelijkheid. Voor meer informatie over grafiekrapporten, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Een diagram toevoegen aan een rapport</a>.</p> <p>Voor meer informatie over de Montages van het Team van de Geldige, zie in.</p> </td> 
+      <td> <p>Kies een kleur voor uw prioriteit.</p> <p>De kleur van de prioriteit wordt gebruikt in grafiekrapporten en de Montages van het Team van de Gelijkheid. Voor meer informatie over grafiekrapporten, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref"> een grafiek aan een rapport </a> toevoegen.</p> <p>Voor meer informatie over de Montages van het Team van de Geldige, zie in.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standaardprioriteit</td> 
-      <td> <p>Bepaal of dit een standaardprioriteit moet zijn of niet door het keuzerondje te selecteren.</p> <p>Indien een prioriteit wordt aangewezen als de <strong>Standaardprioriteit</strong>, wordt deze automatisch gekozen voor alle projecten, taken of problemen in Workfront. <strong>Normaal</strong> is de standaardprioriteit voor alle objecten in Workfront.</p> </td> 
+      <td> <p>Bepaal of dit een standaardprioriteit moet zijn of niet door het keuzerondje te selecteren.</p> <p>Als een prioriteit als <strong> StandaardPrioriteit </strong> wordt aangewezen, wordt het automatisch gekozen voor alle projecten, taken, of kwesties in Workfront. <strong> Normaal </strong> is de standaardprioriteit voor alle voorwerpen in Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving</td> 
@@ -121,17 +121,17 @@ Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toe
      </tr> 
      <tr> 
       <td role="rowheader">Verbergen</td> 
-      <td> <p>Selecteer dit vakje als u de prioriteit wilt verbergen.</p><p>Wanneer u <b>Verbergen</b> -optie, wordt de prioriteit nergens in Workfront weergegeven en kunnen gebruikers deze niet kiezen voor hun projecten, taken en problemen.</p> 
-      <p><b>BELANGRIJK</b>: We raden u aan de prioriteiten die u niet meer wilt gebruiken, te verbergen in plaats van ze te verwijderen. Door ze te verbergen, houdt u nog steeds al uw historische gegevens bij, van objecten die met deze prioriteit zijn voltooid, en voorkomt u dat mensen in de toekomst deze prioriteit kiezen. </p>
-      <p>U kunt desgewenst de volgorde van uw prioriteiten wijzigen door deze in de gewenste volgorde te slepen. Dit verandert de orde waarin zij voor projecten, taken, en kwesties tonen. Dit verandert niets aan <b>Belang</b> getal. </p></td> 
+      <td> <p>Selecteer dit vakje als u de prioriteit wilt verbergen.</p><p>Wanneer u de <b> optie van de Verbergen </b> selecteert, toont de prioriteit nergens in Workfront en de gebruikers kunnen niet het voor hun projecten, taken, en kwesties kiezen.</p> 
+      <p><b> BELANGRIJK </b>: Wij adviseren dat u de prioriteiten verbergt die u niet meer wilt gebruiken, eerder dan hen te schrappen. Door ze te verbergen, houdt u nog steeds al uw historische gegevens bij, van objecten die met deze prioriteit zijn voltooid, en voorkomt u dat mensen in de toekomst deze prioriteit kiezen. </p>
+      <p>U kunt desgewenst de volgorde van uw prioriteiten wijzigen door deze in de gewenste volgorde te slepen. Dit verandert de orde waarin zij voor projecten, taken, en kwesties tonen. Dit verandert niet het <b> Aantal van het Belang </b>. </p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 Zie de volgende artikelen voor instructies over het toepassen van prioriteiten op projecten, taken en kwesties:
 
-* [De projectprioriteiten begrijpen en bijwerken](../../../manage-work/projects/planning-a-project/project-priority.md)
-* [Taakprioriteit bijwerken](../../../manage-work/tasks/task-information/task-priority.md)
+* [ Begrijp en werk projectprioriteiten bij ](../../../manage-work/projects/planning-a-project/project-priority.md)
+* [ Prioriteit van de Taak van de Update ](../../../manage-work/tasks/task-information/task-priority.md)
 * [Prioriteit van probleem bijwerken](../../../manage-work/issues/issue-information/update-issue-priority.md)

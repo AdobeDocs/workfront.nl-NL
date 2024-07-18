@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,6 @@ Het wijzigen van het zoomniveau in de browser hangt af van de browser die u gebr
 
 Zo wijzigt u het zoomniveau in Google Chrome:
 
-1. In een browservenster navigeert u naar **Weergave**.
-1. Klikken **Inzoomen** om het zoomniveau in het huidige browservenster te verlagen.\
+1. Binnen een browser venster, navigeer aan **Mening**.
+1. Klik **Gezoem binnen** om het gezoemniveau in het huidige browser venster te verminderen.\
    Het weergavegebied in uw browser wordt verkleind.

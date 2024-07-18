@@ -2,29 +2,29 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Beheren [!DNL Workfront Proof] gebruikers
-description: Als [!DNL Workfront Proof] beheerder, kunt u gebruikersmontages bekijken en proefproefproefgebruikers beheren in [!UICONTROL Account Settings] gebied.
+title: ' [!DNL Workfront Proof]  gebruikers beheren'
+description: Als a [!DNL Workfront Proof]  beheerder, kunt u gebruikersmontages bekijken en proefdrukgebruikers in het [!UICONTROL Account Settings] gebied beheren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4666cb18-e3a9-408b-8eb1-e00ebe2e6f9c
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-# Beheren [!DNL Workfront Proof] gebruikers
+# [!DNL Workfront Proof] gebruikers beheren
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] beheerder, kunt u gebruikersmontages bekijken en proefproefproefgebruikers beheren in [!UICONTROL Account Settings] gebied.
+Als [!DNL Workfront Proof] -beheerder kunt u gebruikersinstellingen weergeven en proefdrukgebruikers beheren in het [!UICONTROL Account Settings] -gebied.
 
-1. Klikken **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** in de rechterbovenhoek van het dialoogvenster [!DNL Workfront Proof] venster.
+1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** rechtsboven in het [!DNL Workfront Proof] -venster.
 
-1. Open de **[!UICONTROL Users]** tab.
+1. Open de tab **[!UICONTROL Users]** .
 
    Dit tabblad bevat een overzicht van de gebruikers in uw account en de gegevens van hun gebruikersaccount.
 
@@ -33,10 +33,10 @@ Als [!DNL Workfront Proof] beheerder, kunt u gebruikersmontages bekijken en proe
    | **[!UICONTROL Activate]** | Activeer de geselecteerde gebruiker of gebruikers. |
    |---|---|
    | **[!UICONTROL Deactivate]** | Deactiveer de geselecteerde gebruiker of gebruikers. |
-   | **[!UICONTROL Reinvite]** | De geselecteerde gebruiker of gebruikers opnieuw uitnodigen om toegang te krijgen [!DNL Workfront Proof]. |
+   | **[!UICONTROL Reinvite]** | Nodig de geselecteerde gebruiker of gebruikers opnieuw uit om [!DNL Workfront Proof] te openen. |
    | **[!UICONTROL Reset password]** | Het wachtwoord opnieuw instellen voor de gebruiker of gebruikers die u hebt geselecteerd. |
    | **[!UICONTROL Delete]** | Verwijder de geselecteerde gebruiker of gebruikers. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. (Optioneel) Klik op de knop **[!UICONTROL More]** pictogram ![[!DNL More_button_small].png](assets/more-button-small.png) rechts van de gebruikersnaam klikt u op een optie om de details van de gebruiker weer te geven of om de gebruiker te verwijderen.
+1. (Optioneel) Klik op het pictogram **[!UICONTROL More]** icon ![[!DNL More_button_small] .png ](assets/more-button-small.png) rechts van de gebruikersnaam en klik vervolgens op een optie om de details van de gebruiker weer te geven of om de gebruiker te verwijderen.

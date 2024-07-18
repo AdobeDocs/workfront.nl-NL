@@ -2,23 +2,23 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Documenten en proefdrukken uploaden vanuit de [!DNL Adobe Workfront plugin] aan de [!DNL Creative Cloud]
-description: Documenten en proefdrukken uploaden vanuit de [!DNL Adobe Workfront plugin] aan de [!DNL Creative Cloud]
+title: Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]
+description: Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
+# Documenten en proefdrukken uploaden van [!DNL Adobe Workfront plugin] naar [!DNL Creative Cloud]
 
-# Documenten en proefdrukken uploaden vanuit de [!DNL Adobe Workfront plugin] aan de [!DNL Creative Cloud]
-
-U kunt uw projecten uploaden als documenten die u snel kunt bekijken en goedkeuren of die u eenvoudig kunt opslaan in [!DNL Adobe Workfront].
+U kunt uw projecten uploaden als documenten voor een snelle revisie en goedkeuring of eenvoudig in [!DNL Adobe Workfront] op te slaan.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ U kunt uw projecten uploaden als documenten die u snel kunt bekijken en goedkeur
 
 ## Documentbeperkingen
 
-In deze sectie worden de bekende documentbeperkingen in de [!DNL Workfront for Adobe Creative Cloud plugins].
+In deze sectie worden bekende documentbeperkingen in de [!DNL Workfront for Adobe Creative Cloud plugins] beschreven.
 
 ### Nieuwe documentversies accepteren slechts één bestand om te uploaden
 
-Omdat [!DNL Workfront] documenten kunnen niet meerdere bestanden bevatten. Bepaalde instellingen moeten zijn uitgeschakeld om nieuwe documentversies naar Workfront te kunnen uploaden.
+Omdat [!DNL Workfront] -documenten geen meerdere bestanden kunnen bevatten, moeten bepaalde instellingen zijn uitgeschakeld om nieuwe documentversies naar Workfront te kunnen uploaden.
 
 >[!NOTE]
 >
@@ -39,9 +39,9 @@ Omdat [!DNL Workfront] documenten kunnen niet meerdere bestanden bevatten. Bepaa
 
 
 
-Om uw omschakeling terug naar één enkel dossier te veranderen binnen [!DNL InDesign]:
+U kunt als volgt de overschakeling naar één bestand in [!DNL InDesign] ongedaan maken:
 
-1. Open de **Instellingen voor exportbestand instellen** in.
+1. Open het **Vastgestelde de dialoogvakje van de Montages van het Dossier van de Uitvoer**.
 
    ![](assets/file-export-settings.png)
 
@@ -49,49 +49,49 @@ Om uw omschakeling terug naar één enkel dossier te veranderen binnen [!DNL InD
 
    <table>
     <tr>
-    <td><strong>PDF en PDF-AFDRUKKEN</strong>
+    <td><strong> PDF en PDF-DRUK </strong>
     </td>
-    <td>Deselecteren <strong>Afzonderlijke PDF-bestanden maken</strong>.
+    <td>Deselecteer <strong> creeer Afzonderlijke PDF Dossiers </strong>.
     </td>
     </tr>
     <tr>
-    <td><strong>EPS</strong>
+    <td><strong> EPS </strong>
     </td>
-    <td>Selecteren <strong>Bereiken</strong> en typ één paginanummer. 
+    <td>Selecteer <strong> Waaier </strong> en typ één enkel paginanummer. 
     <p>
-    <strong>Opmerking</strong>: Als u het volledige document wilt uploaden, moet u een proefdruk maken. 
+    <strong> Nota </strong>: Als u wenst om het volledige document te uploaden, moet u een proef creëren. 
     </td>
     </tr>
     <tr>
-    <td><strong>ePub en EPUB-VASTE</strong>
+    <td><strong> EPUBS en EPUB-VASTE </strong>
     </td>
     <td>Geen aanpassingen nodig.
     </td>
     </tr>
     <tr>
-    <td><strong>IDML</strong>
+    <td><strong> IDML </strong>
     </td>
     <td>Geen aanpassingen nodig.
     </td>
     </tr>
     <tr>
-    <td><strong>JPG</strong>
+    <td><strong>JPG </strong>
     </td>
-    <td>Selecteren <strong>Bereiken</strong> en typ één paginanummer. 
+    <td>Selecteer <strong> Waaier </strong> en typ één enkel paginanummer. 
     <p>
-    <strong>Opmerking</strong>: Als u het volledige document wilt uploaden, moet u een proefdruk maken. 
+    <strong> Nota </strong>: Als u wenst om het volledige document te uploaden, moet u een proef creëren. 
     </td>
     </tr>
     <tr>
-    <td><strong>PNG</strong>
+    <td><strong> PNG </strong>
     </td>
-    <td>Selecteren <strong>Bereiken</strong> en typ één paginanummer. 
+    <td>Selecteer <strong> Waaier </strong> en typ één enkel paginanummer. 
     <p>
-    <strong>Opmerking</strong>: Als u het volledige document wilt uploaden, moet u een proefdruk maken. 
+    <strong> Nota </strong>: Als u wenst om het volledige document te uploaden, moet u een proef creëren. 
     </td>
     </tr>
     <tr>
-    <td><strong>XML</strong>
+    <td><strong> XML </strong>
     </td>
     <td>Geen aanpassingen nodig. 
     </td>

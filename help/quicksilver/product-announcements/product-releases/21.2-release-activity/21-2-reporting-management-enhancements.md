@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2 Verbeterde rapportering
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Uren bewerken in projecten en rapporten beperken
 
@@ -25,7 +25,7 @@ Om meer controle over uren het uitgeven op het lusje van Uren in een project en 
 
 Eerder konden gebruikers met Timesheets en uren ingeschakeld in hun toegangsniveau uren bewerken.
 
-Zie voor meer informatie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor meer informatie, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ## Nieuwe look en feel voor het veld Toewijzingen in bijgewerkte lijsten en rapporten
 
@@ -42,7 +42,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Een nieuw pictogram voor beperkte toegang
 * Andere kleine ontwerpwijzigingen
 
-Zie voor meer informatie over toewijzingen in lijsten [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md).
+Voor meer informatie over taken in lijsten, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [ kwesties toewijzen ](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -62,7 +62,7 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Wanneer u op een veld van de typekop klikt, wordt het menu met suggesties weergegeven voordat u tekst invoert.
 * Het menu met suggesties reageert beter op de lengte van waarden en deze waarden worden nu afgekapt aan het einde wanneer aan de tekenlimiet wordt voldaan in plaats van in het midden van de waarde.
 
-Voor informatie over bijgewerkte lijsten raadpleegt u de [Het verschil tussen de bijgewerkte en de oudere lijsten](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in het artikel [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over bijgewerkte lijsten, zie het [ verschil tussen de bijgewerkte en erfenislijsten ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sectie in het artikel [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 
@@ -80,5 +80,5 @@ U kunt dit rapport bijvoorbeeld zo instellen dat activiteit wordt weergegeven ro
 
 Eerder kon u alleen via de Workfront API rapporteren over systeemupdates.
 
-Ga voor meer informatie over dit rapport en waarvoor u het kunt gebruiken naar [Rapport over het gebied Updates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Meer over dit rapport leren en wat u het kunt gebruiken, zie [ Rapport over het gebied van Updates ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Toegangsniveau</p></td>
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Typen grafieken in Workfront-doelen
 
@@ -99,7 +99,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
     <ul> 
      <li>Een totaal aantal doelstellingen voor de geselecteerde periode. Er wordt rekening gehouden met doelstellingen met elke status. </li> 
      <li>De voortgangsstatus van doelen met de status Actief en Gesloten.</li> 
-    </ul> <p>Ga voor informatie over hoe Workfront Goals de status van progress berekent naar <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overzicht van de voortgang en conditie van het doel in de Adobe Workfront-doelstellingen</a>.</p> </td> 
+    </ul> <p>Voor informatie over hoe de Doelen van Workfront vooruitgangsstatus berekent, zie <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref"> Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The Goal Progress Chart</td> 
@@ -114,14 +114,14 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 ## Voortgang van doel van grafieken controleren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) > **Doelen** in de rechterbovenhoek.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Dit opent het gebied van de Doelen van Workfront.
 
-1. Klikken **Grafieken** in het linkerdeelvenster.
+1. Klik **Grafieken** in het linkerpaneel.
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -134,7 +134,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. (Optioneel) Selecteer het type informatie dat u wilt weergeven door de filters in de rechterbovenhoek van de sectie Grafieken bij te werken.
 
-   Voor meer informatie over het filtreren van doelstellingen, zie [Gegevens filteren in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Voor meer informatie over het filtreren van doelstellingen, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -171,14 +171,14 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. Houd een weekknooppunt boven in het voortgangsdiagram voor het doel en bekijk het volgende:
 
-   * **Weekdatum**: De maand, de dag en het jaar van de geselecteerde week.
+   * **de datum van de Week**: De maand, de dag, en het jaar van de geselecteerde week.
    * **Voortgang**: Een gemiddelde van het daadwerkelijke percentage voltooide van alle doelstellingen voor de geselecteerde week.
    * **Basislijn**: Een gemiddelde van het verwachte percentage voltooide van alle doelstellingen voor de geselecteerde week.
 
-1. (Optioneel) Klik op **Voortgang** onder aan het voortgangsdiagram om de huidige algemene voortgangslijn te verwijderen
+1. (Facultatief) klik **Voortgang** bij de bodem van de vooruitgangsgrafiek om de daadwerkelijke algemene vooruitgangslijn te verwijderen
 
    of
 
-   Klikken **Basislijn** onder aan het voortgangsdiagram om de verwachte voortgang uit het diagram te verwijderen.
+   Klik **Basislijn** bij de bodem van de vooruitgangsgrafiek om de verwachte vooruitgang uit de grafiek te verwijderen.
 
  

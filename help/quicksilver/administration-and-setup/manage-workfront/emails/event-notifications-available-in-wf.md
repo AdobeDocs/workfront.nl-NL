@@ -19,14 +19,14 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Gebeurtenismeldingen worden geactiveerd door verschillende typen gebeurtenissen op objecten, zoals projecten, taken en problemen, zoals wordt uitgelegd in [Gebeurtenismeldingen](../../../workfront-basics/using-notifications/event-notifications.md).
+De berichten van de gebeurtenis worden e-mail teweeggebracht door diverse soorten gebeurtenissen op voorwerpen zoals projecten, taken, en kwesties, zoals die in [ berichten van de Gebeurtenis ](../../../workfront-basics/using-notifications/event-notifications.md) worden verklaard.
 
 Deze meldingen kunnen op systeem- en groepsniveau worden geconfigureerd:
 
-* Voor informatie over het configureren van gebeurtenismeldingen op systeemniveau raadpleegt u [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Voor informatie over het configureren van gebeurtenismeldingen op groepsniveau raadpleegt u [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* Voor informatie over het vormen van gebeurtenisberichten op het systeemniveau, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+* Voor informatie over het vormen van gebeurtenisberichten op het groepsniveau, zie [ Mening en vorm gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Individuele gebruikers kunnen hun individuele gebeurtenismeldingen ook in hun afzonderlijke profiel activeren en deactiveren. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Individuele gebruikers kunnen hun individuele gebeurtenismeldingen ook in hun afzonderlijke profiel activeren en deactiveren. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 In de volgende tabellen staan alle Adobe Workfront-gebeurtenismeldingen, een korte beschrijving van de gebeurtenis en of de gebeurtenis standaard actief of inactief is.
 
@@ -36,7 +36,7 @@ In de volgende tabellen staan alle Adobe Workfront-gebeurtenismeldingen, een kor
 
 ## Actie vereist
 
-Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Zie ook [ Meldingen: Actie nodig ](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Probleem</p> </td> 
    <td> <p>Afgeven in afwachting van goedkeuring</p> </td> 
    <td> <p>Fiatteurs</p> </td> 
-   <td> <p>Ik moet een kwestie goedkeuren.</p> <p>Welke gebruikers een e-mailbericht voor deze gebeurtenis ontvangen hangt af van of "Approver niet vereist om op het projectteam (voor goedkeuringsprocessen te zijn die een rol omvatten)"het plaatsen wordt toegelaten (zoals die in wordt beschreven <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Algemene goedkeuringsinstellingen configureren</a>). </p> <p>Als deze optie is ingeschakeld</strong>, wordt een e-mailbericht verzonden naar alle gebruikers in het systeem met de functie "fiatteur".</p> <p>Als deze optie is uitgeschakeld</strong>, ontvangen alleen projectteamleden met de functie "fiatteur" een e-mailbericht.</p> <p>Een bericht wordt verzonden als het project in de Planning of Huidige status is. </p> </td> 
+   <td> <p>Ik moet een kwestie goedkeuren.</p> <p>Welke gebruikers een e-mailbericht voor deze gebeurtenis ontvangen hangt af van of "Approver niet op het projectteam (voor goedkeuringsprocessen moet zijn die een rol)"plaatsen wordt toegelaten (zoals die in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref"> wordt beschreven vormt globale goedkeuringsmontages </a>). </p> <p>Als deze optie </strong> wordt toegelaten, wordt een e-mailbericht verzonden naar alle gebruikers in het systeem met de "Approver"Rol van de Baan.</p> <p>Als deze optie </strong> gehandicapt is, slechts ontvangen de leden van het projectteam met de Rol van de Taak "Approver"een e-mailbericht.</p> <p>Een bericht wordt verzonden als het project in de Planning of Huidige status is. </p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Project</p> </td> 
    <td> <p>Project in behandeling</p> </td> 
    <td> <p>Fiatteurs</p> </td> 
-   <td> <p>Ik moet een project goedkeuren.</p> <p>Welke gebruikers een e-mailbericht voor deze gebeurtenis ontvangen hangt af van of "Approver niet vereist om op het projectteam (voor goedkeuringsprocessen te zijn die een baanrol omvatten)"het plaatsen wordt toegelaten (zoals die in wordt beschreven <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Algemene goedkeuringsinstellingen configureren</a>).</p> <p>Als deze optie is ingeschakeld</strong>, wordt een e-mailbericht verzonden naar alle gebruikers in het systeem met de functie "fiatteur".</p> <p>Als deze optie is uitgeschakeld</strong>, ontvangen alleen projectteamleden met de functie "fiatteur" een e-mailbericht.</p> </td> 
+   <td> <p>Ik moet een project goedkeuren.</p> <p>Welke gebruikers een e-mailbericht voor deze gebeurtenis ontvangen hangt af van of "Approver niet op het projectteam (voor goedkeuringsprocessen moet zijn die een baanrol)"plaatsen wordt toegelaten (zoals die in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref"> wordt beschreven vormt globale goedkeuringsmontages </a>).</p> <p>Als deze optie </strong> wordt toegelaten, wordt een e-mailbericht verzonden naar alle gebruikers in het systeem met de "Approver"Rol van de Baan.</p> <p>Als deze optie </strong> gehandicapt is, slechts ontvangen de leden van het projectteam met de Rol van de Taak "Approver"een e-mailbericht.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
    <td> <p>Taak</p> </td> 
    <td> <p>Taak in afwachting van goedkeuring</p> </td> 
    <td> <p>Fiatteurs</p> </td> 
-   <td> <p>Ik moet een taak goedkeuren.</p> <p>Welke gebruikers een e-mailbericht voor deze gebeurtenis ontvangen hangt af van of "Approver niet vereist om op het projectteam (voor goedkeuringsprocessen te zijn die een rol omvatten)"het plaatsen wordt toegelaten (zoals die in wordt beschreven <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Algemene goedkeuringsinstellingen configureren</a>). </p> <p>Als deze optie is ingeschakeld</strong>, wordt een e-mailbericht verzonden naar alle gebruikers in het systeem met de functie "fiatteur".</p> <p>Als deze optie is uitgeschakeld</strong>, ontvangen alleen projectteamleden met de functie "fiatteur" een e-mailbericht.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment van de aanvraag.</p> </td> 
+   <td> <p>Ik moet een taak goedkeuren.</p> <p>Welke gebruikers een e-mailbericht voor deze gebeurtenis ontvangen hangt af van of "Approver niet op het projectteam (voor goedkeuringsprocessen moet zijn die een rol)"plaatsen wordt toegelaten (zoals die in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref"> wordt beschreven vormt globale goedkeuringsmontages </a>). </p> <p>Als deze optie </strong> wordt toegelaten, wordt een e-mailbericht verzonden naar alle gebruikers in het systeem met de "Approver"Rol van de Baan.</p> <p>Als deze optie </strong> gehandicapt is, slechts ontvangen de leden van het projectteam met de Rol van de Taak "Approver"een e-mailbericht.</p> <p>Er wordt alleen een melding verzonden als de projectstatus Huidig is op het moment van de aanvraag.</p> </td> 
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Zie ook [Meldingen: Actie vereist](../../../workfront-basics/using-notifications
 
 ## Verzoeken die ik heb ingediend
 
-Zie ook [Meldingen: verzoeken die ik heb ingediend](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Zie ook [ Meldingen: Verzoeken ik ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) heb gemaakt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Zie ook [Meldingen: verzoeken die ik heb ingediend](../../../workfront-basics/us
    <td> <p>Document</p> </td> 
    <td> <p>Document aanvragen</p> </td> 
    <td> <p>Primaire contactpersoon voor probleem</p> </td> 
-   <td> <p>Een document wordt gewijzigd of geüpload op een probleem waarvoor ik de primaire contactpersoon ben.</p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer een document wordt geüpload of gewijzigd tijdens de uitgave, tenzij de gebruiker die het document heeft geüpload of gewijzigd ook de primaire contactpersoon is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.</p> </td> 
+   <td> <p>Een document wordt gewijzigd of geüpload op een probleem waarvoor ik de primaire contactpersoon ben.</p> <p>De primaire contactpersoon van de uitgave ontvangt een e-mailbericht wanneer een document wordt geüpload of gewijzigd tijdens de uitgave, tenzij de gebruiker die het document heeft geüpload of gewijzigd ook de primaire contactpersoon is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "Publish als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.</p> </td> 
    <td> <p>Actief (alleen dagelijks)</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Zie ook [Meldingen: verzoeken die ik heb ingediend](../../../workfront-basics/us
 
 ## Communicatie
 
-Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/notifications-communication.md).
+Zie ook [ Meldingen: Communicatie ](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
    <td> <p>Document</p> </td> 
    <td> <p>Opmerkingen in document</p> </td> 
    <td> <p>Documenteigenaar</p> </td> 
-   <td> <p>Er wordt een opmerking toegevoegd aan mijn document.</p> <p>De eigenaar van een document in Workfront ontvangt een e-mailbericht wanneer een opmerking in het document wordt geplaatst, tenzij de gebruiker die de opmerking heeft geplaatst ook de eigenaar van het document is.</p> <p>Gebruikers die rechtstreeks in de opmerking zijn opgenomen, ontvangen ook een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is. </p> <p>Het onderwerp van de e-mail met onmiddellijke kennisgeving is: <em>Opmerking over &lt;request name=""&gt; op &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> Het onderwerp van de dagelijkse overzichtsmelding is:<em> Samenvatting van communicatie &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>Er wordt een opmerking toegevoegd aan mijn document.</p> <p>De eigenaar van een document in Workfront ontvangt een e-mailbericht wanneer een opmerking in het document wordt geplaatst, tenzij de gebruiker die de opmerking heeft geplaatst ook de eigenaar van het document is.</p> <p>Gebruikers die rechtstreeks in de opmerking zijn opgenomen, ontvangen ook een e-mailbericht.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is. </p> <p>Het onderwerp van de directe bericht e-mail is: <em> Commentaar op &lt;Naam van Verzoek&gt; op &lt;Naam van Project&gt; (ref# &lt;Nummer van de Referentie van het Verzoek&gt;) </em></p> <p> Het onderwerp van het dagelijkse samenvattingsbericht is:<em> Samenvatting van Mededeling &lt;Datum van dagelijkse samenvatting&gt; </em></p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
@@ -311,14 +311,14 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
    <td> <p>Gebruiker</p> </td> 
    <td>Gerichte update</td> 
    <td>Gebruiker</td> 
-   <td> <p>Iemand neemt mij op een geleide update.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p> <p>In dit geval ontvangt de gebruiker die is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden als de gebruiker toegangsrechten heeft voor het object en als deze ingeschakeld blijft in het profiel.  </p> <p>Deze gebeurtenismelding wordt standaard geactiveerd en kan niet worden gedeactiveerd.</p> </td> 
+   <td> <p>Iemand neemt mij op een geleide update.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref"> wordt beschreven Tags anderen op updates </a>.</p> <p>In dit geval ontvangt de gebruiker die is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden als de gebruiker toegangsrechten heeft voor het object en als deze ingeschakeld blijft in het profiel.  </p> <p>Deze gebeurtenismelding wordt standaard geactiveerd en kan niet worden gedeactiveerd.</p> </td> 
    <td> <p>Actief</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
    <td> <p>Gerichte update</p> </td> 
    <td> <p>Teamleden</p> </td> 
-   <td> <p>Iemand neemt mijn team op een geleide update op.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Andere tags toepassen op updates</a>.</p> <p>In dit geval ontvangt elk lid van het team dat is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden naar gebruikers die toegangsrechten hebben voor het object van de update.</p> <p>Als de gebruiker die de gestuurde update verzendt lid is van het team dat wordt opgenomen, ontvangt de gebruiker die de update verzendt geen e-mailbericht.</p> </td> 
+   <td> <p>Iemand neemt mijn team op een geleide update op.</p> <p>Een geleide update is wanneer een gebruiker specifiek een andere gebruiker in een update omvat, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref"> wordt beschreven Tags anderen op updates </a>.</p> <p>In dit geval ontvangt elk lid van het team dat is opgenomen in de gestuurde update een e-mailmelding over de update.</p> <p>Het e-mailbericht wordt alleen verzonden naar gebruikers die toegangsrechten hebben voor het object van de update.</p> <p>Als de gebruiker die de gestuurde update verzendt lid is van het team dat wordt opgenomen, ontvangt de gebruiker die de update verzendt geen e-mailbericht.</p> </td> 
    <td> <p>Actief (alleen dagelijks)</p> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ Zie ook [Meldingen: Communicatie](../../../workfront-basics/using-notifications/
 
 ## Goedkeuringsinformatie
 
-Zie ook [Meldingen: goedkeuringsgegevens](../../../workfront-basics/using-notifications/notifications-approval-information.md).
+Zie ook [ Meldingen: De informatie van de Goedkeuring ](../../../workfront-basics/using-notifications/notifications-approval-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -424,7 +424,7 @@ Zie ook [Meldingen: goedkeuringsgegevens](../../../workfront-basics/using-notifi
 
 ## Informatie over werk dat aan mij is toegewezen
 
-Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Zie ook [ Meldingen: Informatie over het werk dat aan me ](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md) wordt toegewezen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -494,7 +494,7 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
    <td> <p>Document</p> </td> 
    <td> <p>Document aanvragen</p> </td> 
    <td> <p>Gebruiker waaraan de uitgave is toegewezen</p> </td> 
-   <td> <p>Documenten worden geüpload of gewijzigd op aanvragen waaraan ik toegewezen ben.</p> <p>De uitgevers ontvangen een e-mailbericht wanneer documenten worden geüpload of gewijzigd in een uitgave die zij hebben toegevoegd.</p> <p>Er wordt geen e-mailbericht verzonden als de gebruiker die de uitgave heeft ingevoerd, de uitgever is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "publiceer als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.</p> </td> 
+   <td> <p>Documenten worden geüpload of gewijzigd op aanvragen waaraan ik toegewezen ben.</p> <p>De uitgevers ontvangen een e-mailbericht wanneer documenten worden geüpload of gewijzigd in een uitgave die zij hebben toegevoegd.</p> <p>Er wordt geen e-mailbericht verzonden als de gebruiker die de uitgave heeft ingevoerd, de uitgever is.</p> <p>Een bericht wordt verzonden slechts als de projectstatus Huidig is en als het project "Publish als Rij van het Verzoek van de Hulp"heeft die op het lusje van de Opstelling van de Rij wordt toegelaten.</p> </td> 
    <td> <p>Actief (alleen dagelijks)</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ Zie ook [Meldingen: Informatie over werk dat aan mij is toegewezen](../../../wor
 
 ## Informatie over projecten die ik op
 
-Zie ook [Meldingen: Informatie over projecten waar ik op sta](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Zie ook [ Meldingen: Informatie over projecten ik op ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md) ben.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -627,7 +627,7 @@ Zie ook [Meldingen: Informatie over projecten waar ik op sta](../../../workfront
 
 ## Informatie over projecten die ik bezit
 
-Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md).
+Zie ook [ Meldingen: Informatie over projecten ik ](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md) bezit.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -726,7 +726,7 @@ Zie ook [Meldingen: Informatie over projecten die ik bezit](../../../workfront-b
 
 ## Informatie over door mij gefinancierde projecten
 
-Zie ook [Meldingen: Informatie over projecten die ik financier](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md).
+Zie ook [ Meldingen: Informatie over projecten ik ](../../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md) sponsor.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ Zie ook [Meldingen: Informatie over projecten die ik financier](../../../workfro
 
 ## Overige informatie
 
-Zie ook [Meldingen: Diverse informatie](../../../workfront-basics/using-notifications/notifications-misc-information.md).
+Zie ook [ Meldingen: Diverse informatie ](../../../workfront-basics/using-notifications/notifications-misc-information.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ Zie ook [Meldingen: Diverse informatie](../../../workfront-basics/using-notifica
    <td> <p>Gebruiker</p> </td> 
    <td> <p>Nieuwe gebruiker</p> </td> 
    <td> <p>Gebruiker</p> </td> 
-   <td> <p>Als er een nieuwe gebruiker in Workfront wordt gemaakt, stuurt u een e-mail naar de gebruiker.</p> <p>Nadat de nieuwe gebruiker is gemaakt, ontvangt de gebruiker een e-mailuitnodiging, waarin hij of zij aangeeft dat een Workfront-account is gemaakt en waarin hij of zij wordt gevraagd hun wachtwoord in te stellen.</p> <p>Wanneer gebruikers een nieuwe gebruiker maken, kunnen ze de optie "E-mail voor een uitnodiging naar deze persoon verzenden" selecteren (zoals beschreven in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Gebruikers toevoegen</a><span style="font-weight: 400;">). Wanneer de optie Nieuwe gebruiker naar gebruiker echter is ingeschakeld, ontvangen alle nieuwe gebruikers de e-mailuitnodiging, ongeacht of de optie "E-mailuitnodiging verzenden naar deze persoon" is geselecteerd.</span></p> </td> 
+   <td> <p>Als er een nieuwe gebruiker in Workfront wordt gemaakt, stuurt u een e-mail naar de gebruiker.</p> <p>Nadat de nieuwe gebruiker is gemaakt, ontvangt de gebruiker een e-mailuitnodiging, waarin hij of zij aangeeft dat een Workfront-account is gemaakt en waarin hij of zij wordt gevraagd hun wachtwoord in te stellen.</p> <p>Wanneer het creëren van een nieuwe gebruiker, kunnen de gebruikers de optie "verzenden e-mail naar deze persoon"selecteren (zoals die in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref"> wordt beschreven voegt gebruikers </a> <span style="font-weight: 400;"> toe). Nochtans, wanneer de "Nieuwe Gebruiker aan Gebruiker"optie globaal wordt toegelaten, ontvangen alle nieuwe gebruikers de e-mailuitnodiging ongeacht of "verzend een uitnodigingsE-mail naar deze persoon"optie wordt geselecteerd.</span></p> </td> 
    <td> Inactief </td> 
   </tr> 
   <tr> 
@@ -900,10 +900,10 @@ Zie ook [Meldingen: Diverse informatie](../../../workfront-basics/using-notifica
    <td> <p>Inactief</p> </td> 
   </tr> 
   <tr> 
-   <td> Project <br>Taak <br>Probleem</td> 
+   <td> Project <br> Taak <br> Uitgave</td> 
    <td>Nieuwe update</td> 
    <td>Abonnement </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Er wordt een e-mail verzonden wanneer er een update wordt uitgevoerd naar een taak, uitgave of project waarop ik ben geabonneerd.</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium"> een e-mail wordt verzonden wanneer een update aan een taak, een kwestie, of een project wordt gemaakt dat ik aan geabonneerd.</span> </p> </td> 
    <td>Actief (alleen direct)</td> 
   </tr> 
  </tbody> 
@@ -919,7 +919,7 @@ Zie ook [Meldingen: Diverse informatie](../../../workfront-basics/using-notifica
 
 ## Delegatie
 
-Zie ook [Meldingen: Delegatie](../../../workfront-basics/using-notifications/notifications-delegation.md).
+Zie ook [ Meldingen: Delegatie ](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Objecttype | Gebeurtenis | Ontvanger | Beschrijving | Standaardstatus |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|

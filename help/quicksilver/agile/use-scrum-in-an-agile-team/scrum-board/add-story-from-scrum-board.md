@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Artikelen en problemen toevoegen uit het dialoogvenster [!UICONTROL Scrum] board
+# Artikelen en problemen toevoegen vanuit het [!UICONTROL Scrum] -bord
 
 U kunt snel een nieuw artikel maken of een nieuw artikel rechtstreeks vanaf het Klembord publiceren of een bestaand artikel of een bestaande uitgave van het Klembord toevoegen.
 
 >[!NOTE]
 >
->Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op het tabblad [!UICONTROL Edit Team] pagina. Zie de sectie [[!UICONTROL Configure] hoe datums worden toegepast bij het toevoegen van werkitems aan een herhaling](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [Scrum configureren](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [ vormen de Trommel ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Toegangsvereisten
 
@@ -39,24 +39,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project de taak of de kwestie is</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] toegang tot het project de taak of de kwestie is</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een nieuw artikel of een nieuw probleem maken via het tekengebied
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen, of **[!UICONTROL Current Iteration]**.
-1. Klikken **[!UICONTROL Add]** aan de rechterkant van het scrum en selecteer **[!UICONTROL New Story]** of **[!UICONTROL New Issue]**.
-1. In de **[!UICONTROL New]** voegt u de volgende informatie toe:
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
+1. Klik op **[!UICONTROL Add]** aan de rechterkant van het Klembord en selecteer **[!UICONTROL New Story]** of **[!UICONTROL New Issue]** .
+1. Voeg de volgende informatie toe in het dialoogvenster **[!UICONTROL New]** :
 
    <table style="table-layout:auto">
     <tr>
@@ -77,13 +77,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tr>
    </table>
 
-1. Klikken **[!UICONTROL Add Story]** of **[!UICONTROL Add Issue]**.
+1. Klik op **[!UICONTROL Add Story]** of **[!UICONTROL Add Issue]** .
 
-## Een bestaand artikel of een bestaand probleem toevoegen vanuit het menu [!UICONTROL Scrum] board
+## Een bestaand artikel of een bestaand probleem toevoegen via het [!UICONTROL Scrum] -bord
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen, of **[!UICONTROL Current Iteration]**.
-1. Klikken **[!UICONTROL Add]** aan de rechterkant van het scrum en selecteer **[!UICONTROL Existing Story]** of **[!UICONTROL Existing Issue]**.
-1. In de **[!UICONTROL Add Existing from Backlog]** , typt u de naam van een artikel of uitgave en selecteert u het artikel wanneer het in de lijst wordt weergegeven.
-1. Klikken **[!UICONTROL Add Story]** of **[!UICONTROL Add Issue]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
+1. Klik op **[!UICONTROL Add]** aan de rechterkant van het Klembord en selecteer **[!UICONTROL Existing Story]** of **[!UICONTROL Existing Issue]** .
+1. Typ in het dialoogvenster **[!UICONTROL Add Existing from Backlog]** de naam van een artikel of uitgave en selecteer het artikel wanneer het in de lijst wordt weergegeven.
+1. Klik op **[!UICONTROL Add Story]** of **[!UICONTROL Add Issue]** .

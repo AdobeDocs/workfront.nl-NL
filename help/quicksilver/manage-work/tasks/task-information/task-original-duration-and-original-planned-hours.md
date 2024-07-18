@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Als deel van het plannen van een project, zou u de waarden voor de Geplande Uren en voor de Duur (of Geplande Duur) van elke taak in het project moeten bepalen.
 
-Voor meer informatie over Geplande Uren op taken, zie [Overzicht van geplande uren](../../../manage-work/tasks/task-information/planned-hours.md).
+Voor meer informatie over Geplande Uren op taken, zie [ Gepland overzicht van Uren ](../../../manage-work/tasks/task-information/planned-hours.md).
 
-Voor meer informatie over taakDuur, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Voor meer informatie over taakDuur, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 U kunt deze waarden weergeven op het tabblad Taakdetails of tijdens het bewerken van een taak.
 
@@ -50,12 +50,12 @@ Het tonen van het Originele gebied van de Duur in een taakrapport of een lijst k
 
 Bijvoorbeeld, wanneer twee taken standalone taken zijn, zijn hun Oorspronkelijke Duur en Oorspronkelijke Geplande Uren nul.
 
-![original_scheduled_hours_and_duration_without_parent.png](assets/original-planned-hours-and-duration-without-parent-350x38.png)
+![ original_scheduled_hours_and_duration_without_parent.png ](assets/original-planned-hours-and-duration-without-parent-350x38.png)
 
 Wanneer de eerste taak de ouder van de tweede taak wordt, worden de Originele Duur en Oorspronkelijke Geplande gebieden van Uren bevolkt met de waarden voor de Duur en Geplande Uren van de taak alvorens het een ouder werd. De originele Duur wordt getoond in notulen. De duur en de geplande uren van het kind worden de Duur en de Geplande Uren van de ouder.
 
-![original_and_scheduled_hours_with_a_parent_task.png](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
+![ original_and_scheduled_hours_with_a_parent_task.png ](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
 
 Wanneer de ouder een standalone taak opnieuw wordt, keren de Duur en Geplande Uren terug naar de originele waarden, terwijl de Oorspronkelijke Duur en de Oorspronkelijke Geplande Uren bevolkt blijven. Ze keren niet terug naar nul.
 
-![original_duration_and_scheduled_hours_after_reversal_of_a_parent.png](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)
+![ original_duration_and_scheduled_hours_after_reversal_of_a_parent.png ](assets/original-duration-and-planned-hours-after-reversal-of-a-parent-350x39.png)

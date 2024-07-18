@@ -5,24 +5,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud-bibliotheekmodules
-description: Met de [!DNL Adobe Workfront Fusion Adobe Creative Cloud] De modules van Bibliotheken, kunt u een scenario beginnen wanneer een element of een bibliotheek worden gecreeerd of wordt bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken, of een oproep doen aan de [!DNL Adobe Creative Cloud Libraries] API.
+description: Met de  [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  modules van Bibliotheken, kunt u een scenario beginnen wanneer een element of een bibliotheek worden gecreeerd of bijgewerkt. U kunt ook uploaden, terugwinnen, archiveren, of lijstelementen, of een vraag aan  [!DNL Adobe Creative Cloud Libraries]  API maken.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # Adobe Creative Cloud-bibliotheekmodules
 
-Met de [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] modules, kunt u een scenario beginnen wanneer een element of een bibliotheek worden gecreeerd of wordt bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken, of een oproep doen aan de [!DNL Adobe Creative Cloud Libraries] API.
+Met de modules [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] kunt u een scenario starten wanneer een element of bibliotheek wordt gemaakt of bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken of een aanroep naar de API van [!DNL Adobe Creative Cloud Libraries] maken.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario ](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -47,36 +47,36 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
       <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Adobe Creative Cloud Libraries] modules, moet u een [!UICONTROL Adobe Creative Cloud] account.
+Als u [!DNL Adobe Creative Cloud Libraries] -modules wilt gebruiken, hebt u een [!UICONTROL Adobe Creative Cloud] -account nodig.
 
 ## [!UICONTROL Adobe Creative Cloud Libraries] modules en hun velden
 
-Wanneer u [!UICONTROL Adobe Creative Cloud Libraries] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Adobe Creative Cloud Libraries] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Adobe Creative Cloud Libraries] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Creative Cloud Libraries] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -113,7 +113,7 @@ Deze actiemodule archiveert een element uit een bibliotheek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -136,7 +136,7 @@ Deze actiemodule retourneert één element uit een bibliotheek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -182,7 +182,7 @@ Deze actiemodule wint een lijst van elementen in een bibliotheek terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -194,7 +194,7 @@ Deze actiemodule wint een lijst van elementen in een bibliotheek terug.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Type]</td>
-      <td >Voer een MIME-type in om de resultaten te beperken tot elementen die met het opgegeven MIME-type zijn geïdentificeerd. Voorbeeld: <code>string</code>.</td>
+      <td >Voer een MIME-type in om de resultaten te beperken tot elementen die met het opgegeven MIME-type zijn geïdentificeerd. Voorbeeld: <code>string</code> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Selector]</td>
@@ -236,7 +236,7 @@ Deze actiemodule uploadt een klein bestandsmiddel naar een bestaande bibliotheek
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -287,7 +287,7 @@ Deze triggermodule start een scenario wanneer een element aan een bibliotheek wo
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -311,7 +311,7 @@ Deze triggermodule start een scenario wanneer een element in een bibliotheek wor
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -341,7 +341,7 @@ Deze triggermodule start een scenario wanneer een nieuwe bibliotheek wordt gemaa
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -360,7 +360,7 @@ Deze triggermodule start een scenario wanneer een bestaande bibliotheek wordt bi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Voor instructies over het aansluiten van uw [!DNL Adobe Creative Cloud] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies.</td>
+      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -381,13 +381,13 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Creative Cloud 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Ga voor instructies over het verbinden van uw Adobe Creative Cloud-account met Workfront Fusion naar <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe Workfront Fusion - Basisinstructies.</a></p>
+      <td> <p>Voor instructies over het aansluiten van uw rekening van Adobe Creative Cloud aan de Fusie van Workfront, zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Een pad invoeren ten opzichte van <code>https://cc-libraries.adobe.io/api</code>.</p>
-    <p>Bijvoorbeeld <code>/v1/libraries</code>.</p>
+        <p>Voer een pad in dat relatief is ten opzichte van <code>https://cc-libraries.adobe.io/api</code> .</p>
+    <p>Bijvoorbeeld <code>/v1/libraries</code> .</p>
       </td>
     </tr>
     <tr>
@@ -397,7 +397,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Creative Cloud 
       </td>
     </tr>    <tr>
       <td role="rowheader">[!UICONTROL Method]</td>
-      <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref"> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -416,7 +416,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Creative Cloud 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

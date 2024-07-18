@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -43,36 +43,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## De URL delen
 
-U kunt een proef via een URL delen als de eigenaar de proef voor het delen heeft gevormd. Eigenaars van proefdrukken kunnen instellingen voor delen op elk gewenst moment bijwerken. Zie voor meer informatie [Proefdrukinstellingen bewerken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+U kunt een proef via een URL delen als de eigenaar de proef voor het delen heeft gevormd. Eigenaars van proefdrukken kunnen instellingen voor delen op elk gewenst moment bijwerken. Voor meer informatie, zie [ proefdrukmontages ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uitgeven.
 
-1. Als het linkerpictogrammenu niet wordt weergegeven, klikt u op de knop **Menu** in de linkerbovenhoek van de proefdrukviewer.
+1. Als het linkerpictogrammenu niet wordt getoond, klik het **pictogram van het Menu** op de upper-left hoek van de het proef kijker.
 
    ![](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Klik in het linkerpictogrammenu van de proefdrukviewer op de knop **Delen** pictogram.
+1. In het linkerpictogrammenu van de het proef kijker, klik het **Aandeel** pictogram.
 
-   ![Share_btn_in_viewer.png](assets/share-btn-in-viewer.png)
+   ![ Share_btn_in_viewer.png ](assets/share-btn-in-viewer.png)
 
-1. In de **Proef delen** opties die worden weergegeven, controleert u of **Share-able-koppeling ophalen** is geselecteerd.
+1. In de **de proefdruk van het Aandeel** opties die verschijnen, zorg ervoor **aandeelbare verbinding** krijgt wordt geselecteerd.
 
 1.  Voer een van de volgende handelingen uit:
 
-   * Als u de koppeling naar het klembord wilt kopiëren, klikt u op **Koppeling kopiëren**.
+   * Om de verbinding aan uw klembord te kopiëren, klik **verbinding van het Exemplaar**.
 
-      U kunt de koppeling nu distribueren via een hulpprogramma van derden, zoals een chat of een e-mailtoepassing.
+     U kunt de koppeling nu distribueren via een hulpprogramma van derden, zoals een chat of een e-mailtoepassing.
 
    * Ga als volgt te werk om de koppeling rechtstreeks vanuit Adobe Workfront te e-mailen:
 
-      1. In de **Of e-mailkoppeling naar** -veld, begint u te typen en selecteert u de naam van de ontvanger. Of geef het e-mailadres op van een externe gebruiker met wie u wilt delen.
+      1. In het **of e-mailverbinding aan** gebied, begin typend en selecteer de naam van uw ontvanger. Of geef het e-mailadres op van een externe gebruiker met wie u wilt delen.
 
          >[!NOTE]
          >
@@ -86,7 +86,7 @@ U kunt een proef via een URL delen als de eigenaar de proef voor het delen heeft
           <tbody>
            <tr>
             <td role="rowheader">Openbare koppeling verzenden</td>
-            <td><p>Bevat een knop in het e-mailbericht waarmee gebruikers naar de proefdruk worden geleid in de kijker die ze controleren en waarmee ze toegang krijgen tot de weergave.</p><p>Indien <strong>Abonneren op bewijs via openbare URL of insluitcode</strong> is uitgeschakeld voor de proefdruk, kunnen gebruikers zich aanmelden met hun aanmeldingsgegevens voor Workfront om opmerkingen toe te voegen aan de proefdruk. Als deze optie is ingeschakeld, kan iedereen die zijn e-mailadres en naam (geen wachtwoord vereist) opgeeft, ondertekenen en opmerkingen toevoegen aan de proefdruk.</p></td>
+            <td><p>Bevat een knop in het e-mailbericht waarmee gebruikers naar de proefdruk worden geleid in de kijker die ze controleren en waarmee ze toegang krijgen tot de weergave.</p><p>Als <strong> aan bewijs via openbare URL of inbedt code </strong> wordt toegelaten voor de proef, kunnen de gebruikers binnen met hun login van Workfront geloofsbrieven ondertekenen om commentaren aan de proef toe te voegen. Als deze optie is ingeschakeld, kan iedereen die zijn e-mailadres en naam (geen wachtwoord vereist) opgeeft, ondertekenen en opmerkingen toevoegen aan de proefdruk.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Download-koppeling verzenden</td>
@@ -99,7 +99,7 @@ U kunt een proef via een URL delen als de eigenaar de proef voor het delen heeft
           </tbody>
          </table>
 
-      1. Klikken **Verzenden**.
+      1. Klik **verzenden**.
 
          De ontvangers ontvangen een e-mailbericht met informatie over de proefdruk en de knoppen die u wilt opnemen.
 
@@ -111,11 +111,11 @@ U kunt een proef via insluitcode delen als de proefbesteller het voor dit heeft 
 
 Een proefdruk delen via de insluitcode:
 
-1. Klik op de werkbalk links van de proefdrukviewer op de knop **Delen** pictogram.
+1. In de toolbar op de linkerzijde van de het proefKijker, klik het **pictogram van het Aandeel**.
 
-   ![Share_btn_in_viewer__1_.png](assets/share-btn-in-viewer--1-.png)
+   ![ Share_btn_in_viewer__1_.png ](assets/share-btn-in-viewer--1-.png)
 
-1. In de **Proef delen** opties die worden weergegeven, klikt u op **Insluitcode ophalen** en klik vervolgens op **Kopiëren**.
+1. In de **de proefdruk van het Aandeel** opties die verschijnen, klik **bed code** in, dan klik **Exemplaar**.
 
 ## Een proefdruk delen door er gebruikers aan toe te voegen
 
@@ -125,33 +125,33 @@ U kunt gebruikers aan een proef toevoegen terwijl het herzien van een proef als 
 * Beheerdersmachtigingen en u bent de maker of eigenaar van de proefdrukken
 * De toestemmingen van de manager met de de proefdrukrol van de Auteur of van de Moderator
 
-Als de proefdruk een Geautomatiseerde Werkstroom heeft, kunt u de gebruiker aan een individueel stadium toevoegen. Zie voor meer informatie [Geautomatiseerd workflowoverzicht](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Als de proefdruk een Geautomatiseerde Werkstroom heeft, kunt u de gebruiker aan een individueel stadium toevoegen. Voor meer informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Standaard voegen gebruikers die u toevoegt aan de proefdruk:
 
 * U ontvangt een e-mailbericht met een koppeling naar de proefdruk.
-* Kan goedkeuringsbesluiten nemen op het bewijs van het Huis of Mijn Gebied van het Werk, zoals beschreven in [Goedkeuring van de werkzaamheden](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Kan goedkeuringsbesluiten op het bewijs van het Huis of Mijn gebied van het Werk, zoals die in [ worden beschreven goedkeurend het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * U hoeft geen proefdrukken in te schakelen om de proefdruk te kunnen controleren.
 
-Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. Zie voor meer informatie [Geautomatiseerd workflowoverzicht](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. Voor meer informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Een proefdruk delen met individuele gebruikers:
 
-1. Klik op de werkbalk links van de proefdrukviewer op de knop **Delen** pictogram.
+1. In de toolbar op de linkerzijde van de het proefKijker, klik het **pictogram van het Aandeel**.
 
-   ![Share_btn_in_viewer__2_.png](assets/share-btn-in-viewer--2-.png)
+   ![ Share_btn_in_viewer__2_.png ](assets/share-btn-in-viewer--2-.png)
 
-1. Klikken **Ontvangers toevoegen** in de lijst links.
-1. Onder **Nieuwe ontvangers voor bewijs** typt u eerst de naam van de gebruiker met wie u de proefdruk wilt delen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+1. Klik **toevoegen ontvangers** in de lijst op de linkerzijde.
+1. Onder **Nieuwe proefdrukontvangers**, begin typend de naam van een gebruiker die u de proef met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 1. (Optioneel) Wijzig de revisieopties rechts van de naam van de persoon:
 
-   * **Proefdrukrol**: Zie voor meer informatie [Proefdrukrollen beheren in Workfront-proefdrukken](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   * **rol van het Bewijs**: Voor meer informatie, zie [ de Rollen van het Bewijs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) leiden.
 
-   * **Werkgebied**: (Alleen beschikbaar als de proefdruk een geautomatiseerde workflow heeft). Zie voor meer informatie  [Overzicht van geautomatiseerde werkstroomfasen](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Stadium**: (Beschikbaar slechts als het bewijs een Geautomatiseerde Workflow heeft). Zie voor meer informatie  [ Geautomatiseerd overzicht van de Staven van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
-   * **E-mailwaarschuwingen**: Selecteer een van de volgende opties om op te geven hoe de persoon op de hoogte wordt gesteld van activiteiten op de proefdruk.
+   * **E-mail alarm**: Selecteer één van de volgende opties om te specificeren hoe de persoon over activiteit op de proef zal worden geïnformeerd.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <tbody> 
@@ -161,7 +161,7 @@ Een proefdruk delen met individuele gebruikers:
        </tr> 
        <tr> 
         <td role="rowheader">Reacties op mijn opmerkingen</td> 
-        <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Zie voor meer informatie over opmerkingen <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Opmerkingen over proefdrukken weergeven en beantwoorden</a>.</p></td> 
+        <td>Een e-mail wordt alleen naar de controleur verzonden als iemand uitdrukkelijk op zijn opmerking reageert (dit sluit zijn eigen reacties op zijn eigen opmerkingen uit). Dit betekent dat als iemand op het bewijs een nieuwe opmerking maakt, de controleur niet op de hoogte wordt gesteld.<p>Deze instelling wordt aanbevolen voor uw klanten op de proefdruk, zodat zij geen andere opmerkingen over de proefdruk ontvangen en alleen op de hoogte worden gesteld van antwoorden op hun eigen opmerkingen.</p><p>Hoewel revisoren met deze instelling voor e-mailwaarschuwingen geen melding krijgen van andere nieuwe opmerkingen, kunnen ze alle opmerkingen over de proefdrukken wel bekijken in de proefdrukviewer.</p><p>Voor informatie over commentaren, zie <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref"> Mening en antwoord aan proefdrukcommentaren </a>.</p></td> 
        </tr> 
        <tr> 
         <td role="rowheader">Besluiten</td> 
@@ -177,16 +177,16 @@ Een proefdruk delen met individuele gebruikers:
        </tr> 
        <tr> 
         <td role="rowheader">Dagelijkse samenvatting</td> 
-        <td>Workfront verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Zie voor meer informatie <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Meldingen beheren voor proefopmerkingen en -beslissingen</a>.</p></td> 
+        <td>Workfront verzendt één e-mail met alle commentaren, antwoorden, en besluiten die slechts op dagen worden vermeld wanneer er naast uw activiteiten is.<p>Deze waarschuwing is een goede manier om een samenvatting van het project te zien zonder overweldigd met veelvoudige updates door de dag te worden.</p><p>Een voorbeeld gebruikt geval voor deze samenvatting is een afdelingsleider die de algemene vooruitgang van het project wil controleren.</p><p>Voor meer informatie, zie <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref"> berichten voor proefdrukcommentaren en besluiten </a> leiden.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Geen e-mail</td> 
-        <td>Workfront verzendt geen e-mailberichten.<br>Dit is nuttig voor een persoon die alleen ter referentie aan een bewijs wordt toegevoegd en niet van wijzigingen in kennis hoeft te worden gesteld.<p>Het systeemgebrek is Dagelijkse samenvatting (ook gezien als niet Geplaatst). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td> 
+        <td>Workfront verzendt geen e-mailberichten.<br> dit is nuttig voor een persoon die aan een proef slechts voor verwijzingsdoeleinden wordt toegevoegd en te hoeven niet van om het even welke veranderingen worden op de hoogte gebracht.<p>Het systeemgebrek is Dagelijkse samenvatting (ook gezien als niet Geplaatst). Als u of uw controleurs geen andere wijzigingen aanbrengen, hebben al uw proefdrukken deze instelling.</p></td> 
        </tr> 
       </tbody> 
      </table>
 
 1. (Optioneel) Herhaal de twee vorige stappen om meerdere gebruikers aan de proefdruk toe te voegen. 
-1. (Optioneel) Stel een **Deadline** voor de controleurs (alleen beschikbaar als de proefdruk geen geautomatiseerde workflow heeft).
-1. (Optioneel) Selecteer **E-mailbericht verzenden naar nieuwe ontvangers** om hen te laten weten dat u ze aan het bewijs hebt toegevoegd.
-1. Als u klaar bent met het toevoegen van gebruikers aan de proefdruk, klikt u op **Gereed.**
+1. (Facultatief) plaats a **Deadline** voor de recensenten (beschikbaar slechts als de proef geen geautomatiseerd werkschema heeft).
+1. (Optioneel) Selecteer **E-mailbericht verzenden naar nieuwe ontvangers** om hen te laten weten dat u ze aan de proefdruk hebt toegevoegd.
+1. Wanneer u klaar bent toevoegend gebruikers aan de proef, klik **Gereed.**

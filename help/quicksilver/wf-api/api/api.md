@@ -20,31 +20,31 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Bestanden uploaden via de API](../../wf-api/api/uploading-files-api.md)
-* [Aflopende ondersteuning voor JSONP](../../wf-api/api/ending-support-jsonp.md)
-* [Abonnementsberichten voor gebeurtenissen filteren](../../wf-api/api/filter-event-sub-messages.md)
-* [Abonnementspogingen voor gebeurtenissen opnieuw proberen](../../wf-api/api/event-sub-retries.md)
-* [Abonnementscertificaten voor gebeurtenissen](../../wf-api/api/event-sub-certs.md)
-* [Geef een API-versie op in uw integratie](../../wf-api/api/specify-api-version-integrations.md)
+* [ Uploading dossiers via API ](../../wf-api/api/uploading-files-api.md)
+* [ Eind steun voor JSONP ](../../wf-api/api/ending-support-jsonp.md)
+* [ de berichten van het gebeurtenisabonnement van de Filter ](../../wf-api/api/filter-event-sub-messages.md)
+* [ het abonnement van de Gebeurtenis herprobeert ](../../wf-api/api/event-sub-retries.md)
+* [ de abonnementcertificaten van de gebeurtenis ](../../wf-api/api/event-sub-certs.md)
+* [ specificeer een API Versie in uw integraties ](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Core API-wijzigingen: antwoorden op statuszoekopdrachten](../../wf-api/api/api-changes-search.md)
-* [Integraties bijwerken die standaard-API-versies gebruiken](../../wf-api/api/update-default-api-versioning.md)
-* [Vervalsing van API-intern](../../wf-api/api/deprecation-api-internal.md)
-* [Geslaagde tekens in API-reacties](../../wf-api/api/escaped-characters-api.md)
-* [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md)
+* {de veranderingen van 0} Kern API: De antwoorden van het het onderzoek van de status ](../../wf-api/api/api-changes-search.md)[
+* [ de integraties van de Update die standaard API versioning ](../../wf-api/api/update-default-api-versioning.md) gebruiken
+* [ Verdringing van API-Intern ](../../wf-api/api/deprecation-api-internal.md)
+* [ Geëescapte karakters in API Reacties ](../../wf-api/api/escaped-characters-api.md)
+* [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md)
 * [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met PKCE-stroom](../../wf-api/api/oauth-app-pkce-flow.md)
-* [Nieuwe functies in API-versie 18](../../wf-api/api/new-api-version-18.md)
-* [Nieuwe functies in API-versie 17](../../wf-api/api/new-api-version-17.md)
-* [Nieuwe functies in API-versie 16](../../wf-api/api/new-api-version-16.md)
-* [Nieuwe functies in API-versie 15](../../wf-api/api/new-api-version-15.md)
-* [Nieuwe functies in API-versie 14](../../wf-api/api/new-api-version-14.md)
-* [Nieuwe functies in API-versie 13](../../wf-api/api/new-api-version-13.md)
-* [Nieuwe functies in API-versie 12](../../wf-api/api/new-api-version-12.md)
-* [Nieuw in API-versie 11](../../wf-api/api/new-api-version-11.md)
-* [Nieuw in API-versie 10](../../wf-api/api/new-api-version-10.md)
-* [Nieuw in API-versie 9](../../wf-api/api/new-api-version-9.md)
-* [Updates voor API versie 8](../../wf-api/api/new-api-version-8-updates.md)
-* [Nieuw in API-versie 7](../../wf-api/api/new-api-version-7.md)
+* [ wat in API versie 18 ](../../wf-api/api/new-api-version-18.md) nieuw is
+* [ wat in API versie 17 ](../../wf-api/api/new-api-version-17.md) nieuw is
+* [ wat in API versie 16 ](../../wf-api/api/new-api-version-16.md) nieuw is
+* [ wat in API versie 15 ](../../wf-api/api/new-api-version-15.md) nieuw is
+* [ wat in API versie 14 ](../../wf-api/api/new-api-version-14.md) nieuw is
+* [ wat in API versie 13 ](../../wf-api/api/new-api-version-13.md) nieuw is
+* [ wat in API versie 12 ](../../wf-api/api/new-api-version-12.md) nieuw is
+* [ wat in API versie 11 ](../../wf-api/api/new-api-version-11.md) nieuw is
+* [ wat in API Versie 10 ](../../wf-api/api/new-api-version-10.md) nieuw is
+* [ wat in API Versie 9 ](../../wf-api/api/new-api-version-9.md) nieuw is
+* [ Updates aan API Versie 8 ](../../wf-api/api/new-api-version-8-updates.md)
+* [ wat in API Versie 7 ](../../wf-api/api/new-api-version-7.md) nieuw is
 * [Nieuw in API-versie 6](../../wf-api/api/new-api-version-6.md)

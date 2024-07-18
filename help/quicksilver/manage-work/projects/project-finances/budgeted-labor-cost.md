@@ -38,7 +38,7 @@ Workfront maakt gebruik van de begrote loonkosten van de functies van het projec
 >
 >De begrote Arbeidskosten van een project in het BedrijfsGeval toont als Voorgenomen Kosten van de Arbeid van het Plan van het Middel in rapporten en lijsten.
 
-De **begrote arbeidskosten** (of de begrote loonkosten van een bronnenplan) van een project wordt berekend aan de hand van de volgende formule:
+De **Begrotende Kosten van de Arbeid** (of de Voorgenomen Kosten van de Arbeid van de Planner van het Middel) van een project wordt berekend door de volgende formule:
 
 `Resource Planner Budgeted Labor Cost = SUM ( Resource Planner Budgeted Hours for each job role on the project * Cost per Hour rate of each job role on the project)`
 
@@ -46,17 +46,17 @@ De velden die in bovenstaande berekening worden gebruikt, hebben betrekking op h
 
 * De in de begroting opgenomen uren voor taakrollen in het gebied van de Begroting van het Middel van het project of de Planner van het Middel.
 
-   Voor meer informatie over het in de begroting opnemen van middelen in de Planner van het Middel, zie de &quot;Begrotende Middelen in de Planner van het Middel&quot;sectie in het artikel [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Voor meer informatie over het in de begroting opnemen van middelen in de Planner van het Middel, zie de &quot;Begrotende Middelen in de sectie van de Planner van het Middel in het artikel [ overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   Voor meer informatie over het begroten van middelen op het gebied van de Begroting van het Middel van het BedrijfsGeval, zie [Begrotingsmiddelen in het bedrijfscase](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Voor meer informatie over het in de begroting opnemen van middelen op het gebied van de Begroting van het Middel van het BedrijfsGeval, zie [ middelen van de Begroting in het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-* De **Kosten per uur van een functie** in de bovenstaande berekening wordt verwezen naar de kosten die verbonden zijn aan elke taakrol in het project .\
-   Voor meer informatie over het creëren van en het beheren van baanrollen en het associëren van hen met de Tarieven van de Kosten, zie het artikel [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* De **Kosten per tarief van het Uur van een baanrol** in de bovengenoemde berekening verwijst naar de kosten verbonden aan elke baanrol op het project.\
+  Voor meer informatie over het creëren van en het leiden van baanrollen en het associëren van hen met de Tarieven van Kosten, zie het artikel [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 >[!NOTE]
 >
 >Workfront berekent alle kosteninformatie met behulp van de valuta van het project. Als u de Beoogde Uren voor uw middelen in de Planner van het Middel specificeert, wordt de optie om projectvaluta te veranderen gehandicapt.\
->Raadpleeg het artikel voor meer informatie over het wijzigen van de valuta van een project [De projectvaluta wijzigen](../../../manage-work/projects/project-finances/change-project-currency.md).
+>Voor meer informatie over het veranderen van de munt van een project, zie het artikel [ Verandering de projectmunt ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Overzicht van de begrote loonkosten voor gebruikers
 
@@ -68,19 +68,19 @@ De velden die in bovenstaande berekening worden gebruikt, hebben betrekking op h
 >
 >De door de gebruiker begrote loonkosten zijn niet van invloed op de begrote arbeidskosten van het project. Alleen de loonkosten van de functies op een project zijn van invloed op de begrote loonkosten van het project in het bronnenplan.
 > 
->Het totaal van alle arbeidskosten van alle gebruikers kan al dan niet gelijk zijn aan de begrote loonkosten van de bronnenplanning van de aan de gebruikers gekoppelde functies.
+>Het totaal van alle arbeidskosten van alle gebruikers kan al dan niet gelijk zijn aan de begrote loonkosten van de bronnenplanning van de functies die aan de gebruikers zijn gekoppeld.
 >
 >Als u begrotingsuren voor gebruikers in de Planner van het Middel schat, zijn de kosten verbonden aan hen die van de baanrollen verbonden aan de gebruikers. Het zijn geen kosten die verband houden met de gebruikers of hun tarieven.
 
 Als de gebruikers met de baanrollen op het project worden geassocieerd en hun uren in de Planner van het Middel worden begroot, tonen hun Begroeide Kosten van de Arbeid door de volgende namen, afhankelijk van waar u hen in Workfront bekijkt:
 
-* [!UICONTROL **begrote arbeidskosten**]: Het gebied van de Begroting van het Middel van het BedrijfsGeval onder hun respectieve rollen.
+* [!UICONTROL **Begroeide Arbeidskosten**]: Het gebied van de Begroting van het Middel van het BedrijfsGeval onder hun respectieve rollen.
 
-   ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]: De Planner van het Middel wanneer het bekijken van informatie in de mening van het Project en van de Rol door Kosten.
 
-   ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 De gebruikers tonen in het gebied van de Begroting van het Middel van het BedrijfsGeval onder hun respectieve rollen of in de Planner van het Middel als zij aan de volgende vereisten voldoen:
 
@@ -88,7 +88,7 @@ De gebruikers tonen in het gebied van de Begroting van het Middel van het Bedrij
 * Ze hebben de opgegeven uren begroot in de Resource Planner.
 * De kosten per uur zijn gekoppeld aan hun profiel.
 
-   Raadpleeg het artikel voor meer informatie over het toevoegen van kosten per uur aan gebruikers [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Voor meer informatie over het toevoegen van Kosten per de tarieven van het Uur aan gebruikers, zie het artikel [ uitgeven het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * De gebruiker maakt deel uit van één van de Pools van het Middel verbonden aan het project.
 
@@ -114,7 +114,7 @@ De begrote arbeidskosten zoals die in het gebied van de Begroting van het Middel
     </tr> 
     <tr> 
      <td>Geraamde kosten</td> 
-     <td><p>Gebruiksrapport Kostenweergave</p><p>Zie voor meer informatie <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">Gebruiksgegevens weergeven</a> .</p></td> 
+     <td><p>Gebruiksrapport Kostenweergave</p><p>Voor meer informatie, zie <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md"> het gebruiksinformatie van de Mening </a>.</p></td> 
     </tr> 
     <tr> 
      <td>BDG </td> 
@@ -122,14 +122,14 @@ De begrote arbeidskosten zoals die in het gebied van de Begroting van het Middel
     </tr> 
     <tr> 
      <td>Projectbegroting van de planning van de middelen</td> 
-     <td> <p>Projectrapport</p> <p>Project (Financial Data)-rapport</p> <p>Taakrapport</p> <p>Probleemrapport</p> <p>Rapport over Budgeted Hour</p> <p>Zie het artikel voor informatie over het maken van een rapport <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Een aangepast rapport maken</a>.</p> </td> 
+     <td> <p>Projectrapport</p> <p>Project (Financial Data)-rapport</p> <p>Taakrapport</p> <p>Probleemrapport</p> <p>Rapport over Budgeted Hour</p> <p>Voor informatie over het creëren van een rapport, zie het artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref"> een douanerapport </a> creëren.</p> </td> 
     </tr> 
    </tbody> 
   </table>
 
 >[!NOTE]
 >
->Als u de Adobe Workfront Scenario Planner gebruikt om projectmiddelen te begroten, zijn de begrote arbeidskosten op het gebied van de begroting van het Middel van het BedrijfsGeval het zelfde als de Kosten van het Mensen van het initiatief verbonden aan het project. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het in de begroting opnemen van middelen die de Planner van het Scenario gebruiken, zie [De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+>Als u de Adobe Workfront Scenario Planner gebruikt om projectmiddelen te begroten, zijn de begrote arbeidskosten op het gebied van de begroting van het Middel van het BedrijfsGeval het zelfde als de Kosten van het Mensen van het initiatief verbonden aan het project. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md). Voor informatie over het opnemen van middelen die de Planner van het Scenario gebruiken, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## De begrote uren uren van een project zoeken
 
@@ -149,15 +149,16 @@ U kunt de begrotingsuren in Workfront weergeven in de velden in de onderstaande 
 
 De in de begroting opgenomen uren op het gebied van de begroting van het Middel van het BedrijfsGeval of de vertoning van de Planner van het Middel op de volgende gebieden van Workfront en onder de volgende namen:
 
-* **Uren**: Bronbudgettair gebied van de Business Case
-* **BDG**:Resource Planner, weergegeven per uur
-* **Geforceerde uren**: Utilitilierapport Uren, zie [Informatie over bronnengebruik weergeven](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-* **Bud. Uren**: Rapport over Budgeted Hour
+* **Uren**: Het budgetterende gebied van het Middel van het BedrijfsGeval
+* **BDG**:De Planner van het middel die door Uren wordt bekeken
+* **Begrotende Uren**: De mening van uren van het rapport van het gebruik
+Voor informatie, zie [ de informatie van het middelgebruik van de Mening ](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Bud. Uren**: Het rapport van de Boekte Uur
 
-   Het object Budgeted Hour in het rapport Budgeted Hour verwijst naar informatie met betrekking tot een verouderd hulpmiddel voor middelenbeheer. Alleen de Bud. Het gebied van uren&quot;in dit rapport verwijst naar de uren die in de Planner van het Middel of het gebied van de Begroting van het Middel van het BedrijfsGeval van het project worden begroot.
+  Het object Budgeted Hour in het rapport Budgeted Hour verwijst naar informatie met betrekking tot een verouderd hulpmiddel voor middelenbeheer. Alleen de Bud. Het gebied van uren&quot;in dit rapport verwijst naar de uren die in de Planner van het Middel of het gebied van de Begroting van het Middel van het BedrijfsGeval van het project worden begroot.
 
-   Raadpleeg het artikel voor meer informatie over het maken van een rapport **Een aangepast rapport maken**.
-* **Begrote uren voor bronnenplanner**: in de volgende verslagen:
+  Voor meer informatie over het creëren van een rapport, zie het artikel **een douanerapport** creëren.
+* **de Planner van het Middel besteedde Uren**: in de volgende rapporten:
 
    * Projectrapport
    * Project (Financial Data)-rapport

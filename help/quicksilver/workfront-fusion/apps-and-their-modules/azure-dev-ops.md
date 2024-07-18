@@ -5,24 +5,24 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Azure DevOps-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL Azure DevOps]en deze verbinding maken met meerdere toepassingen en services van derden.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL Azure DevOps] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
 
 # [!DNL Azure DevOps] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Azure DevOps]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Azure DevOps] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -43,39 +43,39 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Azure DevOps] modules, moet u een [!DNL Azure] DevOps-account.
+Als u [!DNL Azure DevOps] -modules wilt gebruiken, hebt u een [!DNL Azure] DevOps-account nodig.
 
-## Verbinden [!DNL Azure DevOps] tot [!DNL Workfront Fusion] {#connect-azure-devops-to-workfront-fusion}
+## Verbinden [!DNL Azure DevOps] met [!DNL Workfront Fusion] {#connect-azure-devops-to-workfront-fusion}
 
-1. Een [!DNL Azure DevOps] aan uw scenario.
-1. Klikken **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
-1. In de [!UICONTROL Connection Type] veld, selecteren **[!DNL Azure DevOps]**.
+1. Voeg een module [!DNL Azure DevOps] toe aan uw scenario.
+1. Klik op **[!UICONTROL Add]** naast het veld [!UICONTROL Connection] .
+1. Selecteer **[!DNL Azure DevOps]** in het veld [!UICONTROL Connection Type] .
 
    >[!IMPORTANT]
    >
-   >De [!UICONTROL [!DNL Azure DevOps] (Request All Scopes)] verbindingstype wordt in de nabije toekomst vervangen. Daarom raden wij u niet aan het te gebruiken.
+   >Het verbindingstype [!UICONTROL [!DNL Azure DevOps] (Request All Scopes)] wordt in de nabije toekomst vervangen. Daarom raden wij u niet aan het te gebruiken.
 
 1. Vul de volgende velden in:
 
@@ -86,17 +86,17 @@ Te gebruiken [!DNL Azure DevOps] modules, moet u een [!DNL Azure] DevOps-account
         </tr>
       <tr>
             <td>[!UICONTROL Organization]</td>
-            <td>Voer de naam in van de organisatie waaronder u uw [!DNL Azure DevOps] toepassing.</td>
+            <td>Voer de naam in van de organisatie waaronder u de [!DNL Azure DevOps] -toepassing hebt gemaakt.</td>
         </tr>
     </table>
 
-1. Klikken **[!UICONTROL Continue]** om het instellen van de verbinding te voltooien en door te gaan met het maken van uw scenario.
+1. Klik op **[!UICONTROL Continue]** om het instellen van de verbinding te voltooien en door te gaan met het maken van uw scenario.
 
 ## [!UICONTROL Azure DevOps] modules en hun velden
 
-Wanneer u [!DNL Azure DevOps] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Azure DevOps] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Azure DevOps] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Azure DevOps] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -108,7 +108,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Watch for work items]
 
-Deze instant triggermodule voert een scenario uit wanneer een record wordt toegevoegd, bijgewerkt of verwijderd in [!UICONTROL Azure DevOps].
+Deze instant trigger-module voert een scenario uit wanneer een record wordt toegevoegd, bijgewerkt of verwijderd in [!UICONTROL Azure DevOps] .
 
 De module retourneert alle standaardvelden die aan de record zijn gekoppeld, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -120,7 +120,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>Selecteer of voeg een webhaak voor de module toe.</p> <p>Voor meer informatie over webhooks in triggermodules raadpleegt u <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Voor informatie over het maken van een webhaak raadpleegt u <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhaken</a>.</p> </td> 
+   <td> <p>Selecteer of voeg een webhaak voor de module toe.</p> <p>Voor meer informatie over websites in trekkermodules, zie <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref"> Onmiddellijke trekkers (webhooks) in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Voor informatie over hoe te om een webhaak tot stand te brengen, zie <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref"> Webhooks </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,11 +133,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 * [Een tijdelijk item bijwerken](#update-a-work-item)
 * [[!UICONTROL Upload an attachment]](#upload-an-attachment)
 * [Een bijlage downloaden](#download-an-attachment)
-* [Werkitems koppelen]([!UICONTROL #link-work-items])
+* [ het werkpunten van de Verbinding ] ([!UICONTROL #link-work-items])
 
 #### [!UICONTROL Custom API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Azure DevOps] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Azure DevOps] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Azure DevOps] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Azure DevOps] -modules kan worden uitgevoerd.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -147,23 +147,23 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Base URL]</td> 
-   <td> <p>Selecteer of wijs de basis-URL toe die u gebruikt om verbinding te maken met uw [!DNL Azure DevOps] account</p> </td> 
+   <td> <p>Selecteer of wijs de basis-URL toe die u gebruikt om verbinding te maken met uw [!DNL Azure DevOps] -account</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Relative URL]</td> 
-   <td> <p>Voer de relatieve URL in waarmee u verbinding wilt maken voor deze API-aanroep.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
+   <td> <p>Voer de relatieve URL in waarmee u verbinding wilt maken voor deze API-aanroep.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL API Version]</td> 
-   <td>Selecteer of wijs de versie van toe [!DNL Azure DevOps] API waarmee u verbinding wilt maken voor deze API-aanroep. Als er geen versie is geselecteerd, [!DNL Workfront Fusion] verbindt met [!DNL Azure DevOps] API-versie 5.1.</td> 
+   <td>Selecteer of wijs de versie van [!DNL Azure DevOps] API toe die u voor deze API vraag wilt verbinden. Als er geen versie is geselecteerd, maakt [!DNL Workfront Fusion] verbinding met [!DNL Azure DevOps] API versie 5.1.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -171,11 +171,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Voeg de query voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -185,7 +185,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Read record]
 
-Deze actiemodule leest gegevens uit één record in [!DNL Azure DevOps].
+Deze actiemodule leest gegevens uit één record in [!DNL Azure DevOps] .
 
 U geeft de id van de record op.
 
@@ -199,7 +199,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -232,7 +232,7 @@ De module geeft de object-id weer voor het nieuwe werkitem of de URL en statusco
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -242,9 +242,9 @@ De module geeft de object-id weer voor het nieuwe werkitem of de URL en statusco
       <ul> 
        <li> <p><strong>[!UICONTROL Name]</strong>:Ga of kaart een naam voor het nieuwe project in.</p> </li> 
        <li> <p><strong>[!UICONTROL Description]</strong>:Ga of kaart een beschrijving voor het nieuwe project in. </p> </li> 
-       <li> <p><strong>[!UICONTROL Visibility]</strong>: Selecteer of u uw project openbaar of privé wilt zijn. De gebruikers moeten in uw organisatie worden ondertekend en moeten toegang tot het project hebben verleend om met een privé project in wisselwerking te staan. Openbare projecten zijn zichtbaar voor gebruikers die niet zijn aangemeld bij uw organisatie.</p> </li> 
-       <li> <p><strong>[!UICONTROL Version control]</strong>: Selecteer of u het project wilt gebruiken [!DNL Git] of [!UICONTROL Team Foundation Version Control (TFCV)] voor versiebeheer.</p> </li> 
-       <li> <p><strong>[!UICONTROL Work item process]</strong>: Selecteer het werkproces dat u voor het project wilt gebruiken. Opties zijn [!UICONTROL Basic], [!UICONTROL Scrum], [!UICONTROL Capability Maturity Model Integration (CMMI)], en [!UICONTROL Agile].</p> <p>Voor meer informatie over [!DNL Azure DevOps] processen, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">Een proces kiezen</a> in de [!DNL Azure DevOps] Documentatie.</p> </li> 
+       <li> <p><strong>[!UICONTROL Visibility]</strong>: Selecteer of u wilt dat uw project openbaar of privé is. De gebruikers moeten in uw organisatie worden ondertekend en moeten toegang tot het project hebben verleend om met een privé project in wisselwerking te staan. De openbare projecten zijn zichtbaar aan gebruikers die niet binnen aan uw organisatie worden ondertekend.</p> </li> 
+       <li> <p><strong>[!UICONTROL Version control]</strong>: Selecteer of u het project [!DNL Git] of [!UICONTROL Team Foundation Version Control (TFCV)] wilt gebruiken voor versiebeheer.</p> </li> 
+       <li> <p><strong>[!UICONTROL Work item process]</strong>: Selecteer het werkproces dat u voor het project wilt gebruiken. De opties zijn [!UICONTROL Basic] , [!UICONTROL Scrum] , [!UICONTROL Capability Maturity Model Integration (CMMI)] en [!UICONTROL Agile] .</p> <p>Voor meer informatie over [!DNL Azure DevOps] processen, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process"> een Proces </a> in de [!DNL Azure DevOps] Documentatie kiezen.</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Work item]</strong> </p> <p>Vul de volgende velden in:</p> 
       <ul> 
@@ -269,7 +269,7 @@ De module keert identiteitskaart van het bijgewerkte het werkpunt terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project]</td> 
@@ -302,7 +302,7 @@ De module retourneert de bijlage-id en een download-URL voor de bijlage.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project] </td> 
@@ -335,7 +335,7 @@ De module retourneert de bestandsinhoud van de bijlage.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Attachment URL]</td> 
@@ -358,7 +358,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Work item ID]</td> 
@@ -370,7 +370,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>Bepaal de verhouding tussen de het werkpunten die u wilt verbinden.</p> <p>Zie voor meer informatie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Verwijzing naar type koppeling</a> in de [!UICONTROL Azure DevOps] Documentatie.</p> </td> 
+   <td> <p>Bepaal de verhouding tussen de het werkpunten die u wilt verbinden.</p> <p>Voor meer informatie, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops"> Verwijzing van het Type van Verbinding </a> in de [!UICONTROL Azure DevOps] Documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comment]</td> 
@@ -383,7 +383,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL List work items]
 
-Deze actiemodule wint alle het werkpunten van een specifiek type in terug [!DNL Azure DevOps] project.
+Deze actiemodule wint alle het werkpunten van een specifiek type in een [!DNL Azure DevOps] project terug.
 
 De module retourneert de id van het hoofdwerkitem en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -395,7 +395,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Azure DevOps] account aan [!DNL Workfront Fusion], zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Azure DevOps] tot [!UICONTROL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project]</td> 
@@ -411,7 +411,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Ga of kaart het maximumaantal het werkpunten in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</td> 
+   <td>Voer het maximale aantal werkitems in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert of wijs dit toe.</td> 
   </tr> 
  </tbody> 
 </table>

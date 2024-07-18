@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Filteren op gebruiker op de knop [!UICONTROL Scrum] board
+# Filteren op gebruiker op de [!UICONTROL Scrum] -board
 
 U kunt het filter op het filterbord gebruiken om te zien welke werkitems zijn gekoppeld aan andere gebruikers en welke niet zijn toegewezen.
 
@@ -37,25 +37,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Filteren op gebruiker op het schermbord
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Navigeer naar een actieve herhaling.
-1. Klik op de knop [!UICONTROL Filter] vervolgkeuzemenu aan de rechterkant van het dialoogvenster [!UICONTROL scrum] bord.
-1. Selecteer de naam van de gebruiker of **[!UICONTROL Unassigned]**.
+1. Klik op het vervolgkeuzemenu [!UICONTROL Filter] aan de rechterkant van de kaart [!UICONTROL scrum] .
+1. Selecteer de naam van de gebruiker of **[!UICONTROL Unassigned]** .
 
 >[!NOTE]
 >
 >De kolomtotalen veranderen niet op basis van de gefilterde resultaten. De totalen van kolommen geven de totalen weer voor alle werkitems op het bord.
 
-![Filteren op gebruiker](assets/filter-by-user-agile-nwe.png)
+![ Filter door gebruiker ](assets/filter-by-user-agile-nwe.png)

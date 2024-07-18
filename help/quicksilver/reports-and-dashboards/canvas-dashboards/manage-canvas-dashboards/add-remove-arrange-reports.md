@@ -5,7 +5,8 @@ title: Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard
 description: Nadat u een Canvas-dashboard hebt gemaakt, kunt u er rapporten aan toevoegen die uw Adobe Workfront-gegevens in verschillende indelingen weergeven. U kunt deze rapporten naar eigen inzicht verplaatsen en de grootte ervan wijzigen op het canvas.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard
 
-Nadat u een Canvas-dashboard hebt gemaakt, kunt u er rapporten aan toevoegen die uw Adobe Workfront-gegevens in verschillende indelingen weergeven. U kunt deze rapporten naar eigen inzicht verplaatsen en de grootte ervan wijzigen op het canvas. Voor informatie over het maken van een Canvasdashboard raadpleegt u [Aan de slag met canvasdashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Nadat u een Canvas-dashboard hebt gemaakt, kunt u er rapporten aan toevoegen die uw Adobe Workfront-gegevens in verschillende indelingen weergeven. U kunt deze rapporten naar eigen inzicht verplaatsen en de grootte ervan wijzigen op het canvas. Voor informatie bij het creëren van een Dashboard van het Canvas, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ## Toegangsvereisten
 
@@ -41,27 +42,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Rapporten toevoegen aan een canvasdashboard
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards** klikt u vervolgens op de naam van het dashboard Canvas waaraan u een rapport wilt toevoegen.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**, dan klik de naam van het Dashboard van het Canvas waaraan u een rapport zou willen toevoegen.
 
-1. Klik op de knop **+ Rapport toevoegen** in de rechterbovenhoek van de pagina
+1. Klik **+ voeg rapport** knoop in de hoger-juiste hoek van de pagina toe.
 
-1. In de **Rapport toevoegen** venster dat wordt weergegeven, klikt u op **Toevoegen** onder het type rapport dat u wilt toevoegen aan uw Canvasdashboard.
+1. In **voeg rapport** venster toe dat verschijnt, **** onder het type van rapport toe u aan uw Dashboard van het Canvas zou willen toevoegen.
 
-1. Ga door met het instellen van het rapport op basis van het type rapport dat u hebt geselecteerd. Voor gedetailleerde informatie over vestiging elk type van rapport, zie [Rapporttypen voor Canvas-dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Als u het venster sluit voordat u de installatie voltooit, wordt er nog steeds een leeg rapport toegevoegd aan het dashboard van het canvas. U kunt de instelling later voltooien door op de knop **Configuratie** in het midden van het lege rapport.
+1. Ga door met het instellen van het rapport op basis van het type rapport dat u hebt geselecteerd. Voor gedetailleerde informatie over vestiging elk type van rapport, zie [ het rapporttypes van het Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Als u het venster sluit voordat u de installatie voltooit, wordt er nog steeds een leeg rapport toegevoegd aan het dashboard van het canvas. U kunt vestiging later beëindigen door de **knoop van de Configuratie** in het centrum van het lege rapport te klikken.
 
 ## Rapporten verplaatsen of vergroten of verkleinen in een Canvasdashboard
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards** klikt u vervolgens op de naam van het canvasdashboard dat u wilt bewerken.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**, dan klik de naam van het Dashboard van het Canvas dat u zou willen uitgeven.
 
-1. Klik op de knop **Lay-out bewerken** in de rechterbovenhoek van de pagina
+1. Klik **uitgeven lay-out** knoop in de hoogste juiste hoek van de pagina.
 
 1. De rapporten op het dashboard van Canvas worden nu weergegeven in vakken die kunnen worden bewerkt:
 
@@ -71,12 +72,12 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    Als u het formaat van een rapport wilt wijzigen, klikt u op de wig rechtsonder in het vak en sleept u deze naar het gewenste formaat.
 
-1. Nadat u de rapporten hebt gerangschikt, klikt u op de knop **Gereed** in de rechterbovenhoek van de pagina om uw wijzigingen op te slaan.
+1. Zodra u klaar bent met het rangschikken van uw rapporten, klik de **Gereed** knoop in de hoger-juiste hoek van de pagina om uw veranderingen te bewaren.
 
 ## Een rapport verwijderen van een canvasdashboard
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
-1. Klik in het linkerdeelvenster op **Canvasdashboards** klikt u vervolgens op de naam van het canvasdashboard dat het rapport bevat dat u wilt verwijderen.
+1. In het linkerpaneel, klik **de Dashboards van het Canvas**, dan klik de naam van het Dashboard van het Canvas dat het rapport bevat u zou willen verwijderen.
 
-1. Klik op de knop **Meer** pictogram ![Meer pictogram](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) in de rechterbovenhoek van het rapport dat u wilt verwijderen, klikt u op **Verwijderen**.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) in de hoger-juiste hoek van het rapport u zou willen verwijderen, dan **klikken verwijdert**.

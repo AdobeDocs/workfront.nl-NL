@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Kiezen waar een triggermodule begint in [!DNL Adobe Workfront Fusion]
+# Kies waar een triggermodule begint in [!DNL Adobe Workfront Fusion]
 
 Met bepaalde triggermodules kunt u de eerste bundel selecteren waaruit u het ophalen van bundels wilt laten starten.
 
 U kunt ook opgeven of u alle bundels wilt ophalen of alleen de bundels vanaf een bepaalde datum.
 
-Zie de sectie voor meer informatie over triggermodules [Triggermodules](../../workfront-fusion/modules/module-types.md#triggers) in het artikel [Typen modules](../../workfront-fusion/modules/module-types.md).
+Voor meer informatie over trekkermodules, zie de sectie [ modules van de Trekker ](../../workfront-fusion/modules/module-types.md#triggers) in het artikel [ Types van modules ](../../workfront-fusion/modules/module-types.md).
 
 ## Toegangsvereisten
 
@@ -41,25 +41,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Kiezen waar een triggermodule begint
 
@@ -67,13 +67,13 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
    of
 
-   De instellingen van de triggermodule wijzigen zoals beschreven in [De instellingen van een module configureren in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   Verander de montages van de trekkermodule zoals die in [ worden beschreven vormen de montages van een module in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
    of
 
-   Klik met de rechtermuisknop op het pictogram voor de triggermodule in het deelvenster [!UICONTROL Scenario editor], zoals beschreven in [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Klik het pictogram voor de trekkermodule in [!UICONTROL Scenario editor] met de rechtermuisknop aan, zoals die in [ wordt beschreven creeer een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Selecteer een optie in het dialoogvenster **[!UICONTROL Choose where to start]** die wordt weergegeven.
+1. Selecteer een optie in het vak **[!UICONTROL Choose where to start]** dat wordt weergegeven.
 
    ![](assets/choose-where-to-start-350x346.jpg)
 

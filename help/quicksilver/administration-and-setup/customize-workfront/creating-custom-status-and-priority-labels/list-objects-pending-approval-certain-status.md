@@ -17,35 +17,35 @@ ht-degree: 0%
 
 # Objecten met een bepaalde status weergeven die in behandeling zijn
 
-Als u probeert om een status te schrappen, zou een foutenmelding u kunnen vertellen dat het niet kan worden geschrapt omdat het in minstens één hangende goedkeuringsprocessen in uw systeem is. U kunt een rapport uitvoeren om de objecten weer te geven waar het zich in een goedkeuringsproces bevindt dat in behandeling is en vervolgens bepalen wat u voor elk rapport moet doen.
+Als u probeert om een status te schrappen, zou een foutenmelding u kunnen vertellen dat het niet kan worden geschrapt omdat het in minstens één hangende goedkeuringsprocessen in uw systeem is. U kunt een rapport uitvoeren om de objecten weer te geven waar het zich in een goedkeuringsproces bevindt dat in behandeling is, en vervolgens bepalen wat u voor elk rapport moet doen.
 
 ## In de standaardmodus
 
-1. Ga naar de **Rapportage** in de algemene navigatiebalk selecteert u vervolgens het gebied **Rapporten** tab.
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Projectrapport**, **Taakrapport**, of **Probleemrapport**.
-1. Open de **Filters** tab.
-1. Klikken **Filterregel toevoegen** Voer vervolgens de volgende handelingen uit om de regel in te stellen:
-   1. Begin met typen `status`selecteert u vervolgens **Status** wanneer deze wordt weergegeven.
-   1. Verlaten **Gelijk** in het tweede veld.
+1. Ga naar het **Meldend** gebied in de Globale Bar van de Navigatie, dan selecteer de **Rapporten** tabel.
+1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan selecteren **Rapport van het Project**, **Rapport van de Taak**, of **Rapport van de Uitgave**.
+1. Open de **Filters** tabel.
+1. Klik **toevoegen een Regel van de Filter**, dan doe het volgende aan opstelling de regel:
+   1. Begin het typen `status`, dan selecteren **Status** wanneer het toont.
+   1. Verlaat **Gelijk** op het tweede gebied.
    1. Selecteer de naam van de status in het derde veld.
-1. Klikken **Filterregel toevoegen** opnieuw, dan doe het volgende aan opstelling de regel
-   1. Begin met typen `pending status`selecteert u vervolgens dat item wanneer het onder het objecttype wordt weergegeven waarin u kijkt (**Project**, **Taak**, of **Probleem**).
-   1. Verlaten **Gelijk** in het tweede veld.
-   1. Type `in` in het derde veld.
-1. Klikken **Filterregel toevoegen** opnieuw, dan doe het volgende aan opstelling de regel
-   1. Begin goedkeuringsproces te typen en selecteer vervolgens **Groep-id** wanneer het wordt weergegeven onder **Goedkeuringsproces**.
-   1. Selecteren **Is leeg** in het tweede veld.
-1. Klikken **Opslaan + Sluiten** om het rapport uit te voeren en om het even welke voorwerpen van het type te vermelden u met goedkeuringsprocessen in hangende staat op basis van de status specificeerde u (**Project**, **Taak**, of **Probleem**).
+1. Klik **voeg opnieuw een Regel van de Filter** toe, dan doe het volgende aan opstelling de regel
+   1. Begin het typen `pending status`, dan selecteren dat punt wanneer het onder het objecten type toont waar u (**Project** kijkt, **Taak**, of **Uitgave**).
+   1. Verlaat **Gelijk** op het tweede gebied.
+   1. Typ `in` in het derde veld.
+1. Klik **voeg opnieuw een Regel van de Filter** toe, dan doe het volgende aan opstelling de regel
+   1. Begin goedkeuringsproces te typen, dan uitgezochte **identiteitskaart van de Groep** wanneer het onder **het Proces van de Goedkeuring** toont.
+   1. Selecteer **is Lege** op het tweede gebied.
+1. Klik **sparen + Sluiten** om het rapport in werking te stellen en van om het even welke voorwerpen van het type een lijst te maken u met goedkeuringsprocessen in hangende staat die op de status wordt gebaseerd u (**specificeerde Project**, **Taak**, of **Uitgave**).
 1. Herhaal deze stappen om dezelfde informatie te zoeken voor de andere twee objecttypen.
 
 
 ## In tekstmodus
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Projectrapport**, **Taakrapport**, of **Probleemrapport**.
-1. Open de **Filters** tab.
-1. Selecteren **Overschakelen naar tekstmodus**.
+1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan selecteren **Rapport van het Project**, **Rapport van de Taak**, of **Rapport van de Uitgave**.
+1. Open de **Filters** tabel.
+1. Selecteer **Schakelaar aan de Wijze van de Tekst**.
 1. Kopieer en plak het volgende in het bewerkingsvenster, waarbij XXX wordt vervangen door de 3-letterige sleutel voor de status:
 
    `status=XXX`
@@ -59,5 +59,5 @@ Als u probeert om een status te schrappen, zou een foutenmelding u kunnen vertel
    * [De lijst met taakstatussen van het systeem openen](task-statuses.md)
    * [Toegang krijgen tot de lijst met systeemuitgiftestatussen](issue-statuses.md)
 
-1. Klikken **Opslaan + Sluiten** om het rapport uit te voeren en om het even welke voorwerpen van het type te vermelden u met goedkeuringsprocessen in hangende staat op basis van de status specificeerde u (**Project**, **Taak**, of **Probleem**).
+1. Klik **sparen + Sluiten** om het rapport in werking te stellen en van om het even welke voorwerpen van het type een lijst te maken u met goedkeuringsprocessen in hangende staat die op de status wordt gebaseerd u (**specificeerde Project**, **Taak**, of **Uitgave**).
 1. Herhaal deze stappen om dezelfde informatie te zoeken voor de andere twee objecttypen.

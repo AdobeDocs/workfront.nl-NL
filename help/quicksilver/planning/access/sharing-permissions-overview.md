@@ -1,6 +1,6 @@
 ---
 title: Overzicht van het delen van machtigingen in Adobe Workfront Planning
-description: U kunt machtigingen delen of verwijderen in een Adobe Workfront-werkruimte of -weergave voor planning.
+description: U kunt machtigingen delen of verwijderen in een werkruimte of weergave van de Adobe Workfront-planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -41,7 +41,7 @@ U kunt de volgende objecten delen:
 
 * Weergaven
 
-  U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten. Zie voor meer informatie [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+  U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten. Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 U kunt een werkruimte of een weergave delen met de volgende entiteiten:
 
@@ -54,7 +54,7 @@ U kunt een werkruimte of een weergave delen met de volgende entiteiten:
 
 * Uw Adobe Workfront-licentietype werkt in combinatie met uw Workfront-planningsmachtigingen en geeft u toegang tot de werkruimten en de bijbehorende objecten, en tot het weergeven, bijdragen of beheren van deze werkruimten.
 
-  Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront beïnvloeden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+  Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 * Systeembeheerders kunnen alle werkruimten in het systeem beheren, inclusief de werkruimten die ze niet hebben gemaakt.
 * Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld. Systeembeheerders kunnen alleen machtigingen krijgen om een weergave te beheren.
 * U kunt een koppeling naar een werkruimte of naar een weergave delen met anderen.
@@ -73,7 +73,7 @@ De tabellen in de volgende secties tonen het machtigingsniveau dat u kunt select
 > 
 >Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor werkruimten en weergaven.
 >
->Zie voor meer informatie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+>Voor informatie, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Workspace-machtigingen
@@ -110,9 +110,9 @@ Hieronder vindt u de machtigingsniveaus voor recordtypen:
 
 ### Machtigingen opnemen
 
-De toestemmingen van het verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
+De machtigingen voor opnamen worden overgeërfd wanneer u machtigingen verleent aan de werkruimte.
 
-Hieronder vindt u de machtigingsniveaus voor records:
+Hier volgen de machtigingsniveaus voor records:
 
 
 |        | Beheren | Contribute | Weergave |
@@ -160,7 +160,7 @@ Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 | Delen | ✓ |       |                           |
 | Weergave | ✓ | ✓ | ✓ |
 | De weergave openen | ✓ | ✓ | ✓ |
-| Tijdelijke filters, groepen, sorteren toepassen | ✓ | ✓ | ✓ |
+| Tijdelijke filters, groepen en sorteren toepassen | ✓ | ✓ | ✓ |
 
 *Gebruikers moeten over weergave- of hogere machtigingen voor een werkruimte beschikken om toegang te krijgen tot deze weergave.
 

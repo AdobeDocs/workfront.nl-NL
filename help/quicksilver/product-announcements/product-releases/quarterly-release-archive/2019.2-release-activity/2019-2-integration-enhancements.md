@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van integratie en mobiele communicatie beschreven die in de release van 2019.2 zijn opgenomen. De functionaliteit zal naar verwachting in de week van 20 mei 2019 beschikbaar zijn in de productieomgeving.
 
-Voor een lijst van alle wijzigingen die in 2019.2 zijn aangebracht, raadpleegt u [Overzicht van de activiteit van de release van 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [ 2019.2 Overzicht van de Activiteit van de Versie ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Verbeteringen in Workfront for Microsoft Teams
 
@@ -32,7 +32,7 @@ U kunt nu het volgende doen wanneer u Workfront for Microsoft Teams gebruikt:
 
   Voordat u deze upgrade uitvoert, kunt u de Workfront-meldingen in Microsoft Teams niet uitschakelen.
 
-  Zie voor meer informatie [Workfront-meldingen en goedkeuringsverzoeken in Microsoft Teams beheren](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  Voor informatie, zie [ het Leiden de Berichten van Workfront en de Verzoeken van de Goedkeuring in Microsoft Teams ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Bijgewerkte Workfront for Adobe Creative Cloud Integration
 
@@ -40,5 +40,5 @@ De extensie Workfront for Adobe Creative Cloud omvat nu de integratie met Workfr
 
 ## Verbeterde lijstervaring in iOS en Android
 
-De weergave voor alle lijstweergaven wordt nu bijgewerkt in zowel de iOS- als de Android-apps. Met deze nieuwe vormgeving kunt u snel de items in de lijst op elk tabblad identificeren en samenvouwgroepen uitvouwen vanaf het tabblad Start.
+Het uiterlijk van alle lijstweergaven wordt nu bijgewerkt in de iOS- en Android-toepassingen. Met deze nieuwe vormgeving kunt u snel de items in de lijst op elk tabblad identificeren en samenvouwgroepen uitvouwen vanaf het tabblad Start.
 

@@ -7,7 +7,7 @@ role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3436'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, op elk toegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van toegangsniveau is.
 
-Voor informatie over alle functionaliteit beschikbaar voor een objecten type in elk toegangsniveau, zie [Beschikbare functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over alle functionaliteit beschikbaar voor een objecten type in elk toegangsniveau, zie [ Functionaliteit beschikbaar voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projecten
 
@@ -36,9 +36,9 @@ In elk toegangsniveau, kunt u de volgende opties voor projecten vormen:
    <td>Planner (licentietype abonnement)</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om projecten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Staat volledige het uitgeven toegang tot projecten toe.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om projecten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot projecten toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Kopiëren</p> </li> 
@@ -53,25 +53,25 @@ In elk toegangsniveau, kunt u de volgende opties voor projecten vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om projecten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Staat beperkte het uitgeven toegang tot projecten toe. Om te zien hoe de Edit toegang in een de toegangsniveau van de Arbeider in vergelijking met een de toegangsniveau van de Planner (dat volledige Edit toegang tot projecten toestaat) beperkt is, zie de sectie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projecten</a> in het artikel <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Beschikbare functionaliteit voor elk objecttype</a>.</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om projecten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> Schakel op de knop Bewerken de optie <b>Delen</b> (standaard ingeschakeld).</p> </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om projecten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat beperkte het uitgeven toegang tot projecten toe. Om te zien hoe de Edit toegang in een de toegangsniveau van de Arbeider in vergelijking met een de toegangsniveau van de Planner (dat volledige toegang tot projecten) toestaat, zie de sectie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref"> Projecten </a> in de artikel <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref"> Functionaliteit beschikbaar voor elk objecten type </a>.</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om projecten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de Edit knoop, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie) </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> (standaardselectie) <p>De toegang van de mening is beperkt omdat u niet het kunt verfijnen om project het delen toe te laten of onbruikbaar te maken.</p> </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> (standaardselectie) <p>De toegang van de mening is beperkt omdat u niet het kunt verfijnen om project het delen toe te laten of onbruikbaar te maken.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -99,9 +99,9 @@ In elk toegangsniveau, kunt u de volgende opties voor taken vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om taken te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot taken.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om taken te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot taken toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -114,9 +114,9 @@ In elk toegangsniveau, kunt u de volgende opties voor taken vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om taken te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot taken.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om taken te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot taken toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -128,16 +128,16 @@ In elk toegangsniveau, kunt u de volgende opties voor taken vormen:
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie) </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> (standaardselectie)<p>De toegang van de mening is beperkt omdat u niet het kunt verfijnen om project het delen toe te laten of onbruikbaar te maken.</p> </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> (standaardselectie)<p>De toegang van de mening is beperkt omdat u niet het kunt verfijnen om project het delen toe te laten of onbruikbaar te maken.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -165,9 +165,9 @@ In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige toegang tot uitgaven voor bewerkingen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot kwesties toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -180,9 +180,9 @@ In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige toegang tot uitgaven voor bewerkingen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot kwesties toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -194,9 +194,9 @@ In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige toegang tot uitgaven voor bewerkingen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot kwesties toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -208,9 +208,9 @@ In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige toegang tot uitgaven voor bewerkingen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om kwesties te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot kwesties toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -225,7 +225,7 @@ In elk toegangsniveau, kunt u de volgende opties voor kwesties vormen:
  </tbody> 
 </table>
 
-## Portfolio
+## Portfolio&#39;s
 
 In elk toegangsniveau, kunt u de volgende opties voor portefeuilles vormen:
 
@@ -243,9 +243,9 @@ In elk toegangsniveau, kunt u de volgende opties voor portefeuilles vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om portefeuilles te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige bewerkingstoegang tot portfolio's.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om portefeuilles te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot portefeuilles toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -258,16 +258,16 @@ In elk toegangsniveau, kunt u de volgende opties voor portefeuilles vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie) </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie)</li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie)</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -299,9 +299,9 @@ In elk toegangsniveau, kunt u de volgende opties voor programma&#39;s vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om programma's te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee geeft u volledige bewerkingstoegang tot programma's.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om programma's te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot programma's toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -314,16 +314,16 @@ In elk toegangsniveau, kunt u de volgende opties voor programma&#39;s vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie) </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie)</li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie)</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -355,13 +355,13 @@ In elk toegangsniveau, kunt u de volgende opties voor rapporten, dashboards, en 
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b></p><p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> ), en maak dan om het even welke volgende acties onbruikbaar of laat toe. Beide zijn standaard ingeschakeld:</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop) uit, dan maak of laat om het even welke volgende acties onbruikbaar. Beide zijn standaard ingeschakeld:</p> 
       <ul> 
        <li> <p>Ingebouwde rapporten weergeven</p> </li> 
        <li> <p>Delen</p> </li> 
       </ul> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot rapporten, dashboards en kalenders.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek behalve <b>Ingebouwde rapporten weergeven</b>, <b>Rapporten openbaar delen</b>, en <b>Delen op het hele systeem</b>.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot rapporten, dashboards, en kalenders toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek behalve <b> Mening Ingebouwde Rapporten </b>, <b> de Rapporten van het Aandeel </b>, en <b> het systeembrede Aandeel </b>.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -376,8 +376,8 @@ In elk toegangsniveau, kunt u de volgende opties voor rapporten, dashboards, en 
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> (standaardselectie)<p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u vervolgens een van de volgende handelingen uit of in. Beide zijn standaard ingeschakeld:</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> (standaardselectie)<p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende acties onbruikbaar. Beide zijn standaard ingeschakeld:</p> 
       <ul> 
        <li> <p>Ingebouwde rapporten weergeven</p> </li> 
        <li> <p>Delen</p> </li> 
@@ -388,8 +388,8 @@ In elk toegangsniveau, kunt u de volgende opties voor rapporten, dashboards, en 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b> (standaardselectie)<p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u vervolgens een van de volgende handelingen uit of in. Alleen de optie Delen is standaard ingeschakeld.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b> Mening </b> (standaardselectie)<p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende acties onbruikbaar. Alleen de optie Delen is standaard ingeschakeld.</p> 
       <ul> 
        <li> <p>Ingebouwde rapporten weergeven</p> </li> 
        <li> <p>Delen</p> </li> 
@@ -400,8 +400,8 @@ In elk toegangsniveau, kunt u de volgende opties voor rapporten, dashboards, en 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b> (standaardselectie): Hiermee krijgt u alleen toegang tot rapporten, dashboards en kalenders die met hen zijn gedeeld.</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om ingebouwde rapporten te bekijken. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> knop, dan uitschakelen of inschakelen <b>Ingebouwd weergeven</b>(standaard uitgeschakeld).</p> </li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b> Mening </b> (standaardselectie): Staat mening-slechts toegang tot rapporten, dashboards, en kalenders toe die met hen zijn gedeeld.</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om ingebouwde rapporten te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> Mening </b> knoop, dan onbruikbaar maken of toelaten <b> Gebouwd Mening </b> (onbruikbaar gemaakt door gebrek).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -429,8 +429,8 @@ In elk toegangsniveau, kunt u de volgende opties voor filters, meningen, en groe
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige bewerkingstoegang tot filters, weergaven en groepen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot filters, meningen, en groeperingen toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -443,8 +443,8 @@ In elk toegangsniveau, kunt u de volgende opties voor filters, meningen, en groe
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige bewerkingstoegang tot filters, weergaven en groepen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot filters, meningen, en groeperingen toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -457,8 +457,8 @@ In elk toegangsniveau, kunt u de volgende opties voor filters, meningen, en groe
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige bewerkingstoegang tot filters, weergaven en groepen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot filters, meningen, en groeperingen toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -471,8 +471,8 @@ In elk toegangsniveau, kunt u de volgende opties voor filters, meningen, en groe
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b>:</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige bewerkingstoegang tot filters, weergaven en groepen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <p><b> Mening </b>:</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om filters, meningen, en groeperingen te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot filters, meningen, en groeperingen toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -506,9 +506,9 @@ In elk toegangsniveau, kunt u de volgende opties voor documenten vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot documenten.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek behalve <b>Documenten openbaar delen</b> en <b>Delen op het hele systeem</b>.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): staat volledige het uitgeven toegang tot documenten toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek behalve <b> Documenten van het Aandeel Openbaar </b> en <b> het systeembrede Aandeel </b>.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -522,9 +522,9 @@ In elk toegangsniveau, kunt u de volgende opties voor documenten vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot documenten.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek behalve <b>Documenten openbaar delen</b> en <b>Delen op het hele systeem</b>.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): staat volledige het uitgeven toegang tot documenten toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek behalve <b> Documenten van het Aandeel Openbaar </b> en <b> het systeembrede Aandeel </b>.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -538,9 +538,9 @@ In elk toegangsniveau, kunt u de volgende opties voor documenten vormen:
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot documenten.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u vervolgens een van de volgende handelingen uit of in. Al hen worden toegelaten door gebrek behalve de laatste twee, <b>Documenten openbaar delen</b> en <b>Delen op het hele systeem</b>.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): staat volledige het uitgeven toegang tot documenten toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende acties onbruikbaar. Al hen worden toegelaten door gebrek behalve de laatste twee, <b> Documenten van het Aandeel Openbaar </b> en <b> het systeembrede Aandeel </b>.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -554,9 +554,9 @@ In elk toegangsniveau, kunt u de volgende opties voor documenten vormen:
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot documenten.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om documenten te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): staat volledige het uitgeven toegang tot documenten toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -589,35 +589,35 @@ In elk toegangsniveau, kunt u de volgende opties voor gebruikers vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens de <b>Contactgegevens weergeven</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige bewerkingstoegang tot gebruikers.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u vervolgens een van de volgende handelingen uit of in. Alleen de eerste twee opties <b>Maken</b> en <b>Verwijderen</b>, zijn standaard ingeschakeld.</p> 
+     <li> <p><b>Weergave</b></p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> Mening </b> knoop, dan maak of laat de <b> optie van het Contact van de Mening </b> (toegelaten door gebrek) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot gebruikers toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende acties onbruikbaar. Slechts worden de eerste twee opties, <b> creëren </b> en <b> Schrapping </b>, toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
        <li>Gebruikersbeheerder (alle gebruikers)</li> 
        <li> <p>Gebruikersbeheerder (Groepgebruikers)</p> </li> 
-      </ul> <p>Zie de sectie voor informatie over de twee opties voor gebruikersbeheer <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">De toegang van gebruikers tot het bewerken van gebruikers configureren met behulp van een aangepast toegangsniveau</a> in het artikel <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </li> 
+      </ul> <p>Voor informatie over de twee opties van Admin van de Gebruiker, zie de sectie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref"> toegang van gebruikers om gebruikers uit te geven gebruikend een niveau van de douanetoegang </a> in het artikel <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> toegang van de Verlening tot gebruikers </a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li><p> <b>Weergave</b> (alleen optie beschikbaar)</p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens de <b>Contactgegevens weergeven</b> (standaard ingeschakeld).</p> </li> 
+     <li><p> <b> Mening </b> (slechts beschikbare optie)</p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> Mening </b> knoop, dan maak of laat de <b> optie van het Contact van de Mening </b> (toegelaten door gebrek) onbruikbaar toe.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li><p> <b>Weergave</b> (alleen optie beschikbaar)</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens de <b>Contactgegevens weergeven</b> (standaard uitgeschakeld).</p> </li> 
+     <li><p> <b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan toelaten of onbruikbaar maken de <b> Info van het Contact van de Mening </b> optie (door gebrek).</b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b> (alleen optie beschikbaar)</p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens de <b>Contactgegevens weergeven</b> (standaard uitgeschakeld).</p> </li> 
+     <li> <p><b> Mening </b> (slechts beschikbare optie)</p><p>Om dit te verfijnen, kunt u de capaciteit vormen om de contactinformatie van gebruikers te bekijken. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan toelaten of onbruikbaar maken de <b> Info van het Contact van de Mening </b> optie (door gebrek).</b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -645,12 +645,12 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li><b>Weergave</b> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Beide zijn standaard uitgeschakeld.</p> 
+     <li><b> Mening </b> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard uitgeschakeld.</p> 
       <ul> 
        <li>Alle teams weergeven</li> 
        <li> <p>Aan mijn groepen gekoppelde teams weergeven</p> </li> 
       </ul> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige toegang tot teams.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Al hen worden toegelaten door gebrek, behalve <b>Teams bewerken die ik heb ingeschakeld</b>.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot teams toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Al hen worden toegelaten door gebrek, behalve <b> uitgeeft teams ik </b> ben.</p> 
       <ul> 
        <li>Maken</li> 
        <li>Verwijderen</li> 
@@ -665,13 +665,13 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <b>Weergave</b>
-      <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Beide zijn standaard ingeschakeld.</p> 
+     <li> <b> Mening </b>
+      <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li>Alle teams weergeven</li> 
        <li> <p>Aan mijn groepen gekoppelde teams weergeven</p> </li> 
       </ul> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee krijgt u volledige toegang tot teams.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Alleen de eerste optie <b>Teams bewerken die ik heb ingeschakeld</b>, is standaard uitgeschakeld.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot teams toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Slechts wordt de eerste optie, <b> uitgeeft teams I </b>, onbruikbaar gemaakt door gebrek.</p> 
       <ul> 
        <li> <p>Teams bewerken die ik heb ingeschakeld</p> </li> 
        <li> <p>Alle teams weergeven</p> </li> 
@@ -683,7 +683,7 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b> (alleen optie beschikbaar)</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Beide zijn standaard ingeschakeld.</p> 
+     <li> <p><b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li> <p>Alle teams weergeven</p> </li> 
        <li>Aan mijn groepen gekoppelde teams weergeven</li> 
@@ -694,7 +694,7 @@ In elk toegangsniveau, kunt u de volgende opties voor teams vormen:
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b>Weergave</b> (alleen optie beschikbaar)</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Beide zijn standaard ingeschakeld.</p> 
+     <li> <p><b> Mening </b> (slechts beschikbare optie)</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
        <li> <p>Alle teams weergeven</p> </li> 
        <li>Aan mijn groepen gekoppelde teams weergeven</li> 
@@ -727,9 +727,9 @@ In elk toegangsniveau, kunt u de volgende opties voor malplaatjes vormen:
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li><p> <b>Weergave</b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om malplaatjes te delen. Klik op het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan onbruikbaar maken of toelaten <b>Delen</b> (standaard ingeschakeld).</p> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Hiermee hebt u volledige toegang tot sjablonen.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Al hen worden toegelaten door gebrek.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li><p> <b> Mening </b></p> <p>Om dit te verfijnen, kunt u de capaciteit vormen om malplaatjes te delen. Klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de knoop van de Mening, dan maak of laat <b> Aandeel </b> optie (die door gebrek wordt toegelaten) onbruikbaar toe.</p> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot malplaatjes toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Al hen worden toegelaten door gebrek.</p> 
       <ul> 
        <li> <p>Maken</p> </li> 
        <li> <p>Verwijderen</p> </li> 
@@ -742,21 +742,21 @@ In elk toegangsniveau, kunt u de volgende opties voor malplaatjes vormen:
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>Geen toegang</b> (alleen optie beschikbaar)</p> </li> 
+     <li> <p><b> Geen toegang </b> (slechts beschikbare optie)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geen toegang</b> (alleen optie beschikbaar)</p> </li> 
+     <li> <p><b> Geen toegang </b> (slechts beschikbare optie)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geen toegang</b> (alleen optie beschikbaar)</p> </li> 
+     <li> <p><b> Geen toegang </b> (slechts beschikbare optie)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -784,17 +784,17 @@ In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vorme
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <p><b>Weergave</b>:</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Beide zijn standaard ingeschakeld.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <p><b> Mening </b>:</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Beide zijn standaard ingeschakeld.</p> 
       <ul> 
-       <li>Rollen en kosten weergeven</li> 
+       <li>Rol- en kostenfacturering weergeven</li> 
        <li> <p>Facturering van gebruikers en kostentarieven weergeven</p> </li> 
       </ul> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Biedt volledige bewerkingstoegang tot financiële gegevens.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Weergave</b> en schakelt u vervolgens een van de volgende opties uit of in*. Alleen de laatste twee opties <b>Rollen en kosten weergeven</b> en <b>Facturering van gebruikers en kostentarieven weergeven</b>, zijn standaard ingeschakeld.</p> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot financiële gegevens toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op de <b> 2} knoop van de Mening {, dan maak of laat om het even welke volgende opties* onbruikbaar toe. </b> Slechts worden de laatste twee opties, <b> het Factureren van de Rol van de Mening &amp; Tarieven van Kosten </b> en <b> het Factureren van de Gebruiker van de Mening &amp; Tarieven van Kosten </b>, toegelaten door gebrek.</p> 
       <ul> 
        <li>Rollenfacturering en kostentarieven bewerken</li> 
        <li> <p>Facturering van gebruikers en kostentarieven bewerken</p> </li> 
-       <li>Rollen en kosten weergeven</li> 
+       <li>Rol- en kostenfacturering weergeven</li> 
        <li> <p>Facturering van gebruikers en kostentarieven weergeven</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -803,23 +803,23 @@ In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vorme
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li> <p><b>Geen toegang</b> (standaardselectie)</p> </li> 
-     <li> <b>Weergave</b> </li> 
+     <li> <p><b> Geen toegang </b> (standaardselectie)</p> </li> 
+     <li> <b> Mening </b> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geen toegang</b> (standaardselectie)</p> </li> 
-     <li><b>Weergave</b> </li> 
+     <li> <p><b> Geen toegang </b> (standaardselectie)</p> </li> 
+     <li><b> Mening </b> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geen toegang</b> (alleen optie beschikbaar)</p> </li> 
+     <li> <p><b> Geen toegang </b> (slechts beschikbare optie)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -829,7 +829,7 @@ In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vorme
  </tbody> 
 </table>
 
-&#42; Voor informatie over deze opties raadpleegt u [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+&#42; voor informatie over deze opties, zie [ Overzicht van het Factureren en de Ontvangsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Bronbeheer
 
@@ -849,13 +849,13 @@ In elk toegangsniveau, kunt u de volgende opties voor het Beheer van het Middel 
    <td>Planner </td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> </li> 
-     <li> <p><b>Bewerken</b> (standaardselectie): Staat volledige het uitgeven toegang tot het Beheer van het Middel toe.</p> <p>Klik op het tandwielpictogram om dit te verfijnen <img src="assets/gear-icon-in-access-levels.png"> op de <b>Bewerken</b> en schakelt u een van de volgende opties uit of in. Alleen de eerste optie <b>Prioriteiten en begrotingstijden bewerken in de Planner</b>, is standaard ingeschakeld.</p> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> </li> 
+     <li> <p><b> geeft </b> uit (standaardselectie): Staat volledige het uitgeven toegang tot het Beheer van het Middel toe.</p> <p>Om dit te verfijnen, klik het tandwielpictogram <img src="assets/gear-icon-in-access-levels.png"> op <b> geef </b> knoop uit, dan maak of laat om het even welke volgende opties onbruikbaar. Slechts wordt de eerste optie, <b> geeft prioriteiten en begrotingsuren in de Planner </b> uit, toegelaten door gebrek.</p> 
       <ul> 
        <li> <p> Prioriteiten en begrotingstijden bewerken in de Planner</p> </li> 
-       <li> <p>Bronnenpools beheren</p> <p><b>OPMERKING</b>: Voor het beheer van bronnenpools heeft een gebruiker aanvullende toegang tot financiële gegevens en machtigingen voor projectfinanciering nodig. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot financiële gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Zie voor meer informatie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Toegang tot financiële gegevens verlenen</a> en <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Financiële machtigingen delen op een object</a>.</p> </li> 
-       <li> <p>Geplande uren bijwerken in werklastbalans</p> <p><b>OPMERKING</b>: Als u geplande uren wilt bijwerken in Workload Balancer, heeft een gebruiker toestemming nodig om bij te dragen aan het object, met Toewijzingen maken ingeschakeld onder Geavanceerde instellingen. Zie voor meer informatie <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overzicht van het delen van machtigingen voor objecten</a>.</p> </li> 
+       <li> <p>Bronnenpools beheren</p> <p><b> NOTA </b>: Om middelpools te beheren, heeft een gebruiker extra toegang tot financiële gegevens en toestemmingen aan projectfinanciën nodig. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot financiële gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref"> toegang van de Verlening tot financiële gegevens </a> en <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref"> de financiële toestemmingen van het Aandeel op een voorwerp </a>.</p> </li> 
+       <li> <p>Geplande uren bijwerken in werklastbalans</p> <p><b> NOTA </b>: Om geplande uren in de Balancer van de Werkbelasting bij te werken, heeft een gebruiker toestemming nodig om aan het voorwerp bij te dragen, met de Toewijzingen van het Merk die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref"> Overzicht van het delen van toestemmingen op voorwerpen </a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -863,23 +863,23 @@ In elk toegangsniveau, kunt u de volgende opties voor het Beheer van het Middel 
    <td>Worker </td> 
    <td> 
     <ul> 
-     <li><b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie) </li> 
+     <li><b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Revisor</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> </li> 
-     <li> <b>Weergave</b> (standaardselectie)</li> 
+     <li> <b> Geen toegang </b> </li> 
+     <li> <b> Mening </b> (standaardselectie)</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aanvrager</td> 
    <td> 
     <ul> 
-     <li> <b>Geen toegang</b> (alleen optie beschikbaar) </li> 
+     <li> <b> Geen toegang </b> (slechts beschikbare optie) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -903,7 +903,7 @@ Alina says: This will change overtime for some of the access levels, but right n
 >
 >De gebruikers kunnen een plan bekijken dat een andere gebruiker creeerde slechts als een verbinding aan het plan met hen wordt gedeeld.
 
-## Gebied Workfront-doelen
+## Gebied met Workfront-doelen
 
 Alle zes van de standaardtoegangsniveaus (en alle 4 van de licentietypen) kunnen de Doelen van Workfront uitgeven en bekijken.
 

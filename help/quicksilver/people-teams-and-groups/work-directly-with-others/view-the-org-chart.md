@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Het organigram weergeven
 
-De organisatorische grafiekeigenschap staat u toe om het organisatorische diagram te bekijken verbonden aan een bepaald [!DNL Adobe Workfront] gebruiker. Organisatiekaarten zijn een geweldige manier om de structuur van een bepaalde afdeling te visualiseren.
+Met de functie voor het organigram kunt u het organigram weergeven dat is gekoppeld aan een bepaalde [!DNL Adobe Workfront] -gebruiker. Organisatiekaarten zijn een geweldige manier om de structuur van een bepaalde afdeling te visualiseren.
 
 ## Toegangsvereisten
 
@@ -38,11 +38,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## De organigram van een gebruiker zoeken
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
+1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op uw gebruikersnaam naast de profielafbeelding.
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Org Chart]**.\
-   ![Organisatieschema](assets/org-chart.png)
+1. Klik in het linkerdeelvenster op **[!UICONTROL Org Chart]** .\
+   ![ grafiek van de Organisatie ](assets/org-chart.png)

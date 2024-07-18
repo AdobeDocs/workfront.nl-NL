@@ -60,27 +60,27 @@ De pagina Klantgegevens openen:
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Systeem** > **Klantgegevens**.
+1. In het linkerpaneel, klik **Systeem** > **Info van de Klant**.
 
    Afhankelijk van het Workfront-abonnement dat u hebt aangeschaft, ontbreken sommige secties mogelijk op de pagina Klantgegevens. Neem contact op met uw accountvertegenwoordiger als u wilt weten welk Workfront-plan uw organisatie gebruikt.
 
    De volgende secties zijn beschikbaar in het gedeelte Klantgegevens:
 
-   * **Basisinformatie**
+   * **Basis Info**
 
-     Voor informatie over het configureren van basisinformatie in Workfront raadpleegt u [Basisinformatie configureren](#configure-basic-info).
+     Voor informatie over het vormen van basisinformatie in Workfront, zie [ BasisInfo ](#configure-basic-info) vormen.
 
-   * **Instellingen API-sleutel**
+   * **API Zeer belangrijke Montages**
 
-     Zie voor informatie over API-sleutelinstellingen [API-sleutels beheren](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+     Voor informatie over API zeer belangrijke montages, zie [ API sleutels beheren ](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **IP LIJST VAN GEWENSTE PERSONEN**
+   * **IP Lijst van gewenste personen**
 
-     Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Voor informatie over het toevoegen van de IP adressen aan uw lijst van gewenste personen voor waar uw gebruikers tot Workfront kunnen toegang hebben, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-   * **Licentie**
+   * **Vergunning**
 
-     Voor informatie over licenties raadpleegt u [Beschikbare licenties in uw systeem beheren](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Voor informatie over vergunningen, zie [ beschikbare vergunningen in uw systeem ](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.
 
 ## Basisinformatie configureren {#configure-basic-info}
 
@@ -90,9 +90,9 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Systeem** > **Klantgegevens**.
+1. In het linkerpaneel, klik **Systeem** > **Info van de Klant**.
 
-1. In de **Basisinformatie** sectie boven aan het dialoogvenster **Klantgegevens** op de pagina vindt u de volgende informatie over uw exemplaar bij Workfront:
+1. In de **BasisInfo** sectie bij de bovenkant van de **Info van de Klant** pagina, vind de volgende informatie over uw instantie met Workfront:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
      </tr> 
      <tr> 
       <td role="rowheader">E-mailadres beheerder</td> 
-      <td> <p>Het e-mailadres van uw Workfront-beheerder. U kunt dit veld bewerken zodat het overeenkomt met het e-mailadres van een van uw Workfront-beheerders. De gebruiker die aan dit e-mailadres is gekoppeld, wordt beschouwd als de belangrijkste Workfront-beheerder van uw Workfront-systeem. Alle communicatie van Workfront voor de hele site wordt naar dit e-mailadres gestuurd. Het is dus belangrijk dat u dit adres bijwerkt.</p> <p><b>OPMERKING</b>: U kunt het toegangsniveau van de gebruiker die is gekoppeld aan de beheermail niet deactiveren, verwijderen of wijzigen.</p> </td> 
+      <td> <p>Het e-mailadres van uw Workfront-beheerder. U kunt dit veld bewerken zodat het overeenkomt met het e-mailadres van een van uw Workfront-beheerders. De gebruiker die aan dit e-mailadres is gekoppeld, wordt beschouwd als de belangrijkste Workfront-beheerder van uw Workfront-systeem. Alle communicatie van Workfront voor de hele site wordt naar dit e-mailadres gestuurd. Het is dus belangrijk dat u dit adres bijwerkt.</p> <p><b> NOTA </b>: U kunt niet, het Niveau van de Toegang van de gebruiker deactiveren schrappen of veranderen verbonden aan Admin E-mail.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domein</td> 
-      <td> <p>Het domein wordt ingesteld door Workfront wanneer uw account wordt gemaakt.</p> <p>Het domein identificeert uw unieke subdomein van de URL die u gebruikt om toegang te krijgen tot Workfront.<p>Als aan uw organisatie bijvoorbeeld het domein 'mijnbedrijf' is toegewezen, is de URL die u gebruikt voor toegang tot Workfront <i>https://mycompany.my.workfront.com.</i></p><p>U kunt het domein niet zelf bewerken. Als je je domein wilt wijzigen, kun je contact opnemen met Customer Support van Workfront. Ga voor meer informatie over het contact opnemen met de klantenondersteuning van Workfront naar <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact opnemen met Klantenondersteuning</a>.</p> </td> 
+      <td> <p>Het domein wordt ingesteld door Workfront wanneer uw account wordt gemaakt.</p> <p>Het domein identificeert uw unieke subdomein van de URL die u gebruikt om toegang te krijgen tot Workfront.<p>Bijvoorbeeld, als uw organisatie het domein "mijnbedrijf"is toegewezen,"URL u gebruikt om tot Workfront toegang te hebben is <i> https://mycompany.my.workfront.com.</i></p><p>U kunt het domein niet zelf bewerken. Als je je domein wilt wijzigen, kun je contact opnemen met Customer Support van Workfront. Voor meer informatie over het contacteren van de Steun van de Klant van Workfront, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref"> de Steun van de Klant van het Contact </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tijdzone</td> 
@@ -120,15 +120,15 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
        <ul> 
         <li>De datum en tijd die in uitgaande e-mails worden weergegeven</li> 
         <li>De standaardtijdzone voor nieuwe gebruikers wanneer deze worden gemaakt</li> 
-       </ul> <p>Gebruikers kunnen de tijdzone voor hun Workfront-exemplaar wijzigen onder hun profiel. Wanneer gebruikers hun tijdzone wijzigen, komen de datum en tijd in hun e-mails van Workfront overeen met hun profielvoorkeuren. Zie voor meer informatie over het wijzigen van voorkeuren voor gebruikersprofielen <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Mijn instellingen configureren</a>. Het wordt geselecteerd als standaardtijdzone wanneer u een nieuw programma creeert. Voor meer informatie over het creëren van programma's, zie <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Een schema maken</a>.</p> <p>Voor informatie over het gebruiken van programma's om gebruikers te helpen in Workfront over tijdstreken samenwerken, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Werken in tijdzones</a>.</p> </td> 
+       </ul> <p>Gebruikers kunnen de tijdzone voor hun Workfront-exemplaar wijzigen onder hun profiel. Wanneer gebruikers hun tijdzone wijzigen, komen de datum en tijd in hun e-mails van Workfront overeen met hun profielvoorkeuren. Voor meer informatie over het wijzigen van de voorkeur van het gebruikersprofiel, zie <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref"> Mijn Montages </a> vormen. Het wordt geselecteerd als standaardtijdzone wanneer u een nieuw programma creeert. Voor meer informatie over het creëren van programma's, zie <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref"> een programma </a> creëren.</p> <p>Voor informatie over het gebruiken van programma's om gebruikers te helpen in Workfront over tijdstreken samenwerken, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref"> Werkend over tijdstreken </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Landinstelling</td> 
-      <td>Bepaalt de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt. De hier geselecteerde landinstelling is de standaardlandinstelling wanneer nieuwe gebruikers worden gemaakt. Gebruikers kunnen hun landinstelling wijzigen in hun gebruikersprofiel. Wanneer gebruikers hun landinstelling wijzigen, komen de taal, de datum en de getalnotatie in hun e-mails van Workfront overeen met hun profielvoorkeuren. Ga voor meer informatie over het wijzigen van uw profielvoorkeuren naar <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Mijn instellingen configureren</a>.</td> 
+      <td>Bepaalt de taal, datum en getalnotatie die in uitgaande e-mailberichten worden gebruikt. De hier geselecteerde landinstelling is de standaardlandinstelling wanneer nieuwe gebruikers worden gemaakt. Gebruikers kunnen hun landinstelling wijzigen in hun gebruikersprofiel. Wanneer gebruikers hun landinstelling wijzigen, komen de taal, de datum en de getalnotatie in hun e-mails van Workfront overeen met hun profielvoorkeuren. Voor meer informatie over het wijzigen van uw profielvoorkeur, zie <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref"> Mijn Montages </a> vormen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Opslagquotum</td> 
-      <td> <p>Dit is de hoeveelheid opslagruimte voor documenten die beschikbaar is in uw Workfront-exemplaar.<br>De quota bevat documenten die u rechtstreeks uploadt naar Workfront.<br>Hieronder vallen niet:</p> 
+      <td> <p>Dit is de hoeveelheid opslagruimte voor documenten die beschikbaar is in uw Workfront-exemplaar.<br> het quotum bevat documenten die u direct aan Workfront uploadt.<br> het omvat niet:</p> 
        <ul> 
         <li>Documenten die u via een andere externe serviceprovider (SharePoint, Google Drive, Webdam, Box, Dropbox, een andere leverancier van Document Asset Management) aan Workfront koppelt.</li> 
         <li>Uw Workfront-gegevens (projecten, taken, problemen, gebruikers, enzovoort).</li> 
@@ -136,9 +136,9 @@ U kunt als volgt het gedeelte Basisinformatie in het gedeelte Klantgegevens conf
      </tr> 
      <tr> 
       <td role="rowheader">Productversie</td> 
-      <td>Dit is het type Workfront-instantie dat aan u is toegewezen. De productversie voor de meeste Workfront-klanten is <strong>Enterprise</strong>.</td> 
+      <td>Dit is het type Workfront-instantie dat aan u is toegewezen. De productversie voor de meeste klanten van Workfront is <strong> Onderneming </strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

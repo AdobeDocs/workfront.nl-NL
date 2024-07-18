@@ -21,7 +21,7 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
 * Verwijder het permanent uit het huidige programma en koppel het niet aan een ander programma.
 * Verwijder het project definitief.
 
-   Voor informatie over het schrappen van projecten, zie [Projecten verwijderen](../../../manage-work/projects/manage-projects/delete-projects.md).
+  Voor informatie over het schrappen van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
 
 ## Toegangsvereisten
 
@@ -41,29 +41,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio, programma's en projecten</p> <p>U moet [!UICONTROL Delete] toegang tot Projecten om projecten te schrappen.</p> <p><b> OPMERKING</b>
+   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's, programma's en projecten</p> <p>U moet [!UICONTROL Delete] toegang tot Projecten hebben om projecten te schrappen.</p> <p><b> OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio, het programma en het project</p> <p>U moet [!UICONTROL Delete] machtigingen aan het project om het te verwijderen. </p> <p>Nadat u een programma hebt gemaakt, hebt u [!UICONTROL Manage] standaardmachtigingen.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio, het programma en het project</p> <p>U moet [!UICONTROL Delete] machtigingen voor het project hebben om het te verwijderen. </p> <p>Nadat u een programma hebt gemaakt, hebt u er standaard [!UICONTROL Manage] machtigingen voor.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een project verwijderen uit een programma
 
 1. Ga naar een programma en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 
 1. Selecteer het project dat u wilt verwijderen
-1. Klik op de knop **[!UICONTROL Remove Projects]** vervolgkeuzemenu.
-1. Klikken **[!UICONTROL Delete]** > **[!UICONTROL Yes, Delete it]** om het project uit Workfront te verwijderen.
+1. Klik op de vervolgkeuzelijst **[!UICONTROL Remove Projects]** .
+1. Klik op **[!UICONTROL Delete]** > **[!UICONTROL Yes, Delete it]** om het project uit Workfront te verwijderen.
 
    of
 
-   Klikken **[!UICONTROL Remove]** **[!UICONTROL from Program]** om het uit het geselecteerde programma te verwijderen.
+   Klik op **[!UICONTROL Remove]** **[!UICONTROL from Program]** om het uit het geselecteerde programma te verwijderen.
 
-   Als u hebt geklikt [!UICONTROL Remove from Program], is het project niet langer gekoppeld aan het geselecteerde programma.
+   Als u [!UICONTROL Remove from Program] klikte, wordt het project niet meer geassocieerd met het geselecteerde programma.

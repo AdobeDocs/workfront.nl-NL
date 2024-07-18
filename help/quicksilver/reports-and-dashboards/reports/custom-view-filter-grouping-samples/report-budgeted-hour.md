@@ -48,26 +48,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een rapport over een &#39;Budgeted Hour&#39; maken
 
-1. Klik op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Rapporten**.
+1. Klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Rapporten**.
 
-1. Klikken **Nieuw rapport > Budgeted Hour**.
+1. Klik **Nieuw Rapport > Gegreneerde Uur**.
 
    De standaardmening wordt toegepast op het rapport.
 
-1. (Optioneel) Als u het rapport beter leesbaar wilt maken, klikt u op de knop **Geforceerde uren** kolom, dan **Overschakelen naar tekstmodus** en wijzigt u vervolgens de
+1. (Facultatief) om het rapport gemakkelijker te maken om te lezen, klik de **Beoogde kolom van Uren**, toen **Schakelaar aan de Wijze van de Tekst**, dan verandert
 
    ```
    valuefield
@@ -83,20 +83,20 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    Hiermee wordt het aantal begrotingsuren afgerond op een aantal decimalen dat u opgeeft.
 
-   Zie het artikel voor informatie over het afronden van een getal in Workfront [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. (Optioneel) Klik op **Kolom toevoegen** extra kolommen toevoegen.
+1. (Facultatief) klik **Kolom** toevoegen om extra kolommen toe te voegen.
 1. (Optioneel) Om het rapport beter leesbaar te maken, raden we u aan een groep aan het rapport toe te voegen. Wij stellen de volgende groepering voor:
 
-   Klik op de knop **Groepen** voert u een of meer van de volgende handelingen uit:
+   Klik het **lusje van Groepen**, dan doe één of verscheidene van het volgende:
 
-   1. Klikken **Groepering toevoegen** en typ &quot;Projectnaam&quot; en selecteer deze wanneer deze in de lijst wordt weergegeven.
-   1. Klikken **Groepering toevoegen** en typt u &quot;Taakrolnaam&quot; en selecteert u deze wanneer deze in de lijst wordt weergegeven.
-   1. Klikken **Groepering toevoegen** en begint te typen **Toewijzingsdatum** selecteert u de tijdlijn wanneer deze in de lijst wordt weergegeven en selecteert u vervolgens de tijdlijn die u wilt groeperen in het menu **Datums groeperen op** veld.
+   1. Klik **toevoegen Groepering** en beginnen &quot;Naam van het Project&quot;te typen, dan het te selecteren wanneer het in de lijst verschijnt.
+   1. Klik **toevoegen Groepering** en beginnen &quot;Naam van de Rol van de Taak&quot;te typen, dan het te selecteren wanneer het in de lijst verschijnt.
+   1. Klik **toevoegen Groepering** en beginnen **Datum van de Toewijzing** te typen, selecteer het wanneer het in de lijst verschijnt, en selecteer dan timeframe u door van de **Datums van de Groep door** gebied wilt groeperen.
 
-1. (Optioneel) Klik op **Filters** om filters aan het rapport toe te voegen.
-1. (Optioneel) Klik op **Diagram** om een grafiek aan het rapport toe te voegen.
-1. Klikken **Opslaan + Sluiten**.
+1. (Facultatief) klik **Filters** om filters aan het rapport toe te voegen.
+1. (Facultatief) klik **Grafiek** om een grafiek aan het rapport toe te voegen.
+1. Klik **sparen + Sluiten**.
 
 ## Herzie het verslag over het begrote uur
 

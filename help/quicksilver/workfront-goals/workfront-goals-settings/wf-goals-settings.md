@@ -25,7 +25,7 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
      of
 
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Zie voor meer informatie [Adobe Workfront-plan](https://www.workfront.com/plans).
+     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
 
 * Voor het huidige plan en de licentiestructuur:
 
@@ -34,10 +34,10 @@ Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die i
 
 Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 
-Voor meer informatie over toegang tot Workfront Goals raadpleegt u [Vereisten voor het gebruik van Workfront-doelen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Deze sectie bevat de volgende artikelen:
 
-* [Meldingen voor Adobe Workfront-doelen inschakelen](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* [ laat de berichten van de Doelen van Adobe Workfront ](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
 * [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [Terminologie voor Adobe Workfront-doelen aanpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)

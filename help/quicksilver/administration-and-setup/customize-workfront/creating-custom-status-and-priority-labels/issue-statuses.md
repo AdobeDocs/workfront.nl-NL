@@ -11,7 +11,7 @@ role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Status van toegangskwesties
 
-U kunt tot systeem-vlakke uitgiftestatussen toegang hebben en wijzigen. U kunt bepaalde informatie over de standaardsysteemstatus bewerken of u kunt nieuwe aangepaste statussen maken. Ga voor meer informatie over het maken van aangepaste statussen of het bewerken van systeemstatussen naar [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+U kunt tot systeem-vlakke uitgiftestatussen toegang hebben en wijzigen. U kunt bepaalde informatie over de standaardsysteemstatus bewerken of u kunt nieuwe aangepaste statussen maken. Voor meer informatie over het creëren van douanestatus of het uitgeven systeemstatussen, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
 
 Toegang krijgen tot uitgiftestatussen op systeemniveau:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Projectvoorkeuren** > **Statussen**.
+1. Klik **Voorkeur van het Project** > **Statussen**.
 
-1. Klik op de knop **Problemen** om de uitgiftestatus te bekijken die beschikbaar is in Workfront.
+1. Klik het **lusje van Kwesties** om de uitgevende statussen beschikbaar in Workfront te zien.
 
    ![](assets/issue-status.png)
 
@@ -61,7 +61,7 @@ Toegang krijgen tot uitgiftestatussen op systeemniveau:
 
 Workfront wordt geleverd met 10 oorspronkelijke uitgiftestatussen. De eerste 4 in de tabel hieronder zijn vereist. Dit betekent dat u de bestanden kunt ontgrendelen, hernoemen en opnieuw ordenen, maar dat u ze niet kunt verbergen of verwijderen.
 
-U kunt aangepaste uitgiftestatussen toevoegen aan de behoeften van uw organisatie. Zie voor meer informatie [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+U kunt aangepaste uitgiftestatussen toevoegen aan de behoeften van uw organisatie. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 Voor gebruikers is het wijzigen van de status van een uitgave doorgaans een handmatig proces. Er zijn echter situaties, die in de volgende lijst worden beschreven, waarin de status van een uitgave automatisch verandert, afhankelijk van andere factoren die zich in het systeem voordoen.
 
@@ -86,12 +86,12 @@ De volgende uitgavestatussen worden bij uw Workfront-exemplaar geleverd:
   </tr> 
   <tr> 
    <td>Bezig (vereiste status)</td> 
-   <td> <p>U kunt een probleem in deze status plaatsen om aan te geven dat het werk aan dat probleem is begonnen.</p> <p>Als de oplossing van de kwestie met een ander voorwerp (een taak, een project, of een andere kwestie) wordt verbonden, wordt de status van de kwestie veranderd automatisch in Bezig, wanneer u de status van het het oplossen voorwerp in Bezig verandert. </p> <p>Zie voor meer informatie over het omzetten van objecten <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overzicht van Oplossende en Oplosbare objecten </a>.</p> </td> 
+   <td> <p>U kunt een probleem in deze status plaatsen om aan te geven dat het werk aan dat probleem is begonnen.</p> <p>Als de oplossing van de kwestie met een ander voorwerp (een taak, een project, of een andere kwestie) wordt verbonden, wordt de status van de kwestie veranderd automatisch in Bezig, wanneer u de status van het het oplossen voorwerp in Bezig verandert. </p> <p>Voor meer informatie over het oplossen van voorwerpen, zie <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.</p> </td> 
    <td> <p>Als de kwestie op een project in een status van Huidig is, toont de kwestie in het Werken aan lusje van de gebruikers die aan de kwestie worden toegewezen.</p> <p>Wanneer een probleem in uitvoering is, geeft de uitgave een waarde weer voor de werkelijke begindatum.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Gesloten (vereiste status)</td> 
-   <td> <p>U kunt een kwestie manueel als Gesloten merken wanneer het werk aan het wordt voltooid. </p> <p>Als de oplossing van de kwestie met een ander voorwerp (een taak, een project, of een andere kwestie) wordt verbonden, wordt de uitgiftestatus automatisch veranderd in Gesloten, wanneer u de status van het het oplossen voorwerp in Gesloten verandert.</p> <p>Zie voor meer informatie over het omzetten van objecten <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overzicht van Oplossende en Oplosbare objecten </a>.</p> </td> 
+   <td> <p>U kunt een kwestie manueel als Gesloten merken wanneer het werk aan het wordt voltooid. </p> <p>Als de oplossing van de kwestie met een ander voorwerp (een taak, een project, of een andere kwestie) wordt verbonden, wordt de uitgiftestatus automatisch veranderd in Gesloten, wanneer u de status van het het oplossen voorwerp in Gesloten verandert.</p> <p>Voor meer informatie over het oplossen van voorwerpen, zie <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.</p> </td> 
    <td> <p>Wanneer een kwestie wordt gesloten, wordt de kwestie verwijderd uit de Werkgroep van de ontvanger aan lijst. In dit geval geeft de uitgave een waarde weer voor de datum van feitelijke voltooiing. </p> <p>Wanneer alle taken worden voltooid en de kwesties op een project worden gesloten, kan het project worden voltooid.</p> </td> 
   </tr> 
   <tr> 
@@ -127,13 +127,13 @@ De volgende uitgavestatussen worden bij uw Workfront-exemplaar geleverd:
   <tr> 
    <td>Geen oplossing (komt overeen met gesloten)</td> 
    <td>U kunt een probleem in deze status plaatsen om aan te geven dat u het probleem sluit, maar het probleem dat het heeft veroorzaakt, kan niet worden opgelost.</td> 
-   <td> <p>Deze status is belangrijk bij de rapportage, om onderscheid te maken tussen kwesties die met of zonder een oplossing zijn gesloten (gewoonlijk in de status Gesloten) en kwesties die zonder een daadwerkelijke resolutie zijn gesloten (gewoonlijk in de status van Won't Resolve).</p> <p>Wanneer een probleem wordt gemarkeerd als Geen oplossing, wordt het probleem verwijderd uit de lijst Werkgroep van de ontvanger. In dit geval geeft de uitgave een waarde weer voor de datum van feitelijke voltooiing.</p> <p>Als alle taken op een project worden voltooid, en minstens één kwestie in een Won is lost status niet op, kan het project worden voltooid.</p> </td> 
+   <td> <p>Deze status is belangrijk bij de rapportage, om onderscheid te maken tussen kwesties die met of zonder een oplossing zijn gesloten (gewoonlijk in de status Gesloten) en kwesties die zonder een daadwerkelijke resolutie zijn gesloten (gewoonlijk in de status van Geen oplossing).</p> <p>Wanneer een probleem wordt gemarkeerd als Geen oplossing, wordt het probleem verwijderd uit de lijst Werkgroep van de ontvanger. In dit geval geeft de uitgave een waarde weer voor de datum van feitelijke voltooiing.</p> <p>Als alle taken op een project worden voltooid, en minstens één kwestie in een Won is lost status niet op, kan het project worden voltooid.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Uitgiftestatussen aanpassen
 
-Een Workfront-beheerder kan emissiestatussen op systeemniveau en op groepsniveau toevoegen aan Workfront en de volgorde wijzigen waarin gebruikers deze weergeven. Zie voor meer informatie [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Een Workfront-beheerder kan emissiestatussen op systeemniveau en op groepsniveau toevoegen aan Workfront en de volgorde wijzigen waarin gebruikers deze weergeven. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
-Een groepbeheerder kan een aangepaste status toevoegen die specifiek is voor één groep. Zie voor meer informatie [Een groepsstatus maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Een groepbeheerder kan een aangepaste status toevoegen die specifiek is voor één groep. Voor meer informatie, zie [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.

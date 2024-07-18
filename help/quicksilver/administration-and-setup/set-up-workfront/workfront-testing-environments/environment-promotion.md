@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Objecten verplaatsen tussen [!DNL Workfront] omgevingen die de [!DNL Workfront] Omgevingspromotie-API
+# Objecten tussen [!DNL Workfront] -omgevingen verplaatsen met de [!DNL Workfront] Environment Promotion API
 
 Met de mogelijkheid Omgevingsbevordering kunt u configuratiegerelateerde objecten van de ene omgeving naar de andere verplaatsen. U kunt deze objecten verplaatsen met de Workfront API, zoals beschreven in dit artikel.
 
@@ -33,13 +33,13 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td><strong>[!DNL Adobe Workfront] plan </strong>
    </td>
    <td> Premier of Ultimate (alleen nieuwe plannen)
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties</strong>
+   <td><strong>[!DNL Adobe Workfront] licenties </strong>
    </td>
    <td> [!UICONTROL Standard]
    </td>
@@ -47,22 +47,22 @@ U moet het volgende hebben:
    <tr>
    <td>Configuraties op toegangsniveau
    </td>
-   <td>U moet een [!DNL Workfront] beheerder.
+   <td>U moet een [!DNL Workfront] beheerder zijn.
    </td>
   </tr>
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
-Het Create eindpunt van het Pakket van de Bevordering veronderstelt dat u reeds het bronmilieu hebt gevormd. Voor deze API-aanroep moet handmatig een objectkaart worden gemaakt van [!DNL Workfront] objCodes en object GUIDs. De specifieke structuur van deze kaart wordt hieronder beschreven.
+Het Create eindpunt van het Pakket van de Bevordering veronderstelt dat u reeds het bronmilieu hebt gevormd. Voor deze API-aanroep moet handmatig een objectkaart van [!DNL Workfront] objCodes en object GUIDs worden gemaakt. De specifieke structuur van deze kaart wordt hieronder beschreven.
 
 ## Ondersteunde objecten voor milieubescherming
 
 Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. Het ondersteunt niet de mogelijkheid om transactieobjecten te verplaatsen (met beperkte uitzonderingen).
 
-Voor een lijst met promoteerbare objecten en de bijbehorende promoteerbare subobjecten raadpleegt u [Ondersteunde objecten voor milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het artikel [Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Voor een lijst van promotable voorwerpen en hun inbegrepen promotable subobjects, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het artikel [ Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Verificatie
 
@@ -72,7 +72,7 @@ Verificatie wordt uitgevoerd door een sessie-id of API-sleutel door te geven. De
 
 ### Koptekstverificatie aanvragen
 
-De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel dat u veilig bent tegen [Cross-site Request-vervalsing (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen en niet interfererend met URI voor caching doeleinden.
+De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel om tegen [ Cross-site van het Verzoek Smederij (CSRF) ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen veilig te zijn en zich niet met URI voor caching doeleinden te mengen.
 
 Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 
@@ -108,18 +108,18 @@ Deze vraag voert een multi-step proces uit.
 
 De eerste stap resulteert in de creatie van een leeg promotiepakket in de status &quot;ASSEMBLING&quot;.
 
-In de tweede stap worden de `objectCollections` -array in de POST-instantie om de gevraagde gegevens van Workfront samen te stellen. Deze stap kan enkele minuten duren, afhankelijk van het aantal opgevraagde records en uw Workfront-configuratie. Aan het einde van dit proces wordt het lege promotiepakket bijgewerkt met de `packageEntities` en de status wordt automatisch ingesteld op &quot;DRAFT&quot;.
+In de tweede stap wordt de array `objectCollections` in de hoofdtekst van de POST gebruikt om de gevraagde records van Workfront samen te stellen. Deze stap kan enkele minuten duren, afhankelijk van het aantal opgevraagde records en uw Workfront-configuratie. Aan het einde van dit proces wordt het lege promotiepakket bijgewerkt met `packageEntities` en wordt de status automatisch ingesteld op &quot;DRAFT&quot;.
 
 
 >[!NOTE]
 >
->Noteer de structuur van de `objectCollections`  array.
+>Noteer de structuur van de array `objectCollections` .
 >
->Elk item in de array bevat een `objCode` sleutel die overeenkomt met de objectcode die wordt gedocumenteerd in de Workfront API Explorer.
+>Elk item in de array bevat een `objCode` -sleutel die overeenkomt met de objectcode die in de Workfront API Explorer is gedocumenteerd.
 >
->Elk item bevat ook een `entities` verzameling. Dit verwacht `ID` veld. De toepassing kan ook een optionele `name` om het gemakkelijker te maken om te weten wat `ID` vertegenwoordigt.
+>Elk item bevat ook een `entities` -verzameling. Hiermee wordt het veld `ID` verwacht. Het kan ook een optioneel `name` -kenmerk accepteren, zodat u gemakkelijker kunt zien wat de `ID` vertegenwoordigt.
 >
->Voor de lijst met toegestane objectcodes die moet worden aangevraagd in het dialoogvenster `objectCollections` lijst, zie [Ondersteunde objecten voor milieubescherming](#supported-objects-for-environment-promotion) in dit artikel.
+>Voor de lijst van toegestane objecten codes die in de `objectCollections` lijst moeten worden gevraagd, zie de [ Gesteunde voorwerpen voor milieu bevordering ](#supported-objects-for-environment-promotion) sectie in dit artikel.
 
 #### URL
 
@@ -373,7 +373,7 @@ De bewerkbare kenmerken zijn:
 1. description (string)
 1. status (tekenreeks met validatie van waarden)
 
-Zie voor een gedetailleerde beschrijving van de beschikbare statussen [Status van milieubescherming](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikel [Overzicht van het verplaatsen van objecten tussen Workfront-omgevingen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Voor een gedetailleerde beschrijving van beschikbare statussen, zie [ de bevorderingsstatussen van het Milieu ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikel [ Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -516,7 +516,7 @@ Met deze aanroep wordt een vergelijking gemaakt tussen de pakketdefinitie en de 
 
 Het resultaat is een JSON-instantie die aangeeft of een promotieobject al dan niet wordt gevonden in de doelomgeving.
 
-Voor elk promotieobject een van de volgende `actions`  wordt ingesteld:
+Voor elk promotieobject wordt een van de volgende opties ingesteld: `actions`
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,24 +524,24 @@ Voor elk promotieobject een van de volgende `actions`  wordt ingesteld:
  <tbody> 
   <tr> 
    <td>MAKEN</td> 
-   <td><p>Wanneer een corresponderende record niet kan worden gevonden in de doelomgeving, wordt de actie ingesteld op CREATE.</p><p>Wanneer deze handeling is ingesteld in het dialoogvenster <code>translationmap</code> die aan de <code>/install</code> eindpunt, zal de installatieservice het verslag tot stand brengen.</p></td> 
+   <td><p>Wanneer een corresponderende record niet kan worden gevonden in de doelomgeving, wordt de actie ingesteld op CREATE.</p><p>Wanneer deze handeling wordt ingesteld in het <code>translationmap</code> -bestand dat aan het <code>/install</code> -eindpunt wordt geleverd, maakt de installatieservice de record.</p></td> 
   </tr> 
   <tr> 
    <td>GEBRUIKELIJK</td> 
-   <td><p>Wanneer een corresponderende record wordt gevonden in de doelomgeving, wordt de actie ingesteld op USEEXISTING en een <code>targetId</code> wordt ook vastgelegd in de <code>translationmap</code>.</p><p>Wanneer deze handeling is ingesteld in het dialoogvenster <code>translationmap</code> die aan de <code>/install</code> eindpunt, zal de installatieservice niet het verslag tot stand brengen. Het zal echter gebruikmaken van de <code>targetId</code> opgenomen in het kaartitem voor andere objecten die mogelijk een verwijzing naar deze record bevatten.</p><p>Een standaardgroep kan bijvoorbeeld worden gevonden in de doelomgeving waarin een pakket wordt geïmplementeerd. Het is niet mogelijk om twee "Standaard verslagen van de Groep"te hebben, zodat zal de installatieservice GUID voor de bestaande groep in een andere acties van de objecten tot stand brengen die een verwijzing naar de "StandaardGroep"omvatten, zoals een project, een vorm, of een andere entiteit die met deze groep verwant is.</p><p><b>Opmerking:</b> <ul><li><p>Wanneer de USEEXISTING-actie wordt toegewezen, wordt de bestaande record in de doelomgeving niet gewijzigd. </p><p>Als bijvoorbeeld de beschrijving van de standaardgroep is gewijzigd in de sandbox waarin het pakket is gemaakt en de beschrijvingswaarde in de doelomgeving afwijkt, blijft de waarde ongewijzigd na een installatie met deze <code>translationmap</code>.</li></ul></td> 
+   <td><p>Wanneer een corresponderende record wordt gevonden in de doelomgeving, wordt de actie ingesteld op USEEXISTING en wordt een <code>targetId</code> ook vastgelegd in <code>translationmap</code> .</p><p>Wanneer deze handeling wordt ingesteld in het <code>translationmap</code> -bestand dat aan het <code>/install</code> -eindpunt wordt geleverd, maakt de installatieservice de record niet. De code gebruikt echter de <code>targetId</code> die is opgenomen in de kaartvermelding voor andere objecten die een verwijzing naar deze record kunnen bevatten.</p><p>Een standaardgroep kan bijvoorbeeld worden gevonden in de doelomgeving waarin een pakket wordt geïmplementeerd. Het is niet mogelijk om twee "Standaard verslagen van de Groep"te hebben, zodat zal de installatieservice GUID voor de bestaande groep in een andere acties van de objecten tot stand brengen die een verwijzing naar de "StandaardGroep"omvatten, zoals een project, een vorm, of een andere entiteit die met deze groep verwant is.</p><p><b> Nota:</b> <ul><li><p>Wanneer de USEEXISTING-actie wordt toegewezen, wordt de bestaande record in de doelomgeving niet gewijzigd. </p><p>Als de beschrijving van de standaardgroep bijvoorbeeld is gewijzigd in de sandbox waarin het pakket is gemaakt en de beschrijvingswaarde in de doelomgeving afwijkt, blijft de waarde na een installatie met deze <code>translationmap</code> ongewijzigd.</li></ul></td> 
   </tr> 
   <tr> 
    <td>OVERSCHRIJVEN</td> 
-   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Met deze actie kunt u een object bijwerken dat in de doelomgeving bestaat. Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-handeling voordat de handeling wordt uitgevoerd <code>/install</code> vraag.<ul><li>Een gebruiker kan een object bijwerken in de testomgeving en vervolgens de actie OVERSCHRIJVEN gebruiken om dat object bij te werken in de doelomgeving.</p></li><li><p>Als de gebruiker eerst één promotiepakket installeert en vervolgens een nieuw (of bijgewerkt) pakket in de toekomst wijzigingen bevat in objecten in het eerste pakket, kan de gebruiker met OVERSCHRIJVEN eerder geïnstalleerde objecten vervangen (overschrijven). </p><p>Zie de sectie [Overschrijven](#overschrijven) in dit artikel voor meer informatie over overschrijven.</li><ul></td> 
+   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Met deze actie kunt u een object bijwerken dat in de doelomgeving bestaat. Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-actie voordat de <code>/install</code> -aanroep wordt uitgevoerd.<ul><li>Een gebruiker kan een object bijwerken in de testomgeving en vervolgens de actie OVERSCHRIJVEN gebruiken om dat object bij te werken in de doelomgeving.</p></li><li><p>Als de gebruiker eerst één promotiepakket installeert en vervolgens een nieuw (of bijgewerkt) pakket in de toekomst wijzigingen bevat in objecten in het eerste pakket, kan de gebruiker met OVERSCHRIJVEN eerder geïnstalleerde objecten vervangen (overschrijven). </p><p>Zie de sectie [Overschrijven](#overschrijven) in dit artikel voor meer informatie over overschrijven.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
-   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-handeling voordat de handeling wordt uitgevoerd <code>/install</code> vraag.</p><p><b>Opmerkingen: </b><ul><li><p>Als een verslag dat oorspronkelijk aan CREATE werd geplaatst aan IGNORE wordt geplaatst, dan zouden om het even welke kindverslagen ook aan IGNORE moeten worden geplaatst.</p><p>Bijvoorbeeld, als een verslag van het Malplaatje met CREATE actie in kaart werd gebracht, en de installerende gebruiker het van de plaatsing wenst uit te sluiten, kunnen zij de actie van het Malplaatje aan IGNORE plaatsen.</p><p>In dit geval, als de installerende gebruiker niet ook de Taken van het Malplaatje, de Toewijzingen van de Taak van het Malplaatje, Predecessors van de Taak van het Malplaatje, de Definitie van de Rij, de Onderwerpen van de Rij, het Verpletteren van Regels, enz. plaatst, zal de plaatsing in een ontbroken installatiepoging resulteren.</p></li><li><p>Als een record die oorspronkelijk op USEEXISTING was ingesteld, op IGNORE is ingesteld, kunnen er enkele negatieve effecten optreden tijdens het installatieproces.</p><p>Bijvoorbeeld, als een verslag van de Groep met de USEEXISTING actie in kaart is gebracht, en de installerende gebruiker de actie in IGNORE, voor voorwerpen verandert die een groep vereisen (b.v., kan een Project niet bestaan zonder een toegewezen groep), zal de systeem standaardgroep aan dat project worden toegewezen.</p></li><li><p>Als een record die oorspronkelijk op USEEXISTING was ingesteld, is ingesteld op CREATE, kunnen er enkele negatieve effecten optreden tijdens het installatieproces omdat veel Workfront-entiteiten unieke naambeperkingen hebben.</p><p>Als bijvoorbeeld een standaardrapport van de groep is toegewezen aan de USEEXISTING-actie en de installerende gebruiker de actie wijzigt in CREATE, omdat er al een "Standaardgroep" is, zal de installatiepoging niet alle stappen voltooien. Groepsnamen moeten uniek zijn.</p><p>Sommige entiteiten hebben geen unieke naambeperking. Als u deze wijziging aanbrengt voor deze objecten, worden twee records met dezelfde naam gemaakt. Sjablonen, projecten, weergaven, filters, groepen, rapporten en dashboards vereisen bijvoorbeeld geen unieke naambeperkingen. Het is aan te raden unieke namen voor deze records te hebben, maar dit wordt niet afgedwongen.</p></li></ul></p></td> 
+   <td><p>Deze handeling wordt niet automatisch ingesteld.</p><p>Het biedt de mogelijkheid om een handmatige overschrijving uit te voeren van een toegewezen CREATE- of USEEXISTING-actie voordat de <code>/install</code> -aanroep wordt uitgevoerd.</p><p><b>Opmerkingen: </b><ul><li><p>Als een verslag dat oorspronkelijk aan CREATE werd geplaatst aan IGNORE wordt geplaatst, dan zouden om het even welke kindverslagen ook aan IGNORE moeten worden geplaatst.</p><p>Bijvoorbeeld, als een verslag van het Malplaatje met CREATE actie in kaart werd gebracht, en de installerende gebruiker het van de plaatsing wenst uit te sluiten, kunnen zij de actie van het Malplaatje aan IGNORE plaatsen.</p><p>In dit geval, als de installerende gebruiker niet ook de Taken van het Malplaatje, de Toewijzingen van de Taak van het Malplaatje, Predecessors van de Taak van het Malplaatje, de Definitie van de Rij, de Onderwerpen van de Rij, het Verpletteren van Regels, enz. plaatst, zal de plaatsing in een ontbroken installatiepoging resulteren.</p></li><li><p>Als een record die oorspronkelijk op USEEXISTING was ingesteld, op IGNORE is ingesteld, kunnen er enkele negatieve effecten optreden tijdens het installatieproces.</p><p>Bijvoorbeeld, als een verslag van de Groep met de USEEXISTING actie in kaart is gebracht, en de installerende gebruiker de actie in IGNORE, voor voorwerpen verandert die een groep vereisen (b.v., kan een Project niet bestaan zonder een toegewezen groep), zal de systeem standaardgroep aan dat project worden toegewezen.</p></li><li><p>Als een record die oorspronkelijk op USEEXISTING was ingesteld, is ingesteld op CREATE, kunnen er enkele negatieve effecten optreden tijdens het installatieproces omdat veel Workfront-entiteiten unieke naambeperkingen hebben.</p><p>Als bijvoorbeeld een standaardrapport van de groep is toegewezen aan de USEEXISTING-actie en de installerende gebruiker de actie wijzigt in CREATE, omdat er al een "Standaardgroep" is, zal de installatiepoging niet alle stappen voltooien. Groepsnamen moeten uniek zijn.</p><p>Sommige entiteiten hebben geen unieke naambeperking. Als u deze wijziging aanbrengt voor deze objecten, worden twee records met dezelfde naam gemaakt. Sjablonen, projecten, weergaven, filters, groepen, rapporten en dashboards vereisen bijvoorbeeld geen unieke naambeperkingen. Het is aan te raden unieke namen voor deze records te hebben, maar dit wordt niet afgedwongen.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-Er is momenteel geen ondersteuning voor een UPDATE `action` in de alfamogelijkheden van deze service. De optie voor een UPDATE `action` is iets wat wij onderzoeken.
+Er is momenteel geen ondersteuning voor een UPDATE `action` in de alfamogelijkheden van deze service. De optie om een UPDATE `action` toe te staan, is iets waar we naar zoeken.
 
 #### URL
 
@@ -671,7 +671,7 @@ of
 
 >[!NOTE]
 >
->De id die u nodig hebt om de installatie uit te voeren is de `id` veld. In dit voorbeeld wordt `id` veld bevindt zich derde boven en heeft een waarde die begint met `c0bc79bd`.
+>De id die u nodig hebt om de installatie uit te voeren, is het veld `id` . In dit voorbeeld bevindt het veld `id` zich op het derde punt van de bovenkant en heeft een waarde die begint met `c0bc79bd` .
 
 ### Een installatie uitvoeren
 
@@ -681,7 +681,7 @@ of
 >
 >Als om het even welke veranderingen in het bestemmingsmilieu (het milieu zijn aangebracht dat het pakket wordt opgesteld) na het uitvoeren van pre-looppas, adviseren wij nogmaals uitvoering pre-run. Als u de voorvertoning niet opnieuw uitvoert, is de uitvoering mogelijk niet correct voltooid of mislukt de installatie mogelijk.
 >
->Voor instructies over het uitvoeren van een prerun raadpleegt u [Een prerun uitvoeren](#execute-a-pre-run).
+>Voor instructies bij het uitvoeren van een pre-looppas, zie [ prerun ](#execute-a-pre-run) uitvoeren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -837,15 +837,15 @@ _Leeg_
   </tbody> 
 </table>
 
-Deze vraag zal definitief terugkeren `translationMap` geproduceerd door de installatieservice voor een specifieke installatie.
+Deze aanroep retourneert de laatste `translationMap` die door de installatieservice voor een specifieke installatie is gemaakt.
 
-In elke record wordt vermeld wat de voorgeschreven gegevens zijn `action` was en of die actie succesvol was of niet.
+In elke record wordt aangegeven wat de voorgeschreven `action` was en of die actie succesvol was of niet.
 
-Voor records met een CREATE `action` de `targetId` het veld wordt ingesteld met de waarde van de nieuwe record in het doelsysteem. Daarnaast worden de `installationStatus` wordt ingesteld op INSTALLED.
+Voor records met een CREATE `action` wordt het veld `targetId` ingesteld met de waarde van de nieuwe record in het doelsysteem. Daarnaast wordt het veld `installationStatus` ingesteld op INSTALLED.
 
-Voor records met het USEEXIST `action` de `targetId` wordt ook het veld ingesteld en `installationStatus` wordt ingesteld op GEREGISTREERD. Dit betekent dat het kaartproces volledig was en de installatieservice erkent dat het het verslag heeft geëvalueerd en er niets om te handelen is.
+Voor records met USEEXISTING `action` wordt het veld `targetId` ook ingesteld en wordt het veld `installationStatus` ingesteld op REGISTERED. Dit betekent dat het kaartproces volledig was en de installatieservice erkent dat het het verslag heeft geëvalueerd en er niets om te handelen is.
 
-Als de record een CREATE heeft `action` maar de record kan niet worden gemaakt. `installationStatus` wordt ingesteld op MISLUKT en de reden voor de fout wordt ook opgegeven.
+Als de record een CREATE `action` heeft maar er geen record kan worden gemaakt, wordt de `installationStatus` ingesteld op FAILED en wordt ook de reden voor de fout opgegeven.
 
 #### URL
 
@@ -919,14 +919,14 @@ _Leeg_
 Dit is een proces in drie stappen.
 
 1. Een vertaalkaart maken (dit is te vergelijken met de installatiefase &quot;De installatie voorbereiden&quot;)
-1. Bewerk de gegenereerde vertaalkaart en stel de `action` en `targetId` velden voor elk object dat ze willen overschrijven. De actie moet `OVERWRITING`en de `targetId` moet de uuid zijn van het object dat moet worden overschreven
+1. Bewerk de gegenereerde vertaalkaart en stel de velden `action` en `targetId` in voor elk object dat ze willen overschrijven. De handeling moet `OVERWRITING` zijn en de `targetId` moet de uuid zijn van het object dat moet worden overschreven
 1. Voer de installatie uit.
 
 * [Stap 1 - Een vertaalkaart maken](#step-1---create-a-translation-map)
 * [Stap 2 - Wijzig de Omzettingskaart](#step-2---modify-the-translation-map)
 * [Stap 3 - Installeren](#step-3---install)
 
-### **Stap 1 - Een vertaalkaart maken**
+### **Stap 1 - creeer een Omzetkaart**
 
 #### URL
 
@@ -940,7 +940,7 @@ Geen
 
 #### Antwoord
 
-Een vertaalkaart, met een `202 - OK` status
+Een vertaalkaart, met een `202 - OK` -status
 
 ```json
 {
@@ -1017,15 +1017,15 @@ Een vertaalkaart, met een `202 - OK` status
 
 Er is geen eindpunt voor deze stap.
 
-1. In de vertaalkaart die is geretourneerd in [Stap 1 - Een vertaalkaart maken](#step-1---create-a-translation-map), inspecteert u de lijst met objecten die worden geïnstalleerd.
+1. In de vertaalkaart die in [ Stap 1 is teruggekeerd - creeer een Vertaal Kaart ](#step-1---create-a-translation-map), inspecteer de lijst van voorwerpen die zullen worden geïnstalleerd.
 1. Werk het actieveld op elk voorwerp aan de gewenste installatieactie bij.
-1. Valideer de `targetId` op elk object. Als de handeling set `USEEXISTING` of `OVERWRITING`de `targetId` moet worden ingesteld op de UUID van het doelobject in de doelomgeving. Voor elke andere actie moet targetId een lege tekenreeks zijn.
+1. Valideer de `targetId` voor elk object. Als de actie set `USEEXISTING` of `OVERWRITING` is, moet de `targetId` worden ingesteld op de UUID van het doelobject in de doelomgeving. Voor elke andere actie moet targetId een lege tekenreeks zijn.
 
    >[!NOTE]
    >
-   >De `targetId` is reeds bevolkt als een botsing werd ontdekt.
+   >`targetId` is reeds bevolkt als een botsing werd ontdekt.
 
-### **Stap 3 - Installeren**
+### **Stap 3 - installeer**
 
 #### URL
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Lichaam
 
-Dit is een object met één veld `translationMap`, die gelijk moet zijn aan de aangepaste vertaalkaart van [Stap 2 - Wijzig de Omzettingskaart](#step-2---modify-the-translation-map).
+Dit is een voorwerp met één enkel gebied `translationMap`, dat de gewijzigde vertaalkaart van [ Stap 2 zou moeten evenaren - wijzig de Omzettingskaart ](#step-2---modify-the-translation-map).
 
 ```json
 {
@@ -1114,7 +1114,7 @@ Dit is een object met één veld `translationMap`, die gelijk moet zijn aan de a
 
 #### Antwoord
 
-De reactie omvat de `{uuid of the created installation}` en `202 - ACCEPTED` status.
+Het antwoord bevat de status `{uuid of the created installation}` en `202 - ACCEPTED` .
 
 Voorbeeld: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

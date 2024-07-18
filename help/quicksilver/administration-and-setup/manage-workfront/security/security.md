@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 exl-id: a8be3e69-0e1d-4a9e-9da8-4cde9643ca25
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Systeembeveiligingsvoorkeuren configureren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
-* [Wachtwoordbeleid voor verificatie configureren](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Verwijderen van verschillende Single Sign-On-opties](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
-* [Het Adobe Workfront SAML 2.0-metagegevenscertificaat verlengen](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
-* [Dubbele gebruikers voorkomen](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
-* [Toegang tot Adobe Workfront beperken tot IP-adres](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
-* [Bestandsversleuteling](../../../administration-and-setup/manage-workfront/security/file-encryption.md)
-* [Je Adobe Workfront-domein wijzigen](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
-* [API-sleutels beheren](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md)
+* [ vorm de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [ vorm wachtwoordbeleid voor authentificatie ](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [ Verwijdering van diverse enige sign-on opties ](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+* [ vernieuw Adobe Workfront SAML 2.0 meta-gegevenscertificaat ](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
+* [ verhinderen dubbele gebruikers ](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
+* [ Beperk toegang tot Adobe Workfront door IP adres ](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
+* [ de encryptie van het Dossier ](../../../administration-and-setup/manage-workfront/security/file-encryption.md)
+* [ Verandering uw domein van Adobe Workfront ](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
+* [ beheer API sleutels ](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md)
 * [Privacybeleid van Adobe Workfront](../../../administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)

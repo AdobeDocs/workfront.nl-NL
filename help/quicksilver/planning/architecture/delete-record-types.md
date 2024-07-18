@@ -31,9 +31,9 @@ hide: yes
 
 U kunt recordtypen verwijderen wanneer deze niet meer relevant zijn.
 
-Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Zie de klasse [Overwegingen bij het verwijderen van recordtypen](#considerations-when-deleting-record-types) in dit artikel.
+Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [ Overwegingen wanneer het schrappen van verslagtypes ](#considerations-when-deleting-record-types) sectie in dit artikel.
 
-Zie voor informatie over recordtypen [Overzicht van recordtypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -80,13 +80,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
@@ -131,11 +131,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    De werkruimte wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Houd de muisaanwijzer boven de recordtypekaart, klik op het menu Meer en vervolgens op **Verwijderen**.
-   * Klik op de kaart voor het recordtype dat u wilt verwijderen en klik op de pagina met recordtypen op de knop **Meer** menu ![](assets/more-menu.png) rechts van de naam van het recordtype klikt u op **Verwijderen**.
+   * Plaats over de kaart van het verslagtype, klik het Meer menu, dan **Schrapping**.
+   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping** klikken.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Type **delete** klikt u in het bevestigingsvak op **Definitief verwijderen**. Dit is niet hoofdlettergevoelig.
+1. Het type **schrapt** in de bevestigingsdoos, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 
    Het geselecteerde recordtype en de bijbehorende velden, bijbehorende records en weergaven worden verwijderd.

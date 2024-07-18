@@ -24,7 +24,7 @@ Beschrijft in detail de beschikbare montages en de controles voor een basisProje
 
 Het implementatieteam importeert liever project- en taakinformatie voor actieve projecten in plaats van deze gegevens handmatig in te voeren in het systeem.
 
-* [Projecten](#projects)
+* [ Projecten ](#projects)
 * [Takenlijst](#task-list)
 
 ### Projecten {#projects}
@@ -85,7 +85,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
 
 >[!NOTE]
 >
->De instructies in dit scenario zijn niet zo expliciet als de stapsgewijze instructies in [Kick-start Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). De veronderstelling is u reeds hebt geleerd om waarden van het Bedrijf en de Bladen van de Groep op te zoeken en te kopiëren, zodat zullen deze stappen worden vermeld, maar niet specifiek geschetst.
+>De instructies die in dit scenario worden verstrekt zijn niet zo uitdrukkelijk zoals de geleidelijke richtingen die in [ worden verstrekt Kick-Begint Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). De veronderstelling is u reeds hebt geleerd om waarden van het Bedrijf en de Bladen van de Groep op te zoeken en te kopiëren, zodat zullen deze stappen worden vermeld, maar niet specifiek geschetst.
 
 1. Configureren.
 1. Importeer gebruikers.
@@ -284,25 +284,25 @@ Tenzij u reeds projecten in Workfront hebt gecreeerd, zou het leeg moeten zijn.
 
 Stel de waarden in voor de volgende projectvelden:
 
-* **De kolom isNew instellen**
+* **Reeks isNew kolom**
 Voer TRUE in de rijen 3 tot en met 6 in voor de kolom isNew.
-* **Unieke id&#39;s instellen**
+* **plaatste unieke IDs**
 Voer een unieke id in elke rij in voor de kolom Id. Gewoonlijk werken gehele getallen die beginnen bij 1 goed bij het maken van nieuwe records.
-* **Projectnamen instellen**
+* **plaats de Namen van het Project**
 Voer de namen van elk project in de kolom setName in.
-* **Projectschema instellen**
+* **plaats projectprogramma**
 
   Voer de id in van het programma dat u wilt gebruiken in het veld setScheduleID
 
-* **De geplande begindatum van het project instellen**
+* **plaats het project Geplande Datum van het Begin**
 
   Voer de datum en de tijd in de kolom setPlannedStartDate in met de tijd en de datum waarop het project moet worden gestart. Als het project leeg wordt gelaten, importeert Workfront het met de datum van de huidige dag en een tijdstempel van middernacht van die dag volgens de tijdzone van de browser.
 
-* **Taaknummers instellen**
+* **reeks de aantallen van de Taak**
 De waarden van de input in de setTaskNumber kolom om de orde te controleren de taken in het projectplan zullen verschijnen.
-* **Geef projectdatums op.**
+* **verstrek projectdata.**
 Voer de geplande begindatum in voor elk project in de kolom setPlannedStartDate.
-* **Stel andere benodigde gegevens in.**
+* **plaats andere vereiste details.**
 Vul desgewenst andere gegevens in, zoals een beschrijving of de huidige status. Zoek omhoog IDs van de Groep voor elk project op het blad van de Groep van de GROEP en input hen in de setGroupID kolom voor de respectieve projecten. Zoek omhoog identiteitskaart van het Bedrijf voor de projecten op het blad van het Bedrijf CMPY en input het in de kolom setCompanyID. Zoek de Gebruiker - identiteitskaart voor elke projecteigenaar op het Gebruikersblad van de GEBRUIKER en voer het in de setOwnerID kolom in. Zoek de gebruikersnaam voor elke projectsponsor op het gebruikersblad en voer deze in de kolom setSponsorID in.
 
 ![](assets/im9.png)
@@ -315,7 +315,7 @@ Vul desgewenst andere gegevens in, zoals een beschrijving of de huidige status. 
 
 U kunt informatie over de taken op het project toevoegen, aangezien u het project gebruikend schoppen-begin invoert.
 
-Open het Workfront.xlsx-bestand dat u net hebt gedownload. **Ga naar het TASK Taakblad.**
+Open het Workfront.xlsx-bestand dat u net hebt gedownload. **ga naar het Taakblad van de TAAK.**
 
 Dit blad moet leeg zijn, tenzij u al taken hebt gemaakt in Workfront.
 
@@ -329,17 +329,17 @@ De gemakkelijkste manier om taken in kaart te brengen is één project in een ti
 
 Stel de waarden in voor de volgende taakvelden:
 
-* **Id&#39;s instellen**
+* **plaatste IDs**
 Voer in elke rij een unieke id in voor de kolom Id.
-* **Namen instellen**
+* **plaats Namen**
 Voer de taaknamen in de kolom setName in.
-* **Project-id bevestigen**
+* **bevestig identiteitskaart van het Project**
 Voer de id in die u instelt voor het Workfront-project Implementeren. Controleer het PROJ-projectblad om te controleren of deze de juiste id heeft.
-* **Gebruikers instellen**
+* **vastgestelde Gebruikers**
 Ga naar het Gebruikersblad van de Gebruiker omhoog identiteitskaart voor de gebruiker te zoeken die aan elke taak wordt toegewezen en deze waarden in de respectieve cellen in de setAssignedToID kolom in te voeren.
-* **Taakrelaties identificeren**
+* **identificeer de verhoudingen van de Taak**
 Voor de taken 2 tot en met 5 voert u een 1 in de kolom setParentID in. Voer voor taak 9 een 8 in de kolom setParentID in. Voer in de kolom setPredecessorString het taaknummer voor elke voorgangstaak in. In gevallen waar een taak veelvoudige voordecessors, zoals taak 8 in dit scenario heeft, zult u een komma moeten gebruiken om elke identiteitskaart van de voorgangertaak te scheiden. De voorgangers kunnen met vertraging op niet-Finish-Begin verhoudingen worden bepaald door steno te gebruiken die in het Creërende artikel van de Verhouding van de Voorganger wordt beschreven.
-* **Duur instellen**
+* **vastgestelde Duur**
 Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voor de taak in te voeren in het veld setDuration. Voer vervolgens de tijdseenheid in het veld setDurationUnit in.
 
   |   | Acceptabele waarde |
@@ -376,6 +376,6 @@ Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voo
    1. Werk de taaktoewijzingen bij en het percentage is voltooid.
    1. Herhaal deze stappen voor de taken van het volgende project.
 
-* **Het Excel-bestand importeren**
+* **de Invoer van het Dossier van Excel**
 
-  Volg de aanwijzingen in [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Volg de richtingen die in [ worden verstrekt de gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

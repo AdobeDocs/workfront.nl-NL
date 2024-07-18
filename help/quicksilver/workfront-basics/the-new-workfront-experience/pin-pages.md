@@ -1,7 +1,7 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: Pagina's vastzetten om uw werkruimte aan te passen
-description: U kunt uw belangrijkste werk vastzetten [!DNL Adobe Workfront] voor meer zichtbaarheid, betere organisatie en snellere toegang. Vastgezette pagina's zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
+description: U kunt uw belangrijkste werk  [!DNL Adobe Workfront]  voor verhoogde zicht, betere organisatie, en snellere toegang vastzetten. Vastgezette pagina's zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Pagina&#39;s vastzetten om uw werkruimte aan te passen
 
-U kunt uw belangrijkste werk vastzetten in [!DNL Adobe Workfront] voor meer zichtbaarheid, betere organisatie en snellere toegang. Vastgezette pagina&#39;s zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
+U kunt uw belangrijkste werk in [!DNL Adobe Workfront] vastzetten voor meer zichtbaarheid, betere organisatie en snellere toegang. Vastgezette pagina&#39;s zijn altijd toegankelijk vanaf de bovenkant van elke pagina in Workfront.
 
-U kunt aan een lay-outmalplaatje toewijzen dat pagina&#39;s reeds vastgezet (zoals die in wordt beschreven [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Deze vooraf gedefinieerde punten kunnen niet worden hernoemd of verwijderd. Alle pagina&#39;s die u vastzet, worden rechts van de vooraf gedefinieerde punten weergegeven.
+U zou aan een lay-outmalplaatje kunnen worden toegewezen dat reeds vastgezette pagina&#39;s heeft (zoals die in [ wordt beschreven pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Deze vooraf gedefinieerde punten kunnen niet worden hernoemd of verwijderd. Alle pagina&#39;s die u vastzet, worden rechts van de vooraf gedefinieerde punten weergegeven.
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een pagina vastzetten
 
@@ -47,9 +47,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Dit kan om het even welk werkpunt, zoals een project, een taak, een verzoekrij, enz. zijn.
 
-1. Klikken **[!UICONTROL Pin current page]** boven aan de pagina.
+1. Klik op **[!UICONTROL Pin current page]** boven aan de pagina.
 
-   De vastgezette pagina is nu toegankelijk vanaf de bovenkant van elke pagina in [!DNL Workfront].
+   De vastgezette pagina is nu toegankelijk vanaf de bovenkant van elke pagina in [!DNL Workfront] .
 
 ## Een vastgezette pagina openen
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Als u veel pagina&#39;s hebt vastgezet, kunt u moeten klikken **[!UICONTROL More]menu** ![](assets/more-icon-spectrum.png) om extra vastgezette pagina&#39;s weer te geven.
+   Als u veel pagina&#39;s hebt vastgezet, moet u mogelijk op het **[!UICONTROL More]menu** klikken ![](assets/more-icon-spectrum.png) om extra vastgezette pagina&#39;s weer te geven.
 
    De vastgezette pagina wordt weergegeven.
 
@@ -69,14 +69,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt de naam van een vastgezette pagina voor u betekenisvoller maken.
 
-1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]**.
-1. Klik op de pijl naast de naam van het punt en selecteer **[!UICONTROL Rename pin]**.
+1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]** .
+1. Klik op de pijl naast de naam van het punt en selecteer **[!UICONTROL Rename pin]** .
 
-   ![Naam van punt wijzigen](assets/rename-remove-pin.png)
+   ![ noem speld anders ](assets/rename-remove-pin.png)
 
 1. Typ de nieuwe naam van het punt en klik op het pictogram van het vinkje of druk op Enter.
 
-   ![Klik op het vinkje om de naam van het punt te wijzigen](assets/rename-pin-click-checkmark.png)
+   ![ klik het vinkje om speld ](assets/rename-pin-click-checkmark.png) anders te noemen
 
    Nadat u op het vinkje hebt geklikt of op Enter hebt gedrukt, wordt een klein pop-upvenster weergegeven waarin u de wijziging van de pinnaam ongedaan kunt maken voordat u deze hebt opgeslagen.
 
@@ -84,19 +84,19 @@ U kunt de naam van een vastgezette pagina voor u betekenisvoller maken.
 
 U kunt de volgorde wijzigen waarin vastgezette pagina&#39;s worden weergegeven.
 
-1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]**. Wanneer u de handcursor ziet, klikt u op het punt en sleept u het naar de gewenste volgorde.
+1. Houd de muisaanwijzer boven de vastgezette pagina in de bovenste navigatie of **[!UICONTROL More menu]** . Wanneer u de handcursor ziet, klikt u op het punt en sleept u het naar de gewenste volgorde.
 
    De wijzigingen worden automatisch opgeslagen. De volgende keer dat u Workfront opent, worden deze wijzigingen onthouden.
 
 ## Een vastgezette pagina verwijderen
 
 1. Klik op de vastgezette pagina die u wilt vrijmaken.
-1. Klikken **[!UICONTROL Unpin current page]** boven aan het scherm.
+1. Klik op **[!UICONTROL Unpin current page]** boven aan het scherm.
 
    of
 
-   Klik op de pijl naast de naam van het punt en selecteer **[!UICONTROL Remove pin]**.
+   Klik op de pijl naast de naam van het punt en selecteer **[!UICONTROL Remove pin]** .
 
-   ![Punt verwijderen](assets/rename-remove-pin.png)
+   ![ verwijder speld ](assets/rename-remove-pin.png)
 
-   De pagina is niet meer toegankelijk vanaf de bovenkant van een pagina in [!DNL Workfront].
+   De pagina is niet meer toegankelijk vanaf de bovenkant van een pagina in [!DNL Workfront] .

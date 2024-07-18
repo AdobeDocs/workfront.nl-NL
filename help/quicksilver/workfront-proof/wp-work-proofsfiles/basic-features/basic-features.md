@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Basisfuncties in [!DNL Workfront Proof]
+title: Basisfuncties in  [!DNL Workfront Proof]
 description: Meer informatie over basisfuncties in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Basisfuncties in [!DNL Workfront Proof]
+# Standaardfuncties in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Het dashboard in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
-* [Pagina-indeling op het tabblad Weergaven in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-* [Zoeken [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-* [De [!DNL Workfront Proof] Activiteit Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+* [Het dashboard in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
+* [Pagina-indeling op het tabblad Weergaven  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
+* [Zoeken  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+* [Het begrip van het  [!DNL Workfront Proof]  Trail van de Controle van de Activiteit](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

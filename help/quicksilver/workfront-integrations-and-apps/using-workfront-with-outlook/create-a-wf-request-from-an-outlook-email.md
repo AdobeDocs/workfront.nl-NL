@@ -1,27 +1,27 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: Een [!DNL Adobe Workfront] verzoek van een Outlook-e-mail
-description: U kunt een [!DNL Adobe Workfront] aanvraag vanuit een e-mailbericht in Outlook.
+title: Creeer een  [!DNL Adobe Workfront]  verzoek van een e-mail van Vooruitzichten
+description: U kunt a  [!DNL Adobe Workfront]  verzoek van een e-mail in Vooruitzichten tot stand brengen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Een [!DNL Adobe Workfront] verzoek van een [!UICONTROL Outlook] email
+# Een [!DNL Adobe Workfront] -aanvraag maken op basis van een [!UICONTROL Outlook] -e-mail
 
-U kunt een [!DNL Adobe Workfront] aanvraag vanuit een e-mailbericht in Outlook.
+U kunt een [!DNL Adobe Workfront] -aanvraag maken op basis van een e-mailbericht in Outlook.
 
-Wanneer u een [!DNL Workfront] verzoek op basis van een e-mail wordt de inhoud van de e-mail (inclusief het onderwerp en de tekst) standaard in het verzoek opgenomen.
+Wanneer u een [!DNL Workfront] -aanvraag maakt op basis van een e-mail, wordt de inhoud van de e-mail (inclusief het onderwerp en de tekst) standaard in de aanvraag opgenomen.
 
 >[!NOTE]
 >
->U kunt geen [!DNL Workfront] verzoek van een gedeeld [!UICONTROL Outlook] postvak.
+>U kunt geen [!DNL Workfront] verzoek van een gedeelde [!UICONTROL Outlook] brievenbus tot stand brengen.
 
 ## Toegangsvereisten
 
@@ -42,36 +42,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
-Uw [!DNL Workfront] de beheerder moet toelaten [!DNL Outlook for Office] with [!DNL Workfront] voordat u deze integratie kunt gebruiken.
+Uw [!DNL Workfront] beheerder moet [!DNL Outlook for Office] with [!DNL Workfront] inschakelen voordat u deze integratie kunt gebruiken.
 
-## Een verzoek maken van een [!DNL Outlook] email
+## Een aanvraag maken op basis van een [!DNL Outlook]-e-mail
 
-Als u een [!DNL Workfront] Verzoek van [!DNL Outlook]:
+Een [!DNL Workfront] aanvraag maken van [!DNL Outlook] :
 
-1. Selecteer het e-mailbericht met de gegevens die u wilt opnemen in een [!DNL Workfront] verzoek.
-1. Klik op de knop **[!DNL Workfront]** in de rechterbovenhoek van het e-mailbericht om de invoegtoepassing Workfront weer te geven.\
-   Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het dialoogvenster [!DNL Workfront] pictogram.
+1. Selecteer het e-mailbericht dat de gegevens bevat die u wilt opnemen in een [!DNL Workfront] -aanvraag.
+1. Klik op het pictogram **[!DNL Workfront]** rechtsboven in het e-mailbericht om de invoegtoepassing Workfront weer te geven.\
+   Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het pictogram [!DNL Workfront] te openen.
 
-1. Klik op de knop **[!UICONTROL Menu]** pictogram ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) om de lijst met beschikbare [!DNL Workfront] opties.
+1. Klik het **[!UICONTROL Menu]** pictogram ![ o365_addin_menu2_icon.png ](assets/o365-addin-menu2-icon.png) om de lijst van beschikbare [!DNL Workfront] opties te tonen.
 
 1. Klik op **[!UICONTROL Submit Request]**.
-1. In de **[!UICONTROL Select a Request Type]** Selecteer de wachtrij waarin u de aanvraag wilt verzenden.
+1. Selecteer in het veld **[!UICONTROL Select a Request Type]** de aanvraagwachtrij waar u de aanvraag wilt verzenden.
 
 1. Geef de volgende informatie op:\
-   Afhankelijk van hoe de aanvraagwachtrij is ingesteld, kunnen de beschikbare velden variëren. Voor een volledige lijst en beschrijving van mogelijke velden raadpleegt u [Maken en verzenden [!DNL Adobe Workfront] verzoeken](../../manage-work/requests/create-requests/create-submit-requests.md) artikel.
+   Afhankelijk van hoe de aanvraagwachtrij is ingesteld, kunnen de beschikbare velden variëren. Voor een volledige lijst en een beschrijving van mogelijke gebieden, zie [  [!DNL Adobe Workfront]  verzoeken ](../../manage-work/requests/create-requests/create-submit-requests.md) artikel creëren en voorleggen.
 
-   * **[!UICONTROL Subject]:** Geef een onderwerp voor het verzoek op. Standaard wordt het onderwerp van de e-mail gebruikt.
-   * **[!UICONTROL Description]:** Geef een beschrijving voor de aanvraag op. Standaard wordt de hoofdtekst van de e-mail gebruikt.
-   * **[!UICONTROL Documents]:** Voeg alle documenten bij die u in de aanvraag wilt opnemen. U kunt documenten toevoegen door te slepen en neer te zetten of door te klikken **[!UICONTROL Select File]** en bladeren naar en selecteren van het document.\
+   * **[!UICONTROL Subject]:** specificeer een onderwerp voor het verzoek. Standaard wordt het onderwerp van de e-mail gebruikt.
+   * **[!UICONTROL Description]:** specificeer een beschrijving voor het verzoek. Standaard wordt de e-mailhoofdtekst gebruikt.
+   * **[!UICONTROL Documents]:** voeg om het even welke documenten bij die u in het verzoek wilt omvatten. U kunt documenten bijvoegen door te slepen en neer te zetten of door te klikken op **[!UICONTROL Select File]** en naar het document te bladeren en het te selecteren.\
 
-      Alle documenten die bij de e-mail horen, worden standaard in de aanvraag opgenomen.
+     Alle documenten die bij de e-mail horen, worden standaard in de aanvraag opgenomen.
 
 1. Klik op **[!UICONTROL Submit Request]**.\
-   Het verzoek wordt ingediend bij [!DNL Workfront], in de opgegeven wachtrij met aanvragen.
+   Het verzoek wordt verzonden naar [!DNL Workfront], in de opgegeven aanvraagwachtrij.
 
-1. (Optioneel) Ga terug naar [!DNL Outlook]en selecteer het originele e-mailbericht.\
-   Aan de bovenkant van de [!DNL Workfront] in het invoegvenster wordt bevestigd dat het e-mailbericht als een aanvraag aan Workfront is toegevoegd. De koppeling bevat de datum waarop deze is geconverteerd.\
+1. (Optioneel) Navigeer terug naar [!DNL Outlook] en selecteer het oorspronkelijke e-mailadres.\
+   Boven aan het venster voor de [!DNL Workfront] invoegtoepassing ziet u de bevestiging met een koppeling dat het e-mailbericht als een aanvraag aan Workfront is toegevoegd. De koppeling bevat de datum waarop deze is geconverteerd.\

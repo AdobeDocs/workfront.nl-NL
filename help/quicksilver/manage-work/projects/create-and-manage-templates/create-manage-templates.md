@@ -21,17 +21,17 @@ Deze sectie bevat de volgende artikelen:
 
 U kunt projectmalplaatjes gebruiken om de meeste herhaalbare processen, informatie, en montages te vangen verbonden aan de projecten in uw organisatie.
 
-* [Overzicht van de projectsjabloon](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
-* [Een projectsjabloon maken](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-* [Projectsjablonen maken op basis van voorbeelden](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
-* [Blader door de catalogus met blauwdrukken en verzoek om installatie van blauwdrukken](../../../administration-and-setup/blueprints/browse-catalog.md)
-* [Een projectsjabloon kopiëren](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
-* [Overzicht van het koppelen van een sjabloon aan een project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-* [Een sjabloon aan een project koppelen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
-* [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)
-* [Een sjabloontaak bewerken](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
-* [Sjabloon maken van project](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
-* [Projectsjablonen delen](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
-* [Sjabloongegevens uit een project verwijderen](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
-* [Projectsjablonen verwijderen](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [ overzicht van het malplaatje van het Project ](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md)
+* [ creeer een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+* [ creeer projectmalplaatjes van voorbeelden ](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
+* [ doorblader de catalogus van blauwdrukken en verzoek installatie van blauwdrukken ](../../../administration-and-setup/blueprints/browse-catalog.md)
+* [ Exemplaar een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)
+* [ Overzicht van het vastmaken van een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
+* [ maak een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vast
+* [ geef projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uit
+* [ geef een malplaatjetaak ](../../../manage-work/projects/create-and-manage-templates/edit-template-task.md) uit
+* [ creeer malplaatje van project ](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
+* [ het projectmalplaatjes van het Aandeel ](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
+* [ verwijdert malplaatjeinformatie uit een project ](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+* [ Schrap projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
 * [Overzicht van start- en voltooiingsdagen in een sjabloon](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)

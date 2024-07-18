@@ -31,12 +31,12 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td>  
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidige: [!UICONTROL Work] of hoger</p> </td>  
+   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>  
    <td> 
-   <p>Huidig: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p> 
+   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p> 
    <p>of</p> 
    <p>Verouderd: alle </p> 
    </td>  
@@ -44,17 +44,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr>  
    <td role="rowheader">Product</td>  
    <td> 
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Abonnement: uw organisatie moet aankopen [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is opgenomen.</li></ul> 
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li></ul> 
    <p>of</p> 
-   <p>Huidig: Uw organisatie moet het volgende aanschaffen [!DNL Adobe Workfront Fusion].</p> 
+   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL length (text or buffer)]
 
@@ -133,7 +133,7 @@ Vervangt de zoekreeks door de nieuwe tekenreeks.
 >
 >Retourneert: [!UICONTROL Hi World]
 
-Reguliere expressies (ingesloten in `/.../`) kan worden gebruikt als zoekreeks met een combinatie van markeringen (zoals `g`, `i`, `m`) toegevoegd:
+Reguliere expressies (ingesloten in `/.../` ) kunnen worden gebruikt als zoekreeks met een combinatie van markeringen (zoals `g` , `i` , `m` ) toegevoegd:
 
 >[!INFO]
 >
@@ -146,7 +146,7 @@ Reguliere expressies (ingesloten in `/.../`) kan worden gebruikt als zoekreeks m
 De vervangende tekenreeks kan de volgende speciale vervangingspatronen bevatten:
 
 * `$&` Voegt de overeenkomende subtekenreeks in.
-* `$n` Wanneer n een positief geheel getal is dat kleiner is dan 100, wordt de tekenreeks nde parenthesized van submatch ingevoegd. Dit is 1-geïndexeerd.
+* `$n` Wanneer n een positief geheel getal is dat kleiner is dan 100, wordt de tweede overeenkomende tekenreeks tussen haakjes ingevoegd. Dit is 1-geïndexeerd.
 
 >[!INFO]
 >
@@ -162,9 +162,9 @@ De vervangende tekenreeks kan de volgende speciale vervangingspatronen bevatten:
 
 >[!CAUTION]
 >
->Gebruik geen benoemde vastleggroepen, zoals `/ is (?<number>\d+)/` in het vervangingstekenreeksargument. Dit resulteert in een fout.
+>Gebruik geen benoemde vastleggingsgroepen, zoals `/ is (?<number>\d+)/` in het vervangende tekenreeksargument. Dit resulteert in een fout.
 
-Zie voor meer informatie over reguliere expressies [Tekstparser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+Voor meer informatie over regelmatige uitdrukkingen, zie [ syntactische parser van de Tekst ](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
 ## [!UICONTROL trim (text)]
 
@@ -359,17 +359,17 @@ Berekent de sha512 hash van een tekenreeks. Als het belangrijkste argument wordt
 
 Ondersteunde coderingen:
 
-* &quot;[!UICONTROL hex]&quot; (standaard)
+* &quot;[!UICONTROL hex]&quot; (standaardwaarde)
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
 Ondersteunde toetscoderingen:
 
-* &quot;[!UICONTROL text]&quot; (standaard)
+* &quot;[!UICONTROL text]&quot; (standaardwaarde)
 * &quot;[!UICONTROL hex]&quot;
 * &quot;[!UICONTROL base64]&quot; of &quot;[!UICONTROL binary]&quot;
 
-Wanneer u &quot;[!UICONTROL binary]&quot; sleutelcodering, moet een sleutel een buffer zijn, niet een koord.
+Wanneer u &quot;[!UICONTROL binary]&quot;-toetscodering gebruikt, moet een sleutel een buffer zijn, niet een tekenreeks.
 
 >[!INFO]
 >

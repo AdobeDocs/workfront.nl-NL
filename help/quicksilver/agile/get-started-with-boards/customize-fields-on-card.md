@@ -51,21 +51,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Kaarten configureren {#configure-cards}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klikken [!UICONTROL **Configureren**] rechts van de board om het Configure paneel te openen.
-1. Uitbreiden [!UICONTROL **Kaarten**].
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik [!UICONTROL **vormen**] op het recht van de raad om het Configure paneel te openen.
+1. Breid [!UICONTROL **Kaarten**] uit.
 
    De meeste velden en secties zijn standaard ingeschakeld.
 
 1. Schakel een veld of sectie uit om het in beide kaartweergaven uit te schakelen.
-1. Klik op het pictogram Verbergen ![Pictogram verbergen](assets/eye-hide-icon.png) naast een veld of sectie om deze in de versmalde weergave te verbergen.
-1. Klik op [!UICONTROL **Standaardwaarden van alle velden herstellen**].
-1. Klikken [!UICONTROL **Configureren verbergen**] om het Configure paneel te sluiten.
+1. Klik het pictogram van de Verbergen ![ pictogram van de Verbergen ](assets/eye-hide-icon.png) naast een gebied of een sectie om het op de versmalde mening te verbergen.
+1. Om alle gebieden en secties in beide meningen te tonen, klik [!UICONTROL **herstel alle gebieden aan gebrek**].
+1. Klik [!UICONTROL **Verbergen vormen**] om het Configure paneel te sluiten.
 
 ## Aangepaste velden toevoegen aan kaarten
 
@@ -73,27 +73,27 @@ Aangepaste velden zijn beschikbaar op verbonden kaarten. Ze zijn alleen zichtbaa
 
 De gegevens op aangepaste velden kunnen op de kaart worden bewerkt, maar bepaalde aangepaste elementen kunnen alleen in het oorspronkelijke veld worden bewerkt en niet op de kaart.
 
-1. Een board openen en klikken [!UICONTROL **Configureren**] om het Configure paneel te openen.
-1. Uitbreiden [!UICONTROL **Kaarten**].
-1. Onder [!UICONTROL Card Fields], klikt u op [!UICONTROL **Aangepast veld toevoegen**].
-1. Selecteren [!UICONTROL **Taak**] of [!UICONTROL **Probleem**].
+1. Heb toegang tot een raad en klik [!UICONTROL **vormen**] om het Configure paneel te openen.
+1. Breid [!UICONTROL **Kaarten**] uit.
+1. Onder [!UICONTROL Card Fields], klik [!UICONTROL **voeg douanegebied**] toe.
+1. Selecteer [!UICONTROL **Taak**] of [!UICONTROL **Uitgave**].
 
    De categorieën van beschikbare gebieden voor taken of kwesties verschijnen. Vouw een categorie uit om alle velden weer te geven. U kunt ook naar een veld zoeken.
 
-   ![Zoeken naar aangepast veld](assets/boards-search-for-custom-field.png)
+   ![ Onderzoek naar douanegebied ](assets/boards-search-for-custom-field.png)
 
    >[!NOTE]
    >
    >De volgende veldtypen kunnen niet aan kaarten worden toegevoegd: Adobe XD, Image, PDF, Video.
 
 1. Selecteer de veldnaam.
-1. (Optioneel) Klik in het dialoogvenster **[!UICONTROL Field value]** om dit aangepaste veld te wijzigen in een ander veld.
-1. (Optioneel) Wijzig de instelling **[!UICONTROL Field label]** aan de veldnaam die u op kaarten wilt weergeven.
-1. Als u alle gewenste wijzigingen hebt aangebracht, klikt u op [!UICONTROL **Veld opslaan**].
+1. (Optioneel) Klik in het veld **[!UICONTROL Field value]** om dit aangepaste veld in een ander veld te wijzigen.
+1. (Optioneel) Wijzig de **[!UICONTROL Field label]** in de veldnaam die u op de kaarten wilt weergeven.
+1. Wanneer u wordt gebeëindigd die veranderingen aanbrengt, klik [!UICONTROL **sparen gebied**].
 
-   ![Waarde en label van aangepast veld](assets/save-custom-field-value-label.png)
+   ![ het gebiedswaarde en etiket van de Douane ](assets/save-custom-field-value-label.png)
 
-   Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het aangepaste veld uitschakelen in het kader van de stappen in het dialoogvenster [Kaarten configureren](customize-fields-on-card.md#configure-cards) van alle kaarten te verwijderen.
+   Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het douanegebied na de stappen in [ onbruikbaar maken vormt kaarten ](customize-fields-on-card.md#configure-cards) hierboven sectie, geeft het gebied uit, of schrapt het van alle kaarten.
 
 >[!NOTE]
 >
@@ -103,14 +103,14 @@ De gegevens op aangepaste velden kunnen op de kaart worden bewerkt, maar bepaald
 
 U moet een configuratie-instelling inschakelen om gearchiveerde kaarten op een bord weer te geven.
 
-1. Een board openen en klikken [!UICONTROL **Configureren**] om het Configure paneel te openen.
-1. Uitbreiden [!UICONTROL **Kaarten**].
-1. Inschakelen [!UICONTROL **Gearchiveerde kaarten op de kaart weergeven**].
+1. Heb toegang tot een raad en klik [!UICONTROL **vormen**] om het Configure paneel te openen.
+1. Breid [!UICONTROL **Kaarten**] uit.
+1. Zet [!UICONTROL **gearchiveerde kaarten van de Vertoning op de raad**] aan.
 
-   Nu kunt u het bord filteren om kaarten weer te geven die zijn gearchiveerd. Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   Nu kunt u het bord filteren om kaarten weer te geven die zijn gearchiveerd. Voor details, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-1. Klikken [!UICONTROL **Configureren verbergen**] om het Configure paneel te sluiten.
+1. Klik [!UICONTROL **Verbergen vormen**] om het Configure paneel te sluiten.
 
 ## Afvalfunctie van kaart configureren
 
-Als u kaarten na een bepaalde periode automatisch van het bord wilt verwijderen, raadpleegt u [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Om kaarten van de raad na een periode automatisch te verwijderen, zie [ kaart het wegvallen ](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md) vormen.

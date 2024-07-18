@@ -58,7 +58,7 @@ In de sectie Updates van een object worden opmerkingen weergegeven die gebruiker
 
 De sectie Updates van een object toont systeemupdates en maximaal 200 van de meest recente updates die gebruikers hebben uitgevoerd in de afgelopen 90 dagen.
 
-![Sectie Updates](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![ sectie van Updates ](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
@@ -122,13 +122,13 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ### Overzicht van de sectie Updates
 
-![Sectie Updates](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+![ sectie van Updates ](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * In de sectie Updates wordt informatie weergegeven op de volgende tabbladen:
 
-   * **Opmerkingen**: Hiermee geeft u opmerkingen van gebruikers weer en geeft u antwoorden op deze opmerkingen. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Zie voor informatie over het bijwerken van objecten [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systeemactiviteit**: Geeft systeemupdates weer die informatieve berichten zijn die Workfront maakt om bepaalde gebeurtenissen op een object op te nemen. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only. Zie voor meer informatie [Systeemupdates configureren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Alle (alleen-lezen)**: Hiermee geeft u zowel gebruikersopmerkingen als opmerkingen over de systeemactiviteit op één plaats weer. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Zie voor informatie over het bijwerken van objecten [Werk bijwerken](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Commentaren**: De commentaren van vertoningen die door gebruikers worden gemaakt en antwoorden op die commentaren. Met het tabblad Opmerkingen kunt u nieuwe opmerkingen toevoegen of reageren op bestaande opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Activiteit van het Systeem**: De updates van het systeem van vertoningen die informatieve berichten zijn die Workfront creeert om bepaalde gebeurtenissen op een voorwerpen te registreren. Wijzigingen in status, naam of aangepaste velden worden bijvoorbeeld vastgelegd met systeemupdates. Uw Workfront- of groepsbeheerder kan systeemupdates voor uw objecten inschakelen. Om het even welke antwoorden die aan de verslagen van de systeemactiviteit in de erfenis opmerkingservaring werden gemaakt worden bevolkt op het lusje van de Activiteit van het Systeem als read-only. Voor meer informatie, zie [ systeemupdates ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
+   * **allen (read-only)**: Toont zowel gebruikerscommentaren als commentaren van de systeemactiviteit in één plaats. Dit is een alleen-weergeven tabblad. U kunt niet reageren op opmerkingen of andere gebruikers tags toewijzen aan bestaande opmerkingen op het tabblad Alles. Als u wilt reageren op een bepaalde opmerking, gebruikt u de koppeling van het tabblad Alles naar het tabblad Opmerkingen. Voor informatie over het bijwerken van voorwerpen, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
@@ -155,13 +155,13 @@ Depending on what objects you access the commenting experience for, you might fi
    * Herhalingen
    * Ad-hockaart
 
-     Voor meer informatie over updates op kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     Voor meer informatie over updates op kaarten, zie [ een ad hoc kaart aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen.
 
 * De volgende objecten hebben geen tabblad Alles en de ervaring op het tabblad Opmerkingen komt overeen met die van de meeste objecten:
 
    * Doelen
 
-     Voor meer informatie over updates over doelstellingen, zie [Doelopmerkingen beheren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Voor meer informatie over updates op doelstellingen, zie [ doelcommentaren beheren ](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -196,8 +196,8 @@ In de volgende tabel worden de objecten weergegeven waarvan de opmerkingen ook w
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object waar de oorspronkelijke update is toegevoegd</strong> </th> 
-   <th> <p><strong>Hogere rangschikkingsobjecten waarin de oorspronkelijke update ook wordt weergegeven</strong> </p> </th> 
+   <th><strong> Voorwerp waar de originele update werd toegevoegd </strong> </th> 
+   <th> <p><strong> hoger-rangschikkende voorwerpen waar de originele update ook verschijnt </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -290,13 +290,13 @@ Houd rekening met het volgende wanneer u updates voor gebruikers en teams bekijk
 
 * In de sectie Updates voor gebruikers en teams kunt u de updates weergeven die in de afgelopen 90 dagen zijn ingevoerd.
 
-  Als u alle updates wilt zien die op een gebruiker of een team, voorbij de grens van 90 dagen worden gemaakt, kunt u een rapport voor nota&#39;s bouwen. Het rapport zou geen tijdfilter moeten hebben dat alle updates toont die voor gebruikers of teams worden gemaakt. Zie voor meer informatie [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Als u alle updates wilt zien die op een gebruiker of een team, voorbij de grens van 90 dagen worden gemaakt, kunt u een rapport voor nota&#39;s bouwen. Het rapport zou geen tijdfilter moeten hebben dat alle updates toont die voor gebruikers of teams worden gemaakt. Voor meer informatie, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Beperkingen bij het invoeren van opmerkingen namens een andere gebruiker
 
 Adobe Workfront-beheerders en groepsbeheerders kunnen zich aanmelden als andere gebruikers en acties uitvoeren in Workfront, zoals het invoeren van opmerkingen.
 
-Zie voor meer informatie [Aanmelden als een andere gebruiker](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Voor informatie, zie [ Login als een andere gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 Houd rekening met het volgende wanneer u zich aanmeldt als een andere gebruiker en opmerkingen toevoegt:
 
@@ -319,4 +319,4 @@ Met het rapport kunt u zien:
 * Indien de prioriteit tijdens een project is gewijzigd
 * Als de eigenaar van een project is gewijzigd
 
-Zie voor meer informatie [Rapport over het gebied Updates](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Voor meer informatie, zie [ Rapport over het gebied van Updates ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

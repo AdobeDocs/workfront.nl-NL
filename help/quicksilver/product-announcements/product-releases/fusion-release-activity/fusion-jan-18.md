@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 18 januari 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Foutopsporingsscenario&#39;s met Workfront Fusion DevTool
 
-Om het voor u gemakkelijker te maken om uw scenario&#39;s te zuiveren, hebben wij een uitbreiding van de Chroom van het Hulpmiddel van Workfront Fusion 2.0 gecreeerd. Met deze uitbreiding, kunt u handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en details van elke API vraag zien. Het DevTool beschikt ook over gereedschappen waarmee u uw scenario kunt wijzigen zonder dat u modules of filters een voor een moet wijzigen.
+Om het voor u gemakkelijker te maken om uw scenario&#39;s te zuiveren, hebben wij een uitbreiding van Workfront Fusion 2.0 DevTool Chrome gecreeerd. Met deze uitbreiding, kunt u handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en details van elke API vraag zien. Het DevTool beschikt ook over gereedschappen waarmee u uw scenario kunt wijzigen zonder dat u modules of filters een voor een moet wijzigen.
 
-Ga voor instructies en om het Workfront Fusion 2.0-hulpprogramma te downloaden naar [Foutopsporingsscenario&#39;s met Adobe Workfront Fusion DevTool](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
+Voor instructies, en om Workfront Fusion 2.0 te downloaden ontwikkel, zie [ zuivert scenario&#39;s met Adobe Workfront Fusion DevTool ](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
 
 ## Azure Active Directory-connector en nu beschikbare modules
 
@@ -41,7 +41,7 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Azure Active 
 * Zoeken in records op basis van criteria die u opgeeft.
 * Voer een aangepaste API-aanroep uit.
 
-Zie voor meer informatie [Azure Active Directory-modules](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
+Voor meer informatie zie [ Azure Actieve modules van de Folder ](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
 
 ## Azure DevOps-connector en nu beschikbare modules
 
@@ -55,7 +55,7 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Azure DevOps-
 * Haal een lijst met werkitems op.
 * Voer een aangepaste API-aanroep uit.
 
-Zie voor meer informatie [Azure DevOps-modules](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
+Voor meer informatie zie [ Azure DevOps modules ](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
 
 ## Kwalitatieve connector en modules nu beschikbaar
 
@@ -67,4 +67,4 @@ U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Qualtrics
 * Een enquête distribueren via e-mail.
 * Voer een aangepaste API-aanroep uit.
 
-Zie voor meer informatie [Qualtriciteitsmodules](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).
+Voor meer informatie zie [ modules van Qualtrics ](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).

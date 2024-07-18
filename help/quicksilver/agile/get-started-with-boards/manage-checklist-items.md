@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Met een controlelijst op een kaart kunt u het werk in kleinere stappen verdelen of notities aan de kaart toevoegen. De items op de controlelijst zijn zowel op ad-hockaarten als op gekoppelde kaarten beschikbaar.
 
-Voor informatie over kaarten raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md), en [Kaarten beheren](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
+Voor informatie over kaarten, zie [ een ad hoc kaart aan a raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen, [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md), en [ beheert kaarten ](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
 ## Toegangsvereisten
 
@@ -40,45 +40,45 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een controlelijst toevoegen aan een kaart
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klik op de kaart om de [!UICONTROL Card Details] doos.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront en klik vervolgens op **[!UICONTROL Boards]** .
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik op de kaart om het vak [!UICONTROL Card Details] te openen.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Edit]**.
 
-1. Als u een nieuw item wilt toevoegen, klikt u op **[!UICONTROL Add checklist item]**. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.
+1. Klik op **[!UICONTROL Add checklist item]** om een nieuw item toe te voegen. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.
 
    De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.
 
-1. Klikken ![Details, pictogram](assets/checklist-chevron.png) om de [!UICONTROL Checklist Item Details] doos.
+1. Klik ![ pictogram van Details ](assets/checklist-chevron.png) om de [!UICONTROL Checklist Item Details] doos te openen.
 
-   ![Seleclist item Details vak](assets/checklist-item-details.png)
+   ![ de doos van de Details van het Punt van Checklist ](assets/checklist-item-details.png)
 
 1. (Optioneel) Voeg een beschrijving, toewijzingen, vervaldatum en schattingsuren toe voor het item in de controlelijst.
 
-   Voor informatie over deze velden raadpleegt u [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) of [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Voor informatie over om het even welk van deze gebieden, zie [ een ad hoc kaart aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen of [ Gebruik verbonden kaarten op planken ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Klikken **[!UICONTROL Close]** om terug te keren naar de kaartdetails en de volledige lijst met checklist items.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar de kaartdetails en de volledige lijst met controlelijstitems.
 
    De toegewezen personen en de vervaldatum worden in het object weergegeven.
 
-1. Als u een item wilt kopiëren, klikt u op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op het item en selecteer **[!UICONTROL Copy]**.
-1. Als u een controlelijstitem wilt verwijderen, klikt u op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op het item en selecteer **[!UICONTROL Delete]**.
+1. Om een punt te kopiëren, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op het punt en selecteer **[!UICONTROL Copy]**.
+1. Om een controlelijstitem te schrappen, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op het punt en selecteer **[!UICONTROL Delete]**.
 
 ## Lijstitems voltooien
 
 1. Open het bord en zoek de kaart waarop de controlelijst staat.
-1. Klik op de kaart om de [!UICONTROL Card Details] doos.
+1. Klik op de kaart om het vak [!UICONTROL Card Details] te openen.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Edit]**.
 
 1. Schakel het selectievakje in naast het item dat is voltooid.
 
@@ -86,8 +86,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    U kunt het selectievakje uitschakelen als u het item weer aan de lijst wilt toevoegen.
 
-   ![Object met checklist voltooid](assets/checklist-items-with-chevron.png)
+   ![ Voltooid controlelijstitem ](assets/checklist-items-with-chevron.png)
 
-1. Klikken **[!UICONTROL Close]** om terug te keren naar het bestuur.
+1. Klik op **[!UICONTROL Close]** om terug te keren naar het toetsenbord.
 
    De teller op de kaart wordt ook bijgewerkt.

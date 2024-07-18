@@ -92,7 +92,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten en sjablonen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -100,7 +100,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 <p><b>OPMERKING</b>
 
-De gebruikers die als Managers van het Middel aan een project of een malplaatje worden toegevoegd krijgen direct Manage toestemmingen op het project of het malplaatje</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td>
+De gebruikers die als Managers van het Middel aan een project of een malplaatje worden toegevoegd krijgen direct Manage toestemmingen op het project of het malplaatje</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -132,15 +132,15 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 * De gebruikers die u als Beheerders van het Middel op een project of een malplaatje aanwijst worden automatisch geen deel van het Team van het Project.
 
-  Voor informatie over projectteams, zie [Het projectteam beheren](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Voor informatie over projectteams, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * U kunt de Managers van het Middel voor projecten of voor projectmalplaatjes aanwijzen. Wanneer u de Managers van het Middel op een projectmalplaatje aanwijst, om het even welke gebruikers u als Managers van het Middel op het malplaatje aanwijst worden automatisch de Managers van het Middel op om het even welke projecten die gebruikend dat malplaatje worden gecreeerd.
 * U kunt het gebied van de Manager van het Middel op de volgende gebieden bekijken:
 
    * Tijdens het bewerken van een project, zoals beschreven in dit artikel.
    * Tijdens het bewerken van een sjabloon, zoals beschreven in dit artikel.
-   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over bouwrapporten, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Zie voor meer informatie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * U kunt de Managers van het Middel op veelvoudige projecten of malplaatjes snel toevoegen of verwijderen door het gebied van de Manager van het Middel aan een mening van een lijst of een project toe te voegen en dit gebied uit te geven gebruikend in-line geef uit.
 
@@ -148,42 +148,42 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 1. Voer een van de volgende handelingen uit:
 
-   * Om de Managers van het Middel aan één enkel project toe te voegen, ga naar het project waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Het menu Meer** naast de projectnaam, dan **Bewerken.**
+   * Om de Managers van het Middel aan één enkel project toe te voegen, ga naar het project waar u één of meerdere middelmanagers wilt aanwijzen, dan klik het **Meer menu** naast de projectnaam, dan **geeft uit.**
 
-   * Om de Managers van het Middel aan veelvoudige projecten gelijktijdig toe te voegen, navigeer aan een lijst van projecten, selecteer de projecten waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Bewerken**.
+   * Om de Managers van het Middel aan veelvoudige projecten gelijktijdig toe te voegen, navigeer aan een lijst van projecten, selecteer de projecten waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **uitgeven**.
 
      De bestaande Managers van het Middel worden niet verwijderd uit de projecten u uitgeeft; om het even welke gebruikers u op deze manier toevoegt worden toegevoegd als Managers van Middelen op het project naast om het even welke bestaande Managers van het Middel.
 
    * Om de Managers van het Middel aan een nieuw project toe te voegen, begin creërend een nieuw project.
 
-     Voor informatie over het creëren van een project, zie [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+     Voor informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-1. In de **Overzicht** in het dialoogvenster Project bewerken klikt u in het dialoogvenster **Resource Manager** veld.
+1. In de **sectie van het Overzicht** op het Edit de dialoogvakje van het Project, klik op het **gebied van de Manager van het Middel**.
 1. Typ de naam van de gebruiker die u als middelmanager voor het project wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
 
    Herhaal deze stap om veelvoudige middelmanagers voor het project toe te voegen.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
 ## Bronbeheer toewijzen voor een sjabloon
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Sjablonen**.
+1. Klik **Malplaatjes**.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Om de Managers van het Middel aan één enkel malplaatje toe te voegen, ga naar het malplaatje waar u één of meerdere middelmanagers wilt aanwijzen, dan klik **Het menu Meer** naast de sjabloonnaam, en vervolgens **Bewerken.**
+   * Om de Managers van het Middel aan één enkel malplaatje toe te voegen, ga naar het malplaatje waar u één of meerdere middelmanagers wilt aanwijzen, dan klik het **Meer menu** naast de malplaatjenaam, dan **geeft uit.**
 
-   * Om de Managers van het Middel aan veelvoudige malplaatjes gelijktijdig toe te voegen, ga naar een lijst van malplaatjes en selecteer de malplaatjes waar u één of meerdere Managers van het Middel wilt aanwijzen, dan klik **Bewerken**.
+   * Om de Managers van het Middel aan veelvoudige malplaatjes gelijktijdig toe te voegen, ga naar een lijst van malplaatjes en selecteer de malplaatjes waar u één of meerdere Managers van het Middel wilt aanwijzen, dan klik **uitgeven**.
 
      De bestaande Managers van het Middel worden niet verwijderd uit de malplaatjes u uitgeeft; om het even welke gebruikers u op deze manier toevoegt worden toegevoegd als Managers van Middelen op het malplaatje naast om het even welke bestaande Managers van het Middel.
 
-   * Om de Managers van het Middel aan een nieuw malplaatje toe te voegen, klik **Nieuwe sjabloon** en klik vervolgens op de knop **Het menu Meer** naast de sjabloonnaam, en vervolgens **Bewerken.**
+   * Om de Managers van het Middel aan een nieuw malplaatje toe te voegen, klik **Nieuw Malplaatje**, dan klik het **Meer menu** naast de malplaatjenaam, dan **geeft uit.**
 
-1. In de **Overzicht** klikt u in de **Resource Manager** veld.
+1. In de **sectie van het Overzicht**, klik op het **gebied van de Manager van het Middel**.
 1. Typ de naam van de gebruiker die u als middelmanager voor het malplaatje wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
 
    Herhaal deze stap om veelvoudige middelmanagers aan het malplaatje toe te voegen.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.

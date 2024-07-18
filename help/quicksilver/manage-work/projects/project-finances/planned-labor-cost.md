@@ -22,7 +22,7 @@ De geplande arbeidskosten van een project is een berekening tussen de kosten ver
 
 ## Overzicht van de geplande loonkosten
 
-De **Geplande loonkosten** van een project wordt berekend door alle geplande arbeidskosten van alle taken van het project op te tellen.
+De **Geplande Kosten van de Arbeid** van een project wordt berekend door alle Geplande Kosten van de Arbeid van alle taken op het project toe te voegen.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ De taak Geplande Kosten van de Arbeid wordt berekend gebruikend de volgende form
 Task Planned Cost = Planned Hours x User or Job Role Cost Per Hour
 ```
 
-Voor meer informatie over hoe Workfront Geplande Arbeidskosten voor taken berekent, afhankelijk van taaktaken en het Type van Kosten, zie de &quot;wijzig de Types van Kosten voor individuele taken&quot;sectie in het artikel [Trackkosten](../../../manage-work/projects/project-finances/track-costs.md).
+Voor meer informatie over hoe Workfront Geplande Kosten van de Arbeid voor taken berekent, afhankelijk van taaktaken en het Type van Kosten, zie de &quot;wijzigt de Types van Kosten voor individuele taken&quot;sectie in het artikel [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Zoek de geplande arbeidskosten
 
@@ -53,10 +53,10 @@ U kunt de geplande arbeidskosten van een project in de volgende gebieden van Wor
 
 * Een projectrapport
 * Een lijst van projecten
-* Een rapport van de Basislijn waar u het in tijd kunt volgen
+* Een basislijnrapport waarin u het kunt bijhouden
 * Via de API
 
 Raadpleeg de volgende artikelen voor informatie over het maken van rapporten en het gebruik van de Workfront API:
 
-* [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+* [ creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
 * [Basisbeginselen van API](../../../wf-api/general/api-basics.md)

@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [De [!DNL Workfront Proof] Factureringspagina](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [De  [!DNL Workfront Proof]  Facturerende Pagina](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
-* [Je betalingsmethode kiezen in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [Uw [!DNL Workfront Proof] Factuur](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [Sluit uw [!DNL Workfront Proof] account](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [De betalingsmethode kiezen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+* [Het downloaden van Uw { [!DNL Workfront Proof]  Factuur](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [Sluit uw  [!DNL Workfront Proof]  rekening](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

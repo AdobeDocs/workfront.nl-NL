@@ -8,14 +8,14 @@ feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# Artikelen en problemen beheren op het tabblad [!UICONTROL Scrum] board
+# Artikelen en problemen beheren op het [!UICONTROL Scrum] -bord
 
-U kunt een artikel of uitgave verplaatsen vanuit het [!UICONTROL Scrum] aan een andere herhaling of aan de achterstand, of schrapt het van [!UICONTROL Scrum] bord. Wanneer u een artikel of uitgave verwijdert, wordt het artikel of de uitgave 30 dagen naar de prullenbak verplaatst en kan het alleen door de systeembeheerder worden hersteld.
+U kunt een artikel of uitgave van het [!UICONTROL Scrum] board naar een andere herhaling of naar de achtergrond verplaatsen, of het verwijderen van de [!UICONTROL Scrum] board. Wanneer u een artikel of uitgave verwijdert, wordt het artikel of de uitgave 30 dagen naar de prullenbak verplaatst en kan het alleen door de systeembeheerder worden hersteld.
 
 ## Toegangsvereisten
 
@@ -35,25 +35,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot de taak of afgifte</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] toegang tot de taak of afgifte</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Verplaats een artikel of uitgave vanuit het deelvenster [!UICONTROL Scrum] board
+## Een artikel of uitgave vanaf het [!UICONTROL Scrum] -bord verplaatsen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen, of **[!UICONTROL Current Iteration]**.
-1. Klik op de knop **[!UICONTROL More]** pictogram in het artikel of de uitgave en selecteer **[!UICONTROL Move to]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. Klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
+1. Klik op het pictogram **[!UICONTROL More]** in het artikel of de uitgave en selecteer **[!UICONTROL Move to]** .
 
-   ![Artikel verwijderen of verplaatsen van het tekengebied](assets/scrum-delete-move-story.png)
+   ![ Schrap of beweeg verhaal van het Klembord van het Trommel ](assets/scrum-delete-move-story.png)
 
 1. Kies in het bevestigingsbericht een van de volgende opties:
 
@@ -70,17 +70,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op het tabblad [!UICONTROL Edit Team] pagina. Zie de sectie [[!UICONTROL Configure] hoe datums worden toegepast bij het toevoegen van werkitems aan een herhaling](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [Scrum configureren](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [ vormen de Trommel ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klik op **[!UICONTROL Move]**.
 
-## Een artikel of publicatie verwijderen uit het dialoogvenster [!UICONTROL Scrum] board
+## Een artikel of uitgave van het [!UICONTROL Scrum] -bord verwijderen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen, of **[!UICONTROL Current Iteration]**.
-1. Klik op de knop **[!UICONTROL More]** pictogram in het artikel of de uitgave en selecteer **[!UICONTROL Delete Story]** of **[!UICONTROL Delete Issue]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. Klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
+1. Klik op het pictogram **[!UICONTROL More]** in het artikel of de uitgave en selecteer **[!UICONTROL Delete Story]** of **[!UICONTROL Delete Issue]** .
 
-   ![Artikel verwijderen of verplaatsen van het tekengebied](assets/scrum-delete-move-story.png)
+   ![ Schrap of beweeg verhaal van het Klembord van het Trommel ](assets/scrum-delete-move-story.png)
 
-1. Klik in het bevestigingsbericht op **[!UICONTROL Yes, delete it]**.
+1. Klik op **[!UICONTROL Yes, delete it]** in het bevestigingsbericht.

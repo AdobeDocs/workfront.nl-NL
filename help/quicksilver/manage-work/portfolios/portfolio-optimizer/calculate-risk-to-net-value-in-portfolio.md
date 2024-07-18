@@ -2,7 +2,7 @@
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Het risico voor de nettowaarde in een portefeuille berekenen
-description: In de Portfolio Optimizer, [!UICONTROL Risk to Net Value] de indicator meet het Potentiële Risico rekening houdend met de Netto Waarde die door alle projecten wordt verstrekt die in de Optimizer van de Portfolio worden getoond.
+description: In de Optimizer van het Portfolio, meet de [!UICONTROL Risk to Net Value] indicator het Potentiële Risico rekening houdend met de Netto Waarde die door alle projecten wordt verstrekt die in Optimizer van het Portfolio worden getoond.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
@@ -13,34 +13,34 @@ ht-degree: 0%
 
 ---
 
-# De [!UICONTROL Risk to Net Value] in een portfolio
+# De [!UICONTROL Risk to Net Value] in een portfolio berekenen
 
-In de [!UICONTROL Portfolio Optimizer]de [!UICONTROL Risk to Net Value] de indicator meet het potentiële risico, rekening houdend met [!UICONTROL Net Value] verstrekt door alle projecten die in [!UICONTROL Portfolio Optimizer]. 
+In de [!UICONTROL Portfolio Optimizer] -indicator meet de [!UICONTROL Risk to Net Value] -indicator het potentiële risico, rekening houdend met de [!UICONTROL Net Value] -waarde die wordt geboden door alle projecten die in de [!UICONTROL Portfolio Optimizer] -code worden weergegeven. 
 
-Om de meest efficiënte oplossing binnen de portfolio te bereiken, wilt u dat de [!UICONTROL Risk] de indicator is laag en de [!UICONTROL Net Value] de indicator is hoog. 
+Om de meest efficiënte oplossing in het portfolio te bereiken, moet u controleren of de indicator [!UICONTROL Risk] laag is en de indicator [!UICONTROL Net Value] hoog. 
 
-De [!UICONTROL Risk] en [!UICONTROL Net Value] indicatoren worden weergegeven vanuit het perspectief van hun onderlinge relatie.
+De indicatoren [!UICONTROL Risk] en [!UICONTROL Net Value] worden weergegeven vanuit het perspectief van hun onderlinge relatie.
 
-[!DNL Adobe Workfront] berekent de [!UICONTROL Risk] en [!UICONTROL Net Value] indicatoren met behulp van de volgende formules:
+[!DNL Adobe Workfront] berekent de indicatoren [!UICONTROL Risk] en [!UICONTROL Net Value] met behulp van de volgende formules:
 
-* De [!UICONTROL Risk] de indicator wordt berekend met behulp van de volgende formule:
+* De indicator [!UICONTROL Risk] wordt berekend met de volgende formule:
 
-   ```
-   Risk indicator = Risk / (Risk + Net Value)
-   ```
+  ```
+  Risk indicator = Risk / (Risk + Net Value)
+  ```
 
-* De [!DNL Net Value] de indicator wordt berekend met behulp van de volgende formules:
+* De indicator [!DNL Net Value] wordt berekend met de volgende formules:
 
-   ```
-   Net Value indicator = 1 - Risk / (Risk + Net Value)
-   ```
+  ```
+  Net Value indicator = 1 - Risk / (Risk + Net Value)
+  ```
 
-   of
+  of
 
-   ```
-   Net Value indicator = Net Value / (Risk + Net Value)
-   ```
+  ```
+  Net Value indicator = Net Value / (Risk + Net Value)
+  ```
 
 >[!NOTE]
 >
->De [!UICONTROL Risk to Net Value] de indicator berekent gebaseerd op de projecten die u in toont [!UICONTROL Portfolio Optimizer], en niet op alle projecten die met de portefeuille verband houden. 
+>De indicator [!UICONTROL Risk to Net Value] berekent op basis van de projecten die u in [!UICONTROL Portfolio Optimizer] weergeeft en niet op alle projecten die aan het portfolio zijn gekoppeld. 

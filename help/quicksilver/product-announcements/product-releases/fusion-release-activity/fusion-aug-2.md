@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 2 augustus 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ Het deelvenster Toewijzing bevat nu twee nieuwe functies.
 
   Eerder kon het datum- en tijdverschil alleen worden berekend met een formule die de gebruiker heeft ingevoerd.
 
-  Zie voor meer informatie [Datum- en tijdfuncties in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Voor meer informatie, zie [ Datum en tijdfuncties in de Fusie van Adobe Workfront ](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * Nieuwe arrayfunctie: arrayDifference
 
@@ -64,4 +64,4 @@ Het deelvenster Toewijzing bevat nu twee nieuwe functies.
    * Een array van elementen van een array die niet in de andere array zijn opgenomen
    * Een array met elementen die zich in een of andere array bevinden, maar niet in beide.
 
-  Zie voor meer informatie [Arrayfuncties in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+  Voor meer informatie, zie [ functies van de Serie in de Fusie van Adobe Workfront ](../../../workfront-fusion/functions/array-functions.md).

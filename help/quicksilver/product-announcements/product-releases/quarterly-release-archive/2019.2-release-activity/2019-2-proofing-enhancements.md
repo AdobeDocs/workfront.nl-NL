@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van proefdrukken beschreven die zijn opgenomen in de release 2019.2. De functionaliteit zal naar verwachting in de week van 20 mei 2019 beschikbaar zijn in de productieomgeving.
 
-Voor een lijst van alle wijzigingen die in 2019.2 zijn aangebracht, raadpleegt u [Overzicht van de activiteit van de release van 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [ 2019.2 Overzicht van de Activiteit van de Versie ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Gebruikers zonder proefboekingslicentie toestaan handelingen toe te passen en opmerkingen op te lossen
 
@@ -45,5 +45,5 @@ Voor om het even welk rapport van de Goedkeuring van het Bewijs, kunt u het nieu
 
 Dit is bijvoorbeeld handig als u is gevraagd proefdrukken met meerdere versies goed te keuren. Wanneer u het rapport Goedkeuring van het Bewijs met het Huidige filter van de Versie van het Document van Is in werking stelt, maakt het rapport een lijst van slechts de huidige versie van elke proef die op uw goedkeuring wacht, die vroegere versies weglaat die u niet meer hoeft te werken.
 
-Zie voor meer informatie [Filter: rapport Goedkeuring proef om vorige proefversies weg te laten](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+Voor meer informatie, zie [ Filter: het rapport van de Goedkeuring van het Bewijs om vorige proefdrukversies ](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md) weg te laten.
 

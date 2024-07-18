@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Gebruikers configureren om zich binnen uren of dagen aan te melden
-description: Gebruikers met een Planner-licentie kunnen configureren of zij zich aanmelden [!DNL Adobe Workfront] in uren of dagen. Als Workfront-beheerder kunt u deze instelling configureren voor afzonderlijke gebruikers of voor meerdere volledige gebruikers in uw organisatie. Standaard kunnen gebruikers zich aanmelden in uren.
+description: De gebruikers met een vergunning van de Planner kunnen vormen of zij binnen tijd  [!DNL Adobe Workfront]  in uren of dagen registreren. Als Workfront-beheerder kunt u deze instelling configureren voor afzonderlijke gebruikers of voor meerdere volledige gebruikers in uw organisatie. Standaard kunnen gebruikers zich aanmelden in uren.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 <!--this article should be removed from the admin area because this is not an admin function; we have another article linked below in the user area for timesheets -->
 
-Gebruikers met een [!UICONTROL Planner] de vergunning kan vormen of zij login tijd [!DNL Adobe Workfront] in uren of dagen. Als [!DNL Workfront] beheerder, kunt u dit het plaatsen voor individuele gebruikers of volledige veelvoudige gebruikers in uw organisatie vormen. Standaard kunnen gebruikers zich aanmelden in uren.
+Gebruikers met een [!UICONTROL Planner] -licentie kunnen configureren of ze zich binnen [!DNL Adobe Workfront] in uren of dagen aanmelden. Als [!DNL Workfront] beheerder, kunt u dit het plaatsen voor individuele gebruikers of volledige veelvoudige gebruikers in uw organisatie vormen. Standaard kunnen gebruikers zich aanmelden in uren.
 
-Voor informatie over het vormen van gebruikers aan logboektijd in uren of dagen, zie [Configureer of de tijd uren of dagen is aangemeld](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+Voor informatie over het vormen van gebruikers aan logboektijd in uren of dagen, zie [ vormen of de tijd uren of dagen ](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md) het programma wordt geopend.

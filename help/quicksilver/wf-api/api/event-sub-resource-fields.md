@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -445,9 +445,9 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>DocumentVersion</span> </td> 
-   <td><span>DOCV</span> </td> 
-   <td><span>accessorIDs</span> </td> 
+   <td><span> DocumentVersion </span> </td> 
+   <td><span> DOCV </span> </td> 
+   <td><span> accessorIDs </span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -462,7 +462,7 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>documentID</span> </td> 
+   <td><span> documentID </span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -472,112 +472,112 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>docSize</span> </td> 
+   <td><span> docSize </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>entryDate</span> </td> 
+   <td><span> entryDate </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enteredByID</span> </td> 
+   <td><span> enteredByID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>text</span> </td> 
+   <td><span> tekst </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>externalIntegrationType</span> </td> 
+   <td><span> externalIntegrationType </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>externalStorageID</span> </td> 
+   <td><span> externalStorageID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileName</span> </td> 
+   <td><span> fileName </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fileType</span> </td> 
+   <td><span> fileType </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ID</span> </td> 
+   <td><span> identiteitskaart </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>locatie</span> </td> 
+   <td><span> plaats </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>objCode</span> </td> 
+   <td><span> objCode </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofApprovalStatusID</span> </td> 
+   <td><span> proofApprovalStatusID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofedByUserID</span> </td> 
+   <td><span> proofedByUserID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofDeadlineDate</span> </td> 
+   <td><span> proofDeadlineDate </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>bewijsBesluit</span> </td> 
+   <td><span> proofDecision </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofID</span> </td> 
+   <td><span> proofID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofName</span> </td> 
+   <td><span> proofName </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofOwnerID</span> </td> 
+   <td><span> proofOwnerID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proefdrukkenPagina's</span> </td> 
+   <td><span> proofPages </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofProgress</span> </td> 
+   <td><span> proofProgress </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofStageID</span> </td> 
+   <td><span> proofStageID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>versie</span> </td> 
+   <td><span> versie </span> </td> 
   </tr> 
   <tr> 
    <td>Kosten</td> 
@@ -1780,59 +1780,59 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Goedkeuring proef</span> </td> 
-   <td><span>PRFAPL</span> </td> 
-   <td><span>accessorIDs</span> </td> 
+   <td><span> ProofApproval </span> </td> 
+   <td><span> PRFAPL </span> </td> 
+   <td><span> accessorIDs </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fiatteurDecision</span> </td> 
+   <td><span> ApproverDecision </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>fiatverID</span> </td> 
+   <td><span> ApproverID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>customerID</span> </td> 
+   <td><span> customerID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>documentID</span> </td> 
+   <td><span> documentID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>documentVersionID</span> </td> 
+   <td><span> documentVersionID </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>ID</span> </td> 
+   <td><span> identiteitskaart </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>isAwaitDecision</span> </td> 
+   <td><span> isAwaitingDecision </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>objCode</span> </td> 
+   <td><span> objCode </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofCreationDate</span> </td> 
+   <td><span> proofCreationDate </span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>requesterID</span> </td> 
+   <td><span> requesterID </span> </td> 
   </tr> 
   <tr> 
    <td>Opnemen</td> 
@@ -2735,8 +2735,8 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Werkruimte</td> 
-   <td>WERKRUIMTE</td> 
+   <td>Workspace</td> 
+   <td>WORKSPACE</td> 
    <td>kleur</td> 
   </tr> 
   <tr> 
@@ -2797,4 +2797,4 @@ In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bron
  </tbody> 
 </table>
 
-&#42;Een parameterValue is een aangepaste veldwaarde die is gekoppeld aan verschillende Workfront-bronnen (of -objecten). Een uitgaand bericht voor een gebeurtenisabonnement bevat een volledige lijst met gevulde parameterValues (aangepaste velden).
+&#42; A parameterValue is een waarde van het douanegebied verbonden aan diverse middelen van Workfront (of voorwerpen). Een uitgaand bericht voor een gebeurtenisabonnement bevat een volledige lijst met gevulde parameterValues (aangepaste velden).

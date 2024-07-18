@@ -6,24 +6,24 @@ feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Overzicht van Broodkruimels
 
-Met de optie Breadcrubs wordt de volledige navigatiehiërarchie voor alle objecttypen weergegeven. Elk object in het pad van de broodkruimel heeft een label dat het objecttype weergeeft. De pagina die u momenteel hebt, wordt cursief weergegeven in de paginakoptekst en aan het einde van het pad van de broodkruimel. In het onderstaande voorbeeld is dit &quot;[!UICONTROL Share with Brand Team]&quot; taak.
+Met de optie Breadcrubs wordt de volledige navigatiehiërarchie voor alle objecttypen weergegeven. Elk object in het pad van de broodkruimel heeft een label dat het objecttype weergeeft. De pagina die u momenteel hebt, wordt cursief weergegeven in de paginakoptekst en aan het einde van het pad van de broodkruimel. In het onderstaande voorbeeld is dit de taak &quot;[!UICONTROL Share with Brand Team]&quot;.
 
-![Samengevouwen broodkruimel](assets/NWE-collapsed-breadcrumb.png)
+![ Samengevouwen broodkruimel ](assets/NWE-collapsed-breadcrumb.png)
 
 Wanneer er te veel objecten in het pad van de broodkruimel staan of wanneer de schermbreedte de volledige navigatiehiërarchie niet toestaat weer te geven, vouwt het pad enkele van de broodkruimels samen en groepeert deze objecten aan het begin van het pad van de broodkruimel. Zowel het project als de huidige objecten pagina zijn altijd zichtbaar in de broodkruimelweg.
 
 In de bovenstaande afbeelding geeft &#39;3 meer&#39; bijvoorbeeld aan dat 3 objecten niet worden weergegeven. Deze items bevinden zich boven het projectniveau of tussen het project en de huidige pagina.
 
-Klikken op &quot;[!UICONTROL more]&quot; staat u toe om de volledige hiërarchie uit te breiden. U kunt op &quot;[!UICONTROL Less]&quot; om het pad van de broodkruimel weer samen te vouwen.
+Als u op &quot;[!UICONTROL more]&quot; klikt, kunt u de volledige hiërarchie uitbreiden. U kunt &quot;[!UICONTROL Less]&quot;klikken om de broodkruimelweg opnieuw samen te vouwen.
 
-![Breedkruimel](assets/NWE-expanded-breadcrumb.png)
+![ Uitgebreide broodkruimel ](assets/NWE-expanded-breadcrumb.png)
 
 U kunt ook de volgende toetsen gebruiken om door de broodkruimels te navigeren:
 
@@ -32,11 +32,11 @@ U kunt ook de volgende toetsen gebruiken om door de broodkruimels te navigeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Tab</strong> </td> 
+   <td role="rowheader"><strong> Lusje </strong> </td> 
    <td> <p>Naar elk item in de broodkruimels navigeren</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Enter</strong> </td> 
+   <td role="rowheader"><strong> ga </strong> binnen </td> 
    <td> <p>Een samengevouwen pad voor de broodkruimel uitvouwen, een uitgevouwen pad voor de broodkruimel samenvouwen en een nieuwe pagina openen wanneer deze zich op een objectkoppeling bevindt</p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met de [!DNL Workfront] beheerder als u wilt weten welk abonnement- of licentietype u hebt.
 
 +++
 
@@ -86,9 +86,9 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## Een bovenliggend object openen vanuit de breadcrumbs
 
-Voor informatie over bovenliggende objecten in [!DNL Workfront], zie [Objecten begrijpen in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor informatie over oudervoorwerpen in [!DNL Workfront], zie [ voorwerpen in  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
-1. (Voorwaardelijk) Als u het object waarnaar u wilt navigeren niet ziet in een samengevouwen pad voor de broodkruimel, klikt u op **[!UICONTROL more]** Zoek vervolgens het object op.
+1. (Voorwaardelijk) Als u het object waarnaar u wilt navigeren niet ziet in een samengevouwen pad met de broodkruimel, klikt u op **[!UICONTROL more]** en zoekt u het object.
 
    >[!NOTE]
    >

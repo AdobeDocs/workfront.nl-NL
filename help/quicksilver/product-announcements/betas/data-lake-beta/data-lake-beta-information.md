@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Workfront data Lake is een nieuw hulpmiddel dat momenteel in ontwikkeling is en een speciale interface biedt voor organisaties om gegevens te verzamelen voor gebruik in populaire hulpprogramma&#39;s voor bedrijfsanalisten of om op te slaan in externe datawarehouses — zonder dat er ingewikkelde API- of Fusion-oplossingen nodig zijn. Deze pagina bevat informatie over hoe u ons kunt helpen door feedback over dit hulpprogramma te testen en te geven tijdens de actieve bètaversie.
 
-Zie voor meer informatie over het gebruik van het Workfront data Lake [Overzicht van Workfront-datumpeer](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Voor informatie over het gebruiken van het de gegevensmeer van Workfront, zie [ overzicht van het de gegevens meer van Workfront ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-**Bètaschema:**
+**schema van Beta:**
 
-* Begindatum bèta - 15 april 2024
+* Begindatum Beta - 15 april 2024
 * Geplande releasedatum - TBA
 
 ## Deelnemen aan de bètaversie
@@ -34,17 +34,17 @@ Zie voor meer informatie over het gebruik van het Workfront data Lake [Overzicht
 
 Als u uw organisatie wilt inschrijven in de bètaversie, moet u het formulier invullen en verzenden via de volgende koppeling:
 
-[Betaalinschrijving voor Workfront data Lake](https://adobe.ly/workfrontdatalake)
+[ de bèta-inschrijving van het de gegevenspeer van Workfront ](https://adobe.ly/workfrontdatalake)
 
 ### Feedback geven
 
 Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van de bètaversie. Volg de onderstaande instructies om uw ervaring met ons te delen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Instellen**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
-1. Klik in het linkerdeelvenster op **Systeem** > **Gegevenstoegang**.
+1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
 
-1. Klik op de knop **Feedback verzenden** onder aan de pagina, vult u het formulier in met uw feedback.
+1. Klik **verzenden Terugkoppeling** knoop bij de bodem van de pagina, dan vult de vorm met uw terug koppelt.
 
 ## Geplande functies
 

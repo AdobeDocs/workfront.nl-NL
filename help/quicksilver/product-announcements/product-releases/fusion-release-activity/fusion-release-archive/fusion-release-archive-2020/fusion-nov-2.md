@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 2 november 2020 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Allocadia-connector en nu beschikbare modules
 
@@ -35,7 +35,7 @@ Met de modules Allocadia kunt u:
 * Een Allocadia-record maken, lezen, bijwerken of verwijderen
 * Een aangepaste API-aanroep uitvoeren
 
-Voor informatie over de beschikbare Allocadia-modules raadpleegt u [Allocadia](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md).
+Voor informatie over beschikbare modules van Allocadia, zie [ modules van Allocadia ](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md).
 
 ## DocuSign-connector en -modules nu beschikbaar (binnenkort beschikbaar)
 
@@ -49,4 +49,4 @@ U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw DocuSign-
 * Een bestand uploaden naar een envelop
 * Een aangepaste API-aanroep uitvoeren
 
-Zie voor meer informatie [DocuSign-modules](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Voor meer informatie, zie [ modules DocuSign ](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Vergrendelde en ontgrendelde statussen op systeemniveau
 
-Het sluiten van douanestatus is een manier om ervoor te zorgen dat de mensen door uw organisatie de zelfde processen in hun stroom van het werk gebruiken. Wanneer een status is vergrendeld, is deze beschikbaar voor alle gebruikers in het systeem. Hoewel u een status kunt uitgeven of schrappen die u sluit, kunnen de groepsbeheerders dit niet voor hun groepen doen; ze kunnen alleen de weergavevolgorde in de statuslijst wijzigen.
+Het sluiten van douanestatus is een manier om ervoor te zorgen dat de mensen door uw organisatie de zelfde processen in hun stroom van het werk gebruiken. Wanneer een status is vergrendeld, is deze beschikbaar voor alle gebruikers in het systeem. Hoewel u een status kunt bewerken of verwijderen die u vergrendelt, kunnen groepsbeheerders dit niet doen voor hun groepen. Ze kunnen alleen de weergavevolgorde in de statuslijst wijzigen.
 
 Omgekeerd, staat het ontgrendelen van douanestatus groepsbeheerders meer flexibiliteit toe om de unieke werkschema&#39;s te beheren die in hun groepen worden gebruikt. Wanneer een status is ontgrendeld, kunnen groepsbeheerders de kenmerken ervan wijzigen of deze voor hun groepen verwijderen.
 
@@ -25,7 +25,7 @@ Omgekeerd, staat het ontgrendelen van douanestatus groepsbeheerders meer flexibi
 >
 >Als u een douanestatus sluit nadat het voor om het even welke periode is ontgrendeld, vervangen uw systeem-brede montages voor de status die door groepsbeheerders worden gemaakt. Terwijl de status is vergrendeld, kunnen groepsbeheerders de status voor hun groepen niet wijzigen of verwijderen.
 
-Voor instructies over het vergrendelen of ontgrendelen van de status op systeemniveau raadpleegt u [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke status, zie [ tot een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) leiden of uitgeven.
 
 ## Niet-vergrendelde statussen in goedkeuringsprocessen
 

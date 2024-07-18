@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 Beta 3 releaseactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.3 bèta 3-release. De functionaliteit is op 16 augustus 2018 beschikbaar in de voorvertoningsomgeving. Het zal in november 2018 beschikbaar worden gesteld in de productieomgeving.
+title: 2018.3 Beta 3-releaseactiviteit
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 3-release van 2018.3. De functionaliteit is op 16 augustus 2018 beschikbaar in de voorvertoningsomgeving. Het zal in november 2018 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 Beta 3 releaseactiviteit
+# 2018.3 Beta 3-releaseactiviteit
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.3 bèta 3-release. De functionaliteit is op 16 augustus 2018 beschikbaar in de voorvertoningsomgeving. Het zal in november 2018 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 3-release van 2018.3. De functionaliteit is op 16 augustus 2018 beschikbaar in de voorvertoningsomgeving. Het zal in november 2018 beschikbaar worden gesteld in de productieomgeving.
 
 >[!NOTE]
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-De 2018.3 bèta 3-versie bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
+De Beta 3-release van 2018.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-**Voor beheerders**
+**voor Beheerders**
 
 * [Rollen in het gebruikersprofiel bijwerken als groepsbeheerder](#update-roles-in-the-user-profile-as-a-group-administrator)
 
-**Voor alle gebruikers**
+**voor Alle Gebruikers**
 
-* [Het thuisgebied is nu de standaardinstelling](#home-area-is-now-the-default)
-* [Prioriteit geven aan uw werk thuis](#prioritize-your-work-in-home)
-* [Unieke URL voor de weergave van de gebruiker van de bronnenplanner](#unique-url-for-the-resource-planner-user-view)
-* [Profielafbeelding uploaden in de Workfront Mobile-app](#upload-profile-picture-in-the-workfront-mobile-app) 
-* [Verbetering van aangepaste formulieren in de Workfront Mobile-app](#custom-form-improvement-in-the-workfront-mobile-app)
-* [Logtijd in de Workfront Mobile-toepassing in de stand Liggend](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
+* [ Gebied van het Huis is nu het Gebrek ](#home-area-is-now-the-default)
+* [ bevestig Uw Werk in Huis ](#prioritize-your-work-in-home) vooraf in
+* [ Unieke URL voor de Mening van de Gebruiker van de Planner van het Middel ](#unique-url-for-the-resource-planner-user-view)
+* [ Upload het Beeld van het Profiel in de Mobiele App van Workfront ](#upload-profile-picture-in-the-workfront-mobile-app) 
+* [ Verbetering van de Vorm van de Douane in de Mobiele Toepassing van Workfront ](#custom-form-improvement-in-the-workfront-mobile-app)
+* [ Tijd van het Logboek in Workfront Mobile App in Liggende Richtlijn ](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [De pictogrammen opnieuw rangschikken op de onderste navigatiebalk in de Workfront Mobile-app](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## Het thuisgebied is nu de standaardinstelling {#home-area-is-now-the-default}
@@ -50,7 +50,7 @@ Met de sorteeroptie Mijn prioriteit kunt u nu prioriteit geven aan elk werkitem 
 
 Eerder kon u alleen taken en problemen in het gebied Mijn werk als prioriteit instellen.
 
-Zie voor meer informatie [Prioriteit geven aan werkzaamheden in het thuisgebied](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+Voor meer informatie, zie [ het werk in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md) Prioriseren.
 
 ## Rollen in het gebruikersprofiel bijwerken als groepsbeheerder {#update-roles-in-the-user-profile-as-a-group-administrator}
 
@@ -61,7 +61,7 @@ U kunt nu de volgende velden bijwerken voor gebruikers die behoren tot een groep
 
 Eerder konden alleen systeem- en gebruikersbeheerders deze velden bijwerken. 
 
-Zie voor meer informatie [Groepbeheerders](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Voor meer informatie, zie [ de beheerders van de Groep ](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Unieke URL voor de weergave van de gebruiker van de bronnenplanner {#unique-url-for-the-resource-planner-user-view}
 
@@ -69,7 +69,7 @@ U kunt nu een unieke URL genereren voor de functie voor het plaatsen van bronnen
 
 Eerder was deze functionaliteit niet beschikbaar.
 
-Zie voor meer informatie de sectie &quot;Unieke URL voor de gebruikersweergave&quot; in [Overzicht van de navigatie in de bronnenplanner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor meer informatie, zie &quot;Unieke URL voor de sectie van de Mening van de Gebruiker&quot;in [ overzicht van de navigatie van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Profielafbeelding uploaden in de Workfront Mobile-app  {#upload-profile-picture-in-the-workfront-mobile-app}
 
@@ -93,7 +93,7 @@ Eerder werden aangepaste formulieren op een apart tabblad weergegeven.
 
 ## Logtijd in de Workfront Mobile-toepassing in de stand Liggend {#log-time-in-the-workfront-mobile-app-in-landscape-orientation}
 
-U kunt de tijd nu in de oriëntatie Liggend vastleggen in de bètaapp van Workfront voor Android.
+U kunt zich nu in de bètaapp van Workfront voor Android aanmelden met de oriëntatie Liggend.
 
 Eerder kon u de tijd alleen in de richting Staand vastleggen.
 

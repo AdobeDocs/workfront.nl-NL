@@ -18,17 +18,17 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle veranderingen beschikbaar in het milieu van de Voorproef met R1.1 en R1.2 versies. De functionaliteit op deze pagina is op 19 januari 2017 beschikbaar gesteld in de voorvertoningsomgeving.
 
-Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [Overzicht van de release van R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [ R1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Projecten, taken en problemen herstellen vanuit de prullenbak 
 
 Workfront-beheerders kunnen nu projecten, taken en problemen herstellen die in de afgelopen 30 dagen zijn verwijderd. Alle informatie met betrekking tot het project, de taak of de uitgave wordt hersteld, inclusief documenten en aangepaste gegevens.
 
-De nieuwe opties zijn ook beschikbaar voor het vormen wat aan uren gebeurt die tegen een project, een taak, of een kwestie worden geregistreerd die wordt geschrapt. Zie voor meer informatie [Het configureren van beïnvloeding wordt toegepast op uren dat een object wordt verwijderd en hersteld](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+De nieuwe opties zijn ook beschikbaar voor het vormen wat aan uren gebeurt die tegen een project, een taak, of een kwestie worden geregistreerd die wordt geschrapt. Voor meer informatie, zie [ beïnvloeden beïnvloedt op uren wanneer een voorwerp wordt geschrapt en ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md) hersteld.
 
-Ga voor meer informatie over het herstellen van objecten in Workfront naar [Verwijderde items herstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Voor meer informatie over het herstellen van voorwerpen in Workfront, zie [ geschrapte punten ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
-Voor informatie over hoe te om projecten, taken, en kwesties te bekijken die onlangs zijn hersteld, zie [Teruggezet item weergeven](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+Voor informatie over hoe te om projecten, taken, en kwesties te bekijken die onlangs zijn hersteld, zie [ Mening hersteld punt ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
 ## Het Diagram van de goedkeuring toont Visuele vertegenwoordiging van Vorige, Huidige, en Toekomstige de Stappen van de Goedkeuring
 
@@ -38,20 +38,20 @@ Voorafgaand aan deze verandering, was de informatie over goedkeuringsstappen bes
 
 Voor projecten, wordt de goedkeuringsinformatie getoond in de kopbal naast de projecttitel. Voor taken en kwesties, wordt de goedkeuringsinformatie getoond in het juiste paneel.
 
-Zie voor meer informatie [Goedkeuring van de werkzaamheden](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Goedkeuring van de werkzaamheden](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Voor meer informatie, zie [ goedkeurend werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md) binnen  [ goedkeurend het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Te bijwerken objecten configureren die in afwachting zijn van goedkeuring
 
 Wanneer een project, een taak, of een kwestie goedkeuring in afwachting is, kunt u nu vormen of de gebruikers kunnen:
 
 * Bewerk de aangepaste vorm van een project, taak of uitgave die in afwachting is van goedkeuring.\
-  Voor informatie over hoe te om projecten, taken, en kwesties te vormen die wanneer in afwachting van goedkeuring moeten worden uitgegeven, zie [Algemene goedkeuringsinstellingen configureren](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  Voor informatie over hoe te om projecten, taken, en kwesties te vormen die moeten worden uitgegeven wanneer in afwachting van goedkeuring, zie [ globale goedkeuringsmontages ](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen
 
 * Voeg kwesties aan een project toe dat goedkeuring in afwachting is.\
-  Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om kwesties toe te voegen wanneer het project goedkeuring in afwachting is, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om kwesties toe te voegen wanneer het project goedkeuring in afwachting is, zie [ systeem-brede projectvoorkeur ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * Bewerk taken en problemen in een project waarvoor goedkeuring is aangevraagd.\
-  Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om taken en kwesties uit te geven wanneer het project goedkeuring in afwachting is, zie [Projectvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Voor informatie over hoe te om projecten te vormen om gebruikers toe te staan om taken en kwesties uit te geven wanneer het project goedkeuring in afwachting is, zie [ systeem-brede projectvoorkeur ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Voorafgaand aan deze wijziging konden projecten, taken en kwesties die in behandeling waren niet worden bewerkt. Ook konden problemen niet worden toegevoegd aan projecten waarvoor goedkeuring was aangevraagd, en konden taken en problemen niet worden bewerkt binnen projecten waarvoor goedkeuring was aangevraagd.
 
@@ -69,7 +69,7 @@ De functionaliteit is gewijzigd door de instellingen voor e-mailmeldingen van ge
 
 Voordat u deze wijziging aanbracht, zijn de door u geselecteerde instellingen voor e-mailmeldingen opgeslagen. Alle andere instellingen voor ongewijzigde meldingen zijn uitgeschakeld toen u uw wijzigingen opsloeg. 
 
-Raadpleeg &quot;Modifying User Notification Settings in Bulk&quot; in [Uw eigen e-mailmeldingen wijzigen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor meer informatie, zie de &quot;Wijzigende Montages van het Bericht van de Gebruiker in Bulk&quot;in [ uw eigen e-mailberichten wijzigen ](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Verscheidene e-mailmeldingen bekijken en bekijken
 
@@ -83,7 +83,7 @@ De weergave van de volgende e-mailmeldingen is bijgewerkt met een nieuwe interfa
 * In afwachting van goedkeuring (project, taak, problemen)
 * Statuswijziging voor projecten, taken, problemen
 
-Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen, aangezien de voorbeeldsandbox de e-mailadressen van alle gebruikers wist.    Zie voor meer informatie over e-mailmeldingen [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).  
+Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen, aangezien de voorbeeldsandbox de e-mailadressen van alle gebruikers wist.    Voor meer informatie over e-mailberichten, zie [ de berichten van Adobe Workfront ](../../../../workfront-basics/using-notifications/wf-notifications.md).  
 
 ## Nieuwe e-mailsamenvattingsopties voor verschillende gebieden met meldingen
 
@@ -95,13 +95,13 @@ In de volgende berichtgebieden is de optie Dagelijkse samenvatting toegevoegd:
 * Informatie over werk dat aan mij is toegewezen
 * Communicatie
 
-Zie voor meer informatie [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).  Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen, aangezien de voorbeeldsandbox de e-mailadressen van alle gebruikers wist. 
+Voor meer informatie, zie [ de berichten van Adobe Workfront ](../../../../workfront-basics/using-notifications/wf-notifications.md).  Vergeet niet het e-mailadres bij te werken dat aan uw account is gekoppeld om deze functionaliteit te kunnen testen, aangezien de voorbeeldsandbox de e-mailadressen van alle gebruikers wist. 
 
 ## Een groep openbaar maken
 
 Wanneer u een groep openbaar maakt, kunt u die groep nu aan gebruikers toevoegen zonder een groepseigenaar te zijn. U moet beheerdersrechten voor gebruikers hebben om gebruikers te kunnen bewerken.
 
-Voor meer informatie over het openbaar maken van een groep raadpleegt u de [Een groep maken](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) sectie in [Een groep maken](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Voor meer informatie over het maken van een groep openbaar, zie [ een groep ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) sectie in [ creëren een groep ](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## De URL van een object delen in de mobiele toepassing 
 
@@ -131,7 +131,7 @@ Nu kunt u nauwkeurigere uitgavensnelheden toevoegen wanneer het creëren van uit
 
 Vóór deze wijziging kunnen onkostenvergoedingen maximaal 2 tekens na het decimaalteken bevatten (bijvoorbeeld 1,03).
 
-Zie voor meer informatie over het maken van onkostenpercentages [Aangepaste uitgaventypen maken](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+Voor meer informatie over het creëren van onkostentarieven, zie [ de types van douanevergoedingen ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>

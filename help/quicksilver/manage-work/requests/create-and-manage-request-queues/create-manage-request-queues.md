@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-* [Bepaal de Types van Verzoek voor een project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Toegang tot aanvraagwachtrijen bieden](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
-* [Onderwerpgroepen maken](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-* [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+* [ creeer een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [ bepalen de Types van Verzoek voor een project ](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
+* [ verleent toegang tot verzoekrijen ](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+* [ creeer de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 * [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
   <!--

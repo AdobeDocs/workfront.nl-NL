@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -29,29 +29,29 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a>*</td> 
    <td> <p>Zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>*</td> 
    <td> <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br> voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> creeer of wijzig douanetoegangsniveaus </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het project weergeven</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot het project weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie de &quot;sectie van Eerste vereisten&quot;in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Begrijp de visualisatie van het vliegplan
 
@@ -61,25 +61,25 @@ In de daadwerkelijke duur van een project, kunt u slechts de volgende projectvoo
 * Risico
 * In problemen
 
-Ga voor meer informatie over de projectvoorwaarden naar [Overzicht van het type Projectvoorwaarde en Voorwaarde](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Om over projectvoorwaarden te leren, zie [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 De visualisatie van het vliegplan toont de volgende projectdetails:
 
-* **Geplande duur**: De horizontale blauwe lijn geeft de geplande lengte van het project aan, waarbij de driehoeken aan een van de uiteinden van de regel de begindatum en einddatum aangeven.
+* **Geplande duur**: De horizontale blauwe lijn vertegenwoordigt de geplande lengte van het project, met de driehoeken bij één van beide eind van de lijn die op de begindatum en einddatum wijzen.
 
-   ![](assets/planned-duration-line-350x37.png)
+  ![](assets/planned-duration-line-350x37.png)
 
-* **Werkelijke duur**: De dikke, gekleurde lijn onder de geplande duur geeft de werkelijke lengte van het project aan. De kleur van de lijn verandert afhankelijk van de voorwaarde van het project op dat specifieke tijdstip in het leven van het project.
+* **Ware duur**: De dikke, gekleurde lijn onder de geplande duur vertegenwoordigt de daadwerkelijke lengte van het project. De kleur van de lijn verandert afhankelijk van de voorwaarde van het project op dat specifieke tijdstip in het leven van het project.
 
-   ![](assets/actual-duration-line.png)
+  ![](assets/actual-duration-line.png)
 
-* **Werkelijke voorwaarde**: De dikke, gekleurde lijn laat ook de conditie van een project op verschillende momenten in de tijd zien. De kleur van de lijn verandert afhankelijk van de voorwaarde van het project:
+* **Ware voorwaarde**: De dikke, gekleurde lijn toont ook de voorwaarde van een project op verschillende momenten in tijd. De kleur van de lijn verandert afhankelijk van de voorwaarde van het project:
 
-   * **Groen**: Op doel
-   * **Oranje**: Risico
-   * **Rood**: In problemen
+   * **Groen**: Op Doel
+   * **Oranje**: Bij Risico
+   * **Rood**: In Problemen
 
-   ![](assets/actual-condition-color.png)
+  ![](assets/actual-condition-color.png)
 
 Door over een projectrij in de visualisatie van het Plan van de Vlucht te bewegen, kunt u informatie over geplande timeframe van het project, de huidige projectvoorwaarde, en-indien van toepassing-de douanevoorwaarde zien. Voor een diepgaandere weergave van wat de duur of de voorwaarde kan hebben beïnvloed, kunt u naar de andere visualisaties in het gedeelte Uitgebreide analyse kijken.
 
@@ -91,20 +91,20 @@ Aan de hand van deze informatie kunt u bepalen:
 * Hoeveel projecten zijn actief.
 * Welke projecten hebben extra aandacht of steun nodig.
 
-Voor informatie over hoe u de beste gegevens voor deze visualisatie kunt ophalen, raadpleegt u [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor informatie over hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De visualisatie van het vliegplan bekijken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Voorwaardelijk) als u de reeks van projectgegevens moet beperken, selecteer en pas de filters toe die u wilt gebruiken.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor meer informatie bij het toevoegen van filters in Verbeterde analyses, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -114,7 +114,7 @@ Voor informatie over hoe u de beste gegevens voor deze visualisatie kunt ophalen
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optioneel) Als u de sortering van de projecten wilt wijzigen, klikt u op de knop **Sorteren op** in de rechterbovenhoek van de visualisatie van het vliegplan en selecteert u vervolgens een nieuwe sorteeroptie:
+1. (Facultatief) om te veranderen hoe de projecten worden gesorteerd, klik de **Soort door** menu in de hoger-juiste hoek van de visualisatie van het vliegplan, dan selecteer een nieuwe sorterende optie:
 
    * **A - Z**
    * **Z - A**
@@ -137,13 +137,13 @@ Voor informatie over hoe u de beste gegevens voor deze visualisatie kunt ophalen
 
    ![](assets/project-bar-graph-350x143.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op de knop **Exporteren** pictogram ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:**
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * **Grafiek (PNG)**
+   * **Lijst van Gegevens (XSLX)**
 
 1. Om meer projectinformatie te zien, klik een project op visualisatie om de Doordrukking en Taken in vluchtvisualisaties te openen.
 
    Deze visualisaties kunnen u helpen dieper inzicht in krijgen wat het project ertoe heeft gebracht om weg te gaan. Bovendien is het zo eenvoudig om een lopend project in te checken.\
-   Voor meer informatie over de Burndown visualisatie, zie [Bekijk de Burndown-visualisatie in de uitgebreide analyse](../enhanced-analytics/burndown-overview.md). Voor meer informatie over de Taken in vluchtvisualisatie, zie [De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse](../enhanced-analytics/tasks-in-flight-overview.md).
+   Voor meer informatie over de Visualisatie van de Doordrukking, zie [ Mening de Visualisatie van de Doordrukking in Verbeterde analyses ](../enhanced-analytics/burndown-overview.md). Voor meer informatie over de Taken in vluchtvisualisatie, zie [ Mening de Taken in vluchtvisualisatie in Verbeterde analyses ](../enhanced-analytics/tasks-in-flight-overview.md).
 

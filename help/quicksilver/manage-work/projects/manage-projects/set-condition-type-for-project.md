@@ -35,41 +35,41 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Toegang verlenen tot projecten</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot projecten, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref"> toegang van de Verlening tot projecten </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-machtigingen voor een project voor het bewerken van het Condition Type in het gebied Projectdetails </p> </li> 
+     <li> <p>Contribute-machtigingen voor een project om het Condition Type te bewerken in het gebied Projectdetails </p> </li> 
      <li> <p>Rechten voor een project beheren om het voorwaardetype te bewerken in het vak Project bewerken</p> </li> 
-    </ul> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Een project delen in Adobe Workfront</a>.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+    </ul> <p> Voor informatie over projecttoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref"> een project in Adobe Workfront </a> delen.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Het voorwaardetype instellen voor een project
 
 1. Ga naar het project waarvoor u het Type van Voorwaarde wilt bijwerken.
 1. Voer een van de volgende handelingen uit: 
 
-   * Klik op de knop **Meer** menu ![](assets/qs-more-menu.png) rechts van de projectnaam klikt u op **Bewerken**.
-   * Klikken **Projectdetails** in het linkerdeelvenster.
+   * Klik **Meer** menu ![](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+   * Klik **Details van het Project** in het linkerpaneel.
 
    ![](assets/update-condition-type-nwe-350x108.png)
 
-1. In de **Type voorwaarde** in het veld kiest u een van de volgende opties:
+1. Op het **gebied van het Type van Voorwaarde**, kies één van het volgende:
 
-   * **Handmatig:** De projecteigenaar plaatst manueel de Voorwaarde op het project.
+   * **Handboek:** de projecteigenaar plaatst manueel de Voorwaarde op het project.
 
-      In dit geval, kan de projecteigenaar de Voorwaarde van het project in de projectkopbal, of de sectie van de Details van het Project bijwerken.
+     In dit geval, kan de projecteigenaar de Voorwaarde van het project in de projectkopbal, of de sectie van de Details van het Project bijwerken.
 
-   * **Voortgangsstatus:** Workfront stelt de Voorwaarde in op basis van de Voortgangsstatus van het project. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [Overzicht van voortgang van project](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [ Overzicht van de Status van de Voortgang van het Project ](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-1. Klikken **Opslaan** wanneer u het Type van Voorwaarde in het Edit vakje van het Project wijzigt.
+1. Klik **sparen** wanneer u het Type van Voorwaarde in de Edit doos van het Project wijzigt.
 
-   Klikken **Wijzigingen opslaan** wanneer u het Type van Voorwaarde in de sectie van de Details van het Project wijzigt.
+   Klik **sparen Veranderingen** wanneer u het Type van Voorwaarde in de sectie van de Details van het Project wijzigt.
 
  

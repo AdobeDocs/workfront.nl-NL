@@ -3,7 +3,7 @@ title: Een team maken vanuit het gedeelte Setup
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
-description: Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling tot stand brengen.
+description: Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling creëren.
 author: Caroline, Courtney
 feature: System Setup and Administration
 role: Admin
@@ -17,14 +17,13 @@ ht-degree: 0%
 
 # Een team maken vanuit het gedeelte Setup
 
-Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling tot stand brengen. Voor informatie over teams, zie [Teams overzicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling creëren. Voor informatie over teams, zie [ Overzicht van Teams ](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
->* Een groepsbeheerder kan een team voor een groep tot stand brengen zij van het gebied van de Opstelling beheren. Zie voor meer informatie [De teams van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Een gebruiker met een licentie voor een abonnement kan ook een team maken vanuit het gebied Mensen. Zie voor meer informatie [Een team maken](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+>* Een groepsbeheerder kan een team voor een groep tot stand brengen zij van het gebied van de Opstelling beheren. Voor meer informatie, zie [ de teams van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
+>* Een gebruiker met een licentie voor een abonnement kan ook een team maken vanuit het gebied Mensen. Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 >
-
 
 ## Toegangsvereisten
 
@@ -44,18 +43,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Een team maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Teams** en klik vervolgens op **Nieuw team**.
+1. Klik **Teams**, dan klik **Nieuw Team**.
 
-1. In de **Nieuw team** Geef de volgende informatie op in het vak dat wordt weergegeven:
+1. In het **Nieuwe vakje van het Team** dat toont, specificeer de volgende informatie:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -67,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Groep</td> 
-      <td> <p>Als u het team aan een groep wilt associëren, begin de naam van de groep te typen, dan selecteer de naam wanneer het verschijnt.</p> <p>U kunt ervoor zorgen u de juiste groep met het team associeert door over het te hangen en het informatiepictogram te klikken <img src="assets/info-icon.png"> die ernaast wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p><b>OPMERKING</b>: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar klikken <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij leiden.</p> </td> 
+      <td> <p>Als u het team aan een groep wilt associëren, begin de naam van de groep te typen, dan selecteer de naam wanneer het verschijnt.</p> <p>U kunt ervoor zorgen dat u de juiste groep aan het team koppelt door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram <img src="assets/info-icon.png"> te klikken dat naast de groep wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p><b> NOTA </b>: Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de pijl van de Teams van de Schakelaar <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Teamleden</td> 
@@ -82,8 +81,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td>Kies welk kalendertabblad wordt weergegeven voor dit team.</td> 
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-      <td role="rowheader">Dit is een flexibel team</td> 
-      <td>Selecteer dit punt als u dit nieuwe team wilt vormen om een flexibel team te zijn. Voor meer informatie over bestandsteams raadpleegt u <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Een bestandsteam maken</a>.</td> 
+      <td role="rowheader">Dit is een Agile Team</td> 
+      <td>Selecteer dit punt als u dit nieuwe team wilt vormen om een flexibel team te zijn. Voor meer informatie over mobiele teams, zie <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref"> een nieuw team </a> creëren.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">eraan werken</td> 
@@ -96,10 +95,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Klikken **Team maken**.
+1. Klik **tot Team** leiden.
 
 ## Teameigenaars
 
 Wanneer u een team creeert wordt u de teameigenaar, door gebrek.
 
-U kunt teameigenaars voor alle teams bekijken wanneer u een rapport voor teams creeert en het gebied van de Naam van de Eigenaar in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+U kunt teameigenaars voor alle teams bekijken wanneer u een rapport voor teams creeert en het gebied van de Naam van de Eigenaar in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.)

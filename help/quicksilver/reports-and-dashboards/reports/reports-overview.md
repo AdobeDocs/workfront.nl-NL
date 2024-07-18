@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [Grondbeginselen van rapporten](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
-* [Overzicht van rapportelementen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
-* [Ingebouwde rapporten gebruiken](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [Rapporten maken en beheren](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-* [Berekende aangepaste gegevens in rapporten](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [Tekstmodusbronnen: artikelindex](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [Overzicht van rapportgebruik](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-* [Kalenders: artikelindex](../../reports-and-dashboards/reports/calendars/calendars.md)
+* [ het Melden van grondbeginselen ](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [ het Melden van elementen overzicht ](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
+* [ ingebouwde rapporten van het Gebruik ](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+* [ creeer en beheer rapporten ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [ Berekende douanegegevens in rapporten ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [ de mening van de Douane, filter, en groeperingssteekproeven: artikelindex ](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [ de middelen van de Wijze van de Tekst: artikelindex ](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+* [ het gebruiksoverzicht van het Rapport ](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [ Kalenders: artikelindex ](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Tips, trucs en probleemoplossing voor rapporten](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

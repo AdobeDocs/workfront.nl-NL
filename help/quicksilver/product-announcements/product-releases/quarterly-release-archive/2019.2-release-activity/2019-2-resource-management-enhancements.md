@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in het beheer van bronnen die zijn opgenomen in de release van 2019.2. De functionaliteit zal naar verwachting in de week van 20 mei 2019 beschikbaar zijn in de productieomgeving.
 
-Voor een lijst van alle wijzigingen die in 2019.2 zijn aangebracht, raadpleegt u [Overzicht van de activiteit van de release van 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [ 2019.2 Overzicht van de Activiteit van de Versie ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Prioriteit Portfolio weergeven in de bronnenplanner
 
@@ -26,7 +26,7 @@ U kunt nu het plaatsen in de Planner van het Middel toelaten die u toestaat om d
 
 Voorafgaand aan deze verbetering, kon u niet de portefeuilleprioriteit van een project in de Planner van het Middel bekijken.
 
-Voor informatie over het inschakelen van deze instelling raadpleegt u de [Instellingen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) van de [De gebieden van de bronnenplanner begrijpen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor informatie over het toelaten van dit het plaatsen, zie de [ sectie van Montages ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) van [ Begrijpend de Gebieden van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Filters delen in de functie Bronnen
 
@@ -34,7 +34,7 @@ U kunt filters nu delen u in de Planner van het Middel met uitgezochte gebruiker
 
 Vóór deze verbetering, waren de filters u creeerde zichtbaar aan alle gebruikers die tot de Planner van het Middel konden toegang hebben.
 
-Voor informatie over het filtreren in de Planner van het Middel, zie [Inhoud filteren in de bronnenplanner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Voor informatie over het filtreren in de Planner van het Middel, zie [ Filtrerend Inhoud in de Planner van het Middel ](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Nieuw toegangsniveau voor bronnenbeheer
 
@@ -50,9 +50,9 @@ Met deze wijziging maakt het beheer van bronnenpools nu deel uit van het toegang
 
 Ook met deze verandering, wordt aangewezen als Manager van het Middel op een project niet meer vereist; nochtans, wordt het hebben van de correcte toegang tot het Beheer van het Middel vereist om middelen te kunnen beheren.
 
-Voor informatie over de nieuwe toegang die nodig is voor het begroten van middelen, raadpleegt u [Toegang vereist voor begrotingsmiddelen](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Voor informatie over de nieuwe toegang die voor het opnemen van middelen wordt vereist, zie [ Toegang nodig aan de Middelen van de Begroting ](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Voor informatie over het nieuwe de toegangsniveau van het Beheer van het Middel, zie [Toegang tot bronnenbeheer](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over het nieuwe de toegangsniveau van het Beheer van het Middel, zie [ Begrijpend Toegang van het Beheer van het Middel ](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Projecten bestellen op basis van prioriteiten van Portfolio in de bronnenplanner
 
@@ -60,11 +60,11 @@ U kunt projecten nu tot stand brengen door hun portefeuilleprioriteit in de Plan
 
 Voorafgaand aan deze verhoging, kon u de portefeuilleprioriteit in de Planner van het Middel slechts bekijken en tot de projecten opdracht geven slechts door hun plannerprioriteit.
 
-Voor informatie over het opdracht geven tot projecten door portefeuilleprioriteit in de Planner van het Middel, zie [Prioritaire Projecten in de Planner van het Middel](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+Voor informatie over het opdracht geven tot projecten door portefeuilleprioriteit in de Planner van het Middel, zie [ het Prioriseren Projecten in de Planner van het Middel ](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Verbetering van de filter Resource Planner
 
 De filterervaring in de Planner van het Middel is nu eenvoudiger wanneer u een nieuw gebied (Groep) aan de ingebouwde filtercriteria toevoegt. U kunt nu de meest gebruikte filters vinden in de ingebouwde opties.
 
-Voor informatie over filters in de Planner van het Middel, zie [Inhoud filteren in de bronnenplanner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Voor informatie over filters in de Planner van het Middel, zie [ Filtrerend Inhoud in de Planner van het Middel ](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 

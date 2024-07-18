@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.3 Beta 1 releaseactiviteit
+title: 2017.3 Beta 1-releaseactiviteit
 description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de release 2017.3. De functionaliteit op deze pagina is op 9 augustus 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal begin november 2017 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2017.3 Beta 1 releaseactiviteit
+# 2017.3 Beta 1-releaseactiviteit
 
 Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de release 2017.3. De functionaliteit op deze pagina is op 9 augustus 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal begin november 2017 beschikbaar worden gesteld in de productieomgeving.
 
@@ -22,37 +22,37 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [ 2017.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-De 2017.3 bèta 1-release bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
+De Beta 1-release van 2017.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-**Voor beheerders:**
+**voor Beheerders:**
 
-* [Voorkomen dat taken en problemen worden verwijderd wanneer de uren worden geregistreerd](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [Verwijderen van de instelling &quot;Vroege toegang&quot; uit het installatiegebied](#removal-of-the-early-access-setting-from-the-setup-area)
+* [ verhindert taken en kwesties worden geschrapt wanneer de uren worden geregistreerd ](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
+* [ Verwijdering van het &quot;Vroege Toegang&quot;Plaatsen van het Gebied van de Opstelling ](#removal-of-the-early-access-setting-from-the-setup-area)
 * [Workfront - standaard e-mailadres wijzigen](#workfront-default-email-address-change)
 
-**Voor alle gebruikers:**
+**voor Alle Gebruikers:**
 
-* [Verbeteringen in bronnenplanning](#resource-scheduling-improvements)
-* [Breedbeeld](#widescreen-display)
-* [Kolommen in rapporten en lijsten vergroten/verkleinen en opnieuw ordenen](#resize-and-reorder-columns-in-reports-and-lists)
-* [Optie Aangepaste gegevens wissen bij het kopiëren van taken en problemen](#clear-custom-data-option-when-copying-tasks-and-issues)
-* [Een project rechtstreeks van een sjabloon maken](#create-a-project-directly-from-a-template)
-* [Melding in app voor geabonneerde objecten](#in-app-notification-for-subscribed-objects)
-* [@Tagging is momenteel niet beschikbaar in de voorvertoningsomgeving](#tagging-currently-not-available-in-the-preview-environment)
+* [ de Plannende Verbeteringen van het Middel ](#resource-scheduling-improvements)
+* [ Vertoning Breedbeeld ](#widescreen-display)
+* [ Resize en maak Kolommen in Rapporten en Lijsten opnieuw in orde ](#resize-and-reorder-columns-in-reports-and-lists)
+* [ Duidelijke Optie van Gegevens van de Douane wanneer het kopiëren van Taken en Kwesties ](#clear-custom-data-option-when-copying-tasks-and-issues)
+* [ creeer direct een Project van een Malplaatje ](#create-a-project-directly-from-a-template)
+* [ In-App Bericht voor Geabonneerde Voorwerpen ](#in-app-notification-for-subscribed-objects)
+* [@Tagging momenteel niet beschikbaar in de voorvertoningsomgeving ](#tagging-currently-not-available-in-the-preview-environment)
 * [Gegevens over gebruikerstoewijzing opnemen in het gebruiksrapport van een project](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
 ## Verbeteringen in bronnenplanning {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 De volgende middelen die verbeteringen plannen zijn beschikbaar wanneer het plannen van middelen voor een team, voor een project, of voor veelvoudige projecten als middelmanager:
 
-* [Gebied voor planning weergeven in de modus Volledig scherm](#view-scheduling-area-in-full-screen-mode)
-* [Meer Opties van de Waaier van de Datum voor het Bekijken van het Gebied van de Planning van het Middel](#more-date-range-options-for-viewing-the-resource-scheduling-area)
+* [ Mening die Gebied op het Volledige Scherm plant Wijze ](#view-scheduling-area-in-full-screen-mode)
+* [ Meer Opties van de Waaier van de Datum om het Middel te bekijken die Gebied ](#more-date-range-options-for-viewing-the-resource-scheduling-area) plannen
 * [Geprojecteerde datums weergeven op de geplande tijdlijn](#view-projected-dates-on-the-scheduling-timeline)
 
 ### Gebied voor planning weergeven in de modus Volledig scherm {#view-scheduling-area-in-full-screen-mode}
@@ -104,7 +104,7 @@ U kunt kolommen in een rapport of lijst nu opnieuw rangschikken en resize, zonde
 
 Deze functionaliteit is niet beschikbaar voor dashboardlijsten of -rapporten, omdat deze lijsten opnieuw zijn ontworpen in een nieuwe structuur van het gegevensraster. Voor alle andere lijsten is deze functionaliteit ingeschakeld met deze versie.
 
-Zie voor meer informatie over het wijzigen van het formaat en het opnieuw ordenen van kolommen [Kolombreedte en -volgorde wijzigen](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Voor meer informatie over het resizing en het opnieuw rangschikken van kolommen, zie [ kolombreedte en orde wijzigen ](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Optie Aangepaste gegevens wissen bij het kopiëren van taken en problemen {#clear-custom-data-option-when-copying-tasks-and-issues}
 
@@ -112,17 +112,17 @@ Wanneer u een taak of uitgave kopieert, kunt u nu een optie selecteren om aangep
 
 Vóór deze wijziging werden de aangepaste gegevens die in een aangepast formulier waren opgenomen, ook naar het nieuwe item gekopieerd toen u de taak of uitgave kopieerde. 
 
-Voor meer informatie over het kopiëren van taken raadpleegt u [Taken kopiëren en dupliceren](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Voor meer informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Voor meer informatie over het kopiëren van kwesties, zie [Uitgaven kopiëren](../../../../manage-work/issues/manage-issues/copy-issues.md).
+Voor meer informatie over het kopiëren van kwesties, zie [ kwesties van het Exemplaar ](../../../../manage-work/issues/manage-issues/copy-issues.md).
 
 ## Een project rechtstreeks van een sjabloon maken {#create-a-project-directly-from-a-template}
 
 U kunt nu een project van een malplaatje, op het malplaatjeniveau tot stand brengen.
 
-Voorafgaand aan deze verandering, kon u een project van een malplaatje slechts op het lusje van Projecten in het gebied van Projecten van Workfront tot stand brengen, door **Nieuw project van sjabloon** -optie.
+Voorafgaand aan deze verandering, kon u een project van een malplaatje slechts op het lusje van Projecten in het gebied van Projecten van Workfront tot stand brengen, door het **Nieuwe Project van Malplaatje** optie te gebruiken.
 
-Voor meer informatie over het creëren van een project van een malplaatje, zie [Een project maken met een sjabloon](../../../../manage-work/projects/create-projects/create-project-from-template.md).
+Voor meer informatie over het creëren van een project van een malplaatje, zie [ een project creëren gebruikend een malplaatje ](../../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Voorkomen dat taken en problemen worden verwijderd wanneer de uren worden geregistreerd {#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged}
 
@@ -130,11 +130,11 @@ U kunt Workfront nu configureren om taken en problemen waarvoor uren zijn geregi
 
 Voorafgaand aan deze verandering, toen u een taak of kwestie schrapte waar de uren werden geregistreerd, werden de uren of met de taak of de kwestie geschrapt, of zij werden verplaatst naar het project, afhankelijk van uw Voorkeur Timesheet &amp; van de Uren.
 
-Voor meer informatie over het schrappen van taken, zie [Taken verwijderen](../../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+Voor meer informatie over het schrappen van taken, zie [ de taken van de Schrapping ](../../../../manage-work/tasks/manage-tasks/delete-tasks.md).
 
-Voor meer informatie over het verwijderen van problemen raadpleegt u [Problemen verwijderen](../../../../manage-work/issues/manage-issues/delete-issues.md).
+Voor meer informatie over het schrappen van kwesties, zie [ kwesties van de Schrapping ](../../../../manage-work/issues/manage-issues/delete-issues.md).
 
-Voor meer informatie over het toelaten van het systeem dat voor taak plaatst en kwestie schrapping, zie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor meer informatie over het toelaten van het systeem dat voor taak en uitgevende schrapping plaatst, zie [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Verwijderen van de instelling &quot;Vroege toegang&quot; uit het installatiegebied {#removal-of-the-early-access-setting-from-the-setup-area}
 
@@ -144,7 +144,7 @@ Voorafgaand aan deze wijziging konden Workfront-beheerders nog steeds gebruikers
 
 ## Workfront - standaard e-mailadres wijzigen {#workfront-default-email-address-change}
 
-Het standaard e-mailadres voor uitgaande Workfront is gewijzigd van [noreply@attask.com](mailto:noreply@attask.com) tot [noreply@my.workfront.com](mailto:noreply@workfront.com).
+Het standaard e-mailadres voor uitgaande post van Workfront is veranderd van [ noreply@attask.com ](mailto:noreply@attask.com) in [ noreply@my.workfront.com ](mailto:noreply@workfront.com).
 
 Als u momenteel e-mailberichten filtert die vanuit Workfront worden verzonden, moet u het filter aanpassen aan het nieuwe standaardadres. 
 
@@ -154,15 +154,15 @@ Zie voor meer informatie.
 
 ## Melding in app voor geabonneerde objecten {#in-app-notification-for-subscribed-objects}
 
-Wanneer een gebruiker een opmerking maakt over projecten, taken en problemen waarvoor u een abonnement hebt, ontvangt u nu een melding in de app. Ga voor meer informatie over meldingen voor abonnementen in apps naar [Meldingen in apps weergeven en beheren](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Wanneer een gebruiker een opmerking maakt over projecten, taken en problemen waarvoor u een abonnement hebt, ontvangt u nu een melding in de app. Meer over abonnement in-app berichten leren, zie [ Mening en beheer in-app berichten ](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-Afhankelijk van de functies die uw Workfront-beheerder heeft ingeschakeld, kunt u ook e-mailmeldingen ontvangen voor geabonneerde items. Je kunt je abonnement op een object eenvoudig opzeggen via een link op een e-mailbericht met abonnement, zoals beschreven in [Adobe Workfront-berichten](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Afhankelijk van de functies die uw Workfront-beheerder heeft ingeschakeld, kunt u ook e-mailmeldingen ontvangen voor geabonneerde items. U kunt van een punt door een verbinding op een abonnements-e-mail gemakkelijk afmelden, zoals beschreven in [ Adobe Workfront-meldingen ](../../../../workfront-basics/using-notifications/wf-notifications.md) .
 
 Vóór deze wijziging hebt u altijd een e-mailbericht voor geabonneerde items ontvangen. Er was geen optie om een melding in de app te ontvangen.
 
-U kunt het e-mailbericht met een abonnement uitschakelen, maar u kunt meldingen in de app voor geabonneerde items niet uitschakelen. Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+U kunt het e-mailbericht met een abonnement uitschakelen, maar u kunt meldingen in de app voor geabonneerde items niet uitschakelen. Voor meer informatie zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
-Zie voor meer informatie over abonnementen op objecten [Abonneren op objecten in Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Meer leren over het intekenen op punten, zie [ aan punten in Adobe Workfront ](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) intekenen.
 
 ## @Tagging is momenteel niet beschikbaar in de voorvertoningsomgeving {#tagging-currently-not-available-in-the-preview-environment}
 
@@ -173,16 +173,16 @@ Wanneer we werken om de updatestream Rich Text Format-functionaliteit te geven, 
 * Probleem
 * Tijdschema
 
-U kunt nog steeds tags toewijzen aan anderen door op de knop **Overige opnemen in deze update** pictogram.
+U kunt anderen nog etiketteren door **te klikken omvat anderen op dit pictogram van de Update**.
 
-Zie voor meer informatie [Andere tags toepassen op updates](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Voor meer informatie, zie [ Tags anderen op updates ](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Gegevens over gebruikerstoewijzing opnemen in het gebruiksrapport van een project {#include-user-allocation-information-in-the-utilization-report-on-a-project}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 In het gebruiksverslag voor een project wordt nu rekening gehouden met de vraag of de geplande uren tijdens de duur van een taak opnieuw zijn toegewezen. Wanneer de gebruikerstoewijzing voor uren is gewijzigd (zoals beschreven in &quot;Gebruikerstoewijzingen beheren in de planningsgebieden&quot;), kunnen de gegevens in het gebruiksrapport worden beïnvloed als de data die zijn geselecteerd in het gebruiksrapport slechts een deel van een taak bevatten.
 
-Zie voor meer informatie [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).

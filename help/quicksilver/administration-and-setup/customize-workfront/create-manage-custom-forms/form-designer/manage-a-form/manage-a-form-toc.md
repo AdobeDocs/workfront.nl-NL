@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: U kunt bestaande aangepaste formulieren beheren met Form Designer.
+description: U kunt bestaande aangepaste formulieren beheren met het formulier Designer.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

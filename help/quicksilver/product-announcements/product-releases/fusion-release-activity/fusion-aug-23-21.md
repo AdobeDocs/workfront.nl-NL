@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 23 augustus 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Typeahead-velden zijn nu beschikbaar in Workfront-modules
 
@@ -28,7 +28,7 @@ Om modules gemakkelijker te gebruiken te maken, verving sommige dropdown lijsten
 
 Eerder selecteerden gebruikers items in vervolgkeuzelijsten. Afhankelijk van het object kunnen deze lijsten lang zijn en kan het lastig zijn om door items te bladeren en items te zoeken.
 
-Voor meer informatie over Workfront modules raadpleegt u [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie over de modules van Workfront, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Opnameobject voor facturering is nu beschikbaar in Workfront-modules
 
@@ -43,7 +43,7 @@ Het object Factureringsrecord is beschikbaar in keuzelijsten met vervolgkeuzelij
 
 Eerder was het recordobject voor facturering alleen beschikbaar via toewijzing.
 
-Zie voor meer informatie [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

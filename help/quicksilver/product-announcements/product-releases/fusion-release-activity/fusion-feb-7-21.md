@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 7 februari 2022 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Anaplan connector en modules nu beschikbaar
 
@@ -29,7 +29,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Anaplan
 * Anaplan-records maken, lezen, bijwerken, verwijderen of zoeken
 * Batchimportrecords naar Anaplan
 
-Zie voor meer informatie [Anaplan Modules](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+Voor meer informatie, zie [ Modules Anaplan ](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -50,4 +50,4 @@ Om het proces voor het maken van scenario&#39;s vloeiender te maken, hebben we d
 
 Eerder kon u apps selecteren op de pagina voor de selectie van de app en in de lijst.
 
-Ga voor meer informatie over het selecteren van apps voor uw scenario naar [Een scenario maken in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Voor meer informatie bij het selecteren van apps voor uw scenario, zie [ een scenario in de Fusie van Adobe Workfront ](../../../workfront-fusion/scenarios/create-a-scenario.md) creëren.

@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# De [!UICONTROL Work in Progress] (WIP)-limiet aan boord
+# De limiet van [!UICONTROL Work in Progress] (WIP) op een board beheren
 
-U kunt een [!UICONTROL Work In Progress] (WIP) limiet voor elke kolom aan boord.
+U kunt een [!UICONTROL Work In Progress] (WIP) grens voor elke kolom op een raad vormen.
 
-De grens van het KLOOFJE is eenvoudig een visuele waarschuwing en beperkt u niet om meer punten in elke kolom te hebben dan de grens u plaatst.
+De grens van het KLOOFJE is eenvoudig een visuele waarschuwing en beperkt u niet van het hebben van meer punten in elke kolom dan de grens u plaatst.
 
 ## Toegangsvereisten
 
@@ -41,24 +41,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## De WIP-limiet voor een kolom instellen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Zoek de kolom waaraan u de WIP-limiet wilt toevoegen.
 
-   Als u een nieuwe kolom wilt toevoegen, raadpleegt u [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Om een nieuwe kolom toe te voegen, zie [ boardkolommen beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-1. Klik op de knop **[!UICONTROL More]** in de kolom en selecteer **[!UICONTROL Edit]** om het gebied Instellingen te openen.
-1. Onder [!UICONTROL Column Policies]de **[!UICONTROL Work in progress]limiet** beleid om het aantal kaarten te beperken dat aan de kolom kan worden toegevoegd.
-1. Typ het limietnummer in het dialoogvenster **[!UICONTROL Set limit]** veld.
+1. Klik op het menu **[!UICONTROL More]** in de kolom en selecteer **[!UICONTROL Edit]** om het gebied Instellingen te openen.
+1. Schakel onder [!UICONTROL Column Policies] het beleid **[!UICONTROL Work in progress]limit** in om het aantal kaarten te beperken dat aan de kolom kan worden toegevoegd.
+1. Typ het limietnummer in het veld **[!UICONTROL Set limit]** .
 
-   ![WIP-limiet voor kolom](assets/boards-wip-limit-in-column.png)
+   ![ grens van het WIP voor kolom ](assets/boards-wip-limit-in-column.png)
 
    Het aantal kaarten en de limietweergave boven aan de kolom. Als de kolom meer kaarten dan de grens bevat, wordt de teller rood.
 
-   ![WIP-limietteller](assets/boards-wip-limit-counter.png)
+   ![ de grensteller van WIP ](assets/boards-wip-limit-counter.png)
 
-1. Klikken **[!UICONTROL Close]** om de [!UICONTROL Settings] en bekijk de kolom en de bijbehorende kaarten.
+1. Klik op **[!UICONTROL Close]** om het [!UICONTROL Settings] -gebied te sluiten en de kolom en de bijbehorende kaarten weer te geven.

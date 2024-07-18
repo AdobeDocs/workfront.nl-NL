@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Workfront- en Experience Manager Assets-integratie
 
-* [Workfront for Experience Manager Enhanced Connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+* [ Workfront voor Experience Manager verbeterde schakelaar ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
 * [Adobe Workfront for Experience Manager Assets en Asset Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
 * [Migreren vanaf verouderde of verbeterde connectors](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)

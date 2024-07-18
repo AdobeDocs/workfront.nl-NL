@@ -45,12 +45,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor het project en de bovenliggende taak met de mogelijkheid om taken toe te voegen of hoger</p> <p>Nadat u de taak hebt gemaakt, ontvangt u automatisch beheermachtigingen voor de taak.</p>  </td> 
+   <td> <p>Contribute-machtigingen voor het project en de bovenliggende taak met de mogelijkheid om taken of hoger toe te voegen</p> <p>Nadat u de taak hebt gemaakt, ontvangt u automatisch beheermachtigingen voor de taak.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,16 +61,16 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 ### Subtaken maken vanuit de takenlijst {#create-subtasks-from-the-task-list}
 
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
-1. Klik op de knop **Taken** in het linkerdeelvenster.
+1. Klik de **sectie van Taken** in het linkerpaneel.
 1. (Voorwaardelijk) als de taak die u wilt maken de kindtaak niet direct onder de taak wordt gevestigd die u de ouder wilt maken, sleep het aan de aangewezen plaats in de takenlijst.
 1. Selecteer de taak die u een subtaak wilt maken en voer een van de volgende handelingen uit:
 
-   * Klik op de knop **Inspringen** pictogram ![](assets/indent-icon-nwe-33x29.png) om van de geselecteerde taak een subtaak aan de taak direct erboven te maken.
+   * Klik **Inspringen** pictogram ![](assets/indent-icon-nwe-33x29.png) om van de geselecteerde taak een subtaak aan de taak direct boven het te maken.
    * Als u een standaard Engels QWERTY-toetsenbord gebruikt, drukt u op Option + > (Mac) of Alt + > (Windows) op het toetsenbord. Andere talen kunnen de opdrachten Option + , (Mac) of Alt + , (Windows) gebruiken om te laten inspringen.
 
      >[!TIP]
      >
-     >De sneltoetsen werken niet wanneer u taken bewerkt in inline bewerken. Gebruik in dit geval het pictogram Inspringen ![](assets/cs1.png) om subtaken te maken.
+     >De sneltoetsen werken niet wanneer u taken bewerkt in inline bewerken. In dit geval gebruikt u het pictogram Inspringen ![](assets/cs1.png) om subtaken te maken.
 
    * Sleep de taak over de taak die u als bovenliggende taak wilt aanwijzen.
 
@@ -81,21 +81,21 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 ### Subtaken maken vanuit de sectie Subtaken voor taken {#create-subtasks-from-the-task-subtasks-section}
 
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
-1. Klik op de knop **Taken** in het linkerdeelvenster.
+1. Klik de **sectie van Taken** in het linkerpaneel.
 1. Klik op de naam van de taak waar u een subtaak wilt maken.
-1. Klik op de knop **Subtaken** in het linkerdeelvenster.
-1. Klikken **Nieuwe taak.**
+1. Klik de **subtasks** sectie in het linkerpaneel.
+1. Klik **Nieuwe Taak.**
 
-   Voer de stappen in het volgende artikel uit om door te gaan met het maken van de subtaak: [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Volg de stappen in het volgende artikel blijven creërend subtask: [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Klikken **Taak opslaan.**
+1. Klik **sparen Taak.**
 
 ## Een subtaak als hoofdtaak instellen
 
 1. Ga naar het project waar u een subtaak een belangrijkste taak wilt maken.
-1. Klik op de knop **Taken** in het linkerdeelvenster.
+1. Klik de **sectie van Taken** in het linkerpaneel.
 1. Selecteer de subtaak die u als hoofdtaak wilt uitvoeren.
-1. Klik op de knop **Uitspringen** pictogram ![](assets/outdent-icon-nwe-31x29.png) om van subtask een belangrijkste taak te maken.
+1. Klik het **Uitspringen** pictogram ![](assets/outdent-icon-nwe-31x29.png) om subtask een hoofdtaak te maken.
 
    of
 

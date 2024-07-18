@@ -22,21 +22,21 @@ Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Plannin
 
 * Tabel
 
-  Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 * Tijdlijn
 
-  Zie voor meer informatie [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+  Voor meer informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 * Kalender
 
-  Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+  Voor meer informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
-* [Een weergave maken en bewerken](#create-or-edit-record-views)
+* [ creeer en geef een mening ](#create-or-edit-record-views) uit
 * [Een weergave verwijderen](#delete-views)
-* [Een weergave dupliceren](#duplicate-views)
+* [ dupliceer een mening ](#duplicate-views)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -94,13 +94,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Overwegingen bij het werken met recordweergaven
@@ -109,7 +109,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 * Weergaven die u maakt, zijn alleen zichtbaar voor u en gebruikers met wie u de weergaven deelt.
 * Wanneer u een weergave wijzigt of verwijdert, wordt deze gewijzigd en verwijderd voor alle gebruikers die machtigingen hebben voor de weergave.
 * Elke gebruiker kan maximaal 100 weergaven maken. U kunt meer dan 100 weergaven weergeven voor een recordtype, maar één gebruiker kan slechts 100 weergaven maken.
-* U kunt weergaven die u maakt met anderen delen. Zie voor meer informatie [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+* U kunt weergaven die u maakt met anderen delen. Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 * De volgende elementen zijn uniek voor elke recordweergave:
 
    * Filter
@@ -168,7 +168,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Klikken **+ Weergave** om een nieuwe weergave toe te voegen.
+1. Klik op **+ Weergave** om een nieuwe weergave toe te voegen.
 1. Selecteer een van de volgende typen weergaven:
 
    * Tabel
@@ -177,7 +177,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Er wordt een nieuw tabblad gemaakt met de geselecteerde weergave.
 
-   Afhankelijk van de breedte van het scherm kunnen aanvullende weergaven worden weergegeven in het dialoogvenster **Meer** menu ![](assets/more-menu.png).
+   Afhankelijk van de breedte van uw scherm, zouden de extra meningen in **Meer** menu ![](assets/more-menu.png) kunnen tonen.
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Voorwaardelijk) Klik **Volgende**, wanneer u een tijdlijn- of kalenderweergave maakt.
+1. (Voorwaardelijk) klik **daarna**, wanneer het creëren van een chronologie of een kalendermening.
 
    Standaard geeft Workfront de weergave een van de volgende namen:
 
@@ -201,19 +201,19 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Het getal is een automatisch gegenereerde toename.
 
-1. (Voorwaardelijk) Selecteer **Start** en **Einddata** voor de records die worden weergegeven in de tijdlijn of de kalenderweergave.
+1. (Voorwaardelijk) selecteer het **Begin** en **Eind data** voor de verslagen die in de chronologie of kalendermening zullen tonen.
 
    >[!TIP]
    >
-   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren. U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden als Begin en Eind data voor de chronologie en kalendermeningen selecteert. Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    U kunt uit de gebieden van de verslagdatum, of raadplegingsdatumgebieden van verbonden verslag of objecten types selecteren. U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden als Begin en Eind data voor de chronologie en kalendermeningen selecteert. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    De weergave wordt weergegeven als een nieuw tabblad. De weergaven worden in chronologische volgorde weergegeven vanaf het moment waarop ze zijn gemaakt of met u zijn gedeeld.
-1. (Optioneel) Klik op de knop **Meer** menu ![](assets/more-caret-down-icon-views.png) naast de laatste weergave om alle weergaven voor het geselecteerde recordtype weer te geven.
+1. (Facultatief) klik **Meer** menu ![](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
 
-   Aanvullende weergaven worden weergegeven onder de **Meer** na het laatste weergavetabblad. Het getal naast de **Meer** wordt het aantal extra weergaven weergegeven.
-1. (Optioneel) Als u de naam van een weergave wilt wijzigen nadat deze is gemaakt, klikt u op de vervolgkeuzelijst Weergave en vervolgens op de knop **Meer** menu ![](assets/more-menu.png) > **Naam wijzigen** de weergavenaam bijwerken
+   De extra meningsvertoning onder **Meer** menu na het laatste meningslusje. Het aantal naast **meer** menu toont het aantal extra meningen.
+1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
 
    of
 
@@ -240,10 +240,10 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Houd de muis boven een van de namen van de weergave op het tabblad Weergave en klik vervolgens op **Meer** ![](assets/more-menu.png) links van de weergavenaam klikt u op **Verwijderen**.
-Eerst moet u mogelijk op **Meer** links van de laatste tab om de weergave te zoeken die u wilt verwijderen.
+1. Beweeg over één van de namen van de mening in het meningslusje, dan klik **Meer** ![](assets/more-menu.png) aan de linkerzijde van de meningsnaam, dan klik **Schrapping**.
+Eerst, zou u **Meer** aan de linkerzijde van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
 
-1. Klikken **Verwijderen** ter bevestiging. <!--ensure there is not another saving step here?!-->
+1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
 
    De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het recordgebied en kan niet worden hersteld.
 
@@ -270,10 +270,10 @@ De machtigingen voor delen van de oorspronkelijke weergave worden niet overgedra
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Houd de muisaanwijzer boven het tabblad van de weergave die u wilt dupliceren en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Dupliceren**.
+1. Beweeg over het lusje van de mening u, **Meer** menu ![](assets/more-menu.png) aan het recht van de meningsnaam wilt dupliceren en klikken, dan **Dupliceert**.
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)`. Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
+   De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
 

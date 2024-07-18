@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Verbinden [!DNL Adobe Workfront Fusion] naar een webservice die API-tokenautorisatie gebruikt
-description: Sommige diensten staan integratieoplossingen zoals niet toe [!DNL Adobe Workfront Fusion] om een app te maken die u gemakkelijk kunt gebruiken in uw scenario.
+title: Verbind  [!DNL Adobe Workfront Fusion]  met de Webdienst die de tokenvergunning van API gebruikt
+description: Sommige diensten staan integratieoplossingen zoals  [!DNL Adobe Workfront Fusion]  niet toe om een app tot stand te brengen die u in uw scenario kunt gemakkelijk gebruiken.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
 source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Verbinden [!DNL Adobe Workfront Fusion] naar een webservice die API-tokenautorisatie gebruikt
+# Verbind [!DNL Adobe Workfront Fusion] met een Webdienst die API tokenvergunning gebruikt
 
-Sommige diensten staan integratieoplossingen zoals niet toe [!DNL Adobe Workfront Fusion] om een app te maken die u gemakkelijk kunt gebruiken in uw scenario.
+Bij sommige services is het niet mogelijk om met integratieoplossingen zoals [!DNL Adobe Workfront Fusion] een app te maken die u eenvoudig kunt gebruiken in uw scenario.
 
-Er is een oplossing voor deze situatie. U kunt verbinding maken met de gewenste service (app) [!DNL Workfront Fusion] gebruiken [!DNL Workfront Fusion]s [!UICONTROL HTTP] module.
+Er is een oplossing voor deze situatie. U kunt de gewenste service (app) verbinden met [!DNL Workfront Fusion] via de module [!DNL Workfront Fusion] s [!UICONTROL HTTP] .
 
-In dit artikel wordt uitgelegd hoe u bijna elke webservice kunt verbinden met [!DNL Workfront Fusion] API-sleutel/API-token gebruiken.
+In dit artikel wordt uitgelegd hoe u bijna elke webservice kunt verbinden met [!DNL Workfront Fusion] via een API-token voor sleutel en API.
 
 ## Toegangsvereisten
 
@@ -41,38 +41,38 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Of</p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Verbinding maken met een webservice die een API-token gebruikt
 
 De procedure voor het verbinden van de service via een API-token is vergelijkbaar voor de meeste webservices.
 
-1. Een toepassing maken op de website van de webservice, zoals wordt uitgelegd in de sectie [Een nieuwe toepassing maken en het API-token ophalen](#create-a-new-application-and-obtain-the-api-token) in dit artikel.
+1. Creeer een toepassing op de website van de Webdienst, zoals verklaard in de sectie [ creeer een nieuwe toepassing en verkrijg het API teken ](#create-a-new-application-and-obtain-the-api-token) in dit artikel.
 1. Haal de API-sleutel of API-token op.
-1. Toevoegen [!DNL Workfront Fusion]s [!UICONTROL HTTP] > [!UICONTROL Make a Request] aan uw scenario.
-1. Stel de module in volgens de API-documentatie van de webservice en voer het scenario uit, zoals uitgelegd in de sectie [Stel de [!UICONTROL HTTP] module](#set-up-the-http-module) in dit artikel.
+1. Voeg de module [!UICONTROL HTTP] > [!UICONTROL Make a Request] van [!DNL Workfront Fusion] aan uw scenario toe.
+1. Opstelling de module volgens de API van de Webdienst documentatie en het runnen van het scenario, zoals die in de sectie [ wordt verklaard Opstelling de [!UICONTROL HTTP] module ](#set-up-the-http-module) in dit artikel.
 
 >[!NOTE]
 >
->We gebruiken de [!DNL Pushover] meldingsservice als voorbeeld in dit artikel.
+>De [!DNL Pushover] -meldingsservice wordt in dit artikel als voorbeeld gebruikt.
 
 ## Een nieuwe toepassing maken en het API-token ophalen
 
@@ -82,21 +82,21 @@ De procedure voor het verbinden van de service via een API-token is vergelijkbaa
 >
 >We nemen alleen instructies voor het verkrijgen van een Pushover API-sleutel op als voorbeeld van wat u zou kunnen vinden.
 
-1. Meld u aan bij uw [!DNL Pushover] account.
-1. Klikken **[!UICONTROL Create an Application/API Token]** onder aan de pagina.
-1. Vul de toepassingsgegevens in en klik op **[!UICONTROL Create an Application]**.
-1. Sla de opgegeven API-token op een veilige plaats op. U hebt het nodig voor de [!DNL Workfront Fusion] [!UICONTROL HTTP] >[!UICONTROL Make a Request] om verbinding te maken met de gewenste webservice ([!DNL Pushover], in dit geval).
+1. Meld u aan bij uw [!DNL Pushover] -account.
+1. Klik op **[!UICONTROL Create an Application/API Token]** onder aan de pagina.
+1. Vul de toepassingsgegevens in en klik op **[!UICONTROL Create an Application]** .
+1. Sla het verschafte API-token op een veilige plaats op. U zult het voor de [!DNL Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make a Request] module nodig hebben om met de gewenste Webdienst ([!DNL Pushover], in dit geval) te verbinden.
 
-## Stel de [!UICONTROL HTTP] module
+## De module [!UICONTROL HTTP] instellen
 
-Een webservice verbinden met uw [!DNL Workfront Fusion] scenario, moet u gebruiken [!UICONTROL HTTP] >[!UICONTROL Make a request] in het scenario en stel de module in volgens de API-documentatie van de webservice.
+Om een Webdienst met uw [!DNL Workfront Fusion] scenario te verbinden, moet u de [!UICONTROL HTTP] > [!UICONTROL Make a request] module in het scenario gebruiken en opstelling de module volgens de API van de Webdienst documentatie.
 
-1. Voeg de [!UICONTROL HTTP] >[!UICONTROL Make a Request] aan uw scenario.
-1. Als u een bericht wilt duwen met [!DNL Workfront Fusion]stelt u de HTTP-module als volgt in.
+1. Voeg de module [!UICONTROL HTTP] > [!UICONTROL Make a Request] aan uw scenario toe.
+1. Als u een bericht wilt verzenden met [!DNL Workfront Fusion] , stelt u de HTTP-module als volgt in.
 
    >[!NOTE]
    >
-   >Deze modulemontages beantwoorden aan [!DNL Pushover] API-documentatie voor webservices. De instellingen voor andere webservices kunnen afwijken. Het API-token kan bijvoorbeeld worden ingevoegd in de [!UICONTROL Header] en niet aan de [!UICONTROL Body] veld.
+   >Deze moduleinstellingen komen overeen met de documentatie van de [!DNL Pushover] webservice-API. De instellingen voor andere webservices kunnen afwijken. Het API-token kan bijvoorbeeld worden ingevoegd in het veld [!UICONTROL Header] en niet in het veld [!UICONTROL Body] .
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,19 +116,19 @@ Een webservice verbinden met uw [!DNL Workfront Fusion] scenario, moet u gebruik
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Query String]</p> </td> 
-      <td> <p>Sommige webservices kunnen een queryreeks gebruiken om andere parameters op te geven. Dit is in ons voorbeeld niet het geval [!DNL Pushover] webservicegebruik [!UICONTROL Body] (zie hieronder) voor alle aanvraagtypen.</p> </td> 
+      <td> <p>Sommige webservices kunnen een queryreeks gebruiken om andere parameters op te geven. Dit is niet het geval in ons voorbeeld, aangezien de [!DNL Pushover] webservice [!UICONTROL Body] gebruikt (zie hieronder) voor alle aanvraagtypen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Body Type]</p> </td> 
-      <td> <p><code>Raw</code> </p> <p>Met deze instelling kunt u het JSON-inhoudstype selecteren in het dialoogvenster [!UICONTROL Content Type] veld hieronder.</p> </td> 
+      <td> <p><code>Raw</code> </p> <p>Met deze instelling kunt u het JSON-inhoudstype selecteren in het onderstaande veld [!UICONTROL Content Type] .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
-      <td> <p><code>JSON (application/json)</code> </p> <p>JSON is het vereiste inhoudstype voor de [!UICONTROL Pushover] app. Dit kan verschillen van andere webservices.</p> </td> 
+      <td> <p><code>JSON (application/json)</code> </p> <p>JSON is het vereiste inhoudstype voor de app [!UICONTROL Pushover] . Dit kan verschillen van andere webservices.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Request Content]</p> </td> 
-      <td> <p>Voer de [!UICONTROL Body] inhoud aanvragen in de JSON-indeling. U kunt de [!UICONTROL JSON] &gt; [!UICONTROL Create JSON] module zoals beschreven in <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref">JSON-body toegewezen met de opdracht [!UICONTROL JSON] &gt; [!UICONTROL Create JSON] module</a> in dit artikel. U kunt de JSON-inhoud ook handmatig invoeren, zoals wordt uitgelegd in <a href="#json-body-entered-manually" class="MCXref xref">JSON Body handmatig ingevoerd</a> in dit artikel.</p> <p>Zie de API-documentatie van de webservice voor de vereiste parameters voor die webservice.</p> </td> 
+      <td> <p>Voer de [!UICONTROL Body] -aanvraaginhoud in de JSON-indeling in. U kunt [!UICONTROL JSON] gebruiken &gt; [!UICONTROL Create JSON] module zoals die in <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref"> wordt verklaard het Lichaam van JSON die [!UICONTROL JSON] &gt; [!UICONTROL Create JSON] module </a> in dit artikel in kaart wordt gebracht. Of u kunt de inhoud JSON manueel ingaan, zoals die in <a href="#json-body-entered-manually" class="MCXref xref"> wordt verklaard JSON Body manueel </a> in dit artikel werd ingegaan.</p> <p>Zie de API-documentatie van de webservice voor de vereiste parameters voor die webservice.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -154,11 +154,11 @@ Geef parameters en waarden op in de JSON-indeling.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL user]</p> </td> 
-   <td> <p>UW USER_KEY. Dit is te vinden in uw [!DNL Pushover] dashboard.</p> </td> 
+   <td> <p>UW USER_KEY. Dit vindt u op het dashboard van [!DNL Pushover] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL token] </td> 
-   <td> <p>Uw API-token/API-sleutel die u hebt gegenereerd, heeft uw [!DNL Pushover] app.</p> </td> 
+   <td> <p>Uw API-token/API-sleutel die is gegenereerd, hebt u uw [!DNL Pushover] -app gemaakt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL message] </td> 
@@ -171,17 +171,17 @@ Geef parameters en waarden op in de JSON-indeling.
  </tbody> 
 </table>
 
-## JSON-body toegewezen met de opdracht [!UICONTROL JSON] >[!UICONTROL Create JSON] module
+## Hoofdtekst van JSON toegewezen via de module [!UICONTROL JSON] > [!UICONTROL Create JSON]
 
-De [!UICONTROL Create JSON] maakt het opgeven van JSON eenvoudiger. U kunt hiermee ook dynamisch waarden definiëren.
+De module [!UICONTROL Create JSON] maakt het opgeven van JSON eenvoudiger. U kunt hiermee ook dynamisch waarden definiëren.
 
-Voor meer informatie over de JSON-modules raadpleegt u [JSON-modules](../../workfront-fusion/apps-and-their-modules/json-modules.md).
+Voor meer informatie over de modules JSON, zie [ modules JSON ](../../workfront-fusion/apps-and-their-modules/json-modules.md).
 
 1. Voer de waarden in waarvan u JSON wilt maken of wijs deze toe.
 
    ![](assets/json-values-350x288.png)
 
-1. Verbind de [!UICONTROL JSON] > [!UICONTROL Create JSON] naar HTTP > Een aanvraagmodule maken.
-1. Wijs de JSON-tekenreeks toe vanuit de [!UICONTROL Create JSON] aan de [!UICONTROL Request content] in het [!UICONTROL HTTP] >[!UICONTROL Make a Request] module.
+1. Sluit de module [!UICONTROL JSON] > [!UICONTROL Create JSON] aan op HTTP > Een aanvraag maken.
+1. Wijs de JSON-tekenreeks van de module [!UICONTROL Create JSON] toe aan het veld [!UICONTROL Request content] in de module [!UICONTROL HTTP] > [!UICONTROL Make a Request] .
 
-   Wanneer u het scenario uitvoert, wordt het pushbericht verzonden naar het apparaat dat is geregistreerd in uw [!DNL Pushover] account.
+   Wanneer u het scenario nu uitvoert, wordt het pushbericht verzonden naar het apparaat dat is geregistreerd in uw [!DNL Pushover] -account.

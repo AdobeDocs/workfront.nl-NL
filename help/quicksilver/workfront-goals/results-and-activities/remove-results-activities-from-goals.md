@@ -23,14 +23,14 @@ U kunt resultaten, activiteiten, en projecten uit doelstellingen verwijderen als
 
 Raadpleeg de volgende artikelen voor informatie over het maken van doelen en het toevoegen van resultaten en activiteiten aan deze doelen:
 
-* [Doelen maken voor Adobe Workfront-doelen](../../workfront-goals/goal-management/create-goals.md)
-* [Activiteiten toevoegen aan doelen in Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Resultaten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [ creeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md)
+* [ voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [ voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Resultaten en activiteiten bewerken in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 De doelstellingen kunnen ook aan ouderdoelstellingen worden gericht, die kinddoelstellingen worden. Kinderdoelen zijn ook voortgangsindicatoren van de bovenliggende doelen.
 
-U kunt de groepering tussen doelstellingen verwijderen door de verbinding tussen hen te verwijderen. Zie voor meer informatie [Doeluitlijning van Adobe Workfront-doelen verwijderen](../goal-alignment/remove-goal-alignment.md).
+U kunt de groepering tussen doelstellingen verwijderen door de verbinding tussen hen te verwijderen. Voor informatie, zie [ doelgroepering in de Doelen van Adobe Workfront verwijderen ](../goal-alignment/remove-goal-alignment.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ U moet het volgende hebben:
  <td>
  <p>Nieuwe licentie: Medewerker of hoger</p>
  of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Zie voor meer informatie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>.</p> </td>
+ <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -69,7 +69,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -81,7 +81,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
@@ -92,7 +92,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -105,7 +105,7 @@ U moet een doel hebben verbonden aan resultaten, activiteiten, of projecten.
 * Wanneer u het resultaat of de activiteit uit een doel verwijdert, beïnvloedt de vooruitgang van het verwijderde resultaat of de activiteit de algemene vooruitgang van het doel.
 * U kunt geen project van een doel schrappen, maar u kunt het van het doel losmaken. Door het project van het doel los te maken beïnvloedt het percentage voltooide van het project niet meer de vooruitgang van het doel.
 
-  Voor informatie over hoe de projecten doelvooruitgang beïnvloeden, zie [Projecten toevoegen aan doelen in Adobe Workfront-doelen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Voor informatie over hoe de projecten doelvooruitgang beïnvloeden, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
 * U kunt geen resultaat of een activiteit uit een doel verwijderen, en u kunt geen kinddoel of een project losmaken, als zij de laatste vooruitgangsindicator voor het doel zijn.
 * Als een project van het gebied van Projecten wordt geschrapt en het de laatste vooruitgangsindicator van een doel is, wordt het doel Inactief.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek klikt u op **Doelen**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **Doelen**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    Hierdoor wordt de doelpagina geopend.
 
-1. Klikken **Voortgangsindicatoren** in het linkerdeelvenster.
+1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 
-1. Selecteer een resultaat of activiteit en klik op de knop **Verwijderen** pictogram ![](assets/delete-icon.png) boven aan de lijst.
+1. Selecteer een resultaat of een activiteit, dan klik **Schrapping** pictogram ![](assets/delete-icon.png) bij de bovenkant van de lijst.
 
-1. Klikken **Verwijderen** om de schrapping te bevestigen. Het resultaat of de activiteit wordt verwijderd en kan niet worden hersteld. Het percentage voltooide van het doel werkt bij om de verwijderde activiteit of het resultaat uit te sluiten.
+1. Klik **Schrapping** om de schrapping te bevestigen. Het resultaat of de activiteit wordt verwijderd en kan niet worden hersteld. Het percentage voltooide van het doel werkt bij om de verwijderde activiteit of het resultaat uit te sluiten.
 
 
 ## Projecten van doelstellingen verwijderen
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Klik op de knop **Hoofdmenu** in de rechterbovenhoek, en klik vervolgens op **Doelen**.
+1. Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek, dan klik **Doelen**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. Klik op de naam van een doel waaruit u resultaten en activiteiten wilt verwijderen.
 
    Hierdoor wordt de doelpagina geopend.
-1. Klikken **Voortgangsindicatoren** in het linkerdeelvenster.
-1. Selecteer een project en klik op de knop **Verbinding verbreken** pictogram ![](assets/disconnect-icon.png) boven aan de lijst.
-1. Klikken **Verbinding verbreken** ter bevestiging.
+1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
+1. Selecteer een project, dan klik **losmaken** pictogram ![](assets/disconnect-icon.png) bij de bovenkant van de lijst.
+1. Klik **losmaken** om te bevestigen.
 
    Het project is niet meer verbonden met het doel. Het percentage voltooide van het doel werkt bij om het losgemaakte project uit te sluiten.
 

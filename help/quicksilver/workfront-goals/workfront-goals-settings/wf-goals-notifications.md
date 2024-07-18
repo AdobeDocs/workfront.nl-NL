@@ -18,9 +18,9 @@ ht-degree: 0%
 
 De Doelen van Adobe Workfront komt met een reeks gebeurtenisberichten die u voor uw rekening kunt toelaten. Deze gebeurtenismeldingen activeren e-mailcommunicatie telkens wanneer aan de door de gebeurtenis gedefinieerde voorwaarde wordt voldaan.
 
-Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [Meldingen: Doelstellingen](../../workfront-basics/using-notifications/notifications-goals.md).
+Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [ Meldingen: Doelen ](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Voor informatie over het beheren van berichten in Adobe Workfront raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het beheren van berichten in Adobe Workfront, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

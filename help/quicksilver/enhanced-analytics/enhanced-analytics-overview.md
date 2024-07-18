@@ -29,7 +29,7 @@ Uitgebreide analyses kunnen u helpen identificeren:
 
 ![](assets/nwe-full-screen-analytics-350x222.png)
 
-Raadpleeg voor meer informatie over het gebruik of over het beheer van het huidige werk en de planning voor toekomstig werk met uitgebreide analysemogelijkheden de [Verbeterde analytische leerpaden](https://one.workfront.com/s/enhanced-analytics-program).
+Om gebruiksgevallen te zien of meer te leren over het beheren van huidig werk en het plannen voor toekomstig werk met Verbeterde analyses, zie [ Verbeterde analytische het Leren Wegen ](https://one.workfront.com/s/enhanced-analytics-program).
 
 ## Vereisten
 
@@ -37,21 +37,21 @@ Voor toegang tot het gebied Verbeterde analysemogelijkheden moet u:
 
 * Een bedrijfs- of ondernemingsplan hebben.
 
-  Zie voor meer informatie [Workfront-plannen](https://www.workfront.com/plans).
+  Voor meer informatie, zie [ plannen van Workfront ](https://www.workfront.com/plans).
 
 * Uw Workfront-beheerder uitgebreide analyses laten toevoegen aan uw lay-outsjabloon.
 
-  Zie voor meer informatie [Verbeterde analyse: analyses toevoegen aan lay-outsjablonen](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Voor meer informatie, zie [ Verbeterde Analytics: Het toevoegen van analyses aan lay-outmalplaatjes ](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
 
 Om informatie voor projecten en taken te zien, moet u:
 
 * Heb de toestemming van de Mening aan de Projecten en gebieden van Taken in uw toegangsniveau.
 
-  Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [Aangepaste toegangsniveaus maken of wijzigen](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie [ tot douanetoegangsniveaus ](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 * Heb toestemming van de Mening voor specifieke taken en/of projecten.
 
-  Voor informatie over het aanvragen van aanvullende toegang raadpleegt u [Toegang tot objecten aanvragen](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  Voor informatie bij het verzoeken van extra toegang, zie [ Toegang van het Verzoek tot voorwerpen ](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Aanbevolen werkwijzen voor verbeterde analysemogelijkheden
 
@@ -68,7 +68,7 @@ Om de beste gegevens voor uw projecten te krijgen, gebruik malplaatjes die nauwk
   >[!NOTE]
   >
   >Als uw teams niet geplande uren gebruiken, kunt u sommige gegevens nog zien die op projectduur worden gebaseerd.\
-  >Zie de sectie voor meer informatie [Weergave Duur](#duration-view) in dit artikel.
+  >Voor meer informatie, zie de sectie [ mening van de Duur ](#duration-view) in dit artikel.
 
 * Projectnaam
 
@@ -112,10 +112,10 @@ In de uitgebreide analyse wordt de duur van een project berekend aan de hand van
 
   >[!NOTE]
   >
-  >8 uur is het standaardnummer voor **Normaal aantal uren per werkdag**. Een Adobe Workfront-beheerder kan de **Normaal aantal uren per werkdag** instellen onder **Instellen** > **Projectvoorkeuren** > **Projecten** > **Tijdlijnen**.\
-  >Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >8 uren is het standaardaantal voor **Typische uren per het werkdag**. Een beheerder van Adobe Workfront kan de **Typische uren per het werkdag** bijwerken plaatsend onder **Opstelling** > **Voorkeur van het Project** > **Projecten** > **Tijdlijnen**.\
+  >Meer leren, zie [ systeem-brede projectvoorkeur ](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Voor informatie over Geplande Duur, zie [Overzicht van de duur van het project](../manage-work/projects/planning-a-project/project-duration.md).
+Voor informatie over Geplande Duur, zie [ Overzicht van de Duur van het project ](../manage-work/projects/planning-a-project/project-duration.md).
 
 ## Sneltoetsen
 
@@ -123,10 +123,10 @@ U kunt de volgende toetsen op het toetsenbord gebruiken om door specifieke hande
 
 | Sleutel | Handeling |
 |---|---|
-| **Tab** | Navigeer naar elk element op de pagina en naar een tabel met informatie over elke visualisatie die niet op de pagina wordt weergegeven |
-| **Enter** | Open de kalenderwidget, verwijder een bestaand filter, open toevoegt filteropties, selecteert/deselecteert filterwaarden, past een filter toe dat u hebt gecreeerd, opent de uitvoeropties op elke visualisatie, opent de drop-down menu&#39;s op de Doordrukking, Taken in vlucht, en de visualisaties van de projectopsporing |
-| **Pijltoetsen** | Navigeer naar datums in de kalenderwidget, door filteropties wanneer u een filter toevoegt, en door opties in alle drop-down menu&#39;s op de visualisaties |
-| **Spatiebalk** | Selecteer datums in de kalenderwidget, selecteer een filtertype wanneer u een filter toevoegt, selecteer een exportoptie in het vervolgkeuzemenu voor elke visualisatie en selecteer opties in de vervolgkeuzemenu&#39;s voor de Burndown, Taken tijdens de vlucht en voor de weergave van de projectreemap. |
+| **Lusje** | Navigeer naar elk element op de pagina en naar een tabel met informatie over elke visualisatie die niet op de pagina wordt weergegeven |
+| **ga** binnen | Open de kalenderwidget, verwijder een bestaand filter, open toevoegt filteropties, selecteert/deselecteert filterwaarden, past een filter toe dat u hebt gecreeerd, opent de uitvoeropties op elke visualisatie, opent de drop-down menu&#39;s op de Doordrukking, Taken in vlucht, en de visualisaties van de projectopsporing |
+| **de sleutels van de Pijl** | Navigeer naar datums in de kalenderwidget, door filteropties wanneer u een filter toevoegt, en door opties in alle drop-down menu&#39;s op de visualisaties |
+| **Spatiebar** | Selecteer datums in de kalenderwidget, selecteer een filtertype wanneer u een filter toevoegt, selecteer een exportoptie in het vervolgkeuzemenu voor elke visualisatie en selecteer opties in de vervolgkeuzemenu&#39;s voor de Burndown, Taken tijdens de vlucht en voor de weergave van de projectreemap. |
 
 {style="table-layout:auto"}
 
@@ -147,36 +147,36 @@ Raadpleeg de volgende artikelen voor meer informatie over de details van een spe
  </thead> 
  <tbody> 
   <tr> 
-   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Filters toepassen in uitgebreide analyse</a> </td> 
+   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref"> pas filters in Verbeterde analyses toe </a> </td> 
    <td> <p>U kunt douanefilters, de filters van het projectgebied, of teamfilters toepassen om slechts projecten te bekijken die specifieke criteria passen. Als u filters toevoegt, wordt het aantal projecten dienovereenkomstig bijgewerkt.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Uitgebreide analyse-KPI's begrijpen</a> </td> 
+   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref"> Begrijp Verbeterde analyses KPIs </a> </td> 
    <td> <p>De zeer belangrijke prestatiesindicatoren (KPIs) voor alle projecten binnen een specifiek tijdkader worden gevestigd bij de bovenkant van het scherm.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Bekijk de visualisatie van het vliegplan in de uitgebreide analyse</a> </p> </td> 
-   <td> <p>De <b>Vliegplan</b> visualisatie laat zien dat de conditie is veranderd gedurende de levensduur van een project. Door te communiceren met de visualisatie krijgt u meer informatie over specifieke datums. Als u een project selecteert, worden de functie Burndown en Taken in de vluchtvisualisatie geopend.</p> </td> 
+   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref"> Mening de visualisatie van het Plan van de Vlucht in Verbeterde analyses </a> </p> </td> 
+   <td> <p>Het <b> plan van de Vlucht </b> visualisatie toont u de voorwaarde over het leven van een project is veranderd. Door te communiceren met de visualisatie krijgt u meer informatie over specifieke datums. Als u een project selecteert, worden de functie Burndown en Taken in de vluchtvisualisatie geopend.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Bekijk de Burndown-visualisatie in de uitgebreide analyse</a> </td> 
-   <td> <p>De <b>Burndown</b> de visualisatie toont u de geplande snelheid van een project in vergelijking met de daadwerkelijke hoeveelheid uren besteed aan een project. Het in wisselwerking staan met visualisatie geeft u meer details over de voorwaarde van het project op een specifieke datum.</p> </td> 
+   <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref"> Mening de Burndown visualisatie in Verbeterde analyses </a> </td> 
+   <td> <p>De </b> visualisatie 0} Burndown toont u de geplande snelheid van een project in vergelijking met de daadwerkelijke hoeveelheid uren besteed aan een project. <b> Het in wisselwerking staan met visualisatie geeft u meer details over de voorwaarde van het project op een specifieke datum.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse</a> </td> 
-   <td> <p>De <b>Taken tijdens de vlucht</b> de visualisatie toont u het statuut van elke taak binnen een project. Door te communiceren met de visualisatie kunt u snel en eenvoudig wijzigingen aanbrengen in een taak.</p> </td> 
+   <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref"> Mening de Taken in vluchtvisualisatie in Verbeterde analyses </a> </td> 
+   <td> <p>De <b> Taken in vlucht </b> visualisatie toont u het statuut van elke taak binnen een project. Door te communiceren met de visualisatie kunt u snel en eenvoudig wijzigingen aanbrengen in een taak.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">De visualisatie van projectactiviteit weergeven in Verbeterde analyse</a> </td> 
-   <td> <p>De <b>Projectactiviteit</b> de visualisatie toont u een heatmap van wanneer de gebruikers aan een project dat aan Workfront worden toegewezen, de status van taak in dat project veranderden, en taken in dat project voltooiden. Door te communiceren met de visualisatie kunt u deze details voor elke gebruiker zien. U kunt ook specifieke datums voor deze acties zien, evenals het aantal keren dat elke actie is voltooid.</p> </td> 
+   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref"> Mening de activiteit van het Project visualisatie in Verbeterde analyses </a> </td> 
+   <td> <p>De <b> activiteit van het Project </b> visualisatie toont u een heatmap van wanneer de gebruikers aan een project dat aan Workfront worden toegewezen, het statuut van taak in dat project veranderden, en voltooide taken in dat project. Door te communiceren met de visualisatie kunt u deze details voor elke gebruiker zien. U kunt ook specifieke datums voor deze acties zien, evenals het aantal keren dat elke actie is voltooid.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Bekijk de visie van de projectreemap in Verbeterde analyse</a> </td> 
-   <td> <p>De <b>Projectreemap</b> de visualisatie laat zien hoeveel tijd er is besteed aan bepaalde projecten in vergelijking met andere projecten . In interactie met de visualisatie krijgt u details over de staat van het project, de geplande projectvoltooiing en de daadwerkelijke voltooiing van het project.</p> </td> 
+   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref"> Mening de boomtopvisualisatie van het Project in Verbeterde analyses </a> </td> 
+   <td> <p>De <b> treemap van het Project </b> visualisatie toont u hoeveel tijd aan sommige projecten is besteed in vergelijking met anderen. In interactie met de visualisatie krijgt u details over de staat van het project, de geplande projectvoltooiing en de daadwerkelijke voltooiing van het project.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">De activiteit per teamvisualisatie bekijken in Uitgebreide analyse</a> </td> 
-   <td> <p>De <b>Activiteit per team</b> de visualisatie toont u een heatmap van wanneer de gebruikers op een huisteam in Workfront het programma werden geopend, de status van een taak veranderden, en een taak voltooiden. Door met de visualisatie te communiceren, kunt u deze details voor elke individuele gebruiker zien. U kunt ook specifieke datums voor deze acties zien, evenals het aantal keren dat elke actie is voltooid.</p> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref"> Mening de Activiteit door teamvisualisatie in Verbeterde analyses </a> </td> 
+   <td> <p>De <b> Activiteit door team </b> visualisatie toont u een heatmap van wanneer de gebruikers op een huisteam in Workfront het programma werden geopend, het statuut van een taak veranderde, en een taak voltooiden. Door met de visualisatie te communiceren, kunt u deze details voor elke individuele gebruiker zien. U kunt ook specifieke datums voor deze acties zien, evenals het aantal keren dat elke actie is voltooid.</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront
   <tr> 

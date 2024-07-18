@@ -35,63 +35,63 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Rapporten weergeven
 
 Om tot rapporten toegang te hebben die u hebt gecreeerd of die met u gedeeld of openbaar gedeeld:
 
-1. Van de **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Rapporten**.
+1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
 
 1. Klik op een van de volgende opties, afhankelijk van het rapport dat u wilt weergeven:
 
-   * Klikken **Mijn rapporten** om rapporten weer te geven die u hebt gemaakt.
-   * Klikken **Gedeeld met mij** om rapporten te bekijken die anderen met u hebben gedeeld.
-   * Klikken **Alle rapporten** om zowel rapporten te bekijken die u hebt gecreeerd als die die met u of openbaar gedeeld.
+   * Klik **Mijn Rapporten** om rapporten te bekijken die u hebt gecreeerd.
+   * Klik **Gedeeld met me** om rapporten te bekijken die anderen met u hebben gedeeld.
+   * Klik **Alle Rapporten** om zowel rapporten te bekijken die u en die hebt gecreeerd die met u of openbaar gedeeld zijn gedeeld.
 
 ## Rapporten organiseren die u maakt
 
 U kunt mappen gebruiken om de rapporten te ordenen die u maakt. U kunt geen rapporten organiseren die met u zijn gedeeld, openbaar, of systeemrapporten zijn gedeeld.
 
-* [Nieuwe map maken voor rapporten](#create-a-new-folder-for-reports)
+* [ creeer een nieuwe omslag voor rapporten ](#create-a-new-folder-for-reports)
 * [Rapporten toevoegen aan een map](#add-reports-to-a-folder)
 
 ### Nieuwe map maken voor rapporten {#create-a-new-folder-for-reports}
 
-1. Van de **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Rapporten**.
+1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
 
-1. Klik op de knop **Nieuwe map** pictogram.\
+1. Klik het **Nieuwe pictogram van de Omslag**.\
    ![](assets/nwe-new-folder-350x346.png)
 
 1. Geef een naam voor de nieuwe map op en druk op Enter.
-1. Van de **Mijn rapporten** , voegt u rapporten toe aan de nieuwe map.\
-   Voor informatie over het toevoegen van een rapport aan een nieuwe omslag, zie [Rapporten toevoegen aan een map](#add-reports-to-a-folder) in dit artikel.
+1. Van de **Mijn omslag van Rapporten**, voeg rapporten aan de nieuwe omslag toe.\
+   Voor informatie over het toevoegen van een rapport aan een nieuwe omslag, zie [ rapporten aan een omslag ](#add-reports-to-a-folder) sectie in dit artikel toevoegen.
 
    >[!NOTE]
    >
-   >U kunt alleen nieuwe mappen toevoegen aan de **Mijn rapporten** map. U kunt geen nieuwe mappen of rapporten toevoegen aan de **Gedeeld met mij** of **Alle rapporten** mappen.
+   >U kunt nieuwe omslagen aan **slechts toevoegen Mijn omslag van Rapporten**. U kunt geen nieuwe omslagen of rapporten aan **toevoegen die met me** of **worden gedeeld Alle omslagen van Rapporten**.
 
 ### Rapporten toevoegen aan een map {#add-reports-to-a-folder}
 
-1. Van de **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Rapporten**.
+1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
 
-1. Klikken **Mijn rapporten**.\
+1. Klik **Mijn Rapporten**.\
    of\
-   Klik op een geneste map onder de **Mijn rapporten** map.
+   Klik om het even welke die omslag onder **wordt genesteld Mijn die Rapporten** omslag.
 
 1. Sleep een rapport van de rapportlijst in de omslag waar u het wilt verblijven, en laat vallen het wanneer u de omslag bereikt.
 
    >[!NOTE]
    >
-   >U kunt rapporten alleen verplaatsen vanuit de **Mijn rapporten** map naar andere mappen die onder **Mijn rapporten**. U kunt rapporten niet van of naar **Gedeeld met mij** of **Alle rapporten** naar of vanuit andere mappen.
+   >U kunt rapporten van **slechts bewegen Mijn die Rapporten** omslag aan andere die omslagen onder **worden genesteld Mijn Rapporten**. U kunt geen rapporten van of aan **bewegen met me** wordt gedeeld of **Alle Rapporten** omslag aan of van andere omslagen die.
 
    ![](assets/nwe-drag-report-to-folder-350x292.png)

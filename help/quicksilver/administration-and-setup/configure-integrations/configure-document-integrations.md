@@ -23,11 +23,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Als [!DNL Adobe Workfront] beheerder, kunt u documentintegratie vormen om documenten te beheren in [!UICONTROL Workfront]. U kunt ook [!UICONTROL Workfront] zodat documenten alleen worden opgeslagen in documentservices en niet in [!UICONTROL Workfront] zelf. Zie voor meer informatie [Een document bijwerken en koppelen vanuit [!UICONTROL Workfront] naar een externe cloud provider](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Als [!DNL Adobe Workfront] -beheerder kunt u documentintegratie configureren om documenten te beheren in [!UICONTROL Workfront] . U kunt [!UICONTROL Workfront] ook zo configureren dat documenten alleen worden opgeslagen in documentservices en niet in [!UICONTROL Workfront] zelf. Voor meer informatie, zie [ Update en verbind een document van [!UICONTROL Workfront] met een externe wolkenleverancier ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
->Openbare communicatie tussen [!DNL Workfront Proof] en de [!DNL Workfront] servers, zou u bepaalde IP adressen aan uw lijst van gewenste personen kunnen moeten toevoegen. Zie voor meer informatie [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>Om open communicatie tussen [!DNL Workfront Proof] en de [!DNL Workfront] servers toe te staan, zou u bepaalde IP adressen aan uw lijst van gewenste personen kunnen moeten toevoegen. Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Toegangsvereisten
 
@@ -51,12 +51,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,11 +74,11 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * [!DNL Workfront Proof]
 
-  Proefdrukken koppelen van [!DNL Workfront Proof] kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] beschikbaar binnen [!DNL Workfront]. Voor de huidige plannen [!UICONTROL Pro] [!DNL Workfront] Een abonnement of hoger is vereist om deze functie te kunnen gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Zie voor meer informatie over de verschillende beschikbare plannen [Workfront-plannen](https://www.workfront.com/plans).
+  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] . Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
 
 * [!DNL Microsoft SharePoint]
 
-  Voor informatie over integratie met [!DNL SharePoint], zie [Vorm [!DNL SharePoint] integratie](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  Voor informatie over het integreren met [!DNL SharePoint], zie [ de  [!DNL SharePoint]  integratie ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md) vormen.
 
 * Leveranciers van clouddocumenten van derden:
 
@@ -94,13 +94,13 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
   >[!TIP]
   >
-  >U kunt documenten die zijn gekoppeld van een externe cloud provider op dezelfde manier controleren en goedkeuren als documenten die rechtstreeks zijn geüpload naar [!DNL Workfront].
+  >Documenten die zijn gekoppeld via een externe cloud provider, kunt u controleren en goedkeuren op dezelfde manier als documenten die rechtstreeks naar [!DNL Workfront] zijn geüpload.
 
 * Andere documentproviders (via aangepaste documentintegratie).
 
-  Voor de huidige plannen [!UICONTROL Pro] [!DNL Workfront] Een abonnement of hoger is vereist om deze functie te kunnen gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Zie voor meer informatie over de verschillende beschikbare plannen [Workfront-plannen](https://www.workfront.com/plans).
+  Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
 
-Bovendien kunt u uw [!DNL Workfront] documentervaring met een native Digital Asset Management (DAM)-systeem of met DAM-integratie van derden. De beheerders moeten deze eigenschappen toelaten opdat de gebruikers de dienst aan hun verbinden [!DNL Workfront] account. Zie voor meer informatie over Workfront DAM [Documenten beheren met [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Daarnaast kunt u uw [!DNL Workfront] -documentervaring verbeteren met een native Digital Asset Management (DAM)-systeem of met DAM-integratie van derden. Beheerders moeten deze functies inschakelen om gebruikers de service te laten koppelen aan hun [!DNL Workfront] -account. Voor meer informatie over Workfront DAM, zie [ het Leiden Documenten met  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 ## Integraties configureren om documenten te beheren
 
@@ -108,12 +108,12 @@ Bovendien kunt u uw [!DNL Workfront] documentervaring met een native Digital Ass
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Cloud Providers].**
 
-1. (Optioneel) Naar opgeslagen documenten in een toepassing voor documentservices en niet in [!DNL Workfront], selecteert u **[!UICONTROL Prevent Users From Storing Documents in [!DNL Workfront]].**
+1. (Optioneel) Selecteer **[!UICONTROL Prevent Users From Storing Documents in [!DNL Workfront]]** als u documenten wilt opslaan in een toepassing voor documentservices en niet in [!DNL Workfront] .
 
 1. Selecteer de integraties die u wilt inschakelen.
 1. Klik op **[!UICONTROL Save]**.
 
-Als u integratie instelt met [!DNL Workfront DAM]kunt u [!DNL Workfront] om metagegevens in documenten op te nemen. Voor informatie over toewijzingsmetagegevens raadpleegt u [Metagegevenstoewijzing instellen](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+Als u integraties instelt met [!DNL Workfront DAM] , kunt u [!DNL Workfront] inschakelen om metagegevens op te nemen in documenten. Voor informatie over kaartmeta-gegevens, zie [ de meta-gegevensafbeelding van de Opstelling ](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
 ## Aangepaste documentintegratie configureren
 
@@ -121,15 +121,15 @@ Als u integratie instelt met [!DNL Workfront DAM]kunt u [!DNL Workfront] om meta
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
 -->
 
-Een aangepaste documentintegratie maakt [!DNL Workfront] gebruikers om bestanden te koppelen naar [!DNL Workfront] van vrijwel elk systeem, op voorwaarde dat het systeem wordt gebruikt [!DNL Workfront].
+Dankzij de integratie van aangepaste documenten kunnen [!DNL Workfront] -gebruikers vanuit vrijwel elk systeem bestanden koppelen naar [!DNL Workfront] , op voorwaarde dat het systeem is ontworpen voor samenwerking met [!DNL Workfront] .
 
-Als u de aangepaste integratie beschikbaar wilt maken voor gebruikers, moet u eerst de integratie maken. Voor informatie over hoe te om integratie te bouwen die met moet worden gebruikt [!DNL Workfront], zie [Document Webhooks-API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
+Als u de aangepaste integratie beschikbaar wilt maken voor gebruikers, moet u eerst de integratie maken. Voor informatie over hoe te om integratie te bouwen die met [!DNL Workfront] moet worden gebruikt, zie [ Webhooks API van het Document ](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
 Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikbaar maken voor gebruikers op uw site.
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Custom Integration]**.
+1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Custom Integration]** .
 
 1. Klik op **[!UICONTROL Add Custom integration]**.
 1. Voer de volgende informatie in om de integratie te configureren:
@@ -150,14 +150,14 @@ Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikba
       <td role="rowheader">[!UICONTROL Authentication Type]</td> 
       <td> <p>De verificatiemethode die moet worden gebruikt wanneer geautoriseerde API-aanroepen naar de aangepaste integratie worden uitgevoerd.</p> 
        <ul> 
-        <li>Als u <strong>[!UICONTROL OAuth]</strong>, gaat u verder met stap 5.</li> 
-        <li>Als u <strong>[!UICONTROL ApiKey]</strong>, gaat u verder met stap 6.</li> 
+        <li>Als u <strong>[!UICONTROL OAuth]</strong> kiest, gaat u verder met Stap 5.</li> 
+        <li>Als u <strong>[!UICONTROL ApiKey]</strong> kiest, gaat u verder met Stap 6.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Als u **[!UICONTROL OAuth]** verificatie voor de **[!UICONTROL Authentication Type]** Voer de volgende gegevens in:
+1. (Voorwaardelijk) Als u **[!UICONTROL OAuth]** -verificatie hebt geselecteerd voor de **[!UICONTROL Authentication Type]** , voert u de volgende informatie in:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -165,7 +165,7 @@ Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikba
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authentication URL]</td> 
-      <td>De volledige URL die wordt gebruikt voor gebruikersverificatie. [!DNL Workfront] navigeert gebruikers aan dit adres als deel van het Leveringsproces OAuth.</td> 
+      <td>De volledige URL die wordt gebruikt voor gebruikersverificatie. [!DNL Workfront] navigeert gebruikers naar dit adres als onderdeel van het OAuth-inrichtingsproces.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Token Endpoint URL]</td> 
@@ -181,71 +181,71 @@ Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikba
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Parameters]</td> 
-      <td> <p>Voer optionele waarden in die aan de queryreeks van elke API-aanroep moeten worden toegevoegd. Bijvoorbeeld access_type=offline.</p> <p>Om veelvoudige verzoekparameters toe te voegen, klik <strong>+Aanvraagparameter toevoegen</strong>.</p> </td> 
+      <td> <p>Voer optionele waarden in die aan de queryreeks van elke API-aanroep moeten worden toegevoegd. Bijvoorbeeld access_type=offline.</p> <p>Om veelvoudige verzoekparameters toe te voegen, klik <strong> + voeg de Parameter van het Verzoek toe </strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >De [!DNL Workfront] URI omleiden die onder aan het dialoogvenster wordt weergegeven [!UICONTROL Custom Integration] Deze pagina bevat de URI waarmee deze integratie met de externe documentprovider wordt geregistreerd.
+   >De [!DNL Workfront] Redirect URI die onder aan de [!UICONTROL Custom Integration] -pagina wordt weergegeven, geeft de URI weer die wordt gebruikt om deze integratie te registreren bij de externe documentprovider.
 
-1. (Voorwaardelijk) Als u **[!UICONTROL ApiKey]** verificatie voor de **[!UICONTROL Authentication Type]**, voert u de API-sleutel in die door de aangepaste documentprovider is uitgegeven.
+1. (Voorwaardelijk) Als u **[!UICONTROL ApiKey]** -verificatie hebt geselecteerd voor de **[!UICONTROL Authentication Type]** , voert u de API-sleutel in die is uitgegeven door de aangepaste documentprovider.
 
    [!DNL Workfront] gebruikt deze API-sleutel om geoorloofde API-aanroepen naar de documentprovider te maken.
 
-1. Klikken **[!UICONTROL Save]** de integratie tot stand te brengen.
+1. Klik op **[!UICONTROL Save]** om de integratie te maken.
 
 ## Documentintegratie gebruiken
 
-Voor informatie over hoe gebruikers kunnen gebruiken [!DNL Workfront DAM], zie [Documenten beheren met [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Voor informatie over hoe de gebruikers [!DNL Workfront DAM] kunnen gebruiken, zie [ het Leiden Documenten met  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
-Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [Proefdrukken maken](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [ tot proeven ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md) leiden.
 
-Voor informatie over hoe de gebruikers de integratie van het derdedocument kunnen gebruiken nadat u hen hebt gevormd, zie [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie over hoe de gebruikers de integratie van het derdedocument kunnen gebruiken nadat u hen hebt gevormd, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### Configureren [!DNL Workfront] metagegevens verzenden naar [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
+### [!DNL Workfront] configureren voor het verzenden van metagegevens naar [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-Bij het verzenden van een document vanuit [!DNL Workfront] tot [!DNL Workfront DAM], kunt u ook informatie verzenden die aan dat document is gekoppeld. Informatie over het document is toegewezen aan [!DNL Workfront DAM] als metagegevens.
+Wanneer u een document verzendt van [!DNL Workfront] naar [!DNL Workfront DAM] , kunt u ook de informatie verzenden die aan dat document is gekoppeld. Informatie over het document wordt toegewezen aan [!DNL Workfront DAM] als metagegevens.
 
-Informatie wordt slechts in één richting toegewezen, van [!DNL Workfront] tot [!DNL Workfront DAM] en wordt alleen overgedragen wanneer het document wordt geüpload naar [!DNL Workfront DAM]. In de toekomst worden metagegevensvelden in de Workfront-velden niet bijgewerkt in [!DNL Workfront DAM] nadat het document al is geüpload.\
-U kunt hetzelfde toewijzen [!DNL Workfront] veld naar diverse [!DNL Workfront DAM] velden, maar u kunt niet hetzelfde gebruiken [!DNL Workfront DAM] veld voor meerdere [!DNL Workfront] velden.
+Informatie wordt slechts in één richting toegewezen, van [!DNL Workfront] naar [!DNL Workfront DAM] en wordt alleen overgedragen wanneer het document wordt geüpload naar [!DNL Workfront DAM] . Eventuele toekomstige wijzigingen in de Workfront-velden werken geen metagegevensvelden bij in [!DNL Workfront DAM] nadat het document al is geüpload.\
+U kunt hetzelfde [!DNL Workfront] -veld toewijzen aan verschillende [!DNL Workfront DAM] -velden, maar u kunt niet hetzelfde [!DNL Workfront DAM] -veld gebruiken voor meerdere [!DNL Workfront] -velden.
 
-Als u veelvoudige moet vormen [!DNL Workfront] velden die u naar één wilt exporteren [!DNL Workfront DAM] veld, maakt u eerst een berekend aangepast veld in [!DNL Workfront] alle afzonderlijke aangepaste velden van een object weergeven. Wijs vervolgens de berekende waarden toe [!DNL Workfront] veld naar één [!DNL Workfront DAM] veld.\
-Zie voor meer informatie over berekende aangepaste velden [Berekende gegevens toevoegen aan een aangepast formulier](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Als u meerdere [!DNL Workfront] -velden moet configureren om te exporteren naar één [!DNL Workfront DAM] -veld, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan één [!DNL Workfront DAM] veld.\
+Voor meer informatie over berekende douanevelden, zie [ berekende gegevens aan een douaneformulier ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
-De toewijzing beïnvloedt alle documenten die door om het even welke gebruiker van worden geupload [!DNL Workfront] tot [!UICONTROL Workfront] DAM.
+De toewijzing is van invloed op alle documenten die door een gebruiker zijn geüpload van [!DNL Workfront] naar [!UICONTROL Workfront] DAM.
 
-Als [!DNL Workfront] beheerder, moet u toelaten [!DNL Workfront DAM] in Workfront voordat u de velden voor het proces voor het toewijzen van metagegevens kunt toewijzen.
+Als [!DNL Workfront] -beheerder moet u [!DNL Workfront DAM] inschakelen in Workfront voordat u de velden kunt toewijzen voor het proces voor het toewijzen van metagegevens.
 
-Om te vormen [!DNL Workfront] metagegevens verzenden naar [!DNL Workfront DAM]:
+U configureert als volgt [!DNL Workfront] om metagegevens naar [!DNL Workfront DAM] te verzenden:
 
 {{step-1-to-setup}}
 
-1. Klikken **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]**.
+1. Klik op **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** .
 
-1. In de **[!UICONTROL Select Source Field for Mapping]** veld, typ de naam van het Workfront-veld waarnaar u wilt toewijzen [!DNL Workfront DAM]en selecteert u de optie wanneer deze in de lijst wordt weergegeven.
-1. In de **[!UICONTROL Select Target Field for Mapping]**, selecteert u de [!DNL Workfront DAM] veld dat u wilt vullen met de informatie in het geselecteerde veld [!DNL Workfront] veld.
+1. Typ in het veld **[!UICONTROL Select Source Field for Mapping]** de naam van het Workfront-veld dat u wilt toewijzen aan [!DNL Workfront DAM] en selecteer het veld wanneer het in de lijst wordt weergegeven.
+1. Selecteer in **[!UICONTROL Select Target Field for Mapping]** het veld [!DNL Workfront DAM] dat u wilt vullen met de gegevens in het geselecteerde veld [!DNL Workfront] .
 
    >[!NOTE]
    >
-   > Alle documenten verzonden naar [!DNL Workfront DAM] door gebruikers die daartoe gemachtigd zijn, hun metagegevens laten bijwerken met de [!DNL Workfront] hier toegewezen velden, wanneer ze worden geüpload naar [!DNL Workfront DAM].
+   > In alle documenten die gebruikers met de juiste machtigingen naar [!DNL Workfront DAM] hebben verzonden, worden de metagegevens bijgewerkt met de [!DNL Workfront] -velden die hier zijn toegewezen, wanneer ze worden geüpload naar [!DNL Workfront DAM] .
 
 1. Klik op **[!UICONTROL Add Mapping]**.
 
-1. Doorgaan met meer toevoegen [!UICONTROL Workfront] velden en bijbehorende [!DNL Workfront DAM] velden.
+1. Voeg meer [!UICONTROL Workfront] velden en bijbehorende [!DNL Workfront DAM] velden toe.
 
 ### Toegewezen velden verwijderen
 
 {{step-1-to-setup}}
 
-1. Uitbreiden **[!UICONTROL Documents]** en klik vervolgens op **[!UICONTROL Metadata Mapping]**.
+1. Vouw **[!UICONTROL Documents]** uit en klik op **[!UICONTROL Metadata Mapping]** .
 
 1. Selecteer in de lijst met velden de velden die u uit de metagegevenstoewijzing wilt verwijderen.
 1. Klik op **[!UICONTROL Delete]**.
 
-   De velden worden verwijderd uit de metagegevenstoewijzing en de informatie daarin wordt niet overgedragen naar [!DNL Workfront DAM] met de geüploade documenten.
+   De velden worden verwijderd uit de metagegevenstoewijzing en de informatie in deze velden wordt niet samen met de geüploade documenten overgebracht naar [!DNL Workfront DAM] .

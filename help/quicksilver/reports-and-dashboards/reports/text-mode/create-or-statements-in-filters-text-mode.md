@@ -19,26 +19,26 @@ U kunt meerdere instructies opnemen wanneer u een filter maakt in lijsten en rap
 
 Zie de volgende artikelen voor informatie over het maken van filters:
 
-* [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Een filter bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Operatoren voor het filter Tekstmodus
 
-Zie voor informatie over Adobe Workfront-filteroperatoren in de standaardfilterinterface [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor informatie over de filterexploitanten van Adobe Workfront in de standaardfilterinterface, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront heeft 2 filteroperatoren die elke filterinstructie verbinden:
 
-* **EN**: Wanneer u 2 filterinstructie samenvoegt met de operator AND, geeft u aan dat aan beide filterinstructies tegelijkertijd moet worden voldaan.
+* **EN**: Wanneer u zich bij 2 filterverklaring door EN exploitant aansluit geeft u aan dat u beide filterverklaringen wilt tezelfdertijd worden ontmoet.
 
   Standaard worden de instructies in een filter samengevoegd met de operator AND.
 
   Wanneer het bouwen van EN filter in de interface van de tekstwijze, te hoeven u niet de exploitant AND te gebruiken. Dat wordt aangenomen.
 
-  **Voorbeeld:** Als u wilt filteren voor taken met een geplande Voltooiingsdatum van vandaag en een percentage voltooid van minder dan 100%, gebruikt u de volgende code voor de tekstmodus:
+  **Voorbeeld:** om voor taken te filtreren die een Geplande Datum van de Voltooiing van Vandaag hebben en een Percentage voltooide lager dan 100% gebruik de volgende code van de tekstwijze:
 
   <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
 
-* **OF**: Wanneer u 2 filterinstructies samenvoegt door de operator OR, geeft u aan dat aan een van beide instructies moet worden voldaan.
+* **OF**: Wanneer u zich bij 2 filterverklaringen door OF exploitant aansluit geeft u aan dat u één van beide verklaring wilt worden ontmoet.
 
   >[!TIP]
   >
@@ -46,9 +46,9 @@ Workfront heeft 2 filteroperatoren die elke filterinstructie verbinden:
 
   Wanneer het bouw van OF filter gebruikend de interface van de tekstwijze, moet u de exploitant OR gebruiken.
 
-  **Voorbeeld:** Als u wilt filteren voor taken met een geplande voltooiingsdatum van vandaag of een percentage voltooid dat lager is dan 100%, gebruikt u de volgende code voor de tekstmodus:
+  **Voorbeeld:** om voor taken te filtreren die een Geplande Datum van de Voltooiing van Vandaag of een Percentage Voltooien hebben lager dan 100% gebruik de volgende code van de tekstwijze:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OF:1:percentComplete=100</pre><pre>OF:1:percentComplete_Mod=lt</pre>
+  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OF:1: percentComplete=100</pre><pre>OF:1: percentComplete_Mod=lt</pre>
 
 ## Syntaxis tekstmodus voor OR-filters
 
@@ -66,13 +66,13 @@ De syntaxis van de tekstmodus voor een OR-filter moet het volgende bevatten:
 
   U kunt veelvoudige OF verklaringen in een filter hebben. In dit geval ontvangt elke instructie OR een getal in de volgorde waarin de instructies moeten worden toegepast.
 
-  **Voorbeeld:**  Als u wilt filteren voor taken met een geplande voltooiingsdatum van vandaag OF een gepland percentage van 100% voltooid OF een status van Nieuw, gebruikt u de volgende code voor de tekstmodus:
+  **Voorbeeld:** om voor taken te filtreren die een Geplande Datum van de Voltooiing van vandaag of een Percentage hebben voltooit lager dan 100% OF een Status van Nieuw gebruik de volgende code van de tekstwijze:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OF:1:status=NEW</pre><pre>OF:1:status_Mod=in</pre><pre>OF:2:percentComplete=100</pre><pre>OF:2:percentComplete_Mod=lt</pre>
+  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OF:1: status=NEW</pre><pre>OF:1: status_Mod=in</pre><pre>OF:2: percentComplete=100</pre><pre>OF:2: percentComplete_Mod=lt</pre>
 
-* De naam van de velden of de kenmerken waarnaar u in een filter verwijst, moet in kameelletters worden geschreven. Zie voor informatie over kamelendoosjes [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+* De naam van de velden of de kenmerken waarnaar u in een filter verwijst, moet in kameelletters worden geschreven. Voor informatie over camel geval, zie [ overzicht van de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * Wanneer u naar aangepaste velden in een OR-filter verwijst, moet u de volgende code invoegen: tussen de syntaxis van de OR-modifier en de naam van het aangepaste veld. U moet de naam van het aangepaste veld spellen zoals deze wordt weergegeven in de Workfront-interface.
 
-  **Voorbeeld:** Als u wilt filteren op taken met de status Nieuw OF Percentage voltooid lager dan 100% OF met een aangepast veld genaamd Accounttype met de waarde Gelijk, gebruikt u de volgende code voor de tekstmodus:
+  **Voorbeeld:** om voor taken te filtreren die een Status van Nieuw OF een Percentage Volledige lager dan 100% OF een douanegebied genoemd &quot;het Type van Rekening&quot;met een waarde van &quot;Gelijk&quot;hebben, gebruik de volgende code van de tekstwijze:
 
-  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OF:1:percentComplete=100</pre><pre>OF:1:percentComplete_Mod=lt</pre><pre>OF:2:DE:Accounttype=Capital</pre><pre>OF:2:DE:Accounttype_Mod=in</pre>
+  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OF:1: percentComplete=100</pre><pre>OF:1: percentComplete_Mod=lt</pre><pre>OF:2: DE:Accounttype=Capital</pre><pre>OF:2: DE:Accounttype_Mod=in</pre>

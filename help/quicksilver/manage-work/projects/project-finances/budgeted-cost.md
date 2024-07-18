@@ -31,27 +31,27 @@ U kunt de begrote kosten van een project niet handmatig wijzigen. Adobe Workfron
 
 `Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
-* De **Kosten van begrote arbeid in de planning van hulpbronnen** in bovenstaande berekening worden de kosten vermeld die verband houden met de functies in het project.
+* De **Plan van het Middel begrote Arbeidskosten** in de berekening hierboven is de kosten verbonden aan de baanrollen in het project.
 
-   U kunt de begrote arbeidskosten van een project in het gebied van de Begroting van het Middel van het BedrijfsGeval of de Planner van het Middel volgen.
+  U kunt de begrote arbeidskosten van een project in het gebied van de Begroting van het Middel van het BedrijfsGeval of de Planner van het Middel volgen.
 
-   >[!TIP]
-   >
-   >  De begrote Arbeidskosten van een project in het BedrijfsGeval toont als Voorgenomen Kosten van de Arbeid van het Plan van het Middel in rapporten en lijsten.
+  >[!TIP]
+  >
+  >  De begrote Arbeidskosten van een project in het BedrijfsGeval toont als Voorgenomen Kosten van de Arbeid van het Plan van het Middel in rapporten en lijsten.
 
-   Zie het artikel voor informatie over budgettaire arbeidskosten [Begrijpte arbeidskosten en begrotingsuren voor projecten begrijpen](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  Voor informatie over de Begrotende Kosten van de Arbeid, zie het artikel [ Begonnen de Kosten van de Arbeid en Begrotingspunten voor projecten ](../../../manage-work/projects/project-finances/budgeted-labor-cost.md) begrijpen.
 
-* De **Kosten van begrote uitgaven** in de bovenstaande berekening worden de geplande kosten vermeld die verband houden met de kosten van het project, zoals deze worden berekend op het gebied van kosten van het bedrijfsgeval of op het tabblad Uitgaven van het project.\
-   Raadpleeg het artikel voor meer informatie over uitgaven voor een project [Projectkosten beheren](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* De **Begroeide Kosten van Uitgaven** in de berekening hierboven is de Geplande Kosten verbonden aan de kosten op het project, aangezien zij op het gebied van Uitgaven van het BedrijfsGeval of het lusje van Uitgaven van het project worden berekend.\
+  Voor meer informatie over Uitgaven op een project, zie het artikel [ projectuitgaven ](../../../manage-work/projects/project-finances/manage-project-expenses.md) beheren.
 
-* De **Vaste kosten** in de bovenstaande berekening is het vaste bedrag dat verband houdt met de kosten van het project, zoals gedefinieerd in het gebied Financiën van het onderdeel Details van het project.\
-   Zie het artikel voor meer informatie over het subtabblad Financiën van een project [Informatie beheren in het gebied Projectfinanciering](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+* **Vaste Kosten** in de berekening hierboven is het vaste bedrag verbonden aan de Kosten van het project, zoals die in het gebied van Financiën van de sectie van Details van het project wordt bepaald.\
+  Voor meer informatie over sub-lusje van Financiën van een project, zie het artikel [ informatie in het gebied van de Projectfinanciering beheren ](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 >[!NOTE]
 >
 >Workfront berekent alle kosteninformatie met behulp van de valuta van het project. Als u de Beoogde Uren voor uw middelen in de Planner van het Middel specificeert, wordt de optie om projectvaluta te veranderen gehandicapt.
 >
->Raadpleeg het artikel voor meer informatie over het wijzigen van de valuta van een project [De projectvaluta wijzigen](../../../manage-work/projects/project-finances/change-project-currency.md).
+>Voor meer informatie over het veranderen van de munt van een project, zie het artikel [ Verandering de projectmunt ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## De begrote kosten van een project zoeken
 
@@ -71,13 +71,13 @@ De begrote Kosten zoals weerspiegeld in het gebied van de Begroting van het Midd
     </tr> 
     <tr> 
      <td>Kosten</td> 
-     <td> <p>Portfolio optimaliseren</p> <p>Tip: Het totaal van alle begrote kosten van het project is de begrote kosten van de portefeuille.</p> </td> 
+     <td> <p>Portfolio optimaliseren</p> <p>Tip: Het totaal van alle begrote kosten voor het project is de begrote kosten van de portefeuille.</p> </td> 
     </tr> 
     <tr> 
      <td>Geraamde projectkosten</td> 
      <td> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Projectrapport</p> <p>Project (Financial Data)-rapport</p> <p>Taakrapport</p> <p>Probleemrapport</p> <p>Rapport over Budgeted Hour</p> <p>Raadpleeg het artikel voor meer informatie over het maken van een rapport <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Een aangepast rapport maken</a>.</p> </td> 
+      --> <p>Projectrapport</p> <p>Project (Financial Data)-rapport</p> <p>Taakrapport</p> <p>Probleemrapport</p> <p>Rapport over Budgeted Hour</p> <p>Voor meer informatie over het creëren van een rapport, zie het artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref"> een douanerapport </a> creëren.</p> </td> 
     </tr> 
    </tbody> 
   </table>

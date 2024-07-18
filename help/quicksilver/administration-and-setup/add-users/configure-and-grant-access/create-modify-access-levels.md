@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,8 +65,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 {{step-1-to-setup}}
 
-1. Klikken **Toegangsniveaus** in het linkerdeelvenster.
-1. Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan klik **Kopiëren**.
+1. Klik **Niveaus van de Toegang** in het linkerpaneel.
+1. Selecteer het toegangsniveau u wilt kopiëren en aanpassen, dan **Exemplaar** klikken.
 
    of
 
@@ -80,7 +80,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     <tbody> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>Typ een naam voor uw toegangsniveau. </p> <p>Als u enkel een toegangsniveau kopieerde om nieuwe tot stand te brengen, is de standaardnaam de Naam van het Niveau van de Toegang (Exemplaar), waar de Naam van het Niveau van de Toegang het toegangsniveau is u kopieerde.</p> <p><strong>Tip</strong>: Wij adviseren dat u de originele naam van het toegangsniveau in de naam van het exemplaar omvat. Bij ACME-bedrijven krijgt een kopie van het standaardtoegangsniveau bijvoorbeeld de naam ACME Standard.</p> </td> 
+      <td> <p>Typ een naam voor uw toegangsniveau. </p> <p>Als u enkel een toegangsniveau kopieerde om nieuwe tot stand te brengen, is de standaardnaam de Naam van het Niveau van de Toegang (Exemplaar), waar de Naam van het Niveau van de Toegang het toegangsniveau is u kopieerde.</p> <p><strong> Uiteinde </strong>: Wij adviseren dat u de originele naam van het toegangsniveau in de naam van het exemplaar omvat. Bij ACME-bedrijven krijgt een kopie van het standaardtoegangsniveau bijvoorbeeld de naam ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving </td> 
@@ -88,12 +88,12 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Licentietype</td> 
-      <td>Zorg ervoor dat de hier geselecteerde licentie de licentie is die het meest wordt gekoppeld aan het type toegangsniveau dat u maakt of bewerkt. De geselecteerde licentie bepaalt welke instellingen beschikbaar zijn voor het toegangsniveau. Zie voor meer informatie <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Overzicht van nieuwe licenties</a> of <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Overzicht van licenties</a>.</td> 
+      <td>Zorg ervoor dat de hier geselecteerde licentie de licentie is die het meest wordt gekoppeld aan het type toegangsniveau dat u maakt of bewerkt. De geselecteerde licentie bepaalt welke instellingen beschikbaar zijn voor het toegangsniveau. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref"> Nieuw vergunningsoverzicht </a> of <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md"> overzicht van Vergunningen </a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Indien **Standaard** of **Plan** is geselecteerd in het dialoogvenster **Licentietype** vak, naar de sectie schuiven **Beheertoegang toestaan voor** en selecteer administratieve toegangstoestemmingen voor degenen die dit toegangsniveau zullen hebben.
+1. (Voorwaardelijk) als **Standaard** of **Plan** in de **doos van het Type van Vergunning** wordt geselecteerd, scrol aan de sectie **administratieve toegang voor** verlenen en administratieve toegangstoestemmingen voor die selecteren die dit toegangsniveau zullen hebben.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
         <li>Uitgaven voor projecten, taken of kwesties die zij beheren</li>
         <li>Hun eigen kosten</li>
         <li>De kosten van hun ondergeschikten</li>
-       </ul><p><b>OPMERKING</b>: Hierdoor kan de gebruiker geen nieuwe kostentypen maken.</p></td> 
+       </ul><p><b> NOTA </b>: Dit staat de gebruiker niet toe om nieuwe Types van Uitgaven tot stand te brengen.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Functies</td> 
@@ -132,7 +132,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
         <li>Nieuwe taakrollen toevoegen</li> 
         <li>Rolfacturering en kostentarieven bewerken</li> 
        </ul> 
-       <p>Voor belangrijke informatie over toegang tot financiële gegevens die beschikbaar is voor een gebruiker van de Norm of van de Planner met administratieve toegang tot baanrollen, zie <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standaard of Planner-gebruikers met beheerbare toegang tot functies</a>.</p>
+       <p>Voor belangrijke informatie over toegang tot financiële gegevens die aan een Standaard of gebruiker van de Planner met administratieve toegang tot baanrollen beschikbaar is, zie <a href="#standard-or-planner-users-with-administrative-access-to-job-roles"> Norm of de gebruikers van de Planner met administratieve toegang tot baanrollen </a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     </tbody> 
    </table>
 
-1. Klikken **Aanvullende beperkingen instellen** stelt u vervolgens een van de volgende beperkingen voor het toegangsniveau in.
+1. Klik **Reeks extra beperkingen**, dan plaats om het even welke volgende beperkingen voor het toegangsniveau.
 
    >[!IMPORTANT]
    >
@@ -168,7 +168,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     <tbody> 
      <tr> 
       <td role="rowheader">Nooit toegang geven tot het hele project wanneer het aan een taak of kwestie wordt toegewezen</td> 
-      <td> Verhindert gebruikers die aan taken of kwesties worden toegewezen om toestemmingen aan het ouderproject ook te krijgen, zelfs als de projecttoestemmingen dat toestaan.<p>Voor meer informatie over het vormen van de toestemmingen op een project, zie de sectie <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> in het artikel <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projecten bewerken</a>.</p></td> 
+      <td> Verhindert gebruikers die aan taken of kwesties worden toegewezen om toestemmingen aan het ouderproject ook te krijgen, zelfs als de projecttoestemmingen dat toestaan.<p>Voor meer informatie over het vormen van de toestemmingen op een project, zie de sectie <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> in het artikel <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref"> projecten </a> uitgeven.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Documenttoegang nooit overerven van projecten, taken, problemen, enz..</td> 
@@ -176,15 +176,15 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Alleen updates weergeven waarin ze zijn opgenomen in het gesprek</td> 
-      <td> Laat gebruikers toe om slechts commentaren te zien waar hun naam of de naam van hun team is inbegrepen. <p> <p><b>OPMERKING</b>: Hiermee voorkomt u dat gebruikers zich abonneren op objecten in Workfront. Zie voor meer informatie over abonnementen op objecten <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Abonneren op objecten in Adobe Workfront</a>.</p> </p> </td> 
+      <td> Laat gebruikers toe om slechts commentaren te zien waar hun naam of de naam van hun team is inbegrepen. <p> <p><b> NOTA </b>: Dit verhindert gebruikers aan punten in Workfront in te tekenen. Voor meer informatie over het intekenen op punten, zie <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref"> aan punten in Adobe Workfront </a> intekenen.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers nooit toestaan opmerkingen te verwijderen </td> 
-      <td> Hiermee voorkomt u dat gebruikers de opmerkingen die ze maken over items verwijderen.  <p><b>OPMERKING</b>: Niemand kan de opmerkingen van andere gebruikers verwijderen.</p> </td> 
+      <td> Hiermee voorkomt u dat gebruikers de opmerkingen die ze maken over items verwijderen.  <p><b> NOTA </b>: Niemand kan de commentaren van andere gebruikers schrappen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Alleen bedrijven, groepen en teams weergeven waartoe ze behoren</td> 
-      <td>Staat gebruikers toe om punten slechts met bedrijven, groepen, en teams te bekijken en te delen zij tot behoren.<p><strong>OPMERKING</strong>: Gebruikers met een licentie kunnen geen bedrijven weergeven waartoe ze niet behoren, zelfs niet als deze optie is geselecteerd.</td> 
+      <td>Staat gebruikers toe om punten slechts met bedrijven, groepen, en teams te bekijken en te delen zij tot behoren.<p><strong> NOTA </strong>: De gebruikers met de vergunningen van de Aanvrager kunnen geen bedrijven bekijken zij niet tot behoren, zelfs als deze optie wordt geselecteerd.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zichtbaarheid van geplande uren of werkelijke uren nooit toestaan</td> 
@@ -192,27 +192,27 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers nooit toestaan om aankondigingen te verwijderen</td> 
-      <td>Voorkomt dat gebruikers aankondigingen in het Aankondigingscentrum verwijderen. Zie voor meer informatie <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Aankondigingen verzenden</a>.</td> 
+      <td>Voorkomt dat gebruikers aankondigingen in het Aankondigingscentrum verwijderen. Voor meer informatie, zie <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref"> aankondigingen </a> verzenden.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Voorwaardelijk en optioneel) Als uw Workfront-systeem is ingesteld voor gebruikers die tot meerdere bedrijven behoren, beperkt u de zichtbaarheid tot andere gebruikers op basis van het bedrijf waartoe zij behoren in de sectie **Personen in andere bedrijven mogen alleen gebruikers van**.
+1. (Voorwaardelijk en facultatief) als uw systeem van Workfront opstelling voor gebruikers is die tot veelvoudige bedrijven behoren, beperk het zicht tot andere gebruikers die op welk bedrijf worden gebaseerd zij tot in de sectie **Mensen in andere bedrijven zouden slechts gebruikers van** moeten bekijken.
 
-   U kunt de gebruikers beperken om enkel gebruikers van hun eigen bedrijf of van het bedrijf te zien u als primair bedrijf aangewezen. Het primaire bedrijf vertegenwoordigt doorgaans uw Workfront-account waar de meeste gebruikers werken. Voor meer informatie over het primaire bedrijf raadpleegt u [Bedrijven maken en bewerken](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   U kunt de gebruikers beperken om enkel gebruikers van hun eigen bedrijf of van het bedrijf te zien u als primair bedrijf aangewezen. Het primaire bedrijf vertegenwoordigt doorgaans uw Workfront-account waar de meeste gebruikers werken. Voor meer informatie over het primaire bedrijf, zie [ bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
    >[!NOTE]
    >
    >Als twee gebruikers tot twee verschillende bedrijven behoren, maar zij kunnen allebei gebruikers van het primaire bedrijf zien, kunnen zij het gebied van Updates zien verbonden aan het primaire bedrijf.
 
-1. (Optioneel) Als u de toegangsinstellingen wilt configureren voor andere objecten en gebieden in het toegangsniveau waaraan u werkt, gaat u verder met een van de artikelen in [Toegang tot Adobe Workfront configureren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [Toegang verlenen tot taken](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. Klikken **Opslaan**.
+1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Klik **sparen**.
 
    Nadat het toegangsniveau wordt gecreeerd, kunt u het aan een gebruiker toewijzen (tenzij het een toegangsniveau van de Beheerder van het Systeem is).
 
-   Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
-   Voor informatie over hoe een beheerder van de Adobe een de toegangsniveau van de Beheerder van het Systeem aan een gebruikers toewijst, zie [Volledige administratieve toegang verlenen aan een gebruiker](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Voor informatie over hoe een beheerder van de Adobe een de toegangsniveau van de Beheerder van het Systeem aan gebruikers toewijst, zie [ een gebruiker volledige administratieve toegang verlenen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Standaard of Planner-gebruikers met beheerbare toegang tot functies {#planner-users}
 
@@ -220,4 +220,4 @@ Als u een gebruiker van de Norm of van de Planner administratieve toegang tot ba
 
 Later, als u administratieve toegang tot baanrollen voor de gebruiker onbruikbaar maakt, zijn de baanrollen nog zichtbaar aan de gebruiker omdat de Edit het Factureren van de Rol &amp; het plaatsen van de Tarieven van Kosten nog wordt toegelaten.
 
-Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Zie voor instructies [Toegang tot financiële gegevens verlenen](grant-access-financial.md).
+Als dit gebeurt en u de toegang van de gebruiker tot de rollen van de meningsbaan moet verwijderen, moet u de het Edit van de Rol van de gebruiker het Factureren &amp; van de Tarieven van Kosten plaatsen van de Toestemming onbruikbaar maken. Voor instructies, zie [ toegang van de Verlening tot financiële gegevens ](grant-access-financial.md).

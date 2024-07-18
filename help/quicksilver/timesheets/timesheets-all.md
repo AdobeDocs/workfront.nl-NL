@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze sectie bevat de artikelen in de volgende subsecties:
 
-* [Tijdlijndetails: artikelindex](../timesheets/timesheets/timesheets.md)
-* [Tijdschema&#39;s maken en beheren: artikelindex](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [Configureer hoe tijd wordt vastgelegd: artikelindex](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [ de details van de Tijdopname: artikelindex ](../timesheets/timesheets/timesheets.md)
+* [ creeer en beheer timesheets: artikelindex ](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+* [ vormt hoe de tijd wordt geregistreerd: artikelindex ](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Tips, trucs en problemen oplossen: artikelindex](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

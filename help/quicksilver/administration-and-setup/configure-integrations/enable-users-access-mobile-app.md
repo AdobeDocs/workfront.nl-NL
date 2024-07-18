@@ -4,7 +4,7 @@ product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: U kunt toegang tot [!DNL Adobe Workfront] mobiele app.
+description: U kunt toegang tot  [!DNL Adobe Workfront]  mobiele app toelaten of onbruikbaar maken.
 author: Lisa
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Gebruikers toegang geven tot de mobiele toepassing
 
-U kunt toegang tot [!DNL Adobe Workfront] mobiele app.
+U kunt de toegang tot de mobiele app van [!DNL Adobe Workfront] in- of uitschakelen.
 
 ## Toegangsvereisten
 
@@ -38,24 +38,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Gebruikers toegang geven tot de mobiele toepassing
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
 
-1. Klikken **[!UICONTROL Setup],** in de rechterbovenhoek van de pagina.
+1. Klik op **[!UICONTROL Setup]** in de rechterbovenhoek van de pagina.
 
-1. Uitbreiden **[!UICONTROL System],** klik vervolgens op **[!UICONTROL Preferences].**
+1. Vouw uit **[!UICONTROL System],** dan klik **[!UICONTROL Preferences].**
 
-1. Selecteer **[!UICONTROL Let people use Workfront's mobile applications and the [!DNL Workfront Outlook] Add-In]** instellen om gebruikers te laten gebruiken [!DNL Workfront] met de [!DNL Workfront] mobiele toepassing of om te installeren en te gebruiken [!DNL Workfront] voor Outlook.\
+1. Selecteer de instelling **[!UICONTROL Let people use Workfront's mobile applications and the [!DNL Workfront Outlook] Add-In]** als u wilt dat gebruikers [!DNL Workfront] kunnen gebruiken met de mobiele app [!DNL Workfront] of [!DNL Workfront] voor Outlook kunnen installeren en gebruiken.\
    Deze optie is standaard ingeschakeld.
 
 1. Klik op **[!UICONTROL Save].**
 
-Voor informatie over het gebruik van de [!DNL Workfront] mobiele app nadat deze voor de site is ingeschakeld, raadpleegt u [Gebruik de [!DNL Adobe Workfront] mobiele app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [ Gebruik  [!DNL Adobe Workfront]  mobiele app ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-Voor informatie over het gebruik [!DNL Workfront for Outlook], zie de [Gebruiken [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.
+Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [ Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.

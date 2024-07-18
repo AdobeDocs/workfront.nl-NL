@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Een Slack-opmerking plaatsen als een update
-description: U kunt een Slack-opmerking toevoegen als een update voor een bepaald project, een bepaalde taak of een specifieke uitgave in Adobe Workfront.
+title: Een opmerking van een Slack als een update Post
+description: U kunt een opmerking van een Slack toevoegen als een update voor een bepaald project, een bepaalde taak of een specifieke uitgave in Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
-# Een bericht plaatsen [!DNL Slack] opmerking toevoegen als update
+# Een [!DNL Slack] -opmerking Post als een update
 
-U kunt een [!DNL Slack] opmerking als een update van een specifiek project, specifieke taak of een specifieke uitgave in [!DNL Adobe Workfront].
+U kunt een [!DNL Slack] -opmerking toevoegen als een update voor een bepaald project, een bepaalde taak of een bepaalde uitgave in [!DNL Adobe Workfront] .
 
 ## Toegangsvereisten
 
@@ -28,38 +28,40 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.\
+&#42; om te weten te komen welk plan, licentietype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.\
 
 ## Vereisten
 
-Voordat u een [!DNL Slack] opmerking toevoegen als update
+Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
 * Configureren [!DNL Workfront for Slack]\
-   Voor instructies over het configureren [!DNL Workfront for Slack], zie [Configureren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Een bericht plaatsen [!DNL Slack] opmerking als een update in [!DNL Workfront]
+## Een [!DNL Slack] -opmerking Post als een update in [!DNL Workfront]
 
-1. Houd de muisaanwijzer boven een opmerking die u in een [!DNL Slack] kanaal, dan klik **[!UICONTROL More actions]** (driepunts) pictogram.
+1. Houd de cursor boven een opmerking die u in een [!DNL Slack] -kanaal hebt toegevoegd en klik op het pictogram **[!UICONTROL More actions]** (met drie punten).
 
-1. Klik op **[!UICONTROL Post an update]...`<the name of your Workfront app>`**.
+1. Klik op **[!UICONTROL Post an update]...`<the name of your Workfront app>`** .
 
    >[!NOTE]
    >
-   >Mogelijk moet u op **[!UICONTROL More message shortcuts]** en schuiven omlaag naar de locatie van de **[!UICONTROL Post an update]** optie.
-1. In de **[!UICONTROL Project, task or issue]** typt u de naam van een project, taak of probleem waaraan u de update wilt toevoegen. Klik vervolgens op de naam van het project, de taak of de uitgave wanneer deze in de lijst wordt weergegeven. U moet toegang hebben om een object te kunnen bekijken voordat het in de lijst wordt weergegeven.
-1. (Optioneel) In het dialoogvenster **[!UICONTROL Include another user]** typt u de naam van een gebruiker die u in de update wilt opnemen. Klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
+   >Mogelijk moet u op **[!UICONTROL More message shortcuts]** klikken en omlaag schuiven om de optie **[!UICONTROL Post an update]** te vinden.
+   >
+   >
+1. Typ in het vak **[!UICONTROL Project, task or issue]** de naam van een project, taak of uitgave waaraan u de update wilt toevoegen. Klik vervolgens op de naam van het project, de taak of het probleem wanneer het in de lijst wordt weergegeven. U moet toegang hebben om een object te kunnen bekijken voordat het in de lijst wordt weergegeven.
+1. (Optioneel) Typ in het vak **[!UICONTROL Include another user]** de naam van een gebruiker die u in de update wilt opnemen en klik op deze naam wanneer deze in de lijst wordt weergegeven.
 1. Klik op **[!UICONTROL Submit]**.
 
-   Een bevestiging wordt weergegeven in [!DNL Slack] om je te laten weten dat je update is gepost.
+   Er wordt een bevestiging weergegeven in [!DNL Slack] om u te melden dat uw update is gepost.
 
-1. (Optioneel) Klik op de naam van het project, de taak of het probleem waarin u de update hebt geplaatst om het te openen in [!DNL Workfront].
+1. (Optioneel) Klik op de naam van het project, de taak of het probleem waar u de update hebt geplaatst om deze te openen in [!DNL Workfront] .
 
-   Wanneer een opmerking afkomstig is van [!DNL Slack]wordt het bericht &quot;[!UICONTROL Posted from [!DNL Slack]]&quot; in [!DNL Workfront].
+   Wanneer een opmerking afkomstig is uit [!DNL Slack] , wordt het bericht &quot; [!UICONTROL Posted from [!DNL Slack]]&quot; weergegeven in [!DNL Workfront] .
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

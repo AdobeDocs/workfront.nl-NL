@@ -47,13 +47,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-boards}}
 
-1. Als u een werkstroom wilt openen, klikt u op [!UICONTROL **Werkstroom weergeven**].
-1. Selecteer de [!UICONTROL Iteration Process] bord.
+1. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
+1. Selecteer het [!UICONTROL Iteration Process] -board.
 1. Bekijk het metriegebied boven het bord in de rechterbovenhoek. Klik op de pijlen omhoog en omlaag om te schakelen tussen herhalingen.
 
    De volgende metriek worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet in de herhaling zijn voltooid en het aantal punten dat in de herhaling is voltooid.
 
-1. (Optioneel) Klik op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) om het detailsdialoogvenster voor de geselecteerde herhaling te openen.
+1. (Optioneel) Klik op de **]pictogram ![ Iteratiedetails ](assets/iteration-details-button.png) van de Details van de Interlatie[!UICONTROL ** om de detaildialoog voor de geselecteerde herhaling te openen.
 
 ## Metrische gegevens van herhalingen op het dashboard bekijken
 

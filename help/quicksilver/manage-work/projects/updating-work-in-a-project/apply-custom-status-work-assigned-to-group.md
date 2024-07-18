@@ -19,7 +19,7 @@ ht-degree: 0%
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-Als een project met een groep wordt geassocieerd, kunt u zowel systeem-vlakke statussen evenals een douanestatus toepassen verbonden aan die groep aan het project, of taken en kwesties op dat project. Voor informatie over de status van groepen in Adobe Workfront raadpleegt u [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Als een project met een groep wordt geassocieerd, kunt u zowel systeem-vlakke statussen evenals een douanestatus toepassen verbonden aan die groep aan het project, of taken en kwesties op dat project. Voor informatie over groepsstatussen in Adobe Workfront, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 >[!TIP]
 >
@@ -76,33 +76,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Projectgroep en status bijwerken
 
 Wanneer u de Groep voor een project bijwerkt, de opties beschikbaar voor de Status van taken, kwesties, of de projectverandering om de groep aan te passen.
 
-1. Naar een project gaan of een nieuw project maken, zoals beschreven in [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
-1. Klik op de knop **Meer** pictogram ![](assets/more-icon.png)en klik vervolgens op **Bewerken**.
+1. Ga naar een project, of creeer een nieuw project, zoals die in [ wordt beschreven creeer een project ](../../../manage-work/projects/create-projects/create-project.md).
+1. Klik **Meer** pictogram ![](assets/more-icon.png), dan klik **uitgeven**.
 
-1. In de **Project bewerken** vakje dat, dichtbij de bodem van toont **Overzicht** selecteert u de groep in de **Groep** vervolgkeuzemenu.
+1. In **geef de doos van het Project** uit die, dichtbij de bodem van de **sectie van het Overzicht** toont, selecteer de groep in het **Groep** drop-down menu.
 
-1. In de **Status** selecteert u de aangepaste status.
+1. In het **drop-down menu van de Status**, selecteer de douanestatus.
 
    >[!NOTE]
    >
-   >Als u een andere groep selecteert in het dialoogvenster **Groep** vervolgkeuzelijst, de aangepaste status in het dialoogvenster **Status** wordt automatisch gewijzigd om de correlatie met de nieuwe groep te herstellen.
+   >Als u een verschillende groep in het **drop-down menu van de Groep** selecteert, veranderen de douanestatussen in het **3} menu van de Status {automatisch om met de nieuwe groep te correleren.**
    >
    >
    >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >
 
 1. Selecteer de status van het project. De aangepaste status die u hebt gemaakt en toegepast op die groep, wordt weergegeven in de lijst.

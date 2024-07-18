@@ -10,13 +10,13 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d04b8e9ea2977ea1987bbf13d796e105eb8f0ab4
+exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
-
 
 # Opties voor automatisch bijwerken op toegangsniveaus bijwerken
 
@@ -28,20 +28,20 @@ Om te bekijken welke toegangsniveaus als auto-verbeteringsopties worden toegewez
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png.png). -->
 
-1. Klik in het rechterdeelvenster op **Toegangsniveaus**.
+1. In het juiste paneel, klik **Niveaus van de Toegang**.
 
-1. Open de **Weergaven** gebied.
+1. Open het **gebied van Meningen**.
 
-1. Selecteren **Nieuwe weergave** of kies een bestaande weergave en selecteer de **Bewerken** pictogram.
+1. Selecteer **Nieuwe Mening** of kies een bestaande mening en selecteer **uitgeven** pictogram.
 
-1. Kies **Kolom toevoegen** en zoek naar **Upgrade uitvoeren naar**.
+1. Kies **Kolom** toevoegen en onderzoek naar **Verbetering aan**.
 
-1. Klikken **Weergave opslaan**.
+1. Klik **sparen mening**.
 
 ## Wijs een nieuwe verbeteringsoptie aan een toegangsniveau toe
 
 Om een nieuwe auto-verbeteringsoptie aan een toegangsniveaus toe te wijzen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het rechterdeelvenster op **Toegangsniveaus**.
+1. In het juiste paneel, klik **Niveaus van de Toegang**.

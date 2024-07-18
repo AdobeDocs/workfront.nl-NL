@@ -19,7 +19,7 @@ Gebruik de sectie Goal Alignment om een holistische mening van doelgroepering ov
 
 Zie ook de volgende artikelen voor informatie over de uitlijning van doelen en hoe u dit kunt bereiken:
 
-* [Overzicht van uitlijning van doelstellingen in Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [ Goal groeperingsoverzicht in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
 ## Toegangsvereisten
@@ -54,7 +54,7 @@ of
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
 <p>of</p>
-<p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+<p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Toegangsniveau</td>
@@ -66,7 +66,7 @@ of
 <div>
 <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
 <p>Machtigingen beheren om het te bewerken</p>
-<p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+<p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
 </div> </td>
 </tr>
 <tr>
@@ -77,15 +77,15 @@ of
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Navigeren door de sectie Goal Alignment
 
-1. Klik op de knop **Hoofdmenu** pictogram ![Pictogram van hoofdmenu](../goal-alignment/assets/dots-main-menu-icon.png) in de rechterbovenhoek van het scherm klikt u op **Doelen**.
+1. Klik het **pictogram van het 1} Belangrijkste Menu ![ Belangrijkste menupictogram ](../goal-alignment/assets/dots-main-menu-icon.png) in de hoger-juiste hoek van uw scherm, dan klik** Doelen **.**
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Klikken **Goal Alignment** in het linkerdeelvenster.
-1. Gebruik de filters in de rechterbovenhoek van het uitlijningsdiagram om alleen doelen te selecteren die voor u van belang zijn. Voor informatie over het gebruik van filters in Workfront Goals raadpleegt u [Gegevens filteren in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. Klik **Goal Alignment** in het linkerpaneel.
+1. Gebruik de filters in de rechterbovenhoek van het uitlijningsdiagram om alleen doelen te selecteren die voor u van belang zijn. Voor informatie over het gebruiken van filters in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    De doelstellingen die uw filters aanpassen tonen in de groeperingstabel op kaarten.
 
@@ -112,14 +112,14 @@ of
       <td>De naam van het doel. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Voortgangsbalk voor doel <span>en voortgang</span></td> 
-      <td> <p>De voortgang van het doel geeft aan hoeveel van het doel op dit moment is bereikt. Dit is een automatische berekening van het gemiddelde van de vooruitgang van alle gerichte doelstellingen, resultaten, en activiteiten voor het doel dat op de tijd wordt gebaseerd die sinds het begin van de periode van het doel is verstreken. Zie voor informatie over het berekenen van de voortgang bij het bepalen van doelen <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overzicht van de voortgang en conditie van het doel in de Adobe Workfront-doelstellingen</a>. </p> 
+      <td role="rowheader">De bar van de Voortgang van het doel <span> en Voortgang </span></td> 
+      <td> <p>De voortgang van het doel geeft aan hoeveel van het doel op dit moment is bereikt. Dit is een automatische berekening van het gemiddelde van de vooruitgang van alle gerichte doelstellingen, resultaten, en activiteiten voor het doel dat op de tijd wordt gebaseerd die sinds het begin van de periode van het doel is verstreken. Voor informatie over het berekenen van vooruitgang op doelstellingen, zie <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref"> Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront </a>. </p> 
        <div> 
         <p>De daadwerkelijke vooruitgang van het doel tegen de huidige datum. De volgende voortgangswaarden en -kleuren geven aan hoe waarschijnlijk het is dat het doel op tijd wordt bereikt: </p> 
         <ul> 
-         <li><span>Op doel</span> (groene indicator): het doel is op tijd en zal op tijd worden bereikt.</li> 
-         <li> <span>Risico</span> (gele indicator): het doel loopt achter en kan niet op tijd worden bereikt.</li> 
-         <li> <span>In problemen</span> (rode indicator): het doel dreigt niet op tijd te worden bereikt. </li> 
+         <li><span> op Doel </span> (groene indicator): het doel is op tijd en zal op tijd worden bereikt.</li> 
+         <li> <span> bij Risico </span> (gele indicator): het doel loopt achter en zou niet op tijd kunnen worden bereikt.</li> 
+         <li> <span> in Problemen </span> (rode indicator): het doel dreigt niet op tijd te worden bereikt. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -130,7 +130,7 @@ of
      --> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td><span>De doelstellingen in alle statussen worden weergegeven in de sectie Goal Alignment.</span> </td> 
+      <td><span> Doelen in alle statussen tonen in de sectie van de Groepering van het Doel.</span> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,7 +139,7 @@ of
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. Klik op de knop **pijl omlaag** pictogram onder een doel om de kinderdoelstellingen verder uit te breiden en te bekijken.
+1. Klik het **neer-richten pijl** pictogram onder een doel om de kinddoelstellingen verder uit te breiden en te bekijken.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
@@ -151,7 +151,7 @@ of
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Klikken **Deze weergeven** om de doelen weer te geven die momenteel door het filter zijn verwijderd.
+1. Klik **tonen hen** om de doelstellingen te tonen die momenteel door de filter worden geëlimineerd.
 
    U ziet de volgende wijzigingen in het uitlijningsdiagram:
 
@@ -162,7 +162,7 @@ of
 
      Een filterkoppeling Opnieuw toepassen wordt links van de filternaam weergegeven.
 
-1. (Optioneel) Klik op **Filter opnieuw toepassen** om terug te keren naar de oorspronkelijke resultaten en de objecthiërarchie weer te geven.
+1. (Facultatief) klik **filter opnieuw toepassen** om op de originele resultaten terug te keren en de doelhiërarchie te tonen.
 1. (Optioneel) Houd de voortgangsindicator boven om te begrijpen waar de voortgang van het doel voor de huidige dag moet zijn.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
@@ -178,7 +178,7 @@ of
       <td>De vorderingsstatus is altijd actief. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Werkelijk</span> </td> 
+      <td role="rowheader"><span> Ware </span> </td> 
       <td>De werkelijke vooruitgang (een percentage) van het doel tegen de huidige datum, berekend met inachtneming van alle voortgangsindicatoren van het doel. De indicatoren van de vooruitgang van het doel zijn gerichte doelstellingen, activiteiten, en resultaten. </td> 
      </tr> 
      <tr> 
@@ -188,12 +188,12 @@ of
     </tbody> 
    </table>
 
-1. Klik op een doelkaart om de doelpagina te openen. Voor informatie over het bewerken van bestaande doelen raadpleegt u [Doelen in Adobe Workfront-doelen bewerken](../../workfront-goals/goal-management/edit-goals.md). Voor informatie over het bijwerken van vooruitgang voor doelstellingen, zie [Voortgang van Adobe Workfront-doelen bijwerken](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Klik op een doelkaart om de doelpagina te openen. Voor informatie over het uitgeven van bestaande doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/edit-goals.md) uitgeven. Voor informatie over het bijwerken van vooruitgang voor doelstellingen, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 1. Klik de naar boven wijzende pijl van het huidige-niveaudoel om aan het vorige niveau in de hiërarchie van de grafiek terug te keren.
 
    of
 
-   (Optioneel) Klik op **Doelhiërarchie afsluiten** om de kaarten van alle doelstellingen te tonen die de huidige filter aanpassen, zonder hun verbinding aan elkaar te tonen.
+   (Facultatief) klik **het doel hiërarchie van de Uitgang** om de kaarten van alle doelstellingen te tonen die de huidige filter aanpassen, zonder hun verbinding aan elkaar te tonen.
 
 

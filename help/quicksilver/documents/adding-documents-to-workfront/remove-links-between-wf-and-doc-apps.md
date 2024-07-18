@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wanneer Adobe Workfront voor het eerst een document uploadt van een willekeurige service, vraagt het de gebruiker om toestemming om toegang te krijgen tot de documentservice. Wanneer de gebruiker zijn aanmeldingsgegevens van de documentservice doorgeeft, wordt de documentservice gekoppeld aan Workfront.
 
-Voor informatie over het koppelen van externe documentservices aan Workfront raadpleegt u [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie over het verbinden van externe documentdiensten aan Workfront, zie [ het Verbinden van Documenten van Externe Toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Aangezien de documentservice de service is die toestemming verleent om een koppeling naar Workfront te maken, is het voor Workfront niet mogelijk om de machtigingen die door de documentservice zijn verleend, te verwijderen. U moet de toestemming uit binnen de toepassing van de documentdienst verwijderen of u moet ons Team van de Steun roepen om deze verbinding uit onze servers te verwijderen.
 
@@ -39,39 +39,39 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De koppeling tussen Workfront en Dropbox verwijderen
 
-1. Meld u aan bij Dropbox.
-1. Klik op de profielafbeelding in de rechterbovenhoek en klik vervolgens op **Instellingen**.
-1. Klik op de knop **Verbonden apps** tab, dan omlaag schuiven naar **Gekoppelde apps**.
+1. Meld u aan bij de Dropbox.
+1. Klik uw profielfoto in de hogere juiste hoek, dan klik **Montages**.
+1. Klik **Verbonden apps** tabel, dan scrol neer aan **Gekoppelde apps**.
 
-1. Klik op de knop **X** naast Workfront.
+1. Klik **X** naast Workfront.
 
 ## De koppeling tussen Workfront en Box verwijderen
 
 1. Meld u aan bij uw Box-account.
 1. Klik op de profielafbeelding in de rechterbovenhoek.
-1. Klikken **Accountinstellingen** en de **Beveiliging** tab.
+1. Klik **Montages van de Rekening**, toen de **Veiligheid** tabel.
 
-1. Zoeken **MyWorkfront** en klik op de knop **X** onder Vergeet App.
+1. Vind **MyWorkfront** en klik **X** onder vergeten App.
 
 ## De koppeling tussen Workfront en Google Drive verwijderen
 
 1. Meld u aan bij uw Google Drive.
-1. Klik op het tandwielpictogram in de rechterbovenhoek en klik vervolgens op **Instellingen**.
-1. Klikken **Apps beheren** links en zoek naar **Workfront** in de lijst.
+1. Klik het tandwielpictogram in de hogere juiste hoek, dan klik **Montages**.
+1. Klik **leiden Apps** op de linkerkant en **Workfront** in de lijst vinden.
 
-1. Klik in het keuzemenu Opties op **Verbinding met station verbreken**.
+1. Onder het drop-down menu van Opties, klik **losmaken van Aandrijving**.
 
 ## Koppelingen tussen Workfront en andere documentopslagproviders verwijderen
 
-U moet ons ondersteuningsteam bellen om de verbinding tussen Microsoft One Drive of WebDAM en Workfront te verbreken.
+U moet ons ondersteuningsteam bellen om Microsoft One Drive of WebDAM van Workfront los te koppelen.
 
-Voor informatie over het contacteren van ons Team van de Steun, zie [Contact opnemen met Klantenondersteuning](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Voor informatie over het contacteren van ons Team van de Steun, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

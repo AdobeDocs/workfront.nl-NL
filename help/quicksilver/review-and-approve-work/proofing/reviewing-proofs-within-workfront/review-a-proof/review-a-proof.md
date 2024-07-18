@@ -17,17 +17,17 @@ ht-degree: 0%
 
 # Een proefafdruk controleren
 
-* [Inhoud weergeven in een proefdruk](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
-* [Een gebied binnen een proefdruk meten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
-* [De maateenheid van de tijdlijn in een videoproefdruk wijzigen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
-* [Afspelen in een videoproefdruk beheren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
-* [Lijn in een videoproefdruk inschakelen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
-* [Een proefdruk vergrendelen of ontgrendelen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
-* [Inhoud zoeken in een proefdruk](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
-* [Proofs vergelijken](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
-* [De resolutie voor interactieve proefdrukken wijzigen in de proefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
-* [Een proefdruk delen vanuit de proefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
-* [Proofing van interactieve inhoud instellen in webproefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
+* [ inhoud van de Mening in een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
+* [ Meet een gebied binnen een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
+* [ Verandering de eenheid van meting van de chronologie in een videoproef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
+* [ playback van de Controle in een videoproef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
+* [ laat lijn in een videoproef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md) toe
+* [ Slot of ontgrendel een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
+* [ inhoud van het Onderzoek binnen een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
+* [ vergelijk proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
+* [ de interactieve proefdrukresolutie van de Verandering in de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
+* [ Deel een bewijs van de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+* [ Opstelling interactieve inhoud het proef in de Kijker van het Bewijs van het Web ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
 * [De instellingen voor de proefdrukviewer configureren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
 
  

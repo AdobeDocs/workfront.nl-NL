@@ -1,22 +1,23 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Weergeven en beheren [!DNL Adobe Workfront] meldingen in Adobe Creative Cloud
-description: U kunt meldingen in de Adobe Creative Cloud ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
+title: De mening en leidt  [!DNL Adobe Workfront]  berichten in Adobe Creative Cloud
+description: U kunt berichten in Adobe Creative Cloud van  [!DNL Adobe Workfront]  over punten ontvangen u moet goedkeuren, taken u, of commentaren en veranderingen in punten hebt gegeven u met wordt geassocieerd.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+exl-id: b07474c0-ba41-4382-8374-040f633a47ed
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
-# Weergeven en beheren [!DNL Adobe Workfront] meldingen van [!DNL Adobe Creative Cloud]
+# [!DNL Adobe Workfront] -meldingen van [!DNL Adobe Creative Cloud] weergeven en beheren
 
-U kunt meldingen in de Adobe Creative Cloud ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
+U kunt in de Adobe Creative Cloud meldingen ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gegeven of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
 
-Deze meldingen bevatten [!DNL Workfront] handelingen die u kunt uitvoeren zonder uit de Adobe Creative Cloud te navigeren.
+Deze meldingen bevatten [!DNL Workfront] -acties die u kunt uitvoeren zonder dat u van de Adobe Creative Cloud hoeft te navigeren om deze te voltooien.
 
 Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
 
@@ -24,7 +25,7 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
 
 ## Toegangsvereisten
 
-&lt;You must have the following access to perform the steps in this article:
+&lt;U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,23 +43,23 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
 {{cc-install-prereq}}
 
-* U hebt directe meldingen ingeschakeld in [!DNL Workfront]. Voor informatie over het inschakelen van instant notifications raadpleegt u [Uw eigen e-mailmeldingen wijzigen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Weergeven en beheren [!DNL Workfront] meldingen in Adobe Creative Cloud
+## [!DNL Workfront] -meldingen weergeven en beheren in Adobe Creative Cloud
 
-1. Klik op de knop **[!UICONTROL Notifications]** pictogram ![Meldingspictogram](assets/cc-plugin-notifications-icon.png) boven aan het deelvenster met insteekmodules. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
-1. (Optioneel) Als u alle meldingen wilt markeren zoals deze worden weergegeven, klikt u op **[!UICONTROL Mark all as seen]**.
+1. Klik op het **[!UICONTROL Notifications]** pictogram ![ pictogram van Meldingen ](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
+1. (Optioneel) Als u alle meldingen wilt markeren zoals deze worden weergegeven, klikt u op **[!UICONTROL Mark all as seen]** .
 
    Dit markeert berichten zoals die in de stop evenals in Workfront worden gezien. Zachte meldingen zijn niet meer zichtbaar in de lijst met meldingen in de plug-in.
 
@@ -75,5 +76,3 @@ De volgende meldingen zijn beschikbaar in de plug-in:
 * Iemand heeft opmerkingen gemaakt over een update waarin u bent opgenomen
 * Iemand heeft commentaar gegeven op je werkobject of iets wat je hebt gedaan
 * Uw document is goedgekeurd/goedgekeurd met wijzigingen/afgewezen
-
-

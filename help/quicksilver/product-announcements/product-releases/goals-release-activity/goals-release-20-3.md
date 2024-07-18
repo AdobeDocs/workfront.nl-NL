@@ -42,4 +42,4 @@ Met de Doelen van Workfront, kunt u naadloos doelstellingen in één enkel platf
 * Wat is de vooruitgang van mijn KPIs tegen mijn doelstellingen?
 * Welke werkzaamheden lopen gevaar, achter of op schema om mijn doelen te bereiken?
 
-Voor meer informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+Voor meer informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).

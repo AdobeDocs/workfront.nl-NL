@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: announcements
 title: Nieuwe IP-adressen voor Adobe Workfront-e-mailberichten met de release 21.1
-description: In een poging om succesvolle e-maillevering te verhogen, voegen wij nieuwe IP adressen met de 21.1- productiereserie voor de hieronder vermelde clusters toe. Om te weten te komen welke cluster u instantie bent, ga naar Opstelling &gt; Systeem & gt; Informatie van de Klant.
+description: In een poging om succesvolle e-maillevering te verhogen, voegen wij nieuwe IP adressen met de 21.1- productiereserie voor de hieronder vermelde clusters toe. Om te weten te komen welke cluster u instantie bent, ga aan Opstelling &gt; Systeem&gt; Informatie van de Klant.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In een poging om succesvolle e-maillevering te verhogen, voegen wij nieuwe IP adressen met de 21.1- productiereserie voor de hieronder vermelde clusters toe. Ga naar Setup > System > Customer Info als u wilt weten in welke cluster u zich bevindt.
 
-**Clusters 1,2,3 en 5**
+**clusters 1,2,3, en 5**
 
 Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om uw gebruikers te verzekeren blijven hun e-mail ontvangen:
 
@@ -33,7 +33,7 @@ Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om uw gebrui
 * 23 251 239,98
 * 23 251 239,99
 
-(Voor extra context over de lijst van gewenste personen en andere IP adressen die reeds aan uw lijst van gewenste personen zouden kunnen worden toegevoegd, zie [De lijst van gewenste personen van uw firewall configureren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Voor extra context over de lijst van gewenste personen en andere IP adressen die reeds aan uw lijst van gewenste personen zouden kunnen worden toegevoegd, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.)
 
 Wanneer moet dit gebeuren?
 

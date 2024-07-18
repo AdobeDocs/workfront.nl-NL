@@ -22,21 +22,21 @@ De Types van afhankelijkheid verwijzen naar het voorgangersverband tussen taken.
 
 >[!IMPORTANT]
 >
->Adobe Workfront beperkt niet de afhankelijke taken van aanvang of het beëindigen gebaseerd op de gebiedstypes tenzij de voorgangersverhoudingen worden afgedwongen. Voor informatie over het afdwingen van voorgangers raadpleegt u [Voorgangers afdwingen](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+>Adobe Workfront beperkt niet de afhankelijke taken van aanvang of het beëindigen gebaseerd op de gebiedstypes tenzij de voorgangersverhoudingen worden afgedwongen. Voor informatie over het afdwingen van predecessors, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 U moet het Type van Afhankelijkheid van een voorgangersverhouding specificeren wanneer u dit verband tussen uw taken vestigt.
 
-Voor meer informatie over predecessors raadpleegt u [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Hieronder vindt u de Workfront-afhankelijke typen:
 
-* **Voltooien-Begin (fs)**: De voorgaande taak moet zijn voltooid voordat de afhankelijke taak kan worden gestart. Dit is het standaardgebiedstype, dat wordt gebruikt wanneer geen ander gebiedstype wordt gespecificeerd.
-* **Voltooien-Voltooien (ff)**: De voorgaande taak moet zijn voltooid voordat de afhankelijke taak kan worden voltooid.
-* **Start (ss)**: De voorgaande taak moet worden gestart voordat de afhankelijke taak kan worden gestart. U kunt de afhankelijke taak niet starten tenzij de voorganger ten minste is gestart.
-* **Start-Finish (sf)**: De voorgaande taak moet worden gestart voordat de afhankelijke taak kan worden voltooid. U kunt de afhankelijke taak beginnen alvorens voorganger begint, maar u kunt niet het voltooien tenzij voorganger begon.
-* **Gepland-begin (sd)**: Dit plant een taak als Afwerking-Begin, maar het daadwerkelijke handhavingstype is afwerking-Afwerking. Wanneer u dit gebruikt, is de afhankelijke taak gepland om te beginnen nadat de voorgangertaak wordt voltooid. Nochtans, maakt de handhaving het zodat kan de afhankelijke taak op om het even welk ogenblik beginnen, maar kan niet beëindigen tot de voorgangerstaak wordt gebeëindigd.
+* **eind-Begin (fs)**: De voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Dit is het standaardgebiedstype, dat wordt gebruikt wanneer geen ander gebiedstype wordt gespecificeerd.
+* **afwerking-Afwerking (ff)**: De voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beëindigen.
+* **Begin-Begin (s)**: De voorgangertaak moet beginnen alvorens de afhankelijke taak kan beginnen. U kunt de afhankelijke taak niet starten tenzij de voorganger ten minste is gestart.
+* **begin-Afwerking (sf)**: De voorgangertaak moet beginnen alvorens de afhankelijke taak kan beëindigen. U kunt de afhankelijke taak beginnen alvorens voorganger begint, maar u kunt niet het voltooien tenzij voorganger begon.
+* **Gepland-Begin (sd)**: Dit plant een taak als Voltooien-Begin, maar het daadwerkelijke handhavingstype is een Finish-Finish. Wanneer u dit gebruikt, is de afhankelijke taak gepland om te beginnen nadat de voorgangertaak wordt voltooid. Nochtans, maakt de handhaving het zodat kan de afhankelijke taak op om het even welk ogenblik beginnen, maar kan niet beëindigen tot de voorgangerstaak wordt gebeëindigd.
 
 >[!NOTE]
 >
->De afkortingen voor de Types van Afhankelijkheid worden gebruikt in taaklijsten om voorgangersverhoudingen te bepalen. Zie voor meer informatie [Voorbeelden van voorgangerswaarden in een takenlijst](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Overzicht van voorgangers van taken](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+>De afkortingen voor de Types van Afhankelijkheid worden gebruikt in taaklijsten om voorgangersverhoudingen te bepalen. Voor meer informatie, zie [ Voorbeelden van voorgangerswaarden in een taaklijst ](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [ Overzicht van taakvoorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release Vierde kwartaal 2023 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.10.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwart de versiecyclus van 2023, zie [Overzicht release 4de kwartaal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2023 versiecyclus, zie [ Vierde Kwartaal 2023 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-Zie voor meer informatie over hoe u zich vóór de driemaandelijkse release kunt aanmelden bij nieuwe functies in de raden van bestuur [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Voor details op hoe te om binnen aan nieuwe eigenschappen van Boards vóór de driemaandelijkse versie te kiezen, zie [ vroege eigenschapopt-in voor de Boards van Adobe Workfront ](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Subtaken zijn nu beschikbaar op Adobe Workfront-borden
 
@@ -28,9 +28,9 @@ Met subtaken op kaarten kunt u een hiërarchie van taken maken.
 
 Op dit moment zijn subtaken niet zichtbaar op de kaart als aparte kaarten en zijn subtaken niet beschikbaar voor problemen.
 
-Zie voor meer informatie [Subtaken beheren op tekengebieden](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
+Voor meer informatie, zie [ subtaken op raad ](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md) leiden.
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Documenten toevoegen aan verbonden kaarten
 
@@ -38,9 +38,9 @@ U kunt nu documenten op verbonden kaarten aan Adobe Workfront Boards toevoegen. 
 
 Op dit moment kunt u geen documenten van de kaart verwijderen, maar u kunt een document van het lusje van Documenten op de taak of de kwestie schrappen.
 
-Zie voor meer informatie [Documenten toevoegen aan kaarten](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
+Voor meer informatie, zie [ documenten op kaarten ](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md) toevoegen.
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Verbeteringen voor gebruikerstoewijzingen op borden en kaarten
 
@@ -50,9 +50,9 @@ De volgende verbeteringen zijn nu beschikbaar wanneer u gebruikers toevoegt aan 
 * Wanneer u een gebruiker als een ontvanger aan een kaart toevoegt, wordt die gebruiker niet langer automatisch toegevoegd als lid van de raad.
 * Als u een gebruiker uit een kaart verwijdert, wordt deze gebruiker niet langer uit alle kaarttoewijzingen voor het bord verwijderd.
 
-Zie voor meer informatie [Leden toevoegen aan of verwijderen uit een board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Voor meer informatie, zie [ leden toevoegen of verwijderen uit een raad ](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Documenten die als alleen-weergeven beschikbaar zijn op verbonden kaarten
 
@@ -60,7 +60,7 @@ Voor verbonden kaarten op Adobe Workfront Boards kunt u nu documenten zoals afbe
 
 Op dit moment moet een document naar de Workfront-taak worden geüpload om op de aangesloten kaart beschikbaar te zijn.
 
-Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## De mening van de raad van een project nu beschikbaar voor kwesties
 
@@ -70,4 +70,4 @@ U kunt nu een Board-weergave openen van een lijst met projectkwesties. Met het K
 >
 >De mening van de Raad bestaat slechts op één enkel project omdat het een alternatieve mening van het project is, en u kunt niet tot het van andere gebieden van Workfront zoals het dashboard van Boards toegang hebben.
 
-Zie voor meer informatie [Een project beheren in de Google View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor meer informatie, zie [ een project in de Gelijke Mening ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.

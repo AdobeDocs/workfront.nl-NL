@@ -25,10 +25,12 @@ Deze verbeteringen worden, tenzij anders vermeld, beschikbaar gesteld in de prod
 
 Om een robuuste en schaalbare proefdrukverwerkingsoplossing te behouden, wijzigen we onze ondersteunde Microsoft Office-bestandstypen en maximale bestandsgrootte.
 
-De volgende Office-bestandstypen worden niet meer ondersteund als proefdrukken: XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
+De volgende bestandstypen van Office worden niet meer ondersteund als proefdrukken:
+XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-Gebruikers kunnen proefdrukken blijven maken voor de volgende Office-bestandstypen: DOC, DOCX, PPT, PPTX, XLS, XLSX
+De gebruikers kunnen voortzetten creërend proeven voor de volgende dossiertypes van het Bureau:
+DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 De maximale grootte van PowerPoint- en Word-bestanden is nu 512 MB.
 
-Zie voor meer informatie [Overzicht van ondersteunde bestandstypen voor proefdrukken en grootten](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Voor meer informatie, zie [ Ondersteunde het proef dossiertypes en groottegrenzen overzicht ](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

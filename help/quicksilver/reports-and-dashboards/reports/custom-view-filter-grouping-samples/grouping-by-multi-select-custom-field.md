@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ Voorbeelden van aangepaste velden met meerdere selecties zijn:
 * Selectievakjes
 * Meerdere vervolgkeuzemenu&#39;s selecteren
 
-Zie het artikel voor informatie over het gebruik van de tekstmodus [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [ ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Overwegingen bij groeperen op basis van een aangepast veld met meerdere selecties
 
 * U kunt geen rapport in kaart brengen dat een tekst-wijze groepering gebruikt. U moet een extra berekend gebied tot stand brengen dat naar het multi-uitgezochte douanegebied verwijst om het rapport door de waarde van het multi-uitgezochte gebied van de douane ook in kaart te brengen.
 
-  Zie voor meer informatie [Een rapport in een diagram weergeven op basis van een aangepast veld met meerdere selecties](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Voor meer informatie, zie [ Grafiek een rapport door een multi-uitgezochte douanegebied ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Items waarvoor een van de gekozen opties is geselecteerd, worden slechts één keer geteld.
 
   Als u bijvoorbeeld een aangepast veld Selectievakje hebt met Keuze 1 en Keuze 2 als opties, en u het formulier koppelt aan taken, worden de taken waarvoor zowel Keuze 1 als Keuze 2 is geselecteerd, afzonderlijk gegroepeerd van de taken waarvoor Alleen Keuze 1 of Keuze 2 is geselecteerd.
@@ -56,11 +56,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een groep te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
 
 * Maak het aangepaste veld voor meerdere selecties in een aangepast formulier.\
-  Zie het artikel voor informatie over het maken van aangepaste formulieren en het toevoegen van aangepaste velden aan deze formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [ creeer of geef een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
 
 * Koppel het aangepaste formulier aan objecten.
 * Vul het aangepaste veld voor meerdere selecties met een waarde voor elk object. 
@@ -80,19 +80,22 @@ Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de
 Om door een multi-select douanegebied in een rapport te groeperen:
 
 1. Maak een rapport of bewerk een bestaand rapport waaraan u een groep voor een aangepast veld met meerdere selecties wilt toevoegen.\
-   Zie het artikel voor informatie over het maken van rapporten [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-1. Selecteer de **Groepen** tab.
-1. Klikken **Overschakelen naar tekstmodus**.
+1. Selecteer de **Groepen** tabel.
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
 
-1. Selecteer de tekst in het dialoogvenster **Uw rapport groeperen** en vervang deze door de volgende code:
+1. Selecteer de tekst in de **Groep uw doos van het Rapport** en vervang het met de volgende code:
 
    <pre>
-   group.0.displayName=Multi-select Custom Field Name group.0.valueexpression={DE:Multi-select Custom Field Name} group.0.valueFormat=HTML group.0.textmode=true
+   group.0.displayName=Multi-select Naam van aangepast veld
+   group.0.valueexpression={DE:Multi-select Naam van aangepast veld}
+   groep.0.valueFormat=HTML
+   group.0.textmode=true
    </pre>
 
 1. Vervang &#39;Aangepaste veldnaam voor meerdere selecties&#39; door de werkelijke naam van het aangepaste veld voor meerdere selecties, zoals dit wordt weergegeven in Workfront.
-1. Klikken **Opslaan en sluiten**.
+1. Klik **sparen en Sluiten**.
 
    De objecten in het rapport worden gegroepeerd op de waarden van het aangepaste veld voor meerdere selecties.
 

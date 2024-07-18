@@ -1,7 +1,7 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Getallen, valuta en percentagewaarden in tekstmodusrapporten opmaken
+title: Formaatnummers, valuta- en percentagewaarden in tekstmodusrapporten
 description: Numerieke waarden, waaronder valuta, kunnen zo worden geconfigureerd dat ze in verschillende indelingen worden weergegeven in rapporten en lijsten in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
@@ -13,34 +13,34 @@ ht-degree: 1%
 
 ---
 
-# Getallen, valuta en percentagewaarden in tekstmodusrapporten opmaken
+# Formaatnummers, valuta- en percentagewaarden in tekstmodusrapporten
 
 <!-- Audited: 2/2024 -->
 
 Numerieke waarden, waaronder valuta, kunnen zo worden geconfigureerd dat ze in verschillende indelingen worden weergegeven in rapporten en lijsten in Adobe Workfront.
 
-Als u de notatie van een numerieke waarde wilt wijzigen, moet u de opdracht **taxeformat** lijn van uw kolom.
+Om het formaat van een numerieke waarde te wijzigen, moet u de **waardevormings** lijn van uw kolom uitgeven.
 
-Bijvoorbeeld, als u de kolom van de Begroting als $1000 wilde tonen, zou de lijn van het waardeformaat als kijken:
+Als u bijvoorbeeld de kolom Begroting wilt weergeven als $1000, zou de regel voor de waardeopmaak er als volgt uitzien:
 
 ```
 valueformat=currencyStringCurrencyRounded
 valuefield=budget
 ```
 
-Ga voor meer informatie over het toepassen van voorwaardelijke opmaak in Workfront-rapporten en -lijsten in de tekstmodus naar [Voorwaardelijke opmaak gebruiken in tekstmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+Voor meer informatie over het toepassen van voorwaardelijk het formatteren in de rapporten en lijsten van Workfront gebruikend tekstwijze, zie [ Voorwaardelijk het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-U kunt getallen opmaken met de volgende waarden voor de `valueformat` Regel van de kolom:
+U kunt getallen opmaken met de volgende waarden voor de `valueformat` -regel van uw kolom:
 
 | Voorbeeld | `valueformat=` |
 |---|---|
-| 1234 | <pre>doubleAsString</pre> <br>of <br><pre>int</pre> |
+| 1234 | <pre>doubleAsString</pre> <br> of <br><pre>int</pre> |
 | 1.234 | <pre>doubleAsInt</pre> |
-| USD 1.234 | <pre>currencyStringCurrencyRounded</pre> |
+| $ 1.234 | <pre>currencyStringCurrencyRounded</pre> |
 | 1234,56 | <pre>doubleAsDouble</pre> |
 | $ 1.234,56 | <pre>currencyStringCurrency</pre> |
 | 12% | <pre>doubleAsPercentRounded</pre> |
 | 12,34% | <pre>doubleAsPercent</pre> |
 | (1 234,56) | <pre>doubleAsFinancial</pre> |
-| (1,234) | <pre>doubleAsFinancialRounded</pre> |
+| (1 234) | <pre>doubleAsFinancialRounded</pre> |
 

@@ -22,21 +22,21 @@ PKCE is een veilige autorisatiestroom die goed werkt bij dynamisch vernieuwende 
 
 Een PKCE-stroom heeft de volgende stappen. De stappen in deze sectie worden alleen ter informatie weergegeven. Zie andere secties in dit artikel voor informatie over het uitvoeren van deze procedures.
 
-1. De client maakt de `code_challenge` door de `code_verifier` gebruiken `S256` codering.
+1. De client maakt de `code_challenge` door de `code_verifier` using `S256` -codering te transformeren.
 
-1. De client stuurt de browser samen met de gegenereerde `code_challenge`. U moet uw app (Client) registreren zodat OAuth2 de autorisatieaanvraag kan accepteren. Na registratie kan uw toepassing de browser omleiden naar OAuth2.
+1. De client stuurt de browser samen met de gegenereerde `code_challenge` naar de aanmeldingspagina van OAuth2. U moet uw app (Client) registreren zodat OAuth2 de autorisatieaanvraag kan accepteren. Na registratie kan uw toepassing de browser omleiden naar OAuth2.
 
 1. De OAuth2 Server van de Vergunning leidt de authentificatieherinnering aan de Gebruiker opnieuw.
 
 1. De gebruiker verklaart zich gebruikend één van de gevormde login opties voor authentiek, en kan een toestemmingspagina zien die van de toestemmingen OAuth2 aan de toepassing een lijst maakt.
 
-1. OAuth2 leidt terug naar uw toepassing met een `authorization code`.
+1. OAuth2 leidt terug naar uw toepassing met `authorization code`.
 
-1. Uw toepassing verzendt deze code samen met de `code_verifier`, naar OAuth2.
+1. Uw toepassing verzendt deze code samen met de `code_verifier` naar OAuth2.
 
-1. OAuth2-verificatieserver transformeert de `code_verifier` met de `code_challenge_method` van het oorspronkelijke vergunningsverzoek, en het resultaat wordt getoetst aan de `code_challenge`. Als de waarde van beide tekenreeksen overeenkomt, heeft de server gecontroleerd of de aanvragen afkomstig zijn van dezelfde client en geeft deze een `access token`.
+1. OAuth2 Authorization Server transformeert `code_verifier` gebruikend `code_challenge_method` van het aanvankelijke vergunningsverzoek, en controleert het resultaat tegen `code_challenge`. Als de waarde van beide tekenreeksen overeenkomt, heeft de server gecontroleerd of de aanvragen afkomstig zijn van dezelfde client en geeft deze een `access token` uit.
 
-1. OAuth2 retourneert de `access token`en eventueel een `refresh token`.
+1. OAuth2 retourneert de `access token` en optioneel een `refresh token` .
 
 1. Uw toepassing kan deze tokens nu gebruiken om de resourceserver, zoals een API, namens de gebruiker aan te roepen.
 
@@ -47,7 +47,7 @@ Een PKCE-stroom heeft de volgende stappen. De stappen in deze sectie worden alle
 
 Voordat u autorisatie kunt implementeren, moet u uw app registreren in OAuth2 door een app-integratie te maken vanuit Workfront.
 
-Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-webtoepassing met één pagina maken met PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [ een OAuth2 enig-pagina Webtoepassing gebruikend PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [ creëren toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth
 
 ## Proefsleutel maken voor Codeuitwisseling
 
-Net als bij de standaardworkflow voor machtigingscode, begint uw app met het doorsturen van de browser van de gebruiker naar de machtigingsserver `/authorize` eindpunt. In deze instantie moet u echter ook een code-uitdaging doorgeven.
+Net als bij de standaardstroom van de machtigingscode, begint de app met het doorsturen van de browser van de gebruiker naar het `/authorize` -eindpunt van de machtigingsserver. In deze instantie moet u echter ook een code-uitdaging doorgeven.
 
 Uw eerste stap is het produceren van een code verificateur en uitdaging.
 
@@ -95,7 +95,7 @@ De PKCE-generatorcode maakt uitvoer die vergelijkbaar is met het volgende:
 >}
 >```
 
-Uw app slaat de `code_verifier` voor later, en verzendt `code_challenge` samen met het verzoek om toestemming aan de server van uw Autorisatie `/authorize` URL.
+Uw app slaat de `code_verifier` for later op en verzendt de `code_challenge` samen met de autorisatieaanvraag naar de URL `/authorize` van de machtigingsserver.
 
 ## Aanvragen van een machtigingscode
 
@@ -113,22 +113,22 @@ Als u de standaard Server van de Vergunning van de Douane gebruikt, dan zou uw v
 
 Maak een notitie van de parameters die worden doorgegeven:
 
-* `client_id` komt overeen met de client-id van de OAuth2-toepassing die u in de toepassing hebt gemaakt tijdens het configureren van de toepassing.
+* `client_id` komt overeen met de client-id van de OAuth2-toepassing die u in de toepassing hebt gemaakt tijdens het configureren van de toepassing.
 
   Zie Een OAuth2-webtoepassing van één pagina maken met PKCE in OAuth2-toepassingen maken voor Workfront-integratie voor instructies.
 
-* `response_type` is `code`, omdat de toepassing het subsidietype van de Code van de Toestemming gebruikt.
+* `response_type` is `code` omdat de toepassing het subsidietype voor machtigingscode gebruikt.
 
-* `redirect_uri` is de callback plaats dat de gebruikersagent aan samen met wordt geleid `code`. Dit moet één van redirect URls aanpassen die u specificeerde toen u uw toepassing OAuth2 creeerde.
+* `redirect_uri` is de callback plaats waaraan de gebruikersagent samen met `code` wordt geleid. Dit moet één van redirect URls aanpassen die u specificeerde toen u uw toepassing OAuth2 creeerde.
 
-* `code_challenge_method` is de knoeiboelmethode die wordt gebruikt om de uitdaging te produceren, die altijd is `S256` voor Workfront Oauth2-toepassingen die PKCE gebruiken.
+* `code_challenge_method` is de knoeiboelmethode die wordt gebruikt om de uitdaging te produceren, die altijd `S256` voor Workfront Oauth2 toepassingen is die PKCE gebruiken.
 
-* `code_challenge` is de code uitdaging die voor PKCE wordt gebruikt.
+* `code_challenge` is de code die voor PKCE wordt gebruikt.
 
 
 ## De code voor tokens uitwisselen
 
-Om de vergunningscode voor een toegangstoken te ruilen, ga het tot uw Server van de Autorisatie over `/token` samen met de `code_verifier`.
+Als u de machtigingscode voor een toegangstoken wilt uitwisselen, geeft u deze samen met `code_verifier` door aan het eindpunt van de machtigingsserver `/token` .
 
 >[!INFO]
 >
@@ -148,15 +148,15 @@ Om de vergunningscode voor een toegangstoken te ruilen, ga het tot uw Server van
 
 Maak een notitie van de parameters die worden doorgegeven:
 
-* `grant_type` is `authorization_code`, omdat de app het subsidietype voor de machtigingscode gebruikt.
+* `grant_type` is `authorization_code` , omdat de toepassing het subsidietype voor machtigingscode gebruikt.
 
-* `redirect_uri` moet overeenkomen met de URI die is gebruikt om de machtigingscode op te halen.
+* `redirect_uri` moet overeenkomen met de URI die is gebruikt om de machtigingscode op te halen.
 
-* `code` is de vergunningscode die u van het /authorize eindpunt ontving.
+* `code` is de vergunningscode die u van het /authorize eindpunt ontving.
 
-* `code_verifier` is de PKCE-codeverificateur waarin uw app is gegenereerd [Proefsleutel maken voor Codeuitwisseling](#Create).
+* `code_verifier` is de PKCE codecontroleur die uw app in [ wordt geproduceerd creeert de Sleutel van het Bewijs voor de Uitwisseling van de Code ](#Create).
 
-* `client_id` identificeert uw cliënt en moet de waarde aanpassen vooraf geregistreerd in OAuth2.
+* `client_id` identificeert uw klant en moet overeenkomen met de waarde die vooraf is geregistreerd in OAuth2.
 
 
 Als de code nog geldig is en de verificateur van de code aanpast, ontvangt uw toepassing een toegangstoken.

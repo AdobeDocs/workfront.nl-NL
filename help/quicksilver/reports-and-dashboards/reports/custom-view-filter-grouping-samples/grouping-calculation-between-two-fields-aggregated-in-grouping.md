@@ -19,9 +19,9 @@ ht-degree: 0%
 
 U kunt tekstmodus in een kolom gebruiken om een berekening weer te geven tussen twee velden in de weergave van een rapport of lijst. Elke lijn toont de berekening voor elk voorwerp in het rapport of de lijst.
 
-Bijvoorbeeld, kunt u het verschil tussen Ware Uren en Geplande Uren in een derde kolom tonen genoemd het Saldo van het Werk voor elke taak in een taakrapport. Zie voor meer informatie over berekende gegevensexpressies [Overzicht van berekende gegevensexpressies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Bijvoorbeeld, kunt u het verschil tussen Ware Uren en Geplande Uren in een derde kolom tonen genoemd het Saldo van het Werk voor elke taak in een taakrapport. Voor meer informatie over berekende gegevensuitdrukkingen, zie [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-U kunt de geaggregeerde waarde van meerdere berekende weergaveitems in dezelfde kolom in een groep weergeven door een berekening toe te voegen aan de `aggregator` lijn van de kolom die de berekende waarde bevat. Bijvoorbeeld, kunt u (som van) de hoeveelheid uren van het Saldo van het Werk van alle taken in de groepering van het rapport of de lijst voor de kolom van het Saldo van het Werk samenvoegen. In dit artikel wordt beschreven hoe u dit kunt doen.
+U kunt de geaggregeerde waarde van meerdere berekende weergave-items in dezelfde kolom in een groep weergeven door een berekening toe te voegen aan de `aggregator` -regel van de kolom die de berekende waarde bevat. Bijvoorbeeld, kunt u (som van) de hoeveelheid uren van het Saldo van het Werk van alle taken in de groepering van het rapport of de lijst voor de kolom van het Saldo van het Werk samenvoegen. In dit artikel wordt beschreven hoe u dit kunt doen.
 
 ## Toegangsvereisten
 
@@ -44,32 +44,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een groep te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Het resultaat weergeven van het samenvoegen van meerdere berekende waarden in een groep
 
-1. Ga naar een taakrapport, klik **Handelingen rapporteren** > **Bewerken**.
-1. In de **Groepen** tabblad, klikt u op **Groepering toevoegen** en begint te typen **Projectnaam** in de **Uw rapport groeperen** > **Eerst door** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. Ga naar een taakrapport, klik **de Acties van het Rapport** > **uitgeven**.
+1. In het **lusje van Groepen**, klik **Groepering** toevoegen, en begin **Naam van het Project** in de **Groep uw Rapport** > **eerst door** gebied te typen, dan het te selecteren wanneer het in de lijst toont.
 
-1. In de **Kolommen (weergave)** tabblad, klikt u op **Kolom toevoegen** en begint vervolgens met typen **Geplande uren** in de **Tonen in deze kolom** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. In de **Kolommen (Mening)** tabel, klik **Kolom** toevoegen, dan begin **Geplande Uren** in **tonen in dit kolom** gebied, dan selecteren het wanneer het in de lijst toont.
 
    >[!TIP]
    >
    >Begin altijd met het toevoegen van zoveel informatie gebruikend de Standaardinterface alvorens u informatie op tekstwijze uitgeeft. Voeg velden toe die het dichtst bij de meeste informatie liggen of die de meeste informatie bevatten die u wilt maken voor de berekening.
 
-1. In de **Deze kolom samenvatten met** veld, selecteren **Som** en klik vervolgens op **Gereed**.
-1. Klikken **Overschakelen naar tekstmodus** in de kolom die u hebt toegevoegd.
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Vervang de `valuefield ` en de `aggregator.valuefield` regels met de regels die zijn gemarkeerd in het volgende voorbeeld voor de tekstmodus:
+1. In **vat deze kolom door** gebied samen, uitgezochte **Som**, dan klik **Gedaan**.
+1. Klik **Schakelaar aan de Wijze van de Tekst** in de kolom u toevoegde.
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Vervang de regels `valuefield ` en `aggregator.valuefield` door de regels die zijn gemarkeerd in het volgende voorbeeld in de tekstmodus:
 
    ```
    valueformat=compound
@@ -89,9 +89,9 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    >[!TIP]
    >
-   >Als u de geaggregeerde waarde in de groep wilt ophalen om het geaggregeerde verschil tussen de velden Geplande uren en Werkelijke uren weer te geven, voert u dezelfde vergelijking in de `aggregator.valuefield` lijn. De `aggregator.displayformat` gebruikt voor de Geplande kolom van Uren zet notulen in uren om. Aangezien het veld Geplande uren is gebruikt als tijdelijke aanduiding, hoeft deze regel niet te worden aangepast.
+   >Als u de geaggregeerde waarde in de groep wilt ophalen om het geaggregeerde verschil tussen de velden Geplande uren en Werkelijke uren weer te geven, voert u dezelfde vergelijking in de regel `aggregator.valuefield` in. De `aggregator.displayformat` die voor de kolom Geplande uren wordt gebruikt, zet minuten om in uren. Aangezien het veld Geplande uren is gebruikt als tijdelijke aanduiding, hoeft deze regel niet te worden aangepast.
    >
    >
-   >De `minutesAsHoursString` definitie van de `aggregator.displayformat` regel betekent dat elk veld niet met 60 hoeft te worden gedeeld, zoals op het tabblad `valueexpression` voor de resultaten. In dit `aggregator.valuefield=workRequired` wordt: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
+   >De `minutesAsHoursString` -definitie van de `aggregator.displayformat` -regel houdt in dat u elk veld niet met 60 hoeft te delen, zoals op de `valueexpression` -regel is gebeurd. In deze `aggregator.valuefield=workRequired` wordt: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2` .
 
-1. Klikken **Opslaan en sluiten**.
+1. Klik **sparen+Sluiten**.

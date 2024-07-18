@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Foutbericht: Er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren.'''
+title: 'Foutbericht: er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren.'
 description: Wanneer u een berekening in een berekend aangepast veld wijzigt op een aangepast formulier en een foutbericht laat zien dat het veld wordt gebruikt in een configuratie met meerdere formulieren, moet u het veld vervangen door een nieuw veld dat de berekening bevat die u wilt gebruiken.
 author: Caroline
 feature: System Setup and Administration
@@ -11,26 +11,26 @@ role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
-# Foutbericht: Er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren
+# Foutbericht: er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren
 
 ## Probleem
 
-Wanneer u een berekening wijzigt in een berekend aangepast veld op een aangepast formulier, [!DNL Adobe Workfront] zou de volgende waarschuwing kunnen tonen:
+Wanneer u een berekening wijzigt in een berekend aangepast veld op een aangepast formulier, wordt in [!DNL Adobe Workfront] mogelijk de volgende waarschuwing weergegeven:
 
 Er is een klein probleem
 
-[Het veld] wordt gebruikt in een configuratie met meerdere formulieren. Als u deze formule wilt wijzigen, moet u dit veld verwijderen en vervangen door een nieuw veld dat de gewenste berekening bevat.
+[ het gebied ] wordt gebruikt in een multi-vormconfiguratie, als u deze formule zou willen veranderen u dit gebied zult moeten verwijderen en het met nieuwe vervangen die de gewenste berekening bevatten.
 
 ## Oorzaak
 
 Ten minste twee aangepaste formulieren met het berekende aangepaste veld dat u wilt wijzigen, worden gekoppeld aan één object in uw [!DNL Workfront] -instantie.
 
-**Voorbeeld:** Aangepaste formulieren A en B zijn beide aan dezelfde taak gekoppeld. Beide formulieren bevatten een berekend aangepast veld met de naam Winst. Er treedt een fout op wanneer u de berekening probeert te bewerken in het veld Winst op aangepast formulier A.
+**Voorbeeld:** De vormen A en B van de Douane zijn allebei in bijlage aan de zelfde taak. Beide formulieren bevatten een berekend aangepast veld met de naam Winst. Er treedt een fout op wanneer u de berekening probeert te bewerken in het veld Winst op aangepast formulier A.
 
 U kunt de berekening voor het aangepaste veld niet wijzigen in een van de formulieren omdat dat in strijd zou zijn met de formule in hetzelfde veld in het andere formulier.
 U lost dit conflict op door het object te zoeken waaraan de meerdere formulieren met hetzelfde berekende aangepaste veld zijn gekoppeld. Voer vervolgens een van de volgende handelingen uit:
@@ -43,36 +43,36 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
 ## Object zoeken waaraan aangepaste formulieren zijn gekoppeld {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png) .
 
-1. Klik op **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]**.
-1. Pas de **[!UICONTROL Field List]** om het berekende veld te zoeken dat u wilt wijzigen en noteer elk aangepast formulier waarop het wordt gebruikt (bijvoorbeeld formulier 1, formulier 2, formulier 3).
-1. Klikken **[!UICONTROL Forms]** en past vervolgens de **[!UICONTROL Form List]** weergeven.
-1. Klik op de knop **[!UICONTROL Filter]** vervolgkeuzelijst, dan **[!UICONTROL New Filter]**.
+1. Klik op **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]** .
+1. Pas de weergave **[!UICONTROL Field List]** toe om het berekende veld te zoeken dat u wilt wijzigen en noteer elk aangepast formulier waarop het wordt gebruikt (bijvoorbeeld formulier 1, formulier 2, formulier 3).
+1. Klik op **[!UICONTROL Forms]** en pas vervolgens de weergave **[!UICONTROL Form List]** toe.
+1. Klik op de vervolgkeuzelijst **[!UICONTROL Filter]** en vervolgens op **[!UICONTROL New Filter]** .
 
-1. Klikken **[!UICONTROL Add a Filter Rule]** Typ vervolgens &quot;aangepaste formuliernaam&quot; en selecteer deze waarde wanneer deze in de lijst wordt weergegeven.
-1. Selecteren **[!UICONTROL Equal]** voor de filtermodifier, begin de naam van elke vorm te typen u nota van in Stap 1 maakte, dan selecteer het wanneer het toont.
+1. Klik op **[!UICONTROL Add a Filter Rule]**, typ &quot;aangepaste formuliernaam&quot; en selecteer deze waarde wanneer deze in de lijst wordt weergegeven.
+1. Selecteer **[!UICONTROL Equal]** voor de filtermodifier, typ de naam van elk formulier waarvan u een notitie hebt gemaakt in Stap 1 en selecteer het vervolgens wanneer het wordt weergegeven.
 
-   **Voorbeeld:** Aangepaste formuliernaam is gelijk aan formulier 1, formulier 2, formulier 3.
+   **Voorbeeld:** de Naam van de Vorm van de Douane evenaart Vorm 1, Vorm 2, Vorm 3.
 
-1. Klikken **[!UICONTROL Save Filter]** geeft u het nieuwe filter een naam en klikt u op **[!UICONTROL Save Filter]**.
+1. Klik op **[!UICONTROL Save Filter]**, geef het nieuwe filter een naam en klik op **[!UICONTROL Save Filter]** .
 
-1. Noteer in de lijst met formulieren het objecttype van het filter, zoals Taak of uitgave, dat wordt weergegeven in het dialoogvenster **[!UICONTROL Type]** kolom.
+1. Noteer in de lijst met formulieren het objecttype van het filter, zoals Taak of uitgave, dat wordt weergegeven in de kolom **[!UICONTROL Type]** .
 1. Voor elk douaneformulier u in Stap 1 vond, creeer een nieuw Douane gebied Checkbox met één enkele standaardwaarde van ja.
 
-   **Voorbeeld:** Veld 1 op formulier 1 = Ja, veld 2 op formulier 2 = Ja, veld 3 op formulier 3 = Ja. Dit betekent ‘Het berekende aangepaste veld bestaat op formulier 1’ of ‘Het berekende aangepaste veld bestaat op formulier 2’, enzovoort.
+   **Voorbeeld:** Gebied 1 op Vorm 1 = ja, Gebied 2 op Vorm 2 = ja, Gebied 3 op Vorm 3 = ja. Dit betekent ‘Het berekende aangepaste veld bestaat op formulier 1’ of ‘Het berekende aangepaste veld bestaat op formulier 2’, enzovoort.
 
-1. In de **[!UICONTROL Search icon]** ![](assets/search-icon.png) in de rechterbovenhoek van het scherm klikt u op **[!UICONTROL Advanced Search]**.
-1. Klik op het object van het aangepaste formulier (bijvoorbeeld Issue) en klik op **[!UICONTROL Filter your results]** en klik vervolgens op **[!UICONTROL Add a filter]**.
-1. Typ de naam van een veld Selectievakje in het vak **[!UICONTROL Start typing field name]** en selecteer het wanneer het in de lijst toont, dan selecteren **[!UICONTROL Equal]** en type **[!UICONTROL Yes]** (zonder aanhalingstekens) in het volgende vak.
+1. Klik in de **[!UICONTROL Search icon]** ![](assets/search-icon.png) rechtsboven in het scherm op **[!UICONTROL Advanced Search]** .
+1. Klik op het object van het aangepaste formulier (bijvoorbeeld Issue), klik op **[!UICONTROL Filter your results]** en klik vervolgens op **[!UICONTROL Add a filter]** .
+1. Typ de naam van een veld Selectievakje in het veld **[!UICONTROL Start typing field name]** en selecteer het veld wanneer het wordt weergegeven in de lijst. Selecteer vervolgens **[!UICONTROL Equal]** en typ **[!UICONTROL Yes]** (zonder aanhalingstekens) in het volgende vak.
 
-   **Voorbeeld:** Veld 1 gelijk (hoofdlettergevoelig) Ja.
+   **Voorbeeld:** Gebied 1 Gelijk (Hoofdlettergevoelig) ja.
 
-1. Klikken **[!UICONTROL Add a Filter]** en voeg alle velden Selectievakje toe aan uw geavanceerde zoekopdracht.
+1. Klik op **[!UICONTROL Add a Filter]** en voeg alle velden Selectievakje toe aan uw geavanceerde zoekopdracht.
 
    Zoek naar elke mogelijke combinatie.
 
-   **Voorbeeld:** Stel verschillende filters samen met de combinaties die u vindt, zoals hieronder wordt weergegeven. U moet objecten zoeken met meerdere aangepaste formulieren die dezelfde berekende velden bevatten. U zou de volgende scenario&#39;s kunnen vinden:
+   **Voorbeeld:** bouw verscheidene filters met de combinaties u vindt, zoals hieronder vermeld. U moet objecten zoeken met meerdere aangepaste formulieren die dezelfde berekende velden bevatten. U zou de volgende scenario&#39;s kunnen vinden:
 
    * Veld 1= Ja + veld 2 = Ja + veld 3 = Ja (bijvoorbeeld geen objecten)
    * Veld 1= Ja + veld 2 = Ja (bijvoorbeeld geen objecten)
@@ -90,26 +90,26 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
 ## Een van de aangepaste formulieren uit het object verwijderen en de berekening daar bewerken {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. Het object zoeken waaraan de aangepaste formulieren zijn gekoppeld, zoals wordt uitgelegd in [Object zoeken waaraan aangepaste formulieren zijn gekoppeld](#find-the-object-where-the-custom-forms-are-attached) in dit artikel, opent u het object.
+1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [ wordt verklaard vinden het voorwerp waar de douaneformulieren ](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn, dan open het voorwerp.
 1. Verwijder een van de aangepaste formulieren van het object en sla het object op.
 
    >[!NOTE]
    >
    >Als u de velden wilt toevoegen van het formulier dat u uit het object hebt verwijderd, moet u mogelijk het aangepaste formulier bewerken dat aan het object gekoppeld blijft. Op deze manier kunt u de aangepaste gegevensgegevens van het object behouden.
 
-1. Bewerk in het aangepaste formulier dat u hebt verwijderd de berekening voor het aangepaste veld dat u oorspronkelijk probeerde bij te werken en klik vervolgens op **[!UICONTROL Save]**.
+1. Bewerk in het aangepaste formulier dat u hebt verwijderd de berekening voor het aangepaste veld dat u oorspronkelijk probeerde bij te werken en klik vervolgens op **[!UICONTROL Save]** .
 
-   Deze keer [!DNL Workfront] mogen geen conflict tegenkomen.
+   Deze keer moet [!DNL Workfront] geen conflict tegenkomen.
 
-1. (Optioneel) Verwijder de velden Selectievakje van de aangepaste formulieren of verwijder deze uit [!DNL Workfront].
+1. (Optioneel) Verwijder de velden Selectievakje van de aangepaste formulieren of verwijder deze uit [!DNL Workfront] .
 
 ## Dezelfde bewerkingen aanbrengen in de berekening in alle bijgevoegde aangepaste formulieren {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
 
 >[!IMPORTANT]
 >
->Gegevens gaan verloren in de objecten waaraan het aangepaste formulier al is gekoppeld wanneer u deze stappen uitvoert. Als het berekende veld echter verwijst naar statische velden en niet naar berekende velden, kunt u [!UICONTROL Recalculate Custom Expressions] optie voor het object om de verloren gegevens te herstellen
+>Gegevens gaan verloren in de objecten waaraan het aangepaste formulier al is gekoppeld wanneer u deze stappen uitvoert. Als het berekende veld echter verwijst naar statische velden en niet naar berekende velden, kunt u met de optie [!UICONTROL Recalculate Custom Expressions] voor het object de verloren gegevens herstellen
 
-1. Het object zoeken waaraan de aangepaste formulieren zijn gekoppeld, zoals wordt uitgelegd in [Object zoeken waaraan aangepaste formulieren zijn gekoppeld](#find-the-object-where-the-custom-forms-are-attached) in dit artikel.
+1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [ wordt verklaard vinden het voorwerp waar de douaneformulieren ](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn.
 1. Verwijder het veld uit alle aangepaste formulieren die aan het object zijn gekoppeld en sla de formulieren vervolgens op.
 
 1. Voeg het aangepaste veld met de nieuwe berekening toe aan de aangepaste formulieren.
@@ -118,15 +118,15 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
    >
    >De berekeningen moeten identiek zijn in alle bijgevoegde aangepaste formulieren.
 
-1. (Optioneel) Verwijder de velden in het selectievakje uit de formulieren of verwijder deze uit de formulieren [!DNL Workfront].
+1. (Optioneel) Verwijder de velden Selectievakje van de formulieren of verwijder deze uit [!DNL Workfront] .
 
 ## Voeg een nieuw berekend veld met de bewerkte berekening toe aan een of alle bijgevoegde aangepaste formulieren {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
 
 Als u wilt voorkomen dat gegevens verloren gaan in het bestaande berekende aangepaste veld of als u de bewerkte berekening wilt uitvoeren in slechts een van de aangepaste formulieren die aan het object zijn gekoppeld dat u hebt gevonden:
 
-1. Het object zoeken waaraan de aangepaste formulieren zijn gekoppeld, zoals wordt uitgelegd in [Object zoeken waaraan aangepaste formulieren zijn gekoppeld](#find-the-object-where-the-custom-forms-are-attached) in dit artikel.
+1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [ wordt verklaard vinden het voorwerp waar de douaneformulieren ](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn.
 1. Voeg een nieuw berekend aangepast veld met de berekening die u nodig hebt toe aan een of alle formulieren.
-1. De naam van het oude berekende aangepaste veld wijzigen **Achterhaald**.
+1. Verander de naam van het oude berekende douanegebied **verouderd**.
 
    Op alle formulieren die aan het object zijn gekoppeld, behoudt dit oudere berekende aangepaste formulier de historische gegevens, maar gebruikers gebruiken het niet meer.
 

@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Bestanden toewijzen in [!DNL Adobe Workfront Fusion]
+title: Over het toewijzen van bestanden in  [!DNL Adobe Workfront Fusion]
 description: Sommige modules kunnen bestanden verwerken. Deze modules kunnen een uitvoerbestand retourneren dat voor verdere verwerking moet worden verzonden of een bestand vereisen dat voor verwerking aan hen wordt doorgegeven. Voordat deze modules kunnen samenwerken om bestanden te verwerken, moeten ze aan elkaar worden toegewezen.
 author: Becky
 feature: Workfront Fusion
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Bestanden toewijzen in [!DNL Adobe Workfront Fusion]
+# Over het toewijzen van bestanden in [!DNL Adobe Workfront Fusion]
 
 Sommige modules kunnen bestanden verwerken. Deze modules kunnen een uitvoerbestand retourneren dat voor verdere verwerking moet worden verzonden of een bestand vereisen dat voor verwerking aan hen wordt doorgegeven. Voordat deze modules kunnen samenwerken om bestanden te verwerken, moeten ze aan elkaar worden toegewezen.
 
@@ -38,24 +38,24 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Toewijzingsbestanden
 
@@ -68,18 +68,18 @@ Wanneer u een dossier in kaart brengt, kiest u de modules in uw scenario waarvan
 
 >[!NOTE]
 >
->Als u een bestand vanaf een URL moet verwerken, raden we u aan het `HTTP > Get a File` -module om het bestand te downloaden van de URL en het bestand vervolgens toe te wijzen vanuit de `HTTP > Get a File` aan het gewenste gebied van de module in uw scenario.
+>Als u een bestand vanaf een URL moet verwerken, raden we u aan het bestand met de module `HTTP > Get a File` te downloaden van de URL en het bestand vervolgens van de module `HTTP > Get a File` toe te wijzen aan het veld van de gewenste module in uw scenario.
 
 >[!INFO]
 >
->**Voorbeeld:** In dit voorbeeld wordt getoond hoe u documenten kunt downloaden van [!DNL Adobe Workfront] tot [!DNL Google Drive]. De [!DNL Workfront] trigger [!UICONTROL Watch Record] retourneert gedetailleerde informatie over elk document, inclusief naam en id.
+>**Voorbeeld:** Dit voorbeeld toont hoe te om documenten van [!DNL Adobe Workfront] aan [!DNL Google Drive] te downloaden. De [!DNL Workfront] trigger [!UICONTROL Watch Record] retourneert gedetailleerde informatie over elk document, inclusief de naam en id.
 >
->De volgende module, [!UICONTROL Download Document]worden de feitelijke gegevens gedownload zodat deze naar Google Drive kunnen worden geüpload.
+>In de volgende module, [!UICONTROL Download Document] , worden de feitelijke gegevens gedownload zodat deze naar Google Drive kunnen worden geüpload.
 >
->Deze informatie toewijzen aan [!DNL Google Drive] om het te kunnen uploaden, moet u het brondossier specificeren waarvan de informatie zal worden in kaart gebracht. Als u [!DNL Workfront] > [!UICONTROL Download Document] optie onder het bronbestand, [!DNL Workfront Fusion] Wijst de bestandsnaam en de bestandsinhoud zodanig toe dat het document [!DNL Workfront] wordt geüpload naar de opgegeven Google-map.
+>Als u deze gegevens wilt toewijzen aan [!DNL Google Drive] zodat deze kunnen worden geüpload, moet u het bronbestand opgeven van waaruit de gegevens worden toegewezen. Als u de optie [!DNL Workfront] > [!UICONTROL Download Document] onder het bronbestand selecteert, wijst [!DNL Workfront Fusion] de bestandsnaam en de bestandsinhoud toe, zodat het document van [!DNL Workfront] wordt geüpload naar de opgegeven Google-map.
 >
 >![](assets/wf-download-document-350x605.png)
 >
->Als u echter de naam van het bestand wilt wijzigen, maar de gegevens wilt behouden zoals deze zijn, kunt u de opdracht [!UICONTROL Map] om de bestandsnaam en de bestandsinhoud afzonderlijk toe te wijzen. U voert de volledige bestandsnaam in, inclusief de extensie. Tekstopmaak en binaire indelingen, zoals foto&#39;s, video&#39;s en PDF, worden ondersteund.
+>Als u echter de naam van het bestand wilt wijzigen, maar de gegevens ongewijzigd wilt laten, kunt u de optie [!UICONTROL Map] gebruiken om de bestandsnaam en de bestandsinhoud afzonderlijk toe te wijzen. U voert de volledige bestandsnaam in, inclusief de extensie. Tekstopmaak en binaire indelingen, zoals foto&#39;s, video&#39;s en PDF, worden ondersteund.
 >
 >![](assets/use-the-map-option-350x358.png)

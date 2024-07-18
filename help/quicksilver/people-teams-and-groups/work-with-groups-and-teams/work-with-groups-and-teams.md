@@ -19,4 +19,4 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Groepen versus teams in [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+* [Groepen versus teams in  [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)

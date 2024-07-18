@@ -20,7 +20,7 @@ ht-degree: 8%
 
 Adobe Workfront geeft regelmatig nieuwe API-versies weer, meestal twee keer per jaar. API-versies worden 3 jaar na de release ondersteund. API-versies ouder dan 3 jaar worden niet meer ondersteund.
 
-Zie voor meer informatie over het identificeren en gebruiken van API-versies [Geef een API-versie op in uw integratie](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+Voor meer informatie bij het identificeren van en het gebruiken van API versies, zie [ een API Versie in uw integraties ](/help/quicksilver/wf-api/api/specify-api-version-integrations.md) specificeren.
 
 In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van de Workfront API.
 
@@ -30,9 +30,9 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Versie</strong> </th> 
-   <th><strong>Geen</strong> </th> 
-   <th><strong>*Niet ondersteund</strong> </th> 
+   <th><strong> Versie </strong> </th> 
+   <th><strong> Versie </strong> </th> 
+   <th><strong>*Niet-ondersteund </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -98,7 +98,7 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
   <tr> 
    <td>6</td> 
    <td>november 2015</td> 
-   <td><strong>november 2019</strong> <p>(met de release van 2019.4)</p> </td> 
+   <td><strong> November 2019 </strong> <p>(met de release van 2019.4)</p> </td> 
   </tr> 
   <tr> 
    <td>5</td> 
@@ -138,8 +138,8 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
  </tbody> 
 </table>
 
-&#42;Problemen met niet-ondersteunde versies van de API worden niet door Workfront opgelost.
+&#42; De kwesties met betrekking tot niet gestaafde versies van API zullen niet door Workfront worden gericht.
 
-&#42;&#42;Datums die kunnen worden gewijzigd.
+&#42;&#42; Data onderhevig aan verandering.
 
-Voor informatie over het gebruik van specifieke versies van de API raadpleegt u [Geef een API-versie op in uw integratie](../../wf-api/api/specify-api-version-integrations.md)
+Voor informatie over het gebruiken van specifieke versies van API, zie [ een API Versie in uw integraties specificeren ](../../wf-api/api/specify-api-version-integrations.md)

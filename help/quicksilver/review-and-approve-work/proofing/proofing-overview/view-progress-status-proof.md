@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt informatie bekijken over hoe een bewijs door het overzichtsproces vordert
 
 ## Voortgangsoverzicht proefdrukken
 
-Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf het moment dat u de bewijzen naar de ontvangers verzendt tot het moment dat zij een beslissing nemen over het bewijs. De voortgangspictogrammen S, O, C en D staan naast de proefdruknaam en geven informatie over de voortgang van de proefdrukproef.
+Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf het moment dat u de bewijzen naar de ontvangers verzendt tot het moment dat zij een beslissing nemen over het bewijs. De voortgangspictogrammen S, O, C en D worden naast de proefdruknaam weergegeven en geven informatie over de voortgang van de proefdrukproef.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -28,26 +28,26 @@ Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf 
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>Voortgangspictogram</strong> </p> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td> <p><strong> pictogram van de Voortgang </strong> </p> </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Verzonden</strong> </p> </td> 
+   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong> Verzonden </strong> </p> </td> 
    <td> <p>Het bewijs is naar de toegewezen ontvangers verzonden.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Geopend</strong> </p> </td> 
+   <td> <p><strong></strong> </p> <p><strong> Geopend </strong> </p> </td> 
    <td> <p>Alle toegewezen ontvangers openen de pagina met gegevens over proefdrukken of proefdrukken.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Opmerkingen</strong> </p> </td> 
-   <td> <p>Alle toegewezen ontvangers plaatsen ten minste één opmerking op de proefdruk.</p> <p>Als er geen controleurs aan de proefdruk zijn toegewezen, <strong>C</strong> verschijnt niet op de voortgangsbalk.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong> gemaakte Commentaren </strong> </p> </td> 
+   <td> <p>Alle toegewezen ontvangers plaatsen ten minste één opmerking op de proefdruk.</p> <p>Als er geen recensenten zijn die aan de proef worden toegewezen, verschijnt het <strong> C </strong> pictogram niet in de vooruitgangsbar.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Beslissing</strong> </p> </td> 
-   <td> <p>Alle toegewezen fiatteurs nemen een besluit over het bewijs, Alle toegewezen fiatteurs nemen een besluit over het bewijs, tenzij de maker van het bewijs slechts één beslissing nodig heeft.</p> <p>Als er geen fiatteurs (besluitvormers) voor het bewijs zijn aangewezen, <strong>D</strong> verschijnt niet op de voortgangsbalk. </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong> Gemaakte Beslissing </strong> </p> </td> 
+   <td> <p>Alle toegewezen fiatteurs nemen een besluit over het bewijs, Alle toegewezen fiatteurs nemen een besluit over het bewijs, tenzij de maker van het bewijs slechts één beslissing nodig heeft.</p> <p>Als er geen fiatteurs (besluitvormers) die voor de proef worden aangewezen zijn, verschijnt het <strong> pictogram D </strong> niet in de vooruitgangsbar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,9 +55,9 @@ Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf 
 De voortgangspictogrammen kunnen in de volgende kleuren worden weergegeven om bepaalde informatie over de voortgang van het bewijs aan te geven:
 
 * **Groen**: Voltooid.
-* **Wit**: Niet voltooid.
-* **Oranje**: Niet voltooid en deadline is minder dan 24 uur.
-* **Rood**: Niet volledig en na de deadline.
+* **Wit**: Niet volledig.
+* **Oranje**: Niet volledig en de deadline is minder dan 24 uren.
+* **Rood**: Niet volledig en voorbij de deadline.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ De voortgangspictogrammen kunnen in de volgende kleuren worden weergegeven om be
 
 ## Overzicht van de proefdrukstatus
 
-De status van de proefdruk geeft de status aan van de beslissingen die voor de proefdruk vereist zijn. De status van het bewijs wordt aangestuurd door de &quot;worst case&quot;-deelnemer. Stel dat er bijvoorbeeld drie beslissingen zijn over het bewijs: twee hebben de status van **Geaccepteerd** en één heeft de status van **Geweigerd**. De &quot;worst case&quot;-beslissing van **Geweigerd** overregulering van de overige besluiten en de algemene status van het bewijs worden weergegeven als **Geweigerd**. 
+De status van de proefdruk geeft de status aan van de beslissingen die voor de proefdruk vereist zijn. De status van het bewijs wordt aangestuurd door de &quot;worst case&quot;-deelnemer. Bijvoorbeeld, veronderstel er drie besluiten over de proef zijn: twee hebben het statuut van **Toegelaten** en één heeft het statuut van **Afgewezen**. Het &quot;slechtste geval&quot;besluit van **Afgewezen** over-regels de andere besluiten en de algemene status van het bewijs wordt getoond zoals **Afgewezen**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 

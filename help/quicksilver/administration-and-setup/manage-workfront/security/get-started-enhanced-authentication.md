@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront wijzigt het systeembeheer van gebruikers en wachtwoorden. Deze veranderingen zullen uit in een gefaseerde geroepen versie uitrollen **Verbeterde verificatie** ervaring. De verbeterde Authentificatie biedt gebruikers een consistentere en veilige login ervaring over alle producten en de diensten van Workfront.
+Adobe Workfront wijzigt het systeembeheer van gebruikers en wachtwoorden. Deze veranderingen zullen uitrollen in een gefaseerde versie genoemd **Verbeterde ervaring van de Authentificatie**. De verbeterde Authentificatie biedt gebruikers een consistentere en veilige login ervaring over alle producten en de diensten van Workfront.
 
 De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
 
@@ -30,15 +30,15 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Functie</strong> </p> </th> 
-   <th><strong>Oudere verificatie</strong> </th> 
-   <th><strong>Verbeterde verificatie 1.0</strong> </th> 
+   <th> <p><strong> Eigenschap </strong> </p> </th> 
+   <th><strong> Verouderde Authentificatie </strong> </th> 
+   <th><strong> Verbeterde Authentificatie 1.0 </strong> </th> 
    <th> <p>Verbeterde verificatie 2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><strong>Aanmeldingsopties</strong> </p> </td> 
+   <td colspan="3"> <p><strong> Login opties </strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
    <td> <p>✓</p> <p>Meerdere gebruikers kunnen niet hetzelfde e-mailadres hebben als het adres alleen per geval verschilt. </p> <p>Workfront-beheerders zullen eind 2019 op de hoogte worden gesteld om dubbele e-mailadressen op te lossen.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Opties voor wachtwoordbeheer</strong> </p> </td> 
+   <td colspan="3"> <p><strong> de beheersopties van het Wachtwoord </strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
    <td> <p>Niet gepland</p> <p>Deze functionaliteit is geen best practice voor beveiliging</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Wachtwoordbeleidsvereisten</strong> </p> </td> 
+   <td colspan="3"> <p><strong> de beleidsvereisten van het Wachtwoord </strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ De volgende tabel bevat details over de huidige en toekomstige functionaliteit:
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Omgevingsondersteuning</strong> </p> </td> 
+   <td colspan="3"> <p><strong> de steun van het Milieu </strong> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

@@ -8,40 +8,40 @@ feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
 source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen
 
-De naam van een uitgave wordt weergegeven als `opTask` in de Adobe Workfront-database. Hoewel er momenten zijn waarop u het `issue` veldnaam om naar problemen te verwijzen, meestal moet u de optie `opTask` veldnaam in plaats van `issue` bij het verwijzen naar kwesties.
+De naam van een uitgave wordt weergegeven als `opTask` in de Adobe Workfront-database. Hoewel er momenten zijn waarop u de veldnaam `issue` moet gebruiken om naar problemen te verwijzen, moet u meestal de `opTask` veldnaam gebruiken in plaats van `issue` wanneer u naar problemen verwijst.
 
-Raadpleeg voor meer informatie over hoe objecten worden weergegeven in de Workfront-database de [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
+Voor meer informatie over hoe de voorwerpen in het gegevensbestand van Workfront verschijnen, verwijs naar de [ API Ontdekkingsreiziger ](https://developer.adobe.com/workfront/api-explorer/).
 
-## `opTask` filename
+## `opTask` bestandsnaam
 
-Gebruik de `opTask` veldnaam bij het verwijzen naar kwesties in de volgende context:
+Gebruik de veldnaam `opTask` wanneer u in de volgende context naar problemen verwijst:
 
 * Wanneer u een aangepast rapport voor problemen maakt in de tekstmodus, en u wilt verwijzen naar problemen in weergaven, filters, groepen of aanwijzingen.
 
-   Voor meer informatie over het gebruiken van tekstwijze in een rapport, zie [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Voor meer informatie over het gebruiken van tekstwijze in een rapport, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--* When you pull information about issues using our API.  
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
 * Wanneer u de gebieden van de uitgave in een Kick-Begin- gegevensimporter bijwerkt.
 
-   Ga voor meer informatie over het importeren van gegevens in Workfront met een Kick-start naar [Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor meer informatie over het invoeren van gegevens in Workfront die een Kick-Begin gebruiken, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## `issue` veldnaam
 
-Gebruik de `issue` de naam van het gebied aan verwijzingskwesties in de volgende context:
+Gebruik de veldnaam `issue` om te verwijzen naar problemen in de volgende context:
 
 * Wanneer u in een inzameling van verwijzingen voorziet gebruikend tekstwijze in een rapport.
 * Wanneer u verwijst naar een uitgavemonzameling met de Workfront API.
 
-Voor informatie over het rapporteren van verzamelingen raadpleegt u [Referentieverzamelingen in een rapport](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Voor informatie over het melden van inzamelingen, zie [ inzamelingen van de Verwijzing in een rapport ](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 <!--
 <note type="tip">

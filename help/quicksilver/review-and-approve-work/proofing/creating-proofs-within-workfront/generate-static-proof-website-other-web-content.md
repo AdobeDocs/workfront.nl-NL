@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -41,12 +41,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een statische proefdruk maken voor een website of andere webinhoud
 
@@ -54,20 +54,20 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
 >[!TIP]
 >
->We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en met een wachtwoord beveiligde pagina&#39;s vereist zijn. Zie voor meer informatie [Overzicht van proefdrukken van interactieve inhoud](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en met een wachtwoord beveiligde pagina&#39;s vereist zijn. Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Ga naar het project, de taak of de uitgave waar u een nieuwe websiteproef of een nieuwe versie van bestaande wilt tot stand brengen.
-1. Klikken **Documenten** in het linkerdeelvenster.
-1. (Voorwaardelijk) Als u een nieuwe proef creeert, klik **Nieuwe toevoegen** en klik vervolgens op **Proef** in het menu dat wordt weergegeven.
+1. Klik **Documenten** in het linkerpaneel.
+1. (Voorwaardelijk) als u een nieuwe proef creeert, klik **voeg Nieuw** toe, dan klik **Bewijs** in het menu dat verschijnt.
 1. (Voorwaardelijk) Als u een nieuwe versie van een bestaand bewijs creeert:
 
    1. Plaats de muisaanwijzer boven de URL-proefdruk waarvoor u een nieuwe versie wilt maken en selecteer deze door op de lichtblauwe achtergrond eromheen te klikken.
 
-      ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![ Select_proof_by_selecting_light_blue_background.png ](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. Klikken **Nieuw toevoegen** > **Versie** > **Proef**.
+   1. Klik **toevoegen nieuw** > **Versie** > **Bewijs**.
 
-1. Typ de URL van de website die u wilt controleren in het dialoogvenster **Bestanden toevoegen** gebied, dan drukken **Enter**.
+1. Typ URL van de website u in **wilt aantonen voeg Dossiers** gebied toe, dan druk **binnengaan**.
 
    >[!NOTE]
    >
@@ -79,19 +79,19 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (Optioneel) Als u de naam van de proefdruk wilt wijzigen van de URL van de website naar iets anders, typt u een **Proefnaam.**
-1. Controleer of **Schermopname vastleggen** is geselecteerd en gebruikt een van de volgende opties:
+1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs.**
+1. Zorg ervoor **het schermschot van de Vangst** wordt geselecteerd en gebruik om het even welke volgende opties:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Schermresolutie</strong> </td> 
+      <td role="rowheader"><strong> resolutie van het Schermafbeelding </strong> </td> 
       <td> <p>Pas de resolutie van de inhoud aan wanneer revisoren de proefdruk bekijken, zodat ze kunnen zien hoe deze wordt weergegeven op apparaten van verschillende formaten, zoals telefoons, tablets en monitoren.</p> <p>Als u meerdere resoluties selecteert, wordt voor elke resolutie die u selecteert een afzonderlijke proefdruk gemaakt.</p> <p>Opmerking: wanneer een revisor opmerkingen maakt over de proefdruk, bevat de opmerking de resolutie die aangeeft wanneer de opmerking is gemaakt, zodat andere revisoren weten welke resolutie aan de opmerking is gekoppeld. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Zoeken naar subpagina's</strong> </td> 
+      <td role="rowheader"><strong> zoek subpages </strong> </td> 
       <td> <p>Leg de subpagina's van de website en de hoofdpagina's vast. U kunt op Alles selecteren klikken om alle pagina's op te nemen of u kunt alleen op bepaalde pagina's klikken die u wilt opnemen. Met de plus- en minknoppen kunt u de subpaginagebieden van de website uitvouwen en sluiten.</p> </td> 
      </tr> 
     </tbody> 
@@ -101,15 +101,15 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
    >
    >U kunt de instelling voor schermopname vastleggen niet wijzigen voor volgende versies van de proefdruk die u maakt.
 
-1. Klikken **Gereed**.
+1. Klik **Gedaan**.
 
-   Als u in stap 8 meerdere schermresoluties hebt geselecteerd, bevat de lijst een reeks schermafbeeldingen voor elke resolutie. U kunt deze schermafbeeldingen genereren als afzonderlijke proefdrukken of deze combineren tot één proefdruk (zie onder .). We raden u aan deze te combineren, vooral als u een statische proefdruk maakt voor websites.
+   Als u in stap 8 meerdere schermresoluties hebt geselecteerd, bevat de lijst een reeks schermafbeeldingen voor elke resolutie. U kunt deze schermafbeeldingen genereren als afzonderlijke proefdrukken of deze combineren tot één proefdruk (zie  in .). We raden u aan deze te combineren, vooral als u een statische proefdruk maakt voor websites.
 
    >[!NOTE]
    >
    >Als u een nieuwe versie toevoegt aan een bestaande URL-proefdruk, blijven de opties die op de oorspronkelijke proefdruk of vorige versie zijn geconfigureerd, behouden in deze versie.
 
-1. Klikken **Proef maken** om een eenvoudige proefdruk te maken zonder controleproces.\
+1. Klik **creeer proef** om een eenvoudige proef zonder overzichtsproces tot stand te brengen.\
    of\
    Doorgaan met het configureren van een geavanceerde proefdruk:
 

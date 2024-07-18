@@ -7,7 +7,8 @@ description: Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
+exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 
-Zie voor informatie over aangepaste velden en widgets in aangepaste formulieren [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Toegangsvereisten
 
@@ -46,24 +47,24 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Delen van een aangepast veld of aangepaste widget in de lijst met formulieren configureren
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Klikken **Velden** het gebied Velden openen.
-1. Selecteer het punt u het delen voor wilt vormen, dan klik ![Pictogram Delen](assets/share-icon.png).
+1. In het linkerpaneel, klik **Aangepaste Forms**.
+1. Klik **Gebieden** om het gebied van Gebieden te openen.
+1. Selecteer het punt u het delen voor wilt vormen, dan klik ![ pictogram van het Aandeel ](assets/share-icon.png).
 1. Geef in het vak Aangepaste veldtoegang dat wordt weergegeven op met wie u het item wilt delen en hoe u het wilt delen:
 
-   1. In de linkerbenedenhoek van het dialoogvenster **Aangepaste veldtoegang** onder **Aangepaste veldtoegang verlenen aan**, typt u de naam van een gebruiker, team, taakrol, groep of bedrijf waarmee u het item wilt delen, en klikt u vervolgens op de naam wanneer het item wordt weergegeven.
+   1. Vlak de laag-linkerhoek van de **doos van de Toegang van het Gebied van de Douane**, onder **geef de toegang van het douanegebied tot**, begin de naam van een gebruiker, een team, een baanrol, een groep, of een bedrijf te typen u het punt met wilt delen, dan de naam klikken wanneer het verschijnt.
 
-      ![Vak Toegang aangepast veld](assets/share-field-give-access-to.jpg)
+      ![ doos van de Toegang van het Gebied van de Douane ](assets/share-field-give-access-to.jpg)
 
    1. Als u specifieker wilt zijn over hoe u het punt wilt delen, klik de drop-down lijst rechts van de naam, dan gebruik om het even welke volgende opties:
 
-      ![Opties voor delen](assets/share-field-view-mng-options.jpg)
+      ![ het Delen opties ](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
@@ -71,40 +72,40 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
        <tbody> 
         <tr> 
          <td role="rowheader">Weergeven</td> 
-         <td> <p>U kunt op <strong>Geavanceerde instellingen</strong> om op te geven of de gebruiker of gebruikers toegang moeten kunnen gebruiken om het item toe te voegen aan een aangepast formulier of het te delen met andere gebruikers.</p> </td> 
+         <td> <p>U kunt <strong> Geavanceerde Montages </strong> klikken om te specificeren of u de gebruiker of de gebruikers hun toegang wilt kunnen gebruiken om het punt aan een douanevorm toe te voegen of het met andere gebruikers te delen.</p> </td> 
         </tr> 
         <tr> 
          <td role="rowheader">Beheren</td> 
-         <td> <p>Hiermee kunt u het aangepaste veld bewerken en weergeven in de veldbibliotheek en op de pagina waar u aangepaste formulieren maakt.</p> <p>U kunt op <strong>Geavanceerde instellingen</strong> om op te geven of de gebruiker of gebruikers toegang moeten kunnen gebruiken om het item uit het systeem te verwijderen of het met andere gebruikers te delen.</p> </td> 
+         <td> <p>Hiermee kunt u het aangepaste veld bewerken en weergeven in de veldbibliotheek en op de pagina waar u aangepaste formulieren maakt.</p> <p>U kunt <strong> Geavanceerde Montages </strong> klikken om te specificeren of u de gebruiker of de gebruikers hun toegang wilt kunnen gebruiken om het punt van het systeem te schrappen of het met andere gebruikers te delen.</p> </td> 
         </tr> 
        </tbody> 
       </table>
 
 1. (Optioneel) Herhaal de vorige stap om andere namen aan de lijst toe te voegen en de opties te configureren.
-1. (Optioneel) Klik op het tandwielpictogram ![Instellingenpictogram](assets/gear-icon-settings.png) in de rechterbovenhoek als u een optie voor het delen van het veld voor het hele systeem wilt kiezen.
+1. (Facultatief) klik het pictogram van de Montages van het tandwielpictogram ![ ](assets/gear-icon-settings.png) in de hoger-juiste hoek als u een systeem-brede het delen optie voor het gebied wilt kiezen.
 
    Niet alle volgende opties worden tegelijkertijd weergegeven in dit vervolgkeuzemenu. De tweede wordt bijvoorbeeld alleen weergegeven wanneer een van de andere twee is geselecteerd.
 
-   * **Dit bewerkbaar maken voor het hele systeem, zodat iedereen in Workfront het kan bewerken** (de standaardoptie)
+   * **maak dit editable systeem-breed zodat iedereen in Workfront het** (de standaardoptie) kan uitgeven
 
      Wanneer u een aangepast veld of een aangepaste widget toevoegt en u het delen ervan niet beperkt, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren deze weergeven en de eigenschappen ervan bewerken.
 
-   * **Toegang tot bewerken in het hele systeem verwijderen**
+   * **verwijder systeem-brede uitgeeft toegang**
 
      Hiermee beperkt u de toegang tot alleen de personen die u aan de lijst hebt toegevoegd.
 
-   * **Dit systeem zo zichtbaar maken dat iedereen in Workfront het kan zien**
+   * **maak dit zichtbaar systeem-breed zodat iedereen in Workfront het** kan zien
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Delen van een aangepast veld of aangepaste widget vanuit de formulierontwerper configureren
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
+1. In het linkerpaneel, klik **Aangepaste Forms**.
 1. Open een aangepast formulier of maak een nieuw aangepast formulier.
-1. Selecteer in de formulierontwerper het item waarvoor u delen wilt configureren, en klik vervolgens op **Delen** in het gebied het uitgeven gebied op het recht.
-1. In het vak dat wordt weergegeven, onder **Aangepaste formuliertoegang verlenen aan**, begin de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf te typen u het punt met wilt delen, dan druk **Enter** wanneer de naam wordt weergegeven.
+1. In de vormontwerper, selecteer het punt u het delen voor wilt vormen, dan **Aandeel** op het gebied het uitgeven gebied op het recht klikken.
+1. In de doos die toont, onder **de toegang van de douanevorm van de Verlening tot**, begin de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf te typen u het punt met wilt delen, dan **binnengaan** wanneer de naamvertoningen.
 1. Als u specifieker wilt zijn over hoe u het punt deelt, klik het drop-down menu rechts van de naam, dan gebruik om het even welke volgende opties:
 
    <table style="table-layout:auto"> 
@@ -113,11 +114,11 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       <tbody> 
        <tr> 
         <td role="rowheader">Weergeven</td> 
-        <td> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of gebruikers het item aan een aangepast formulier mogen toevoegen of het met andere gebruikers mogen delen.</p> </td> 
+        <td> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u de gebruikers het punt aan een douaneformulier wilt kunnen toevoegen of het met andere gebruikers delen.</p> </td> 
        </tr> 
        <tr> 
         <td role="rowheader">Beheren</td> 
-        <td> <p>Hiermee kunt u het aangepaste veld bewerken en weergeven in de veldbibliotheek en in de formulierontwerper.</p> <p>Klikken <strong>Geavanceerde instellingen</strong> om op te geven of de gebruikers het item uit het systeem moeten kunnen verwijderen of het met andere gebruikers moeten kunnen delen.</p> </td> 
+        <td> <p>Hiermee kunt u het aangepaste veld bewerken en weergeven in de veldbibliotheek en in de formulierontwerper.</p> <p>Klik <strong> Geavanceerde Montages </strong> om te specificeren of u de gebruikers het punt van het systeem wilt kunnen schrappen of het met andere gebruikers delen.</p> </td> 
        </tr> 
      </tbody> 
     </table>
@@ -125,18 +126,18 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 1. (Optioneel) Herhaal stap 5-6 om andere namen aan de lijst toe te voegen en hun opties te configureren.
 1. (Optioneel) Kies een optie voor systeembreed delen voor het veld:
 
-   * **Iedereen in het systeem kan bewerken** (de standaardoptie)
+   * **iedereen in het systeem kan** uitgeven (de standaardoptie)
 
      Wanneer u een aangepast veld of een aangepaste widget toevoegt en u het delen ervan niet beperkt, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren deze weergeven en de eigenschappen ervan bewerken.
 
-   * **Iedereen in het systeem kan bekijken**
-   * **Alleen uitgenodigde personen hebben toegang**
+   * **iedereen in het systeem kan** bekijken
+   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben
 
      Beperkt de toegang tot slechts die u aan de lijst toevoegde.
 
-   ![Opties voor delen](assets/share-field-in-designer.png)
+   ![ het Delen opties ](assets/share-field-in-designer.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Overgenomen toegang tot aangepaste velden en widgets wanneer een aangepast formulier wordt gedeeld
 
@@ -152,11 +153,11 @@ U kunt erachter komen wie toegang tot een aangepast veld of een aangepaste widge
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aangepaste Forms**.
-1. Klikken **Velden** Selecteer vervolgens het veld, de afbeelding of de toegangs-widget.
-1. Klik in het weergegeven vak op **Overgenomen machtigingen** en bekijk de namen die worden weergegeven.
-1. Klikken **Annuleren**.
+1. In het linkerpaneel, klik **Aangepaste Forms**.
+1. Klik **Gebieden**, dan selecteer het gebied, het beeld, of de toegangswidget.
+1. In de doos die toont, klik **Geërfte Toestemmingen** en bekijk de namen die tonen.
+1. Klik **annuleren**.
 
 ### Toegang tot een aangepast veld of aangepaste widget verwijderen in een aangepast formulier dat is gedeeld {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Als u de toegang tot een aangepast veld of een aangepaste widget in een gedeeld formulier moet verwijderen, moet u het delen van het formulier opheffen. Zie de sectie voor instructies [Toegang tot een aangepast formulier verwijderen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) in het artikel [Een aangepast formulier delen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Als u de toegang tot een aangepast veld of een aangepaste widget in een gedeeld formulier moet verwijderen, moet u het delen van het formulier opheffen. Voor instructies, zie de sectie [ toegang tot een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) in het artikel [ om een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) te delen.

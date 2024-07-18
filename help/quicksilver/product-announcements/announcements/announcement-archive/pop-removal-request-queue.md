@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,15 @@ POP-technologie is een onbetrouwbare, minder veilige e-mailoptie. Bovendien zien
 
 ## Welke actie moet ik ondernemen?
 
-U moet een nieuw e-mailadres instellen voor elke aanvraagwachtrij die u hebt ingesteld met POP-e-mail in uw productieomgeving en het nieuwe e-mailadres naar wens verspreiden. Zie voor meer informatie [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+U moet een nieuw e-mailadres instellen voor elke aanvraagwachtrij die u hebt ingesteld met POP-e-mail in uw productieomgeving en het nieuwe e-mailadres naar wens verspreiden. Voor meer informatie, zie [ gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md) te e-mailen.
 
 ## Wat is het overgangsplan?
 
-Vanaf de release van 21.1 begin februari hebt u 60 dagen om uw gebruikers over te brengen naar de nieuwe *@take.workfront.com* e-mailadres dat u maakt. Tijdens de periode van 60 dagen, zal POP eerder gebruikt e-mail blijven werken.
+Vanaf de release van 21.1 begin februari hebt u 60 dagen om uw gebruikers over te brengen naar het nieuwe e-mailadres *@take.workfront.com* dat u maakt. Tijdens de periode van 60 dagen, zal POP eerder gebruikt e-mail blijven werken.
 
 ## Hoe kan ik dit testen in Voorvertoning?
 
-Als u deze wijziging in de voorvertoning wilt testen, moet u e-mails inschakelen in de voorvertoningsomgeving. Volg hiervoor de instructies in de voorbeeldsectie voor het beheren van e-mails in [Verzending van e-mails vanuit de voorbeeldsandbox-omgeving inschakelen](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Als u deze wijziging in de voorvertoning wilt testen, moet u e-mails inschakelen in de voorvertoningsomgeving. Om dit te doen, volg de instructies in het Leiden e-mails in voorproefsectie in [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
 >[!IMPORTANT]
 >

@@ -18,10 +18,10 @@ ht-degree: 0%
 # Adobe Workfront voor Experience Manager Assets en Assets Essentials: artikelindex
 
 * [Overzicht van Adobe Experience Manager Assets-integratie](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Elementen en mappen koppelen vanuit Experience Manager Assets of Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [ de activa en de omslagen van de Verbinding van Experience Manager Assets of Assets Essentials ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Toegewezen metagegevens voor Experience Manager Assets of Assets Essentials weergeven](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-* [Een document verzenden naar Experience Manager Assets of Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-* [Bewijs van een gekoppeld actief voor Experience Manager Assets of Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [ verzend een Document naar Experience Manager Assets of Assets Essentials ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+* [ Bewijs een verbonden activa voor Experience Manager Assets of Assets Essentials ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Een gekoppeld element weergeven of downloaden van Experience Manager Assets of Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Een map maken die is gekoppeld met Experience Manager Assets of Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)

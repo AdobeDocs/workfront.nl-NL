@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Deze pagina bevat wekelijks een overzicht van de ontwikkelingsupdates die worden uitgebracht voor de bètaversie van Canvasdashboards.
 
-Zie voor algemene informatie over de bètaversie van Canvasdashboards [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Voor algemene informatie over de bèta van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Week van 14 augustus
 
-* **Besturingselementen op toegangsniveau voor canvasdashboards**
+* **het niveaucontroles van de Toegang voor de Dashboards van het Canvas**
 
   De toegang tot de dashboards van het Canvas van de mening en geeft kan nu worden gecontroleerd door de opstelling van het toegangsniveau die de bestaande dashboardfunctionaliteit controleert.
 
 ## Week van 5 juni
 
-* **Grafiekrapporten**
+* **rapporten van de Grafiek**
 
-  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een dashboard van het Canvas, zie [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  U kunt nu naast lijstrapporten ook grafiekrapporten toevoegen aan een canvas. Voor meer informatie bij het toevoegen van een grafiekrapport aan een Dashboard van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

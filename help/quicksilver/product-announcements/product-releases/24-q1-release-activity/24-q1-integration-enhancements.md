@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Metagegevens toewijzen in Experience Manager Assets Essentials gebruikt nu `xcm:keywords` in plaats van `dc:subject`
 
-We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de as a Cloud Service integratie van Experience Manager Assets. Wanneer u nu meerdere tekstvelden met één regel toewijst aan één veld in Experience Manager Assets, gebruiken beide services de opdracht `xcm:keywords` veld.
+We hebben de Experience Manager Assets Essentials-integratie bijgewerkt en aangepast aan de ervaring die is opgedaan met de as a Cloud Service integratie van Experience Manager Assets. Wanneer u nu meerdere tekstvelden met één regel aan één veld in Experience Manager Assets toewijst, gebruiken beide services het veld `xcm:keywords` .
 
-Eerder werden deze velden toegewezen aan de `dc:subject` in Experience Manager Assets Essentials. De as a Cloud Service Experience Manager Assets-functionaliteit blijft ongewijzigd.
+Eerder werden deze velden toegewezen aan het veld `dc:subject` in Experience Manager Assets Essentials. De as a Cloud Service Experience Manager Assets-functionaliteit blijft ongewijzigd.
 
-Alle Experience Manager Assets Essentials-metagegevens die momenteel zijn toegewezen aan `dc:subject` opnieuw toewijzen aan `xcm:keywords`.
+Alle Experience Manager Assets Essentials-metagegevens die momenteel zijn toegewezen aan `dc:subject` moeten opnieuw worden toegewezen aan `xcm:keywords` .
 
-Voor informatie over het toewijzen van metagegevens aan Experience Manager Assets Essentials raadpleegt u [AEM trefwoord](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
+Voor informatie bij het in kaart brengen van meta-gegevens aan de Hoofdzaak van Experience Manager Assets, zie [ AEM Sleutelwoord ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## Typeahead-velden zijn nu beschikbaar in Adobe Experience Manager-integratie
 
@@ -34,12 +34,12 @@ Om het gemakkelijker te maken om gebieden tussen Workfront en Adobe Experience M
 
 Als een gebruiker een andere waarde voor een veld in Workfront selecteert, wordt deze wijziging direct doorgevoerd in Adobe Experience Manager. Als een optie voor de veldwaarde wordt gewijzigd (bijvoorbeeld een team dat de naam wijzigt in een nieuwe naam), wordt deze wijziging ook doorgevoerd in Adobe Experience Manager.
 
-Voor informatie en instructies over het in kaart brengen van meta-gegevens in de integratie van Adobe Experience Manager, zie [Metagegevens instellen](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-metadata-optional).
+Voor informatie en instructies op meta-gegevensafbeelding in de integratie van Adobe Experience Manager, zie [ de meta-gegevens van de Opstelling ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-metadata-optional).
 
 ## Elementen automatisch publiceren in Adobe Experience Manager
 
 We hebben nog een workflow toegevoegd aan de Adobe Experience Manager-integratie. Nu kunt u instellen dat uw elementen automatisch worden gepubliceerd wanneer ze naar Adobe Experience Manager worden verzonden. De integratie kan worden geconfigureerd om te publiceren naar de Adobe Experience Manager-publicatieservice of naar een Adobe Experience Manager-portaalsite.
 
-De workflow Automatisch publiceren kan worden ingeschakeld en geconfigureerd in de Adobe Experience Manager-integratie. Wanneer toegelaten, kan het werkschema op het projectmalplaatje of projectniveau worden uitgegeven.
+De automatische Publish-workflow kan worden ingeschakeld en geconfigureerd in de Adobe Experience Manager-integratie. Wanneer toegelaten, kan het werkschema op het projectmalplaatje of projectniveau worden uitgegeven.
 
-Zie voor meer informatie [Elementen publiceren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Workflows gebruiken in de Experience Manager Assets-integratie](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Voor meer informatie, zie [ het Publiceren activa ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

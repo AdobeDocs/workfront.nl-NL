@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Agile-teams maken en beheren
 
-Voor informatie over hoe te om flexibele teams tot stand te brengen en te beheren, zie [Een bestandsteam maken](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Voor informatie over hoe te om te creëren en te beheren mobiele teams, zie [ een nieuw team ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.

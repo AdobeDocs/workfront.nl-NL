@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # Overzicht van releaseactiviteiten 2019.2
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van 2019.2. Ga als u deze inhoud in PDF-indeling wilt downloaden naar [hier](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van 2019.2. Om deze inhoud in het formaat van PDF te downloaden, ga [ hier ](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
 
 >[!NOTE]
 >
 >De release van 2019.2 werd op de volgende data beschikbaar gesteld in de productieomgeving:
 >
->* *Workfront Production environment for clusters 2, 4 en 6 - 23 mei*
->* *Workfront Production environment for clusters 1, 3 en 5 - 24 mei*
->* *Workfront Proofing Production Environment - 21 mei*
+>* *het milieu van de Productie van Workfront voor clusters 2, 4, en 6 - 23 mei*
+>* *Workfront het milieu van de Productie voor clusters 1, 3, en 5 - mei 24*
+>* *de Productiemilieu van Workfront Proof - 21 mei*
 
 De versie 2019.2 bevat verbeteringen voor zowel systeembeheerders als andere gebruikers.
 
@@ -88,13 +88,13 @@ De versie 2019.2 bevat verbeteringen voor zowel systeembeheerders als andere geb
 
   U kunt standaarddouaneformulieren en goedkeuringsprocessen nu vormen om aan taken vast te maken wanneer u taken aan een project toevoegt.
 
-* [Groepen sneller zoeken bij het aanpassen van statussen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [ vind groepen sneller wanneer het Aanpassen van Statussen ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   Het vervolgkeuzemenu op het tabblad Statussen in het gedeelte Instellen is nu een hoofdmenu.
 
 ### Verbeterde integratie
 
-* [Bijgewerkte Workfront for Adobe Creative Cloud Integration](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [ Bijgewerkte Workfront voor de Integratie van Adobe Creative Cloud ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   De extensie Workfront for Adobe Creative Cloud omvat nu de integratie met Workfront Library.
 
@@ -116,7 +116,7 @@ De versie 2019.2 bevat verbeteringen voor zowel systeembeheerders als andere geb
 
 * Verbeterde lijstervaring in iOS en Android
 
-  De weergave voor alle lijstweergaven wordt nu bijgewerkt in zowel de iOS- als de Android-apps.
+  Het uiterlijk van alle lijstweergaven wordt nu bijgewerkt in de iOS- en Android-toepassingen.
 
 ## Verbeteringen die rechtstreeks aan Productie worden vrijgegeven
 
@@ -126,17 +126,17 @@ De versie 2019.2 bevat verbeteringen voor zowel systeembeheerders als andere geb
 
 * Als u objecten hebt die niet meer worden gebruikt, kunt u deze deactiveren en verbergen in lijsten om te voorkomen dat gebruikers deze aan andere objecten koppelen.
 
-* [Groepen sneller zoeken bij het aanpassen van statussen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [ vind groepen sneller wanneer het Aanpassen van Statussen ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   Het vervolgkeuzemenu op het tabblad Statussen in het gedeelte Instellen is nu een hoofdmenu.
 
 
 ## Aankondigingen
 
-* [Workfront-bibliotheek nu beschikbaar](#workfront-library-now-available)
-* [API-versie 3 wordt niet meer ondersteund](#api-version-3-no-longer-supported)
-* [TLS-ondersteuning is afgelopen](#tls-support-is-ending)
-* [Verwijderen van Flash-toepassing](#flash-application-removal)
+* [ nu Beschikbare Bibliotheek van Workfront ](#workfront-library-now-available)
+* [ API Versie 3 niet meer gesteund ](#api-version-3-no-longer-supported)
+* [ de steun van TLS beëindigt ](#tls-support-is-ending)
+* [ de Verwijdering van de Toepassing van de Flash ](#flash-application-removal)
 * [Verschillende Single Sign-On-opties die moeten worden verwijderd](#various-single-sign-on-options-to-be-removed)
 
 ### Workfront-bibliotheek nu beschikbaar {#workfront-library-now-available}
@@ -145,19 +145,19 @@ Workfront Library is een digitale-inhoudhub voor bedrijven die u kunt gebruiken 
 
 ### API-versie 3 wordt niet meer ondersteund {#api-version-3-no-longer-supported}
 
-Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Zie voor meer informatie over het ondersteuningsschema voor versies van de Workfront API [API-versieschema en ondersteuningsschema](../../../../wf-api/api/api-version-support-schedule.md).
+Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### TLS-ondersteuning is afgelopen {#tls-support-is-ending}
 
 Om een optimale beveiliging te bieden, eist Workfront dat alle integratie en het webverkeer die TLS 1.0 of eerder gebruiken, worden geüpgraded naar het gebruik van TLS 1.1 of hoger. Deze wijziging is al van kracht in de voorvertoningsomgeving.
 
-Zie voor meer informatie [TLS 1.2 is vereist in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Voor meer informatie, zie [ TLS 1.2 die in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md) wordt vereist.
 
 ### Verwijderen van Flash-toepassing {#flash-application-removal}
 
 Alle functionaliteit die afhankelijk is van de technologie van de Flash is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [Vervanging van gereedschappen op basis van Flash in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### Verschillende Single Sign-On-opties die moeten worden verwijderd {#various-single-sign-on-options-to-be-removed}
 
@@ -165,15 +165,15 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * LDAP
 
-  Ga voor meer informatie over het gebruik van LDAP met Workfront naar [Adobe Workfront configureren met LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Adobe Workfront met LDAP ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen.
 
 * Active Directory
 
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [Adobe Workfront configureren met Active Directory](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Adobe Workfront met Actieve Folder ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen.
 
 * SAML 1.1
 
-  Voor meer informatie over het gebruik van SAML 1.1 met Workfront raadpleegt u [Adobe Workfront configureren met SAML 1.1](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md).
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Adobe Workfront met SAML 1.1 ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen.
 
 Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
@@ -195,7 +195,7 @@ Het productdossier Roadmap Webinar 2019 is donderdag 23 mei 2019 gepresenteerd.
 
 Word lid van het Workfront-team voor productbeheer om meer te leren over onze productvisie, de routekaart voor 2019 en hoe u erbij betrokken kunt raken.
 
-Als u de webinar-opname wilt weergeven, raadpleegt u [Q2 2019 Product Roadmap Webinar](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+Om de webinar opname te bekijken, zie [ Q2 2019 van het Product Roadmap Webinar ](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
 
 ### Workfront Product Roadmap Webinar - Q1 2019
 

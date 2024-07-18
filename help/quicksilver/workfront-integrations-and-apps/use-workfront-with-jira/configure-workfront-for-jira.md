@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: Configureren [!DNL Adobe Workfront for Jira]
-description: U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL Workfront] systemen.
+title: Configureren  [!DNL Adobe Workfront for Jira]
+description: U kunt  [!DNL Adobe Workfront for Jira]  gebruiken om uw  [!DNL Jira]  en  [!DNL Workfront]  systemen te integreren.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-U kunt [!DNL Adobe Workfront for Jira] om uw [!DNL Jira] en [!DNL Workfront] systemen.
+Met [!DNL Adobe Workfront for Jira] kunt u uw [!DNL Jira] - en [!DNL Workfront] -systemen integreren.
 
-Nadat u de invoegtoepassing hebt geïnstalleerd, kunt u workflows definiëren die [!DNL Jira] automatisch uitgaven wanneer [!DNL Workfront] tijdelijke items worden gemaakt. De items in beide toepassingen worden gekoppeld en sommige van de gegevens worden automatisch bijgewerkt in beide systemen.
+Nadat u de invoegtoepassing hebt geïnstalleerd, kunt u workflows definiëren waarmee automatisch [!DNL Jira] -problemen worden gemaakt wanneer [!DNL Workfront] -werkitems worden gemaakt. De items in beide toepassingen worden gekoppeld en sommige van de gegevens worden automatisch bijgewerkt in beide systemen.
 
-Alle gebruikers in [!DNL Workfront] en [!DNL Jira] kan van deze integratie profiteren. Ze hebben alleen een licentie nodig voor het systeem waarin ze het meest werken, en niet voor beide systemen.
+Alle gebruikers in [!DNL Workfront] en [!DNL Jira] kunnen van deze integratie profiteren. Ze hebben alleen een licentie nodig voor het systeem waarin ze het meest werken, en niet voor beide systemen.
 
-Deze invoegtoepassing is beschikbaar voor de [!UICONTROL Server] en [!UICONTROL OnDemand] (of [!UICONTROL Cloud]) versies van [!DNL Jira] Software.
+Deze invoegtoepassing is beschikbaar voor zowel de [!UICONTROL Server] - als de [!UICONTROL OnDemand] -versie (of [!UICONTROL Cloud] -versie) van [!DNL Jira] Software.
 
-Voor een lijst met [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel wordt ondersteund, zie [[!DNL Workfront for Jira]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) bij de [!DNL Atlassian Marketplace].
+Zie [[!DNL Workfront for Jira] ](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) op de website [!DNL Atlassian Marketplace] voor een lijst met [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel ondersteunt.
 
 ## Toegangsvereisten
 
@@ -41,169 +41,169 @@ U moet het volgende hebben:
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]</td> 
    <td><p>Nieuw: alle</p>
        <p>of</p>
-       <p>Huidige: [!UICONTROL Pro] of hoger</p>
+       <p>Huidig: [!UICONTROL Pro] of hoger</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td><p>Nieuw: [!UICONTROL Standard] </p>
        <p>of</p> 
-       <p>Huidige: [!UICONTROL Plan] </p>
+       <p>Huidig: [!UICONTROL Plan] </p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] toegang</td> 
-   <td> <p>Toegang tot systeembeheerder</p> <p>Belangrijk: wij adviseren dat u afzonderlijke rekeningen van de systeembeheerder in [!DNL Jira] en [!DNL Workfront] om aan deze integratie te wijden, eerder dan het gebruiken van bestaande degenen die aan gebruikers zouden kunnen worden vastgemaakt.</p> </td> 
+   <td> <p>Toegang tot systeembeheerder</p> <p>Belangrijk: we raden u aan aparte systeembeheerdersaccounts te maken in [!DNL Jira] en [!DNL Workfront] om deze integratie te bevorderen in plaats van bestaande accounts te gebruiken die aan gebruikers kunnen worden gekoppeld.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u kunt configureren [!DNL Workfront for Jira], moet u:
+Voordat u [!DNL Workfront for Jira] kunt configureren, moet u:
 
-* Installeren [!DNL Workfront for Jira].
-Voor installatie-instructies [!DNL Workfront for Jira], zie [Installeren [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+* Installeer [!DNL Workfront for Jira] .
+Voor instructies bij het installeren van [!DNL Workfront for Jira], zie [ installeren  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
 ## Configureren [!DNL Workfront for Jira]
 
-Door te configureren [!DNL Workfront for Jira]kunt u:
+Door [!DNL Workfront for Jira] te configureren, kunt u:
 
-* triggers definiëren die worden gemaakt [!DNL Jira] items wanneer [!DNL Workfront] items worden gemaakt.
-* Opgeven welke velden moeten worden gesynchroniseerd tussen items die zijn gekoppeld tussen [!DNL Jira] en [!DNL Workfront].
+* Definieer triggers die [!DNL Jira] -items maken wanneer [!DNL Workfront] -items worden gemaakt.
+* Geef op welke velden moeten worden gesynchroniseerd tussen items die zijn gekoppeld tussen [!DNL Jira] en [!DNL Workfront] .
 
 >[!NOTE]
 >
->* Nadat u [!DNL Workfront for Jira] op uw [!DNL Jira] milieu, alle [!DNL Jira] gebruikers zien een [!DNL Workfront] deelvenster rechts op alles [!DNL Jira] objecten. Het deelvenster bevat informatie over de items die kunnen worden gekoppeld vanuit [!DNL Workfront] of geeft aan dat er geen [!DNL Workfront] items zijn gekoppeld aan [!DNL Jira] objecten.
->* Wanneer u de opdracht [!DNL Jira Server] -installatie, alleen de problemen die samenhangen met projecten die zijn geïdentificeerd als triggers voor de Workfront-integratie, geven het Workfront-deelvenster weer. Voor meer informatie over het instellen van triggers voor de [!DNL Workfront to Jira] workflow, zie [Triggers configureren voor het automatisch koppelen van items tussen [!DNL Jira] en [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
+>* Nadat u [!DNL Workfront for Jira] hebt geconfigureerd in uw [!DNL Jira] -omgeving, zien alle [!DNL Jira] -gebruikers een [!DNL Workfront] rechterdeelvenster op alle [!DNL Jira] -items. Het deelvenster bevat informatie over de items die kunnen worden gekoppeld vanuit [!DNL Workfront] of geeft op dat er geen [!DNL Workfront] -items zijn gekoppeld aan [!DNL Jira] -items.
+>* Wanneer u de [!DNL Jira Server] -installatie gebruikt, wordt alleen het Workfront-deelvenster weergegeven voor de problemen die worden geassocieerd met projecten die zijn geïdentificeerd als triggers voor de Workfront-integratie. Voor meer informatie over vestiging trekkers voor het [!DNL Workfront to Jira] werkschema, zie [ trekkers voor het automatisch verbinden van punten tussen  [!DNL Jira]  en  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) vormen.
 >
 
-Om te vormen [!DNL Workfront for Jira]:
+Om [!DNL Workfront for Jira] te configureren:
 
-1. Aanmelden bij [!DNL Jira] als [!DNL Jira] beheerder.
-1. Klikken **[!UICONTROL Settings]** in het algemeen [!DNL Jira] -menu.
-1. Klikken **[!UICONTROL Add-ons]** en klik vervolgens op **[!UICONTROL Manage add-ons]**.
+1. Meld u aan bij [!DNL Jira] als [!DNL Jira] -beheerder.
+1. Klik op **[!UICONTROL Settings]** in het hoofdmenu [!DNL Jira] .
+1. Klik op **[!UICONTROL Add-ons]** en vervolgens op **[!UICONTROL Manage add-ons]** .
 
-1. Breid uit **[!DNL Workfront]** invoegtoepassing.
+1. Vouw de invoegtoepassing **[!DNL Workfront]** uit.
 1. Klik op **[!UICONTROL Configure]**.
-1. Volg de aanwijzingen voor aanmelden [!DNL Workfront].
+1. Volg de aanwijzingen om u aan te melden bij [!DNL Workfront] .
 
    >[!NOTE]
    >
-   >De gebruiker moet een geldige `apiKey` in [!UICONTROL Workfront] om een geslaagde verbinding te maken.
+   >De gebruiker moet een geldige `apiKey` in [!UICONTROL Workfront] hebben om een verbinding tot stand te brengen.
 
-   U moet zich aanmelden bij [!DNL Workfront] als [!DNL Workfront] beheerder om de configuratie voort te zetten.
-
-   >[!NOTE]
-   >
-   >* [!UICONTROL Workfront] verbindt met [!DNL Jira] het gebruiken van OAuth 2.0, een norm die door de meeste web-based integratie voor de authentificatie en de vergunning van gebruikers wordt gebruikt.
-   >* Wanneer u wordt gevraagd het domein van uw [!DNL Workfront] -account, typt u deze notatie: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
-   >* Verbeterde verificatie is pas beschikbaar na een [!DNL Workfront] de beheerder laat het voor deze integratie toe.
-
-1. Selecteer in Jira de **[!UICONTROL Triggers]** tab om het automatisch maken van [!DNL Jira] objecten als nieuwe [!DNL Workfront] items worden gemaakt.
-
-   Voor meer informatie over het instellen van triggers voor de Workfront voor [!DNL Jira] workflow, zie [Triggers configureren voor het automatisch koppelen van items tussen [!DNL Jira] en [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
-
-1. Selecteer de **[!UICONTROL Setup]** tab om de synchronisatie van velden tussen gekoppelde velden te configureren [!DNL Jira] en [!DNL Workfront] objecten.
-
-   Voor meer informatie over het instellen van de synchronisatie van velden tussen [!DNL Jira] en [!DNL Workfront], zie [Veldsynchronisatie configureren tussen [!DNL Jira] en [!DNL Workfront] Items](#configure-field-synchronization-between-jira-and-workfront-items).
+   U moet zich aanmelden bij [!DNL Workfront] als [!DNL Workfront] -beheerder om de configuratie voort te zetten.
 
    >[!NOTE]
    >
-   >Nadat u de triggers en de synchronisatie van velden tussen de twee toepassingen hebt gedefinieerd, kunt u [!DNL Workfront] gebruiker die taken of problemen kan maken, kan het maken van een item in [!DNL Jira]. De gebruiker kan een item maken als de criteria voor het item dat ze maken overeenkomen met de triggers in [!DNL Jira], zelfs als de gebruiker geen [!DNL Jira] licentie. Ook alle [!DNL Jira] gebruiker kan meteen beginnen met het werken aan de [!DNL Jira] en de bijbehorende updates zijn zichtbaar in [!DNL Workfront], zonder dat zij een [!DNL Workfront] licentie. Alle updates in [!DNL Workfront] zijn ook zichtbaar op de [!DNL Jira] objecten.
+   >* [!UICONTROL Workfront] maakt verbinding met [!DNL Jira] via OAuth 2.0, een standaard die door de meeste webgebaseerde integraties wordt gebruikt voor de verificatie en autorisatie van gebruikers.
+   >* Wanneer u wordt ertoe aangezet om het domein van uw [!DNL Workfront] rekening in te gaan, typ het gebruikend dit formaat: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
+   >* Verbeterde verificatie is pas beschikbaar als een [!DNL Workfront] -beheerder deze heeft ingeschakeld voor deze integratie.
 
-1. (Optioneel) Selecteer de optie **[!UICONTROL Activity Log]** om eventuele fouten tijdens de integratie te controleren.
+1. Selecteer in Jira het tabblad **[!UICONTROL Triggers]** om het automatisch maken van [!DNL Jira] items te configureren als er nieuwe [!DNL Workfront] -items worden gemaakt.
 
-   Voor meer informatie over de [!UICONTROL Activity Log], zie [De weergave [!DNL Jira] [!UICONTROL Activity Log]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
+   Voor meer informatie over vestiging trekkers voor Workfront aan [!DNL Jira] werkschema, zie [ trekkers voor automatisch het verbinden van punten tussen  [!DNL Jira]  en  [!DNL Workfront]](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront) vormen.
 
-## Triggers configureren voor het automatisch koppelen van items tussen [!DNL Jira] en [!DNL Workfront]
+1. Selecteer het tabblad **[!UICONTROL Setup]** om de synchronisatie van velden tussen gekoppelde [!DNL Jira] - en [!DNL Workfront] -items te configureren.
 
-Als de [!DNL Jira] systeembeheerder, kunt u trekkers bepalen die automatisch kwesties in [!DNL Jira] wanneer een item in [!DNL Workfront] voldoet aan bepaalde criteria.
+   Voor meer informatie over vestiging de synchronisatie van gebieden tussen [!DNL Jira] en [!DNL Workfront], zie [ gebiedssynchronisatie tussen  [!DNL Jira]  en  [!DNL Workfront]  Punten ](#configure-field-synchronization-between-jira-and-workfront-items) vormen.
+
+   >[!NOTE]
+   >
+   >Nadat u de triggers en de synchronisatie van velden tussen de twee toepassingen hebt gedefinieerd, kan elke [!DNL Workfront] -gebruiker die taken of problemen kan maken, mogelijk een item maken in [!DNL Jira] . De gebruiker kan een item maken als de criteria voor het item dat hij of zij maakt, overeenkomen met de triggers in [!DNL Jira] , zelfs als de gebruiker geen [!DNL Jira] -licentie heeft. Bovendien kan elke gebruiker van [!DNL Jira] direct aan het [!DNL Jira] -item beginnen te werken en zijn de updates ervan zichtbaar in [!DNL Workfront] zonder een [!DNL Workfront] -licentie. Alle updates in [!DNL Workfront] zijn ook zichtbaar op de [!DNL Jira] -items.
+
+1. (Optioneel) Selecteer het tabblad **[!UICONTROL Activity Log]** om eventuele fouten te controleren die tijdens de integratie zijn opgetreden.
+
+   Voor meer informatie over [!UICONTROL Activity Log], zie [ Mening  [!DNL Jira] [!UICONTROL Activity Log]](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
+
+## triggers configureren voor het automatisch koppelen van items tussen [!DNL Jira] en [!DNL Workfront]
+
+Als systeembeheerder van [!DNL Jira] kunt u triggers definiëren die automatisch problemen veroorzaken in [!DNL Jira] wanneer een item in [!DNL Workfront] aan bepaalde criteria voldoet.
 
 >[!NOTE]
 >
->Het kan tot 10 minuten duren voordat de integratie nieuwe problemen oplevert in [!DNL Jira].
+>Het kan tot 10 minuten duren voordat de integratie nieuwe problemen oplevert in [!DNL Jira] .
 
-Houd rekening met het volgende wanneer u het maken van [!DNL Jira] objecten als [!DNL Workfront] items worden gemaakt:
+Houd rekening met het volgende wanneer u het maken van [!DNL Jira] -items activeert terwijl [!DNL Workfront] -items worden gemaakt:
 
-* De integratie is eenrichtingsverkeer: u kunt alleen items activeren die u maakt in [!DNL Workfront] automatisch te maken in [!DNL Jira]. U kunt geen items activeren die u maakt in [!DNL Jira] automatisch te maken in [!DNL Workfront].
+* De integratie verloopt in één richting: u kunt alleen items die u maakt in [!DNL Workfront], activeren en automatisch maken in [!DNL Jira] . U kunt items die u maakt in [!DNL Jira] niet automatisch laten activeren in [!DNL Workfront] .
 * Er is geen limiet voor het aantal triggers dat u kunt gebruiken.
-* Als u een item maakt in [!DNL Workfront] komt overeen met meerdere triggers, er wordt slechts één item gemaakt in [!DNL Jira]. Het item wordt gemaakt in [!DNL Jira] volgens de eerste trigger (in de volgorde waarin ze zijn gedefinieerd in [!DNL Jira]). Alle andere triggers worden genegeerd.
-* Slechts één item in [!DNL Workfront] kan aan één punt in Jira worden verbonden. U kunt er nooit een koppelen [!DNL Workfront] item naar meerdere [!DNL Jira] problemen, of één [!DNL Jira] uitgifte aan meerdere [!DNL Workfront] objecten.
+* Als een item dat u maakt in [!DNL Workfront] overeenkomt met meerdere triggers, wordt er slechts één item gemaakt in [!DNL Jira] . Het item wordt gemaakt in [!DNL Jira] op basis van de eerste trigger (in de volgorde waarin deze zijn gedefinieerd in [!DNL Jira] ). Alle andere triggers worden genegeerd.
+* Er kan slechts één item in [!DNL Workfront] worden gekoppeld aan één item in Jira. U kunt één [!DNL Workfront] -item nooit koppelen aan meerdere [!DNL Jira] -problemen of één [!DNL Jira] -uitgave aan meerdere [!DNL Workfront] -items.
 
-triggers configureren voor het automatisch maken van items in [!DNL Jira]:
+triggers configureren voor het automatisch maken van items in [!DNL Jira] :
 
-1. Aanmelden bij [!DNL Jira] als systeembeheerder.
-1. Klikken **[!UICONTROL Settings]** in het algemeen [!DNL Jira] -menu.
-1. Klikken **[!UICONTROL Add-ons]** vervolgens **[!UICONTROL Manage add-ons]**.
-1. Breid uit **[!DNL Workfront]** invoegtoepassing.
+1. Meld u aan bij [!DNL Jira] als systeembeheerder.
+1. Klik op **[!UICONTROL Settings]** in het hoofdmenu [!DNL Jira] .
+1. Klik op **[!UICONTROL Add-ons]** en vervolgens op **[!UICONTROL Manage add-ons]** .
+1. Vouw de invoegtoepassing **[!DNL Workfront]** uit.
 1. Klik op **[!UICONTROL Configure]**.
-1. Aanmelden bij [!DNL Workfront] als systeembeheerder.
+1. Meld u aan bij [!DNL Workfront] als systeembeheerder.
 
-   De **[!UICONTROL Triggers]** wordt standaard geselecteerd in Jira.
+   Het tabblad **[!UICONTROL Triggers]** is standaard geselecteerd in Jira.
 
-1. Klikken **[!UICONTROL Add trigger]** een nieuwe trigger toevoegen.
-1. In de **[!UICONTROL Workfront team/user/role]** veld, geeft u de naam van een [!DNL Workfront] team, gebruiker of taakrol, en klik vervolgens om deze te selecteren wanneer deze in de lijst wordt weergegeven.
+1. Klik op **[!UICONTROL Add trigger]** om een nieuwe trigger toe te voegen.
+1. Geef in het veld **[!UICONTROL Workfront team/user/role]** de naam van een [!DNL Workfront] -team, -gebruiker of -taakrol op en klik om deze te selecteren wanneer deze in de lijst wordt weergegeven.
 
    >[!NOTE]
    >
    >U kunt geen veelvoudige trekkers voor het zelfde team, de gebruiker, of de rol hebben.
 
-   Wanneer iemand een taak of een kwestie creeert en het aan één van deze entiteiten toewijst, wordt een kwestie automatisch gecreeerd in [!DNL [!DNL Jira]].
+   Wanneer iemand een taak of een uitgave maakt en deze aan een van deze entiteiten toewijst, wordt automatisch een uitgave gemaakt in [!DNL [!DNL Jira]].
 
-1. In de **[!UICONTROL [!DNL Jira] project]** veld, de naam van een [!DNL Jira] en klikt u vervolgens om het te selecteren wanneer het wordt weergegeven in de lijst.
+1. Typ in het veld **[!UICONTROL [!DNL Jira] project]** de naam van een [!DNL Jira] -project en klik om het te selecteren wanneer het in de lijst wordt weergegeven.
 
-   Wanneer de [!DNL Jira] De uitgave wordt gecreeerd, wordt het geplaatst op het project u hier koos.
+   Wanneer de [!DNL Jira] -uitgave wordt gemaakt, wordt deze geplaatst in het project dat u hier hebt gekozen.
 
-1. Selecteer een **I[!UICONTROL ssue type]** in het keuzemenu.
+1. Selecteer een **I[!UICONTROL ssue type]** van het drop-down menu.
 
-   Dit geeft het type uitgave aan waarin [!DNL Jira] wanneer aan de voorwaarden van deze trigger is voldaan, op basis van uw instellingen voor dat specifieke project in [!DNL Jira].
+   Dit geeft het type uitgave aan dat wordt gemaakt in [!DNL Jira] wanneer aan de voorwaarden van deze trigger wordt voldaan, op basis van uw instellingen voor dat specifieke project in [!DNL Jira] .
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Met deze configuratie, telkens als [!DNL Workfront] gebruiker maakt een item dat overeenkomt met de opgegeven triggers. Er wordt een nieuwe uitgave gemaakt in [!DNL Jira].
+   Met deze configuratie wordt telkens wanneer een [!DNL Workfront] -gebruiker een item maakt dat overeenkomt met de opgegeven triggers, een nieuwe uitgave gemaakt in [!DNL Jira] .
 
 ## Veldsynchronisatie configureren tussen [!DNL Jira] en [!DNL Workfront] Items
 
-Als de [!DNL Jira] beheerder, kunt u bepalen welke gebieden automatisch op punten zouden moeten synchroniseren die tussen worden verbonden [!DNL Workfront] en Jira. Bepaalde velden kunnen worden gesynchroniseerd via het dialoogvenster [!DNL Workfront] aan de [!DNL Jira] en andere synchroniseren van Jira naar Workfront.
+Als beheerder [!DNL Jira] kunt u bepalen welke velden automatisch moeten worden gesynchroniseerd voor items die zijn gekoppeld tussen [!DNL Workfront] en Jira. Bepaalde velden kunnen worden gesynchroniseerd van het item [!DNL Workfront] naar het item [!DNL Jira] en andere velden kunnen worden gesynchroniseerd van Jira naar Workfront.
 
 Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren die tussen de twee toepassingen worden verbonden:
 
-1. Aanmelden bij [!DNL Jira] als beheerder van Jira.
-1. Klikken **[!UICONTROL Settings]** in het algemeen [!DNL Jira] -menu.
-1. Klikken **[!UICONTROL Add-ons]** vervolgens **[!UICONTROL Manage add-ons]**.
-1. Breid uit **[!DNL Workfront]** invoegtoepassing.
+1. Meld u aan bij [!DNL Jira] als Jira-beheerder.
+1. Klik op **[!UICONTROL Settings]** in het hoofdmenu [!DNL Jira] .
+1. Klik op **[!UICONTROL Add-ons]** en vervolgens op **[!UICONTROL Manage add-ons]** .
+1. Vouw de invoegtoepassing **[!DNL Workfront]** uit.
 1. Klik op **[!UICONTROL Configure]**.
-1. Aanmelden bij [!DNL Workfront] als Workfront-beheerder.
-1. Klik in Jira op de knop **[!UICONTROL Setup]** tab.
-1. In de **[!UICONTROL Synchronize from Workfront to Jira]** selecteert u de velden waarin u wilt bijwerken [!DNL Jira] wanneer deze in Workfront worden bijgewerkt.
+1. Meld u aan bij [!DNL Workfront] als Workfront-beheerder.
+1. Klik in Jira op de tab **[!UICONTROL Setup]** .
+1. Selecteer in de sectie **[!UICONTROL Synchronize from Workfront to Jira]** de velden die u wilt bijwerken in [!DNL Jira] wanneer deze worden bijgewerkt in Workfront.
 
    1. Selecteer een van de volgende frequenties waarmee de velden worden gesynchroniseerd:
 
       <table style="table-layout:auto">
          <tr>
               <td>[!UICONTROL On Creation]</td>
-              <td>De velden die u opgeeft, worden gesynchroniseerd tussen de gekoppelde Workfront en [!DNL Jira] objecten wanneer het object in Workfront wordt gemaakt.</td>
+              <td>De velden die u opgeeft, worden gesynchroniseerd tussen de gekoppelde Workfront- en [!DNL Jira] -items wanneer het item in Workfront wordt gemaakt.</td>
           </tr>
           <tr>
               <td>[!UICONTROL Always]</td>
-              <td>De velden die u opgeeft, worden gesynchroniseerd tussen de gekoppelde Workfront en [!DNL Jira] items wanneer de velden worden bijgewerkt in Workfront. </td>
+              <td>De velden die u opgeeft, worden gesynchroniseerd tussen de gekoppelde Workfront- en [!DNL Jira]-items wanneer de velden worden bijgewerkt in Workfront. </td>
           </tr>
           <tr>
               <td>[!UICONTROL Never]</td>
-              <td>De velden die u opgeeft, worden nooit gesynchroniseerd tussen de gekoppelde [!DNL Workfront] en [!DNL Jira] objecten. Er is geen indicatie in [!DNL Jira] dat het veld is bijgewerkt in [!DNL Workfront]. </td>
+              <td>De velden die u opgeeft, worden nooit gesynchroniseerd tussen de gekoppelde [!DNL Workfront] - en [!DNL Jira] -items. Er zijn geen aanwijzingen in [!DNL Jira] dat het veld is bijgewerkt in [!DNL Workfront] . </td>
           </tr>
       </table>
 
-   1. Selecteer een van de volgende opties om de velden te synchroniseren vanuit [!DNL Workfront] tot [!DNL Jira]:
+   1. Selecteer een van de volgende opties om de velden van [!DNL Workfront] tot en met [!DNL Jira] te synchroniseren:
 
       <table style="table-layout:auto">
        <col>
@@ -211,29 +211,29 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Name]</td>
-         <td><p>De naam van een taak of een probleem in [!DNL Workfront] wordt de naam van de uitgifte waaraan deze is gekoppeld [!DNL Jira].</p><p>Opmerking: wanneer nieuwe items worden gemaakt in [!DNL Jira] automatisch [!DNL Workfront] Naam wordt altijd bijgewerkt op het tabblad [!DNL Jira] item, ongeacht of dit veld hier is ingeschakeld. Wanneer een [!DNL Jira] item is handmatig gekoppeld aan een [!DNL Workfront] item, de naam van de [!DNL Workfront] alleen itemupdates in [!DNL Jira] wanneer u <strong>Altijd</strong> dit veld synchroniseren. Voor meer informatie over het handmatig of automatisch koppelen van items raadpleegt u <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref">Items koppelen tussen [!DNL Adobe Workfront] en [!DNL Jira]</a>.</p></td>
+         <td><p>De naam van een taak of een uitgave in [!DNL Workfront] wordt de naam van de uitgave waaraan deze is gekoppeld in [!DNL Jira] .</p><p>Opmerking: wanneer nieuwe items automatisch in [!DNL Jira] worden gemaakt, wordt de [!DNL Workfront] naam altijd bijgewerkt op het [!DNL Jira] -item, ongeacht of dit veld hier is ingeschakeld of niet. Wanneer een [!DNL Jira] punt manueel met een [!DNL Workfront] punt wordt verbonden, werkt de Naam van het [!DNL Workfront] punt slechts in [!DNL Jira] bij wanneer u aan <strong> selecteert altijd </strong> dit gebied synchroniseert. Voor meer informatie over het verbinden van punten manueel of automatisch, zie <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md" class="MCXref xref"> punten tussen [!DNL Adobe Workfront] en [!DNL Jira]</a> verbinden.</p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Description]</td>
-         <td>De beschrijving van een taak of een probleem in [!DNL Workfront] wordt de beschrijving van de uitgifte waaraan deze is gekoppeld in [!DNL Jira].</td>
+         <td>De beschrijving van een taak of een probleem in [!DNL Workfront] wordt de beschrijving van de uitgave waaraan deze is gekoppeld in [!DNL Jira] .</td>
         </tr>
         <tr>
          <td role="rowheader">Documenten</td>
-         <td><p>Documenten die zijn gekoppeld aan een taak of een probleem in [!DNL Workfront] Ook zijn ze gehecht aan de kwestie waarmee ze in Jira verband houdt. Nieuwe documentversies van [!DNL Workfront] worden als afzonderlijke documenten aan Jira toegevoegd en worden toegevoegd met <i>_v&lt;version number=""&gt;</i> om de genummerde versie in Workfront aan te geven. </p><p>Als bijvoorbeeld de naam van een document in [!DNL Workfront] is <strong>Hoofd-advertentie</strong>en voegt u er een nieuwe versie aan toe [!DNL Workfront], wordt de nieuwe versie overgebracht naar [!DNL Jira] als een nieuw document met de naam <strong>Hoofd-advertentie_v2</strong>.</p><p>Belangrijk: <p>Houd rekening met het volgende wanneer u documenten synchroniseert:</p>
+         <td><p>Documenten die zijn gekoppeld aan een taak of een uitgave in [!DNL Workfront] , worden ook gekoppeld aan de uitgave waaraan deze is gekoppeld in Jira. De nieuwe documentversies van [!DNL Workfront] worden toegevoegd als afzonderlijke documenten aan Jira en met <i> _v&lt;version number&gt; </i> toegevoegd om op de genummerde versie in Workfront te wijzen. </p><p>Bijvoorbeeld, als de naam van een document in [!DNL Workfront] <strong> HoofdAdvertentie </strong> is, en u een nieuwe versie aan het binnen [!DNL Workfront] toevoegt, wordt de nieuwe versie overgebracht naar [!DNL Jira] als nieuw document met de naam <strong> HoofdAd_v2 </strong>.</p><p>Belangrijk: <p>Houd rekening met het volgende wanneer u documenten synchroniseert:</p>
            <ul>
-            <li><p>Documenten groter dan 5 MB worden niet gesynchroniseerd. Als een documentsynchronisatie mislukt omdat het document te groot is, wordt een fout in het activiteitenlogboek geregistreerd. </p><p>Voor meer informatie over het activiteitenlogboek, zie <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">Het activiteitenlog van de bevalling weergeven</a>.</p></li>
-            <li><p>Documenten die zijn gekoppeld aan taken en uitgaven van externe servers worden niet overgedragen naar de [!DNL Jira] objecten. Alleen documenten die rechtstreeks op de taak of de uitgave in zijn geüpload [!DNL Workfront] worden overgedragen naar de gekoppelde emissie in [!DNL Jira].</p></li>
-            <li><p>Als u een proefdruk wilt maken op basis van een document, moet u de proefdruk genereren in [!DNL Workfront]. </p><p>Voor meer informatie over het genereren van een bewijs raadpleegt u <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">Een proefdruk maken voor een bestaand document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Een proefdruk maken voor een document</a>.<br></p></li>
+            <li><p>Documenten groter dan 5 MB worden niet gesynchroniseerd. Als een documentsynchronisatie mislukt omdat het document te groot is, wordt een fout in het activiteitenlogboek geregistreerd. </p><p>Voor meer informatie over het activiteitenlogboek, zie <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref"> Mening het Logboek van de Activiteit van Jira </a>.</p></li>
+            <li><p>Documenten die zijn gekoppeld aan taken en uitgaven van externe servers worden niet overgebracht naar de [!DNL Jira] -items. Alleen documenten die rechtstreeks op de taak of de uitgave in [!DNL Workfront] zijn geüpload, worden overgebracht naar de gekoppelde uitgave in [!DNL Jira] .</p></li>
+            <li><p>Als u een proefdruk wilt maken op basis van een document, moet u de proefdruk genereren in [!DNL Workfront] . </p><p>Voor meer informatie bij het produceren van een proef, zie <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref"> een proef voor een bestaand document </a> in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref"> creëren een proef voor een document </a>.<br></p></li>
            </ul></p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Planned Completion Date]</td>
-         <td><p>De [!UICONTROL Planned Completion Date] van een taak of een probleem in [!DNL Workfront] wordt de [!UICONTROL Due Date] van de kwestie waarmee zij verband houdt in [!DNL Jira].</p><p>Opmerking: zorg ervoor dat u de weergave <strong>[!UICONTROL Due Date]</strong> op [!DNL Jira] problemen, voor deze waarde die moet worden gesynchroniseerd.</p></td>
+         <td><p>De [!UICONTROL Planned Completion Date] van een taak of een uitgave in [!DNL Workfront] wordt de [!UICONTROL Due Date] van de uitgave waaraan deze is gekoppeld in [!DNL Jira] .</p><p>Opmerking: zorg ervoor dat u <strong>[!UICONTROL Due Date]</strong> bij [!DNL Jira] -problemen weergeeft, zodat deze waarde wordt gesynchroniseerd.</p></td>
         </tr>
        </tbody>
       </table>
 
-1. In de **[!UICONTROL Synchronize from [!DNL Jira] to [!DNL Workfront]]** selecteert u de velden waarin u wilt bijwerken [!DNL Workfront] wanneer ze worden bijgewerkt in [!DNL Jira].
+1. Selecteer in de sectie **[!UICONTROL Synchronize from [!DNL Jira] to [!DNL Workfront]]** de velden die u wilt bijwerken in [!DNL Workfront] wanneer deze worden bijgewerkt in [!DNL Jira] .
 
    1. Selecteer een van de volgende frequenties waarmee de velden worden gesynchroniseerd:
 
@@ -243,16 +243,16 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Always]</td>
-         <td>De velden die u opgeeft, worden altijd gesynchroniseerd tussen de gekoppelde [!DNL Workfront] en [!DNL Jira] items wanneer de velden worden bijgewerkt in [!DNL Jira]. </td>
+         <td>De velden die u opgeeft, worden altijd gesynchroniseerd tussen de gekoppelde [!DNL Workfront] - en [!DNL Jira] -items wanneer de velden worden bijgewerkt in [!DNL Jira] . </td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Never]</td>
-         <td><p>De velden die u opgeeft, worden nooit gesynchroniseerd tussen de gekoppelde [!DNL Workfront] en [!DNL Jira] objecten. Er is geen indicatie in [!DNL Workfront] dat het veld is bijgewerkt in [!DNL Jira]. </p><p>Opmerking: wanneer u Nooit selecteert, [!DNL Workfront] velden kunnen nog steeds handmatig worden bijgewerkt vanuit [!DNL Jira] links [!DNL Workfront] van het [!DNL Jira] probleem. Deze updates worden alleen weergegeven op [!DNL Workfront] objecten in [!DNL Jira] en [!DNL Workfront] en niet aan [!DNL Jira] objecten.</p></td>
+         <td><p>De velden die u opgeeft, worden nooit gesynchroniseerd tussen de gekoppelde [!DNL Workfront] - en [!DNL Jira] -items. Er zijn geen aanwijzingen in [!DNL Workfront] dat het veld is bijgewerkt in [!DNL Jira] . </p><p>Opmerking: als u Nooit selecteert, kunnen [!DNL Workfront] -velden nog steeds handmatig worden bijgewerkt vanuit [!DNL Jira] in het linkerdeelvenster [!DNL Workfront] van het [!DNL Jira] -probleem. Deze updates worden alleen weergegeven voor [!DNL Workfront] items in [!DNL Jira] en [!DNL Workfront] en niet voor [!DNL Jira] -items.</p></td>
         </tr>
        </tbody>
       </table>
 
-   1. Selecteer deze optie om de volgende velden te synchroniseren vanuit [!DNL Jira] tot [!DNL Workfront]:
+   1. Selecteer deze optie om de volgende velden van [!DNL Jira] tot en met [!DNL Workfront] te synchroniseren:
 
       <table style="table-layout:auto">
        <col>
@@ -260,26 +260,26 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
        <tbody>
         <tr>
          <td role="rowheader">[!UICONTROL Status]</td>
-         <td>De [!UICONTROL Status] van een kwestie in [!DNL Jira] wordt de [!UICONTROL Status] van de taak of uitgifte waarmee zij is verbonden in [!DNL Workfront].<br>Voor meer informatie over [!DNL Workfront] statussen, zie <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Een status maken of bewerken</a>.</td>
+         <td>De [!UICONTROL Status] van een uitgave in [!DNL Jira] wordt de [!UICONTROL Status] van de taak of uitgave waaraan deze is gekoppeld in [!DNL Workfront] .<br> voor meer informatie over [!DNL Workfront] statussen, zie <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref"> een status </a> creëren of uitgeven.</td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Assignee]</td>
-         <td><p>De [!UICONTROL Assignee] van een kwestie in [!DNL Jira] wordt de [!UICONTROL Assignee] van de taak of uitgifte waarmee zij is verbonden in [!DNL Workfront].</p><p>Belangrijk: wanneer je een object toewijst in [!DNL Jira] aan een gebruiker die geen [!DNL Workfront] -account, maakt de integratie een nieuwe actieve gebruiker in [!DNL Workfront] alleen wanneer <strong>Automatisch een gebruiker maken in [!DNL Workfront] als de [!DNL Jira] gebruiker heeft geen [!DNL Workfront] account</strong> is ingesteld op <strong>[!UICONTROL Always]</strong>. Deze gebruiker neemt geen [!DNL Workfront] licentie. Actieve gebruikers kunnen worden toegewezen aan werkitems in [!DNL Workfront], maar kan niet worden opgenomen in updates. </p></td>
+         <td><p>De [!UICONTROL Assignee] van een uitgave in [!DNL Jira] wordt de [!UICONTROL Assignee] van de taak of uitgave waaraan deze is gekoppeld in [!DNL Workfront] .</p><p>Belangrijk: Wanneer u een punt in [!DNL Jira] aan een gebruiker toewijst die geen [!DNL Workfront] rekening heeft, leidt de integratie tot een nieuwe actieve gebruiker in [!DNL Workfront] slechts wanneer <strong> automatisch tot een gebruiker in [!DNL Workfront] leidt als de [!DNL Jira] gebruiker geen [!DNL Workfront] rekening </strong> aan <strong>[!UICONTROL Always]</strong> heeft. Deze gebruiker neemt geen [!DNL Workfront] -licentie in. Actieve gebruikers kunnen worden toegewezen aan tijdelijke items in [!DNL Workfront] , maar ze kunnen niet worden opgenomen in updates. </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Attachments]</td>
-         <td>Bijlagen van een probleem in [!DNL Jira] ook zijn gekoppeld aan de taak of kwestie waarmee deze is verbonden in [!DNL Workfront]. </td>
+         <td>Bijlagen van een probleem in [!DNL Jira] worden ook toegevoegd aan de taak of het probleem waaraan het is gekoppeld in [!DNL Workfront] . </td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Comments]</td>
-         <td><p>Een opmerking over een [!DNL Jira] de kwestie wordt ook geplaatst op het verbonden [!DNL Workfront] item in het [!UICONTROL Updates] gebied. Een opmerking die is geplaatst in het dialoogvenster [!UICONTROL Updates] gebied voor een [!DNL Workfront] taak of geeft synoniemen uit aan [!DNL Jira]De native opmerkingstroom van de klant voor de gekoppelde uitgave. </p><p>Deze is ingesteld op <strong>[!UICONTROL Always]</strong> standaard. Als u <strong>[!UICONTROL Never]</strong> hier kunt u nog steeds handmatig opmerkingen op een gekoppeld item plaatsen in [!DNL Workfront] of in [!DNL Jira].</p></td>
+         <td><p>Een opmerking over een [!DNL Jira] -uitgave wordt ook gepost op het gekoppelde [!DNL Workfront] -item in het [!UICONTROL Updates] -gebied. Een opmerking die in het [!UICONTROL Updates] -gebied is geplaatst voor een [!DNL Workfront] taak of Issues syncs naar de native commentaarstream van [!DNL Jira] voor de gekoppelde uitgave. </p><p>Deze is standaard ingesteld op <strong>[!UICONTROL Always]</strong> . Als u <strong>[!UICONTROL Never]</strong> hier selecteert, kunt u nog steeds handmatig opmerkingen op een gekoppeld item posten in [!DNL Workfront] of in [!DNL Jira] .</p></td>
         </tr>
        </tbody>
       </table>
 
-1. In de **[!UICONTROL OTHER]** selecteert u welke extra velden moeten worden bijgewerkt tussen gekoppelde items.
+1. Selecteer in de sectie **[!UICONTROL OTHER]** welke extra velden moeten worden bijgewerkt tussen gekoppelde items.
 
-   1. Selecteer een optie om te bepalen of de gebieden u specificeert **[!UICONTROL Always]** of **[!UICONTROL Never]** bijwerken in [!DNL Jira] of [!DNL Workfront] wanneer zij worden gewijzigd.
+   1. Selecteer een optie om te bepalen of de velden die u opgeeft **[!UICONTROL Always]** of **[!UICONTROL Never]** bijwerken in [!DNL Jira] of [!DNL Workfront] wanneer ze worden gewijzigd.
 
    1. Selecteer een van de volgende velden en updates:
 
@@ -288,30 +288,30 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
        <col>
        <tbody>
         <tr>
-         <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Aangepaste gegevens in het rechterdeelvenster van [!DNL Jira]]</td>
-         <td><p>Hiermee geeft u het dialoogvenster [!DNL Workfront] Aangepaste gegevens van een item in het dialoogvenster [!DNL Workfront] in het rechterdeelvenster.</p><p>Opmerking: secties voor aangepaste formulieren worden weergegeven in de [!DNL Workfront] het juiste paneel met het toegangsniveau van [!DNL Workfront] Systeembeheerder.</p></td>
+         <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Aangepaste gegevens in het rechterdeelvenster in [!DNL Jira]]</td>
+         <td><p>Hiermee geeft u de [!DNL Workfront] aangepaste gegevens van een item weer in het deelvenster [!DNL Workfront] rechts.</p><p>Opmerking: secties Aangepaste formulieren worden weergegeven in het rechterdeelvenster van [!DNL Workfront] en hebben toegang tot het toegangsniveau van de [!DNL Workfront] System Administrator.</p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Copy [!DNL Workfront] Prioriteit in het rechterdeelvenster in [!DNL Jira]]</td>
-         <td>Hiermee geeft u het dialoogvenster [!DNL Workfront] Prioriteit van een item in de [!DNL Workfront] in het rechterdeelvenster.</td>
+         <td>Geeft de [!DNL Workfront] Prioriteit van een item weer in het deelvenster [!DNL Workfront] rechts.</td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL Add an update in the [!DNL Workfront] Updates, tabblad over wijzigingen in Vervaldatum in [!DNL Jira]]</td>
-         <td>Hiermee voegt u een opmerking toe in het dialoogvenster [!UICONTROL Update] tabblad van het [!DNL Workfront] item wanneer het [!UICONTROL Due Date] wijzigingen in gekoppelde [!DNL Jira] item.</td>
+         <td role="rowheader">[!UICONTROL Add an update in the [!DNL Workfront] Tabblad Updates over wijzigingen in Vervaldatum in [!DNL Jira]]</td>
+         <td>Voegt een opmerking toe op het tabblad [!UICONTROL Update] van het [!DNL Workfront] -item wanneer de [!UICONTROL Due Date] verandert in een gekoppeld [!DNL Jira] -item.</td>
         </tr>
         <tr>
-         <td role="rowheader">[!UICONTROL Automatically create a user in [!DNL Workfront] als de [!DNL Jira] gebruiker heeft geen [!DNL Workfront] account]</td>
+         <td role="rowheader">[!UICONTROL Automatically create a user in [!DNL Workfront] als de [!DNL Jira] -gebruiker geen [!DNL Workfront] -account heeft]</td>
          <td><p>De volgende scenario's bestaan:</p>
           <ul>
-           <li>Wanneer u <strong>[!UICONTROL Always]</strong>, kunt u de integratie inschakelen om telkens een nieuwe Workfront-gebruiker te maken [!DNL Jira] gebruiker zonder [!DNL Workfront] account voert de volgende handelingen uit op een gekoppelde [!DNL Jira] probleem:
+           <li>Wanneer u <strong>[!UICONTROL Always]</strong> selecteert, schakelt u de integratie in om een nieuwe Workfront-gebruiker te maken telkens wanneer een [!DNL Jira] gebruiker zonder een [!DNL Workfront] -account de volgende handelingen uitvoert op een gekoppelde [!DNL Jira] -uitgave:
             <ul>
-             <li>Is toegewezen aan een [!DNL Jira] kwestie</li>
-             <li><p>Tijd van aanmelding bij een [!DNL Jira] kwestie</p><p>Deze nieuwe gebruiker neemt geen [!DNL Workfront] licentie. De standaardinstelling is Altijd. De gebruiker heeft deze manier op [!DNL Workfront] heeft "[!UICONTROL Jira]" toegevoegd aan hun naam.</p></li>
+             <li>Wordt toegewezen aan een [!DNL Jira] -uitgave</li>
+             <li><p>Hiermee wordt tijd geregistreerd voor een [!DNL Jira] -probleem</p><p>Deze nieuwe gebruiker neemt geen [!DNL Workfront] -licentie in. De standaardinstelling is Altijd. Aan de naam van de gebruiker die op deze manier in [!DNL Workfront] is gemaakt, is "[!UICONTROL Jira]" toegevoegd.</p></li>
             </ul></li>
-           <li>Wanneer u <strong>[!UICONTROL Never]</strong>De volgende dingen gebeuren:
+           <li>Wanneer u <strong>[!UICONTROL Never]</strong> selecteert, gebeuren de volgende dingen:
             <ul>
-             <li>U kunt geen [!DNL Jira] toewijzingen op de [!DNL Workfront] objecten. In dit geval worden alleen de in [!DNL Workfront] op de [!DNL Workfront] objecten.</li>
-             <li>De tijd die aan verbonden wordt geregistreerd [!DNL Jira] afgifte door een gebruiker zonder [!DNL Workfront] account wordt niet automatisch overgedragen naar de gekoppelde [!DNL Workfront] item. U kunt zich nog steeds aanmelden bij de [!DNL Workfront] item in het rechterdeelvenster van het dialoogvenster [!DNL Jira] probleem.</li>
+             <li>U kunt geen [!DNL Jira] toewijzingen zien voor de [!DNL Workfront] -items. In dit geval worden alleen toewijzingen die in [!DNL Workfront] zijn gemaakt, weergegeven op de [!DNL Workfront] -items.</li>
+             <li>De tijd die door een gebruiker zonder een [!DNL Workfront] -account is aangemeld bij een gekoppelde [!DNL Jira] -uitgave, wordt niet automatisch overgedragen naar het gekoppelde [!DNL Workfront] -item. U kunt de tijd nog steeds vastleggen op het [!DNL Workfront] -item in het rechterdeelvenster van het [!DNL Jira] -probleem.</li>
             </ul></li>
           </ul></td>
         </tr>
@@ -320,25 +320,25 @@ Om te bepalen welke gebieden automatisch op punten zouden moeten synchroniseren 
 
 1. Klik op **[!UICONTROL Save]**.
 
-   Nu, telkens als een gebruiker om het even welke gebieden bijwerkt die in deze configuratie op een punt in of worden gespecificeerd [!DNL Jira] of [!DNL Workfront], wordt het gekoppelde item in de andere toepassing ook bijgewerkt.
+   Nu, telkens wanneer een gebruiker om het even welke gebieden bijwerkt die in deze configuratie op een punt in of [!DNL Jira] of [!DNL Workfront] worden gespecificeerd, wordt het verbonden punt in de andere toepassing ook bijgewerkt.
 
 ## Problemen oplossen
 
-### Items kunnen niet worden gemaakt in [!DNL Jira] omdat de triggervelden gemarkeerd zijn &quot;[!UICONTROL Couldn't be found]&quot;
+### Items kunnen niet in [!DNL Jira] worden gemaakt vanwege triggervelden gemarkeerd als &quot; [!UICONTROL Couldn't be found]&quot;
 
 #### Probleem
 
-Wanneer een fout optreedt met de [!DNL Workfront for Jira] toepassing, [!DNL Workfront] schakelt de triggers uit om verdere complicaties te voorkomen. Wanneer deze triggers zijn uitgeschakeld, worden deze weergegeven als &quot;[!UICONTROL Couldn't be found].&quot;
+Wanneer een fout optreedt met de [!DNL Workfront for Jira] -toepassing, schakelt [!DNL Workfront] de triggers uit om verdere complicaties te voorkomen. Wanneer die trekkers gehandicapt zijn, tonen zij als &quot;[!UICONTROL Couldn't be found]&quot;.
 
 #### Oplossing
 
-Zoek de fout die de triggers heeft uitgeschakeld. U kunt de fout vinden in het dialoogvenster [!DNL Workfront for Jira] [!UICONTROL Activity Log].
+Zoek de fout die de triggers heeft uitgeschakeld. U kunt de fout vinden in [!DNL Workfront for Jira] [!UICONTROL Activity Log] .
 
-De meest voorkomende oorzaak van dit gedrag is de fout &quot;[!UICONTROL Field 'duedate' cannot be set. It is not on the appropriate screen, or unknown.]&quot;
+De gemeenschappelijkste oorzaak van dit gedrag is de fout &quot;[!UICONTROL Field 'duedate' cannot be set. It is not on the appropriate screen, or unknown.]&quot;
 
-Deze fout houdt in dat u probeert &quot;[!UICONTROL Planned Completion Date]&quot; van [!DNL Workfront] tot [!DNL Jira]. Hiervoor moet u ervoor zorgen dat uw [!DNL Jira] objecten hebben een veld met de naam &quot;[!UICONTROL Due Date].&quot; Als zij dit veld niet hebben, [!DNL Workfront] kan de geplande afsluitdatum niet synchroniseren vanaf [!DNL Workfront] en schakelt de triggers uit.
+Deze fout houdt in dat u [!UICONTROL Planned Completion Date] van [!DNL Workfront] tot [!DNL Jira] probeert te synchroniseren. Hiervoor moet u ervoor zorgen dat uw [!DNL Jira] -objecten een veld hebben met de naam &quot;[!UICONTROL Due Date]&quot;. Als ze dit veld niet hebben, kan [!DNL Workfront] de geplande afsluitdatum niet synchroniseren vanaf [!DNL Workfront] en worden de triggers uitgeschakeld.
 
 Voer een van de volgende handelingen uit om deze fout op te lossen:
 
-* Vraag uw [!DNL Jira] beheerder om de betrokken [!DNL Jira] objecten om ervoor te zorgen dat ze een veld voor de vervaldatum hebben.
-* Synchronisatie van [!DNL Workfront]geplande datum van voltooiing in Workfront [!UICONTROL Setup] pagina.
+* Vraag de [!DNL Jira] -beheerder om de betrokken [!DNL Jira] -objecten bij te werken om er zeker van te zijn dat ze een datumveld hebben dat is ingesteld op de datum waarop ze zijn toegepast.
+* Schakel de synchronisatie uit van de geplande afsluitdatum van [!DNL Workfront] op de Workfront [!UICONTROL Setup] -pagina.

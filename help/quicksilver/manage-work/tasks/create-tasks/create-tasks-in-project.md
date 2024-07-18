@@ -20,14 +20,14 @@ ht-degree: 0%
 
 U kunt taken in een project slechts tot stand brengen nadat u het project creeert.
 
-Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [Een project maken](../../../manage-work/projects/create-projects/create-project.md).
+Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
-Voor informatie over het creëren van persoonlijke taken die niet in een project zijn, zie [Een persoonlijke taak maken](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) in het artikel [Werkitems maken vanuit het gebied Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Voor informatie over het creëren van persoonlijke taken die niet in een project zijn, zie [ een persoonlijke taak ](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) sectie in het artikel [ creëren het werkpunten van het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken ook op de volgende manieren maken:
 
-* Door bestaande taken te kopiëren of te dupliceren. Zie voor meer informatie [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Door taken van het ene project naar het andere te verplaatsen. Zie voor meer informatie [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Door bestaande taken te kopiëren of te dupliceren. Voor informatie, zie [ het Exemplaar en dupliceert taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Door taken van het ene project naar het andere te verplaatsen. Voor informatie, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Toegangsvereisten
 
@@ -53,23 +53,23 @@ In dit artikel wordt beschreven hoe u geheel nieuwe taken maakt. U kunt taken oo
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Zie voor informatie over taakmachtigingen <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Een taak delen </a>. </p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref"> een taak delen </a>. </p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Taken maken in een project
 
 1. Ga naar het project waar u een taak wilt tot stand brengen.
-1. Klikken **Taken** in het linkerdeelvenster.
-1. (Voorwaardelijk) Als u de takenlijst momenteel in een wendbare mening bekijkt, klik **Lijstweergave** pictogram ![](assets/list-view-in-agile-view-for-tasks.png) in de rechterbovenhoek om de takenlijst weer te geven.
-1. (Optioneel) Klik op de knop **Abonnementsmodus** pictogram ![](assets/nwe-plan-mode-icon-task-list.png) en selecteert u **Handmatig opslaan** Selecteer vervolgens een van de **Standaard** of **Tijdlijnplanning**. Hiermee schakelt u het **Automatisch opslaan** Deze optie is standaard ingeschakeld.
+1. Klik **Taken** in het linkerpaneel.
+1. (Voorwaardelijk) als u momenteel de taaklijst in een gelijke mening bekijkt, klik het **pictogram van de Mening van de Lijst ![](assets/list-view-in-agile-view-for-tasks.png) in de hoger-juiste hoek om de taaklijst te tonen.**
+1. (Facultatief) klik het **pictogram van de Wijze van het 0} Plan ![](assets/nwe-plan-mode-icon-task-list.png) en selecteer** Handboek sparen **, dan selecteren of** Standaard **of** Planning van de Chronologie **.** Dit maakt **Autosave** optie onbruikbaar die door gebrek wordt toegelaten.
 
-   ![Handmatig opslaan selecteren](assets/manual-save-option.png)
+   ![ Uitgezochte Hand sparen ](assets/manual-save-option.png)
 
    >[!TIP]
    >
@@ -77,22 +77,22 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 1. Maak een nieuwe taak door een van de volgende handelingen uit te voeren:
 
-   * Klikken **Nieuwe taak** boven aan de takenlijst.
-   * Klikken **Meer taken toevoegen** onder aan de takenlijst.
+   * Klik **Nieuwe Taak** bij de bovenkant van de taaklijst.
+   * Klik **toevoegen Meer Taken** bij de bodem van de taaklijst.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. (Voorwaardelijk) Als u hebt geklikt **Nieuwe taak** Ga als volgt te werk:
+1. (Voorwaardelijk) als u **Nieuwe Taak** klikte doe het volgende:
 
-   1. Geef een van de velden op in de beperkte lijst met velden in het dialoogvenster **Nieuwe taak** en klik vervolgens op **Taak maken** als u snel een taak wilt maken.
+   1. Specificeer om het even welke gebieden op de beperkte lijst van gebieden binnen de **Nieuwe doos van de Taak**, dan klik **creeer Taak** als u een taak snel wilt creëren.
 
       of
 
-      Klik op **Meer opties** om de **Taak maken** doos.
+      Om alle gebieden voor de taak bij te werken, klik **Meer Opties** om **te openen creeer Taakdoos**.
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
-      De **Taak maken** wordt geopend.
+      **creeer de doos van de Taak** opent.
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
@@ -100,7 +100,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
       >[!NOTE]
       >
-      >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen in de velden in het vak Taak maken verschillende velden in uw omgeving worden weergegeven. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+      >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen in de velden in het vak Taak maken verschillende velden in uw omgeving worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    1. Geef informatie op voor de volgende gebieden in het linkerdeelvenster van het vak Taak maken:
 
@@ -111,12 +111,12 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       * Financiën
       * Instellingen
 
-        Voor informatie over het definiëren van alle taakgerelateerde velden op een taak raadpleegt u [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        Voor informatie over het bepalen van alle taak-verwante gebieden op een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
-   1. (Voorwaardelijk en optioneel) Als u de taak wilt herhalen, werkt u de **Herhalingsfrequentie** veld. Voor meer informatie over het creëren van terugkomende taken, zie [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
-   1. (Optioneel) Klik op **Documenten** in het linkerpaneel om een document aan de nieuwe taak vast te maken, dan klik **Bestanden toevoegen of koppelen** om een document aan de taak van uw computer, een andere dienst toe te voegen, of documenten en omslagen van uw computer of een andere dienst te verbinden.
+   1. (Voorwaardelijk en facultatief) als u de taak wilt terugkomen, werk het **gebied van de Frequentie van de Terugkeer bij 0}.** Voor meer informatie over het creëren van terugkomende taken, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
+   1. (Facultatief) klik **Documenten** in het linkerpaneel om een document aan de nieuwe taak vast te maken, dan **voegt toe of verbindt dossiers** om een document aan de taak van uw computer, een andere dienst toe te voegen, of om documenten en omslagen van uw computer of een andere dienst te verbinden.
 
-1. (Voorwaardelijk) Als u hebt geklikt **Meer taken toevoegen** in stap 5, begin de taakinformatie in te gaan gebruikend in-lijn het uitgeven, dan druk binnengaan.
+1. (Voorwaardelijk) als u **klikte voeg Meer Taken** in stap 5 toe, begin de taakinformatie gebruikend in-lijn het uitgeven in, dan druk binnengaan.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this stays accurate)</p>
@@ -128,27 +128,27 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
 
-   * Als u klikt **Nieuwe taak** in stap 5 klikt u op **Taak maken** om uw wijzigingen op te slaan en de nieuwe taak toe te voegen aan uw project.
+   * Als u **Nieuwe Taak** in stap 5 klikte, **creeer taak** om uw veranderingen te bewaren en de nieuwe taak toe te voegen aan uw project.
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
-   * Als u klikt **Meer taken toevoegen** Voer in stap 5 de volgende handelingen uit:
+   * Als u **klikte voeg Meer Taken** in stap 5 toe doet het volgende:
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 
       1. Klik ergens in de browser om de wijzigingen te verzenden of druk op Enter.
-      1. (Optioneel) Selecteer in de takenlijst de nieuwe taak en klik vervolgens op **Inspringen**.
+      1. (Facultatief) in de taaklijst, selecteer de pas gecreëerde taak, dan klik **Inspringen**.
 
          Dit maakt van de nieuwe taak een kind of subtaak van de vorige taak.
 
-         Zie voor meer informatie over kindertaken [Subtaken maken](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Voor meer informatie over kindtaken, zie [ subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) creëren.
 
-      1. (Voorwaardelijk) Als u de optie **Automatisch opslaan** optie na drukken **Meer taken toevoegen** kunt u het volgende doen:
+      1. (Voorwaardelijk) als u **Autosave** optie na het drukken **onbruikbaar maakte voeg Meer Taken** toe, kunt u het volgende doen:
 
-         * Klikken **Ongedaan maken** op elk moment om de laatste wijziging om te keren, of **Annuleren** om alle wijzigingen in de takenlijst om te keren.
-         * Als u eerder hebt geklikt **Ongedaan maken**, klikt u op **Opnieuw** om de laatste geannuleerde wijziging opnieuw toe te passen.
-         * Klikken **Opslaan** om uw wijzigingen in de takenlijst op te slaan.
+         * Klik **ongedaan maken** op elk ogenblik om uw laatste verandering om te keren, of **annuleert** om alle veranderingen in te keren u aan de taaklijst aanbracht.
+         * Als u eerder **** klikte ongedaan maken, klik **opnieuw** om de laatste verandering toe te passen u geannuleerd.
+         * Klik **sparen** om uw veranderingen in de taaklijst te bewaren.

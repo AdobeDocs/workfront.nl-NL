@@ -10,7 +10,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ Met Scenario Planner kunt u:
 
 * Scenario&#39;s maken en vergelijken
 
-   Maak en bekijk gemakkelijk verschillende scenario&#39;s naast elkaar met minimale gegevens die van u worden vereist.
+  Maak en bekijk gemakkelijk verschillende scenario&#39;s naast elkaar met minimale gegevens die van u worden vereist.
 
 * Problemen met bronnen markeren
 
-   Kijk waar u al mensen of budget voor bestaand of gepland werk hebt vastgelegd.
+  Kijk waar u al mensen of budget voor bestaand of gepland werk hebt vastgelegd.
 
 * Een pad voorwaarts bepalen
 
-   Maak en vergelijk scenario&#39;s, vergemakkelijk samenwerking en consensus, voer uit, en herplan dan wanneer nodig.
+  Maak en vergelijk scenario&#39;s, vergemakkelijk samenwerking en consensus, voer uit, en herplan dan wanneer nodig.
 
 De Planner van het scenario helpt u bij uw planning flexibeler zijn. Of u het strategische plan voor uw bedrijf bezit of u driemaandelijkse planning voor één enkele bedrijfseenheid, afdeling, of team leidt, de Planner van het Scenario kan helpen. Creëer en vergelijk snel gemakkelijk veelvoudige scenario&#39;s die op beperkingen, zoals begrotingen of teammiddelen worden gebaseerd.
 
@@ -43,4 +43,4 @@ Met de Planner van het Scenario, kunt u scenario&#39;s door objectief of initiat
 * Om een doel van de groeioptimalisering te bereiken, hebben wij extra middelen binnen een specifieke vaardigheidsreeks nodig?
 * Om een rendementsdoelstelling te bereiken, moeten wij specifieke initiatieven aan een recentere datum duwen
 
-Voor meer informatie over de Planner van het Scenario, zie [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+Voor meer informatie over de Planner van het Scenario, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).

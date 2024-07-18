@@ -47,20 +47,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Neem contact op met uw [!DNL Workfront Fusion] beheerder.
+*Neem contact op met de [!DNL Workfront Fusion] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
 ## Navigeren [!DNL Workfront Fusion]
 
-De [!UICONTROL Organization] en [!UICONTROL Team] -menu&#39;s bevinden zich in het navigatievenster aan de linkerkant van Fusion. Als u een [!DNL Workfront Fusion] beheerder, [!UICONTROL Administration] wordt ook hier weergegeven.
+De menu&#39;s [!UICONTROL Organization] en [!UICONTROL Team] bevinden zich in het navigatievenster aan de linkerkant van Fusion. Als u een [!DNL Workfront Fusion] beheerder bent, wordt het menu [!UICONTROL Administration] ook hier weergegeven.
 
-Om teams te schakelen, klik op de teamnaam bij de bovenkant van de pagina, dan selecteer het team. De teamkiezer wordt alleen weergegeven op pagina&#39;s die specifiek zijn voor een team, zoals een scenariobuilder of de [!UICONTROL Connections] pagina.
+Om teams te schakelen, klik op de teamnaam bij de bovenkant van de pagina, dan selecteer het team. De teamkiezer wordt alleen weergegeven op pagina&#39;s die specifiek zijn voor een team, zoals een scenariobuilder of de pagina [!UICONTROL Connections] .
 
 Om organisaties te schakelen, klik de organisatienaam bij het hoger-recht van uw scherm, dan selecteer de organisatie.
 
@@ -70,11 +70,11 @@ U hebt toegang tot uw profiel- en voorkeursopties door op de profielafbeelding i
 
 Onder uw profiel kunt u de volgende tabbladen weergeven:
 
-* **[!UICONTROL Organizations]**: Bekijk de Fusion-organisaties waartoe u behoort.
-* **[!UICONTROL Time Zone Options]**: Hier, kunt u de tijdstreken plaatsen die in de Fusion UI worden gebruikt, en de tijdstreken die voor individuele scenario&#39;s worden gebruikt.
+* **[!UICONTROL Organizations]**: bekijk de Fusion-organisaties waartoe u behoort.
+* **[!UICONTROL Time Zone Options]**: Hier kunt u de tijdzones instellen die worden gebruikt in de Fusion-interface en de tijdzones die worden gebruikt voor afzonderlijke scenario&#39;s.
 * **[!UICONTROL API]**: Hier kunt u bestaande API-tokens kopiëren of nieuwe maken.
 
 
 ## Toegang tot uw berichten
 
-Klik op het pictogram Meldingen om uw meldingen weer te geven ![Meldingspictogram](assets/notifications-icon.png) in de rechterbovenhoek van het scherm. Een rode stip op het pictogram Meldingen geeft aan dat u ongelezen meldingen of aankondigingen hebt.
+Om uw berichten te bekijken, klik het pictogram van Meldingen ![ pictogram van Meldingen ](assets/notifications-icon.png) dichtbij de hoger-juiste hoek van het scherm. Een rode stip op het pictogram Meldingen geeft aan dat u ongelezen meldingen of aankondigingen hebt.

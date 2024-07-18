@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Een gebruikersnaam wijzigen
 
-U kunt de gebruikersnaam (het e-mailadres) van een gebruiker bewerken door het gebruikersprofiel te bewerken. Voor instructies raadpleegt u de informatie over het veld E-mailadres in [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+U kunt de gebruikersnaam (het e-mailadres) van een gebruiker bewerken door het gebruikersprofiel te bewerken. Voor instructies, zie de informatie over het E-mailgebied van het Adres in [ uitgeven het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

@@ -21,9 +21,9 @@ Een Portfolio is een verzameling projecten die met dezelfde middelen, budget en 
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een portfolio maken](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [Portefeuilles verwijderen en deactiveren](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
-* [Portfolio&#39;s bewerken](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
-* [Projecten toevoegen aan een portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [Een project uit een portfolio verwijderen](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
+* [ creeer een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+* [ Schrap en deactiveert portefeuilles ](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
+* [ geeft portefeuilles ](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) uit
+* [ voeg projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toe
+* [ verwijder een project uit een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
 * [Gevraagde projecten controleren](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

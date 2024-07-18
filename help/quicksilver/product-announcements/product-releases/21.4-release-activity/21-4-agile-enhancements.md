@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 21.4 van Agile zijn aangebracht voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 21.4, zie [21.4 Overzicht van de release](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Toewijzingen van gebruikers aan Kanban- en Scrum-borden
 
@@ -24,7 +24,7 @@ We hebben de artikelkaarten op Kanban- en Scrum-borden bijgewerkt om het gemakke
 
 Zie voor meer informatie
 
-* [Gebruikers toewijzen aan een artikel op het Kanban-bord](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [ wijs gebruikers aan een verhaal op het karton Kanban toe ](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [Gebruikers toewijzen aan een artikel op het Klembord](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Configureer hoe datums worden toegepast bij het toevoegen van werkitems aan een scrubherhaling
@@ -33,7 +33,7 @@ Wanneer u een werkitem aan een herhaling toevoegt, worden de geplande begindatum
 
 Deze optie is alleen van toepassing op rumteams en niet op Kanban-teams.
 
-Zie voor meer informatie [Scrum configureren](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Voor meer informatie, zie [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormen.
 
 ## Wijzigingen in de flexibele weergave van projecten
 
@@ -41,7 +41,7 @@ Zie voor meer informatie [Scrum configureren](../../../agile/get-started-with-ag
 >
 >Deze functie is op 16 september 2021 uitgebracht aan de voorvertoningsomgeving.
 
-In het kader van de release 21.3 hebben we verbeteringen aangebracht in de &#39;agile card&#39;-koptekst en artikelborden (zie [Updates van Agicard-kopteksten en artikelborden](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Deze updates waren van toepassing op herhalingen en op de flexibele weergave van projecten.
+Als deel van de 21.3 versie, maakten wij verbeteringen aan de agile kaartkopbal en verhaalraad (zie [ de kaartkopbal en de updates van het verhaalbord van de Gelijkheid ](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Deze updates waren van toepassing op herhalingen en op de flexibele weergave van projecten.
 
 Met versie 21.4 herstellen wij deze verbeteringen voor de flexibele weergave van projecten. Er worden geen wijzigingen aangebracht in variabele herhalingen.
 
@@ -56,5 +56,5 @@ Hier volgen de wijzigingen die worden teruggedraaid met betrekking tot de flexib
 
 U kunt nu een nieuw artikel maken of een uitgave rechtstreeks vanaf het Kanban-bord publiceren. Zo kunt u snel een nieuw artikel toevoegen zonder dat u naar een project, rapport of dashboard hoeft te gaan om een taak te maken.
 
-Zie voor meer informatie [Artikelen en problemen toevoegen van het Kanban-bord](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Voor meer informatie, zie [ verhalen en kwesties van de raad Kanban ](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md) toevoegen.
 

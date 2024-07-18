@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Zie voor meer informatie [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 U kunt werkruimten verwijderen die niet meer relevant zijn.
 
@@ -68,21 +68,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -102,10 +102,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De pagina Werkruimte wordt weergegeven.
 
-1. Klik op de knop **Meer** menu ![](assets/more-menu.png) naast de naam van de werkruimte klikt u op **Verwijderen**.
+1. Klik **Meer** menu ![](assets/more-menu.png) naast de werkruimtenaam, dan klik **Schrapping**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Typ &quot;**delete**&quot; in de beschikbare ruimte klikt u op **Definitief verwijderen**. Dit is niet hoofdlettergevoelig.
+1. Het type &quot;**schrapt**&quot;in de verstrekte ruimte, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 
    De werkruimte wordt verwijderd en kan niet worden hersteld. Alle recordtypen, records, velden en weergaven die eraan zijn gekoppeld, worden ook verwijderd. <!--ensure this is right at or before GA-->

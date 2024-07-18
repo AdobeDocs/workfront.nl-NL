@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Als u als fiatteur aan een document wordt toegewezen, zijn er veelvoudige manieren u uw goedkeuringsbesluit kunt nemen.
 
-Voor informatie over het maken van een nieuwe documentgoedkeuring raadpleegt u [Een documentrevisie of goedkeuringsaanvraag maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Voor informatie over het creëren van een nieuwe documentgoedkeuring, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -41,20 +41,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een document van thuis goedkeuren
 
-1. Klik op de knop **Home** pictogram ![](../assets/home-icon-30x29.png) linksboven in Adobe Workfront.
+1. Klik het **pictogram van het Huis** ![](../assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
 
    >[!NOTE]
    >
@@ -62,9 +62,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >
-   >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](../assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](../assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
-1. Klikken **Filters** links boven op de pagina en zorg ervoor dat **Goedkeuringen** is ingeschakeld.
+1. Klik **Filters** bij de bovenkant verlaten van de pagina en zorg ervoor dat **goedkeurt** wordt gecontroleerd.
 
    Alle werkitems die u wilt goedkeuren, worden weergegeven in de lijst.
 
@@ -76,19 +76,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van de pagina:
 
-   * De **Goedkeuren** dropdown bevat twee opties:
+   * **keur** dropdown goed bevat twee opties:
 
-      * **Goedkeuren** geeft aan dat er geen wijzigingen nodig zijn voor deze versie van het document en dat goedkeuring wordt gegeven.
+      * **goedkeuren** wijst erop dat geen veranderingen voor deze versie van het document nodig zijn en dat de goedkeuring wordt gegeven.
 
-      * **Goedkeuren met wijzigingen** geeft aan dat het document nog enkele kleine wijzigingen moet bevatten, maar dat goedkeuring wordt verleend op voorwaarde dat deze wijzigingen worden aangebracht. Als u deze optie selecteert, wordt een venster weergegeven dat een tekstvak met de naam **Volgende stappen** Hier kunt u opgeven welke wijzigingen nodig zijn voor de goedkeuring van het document. U kunt deze gegevens invoeren en op **Bericht toevoegen** of u kunt op **Overslaan** het goedkeuringsbesluit zonder aanvullende informatie toe te zenden.
+      * **goedkeuren met veranderingen** wijst erop dat sommige kleine veranderingen nog op het document worden vereist, maar de goedkeuring wordt gegeven op de voorwaarde dat die veranderingen worden aangebracht. Als u deze optie selecteert, zal een venster verschijnen dat een tekstvakje genoemd **Volgende stappen** bevat waar u kunt specificeren welke veranderingen voor het document nodig zijn om worden goedgekeurd. U kunt of die informatie ingaan en **klikken toevoegt bericht**, of u kunt **overslaan** klikken om het goedkeuringsbesluit zonder extra informatie te verzenden.
 
-   * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
+   * **het werk van Behoeften** wijst erop dat de documentversie niet wordt goedgekeurd en significante veranderingen vereist.
 
    Neem het volgende in overweging bij het bekijken van documentgoedkeuringen in Home:
 
-   * De naam van de gebruiker die de goedkeuring heeft aangevraagd, wordt boven de documentnaam in Home weergegeven met de tekst &quot;*Gebruiker A* graag uw goedkeuring op...&quot; en onder **Verzonden door** in de goedkeuringsinformatie die rechts wordt weergegeven wanneer een goedkeuring is geselecteerd.
+   * De naam van de gebruiker die om de goedkeuring verzocht wordt getoond boven de documentnaam in Huis met de tekst &quot;*Gebruiker A* zou uw goedkeuring op...&quot;, evenals onder **Voorgelegd door** in de goedkeuringsinformatie die op het recht toont zodra een goedkeuring wordt geselecteerd.
 
-   * Nadat een besluit is genomen over een goedkeuring, blijft de goedkeuring op het tabblad Mijn goedkeuringen staan met de tekst &quot;Beslissing gemaakt&quot; totdat u klikt op de knop **Vernieuwen** of totdat u de browserpagina vernieuwt.
+   * Nadat een besluit op een goedkeuring wordt genomen, blijft de goedkeuring op het Mijn lusje van Goedkeuringen met de tekst &quot;Beslissing Made&quot;tot u **klikt verfrissen** knoop, of tot u de browser pagina vernieuwt.
 
 ## Een document op de documentpagina goedkeuren
 
@@ -104,17 +104,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van de pagina:
 
-   * De **Goedkeuren** dropdown bevat twee opties:
+   * **keur** dropdown goed bevat twee opties:
 
-      * **Goedkeuren** geeft aan dat er geen wijzigingen nodig zijn voor deze versie van het document en dat goedkeuring wordt gegeven.
+      * **goedkeuren** wijst erop dat geen veranderingen voor deze versie van het document nodig zijn en dat de goedkeuring wordt gegeven.
 
-      * **Goedkeuren met wijzigingen** geeft aan dat het document nog enkele kleine wijzigingen moet bevatten, maar dat goedkeuring wordt verleend op voorwaarde dat deze wijzigingen worden aangebracht. Als u deze optie selecteert, wordt een venster weergegeven dat een tekstvak met de naam **Volgende stappen** Hier kunt u opgeven welke wijzigingen nodig zijn voor de goedkeuring van het document. U kunt deze gegevens invoeren en op **Bericht toevoegen** of u kunt op **Overslaan** het goedkeuringsbesluit zonder aanvullende informatie toe te zenden.
+      * **goedkeuren met veranderingen** wijst erop dat sommige kleine veranderingen nog op het document worden vereist, maar de goedkeuring wordt gegeven op de voorwaarde dat die veranderingen worden aangebracht. Als u deze optie selecteert, zal een venster verschijnen dat een tekstvakje genoemd **Volgende stappen** bevat waar u kunt specificeren welke veranderingen voor het document nodig zijn om worden goedgekeurd. U kunt of die informatie ingaan en **klikken toevoegt bericht**, of u kunt **overslaan** klikken om het goedkeuringsbesluit zonder extra informatie te verzenden.
 
-   * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
+   * **het werk van Behoeften** wijst erop dat de documentversie niet wordt goedgekeurd en significante veranderingen vereist.
 
 ## Een document goedkeuren in het venster Documentoverzicht
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 
 1. Klik op het document waarvoor uw goedkeuring nodig is en het deelvenster Documentoverzicht wordt geopend.
 
@@ -128,10 +128,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op een van de volgende twee goedkeuringsopties in de rechterbovenhoek van het deelvenster Documentoverzicht:
 
-   * De **Goedkeuren** dropdown bevat twee opties:
+   * **keur** dropdown goed bevat twee opties:
 
-      * **Goedkeuren** geeft aan dat er geen wijzigingen nodig zijn voor deze versie van het document en dat goedkeuring wordt gegeven.
+      * **goedkeuren** wijst erop dat geen veranderingen voor deze versie van het document nodig zijn en dat de goedkeuring wordt gegeven.
 
-      * **Goedkeuren met wijzigingen** geeft aan dat het document nog enkele kleine wijzigingen moet bevatten, maar dat goedkeuring wordt verleend op voorwaarde dat deze wijzigingen worden aangebracht. Als u deze optie selecteert, wordt een venster weergegeven dat een tekstvak met de naam **Volgende stappen** Hier kunt u opgeven welke wijzigingen nodig zijn voor de goedkeuring van het document. U kunt deze gegevens invoeren en op **Bericht toevoegen** of u kunt op **Overslaan** het goedkeuringsbesluit zonder aanvullende informatie toe te zenden.
+      * **goedkeuren met veranderingen** wijst erop dat sommige kleine veranderingen nog op het document worden vereist, maar de goedkeuring wordt gegeven op de voorwaarde dat die veranderingen worden aangebracht. Als u deze optie selecteert, zal een venster verschijnen dat een tekstvakje genoemd **Volgende stappen** bevat waar u kunt specificeren welke veranderingen voor het document nodig zijn om worden goedgekeurd. U kunt of die informatie ingaan en **klikken toevoegt bericht**, of u kunt **overslaan** klikken om het goedkeuringsbesluit zonder extra informatie te verzenden.
 
-   * **Werking vereist** Hiermee wordt aangegeven dat de documentversie niet is goedgekeurd en aanzienlijke wijzigingen vereist.
+   * **het werk van Behoeften** wijst erop dat de documentversie niet wordt goedgekeurd en significante veranderingen vereist.

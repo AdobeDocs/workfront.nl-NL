@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -37,29 +37,29 @@ De volgende bronnen zijn gewijzigd voor API-versie 13.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
-     <li> <p><a href="#breadcrumb" class="MCXref xref">BreadCrumb</a> </p> </li> 
-     <li> <p><a href="#burndownevent" class="MCXref xref">BurndownEvent</a> </p> </li> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">Klantvoorkeuren</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
-     <li> <p><a href="#group" class="MCXref xref">Groep </a> </p> </li> 
-     <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
-     <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
-     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
-     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref"> AccessLevel </a> </p> </li> 
+     <li> <p><a href="#breadcrumb" class="MCXref xref"> BreadCrumb </a> </p> </li> 
+     <li> <p><a href="#burndownevent" class="MCXref xref"> BurndownEvent </a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref"> CustomerPreferences </a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref"> DocumentVersion </a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref"> Groep </a> </p> </li> 
+     <li> <p><a href="#journalentry" class="MCXref xref"> JournalEntry </a> </p> </li> 
+     <li> <p><a href="#layouttemplate" class="MCXref xref"> LayoutTemplate </a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref"> LinkedFolder </a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref"> OpTask </a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#project" class="MCXref xref">Project</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">Goedkeuring proef</a> </p> </li> 
-     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Taak</a> </p> </li> 
-     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Tijdschema</a> </p> </li> 
-     <li> <p><a href="#timesheetprofile" class="MCXref xref">TimesheetProfile</a> </p> </li> 
-     <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
-     <li> <p><a href="#userdelegation" class="MCXref xref">Gebruikersdelegatie</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">Werk </a> </p> </li> 
+     <li> <p><a href="#project" class="MCXref xref"> Project </a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref"> ProofApproval </a> </p> </li> 
+     <li> <p><a href="#queuedef" class="MCXref xref"> QueueDef </a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref"> Taak </a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref"> Team </a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref"> Timesheet </a> </p> </li> 
+     <li> <p><a href="#timesheetprofile" class="MCXref xref"> TimesheetProfile </a> </p> </li> 
+     <li> <p><a href="#uitemplate" class="MCXref xref"> UITemplate </a> </p> </li> 
+     <li> <p><a href="#userdelegation" class="MCXref xref"> UserDelegation </a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref"> Werk </a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ De volgende bronnen zijn gewijzigd voor API-versie 13.
 
 Een voorwerp AccessLevel wordt geassocieerd met gebruikers, en beschrijft de reeks van AccessLevelPermissions die bepalen wat de gebruiker tot toegang heeft.
 
-Voor meer informatie over toegangsniveaus, zie [Hoe de toegangsniveaus werken](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Voor meer informatie over toegangsniveaus, zie [ hoe de toegangsniveaus ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -79,7 +79,7 @@ Voor meer informatie over toegangsniveaus, zie [Hoe de toegangsniveaus werken](.
    <td> <p>Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>Beschrijving</b> </p> <p>De validator MAX_LENGTH is toegevoegd, die aangeeft dat de beschrijving niet langer is dan 4000 tekens.</p> </li> 
+     <li> <p><b> Beschrijving </b> </p> <p>De validator MAX_LENGTH is toegevoegd, die aangeeft dat de beschrijving niet langer is dan 4000 tekens.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ Voor meer informatie over toegangsniveaus, zie [Hoe de toegangsniveaus werken](.
 
 Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Workfront-werkitem. Broodkruimels wijzen erop hoe een het werkpunt in de grotere structuur van Portfolio&#39;s, Projecten, Projecten, en Taken past.
 
-Voor meer informatie over broodkruimels, zie [Overzicht van Broodkruimels in de nieuwe Adobe Workfront-ervaring](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Voor meer informatie over broodkruimels, zie [ Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront ](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ Voor meer informatie over broodkruimels, zie [Overzicht van Broodkruimels in de 
    <td> <p>Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Objectcodes vindt u in het dialoogvenster <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
+     <li> <p><b> objCode </b> </p> <p>De codes van objecten kunnen in de <a href="../../wf-api/general/api-explorer.md" class="MCXref xref"> API Ontdekkingsreiziger </a> worden gevonden.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Voor meer informatie over broodkruimels, zie [Overzicht van Broodkruimels in de 
 
 Een object BurndownEvent vertegenwoordigt een object dat de bundown van een herhaling wijzigt.
 
-Voor meer informatie over burndown, zie [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+Voor meer informatie over burndown, zie [ Burndown ](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -152,8 +152,8 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
    <td>Handelingen</td> 
    <td> <p>De volgende acties werden toegevoegd aan het middel CustomerPreferences.</p> 
     <ul> 
-     <li> <p><b>getTimesheetPreferences</b> </p> </li> 
-     <li> <p><b>setTimesheetPreferences</b> </p> <p>Neemt het argument:</p> 
+     <li> <p><b> getTimesheetPreferences </b> </p> </li> 
+     <li> <p><b> setTimesheetPreferences </b> </p> <p>Neemt het argument:</p> 
       <ul> 
        <li> <p>voorkeuren (kaart)</p> </li> 
       </ul> </li> 
@@ -166,7 +166,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Zie voor meer informatie over documentversies [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md).
+Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -176,13 +176,13 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
    <td> <p>Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>Toegevoegde mogelijke waarde:</p> 
+     <li> <p><b> externalIntegrationType </b> </p> <p>Toegevoegde mogelijke waarde:</p> 
       <ul> 
        <li> <p>AEM, Adobe Experience Manager</p> </li> 
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p><b>proofID</b> </p> <p>Toegevoegde markering NOT_FILTERABLE</p> </li> 
+     <li> <p><b> proofID </b> </p> <p>Toegevoegde markering NOT_FILTERABLE</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +192,7 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
 
 Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenwoordigen vaak de afdelingsstructuur.
 
-Zie voor meer informatie over groepen [Groepen versus teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Voor meer informatie over groepen, zie [ Groepen vs. teams in Adobe Workfront ](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -202,7 +202,7 @@ Zie voor meer informatie over groepen [Groepen versus teams in Adobe Workfront](
    <td> <p>Handelingen</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>getParents</b> </p> <p>Deze actie retourneert een array van de bovenliggende groepen van de groep (groepen waarvan de opgegeven groep een subgroep is).</p> </li> 
+     <li> <p><b> getParents </b> </p> <p>Deze actie retourneert een array van de bovenliggende groepen van de groep (groepen waarvan de opgegeven groep een subgroep is).</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -222,16 +222,16 @@ De middelen JournalEntry voegde de vlag toe RAPPORTABLE.
    <td> <p>Directe velden</p> </td> 
    <td> <p>De volgende velden hebben de markering NOT_GROUPABLE verwijderd:</p> 
     <ul> 
-     <li> <p><b>changeType</b> </p> </li> 
-     <li> <p><b>entryDate</b> </p> </li> 
-     <li> <p><b>fieldName</b> </p> </li> 
-     <li> <p><b>objObjCode</b> </p> </li> 
+     <li> <p><b> changeType </b> </p> </li> 
+     <li> <p><b> entryDate </b> </p> </li> 
+     <li> <p><b> fieldName </b> </p> </li> 
+     <li> <p><b> objObjCode </b> </p> </li> 
     </ul> <p>In de volgende velden is de markering NOT_FILTERABLE toegevoegd:</p> 
     <ul> 
-     <li> <p><b>subObjCode</b> </p> </li> 
-     <li> <p><b>subObjID</b> </p> </li> 
-     <li> <p><b>topObjCode</b> </p> </li> 
-     <li> <p><b>topObjID</b> </p> </li> 
+     <li> <p><b> subObjCode </b> </p> </li> 
+     <li> <p><b> subObjID </b> </p> </li> 
+     <li> <p><b> topObjCode </b> </p> </li> 
+     <li> <p><b> topObjID </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -241,7 +241,7 @@ De middelen JournalEntry voegde de vlag toe RAPPORTABLE.
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen sjablonen maken om de lay-outelementen in Adobe Workfront aan te passen. Het object LayoutTemplate is specifiek voor Adobe Workfront Classic.
 
-Ga voor het object dat lay-outsjablonen in de nieuwe Adobe Workfront-ervaring vertegenwoordigt naar [UITemplate](#uitemplate)
+Voor het voorwerp dat lay-outmalplaatjes in de nieuwe ervaring van Adobe Workfront vertegenwoordigt, zie [ UITemplate ](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -251,7 +251,7 @@ Ga voor het object dat lay-outsjablonen in de nieuwe Adobe Workfront-ervaring ve
    <td> <p>Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>Beschrijving</b> </p> <p>De validator MAX_LENGTH is toegevoegd, die aangeeft dat de beschrijving niet langer is dan 4000 tekens.</p> </li> 
+     <li> <p><b> Beschrijving </b> </p> <p>De validator MAX_LENGTH is toegevoegd, die aangeeft dat de beschrijving niet langer is dan 4000 tekens.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +261,7 @@ Ga voor het object dat lay-outsjablonen in de nieuwe Adobe Workfront-ervaring ve
 
 Een object LinkedFolder vertegenwoordigt een map die is gekoppeld vanuit een externe documentprovider, zoals Google Drive of Dropbox.
 
-Voor meer informatie over Gekoppelde mappen raadpleegt u [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie over Gekoppelde Omslagen, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -271,7 +271,7 @@ Voor meer informatie over Gekoppelde mappen raadpleegt u [Documenten van externe
    <td> <p>Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>Toegevoegde mogelijke waarde:</p> 
+     <li> <p><b> externalIntegrationType </b> </p> <p>Toegevoegde mogelijke waarde:</p> 
       <ul> 
        <li> <p>AEM, Adobe Experience Manager</p> </li> 
       </ul> </li> 
@@ -292,7 +292,7 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
    <td> <p>Zoeken in velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favorByUsersMM</b> </p> </li> 
+     <li> <p><b> FavoritedByUsersMM </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -310,7 +310,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
    <td> <p>Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b> convertOpTaskOriginatorID </b> </p> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
       --> </li> 
     </ul> </td> 
@@ -330,9 +330,9 @@ Een ProofApproval-object vertegenwoordigt een goedkeuring die rechtstreeks is ve
    <td> <p>Directe velden</p> </td> 
    <td> <p>De volgende gebieden werden toegevoegd aan het middel ProofApproval.</p> 
     <ul> 
-     <li> <p><b>ApproverStage</b> </p> </li> 
-     <li> <p><b>Beslissingsdatum</b> </p> </li> 
-     <li> <p><b>workflowTemplate</b> </p> </li> 
+     <li> <p><b> ApproverStage </b> </p> </li> 
+     <li> <p><b> DecisionDate </b> </p> </li> 
+     <li> <p><b> workflowTemplate </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -342,7 +342,7 @@ Een ProofApproval-object vertegenwoordigt een goedkeuring die rechtstreeks is ve
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het gebied van de Helpdesk is gepubliceerd om gebruikers toe te staan om Kwesties aan het voor te leggen.
 
-Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -352,7 +352,7 @@ Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../
    <td role="rowheader">Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p><b>documentPosition</b> </p> <p>Toegevoegd. Mogelijke waarden zijn:</p> 
+     <li> <p><b> documentPosition </b> </p> <p>Toegevoegd. Mogelijke waarden zijn:</p> 
       <ul> 
        <li> <p>0 (Na aangepaste formulieren)</p> </li> 
        <li> <p>1 (Voor aangepaste formulieren)</p> </li> 
@@ -374,7 +374,7 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
    <td> <p>Zoeken in velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favorByUsersMM</b> </p> </li> 
+     <li> <p><b> FavoritedByUsersMM </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -417,14 +417,14 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
    <td>Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p><b>isOvertimeDisabled</b> </p> <p>Toegevoegd</p> </li> 
+     <li> <p><b> isOvertimeDisabled </b> </p> <p>Toegevoegd</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Kernvelden</td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Verwijderd</p> </li> 
+     <li> <p><b> objCode </b> </p> <p>Verwijderd</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -442,14 +442,14 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
    <td>Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p><b>isOvertimeDisabled</b> </p> <p>Toegevoegd</p> </li> 
+     <li> <p><b> isOvertimeDisabled </b> </p> <p>Toegevoegd</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Standaardvelden</td> 
    <td> 
     <ul> 
-     <li> <p><b>isOvertimeDisabled</b> </p> <p>Toegevoegd</p> </li> 
+     <li> <p><b> isOvertimeDisabled </b> </p> <p>Toegevoegd</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -459,7 +459,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen sjablonen maken om de lay-outelementen in Adobe Workfront aan te passen. Het UITemplate-object is specifiek voor de nieuwe Adobe Workfront-ervaring.
 
-Ga voor het object dat lay-outsjablonen in Adobe Workfront Classic vertegenwoordigt naar [LayoutTemplate](#layouttemplate).
+Voor het voorwerp dat lay-outmalplaatjes in Klassiek Adobe Workfront vertegenwoordigt, zie [ LayoutTemplate ](#layouttemplate).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -469,11 +469,11 @@ Ga voor het object dat lay-outsjablonen in Adobe Workfront Classic vertegenwoord
    <td role="rowheader">Handelingen</td> 
    <td> <p>De volgende acties werden toegevoegd aan het middel UITemplate.</p> 
     <ul> 
-     <li> <p><b>migrateCustomersAllLayoutTemplates</b> </p> <p>Neemt het argument:</p> 
+     <li> <p><b> migrateCustomersAllLayoutTemplates </b> </p> <p>Neemt het argument:</p> 
       <ul> 
        <li> <p>overrideIfExists (boolean)</p> </li> 
       </ul> </li> 
-     <li> <p><b>migrateLayoutTemplates</b> </p> <p>Neemt de argumenten:</p> 
+     <li> <p><b> migrateLayoutTemplates </b> </p> <p>Neemt de argumenten:</p> 
       <ul> 
        <li> <p>layoutTemplateIDs (string[])</p> </li> 
        <li> <p>overrideIfExists (boolean)</p> </li> 
@@ -497,16 +497,16 @@ Het object UserDelegation heeft de markering REPORTABLE toegevoegd.
    <td role="rowheader">Directe velden</td> 
    <td> <p>De volgende velden zijn verwijderd uit de flag NOT_GROUPABLE</p> 
     <ul> 
-     <li> <p><b>endDate</b> </p> </li> 
-     <li> <p><b>startDate</b> </p> </li> 
+     <li> <p><b> endDate </b> </p> </li> 
+     <li> <p><b> startDate </b> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Standaardvelden</td> 
    <td> <p>De volgende velden zijn toegevoegd:</p> 
     <ul> 
-     <li> <p><b>endDate</b> </p> </li> 
-     <li> <p><b>startDate</b> </p> </li> 
+     <li> <p><b> endDate </b> </p> </li> 
+     <li> <p><b> startDate </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -524,7 +524,7 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
    <td> <p>Zoeken in velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>favorByUsersMM</b> </p> </li> 
+     <li> <p><b> FavoritedByUsersMM </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

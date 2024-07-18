@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Deze index bevat koppelingen naar de volgende artikelen:
 
-* [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-* [Werk het Type van Duur van een taak bij](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
-* [Overzicht duur: berekende toewijzing](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
-* [Overzicht van het Duur Type: Door de inspanning gestuurde](../../../manage-work/tasks/taskdurtn/effort-driven.md)
-* [Overzicht duur: berekend werk](../../../manage-work/tasks/taskdurtn/calculated-work.md)
-* [Overzicht van het type duur: Eenvoudig](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
-* [Werk de Geplande Uren en Duur van een taak met het Eenvoudige Type van Duur bij](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
+* [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* [ werk het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bij
+* [ overzicht van het Type van Duur: Berekende Toewijzing ](../../../manage-work/tasks/taskdurtn/calculated-assignment.md)
+* [ overzicht van het Type van Duur: Gedreven inspanning ](../../../manage-work/tasks/taskdurtn/effort-driven.md)
+* [ overzicht van het Type van Duur: Berekend Werk ](../../../manage-work/tasks/taskdurtn/calculated-work.md)
+* [ overzicht van het Type van Duur: Eenvoudig ](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+* [ werk de Geplande Uren en Duur van een taak met een Eenvoudig Type van Duur ](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md) bij
 * [Duur typen in Adobe Workfront- en Microsoft-project](../../../manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
 
 

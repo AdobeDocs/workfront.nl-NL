@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Als u als fiatteur wordt geplaatst, zou u regelmatig moeten herzien welk werk in afwachting van uw goedkeuring is.
 
-Voor informatie over het maken van goedkeuringsprocessen raadpleegt u [Een goedkeuringsproces voor werkitems maken](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Voor informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
-Voor informatie over het koppelen van goedkeuringen aan het werk in Workfront raadpleegt u [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Voor informatie over het associëren van goedkeuringen met het werk in Workfront, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Toegangsvereisten
 
@@ -43,26 +43,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Goedkeuringen zoeken in Adobe Workfront
 
 U kunt goedkeuringen bekijken en beheren in verschillende gebieden van Workfront.
 
-Ga voor meer informatie over het bekijken van objecten die wachten op goedkeuring of onderdelen die u zelf ter goedkeuring hebt ingediend naar [Goedkeuringen weergeven](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Voor meer informatie over het bekijken van punten die op goedkeuring wachten of punten die u voor goedkeuring zelf hebt voorgelegd, zie [ goedkeuringen van de Mening ](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Werk goedkeuren vanuit het thuisgebied
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
+1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
 
    >[!NOTE]
    >
@@ -70,44 +70,44 @@ Ga voor meer informatie over het bekijken van objecten die wachten op goedkeurin
    >
    >   
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
-1. Klik op de knop **Filter** vervolgkeuzelijst.
+1. Klik het **drop-down menu van de Filter**.
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-1. Selecteren **Goedkeuringen**.\
+1. Selecteer **Goedkeuringen**.\
    Alle werkitems waarvoor goedkeuring is vereist, worden weergegeven. 
 
    >[!NOTE]
    >
    >Goedkeuringen die zijn toegewezen aan taakrollen of -groepen worden niet weergegeven in Home. De goedkeuringen die aan Teams worden toegewezen tonen in de Groep van het Verzoek van het Team in de Lijst van het Werk.
 
-1. (Optioneel) Wijzig de volgorde waarin goedkeuringen worden weergegeven, zoals wordt beschreven in de sectie &#39;Groep en sorteren op datum, project of prioriteit&#39; in het artikel [Items weergeven in de werklijst in het gebied Home](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+1. (Facultatief) verander de orde waarin de goedkeuringen worden getoond, zoals die in de sectie &quot;Groep en soort door Datum, Project, of Prioriteit&quot;in de punten van de artikel [ Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) worden beschreven.
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
    ![](assets/task-approval-home-350x127.png)
 
 1. Klik op een van de beschikbare opties wanneer u een goedkeuringsbesluit neemt in het rechterdeelvenster. De volgende opties worden in de rechterbovenhoek van de pagina weergegeven, afhankelijk van het type item dat u goedkeurt:
 
-   * **Projecten:** Klikken **Goedkeuren** of **Afwijzen**.
+   * **Projecten:** klik **goedkeuren** of **verwerpen**.
 
-   * **Taken:** Klikken **Goedkeuren** of **Afwijzen** .
+   * **Taken:** klik **goedkeuren** of **verwerpen**.
 
-   * **Problemen:** Klikken **Goedkeuren** of **Afwijzen** .
+   * **Kwesties:** klik **goedkeuren** of **verwerping**.
 
-   * **Timesheets:** Klikken **Goedkeuren** of **Afwijzen** .
+   * **Tijdopnemers:** klik **goedkeuren** of **verwerping**.
 
-   * **Documenten:** Klikken **Goedkeuren**, **Afwijzen**, of **Wijzigingen**.\
-      Houd rekening met het volgende wanneer u goedkeuringen weergeeft:
+   * **Documenten:** klik **goedkeuren**, **verwerping**, of **Veranderingen**.\
+      Houd rekening met het volgende wanneer u de afbeelding bekijkt  goedkeuringen:
 
-      * Hier worden proefdrukken van goedkeuringen weergegeven wanneer een gebruiker een proefdruk met u deelt, zoals wordt beschreven in de sectie &quot;Een proefdrukkoppeling delen&quot; in het artikel [Een proefdruk delen in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+      * De goedkeuringen van het bewijs tonen hier wanneer een gebruiker een proef met u deelt, zoals die in de sectie &quot;een proefverbinding&quot;in het artikel [ wordt beschreven Deel een proef binnen Adobe Workfront ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
       * Goedkeuringen voor proefdrukken worden alleen weergegeven in het gedeelte Home als uw Workfront-omgeving is geïntegreerd met een Workfront Proof Premium-account. Neem contact op met de Workfront-beheerder als u geen gebruik kunt maken van de hier beschreven proefdrukken.
       * U ontvangt een melding in de app waarin u op de hoogte wordt gebracht van de goedkeuring voor proefdrukken.\
-        Zie voor meer informatie over meldingen in de app [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+        Voor meer informatie over in-app berichten, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
       * De naam van de gebruiker die goedkeuring heeft aangevraagd, wordt weergegeven naast de miniatuurafbeelding in het gebied Home, met de volgende tekst:\
-        &quot;*Gebruiker A* graag uw goedkeuring op...&quot;
+        &quot;*Gebruiker A* zou uw goedkeuring willen op...&quot;
 
         <!--      
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
@@ -117,13 +117,13 @@ Ga voor meer informatie over het bekijken van objecten die wachten op goedkeurin
 
         Als de gebruikersnaam niet beschikbaar is, wordt de volgende tekst weergegeven:\
         &quot;Een nieuwe versie van een proefdruk kan worden weergegeven&quot;
-      * Als u een goedkeuringsbesluit wilt nemen over het bewijs, klikt u op **Ga naar proefafdruk**, klikt u op **Revisie voltooien** en klikt u op een van de beschikbare opties. De beschikbare opties voor het goedkeuren van een proefdruk zijn: **Goedgekeurd**, **Goedgekeurd met wijzigingen**, **Vereiste wijzigingen**, en **Niet relevant**.
+      * Om een goedkeuringsbesluit over de proef te maken, klik **gaan naar Bewijs**, **de overzicht van de Voltooiing**, dan klik één van de beschikbare opties. De beschikbare opties wanneer het goedkeuren van een proef zijn: **Goedgekeurd**, **goedgekeurd met veranderingen**, **vereiste Veranderingen**, en **niet relevant**.
 
-      * Nadat een besluit is genomen op het bewijs, blijft het bewijs op het tabblad Mijn goedkeuringen staan met de tekst &quot;Beslissing gemaakt&quot; totdat u klikt op het tabblad **Vernieuwen** of totdat u de browserpagina vernieuwt.
+      * Nadat een besluit op het bewijs wordt genomen, blijft het bewijs in het Mijn lusje van Goedkeuringen met de tekst &quot;Beslissing Made&quot;tot u **klikt verfrissen** knoop, of tot u de browser pagina vernieuwt.
 
-        Voor informatie over het bekijken van een bewijs raadpleegt u [Proefversies bekijken in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+        Voor informatie over het herzien van een proef, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-   * **Toegang:** Selecteer het toegangsniveau dat u wilt verlenen in het dialoogvenster **Toegang wijzigen** vervolgkeuzemenu en vervolgens op **Toegang verlenen**. Of klik op **Negeren**.
+   * **Toegang:** selecteer het niveau van toegang om in het **toegang van de Verandering** drop-down menu te verlenen, dan klik **Toegang van de Verlening**. Of, klik **negeren**.
 
 ## Het werk rechtstreeks vanuit een project, taak of probleem goedkeuren
 
@@ -149,41 +149,41 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
      </tr> 
      <tr> 
       <td role="rowheader">Goedkeuringsfasen</td> 
-      <td>De fasen van het goedkeuringsproces. <br>Het huidige stadium dat goedkeuring in afwachting is wordt getoond zoals In behandeling. De stadia die reeds zijn goedgekeurd worden getoond als Goedgekeurd; de stadia die nog niet zijn goedgekeurd worden getoond als niet Begonnen.</td> 
+      <td>De fasen van het goedkeuringsproces. <br> het huidige stadium dat goedkeuring in afwachting is wordt getoond zoals In behandeling. De stadia die reeds zijn goedgekeurd worden getoond als Goedgekeurd; de stadia die nog niet zijn goedgekeurd worden getoond als niet Begonnen.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Goedkeuren** of **Afwijzen**, afhankelijk van de vraag of u het goedkeuringsproces wilt goedkeuren of afwijzen.\
+1. Klik **goedkeuren** of **Weigeren**, afhankelijk van of u het goedkeuringsproces wilt goedkeuren of verwerpen.\
    De goedkeuringsfase die in afwachting was van de goedkeuring wordt nu goedgekeurd en de goedkeuringsprocedure gaat naar de volgende fase. De status wordt goedgekeurd nadat alle fasen zijn goedgekeurd.
 
 ## Een document rechtstreeks vanuit een document goedkeuren 
 
 1. Ga naar het documentgebied dat het document bevat dat uw goedkeuring vereist.
-1. Selecteer het document en klik op **Goedkeuren**, **Wijzigingen**, of **Afwijzen**.\
+1. Selecteer het document, dan klik **goedkeuren**, **Veranderingen**, of **verwerpen**.\
    ![](assets/approval-approve-document-350x215.png)\
    ![](assets/document-approval-350x199.png)
 
-1. (Optioneel) Als een proefdruk voor het document is gegenereerd, kunt u het document goedkeuren in de interface voor proefdrukken, zoals beschreven in [Een document op basis van een bewijs goedkeuren](#approve-a-document-from-a-proof).
+1. (Facultatief) als een proef voor het document is geproduceerd, kunt u het document binnen de het proeven interface goedkeuren, zoals die in [ wordt beschreven een document van een proef ](#approve-a-document-from-a-proof) goedkeuren.
 
 ## Een document goedkeuren via een e-mailbericht voor goedkeuring
 
-Afhankelijk van uw berichtinstellingen ontvangt u mogelijk e-mailberichten waarin u op de hoogte wordt gesteld van documenten waarvoor andere gebruikers u nodig hebben om een goedkeuringsbesluit te nemen. Wanneer u een e-mail ontvangt met een **Goedkeuringsbesluit maken** kunt u het goedkeuringsproces rechtstreeks starten via e-mail:
+Afhankelijk van uw berichtinstellingen ontvangt u mogelijk e-mailberichten waarin u op de hoogte wordt gesteld van documenten waarvoor andere gebruikers u nodig hebben om een goedkeuringsbesluit te nemen. Wanneer u een e-mail ontvangt die a **bevat maak de knoop van het Besluit van de Goedkeuring**, kunt u het goedkeuringsproces van e-mail direct beginnen:
 
-1. Klik in het e-mailbericht op **Goedkeuringsbesluit maken** om de pagina Documentdetails voor de proefdruk te openen.
+1. Van e-mail, klik **maken het Besluit van de Goedkeuring** om de pagina van de Details van het Document voor de proef te openen.
 1. Voer een van de volgende handelingen uit om het document te reviseren:
 
    * De metagegevens van het document weergeven.
-   * Als er een proefdruk is gemaakt voor het reviseren van het document met markeringen en opmerkingen, klikt u op **Proef openen** ![](assets/open-proof-icon-qs.png) in de rechterbovenhoek en bekijk de proefdruk.
+   * Als een proef voor het herzien van het document met prijsverhoging en commentaren is gecreeerd, klik **Open proef** ![](assets/open-proof-icon-qs.png) dichtbij de hogere juiste hoek en herzie de proef.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-     Zie voor informatie over het controleren van proefdrukken [Proefversies bekijken in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Voor informatie over het herzien van proeven, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Klik op een **Besluit** in de rechterbovenhoek om het document goed te keuren, goed te keuren met wijzigingen of af te wijzen.
+1. Klik de optie van het a **Besluit** in de hogere juiste hoek om, met veranderingen goed te keuren, goed te keuren of het document te verwerpen.
 
 ## Een document op basis van een bewijs goedkeuren {#approve-a-document-from-a-proof}
 
-U kunt een document goedkeuren in de proefdrukviewer. Zie voor meer informatie [Beslissen op een bewijs in de professionele drukker](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in het artikel [Beslissen op een bewijs in de professionele drukker](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+U kunt een document goedkeuren in de proefdrukviewer. Voor meer informatie, zie [ een besluit over een bewijs in de het proeven kijker ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in het artikel [ nemen een besluit over een bewijs in de het proef kijker ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

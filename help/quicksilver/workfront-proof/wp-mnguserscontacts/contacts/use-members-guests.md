@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Begrijp Gebruikers, Leden, en Gasten in [!DNL Workfront Proof]
+title: Begrijp Gebruikers, Leden, en Gasten in  [!DNL Workfront Proof]
 description: De gebruikers, de Leden, en de Gasten zijn de drie soorten contacten u met aan de pagina van Contacten kunt werken.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 ---
 
-# Begrijp Gebruikers, Leden, en Gasten in [!DNL Workfront Proof]
+# Gebruikers, leden en gasten begrijpen in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 De gebruikers, de Leden, en de Gasten zijn de drie soorten contacten u met aan de pagina van Contacten kunt werken.
 
-Zie [Uw contactpersonen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) voor meer informatie over de pagina Contacten.
+Zie [ Uw Contacten binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) voor meer informatie over de pagina van Contacten.
 
 * **Gebruikers**
 
-   Gebruikers beschikken over een [!DNL Workfront Proof] aanmelden in de account van uw organisatie. Als u een [!DNL Workfront Proof] beheerder, kunt u een nieuwe gebruiker toevoegen. Zie [Gebruikers maken met [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) voor meer informatie .
+  Gebruikers hebben een [!DNL Workfront Proof] -aanmelding in de account van uw organisatie. Als u een [!DNL Workfront Proof] beheerder bent, kunt u een nieuwe gebruiker toevoegen. Zie [ Gebruikers creëren gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) voor meer informatie.
 
 * **Leden**
 
-   Leden hebben hun eigen [!DNL Workfront Proof] aanmelden in account van andere organisatie (niet uw eigen account). U kunt leden niet converteren naar gebruikers in uw account.
+  Leden hebben hun eigen [!DNL Workfront Proof] aanmelding in een account van een andere organisatie (niet uw eigen account). U kunt leden niet converteren naar gebruikers in uw account.
 
 * **Gasten**
 
-   Gasten hebben geen eigen [!DNL Workfront Proof] zich aan bij de account van uw organisatie, maar u hebt hun gegevens toegevoegd aan uw account (bijvoorbeeld gasten die een proefversie hebben van uw account). U kunt gasten converteren naar gebruikers. Zie voor meer informatie [Gebruikers maken met [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).
+  Gasten hebben geen eigen [!DNL Workfront Proof] -aanmelding in de account van uw organisatie, maar u hebt wel hun gegevens aan uw account toegevoegd (bijvoorbeeld gastrevisoren op proefdrukken). U kunt gasten converteren naar gebruikers. Voor meer informatie, zie [ Gebruikers creëren gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).

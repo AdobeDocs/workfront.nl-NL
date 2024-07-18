@@ -11,7 +11,7 @@ role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ U kunt terugkomende taken voor activiteiten tot stand brengen die u als deel van
 
 In dit artikel worden informatie en overwegingen beschreven over het maken en bewerken van terugkerende taken.
 
-Ga voor informatie over hoe u terugkerende taken in Adobe Workfront kunt maken naar [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Voor informatie over hoe te om terugkomende taken in Adobe Workfront tot stand te brengen, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
 
 ## Het terugkomen Overzicht van Taken en overwegingen
 
@@ -59,7 +59,7 @@ Houd rekening met het volgende wanneer u terugkerende taken maakt in Workfront:
    * De status is uitgeschakeld op de bovenliggende taak en wordt automatisch ingesteld op Nieuw op de onderliggende items. De bovenliggende taak wordt automatisch voltooid en de status wordt bijgewerkt naar Voltooid wanneer alle onderliggende items zijn voltooid.
    * De enige beschikbare Types van Duur voor terugkomende taken zijn:
 
-      * Eenvoudig
+      * eenvoudig
       * Inzet gedreven
 * De duur en de geplande uren die voor een nieuwe terugkerende taak worden vermeld zijn de Duur en de Geplande Uren van elk voorkomen. De Duur van de oudertaak is de tijd tussen de Geplande Datum van het Begin van de vroegste taak en de Geplande Datum van de Voltooiing van de recentste taak. De geplande uren van de bovenliggende taak is het totaal van alle geplande uren van alle voorvallen.
 
@@ -68,7 +68,7 @@ Houd rekening met het volgende wanneer u terugkerende taken maakt in Workfront:
 Sommige wijzigingen die u aanbrengt in een bovenliggende taak die terugkeert, worden mogelijk niet op alle bestaande exemplaren bijgewerkt. Onderliggende taken die de voortgang tonen of afzonderlijk zijn bijgewerkt, worden niet bijgewerkt wanneer u het bovenliggende onderdeel bijwerkt. Workfront is van mening dat een taak vooruitgang laat zien in de volgende situaties:
 
 * De status wordt bijgewerkt en de taak is niet langer Nieuw
-* Het percentage Voltooien van de taak is hoger dan nul
+* Het percentage voltooide taak is hoger dan nul
 * De taak heeft voorgaande relaties
 
 In de volgende tabel wordt aangegeven of wijzigingen die zijn aangebracht in de bovenliggende trigger, worden bijgewerkt met onderliggende elementen die niet afzonderlijk zijn bewerkt of die voortgang tonen:
@@ -98,6 +98,6 @@ In de volgende tabel wordt aangegeven of wijzigingen die zijn aangebracht in de 
 * Als u de Frequentie van de Herhaling op een bestaande oudertaak verandert, worden de bestaande subtaken geschrapt en met nieuwe subtaken vervangen die de nieuwe herhalingsfrequentie volgen als zij geen vooruitgang tonen en als u niet manueel hen hebt bijgewerkt.
 * Als u de Frequentie van de Herhaling op een bestaande oudertaak verandert, worden de subtaken die vooruitgang tonen niet geschrapt. Deze taken worden los van de herhaling op dit punt beschouwd.
 
-&#42;&#42; De taken die op de oudertaak worden aangebracht worden toegepast op alle subtaken in de terugkerende taak. Eventuele wijzigingen die in de toewijzing in de bovenliggende taak zijn aangebracht, overschrijven elke afzonderlijke toewijzing in de subtaak. Als de taak de voortgang weergeeft, verandert de toewijzing niet.
+&#42;&#42; Toewijzingen die op de bovenliggende taak zijn uitgevoerd, worden toegepast op alle subtaken in de herhaling. Eventuele wijzigingen die in de toewijzing in de bovenliggende taak zijn aangebracht, overschrijven elke afzonderlijke toewijzing in de subtaak. Als de taak de voortgang weergeeft, verandert de toewijzing niet.
 
  

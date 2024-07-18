@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,8 +63,8 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Voorkeur</strong> </th> 
-   <th><strong>Status na het opnieuw instellen</strong> </th> 
+   <th><strong> Voorkeur </strong> </th> 
+   <th><strong> Status na het terugstellen </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -90,7 +90,7 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
   </tr> 
   <tr> 
    <td>Gebruikersvoorkeuren</td> 
-   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardmeldingen worden weergegeven in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Gebeurtenismeldingen beschikbaar in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md"> berichten van de Gebeurtenis beschikbaar in Adobe Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Door gebruiker gedefinieerde aangepaste tabbladen</td> 
@@ -107,10 +107,10 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 
 {{step-1-to-setup}}
 
-1. Selecteren **Aanmelden als**.
+1. Selecteer **login als**.
 1. Typ de naam van de gebruiker wiens voorkeuren u wilt herstellen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
-1. Selecteren  **Aanmelden**.
-1. Voeg in het veld URL boven aan uw webbrowser het volgende toe: `/resetUser` na `workfront.com`.
+1. Selecteer **Login**.
+1. Voeg in het veld URL boven aan uw webbrowser `/resetUser` toe na `workfront.com` .
 
    >[!NOTE]
    >
@@ -118,9 +118,9 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. Druk **Enter**.
-1. Als u alle gebruikersvoorkeuren wilt herstellen, selecteert u **Herstellen**.
+1. Pers **gaat** binnen.
+1. Om alle gebruikersvoorkeur terug te stellen, selecteer **Terugstellen**.
 
    of
 
-   Als u alleen aangepaste tabbladen wilt herstellen, selecteert u **Tabs opnieuw instellen**.
+   Om slechts douanetabs terug te stellen, uitgezochte **Lusjes van het Terugstellen**.

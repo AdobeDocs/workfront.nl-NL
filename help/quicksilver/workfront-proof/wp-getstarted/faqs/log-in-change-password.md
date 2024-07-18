@@ -3,75 +3,75 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: faqs-workfront-proof
-title: Aanmelden en uw wachtwoord en e-mail wijzigen voor Workfront Proof
-description: De Workfront Proof-beheerder kan persoonlijke branding instellen voor de aanmeldingspagina. Zie De Workfront Proof-site veroveren. Of als u een Enterprise- of Onbeperkt editieplan gebruikt, zie Brand the Workfront Proof-site - geavanceerd.
+title: Aanmelden en uw wachtwoord en e-mail voor Workfront Proof wijzigen
+description: De Workfront Proof-beheerder kan persoonlijke branding instellen voor de aanmeldingspagina. Zie Merk de Workfront Proof-site. Of als u een Enterprise- of Onbeperkt editieplan gebruikt, zie Brand the Workfront Proof site - advanced.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Aanmelden en uw wachtwoord en e-mail wijzigen voor Workfront Proof
+# Aanmelden en uw wachtwoord en e-mail voor Workfront Proof wijzigen
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Aanmelden
 
-1. Ga naar [de aanmeldingspagina](https://www.proofhq.com/login) (of op onze website op  [www.proofhq.com](https://www.proofhq.com/)).
+1. Ga naar [ de login pagina ](https://www.proofhq.com/login) (of naar onze website in [ www.proofhq.com ](https://www.proofhq.com/)).
 
-1. Klik op de knop [!UICONTROL login] aan de rechterbovenhoek.
+1. Klik op de knop [!UICONTROL login] rechtsboven.
 1. Voer uw e-mailadres en wachtwoord in.\
-   Als u uw wachtwoord bent vergeten, zie de sectie  [Wanneer u uw wachtwoord vergeet](#when-you-forget-your-password) later in dit artikel.
+   Als u uw wachtwoord bent vergeten, zie de sectie [ wanneer u Uw Wachtwoord ](#when-you-forget-your-password) later in dit artikel vergeet.
 
-1. Als u aangemeld wilt blijven (zonder uw sessietime-out na 30 minuten inactiviteit), selecteert u **[!UICONTROL Keep me logged in]**.
+1. Selecteer **[!UICONTROL Keep me logged in]** als u aangemeld wilt blijven (zonder dat de sessietime-out optreedt na 30 minuten inactiviteit).
 1. Klik op **[!UICONTROL Login]**.
 
-De [!DNL Workfront Proof] beheerder kan persoonlijke branding instellen voor de [!UICONTROL Login] pagina. Zie [Merk de [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of als u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] editieplan, zie  [Merk de [!DNL Workfront Proof] site - geavanceerd](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+De [!DNL Workfront Proof] -beheerder kan persoonlijke branding instellen voor de [!UICONTROL Login] -pagina. Zie [ Merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of, als u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] uitgave plan gebruikt, zie [ Plaats merken  [!DNL Workfront Proof]  geavanceerd ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Voor [!UICONTROL Enterprise] en [!UICONTROL Unlimited] plannen, bieden wij Single Sign-On (SSO) vermogen aan, dat uw gebruikers toestaat om aan login aan te melden [!DNL Workfront Proof] hun gebruikersnaam en wachtwoord voor uw organisatie te gebruiken. Zie [Single Sign-On configureren voor [!DNL Workfront Proof] gebruikers](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md). voor meer informatie .
+Voor [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -plannen bieden we SSO-functionaliteit (Single Sign-On), waarmee uw gebruikers zich bij [!DNL Workfront Proof] kunnen aanmelden met hun gebruikersnaam en wachtwoord voor uw organisatie. Zie [ Enige Sign-On voor  [!DNL Workfront Proof]  gebruikers ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) vormen. voor meer informatie .
 
 ## Afmelden
 
-1. Klikken **[!UICONTROL Logout]** in de rechterbovenhoek van Workfront Proof.\
-   Er verschijnt een bericht om te bevestigen dat u bent afgemeld. U kunt op **[!UICONTROL Back to login page]** om u opnieuw aan te melden als u wilt.\
-   De [!DNL Workfront Proof] de beheerder kan opstelling gepersonaliseerde branding voor dit bericht. Zie [Merk de [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of als en u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] editieplan, zie  [Merk de [!DNL Workfront Proof] site - geavanceerd](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+1. Klik op **[!UICONTROL Logout]** in de rechterbovenhoek van Workfront Proof.\
+   Er verschijnt een bericht om te bevestigen dat u bent afgemeld. U kunt op **[!UICONTROL Back to login page]** klikken om u opnieuw aan te melden.\
+   De beheerder van [!DNL Workfront Proof] kan gepersonaliseerde branding voor dit bericht plaatsen. Zie [ Merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of, als en u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] uitgave plan gebruikt, zie [ Plaats de  [!DNL Workfront Proof]  plaats - geavanceerd ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Wanneer u uw wachtwoord vergeet {#when-you-forget-your-password}
 
-Als u uw wachtwoord bent vergeten, kunt u [!DNL Workfront Proof] e-mail u een opnieuw ingesteld e-mailbericht.
+Als u uw wachtwoord bent vergeten, kunt u via [!DNL Workfront Proof] een e-mailbericht voor het opnieuw instellen laten verzenden.
 
-1. Ga naar [de aanmeldingspagina](https://www.proofhq.com/login) (of op onze website op  [www.proofhq.com](https://www.proofhq.com/)).
+1. Ga naar [ de login pagina ](https://www.proofhq.com/login) (of naar onze website in [ www.proofhq.com ](https://www.proofhq.com/)).
 
-1. Klik op **[!UICONTROL Forgot password?]**
-1. Typ in het vak dat wordt weergegeven uw e-mailadres en klik vervolgens op **[!UICONTROL Get Link]**.
+1. Klikken **[!UICONTROL Forgot password?]**
+1. Typ in het vak dat wordt weergegeven uw e-mailadres en klik op **[!UICONTROL Get Link]** .
 
 ## Uw wachtwoord wijzigen
 
-1. Op de [!UICONTROL Dashboard], klikt u op **[!UICONTROL Change password]**.\
-   ![Wijzigen_wachtwoord.png](assets/change-passowrd-350x95.png)\
-   Als uw [!DNL Workfront Proof] de beheerder heeft opstelling om het even welke specifieke wachtwoordvereisten, zij worden vermeld bij de bovenkant van [!UICONTROL reset] pagina.
+1. Klik op **[!UICONTROL Change password]** in het [!UICONTROL Dashboard] .\
+   ![ Change_passowrd.png ](assets/change-passowrd-350x95.png)\
+   Als uw [!DNL Workfront Proof] -beheerder specifieke wachtwoordvereisten heeft ingesteld, worden deze weergegeven boven aan de pagina van [!UICONTROL reset] .
 
 ## Geavanceerde wachtwoordinstellingen
 
-Als u een [!UICONTROL Select] of [!UICONTROL Premium] plan, uw [!DNL Workfront Proof] de beheerder kan specifieke wachtwoordvereisten plaatsen om aan het beleid van IT en van de veiligheid in uw organisatie te voldoen en de veiligheid van uw gegevens te verbeteren. Zie &quot;Geavanceerde wachtwoordinstellingen&quot; in het artikel voor meer informatie.
+Als u een [!UICONTROL Select] - of [!UICONTROL Premium] -abonnement gebruikt, kan uw [!DNL Workfront Proof] -beheerder specifieke wachtwoordvereisten instellen om te voldoen aan het IT- en beveiligingsbeleid in uw organisatie en de beveiliging van uw gegevens verbeteren. Zie &quot;Geavanceerde wachtwoordinstellingen&quot; in het artikel voor meer informatie.
 
 ## Een e-mailadres toevoegen aan uw account
 
-U kunt meerdere e-mailadressen toevoegen aan uw [!DNL Workfront Proof] account. Uw primaire e-mailadres is de e-mail waarnaar [!DNL Workfront Proof] verzendt proefberichten. U gebruikt deze ook om u aan te melden bij [!DNL Workfront Proof]. U kunt uw primaire e-mailadres wijzigen.
+U kunt meerdere e-mailadressen toevoegen aan uw [!DNL Workfront Proof] -account. Uw primaire e-mailadres is de e-mail waarnaar [!DNL Workfront Proof] proefdrukberichten verzendt. U gebruikt deze ook om u aan te melden bij [!DNL Workfront Proof] . U kunt uw primaire e-mailadres wijzigen.
 
-1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
+1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]** .
 
-1. Onder **[!UICONTROL User email aliases]**, klikt u op **[!UICONTROL New email address]**.
+1. Klik onder **[!UICONTROL User email aliases]** op **[!UICONTROL New email address]** .
 
-1. In de **[!UICONTROL Email alias]** tekstvak dat wordt weergegeven, typt u het e-mailadres dat u wilt toevoegen en drukt u vervolgens op **[!UICONTROL Enter]**.\
+1. Typ in het vak **[!UICONTROL Email alias]** dat wordt weergegeven het e-mailadres dat u wilt toevoegen en druk op **[!UICONTROL Enter]** .\
    [!DNL Workfront Proof] verzendt een validatie-e-mail naar het nieuwe e-mailadres.
 
 1. Klik in het validatiebericht dat u ontvangt op de bevestigingskoppeling.\
-   De e-mailwijziging wordt opgeslagen in uw profiel. Mogelijk moet u de browser vernieuwen waar u de weergave bekijkt [!DNL Workfront Proof] [!UICONTROL Personal settings] pagina om te zien dat het als een alias-e-mail wordt bevestigd.
-1. (Optioneel) Als u het nieuwe e-mailadres wilt opgeven in [!DNL Workfront Proof]klikt u op de knop [!UICONTROL More] (drie punten) rechts van het adres en klikt u op **[!UICONTROL Make primary email]** in het menu dat wordt weergegeven.
+   De e-mailwijziging wordt opgeslagen in uw profiel. Mogelijk moet u de browser waar u de [!DNL Workfront Proof] [!UICONTROL Personal settings] -pagina bekijkt vernieuwen om te controleren of deze is bevestigd als een e-mailalias.
+1. (Optioneel) Als u het nieuwe e-mailadres wilt instellen als primair e-mailadres in [!DNL Workfront Proof] , klikt u op de knop [!UICONTROL More] (drie punten) uiterst rechts van het adres en klikt u vervolgens op **[!UICONTROL Make primary email]** in het menu dat wordt weergegeven.

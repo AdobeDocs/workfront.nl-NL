@@ -19,9 +19,9 @@ De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van de toegang t
 
 >[!NOTE]
 >
->In dit artikel wordt beschreven hoe u machtigingen kunt aanvragen voor alle objecten, behalve voor plannen in de Adobe Workfront Scenario Planner. Voor informatie over het vragen van toegang tot plannen, zie [Toegang tot een abonnement aanvragen in de Scenario Planner](../../scenario-planner/request-access-to-plan.md). Hiervoor is een aanvullende licentie vereist.
+>In dit artikel wordt beschreven hoe u machtigingen kunt aanvragen voor alle objecten, behalve voor plannen in de Adobe Workfront Scenario Planner. Voor informatie over het verzoeken van toegang tot plannen, zie [ toegang van het Verzoek tot een plan in de Planner van het Scenario ](../../scenario-planner/request-access-to-plan.md). Hiervoor is een aanvullende licentie vereist.
 
-Uw Workfront-beheerder configureert uw toegang tot een type object op uw toegangsniveau. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Uw Workfront-beheerder configureert uw toegang tot een type object op uw toegangsniveau. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Als u machtigingen nodig hebt voor specifieke objecten in Workfront, kunt u deze objecten aanvragen. In plaats van e-mail naar de Workfront-beheerder of objecteigenaar te verzenden om uw behoeften uit te leggen, kunt u aanvullende toegang (of machtigingen) aanvragen in Workfront.
 
@@ -77,18 +77,18 @@ U moet het volgende hebben om objecten te delen:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot of hoger weergeven voor objecten waarvoor u machtigingen aanvraagt</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Standaarden voor delen begrijpen
 
 De volgende standaard regels voor delen worden automatisch van kracht, omdat deze als standaardopties in uw Workfront-systeem zijn ingesteld.
 
-* Gebruikers die zijn toegewezen aan een taak of een uitgave, hebben Contribute-toegang hierop.
+* Gebruikers die zijn toegewezen aan een taak of een uitgave, hebben er Contribute-toegang op.
 * Project-, Portfolio- en programmamanagers hebben toegang tot de objecten die zij bezitten.
 * De gebruikers inbegrepen in een gesprek hebben de toegang van de Mening over het voorwerp waar het gesprek gebeurt.
 * Gebruikers die als fiatteurs zijn toegewezen, hebben toegang tot de weergave op het object dat wacht op goedkeuring.
@@ -99,7 +99,7 @@ De volgende standaard regels voor delen worden automatisch van kracht, omdat dez
 
 U kunt een eerste toegang aanvragen tot objecten waartoe u momenteel geen toegang hebt, of u kunt aanvullende toegang aanvragen tot objecten waartoe u slechts beperkte toegang hebt.
 
-* [Aanvankelijke toegang aanvragen](#request-initial-access)
+* [ Verzoek eerste toegang ](#request-initial-access)
 * [Aanvullende toegang aanvragen](#request-additional-access)
 
 ### Aanvankelijke toegang aanvragen  {#request-initial-access}
@@ -108,16 +108,16 @@ Als u nog geen toegang hebt tot een object en u vanuit een koppeling naar dat ob
 
 Aanvankelijke toegang tot een object aanvragen:
 
-1. Klikken **Toegang aanvragen**.\
-   De **Toegang aanvragen** wordt weergegeven.
+1. Klik **Toegang van het Verzoek**.\
+   Het **de dialoogvakje van de Toegang van het Verzoek** wordt getoond.
 
 1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, wordt een drop-down pijl getoond naast de naam van de gebruiker.
 1. Selecteer in de vervolgkeuzelijst de gebruiker die u uw toegangsverzoek wilt ontvangen.\
    In de vervolgkeuzelijst worden slechts tien gebruikers weergegeven. De lijst wordt alfabetisch gesorteerd.\
-   Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie  [Hiërarchie van de vervolgkeuzemenu&#39;s &quot;Toegang aanvragen&quot; en &quot;Meer toegang aanvragen&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [ Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s ](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Selecteer in de vervolgkeuzelijst het type toegang dat u aanvraagt.
-1. (Optioneel) In het dialoogvenster **P.S.** geeft u de gebruiker een opmerking met betrekking tot waarom u aanvullende toegang nodig hebt.
+1. (Facultatief) op het **P.S.** gebied, specificeer een nota aan de gebruiker betreffende waarom u extra toegang nodig hebt.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,23 +132,23 @@ Aanvullende toegang aanvragen tot een object waartoe u al beperkte toegang hebt:
 
 1. Ga naar het object waarvoor u aanvullende toegang wilt aanvragen.
 
-1. Klik op de knop **Meer** rechts van de projectnaam klikt u op **Meer toegang aanvragen**.
+1. Klik het **Meer** menu rechts van de projectnaam, dan klik **Verzoek Meer Toegang**.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, wordt een drop-down pijl getoond naast de naam van de gebruiker.
 1. Selecteer in de vervolgkeuzelijst de gebruiker die u uw toegangsverzoek wilt ontvangen.\
    In de vervolgkeuzelijst worden slechts tien gebruikers weergegeven. De lijst wordt alfabetisch gesorteerd.\
-   Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie  [Hiërarchie van de vervolgkeuzemenu&#39;s &quot;Toegang aanvragen&quot; en &quot;Meer toegang aanvragen&quot;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [ Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s ](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Selecteer in de vervolgkeuzelijst het toegangsniveau dat u aanvraagt.
-1. (Optioneel) In het dialoogvenster **P.S.** veld, geeft u een notitie op met betrekking tot de vraag waarom u aanvullende toegang nodig hebt.
-1. Klikken **Toegang aanvragen**.\
+1. (Facultatief) op het **P.S.** gebied, specificeer een nota betreffende waarom u extra toegang nodig hebt.
+1. Klik **Toegang van het Verzoek**.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hiërarchie van de vervolgkeuzemenu&#39;s &quot;Toegang aanvragen&quot; en &quot;Meer toegang aanvragen&quot; {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [Begrijp de hiërarchie van gebruikers die in de drop-down menu&#39;s van de Toegang van het Verzoek en van het Verzoek Meer Toegang worden vermeld](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
+* [ begrijp de hiërarchie van gebruikers die in de Toegang van het Verzoek en het Verzoek Meer drop-down menu&#39;s van de Toegang worden vermeld ](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [De eigenaar van een object begrijpen](#understand-the-owner-of-an-object)
 
 ### Begrijp de hiërarchie van gebruikers die in de drop-down menu&#39;s van de Toegang van het Verzoek en van het Verzoek Meer Toegang worden vermeld {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
@@ -159,7 +159,7 @@ Workfront geeft maximaal 10 gebruikers weer in de lijsten &quot;Toegang aanvrage
 
 De volgorde van de gebruikers in de vervolgkeuzemenu&#39;s &#39;Toegang aanvragen&#39; of &#39;Meer toegang aanvragen&#39; wordt bepaald door de volgende regels:
 
-* De eerste gebruiker in de lijst is het object &quot;owner&quot;, zoals beschreven in [De eigenaar van een object begrijpen](#understand-the-owner-of-an-object).
+* De eerste gebruiker in de lijst is de objecten &quot;eigenaar&quot;, zoals die in [ wordt beschreven Begrijp de eigenaar van een voorwerp ](#understand-the-owner-of-an-object).
 * Vervolgens wordt de lijst gevuld met gebruikers met wie het object afzonderlijk wordt gedeeld. Ze worden in alfabetische volgorde weergegeven.
 * Dan is de lijst verder bevolkt met gebruikers die de vereiste toegang door het delen met hun teams, groepen, of bedrijven krijgen. Ze worden in alfabetische volgorde weergegeven.
 * Als de lijst leeg is, worden de beheerders van Workfront toegevoegd zodat er altijd iemand is om toegang van te vragen. Ze worden in alfabetische volgorde weergegeven.
@@ -174,8 +174,8 @@ De eigenaar van een object wordt als volgt gedefinieerd:
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Object</strong> </th> 
-   <th><strong>Definitie van de eigenaar van het object</strong> </th> 
+   <th><strong> Voorwerp </strong> </th> 
+   <th><strong> Definitie van de Eigenaar van het Voorwerp </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -212,12 +212,12 @@ De eigenaar van een object wordt als volgt gedefinieerd:
    <td>De eigenaar van een filter, weergave of groep is de maker. </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><span>Abonnementen</span> </td> 
-   <td> <p><span>De eigenaar is de maker van de regeling.</span> </p> <p>Hiervoor is een aanvullende licentie vereist. </p> <p><span>Voor informatie over de Workfront Scenario Planner raadpleegt u</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Overzicht van de functie Scenario Planner</a>.</p> </td> 
+   <td><span> Abonnementen </span> </td> 
+   <td> <p><span> de eigenaar is de schepper van het plan.</span> </p> <p>Hiervoor is een aanvullende licentie vereist. </p> <p><span> voor informatie over de Planner van het Scenario van Workfront, zie </span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref"> het overzicht van de Planner van het Scenario </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Doelen</td> 
-   <td> <p>De eigenaar is de gebruiker die als eigenaar is aangewezen. Ze zijn misschien niet dezelfde persoon als de maker van het doel. </p> <p>Hiervoor is een aanvullende licentie vereist. </p> <p>Voor informatie over Workfront Goals raadpleegt u <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Overzicht van Adobe Workfront-doelen</a>. </p> </td> 
+   <td> <p>De eigenaar is de gebruiker die als eigenaar is aangewezen. Ze zijn misschien niet dezelfde persoon als de maker van het doel. </p> <p>Hiervoor is een aanvullende licentie vereist. </p> <p>Voor informatie over de Doelen van Workfront, zie <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref"> overzicht van de Doelen van Adobe Workfront </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

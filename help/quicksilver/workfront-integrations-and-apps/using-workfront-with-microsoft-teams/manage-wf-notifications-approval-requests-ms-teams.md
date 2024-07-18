@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Beheren [!DNL Adobe Workfront] meldingen in [!DNL Microsoft] Teams
-description: U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
+title: Beheer  [!DNL Adobe Workfront]  berichten in  [!DNL Microsoft]  Teams
+description: U kunt berichten van  [!DNL Adobe Workfront]  over punten ontvangen u moet goedkeuren, taken u, of commentaren en veranderingen in punten hebt gegeven u met wordt geassocieerd.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Beheren [!DNL Adobe Workfront] meldingen in [!DNL Microsoft Teams]
+# [!DNL Adobe Workfront] -meldingen beheren in [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 U kunt meldingen ontvangen van [!DNL Adobe Workfront] over items die u moet goedkeuren, toewijzingen die u hebt gekregen of opmerkingen en wijzigingen in items waaraan u bent gekoppeld.
 
-Deze meldingen bevatten [!DNL Workfront] acties die u kunt uitvoeren binnen [!DNL Microsoft Teams] zonder weg te navigeren van [!DNL Microsoft Teams] om ze te verwezenlijken.
+Deze meldingen bevatten [!DNL Workfront] -acties die u binnen [!DNL Microsoft Teams] kunt uitvoeren zonder van [!DNL Microsoft Teams] af te navigeren om ze te voltooien.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] biedt geen ondersteuning meer voor [!DNL Internet Explorer] . Als u [!DNL Adobe Workfront for Microsoft Teams integration] wilt gebruiken, moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer] .
 
 
 ## Toegangsvereisten
@@ -47,38 +47,38 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Vereisten voor ontvangst [!DNL Workfront] Meldingen in [!DNL Microsoft Teams]
+## Vereisten voor het ontvangen van [!DNL Workfront] meldingen in [!DNL Microsoft Teams]
 
-U kunt [!DNL Workfront] meldingen in [!DNL Microsoft Teams] indien aan de volgende voorwaarden is voldaan:
+U kunt [!DNL Workfront] -meldingen ontvangen in [!DNL Microsoft Teams] als aan de volgende voorwaarden is voldaan:
 
-* Een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront for Microsoft Teams] voor uw team.
-* U bent aangemeld [!DNL Workfront] van [!DNL Microsoft Teams].
-* U hebt directe meldingen ingeschakeld in [!DNL Workfront]. Voor informatie over het inschakelen van instant notifications raadpleegt u [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Een teameigenaar heeft [!DNL Workfront for Microsoft Teams] voor uw team geïnstalleerd en geconfigureerd.
+* U bent aangemeld bij [!DNL Workfront] vanuit [!DNL Microsoft Teams] .
+* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Voor informatie over installeren [!DNL Workfront for Microsoft Teams] en aanmelden bij [!DNL Workfront from Microsoft Teams], zie [Installeren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Voor informatie over het installeren van [!DNL Workfront for Microsoft Teams] en het programma openen aan [!DNL Workfront from Microsoft Teams], zie [ installeren  [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-## Beheer [!DNL Workfront] Meldingen in [!DNL Microsoft Teams]
+## [!DNL Workfront] Meldingen beheren in [!DNL Microsoft Teams]
 
-Wanneer de [!DNL Workfront for Microsoft Teams] app is geïnstalleerd, een [!DNL Workfront] chatkanaal wordt gemaakt in [!DNL Microsoft Teams] voor elk lid van dat team. Wanneer een bepaalde handeling wordt uitgevoerd in [!DNL Workfront]kunt u de instellingen configureren voor [!DNL Workfront for Microsoft Teams] om meldingen over die actie te ontvangen in het [!DNL Workfront] chatkanaal [!DNL Microsoft Teams].
+Wanneer de app [!DNL Workfront for Microsoft Teams] is geïnstalleerd, wordt in [!DNL Workfront] chat channel gemaakt voor elk lid van dat team. [!DNL Microsoft Teams] Wanneer een bepaalde handeling wordt uitgevoerd in [!DNL Workfront] , kunt u de instellingen voor [!DNL Workfront for Microsoft Teams] configureren voor het ontvangen van meldingen over die handeling in het [!DNL Workfront] chatkanaal van [!DNL Microsoft Teams] .
 
-Houd rekening met het volgende wanneer u werkt met [!DNL Workfront] meldingen van [!DNL Microsoft Teams]:
+Houd rekening met het volgende wanneer u werkt met [!DNL Workfront] -meldingen van [!DNL Microsoft Teams] :
 
-* U kunt niet allen ontvangen, maar slechts een geselecteerd aantal van [!DNL Workfront] meldingen in [!DNL Microsoft Teams].
-* Alle meldingen die u ontvangt van [!DNL Workfront] worden weergegeven in de [!DNL Workfront] bot chatten kanaal.
+* U kunt niet alle berichten ontvangen, maar alleen een geselecteerd aantal [!DNL Workfront] meldingen in [!DNL Microsoft Teams] .
+* Alle meldingen die u ontvangt van [!DNL Workfront] , worden weergegeven in het chatkanaal van [!DNL Workfront] .
 
-  Voor informatie over het installeren van de [!DNL Workfront] beide kanalen, zie [Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) sectie in [Installeren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) artikel.
+  Voor informatie bij het installeren van het [!DNL Workfront] bot kanaal, zie het [ Aanmelden aan  [!DNL Workfront]  van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) sectie in [ het Installeren van  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) artikel.
 
-* Er kan een vertraging van maximaal 5 minuten zijn tussen het tijdstip waarop een update wordt uitgevoerd [!DNL Workfront] en wanneer u hierover een melding ontvangt in [!DNL Microsoft Teams].
-* Voor elke [!DNL Microsoft Teams] bericht, u ontvangt ook een e-mailbericht.
+* Er kan een vertraging van maximaal 5 minuten optreden tussen het tijdstip waarop een update wordt uitgevoerd in [!DNL Workfront] en het tijdstip waarop u de melding hierover ontvangt in [!DNL Microsoft Teams] .
+* Voor elke [!DNL Microsoft Teams] -melding ontvangt u ook een e-mailmelding.
 
-Om het [!DNL Workfront] meldingen die u kunt ontvangen in [!DNL Microsoft Teams]:
+De [!DNL Workfront] -meldingen beheren die u kunt ontvangen in [!DNL Microsoft Teams] :
 
-1. Klik op de knop **[!UICONTROL More added]** (driepuntpictogram) op de linkernavigatiebalk in [!DNL Microsoft Teams].
+1. Klik op het pictogram **[!UICONTROL More added]** (met drie punten) voor apps op de linkernavigatiebalk in [!DNL Microsoft Teams] .
 
-1. Klikken [!DNL Workfront] in de lijst die wordt weergegeven.
-1. Selecteer de **[!UICONTROL Settings]** tab.
+1. Klik op [!DNL Workfront] in de lijst die wordt weergegeven.
+1. Selecteer de tab **[!UICONTROL Settings]** .
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -86,7 +86,7 @@ Om het [!DNL Workfront] meldingen die u kunt ontvangen in [!DNL Microsoft Teams]
 
    Alle meldingen zijn standaard ingeschakeld.
 
-   De instellingen voor meldingen voor [!DNL Workfront for Microsoft] Teams worden automatisch opgeslagen.
+   De instellingen voor meldingen voor [!DNL Workfront for Microsoft] -teams worden automatisch opgeslagen.
 
    >[!NOTE]
    >
@@ -94,11 +94,11 @@ Om het [!DNL Workfront] meldingen die u kunt ontvangen in [!DNL Microsoft Teams]
 
 ## Reageren op [!DNL Workfront] Meldingen en goedkeuringsverzoeken in [!DNL Microsoft Teams]
 
-1. Aanmelden bij [!DNL Workfront] van [!DNL Microsoft Teams].\
-   Voor informatie over aanmelden bij [!DNL Workfront], zie [Installeren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+1. Meld u aan bij [!DNL Workfront] vanuit [!DNL Microsoft Teams] .\
+   Voor informatie over het programma openen aan [!DNL Workfront], zie [ installeren  [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Ga naar de **[!UICONTROL Chat]** en klik op **[!DNL Workfront]** beide kanalen.\
-   Dit kanaal is bedoeld voor uw persoonlijke chat met de [!DNL Workfront] bot. Alles [!DNL Workfront] hier worden meldingen weergegeven.
+1. Ga naar het **[!UICONTROL Chat]** -gebied en klik op het **[!DNL Workfront]** -beide kanaal.\
+   Dit kanaal is voor je persoonlijke chat met de [!DNL Workfront] bot. Alle [!DNL Workfront] -meldingen worden hier weergegeven.
 1. Afhankelijk van het type kennisgeving dat u ontvangt, gaat u verder naar de desbetreffende sectie:
 
    * [Goedkeuringsmeldingen](#approval-notifications-approval-notifications)
@@ -111,11 +111,11 @@ Om het [!DNL Workfront] meldingen die u kunt ontvangen in [!DNL Microsoft Teams]
 
 U ontvangt goedkeuringsberichten wanneer u wordt gevraagd om een voorwerp, zoals een taak, een timesheet, of een proef goed te keuren. U kunt echter nog steeds opmerkingen maken over het bericht.Vanaf het goedkeuringsbericht kunt u de volgende handelingen uitvoeren:
 
-* **[!UICONTROL Approve]**: Klik om het item goed te keuren.
-* **[!UICONTROL Change]**: Klik om het item met wijzigingen goed te keuren.
-* **[!UICONTROL Reject]**: Klik om het item af te wijzen.
-* **[!UICONTROL Comment]**: Klik om een opmerking te maken. Uw opmerking wordt ook weergegeven in [!DNL Workfront] als een update van het object waar het bericht over gaat.
-* **[!UICONTROL Go to Proof]**: Klik om de proefdruk te openen. Vervolgens kunt u rechtstreeks in het bewijs een beslissing nemen. Zie voor meer informatie [Beslissen op een bewijs in de professionele drukker](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **[!UICONTROL Approve]**: klik om het item goed te keuren.
+* **[!UICONTROL Change]**: klik om het item met wijzigingen goed te keuren.
+* **[!UICONTROL Reject]**: klik om het item af te wijzen.
+* **[!UICONTROL Comment]**: klik om een opmerking te maken. Uw opmerking wordt ook in [!DNL Workfront] weergegeven als een update van het object waar het bericht over gaat.
+* **[!UICONTROL Go to Proof]**: klik om de proefdruk te openen. Vervolgens kunt u rechtstreeks in het bewijs een beslissing nemen. Voor meer informatie, zie [ een besluit over een bewijs in de het proef kijker ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
 
 >[!NOTE]
 >
@@ -252,10 +252,10 @@ U ontvangt goedkeuringsberichten wanneer u wordt gevraagd om een voorwerp, zoals
 
 U ontvangt toewijzingsmeldingen wanneer u, of een team dat u hebt ingeschakeld, wordt toegewezen aan een taak of uitgave in Workfront. Vanuit het toewijzingsbericht kunt u de volgende handelingen uitvoeren:
 
-* **[!UICONTROL Work on it]**: Selecteer deze optie om aan het item te werken. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
-* **[!UICONTROL View in [!DNL Workfront]]**: Selecteer deze optie om de toegewezen uitgave of taak in Workfront weer te geven. Er wordt dan een nieuw tabblad geopend.
-* **[!UICONTROL Start]**: Klik om aan het item te werken. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
-* **[!UICONTROL Comment]**: Klik om een opmerking over het item te maken. Uw opmerking wordt ook weergegeven in de updatestream van het item in Workfront.
+* **[!UICONTROL Work on it]**: Selecteer deze optie om vast te leggen of u aan het item wilt werken. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
+* **[!UICONTROL View in [!DNL Workfront]]**: selecteer deze optie om de toegewezen uitgave of taak in Workfront weer te geven, waardoor een nieuw tabblad wordt geopend.
+* **[!UICONTROL Start]**: klik om te beginnen met werken aan het item. Een bericht wordt kort weergegeven om te bevestigen dat een nieuw onderdeel aan uw werklijst is toegevoegd.
+* **[!UICONTROL Comment]**: klik om een opmerking over het item te maken. Uw opmerking wordt ook weergegeven in de updatestream van het item in Workfront.
 * **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het werkitem in het keuzemenu.
 
 #### Handelingen beschikbaar voor specifieke toewijzingsmeldingen:
@@ -305,8 +305,8 @@ U ontvangt toewijzingsmeldingen wanneer u, of een team dat u hebt ingeschakeld, 
 
 U ontvangt een melding wanneer iemand opmerkingen maakt over een onderdeel waaraan u bent gekoppeld, of u opneemt in een update. Via het communicatiemelding kunt u de volgende handelingen uitvoeren:
 
-* **Repalleen**: Klik om te reageren op de opmerking of [!UICONTROL update]. Uw antwoord wordt ook weergegeven in de updatestream waarin de opmerking wordt weergegeven in Workfront.
-* **[!UICONTROL View in Workfront]**: Selecteer deze optie om de opmerking en het item in Workfront weer te geven. Dit item wordt op een nieuw tabblad geopend.
+* **Weg **: Klik om op de commentaar of [!UICONTROL update] te antwoorden. Uw antwoord wordt ook weergegeven in de updatestream waarin de opmerking wordt weergegeven in Workfront.
+* **[!UICONTROL View in Workfront]**: selecteer deze optie om de opmerking en het item in Workfront weer te geven. Dit item wordt op een nieuw tabblad geopend.
 * **[!UICONTROL Status]**: Klik en selecteer vervolgens een nieuwe status voor het werkitem waar de opmerking of update over gaat.
 
 #### Acties die beschikbaar zijn voor specifieke communicatiemiddelen:
@@ -370,9 +370,9 @@ U ontvangt een melding wanneer iemand opmerkingen maakt over een onderdeel waara
 
 Je ontvangt een bericht als er een update is van een object waaraan je bent gekoppeld, maar je hoeft geen actie te ondernemen. Vanuit het informatieve bericht kunt u de volgende handelingen uitvoeren:
 
-* **[!UICONTROL Reply]**: Klik om te reageren op de [!UICONTROL update]. Uw antwoord wordt ook weergegeven in de updatestream van het item in Workfront.
-* **Weergeven in Workfront**: Selecteer deze optie om de opmerking en het item in Workfront weer te geven. Dit item wordt op een nieuw tabblad geopend.
-* **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het item in het keuzemenu.
+* **[!UICONTROL Reply]**: klik om te reageren op [!UICONTROL update] . Uw antwoord wordt ook weergegeven in de updatestream van het item in Workfront.
+* **Mening in Workfront**: Uitgezocht om de commentaar en het punt in Workfront te bekijken, die in een nieuw lusje wordt geopend.
+* **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het item in het vervolgkeuzemenu.
 
 #### Beschikbare acties op het gebied van specifieke kennisgevingen van informatie:
 
@@ -410,7 +410,7 @@ Je ontvangt een bericht als er een update is van een object waaraan je bent geko
 
 U ontvangt een melding over een datumwijziging wanneer de datum verandert in een tijdelijk onderdeel waaraan u bent toegewezen. Vanaf het datumwijzigingsbericht kunt u de volgende handelingen uitvoeren.
 
-* **[!UICONTROL Comment]**: Klik om een opmerking over het item te maken. Uw opmerking wordt ook weergegeven in de updatestream van het item in Workfront.
+* **[!UICONTROL Comment]**: klik om een opmerking over het item te maken. Uw opmerking wordt ook weergegeven in de updatestream van het item in Workfront.
 * **[!UICONTROL Status]**: Klik en selecteer vervolgens de nieuwe status voor het werkitem in het keuzemenu.
 
 <table style="table-layout:auto"> 

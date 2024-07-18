@@ -19,7 +19,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Zie voor informatie over het bewerken van alle informatie voor een project [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+U kunt de financiële informatie van een project bekijken of uitgeven door tot het gebied van de Financiën van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een project zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -40,16 +40,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten en financiële gegevens bekijken of vergroten</p> <p>Toegang tot projecten en financiële gegevens bewerken om financiële informatie over het project te bewerken</p> <p><b>OPMERKING</b></p>
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening aan een project of hoger die de toestemmingen van de Financiën van de Mening omvatten</p> <p>Machtigingen beheren voor het project met onder andere de functie Financiën beheren om financiële informatie voor het project te bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening aan een project of hoger die de toestemmingen van de Financiën van de Mening omvatten</p> <p>Machtigingen beheren voor het project met onder andere de functie Financiën beheren om financiële informatie voor het project te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Overzicht van het gebied Financiën
 
@@ -62,14 +62,14 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
 ## Financiële informatie over een project weergeven
 
 1. Ga naar een project.
-1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) in de rechterbovenhoek van de sectie Details klikt u op **Financiën**.
+1. Klik **Details van het Project** in het linkerpaneel.
+1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Financiën**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. De volgende velden weergeven in het gedeelte Financiën van het project:
 
@@ -79,20 +79,20 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
     <tbody> 
      <tr> 
       <td role="rowheader">Prestatiesindexmethode</td> 
-      <td> Controls the method Workfront uses to calculate Earned Value metrics. Het kan op uren-gebaseerd, of op kosten-gebaseerd zijn. <br>Raadpleeg het artikel voor meer informatie over de PIM <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">De PIM-methode (Performance Index) instellen</a></td> 
+      <td> Controls the method Workfront uses to calculate Earned Value metrics. Het kan op uren-gebaseerd, of op kosten-gebaseerd zijn. <br> voor meer informatie over PIM, zie het artikel <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref"> plaatsen de Methode van de Index van Prestaties (PIM) </a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 
-      <td> <p>Dit zijn de metriek van projectprestaties die tonen hoe uw project, op een bepaald ogenblik presteert. Hun waarden worden berekend op basis van de prestatiesindexmethode.<br>Zie de volgende artikelen voor meer informatie: </p> 
+      <td> <p>Dit zijn de metriek van projectprestaties die tonen hoe uw project, op een bepaald ogenblik presteert. Hun waarden worden berekend op basis van de prestatiesindexmethode.<br> voor meer informatie zie de volgende artikelen: </p> 
        <ul> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Kostenprestatie-index (CPI) berekenen</a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Prestatie-index (SPI) voor planning berekenen </a> </p> </li> 
-        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Prestatie-index (CSI) voor kostenplanning berekenen</a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref"> berekent de Index van de Prestaties van Kosten (CPI) </a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref"> de Index van de Prestaties van het Programma berekenen (SPI) </a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref"> berekent de Index van de Prestaties van het Programma van Kosten (CSI) </a> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schatting bij voltooiing</td> 
-      <td> De voorspelde totale kosten van uw project, in uren vertegenwoordigd als de Methode van de Index van Prestaties (PIM) op uren-gebaseerd is, en het wordt vertegenwoordigd in een muntwaarde, als de Methode van de Index van Prestaties (PIM) op kosten-gebaseerd is.<br>Raadpleeg het artikel voor meer informatie over het berekenen van de schatting bij voltooiing <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Schatting berekenen bij voltooiing (EAC)</a></td> 
+      <td> De voorspelde totale kosten van uw project, in uren vertegenwoordigd als de Methode van de Index van Prestaties (PIM) op uren-gebaseerd is, en het wordt vertegenwoordigd in een muntwaarde, als de Methode van de Index van Prestaties (PIM) op kosten-gebaseerd is.<br> voor meer informatie over het berekenen van Schatting bij Voltooiing, zie het artikel <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref"> Schatting bij Voltooiing (EAC) berekenen </a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Begroting</td> 
@@ -124,7 +124,7 @@ Houd rekening met het volgende wanneer u informatie bekijkt of bewerkt in het ge
      </tr> 
      <tr> 
       <td role="rowheader">Gefactureerde inkomsten</td> 
-      <td> <p>Inkomsten die in rekening worden gebracht aan klanten of andere partijen en die worden vastgelegd in factureringsverslagen. Raadpleeg het artikel voor meer informatie over factureringsrecords <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Factureringsrecords maken</a>. </p> </td> 
+      <td> <p>Inkomsten die in rekening worden gebracht aan klanten of andere partijen en die worden vastgelegd in factureringsverslagen. Voor meer informatie over het factureren verslagen, zie het artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref"> het factureren verslagen </a> creëren. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
@@ -149,9 +149,9 @@ Informatie bewerken op het subtabblad Projectfinanciering:
    >
    >U hebt beheermachtigingen voor het project nodig om de volgende stappen uit te voeren. We raden ook aan dat alleen de eigenaar van het project wijzigingen aanbrengt in het subtabblad Financiën van het project.
 
-1. Klikken **Projectdetails** in het linkerdeelvenster.
-1. Klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) in de rechterbovenhoek van de sectie Details klikt u op **Financiën** . Hierdoor wordt de financiële ruimte geopend voor bewerking.
-1. Bewerk een veld dat u kunt bewerken door één keer op het veld te klikken of klik op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
+1. Klik **Details van het Project** in het linkerpaneel.
+1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Financiën**. Hierdoor wordt de financiële ruimte geopend voor bewerking.
+1. Bewerk elk veld dat u kunt bewerken door één keer op het veld te klikken of klik op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
 
    >[!TIP]
    >
@@ -163,7 +163,7 @@ Informatie bewerken op het subtabblad Projectfinanciering:
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Projectdetails in uw omgeving verschillen. Zie voor meer informatie [De weergave Details aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Projectdetails in uw omgeving verschillen. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
@@ -173,16 +173,16 @@ Informatie bewerken op het subtabblad Projectfinanciering:
       <td role="rowheader">Prestatiesindexmethode</td> 
       <td> <p>Controls the method Workfront uses to calculate project performance metrics. Dit wordt opstelling op het systeemniveau door uw beheerder, maar u kunt het op het projectniveau ook uitgeven. U kunt een van de volgende opties selecteren:</p> 
        <ul> 
-        <li><strong>Op uren gebaseerd:</strong>Workfront gebruikt de geplande uren voor de berekening van de CPI en de EAC van het project en de EAC van het project wordt weergegeven als een aantal, in uren. </li> 
-        <li><strong>Op basis van kosten:</strong>Workfront gebruikt de geplande loonkosten voor de berekening van de CPI en de EAC van het project, en de EAC wordt weergegeven als een valutawaarde. Wanneer u deze optie selecteert, moet u ervoor zorgen dat uw taaktoewijzingen (taakrollen of gebruikers) aan kostentarieven zijn gekoppeld.</li> 
+        <li><strong> op uur-Gebaseerd:</strong> Workfront gebruikt de Geplande Uren in het berekenen van CPI en EAC van het project, en EAC van de projectvertoningen als aantal, in uren. </li> 
+        <li><strong> Op kosten-Gebaseerd:</strong> Workfront gebruikt de Geplande Kosten van de Arbeid in het berekenen van CPI en EAC van het project, en de vertoningen EAC als muntwaarde. Wanneer u deze optie selecteert, moet u ervoor zorgen dat uw taaktoewijzingen (taakrollen of gebruikers) aan kostentarieven zijn gekoppeld.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schatting bij voltooiing</td> 
       <td> <p>Vertegenwoordigt de verwachte totale kosten van uw project of taak wanneer het voltooit. Dit wordt opstelling op het systeemniveau door uw beheerder, maar u kunt het op het projectniveau ook uitgeven. U kunt een van de volgende opties selecteren:</p> 
        <ul> 
-        <li><strong>Berekenen op projectniveau</strong>: EAC voor de bovenliggende taak en het project worden bepaald door de werkelijke uren/werkelijke loonkosten in de OAG-formules in te voeren. Deze berekening omvat Werkelijke uren/kosten en uitgaven die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
-        <li><strong>Omhoog rollen vanuit Taken/Subtaken</strong>: EAC voor de oudertaak en het project worden bepaald door EAC voor elke kindtaak samen te vatten. Deze berekening sluit Werkelijke uren/kosten en kosten uit die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
+        <li><strong> berekent op het Niveau van het Project </strong>: EAC voor de oudertaak en het project worden bepaald door de daadwerkelijke uren/daadwerkelijke arbeidskosten in te gaan in de Formulas EAC. Deze berekening omvat Werkelijke uren/kosten en uitgaven die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
+        <li><strong> Roll omhoog van Taken/Subtasks </strong>: EAC voor de oudertaak en het project worden bepaald door EAC voor elke kindtaak op te vatten. Deze berekening sluit Werkelijke uren/kosten en kosten uit die rechtstreeks aan de oudertaak of het project worden toegevoegd.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -199,9 +199,9 @@ Informatie bewerken op het subtabblad Projectfinanciering:
      </tr> 
      <tr> 
       <td role="rowheader">Projectvaluta</td> 
-      <td> <p>Geef een valuta op voor dit project als deze afwijkt van de standaardvaluta in uw systeem. De standaardvaluta in uw systeem wordt bepaald door uw beheerder van Workfront. Raadpleeg het artikel voor meer informatie over het instellen van wisselkoersen in Workfront <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Wisselkoersen instellen</a>.</p> </td> 
+      <td> <p>Geef een valuta op voor dit project als deze afwijkt van de standaardvaluta in uw systeem. De standaardvaluta in uw systeem wordt bepaald door uw beheerder van Workfront. Voor meer informatie over vestiging ruilen in Workfront, zie het artikel <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref"> de wisselkoers van de Opstelling </a>.</p> </td> 
      </tr>
     </tbody> 
    </table>
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.

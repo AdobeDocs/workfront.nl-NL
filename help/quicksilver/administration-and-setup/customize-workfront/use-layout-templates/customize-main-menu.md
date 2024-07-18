@@ -21,17 +21,17 @@ ht-degree: 0%
 
 Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de opties te configureren die gebruikers zien wanneer ze het Hoofdmenu in Workfront openen.
 
-![Opties voor Hoofdmenu](assets/main-menu-with-blueprints-no-branding.png)
+![ Belangrijkste opties van het Menu ](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
->De belangrijkste opties van het Menu die de gebruikers zien hangen van hun vergunningstype af en welke montages in hun toegangsniveau worden gevormd. Sommige gebruikers die deze lay-outsjabloon gebruiken, zien mogelijk niet alle opties die u hier kiest. Zie voor meer informatie [Hoe de toegangsniveaus en de toestemmingen samenwerken](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) en [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>De belangrijkste opties van het Menu die de gebruikers zien hangen van hun vergunningstype af en welke montages in hun toegangsniveau worden gevormd. Sommige gebruikers die deze lay-outsjabloon gebruiken, zien mogelijk niet alle opties die u hier kiest. Voor meer informatie zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) en [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md) werken.
 
-Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -62,14 +62,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Het hoofdmenu aanpassen
 
-1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klikken **Hoofdmenu instellen** rechtsboven in de sjabloon.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik **Vastgestelde HoofdMenu** in de hoger-juiste hoek van het malplaatje.
 
    Het vak Hoofdmenu wordt geopend en u kunt de gebieden zien die momenteel worden weergegeven in het hoofdmenu voor de sjabloon, plus de items die beschikbaar zijn om toe te voegen. Hieronder vindt u alle mogelijke items die u kunt toevoegen:
    * Home
@@ -89,14 +89,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      >[!NOTE]
      >
-     >Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+     >Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Gebruikers
 
      >[!NOTE]
      >
-     >Alleen gebruikers met een licentie voor het abonnement (in het huidige licentiemodel) of gebruikers met een standaardlicentie (in het nieuwe licentiemodel) kunnen het gebruikersgebied zien ![](assets/users-icon-in-main-menu.png) in het hoofdmenu.
+     >Alleen gebruikers met een licentie voor abonnementen (in het huidige licentiemodel) of gebruikers met een standaardlicentie (in het nieuwe licentiemodel) kunnen het gedeelte Gebruikers ![](assets/users-icon-in-main-menu.png) in het hoofdmenu zien.
 
    * Verzoeken
    * Timesheets
@@ -108,7 +108,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      >[!NOTE]
      >
-     >Voor doelen is een extra licentie vereist. Voor informatie over Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Voor doelen is een extra licentie vereist. Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mijn updates
    * Borden
@@ -116,22 +116,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Verbergen ![](assets/remove-icon---x-in-circle.png) **Actieve objecten** die u niet wilt weergeven
-   * Tonen ![](assets/add-icon-plus-in-circle.png) **Beschikbare objecten** die u wel wilt weergeven in het hoofdmenu.
-   * Slepen ![](assets/move-icon---dots.png) **Actieve objecten** om hun vertoningsorde op het Belangrijkste Menu te veranderen.
+   * Verberg ![](assets/remove-icon---x-in-circle.png) **Actieve punten** die u niet wilt tonen
+   * Toon ![](assets/add-icon-plus-in-circle.png) **Beschikbare punten** die u op het Belangrijkste Menu wilt tonen.
+   * Sleep ![](assets/move-icon---dots.png) **Actieve punten** om hun vertoningsorde op het Belangrijkste Menu te veranderen.
 
-1. Klikken **Gereed**.
+1. Klik **Gedaan**.
 
-   U kunt ook op **Annuleren** als u uw wijzigingen wilt negeren.
+   U kunt **ook klikken annuleert** op elk ogenblik als u uw veranderingen wilt verwerpen.
 
 1. Blijf het lay-outmalplaatje aanpassen.
 
    of
 
-   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen**.
 
    >[!TIP]
    >
    >U kunt op elk gewenst moment op Opslaan klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.
 
-Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.

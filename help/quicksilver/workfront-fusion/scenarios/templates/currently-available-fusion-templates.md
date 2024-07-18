@@ -20,13 +20,13 @@ De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fus
 
 Uw team of organisatie kan andere team-gecreeerde malplaatjes beschikbaar hebben.
 
-Klik op de knop **Sjablonen** pictogram ![](assets/fusion-template-icon.png) in het zijnavigatiemenu in Fusion.
+Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** ![](assets/fusion-template-icon.png) in het zijnavigatiemenu in Fusion.
 
 ## Workfront-sjablonen
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
 
-### [!BADGE Nieuw!]{type=Informative}
+### [!BADGE  Nieuw!]{type=Informative}
 
 Met dit Fusion-sjabloon maakt u een standaardcontrolelijst voor alle kaarten die een specifieke kolom op een specifieke board op getimed basis invoeren.
 
@@ -155,7 +155,7 @@ Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
 
 Deze sjablonen ondersteunen de integratie tussen Workfront en Anaplan en verwachten een specifieke configuratie in zowel Anaplan als Workfront. Zie de artikelen voor de afzonderlijke sjablonen voor informatie over deze sjablonen en de bijbehorende configuraties.
 
-Zie voor meer informatie over de integratie tussen Workfront en Anaplan [Adobe Workfront met Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 >[!NOTE]
 >
@@ -163,19 +163,19 @@ Zie voor meer informatie over de integratie tussen Workfront en Anaplan [Adobe W
 
 ### Workflows voor optimalisatie doorgeven
 
-* [Verzenden [!DNL Adobe Workfront] projectupdates voor een [!DNL Anaplan] lijstitem](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [Verzenden [!DNL Adobe Workfront] uitgaven voor een [!DNL Anaplan] lijstitem](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Verzenden [!DNL Adobe Workfront] de daadwerkelijke uren updates aan een [!DNL Anaplan] lijstitem](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Verzend  [!DNL Adobe Workfront]  projectupdates aan een  [!DNL Anaplan]  lijstitem](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Verzend  [!DNL Adobe Workfront]  uitgaven aan een  [!DNL Anaplan]  lijstitem](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [Verzend  [!DNL Adobe Workfront]  daadwerkelijke uren updates aan een  [!DNL Anaplan]  lijstitem](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Workflows voor het koppelen van begrotingsaanvragen
 
-* [Een [!DNL Anaplan] lijstitem uit een [!DNL Adobe Workfront] begrotingsverzoek](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Pas een [!DNL Anaplan] begrotingstoewijzing aan een [!DNL Adobe Workfront] project](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  begrotingsverzoek](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  project toe](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Workflows voor het koppelen van campagneaanvragen
 
-* [Een [!DNL Anaplan] lijstitem uit een [!DNL Adobe Workfront] campagneverzoek](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Pas een [!DNL Anaplan] begrotingstoewijzing aan een [!DNL Adobe Workfront] campagneverzoek of campagneproject](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  campagneverzoek](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  campagneverzoek of campagneproject toe](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

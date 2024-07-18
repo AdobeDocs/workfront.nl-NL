@@ -1,24 +1,24 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Je snelle gids voor hulp in [!DNL Adobe Workfront]
-description: Je snelle gids voor hulp in [!DNL Adobe Workfront]
+title: Uw snelle gids voor hulp in  [!DNL Adobe Workfront]
+description: Uw snelle gids voor hulp in  [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
 
-# Je snelle gids voor hulp in [!DNL Adobe Workfront]
+# Uw snelle gids voor hulp in [!DNL Adobe Workfront]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There are several hard-coded links in this article.)</p>
 -->
 
-Welkom bij [!DNL Adobe Workfront!] We weten dat u vragen hebt en weten niet altijd waar u moet beginnen voor hulp. Deze snelle gids geeft u antwoorden aan gemeenschappelijke vragen en benadrukt de middelen beschikbaar om uw succes te steunen.
+Welkom bij [!DNL Adobe Workfront!] We weten dat u vragen hebt en weten niet altijd zeker waar u moet beginnen voor hulp. Deze snelle gids geeft u antwoorden aan gemeenschappelijke vragen en benadrukt de middelen beschikbaar om uw succes te steunen.
 
 >[!TIP]
 >
@@ -30,97 +30,97 @@ Welkom bij [!DNL Adobe Workfront!] We weten dat u vragen hebt en weten niet alti
 >-->
 
 
-## Hoe kan ik vragen beantwoorden en leren over [!DNL Workfront?]
+## Hoe kan ik vragen beantwoorden en meer informatie krijgen over [!DNL Workfront?]
 
-Meer informatie over [!DNL Workfront]kunt u:
+Voor meer informatie over [!DNL Workfront] kunt u het volgende doen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Uitchecken [!DNL Workfront] op [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>U kunt de zoekbalk boven aan het dialoogvenster <a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a> om u te helpen een specifiek artikel, een bespreking, of een opleiding vinden. Beschouw het als je zoekmachine voor alles [!DNL Workfront].</p> <p>Hier vindt u ook bronnen zoals</p> 
+   <td><strong> Uitchecken [!DNL Workfront] on [!DNL Adobe Experience League]</strong> </td> 
+   <td> <p>U kunt de onderzoeksbar bij de bovenkant van <a href="https://experienceleague.adobe.com/docs/workfront.html"> https://experienceleague.adobe.com/docs/workfront.html </a> gebruiken om u te helpen een specifiek artikel, een bespreking, of een opleiding vinden. Beschouw het als de zoekmachine voor alle dingen [!DNL Workfront] .</p> <p>Hier vindt u ook bronnen zoals</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">Documentatie</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html">Tutorials</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">Productreleases</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API-documentatie</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html"> Documentatie </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html"> Tutorials </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en"> de Versies van het Product </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html"> API documentatie </a> </p> </li> 
      <li> <p>En meer!</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Vraag het een expert</strong> </td> 
-   <td> <p>Volg de regel van 5 minuten. Als je het antwoord na een paar minuten niet kunt vinden, aarzel dan niet om het te bereiken [!DNL Workfront] Ondersteuning! <strong>[!DNL Workfront]Customer Support Team</strong> is gewijd aan het helpen van u met technische kwesties en het toegang tot van onze gemeenschap en trainingsplatform.</p> <p>Onze actieve technici van de Steun - die in V.S. en EMEA-wordt gebaseerd - zullen uw telefoongesprek in seconden beantwoorden. Aarzel alsjeblieft niet om ons te bellen!</p> 
+   <td><strong> vraag een deskundige </strong> </td> 
+   <td> <p>Volg de regel van 5 minuten. Als u het antwoord na een paar minuten niet kunt vinden, aarzel dan niet om naar [!DNL Workfront] Support te reiken! Het Team van de Steun van de Klant van <strong>[!DNL Workfront] </strong> wordt gewijd aan het helpen van u met technische kwesties evenals de toegang tot van onze gemeenschap en trainingsplatform.</p> <p>Onze actieve technici van de Steun - die in V.S. en EMEA-wordt gebaseerd - zullen uw telefoongesprek in seconden beantwoorden. Aarzel alsjeblieft niet om ons te bellen!</p> 
     <ul> 
      <li> <p>844-306-4357 (VS)</p> </li> 
      <li>+44(0)-1256-274200 (EMEA)</li> 
-    </ul> <p>Zie voor meer informatie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">Contact opnemen met Klantenondersteuning</a>.</p> </td> 
+    </ul> <p>Voor meer informatie, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}"> de Steun van de Klant van het Contact </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Connect with peers]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront] De Gemeenschap] biedt een netwerk aan van vakmensen die moderne werkzaamheden leiden en actief hun inzichten en deskundigheid delen. Zie voor meer informatie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">De [!DNL Adobe Workfront] Gemeenschap</a>.</td> 
+   <td>[!UICONTROL [!DNL Workfront] De Gemeenschap] biedt een netwerk aan van vakmensen die moderne werkzaamheden leiden en actief hun inzichten en deskundigheid delen. Voor meer informatie, zie <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}"> Gemeenschap [!DNL Adobe Workfront] </a>.</td> 
   </tr> 
   <tr> 
-   <td><strong>Bekijk wat er nieuw is in een van de</strong>[!DNL Workfront]<strong>producten</strong></td> 
-   <td>Bezoek <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">Productintroducties</a> voor de meest recente informatie over wat nieuw is.</td> 
+   <td><strong> zie wat in om het even welk </strong>[!DNL Workfront] <strong> producten </strong> nieuw is</td> 
+   <td>Bezoek <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank"> de versies van het Product </a> voor de recentste informatie over wat nieuw is.</td> 
   </tr> 
   <tr> 
-   <td><strong>Ontdek op aanvraag en duik diep met [!DNL Workfront] Training</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> biedt op rol-gebaseerde leerpaden aan om planners, arbeiders, medewerkers, en systeembeheerders in werking te stellen en met zeer belangrijke functionaliteit in [!DNL Workfront].<br>Breid uw uit [!DNL Workfront] kennis</a> door leerpaden, videozelfstudies en downloadbare handleidingen over uw onderwerpen van belang te verkennen.<br></td> 
+   <td><strong> leer op bestelling en duik diep met [!DNL Workfront] Opleiding </strong> </td> 
+   <td><a href="https://experienceleague.adobe.com"> Experience League </a> biedt op rol-gebaseerde het leren wegen aan om planners, arbeiders, medewerkers, en systeembeheerders te krijgen in en lopend met zeer belangrijke functionaliteit in [!DNL Workfront].<br> breid uw [!DNL Workfront] kennis </a> uit door het leren wegen, videoleerprogramma's, en downloadbare gidsen over uw onderwerpen van belang te onderzoeken.<br></td> 
   </tr> 
  </tbody> 
 </table>
 
-## Hoe andere klanten zoals ik succesvol gebruik [!DNL Workfront]? Hoe kan ik contact opnemen met collega&#39;s om beste praktijken te leren en welke fouten te vermijden?
+## Hoe kunnen andere klanten zoals ik [!DNL Workfront] gebruiken? Hoe kan ik contact opnemen met collega&#39;s om beste praktijken te leren en welke fouten te vermijden?
 
-De volgende bronnen kunnen u helpen bepalen hoe u [!DNL Workfront]:
+De volgende bronnen kunnen u helpen bepalen hoe u [!DNL Workfront] kunt gebruiken:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] bronnen die klanten markeren</a> </td> 
+   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] bronnen die klanten markeren </a> </td> 
    <td>Dit is uw startbron voor webinars, boeken, whitepapers, video's en rapporten.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">Casestudy's</a> </td> 
-   <td>Lees door een groeiende verzameling van meer dan 60 casestudy's, die de uitdagingen van de klant benadrukken en [!DNL Workfront] oplossingen en voordelen.</td> 
+   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront"> Gevallenstudies </a> </td> 
+   <td>Lees door een groeiende verzameling van meer dan 60 casestudy's die de uitdagingen van de klant en [!DNL Workfront] oplossingen en voordelen benadrukken.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Gemeenschap</a> </td> 
-   <td>De [!DNL Workfront] Met Community kunt u gesprekken voeren met [!DNL Workfront] gebruikers en deskundigen over de hele wereld. Ze zijn er altijd om je vragen te beantwoorden of je in de juiste richting te wijzen.</td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Community </a> </td> 
+   <td>Met de [!DNL Workfront] -community kunt u overal ter wereld gesprekken voeren met [!DNL Workfront] -gebruikers en -experts. Ze zijn er altijd om je vragen te beantwoorden of je in de juiste richting te wijzen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Hoe kan [!DNL Workfront] beheerders bereiden zich voor op [!DNL Workfront] productreleases?
+## Hoe kunnen [!DNL Workfront] -beheerders zich voorbereiden op [!DNL Workfront] -productreleases?
 
-Deze 3 stappen kunnen u helpen als [!DNL Workfront] beheerder blijft bovenop elke nieuwe versie:
+Deze 3 stappen kunnen u als [!DNL Workfront] beheerder helpen bovenop elke nieuwe versie blijven:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Stap 1: Meer informatie</strong> </td> 
+   <td><strong> Stap 1: Leer wat komt </strong> </td> 
    <td> <p>Deze bronnen houden u op de hoogte van de updates die aan Workfront worden uitgebracht:</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">Aankondigingen van producten</a>: Op zoek naar updates voor Workfront-productroutekaart? Op de pagina Productaankondigingen vindt u releaseupdates en roadmap-presentaties.</p> </li> 
-     <li> <p><strong>Aankondigingscentrum</strong>: Bekijk uw berichten en ontvang belangrijke updates van onze [!DNL Workfront] Het team van het product betreffende informatie voor alle klanten. Ga naar <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> sectie in [!DNL Workfront], in de bovenste navigatie.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank"> Aankondigingen van het Product </a>: zoekend updates van het product van Workfront roadmap? Op de pagina Productaankondigingen vindt u releaseupdates en roadmap-presentaties.</p> </li> 
+     <li> <p><strong> Mededelingscentrum </strong>: Herzie uw berichten en ontvang belangrijke updates van ons [!DNL Workfront] team van het Product betreffende informatie voor alle klanten. Ga naar de sectie <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> in [!DNL Workfront] in de bovenste navigatie.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Stap 2: Voorbereiden voor updates</strong> </td> 
+   <td><strong> Stap 2: Bereid voor updates </strong> voor </td> 
    <td> 
     <ul> 
-     <li> <p>Test de nieuwste updates in uw [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Bepaal hoe deze updates effect hebben op de manier waarop uw mensen werken. Ons <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Kennisbank</a> en <a href="https://experienceleague.adobe.com/events/?lang=en">gebeurtenissen</a> kan helpen! Onze productmanagers verwijzen vaak naar het directe probleem van de eindgebruiker of het bedrijf dat door de functionaliteit wordt opgelost, waardoor u de gevolgen van de wijziging kunt versnellen.</p> </li> 
+     <li> <p>Test de recentste updates in uw [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234"> Sandbox </a>.</p> </li> 
+     <li> <p>Bepaal hoe deze updates effect hebben op de manier waarop uw mensen werken. Onze <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en"> Kennisbank </a> en <a href="https://experienceleague.adobe.com/events/?lang=en"> gebeurtenissen </a> kunnen helpen! Onze productmanagers verwijzen vaak naar het directe probleem van de eindgebruiker of het bedrijf dat door de functionaliteit wordt opgelost, waardoor u de gevolgen van de wijziging kunt versnellen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Stap 3: Deel de wijziging mee</strong> </td> 
+   <td><strong> Stap 3: Deel de verandering </strong> mee </td> 
    <td> 
     <ul> 
      <li> <p>Verzend een mededeling aan gebruikers in uw organisatie over wat zal veranderen, waarom het hen ten goede komt, en wie zij met voor vragen kunnen spreken.</p> </li> 
@@ -132,28 +132,28 @@ Deze 3 stappen kunnen u helpen als [!DNL Workfront] beheerder blijft bovenop elk
 
 ## Wat als ik een idee heb voor [!DNL Workfront?]
 
-De [!DNL Workfront] [!UICONTROL Innovation Lab] Hier kunnen Geautoriseerde ondersteuningscontactpersonen productideeën indienen, in stemming brengen en bespreken met andere klanten.
+In [!DNL Workfront] [!UICONTROL Innovation Lab] kunnen geautoriseerde ondersteuningscontactpersonen productideeën indienen, in stemming brengen en bespreken met andere klanten.
 
-Raadpleeg het artikel voor meer informatie [Innovatie Lab](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
+Meer leren, zie het artikel [ het Laboratorium van de Innovatie ](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
 
 ## Hoe kan ik tools integreren en verbinden met [!DNL Workfront?]
 
-De volgende bronnen kunnen u helpen meer te leren over de [!DNL Workfront] API en andere integraties:
+De volgende bronnen kunnen u helpen meer te weten te komen over de API van [!DNL Workfront] en andere integraties:
 
-| [[!DNL Adobe Workfront] integratie](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | U kunt [!DNL Workfront] met toepassingen van derden. Integraties kunnen het nut van [!DNL Workfront] en aan de behoeften van uw organisatie aanpassen. Dit artikel in de Knowledge Base behandelt uw integratieopties en wijst u in de volgende richting. |
+| [[!DNL Adobe Workfront]  integraties ](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | U kunt [!DNL Workfront] integreren met toepassingen van derden. Integraties kunnen het nut van [!DNL Workfront] uitbreiden en het aanpassen aan de behoeften van uw organisatie. Dit artikel in de Knowledge Base behandelt uw integratieopties en wijst u in de volgende richting. |
 |---|---|
-| [[!DNL Workfront] ingebouwde integratie](https://www.workfront.com/integrations) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Verbindingen [!DNL Workfront] tot 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
+| [[!DNL Workfront]  ingebouwde integraties ](https://www.workfront.com/integrations) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
+| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Verbindt [!DNL Workfront] met 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
 
 {style="table-layout:auto"}
 
-## Wanneer doet [!DNL Workfront] onderhoud? Hoe kom ik erachter of [!DNL Workfront] is het uit?
+## Wanneer doet [!DNL Workfront] onderhoud? Hoe kan ik erachter komen of [!DNL Workfront] is uitgevallen?
 
-Aanmelden bij [status.adobe.com](https://status.adobe.com/) op de hoogte blijven van onderhoudsschema&#39;s en uitvalsproblemen.
+Abonneren aan [ status.adobe.com ](https://status.adobe.com/) om op onderhoudsprogramma&#39;s en outage kwesties geïnformeerd te blijven.
 
-Meer informatie over de [!DNL Workfront] Statussite, zie [De [!DNL Adobe Workfront] Statussite](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Meer over de [!DNL Workfront] plaats van de Status leren, zie [ de  [!DNL Adobe Workfront]  plaats van de Status ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [Onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [ Updates van het Onderhoud ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

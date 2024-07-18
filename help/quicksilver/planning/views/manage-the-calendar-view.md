@@ -30,7 +30,7 @@ hide: yes
 
 U kunt records en de bijbehorende velden weergeven in een kalenderweergave, vanaf de pagina met recordtypen.
 
-Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -82,13 +82,13 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een kalenderweergave beheren {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ Overweeg het volgende:
 Een kalenderweergave beheren:
 
 1. Ga naar de recordtypepagina waarvoor u de kalender wilt bekijken.
-1. Een kalenderweergave maken, zoals wordt beschreven in het artikel [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 
    ![](assets/calendar-view-example.png)
 
@@ -117,12 +117,12 @@ Een kalenderweergave beheren:
 1. Voer een van de volgende handelingen uit om door de kalender te navigeren:
 
    * Klik op de pictogrammen links en rechts of gebruik de horizontale schuifbalk om naar voren en naar achteren in de kalender te gaan.
-   * Klikken **Vandaag** om de kalender te centreren op de datum van vandaag.
+   * Klik **vandaag** om de kalender aan de datum van vandaag te centreren.
    * Selecteer een van de volgende opties in het vervolgkeuzemenu voor de tijd om de tijdstappen bij te werken:
 
       * Maand
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
-   * [Filters](#add-filters)
+   * [ Filters ](#add-filters)
      <!--* [Grouping](#add-grouping)-->
      <!--* [Settings](#edit-the-calendar-view-settings)-->
      <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
@@ -147,7 +147,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de kalenderweergav
 
 * Het toevoegen van filters in de kalenderweergave is hetzelfde als het toevoegen van filters in de tabelweergave.
 
-  Zie de sectie Filters toevoegen in het artikel voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Voor meer informatie, zie &quot;filters&quot;sectie in artikel [ toevoegen de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leidt.
 
 * U kunt filteren op gekoppelde recordvelden of opzoekvelden.
 

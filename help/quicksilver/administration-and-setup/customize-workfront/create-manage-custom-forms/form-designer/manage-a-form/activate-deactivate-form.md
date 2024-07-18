@@ -49,7 +49,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast formulier deactiveren
 
@@ -61,9 +61,9 @@ Een aangepast formulier deactiveren:
 
 {{step-1-to-setup}}
 
-1. Kies in het linkerdeelvenster de optie **Aangepaste Forms**.
-1. In de **Forms** selecteert u het aangepaste formulier dat u wilt deactiveren.
-1. Kies in de kolom Is actief **Onwaar** en klik uit de kolom. Het formulier is niet meer actief.
+1. In het linkerpaneel, kies **Aangepaste Forms**.
+1. In het **Forms** gebied, selecteer de douanevorm u wilt deactiveren.
+1. In is Actieve kolom, kies **Vals** en klik uit de kolom. Het formulier is niet meer actief.
 
 ## Een aangepast formulier opnieuw activeren
 
@@ -71,6 +71,6 @@ Als u een aangepast formulier opnieuw activeert, blijven de instellingen die het
 
 {{step-1-to-setup}}
 
-1. Kies in het linkerdeelvenster de optie **Aangepaste Forms**.
-1. In de **Forms** selecteert u het aangepaste formulier dat u opnieuw wilt activeren.
-1. Kies in de kolom Is actief **Waar** en klik uit de kolom. Het formulier is nu actief.
+1. In het linkerpaneel, kies **Aangepaste Forms**.
+1. In het **Forms** gebied, selecteer de douanevorm u wilt reactiveren.
+1. In is Actieve kolom, kies **Waar** en klik uit de kolom. Het formulier is nu actief.

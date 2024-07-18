@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] naast een [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront license] .
 
 Deze sectie bevat de volgende artikelen:
 
-* [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [Bestanden toewijzen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [Gegevenstypen item in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [Een array toewijzen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [De informatie van de kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [Over het toewijzen van bestanden in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
+* [Gegevenstypen item in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+* [Een array toewijzen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
+* [Afgedwongen typeomzetting in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)

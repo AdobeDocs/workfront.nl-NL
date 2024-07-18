@@ -35,12 +35,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten voor het maken van aanvragen van concepten
 
@@ -48,12 +48,12 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-   Voor informatie over het creëren van verzoeken, zie [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Verzoeken maken op basis van concepten
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront.
-1. Klikken **Verzoeken** > **Concepten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront.
+1. Klik **Verzoeken** > **Concepten**.
 
    Een ontwerp voor elk rijonderwerp van elke verzoekrij toont in deze lijst.
 
@@ -77,19 +77,19 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
    >
    >U kunt geen permanente filters toepassen in de sectie Concepten van het gebied Verzoeken. Bovendien zijn er geen opties om de weergave van de lijst met concepten te wijzigen of te wijzigen.
 
-1. Werk de informatie voor het verzoek bij zoals beschreven in [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
-1. (Optioneel en voorwaardelijk) Klik op een willekeurig punt tijdens het invoeren van de aanvraag op **Negeren** concept als u het concept wilt verwijderen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Zie voor meer informatie over het verwijderen van concepten [Een aanvraagconcept verwijderen](../../../manage-work/requests/create-requests/delete-request-draft.md).
+1. Werk de informatie voor het verzoek bij zoals die in [ wordt beschreven leidt tot en legt verzoeken van Adobe Workfront ](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
+1. (Facultatief en voorwaardelijk) op om het even welk punt tijdens het ingaan van het verzoek, klik **verwerpen** ontwerp als u het ontwerp wilt schrappen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Voor meer informatie over het schrappen van concepten, zie [ een verzoekontwerp ](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
-1. (Optioneel) Klik op **Annuleren** in de linkerbenedenhoek van de pagina als u de handeling wilt herstellen en het concept wilt behouden.
+1. (Facultatief) klik **annuleert** in de laag-linkerhoek van de pagina als u uw actie wilt terugkeren en het ontwerp houden.
 
 1. Voer een van de volgende handelingen uit nadat u de informatie voor het verzoek hebt voltooid:
 
-   * Klikken **Verzenden** als u klaar bent om het verzoek in te dienen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [Verpletterende regels maken](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
-      of
+     of
 
-      Klikken **Sluiten** als u niet helemaal klaar bent om het in te dienen en u zou kunnen terugkomen en het later beëindigen. Uw verzoek wordt opgeslagen in de sectie Concepten. De volgende keer dat u een aanvraag voor deze wachtrij verzendt, is deze beschikbaar.
+     Klik **dicht** als u niet behoorlijk bereid bent om het voor te leggen en u zou kunnen terugkomen en het later beëindigen. Uw verzoek wordt opgeslagen in de sectie Concepten. De volgende keer dat u een aanvraag voor deze aanvraagwachtrij verzendt, is deze beschikbaar.
 
-      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
-      Wanneer u het verzoek indient, wordt het concept verwijderd en kan het niet worden hersteld.
+     Wanneer u het verzoek indient, wordt het concept verwijderd en kan het niet worden hersteld.

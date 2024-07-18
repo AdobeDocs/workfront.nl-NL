@@ -13,9 +13,9 @@ ht-degree: 1%
 
 ---
 
-# Werk bij met de functie [!DNL Adobe Workfront] insteekmodule
+# Werk uw werk bij met de plug-in [!DNL Adobe Workfront]
 
-U kunt uw werk bijwerken op basis van een van de volgende opties [!DNL Adobe Creative Cloud] toepassingen:
+U kunt uw werk bijwerken vanuit de volgende [!DNL Adobe Creative Cloud] -toepassingen:
 
 {{cc-app-list}}
 
@@ -40,22 +40,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] toegang tot het object dat u wilt bijwerken. </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] toegang tot het object dat u wilt bijwerken. </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
 {{cc-install-prereq}}
 
-## Een update verzenden
+## Post een update
 
 U kunt uw werk bijwerken vanuit een van de volgende gebieden in de plug-in:
 
@@ -81,12 +81,12 @@ U kunt uw werk bijwerken vanuit een van de volgende gebieden in de plug-in:
 
 Een update plaatsen:
 
-1. Klik op de knop **[!UICONTROL Menu]** in de rechterbovenhoek, en selecteer vervolgens **[!UICONTROL Work List]**. U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
+1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Van de **[!UICONTROL Work List]** selecteert u het werkitem waarnaar u een update wilt plaatsen.
-1. Klikken **[!UICONTROL Update]** in de navigatiebalk.\
+1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u een update wilt posten.
+1. Klik op **[!UICONTROL Update]** in de navigatiebalk.\
    ![](assets/photoshop-update-350x295.png)
 
 1. Klik op **[!UICONTROL New Update]**.

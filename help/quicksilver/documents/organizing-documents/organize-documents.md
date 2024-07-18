@@ -21,5 +21,5 @@ U kunt documenten ordenen met mappen. U kunt traditionele mappen of slimme mappe
 
 Deze sectie bevat de volgende artikelen:
 
-* [Documentmappen maken](../../documents/organizing-documents/create-documents-folder.md)
+* [ creeer documentomslagen ](../../documents/organizing-documents/create-documents-folder.md)
 * [Slimme mappen maken en beheren](../../documents/organizing-documents/create-manage-smart-folders.md)

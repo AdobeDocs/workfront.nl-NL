@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Standaardwaarden systeem configureren
-description: Als [!DNL Adobe Workfront] beheerder, kunt u de systeemgebreken, zoals de voorkeur voor alle projecten vormen die uw gebruikers creëren.
+description: Als  [!DNL Adobe Workfront]  beheerder, kunt u de systeemgebreken, zoals de voorkeur voor alle projecten vormen die uw gebruikers tot stand brengen.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -27,7 +27,7 @@ Deze sectie bevat de volgende artikelen:
 * [Aanvraagtypen configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [Standaardobjecttypen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)
 * [Standaardfilters, weergaven en groepen maken, bewerken en delen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)
-* [Configureren [!UICONTROL Resource Management] voorkeuren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
+* [[!UICONTROL Resource Management] -voorkeuren configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)
 * [Risicotypen bewerken en maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)
 * [Aangepaste uitgaventypen maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
 * [Een scorecard maken](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)

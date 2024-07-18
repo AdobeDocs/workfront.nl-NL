@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Workfront Fusion release activity: Week 7 november 2022
 
-**Optimalisatie webshwachtrij**
+**de rijoptimalisering van de 0} Webhaak**
 
 De wachtrij van Fusion voor webhaken is geoptimaliseerd met deze release. De service die webhooks accepteert, staat nu los van wachtrijen en andere processen. Door deze wijziging kan Fusion webhaakwachtrijen sneller en consistenter verwerken.
 
@@ -30,7 +30,7 @@ Navigeer naar Webhooks in linkernavigatie om webhaakgebeurtenissen in de wachtri
 ![](assets/fusion-webhook-queue-1866x567.png)
 
 
-**Ongebruikte webhaken worden nu gedeactiveerd of verwijderd**
+**Ongebruikte webhooks zal nu worden gedeactiveerd of worden geschrapt**
 
 We hebben een aantal wijzigingen aangebracht in de manier waarop Workfront Fusion ongebruikte webhaken verwerkt. Webhooks worden nu automatisch gedeactiveerd als een van de volgende twee van toepassing is:
 

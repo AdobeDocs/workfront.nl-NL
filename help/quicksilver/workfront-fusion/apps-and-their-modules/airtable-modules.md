@@ -9,10 +9,10 @@ title: Airtable-modules
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 # Airtable-modules
 
 
-Met de [!DNL Airtable] connector voor [!DNL Adobe Workfront Fusion], kunt u een scenario beginnen dat op gebeurtenissen in uw [!DNL Airtable] records, zoekrecords en aangepaste API-aanroepen naar de Airtable API maken, maken, uploaden en bijwerken.
+Met de [!DNL Airtable] -connector voor [!DNL Adobe Workfront Fusion] kunt u een scenario starten op basis van gebeurtenissen in uw [!DNL Airtable] -account, records maken, uploaden en bijwerken, records zoeken en aangepaste API-aanroepen naar de Airtable API uitvoeren.
 
 ## Toegangsvereisten
 
@@ -44,14 +44,14 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
@@ -68,21 +68,21 @@ U moet een Airtable-account hebben om de functionaliteit in dit artikel te kunne
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Open Workfront Fusion en de **Verbinding maken** van de gewenste module.
+1. Open de Fusie van Workfront en **creeer een verbinding** dialoog van de gewenste module.
 1. Voer een naam in voor de verbinding.
 1. (Optioneel) Klik op Geavanceerde instellingen tonen en voer uw Airtable client-id en clientgeheim in.
-1. Klik op de knop **Doorgaan** om verbinding te maken en terug te keren naar de module.
+1. Klik op de knop **Doorgaan** om de verbinding te maken en terug te keren naar de module.
 
 ## Airtable-modules en hun velden
 
 ### Records
 
-* [Een record maken](#create-a-record)
-* [Een record verwijderen](#delete-a-record)
-* [Een record ophalen](#get-a-record)
-* [Zoeken in records](#search-records)
-* [Een record bijwerken](#update-a-record)
-* [Een record bijwerken](#upsert-a-record)
+* [ creeer een Verslag ](#create-a-record)
+* [ Schrap een Verslag ](#delete-a-record)
+* [ krijg een verslag ](#get-a-record)
+* [ Verslagen van het Onderzoek ](#search-records)
+* [ werk een Verslag ](#update-a-record) bij
+* [ Upsert een Verslag ](#upsert-a-record)
 * [Controleregisters](#watch-records)
 * [Reacties controleren](#watch-responses)
 * [Een API-aanroep maken](#make-an-api-call)
@@ -103,7 +103,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -163,7 +163,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -190,7 +190,7 @@ In deze actiemodule worden recorddetails opgehaald.
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -221,7 +221,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -233,7 +233,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Formule</p> </td> 
-   <td> <p>Een formule die wordt gebruikt om records te filteren. De formule wordt geëvalueerd voor elke record en als het resultaat niet <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, of <code>#Error!</code> de record is opgenomen in het antwoord.</p> <p>Indien gecombineerd met de <code>view</code>worden alleen records in die weergave geretourneerd die aan de formule voldoen.</p> <p>Als u bijvoorbeeld alleen records wilt opnemen waarin de naam niet leeg is, geeft u het volgende door:<code> NOT({Name} = '')</code></p> <p>Voor meer informatie, onderzoek naar informatie over de verwijzingen van het formulegebied in de Airtable steundocumentatie.</p> </td> 
+   <td> <p>Een formule die wordt gebruikt om records te filteren. De formule wordt geëvalueerd voor elke record en als het resultaat niet <code>0</code> , <code>false</code> , <code>""</code> , <code>NaN</code> , <code>[]</code> of <code>#Error!</code> is, wordt de record opgenomen in de reactie.</p> <p>Als deze worden gecombineerd met de <code>view</code> , worden alleen records in die weergave geretourneerd die aan de formule voldoen.</p> <p>Als u bijvoorbeeld alleen records wilt opnemen waarin de naam niet leeg is, geeft u het volgende door:<code> NOT({Name} = '')</code></p> <p>Voor meer informatie, onderzoek naar informatie over de verwijzingen van het formulegebied in de Airtable steundocumentatie.</p> </td> 
   </tr> 
   <tr> 
    <td>Sorteren </td> 
@@ -266,7 +266,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -330,7 +330,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -392,7 +392,7 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
  <tbody> 
   <tr> 
    <td>Verbinding </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>Basis </td> 
@@ -404,7 +404,7 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
   </tr> 
   <tr> 
    <td> <p>Configuratie activeren</p> </td> 
-   <td> <p>Triggerveld</p> <p>A <code>Created Time</code> of <code>Last Modified Time</code> veld dat wordt gebruikt om records te sorteren. Als u geen <code>Created Time</code> of <code>Last Modified Time</code> in uw schema, moet u tot stand brengen. </p> <p>Veld Label</p> <p>Een veld dat wordt gebruikt als label voor een record, bijvoorbeeld in het dialoogvenster Kies waar u wilt beginnen.</p> </td> 
+   <td> <p>Triggerveld</p> <p>Een <code>Created Time</code> - of <code>Last Modified Time</code> -veld dat wordt gebruikt om records te sorteren. Als u geen <code>Created Time</code> of <code>Last Modified Time</code> gebied in uw schema hebt, moet u tot stand brengen. </p> <p>Veld Label</p> <p>Een veld dat wordt gebruikt als label voor een record, bijvoorbeeld in het dialoogvenster Kies waar u wilt beginnen.</p> </td> 
   </tr> 
   <tr> 
    <td>Limiet</td> 
@@ -416,7 +416,7 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
   </tr> 
   <tr> 
    <td> <p>Formule</p> </td> 
-   <td> <p>Een formule die wordt gebruikt om records te filteren. De formule wordt geëvalueerd voor elke record en als het resultaat niet <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, of <code>#Error!</code> de record is opgenomen in het antwoord.</p> <p>Indien gecombineerd met de <code>view</code>worden alleen records in die weergave geretourneerd die aan de formule voldoen.</p> <p>Als u bijvoorbeeld alleen records wilt opnemen waarin de naam niet leeg is, geeft u het volgende door:<code> NOT({Name} = '')</code></p> <p>Voor meer informatie, zie de informatie over de verwijzingen van het formuleringsgebied in de Airtable steundocumentatie.</p> </td> 
+   <td> <p>Een formule die wordt gebruikt om records te filteren. De formule wordt geëvalueerd voor elke record en als het resultaat niet <code>0</code> , <code>false</code> , <code>""</code> , <code>NaN</code> , <code>[]</code> of <code>#Error!</code> is, wordt de record opgenomen in de reactie.</p> <p>Als deze worden gecombineerd met de <code>view</code> , worden alleen records in die weergave geretourneerd die aan de formule voldoen.</p> <p>Als u bijvoorbeeld alleen records wilt opnemen waarin de naam niet leeg is, geeft u het volgende door:<code> NOT({Name} = '')</code></p> <p>Voor meer informatie, zie de informatie over de verwijzingen van het formuleringsgebied in de Airtable steundocumentatie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -434,12 +434,12 @@ De URL van de webhaak moet worden gegenereerd in Workfront Fusion en vervolgens 
 1. Voeg de module Nieuwe reacties controleren toe aan uw Workfront Fusion-scenario.
 1. Genereer en kopieer de URL van de webhaak.
 
-   Zie voor instructies [Instant triggers (webhaken) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   Voor instructies, zie [ Onmiddellijke trekkers (webhooks) in de Fusie van Adobe Workfront ](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
 
 1. Meld u aan bij uw Airtable-account.
 1. Open de basis en de tabel die u voor het formulier wilt gebruiken en maak een formulierweergave.
 1. Stel het formulier naar wens in, schuif omlaag in het formulier en schakel de optie Omleiden naar URL in nadat het formulier is verzonden.
-1. Voer de Webhaak-URL die in stap 2 is gegenereerd in het weergegeven dialoogvenster in en voeg de ?record_id= toe{record_id} vlak na de URL van de web-haak om de record-id op te nemen in de uitvoer van de module, klikt u op Opslaan. De resulterende URL ziet er bijvoorbeeld als volgt uit:
+1. Ga Webhaak URL in die in stap 2 aan de getoonde dialoogdoos wordt geproduceerd en voeg ?record_id= {record_id} enkel na Webhaak URL toe om identiteitskaart van het Verslag in de output van de module te omvatten, dan sparen te klikken. De resulterende URL ziet er bijvoorbeeld als volgt uit:
 1. Ga terug naar uw scenario van de Fusie van Workfront en stel de module van de Reacties van het Controle slechts in werking om gebieden van Airtable te laden en die gebieden in de andere modules in kaart te kunnen brengen.
 1. Verzend het formulier in Airtable waar de optie Omleiden naar URL nadat het formulier is verzonden is ingeschakeld en WebHaak-URL is toegevoegd (stap 6 hierboven).
 
@@ -453,7 +453,7 @@ Telkens wanneer het formulier wordt verzonden, wordt de module Reacties controle
 
 #### Aangepaste API-aanroep
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Airtable] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Airtable] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Airtable] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Airtable] -modules kan worden uitgevoerd.
 
 De handeling is gebaseerd op het door u opgegeven eenheidstype (allocadia-objecttype).
 
@@ -465,15 +465,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Verbinding</p> </td> 
-   <td> <p>Voor instructies over het verbinden van uw Airtable rekening met Workfront Fusion, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable aansluiten op Workfront Fusion</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Airtable rekening aan de Fusie van Workfront, zie <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref"> Airtable aan de Fusie van Workfront </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Een pad invoeren ten opzichte van <code>https://api.airtable.com/}</code>. Voorbeeld: <code>v0/{base}/{table}</code> </td> 
+   <td>Voer een pad in dat relatief is ten opzichte van <code>https://api.airtable.com/}</code> . Voorbeeld: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Methode</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Kopteksten</td> 
@@ -485,7 +485,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">Lichaam</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

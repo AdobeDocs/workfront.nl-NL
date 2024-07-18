@@ -10,14 +10,14 @@ role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
 # Het linkerdeelvenster aanpassen met een lay-outsjabloon
 
-In een lay-outsjabloon kunt u aanpassen wat gebruikers in het linkerdeelvenstergebied overal zien [!DNL Adobe Workfront].
+In een lay-outsjabloon kunt u aanpassen wat gebruikers in het linkerdeelvenstergebied in [!DNL Adobe Workfront] zien.
 
 U kunt bijvoorbeeld bepalen welke van de volgende items gebruikers in het linkerdeelvenster zien wanneer ze een taak bekijken:
 
@@ -27,11 +27,11 @@ U kunt bijvoorbeeld bepalen welke van de volgende items gebruikers in het linker
 >
 >Wijzigingen die u aanbrengt in de volgorde en zichtbaarheid worden weerspiegeld in de mobiele app.
 
-Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -51,32 +51,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> Om deze stappen op systeemniveau uit te voeren, hebt u het [!UICONTROL System Administrator] toegangsniveau.<p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> U hebt het toegangsniveau [!UICONTROL System Administrator] nodig om deze stappen op systeemniveau uit te voeren.<p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Het linkerdeelvenster aanpassen voor een gebied in [!DNL Workfront]:
+## Pas het linkerdeelvenster aan voor een gebied in [!DNL Workfront] :
 
-1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik op de pijl omlaag ![](assets/dropdown-arrow.png) krachtens **[!UICONTROL Customize what users see]** en klikt u op het linkerdeelvenster dat u wilt aanpassen.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik op de pijl-omlaag ![](assets/dropdown-arrow.png) onder **[!UICONTROL Customize what users see]** en klik vervolgens op het linkerdeelvenster dat u wilt aanpassen.
 
    >[!NOTE]
    >
-   >Voor informatie over de [!UICONTROL Home] in deze vervolgkeuzelijst, raadpleegt u [Aanpassen [!UICONTROL Home] en [!UICONTROL Summary] een lay-outsjabloon gebruiken](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Voor informatie over de optie Lijsten raadpleegt u [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Voor informatie over de [!UICONTROL Home] optie in deze drop-down lijst, zie [ aanpassen [!UICONTROL Home] en [!UICONTROL Summary] gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Voor informatie over de optie van Lijsten, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. In de **[!UICONTROL Left panel]** Voer een van de volgende handelingen uit om te bepalen wat gebruikers in het linkerdeelvenster voor de optie zullen zien ([!DNL Workfront] gebied of objecttype) die u hebt geselecteerd:
+1. Voer in de lijst **[!UICONTROL Left panel]** een van de volgende handelingen uit om te bepalen wat gebruikers in het linkerdeelvenster zien voor de optie ([!DNL Workfront] gebied of objecttype) die u hebt geselecteerd:
 
-   * Tonen ![](assets/add-secondary-nav-item.png) of verbergen ![](assets/delete-secondary-nav-item.png) objecten. Elk item zonder ![](assets/add-secondary-nav-item.png) of ![](assets/delete-secondary-nav-item.png) kan niet worden verborgen.
+   * ![](assets/add-secondary-nav-item.png) items tonen of verbergen ![](assets/delete-secondary-nav-item.png) . Een item zonder ![](assets/add-secondary-nav-item.png) of ![](assets/delete-secondary-nav-item.png) kan niet worden verborgen.
 
-   * Items slepen ![](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
+   * Sleep items ![](assets/move-icon---dots.png) om de volgorde in het linkerdeelvenster te wijzigen.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Option</th> 
+      <th>Optie</th> 
       <th>Wanneer gebruikers op het volgende klikken...</th> 
       <th>De linkerdeelvensteritems die u kiest, worden als volgt weergegeven:</th> 
      </tr> 
@@ -90,22 +90,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td>[!UICONTROL Task]</td> 
       <td>De naam van een taak</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors]</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses] , [!UICONTROL Predecessors]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
       <td>De naam van een uitgave</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours], [!UICONTROL Approvals]</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours] , [!UICONTROL Approvals]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>De naam van een portfolio</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates]</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents] , [!UICONTROL Updates]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>De naam van een programma</td> 
-      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents]</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates] , [!UICONTROL Documents]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -127,7 +127,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td> [!UICONTROL Billing Record]</td> 
       <td>De naam van een factureringsrecord voor een project</td> 
-      <td>[!UICONTROL Billing Record Details], [!UICONTROL Billable Hours], [!UICONTROL Billable Expenses], [!UICONTROL Fixed Revenues]</td> 
+      <td>[!UICONTROL Billing Record Details], [!UICONTROL Billable Hours], [!UICONTROL Billable Expenses] , [!UICONTROL Fixed Revenues]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
@@ -137,27 +137,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <tr> 
       <td>[!UICONTROL Requests]</td> 
       <td>De naam van een aanvraag</td> 
-      <td>[!UICONTROL New Request], [!UICONTROL Submitted requests], [!UICONTROL All Requests], [!UICONTROL Drafts]</td> 
+      <td>[!UICONTROL New Request], [!UICONTROL Submitted requests], [!UICONTROL All Requests] , [!UICONTROL Drafts]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>De naam van een dashboard</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>OPMERKING</b>: Als u aangepaste tabbladen voor de [!UICONTROL Reports] gebied dat een lay-outsjabloon gebruikt in [!DNL Adobe Workfront Classic]worden onder aan deze lijst weergegeven. Voor gebruikers worden ze onder in het linkerdeelvenster weergegeven in het dialoogvenster [!UICONTROL Dashboards] gebied.</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b> NOTA </b>: Als u douanelusjes voor het [!UICONTROL Reports] gebied gebruikend een lay-outmalplaatje in [!DNL Adobe Workfront Classic] creeerde, tonen zij bij de bodem van deze lijst. Gebruikers kunnen ze onder aan het linkerdeelvenster weergeven in het [!UICONTROL Dashboards] -gebied.</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
       <td>De naam van een scrum-team</td> 
-      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>OPMERKING:</strong> De <strong>[!UICONTROL Current iteration]</strong> Het item wordt alleen weergegeven in het linkerdeelvenster als er ten minste één taak of uitgave op de herhaling staat.</p></td> 
+      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong> NOTA:</strong> het <strong>[!UICONTROL Current iteration]</strong> punt toont slechts in het linkerpaneel wanneer er minstens één taak of kwestie op de herhaling is.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban Team]</td> 
       <td>De naam van een Kanban-team</td> 
-      <td>[!UICONTROL Workload Balancer], [!UICONTROL Kanban board], [!UICONTROL Backlog], [!UICONTROL Updates], [!UICONTROL Team Settings]</td> 
+      <td>[!UICONTROL Workload Balancer], [!UICONTROL Kanban board], [!UICONTROL Backlog], [!UICONTROL Updates] , [!UICONTROL Team Settings]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Waterfall Team]</td> 
       <td>De naam van een Watervalteam</td> 
-      <td>[!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Requests], [!UICONTROL Team Settings]</td> 
+      <td>[!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Requests] , [!UICONTROL Team Settings]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Iteration]</td> 
@@ -197,29 +197,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >De laatste 3 items in de **[!UICONTROL Customize what users see]** vervolgkeuzelijst ([!UICONTROL Lists], [!UICONTROL Home and Summary], en [!UICONTROL Branding]) zijn bedoeld voor het configureren van andere gebieden dan het linkerdeelvenster. Raadpleeg de volgende artikelen voor meer informatie over deze artikelen:
+   >De laatste 3 items in de vervolgkeuzelijst **[!UICONTROL Customize what users see]** ( [!UICONTROL Lists] , [!UICONTROL Home and Summary] en [!UICONTROL Branding] ) zijn bedoeld voor het configureren van andere gebieden dan het linkerdeelvenster. Raadpleeg de volgende artikelen voor meer informatie over deze artikelen:
 >   >   
-* [Filters, weergaven en groepen aanpassen met een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Aanpassen [!UICONTROL Home] en [!UICONTROL Summary] een lay-outsjabloon gebruiken](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Merk Adobe [!DNL Workfront] een lay-outsjabloon gebruiken](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+* [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>* [ pas [!UICONTROL Home] aan en [!UICONTROL Summary] gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [ Adobe van het Merk  [!DNL Workfront]  gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Optioneel) Als u een item uit het linkerdeelvenster wilt toevoegen dat is gekoppeld aan een van de dashboards van uw organisatie, klikt u op **[!UICONTROL Add custom section]**, typt u een **[!UICONTROL Custom section title]** voor het item voegt u het dashboard toe.
+1. (Optioneel) Als u een item uit het linkerdeelvenster wilt toevoegen dat is gekoppeld aan een van de dashboards van uw organisatie, klikt u op **[!UICONTROL Add custom section]** , typt u een **[!UICONTROL Custom section title]** voor het item en voegt u het dashboard toe.
 
    De dashboarditems worden onder in het linkerdeelvenster weergegeven. Gebruikers zien de titel van de sectie Aangepast die u typt naast het dashboarditem wanneer ze de muisaanwijzer op het linkerdeelvenster plaatsen.
 
    >[!NOTE]
    >
-   Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items samengevoegd met de bijbehorende items zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Ga voor informatie over hoe gebruikers het linkerdeelvenster kunnen aanpassen naar [Aangepaste tabbladen of secties maken](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items samengevoegd met de bijbehorende items zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Voor informatie over hoe de gebruikers het linkerpaneel kunnen aanpassen, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
 
-   Voor informatie over dashboards, zie [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
+   Voor informatie over dashboards, zie [ dashboards ](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
 1. Blijf het lay-outmalplaatje aanpassen.
 
    of
 
-   Als u klaar bent met het aanpassen, klikt u op **[!UICONTROL Save]**.
+   Klik op **[!UICONTROL Save]** als u klaar bent met het aanpassen.
 
    >[!TIP]
    >
-   U kunt op [!UICONTROL Save] op elk gewenst moment de voortgang op te slaan en de sjabloon later te wijzigen.
+   U kunt op elk gewenst moment op [!UICONTROL Save] klikken om de voortgang op te slaan en de sjabloon later blijven wijzigen.

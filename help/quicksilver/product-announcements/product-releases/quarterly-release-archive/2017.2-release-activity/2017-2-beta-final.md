@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2017.2 Beta definitief
+title: 2017.2 Beta Final
 description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de release 2017.2. De functionaliteit op deze pagina is op 28 juni 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal op 26 juli 2017 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2017.2 Beta definitief
+# 2017.2 Beta Final
 
 Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de release 2017.2. De functionaliteit op deze pagina is op 28 juni 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal op 26 juli 2017 beschikbaar worden gesteld in de productieomgeving.
 
@@ -22,43 +22,43 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 >De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst van alle wijzigingen die in 2017.2 zijn aangebracht, raadpleegt u [Overzicht van releaseactiviteiten 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2017.2 worden aangebracht, zie [ 2017.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-De 2017.2 Bètadefinitieve versie bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
+De slotversie van Beta van 2017.2 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-**Voor beheerders:**
+**voor Beheerders:**
 
-* [Bepaal de Beschikbaarheid van de HTML5 Video Proofing Viewer (ProefHQ en Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
-* [Ondersteuning voor SHA-256-certificaten voor SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
-* [Type vooruit voor toewijzingskenmerken](#type-ahead-for-mapping-attributes)
+* [ bepaalt de Beschikbaarheid van de HTML5 Video het proef kijker (ProofHK en Workfront) ](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [ steun SHA-256 certificaten voor SAML 2.0 ](#support-sha-256-certificates-for-saml-2-0)
+* [ Type-Ahead voor de Attributen van de Toewijzing ](#type-ahead-for-mapping-attributes)
 * [API-verbetering: toegang tot gebruikerstoewijzingen](#api-enhancement-access-user-allocations)
 
-**Voor alle gebruikers:**
+**voor Alle Gebruikers:**
 
-* [Resource Planner](#resource-planner)
-* [Nieuw planningsgebied in een Project (Teambouwer)](#new-scheduling-area-in-a-project-team-builder)
-* [Bronnen plannen: Standaard minder items tonen](#resource-scheduling-show-fewer-items-by-default)
-* [Bronnen plannen: de indicator voor neerzetten en de overtoewijzing weergeven bij het slepen van taken en problemen](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
-* [Bronplanning: Toewijzingen van gebruikers worden niet meer afgerond naar het dichtstbijzijnde halve uur](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
-* [Exporteer het gebruiksrapport in de indeling TSV en PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
-* [2017.2 Beta definitief](#user-calendar-enhancements-in-the-my-work-area%22)
-* [2017.2 Beta definitief](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
-* [Het besluit van het bewijs verschijnt in het Mijn Gebied van het Werk (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
-* [Proefdrukken voor rijke media weergeven in Vooraf ingestelde resoluties (proefdrukken van hoofdletters en kleine letters, Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [URL naar subpagina&#39;s weergeven in opmerkingen op proefdrukken voor rijke media (proefdrukken van hoofdletters en kleine letters en Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
-* [Aangepaste weergaven maken op basis van bestaande standaardweergaven (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
-* [Het rapportgebied filteren (ProefHQ)](#filter-the-reporting-area-proofhq)
-* [Minimum- en maximumwaarden weergeven in rapporten (proefdrukken van hoofdletters en kleine letters)](#display-minimum-and-maximum-values-in-reports-proofhq)
-* [Melding in de app voor goedkeuring proef](#in-app-notification-for-proof-approval)
-* [Mobiele verbeteringen](#mobile-improvements)
-* [Snede die aan de Verklaringen van de Filter voor Gebiedswaarden wordt toegevoegd die komma&#39;s bevatten](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
-* [Meerdere factureringssnelheden](#multiple-billing-rates)
-* [Nieuw veld voor rondgerichte uren van bronnen](#new-resource-budgeted-hour-field)
+* [ Planner van het Middel ](#resource-planner)
+* [ Nieuw plannend Gebied in een Project (de Bouwer van het Team) ](#new-scheduling-area-in-a-project-team-builder)
+* [ Middel die plant: Toon Minder Punten door Standaard ](#resource-scheduling-show-fewer-items-by-default)
+* [ Middel die plant: De Indicator van de Daling van de vertoning en over-toewijzing wanneer het slepen van Taken en Kwesties ](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
+* [ Middel die plant: De Toewijzingen van de gebruiker zijn niet meer gerond aan het Dichtstbijzijnde Half uur ](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
+* [ de Uitvoer het Rapport van het Gebruik in TSV en de Formaten van PDF ](#export-the-utilization-report-in-tsv-and-pdf-formats)
+* [ 2017.2 Definitief Beta ](#user-calendar-enhancements-in-the-my-work-area%22)
+* [ 2017.2 Definitief Beta ](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
+* [ de Beslissingsvertoningen van het Bewijs op het Mijn Gebied van het Werk (Workfront) ](#proof-decision-displays-in-the-my-work-area-workfront)
+* [ Proofs van de Media van de Mening Rich in Vooraf ingestelde Resoluties (ProofHK en Workfront) ](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
+* [ Mening URL aan Subpagina&#39;s in Commentaren op Rijke Proofs van Media (ProofHK en Workfront) ](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [ creeer de Mening van de Douane die op Bestaande Standaardmeningen (ProofHQ) wordt gebaseerd ](#create-custom-views-based-on-existing-standard-views-proofhq)
+* [ filter het Rapporterende Gebied (ProofHQ) ](#filter-the-reporting-area-proofhq)
+* [ Minimale en Maximale Waarden van de Vertoning in Rapporten (ProofHQ) ](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [ Meldingen in-app voor Goedkeuring van proef ](#in-app-notification-for-proof-approval)
+* [ Mobiele Verbeteringen ](#mobile-improvements)
+* [ Snede die aan de Verklaringen van de Filter voor de Waarden van het Gebied wordt toegevoegd die komma&#39;s ](#slash-added-to-filter-statements-for-field-values-that-contain-commas) bevatten
+* [ Veelvoudige het Factureren Tarieven ](#multiple-billing-rates)
+* [ Nieuw Middel het Beoogde Gebogen Gebied van het Uur ](#new-resource-budgeted-hour-field)
 * [Functie gebruikerstaak weergeven in gebied &#39;Toegewezen aan&#39; op de detailpagina voor taken en problemen](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Nieuw planningsgebied in een Project (Teambouwer) {#new-scheduling-area-in-a-project-team-builder}
 
@@ -123,7 +123,7 @@ U kunt het rapport van het Gebruik over een project in TSV en PDF formaten, naas
 
 Voorafgaand aan deze verandering, kon u het rapport van het Gebruik slechts in formaat XLSX uitvoeren.
 
-Voor meer informatie over het exporteren van het gebruiksrapport raadpleegt u [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Overzicht van het verslag over het gebruik van hulpbronnen](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie over het uitvoeren van het rapport van het Gebruik, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Het besluit van het bewijs verschijnt in het Mijn Gebied van het Werk (Workfront) {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ Wanneer het bekijken van het proefdrukken goedkeuringen in Mijn Goedkeuringen lu
 
 Voorafgaand aan deze wijziging was er geen aanwijzing dat er al een besluit was genomen over de proefdruk en dat de proefdruk op het tabblad Mijn goedkeuringen bleef staan totdat u de browser vernieuwde.
 
-Zie voor meer informatie [Goedkeuring van de werkzaamheden](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Goedkeuring van de werkzaamheden](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Voor meer informatie, zie [ goedkeurend het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [ het goedkeuren van het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Proefdrukken voor rijke media weergeven in Vooraf ingestelde resoluties (proefdrukken van hoofdletters en kleine letters, Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -139,7 +139,7 @@ In een vroegere versie aan het milieu van de Voorproef, introduceerden wij de ca
 
 U kunt nu opties voor vooraf ingestelde resolutie selecteren voor verschillende telefoons, tablets, laptops en desktops.
 
-Zie &quot;Een voorinstellingsresolutie bekijken&quot; in [De resolutie voor interactieve proefdrukken wijzigen in de proefdrukviewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Voor meer informatie, zie &quot;het Bekijken van een Vooraf ingestelde Resolutie&quot;in [ de interactieve proefdrukresolutie van de Verandering in de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## URL naar subpagina&#39;s weergeven in opmerkingen op proefdrukken voor rijke media (proefdrukken van hoofdletters en kleine letters en Workfront) {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
@@ -165,25 +165,25 @@ Nu kunt u een aangepaste weergave maken op basis van een standaardweergave. De 
 
 Voordat u deze wijziging aanbracht, moest u de weergave helemaal opnieuw maken om een aangepaste weergave te maken. 
 
-Zie voor meer informatie [Een aangepaste weergave maken](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Aangepaste weergaven maken en beheren in proefdrukken van Workfront](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Voor meer informatie, zie [ Creërend een Mening van de Douane ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [ creeer en beheer de Mening van de Douane in het Bewijs van Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Het rapportgebied filteren (ProefHQ) {#filter-the-reporting-area-proofhq}
 
 Standaard bevatten de gegevens die op het tabblad Rapporten worden weergegeven, alle gegevens van uw ProofingHQ-systeem. U kunt nu filters gebruiken om alleen informatie weer te geven die relevant is voor uw behoeften. 
 
-Zie voor meer informatie [Filterrapporten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Rapporten uitvoeren in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Voor meer informatie, zie [ Filtrerend Rapporten ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) binnen  [ de Rapporten van de Looppas in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Minimum- en maximumwaarden weergeven in rapporten (proefdrukken van hoofdletters en kleine letters) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 U kunt nu configureren of minimum- en maximumwaarden in de grafiek worden weergegeven wanneer u rapporten weergeeft.
 
-Zie voor meer informatie [Rapporten weergeven](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Rapporten uitvoeren in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Voor meer informatie, zie [ Bekijkend Rapporten ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [ de Rapporten van de Looppas in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Ondersteuning voor SHA-256-certificaten voor SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
 We ondersteunen nu Secure Hash Algorithm 256 (SHA-256) bij het configureren van Workfront voor SSO met SAML 2.0. Voorafgaand aan deze versie, steunden wij slechts Veilig Algorithm 1 van de Hash (SHA-1).
 
-Voor meer informatie over het vormen van Workfront met SAML 2.0, zie [Adobe Workfront configureren met SAML 2.0](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+Voor meer informatie over het vormen van Workfront met SAML 2.0, zie [ Adobe Workfront met SAML 2.0 vormen ](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 
 ## Type vooruit voor toewijzingskenmerken {#type-ahead-for-mapping-attributes}
 
@@ -212,7 +212,7 @@ De volgende toegevoegde functionaliteit wordt weergegeven op de mobiele apps, vo
 
 Voor sommige van deze functies wordt een openbaar bètaprogramma voor het Android-platform uitgevoerd.
 
-Voor meer informatie over het aanstaande bètaprogramma voor mobiele apparaten raadpleegt u de  [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) pagina.
+Voor meer informatie over het aanstaande bètaprogramma voor mobiele apparaten raadpleegt u de  [ &quot;Bèta&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) pagina.
 
 Zie voor meer informatie over het gebruik van de mobiele Workfront-app.  
 
@@ -226,7 +226,7 @@ Wanneer u een filter maakt in de tekstmodus en filtert voor veldwaarden die komm
 
 Voorafgaand aan deze wijziging kon u niet filteren op velden met opties met komma&#39;s.
 
-Zie voor meer informatie over deze wijziging [Overzicht van filters](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie over deze verandering, zie [ Overzicht van Filters ](../../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Meerdere factureringssnelheden {#multiple-billing-rates}
 
@@ -234,9 +234,9 @@ U kunt nu meerdere overschrijvingen van factureringssnelheden toevoegen voor dez
 
 Voorafgaand aan deze verandering, kon u het factureringspercentage van een baanrol slechts eenmaal met voeten treden, en de Ware Ontvangsten zouden opnieuw berekenen om het huidige factureringspercentage voor alle uren te weerspiegelen die alvorens het het factureringspercentage werd geregistreerd werd veranderd.
 
-Voor meer informatie over de Facturerings en Ontvangsten, zie [Overzicht van facturering en inkomsten](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie over de Tarieven en de Inkomsten van het Factureren, zie [ Overzicht van Facturering en Inkomsten ](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-Voor meer informatie over het met voeten treden van het factureringspercentage voor baanrollen op het projectniveau, zie [Overzicht van het overschrijven van de Billing Rates van de Rol en het berekenen van Inkomsten op een project](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor meer informatie over het met voeten treden van factureringspercentages voor baanrollen op het projectniveau, zie [ Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Taak en het berekenen van Inkomsten op een project ](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Resource Planner {#resource-planner}
 
@@ -248,13 +248,13 @@ Met deze versie, introduceren wij de eerste fase van de Planner van het Middel, 
 * Uur-variantie (tussen de begrote en de geplande uren)
 * Nettouurverschil (tussen de beschikbare en de begrote uren uren)
 
-Voor meer informatie over het gebruiken van de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Nieuw veld voor rondgerichte uren van bronnen {#new-resource-budgeted-hour-field}
 
 Om de nieuwe functionaliteit van de Planning en de Planner van het Middel te steunen, is een nieuw gebied toegevoegd aan de Bouwer van het Rapport, die u toestaat om over het Middel te rapporteren Gefedgeted Uren. In dit veld wordt het aantal uren vastgelegd waarvoor een bron in een project wordt opgenomen. Dit veld is niet beschikbaar wanneer bronnen worden gebudgetteerd met behulp van de functie Oude bronnenplanning.
 
-Voor meer informatie over het gebruiken van Begroeide Uren in de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van Begroeide Uren in de Planner van het Middel, zie [ overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Melding in de app voor goedkeuring proef {#in-app-notification-for-proof-approval}
 
@@ -262,7 +262,7 @@ Wanneer u als fiatteur voor een bewijs wordt aangewezen, ontvangt u een bericht 
 
 Voorafgaand aan deze verbetering, was de enige visuele aanwijzing dat u als fiatteur op een bewijs werd aangewezen een nieuw proefdrukverzoek in uw Mijn Gebied van het Werk.
 
-Zie voor meer informatie over meldingen in de app [Meldingen in apps weergeven en beheren](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Voor meer informatie over in-app berichten, zie [ Mening en beheer in-app berichten ](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Functie gebruikerstaak weergeven in gebied &#39;Toegewezen aan&#39; op de detailpagina voor taken en problemen {#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues}
 

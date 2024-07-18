@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [Dashboards begrijpen](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
-* [Dashboards maken en beheren](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
+* [ begrijp dashboards ](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
+* [ creeer en beheer dashboards ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)

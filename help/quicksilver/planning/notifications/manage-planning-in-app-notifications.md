@@ -22,9 +22,9 @@ Wanneer iemand u in een recordopmerking van tags voorziet, ontvangt u mogelijk e
 >
 >Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
 >
->Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Voor informatie over het labelen van anderen in een recordopmerking raadpleegt u [Opnameopmerkingen beheren](/help/quicksilver/planning/records/manage-record-comments.md).
+Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Om berichten van de Planning van Workfront te ontvangen, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience voor Workfront</a>.</p></td>
+   <p>Om berichten van de Planning van Workfront te ontvangen, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Voor informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -69,14 +69,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen voor een werkruimte weergeven of vergroten</a> </p>  
+   <td> <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Meldingen in apps beheren
 
-1. (Voorwaardelijk) Nadat iemand u in een opmerking op een record heeft gelabeld, gaat u naar de app **Meldingen** pictogram ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Voorwaardelijk) nadat iemand u in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De pagina met recorddetails wordt geopend in Workfront Planning. U kunt de record bijwerken of op de opmerking reageren.
 
-1. (Optioneel) Klik op **Alles markeren als gelezen** om aan te geven dat u alle meldingen hebt gelezen.
-1. (Optioneel) Klik op **Alles weergeven** om naar de **Meldingen** pagina in Adobe Experience Cloud.
+1. (Facultatief) klik **Teken allen als gelezen** om erop te wijzen dat u alle berichten hebt gelezen.
+1. (Facultatief) klik **Mening allen** om naar de **pagina van Meldingen** in Adobe Experience Cloud te gaan.

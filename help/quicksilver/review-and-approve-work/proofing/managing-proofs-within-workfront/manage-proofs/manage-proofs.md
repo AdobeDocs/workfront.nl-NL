@@ -17,10 +17,10 @@ ht-degree: 0%
 
 # Proefdrukken beheren
 
-* [Proefdrukinstellingen bewerken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [Een proefdrukoverzicht afdrukken in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-* [Een proefdruk verwijderen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
-* [Een gearchiveerde proefdruk herstellen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-* [Activiteiten weergeven op een proefdruk in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-* [Het rapport voor proefdrukgoedkeuring gebruiken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+* [ geef proefdrukmontages ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uit
+* [ druk een proefdruksamenvatting binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [ Schrap een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+* [ herstel een gearchiveerd bewijs ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
+* [ activiteit van de Mening op een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+* [ gebruik het rapport van de proefdrukgoedkeuring ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
 * [Workfront Proof openen vanuit Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in het bronnenbeheer die zijn aangebracht met de release van het tweede kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Indicator voor handmatig aangepaste toewijzingen in de werklastbalans
 
@@ -26,4 +26,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 Voor meer duidelijkheid over handmatige aanpassingen of contouren in het werklastevenwicht wordt nu een potloodpictogram weergegeven met handmatig aangepaste toewijzingen per uur.
 
-Zie voor meer informatie [Toewijzingen van gebruikers beheren in Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor meer informatie, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

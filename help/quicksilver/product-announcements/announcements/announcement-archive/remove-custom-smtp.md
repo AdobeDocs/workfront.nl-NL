@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
 source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ Deze functie is toegankelijk door u aan te melden als systeembeheerder en te nav
 
 De instelling die in deze schermafbeelding wordt gemarkeerd, zal automatisch een overgang maken naar de optie Workfront Mail Server met de versie 20.3.
 
-Als u een aangepaste SMTP-mailserver hebt geconfigureerd, **Wij adviseren u zeer om uw team van IT te bereiken** om ervoor te zorgen dat e-mail van notifications@my.workfront.com niet wordt geblokkeerd voor inkomende e-mail naar uw systeem. U kunt het Vormen van uw firewall voor details ook van verwijzingen voorzien over welke IP adressen ons verkeer en e-mail uit komen.
+Als u een douaneSMTP postserver hebt gevormd, **adviseren wij hoogst dat u uit aan uw team van IT** rekt om ervoor te zorgen dat e-mail van notifications@my.workfront.com niet voor inkomende e-mail aan uw systeem zal worden geblokkeerd. U kunt het Vormen van uw firewall voor details ook van verwijzingen voorzien over welke IP adressen ons verkeer en e-mail uit komen.
 
-Neem contact op met de [Workfront-ondersteuningsteam](https://one.workfront.com/s/support?language=en_US).
+Als u andere vragen hebt of gelieve te contacteren het [ Team van de Steun van Workfront ](https://one.workfront.com/s/support?language=en_US).

@@ -12,7 +12,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Deze sectie bevat de volgende artikelen:
 
 * [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
 
-* [Een gebruiker toewijzen als groepsbeheerder](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
+* [ wijs een gebruiker als groepsbeheerder ](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md) toe
 * [Handelingen toegestaan voor verschillende typen beheerders](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
 
 * [Overzicht van Business Leader](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)

@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Overzicht van herhalingen
 
-De iteraties van het Gezicht bestaan uit drie gebieden: voltooiingsstatus, insluiting en het artikelbord.
+De iteraties van het iegel bestaan uit drie gebieden: voltooiingsstatus, begraving, en de verhaalraad.
 
 ![](assets/agile-iteration-with-callouts.png)
 
-Voor informatie over de burndown grafiek en voltooiingsstatus, zie [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) sectie.
+Zie de sectie [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) voor meer informatie over het uitvouwdiagram en de voltooiingsstatus.
 
-Raadpleeg voor meer informatie over de artikelpagina de [[!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) sectie.
+Zie de sectie [[!UICONTROL Scrum] board ](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) voor meer informatie over het artikelbord.

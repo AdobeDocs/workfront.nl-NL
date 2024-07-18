@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [De begindag van de werkweek voor Timesheets corrigeren](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [Voorkomen dat de actie Herberekening van de financiën gevolgen heeft voor de historische uren waarop de tarieven veranderen](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Hour-records bijhouden met de Adobe Workfront API](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [ verbeter de begindag van de het werkweek voor Tijdopnemers ](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
+* [ verhindert de Recalculate actie van Financiën historische uren te beïnvloeden wanneer de tarieven ](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md) veranderen
+* [ Verslagen van het Uur van het Spoor met Adobe Workfront API ](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [Unable to Log Time for Future Dates](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

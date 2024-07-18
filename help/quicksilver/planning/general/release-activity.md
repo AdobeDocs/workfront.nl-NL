@@ -27,13 +27,13 @@ ht-degree: 0%
 >
 >Uw accountvertegenwoordiger zal u laten weten of u deel uitmaakt van dit stadium.
 >
->Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 >
 >In sommige gevallen is de documentatie waarnaar in de onderstaande secties wordt verwezen, mogelijk beschikbaar nadat de gedocumenteerde functies zijn vrijgegeven voor Production.
 
 In dit artikel worden de functies weergegeven die in 2024 zijn vrijgegeven voor Workfront Planing.
 
-Het planningsprogramma van Workfront is sinds 22 mei 2023 van start gegaan. Voor een lijst met alle functies die in 2023 zijn uitgebracht, raadpleegt u [Archieven van Adobe Workfront Planning Release-activiteiten voor 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Het planningsprogramma van Workfront is sinds 22 mei 2023 van start gegaan. Voor een lijst van alle eigenschappen die tijdens 2023 worden vrijgegeven, zie [ de agentenarchieven van de de versieactiviteit van de Planning van Adobe Workfront voor 2023 ](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
 
@@ -51,7 +51,7 @@ We hebben één stap verwijderd bij het openen van Workfront-objecten die zijn v
 
 Wanneer u nu op de naam van een Workfront-object klikt in de planningsrecord die eraan is gekoppeld, opent u de Workfront-objectpagina. Vóór deze verbetering, zou een read-only pagina van de Planning van Workfront voor het verbonden voorwerp van Workfront openen van waar u verder naar de de objecten van Workfront pagina kon navigeren.
 
-Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 ### Alleen gebruikers met de licentie Standard of Plan kunnen weergaven maken
 
@@ -61,7 +61,7 @@ Voorbeeld: te bepalen
 
 We hebben gewijzigd welke typen gebruikers weergaven kunnen maken. Alleen gebruikers met een Standard- of Plan-licentie kunnen nu weergaven maken. Alle andere gebruikers hebben alleen-weergeven toegang tot weergaven die met hen worden gedeeld. Gebruikers met een licentie voor Light en Worker kunnen vóór deze update weergaven maken.
 
-Zie voor meer informatie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Voor meer informatie, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 ### Records sorteren en groeperen op opzoekvelden met meerdere waarden
 
@@ -82,7 +82,7 @@ Als het opzoekveld meerdere waarden bevat, kunt u het volgende overwegen:
 Raadpleeg de volgende artikelen voor meer informatie:
 
 * [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+* [ beheer de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
 ## Week van 24 juni 2024
@@ -95,7 +95,7 @@ De AI-assistent werkt in de context van de geselecteerde pagina en met uw toegan
 
 De AI-assistent bevindt zich momenteel in een bètafase en kan klanten selecteren. Neem contact op met uw accountvertegenwoordiger voor meer informatie over deelname aan deze fase.
 
-Zie voor meer informatie [Adobe Workfront Planning AI Assistant - overzicht](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Voor informatie, zie [ de Planning AI van Adobe Workfront Hulp overzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Nieuw zoekvak bij het selecteren van een werkruimte of een recordtype
 
@@ -105,7 +105,7 @@ Voorbeeld: te bepalen
 
 Om het gemakkelijker te maken om tussen werkruimten of tussen verslagtypes te navigeren, kunt u naar een werkruimte of een verslagtype in het drop-down menu rechts van hun naam in de paginakop nu zoeken.
 
-Zie voor meer informatie [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md).
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
 ### Een nieuw veld rechts of links van een bestaand veld in de tabelweergave invoegen
 
@@ -115,7 +115,7 @@ Voorbeeld: te bepalen
 
 Om uw ervaring in de mening van de verslaglijst te verbeteren en te versnellen, hebben wij de capaciteit toegevoegd om een nieuw gebied tussen twee kolommen toe te voegen, door het rechts of links van bestaande op te nemen.
 
-Zie voor meer informatie [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Week van 17 juni 2024
 
@@ -127,7 +127,7 @@ Voorbeeld: te bepalen
 
 We hebben het uiterlijk van de pagina Details van records bijgewerkt. Als onderdeel van deze update zijn de veldpictogrammen verwijderd.
 
-Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ### Bijgewerkte werkruimtemalplaatjes
 
@@ -149,9 +149,9 @@ Deze update bevat de volgende verbeteringen:
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Lijst met werkruimtemalplaatjes](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [ Lijst van werkruimtemalplaatjes ](/help/quicksilver/planning/architecture/workspace-templates.md)
 
-* [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md)
+* [ creeer werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md)
 
 ### Nieuwe ervaring bij het toevoegen van een miniatuur of een omslagafbeelding aan een record
 
@@ -169,9 +169,9 @@ We hebben de ervaring bijgewerkt met het toevoegen van een miniatuur of een omsl
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [ voeg een omslagbeeld aan een verslag toe ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
-* [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [ voeg een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toe
 
 ### De recordtitel bijwerken op de pagina Details
 
@@ -183,9 +183,9 @@ De titel van de pagina Details van een record geeft het primaire veld van een re
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [ beheer de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md)
 
-* [Records bewerken](/help/quicksilver/planning/records/edit-records.md)
+* [ geeft verslagen ](/help/quicksilver/planning/records/edit-records.md) uit
 
 ### Een koppeling &#39;Meer tonen/Minder tonen&#39; toevoegen in de verbonden recordvelden
 
@@ -195,7 +195,7 @@ Voorbeeld: te bepalen
 
 Er is een koppeling &#39;Meer tonen/Minder tonen&#39; toegevoegd aan een verbonden recordveld, wanneer er records zijn die anders op meer dan twee rijen op de pagina Details van een record zouden worden weergegeven.
 
-Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 ### Het veld Naam automatisch vullen met de naam van de record bij het verbinden van recordtypen
 
@@ -205,7 +205,7 @@ Voorbeeld: te bepalen
 
 Wanneer u een verbinding tussen twee verslagen of tussen een verslag en een voorwerp van een andere toepassing creeert, vult de Naam van het verbindingsgebied automatisch met de naam van het verbonden verslag. Voorafgaand aan deze verbetering, moest u manueel een Naam voor het verbindingsgebied toevoegen.
 
-Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Definiëren hoe verbonden verslagen in verbonden gebieden tonen
 
@@ -219,7 +219,7 @@ De titel van een record is de naam van de record of een veld dat is ingesteld al
 
 Deze verbetering is beschikbaar voor verslagen die van de Planning van Workfront en voor activa verbonden van Adobe Experience Manager worden verbonden.
 
-Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Alleen gebruikers met een licentie voor Standaard of Plan kunnen beheermachtigingen voor werkruimten hebben (titel)
 
@@ -229,7 +229,7 @@ Voorbeeld: te bepalen
 
 We hebben gewijzigd welke typen gebruikers volledige toegang tot werkruimten kunnen hebben. Nu kunnen alleen gebruikers met een licentie voor Standaard of Plan beschikken over beheermachtigingen voor werkruimten. De toegang tot recordtypen, records en velden wordt overgenomen van een werkruimte. Alle andere gebruikers hebben alleen-weergeven toegang tot werkruimten en hun objecttypen. Gebruikers met een licentie voor Light en Worker kunnen vóór deze update Contribute-machtigingen ontvangen voor werkruimten.
 
-Zie voor meer informatie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Voor meer informatie, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Week van 10 juni 2024
 
@@ -251,9 +251,9 @@ U kunt nu verwijzen naar velden die maximaal 4 niveaus verwijderd zijn van de re
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Velden maken](/help/quicksilver/planning/fields/create-fields.md)
+* [ creeer gebieden ](/help/quicksilver/planning/fields/create-fields.md)
 
-* [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [ beheer de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md)
 
 ## Week van 3 juni 2024
 
@@ -279,7 +279,7 @@ Enkele informatie op de landingspagina omvat het volgende:
 
 * Aan de slag - zelfstudie voor Workfront Planning
 
-Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Voor meer informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nieuwe instapervaring voor Workfront Planning
 
@@ -309,7 +309,7 @@ De UNIQUE-operator is beschikbaar voor alle veldtypen, behalve de volgende:
 * Mensen
 * Veld Selectievakje
 
-Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Weergaven standaard delen met alle leden van een werkruimte
 
@@ -319,7 +319,7 @@ Voorbeeld: te bepalen
 
 We hebben nu een optie geïntroduceerd waarmee u snel weergavemachtigingen kunt geven aan alle leden van een werkruimte. Vóór deze verbetering hadden alleen gebruikers met wie u een weergave specifiek hebt gedeeld toegang tot de weergave. Deze optie is niet standaard ingeschakeld.
 
-Zie voor meer informatie [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 ### Bijgewerkte blik van het pictogram van de Planning in het Belangrijkste Menu
 
@@ -327,7 +327,7 @@ Productie: 30 mei 2024
 
 Voorbeeld: te bepalen
 
-We hebben de weergave van het pictogram voor het planningsgebied in het hoofdmenu bijgewerkt. Zie voor meer informatie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+We hebben de weergave van het pictogram voor het planningsgebied in het hoofdmenu bijgewerkt. Voor informatie, zie [ overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 ### De naam van het Workfront-planningsprogramma wijzigen
 
@@ -347,7 +347,7 @@ Omdat het effect voor het schrappen van een werkruimte significant kan zijn, voe
 
 Verwijderde werkruimten en de bijbehorende gegevens kunnen niet worden hersteld.
 
-Zie voor meer informatie [Werkruimten verwijderen](/help/quicksilver/planning/architecture/delete-workspaces.md).
+Voor meer informatie, zie [ werkruimten van de Schrapping ](/help/quicksilver/planning/architecture/delete-workspaces.md).
 
 ### De velden voor de opzoekdatum zijn nu beschikbaar in de tijdlijnweergave
 
@@ -357,7 +357,7 @@ Voorbeeld: te bepalen
 
 U kunt nu de begin- en einddatum van de tijdlijnweergave instellen op een opzoekveld van een verbonden record of objecttype.
 
-Voor meer informatie over het maken van weergaven raadpleegt u [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+Voor meer informatie over het creëren van meningen, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ## Week van 20 mei 2024
 
@@ -379,7 +379,7 @@ De volgende acties zijn beschikbaar in het gedeelte Planning in Workfront:
 
 * Open het detailvoorvertoningsvak of de pagina voor meer informatie over de verbonden records
 
-Zie voor meer informatie [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Voor informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) leiden.
 
 ## Week van 13 mei 2024
 
@@ -399,7 +399,7 @@ Voorbeeld: te bepalen
 
 Er is een knop Nieuwe record toegevoegd aan de koptekst van een pagina met recordtypen. U kunt nu records maken vanuit elke weergave. Voorafgaand aan deze verbetering, kon u verslagen slechts van de lijstmening tot stand brengen.
 
-Zie voor meer informatie [Records maken](/help/quicksilver/planning/records/create-records.md).
+Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 
 ### Nieuwe waarschuwing over objectzichtbaarheid bij het verbinden van records
@@ -412,7 +412,7 @@ Wanneer u verbindingen met objecttypes buiten de Planning van Workfront creeert,
 
 Bijvoorbeeld, als u projecten van de Campagne van de Planning van Workfront verbindt, zal iedereen met toegang tot Mening de campagne ook toegang hebben om de verbonden projecten en de informatie van hun raadplegingsgebieden te bekijken, zelfs wanneer zij geen toestemmingen aan de verbonden projecten, of toegang tot projecten, in het algemeen hebben. U krijgt toegang tot de verslagen van de Planning wanneer u toestemmingen aan werkruimten ontvangt.
 
-Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Secties toevoegen aan de voorvertoning van de record en detailpagina&#39;s
 
@@ -422,7 +422,7 @@ Voorbeeld: te bepalen
 
 Om de informatie op de pagina van het verslag voor efficiëntere leesbaarheid en navigatie beter te organiseren, hebben wij secties aan de pagina van het verslag geïntroduceerd. De sectitels fungeren als kopteksten waarmee de velden in verschillende categorieën worden ingedeeld. De secties zijn volledig aanpasbaar en kunnen indien nodig worden uitgevouwen of samengevouwen.
 
-Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Updates in realtime voor wijzigingen in de veldconfiguratie
 
@@ -440,7 +440,7 @@ Wanneer een gebruiker een veldconfiguratie (naam, beschrijving, lijst met opties
 >
 >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
-Zie voor meer informatie [Veldinstellingen bewerken](/help/quicksilver/planning/fields/edit-fields.md).
+Voor meer informatie, zie [ gebiedsmontages ](/help/quicksilver/planning/fields/edit-fields.md) uitgeven.
 
 ## Week van 6 mei 2024
 
@@ -456,7 +456,7 @@ We hebben het uiterlijk van opnametypekaarten bijgewerkt wanneer we deze in een 
 
 * Toevoeging van de beschrijving van het recordtype
 
-Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ### Laat de berichten van de Planning van Workfront voor Adobe Verenigde klanten van de Ervaring toe
 
@@ -464,9 +464,9 @@ Productie: 8 mei 2024
 
 Voorbeeld: vast te stellen
 
-Als u een Adobe Verenigde klant van de Ervaring bent en iemand u aan een commentaar op de verslagpagina toevoegt, ontvangt u een in-app en een e-mailbericht over de commentaar. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Zie voor meer informatie [Accountvoorkeuren en -meldingen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Als u een Adobe Verenigde klant van de Ervaring bent en iemand u aan een commentaar op de verslagpagina toevoegt, ontvangt u een in-app en een e-mailbericht over de commentaar. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
-Ga voor meer informatie over planningsmeldingen voor Workfront naar [Adobe Workfront-planningsmeldingen: artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
+Voor meer informatie over Workfront planningsberichten, zie [ de berichten van de Planning van Adobe Workfront: De index van het Artikel ](/help/quicksilver/planning/notifications/notifications-information.md).
 
 
 ## Week van 29 april 2029
@@ -479,7 +479,7 @@ Voorbeeld: te bepalen
 
 Wanneer een gebruiker de informatie over een record in de tabelweergave bijwerkt, kunnen andere gebruikers de bijgewerkte informatie in het detailvak van de record (in een weergave) of op de pagina in real-time bekijken. Zo zorgt u ervoor dat alle gebruikers de bijgewerkte informatie tegelijkertijd bekijken, in overeenstemming met wanneer de wijzigingen zich voordoen.
 
-Voor informatie over het bewerken van records raadpleegt u [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor informatie over het uitgeven van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ### Real-time updates in de kalenderweergave na het bewerken van records
 
@@ -503,9 +503,9 @@ Wanneer u een werkruimte of een recordtype bewerkt, kunt u nu een naam, beschrij
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Werkruimten bewerken](/help/quicksilver/planning/architecture/edit-workspaces.md)
+* [ geeft werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uit
 
-* [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md).
+* [ geef verslagtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uit.
 
 ## Week van 8 april 2024
 
@@ -519,7 +519,7 @@ U kunt nu de inhoud van één cel in de tabelweergave kopiëren en deze in meerd
 
 Deze functionaliteit wordt ondersteund voor alle veldtypen, behalve voor berekende velden.
 
-Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Week van 1 april 2024
 
@@ -531,7 +531,7 @@ Voorbeeld: te bepalen
 
 Als Workspace Manager kunt u nu de volgorde wijzigen van de velden op de recordpagina of voorvertoning. Als u de volgorde van de velden bijwerkt, verandert de volgorde van velden in alle records van hetzelfde type, voor iedereen die de recordpagina of de voorvertoning van de record weergeeft.
 
-Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Omslagafbeelding toevoegen om pagina&#39;s op te nemen
@@ -542,7 +542,7 @@ Voorbeeld: te bepalen
 
 Terwijl u recordpagina&#39;s beheert, kunt u nu een omslagafbeelding op een recordpagina of voorvertoning toevoegen, verplaatsen en vervangen om de presentatie en betrokkenheid van belanghebbenden van de record te verrijken. Omslagafbeeldingen zijn zichtbaar voor alle gebruikers die de records weergeven.
 
-Zie voor meer informatie [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md).
+Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Week van 25 maart 2024
 
@@ -560,7 +560,7 @@ Om efficiëntie voor u te creëren bij het instellen van werkruimten, hebben we 
 
 * Verplaats recordtypen dynamisch binnen een werkruimte door ze naar de gewenste positie te slepen, ook in verschillende secties.
 
-Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ### Weergaven dupliceren
 
@@ -572,7 +572,7 @@ Als u tijd wilt besparen en consistentie wilt behouden, kunt u nu een bestaande 
 
 Als u een weergave dupliceert, wordt dezelfde weergave gemaakt en worden dezelfde filters, sorteercriteria en groepen gebruikt. Als u een weergave dupliceert, blijven de machtigingen van de oorspronkelijke weergave niet behouden.
 
-Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ### De naam van het Maestro-gebied in het hoofdmenu is gewijzigd in Planning
 
@@ -582,7 +582,7 @@ Voorbeeld: te bepalen
 
 We hebben de naam van het Maestro-gebied in het hoofdmenu gewijzigd in Planning.
 
-Voor een overzicht van de Planning van Adobe Workfront, zie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Voor een overzicht van de Planning van Adobe Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nieuwe ervaring bij het verwijderen van een recordtype
 
@@ -592,7 +592,7 @@ Voorbeeld: te bepalen
 
 Het bevestigingsvak is opnieuw ontworpen wanneer een recordtype wordt verwijderd. Het verwijderen van een recordtype is niet van invloed, omdat hiermee ook alle records, de velden, de gegevens in de velden en de weergaven van het recordtype worden verwijderd. Verwijderde recordtypen en de verwijderde gegevens ervan kunnen niet worden hersteld.
 
-Daarom wilden wij ervoor zorgen dat de intent van de gebruiker correct is wanneer het schrappen van een verslagtype, zodat hebben wij een extra stap toegevoegd bij het bevestigen van de schrapping. Zie voor meer informatie [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md).
+Daarom wilden wij ervoor zorgen dat de intent van de gebruiker correct is wanneer het schrappen van een verslagtype, zodat hebben wij een extra stap toegevoegd bij het bevestigen van de schrapping. Voor meer informatie, zie [ verslagtypes van de Schrapping ](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 ## Week van 18 maart 2024
 
@@ -602,7 +602,7 @@ Productie: 19 maart 2024
 
 Voorbeeld: te bepalen
 
-U kunt nu informatie filteren in de kalenderweergave. Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+U kunt nu informatie filteren in de kalenderweergave. Voor meer informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 ### Voorvertonen met recorddetails die zijn toegevoegd aan de tijdlijn- en kalenderweergave
 
@@ -614,7 +614,7 @@ U kunt de voorvertoning nu openen met recorddetails uit de tijdlijn- en de kalen
 
 Vanuit de voorvertoning van de record kunt u de recordpagina openen in een nieuw browsertabblad.
 
-Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ### Het recordtype Excel-importeren wordt tijdelijk uitgeschakeld
 
@@ -640,7 +640,7 @@ Om het gemakkelijker te maken om extra informatie over verslagen te bekijken wan
 
 * Een koppeling om de recordpagina te openen
 
-Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ### Nieuw ontwerp met tabs voor recordweergaven
 
@@ -652,18 +652,19 @@ Voor een betere navigatie en gebruiksvriendelijkheid hebben we de weergave van r
 
 Weergaven worden chronologisch weergegeven op de toegevoegde datum van links naar rechts. De gedeelde meningen tonen ook in chronologische orde van wanneer zij werden gedeeld.
 
-Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ### Dynamisch ontwerp van een recordweergave
 
-Productie: 14 maart 2024 Voorbeeld: nog te bepalen
+Productie: 14 maart 2024
+Voorbeeld: te bepalen
 
 We hebben de weergave van de weergaven op de pagina met recordtypen bijgewerkt. De nieuwe weergaven reageren dynamisch en passen zich snel aan de grootte van het scherm aan. De labels van de werkbalkopties zijn verborgen op kleinere schermen, zodat de werkbalk gebruiksvriendelijker wordt.
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
 * [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+* [ beheer de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Systeembeheerders toestaan alle gedeelde weergaven te beheren
 
@@ -673,7 +674,7 @@ Voorbeeld: te bepalen
 
 Om met alle andere gebieden van het systeem verenigbaar te zijn en om het even welke mening te kunnen handhaven en controleren beschikbaar aan u als Beheerder van het Systeem, hebt u nu beheertoestemmingen aan om het even welke mening die met u op de verslagtype pagina wordt gedeeld. Vóór deze verbetering, konden de meningsscheppers u toestemmingen hebben gegeven om de mening te bekijken of te beheren. Nu, als de mening met u wordt gedeeld en u een Beheerder van het Systeem bent, zult u beheertoestemmingen aan de mening, door gebrek hebben.
 
-Zie voor meer informatie [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 ### Onbevoegde pagina wanneer het delen van een mening zonder toestemmingen
 
@@ -683,7 +684,7 @@ Voorbeeld: te bepalen
 
 Wanneer een gebruiker een koppeling naar een recordtype ontvangt en hij of zij toegang heeft tot de werkruimte maar niet tot de gedeelde weergave in de koppeling, wordt een pagina weergegeven met de kennisgeving dat hij of zij niet gemachtigd is om het recordtype te zien.
 
-Zie voor meer informatie [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 
 ### Nieuw label voor Systeembeheerders bij het delen van dialoogvensters
@@ -694,7 +695,7 @@ Voorbeeld: te bepalen
 
 Er wordt nu een label &quot;Admin&quot; weergegeven naast de naam van de systeembeheerder in het dialoogvenster voor delen wanneer u een weergave of werkruimte deelt.
 
-Zie voor meer informatie [Overzicht van machtigingen voor delen](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor informatie, zie [ overzicht van de toestemmingen van het Aandeel ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Onbevoegde pagina wanneer het delen van een mening zonder toestemmingen
 
@@ -706,7 +707,7 @@ Wanneer een gebruiker een koppeling naar een recordtype ontvangt en hij of zij t
 
 U moet weergaven delen, maar ook werkruimten delen, zodat anderen toegang krijgen tot dezelfde recordtypepagina die u met een koppeling deelt.
 
-Zie voor meer informatie [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 ## 4 maart 2024
 
@@ -724,7 +725,7 @@ U kunt de rijhoogte bijwerken naar een van de volgende formaten:
 * Medium
 * Lang.
 
-Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md).
+Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ### Nieuwe kalenderweergave voor records
 
@@ -734,7 +735,7 @@ Voorbeeld: te bepalen
 
 U kunt nu records weergeven in een kalenderweergave. U moet ten minste twee datumvelden op een recordtype hebben om de kalenderweergave te kunnen maken.
 
-Zie voor meer informatie [De kalenderweergave beheren](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Voor meer informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 ## Week van 26 februari 2024
 
@@ -748,7 +749,7 @@ U kunt nu filteren, sorteren, en groeperen door verbonden verslagen of hun raadp
 
 U kunt niet filteren, sorteren, of groeperen door raadplegingsgebieden die verbindingen met veelvoudige verslagen toestaan.
 
-Zie voor meer informatie [De tabelweergave beheren](/help/quicksilver/planning/views/manage-the-table-view.md) en [De tijdlijnweergave beheren](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Voor informatie, zie [ leiden de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) en [ leiden de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Week van 5 februari 2024
 
@@ -768,9 +769,9 @@ Hieronder ziet u de hoogste niveaus van machtigingen die gebruikers kunnen ontva
 
 * Gebruikers met een licentie voor revisie of aanvrager (of Medewerker in het nieuwe licentiemodel) kunnen alleen de werkruimten weergeven die met hen worden gedeeld, alsmede de recordtypen en records van die werkruimten. Ze kunnen geen recordtypen of records maken, bewerken of verwijderen.
 
-Voor informatie over het nieuwe licentiemodel raadpleegt u [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over het nieuwe vergunningsmodel, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Voor informatie over de verbinding tussen vergunningstype en toestemmingen in de planningsmogelijkheden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Nieuwe weergave van de Rich Text-werkbalk voor recordvelden
@@ -781,7 +782,7 @@ Voorbeeld: te bepalen
 
 We hebben de vormgeving van de werkbalk RTF bijgewerkt wanneer u een veld van het type Alinea bewerkt.
 
-Zie voor meer informatie [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ### Verbeterde ervaring bij het bewerken van de velden Enkel selecteren, Meerdere personen en bij het toevoegen van verbonden objecten
 
@@ -805,7 +806,7 @@ Voor verbonden velden kunt u ze op een van de volgende manieren toevoegen:
 
 De verbeteringen zijn nu beschikbaar wanneer u velden in de tabelweergave van een recordtype bijwerkt.
 
-Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 ## Week van 29 januari 2024
 
@@ -823,7 +824,7 @@ De ervaring voor delen voor werkruimten en weergaven is verbeterd dankzij de vol
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md)
+* [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md)
 * [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
 
 ### Miniaturen toevoegen aan records
@@ -834,7 +835,7 @@ Voorbeeld: te bepalen
 
 U kunt nu afzonderlijke miniaturen aan elke record toevoegen om ze in een weergave te onderscheiden. In de tabelweergave kunt u afbeeldingsbestanden toevoegen die u eerder als miniaturen op uw computer hebt opgeslagen. De miniaturen kunnen uniek zijn voor elke record en worden weergegeven in de tabel- en tijdlijnweergaven van de recordtypepagina.
 
-Zie voor meer informatie [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
 ### Gekoppelde recordtypekaarten verwijderen
 
@@ -844,7 +845,7 @@ Voorbeeld: te bepalen
 
 Om verwarring te voorkomen en het beheer van werkruimten te vereenvoudigen, hebben wij auto-geproduceerde, read-only verslagtypekaarten voor verbonden externe voorwerpen uit een werkruimte verwijderd.
 
-Zie voor meer informatie [Connect-records](/help/quicksilver/planning/records/connect-records.md).
+Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 ## Week van 22 januari 2024
 
@@ -866,7 +867,7 @@ De volgende informatie wordt opgenomen in de nieuwe sectie Historie:
 
 * Een datum- en tijdstempel van wanneer de wijziging heeft plaatsgevonden.
 
-Zie voor meer informatie [Overzicht van de sectie Historie](/help/quicksilver/planning/records/history-section-overview.md).
+Voor meer informatie, zie [ het sectieoverzicht van de Geschiedenis ](/help/quicksilver/planning/records/history-section-overview.md).
 
 ### Nieuw label voor nieuwe recordkoppeling
 
@@ -874,7 +875,7 @@ Productie: 25 januari 2024
 
 Voorbeeld: te bepalen
 
-Om consistentie te creëren wanneer het creëren van verslagen, hebben wij opnieuw geëtiketteerd + Nieuwe verbinding voor het creëren van verslagen aan &quot;+ Nieuwe verslag&quot;.  Vóór deze update bevatte de koppeling de naam van het recordtype. De nieuwe koppeling is nu beschikbaar wanneer u operationele en taxonomiebestanden maakt. Zie voor meer informatie [Records maken](/help/quicksilver/planning/records/create-records.md).
+Om consistentie te creëren wanneer het creëren van verslagen, hebben wij opnieuw geëtiketteerd + Nieuwe verbinding voor het creëren van verslagen aan &quot;+ Nieuwe verslag&quot;.  Vóór deze update bevatte de koppeling de naam van het recordtype. De nieuwe koppeling is nu beschikbaar wanneer u operationele en taxonomiebestanden maakt. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 ## Week van 8 januari 2024
 
@@ -909,7 +910,7 @@ Hier volgen de machtigingsniveaus voor recordweergaven:
 * Weergave: gebruikers kunnen de weergave selecteren in het vervolgkeuzemenu Weergave van een pagina met recordtypen.
 * Beheren: gebruikers kunnen de weergave bewerken, delen en verwijderen.
 
-Zie voor meer informatie [Overzicht van toegang](/help/quicksilver/planning/access/access-overview.md) en [Overzicht van het delen van machtigingen in de planningsmogelijkheden van Adobe Workfront](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor meer informatie, zie [ Overzicht van de Toegang ](/help/quicksilver/planning/access/access-overview.md) en [ Overzicht van het delen van toestemmingen in de planningsmogelijkheden van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Nieuw type formulierveld
 
@@ -923,7 +924,7 @@ Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit 
 
 U kunt opzoekvelden van gekoppelde recordtypen niet gebruiken in een berekening van een formule. Deze functionaliteit is later beschikbaar.
 
-Zie voor meer informatie [Overzicht van formuliervelden](/help/quicksilver/planning/fields/formula-fields.md).
+Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
 
 ### Handelingen ongedaan maken/opnieuw uitvoeren bij het beheren van records in de tabelweergave
 
@@ -945,10 +946,10 @@ U kunt de volgende toetsaanslagen gebruiken om handelingen ongedaan te maken of 
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [Records bewerken](/help/quicksilver/planning/records/edit-records.md)
+* [ geeft verslagen ](/help/quicksilver/planning/records/edit-records.md) uit
 
-* [Records verwijderen](/help/quicksilver/planning/records/delete-records.md)
+* [ Schrap verslagen ](/help/quicksilver/planning/records/delete-records.md)
 
-* [Records maken](/help/quicksilver/planning/records/create-records.md)
+* [ creeer verslagen ](/help/quicksilver/planning/records/create-records.md)
 
 

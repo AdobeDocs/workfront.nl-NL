@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Instellen [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-* [Machtigingsniveaus voor [!DNL Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
-* [Reageren op een opmerking van [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-* [Een bestaand object bijwerken vanuit een [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-* [Een [!DNL Outlook] e-mailen naar een project als taak of probleem](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-* [Een [!DNL Adobe Workfront] verzoek van een [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-* [Een [!DNL Outlook] e-mailen als een taak naar uw werklijst](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-* [Aanvullende informatie weergeven over [!DNL Adobe Workfront for Outlook] en logout](../../workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-* [Inschakelen [!DNL Outlook for Office] voor gebruik met [!DNL Adobe Workfront] en SAML 2.0](../../workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+* [Instellen  [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
+* [Machtigingsniveaus voor  [!DNL Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
+* [Reageren op een opmerking van  [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
+* [Werk een bestaand voorwerp van a  [!DNL Outlook]  e-mail bij](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
+* [Voeg een  [!DNL Outlook]  e-mail aan een project als taak of een kwestie toe](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
+* [Creeer een  [!DNL Adobe Workfront]  verzoek van a [!DNL Outlook]  e-mail](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
+* [Voeg een  [!DNL Outlook]  e-mail als taak aan uw het werklijst toe](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
+* [De extra informatie van de mening over  [!DNL Adobe Workfront for Outlook]  en logout](../../workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
+* [Laat  [!DNL Outlook for Office]  voor gebruik met  [!DNL Adobe Workfront]  en SAML 2.0 toe](../../workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt een project uit een portfolio verwijderen en dit koppelen aan een ander portfolio of u kunt de koppeling tussen een project en een portfolio volledig verwijderen.
 
-U kunt ook projecten uit een portfolio verwijderen, zodat deze ook worden verwijderd [!DNL Adobe Workfront].
+U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Adobe Workfront] worden verwijderd.
 
 ## Toegangsvereisten
 
@@ -37,16 +37,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL View] toegang tot Portfolio of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL View] toegang tot Portfolio's of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor de Portfolio om projecten te verwijderen <br>[!UICONTROL Manage] machtigingen met [!UICONTROL Delete] toegang tot de projecten om deze uit de portefeuille te schrappen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het Portfolio voor het verwijderen van <br>[!UICONTROL Manage] -machtigingen voor projecten met [!UICONTROL Delete] toegang tot de projecten om deze uit het portfolio te verwijderen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een project uit een portfolio verwijderen
 
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
-1. Klik op **[!UICONTROL Remove Projects]**.
-1. Klik op een van de **[!UICONTROL Delete]** om het project van te schrappen [!DNL Workfront], of **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om het uit de geselecteerde Portfolio te verwijderen.
+1. Klik op **[!UICONTROL Remove Projects]** .
+1. Klik op **[!UICONTROL Delete]** om het project uit [!DNL Workfront] te verwijderen of op **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om het uit het geselecteerde Portfolio te verwijderen.
 
-1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [Projecten toevoegen aan een portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.

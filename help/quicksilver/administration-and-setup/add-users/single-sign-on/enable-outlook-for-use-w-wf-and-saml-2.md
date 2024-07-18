@@ -10,7 +10,7 @@ role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -45,17 +45,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Outlook inschakelen voor gebruik met Workfront en SAML 2.0
 
-1. Klikken **Instellen** in de rechterbovenhoek van Adobe Workfront op de algemene navigatiebalk.
-1. Klikken **Systeem** > **Voorkeuren**.
+1. Klik **Opstelling** dichtbij de hoger-juiste hoek van Adobe Workfront op de Globale Bar van de Navigatie.
+1. Klik **Systeem** > **Voorkeur**.
 
-1. In de **Beveiliging** in, zorg ervoor dat **SAML 2.0-verificatie toestaan in Office 365 add-ins** is ingeschakeld.
+1. In de **sectie van de Veiligheid**, zorg ervoor dat **SAML 2.0 authentificatie in Bureau 365 toe:voegen-ins** wordt toegelaten.
 
    Met deze optie wordt het insluiten van Workfront alleen voor Office 365-invoegtoepassingen in een iFrame ingeschakeld. Dit opent geen klik-jacking breuk aangezien er geen klikbare inhoud in kwestie is.
 
@@ -63,10 +63,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Als u de optie inschakelt **Insluiten van Workfront in een iframe toestaan**, de optie **SAML 2.0-verificatie toestaan in Office 365 add-ins** is grijs en ingeschakeld.
+   >Als u de optie **toelaat het inbedden van Workfront in een iframe**, staat de optie **SAML 2.0 authentificatie in Bureau 365 toe:voegen-ins** toe en wordt toegelaten.
    >
    >![](assets/if-you-enable.png)
+   >
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    De wijzigingen die u hier hebt opgeslagen, zijn van invloed op de ervaring van alle gebruikers in Workfront.

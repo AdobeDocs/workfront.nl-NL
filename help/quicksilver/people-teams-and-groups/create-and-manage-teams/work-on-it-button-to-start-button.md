@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Vervang de [!UICONTROL Work On It] met een [!UICONTROL Start] knop
+# De knop [!UICONTROL Work On It] vervangen door een knop [!UICONTROL Start]
 
-[!DNL Adobe Workfront]De standaardconfiguratie van [!UICONTROL Work On It] knop voor taken en problemen die worden weergegeven voor items waaraan u bent toegewezen. Wanneer u op [!UICONTROL Work On It] op punten die aan u worden toegewezen, geeft u aan andere gebruikers aan dat u het werk hebt ontvangen en bevestigt dat u aan het zult werken. De [!DNL Work On It] de knoop werkt niet de taak of uitgeverstatus bij om te signaleren dat het werk eigenlijk is begonnen.
+De standaardconfiguratie van [!DNL Adobe Workfront] bevat een [!UICONTROL Work On It] -knop voor taken en problemen die worden weergegeven voor items waaraan u bent toegewezen. Wanneer u op [!UICONTROL Work On It] klikt voor items die aan u zijn toegewezen, geeft u aan andere gebruikers door dat u het werk hebt ontvangen en bevestigt u dat u eraan zult werken. De knop [!DNL Work On It] werkt de taak of de uitgiftestatus echter niet bij om aan te geven dat het werk daadwerkelijk is gestart.
 
-U kunt de [!DNL Work On It] met een [!UICONTROL Start] voor een team u tot behoort. In dit geval klikt u op de knop [!UICONTROL Start] in plaats van [!UICONTROL Work On It], die automatisch de status en de [!UICONTROL Actual Start Date] van het het werkpunt, signalerend dat u begon te werken. Voor informatie over het plaatsen van welk team uw veranderingen in zou kunnen beïnvloeden [!UICONTROL Work On It] knop, zie de sectie [Configureer de [!UICONTROL Start] knop](#configure-the-uicontrol-start-button) in dit artikel.
+U kunt de knop [!DNL Work On It] vervangen door een [!UICONTROL Start] -knop voor een team waartoe u behoort. In dit geval klikt u op de knop [!UICONTROL Start] in plaats van op [!UICONTROL Work On It] , die automatisch de status en de [!UICONTROL Actual Start Date] van het werkitem bijwerkt en aangeeft dat u met werken bent begonnen. Voor informatie over het plaatsen waarvan team uw veranderingen in de [!UICONTROL Work On It] knoop zou kunnen beïnvloeden, zie de sectie [ de [!UICONTROL Start] knoop ](#configure-the-uicontrol-start-button) in dit artikel vormen.
 
 >[!IMPORTANT]
 >
->Klik op de knop [!UICONTROL Start] wijzigt de status van het item en [!UICONTROL Actual Start Date]. Als iemand anders aan een taak of kwestie (die de status in [!UICONTROL In Progress] en de [!UICONTROL Actual Start Date]), wordt de knop voor het item weergegeven als [!UICONTROL Work On It] zelfs wanneer een team u tot behoort heeft de knoop vervangen met een [!UICONTROL Start] knop.
+>Wanneer u op de knop [!UICONTROL Start] klikt, veranderen de status van het item en [!UICONTROL Actual Start Date] . Als iemand anders aan een taak of kwestie (die de status in [!UICONTROL In Progress] en bevolkt [!UICONTROL Actual Start Date]) is begonnen te werken, de knoop voor het punt toont als [!UICONTROL Work On It] zelfs wanneer een team u tot hebt behoort de knoop vervangen met een [!UICONTROL Start] knoop heeft.
 
 ## Toegangsvereisten
 
@@ -44,60 +44,59 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-## Configureer de [!UICONTROL Start] knop
+## De knop [!UICONTROL Start] configureren
 
-Als u een [!UICONTROL Plan] licentie, kunt u de [!UICONTROL Start] voor een team in het [!UICONTROL Edit] teamvenster. Hieronder wordt beschreven hoe de knop werkt nadat deze is ingeschakeld voor een team:
+Als u een [!UICONTROL Plan] -licentie hebt, kunt u de [!UICONTROL Start] -knop voor een team configureren in het [!UICONTROL Edit] -teamvenster. Hieronder wordt beschreven hoe de knop werkt nadat deze is ingeschakeld voor een team:
 
-* **Het team wordt toegewezen aan een werkitem**: Als een team aan het het werkpunt wordt toegewezen, zien de leden op dat team het [!UICONTROL Start] en de statussen die voor dat team worden geconfigureerd.
-* **De gebruiker behoort tot een Home Team**: Als geen team aan het het werkpunt maar de gebruiker wordt toegewezen aan een Team van het Huis in hun profiel wordt toegewezen, dan ziet de gebruiker [!UICONTROL Start] en de statussen die voor dat team worden geconfigureerd. Dit is het scenario wij adviseren als u gebruikers wilt gebruiken [!UICONTROL Start] vaak.
-* **De gebruiker wordt toegewezen aan een werkitem**: Als er geen team aan het het werkpunt wordt toegewezen en geen Team van het Huis dat aan de gebruiker wordt toegewezen maar de gebruiker wordt toegewezen aan het het werkpunt, dan ziet de gebruiker het [!UICONTROL Start] knoop en de gecombineerde statussen die voor dat alle teams worden gevormd zij worden toegewezen aan.
-* **De gebruiker wordt niet toegewezen aan om het even welke teams:** Als er geen team aan het het werkpunt en geen team voor de gebruiker, met inbegrip van het Team van het Huis wordt toegewezen, en het punt wordt toegewezen aan de gebruiker, dan lijkt de gebruiker [!UICONTROL Work On It] knop.
+* **het team wordt toegewezen aan een het werkpunt**: Als een team aan het het werkpunt wordt toegewezen, zien de leden op dat team de [!UICONTROL Start] knoop en de statussen die voor dat team worden gevormd.
+* **de gebruiker behoort tot een Team van het Huis**: Als geen team aan het het werkpunt wordt toegewezen maar de gebruiker wordt toegewezen aan een Team van het Huis in hun profiel, dan ziet de gebruiker de [!UICONTROL Start] knoop en de statussen die voor dat team worden gevormd. Dit is het scenario dat we aanbevelen als u wilt dat gebruikers de knop [!UICONTROL Start] vaak gebruiken.
+* **de gebruiker wordt toegewezen aan een het werkpunt**: Als er geen team is dat aan het het werkpunt wordt toegewezen en geen Team van het Huis dat aan de gebruiker wordt toegewezen maar de gebruiker wordt toegewezen aan het het werkpunt, dan ziet de gebruiker de [!UICONTROL Start] knoop en de gecombineerde die statussen voor dat alle teams worden gevormd zij worden toegewezen aan.
+* **de gebruiker wordt niet toegewezen aan om het even welke teams:** als er geen team aan het het werkpunt en geen team voor de gebruiker, met inbegrip van het Team van het Huis wordt toegewezen, en het punt wordt toegewezen aan de gebruiker, dan lijkt de gebruiker de [!UICONTROL Work On It] knoop.
 
 >[!NOTE]
 >
 >Deze functie is momenteel niet beschikbaar in
 >
->* De [!DNL Workfront] mobiele app
+>* De mobiele app [!DNL Workfront]
 >* [!DNL Workfront for Office 365]
->* [!DNL Workfront] e-mailberichten
+>* [!DNL Workfront] e-mailmeldingen
 >
-
 
 De knop Start configureren:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. In de **[!UICONTROL Teams]** selecteert u een team.\
+1. Selecteer een team in de vervolgkeuzelijst **[!UICONTROL Teams]** .\
    of\
    Klik op **[!UICONTROL Create Team]**.
 
-1. Klik op de knop **[!UICONTROL More]** pictogram ![](assets/more-icon.png)en klik vervolgens op **[!UICONTROL Edit]**.
+1. Klik op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) en klik vervolgens op **[!UICONTROL Edit]** .
 
-1. Zoek de **[!UICONTROL Work On It]** knopsectie bij de onderkant van de [!UICONTROL Edit Teams] pagina.
-1. Selecteer **[!UICONTROL Change the Work On It button to a Start button to automatically update the status of an item]** selectievakje.
-1. Selecteer een of meer statussen voor elk type werkitem. Als u meerdere statussen selecteert, wordt een vervolgkeuzemenu weergegeven wanneer u op [!UICONTROL Start] waar u de gewenste status kunt kiezen.
-1. Klik op **[!UICONTROL Save changes]**. Gebruikers zien nu een [!UICONTROL Start Task] of [!UICONTROL Start Issue] in plaats van de [!UICONTROL Work On It] als aan hen een tijdelijk onderdeel is toegewezen.
+1. Zoek de knopsectie **[!UICONTROL Work On It]** onder aan de pagina van [!UICONTROL Edit Teams] .
+1. Schakel het selectievakje **[!UICONTROL Change the Work On It button to a Start button to automatically update the status of an item]** in.
+1. Selecteer een of meer statussen voor elk type werkitem. Als u meerdere statussen selecteert, wordt een vervolgkeuzemenu weergegeven wanneer u op [!UICONTROL Start] klikt waar u de gewenste status kunt kiezen.
+1. Klik op **[!UICONTROL Save changes]**. Gebruikers zien nu een knop [!UICONTROL Start Task] of [!UICONTROL Start Issue] in plaats van de knop [!UICONTROL Work On It] wanneer hun een tijdelijk item wordt toegewezen.
 
    >[!NOTE]
    >
-   >Wij adviseren plaatsend het team als Team van het Huis van de gebruiker zodat verschijnt de beginknoop op elk van hun toegewezen het werkpunten. Zie [Gebruikers koppelen aan een Home Team](#associate-users-with-a-home-team) hieronder.
+   >Wij adviseren plaatsend het team als Team van het Huis van de gebruiker zodat verschijnt de beginknoop op elk van hun toegewezen het werkpunten. Zie [ gebruikers met een Team van het Huis ](#associate-users-with-a-home-team) hieronder associëren.
 
 ## Gebruikers koppelen aan een Home Team
 
 Om gebruikers met een Team van het Huis te associëren:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront].
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
 
-1. Klikken **[!UICONTROL Users]** en selecteert u vervolgens de gebruiker of gebruikers die u aan een Home Team wilt koppelen.
-1. Klik op de knop **[!UICONTROL More]** menu, selecteert u vervolgens **[!UICONTROL Edit]**.\
+1. Klik op **[!UICONTROL Users]** en selecteer vervolgens de gebruiker of gebruikers die u aan een Home-team wilt koppelen.
+1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. In de **[!UICONTROL Organization]** selecteert u de **[!UICONTROL Home Team]** veld. Begin de naam van het team te typen waarvan montages u met de gebruikers wilt associëren. Klik op de naam van het team wanneer deze wordt weergegeven in de lijst.
+1. Selecteer in de sectie **[!UICONTROL Organization]** het veld **[!UICONTROL Home Team]** . Begin de naam van het team te typen waarvan montages u met de gebruikers wilt associëren. Klik op de naam van het team wanneer deze wordt weergegeven in de lijst.
 
 1. Klik op **[!UICONTROL Save Changes]**.\
    De gebruikers u selecteerde worden nu geassocieerd met een Team van het Huis.
 
-   Om het even welke teammontages, met inbegrip van de statussen verbonden aan [!UICONTROL Done] deze gebruikers kunnen de knop nu zien.
+   Alle teaminstellingen, inclusief de statussen die zijn gekoppeld aan de knop [!UICONTROL Done] , zijn nu zichtbaar voor deze gebruikers.
 

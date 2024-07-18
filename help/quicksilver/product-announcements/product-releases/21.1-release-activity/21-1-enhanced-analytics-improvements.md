@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in Projectbeheer beschreven die zijn aangebracht met de release 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Verbeterde analyses worden nu standaard weergegeven
 
@@ -29,7 +29,7 @@ Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 
 
 In het standaardmalplaatje van de Lay-out, wordt het gebied van Analytics nu toegelaten door gebrek, wat betekent de gebruikers die aan dit Malplaatje van Lay-out worden toegewezen nu het gebied van Analytics in de Globale Bar van de Navigatie in de Klassiek van Adobe Workfront en het Belangrijkste Menu in de nieuwe ervaring van Adobe Workfront zien.
 
-Ga voor meer informatie over Verbeterde analysemogelijkheden naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Verbeterde analyses beschikbaar voor alle clusters
 
@@ -37,7 +37,7 @@ Uitgebreide analyses zijn beschikbaar voor alle Workfront-clusters, inclusief kl
 
 Eerder was de uitgebreide analyse niet beschikbaar in het Google Cloud Platform, waardoor klanten met Cluster 6 geen toegang kregen tot het gebied Analytics. Zakelijke en Enterprise-klanten met Cluster 6 hebben nu toegang tot het gebied Analytics.
 
-Ga voor meer informatie over Verbeterde analysemogelijkheden naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Meer over Verbeterde analyses leren, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De pagina Personen is nu beschikbaar voor alle clusters
 
@@ -49,4 +49,4 @@ De pagina Personen is nu beschikbaar op Workfront Classic voor Cluster 4. Deze p
 
 Deze pagina was eerder beschikbaar met de release 20.3 in zowel Workfront Classic als de nieuwe Workfront-ervaring voor alle andere clusters.
 
-Ga voor meer informatie over de grafieken die beschikbaar zijn op de pagina Personen naar [Overzicht van uitgebreide analyses](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Meer over de grafieken leren beschikbaar in de pagina van Mensen, zie [ Verbeterd analyseoverzicht ](../../../enhanced-analytics/enhanced-analytics-overview.md).

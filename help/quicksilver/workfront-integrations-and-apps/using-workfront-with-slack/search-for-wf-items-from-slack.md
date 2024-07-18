@@ -1,23 +1,23 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: Zoeken naar [!DNL Adobe Workfront] objecten van [!DNL Slack]
-description: U kunt zoeken naar [!DNL Adobe Workfront] objecten van [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] is geïnstalleerd.
+title: Onderzoek naar  [!DNL Adobe Workfront]  punten van  [!DNL Slack]
+description: U kunt naar  [!DNL Adobe Workfront]  punten van  [!DNL Slack], if your instance of Slack has had the [!DNL Workfront]  geïnstalleerde app zoeken.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
-# Zoeken naar [!DNL Adobe Workfront] objecten van [!DNL Slack]
+# Zoeken naar [!DNL Adobe Workfront] items vanuit [!DNL Slack]
 
-U kunt zoeken naar [!DNL Adobe Workfront] objecten van [!DNL Slack], als u [!DNL Slack] heeft de [!DNL Workfront] is geïnstalleerd.
+U kunt zoeken naar [!DNL Adobe Workfront] items vanuit [!DNL Slack] als de [!DNL Workfront] -toepassing is geïnstalleerd in uw exemplaar van [!DNL Slack] .
 
-Voor meer informatie over het configureren [!DNL Workfront] with [!DNL Slack], zie [Configureren [!DNL Adobe Workfront] for [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [  [!DNL Adobe Workfront]  voor  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
 ## Toegangsvereisten
 
@@ -30,25 +30,25 @@ U moet het volgende hebben:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.\
+&#42; om te weten te komen welk plan, licentietype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.\
 
 ## Vereisten
 
-Voordat u kunt zoeken naar [!DNL Workfront] objecten van [!DNL Slack]moet u
+Voordat u naar [!DNL Workfront] items kunt zoeken vanuit [!DNL Slack] , moet u
 
-* Configureren [!DNL Workfront] for [!DNL Slack]\
-   Voor instructies over het configureren [!DNL Workfront for Slack], zie [Configureren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* [!DNL Workfront] voor [!DNL Slack] configureren\
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Zoeken naar [!DNL Workfront] objecten van [!DNL Slack]:
+## Zoeken naar [!DNL Workfront] items in [!DNL Slack] :
 
-1. Meld u aan bij uw [!DNL Slack] instantie en aanmelden bij [!DNL Workfront] van [!DNL Slack].\
-   Voor meer informatie over aanmelden bij [!DNL Workfront] van [!DNL Slack], zie &quot;Aanmelden bij [!DNL Workfront] van [!DNL Slack]&quot; sectie in [Toegang [!DNL Adobe Workfront] van [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ een van de volgende opdrachten in het berichtveld vanaf een willekeurig kanaal:
 
@@ -60,7 +60,7 @@ Voordat u kunt zoeken naar [!DNL Workfront] objecten van [!DNL Slack]moet u
 
    >[!NOTE]
    >
-   >Opdrachten zijn hoofdlettergevoelig. Het trefwoord is niet hoofdlettergevoelig en moet zonder haakjes of aanhalingstekens worden ingevoerd.
+   >De bevelen zijn case sensitive. Het trefwoord is niet hoofdlettergevoelig en moet zonder haakjes of aanhalingstekens worden ingevoerd.
 
 1. Selecteer in het veld dat wordt weergegeven een van de volgende objecttypen:
 
@@ -77,7 +77,7 @@ Voordat u kunt zoeken naar [!DNL Workfront] objecten van [!DNL Slack]moet u
    * Bedrijf
    * Opmerking
 
-      U kunt slechts één objecttype tegelijk selecteren.\
+     U kunt slechts één objecttype tegelijk selecteren.\
       Er wordt een lijst weergegeven met items die voldoen aan de zoekcriteria.
 
-1. Klik op de naam van een item om dit te openen [!DNL Workfront] in een nieuw browsertabblad.
+1. Klik op de naam van een item om dit te openen in [!DNL Workfront] op een nieuw browsertabblad.

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,50 +50,50 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Voer de volgende secties in om verificatie in te schakelen voor de Workfront-webtoepassing en de mobiele Workfront-toepassing met SAML 2.0:
 
-* [Het Workfront SSO-metagegevensbestand ophalen](#retrieve-the-workfront-sso-metadata-file)
-* [Reliëfpartijtrusts configureren](#configure-relying-party-trusts)
-* [Claimregels configureren](#configure-claim-rules)
+* [ wint het de meta-gegevensdossier van Workfront terug SSO ](#retrieve-the-workfront-sso-metadata-file)
+* [ vormt het Relying de Vertrouwen van de Partij ](#configure-relying-party-trusts)
+* [ vorm de Regels van de Claim ](#configure-claim-rules)
 * [Upload het metagegevensbestand en test de verbinding](#upload-the-metadata-file-and-test-the-connection)
 
 ### Het Workfront SSO-metagegevensbestand ophalen {#retrieve-the-workfront-sso-metadata-file}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
-1. Klik in het linkerdeelvenster op **Systeem** > **Single Sign-On (SSO)**.
-1. In de **Type** vervolgkeuzelijst, klikt u op **SAML 2.0** om aanvullende informatie en opties weer te geven.
-1. Kopieer de URL die wordt weergegeven na **URL metagegevens**.
-1. Ga verder met het volgende gedeelte. [Reliëfpartijtrusts configureren](#configure-relying-party-trusts).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+1. In het linkerpaneel, klik **Systeem** > **Enige Sign-On (SSO)**.
+1. In het **Type** drop-down menu, klik **SAML 2.0** om extra informatie en opties te tonen.
+1. Kopieer URL die na **Meta-gegevens URL** toont.
+1. Ga aan de volgende sectie verder, [ vormen het Vertrouwen van de Partij van het Vertrouwen ](#configure-relying-party-trusts).
 
 ### Reliëfpartijtrusts configureren {#configure-relying-party-trusts}
 
-1. Open de **ADFS Manager** het gebruiken van de server van Vensters 2008 R2 (versie kan variëren).
-1. Ga naar **Start.**
-1. Klikken **Beheertools.**
-1. Klikken **ADFS 2.0 Management.**
-1. Selecteren **ADFS** en uitbreiden **Betrouwbaarheidsrelaties**.
-1. Klikken met rechtermuisknop **Vertrouwden op een partij** selecteert u vervolgens **Betrouwbaarheid van derden toevoegen** om de Add Relying Party Trust Wizard te starten.
-1. Van de **Welkomstpagina**, selecteert u **Start**.
-1. In de **Datumbron selecteren** plakken, plakt u de URL van de metagegevens vanuit Workfront.
-1. Klikken **Volgende**.
-1. Klikken **OK** om het waarschuwingsbericht te bevestigen.
-1. In de **Weergavenaam opgeven** een sectie toevoegen **Weergavenaam** en **Notities** om het vertrouwen te onderscheiden, klikt u vervolgens op **Volgende**.
-1. Selecteren **Alle gebruikers toegang geven tot deze betrouwbare partij** (of **Geen** als u dit later wilt vormen).
-1. Klikken **Volgende**.
+1. Open de **Manager ADFS** gebruikend de server van Vensters 2008 R2 (de versie kan variëren).
+1. Ga naar **Begin.**
+1. Klik **Hulpmiddelen van het Beleid.**
+1. Klik **ADFS 2.0 Beheer.**
+1. Selecteer **ADFS** en breid **Vertrouwensrelaties** uit.
+1. Klik met de rechtermuisknop op **Relying Party Trusts** en selecteer vervolgens **Relying Party Trust** toevoegen om de Add Relying Party Trust Wizard te starten.
+1. Van de **Welkome Pagina**, uitgezochte **Begin**.
+1. In de **Uitgezochte Datum Source** sectie, kleef de meta-gegevens URL van Workfront.
+1. Klik **daarna**.
+1. Klik **O.K.** om het waarschuwingsbericht te erkennen.
+1. In **specificeer de Naam van de Vertoning** sectie, voeg de Naam van de a **Vertoning** en **Nota&#39;s** toe om het Vertrouwen te onderscheiden, dan klik **daarna**.
+1. Selecteer **Toestaan alle gebruiker om tot deze vertrouwende partij** toegang te hebben (of **niets** als u dit later wilt vormen).
+1. Klik **daarna**.
 
-   Hiermee gaat u naar de **Gereed om vertrouwen toe te voegen** sectie.
+   Dit neemt u aan **Klaar om het Vertrouwen** sectie toe te voegen.
 
-1. Doorgaan naar de volgende sectie [Claimregels configureren](#configure-claim-rules).
+1. Ga aan de volgende sectie [ verder vormen de Regels van de Claim ](#configure-claim-rules).
 
 ### Claimregels configureren {#configure-claim-rules}
 
-1. Klikken **Volgende** in de **Gereed om vertrouwen toe te voegen** en zorgt u ervoor dat de **Dialoogvenster Regels voor claim bewerken openen** is geselecteerd.
+1. Klik **daarna** in **Klaar om de sectie van het Vertrouwen** toe te voegen, dan ervoor te zorgen dat **de Edit de dialoogdoos van de Regels van de Claim** optie wordt geselecteerd.
 
    Op deze manier kunt u de regels voor claims in een volgende stap bewerken.
 
-1. Klikken **Sluiten**.
-1. Klikken **Regel toevoegen.**
-1. Selecteren **LDAP-kenmerk verzenden als claims**.
-1. Klikken **Volgende** om de **Claimregel configureren** stap.
-1. Specificeer de volgende minimumvereisten om de claimregel te vormen: (Dit gaat over de **Federatie-id** op de gebruikersinstelling en wordt gebruikt om te onderscheiden wie zich aanmeldt.)
+1. Klik **dicht**.
+1. Klik **toevoegen Regel.**
+1. Selecteer **verzenden Attribuut LDAP als Claims**.
+1. Klik **daarna** om **te tonen vormen de stap van de Regel van de Claim**.
+1. Specificeer de volgende minimumvereisten om de claimregel te vormen: (Dit zal in **identiteitskaart van de Federatie** op de gebruikersopstelling gaan en wordt gebruikt om te onderscheiden wie het programma opent.)
 
 
    <table >                
@@ -105,15 +105,15 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
             </tr>
             <tr>
                <td>Kenmerkarchief</td>
-               <td >Selecteren <b>Active Directory</b> in het keuzemenu.</td>
+               <td >Selecteer <b> Actieve Folder </b> van het drop-down menu.</td>
             </tr>
             <tr>
                <td>LDAP-kenmerk</td>
-               <td>Dit kan elk type kenmerk zijn. We raden u aan <b>SAM-accountnaam</b> voor dit kenmerk.</td>
+               <td>Dit kan elk type kenmerk zijn. Wij adviseren gebruikend <b> SAM-rekening-Naam </b> voor dit attribuut.</td>
             </tr>
             <tr>
                <td>Type uitgaande vordering</td>
-               <td>U moet <b>Naam-id</b> als het type uitgaande vordering</td>
+               <td>U moet <b> identiteitskaart van de Naam </b> als uitgaand claimtype selecteren</td>
             </tr>
       </tbody>
    </table>
@@ -124,27 +124,27 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
    * Achternaam
    * E-mailadres
 
-1. Klikken **Voltooien** en klik vervolgens op **OK** op het volgende scherm.
-1. Klik met de rechtermuisknop op de nieuwe **Betrouwbaarheid partij** selecteert u vervolgens **Eigenschappen**.
-1. Selecteer **Geavanceerde tab**. en onder **Beveiligd hash-algoritme** Selecteer SHA-1 of SHA-256.
+1. Klik **Afwerking**, dan klik O.K. **** op het volgende scherm.
+1. Klik met de rechtermuisknop op het nieuwe **Vertrouwen van de Partij**, dan selecteren **Eigenschappen**.
+1. Selecteer het **Geavanceerde Lusje**. En onder **Veilig algoritme van de Hash** uitgezochte SHA-1 of SHA-256.
 
    >[!NOTE]
    >
    >De optie die u onder Veilig algoritme van de Hash selecteert moet het Veilige gebied van het Algoritme van de Hash in Workfront onder Opstelling > Systeem > Enige Sign-ON (SSO) aanpassen.
 
-1. Doorgaan naar de volgende sectie [Upload het metagegevensbestand en test de verbinding](#upload-the-metadata-file-and-test-the-connection).
+1. Ga aan de volgende sectie [ verder uploadt het meta-gegevensdossier en test de verbinding ](#upload-the-metadata-file-and-test-the-connection).
 
 ### Upload het metagegevensbestand en test de verbinding {#upload-the-metadata-file-and-test-the-connection}
 
-1. Een browser openen en naar `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
+1. Open een browser en ga naar `https://<yourserver>/FederationMetadata/2007-06/FederationMetadata.xml` .
 
    Hiermee moet u het bestand FederationMetadata.xml van een metagegevensbestand downloaden.
 
-1. Klikken **Bestand kiezen** krachtens **Velden vullen met metagegevens van identiteitsprovider** en selecteert u de **FederationMetadata.xml** bestand.
+1. Klik **kiezen Dossier** onder **bevolkt gebieden van de Metagegevens van Identiteitsprovider**, en selecteer het {**dossier 4} FederationMetadata.xml.**
 
-1. (Optioneel) Als de certificaatinformatie niet met het metagegevensbestand is gevuld, kunt u een bestand afzonderlijk uploaden. Selecteren **Bestand kiezen** in de **Certificaat** sectie.
+1. (Optioneel) Als de certificaatinformatie niet met het metagegevensbestand is gevuld, kunt u een bestand afzonderlijk uploaden. Selecteer **kiezen Dossier** in de **sectie van het Certificaat**.
 
-1. Klikken **Verbinding testen**. Indien correct ingesteld, ziet u een pagina die vergelijkbaar is met de hieronder weergegeven pagina:
+1. Klik **Verbinding van de Test**. Indien correct ingesteld, ziet u een pagina die vergelijkbaar is met de hieronder weergegeven pagina:
 
    ![](assets/success-saml-2.png)
 
@@ -152,21 +152,21 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
    >
    >Als u aan de afbeelding van opstellingsattributen wilt, zorg ervoor dat u de attributen van de Verbinding van de Test in het Attribuut van de Folder kopieert. Zie Toewijzing van gebruikerskenmerken voor meer informatie.
 
-1. Selecteren **Admin-vrijstelling** om Workfront-beheerders toe te staan zich aan te melden met Workfront-referenties met de bypass-URL.
+1. Selecteer **Vrijstelling Admin** om de beheerders van Workfront toe te staan om het programma te openen gebruikend de geloofsbrieven van Workfront met bypass url.
 
-   Bladwijzers naar `<yourdomain>`.my.workfront.com/login.
+   Bladwijzers die naar `<yourdomain>` .my.workfront.com/login verwijzen, omzeilen de omleiding.
 
-1. Selecteer **Inschakelen** om de configuratie in te schakelen.
-1. Klikken **Opslaan**.
+1. Selecteer **toelaten** doos om de configuratie toe te laten.
+1. Klik **sparen**.
 
 ## Gebruikers voor SSO bijwerken
 
-In het kader van deze handleiding **SSO-gebruikersnaam** zullen **Active Directory-gebruikersnaam**.
+Na deze gids, zal **Sso- Gebruikersnaam** hun **Actieve Gebruikersnaam van de Folder** zijn.
 
-Als Workfront-beheerder kunt u updategebruikers bulksgewijs verzenden naar SSO. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie [Gebruikers bijwerken voor eenmalige aanmelding](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+Als Workfront-beheerder kunt u updategebruikers bulksgewijs verzenden naar SSO. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie [ de gebruikers van de Update voor enig teken-op ](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
-Als Workfront-beheerder kunt u ook handmatig een federatie-id toewijzen die het profiel van de gebruiker bewerkt en het veld Federation ID invult. Voor meer informatie over het bewerken van een gebruiker raadpleegt u [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Als Workfront-beheerder kunt u ook handmatig een federatie-id toewijzen die het profiel van de gebruiker bewerkt en het veld Federation ID invult. Voor meer informatie over het uitgeven van een gebruiker, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 >[!NOTE]
 >
->Als u gebruikersprofielen wilt bewerken om een federatie-id op te nemen, selecteert u **Alleen SAML 2.0-verificatie toestaan** Hiermee wordt de mogelijkheid om zich aan te melden bij Workfront verwijderd met de URL bypass (`<yourdomain>`.my.workfront.com/login).
+>Wanneer het uitgeven van gebruikers&#39; profielen om een identiteitskaart van de Federatie te omvatten, die **selecteert slechts SAML 2.0 Authentificatie** toestaat verwijdert de capaciteit aan login aan Workfront gebruikend bypass url (`<yourdomain>` .my.workfront.com/login).

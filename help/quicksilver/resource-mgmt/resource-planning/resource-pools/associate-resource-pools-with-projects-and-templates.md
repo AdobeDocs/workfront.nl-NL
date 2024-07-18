@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Nadat u middelpools creeert, kunt u hen met projecten of malplaatjes associëren
 
 Wij adviseren dat u uw middelgroepen vooraf creeert, hen associeert met projecten, en uw middelen begroot alvorens het project begint.
 
-Voor informatie over bronnenpools raadpleegt u [Overzicht van bronnenpools](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Voor informatie over middelpools, zie [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
-Voor informatie over het maken van bronnenpools raadpleegt u [Brongroepen maken](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+Voor informatie over het creëren van middelpools, zie [ middelpools ](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 ## Toegangsvereisten
 
@@ -57,35 +57,35 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot bronnenbeheer bewerken, inclusief toegang tot Brongroepen beheren</p> <p>Toegang tot projecten, sjablonen en gebruikers bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot bronnenbeheer bewerken, inclusief toegang tot Brongroepen beheren</p> <p>Toegang tot projecten, sjablonen en gebruikers bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de projecten, sjablonen en gebruikers beheren waaraan u de bronnengroepen koppelt</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor de projecten, sjablonen en gebruikers beheren waaraan u de bronnengroepen koppelt</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Brongroepen koppelen aan één project of sjabloon
 
 U kunt middelpools met een malplaatje op de zelfde manier associëren u middelpools met een project. Dit artikel beschrijft hoe u middelgroepen met projecten kunt associëren.
 
-1. Ga naar een project en klik op de knop **Meer** pictogram ![](assets/more-icon.png)naast de projectnaam klikt u op **Bewerken**.
+1. Ga naar een project en klik **Meer** pictogram ![](assets/more-icon.png) naast de projectnaam, dan klik **uitgeven**.
 
-1. Klikken **Projectinstellingen**.
+1. Klik **Montages van het Project**.
 
-1. Begin de naam van een middelpool in te typen **Brongroepen** en selecteert u deze in de lijst wanneer deze wordt weergegeven.\
+1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0} te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
    U kunt veelvoudige middelpools met één project of malplaatje associëren.
 
    ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-Voor meer informatie over hoe te om een project uit te geven en het te associëren met middelpools, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+Voor meer informatie over hoe te om een project uit te geven en het te associëren met middelpools, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-Voor meer informatie over hoe te om een malplaatje uit te geven en het te associëren met middelpools, zie [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Voor meer informatie over hoe te om een malplaatje uit te geven en het te associëren met middelpools, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ## Brongroepen koppelen aan meerdere projecten of sjablonen in bulk
 
@@ -96,10 +96,10 @@ U kunt middelpools met malplaatjes op de zelfde manier associëren u middelpools
 Om middelgroepen met verscheidene projecten in bulk te associëren:
 
 1. Ga naar een lijst met projecten.
-1. Selecteer meerdere projecten en klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png) boven aan de lijst.
+1. Selecteer veelvoudige projecten, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
 
-1. Klikken **Instellingen**.
-1. Begin de naam van een middelpool in te typen **Brongroepen** en selecteert u deze in de lijst wanneer deze wordt weergegeven.\
+1. Klik **Montages**.
+1. Begin de naam van een middelpool op het **gebied van de Pools van het Middel 0} te typen, dan het van de lijst te selecteren wanneer het verschijnt.**\
    U kunt veelvoudige middelgroepen met de projecten of de malplaatjes associëren.
 
    >[!NOTE]
@@ -108,13 +108,12 @@ Om middelgroepen met verscheidene projecten in bulk te associëren:
    >
    >* Wanneer u projecten in bulk uitgeeft, is er een &quot;Veelvoudige waarde&quot;indicator als de geselecteerde projecten verschillende middelgroepen hebben. Als u bronnenpools bulksgewijs toevoegt voor projecten, worden alle pools toegevoegd aan het geselecteerde project en worden de oorspronkelijke bronnenpools overschreven.
 
+   ![ add_resource_pools_to_multiple_projects.png ](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
-
-1. Klikken **Wijzigingen opslaan**.\
+1. Klik **sparen Veranderingen**.\
    Wanneer uw middelpools met uw projecten of uw malplaatjes worden geassocieerd, kunt u gebruikerstoewijzingen voor uw projecten binnen de Planner van het Middel begroten.\
-   Voor meer informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Voor meer informatie over hoe te om projecten in bulk uit te geven, zie de &quot;projecten in bulk&quot;sectie in [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+Voor meer informatie over hoe te om projecten in bulk uit te geven, zie &quot;projecten in bulk&quot;sectie in [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-Voor meer informatie over het bulksgewijs bewerken van sjablonen raadpleegt u de sectie &#39;Sjablonen bulksgewijs bewerken&#39; in [Projectsjablonen bewerken](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Voor meer informatie over hoe te om malplaatjes in massa uit te geven, zie de &quot;malplaatjes in bulk&quot;sectie in [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.

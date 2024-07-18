@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dit artikel bevat een lijst met de meestgestelde vragen over Adobe Workfront Planning.
 
-Voor meer informatie over de Planning van Workfront, zie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Wat is Workfront Planning?
 
@@ -30,15 +30,15 @@ Vroeger genoemd Project Maestro, is de Planning van Workfront een nieuw vermogen
 
 De planningsmodule van Workfront is één van drie verschillende maar aangesloten mogelijkheden van Workfront die samen een marketing systeem van verslag creëren. De drie mogelijkheden zijn:
 
-* **Planning**: De nieuwe geavanceerde mogelijkheden die zijn opgenomen in de Workfront-planning.
+* **Planning**: De nieuwe geavanceerde mogelijkheden inbegrepen in de Planning van Workfront.
 
-* **Workflow**: De samenwerkingsmogelijkheden voor werkbeheer die u vandaag in Workfront gebruikt (projectbeheer, beheer van bronnen, enz.)
+* **Werkschema**: De samenwerkingsmogelijkheden van het werkbeheer die u vandaag in Workfront (projectbeheer, middelbeheer, enz.) gebruikt
 
-* **Automatisering en integratie**: De uitgebreide integratie- en automatiseringsmogelijkheden van Workfront Fusion.
+* **Automatisering en integratie**: De uitvoerige integratie en automatiseringsmogelijkheden aangedreven door de Fusie van Workfront.
 
 ## Wanneer wordt Workfront Planning vrijgegeven?
 
-De nieuwste Workfront Planning-release naar algemene beschikbaarheid is gepland voor 28 augustus 2024. Voor bijgewerkte informatie over welke functies momenteel worden vrijgegeven, raadpleegt u [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md).
+De nieuwste Workfront Planning-release naar algemene beschikbaarheid is gepland voor 28 augustus 2024. Voor bijgewerkte informatie over welke eigenschappen momenteel vrijgeven, zie [ Adobe Workfront die huidige versieactiviteit van de Planning van de Versie ](/help/quicksilver/planning/general/release-activity.md).
 
 ## Wat gebeurt er na het begin van de planningsfase van Workfront?
 
@@ -50,7 +50,7 @@ Deze functie is binnenkort beschikbaar.
 
 ## Moeten we migreren naar IMS?
 
-Ja. Klanten die de Planning van Workfront willen kopen zullen aan de Adobe Verenigde Ervaring/Adobe Bedrijfsplatform moeten migreren. Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Ja. Klanten die de Planning van Workfront willen kopen zullen aan de Adobe Verenigde Ervaring/Adobe Bedrijfsplatform moeten migreren. Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Kunt u voorbeelden geven van verschillende werkruimten?
 
@@ -68,7 +68,7 @@ Vanaf juni 2024 kunnen werkruimten geen verbinding met elkaar maken. Deze functi
 
 ## Zijn er zachte of harde grenzen op het aantal werkruimten toegestaan in één organisatie?
 
-U kunt maximaal 1.000 werkruimten hebben in het Workfront-exemplaar van uw organisatie. Zie voor meer informatie over limieten [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+U kunt maximaal 1.000 werkruimten hebben in het Workfront-exemplaar van uw organisatie. Voor meer informatie over grenzen, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Kunnen de huidige voorwerpen in het systeem van Workfront in Planning beschikbaar zijn, of moet dit manueel worden gebouwd?
 
@@ -125,7 +125,7 @@ Niet tijdens het vroege toegangsstadium.
 
 ## Hebt u ERD gedocumenteerd en beschikbaar om voor het model van de Planning en verslagtypes te delen?
 
-We hebben op dit moment geen ERD, maar we hebben wel diepgaande documentatie die u door alle details leidt met betrekking tot Workfront Planning. Zie voor meer informatie [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
+We hebben op dit moment geen ERD, maar we hebben wel diepgaande documentatie die u door alle details leidt met betrekking tot Workfront Planning. Voor informatie, zie [ Planning van Adobe Workfront: artikelindex ](/help/quicksilver/planning/planning-information.md).
 
 ## Hoe is de prijsstelling voor Workfront Planning gestructureerd: is het een eenmalig jaarlijks tarief? Of worden we per gebruiker in rekening gebracht?
 
@@ -145,7 +145,7 @@ Ja. Binnenkort kunnen we met behulp van Canvas-dashboards rapporteren over plann
 
 ## Zullen we ook planningsgegevens kunnen ophalen met behulp van de API?
 
-Ja. We hebben al een plannings-API en een Fusion-connector. Zie voor meer informatie [Adobe Workfront-planningsmodules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentatie voor de Workfront Planning API is binnenkort beschikbaar.
+Ja. We hebben al een plannings-API en een Fusion-connector. Voor informatie, zie [ de modules van de Planning van Adobe Workfront ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentatie voor de Workfront Planning API is binnenkort beschikbaar.
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -175,7 +175,7 @@ Public views that are shared are visible  -->
 
 ## Hoe deelt u intern een mening?
 
-Zie voor informatie over het delen van weergaven [Weergaven delen](/help/quicksilver/planning/access/share-views.md).
+Voor informatie over het delen van meningen, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 ## Elke keer dat u een werkruimte maakt, moet u de weergaven opnieuw delen?
 
@@ -187,7 +187,7 @@ Weergaven worden gescheiden van werkruimten gedeeld. U moet de werkruimte delen,
 
 ## Kunt u de toestemmingen voorbij aanpassen wat de basis is? Op dit moment kunt u met andere Workfront-objecten aanpassen wat Contribute/Manage/View-machtigingen kunnen doen.
 
-Op dit moment niet. Voor informatie over wat elke toestemming toestaat, zie [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Op dit moment niet. Voor informatie over wat elke toestemming toestaat, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Momenteel hebben we alleen bevoegdheden op werkruimte- en weergaveniveau, maar niet bevoegdheden op het niveau van type of individuele record. De types van verslag en verslagen erven toestemmingen van de werkruimte zij tot behoren.
 
@@ -197,4 +197,4 @@ Nee.
 
 ## Zijn er aanpasbare API&#39;s om onze eigen DAM te gebruiken in plaats van de DAM van Adobe?
 
-We hebben al een plannings-API en een Fusion-connector. Zie voor meer informatie [Adobe Workfront-planningsmodules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentatie voor de Workfront Planning API is binnenkort beschikbaar. U kunt de API gebruiken om aangepaste integratie te bouwen.
+We hebben al een plannings-API en een Fusion-connector. Voor informatie, zie [ de modules van de Planning van Adobe Workfront ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentatie voor de Workfront Planning API is binnenkort beschikbaar. U kunt de API gebruiken om aangepaste integratie te bouwen.

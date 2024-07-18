@@ -21,11 +21,11 @@ U kunt documenten toevoegen aan projecten, taken of problemen in de volgende geb
 * Het gebied Documenten voor een Workfront-object
 * Een aangesloten kaart op een Workfront-kaart
 
-U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen naar documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md). Raadpleeg voor meer informatie over het toevoegen van documenten van externe leveranciers van cloud&#39;s [Documenten van externe toepassingen koppelen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+U kunt ook nieuwe versies van documenten uploaden en koppelingen toevoegen naar documenten van externe leveranciers van cloud&#39;s, zoals Google Drive, Dropbox en Microsoft OneDrive. Voor informatie over het toevoegen van nieuwe versies van documenten, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden. Voor informatie over het toevoegen van documenten van derdewolkenverkopers, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Er gelden geen beperkingen voor de bestandstypen en -grootten die u kunt uploaden naar Workfront. De upload kan echter alleen worden voltooid als deze binnen vijf minuten is voltooid en u over voldoende opslagruimte beschikt.
 
-Als u informatie nodig hebt over het uploaden van nieuwe versies van een document naar Workfront, raadpleegt u [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md).
+Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 ## Toegangsvereisten
 
@@ -47,7 +47,7 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ U kunt nieuwe documenten vanuit het bestandssysteem op uw werkstation toevoegen 
 Een document toevoegen:
 
 1. Ga naar het project, de taak, of de kwestie waar u een nieuw document wilt toevoegen.
-1. Klik op de knop **Documenten** en klikt u op de knop **Nieuwe toevoegen** vervolgkeuzelijst.
+1. Klik het **lusje van Documenten**, dan klik **voeg Nieuw** drop-down menu toe.
 
    ![](assets/add-new-doc.png)
 
@@ -83,28 +83,28 @@ Een document toevoegen:
       <td role="rowheader">Documenten uploaden van uw bestandssysteem naar uw werkstation</td> 
       <td> 
        <ol> 
-        <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Document.</strong></li> 
+        <li value="1">Van <strong> voeg Nieuw </strong> drop-down menu toe, uitgezocht <strong> Document.</strong></li> 
         <li value="2"> <p>Blader naar en selecteer het document dat u wilt toevoegen vanuit het bestandssysteem op uw werkstation.<br></p> <p>U kunt meerdere documenten selecteren door op Shift te drukken terwijl u extra bestanden selecteert.</p> </li> 
-        <li value="3">Klikken <strong>Openen</strong>.</li> 
+        <li value="3">Klik <strong> Open </strong>.</li> 
        </ol> 
-       <p><b>OPMERKING</b>: U kunt bestanden ook rechtstreeks van het bestandsbeheer naar de documentlijst slepen.</td> 
+       <p><b> NOTA </b>: U kunt dossiers van uw dossiermanager aan de documentlijst ook slepen en direct laten vallen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documenten uploaden vanuit een externe toepassing zoals Google Drive of SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Van &lt;name_of_third-party_application&gt;</strong>.</p> <p>Als u bijvoorbeeld een document wilt uploaden vanaf Google Drive, klikt u op <strong>Van Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>Volg de aanwijzingen om het document te selecteren in de externe toepassing.<br></p> <p>Zie voor meer informatie over gekoppelde documenten <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Documenten van externe toepassingen koppelen</a>.</p> </li> 
+        <li value="1"> <p>Van <strong> voeg Nieuw </strong> drop-down menu toe, uitgezocht <strong> van &lt;name_of_third-party_application&gt; </strong>.</p> <p>Bijvoorbeeld, om een document van de Aandrijving van Google te uploaden, klik <strong> van de Aandrijving van Google </strong>.</p> </li> 
+        <li value="2"> <p>Volg de aanwijzingen om het document te selecteren in de externe toepassing.<br></p> <p>Voor meer informatie over verbonden documenten, zie <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref"> documenten van de Verbinding van externe toepassingen </a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Een document aanvragen bij een andere Workfront-gebruiker</td> 
       <td> 
        <ol> 
-        <li value="1">Van de <strong>Nieuwe toevoegen</strong> vervolgkeuzelijst, selecteert u <strong>Een document aanvragen</strong>.</li> 
-        <li value="2">In de <strong>Wie vraagt u het bij</strong> typt u de naam van de gebruiker van wie u het document aanvraagt.</li> 
-        <li value="3">In de <strong>Vertel ze wat je vraagt</strong> typt u de naam van het document.</li> 
-        <li value="4"> <p>Klikken <strong>Aanvraag verzenden</strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p>Zie voor meer informatie over het aanvragen van documenten <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Een document aanvragen</a>.</p> </li> 
+        <li value="1">Van <strong> voeg Nieuw </strong> drop-down menu toe, selecteer <strong> Verzoek om een Document </strong>.</li> 
+        <li value="2">In <strong> die u het van </strong> doos verzoekt, typ de naam van de gebruiker van wie u het document verzoekt.</li> 
+        <li value="3">In <strong> vertel hen wat u </strong> doos verzoekt, typ de naam van het document.</li> 
+        <li value="4"> <p>Klik <strong> verzenden Verzoek </strong>.</p> <p>Uw verzoek wordt weergegeven op het tabblad Documenten.</p> <p>Voor meer informatie over het verzoeken van documenten, zie <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref"> Verzoek om een Document </a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -114,7 +114,7 @@ Een document toevoegen:
 
 De Workfront-site voorkomt op de volgende manieren dat virussen en andere schadelijke inhoud de site betreden via documenten:
 
-* [Hoe Workfront beschadigde bestanden detecteert](#how-workfront-detects-corrupted-files)
+* [ Hoe Workfront bedorven dossiers ](#how-workfront-detects-corrupted-files) ontdekt
 * [Beperkingen voor bestandsnaam](#file-name-restrictions)
 
 ### Hoe Workfront beschadigde bestanden detecteert {#how-workfront-detects-corrupted-files}
@@ -129,4 +129,4 @@ Beschadigde bestanden worden binnen 24 uur na detectie verwijderd, tenzij u deze
 
 ### Beperkingen voor bestandsnaam {#file-name-restrictions}
 
-Bestanden die naar Workfront zijn geüpload, kunnen bepaalde tekens in bestandsnamen niet bevatten. Als een bestand een van de volgende tekens in de bestandsnaam bevat, worden de tekens uit de bestandsnaam verwijderd wanneer het bestand wordt geüpload: `! # % * \ | ' " / ? < > { } [ ]`.
+Bestanden die naar Workfront zijn geüpload, kunnen bepaalde tekens in bestandsnamen niet bevatten. Als een bestand een van de volgende tekens in de bestandsnaam bevat, worden de tekens uit de bestandsnaam verwijderd wanneer het bestand wordt geüpload: `! # % * \ | ' " / ? < > { } [ ]` .

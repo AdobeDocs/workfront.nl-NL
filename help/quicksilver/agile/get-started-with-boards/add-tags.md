@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -42,23 +42,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Tags maken voor een bord
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) naast de naam van het tekengebied, kiest u **[!UICONTROL Tag Manager]**.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam, dan kies **[!UICONTROL Tag Manager]**.
 
-   ![Tagbeheer selecteren](assets/boards-tagmanager-350x189.png)
+   ![ Uitgezochte Manager van de Markering ](assets/boards-tagmanager-350x189.png)
 
-1. In de [!UICONTROL Tag Manager] dialoogvenster selecteert u [!UICONTROL **Tag toevoegen**] in de [!UICONTROL Board Tags] sectie.
+1. In het [!UICONTROL Tag Manager] dialoogvakje, voegt de uitgezochte [!UICONTROL **markering**] in de [!UICONTROL Board Tags] sectie toe.
 1. Typ de tagnaam in het gemarkeerde vak en kies vervolgens een kleur voor dit label in het vervolgkeuzemenu. De tag wordt automatisch opgeslagen.
 1. (Voorwaardelijk) Herhaal stap 4-5 om extra labels te maken.
-1. Klikken **[!UICONTROL Done]** in de rechterbovenhoek van het vak.
+1. Klik op **[!UICONTROL Done]** in de rechterbovenhoek van het vak.
 
-   ![Tagbeheer](assets/tag-manager-2023.png)
+   ![ Manager van de Markering ](assets/tag-manager-2023.png)
 
 ## Tags maken voor een werkstroom
 
@@ -70,19 +70,19 @@ Workstream-tags zijn beschikbaar voor alle boards in een werkstream.
 
 {{step1-to-boards}}
 
-1. Klik op het dashboard op [!UICONTROL **Werkstroom weergeven**] om een werkstroom te openen.
-1. Open een bord. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) naast de naam van het tekengebied, kiest u **[!UICONTROL Tag Manager]**.
+1. Op het dashboard, klik [!UICONTROL **de werkstroom van de Mening**] om een werkstroom te openen.
+1. Open een bord. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam, dan kies **[!UICONTROL Tag Manager]**.
 
    of
 
-   Klikken [!UICONTROL **Configureren**] om de [!UICONTROL Configure Workstream] deelvenster. Klik vervolgens op **[!UICONTROL Tag Manager]**.
+   Klik [!UICONTROL **vormen**] om het [!UICONTROL Configure Workstream] paneel te openen. Klik vervolgens op **[!UICONTROL Tag Manager]** .
 
-1. In de [!UICONTROL Tag Manager] dialoogvenster selecteert u [!UICONTROL **Tag toevoegen**] in de sectie Workstream-tags.
+1. In het [!UICONTROL Tag Manager] dialoogvakje, voegt de uitgezochte [!UICONTROL **markering**] in de sectie van de Markeringen van de Werkstroom toe.
 1. Typ de tagnaam in het gemarkeerde vak en kies vervolgens een kleur voor dit label in het vervolgkeuzemenu. De tag wordt automatisch opgeslagen.
 1. (Voorwaardelijk) Herhaal stap 4-5 om extra labels te maken.
-1. Klikken **[!UICONTROL Done]** in de rechterbovenhoek van het vak.
+1. Klik op **[!UICONTROL Done]** in de rechterbovenhoek van het vak.
 
-   ![Tagbeheer](assets/tag-manager-workstreams.png)
+   ![ Manager van de Markering ](assets/tag-manager-workstreams.png)
 
 ## Een tag toevoegen aan een kaart
 
@@ -91,22 +91,22 @@ Workstream-tags zijn beschikbaar voor alle boards in een werkstream.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]** .
 
-1. In de **[!UICONTROL Tags]** typt u de naam van een bestaande tag en selecteert u deze in de zoekresultaten.\
+1. Typ in het vak **[!UICONTROL Tags]** de naam van een bestaande tag en selecteer deze in de zoekresultaten.\
    of\
-   Klik op de knop **[!UICONTROL Edit]**&#x200B; ![Tag bewerken](assets/boards-edittag-30x29.png) en maak een nieuwe tag in Tagbeheer. Klikken **Gereed** om terug te keren naar de kaart, selecteert u het label op de kaart.
-1. Klikken **Sluiten**.
+   Klik het **[!UICONTROL Edit]** pictogram &#x200B; ![ uitgeeft markering ](assets/boards-edittag-30x29.png) en creeer een nieuwe markering in de Manager van de Markering. Klik **Gedaan** om aan de kaart terug te keren, dan de markering op de kaart te selecteren.
+1. Klik **dicht**.
 
 ## Een tag bewerken
 
 1. Toegang tot een bord.
-1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) naast de naam van het tekengebied, kiest u **[!UICONTROL Tag Manager]**.
+1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam, dan kies **[!UICONTROL Tag Manager]**.
 
-   ![Selecteer Tagbeheer.](assets/boards-tagmanager-350x189.png)
+   ![ Uitgezochte Manager van de Markering.](assets/boards-tagmanager-350x189.png)
 
 1. (Voorwaardelijk) Klik op de tagnaam om de tekst te bewerken.
-1. (Voorwaardelijk) Klik op de knop [!UICONTROL color] vervolgkeuzelijst om de kleur van de tag te wijzigen.
+1. (Voorwaardelijk) Klik het [!UICONTROL color] drop-down menu om de markeringskleur te veranderen.
 1. Klik op **[!UICONTROL Done]**.
 
 ## Een tag van een kaart verwijderen
@@ -116,17 +116,17 @@ Workstream-tags zijn beschikbaar voor alle boards in een werkstream.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]** .
 
-1. Zoek het label dat u van de kaart wilt verwijderen en klik vervolgens op de knop **[!UICONTROL Remove]** pictogram ![Tag verwijderen](assets/copy-of-boards-remove-30x23.png).
+1. Vind de markering u van de kaart wilt verwijderen, dan klik het **[!UICONTROL Remove]** pictogram ![ verwijdert markering ](assets/copy-of-boards-remove-30x23.png).
 1. Klik op **[!UICONTROL Close]**.
 
 ## Een tag verwijderen
 
 1. Toegang tot een bord.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied, kiest u **[!UICONTROL Tag Manager]**.
+1. Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en kies vervolgens **[!UICONTROL Tag Manager]** .
 
-   ![Tagbeheer selecteren](assets/boards-tagmanager-350x189.png)
+   ![ Uitgezochte Manager van de Markering ](assets/boards-tagmanager-350x189.png)
 
-1. Zoek de tag die u wilt verwijderen en klik op de knop **[!UICONTROL Delete]** pictogram ![Tag verwijderen](assets/copy-of-boards-delete-30x27.png).
+1. Vind de markering u wilt schrappen, dan klik het **[!UICONTROL Delete]** pictogram ![ markering van de Schrapping ](assets/copy-of-boards-delete-30x27.png).
 1. Klik op **[!UICONTROL Done]**.

@@ -32,4 +32,4 @@ Er zijn nieuwe operatoren toegevoegd aan het gebeurtenisfilter. U kunt nu een va
 
 We hebben ook de mogelijkheid toegevoegd om te selecteren of u het filter wilt toepassen op de oude status van het veld of op de nieuwe status. Als u bijvoorbeeld hebt opgegeven dat u de oude status van een veld wilt bekijken en het filter wilt instellen om te controleren op statussen die in uitvoering zijn, wordt de module geactiveerd wanneer een status van In uitvoering verandert in een nieuwe status.
 
-Zie voor meer informatie over de Adobe Workfront-modules [Adobe Workfront-modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie over de modules van Adobe Workfront, zie {de Modules van 0} Adobe Workfront ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).[

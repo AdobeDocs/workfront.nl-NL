@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Foutbericht: SAML 2.0-fout: Primaire statuscode'''
+title: 'Foutbericht: fout in SAML 2.0: primaire statuscode'
 description: U kunt geen verbinding maken met ADFS.
 author: Caroline
 feature: System Setup and Administration
@@ -11,7 +11,7 @@ role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 U kunt geen verbinding maken met ADFS.
 
-![SAML_2.0_Error_Primary_Status_Code.png](assets/saml-2.0-error-primary-status-code.png)
+![ SAML_2.0_Error_Primary_Status_Code.png ](assets/saml-2.0-error-primary-status-code.png)
 
 >[!NOTE]
 >
@@ -46,46 +46,46 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Oorzaak 1: Beveiligd hash-algoritme is ingesteld op SHA-256
+## Oorzaak 1: Veilig hash-algoritme is ingesteld op SHA-256
 
 ### Oplossing
 
-1. Klik in Windows op **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]**.\
+1. Klik in Windows op **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]** .\
    Het dialoogvenster ADFS 2.0-beheer wordt weergegeven.
 
-1. Selecteren **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in het linkerdeelvenster.
+1. Selecteer **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in het linkerdeelvenster.
 
-1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op [!DNL Adobe Workfront]selecteert u vervolgens **[!UICONTROL Properties]**.
-1. Klik op de knop **[!UICONTROL Advanced]** tab, dan selecteren **[!UICONTROL SHA-1]** van de **[!UICONTROL Secure hash algorithm]** vervolgkeuzemenu.\
+1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op [!DNL Adobe Workfront] en selecteer vervolgens **[!UICONTROL Properties]** .
+1. Klik op de tab **[!UICONTROL Advanced]** en selecteer vervolgens **[!UICONTROL SHA-1]** in de vervolgkeuzelijst **[!UICONTROL Secure hash algorithm]** .\
    ![](assets/1-350x287.png)
 
-## Oorzaak 2: ADFS-ondertekeningscertificaat verloopt bijna en is vervangen door een nieuw certificaat met overlappende datums
+## Oorzaak 2: ADFS-ondertekeningscertificaat verloopt binnenkort en is vervangen door een nieuw certificaat met overlappende datums
 
 ### Oplossing
 
-De [!DNL Workfront] De pagina van de Opstelling SSO maakt een lijst van de certificaatvervaldatum. Als het certificaat bijna verlopen is, moet u het Nieuwe het Ondertekenen Certificaat van de Server van ADFS manueel trekken:
+De [!DNL Workfront] pagina van de Opstelling van SSO maakt een lijst van de certificaatvervaldatum. Als het certificaat bijna verlopen is, moet u het Nieuwe het Ondertekenen Certificaat van de Server van ADFS manueel trekken:
 
-1. Klik in Windows op **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]**.\
+1. Klik in Windows op **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]** .\
    Het dialoogvenster ADFS 2.0-beheer wordt weergegeven.
 
-1. Selecteren **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in het linkerdeelvenster.
+1. Selecteer **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in het linkerdeelvenster.
 
-1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op [!DNL Workfront]en selecteert u **[!UICONTROL Properties]**.
-1. Klik op de knop **[!UICONTROL Signature]** tab.
-1. Klik op de naam van het ondertekenende certificaat en klik op **[!UICONTROL View]**.
-1. Klik op Kopiëren naar **[!UICONTROL File]**... en selecteer **[!UICONTROL Next]**.
+1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op [!DNL Workfront] en selecteer **[!UICONTROL Properties]** .
+1. Klik op de tab **[!UICONTROL Signature]** .
+1. Klik op de naam van het ondertekenende certificaat en klik op **[!UICONTROL View]** .
+1. Klik op Kopiëren naar **[!UICONTROL File]** ... en selecteer **[!UICONTROL Next]** .
 
-1. Selecteren **[!UICONTROL Base-64 encoded x.509 (CER)]** en klik op **[!UICONTROL Next]**.
+1. Selecteer **[!UICONTROL Base-64 encoded x.509 (CER)]** en klik op **[!UICONTROL Next]** .
 
-1. Geef een bestandsnaam op en klik op **[!UICONTROL Next]**.
+1. Geef de bestandsnaam op en klik op **[!UICONTROL Next]** .
 1. Klik op **[!UICONTROL Finish]**.
-1. In [!DNL Workfront], navigeer naar **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** en uploadt u het ondertekenende certificaat handmatig.
+1. Navigeer in [!DNL Workfront] naar **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** en upload het handtekeningcertificaat handmatig.
 
-## Oorzaak 3: Certificaatintrekkingscontrole mislukt
+## Oorzaak 3: controle op intrekking certificaat mislukt
 
-De oplossing hiervoor is afhankelijk van de versie van [!DNL Microsoft] ADFS die u gebruikt. Consult [!DNL Microsoft]Documentatie voor het verkrijgen van de juiste opdrachten voor uw versie.
+De oplossing hiervoor is afhankelijk van de versie van [!DNL Microsoft] ADFS die u gebruikt. Raadpleeg de documentatie van [!DNL Microsoft] voor de juiste opdrachten voor uw versie.

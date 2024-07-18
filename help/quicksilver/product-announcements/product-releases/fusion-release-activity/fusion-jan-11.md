@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 januari 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Breid-connector en modules nu beschikbaar
 
@@ -36,7 +36,7 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Widen-account
 * Een lijst met elementen in een verzameling ophalen
 * Voer een aangepaste API-aanroep uit.
 
-Zie voor meer informatie [Breedte-modules](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Voor meer informatie zie [ Verruim modules ](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
 ## Dataredog-aansluiting en -modules zijn nu beschikbaar
 
@@ -44,10 +44,10 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Datadog-accou
 
 Met de Datadog-modules kunt u:
 
-* Navolgende tijdlijnpunten
+* Post-tijdlijnpunten
 * Een aangepaste API-aanroep uitvoeren
 
-Voor informatie over modules DataHond, zie [Datadog-modules](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Voor informatie over modules Datadog, zie [ modules DataHond ](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
 ## De schakelaar van de Gebeurtenis en modules nu beschikbaar
 
@@ -62,7 +62,7 @@ Met de Cvent-modules kunt u:
 * Contactpersonen bijwerken of verwijderen
 * Een aangepaste API-aanroep maken
 
-Voor informatie over de beschikbare modules van de Gebeurtenis, zie [Cilummodules](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Voor informatie over beschikbare modules van de Gebeurtenis, zie {de modules van de Gebeurtenis 0} ](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).[
 
 ## Microsoft Dynamics 365-connector en -modules nu beschikbaar
 
@@ -72,7 +72,7 @@ U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Microsoft
 * Een Microsoft Dynamics 365-record maken, lezen, bijwerken of verwijderen
 * Een aangepaste API-aanroep uitvoeren
 
-Voor informatie over beschikbare modules Microsoft Dynamics 365, zie [Microsoft Dynamics 365 modules](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+Voor informatie over de beschikbare Dynamica 365 modules van Microsoft, zie {de Dynamica 365 modules van 0} Microsoft ](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).[
 
 ## DocuSign-connector en -modules nu beschikbaar
 
@@ -86,7 +86,7 @@ U kunt nu Workfront Fusion 2.0 gebruiken om verbinding te maken met uw Document-
 * Een bestand uploaden naar een envelop
 * Een aangepaste API-aanroep uitvoeren
 
-Zie voor meer informatie [DocuSign-modules](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Voor meer informatie, zie [ modules DocuSign ](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
 
 ## Doorzoek de uitvoeringsgeschiedenis van uw scenario
 
@@ -94,7 +94,7 @@ Wij hebben het voor u gemakkelijker gemaakt om van specifieke informatie van vor
 
 Eerder werd specifieke uitvoeringsinformatie gevonden die elke uitvoering afzonderlijk moest bekijken.
 
-Zie voor meer informatie [De uitvoeringsgeschiedenis van een scenario weergeven in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Voor meer informatie, zie [ Mening de uitvoeringsgeschiedenis van een scenario in de Fusie van Adobe Workfront ](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Updates voor Fusion 2.0 Data Store
 
@@ -104,13 +104,13 @@ Om het voor u gemakkelijker te maken om uw gegevensopslag aan te passen, hebben 
 * Eén cel bewerken
 * Meerdere rijen toevoegen
 
-Zie voor meer informatie over gegevensopslag [Modules voor gegevensopslag](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Voor meer informatie over de Opslag van Gegevens, zie [ de opslagmodules van Gegevens ](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ## Een aanvraag voor een API-sleutelautorisatie indienen via de HTTP-connector
 
 Om de flexibiliteit in de manieren te verhogen u tot APIs kunt toegang hebben, hebben wij een nieuwe module aan de schakelaar van HTTP toegevoegd. Nu kunt u de HTTP-connector gebruiken om een aanvraag in te dienen wanneer de webservice die u benadert, het gebruik van een API-sleutel vereist.
 
-Zie voor meer informatie [HTTP-modules](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+Voor meer informatie, zie [ modules van HTTP ](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 ## Nieuwe functies beschikbaar in het deelvenster Toewijzing
 
@@ -138,6 +138,6 @@ Om u te helpen formules in uw modules aanpassen en vereenvoudigen, hebben wij en
 
   Deze functie is een tekenreeksfunctie die alle tags Markdown in een tekst verwijdert.
 
-Zie voor meer informatie over de functie Weglaten en Selecteren [Algemene functies in Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
+Voor meer informatie over het weglaten en plukken functies, zie [ Algemene functies in de Fusie van Adobe Workfront ](../../../workfront-fusion/functions/general-functions.md).
 
-Voor meer informatie over de functie escapeMarkdown, zie [Tekenreeksfuncties in Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).
+Voor meer informatie over de functie escapeMarkdown, zie [ functies van het Koord in de Fusie van Adobe Workfront ](../../../workfront-fusion/functions/string-functions.md).

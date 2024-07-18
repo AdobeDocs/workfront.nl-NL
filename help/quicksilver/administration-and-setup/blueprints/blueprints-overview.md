@@ -28,28 +28,28 @@ Blauwdrukken zijn sets Workfront-objecten die betrekking hebben op veelvoorkomen
 >
 >Voorbeelden:
 >
->* **Instellen van personeelsorganisatie**
+>* **Opstelling van de Organisatie van het Personeel**
 >
 >   Deze blauwdruk bevat de configuratie van organisatorische structuren om aan een afdeling van het Middelen uit te breiden.
 >
->* **Nieuwe controlelijst voor IT-medewerkers toevoegen**
+>* **voeg Nieuwe Controlelijst van IT van de Werknemer toe**
 >
 >   Deze blauwdruk bevat een sjabloon om nieuwe werknemers aan boord te nemen activiteiten te organiseren. Met deze sjabloon kunnen IT-teams efficiënt werken, wat leidt tot een positieve nieuwe werknemerservaring en snellere prestaties.
 >
->* **Grondbeginselen van overerfde instanties | Checklist**
+>* **Overgenomen basiskennis van instanties | Checklist**
 >
 >    Deze blauwdruk bevat een projectmalplaatje (of controlelijst) dat u met een korte lijst van vragen, middelen, en verbindingen voor een duidelijk inzicht in kunt herzien hoe uw instantie van Workfront is gevormd. Gebruik dit wanneer u onlangs een Workfront-exemplaar hebt geërfd en hulp nodig hebt bij het opstarten van het programma.
 >
->Als u de huidige blauwdrukken wilt bekijken, raadpleegt u [Lijst met beschikbare blauwdrukken](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+>Om de huidige blauwdrukken te herzien, zie [ Lijst van beschikbare blauwdrukken ](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 
-De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen, dashboards en organisatiestructuren installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Zie voor meer informatie [Blader door de catalogus met blauwdrukken en verzoek om installatie van blauwdrukken](../../administration-and-setup/blueprints/browse-catalog.md).
+De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen, dashboards en organisatiestructuren installeren. Andere gebruikers kunnen door de catalogus bladeren en de installatie van een blauwdruk aanvragen. Voor meer informatie, zie [ doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken ](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Elke blauwdruk is gericht aan een afdeling en specifiek rijpheidsniveau om u te helpen bewezen beste praktijken in uw systeem sneller uitvoeren. De hieronder beschreven rijpingsniveaus worden aangegeven in de blauwdrukcataloguskaart en in de details.
 
-* **[!UICONTROL Managed]:** De beheerde projectmalplaatjes helpen de goedkeuring van een nieuw bedrijfsproces steunen alvorens de activiteiten en de te leveren punten volledig als standaardprocedure worden goedgekeurd. Zij bevatten taken om elke stap van het nieuwe proces te verzekeren wordt gevolgd.
+* **[!UICONTROL Managed]:** de Beheerde projectmalplaatjes helpen de goedkeuring van een nieuw bedrijfsproces steunen alvorens de activiteiten en de te leveren punten volledig als standaardprocedure worden goedgekeurd. Zij bevatten taken om elke stap van het nieuwe proces te verzekeren wordt gevolgd.
 
-* **[!UICONTROL Integrated]:** De geïntegreerde projectmalplaatjes veronderstellen dat de bedrijfsfuncties door een standaardwerkende procedure worden gesteund. Medewerkers in het proces weten welke stappen en taken ze moeten uitvoeren om het proces te volgen. De projectmalplaatjes om dit proces te steunen bevatten minder taken om slechts mijlpalen en andere zeer belangrijke te volgen die voor rapporteringsdoeleinden noodzakelijk zijn.
+* **[!UICONTROL Integrated]:** Geïntegreerde projectmalplaatjes veronderstellen dat de bedrijfsfuncties door een standaardwerkende procedure worden gesteund. Medewerkers in het proces weten welke stappen en taken ze moeten uitvoeren om het proces te volgen. De projectmalplaatjes om dit proces te steunen bevatten minder taken om slechts mijlpalen en andere zeer belangrijke te volgen die voor rapporteringsdoeleinden noodzakelijk zijn.
 
 ## De juiste blauwdruk zoeken
 
@@ -61,16 +61,16 @@ Het blauwdruktype laat zien wat er in de blauwdruk staat. Het type wordt onder a
 
 De volgende typen blauwdrukken zijn beschikbaar:
 
-* **Projectsjablonen**: Bevat standaardobjecten die zijn gekoppeld aan een projectsjabloon (taken, problemen, rollen en teams) en enkele voorkeuren die betrekking hebben op die objecten. Zie voor meer informatie [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
-* **Organisatiestructuren**: Omvat voorwerpen verbonden aan de structuur van een organisatie (bedrijven, groepen, rollen, en teams). Zie voor meer informatie [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
-* **Dashboards**: Bevat een of meer dashboards voor een specifiek gebruiksgeval, zoals implementatieservices.
+* **malplaatjes van het Project**: Omvat standaardvoorwerpen verbonden aan een projectmalplaatje (taken, kwesties, rollen, en teams), en sommige voorkeur met betrekking tot die voorwerpen. Voor meer informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+* **Organisatorische structuren**: Omvat voorwerpen verbonden aan de structuur van een organisatie (bedrijven, groepen, rollen, en teams). Voor meer informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+* **dashboards**: Omvat één of meerdere dashboards voor een specifiek gebruiksgeval, zoals implementatieservices.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
 * Setup features: Includes one or more elements that are configured in the Setup area of Workfront, such as layout templates.
 -->
 
-Als u de huidige blauwdrukken wilt bekijken, raadpleegt u [Lijst met beschikbare blauwdrukken](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+Om de huidige blauwdrukken te herzien, zie [ Lijst van beschikbare blauwdrukken ](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 ### Details weergeven
 
@@ -78,22 +78,22 @@ Elke blauwdruk bevat een detailpagina. Op deze pagina kunt u:
 
 * Een overzicht weergeven van de inhoud van de workflow
 * Een korte samenvatting van de blauwdruk lezen
-* Installatiegeschiedenis weergeven (klik op **[!UICONTROL See Details]** om de volledige lijst met objecten weer te geven die met de blauwdruk zijn geïnstalleerd)
+* De installatiegeschiedenis van de mening (klik **[!UICONTROL See Details]** om de volledige lijst van voorwerpen te zien die met het ontwerp worden geïnstalleerd)
 * Zie rol, team, bedrijf, en groepsbeschrijvingen
 * Bekijk een visueel voorbeeld van de specifieke blauwdruk, zoals een projectsjabloon (u kunt de volledige afbeelding voorvertonen in de browser of deze downloaden)
 
-![[!UICONTROL Blueprint Details] page](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Blueprint Details] page ](assets/blueprint-details-page-2022.png)
 
 ## Een blauwdruk installeren
 
-Een Workfront-beheerder kan een blauwdruk rechtstreeks in elke omgeving installeren (productie-, voorvertoning- of sandboxomgeving). Zie voor meer informatie [Een blauwdruk installeren](../../administration-and-setup/blueprints/blueprints-install.md) of [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md).
+Een Workfront-beheerder kan een blauwdruk rechtstreeks in elke omgeving installeren (productie-, voorvertoning- of sandboxomgeving). Meer leren, zie [ een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md) installeren of [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
-Na installatie, zou u over de beste volgende te nemen acties kunnen onzeker zijn. Zie voor meer informatie [Handelingen die moeten worden uitgevoerd na de installatie van een blauwdruk](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+Na installatie, zou u over de beste volgende te nemen acties kunnen onzeker zijn. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
 ## Aanvullende opmerkingen over blauwdrukken en sjablonen
 
-De blauwdrukken vervangen niet de functionaliteit van projectmalplaatjes in [!DNL Adobe Workfront]. Met verfdrukken kunt u sneller nieuwe sjablonen maken om meer van uw werk te organiseren in [!DNL Workfront].
+De blauwdrukken vervangen niet de functionaliteit van projectmalplaatjes in [!DNL Adobe Workfront]. Met blauwdrukken kunt u sneller nieuwe sjablonen maken om meer van uw werk in [!DNL Workfront] te organiseren.
 
-U kunt een blauwdruk niet kopiëren of bewerken. Nochtans, zodra u de oplossing van een blauwdruk hebt geïnstalleerd, kunt u het projectmalplaatje, de baanrollen, of de teams wijzigen die van de blauwdruk worden gecreeerd de zelfde manier u normaal die verslagen in bijwerken [!DNL Workfront] interface. Wanneer u een blauwdruk installeert, wordt de sjabloon bovendien opgeslagen in het dialoogvenster [!UICONTROL Templates] gebied van [!DNL Workfront] en de oorspronkelijke blauwdruk blijft in de [!UICONTROL Blueprints] gebied. U hoeft geen kopie van de sjabloon te maken voordat u de sjabloon op maat maakt.
+U kunt een blauwdruk niet kopiëren of bewerken. Nochtans, zodra u de oplossing van een blauwdruk hebt geïnstalleerd, kunt u het projectmalplaatje, de baanrollen, of de teams wijzigen die van het ontwerp worden gecreeerd de zelfde manier u normaal die verslagen in de [!DNL Workfront] interface bijwerkt. Wanneer u een blauwdruk installeert, wordt de sjabloon bovendien opgeslagen in het [!UICONTROL Templates] -gebied van [!DNL Workfront] en blijft de oorspronkelijke blauwdruk in het [!UICONTROL Blueprints] -gebied. U hoeft geen kopie van de sjabloon te maken voordat u de sjabloon op maat maakt.
 
 De blauwdrukken verwijderen of vervangen om het even wat in uw milieu wordt gevormd niet. Als u van plan bent een bestaande malplaatje te vervangen door een blauwdruk te installeren die tot een nieuw malplaatje leidt, adviseren wij dat u de vorige versie deactiveert om verwarring onder uw planners te vermijden die projecten van malplaatjes bouwen.

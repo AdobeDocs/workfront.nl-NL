@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Aan de slag met dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
+* [ begin met dashboards ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
 * [Begrijp hoe de rapporten op een dashboard tonen](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)

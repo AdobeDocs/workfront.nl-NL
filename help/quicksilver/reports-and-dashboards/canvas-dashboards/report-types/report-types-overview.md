@@ -6,7 +6,8 @@ description: Er zijn een aantal verschillende rapporten die u aan een dashboard 
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Er zijn een aantal verschillende rapporten die u aan een dashboard van het Canva
 * Tabelrapporten
 * Goedkeuringsrapporten in behandeling
 
-Voor algemene informatie over het toevoegen en rangschikken van rapporten op een dashboard van het Canvas, zie [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). Raadpleeg de artikelindex hieronder voor gedetailleerde informatie over het toevoegen en opmaken van specifieke rapporttypen.
+Voor algemene informatie bij het toevoegen van en het rangschikken van rapporten over een Dashboard van het Canvas, zie [, rapporten in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) toevoegen verwijderen of rangschikken. Raadpleeg de artikelindex hieronder voor gedetailleerde informatie over het toevoegen en opmaken van specifieke rapporttypen.
 
 ## Rapporttypen Canvas-dashboard: artikelindex
 

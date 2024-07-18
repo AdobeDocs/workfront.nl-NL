@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 22.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de week van 3 oktober 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 22.4, zie [22.4 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [ overzicht van de Versie 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront for InDesign
 
 Deze insteekmodule is nu beschikbaar voor installatie in het InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden.
 
-Zie voor meer informatie over de plug-in [[!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Voor meer informatie over de stop, zie [[!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Toepassingen ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Download Adobe Workfront for InDesign vandaag nog op de markt](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[ Download Adobe Workfront voor InDesign vandaag in de markt ](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Beheerders kunnen ook [een pakket maken met de plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) van de Admin Console en opstellen aan gebruikers of op een beheerde of zelf-beheerde manier.
+De beheerders kunnen ook [ een pakket met de stoppen ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) van de Admin Console tot stand brengen en aan gebruikers of op een beheerde of zelf-beheerde manier opstellen.
 
 ## Objectmetagegevens synchroniseren met de native Experience Manager Assets-integratie
 
@@ -37,7 +37,7 @@ Als u wilt dat objectmetagegevens automatisch worden gesynchroniseerd, moet u de
 
 Eerder werden alleen projectvelden automatisch bijgewerkt.
 
-Zie voor meer informatie [De as a Cloud Service integratie met Experience Manager Assets configureren](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
 
 ## Metagegevens naar bovenliggende programma&#39;s en portfolio-objecten verplaatsen
 
@@ -45,7 +45,7 @@ Wanneer een element nu voor het eerst naar Experience Manager Assets of Assets E
 
 Eerder werden alleen de gegevens van het bovenliggende project verzonden.
 
-Zie voor meer informatie [Een document verzenden naar Experience Manager Assets of Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Voor meer informatie, zie [ een Document naar Experience Manager Assets of Assets Essentials ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) verzenden.
 
 ## Uitgebreide teambeschrijving
 
@@ -55,9 +55,9 @@ Eerder was het schuiven door de beschrijving in een smal gebied de enige manier 
 
 Deze verbetering van de beschrijving is van toepassing op zowel mobiele als niet-flexibele teams.
 
-Zie voor meer informatie [Een team maken](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Voor meer informatie, zie [ een team ](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
-## Workfront Campagnes (bèta) - een nieuwe manier om uw werk te beheren
+## Workfront Campaigns (Beta) - een nieuwe manier om uw werk te beheren
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ De volgende functies zijn in deze release opgenomen:
 
 * Een nieuw Workfront-object genaamd Campagne
 
-* Een nieuw gebied van Campagnes (Bèta) in het Belangrijkste Menu
+* Een nieuw gebied Campagnes (Beta) in het Hoofdmenu
 
 * Een lijst met campagnes in het gebied Campagnes
 
@@ -87,6 +87,6 @@ De volgende functies zijn in deze release opgenomen:
 
 * Mogelijkheid om de naam van het Campagneobject te wijzigen via de lay-outsjabloon
 
-  Systeem- en groepsbeheerders van Workfront kunnen het gebied Campagnes (bèta) toevoegen in het Hoofdmenu van een lay-outsjabloon. Dit maakt het beschikbaar voor alle gebruikers die aan het malplaatje worden toegewezen. Iedereen in Workfront kan een campagne maken nadat deze beschikbaar is.
+  Systeem- en groepsbeheerders van Workfront kunnen het gebied Campagnes (Beta) toevoegen in het Hoofdmenu van een lay-outsjabloon. Dit maakt het beschikbaar voor alle gebruikers die aan het malplaatje worden toegewezen. Iedereen in Workfront kan een campagne maken nadat deze beschikbaar is.
 
 

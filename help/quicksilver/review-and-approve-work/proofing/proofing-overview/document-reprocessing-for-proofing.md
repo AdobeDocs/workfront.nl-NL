@@ -25,7 +25,7 @@ Alle lettertypetekst wordt in de bijbehorende laag geëxtraheerd zolang u de jui
 
 >[!NOTE]
 >
->Workfront ondersteunt momenteel documenten die maximaal 2000 pagina&#39;s bevatten. Dit geldt ook voor gecombineerde proefdrukken. Zie voor meer informatie [Een proefdruk van meerdere pagina&#39;s maken](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+>Workfront ondersteunt momenteel documenten die maximaal 2000 pagina&#39;s bevatten. Dit geldt ook voor gecombineerde proefdrukken. Voor meer informatie, zie [ tot een multi-paginaproef ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) leiden.
 
 ## Algemene tips
 
@@ -52,6 +52,6 @@ Doorgaans duurt de verwerking enkele seconden per pagina. Nochtans, kunnen diver
 
 Verzendbestanden bevatten enkele of alle volgende stappen:
 
-1. **Indiening**. Wanneer u een document naar het systeem uploadt, gebruikt u de Nieuwe proefdrukpagina of een API (Application Programming Interface). 
-1. **Wachtrij**. Tijdens zware verkeersperioden, kan Workfront bijdragen in de rij moeten plaatsen om te voorkomen dat het systeem wordt overbelast. De meeste proefdrukken besteden slechts een paar seconden in een rij. 
-1. **Verwerking.** De bestanden bereiken de verwerkingsmachines volgens het inhoudstype. We gebruiken verschillende gereedschappen voor het verwerken van videoproeven, webvastleggingen, statische afbeeldingen en documenten. Bij ZIP-containers (Rich Media Containers) en interactieve webopnameverzendingen is geen verwerking vereist.
+1. **Verzending**. Wanneer u een document naar het systeem uploadt, gebruikt u de Nieuwe proefdrukpagina of een API (Application Programming Interface). 
+1. **Rij**. Tijdens zware verkeersperioden, kan Workfront bijdragen in de rij moeten plaatsen om te voorkomen dat het systeem wordt overbelast. De meeste proefdrukken besteden slechts een paar seconden in een rij. 
+1. **verwerking.** De bestanden bereiken de verwerkingscomputers volgens het inhoudstype. We gebruiken verschillende gereedschappen voor het verwerken van videoproeven, webvastleggingen, statische afbeeldingen en documenten. Bij ZIP-containers (Rich Media Containers) en interactieve webopnameverzendingen is geen verwerking vereist.

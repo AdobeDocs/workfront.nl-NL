@@ -17,6 +17,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht](../../proofhq-api/general/overview.md)
+* [ Overzicht ](../../proofhq-api/general/overview.md)
 <!--* [Code Samples](../../proofhq-api/general/code-samples.md) -->
 * [Veelgestelde vragen over SOAP API](../../proofhq-api/general/soap-api-faqs.md)

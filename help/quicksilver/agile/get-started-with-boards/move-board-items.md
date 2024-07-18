@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt een kaart naar een willekeurige kolom op het bord verplaatsen of een kaart kopiëren.
 
-Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, kunnen de status, toewijzingen en tags automatisch worden bijgewerkt wanneer u een kaart van de ene kolom naar de andere verplaatst. Zie &quot;Kolominstellingen en beleid definiëren&quot; in het artikel voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, kunnen de status, toewijzingen en tags automatisch worden bijgewerkt wanneer u een kaart van de ene kolom naar de andere verplaatst. Voor meer informatie, zie &quot;kolommontages en beleid&quot;in het artikel [ leiden boardkolommen ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
@@ -44,23 +44,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Kaarten tussen kolommen verplaatsen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Sleep de kaart naar een andere kolom op de gewenste positie.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Move]**. Dan, op **[!UICONTROL Move Item]** een andere kolom kiezen en **[!UICONTROL Move]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Move]**. Kies vervolgens in het vak **[!UICONTROL Move Item]** een andere kolom en selecteer **[!UICONTROL Move]** .
 
-   ![Kaart verplaatsen](assets/boards-move-card-350x217.png)
+   ![ kaart van de Beweging ](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >Wanneer u de **[!UICONTROL Move Item]** wordt de kaart altijd boven aan de kolom geplaatst.
+   >Als u het vak **[!UICONTROL Move Item]** gebruikt, wordt de kaart altijd boven aan de kolom geplaatst.
 
 ## Kaarten naar de boven- of onderkant van een kolom verplaatsen
 
@@ -69,9 +69,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Top of column]** of **[!UICONTROL Bottom of column]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Top of column]** of **[!UICONTROL Bottom of column]**.
 
-   ![Het menu Meer](assets/boards-moremenu-350x329.png)
+   ![ Meer menu ](assets/boards-moremenu-350x329.png)
 
 ## Een kaart kopiëren
 
@@ -82,8 +82,8 @@ Door een ad-hockaart te kopiëren worden alle velden op de kaart gedupliceerd, i
 >U kunt geen verbonden kaarten kopiëren.
 
 1. Toegang tot het bord.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Copy]**.
+1. Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Copy]** .
 
-   ![Het menu Meer](assets/boards-moremenu-350x329.png)
+   ![ Meer menu ](assets/boards-moremenu-350x329.png)
 
-   In dezelfde kolom wordt een nieuwe kaart toegevoegd met de titel &quot;Kopie van - [oorspronkelijke creditcardnaam].&quot;
+   Een nieuwe kaart wordt toegevoegd in de zelfde kolom met de titel &quot;exemplaar van - [ originele kaartnaam ].&quot;

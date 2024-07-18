@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Proofingsberichten beheren
-description: Meldingen beheren voor proefopmerkingen en -beslissingen
+title: Proofmeldingen beheren
+description: Meldingen beheren voor proefdrukopmerkingen en -beslissingen
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,6 +15,6 @@ ht-degree: 0%
 
 ---
 
-# Proofingsberichten beheren
+# Proofmeldingen beheren
 
-* [Meldingen beheren voor proefopmerkingen en -beslissingen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+* [Meldingen beheren voor proefdrukopmerkingen en -beslissingen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)

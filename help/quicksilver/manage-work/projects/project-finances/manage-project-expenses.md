@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Projectkosten beheren
 
-Het proces voor het creëren van en het leiden van uitgaven is het zelfde voor zowel project als taak-gerelateerde uitgaven. Eventuele kosten die in de Business Case aan het project worden toegevoegd, worden als geplande uitgaven toegevoegd aan het tabblad Uitgaven. Raadpleeg het artikel voor meer informatie over de Business Case [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Het proces voor het creëren van en het leiden van uitgaven is het zelfde voor zowel project als taak-gerelateerde uitgaven. Eventuele kosten die in de Business Case aan het project worden toegevoegd, worden als geplande uitgaven toegevoegd aan het tabblad Uitgaven. Voor meer informatie over het BedrijfsGeval, zie het artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 Het totale bedrag van uw uitgaven van alle taken en het project draagt aan de totale kosten van het project bij. Het geplande bedrag van de uitgaven draagt bij tot de geplande kosten van het project en het werkelijke bedrag van de uitgaven draagt bij tot de werkelijke kosten van het project.
 
@@ -37,51 +37,51 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p><b>OPMERKING</b> </p>
-   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en financiële gegevens bewerken</p> <p><b> NOTA </b> </p>
+   <p> Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Draag of hoger toestemmingen aan het project met toestemmingen bij Mening of leidt Financiën</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute of hogere machtigingen voor het project met machtigingen voor View of Manage Finance</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Uitgaven toevoegen
 
 1. Ga naar het project waar u uitgaven wilt ingaan.\
    Als u uitgaven aan een taak wilt toevoegen, navigeer aan een taak in plaats daarvan. 
-1. Klikken **Meer weergeven** en klik vervolgens op **Uitgaven**.
-1. Klikken **Een uitgave toevoegen** .
-De **Een uitgave toevoegen** wordt weergegeven.
+1. Klik **tonen Meer**, dan klik **Uitgaven**.
+1. Klik **toevoegen een Kosten**.
+**voegt een de dialoogdoos van de Kosten** toe wordt getoond.
 1. Werk het volgende bij:
 
-   * **Omschrijving:** Beschrijving van de uitgave.
+   * **Beschrijving:** Beschrijving van de uitgave.
 
-   * **Type uitgave:** (Vereist) Selecteer de categorie die de uitgave het best beschrijft.
-   * **Taak:** Typ de naam van de taak waaraan deze uitgave is gekoppeld en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
-   * **Geplande hoeveelheid:** Het geplande begrote bedrag voor de uitgaven.\
+   * **Type van Kosten:** (Vereist) selecteer de categorie die het best de uitgave beschrijft.
+   * **Taak:** begin typend de naam van de taak die deze uitgave met wordt geassocieerd, dan klik het wanneer het in de drop-down lijst verschijnt.
+   * **Gepland Bedrag:** het geplande begrote bedrag voor de uitgave.\
      Dit heeft gevolgen voor de begrote kosten van het project.
 
-   * **Werkelijk bedrag:** Het bedrag dat de uitgave werkelijk kostte.\
+   * **Ware Bedrag:** het bedrag dat de uitgave werkelijk kosten.\
      Dit is van invloed op de werkelijke kosten van het project.
 
-   * **Geplande datum:** De verwachte datum voor de uitgave. U kunt de datum in het veld typen met het gereedschap *dd/mm/yy* of op het kalenderpictogram klikken  ![](assets/calendar-icon.png) en selecteert u de datum dynamisch.
+   * **Geplande Datum:** de verwachte datum voor de uitgave om voor te komen. U kunt de datum op het gebied typen gebruikend het *mm/dd/yy* formaat, of u kunt het kalenderpictogram klikken  ![](assets/calendar-icon.png) en selecteert u de datum dynamisch.
 
-   * **Betaalde datum:** De datum waarop de uitgave is betaald.
-   * **Billable:** Selecteer deze optie als u deze kosten wilt doorberekenen. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
-   * **Terugbetaalbaar:** Selecteer deze optie als de kosten moeten worden vergoed. Vervolgens kunt u de kosten als vergoed markeren nadat de kosten zijn vergoed.
+   * **Betaalde Datum:** De datum de uitgave werd betaald.
+   * **Billable:** selecteer deze optie als u deze uitgave wilt factureren. Het categoriseren van een uitgave als factureerbaar is belangrijk wanneer het creëren van factureringsverslagen.
+   * **Terugbetaalbaar:** selecteer deze optie als de uitgave moet worden vergoed. Vervolgens kunt u de kosten als vergoed markeren nadat de kosten zijn vergoed.
 
-1. Selecteer een **Aangepast formulier** en geeft aan welke aanvullende informatie vereist is. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Zie het artikel voor informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Selecteer de Vorm van de Douane van a **** en specificeer om het even welke extra vereiste informatie. U moet een aangepast formulier maken voordat u het aan een uitgave kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie over het creëren van douaneformulieren, zie het artikel [ creeer of geef een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
 ## Kosten verwijderen
 
 1. Ga naar het project waar u uitgaven wilt schrappen.
-1. Klikken **Meer weergeven** en klik vervolgens op **Uitgaven**.
-1. Selecteer de kosten die u wilt verwijderen en klik vervolgens op **Verwijderen** ![Verwijderen](assets/delete.png).
+1. Klik **tonen Meer**, dan klik **Uitgaven**.
+1. Selecteer de uitgaven die u wilt schrappen, dan **Schrapping** ![ ](assets/delete.png) klikken.
 
-1. Klikken **Ja, verwijderen** om schrapping te bevestigen.
+1. Klik ja **, schrap het** om schrapping te bevestigen.

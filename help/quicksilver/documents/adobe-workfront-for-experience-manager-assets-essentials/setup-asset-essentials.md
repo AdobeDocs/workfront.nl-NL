@@ -31,33 +31,33 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-abonnement*</strong>
+   <td><strong> plan* van Adobe Workfront </strong>
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenties*</strong>
+   <td><strong> Adobe Workfront vergunningen* </strong>
    </td>
    <td>Plan
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager</strong>
+   <td><strong> vergunning van de Experience Manager </strong>
    </td>
    <td>Standaard
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td><strong> Product </strong>
    </td>
    <td>U moet beschikken over Experience Manager Assets Essentials en u moet als gebruiker aan het product in de Admin Console worden toegevoegd.
    </td>
   </tr>
   <tr>
-   <td><strong>Configuraties op toegangsniveau</strong>
+   <td><strong> het niveauconfiguraties van de Toegang </strong>
    </td>
-   <td>U moet een Workfront-beheerder zijn. Zie voor informatie over Workfront-beheerders <strong>Volledige administratieve toegang verlenen aan een gebruiker</strong>.
+   <td>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <strong> een gebruiker volledige administratieve toegang verlenen </strong>.
    </td>
   </tr>
 </table>
@@ -68,27 +68,27 @@ U moet het volgende hebben:
 
 ## Integratie instellen
 
-1. Klik op de knop **Hoofdmenu** in de rechterbovenhoek van Adobe Workfront en klik vervolgens op **Instellen**.
-1. Selecteren  **Documenten** ![documentpictogram](assets/document-icon.png) in het linkerdeelvenster selecteert u vervolgens **Experience Manager-integratie**.
-1. Selecteren **Integratie van Experience Manager toevoegen**.
+1. Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling**.
+1. Selecteer **Documenten** ![ documentenpictogram ](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van de Experience Manager**.
+1. Selecteer **toevoegen de Integratie van de Experience Manager**.
 1. Geef het volgende op:
 
    <table>
    <tr>
-      <td><strong>Naam</strong>
+      <td><strong> Naam </strong>
       </td>
       <td>Voer de naam in die gebruikers moeten zien in de knop Nieuwe toevoegen in het gebied Documenten.
       </td>
    </tr>
    <tr>
-      <td><strong>Navigatie-URL</strong>
+      <td><strong> Navigatie URL </strong>
       </td>
       <td>De navigatie-URL wordt automatisch door het systeem gevuld. Deze URL wordt gebruikt om aan de instantie van de Assets Essentials van uw organisatie van het Belangrijkste Menu voor snelle toegang te verbinden.
       </td>
    </tr>
    <tr>
       <td>
-      <strong>Experience Manager Assets-opslagplaats</strong>
+      <strong> de bewaarplaats van Experience Manager Assets </strong>
       </td>
       <td>
       Het systeem vult automatisch de opslagplaats voor Experience Managers in die aan uw organisatie-id is gekoppeld.
@@ -96,7 +96,7 @@ U moet het volgende hebben:
    </tr>
    </table>
 
-1. Klikken **Opslaan** of ga naar de [Metagegevens instellen (optioneel)](#set-up-metadata-optional) in dit artikel.
+1. Klik **sparen** of beweging op de [ Opgestelde meta-gegevens (facultatief) ](#set-up-metadata-optional) sectie in dit artikel.
 
 
 ## Metagegevens instellen (optioneel)
@@ -108,8 +108,8 @@ Wijs Workfront-objectgegevens toe aan middelenmediavelden in Experience Manager 
 
 Voordat u begint, moet u
 
-* Een metagegevensschema configureren in Experience Manager Assets Essentials, zoals wordt uitgelegd in [Metagegevenstoewijzing tussen Adobe Workfront en Experience Manager Assets configureren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Zie voor meer informatie [Een aangepast formulier maken of bewerken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Ondersteunde velden voor Workfront en Experience Manager Assets
 
@@ -117,9 +117,9 @@ Voordat u begint, moet u
 
 U kunt elk door Workfront ondersteund veld toewijzen aan een trefwoord in Experience Manager Assets Essentials.
 
-Als u een veld wilt koppelen aan een trefwoord, selecteert u `xcm:keywords` in de vervolgkeuzelijst Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
+Als u een veld aan een trefwoord wilt koppelen, selecteert u `xcm:keywords` in de vervolgkeuzelijst Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
 
-Als u meerdere tekstvelden met één regel wilt toewijzen aan trefwoorden, voert u een door komma&#39;s gescheiden lijst van de trefwoordwaarden in aan de Workfront-zijde van de metagegevenstoewijzing, en `xcm:keywords` aan de zijde van Experience Manager Assets. Elke veldwaarde wordt toegewezen aan een afzonderlijk trefwoord. U kunt een berekend veld gebruiken om meerdere Workfront-velden te combineren tot één door komma&#39;s gescheiden tekstveld.
+Als u meerdere tekstvelden met één regel wilt toewijzen aan trefwoorden, voert u een door komma&#39;s gescheiden lijst van de trefwoordwaarden in aan de Workfront-zijde van de metagegevenstoewijzing en `xcm:keywords` aan de Experience Manager Assets-zijde. Elke veldwaarde wordt toegewezen aan een afzonderlijk trefwoord. U kunt een berekend veld gebruiken om meerdere Workfront-velden te combineren tot één door komma&#39;s gescheiden tekstveld.
 
 <!--
 Look for essentials article
@@ -129,20 +129,20 @@ For more information on keywords in Experience Manager Assets, including how to 
 +++
 
 
-### Activa
+### Assets
 
 Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfront wordt geduwd. Documenten met de ingebouwde of aangepaste velden worden automatisch toegewezen aan de opgegeven velden wanneer een element voor het eerst wordt verzonden naar Experience Manager Assets Essentials.
 
-1. In de **Workfront-veld** kiest u een ingebouwd of aangepast Workfront-veld.
+1. Op het **gebied van Workfront** kolom, kies een ingebouwd of gebied van douaneWorkfront.
    >[!NOTE]
    >
    >U kunt één Workfront-veld toewijzen aan meerdere Experience Manager Assets-velden. U kunt niet meerdere Workfront-velden toewijzen aan één Experience Manager Assets-veld.
-1. In de **Experience Manager** een Experience Manager Assets-veld kiezen.
+1. Op het **Experience Manager** gebied, kies een gebied van Experience Manager Assets.
 
-   Als u een Workfront-veld wilt toewijzen aan een Experience Manager Assets-tag, selecteert u `xcm:keywords`.
+   Als u een Workfront-veld wilt toewijzen aan een Experience Manager Assets-tag, selecteert u `xcm:keywords` .
 1. Herhaal stap 1 en 2 zo nodig.
-   ![metagegevens inschakelen](assets/metadata-assets-essentials.png)
-1. Klikken **Opslaan** of ga naar de [Gekoppelde mappen instellen (optioneel)](#set-up-linked-folders-optional) in dit artikel.
+   ![ laat meta-gegevens ](assets/metadata-assets-essentials.png) toe
+1. Klik **sparen** of beweging op de [ Opstelling verbonden omslagen (facultatief) ](#set-up-linked-folders-optional) sectie in dit artikel.
 
 
 ## Gekoppelde mappen instellen (optioneel)

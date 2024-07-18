@@ -31,9 +31,9 @@ Afhankelijk van welk gebied van Workfront u tot uw taak of kwestie van toegang h
 
   >[!TIP]
   >
-  >U kunt de knop Aan de werkbalk vervangen door de knop Start. Voor informatie over het vervangen van het Werk aan het knoop door een knoop van het Begin, zie  [De knop Aan de werkbalk vervangen door de knop Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >U kunt de knop Aan de werkbalk vervangen door de knop Start. Voor informatie over het vervangen van het Werk op het knoop met een knoop van het Begin, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-* Nadat u op Aan werken hebt geklikt, wordt de knop gewijzigd in Markeren zoals voltooid of Gereed, afhankelijk van de locatie in Workfront waar u de taak of het probleem opent. Zie de sectie voor informatie over waar u toegang kunt krijgen tot de knop Werken met deze knop [De knoppen Aan werken en Gereed zoeken](#locate-the-work-on-it-and-done-button) in dit artikel.
+* Nadat u op Aan werken hebt geklikt, wordt de knop gewijzigd in Markeren zoals voltooid of Gereed, afhankelijk van de locatie in Workfront waar u de taak of het probleem opent. Voor informatie over waar u tot het Werk op de knoop van het kunt toegang hebben, zie de sectie [ van het Werk op het vinden en de Gedaan knoop ](#locate-the-work-on-it-and-done-button) in dit artikel.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -47,22 +47,22 @@ U kunt de knoppen Werk aan en Gereed vinden in de volgende Workfront-gebieden:
 
 * Het gebied Home, zowel in de Lijst van het Werk als in het paneel van details
 
-  Voor informatie over het markeren van een item zoals Gereed in het gebied Home raadpleegt u [Een item markeren als Gereed in het gebied Home](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Voor informatie over het merken van een punt zoals Gedaan op het gebied van het Huis, zie [ Teken een punt zoals Gedaan in het gebied van het Huis ](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * In de kop van de taak of uitgave
 
-  Voor informatie over de objectkoppen raadpleegt u [Nieuwe objectkoppen](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Voor informatie over de objecten kopballen, zie [ Nieuwe objecten kopballen ](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * In het deelvenster Overzicht van taak of uitgave in een lijst of in het deelvenster Werklastverdeling
 
-  Voor informatie over het gebruik van het deelvenster Samenvatting raadpleegt u [Overzicht van samenvattingen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Voor informatie over het gebruiken van het Summiere paneel, zie [ Overzicht ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Overzicht van velden die automatisch worden bijgewerkt wanneer u op de knop Aan werken en Gereed klikt
 
 Het voordeel van de knoppen Werk aan en Gereed is dat u Workfront kunt toestaan om automatisch gegevens bij te werken over het aan u toegewezen werkitem.
 
-* [De knop Werken](#work-on-it-button)
-* [De knop Start](#start-button)
+* [ Werk op het knoop ](#work-on-it-button)
+* [ knoop van het Begin ](#start-button)
 * [De knop Gereed](#the-done-button)
 
 ### De knop Werken {#work-on-it-button}
@@ -73,26 +73,26 @@ Wanneer u op Aan werken klikt, worden de volgende items ook bijgewerkt:
 
   >[!TIP]
   >
-  >Het veld Toekeningsstatus is alleen zichtbaar in rapporten en lijsten. Voor informatie over het gebied van de Status van de Taak, zie [Woordenlijst met Adobe Workfront-terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >Het veld Toekeningsstatus is alleen zichtbaar in rapporten en lijsten. Voor informatie over het gebied van de Status van de Taak, zie de [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Vastlegdatum
 
-  Zie voor meer informatie over de datum waarop u bent vastgelegd [Overzicht van datum vastleggen](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Voor informatie over begaat datum, zie [ Overzicht van de Datum van het Vastleggen ](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### De knop Start {#start-button}
 
-Als u toegang hebt tot bewerkingsteams, kunt u de knop Aan het werk vervangen door een knop Start voor een team. Wanneer de gebruikers met dat team als hun Team van het Huis de knoop van het Begin op punten klikken zij aan worden toegewezen, werken de extra gebieden op hun het werkpunten automatisch bij. Voor informatie over het vervangen van het Werk aan het knoop door een knoop van het Begin, zie [De knop Aan de werkbalk vervangen door de knop Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Als u toegang hebt tot bewerkingsteams, kunt u de knop Aan het werk vervangen door een knop Start voor een team. Wanneer de gebruikers met dat team als hun Team van het Huis de knoop van het Begin op punten klikken zij aan worden toegewezen, werken de extra gebieden op hun het werkpunten automatisch bij. Voor informatie over het vervangen van het Werk op het knoop met een knoop van het Begin, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 Naast de velden die worden bijgewerkt wanneer u op de knop Aan de taak werken klikt, worden de volgende velden automatisch bijgewerkt op een taak of probleem wanneer u op de knop Start klikt:
 
 * Status
 * Werkelijke begindatum
 
-  Voor informatie over de Werkelijke Datum van het Begin, zie [Overzicht van het project Werkelijke Begindatum](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Voor informatie over de Ware Datum van het Begin, zie [ Overzicht van de daadwerkelijke Datum van het Begin van het project ](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 * De werkelijke Voltooiingsdatum als de knop Start is gekoppeld aan een status die gelijk is aan Voltooid of Gesloten.
 
-  Zie voor meer informatie over de datum van feitelijke voltooiing [Overzicht van het project Werkelijke uitvoeringsdatum](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Voor informatie over de Ware Datum van de Voltooiing, zie [ Overzicht van de Werkelijke Datum van de Voltooiing van het project ](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >
@@ -114,5 +114,5 @@ Als u toegang hebt tot bewerkingsteams, kunt u de knop Gereed voor een team conf
 
 Raadpleeg de volgende artikelen voor informatie over het configureren van de knop Done voor een team:
 
-* [De knop Gereed configureren voor taken](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+* [ vorm de Done knoop voor taken ](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
 * [De knop Gereed configureren voor problemen](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)

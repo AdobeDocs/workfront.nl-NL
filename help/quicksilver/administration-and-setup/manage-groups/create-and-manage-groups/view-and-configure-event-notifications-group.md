@@ -26,9 +26,9 @@ Een Workfront-beheerder kan dit ook voor elke groep doen.
 
 Het vormen van een gebeurtenisbericht voor een groep beïnvloedt gebruikers voor wie die groep, of één van zijn subgroepen, hun Groep van het Huis is. In hun gebruikersprofielen zien deze gebruikers de gebeurtenismeldingen die voor hun thuisgroep zijn geactiveerd in plaats van de gebeurtenismeldingen die voor het hele systeem zijn geactiveerd.
 
-Voor informatie over hoe een Workfront-beheerder een gebeurtenismelding ontgrendelt, raadpleegt u [Configuratie van gebeurtenismeldingen voor alle groepen ontgrendelen of vergrendelen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Voor informatie over hoe een beheerder van Workfront een gebeurtenisbericht ontgrendelt, zie [ configuratie van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) ontgrendelen of sluiten.
 
-Voor informatie over de standaardmeldingsinstelling voor een gebeurtenis raadpleegt u [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor informatie over het standaardbericht dat voor een gebeurtenis plaatst, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Toegangsvereisten
 
@@ -44,34 +44,34 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## De gebeurtenismeldingen van een groep weergeven en configureren
 
-1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent en u zich al op de pagina E-mailmeldingen bevindt (Setup > E-mail > Meldingen), kunt u het volgende doen en verdergaan met stap 6: Verwijderen **Systeemgebeurtenismeldingen** typ in het vak boven de lijst de naam van de groep in het vak en klik vervolgens op de naam wanneer deze wordt weergegeven.
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. (Voorwaardelijk en facultatief) als u een beheerder van Workfront bent en u reeds op de E-mailmeldingspagina (Opstelling > E-mail > Meldingen) bent, kunt u het volgende doen en dan overslaan aan stap 6: De Berichten van de Gebeurtenis van het Systeem van de Schrapping **in de doos boven de lijst, beginnen de naam van de groep in de doos te typen, dan het te klikken wanneer het verschijnt.**
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik op de naam van de bovenste groep.
-1. Klik in het linkermenu op **Gebeurtenismeldingen**.
+1. In het linkermenu, klik **de berichten van de Gebeurtenis**.
 
-   In de lijst die wordt weergegeven, **Actief** in de linkerkolom wordt aangegeven welke meldingen actief (blauw) en inactief (grijs) zijn voor de groep.
+   In de lijst die toont, toont de **Actieve** kolom op de linkerzijde welke berichten actief (blauw) en inactief (grijs) voor de groep zijn.
 
-1. U activeert of deactiveert een ontgrendelde gebeurtenismelding door op de knop in het dialoogvenster <strong>Actief</strong> te activeren kolom <img src="assets/email-notification-enabled-unlocked.png"> of deactiveren <img src="assets/email-notification-disabled-unlocked.png"> het.
+1. Om een ontgrendeld gebeurtenisbericht te activeren of onbruikbaar te maken: klik de knoop in de <strong> Actieve </strong> kolom om te activeren <img src="assets/email-notification-enabled-unlocked.png"> of deactiveren <img src="assets/email-notification-disabled-unlocked.png"> it.
 
    >[!INFO]
    >
-   >**Voorbeeld:** U kon de hoogste twee hieronder getoonde de de groepsgebeurtenisberichten van de Marketing vormen die voor groepen ontgrendeld zijn.</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* Als een knop in het dialoogvenster <strong>Actief</strong> de kolom is grijs en wordt grijs weergegeven <img src="assets/email-notification-disabled-locked.png">, wordt de gebeurtenismelding gedeactiveerd voor alle gebruikers en groepsbeheerders kunnen deze niet activeren of de onderwerpregel van de e-mail niet bewerken
-   >* Als een knop in het dialoogvenster <strong>Actief</strong> de kolom is grijs en niet gedimd <img src="assets/email-notification-disabled-unlocked.png">, de gebeurtenis wordt gemeld <strong>gedeactiveerd voor alle gebruikers en</strong> groepsbeheerders kunnen deze activeren voor hun groepen.
-   >* Als een knop in het dialoogvenster <strong>Actief</strong> kolom is blauw en is grijs <img src="assets/email-notification-enabled-locked.png">, wordt het gebeurtenisbericht geactiveerd voor alle gebruikers en groepsbeheerders kunnen het niet deactiveren of de e-mailonderwerpregel van het bericht voor hun groepen bewerken.
-   >* Als een knop in het dialoogvenster <strong>Actief</strong> kolom is blauw en niet gedimd <img src="assets/email-notification-enabled-unlocked.png">, de gebeurtenis wordt gemeld <strong>geactiveerd voor alle gebruikers en</strong> groepsbeheerders kunnen deze voor hun groepen deactiveren.
+   >**Voorbeeld:** u kon de hoogste twee hieronder getoonde de de groepsgebeurtenisberichten van de Marketing vormen die voor groepen zijn ontgrendeld.</p> <p> <img src="assets/configure-group-event-notifications.png">
+   >* Als een knoop in de <strong> Actieve </strong> kolom grijs en verduisterd is <img src="assets/email-notification-disabled-locked.png"> , wordt de gebeurtenismelding gedeactiveerd voor alle gebruikers en groepsbeheerders kunnen deze niet activeren of de e-mailonderwerpregel ervan bewerken
+   >* Als een knoop in de <strong> Actieve </strong> kolom grijs is en niet gedimd <img src="assets/email-notification-disabled-unlocked.png">, wordt het gebeurtenisbericht <strong> gedeactiveerd voor alle gebruikers en </strong> groepsbeheerders kunnen het voor hun groepen activeren.
+   >* Als een knoop in de <strong> Actieve </strong> kolom blauw en verduisterd is <img src="assets/email-notification-enabled-locked.png"> , wordt de gebeurtenismelding geactiveerd voor alle gebruikers en groepsbeheerders kunnen deze niet deactiveren of de e-mailonderwerpregel van deze gebruiker voor hun groepen bewerken.
+   >* Als een knoop in de <strong> Actieve </strong> kolom blauw en niet gedimd is <img src="assets/email-notification-enabled-unlocked.png">, wordt het gebeurtenisbericht <strong> geactiveerd voor alle gebruikers en </strong> groepsbeheerders kunnen het voor hun groepen deactiveren.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

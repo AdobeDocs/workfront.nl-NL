@@ -18,13 +18,13 @@ ht-degree: 0%
 
 De nieuwe workflow voor het beoordelen en goedkeuren van bedrijfsmiddelen is gebaseerd op een verregaande integratie tussen Workfront en Frame.io. Deze integratie neemt het beste van wat elk product moet aanbieden en combineert hen om een ervaring tot stand te brengen die iedereen betrokken bij de verwezenlijking van inhoud toestaat om in hun hulpmiddelen van keus te werken, terwijl het hebben van toegang tot commentaren, dossiers, en status update-allen die over beide systemen in echt - tijd wordt gesynchroniseerd.
 
-Zie voor meer informatie over Frame.io [Aan de slag met Frame.io](https://support.frame.io/en/collections/49298-getting-started).
+Voor meer informatie over Frame.io, zie [ Begonnen het Worden met Frame.io ](https://support.frame.io/en/collections/49298-getting-started).
 
 ## Starten en plannen van werkzaamheden in Workfront
 
 De beheerder van Workfront laat de integratie tussen Workfront en Frame.io toe door de standaardrekening Frame.io in het gebied van de Opstelling te vormen en dan gebruikers Frame.io in Workfront aan te wijzen. Hierdoor kan de coördinator werken plannen en initiëren met behulp van Workfront-projecten en formele evaluatie- en goedkeuringswerkstromen.
 
-### De standaardaccount Frame.io configureren [!BADGE Binnenkort beschikbaar]{type=Informative}
+### Vorm het gebrek Frame.io rekening [!BADGE  Binnenkort ]{type=Informative}
 
 Workfront-beheerders starten de integratie met Workfront en Frame.io door een standaard Frame.io-account toe te voegen in het gedeelte Setup van Workfront. Zodra de rekening standaard Frame.io opstelling is, hebben om het even welke projecten die in Workfront worden gecreeerd een spiegelproject dat in Frame.io wordt gecreeerd.
 
@@ -48,9 +48,9 @@ Wanneer een gebruiker duidelijk als gebruiker Frame.io in Workfront is en aan ee
 
 * Zij worden toegevoegd als Medewerker in Frame.io.
 * Ze kunnen middelen van Frame.io naar Workfront verzenden voor formele controle en goedkeuring.
-* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE Binnenkort beschikbaar]{type=Informative}
+* Ze kunnen informatie bekijken in de map voor one-way sync vanuit Workfront. [!BADGE  Binnenkort ]{type=Informative}
 
-Zie voor meer informatie [Vorm [!DNL Workfront] en [!DNL Frame.io] integratie](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+Voor meer informatie, zie [ de  [!DNL Workfront]  vormen en  [!DNL Frame.io]  integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ![](assets/Frame-enabled-user.png)
 
@@ -59,12 +59,12 @@ Zie voor meer informatie [Vorm [!DNL Workfront] en [!DNL Frame.io] integratie](/
 
 Zodra de standaardrekening Frame.io wordt toegevoegd en de gebruikers Frame.io worden aangewezen, kunnen de projectcoördinatoren Workfront projecten tot stand brengen die met Frame.io worden verbonden. Wanneer u een verbonden project maakt, kunt u
 
-* **Frame.io-gebruikers toewijzen aan taken**: Gebruikers met Frame.io-functionaliteit worden via e-mail op de hoogte gesteld wanneer zij aan een Workfront-taak zijn toegewezen. Hierbij wordt aangegeven dat er werk moet worden voltooid.
-* **Deel het project met Gebruikers Frame.io**: Wanneer een project met Frame.io toegelaten gebruikers wordt gedeeld, hebben zij toegang tot het project binnen zowel Workfront als Frame.io.
-* **Creatieve materialen delen met Frame.io**: Projectcoördinatoren kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden via een eenrichtingsprojectmap voor synchronisatie. [!BADGE Binnenkort beschikbaar]{type=Informative}
-* **Taakvoortgang volgen**: Creatieve personen kunnen voltooide middelen en markeringstaken volledig verzenden, dus zonder Frame.io te verlaten.
+* **wijs Gebruikers Frame.io aan taken** toe: De toegelaten gebruikers Frame.io worden op de hoogte gebracht per e-mail wanneer zij aan een taak van Workfront worden toegewezen, signalerend daar werk is te voltooien.
+* **Deel het project met Gebruikers Frame.io**: Wanneer een project met toegelaten gebruikers wordt gedeeld Frame.io, hebben zij toegang tot het project binnen zowel Workfront als Frame.io.
+* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE  Binnenkort ]{type=Informative}
+* **de taakvooruitgang van het Spoor**: De Creatieven kunnen gebeëindigd activa verzenden en taken volledig-allen merken zonder Frame.io te verlaten.
 
-Zie voor meer informatie [Een project maken dat is verbonden met Frame.io](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
+Voor meer informatie, zie [ een project creëren dat met Frame.io ](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md) wordt verbonden.
 
 
 ## Inhoud maken en samenwerken in Frame.io
@@ -79,7 +79,7 @@ Wanneer creatief wordt toegevoegd aan een verbonden project, kunnen zij het volg
 * De status van een taak wijzigen of markeren als deze is voltooid
 * Nieuwe versies uploaden en vervolgens opnieuw ter goedkeuring verzenden <!--do they have to send to frame.io again?-->
 
-Zie voor meer informatie over Frame.io [Ik ben uitgenodigd om aan een Project samen te werken](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
+Voor meer informatie over Frame.io, zie [ ik ben uitgenodigd om aan een Project ](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project) samen te werken.
 
 ## Elementen controleren en goedkeuren
 
@@ -93,23 +93,23 @@ Projectcoördinatoren kunnen eenmalige beoordelingen en goedkeuringen of herbrui
 
 De projectcoördinatoren kunnen revisoren, fiatteurs of een combinatie van beide toewijzen:
 
-* **Revisoren** U kunt opmerkingen toevoegen en elementen markeren. Als ze klaar zijn, kunnen ze de revisie als voltooid markeren. Het is niet nodig de revisie als voltooid te markeren om het actief in het goedkeuringsproces verder te laten gaan.
-* **Fiatteurs** U kunt opmerkingen toevoegen en elementen markeren. Zij moeten een besluit nemen om het goedkeuringsproces vooruit te helpen.
+* **de Controleurs** kunnen commentaren toevoegen en activa opsommen. Als ze klaar zijn, kunnen ze de revisie als voltooid markeren. Het is niet nodig de revisie als voltooid te markeren om het actief in het goedkeuringsproces verder te laten gaan.
+* **Approvers** kunnen commentaren toevoegen en activa opsommen. Zij moeten een besluit nemen om het goedkeuringsproces vooruit te helpen.
 
 
 #### Een revisie- en goedkeuringswerkstroom maken
 
 Revisoren en fiatteurs kunnen worden toegevoegd aan een goedkeuringswerkstroom voor eenmalig gebruik of aan een herbruikbare goedkeuringssjabloon:
 
-* **Goedkeuring voor eenmalig gebruik**: In het project of de taak waar het middel zich bevindt, kan de projectcoördinator revisoren en fiatteurs aanwijzen en een deadline voor voltooiing stellen. Revisoren en fiatteurs worden 72 en 24 uur vóór de deadline per e-mail herinnerd, evenals op de deadline zelf.
+* **goedkeuringen voor eenmalig gebruik**: In het project of de taak waar het middel verblijft, kan de projectcoördinator revisoren en fiatteurs toewijzen en een voltooiingsdeadline plaatsen. Revisoren en fiatteurs worden 72 en 24 uur vóór de deadline per e-mail herinnerd, evenals op de deadline zelf.
 
-  Zie * voor meer informatie [Een revisie- of goedkeuringsaanvraag maken voor een Frame.io-element](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
+  Voor meer informatie, zie * [ een overzicht of goedkeuringsverzoek voor activa Frame.io ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md) creëren.
 
-* **Goedkeuringssjablonen**: In het gebied van de Opstelling van Workfront, kunnen de projectcoördinatoren duurzame Malplaatjes van de Goedkeuring tot stand brengen. In een sjabloon kunnen gebruikers revisoren en fiatteurs toevoegen en een voltooiingstijd opgeven. Wanneer de goedkeuringssjabloon op een actief wordt toegepast, wordt de deadline berekend vanaf het opgegeven tijdkader.
+* **malplaatjes van de Goedkeuring**: In het gebied van de Opstelling van Workfront, kunnen de projectcoördinatoren tot duurzame Malplaatjes van de Goedkeuring leiden. In een sjabloon kunnen gebruikers revisoren en fiatteurs toevoegen en een voltooiingstijd opgeven. Wanneer de goedkeuringssjabloon op een actief wordt toegepast, wordt de deadline berekend vanaf het opgegeven tijdkader.
 
   Nadat een sjabloon is gemaakt, kan deze worden toegepast op elementen die vanuit Frame.io worden verzonden om het formele beoordelings- en goedkeuringsproces in Workfront te starten.
 
-  Zie voor meer informatie [Een goedkeuringssjabloon maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+  Voor meer informatie, zie [ een Malplaatje van de Goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren
 
 
 ![](assets/assign-template.png)
@@ -135,13 +135,13 @@ Alle opmerkingen die in de viewer Frame.io worden gemaakt, worden ook opgenomen 
 
 Wanneer alle toetsingsactiviteiten zijn voltooid, moeten fiatteurs een van de volgende beslissingen nemen:
 
-* **Goedkeuren**: Het element hoeft niet te worden gewijzigd en is klaar voor gebruik.
-* **Goedkeuren met wijzigingen**: Het element moet worden gewijzigd en is klaar voor gebruik zodra het is gemaakt. Aanvullende goedkeuring is niet vereist.
-* **Werking vereist**: Het element moet worden gewijzigd en is niet gebruiksklaar. Nadat de opgegeven wijzigingen zijn aangebracht, moet het element worden geüpload als een nieuwe versie en moet een nieuwe goedkeuringsronde worden doorlopen. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+* **keur** goed: De activa hebben geen veranderingen nodig en is klaar voor gebruik.
+* **goedkeuren met veranderingen**: De activa vereist veranderingen en is klaar voor gebruik zodra zij worden gemaakt. Aanvullende goedkeuring is niet vereist.
+* **het werk van behoeften**: De activa vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het element worden geüpload als een nieuwe versie en moet een nieuwe goedkeuringsronde worden doorlopen. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Revisoren kunnen hun volledige revisie markeren in de Frame.io-viewer, maar dit is niet vereist als het element doorgaat in het goedkeuringsproces.
 
-Zie voor meer informatie over beslissingen in Workfront [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Voor meer informatie over besluiten in Workfront, zie [ overzicht van de beslissingsstatus van het Document ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![](assets/frame-viewer-and-decision.png)
 
@@ -155,5 +155,5 @@ Reviewer/approver needs to go through email to get to frame vier
 
 Projectcoördinatoren kunnen de voortgang van alle goedkeuringen tijdens de vlucht in het Workfront Home-gebied volgen met de volgende widget:
 
-* **Alle goedkeuringen**: Hiermee geeft u 2 grafieken weer met informatie over de gemiddelde goedkeuringstijd en -beslissingen, plus de lijstweergaven van goedkeuringen die in behandeling zijn en die te laat zijn.
+* **Alle goedkeuringen**: Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen.
   ![](assets/all-approvals.png)

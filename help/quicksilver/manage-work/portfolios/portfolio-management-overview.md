@@ -22,4 +22,4 @@ Deze sectie bevat de volgende subsecties:
 * [Portfolio&#39;s](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
 * [Portfolio&#39;s maken en beheren](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
 * [Programma&#39;s maken en beheren](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
-* [Projecten beheren in het dialoogvenster [!UICONTROL Portfolio Optimizer]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+* [Projecten beheren in de [!UICONTROL Portfolio Optimizer]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Workfront Fusion releaseactiviteit: week van 14 november 2022
 
-**Microsoft-Power BI-connector en -modules nu beschikbaar**
+**de Power BI schakelaar en modules van Microsoft nu beschikbaar**
 
 Nu kunt u Adobe Workfront Fusion verbinden met uw Microsoft Power BI-account.
 
@@ -31,4 +31,4 @@ Met de Microsoft Power BI-modules kunt u:
 * Rijen toevoegen aan of verwijderen uit een gegevenssettabel
 * Een aangepaste API-aanroep naar de Microsoft Power BI-API maken
 
-Zie voor meer informatie [Microsoft Power BI modules](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+Voor meer informatie, zie [ modules van de Power BI van Microsoft ](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).

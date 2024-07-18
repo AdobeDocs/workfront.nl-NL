@@ -51,12 +51,12 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## De overzichtsweergave openen
 
-1. Ga naar de **Documenten** en selecteert u een item in de lijst.
-1. Klik op de knop **Pictogram Samenvatting openen** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Ga naar het **gebied van Documenten** en selecteer een punt in de lijst.
+1. Klik het **Open Summiere pictogram** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    Nadat u het Overzicht opent, blijft het open aangezien u op andere documenten klikt en blijft open tot u het manueel sluit.
 
@@ -64,9 +64,9 @@ U moet het volgende hebben:
 
 ## Details
 
-In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en communiceren met aangepaste formulieren. Klikken **Details** boven aan de sectie om naar de volledige pagina Documentdetails te gaan.
+In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en communiceren met aangepaste formulieren. Klik **Details** bij de bovenkant van de sectie om naar de volledige pagina van de Details van het Document te gaan.
 
-* [Overzicht](#overview)
+* [ Overzicht ](#overview)
 * [Aangepaste Forms](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
@@ -79,15 +79,15 @@ Vouw de sectie Overzicht uit om een miniatuur van een afbeelding weer te geven o
 
 ### Aangepaste Forms {#custom-forms}
 
-Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Zie voor meer informatie [Een aangepast formulier toevoegen aan of bewerken in een document](../../documents/managing-documents/add-custom-form-documents.md).
+Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Voor meer informatie, zie [ een douanevorm aan een document ](../../documents/managing-documents/add-custom-form-documents.md) toevoegen of uitgeven.
 
 ![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Updates
 
-In de sectie Updates kunt u een update lezen van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Zie voor meer informatie over updates [Opmerking over een proefdruk](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+In de sectie Updates kunt u een update lezen van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Voor meer informatie over updates, zie [ Commentaar op een proef ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Sectie Updates in het deelvenster Overzicht](assets/summary-updates-section-new-comments.png)
+![ sectie van Updates in Samenvattend paneel ](assets/summary-updates-section-new-comments.png)
 
 ## Goedkeuringen
 
@@ -95,14 +95,14 @@ Gebruik de sectie Goedkeuringen om goedkeuring van een document te vragen. U kun
 
 Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. Zie voor meer informatie over goedkeuringen
 
-* [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [ goedkeurend het werk ](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versies
 
-In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik op de knop **Het menu Meer** tot
+In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het **Meer menu** aan
 
 * Een proefdruk openen
 * Een proefdruk of document downloaden

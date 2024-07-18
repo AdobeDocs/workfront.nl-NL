@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -46,16 +46,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> Toegang van de Verlening tot kwesties </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waarnaar u het probleem kopieert, met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute geeft toestemming aan het item waarnaar u het probleem kopieert, met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Overwegingen bij het kopiëren van problemen
 
@@ -78,9 +78,9 @@ De volgende objecten worden standaard niet naar de nieuwe uitgave gekopieerd:
 
 Overweeg het volgende wanneer het kopiëren van kwesties die documenten bevatten of met een verzoekrij worden geassocieerd:
 
-* **Wanneer een kwestie met een verzoekrij wordt geassocieerd:** Wanneer u een uitgave naar een ander voorwerp kopieert en de kwestie met een verzoekrij wordt geassocieerd, wordt de gekopieerde kwestie niet meer geassocieerd met de originele rij de eerste kwestie voortkwam uit.
-* **Wanneer een document aan de uitgave wordt vastgemaakt:** Wanneer u een uitgave naar een ander voorwerp kopieert en de kwestie heeft een document aan het in bijlage, het document en zijn versies zich ook aan de nieuwe kwestie bewegen. Proefdrukken of goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
-* **Wanneer een uitgave aan een document of een omslag wordt verbonden:** Wanneer u een uitgave kopieert waarin documenten of mappen zijn gekoppeld aan een externe service zoals Google Drive, worden de koppelingen naar de documenten overgebracht naar de gekopieerde uitgave.
+* **wanneer een kwestie met een verzoekrij wordt geassocieerd:** wanneer u een kwestie aan een ander voorwerp kopieert en de kwestie met een verzoekrij wordt geassocieerd, wordt de gekopieerde kwestie niet meer geassocieerd met de originele rij de eerste kwestie voortgekomen uit.
+* **wanneer een document aan de kwestie in bijlage is:** wanneer u een kwestie aan een ander voorwerp kopieert en de kwestie een document in bijlage aan het heeft, bewegen het document en zijn versies ook naar de nieuwe kwestie. Proefdrukken of goedkeuringen die aan het document zijn gekoppeld, worden niet verplaatst.
+* **wanneer een kwestie met een document of een omslag wordt verbonden:** wanneer u een kwestie kopieert die documenten of omslagen verbonden met een derdedienst zoals de Aandrijving van Google heeft, de verbindingen met de documenten overbrengen naar de gekopieerde kwestie.
 
 ## Uitgaven kopiëren in een lijst
 
@@ -92,12 +92,12 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
    Ga naar een probleemrapport.
 
-1. Als u hebt geselecteerd om naar een project te gaan, klikt u op **Problemen** in het linkerdeelvenster.
-1. Selecteer de uitgave of de kwesties die u wilt kopiëren en klik **Het menu Meer** boven aan de lijst met uitgaven klikt u op **Kopiëren naar**.
+1. Als u selecteerde om naar een project te gaan, klik **Kwesties** in het linkerpaneel.
+1. Selecteer de kwestie of de kwesties die u wilt kopiëren en **klikken Meer menu** bij de bovenkant van de lijst van de kwestie, dan klik **Exemplaar aan**.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Doorgaan met het kopiëren van het probleem, zoals beschreven in de sectie [Eén uitgave kopiëren](#copy-a-single-issue) beginnen met Stap 2.
+1. Ga met het kopiëren van de kwestie voort, zoals die in de sectie [ wordt beschreven Kopieer één enkele kwestie ](#copy-a-single-issue) die met Stap 2 begint.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,30 +109,30 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
 U kunt één uitgave kopiëren wanneer het bekijken.
 
-1. Ga naar een kwestie die u wilt kopiëren, dan klik **Meer** menu ![](assets/more-icon.png) rechts van de naam van de uitgave, **Kopiëren** tot en met.
+1. Ga naar een kwestie die u wilt kopiëren, dan **klikken Meer** menu ![](assets/more-icon.png) aan het recht van de voorwaardennaam, dan **Exemplaar** aan.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
-   De **Probleem kopiëren** wordt weergegeven.
+   De **vertoningen van de Kwestie van het Exemplaar**.
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. In de **Doelproject selecteren** de naam van het project op waar u de uitgaven wilt kopiëren. De naam van het huidige project toont door gebrek.
+1. In de **Uitgezochte sectie van het Project van de Bestemming**, specificeer de naam van het project waar u de kwesties wilt kopiëren. De naam van het huidige project toont door gebrek.
 
    >[!TIP]
    >
    >Er worden slechts 100 projecten weergegeven in de lijst.
 
-1. (Voorwaardelijk) Klik **verzoek om toegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
+1. (Voorwaardelijk) klik **verzoektoegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
 1. (Voorwaardelijk) blijf de kwestie aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Zie voor meer informatie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-1. (Optioneel) In het dialoogvenster **Opties** Schakel een van de items uit die in de onderstaande tabel worden vermeld, uit als u deze uit de nieuwe uitgave wilt verwijderen. Alle opties zijn standaard geselecteerd.
+1. (Facultatief) in de **sectie van Opties**, schrap om het even welke punten die in de lijst hieronder worden vermeld om hen uit de nieuwe kwestie te verwijderen. Alle opties zijn standaard geselecteerd.
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ U kunt één uitgave kopiëren wanneer het bekijken.
      </tr> 
      <tr> 
       <td role="rowheader">Documenten</td> 
-      <td><span style="line-height: 1.5;">Hiermee verwijdert u alle gegevens op het documenttabblad, inclusief documentversies, gekoppelde documenten en mappen.</span> <br>Standaard kunnen proefdrukken en goedkeuringen van documenten niet naar een andere uitgave worden gekopieerd.</td> 
+      <td><span style="line-height: 1.5;"> verwijdert alles in het documentlusje, met inbegrip van documentversies, verbonden documenten, en omslagen.</span> <br> Door gebrek, kunnen de proefdrukken van het document en de goedkeuringen niet aan een andere kwestie worden gekopieerd.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Machtigingen</td> 
@@ -169,8 +169,8 @@ U kunt één uitgave kopiëren wanneer het bekijken.
     </tbody> 
    </table>
 
-1. (Optioneel) In het dialoogvenster **Taak selecteren** selecteert u de taak waar u de uitgave wilt plaatsen.
-1. Klikken **Uitgave kopiëren** of **Uitgaven kopiëren** als u meerdere uitgaven in een lijst hebt geselecteerd.
+1. (Facultatief) in de **Uitgezochte Taak** sectie, selecteer de taak waar u de kwestie wilt bewegen.
+1. Klik **kwestie van het Exemplaar** of **kwesties van het Exemplaar** als u veelvoudige kwesties in een lijst selecteerde.
 
    De gekopieerde problemen worden toegevoegd aan het opgegeven project.
 

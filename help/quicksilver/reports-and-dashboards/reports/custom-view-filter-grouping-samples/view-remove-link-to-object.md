@@ -41,45 +41,45 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>   
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
-## Voorbeeld: Verwijder de verbinding aan een taak uit de kolom van de Naam van de Taak in een taakmening:
+## Voorbeeld: verwijder de verbinding aan een taak uit de kolom van de Naam van de Taak in een taakmening:
 
 1. Ga naar een takenlijst.
-1. Van de **Weergave** vervolgkeuzelijst, klikt u op **Nieuwe weergave** om een nieuwe weergave te maken.
+1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening** om een nieuwe mening tot stand te brengen.
 
    of
 
-   Klik op de knop **Pictogram Bewerken** ![](assets/edit-icon.png)
+   Klik het **uitgeven pictogram** ![](assets/edit-icon.png)
 
    als u een bestaande weergave wilt bewerken, selecteert u de weergave.
 
-1. Klikken **Kolom toevoegen** om een nieuwe kolom toe te voegen.
+1. Klik **toevoegen Kolom** om een nieuwe kolom toe te voegen.
 
    of
 
    Klik op een bestaande kolom met een koppeling naar een object.
 
-1. Klikken **Overschakelen naar tekstmodus**.
-1. Houd de cursor boven het gebied van de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
-   <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. Beweeg over het gebied van de tekstwijze, en klik **Klik om tekst** uit te geven.
+1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
+   <pre>displayname=Task Naam <br> linkedname=direct <br> namekey=name <br> querysort=name <br> textmode=true <br><strong> valueexpression= {name} </strong><br> valueformat=Compound</pre>
 
    >[!TIP]
    >
    >U kunt vergelijkbare code voor andere objecten gebruiken door het volgende aan te passen:
    >
-   >* Vervang de **taxiveld** regel van de code met **valueexpression** en zorg dat dezelfde naam tussen accolades na het gelijkteken staat.
-   >* Alle regels die beginnen met verwijderen `link.` in de oorspronkelijke tekst van de kolom. Verwijder bijvoorbeeld alle volgende regels:
+   >* Vervang de **lijn van het waardegebied 0} {van de code met** waardeuitdrukking **en houd de zelfde naam inbegrepen in krullende steunen na het gelijke teken.**
+   >* Verwijder alle regels die beginnen met `link.` uit de oorspronkelijke tekst van de kolom. Verwijder bijvoorbeeld alle volgende regels:
    >
    >  ```
    >  link.linkproperty.0.name=ID
@@ -90,4 +90,4 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >  ```
    >
 
-1. Klikken **Opslaan** vervolgens **Weergave opslaan**.
+1. Klik **sparen**, dan **sparen Mening**.

@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Nee. De Desktop Proofing Viewer is speciaal ontworpen voor realtime proofing van
 
 Nochtans, in uw organisatie installeert het, merk op dat het ook kan worden gebruikt voor het proef van om het even welke andere types van gesteunde statische en videoinhoud. 
 
-Zie voor meer informatie [Verschillen tussen de webtestviewer en het overzicht van de Desktop Proofing Viewer](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+Voor meer informatie, zie [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van het Proofing van de Desktop ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
 ## Mijn organisatie staat gebruikers niet toe om toepassingen te installeren. Is er een manier om dit te omzeilen met de Desktop Proofing Viewer?
 
@@ -36,7 +36,7 @@ Zie voor meer informatie
 
 ## Hoe installeer ik de Desktop Viewer op mijn lokale systeem?
 
-Open een interactieve proefdruk en download de app rechtstreeks vanuit het startscherm.
+Open een interactieve proefdruk en download de app rechtstreeks van het scherm van de Lancering.
 
 ![](assets/mceclip0-350x114.png) 
 
@@ -50,7 +50,7 @@ Alleen als u een interactieve proefdruk- of real-time website naar de externe be
 
 ## Wat is de status van de verouderde proefdrukviewer, die mijn organisatie heeft gebruikt voor interactieve proefdrukken?
 
-Voorafgaand aan de release 2018.3 werd de verouderde proefdrukviewer ondersteund. Met de release van 2018.3 (november 2018) zijn de verouderde proofingviewer en alle andere toepassingen die afhankelijk zijn van Flash verwijderd en niet meer beschikbaar. 
+Voorafgaand aan de release 2018.3 werd de verouderde proefdrukviewer ondersteund. Met de release van 2018.3 (in november 2018) zijn de verouderde proofingviewer en alle andere toepassingen die afhankelijk zijn van Flash verwijderd en niet meer beschikbaar. 
 
 Voor statische proeven en videoproeven, is de nieuwe Kijker van het Bewijs van het Web de standaardkijker. Voor interactieve proefdrukken is de Desktop Proofing Viewer de standaardviewer.
 

@@ -53,11 +53,11 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie de &quot;sectie van Eerste vereisten&quot;in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Begrijp de het treemap visualisatie van het Project
 
@@ -65,15 +65,15 @@ De dozen in de het treemap van het Project visualisatie vertegenwoordigen projec
 
 De projectreemap-visualisatie bestaat uit:
 
-* **Kleinere, lichtblauwe vakken**: Projecten met minder uren (of dagen) worden weergegeven als kleinere vakken met een lichtblauwe kleur.
+* **Kleinere, lichtblauwe dozen**: De projecten die minder uren-of dagen-vertoning als kleinere dozen met een lichtblauwe kleur hebben.
 
   ![](assets/project-treemap-smaller-box.png)
 
-* **Grotere, donkerblauwe vakken**: Projecten met meer uren (of dagen) worden weergegeven als grotere vakken met een donkerblauwe kleur.
+* **Grotere, donkerblauwe dozen**: Projecten die meer uren-of dagen-vertoning als grotere dozen met een donkerblauwe kleur hebben.
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Blauwe vakken van standaardgrootte**: Projecten die tussen de twee categorieën vallen, worden weergegeven als middelgrote vakken met een blauwe tint tussen de donkerblauwe en lichtblauwe kleuren. Er zijn drie mogelijke tinten blauw voor de middelgrote dozen.
+* **Medium-Grootte, blauwe dozen**: De projecten die binnen tussen de twee categorieën vallen tonen als middelgrote dozen met een schaduw van blauw tussen de donkerblauwe en lichtblauwe kleuren. Er zijn drie mogelijke tinten blauw voor de middelgrote dozen.
 
 De legenda aan de rechterkant toont een uitsplitsing van voltooide uren voor elke schaduw van blauw. Deze legenda is dynamisch en wordt bijgewerkt op basis van de gegevens.
 
@@ -91,24 +91,24 @@ Aan de hand van deze informatie kunt u bepalen:
 * Als teams zich richten op de juiste dingen.
 * Wanneer een specifiek project wordt geklikt, hoeveel het werkingsgebied van een project in die tijdspanne veranderde.
 
-Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De webstream van het project visualiseren
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Voorwaardelijk) als u de reeks van projectgegevens moet beperken, selecteer en pas de filters toe die u wilt gebruiken.
 
-   Zie voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor meer informatie bij het toevoegen van filters in Verbeterde analyses, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
-1. (Optioneel) Als u de sortering van de projecten wilt wijzigen, klikt u op de knop **Sorteren op** in de rechterbovenhoek van de projectremap-visualisatie en selecteert u vervolgens een nieuwe sorteeroptie:
+1. (Facultatief) om te veranderen hoe de projecten worden gesorteerd, klik de **Soort door** menu in de hoger-juiste hoek van de het treemap van het Project visualization, dan selecteer een nieuwe sorterende optie:
 
    * **A - Z**
    * **Z - A**
@@ -123,7 +123,7 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/pagination-350x118.png)
 
-1. (Optioneel) De weergave wijzigen vanuit **geplande uren** tot **duur**.
+1. (Facultatief) verander de mening van **geplande uren** aan **duur**.
 
    Geplande uren zijn standaard geselecteerd.
 
@@ -133,21 +133,21 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    >[!NOTE]
    >
-   >Als u **duur** bekijken, zult u de volgende duurdetails zien:
+   >Als u de **duur** mening selecteerde, zult u de volgende duurdetails zien:
    >
-   >* **Geplande tijdlijn**: Het aantal dagen dat is gepland om het project te voltooien.
-   >* **Dagen bewerkt**: De geplande duur voor elke taak die werd voltooid binnen het datumbereik dat aan de bovenkant is geselecteerd, gedeeld door het aantal uren in een dag.
+   >* **Gepland Tijdframe**: Het aantal dagen gepland om het project te voltooien.
+   >* **Werkte Dagen**: De geplande duur voor elke taak die binnen de geselecteerde datumwaaier bij de bovenkant werd voltooid, die door het aantal uren in een dag wordt gedeeld.
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >Voor meer informatie over duur, zie de sectie &quot;mening van de Duur&quot;in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+   >Voor meer informatie over duur, zie de sectie &quot;mening van de Duur&quot;in [ Verbeterde analyse overzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * **Grafiek (PNG)**
+   * **Lijst van Gegevens (XSLX)**
 
 1. Klik een project om de Indruk en Taken in vluchtvisualisaties te openen om een dieper inzicht van te krijgen hoe de taken en uren-of dagen-bijgedragen aan de grootte van een project.
 
-Voor meer informatie over de Burndown visualisatie, zie [Bekijk de Burndown-visualisatie in de uitgebreide analyse](../enhanced-analytics/burndown-overview.md). Voor meer informatie over de Taken in vluchtvisualisatie, zie [De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse](../enhanced-analytics/tasks-in-flight-overview.md).
+Voor meer informatie over de Visualisatie van de Doordrukking, zie [ Mening de Visualisatie van de Doordrukking in Verbeterde analyses ](../enhanced-analytics/burndown-overview.md). Voor meer informatie over de Taken in vluchtvisualisatie, zie [ Mening de Taken in vluchtvisualisatie in Verbeterde analyses ](../enhanced-analytics/tasks-in-flight-overview.md).
 

@@ -35,11 +35,11 @@ Houd rekening met het volgende wanneer u werkt met filters, weergaven en groepen
 * Rapporten in Workfront zijn specifiek voor één object. U moet uw belangrijkste voorwerp voor een rapport bepalen alvorens u het rapport kunt bouwen. Alle rapportelementen zijn dus objectspecifiek.
 * Uw Workfront-beheerder moet u toegang verlenen tot filters, weergaven en groeperingen op uw toegangsniveau om deze in lijsten en rapporten te kunnen weergeven of bewerken.
 
-  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [Toegang verlenen tot filters, weergaven en groepen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang tot filters, meningen, en groeperingen, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Uw beheerder van Workfront moet u toegang tot rapporten, dashboards, en kalenders in uw toegangsniveau verlenen om rapporten te kunnen bekijken of uitgeven.
 
-  Voor informatie over het verlenen van toegang tot rapporten, dashboards, en kalenders, zie [Toegang verlenen tot rapporten, dashboards en kalenders](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Voor informatie over het verlenen van toegang tot rapporten, dashboards, en kalenders, zie [ de toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Als u een filter, weergave of groepering voor een rapport of lijst selecteert, behoudt Workfront deze selectie voor de lijsten van dat object zelfs nadat u zich hebt afgemeld of de browser hebt gesloten. Als u bijvoorbeeld een specifieke weergave voor een taakrapport selecteert, wordt die selectie weergegeven voor andere takenlijsten, zoals de takenlijst van een project.
 
@@ -54,9 +54,9 @@ Enkele kenmerken van filters zijn:
 * Workfront biedt standaard een aantal filters voor verschillende objecten.
 * U kunt filters aanpassen die u bezit of beheert.
 
-  Zie het artikel voor meer informatie over filters [Overzicht van filters](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor meer informatie over filters, zie het artikel [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-![Filterpictogram](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
+![ pictogram van de Filter ](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
 ## Weergaven
 
@@ -69,7 +69,7 @@ Enkele weergavekenmerken zijn:
 * U kunt extra meningen van het drop-down gebied van de Mening toepassen na het runnen van een rapport.
 * De extra meningen vervangen tijdelijk de mening die wanneer het creëren van het rapport wordt bepaald; nochtans, wordt de standaardmening getoond de volgende tijd u aan het rapport terugkeert.
 
-  Raadpleeg het artikel voor meer informatie over weergaven [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Voor meer informatie over meningen, zie het artikel [ overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Groepen
 
@@ -83,20 +83,20 @@ Enkele kenmerken van groepen zijn:
 * Groepen geven een geaggregeerde waarde in de resultaten weer. &#x200B;
 * Groepen bepalen de as in grafieken.
 * Groepen bepalen de headeridentificatie in matrixrapporten.\
-  Raadpleeg het artikel voor meer informatie over matrixrapporten [Een matrixrapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  Voor meer informatie over matrixrapporten, zie het artikel [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
 * De hulp van groeperingen bouwt de Samenvatting tabel van een rapport, die de samengevoegde waarden van het rapport verstrekt.
 * Workfront biedt standaard een aantal groepen voor verschillende objecten.
 * U kunt groepen aanpassen die u hebt of beheert.
 
-  Zie voor meer informatie over groepen [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Voor meer informatie over groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Overige rapporteringselementen
 
 Naast filters, meningen, en groeperingen, kon u de volgende elementen aan een rapport ook toevoegen:
 
-* **Vragen**: Een open filter dat kan worden aangepast en verschillend worden toegepast telkens als u een rapport in werking stelt.\
-  Raadpleeg het artikel voor meer informatie over aanwijzingen [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Herinnering**: Een open filter dat kan worden aangepast en verschillend worden toegepast telkens als u een rapport in werking stelt.\
+  Voor meer informatie over herinneringen, zie het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-* **Diagram**: U kunt uw rapporten verbeteren door er een grafiek aan toe te voegen en de informatie op een visuele manier weer te geven.\
-  Raadpleeg het artikel voor meer informatie over grafieken in rapporten [Een diagram toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Grafiek**: U kunt uw rapporten verbeteren door een grafiek aan hen toe te voegen en de informatie op een visuele manier te tonen.\
+  Voor meer informatie over grafieken in rapporten, zie het artikel [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.

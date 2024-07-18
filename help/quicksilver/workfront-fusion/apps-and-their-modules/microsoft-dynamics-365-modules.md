@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die de Dynamica 365 van Microsoft gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die de Dynamica 365 van Microsoft gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 # [!DNL Microsoft Dynamics 365 modules]
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Microsoft Dynamics 365]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Microsoft Dynamics 365] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 >[!NOTE]
 >
->De [!DNL Microsoft Dynamics 365] connector wordt niet ondersteund [!DNL Dynamics Finance and Operations].
+>De [!DNL Microsoft Dynamics 365] -connector biedt geen ondersteuning voor [!DNL Dynamics Finance and Operations] .
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -47,33 +47,33 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL Microsoft Dynamics] 365, hebt u een [!DNL Microsoft Dynamics 365] account.
+Als u [!DNL Microsoft Dynamics] 365 wilt gebruiken, moet u een [!DNL Microsoft Dynamics 365] -account hebben.
 
 ## Connect Microsoft Dynamics 365 to Workfront Fusion
 
-U kunt een verbinding maken met uw [!DNL Microsoft Dynamics 365] rechtstreeks vanuit een [!DNL Microsoft Dynamics 365] -module.
+U kunt rechtstreeks vanuit een [!DNL Microsoft Dynamics 365] -module verbinding maken met uw [!DNL Microsoft Dynamics 365] -account.
 
 >[!NOTE]
 >
@@ -81,23 +81,23 @@ U kunt een verbinding maken met uw [!DNL Microsoft Dynamics 365] rechtstreeks va
 >
 >Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
 
-1. In alle [!DNL Microsoft Dynamics 365] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
+1. Klik in een willekeurige [!DNL Microsoft Dynamics 365] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Voer een naam in voor de verbinding.
-1. In de **[!UICONTROL Resource]** veld, voert u het adres in van uw [!DNL Dynamics 365] account, zonder `https://`.
-1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug naar de module te gaan.
+1. Voer in het veld **[!UICONTROL Resource]** het adres van uw [!DNL Dynamics 365] -account in, zonder `https://` .
+1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 >[!NOTE]
 >
->Bij registratie [!DNL Workfront Fusion] in uw [!DNL Microsoft Azure] portaal, gebruik volgende omleiding URI:
+>Wanneer u [!DNL Workfront Fusion] registreert op uw [!DNL Microsoft Azure] -portal, gebruikt u de volgende URI voor omleiding:
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-microsoft-dynamics2`
 
 
 ## [!DNL Microsoft Dynamics 365] modules en hun velden
 
-Wanneer u [!DNL Microsoft Dynamics 365] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Microsoft Dynamics 365] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Microsoft Dynamics 365] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Microsoft Dynamics 365] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -112,7 +112,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### [!UICONTROL Watch Records (Scheduled)]
 
-Deze geplande triggermodule voert een scenario uit wanneer een record in het opgegeven object wordt gemaakt of bijgewerkt na de laatste geplande uitvoering [!DNL Dynamics 365].
+Deze geplande triggermodule voert een scenario uit wanneer een record in het opgegeven object wordt gemaakt of bijgewerkt na de laatste geplande run in [!DNL Dynamics 365] .
 
 De output van de module wijst erop of het verslag dat het vond nieuw of bijgewerkt is (als het zowel in de tijdspanne werd toegevoegd en bijgewerkt, is het duidelijk als nieuw). U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -126,15 +126,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+  <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Include]</td> 
-   <td>Selecteer of u de module wilt controleren <strong>[!UICONTROL Only new records]</strong>, <strong>[!UICONTROL Updated records only]</strong>, of <strong>[!UICONTROL New records and all changes]</strong>.</td> 
+   <td>Geef op of u de module <strong>[!UICONTROL Only new records]</strong> , <strong>[!UICONTROL Updated records only]</strong> of <strong>[!UICONTROL New records and all changes]</strong> wilt bekijken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Kies de optie [!UICONTROL Microsoft Dynamics 365] recordtype dat u op het scenario wilt letten.</td> 
+   <td>Kies het [!UICONTROL Microsoft Dynamics 365] recordtype dat u het scenario wilt bekijken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
@@ -149,7 +149,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### [!UICONTROL Watch Records (Real Time)]
 
-Deze instant trigger-module voert een scenario uit wanneer een record (object) die u opgeeft, wordt gemaakt of bijgewerkt in [!DNL Dynamics 365].
+Deze instant trigger-module voert een scenario uit wanneer een record (object) die u opgeeft, wordt gemaakt of bijgewerkt in [!DNL Dynamics 365] .
 
 In deze module is een webhaak vereist.
 
@@ -161,10 +161,10 @@ In deze module is een webhaak vereist.
    <td role="rowheader">[!UICONTROL Webhook]</td> 
    <td> <p>Selecteer de webhaak die u voor deze module wilt gebruiken. </p> <p>Een nieuwe webhaak toevoegen:</p> 
     <ol> 
-     <li value="1"> <p>Klikken <strong>[!UICONTROL Add]</strong> rechts van het veld Webhaak</p> </li> 
-     <li value="2"> <p>In de <strong>[!UICONTROL Webhook]</strong> Typ een beschrijvende naam voor de webhaak.</p> </li> 
-     <li value="3"> <p>In de <strong>[!UICONTROL Connection]</strong> veld, selecteert u de gewenste verbinding</p> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </li> 
-     <li value="4"> <p>Klikken <strong>[!UICONTROL Save]</strong> om uw webhaak op te slaan en terug te keren naar de module.</p> </li> 
+     <li value="1"> <p>Klik op <strong>[!UICONTROL Add]</strong> rechts van het veld Webhaak</p> </li> 
+     <li value="2"> <p>Typ in het naamveld <strong>[!UICONTROL Webhook]</strong> een beschrijvende naam voor de webhaak.</p> </li> 
+     <li value="3"> <p>Selecteer in het veld <strong>[!UICONTROL Connection]</strong> de gewenste verbinding</p> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </li> 
+     <li value="4"> <p>Klik op <strong>[!UICONTROL Save]</strong> om de webhaak op te slaan en terug te keren naar de module.</p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -186,7 +186,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+   <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -205,11 +205,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### [!UICONTROL Make an API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Microsoft Dynamics 365] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Microsoft Dynamics 365] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Microsoft Dynamics 365] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Microsoft Dynamics 365] -modules kan worden uitgevoerd.
 
 De module keert informatie over de statuscode, kopballen, en lichaam terug. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-Zie voor meer informatie de [!DNL Microsoft] documentatie over het gebruik van de [!DNL Dynamics 365 Customer Engagement Web API].
+Raadpleeg de documentatie van [!DNL Microsoft] over het gebruik van [!DNL Dynamics 365 Customer Engagement Web API] voor meer informatie.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -219,15 +219,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+  <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Een pad invoeren ten opzichte van <code>&lt;Instance URL>/api/data/v9.1/</code>.</p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van <code>&lt;Instance URL>/api/data/v9.1/</code> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Voor meer in</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> <p>Voor meer in</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -239,7 +239,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -263,7 +263,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+  <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -271,14 +271,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td> <p>De unieke sleutel invoeren of toewijzen [!DNL Microsoft Dynamics 365] Id van de record die u wilt verwijderen uit de module.</p> </td> 
+   <td> <p>Voer de unieke [!DNL Microsoft Dynamics 365] -id in of wijs deze toe aan de record die u wilt verwijderen door de module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Read Records]
 
-Deze actiemodule leest gegevens van één entiteit in [!DNL Microsoft Dynamics 365].
+Deze actiemodule leest gegevens van één entiteit in [!DNL Microsoft Dynamics 365] .
 
 U geeft de id van de entiteit op.
 
@@ -292,7 +292,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+  <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -304,7 +304,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL Microsoft Dynamics 365] Id van de record die de module moet lezen.</td> 
+   <td>Voer de unieke [!DNL Microsoft Dynamics 365] -id in of wijs deze toe aan de record die u wilt lezen in de module.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -325,7 +325,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+  <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -341,14 +341,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL Microsoft Dynamics] 365 ID van de record die u wilt bijwerken in de module.</td> 
+   <td>Voer de unieke [!DNL Microsoft Dynamics] 365-id in of wijs deze toe aan de record die u wilt bijwerken in de module.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Search Records]
 
-Deze zoekmodule zoekt naar records in een object in [!DNL Microsoft Dynamics 365] die overeenkomen met de zoekquery die u opgeeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+Deze zoekmodule zoekt naar records in een object in [!DNL Microsoft Dynamics 365] dat overeenkomt met de zoekquery die u opgeeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -358,7 +358,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Voor instructies over het aansluiten van uw [!DNL Microsoft Dynamics 365] account aan [!DNL Workfront Fusion], zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Microsoft Dynamics 365] tot [!DNL Workfront Fusion]</a> in dit artikel. </p> </td> 
+  <td> <p>Zie <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Microsoft Dynamics 365] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Microsoft Dynamics 365] -account met [!DNL Workfront Fusion] . </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -369,7 +369,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Selecteer het filter dat u voor deze zoekopdracht wilt gebruiken.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Standard Filters]</strong> </p> <p>Stel het filter in door een veld en een operator te selecteren en de waarde die u wilt zoeken in te voeren of toe te wijzen. U kunt EN of OF regels aan uw filter gebruiken.</p> </li> 
-     <li> <p><strong>[!UICONTROL Query Functions]</strong> </p> <p>Voer de [!DNL Dynamics 365] web-API queryfunctie die u wilt gebruiken om te zoeken. </p> <p>Voor meer informatie over vraagfuncties, zie <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9">Web API Query Function Reference</a> in de [!DNL Microsoft] documentatie.</p> </li> 
+     <li> <p><strong>[!UICONTROL Query Functions]</strong> </p> <p>Voer de API-queryfunctie van [!DNL Dynamics 365] in die u wilt gebruiken om te zoeken. </p> <p>Voor meer informatie over vraagfuncties, zie {de Verwijzing van de Functie van de Vraag van 0} Web API </a> in de [!DNL Microsoft] documentatie.<a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9"></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

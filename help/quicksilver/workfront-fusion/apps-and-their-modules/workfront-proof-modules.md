@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Workfront Proefmodules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL Workfront Proof]en deze verbinding maken met meerdere toepassingen en services van derden.
+title: Workfront Proof-modules
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL Workfront Proof] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 # [!DNL Workfront Proof] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL Workfront Proof]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Workfront Proof] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Dit is handig als u taken wilt uitvoeren die momenteel niet worden ondersteund voor proefdrukken binnen [!DNL Workfront] of in [!DNL Workfront Proof], zoals het bijwerken van proefdrukken op basis van bepaalde gebeurtenissen en het zoeken naar ontvangers van een bewijs.
+Dit is handig als u taken wilt uitvoeren die momenteel niet worden ondersteund voor proefdrukken binnen [!DNL Workfront] of [!DNL Workfront Proof] , zoals het bijwerken van proefdrukken op basis van bepaalde gebeurtenissen en het zoeken naar ontvangers van een proefdruk.
 
-De [!DNL Workfront Proof] -connector telt niet mee voor het aantal actieve apps dat beschikbaar is voor uw organisatie. Alle scenario&#39;s, zelfs als zij slechts de [!DNL Workfront Proof] , telt u niet mee voor het totale aantal scenario&#39;s van uw organisatie.
+De aansluiting van [!DNL Workfront Proof] telt niet mee voor het aantal actieve apps dat beschikbaar is voor uw organisatie. Alle scenario&#39;s, zelfs als ze alleen de [!DNL Workfront Proof] -app gebruiken, tellen niet mee voor het totale aantal scenario&#39;s van uw organisatie.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -47,31 +47,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Verbinden [!DNL Workfront Proof] tot [!DNL Workfront Fusion]
+## Verbinden [!DNL Workfront Proof] met [!DNL Workfront Fusion]
 
-U kunt een verbinding maken met uw [!DNL Workfront Proof] rechtstreeks vanuit een [!DNL Workfront Fusion] -module.
+U kunt rechtstreeks vanuit een [!DNL Workfront Fusion] -module verbinding maken met uw [!DNL Workfront Proof] -account.
 
-1. In alle [!DNL Workfront Fusion] module, klikt u op [!UICONTROL **Toevoegen**] naast de [!UICONTROL Connection] field
+1. In om het even welke [!DNL Workfront Fusion] module, klik [!UICONTROL **toevoegen**] naast het [!UICONTROL Connection] gebied
 
 2. Vul de volgende velden in:
 
@@ -95,15 +95,15 @@ U kunt een verbinding maken met uw [!DNL Workfront Proof] rechtstreeks vanuit ee
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Email / Username]</td>
-                <td>Voer de gebruikersnaam in voor uw [!DNL Workfront Proof] account.</td>
+                <td>Voer een gebruikersnaam in voor uw [!DNL Workfront Proof] -account.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Password]</td>
-                <td>Voer het wachtwoord voor uw [!DNL Workfront Proof] account.</td>
+                <td>Voer het wachtwoord voor uw [!DNL Workfront Proof] -account in.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Tenant ID]</td>
-                <td><strong>Opmerking</strong>: Klanten die BYOK niet gebruiken, moeten dit veld leeg laten. <p>Voer de id van de huurder voor dit account in. Neem contact op met Customer Support van Workfront als je hulp nodig hebt bij het zoeken naar je huurnummer.</p></td>
+                <td><strong> Nota </strong>: De klanten die geen BYOK gebruiken moeten dit gebied leeg verlaten. <p>Voer de id van de huurder voor dit account in. Neem contact op met Customer Support van Workfront als je hulp nodig hebt bij het zoeken naar je huurnummer.</p></td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Domain Extension]</td>
@@ -117,13 +117,13 @@ U kunt een verbinding maken met uw [!DNL Workfront Proof] rechtstreeks vanuit ee
     </table>
 
 
-3. Klikken [!UICONTROL **Doorgaan**] om de verbinding te bewaren en aan de module terug te keren
+3. Klik [!UICONTROL **verdergaan**] om de verbinding te bewaren en aan de module terug te keren
 
 ## [!DNL Workfront Proof] modules en hun velden
 
-Wanneer u [!DNL Workfront Proof] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Workfront Proof] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Workfront Proof] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Workfront Proof] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -145,7 +145,7 @@ De module keert een lijst van alle verslagen terug het tijdens de periode vindt 
 
 Dit gebeurt op een regelmatig gepland interval dat u specificeert.
 
-U moet over voldoende rechten beschikken om toegang te krijgen tot de proefdrukken of proefdrukken [!DNL Workfront Proof] om deze informatie op te halen.
+U moet over voldoende rechten beschikken om toegang te krijgen tot de proefdrukken of proefdrukken in [!DNL Workfront Proof] om deze gegevens op te halen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -155,11 +155,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Recordtype</td> 
-   <td>Selecteer het type van [!DNL Workfront Proof] neem op dat u de module wilt letten.</td> 
+   <td>Selecteer het type [!DNL Workfront Proof] record dat u in de module wilt bekijken.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Uitvoer</td> 
@@ -188,11 +188,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td>U kunt een bestaande webhaak selecteren of een nieuwe webhaak maken. Zie voor meer informatie <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]</a>. </td> 
+   <td>U kunt een bestaande webhaak selecteren of een nieuwe webhaak maken. Voor meer informatie, zie <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref"> Onmiddellijke trekkers (webhooks) in [!DNL Adobe Workfront Fusion]</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
@@ -205,7 +205,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 Deze triggermodule voert een scenario uit waarin een bepaalde activiteit plaatsvindt op een proefdruk.
 
-De module retourneert alle standaardvelden die aan de proefdruk zijn gekoppeld, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. Er wordt ook een nieuw gebeurtenisabonnement gemaakt voor PDF-overzichten en de inhoud wordt uitgevoerd vanuit de `pdf_url` kenmerk verzonden in de payload. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert alle standaardvelden die aan de proefdruk zijn gekoppeld, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. Er wordt ook een nieuw gebeurtenisabonnement voor PDF-overzichten gemaakt en de inhoud van het kenmerk `pdf_url` dat in de payload wordt verzonden, wordt uitgevoerd. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -215,11 +215,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Activity type]</td> 
-   <td>Selecteer of u een nieuw besluit wilt bekijken (inclusief [!UICONTROL proof] statuswijzigingen), of alleen de algemene proefdrukstatus wordt gewijzigd.</td> 
+   <td>Selecteer of u een nieuwe beslissing (inclusief [!UICONTROL proof] statuswijzigingen) of alleen een algemene wijziging in de proefdrukstatus wilt bekijken.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
@@ -240,7 +240,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Create Proof]
 
-Met deze actiemodule maakt u een nieuwe proefdruk of een nieuwe proefversie in [!DNL Workfront Proof].
+Deze actiemodule maakt een nieuwe proefdruk of een nieuwe proefversie in [!DNL Workfront Proof] .
 
 U geeft de parameters voor de nieuwe proefdruk en de bronproefdruk op als u een nieuwe versie maakt.
 
@@ -254,11 +254,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Type]</td> 
-   <td> <p>Geef op of u een standaardworkflow of een [!UICONTROL Automated Workflow].</p> <p>Vul vervolgens de velden in die worden weergegeven voor het gekozen proefdruktype. Als u bijvoorbeeld [!UICONTROL Automated Workflow], vult de <strong>[!UICONTROL Workflow Stages]</strong> om de fasen te configureren.</p></td> 
+   <td> <p>Geef op of u een standaardworkflow of een [!UICONTROL Automated Workflow] wilt instellen voor de proefdruk.</p> <p>Vul vervolgens de velden in die worden weergegeven voor het gekozen proefdruktype. Als u bijvoorbeeld [!UICONTROL Automated Workflow] kiest, vult u het veld <strong>[!UICONTROL Workflow Stages]</strong> in om de fasen te configureren.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Allow original file to be downloaded]</td> 
@@ -274,7 +274,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Create a new proof version]</td> 
-   <td>Selecteer deze optie als u wilt dat de module een nieuwe versie van een bestaande proefdruk maakt. Dan, in <strong>[!UICONTROL Existing Proof ID]</strong> veld dat de unieke id van de proefdruk weergeeft, in kaart brengt of invoert.</td> 
+   <td>Selecteer deze optie als u wilt dat de module een nieuwe versie van een bestaande proefdruk maakt. Wijs vervolgens in het veld <strong>[!UICONTROL Existing Proof ID]</strong> dat de unieke id van de proefdruk weergeeft of voer deze in.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Link Label]</td> 
@@ -288,12 +288,12 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td>[!UICONTROL Default email notifications for subscribers]</td> 
    <td>Typ een van de volgende nummers om aan te geven welke standaardinstellingen voor e-mailmeldingen u wilt gebruiken voor de proefdruk die wordt gemaakt.
     <ul>
-     <li><strong>1</strong> - Alle nieuwe opmerkingen en antwoorden</li>
-     <li><strong>2</strong> - Reacties op mijn opmerkingen</li>
-     <li><strong>3</strong> - Dagelijkse samenvatting</li>
-     <li><strong>4</strong> - Uuroverzicht</li>
-     <li><strong>5</strong> - Alleen besluiten</li>
-     <li><strong>9</strong> - Uitgeschakeld</li>
+     <li><strong> 1 </strong> - Alle nieuwe commentaren en antwoorden</li>
+     <li><strong> 2 </strong> - antwoordt op mijn commentaren</li>
+     <li><strong> 3 </strong> - Dagelijkse samenvatting</li>
+     <li><strong> 4 </strong> - Uursamenvatting</li>
+     <li><strong> 5 </strong> - Besluiten slechts</li>
+     <li><strong> 9 </strong> - Gehandicapten</li>
     </ul></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -314,7 +314,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Enable Subscriptions]</td> 
-   <td>Selecteer of personen die geen deelnemers zijn, zich mogen abonneren op de proefdruk.<br>Als u deze optie selecteert, kunt u ook de Standaardrol voor abonnees selecteren, zoals in deze tabel wordt beschreven.</td> 
+   <td>Selecteer of personen die geen deelnemers zijn, zich mogen abonneren op de proefdruk.<br> als u deze optie selecteert, kunt u de StandaardRol voor abonnees, zoals die in deze lijst wordt beschreven ook selecteren.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Enable Subscriptions Validation]</td> 
@@ -358,11 +358,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Require login]</td> 
-   <td> <p>Geef op of u een aanmeldingsnaam wilt opgeven voor de proefdruk die wordt gemaakt. </p> <p>Dit is hetzelfde als [!UICONTROL Login Required] de instelling wordt uitgelegd in <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] in [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Geef op of u een aanmeldingsnaam wilt opgeven voor de proefdruk die wordt gemaakt. </p> <p>Dit is hetzelfde als de instelling [!UICONTROL Login Required] die wordt uitgelegd in <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] in [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Voer de id in van de resolutie die u voor de proefdruk wilt gebruiken. Voor een lijst met resolutie-id's raadpleegt u de [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API-documentatie</a>.</td> 
+   <td>Voer de id in van de resolutie die u voor de proefdruk wilt gebruiken. Voor een lijst van resolutie IDs, zie de [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html"> API documentatie </a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -389,7 +389,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Custom API Call]
 
-Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan het maken [!DNL Workfront Proof] API. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de ander kan worden uitgevoerd [!DNL Workfront Proof] modules.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Workfront Proof] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Workfront Proof] -modules kan worden uitgevoerd.
 
 De module retourneert de statuscode, kopteksten en tekst. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -401,15 +401,15 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
-   <td>Stel de handeling in voor de API-aanroep. Voor beschikbare acties raadpleegt u de <a href="https://api.proofhq.com/">Proefversie van API-documentatie</a>.</td> 
+   <td>Stel de handeling in voor de API-aanroep. Voor beschikbare acties, zie de <a href="https://api.proofhq.com/"> documentatie van API van het Bewijs </a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -431,7 +431,7 @@ U geeft de id van de proefdruk op.
 
 De module keert de inhoud van het brondossier terug dat wordt gebruikt om tot de proef te leiden.U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
+U moet over voldoende machtigingen beschikken om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze gegevens op te halen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -441,24 +441,24 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Typ de unieke id van de proefdruk op de knop [!UICONTROL Proof Details] pagina. Zie voor meer informatie <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Proofinggegevens beheren in [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Typ de unieke id van de proefdruk op de pagina [!UICONTROL Proof Details] . Voor meer informatie, zie <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override=""> Beheers de Details van het Bewijs in [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Read a Record]
 
-Deze actiemodule leest gegevens uit één proefdruk in [!DNL Workfront Proof].
+Deze actiemodule leest gegevens uit één proefdruk in [!DNL Workfront Proof] .
 
 U geeft de id van de proefdruk op en de gegevens die u uit de proefdruk wilt halen.
 
 De module retourneert de waarden van de velden die u kiest voor de proefdruk en de typen velden. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
+U moet over voldoende machtigingen beschikken om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze gegevens op te halen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -468,7 +468,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
@@ -480,20 +480,20 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>De unieke sleutel invoeren of toewijzen [!DNL Workfront Proof] Id van de record die de module moet lezen.</td> 
+   <td>Voer de unieke [!DNL Workfront Proof] -id in of wijs deze toe aan de record die u wilt lezen in de module.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Request PDF Summary]
 
-In deze actiemodule wordt de PDF-samenvatting voor een bepaalde proefdruk opgevraagd in [!DNL Workfront Proof].
+In deze actiemodule wordt de PDF-samenvatting opgevraagd voor een bepaalde proefdruk in [!DNL Workfront Proof] .
 
 U geeft de id van de proefdruk op.
 
 De module keert de summiere informatie van PDF terug. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
+U moet over voldoende machtigingen beschikken om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze gegevens op te halen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -503,11 +503,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Voer de unieke [!DNL Workfront Proof] Id van de proefdruk waarvoor u een PDF-overzicht wilt aanvragen.</p> </td> 
+   <td> <p>Voer de unieke [!DNL Workfront Proof] -id in van de proefdruk waarvoor u een PDF-overzicht wilt aanvragen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Callback URL]</td> 
@@ -519,17 +519,17 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 ##### Mogelijke fout
 
 * **Fout**: &quot;[!UICONTROL You do not have privilege to perform this request. The stage must contain at least one recipient.]&quot;
-* **Oplossing**: Zorg ervoor dat u niet de enige bent die is toegewezen aan de fasen van de workflow. Er moet een andere gebruiker zijn toegewezen aan de fasen van de workflow.
+* **Oplossing**: Zorg ervoor u niet slechts aan de stadia van het werkschema wordt toegewezen. Er moet een andere gebruiker zijn toegewezen aan de fasen van de workflow.
 
 #### [!UICONTROL Update Proof]
 
-Deze actiemodule werkt een bestaande proefdruk bij in [!DNL Workfront Proof].
+Deze actiemodule werkt een bestaande proefdruk bij in [!DNL Workfront Proof] .
 
 U geeft de id en het recordtype van de proefdruk op en geeft aan welke velden u in de uitvoer wilt opnemen.
 
 De module retourneert alle standaardvelden die aan de record zijn gekoppeld, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
+U moet over voldoende machtigingen beschikken om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze gegevens op te halen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -539,11 +539,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Typ de unieke id van de proefdruk op de knop [!UICONTROL Proof Details] pagina. Zie voor meer informatie <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Proofinggegevens beheren in [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Typ de unieke id van de proefdruk op de pagina [!UICONTROL Proof Details] . Voor meer informatie, zie <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override=""> Beheers de Details van het Bewijs in [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Deadline]</td> 
@@ -571,7 +571,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Enable Subscriptions]</td> 
-   <td>Selecteer of personen die geen deelnemers zijn, zich mogen abonneren op de proefdruk.<br>Als u deze optie selecteert, kunt u ook [!UICONTROL Default Role] voor abonnees, zoals beschreven in deze tabel.</td> 
+   <td>Selecteer of personen die geen deelnemers zijn, zich mogen abonneren op de proefdruk.<br> als u deze optie selecteert, kunt u [!UICONTROL Default Role] voor abonnees ook selecteren, zoals die in deze lijst wordt beschreven.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Enable Subscriptions Validation]</td> 
@@ -599,7 +599,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Require login]</td> 
-   <td> <p>Geef op of u een aanmeldingsnaam wilt opgeven voor de proefdruk die wordt gemaakt. </p> <p>Dit is hetzelfde als [!UICONTROL Login Required] de instelling wordt uitgelegd in <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] in [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Geef op of u een aanmeldingsnaam wilt opgeven voor de proefdruk die wordt gemaakt. </p> <p>Dit is hetzelfde als de instelling [!UICONTROL Login Required] die wordt uitgelegd in <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] in [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Show Versions Like]</td> 
@@ -614,7 +614,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Upload File]
 
-Deze actiemodule uploadt een bestand voor gebruik met de [!UICONTROL Create Proof] module in [!DNL Workfront Proof].
+Deze actiemodule uploadt een bestand voor gebruik met de module [!UICONTROL Create Proof] in [!DNL Workfront Proof] .
 
 De module retourneert een hash-id voor het geüploade bestand. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -626,7 +626,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
@@ -642,11 +642,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Search]
 
-Deze zoekmodule zoekt naar records in een object in [!DNL Workfront Proof] die overeenkomen met de zoekquery die u opgeeft.
+Deze zoekmodule zoekt naar records in een object in [!DNL Workfront Proof] dat overeenkomt met de zoekquery die u opgeeft.
 
 De module retourneert de id van de proefdruk als deze op zoek is naar een proefdruk. Of de gebruikers-id&#39;s, e-mails, namen, posities en e-mailaliassen van de ontvangers worden geretourneerd als deze naar ontvangers zoeken. U kunt deze informatie in volgende modules in het scenario toewijzen.
 
-U moet voldoende rechten hebben om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze informatie op te halen.
+U moet over voldoende machtigingen beschikken om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze gegevens op te halen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -656,11 +656,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zoeken naar</td> 
-   <td> <p>Se[!UICONTROL ]Selecteer het type record waarnaar de module moet zoeken.</p> 
+   <td> <p>Se [!UICONTROL ] selecteer het type van verslag u de module wilt zoeken naar.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Proof]</strong> </p> <p>Voer de proefdruknaam in van de proefdrukproef waarnaar u wilt zoeken.</p> </li> 
      <li> <p><strong>[!UICONTROL Recipient]</strong> </p> <p>Voer het e-mailadres in van de ontvanger waarnaar u wilt zoeken.</p> </li> 
@@ -668,7 +668,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Result Set]</td> 
-   <td>Geef aan of de module naar <strong>[!UICONTROL All Matching Records]</strong> of alleen de <strong>[!UICONTROL First Matching Record]</strong>.</td> 
+   <td>Geef aan of de module naar <strong>[!UICONTROL All Matching Records]</strong> of alleen naar <strong>[!UICONTROL First Matching Record]</strong> zoekt.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Sort By]</td> 
@@ -691,7 +691,7 @@ In deze zoekmodule worden alle beschikbare werkstroomsjablonen weergegeven.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Workfront Proof] rekening aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Outputs]</td> 

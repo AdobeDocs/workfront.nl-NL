@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Hier volgen verschillende bronnen over gebeurtenisabonnementen in Adobe Workfront:
 
-* [API voor abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-api.md)
-* [Aanbevolen werkwijzen voor abonnementen op gebeurtenissen](../../wf-api/general/event-sub-best-practice.md)
-* [Vereisten voor levering van abonnementen](../../wf-api/general/setup-event-sub-endpoint.md)
-* [Bronvelden voor abonnementen](../../wf-api/api/event-sub-resource-fields.md)
-* [Abonnementspogingen voor gebeurtenissen opnieuw proberen](../../wf-api/api/event-sub-retries.md)
-* [Abonnementsberichten voor gebeurtenissen filteren](../../wf-api/api/filter-event-sub-messages.md)
-* [Uitgaande berichtindeling voor gebeurtenisabonnementen](../../wf-api/api/message-format-event-subs.md)
+* [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md)
+* [ Beste praktijken van het abonnement van de Gebeurtenis ](../../wf-api/general/event-sub-best-practice.md)
+* [ de leveringsvereisten van het Abonnement van de Gebeurtenis ](../../wf-api/general/setup-event-sub-endpoint.md)
+* [ het middelgebieden van het het abonnement van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md)
+* [ het abonnement van de Gebeurtenis herprobeert ](../../wf-api/api/event-sub-retries.md)
+* [ de berichten van het gebeurtenisabonnement van de Filter ](../../wf-api/api/filter-event-sub-messages.md)
+* [ Uitgaand berichtformaat voor gebeurtenisabonnementen ](../../wf-api/api/message-format-event-subs.md)
 * [Veelgestelde vragen - Abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-faq.md)
 

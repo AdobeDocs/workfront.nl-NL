@@ -23,9 +23,9 @@ ht-degree: 0%
 
 Wanneer u aan een aangepast formulier werkt, kunt u een nieuw aangepast veld maken en dit toevoegen aan een aangepast formulier.
 
-U kunt ook een aangepast veld toevoegen dat al aan een ander aangepast formulier is toegevoegd. Zie voor instructies [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+U kunt ook een aangepast veld toevoegen dat al aan een ander aangepast formulier is toegevoegd. Voor instructies, zie [ een douanegebied of widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) opnieuw gebruiken.
 
-Voor informatie over het toevoegen van een middelenwidget aan een aangepast formulier, een proces dat vergelijkbaar is met het toevoegen van een aangepast veld, raadpleegt u [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor informatie over het toevoegen van een activa widget aan een douanevorm, die een proces gelijkend op het toevoegen van een douanegebied is, zie [ een activa widget in een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 >[!NOTE]
 >
@@ -59,18 +59,18 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een aangepast veld toevoegen aan een aangepast formulier {#add-custom-field-to-custom-form}
 
-1. Beginnen met het maken of bewerken van een aangepast formulier, zoals beschreven in [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Selecteer de **Veld toevoegen** tab.
+1. Beginnen creërend of het uitgeven van een douanevorm, zoals die in [ wordt beschreven creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
+1. Selecteer **een gebied** tabel toevoegen.
 
-   ![Een veldtabblad toevoegen](assets/add-a-field.jpg)
+   ![ voeg een gebied tabel ](assets/add-a-field.jpg) toe
 
-1. Met **Nieuw veld** ![Pictogram Nieuw veld](assets/new-field.jpg) Selecteer een van de volgende veldtypen:
+1. Met **Nieuw Gebied** ![ het Nieuwe geselecteerde pictogram van het Gebied ](assets/new-field.jpg), selecteer één van deze gebiedstypes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,7 +88,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Tekstveld met opmaak</td> 
-      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.</p> <p>Voor informatie over toegang tot dit veld via de API raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Opslag van rijke tekstvelden in de API</a>.</p> <p><b>OPMERKING</b>: Tekstvelden met opmaak zijn niet beschikbaar voor mobiele Workfront-toepassingen. </p> </td> 
+      <td>Hiermee kunnen gebruikers meerdere tekstregels in het veld typen en de tekst opmaken met vet, cursief, onderstrepen, opsommingstekens, nummering, hyperlinks en blokopties. Dit is beschikbaar in Home, het gebied van Updates, lijsten, en het gebied van Details voor de voorwerpen van Workfront. Een tekenlimiet van 15.000 staat voor veel tekst en opmaak toe.</p> <p>Dit aangepaste veldtype wordt niet ondersteund in filters in lijsten en rapporten.</p> <p>Voor informatie over de toegang tot van dit gebied door API, zie {de opslag van 0} Rich tekstgebied in API </a>.<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref"></p> <p><b> NOTA </b>: De gebieden van de tekst met het formatteren zijn niet beschikbaar voor mobiele apps van Workfront. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vervolgkeuzelijst</td> 
@@ -112,7 +112,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Berekend</td> 
-      <td>Hiermee kunt u een expressie definiëren en het resultaat weergeven op het aangepaste formulier. Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Berekende gegevens toevoegen aan een aangepast formulier</a>.</td> 
+      <td>Hiermee kunt u een expressie definiëren en het resultaat weergeven op het aangepaste formulier. Voor meer informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref"> berekende gegevens aan een douaneformulier </a> toevoegen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Datum</td> 
@@ -132,7 +132,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Sectie-einde</td> 
-      <td>Een sectie-einde is in feite geen veld. U kunt een sectie-einde gebruiken om uw aangepaste velden en widgets in secties te ordenen en, indien nodig, verschillende weergave- en bewerkingsmachtigingen voor elke sectie te configureren. Voor informatie over het toevoegen en configureren van sectie-einden raadpleegt u <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Een sectie-einde toevoegen aan een aangepast formulier</a>.</td> 
+      <td>Een sectie-einde is in feite geen veld. U kunt een sectie-einde gebruiken om uw aangepaste velden en widgets in secties te ordenen en, indien nodig, verschillende weergave- en bewerkingsmachtigingen voor elke sectie te configureren. Voor informatie over het toevoegen van en het vormen van sectieonderbrekingen, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref"> een sectieonderbreking aan een douaneformulier </a> toevoegen.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -141,7 +141,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    >
    >Velden die meerdere selecties mogelijk maken, zoals Selectievakje en Vervolgkeuzelijst, zijn moeilijk in rapporten in te delen en te groeperen. Om het makkelijker te maken om rapporten in te delen en te groeperen, kunt u afzonderlijke gebieden voor elke keus (bijvoorbeeld, een single-line tekstgebied) tot stand brengen.
 
-1. Op de **Veldinstellingen** kunt u de opties configureren die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
+1. Voor het **lusje van de Montages van het Gebied**, vorm de opties die voor het type van douanegebied beschikbaar zijn u toevoegt:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -151,17 +151,17 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b>BELANGRIJK</b>: Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
       <td> <p>(Vereist) Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-      <p><b>BELANGRIJK</b>:   
+      <p><b> BELANGRIJK </b>:   
       <ul> 
       <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
       <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
       <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Zie voor meer informatie <a href="#add-a-custom-field-to-a-custom-form">Een aangepast veld toevoegen aan een aangepast formulier</a> in dit artikel.</p> </td>
+      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#add-a-custom-field-to-a-custom-form"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructies</td> 
@@ -173,10 +173,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       <td role="rowheader">Indeling</td> 
       <td> <p>Selecteer het type gegevens dat in het aangepaste veld wordt vastgelegd. U kunt de indelingsselectie wijzigen nadat u het formulier hebt opgeslagen, maar de nieuwe indeling moet de ingevoerde waarde ondersteunen.</p>
 
-   <p><strong>Voorbeeld:</strong> Als u een numerieke waarde opslaat voor een veld met de tekstopmaak op ten minste één object en de notatie later wijzigt in Getal of Valuta, treedt er geen fout op. </p>
+   <p><strong> Voorbeeld:</strong> als u sparen een numerieke waarde voor een gebied met het formaat van de Tekst op minstens één voorwerp en later het formaat in Aantal of Valuta verandert, zult u geen fout ontmoeten. </p>
       <p>Als u echter een alfanumerieke waarde opslaat in een veld met tekstindeling op ten minste één object en vervolgens probeert de indeling te wijzigen in Getal of Valuta, treedt er een fout op omdat de opgeslagen alfanumerieke waarde niet compatibel is met de notatie Getal of Valuta. </p>
 
-   <p><strong>Opmerking:</strong> De tekenlimiet voor nummervelden is 16. U kunt ook een tekstveld gebruiken om getallen in te voeren en de limiet te vermijden.</p>
+   <p><strong> Nota:</strong> de karaktergrens voor de gebieden van het Aantal is 16. U kunt ook een tekstveld gebruiken om getallen in te voeren en de limiet te vermijden.</p>
 
    </td> 
      </tr> 
@@ -194,7 +194,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Type object waarnaar wordt verwezen</td> 
-      <td> <p>(Alleen Typeahead-velden) Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b>OPMERKING</b>:   
+      <td> <p>(Alleen Typeahead-velden) Selecteer het objecttype dat u aan het veld wilt koppelen.</p> <p>Nadat u op Toepassen of Opslaan+Sluiten hebt geklikt, kunt u het objecttype voor het veld niet meer wijzigen.</p> <p><b> NOTA </b>:   
         <ul> 
          <li>Als uw Workfront-beheerder de naam voor Portfolio's, Programma's of Projecten heeft aangepast in de Workfront-gebruikersinterface, wordt de standaardnaam voor het object weergegeven in deze vervolgkeuzelijst, niet de aangepaste naam. Raadpleeg uw Workfront-beheerder als u hier hulp bij nodig hebt.<br></li> 
          <li>De volgende objecttypen worden ondersteund in de mobiele apps van iOS en Android Workfront: Gebruiker, Bedrijf, Groep, Functie, Portfolio, Programma, Project en Sjabloon.</li> 
@@ -207,8 +207,8 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
         <li>Ze behoren tot een of meer groepen die u opgeeft</li> 
         <li>Ze zijn gekoppeld aan een rol of functie die u opgeeft</li> 
         <li>Zij behoren tot dezelfde groep als de persoon die het veld gebruikt</li> 
-       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Zie voor informatie over het maken van een filter in de tekstmodus <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Een filter bewerken in de tekstmodus</a>.</p>
-       <p><b>OPMERKING</b>:   
+       </ul> <p>U moet het filter definiëren voor het objecttype dat u hebt geselecteerd met de syntaxis Tekstmodus. Voor informatie over het creëren van een filter gebruikend de Wijze van de Tekst, zie <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref"> een filter uitgeven gebruikend tekstwijze </a>.</p>
+       <p><b> NOTA </b>:   
         <ul> 
          <li>Als u een bestaand aangepast formulier bewerkt en u voegt een filter toe aan een Typeahead-veld, worden er geen objecten (buiten het bereik van het filter) verwijderd die gebruikers al met het veld hebben toegevoegd.</li> 
          <li>Dit filter is niet beschikbaar op mobiele apparaten. Als u het filter voor een Typeahead-veld gebruikt, wordt het veld weergegeven op mobiele apparaten van gebruikers waarop het filter geen invloed heeft.</li> 
@@ -229,35 +229,35 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      <tr> 
       <td role="rowheader">Wijzigingen in veld bijhouden in updateffeeds</td> 
       <td><p>Klik op de vervolgkeuzelijst en selecteer de objecttypen waarin u de waardewijzigingen van het veld automatisch wilt bijhouden.</p> 
-      <p><b>OPMERKING</b>: Deze optie is niet beschikbaar voor:</p> 
+      <p><b> NOTA </b>: Deze optie is niet beschikbaar voor het volgende:</p> 
       <ul> 
       <li>Aangepaste formulieren die zijn gekoppeld aan de volgende objecttypen: Kosten, Bedrijf, Iteratie, Factureringsrecord, Document en Groep.</li> 
       <li>De volgende veldtypen: Berekend, Omschrijvende tekst en Sectie-einde</li> 
       </ul>
-      <p><b>BELANGRIJK</b>: Wanneer u een objecttype selecteert of deselecteert, heeft dit invloed op alle aangepaste formulieren die zijn gekoppeld aan het geselecteerde objecttype en die dit veld bevatten. Als u bijvoorbeeld hier een objecttype uitschakelt en het aangepaste formulier opslaat, worden de waardewijzigingen van het veld niet meer bijgehouden voor dat objecttype in een aangepast formulier dat het veld bevat.</p>
+      <p><b> BELANGRIJK </b>: Het selecteren of het schrappen van een objecten type hier beïnvloedt alle douaneformulieren die met het geselecteerde objecten type worden geassocieerd en die dit gebied bevatten. Als u bijvoorbeeld hier een objecttype uitschakelt en het aangepaste formulier opslaat, worden de waardewijzigingen van het veld niet meer bijgehouden voor dat objecttype in een aangepast formulier dat het veld bevat.</p>
        <p>Nadat u hier een objecttype voor een veld hebt geselecteerd en het aangepaste formulier hebt opgeslagen, wordt het veld weergegeven op het tabblad Aangepaste velden in het gebied feeds bijwerken in Setup.</p> 
        <p>Omgekeerd geldt dat als dit veld wordt verwijderd in het gedeelte feeds bijwerken in Setup, het objecttype voor deze instelling wordt uitgeschakeld voor alle aangepaste formulieren die zijn gekoppeld aan het objecttype en die dit veld bevatten.</p> 
-       <p>Zie de sectie voor meer informatie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Velden toevoegen die Workfront moet bijhouden</a> in het artikel <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Systeemupdates configureren</a>.</p> </td> 
+       <p>Voor meer informatie, zie de sectie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track"> gebieden toevoegen u Workfront </a> in het artikel <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md"> wilt volgen systeemupdates </a> vormt.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logica toevoegen</td>
-      <td>Geef op welke velden op het formulier moeten worden weergegeven, op basis van selecties die gebruikers in bestaande velden maken. Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Weergavelogica toevoegen en logica overslaan naar een aangepast formulier</a>.</td> 
+      <td>Geef op welke velden op het formulier moeten worden weergegeven, op basis van selecties die gebruikers in bestaande velden maken. Voor meer informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref"> vertoningslogica toevoegen en logica overslaan aan een douaneformulier </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Keuzen </td> 
       <td> <p>(Alleen vervolgkeuzelijst, selectievakjes of keuzerondjes; optioneel)</p> 
        <ol> 
-        <li> <p>Klikken <b>Opties</b>Schakel vervolgens een van de volgende opties in:</p> 
+        <li> <p>Klik <b> Opties </b>, dan laat om het even welke volgend toe:</p> 
            <ul> 
-            <li><strong>Waarden tonen</strong>: geeft de waarden van elke keuze in het veld weer. Het label van elke keuze wordt standaard weergegeven.</li> 
-            <li><strong>Keuzen A-Z sorteren</strong>: hiermee sorteert u de opties die u alfabetisch in het veld toevoegt.</li> 
+            <li><strong> toon Waarden </strong>: Toont de waarden van elke keus op het gebied. Het label van elke keuze wordt standaard weergegeven.</li> 
+            <li><strong> de Keuzen van de Soort A-z </strong>: Sorteert de keuzen u alfabetisch op het gebied toevoegt.</li> 
            </ul> 
         </li> 
-        <li> <p>Klik voor elke keuze die u voor de gebruiker toevoegt op het tandwielpictogram <img src="assets/gear-icon-settings.png">Selecteer vervolgens een van de volgende opties:</p> 
+        <li> <p>Voor elke keuze die u voor de gebruiker toevoegt, klikt u op het tandwielpictogram <img src="assets/gear-icon-settings.png"> en selecteert u een van de volgende opties:</p> 
            <ul> 
-            <li><strong>Standaard selecteren</strong>: Selecteer de standaardinstelling in het veld.</li> 
-            <li> <p><strong>Keuze verbergen</strong>: Verberg de keuze in het veld. Verborgen keuzen blijven beschikbaar in rapporten.</p> </li> 
-            <li> <p><strong>Keuze verwijderen</strong>: Verwijder de keuze uit het veld.</p> <p><b>WAARSCHUWING</b>: Als u de huidige objecten hebt die deze optie gebruiken, verwijdert u deze niet uit het veld. Als u deze regel verwijdert, gaan historische gegevens verloren. Selecteer in plaats daarvan de optie om deze te verbergen, zodat gebruikers deze optie in de toekomst niet meer kunnen selecteren.</p> </li> 
+            <li><strong> Uitgezocht door Gebrek </strong>: Selecteer de keus door gebrek op het gebied.</li> 
+            <li> <p><strong> Keuze van de Huid </strong>: Verberg de keus op het gebied. Verborgen keuzen blijven beschikbaar in rapporten.</p> </li> 
+            <li> <p><strong> verwijder Keuze </strong>: Verwijder de keus uit het gebied.</p> <p><b> WAARSCHUWING </b>: Als u huidige voorwerpen gebruikend deze keus hebt, verwijder het niet uit het gebied. Als u deze regel verwijdert, gaan historische gegevens verloren. Selecteer in plaats daarvan de optie om deze te verbergen, zodat gebruikers deze optie in de toekomst niet meer kunnen selecteren.</p> </li> 
            </ul> 
         </li> 
        </ol> </td> 
@@ -265,12 +265,12 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Als u het weergavetype van een veld op het aangepaste formulier wilt wijzigen, klikt u op de knop **Weergavetype** en klikt u op het gewenste type.
+1. (Voorwaardelijk) om het vertoningstype van een gebied op de douanevorm te veranderen, klik het **Type van Vertoning** drop-down menu, dan klik het type u wilt.
 
    U kunt schakelen tussen de volgende weergavetypen voor velden:
 
-   * **Selectietypen**: Selectievakjes, Vervolgkeuzelijst, keuzerondjes.
-   * **Teksttekstvelden**: Tekstveld Eén regel, alineatekstveld. (U kunt een tekstveld met opmaak niet omzetten in een ander weergavetype. U kunt het veld echter verwijderen en een ander type veld toevoegen.)
+   * **selectie-type gebieden**: Checkboxes, Dropdown, Keuzerondjes.
+   * **tekst-type gebieden**: Het Gebied van de Tekst van de Enige Lijn, het Gebied van de Tekst van de Paragraaf. (U kunt een tekstveld met opmaak niet omzetten in een ander weergavetype. U kunt het veld echter verwijderen en een ander type veld toevoegen.)
 
    Als u bijvoorbeeld een veld Selectievakjes hebt gemaakt, kunt u dit wijzigen in een veld Vervolgkeuzelijst of Keuzerondjes. Als u een tekstveld Eén regel hebt gemaakt, kunt u dit wijzigen in een tekstveld Alineatekst.
 
@@ -285,19 +285,19 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
    of
 
-   Voeg velden toe die al voor uw organisatie zijn gemaakt, zoals wordt uitgelegd in [Een aangepast veld of aangepaste widget opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   Voeg gebieden toe die reeds voor uw organisatie zijn gecreeerd, zoals die in [ wordt verklaard hergebruik een douanegebied of widget in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
    >U kunt maximaal 500 velden en widgets toevoegen aan één aangepast formulier. De prestaties kunnen echter afnemen wanneer er meer dan 100 formulieren op een formulier staan, afhankelijk van de complexiteit ervan. Voorbeelden van complexe formulieren zijn formulieren met trapsgewijze parameters, berekende aangepaste gegevensvelden en opties voor meerdere waarden in één veld.
 
-1. Klikken **Toepassen**.
+1. Klik **toepassen**.
 1. Als u uw aangepaste formulier op andere manieren wilt blijven bouwen, gaat u verder naar een van de volgende artikelen:
 
-   * [Aangepaste velden en widgets in een aangepast formulier plaatsen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [Een middelenwidget toevoegen of bewerken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [Berekende gegevens toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [Een sectie-einde toevoegen aan een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [Weergavelogica toevoegen en logica overslaan naar een aangepast formulier](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [ de douanegebieden en widgets van de Positie in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [ voeg of geef activa widget in een douanevorm toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [ voeg berekende gegevens aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [ voeg een sectieonderbreking aan een douanevorm toe ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [ hergebruik een bestaand berekend douanegebied in een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [ voeg vertoningslogica toe en overslaat logica aan een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [Een aangepast formulier voorvertonen en invullen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

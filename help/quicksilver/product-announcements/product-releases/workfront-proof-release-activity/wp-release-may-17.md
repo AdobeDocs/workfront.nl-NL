@@ -3,7 +3,7 @@ content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
 title: "Workfront Proof release activity: Week 17 mei 2021"
-description: Deze pagina bevat een beschrijving van de wijzigingen die zijn aangebracht in de Workfront Proof (stand-alone proefdruktoepassing). De hier beschreven wijzigingen zijn niet van toepassing op de proefdrukfunctionaliteit in de Adobe Workfront-toepassing.
+description: Deze pagina bevat een beschrijving van de wijzigingen die in de Workfront Proof zijn aangebracht (zelfstandige proefdruktoepassing). De hier beschreven wijzigingen zijn niet van toepassing op de proefdrukfunctionaliteit in de Adobe Workfront-toepassing.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Workfront Proefreleaseactiviteit: week van 17 mei 2021
+# Workfront Proof-releaseactiviteit: week van 17 mei 2021
 
-Deze pagina bevat een beschrijving van de wijzigingen die zijn aangebracht in de Workfront Proof (stand-alone proefdruktoepassing). De hier beschreven wijzigingen zijn niet van toepassing op de proefdrukfunctionaliteit in de Adobe Workfront-toepassing.
+Deze pagina bevat een beschrijving van de wijzigingen die in de Workfront Proof zijn aangebracht (zelfstandige proefdruktoepassing). De hier beschreven wijzigingen zijn niet van toepassing op de proefdrukfunctionaliteit in de Adobe Workfront-toepassing.
 
-## Menu&#39;s met gebruikersprofielen in Workfront Proof gebruiken nu typekop-velden om naar gebruikers te zoeken
+## Gebruikersprofielmenu&#39;s in Workfront Proof gebruiken nu typekopvelden om naar gebruikers te zoeken
 
 >[!NOTE]
 >

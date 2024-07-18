@@ -38,7 +38,7 @@ Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B
 * Het vak Bewerken voor het object, als dit object er anders uitziet dan de nieuwe Adobe Workfront-ervaring (bijvoorbeeld het vak Kosten bewerken)
 * De Workfront Mobile-app &#x200B;
 
-Zie voor meer informatie over het toevoegen van widgets aan aangepaste formulieren [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor meer informatie over het toevoegen van widgets aan douaneformulieren, zie [ een beeld of andere activa widget in een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 ## Een aangepast formulier koppelen aan meerdere objecttypen
 
@@ -68,7 +68,7 @@ Dit is vooral handig wanneer u een uitgave of taak converteert, omdat u een aang
 >
 >Wanneer de conversie plaatsvindt, moet het aangepaste formulier al zijn gekoppeld aan het objecttype waarnaar u converteert.
 
-Zie voor instructies over het toevoegen van een middelenwidget aan een aangepast formulier [Een afbeelding of andere middelenwidget toevoegen of bewerken in een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Voor instructies bij het toevoegen van een activa widget aan een douanevorm, zie [ een beeld of andere activa widget in een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) toevoegen of uitgeven.
 
 Houd rekening met het volgende wanneer u een aangepast formulier met meerdere objecten maakt of bewerkt:
 
@@ -90,19 +90,19 @@ In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, g
 
 Wanneer u een objecttype koppelt dat andere machtigingsopties gebruikt dan de andere objecttypen die al op een aangepast formulier voorkomen, wordt een bericht weergegeven waarin u kunt overschakelen naar de algemene set machtigingsopties voor het formulier. Deze wijziging is van toepassing op alle velden, zelfs als deze niet onder een sectie-einde vallen.
 
-Zie voor meer informatie [Een sectie-einde toevoegen aan een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+Voor meer informatie, zie [ een sectieonderbreking aan een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) toevoegen.
 
 ### Compatibiliteit met aangepaste velden berekenen
 
-In een aangepast formulier met meerdere objecten als een berekend veld verwijst naar velden die beschikbaar zijn voor gebruik met alle bijbehorende objecttypen van het formulier (zoals {name}, {description}, en {entryDate}, die beschikbaar zijn voor meerdere objecttypen), worden de gegevens correct berekend, ongeacht het object waaraan u de gegevens koppelt.
+Als in een aangepast formulier met meerdere objecten een berekend veld verwijst naar velden die beschikbaar zijn voor gebruik met alle gekoppelde objecttypen van het formulier (zoals {name} , {description} en {entryDate} , die beschikbaar zijn voor meerdere objecttypen), worden de gegevens correct berekend, ongeacht het object waaraan u het toevoegt.
 
-Als u bijvoorbeeld een formulier met meerdere objecten hebt voor projecten en uitgaven, en u een berekend veld toevoegt met de {name} in het veld wordt de projectnaam weergegeven wanneer u het formulier aan een project toevoegt en wordt de taaknaam weergegeven wanneer u het formulier aan een taak toevoegt.
+Als u bijvoorbeeld een formulier met meerdere objecten hebt voor projecten en uitgaven en u een berekend veld toevoegt met de expressie {name} , wordt in het veld de projectnaam weergegeven wanneer u het formulier aan een project toevoegt en voegt u de taaknaam toe aan het formulier.
 
 Als een berekend veld in het formulier echter verwijst naar een veld dat niet compatibel is met alle objecttypen van het formulier, wordt u in een bericht gewaarschuwd dat u wijzigingen wilt aanbrengen.
 
 >[!INFO]
 >
->**Voorbeeld:** In een douaneformulier verbonden aan het de objecten van de Taak type, creeert u een berekend douanegebied dat verwijzingen het ingebouwde gebied Toegewezen aan: Naam zodat het de naam van de primaire verantwoordelijke ontvanger kan tonen wanneer de vorm aan een taak in bijlage is:
+>**Voorbeeld:** in een douaneformulier verbonden aan het de objecten van de Taak type, creeert u een berekend douanegebied dat verwijzingen het ingebouwde gebied Toegewezen aan: Naam zodat het de naam van de primaire aangewezen kan tonen wanneer de vorm aan een taak in bijlage is:
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +113,9 @@ Als een berekend veld in het formulier echter verwijst naar een veld dat niet co
 Wanneer dit voorkomt, kunt u één van het volgende doen:
 
 * Verwijder een van de twee incompatibele items uit het aangepaste formulier. Dit is het objecttype of het veld waarnaar wordt verwezen.
-* Beide items behouden en de filtervariabele voor jokertekens gebruiken `$$OBJCODE` als een voorwaarde in een IF-expressie om twee verschillende versies van het veld In laden te maken. Hierdoor werkt het veld goed, ongeacht het type object waaraan het formulier is gekoppeld.
+* Houd beide items en gebruik de variabele voor het jokertekenfilter `$$OBJCODE` als voorwaarde in een IF-expressie om twee verschillende versies van het veld In lading te maken. Hierdoor werkt het veld goed, ongeacht het type object waaraan het formulier is gekoppeld.
 
-  Gebruikend het voorbeeld hierboven, hoewel er geen ingebouwde Toegewezen aan is: Het gebied van de Naam voor projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert). In het veld Aangepast in lading kunt u dus `$$OBJCODE` zoals hieronder wordt getoond om naar het gebied van de Eigenaar te verwijzen wanneer het douaneformulier aan een project in bijlage is, en het Toegewezen aan: gebied van de Naam wanneer het formulier aan een taak in bijlage is:
+  Gebruikend het voorbeeld hierboven, hoewel er geen ingebouwde Toegewezen aan is: Het gebied van de Naam voor projecten, is er een ingebouwd gebied van de Eigenaar (dat automatisch met de naam van de persoon invult die het project creeerde, tenzij iemand manueel dit verandert). Zo kunt u in het veld Aangepast in kosten `$$OBJCODE` gebruiken, zoals hieronder wordt weergegeven, om te verwijzen naar het veld Eigenaar wanneer het aangepaste formulier aan een project is gekoppeld en naar het veld Toegewezen aan: Naam wanneer het formulier aan een taak is gekoppeld:
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +123,11 @@ Wanneer dit voorkomt, kunt u één van het volgende doen:
 
 >[!NOTE]
 >
->  Als u een objecttype toevoegt vóór een veldnaam, verwijst dit naar het bovenliggende object van het object, zodat u het niet kunt gebruiken `{project}.{name}` met een project, maar u kunt het met een taak gebruiken.
+>  Als u een objecttype toevoegt vóór een veldnaam, verwijst het naar het bovenliggende object van het object. U kunt `{project}.{name}` dus niet gebruiken met een project, maar u kunt het wel gebruiken met een taak.
 
-Zie voor instructies over het toevoegen van een berekend aangepast veld aan een aangepast formulier [Berekende gegevens toevoegen aan een aangepast formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Voor instructies bij het toevoegen van een berekend douanegebied aan een douanevorm, zie [ berekende gegevens aan een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) toevoegen.
 
-Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [Overzicht van jokertekenfiltervariabelen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [ overzicht van de de filtervariabelen van de Verjaring ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Let op het verwijderen van een objecttype uit een aangepast formulier
 
@@ -135,4 +135,4 @@ U kunt op elk gewenst moment een objecttype op een aangepast formulier verwijder
 
 Er is ook geen meldingssysteem om mensen die het aangepaste formulier gebruiken te waarschuwen dat het is verwijderd.
 
-Zie voor meer informatie [Een aangepast veld of aangepaste widget uit het systeem verwijderen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+Voor meer informatie, zie [ een douanegebied of widget van het systeem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.

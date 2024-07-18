@@ -21,7 +21,7 @@ U kunt taken in een specifiek project creëren, of u kunt taken van het gebied v
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van taken maken](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
-* [Taken maken in een project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
-* [Subtaken maken](../../../manage-work/tasks/create-tasks/create-subtasks.md)
+* [ creeer takenoverzicht ](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+* [ creeer subtasks ](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

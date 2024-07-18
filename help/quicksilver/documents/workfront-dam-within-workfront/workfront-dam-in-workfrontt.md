@@ -21,7 +21,7 @@ Adobe Workfront DAM is een native Digital Asset Management (DAM)-systeem in Adob
 
 Deze sectie bevat de volgende artikelen:
 
-* [Adobe Workfront DAM inschakelen](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
-* [Documenten beheren met Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-* [Adobe Workfront-licenties voor roltypen versus Adobe Workfront DAM-roltypen](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
+* [ toelatend Adobe Workfront DAM ](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
+* [ het Leiden Documenten met Adobe Workfront DAM ](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
+* [ Adobe Workfront verlenen van vergunningen roltypes versus Adobe Workfront DAM roltypes ](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
 * [Help voor Adobe Workfront DAM openen](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

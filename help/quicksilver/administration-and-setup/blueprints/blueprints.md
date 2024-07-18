@@ -18,9 +18,9 @@ ht-degree: 5%
 
 # Blauwdrukken
 
-* [Overzicht van blauwdrukken](../../administration-and-setup/blueprints/blueprints-overview.md)
-* [Toegang tot blauwdrukken configureren](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
-* [Een blauwdruk installeren](../../administration-and-setup/blueprints/blueprints-install.md)
-* [Een blauwdruk configureren](../../administration-and-setup/blueprints/configure-template-package.md)
+* [ Overzicht van blauwdrukken ](../../administration-and-setup/blueprints/blueprints-overview.md)
+* [ vormt toegang tot blauwdrukken ](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
+* [ installeer een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md)
+* [ vorm een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md)
 * [Handelingen die moeten worden uitgevoerd na de installatie van een blauwdruk](../../administration-and-setup/blueprints/best-next-actions-after-install.md)
 * [Lijst met beschikbare blauwdrukken](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md)

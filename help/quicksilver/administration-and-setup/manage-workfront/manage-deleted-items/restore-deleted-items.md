@@ -59,7 +59,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw beheerder van Workfront.
 
 +++
 
@@ -97,7 +97,7 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
 
 * Uren (en uur-id&#39;s)
 
-  Of het verwijderde item urenlang wordt hersteld, is afhankelijk van de instellingen die u hebt gekozen bij het configureren van voorkeuren voor tijdbladen en uren. Zie voor meer informatie [Het configureren van beïnvloeding wordt toegepast op uren dat een object wordt verwijderd en hersteld](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+  Of het verwijderde item urenlang wordt hersteld, is afhankelijk van de instellingen die u hebt gekozen bij het configureren van voorkeuren voor tijdbladen en uren. Voor meer informatie, zie [ beïnvloeden beïnvloedt op uren wanneer een voorwerp wordt geschrapt en ](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md) hersteld.
 
 * De URL van het item
 
@@ -131,20 +131,20 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
 
 * Objecten omzetten
 
-  Een oplossingsobject is een omgezet probleem dat met de optie is geconfigureerd **Behoud het oorspronkelijke probleem en koppel zijn resolutie aan dit** &lt;**project** of **taak)**>. Als u het ouderproject of de taak schrapt, wordt de kwestie niet meer geïdentificeerd als het oplossen van voorwerp omdat er geen verbinding meer is die het met het project of de taak verbindt. Als u het bovenliggende element herstelt, wordt de koppeling niet hersteld.
+  Een het oplossen van voorwerp is een omgezet kwestie die met de optie **wordt gevormd houdt de originele kwestie en bindt zijn resolutie aan dit** &lt; **project** of **taak)**>. Als u het ouderproject of de taak schrapt, wordt de kwestie niet meer geïdentificeerd als het oplossen van voorwerp omdat er geen verbinding meer is die het met het project of de taak verbindt. Als u het bovenliggende element herstelt, wordt de koppeling niet hersteld.
 
-  Zie voor meer informatie over hoe een Workfront-beheerder of groepsbeheerder problemen configureert die overeenkomen met het oplossen van objecten bij het omzetten [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) en [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Voor meer informatie over hoe een beheerder van Workfront of groepsbeheerder kwesties vormt om het oplossen van voorwerp aan te passen wanneer omgezet, zie [ taak voor het hele systeem vormen en de voorkeur van de kwestie ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) en [ taak vormen en geven voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 
-  Voor meer informatie over het omzetten van kwesties, zie [Overzicht van conversie van problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+  Voor meer informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Items herstellen
 
 {{step-1-to-setup}}
 
-1. Klikken **Prullenbak** > **Onlangs verwijderd**.
-1. Klik op de knop **Projecten**, **Taken**, **Problemen**, **Sjablonen**, of **Documenten** , afhankelijk van het type item dat u wilt herstellen.
+1. Klik **KringloopBak** > **onlangs Geschrapt**.
+1. Klik de **Projecten**, **Taken**, **Kwesties**, **Malplaatjes**, of **Documenten** tabel, afhankelijk van het type van punt u wilt herstellen.
 
-   Items worden gesorteerd op **Verwijderingsdatum** kolom standaard.
+   De punten worden gesorteerd door de **kolom van de Datum van de Schrapping** door gebrek.
 
 1. Selecteer maximaal 10 items die u wilt herstellen.
 
@@ -152,10 +152,10 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
 
    Als u een bovenliggende taak verwijdert, wordt alleen de bovenliggende taak in de lijst weergegeven. Maar alle onderliggende taken worden hersteld wanneer u een bovenliggende taak herstelt.
 
-1. Klikken **Herstellen** om de geselecteerde items op hun oorspronkelijke locatie te herstellen.
-1. (Optioneel) Als u het herstelde item snel wilt weergeven, voert u de stappen in [Teruggezet item weergeven](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. Klik **herstellen** om de geselecteerde punten aan hun originele plaats te herstellen.
+1. (Facultatief) om het herstelde punt snel te bekijken, volg de stappen in [ Mening herstelde punt ](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-   Zie de sectie voor meer informatie over wat er gebeurt wanneer u een item hebt hersteld [Wat gebeurt er nadat u items hebt teruggezet](#what-happens-after-you-restore-items) in dit artikel.
+   Voor meer informatie over wat gebeurt nadat u een punt terugzet, zie de sectie [ wat gebeurt nadat u punten ](#what-happens-after-you-restore-items) in dit artikel terugzet.
 
 ## Wat gebeurt er nadat u items hebt teruggezet {#what-happens-after-you-restore-items}
 

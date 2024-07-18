@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -39,22 +39,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## De lijst met opmerkingen doorzoeken
 
 U kunt in de lijst met opmerkingen zoeken naar tekst in de opmerking zelf, het nummer van de opmerking of het gebruik dat de opmerking heeft gemaakt.
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
-1. (Voorwaardelijk) Als het gebied met opmerkingen niet is geopend, klikt u op **Opmerkingen weergeven** in de rechterbovenhoek.
-1. Klik op de knop **Zoeken** om het zoekvak weer te geven.
+1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
+1. Klik het **pictogram van het Onderzoek** om de onderzoeksdoos te tonen.
 
 1. Voer een van de volgende twee handelingen uit:
 
@@ -70,50 +70,50 @@ U kunt in de lijst met opmerkingen zoeken naar tekst in de opmerking zelf, het n
 U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoals gebruiker, handelingen, ongelezen status en meer te definiëren.
 
 1. Open de proefdruk op de plaats waar u de opmerkingen wilt filteren.
-1. (Voorwaardelijk) Als het gebied met opmerkingen niet is geopend, klikt u op **Opmerkingen weergeven** in de rechterbovenhoek.
-1. Klik in het gebied Opmerkingen op de knop **Filter** pictogram.
+1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
+1. Op het commentaargebied, klik het **pictogram van de Filter**.
 
-   ![proof_comment_filter.png](assets/proof-comment-filter.png)
+   ![ proof_comment_filter.png ](assets/proof-comment-filter.png)
 
-1. Gebruik de opties die onder de **Filter** om de opmerkingen te filteren aan de hand van een van de volgende criteria:
+1. Gebruik de opties die onder het **pictogram van de Filter** verschijnen om de commentaren door om het even welke volgende criteria te filtreren:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Auteurs</strong> </td> 
+      <td role="rowheader"><strong> Auteurs </strong> </td> 
       <td>Hiermee geeft u alleen opmerkingen en reacties op opmerkingen weer die zijn gemaakt door gebruikers die u opgeeft. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Handelingen</strong> </td> 
+      <td role="rowheader"><strong> Acties </strong> </td> 
       <td>Hiermee geeft u alleen opmerkingen weer die overeenkomen met de actie die u selecteert. Geen actie. Handelingen moeten in uw systeem zijn ingeschakeld. Zie voor meer informatie.<!--
         &nbsp;
        --></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Algemene filteropties</strong> </td> 
+      <td role="rowheader"><strong> Algemene het filtreren opties </strong> </td> 
       <td> 
        <ul> 
-        <li><strong>Onopgelost</strong>: Hiermee geeft u alleen opmerkingen weer die nog niet zijn opgelost. </li> 
-        <li><strong>Ongelezen</strong>: Hiermee geeft u alleen opmerkingen weer die u nog niet hebt gelezen. </li> 
-        <li><strong>Met bijlagen</strong>: Hiermee geeft u alleen opmerkingen weer die een bijlage bevatten, of opmerkingen die een antwoord bevatten dat een bijlage bevat.</li> 
-        <li><strong>Alleen huidige pagina</strong>:Hiermee geeft u alleen opmerkingen weer van de pagina die u momenteel bekijkt. De lijst met opmerkingen wordt vernieuwd wanneer u de zichtbare pagina wijzigt. Alleen beschikbaar voor statische en interactieve proefdrukken.</li> 
+        <li><strong> Onopgelost </strong>: Vertoningen slechts commentaren die nog niet worden opgelost. </li> 
+        <li><strong> Ongelezen </strong>: Vertoningen slechts commentaren die u nog niet hebt gelezen. </li> 
+        <li><strong> met gehechtheid </strong>: Toont slechts commentaren die een gehechtheid bevatten, of commentaren die een antwoord omvatten dat een gehechtheid bevat.</li> 
+        <li><strong> Huidige pagina slechts </strong>:De vertoningen slechts commentaren van de pagina u momenteel bekijkt. De lijst met opmerkingen wordt vernieuwd wanneer u de zichtbare pagina wijzigt. Alleen beschikbaar voor statische en interactieve proefdrukken.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Toepassen** of klik op **Filter** om de lijst met opmerkingen weer te geven waarop de filtercriteria zijn toegepast. Het pictogram Filter wordt weergegeven met een blauwe stip om aan te geven dat een filter wordt toegepast.
+1. Klik **toepassen** of klik het **pictogram van de Filter** om de commentaarlijst met uw toegepaste filtercriteria te bekijken. Het pictogram Filter wordt weergegeven met een blauwe stip om aan te geven dat een filter wordt toegepast.
 
-1. Wanneer u klaar bent met filteren en alle opmerkingen wilt weergeven, klikt u op de knop **Filter** pictogram, klikken **Herstellen** klikt u op de knop **Filter** weer.
+1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **** pictogram van de Filter {.
 
 ## De lijst met opmerkingen sorteren
 
 Wanneer u de lijst met opmerkingen sorteert, wordt de gekozen sorteeroptie onthouden wanneer u een proef opnieuw opent in de proefdrukviewer die u gebruikt.
 
 1. Open de proefdruk op de plaats waar u de opmerkingen wilt sorteren.
-1. Als het gebied met opmerkingen niet is geopend, klikt u op **Opmerkingen weergeven** in de rechterbovenhoek.
+1. Als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 
 1. Klik op het sorteermenu om het te openen.
 1. ![](assets/mceclip3.png)
@@ -167,7 +167,7 @@ Wanneer u de lijst met opmerkingen sorteert, wordt de gekozen sorteeroptie ontho
      </tr> 
      <tr> 
       <td role="rowheader">Apparaat (omlaag)</td> 
-      <td> <p>(Alleen beschikbaar voor interactieve proefdrukken.) Hiermee geeft u de opmerkingen op volgorde weer volgens de resolutie die is geselecteerd toen de opmerking werd gemaakt. Opmerkingen over hogere resoluties worden eerst weergegeven.</p> <p>Voor informatie over het wijzigen van de resolutie in een interactief bewijs, zie <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">De resolutie voor interactieve proefdrukken wijzigen in de proefdrukviewer</a>.</p> </td> 
+      <td> <p>(Alleen beschikbaar voor interactieve proefdrukken.) Hiermee geeft u de opmerkingen op volgorde weer volgens de resolutie die is geselecteerd toen de opmerking werd gemaakt. Opmerkingen over hogere resoluties worden eerst weergegeven.</p> <p>Voor informatie over het veranderen van de resolutie in een interactieve proef, zie <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref"> de interactieve proefdrukresolutie van de Verandering in de het proef kijker </a>.</p> </td> 
       <td>Alleen beschikbaar voor interactieve proefdrukken.</td> 
      </tr> 
     </tbody> 

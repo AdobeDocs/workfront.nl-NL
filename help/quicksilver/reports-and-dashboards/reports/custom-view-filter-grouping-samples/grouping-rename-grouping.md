@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt de namen van groepen wijzigen in iets wat de gebruikers beter bekend is.
 
-Als u bijvoorbeeld de standaardgroepering Naam Portfolio toepast op een lijst met projecten, wordt de naam van de groepering weergegeven als *Portfolio: Naam:`<name of portfolio>`*.
+Bijvoorbeeld, wanneer u de standaardgroepering van de Naam van het Portfolio op een lijst van projecten toepast, verschijnt de naam van de groepering als *Portfolio: Naam:`<name of portfolio>`*.
 
 ![](assets/grouping-unedited-name-350x167.png)
 
@@ -58,30 +58,30 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een groep te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De weergavenaam in een groep bewerken
 
 De weergavenaam wijzigen in een projectgroep:
 
 1. Ga naar een lijst met projecten.
-1. Van de **Groepering** vervolgkeuzelijst, selecteert u **Nieuwe groepering**.
+1. Van **het Groeperen** drop-down menu, uitgezochte **Nieuwe Groepering**.
 
-1. Klikken **Groepering toevoegen** en typ &quot;Naam Portfolio&quot; in het dialoogvenster **Eerst door:** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. Klik **toevoegen Groepering**, en beginnen &quot;Naam van het Portfolio&quot;in **eerst te typen door:** gebied, dan selecteer het wanneer het in de lijst toont.
 
-1. Klikken **Overschakelen naar tekstmodus**.
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Voer een van de volgende handelingen uit:
 
-   * Voeg de volgende code toe aan de bestaande tekst beschikbaar in het dialoogvenster **Uw rapport groeperen** vak:
+   * Voeg de volgende code aan de bestaande tekst beschikbaar in de **Groep uw doos van het Rapport** toe:
 
 
      `group.0.displayname=Your Value`
@@ -101,11 +101,11 @@ De weergavenaam wijzigen in een projectgroep:
 
      >[!TIP]
      >
-     >U kunt ook de `group.0.name=` en de `group.0.displayname=` regels leeg. In dat geval wordt in de groep de waarde weergegeven waarop u groepeert.
+     >U kunt ook de regels `group.0.name=` en `group.0.displayname=` leeg laten. In dat geval geeft de groepering de waarde weer waarop u groepeert.
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. Klikken **Gereed** vervolgens **Groepering opslaan**.
+1. Klik **Gedaan**, dan **sparen Groepering**.
 
    De standaardnaam voor de groepering wordt gewijzigd op basis van de gegevens in de tekstmodus.

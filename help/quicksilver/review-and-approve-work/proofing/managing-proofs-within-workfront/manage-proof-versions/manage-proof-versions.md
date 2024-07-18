@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Proefversies beheren
 
-* [Een nieuwe versie van een proefdruk maken](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
-* [Proefversies weergeven](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
-* [Versiedetails voor proefdrukken weergeven en beheren](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
+* [ creeer een nieuwe versie van een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
+* [ de proefversies van de Mening ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
+* [ Mening en beheer de details van de proefversie ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
 * [Proefversies downloaden](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)

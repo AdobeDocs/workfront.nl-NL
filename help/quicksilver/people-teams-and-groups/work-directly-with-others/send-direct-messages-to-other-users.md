@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Directe berichten verzenden naar andere gebruikers
 
-[!DNL Adobe Workfront] laat u toe om berichten snel en gemakkelijk te verzenden die met om het even welk werkpunt direct aan andere geen verband houden [!DNL Workfront] gebruikers. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven in het dialoogvenster [!UICONTROL Updates] op de homepage van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor meer informatie over updates raadpleegt u [Werkitems bijwerken en updates weergeven: artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Met [!DNL Adobe Workfront] kunt u snel en eenvoudig berichten verzenden die geen verband houden met een werkitem en deze rechtstreeks naar andere [!DNL Workfront] -gebruikers sturen. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven op het tabblad [!UICONTROL Updates] op de homepage van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor extra informatie over updates, zie [ het werkpunten van de Update en meningsupdates: artikelindex ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 De gebruiker u verzendt het bericht om de volgende types van berichten te ontvangen wanneer u een bericht verzendt zoals die in deze sectie wordt beschreven:
 
-* Een melding in de app, zoals beschreven in [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
+* Een in-app bericht, zoals die in [ wordt beschreven Mening en beheert in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * Een e-mailmelding
 
-  Dit is afhankelijk van de typen e-mailberichten die de gebruiker moet ontvangen. Zie voor meer informatie [Gebeurtenismeldingen configureren voor iedereen in het systeem](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [Gebeurtenismeldingen voor een groep weergeven en configureren](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), en [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  Dit is afhankelijk van de typen e-mailberichten die de gebruiker moet ontvangen. Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen, [ Mening en vorm gebeurtenisberichten voor een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), en [ wijzig uw eigen e-mailberichten ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Toegangsvereisten
 
@@ -46,23 +46,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een bericht verzenden dat geen verband houdt met een tijdelijk onderdeel naar een andere gebruiker
 
 1. Ga naar de homepage van de gebruiker u een bericht naar wilt verzenden.\
    U kunt als volgt naar de homepage van een gebruiker navigeren:
 
-   * Klik op de gekoppelde naam van de gebruiker zoals deze ergens in het dialoogvenster [!DNL Workfront] interface. Gebruikersnamen worden in veel delen van het dialoogvenster [!DNL Workfront] , zoals in een opmerking van de gebruiker.
+   * Klik op de gekoppelde naam van de gebruiker zoals deze overal in de [!DNL Workfront] -interface wordt weergegeven. Gebruikersnamen worden weergegeven in veel gebieden van de interface van [!DNL Workfront] , zoals in een opmerking die door de gebruiker is gemaakt.
 
-1. Op de **[!UICONTROL Updates]** klikt u in het veld van het tekstvak.
+1. Klik op het tabblad **[!UICONTROL Updates]** in het tekstvakveld.
 
-   ![Berichtgebruiker op de [!UICONTROL Updates] tab](assets/message-user-NWE.png)
+   ![ gebruiker van het Bericht op het [!UICONTROL Updates] lusje ](assets/message-user-NWE.png)
 
 1. Typ uw bericht.
-1. (Optioneel) Klik in het dialoogvenster **[!UICONTROL Notify]** en typt u vervolgens de naam van een andere gebruiker die u in dit bericht wilt opnemen.
+1. (Optioneel) Klik in het veld **[!UICONTROL Notify]** en typ de naam van een andere gebruiker die u in dit bericht wilt opnemen.
 
-1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht zichtbaar slechts aan andere gebruikers in uw bedrijf te maken.
+1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht alleen zichtbaar te maken voor andere gebruikers in uw bedrijf.
 
 1. Klik op **[!UICONTROL Update].**
-Het bericht wordt boven aan de lijst met berichten op het tabblad **[!UICONTROL Updates]** op de homepage van de gebruiker.
+Het bericht wordt boven aan de lijst met berichten op het tabblad **[!UICONTROL Updates]** op de homepage van de gebruiker gepost.

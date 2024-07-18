@@ -20,7 +20,7 @@ Deze webinars waren geconcentreerd op functionaliteit inbegrepen in de R1 versie
 
 De R1 versie is momenteel beschikbaar om in Voorproef te testen; R1 versies aan het milieu van de Productie op 26 April, 2017.
 
-Als u meer gedetailleerde informatie wilt bekijken over de functionaliteit die in de webinars wordt beschreven, raadpleegt u de [Overzicht van de release van R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) pagina.
+Om meer gedetailleerde informatie over de functionaliteit te bekijken die in webinars wordt behandeld, zie [ R1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) pagina.
 
 De volgende webinar-opnamen zijn beschikbaar:
 
@@ -30,10 +30,10 @@ Het Workfront R1 2017 Release Webinar werd op 29 maart door het Workfront Produc
 
 Voor gemak, is webinar verdeeld in de volgende onderwerpen:
 
-* [Inleiding](#introduction)
-* [Projecten](#projects)
-* [Gebruikersbeheer](#user-management)
-* [Configuratie](#configuration)
+* [ Inleiding ](#introduction)
+* [ Projecten ](#projects)
+* [ Gebruikersbeheer ](#user-management)
+* [ Configuratie ](#configuration)
 * [Mobiel en Outlook](#mobile-and-outlook)
 
 ### Inleiding {#introduction}

@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -44,38 +44,38 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders weergeven</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen aan een rapport weergeven</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemmingen aan een rapport weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een rapport uitvoeren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Rapporten**.
 
 1. Selecteer een van de volgende opties:
 
-   * **Mijn rapporten:** Rapporten die u hebt gemaakt.
-   * **Gedeeld met mij:** Rapporten die andere gebruikers met u hebben gedeeld.
-   * **Alle rapporten:** Alle rapporten in het systeem waartoe u toegang hebt.
+   * **Mijn Rapporten:** Rapporten die u hebt gecreeerd.
+   * **Gedeeld met me:** Rapporten die andere gebruikers met u hebben gedeeld.
+   * **Alle Rapporten:** Alle rapporten in het systeem dat u toegang tot hebt.
 
 1. Klik op de naam van het rapport dat u wilt uitvoeren.\
    of\
-   Als het rapport is gemaakt met aanwijzingen, selecteert u de gewenste gegevens in de vervolgkeuzemenu&#39;s en klikt u op **Rapport uitvoeren**.\
-   Voor meer informatie over herinneringen, zie [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
+   Als het rapport gebruikend herinneringen werd gecreeerd, selecteer de aangewezen informatie van de drop-down menu&#39;s, dan klik **Rapport van de Looppas**.\
+   Voor meer informatie over herinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.\
    De inhoud van de rapportvertoning met een timestamp in de hoger-juiste hoek van het rapport die de datum, de tijd, en de tijdzone omvat toen het rapport van de context van de gebruiker werd in werking gesteld die het rapport in werking stelde.
 
-1. (Optioneel) Klik op de knop **Pictogram Opnieuw laden** ![](assets/qs-report-refresh-icon.png) om de resultaten in een rapport te vernieuwen als het rapport een tijdje in uw browser is getoond.
+1. (Optioneel) Klik op het pictogram **Opnieuw laden ![](assets/qs-report-refresh-icon.png) om de resultaten in een rapport te vernieuwen als het rapport een tijdje in uw browser is weergegeven.**
 
-1. (Voorwaardelijk) Als het rapport filters of herinneringen gebruikt, klik **Filters en vragen tonen** om een lijst van filters en herinneringen te tonen die op het rapport worden gebruikt u bekijkt. Als het rapport alleen filters of alleen aanwijzingen bevat, **Filters tonen** of **Vragen weergeven** wordt weergegeven.
+1. (Voorwaardelijk) als het rapport filters of herinneringen gebruikt, klik **tonen Filters en Vragen** om een lijst van filters en herinneringen te tonen die op het rapport worden gebruikt u bekijkt. Als het rapport slechts filters of slechts herinneringen bevat, **toont Filters** of **toont Herinneringen** in plaats daarvan verschijnt.
 
-   ![Filters en aanwijzingen weergeven](assets/qs-reports-showfiltersandprompts-2022-350x136.png)
+   ![ toon filters en herinneringen ](assets/qs-reports-showfiltersandprompts-2022-350x136.png)
 
    De informatie wordt weergegeven onder de rapportnaam aan de linkerkant van de pagina. Voor herinneringen, is dit informatie over de snelle selecties die op het tijdstip werden gemaakt het rapport in werking werd gesteld, zoals die in Stap 4 wordt beschreven.
 
@@ -87,7 +87,7 @@ Uw rapport kan in de cache worden geplaatst als het al een tijdje in uw browser 
 
 * Bewerk de rapportinstellingen en sla het rapport op.
 * Wijzig de weergave, groep of filter.
-* Klik op de knop **Pictogram Opnieuw laden**
-Deze optie is beschikbaar in de hoger-juiste hoek van de pagina binnen het berichtvakje dat op de tijd wijst dat het rapport werd bewaard, of het is beschikbaar in de hoger-juiste hoek van het dashboard dat het rapport wordt geplaatst. Zie de sectie &quot;Dashboards weergeven&quot; in het artikel voor meer informatie over het opnieuw laden van dashboards [Aan de slag met dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+* Klik het **pictogram opnieuw laden**
+Deze optie is beschikbaar in de hoger-juiste hoek van de pagina binnen het berichtvakje dat op de tijd wijst dat het rapport werd bewaard, of het is beschikbaar in de hoger-juiste hoek van het dashboard dat het rapport wordt geplaatst. Voor meer informatie over het opnieuw laden van dashboards, zie de sectie &quot;Dashboards van de Vertoning&quot;in artikel [ begonnen worden met dashboards ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Heb toegang tot om het even welke pagina van het rapport voorbij de eerste pagina door aan de Summiere, Matrijs, of lusjes van de Grafiek te navigeren.

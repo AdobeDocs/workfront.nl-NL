@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw weergaven toevoegen om de zichtbaarheid te vergroten in belangrijke punten van uw objecten. Met Statuspictogrammen kunt u in één oogopslag zien wanneer de volgende voorwaarden bestaan:
 
-* Er zijn documenten aan een object gekoppeld
+* Een object bevat documenten
 * Een object is gekoppeld aan een goedkeuringsproces
 * Aan een object zijn aanvullende notities gekoppeld
 * Een last is factureerbaar of terugbetaalbaar
@@ -34,11 +34,11 @@ Overweeg het volgende:
 
 * Als een van de items die door de pictogrammen worden vertegenwoordigd, niet aanwezig is in het object, wordt het pictogram dat het ontbrekende item vertegenwoordigt, grijs weergegeven in de kolom Statuspictogrammen in plaats van in een gekleurde afbeelding.
 
-  ![task_status_icons.png](assets/task-status-icons.png)
+  ![ task_status_icons.png ](assets/task-status-icons.png)
 
-  Zie voor meer informatie de [Overzicht van statuspictogrammen en vlaggen](#overview-of-status-icons-and-flags) in dit artikel.
+  Voor meer informatie, zie het [ Overzicht van de Pictogrammen van de Status en sectie van Vlaggen ](#overview-of-status-icons-and-flags) in dit artikel.
 
-* In sommige weergaven wordt **Statuspictogrammen** field heet **Vlaggen** of **Pictogrammen weergeven**.\
+* In sommige meningen, wordt het **gebied van de Pictogrammen van de Status 0} genoemd** Vlaggen **of** Pictogrammen van de Mening **.**\
   U kunt de vormgeving van de pictogrammen in het veld Statuspictogrammen niet aanpassen.
 
 * U kunt het aantal pictogrammen niet bewerken in het veld Statuspictogrammen.
@@ -65,16 +65,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om kolommen aan een rapport toe te voegen</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om kolommen aan een rapport toe te voegen</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een bestaande weergave</p> <p>Rechten beheren aan een rapport om er kolommen aan toe te voegen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een bestaande weergave</p> <p>Rechten beheren aan een rapport om er kolommen aan toe te voegen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Het veld Statuspictogrammen toevoegen aan een weergave
 
@@ -94,29 +94,29 @@ Het veld Statuspictogrammen toevoegen aan een aangepaste weergave die u vanaf nu
    * Uitgaven
    * Documenten
    * Gebruikers\
-     Alleen deze objecten hebben de **Statuspictogrammen** beschikbaar.\
-     Voor informatie over objectlijsten raadpleegt u [Aan de slag met lijsten in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     Slechts hebben deze voorwerpen het **beschikbare gebied van de Pictogrammen van de Status 0} {.**\
+     Voor informatie over objecten lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Van de **Weergave** vervolgkeuzelijst, selecteert u **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 
-1. Klikken **Kolom toevoegen**.
-1. In de **Tonen in deze kolom** typt u een van de volgende veldnamen en selecteert u deze wanneer de naam in de lijst wordt weergegeven:
+1. Klik **toevoegen Kolom**.
+1. In **toon in deze kolom** doos, begin om het even welke volgende gebiedsnamen te typen, dan het te selecteren wanneer het in de lijst verschijnt:
 
-   * *Statuspictogrammen*
+   * *Pictogrammen van de Status*
    * *Vlaggen*
    * *Pictogrammen weergeven * (alleen in documentweergaven).
 
    De ingebouwde pictogrammen staan onder een van deze namen.\
-   Een sjabloonweergave bevat beide **Statuspictogrammen** en de **Vlaggen** velden. In dit geval bevatten de twee kolommen identieke pictogrammen.\
-   Documentweergaven bevatten een **Pictogrammen weergeven** veld.
+   Een mening van het Malplaatje bevat zowel de **Pictogrammen van de Status** als de **Vlaggen** gebieden. In dit geval bevatten de twee kolommen identieke pictogrammen.\
+   De meningen van het document bevatten a **gebied van de Pictogrammen van de a** Mening.
 
-1. Klikken **Weergave opslaan**.
-1. (Optioneel) Geef een nieuwe naam op voor uw weergave en klik vervolgens op **Weergave opslaan**.\
-   Dit voegt de **Statuspictogrammen** aan uw Mening.
+1. Klik **sparen Mening**.
+1. (Facultatief) specificeer een nieuwe naam voor uw mening, dan klik **sparen Mening**.\
+   Dit voegt de **pictogrammen van de Status** kolom aan uw Mening toe.
 1. (Optioneel) Plaats de muisaanwijzer op een pictogram om te begrijpen wat het vertegenwoordigt.
 1. (Optioneel) Klik op een pictogram om naar het gebied van het object te gaan dat wordt weergegeven.\
    Niet alle pictogrammen zijn koppelingen naar objecten.\
-   Voor een volledige lijst van attributen voor elk pictogram, zie [Overzicht van statuspictogrammen en vlaggen](#overview-of-status-icons-and-flags) sectie.
+   Voor een volledige lijst van attributen voor elk pictogram, zie het [ Overzicht van de Pictogrammen van de Status en sectie van Vlaggen ](#overview-of-status-icons-and-flags).
 
 ## Overzicht van statuspictogrammen en vlaggen {#overview-of-status-icons-and-flags}
 
@@ -132,9 +132,9 @@ U moet over machtigingen beschikken om de objecten ten minste weer te geven, zod
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Statuspictogram of vlag</strong> </th> 
-   <th><strong>Beschrijving</strong> </th> 
-   <th><strong>Object</strong> </th> 
+   <th><strong> Pictogram van de Status of Vlag </strong> </th> 
+   <th><strong> Beschrijving </strong> </th> 
+   <th><strong> Voorwerp </strong> </th> 
    <th>Bij klikken</th> 
    <th> </th> 
   </tr> 
@@ -142,7 +142,7 @@ U moet over machtigingen beschikken om de objecten ten minste weer te geven, zod
  <tbody> 
   <tr> 
    <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">of <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon_in_problem.png" style="width: 29;height: 26;"> of <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> of <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>Geeft aan dat de voorwaarde van het project On Target (groen), In Trouble (rood) of At Risk (geel) is.<br>Voor informatie over projectvoorwaarde, zie <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overzicht van het type Projectvoorwaarde en Voorwaarde</a>.</td> 
+   <td>Geeft aan dat de voorwaarde van het project On Target (groen), In Trouble (rood) of At Risk (geel) is.<br> voor informatie over projectvoorwaarde, zie <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref"> Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project </a>.</td> 
    <td>Projecten</td> 
    <td>Klik om de takenlijst van het project te openen. </td> 
    <td> </td> 
@@ -150,28 +150,28 @@ U moet over machtigingen beschikken om de objecten ten minste weer te geven, zod
   <tr> 
    <td> <img src="assets/notes-icon-44x34.png" alt="notes_icon.png" style="width: 44;height: 34;"> </td> 
    <td>Geeft aan dat voor het object notities (updates) zijn opgenomen op het tabblad Updates.</td> 
-   <td> <p>Projecten<br>Taken<br>Problemen<br>Sjablonen<br>Sjabloontaken</p> </td> 
+   <td> <p>De projecten <br> van Taken <br> Malplaatjes <br> Taken van het Malplaatje<br></p> </td> 
    <td> <p>Klik om het tabblad Updates van het object te openen. </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/document-icon-35x42.png" alt="document_icon.png" style="width: 35;height: 42;">of <img src="assets/new-documents-icon-36x43.png" alt="new_documents_icon.png" style="width: 36;height: 43;"></td> 
    <td>Geeft aan dat aan het object documenten zijn gekoppeld. </td> 
-   <td> Projecten<br>Taken<br>Problemen<br>Sjablonen<br>Sjabloontaken </td> 
+   <td> De projecten <br> van Taken <br> Malplaatjes <br> Taken van het Malplaatje<br> </td> 
    <td>Klik om het tabblad Documenten van het object te openen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/open-issu-icon-34x36.png" alt="open_issu_icon.png" style="width: 34;height: 36;">of <img src="assets/new-open-issues-25x30.png" alt="new_open_issues.png" style="width: 25;height: 30;"></td> 
    <td>Geeft aan dat er openstaande problemen zijn met het project of de taak.</td> 
-   <td> Projecten<br>Taken </td> 
+   <td> Projecten <br> Taken </td> 
    <td>Klik om het object te openen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/approval-icon-42x38.png" alt="approval_icon.png" style="width: 42;height: 38;"> of <img src="assets/new-approval-icon-33x35.png" alt="new_approval_icon.png" style="width: 33;height: 35;"></td> 
    <td>Geeft aan dat er goedkeuring is voor het object.</td> 
-   <td> Projecten<br>Taken<br>Problemen<br>Sjablonen<br>Sjabloontaken </td> 
+   <td> De projecten <br> van Taken <br> Malplaatjes <br> Taken van het Malplaatje<br> </td> 
    <td>Klik om het object te openen. </td> 
    <td> </td> 
   </tr> 
@@ -190,21 +190,21 @@ U moet over machtigingen beschikken om de objecten ten minste weer te geven, zod
      <li>Late (rode cirkel)</li> 
      <li>Risico (blauwe ruit)</li> 
      <li>Achter (gele driehoek)</li> 
-    </ul> <p>Voor informatie over de status van de voortgang van taken raadpleegt u <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Overzicht van status voortgang van taak</a>.</p> </td> 
+    </ul> <p>Voor informatie over de Voortgangsstatus van taken, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"> Overzicht van de Status van de Voortgang van de Taak </a>.</p> </td> 
    <td>Taken</td> 
    <td>Klik om de taak te openen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="taak_kritiek_pad_pictogram.png" style="width: 36;height: 35;"> of <img src="assets/new-critical-path-icon-34x34.png" alt="new_kritiek_pad_pictogram.png" style="width: 34;height: 34;"></td> 
-   <td>Geeft aan dat de taak zich momenteel op het kritieke pad bevindt. <br>Voor informatie over taken op een Kritieke Weg van het project, zie <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Overzicht van het project Kritieke Weg</a>.</td> 
+   <td>Geeft aan dat de taak zich momenteel op het kritieke pad bevindt. <br> voor informatie over taken op een Kritieke Weg van het project, zie <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref"> Overzicht van het project Kritieke Weg </a>.</td> 
    <td>Taken</td> 
    <td>Klik om de taak te openen.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Geeft aan dat de taak aan een mijlpaal is gekoppeld. Uw systeembeheerder kan de kleur van de ruit in uw milieu aanpassen.<br>Voor informatie over mijlpalen raadpleegt u <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Een milestone-pad maken</a>.</td> 
+   <td>Geeft aan dat de taak aan een mijlpaal is gekoppeld. Uw systeembeheerder kan de kleur van de ruit in uw milieu aanpassen.<br> voor informatie over mijlpalen, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref"> een milestone weg </a> creëren.</td> 
    <td>Taken</td> 
    <td>Klik om de taak te openen. </td> 
    <td> </td> 
@@ -218,7 +218,7 @@ U moet over machtigingen beschikken om de objecten ten minste weer te geven, zod
   </tr> 
   <tr> 
    <td> <img src="assets/resolving-object-icon-43x45.png" alt="resolving_object_icon.png" style="width: 43;height: 45;"> </td> 
-   <td>Geeft aan dat er een object is dat het probleem uiteindelijk verhelpt. In dit geval kunt u het probleem niet voltooien. De bewerking wordt voltooid wanneer het object dat het omzetten voltooid is. <br>Voor informatie over het omzetten van objecten raadpleegt u <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overzicht van Oplossende en Oplosbare objecten </a>.</td> 
+   <td>Geeft aan dat er een object is dat het probleem uiteindelijk verhelpt. In dit geval kunt u het probleem niet voltooien. De bewerking wordt voltooid wanneer het object dat het omzetten uitvoert, is voltooid. <br> voor informatie over het oplossen van voorwerpen, zie <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref"> Overzicht van het Oplossen van en Oplosbare Voorwerpen </a>.</td> 
    <td>Problemen</td> 
    <td>Klik om het oplossende voorwerp van de kwestie te openen. </td> 
    <td> </td> 
@@ -274,21 +274,21 @@ U moet over machtigingen beschikken om de objecten ten minste weer te geven, zod
   </tr> 
   <tr> 
    <td> <img src="assets/billable-expense-icon-44x45.png" alt="billable_last_icon.png" style="width: 44;height: 45;"> </td> 
-   <td>Geeft aan dat een uitgave factureerbaar is.<br>Voor informatie over uitgaven raadpleegt u <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projectkosten beheren </a>.</td> 
+   <td>Geeft aan dat een uitgave factureerbaar is.<br> voor informatie over uitgaven, zie <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref"> projectuitgaven beheren </a>.</td> 
    <td>Uitgaven</td> 
    <td>Niet beschikbaar</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="last_restitusable_icon.png" style="width: 44;height: 45;"> </td> 
-   <td> Geeft aan dat een uitgave terugbetaalbaar is.<br>Voor informatie over uitgaven raadpleegt u <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projectkosten beheren </a>.</td> 
+   <td> Geeft aan dat een uitgave terugbetaalbaar is.<br> voor informatie over uitgaven, zie <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref"> projectuitgaven beheren </a>.</td> 
    <td>Uitgaven</td> 
    <td>Niet beschikbaar</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="vergoed_uitgave_pictogram.png" style="width: 44;height: 43;"></td> 
-   <td> Geeft aan dat een uitgave is vergoed.<br>Voor informatie over uitgaven raadpleegt u <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projectkosten beheren </a>.</td> 
+   <td> Geeft aan dat een uitgave is vergoed.<br> voor informatie over uitgaven, zie <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref"> projectuitgaven beheren </a>.</td> 
    <td>Uitgaven</td> 
    <td>Niet beschikbaar</td> 
    <td> </td> 

@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapport: gecombineerde taak en kwestie Mening en Groepering"
-description: Dit rapport Werkitem toont zowel taken als problemen waarmee gebruikers hebben ingestemd in één rapport. Deze optie is het beste in combinatie met een aangepaste groepering.
+title: 'Rapport: gecombineerde taak en uitgave Weergave en groepering'
+description: Dit rapport Werkitem toont zowel taken als problemen waarmee gebruikers hebben ingestemd in één rapport. Deze optie is het meest geschikt in combinatie met een aangepaste groepering.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Rapport: gecombineerde taak en kwestie Mening en Groepering
+# Rapport: gecombineerde taak en uitgave weergeven en groeperen
 
-Dit rapport Werkitem toont zowel taken als problemen waarmee gebruikers hebben ingestemd in één rapport. Deze optie is het beste in combinatie met een aangepaste groepering.
+Dit rapport Werkitem toont zowel taken als problemen waarmee gebruikers hebben ingestemd in één rapport. Deze optie is het meest geschikt in combinatie met een aangepaste groepering.
 
-Dit rapport gebruikt `sharecol=true` in de weergave om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` tag, zie [Weergave: gegevens uit meerdere kolommen samenvoegen in één gedeelde kolom](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Dit rapport gebruikt `sharecol=true` in de weergave om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [ Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
 > In de weergave Werkitem worden alleen taken en problemen weergegeven die zijn geaccepteerd door de gebruikers die aan hen zijn toegewezen. Dit rapport toont het werkpunten niet die niet van de Verzoeken van het Werk of de lijsten van de Verzoeken van het Team in het Werken van de gebruiker aan lijst zijn bewogen.
 
-![work_item_report.png](assets/work-item-report-350x46.png)
+![ work_item_report.png ](assets/work-item-report-350x46.png)
 
 ## Toegangsvereisten
 
@@ -46,29 +46,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Bouw een rapport met gecombineerde taak en de Mening van de kwestie en Groepering
 
-Een rapport opbouwen met deze visie:
+Om een rapport met dit standpunt op te stellen:
 
-1. Van de **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Rapporten**.
+1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Rapporten**.
 
-1. Klikken **Nieuw rapport** en selecteer het object **Werkitem** in het keuzemenu.
+1. Klik **Nieuw Rapport** en selecteer het voorwerp **Punt van het Werk** van het drop-down menu.
 
-1. In de **Kolomvoorvertoning** klikt u op de kop van de enige kolom die wordt weergegeven.
-1. Klikken **Overschakelen naar tekstmodus**.
-1. Plaats de muis boven het gebied in de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
+1. In het **gebied van de Voorproef van de Kolom**, klik de kopbal van de enige getoonde kolom.
+1. Klik **Schakelaar aan de Wijze van de Tekst**.
+1. De muis over het gebied van de tekstwijze, en klikt **klikt om tekst** uit te geven.
+1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
 
    ```
    column.0.description=Task or Issue 
@@ -259,8 +259,8 @@ Een rapport opbouwen met deze visie:
    column.15.width=1
    ```
 
-1. (Optioneel) Klik op **Groepen** om een groepering aan het rapport toe te voegen.
-1. (Optioneel) Als u een groep toevoegt, klikt u op **Overschakelen naar tekstmodus**.
+1. (Facultatief) klik **Groepen** om een groepering aan het rapport toe te voegen.
+1. (Facultatief) als u een groepering toevoegt, klik **Schakelaar aan de Wijze van de Tekst**.
 1. (Optioneel) Vervang de tekst binnen het gebied van de groeperingstekstmodus door de volgende code:
 
    ```
@@ -272,4 +272,4 @@ Een rapport opbouwen met deze visie:
 
    Met deze groepering groepeert u alle taken en alle problemen samen.
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.

@@ -9,15 +9,15 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 0%
 
 ---
 
 # Nieuw in API-versie 11
 
-* [Toegevoegde bronnen](#added-resources)
-* [Verwijderde bronnen](#removed-resources)
+* [ Toegevoegde Middelen ](#added-resources)
+* [ Verwijderde Middelen ](#removed-resources)
 * [Gewijzigde bronnen](#modified-resources)
 
 ## Toegevoegde bronnen {#added-resources}
@@ -234,54 +234,54 @@ Er zijn geen bronnen verwijderd voor API v11.
   <tr> 
    <td> 
     <ul> 
-     <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
-     <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
-     <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
-     <li><a href="#approval" class="MCXref xref">Goedkeuring</a> </li> 
-     <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
-     <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
-     <li><a href="#assignment" class="MCXref xref">Toewijzing</a> </li> 
-     <li><a href="#baselinetask" class="MCXref xref">BaselineTask</a> </li> 
-     <li><a href="#category" class="MCXref xref">Categorie</a> </li> 
-     <li><a href="#company" class="MCXref xref">Bedrijf</a> </li> 
-     <li><a href="#customenum" class="MCXref xref">CustomEnum</a> </li> 
-     <li><a href="#customer" class="MCXref xref">Klant</a> </li> 
-     <li><a href="#customerpreferences" class="MCXref xref">Klantvoorkeuren</a> </li> 
+     <li><a href="#accesslevelpermissions" class="MCXref xref"> AccessLevelPermissions </a> </li> 
+     <li><a href="#accessrequest" class="MCXref xref"> AccessRequest </a> </li> 
+     <li><a href="#accessrule" class="MCXref xref"> AccessRule </a> </li> 
+     <li><a href="#approval" class="MCXref xref"> Goedkeuring </a> </li> 
+     <li><a href="#approvalpath" class="MCXref xref"> ApprovalPath </a> </li> 
+     <li><a href="#approvalprocess" class="MCXref xref"> ApprovalProcess </a> </li> 
+     <li><a href="#assignment" class="MCXref xref"> Taak </a> </li> 
+     <li><a href="#baselinetask" class="MCXref xref"> BaselineTask </a> </li> 
+     <li><a href="#category" class="MCXref xref"> Categorie </a> </li> 
+     <li><a href="#company" class="MCXref xref"> Bedrijf </a> </li> 
+     <li><a href="#customenum" class="MCXref xref"> CustomEnum </a> </li> 
+     <li><a href="#customer" class="MCXref xref"> Klant </a> </li> 
+     <li><a href="#customerpreferences" class="MCXref xref"> CustomerPreferences </a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
-     <li><a href="#document" class="MCXref xref">Document</a> </li> 
-     <li><a href="#iteration" class="MCXref xref">Iteratie</a> </li> 
-     <li><a href="#layout-template" class="MCXref xref">Lay-outsjabloon</a> </li> 
-     <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
-     <li><a href="#note" class="MCXref xref">Opmerking</a> </li> 
-     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
-     <li><a href="#parameter" class="MCXref xref">Parameter</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
-     <li><a href="#program" class="MCXref xref">Programma</a> </li> 
-     <li><a href="#project" class="MCXref xref">Project</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">Goedkeuring proef</a> </li> 
-     <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
-     <li><a href="#reservedtime" class="MCXref xref">ReservedTime</a> </li> 
+     <li><a href="#docmetadatalinkgroup" class="MCXref xref"> DocMetadataLinkGroup </a> </li> 
+     <li><a href="#document" class="MCXref xref"> Document </a> </li> 
+     <li><a href="#iteration" class="MCXref xref"> Herhaling </a> </li> 
+     <li><a href="#layout-template" class="MCXref xref"> Malplaatje van de Lay-out </a> </li> 
+     <li><a href="#milestonepath" class="MCXref xref"> MilestonePath </a> </li> 
+     <li><a href="#note" class="MCXref xref"> Nota </a> </li> 
+     <li><a href="#optask" class="MCXref xref"> OpTask </a> </li> 
+     <li><a href="#parameter" class="MCXref xref"> Parameter </a> </li> 
+     <li><a href="#portfolio" class="MCXref xref"> Portfolio </a> </li> 
+     <li><a href="#program" class="MCXref xref"> Programma </a> </li> 
+     <li><a href="#project" class="MCXref xref"> Project </a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref"> ProofApproval </a> </li> 
+     <li><a href="#queuedef" class="MCXref xref"> QueueDef </a> </li> 
+     <li><a href="#reservedtime" class="MCXref xref"> ReservedTime </a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
-     <li><a href="#risk" class="MCXref xref">Risico</a> </li> 
-     <li><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </li> 
-     <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
-     <li><a href="#task" class="MCXref xref">Taak</a> </li> 
-     <li><a href="#team" class="MCXref xref">Team</a> </li> 
-     <li><a href="#template" class="MCXref xref">Sjabloon</a> </li> 
-     <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
-     <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
-     <li><a href="#timesheet" class="MCXref xref">Tijdschema</a> </li> 
-     <li><a href="#update" class="MCXref xref">Bijwerken</a> </li> <!--
+     <li><a href="#resourceplannerfilter" class="MCXref xref"> ResourcePlannerFilter </a> </li> 
+     <li><a href="#risk" class="MCXref xref"> Risico </a> </li> 
+     <li><a href="#scheduledreport" class="MCXref xref"> ScheduledReport </a> </li> 
+     <li><a href="#scorecardquestion" class="MCXref xref"> ScoreCardQuestion </a> </li> 
+     <li><a href="#task" class="MCXref xref"> Taak </a> </li> 
+     <li><a href="#team" class="MCXref xref"> Team </a> </li> 
+     <li><a href="#template" class="MCXref xref"> Malplaatje </a> </li> 
+     <li><a href="#templateassignment" class="MCXref xref"> TemplateAssignment </a> </li> 
+     <li><a href="#templatetask" class="MCXref xref"> TemplateTask </a> </li> 
+     <li><a href="#timesheet" class="MCXref xref"> Timesheet </a> </li> 
+     <li><a href="#update" class="MCXref xref"> Update </a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
-     <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
-     <li><a href="#work" class="MCXref xref">Werk </a> </li> 
+     <li><a href="#usernote" class="MCXref xref"> UserNote </a> </li> 
+     <li><a href="#work" class="MCXref xref"> Werk </a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -832,7 +832,7 @@ Een object Parameter is een aangepast veld.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Toegevoegde mogelijke waarde TYAH (Typeahead).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Dit veld is toegevoegd en verwijst naar de objectcode van een object waarnaar wordt verwezen. Objectcodes voor alle objecten vindt u in het dialoogvenster <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Dit veld is toegevoegd en verwijst naar de objectcode van een object waarnaar wordt verwezen. De codes van objecten voor alle voorwerpen kunnen in <a href="../../wf-api/general/api-explorer.md" class="MCXref xref"> API Ontdekkingsreiziger </a> worden gevonden.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

@@ -21,7 +21,7 @@ U kunt een aangepast formulier verwijderen uit het systeem.
 
 >[!CAUTION]
 >
->Als u een aangepast formulier verwijdert, worden ook alle aangepaste gegevens verwijderd over de objecten die aan het formulier zijn gekoppeld. De verwijderde gegevens kunnen niet worden hersteld. U kunt in plaats daarvan een aangepast formulier deactiveren. Wanneer u een aangepast formulier deactiveert dat u niet meer gebruikt, behoudt u alle bijbehorende historische gegevens. Zie voor meer informatie [Een aangepast formulier opnieuw activeren of deactiveren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+>Als u een aangepast formulier verwijdert, worden ook alle aangepaste gegevens verwijderd over de objecten die aan het formulier zijn gekoppeld. De verwijderde gegevens kunnen niet worden hersteld. U kunt in plaats daarvan een aangepast formulier deactiveren. Wanneer u een aangepast formulier deactiveert dat u niet meer gebruikt, behoudt u alle bijbehorende historische gegevens. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) opnieuw activeren of deactiveren
 
 ## Toegangsvereisten
 
@@ -49,12 +49,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een aangepast formulier verwijderen
 
 {{step-1-to-setup}}
 
-1. Klikken **Aangepaste Forms.**
-1. Selecteer het aangepaste formulier en klik op ![Pictogram Verwijderen](assets/delete-icon.png).
-1. Als u zeker weet dat u het aangepaste formulier en alle bijbehorende gegevens permanent wilt verwijderen voor objecten waaraan het is gekoppeld, klikt u op **Ja, verwijderen**.
+1. Klik **Aangepaste Forms.**
+1. Selecteer de douanevorm, dan klik ![ pictogram van de Schrapping ](assets/delete-icon.png).
+1. Als u zeker bent u de douanevorm en alle bijbehorende gegevens over voorwerpen permanent wilt schrappen waar het in bijlage was, klik **ja, schrap het**.

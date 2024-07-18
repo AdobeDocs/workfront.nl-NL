@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3860'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-U kunt factureringstarieven gebruiken om opbrengst op uw projecten te berekenen wanneer u hen met de uren vermenigvuldigt die aan het project worden uitgegeven. Zie het artikel voor meer informatie over factureringssnelheden en inkomsten [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+U kunt factureringstarieven gebruiken om opbrengst op uw projecten te berekenen wanneer u hen met de uren vermenigvuldigt die aan het project worden uitgegeven. Voor meer informatie over het factureren van tarieven en opbrengst, zie het artikel [ Overzicht van het Factureren en de Ontvangsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -56,26 +56,26 @@ If you still don't have access, ask your Workfront administrator if they set add
 ## Overzicht van de factuurtarieven voor de rol en de inkomsten uit de rol van de werknemer
 
 Als Adobe Workfront-beheerder kunt u factureringssnelheden koppelen aan zowel gebruikers als functies.\
-Raadpleeg het artikel voor meer informatie over het maken van gebruikers en het koppelen van gebruikers aan factureringssnelheden [Gebruikers toevoegen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Raadpleeg het artikel voor meer informatie over het maken van taakrollen en het koppelen van rollen aan factureringssnelheden [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Voor meer informatie over het creëren van gebruikers en het associëren van hen met het factureren van tarieven, zie het artikel [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen. Voor meer informatie over het creëren van baanrollen en het associëren van hen met het factureren van tarieven, zie het artikel [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 Factureringssnelheden voor gebruikers kunnen niet worden overschreven.
 
 Factureringstarieven die aan baanrollen worden geassocieerd kunnen op het bedrijf of projectniveau worden met voeten getreden.
 
-Om de opbrengsten van projecten te berekenen op basis van de factureringsgraad van de functies, **Type inkomsten** van de projecttaken moet een van de volgende zijn:
+Om opbrengst op projecten te berekenen die op het factureren van baanrollen worden gebaseerd, moet het **Type van Ontvangsten** van de taken op de projecten één van het volgende zijn:
 
 * Rol Uur
 * Rol Uur met lampvoet
 * Rol Uur plus Vast
 
-Meer informatie over **Type inkomsten** en factureringssnelheden, zie [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie over **Type van Inkomsten** en het factureren tarieven, zie [ Overzicht van het Factureren en de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Hiërarchie van overschrijvingen van factureringssnelheden bij de berekening van inkomsten
 
 Aan een taakrol kan op de volgende manieren een factureringsfrequentie zijn gekoppeld:
 
 * Als Workfront-beheerder kunt u de factureringssnelheid op systeemniveau definiëren die aan een taakrol is gekoppeld wanneer u die taakrol maakt.\
-  Zie voor meer informatie over het maken van taakrollen [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Voor meer informatie over het creëren van baanrollen, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 * Als beheerder van Workfront, kunt u het bedrijf-vlakke het factureren tarief voor de zelfde baanrol bepalen wanneer u een bedrijf creeert.\
   Wanneer Workfront inkomsten berekent voor de projecten verbonden aan dit bedrijf, wordt het bedrijf facturerend tarief gebruikt wanneer de rol aan taken wordt toegewezen, in plaats van het systeem-vlakke factureringspercentage voor deze baanrol.\
@@ -83,25 +83,25 @@ Aan een taakrol kan op de volgende manieren een factureringsfrequentie zijn geko
 
   >[!NOTE]
   >
-  >Als u het het facturerings tarief van het Bedrijf moet bijwerken, zal het tarief op het project niet automatisch bijwerken. U moet het Bedrijf uit het project verwijderen, het tarief voor het Bedrijf bijwerken, dan het Bedrijf aan het project opnieuw vastmaken, alvorens het nieuwe tarief van het Bedrijf op het project van kracht wordt. Voor instructies bij het vastmaken van een Bedrijf aan een project, zie [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+  >Als u het het facturerings tarief van het Bedrijf moet bijwerken, zal het tarief op het project niet automatisch bijwerken. U moet het Bedrijf uit het project verwijderen, het tarief voor het Bedrijf bijwerken, dan het Bedrijf aan het project opnieuw vastmaken, alvorens het nieuwe tarief van het Bedrijf op het project van kracht wordt. Voor instructies bij het vastmaken van een Bedrijf aan een project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-  Zie voor meer informatie over het maken van factureringssnelheden voor functies die specifiek voor een bedrijf gelden [Bedrijven maken en bewerken](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  Voor meer informatie over het creëren van het factureren van de baanrol tarieven specifiek voor een bedrijf, zie [ bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 * Als beheerder van Workfront, kunt u een optie toelaten wanneer het uitgeven van een project om veranderingen in bedrijf-vlakke het factureren tarieven op het project toe te passen wanneer de gebruikers manueel projectfinanciën herberekenen.\
-  Zie voor meer informatie [Override project-Level het Factureren Tarieven met het bedrijf-Vlakke FactureringsTarieven](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+  Voor meer informatie, zie [ project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings ](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden.
 
 <div class="preview">
 
 * Als beheerder van Workfront, kunt u tariefkaarten met veelvoudige het factureren tarieven per rol bepalen, die op plaats en datum wordt gebaseerd. Wanneer een tariefkaart aan een project in bijlage is, worden alle rollen (door plaats, als de plaatsen worden gebruikt) en hun bijbehorende het factureringspercentages toegevoegd aan de de factureringsrentesectie van het project. Het vastmaken van een tariefkaart treedt om het even welke bestaande het facturerings tarieven op het project met voeten.
 
-  Zie voor meer informatie [Creditcards beheren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) en [Een tariefkaart aan een project koppelen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+  Voor meer informatie, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) en [ een tariefkaart aan een project ](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.
 
 </div>
 
 * Als projectmanager, kunt u het het facturerings tarief voor de zelfde baanrol op het projectniveau bepalen.\
   Veranderde roltarieven op het project zullen slechts effect hebben op dat project.
 
-  Voor informatie over het overschrijven van roltarieven voor het project, zie [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  Voor informatie over het met voeten treden van roltarieven voor het project, zie [ het Facturerings Tarieven van de Rol van de Opheffing van de Baan op het projectniveau ](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 >[!IMPORTANT]
 >
@@ -111,11 +111,11 @@ Aan een taakrol kan op de volgende manieren een factureringsfrequentie zijn geko
 
 Als projectmanager, kunt u specificeren wat het het facturerings tarief voor een baanrol op een specifiek project is. Dit factureringstarief op projectniveau treedt het factureringstarief op het systeemniveau voor deze baanrol met voeten. Workfront gebruikt het factureringstarief op projectniveau van de baanrol om opbrengst te berekenen, in plaats van het systeem-vlakke factureringstarief te gebruiken.
 
-<span class="preview">U kunt een tariefkaart aan het project ook vastmaken, die de het factureringspercentages van de baanrol van de tariefkaart in het project zal invoeren.</span>
+<span class="preview"> u kunt een tariefkaart aan het project ook vastmaken, die de het factureringspercentages van de baanrol van de tariefkaart in het project zal invoeren.</span>
 
-Voor informatie over hoe te om de het Facturerings Tarieven van de Rol van de Baan op het projectniveau met voeten te treden, zie [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+Voor informatie over hoe te om de het Factureren Rates van de Rol van de Baan op het projectniveau met voeten te treden, zie [ de Factureringsrates van de Rol van de Baan van de Weg op het projectniveau ](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-Voor meer informatie over welke baanrol wordt gebruikt om opbrengst over het project te berekenen, zie de &quot;berekeningen van de Inkomsten voor taken die op gebruikers en van de Taken van de Rol worden gebaseerd&quot;sectie in [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">Voor informatie over het vastmaken van een tariefkaart aan een project, zie [Een tariefkaart aan een project koppelen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het project te berekenen, zie de &quot;berekeningen van de Inkomsten voor taken die op gebruikers en de Toewijzingen van de Rol&quot;sectie in [ Overzicht van het Factureren en de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd. <span class="preview"> voor informatie over het vastmaken van een tariefkaart aan een project, zie [ een tariefkaart aan een project ](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md) vastmaken.</span>
 
 >[!NOTE]
 >
@@ -155,92 +155,92 @@ You cannot specify a
 
 ## Overzicht van het gedeelte Factureringstarieven van een project
 
-Nadat u de met voeten getreden factureringspercentages voor de baanrollen verbonden aan het project hebt gespecificeerd, kunt u alle baanrollen en hun met voeten treden in zien **Factureringstarieven** tabblad van het project.
+Nadat u de met voeten getreden het factureren tarieven voor de baanrollen verbonden aan het project hebt gespecificeerd, kunt u alle baanrollen en hun met voeten treden in het **Facturerings** lusje van het project zien.
 
-Let op de volgende informatie in de lijst met **Factureringstarieven**:
+Merk de volgende informatie in de lijst van **het Factureren Tarieven** op:
 
-* [Taakrolgroepering](#job-role-grouping)
-* [Waarde van factureringssnelheid van project](#project-billing-rate-value)
-* [Standaardfactuurwaarde](#default-billing-rate-value)
-* [Factureringswaarde bedrijf](#company-billing-rate-value)
+* [ Groepering van de Rol van de Baan ](#job-role-grouping)
+* [ de Waarde van het Tarief van het Facturerings van het Project ](#project-billing-rate-value)
+* [ Standaard het FactureringsWaarde van het Tarief ](#default-billing-rate-value)
+* [ de Waarde van het Tarief van het Facturerings van het Bedrijf ](#company-billing-rate-value)
 * [Meerdere waarden voor factureringssnelheid en tijdframes](#multiple-billing-rate-values-and-timeframes)
 
 ### Taakrolgroepering {#job-role-grouping}
 
-Factureringstarieven worden gegroepeerd in de **Factureringstarieven** per werkplek. <span class="preview">Als een tariefkaart aan het project in bijlage is, dan worden de baanrollen ook gegroepeerd door tariefkaart. Als locaties worden toegepast op taakrollen, wordt de locatienaam opgenomen als onderdeel van de naam van de taakrol. U zou de zelfde baanrol kunnen hebben die voor veelvoudige plaatsen wordt vermeld.</span>
+De tarieven van het factureren worden gegroepeerd in het **Facturerings** gebied door hun respectieve baanrollen. <span class="preview"> als een tariefkaart aan het project in bijlage is, dan worden de baanrollen ook gegroepeerd door tariefkaart. Als locaties worden toegepast op taakrollen, wordt de locatienaam opgenomen als onderdeel van de naam van de taakrol. U kon de zelfde baanrol hebben die voor veelvoudige plaatsen wordt vermeld.</span>
 
 ### Waarde van factureringssnelheid van project {#project-billing-rate-value}
 
-In de groeperingslijn die aan een baanrol beantwoordt, merk het factureringspercentage voor die baanrol op het projectniveau in **Factureringsgraad van project** kolom. Als de taakrol meerdere overschrijvingssnelheden heeft, wordt de overschrijvingssnelheid die overeenkomt met de huidige datum weergegeven op de regel voor cijfergroepering in het dialoogvenster **Factureringsgraad van project** kolom.
+In de groeperingslijn die aan een baanrol beantwoordt, merk het het factureren tarief voor die baanrol op het projectniveau in de **kolom van het Facturerings Tarief van 0} Project {op.** Als de baanrol veelvoudige met voeten treedt tarieven heeft, wordt het met voeten treden tarief dat aan de huidige datum beantwoordt getoond in de groeperende lijn in de **kolom het Facturerings Tarief van het 0} Project.**
 
 ### Standaardfactuurwaarde {#default-billing-rate-value}
 
-In de groeperingslijn van een baanrol, merk het factureringspercentage voor die baanrol op het systeemniveau in **Standaardfactureringsfrequentie** kolom.
+In de groeperende lijn van een baanrol, merk het factureringspercentage voor die baanrol op het systeemniveau in de **Standaard het FactureringsTarief** kolom op.
 
 >[!NOTE]
 >
->Als er tarieven voor projectfacturering voor een baanrol zijn, **Standaardfactureringsfrequentie** nooit wordt toegepast op de berekening van de inkomsten voor het project. Alleen de **Factureringstarieven voor projecten** worden toegepast voor de berekening van de opbrengsten.
+>Als er projectfactureringspercentages voor een baanrol zijn, wordt het **StandaardFacturerings Tarief** nooit toegepast op het berekenen van Inkomsten voor het project. Slechts worden de **FactureringsTarieven van het Project** toegepast om Ontvangsten te berekenen.
 
 ### Factureringswaarde bedrijf {#company-billing-rate-value}
 
-In de groeperingslijn van een baanrol, merk het factureringspercentage voor die baanrol op het bedrijfsniveau in **Factureringsgraad bedrijf** kolom. Dit betekent dat er een bedrijf is verbonden aan dit project, en deze baanrol heeft een verschillend factureringspercentage voor dat bedrijf. Het factureringstarief voor de bedrijfvertoningen, zelfs als het het zelfde als het projecttarief is.
+In de groeperende lijn van een baanrol, merk het factureringspercentage voor die baanrol op het bedrijfniveau in de **Koopsnelheid van het Bedrijf** kolom op. Dit betekent dat er een bedrijf is verbonden aan dit project, en deze baanrol heeft een verschillend factureringspercentage voor dat bedrijf. Het factureringstarief voor de bedrijfvertoningen, zelfs als het het zelfde als het projecttarief is.
 
 >[!NOTE]
 >
-><span class="preview">Wanneer een tariefkaart aan het project in bijlage is, **Factureringstarieven voor bedrijven** niet worden ingevoerd in de factureringssnelheden. De berekeningen zijn gebaseerd op of tarief kaarttarieven of bedrijfstarieven voor de baanrollen.</span>
+><span class="preview"> wanneer een tariefkaart aan het project in bijlage is, worden de **Billing Tarieven van het Bedrijf** niet ingevoerd in de het factureren tarieven. De berekeningen zijn gebaseerd of tarief kaarttarieven of bedrijfstarieven voor de baanrollen.</span>
 >
->Als er tarieven voor projectfacturering voor een baanrol zijn, **Factureringsgraad bedrijf** nooit wordt toegepast op de berekening van de inkomsten voor het project. Alleen de **Factureringstarieven voor projecten** worden toegepast om de opbrengsten te berekenen.
+>Als er projectfactureringspercentages voor een baanrol zijn, wordt het **Facturerings Tarief van het Bedrijf** nooit toegepast op het berekenen van opbrengst voor het project. Slechts worden de **FactureringsTarieven van het Project** toegepast om opbrengst te berekenen.
 
 ### Meerdere waarden voor factureringssnelheid en tijdframes {#multiple-billing-rate-values-and-timeframes}
 
-Als u meerdere factureringssnelheden voor een specifieke taakrol hebt, worden deze vermeld onder de groepering voor die taakrol. Met inline bewerken kunt u de overschrijvingssnelheden en de **Start** **Datum** en **Einddatum** van de overschrijffactureringssnelheden op dit tabblad.
+Als u meerdere factureringssnelheden voor een specifieke taakrol hebt, worden deze vermeld onder de groepering voor die taakrol. Gebruikend gealigneerde het uitgeven, kunt u de met voeten getreden tarieven en **** **Datum** en **Datum van het Eind** van de met voeten getreden het factureringspercentages op dit lusje veranderen.
 
 >[!NOTE]
 >
->U kunt geen **Begindatum** voor de eerste overschrijvingsfrequentie en u kunt geen **Einddatum** voor de laatste overschrijvingstarief. Workfront gaat ervan uit dat de eerste overschrijvingsfrequentie wordt toegepast voor alle uren met een datum die ouder is dan de **Einddatum** van de eerste overschrijving, en dat de laatste overschrijvingstarief wordt toegepast op alle uren met een datum die jonger is dan **Begindatum** van de laatste overschrijving.\
+>U kunt a **Datum van het Begin** voor het eerste met voeten treden tarief niet specificeren, en u kunt geen **Datum van het Eind** voor het laatste met voeten treden tarief specificeren. Workfront veronderstelt dat het eerste met voeten treden tarief op alle uren met een datum ouder dan de **Datum van het Eind** van de eerste opheffing wordt toegepast, en dat het laatste met voeten treden tarief op alle uren met een datum nieuwer dan de **Datum van het Begin** van de laatste opheffing wordt toegepast.\
 >Als een uur vóór de Geplande Datum van het Begin van het project het programma wordt geopend wordt het eerste factureringstarief gebruikt.\
 >Als een uur na de Geplande Datum van Voltooiing van het project het programma wordt geopend wordt het laatste factureringstarief gebruikt.
 
 ## Geplande inkomsten berekenen
 
-* [Geplande inkomsten berekenen op basis van een eenmalige overschrijving](#calculate-planned-revenue-based-on-a-one-time-billing-rate-override)
-* [Geplande inkomsten berekenen op basis van meervoudige overschrijvingen van factureringssnelheden](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides)
+* [ berekent Geplande die Inkomsten op een éénmalige de opheffing van het Facturerings Tarief worden gebaseerd ](#calculate-planned-revenue-based-on-a-one-time-billing-rate-override)
+* [ berekent Geplande Inkomsten die op de veelvoudige met voeten getreden Winst Tarief ](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides) worden gebaseerd
 * [Verdeling van geplande uren over de duur van een taak](#distribution-of-planned-hours-across-the-duration-of-a-task)
 
 ### Geplande inkomsten berekenen op basis van een eenmalige overschrijving {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
 Houd rekening met het volgende wanneer u geplande inkomsten berekent op basis van een eenmalige overschrijving:
 
-* Wanneer de **Type inkomsten** van een taak **Rol Uur**, vermenigvuldigt Workfront de geplande uren van een taak met de factureringsgraad van de baanrol verbonden aan de taak om Geplande Inkomsten op de taak te berekenen.
+* Wanneer het **Type van Inkomsten** van een taak **Huur van de Rol** is, vermenigvuldigt Workfront de Geplande Uren van een taak door het factureringspercentage van de baanrol verbonden aan de taak om Geplande Inkomsten op de taak te berekenen.
 
 * Wanneer het factureringspercentage van de functie op projectniveau is overschreven, gebruikt Workfront het overschrijvingspercentage van het project om de geplande inkomsten te berekenen.
-* Wanneer een taak meerdere taken heeft, wordt de geplande opbrengst berekend door het factureringspercentage van elke taak en hun respectieve geplande uurtoewijzing te vermenigvuldigen.
+* Wanneer een taak meerdere taken heeft, wordt de geplande opbrengst berekend door het factureringspercentage van elke taak en hun respectieve Geplande toewijzing van de Uur te vermenigvuldigen.
 
 >[!NOTE]
 >
 >De geplande uren per toewijzing zijn niet gelijk aan de geplande uren voor de taak, in het geval van meerdere toewijzingen.
 
-Voor meer informatie over welke baanrol wordt gebruikt om Geplande Inkomsten te berekenen, zie de &quot;Begrip sectie van de Berekeningen van de Inkomsten voor Taken die op Gebruiker en de Taken van de Rol&quot;in het artikel worden gebaseerd [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie over welke baanrol wordt gebruikt om Geplande Inkomsten te berekenen, zie het &quot;Begrip van de Berekeningen van de Inkomsten voor Taken die op Gebruiker en van de Rol&quot;sectie in het artikel [ Overzicht van het Factureren en de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
 ### Geplande inkomsten berekenen op basis van meervoudige overschrijvingen van factureringssnelheden {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
 Houd rekening met het volgende bij het berekenen van geplande inkomsten op basis van meervoudige overschrijvingen van factureringssnelheden:
 
-* Wanneer de **Type inkomsten** van een taak **Rol Uur**, vermenigvuldigt Workfront de geplande uren van een taak met de factureringsgraad van de baanrol verbonden aan de taak om Geplande Inkomsten op de taak te berekenen.
+* Wanneer het **Type van Inkomsten** van een taak **Huur van de Rol** is, vermenigvuldigt Workfront de Geplande Uren van een taak door het factureringspercentage van de baanrol verbonden aan de taak om Geplande Inkomsten op de taak te berekenen.
 
-  Voor meer informatie over welke baanrol wordt gebruikt om Geplande Inkomsten te berekenen, zie de &quot;Begrip sectie van de Berekeningen van de Inkomsten voor Taken die op Gebruiker en de Taken van de Rol&quot;in het artikel worden gebaseerd [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Voor meer informatie over welke baanrol wordt gebruikt om Geplande Inkomsten te berekenen, zie het &quot;Begrip van de Berekeningen van de Inkomsten voor Taken die op Gebruiker en van de Rol&quot;sectie in het artikel [ Overzicht van het Factureren en de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
-* In het geval van veelvoudige het facturerings tarief treedt met voeten, verandert het tarief waardoor de Geplande Uren tijdens de duur van een taak worden vermenigvuldigd. Standaard verdeelt Workfront de geplande uren gelijkmatig over de duur van een taak, waarbij een gelijk aantal uren voor elke dag van de taak wordt toegewezen. Bij het berekenen **Geplande inkomsten** voor een taak vermenigvuldigt Workfront de geplande uren per dag met de factureringssnelheid van die dag. In het geval van meerdere factureringssnelheden kan dat tarief elke dag verschillend zijn.
+* In het geval van veelvoudige het facturerings tarief treedt met voeten, verandert het tarief waardoor de Geplande Uren tijdens de duur van een taak worden vermenigvuldigd. Standaard verdeelt Workfront de geplande uren gelijkmatig over de duur van een taak, waarbij een gelijk aantal uren voor elke dag van de taak wordt toegewezen. Wanneer het berekenen van **Geplande Inkomsten** voor een taak, vermenigvuldigt Workfront het Geplande Uur per Dag met het factureringspercentage van die dag. In het geval van meerdere factureringssnelheden kan dat tarief elke dag verschillend zijn.
 
-  Bijvoorbeeld, hebt u een taak met een Uur van de Rol **Type inkomsten**. De taak duurt 5 dagen en de waarde voor het geplande uur is 40 uur. De geplande uren per dag is 8 uur. Wijs een de baanrol van de Projectleider van aan de taak toe, en ga het factureringspercentage van deze baanrol voor de laatste drie dagen van de taak met voeten, zodat zult u een tarief 1 facturerings voor de eerste twee dagen, en tarief 2 facturerings tarief voor de resterende drie dagen van de taak voor deze baanrol hebben.
+  Bijvoorbeeld, hebt u een taak met een Rol **Type van Inkomsten**. De taak duurt 5 dagen en de waarde voor het geplande uur is 40 uur. De geplande uren per dag is 8 uur. Wijs een de baanrol van de Projectleider van aan de taak toe, en ga het factureringspercentage van deze baanrol voor de laatste drie dagen van de taak met voeten, zodat zult u een tarief 1 facturerings voor de eerste twee dagen, en tarief 2 facturerings tarief voor de resterende drie dagen van de taak voor deze baanrol hebben.
 
-  De formule die de **Geplande inkomsten** deze taak is :
+  De formule die de **Geplande Inkomsten** van deze taak berekent is:
 
   ```
   Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
   ```
 
-Zie de sectie voor meer informatie over het vinden van de geplande uren per dag in Workfront [Verdeling van geplande uren over de duur van een taak](#distribution-of-planned-hours-across-the-duration-of-a-task) in dit artikel.
+Voor meer informatie over het vinden van de Geplande Uren per dagbedrag in Workfront, zie de sectie [ Distributie van Geplande Uren over de Duur van een taak ](#distribution-of-planned-hours-across-the-duration-of-a-task) in dit artikel.
 
 >[!NOTE]
 >
@@ -252,7 +252,7 @@ Overweeg het volgende wanneer het begrip van de verdeling van Geplande Uren over
 
 * Door gebrek, verdeelt Workfront de Geplande Uren gelijkmatig over de Duur van een taak, die een gelijk aantal Geplande Uren voor elke dag van de taak, op de beschikbaarheid van het projectprogramma toewijst.
 
-  Voor meer informatie over het begrip van de verdeling van Geplande Uren over de Duur van een taak, zie de &quot;Begrip van de Distributie van Geplande Uren over de Duur van een Taak&quot;sectie in het artikel [Overzicht van geplande uren](../../../manage-work/tasks/task-information/planned-hours.md).
+  Voor meer informatie over het begrip van de distributie van Geplande Uren over de Duur van een taak, zie het &quot;Begrip van de Distributie van Geplande Uren over de Duur van een Taak&quot;sectie in het artikel [ Geplande Overzicht van Uren ](../../../manage-work/tasks/task-information/planned-hours.md).
 
   >[!NOTE]
   >
@@ -263,43 +263,43 @@ Overweeg het volgende wanneer het begrip van de verdeling van Geplande Uren over
 
 ## Werkelijke inkomsten berekenen
 
-* [Berekenen van de werkelijke inkomsten op basis van een eenmalige overschrijving](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
+* [ berekent de Ware Ware Inkomsten die op een éénmalige de opheffing van het Facturerings Tarief worden gebaseerd ](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
 * [Ware inkomsten berekenen op basis van meervoudige overschrijvingen van factureringssnelheden](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
 ### Berekenen van de werkelijke inkomsten op basis van een eenmalige overschrijving {#calculate-actual-revenue-based-on-a-one-time-billing-rate-override}
 
 Houd rekening met het volgende wanneer u de werkelijke inkomsten berekent op basis van een eenmalige overschrijving:
 
-* Wanneer de **Type inkomsten** van een taak **Rol Uur**, Workfront vermenigvuldigt de **Werkelijke uren** van een taak door het factureringstarief van de baanrol verbonden aan de te berekenen taak **Werkelijke ontvangsten** over de taak. Werkelijke uren zijn uren die rechtstreeks bij de taak zijn geregistreerd.
+* Wanneer het **Type van Inkomsten** van een taak **Huur van de Rol** is, vermenigvuldigt Workfront de **Werkelijke Uren** van een taak door het factureringspercentage van de baanrol verbonden aan de taak om **Werkelijke Inkomsten** op de taak te berekenen. Werkelijke uren zijn uren die rechtstreeks bij de taak zijn geregistreerd.
 
-  Voor meer informatie over welke functie wordt gebruikt om te berekenen **Werkelijke ontvangsten**, zie de &quot;Begrijpende sectie van de Berekeningen van de Ontvangsten voor Taken die op Gebruiker en de Toewijzingen van de Rol&quot;in het artikel worden gebaseerd [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Voor meer informatie over welke baanrol wordt gebruikt om **Ware Inkomsten** te berekenen, zie de &quot;Begrijpende Berekeningen van Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol&quot;in het artikel [ Overzicht van het Factureren en van de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
-* Als het factureringspercentage van de functie op projectniveau is overschreven, gebruikt Workfront het overschrijvingspercentage van het project om de werkelijke inkomsten te berekenen. Wanneer u het factureringstarief van de baanrol op het project met voeten treedt, **Werkelijke ontvangsten** van het project automatisch wordt herberekend aan de hand van het nieuwe aangepaste tarief.
+* Als het factureringspercentage van de functie op projectniveau is overschreven, gebruikt Workfront het overschrijvingspercentage van het project om de werkelijke inkomsten te berekenen. Wanneer u het facturerings tarief van de baanrol op het project met voeten treedt, wordt de **Ware Opbrengst** van het project automatisch opnieuw berekend gebruikend het nieuwe aangepaste tarief.
 
-  Voor informatie over het overschrijven van roltarieven voor het project, zie [De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  Voor informatie over het met voeten treden van roltarieven voor het project, zie [ het Facturerings Tarieven van de Rol van de Opheffing van de Baan op het projectniveau ](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 >[!NOTE]
 >
->Als u de uren wilt houden die u reeds het project hebt het programma geopend alvorens u het originele factureringstarief dat tegen het originele tarief wordt gefactureerd, moet u hen in omvatten **Factureringsrecord** en u moet de **Factureringsrecord** als **Gefactureerd**. Anders wordt **Werkelijke ontvangsten** vanaf de uren die zijn geregistreerd voordat de factureringsgraad voor het project werd overschreven , wordt het nieuwe tarief opnieuw berekend wanneer de financiën van de projecten opnieuw worden berekend .\
->Meer informatie over het opnemen van uren in een factureringsrecord en het markeren als **Gefactureerd**, zie het artikel [Factureringsrecords maken](../../../manage-work/projects/project-finances/create-billing-records.md).
+>Als u de uren wilt houden die u reeds het programma hebt geopend alvorens u het originele facturerings tarief dat aan het originele tarief wordt gefactureerd, moet u hen in a **Facturerend Verslag** omvatten, en u moet het **Facturerende Verslag** als **Gevulde** merken. Anders, zullen de **Ware Ware Inkomsten** van de uren die vóór het het factureren tarief werd geregistreerd voor het project worden overschreven het gebruiken van het nieuwe tarief opnieuw berekenen wanneer de financiën van de projecten worden herberekend.\
+>Voor meer informatie over het omvatten van uren in een het facturerings verslag en het merken van het als **Gevulde**, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 ### Ware inkomsten berekenen op basis van meervoudige overschrijvingen van factureringssnelheden {#calculate-actual-revenue-based-on-multiple-billing-rate-overrides}
 
 Houd rekening met het volgende wanneer u de werkelijke inkomsten berekent op basis van meervoudige overschrijvingen van de factureringssnelheid:
 
-* Wanneer de **Type inkomsten** van een taak **Rol Uur**, Workfront vermenigvuldigt de **Werkelijke uren** op de taak met het factureringspercentage van de aan de taak toegewezen taakrollen om te berekenen **Werkelijke ontvangsten** over de taak. Werkelijke uren zijn uren die rechtstreeks bij de taak zijn geregistreerd.
+* Wanneer het **Type van Inkomsten** van een taak **Huur van de Rol** is, vermenigvuldigt Workfront de **Werkelijke Uren** op de taak met het factureringspercentage van de baanrollen die aan de taak worden toegewezen om **Werkelijke Inkomsten** op de taak te berekenen. Werkelijke uren zijn uren die rechtstreeks bij de taak zijn geregistreerd.
 
-* In geval van meervoudige factureringssnelheden, de snelheid waarmee de **Werkelijke uren** worden vermenigvuldigd om de **Werkelijke ontvangsten** kan tijdens de duur van een taak veranderen. Workfront gebruikt de factureringssnelheid van de taakrol waarvan het tijdframe overeenkomt met het **Invoerdatum** van de uren die voor de taak worden geregistreerd om te berekenen **Werkelijke ontvangsten.**
+* In het geval van veelvoudige het factureren tariefoverschrijvingen, zou het tarief waardoor de **Ware Uren** worden vermenigvuldigd om de **Ware Opbrengst** te berekenen tijdens de duur van een taak zouden kunnen veranderen. Workfront gebruikt het factureren tarief van de baanrol de waarvan tijdkader de **Datum van de Ingang** van de uren aanpast die voor de taak worden geregistreerd om **Ware Inkomsten te berekenen.**
 
-  Een taak heeft bijvoorbeeld de opdracht **Type inkomsten** van **Rol Uur** en wordt toegewezen aan de taakrol van Projectmanager. Overschrijf de factureringsgraad van deze baanrol met Tarief 1 voor de data tussen 19 en 25 juni. Vanaf 26 juni, treedt het facturerings tarief met Tarief 2 met voeten. Log 2 uur voor 20 juni en 3 uur voor 28 juni.
+  Bijvoorbeeld, heeft een taak het **Type van Inkomsten** van **Rol** en toegewezen aan de baanrol van de Manager van het Project. Overschrijf de factureringsgraad van deze baanrol met Tarief 1 voor de data tussen 19 en 25 juni. Vanaf 26 juni overschrijft u de factureringssnelheid met snelheid 2. Log 2 uur voor 20 juni en 3 uur voor 28 juni.
 
-  Workfront berekent de **Werkelijke ontvangsten** voor deze taak met behulp van de volgende formule:
+  Workfront berekent de **Ware Winst** voor deze taak gebruikend de volgende formule:
 
   ```
   Actual Revenue = 2 * Rate 1 + 3 * Rate 2
   ```
 
-  Voor meer informatie over welke functie wordt gebruikt om te berekenen **Werkelijke ontvangsten**, zie de &quot;Begrijpende sectie van de Berekeningen van de Ontvangsten voor Taken die op Gebruiker en de Toewijzingen van de Rol&quot;in het artikel worden gebaseerd [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Voor meer informatie over welke baanrol wordt gebruikt om **Ware Inkomsten** te berekenen, zie de &quot;Begrijpende Berekeningen van Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol&quot;in het artikel [ Overzicht van het Factureren en van de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
 ## Het effect van tijdzones bij de berekening van inkomsten op basis van meervoudige factureringstarieven
 
@@ -312,7 +312,7 @@ Gebruikers kunnen verschillende geplande uren per dag zien dan andere gebruikers
 
 In deze gevallen kan het aantal geplande uren per dag verschillen tussen twee gebruikers die niet dezelfde instellingen voor tijdzones delen. Ze zullen ook verschillende geplande inkomstennummers zien wanneer meerdere overschrijvingen van factureringssnelheden voor een project worden gebruikt.
 
-* [Geplande inkomsten berekenen voor gebruikers in verschillende tijdzones](#calculate-planned-revenue-for-users-in-different-time-zones)
+* [ berekent Geplande Inkomsten voor gebruikers in verschillende Gebieden van de Tijd ](#calculate-planned-revenue-for-users-in-different-time-zones)
 * [Ware inkomsten berekenen voor gebruikers in verschillende tijdzones](#calculate-actual-revenue-for-users-in-different-time-zones)
 
 ### Geplande inkomsten berekenen voor gebruikers in verschillende tijdzones {#calculate-planned-revenue-for-users-in-different-time-zones}
@@ -323,30 +323,30 @@ In deze gevallen kan het aantal geplande uren per dag verschillen tussen twee ge
 
 Houd rekening met het volgende bij het berekenen van de geplande inkomsten voor gebruikers in verschillende tijdzones:
 
-* Voor taken die een **Type inkomsten** van **Rol Uur** en worden toegewezen aan functies, **Geplande inkomsten** wordt berekend door vermenigvuldiging van **Geplande uren** van een taak door het factureringstarief van de baanrol.
+* Voor taken die het Type van A **van Winst van 1} van** Rol **hebben en aan baanrollen worden toegewezen,** Geplande Opbrengst **wordt berekend door de** Geplande Uren **van een taak door het factureringspercentage van de baanrol te vermenigvuldigen.**
 
-* De **Geplande uren** gelijkmatig over de **Duur** van de taak.
+* De **Geplande Uren** worden gelijkmatig verdeeld over de **Duur** van de taak.
 
-* De **Duur** is de periode tussen de **Geplande start** **Datum** en de **Geplande afsluitdatum** van de taak. Omdat **Geplande begindatum** en **Geplande afsluitdatum** Als de taken kunnen verschillen, afhankelijk van de tijdzones van de gebruikers die de taak bekijken, kan de hoeveelheid geplande uren per dag verschillen voor twee gebruikers in twee verschillende tijdzones.
+* De **Duur** is de periode tussen het **Geplande Begin** **Datum** en de **Geplande Datum van de Voltooiing** van de taak. Omdat de **Geplande Datum van het Begin** en **Geplande Datum van de Voltooiing** van de taken afhankelijk van de tijdstreken van de gebruikers kunnen verschillen die de taak bekijken, zou de hoeveelheid Geplande Uren per Dag voor twee gebruikers in twee verschillende tijdzones verschillend kunnen zijn.
 
 * De hoeveelheid geplande uren per dag verandert niets aan de geplande inkomsten van een project als de factureringsgraad van de rol van de baan niet wordt gewijzigd of als er slechts één factureringstarief is. Zelfs als twee gebruikers uit twee verschillende tijdzones verschillende geplande uren per dag zien, is de totale geplande opbrengst van het project gelijk voor beide gebruikers.
 
-  In het geval van meervoudige overschrijvingen van de factureringsgraad, echter, de **Geplande inkomsten** van het project voor twee gebruikers in twee verschillende tijdzones mogelijk verschillend lijken, omdat het afhankelijk is van de hoeveelheid geplande uren per dag (die voor de twee gebruikers verschillend kunnen zijn) en de tariefoverschrijving (die voor dezelfde dag verschillend zou kunnen zijn, wanneer elke gebruiker de taak in hun eigen tijdzone bekijkt).
+  Nochtans, in het geval van veelvoudige het facturerings tarief treedt met voeten, zou de algemene **Geplande Opbrengst** van het project voor twee gebruikers in twee verschillende tijdzones kunnen verschillend lijken, omdat het op de hoeveelheid Geplande Uren per Dag (die voor de twee gebruikers verschillend zouden kunnen zijn) en de het facturerings tariefopheffing (die voor de zelfde dag zou kunnen verschillend zijn, wanneer elke gebruiker de taak in hun eigen tijdzone bekijkt).
 
-* De nauwkeurigheid **Geplande inkomsten** Deze hoeveelheid wordt gezien door de gebruiker die dezelfde tijdzone heeft als de tijdzone van uw Workfront-instantie. Uw Workfront-beheerder definieert de Workfront-tijdzone in het gedeelte System Customer Info.\
-  Raadpleeg het artikel voor meer informatie over het definiëren van de tijdzone voor uw systeem [Basisinformatie voor uw systeem configureren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Het nauwkeurige **Geplande bedrag van de Inkomsten** is door de gebruiker gezien die de zelfde tijdzone zoals de Zone van de Tijd van uw instantie van Workfront heeft. Uw Workfront-beheerder definieert de Workfront-tijdzone in het gedeelte System Customer Info.\
+  Voor meer informatie over het bepalen van de Zone van de Tijd voor uw systeem, zie het artikel [ basisinformatie voor uw systeem ](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 ### Ware inkomsten berekenen voor gebruikers in verschillende tijdzones {#calculate-actual-revenue-for-users-in-different-time-zones}
 
 Houd rekening met het volgende bij het berekenen van de werkelijke inkomsten voor gebruikers in verschillende tijdzones:
 
-* Wanneer de **Type inkomsten** van een taak **Rol Uur**, Workfront vermenigvuldigt de **Werkelijke uren** op de taak met de factureringssnelheid van de aan de taak toegewezen taakrollen om de **Werkelijke ontvangsten**. Werkelijke uren zijn uren die rechtstreeks bij de taak zijn geregistreerd.
+* Wanneer het **Type van Inkomsten** van een taak **Huur van de Rol** is, vermenigvuldigt Workfront de **Werkelijke Uren** op de taak met het facturerings tarief van de baanrollen die aan de taak worden toegewezen om de **Ware Inkomsten** te berekenen. Werkelijke uren zijn uren die rechtstreeks bij de taak zijn geregistreerd.
 
-* In het geval van meerdere overschrijvingen van factureringssnelheden, gebruikt Workfront de factureringssnelheid van de taakrol waarvan het tijdkader overeenkomt met de **Invoerdatum** van de uren die voor de taak worden geregistreerd om te berekenen **Werkelijke ontvangsten**.
+* In het geval van veelvoudige het factureren tarief treedt met voeten, gebruikt Workfront het factureringspercentage van de baanrol waarvan tijdkader de **Datum van de Ingang** van de uren aanpast die voor de taak worden geregistreerd om **Ware Inkomsten** te berekenen.
 
-* Omdat er geen tijdstempel aanwezig is op het tabblad **Invoerdatum** van geregistreerde uren en er is geen tijdstempel op de datumwaaiers van veelvoudige het facturerings tarief met voeten treedt; **Werkelijke ontvangsten** de tijdzone die aan gebruikers is gekoppeld, heeft geen invloed op de berekeningen.
+* Omdat er geen timestamp op de **Datum van de Ingang** van geregistreerde uren is en er geen tijdstempel op de datumwaaiers van veelvoudige het factureren tariefoverschrijvingen is, **de Ware 3} berekeningen van de Inkomsten worden niet beïnvloed door de Tijdzone verbonden aan gebruikers.**
 
-Voor meer informatie over welke functie wordt gebruikt om te berekenen **Werkelijke ontvangsten**, zie de &quot;Begrijpende sectie van de Berekeningen van de Ontvangsten voor Taken die op Gebruiker en de Toewijzingen van de Rol&quot;in het artikel worden gebaseerd [Overzicht van facturering en inkomsten](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie over welke baanrol wordt gebruikt om **Ware Inkomsten** te berekenen, zie de &quot;Begrijpende Berekeningen van Inkomsten voor Taken die op Gebruiker en de sectie van de Taken van de Rol&quot;in het artikel [ Overzicht van het Factureren en van de Inkomsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
 ## Projectfinanciën opnieuw berekenen
 
@@ -354,11 +354,12 @@ De financiën worden berekend op een project aangezien de veranderingen in de ur
 
 Als de tarieven tijdens de duur van een project worden veranderd, kunt u kosten en opbrengsten op het project manueel herberekenen, door de optie van de Financiën van de Herberekening op een project te gebruiken. Daarnaast wordt door sommige handelingen een automatische herberekening gestart.
 
-Zie het artikel voor meer informatie over het opnieuw berekenen van projectfinanciën [Projectfinanciën opnieuw berekenen](../../../manage-work/projects/project-finances/recalculate-project-finances.md).
+Voor meer informatie over het opnieuw berekenen van projectfinanciën, zie het artikel [ projectfinanciën ](../../../manage-work/projects/project-finances/recalculate-project-finances.md) opnieuw berekenen.
 
-## Een nieuwe factureringssnelheid toevoegen met behulp van de API
+## Een nieuwe factureringssnelheid toevoegen met de API
 
-Als u een nieuwe factureringssnelheid voor een taakrol wilt toevoegen met de API, voert u een *setRatesForRole* actie voor de **Snelheid** object gebruiken *Methode PUT*.
-De handeling en de datumvelden op het tabblad **Snelheid** -object beschikbaar in API-versie 8.0. Als u reeds verscheidene het factureren tarieven voor een baanrol op een project hebt bepaald en u een nieuw het facturerings tarief voor het met een nieuwe datumwaaier wilt toevoegen, moet u zowel het bestaande tarief als het tarief omvatten dat in de zelfde API vraag moet worden toegevoegd. Dit is vergelijkbaar met de manier waarop u verzamelingen voor objecten bijwerkt.
+Om een nieuw het factureren tarief voor een baanrol toe te voegen gebruikend API, voert u a *setRatesForRole* actie voor het **Tarief** voorwerp gebruikend de *methode van de PUT* uit.
+De actie en de datumgebieden op het **Tarief** voorwerp zijn beschikbaar in API versie 8.0.
+Als u reeds verscheidene het factureren tarieven voor een baanrol op een project hebt bepaald en u een nieuw het facturerings tarief voor het met een nieuwe datumwaaier wilt toevoegen, moet u zowel het bestaande tarief als het tarief omvatten dat in de zelfde API vraag moet worden toegevoegd. Dit is vergelijkbaar met het bijwerken van verzamelingen voor objecten.
 
-De volgende API-aanroep is een voorbeeld van **attachableID** is de **Project-id** van het project waar u het tarief toevoegt en **RoleID** is de **Functie-id** waarvoor u het nieuwe factureringstarief toevoegt.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df00014148cda5136d4b79d09&quot;, </pre><pre>&quot;tarieven&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Zie het artikel voor meer informatie over het gebruik van de Workfront API [API-basisbeginselen](https://experience.workfront.com/s/article/API-Basics-638808549).
+De volgende API vraag is een voorbeeld waar **attachableID** **identiteitskaart van het Project** van het project is waar u het tarief toevoegt en **RoleID** is **identiteitskaart van de Rol van de Taak** waarvoor u het nieuwe het factureren tarief toevoegt.<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df00014148cda5136d4b79d09&quot;, </pre><pre>&quot;rates&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.0&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Voor meer informatie over het gebruiken van Workfront API, zie de artikel [ API Grondbeginselen ](https://experience.workfront.com/s/article/API-Basics-638808549).

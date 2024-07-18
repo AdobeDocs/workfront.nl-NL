@@ -9,14 +9,14 @@ role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 7%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
 # Geslaagde tekens in API-reacties
 
-De syntaxis van sommige API-reacties kan het escape-teken bevatten. `\` (backslash). Een escape-teken geeft aan dat het teken of de tekenreeks van tekens die onmiddellijk na het escape-teken volgen, een speciale waarde heeft. Bijvoorbeeld: `\t` het leesapparaat vertelt dat `t` dient te worden geïnterpreteerd als `tab` en niet als de letter &quot;t&quot;. Een tekenreeks van een of meer tekens na de backslash wordt een escapereeks genoemd.
+De syntaxis van sommige API-reacties kan het escape-teken ( `\` backslash) bevatten. Een escape-teken geeft aan dat het teken of de tekenreeks van tekens die onmiddellijk na het escape-teken volgen, een speciale waarde heeft. `\t` geeft het leesapparaat bijvoorbeeld door dat `t` moet worden geïnterpreteerd als `tab` en niet als de letter &#39;t&#39;. Een tekenreeks van een of meer tekens na de backslash wordt een escapereeks genoemd.
 
 Voor hexadecimale escapereeksen moeten geldige hexadecimale cijfers worden gebruikt. De volgende tabel bevat een lijst met escapereeksen die zijn gecodeerd in Adobe Workfront API-reacties:
 
@@ -26,14 +26,14 @@ Voor hexadecimale escapereeksen moeten geldige hexadecimale cijfers worden gebru
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Escape-reeks</strong> </th> 
-   <th><strong>Unicode-teken</strong> </th> 
-   <th><strong>Vertegenwoordigt</strong> </th> 
+   <th><strong> Escape Opeenvolging </strong> </th> 
+   <th><strong> het Karakter van Unicode </strong> </th> 
+   <th><strong> Vertegenwoordigt </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>\u000<em>x</em></p> <p>Wanneer <em>x</em> is de hexadecimale code voor de getallen 0 tot en met 7</p> </td> 
+   <td> <p>\u000 <em> x </em></p> <p>Waar, <em> x </em> is de hexadecimale code voor aantallen 0 door 7</p> </td> 
    <td>0-7</td> 
    <td>Unicode-tekens vertegenwoordigd door codepunten 0 tot en met 7</td> 
   </tr> 
@@ -68,7 +68,7 @@ Voor hexadecimale escapereeksen moeten geldige hexadecimale cijfers worden gebru
    <td>Enter</td> 
   </tr> 
   <tr> 
-   <td> <p>\u00<em>xx</em></p> <p><em>Waar, xx de hexadecimale code voor aantallen 14 door 31 is</em> </p> </td> 
+   <td> <p>\u00 <em> xx </em></p> <p><em> waar, xx de hexadecimale code voor is  getallen 14 tot en met 31 </em> </p> </td> 
    <td>14 - 31</td> 
    <td>Unicode-tekens vertegenwoordigd door codepunten 14 tot en met 31</td> 
   </tr> 
@@ -88,7 +88,7 @@ Voor hexadecimale escapereeksen moeten geldige hexadecimale cijfers worden gebru
    <td>\ (backslash)</td> 
   </tr> 
   <tr> 
-   <td> <p>\u<em>xxxx</em></p> <p>Wanneer <em>xxxx</em> is de hexadecimale code voor om het even welk aantal over 127</p> </td> 
+   <td> <p>\u<em> xxxx </em></p> <p>Waar, <em> xxxx </em> is de hexadecimale code voor om het even welk aantal meer dan 127</p> </td> 
    <td>128+</td> 
    <td>Unicode-tekens voor elk codepunt groter dan 127</td> 
   </tr> 

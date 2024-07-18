@@ -3,20 +3,21 @@ title: Workfront Proof mobile
 description: Meer weten over Workfront Proof mobile?
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] mobiel
+# [!DNL Workfront Proof] mobile
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Tips, trucs en probleemoplossing](https://experience.workfront.com/s/article/Tips-tricks-and-troubleshooting-1369688232)
-* [[!DNL Workfront Proof] Mobiele apps](https://experience.workfront.com/s/article/Workfront-Proof-mobile-app-1302522751)
+* [ Uiteinden, trucs, en het oplossen van problemen ](https://experience.workfront.com/s/article/Tips-tricks-and-troubleshooting-1369688232)
+* [[!DNL Workfront Proof]  Mobiele Apps ](https://experience.workfront.com/s/article/Workfront-Proof-mobile-app-1302522751)

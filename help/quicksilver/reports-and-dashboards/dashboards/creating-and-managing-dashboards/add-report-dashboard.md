@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een rapport toevoegen aan een dashboard
 
-U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt ook een bestaand rapport toevoegen aan een dashboard, zoals beschreven in [Een dashboard maken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [ wordt beschreven creeer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 >[!NOTE]
 >
@@ -39,28 +39,28 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor het dashboard beheren</p> <p>De toestemmingen van de mening aan het rapport</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het dashboard beheren</p> <p>De toestemmingen van de mening aan het rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 U moet een rapport maken voordat u het aan een dashboard kunt toevoegen.
 
-Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport toevoegen aan een bestaand dashboard
 
 1. Ga naar een rapport dat u beheerdersrechten hebt en u wilt toevoegen aan een dashboard.
-1. Klik op de knop **Handelingen rapporteren** vervolgkeuzelijst.
-1. Klikken **Toevoegen aan dashboard**. Een maximum van 10 onlangs gewijzigde dashboards-die door het programma geopende gebruiker-worden bezeten verschijnen in orde van nieuwste aan oudste.
+1. Klik het **drop-down menu van de Acties van het Rapport**.
+1. Klik **toevoegen aan Dashboard**. Een maximum van 10 onlangs gewijzigde dashboards-die door het programma geopende gebruiker-worden bezeten verschijnen in orde van nieuwste aan oudste.
 1. Selecteer het dashboard waaraan u uw rapport wilt toevoegen.
 
    Nadat u het dashboard selecteert, kunt u het rapport toevoegen alsof u dat dashboard bewerkt.
@@ -68,9 +68,9 @@ Voor informatie over het maken van een rapport raadpleegt u [Een rapport maken](
 ## Een rapport toevoegen aan een nieuw dashboard
 
 1. Ga naar een rapport dat u beheerdersrechten hebt en u wilt toevoegen aan een dashboard.
-1. Klik op de knop **Handelingen rapporteren** vervolgkeuzelijst.
-1. Klikken **Toevoegen aan dashboard** en klik vervolgens op **Nieuw dashboard** om uw rapport toe te voegen.\
+1. Klik de **drop-down Acties van het Rapport**.
+1. Klik **toevoegen aan Dashboard**, dan klik **Nieuw Dashboard** om uw rapport toe te voegen.\
    Er wordt een dashboard Builder weergegeven.
 
 1. (Optioneel) Selecteer een lay-out en neem aanvullende rapporten op in het nieuwe dashboard.
-1. Klikken **Opslaan en sluiten** om het rapport toe te voegen.
+1. Klik **sparen+Sluiten** om het rapport toe te voegen.

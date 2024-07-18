@@ -19,14 +19,14 @@ ht-degree: 0%
 
 Als meer werk moet worden gedaan om een kwestie te voltooien nadat de kwestie wordt voorgelegd, kunt u de kwestie in een project of in een taak omzetten.
 
-Voor informatie over het converteren van problemen naar taken raadpleegt u [Een uitgave converteren naar een taak in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Voor informatie over het omzetten van kwesties in taken, zie [ een kwestie in een taak in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-task.md) omzetten.
 
-Voor informatie over het omzetten van kwesties in projecten, zie [Een uitgave converteren naar een project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor informatie over het omzetten van kwesties in projecten, zie [ een kwestie in een project in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) omzetten.
 
 ## Overwegingen bij het converteren van problemen
 
 * Wanneer het omzetten van kwesties in taken of projecten, meeste informatie van de uitgifteoverdrachten aan de taak of het project, tenzij anders gespecificeerd in dit artikel.
-* Uw Workfront-beheerder of groepsbeheerder heeft al de voorkeuren ingesteld voor wat er met een probleem gebeurt, de oplossing ervan en de toegang van de primaire contactpersoon wanneer deze wordt omgezet in een project of taak, zoals beschreven in [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Uw beheerder van Workfront of groepsbeheerder heeft reeds de voorkeur voor wat met een kwestie, zijn resolutie, en de toegang van zijn Primair Contact wanneer het in een project of een taak wordt omgezet, zoals die in [ wordt geschetst vormt systeembrede taak en geeft voorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
 * Workfront verwijdert goedkeuringen die tijdens de conversie aan problemen zijn gekoppeld.
 * Workfront overschrijft het Oplossende Voorwerp van de kwestie wanneer u het in een taak of een project omzet. De nieuwe taak of kwestie wordt het nieuwe Oplossende Voorwerp van de kwestie na omzetting.
 * Overweeg het volgende:
@@ -38,26 +38,26 @@ Voor informatie over het omzetten van kwesties in projecten, zie [Een uitgave co
 
 * Bij het omzetten van een uitgave worden de machtigingen naar de oorspronkelijke uitgaven niet overgedragen naar het omgezette object (taak of project).
 
-* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Zie de klasse [Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in dit artikel.
+* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Voor meer informatie, zie het [ Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje ](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) sectie in dit artikel.
 * Tijdens het converteren van een uitgave worden niet alle documenten of de bijbehorende gegevens verplaatst naar het nieuwe object waarnaar de uitgave wordt geconverteerd. De volgende items worden opgenomen wanneer u een uitgave converteert waaraan documenten of documentkoppelingen zijn gekoppeld:
 
    * Document
    * Het document is gekoppeld aan services van derden, zoals Google Drive of SharePoint.
    * Versies
-   * Proefdrukken worden alleen opgenomen als de optie **Behoud het oorspronkelijke probleem en koppel zijn resolutie aan deze taak** is niet geselecteerd.
+   * De proef is inbegrepen slechts wanneer de optie **de originele kwestie houdt en zijn resolutie aan deze taak bindt** niet geselecteerd is.
    * Documentgoedkeuringen worden niet opgenomen wanneer u een uitgave converteert waaraan documenten en documentkoppelingen zijn gekoppeld.
 
 * Als u hebt besloten de uitgave bij de conversie te houden en er documenten aan zijn gekoppeld, worden het document en de versies ervan naar het project of de taak gekopieerd. De proefdrukken en de documentgoedkeuringen worden niet gekopieerd naar het project of de taak.
 * Als u hebt besloten de uitgave niet bij de conversie te houden en er documenten aan zijn gekoppeld, worden het document, de versies en de proefdrukken naar het project of de taak overgedragen. De documentgoedkeuringen worden niet overgedragen naar het project of de taak.
 * Als er documenten en mappen zijn gekoppeld aan de oorspronkelijke uitgave bij externe services, zoals Google Drive, worden deze koppelingen naar het nieuwe object gekopieerd, ongeacht of u de uitgave bewaart of niet tijdens de conversie.
 * Opmerkingen bij uitgaven worden ook gekopieerd naar de taak of het project dat vanuit de uitgave is geconverteerd, maar gelabelde gebruikers worden niet overgedragen.
-* Als u de informatie van de douaneformulier van de kwestie naar het project of de taak wilt overbrengen u het in zet, zorg ervoor u een project of een vorm van de taakdouaneformulier hebt die de zelfde gebieden omvat u van de kwestie wilt overbrengen. Zie voor meer informatie [Aangepaste formuliergegevens overbrengen bij de conversie van een object](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* Als u de informatie van de douaneformulier van de kwestie naar het project of de taak wilt overbrengen u het in zet, zorg ervoor u een project of een vorm van de taakdouaneformulier hebt die de zelfde gebieden omvat u van de kwestie wilt overbrengen. Voor meer informatie, zie [ de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 ## Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
 Wanneer het omzetten van een kwestie in een project, kunt u of het in een leeg project omzetten of een malplaatje gebruiken.
 
-Zie voor meer informatie [Een uitgave converteren naar een project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor informatie, zie [ Bekeerling een kwestie in een project in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Wanneer het gebruiken van een malplaatje, sommige gebieden die op de malplaatjeoverdracht aan het project worden bevolkt dat van de omgezette kwestie wordt gecreeerd. Andere gebieden brengen naar het project van de omgezette kwestie over.
 
@@ -73,7 +73,7 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Standaardstatus geselecteerd voor de groep op de sjabloon. Als het malplaatje niet met de groep wordt geassocieerd, wordt de projectstatus geplaatst aan de standaardstatus die door de beheerder van Workfront op het gebied van de Voorkeur van het Project van Opstelling wordt geplaatst. Zie voor meer informatie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Projectvoorkeuren voor het hele systeem configureren</a>.</td> 
+   <td>Standaardstatus geselecteerd voor de groep op de sjabloon. Als het malplaatje niet met de groep wordt geassocieerd, wordt de projectstatus geplaatst aan de standaardstatus die door de beheerder van Workfront op het gebied van de Voorkeur van het Project van Opstelling wordt geplaatst. Voor informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen.</td> 
   </tr> 
   <tr> 
    <td>Prioriteit</td> 
@@ -91,7 +91,7 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
   </tr> 
   <tr> 
    <td>Projectvoorwaarde</td> 
-   <td>Komt overeen met de standaardvoorkeur op systeemniveau zoals bepaald door de Workfront-beheerder in het gedeelte Setup. Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Een aangepaste voorwaarde instellen als standaard voor projecten</a></td> 
+   <td>Komt overeen met de standaardvoorkeur op systeemniveau zoals bepaald door de Workfront-beheerder in het gedeelte Setup. Voor informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref"> plaats een douanetoewijzing als gebrek voor projecten </a></td> 
   </tr> 
   <tr> 
    <td>Schema vanuit</td> 
@@ -101,8 +101,8 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
    <td>Projectdatums</td> 
    <td> 
     <ul> 
-     <li> <p><b>Geplande begindatum</b>: De dichtstbijzijnde arbeidstijd op basis van de arbeidstijd van het sjabloonschema moet vooraf worden geselecteerd, afhankelijk van de tijdzone van het schema van de sjabloon. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van voltooiing. </p> </li> 
-     <li> <p><b>Geplande afsluitdatum</b>: De dichtstbijzijnde arbeidstijd op basis van de arbeidstijd van het sjabloonschema moet vooraf worden geselecteerd, afhankelijk van de tijdzone van het schema van de sjabloon. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van begin. </p> </li> 
+     <li> <p><b> Geplande Datum van het Begin </b>: De dichtstbijzijnde arbeidstijd die op de het werktijd van het malplaatjeprogramma wordt gebaseerd zou, volgens de tijdzone van het programma van het malplaatje vooraf moeten worden geselecteerd. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van voltooiing. </p> </li> 
+     <li> <p><b> Geplande Datum van de Voltooiing </b>: De dichtstbijzijnde die arbeidstijd op de de werktijd van het malplaatjeprogramma wordt gebaseerd zou, volgens de tijdzone van het programma van het malplaatje vooraf moeten worden geselecteerd. Dit veld is uitgeschakeld als het veld Planning van wordt ingesteld op Van begin. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
 
 ## Originele informatie over projecten en taken weergeven {#view-original-issue-information-on-projects-and-tasks}
 
-U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over bouwrapporten, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 In de volgende tabel wordt aangegeven welke velden zichtbaar zijn van de omgezette projecten en taken.
 

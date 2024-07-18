@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [23.2 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [ 23.2 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nieuwe ervaring bij het bulksgewijs bewerken van projecten
 
@@ -39,19 +39,19 @@ Naast een bijgewerkt uiterlijk van de interface zijn de volgende wijzigingen ook
 
 * We hebben de optie Scorecards opnieuw berekenen uitgeschakeld bij het bewerken van grote hoeveelheden.
 
-Zie voor meer informatie [Projecten bewerken](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Verbeterde filterervaring algemeen beschikbaar in Adobe Workfront
 
-Een verbetering aan de filterervaring werd vrijgegeven aan openbare bèta op project, taak, en uitgiftenlijsten in Augustus 2022. De meeste lijsten bieden nu de verbeterde filters. (Als u al deze lijsten wilt bekijken, raadpleegt u de [23.1 Opmerking bij release over look-and-feel-updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) De verbeterde filterervaring is over het algemeen beschikbaar en wordt op 2 maart 2023 de standaard filterbuilder in Voorvertoning. Een gefaseerde uitrol in Productie zal ook op 2 Maart beginnen, met beschikbaarheid voor alle klanten in de 23.2 versie.
+Een verbetering aan de filterervaring werd vrijgegeven aan openbare bèta op project, taak, en uitgiftenlijsten in Augustus 2022. De meeste lijsten bieden nu de verbeterde filters. (Om elk van deze lijsten te herzien, zie [ 23.1 blik-en-voelt de nota van de updateversie ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) De verbeterde filterervaring is over het algemeen beschikbaar en wordt op 2 maart 2023 de standaard filterbuilder in Voorvertoning. Een gefaseerde uitrol in Productie zal ook op 2 Maart beginnen, met beschikbaarheid voor alle klanten in de 23.2 versie.
 
 U kunt de verouderde filters in lijsten nog steeds openen door ze in het filterdeelvenster in te schakelen. Oudere filters worden in de toekomst vervangen door lijsten, maar blijven beschikbaar in rapporten omdat de standaardfilterconstructor niet beschikbaar is in rapporten.
 
-Voor meer informatie over de verbeterde filters en een videodemonstratie raadpleegt u de [filters public beta release note](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Voor details over de verbeterde filters en een videodemonstratie, zie de [ openbaar bètaversie van filters nota ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-Zie voor meer informatie [Filters maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Voor meer informatie, zie [ filters in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 ## Beoogde uren kopiëren bij het kopiëren van een project
 
@@ -61,6 +61,6 @@ Zie voor meer informatie [Filters maken of bewerken in Adobe Workfront](/help/qu
 
 Nu, hebt u de optie om de uren te kopiëren die op het begrotingsgebied van het Middel van het BedrijfsGeval of de Planner van het Middel worden begroot wanneer u een project kopieert. Voorafgaand aan deze verhoging, werden de uren die voor het project werden begroot niet overgebracht naar het gekopieerde project.
 
-Zie voor meer informatie [Een project kopiëren](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
+Voor informatie, zie [ een project ](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3415713/){target=_blank}

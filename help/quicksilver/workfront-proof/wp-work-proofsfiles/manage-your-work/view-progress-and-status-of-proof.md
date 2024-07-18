@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: De voortgang en status van een proefdruk weergeven [!DNL Workfront Proof]
+title: De voortgang en status van een proefdruk weergeven  [!DNL Workfront Proof]
 description: Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf het moment dat u de bewijzen aan de controleurs stuurt tot het moment dat zij een beslissing nemen over het bewijs.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Proefvoortgang
 
@@ -31,7 +31,7 @@ Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf 
 
 De voortgangspictogrammen S, O, C en D worden weergegeven op de voortgangsbalk en geven de voortgang van de proefdruk aan.
 
-![proof_edit_existing_progress.png](assets/proof-edit-existing-progress-350x78.png)
+![ proof_edit_existing_progress.png ](assets/proof-edit-existing-progress-350x78.png)
 
 Zij geven de volgende informatie over een bewijs aan:
 
@@ -40,26 +40,26 @@ Zij geven de volgende informatie over een bewijs aan:
  <col> 
  <thead> 
   <tr> 
-   <td> <p><strong>Pictogram Voortgang</strong> </p> </td> 
-   <td> <p><strong>Beschrijving</strong> </p> </td> 
+   <td> <p><strong> Pictogram van de Voortgang </strong> </p> </td> 
+   <td> <p><strong> Beschrijving </strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt="proof_progress_sent_icon.png"> </p> </td> 
-   <td> <p><strong>Verzonden</strong>. Het bewijs is naar de controleurs gestuurd.</p> </td> 
+   <td> <p><strong> Verzonden </strong>. Het bewijs is naar de controleurs gestuurd.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-opened-icon.png" alt="proof_progress_opened_icon.png"> </p> <p> </p> </td> 
-   <td> <p><strong>Geopend</strong>. Een revisor heeft de pagina Proefgegevens geopend of de proefdruk zelf geopend in de proefdrukviewer.</p> </td> 
+   <td> <p><strong> Geopend </strong>. Een revisor heeft de pagina Proefgegevens geopend of de proefdruk zelf geopend in de proefdrukviewer.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-comment-icon.png" alt="proof_progress_comment_icon.png"> </p> </td> 
-   <td> <p><strong>Opmerkingen</strong>. Revisoren (gebruikers die opmerkingen kunnen maken) hebben opmerkingen gemaakt over de proefdruk.</p> <p>Als er geen controleurs zijn aangewezen voor de proefdruk, wordt dit pictogram niet weergegeven.</p> </td> 
+   <td> <p><strong> Commentaren </strong>. Revisoren (gebruikers die opmerkingen kunnen maken) hebben opmerkingen gemaakt over de proefdruk.</p> <p>Als er geen controleurs zijn aangewezen voor de proefdruk, wordt dit pictogram niet weergegeven.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt="proof_progress_decisions_icon.png"> </p> </td> 
-   <td> <p><strong>Besluit</strong>. Een controleur heeft een besluit genomen over het bewijs.</p> <p>Als er geen fiatteurs (besluitvormers) voor de proefdruk zijn aangewezen, wordt dit pictogram niet weergegeven. </p> </td> 
+   <td> <p><strong> Besluit </strong>. Een controleur heeft een besluit genomen over het bewijs.</p> <p>Als er geen fiatteurs (besluitvormers) voor de proefdruk zijn aangewezen, wordt dit pictogram niet weergegeven. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,28 +68,28 @@ Deze pictogrammen kunnen in de volgende kleuren worden weergegeven om bepaalde i
 
 * **Groen**. Voltooid.
 * **Wit**. Niet voltooid.
-* **Oranje**. Niet voltooid en deadline is minder dan 24 uur.
+* **Oranje**. Niet voltooid en de deadline is minder dan 24 uur.
 * **Rood**. Niet volledig en na de deadline.
 
 ### Voortgangsniveaus proefdrukken {#levels-of-proof-progress}
 
-Workfront Proof gebruikt de voortgangspictogrammen om de voortgang van een proefdruk op elk van de volgende niveaus bij te houden:
+Workfront Proof gebruikt de voortgangspictogrammen om de voortgang van een bewijs op elk van de volgende niveaus bij te houden:
 
 * Voor elke controleur, op basis van de activiteit van die persoon op het bewijs.
-* Voor elk stadium, gebaseerd op de vooruitgang de recensent op het stadium die het meest achterop in het proefdrukproces is. Zie voor meer informatie [Overzicht van geautomatiseerde werkstroomfasen](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+* Voor elk stadium, gebaseerd op de vooruitgang de recensent op het stadium die het meest achterop in het proefdrukproces is. Voor meer informatie, zie [ Geautomatiseerd overzicht van de Staven van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 * Voor de proefdruk, op basis van de voortgang van het werkgebied (groep van controleurs), dat het meest achterloopt in het proefdrukproces.
 
-Een voorbeeld van hoe [!DNL Workfront Proof] bepaalt de voortgang met behulp van de revisor of het stadium dat het meest achterloopt. Stel dat drie revisoren een beslissing moeten nemen op basis van een bewijs. Als twee van hen hun besluit hebben genomen, maar de derde niet, dan blijkt de voortgangsbalk voor het bewijs niet groen uit het feit dat de D nog niet is afgehandeld.
+Als u bijvoorbeeld wilt zien hoe de voortgang in [!DNL Workfront Proof] wordt bepaald met de revisor of het werkgebied dat het meest achterloopt, stelt u dat drie revisoren op basis van een proefdruk een beslissing moeten nemen. Als twee van hen hun besluit hebben genomen, maar de derde niet, dan blijkt de voortgangsbalk voor het bewijs niet groen uit het feit dat de D nog niet is afgehandeld.
 
-Als de [!UICONTROL Primary Decision Maker] de instelling wordt gekozen op basis van een bewijs en de primaire besluitvormer legt een besluit voor, de D in de voortgangsbalk van het bewijs wordt groen voor alle controleurs omdat geen andere besluiten vereist zijn.
+Als de instelling [!UICONTROL Primary Decision Maker] is geselecteerd op een bewijs en de primaire besluitvormer een beslissing indient, wordt de D in de voortgangsbalk van het bewijs groen voor alle revisoren omdat er geen andere beslissingen vereist zijn.
 
-Als de [!UICONTROL Only One Decision Required] De instelling wordt geselecteerd op basis van een bewijs en een revisor geeft een beslissing. De D in de voortgangsbalk van het bewijs wordt groen voor alle revisoren omdat er geen andere beslissingen hoeven te worden genomen.
+En als de instelling [!UICONTROL Only One Decision Required] is geselecteerd op een proefdruk en een revisor een beslissing verzendt, wordt de D in de voortgangsbalk van de proefdruk groen voor alle revisoren, omdat er geen andere beslissingen nodig zijn.
 
 ## Proefstatus
 
 De status van de proefdruk geeft de status aan van de beslissingen die voor de proefdruk vereist zijn.
 
-![proof_edit_existing_status.png](assets/proof-edit-existing-status-350x78.png)\
+![ proof_edit_existing_status.png ](assets/proof-edit-existing-status-350x78.png)\
 De standaardstatusopties zijn:
 
 * In behandeling
@@ -100,7 +100,7 @@ De standaardstatusopties zijn:
 
 Als er aangepaste beslissingen in uw account zijn geconfigureerd, weerspiegelen de statusopties uw aangepaste beslissingsinstellingen.
 
-De status van het bewijs wordt aangestuurd door de &quot;worst case&quot;-deelnemer. Stel dat er bijvoorbeeld drie beslissingen zijn over het bewijs: twee hebben de status van **Geaccepteerd** en één heeft de status van **Geweigerd**. Het &quot;worst case&quot;-besluit van de afwijzing van de overregulering van de overige besluiten en de algemene status van het bewijs worden weergegeven als **Geweigerd**.
+De status van het bewijs wordt aangestuurd door de &quot;worst case&quot;-deelnemer. Bijvoorbeeld, veronderstel er drie besluiten over de proef zijn: twee hebben het statuut van **Toegelaten** en één heeft het statuut van **Afgewezen**. Het &quot;slechtste geval&quot;besluit van Geweigerd over-regels de andere besluiten en de algemene status van het bewijs wordt getoond zoals **Verworpen**.
 
 ## Voortgang en status weergeven {#viewing-progress-and-status}
 
@@ -108,7 +108,7 @@ U kunt de voortgang en status van proefdrukken, fasen en revisoren in elk werkge
 
 * [Proefoverzicht](#proof-summary)
 * [Menu Werkgebiedhandelingen](#stage-actions-menu)
-* [In de [!UICONTROL Summary] kunt u ook de menu&#39;s met revisieacties openen, op voorwaarde dat u bewerkingsrechten hebt voor de proefdruk. Zie Proefprofielen voor proefdrukmachtigingen in Workfront Proef en Proefdrukrollen beheren in Workfront Proof voor meer informatie. De [!UICONTROL Reviewer actions] (1) wordt weergegeven wanneer u de muisaanwijzer op de details van de Revisor plaatst en u in staat stelt:](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to)
+* [In de sectie [!UICONTROL Summary] hebt u ook toegang tot de menu&#39;s voor revisieacties, op voorwaarde dat u bewerkingsrechten hebt voor de proefdruk. Zie Proefmachtigingenprofielen in Workfront Proof en Proefdrukrollen beheren in Workfront Proof voor meer informatie. Het menu [!UICONTROL Reviewer actions] (1) wordt weergegeven wanneer u de muisaanwijzer op de details van de recensent plaatst en u in staat stelt:](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to)
 * [Menu Proefacties](#proof-actions-menu)
 
 ### Proefoverzicht {#proof-summary}
@@ -119,19 +119,19 @@ Het overzicht uitvouwen of samenvouwen:
 
 1. Klik op de pijl links van de proefdruk in het dashboard of in een lijstweergave.
 
-![Summary_expandable.png](assets/summary-expandable-350x68.png)
+![ Summary_expandable.png ](assets/summary-expandable-350x68.png)
 
 De samenvatting bevat het volgende:
 
 * Workflow (2)
-* Versie (3)
+* Versie 3
 * Map (4)
 * Staat (5)\
-   ![summary_2.png](assets/summary-2-350x160.png)
+   ![ summary_2.png ](assets/summary-2-350x160.png)
 
 In het overzicht kunt u de volgende gegevens van uw proefdruk weergeven en bewerken:
 
-* Voortgang van proefdrukken (1)
+* Voortgang proefdruk (1)
 * Voortgang van elke fase (2)
 * Termijn voor het werkgebied (3)
 * Details revisor:
@@ -144,15 +144,15 @@ In het overzicht kunt u de volgende gegevens van uw proefdruk weergeven en bewer
 
 >[!NOTE]
 >
->Uw mogelijkheid om de proefdrukgegevens te bewerken, hangt af van uw rechten op de proefdrukweergave (zie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [Proefrollen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Uw capaciteit om de proefdrukdetails uit te geven hangt van uw rechten op de proef (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) af en [ Beheert de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-![summary_details_3.png](assets/summary-details-3-350x160.png)
+![ summary_details_3.png ](assets/summary-details-3-350x160.png)
 
 ### [!UICONTROL Stage Actions] Menu  {#stage-actions-menu}
 
 Elk stadium van uw werkstroom heeft een afzonderlijk menu, dat u toestaat om bulkacties met betrekking tot de recensenten in dat stadium uit te voeren.
 
-De [!UICONTROL Stage actions] wordt weergegeven wanneer u de cursor boven de sectie Werkgebied houdt (1) en u
+Het menu [!UICONTROL Stage actions] wordt weergegeven wanneer u de cursor op de sectie Werkgebied plaatst (1) en kunt u
 
 * [!UICONTROL Message all] (2)
 * [!UICONTROL Share] (3)
@@ -160,11 +160,11 @@ De [!UICONTROL Stage actions] wordt weergegeven wanneer u de cursor boven de sec
 
 >[!NOTE]
 >
->De beschikbaarheid van deze opties hangt af van uw rechten op de proefdruk (zie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [Proefrollen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>De beschikbaarheid van deze opties hangt van uw rechten op de proef af (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
+![ Stage_actions_menu.png ](assets/stage-actions-menu-350x161.png)
 
-In de sectie Overzicht kunt u ook de menu&#39;s voor revisieacties openen, op voorwaarde dat u bewerkingsrechten hebt voor de proefdruk. Zie voor meer informatie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [Proefrollen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Het menu Acties van Revisor (1) wordt weergegeven wanneer u de muisaanwijzer boven de details van de Revisor houdt. U kunt dan het volgende doen:
+In de sectie Samenvatting kunt u ook de menu&#39;s voor revisieacties openen, op voorwaarde dat u bewerkingsrechten hebt voor de proefdruk. Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheer de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Het menu Acties van Revisor (1) wordt weergegeven wanneer u de muisaanwijzer boven de details van de Revisor houdt. U kunt dan het volgende doen:
 
 * Een bericht naar de controleur sturen (2)
 * Details van revisor bewerken (3)- Hiermee kunt u de weergavenaam, de proefdrukrol en de e-mailwaarschuwing voor die revisor bewerken
@@ -174,9 +174,9 @@ In de sectie Overzicht kunt u ook de menu&#39;s voor revisieacties openen, op vo
 
 >[!NOTE]
 >
->De zichtbaarheid van deze opties hangt af van uw rechten op de proefdruk (zie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [Proefrollen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>De zichtbaarheid van deze opties hangt af van uw rechten op de proef (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-![Revisor_acties_menu.png](assets/reviewer-actions-menu-350x135.png)
+![ Reviewer_actions_menu.png ](assets/reviewer-actions-menu-350x135.png)
 
 ### Menu Proefacties {#proof-actions-menu}
 
@@ -194,12 +194,12 @@ Elke proef heeft ook een menu (1) dat u toestaat om de hieronder acties uit te v
 * De proefdruk vergrendelen (11)
 * De proefdruk verwijderen (12)
 
-![Proef_actions_menu_1_.png](assets/proof-actions-menu--1--350x158.png)
+![ Proef_actions_menu__1_.png ](assets/proof-actions-menu--1--350x158.png)
 
 >[!NOTE]
 >
->De beschikbaarheid van deze opties hangt af van uw rechten op de proefdruk (zie [Profielen met proefmachtigingen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [Proefrollen beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>De beschikbaarheid van deze opties hangt van uw rechten op de proef af (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Voor informatie over de voortgang en status van de proefdrukken binnen [!DNL Workfront], zie [Voortgang en status weergeven](#viewing-progress-and-status).
+Voor informatie over het bekijken van proefvooruitgang en status binnen [!DNL Workfront], zie [ het Bekijken Voortgang en Status ](#viewing-progress-and-status).
 
-Ga voor informatie over de voortgang en status van de weergave in de Desktop Proofing Viewer naar [Een workflow controleren in de conceptviewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).
+Voor informatie over het bekijken van vooruitgang en status in de Desktop het Proofing Kijker, zie [ Overzicht een Werkschema in de het proeven kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).

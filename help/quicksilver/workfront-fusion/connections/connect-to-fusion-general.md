@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
-title: Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies
-description: Veel [!DNL Adobe Workfront Fusion] De schakelaars vereisen geen douaneconfiguratie wanneer het creëren van een verbinding. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
+title: Verbinding maken met  [!DNL Adobe Workfront Fusion]  - Basisinstructies
+description: Vele  [!DNL Adobe Workfront Fusion]  schakelaars vereisen geen douaneconfiguratie wanneer het creëren van een verbinding. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
@@ -36,39 +36,39 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Verbinding maken
 
-Een verbinding maken in een [!DNL Workfront Fusion] module:
+Een verbinding maken binnen een module [!DNL Workfront Fusion] :
 
-1. Klikken **[!UICONTROL Add]** naast de [!UICONTROL Connection] om de **[!UICONTROL Create a connection]** deelvenster.
-1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]**.
-1. (Voorwaardelijk) Als de toepassing geavanceerde verbindingsinstellingen vereist, zoals een id, sleutel of [!UICONTROL secret], voert u die informatie in.
+1. Klik op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] om het deelvenster **[!UICONTROL Create a connection]** te openen.
+1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]** .
+1. (Voorwaardelijk) Als de toepassing geavanceerde verbindingsinstellingen nodig heeft, zoals een id, sleutel of [!UICONTROL secret] , voert u die gegevens in.
 
-   Mogelijk moet u op **[!UICONTROL Show advanced settings]** om de velden weer te geven waarin u dit soort informatie kunt invoeren.
+   Mogelijk moet u op **[!UICONTROL Show advanced settings]** klikken om de velden weer te geven waarin u dit soort informatie kunt invoeren.
 
 1. Klik op **[!UICONTROL Continue]**.
 1. Voer in het aanmeldingsvenster dat wordt weergegeven uw aanmeldingsgegevens in om u aan te melden bij de app als u dat nog niet hebt gedaan.
-1. (Voorwaardelijk) Als een **[!UICONTROL Allow]** knopweergaven, controleer de acties die de connector kan uitvoeren en klik vervolgens op de knop om de app te verbinden met [!DNL Workfront Fusion].
+1. (Voorwaardelijk) Als een knop **[!UICONTROL Allow]** wordt weergegeven, controleert u de handelingen die de aansluiting kan uitvoeren en klikt u op de knop om de app aan te sluiten op [!DNL Workfront Fusion] .
 
    >[!NOTE]
    >

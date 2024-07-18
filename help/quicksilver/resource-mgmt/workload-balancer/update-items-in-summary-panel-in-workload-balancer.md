@@ -47,16 +47,16 @@ U moet het volgende hebben:
      <li> <p>Projecten</p> </li> 
      <li> <p>Taken</p> </li> 
      <li> <p>Problemen</p> </li> 
-    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Taken en problemen bijwerken in het deelvenster Overzicht van werklastbalans
 
@@ -64,33 +64,33 @@ U moet het volgende hebben:
 
    De werklastbalans geeft informatie over werktoewijzing weer, te beginnen met de huidige week.
 
-1. Ga naar de **Niet toegewezen werk** en zoeken naar een werkitem.
+1. Ga naar het **Niet toegewezen gebied van het Werk** en vind een het werkpunt.
 
    of
 
-   Ga naar de **Toegewezen werk** , een gebruiker uitvouwen en een tijdelijk item zoeken.
+   Ga naar het **Toegewezen gebied van het Werk**, breid een gebruiker uit, en vind een het werkpunt.
 
 1. Klik op de balk van een taak of uitgave om het deelvenster Samenvatting aan de rechterkant te openen.
 
    of
 
-   Klikken **Samenvatting openen** pictogram ![](assets/summary-panel-icon.png)en klikt u vervolgens op de balk van een taak of uitgave om het deelvenster Samenvatting te openen.
+   Klik **Open Samenvatting** pictogram ![](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
 
    of
 
-   Klik op de knop **Meer** menu ![](assets/more-icon.png) rechts van een taak of uitgave klikt u op **Samenvatting openen**.
+   Klik **Meer** menu ![](assets/more-icon.png) aan het recht van een taak of kwestie, dan klik **Open Samenvatting**.
 
    Het deelvenster Samenvatting wordt aan de rechterkant geopend.
 
    <div class="preview">
 
    Voorbeeld van het deelvenster Samenvatting in de voorvertoningsomgeving:
-   ![Het deelvenster Samenvatting](assets/summary-panel-task-wb-new-comments.png)
+   ![ Samenvattings paneel ](assets/summary-panel-task-wb-new-comments.png)
 
    </div>
 
    Voorbeeld van het deelvenster Samenvatting in de productieomgeving:
-   ![Het deelvenster Samenvatting](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   ![ Samenvattings paneel ](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Wijzig een aantal gebieden voor het het werkpunt, ga een update in, of u navigeert van hier aan andere gebieden van Workfront om documenten of andere informatie aan het het werkpunt toe te voegen.
 
@@ -98,7 +98,7 @@ U moet het volgende hebben:
    >
    >Als u van de sectie Overzicht naar de sectie Subtaken gaat om subtaken toe te voegen, wordt de oorspronkelijke taak verwijderd, omdat bovenliggende taken niet worden weergegeven in Workload Balancer.
 
-   Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruikt, zie [Overzicht van samenvattingen](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruiken, zie [ Overzicht van de Samenvatting ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Voorwaardelijk) Als u een van de secties van het werkitem hebt geopend, klikt u op de knop van uw browser **De knop Terug** om terug te keren naar Workload Balancer.
-1. Klik op de knop **Pictogram Sluiten** ![](assets/close-icon.png) in de rechterbovenhoek van de samenvatting om deze te sluiten.
+1. (Voorwaardelijk) als u om het even welke secties van het het werkpunt opende, klik uw browser **Achterknoop** om aan de Balancer van de Werklast terug te keren.
+1. Klik het **Dichte pictogram** ![](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.

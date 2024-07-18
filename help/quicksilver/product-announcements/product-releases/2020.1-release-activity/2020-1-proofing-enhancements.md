@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van proefdrukken beschreven in de release 2020.1. Deze verbeteringen zijn momenteel beschikbaar in de voorvertoningsomgeving en worden eind maart of begin april 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 2020.1, zie [Overzicht van de release 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Updates van het meetgereedschap in de conceptviewer
 
@@ -36,7 +36,7 @@ Wanneer u nu instellingen voor de deadline en activering van het werkgebied inst
 
 Bovendien zijn namen voor de werkgebiedinstellingen nu consistent van de ene geautomatiseerde werkstroomactiviteit naar de andere. Eerder waren bepaalde instellingen in het werkstroomwerkgebied voor het configureren van een nieuwe proefdruk anders dan de instellingen voor een bestaande proefdruk.
 
-Zie voor meer informatie [Een geautomatiseerde workflow maken of bewerken voor een bestaande proefdruk](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+Voor meer informatie, zie en [ creeer of geef een Geautomatiseerd Werkschema voor een bestaand bewijs ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md) uit
 
 ## Voeg een tijdzone aan een Geautomatiseerd malplaatje van het Werkschema toe
 

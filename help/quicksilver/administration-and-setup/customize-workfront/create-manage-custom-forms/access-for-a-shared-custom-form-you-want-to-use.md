@@ -11,7 +11,7 @@ role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Wanneer iemand een aangepast veld deelt met de toegang Weergeven of Beheren, kan hij of zij verschillende andere instellingen configureren om die toegang nader te definiëren. Als u een ontvanger van het veld bent, beïnvloeden deze instellingen wat u met het veld kunt doen. Het volgende wordt mogelijk weergegeven wanneer u het veld bekijkt.
 
-Ga voor meer informatie over hoe gebruikers instellingen voor delen configureren wanneer ze een aangepast formulier delen naar [Delen voor aangepaste velden en widgets configureren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Voor meer informatie over hoe de gebruikers het delen montages wanneer het delen van een douanevorm vormen, zie [ het delen voor douanegebieden en widgets ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) vormen.
 
 <table style="table-layout:auto"> 
  <col> 

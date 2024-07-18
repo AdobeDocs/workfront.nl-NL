@@ -31,9 +31,9 @@ recommendations: noDisplay, noCatalog
 
 U kunt de gebiedsmontages voor gebieden uitgeven die reeds in de Planning van Adobe Workfront worden gecreeerd.
 
-Voor informatie over het maken van Adobe Workfront-planningsvelden raadpleegt u [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
+Voor informatie over het creëren van de gebieden van de Planning van Adobe Workfront, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
-In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het bewerken van veldwaarden voor records raadpleegt u [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het uitgeven van gebiedswaarden voor verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -79,20 +79,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,10 +138,10 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    Hierdoor wordt de pagina van het recordtype geopend.
 
-1. (Voorwaardelijk) Klik op de tab van een **Tabelweergave**.
+1. (Voorwaardelijk) klik het lusje van de mening van de a **Lijst**.
 
    Alle bestaande records die aan het recordtype zijn gekoppeld, worden in de rijen van de tabelweergave weergegeven.
-1. Houd de cursor boven de kolomkop van een veld dat u wilt bewerken, klik op de pijl omlaag na de veldnaam en klik vervolgens op **Veld bewerken**
+1. Plaats over de kolomkopbal van een gebied u wilt uitgeven, dan de naar beneden wijzende pijl na de gebiedsnaam klikken, dan **uitgeeft gebied**
 
    of
 
@@ -149,7 +149,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Werk informatie over het veld bij en klik op **Opslaan**. <!--insert screen shot when finalized-->
+1. Update informatie over het gebied en klik **sparen**. <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    De veldinformatie wordt bijgewerkt voor iedereen die toegang heeft tot de werkruimte.
 
-1. (Voorwaardelijk) Klik voor gekoppelde recordvelden op **Opzoekvelden bewerken** en voeg of verwijder om het even welke gebieden van het verbonden verslagtype toe.
+1. (Voorwaardelijk) voor verbonden verslaggebieden, klik **uitgeeft raadplegingsgebieden** en voeg of verwijder om het even welke gebieden van het verbonden verslagtype toe.
 
-   Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 

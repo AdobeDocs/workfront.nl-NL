@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Overzicht van taakbeperking: Niet eerder starten dan'''
+title: 'Overzicht van taakbeperking: begin niet eerder dan'
 description: Gebruik het Begin Geen vroeger dan (SNET) de Beperking van de Taak om een taak te plannen na de datum te beginnen u specificeert.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Overzicht van taakbeperking: Niet eerder starten dan
+# Overzicht van taakbeperking: begin niet eerder dan
 
 Gebruik het Begin Geen vroeger dan (SNET) de Beperking van de Taak om een taak te plannen na de datum te beginnen u specificeert.
 
@@ -23,7 +23,7 @@ Gebruik het Begin Geen vroeger dan (SNET) de Beperking van de Taak om een taak t
 Overweeg het volgende wanneer het gebruiken van Begin Nr vroeger dan de Beperking van de Taak:
 
 * U zou Begin niet vroeger dan beperking moeten gebruiken wanneer het project van de Datum van het Begin gepland is. In dit geval, kunt u een zachte beperking op een taak verstrekken alvorens het andere afhankelijke taken dwingt om als Op Risico te tonen.
-* Begin Nr. vroeger dan is de standaardbeperking als een project van de Datum van het Begin gepland is en als het systeem of de groep standaardbegindatum voor een nieuwe taak aan Vandaag wordt geplaatst. Voor informatie over het vormen van gebreken voor taken, zie [Taak- en probleemvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Begin Nr. vroeger dan is de standaardbeperking als een project van de Datum van het Begin gepland is en als het systeem of de groep standaardbegindatum voor een nieuwe taak aan Vandaag wordt geplaatst. Voor informatie over het vormen van gebreken voor taken, zie [ systeembrede taak vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Als u het project van de Datum van het Begin plant en de systeem standaardbegindatum voor een nieuwe taak wordt geplaatst aan Gebaseerd op het Geplande Project Datum, is de standaardbeperking voor een nieuwe taak zo spoedig mogelijk.
 * Als u het project van het Project van de Datum van de Voltooiing plant en de systeem standaardbegindatum voor een nieuwe taak wordt geplaatst aan Vandaag, dan plant het Begin Geen vroeger dan beperking de taak aangezien het een ZO laat Zo Late taak.
@@ -38,11 +38,12 @@ Overweeg het volgende wanneer het gebruiken van Begin Nr vroeger dan de Beperkin
 
          * Wanneer de beperkingsdatum van de taak later is dan de Datum van de Voltooiing van het Project, verandert de taakbeperking in zo laat mogelijk.
          * Wanneer de beperkingsdatum van de taak vroeger is dan de Geplande Datum van het Begin van het project, verandert de Geplande Datum van het Begin van het project om de beginbeperkingsdatum van de taak aan te passen.
+
       * Ongeacht het programma van het project, wanneer de beperkingsdatum van de taak binnen de Datums van het Begin en van de Voltooiing van het project is, zijn er geen veranderingen in de Beperking van de Taak of de projectdata.
 
-   Voor informatie over het verplaatsen van taken raadpleegt u [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken raadpleegt u [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Voor informatie over het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Voor informatie over hoe te om de Beperking van de Taak op een taak bij te werken, zie [Werk de Beperking van de Taak van een taak bij](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

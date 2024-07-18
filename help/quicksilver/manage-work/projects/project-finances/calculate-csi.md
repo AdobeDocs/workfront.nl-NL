@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Workfront berekent de Kostenprestatie-index (CSI) van een project of taak aan de
 
 `CSI = CPI x SPI`
 
-Voor informatie over CPI, zie het artikel [Kostenprestatie-index (CPI) berekenen](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Voor informatie over CPI, zie het artikel [ Berekent de Index van de Prestaties van Kosten (CPI) ](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-Zie het artikel voor informatie over SPI [Prestatie-index (SPI) voor planning berekenen](../../../manage-work/projects/project-finances/calculate-spi.md).
+Voor informatie over SPI, zie het artikel [ de Index van de Prestaties van het Programma berekenen (SPI) ](../../../manage-work/projects/project-finances/calculate-spi.md).
 
 CSI heeft de volgende drie mogelijke waarden:
 

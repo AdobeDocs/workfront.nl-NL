@@ -21,8 +21,8 @@ De programma&#39;s vertegenwoordigen een inzameling van projecten die een gemeen
 
 Deze sectie bevat de volgende artikelen:
 
-* [Een programma maken](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
-* [Programma&#39;s bewerken](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
-* [Een bestaand programma toevoegen aan een portfolio](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Een project toevoegen aan een programma](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+* [ creeer een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [ geeft programma&#39;s ](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md) uit
+* [ voeg een bestaand programma aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-programs/move-program.md) toe
+* [ voeg een project aan een programma ](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
 * [Een project uit een programma verwijderen](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)

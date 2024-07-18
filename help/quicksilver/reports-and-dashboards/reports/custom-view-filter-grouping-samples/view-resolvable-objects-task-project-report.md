@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Weergave: Oplosbare Objecten in een taak- of projectrapport"'
+title: 'Weergave: Oplosbare objecten in een taak- of projectrapport'
 description: U kunt een lijst van alle Resolvable Voorwerpen in een project of taakmening of rapport tonen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
 
-# Weergave: Oplosbare Objecten in een taak- of projectrapport
+# Weergave: Oplosbare objecten in een taak- of projectrapport
 
 U kunt een lijst van alle Resolvable Voorwerpen in een project of taakmening of rapport tonen.
 
-Raadpleeg het artikel voor meer informatie over Oplosbare objecten [Overzicht van Oplossende en Oplosbare objecten](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor meer informatie over Oplosbare Voorwerpen, zie het artikel [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-![list_of_resolvables_in_report.png](assets/list-of-resolvables-in-report-350x54.png)
+![ list_of_resolvables_in_report.png ](assets/list-of-resolvables-in-report-350x54.png)
 
 Deze weergave wordt op dezelfde manier toegepast voor taken en projecten.
 
@@ -45,29 +45,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Weergeven Oplosbare objecten in een taak- of projectrapport
 
 1. Ga naar een lijst met taken die zijn omgezet vanuit uitgaven.
-1. Van de **Weergave** vervolgkeuzelijst, selecteert u **Nieuwe weergave**.
+1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 
-1. In de **Kolomvoorvertoning** gebied, klikken **Kolom toevoegen**.
+1. In het **gebied van de Voorproef van de Kolom**, klik **voegt Kolom** toe.
 
-1. Klik op de kop van de nieuwe kolom en klik vervolgens op **Overschakelen naar tekstmodus**.
-1. Plaats de muis boven het gebied in de tekstmodus en klik op **Klik om tekst te bewerken**.
-1. Verwijder de tekst die u vindt in het dialoogvenster **Tekstmodus** en vervang deze door de volgende code:
+1. Klik de kopbal van de nieuwe kolom, dan klik **Schakelaar aan de Wijze van de Tekst**.
+1. De muis over het gebied van de tekstwijze, en klikt **klikt om tekst** uit te geven.
+1. Verwijder de tekst u in het **vakje van de Wijze van de Tekst** vindt, en vervang het met de volgende code:
+   <pre>displayname=Resolvables <br> listdelimiter= <br><br> listMethod=nested (resolvables).lists <br> textmode=true <br> type=iterate <br> valueField=name <br> valueFormat=HTML<br></pre>
 
-   <pre>displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valueField=name<br>valueformat=HTML<br></pre>
-
-1. Klikken **Weergave opslaan**.\
+1. Klik **sparen Mening**.\
    In de nieuwe kolom wordt een lijst met alle oplosbare objecten weergegeven. De namen van de objecten in de lijst kunnen niet rechtstreeks aan de objecten worden gekoppeld.

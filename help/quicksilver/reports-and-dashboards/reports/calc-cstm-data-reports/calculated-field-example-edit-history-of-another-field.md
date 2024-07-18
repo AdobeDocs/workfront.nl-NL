@@ -3,23 +3,23 @@ content-type: reference
 product-area: reporting
 keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
-title: "Voorbeeld van berekend aangepast veld: de bewerkingsgeschiedenis van een veld weergeven"
+title: "Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven"
 description: Als gebruikers regelmatig aangepaste velden bijwerken en u wilt een logboek vastleggen van alle wijzigingen die in een veld zijn aangebracht en ook een datum waarop de wijzigingen worden aangebracht, kunt u deze gegevens vastleggen in een berekend aangepast veld.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
-# Voorbeeld van berekend aangepast veld: de bewerkingsgeschiedenis van een veld weergeven
+# Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven
 
 Als gebruikers regelmatig aangepaste velden bijwerken en u wilt een logboek vastleggen van alle wijzigingen die in een veld zijn aangebracht en ook een datum waarop de wijzigingen worden aangebracht, kunt u deze gegevens vastleggen in een berekend aangepast veld.
 
-In het volgende voorbeeld wordt getoond hoe u de *Instructies Geschiedenis bewerken* berekend veld om alle wijzigingen vast te leggen die zijn aangebracht in een tekstveld van één regel, genaamd *Instructies*.
+Het volgende voorbeeld toont u hoe te om de *Instructies te bouwen geeft Geschiedenis* berekend gebied uit om al verandering te vangen die aan een single-line tekstgebied wordt aangebracht genoemd *Instructies*.
 
 >[!TIP]
 >
@@ -27,11 +27,11 @@ In het volgende voorbeeld wordt getoond hoe u de *Instructies Geschiedenis bewer
 
 Dit doet het volgende: 
 
-* Beperkt de *Instructies Geschiedenis bewerken* tot de meest recente 2000 tekens om binnen de Workfront-databaselimiet te blijven.
-* Controleert of de huidige waarde van de *Instructies* komt overeen met de voorzijde van het veld *Instructies Geschiedenis bewerken* waarde; zij gaat ervan uit dat deze leeg is en doet het volgende indien dit niet het geval is: 
+* Beperkt het *gebied van de Instructies geeft Geschiedenis* tot meest recente 2000 karakters uit om binnen de het gegevensbestandgrens van Workfront te blijven.
+* Controleert als de huidige waarde van het *gebied van Instructies* de voorzijde van de *Instructies geeft de waarde van de Geschiedenis* uit; het veronderstelt het leeg is en als het niet is, doet het het volgende: 
 
-   * Als ze overeenkomen, wordt de *Instructies Geschiedenis bewerken* ongewijzigd;
-   * Als ze niet overeenkomen, worden de *Instructies Geschiedenis bewerken* met de meest recente waarde in de *Instructies* veld, gevolgd door de huidige datum tussen haakjes, een verticale balk en de vorige *Instructies Geschiedenis bewerken*, waarbij de vorige waarde(n) en de datum(s) waarop ze werden ingevoerd, behouden blijven.
+   * Als zij aanpassen, verlaat het *Instructies geeft Geschiedenis* uit zoals is;
+   * Als zij niet aanpassen, vervangt het *Instructies geeft Geschiedenis* met de recentste waarde in het *gebied van Instructies* uit, die door de huidige datum tussen haakjes, een verticale bar wordt gevolgd, en de vorige *Instructies geeft Geschiedenis* uit, die de vorige waarde(n) en de datum (s) bewaart toen zij werden ingegaan.
 
 ## Toegangsvereisten
 
@@ -55,12 +55,12 @@ U moet het volgende hebben:
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Configuraties op toegangsniveau*</strong> </td> 
-   <td> <p>Administratieve toegang tot aangepaste Forms</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
+   <td> <p>Administratieve toegang tot Aangepaste Forms</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Objectmachtigingen</strong> </p> </td> 
-   <td> <p>Machtigingen beheren voor de aangepaste formulieren </p> <p>Zie voor meer informatie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Een aangepast formulier delen</a>.<br></p> </td> 
+   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+   <td> <p>Rechten voor aangepaste formulieren beheren </p> <p>Voor meer informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> een douanevorm </a> delen.<br></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,31 +78,31 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
 
 1. Ga als volgt te werk om bijvoorbeeld het aangepaste tekstveld voor een enkele regel te maken:
 
-   1. Klikken **Tekstveld met één regel**.
-   1. Geef een **Label** voor het aangepaste veld, zoals *Instructies*.
-   1. Klikken **Applye**.
+   1. Klik **Enige Gebied van de Tekst van de Lijn**.
+   1. Specificeer a **Etiket** voor het douanegebied, zoals *Instructies*.
+   1. Klik **Toepassing**.
 
-1. Selecteren **Veld toevoegen** selecteert u vervolgens **Berekend** om een berekend aangepast veld aan het formulier toe te voegen.
-1. Geef een **Label** voor het berekende aangepaste veld, zoals *Instructies Geschiedenis bewerken*.
+1. Selecteer **een gebied** toevoegen, dan uitgezocht **Berekend** om een berekend douanegebied aan de vorm toe te voegen.
+1. Specificeer a **Etiket** voor het berekende douanegebied, zoals *de Instructies uitgeven Geschiedenis*.
 
-   Dit is het veld waarin eventuele wijzigingen worden vastgelegd die zijn aangebracht in het eerste veld dat u hebt gemaakt (*Instructies*).
+   Dit is het gebied dat om het even welke veranderingen zal vangen die aan het eerste gebied worden aangebracht u (*Instructies*) creeerde.
 
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 1. Klik op de naam van het formulier waaraan u twee velden hebt toegevoegd om het formulier opnieuw te openen.
-1. Klik op het berekende aangepaste veld *Instructies Geschiedenis bewerken,* Kopieer en plak vervolgens het volgende in het vak Berekening:
-1. In de **Berekening** geeft u de volgende berekening voor uw aangepaste veld op:
+1. Klik de berekende instructies van het douanegebied *uitgeven Geschiedenis,* dan kopiëren en kleef het volgende in de doos van de Berekening:
+1. Op het **gebied van de Berekening**, specificeer de volgende berekening voor uw douanegebied:
 
    ```
    LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
-1. (Aanbevolen) Plak dezelfde berekening in de **Instructies** in het berekende veld op het formulier.
-1. Controleer of  **Tekst** is geselecteerd in het dialoogvenster **Indeling** veld voor het opmaken van het berekende aangepaste veld als tekst.
+1. (Geadviseerd) Deeg de zelfde berekening in het **gebied van Instructies** op het berekende gebied op de vorm.
+1. Controleer of  **Tekst** wordt geselecteerd op het **3} gebied van het Formaat {om het berekende douanegebied als tekst te formatteren.**
 
    Dit is de standaardinstelling.
 
-1. Klikken **Opslaan en sluiten**.
+1. Klik **sparen+Sluiten**.
 
-   Wanneer u het aangepaste formulier nu aan een object koppelt en vervolgens de gegevens in het dialoogvenster *Instructies* in het veld *Instructies > Geschiedenis bewerken&quot; wordt de laatste waarde weergegeven, gevolgd door de huidige datum tussen haakjes en een verticale balk. Als er verdere wijzigingen worden aangebracht, worden deze op dezelfde manier aan deze informatie toegevoegd.
+   Nu, wanneer u de douanevorm aan een voorwerp vastmaakt en dan verandert iemand de informatie in het *gebied van Instructies*, geeft het *Instructies uitgeeft Geschiedenis&quot;gebied de recentste waarde uit, die door de huidige datum tussen haakjes, en een verticale bar wordt gevolgd. Als er verdere wijzigingen worden aangebracht, worden deze op dezelfde manier aan deze informatie toegevoegd.
 
-   In de bovenstaande berekening kunt u *Instructies* met de exacte naam van het tekstveld van één regel waarvan u de geschiedenis wilt bijhouden, en *Instructies Geschiedenis bewerken* met de exacte naam van het berekende veld.
+   In de bovengenoemde berekening, kunt u *Instructies* met de nauwkeurige naam van uw enig-lijntekstgebied vervangen de waarvan geschiedenis u wilt volgen, en *de Instructies geven Geschiedenis* met de nauwkeurige naam van uw berekend gebied uit.

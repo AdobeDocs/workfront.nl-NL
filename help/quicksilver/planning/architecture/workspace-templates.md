@@ -31,13 +31,13 @@ role: User
 
 In de Planning van Adobe Workfront, is een werkruimte een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
 
-Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Voor informatie over het creëren van werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 Dit artikel beschrijft de werkruimtemalplaatjes beschikbaar in de Planning van Adobe Workfront.
 
 ## Overwegingen over Adobe Workfront-planningssjablonen
 
-* Elke sjabloon wordt geleverd met een set recordtypen. Zie voor meer informatie [Overzicht van recordtypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Elke sjabloon wordt geleverd met een set recordtypen. Voor informatie, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * De recordtypen in elke sjabloon zijn ingedeeld in de volgende secties:
 
    * Operationele recordtypen
@@ -100,81 +100,81 @@ You must have the following:
 
 Hieronder vindt u sjablonen voor werkruimten in Workfront-planning en het aantal velden dat deze bevatten:
 
-* **Basis: Marketing Management** Betreft: Ideaal voor organisaties die de basis leggen voor een marktsysteem voor basisproducten. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+* **Basis: Het Beheer van de marketing**: Ideaal voor organisaties die de basis van een fundamenteel marketing systeem vestigen. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
    * Typen operationele records:
 
-      * **Campagne**: 15 velden
+      * **Campagne**: 15 gebieden
    * Taxonomieën:
 
-      * **Personas**: 7 velden
-      * **Merken**: 6 velden
-      * **Producten**: 5 velden
+      * **Personas**: 7 gebieden
+      * **Merken**: 6 gebieden
+      * **Producten**: 5 gebieden
 
-* **Geavanceerd: marketingbeheer**: Geschikt voor teams die gereed zijn om genuanceerde marketingstrategieën te verkennen. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+* **Geavanceerd: Het Beheer van de marketing**: Geschikt voor teams klaar om genuanceerde marketing strategieën te onderzoeken. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
    * Typen operationele records:
 
-      * **Campagnes**: 14 velden
-      * **Programma&#39;s**: 23 velden
+      * **Campagnes**: 14 gebieden
+      * **Programma&#39;s**: 23 gebieden
 
    * Taxonomieën:
-      * **Regio&#39;s**: 1 veld
-      * **Reisfasen van klant**: 4 velden
-      * **Soorten publiek**: 8 velden
-      * **Te leveren items**: 12 velden
-      * **Merken**: 6 velden
+      * **Gebieden**: 1 gebied
+      * **Stages van de Reis van de Klant**: 4 gebieden
+      * **Soorten publiek**: 8 gebieden
+      * **Geleverde**: 12 gebieden
+      * **Merken**: 6 gebieden
 
-* **Enterprise: Marketing Management**: Ontworpen voor grote of volwassen organisaties met complexe marketingsystemen. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+* **Onderneming: Het Beheer van de marketing**: Ontworpen voor grote of volwassen organisaties met complexe marketing systemen. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
    * Typen operationele records:
 
-      * **Campagnes**: 15 velden
-      * **Programma&#39;s**: 15 velden
-      * **Tactiek**: 11 velden
-      * **Activiteiten**: 18 velden
+      * **Campagnes**: 15 gebieden
+      * **Programma&#39;s**: 15 gebieden
+      * **Tactics**: 11 gebieden
+      * **Activiteiten**: 18 gebieden
 
    * Taxonomieën:
 
-      * **Producten**: 10 velden
-      * **Te leveren items**: 18 velden
-      * **Doelpubliek**: 8 velden
-      * **Regio&#39;s**: 8 velden
-      * **Subregio&#39;s**: 7 velden
-      * **Partners**: 7 velden
-      * **Gevallen gebruiken**: 7 velden
-      * **Reisfasen van klant**: 3 velden
+      * **Producten**: 10 gebieden
+      * **Geleverde**: 18 gebieden
+      * **Soorten publiek van het Doel**: 8 gebieden
+      * **Gebieden**: 8 gebieden
+      * **Subgebieden**: 7 gebieden
+      * **Partners**: 7 gebieden
+      * **Gevallen van het Gebruik**: 7 gebieden
+      * **Stages van de Reis van de Klant**: 3 gebieden
 
-* **Verkoopbeheer**: U kunt een uitgebreid verkoopsysteem maken dat uw verkoopproces stroomlijnt en de efficiëntie verhoogt. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+* **Verkoopbeheer**: U kunt een uitvoerig verkoopsysteem tot stand brengen dat uw verkoopproces stroomlijnt en efficiency verbetert. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
    * Typen operationele records:
 
-      * **Opportunity**: 11 velden
-      * **Activiteit**: 9 velden
-      * **Campagne**: 8 velden
+      * **Kans**: 11 gebieden
+      * **Activiteit**: 9 gebieden
+      * **Campagne**: 8 gebieden
    * Taxonomieën:
-      * **Account**: 7 velden
-      * **Lood**: 14 velden
-      * **Contact**: 12 velden
-      * **Regio**: 3 velden
-      * **Industrie**: veld 2
-      * **Koopcentrum**: 1 veld
-      * **Product/service**: 1 veld
-      * **Concurrentie**: 1 veld
+      * **Rekening**: 7 gebieden
+      * **Lood**: 14 gebieden
+      * **Contact**: 12 gebieden
+      * **Gebied**: 3 gebieden
+      * **Industrie**: 2 gebied
+      * **het Kopen Centrum**: 1 gebied
+      * **Product/ de Dienst**: 1 gebied
+      * **Mededinging**: 1 gebied
 
-* **Productbeheer**: Met deze sjabloon kunt u een efficiënt en gestructureerd productbeheerproces maken. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
+* **het beheer van het Product**: U kunt een efficiënt en gestructureerd proces van het productbeheer tot stand brengen gebruikend dit malplaatje. De sjabloon bevat de volgende recordtypen en het aantal velden, inclusief velden die zijn verbonden met andere recordtypen:
 
    * Typen operationele records:
 
-      * **Thema**: 10 velden
-      * **Initiatief**: 10 velden
-      * **Epic**: 12 velden
-      * **Gebruikersartikel**: 11 velden
+      * **Thema**: 10 gebieden
+      * **Initiatief**: 10 gebieden
+      * **Epic**: 12 gebieden
+      * **het Verhaal van de Gebruiker**: 11 gebieden
 
    * Taxonomieën:
 
-      * **Klant**: 8 velden
-      * **Sprint**: 9 velden
-      * **Productteam**: 4 velden
-      * **Functieverzoeken**: 9 velden
-      * **Industrie**: 2 velden
+      * **Klant**: 8 gebieden
+      * **Sprint**: 9 gebieden
+      * **Team van het Product**: 4 gebieden
+      * **Verzoeken van de Eigenschap**: 9 gebieden
+      * **Industrie**: 2 gebieden

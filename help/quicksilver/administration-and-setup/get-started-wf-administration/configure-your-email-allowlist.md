@@ -10,7 +10,7 @@ role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Dit is handig als het beveiligingsbeleid van uw organisatie gebruikers beperkt i
 
 >[!IMPORTANT]
 >
->Uw IT-team moet ervoor zorgen dat inkomende e-mail van `notifications@my.workfront.com` wordt niet geblokkeerd in het systeem van uw organisatie.
+>Uw IT-team moet ervoor zorgen dat inkomende e-mail van `notifications@my.workfront.com` niet wordt geblokkeerd in het systeem van uw organisatie.
 >
 >Alle e-mailberichten van Workfront worden vanaf dat adres verzonden om een betere e-maillevering mogelijk te maken en spoofing van e-mails te voorkomen. Dit omvat zowel geautomatiseerde alarm als gebruiker-aan-gebruiker mededeling.
 >
@@ -36,7 +36,7 @@ Dit is handig als het beveiligingsbeleid van uw organisatie gebruikers beperkt i
 >Joan Harris <notifications@my.workfront.com>
 >```
 
-Voor informatie over het configureren van de firewall van uw organisatie om de communicatie tussen uw omgeving en de Adobe Workfront-servers te openen, raadpleegt u [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Voor informatie over het vormen van de firewall van uw organisatie om communicatie tussen uw milieu en de servers van Adobe Workfront te openen, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Toegangsvereisten
 
@@ -56,25 +56,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Overige lijsten van gewenste personen
 
-Als uw organisatie het plan van de Onderneming heeft, kunt u een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 45 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing. Zie voor meer informatie [Toegang tot Adobe Workfront beperken tot IP-adres](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+Als uw organisatie het plan van de Onderneming heeft, kunt u een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 45 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing. Voor meer informatie, zie [ toegang tot Adobe Workfront door IP adres ](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) beperken.
 
-Ook, als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Zie voor meer informatie hierover [De lijst van gewenste personen van uw firewall configureren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Ook, als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Uw e-maillijst van gewenste personen configureren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Systeem** > **Klantgegevens**.
+1. Klik **Systeem** > **Info van de Klant**.
 
-1. In de **E-mailLijst van gewenste personen** sectie, selecteert u **DomeinLijst van gewenste personen inschakelen** en klik vervolgens op **Domein toevoegen**.
-1. Typ in het vak dat wordt weergegeven een domein dat u wilt toestaan, zoals `ourcompany.com`en klik vervolgens op **Domein toevoegen**.
+1. In de **E-mail Lijst van gewenste personen** sectie, uitgezochte **laat de Lijst van gewenste personen van het Domein** toe, dan klik **voegt Domein** toe.
+1. In de doos die toont, typ een domein dat u, zoals `ourcompany.com` wilt toestaan, dan **klikken voegt Domein** toe.
 
 1. Herhaal de vorige stap om andere domeinen toe te voegen die u wilt toestaan.
-1. Als u klaar bent, klikt u op **Opslaan**.
+1. Wanneer u wordt gebeëindigd, klik **sparen**.

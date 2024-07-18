@@ -19,7 +19,7 @@ Wanneer u een ad-hockaart van een kaart verwijdert, wordt deze permanent verwijd
 
 Als u een aangesloten kaart van een dynamische raad schrapt, zal het opnieuw verschijnen wanneer u de raad verfrist omdat dit bordtype alle taken en kwesties van een specifiek project vult. Als u de kaart wilt verwijderen, moet u de verbonden taak of uitgave uit het Workfront-project verwijderen.
 
-Wanneer u een aangesloten kaart van een ander bordtype schrapt dat een inputkolom heeft, zal de kaart opnieuw in de inputkolom verschijnen wanneer u de raad verfrist als de verbonden taak of de kwestie nog niet duidelijk volledig is. Zie voor meer informatie over inlaatkolommen [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Wanneer u een aangesloten kaart van een ander bordtype schrapt dat een inputkolom heeft, zal de kaart opnieuw in de inputkolom verschijnen wanneer u de raad verfrist als de verbonden taak of de kwestie nog niet duidelijk volledig is. Voor meer informatie over innamekolommen, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
 Als u een kaart archiveert, wordt deze naar het archief verzonden en kunt u deze later terugzetten op het bord.
 
@@ -42,42 +42,42 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een kaart van de kaart verwijderen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Delete]**.
-1. Klikken **[!UICONTROL Delete]** in het bevestigingsbericht.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Delete]**.
+1. Klik op **[!UICONTROL Delete]** in het bevestigingsbericht.
 
 ## Een kaart archiveren van een kaart
 
 1. Toegang tot het bord.
-1. Klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Archive]**.
+1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Archive]**.
 
-   Gearchiveerde kaarten worden verborgen van het bord, tenzij u een filter toepast om ze weer te geven. Zie voor meer informatie [Een kaart filteren om gearchiveerde kaarten weer te geven](#filter-a-board-to-show-archived-cards) in dit artikel.
+   Gearchiveerde kaarten worden verborgen van het bord, tenzij u een filter toepast om ze weer te geven. Voor meer informatie, zie [ Filter een raad om gearchiveerde kaarten ](#filter-a-board-to-show-archived-cards) in dit artikel te tonen.
 
-   An [!UICONTROL Archive] pictogram ![Archief](assets/archive-icon-spectrum-25x20.png) wordt weergegeven op gearchiveerde kaarten. U kunt een gearchiveerde kaart niet bewerken, maar u kunt de kaart wel verwijderen of naar een andere kolom verplaatsen.
+   Een [!UICONTROL Archive] pictogram ![ Archief ](assets/archive-icon-spectrum-25x20.png) verschijnt op gearchiveerde kaarten. U kunt een gearchiveerde kaart niet bewerken, maar u kunt de kaart wel verwijderen of naar een andere kolom verplaatsen.
 
-1. Om een gearchiveerde kaart te herstellen, klik **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Restore]**.
+1. Om een gearchiveerde kaart te herstellen, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Restore]**.
 
 ## Een kaart filteren om gearchiveerde kaarten weer te geven {#filter-a-board-to-show-archived-cards}
 
 Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord filteren om ook gearchiveerde kaarten weer te geven.
 
 1. Toegang tot het bord.
-1. Klikken [!UICONTROL **Configureren**] rechts van de board om het Configure paneel te openen.
-1. Uitbreiden [!UICONTROL **Kaarten**].
-1. Inschakelen [!UICONTROL **Gearchiveerde kaarten op de kaart weergeven**].
-1. Klikken [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] en selecteert u **[!UICONTROL Archived cards]** gearchiveerde kaarten weergeven.
+1. Klik [!UICONTROL **vormen**] op het recht van de raad om het Configure paneel te openen.
+1. Breid [!UICONTROL **Kaarten**] uit.
+1. Zet [!UICONTROL **gearchiveerde kaarten van de Vertoning op de raad**] aan.
+1. Klik [!UICONTROL **Filter**], breid de [!UICONTROL Archived Cards] sectie uit, en selecteer **[!UICONTROL Archived cards]** om het even welke gearchiveerde kaarten te tonen.
 
    Het filter geeft het aantal gearchiveerde kaarten weer.
 
-   ![Gearchiveerde kaarten filteren](assets/filter-by-archived-cards.png)
+   ![ gearchiveerde kaarten van de Filter ](assets/filter-by-archived-cards.png)
 
    >[!NOTE]
    >
-   >De [!UICONTROL Archived Cards] is niet beschikbaar in het filter als u de configuratie-instelling niet hebt ingeschakeld om gearchiveerde kaarten weer te geven. Zie voor meer informatie [Aanpassen welke velden worden weergegeven op een kaart](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >De sectie [!UICONTROL Archived Cards] is niet beschikbaar in het filter als u de configuratie-instelling niet hebt ingeschakeld voor het weergeven van gearchiveerde kaarten. Voor meer informatie, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
 
-1. Selecteren **[!UICONTROL Archived cards]** om de optie te wissen en alleen actieve kaarten weer te geven.
+1. Selecteer nogmaals **[!UICONTROL Archived cards]** om de optie te wissen en alleen actieve kaarten weer te geven.

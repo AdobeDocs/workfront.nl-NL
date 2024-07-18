@@ -21,20 +21,20 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 17 augustus 2020 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## SharePoint-connector en modules nu beschikbaar
 
 U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw SharePoint-account. Met de SharePoint-modules kunt u handelingen uitvoeren in uw SharePoint-account, zoals het maken van items, het lezen van documenten of het downloaden van bestanden.
 
-Voor informatie over beschikbare SharePoint-modules raadpleegt u [SharePoint-modules](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
+Voor informatie over beschikbare modules van SharePoint, zie [ modules van SharePoint ](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
 
-**Voorvertoning release**
+**de versie van de Voorproef**
 
 * NVT
 
-**Productievrijgave**
+**de versie van de Productie**
 
 20 augustus 2020

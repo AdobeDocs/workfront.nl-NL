@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -39,17 +39,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een lijst met alle proefversies weergeven
 
 1. Ga naar de documentlijst en selecteer de proefdruk.
-1. Blader in het overzicht naar de weergave **Alle versies** sectie. Hier kunt u alle versies van de proefdruk bekijken.
+1. In Samenvatting, scrol aan de mening **Alle Versies** sectie. Hier kunt u alle versies van de proefdruk bekijken.
 
    ![](assets/copy-of-versions-350x173.png)
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Bestanden waarvan geen voorvertoning kan worden weergegeven (zoals XLSX en DOC), worden gedownload.
 
 1. Ga naar de documentlijst en selecteer een proefdruk.
-1. Blader in het overzicht omlaag naar **Versies** klikt u op de knop **Meer** menu, selecteert u vervolgens **Voorvertoning**.
+1. In Samenvatting, scrol neer aan **Versies**, klik **Meer** menu, dan uitgezochte **Voorproef**.
 
    ![](assets/proof-versions-in-summary-350x167.png)
 
@@ -66,8 +66,8 @@ Bestanden waarvan geen voorvertoning kan worden weergegeven (zoals XLSX en DOC),
 
 Elke gebruiker in Workfront met View-toegang tot het document kan eerdere versies van een proefdocument bekijken. Het is niet vereist dat de gebruiker een bewijs van bevoegdheid heeft.
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek de proefdruk die u nodig hebt.
-1. Blader in het overzicht omlaag naar **Versies** klikt u op de knop **Meer** menu, selecteert u vervolgens **Proef openen**.
+1. In Samenvatting, scrol neer aan **Versies**, klik **Meer** menu, dan selecteren **Open proef**.
 
    ![](assets/proof-versions-in-summary-350x167.png)

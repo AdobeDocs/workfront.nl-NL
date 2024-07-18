@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 11 juli 2022 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Cijferverbinding en nu beschikbare modules
 
@@ -31,7 +31,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Figma-a
 
 * Een scenario activeren wanneer er een gebeurtenis plaatsvindt in uw Figma-account
 
-* Opmerkingen in een bestand plaatsen of verwijderen
+* Opmerkingen in een bestand Post of verwijderen
 
 * Hiermee geeft u opmerkingen weer over een bestand, de geschiedenis van de bestandsversie, projectbestanden of projecten.
 
@@ -40,7 +40,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Figma-a
 * Een aanroep van de Figma API maken
 
 
-Zie voor meer informatie [Figuurmodules](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).
+Voor meer informatie, zie {de modules van Cijfers 0} ](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).[
 
 ## Workday-connector en modules nu beschikbaar
 
@@ -53,7 +53,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Workday
 * Aanvraag indienen bij de Workday API
 
 
-Zie voor meer informatie [Workday-modules](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
+Voor meer informatie, zie [ modules van Workday ](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
 
 ## Adobe Creative Cloud-bibliotheekverbinding en -modules nu beschikbaar
 
@@ -68,7 +68,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Adobe C
 * Een aangepaste API-aanroep uitvoeren
 
 
-Zie voor meer informatie [Adobe Creative Cloud-bibliotheekmodules](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Voor meer informatie, zie [ de modules van de Bibliotheken van Adobe Creative Cloud ](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
 ## Adobe Target-verbinding en modules nu beschikbaar
 
@@ -83,4 +83,4 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met uw Adobe T
 * Een aangepaste API-aanroep uitvoeren
 
 
-Voor meer informatie, [Adobe Target-modules](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+Voor meer informatie, [ modules van Adobe Target ](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).

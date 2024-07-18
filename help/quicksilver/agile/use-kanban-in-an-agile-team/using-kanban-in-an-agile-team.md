@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Kanban-overzicht](../../agile/use-kanban-in-an-agile-team/kanban-overview.md)
-* [Een subtaak toevoegen aan een bestaand artikel op het tabblad [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
-* [Bestaande taken of problemen toevoegen aan de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
-* [Gebruikers toewijzen aan een artikel in het dialoogvenster [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-* [Artikelgegevens bewerken](../../agile/use-kanban-in-an-agile-team/edit-story-information.md)
-* [Filteren op gebruiker op de knop [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
-* [Artikelen en problemen toevoegen uit het dialoogvenster [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md)
-* [De WIP-limiet (work in progress) beheren voor de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
-* [Artikelen opnieuw ordenen op de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
-* [De status van artikelen op het tabblad [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)
-* [Markeringen gebruiken voor artikelen op de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
-* [De achterstand toevoegen aan de [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
-* [Artikelen of problemen verwijderen uit het dialoogvenster [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
+* [ Kanban overzicht ](../../agile/use-kanban-in-an-agile-team/kanban-overview.md)
+* [ voeg een subtask aan een bestaand verhaal op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md) toe
+* [ voeg bestaande taken of kwesties aan de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) toe
+* [ wijs gebruikers aan een verhaal op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md) toe
+* [ geef verhaalinformatie ](../../agile/use-kanban-in-an-agile-team/edit-story-information.md) uit
+* [ Filter door gebruiker op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
+* [ voegt verhalen en kwesties van de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md) toe
+* [ beheer het werk lopend (WIP) grens op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)
+* [ herschikt verhalen op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/reorder-stories-on-the-kanban-board.md)
+* [ werk het statuut van verhalen op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md) bij
+* [ vlaggen van het Gebruik op verhalen op het [!UICONTROL Kanban] bord ](../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
+* [ voeg de achterstand aan de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) toe
+* [Artikelen of problemen verwijderen van het [!UICONTROL Kanban] -bord](../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)

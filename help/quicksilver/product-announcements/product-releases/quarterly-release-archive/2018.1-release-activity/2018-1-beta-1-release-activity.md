@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta 1 releaseactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.1 bèta 1-release. De functionaliteit op deze pagina is op 1 december 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
+title: 2018.1 Beta 1-releaseactiviteit
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 1-release van 2018.1. De functionaliteit op deze pagina is op 1 december 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta 1 releaseactiviteit
+# 2018.1 Beta 1-releaseactiviteit
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.1 bèta 1-release. De functionaliteit op deze pagina is op 1 december 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 1-release van 2018.1. De functionaliteit op deze pagina is op 1 december 2017 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in maart 2018 beschikbaar worden gesteld in de productieomgeving.
 
 >[!IMPORTANT]
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.1 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.1 zijn aangebracht, raadpleegt u  [ 2018.1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-De 2018.1 bèta 1-release bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
+De Beta 1-release van 2018.1 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-**Voor beheerders**
+**voor Beheerders**
 
-* [Bijgewerkte lay-outsjabloon ter ondersteuning van het thuisgebied](#updated-layout-template-to-support-the-home-area)
-* [Proofing-e-mailberichten die vanuit Workfront zijn verzonden uitschakelen](#disable-proofing-email-notifications-sent-from-workfront)
+* [ Bijgewerkt Malplaatje van de Lay-out om het Gebied van het Huis ](#updated-layout-template-to-support-the-home-area) te steunen
+* [ maak het Bewijzen E-mailberichten onbruikbaar die van Workfront worden verzonden ](#disable-proofing-email-notifications-sent-from-workfront)
 * [Nieuwe bronnen toegevoegd aan abonnementen op gebeurtenissen](#new-resources-added-to-event-subscriptions)
 
-**Voor alle gebruikers**
+**voor Alle Gebruikers**
 
-* [Thuisgebied (Mijn werkgebied is bijgewerkt)](#home-area-updated-my-work-area)
-* [De Gegevens van de Planner van het Middel van de vertoning onder BedrijfsGeval en Bijgewerkt Overzicht Bedrijfs van Gevallen](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
-* [Het percentage van de geplande uurtoewijzing weergeven in de bronnenplanner](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [De &quot;Automatische en bij Verandering&quot;en &quot;Verandering slechts&quot;Update typt updates aan de Ouderlijke Voorwerpen tezelfdertijd zoals de Taken worden bijgewerkt](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [ Gebied van het Huis (Bijgewerkt Mijn Gebied van het Werk) ](#home-area-updated-my-work-area)
+* [ Gegevens van de Planner van het Middel van de Vertoning onder het BedrijfsGeval en Bijgewerkte Samenvatting Bedrijfs van het Geval ](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [ Vertoning het Percentage van Geplande Toewijzing van het Uur in de Planner van het Middel ](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
+* [ de &quot;Automatische en op Verandering&quot;en &quot;Verandering slechts&quot;Update Types de Trekker van Updates aan de Ouderlijke Voorwerpen tezelfdertijd zoals de Taken worden bijgewerkt ](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [Tijdlijnopname beschikbaar in de Gantt-grafiek](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## Thuisgebied (Mijn werkgebied is bijgewerkt) {#home-area-updated-my-work-area}
@@ -58,11 +58,11 @@ Zie &quot;Lay-outsjablonen maken en beheren&quot; voor meer informatie.
 
 U kunt nu configureren of gebruikers in uw Workfront-exemplaar e-mailberichten van Workfront ontvangen wanneer er een opmerking wordt gemaakt op een proefdruk.
 
-Eerder werden door Workfront altijd e-mails verzonden waarin werd aangetoond dat er opmerkingen waren gemaakt. Als meldingen ook waren ingeschakeld in Workfront Proof, ontvingen gebruikers dubbele meldingen. 
+Eerder werden door Workfront altijd e-mails verzonden waarin werd aangetoond dat er opmerkingen waren gemaakt. Als meldingen ook in Workfront Proof waren ingeschakeld, ontvingen gebruikers dubbele meldingen. 
 
 Voor bestaande Workfront-klanten is Workfront standaard geconfigureerd om e-mailberichten te verzenden wanneer er een opmerking wordt gemaakt op een proefdruk.
 
-Zie voor informatie over het uitschakelen van e-mailmeldingen voor proefdrukken in Workfront, zodat e-mails met proefdrukken alleen vanuit Workfront Proof worden verzonden.  
+Zie voor informatie over het uitschakelen van e-mailmeldingen voor proefdrukken in Workfront, zodat e-mails met proef alleen vanuit Workfront Proof worden verzonden.  
 
 ## De Gegevens van de Planner van het Middel van de vertoning onder BedrijfsGeval en Bijgewerkt Overzicht Bedrijfs van Gevallen {#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary}
 
@@ -74,7 +74,7 @@ Als deel van deze verandering, omvat de Samenvatting van BedrijfsGeval nu financ
 
 Voorafgaand aan deze verandering, kon u niet de informatie van de Planner van het Middel over het BedrijfsGeval van het project zien. U kon slechts informatie van de Schattingen van het Middel zien die in de Planner van de Band van de Capaciteit van de Oudere Groepen van Middel wordt gespecificeerd.
 
-Voor meer informatie over het creëren van een BedrijfsGeval, zie [Een bedrijfscase maken voor een project](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Voor meer informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ## Het percentage van de geplande uurtoewijzing weergeven in de bronnenplanner {#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner}
 
@@ -82,7 +82,7 @@ De mening van de Gebruiker van de Planner van het Middel omvat nu een nieuwe kol
 
 Voorafgaand aan deze wijziging kon u het totaal van Geplande en Beschikbare Uren voor gebruikers en baanrollen slechts in afzonderlijke kolommen bekijken.
 
-Voor meer informatie over de Geplande kolom van het Percentage van de Toewijzing van Uren, zie &quot;het Bekijken van het Verschil tussen Beschikbare en Geplande Uren of VTE in de Planner van het Middel&quot;sectie in [Overzicht van de bronnenplanner](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over de Geplande kolom van het Percentage van de Toewijzing van Uren, zie het &quot;Bekijken van het Verschil tussen Beschikbare en Geplande Uren of VTE in de sectie van de Planner van het Middel&quot;in [ overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## De &quot;Automatische en bij Verandering&quot;en &quot;Verandering slechts&quot;Update typt updates aan de Ouderlijke Voorwerpen tezelfdertijd zoals de Taken worden bijgewerkt {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ Nu, wanneer u &quot;Automatisch en bij Verandering&quot;of &quot;Verandering sle
 
 Vóór deze wijziging moest u de pagina vernieuwen om ervoor te zorgen dat de bovenliggende objecten en de tijdlijn van het project ook werden bijgewerkt.
 
-Voor meer informatie over het Type van Update van een project, zie [Selecteer het Type van projectupdate](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Voor meer informatie over het Type van Update van een project, zie [ het Type van projectupdate ](../../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 ## Tijdlijnopname beschikbaar in de Gantt-grafiek {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -107,14 +107,14 @@ Wanneer u een korter tijdkader voor de grafiek van Gantt terwijl het bekijken va
 
 Vóór deze wijziging moest u horizontaal schuiven op het hele Gantt-diagram om een bepaald tijdstip te vinden, of u moest uitzoomen uit de korrelweergave.
 
-Voor meer informatie over hoe de informatie in de grafiek van Gantt toont, zie [Vorm hoe de informatie op de Grafiek van Gantt toont](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Voor meer informatie over hoe de informatievertoningen in de grafiek van Gantt, zie [ vormen hoe de informatievertoningen op de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Nieuwe bronnen toegevoegd aan abonnementen op gebeurtenissen {#new-resources-added-to-event-subscriptions}
 
 Nu kunt u gebeurtenisabonnementen voor de volgende middelen tot stand brengen:
 
-* **Kosten:** Hiermee krijgt u een melding wanneer een uitgave wordt toegevoegd of gewijzigd.
-* **Toewijzing:** Hiermee wordt u gewaarschuwd wanneer een toewijzing wordt toegevoegd of gewijzigd aan een taak of uitgave voor een gebruiker, taakrol of team.
-* **Tijdschema:** Meldt u wanneer een timesheet wordt voorgelegd, verworpen, of goedgekeurd.
+* **Kosten:** deelt u mee wanneer een uitgave wordt toegevoegd of gewijzigd.
+* **Taak:** deelt u mee wanneer een taak op een taak of een kwestie voor een gebruiker, een baanrol, of een team wordt toegevoegd of wordt gewijzigd.
+* **Chronesheet:** deelt u mee wanneer een timesheet wordt voorgelegd, verworpen, of goedgekeurd.
 
-Zie voor meer informatie over gebeurtenisabonnementen [API voor abonnementen voor gebeurtenissen](../../../../wf-api/general/event-subs-api.md).
+Meer over gebeurtenisabonnementen leren, zie [ Abonnement API van de Gebeurtenis ](../../../../wf-api/general/event-subs-api.md).

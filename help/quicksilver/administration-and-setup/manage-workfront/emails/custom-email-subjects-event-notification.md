@@ -51,26 +51,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Planner of hoger, met administratieve toegang tot herinneringsmeldingen</p> <p>Voor informatie over het geven van een de gebruikers administratieve toegang van het Plan, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gebruikers administratieve toegang verlenen tot bepaalde gebieden</a>.</p> </td> 
+   <td> <p>Planner of hoger, met administratieve toegang tot herinneringsmeldingen</p> <p>Voor informatie over het verlenen van administratieve toegang van de gebruiker van het Plan, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## E-mailonderwerpregel aanpassen voor gebeurtenismeldingen {#customize-email-subject-lines-for-event-notifications}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **E-mail** > **Meldingen**.
+1. In het linkerpaneel, klik **E-mail** > **Meldingen**.
 
-1. Klik op de knop **Gebeurtenismeldingen** tab.
-1. Klik op de naam van het gebeurtenisbericht dat u wilt aanpassen om het dialoogvenster **Melding gebeurtenis** doos.
-1. In de **Onderwerpregel e-mail** de tekst en velden, inclusief aangepaste velden, in het e-mailonderwerp wijzigen.
+1. Klik de **Berichten van de Gebeurtenis** tabel.
+1. Klik de naam van het gebeurtenisbericht u wilt aanpassen om het **vakje van het Bericht van de Gebeurtenis** te openen.
+1. In het **vakje van de Lijn van het Onderwerp van 0} E-mail {, verander de tekst en de gebieden, met inbegrip van douanevelden, in het e-mailonderwerp.**
 
    De namen van de toegevoegde velden moeten overeenkomen met de hoofdlettersyntaxis van de kameel-database. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. Klikken **Bijwerken** om de nieuwe onderwerpregel voor uw e-mails op te slaan.
+1. Klik **Update** om de nieuwe onderwerplijnen voor uw e-mails te bewaren.
 
 ## E-mailonderwerpregel aanpassen voor e-mails met meerdere objecten
 
@@ -84,7 +84,7 @@ Als een gebruiker in een gesprek over de taak, de kwestie, de malplaatjetaak, of
 
 Als toegevoegd aan een projectgesprek zal een e-mail met het tweede onderwerp produceren. Hier bevat de onderwerpregel &quot;topReferenceObject:name&quot; en Workfront identificeert opnieuw welk object werd genoemd en retourneert die objectnaam in plaats van &quot;topReferenceObject:name&quot; in het onderwerp. De onderwerpregel van de e-mail ziet er ongeveer als volgt uit: &quot;Opmerking over project ABC.&quot;
 
-Als u de onderwerpregel van de e-mail wilt bewerken en aanvullende velden wilt toevoegen aan de onderwerpregel, raadpleegt u [E-mailonderwerpregel aanpassen voor gebeurtenismeldingen](#customize-email-subject-lines-for-event-notifications) in dit artikel.
+Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [ onderwerplijnen e-mail voor gebeurtenisberichten ](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.
 
 ## E-mailonderwerpregel aanpassen voor e-mailberichten met meerdere acties
 
@@ -94,4 +94,4 @@ Het aanvragen van een document om aan een uitgave toe te voegen, is bijvoorbeeld
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-Als u de onderwerpregel van de e-mail wilt bewerken en aanvullende velden wilt toevoegen aan de onderwerpregel, raadpleegt u [E-mailonderwerpregel aanpassen voor gebeurtenismeldingen](#customize-email-subject-lines-for-event-notifications) in dit artikel.
+Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [ onderwerplijnen e-mail voor gebeurtenisberichten ](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.

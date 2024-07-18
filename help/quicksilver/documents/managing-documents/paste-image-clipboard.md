@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ U kunt een afbeeldingsbestand toevoegen aan Adobe Workfront door het te kopiëre
 
 Deze functie is browserspecifiek, als volgt:
 
-* **Chroom:** Ondersteunt afbeeldingsbestanden en rendert de eerste pagina met PDF.
-* **Firefox:** Ondersteunt alleen screenshots.
-* **Rand**: Ondersteunt afbeeldingsbestanden.
-* **Safari:** Deze functionaliteit wordt niet ondersteund.
+* **Chrome:** steunt beelddossiers, evenals geeft de eerste pagina van PDF terug.
+* **Firefox:** steunt slechts screenshots.
+* **Edge**: De beelddossiers van steunen.
+* **Safari:** Deze functionaliteit wordt niet gesteund.
 
 ## Toegangsvereisten
 
@@ -46,39 +46,39 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven tot het object dat u aan het document koppelt</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang weergeven tot het object dat u aan het document koppelt</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Plakken vanaf het Klembord
 
 Een afbeelding of schermafbeelding via het klembord toevoegen aan Workfront:
 
-1. Kopieer op uw werkstation een afbeelding of scherm die is opgenomen naar het systeemklembord.
+1. Kopieer op uw werkstation een afbeelding of scherm die u hebt opgenomen naar het systeemklembord.
 
-   Klik bijvoorbeeld met de rechtermuisknop op een browserafbeelding en selecteer **Afbeelding kopiëren** of kopieer een afbeelding uit een afbeeldingstoepassing zoals Photoshop of SnagIt.
+   Bijvoorbeeld, klik op een browser beeld met de rechtermuisknop aan en selecteer **Beeld van het Exemplaar**, of kopieer een beeld van een beeldtoepassing zoals Photoshop of SnagIt.
 
-1. Ga in Workfront naar de **Documenten** gebied waar u de afbeelding wilt toevoegen.
-1. Klikken **Nieuwe toevoegen** > **Plakken van klembord**.
+1. In Workfront, ga naar het **gebied van Documenten** waar u het beeld wilt toevoegen.
+1. Klik **toevoegen Nieuw** > **Deeg van Klembord**.
 
    >[!NOTE]
    >
    >Als u de browser Internet Explorer of Safari gebruikt, wordt Plakken van klembord niet ondersteund en wordt deze weergegeven als grijs in de vervolgkeuzelijst Document toevoegen.
 
-1. In de **Plakken van klembord** Voer een van de volgende handelingen uit, afhankelijk van uw besturingssysteem:
+1. In het **Deeg van het Klembord** vakje dat verschijnt, doe één van beiden van het volgende, afhankelijk van uw werkend systeem:
 
-   * **Windows:** Druk op CTRL+V.
-   * **Mac:** Druk op Command+V
+   * **Vensters:** Druk CTRL+V.
+   * **Mac:** Druk Command+V
 
 1. Als u aanvullende afbeeldingen wilt toevoegen, herhaalt u stap 1 om een andere afbeelding te kopiëren en plakt u de afbeelding vervolgens in het dialoogvenster Plakken vanuit klembord, zoals beschreven in stap 4.
 
    Elke afbeelding die u in het dialoogvenster plakt, wordt als een afzonderlijk bestand toegevoegd.
 
-1. Klikken **Gereed**.
+1. Klik **Gedaan**.

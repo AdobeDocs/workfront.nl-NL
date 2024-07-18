@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2024 releasetijdschema werden gemaakt.
 
-Voor een lijst met alle wijzigingen die beschikbaar zijn in de release van het tweede kwartaal van 2024 raadpleegt u [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met Tweede Kwartaal 2024 versie, zie [ Tweede Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Zoeken naar updates voor twee e-mailsjablonen
 
@@ -34,4 +34,4 @@ De e-mailsjablonen voor het toevoegen van een fiatteur aan een middel en voor he
 
 We hebben de tabbladen voor Forms, Fields en secties in het gebied Setup > Custom Forms bijgewerkt naar een moderner ontwerp dat consistent is met andere gebieden van Workfront. U hebt nu toegang tot de drie gebieden via het navigatiemenu links. Filters, weergaven en groepen zijn nog steeds beschikbaar voor de lijsten. Het bijgewerkte ontwerp is van toepassing op aangepaste formulieren, velden en secties die zijn gemaakt in zowel de nieuwe formulierontwerper als de oudere formulierontwerper.
 
-Zie voor meer informatie [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) en [Een aangepast formulier maken of bewerken met de verouderde formulierbuilder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) en [ creeer of geef een douanevorm met de bouwer van de erfenisvorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.

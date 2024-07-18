@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-U kunt uw middelen in de Planner van het Middel van Adobe Workfront begroten door Kostenwaarden, in plaats van Uren of VTE waarden te gebruiken. Kostenwaarden zijn niet beschikbaar voor de **Weergeven op gebruiker** in de Resource Planner.
+U kunt uw middelen in de Planner van het Middel van Adobe Workfront begroten door Kostenwaarden, in plaats van Uren of VTE waarden te gebruiken. De waarden van kosten zijn niet beschikbaar voor de **Mening door gebruiker** mening in de Planner van het Middel.
 
 >[!IMPORTANT]
 >
 >U moet gebruikers en baanrollen met de Tarieven van Kosten per Uur associëren om de informatie van Kosten in de Planner van het Middel te tonen.\
->Voor meer informatie over het associëren van de Tarieven van Kosten per Uur met baanrollen, zie [Taakrollen maken en beheren](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Voor meer informatie over het koppelen van Kosten per uur aan gebruikers, zie [Gebruikersprofiel bewerken](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Voor meer informatie over het associëren van de Tarieven van Kosten per Uur met baanrollen, zie [ baanrollen ](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.\
+>Voor meer informatie over het associëren van Kosten per de tarieven van het Uur met gebruikers, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 Voordat u uw bronnen in een begroting opneemt, moet u goed begrijpen wat er moet gebeuren (geplande uren, VTE of kosten) en op welk moment uw gebruikers kunnen werken (Beschikbare uren, VTE of Kosten).\
-Voor meer informatie over het begrijpen van de informatie in de Planner van het Middel wanneer het opnemen door Uren of FTE, zie [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Voor meer informatie over het begrip van de informatie in de Planner van het Middel wanneer het opnemen door Uren of FTE, zie [ Overzicht van uren, FTE, en kosteninformatie in de meningen van het Project en van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Toegangsvereisten
 
@@ -52,16 +52,16 @@ U moet het volgende hebben:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot resourcebeheer bewerken, inclusief toegang tot bewerkingsprioriteiten en begrotingstijden in de bronnenplanner</p> <p>Toegang tot financiële gegevens, projecten en gebruikers bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Beheer machtigingen voor de projecten waarvoor u begrotingsgegevens wilt maken met de mogelijkheid om financiën te beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Beheer machtigingen voor de projecten waarvoor u begrotingsgegevens wilt maken met de mogelijkheid om financiën te beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De informatie van de vertoning in de Planner van het Middel door Kosten
 
@@ -69,20 +69,20 @@ Door gebrek, wordt de beschikbaarheid en toewijzingsinformatie getoond in Uren i
 
 Om Beschikbare, Geplande, en Gefabriceerde informatie door Kosten in de Planner van het Middel te tonen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Bronnen**.
+1. Klik **Middelen**.
 1. Ga naar de bronnenplanner.
-1. (Voorwaardelijk) Selecteren **Weergeven op project** of **Weergeven op rol**.\
-   Standaard **Weergeven op project** is geselecteerd.\
+1. (Voorwaardelijk) selecteer **Mening door Project** of **Mening door Rol**.\
+   Door gebrek **Mening door Project** wordt geselecteerd.\
    De informatie over toewijzing en beschikbaarheid wordt weergegeven in uren.
 
-1. Van de **Uren** vervolgkeuzelijst, selecteert u **Kosten**.
+1. Van het **drop-down menu van Uren**, uitgezochte **Kosten**.
 
    Als u geen toegang tot Financiële Gegevens in uw toegangsniveau hebt, is deze optie niet beschikbaar.\
    Als projecten een andere valuta hebben dan de systeemvaluta, worden de kosten voor deze projecten weergegeven in de bronnenplanner die is omgezet in de valuta van het systeem. De systeembeheerder definieert de systeemvaluta.\
-   Zie voor meer informatie over het instellen van de systeemvaluta in Workfront en de conversiekoersen [Wisselkoersen instellen](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
-   ![cost_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
+   Voor meer informatie over vestiging de systeemmunt in Workfront en omzettingspercentages, zie [ de Wisselkoersen van de Opstelling ](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   ![ cost_in_the_planner_with_no_budgeting.png ](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Beschikbare kosten berekenen in de bronnenplanner
 
@@ -92,7 +92,7 @@ Om Beschikbare Kostenwaarden in de Planner van het Middel te tonen moet u het vo
 * Informatie over de beschikbaarheid van gebruikers.
 
   Het verkrijgen van informatie over de beschikbaarheid van gebruikers hangt af van hoe uw Workfront-beheerder de voorkeuren voor het beheer van bronnen configureert.\
-  Voor meer informatie over het berekenen van gebruikersbeschikbaarheid en het plaatsen van de Voorkeur van het Beheer van het Middel, zie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Voor meer informatie over het berekenen van gebruikersbeschikbaarheid en het plaatsen van de Voorkeur van het Beheer van het Middel, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 De volgende lijst illustreert hoe Beschikbare Kosten in de Planner van het Middel wordt berekend:
 
@@ -101,8 +101,8 @@ De volgende lijst illustreert hoe Beschikbare Kosten in de Planner van het Midde
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Beschikbare kosten</strong> </th> 
-   <th><strong>Berekening</strong> </th> 
+   <th><strong> Beschikbare Kosten </strong> </th> 
+   <th><strong> Berekening </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -137,8 +137,8 @@ Hoewel u taakinformatie in de Planner van het Middel niet kunt bekijken, worden 
    * Een team\
      Een taak die aan een Team wordt toegewezen wordt beschouwd als niet toegewezen, vanuit het perspectief van de Planner van het Middel.
 
-* De **Kostensoort** van de projecttaken.\
-  Voor meer informatie over het Type van Kosten van een taak, zie [Trackkosten](../../manage-work/projects/project-finances/track-costs.md).
+* Het **Type van Kosten** van de taken op het project.\
+  Voor meer informatie over het Type van Kosten van een taak, zie [ Kosten van het Spoor ](../../manage-work/projects/project-finances/track-costs.md).
 
 * De effectieve data van de kostenpercentages voor functies en gebruikers.
 
@@ -150,19 +150,19 @@ Hoewel u taakinformatie in de Planner van het Middel niet kunt bekijken, worden 
 
 De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten voor gebruikers, rollen, en het project:
 
-* Wanneer de **Kostensoort** is **Uur gebruiker **en er is **geen toewijzing** op deze taak :
+* Wanneer het **Type van Kosten** **User Uur **is en er **geen taak** op de taak is:
 
-   * **Rol en door de gebruiker geplande kosten**:
+   * **Rol en gebruiker Geplande Kosten**:
 
      De door de gebruiker geplande kosten voor Rol en Gebruiker bedragen $0,00.
 
-   * **Geplande projectkosten**:
+   * **Geplande Kosten van het Project**:
 
      De geplande projectkosten bedragen $0,00.
 
-* Wanneer de **Kostensoort** is **Uur gebruiker** en er **gebruikerstoewijzing** op deze taak :
+* Wanneer het **Type van Kosten** **Uur van de Gebruiker** is en er a **gebruikerstaak** op de taak is:
 
-   * **Rol en door de gebruiker geplande kosten**:
+   * **Rol en gebruiker Geplande Kosten**:
 
      De door de gebruiker geplande kosten worden berekend aan de hand van de volgende formule:
 
@@ -178,13 +178,13 @@ De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten 
 
      `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Geplande projectkosten**:
+   * **Geplande Kosten van het Project**:
 
      De geplande projectkosten bedragen $0,00.
 
-* Wanneer de **Kostensoort** is **Uur gebruiker** en er **taakroltoewijzing** op deze taak :
+* Wanneer het **Type van Kosten** **Uur van de Gebruiker** is en er is de taak van de a **baanrol** op de taak:
 
-   * **Rol en door de gebruiker geplande kosten**:
+   * **Rol en gebruiker Geplande Kosten**:
 
      De door de gebruiker geplande kosten bedragen $0,00.
 
@@ -194,23 +194,23 @@ De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten 
 
      De kosten op systeemniveau per uur van de taakrol die aan de taak is toegewezen, worden gebruikt om de geplande kosten te berekenen.
 
-   * **Geplande projectkosten**:
+   * **Geplande Kosten van het Project**:
 
      De geplande projectkosten bedragen $0,00.
 
-* Wanneer de **Kostensoort** is **Rol Uur** en er **geen toewijzing** op deze taak :
+* Wanneer het **Type van Kosten** **Huur van de Rol** is en er **geen taak** op de taak is:
 
-   * **Rol en door de gebruiker geplande kosten**:
+   * **Rol en gebruiker Geplande Kosten**:
 
      De door de gebruiker geplande kosten voor Rol en Gebruiker bedragen $0,00.
 
-   * **Geplande projectkosten**:
+   * **Geplande Kosten van het Project**:
 
      De geplande projectkosten bedragen $0,00.
 
-* Wanneer de **Kostensoort** is **Rol Uur** en er **gebruikerstoewijzing** op deze taak :
+* Wanneer het **Type van Kosten** **Huur van de Rol** is en er a **gebruikerstaak** op de taak is:
 
-   * **Rol en door de gebruiker geplande kosten**:
+   * **Rol en gebruiker Geplande Kosten**:
 
      De door de gebruiker geplande kosten bedragen $0,00.
 
@@ -222,15 +222,15 @@ De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten 
 
      Als de gebruiker niet aan om het even welke rol op de taak wordt geassocieerd, is de Geplande Kosten $0.00.
 
-   * **Geplande projectkosten**:
+   * **Geplande Kosten van het Project**:
 
      De geplande projectkosten worden berekend aan de hand van de volgende formule:
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* Wanneer de **Kostensoort** is **Rol Uur** en er **taakroltoewijzing** op deze taak :
+* Wanneer het **Type van Kosten** **Huur van de Rol** is en er is de taak van de a **rol** op de taak:
 
-   * **Rol en door de gebruiker geplande kosten**:
+   * **Rol en gebruiker Geplande Kosten**:
 
      De door de gebruiker geplande kosten bedragen $0,00.
 
@@ -240,7 +240,7 @@ De volgende scenario&#39;s bestaan wanneer het berekenen van de Geplande Kosten 
 
      Workfront bekijkt de baanrol die de gebruiker op de taak vervult om de Geplande Kosten voor de rol te berekenen.
 
-   * **Geplande projectkosten**:
+   * **Geplande Kosten van het Project**:
 
      De geplande projectkosten worden berekend aan de hand van de volgende formule:
 
@@ -319,8 +319,8 @@ De volgende lijst illustreert hoe de Gefabriceerde Kosten in de Planner van het 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Geraamde kosten</strong> </th> 
-   <th><strong>Berekening</strong> </th> 
+   <th><strong> begrote Kosten </strong> </th> 
+   <th><strong> Berekening </strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

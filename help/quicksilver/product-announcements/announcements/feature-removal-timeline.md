@@ -25,8 +25,8 @@ Verschillende functies worden geleidelijk uit het Adobe Workfront-product verwij
  <tbody> 
   <tr> 
    <td><b>Functie of productgebied</b></td> 
-   <td><strong>Laatste release met nieuwe functies</strong> </td> 
-   <td> <p rowspan="2"><strong>Sleuteldata</strong> </p> <p rowspan="2"> </p> </td> 
+   <td><strong> Laatste versie met nieuwe eigenschappen </strong> </td> 
+   <td> <p rowspan="2"><strong> Zeer belangrijke data </strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Adobe Workfront Classic <p style="font-weight: normal;">Meer informatie komt er.</p> </td> 
@@ -34,22 +34,22 @@ Verschillende functies worden geleidelijk uit het Adobe Workfront-product verwij
    <td> <p>Laatste release met nieuwe functieverbeteringen in Classic met 21.2 release</p> <p>Niet meer ondersteund op 31 maart 2022</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Ondersteuning voor Internet Explorer</p> <p>Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge. </p> <p>Zie voor meer informatie over ondersteunde browsers <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront-browservereisten</a>.</p> </td> 
+   <td> <p>Ondersteuning voor Internet Explorer</p> <p>Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge. </p> <p>Voor meer informatie over gesteunde browsers, zie <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref"> browser van Adobe Workfront vereisten </a>.</p> </td> 
    <td>Met de release van 21.1</td> 
    <td>Niet meer ondersteund met de 21.2-release</td> 
   </tr> 
   <tr> 
-   <td> <p>Bronplanning</p> <p>Workload Balancer biedt een verbeterde ervaring bij het plannen van bronnen.</p> <p>Zie voor meer informatie over de werklastbalans <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Overzicht van werklastbalans</a>.</p> </td> 
+   <td> <p>Bronplanning</p> <p>Workload Balancer biedt een verbeterde ervaring bij het plannen van bronnen.</p> <p>Voor meer gedetailleerde informatie over de Balancer van de Werklast, zie <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md"> Overzicht van de Balancer van de Werkbelasting </a>.</p> </td> 
    <td> </td> 
    <td> <p>Niet meer ondersteund op 9 november 2020 (met de release 20.4)</p> <p>—</p> <p>Verwijderd van het Workfront-platform na de eerste helft van 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Zie voor meer informatie over Workfront Fusion <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Verouderde Workfront Fusion</p> <p>Workfront Fusion biedt een verbeterde ervaring met Legacy Workfront Fusion.</p> <p>Voor meer informatie over de Fusie van Workfront, zie <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref"> de Fusie van Adobe Workfront </a>.</p> </td> 
    <td> </td> 
    <td>Op 31 maart 2021 is het Workfront-platform verwijderd</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>In Workfront zijn verschillende gereedschappen nu beschikbaar als vervanging voor elk gereedschap op basis van Flash. Voor meer gedetailleerde informatie, zie <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Vervanging van gereedschappen op basis van Flash in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>In Workfront zijn verschillende gereedschappen nu beschikbaar als vervanging voor elk gereedschap op basis van Flash. Voor meer gedetailleerde informatie, zie <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref"> Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront </a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Op 19 november 2020 is het Workfront-platform verwijderd</p> </td> 
   </tr> <!--

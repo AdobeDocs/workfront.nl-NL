@@ -41,7 +41,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b>
+            <p><b> coreAction </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
              <ul>
@@ -66,7 +66,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b> forbiddenActions </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -91,7 +91,7 @@ Een AccessLevelPermissions-object vertegenwoordigt een specifieke machtiging om 
             </ul>
          </li>
           <li>
-            <p><b>secundairActions</b>
+            <p><b> secundairActions </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -134,7 +134,7 @@ Als een gebruiker in Workfront geen toegang heeft tot een object dat hij of zij 
       <td>
         <ul>
           <li>
-            <p><b>action</b>
+            <p><b> actie </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -177,7 +177,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b>
+            <p><b> coreAction </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
              <ul>
@@ -202,7 +202,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b>
+            <p><b> forbiddenActions </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -227,7 +227,7 @@ Een voorwerp AccessRule vertegenwoordigt een regel die in de niveaus van de doua
             </ul>
          </li>
           <li>
-            <p><b>secundairActions</b>
+            <p><b> secundairActions </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -274,19 +274,19 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -310,11 +310,11 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
             </p>
             <ul>
               <li>
-                <p><b>ADD</b>
+                <p><b> TOEVOEGEN </b>
                 </p>
               </li>
               <li>
-                <p><b>DELETE</b>
+                <p><b> DELETE </b>
                 </p>
               </li>
             </ul>
@@ -342,19 +342,19 @@ Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een b
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -382,19 +382,19 @@ Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een b
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -418,7 +418,7 @@ Een object Categorie is een aangepast formulier.
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b>:
+            <p><b> catObjCode </b>:
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:
             <ul>
@@ -438,7 +438,7 @@ Een object Categorie is een aangepast formulier.
              </p>
           </li>
           <li>
-            <p><b>objTypes</b>:
+            <p><b> objTypes </b>:
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:
             <ul>
@@ -476,7 +476,7 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
       <td>
         <ul>
           <li>
-            <p><b>createLargeDocument</b>:
+            <p><b> createLargeDocument </b>:
             </p>
             <p>De volgende parameter toegevoegd:
             <ul>
@@ -488,7 +488,7 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
              </p>
           </li>
           <li>
-            <p><b>moveToFolder</b>:
+            <p><b> moveToFolder </b>:
             </p>
             <p>Toegevoegd. Deze nieuwe actie voert de volgende parameters uit:
             <ul>
@@ -528,19 +528,19 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -557,19 +557,19 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -593,7 +593,7 @@ Het object JournalEntry kan worden ingesteld om informatie over specifieke objec
       <td>
         <ul>
           <li>
-            <p><b>changeType</b>
+            <p><b> changeType </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -630,7 +630,7 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
       <td>
         <ul>
           <li>
-            <p><b>convertToProject</b>:
+            <p><b> convertToProject </b>:
             </p>
             <p>De volgende velden zijn toegevoegd:
             <ul>
@@ -642,7 +642,7 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
              </p>
           </li>
           <li>
-            <p><b>convertToTask</b>:
+            <p><b> convertToTask </b>:
             </p>
             <p>De volgende velden zijn toegevoegd:
             <ul>
@@ -676,19 +676,19 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -701,7 +701,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
       <td>
         <ul>
           <li>
-            <p><b>createProjectWithOverride</b>
+            <p><b> createProjectWithOverride </b>
             </p>
              <p>Toegevoegd.
             </p>
@@ -726,7 +726,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b> identiteitskaart </b>
                 </p>
               </li>
              </ul>
@@ -743,7 +743,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b> identiteitskaart </b>
                 </p>
               </li>
              </ul>
@@ -767,7 +767,7 @@ Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het g
       <td>
         <ul>
           <li>
-            <p><b>aanvragerCoreAction</b>
+            <p><b> requestorCoreAction </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
              <ul>
@@ -792,7 +792,7 @@ Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het g
             </ul>
           </li>
           <li>
-            <p><b>requestorForbiddenActions</b>
+            <p><b> requestForForbiddenActions </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -856,7 +856,7 @@ Een object Rate vertegenwoordigt een factureringssnelheid in Workfront.
       <td>
         <ul>
           <li>
-            <p><b>displayName</b>
+            <p><b> displayName </b>
             </p><p>Toegevoegd.</p>
           </li>
         </ul>
@@ -883,19 +883,19 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -908,7 +908,7 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
       <td>
         <ul>
           <li>
-            <p><b>convertToProject</b>
+            <p><b> convertToProject </b>
             </p>
              <p>Het volgende veld is toegevoegd:
              <ul><li><code>copyCategories</code></li></ul>
@@ -937,11 +937,11 @@ Een voorwerp van het Malplaatje vertegenwoordigt een patroon voor een project. P
             </p>
             <ul>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -968,11 +968,11 @@ Een voorwerp TemplateTask vertegenwoordigt een Taak die deel van een Malplaatje 
             </p>
             <ul>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>
@@ -996,7 +996,7 @@ Een voorwerp TemplateTask vertegenwoordigt een Taak die deel van een Malplaatje 
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b> identiteitskaart </b>
                 </p>
               </li>
              </ul>
@@ -1013,7 +1013,7 @@ Een voorwerp TemplateTask vertegenwoordigt een Taak die deel van een Malplaatje 
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b> identiteitskaart </b>
                 </p>
               </li>
              </ul>
@@ -1039,7 +1039,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
             </p>
             <ul>
               <li>
-                <p><b>objCode</b>
+                <p><b> objCode </b>
                 </p>
               </li>
              </ul>
@@ -1063,7 +1063,7 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
       <td>
         <ul>
           <li>
-            <p><b>updateType</b>
+            <p><b> updateType </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
              <ul>
@@ -1089,7 +1089,7 @@ Werkonderdelen in Workfront kunnen worden bijgewerkt om gebruikers op de hoogte 
       <td>
         <ul>
           <li>
-            <p><b>recentUpdatesObjIDs</b>
+            <p><b> recentUpdatesObjIDs </b>
             </p>
             <p>Toegevoegd.</p>
           </li>
@@ -1112,7 +1112,7 @@ Een object UserPrefValue vertegenwoordigt een gebruikersvoorkeur.
       <td>
         <ul>
           <li>
-            <p><b>value</b>
+            <p><b> waarde </b>
             </p>
             <p>De validator toegevoegd <code>MAX_LENGTH</code></p>
       </td>
@@ -1137,19 +1137,19 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
             </p>
             <ul>
               <li>
-                <p><b>actualBillableExpenseCost</b>
+                <p><b> actualBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>actualNonBillableExpenseCost</b>
+                <p><b> actualNonBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>scheduledBillableExpenseCost</b>
+                <p><b> scheduledBillableExpenseCost </b>
                 </p>
               </li>
               <li>
-                <p><b>SchedulNonBillableExpenseCost</b>
+                <p><b> scheduledNonBillableExpenseCost </b>
                 </p>
               </li>
              </ul>

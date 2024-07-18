@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Instellen [!DNL Adobe Workfront]
-description: Als [!DNL Workfront] beheerder, kunt u de systeemgebreken van uw organisatie, timesheets, programma's, de manier vormen uw gebruikers in het systeem, automatische systeemupdates, en de [!DNL Workfront] testomgevingen.
+title: Instellen  [!DNL Adobe Workfront]
+description: Als a [!DNL Workfront]  beheerder, kunt u de systeemgebreken van uw organisatie, timesheets, programma's vormen, de manier uw gebruikers in het systeem, automatische systeemupdates, en de  [!DNL Workfront]  testende milieu's worden georganiseerd u gebruikt.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Instellen [!DNL Adobe Workfront]: artikelindex
+# Instellen [!DNL Adobe Workfront] : artikelindex
 
 <!--Audited: 01/2024-->
 
-Als [!DNL Adobe Workfront] beheerder, kunt u de systeemgebreken van uw organisatie, timesheets, programma&#39;s, de manier vormen uw gebruikers in het systeem, automatische systeemupdates, en de [!DNL Workfront] testomgevingen.
+Als [!DNL Adobe Workfront] beheerder, kunt u de systeemgebreken van uw organisatie, timesheets, programma&#39;s, de manier vormen uw gebruikers in het systeem, automatische systeemupdates, en de [!DNL Workfront] testende milieu&#39;s worden georganiseerd u gebruikt.
 
 De volgende subsecties bevatten artikelen over het configureren van uw Workfront-instantie en het instellen van de systeemvoorkeuren:
 

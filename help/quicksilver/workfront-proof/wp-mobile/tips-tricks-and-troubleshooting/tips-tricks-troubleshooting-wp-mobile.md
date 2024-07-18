@@ -1,9 +1,10 @@
 ---
-title: Tips, trucs en probleemoplossing voor de [!DNL Workfront Proof] mobiele app
-description: Leer Workfront Proof mobile problemen op te lossen.
+title: Tips, trucs, en het oplossen van problemen voor  [!DNL Workfront Proof]  mobiele app
+description: Leer problemen met Workfront Proof mobile op te lossen.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
@@ -14,8 +15,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Kan niet aanmelden bij de [!DNL Workfront Proof] Mobiele app](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+* [Onbekwaam om aan login aan  [!DNL Workfront Proof]  Mobiele App](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)

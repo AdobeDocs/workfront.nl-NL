@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: De openbare URL delen in [!DNL Workfront Proof]
+title: De openbare URL delen in  [!DNL Workfront Proof]
 description: U kunt een proef delen door de gewenste ontvanger van het Openbare bewijs URL te voorzien.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt een proef delen door de gewenste ontvanger van het Openbare bewijs URL te voorzien.
 
-Een openbare URL is een URL waarmee de proefdruk wordt geopend, maar waarbij revisoren niet automatisch worden aangemeld. Openbare URL&#39;s kunnen worden gebruikt wanneer informatie over een proefdruk naar een groep personen wordt verzonden. Wanneer zij tot een bewijs van Openbare URL toegang hebben, zullen zij het met read-only toegang bekijken. Voor informatie over toegangsniveaus, zie [Proefrollen beheren in [!DNL Workfront] Proef](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+Een openbare URL is een URL waarmee de proefdruk wordt geopend, maar waarbij revisoren niet automatisch worden aangemeld. Openbare URL&#39;s kunnen worden gebruikt wanneer informatie over een proefdruk naar een groep personen wordt verzonden. Wanneer zij tot een bewijs van Openbare URL toegang hebben, zullen zij het met read-only toegang bekijken. Voor informatie over toegangsniveaus, zie [ de Rollen van het Bewijs binnen  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) leiden.
 
 Er is ook een optie voor ondertekening beschikbaar, zodat personen die specifiek aan de revisie zijn toegevoegd, zich met hun e-mailadres kunnen aanmelden en opmerkingen en beslissingen over de proefdruk kunnen maken.
 
@@ -31,13 +31,13 @@ Er is ook een optie voor ondertekening beschikbaar, zodat personen die specifiek
 
 Als abonnementen op de proefdruk worden toegelaten, zal iedereen die toegang tot URL van het Bewijs heeft aan de proef (zo toevoegt aan de revisiecyclus met de standaardrol die door de eigenaar van de proef wordt gespecificeerd) kunnen intekenen.
 
-Zie [Abonneren op een proefexemplaar in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) voor meer informatie .
+Zie [ aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) voor meer informatie intekenen.
 
 De openbare URL van een bewijs gebruiken:
 
-1. Ga naar de pagina Proef-fout, zoals beschreven in [Proofinggegevens beheren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Open de **[!UICONTROL More sharing options]** sectie.
-1. Zorg ervoor dat de **URL proefdrukken** is ingeschakeld.
+1. Ga naar het Bewijs ontbreekt pagina, zoals die in [ wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Open de sectie **[!UICONTROL More sharing options]** .
+1. Zorg ervoor dat het **Bewijs URL** wordt toegelaten.
 1. Kopieer de openbare URL naar het klembord.
 1. Plak de openbare URL in een e-mail- of chatvenster en verzend deze naar de ontvanger
 
@@ -53,10 +53,10 @@ Als ze nog geen controleur zijn op de proefdruk, moeten ze zich abonneren.
 >
 >Abonnementen kunnen worden uitgeschakeld. In dat geval kunnen ze zich niet op de proefdruk abonneren.
 
-Zie [Abonneren op een proefexemplaar in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) voor meer informatie .
+Zie [ aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) voor meer informatie intekenen.
 
 U kunt als volgt de proef openen via een openbare URL:
 
-* Gebruikers openen de proef met hun aanmeldingsgegevens, waaronder hun geregistreerde e-mail en wachtwoord voor [!DNL Workfront Proof].
+* Gebruikers openen de proefdruk met hun aanmeldingsgegevens, waaronder hun geregistreerde e-mail en wachtwoord voor [!DNL Workfront Proof] .
 * Niet-gebruikers openen de proefdruk door een e-mailadres en weergavenaam in te voeren.
-* Selecteer in beide gevallen **[!UICONTROL Remember me]** zodat u deze keer uw gegevens moet invoeren (voor deze proefdruk).
+* Selecteer in beide gevallen **[!UICONTROL Remember me]** , zodat u deze keer uw gegevens moet invoeren (voor deze proefdruk).

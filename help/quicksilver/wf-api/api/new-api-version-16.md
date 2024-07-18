@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -93,9 +93,9 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
       <td>
         <ul>
           <li>
-            <p><b>workPerDate</b>
+            <p><b> workPerDate </b>
             </p>
-            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie is <code>YYYY-MM-DD: (number of minutes)</code>en houdt rekening met tijdzone.</p>
+            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie heeft de notatie <code>YYYY-MM-DD: (number of minutes)</code> en er wordt rekening gehouden met de tijdzone.</p>
           </li>
         </ul>
       </td>
@@ -116,12 +116,12 @@ Een toewijzingsobject vertegenwoordigt de verbinding tussen een werkitem en de g
       <td>
         <ul>
           <li>
-            <p><b>workPerDate</b>
+            <p><b> workPerDate </b>
             </p>
-            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie is <code>YYYY-MM-DD: (number of minutes)</code>en houdt rekening met tijdzone.</p>
+            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie heeft de notatie <code>YYYY-MM-DD: (number of minutes)</code> en er wordt rekening gehouden met de tijdzone.</p>
           </li>
           <li>
-            <p><b>isContouren</b>
+            <p><b> isContouren </b>
             </p>
             <p>Dit veld is toegevoegd en is een Booleaanse waarde die aangeeft of de toewijzing contouren heeft. Als de toewijzingsminuten per dag zijn bewerkt in Workload Balancer, is de toewijzing contouren.</p>
           </li>
@@ -145,7 +145,7 @@ Het object CustomEnum helpt bij het omzetten van statuscodes in leesbare tekst.
       <td>
         <ul>
           <li>
-            <p><b>getDefaultProjectStatusEnumForGroup
+            <p><b> getDefaultProjectStatusEnumForGroup
 </b>
             </p>
             <p></p>
@@ -169,7 +169,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b> naam </b>
             </p>
             <p>De volgende mogelijke waarden zijn toegevoegd:</p>
             <ul>
@@ -186,7 +186,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
       <td>
         <ul>
           <li>
-            <p><b>getIsAutoUpgradeDisabled</b>
+            <p><b> getIsAutoUpgradeDisabled </b>
             </p>
             <p>Deze actie retourneert een Booleaanse waarde die aangeeft of de klant de optie voor het automatisch upgraden van de Contributor-licentienemers heeft uitgeschakeld.</p>
          </li>
@@ -208,12 +208,12 @@ Een object ExternalSection is een externe webpagina die is ingesloten in een Wor
       <td>
         <ul>
            <li>
-            <p><b>calculateIframeURL</b>
+            <p><b> calculateIframeURL </b>
             </p>
             <p>Dit is toegevoegd en berekent de URL van een iFrame dat is ingesloten in een rapport.</p>
          </li>
           <li>
-            <p><b>calculateIframeURLS</b>
+            <p><b> calculateIframeURLS </b>
             </p>
             <p>Dit is toegevoegd en berekent de URL's van iFrames die zijn ingesloten in een rapport.</p>
          </li>
@@ -235,9 +235,9 @@ Een voorwerp van het Uur vertegenwoordigt een uur dat door een gebruiker op time
       <td>
         <ul>
           <li>
-            <p><b>timesheetHourIdentifier</b>
+            <p><b> timesheetHourIdentifier </b>
             </p>
-            <p>Toegevoegd. Deze parameter wordt gebruikt om de uren te identificeren die met worden gecreeerd <code>batchSave</code>. </p>
+            <p>Toegevoegd. Deze parameter wordt gebruikt om de uren te identificeren die met <code>batchSave</code> worden gecreeerd. </p>
            </li>
         </ul>
       </td>
@@ -289,7 +289,7 @@ Een object Note is een opmerking of update die op een Workfront-object wordt uit
       <td>
         <ul>
           <li>
-            <p><b>attachedDocuments</b>
+            <p><b> attachedDocuments </b>
             </p>
             <p>Dit veld is toegevoegd en vertegenwoordigt een lijst met documenten die aan de opmerking zijn toegevoegd.</p>
           </li>
@@ -312,9 +312,9 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
       <td>
         <ul>
           <li>
-            <p><b>workPerDate</b>
+            <p><b> workPerDate </b>
             </p>
-            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie is <code>YYYY-MM-DD: (number of minutes)</code>en houdt rekening met tijdzone.</p>
+            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie heeft de notatie <code>YYYY-MM-DD: (number of minutes)</code> en er wordt rekening gehouden met de tijdzone.</p>
           </li>
         </ul>
       </td>
@@ -324,9 +324,9 @@ Een voorwerp OpTask is algemeen genoemd als Kwestie. Een kwestie is een het werk
       <td>
         <ul>
            <li>
-            <p><b>assignMultiple</b>
+            <p><b> assignMultiple </b>
             </p>
-            <p>Met deze handeling wordt het veld toegevoegd <code>teamIDs</code> om de functionaliteit te steunen van het toewijzen van veelvoudige teams aan een taak of kwestie.</p>
+            <p>Met deze actie voegt u het veld <code>teamIDs</code> toe ter ondersteuning van de functionaliteit om meerdere teams toe te wijzen aan een taak of uitgave.</p>
          </li>
         </ul>
       </td>
@@ -347,7 +347,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerBudgetedHours</b>
+            <p><b> resourcePlannerBudgetedHours </b>
             </p>
             <p>Dit veld is toegevoegd en vertegenwoordigt de som van alle begrote uren uren voor het project.</p>
           </li>
@@ -400,7 +400,7 @@ Een object Rate vertegenwoordigt een factureringssnelheid in Workfront.
 
 Een RichTextNote-object is een opmerking of update die wordt gemaakt voor een Workfront-object en die opgemaakte tekst, zoals vette of cursieve tekst, bevat.
 
-Het RichTextNote-object heeft de vlag verwijderd `REPORTABLE`.
+Het RichTextNote-object heeft de markering `REPORTABLE` verwijderd.
 
 ### Rol/Taakrol (ROLE)
 
@@ -415,7 +415,7 @@ Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaa
       <td>
         <ul>
            <li>
-            <p><b>tarieven</b>
+            <p><b> tarieven </b>
             </p>
             <p>Dit is toegevoegd en vertegenwoordigt de objecten Rate die aan deze rol zijn gekoppeld.</p>
          </li>
@@ -437,9 +437,9 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
       <td>
         <ul>
           <li>
-            <p><b>workPerDate</b>
+            <p><b> workPerDate </b>
             </p>
-            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie is <code>YYYY-MM-DD: (number of minutes)</code>en houdt rekening met tijdzone.</p>
+            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie heeft de notatie <code>YYYY-MM-DD: (number of minutes)</code> en er wordt rekening gehouden met de tijdzone.</p>
           </li>
         </ul>
       </td>
@@ -449,9 +449,9 @@ Een voorwerp van de Taak vertegenwoordigt een het werkpunt dat als stap naar het
       <td>
         <ul>
            <li>
-            <p><b>assignMultiple</b>
+            <p><b> assignMultiple </b>
             </p>
-            <p>Met deze handeling wordt het veld toegevoegd <code>teamIDs</code> om de functionaliteit te steunen van het toewijzen van veelvoudige teams aan een taak of kwestie.</p>
+            <p>Met deze actie voegt u het veld <code>teamIDs</code> toe ter ondersteuning van de functionaliteit om meerdere teams toe te wijzen aan een taak of uitgave.</p>
          </li>
         </ul>
       </td>
@@ -472,19 +472,19 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
            <li>
-            <p><b>availableActions</b>
+            <p><b> availableActions </b>
             </p>
-            <p>Deze parameter heeft de markering verwijderd <code>READ_ONLY</code>.</p>
+            <p>Deze parameter heeft de markering <code>READ_ONLY</code> verwijderd.</p>
          </li>
            <li>
-            <p><b>isEditable</b>
+            <p><b> isEditable </b>
             </p>
-            <p>Deze parameter heeft de markering verwijderd <code>READ_ONLY</code>.</p>
+            <p>Deze parameter heeft de markering <code>READ_ONLY</code> verwijderd.</p>
          </li>
            <li>
-            <p><b>totalDays</b>
+            <p><b> totalDays </b>
             </p>
-            <p>Deze parameter werd toegevoegd, en slaat timesheets duur in dagen ongeacht veranderingen in "Equivalent Uren voor Volledige Workday." op  Bijvoorbeeld, als Equivalent Uren aan 6 wordt geplaatst, en één dag wordt geregistreerd, dan wordt de Equivalente Uren veranderd in 8 uren, <code>totalDays</code> heeft nog steeds de waarde 1.</p>
+            <p>Deze parameter werd toegevoegd, en slaat timesheets duur in dagen ongeacht veranderingen in "Equivalent Uren voor Volledige Workday." op  Als Equivalent Hours bijvoorbeeld is ingesteld op 6 en één dag wordt geregistreerd, wordt Equivalent Hours gewijzigd in 8 uur. <code>totalDays</code> heeft nog steeds de waarde 1.</p>
          </li>
         </ul>
       </td>
@@ -504,17 +504,17 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
           <li>
-            <p><b>addJoinForNullableFields</b>
+            <p><b> addJoinForNullableFields </b>
             </p>
-            <p>Deze handeling is toegevoegd en er wordt een filterquerykaart aan toegevoegd <code>allowingnull</code> join voor velden die kunnen worden uitgevouwen.</p>
+            <p>Deze handeling is toegevoegd en er wordt een filterquerykaart aan toegevoegd en de <code>allowingnull</code> join voor velden die kunnen worden geannuleerd, wordt toegevoegd.</p>
          </li>
          <li>
-            <p><b>disableSystemWideVisibility
+            <p><b> disableSystemWideVisibility
 </b>
             </p>
-            <p><b>enableSystemWideVisibility </b>
+            <p><b> enableSystemWideVisibility </b>
             </p>
-            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Filters, weergaven of groepen beschikbaar maken voor alle gebruikers</a>.</p>
+            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
          </li>
         </ul>
       </td>
@@ -533,12 +533,12 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
           <li>
-            <p><b>disableSystemWideVisibility
+            <p><b> disableSystemWideVisibility
 </b>
             </p>
-            <p><b>enableSystemWideVisibility </b>
+            <p><b> enableSystemWideVisibility </b>
             </p>
-            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Filters, weergaven of groepen beschikbaar maken voor alle gebruikers</a>.</p>
+            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
          </li>
         </ul>
       </td>
@@ -557,7 +557,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
           <li>
-            <p><b>layoutType</b>
+            <p><b> layoutType </b>
             </p>
             <p>De volgende mogelijke waarde is toegevoegd:</p>
             <ul>
@@ -574,12 +574,12 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
       <td>
         <ul>
           <li>
-            <p><b>disableSystemWideVisibility
+            <p><b> disableSystemWideVisibility
 </b>
             </p>
-            <p><b>enableSystemWideVisibility </b>
+            <p><b> enableSystemWideVisibility </b>
             </p>
-            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Zie voor meer informatie <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Filters, weergaven of groepen beschikbaar maken voor alle gebruikers</a>.</p>
+            <p>Deze acties ondersteunen de mogelijkheid om filters, weergaven en groepen in het hele systeem te delen.</p><p>Voor meer informatie, zie <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users"> filters, meningen, of groeperingen van de Merk beschikbaar aan alle gebruikers </a> maken.</p>
          </li>
         </ul>
       </td>
@@ -599,7 +599,7 @@ Een object User vertegenwoordigt een persoon met een account in Workfront die zi
       <td>
         <ul>
            <li>
-            <p><b>tarieven</b>
+            <p><b> tarieven </b>
             </p>
             <p>Dit is toegevoegd en vertegenwoordigt de objecten Rate die aan deze gebruiker zijn gekoppeld.</p>
          </li>
@@ -621,7 +621,7 @@ Een object UserNote is een melding.
       <td>
         <ul>
           <li>
-            <p><b>myAllObjectTypesUnreadNotifications</b>
+            <p><b> myAllObjectTypesUnreadNotifications </b>
             </p>
             <p>De volgende mogelijke waarde is toegevoegd:
             <ul>
@@ -648,9 +648,9 @@ Een voorwerp van het Werk is een gemeenschappelijke interface die zowel Taak als
       <td>
         <ul>
           <li>
-            <p><b>workPerDate</b>
+            <p><b> workPerDate </b>
             </p>
-            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie is <code>YYYY-MM-DD: (number of minutes)</code>en houdt rekening met tijdzone.</p>
+            <p>Dit veld is toegevoegd en bevat het aantal minuten werk per dag dat u moet doen. De notatie heeft de notatie <code>YYYY-MM-DD: (number of minutes)</code> en er wordt rekening gehouden met de tijdzone.</p>
           </li>
         </ul>
       </td>

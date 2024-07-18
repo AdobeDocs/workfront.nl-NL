@@ -23,7 +23,7 @@ In het gedeelte Updates van een object wordt standaard maximaal 200 updates weer
 
 >[!NOTE]
 >
->U kunt een rapport bouwen om updates op voorwerpen in Voorproef met het de ingangsrapport van het Dagboek te bekijken. Zie voor meer informatie [Rapport over het gebied Updates](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>U kunt een rapport bouwen om updates op voorwerpen in Voorproef met het de ingangsrapport van het Dagboek te bekijken. Voor meer informatie, zie [ Rapport over het gebied van Updates ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in Adobe Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een notitierapport maken
 
@@ -68,26 +68,26 @@ Het maken van een rapport voor Notities voor elk object is identiek, ongeacht he
 
 Bijvoorbeeld, om een rapport van de Nota voor alle nota&#39;s op een project tot stand te brengen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) rechtsboven in Adobe Workfront.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
-1. Klikken **Rapporten**.
-1. Klikken **Nieuw rapport** en kiest u **Opmerking**.
+1. Klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan kies **Nota**.
 
-1. (Optioneel) Klik op **Weergaven** vervolgens **Kolom toevoegen** om de **Naam** van de **Project** volgens het verslag . 
+1. (Facultatief) klik **Meningen**, dan **voeg Kolom** toe om de **Naam** van het **Project** in de mening van het rapport toe te voegen. 
 
-1. (Optioneel) Klik op **Groepen** vervolgens **Groepering toevoegen** om te groeperen door **Projectnaam** als u meerdere projecten tegelijk rapporteert.\
+1. (Facultatief) klik **Groepen**, dan **voeg Groepering** aan groep door de **Naam van het Project** toe, als u op veelvoudige projecten tezelfdertijd rapporteert.\
    Dit zorgt ervoor dat de nota&#39;s door hun respectieve projecten worden gegroepeerd, die het rapport gemakkelijker maken te lezen. 
 
-1. (Optioneel) Klik op **Filters,** dan **Filterregel toevoegen**.
-1. Een filter toevoegen voor **Opmerking** > **Notititie** > **Is niet leeg**.
+1. (Facultatief) klik **Filters,** dan **voeg een Regel van de Filter** toe.
+1. Voeg een filter voor **Nota** toe > **de Tekst van de Nota** > **is niet leeg**.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Als een projectveld is bijgewerkt maar er geen notitie is toegevoegd op het moment van de update, wordt het **Notititie** van de update wordt weergegeven als **(Geen tekst toegevoegd om bij te werken)**.
+   >   Als een projectgebied werd bijgewerkt maar geen nota werd toegevoegd op het tijdstip van de update, **de Tekst van de Nota** van de updatevertoningen als **(Geen tekst die aan update wordt toegevoegd)**.
 
 
-1. (Optioneel) Voeg een ander filter toe voor **Project** > **Naam** > **Gelijk aan** en voeg een of meer projectnamen toe waarvoor u notities wilt weergeven.
-1. Klikken **Opslaan + Sluiten**.\
+1. (Facultatief) voeg een andere filter voor **Project** toe > **Naam** > **evenaart aan** en voegt één of verscheidene projectnamen toe waarvoor u nota&#39;s wilt bekijken.
+1. Klik **sparen + Sluiten**.\
    Alle updates ingegaan op het project door alle gebruikers met toestemmingen om het project minstens te bekijken worden getoond in het rapport.

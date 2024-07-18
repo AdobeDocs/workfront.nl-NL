@@ -36,18 +36,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ingebouwde rapporten verbergen
 
-1. Van de **Hoofdmenu** ![](assets/main-menu-icon.png), klikt u op **Instellen**.
-1. Klikken **Toegangsniveaus**.
-1. Selecteer het toegangsniveau waarvoor u ingebouwde rapporten wilt verbergen, dan klik **Bewerken**.
-1. Voor de **Rapporten** object, klikt u op de knop **Instellingen** pictogram naast het hoogste beschikbare toegangsniveau, dan schrap **Ingebouwde rapporten weergeven**.
+1. Van het **Belangrijkste Menu** ![](assets/main-menu-icon.png), klik **Opstelling**.
+1. Klik **Niveaus van de Toegang**.
+1. Selecteer het toegangsniveau waarvoor u ingebouwde rapporten wilt verbergen, dan **uitgeven**.
+1. Voor het **voorwerp van Rapporten**, klik het **pictogram van Montages** naast het hoogste niveau van beschikbare toegang, dan schrap **Mening Ingebouwde Rapporten**.
 
    ![](assets/edit-access-level.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

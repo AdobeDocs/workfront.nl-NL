@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!UICONTROL Boards] overzicht
 
-[!DNL Adobe Workfront] [!UICONTROL Boards] zijn flexibele hulpmiddelen die teamsamenwerking toestaan door toegang tot een gedeelde raad te verlenen die kolommen en kaarten bevat.
+[!DNL Adobe Workfront] [!UICONTROL Boards] zijn flexibele gereedschappen die teamsamenwerking mogelijk maken door toegang te bieden tot een gedeelde board die kolommen en kaarten bevat.
 
 Het tonen van taakstatus is een gemeenschappelijk gebruik voor raden van bestuur, maar u kunt om het even welke punten groeperen samen. Een kaart op een board kan een persoon, een groep mensen, een idee, een concept of elk type item vertegenwoordigen dat u nodig hebt.
 
@@ -24,16 +24,16 @@ Met behulp van borden kunt u:
 
 * Snel een task board instellen
 * Kolommen configureren om een status of categorie weer te geven
-* Workflows aanpassen met kaarten met open einde (ofwel ad-hockaarten of kaarten die zijn aangesloten op [!DNL Workfront] taken en problemen)
+* Workflows aanpassen met kaarten voor onbepaalde tijd (ad-hockaarten of kaarten die zijn aangesloten op [!DNL Workfront] taken en uitgaven)
 * Werk voor een team organiseren en beheren op één locatie
 * Tegelplanningstools gebruiken, zoals een inlaatkolom voor Kanban-borden
 
-Voor informatie over het gebruik van de basisfuncties van borden raadpleegt u [Aan de slag met borden: artikelindex](../agile/get-started-with-boards/get-started-with-boards.md). Zie voor informatie over flexibele planningsgereedschappen in raden van bestuur [Overzicht van de gereedschappen voor mobiele planning](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Voor informatie over hoe te om de basiseigenschappen van Borden te gebruiken, zie [ begonnen met borden: artikelindex ](../agile/get-started-with-boards/get-started-with-boards.md). Voor informatie over agile planningshulpmiddelen in raden van bestuur, zie [ het overzicht van de de planningshulpmiddelen van de Gelijkheid ](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Voor informatie over het gebruiken van een raad op een project, zie [Een project beheren in de Google View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor informatie over het gebruiken van een raad op een project, zie [ een project in de Mening van de Gelijkheid beheren ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-U kunt ook borden openen in de mobiele app. Zie voor meer informatie [[!DNL Adobe Workfront] [!UICONTROL Boards] voor mobiel](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+U kunt ook borden openen in de mobiele app. Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md) voor meer informatie.
 
-Voor videoanalyses van plankeneigenschappen, zie [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstraties](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstraties ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md) voor een video-analyse van functies van borden.
 
-Voor meer informatie over extra gereedschappen in [!DNL Workfront], zie [Algemeen overzicht](../agile/agile-overview.md).
+Voor informatie over extra agile hulpmiddelen in [!DNL Workfront], zie [ het overzicht van de Gelijkheid ](../agile/agile-overview.md).

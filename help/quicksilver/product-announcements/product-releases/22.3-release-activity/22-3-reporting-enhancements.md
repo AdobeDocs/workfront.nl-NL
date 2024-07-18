@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Verbeterde rapportage
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 22.3 voor Voorvertoning. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.3 [22.3 Overzicht van de release](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 22.3 voor Voorvertoning. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Verwijdering en toevoeging van budgetteringsvelden voor bronnen in lijsten en rapporten
 
@@ -35,5 +35,5 @@ De volgende velden voor het budgetteren van bronnen zijn verwijderd uit lijsten 
 * begrote kosten
 
 
-Zie voor meer informatie [Begrijpte arbeidskosten en begrotingsuren voor projecten begrijpen](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Voor meer informatie, zie [ Begonnen de Kosten van de Arbeid en Begroeide Uren voor projecten ](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md) begrijpen.
 

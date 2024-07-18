@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Bèta-programma - Workfront + Frame.io
-description: We zijn erg blij dat we de start van ons bètaprogramma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
+title: Beta-programma - Workfront + Frame.io
+description: We zijn blij dat we de start van ons Beta-programma voor Workfront + Frame.io aankondigen. Hier vindt u informatie over de nieuwste release van Beta en een korte videodemo om u aan de slag te krijgen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# Bèta-programma - Workfront + Frame.io
+# Beta-programma - Workfront + Frame.io
 
 Welkom bij het bètaprogramma Workfront + Frame.io! Als onderdeel van deze bètaversie krijgt u vroegtijdig toegang tot onze geïntegreerde Workfront + Frame.io en kunt u uw feedback delen die uiteindelijk de definitieve ervaring zal bepalen die wij aan onze bredere klantenbasis aanbieden. Met deze integratie streven we ernaar een wrijvingsloze end-to-end workflow tussen Workfront en Frame.io te creëren met de focus op een ideale, uniforme oplossing voor revisie en goedkeuring.
 
-Hier vindt u informatie over de nieuwste bètaversie samen met een korte videoanalyse om u aan de slag te krijgen.
+Hier vindt u informatie over de nieuwste release van Beta en een korte videodemo om u aan de slag te krijgen.
 
 >[!IMPORTANT]
 >
 >Deze bètaversie is nu gesloten en we accepteren geen nieuwe deelnemers meer.
 
 
-## Mei 2024: bètarelease-updates in Workfront
+## Mei 2024: Beta-releaseupdates in Workfront
 
 Deze release van mei bevat de volgende mogelijkheden:  
 
@@ -48,7 +48,7 @@ Als deel van onze inspanningen om de projectsynchronisatie tussen Workfront en F
 U kunt de goedkeuringsstatus van elk bestand gemakkelijk rechtstreeks vanuit de documentlijst bijhouden. Klik met een eenvoudige klik op de algemene status en open een gedetailleerde uitsplitsing van alle deelnemers die betrokken zijn bij het goedkeuringsproces, samen met hun individuele status. Bovendien stroomlijnt u uw workflow door met één klik aan alle uitstekende fiatteurs te herinneren, zodat u tijdig kunt reageren en documenten efficiënt kunt beheren. 
 
 
-## Maart 2024: De updates van de Versie van Bèta in Frame.io
+## Maart 2024: Beta Release-updates in Frame.io
 
 +++ Uitbreiden om de in maart 2024 vrijgegeven functionaliteit te bekijken
 
@@ -62,15 +62,15 @@ De menu-items voor het toevoegen van een element aan Workfront zijn bijgewerkt, 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Maart 2024: bètarelease-updates in Workfront
+## Maart 2024: Beta Release-updates in Workfront
 
-In deze bètaversie hebben we:
+In deze Beta-release hebben we:
 
 ### Een deadline toevoegen aan documentrevisies en -goedkeuringen
 
 U kunt nu een deadline opgeven voor gebruikers of teams die zijn toegewezen om een document te bekijken of goed te keuren. Revisoren en fiatteurs ontvangen 72 uur en vervolgens 24 uur voor de opgegeven deadline e-mailmeldingen. De deadline wordt ook weerspiegeld in de widget Goedkeuringen in het nieuwe gebied Home.
 
-Zie voor meer informatie [Een documentrevisie of goedkeuringsaanvraag maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Voor meer informatie, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 ### Goedkeuringssjablonen maken en gebruiken
 
@@ -81,7 +81,7 @@ U kunt goedkeuringssjablonen nu maken in het gedeelte Instellen om het beoordeli
 
 U kunt goedkeuringssjablonen toepassen vanuit het gebied Documenten wanneer u een goedkeuringsproces maakt voor een document.
 
-Zie voor meer informatie [Een goedkeuringssjabloon maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Voor meer informatie, zie [ een Malplaatje van de Goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 ### Informatie over al uw goedkeuringen tegelijk weergeven
 
@@ -94,7 +94,7 @@ Om u te helpen uw goedkeuringsverzoeken in een oogopslag beheren en analyseren, 
 
 U kunt de bovenstaande categorieën uitnemen voor een gedetailleerdere weergave. De widget Alle goedkeuringen is beschikbaar in de nieuwe dashboards van het Huis en van het Canvas.
 
-Zie voor meer informatie [Aan de slag met nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Voor meer informatie, zie [ begonnen worden met nieuw Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### De revisie en goedkeuringen vergrendelen zodra een algemene beslissing is genomen
 
@@ -112,11 +112,11 @@ Wanneer een nieuwe documentversie wordt geüpload, kan de volgende revisieronde 
 
 Met deze integratie willen we creatieve mensen in staat stellen om in hun keuze (CC of Frame.io) te blijven voor het maken van inhoud en collegiale toetsingen, terwijl we tegelijkertijd projectmanagers hebben die het werk coördineren en het formele evaluatieproces vanuit Workfront initialiseren en controleren. Dit kan worden bereikt door de beste van beide oplossingen te gebruiken: Workfront-goedkeuringen voor nieuwe documenten voor het beheer van goedkeuringen van inhoud, in combinatie met de mogelijkheden voor inhoudsrevisie die Frame.io biedt. De nieuwe goedkeuringen voor documenten en Frame.io vormen samen onze nieuwe complete ervaring voor het beoordelen en goedkeuren van inhoud. 
 
-Om u toe te staan om de nieuwe eigenschappen van het bètaprogramma gemakkelijk te testen, hebben wij een nieuwe testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io testing` in uw bestaande Workfront Preview- of Sandbox-omgeving.
+Om u toe te staan om de nieuwe eigenschappen van het bètaprogramma gemakkelijk te testen, hebben wij een nieuwe testrekening Frame.io gecreeerd en het verbonden met een nieuwe groep genoemd `Frame.io testing` in uw bestaande Voorproef Workfront of het milieu van Sandbox.
 
 ### Gedetailleerde testinstructies
 
-Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Hier kunt u een handleiding voor dit gedetailleerde testscenario downloaden: [WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer betrokken testscenario gecreeerd. Een gids voor dit gedetailleerde testscenario kan hier worden gedownload: [ WF + Frame.io Gedetailleerde Analyse van het Scenario van de Test ](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 
 
 ## Video demo
@@ -127,4 +127,4 @@ Voor deelnemers die extra functionaliteit willen testen, hebben wij een meer bet
 
 Wij waarderen uw input en geloven dat uw perspectief cruciaal is om ons te helpen het best mogelijke product tot stand te brengen.
 
-Aangezien u specifieke feedback hebt over wat uw bedrijf nodig heeft om deze oplossing in Productie te kunnen gebruiken, kunt u deze naar [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Aangezien u specifieke terugkoppelt op wat zou worden vereist opdat uw bedrijf deze oplossing in Productie goedkeurt, gelieve het naar [ etienneb@adobe.com ](mailto:etienneb@adobe.com) te verzenden.

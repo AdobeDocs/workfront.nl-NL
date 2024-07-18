@@ -23,12 +23,12 @@ U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren en an
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van de sectie Updates](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-* [Werk bijwerken](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-* [Tekenbeperkingen in velden](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
-* [Reageren op updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
-* [E-mailberichten beantwoorden](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [Alle updates in een notitierapport weergeven](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [ het sectieoverzicht van Updates ](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+* [ de grenzen van het Karakter op gebieden ](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+* [ Antwoord op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
+* [ Reageren op e-mailberichten ](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
+* [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [ Mening alle updates in een rapport van de Nota ](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Overzicht van de knop Aan de slag en Gereed](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 

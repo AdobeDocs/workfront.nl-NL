@@ -34,41 +34,41 @@ U moet het volgende hebben:
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Toegangsniveau*</strong> </td> 
+   <td role="rowheader"><strong> Toegangsniveau* </strong> </td> 
    <td> <p>Toegang bewerken tot:</p> 
     <ul> 
      <li> <p>Rapporten, dashboards en kalenders maken</p> </li> 
      <li> <p>Filters, weergaven en groepen maken</p> </li> 
-    </ul> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Het rapport voor proefdrukgoedkeuring gebruiken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
-1. Klikken **Nieuw rapport** en scrol vervolgens om te selecteren **Goedkeuring proefdrukken**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Rapporten**.
+1. Klik **Nieuw Rapport**, dan rol om **Goedkeuring van het Bewijs** te selecteren.
 
    ![](assets/proof-approval-report.png)
 
 1. (Optioneel) Voeg aanvullende velden toe.
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
 ## Aanvullende velden
 
 U kunt de volgende gebieden aan het rapport van de proefdrukgoedkeuring toevoegen:
 
-* **Datum besluit**: Geeft de datum weer waarop een fiatteur een beslissing neemt over een bewijs. U kunt deze datum ook vinden op de Samenvatting van de Druk van de proef.
-* **Navigatiegebied**: Hiermee geeft u de huidige werkgebiedinformatie weer.
-* **Workflowsjabloon**: Hier worden workflowsjablonen weergegeven die aan de proefdruk zijn gekoppeld. Als er geen malplaatje in bijlage is, is de kolom leeg.
-* **Nog niet beslist**: De vertoningen waar om op een besluit te wijzen is niet voldaan aan op de recentste versie wanneer het volgende waar is:
+* **Datum van het Besluit**: Toont de datum een fiatteur een besluit over een bewijs neemt. U kunt deze datum ook vinden op de Samenvatting van de Druk van de proef.
+* **Approver Stadium**: Toont de huidige werkgebiedinformatie.
+* **Malplaatje van het Werkschema**: Toont om het even welke werkschemamalplaatjes in bijlage aan de proef. Als er geen malplaatje in bijlage is, is de kolom leeg.
+* **wachtend besluit**: De vertoningen waar om een besluit te signaleren zijn niet voldaan aan op de recentste versie wanneer het volgende waar is:
 
    * De proefdruk is niet gearchiveerd
    * Het werkgebied waarin de fiatteur actief is
    * Het bewijs is in afwachting van goedkeuring
 
-* **Proeftijdslimiet**: Geeft de deadline van de proefdruk weer. Aan elk stadium moet een deadline zijn toegewezen, anders wordt dit veld niet gevuld. In het veld wordt de deadline voor het laatst geactiveerde werkgebied weergegeven.
+* **deadline van het Bewijs**: Toont de deadline van de proef. Aan elk stadium moet een deadline zijn toegewezen, anders wordt dit veld niet gevuld. In het veld wordt de deadline voor het laatst geactiveerde werkgebied weergegeven.
 
  

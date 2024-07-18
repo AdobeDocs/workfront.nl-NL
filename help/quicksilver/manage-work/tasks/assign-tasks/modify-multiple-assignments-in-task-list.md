@@ -24,9 +24,9 @@ Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige taken tegelijkert
 
 In dit artikel wordt verwezen naar het wijzigen van meerdere gebruikerstoewijzingen voor meerdere taken in een takenlijst. Zie ook de volgende artikelen voor het wijzigen van toewijzingen voor meerdere taken op andere gebieden:
 
-* Voor informatie over het toewijzen van taken met behulp van Workload Balancer raadpleegt u [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [Taken toewijzen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
 ## Toegangsvereisten
 
@@ -46,16 +46,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en taken bewerken</p> <p>Toegang tot gebruikers weergeven of vergroten</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten en taken bewerken</p> <p>Toegang tot gebruikers weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hoger machtigingen voor taken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute- of hogere machtigingen voor taken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -92,39 +92,39 @@ When assigning users to work, their availability according to their schedules af
 
    Bijvoorbeeld, als uw project een specifieke rol als standaardontvanger voor veelvoudige taken bevat, kunt u een filter tot stand brengen om slechts taken met die rol als toegewezen te tonen. Vervolgens kunt u de rol vervangen door een specifieke gebruiker.
 
-   Voor informatie over het maken van een filter raadpleegt u [Filters maken of bewerken](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Voor informatie over het creëren van een filter, zie [ filters ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 
-1. Als u op een rol wilt filteren, selecteert u **Toewijzingsrollen** en klik vervolgens op **ID**.
+1. Om op een rol te filtreren, uitgezochte **Rollen van de Taak**, dan klik **identiteitskaart**.
 
    >[!TIP]
    >
-   >Gebruik de **Toegewezen aan** veld. Dit vindt slechts de Primaire Eigenaar voor de taak in plaats van om het even welke rollen die aan hen konden worden toegewezen.
+   >Gebruik niet **Toegewezen aan** gebied. Dit vindt slechts de Primaire Eigenaar voor de taak in plaats van om het even welke rollen die aan hen konden worden toegewezen.
 
    of
 
-   Als u voor een gebruiker wilt filteren, selecteert u **gebruikers van de toewijzing,** klik vervolgens op **ID.**
+   Om voor een gebruiker te filtreren, uitgezochte **Gebruikers van de Taak,** dan klik **identiteitskaart.**
 
    >[!TIP]
    >
-   >Gebruik de **Toegewezen aan** veld. Hiermee vindt u alleen de primaire eigenaar voor de taak in plaats van de gebruikers die aan hen kunnen worden toegewezen.
+   >Gebruik niet **Toegewezen aan** gebied. Hiermee vindt u alleen de primaire eigenaar voor de taak in plaats van de gebruikers die aan hen kunnen worden toegewezen.
 
-1. Selecteer de taken waarvoor u toewijzingen wilt wijzigen en klik op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
+1. Selecteer de taken waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
 
    De pagina Taken bewerken wordt weergegeven. De items die u bewerkt, worden in de linkerbovenhoek van de pagina weergegeven.
 
-1. Ga naar de **Toewijzingen** sectie.
+1. Ga naar de **sectie van Taken**.
 1. Voer een van de volgende handelingen uit om toewijzingen toe te voegen of te verwijderen:
 
    >[!IMPORTANT]
    >
-   >Het verwijderen van toewijzingen kan van invloed zijn op de taakuren en toewijzingspercentages. Zie de sectie voor meer informatie [Hoe het verwijderen van toegewezen beïnvloedt taakuren en toewijzingspercentages](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in dit artikel.
+   >Het verwijderen van toewijzingen kan van invloed zijn op de taakuren en toewijzingspercentages. Voor meer informatie, zie de sectie [ hoe het verwijderen van toegewezen taakuren en toewijzingspercentages ](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in dit artikel beïnvloedt.
 
    * Een nieuwe ontvanger toevoegen:
 
-      1. In de **Toewijzingen** sectie, selecteert u **Geadresseerde**.
+      1. In de **sectie van Taken**, uitgezochte **Ontvanger**.
 
-         Informatie die algemeen is voor alle geselecteerde taken, wordt weergegeven. Als bijvoorbeeld dezelfde gebruiker aan alle taken is toegewezen, wordt die gebruiker in het dialoogvenster **Geadresseerde** kolom. Als de informatie niet over de geselecteerde taken gemeenschappelijk is, wordt geen informatie weergegeven.
+         Informatie die algemeen is voor alle geselecteerde taken, wordt weergegeven. Bijvoorbeeld, als de zelfde gebruiker aan alle taken wordt toegewezen, toont die gebruiker in de **Assignee** kolom. Als de informatie niet over de geselecteerde taken gemeenschappelijk is, wordt geen informatie weergegeven.
 
       1. Begin de naam van een gebruiker, een rol, of een team te typen, dan het te selecteren wanneer het in de lijst toont. De toewijzing wordt toegevoegd en vervangt niet de huidige toewijzingen voor de geselecteerde taken.
 
@@ -133,7 +133,7 @@ When assigning users to work, their availability according to their schedules af
      >
      > * U kunt meerdere gebruikers, taakrollen of teams toewijzen. U kunt alleen actieve gebruikers, taakrollen en teams toewijzen.
      >   
-     > * Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     > * Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      > 
      >   Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
      >   
@@ -143,34 +143,34 @@ When assigning users to work, their availability according to their schedules af
 
    * Afzonderlijke toewijzingen verwijderen:
 
-      1. Klik op de knop **X-pictogram** naast de naam van de toegewezen persoon die u wilt verwijderen als de toegewezen persoon wordt weergegeven in de lijst Toewijzingen.
+      1. Klik het **pictogram van X** naast de naam van de ontvanger die u wilt verwijderen als de bestemmingsvertoningen in de lijst van Taken.
 
          of
 
-         (Voorwaardelijk) Als de toegewezen persoon die u wilt verwijderen niet in de sectie Toewijzingen wordt weergegeven omdat de toegewezen persoon aan slechts enkele van de geselecteerde taken is toegewezen, klikt u op **Toegewezen verwijderen** en typ de naam van de toegewezen persoon die u wilt verwijderen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+         (Voorwaardelijk) als de ontvanger die u wilt verwijderen niet in de sectie van Taken toont omdat de ontvanger aan slechts enkele taken wordt toegewezen die u hebt geselecteerd, **verwijdert Ontvanger** en begint de naam van de ontvanger te typen die u wilt verwijderen, dan klikken de naam wanneer het in de drop-down lijst verschijnt.
 
    * Alle bestaande toewijzingen verwijderen:
 
-      1. Klikken **Alle bestaande toewijzingen verwijderen** en klik vervolgens op **Ja, alle toewijzingen verwijderen**.
+      1. Klik **verwijderen Alle Bestaande Toewijzers**, dan klik **ja, schrap Alle Toewijzers**.
 
          Hierdoor worden niet alleen algemene toewijzingen (toewijzingen die in het dialoogvenster Bewerken worden weergegeven), maar ook alle toewijzingen voor alle geselecteerde taken verwijderd.
 
      Het verwijderen van gebruikers uit taken kan taakuren en toewijzingspercentages beïnvloeden.
 
-     Zie voor meer informatie [Overzicht van het wijzigen van taaktaken](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+     Voor meer informatie, zie [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 1. (Optioneel) Wijzig een of meer van de volgende opties voor toewijzingen:
 
-   * (Voorwaardelijk) **Toewijzing % of uren**: Geef een nieuw toewijzingspercentage of nieuwe uren op.
+   * (Voorwaardelijk) **toewijzing % of Uren**: specificeer een nieuw toewijzingspercentage of uren.
 
      >[!NOTE]
      >
-     >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+     >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
      >
      >
-     Als het veld leeg is, betekent dit dat de waarde verschillend is voor alle taken. u kunt deze echter nog wijzigen .
+     >Als het veld leeg is, betekent dit dat de waarde voor alle taken anders is. U kunt de waarde echter wel wijzigen.
 
-   * **Taakeigenaar**: Selecteer deze optie als u de toegewezen eigenaar van de taak wilt maken voor alle taken die worden bewerkt.
-   * **Rol van de gemachtigde**: Selecteer een rol in de vervolgkeuzelijst. Als deze optie niet is geselecteerd, selecteert Adobe Workfront automatisch de primaire rol van de gebruiker.
+   * **Eigenaar van de Taak**: Selecteer deze optie om de toegewezen eigenaar van de taak voor alle taken te maken die worden uitgegeven.
+   * **Rol van de Ontvanger**: Selecteer een rol van de drop-down lijst. Als deze optie niet is geselecteerd, selecteert Adobe Workfront automatisch de primaire rol van de gebruiker.
 
-1. Klikken **Wijzigingen opslaan.**
+1. Klik **sparen Veranderingen.**

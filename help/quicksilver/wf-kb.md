@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Workfront-kennisbasis
 
-* [Beheer en installatie](administration-and-setup/administration-and-setup.md)
-* [Basisbegrippen voor Adobe Workfront](workfront-basics/workfront-basics.md)
-* [Personen, teams en groepen](people-teams-and-groups/people-teams-and-groups.md)
-* [Bronnen beheren](resource-mgmt/manage-resources.md)
-* [Agile](agile/agile.md)
-* [Werk beheren](manage-work/manage-work.md)
-* [Werk beoordelen en goedkeuren](review-and-approve-work/review-and-approve-work.md)
-* [Documenten](documents/documents-overview.md)
+* [ Beleid en opstelling ](administration-and-setup/administration-and-setup.md)
+* [ de grondbeginselen van Adobe Workfront ](workfront-basics/workfront-basics.md)
+* [ Mensen, teams, en groepen ](people-teams-and-groups/people-teams-and-groups.md)
+* [ beheer middelen ](resource-mgmt/manage-resources.md)
+* [ Gelijk ](agile/agile.md)
+* [ leiden het werk ](manage-work/manage-work.md)
+* [ Overzicht en keurt het werk ](review-and-approve-work/review-and-approve-work.md) goed
+* [ Documenten ](documents/documents-overview.md)
 * [Rapportage](reports-and-dashboards/reports-and-dashboards-overview.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [Timesheets: artikelindex](timesheets/timesheets-all.md)
-* [Adobe Workfront-integratie](workfront-integrations-and-apps/workfront-integrations.md)
+* [ Tijdopnamen: artikelindex ](timesheets/timesheets-all.md)
+* [ de integraties van Adobe Workfront ](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
-* [Workfront Proof](workfront-proof/workfront-proof.md)
+* [ Workfront Proof ](workfront-proof/workfront-proof.md)
 * [Productaankondigingen](product-announcements/product-announcements.md)
 
 .

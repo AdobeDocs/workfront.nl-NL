@@ -25,7 +25,7 @@ in January 2022
 
 4 april 2022.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 22.2 [22.2 Overzicht van de release](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbeteringen aan filters in de Lijst van het Werk van het Huis
 
@@ -33,5 +33,5 @@ Om meer controle en nadruk over uw het werklijst te geven, hebben wij verscheide
 
 Voorafgaand aan deze ervaring boden de filters in het gebied Home geen nauwkeurige telling van het aantal het werkpunten in de lijst wanneer u één of meerdere filters selecteerde en zij leidden tot verwarring over de staat van de het werkpunten.
 
-Zie voor meer informatie [Items weergeven in de werklijst in het gebied Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Voor meer informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 

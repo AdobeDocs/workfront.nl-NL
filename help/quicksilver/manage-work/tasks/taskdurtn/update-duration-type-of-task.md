@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Werk het Type van Duur van een taak bij
 
-Het Type van Duur van een taak identificeert het verband tussen het aantal middelen die aan een taak, de totale inspanning, en de totale Duur van de taak worden toegewezen. Zie voor meer informatie [Overzicht van het Type van Duur en van de Duur van de Taak](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Het Type van Duur van een taak identificeert het verband tussen het aantal middelen die aan een taak, de totale inspanning, en de totale Duur van de taak worden toegewezen. Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Toegangsvereisten
 
@@ -35,29 +35,29 @@ U moet het volgende hebben om het Type van Duur van een taak te veranderen:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Toegang tot taken bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toegang tot de taak beheren </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toegang tot de taak beheren </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Werk het Type van Duur van een taak bij
 
 Naast het bijwerken van het Type van Duur van een taak zoals die in dit artikel wordt beschreven, kunt u het Type van Duur ook bijwerken wanneer het uitgeven van een taak of wanneer het maken van geavanceerde taken. Zie voor meer informatie:
 
-* [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+* [ geef taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
 * [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 U kunt als volgt het type duur van een taak bijwerken:
 
-1. Klikken **Hoofdmenu** > **Projecten** klikt u vervolgens op een project om het te openen.
-1. Klik op de knop **Taken** in het linkerdeelvenster.
-1. Klikken **Taakdetails** in het linkerpaneel, dan in het gebied van het Overzicht klikt **Duur**.
+1. Klik **HoofdMenu** > **Projecten**, dan klik een project om tot het toegang te hebben.
+1. Klik de **sectie van Taken** in het linkerpaneel.
+1. Klik **Details van de Taak** in het linkerpaneel, dan in het gebied van het Overzicht klikt **Type van Duur**.
 
    ![](assets/duration-type-all-options-on-overview-350x155.png)
 
@@ -65,9 +65,9 @@ U kunt als volgt het type duur van een taak bijwerken:
 
    | Duur | Meer informatie |
    |---|---|
-   | Berekend werk | Zie voor meer informatie [Overzicht van het type duur: Berekend werk](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
-   | Inzet gedreven | Zie voor meer informatie [Overzicht van het type duur: Inzet gedreven](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
-   | Berekende toewijzing | Zie voor meer informatie [Overzicht van het type duur: Berekende toewijzing](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
-   | Eenvoudig | Zie voor meer informatie [Overzicht van het type duur: Eenvoudig](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
+   | Berekend werk | Voor informatie, zie [ overzicht van het Type van Duur: Berekend Werk ](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Inzet gedreven | Voor informatie, zie [ overzicht van het Type van Duur: Gedreven inspanning ](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
+   | Berekende toewijzing | Voor informatie, zie [ overzicht van het Type van Duur: Berekende Toewijzing ](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
+   | eenvoudig | Voor informatie, zie [ overzicht van het Type van Duur: Eenvoudig ](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.

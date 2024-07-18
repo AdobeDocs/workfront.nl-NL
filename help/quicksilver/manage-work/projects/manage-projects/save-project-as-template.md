@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Een project opslaan als een sjabloon
-description: Sparen een project als templateSave als malplaatje"op het projectniveau, zodat zien de gebruikers dat in UI; er is nog een ander artikel dat deze link naar voren brengt en dat verder gaat (stap voor stap). Deze functionaliteit moet in zowel projecten als malplaatjegebieden blijven.)"
+description: Sparen een project als templateSave als malplaatje"op het projectniveau, zodat zien de gebruikers dat in UI; er is een ander artikel dat dit verbindingen aan die diepgaander (geleidelijke) is. Deze functionaliteit moet in zowel projecten als malplaatjegebieden blijven.)"
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -71,21 +71,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot sjablonen bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger aan een project </p> <p>U krijgt de machtiging Beheren voor de sjabloon nadat u het project als sjabloon hebt opgeslagen</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger aan een project </p> <p>U krijgt de machtiging Beheren voor de sjabloon nadat u het project als een sjabloon hebt opgeslagen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een project opslaan als een sjabloon
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik op de knop **Meer** menu ![](assets/qs-more-icon-on-an-object.png)vervolgens **Opslaan als sjabloon**.
+1. Klik **Meer** menu ![](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
 1. Geef de volgende informatie voor de sjabloon op:
 
    <table style="table-layout:auto"> 
@@ -104,31 +104,31 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
       <td role="rowheader">Is actief</td> 
       <td> <p>Selecteer een van de volgende opties:</p> 
        <ul> 
-        <li> <p><strong>Ja</strong>: Andere gebruikers kunnen het malplaatje vinden en het aan projecten vastmaken.</p> </li> 
-        <li><strong>Nee</strong>: Andere gebruikers kunnen de sjabloon niet vinden en kunnen deze niet aan projecten koppelen.</li> 
+        <li> <p><strong> ja </strong>: Andere gebruikers kunnen het malplaatje vinden en het aan projecten vastmaken.</p> </li> 
+        <li><strong> Nr </strong>: Andere gebruikers kunnen niet het malplaatje vinden en kunnen het niet aan projecten vastmaken.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste Forms</td> 
-      <td>Gebruik de vervolgkeuzelijst om aangepaste formulieren te selecteren die u aan de sjabloon wilt koppelen. Als er al aangepaste formulieren aan het project zijn gekoppeld, worden alle gegevensvelden van die aangepaste formulieren weergegeven.<br>U kunt maximaal 10 aangepaste formulieren in één sjabloon opnemen.</td> 
+      <td>Gebruik de vervolgkeuzelijst om aangepaste formulieren te selecteren die u aan de sjabloon wilt koppelen. Als er al aangepaste formulieren aan het project zijn gekoppeld, worden alle gegevensvelden van die aangepaste formulieren weergegeven.<br> u kunt tot 10 douaneformulieren op één enkel malplaatje omvatten.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Forms beheren** om de formulieren te verwijderen of opnieuw te ordenen. Voor informatie over het verwijderen en opnieuw ordenen van aangepaste formulieren op de sjabloon raadpleegt u [Aangepaste formulieren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klik **leiden Forms** om de vormen te verwijderen of opnieuw in orde te brengen. Voor informatie over hoe te om douaneformulieren op het malplaatje te verwijderen en opnieuw in orde te brengen, zie [ de vormen van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Klikken **Volgende stap.**
-1. In de **Opties** selecteert u het selectievakje naast de gegevens die u uit de sjabloon wilt wissen.
+1. Klik **Volgende Stap.**
+1. In de **sectie van Opties**, selecteer checkbox naast om het even welke informatie u van het malplaatje wilt ontruimen.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Klikken **Volgende stap.**
-1. In de **Uitsluiten** selecteert u de taken die u van het project wilt uitsluiten.
+1. Klik **Volgende Stap.**
+1. In de **uitsluiten** sectie, selecteer om het even welke taken die u van het project wilt uitsluiten.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klikken **Sjabloon voltooien en opslaan.**
+1. Klik **Einde en sparen Malplaatje.**
 
    Uw sjabloon wordt nu weergegeven in de lijst met beschikbare sjablonen en kan worden gekoppeld aan een bestaand project of worden gebruikt om een nieuw project te maken.

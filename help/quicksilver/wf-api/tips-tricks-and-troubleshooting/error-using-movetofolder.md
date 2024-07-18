@@ -6,19 +6,19 @@ description: Als u de handeling Document moveToFolder gebruikt, wordt een fout v
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # Handeling moveToFolder van document werkt niet
 
 ## Probleem
 
-Wanneer u de objecten Document gebruikt `moveToFolder` handeling, er wordt een fout van 422 geretourneerd.
+Wanneer u de handeling `moveToFolder` van het object Document gebruikt, wordt een fout van 422 geretourneerd.
 
 of
 

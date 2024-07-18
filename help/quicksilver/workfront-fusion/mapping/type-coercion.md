@@ -4,18 +4,18 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Typedruk in Adobe Workfront Fusion
-description: In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich in situaties wanneer het waarden in verwachte en onverwachte gegevensformaten ontvangt.
+description: Dit document beschrijft hoe  [!DNL Adobe Workfront Fusion]  zich in situaties gedraagt wanneer het waarden in verwachte en onverwachte gegevensformaten ontvangt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
-# Afgedwongen typegebruik in [!DNL Adobe Workfront Fusion]
+# Type afgedwongen omzetting in [!DNL Adobe Workfront Fusion]
 
 ## Toegangsvereisten
 
@@ -36,29 +36,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ### Afgedwongen typegebruik
 
-In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich in situaties wanneer het waarden in verwachte en onverwachte gegevensformaten ontvangt.
+In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] zich gedraagt in situaties waarin waarden worden ontvangen in verwachte en onverwachte gegevensindelingen.
 
 <table style="table-layout:auto">
  <col> 
@@ -80,7 +80,7 @@ In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich
   <tr> 
    <td>array </td> 
    <td>overige </td> 
-   <td> <p>Als de ontvangen waarde niet van het matrixtype is, [!DNL Workfront Fusion] wordt een array gemaakt en de ontvangen waarde wordt het eerste (en enige) element.</p> </td> 
+   <td> <p>Als de ontvangen waarde niet van het arraytype is, maakt [!DNL Workfront Fusion] een array en is het eerste (en enige) element de ontvangen waarde.</p> </td> 
   </tr> 
   <tr> 
    <td>boolean </td> 
@@ -105,7 +105,7 @@ In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich
   <tr> 
    <td>buffer </td> 
    <td>buffer </td> 
-   <td> <p>De waarde wordt alleen ongewijzigd overgedragen als de codepage naar verwachting is. Indien de codepagina afwijkt, [!DNL Workfront Fusion] zal proberen om de ontvangen waarde in de gevraagde codepage om te zetten. Als deze conversie niet wordt ondersteund, [!DNL Workfront Fusion] retourneert een validatiefout.</p> </td> 
+   <td> <p>De waarde wordt alleen ongewijzigd overgedragen als de codepage naar verwachting is. Als de codepage anders is, probeert [!DNL Workfront Fusion] de ontvangen waarde om te zetten in de gewenste codepage. Als deze conversie niet wordt ondersteund, retourneert [!DNL Workfront Fusion] een validatiefout.</p> </td> 
   </tr> 
   <tr> 
    <td>buffer </td> 
@@ -180,7 +180,7 @@ In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich
   <tr> 
    <td>text </td> 
    <td>array </td> 
-   <td> <p>Als de opgegeven array conversie naar tekst ondersteunt, wordt de waarde omgezet. Zo niet, [!DNL Workfront Fusion] retourneert een validatiefout.</p> </td> 
+   <td> <p>Als de opgegeven array conversie naar tekst ondersteunt, wordt de waarde omgezet. Als dat niet het geval is, retourneert [!DNL Workfront Fusion] een validatiefout.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -190,7 +190,7 @@ In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich
   <tr> 
    <td>text </td> 
    <td>buffer </td> 
-   <td> <p>Als tekstcodering is opgegeven voor binaire gegevens, wordt de waarde omgezet in tekst. Zo niet, [!DNL Workfront Fusion] retourneert een validatiefout.</p> </td> 
+   <td> <p>Als tekstcodering is opgegeven voor binaire gegevens, wordt de waarde omgezet in tekst. Als dat niet het geval is, retourneert [!DNL Workfront Fusion] een validatiefout.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -200,7 +200,7 @@ In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich
   <tr> 
    <td>text </td> 
    <td>getal </td> 
-   <td> <p>De waarde wordt geconverteerd naar tekst.</p> </td> 
+   <td> <p>De waarde wordt omgezet in tekst.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -215,7 +215,7 @@ In dit document wordt beschreven hoe [!DNL Adobe Workfront Fusion] gedraagt zich
   <tr> 
    <td>tijd </td> 
    <td>text </td> 
-   <td> <p>[!DNL Workfront Fusion] zal proberen tijd in de uren om te zetten:minutes:secondenformaat. Als de conversie mislukt, wordt een validatiefout geretourneerd.</p> </td> 
+   <td> <p>[!DNL Workfront Fusion] zal proberen om tijd in het formaat van uren :minutes: seconden om te zetten. Als de conversie mislukt, wordt een validatiefout geretourneerd.</p> </td> 
   </tr> 
   <tr> 
    <td>tijd </td> 

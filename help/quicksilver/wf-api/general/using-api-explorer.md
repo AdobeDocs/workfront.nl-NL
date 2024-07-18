@@ -9,7 +9,7 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Wanneer u de Adobe Workfront Core API gebruikt, is de API Explorer een verouderd
 
 ## Open de API Explorer:
 
-1. Met een webbrowser naar de [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
+1. Gebruik Webbrowser om aan de [ API Ontdekkingsreiziger ](https://developer.adobe.com/workfront/api-explorer/) te navigeren\
    ![](assets/mceclip1-350x149.png)
 
-1. Selecteer in de rechterbovenhoek van de API Explorer de gewensteWorkfront **API-versie** Standaard wordt de meest actuele versie automatisch geselecteerd
-1. De **Filter** veld, kan worden gebruikt om de objecten te filteren die op naam worden vermeld en wordt de lijst met objecten die op basis van naam worden weergegeven, afgekapt:
+1. In het hogere recht van de API Ontdekkingsreiziger, selecteer de gewensteWorkfront **API Versie**, door gebrek wordt de huidigste versie automatisch geselecteerd
+1. Het **gebied van de Filter**, kan worden gebruikt om de voorwerpen te filtreren die door naam worden vermeld en zal de lijst van dienovereenkomstig getoonde voorwerpen beknotten:
 
    ![](assets/mceclip2-350x147.png)
 
-   * **Velden**: Beschikbare velden binnen het opgegeven object.
-   * **Verwijzingen**: Beschikbare referentievariabelen voor het opgegeven object. Een verwijzing is een alias voor een variabele. Na initialisatie kan een verwijzing worden gebruikt met de variabelenaam. Een verwijzing gebruikt geïnitialiseerd geheugen.
-   * **Verzamelingen**: Beschikbare verzamelingen voor het object. Verzamelingen zijn variabelen die een een-op-een relatie tussen het object en de bron vertegenwoordigen.
-   * **Zoeken**: Beschikbare zoekbronnen voor het object. De resultaten van een onderzoek zijn gebaseerd op de vraagparameters die door het onderzoeksmiddel in het API verzoek worden gespecificeerd.
-   * **Handelingen**: Ondersteunde acties voor het object. Handelingen kunnen eenvoudige of complexe procedures zijn die worden uitgevoerd met behulp van een bron of een reeks bronnen. Een bepaalde actie kan ook gevolgen hebben voor de bijbehorende middelen.
+   * **Gebieden**: Beschikbare gebieden binnen het gespecificeerde voorwerp.
+   * **Verwijzingen**: Beschikbare verwijzingsvariabelen voor het gespecificeerde voorwerp. Een verwijzing is een alias voor een variabele. Na initialisatie kan een verwijzing worden gebruikt met de variabelenaam. Een verwijzing gebruikt geïnitialiseerd geheugen.
+   * **Inzamelingen**: Beschikbare inzamelingen voor het voorwerp. Verzamelingen zijn variabelen die een een-op-een relatie tussen het object en de bron vertegenwoordigen.
+   * **Onderzoek**: Beschikbare onderzoeksmiddelen voor het voorwerp. De resultaten van een onderzoek zijn gebaseerd op de vraagparameters die door het onderzoeksmiddel in het API verzoek worden gespecificeerd.
+   * **Acties**: De gesteunde acties voor het voorwerp. Handelingen kunnen eenvoudige of complexe procedures zijn die worden uitgevoerd met behulp van een bron of een reeks bronnen. Een bepaalde actie kan ook gevolgen hebben voor de bijbehorende middelen.
 
 1. Open een tabblad en klik vervolgens op Object-id om de toepasselijke variabelen weer te geven.\
    ![](assets/approval-350x89.png)\

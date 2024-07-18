@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Organisatiefuncties in [!DNL Adobe Workfront Fusion]
-description: Dit artikel bevat informatie over de toegang tot en machtigingen voor de rollen in [!DNL Adobe] Workfront Fusion.
+title: Organisatierollen in  [!DNL Adobe Workfront Fusion]
+description: Dit artikel omvat informatie over de toegang en de toestemmingen van de rollen in  [!DNL Adobe]  de Fusie van Workfront.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Organisatie- en teamrollen in [!DNL Adobe Workfront Fusion]
 
-Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de verschillende team en organisatierollen in [!DNL Workfront Fusion].
+In dit artikel worden de toegang en functionaliteit beschreven die beschikbaar zijn voor de verschillende teams- en organisatiefuncties in [!DNL Workfront Fusion] .
 
 >[!NOTE]
 >
->Organisatierollen zijn gescheiden van teamrollen in [!DNL Workfront Fusion]. Voor meer informatie over organisatie en teamrollen, zie [Organisaties en teams](../organizations/organizations-and-teams.md).
+>Organisatierollen zijn gescheiden van teamrollen in [!DNL Workfront Fusion] . Voor meer informatie over organisatie en teamrollen, zie [ Organisaties en teams ](../organizations/organizations-and-teams.md).
 
 ## Toegangsvereisten
 
@@ -42,32 +42,32 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> 
-     <p>U moet een [!DNL Workfront Fusion] beheerder van uw organisatie.</p>
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team.</p>
+     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw organisatie zijn.</p>
+     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team zijn.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Organisatiefuncties
 

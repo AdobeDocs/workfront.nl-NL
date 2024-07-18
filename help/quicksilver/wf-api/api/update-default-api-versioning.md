@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Integraties die geen versie van de API in de URI opgeven, worden automatisch naa
 >
 >Als uw organisatie momenteel de standaard-API gebruikt, heeft uw Workfront-beheerder een bericht van het Aankondigingscentrum ontvangen met verdere instructies betreffende de standaard-API.
 
-Ga voor meer informatie over het opgeven van een versie in uw API-aanvragen naar [Geef een API-versie op in uw integratie](../../wf-api/api/specify-api-version-integrations.md).
+Om over het specificeren van een versie in uw API verzoeken te leren, zie [ een API Versie in uw integraties ](../../wf-api/api/specify-api-version-integrations.md) specificeren.
 
 ## Overwegingen bij het gebruik van de standaard-API
 
 Houd rekening met het volgende wanneer u werkt met de standaard-API van Workfront:
 
-* De standaardversie van de API is de meest recente versie. Voor elke API-aanroep zonder de opgegeven versie wordt de standaardversie gebruikt. Elke keer dat Workfront een nieuwe versie van de API loslaat, wordt de standaardversie bijgewerkt naar de nieuwste versie. **Daarom moeten, nadat een nieuwe versie van de Workfront API is uitgebracht, alle API-aanroepen die de standaardversie gebruiken, worden gecontroleerd om ervoor te zorgen dat de functionaliteit nog steeds wordt ondersteund**.
+* De standaardversie van de API is de meest recente versie. Voor elke API-aanroep zonder de opgegeven versie wordt de standaardversie gebruikt. Elke keer dat Workfront een nieuwe versie van de API loslaat, wordt de standaardversie bijgewerkt naar de nieuwste versie. **daarom, nadat een nieuwe versie van Workfront API wordt vrijgegeven, om het even welke API vraag die de standaardversie gebruikt zou moeten worden gecontroleerd om ervoor te zorgen dat de functionaliteit nog wordt gesteund**.
 * Als uw organisatie momenteel de eerder vervangen Standaard API gebruikt, heeft uw beheerder van Workfront een bericht van het Aankondigingscentrum met verdere instructies betreffende Standaard API ontvangen.
 
-Ga voor de meest recente versie van de API naar [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
+Om de meest recente versie van API te zien, zie [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md).
 
 ## Uw integratie bijwerken naar ondersteunde API-versies
 
@@ -49,9 +49,9 @@ Als u een standaard-API-aanvraag wilt omzetten in een versie-API-aanvraag, roept
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-Wanneer u uw Workfront API-aanvragen bijwerkt, kunt u elke ondersteunde versie van onze API opgeven. Zie voor meer informatie over het verwijzen naar een specifieke API [Geef een API-versie op in uw integratie](../../wf-api/api/specify-api-version-integrations.md).
+Wanneer u uw Workfront API-aanvragen bijwerkt, kunt u elke ondersteunde versie van onze API opgeven. Meer leren over het van verwijzingen voorzien van specifieke API, zie [ een API Versie in uw integraties ](../../wf-api/api/specify-api-version-integrations.md) specificeren.
 
-Als u het maximale ondersteuningsvenster wilt weergeven, roept u de nieuwste versie aan. U vindt een lijst met ondersteunde API&#39;s in [API-versieschema en ondersteuningsschema](../../wf-api/api/api-version-support-schedule.md).
+Als u het maximale ondersteuningsvenster wilt weergeven, roept u de nieuwste versie aan. U kunt een lijst van gesteunde APIs in [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md) vinden.
 
 ## Historie van de standaardversie van de API
 

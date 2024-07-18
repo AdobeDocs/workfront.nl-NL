@@ -26,13 +26,13 @@ Dit artikel documenteert sommige beste praktijken die wij adviseren wanneer het 
 
 De planningsmodule van Workfront is één van drie verschillende maar aangesloten mogelijkheden van Workfront die samen een marketing systeem van verslag creëren. De drie mogelijkheden zijn:
 
-* **Planning**: De nieuwe geavanceerde mogelijkheden die zijn opgenomen in de Workfront-planning.
+* **Planning**: De nieuwe geavanceerde mogelijkheden inbegrepen in de Planning van Workfront.
 
-* **Workflow**: De samenwerkingsmogelijkheden voor werkbeheer die u vandaag in Workfront gebruikt (projectbeheer, beheer van bronnen, enz.)
+* **Werkschema**: De samenwerkingsmogelijkheden van het werkbeheer die u vandaag in Workfront (projectbeheer, middelbeheer, enz.) gebruikt
 
-* **Automatisering en integratie**: De uitgebreide integratie- en automatiseringsmogelijkheden van Workfront Fusion.
+* **Automatisering en integratie**: De uitvoerige integratie en automatiseringsmogelijkheden aangedreven door de Fusie van Workfront.
 
-Workfront Planning is zeer aanpasbaar. Voor meer informatie over de terminologie en het belangrijkste concept van de Planning van Workfront, zie [Overzicht van Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning is zeer aanpasbaar. Voor meer informatie over de terminologie van de Planning van Workfront en zeer belangrijk concept, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Vragen die u moet stellen voordat u Workfront Planning instelt
 
@@ -40,7 +40,7 @@ Nadat u zich vertrouwd hebt gemaakt met de terminologie en architectuur van de P
 
 Sommige vragen u zich zou kunnen stellen aangezien u opstelling Planning is:
 
-* **Wil ik werkruimten gebruiken voor grotere organisatorische groepen? Of moet ik mensen aanmoedigen om persoonlijke mensen op te richten?**
+* **wil ik werkruimten voor grotere organisatorische groepen gebruiken? Of zou ik mensen moeten aanmoedigen om persoonlijke degenen op te zetten?**
 
   Misschien is er een goed gebruik voor beide. We raden u aan niet te veel werkruimten te hebben omdat deze moeilijk te beheren zijn en uw workflows te gefragmenteerd kunnen zijn.
 
@@ -52,26 +52,26 @@ Sommige vragen u zich zou kunnen stellen aangezien u opstelling Planning is:
 
   Recordtypen lijken op Workfront-objecttypen. Denk na over uw workflows en bepaal welke recordtypen (werkobjecten, personenobjecten, taxonomieën, enz.) elke workflow kan nodig zijn .
 
-  Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md)
+  Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren
 
-* **Hoe ga ik mijn records maken? Is er een externe lijst of een spreadsheet die reeds de verslagen bevat die ik aan Planning moet toevoegen die ik kan gebruiken? Worden de records geleidelijk toegevoegd, afhankelijk van de behoefte? Of worden ze geïmporteerd met een Fusion- of aangepaste API-integratie?**
+* **Hoe ga ik mijn verslagen creëren? Is er een externe lijst of een spreadsheet die reeds de verslagen bevat die ik aan Planning moet toevoegen die ik kan gebruiken? Worden de records geleidelijk toegevoegd, afhankelijk van de behoefte? Of zullen zij worden ingevoerd gebruikend een Fusion of de integratie van douaneAPI?**
 
   Zie voor meer informatie:
 
    * [Records maken](/help/quicksilver/planning/records/create-records.md)
    * [Adobe Workfront-planningsmodules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 
-* **Welke velden moet ik maken voor mijn records?**
+* **Welke gebieden moet ik voor mijn verslagen creëren?**
 
-  Zie voor meer informatie [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
+  Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
-* **Welke Workfront- of AEM Assets-objecttypen moet ik verbinden met Workfront Planning om afhankelijkheden te kunnen tonen en een naadloze workflow voor mijn organisatie te kunnen maken?**
+* **welke Workfront of de objecten van AEM Assets types ik met Workfront moet verbinden plannend verslagtypes om gebiedsdelen te kunnen tonen en een naadloze werkschema voor mijn organisatie tot stand te brengen?**
 
-  Zie voor meer informatie [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+  Voor informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **Welke marketingkalenders en -weergaven moet ik het verhaal van mijn campagnes vertellen? Welke belanghebbenden kan ik deze standpunten beschikbaar stellen voor een naadloze samenwerking?**
+* **Welke kalenders en meningen van de Marketing zal ik het verhaal van mijn campagnes moeten vertellen? En welke belanghebbenden kon ik deze meningen voor naadloze samenwerking ter beschikking stellen?**
 
-  Zie voor meer informatie [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md).
+  Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 
 ## Aanbevolen procedures voor Workfront Planning
@@ -149,7 +149,7 @@ De hulplijnen worden ingedeeld op basis van het object of het gebied dat u inste
 
 Creëer en etiketteer recordtypes die één enkel concept of zelfstandig naamwoord, zoals &quot;Campagnes vertegenwoordigen
 
-:no_entry_sign: Maak geen recordtype dat beter wordt weergegeven als een weergavelaag. &quot;Kalender&quot; is bijvoorbeeld een slechte keuze voor een recordtype, omdat het niet het recordtype zelf is, maar een weergave van records.
+:no_entry_sign: Maak geen recordtype dat beter als een weergavelaag wordt weergegeven. &quot;Kalender&quot; is bijvoorbeeld een slechte keuze voor een recordtype, omdat het niet het recordtype zelf is, maar een weergave van records.
 
 ### Hoeveel lagen van hiërarchie zou ik moeten creëren?
 

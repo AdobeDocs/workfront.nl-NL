@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -38,76 +38,76 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Repeater
 
-U kunt een [!UICONTROL Repeater] om een taak een bepaald aantal keren te herhalen. A [!UICONTROL Repeater] -module genereert bundels, een voor een.
+Met een module [!UICONTROL Repeater] kunt u een taak een bepaald aantal keren herhalen. Een module [!UICONTROL Repeater] genereert bundels, een voor een.
 
-U kunt bijvoorbeeld een [!UICONTROL Repeater] om vijf e-mails te verzenden met de onderwerpen &quot;Hello 1,&quot; &quot;Hello 2,&quot; enzovoort, door de **[!UICONTROL Email]>[!UICONTROL Send me an email]** aan de [!UICONTROL Repeater] module.
+Bijvoorbeeld, kon u een [!UICONTROL Repeater] module gebruiken om vijf e-mails met de onderwerpen &quot;Hello 1,&quot;Hello 2,&quot;te verzenden, etc., door de **[!UICONTROL Email]>[!UICONTROL Send me an email]** module aan de [!UICONTROL Repeater] module aan te sluiten.
 
-Als u een [!UICONTROL Repeater] module:
+Een module [!UICONTROL Repeater] gebruiken:
 
-1. Klik op de knop [!UICONTROL Flow Control] pictogram ![](assets/flow-control-icon.gif) onder aan het scherm klikt u op **[!UICONTROL Repeater]** in het menu dat wordt weergegeven.
-1. Klik op de knop [!UICONTROL Repeater] bundel, klik dan **[!UICONTROL Connect automatically]** in het vak dat wordt weergegeven.
-1. In de [!UICONTROL Flow Control] vak dat wordt weergegeven, typt u het gewenste aantal herhalingen (uitvoerbundels) in het dialoogvenster **[!UICONTROL Repeats]** doos.
+1. Klik op het pictogram [!UICONTROL Flow Control] ![](assets/flow-control-icon.gif) onder aan het scherm en klik vervolgens op **[!UICONTROL Repeater]** in het menu dat wordt weergegeven.
+1. Klik op de bundel [!UICONTROL Repeater] en klik vervolgens op **[!UICONTROL Connect automatically]** in het vak dat wordt weergegeven.
+1. Typ in het vak [!UICONTROL Flow Control] dat wordt weergegeven het gewenste aantal herhalingen (outputbundels) in het vak **[!UICONTROL Repeats]** .
 
    In ons e-mailvoorbeeld typt u 5.
 
    ![](assets/repeater-2-350x207.png)
 
-   De waarde van het item neemt in elke herhaling toe met de waarde die is opgegeven in het dialoogvenster **[!UICONTROL Step]** veld, dat u kunt bekijken door te selecteren **[!UICONTROL Show advanced settings]**. Dit getal is standaard 1.
+   De waarde van het item neemt in elke herhaling toe met de waarde die is opgegeven in het veld **[!UICONTROL Step]** . U kunt deze waarde weergeven door **[!UICONTROL Show advanced settings]** te selecteren. Dit getal is standaard 1.
 
-1. Klikken **[!UICONTROL OK]** om de **[!UICONTROL Flow Control]** doos.
+1. Klik op **[!UICONTROL OK]** om het vak **[!UICONTROL Flow Control]** te sluiten.
 
-1. Klik op de app of servicemodule die is verbonden met de [!UICONTROL Repeater] module.
+1. Klik op de app of servicemodule die is verbonden met de module [!UICONTROL Repeater] .
 1. Typ in het vak dat wordt weergegeven de informatie die u wilt herhalen.
 
-   In ons e-mailvoorbeeld typt u Hello in het dialoogvenster [!UICONTROL Subject] box, dan kaart `i` uit de repeatermodule.
+   In ons e-mailvoorbeeld typt u Hello in het vak [!UICONTROL Subject] en wijst u vervolgens `i` toe vanuit de herhalingsmodule.
 
    ![](assets/repeater-3-350x207.png)
 
 | Item | Beschrijving |
 |---|---|
-| [!UICONTROL Initial value] | Ga of kaart het aantal in dat u de module wilt plaatsen zoals `i` in de eerste herhaling. De standaardwaarde is 1. |
+| [!UICONTROL Initial value] | Voer in of wijs het nummer toe dat de module als `i` moet instellen in de eerste herhaling. De standaardwaarde is 1. |
 | [!UICONTROL Repeats] | Ga of kaart het aantal tijden in dat u de module wilt herhalen. Dit getal moet groter dan of gelijk aan 0 zijn en kleiner dan of gelijk aan 10.000. |
-| [!UICONTROL Step] | Dit is het aantal waardoor de module de waarde van verhoogt `i`. De standaardwaarde is 1. |
+| [!UICONTROL Step] | Dit is het getal waarmee de module de waarde van `i` verhoogt. De standaardwaarde is 1. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Het aantal herhalingen wordt niet bepaald door de waarde van `i`, zoals het in een lus in programmering zou zijn. In de module wordt het aantal keren herhaald dat in het dialoogvenster [!UICONTROL Repeats] veld. De waarde `i` veranderingen met elke herhaling van [!DNL repeater] en kan worden toegewezen aan latere modules. In het bovenstaande voorbeeld wordt de waarde van `i` in het bericht van Hello, resulterend in berichten die &quot;Hello 1,&quot;Hello 2,&quot;etc. lezen.
+>Het aantal herhalingen wordt niet bepaald door de waarde van `i`, zoals in een lus in programmering. In de module wordt het aantal keren herhaald dat wordt aangegeven in het veld [!UICONTROL Repeats] . De waarde `i` verandert bij elke herhaling van de module [!DNL repeater] en kan worden toegewezen aan latere modules. In het bovenstaande voorbeeld wordt de waarde van `i` toegewezen aan het Hello-bericht, wat resulteert in berichten die &quot;Hello 1,&quot; Hello 2,&quot; enzovoort lezen.
 
 ## [!UICONTROL Iterator]
 
-An [!UICONTROL Iterator] is een speciaal type module dat een array omzet in een reeks bundels. Elk arrayitem wordt een aparte bundel in de [!UICONTROL Iterator] module uitvoer. Zie voor meer informatie [[!UICONTROL Iterator] module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Een [!UICONTROL Iterator] is een speciaal type module dat een array omzet in een reeks bundels. Elk arrayitem wordt een afzonderlijke bundel in de uitvoer van de module [!UICONTROL Iterator] . Zie [[!UICONTROL Iterator] module in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) voor meer informatie.
 
 ## Arrayaggregator
 
-Een arrayaggregator is een speciaal type module waarmee u verschillende bundels kunt samenvoegen tot één bundel. Zie voor meer informatie [[!UICONTROL Aggregator] module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
+Een arrayaggregator is een speciaal type module waarmee u verschillende bundels kunt samenvoegen tot één bundel. Zie [[!UICONTROL Aggregator] module in Adobe Workfront Fusion ](../../workfront-fusion/modules/aggregator-module.md) voor meer informatie.
 
 ## [!UICONTROL Router]
 
-De [!UICONTROL Router] de module staat u toe om uw stroom in verscheidene routes te vertakken en de gegevens binnen elke route verschillend te verwerken. Eenmaal [!UICONTROL Router] de module ontvangt een bundel, door:sturen het aan elke verbonden route in de orde de routes in bijlage aan [!UICONTROL Router] module. Zie voor meer informatie [Router module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+De [!UICONTROL Router] module staat u toe om uw stroom in verscheidene routes te vertakken en de gegevens binnen elke route verschillend te verwerken. Zodra een [!UICONTROL Router] module een bundel ontvangt, door:sturen het aan elke verbonden route in de orde de routes aan de [!UICONTROL Router] module in bijlage waren. Voor meer informatie, zie [ module van de Router in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

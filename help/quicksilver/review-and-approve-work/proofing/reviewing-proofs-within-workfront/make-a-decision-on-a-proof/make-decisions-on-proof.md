@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Beslissen op een bewijs in de professionele drukker
-description: U kunt een beslissing over een proefdruk rechtstreeks in de proefdrukviewer nemen.
+description: U kunt een beslissing over een bewijs rechtstreeks in de proefdrukviewer nemen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Beslissen op een bewijs in de professionele drukker
+# Beslissen op een bewijs in de proefdrukviewer
 
-U kunt een beslissing over een proefdruk rechtstreeks in de proefdrukviewer nemen.
+U kunt een beslissing over een bewijs rechtstreeks in de proefdrukviewer nemen.
 
 ## Toegangsvereisten
 
@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig abonnement: Werk of Plan</p> <p>Verouderd abonnement: Alle (proefdrukken moeten zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -43,21 +43,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Beslissen op een bewijs in de professionele drukker
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind het bewijs u nodig hebt, dan klik **Open proef**.
 
-1. Klikken **Beslissing maken** in het midden boven in de testviewer.
+1. Klik **maak Beslissing** bij het hoogste-centrum van de het proef kijker.
 
-1. In de **Bewijsbeslissing** Klik op een van de volgende beslissingen in het vak dat wordt weergegeven:
+1. In de **doos van het besluit van het Bewijs** die verschijnt, klik één van de volgende besluiten:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,14 +81,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste beslissing</td> 
-      <td> <p>Bij Select- en Premium-plannen kan de Workfront-beheerder of Workfront Proof-beheerder de namen van beslissingen wijzigen, de volgorde ervan wijzigen en beslissingen verbergen. Zie voor meer informatie <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Opties voor goedkeuringsbeslissingen configureren in Workfront Proef</a>.</p> </td> 
+      <td> <p>Bij de lidmaatschappen Selecteren en Premium kan de Workfront-beheerder of de Workfront Proof-beheerder de namen van beslissingen wijzigen, de volgorde ervan wijzigen en beslissingen verbergen. Voor meer informatie, zie <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref"> opties van het goedkeuringsbesluit in Workfront Proof </a> vormen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Als de beheerder van Adobe Workfront of de beheerder van het Bewijs van Workfront een sectie van Redenen heeft toegevoegd, selecteer om het even welke toepasselijke redenen voor uw besluit. Voor meer informatie over hoe de beheerders beslissingsredenen kunnen vormen, zie  [Opties voor goedkeuringsbeslissingen configureren in Workfront Proef](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
-1. (Optioneel) Selecteer **Stuur me een e-mailbevestiging** om een bevestiging van uw beslissing per e-mail te ontvangen.
-1. Klikken **Beslissing maken**.
+1. (Voorwaardelijk) Als de beheerder van Adobe Workfront of de beheerder van Workfront Proof een sectie Redenen heeft toegevoegd, selecteer om het even welke toepasselijke redenen voor uw besluit. Voor meer informatie over hoe de beheerders beslissingsredenen kunnen vormen, zie  [ vorm de opties van het goedkeuringsbesluit in Workfront Proof ](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Optioneel) Selecteer **Stuur me een e-mailbevestiging** om een e-mailbevestiging van uw beslissing te ontvangen.
+1. Klik **maken Beslissing**.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a decision when the proof is configured with an approval process</h2>

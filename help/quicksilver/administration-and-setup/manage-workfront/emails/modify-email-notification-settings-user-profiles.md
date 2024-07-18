@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau hebt waarmee u de instellingen van andere gebruikers kunt bewerken, kunt u de meldingsinstellingen voor meerdere gebruikers tegelijk configureren. Dit omvat het opgeven of gebruikers meldingen ontvangen wanneer gebeurtenissen plaatsvinden, of in één e-mail met dagelijkse controlesamenvatting, zoals beschreven in [Adobe Workfront-berichten](../../../workfront-basics/using-notifications/wf-notifications.md). Voor informatie over het toegangsniveau nodig om gebruikers uit te geven, zie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau hebt waarmee u de instellingen van andere gebruikers kunt bewerken, kunt u de meldingsinstellingen voor meerdere gebruikers tegelijk configureren. Dit omvat het specificeren of de gebruikers berichten ontvangen aangezien de gebeurtenissen gebeuren, of in één dagelijkse samenvatting e-mail, zoals die in [ Adobe Workfront berichten ](../../../workfront-basics/using-notifications/wf-notifications.md) wordt beschreven. Voor informatie over het toegangsniveau nodig om gebruikers uit te geven, zie [ Toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Zie voor meer informatie [Uw eigen e-mailmeldingen wijzigen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Toegangsvereisten
@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,14 +57,14 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 Wanneer u berichtmontages in massa vormt, kunt u slechts de montages veranderen die de geselecteerde gebruikers in gemeenschappelijk hebben.
 
-Als u een meldingsinstelling wijzigt, wordt het label **Bewerkt** verschijnt voor die bericht het plaatsen, om u te laten weten dat die bericht het plaatsen is gewijzigd.
+Wanneer u een bericht het plaatsen wijzigt, verschijnt het etiket **Bewerkte** voor dat bericht het plaatsen, om u te laten weten dat bericht het plaatsen is gewijzigd.
 
 Instellingen voor e-mailmeldingen voor meerdere gebruikers wijzigen:
 
 {{step-1-to-users}}
 
-1. Selecteer de gebruikers en klik vervolgens op **Bewerken**.
-1. In de **Persoon bewerken** vak dat wordt weergegeven, klikt u op **Meldingen**.
+1. Selecteer de gebruikers, dan klik **uitgeven**.
+1. In **geef Persoon** doos uit die verschijnt, klik **Meldingen**.
 
 1. Vouw een categorie uit om meldingsinstellingen voor die categorie weer te geven.
 
@@ -75,10 +75,10 @@ Instellingen voor e-mailmeldingen voor meerdere gebruikers wijzigen:
 
    >[!NOTE]
    >
-   >   Voor de **Communicatie** rubriek, kunt u afzonderlijke meldingen selecteren voor alleen directe levering. U moet alle berichten selecteren die in een dagelijkse samenvatting moeten worden geleverd.
+   >   Voor de **Communicatie** categorie, kunt u individuele berichten voor onmiddellijke levering slechts selecteren. U moet alle berichten selecteren die in een dagelijkse samenvatting moeten worden geleverd.
 
 
-1. Als u meldingen hebt geselecteerd die als een dagelijkse samenvatting moeten worden verzonden, selecteert u de tijd van de dag waarop u de samenvatting boven aan het dialoogvenster wilt verzenden **Meldingen** in de **Dagelijkse samenvatting e-mailen na** -menu.
+1. Als u berichten selecteerde die als dagelijkse samenvatting moeten worden verzonden, selecteer de tijd van de dag u de samenvatting wilt die bij de bovenkant van de **sectie van Meldingen** in de **E-mail Dagelijkse Samenvatting na** menu wordt geleverd.
 
    ![](assets/daily-digest-time.png)
 

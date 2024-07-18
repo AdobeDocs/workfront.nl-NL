@@ -39,27 +39,27 @@ U moet het volgende hebben:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot resourcebeheer bewerken, inclusief toegang tot bewerkingsprioriteiten en begrotingstijden in de bronnenplanner</p> <p>Toegang tot financiële gegevens, projecten en gebruikers bewerken</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Beheer machtigingen voor de projecten waarvoor u begrotingsgegevens wilt maken met de mogelijkheid om financiën te beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Beheer machtigingen voor de projecten waarvoor u begrotingsgegevens wilt maken met de mogelijkheid om financiën te beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Bochtingsdatums aanpassen
 
-1. Ga naar de bronnenplanner en selecteer **Weergeven op project**.
+1. Ga naar de Planner van het Middel en selecteer **Mening door Project**.
 
    >[!NOTE]
    >
    >U kunt de Adjust Gefabriceerde optie van Datums gebruiken slechts wanneer u de Planner van het Middel door project bekijkt.
 
-1. Houd de muisaanwijzer boven de naam van een project en klik vervolgens op de knop **Meer** -menu.
-1. Klikken **Bochtingsdatums aanpassen**.\
+1. Beweeg over de naam van een project, dan klik **Meer** menu.
+1. Klik **aanpassen het Begrotingstermijnen**.\
    De tijdlijn voor projecttoewijzing wordt weergegeven.\
    Het tijdsbestek waarin de uren momenteel in de begroting zijn opgenomen, wordt oranje gemarkeerd als er sprake is van een begrotingsconflict en blauw als er geen conflicten zijn.
 
@@ -67,12 +67,12 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 1. Sleep het gemarkeerde tijdframe naar een ander tijdstip om te begrijpen waar er geen begrotingsconflicten zijn voor het geselecteerde project. Wanneer u een tijdkader vindt waar de Netto waarde positief is, verandert het benadrukte tijdkader in blauw.
 1. Klik op de &#39;x&#39; in de rechterbovenhoek van de tijdlijn van de projecttoewijzing om deze te sluiten.
-1. Verwijder de begrote uren uren uit de bestaande chronologie van het project en voeg hen aan de chronologie toe die de meeste beschikbaarheid toont.
-1. Klikken **Opslaan**.
+1. Verwijder de begrote uren uren uit de bestaande tijdlijn van het project en voeg hen aan de chronologie toe die de meeste beschikbaarheid toont.
+1. Klik **sparen**.
 1. (Voorwaardelijk en optioneel) Als de tijdframes zonder budgetconflicten zich buiten de tijdlijn van het project bevinden, klikt u op de naam van het project om het project te openen.
-1. (Voorwaardelijk en optioneel) Klik op **Project bewerken** en bewerkt u vervolgens de **Geplande begindatum** of de **Geplande afsluitdatum** om de tijdlijn van het project te wijzigen voor het tijdsbestek zonder begrotingsconflicten.\
-   Raadpleeg het artikel voor meer informatie over het bewerken van projecten [Projecten bewerken](../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Voorwaardelijk en facultatief) klik **uitgeven Project**, dan geef de **Geplande Datum van het Begin** of de **Geplande Datum van de Voltooiing** uit om de chronologie van het project voor het tijdkader zonder het in de begroting opnemen conflicten te wijzigen.\
+   Voor meer informatie over het uitgeven van projecten, zie het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-1. (Voorwaardelijk en optioneel) Klik op **Wijzigingen opslaan**.
+1. (Voorwaardelijk en facultatief) klik **sparen Veranderingen**.
 1. Keer terug naar de Planner van het Middel en neem de Begrotingspunten, FTEs, of Kosten in het tijdkader opnieuw op zonder in de begroting op te nemen conflicten.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md)
-* [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md)
-* [Uitgebreide analyse-KPI&#39;s begrijpen](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
-* [Bekijk de visualisatie van het vliegplan in de uitgebreide analyse](../enhanced-analytics/flight-plan-overview.md)
-* [Bekijk de Burndown-visualisatie in de uitgebreide analyse](../enhanced-analytics/burndown-overview.md)
-* [De taken tijdens de visualisatie van de vlucht bekijken in Verbeterde analyse](../enhanced-analytics/tasks-in-flight-overview.md)
-* [De visualisatie van projectactiviteit weergeven in Verbeterde analyse](../enhanced-analytics/project-activity-overview.md)
-* [Bekijk de visie van de projectreemap in Verbeterde analyse](../enhanced-analytics/project-treemap-overview.md)
-* [De activiteit per teamvisualisatie bekijken in Uitgebreide analyse](../enhanced-analytics/activity-by-team-overview.md)
+* [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md)
+* [ pas filters in Verbeterde analyses toe ](../enhanced-analytics/use-enhanced-analytics-filters.md)
+* [ Begrijp Verbeterde analyses KPIs ](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
+* [ Mening de visualisatie van het Plan van de Vlucht in Verbeterde analyses ](../enhanced-analytics/flight-plan-overview.md)
+* [ Mening de Burndown visualisatie in Verbeterde analyses ](../enhanced-analytics/burndown-overview.md)
+* [ Mening de Taken in vluchtvisualisatie in Verbeterde analyses ](../enhanced-analytics/tasks-in-flight-overview.md)
+* [ Mening de activiteit van het Project visualisatie in Verbeterde analyses ](../enhanced-analytics/project-activity-overview.md)
+* [ Mening de boomtopvisualisatie van het Project in Verbeterde analyses ](../enhanced-analytics/project-treemap-overview.md)
+* [ Mening de Activiteit door teamvisualisatie in Verbeterde analyses ](../enhanced-analytics/activity-by-team-overview.md)
 <!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
@@ -37,4 +37,4 @@ Deze sectie bevat de volgende artikelen:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Ga voor een uitgebreide training over uitgebreide analysemogelijkheden naar [Verbeterde analytische leerpaden](https://one.workfront.com/s/enhanced-analytics-program).
+Voor diepgaande opleiding op Verbeterde analysemogelijkheden, zie [ Verbeterde analyses die Wegen ](https://one.workfront.com/s/enhanced-analytics-program) leren.

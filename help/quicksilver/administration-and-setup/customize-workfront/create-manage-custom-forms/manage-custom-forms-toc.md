@@ -18,7 +18,7 @@ ht-degree: 0%
 # Aangepaste formulieren en velden beheren
 
 * [Een aangepast formulier delen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Toegang voor een gedeeld aangepast veld dat u wilt gebruiken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+* [ Toegang voor een gedeeld gebied van de douane u ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md) wilt gebruiken
 * [Een aangepast formulier opnieuw activeren of deactiveren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 * [Aangepaste formulieren in rapporten raadplegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
 * [Rapporten weergeven die een aangepast veld of een aangepaste widget gebruiken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

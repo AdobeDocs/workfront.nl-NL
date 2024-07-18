@@ -26,13 +26,13 @@ U kunt configureren:
 
 U kunt de gebieden ook aanpassen die de gebruikers in het gebied van het Huis zien wanneer de gebruikers een projectgoedkeuring, documentgoedkeuring, of de goedkeuring van de documentversie klikken die aan hen wordt toegewezen.
 
-Voor informatie over het gebied Home raadpleegt u [Het gebied Home gebruiken](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Voor informatie over het deelvenster Samenvatting raadpleegt u [Overzicht van samenvattingen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Voor informatie over het gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Voor informatie over het Summiere paneel, zie [ Overzicht ](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-Voor informatie over het maken van lay-outsjablonen raadpleegt u [Lay-outsjablonen maken en beheren](../use-layout-templates/create-and-manage-layout-templates.md).
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outsjablonen voor groepen raadpleegt u [De lay-outsjablonen van een groep maken en wijzigen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outsjabloon aan gebruikers raadpleegt u [Gebruikers toewijzen aan een lay-outsjabloon](../use-layout-templates/assign-users-to-layout-template.md).
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -53,18 +53,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Home en overzicht aanpassen met een lay-outsjabloon
 
-1. Beginnen met het werken aan een lay-outsjabloon, zoals beschreven in [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klik op de pijl omlaag ![](assets/dropdown-arrow.png) krachtens **Aanpassen wat gebruikers zien** en klik vervolgens op **Home en overzicht**.
+1. Klik de benedenpijl ![](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan **Huis en Samenvatting** klikken.
 
-1. Klik in de lijst links op het objecttype (**Taken**, **Problemen**, **Projecten**, **Documenten**, of **Documentversies**) die u wilt aanpassen in Home en Summary.
+1. In de lijst die op de linkerzijde verschijnt, klik het objecten type (**Taken**, **Kwesties**, **Projecten**, **Documenten**, of **Versies van het Document**) dat u in Huis en Samenvatting wilt aanpassen.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -72,11 +72,11 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
     <tbody> 
      <tr> 
       <td role="rowheader">Taken</td> 
-      <td> <p>In Huis, beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van een taak wanneer een gebruiker de taak klikt. En in een takenlijst beïnvloedt dit het deelvenster Samenvatting dat rechts op de pagina wordt weergegeven wanneer een gebruiker een taak selecteert en vervolgens op het pictogram Samenvatting openen klikt <img src="assets/summary-panel-icon.png">.</p> <p>U kunt bijvoorbeeld bepalen welke velden gebruikers zien in het gebied Details wanneer gebruikers taken selecteren in Home:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>En wanneer zij een taak in het Overzicht selecteren:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>In Huis, beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van een taak wanneer een gebruiker de taak klikt. En in een takenlijst beïnvloedt dit het deelvenster Samenvatting dat aan de rechterkant van de pagina wordt weergegeven wanneer een gebruiker een taak selecteert en vervolgens op het pictogram Samenvatting openen <img src="assets/summary-panel-icon.png"> klikt.</p> <p>U kunt bijvoorbeeld bepalen welke velden gebruikers zien in het gebied Details wanneer gebruikers taken selecteren in Home:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>En wanneer zij een taak in het Overzicht selecteren:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problemen</td> 
-      <td> <p>In Home beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van een kwestie wanneer een gebruiker de kwestie klikt.</p> <p>In een lijst met problemen beïnvloedt deze instelling het deelvenster Samenvatting dat aan de rechterkant van de pagina wordt weergegeven wanneer een gebruiker een probleem selecteert en vervolgens op het pictogram Samenvatting openen klikt <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td> <p>In Home beïnvloedt uw configuratie voor dit het plaatsen het gebied rechts van een kwestie wanneer een gebruiker de kwestie klikt.</p> <p>In een lijst met problemen beïnvloedt deze instelling het deelvenster Samenvatting dat aan de rechterkant van de pagina wordt weergegeven wanneer een gebruiker een probleem selecteert en vervolgens op het pictogram Samenvatting openen <img src="assets/summary-panel-icon.png"> klikt.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projecten</td> 
@@ -101,16 +101,16 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Voorwaardelijk) Als de optie **Knop voor primaire handeling instellen** wordt weergegeven (als u **Taken** of **Problemen** in de lijst links), klikt u op de primaire handeling (**Gereed** of **Status**) die u beschikbaar wilt maken voor gebruikers in het gebied Home en in het deelvenster Samenvatting wanneer zij een taak of een probleem bekijken.
+1. (Voorwaardelijk) als de **Vastgestelde primaire actieknoop** drop-down menu verschijnt (als u **Taken** of **Kwesties** in de lijst op de linkerzijde) selecteert, klik de primaire actie (**Gereed** of **Status**) die u beschikbaar voor gebruikers in het gebied van het Huis en in het Summiere paneel wilt wanneer zij een taak of een kwestie bekijken.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Toevoegen ![](assets/add-item-plus-in-circle-blue.png) of verbergen ![](assets/close-or-hide---x.png) velden voor het geselecteerde objecttype.
+1. Voeg ![](assets/add-item-plus-in-circle-blue.png) of verberg ![](assets/close-or-hide---x.png) gebieden voor het geselecteerde objecten type toe.
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Herhaal stap 3-6 om het gebied Home en het deelvenster Samenvatting aan te passen voor alle andere objecttypen.
-1. Klikken **Algemene instellingen** Schakel vervolgens in of uit bij de linkerbenedenhoek een van de volgende opties voor Adobe Workfront-objecten in Home en Summary:
+1. Klik **Globale montages**, dichtbij de lagere linkerhoek, dan toelaten of onbruikbaar maken om het even welke volgende opties met betrekking tot de voorwerpen van Adobe Workfront in Huis en Samenvatting:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -118,7 +118,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
     <tbody> 
      <tr> 
       <td role="rowheader">Updates tonen voor werk</td> 
-      <td>Hiermee geeft u updates weer voor een geselecteerde taak of uitgave in Home of Summary. Dit omvat zowel systeemupdates als updates die door een gebruiker zijn gemaakt. Gebruikers kunnen systeemupdates nog steeds uitfilteren, zoals beschreven in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Systeemupdates in- of uitschakelen</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a>.</td> 
+      <td>Hiermee geeft u updates weer voor een geselecteerde taak of uitgave in Home of Summary. Dit omvat zowel systeemupdates als updates die door een gebruiker zijn gemaakt. De gebruikers kunnen systeemupdates nog uit filtreren, zoals die in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref"> worden beschreven toelaten of systeemupdates </a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> werk van de Update </a> onbruikbaar maken.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logtijd van arbeid</td> 
@@ -135,7 +135,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
         <li>Geplande afsluitdatum</li>
         <li>Vastlegdatum</li>
         <li>Verzenddatum</li>
-       </ul><p><b>OPMERKING</b>: Wanneer deze optie is ingeschakeld, worden werkitems die achterstallig zijn geworden, verplaatst naar de laatste groep in de lijst Home Work, die alleen op datum is gebaseerd, niet op tijd.</p></td> 
+       </ul><p><b> NOTA </b>: Wanneer deze optie wordt toegelaten, worden de het werkpunten die achterstallig worden verplaatst naar de Te late groepering in de Lijst van het Werk van het Huis die op datum slechts wordt gebaseerd, niet tijd.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -144,6 +144,6 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    of
 
-   Als u klaar bent met aanpassen, klikt u op **Opslaan**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen**.
 
-Zie voor meer informatie over lay-outsjablonen [Lay-outsjablonen maken en beheren](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.

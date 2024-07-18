@@ -21,8 +21,8 @@ Wanneer u een taak of kwestie aan een verschillend project beweegt of kopieert, 
 
 * Als een status op de taak of de kwestie de zelfde sleutel zoals een status heeft die door de groep van het bestemmingsproject wordt gebruikt, blijft de status op de taak of de kwestie het zelfde.
 
-   Als het etiket van deze twee statussen niet aanpast, erft de status op de taak of de kwestie het etiket van de status die door de groep van het bestemmingsproject wordt gebruikt.
+  Als het etiket van deze twee statussen niet aanpast, erft de status op de taak of de kwestie het etiket van de status die door de groep van het bestemmingsproject wordt gebruikt.
 
 * Als een status in de taak of de kwestie niet de zelfde sleutel zoals de gelijkwaardige status in de groep van het bestemmingsproject heeft, verandert de status in de taak of de kwestie in de gelijkwaardige standaardstatus in de groep van het bestemmingsproject.
 
-Voor informatie over statussleutels, zie [Een groepsstatus maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+Voor informatie over statussleutels, zie [ tot stand brengen of een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.

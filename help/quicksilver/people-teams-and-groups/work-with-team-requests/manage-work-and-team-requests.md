@@ -38,20 +38,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>een beoordeling of hoger om een aanvraag toe te wijzen of aan een verzoek te werken; Werk of hoger om een aanvraag opnieuw toe te wijzen</p> </td> 
+   <td> <p>Controleren of hoger om een aanvraag toe te wijzen of eraan te werken; Werk of hoger om een aanvraag opnieuw toe te wijzen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een aanvraag toewijzen aan een team {#assign-a-request-to-a-team}
 
 De managers van het project en de vraagaanvragers kunnen het werk aan teams toewijzen wanneer zij niet weten welke middelen juist is om het werk te doen of wanneer het niet van belang is wie het werk voltooit.
 
-De taken die aan het team worden toegewezen blijven op [!UICONTROL Team Requests] tabblad tot een gebruiker in het team vrijwilligers heeft om aan de aanvraag te werken.
+Taken die aan het team zijn toegewezen, blijven op het tabblad [!UICONTROL Team Requests] staan totdat een gebruiker in het team zich aanmeldt om aan de aanvraag te werken.
 
-Wanneer een verzoek aan zowel een team als een gebruiker wordt toegewezen die geen lid van het team is, is het verzoek zichtbaar in zowel [!UICONTROL Team Requests] en in het gebied met werkverzoeken van de gebruiker. Als de gebruiker die zich niet in het team bevindt zich als vrijwilliger voor de taak, blijft de taak in het [!UICONTROL Team Requests] tabblad tot een gebruiker in het team vrijwilligers heeft om eraan te werken.
+Wanneer een verzoek wordt toegewezen aan zowel een team als een gebruiker die geen lid van het team is, is het verzoek zichtbaar in zowel het [!UICONTROL Team Requests] lusje als in het gebied van de het werkverzoeken van de gebruiker. Als de gebruiker die zich niet in het team bevindt zich als vrijwilliger voor het werken aan de taak opgeeft, blijft de taak op het tabblad [!UICONTROL Team Requests] staan totdat een gebruiker in het team zich hiervoor inzet.
 
 U kunt teams op de volgende manieren toewijzen aan taken en problemen:
 
@@ -64,26 +64,26 @@ U kunt handmatig een aanvraag aan een team toewijzen vanaf de teampagina, zoals 
 
 Om een verzoek aan een team van de teampagina manueel toe te wijzen:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Klik op de knop **[!UICONTROL More]** pictogram ![](assets/more-icon.png)selecteert u vervolgens **[!UICONTROL Send work request]**.
+1. Klik op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) en selecteer vervolgens **[!UICONTROL Send work request]** .
 
    ![](assets/edit-team-settings-350x205.png)
 
 1. Vul de gegevens in in het vak dat wordt geopend.
 1. Klik op **[!UICONTROL Send Request]**.\
-   Het team wordt nu toegewezen een nieuwe taak die op het lusje van de Verzoeken van het Team wordt getoond. Deze taak is momenteel niet gekoppeld aan een project, maar kan worden verplaatst, zoals beschreven in [Taken verplaatsen](../../manage-work/tasks/manage-tasks/move-tasks.md).
+   Het team wordt nu toegewezen een nieuwe taak die op het lusje van de Verzoeken van het Team wordt getoond. Deze taak wordt momenteel niet geassocieerd met een project, maar het kan worden bewogen, zoals die in [ worden beschreven de taken van de Beweging ](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Aanvragen opnieuw toewijzen {#reassign-requests}
 
 U kunt verzoeken opnieuw toewijzen die aan uw team zijn toegewezen:
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
-1. Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw team in het keuzemenu of zoek naar een team op de zoekbalk.
-1. Selecteer in het navigatievenster aan de linkerkant de optie **[!UICONTROL Team Requests]**.
-1. Klik op de knop **[!UICONTROL Reassign]** pictogram.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Selecteer **[!UICONTROL Team Requests]** in het navigatievenster aan de linkerkant.
+1. Klik op het pictogram **[!UICONTROL Reassign]** .
 
-1. Typ de naam van de gebruiker, groep of team waaraan u de aanvraag opnieuw wilt toewijzen en klik vervolgens op **[!UICONTROL Assign]**.\
+1. Typ de naam van de gebruiker, groep of team waaraan u de aanvraag opnieuw wilt toewijzen en klik vervolgens op **[!UICONTROL Assign]** .\
    Het verzoek wordt opnieuw toegewezen.

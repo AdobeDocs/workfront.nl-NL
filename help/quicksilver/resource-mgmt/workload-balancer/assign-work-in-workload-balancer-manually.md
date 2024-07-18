@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met de Adobe Workfront Workload Balancer kunt u handmatig werkitems toewijzen aan gebruikers.
 
-Zie voor algemene informatie over het toewijzen van werk aan gebruikers met behulp van Workload Balancer [Overzicht van het toewijzen van werk in de werklastverdeler](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
 
@@ -48,16 +48,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <li> <p>Problemen</p> </li> 
     </ul> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen die Toewijzingen maken bevatten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Handmatig werk toewijzen in Workload Balancer
 
@@ -65,15 +65,15 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
 1. Ga naar Werklastverdeling waar u werk wilt toewijzen.
 
-   U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Ga voor meer informatie over waar de werklastbalans zich in Workfront bevindt naar [De werklastbalans zoeken](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optioneel) Ga naar de **Niet toegewezen werk** en pas een filter toe om taken of problemen weer te geven
+1. (Facultatief) ga naar het **Niet toegewezen gebied van het Werk** en pas een filter op meningstaken of kwesties toe
 
    of
 
-   Ga naar de **Toegewezen werk** en vouw de naam van een gebruiker uit om de aan hen toegewezen het werkpunten te bekijken, als u hun punten opnieuw wilt toewijzen.
+   Ga naar het **Toegewezen gebied van het Werk** en breid de naam van een gebruiker uit om de het werkpunten te bekijken die aan hen worden toegewezen, als u hun punten opnieuw wilt toewijzen.
 
-1. Klik op de knop **Het menu Meer** ![](assets/qs-more-menu.png) links van de naam van een tijdelijk onderdeel klikt u op **Deze toewijzen aan**.
+1. Klik het **Meer menu** ![](assets/qs-more-menu.png) aan de linkerzijde van de naam van het het werkpunt, dan klik **toewijzen dit aan**.
 
    ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
@@ -86,7 +86,7 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
 
 1. Voer een van de volgende handelingen uit:
 
-   * Begin de naam van een gebruiker, baanrol, of team te typen die u aan het punt in wilt toewijzen **Personen, rollen of teams zoeken** , selecteert u het veld wanneer het wordt weergegeven in de lijst en klikt u vervolgens op **Opslaan**.
+   * Begin het typen van de naam van een gebruiker, baanrol, of team dat u aan het punt in het **gebied van het Onderzoek wilt toewijzen mensen, rol of teams**, het selecteren wanneer het in de lijst toont, dan **sparen** klikken.
 
    >[!TIP]
    >
@@ -94,14 +94,14 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
    >
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    >
-   > De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   > De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
-   > Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Gebruik het tabblad Delegaties om gebruikers weer te geven die zijn gedelegeerd aan het werkitem. Voor informatie over het delegeren van het werk, zie [Taak beheren en taken delegeren](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Als uw Workfront- of groepsbeheerder delegaties in uw omgeving heeft ingeschakeld, gebruikt u het tabblad Toewijzingen om gebruikers toe te wijzen aan de taak of uitgave. Gebruik het tabblad Delegaties om gebruikers weer te geven die zijn gedelegeerd aan het werkitem. Voor informatie over het delegeren van het werk, zie [ taak beheren en de delegatie van de kwestie ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    Hiermee wijst u het werkitem toe aan of wijst u het toe aan de opgegeven toewijzingen.
@@ -122,18 +122,18 @@ U kunt werkitems toewijzen die nog niet aan een gebruiker zijn toegewezen of ite
    >   
    >
 
-   * Klikken **Geavanceerd** om toegang te krijgen tot Geavanceerde toewijzingen.
+   * Klik **Geavanceerd** om tot Geavanceerde Toewijzingen toegang te hebben.
 
-     Voor meer informatie over het maken van Geavanceerde Toewijzingen, zie [Geavanceerde toewijzingen maken](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Voor meer informatie over het maken van Geavanceerde Taken, zie [ Geavanceerde taken ](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
-1. (Optioneel) Klik op de knop **Toewijzingspictogram tonen** ![](assets/show-allocations-icon-small.png)en klik vervolgens op de knop **Het menu Meer** ![](assets/qs-more-menu.png) > **Toewijzingen bewerken**.
+1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![](assets/show-allocations-icon-small.png), dan klik het **Meer menu** ![](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
 
    of
 
    Dubbelklik op een dagelijkse of wekelijkse toewijzing om de hoeveelheid tijd aan te passen die de gebruiker aan het werkitem heeft toegewezen.
 
-   Zie de sectie &quot;Gebruikerstoewijzingen wijzigen&quot; in het artikel voor informatie over het wijzigen van gebruikerstoewijzingen in Workload Balancer [Toewijzingen van gebruikers beheren in Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Voor informatie over het wijzigen van gebruikerstoewijzingen in de Balancer van de Werkbelasting, zie de &quot;wijzig gebruikerstoewijzingen&quot;sectie in artikel [ gebruikerstoewijzingen in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
 
-   Voor informatie over het verwijderen van taken uit een werkitem met behulp van Werklastverdeling raadpleegt u [Werklastverdeling ongedaan maken](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   Voor informatie over het verwijderen van taken uit een het werkpunt gebruikend de Balancer van de Werklast, zie [ werk in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md) unassign.
 
     

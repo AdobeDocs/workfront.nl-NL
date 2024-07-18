@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Verpletterend regelcontrole wat Adobe Workfront met kwesties doet wanneer zij aan een verzoekrij worden voorgelegd. Voor meer informatie over het creëren van de Queuten van het Verzoek, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Verpletterend regelcontrole wat Adobe Workfront met kwesties doet wanneer zij aan een verzoekrij worden voorgelegd. Voor meer informatie over het creëren van de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 Het verpletteren van regels verzendt kwesties naar specifieke gebruikers of baanrollen het best uitgerust om de voorgelegde kwestie of het verzoek op te lossen. Het verpletteren van regels wordt gewoonlijk geassocieerd met rijonderwerpen, die worden gebruikt om te controleren welke verpletterende regel op de kwestie of het verzoek zal worden toegepast.
 
@@ -85,15 +85,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Creeer een Verpletterende Regel
 
 1. Ga naar het project waarin u de verpletterende regels voor uw verzoeken wilt toevoegen.
-1. Klikken **Routeringsregels** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** vervolgens **Routeringsregels**.
-1. Klikken **Nieuwe verpletterende Regel** om de nieuwe regel toe te voegen.
+1. Klik **Verpletterend Regels** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **Verpletterend Regels**.
+1. Klik **Nieuw Verpletterend Regel** om de nieuwe regel toe te voegen.
 1. Ga de volgende informatie voor de Verpletterende Regel in:
 
    <table style="table-layout:auto"> 
@@ -103,29 +103,29 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Naam</strong> </td> 
+      <td role="rowheader"><strong> Naam </strong> </td> 
       <td>De naam van de verpletterende regel. U kunt de verpletterende regel zien als u toegang hebt om deze informatie over het project te zien.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Beschrijving</strong> </td> 
+      <td role="rowheader"><strong> Beschrijving </strong> </td> 
       <td>Voeg een beschrijving voor de verpletterende regel toe.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standaardontvanger*</strong> </td> 
+      <td role="rowheader"><strong> Standaard Toegewezen* </strong> </td> 
       <td>Voeg een actieve gebruiker of een actieve baanrol toe aan wie de nieuwe kwesties zouden moeten worden toegewezen. Er kan slechts één standaardontvanger worden toegewezen in dit veld. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standaardteam*</strong> </td> 
+      <td role="rowheader"><strong> StandaardTeam* </strong> </td> 
       <td>Voeg een actief team toe aan wie de nieuwe kwestie zou moeten worden toegewezen. U kunt slechts één standaardteam op dit gebied hebben.
 
    <p><b>OPMERKING</b></p>
 
-   Nadat de kwestie wordt voorgelegd, kunt u zijn taken uitgeven en andere gebruikers, rollen, of teams toewijzen. Zie voor meer informatie  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Problemen toewijzen</a>.
+   Nadat de kwestie wordt voorgelegd, kunt u zijn taken uitgeven en andere gebruikers, rollen, of teams toewijzen. Voor informatie, zie <a href="../../../manage-work/issues/manage-issues/assign-issues.md"> kwesties </a> toewijzen.
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Route aan Project</strong> </td> 
+      <td role="rowheader"><strong> Route aan Project </strong> </td> 
       <td>Dit is het project waar de kwestie wordt toegevoegd.</td> 
      </tr> 
     </tbody> 
@@ -135,14 +135,14 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
    >
    >*If een gebruiker, baanrol, of een team worden gedeactiveerd nadat zij met een verpletterende regel worden geassocieerd, blijven de verzoeken aan hen worden verpletterd. U moet periodiek een inventaris van alle verpletterende regels nemen en gedeactiveerde taken vervangen met actieve degenen.
 
-   Wanneer u een kwestie aan een project leidt, ontvangen de gebruikers met toestemmingen op de kwestie de toestemmingen die op dat project worden geplaatst. Voor informatie over het plaatsen van toestemmingen op projecten, zie [Een project delen in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   Wanneer u een kwestie aan een project leidt, ontvangen de gebruikers met toestemmingen op de kwestie de toestemmingen die op dat project worden geplaatst. Voor informatie over het plaatsen van toestemmingen op projecten, zie [ een project in Adobe Workfront ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
-   ![Het nieuwe Verpletterende vakje van de Regel](assets/new-routing-rule-box.png)
+   ![ Nieuwe Verpletterende doos van de Regel ](assets/new-routing-rule-box.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-   Dit proces bepaalt slechts de Verpletterende Regel. Om ervoor te zorgen dat de kwestie wordt verpletterd wanneer het aan de verzoekrij wordt voorgelegd, moet u de verpletterende regel op selecteren **Wachtrij** tab onder **Standaardroute**.
+   Dit proces bepaalt slechts de Verpletterende Regel. Om ervoor te zorgen dat de kwestie wordt verpletterd wanneer het aan de verzoekrij wordt voorgelegd, moet u de verpletterende regel op de **lusje van de Details van de Rij** StandaardRoute **selecteren.**
 
-   Voor informatie over het toevoegen van een StandaardRoute aan een verzoekrij, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Voor informatie over het toevoegen van een StandaardRoute aan een verzoekrij, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-   Als u veelvoudige verpletterende regels met de verzoekrij wilt associëren, moet u veelvoudige rijonderwerpen tot stand brengen en elk associëren met een afzonderlijke verpletterende regel. Voor meer informatie over het creëren van een rijonderwerp, zie [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+   Als u veelvoudige verpletterende regels met de verzoekrij wilt associëren, moet u veelvoudige rijonderwerpen tot stand brengen en elk associëren met een afzonderlijke verpletterende regel. Voor meer informatie over het creëren van een rijonderwerp, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.

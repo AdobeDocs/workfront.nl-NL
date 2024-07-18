@@ -41,35 +41,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      <li> <p>Projecten</p> </li> 
      <li> <p>Taken</p> </li> 
      <li> <p>Problemen</p> </li> 
-    </ul> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen </p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de projecten, taken en problemen </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Bronnen voor een project plannen
 
 Om tot het Plannende hulpmiddel in een project toegang te hebben:
 
 1. Ga naar het project waarvoor u middelen wilt plannen.
-1. Klik op de knop **Planning** of de sectie Werklastbalans in het linkerdeelvenster. De sectie van de Balancer van de Plannings of van de Werkbelasting zou onder kunnen worden gevestigd **Meer weergeven**.
+1. Klik de **Plannende** of de sectie van de Balancer van de Werkbelasting in het linkerpaneel. Het plannen of de sectie van de Balancer van de Werkbelasting zou onder **kunnen worden gevestigd tonen meer**.
 
    Voor informatie over het plannen van middelen die het Plannende hulpmiddel in een project gebruiken, zie de &quot;wijzig gebruikerstoewijzingen en toewijzingen&quot;sectie in het artikel &quot;krijgen begonnen met het Plannen van het Middel&quot;.
 
-1. (Voorwaardelijk en aanbevolen) Als u op Planning hebt geklikt, klikt u op **Overschakelen naar werklastbalans** om bronnen te plannen met behulp van Workload Balancer.
+1. (Voorwaardelijk en geadviseerd) als u het Plannen klikte, klik **Schakelaar aan de Balancer van de Werkbelasting** om middelen te plannen gebruikend de Balancer van de Werklast.
 
    >[!TIP]
    >
-   >Als u eerder werklastbalans hebt geselecteerd, verandert de naam van de sectie in Werklastbalans.
+   >Als u eerder werklastbalans hebt geselecteerd, verandert de naam van de sectie in Workload Balancer.
 
    Raadpleeg de volgende artikelen voor informatie over het plannen van bronnen met behulp van Workload Balancer:
 
-   * [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+   * [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
  

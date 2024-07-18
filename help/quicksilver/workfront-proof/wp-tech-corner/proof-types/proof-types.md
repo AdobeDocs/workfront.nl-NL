@@ -20,8 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [Proef statische website maken met [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+* [Een statische proefdruk voor websites maken met  [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)

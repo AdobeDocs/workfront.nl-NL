@@ -31,7 +31,7 @@ Als uw organisatie is aangemeld bij het Adobe Business Platform, gebruiken uw ge
 >
 >We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
-Ga voor instructies over het maken van Workfront-systeembeheerders naar [Systeembeheerders beheren in de Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Voor instructie bij het creëren van het systeembeheerders van Workfront, zie [ systeembeheerders in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Ga voor instructies over het maken van Workfront-systeembeheerders naar [Systeem
 
 ## Het SAML-certificaat verlengen
 
-Voor instructies voor het vernieuwen van het SAML-certificaat op de Adobe Admin Console raadpleegt u de sectie &quot;De digitale handtekening in de SAML-respons heeft niet gevalideerd...&quot; in [Probleemoplossing Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Voor instructies bij het vernieuwen van het certificaat van SAML op Adobe Admin Console, zie de sectie &quot;De digitale handtekening in de reactie van SAML ongeldig maakte niet...&quot;in [ Federated ID van het Oplossen van problemen ](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -185,10 +185,10 @@ Voor instructies voor het vernieuwen van het SAML-certificaat op de Adobe Admin 
 Omdat het Bedrijfs Platform van de Adobe Enige Sign-On (SSO) voor gebruikers controleert, worden de volgende acties en de functionaliteit automatisch behandeld door het Bedrijfs Platform van de Adobe. Als uw organisatie nog niet is aangemeld bij het Adobe Business Platform, moet u deze handelingen uitvoeren in Workfront.
 
 
-* [Adobe Workfront configureren met SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [Adobe Workfront configureren met SAML 2.0 met behulp van ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [Single Sign-On in Adobe Workfront deactiveren](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [SAML 2.0-metagegevens bijwerken in uw identiteitsprovider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Gebruikers bijwerken voor eenmalige aanmelding](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Wachtwoordbeleid voor verificatie configureren](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Systeembeveiligingsvoorkeuren configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [ vorm Adobe Workfront met SAML 2.0 ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+* [ vorm Adobe Workfront met SAML 2.0 gebruikend ADFS ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [ deactivate enig teken-op in Adobe Workfront ](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+* [ de meta-gegevens van SAML 2.0 van de Update in uw identiteitsleverancier ](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [ de gebruikers van de Update voor enig teken-op ](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [ vorm wachtwoordbeleid voor authentificatie ](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [ vorm de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

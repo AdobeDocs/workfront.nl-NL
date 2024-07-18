@@ -25,9 +25,9 @@ U kunt Workfront integreren met uw bestaande Single Sign-On (SSO)-oplossing. Dez
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van Single Sign-On in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-* [Gebruikers bijwerken voor eenmalige aanmelding](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [Adobe Workfront configureren met SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [SAML 2.0-metagegevens bijwerken in uw identiteitsprovider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [Adobe Workfront configureren met SAML 2.0 met behulp van ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [ Overzicht van enig teken-binnen in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+* [ de gebruikers van de Update voor enig teken-op ](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [ vorm Adobe Workfront met SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+* [ de meta-gegevens van SAML 2.0 van de Update in uw identiteitsleverancier ](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [ vorm Adobe Workfront met SAML 2.0 gebruikend ADFS ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Single Sign-On in Adobe Workfront deactiveren](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)

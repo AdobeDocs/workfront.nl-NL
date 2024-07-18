@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.1 [21.1 - releaseoverzicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Updates voor vereisten voor mislukte abonnementen voor gebeurtenissen
 
@@ -27,13 +27,13 @@ We werken de soft-disable vereisten van de mislukkingen van het Abonnement van d
 
 Bovendien voegen we vanaf februari 2021 vereisten voor hard-disable toe.
 
-Voor meer informatie over de nieuwe soft-disable en hard-disable vereisten, zie [Veelgestelde vragen - Abonnementen voor gebeurtenissen](../../../wf-api/general/event-subs-faq.md).
+Voor extra informatie over nieuwe soft-disable en hard-disable vereisten, zie [ FAQs - de Abonnementen van de Gebeurtenis ](../../../wf-api/general/event-subs-faq.md).
 
 ## De nieuwe gebieden van het Team beschikbaar aan de Dagelijkse Samenvatting
 
 We hebben velden voor teamgoedkeuring en toewijzingen toegevoegd aan de e-mail met dagelijkse controlesamenvatting voor handelingen.
 
-Zie voor meer informatie [Meldingen: Actie vereist](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Voor meer informatie, zie [ Meldingen: Actie nodig ](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 ## POP-e-mailoptie vervangen in aanvraagwachtrij
 
@@ -41,13 +41,13 @@ We vervangen de e-mailoptie POP voor aanvraagwachtrijen door een nieuw Workfront
 
 Deze wijzigingen kunt u testen in Voorvertoning.
 
-E-mail wordt automatisch uitgeschakeld in alle voorvertoningsomgevingen. Als u e-mail wilt inschakelen voor testdoeleinden, raadpleegt u [Verzending van e-mails vanuit de voorbeeldsandbox-omgeving inschakelen](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+E-mail wordt automatisch uitgeschakeld in alle voorvertoningsomgevingen. Om e-mail voor het testen doeleinden toe te laten, zie [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
-Zie voor meer informatie [Gebruikers toestaan een uitgave per e-mail te verzenden naar een aanvraagwachtrij-project](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Voor meer informatie, zie [ gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md) te e-mailen.
 
-Voor meer informatie over waarom wij deze verandering aanbrengen, zie [Nieuw Adobe Workfront-systeem dat POP-e-mail voor aanvraaglijsten vervangt door 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Voor meer informatie over waarom wij deze verandering maken, zie [ Nieuwe Adobe Workfront beheerde systeem om POP e-mail voor de Queues van het Verzoek met 21.1 te vervangen ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Deze functie is nu opgenomen in het dialoogvenster [Wachtrijbeheer in de nieuwe Workfront-ervaring](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) leerpad op Workfront One.
+Deze eigenschap is nu inbegrepen in het [ Beheer van de Rij in de nieuwe ervaring van Workfront ](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) het leren weg op Workfront Één.
 
 ## Uren bewerken op tijdbladen beperken
 
@@ -55,7 +55,7 @@ Om meer controle over timesheets en het uitgeven van uren te verstrekken, hebben
 
 Eerder konden gebruikers met de optie Timesheets &amp; Uren ingeschakeld in hun toegangsniveau uren op om het even welk timesheet uitgeven.
 
-Zie voor meer informatie [Voorkeuren voor tijdpagina&#39;s en uren configureren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor meer informatie, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ## Verbeterde filters en weergaven in het gebied Timesheets
 
@@ -64,14 +64,14 @@ Wij hebben de volgende verbeteringen toegevoegd wanneer u een Project, een Taak,
 * Filters: we hebben filters toegevoegd voor Projecten en problemen. Klik op Meer opties om deze filters weer te geven. Eerder, slechts hadden de Taken beschikbaar filtreren.
 * Weergaven: We hebben weergave- en groeperingsopties toegevoegd aan de zoekpagina.
 
-Zie voor meer informatie [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Het vak voor overwerk verbergen in de tijdbladen
 
 U kunt het vak voor overuren nu verbergen om verwarring onder de gebruikers te voorkomen als u overuren in Workfront niet bijhoudt. U kunt de overloopdoos voor een enig-gebruik timesheet of in het Profiel van de Tijdopnemer verbergen:
 
-* Tijdsoverzicht voor eenmalig gebruik: wanneer u ervoor kiest om het vak voor overuren te verbergen in een afzonderlijk tijdblad, wordt dit alleen voor dat tijdsplaat verborgen. Zie voor meer informatie [Een timesheet voor eenmalig gebruik maken](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Tijdbladprofiel: wanneer u ervoor kiest het vak voor overwerk te verbergen in het tijdbladprofiel, wordt het vak voor overwerk niet weergegeven in alle toekomstige tijdbladen die worden gemaakt voor de gebruiker(s) die aan dat profiel is toegewezen. Zie voor meer informatie [Werkbladprofielen maken, bewerken en toewijzen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Tijdsoverzicht voor eenmalig gebruik: wanneer u ervoor kiest om het vak voor overuren te verbergen in een afzonderlijk tijdblad, wordt dit alleen voor dat tijdsplaat verborgen. Voor meer informatie, zie [ een enig-gebruiks timesheet ](../../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
+* Tijdbladprofiel: wanneer u ervoor kiest het vak voor overwerk te verbergen in het tijdbladprofiel, wordt het vak voor overwerk niet weergegeven in alle toekomstige tijdbladen die worden gemaakt voor de gebruiker(s) die aan dat profiel is toegewezen. Voor meer informatie, zie [ creeer, geef uit, en wijs timesheet profielen ](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 
 Eerder kon u het vak voor overwerk niet verbergen op tijdbladen.
 

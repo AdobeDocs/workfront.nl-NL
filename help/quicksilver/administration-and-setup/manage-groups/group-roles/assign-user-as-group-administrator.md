@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Als beheerder van een groep, kunt u andere gebruikers als groepsbeheerders voor die groep toewijzen. Adobe Workfront-beheerders kunnen dit ook doen.
 
-Voor meer informatie over groepsbeheerders en wat zij kunnen doen, zie [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) en [Handelingen toegestaan voor verschillende typen beheerders](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+Voor meer informatie over groepsbeheerders en wat zij kunnen doen, zie {de beheerders van de Groep 1} en [ Acties die voor verschillende types van beheerders ](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md) worden toegestaan.[](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
 
-Zie voor algemene informatie over groepen [Overzicht van groepen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Voor algemene informatie over groepen, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Toegangsvereisten
 
@@ -37,21 +37,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Een gebruiker toewijzen als groepsbeheerder
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik de naam van de groep waarvoor u een groepsbeheerder wilt toewijzen.
-1. Klik in de koptekst, in de rechterbovenhoek, op een van de afbeeldingen in het gebruikersprofiel onder **Groepbeheerders**.
-1. Klik in het vak dat wordt weergegeven op **Zoeken naar een gebruiker**, typt u de naam van de gebruiker en klikt u op de naam wanneer deze wordt weergegeven.
+1. In de kopbal, dichtbij de hoger-juiste hoek, klik één van de beelden van het gebruikersprofiel onder **Beheerders van de Groep**.
+1. In de doos die toont, klik **Onderzoek naar een gebruiker**, begin de naam van de gebruiker te typen, dan de naam te klikken wanneer het verschijnt.
 1. Herhaal de vorige stap om andere gebruikers toe te voegen als groepsbeheerders voor de groep.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

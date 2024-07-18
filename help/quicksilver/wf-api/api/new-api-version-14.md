@@ -9,7 +9,7 @@ role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -30,28 +30,28 @@ Er zijn geen bronnen verwijderd voor API-versie 14.
 
 De volgende bronnen zijn gewijzigd voor API-versie 14.
 
-* [Factureringsrecord (BILL)](#billingrecord-bill)
-* [Categorie (CTGY)](#category-ctgy)
-* [CustomEnum (CSTEM)](#customenum-cstem)
-* [Klant (CUST)](#customer-cust)
-* [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
-* [DocumentVersion (DOCV)](#documentversion-docv)
-* [Groep (GROEP)](#group-group)
-* [NoteTag (NTAG)](#notetag-ntag)
-* [Project (PROJ)](#project-proj)
-* [QueueDef (QUED)](#queuedef-qued)
-* [Brontoewijzing (RSALLO)](#resource-allocation-rsallo)
-* [Rol (ROLE)](#role-role)
-* [Sjabloon (TMPL)](#template-tmpl)
+* [ BillingRecord (BILL) ](#billingrecord-bill)
+* [ Categorie (CTGY) ](#category-ctgy)
+* [ CustomEnum (CSTEM) ](#customenum-cstem)
+* [ Klant (CUST) ](#customer-cust)
+* [ CustomerPreferences (CUSTPR) ](#customerpreferences-custpr)
+* [ DocumentVersion (DOCV) ](#documentversion-docv)
+* [ Groep (GROEP) ](#group-group)
+* [ NoteTag (NTAG) ](#notetag-ntag)
+* [ Project (PROJ) ](#project-proj)
+* [ QueueDef (QUED) ](#queuedef-qued)
+* [ Toewijzing van het Middel (RSALLO) ](#resource-allocation-rsallo)
+* [ Rol (ROL) ](#role-role)
+* [ Malplaatje (TMPL) ](#template-tmpl)
 * [Tijdschema (TSHET)](#timesheet-tshet)
 
 ### Factureringsrecord (BILL) {#billingrecord-bill}
 
 Een object BillingRecord registreert de inkomsten, uren of kosten die in rekening kunnen worden gebracht. Deze informatie kan worden gebruikt om facturen op te stellen in een extern boekhoudsysteem.
 
-Voor meer informatie over factureringsverslagen raadpleegt u [Factureringsrecords maken](../../manage-work/projects/project-finances/create-billing-records.md).
+Voor meer informatie over het factureren verslagen, zie [ het factureren verslagen ](../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
-Het object BillingRecord heeft de vlag toegevoegd **DATA_EXTENDIBLE**.
+Het voorwerp BillingRecord voegde de vlag **DATA_EXTENDIBLE** toe.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,28 +61,28 @@ Het object BillingRecord heeft de vlag toegevoegd **DATA_EXTENDIBLE**.
    <td role="rowheader"> <p role="rowheader">Directe velden</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>categoryID</b> </p> <p>Toegevoegd. Een categorie is een aangepast formulier. Deze parameter is toegevoegd ter ondersteuning van de mogelijkheid om aangepaste Forms toe te voegen aan objecten BillingRecord.</p> </li> 
+     <li> <p><b> categoryID </b> </p> <p>Toegevoegd. Een categorie is een aangepast formulier. Deze parameter is toegevoegd ter ondersteuning van de mogelijkheid om aangepaste Forms toe te voegen aan objecten BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Referentievelden</td> 
    <td> 
     <ul> 
-     <li> <p><b>categorie</b> </p> <p>Toegevoegd. Een categorie is een aangepast formulier. Deze parameter is toegevoegd ter ondersteuning van de mogelijkheid om aangepaste formulieren toe te voegen aan objecten BillingRecord.</p> </li> 
+     <li> <p><b> categorie </b> </p> <p>Toegevoegd. Een categorie is een aangepast formulier. Deze parameter is toegevoegd ter ondersteuning van de mogelijkheid om aangepaste formulieren toe te voegen aan objecten BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Verzamelingsvelden</td> 
    <td> 
     <ul> 
-     <li> <p><b>objectCategories</b> </p> <p>Toegevoegd. Dit vertegenwoordigt een inzameling van Categorieën (douaneformulieren) verbonden aan het voorwerp BillingRecord.</p> </li> 
+     <li> <p><b> objectCategories </b> </p> <p>Toegevoegd. Dit vertegenwoordigt een inzameling van Categorieën (douaneformulieren) verbonden aan het voorwerp BillingRecord.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Handelingen</td> 
    <td> 
     <ul> 
-     <li> <p><b>calculateDataExtension</b> </p> <p>Toegevoegd. Met deze handeling worden de expressies in aangepaste formuliervelden opnieuw berekend.</p> </li> 
+     <li> <p><b> calculateDataExtension </b> </p> <p>Toegevoegd. Met deze handeling worden de expressies in aangepaste formuliervelden opnieuw berekend.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,7 +100,7 @@ Een object Categorie is een aangepast formulier.
    <td role="rowheader">Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p><b>catObjCode</b> </p> <p>Toegevoegde mogelijke waarde:</p> 
+     <li> <p><b> catObjCode </b> </p> <p>Toegevoegde mogelijke waarde:</p> 
       <ul> 
        <li> <p> BILL (BillingRecord)</p> </li> 
       </ul> <p>Deze waarde is toegevoegd ter ondersteuning van de mogelijkheid om aangepaste formulieren toe te voegen aan objecten BillingRecord.</p> </li> 
@@ -110,7 +110,7 @@ Een object Categorie is een aangepast formulier.
    <td role="rowheader">Handelingen</td> 
    <td> 
     <ul> 
-     <li> <p><b>isObjectFrozenInPendingApprovalStatus</b> </p> <p>Deze actie neemt de parameters objID en objCode, en keert boolean terug.</p> </li> 
+     <li> <p><b> isObjectFrozenInPendingApprovalStatus </b> </p> <p>Deze actie neemt de parameters objID en objCode, en keert boolean terug.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +128,7 @@ Het object CustomEnum helpt bij het omzetten van statuscodes in leesbare tekst.
    <td role="rowheader">Zoekopdrachten</td> 
    <td> 
     <ul> 
-     <li> <p><b>getGroupStatuses</b> </p> <p>Toegevoegd. Deze query ondersteunt de mogelijkheid om statussen voor groepen en subgroepen te maken en te beheren. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref">Groepsstatussen beheren</a>.</p> </li> 
+     <li> <p><b> getGroupStatuses </b> </p> <p>Toegevoegd. Deze query ondersteunt de mogelijkheid om statussen voor groepen en subgroepen te maken en te beheren. </p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md" class="MCXref xref"> groepsstatussen beheren </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -152,10 +152,10 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
    <td role="rowheader">Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p><b>name</b> </p> <p>Toegevoegde mogelijke waarde:</p> 
+     <li> <p><b> naam </b> </p> <p>Toegevoegde mogelijke waarde:</p> 
       <ul> 
        <li> <p>Gebruikers toestaan afbeeldingen toe te voegen in updates (updates:images.toggle)</p> </li> 
-      </ul> <p>Deze parameter ondersteunt de mogelijkheid om afbeeldingen toe te voegen aan updates van werkitems. </p> <p>Zie voor meer informatie <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Werk bijwerken</a>.</p> </li> 
+      </ul> <p>Deze parameter ondersteunt de mogelijkheid om afbeeldingen toe te voegen aan updates van werkitems. </p> <p>Voor meer informatie, zie <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref"> het werk van de Update </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -165,7 +165,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Zie voor meer informatie over documentversies [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md).
+Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
    <td role="rowheader">Directe velden</td> 
    <td> 
     <ul> 
-     <li> <p><b>lastCallbackDate</b> </p> <p>Toegevoegd. In dit veld worden de datum en het tijdstip vastgelegd van de laatste callback van Workfront Proof, als de versie aan een proefdruk is gekoppeld.</p> </li> 
+     <li> <p><b> lastCallbackDate </b> </p> <p>Toegevoegd. Dit gebied registreert de datum en de tijd van laatste callback van Workfront Proof, als de versie aan een proef wordt geassocieerd.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ Zie voor meer informatie over documentversies [Een nieuwe versie van een documen
 
 Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenwoordigen vaak de afdelingsstructuur.
 
-Zie voor meer informatie over groepen [Groepen versus teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Voor meer informatie over groepen, zie [ Groepen vs. teams in Adobe Workfront ](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -195,7 +195,7 @@ Zie voor meer informatie over groepen [Groepen versus teams in Adobe Workfront](
    <td role="rowheader">Handelingen</td> 
    <td> 
     <ul> 
-     <li> <p><b>addSubgroups</b> </p> <p>Toegevoegd. Deze actie neemt een serie van groupIDs en voegt die groepen als subgroups aan de gespecificeerde groep toe.</p> </li> 
+     <li> <p><b> addSubgroups </b> </p> <p>Toegevoegd. Deze actie neemt een serie van groupIDs en voegt die groepen als subgroups aan de gespecificeerde groep toe.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -205,7 +205,7 @@ Zie voor meer informatie over groepen [Groepen versus teams in Adobe Workfront](
 
 Een object NoteTag vertegenwoordigt de handeling waarbij een gebruiker of team wordt gelabeld in een update van een tijdelijk item.
 
-Voor meer informatie over het labelen in updates raadpleegt u [Andere tags toepassen op updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Voor meer informatie bij het etiketteren in updates, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -215,10 +215,10 @@ Voor meer informatie over het labelen in updates raadpleegt u [Andere tags toepa
    <td role="rowheader">Bewerkingen</td> 
    <td> <p>De volgende bewerkingen zijn toegevoegd aan het object NoteTag:</p> 
     <ul> 
-     <li> <p><b>TELLEN</b> </p> </li> 
-     <li> <p><b>GET</b> </p> </li> 
-     <li> <p><b>RAPPORT</b> </p> </li> 
-     <li> <p><b>ZOEKEN</b> </p> </li> 
+     <li> <p><b> TELLING </b> </p> </li> 
+     <li> <p><b> GET </b> </p> </li> 
+     <li> <p><b> RAPPORT </b> </p> </li> 
+     <li> <p><b> ZOEKEN </b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -236,7 +236,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
    <td role="rowheader">Handelingen</td> 
    <td> 
     <ul> 
-     <li> <p><b>updateBusinessCaseSource</b> </p> <p>Toegevoegd.</p> </li> 
+     <li> <p><b> updateBusinessCaseSource </b> </p> <p>Toegevoegd.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -246,7 +246,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het gebied van de Desk van de Hulp is gepubliceerd om gebruikers toe te staan om kwesties aan het voor te leggen.
 
-Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../
    <td role="rowheader">Handelingen</td> 
    <td> 
     <ul> 
-     <li> <p><b>searchByPath</b> </p> <p>Toegevoegd. Deze actie steunt de capaciteit om verzoeken te vinden door de weg door de verzoekrij en onderwerpgroepen te gebruiken.</p> <p>Voor meer informatie bij het zoeken van verzoekrijen door weg, zie <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Verzoeken maken en concepten genereren in de Workfront-webapp</a> in <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Adobe Workfront-aanvragen maken en verzenden</a>.</p> </li> 
+     <li> <p><b> searchByPath </b> </p> <p>Toegevoegd. Deze actie steunt de capaciteit om verzoeken te vinden door de weg door de verzoekrij en onderwerpgroepen te gebruiken.</p> <p>Voor meer informatie bij het zoeken van verzoekrijen door weg, zie <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref"> verzoeken creëren en ontwerpen in het Web van Workfront produceren app </a> in <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref"> creëren en voorleggen Adobe Workfront- verzoeken </a>.</p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -266,13 +266,13 @@ Zie voor meer informatie over Request Queuws [Een aanvraagwachtrij maken](../../
 
 Een voorwerp van de Toewijzing van het Middel vertegenwoordigt de raming van middelen nodig voor een bepaald project. Dit object wordt alleen gebruikt in de verouderde bronnenplanner. Voor het overeenkomstige gebied in de nieuwe Planner van het Middel, gebruik Boedgeted Uur (BGHR).
 
-Het object Resource Allocation heeft de markering verwijderd **RAPPORTAGE**.
+Het voorwerp van de Toewijzing van het Middel verwijderde de vlag **REPORTABLE**.
 
 ### Rol (ROLE) {#role-role}
 
 Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaardigheid die een gebruiker zou kunnen opvullen, zoals Designer of Product Manager.
 
-Zie voor informatie over taakrollen [Overzicht van de taakrol](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+Voor informatie over baanrollen, zie [ het roloverzicht van de Baan ](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -307,14 +307,14 @@ Een voorwerp van het Malplaatje vertegenwoordigt een patroon voor een project. P
    <td role="rowheader">Directe velden</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Toegevoegd. Dit veld is toegevoegd ter ondersteuning van de mogelijkheid om groepen te koppelen aan sjablonen.</p> <p style="font-weight: normal;">Zie voor meer informatie <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Projectsjablonen bewerken</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Toegevoegd. Dit veld is toegevoegd ter ondersteuning van de mogelijkheid om groepen te koppelen aan sjablonen.</p> <p style="font-weight: normal;">Voor meer informatie, zie <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref"> projectmalplaatjes </a> uitgeven.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Referentievelden</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groep</p> <p style="font-weight: normal;">Toegevoegd. Dit veld is toegevoegd ter ondersteuning van de mogelijkheid om groepen te koppelen aan sjablonen.</p> <p style="font-weight: normal;">Zie voor meer informatie <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Projectsjablonen bewerken</a>.</p> </li> 
+     <li style="font-weight: bold;"> <p>groep</p> <p style="font-weight: normal;">Toegevoegd. Dit veld is toegevoegd ter ondersteuning van de mogelijkheid om groepen te koppelen aan sjablonen.</p> <p style="font-weight: normal;">Voor meer informatie, zie <a href="../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref"> projectmalplaatjes </a> uitgeven.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

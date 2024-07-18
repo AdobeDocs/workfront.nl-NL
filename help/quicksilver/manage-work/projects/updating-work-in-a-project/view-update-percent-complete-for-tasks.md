@@ -49,17 +49,17 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Gebieden waar u het percentage van voltooiing van een taak kunt bijwerken
 
 U kunt het voltooide percentage voor een taak op een van de volgende gebieden bijwerken:
 
-* **In een takenlijst**: U kunt het voltooide percentage van een taak bijwerken wanneer de kolom Percentage voltooid wordt weergegeven.\
-  Zie voor meer informatie over inline bewerken [Items inline bewerken in een lijst in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **in een taaklijst**: U kunt het percentage bijwerken volledig van een taak wanneer de Percent Volledige kolom wordt getoond.\
+  Voor meer informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
-* **In de milestone-weergave**: U kunt het percentage bijwerken voltooide van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport. Zie voor meer informatie [De milestone-weergave gebruiken](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **in de mening van de Mijlpaal**: U kunt de percenten bijwerken volledig van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport. Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **In de taakkoptekst**: U kunt het percentage van een taak bijwerken in de taakkoptekst. Zie voor meer informatie [Taken bewerken](../../tasks/manage-tasks/edit-tasks.md).
+* **in de taakkopbal**: U kunt het percentage bijwerken volledig van een taak in de taakkopbal. Voor informatie, zie [ taken ](../../tasks/manage-tasks/edit-tasks.md) uitgeven.
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **In het deelvenster Samenvatting van een taak**: U kunt het percentage van een taak dat is voltooid boven in het deelvenster Overzicht bijwerken wanneer u de taak in de volgende gebieden weergeeft:
+* **in het Summiere paneel van een taak**: U kunt het percentage van een taak bij de bovenkant van het Summiere paneel bijwerken wanneer het bekijken van de taak op de volgende gebieden:
 
    * Taaklijst of rapport
    * Tijdschema
@@ -84,11 +84,11 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  Zie voor meer informatie [Overzicht van samenvattingen](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  Voor meer informatie, zie [ Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
-* **Home**: U kunt het volledige percentage van een taak of kwestie bijwerken van het Summiere paneel in het gebied van het Huis, of van Mijn Werk widget.
+* **Huis**: U kunt het percentage bijwerken volledig van een taak of kwestie van het Summiere paneel in het gebied van het Huis, of van Mijn Werk widget.
 
-Zie voor meer informatie  [Aan de slag met de nieuwe startpagina](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Voor informatie, zie [ Begonnen het worden met het nieuwe Huis ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Overwegingen bij het bijwerken van het percentage voltooide taken
 
@@ -97,7 +97,7 @@ Zie voor meer informatie  [Aan de slag met de nieuwe startpagina](/help/quicksil
    * U kunt niet het percentage bijwerken volledig van een oudertaak aan 100% wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en de subtaken niet worden voltooid.
    * U kunt het percentage volledig van een oudertaak aan 100% bijwerken wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
 
-  Zie voor meer informatie [Projecten bewerken](../manage-projects/edit-projects.md).
+  Voor meer informatie, zie [ projecten ](../manage-projects/edit-projects.md) uitgeven.
 
 ## Het percentage van een taak bijwerken
 
@@ -106,18 +106,18 @@ Zie voor meer informatie  [Aan de slag met de nieuwe startpagina](/help/quicksil
    * Een takenlijst
    * Een lijst met projecten en past de Mijlpaal-weergave toe
    * Een taak, door tot de taakpagina toegang te hebben
-1. Zoek de **Percentage voltooid** veld voor de taak waarvan het percentage is voltooid dat u wilt bijwerken.
+1. Bepaal de plaats van het **Volledige** gebied van de Percentage voor de taak waarvan percent voltooit u wilt bijwerken.
 
    >[!TIP]
    >
    >  Het veld Percentage voltooid wordt altijd boven in het deelvenster Overzicht weergegeven.
 
 
-1. Klik in het dialoogvenster **Percentage voltooid** veld en typ een getal tussen 0 en 100
+1. Klik binnen het **Volledige 1} gebied van de Percentage {en typ een aantal tussen 0 en 100**
 
    of
 
-   Klik en sleep de **Percentage voltooid** bar aan het noodzakelijke aantal om erop te wijzen hoeveel van de taak u, indien beschikbaar voltooide.
+   Klik en sleep de **Volledige bar van de Percentage** aan het noodzakelijke aantal om erop te wijzen hoeveel van de taak u voltooide, wanneer beschikbaar.
 
    >[!NOTE]
    >

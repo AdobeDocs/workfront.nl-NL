@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Als beheerder van Adobe Workfront, kunt u het Web van Workfront en mobiele toepassingen vormen om met een oplossing van de Prijsverhoging van de Veiligheid (SAML) 2.0 voor enig teken-binnen (SSO) te integreren.
 
-Nadat u SAML 2.0 in Workfront hebt gevormd, zoals die in de volgende secties wordt beschreven, kunt u de configuratie handhaven, zoals die in [SAML 2.0-metagegevens bijwerken in uw identiteitsprovider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+Nadat u SAML 2.0 in Workfront hebt gevormd, zoals die in de volgende secties wordt beschreven, kunt u de configuratie handhaven, zoals die in [ wordt beschreven Update SAML 2.0 meta-gegevens in uw identiteitsleverancier ](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,11 +65,11 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 {{step-1-to-setup}}
 
-1. Klikken **Systeem** > **Single Sign-On (SSO).**
+1. Klik **Systeem** > **Enige Sign-On (SSO).**
 
-1. In de **Type** vervolgkeuzelijst, selecteert u **SAML 2.0**
+1. In de **drop-down lijst van het Type**, uitgezochte **SAML 2.0.**
 
-1. Klik boven aan de opties die worden weergegeven op **SAML 2.0-metagegevens downloaden** om het bestand op uw computer te downloaden.
+1. Dichtbij de bovenkant van de opties die verschijnen, klik **de Metagegevens van SAML 2.0 van de Download** om het dossier op uw computer te downloaden.
 
    Uw SAML 2.0-identiteitsprovider vereist een XML-bestand met informatie die in uw Workfront-instantie is gegenereerd. Nadat u het bestand hebt gedownload, hebt u toegang tot uw SAML 2.0 Identity Provider-server en moet u het XML-bestand met Workfront SAML 2.0-metagegevens daar uploaden.
 
@@ -81,10 +81,10 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
     <tbody>
      <tr>
       <td role="rowheader">Service Provider-id </td>
-      <td> Deze URL, die al voor u is ingevuld, identificeert Workfront aan uw identiteitsprovider. Bijvoorbeeld: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
+      <td> Deze URL, die al voor u is ingevuld, identificeert Workfront aan uw identiteitsprovider. Bijvoorbeeld: <code>&lt;yourcompany&gt;.com/SAML2</code> .</td>
      </tr>
      <tr>
-      <td role="rowheader">Bindingstype</span> </td>
+      <td role="rowheader">Type binding </span> </td>
       <td> <p>Selecteer de methode die door uw IDP-server wordt ondersteund voor het verzenden van verificatiegegevens:</p>
        <ul>
        <li>POST</li>
@@ -93,15 +93,15 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr>
      <tr>
       <td role="rowheader">Velden vullen met metagegevens van identiteitsprovider </td> 
-      <td>Exporteer in uw SAML 2.0 Identity Provider-oplossing een XML-bestand met metagegevens van een Service Provider en sla dit op een tijdelijke locatie op uw computer op. Selecteren <strong>Bestand kiezen</strong>, zoekt en selecteert u het bestand dat u hebt opgeslagen om het toe te voegen aan uw Workfront-configuratie.</td> 
+      <td>Exporteer in uw SAML 2.0 Identity Provider-oplossing een XML-bestand met metagegevens van een Service Provider en sla dit op een tijdelijke locatie op uw computer op. Selecteer <strong> kiezen Dossier </strong>, dan vinden en selecteren het dossier u bewaarde om het aan uw configuratie van Workfront toe te voegen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">URL aanmeldingsportaal</span> </td> 
+      <td role="rowheader">Aanmeldingsportal-URL </span> </td> 
       <td>Voer de gemeenschappelijke aanmeldingsportaal van uw organisatie in. Dit is URL waar de gebruikers login om tot Workfront en alle andere toepassingen toegang te hebben die met SAML 2.0 worden geïntegreerd.</td> 
      </tr>
      <tr>
-      <td role="rowheader">Afmeldings-URL</span> </td> 
-      <td> <p>Voer de aanmeldings-URL voor de IDP-server in. Workfront verzendt een HTTP-aanvraag naar deze URL voordat het zich afmeldt bij Workfront. Hiermee wordt de sessie van de gebruiker op de externe server gesloten wanneer de Workfront-sessie wordt gesloten.</p> <p><b>OPMERKING</b>: U wordt alleen omgeleid naar de aanmeldings-URL als u de optie hebt <strong>Alleen SAML 2.0-verificatie toestaan</strong> ingeschakeld in uw gebruikersprofiel.</p> </td>
+      <td role="rowheader">Afmeldings-URL </span> </td> 
+      <td> <p>Voer de aanmeldings-URL voor de IDP-server in. Workfront verzendt een HTTP-aanvraag naar deze URL voordat het zich afmeldt bij Workfront. Hiermee wordt de sessie van de gebruiker op de externe server gesloten wanneer de Workfront-sessie wordt gesloten.</p> <p><b> NOTA </b>: U wordt opnieuw gericht aan sign-out URL slechts als u de optie <strong> hebt slechts SAML 2.0 Authentificatie </strong> toelaat die in uw gebruikersprofiel wordt toegelaten.</p> </td>
      </tr>
      <tr>
       <td role="rowheader">Wachtwoord-URL wijzigen </td> 
@@ -116,7 +116,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Gebruikers voor automatische voorzieningen</span> </td> 
+      <td role="rowheader">Gebruikers voor automatische voorzieningen </span> </td> 
       <td> <p>Met deze optie wordt automatisch een gebruiker in het systeem gemaakt wanneer een nieuwe gebruiker met een gebruikersnaam en wachtwoord voor de directory zich voor het eerst bij Workfront aanmeldt.</p> <p>Als u gebruikers in Workfront wilt maken, moet u Workfront-gegevenskenmerken toewijzen aan de volgende gebruikersgegevenskenmerken in uw mappenprovider:</p> 
        <ul> 
        <li>Voornaam</li> 
@@ -126,9 +126,9 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
        <p>Als u het selectievakje inschakelt, worden de volgende opties weergegeven:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>Selecteer het Workfront-gebruikerskenmerk dat u wilt toewijzen in de vervolgkeuzelijst en geef vervolgens het bijbehorende Directory-kenmerk op in de gebruikersmap.</p> 
-       <p>De <strong>Directory-kenmerk</strong> het gebied zou de Naam van het Attribuut van de Folder van de lijst van het Attribuut van de Gebruiker moeten bevatten u wanneer met succes het testen van uw configuratie SAML 2.0 bewaarde.</p> 
-       <p>U kunt een standaard Workfront-waarde instellen in het dialoogvenster <strong>Standaardwaarde</strong> veld. U kunt regels ook instellen op basis van de waarden van uw SAML 2.0-identiteitsprovider.</p> 
-       <p><b>WAARSCHUWING</b>: Workfront probeert de hieronder vermelde kenmerken toe te wijzen telkens wanneer een gebruiker zich aanmeldt bij het systeem. Wegens dit, adviseren wij kaarttoegangsniveaus niet. U kunt beheertoegang eenvoudig verwijderen als een kenmerk onjuist is toegewezen. Klikken <strong>Toewijzing toevoegen</strong> om aanvullende regels toe te voegen.
+       <p>Het <strong> gebied van het Attribuut van de Folder </strong> zou de Naam van het Attribuut van de Folder van de lijst van het Attribuut van de Gebruiker moeten bevatten u wanneer met succes het testen van uw configuratie SAML 2.0 bewaarde.</p> 
+       <p>U kunt een StandaardWaarde van Workfront op het <strong> Standaardgebied van de Waarde </strong> plaatsen. U kunt regels ook instellen op basis van de waarden van uw SAML 2.0-identiteitsprovider.</p> 
+       <p><b> WAARSCHUWING </b>: Workfront probeert om de hieronder vermelde attributen in kaart te brengen telkens als een gebruiker zich in het systeem aanmeldt. Wegens dit, adviseren wij kaarttoegangsniveaus niet. U kunt beheertoegang eenvoudig verwijderen als een kenmerk onjuist is toegewezen. Klik <strong> Toewijzing </strong> toevoegen om extra regels toe te voegen.
        </p> 
        <p>U kunt de volgende Workfront-kenmerken toewijzen:</p> 
       <ul> 
@@ -156,7 +156,7 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
       <li> <p>Tijdbladprofiel</p> </li> 
       <li> <p>Titel</p> </li> 
       </ul>
-      <p>Klikken <strong>Opslaan</strong> wanneer u klaar bent met het toewijzen van gebruikerskenmerken.</p> </td> 
+      <p>Klik <strong> sparen </strong> wanneer u voltooide attributen van de kaartgebruiker bent.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Certificaat </td> 
@@ -170,19 +170,19 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
      </tr> 
      <tr> 
       <td role="rowheader">Inschakelen </td> 
-      <td> <p>Activeert SSO op het systeem van Workfront. Zorg ervoor dat u aanmeldingsinstructies aan uw gebruikers hebt doorgegeven.</p> <p>Nadat u de SSO-configuratie in Workfront hebt ingeschakeld, moet u de <strong>Alleen SAML 2.0-verificatie toestaan</strong> het plaatsen voor alle gebruikers zodat zij SSO kunnen gebruiken.</p> <p>Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Gebruikers bijwerken voor eenmalige aanmelding</a>.</p> <p>Zie voor meer informatie over gebruikersinstellingen <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Gebruikersprofiel bewerken</a>.</p> </td> 
+      <td> <p>Activeert SSO op het systeem van Workfront. Zorg ervoor dat u aanmeldingsinstructies aan uw gebruikers hebt doorgegeven.</p> <p>Nadat u uw configuratie SSO in Workfront toelaat, moet u <strong> toelaten slechts SAML 2.0 Authentificatie </strong> die voor alle gebruikers plaatst zodat zij SSO kunnen gebruiken.</p> <p>Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> <p>Voor meer informatie over gebruikersmontages, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configuratie bevestigen </td> 
       <td> 
-      <p>Klikken <strong>Verbinding testen</strong> om te controleren of Workfront en SAML 2.0 Identity Provider met elkaar kunnen communiceren. Deze verbinding is alleen gelukt als u de XML-bestanden hebt uitgewisseld.
+      <p>Klik <strong> Verbinding van de Test </strong> om te verifiëren dat Workfront en SAML 2.0 de Leverancier van de Identiteit met elkaar kunnen communiceren. Deze verbinding is alleen gelukt als u de XML-bestanden hebt uitgewisseld.
       </p> 
       <p>Nadat u de koppeling tussen uw SAML 2.0-identiteitsprovider en Workfront hebt getest, wordt een scherm weergegeven dat lijkt op de onderstaande afbeelding.</p>
-      <p><b>OPMERKING</b>: Dit scherm wordt weergegeven in een pop-upbrowser, zodat u de optie voor het blokkeren van pop-ups in uw browser uitschakelt.</p>
+      <p><b> NOTA </b>: Dit scherm wordt getoond in browser pop-up, zodat zorg ervoor dat u pop-up blockers in uw browser onbruikbaar maakt.</p>
       <p>Sla de informatie op die in de tabel wordt weergegeven, zodat u deze later kunt gebruiken.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan** om SAML 2.0 te bewaren configuratie.
+1. Klik **sparen** om SAML 2.0 configuratie te bewaren.

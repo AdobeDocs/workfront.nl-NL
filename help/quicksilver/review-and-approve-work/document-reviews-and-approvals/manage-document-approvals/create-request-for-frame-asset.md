@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de bijgewerkte goedkeuringsfunctionaliteit die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de bijgewerkte goedkeuringsfunctionaliteit die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 <!--
 ## Access requirements
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## Een revisie- of goedkeuringsaanvraag maken met de documentsamenvatting
 
-1. Ga naar het project, de taak, of de kwestie die Frame.io verbonden bevat, dan uitgezocht **Documenten**.
+1. Ga naar het project, de taak, of de kwestie die Frame.io verbonden bevat, dan selecteren **Documenten**.
 
    >[!TIP]
    >
@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. Klik op het met Frame.io verbonden element dat u nodig hebt om het deelvenster Documentoverzicht te openen.
 
-1. (Optioneel) In het dialoogvenster **Versie** selecteert u de versie van het element waarvoor u goedkeuring wilt maken. De meest recente versie is standaard geselecteerd.
+1. (Facultatief) in het **drop-down menu van de Versie**, selecteer de versie van de activa u een goedkeuring voor wilt tot stand brengen. De meest recente versie is standaard geselecteerd.
 
-1. Omlaag schuiven naar de **Goedkeuringen** en klik vervolgens op **Toevoegen**.
+1. De rol neer aan de **goedkeurt** sectie, dan klikt **voegt** toe.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
-1. Als u een fiatteur wilt toevoegen, klikt u op de knop **Fiatteur** en begint te typen in een gebruiker- of teamnaam.
+1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Als u een revisor wilt toevoegen, klikt u op de knop **Revisor** Schakel het selectievakje in en typ een gebruiker- of teamnaam.
+1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -79,18 +79,18 @@ You must have the following access to perform the steps in this article:
 
 ## Een revisie- of goedkeuringsaanvraag maken op de pagina Documentdetails
 
-1. Houd de cursor boven het document en klik vervolgens op **Documentdetails**.
+1. Beweeg over het document, dan klik **Details van het Document**.
    ![](assets/doc-details.png)
 
 1. Selecteer bij de documentnaam de versie van het document waarvoor u een goedkeuring wilt maken. De meest recente versie is standaard geselecteerd.
 
-1. Klik in het linkerdeelvenster op **Goedkeuringen**.
+1. In het linkerpaneel, klik **goedkeurt**.
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
-1. Als u een fiatteur wilt toevoegen, klikt u op de knop **Fiatteur** en begint te typen in een gebruiker- of teamnaam.
+1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Als u een revisor wilt toevoegen, klikt u op de knop **Revisor** Schakel het selectievakje in en typ een gebruiker- of teamnaam.
+1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
 
    ![](assets/add-approver-and-deadline.png)
 

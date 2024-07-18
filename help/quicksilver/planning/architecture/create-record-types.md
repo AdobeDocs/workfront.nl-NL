@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
 
-Zie voor meer informatie over recordtypen [Overzicht van recordtypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor meer informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Toegangsvereisten
 
@@ -67,12 +67,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt
 </td>
   </tr>
@@ -97,7 +97,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Automatisch:
       * Wanneer u een werkruimte maakt met een sjabloon.
 
-        Zie voor meer informatie [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+        Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
       * Wanneer u ze importeert met een Excel- of CSV-bestand.
 
@@ -127,9 +127,9 @@ Wanneer u een werkruimte maakt op basis van een sjabloon, worden de recordtypen 
 
 U kunt recordtypen handmatig toevoegen in zowel de secties Typen operationele records als Taxonomies.
 
-Zie voor informatie over het maken van werkruimten [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md).
+Voor informatie over het creëren van werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-Voor informatie over welke recordtypen in elke sjabloon worden opgenomen, raadpleegt u [Lijst met werkruimtemalplaatjes](/help/quicksilver/planning/architecture/workspace-templates.md).
+Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie [ Lijst van werkruimtesjablonen ](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Een geheel nieuw recordtype maken
 
@@ -140,28 +140,28 @@ Voor informatie over welke recordtypen in elke sjabloon worden opgenomen, raadpl
    of
 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
-1. (Optioneel) Klik op **Sectie toevoegen** om een nieuwe sectie aan de werkruimte toe te voegen.
-1. Klikken **Recordtype toevoegen**.
-1. (Voorwaardelijk) Wanneer u recordtypen maakt door een Excel- of CSV-bestand te importeren, klikt u op **Van kras**. Anders wordt de **Recordtype toevoegen** wordt geopend.
+1. (Facultatief) klik **sectie** toevoegen om een nieuwe sectie aan de werkruimte toe te voegen.
+1. Klik **toevoegen verslagtype**.
+1. (Voorwaardelijk) wanneer het creëren van verslagtypes door een dossier van Excel of CSV in te voeren wordt toegelaten, klik **van kras**. Anders, voegt **recordtype** doos toe opent.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
 1. Werk de volgende gegevens bij:
 
    * Vervang &quot;Naamloos recordtype&quot; door de naam van het toekomstige recordtype. <!--did they bring back the field label here and did they rename it to "Name"-->
-   * **Beschrijving**: Voeg meer informatie toe over het recordtype.
+   * **Beschrijving**: Voeg meer informatie over het verslagtype toe.
    * Selecteer een kleur en vorm voor het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
       * Selecteer een kleur voor het nieuwe recordtype. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    De recordtypekaart wordt toegevoegd aan de sectie en de werkruimte die u hebt geselecteerd.
 De beschrijving van het recordtype wordt weergegeven op de kaart.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Optioneel) Klik op de knop met het recordtype **Meer** pictogram ![](assets/more-menu.png) in de rechterbovenhoek klikt u op **Bewerken** om informatie over het recordtype te wijzigen.
+1. (Facultatief) Beweeg over de kaart van het verslagtype, klik **Meer** pictogram ![](assets/more-menu.png) in de hoger-juiste hoek, dan klik **geeft** uit om informatie over het verslagtype te wijzigen.
 1. (Optioneel) Klik op de kaart met het recordtype om de pagina met het recordtype te openen.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,12 +184,12 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
 
    of
 
-   Klik op de knop **Meer** pictogram ![](assets/more-menu.png) rechts van de naam van het recordtype en klik op **Bewerken** om de naam ervan te wijzigen of om de informatie erover te wijzigen. Zie voor meer informatie [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klik **Meer** pictogram ![](assets/more-menu.png) aan het recht van de naam van het verslagtype en klik **uitgeven** om het anders te noemen of de informatie over het te veranderen. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-1. (Optioneel) Klik op **+ Nieuwe record** records van het geselecteerde recordtype toevoegen. Zie voor meer informatie [Records maken](/help/quicksilver/planning/records/create-records.md).
-1. (Optioneel) Klik op de knop **+** in de rechterbovenhoek van de tabel om meer velden aan het recordtype toe te voegen.
+1. (Optioneel) Klik op **+ Nieuwe record** om records van het geselecteerde recordtype toe te voegen. Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+1. (Optioneel) Klik op het pictogram **+** rechtsboven in de tabel om meer velden aan het recordtype toe te voegen.
 
-   Zie voor meer informatie over het maken van velden [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
+   Voor meer informatie over het creëren van gebieden, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 1. (Optioneel) Klik op de pijl die naar links wijst links van de naam van het recordtype in de koptekst om terug te gaan naar de geselecteerde werkruimte.
 
@@ -202,7 +202,7 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
    * [Records maken](/help/quicksilver/planning/records/create-records.md)
    * [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [Recordweergaven beheren](/help/quicksilver/planning/views/manage-record-views.md)
+   * [ beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md)
 
 ## Recordtypen maken door een Excel- of CSV-bestand te importeren
 
@@ -231,10 +231,10 @@ Recordtypen importeren met een Excel-bestand:
    of
 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
-1. Klikken **Recordtype toevoegen**.
-1. Klikken **Excel/CSV**.
-1. Sleep en zet een Excel- of CSV-bestand neer dat eerder op uw computer is opgeslagen, of klik op **Een CSV- of Excel-bestand selecteren** om er een te zoeken.
-1. Klikken **Uw gegevens bekijken**.
+1. Klik **toevoegen verslagtype**.
+1. Klik **Excel/CSV**.
+1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
+1. Klik **Overzicht uw gegevens**.
 
    Het vak Voorbeeld en bewerking wordt weergegeven met de volgende informatie:
 
@@ -251,13 +251,13 @@ Recordtypen importeren met een Excel-bestand:
    >    Lege bladen worden niet ondersteund en worden grijs weergegeven.
 
 
-1. (Optioneel) Klik op de knop **Te importeren bladen selecteren** en deselecteer de bladen die u niet wilt importeren.
+1. (Facultatief) klik de **Uitgezochte bladen om** drop-down menu in te voeren en de bladen te schrappen die u niet wilt invoeren.
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    Bladen die u hebt uitgeschakeld, worden weergegeven met een grijze achtergrond.
 
-1. Klikken **Importeren** als u klaar bent om uw bestand te importeren.
+1. Klik **Invoer** wanneer u bereid bent om uw dossier in te voeren.
 
    De volgende informatie wordt geïmporteerd in Workfront Planning:
 

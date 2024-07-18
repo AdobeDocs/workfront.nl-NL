@@ -15,6 +15,6 @@ ht-degree: 0%
 
 # Goedkeuringen van documenten en proefdrukken
 
-U kunt gebruikers vragen een document goed te keuren dat u uploadt naar Workfront. Zie voor meer informatie [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+U kunt gebruikers vragen een document goed te keuren dat u uploadt naar Workfront. Voor informatie, zie [ het documentgoedkeuringen van het Verzoek ](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-U kunt gebruikers ook vragen om een document in Adobe Workfront te bekijken als een proefdruk met behulp van de proefdrukviewer. De proefdrukviewer bevat gereedschappen waarmee u inhoud kunt markeren en opmerkingen kunt maken. Zie voor meer informatie [Proefdrukken maken](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
+U kunt gebruikers ook vragen om een document in Adobe Workfront te bekijken als een proefdruk met behulp van de proefdrukviewer. De proefdrukviewer bevat gereedschappen waarmee u inhoud kunt markeren en opmerkingen kunt maken. Voor informatie, zie [ proeven ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md) creëren.

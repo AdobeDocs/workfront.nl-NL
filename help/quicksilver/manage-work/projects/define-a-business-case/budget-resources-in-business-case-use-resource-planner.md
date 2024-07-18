@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Als deel van middelplanning, kunt u de project-vlakke Planner van het Middel gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
-Ga voor meer informatie over het maken van een business case naar [Een bedrijfscase maken voor een project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Voor meer informatie over het creëren van een bedrijfsgeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 >[!TIP]
 >
->De informatie u in de project-vlakke Planner van het Middel ingaat is ook zichtbaar in de systeem-vlakke Planner van het Middel. Het omgekeerde geldt ook. Voor informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>De informatie u in de project-vlakke Planner van het Middel ingaat is ook zichtbaar in de systeem-vlakke Planner van het Middel. Het omgekeerde geldt ook. Voor informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Scenario van Adobe Workfront. Zie voor meer informatie [De middelen van de begroting in BedrijfsGeval die Scenario Planner gebruiken](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Scenario van Adobe Workfront. Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Toegangsvereisten
 
@@ -33,12 +33,12 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a>*</td> 
    <td> <p>Pro of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
-   <td> <p>Controleren of hoger</p> <p>Belangrijk: U moet een licentie voor het abonnement hebben om de informatie over het budgetteren van bronnen te wijzigen. </p> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>*</td> 
+   <td> <p>Controleren of hoger</p> <p>Belangrijk: u moet een licentie voor het abonnement hebben om de budgetteringsgegevens voor bronnen te wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -47,127 +47,141 @@ U moet het volgende hebben:
      <li> <p>Projecten</p> </li> 
      <li> <p>Bronbeheer</p> </li> 
      <li> <p>Financiële gegevens</p> </li> 
-    </ul> <p>Voor informatie over de toegang tot begrotingsmiddelen, zie ook <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Toegang tot begrotingsmiddelen in Adobe Workfront</a>.</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Adobe Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+    </ul> <p>Voor informatie over de toegang nodig aan begrotingsmiddelen, zie ook <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref"> Toegang nodig aan begrotingsmiddelen in Adobe Workfront </a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Adobe Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 Voordat u begint, moet u het volgende doen:
 
-* Voldoe aan alle voorwaarden voor middelplanning in Adobe Workfront. Zie voor meer informatie [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Voldoe aan alle voorwaarden voor middelplanning in Adobe Workfront. Voor informatie, zie [ overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Brongroepen koppelen aan het project.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:(you must have tasks assigned to job roles and users on the project - this is optional because the users and their roles come from the pools))</p>
   -->
 
-   >[!NOTE]
-   U kunt geen middelen begroten die aan kwesties in de BedrijfsGeval worden toegewezen. U kunt ze begroten in de bronnenplanner op systeemniveau. Voor meer informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >[!NOTE]
+  >
+  >U kunt geen middelen begroten die aan kwesties in de BedrijfsGeval worden toegewezen. U kunt ze begroten in de bronnenplanner op systeemniveau. Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Hoewel dit geen voorwaarde is, adviseren wij ook dat u op Geplande Uren voor de taken op het project wijst. Dit helpt u begrijpen hoeveel werk een taak zou kunnen moeten voltooien die met het besluit van veel tijd de middelen voor de voltooiing van de taak zou moeten worden begroot. Voor informatie over het associëren van taken met Geplande Uren, zie [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Hoewel dit geen voorwaarde is, adviseren wij ook dat u op Geplande Uren voor de taken op het project wijst. Dit helpt u begrijpen hoeveel werk een taak zou kunnen moeten voltooien die met het besluit van veel tijd de middelen voor de voltooiing van de taak zou moeten worden begroot. Voor informatie over het associëren van taken met Geplande Uren, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Bronnenpools toepassen op een project en budgetbronnen in de bedrijfscase
 
 >[!IMPORTANT]
-U kunt uw middelen voor een periode van 15 jaar begroten. Als u middelen begroot voor een project met een looptijd van meer dan 15 jaar, is de begrotingsinformatie misschien niet correct.
+>
+>U kunt uw middelen voor een periode van 15 jaar begroten. Als u middelen begroot voor een project met een looptijd van meer dan 15 jaar, is de begrotingsinformatie misschien niet correct.
 
 Om de Pools van het Middel en de middelen van het begrotingsproject in het BedrijfsGeval voor een project zonder Groep van het Middel toe te passen:
 
 1. Ga naar het project waarvoor u middelen wilt begroten.
-1. Klikken **Bedrijfs-case** in het linkerdeelvenster.
-1. (Voorwaardelijk) Als uw bedrijf geen licentie voor de Workfront Scenario Planner heeft, klikt u op **Resource Budgeting bewerken** in de **Bronnen begroten** en gaat u verder met stap 5.
+1. Klik **Bedrijfs Geval** in het linkerpaneel.
+1. (Voorwaardelijk) als uw bedrijf geen vergunning voor de Planner van het Scenario van Workfront heeft, klik **uitgeven Middel die** in de **Begrotende sectie van het Middel** in de begroting plaatst, dan met stap 5 verdergaat.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(NOTE: ensure it stays right - this is 5 instead of 6 because step 2 won't print for nwe)</p>
    -->
 
-1. (Facultatief en voorwaardelijk) als de projectinformatie uit een initiatief op de Planner Scenario is gepubliceerd, doe één van het volgende:
+1. (Facultatief en voorwaardelijk) als de projectinformatie van een initiatief op de Planner Scenario is gepubliceerd, doe één van het volgende:
 
-   * Bronnen selecteren in het dialoogvenster **Kies welke uren u wilt gebruiken om de begrote arbeidskosten van het project te berekenen** veld, klik vervolgens op **Kies > Bronbudgettering bewerken**.
+   * Selecteer de Planner van het Middel in **kiezen welke uren om de Begrotende Kosten van de Arbeid van het project** gebied te gebruiken, dan **kiezen > uitgeven Middel het Begrotend**.
 
-      ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
-   * Als Scenario Planner voor het opnemen van middelen voor het project werd geselecteerd, klik **Wijzigen** > **Resource Budgeting bewerken**.
+   * Als de Planner van het Scenario voor het in de begroting opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **geef het Middel in de begroting op**.
 
-      ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+
    Dit gebruikt de begrotingsuren van het project om de begrote arbeidskosten voor het project te berekenen.
 
-   De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Workfront Scenario Planner raadpleegt u [Overzicht van de functie Scenario Planner](../../../scenario-planner/scenario-planner-overview.md).
+   De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
-   Wij adviseren dat u het besluit neemt of om de Planner van het Middel of de Planner van het Scenario te gebruiken wanneer u begint werkend aan een project. Het vaak schakelen tussen beide tijdens de levensduur van het project kan tot inconsistenties in de manier leiden u uw middelen voor het project begroot.
+   >
+   >Wij adviseren dat u het besluit neemt of om de Planner van het Middel of de Planner van het Scenario te gebruiken wanneer u begint werkend aan een project. Het vaak schakelen tussen beide tijdens de duur van het project kan tot inconsistenties in de manier leiden u uw middelen voor het project begroot.
 
-1. In de **Brongroep selecteren** veld, geef een of meerdere **Brongroepen**.
+1. Op het **Uitgezochte Pool van het Middel** gebied, specificeer één of verscheidene **Pools van het Middel**.
 
    U moet alleen bronnenpools opgeven die zijn gevuld met actieve gebruikers.
 
    >[!TIP]
-   Als het project reeds met de Pools van het Middel wordt geassocieerd, toont de Planner van het Middel door gebrek. Om meer Pools van het Middel aan het project toe te voegen, geef het project uit. Voor informatie over het bewerken van een project raadpleegt u [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+   >
+   >Als het project reeds met de Pools van het Middel wordt geassocieerd, toont de Planner van het Middel door gebrek. Om meer Pools van het Middel aan het project toe te voegen, geef het project uit. Voor informatie over het uitgeven van een project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-1. Klikken **Toepassen**.
+1. Klik **toepassen**.
 
    De Planner van het Middel wordt getoond, voor het geselecteerde project.
 
    Door gebrek, zijn de eerste 20 baanrollen verbonden aan dit project vermeld in de sectie van de Begroting van het Middel in alfabetische orde. 
 
-   Voor meer informatie over de Planner van het Middel, zie [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   ![ BC_resource_budgeting_area.png ](assets/bc-resource-budgeting-area-350x276.png)
 
 1. (Optioneel en voorwaardelijk) Vergroot de taakrollen om de gebruikers te zien die aan deze rollen zijn gekoppeld.
 
    >[!NOTE]
-   De actieve gebruikers worden getoond onder de baanrollen verbonden aan hen slechts als zij aan de volgende criteria voldoen:
-   * Zij behoren tot één van de Groepen van Middel van het project.
-   * Ze hebben de toegewezen uren begroot.
-   * Zij worden geassocieerd met één van de baanrollen van het project.
-
+   >
+   >De actieve gebruikers worden getoond onder de baanrollen verbonden aan hen slechts als zij aan de volgende criteria voldoen:
+   >
+   >   
+   >   
+   >   * Zij behoren tot één van de Groepen van Middel van het project.
+   >   * Ze hebben de toegewezen uren begroot.
+   >   * Zij worden geassocieerd met één van de baanrollen van het project.
+   >   
+   >
 
     
 
-1. Klikken **Vandaag** om terug te keren naar het huidige tijdpad.
-1. (Optioneel) Klik op **Week**, **Maand** of **Kwart** om informatie voor het project in verschillende tijdkaders te tonen.
-1. (Optioneel) Klik op de knop **Uren** en selecteert u **Uren**,**FTE**, of **Kosten** om te veranderen hoe de informatie in de Planner van het Middel toont. Standaardweergave in uren.
+1. Klik **vandaag** om aan het tijdkader van vandaag terug te keren.
+1. (Facultatief) klik **Week**, **Maand** of **Kwartaal** aan vertoningsinformatie voor het project in verschillende tijdkaders.
+1. (Facultatief) klik het **drop-down menu van Uren**, en selecteer **Uren**, **VTE**, of **Kosten** om te veranderen hoe de informatievertoningen in de Planner van het Middel. Standaardweergave in uren.
 
-1. (Optioneel) Klik op **Exporteren** om de Planner van het Middel naar een dossier van Excel uit te voeren.
+1. (Facultatief) klik **Uitvoer** om de Planner van het Middel naar een dossier van Excel uit te voeren.
 
    >[!NOTE]
-   U kunt gegevens gedurende maximaal twaalf tijdsperioden tegelijk exporteren.
+   >
+   >U kunt gegevens gedurende maximaal 12 tijdsperioden tegelijk exporteren.
 
-1. (Optioneel) Klik op de knop **Volledig scherm** pictogram ![full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) om de functie Bronnen op volledig scherm weer te geven.
+1. (Facultatief) klik het **Volledige pictogram van het Scherm** ![ full_screen_RP_in_BC.png ](assets/full-screen-rp-in-bc.png) om de Planner van het Middel op het volledige schermwijze te tonen.
 
-1. Werk de **BDG** (Budgeted Hours) gebied met Uur, FTE, of de waarden van Kosten voor de gebruikers, de rollen, of het project door één van het volgende te doen:
+1. Werk het **BDG** (Begonnen uren) gebied met Uur, FTE, of de waarden van Kosten voor de gebruikers, de rollen, of het project bij door één van het volgende te doen:
 
    * Geef handmatig een schatting van de hoeveelheid uren, FTE of Kostenwaarden voor rollen, gebruikers of het project.
 
-      of
+     of
 
-   * Klik op de knop **Opties** pictogram voor het project of de baanrollen en selecteer een optie om de uren voor rollen, gebruikers, of het project automatisch te begroten.
-   Voor meer informatie over het in de begroting opnemen in de Mening van het Project van de Planner van het Middel, zie [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * Klik het **pictogram van Opties** voor het project of de baanrollen en selecteer een optie om de uren voor rollen, gebruikers, of het project automatisch te begroten.
+
+   Voor meer informatie over het in de begroting opnemen in de Mening van het Project van de Planner van het Middel, zie [ de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    >[!NOTE]
-   U kunt uren, FTEs, of kosten voor uw middelen voor om het even welk tijdkader begroten dat in het het Begrotinggebied van het Middel wordt getoond, onafhankelijk van de chronologie van het project. Als u bijvoorbeeld wilt aangeven dat uw bronnen mogelijk niet beschikbaar zijn tijdens de tijdlijn van het project (waar ze zijn gekoppeld aan geplande uren), maar wel op een ander tijdstip beschikbaar zijn, kunt u dit doen door de bronnen in te voegen voor tijdframes waarin de geplande uren nul zijn, als dat het moment is waarop ze beschikbaar zijn om te werken.
+   >
+   >U kunt uren, FTEs, of kosten voor uw middelen voor om het even welk tijdkader begroten dat in het het Begrotinggebied van het Middel wordt getoond, onafhankelijk van de chronologie van het project. Als u bijvoorbeeld wilt aangeven dat uw bronnen mogelijk niet beschikbaar zijn tijdens de tijdlijn van het project (waar ze zijn gekoppeld aan geplande uren), maar wel op een ander tijdstip beschikbaar zijn, kunt u dit doen door de bronnen in te voegen voor tijdframes waarin de geplande uren nul zijn, als dat het moment is waarop ze beschikbaar zijn om te werken.
 
-1. (Optioneel) Als u wilt weten of u de begrote uren uren, VTE&#39;s of kosten naar een ander tijdpad kunt verplaatsen, klikt u op de knop **Opties** pictogram, dan **Bochtingsdatums aanpassen**.
+1. (Facultatief) om te begrijpen of u de in de begroting opgenomen Uren, FTEs, of Kosten aan een ander tijdkader kunt bewegen, klik het **pictogram van Opties**, dan **Adjust Budgeting Dates**.
 
-   Zie voor meer informatie over het aanpassen van gebudgetteerde datums [Datums voor budgettering aanpassen in de functie voor middelenplanning](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
+   Voor meer informatie over het aanpassen van in de begroting opgenomen data, zie [ het opnemen van data in de Planner van het Middel ](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md) aanpassen.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
-   Als u Kosten per uren verbonden aan uw baanrollen hebt, berekent het in de begroting opnemen van de middelen op het gebied van de Begroting van het Middel het **begrote arbeidskosten** van het project. De begrote arbeidskosten worden getoond in het gebied van de Begroting van het Middel van het BedrijfsGeval en in het BedrijfsGevallenoverzicht.
+   Als u de Tarieven van Kosten per Uur verbonden aan uw baanrollen hebt, berekent het in de begroting opnemen van de middelen in het gebied van de Begroting van het Middel de **Begrotende Kosten van de Arbeid** van het project. De begrote arbeidskosten worden getoond in het gebied van de Begroting van het Middel van het BedrijfsGeval en in het BedrijfsGevallenoverzicht.
 
    >[!TIP]
-   Kostendenvertoningen in het BedrijfsGeval in de valuta van het project.
+   >
+   >Kostendenvertoningen in het BedrijfsGeval in de valuta van het project.
 
    De informatie over budgettering die in het bedrijfscase wordt gespecificeerd, wordt ook getoond in de Planner van het Middel.
 
-   Wanneer u een project kopieert, hebt u de optie om de Begrotingshours aan het nieuwe project ook te kopiëren. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Zie voor meer informatie [Een project kopiëren](../manage-projects/copy-project.md).
+   Wanneer u een project kopieert, hebt u de optie om de Begrotingshours aan het nieuwe project ook te kopiëren. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Voor meer informatie, zie [ een project ](../manage-projects/copy-project.md) kopiëren.

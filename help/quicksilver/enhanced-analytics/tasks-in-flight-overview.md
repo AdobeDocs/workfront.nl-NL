@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -29,29 +29,29 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank"> plan van Adobe Workfront </a>*</td> 
    <td> <p>Zakelijk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van Adobe Workfront-licenties</a>*</td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>*</td> 
    <td> <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven</p> <p>Toegang tot taken weergeven (als u taken wilt bijwerken, hebt u toegang tot taken bewerken nodig.)</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt.<br>Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten weergeven</p> <p>De toegang van de mening tot Taken (om taken bij te werken, hebt u Edit toegang tot Taken nodig.)</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld.<br> voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemming weergeven voor zowel project- als taakobjecten</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toestemming weergeven voor zowel project- als taakobjecten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
-Voor eerste vereisten voor het gebruik van Enhanced Analytics raadpleegt u de sectie &quot;Voorwaarden&quot; in [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Voor eerste vereisten aan het gebruiken van Verbeterde Analytics, zie de &quot;sectie van Eerste vereisten&quot;in [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Begrijp de Taken in vlucht visualisatie
 
@@ -59,15 +59,15 @@ De taken in de visualisatie van het vliegplan tonen de volgende taakdetails:
 
 * **Geplande taakduur**: De lengte van een taakbar wijst op de geplande duur, die op de de begindatum en voltooiingsdatum van de taak gebaseerd is.
 
-   ![](assets/tasks-in-flight-duration-350x80.png)
+  ![](assets/tasks-in-flight-duration-350x80.png)
 
-* **Werkinspanning voltooid**: De donkerblauwe kleur in een taakbalk geeft aan hoeveel werk is voltooid voor een taak. Dit voltooiingspercentage wordt rechts van de taakbalk weergegeven.
+* **voltooide de inspanning van het Werk**: De donkerblauwe kleur binnen een taakbar wijst op de hoeveelheid werk dat voor een taak wordt voltooid. Dit voltooiingspercentage wordt rechts van de taakbalk weergegeven.
 
-   ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![](assets/tasks-in-flight-dark-blue-350x35.png)
 
-* **Resterende arbeidsinspanning**: De lichtblauwe kleur in een taakbalk geeft de hoeveelheid werk aan die voor een taak moet worden voltooid.
+* **de inspanning die van het Werk** blijft: De lichtblauwe kleur binnen een taakbar wijst op de hoeveelheid werk die voor een taak moet worden voltooid.
 
-   ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![](assets/tasks-in-flight-light-blue-350x35.png)
 
 Aan de hand van deze gegevens kunt u bepalen:
 
@@ -76,20 +76,20 @@ Aan de hand van deze gegevens kunt u bepalen:
 * Hoe dicht een taak aan voltooiing is.
 * Met wie moet u over een specifieke taak spreken?
 
-Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Overzicht van uitgebreide analyses](../enhanced-analytics/enhanced-analytics-overview.md).
+Leren hoe te om de beste gegevens voor deze visualisatie te krijgen, zie [ Verbeterd analyseoverzicht ](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## De taken in de vluchtvisualisatie weergeven
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon-16x12.png)selecteert u vervolgens **Analyse**.
+1. Klik het Belangrijkste pictogram van het Menu ![](assets/main-menu-icon-16x12.png), dan uitgezochte **Analytics**.
 1. (Optioneel) Als u een ander datumbereik wilt gebruiken, selecteert u nieuwe begin- en einddatums in het filter voor het datumbereik.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Voor informatie over het gebruik van het filter Datumbereik raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor informatie bij het gebruiken van de filter van de datumwaaier, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Voorwaardelijk) als u de reeks van projectgegevens moet beperken, selecteer en pas de filters toe die u wilt gebruiken.
 
-   Voor meer informatie over het toevoegen van filters in Verbeterde analysemogelijkheden raadpleegt u [Filters toepassen in uitgebreide analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Voor meer informatie bij het toevoegen van filters in Verbeterde analyses, zie [ filters in Verbeterde analyses toepassen ](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
    Nadat u filters hebt toegevoegd, worden er gegevens voor maximaal 50 projecten weergegeven en blijven de filters actief, zelfs nadat u de pagina hebt verlaten of zich hebt afgemeld bij Workfront.
 
@@ -103,10 +103,11 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
    >
    >   
    >   
-   >   * [Bekijk de visualisatie van het vliegplan in de uitgebreide analyse](../enhanced-analytics/flight-plan-overview.md)
-   >   * [Bekijk de visie van de projectreemap in Verbeterde analyse](../enhanced-analytics/project-treemap-overview.md)
-   >   * [Bekijk de Burndown-visualisatie in de uitgebreide analyse](../enhanced-analytics/burndown-overview.md)
-
+   >   * [ Mening de visualisatie van het Plan van de Vlucht in Verbeterde analyses ](../enhanced-analytics/flight-plan-overview.md)
+   >   * [ Mening de boomtopvisualisatie van het Project in Verbeterde analyses ](../enhanced-analytics/project-treemap-overview.md)
+   >   * [ Mening de Burndown visualisatie in Verbeterde analyses ](../enhanced-analytics/burndown-overview.md)
+   >   
+   >
 
 1. (Optioneel) Als u wilt inzoomen op een datumbereik, selecteert u een punt in de visualisatie voor het begin van het datumbereik en sleept u naar het einde van het datumbereik.
 
@@ -114,11 +115,11 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optioneel) Klik op de knop **Sorteren op** selecteert u vervolgens een nieuwe sorteeroptie:
+1. (Facultatief) om te veranderen hoe de taken worden gesorteerd, klik de **Soort door** menu, dan selecteer een nieuwe sorteeroptie:
 
-   * **Voltooiingsdatum**
-   * **Alfabetisch A-Z**
-   * **Structuur voor werkverdeling** (Deze optie komt overeen met de volgorde waarin de taken in het project worden weergegeven.)
+   * **de datum van de Voltooiing**
+   * **alfabetisch a-z**
+   * **de verdelingsstructuur van het Werk** (Deze optie past de orde aan dat de taken in het project verschijnen.)
 
    Alle andere visualisaties op de pagina worden bijgewerkt zodat deze overeenkomen met de geselecteerde sorteervolgorde.
 
@@ -130,8 +131,8 @@ Ga voor meer informatie over de beste gegevens voor deze visualisatie naar [Over
 
    ![](assets/task-details-qs-350x675.png)
 
-1. (Optioneel) Als u de visualisatiegegevens wilt exporteren, klikt u op de knop **Exportpictogram** ![](assets/export.png) in de rechterbovenhoek van de visualisatie selecteert u de exportindeling:
+1. (Facultatief) om de visualisatiegegevens uit te voeren, klik het **pictogram van de Uitvoer** ![](assets/export.png) in de hoger-juiste hoek van de visualisatie, dan selecteer het uitvoerformaat:
 
-   * **Diagram (PNG)**
-   * **Gegevenstabel (XSLX)**
+   * **Grafiek (PNG)**
+   * **Lijst van Gegevens (XSLX)**
 

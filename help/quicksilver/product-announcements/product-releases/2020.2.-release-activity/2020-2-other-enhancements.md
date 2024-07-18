@@ -18,15 +18,15 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 2020.2 voor de productieomgeving. Deze verbeteringen zijn in de productieomgeving beschikbaar gesteld in de week van 11 mei 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 2020.2, zie [Overzicht van de release 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [ overzicht van de versie 2020.2 ](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Voor Workfront-beheerders: nieuwere lay-outsjablonen die in Workfront Classic zijn gemaakt, zijn nu beschikbaar in de nieuwe Workfront-ervaring
 
 Layoutsjablonen die na Herfst 2019 in Workfront Classic zijn gemaakt, zijn nu beschikbaar in de nieuwe Workfront-ervaring. Het is raadzaam deze lay-outsjablonen bij te werken in de nieuwe Workfront-ervaring om te profiteren van de nieuwe functionaliteit en deze zo nuttig mogelijk te maken voor gebruikers in die omgeving.
 
-Zie voor meer informatie [Lay-outsjablonen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Voor meer informatie, zie [ malplaatjes van de Lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * De nieuwe Adobe Workfront-ervaring
 
@@ -38,10 +38,10 @@ U kunt een groep-specifiek goedkeuringsproces aan een taak op het gebied van Tak
 
 Raadpleeg de volgende artikelen voor informatie over het toevoegen van goedkeuringsprocessen aan projecten, taken en problemen:
 
-* [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
-* [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-* [Problemen bewerken](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [ geeft projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uit
+* [ geef taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+* [ geeft kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uit
+* [ creeer een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Werkvoorraadonderwerpen maken](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 ## Goedkeuringsprocessen maken voor groepen die aangepaste statussen gebruiken
@@ -55,11 +55,11 @@ Aangepaste statussen kunnen nu worden gebruikt in goedkeuringsprocessen voor een
 * Maak een goedkeuringsproces voor één gebruik voor een object (project, taak of uitgave) en baseer dit op statussen die zijn gekoppeld aan de groep die aan dat object werkt. Dit omvat alle aangepaste statussen die aan de groep zijn gekoppeld.
 * Maak een algemeen goedkeuringsproces en stel dit alleen beschikbaar voor de groep of voor iedereen in het systeem.
 
-Voor gebruikers met administratieve toegang tot goedkeuringsprocessen is informatie over het configureren van goedkeuringsprocessen beschikbaar in [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u Adobe Workfront Classic gebruikt, zie [Goedkeuringsprocessen maken](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Voor gebruikers met administratieve toegang tot goedkeuringsprocessen, is de informatie over het vormen van goedkeuringsprocessen beschikbaar in [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ Creërend de Processen van de Goedkeuring ](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Voor gebruikers is informatie over het koppelen van goedkeuringsprocessen aan werkitems beschikbaar in [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u Adobe Workfront Classic gebruikt, zie [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Voor gebruikers, is de informatie over het associëren van goedkeuringsprocessen met het werkpunten beschikbaar in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ het Associeren van een Nieuw of Bestaand Erkenningsproces met het Werk ](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -70,9 +70,9 @@ Om gebruikers in staat te stellen gemakkelijker heen en weer te navigeren tussen
 
 Wanneer u nu op Geavanceerd zoeken in het menu Zoeken klikt of een standaardzoekopdracht uitvoert, wordt een pagina vanaf de rechterkant van het scherm geopend.
 
-Zie voor meer informatie [Zoeken in Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Voor meer informatie, zie [ Onderzoek Adobe Workfront ](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * De nieuwe Adobe Workfront-ervaring
 
@@ -84,4 +84,4 @@ We hebben gedrag gewijzigd en meer gegevens toegevoegd aan de API voor abonnemen
 * Herbouwde de dienst om minder complexe gebiedsdelen te hebben en zo efficiënter te schrapen
 * Verbeterde controle en waarschuwingen
 
-Zie voor meer informatie [Veelgestelde vragen - Abonnementen voor gebeurtenissen](../../../wf-api/general/event-subs-faq.md) en [Aanbevolen werkwijzen voor abonnementen op gebeurtenissen](../../../wf-api/general/event-sub-best-practice.md).
+Meer leren, zie [ FAQs - de Abonnementen van de Gebeurtenis ](../../../wf-api/general/event-subs-faq.md) en [ het abonnementsbeste praktijken van de Gebeurtenis ](../../../wf-api/general/event-sub-best-practice.md).

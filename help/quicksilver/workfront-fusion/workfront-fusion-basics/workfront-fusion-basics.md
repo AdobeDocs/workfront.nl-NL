@@ -21,6 +21,6 @@ ht-degree: 0%
 Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 Deze sectie bevat de volgende artikelen:
 
-* [Profielinstellingen wijzigen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-* [Gebruikersgegevens verwijderen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [Profielinstellingen wijzigen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [Gebruikersgegevens verwijderen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
 * [[!DNL Adobe Workfront Fusion] Veelgestelde vragen](../../workfront-fusion/workfront-fusion-basics/faq.md)

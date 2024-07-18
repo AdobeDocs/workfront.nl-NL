@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 22.1 [22.1 Overzicht van de release](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## De verbetering van de interface voor gebruikers die geen toegang hebben om verzoeken te creëren
 
@@ -33,7 +33,7 @@ Om de ervaring van gebruikers te verbeteren wanneer het werken met verzoeken, he
 
 Voorafgaand aan deze verbetering, verscheen de Nieuwe verzoekknoop niet in het gebied van Verzoeken voor deze gebruikers. Het kopiëren en indienen van een aanvraag als nieuw is ook beperkt.
 
-Voor meer informatie over het creëren van verzoeken, zie [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Voor meer informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Verzoeken kopiëren en verzenden
 
@@ -45,7 +45,7 @@ Met deze wijziging kunnen gebruikers die verzoeken kunnen weergeven die anderen 
 >
 >U kunt geen kwesties kopiëren en opnieuw voorleggen die aan een verzoekrij zonder een rijonderwerp werden voorgelegd alvorens deze functionaliteit werd vrijgegeven.
 
-Zie voor meer informatie [Verzoeken kopiëren en verzenden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+Voor meer informatie, zie [ Exemplaar en leg verzoeken ](../../../manage-work/requests/create-requests/copy-and-submit-requests.md) voor.
 
 ## De bijgewerkte ervaring van het deelvenster Samenvatting in het gedeelte Ingediend van het gebied Verzoeken
 
@@ -55,6 +55,6 @@ Zie voor meer informatie [Verzoeken kopiëren en verzenden](../../../manage-work
 
 Om de zichtbaarheid van en de interactie met het deelvenster Samenvatting te verbeteren, hebben we een label toegevoegd aan het pictogram Samenvatting openen in de sectie Verzenden van het gebied Verzoeken. Het label is nu dynamisch en het wordt bijgewerkt, afhankelijk van het feit of het deelvenster is geopend of gesloten.
 
-Wanneer u het deelvenster Samenvatting opent zonder eerst een aanvraag te selecteren, wordt nu een gebruiksvriendelijker afbeelding weergegeven waarin de gebruiker duidelijk wordt opgedragen een item te selecteren voordat het deelvenster wordt geopend. Zie voor meer informatie [Verzonden aanvragen zoeken](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Wanneer u het deelvenster Samenvatting opent zonder eerst een aanvraag te selecteren, wordt nu een gebruiksvriendelijker afbeelding weergegeven waarin de gebruiker duidelijk wordt opgedragen een item te selecteren voordat het deelvenster wordt geopend. Voor meer informatie, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Met deze wijziging is het deelvenster Samenvatting voor taken, problemen en documenten ook bijgewerkt. Voor informatie over het deelvenster Samenvatting raadpleegt u [Overzicht van samenvattingen](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Met deze wijziging is het deelvenster Samenvatting voor taken, problemen en documenten ook bijgewerkt. Voor informatie over het Summiere paneel, zie [ Overzicht ](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

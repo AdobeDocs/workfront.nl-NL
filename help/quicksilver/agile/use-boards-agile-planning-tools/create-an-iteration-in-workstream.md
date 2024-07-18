@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step1-to-boards}}
 
-1. Open de werkstroom waar u de herhaling wilt toevoegen. Als u een werkstroom wilt openen, klikt u op [!UICONTROL **Werkstroom weergeven**].
+1. Open de werkstroom waar u de herhaling wilt toevoegen. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
 1. Maak een herhaling met een van de volgende methoden:
 
-   * Klik op het tabblad Kaartlijst in de iteratieweergave op [!UICONTROL **Herhaling maken**].
-   * Klik op het tabblad Kaartlijst in de lijstweergave op [!UICONTROL **Herhaling maken**].
-   * Klik op het tabblad Borden op [!UICONTROL **Tekengebied toevoegen**] en selecteert u [!UICONTROL **Interferatieproces**] als de bordsjabloon. Open vervolgens het herhalingsgebied en klik op [!UICONTROL **Herhalingen configureren**].
+   * Voor het lusje van de Lijst van de Kaart, in de iteratiemening, klik [!UICONTROL **creeer herhaling**].
+   * Voor het lusje van de Lijst van de Kaart, in de lijstmening, klik [!UICONTROL **creeer herhaling**].
+   * Op het lusje van Boeken, klik [!UICONTROL **toevoegen raad**] en selecteer [!UICONTROL **Proces van de Herhaling**] als boardmalplaatje. Dan, open de iteratieraad en klik [!UICONTROL **vormen herhalingen**].
 
 1. Voeg de volgende informatie toe in het dialoogvenster Interventiedetails:
 
@@ -73,22 +73,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Klikken [!UICONTROL **Opslaan**].
+1. Klik [!UICONTROL **sparen**].
 
    De herhaling wordt nu weergegeven in de herhalingsweergave van de kaartlijst en in het metriekgebied op het iteratiebord.
 
-   Als u kaarten aan een herhaling wilt toevoegen, raadpleegt u [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Om kaarten aan een herhaling toe te voegen, zie [ Gebruik de kaartlijst ](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Een bestaande herhaling bewerken
 
-1. Als u een werkstroom wilt openen, klikt u op [!UICONTROL **Werkstroom weergeven**].
+1. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
 1. Open de herhaling op een van de volgende manieren:
 
-   * Klik op het tabblad Kaartlijst in de iteratieweergave op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png).
-   * Klik in het iterboard op de knop [!UICONTROL **Details van herhaling**] pictogram ![Details van herhaling](assets/iteration-details-button.png) in het metriegebied op de hoogste juiste kant.
+   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de **]pictogram ![ details van de Interlatie ](assets/iteration-details-button.png) van de Details van de Interlatie van 0}.[!UICONTROL **
+   * Op de iteratieraad, klik de **]pictogram ![ details van de Interferatie ](assets/iteration-details-button.png) in het metrieke gebied op het hoogste recht van de Details van de Interferatie.[!UICONTROL **
 
-1. In de [!UICONTROL Iteration Configuration] de herhaling naar wens bewerken.
-1. Als u de iteratienaam wilt wijzigen, vouwt u [!UICONTROL **Details van herhaling**].
+1. Bewerk de herhaling naar wens in het deelvenster [!UICONTROL Iteration Configuration] .
+1. Om de iteratienaam te veranderen, breid [!UICONTROL **details van de Interlatie**] uit.
 
    Nadat een herhaling is gestart, kunt u alleen de naam van de herhaling wijzigen en niet de datum- of herhalingslengte.
 
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Een herhaling verwijderen
 
-1. Klik op de knop [!UICONTROL **Kaartlijst**] in de werkstroom en opent u de herhalingsweergave.
-1. Klik op de knop **Verwijderen** pictogram ![Pictogram Verwijderen](assets/delete.png) naast de herhaling.
-1. Klikken [!UICONTROL **Herhaling verwijderen**] in het bevestigingsbericht.
+1. Klik het [!UICONTROL **lusje van de Lijst van de Kaart**] op de werkstroom en open de herhalingsmening.
+1. Klik het **pictogram van de Schrapping ![ ](assets/delete.png) naast de herhaling 0}.**
+1. Klik [!UICONTROL **herhaling van de Schrapping**] op het bevestigingsbericht.

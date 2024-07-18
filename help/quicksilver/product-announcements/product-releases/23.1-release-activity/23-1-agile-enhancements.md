@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 23.1 van Agile zijn aangebracht voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de versie 23.1 [23.1 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 23.1, zie [ overzicht van de Versie 23.1 ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Scrumplanning voor Workfront Boards
 
@@ -41,9 +41,9 @@ Datumtoewijzing is ook van toepassing op verbonden controlelijstitems die worden
 
 De vervaldatum op zowel de aangesloten kaarten als de ad hoc kaarten omvat nu ook een tijdveld.
 
-Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Controlelijstitems en Workfront-subtaken zijn nu gekoppeld
 
@@ -55,9 +55,9 @@ Wanneer u een aangesloten kaart aan een raad voor een taak van Workfront toevoeg
 
 Eerder waren items en subtaken in de controlelijst niet gekoppeld. Als u een subtaak in het bord wilt opnemen, kunt u deze importeren als een aparte, aangesloten kaart of handmatig een item uit de controlelijst aan een kaart toevoegen.
 
-Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [Controlelijstitems op kaarten beheren](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Voor meer informatie, zie [ Verbonden kaarten van het Gebruik op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [ controlelijstitems op kaarten ](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md) beheren.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Kaartteller aan boord van kolommen
 
@@ -67,7 +67,7 @@ Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksil
 
 Een nieuwe configuratie-instelling is beschikbaar om een kaartteller voor alle kolommen op een board in te schakelen. Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke kaartteller niet toegevoegd.
 
-Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Voor meer informatie, zie [ de kolommen van het Comité beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 ## Zoeken en sorteren op het dashboard voor tekengebieden
 
@@ -77,7 +77,7 @@ Zie voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-star
 
 U kunt het dashboard van de boards nu sorteren op bordnaam of datum, en naar een specifieke raad in de lijst zoeken.
 
-Zie voor meer informatie [Het dashboard voor tekengebieden gebruiken](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+Voor meer informatie, zie [ Gebruik het dashboard van Borden ](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
 ## Statusweergave op kaart
 
@@ -87,9 +87,9 @@ Zie voor meer informatie [Het dashboard voor tekengebieden gebruiken](/help/quic
 
 Als aan een kaart op een kaart de status is toegewezen, wordt de status nu weergegeven op de kaart zodat u de kaart niet hoeft te openen om de status te zien. Deze verbetering geldt zowel voor ad-hockaarten als voor kaarten met een verbinding.
 
-Zie voor meer informatie [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [ voeg een ad hoc kaart aan a raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toe.
 
-![status op kaart](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+![ status op kaart ](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## Koppelbare kaarten zijn nu beschikbaar op borden
 
@@ -109,7 +109,7 @@ U kunt de volledige URL kopiëren en naar iemand anders verzenden. Ze zullen rec
 
 Eerder waren er koppelingen beschikbaar naar borden, maar niet naar specifieke kaarten.
 
-Zie voor informatie over kaarten [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) en [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor informatie over kaarten, zie [ een ad hoc kaart aan a raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen en [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filteren op verbinding aan boord
 
@@ -119,9 +119,9 @@ Zie voor informatie over kaarten [Een ad-hockaart aan een kaart toevoegen](/help
 
 De lijst met filters op een bord bevat nu de optie om via verbinding te filteren. Hierin ziet u alle aangesloten kaarten voor een bepaald project. U kunt ook filteren op kaarten die niet zijn aangesloten.
 
-Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Voor meer informatie, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Kaarten archiveren van een bord volgens een schema
 
@@ -133,6 +133,6 @@ U kunt een kaart zodanig configureren dat kaarten volgens een schema worden gear
 
 Als u de kaarten weer wilt weergeven nadat ze van het bord zijn gevallen, kunt u het bordfilter instellen op het weergeven van gearchiveerde kaarten.
 
-Zie voor meer informatie [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Voor meer informatie, zie [ kaart het wegvallen ](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md) vormen.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3412323/){target=_blank}

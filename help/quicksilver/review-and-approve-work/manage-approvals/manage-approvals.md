@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van goedkeuringsproces](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
-* [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md)
-* [Goedkeuringen weergeven](../../review-and-approve-work/manage-approvals/view-approvals.md)
-* [Aanvaarders herinneren aan ingediende goedkeuringen](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
-* [Aanvullende fiatteurs toevoegen aan verzonden documentgoedkeuringen](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
-* [Verstuurde proefdrukgoedkeuringen bekijken](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
-* [Goedkeuringsaanvraag delegeren](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
-* [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+* [ overzicht van het proces van de Goedkeuring ](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
+* [ het documentgoedkeuringen van het Verzoek ](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [ goedkeurend het werk ](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [ goedkeuringen van de Mening ](../../review-and-approve-work/manage-approvals/view-approvals.md)
+* [ herinnert fiatteurs over voorgelegde goedkeuringen ](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
+* [ voeg extra fiatteurs aan voorgelegde documentgoedkeuringen toe ](../../review-and-approve-work/manage-approvals/add-approver-submitted-doc-approvals.md)
+* [ Mening voorgelegde proefgoedkeuringen ](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
+* [ de goedkeuringsverzoek van de Afgevaardigde ](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
+* [ associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 * [Recentere ingediende goedkeuringen](../../review-and-approve-work/manage-approvals/recall-submitted-approvals.md)

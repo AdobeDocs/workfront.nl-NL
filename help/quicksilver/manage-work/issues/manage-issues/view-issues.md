@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -35,37 +35,37 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bekijken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Toegang verlenen tot kwesties</a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>. </p> </td> 
+   <td> <p>Toegang tot problemen bekijken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> Toegang van de Verlening tot kwesties </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de uitgave</p> <p> Voor informatie over het verlenen van machtigingen voor uitgaven raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Een uitgave delen </a></p> <p>Voor informatie over het aanvragen van aanvullende machtigingen raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de uitgave</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Problemen weergeven die zijn gebaseerd op status
 
 Om kwesties over een project, een taak, of een herhaling te bekijken:
 
-1. Open een project, een taak, of een herhaling die kwesties bevat, dan klik **Problemen** in het linkerdeelvenster.
+1. Open een project, een taak, of een herhaling die kwesties bevat, dan klik **Kwesties** in het linkerpaneel.
 
-1. Als u alle, geopende of afgesloten problemen wilt weergeven, klikt u op een van de onderstaande filters in het menu **Filter** vervolgkeuzemenu.
+1. Om alle, open, of gesloten kwesties te tonen, klik om het even welke hieronder vermelde filters van het **drop-down menu van de Filter**.
 
 >[!TIP]
 >
 >De lijst met filters varieert afhankelijk van wat uw systeem of groepsbeheerder heeft geselecteerd om in de lijst weer te geven.
 
-* **Openen:** Hier worden de geopende problemen weergegeven.
+* **Open:** kwesties van vertoningen die open zijn.
 
-   Dit geldt ook voor objecten die zijn gekoppeld aan een object Resolving en objecten in de status Gesloten - In afwachting van goedkeuring.
+  Dit geldt ook voor objecten die zijn gekoppeld aan een object Resolving en objecten in de status Gesloten - In afwachting van goedkeuring.
 
-   Voor informatie over het oplossen van voorwerpen, zie [Overzicht van Oplossende en Oplosbare objecten](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+  Voor informatie over het Oplossen van Voorwerpen, zie [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-* **Voltooid:** Hiermee geeft u alle problemen weer die een werkelijke voltooiingsdatum hebben.
-* **Alles** Hiermee geeft u alle problemen weer.
+* **Voltooid:** toont alle kwesties die een Ware Datum van de Voltooiing hebben.
+* **allen** toont alle kwesties.
 
 ## Informatie over problemen begrijpen
 
@@ -73,12 +73,12 @@ U kunt informatie over een kwestie bekijken wanneer u tot het toegang hebt.
 
 Ga als volgt te werk om een uitgave te openen en informatie hierover weer te geven:
 
-1. Open een project, een taak, of een herhaling die kwesties bevat, dan klik **Problemen** in het linkerdeelvenster.
-1. Van de **Filter** selecteert u het filter om de problemen weer te geven die u wilt bekijken.
+1. Open een project, een taak, of een herhaling die kwesties bevat, dan klik **Kwesties** in het linkerpaneel.
+1. Van het **drop-down menu van de Filter**, selecteer de filter om de kwesties te tonen u probeert om te bekijken.
 
    Selecteer een van de volgende opties:
 
-   * Open
+   * Openen
    * Voltooid
    * Alles
 
@@ -88,53 +88,53 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
 
 1. Klik in het linkerdeelvenster op een van de volgende opties om meer informatie over het probleem weer te geven:
 
-* **Updates**: U kunt de volgende handelingen uitvoeren:
+* **Updates**: U kunt de volgende acties uitvoeren:
 
    * Opmerking over de kwestie of antwoord op een bestaande opmerking.
    * Logtijd.
    * Wijzig de status van de uitgave.
 
-      Ga voor meer informatie over het bijwerken van werkzaamheden in Workfront naar [Werk bijwerken](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Voor meer informatie over het bijwerken van het werk in Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* **Documenten**: Voeg documenten toe aan de uitgave. Ga voor meer informatie over het toevoegen van documenten aan Workfront naar [Documenten vanuit uw bestandssysteem toevoegen aan Adobe Workfront](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+* **Documenten**: Maak documenten aan de kwestie vast. Voor meer informatie over het toevoegen van documenten aan Workfront, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
-* **Probleemdetails**: Deze koppeling uitvouwen om de **Overzicht** en **Aangepaste Forms** gebieden.
+* **Details van de Uitgave**: Breid deze verbinding uit om het **Overzicht** en **de gebieden van Forms van de Douane** te tonen.
 
-   Als u beheerdersmachtigingen voor de uitgave en bewerkingsrechten voor het aangepaste formulier hebt, kunt u hier enkele gegevens bewerken.
+  Als u beheerdersmachtigingen voor de uitgave en bewerkingsrechten voor het aangepaste formulier hebt, kunt u hier enkele gegevens bewerken.
 
-   De volgende velden weergeven of bewerken in het dialoogvenster **Overzicht** gebied:
+  Bekijk of geef de volgende gebieden op het **gebied van het Overzicht** uit:
 
    * **Naam**
-   * **Pad**: de weg waardoor de kwestie aan het project werd geregistreerd.
+   * **Weg**: de weg waardoor de kwestie aan het project werd geregistreerd.
 
-      Als een kwestie als verzoek in een verzoekrij werd voorgelegd, zijn de namen van het project, de Groep van het Onderwerp, en het Onderwerp van de Rij hier vermeld. Dit veld kan niet worden bewerkt.
+     Als een kwestie als verzoek in een verzoekrij werd voorgelegd, zijn de namen van het project, de Groep van het Onderwerp, en het Onderwerp van de Rij hier vermeld. Dit veld kan niet worden bewerkt.
 
-      Zie voor meer informatie over het verzenden van aanvragen [Adobe Workfront-aanvragen maken en verzenden](../../../manage-work/requests/create-requests/create-submit-requests.md).
+     Voor meer informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
    * **Beschrijving**
-   * **URL**: elk webadres dat met de uitgave verband houdt.
+   * **URL**: om het even welk Webadres met betrekking tot de kwestie.
    * **Prioriteit**: een visuele vlag die u toestaat om kwesties voorrang te geven.
-   * **Ernst**: een visuele markering die aangeeft hoe ernstig het in het probleem beschreven probleem is.
-   * **Primaire contactpersoon**: De standaard primaire contactpersoon is de gebruiker die de uitgave heeft gemaakt. Dit veld kan worden bewerkt.
-   * **Geplande uren**: geeft aan hoeveel tijd iemand nodig heeft om de uitgave te voltooien. De standaardwaarde is 8 uur. Dit veld kan worden bewerkt.
-   * **Werkelijke uren**: geeft de hoeveelheid tijd weer die nodig was om de uitgave te voltooien. Dit is de daadwerkelijke tijd dat iemand voor de kwestie registreert.
-   * **Geplande begindatum**: de datum waarop de uitgifte van start gaat. De standaardwaarde is de datum en de tijd waarop de uitgave is gemaakt.
-   * **Werkelijke begindatum**: de datum en het tijdstip waarop de status van de uitgave is gewijzigd in In uitvoering.
-   * **Geplande afsluitdatum**: de datum waarop de uitgifte volgens plan zal worden voltooid.
-   * **Werkelijke afsluitdatum**: de datum waarop de afgifte daadwerkelijk is voltooid. Dit veld wordt automatisch ingevuld wanneer de status van de uitgave verandert in Gesloten of Opgelost, of kan handmatig worden bewerkt.
-   * **Werkelijke kosten**: de kosten op basis van de werkelijk aantal uren dat op de uitgave is aangemeld. Dit veld kan niet worden bewerkt. De Ware Kosten van een kwestie worden berekend gebaseerd op de volgende formule, waar het Tarief van de Kosten van de Gebruiker de kostentarief verbonden aan de gebruiker die de tijd aan de kwestie registreert:
+   * **Ernst**: een visuele vlag die erop wijst hoe ernstig het probleem in de kwestie wordt beschreven is.
+   * **Primair Contact**: Het gebrek Primaire Contact is de gebruiker die de kwestie creeerde. Dit veld kan worden bewerkt.
+   * **Geplande Uren**: toont de hoeveelheid tijd die iemand zal nemen om de kwestie te voltooien. De standaardwaarde is 8 uur. Dit veld kan worden bewerkt.
+   * **Werkelijke Uren**: toont de hoeveelheid tijd die het nam om de kwestie te voltooien. Dit is de daadwerkelijke tijd dat iemand voor de kwestie registreert.
+   * **Geplande Datum van het Begin**: de datum wanneer de kwestie gepland is te beginnen. De standaardwaarde is de datum en de tijd waarop de uitgave is gemaakt.
+   * **Ware Datum van het Begin**: de datum en de tijd toen de uitgiftestatus in Bezig werd veranderd.
+   * **Geplande Datum van de Voltooiing**: de datum wanneer de kwestie wordt gepland om te worden voltooid.
+   * **de Ware Datum van de Voltooiing**: de datum wanneer de kwestie eigenlijk wordt voltooid. Dit veld wordt automatisch ingevuld wanneer de status van de uitgave verandert in Gesloten of Opgelost, of kan handmatig worden bewerkt.
+   * **Ware Kosten**: de kosten die op de Ware Uren worden gebaseerd die op de kwestie worden geregistreerd. Dit veld kan niet worden bewerkt. De Ware Kosten van een kwestie worden berekend gebaseerd op de volgende formule, waar het Tarief van de Kosten van de Gebruiker de kostentarief verbonden aan de gebruiker die de tijd aan de kwestie registreert:
 
-      Feitelijke kosten van uitgave = aantal uren geregistreerd * Kostenpercentage van gebruiker
+     Feitelijke kosten van uitgave = aantal uren geregistreerd * Kostenpercentage van gebruiker
 
-   * **Ingevoerd door**: dit is de gebruiker die de uitgave heeft gemaakt . Dit veld kan niet worden bewerkt.
-   * **Laatst bijgewerkt op**: Dit is de gebruiker die een veld over de uitgave voor het laatst heeft bijgewerkt. Dit veld kan niet worden bewerkt.
+   * **ingegaan door**: dit is de gebruiker die de kwestie creeerde. Dit veld kan niet worden bewerkt.
+   * **het laatst bijgewerkt door**: dit is de gebruiker die om het even welk gebied op de kwestie het laatst bijwerkte. Dit veld kan niet worden bewerkt.
 
-      In de **Aangepaste Forms** in, kunt u een of meer aangepaste formulieren selecteren die u aan de uitgave wilt koppelen.
+     In het **gebied van de Douane Forms**, mening van uitgezochte één of verscheidene douanevormen aan vennoot met de kwestie.
 
-* **Uren**: Hiermee wordt een lijst met uurwaarden van de uitgave weergegeven.
-* **Goedkeuringen:** Hiermee geeft u de goedkeuringspaden weer die aan de uitgave zijn gekoppeld.
+* **Uren**: Toont een lijst van uuringangen op de kwestie.
+* **goedkeurt:** toont de goedkeuringswegen verbonden aan de kwestie.
 
-   Zie voor meer informatie over het koppelen van goedkeuringen aan een probleem de [Een goedkeuringsproces koppelen aan een tijdelijk onderdeel](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sectie in [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Voor meer informatie over het associëren van goedkeuringen met een kwestie, zie [ Associerend een goedkeuringsproces met een het werkpunt ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sectie in [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 ## Weergeven welke projecten en taken problemen hebben
 
@@ -142,12 +142,12 @@ U kunt pictogrammen toevoegen in de weergave van een project of taakrapport of l
 
 Om pictogrammen toe te voegen die tonen of een project kwesties in een projectrapport heeft:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront.
-1. Klikken **Rapportage** > **Nieuw rapport** > **Projectrapport**.
-1. In de **Tonen in deze kolom** veld, beginnen met typen **Statuspictogrammen** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik **Meldend** > **Nieuw Rapport** > **Rapport van het Project**.
+1. In **toon in dit kolom** gebied, begin **Pictogrammen van de Status** te typen, dan het te selecteren wanneer het in de lijst verschijnt.
 
-1. Klikken **Opslaan + Sluiten** .
+1. Klik **sparen + Sluiten**.
 
-   De uitgiftepictogrammen worden weergegeven op de projecten die problemen hebben in het dialoogvenster **Statuspictogrammen** kolom.
+   De vertoning van de vertoningspictogrammen op de projecten die kwesties in de **Icons van de Status** kolom hebben.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
+   ![ project_list_with_issue_icon.png ](assets/project-list-with-issue-icon-350x132.png)

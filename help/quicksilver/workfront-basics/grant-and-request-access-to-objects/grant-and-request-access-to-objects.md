@@ -19,30 +19,30 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen over hoe u toestemming aan voorwerpen kunt verlenen en verzoeken:
 
-* [Overzicht van het delen van machtigingen voor objecten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
-* [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-* [Toegang verlenen tot objecten in het gebied Home](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
-* [Toegang tot objecten aanvragen](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
-* [Overerfde machtigingen voor objecten weergeven](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
-* [Rechten van objecten verwijderen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
-* [Een taak delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
-* [Een uitgave delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
-* [Een sjabloon delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
-* [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
-* [Financiële machtigingen delen op een object](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-* [Een portfolio delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
-* [Een programma delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
-* [Een document delen](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
-* [Een documentmap delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
-* [Rapporten, dashboards en kalenders delen](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
-* [Een filter, weergave of groep delen](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+* [ deel een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
+* [ de toegang van de Verlening tot voorwerpen in het gebied van het Huis ](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
+* [ toegang van het verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
+* [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
+* [ verwijdert toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+* [ Deel een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [ deel een taak ](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
+* [ Deel een kwestie ](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+* [ Deel een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
+* [ het projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
+* [ Deel financiële toestemmingen op een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
+* [ Deel een portefeuille ](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
+* [ Deel een programma ](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
+* [ Deel een document ](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
+* [ Deel een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
+* [ de rapporten, dashboards, en kalenders van het Aandeel ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
+* [ deel een filter, mening, of groepering ](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Een abonnement delen in de Scenario-planner](../../scenario-planner/share-a-plan.md)
 
-  Hiervoor is een aanvullende licentie voor de Workfront Scenario Planner vereist. Zie voor meer informatie [Toegang nodig om de Planner van het Scenario te gebruiken](../../scenario-planner/access-needed-to-use-sp.md).
+  Hiervoor is een aanvullende licentie voor de Workfront Scenario Planner vereist. Voor informatie, zie [ Toegang nodig om de Planner van het Scenario te gebruiken ](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-  Dit vereist een extra licentie voor Workfront Goals. Zie voor meer informatie [Vereisten voor het gebruik van Workfront-doelen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  Dit vereist een extra licentie voor Workfront Goals. Voor informatie, zie [ Vereisten om de Doelen van Workfront ](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
-* [Toegang tot Adobe Workfront configureren](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+* [ vormt toegang tot Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

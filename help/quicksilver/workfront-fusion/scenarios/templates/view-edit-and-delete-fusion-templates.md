@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Weergeven, bewerken en verwijderen [!DNL Adobe Workfront Fusion] sjablonen
+title: De mening, geeft, en schrapt  [!DNL Adobe Workfront Fusion]  malplaatjes uit
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 feature: Workfront Fusion
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Weergeven, bewerken en verwijderen [!DNL Adobe Workfront Fusion] sjablonen
+# [!DNL Adobe Workfront Fusion] -sjablonen weergeven, bewerken en verwijderen
 
-[!DNL Adobe Workfront Fusion] vereist een Adobe Workfront Fusion-licentie in aanvulling op een [!DNL Adobe Workfront license].
+[!DNL Adobe Workfront Fusion] vereist naast een [!DNL Adobe Workfront license] -licentie ook een Adobe Workfront Fusion-licentie.
 
 ## Toegangsvereisten
 
@@ -37,29 +37,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
   <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Een sjabloon weergeven
 
-1. Klik op de knop [!UICONTROL Templates] pictogram ![](assets/fusion-template-icon.png) in het zijnavigatiemenu.
+1. Klik op het pictogram [!UICONTROL Templates] ![](assets/fusion-template-icon.png) in het zijnavigatiemenu.
 1. Selecteer het tabblad met de sjabloon die u wilt weergeven.
 
    <table style="table-layout:auto"> 
@@ -89,24 +89,24 @@ Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe W
 
 ## Een sjabloon bewerken
 
-U kunt alle sjablonen bewerken die beschikbaar zijn in het dialoogvenster [!UICONTROL Team templates] tab.
+U kunt alle sjablonen bewerken die beschikbaar zijn op het tabblad [!UICONTROL Team templates] .
 
-1. Klik op de knop **[!UICONTROL Templates]** pictogram ![](assets/fusion-template-icon.png) in het zijnavigatiemenu.
-1. Klik op de knop **[!UICONTROL Team templates]** tab.
-1. Klik op de knop **[!UICONTROL Private]** tab.
+1. Klik op het pictogram **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) in het zijnavigatiemenu.
+1. Klik op de tab **[!UICONTROL Team templates]** .
+1. Klik op de tab **[!UICONTROL Private]** .
 1. Klik op de sjabloon die u wilt bewerken.
-1. Klikken **[!UICONTROL Edit]** in de rechterbovenhoek
+1. Klik op **[!UICONTROL Edit]** in de rechterbovenhoek
 
    of
 
    Klik op het sjabloondiagram.
 
-1. Breng wijzigingen aan in de sjabloon. U hebt toegang tot alle opties die beschikbaar waren toen u de sjabloon maakte. Zie deze opties voor meer informatie [Nieuwe sjablonen maken in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Klik vervolgens op de knop [!UICONTROL save] helemaal onder aan de pagina.
-1. Klik op de knop **[!UICONTROL Save]** pictogram ![](assets/save-icon.png).
+1. Breng wijzigingen aan in de sjabloon. U hebt toegang tot alle opties die beschikbaar waren toen u de sjabloon maakte. Om deze opties te zien, zie [ nieuwe malplaatjes in  [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md) creëren. Klik vervolgens op het pictogram [!UICONTROL save] helemaal onder aan de pagina.
+1. Klik op het pictogram **[!UICONTROL Save]** ![](assets/save-icon.png) .
 
 >[!NOTE]
 >
->De [!UICONTROL Team templates] bevat niet alleen de gepubliceerde sjablonen, maar ook kopieën van de sjablonen die reeds door de beheerder openbaar zijn gemaakt. Dit betekent dat u een sjabloon kunt bewerken die al zichtbaar is voor iedereen. Als u een van deze sjablonen wijzigt, overschrijven uw wijzigingen de openbare sjabloon niet meteen. De sjabloon in de [!UICONTROL Public templates] is nog steeds niet gewijzigd en blijft openbaar, maar de nieuwere versie ervan verandert van het tabblad [!UICONTROL Team templates] gaat naar het begin van het publicatieproces. Wanneer de wijzigingen door de beheerder worden gepubliceerd en goedgekeurd, beschrijft het het originele openbare malplaatje.
+>Het tabblad [!UICONTROL Team templates] bevat niet alleen de gepubliceerde sjablonen, maar ook kopieën van de sjablonen die al door de beheerder zijn gepubliceerd. Dit betekent dat u een sjabloon kunt bewerken die al zichtbaar is voor iedereen. Als u een van deze sjablonen wijzigt, overschrijven uw wijzigingen de openbare sjabloon niet meteen. De sjabloon op het tabblad [!UICONTROL Public templates] blijft ongewijzigd en blijft openbaar, maar de nieuwere versie met uw wijzigingen op het tabblad [!UICONTROL Team templates] gaat naar het begin van het publicatieproces. Wanneer de wijzigingen door de beheerder worden gepubliceerd en goedgekeurd, beschrijft het het originele openbare malplaatje.
 
 ## Een sjabloon verwijderen
 
@@ -114,12 +114,12 @@ U kunt alleen sjablonen verwijderen die nog niet zijn goedgekeurd. Neem contact 
 
 Houd er rekening mee dat een sjabloon die u verwijdert, niet meer kan worden hersteld. De malplaatjes van het team zijn beschikbaar voor alle leden van uw team zodat alvorens een malplaatje te schrappen adviseren wij u om te controleren of andere teamleden het niet nodig hebben.
 
-1. Klik op de knop **[!UICONTROL Templates]** pictogram ![](assets/fusion-template-icon.png) in het zijnavigatiemenu.
-1. Klik op de knop **[!UICONTROL Team templates]** tab.
-1. Klikken **[!UICONTROL Delete]** naast de sjabloonnaam
+1. Klik op het pictogram **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) in het zijnavigatiemenu.
+1. Klik op de tab **[!UICONTROL Team templates]** .
+1. Klik op **[!UICONTROL Delete]** naast de sjabloonnaam
 
    of
 
-   Klik op de naam van de sjabloon om naar de sjabloon te gaan. Klikken **[!UICONTROL Options]** in de rechterbovenhoek en selecteer **[!UICONTROL Delete]**.
+   Klik op de naam van de sjabloon om naar de sjabloon te gaan. Klik op **[!UICONTROL Options]** in de rechterbovenhoek en selecteer **[!UICONTROL Delete]** .
 
-1. Klikken **[!UICONTROL Really?]** om de verwijdering te bevestigen.
+1. Klik op **[!UICONTROL Really?]** om het verwijderen te bevestigen.

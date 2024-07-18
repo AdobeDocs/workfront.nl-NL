@@ -1,24 +1,24 @@
 ---
 title: MariaDB-modules
-description: In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema's automatiseren die gebruiken [!DNL MariaDB]en deze verbinding maken met meerdere toepassingen en services van derden.
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL MariaDB] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # [!DNL MariaDB] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u werkschema&#39;s automatiseren die gebruiken [!DNL MariaDB]en deze verbinding maken met meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL MariaDB] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -39,35 +39,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Te gebruiken [!DNL MariaDB] modules, moet u een [!DNL MariaDB] account.
+Als u [!DNL MariaDB] -modules wilt gebruiken, moet u een [!DNL MariaDB] -account hebben.
 
-## Verbinden [!DNL MariaDB] tot [!DNL Workfront Fusion]
+## Verbinden [!DNL MariaDB] met [!DNL Workfront Fusion]
 
-U kunt een verbinding maken met uw [!DNL MariaDB] rechtstreeks vanuit een [!DNL MariaDB] module.
+U kunt rechtstreeks vanuit een [!DNL MariaDB] -module verbinding maken met uw [!DNL MariaDB] -account.
 
-1. In alle [!DNL MariaDB] module, klikt u op **[!UICONTROL Add]** naast de [!UICONTROL Connection] veld.
+1. Klik in een willekeurige [!DNL MariaDB] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Configureer de volgende velden:
 
    <table style="table-layout:auto"> 
@@ -101,13 +101,13 @@ U kunt een verbinding maken met uw [!DNL MariaDB] rechtstreeks vanuit een [!DNL 
     </tbody> 
    </table>
 
-1. Klikken **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug naar de module te gaan.
+1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
-## [!DNL MariaDB] Modules en hun velden
+## [!DNL MariaDB] Modules en de bijbehorende velden
 
-Wanneer u [!DNL MariaDB] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL MariaDB] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL MariaDB] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL MariaDB] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -121,11 +121,11 @@ Deze actiemodule wint informatie van uw gegevensbestand terug, die op een vraag 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL MariaDB] account aan [!DNL Workfront Fusion], zie <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL MariaDB] tot [!DNL Workfront Fusion]</a> in dit artikel.</td> 
+   <td>Zie <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL MariaDB] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL MariaDB] -account met [!DNL Workfront Fusion] .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query]</td> 
-   <td> <p>Ga de SQL vraag in die u de module wilt gebruiken om gegevens terug te winnen.</p> <p>Belangrijk: Variabelen die in de query worden gebruikt, worden niet ontsmet. Zorg ervoor dat u variabelen goed ontsmet om SQL-injectie te voorkomen.</p> </td> 
+   <td> <p>Ga de SQL vraag in die u de module wilt gebruiken om gegevens terug te winnen.</p> <p>Belangrijk: de variabelen die in de query worden gebruikt, worden niet ontsmet. Zorg ervoor dat u variabelen goed ontsmet om SQL-injectie te voorkomen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ Deze module leest verslag van uw gegevensbestand.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL MariaDB] account aan [!DNL Workfront Fusion], zie <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL MariaDB] tot [!DNL Workfront Fusion]</a> in dit artikel.</td> 
+   <td>Zie <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL MariaDB] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL MariaDB] -account met [!DNL Workfront Fusion] .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table]</td> 
@@ -157,7 +157,7 @@ Deze module leest verslag van uw gegevensbestand.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sort] </td> 
-   <td> <p>Voor elk niveau waarop u de resultaten wilt sorteren, klikt u op <strong>[!UICONTROL Add item]</strong>selecteert u vervolgens het veld waarop u de resultaten wilt sorteren en of u oplopend of aflopend wilt sorteren</p> </td> 
+   <td> <p>Voor elk niveau waarop u de resultaten wilt sorteren, klikt u op <strong>[!UICONTROL Add item]</strong> en selecteert u het veld waarop u de resultaten wilt sorteren en of u oplopend of aflopend wilt sorteren</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 

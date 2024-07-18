@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Een inlaatkolom aan een bord toevoegen
 
-U kunt desgewenst een inlaatkolom aan uw board toevoegen die taken en problemen automatisch ophaalt als verbonden kaarten wanneer deze worden toegevoegd [!DNL Workfront], op basis van filters die u definieert. De innamekolom kan als backlogkolom voor een team Kanban, een innamelocatie voor een steunteam dienen om kwesties te zien aangezien zij aan een verzoekrij, of een ander doel worden toegevoegd u wenst.
+U kunt desgewenst een inlaatkolom aan uw board toevoegen die taken en problemen automatisch ophaalt als verbonden kaarten wanneer deze worden toegevoegd in [!DNL Workfront] , op basis van filters die u definieert. De innamekolom kan als backlogkolom voor een team Kanban, een innamelocatie voor een steunteam dienen om kwesties te zien aangezien zij aan een verzoekrij, of een ander doel worden toegevoegd u wenst.
 
 Er is slechts één inlaatkolom toegestaan op een bord en deze wordt altijd weergegeven als de meest linkse kolom.
 
@@ -42,7 +42,7 @@ Problemen:
 >
 >Het wordt aanbevolen om het bord regelmatig te vernieuwen als meerdere gebruikers tegelijkertijd aan het bord werken. Door de pagina te vernieuwen, kunt u de visuele wijzigingen op het bord up-to-date houden en voorkomen dat problemen zoals dubbele kaarten uit de inlaatkolom naar het bord worden verplaatst.
 
-Zie voor meer informatie over kolommen [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Zie voor informatie over aangesloten kaarten [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie over kolommen, zie [ de kolommen van het Comité beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Voor informatie over verbonden kaarten, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Toegangsvereisten
 
@@ -65,48 +65,48 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een inlaatkolom maken met eenvoudige filters
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klikken **[!UICONTROL Configure]** rechts van de board om het Configure paneel te openen.
-1. Uitbreiden **[!UICONTROL Board]**.
-1. Inschakelen **[!UICONTROL Dynamically intake items to board]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **[!UICONTROL Boards]**.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik op **[!UICONTROL Configure]** rechts van de board om het deelvenster Configureren te openen.
+1. Vouw **[!UICONTROL Board]** uit.
+1. Schakel **[!UICONTROL Dynamically intake items to board]** in.
 
-   ![Opties voor eenvoudige filters in kolom](assets/intake-column-simple-filters.png)
+   ![ de kolom van de Inname eenvoudige filteropties ](assets/intake-column-simple-filters.png)
 
    De inlaatkolom wordt links van het bord toegevoegd. Deze blijft leeg totdat u er filters op toepast.
 
-1. (Optioneel) Zoek en selecteer [!DNL Workfront] [!UICONTROL **Projecten**].
-1. (Optioneel) Zoek en selecteer een gebruiker of team [!UICONTROL **Toewijzingen**].
-1. Selecteren [!UICONTROL **Inclusief voltooid werk**] om taken en kwesties met een Volledige status in de inputkolom te tonen.
+1. (Facultatief) Onderzoek naar en selecteer [!DNL Workfront] [!UICONTROL **Projecten**].
+1. (Facultatief) Onderzoek naar en selecteer gebruiker of team [!UICONTROL **Taken**].
+1. Selecteer [!UICONTROL **omvatten voltooid werk**] om taken en kwesties met een Volledige status in de inlaatkolom te tonen.
 
    >[!NOTE]
    >
    >Als deze optie niet is geselecteerd en kaarten in andere statussen als voltooid zijn gemarkeerd, vallen ze van het bord en worden ze niet meer weergegeven.
 
-1. Klikken [!UICONTROL **Toepassen**].
+1. Klik [!UICONTROL **toepassen**].
 
    Alle objecten worden in de innamekolom van het bord weergegeven als verbonden kaarten.
 
-   ![Kolom opnemen](assets/intake-column-added3.png)
+   ![ Intake kolom ](assets/intake-column-added3.png)
 
 ## Een inlaatkolom maken met behulp van geavanceerde filters
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klikken **[!UICONTROL Configure]** rechts van de board om het Configure paneel te openen.
-1. Uitbreiden **[!UICONTROL Board]**.
-1. Inschakelen **[!UICONTROL Dynamically intake items to board]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **[!UICONTROL Boards]**.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik op **[!UICONTROL Configure]** rechts van de board om het deelvenster Configureren te openen.
+1. Vouw **[!UICONTROL Board]** uit.
+1. Schakel **[!UICONTROL Dynamically intake items to board]** in.
 
    De inlaatkolom wordt links van het bord toegevoegd. Deze blijft leeg totdat u er filters op toepast.
 
-1. Klikken [!UICONTROL **Geavanceerde filters gebruiken**].
-1. Klikken **[!UICONTROL Add filter sources]** en selecteert u **[!UICONTROL Tasks]** of **[!UICONTROL Issues]**.
+1. Klik [!UICONTROL **Geavanceerde filters van het Gebruik**].
+1. Klik op **[!UICONTROL Add filter sources]** en selecteer **[!UICONTROL Tasks]** of **[!UICONTROL Issues]** .
 
-   ![Geavanceerde filteropties voor de kolom opnemen](assets/intake-column-advanced-filters1.png)
+   ![ de kolom Geavanceerde filteropties van de Neem ](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -114,55 +114,55 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Opgeslagen filters en standaardfilters van het systeem kunnen ook worden geselecteerd.
 
-1. Klik in het filterdeelvenster op **[!UICONTROL New filter]** aan de slag.
+1. Klik in het filterdeelvenster op **[!UICONTROL New filter]** om aan de slag te gaan.
 
-   ![Klik op Nieuw filter](assets/intake-filter-dialog5.png)
+   ![ klik Nieuwe filter ](assets/intake-filter-dialog5.png)
 
-1. Maak uw filter en klik op **[!UICONTROL Save as new]**.
+1. Maak het filter en klik op **[!UICONTROL Save as new]** .
 
-   ![Filter builder](assets/intake-filter-dialog6.png)
+   ![ Bouwer van de Filter ](assets/intake-filter-dialog6.png)
 
-   Dit voorbeeld toont een filter voor taken van een specifiek project die in de status van [!UICONTROL New] of [!UICONTROL In Progress].
+   In dit voorbeeld wordt een filter getoond voor taken van een specifiek project die de status [!UICONTROL New] of [!UICONTROL In Progress] hebben.
 
    >[!NOTE]
    >
-   >Het wordt geadviseerd om &quot;me&quot;(het programma geopende gebruiker) geen vervanging op een bordeelfilter te gebruiken, omdat het niet gegarandeerd is om taken of kwesties voor de het programma geopende gebruiker altijd te tonen. Nadat de raad opstelling met de correcte taken en de kwesties is, kunt u de raad filtreren om punten voor een specifieke toegewezen te tonen. Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   >Het wordt geadviseerd om &quot;me&quot;(het programma geopende gebruiker) geen vervanging op een bordeelfilter te gebruiken, omdat het niet gegarandeerd is om taken of kwesties voor de het programma geopende gebruiker altijd te tonen. Nadat de raad opstelling met de correcte taken en de kwesties is, kunt u de raad filtreren om punten voor een specifieke toegewezen te tonen. Voor meer informatie, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-   Zie de sectie &quot;Een filter maken of bewerken in de standaardbuilder&quot; in het artikel voor meer informatie over het maken van een filter [Filters maken of bewerken in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Voor meer details over de bouw van een filter, zie de sectie &quot;creeer of geef een filter in de standaardbouwer&quot;in artikel uit [ creeer of geef filters in  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) uit.
 
-1. Geef het filter een naam en klik op **[!UICONTROL Save]**.
+1. Geef het filter een naam en klik op **[!UICONTROL Save]** .
 
-   ![Typ een naam voor het filter](assets/intake-filter-dialog7.png)
+   ![ Type een naam voor de filter ](assets/intake-filter-dialog7.png)
 
    Als u het filter een unieke naam geeft, kunt u er later naar zoeken.
 
 1. Het filter wordt weergegeven in de lijst met opgeslagen filters en wordt automatisch toegepast op de inlaatkolom. Klik op de X boven aan het filterdeelvenster om het te sluiten.
 
-   ![Opgeslagen filter](assets/intake-filter-dialog8.png)
+   ![ Bewaarde filter ](assets/intake-filter-dialog8.png)
 
-1. (Optioneel) Als u het filter met anderen wilt delen, houdt u de muisaanwijzer boven het opgeslagen filter en klikt u op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png)en selecteert u **[!UICONTROL Share]**. Kies de gebruikers of teams waarmee u wilt delen in het vak Filter delen. Zie voor meer informatie [Een filter, weergave of groep delen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-1. (Optioneel) Klik op **[!UICONTROL Filter sources]** en selecteer het andere object om een ander filter te maken.
+1. (Facultatief) om de filter met anderen te delen, over de bewaarde filter te bewegen, het **[!UICONTROL More]** menu ![ Meer menupictogram ](assets/more-icon-spectrum.png) te klikken, en **[!UICONTROL Share]** te selecteren. Kies de gebruikers of teams waarmee u wilt delen in het vak Filter delen. Voor meer informatie, zie [ een filter, mening, of groepering ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+1. (Optioneel) Als u zowel taken als problemen in de inlaatkolom wilt opnemen, klikt u op **[!UICONTROL Filter sources]** en selecteert u het andere object om een ander filter te maken.
 1. Wanneer u klaar bent met het toevoegen van filters, bekijkt u de inlaatkolom om te controleren of de juiste taken en problemen worden weergegeven.
 
-   ![Kolom opnemen](assets/intake-column-added3.png)
+   ![ Intake kolom ](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
-   >U kunt de filters op elk ogenblik bijwerken door het Configure paneel te openen, klikken **[!UICONTROL Filter sources]** en selecteert u **[!UICONTROL Tasks]** of **[!UICONTROL Issues]**.
+   >U kunt de filters op elk gewenst moment bijwerken door het deelvenster Configureren te openen, op **[!UICONTROL Filter sources]** te klikken en **[!UICONTROL Tasks]** of **[!UICONTROL Issues]** te selecteren.
 
 ## De inlaatkolom gebruiken
 
-Kaarten in de inlaatkolom kunnen pas worden bewerkt als u ze naar andere boardkolommen verplaatst. U kunt op de kaart klikken om deze te openen in een alleen-lezen weergave of op ![Taak of probleem openen](assets/boards-launch-icon.png) om de taak of uitgave te openen in een nieuw browsertabblad.
+Kaarten in de inlaatkolom kunnen pas worden bewerkt als u ze naar andere boardkolommen verplaatst. U kunt op de kaart klikken om het in een read-only mening te openen, of ![ Open taak of kwestie ](assets/boards-launch-icon.png) te klikken om de taak of de kwestie in een nieuwe browser tabel te openen.
 
 U kunt de volgorde van de items in de inlaatkolom handmatig wijzigen.
 
 De pictogrammen op de bovenkant recht van de inlaatkolom tonen u hoeveel kaarten momenteel in de kolom zijn, en hoeveel filters worden toegepast.
 
-1. (Optioneel) Als u wilt zoeken naar een item in de kolom Opname, klikt u op ![Zoekpictogram](assets/search-icon.png) in de kolom.
+1. (Facultatief) om naar een punt in de inlaatkolom te zoeken, klik ![ pictogram van het Onderzoek ](assets/search-icon.png) op de kolom.
 1. (Optioneel) Als u een kaart van de inlaatkolom naar een andere kolom wilt verplaatsen, sleept u de kaart naar de gewenste positie.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Move]**. Dan, op **[!UICONTROL Move Item]** een andere kolom kiezen en **[!UICONTROL Move]**.
+   Klik het **[!UICONTROL More]** menu ![ Meer menupictogram ](assets/more-icon-spectrum.png) op de kaart, en selecteer **[!UICONTROL Move]**. Kies vervolgens in het vak **[!UICONTROL Move Item]** een andere kolom en selecteer **[!UICONTROL Move]** .
 
-1. (Optioneel) Als u de opnamekolom wilt verwijderen, klikt u op de knop **[!UICONTROL More]** menu ![Meer menupictogram](assets/more-icon-spectrum.png) en selecteert u **[!UICONTROL Delete]**.
+1. (Facultatief) om de inputkolom te schrappen, klik het **[!UICONTROL More]** menu ![ Meer menupictogram ](assets/more-icon-spectrum.png) en selecteer **[!UICONTROL Delete]**.

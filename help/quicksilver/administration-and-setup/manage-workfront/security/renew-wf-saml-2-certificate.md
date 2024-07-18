@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, is geen actie nodig.
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 De Adobe Workfront-servers gebruiken het SAML 2.0-protocol voor verificatie en verificatie. Zodra bijgewerkt, blijft het nieuwe certificaat één jaar geldig. Wanneer het tijd is voor u om het certificaat op uw identiteitsleverancier te vernieuwen, ontvangt u een waarschuwing in Workfront die u waarschuwt dat deze verandering moet voorkomen. Als Workfront-beheerder kunt u deze wijziging op systeemniveau beheren.
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,13 +72,13 @@ Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in 
 
 U kunt als volgt het waarschuwingsbericht bekijken en de update van de SAML 2.0-metagegevens in uw identiteitsprovider bevestigen:
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Systeem** > **Single Sign-On**.
+1. Klik **Systeem** > **Enige Sign-On**.
 
-1. In de **Type** vervolgkeuzelijst, selecteert u **SAML 2.0**.
+1. In het **Type** drop-down menu, uitgezochte **SAML 2.0**.
 
-1. Klikken **SAML 2.0-metagegevens downloaden**.
+1. Klik **Download SAML 2.0 Meta-gegevens**.
 
    Hiermee wordt het vernieuwde Workfront-certificaat voor SAML 2.0 gedownload, dat de juiste metagegevens voor uw server bevat.
 
@@ -93,7 +93,7 @@ U kunt als volgt het waarschuwingsbericht bekijken en de update van de SAML 2.0-
 
 1. Werk het nieuwe certificaat dat u hebt gedownload bij op uw server voor identiteitsproviders.
 1. (Voorwaardelijk) als URL van de Dienst van de Consument van de Bevestiging (ACS) of Reageren URL in uw identiteitsleverancier is veranderd, verander het terug naar URL u in Stap 5 kopieerde.
-1. In Workfront, op de **Single Sign-On (SSO) pagina** Selecteer deze optie: **Het nieuwe Workfront-certificaat is al geüpload naar de Identity Provider**.
+1. In Workfront, op de **Enige Sign-On (SSO) pagina**, zorg ervoor dat deze optie wordt geselecteerd: **het nieuwe certificaat van Workfront is reeds geupload aan de Leverancier van de Identiteit**.
 
    >[!NOTE]
    >
@@ -103,12 +103,12 @@ U kunt als volgt het waarschuwingsbericht bekijken en de update van de SAML 2.0-
    >   * Het nieuwe certificaat is beschikbaar
    >* Als dit veld is geselecteerd, kunnen Workfront-beheerders zich aanmelden bij Workfront met hun SSO-gegevens of hun Workfront-gegevens.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    Het waarschuwingsbericht wordt niet meer weergegeven omdat u de verlenging van het SAML 2.0-certificaat hebt bevestigd op de server van uw identiteitsprovider.
 
-1. Klikken **Verbinding testen** om uw configuratie te testen.
+1. Klik **Verbinding van de Test** om uw configuratie te testen.
 
    Er wordt een bericht weergegeven waarin wordt bevestigd dat de verbinding tot stand is gebracht.
 
-Voor meer informatie, of voor hulp bij de handconfiguratie van meta-gegevens, gelieve ons Team van de Steun te contacteren, zoals die in [Contact opnemen met Klantenondersteuning](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Voor meer informatie, of voor hulp met de handconfiguratie van meta-gegevens, gelieve ons Team van de Steun te contacteren, zoals die in [ de Steun van de Klant van het Contact ](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) wordt verklaard.

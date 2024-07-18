@@ -21,7 +21,7 @@ Als u een Adobe Workfront-beheerder bent, kunt u de mogelijkheid voor groepsbehe
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt de configuratie gebruikers voor wie die groep, of één van zijn subgroepen, hun Groep van het Huis is. In hun gebruikersprofielen zien deze gebruikers de gebeurtenismeldingen die voor hun thuisgroep zijn geactiveerd in plaats van de gebeurtenismeldingen die voor het hele systeem zijn geactiveerd. Zie voor meer informatie [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt de configuratie gebruikers voor wie die groep, of één van zijn subgroepen, hun Groep van het Huis is. In hun gebruikersprofielen zien deze gebruikers de gebeurtenismeldingen die voor hun thuisgroep zijn geactiveerd in plaats van de gebeurtenismeldingen die voor het hele systeem zijn geactiveerd. Voor meer informatie, zie [ Mening en vorm gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
@@ -58,19 +58,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 >
 >Wanneer u een bericht opnieuw vergrendelt, nemen alle groepen in het systeem het bericht precies over zoals u het instelt. Dit treedt om het even welke veranderingen met voeten die de groepsbeheerders voor hun groepen zouden kunnen hebben aangebracht, zodat is het een goed idee eerst met hen te raadplegen.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **E-mail** > **Meldingen**.
+1. Klik **E-mail** > **Meldingen**.
 
-1. Zorg ervoor dat de **Gebeurtenismeldingen** is geopend.
-1. Klik op het pictogram rechts van het bericht om het naar de vergrendelde versie te verplaatsen ![Vergrendelingspictogram](assets/lock-toggle-button.png) of ontgrendeld ![Pictogram Ontgrendelen](assets/unlock-toggle-button.png) positie.
+1. Zorg ervoor de **Berichten van de Gebeurtenis** tabel open is.
+1. Klik het pictogram aan het recht van het bericht om het aan het gesloten ![ pictogram van het Slot ](assets/lock-toggle-button.png) of ontgrendelde ![ te schakelen ontgrendelen pictogram ](assets/unlock-toggle-button.png) positie.
 
    of
 
-   Als u meerdere meldingen tegelijk wilt ontgrendelen of vergrendelen, selecteert u deze en klikt u op de knop Ontgrendelen ![Pictogram Ontgrendelen](assets/unlock-icon-toolbar.png) of Vergrendelen ![Vergrendelingspictogram](assets/lock-icon-locked-qs.png) in de werkbalk boven de lijst.
+   Als u veelvoudige berichten wilt ontgrendelen of sluiten allen in één keer, hen selecteren, dan klik het pictogram van de Ontgrendeling ](assets/unlock-icon-toolbar.png) of van het Slot ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) knoop dat in de toolbar boven de lijst toont.![
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 1. (Optioneel) Als u het gebeurtenisbericht voor een groep op hoofdniveau wilt configureren in plaats van deze taak over te laten aan de beheerder van de groep, kunt u een van de volgende handelingen uitvoeren:
 
-   * Verwijderen **Systeemgebeurtenismeldingen** in het zoekvak boven de lijst met meldingen zoekt u de naam van de bovenste groep om de meldingen weer te geven. Vervolgens activeert of activeert u de ontgrendelde berichten in de lijst die wordt weergegeven.
-   * Klikken **Groepen** in het linkermenu, dan klik de naam van de top-level groep. Klikken **Gebeurtenismeldingen** in het linkerdeelvenster, configureert u vervolgens de ontgrendelde gebeurtenismelding, zoals wordt uitgelegd in [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Schrap {de Berichten van de Gebeurtenis van het 0} Systeem **in het onderzoeksvakje boven de lijst van berichten, onderzoek naar en selecteer de naam van de top-level groep om van zijn berichten een lijst te maken, dan activeer of inactiveer de ontgrendelde berichten in de lijst die toont.**
+   * Klik **Groepen** in het linkermenu, dan klik de naam van de top-level groep. Klik {de Meldingen van de Gebeurtenis 0} **in het linkerpaneel, dan vormen het ontgrendelde gebeurtenisbericht, zoals die in [ worden verklaard Mening en vormen gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).**

@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Abonneren op een proefexemplaar in [!DNL Workfront] Proef
+title: Abonneren op een Bewijs in  [!DNL Workfront]  Bewijs
 description: Wanneer een andere gebruiker u een URL van het Bewijs verzendt en u het in uw browser opent, lanceert het de het proefdrukken kijker op read-only wijze. Voordat u aan de proefdruk kunt werken, moet u zich identificeren door u erop te abonneren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Wanneer een andere gebruiker u een URL van het Bewijs verzendt en u het in uw browser opent, lanceert het de het proefdrukken kijker op read-only wijze. Voordat u aan de proefdruk kunt werken, moet u zich identificeren door u erop te abonneren.
 
 >[!NOTE]
 >
->Voordat gebruikers zich op een proefdruk kunnen abonneren, moet de instelling voor hun abonnement zijn ingeschakeld (zie de sectie) [Proefinstellingen configureren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Proefinstellingen configureren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
+>Alvorens de gebruikers aan een proef kunnen intekenen, moet zijn Abonnement plaatsen worden toegelaten (zie de sectie [ de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [ vormen de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
 
-Abonneren op een bewijs:
+Een bewijs ondertekenen:
 
-1. Klikken **[!UICONTROL Sign In]** boven aan de testviewer.
-1. Typ uw e-mailadres in het dialoogvenster **[!UICONTROL Sign in]** die wordt weergegeven.
-1. Als u geen controleur bent op de proefdruk of als gebruiker van [!DNL Workfront Proof], typt u de weergavenaam.\
+1. Klik op **[!UICONTROL Sign In]** boven aan de proefdrukviewer.
+1. Typ uw e-mailadres in het vak **[!UICONTROL Sign in]** dat wordt weergegeven.
+1. Als u geen controleur bent op de proefdruk of geen gebruiker van [!DNL Workfront Proof], typt u uw vertoningsnaam.\
    of\
-   Als u een [!DNL Workfront Proof] wachtwoord, typt u dit (ongeacht of u een controleur bent op de proefdruk).\
+   Als u een [!DNL Workfront Proof] -wachtwoord hebt, typt u dit (ongeacht of u een revisor bent op de proefdruk).\
    Afhankelijk van de instellingen voor het delen van e-mails met proefdrukken die zijn geselecteerd door de persoon die de proefdruk heeft gedeeld, moet u mogelijk de validatieinstructies volgen in een e-mailbericht dat u via e-mail ontvangt.
 
-1. Uw rol op de proefdruk is Abonnement, dat op de pagina Proefgegevens voor de proefdruk wordt geplaatst. Voor meer informatie over het plaatsen van rollen voor proeven, zie [Proefinstellingen configureren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+1. Uw rol op de proefdruk is Abonnement, dat op de pagina Proefgegevens voor de proefdruk wordt geplaatst. Voor meer informatie over het plaatsen van rollen voor proeven, zie [ de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) vormen.

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het samenstellen van berekende aangepaste gegevens in Adobe Workfront wanneer u de tekstmodus gebruikt. Voor informatie over het gebruik van de tekstmodus in Workfront raadpleegt u [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het samenstellen van berekende aangepaste gegevens in Adobe Workfront wanneer u de tekstmodus gebruikt. Voor informatie over het gebruiken van tekstwijze in Workfront, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Met Condition-operatoren of modifiers kunt u een voorwaardeninstructie maken door bestaande Workfront-velden in instructies te verbinden en een nieuw veld te genereren. Voorwaarde-operatoren worden vooral gebruikt om de voorwaarde van een &quot;IF&quot;-instructie op te bouwen.
 
@@ -30,13 +30,13 @@ U kunt &quot;IF&quot;-instructies maken voor de volgende Workfront-elementen:
 * Groepen
 * Berekende aangepaste velden
 
-Voor meer informatie over het samenstellen van &quot;IF&quot;verklaringen, zie [Overzicht van &quot;IF&quot;-instructies](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Voor meer informatie over de bouw van &quot;IF&quot;verklaringen, zie [ &quot;IF&quot;verklaringen overzicht ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 De voorbeelden in deze handleiding illustreren het gebruik van voorwaardelijke operatoren in berekende aangepaste velden. U kunt ze ook gebruiken in berekende aangepaste kolommen of groepen wanneer u de juiste syntaxis volgt voor berekende aangepaste velden in rapporten.
 
-Voor informatie over het verschil in syntaxis tussen de berekende douanegebieden en berekende douanegegevens in rapporten, zie [Berekende aangepaste velden versus berekende kolommen](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+Voor informatie over het verschil in syntaxis tussen de berekende douanegebieden en berekende douanegegevens in rapporten, zie [ Berekende douanegebieden vs. berekende kolommen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Zie voor informatie over de API Explorer [API Explorer](../../../wf-api/general/api-explorer.md).
+Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Voor informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
 In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
 
@@ -70,12 +70,12 @@ In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
   <tr> 
    <td>Kleiner dan </td> 
    <td>&lt; </td> 
-   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie kleiner is dan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer  het eerste veld van de instructie is kleiner dan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Kleiner dan of gelijk aan </td> 
    <td>&lt;= </td> 
-   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer het eerste veld van uw instructie kleiner dan of gelijk is aan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer  het eerste veld van de instructie is kleiner dan of gelijk aan het tweede veld. <p>Gebruik bijvoorbeeld de volgende instructie in een berekend aangepast veld om een instructie "IF" te maken die de geplande Voltooiingsdatum vergelijkt met de geplande Voltooiingsdatum van een taak: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Is niet </td> 
@@ -90,17 +90,17 @@ In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
      <li>IN </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>Voor informatie over deze gegevensexpressies en voor een volledige lijst raadpleegt u <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Overzicht van berekende gegevensexpressies</a>. </p> </td> 
+    </ul> <p>Voor informatie over deze gegevensuitdrukkingen en voor een volledige lijst, zie <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref"> Overzicht van berekende gegevensuitdrukkingen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td>of </td> 
    <td>|| </td> 
-   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie de eerste of de tweede waarde van uw instructie vindt. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten in of de Huidige of Planning status als "Actief"merkt: </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie  vindt of de eerste of tweede waarde van uw verklaring. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten in of de Huidige of Planning status als "Actief"merkt: </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> en </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie een item vindt dat tegelijkertijd aan twee voorwaarden voldoet. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten vindt die in Huidige status zijn en een Voorwaarde van bij Risico hebben en hen als "Bemiddeling nodig"merken. </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Gebruik deze operator om aan te geven dat aan de voorwaarde is voldaan wanneer de expressie  zoekt een item dat tegelijkertijd aan twee voorwaarden voldoet. </p> <p>Bijvoorbeeld, gebruik de volgende verklaring op een berekend douanegebied om een "IF"verklaring te bouwen die projecten vindt die in Huidige status zijn en een Voorwaarde van bij Risico hebben en hen als "Bemiddeling nodig"merken. </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

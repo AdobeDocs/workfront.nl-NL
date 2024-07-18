@@ -22,9 +22,9 @@ Wanneer iemand u in een recordcommentaar etiketteert, ontvangt u een e-mailberic
 >
 >Uw bedrijf moet een Adobe Verenigde klant van de Ervaring zijn om berichten van de Planning van Workfront te kunnen ontvangen.
 >
->Zie voor meer informatie [Adobe Unified Experience voor Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Voor informatie over het labelen van anderen in een recordopmerking raadpleegt u [Opnameopmerkingen beheren](/help/quicksilver/planning/records/manage-record-comments.md).
+Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Om berichten van de Planning van Workfront te ontvangen en berichtvoorkeur te beheren, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Zie voor meer informatie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience voor Workfront</a>.</p></td>
+   <p>Om berichten van de Planning van Workfront te ontvangen en berichtvoorkeur te beheren, moet het geval van Workfront van uw organisatie aan de Adobe Verenigde Ervaring worden genegeerd. Voor informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-overeenkomst</p></td>
    <td>
@@ -69,14 +69,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen voor een werkruimte weergeven of vergroten</a> </p>  
+   <td> <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    ![](assets/email-notification-example.png)
 
-1. Klik op het bericht in het dialoogvenster **Workfront** doos.
+1. Klik het bericht in de **doos van Workfront**.
 
    De pagina met recorddetails wordt geopend in Workfront. U kunt de record bijwerken of op de opmerking reageren.
 
-1. (Voorwaardelijk) Klik, indien beschikbaar **Alle meldingen weergeven**. <!--check with Lilit - do non-IMS users have this button??-->
-De **Meldingen** pagina wordt geopend in Adobe Experience Cloud. Alle berichten van alle Adobe Experience Cloud-toepassingen worden weergegeven.
+1. (Voorwaardelijk) als beschikbaar, klik **Mening alle berichten**. <!--check with Lilit - do non-IMS users have this button??-->
+De **Berichten** pagina opent in Adobe Experience Cloud. Alle berichten van alle Adobe Experience Cloud-toepassingen worden weergegeven.

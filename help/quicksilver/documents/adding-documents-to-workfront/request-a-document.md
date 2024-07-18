@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -35,40 +35,40 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een document aanvragen
 
 1. Ga naar het gebied waar u het gewenste document wilt hebben.
-1. Klik op de knop **Documenten** tab. 
-1. Klik op de knop **Nieuwe toevoegen** vervolgkeuzelijst.
+1. Klik de **Documenten** tabel. 
+1. Klik **toevoegen Nieuw** drop-down menu.
 
-1. Klikken **Een document aanvragen**.
+1. Klik **Verzoek om een Document**.
 
    Het dialoogvenster Een document aanvragen wordt weergegeven.
 
-   ![document_request.png](assets/document-request-350x242.png)
+   ![ document_request.png ](assets/document-request-350x242.png)
 
 1. Typ de naam van de gebruiker bij wie u het document aanvraagt en selecteer deze vervolgens in de vervolgkeuzelijst. Alleen Adobe Workfront-gebruikers met licentie worden als opties weergegeven in de vervolgkeuzelijst.
 
    >[!NOTE]
    >
-   >Als u de [Overzicht van verouderde licenties](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) die op uw account is ingeschakeld, kunt u een aanvraag naar elk e-mailadres verzenden. Er is een instelling in het dialoogvenster [Systeembeveiligingsvoorkeuren configureren](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) Hiermee bepaalt u of deze externe e-mailgebruikers een wachtwoord moeten maken voordat ze met Workfront communiceren. 
+   >Als u het [ overzicht van de Verouderde vergunningen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) hebt die op uw rekening wordt toegelaten, kunt u een verzoek naar om het even welk e-mailadres verzenden. Er is het plaatsen in [ vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) die bepaalt al dan niet deze externe e-mailgebruikers een wachtwoord moeten tot stand brengen alvorens met Workfront in wisselwerking te staan. 
 
 1. Beschrijf de reden dat u het document aanvraagt.
-1. Klikken **Aanvraag verzenden**.
+1. Klik **verzenden Verzoek**.
 
    Wanneer u een aanvraag indient bij een gebruiker, wordt een tijdelijke aanduiding toegevoegd aan het documentgebied. U kunt de gebruiker eraan herinneren of het verzoek van deze tijdelijke aanduiding annuleren. De gebruiker ontvangt een Workfront-melding en een e-mail over de aanvraag.
 
-   De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Zie voor meer informatie over e-mailmeldingen [Uw eigen e-mailmeldingen wijzigen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Voor meer informatie over e-mailberichten, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Klik op de koppeling in het e-mailbericht en upload het document. U kunt ook op de melding in de app klikken. Elke optie leidt u naar de pagina van het gebruikersprofiel waar u het gevraagde document kunt uploaden.
 
-1. Nadat u het document hebt geüpload, heeft de persoon die het heeft aangevraagd toegang tot het document op persoonlijke titel **Documenten** gebied.
+1. Nadat u het document uploadt, kan de persoon die het vroeg tot het document in hun persoonlijk **gebied van Documenten** toegang hebben.
 
-   U hebt toegang tot uw persoonlijke **Documenten** door te klikken op de afbeelding van het gebruikersprofiel in de rechterbovenhoek van een Workfront-pagina, op uw naam te klikken en vervolgens op de **Documenten** tab.
+   U kunt tot uw persoonlijk **gebied van Documenten** toegang hebben door uw beeld van het gebruikersprofiel in de hoger-juiste hoek van om het even welke pagina van Workfront te klikken, die uw naam, dan het klikken van **Documenten** tabel klikken.

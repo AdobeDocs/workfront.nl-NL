@@ -34,7 +34,7 @@ De versie 2019.1 bevat verbeteringen voor zowel beheerders als andere gebruikers
 
   Workfront-beheerders kunnen nu tijdstempels voor datums in de werklijst en de kalender weergeven of verbergen met behulp van Lay-outsjablonen.
 
-* [Standaardproefdrukrol configureren voor niet-ontvangers die een proefdrukproef openen](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
+* [ vorm Standaard het Bewijzen Rol voor niet-Ontvangers die een Bewijs ](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role) openen
 
   Workfront-beheerders kunnen nu de standaardproefdrukrol configureren voor gebruikers die geen ontvangers zijn in de workflow van de proefdrukproef, maar wel toegang hebben tot de proefdrukproef via het Workfront-object (zoals project, taak of uitgave).
 
@@ -90,126 +90,126 @@ De versie 2019.1 bevat verbeteringen voor zowel beheerders als andere gebruikers
 
   We hebben de prestaties verbeterd en het uiterlijk van het project en de takenlijsten op extra gebieden verbeterd.
 
-* [Verzend een Geleverd Rapport in formaat XLSX](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [ verzend een Geleverd Rapport in Formaat XLSX ](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   U kunt nu een rapport plannen dat in MS Excel (.xlsx) formaat, naast alle andere huidige formaten moet worden geleverd.
 
-* [Controlelogbestanden exporteren](https://support.workfront.com/hc/en-us/articles/360016246394#export-audit-logs)
+* [ Logboeken van de Controle van de Uitvoer ](https://support.workfront.com/hc/en-us/articles/360016246394#export-audit-logs)
 
   U kunt de ingangen van het controlelogboek naar een Csv- dossier nu uitvoeren. U kunt tot 50.000 de ingangen van het controlelogboek naar een Csv- dossier in één keer uitvoeren.
 
-* [De mening WBS op een Lijst van de Taak is niet meer beschikbaar door de kolom van het Aantal van de Taak met de rechtermuisknop aan te klikken](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [ de Mening WBS op een Lijst van de Taak is niet meer beschikbaar door de Kolom van het Aantal van de Taak met de rechtermuisknop aan te klikken ](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   U kunt niet meer de kolom van het Aantal van de Taak in een taaklijst met de rechtermuisknop aanklikken om de Structuur van de Onderverdeling van het Werk (WBS) van het project te tonen.
 
 ### Verbeteringen voor bronnenbeheer
 
-* [Bijgewerkt standaardfilter in de bronnenplanner](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
+* [ Bijgewerkte StandaardFilter in de Planner van het Middel ](https://support.workfront.com/hc/en-us/articles/360016247594#updated-default-filter)
 
   Het standaardfilter in de Planner van het Middel filtert niet meer door de Groep van het Project.
 
-* [Het gebruiken van Kaders voor de Filters van de Planner van het Middel](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [ Gebruikend Jokertekens voor de Filters van de Planner van het Middel ](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   U kunt vervangingen nu gebruiken wanneer het bouwen van filters in de Planner van het Middel.
 
-* [Ondersteuning voor op datum gebaseerde jokertekenfiltervariabelen in de functie voor middelenplanner](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
+* [ Steun voor op datum-Gebaseerde Variabelen van de Filter van de Jokerkaart in de Planner van het Middel ](https://support.workfront.com/hc/en-us/articles/360016247594#support-for-date-based-wildcard-filter-vatiables)
 
   U kunt nu elke versie van de $$TODAY-jokertekenfiltervariabele gebruiken wanneer u een filter maakt in de Resource Planner.
 
-* [Exportopties voor de weergave Rol in de bronnenplanner](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
+* [ de Opties van de Uitvoer voor de Mening van de Rol in de Planner van het Middel ](https://support.workfront.com/hc/en-us/articles/360016247594#export-options-for-the-role-view)
 
   U kunt nu selecteren welke informatieniveaus u wilt exporteren vanuit de functie voor middelenplanner in de weergave Rol.
 
-* [Opties voor gegevensopmaak voor het exporteren van de bronnenplanner](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
+* [ Gegevens Formatterende Opties om de Planner van het Middel uit te voeren ](https://support.workfront.com/hc/en-us/articles/360016247594#data-formatting-options-for-exporting-the-resource-planner)
 
   U kunt nu selecteren hoe u informatie in het dossier van Excel wanneer uitgevoerd van de Planner van het Middel wilt tonen.
 
-* [Tijdlijn voor continue planning](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
+* [ Blijvende het Plannen Chronologie ](https://support.workfront.com/hc/en-us/articles/360016247594#persistent-scheduling-timeline)
 
   Door tijdlijnen te plannen blijven nu de tijdlijn en het filter behouden wanneer u de tijdlijn vernieuwt of bij de pagina vandaan navigeert.
 
-* [Nieuwe exportopties in de bronnenplanner](https://support.workfront.com/hc/en-us/articles/360016247594#new-export-options-in-the-resource-planner)
+* [ Nieuwe Opties van de Uitvoer in de Planner van het Middel ](https://support.workfront.com/hc/en-us/articles/360016247594#new-export-options-in-the-resource-planner)
 
   U kunt nu selecteren welke informatieniveaus u wilt exporteren vanuit de functie voor middelenplanning.
 
-* [Update aan de Mening van de Gebruiker in de Planner van het Middel](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
+* [ Update aan de Mening van de Gebruiker in de Planner van het Middel ](https://support.workfront.com/hc/en-us/articles/360016247594#update-to-the-user-view-in-the-resource-planner)
 
   Wanneer u geen op gebruiker-gebaseerde filters op de Planner van het Middel toepast, tonen alle gebruikers in het systeem nu in de Mening van de Gebruiker van de Planner van het Middel.
 
 ### Verbeteringen voor proefdrukken
 
-* [Interactieve inhoud proefdrukken in de webontwerpviewer](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer)
+* [ Proef Interactieve Inhoud in het Web die kijker ](https://support.workfront.com/hc/en-us/articles/360016372633#proof-interactive-content-in-the-web-proofing-viewer) proef
 
   Als het beveiligingsbeleid van uw organisatie het gebruik van de standalone Desktop Proofing Viewer-app niet toestaat, kan uw Workfront-beheerder nu interactieve inhoud inschakelen in de Web Proofing Viewer.
 
-* [Standaardsorteervolgorde voor opmerkingen in de proefdrukviewer is nu oudst naar nieuwste](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [ Standaard het Sorteren van Orde voor Commentaren in de het proeven kijker is nu Oudst aan Meest recente ](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   In de testviewer is de standaardsorteervolgorde voor opmerkingen op een proefdruk nu Oudst tot Nieuwst, zoals in een verbaal gesprek.
 
-* [Verbeterde revisie voor opmerkingen in de proefdrukviewer gekoppeld aan een videobereik](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
+* [ Verbeterde Recensent voor Commentaren in de het proef kijker verbonden aan een Waaier van Video ](https://support.workfront.com/hc/en-us/articles/360016372633#enhanced-reviewing-for-comments)
 
   Wanneer u een opmerking reviseert die is gekoppeld aan een bereik van videobeelden in de conceptviewer, kunt u nu op Afspelen klikken om het volledige bereik van beeldmateriaal weer te geven.
 
-* [Koppeling maken naar documentdetails via een proefdrukbericht of de proefdrukviewer](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
+* [ Verbinding aan de Details van het Document van een Bericht van het Bewijs of de het proef kijker ](https://support.workfront.com/hc/en-us/articles/360016372633#link-to-document-details)
 
   Wanneer u een e-mail ontvangt waarin u wordt gevraagd een proefdruk te controleren of u een proefdruk controleert in de conceptviewer, kunt u nu snel de pagina met documentdetails openen voor de proefdruk.
 
-* [Uw e-mailmeldingen wijzigen in de proefdrukviewer](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
+* [ verander Uw E-mailberichten in de het proef kijker ](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
 
   Nu kunnen alle revisoren die de proef uitvoeren, opgeven welke proefdrukberichten ze voor een proefdruk willen ontvangen. Dit is met name van belang wanneer wordt samengewerkt met externe belanghebbenden.
 
-* [De achtergrondkleur in de Desktop Proofing Viewer wijzigen](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
+* [ verander de Achtergrondkleur in de Kijker van het Proofing van de Desktop ](https://support.workfront.com/hc/en-us/articles/360016372633#change-the-background-color-in-the-desktop-proofing-viewer)
 
   Nu kunt u de achtergrondkleur van de Desktop Proofing Viewer wijzigen van de standaard bijna-zwarte kleur in wit.
 
-* [Browsergegevens in cache wissen van een proefdruk](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
+* [ Duidelijke In cache geplaatste Browser Gegevens van een Bewijs ](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
 
   Nu kunt u de cachegegevens van de browser wissen die met een proefdruk zijn opgeslagen, zodat alle inhoud in de Desktop Proofing Viewer wordt weergegeven en revisoren er opmerkingen over kunnen zien en opmerkingen over kunnen maken.
 
 ### Verbeteringen voor mobiele apparaten
 
-* [Nieuwe ervaring voor mobiel zoeken](https://support.workfront.com/hc/en-us/articles/360016374093#new-mobile-search-experience)
+* [ Nieuwe Mobiele Ervaring van het Onderzoek ](https://support.workfront.com/hc/en-us/articles/360016374093#new-mobile-search-experience)
 
   Het zoeken naar objecten in de mobiele app van Workfront is nu gebruiksvriendelijker en intuïtiever.
 
-* [Home is de nieuwe standaardbestemmingspagina op de Workfront Mobile-apps](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [ Huis is de Nieuwe Standaard het landen Pagina op de Mobiele Apps van Workfront ](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   Het gebied Home is nu de nieuwe standaardbestemmingspagina voor de mobiele toepassingen van Workfront. Dit wordt ondersteund voor zowel iOS- als Android-apparaten.
 
-* [Nieuwe opties voor het organiseren van lijsten in de Workfront Mobile-app](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
+* [ Nieuwe Opties voor het Organiseren van Lijsten in de Mobiele App van Workfront ](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   U kunt nu uw lijsten filteren, sorteren en bestellen in de mobiele app van Workfront.
 
-* [Ondersteuning voor Workfront Beta App voor iOS-apparaten](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [ Steun voor Workfront Beta App voor de Apparaten van iOS ](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
   U kunt zich nu inschrijven om een bètatester te worden voor de mobiele Workfront-app vanaf een iOS-apparaat.
 
-* [Eenvoudige taak maken voor Android bèta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
+* [ Eenvoudige Taak creatie voor Android Beta ](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
-  U kunt taken nu rechtstreeks vanuit een project, een taak of vanuit het gebied Home maken voor de bètaversie van de mobiele Android-app.
+  U kunt taken nu rechtstreeks maken vanuit een project, een taak of vanuit het gebied Home voor de bètaversie van de mobiele app van Android.
 
-* [Nieuwe zelfstudie voor de eerste keer voor de Workfront Mobile-app voor Android-apparaten](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
+* [ Nieuwe Eerste-Tijd Leerprogramma voor de Mobiele App van Workfront voor de Apparaten van Android ](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
-  De vormgeving van de zelfstudie die de eerste keer dat u de Workfront mobile-app op een Android-apparaat opent, weergeeft, is bijgewerkt.
+  De vormgeving van de zelfstudie die de eerste keer dat u de Workfront Mobile-app op een Android-apparaat opent, weergeeft, is bijgewerkt.
 
 ### Verbeteringen voor toepassingsintegratie van andere leveranciers
 
-* [Workfront for Slack Improvement](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [ Workfront voor de Verbeteringen van de Slack ](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
   Er zijn nu verschillende updates beschikbaar in Workfront voor Slack, waaronder de mogelijkheid om een opmerking die u in de Slack hebt gemaakt als opmerking over een object in Workfront te plaatsen, u te abonneren op een melding in de Slack wanneer iemand een opmerking maakt over een van uw verzoeken, en nog veel meer.
 
-* [Verbeteringen voor Workfront for Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [ Workfront voor de Verbeteringen van Jira ](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   De Workfront for Jira-integratie bevat nu verschillende verbeteringen, waaronder een indicatie wanneer de integratie automatisch een gebruiker maakt in Jira, een optie om het automatisch maken van Workfront-gebruikers uit te schakelen, enzovoort.
 
 ## Aankondigingen
 
-* [API-versie 10 nu beschikbaar in Voorvertoning](#api-version-10-now-available-in-preview)
+* [ API Versie 10 nu Beschikbaar in Voorproef ](#api-version-10-now-available-in-preview)
 * [Verschillende Single Sign-On-opties die moeten worden verwijderd](#various-single-sign-on-options-to-be-removed)
 
 ### API-versie 4 wordt niet meer ondersteund
 
-De ondersteuning voor API versie 4 loopt af in combinatie met de release van 2019.1. Zie voor meer informatie over het ondersteuningsschema voor versies van de Workfront API  [API-versieschema en ondersteuningsschema](../../../../wf-api/api/api-version-support-schedule.md).
+De ondersteuning voor API versie 4 loopt af in combinatie met de release van 2019.1. Zie voor meer informatie over het ondersteuningsschema voor versies van de Workfront API  [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Updates van het gereedschap Agiel
 
@@ -220,29 +220,29 @@ De volgende updates voor het hulpprogramma Agile zijn op 13 december 2018 rechts
 
 ### API-versie 10 nu beschikbaar in Voorvertoning {#api-version-10-now-available-in-preview}
 
-API versie 10 is nu beschikbaar in de voorvertoningsomgeving. Het wordt beschikbaar gesteld in de Productomgeving met de release 18.3. Zie voor meer informatie [Nieuw in API-versie 10.](https://support.workfront.com/hc/en-us/articles/360010455333) 
+API versie 10 is nu beschikbaar in de voorvertoningsomgeving. Het wordt beschikbaar gesteld in de Productomgeving met de release 18.3. Voor meer informatie, zie [ wat in API Versie 10 Nieuw is.](https://support.workfront.com/hc/en-us/articles/360010455333) 
 
 ### Verschillende Single Sign-On-opties die moeten worden verwijderd {#various-single-sign-on-options-to-be-removed}
 
 De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate ondersteund; ze worden in de tweede helft van 2019 uit het product verwijderd:
 
 * LDAP\
-  Ga voor meer informatie over het gebruik van LDAP met Workfront naar [Workfront configureren met LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Vormend Workfront met LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
 
 * Active Directory\
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [Workfront configureren met Active Directory.](https://support.workfront.com/hc/en-us/articles/217223547)
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Vormend Workfront met Actieve Folder.](https://support.workfront.com/hc/en-us/articles/217223547)
 
 * SAML 1.1\
-  Voor meer informatie over het gebruik van SAML 1.1 met Workfront raadpleegt u [Workfront configureren met SAML 1.1.](https://support.workfront.com/hc/en-us/articles/217194887)
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Vormend Workfront met SAML 1.1.](https://support.workfront.com/hc/en-us/articles/217194887)
 
 Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
-* **Beperkte ondersteuning:** augustus 2018 - januari 2019\
+* **Beperkte steun:** Augustus 2018 - Januari 2019\
   Belangrijke kwesties zullen worden opgelost; problemen met een lage ernst zullen niet worden opgelost.
 
-* **Verdringing:** januari 2019 - augustus 2019\
+* **Verdringing:** Januari 2019 - Augustus 2019\
   Niet ondersteund.
 
-* **Niet meer beschikbaar in Workfront:** augustus 2019
+* **niet meer beschikbaar in Workfront:** August 2019
 
-Deze wijzigingen worden aangebracht ter voorbereiding op de uitgebreide verificatie, die momenteel slechts voor een beperkt aantal klanten beschikbaar is. Voor meer informatie over deze aanstaande veranderingen, zie [Aan de slag met de verbeterde verificatieervaring.](https://support.workfront.com/hc/en-us/articles/360008329033)
+Deze wijzigingen worden aangebracht ter voorbereiding op de uitgebreide verificatie, die momenteel slechts voor een beperkt aantal klanten beschikbaar is. Voor meer informatie over deze aanstaande veranderingen, zie [ Begonnen het Worden met de Verbeterde Ervaring van de Authentificatie.](https://support.workfront.com/hc/en-us/articles/360008329033)

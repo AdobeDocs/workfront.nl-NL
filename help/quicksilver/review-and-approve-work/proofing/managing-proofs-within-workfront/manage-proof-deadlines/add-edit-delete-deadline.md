@@ -28,11 +28,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -44,23 +44,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een deadline voor een werkgebied toevoegen, bewerken of verwijderen
 
-1. Houd de proefdruk boven en klik vervolgens op **Proofingworkflow** om de pagina Workflow te openen.
+1. Beweeg over de proef, dan klik **het Proofing werkschema** om de pagina van het Werkschema te openen.
 1. Zoek het werkgebied dat u wilt beheren op een van de volgende manieren:
 
    <table>
       <tbody>
       <tr>
       <td>Een deadline toevoegen aan het werkgebied</td>
-      <td>Dubbelklikken <strong>Geen deadline</strong>en geeft u vervolgens een datum en tijd voor de deadline op.</td>
+      <td>Dubbelklik <strong> Geen termijn </strong>, dan specificeer een datum en een tijd voor de termijn.</td>
       </tr>
       <tr>
       <td>Een bestaande deadline bewerken</td>
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       </tr>
       <tr>
       <td>Een bestaande deadline verwijderen</td>
-      <td>Dubbelklik op de datum en tijd in de rechterbovenhoek van het werkgebied en klik vervolgens op <strong>Wissen</strong> onder aan het vak Kalender dat wordt weergegeven.</td>
+      <td>Dubbelklik de datum en de tijd in de hoger-juiste hoek van het stadium, dan klik <strong> Duidelijk </strong> bij de bodem van de doos van de Kalender die verschijnt.</td>
       </tr>
       </tbody>
       </table>

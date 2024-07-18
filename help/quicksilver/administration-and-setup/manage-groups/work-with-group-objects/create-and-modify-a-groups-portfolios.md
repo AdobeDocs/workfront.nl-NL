@@ -35,25 +35,25 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Licentie voor werkfront Adoben*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De portefeuille moet aan de groep of om het even welk van zijn subgroepen worden geassocieerd.</p> <p>U moet ook over machtigingen beschikken om het portfolio weer te geven, omdat u het hebt gemaakt of omdat het met u is gedeeld.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De portefeuille moet aan de groep of om het even welk van zijn subgroepen worden geassocieerd.</p> <p>U moet ook over machtigingen beschikken om het portfolio weer te geven, omdat u het hebt gemaakt of omdat het met u is gedeeld.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## U kunt portfolio&#39;s voor uw groep weergeven, bewerken en maken in het gebied Groepen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u portfolio&#39;s wilt maken, weergeven of bewerken.
-1. Klik in het linkerdeelvenster op **Portfolio&#39;s** een lijst op te stellen van de portefeuilles die aan de groep (en eventuele subgroepen eronder) zijn gekoppeld.
+1. In het linkerpaneel, klik **Portfolio&#39;s** om van de portefeuilles een lijst te maken verbonden aan de groep (en om het even welke subgroups onder het).
 1. Voer een van de volgende handelingen uit:
 
    <table style="table-layout:auto"> 
@@ -64,24 +64,24 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader">Een portfolio toevoegen</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klikken <strong>Nieuw Portfolio</strong>.</p> </li> 
-        <li value="2">Vervangen <strong>Naamloos Portfolio</strong> met de gewenste naam voor het portfolio.</li>
-        <li value="3"><p>Klikken <strong>Details Portfolio</strong> in het linkerpaneel en werk informatie in het gebied van het Overzicht bij zoals nodig.</p>
-        <p>Voor meer informatie over de configuratieopties, zie <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Een portfolio maken</a>.</p></li>
+        <li value="1"> <p>Klik <strong> Nieuw Portfolio </strong>.</p> </li> 
+        <li value="2">Vervang <strong> Naamloos Portfolio </strong> met de naam u voor de portefeuille wilt.</li>
+        <li value="3"><p>Klik <strong> Details van het Portfolio </strong> in het linkerpaneel en werk informatie in het gebied van het Overzicht zoals nodig bij.</p>
+        <p>Voor meer informatie over de configuratieopties, zie <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> een portefeuille </a> creëren.</p></li>
         <li value="4">Klik op de knop Vorige van uw browser om terug te keren naar de lijst Portfolio's van de groep.</li> 
        </ol> </td>
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Portfolio's bewerken of verwijderen</p> </td> 
-      <td> <p>Selecteer ten minste één portfolio dat u mag bewerken en bewerk de werkbalkknoppen <img src="assets/edit-icon.png"> of verwijderen <img src="assets/delete.png"> het.</p> </td> 
+      <td> <p>Selecteer ten minste één portfolio dat u mag bewerken en gebruik vervolgens de werkbalkknoppen om <img src="assets/edit-icon.png"> te bewerken of <img src="assets/delete.png"> te verwijderen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Portefeuilles delen</td> 
-      <td>Selecteer ten minste één portfolio dat u mag delen en klik op het pictogram Delen <img src="assets/share-icon.png">.</td> 
+      <td>Selecteer ten minste één portfolio waarvoor u machtigingen hebt om te delen en klik op het pictogram Delen <img src="assets/share-icon.png"> .</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>De lijst met portfolio's exporteren</p> </td> 
-      <td>Klikken <strong>Exporteren</strong> <img src="assets/export.png">selecteert u vervolgens de gewenste bestandsindeling voor de geëxporteerde lijst.</td> 
+      <td>Klik <strong> Uitvoer </strong> <img src="assets/export.png">, dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.</td> 
      </tr> 
     </tbody> 
    </table>

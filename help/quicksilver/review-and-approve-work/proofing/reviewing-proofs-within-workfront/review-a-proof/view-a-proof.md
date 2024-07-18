@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -37,22 +37,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## De weergave van de proefdruk wijzigen
 
 U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, in een doorlopende weergave of in een tijdschriftweergave bekijken.
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Zoek in de linkerbovenhoek van de proefdrukviewer de weergaveopties.\
-   ![changing_the_view.png](assets/changing-the-view-350x213.png)
+   ![ changing_the_view.png ](assets/changing-the-view-350x213.png)
 
 1. Klik op een van de volgende opties:
 
@@ -79,18 +79,18 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
 
 Het deelvenster met miniaturen wordt aan de linkerkant van de proefdrukviewer weergegeven. In het gebied met miniaturen kunt u door de proefdruk navigeren. Miniaturen zijn vooral handig wanneer een proefdruk meerdere pagina&#39;s bevat.
 
-* [Het deelvenster Miniaturen verbergen en weergeven](#hide-and-display-the-thumbnails-panel)
+* [ verberg en toon het duimnagelpaneel ](#hide-and-display-the-thumbnails-panel)
 * [Zoomen en pannen in de miniatuurweergave](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Het deelvenster Miniaturen verbergen en weergeven {#hide-and-display-the-thumbnails-panel}
 
 Het deelvenster Miniaturen wordt standaard weergegeven. U kunt de grootte van het deelvenster verbergen of aanpassen.
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
-1. Klik op de knop **Miniatuur** in de linkerbovenhoek van de proefdrukviewer.\
-   ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
+1. Klik het **pictogram van de Duimnagel** in de upper-left hoek van de het proef kijker.\
+   ![ hide_thumbnails_panel.png ](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Optioneel) Klik nogmaals op het pictogram Miniatuur om het deelvenster Miniaturen weer te geven.
 
@@ -104,13 +104,13 @@ In het zoomgebied in het venster met miniaturen wordt het gedeelte van de proefd
 
 Zoomen en pannen in de miniatuurweergave:
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Zoek het huidige zoomgebied in het deelvenster met miniaturen.\
    Het zoomgebied wordt weergegeven als een blauw kader rond de randen van de miniatuur.
 
-   ![zoom_miniatuur_-_frame.png](assets/zoom-thumbnail---frame-350x215.png)
+   ![ zoom_thumbnail_-_frame.png ](assets/zoom-thumbnail---frame-350x215.png)
 
 1. Als u de grootte van het zoomgebied wilt aanpassen, sleept u de rechterbenedenhoek van het zoomgebied totdat dit de gewenste grootte heeft.
 1. Als u het zoomgebied naar een ander gedeelte van de proefdruk wilt verplaatsen, sleept u het zoomgebied totdat dit het gedeelte van de proefdruk bedekt dat u wilt weergeven.
@@ -119,39 +119,39 @@ Zoomen en pannen in de miniatuurweergave:
 
 U kunt de proefdruk roteren in de proefdrukviewer. Wanneer u een proefdruk met meerdere pagina&#39;s roteert, worden alle pagina&#39;s tegelijkertijd geroteerd.
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
-1. Klik op de knop **Roteren** onder aan de proefdrukviewer.
+1. Klik het **roteren** pictogram bij de bodem van de het proef kijker.
 
-   ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
+   ![ proof_viewer_static_rotate.png ](assets/proof-viewer-static-rotate-350x36.png)
 
-   Elke keer dat u op de knop **Roteren** pictogram.
+   De proef wordt geroteerd 90 graden telkens als u **klikt roteer** pictogram.
 
 ## Zoomen en een proefdruk pannen
 
 U kunt het zoompercentage aanpassen wanneer u de proefdruk weergeeft. Als u een proefdruk weergeeft met een groter zoompercentage, kunt u met de optie Pannen naar andere delen van de proefdruk navigeren.
 
-1. Ga naar het project, de taak, of de kwestie die het document bevat, dan uitgezocht **Documenten**.
-1. Zoek de proefdruk die u nodig hebt en klik op **Proef openen**.
+1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Voer een van de volgende handelingen uit om het zoompercentage van de proefdruk aan te passen:
 
-   * Klik op de knop **Zoomen** Klik vervolgens op de proefdruk om de proefdruk met een hoger zoomniveau weer te geven of sleep over een gedeelte van de proefdruk om alleen dat gedeelte weer te geven.
+   * Klik het **pictogram van het Gezoem**, dan of klik op de proef om de proef bij een hoger gezoemniveau te bekijken, of belemmering over een gebied van de proef om slechts dat gebied te bekijken.
 
-     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![ change_zoom_percentage.png ](assets/change-zoom-percentage-350x36.png)
 
-   * Klik op het huidige zoompercentage en klik op een nieuw zoompercentage of klik op **Aanpassen aan breedte**, **Aanpassen aan hoogte**, of **Aanpassen aan pagina**.
+   * Klik het huidige gezoempercentage, klik een nieuw gezoempercentage of klik **passen aan breedte**, **passen aan hoogte**, of **passen aan pagina**.
 
-     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![ zoom_percentage_menu.png ](assets/zoom-percentage-menu-350x245.png)
 
-   * Klik op de knop **Plus** of **Min** pictogrammen om het zoompercentage te verhogen of te verlagen.
+   * Klik **plus** of **min** pictogrammen om het gezoempercentage te verhogen of te verminderen.
 
-     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![ change_zoom_percentage_-_plus_minus.png ](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Als u naar een bepaald gebied op de videoproef wilt pannen, klikt u op **Pannen** en sleep de proefdruk naar wens.
+1. Als u aan een bepaald gebied op de videoproef moet pannen, klik het **Pannen** pictogram, dan sleep de proef zoals nodig.
 
-   ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
+   ![ change_zoom_-_pan.png ](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >

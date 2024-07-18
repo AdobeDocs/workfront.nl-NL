@@ -24,7 +24,7 @@ Als u wilt integreren met Workfront en uw clienttoepassing in staat wilt stellen
 
 ## Een OAuth2-toepassing maken
 
-Voor instructies over het maken van de OAuth2-toepassing raadpleegt u [Een OAuth2-toepassing maken met serververificatie (JWT-stroom)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [OAuth2-toepassingen maken voor Workfront-integratie](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [ een toepassing OAuth2 creëren gebruikend serverauthentificatie (stroom JWT) ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [ creeer toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ Het token moet worden ondertekend met de persoonlijke sleutel voor een digitaal 
 
 Het gebruikte algoritme is RS256 (RSA-handtekening met SHA-256). Dit is een asymmetrisch algoritme, en het gebruikt een openbare/privé zeer belangrijke paar. De identiteitsprovider heeft een persoonlijke (geheime) sleutel die wordt gebruikt om de handtekening te genereren en de consument van de JWT krijgt een openbare sleutel om de handtekening te valideren.
 
-Als u de openbare sleutel wilt genereren, gaat u **één** van de volgende punten.
+Om de openbare sleutel te produceren, doe **één** van het volgende.
 
-* Open uw MacOS/Linux-terminal en voer de volgende opdracht uit. Upload vervolgens `certificate_pub.crt` met de **Openbare sleutel toevoegen** in de OAuth2-toepassingsinstellingen in Workfront.
+* Open uw terminal van MacOS/Linux en voer het volgende bevel uit, dan upload `certificate_pub.crt` gebruikend **openbare sleutel** knoop in de OAuth2 toepassingsopstelling in Workfront.
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* Gebruik de **Een openbaar/privé-sleutelpaar genereren** in de OAuth2 toepassingsopstelling in Workfront om RSA te produceren.
+* Gebruik **produceert een openbaar/privé sleutelpaar** knoop in de OAuth2 toepassingsopstelling in Workfront om RSA te produceren.
 
 ## Een JSON-webtoken maken
 

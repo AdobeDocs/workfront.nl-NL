@@ -5,7 +5,8 @@ title: Een goedkeuringsrapport in behandeling toevoegen aan een Canvasdashboard
 description: Een goedkeuringenrapport in behandeling dat gegevens betreffende uw in behandeling zijnde en vroegere goedkeuringsbesluiten omvat kan aan een dashboard van het Canvas worden toegevoegd.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Een goedkeuringenrapport in behandeling dat gegevens betreffende uw in behandeling zijnde en vroegere goedkeuringsbesluiten omvat kan aan een dashboard van het Canvas worden toegevoegd.
 
-Voor algemene informatie over het toevoegen en rangschikken van rapporten op een dashboard van het Canvas, zie [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Voor algemene informatie bij het toevoegen van en het rangschikken van rapporten over een Dashboard van het Canvas, zie [, rapporten in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) toevoegen verwijderen of rangschikken.
 
 ## Toegangsvereisten
 
@@ -43,10 +44,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Zie voor meer informatie over de informatie in deze tabel [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een goedkeuringsrapport in behandeling toevoegen aan een Canvasdashboard
 
 >[!IMPORTANT]
 >
->Dit artikel is nog niet voltooid. Raadpleeg de algemene instructies voor het toevoegen van een rapport aan een canvasdashboard in het artikel [Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Dit artikel is nog niet voltooid. Gelieve te verwijzen naar de algemene instructies om een rapport aan een Dashboard van het Canvas in artikel toe te voegen [, te verwijderen of rapporten in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) te schikken.

@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Als groepsbeheerder kunt u aangepaste statussen maken voor een groep die u beheert. Dit helpt de behoefte aan tientallen bedrijfs-brede douanestatus elimineren en staat meer autonomie in uw groepshiërarchieën toe.
 
-U kunt ook een status op systeemniveau bewerken voor een groep die u beheert als een Workfront-beheerder de status heeft ontgrendeld. Zie voor meer informatie [Vergrendelde en ontgrendelde statussen op systeemniveau](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+U kunt ook een status op systeemniveau bewerken voor een groep die u beheert als een Workfront-beheerder de status heeft ontgrendeld. Voor meer informatie, zie [ Vergrendelde en ontgrendelde systeem-vlakke statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 >[!NOTE]
 >
->De de groepsstatussen van de douane kunnen niet op een project worden getoond wanneer het bekijken van het project in een flexibele mening. Alleen standaard- en aangepaste vergrendelde statussen zijn zichtbaar wanneer een project in een flexibele weergave wordt weergegeven. Voor informatie over het aanpassen van een flexibele mening voor een project, zie de sectie [Een eenvoudige weergave maken of aanpassen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in het artikel [Weergaven maken of bewerken in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>De de groepsstatussen van de douane kunnen niet op een project worden getoond wanneer het bekijken van het project in een flexibele mening. Alleen standaard- en aangepaste vergrendelde statussen zijn zichtbaar wanneer een project in een flexibele weergave wordt weergegeven. Voor informatie over het aanpassen van een gelijke mening voor een project, zie de sectie [ creëren of een Gelijke mening ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in artikel [ creëren of uitgeven meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) aanpassen.
 
-Zie voor algemene informatie over statussen [Overzicht van statussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Voor algemene informatie over statussen, zie [ Overzicht van Statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Toegangsvereisten
 
@@ -43,21 +43,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de Workfront-beheerder als u wilt weten welk abonnement- of licentietype u hebt.
+&#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
 ## Een status voor een groep maken of bewerken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klik in het linkerdeelvenster op **Groepen** ![](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waar u statussen wilt maken of aanpassen.
-1. Klik in het linkerdeelvenster op **Statussen**.
+1. In het linkerpaneel, klik **Statussen**.
 
    Als de groep die u bekijkt een groep op hoofdniveau is, bevat de lijst die wordt weergegeven het volgende:
 
@@ -69,21 +69,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    * Vergrendelde statussen die tot de groepen boven de subgroep behoren.
    * Ontgrendelde statussen die bij het maken van de subgroep behoorden tot de groepen boven de subgroep.
 
-     Nadat een subgroep is gemaakt, worden ontgrendelde statussen die in de bovenstaande groepen zijn gemaakt, niet opgenomen in de statuslijst van de subgroep. Nochtans, als iemand één van hen later sluit, wordt het dan inbegrepen in de de statuslijst van subgroup. Zie voor meer informatie [Hoe groepen statussen overerven](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     Nadat een subgroep is gemaakt, worden ontgrendelde statussen die in de bovenstaande groepen zijn gemaakt, niet opgenomen in de statuslijst van de subgroep. Nochtans, als iemand één van hen later sluit, wordt het dan inbegrepen in de de statuslijst van subgroup. Voor meer informatie, zie [ Hoe de groepen statussen ](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven.
 
-1. Selecteer de tab van het objecttype (**Project**, **Taken**, of **Problemen**) die u aan de status wilt koppelen.
+1. Selecteer het lusje van het objecten type (**Project**, **Taken**, of **Kwesties**) dat u met de status wilt associëren.
 
-1. (Voorwaardelijk) Als de status een uitgiftestatus is, zorg ervoor dat **Stramienlijst** is geselecteerd.
+1. (Voorwaardelijk) als de status een uitgevende status is, zorg ervoor dat **Hoofdlijst** wordt geselecteerd.
 
    ![](assets/master-list.png)
 
-   Voor informatie over het aanpassen van de andere uitgiftetypen (Bug Report, Change Order, Issue, Request) raadpleegt u [Standaardobjecttypen aanpassen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
+   Voor informatie over het aanpassen van de andere uitgevende types (het Rapport van de Bug, de Orde van de Verandering, Uitgave, Verzoek), zie [ standaardkwesties ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md) aanpassen.
 
-1. (Voorwaardelijk) Als u een nieuwe status wilt maken, klikt u op **Een nieuwe status toevoegen**.
+1. (Voorwaardelijk) om een nieuwe status tot stand te brengen, klik **voeg een Nieuwe Status** toe.
 
    of
 
-   Als u een bestaande status wilt bewerken, plaatst u de muis boven de status die u wilt bewerken en klikt u op de knop **Bewerken** die uiterst rechts wordt weergegeven.
+   Om een bestaande status uit te geven, muis over de status u wilt uitgeven, dan klik **uitgeven** optie die aan uiterst rechts toont.
 
    ![](assets/group-statuses-edit.jpg)
 
@@ -138,18 +138,18 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
       <td> 
        <p>Als u deze optie ingeschakeld laat, kunnen de gebruikers in uw groep en de subgroepen de status zien en gebruiken en kunnen groepsbeheerders de status niet aanpassen voor lagere subgroepen.</p> 
        <p>Als deze optie is uitgeschakeld, kunnen groepsbeheerders de status voor lagere subgroepen aanpassen.</p> 
-       <p><b>OPMERKING</b>: U kunt zowel vergrendelde als ontgrendelde statussen gebruiken in een goedkeuringsproces voor groepen. Als u een proces van de groepsgoedkeuring met een ontgrendelde groepsstatus creeert, kunnen de gebruikers het goedkeuringsproces aan om het even welk project, taak, of kwestie vastmaken die met de groep wordt geassocieerd.</p> 
-       <p>Zie voor meer informatie over het vergrendelen van statussen <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Vergrendelde en ontgrendelde groepsstatussen</a>.</p> 
+       <p><b> NOTA </b>: U kunt zowel gesloten als ontgrendelde statussen in een proces van de groepsgoedkeuring gebruiken. Als u een proces van de groepsgoedkeuring met een ontgrendelde groepsstatus creeert, kunnen de gebruikers het goedkeuringsproces aan om het even welk project, taak, of kwestie vastmaken die met de groep wordt geassocieerd.</p> 
+       <p>Voor meer informatie over het sluiten van statussen, zie <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref"> Vergrendelde en ontgrendelde groepsstatussen </a>.</p> 
        </td> 
      </tr>
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    De status is nu beschikbaar voor alle projecten die aan uw groep of subgroep zijn gekoppeld. Als u deze hebt vergrendeld, kunt u deze gebruiken door lagere subgroepen.
 
-   U kunt de status zo configureren dat deze een standaardstatus voor de groep is. Zie voor meer informatie [Een aangepaste status als standaardstatus voor een groep gebruiken](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+   U kunt de status zo configureren dat deze een standaardstatus voor de groep is. Voor meer informatie, zie [ Gebruik een douanestatus als standaardstatus voor een groep ](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Een aangepaste status maken voor meerdere groepen
 
@@ -157,17 +157,17 @@ Als u een Workfront-beheerder bent, kunt u een aangepaste status voor meerdere g
 
 Als u een groepsbeheerder (of een beheerder van Workfront) bent, kunt u een douanestatus voor veelvoudige subgroepen binnen een groepshiërarchie tot stand brengen u door een status voor een hogere niveaugroep te creëren beheert, dan het verbergen van die status voor lagere subgroepen die het niet nodig hebben.
 
-1. Als u een Workfront-beheerder bent, maakt u een voor het gehele systeem geldende ontgrendelde status, zoals beschreven in [Een status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-1. In het vak in de rechterbovenhoek verwijdert u **Systeemstatussen** typt u eerst de naam van een groep waarin u de status wilt verbergen en vervolgens klikt u op de naam wanneer deze wordt weergegeven.
-1. Houd de cursor boven de status die u wilt verbergen in de groep en klik vervolgens op **Bewerken** wanneer deze wordt weergegeven.
+1. Als u een beheerder van Workfront bent, creeer een systeem-brede ontgrendelde status zoals die in [ wordt beschreven creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+1. In de doos in de hoger-juiste hoek, schrap **Statussen van het Systeem**, begin typend de naam van een groep waar u de status wilt verbergen, dan klik de naam wanneer het verschijnt.
+1. Beweeg over de status u van de groep wilt verbergen, dan **** klikken uitgeven wanneer het verschijnt.
 
    ![](assets/hover-click-edit.jpg)
 
-1. De optie **Status verbergen** weergegeven.
+1. Laat de **optie van de Status van de Verbergen** toe die verschijnt.
 
    ![](assets/hide-group-status.png)
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    De status wordt grijs weergegeven en is niet meer zichtbaar voor alle gebruikers in die groep.
 

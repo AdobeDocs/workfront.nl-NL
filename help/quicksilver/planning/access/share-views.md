@@ -85,19 +85,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p> 
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 
-## Machtigingen delen voor een weergave <!--internally-->
+## Machtigingen delen naar een weergave <!--internally-->
 
-U kunt weergaven delen die u hebt gemaakt of weergaven die u beheerdersmachtigingen hebt <!--with users or groups in Workfront-->.
+U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtigingen hebt. <!--with users or groups in Workfront-->
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ U kunt weergaven delen die u hebt gemaakt of weergaven die u beheerdersmachtigin
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. Houd de muisaanwijzer boven de weergave die u wilt delen op het tabblad Weergave en klik op de knop **Meer** menu ![](assets/more-menu.png) rechts van de weergavenaam klikt u op **Delen**.
+1. Van het meningslusje, houd over de mening u **Meer** menu ![](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -119,10 +119,10 @@ U kunt weergaven delen die u hebt gemaakt of weergaven die u beheerdersmachtigin
 
 1. (Optioneel) Selecteer een van de volgende opties om de weergave te delen:
 
-   * **Alleen uitgenodigde personen hebben toegang**: U moet gebruikers of groepen opgeven waarmee u de weergave wilt delen. Dit is de standaardoptie.
-   * **Iedereen in de werkruimte kan de gegevens weergeven**: Alle gebruikers met Weergave of hogere machtigingen voor werkruimten hebben toegang tot de weergave.
+   * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers of groepen specificeren die u de mening met wilt delen. Dit is de standaardoptie.
+   * **iedereen in de werkruimte kan** bekijken: Alle gebruikers die Mening of hogere toestemmingen aan werkruimten hebben kunnen tot de mening toegang hebben.
 
-1. In de **Toegang tot weergave verlenen aan** , typt u de naam van een gebruiker of groep en klikt u erop wanneer deze in de lijst wordt weergegeven.  <!--***********replace screen shot below when public sharing is released***********-->
+1. In de **de meningstoegang van de Verlening tot** gebied, begin de naam van een gebruiker of een groep te typen, dan het te klikken wanneer het in de lijst toont.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -130,17 +130,17 @@ U kunt weergaven delen die u hebt gemaakt of weergaven die u beheerdersmachtigin
    * Weergave
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
      Systeembeheerders ontvangen altijd beheermachtigingen voor weergaven die met hen worden gedeeld.
 
-1. Klikken **Koppeling kopiëren** om een koppeling naar de weergave naar het klembord te kopiëren.
+1. Klik **verbinding van het Exemplaar** om een verbinding aan de mening aan uw klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
    >[!TIP]
    >
-   >   Weergaven die met u worden gedeeld, beschikken over een personeels-indicator ![](assets/view-shared-with-others-people-icon.png) naast het weergavepictogram. Weergaven zonder de indicator Personen zijn weergaven die u hebt gemaakt.
+   >   Weergaven die met u worden gedeeld, hebben een personeels-indicator ![](assets/view-shared-with-others-people-icon.png) naast het weergavepictogram. Weergaven zonder de indicator Personen zijn weergaven die u hebt gemaakt.
 
 
 
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Open de werkruimte waarvan u de weergave niet meer wilt delen en klik op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
-1. Houd de muisaanwijzer boven de tabnaam van de weergave waarvan u het delen wilt verwijderen en klik op de knop **Meer** menu ![](assets/more-menu.png)en klik vervolgens op **Delen**.
-1. Zoek de gebruiker of groep wat u wilt verwijderen en klik vervolgens op **Verwijderen** in het vervolgkeuzemenu voor machtigingen rechts van de naam van de gebruiker of groep.
-1. Klikken **Opslaan**.
+1. Beweeg over de lusjenaam van de mening u het delen uit wilt verwijderen en **Meer** menu ![](assets/more-menu.png) klikken, dan **Aandeel** klikken.
+1. Vind de gebruiker of de groep wat u wilt verwijderen, dan **verwijderen** in het drop-down menu van toestemmingen rechts van de naam van de gebruiker of van de groep.
+1. Klik **sparen**.
 De gebruiker of de gebruikers die tot de verwijderde groep behoren, hebben geen toegang meer tot de weergave. Er is geen bericht voor de gebruikers die uit de toegang tot van mening zijn verwijderd dat zij deze toegang verloren.
 
 <!--Replace the above instructions with the following when public sharing is released: 

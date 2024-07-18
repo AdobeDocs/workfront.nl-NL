@@ -19,20 +19,20 @@ ht-degree: 0%
 
 Met Workfront-datumpigment kunt u de Workfront-gegevens van uw organisatie gebruiken met de tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
 
-Om uw gegevens van het gegevensMeer van Workfront met een extern product te verbinden, moet u om het even welke vereiste IPs aan de lijst van gewenste personen eerst toevoegen zoals die in wordt beschreven [Voeg IPs aan de lijst van gewenste personen toe](#add-ips-to-the-allowlist) hieronder. Bovendien zullen de meeste producten extra informatie over uw gegevens meer vereisen om een verbinding te vestigen:
+Om uw gegevens van het gegevens meer van Workfront met een extern product te verbinden, moet u om het even welke vereiste IPs aan de lijst van gewenste personen eerst toevoegen zoals die in [ wordt beschreven IPs aan de lijst van gewenste personen ](#add-ips-to-the-allowlist) hieronder toevoegen. Bovendien zullen de meeste producten extra informatie over uw gegevens meer vereisen om een verbinding te vestigen:
 
 | Veldnaam | Waarde |
 |---------------|-------------|
-| Server | De URL voor de verbinding, zonder `https://` gedeelte (aangetroffen op de **Toegang tot gegevens** pagina in Workfront*) |
+| Server | URL voor de verbinding, zonder het `https://` gedeelte (dat op de **toegang van Gegevens** pagina in Workfront* wordt gevonden) |
 | Poort | `443` |
 | Database | `WORKFRONT` |
 | Warehouse | `READER_WH` |
 | Schema | `WF` |
 | Rol | `READER_ROLE` |
-| Gebruikersnaam | De gebruikersnaam die u hebt gekozen bij het maken van de verbinding (bevindt zich op het tabblad **Toegang tot gegevens** pagina in Workfront*) |
+| Gebruikersnaam | De gebruikersbenaming die wanneer het creëren van de verbinding wordt gekozen (die op de **toegang van Gegevens** pagina in Workfront* wordt gevonden) |
 | Wachtwoord | Het wachtwoord dat is gekozen bij de eerste Snowflake-aanmelding* |
 
-*Voor informatie over waar u de **Toegang tot gegevens** pagina die uw gegevens bevat, zie [Een reader-account (service) maken voor Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*For informatie over waar te om de **de toegang van Gegevens** pagina te vinden die uw verbindingen van het gegevensmeer bevatten, zie [ een lezer (dienst) rekening voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
 
 >[!IMPORTANT]
 >
@@ -43,38 +43,38 @@ Om uw gegevens van het gegevensMeer van Workfront met een extern product te verb
 
 ## Voeg IPs aan de lijst van gewenste personen toe
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Instellen**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
-1. Klik in het linkerdeelvenster op **Systeem** > **Gegevenstoegang**.
+1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
 
-1. Klik op de knop **Toegestane IPs** en klikt u op de knop **Voeg een IP Adres aan uw Lijst van gewenste personen toe** knop.
+1. Klik op het **Toegestane IPs** lusje, dan klik op **een IP Adres aan uw Lijst van gewenste personen** knoop toevoegen.
 
-1. Voer een naam in voor het IP-adres in **Beschrijving van IP-adres** en ga het IP adres (of blok CIDR) voor het hulpmiddel in u binnen wilt gebruiken **IP-adres** en klik vervolgens op **IP toevoegen aan Lijst van gewenste personen**.
+1. Ga een naam voor het IP adres in **IP de beschrijving van het Adres** in en ga het IP adres (of blok CIDR) voor het hulpmiddel in u in **IP Adres** zou willen gebruiken, dan klik **IP aan Lijst van gewenste personen** toevoegen.
 
-   ![IP-adres toevoegen](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
+   ![ voeg IP adres ](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) toe {width="500"}
 
 ## Verwijder een IP adres uit de lijst van gewenste personen
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront of (indien beschikbaar) op de knop **[!UICONTROL Main Menu]** pictogram ![Hoofdmenu](/help/_includes/assets/main-menu-icon-left-nav.png) in de linkerbovenhoek klikt u op **Instellen**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
-1. Klik in het linkerdeelvenster op **Systeem** > **Gegevenstoegang**.
+1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
 
-1. Klik op de knop **Toegestane IPs** en klik vervolgens op het pictogram van de prullenbak ![Pictogram Verwijderen](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van het IP-adres dat u wilt verwijderen.
+1. Klik op het **Toegestane IPs** lusje, dan klik op het trashcan pictogram ![ pictogram van de Schrapping ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van het IP adres u zou willen verwijderen.
 
-1. Schakel in het venster dat wordt weergegeven het selectievakje ter bevestiging in en klik op **Verwijderen**.
+1. In het venster dat verschijnt, controleer de doos om te bevestigen en dan **Schrapping** te klikken.
 
 ## Gegevens delen met Business Intelligence-tools
 
 Een aantal gemeenschappelijke hulpmiddelen van de bedrijfsintelligentie wordt hieronder vermeld; de verbindingen zullen u aan de documentatieplaats van de dienst nemen om meer over het verbinden met uw gegevens meer te leren.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* [ Tableau ](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
+* [ Power BI ](https://learn.microsoft.com/power-query/connectors/snowflake)
+* [ Domo ](https://www.domo.com/appstore/connector/snowflake-connector/overview)
 * SAP HANA
 
 ## Gegevens opslaan in een extern gegevenspakhuis
 
 Een aantal gemeenschappelijke gegevenspakhuizen wordt hieronder vermeld; de verbindingen zullen u aan de documentatieplaats van elke dienst brengen waar u meer over het verbinden met uw gegevens meer kunt leren.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* [ Gegevensbestanden ](https://docs.databricks.com/en/connect/index.html)
+* [ AWS Redshift ](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)

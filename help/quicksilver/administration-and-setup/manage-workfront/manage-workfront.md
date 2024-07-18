@@ -20,11 +20,11 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [Proofingfunctionaliteit configureren](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-* [Rapporten configureren](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
-* [E-mails](../../administration-and-setup/manage-workfront/emails/emails.md)
-* [Beveiliging](../../administration-and-setup/manage-workfront/security/security.md)
-* [Wisselkoersen](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-* [Verwijderde items beheren](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-* [Diagnostiek](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+* [ vorm het proef functionaliteit ](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [ vorm rapporten ](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
+* [ E-mail ](../../administration-and-setup/manage-workfront/emails/emails.md)
+* [ Veiligheid ](../../administration-and-setup/manage-workfront/security/security.md)
+* [ Wisselkoersen ](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+* [ leiden geschrapte punten ](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+* [ Diagnose ](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
 * [Kick-start](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)

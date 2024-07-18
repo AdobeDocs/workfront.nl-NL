@@ -23,13 +23,13 @@ Als middelmanager, kunt u uw middelen beheren door gebruikers aan middelgroepen 
 
 Efficiënt beheer van bronnen kan niet worden uitgevoerd zonder dat u uw bronnenpools met gebruikers vult en deze aan projecten koppelt. Dit is een voorwaarde voor het gebruiken van de functionaliteit van de Planning van het Middel.
 
-Voor meer informatie over de eerste vereisten nodig alvorens u de Planning van het Middel kunt beginnen te gebruiken, zie de &quot;Eerste vereisten voor het werken in de Planner van het Middel&quot;sectie in [Overzicht van de bronnenplanner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over de eerste vereisten nodig alvorens u de Planning van het Middel kunt beginnen te gebruiken, zie de &quot;Eerste vereisten voor het werken in de sectie van de Planner van het Middel&quot;in [ overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Raadpleeg de volgende artikelen voor informatie over het maken en beheren van bronnenpools:
 
-* [Brongroepen maken](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Brongroepen koppelen aan projecten en sjablonen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Brongroepen koppelen aan gebruikers](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [ creeer middelpools ](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [ associeerde middelgroepen met projecten en malplaatjes ](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [ associeerde middelpools met gebruikers ](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Gebruikers verwijderen uit bronnenpools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
@@ -82,11 +82,11 @@ We raden de volgende benaderingen aan:
 
 * U kunt alle gebruikers in de zelfde Pool van het Middel hebben tot het zelfde team behoren.
 
-   Bijvoorbeeld, als u alle gebruikers van een team van de Marketing voor een project beschikbaar wilt zijn, zou u een Pool van het Middel van de Marketing willen waar u alle gebruikers in dat team zou toevoegen. U kunt de Pool van het Middel van de Marketing met de projecten dan associëren de leden van dat team worden toegewezen aan.
+  Bijvoorbeeld, als u alle gebruikers van een team van de Marketing voor een project beschikbaar wilt zijn, zou u een Pool van het Middel van de Marketing willen waar u alle gebruikers in dat team zou toevoegen. U kunt de Pool van het Middel van de Marketing met de projecten dan associëren de leden van dat team worden toegewezen aan.
 
 * U kunt alle gebruikers in de zelfde Pool van het Middel hebben gelijkaardige rollen vervullen, vooral als de rollen in hoge vraag zijn en afzonderlijk in de begroting moeten worden opgenomen.
 
-   Bijvoorbeeld, kunt u externe middelen hebben die als Raadplegers werken die u voor een project van tijd tot tijd beschikbaar wilt hebben. U kunt een Brongroep voor consultants maken die u aan uw projecten kunt koppelen, waar u zowel interne als externe consultants gebruikers kunt plaatsen.
+  Bijvoorbeeld, kunt u externe middelen hebben die als Raadplegers werken die u voor een project van tijd tot tijd beschikbaar wilt hebben. U kunt een Brongroep voor consultants maken die u aan uw projecten kunt koppelen, waar u zowel interne als externe consultants gebruikers kunt plaatsen.
 
 * U kunt ook Brongroepen maken per afdeling of kostenplaats.
 * Wij adviseren niet alle gebruikers in het systeem aan één Pools van het Middel toe te voegen als u een groot aantal gebruikers hebt, of als u middelen voor een groot aantal projecten tegelijkertijd beheert.

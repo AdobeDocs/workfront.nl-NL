@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Taken zijn kleinere werkitems in Adobe Workfront die bijdragen aan de voltooiing van een project. Leer informatie over het beheren van taken in de artikelen in de volgende subsecties:
 
-* [Taakgegevens](../../manage-work/tasks/task-information/task-information.md)
-* [Taken maken](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
-* [Taken toewijzen](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
-* [Taken beheren](../../manage-work/tasks/manage-tasks/manage-tasks.md)
-* [Taakbeperkingen](../../manage-work/tasks/task-constraints/task-constraints.md)
-* [Duur en duur van taak: artikelindex](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
-* [Voorlopers voor taken gebruiken](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+* [ informatie van de Taak ](../../manage-work/tasks/task-information/task-information.md)
+* [ creeer taken ](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+* [ wijs taken ](../../manage-work/tasks/assign-tasks/assign-tasks-1.md) toe
+* [ beheert taken ](../../manage-work/tasks/manage-tasks/manage-tasks.md)
+* [ Beperkingen van de Taak ](../../manage-work/tasks/task-constraints/task-constraints.md)
+* [ de Duur en de Types van Duur van de Taak: artikelindex ](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+* [ de taakpredecessors van het Gebruik ](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
 * [Tips, trucs en probleemoplossing voor taken](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,26 +53,27 @@ Dubbele e-mailadressen in een Workfront-exemplaar corrigeren:
 
 1. Bekijk eventuele dubbele gebruikers en bepaal welke gebruiker niet langer nodig is.
 
-   1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Workfront klikt u op **Gebruikers**. ![](assets/users-icon-in-main-menu.png)
+   1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Gebruikers**. ![](assets/users-icon-in-main-menu.png)
 
-   1. In de **Filter** menu, selecteert u **Alles**.
+   1. In het **menu van de Filter**, uitgezochte **allen**.
 
-   1. In de **Weergave** menu, selecteert u **Aanmelding gebruiker**.
+   1. In het **menu van de Mening**, uitgezochte **Login van de Gebruiker**.
 
-   1. In de **Groepering** menu, selecteert u **Niets**.
+   1. In het **Groeperende** menu, uitgezochte **niets**.
 
    1. Pas de weergave Gebruikersaanmelding aan.
 
-      1. Klikken **Weergave** > **Weergave aanpassen**.
+      1. Klik **Mening** > **aanpassen Mening**.
 
-      1. Vervang de **ID** met de **E-mailadres** kolom.
+      1. Vervang de **identiteitskaart** kolom met de **E-mailE-mailAdres** kolom.
 
       1. Wijzig de naam van de weergave en sla deze op.
+
    1. Maak een nieuwe groep.
 
-      1. Klikken **Groepering** > **Nieuwe groepering**.
+      1. Klik **Groepering** > **Nieuwe Groepering**.
 
-      1. Klikken **Overschakelen naar tekstmodus** in de rechterbovenhoek van de pagina.
+      1. Klik **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek van de pagina.
       1. Plak de volgende code voor de tekstmodus:
 
          `group.0.linkedname=direct`
@@ -80,37 +81,35 @@ Dubbele e-mailadressen in een Workfront-exemplaar corrigeren:
          `group.0.valueexpression=LOWER({emailAddr})`
          `group.0.valueformat=string`
          `textmode=true`
+
    1. Wijzig de naam van de groep en sla deze op.
-
-
 
 1. Voer een van de volgende handelingen uit:
 
    * (Voorkeursmethode) Voeg een +-adres toe aan het e-mailadres van de gebruiker voor elke extra account.
 
-      Kies deze optie als één gebruiker in uw organisatie toegang tot meer dan 1 gebruikersaccount nodig heeft. Als het plus richten niet door uw e-mailleverancier wordt gesteund, moet u een afzonderlijke e-mailrekening voor elke Workfront rekening verstrekken.
+     Kies deze optie als één gebruiker in uw organisatie toegang tot meer dan 1 gebruikersaccount nodig heeft. Als het plus richten niet door uw e-mailleverancier wordt gesteund, moet u een afzonderlijke e-mailrekening voor elke Workfront rekening verstrekken.
 
-      John Doe kan bijvoorbeeld één gebruikersaccount voor zijn account voor dagelijks gebruik hebben en één voor testdoeleinden:
+     John Doe kan bijvoorbeeld één gebruikersaccount voor zijn account voor dagelijks gebruik hebben en één voor testdoeleinden:
 
       * johndoe@workfront.com
       * johndoe+reviewer@workfront.com
+
    * Wijzig het domein om een vals domein te gebruiken door de volgende tekst aan het e-mailadres toe te voegen:
 
-      `.inactive`
+     `.inactive`
 
-      Jan Doe zou bijvoorbeeld de volgende domeinen kunnen hebben: (Deze moeten uniek zijn.)
+     Jan Doe zou bijvoorbeeld de volgende domeinen kunnen hebben: (Deze moeten uniek zijn.)
 
       * johndoe@workfront.inactive
       * johndoe@workfront.inactive2
 
-      U kunt zich niet meer aanmelden bij deze accounts omdat opnieuw instellen van het wachtwoord een geldig e-mailadres vereist. Deze accounts zijn alleen toegankelijk met de functie Aanmelden als.
+     U kunt zich niet meer aanmelden bij deze accounts omdat opnieuw instellen van het wachtwoord een geldig e-mailadres vereist. Deze accounts zijn alleen toegankelijk met de functie Aanmelden als.
 
    * Onbenodigde gebruikers verwijderen
 
-      >[!IMPORTANT]
-      >
-      >Kies deze optie alleen voor accounts die per ongeluk zijn gemaakt of voor testaccounts. Deze optie wordt meestal alleen uitgevoerd voor accounts met een verkeerde aanmelding of een verkeerde aanmelding. Rekeningen die regelmatig zijn gebruikt, mogen nooit worden verwijderd.
-
-
+     >[!IMPORTANT]
+     >
+     >Kies deze optie alleen voor accounts die per ongeluk zijn gemaakt of voor testaccounts. Deze optie wordt meestal alleen uitgevoerd voor accounts met een verkeerde aanmelding of een verkeerde aanmelding. Rekeningen die regelmatig zijn gebruikt, mogen nooit worden verwijderd.
 
 Als u gebruikers hebt in een Workfront-exemplaar met overeenkomende e-mailadressen die alleen per geval verschillen, neemt Workfront contact met u op met aanvullende informatie en een tijdlijn wanneer deze moeten worden bijgewerkt.

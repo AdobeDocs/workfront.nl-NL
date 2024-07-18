@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen van het Beheer van het Middel die met versie 2020.2 aan het milieu van de Productie worden aangebracht. Deze verbeteringen zijn in de productieomgeving beschikbaar gesteld in de week van 11 mei 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met versie 2020.2, zie [Overzicht van de release 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [ overzicht van de versie 2020.2 ](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 Mensen zijn een Tier 1-middel. Met de taakverdeler, kunt u hen tegen opruiming beschermen en hen machtigen om hun beste werk te doen, terwijl het richten van hen aan zeer belangrijke bedrijfsstrategieën. Introductie van een vernieuwde planningservaring die u in staat stelt de werkbelasting en de vraag van mensen in dezelfde weergave te visualiseren en beheren. De gebruikersinterface biedt een duidelijke visuele toewijzing van over- en onderbenutting en is transparant voor alle belanghebbenden. Personenmanagers kunnen die informatie als invoer gebruiken en vanaf hetzelfde scherm de inspanning opnieuw in evenwicht brengen door de tijdlijn, die vervolgens wordt weerspiegeld in de rest van het Workfront-platform.
 
 >[!NOTE]
 >
->De werklastbalans werd uitgebracht als een bètaversie van 2019.4. Alle verbeteringen in Workload Balancer zijn over het algemeen beschikbaar met de release 2020.2. De op deze pagina beschreven verbeteringen zijn toegevoegd met de release 2020.2. Voor een overzicht van de werklastbalans raadpleegt u [Overzicht van de werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De werklastbalans werd uitgebracht als een bètaversie van 2019.4. Alle verbeteringen in Workload Balancer zijn over het algemeen beschikbaar met de release 2020.2. De op deze pagina beschreven verbeteringen zijn toegevoegd met de release 2020.2. Voor een overzicht van de Balancer van de Werklast, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## De dagelijkse en wekelijkse toewijzing in de werklastbalans aanpassen
 
@@ -36,7 +36,7 @@ Voorafgaand aan deze verhoging, was dit slechts mogelijk gebruikend het Middel d
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(DO NOT ADD THIS, JUST ADD THE VIDEO FOR NOW: For information about managing allocations in the Workload Balancer, see /Content/Resource Mgmt/Workload Balancer/Manage hours in the Workload Balancer.htm.)</p>
 -->
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -45,7 +45,7 @@ Voorafgaand aan deze verhoging, was dit slechts mogelijk gebruikend het Middel d
 
 Om de informatie in de Balancer van de Werkbelasting relevant voor u te maken, kunt u filters voor zowel het Niet toegewezen Werk als de Toegewezen gebieden van het Werk van de Balancer van de Werkbelasting nu tot stand brengen en hen voor toekomstig gebruik bewaren. Vervolgens kunt u de opgeslagen versie bewerken om er kleine wijzigingen in aan te brengen in plaats van helemaal opnieuw te beginnen met een nieuw filter.
 
-Voor informatie over het filtreren in de Balancer van de Werkbelasting, zie [Filters beheren in de werklastverdeling](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+Voor informatie over het filtreren in de Balancer van de Werklast, zie [ filters in de Balancer van de Werkbelasting beheren ](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ Voor informatie over het filtreren in de Balancer van de Werkbelasting, zie [Fil
 
 .
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -64,9 +64,9 @@ Voor informatie over het filtreren in de Balancer van de Werkbelasting, zie [Fil
 
 Om u te helpen correcte toewijzingsbesluiten maken, staat een nieuwe het plaatsen u nu toe om het verschil van uren tussen de uren te bekijken een gebruiker aan werk volgens hun programma en de uren beschikbaar is dat zij reeds aan het werk (de resterende uren) zijn toegewezen. De nieuwe instelling is nu beschikbaar in Workload Balancer.
 
-Voor informatie over het bekijken van informatie in de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Adobe Workfront Classic gebruikt, zie [Navigeren door werklastbalans](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Voor informatie over het bekijken van informatie in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648) navigeren.)
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * De nieuwe Adobe Workfront-ervaring
 
@@ -76,9 +76,9 @@ Om u te helpen begrijpen hoe de taken de werkbelasting van uw gebruikers zullen 
 
 Vóór deze wijziging was deze instelling alleen van toepassing op informatie in het gebied Toegewezen werk van Balancer.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Adobe Workfront Classic gebruikt, zie [Navigeren door werklastbalans](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Voor informatie over het navigeren van de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648) navigeren.)
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring (voorheen alleen beschikbaar voor taken)
@@ -90,9 +90,9 @@ Om uw ervaring te stroomlijnen, is een vakje van Montages nu beschikbaar dat ext
 * Groeperen op project
 * Toon of de Toegewezen uren of de Resterende uren voor uw taken en projecten.
 
-Voor informatie over het bekijken van informatie in de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Adobe Workfront Classic gebruikt, zie [Navigeren door werklastbalans](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Voor informatie over het bekijken van informatie in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648) navigeren.)
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -101,9 +101,9 @@ Voor informatie over het bekijken van informatie in de Balancer van de Werkbelas
 
 U kunt de werklast van uw mensen nu delen met managers zodat zij context over uw personeelsbehoeften kunnen hebben. Hiervoor kunt u de werklastbalans nu delen door een unieke URL te delen met de werklastverdeler.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Adobe Workfront Classic gebruikt, zie [Navigeren door werklastbalans](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648) navigeren).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -114,9 +114,9 @@ Om u verder te helpen de tijdlijnduur voor de werklastbalans aan uw behoeften aa
 
 Vóór deze verbetering, toonde de Balancer van de Werkbelasting altijd informatie die met de huidige week begon.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Adobe Workfront Classic gebruikt, zie [Navigeren door werklastbalans](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ de Balancer van de Werkbelasting ](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648) navigeren).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring (voorheen beschikbaar)
@@ -129,13 +129,13 @@ Bijvoorbeeld, wanneer u of kopieert een taak met moet Begin op beperking aan een
 
 Voorafgaand aan deze verandering, verandert de Beperking van de Taak altijd in zo spoedig mogelijk.
 
-Zie voor informatie over het verplaatsen van taken [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Adobe Workfront Classic gebruikt, zie [Taken verplaatsen](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Voor informatie over het kopiëren van taken raadpleegt u [Taken kopiëren en dupliceren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u Adobe Workfront Classic gebruikt, zie [Taken kopiëren en dupliceren](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605) Exemplaar en Dupliceren).
 
-Voor een overzicht van alle Taakbeperkingen, zie [Overzicht van taakbeperking](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Adobe Workfront Classic gebruikt, zie [Overzicht van taakbeperking](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -144,9 +144,9 @@ Voor een overzicht van alle Taakbeperkingen, zie [Overzicht van taakbeperking](.
 
 Om gegevensverlies te verhinderen wanneer u informatie over de pagina van Details over een voorwerp of taken in een taaklijst op het projectniveau wanneer het opslaan van veranderingen manueel bijwerkt, toont een waarschuwingsbericht nu, om u op de hoogte te brengen dat u unsaved veranderingen hebt alvorens u probeert om informatie in de kopbal uit te geven. De enige handelingen die u hebt toegestaan voordat u uw wijzigingen opslaat, zijn het abonneren of het toevoegen van het object aan uw favorieten.
 
-Voor informatie over het bewerken van taken in een lijst raadpleegt u [Taken in een lijst bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
+Voor informatie over het uitgeven van taken in een lijst, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * De nieuwe Adobe Workfront-ervaring
 
@@ -161,11 +161,11 @@ Aangepaste statussen kunnen nu worden gebruikt in goedkeuringsprocessen voor een
 * Maak een goedkeuringsproces voor één gebruik voor een object (project, taak of uitgave) en baseer dit op statussen die zijn gekoppeld aan de groep die aan dat object werkt. Dit omvat alle aangepaste statussen die aan de groep zijn gekoppeld.
 * Maak een algemeen goedkeuringsproces en stel dit alleen beschikbaar voor de groep of voor iedereen in het systeem.
 
-Voor gebruikers met administratieve toegang tot goedkeuringsprocessen is informatie over het configureren van goedkeuringsprocessen beschikbaar in [Een goedkeuringsproces voor werkitems maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u Adobe Workfront Classic gebruikt, zie [Goedkeuringsprocessen maken](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Voor gebruikers met administratieve toegang tot goedkeuringsprocessen, is de informatie over het vormen van goedkeuringsprocessen beschikbaar in [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ Creërend de Processen van de Goedkeuring ](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-Voor gebruikers is informatie over het koppelen van goedkeuringsprocessen aan werkitems beschikbaar in [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u Adobe Workfront Classic gebruikt, zie [Een nieuw of bestaand goedkeuringsproces koppelen aan werk](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Voor gebruikers, is de informatie over het associëren van goedkeuringsprocessen met het werkpunten beschikbaar in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (of als u de Klassiek van Adobe Workfront gebruikt, zie [ het Associeren van een Nieuw of Bestaand Erkenningsproces met het Werk ](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
-**Beschikbaar in deze omgevingen:**
+**Beschikbaar in deze milieu&#39;s:**
 
 * Adobe Workfront Classic
 * De nieuwe Adobe Workfront-ervaring
@@ -174,7 +174,7 @@ Voor gebruikers is informatie over het koppelen van goedkeuringsprocessen aan we
 
 Om het gemakkelijker te maken om de toewijzingen van een gebruiker aan een het werkpunt in de Balancer van de Werkbelasting te beheren, kunt u het het werkpunt nu tweemaal klikken. U kunt ook nog steeds de bestaande menuoptie Toewijzingen bewerken gebruiken. Bovendien hoeft u de weergave van toewijzingen niet meer in te schakelen om deze bij te werken.
 
-Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor informatie over het beheren van toewijzingen in de Balancer van de Werklast, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Taak geplande uren bijwerken in werklastbalans
 
@@ -184,10 +184,10 @@ Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadp
 
 Een nieuwe optie in het gebied van het Beheer van het Middel van het toegangsniveau staat nu gebruikers met deze toegang toe om Geplande Uren van de Balancer van de Werkbelasting uit te geven. Wanneer u toewijzingen aanpast in het werklastevenwicht, hoeft het totaal van de dagelijkse toewijzingen niet overeen te komen met het aantal geplande uren van de taken. Als u uw toewijzingen hebt opgeslagen, wordt het totaal van de toewijzingstijden de geplande uren van de taak. Dit is alleen mogelijk voor taken met een eenvoudig type duur.
 
-Voor informatie over het beheren van toewijzingen in het werklastevenwicht raadpleegt u [Toewijzingen van gebruikers beheren in Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor informatie over het beheren van toewijzingen in de Balancer van de Werklast, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Voor informatie over het verlenen van toegang tot het Beheer van het Middel, zie [Toegang verlenen tot beheer van hulpbronnen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over het verlenen van toegang tot het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Het label &quot;beta&quot; verwijderen uit Workload Balancer
 
-Met versie 2020.2, zal de Balancer van de Werkbelasting niet meer in een bètastaat zijn en u zult de Balancer van het Middel kunnen gebruiken om uw middeltaken en toewijzingen te herzien en te beheren. Het label &quot;beta&quot; is verwijderd uit de voorvertoningsomgeving. Deze wijziging zal ook worden aangebracht met de 20.2 Productieversie. Voor informatie over de taakverdelingsfactor raadpleegt u [Overzicht van de werklastbalans](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Met versie 2020.2, zal de Balancer van de Werkbelasting niet meer in een bètastaat zijn en u zult de Balancer van het Middel kunnen gebruiken om uw middeltaken en toewijzingen te herzien en te beheren. Het label &quot;beta&quot; is verwijderd uit de voorvertoningsomgeving. Deze wijziging zal ook worden aangebracht met de 20.2 Productieversie. Voor informatie over de Balancer van de Werklast, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

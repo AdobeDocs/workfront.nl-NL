@@ -35,42 +35,42 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Zie voor meer informatie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> </td> 
+   <td> <p>Plan </p> <p>U moet een groepsbeheerder van de groep of een beheerder van Workfront zijn. Voor meer informatie, zie <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a> en <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> verlenen een gebruiker volledige administratieve toegang </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot gebruikers bewerken met de optie Gebruikersbeheer (Alle gebruikers) geselecteerd</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot gebruikers bewerken met de optie Gebruikersbeheer (Alle gebruikers) geselecteerd</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, type licentie of configuraties op toegangsniveau u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of configuraties van het toegangsniveau u hebt, contacteer uw beheerder van Workfront.
 
 ## Leden van de subgroepen onder een groep weergeven en beheren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Groepen**.
+1. Klik **Groepen**.
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep waarvan u de subgroepsleden wilt weergeven of beheren.
-1. Klik in het linkerdeelvenster op **Subgroepsleden**.
+1. In het linkerpaneel, klik **Subgroup Leden**.
 
    Dit item in het linkerdeelvenster is alleen beschikbaar als de groep subgroepen heeft.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer een lid in de lijst en klik op Bewerken ![](assets/edit-icon.png) om het gebruikersprofiel van die persoon te wijzigen.
+   * Selecteer een lid in de lijst en klik vervolgens op Bewerken ![](assets/edit-icon.png) om het gebruikersprofiel van die persoon te wijzigen.
 
-      Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) of [Gebruikersprofielen bulksgewijs bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
+     Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [ gebruikersprofielen in bulk ](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
 
-   * Selecteer een willekeurig aantal leden in de lijst en klik op Bijwerken ![](assets/comment-icon.png) om een opmerking toe te voegen aan hun gebruikersprofielen.
+   * Selecteer een willekeurig aantal leden in de lijst en klik vervolgens op Bijwerken ![](assets/comment-icon.png) om een opmerking toe te voegen aan hun gebruikersprofielen.
 
-      De gebruiker of gebruikers ontvangen een melding in de app en een e-mailbericht met uw opmerking. De opmerking wordt weergegeven in het gedeelte Updates van het gebruikersprofiel.
+     De gebruiker of gebruikers ontvangen een melding in de app en een e-mailbericht met uw opmerking. De opmerking wordt weergegeven in het gedeelte Updates van het gebruikersprofiel.
 
-   * Selecteer een willekeurig aantal leden in de lijst en klik op Deactiveren ![](assets/deactivate-user.png) of Activeren ![](assets/activate-user.png).
+   * Selecteer een willekeurig aantal leden in de lijst en klik vervolgens op Deactiveren ![](assets/deactivate-user.png) of Activeren ![](assets/activate-user.png) .
 
-      Zie voor meer informatie [Een gebruiker deactiveren of opnieuw activeren](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     Voor meer informatie, zie [ een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
-   * Exporteren ![](assets/export.png) de ledenlijst.
+   * Exporteer ![](assets/export.png) de lijst met leden.

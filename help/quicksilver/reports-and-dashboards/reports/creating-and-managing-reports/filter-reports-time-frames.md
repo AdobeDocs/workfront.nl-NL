@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -35,32 +35,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 Het rapport moet worden gecreeerd alvorens u zijn resultaten filtreert.
 
-Voor meer informatie over het maken van rapporten raadpleegt u [Een rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport filteren op het tijdframe van een datum {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png)en klik vervolgens op **Rapportage**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png), dan klik **Meldend**.
 
-1. Klikken **Nieuw rapport** Selecteer vervolgens het gewenste type rapport.\
-   Selecteer bijvoorbeeld **Uur**.
+1. Klik **Nieuw Rapport**, dan selecteer het type van rapport u wilt.\
+   Bijvoorbeeld, uitgezochte **Rapport van het Uur**.
 
-1. Selecteer **Filters** tab.
-1. Klikken **Filterregel toevoegen** selecteert u vervolgens **Invoerdatum uur**.\
+1. Selecteer de **Filters** tabel.
+1. Klik **toevoegen een Regel van de Filter**, dan selecteren **Datum van de Ingang van het Uur**.\
    ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Selecteer in het volgende keuzemenu een van de volgende opties:
@@ -91,11 +91,11 @@ Voor meer informatie over het maken van rapporten raadpleegt u [Een rapport make
      </tr> 
      <tr> 
       <td role="rowheader">Minder dan</td> 
-      <td>Na het selecteren van deze bepaling, specificeer een datum alvorens de uren waren ingegaan. Het rapport bevat de uren die vóór de opgegeven datum zijn ingevoerd, exclusief de opgegeven datum.</td> 
+      <td>Nadat u deze optie hebt geselecteerd, geeft u een datum op vóór welke de uren zijn ingevoerd. Het rapport bevat de uren die vóór de opgegeven datum zijn ingevoerd, exclusief de opgegeven datum.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Minder dan gelijk</td> 
-      <td>Na het selecteren van deze bepaling, specificeer een datum alvorens de uren waren ingegaan. Het rapport bevat de uren die vóór de opgegeven datum zijn ingevoerd, inclusief de opgegeven datum.</td> 
+      <td>Nadat u deze optie hebt geselecteerd, geeft u een datum op vóór welke de uren zijn ingevoerd. Het rapport bevat de uren die vóór de opgegeven datum zijn ingevoerd, inclusief de opgegeven datum.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Groter dan</td> 
@@ -103,13 +103,13 @@ Voor meer informatie over het maken van rapporten raadpleegt u [Een rapport make
      </tr> 
      <tr> 
       <td role="rowheader">Groter dan gelijk</td> 
-      <td> <p>Na het selecteren van deze bepaling, specificeer een datum waarna de uren waren ingegaan. Het rapport bevat de uren die na de opgegeven datum zijn ingevoerd, inclusief de opgegeven datum.</p> <p>Selecteer een van de ingebouwde tijdframemodifiers, zoals beschreven in <a href="#built-in-time-frame-modifiers" class="MCXref xref">Ingebouwde tijdframewijzigingstoetsen</a>.</p> </td> 
+      <td> <p>Na het selecteren van deze bepaling, specificeer een datum waarna de uren waren ingegaan. Het rapport bevat de uren die na de opgegeven datum zijn ingevoerd, inclusief de opgegeven datum.</p> <p>Selecteer om het even welke ingebouwde bepalingen van het tijdkader, zoals die in <a href="#built-in-time-frame-modifiers" class="MCXref xref"> worden beschreven ingebouwde tijdkaderbepalingen </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Deze bepalingen zijn beschikbaar voor om het even welk datumgebied in een filter of een herinnering in om het even welk rapport.
-1. Klikken **Opslaan + Sluiten**.
+1. Klik **sparen + Sluiten**.
 
 ## Ingebouwde tijdframewijzigingstoetsen {#built-in-time-frame-modifiers}
 
@@ -117,7 +117,7 @@ Adobe Workfront heeft ingebouwde tijdframemodifiers die u kunt gebruiken zonder 
 
 Deze bepalingen zijn beschikbaar voor om het even welk datumgebied in een filter of een herinnering in om het even welk rapport. 
 
-Voor meer informatie over hoe te om een rapport tegen een tijdkader te filtreren verbonden aan een datum, zie  [Een rapport filteren op het tijdframe van een datum](#filter-a-report-by-the-time-frame-of-a-date).
+Voor meer informatie over hoe te om een rapport tegen een tijdkader te filtreren verbonden aan een datum, zie  [ filter een rapport tegen het tijdkader van een datum ](#filter-a-report-by-the-time-frame-of-a-date).
 
 Bijvoorbeeld, als u een uurrapport bouwt en uren ingegaan in een specifiek tijdkader zou willen tonen, kunt u van de volgende ingebouwde opties van de tijdkaderfilter kiezen:
 
@@ -169,7 +169,7 @@ Bijvoorbeeld, als u een uurrapport bouwt en uren ingegaan in een specifiek tijdk
   </tr> 
   <tr> 
    <td role="rowheader">Laatste kwartier</td> 
-   <td> <p>Geeft uren weer waarbij de ingangsdatum een datum is in het kwartaal voorafgaand aan het huidige kwartaal, waarbij kwartalen hierboven zijn gedefinieerd.</p> <p>Opmerking: Als uw Workfront-beheerder aangepaste kwartalen voor uw systeem heeft ingeschakeld en gedefinieerd, worden de ingebouwde filters voor kwartalen vervangen door uw aangepaste kwartgegevens. Ga voor meer informatie over het inschakelen van aangepaste kwartalen naar <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aangepaste kwartalen inschakelen voor projecten</a>.</p> </td> 
+   <td> <p>Geeft uren weer waarbij de ingangsdatum een datum is in het kwartaal voorafgaand aan het huidige kwartaal, waarbij kwartalen hierboven zijn gedefinieerd.</p> <p>Opmerking: als uw Workfront-beheerder aangepaste kwartalen voor uw systeem heeft ingeschakeld en gedefinieerd, worden de ingebouwde filters voor kwartalen vervangen door uw aangepaste kwartgegevens. Voor meer informatie over het toelaten van douanekwartalen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> douanekwartalen voor projecten </a> toelaten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dit jaar</td> 
@@ -181,7 +181,7 @@ Bijvoorbeeld, als u een uurrapport bouwt en uren ingegaan in een specifiek tijdk
   </tr> 
   <tr> 
    <td role="rowheader">Vorig jaar</td> 
-   <td> <p>Geeft uren weer waarbij de datum van binnenkomst een datum is in het laatste jaar, waarbij het laatste jaar begint op 1 januari en eindigt op 31 december van het jaar dat voorafgaat aan het lopende jaar.</p> <p>Opmerking: Er is geen ingebouwde periode voor het belastingjaar. U kunt een rapport creëren en de informatie door datum filtreren gebruikend een douanebepaling voor de datumwaaier van het fiscale jaar, zoals het in uw organisatie wordt bepaald. Als u een tijdkader voor een belastingjaar op de plaats wilt kiezen, dan zou u een herinnering in plaats van een filter moeten gebruiken. </p> </td> 
+   <td> <p>Geeft uren weer waarbij de datum van binnenkomst een datum is in het laatste jaar, waarbij het laatste jaar begint op 1 januari en eindigt op 31 december van het jaar dat voorafgaat aan het lopende jaar.</p> <p>Opmerking: er is geen ingebouwde tijdsperiode voor het belastingjaar. U kunt een rapport creëren en de informatie door datum filtreren gebruikend een douanebepaling voor de datumwaaier van het fiscale jaar, zoals het in uw organisatie wordt bepaald. Als u een tijdkader voor een belastingjaar op de plaats wilt kiezen, dan zou u een herinnering in plaats van een filter moeten gebruiken. </p> </td> 
   </tr> 
  </tbody> 
 </table>

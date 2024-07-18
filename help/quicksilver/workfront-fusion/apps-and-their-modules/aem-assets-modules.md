@@ -6,7 +6,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets-modules
-description: Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] mappen en elementen opslaan, maken, uploaden en bijwerken, en kopiëren of verplaatsen.
+description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets]  rekening, creeer, upload, en werk activa bij, en kopieer of verplaats omslagen en activa.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # [!DNL Adobe Experience Manager Assets] modules
 
-Met de [!DNL Adobe Experience Manager Assets] connector voor [!DNL Adobe Workfront Fusion], kunt u een scenario beginnen dat op gebeurtenissen in uw [!DNL Adobe Experience Manager Assets] mappen en elementen opslaan, maken, uploaden en bijwerken, en kopiëren of verplaatsen.
+Met de [!DNL Adobe Experience Manager Assets] -connector voor [!DNL Adobe Workfront Fusion] kunt u een scenario starten op basis van gebeurtenissen in uw [!DNL Adobe Experience Manager Assets] -account, elementen maken, uploaden en bijwerken en mappen en elementen kopiëren of verplaatsen.
 
 Voor een inleiding aan de schakelaar van Adobe Experience Manager Assets, zie:
 
-* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
+* [ Adobe Experience Manager Assets ](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -44,44 +44,44 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-* U moet een [!DNL Adobe Experience Manager Assets] account om deze modules te gebruiken.
-* U moet instellen [!UICONTROL Server-to-server] stroom in de [!DNL Adobe Developer console].
+* U moet een [!DNL Adobe Experience Manager Assets] account hebben om deze modules te kunnen gebruiken.
+* U moet de [!UICONTROL Server-to-server] -stroom instellen in de [!DNL Adobe Developer console] .
 
-  Voor instructies over het instellen [!UICONTROL Server-to-server] stroom in de [!DNL Adobe Developer console], zie [Toegangstokens genereren voor server-side API&#39;s](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+  Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom in [!DNL Adobe Developer console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
-## Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
+## Verbinden [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
-Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] modules:
+Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
 
-1. Klikken [!UICONTROL Add] naast de [!UICONTROL Connection] doos.
+1. Klik op [!UICONTROL Add] naast het vak [!UICONTROL Connection] .
 
 2. Selecteer het type verbinding dat u maakt:
 
    * **[!DNL AEM Assets as a Cloud Service]**
 
-     Deze configuratie vereist informatie van [!DNL Adobe Admin Console].
+     Voor deze configuratie is informatie van de [!DNL Adobe Admin Console] vereist.
 
    * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
@@ -89,20 +89,20 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
 
 3. Vul de velden in voor het type verbinding dat u maakt.
 
-   Voor [!DNL AEM Assets as a Cloud Service], zie [De verbinding configureren voor [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
+   Voor [!DNL AEM Assets as a Cloud Service], zie [ de verbinding voor  [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service) vormen.
 
-   Voor [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), zie [De verbinding configureren voor [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   Voor [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), zie [ de verbinding voor [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic) vormen.
 
-4. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+4. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 
 ### De verbinding configureren voor [!DNL AEM Assets as a Cloud Service]
 
 >[!NOTE]
 >
->De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen [!UICONTROL Server-to-server] stroom op de [!DNL Adobe Developer Console]. U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
+>De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen van de [!UICONTROL Server-to-server] -stroom op de [!DNL Adobe Developer Console] . U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
 >
->Voor instructies over het instellen [!UICONTROL Server-to-server] stroom op de [!UICONTROL Adobe Developer Console], zie [Toegangstokens genereren voor server-side API&#39;s](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom op [!UICONTROL Adobe Developer Console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
 
 <table style="table-layout:auto"> 
@@ -117,31 +117,31 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Instance URL without a trailing slash]</td>
-                  <td>Voer de URL in voor uw [!DNL Adobe Experience Manager] -instantie. Geen schuine streep opnemen <code>/</code> aan het einde van de URL.</td>
+                  <td>Voer de URL voor de instantie [!DNL Adobe Experience Manager] in. Plaats geen schuine streep <code>/</code> aan het einde van de URL.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Voer de client-id in die in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
+                  <td>Voer de client-id in die in de setup van [!UICONTROL Server-to-server] wordt gegenereerd.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Voer het clientgeheim in dat in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
+                  <td>Voer het clientgeheim in dat in de [!UICONTROL Server-to-server] -instelling wordt gegenereerd.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Voer de id van de technische rekening in. Dit is de "[!UICONTROL id]".</td>
+                  <td>Voer de id van de technische rekening in. Dit is het veld "[!UICONTROL id]" in het JSON-bestand met clientreferenties.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Voer de id van uw organisatie in. Dit is de "[!UICONTROL org]".</td>
+                  <td class="">Voer de id van uw organisatie in. Dit is het veld "[!UICONTROL org]" in het JSON-bestand met clientreferenties.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
-                  <td>Voer de meta-bereiken in die in het dialoogvenster [!UICONTROL Server-to-server] instellen.</td>
+                  <td>Voer de meta-bereiken in die in de [!UICONTROL Server-to-server] -instelling worden gegenereerd.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Private key]</td>
-                  <td>Voer de gegenereerde persoonlijke sleutel in om de [!UICONTROL Server-to-server] instellen. Als u de persoonlijke sleutel wilt extraheren, klikt u op [!UICONTROL Extract]Voer vervolgens het uit te pakken bestand en het wachtwoord voor het bestand in.</td>
+                  <td>Voer de gegenereerde persoonlijke sleutel in om de [!UICONTROL Server-to-server] -instelling te verkrijgen. Als u de persoonlijke sleutel wilt uitnemen, klikt u op [!UICONTROL Extract] en voert u het bestand in dat u wilt uitpakken en het wachtwoord voor het bestand.</td>
               </tr>
           </tbody>
       </table>
@@ -161,15 +161,15 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Instance URL without a trailing slash]</td>
-                <td>Voer de URL in voor uw [!DNL Adobe Experience Manager] -instantie. Geen schuine streep opnemen <code>/</code> aan het einde van de URL.</td>
+                <td>Voer de URL voor de instantie [!DNL Adobe Experience Manager] in. Plaats geen schuine streep <code>/</code> aan het einde van de URL.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Username]</td>
-                <td>Voer de gebruikersnaam in voor de [!DNL AEM Assets] account dat deze verbinding gebruikt.</td>
+                <td>Voer de gebruikersnaam in voor de [!DNL AEM Assets] -account die deze verbinding gebruikt.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Password]</td>
-                <td>Voer het wachtwoord voor de [!DNL AEM Assets] account dat deze verbinding gebruikt.</td>
+                <td>Voer het wachtwoord in voor de [!DNL AEM Assets] -account die door deze verbinding wordt gebruikt.</td>
             </tr>
         </tbody>
     </table>
@@ -177,9 +177,9 @@ Als u een verbinding wilt maken voor uw [!DNL Adobe Experience Manager Assets] m
 
 ## [!DNL Adobe Experience Manager Assets] modules en hun velden
 
-Wanneer u [!DNL Adobe Experience Manager Essentials] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Adobe Experience Manager Essentials] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe Experience Manager Essentials] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Experience Manager Essentials] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -193,7 +193,7 @@ Deze actiemodule kopieert een map of middel naar een andere locatie in uw Adobe 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -232,7 +232,7 @@ In deze actiemodule wordt een map of elementcommentaar gemaakt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Object type]</td> 
@@ -263,7 +263,7 @@ Met deze actiemodule verwijdert u een map, element of uitvoering.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -287,7 +287,7 @@ Deze actiemodule wint een vertegenwoordiging van een bestaande omslag en van zij
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -306,15 +306,15 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe Experience
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Voer een pad in dat betrekking heeft op uw [!DNL Adobe Experience Manager] basis-URL.</p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van de basis-URL van [!DNL Adobe Experience Manager] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref"> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -322,11 +322,11 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe Experience
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String] </td> 
-   <td> <p>Voer de queryreeks voor de aanvraag in. Voor elk sleutel/waardepaar klikt u op <b>[!UICONTROL Add item]</b> en voert u de [!UICONTROL Key] en [!UICONTROL Value].</p> </td> 
+   <td> <p>Voer de queryreeks voor de aanvraag in. Voor Elk sleutel/waardepaar klikt u op <b>[!UICONTROL Add item]</b> en voert u de [!UICONTROL Key] en [!UICONTROL Value] in.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -344,7 +344,7 @@ Met deze actiemodule verplaatst u het element of de map op het opgegeven pad naa
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -379,7 +379,7 @@ Deze actiemodule werkt een bestaande record bij.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -410,7 +410,7 @@ Deze actiemodule uploadt een middel naar uw [!DNL Adobe Experience Manager Asset
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Adobe Experience Manager Assets] account aan [!DNL Workfront Fusion], zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Adobe Experience Manager Assets] tot [!DNL Workfront Fusion]</a> in dit artikel.</p> </td> 
+   <td> <p>Zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Adobe Experience Manager Assets] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination]</td> 

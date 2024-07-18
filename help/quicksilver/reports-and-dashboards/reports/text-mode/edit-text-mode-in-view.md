@@ -53,8 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
-Voor meer informatie over toegangsvereisten, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,8 +64,8 @@ Voordat u de tekstmodus in een rapport of lijst gaat gebruiken, moet u altijd op
 
 Zie voor meer informatie:
 
-* [Overzicht van de tekstmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Tekstmodus in een weergave bewerken
@@ -76,14 +76,14 @@ Het bewerken van een weergave in de tekstmodus is identiek voor rapporten en lij
 >
 >Wij adviseren dat u zoveel mogelijk van de mening in standaardwijze bouwt, dan het in tekstwijze omzet om het uit te geven.
 
-Voor informatie over het bouwen van meningen, zie [Overzicht van weergaven in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor informatie over de bouw van meningen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-Voor informatie over het creëren van een rapport, zie [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Voer een van de volgende handelingen uit:
 
-   1. Ga naar het rapport en klik op **Handelingen rapporteren** > **Bewerken** > **Kolommen (weergave)** tab.
-   1. Als u vanuit een lijst toegang wilt tot de weergave, gaat u naar de lijst en vanuit de **Weergave** vervolgkeuzelijst, houdt u de muis boven de weergave die u wilt wijzigen en klikt u op de knop **Bewerken** pictogram ![](assets/edit-icon.png).
+   1. Om tot de mening van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0} Rapport** uitgeven **>** Kolommen (Mening) **tabel.**
+   1. Om tot de mening van een lijst toegang te hebben, ga naar de lijst en van het **drop-down menu van de Mening**, muis over de mening die u wilt wijzigen en **klikken geeft** pictogram ![](assets/edit-icon.png) uit.
 
       De weergavebuilder wordt geopend.
 
@@ -91,17 +91,17 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
 
    of
 
-   Selecteer de **Kolommen (weergave)** van de rapportbouwer, dan selecteer een kolom.
+   Selecteer de **Kolommen (Mening)** tabel van de rapportbouwer, dan selecteer een kolom.
 
    >[!TIP]
    >
    >Als u een weergave wilt bewerken in de tekstmodus, moet u één kolom tegelijk bewerken.
 
-1. Klikken **Overschakelen naar tekstmodus** in de rechterbovenhoek van de builder.
+1. Klik **Schakelaar aan de Wijze van de Tekst** in de hoger-juiste hoek van de bouwer.
 
    >[!NOTE]
    >
-   >Als u een kolom bewerkt in de tekstmodus, voegt Workfront de `textmode=true` coderegel naar de kolom. Dit geeft aan dat de kolom wordt gewijzigd in de tekstmodus.
+   >Wanneer u een kolom bewerkt in de tekstmodus, voegt Workfront de coderegel `textmode=true` toe aan de kolom. Dit geeft aan dat de kolom wordt gewijzigd in de tekstmodus.
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -201,15 +201,15 @@ Voor informatie over het creëren van een rapport, zie [Een aangepast rapport ma
        </div>
 
    <div>
-      De <code>aggregator. </code>lijnen kunnen een <code>valuefield </code>of <code>valueexpression</code>.
+      De <code>aggregator. </code> lijnen kunnen a <code>valuefield </code> of a <code>valueexpression</code> bevatten.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Toepassen** als u de wijzigingen wilt opslaan en de weergave wilt blijven bewerken.
-1. Klikken **Opslaan + Sluiten** om uw rapport op te slaan.
+1. Klik **toepassen** als u uw veranderingen wilt bewaren en blijven het uitgeven van de mening.
+1. Klik **sparen + Sluiten** om uw rapport te bewaren.
 
    of
 
-   Klikken **Weergave opslaan** om de weergave in een lijst op te slaan.
+   Klik **sparen Mening** om de mening in een lijst te bewaren.

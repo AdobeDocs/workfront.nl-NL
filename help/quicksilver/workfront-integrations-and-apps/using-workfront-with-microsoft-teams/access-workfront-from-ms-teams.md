@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Toegang [!DNL Adobe Workfront] van [!DNL Microsoft] Teams
-description: U hebt toegang tot [!DNL Adobe Workfront] van [!DNL Microsoft Teams] en voert u meerdere handelingen uit in [!DNL Workfront] door opdrachten te typen in het Workfront bot channel of een ander teamkanaal.
+title: Toegang  [!DNL Adobe Workfront]  van  [!DNL Microsoft]  Teams
+description: U kunt tot  [!DNL Adobe Workfront]  van  [!DNL Microsoft Teams]  toegang hebben en verscheidene acties in  [!DNL Workfront]  uitvoeren door bevelen in of het de bot kanaal van Workfront of een ander teamkanaal te typen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Toegang [!DNL Adobe Workfront] van [!DNL Microsoft Teams]
+# Toegang [!DNL Adobe Workfront] vanaf [!DNL Microsoft Teams]
 
 <!--Audited: 01/2024-->
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >De integratie van Adobe Workfront for Microsoft Teams wordt momenteel alleen ondersteund voor de klassieke Microsoft Teams.
 
-U hebt toegang tot [!DNL Adobe Workfront] van [!DNL Microsoft Teams] en voert u meerdere handelingen uit in [!DNL Workfront] door opdrachten te typen in het dialoogvenster [!DNL Workfront] zowel kanaal als elk ander teamkanaal.
+U kunt [!DNL Adobe Workfront] openen vanuit [!DNL Microsoft Teams] en verschillende handelingen uitvoeren in [!DNL Workfront] door opdrachten te typen in zowel het [!DNL Workfront] -kanaal als een ander teamkanaal.
 
 U kunt het volgende doen in [!DNL Workfront] van [!DNL Microsoft Teams]:
 
@@ -30,11 +30,11 @@ U kunt het volgende doen in [!DNL Workfront] van [!DNL Microsoft Teams]:
 * Reageren op meldingen
 * Documentgoedkeuringen beheren
 
-De opdrachten die u gebruikt van [!DNL Microsoft Teams] om deze handelingen uit te voeren, verschillen afhankelijk van het kanaal dat u wilt openen [!DNL Workfront] van.
+De opdrachten die u vanuit [!DNL Microsoft Teams] gebruikt om deze handelingen uit te voeren, zijn afhankelijk van het kanaal waarvan u [!DNL Workfront] wilt openen.
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] niet meer ondersteund [!DNL Internet Explorer]. Als u de opdracht [!DNL Adobe Workfront for Microsoft Teams integration]moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] biedt geen ondersteuning meer voor [!DNL Internet Explorer] . Als u [!DNL Adobe Workfront for Microsoft Teams integration] wilt gebruiken, moet u een andere webbrowser gebruiken dan [!DNL Internet Explorer] .
 
 ## Toegangsvereisten
 
@@ -53,72 +53,72 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
    <td> <p>Nieuw: [!UICONTROL Standard]</p>
-   <p>Huidige: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <p>Current: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw [!DNL Workfront] beheerder.
+*Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
-*Raadpleeg voor meer informatie over Workfront-toegangsvereisten [Overzicht van toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ overzicht van de vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-U kunt in [!DNL Adobe Workfront] van [!DNL Microsoft Teams] indien aan de volgende voorwaarden is voldaan:
+U kunt persoonlijke taken maken in [!DNL Adobe Workfront] vanuit [!DNL Microsoft Teams] als aan de volgende voorwaarden is voldaan:
 
-* Een teameigenaar heeft geïnstalleerd en geconfigureerd [!DNL Workfront for Microsoft Teams] voor uw team.
-* U bent aangemeld [!DNL Workfront] van [!DNL Microsoft Teams].
+* Een teameigenaar heeft [!DNL Workfront for Microsoft Teams] voor uw team geïnstalleerd en geconfigureerd.
+* U bent aangemeld bij [!DNL Workfront] vanuit [!DNL Microsoft Teams] .
 
-## Toegang [!DNL Workfront] van de [!DNL Workfront] chatkanaal
+## Toegang [!DNL Workfront] via het [!DNL Workfront] botchakanaal
 
 U moet zijn aangemeld bij Workfront.
 
-1. Open de **[!DNL Workfront]** bot chatten kanaal.
-1. Klik op de knop **[!DNL Workfront]** onder het tekstveld om het zoekvak weer te geven.
+1. Open het twee chatkanaal van **[!DNL Workfront]** .
+1. Klik op het pictogram **[!DNL Workfront]** onder het tekstveld om het zoekvak weer te geven.
 
-   ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
+   ![ teams_search_box_in_the_bot_channel.PNG ](assets/teams-search-box-in-the-bot-channel-350x456.png)
 
 1. Typ de naam van een project, taak of uitgave.
 
-   Zie de sectie voor informatie over het zoeken naar objecten [Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+   Voor informatie over het zoeken naar punten, zie het sectie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
-1. Klik op de knop **[!UICONTROL Type your questions here]** veld.
+1. Klik op het veld **[!UICONTROL Type your questions here]** .
 
-   ![ms_teams_type_your_questions_here_and_what_can_I_do_fields.png](assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png)
+   ![ ms_teams_type_your_questions_here_and_what_can_I_do_fields.png ](assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png)
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klikken **[!UICONTROL What can I do?]** vervolgens **[!UICONTROL Log in]** of **[!UICONTROL Log out]** van [!DNL Workfront], een **[!UICONTROL New task]** (persoonlijke taak) in [!DNL Workfront], of get **[!UICONTROL Help]** door beschikbare opdrachten weer te geven.
+   * Klik op **[!UICONTROL What can I do?]** en **[!UICONTROL Log in]** of **[!UICONTROL Log out]** van [!DNL Workfront] , maak een **[!UICONTROL New task]** (persoonlijke taak) in [!DNL Workfront] of krijg **[!UICONTROL Help]** door beschikbare opdrachten weer te geven.
 
-   * Toegang [!DNL Workfront] rechtstreeks door een opdracht te typen in het dialoogvenster **[!UICONTROL Type your questions here]** veld.
+   * U kunt [!DNL Workfront] rechtstreeks openen door een opdracht in het veld **[!UICONTROL Type your questions here]** te typen.
 
      Opdrachten zijn niet hoofdlettergevoelig.
 
-     De [!DNL Workfront] bot reageert op uw verzoek in de [!DNL Workfront] bot chatten kanaal.
+     De [!DNL Workfront] bot reageert met uw verzoek in het [!DNL Workfront] beide chatkanaal.
 
-## Toegang [!DNL Workfront] van een teamkanaal
+## Toegang [!DNL Workfront] via een teamkanaal
 
 U moet zijn aangemeld bij Workfront.
 
-1. Een teamkanaal openen en tekst typen **@[!DNL Workfront]** selecteert u vervolgens **[!DNL Workfront].**
+1. Open een teamkanaal en typ **@[!DNL Workfront]**, dan uitgezocht **[!DNL Workfront].**
 
-1. Klikken **[!UICONTROL Search]** om naar een project, een taak, of een kwestie te zoeken.
+1. Klik op **[!UICONTROL Search]** om te zoeken naar een project, taak of probleem.
 
-   Voor informatie over het zoeken naar objecten raadpleegt u de [Zoeken naar en delen [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront] objecten in [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) artikel.
+   Voor informatie over het zoeken naar punten, zie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) artikel.
 
 1. Typ een van de volgende opdrachten om deze handelingen uit te voeren in Workfront.\
    Opdrachten zijn niet hoofdlettergevoelig:
 
-   * **[!UICONTROL Log in]** aan login aan [!DNL Workfront]
-   * **[!DNL Log out]** om zich af te melden bij Workfront
-   * **[!DNL New task]** om een nieuwe persoonlijke taak te creëren
+   * **[!UICONTROL Log in]** om u aan te melden bij [!DNL Workfront]
+   * **[!DNL Log out]** om u af te melden bij Workfront
+   * **[!DNL New task]** om een nieuwe persoonlijke taak te maken
 
-     Voor informatie over het maken van taken van [!DNL Microsoft Teams], zie [Maken [!DNL Adobe Workfront] taken van [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Voor informatie over het creëren van taken van [!DNL Microsoft Teams], zie [  [!DNL Adobe Workfront]  taken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) creëren.
 
    * **[!UICONTROL Help]** om een lijst met alle beschikbare opdrachten weer te geven.
 
-     De [!DNL Workfront] bot reageert op uw verzoek in de [!DNL Workfront] bot chatten kanaal.
+     De [!DNL Workfront] bot reageert met uw verzoek in het [!DNL Workfront] beide chatkanaal.
 
-1. Ga naar de [!DNL Workfront] chatkanaal naar toegang [!DNL Workfront] en voltooi uw verzoek.
+1. Ga naar het chatkanaal van [!DNL Workfront] om [!DNL Workfront] te openen en uw verzoek te voltooien.

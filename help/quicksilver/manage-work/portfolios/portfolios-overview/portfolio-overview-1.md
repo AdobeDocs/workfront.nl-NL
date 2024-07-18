@@ -20,7 +20,7 @@ ht-degree: 0%
 Deze sectie bevat de volgende artikelen:
 
 * [Overzicht van het beheer van Portfolio&#39;s](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [Overzicht van Portfolio&#39;s in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [Overzicht van Portfolio&#39;s in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [Navigeren binnen een portfolio](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

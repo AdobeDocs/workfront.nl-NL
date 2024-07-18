@@ -36,25 +36,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL get (object or array; path)]
 
@@ -71,7 +71,7 @@ Retourneert het waardepad van een object of array. Gebruik puntnotatie om genest
 
 ## [!UICONTROL if (expression; value1; value2)]
 
-Hiermee wordt het `value1` als de expressie wordt geëvalueerd op true, anders wordt de waarde `value2`.
+Retourneert `value1` als de expressie wordt geëvalueerd op true; anders wordt de `value2` geretourneerd.
 
 >[!INFO]
 >
@@ -87,21 +87,21 @@ Hiermee wordt het `value1` als de expressie wordt geëvalueerd op true, anders w
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-Hiermee wordt het `value1` als deze waarde niet leeg is, anders wordt de waarde `value2`.
+Retourneert de waarde `value1` als deze waarde niet leeg is; anders wordt de waarde `value2` geretourneerd.
 
 >[!INFO]
 >
 >**Voorbeelden:**
 >
->* `ifempty(` `A` `;` `B` )
+>* `ifempty(` `A` `;` `B`
 >
 >   Retourneert A
 >
->* `ifempty(` `unknown` `;` `B` )
+>* `ifempty(` `unknown` `;` `B`
 >
 >   Retourneert B
 >
->* `ifempty(` `""` `;` `B` )
+>* `ifempty(` `""` `;` `B`
 >
 >   Retourneert B
 
@@ -145,6 +145,6 @@ Hiermee worden alleen de opgegeven toetsen van het object geselecteerd.
 >
 >**Voorbeeld:**
 >
->`pick(` Gebruiker `;` password `;` email `)`
+>`pick(` E-mail met het `;` wachtwoord `;` van de gebruiker `)`
 >
 >Retourneert alleen een verzameling van het wachtwoord en het e-mailadres van de gebruiker.

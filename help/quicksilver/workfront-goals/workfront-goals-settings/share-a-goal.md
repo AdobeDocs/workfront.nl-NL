@@ -54,7 +54,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -66,7 +66,7 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
 <tr>
@@ -77,7 +77,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen over het delen van doelstellingen
 
@@ -118,7 +118,7 @@ U moet het volgende hebben:
 
 ## Een doel delen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) > **Doelen** in de rechterbovenhoek.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) > **Doelen** in de hoger-juiste hoek.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ U moet het volgende hebben:
 
 1. Klik op de naam van een doel in de lijst. De doelpagina wordt geopend.
 
-1. Klik op de knop **Meer pictogram** naast de naam van het doel klikt u op **Delen**.
+1. Klik het **Meer pictogram** naast de doelnaam, dan klik **Aandeel**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ U moet het volgende hebben:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer de **Systeembreed beheren** het plaatsen om te geven leidt toestemmingen aan iedereen in het systeem die Edit toegang tot Doelen op hun toegangsniveau heeft. Deze optie is standaard uitgeschakeld voor alle nieuwe doelen.
-   * Typ de naam van een gebruiker die u beheerdersrechten wilt geven in het dialoogvenster **Geef Beheer toegang tot** doos. Selecteer de naam wanneer deze in de lijst wordt weergegeven.
+   * Selecteer **beheer systeem-breed** plaatsen om te geven leidt toestemmingen aan iedereen in het systeem die toegang tot Doelen in hun toegangsniveau heeft uitgeven. Deze optie is standaard uitgeschakeld voor alle nieuwe doelen.
+   * Begin de naam van een gebruiker te typen die u beheertoestemmingen aan in **wilt geven leidt toegang tot** doos. Selecteer de naam wanneer deze in de lijst wordt weergegeven.
 
      >[!TIP]
      >
      >U kunt een doel alleen met andere gebruikers delen. U kunt geen doelstellingen met groepen, teams, of uw bedrijf delen.
 
-1. Klikken **Delen**.
+1. Klik **Aandeel**.
 
    Het doel wordt gedeeld met de gebruikers u specificeerde. Een label voor het hele systeem of de naam van de gebruikers die beheermachtigingen hebben voor de doelweergave in het veld Toegang tot beheren in het deelvenster Algemene details.
 
 ## Opties voor algemene machtigingen
 
-De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een doel. Voor meer informatie over de toegang krijgen de gebruikers gebaseerd op hun vergunning, zie [Toegang tot Adobe Workfront-doelen verlenen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een doel. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [ de toegang van de Verlening tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -161,9 +161,9 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
  </col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Handelingen</strong> </p> </th> 
-   <th> <p><strong>Beheren</strong> </p> </th> 
-   <th> <p><strong>Weergave</strong> </p> </th> 
+   <th> <p><strong> Acties </strong> </p> </th> 
+   <th> <p><strong> leiden </strong> </p> </th> 
+   <th> <p><strong> Mening </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -234,8 +234,8 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
 
 **U moet toegang tot de Projecten van de Mening hebben en toestemming van de Mening aan de toegevoegde projecten of die u aan het doel wilt toevoegen om hen te bekijken.
 
-Voor informatie over het niveau van de projecttoegang, zie [Toegang verlenen tot projecten](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Voor informatie over het niveau van de projecttoegang, zie [ Toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Zie voor informatie over projectmachtigingen [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Voor informatie over projecttoestemmingen, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
  

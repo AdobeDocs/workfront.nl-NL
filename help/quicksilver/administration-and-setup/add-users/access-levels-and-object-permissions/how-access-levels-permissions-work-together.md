@@ -43,7 +43,7 @@ De standaardtoegangsniveaus zijn:
 * Aanvrager (als bijlage bij de aanvraagvergunning gevoegd)
 * Externe gebruiker (toegevoegd aan de externe e-maillicentie)
 
-De Workfront-licentie voor elk standaard toegangsniveau bepaalt wat beschikbaar en configureerbaar is in het toegangsniveau. Voor informatie over de Workfront-licenties raadpleegt u [Overzicht van Adobe Workfront-licenties](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+De Workfront-licentie voor elk standaard toegangsniveau bepaalt wat beschikbaar en configureerbaar is in het toegangsniveau. Voor informatie over de vergunningen van Workfront, zie [ het vergunningsoverzicht van Adobe Workfront ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 Voor de gebruikers die aan het worden toegewezen, bepaalt een toegangsniveau wat zij met de volgende objecten types en gebieden in Workfront kunnen zien en doen:
 
@@ -67,26 +67,26 @@ In een douanetoegangsniveau, kunt u de montages voor deze voorwerpen en gebieden
 >
 >Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. (U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.)
 
-Voor een gedetailleerde uitleg van elk van de standaardtoegangsniveaus raadpleegt u [Ingebouwde toegangsniveaus](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Voor een gedetailleerde verklaring van elk van de standaardtoegangsniveaus, zie [ Ingebouwde toegangsniveaus ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-Voor instructies over het toewijzen van een toegangsniveau aan een gebruiker, zie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Voor instructies bij het toewijzen van een toegangsniveau aan een gebruiker, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Machtigingen
 
 Wanneer een gebruiker een object deelt met iemand in het systeem, kan hij of zij de ontvanger een van de volgende machtigingen voor het object verlenen.
 
-* **Weergave**: Met dit machtigingsniveau kan de ontvanger het object op een van de volgende manieren delen:
+* **Mening**: Dit niveau van toestemming staat de ontvanger toe om het voorwerp op één van de volgende manieren te delen:
 
    * In het hele systeem, zodat alle gebruikers het kunnen zien (niet beschikbaar voor alle objecten)
    * Met externe gebruikers zonder Workfront-licentie (niet beschikbaar voor alle objecten)
    * Met een e-mailadres (alleen beschikbaar voor documenten)
 
-* **Contribute**: (niet beschikbaar voor alle objecten)
-* **Beheren**: Wanneer iemand een object deelt, worden de rechten van de ontvanger op het object bepaald door een combinatie van het toegangsniveau van de ontvanger en de machtigingen voor het object die door de deler zijn verleend. De laagste toegangsgraad beschikbaar in die combinatie is wat bepaalt wat de ontvanger met het voorwerp kan doen.
+* **Contribute**: (niet beschikbaar voor alle voorwerpen)
+* **beheert**: Wanneer iemand een voorwerp deelt, worden de rechten van de ontvanger op het voorwerp bepaald door een combinatie van het de toegangsniveau van de ontvanger en de toestemmingen aan het voorwerp die door de aandeelhouder werden verleend. De laagste toegangsgraad beschikbaar in die combinatie is wat bepaalt wat de ontvanger met het voorwerp kan doen.
 
   >[!INFO]
   >
-  >**Voorbeeld:** Als het de toegangsniveau van de ontvanger project het uitgeven niet toestaat, kan die persoon geen project uitgeven of schrappen zelfs als de aandeelhouder toestemmingen verleende om het te beheren.
+  >**Voorbeeld:** als het de toegangsniveau van de ontvanger project het uitgeven niet toestaat, kan die persoon geen project uitgeven of schrappen zelfs als aandeelhouder toestemmingen verleende om het te beheren.
   >
   >Of, als het de toegangsniveau van de ontvanger project het uitgeven toestaat, maar aandeelhouder verleende mening-slechts toestemmingen aan een project, kan de gebruiker niet het project uitgeven of schrappen.
 

@@ -19,7 +19,7 @@ U kunt de uitlijning tussen twee doelen verwijderen als het niet langer logisch 
 
 Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 
-* [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Toegangsvereisten
@@ -54,7 +54,7 @@ U moet het volgende hebben:
 <li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
 <li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
  <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Zie voor meer informatie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Vereisten voor het gebruik van Workfront-doelen</a>. </p> </td>
+ <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Toegangsniveau</td>
@@ -65,7 +65,7 @@ U moet het volgende hebben:
  <td>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Een doel delen in Workfront-doelen</a>. </p>
+  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </td>
  </tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
@@ -75,7 +75,7 @@ U moet het volgende hebben:
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Toegang krijgen tot de **Doelen** in Workfront en klik op de naam van een doel om de doelpagina te openen.
-1. Van de pagina van het doel van een ouderdoel, klik **Voortgangsindicatoren** in het linkerdeelvenster.
+1. Heb toegang tot het **gebied van Doelen** in Workfront en klik de naam van een doel om de pagina van het doel te openen.
+1. Van de pagina van het doel van een ouderdoel, klik **Indicatoren van de Voortgang** in het linkerpaneel.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. In de **Type: Doel** groeperen, een doel selecteren en vervolgens op de knop **Verbinding verbreken** pictogram ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) boven aan de lijst.
+1. In het **Type: Goal** groeperen, selecteer een doel, dan klik **losmaakt** pictogram ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) bij de bovenkant van de lijst.
 
    Het vak Verbinding verbreken wordt weergegeven.
 
-1. Klikken **Verbinding verbreken** om het geselecteerde doel van zijn ouder los te maken.
+1. Klik **losmaken** om het geselecteerde doel van zijn ouder los te maken.
 
    Het doel wordt een zelfstandig doel en wordt niet meer vermeld als een voortgangsindicator van het oorspronkelijke doel. De voortgang van het ontkoppelde doel beïnvloedt niet langer de voortgang van het oorspronkelijke doel.
 

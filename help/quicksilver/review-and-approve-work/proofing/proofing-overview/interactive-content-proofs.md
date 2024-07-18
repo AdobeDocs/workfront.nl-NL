@@ -58,22 +58,22 @@ Wanneer u interactieve inhoud in een ZIP-bestand bundelt voor proefdrukken, moet
 
   Dit is niet verplicht wanneer u de Desktop Proofing Viewer gebruikt.
 
-  Zie voor meer informatie [De Desktop Proofing Viewer begrijpen](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Voor meer informatie, zie [ de het Proofing van de Desktop Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpen.
 
 * De website moet in een iframe kunnen worden weergegeven.
 
   Dit is niet verplicht wanneer u de Desktop Proofing Viewer gebruikt.
 
-  Zie voor meer informatie [De Desktop Proofing Viewer begrijpen](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+  Voor meer informatie, zie [ de het Proofing van de Desktop Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpen.
 
 ## Een interactieve proefdruk maken
 
 Nadat u het ZIP-bundelbestand hebt voorbereid, maakt u een interactieve proefdruk.
 
-Zie voor meer informatie [Een proef maken voor interactieve inhoud in een ZIP-bestand](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+Voor meer informatie, zie [ een proef voor interactieve inhoud in een dossier van het PIT ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md) creëren.
 
-Of raadpleeg de sectie als u Workfront Proof gebruikt [Een proefdruk maken voor interactieve inhoud](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) in het artikel [Proefdrukken genereren in Workfront-proefdrukken](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Of, als u Workfront Proof gebruikt, zie de sectie [ een proef voor interactieve inhoud ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) in het artikel [ produceren Proefdrukken in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Informatie over het controleren van interactieve proefdrukken
 
-We raden u aan de zelfstandige Desktop Proofing Viewer te gebruiken als de standaardviewer voor interactieve proefdrukken. Als het beleid van uw organisatie het gebruik van de Desktop Proofing Viewer-app echter niet toestaat, kan uw Workfront-beheerder uw systeem zo configureren dat u de interactieve inhoud die in een ZIP-archiefbestand is gebundeld, kunt bekijken in de webtestviewer. Voor vergelijkende informatie over de Desktop Proofing Viewer en de Web Proofing Viewer raadpleegt u [Verschillen tussen de webtestviewer en het overzicht van de Desktop Proofing Viewer](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+We raden u aan de zelfstandige Desktop Proofing Viewer te gebruiken als de standaardviewer voor interactieve proefdrukken. Als het beleid van uw organisatie het gebruik van de Desktop Proofing Viewer-app echter niet toestaat, kan uw Workfront-beheerder uw systeem zo configureren dat u de interactieve inhoud die in een ZIP-archiefbestand is gebundeld, kunt bekijken in de webtestviewer. Voor vergelijkende informatie over de Desktop het Proofing Kijker en de Kijker van het Web het Proofing, zie [ Verschillen tussen de Kijker van het Web het Proofing en het Overzicht van de Kijker van het Proofing van de Desktop ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).

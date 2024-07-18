@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -40,21 +40,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Standaardwaarden voor persoonlijke proefdrukken configureren
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Proofing**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **het Bewijzen**.
 
-1. Klik in de rechterbovenhoek op uw avatar en selecteer **Persoonlijke instellingen**.
-1. Kies de optie **Standaardwaarden proefdrukken** en geeft u de volgende informatie op:
+1. In de hoger-juiste hoek, klik uw avatar, en selecteer **Persoonlijke Montages**.
+1. Kies het **Proofing gebreken** lusje, dan specificeer de volgende informatie:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td colspan="2"><strong>Standaardinstellingen voor e-mailmeldingen</strong> </td> 
+      <td colspan="2"><strong> Standaard e-mailmeldingsmontages </strong> </td> 
      </tr> 
      <tr> 
       <td>Standaard-e-mailwaarschuwing</td> 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td>Kies of u een melding wilt ontvangen wanneer u aan een proefdruk wordt toegevoegd.</td> 
      </tr> 
      <tr> 
-      <td colspan="2"><strong>Berichtinstellingen</strong> </td> 
+      <td colspan="2"><strong> montages van het Bericht </strong> </td> 
      </tr> 
      <tr> 
       <td>Sjabloon proefonderwerp</td> 
@@ -80,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td>Typ wat gebruikers in de tekst van een e-mail moeten zien wanneer u een proefdruk met hen deelt.</td> 
      </tr> 
      <tr> 
-      <td colspan="2"><strong>Standaardproefdrukinstellingen</strong> </td> 
+      <td colspan="2"><strong> Standaardproefdrukmontages </strong> </td> 
      </tr> 
      <tr> 
       <td>Bewijs vergrendelen wanneer alle beslissingen worden genomen</td> 
@@ -88,11 +88,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td>Slechts één beslissing vereisen</td> 
-      <td>Kies ervoor slechts één beslissing op een bewijs te eisen.</td> 
+      <td>Kies ervoor om slechts één beslissing op een bewijs te eisen.</td> 
      </tr> 
      <tr> 
       <td>Aanmelding vereist</td> 
-      <td> <p>Kies ervoor om de proefdruk alleen beschikbaar te maken voor gebruikers met aanmeldingsgegevens voor Workfront Proof.</p> <p>Opmerking: Workfront Proof-gegevens kunnen afwijken van uw Workfront-gegevens, tenzij uw bedrijf SSO gebruikt. Wij adviseren gebruikend deze eigenschap slechts als uw bedrijfgebruikers SSO.</p> </td> 
+      <td> <p>Kies ervoor om de proefdruk alleen beschikbaar te maken voor gebruikers met Workfront Proof-aanmeldingsgegevens.</p> <p>Opmerking: Workfront Proof-gebruikersgegevens kunnen afwijken van uw Workfront-gegevens, tenzij de gebruikersgegevens van uw bedrijf worden gewijzigd. Wij adviseren gebruikend deze eigenschap slechts als uw bedrijfgebruikers SSO.</p> </td> 
      </tr> 
      <tr> 
       <td>Abonnement ingeschakeld</td> 

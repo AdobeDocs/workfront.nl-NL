@@ -20,9 +20,9 @@ Op de pagina Documentdetails kunt u de eigenschappen van een document dat is gek
 
 ## De pagina Documentdetails openen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Documenten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Documenten**.
 
-1. Houd de cursor boven het document en klik vervolgens op **Documentdetails**.
+1. Beweeg over het document, dan klik **Details van het Document**.
 
    ![](assets/document-details-350x179.png)
 
@@ -37,7 +37,7 @@ U kunt de volgende handelingen uitvoeren voor zowel documenten als proefdrukken 
 * De documentbeschrijving bewerken
 * Een document inchecken of uitchecken
 
-Daarnaast kunt u het pictogram Meer gebruiken ![](assets/more-icon.png) naast de documentnaam om de volgende handelingen uit te voeren:
+Daarnaast kunt u het pictogram Meer ![](assets/more-icon.png) naast de documentnaam gebruiken om de volgende handelingen uit te voeren:
 
 * Delen
 * Verplaatsen
@@ -55,4 +55,4 @@ U kunt de volgende handelingen uitvoeren vanaf de pagina met documentdetails als
 * Een proefdruk vergrendelen of ontgrendelen
 * Aangepaste proefdrukvelden bewerken
 
-   Proofing Custom Fields moet worden ingesteld in Workfront Proof. Zie voor meer informatie [Aangepaste velden maken en beheren in Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [ douanegebieden in Workfront Proof ](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.

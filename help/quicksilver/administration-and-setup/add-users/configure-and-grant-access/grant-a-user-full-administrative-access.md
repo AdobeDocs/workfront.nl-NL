@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan de Admin Console zijn geregistreerd. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Voor instructies over het verlenen van volledige beheerdertoegang in de Adobe Admin Console raadpleegt u [Systeembeheerders beheren in de Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Voor instructies bij het verlenen van volledige beheerdertoegang in Adobe Admin Console, zie [ systeembeheerders in Adobe Admin Console beheren ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot stand brengen door hen het de toegangsniveau van de Beheerder van het Systeem toe te wijzen. Een gebruiker met dit toegangsniveau heeft volledige administratieve toegang tot alles in Workfront, met inbegrip van punten zij niet creeerden zelf.
 
@@ -28,8 +28,8 @@ Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot
 >
 >Dit verschilt van het gebruik van een toegangsniveau om gebruikers administratieve toegang tot bepaalde gebieden van het systeem te verlenen. Raadpleeg de volgende secties voor meer informatie:
 >
->* [Gebruikers administratieve toegang verlenen tot bepaalde gebieden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Toegang tot een Workfront-beheerder versus toegang tot een Abonnementsgebruiker met beheerrechten](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in dit artikel
+>* [ gebruikers administratieve toegang van de vergunning tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [ Toegang van een beheerder van Workfront vs. toegang van een gebruiker van het Plan met administratieve rechten ](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in dit artikel
 >
 
 ## Toegangsvereisten
@@ -50,25 +50,25 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Zie voor meer informatie <a href="#" class="MCXref xref selected">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Voor meer informatie, zie <a href="#" class="MCXref xref selected"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Volledige toegang van de Beheerder van het Systeem tot één enkele gebruiker verlenen
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
 
 1. Klik op de naam van de gebruiker aan wie u beheerdersrechten wilt verlenen.
-1. Klik op het menu Meer ![](assets/more-icon.png)en klik vervolgens op **Bewerken**.
+1. Klik het Meer menu ![](assets/more-icon.png), dan klik **uitgeven**.
 
-1. Op de **Persoon bewerken** vak dat wordt weergegeven, klikt u op **Toegang**.
+1. Op **geef Persoon** doos uit die verschijnt, klik **Toegang**.
 
-1. In de **toegangsniveau** vervolgkeuzelijst selecteert u de **Systeembeheerder** toegangsniveau.
+1. In het **toegangsniveau** drop-down lijst, selecteer het **toegangsniveau van de Beheerder van het Systeem**.
 
    Afhankelijk van de wijzigingen die in uw systeem zijn aangebracht, kan de naam van dit toegangsniveau zijn gewijzigd.
 
-1. Klikken **Wijzigingen opslaan.**
+1. Klik **sparen Veranderingen.**
 
    De gebruiker heeft nu volledige rechten voor systeembeheerders in het systeem.
 
@@ -82,7 +82,7 @@ Gebruikers met een licentie voor abonnementen die functies in één gebied kunne
 
 >[!NOTE]
 >
->De gebruikers met een vergunning van het Plan die als groepsbeheerders worden aangewezen kunnen sommige acties uitvoeren toegestaan voor de beheerders van Workfront. Ze mogen deze handelingen alleen uitvoeren voor de groepen die ze beheren, hun subgroepen en de gebruikers in deze groepen en subgroepen. Zie voor meer informatie [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>De gebruikers met een vergunning van het Plan die als groepsbeheerders worden aangewezen kunnen sommige acties uitvoeren toegestaan voor de beheerders van Workfront. Ze mogen deze handelingen alleen uitvoeren voor de groepen die ze beheren, hun subgroepen en de gebruikers in deze groepen en subgroepen. Voor meer informatie, zie [ de beheerders van de Groep ](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Toegang tot het gedeelte Instellen](#access-to-the-setup-area)
 * [Toegang tot objecten](#access-to-objects)
@@ -179,7 +179,7 @@ Gebruikers met een licentie voor abonnementen die functies in één gebied kunne
   <tr> 
    <td>Aanmelden als</td> 
    <td>Volledige toegang </td> 
-   <td> <p>Als hun groep administratieve toegang op hun toegangsniveau wordt toegelaten en zij als groepsbeheerder worden aangewezen, kunnen zij login als gebruikers in de groep zij en hun subgroepen beheren. Ze kunnen zich niet aanmelden als systeembeheerder.<br>Voor meer informatie over het toelaten van groep administratieve toegang voor gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </td> 
+   <td> <p>Als hun groep administratieve toegang op hun toegangsniveau wordt toegelaten en zij als groepsbeheerder worden aangewezen, kunnen zij login als gebruikers in de groep zij en hun subgroepen beheren. Ze kunnen zich niet aanmelden als systeembeheerder.<br> voor meer informatie over het toelaten van groep administratieve toegang voor gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Planningen</td> 
@@ -411,7 +411,7 @@ Gebruikers met een licentie voor abonnementen die functies in één gebied kunne
   <tr> 
    <td>Gebruikers</td> 
    <td>Volledige toegang</td> 
-   <td> <p>Beperkte toegang</p> <p>Zij kunnen geen groepen aan gebruikers toewijzen waarvoor zij geen groepsbeheerder of groepen zijn die niet openbaar zijn.</p> <p>Zij kunnen geen toegangsniveau aan gebruikers toewijzen die dan hun eigen toegangsniveau hoger is.</p> <p>Als hun groep administratieve toegang op hun toegangsniveau wordt toegelaten en zij als groepsbeheerder op een groep worden aangewezen, kunnen zij het wachtwoord van terugstellen en login als gebruikers in de groep zij en hun subgroepen beheren. Ze kunnen het wachtwoord van of het aanmelden als systeembeheerder niet opnieuw instellen.<br>Voor meer informatie over het toelaten van groep administratieve toegang voor gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </td> 
+   <td> <p>Beperkte toegang</p> <p>Zij kunnen geen groepen aan gebruikers toewijzen waarvoor zij geen groepsbeheerder of groepen zijn die niet openbaar zijn.</p> <p>Zij kunnen geen toegangsniveau aan gebruikers toewijzen die dan hun eigen toegangsniveau hoger is.</p> <p>Als hun groep administratieve toegang op hun toegangsniveau wordt toegelaten en zij als groepsbeheerder op een groep worden aangewezen, kunnen zij het wachtwoord van terugstellen en login als gebruikers in de groep zij en hun subgroepen beheren. Ze kunnen het wachtwoord van of het aanmelden als systeembeheerder niet opnieuw instellen.<br> voor meer informatie over het toelaten van groep administratieve toegang voor gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

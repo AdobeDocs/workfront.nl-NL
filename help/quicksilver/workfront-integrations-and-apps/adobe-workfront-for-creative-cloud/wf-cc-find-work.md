@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# Zoek uw werk met de [!DNL Adobe Workfront] insteekmodule
+# Uw werk zoeken met de plug-in [!DNL Adobe Workfront]
 
-Zoek het werk dat aan u is toegewezen in [!DNL Adobe Workfront] zonder het volgende te verlaten [!DNL Adobe Creative Cloud] toepassingen:
+Zoek het werk dat in [!DNL Adobe Workfront] aan u is toegewezen zonder de volgende [!DNL Adobe Creative Cloud] -toepassingen te verlaten:
 
 {{cc-app-list}}
 
@@ -37,24 +37,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Vereisten
 
 {{cc-install-prereq}}
 
-## Gebruik de [!UICONTROL Work List] toegang tot belangrijke informatie
+## Gebruik [!UICONTROL Work List] om toegang te krijgen tot belangrijke informatie
 
-De [!UICONTROL Work List] Hiermee kunt u alle taken en uitgaven die aan u zijn toegewezen op één locatie weergeven. U kunt de [!UICONTROL Sort by] optie om items samen te groeperen en vervolgens de optie [!UICONTROL Filter] zich te concentreren op werk dat moet worden voltooid.
+Met [!UICONTROL Work List] kunt u alle taken en uitgaven die aan u zijn toegewezen op één locatie weergeven. U kunt de optie [!UICONTROL Sort by] gebruiken om items te groeperen en vervolgens de optie [!UICONTROL Filter] gebruiken om de focus in te stellen op werk dat moet worden voltooid.
 
-### Groepeer vergelijkbare werkitems samen met de [!DNL Sort By] option
+### Gelijksoortige werkitems groeperen met de optie [!DNL Sort By]
 
-Gebruik de [!UICONTROL Sort by] optie voor het groeperen van vergelijkbare items in de [!UICONTROL Work List]. U kunt sorteren op:
+Gebruik de optie [!UICONTROL Sort by] om vergelijkbare items in de [!UICONTROL Work List] te groeperen. U kunt sorteren op:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +75,7 @@ Gebruik de [!UICONTROL Sort by] optie voor het groeperen van vergelijkbare items
 
 ### Verfijn uw focus met filters
 
-Gebruik de [!UICONTROL Filter] om uw focus te beperken tot specifieke werkitems. U kunt het filter op een aantal manieren gebruiken:
+Gebruik [!UICONTROL Filter] om uw focus te beperken tot specifieke werkitems. U kunt het filter op een aantal manieren gebruiken:
 
  
 
@@ -86,9 +86,9 @@ Gebruik de [!UICONTROL Filter] om uw focus te beperken tot specifieke werkitems.
   <tr> 
    <td> <p>Het eerste filter is uitsluitend gebaseerd op het type of de kenmerken van het werkitem:</p> 
     <ul> 
-     <li><strong>Werkitem</strong>: Taken, Subtaken, Kwesties, of Persoonlijke taken</li> 
-     <li><strong>Staat van het werkitem</strong>: [!UICONTROL Working On], [!UICONTROL Ready to Start], of [!UICONTROL Not Ready]</li> 
-    </ul> <p>Het tweede filter filtert het gebruiken van het werkpunt en de staat van het het werkpunt samen. U kunt bijvoorbeeld Taken selecteren en [!UICONTROL Ready to Start] om alle taken in uw werklijst te vinden die klaar voor het werk zijn.</p> <p>U kunt ook [!UICONTROL Field Match] om te zoeken naar een specifiek item in uw filterset. </p> </td> 
+     <li><strong> het punt van het Werk </strong>: Taken, Subtasks, Kwesties, of Persoonlijke taken</li> 
+     <li><strong> de staat van het Punt van het Werk </strong>: [!UICONTROL Working On], [!UICONTROL Ready to Start], of [!UICONTROL Not Ready]</li> 
+    </ul> <p>Het tweede filter filtert het gebruiken van het werkpunt en de staat van het het werkpunt samen. U kunt bijvoorbeeld Taken en [!UICONTROL Ready to Start] selecteren om alle taken in uw werklijst te zoeken die klaar zijn voor gebruik.</p> <p>U kunt [!UICONTROL Field Match] ook gebruiken om naar een specifiek punt binnen uw filterreeks te zoeken. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ Gebruik de [!UICONTROL Filter] om uw focus te beperken tot specifieke werkitems.
 
 ## Zoeken naar uw werk
 
-Gebruik de [!UICONTROL Search] om projecten, taken, problemen en documenten te zoeken die u nodig hebt.
+Gebruik de balk [!UICONTROL Search] om projecten, taken, problemen en documenten te zoeken die u nodig hebt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,17 +105,17 @@ Gebruik de [!UICONTROL Search] om projecten, taken, problemen en documenten te z
   <tr> 
    <td> 
     <ul> 
-     <li>Zie recente objecten: U kunt maximaal vijf van de meest recente werkitems weergeven die via de desktopversie of de plug-inversie van Workfront kunnen worden geopend.</li> 
-     <li>Vastgezette items zoeken: U kunt projecten, taken, kwesties, en documenten toegang hebben u in de nieuwe ervaring van Adobe Workfront hebt vastgezet.</li> 
-     <li>Zoek je favorieten: U kunt elk project, elke taak, elke uitgave of elk document zien dat u als favoriet hebt opgeslagen.</li> 
+     <li>Zie recente items: U kunt maximaal vijf van de meest recente werkitems weergeven die via de desktopversie of de plug-inversie van Workfront kunnen worden geopend.</li> 
+     <li>Vastgezette items zoeken: u hebt toegang tot projecten, taken, problemen en documenten die u hebt vastgezet in de nieuwe Adobe Workfront-ervaring.</li> 
+     <li>Vind uw favorieten: U kunt om het even welk project, taak, kwestie, of document zien u als favoriet bewaarde.</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-search-p.png"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gebruik de [!UICONTROL Menu] om door projecten te navigeren
+## Gebruik [!UICONTROL Menu] om door projecten te navigeren
 
-U kunt de [!UICONTROL Menu] pictogram om naar ouderpunten in een project te navigeren.
+Met het pictogram [!UICONTROL Menu] kunt u naar bovenliggende items in een project navigeren.
 
 ![](assets/go-back-to-work-list-350x314.png)

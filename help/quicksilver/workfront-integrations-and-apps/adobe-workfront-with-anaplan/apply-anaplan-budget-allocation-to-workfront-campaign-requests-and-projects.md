@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Pas een [!DNL Anaplan] begrotingstoewijzing aan een [!DNL Adobe Workfront] campagneverzoek of campagneproject
-description: In dit integratiescenario worden alle begrotingstoewijzingen gesynchroniseerd die in [!DNL Anaplan] terug naar [!DNL Workfront]. Het scenario trekt alle gekoppelde begrotingsposten van de campagnebegroting, dan gaat de begrote waarde aan het verbonden project van Workfront over als de begrotingswaarde is veranderd.
+title: Pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  campagneverzoek of campagneproject toe
+description: Dit integratiescenario synchroniseert om het even welke begrotingstoewijzingen die in  [!DNL Anaplan]  terug naar  [!DNL Workfront] zijn gemaakt. Het scenario trekt alle gekoppelde begrotingsposten van de campagnebegroting, dan gaat de begrote waarde aan het verbonden project van Workfront over als de begrotingswaarde is veranderd.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
-# Pas een [!DNL Anaplan] begrotingstoewijzing aan een [!DNL Adobe Workfront] campagneverzoek of campagneproject
+# Een [!DNL Anaplan] budget toewijzen aan een [!DNL Adobe Workfront] campagneverzoek- of campagneproject
 
-In dit integratiescenario worden alle begrotingstoewijzingen gesynchroniseerd die in [!DNL Anaplan] terug naar [!DNL Workfront]. Het scenario trekt alle verbonden begrotingsposten van de campagnebegroting, dan gaat de begrotingswaarde aan verbonden over [!DNL Workfront] , indien de begrotingswaarde is gewijzigd.
+In dit integratiescenario worden alle begrotingstoewijzingen gesynchroniseerd die zijn gemaakt in [!DNL Anaplan] terug naar [!DNL Workfront] . Het scenario trekt alle verbonden begrotingsposten van de campagnebegroting, dan gaat de begrotingswaarde aan het verbonden [!DNL Workfront] project over als de begrotingswaarde is veranderd.
 
 >[!IMPORTANT]
 >
->&quot;Campagne&quot;in dit artikel verwijst naar de het gebruikscase van de marketing campagne die dit scenario vertegenwoordigt en op geen enkele wijze verbonden met [!DNL Workfront Fusion] Adobe Campaign-aansluiting of de onlangs vervangen [!UICONTROL Campaign] object in [!DNL Workfront].
+>‘Campagne’ in dit artikel verwijst naar het gebruik van de marketingcampagne dat dit scenario vertegenwoordigt en dat op geen enkele manier is verbonden met de [!DNL Workfront Fusion] Adobe Campaign-connector of het onlangs vervangen [!UICONTROL Campaign] -object in [!DNL Workfront] .
 
 
 ## Toegangsvereisten
@@ -44,36 +44,36 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</td> 
+   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-&#42;&#42;Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Triginggebeurtenis
 
 Dit scenario wordt gepland om de 15 minuten uit te voeren.
 
-## Verwacht [!DNL Workfront] Configuratie
+## [!DNL Workfront] Configuratie verwacht
 
-U moet het volgende opgeven in [!DNL Workfront] om dit scenario te gebruiken:
+U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
 
-* Een gebruikersprofiel in [!DNL Workfront] benoemd **[!DNL Anaplan Integration]**, die beheerdersrechten voor het systeem heeft.
+* Een gebruikersprofiel in [!DNL Workfront] genaamd **[!DNL Anaplan Integration]** dat systeembeheerdersrechten heeft.
 
-   Voor informatie over het maken van een gebruiker in [!DNL Workfront], zie [Gebruikers toevoegen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  Voor informatie bij het creëren van een gebruiker in [!DNL Workfront], zie [ gebruikers ](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
-## Verwacht [!DNL Anaplan] Configuratie
+## [!DNL Anaplan] Configuratie verwacht
 
-U moet het volgende opgeven in [!DNL Anaplan] om dit scenario te gebruiken:
+U moet het volgende in [!DNL Anaplan] hebben om dit scenario te gebruiken:
 
-* Een gebruikersprofiel in [!DNL Anaplan] benoemd **[!UICONTROL [!DNL Workfront] Integration]**, die beheerdersrechten voor het systeem heeft.
-* De [!DNL Anaplan] Model dat u voor dit scenario wilt gebruiken.
-* De lijst in de [!DNL Anaplan] Model dat campagnebudgetten vastlegt.
+* Een gebruikersprofiel in [!DNL Anaplan] genaamd **[!UICONTROL [!DNL Workfront] Integration]** dat systeembeheerdersrechten heeft.
+* Het [!DNL Anaplan] -model dat u voor dit scenario wilt gebruiken.
+* De lijst binnen het [!DNL Anaplan] model dat campagnebegrotingen vangt.
 
-   De module van de lijst moet het ontvangen van de volgende attributen steunen:
+  De module van de lijst moet het ontvangen van de volgende attributen steunen:
 
    * [!UICONTROL [!DNL Workfront] Request GUID]
    * [!UICONTROL [!DNL Workfront] Project GUID]
@@ -82,11 +82,11 @@ U moet het volgende opgeven in [!DNL Anaplan] om dit scenario te gebruiken:
    * [!UICONTROL Estimated Revenue]
    * [!UICONTROL Brand]
 
-   In deze lijst en module moeten aanvullende gegevens worden opgeslagen die nodig zijn voor de normale functionaliteit van [!DNL Anaplan], met inbegrip van de mogelijkheid om een begroting vast te stellen en te melden dat de begrotingspost gereed is om te worden gesynchroniseerd naar [!DNL Workfront].
+  In deze lijst en module moeten aanvullende gegevens worden opgeslagen die nodig zijn voor de normale functionaliteit van [!DNL Anaplan] , waaronder de mogelijkheid om een budget in te stellen en te communiceren dat het item in de begrotingslijst gereed is om te worden gesynchroniseerd naar [!DNL Workfront] .
 
-* Een weergave in [!DNL Anaplan] gebeld **[!UICONTROL Campaigns.Update Campaigns in Adobe Workfront]**.
+* Een weergave in [!DNL Anaplan] met de naam **[!UICONTROL Campaigns.Update Campaigns in Adobe Workfront]** .
 
-   Deze weergave moet de volgende kolommen in deze volgorde bevatten:
+  Deze weergave moet de volgende kolommen in deze volgorde bevatten:
 
    1. [!UICONTROL Item Name]
 
@@ -101,16 +101,17 @@ U moet het volgende opgeven in [!DNL Anaplan] om dit scenario te gebruiken:
    6. [!UICONTROL Estimated Revenue]
 
    7. [!UICONTROL Brand]
-   De weergave moet worden gefilterd om items met een [!UICONTROL [!DNL Workfront] Project GUID] en een aanwijzing dat de begrotingstoewijzingen aan Workfront moeten worden doorgegeven.
 
-Voor instructies over een van deze handelingen raadpleegt u de [!DNL Anaplan] documentatie.
+  De weergave moet worden gefilterd om items weer te geven met een [!UICONTROL [!DNL Workfront] Project GUID] -teken en een indicatie dat de begrotingstoewijzingen naar Workfront moeten worden verzonden.
+
+Zie de documentatie van [!DNL Anaplan] voor instructies over deze handelingen.
 
 ## Distribueren naar Workfront Fusion
 
-Voer de volgende stappen uit om dit integratiescenario in te zetten op uw Fusion-account. Dit mag alleen gebeuren nadat de vereiste [!DNL Workfront] en [!DNL Anaplan] configuratie.
+Voer de volgende stappen uit om dit integratiescenario in te zetten op uw Fusion-account. Dit mag alleen gebeuren nadat de vereiste [!DNL Workfront] - en [!DNL Anaplan] -configuratie is voltooid.
 
-1. Ga naar de [!UICONTROL Templates] menu in [!DNL Workfront Fusion] en klik op de knop **[!UICONTROL Apply [!DNL Anaplan] budget allocations to Workfront campaign requests & projects]** scenario-sjabloon.
-1. De waarden van variabelen vervangen voor het volgende [!DNL Anaplan] variabelen:
+1. Navigeer naar het [!UICONTROL Templates] -menu in [!DNL Workfront Fusion] en klik op de sjabloon van het **[!UICONTROL Apply [!DNL Anaplan] budget allocations to Workfront campaign requests & projects]** -scenario.
+1. Vervang de variabelewaarden voor de volgende [!DNL Anaplan] -variabelen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,47 +126,47 @@ Voer de volgende stappen uit om dit integratiescenario in te zetten op uw Fusion
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Werkruimte-id]</td> 
-      <td>De id van een werkruimte van uw [!DNL Anaplan] account.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace-id]</td> 
+      <td>De id van een werkruimte vanuit uw [!DNL Anaplan] -account.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL Anaplan] Model-id] </td> 
-      <td>De id van een model van uw [!DNL Anaplan] en de geselecteerde werkruimte.</td> 
+      <td>De id van een model uit uw [!DNL Anaplan] -account en de geselecteerde werkruimte.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Campaign List Name]</td> 
-      <td>De naam van de lijst in uw [!DNL Anaplan] en de geselecteerde werkruimte en het geselecteerde model.</td> 
+      <td>De naam van de lijst in uw [!DNL Anaplan] -account en de geselecteerde werkruimte en het geselecteerde model.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Naam weergeven]</td> 
-      <td> <p>De naam van de weergave die kant-en-klare campagnebudgetten bevat voor [!DNL Workfront].</p> <p>(Voorbeeld: [!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Weergavenaam]</td> 
+      <td> <p>De naam van de weergave die kant-en-klare campagnebudgetten naar [!DNL Workfront] bevat.</p> <p>(Voorbeeld: [!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   In het dialoogvenster [!DNL Anaplan] installatiedocumentatie.
+   In de installatiedocumentatie van [!DNL Anaplan] vindt u meer informatie over het instellen van de bestanden en processen.
 
-1. Een [!DNL Anaplan] verbindingsprofiel.
-1. Alle resterende bijwerken [!DNL Anaplan] modules met een [!DNL Anaplan] verbinding, wanneer hierom wordt gevraagd.
-1. Op de **[!UICONTROL Convert CSV to JSON Object]** voegt u een nieuwe gegevensstructuur toe om de CSV-kolommen toe te wijzen aan een bruikbaar JSON-object.
+1. Selecteer of voeg een [!DNL Anaplan] verbindingsprofiel toe.
+1. Werk alle resterende [!DNL Anaplan] -modules bij met een [!DNL Anaplan] -verbinding wanneer hierom wordt gevraagd.
+1. Voeg in de module **[!UICONTROL Convert CSV to JSON Object]** een nieuwe gegevensstructuur toe om de CSV-kolommen toe te wijzen aan een bruikbaar JSON-object.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre></pre>
+   <pre><code>[<br>    {<br>        "Anaplan Name":"text",<br>        "Workfront Request GUID":"text",<br>        "Workfront Project GUID":"text",<br>        "Campaign Name":"text",<br>        "Budget": 100.01,<br>        "Estimated Revenue": 100.01,<br>        "Brand":"text"<br>    }<br>]<br></code></pre>
 
 1. Wanneer ertoe aangezet, selecteer deze gegevensstructuur voor andere modules in dit scenario plaatsing.
-1. Op de **[!UICONTROL Check Linked Project]** of een [!DNL Workfront] verbindingsprofiel.
-1. Alle resterende bijwerken [!DNL Workfront] modules met een [!DNL Workfront] verbinding, wanneer hierom wordt gevraagd.
+1. Selecteer of voeg een [!DNL Workfront] -verbindingsprofiel toe in de module **[!UICONTROL Check Linked Project]** .
+1. Werk alle resterende [!DNL Workfront] -modules bij met een [!DNL Workfront] -verbinding wanneer hierom wordt gevraagd.
 
 ## Andere aanbevolen scènemasjablonen
 
 Om het werkschema te voltooien door dit malplaatje wordt vertegenwoordigd, moet u het volgende extra malplaatje ook opstellen dat:
 
-* [[!UICONTROL Create an [!DNL Anaplan] lijstitem uit een [!DNL Adobe Workfront] campagneverzoek]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL Create an [!DNL Anaplan] lijstitem van een  [!DNL Adobe Workfront]  campagneverzoek]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 
 Aanvullende scenario&#39;s voor optimalisatie van uitgaven zijn:
 
-* [[!UICONTROL Send [!DNL Adobe Workfront] projectupdates voor een [!DNL Anaplan] lijstitem]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Send [!DNL Adobe Workfront] projectupdates aan een  [!DNL Anaplan]  lijstitem]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL Send [!DNL Adobe Workfront] de daadwerkelijke uren updates aan een [!DNL Anaplan] lijstitem]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Send [!DNL Adobe Workfront] daadwerkelijke uren updates aan een  [!DNL Anaplan]  lijstpunt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL Send [!DNL Adobe Workfront] uitgaven voor een [!DNL Anaplan] lijstitem]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL Send [!DNL Adobe Workfront] uitgaven aan een  [!DNL Anaplan]  lijstitem]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

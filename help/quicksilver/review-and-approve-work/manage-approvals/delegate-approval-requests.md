@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Goedkeuringsaanvraag delegeren
 
-U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [Taak beheren en taken delegeren](../../manage-work/delegate-work/how-to-delegate-work.md).
+U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [ taak leiden en delegatie ](../../manage-work/delegate-work/how-to-delegate-work.md) uitgeven.
 
 U kunt de volgende typen goedkeuringen delegeren, ongeacht hoe de goedkeuring aan u is toegewezen (of deze rechtstreeks aan u zijn toegewezen, aan een team u lid van, of aan uw baanrol):
 
@@ -29,8 +29,8 @@ U kunt geen timesheet-, document- of proefdrukgoedkeuringen delegeren.
 >
 >Om ervoor te zorgen dat geen inconsistenties met de data voorkomen die u voor uw goedkeuringen plant om worden afgevaardigd, adviseren wij dat de tijdzone van uw gebruikersprofiel dat van uw programma aanpast. Raadpleeg de volgende artikelen voor meer informatie:
 >
->* [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [Gebruikersprofiel bewerken](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+>* [ creeer een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [ geef het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
 >
 
 ## Toegangsvereisten
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
+&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw beheerder van Workfront.
 
 ## Gebruikerstoegang voor gedelegeerde goedkeuringen begrijpen
 
@@ -66,10 +66,10 @@ Tijdens de aangewezen goedkeuringsperiode, heeft de gebruiker aan wie u een goed
 
   >[!NOTE]
   >
-  > De Adobe Workfront-beheerder kan gebruikers toegang tot bepaalde objecttypen ontzeggen. Wanneer een gebruiker geen toegang tot een objecttype heeft en een goedkeuring van dat type aan de gebruiker wordt gedelegeerd, heeft de gebruiker geen toegang tot het object weergeven. De gebruiker kan echter nog steeds goedkeuringsaanvragen van de **Home** pagina, zoals beschreven in [Goedkeuring van de werkzaamheden](../../review-and-approve-work/manage-approvals/approving-work.md).\
-  Bijvoorbeeld, behoort de Gebruiker A tot Groep A. De Workfront-beheerder heeft de toegangsrechten van groep A beperkt, zodat gebruikers in deze groep geen taken in Workfront kunnen weergeven. Als een verzoek van de taakgoedkeuring aan Gebruiker A wordt gedelegeerd, kan Gebruiker A niet de taak bekijken die de goedkeuring met wordt geassocieerd. Nochtans, kan Gebruiker A het goedkeuringsverzoek van de Homepage goedkeuren of verwerpen.
+  > De Adobe Workfront-beheerder kan gebruikers toegang tot bepaalde objecttypen ontzeggen. Wanneer een gebruiker geen toegang tot een objecttype heeft en een goedkeuring van dat type aan de gebruiker wordt gedelegeerd, heeft de gebruiker geen toegang tot het object weergeven. Nochtans, kan de gebruiker nog goedkeuren of goedkeuringsverzoeken van de **1} pagina van het Huis {verwerpen, zoals die in [ wordt beschreven het werk ](../../review-and-approve-work/manage-approvals/approving-work.md) goedkeurt.**\
+  >Bijvoorbeeld, behoort de Gebruiker A tot Groep A. De Workfront-beheerder heeft de toegangsrechten van groep A beperkt, zodat gebruikers in deze groep geen taken in Workfront kunnen weergeven. Als een verzoek van de taakgoedkeuring aan Gebruiker A wordt gedelegeerd, kan Gebruiker A niet de taak bekijken die de goedkeuring met wordt geassocieerd. Nochtans, kan Gebruiker A het goedkeuringsverzoek van de Homepage goedkeuren of verwerpen.
 
-  Voor informatie over hoe de beheerder van Workfront toegang tot objecten types binnen Opstelling kan beperken, zie  [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Voor informatie over hoe de beheerder van Workfront toegang tot objecten types binnen Opstelling kan beperken, zie  [ creeer of wijzig douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Nadat de delegatie van de goedkeuring is gestopt of geannuleerd, heeft de gebruiker die als fiatteur is aangewezen:
 
@@ -79,8 +79,8 @@ Nadat de delegatie van de goedkeuring is gestopt of geannuleerd, heeft de gebrui
 
 ## Goedkeuringsaanvragen delegeren in het thuisgebied
 
-* [Uw goedkeuringen delegeren aan een andere gebruiker](#delegate-your-approvals-to-another-user)
-* [Een goedkeuringsdelegatie bijwerken of stoppen](#update-or-stop-an-approval-delegation)
+* [ Delegeer uw goedkeuringen aan een andere gebruiker ](#delegate-your-approvals-to-another-user)
+* [ werk of stop een goedkeuringsdelegatie ](#update-or-stop-an-approval-delegation) bij
 * [Gedelegeerde goedkeuringen weergeven](#view-delegated-approvals)
 
 ### Uw goedkeuringen delegeren aan een andere gebruiker {#delegate-your-approvals-to-another-user}
@@ -103,65 +103,65 @@ Overweeg het volgende wanneer het delegeren van goedkeuringen:
 
 Goedkeuringen delegeren aan een andere gebruiker:
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
+1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
 
    >[!NOTE]
    >
-   Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
-   * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
+   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
    of
 
-   Klik op de knop **Hoofdmenu** pictogram > **uw naam** > **Tijd uit** in het linkerdeelvenster.
+   Klik het **Belangrijkste pictogram van het Menu** > **uw naam** > **Tijd van** in het linkerpaneel.
 
-1. (Optioneel en voorwaardelijk) Klik in het gebied Home op de knop **Filter** vervolgkeuzemenu en vervolgens op **Goedkeuringen**.
+1. (Facultatief en voorwaardelijk) op het gebied van het Huis, klik het **drop-down menu van de Filter**, dan klik **goedkeurt**.
 
-1. (Voorwaardelijk) Klik **Mijn goedkeuring delegeren**
+1. (Voorwaardelijk) klik **Afgevaardigde Mijn Goedkeuringen**
 
    of
 
-   Als uw systeem of groepsbeheerder de taak en de uitgiftedelegatie toeliet, klik **Delegeren** en klik vervolgens op **Goedkeuringen delegeren**.
+   Als uw systeem of groepsbeheerder de taak en de uitgiftedelegatie toeliet, klik **Afgevaardigde**, dan klik **goedkeuringen van de Afgevaardigde**.
 
    ![](assets/delegate-approvals-nwe.png)
 
 1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
-   * **Naam**: Typ de naam van de gebruiker aan wie u goedkeuringen wilt delegeren en klik vervolgens op de naam wanneer deze wordt weergegeven in het keuzemenu.
-   * **Begindatum**: Selecteer de datum waarop goedkeuring moet worden doorgestuurd. Het door:sturen begint om 12:00 a.m. op de datum die u selecteert.\
+   * **Naam**: Begin typend de naam van de gebruiker die u goedkeuringen aan wilt afvaardigen, dan klik de naam wanneer het in het drop-down menu verschijnt.
+   * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint om 12:00 a.m. op de datum die u selecteert.\
      De begindatum moet de huidige of toekomstige datum zijn.
-   * **Einddatum**:Voer een van de volgende handelingen uit:
+   * **einddatum**:Doe één van het volgende:
 
       * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt om 11:59 op de datum die u selecteert.
-      * Selecteren **Geen einddatum** om Workfront te configureren voor het voor onbepaalde tijd delegeren van goedkeuringen.
+      * Selecteer **Geen einddatum** om Workfront te vormen om goedkeuringen voor onbepaalde tijd te delegeren.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ### Een goedkeuringsdelegatie bijwerken of stoppen {#update-or-stop-an-approval-delegation}
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
+1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
 
    >[!NOTE]
    >
-   Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
-   * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
+   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
-1. Klik op de knop **Filter** vervolgkeuzemenu en vervolgens op **Goedkeuringen**.
+1. Klik het **drop-down menu van de Filter**, dan klik **goedkeurt**.
 
-1. (Voorwaardelijk) Klik **Delegatie bewerken**
+1. (Voorwaardelijk) klik **delegatie** uitgeven
 
    of
 
-   Als uw systeem of groepsbeheerder taak en uitgiftedelegatie toeliet, klik **Delegatie bewerken** en klik vervolgens op **Goedkeuringen delegeren**.
+   Als uw systeem of groepsbeheerder taak en uitgiftedelegatie toeliet, klik **delegatie** uitgeven, dan klik **goedkeuringen van de Afgevaardigde**.
 
 1. (Voorwaardelijk) doe één van beiden van het volgende:
 
-   * Om de bestaande goedkeuringsdelegatie bij te werken: verander de getoonde informatie, dan klik **Opslaan**.
+   * Om de bestaande goedkeuringsdelegatie bij te werken: Verandering de getoonde informatie, dan klik **sparen**.
 
-   * U beëindigt de bestaande delegatie door op **Delegatie stoppen** en klik vervolgens op **Delegatie stoppen** ter bevestiging.
+   * Om de bestaande delegatie tegen te houden: Klik **delegatie van het Einde**, dan klik **delegatie van het Einde** om te bevestigen.
 
      ![](assets/stop-delegation-nwe.png)
 
@@ -175,16 +175,16 @@ In de werklijst kunt u alleen de volgende typen goedkeuringsdelegaties weergeven
 
 Gedelegeerde goedkeuringen weergeven:
 
-1. Klik op de knop **Home** pictogram ![](assets/home-icon-30x29.png) linksboven in Adobe Workfront.
+1. Klik het **pictogram van het Huis** ![](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.
 
    >[!NOTE]
    >
-   Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
+   >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
-   * Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   * De gekoppelde pagina vervangen door een andere pagina. Klik in dit geval op de knop **Hoofdmenu** ![](assets/main-menu-icon.png) in de rechterbovenhoek van de pagina klikt u op **Home**.
+   >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
-1. Klik op de knop **Filter** vervolgkeuzemenu en vervolgens op **Goedkeuringen**.\
+1. Klik het **drop-down menu van de Filter**, dan klik **goedkeurt**.\
    Alle goedkeuringen worden standaard in de lijst weergegeven, inclusief goedkeuringen die aan u zijn toegewezen en goedkeuringen die aan u zijn gedelegeerd.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

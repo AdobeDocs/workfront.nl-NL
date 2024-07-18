@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -37,22 +37,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een rapport beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
 Het aangepaste formulier moet bestaan voordat u ernaar kunt verwijzen in een rapport.
 
-Zie voor meer informatie over het maken van aangepaste formulieren [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Voor meer informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) creëren of uitgeven.
 
 ## Verwijzen naar de inhoud van aangepaste formulieren
 
@@ -61,15 +61,15 @@ U kunt verwijzen naar velden in aangepaste formulieren. Nadat een aangepast form
 >[!NOTE]
 >
 >Voor velden met meerdere opties zijn alle opties beschikbaar in de filters en vragen van het rapport, inclusief de opties die verborgen zijn.\
->Raadpleeg het artikel voor meer informatie over het verbergen van keuzen in een aangepast veld met meerdere opties [Een aangepast formulier maken of bewerken](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Voor meer informatie over het verbergen van keuzen van een douanegebied met veelvoudige opties, zie het artikel [ creeer of geef een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) uit.
 
 Wanneer u het rapport maakt, gebruikt u gewoon het objecttype van het formulier als de veldbron en gebruikt u de naam van het aangepaste veld als de veldnaam.
 
-U kunt bijvoorbeeld een aangepast formulier toepassen op alle projecten die het aangepaste veld bevatten **Consultant**. Als u een rapport wilt maken met alle projecten waar Olivia Kim de consultant is, gebruikt u de opdracht **Project** objecttype als veldbron en gebruik **Consultant** als de veldnaam. De filterkwalificatie instellen op **Gelijk** Typ dan Olivia Kim.
+Bijvoorbeeld, zou u een douanevorm kunnen hebben die op alle projecten wordt toegepast die de adviseur van het douanegebied **** omvat. Om een rapport tot stand te brengen dat van alle projecten een lijst maakt waar Olivia Kim de consultant is, gebruik het **objecten van het 0} Project {als gebiedsbron, en gebruik** Consultant **als gebiedsnaam.** Plaats het filterbepaler aan **Gelijk**, toen type Olivia Kim.
 
 ![](assets/qs-consultant-filter-example-350x126.png)
 
-Raadpleeg het artikel voor meer informatie over het maken van een rapport [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor meer informatie over het creëren van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Referentiegegevens over aangepaste formulieren
 
@@ -79,37 +79,37 @@ U kunt verwijzen naar informatie over aangepaste formulieren, zoals de naam van 
 
 * Het primaire aangepaste formulier dat op een object wordt toegepast:
 
-   Dit is het formulier dat het eerst wordt weergegeven op de pagina Details van het object.
+  Dit is het formulier dat het eerst wordt weergegeven op de pagina Details van het object.
 
 * Alle aangepaste formulieren (als er meerdere aangepaste formulieren op een object zijn toegepast)
 
 U kunt naar aangepaste formulieren verwijzen in Weergaven, Filters en Groepen:
 
-* [Verwijzing douaneformulieren in een rapportmening (Kolom)](#reference-custom-forms-in-a-report-view-column)
-* [Verwijzing douaneformulieren in een rapportfilter](#reference-custom-forms-in-a-report-filter)
-* [Verwijzing douaneformulieren in een rapport Groepering](#reference-custom-forms-in-a-report-grouping)
+* [ de douaneformulieren van de Verwijzing in een Mening van het rapport (Kolom) ](#reference-custom-forms-in-a-report-view-column)
+* [ de douanevormen van de Verwijzing in een rapportfilter ](#reference-custom-forms-in-a-report-filter)
+* [Verwijzing douaneformulieren in een rapport groeperen](#reference-custom-forms-in-a-report-grouping)
 
 ### Verwijzing douaneformulieren in een rapportmening (Kolom) {#reference-custom-forms-in-a-report-view-column}
 
 Alle aangepaste formulieren weergeven die aan een object zijn gekoppeld:
 
-1. Een rapport maken zoals wordt beschreven in het artikel [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Op de **Kolommen** vouwt u het objecttype uit waarop het aangepaste formulier waarnaar u wilt verwijzen, is toegepast en klikt u vervolgens op **Categorienaam**.\
-   Als u bijvoorbeeld alle aangepaste formulieren wilt weergeven die aan een taak zijn gekoppeld, vouwt u de opdracht **Taak** veldbron, en klik dan **Categorienaam** veldnaam.\
+1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Op het **lusje van Kolommen**, breid het objecten type uit dat de douanevorm die u wilt van verwijzingen voorzien wordt toegepast op, dan klik **Naam van de Categorie**.\
+   Bijvoorbeeld, om alle douaneformulieren te tonen verbonden aan een taak, breid de **het gebiedsbron van de Taak** {uit, dan klik de **Naam van de Categorie** gebiedsnaam.\
    ![](assets/qs-category-name-column-350x267.png)
 
 Alleen het primaire aangepaste formulier weergeven dat aan het object is gekoppeld:
 
-1. Een rapport maken zoals wordt beschreven in het artikel [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Op de **Kolommen** tabblad, vouwt u de **Categorie** veldbron, en klik dan **Naam** veldnaam.\
+1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Op het **lusje van Kolommen**, breid de **bron van het Categorie** gebied uit, dan klik de **Naam** gebiedsnaam.\
    ![](assets/qs-category-name-column-2-350x248.png)
 
 ### Verwijzing douaneformulieren in een rapportfilter {#reference-custom-forms-in-a-report-filter}
 
 Filteren op alle aangepaste formulieren die aan het objecttype zijn gekoppeld:
 
-1. Een rapport maken zoals wordt beschreven in het artikel [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Op de **Filters** tab, uitvouwen **Categorieën** en klik vervolgens op **Naam**.\
+1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Op het **lusje van Filters**, breid **Categorieën** uit, dan klik **Naam**.\
    ![](assets/qs-categories-name-filter-350x311.png)
 
 1. Selecteer de voorwaarde-aanduiding die u wilt gebruiken:
@@ -121,20 +121,20 @@ Filteren op alle aangepaste formulieren die aan het objecttype zijn gekoppeld:
    * Gelijk
    * Niet gelijk
 
-   Raadpleeg het artikel voor meer informatie over elke kwalificatie [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor meer informatie over elke kwalificatie, zie de artikel [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
-   >Als het veld waarnaar u filtert meerdere opties heeft en u de opdracht **Niet gelijk** of **Bevat niet** kwalificeertekens, worden de resultaten die alleen de door u opgegeven keuze bevatten, uitgefilterd. Als het veld aanvullende opties bevat, inclusief de opgegeven optie, worden die resultaten niet uit het rapport gefilterd. Dit omvat het filtreren voor veelvoudige Douane Forms als zij aan het zelfde voorwerp in bijlage zijn.
+   >Als het gebied u voor heeft veelvoudige opties filtert en u **niet Gelijk** gebruikt of **** geen bepalende eigenschappen bevat, bevat dit filters uit de resultaten die slechts de keus bevatten u specificeert. Als het veld aanvullende opties bevat, inclusief de opgegeven optie, worden die resultaten niet uit het rapport gefilterd. Dit omvat het filtreren voor veelvoudige Douane Forms als zij aan het zelfde voorwerp in bijlage zijn.
 
 1. Typ de naam van het aangepaste formulier waarop u wilt filteren en klik vervolgens op de naam wanneer dit wordt weergegeven in de vervolgkeuzelijst.
-1. (Optioneel) Klik op **Een andere filterregel toevoegen** Herhaal vervolgens stap 2-4 om extra filterregels te maken.
-1. Klikken **Opslaan en sluiten**.
+1. (Facultatief) klik **voeg een andere Regel van de Filter toe**, dan herhaal stappen 2-4 om extra filterregels tot stand te brengen.
+1. Klik **sparen+Sluiten**.
 
 Alleen filteren op het primaire aangepaste formulier dat is gekoppeld aan het objecttype:
 
-1. Een rapport maken zoals wordt beschreven in het artikel [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Op de **Filters** tabblad, vouwt u de **Categorie** veldbron, en klik dan **Naam** veldnaam.\
+1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Op het **lusje van Filters**, breid de **bron van het Categorie** gebied uit, dan klik de **Naam** gebiedsnaam.\
    ![](assets/qs-category-name-filter-350x437.png)
 
 1. Selecteer de voorwaarde-aanduiding die u wilt gebruiken:
@@ -146,18 +146,18 @@ Alleen filteren op het primaire aangepaste formulier dat is gekoppeld aan het ob
    * Gelijk
    * Niet gelijk
 
-   Raadpleeg het artikel voor meer informatie over elke kwalificatie [Filter- en voorwaardenmodificatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor meer informatie over elke kwalificatie, zie de artikel [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. Typ de naam van het aangepaste formulier waarop u wilt filteren en klik vervolgens op de naam wanneer dit wordt weergegeven in de vervolgkeuzelijst.
-1. (Optioneel) Klik op **Een andere filterregel toevoegen** Herhaal vervolgens stap 2-4 om extra filterregels te maken.
-1. Klikken **Opslaan en sluiten**.
+1. (Facultatief) klik **voeg een andere Regel van de Filter toe**, dan herhaal stappen 2-4 om extra filterregels tot stand te brengen.
+1. Klik **sparen+Sluiten**.
 
-### Verwijzing douaneformulieren in een rapport Groepering {#reference-custom-forms-in-a-report-grouping}
+### Verwijzing douaneformulieren in een rapport groeperen {#reference-custom-forms-in-a-report-grouping}
 
 >[!NOTE]
 >
->U kunt items alleen groeperen op het primaire aangepaste formulier dat aan het object is gekoppeld. u kunt geen items groeperen in alle formulieren die aan het object zijn gekoppeld.
+>U kunt items alleen groeperen op het primaire aangepaste formulier dat aan het object is gekoppeld. U kunt items niet groeperen door alle formulieren die aan het object zijn gekoppeld.
 
-1. Een rapport maken zoals wordt beschreven in het artikel [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Op de **Groepen** tab, uitvouwen **Categorie** en klik vervolgens op **Naam**.\
+1. Begin creërend een rapport zoals die in het artikel [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Op het **lusje van Groepen**, breid **Categorie** uit, dan klik **Naam**.\
    ![](assets/qs-category-name-grouping-350x373.png)

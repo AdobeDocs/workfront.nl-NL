@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Als u een kalender hebt gemaakt, kunt u de kalender kopiëren en gebruiken als beginpunt voor een nieuwe kalender.
 
-Bovendien, als u [!UICONTROL Manage] als u toegang hebt tot een kalender waarvan u niet de eigenaar bent, kunt u de kalender kopiëren en de eigenaar van de gekopieerde kalender worden.
+Als u [!UICONTROL Manage] toegang hebt tot een kalender waartoe u niet de eigenaar bent, kunt u bovendien de kalender kopiëren en de eigenaar van de gekopieerde kalender worden.
 
 ## Toegangsvereisten
 
@@ -39,27 +39,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports], [!UICONTROL Dashboards], en [!UICONTROL Calendars]</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports] , [!UICONTROL Dashboards] en [!UICONTROL Calendars]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het kalenderverslag</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] toegang tot het kalenderverslag</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een kalenderrapport kopiëren
 
 1. Ga naar de kalender die u wilt kopiëren.
-1. Op de **[!UICONTROL Calendar]** werkbalk, klikt u op **[!UICONTROL Calendar Actions]** selecteert u vervolgens **[!UICONTROL Copy]** in de vervolgkeuzelijst.\
+1. Klik op de werkbalk **[!UICONTROL Calendar]** op **[!UICONTROL Calendar Actions]** en selecteer vervolgens **[!UICONTROL Copy]** in de vervolgkeuzelijst.\
    Er wordt een kopie van de kalender geopend.
 
-   ![Het kalenderrapport kopiëren](assets/copy-calendar-report.png)
+   ![ Kopieer het kalenderrapport ](assets/copy-calendar-report.png)
 
    Alle projecten en kalendergroepen in de originele kalender tonen in het exemplaar van de kalender. Alleen objecten die door kalenderfilters zijn geplaatst, worden naar de zojuist gekopieerde kalender geëxporteerd. Gebeurtenissen die handmatig aan de oorspronkelijke kalender worden toegevoegd, moeten handmatig aan de gekopieerde kalender worden toegevoegd.
 
-   Alleen u hebt toegang tot de gekopieerde kalender. Gebruikers die toegang hebben tot de oorspronkelijke kalender hebben geen toegang tot de gekopieerde kalender. U kunt toegang verlenen tot de zojuist gemaakte kalender door deze te delen met andere gebruikers. Ga voor meer informatie over het delen van kalenders naar [[!UICONTROL Share a calendar] verslag](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   Alleen u hebt toegang tot de gekopieerde kalender. Gebruikers die toegang hebben tot de oorspronkelijke kalender hebben geen toegang tot de gekopieerde kalender. U kunt toegang verlenen tot de zojuist gemaakte kalender door deze te delen met andere gebruikers. Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
 
 1. (Optioneel) Wijzig de naam van de kalender.

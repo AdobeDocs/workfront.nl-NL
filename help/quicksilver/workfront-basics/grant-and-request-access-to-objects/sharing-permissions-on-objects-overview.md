@@ -24,7 +24,7 @@ Wanneer het delen van een voorwerp met iemand in het systeem, kunt u de ontvange
 
 U hoeft geen Adobe Workfront-beheerder te zijn om machtigingen te delen voor objecten waartoe u toegang hebt, maar uw machtigingen voor objecten werken binnen de toegangsniveaus die door de Workfront-beheerder zijn ingesteld.
 
-U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [Overzicht van nieuwe toegangsniveaus](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [Overzicht van toegangsniveaus](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [ overzicht van de Niveaus van de Toegang ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of e
 
 U kunt de volgende objecten in Workfront delen met andere gebruikers:
 
-* **Projecten**: Zie voor meer informatie [Een project delen in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **Projecten**: Voor meer informatie, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
-* **Sjablonen**: Zie voor meer informatie [Projectsjablonen delen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Malplaatjes**: Voor meer informatie, zie [ projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio&#39;s**: Zie voor meer informatie [Een portfolio delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfolio&#39;s**: Voor meer informatie, zie [ een portefeuille ](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) delen.
 
-* **Programma&#39;s**: Zie voor meer informatie [Een programma delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
+* **Programma&#39;s**: Voor informatie, zie [ een programma ](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) delen.
 
-* **Taken**: Zie voor meer informatie [Een taak delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **Taken**: Voor informatie, zie [ een taak ](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
 
-* **Problemen**: Zie voor meer informatie [Een uitgave delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **Kwesties**: Voor informatie, zie [ een kwestie ](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
 
-* **Documenten**: Zie voor meer informatie [Een document delen](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **Documenten**: Voor informatie, zie [ een document ](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.
 
-* **Documentmappen**: Zie voor meer informatie [Een documentmap delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **de Omslagen van het Document**: Voor informatie, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 
-* **Proefdrukken**: Zie voor meer informatie [Een proefexemplaar delen in Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+* **Proofs**: Voor informatie, zie [ een Bewijs binnen Workfront ](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
 
-* **Rapporten, dashboards en kalenders**: Zie voor meer informatie [Rapporten, dashboards en kalenders delen](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Zie ook de volgende artikelen:
+* **Rapporten, dashboards, en kalenders**: Voor informatie, zie [ rapporten, dashboards, en kalenders van het Aandeel ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Zie ook de volgende artikelen:
 
    * [Een rapport delen in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Een dashboard delen](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Een kalenderrapport delen](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filters, weergaven en groepen**: Zie voor meer informatie [Een filter, weergave of groep delen](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **Filters, meningen, en groeperingen**: Voor informatie, zie [ een filter, mening, of groepering ](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
-* **Abonnementen**: Zie voor meer informatie [Een abonnement delen in de Scenario-planner](../../scenario-planner/share-a-plan.md).
+* **Plannen**: Voor informatie, zie [ een plan in de Planner van het Scenario delen ](../../scenario-planner/share-a-plan.md).
 
   Hiervoor is een aanvullende licentie vereist.
 
-* **Doelen**: Zie voor meer informatie [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **Doelen**: Voor informatie, zie [ een doel in de Doelen van Workfront delen ](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
   Hiervoor is een aanvullende licentie vereist.
 
@@ -72,7 +72,7 @@ U kunt de volgende objecten in Workfront delen met andere gebruikers:
 
 * U kunt alleen het zelfde niveau of een lager niveau van toestemmingen delen u op het voorwerp hebt.
 
-  Als u bijvoorbeeld over Contribute-machtigingen voor het object beschikt, kunt u voor dat object geen andere gebruikersbeheermachtigingen verlenen.
+  Als u bijvoorbeeld over Contribute-machtigingen voor het object beschikt, kunt u geen andere gebruikersbeheermachtigingen voor dat object verlenen.
 
 * U kunt een object niet delen met een machtigingsniveau dat hoger is dan het toegangsniveau van een gebruiker.
 
@@ -87,8 +87,8 @@ U kunt de volgende objecten in Workfront delen met andere gebruikers:
   >
   >Zie voor meer informatie:
   >
-  >* [Een abonnement delen in de Scenario-planner](../../scenario-planner/share-a-plan.md)
-  >* [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+  >* [ Deel een plan in de Planner van het Scenario ](../../scenario-planner/share-a-plan.md)
+  >* [ Deel een doel in de Doelen van Workfront ](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## Beperkingen voor delen
 
@@ -96,7 +96,7 @@ U kunt een object delen met maximaal 100 entiteiten (gebruikers, teams, groepen,
 
 ## Machtigingen delen voor objecten
 
-In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bij het delen van een object. Niet alle objecten hebben al deze instellingen beschikbaar. U kunt een andere entiteit machtigingen verlenen om een object weer te geven of te beheren. Als u een project, taak of uitgave deelt, kunt u ook toestemmingen aan Contribute aan het verlenen.
+In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bij het delen van een object. Niet alle objecten hebben al deze instellingen beschikbaar. U kunt een andere entiteit machtigingen verlenen om een object weer te geven of te beheren. Als u een project, een taak, of een kwestie deelt, kunt u toestemmingen aan Contribute aan het ook verlenen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +129,7 @@ In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bi
    <td role="rowheader"><strong>Beheren</strong></td> 
    <td> <p>U kunt de volgende handelingen op het object uitvoeren:</p> 
     <ul> 
-     <li>Alle handelingen die zijn inbegrepen bij de machtigingen Weergeven en Contribute</li> 
+     <li>Alle handelingen die zijn inbegrepen bij de machtiging Weergeven en Contribute</li> 
      <li>Verwijderen</li> 
      <li>De financieringsgegevens erin beheren</li> 
     </ul> </td> 
@@ -151,15 +151,15 @@ In de volgende tabel ziet u het niveau van machtigingen dat u kunt selecteren bi
 
 Machtigingen in Workfront worden hiërarchisch overgeërfd. Dit betekent dat als u machtigingen toekent aan een gebruiker voor een bovenliggend object, deze dezelfde machtigingen krijgt voor de onderliggende objecten die er standaard aan zijn gekoppeld.
 
-Als u een gebruiker bijvoorbeeld Contribute-machtigingen geeft aan een project, heeft de gebruiker Contribute-machtigingen voor alle taken en uitgaven (onderliggende objecten) die aan dat project zijn gekoppeld.
+Als u een gebruiker bijvoorbeeld Contribute-machtigingen geeft aan een project, heeft de gebruiker Contribute-machtigingen voor alle taken en problemen (onderliggende objecten) die aan dat project zijn gekoppeld.
 
-In het bovenstaande voorbeeld kunt u machtigingen niet beperken tot onderliggende objecten. Als u niet wilt dat de gebruiker Contribute toestemmingen aan kindvoorwerpen verbonden aan het project heeft, moet u de Geërfte Toestemmingen van de voorwerpen manueel verwijderen en dan de toestemmingen voor de individuele gebruiker, met inbegrip van om het even welke Geavanceerde Montages aanpassen. 
+In het bovenstaande voorbeeld kunt u machtigingen niet beperken tot onderliggende objecten. Als u niet wilt dat de gebruiker de toestemmingen van Contribute aan kindvoorwerpen verbonden aan het project heeft, moet u de Geërfte Toestemmingen van de voorwerpen manueel verwijderen en dan de toestemmingen voor de individuele gebruiker, met inbegrip van om het even welke Geavanceerde Montages aanpassen. 
 
-Zie de sectie voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van objecten in Workfront [Interdependentie en hiërarchie van objecten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in het artikel [Overzicht van Adobe Workfront-objecten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van voorwerpen in Workfront, zie de sectie [ Interdependentie en hiërarchie van voorwerpen ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in het artikel [ de voorwerpen van Adobe Workfront overzicht ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Uw Workfront-beheerder kan overgeërfde machtigingen voor documenten op uw toegangsniveau uitschakelen. Voor meer informatie over het onbruikbaar maken van geërfte toestemmingen voor documenten op het toegangsniveau, zie [Aangepaste toegangsniveaus maken of wijzigen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Uw Workfront-beheerder kan overgeërfde machtigingen voor documenten op uw toegangsniveau uitschakelen. Voor meer informatie over het onbruikbaar maken van geërfte toestemmingen voor documenten in het toegangsniveau, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 ### Machtigingen die zijn verkregen door het lidmaatschap van een organisatie  {#permissions-acquired-through-organizational-memberships}
 
@@ -221,11 +221,11 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## Een object delen
 
-Voor informatie over het delen van objecten raadpleegt u [Een object delen](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+Voor informatie over hoe te om voorwerpen te delen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 ## Rechten van objecten verwijderen
 
-Zie voor informatie over het verwijderen van machtigingen uit objecten [Rechten van objecten verwijderen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+Voor informatie over hoe te om toestemmingen uit voorwerpen te verwijderen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Machtigingen aanvragen voor objecten
 
@@ -233,4 +233,4 @@ Wanneer iemand u een koppeling stuurt naar een object waarvoor u geen weergavema
 
 U kunt toegang tot een object aanvragen bij iedereen die toestemming voor delen heeft voor het object. 
 
-Zie voor meer informatie over het aanvragen van machtigingen voor objecten [Toegang tot objecten aanvragen](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Voor meer informatie over het verzoeken van toestemmingen aan voorwerpen, zie [ Toegang van het Verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).

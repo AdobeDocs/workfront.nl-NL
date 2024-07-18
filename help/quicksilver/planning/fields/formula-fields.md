@@ -37,7 +37,7 @@ U kunt douanegebieden in de Planning van Adobe Workfront tot stand brengen door 
 
 Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
-Zie de sectie Formule in het artikel voor meer informatie [Velden maken](/help/quicksilver/planning/fields/create-fields.md).
+Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Toegangsvereisten
 
@@ -81,13 +81,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
-   <td> <p>Machtigingen beheren in een werkruimte</a> </p>  
+   <td> <p>Rechten beheren in een werkruimte </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td> <p>Uw Workfront of groepsbeheerder moet het planningsgebied toevoegen aan uw lay-outsjabloon. Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
@@ -108,7 +108,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Ondersteunde formules
 
-In velden van de Adobe Workfront-planningsformule worden alle expressies van de berekende Workfront-velden ondersteund. Zie voor meer informatie [Overzicht van berekende gegevensexpressies](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+In velden van de Adobe Workfront-planningsformule worden alle expressies van de berekende Workfront-velden ondersteund. Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Daarnaast ondersteunen we de volgende expressies voor velden van de Workfront-planningsformule:
 
@@ -124,43 +124,43 @@ Daarnaast ondersteunen we de volgende expressies voor velden van de Workfront-pl
  <tbody>
 
 <tr> 
-   <td><strong>ARRAYJOIN</strong> </td> 
+   <td><strong> ARRAYJOIN </strong> </td> 
    <td> <p>Retourneert een samengevoegde tekenreeks met scheidingsteken.</p> <p>De expressie wordt als volgt opgemaakt:
 
-<code>ARRAYJOIN(delimiter,array)</code>
+<code> ARRAYJOIN (delimiter, serie)</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td><strong> ARRAYUNIQUE </strong> </td> 
    <td> <p>Retourneert een array met unieke waarden.</p> <p>De expressie wordt als volgt opgemaakt:
 
-<code>ARRAYUNIQUE(array)</code>
+<code> ARRAYUNIQUE (serie)</code>
 </p>
    </td></tr>
      <tr> 
-   <td><strong>ID</strong> </td> 
+   <td><strong> identiteitskaart </strong> </td> 
    <td> <p>Retourneert de id van een record. Elke record heeft een unieke id.</p> <p>De expressie wordt als volgt opgemaakt:
 
-<code>{ID}</code>
+<code> {ID}</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>SETTIMEZON</strong> </td> 
+   <td><strong> SETTIMEZONE </strong> </td> 
    <td> <p>Stelt de tijdzone van een datum en tijd in op een specifieke tijdzone.</p> <p>De expressie wordt als volgt opgemaakt:
 
-<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
+<code> SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>WEEKOFYYEAR</strong> </td> 
+   <td><strong> WEEKOFYEAR </strong> </td> 
    <td> <p>Retourneert het weekgetal in een jaar. U kunt ook aangeven op welke dag de week begint (gebruik 1 voor zondag of 2 voor maandag). Indien weggelaten, beginnen weken standaard op zondag.</p> <p>De expressie wordt als volgt opgemaakt:
 
-<code>WEEKOFYEAR(datum,2)</code>
+<code> WEEKOFYEAR (date,2)</code>
 of
-<code>WEEKOFYEAR(datum)</code>
+<code> WEEKOFYEAR (datum)</code>
 </p>
    </td></tr>
 

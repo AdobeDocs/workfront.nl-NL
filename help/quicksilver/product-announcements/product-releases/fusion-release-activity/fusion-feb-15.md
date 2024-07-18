@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 15 februari 2021 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
-Deze release omvatte ook een of meer onderhoudsupdates. Voor informatie over Workfront Fusion 2.0 onderhoudsupdates raadpleegt u [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Deze release omvatte ook een of meer onderhoudsupdates. Voor informatie over Workfront Fusion 2.0 onderhoudsupdates, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## Teams delen nu instellingen voor e-mailmeldingen
 
@@ -34,7 +34,7 @@ Eerder hebben gebruikers hun eigen instellingen voor e-mailmeldingen ingesteld.
 >
 >De fusie past de montages van het organisatiebericht op het teamniveau voor elk team in de organisatie toe. Werk de instellingen voor e-mailmeldingen op teamniveau bij om ervoor te zorgen dat uw teams profiteren van de nieuwe meldingsmogelijkheden.
 
-Zie voor meer informatie [Adobe Workfront Fusion organisaties en teams](../../../workfront-fusion/organizations/organizations-and-teams.md).
+Voor meer informatie, zie {de organisaties en de teams van de Fusie van 0} Adobe Workfront ](../../../workfront-fusion/organizations/organizations-and-teams.md).[
 
 ## Selecteer API-versie in de Workfront > Aangepaste API-aanroepmodule
 
@@ -42,4 +42,4 @@ Om uw API-aanroepen aanpasbaar te maken, hebben we het voor u mogelijk gemaakt d
 
 Eerder kon u de Workfront API-versie voor deze module niet selecteren.
 
-Zie voor meer informatie [Adobe Workfront-modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Voor meer informatie, zie [ modules van Adobe Workfront ](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

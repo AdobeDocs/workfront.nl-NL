@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 7 december 2020 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Jira Server-aansluiting en -modules nu beschikbaar
 
@@ -38,7 +38,7 @@ Er is nu een nieuwe Jira Server-connector beschikbaar voor Workfront Fusion 2.0.
 
 Eerder waren Jira-modules alleen beschikbaar voor Jira Cloud.
 
-Voor meer informatie over de beschikbare Jira-modules raadpleegt u [Jira-softwaremodules](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Voor meer informatie over beschikbare modules van Jira, zie {de modules van de Software van 0} Jira ](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).[
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

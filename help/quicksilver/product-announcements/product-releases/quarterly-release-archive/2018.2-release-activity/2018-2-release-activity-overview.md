@@ -20,8 +20,8 @@ ht-degree: 0%
 >
 > De versie 18.2 is op de volgende data beschikbaar gesteld in de productieomgeving:
 >
->* Workfront Proof Production Environment - dinsdag 17 juli
->* Workfront Production environment for clusters 2 en 4 - donderdag 19 juli 
+>* Workfront Proof Production environment - dinsdag 17 juli
+>* Workfront Productomgeving voor clusters 2 en 4  - donderdag 19 juli 
 >* Workfront Production environment for clusters 1, 3 en 5 - vrijdag, juli 20
 >
 
@@ -29,132 +29,132 @@ Deze pagina bevat informatie over de functionaliteit die beschikbaar is in de re
 
 Release 2018.2 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
-* [Verbeteringen voor beheerders](#enhancements-for-administrators)
-* [Verbeteringen voor alle gebruikers](#enhancements-for-all-users)
+* [ Verbeteringen voor Beheerders ](#enhancements-for-administrators)
+* [ Verbeteringen voor Alle Gebruikers ](#enhancements-for-all-users)
 * [Aankondigingen](#announcements)
 
 ## Verbeteringen voor beheerders {#enhancements-for-administrators}
 
-* [Services voor e-maillevering opgeven om te reageren op Workfront-e-mailberichten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
-* [Door de gebruiker teweeggebrachte wijzigingen weergeven met controlelogboeken](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-user-triggered-changes-with-audit-logs) 
-* [Licentiegegevens weergeven als groepbeheerder](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-license-information-as-a-group-administrator) 
-* [Systeeminstelling: sessiegegevens op externe pagina&#39;s](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#system-setting-session-information-in-external-pages) 
-* [Licenties in uw systeem beheren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#manage-licenses)
+* [ specificeer de Diensten van de Levering van de Post voor het Reageren op Workfront E-mailberichten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
+* [ Mening gebruiker-teweeggebrachte Veranderingen met de Logboeken van de Controle ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-user-triggered-changes-with-audit-logs) 
+* [ de Informatie van de Vergunning van de Mening als groepsbeheerder ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-license-information-as-a-group-administrator) 
+* [ het Plaatsen van het Systeem: De Informatie van de zitting in Externe Pagina&#39;s ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#system-setting-session-information-in-external-pages) 
+* [ beheert Vergunningen in Uw Systeem ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#manage-licenses)
 * [Logtijd in dagen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#log-time-in-days)
 
 ## Verbeteringen voor alle gebruikers {#enhancements-for-all-users}
 
 ### Projectverbeteringen
 
-* [Pictogramondersteuning voor de nieuwe projectlijsten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
-* [Kolombreedten vergroten of verkleinen voor projectlijsten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
-* [Veld &quot;Grote miniaturen&quot; toevoegen in documentweergaven](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
-* [Snelle filters voor projectlijsten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
-* [Exportlimiet voor Excel verhogen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
-* [Ondersteuning voor Google-teamdrives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
-* [Nieuwe exportlimiet voor de Gantt-grafiek](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
-* [De Verhoudingen van de Predecessor van het dwars-Project van de mening op de Grafiek van Gantt in een Lijst van Projecten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
-* [De Begrotende Kosten van het gebruik in Portfolio Optimizer om de Financiën van Portfolio&#39;s te berekenen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
-* [Taakdatums wijzigen in Gantt-diagram](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
-* [Open de Grafiek van de Gantt van het Project van het Lusje van Updates](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
-* [Nieuwe ervaring voor projectlijst](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
+* [ Steun van het Pictogram voor de Nieuwe Lijsten van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
+* [ vergroot de Breedten van de Kolom voor de Lijsten van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
+* [ voeg &quot;Grote Duimnagel&quot;Gebied in de Mening van het Document toe ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
+* [ Snelle Filters voor de Lijsten van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
+* [ de Grens van de Uitvoer van Excel verhogen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
+* [ Steun voor de Drijven van het Team van Google ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
+* [ Nieuwe Grens van de Uitvoer voor de Grafiek van Gantt ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
+* [ de Verhoudingen van de Predecessor van de Mening Cross-Project op de Grafiek van Gantt in een Lijst van Projecten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
+* [ Begrotende Kosten van het Gebruik in Portfolio Optimizer om de Financiën van de Portfolio te berekenen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
+* [ wijzig de Datums van de Taak in de Grafiek van Gantt ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
+* [ heb toegang tot de Grafiek van Gantt van het Project van het Lusje van Updates ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
+* [ Nieuwe Ervaring van de Lijst van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-project-list-expeirence)
 * [Nieuw tabblad Zoeken naar updates](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#new-look-for-updates-tab)
 
 ### Thuisgebied (Mijn werk is bijgewerkt)
 
-* [Kalenderweergave in het thuisgebied](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
-* [Aanvullende updates van de lijst met werkzaamheden (linkerdeelvenster) in Home](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home) 
-* [Bijgewerkte werklijst (linkerdeelvenster) in het begingebied](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
+* [ Mening van de Kalender op het Gebied van het Huis ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
+* [ Extra Updates aan de Lijst van het Werk (Linker Comité) in Huis ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home) 
+* [ Bijgewerkte Lijst van het Werk (Linker Comité) in het Gebied van het Huis ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [Velden rechtstreeks vanuit het begingebied bewerken](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
 ### Verbeteringen voor bronnenbeheer
 
-* [Verbeteringen in project- en rolweergave in de bronnenplanner](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner) 
-* [Functiegrenzen voor geautomatiseerde planning van bronnen configureren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling) 
-* [De gebruikersweergave in de bronnenplanner exporteren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#exporting-the-user-view-in-the-resource-planner)
-* [Gebruiksrapport: Bevolken begrote uren uren uit nieuw gebied voor de begroting van bronnen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [Gebruiksrapport: Beoogde uren per gebruiker weergeven voor een project](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-view-budgeted-hours-by-user)
+* [ Verbeteringen van de Mening van het Project en van de Rol in de Planner van het Middel ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner) 
+* [ vormt de Limieten van de Rol van de Taak voor Geautomatiseerde Middel die ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling) plant 
+* [ Uitvoer de Mening van de Gebruiker in de Planner van het Middel ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#exporting-the-user-view-in-the-resource-planner)
+* [ het Rapport van het Gebruik: Bevolkt de Beoogde Uren van het Nieuwe Bewegende Gebied van het Middel ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [ het Rapport van het Gebruik: Mening Beoogde Uren door Gebruiker op een Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-view-budgeted-hours-by-user)
 * [Verbeteringen in de weergave van gebruikers in de functie Bronnen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#user-view-improvements-in-the-resource-planner)
 
 ### Verbeteringen voor mobiele apparaten
 
-* [Beperkingen van lopende werkzaamheden (WIP) Verbeteringen op de Kanbanenraad](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
-* [Verbeterde Interface voor het Vormen van Statussen voor een Team van gal](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
+* [ het Werk lopende (WIP) Verbeteringen van de Grens op de Raad Kanban ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
+* [ Verbeterde Interface voor het Vormen van Statussen voor een Gegraveerd Team ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
 
-* [Vlaggen voor artikelen instellen op de Kanban Board](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
-* [Velden rechtstreeks bewerken op een geheugenkaart van Adobe](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
+* [ plaats Vlaggen voor Artikelen op de Raad Kanban ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
+* [ geef Gebieden direct op een Kaart van het Verhaal van het Giezel uit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
 
 ### Verbeteringen rapporteren
 
-* [Verzamelingen van referentieproblemen in project- en taakrapporten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports) 
+* [ de Inzamelingen van de Uitgave van de Verwijzing in Project en de Rapporten van de Taak ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports) 
 
 ### Verbeteringen voor mobiele apparaten
 
-* [Mobiele verbeteringen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements)  Nieuw! (in eindversie bètaversie)
+* [ Mobiele Verbeteringen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) Nieuw! (in Beta Final)
 
-* [Verbeteringen voor mobiele apparaten in de Android bèta Mobile-app](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
-* [Nieuwe bètomgeving voor Android en nieuwe functies](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
+* [ Mobiele Verbeteringen in de Mobiele App van Android Beta ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
+* [ Nieuwe Milieu van Beta voor Android samen met Nieuwe Eigenschappen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
 
 ### Verbeterde integratie
 
-* [Workfront voor Salesforce](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Binnenkort verkrijgbaar!
+* [ Workfront voor Salesforce ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Binnenkort verkrijgbaar!
 
-* [Workfront for Slack Improvement](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)  Nieuw! (in eindversie bètaversie)
+* [ Workfront voor de Verbeteringen van de Slack ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Nieuw! (in Beta Final)
 
 ### API-verbeteringen
 
-* [Voorbeelden van filters voor berichten met gebeurtenisabonnementen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#examples-of-filters-for-event-subscription-messages) 
+* [ Voorbeelden van Filters voor de Berichten van de Abonnementen van de Gebeurtenis ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#examples-of-filters-for-event-subscription-messages) 
 
 ### Verbeteringen voor proefdrukviewer
 
-* [Gebruikers rechtstreeks vanuit de proefdrukviewer toevoegen aan een proefdruk](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) 
-* [Alle opmaakgereedschappen weergeven in de conceptviewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools) 
-* [Standaardsorteeropties configureren in de conceptviewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-default-sorting-options)
-* [Goedkeuringen van Workfront-documenten weergeven in de Desktop Proofing Viewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
-* [Koppelingen configureren waarmee nieuwe tabbladen en vensters worden geopend in de Desktop Proofing Viewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
-* [Aanwezigheidsindicator in de proefdrukviewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#presence-indicator-in-the-proofing-viewer)
-* [Opmerkingen filteren om één pagina weer te geven voor interactieve URL-proefdrukken in de Desktop Proofing Viewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs)
-* [Desktop Proofing Viewer voor statische en video-inhoud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#desktop-proofing-viewer-for-static-and-video-content)
-* [Aangepaste apparaten aan uw systeem toevoegen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) 
-* [Nieuwe Desktop Proofing Viewer voor het proefdrukken van interactieve (rijke media) inhoud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
+* [ voeg Gebruikers aan een Bewijs van de het proef direct kijker ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) toe 
+* [ Vertoning Alle Hulpmiddelen van de Prijsverhoging in de het proef kijker ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools) 
+* [ vorm Standaard het Sorteren Opties in de het proef kijker ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-default-sorting-options)
+* [ de Goedkeuringen van het Document van Workfront van de Mening in de Kijker van het Proofing van de Desktop ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
+* [ vormt Verbindingen die Nieuwe Lusjes en Vensters openen binnen de Desktop het Proofing Kijker ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
+* [ Indicator van de Aanwezigheid in de het proef kijker ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#presence-indicator-in-the-proofing-viewer)
+* [ Commentaren van de Filter om Één enkele Pagina voor Interactieve Proofs URL in de Kijker van het Proofing van de Desktop ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs) te tonen
+* [ Desktop Proofing Viewer voor Statische en Video Inhoud ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#desktop-proofing-viewer-for-static-and-video-content)
+* [ voeg de Apparaten van de Douane aan Uw Systeem ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) toe 
+* [ Nieuwe Desktop Proofing Viewer voor het Proofing Interactive (Rijke Media) Inhoud ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
 
 ### Verbeteringen voor proefdrukken in Workfront
 
-* [De proefkoppeling rechtstreeks vanuit Workfront delen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#share-the-proof-link-directly-from-workfront) 
-* [Rapport over aanvullende proefdrukgegevens in Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#report-on-additional-proofing-data-in-workfront) 
-* [Historische gegevens voor proefkeuringen weergeven in Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront) 
+* [ Deel direct de Verbinding van het Bewijs van Workfront ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#share-the-proof-link-directly-from-workfront) 
+* [ Rapport over Extra het Bewijzen Gegevens in Workfront ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#report-on-additional-proofing-data-in-workfront) 
+* [ Historische Gegevens van de Mening voor Goedkeuringen van het Bewijs in Workfront ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront) 
 * [Voortgang proefdrukken vanuit de documentlijst beschikbaar voor gebruikers zonder proefdrukken](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#proof-progress-from-the-document-list-available)
 
 ### Verbeteringen voor proefdrukken in Workfront Proof
 
-* [Een nieuwe versie van een proefdruk rechtstreeks vanuit de proefdrukviewer maken (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
-* [Nieuwe koppeling Details proefdrukken in de conceptviewer en Desktop Proofing Viewer (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
+* [ creeer een Nieuwe Versie van een Bewijs direct van de het proef kijker (Workfront Proof) ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
+* [ Nieuwe Verbinding van de Details van het Bewijs in de het proef kijker en de Kijker van het Proofing van de Desktop (Workfront Proof) ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
 
 ### Overige verbeteringen
 
-* [Nieuw, robuuster menu bij het toevoegen van nieuwe documentversies in Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
-* [De optie Plakken van klembordoptie wordt nu weergegeven als Grijs bij gebruik van Internet Explorer of Safari](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#paste-from-clipboard-option-now-disaplys-as-dimmed-in-ie-and-safari)
-* [Verbeterde zoekfunctie voor meerdere woorden](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
-* [Mobiele verbeteringen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
-* [Verschillende koppelingen worden opnieuw geïntroduceerd in documenten in de documentlijst](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
-* [E-mailberichten ontvangen voor opmerkingen op documenten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)  Nieuw!
+* [ Nieuw Robuust Menu van de Versie wanneer het Toevoegen van Nieuwe Versies van het Document in Workfront ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
+* [ Deeg van de Optie van het Klembord nu toont als Grijs wanneer het Gebruiken van Internet Explorer of Safari ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#paste-from-clipboard-option-now-disaplys-as-dimmed-in-ie-and-safari)
+* [ Verbeterde Relevantie van het Onderzoek voor Veelvoudige Woorden ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
+* [ Mobiele Verbeteringen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
+* [ Diverse Verbindingen opnieuw geïntroduceerd aan Documenten op de Lijst van het Document ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
+* [ ontvang E-mailberichten voor Commentaren op Documenten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents) Nieuw!
 
-* [Updates die door het systeem worden bijgehouden, bevatten niet langer een pictogram](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon)  Nieuw!
+* [ systeem-Getraceerde Updates bevatten niet meer een pictogram ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Nieuw!
 
-* [Optie voor het converteren van een opmerking naar een taak is verwijderd](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#option-to-convert-a-comment-to-a-task-removed)  Nieuw!
+* [ Optie om een Commentaar in een Taak om te zetten werd Verwijderd ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#option-to-convert-a-comment-to-a-task-removed) Nieuw!
 
 ## Aankondigingen {#announcements}
 
-* [TLS-ondersteuning is afgelopen](#tls-support-is-ending)
-* [Verwijderen van Flash-toepassing](#flash-application-removal)
-* [Ondersteuning voor Microsoft Outlook Add-in loopt af](#microsoft-outlook-add-in-support-is-ending)
+* [ de steun van TLS beëindigt ](#tls-support-is-ending)
+* [ de Verwijdering van de Toepassing van de Flash ](#flash-application-removal)
+* [ de toe:voegen-binnen Steun van de Vooruitzichten van Microsoft eindigt ](#microsoft-outlook-add-in-support-is-ending)
 * [Oude API-versies verwijderen](#removing-old-api-versions)
 
 ### TLS-ondersteuning is afgelopen {#tls-support-is-ending}
 
 Om een optimale beveiliging te bieden, eist Workfront dat alle integratie en het webverkeer die TLS 1.0 of eerder gebruiken, worden geüpgraded naar het gebruik van TLS 1.1 of hoger.
 
-Zie voor meer informatie [TLS 1.2 is vereist in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Voor meer informatie, zie [ TLS 1.2 die in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md) wordt vereist.
 
 ### Verwijderen van Flash-toepassing {#flash-application-removal}
 
@@ -164,23 +164,23 @@ Deze functionaliteit omvat:
 
 * Oudere Gantt Chart wordt vervangen door de nieuwe Gantt Chart
 
-  Zie voor meer informatie [Informatie weergeven in de Gantt-grafiek](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+  Voor meer informatie, zie [ informatie van de Mening in de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Portfolio Optimizer wordt vervangen door de nieuwe Portfolio Optimizer
 
-  Zie voor meer informatie [Overzicht van Portfolio optimaliseren](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Voor meer informatie, zie [ Portfolio Optimizer overzicht ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * Capaciteitsplanner wordt vervangen door de nieuwe bronnenplanner
 
-  Zie voor meer informatie [Resourceplanning in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+  Voor meer informatie, zie [ Planning van het Middel in Adobe Workfront ](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * Budget Manager wordt vervangen door de nieuwe Resource Planner
 
-  Zie voor meer informatie [Resourceplanning in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) [.](https://support.workfront.com/hc/en-us/sections/115001049327)
+  Voor meer informatie, zie [ Planning van het Middel in Adobe Workfront ](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) [.](https://support.workfront.com/hc/en-us/sections/115001049327)
 
 * Het Net van het middel zal met de nieuwe Planner van het Middel worden vervangen
 
-  Zie voor meer informatie [ [Resourceplanning in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).](https://support.workfront.com/hc/en-us/sections/115001049327)
+  Voor meer informatie, zie [ [ Planning van het Middel in Adobe Workfront ](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).](https://support.workfront.com/hc/en-us/sections/115001049327)
 
 * De Schattingen van het middel op het BedrijfsGeval zullen met de nieuwe sectie van de Begroting van het Middel van het BedrijfsGeval in de Planner van het Middel worden vervangen
 
@@ -194,7 +194,7 @@ Deze functionaliteit omvat:
 
   >[!NOTE]
   >
-  >De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werkbelasting gebruiken, zie [Overzicht van de werklastbalans](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+  >De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 * De verouderde proefdrukviewer wordt vervangen door de nieuwe webproefdrukviewer en Desktop Proofing Viewer.
 
@@ -202,8 +202,8 @@ Deze functionaliteit omvat:
 
   Zie de volgende bronnen voor meer informatie:
 
-   * [Proofs bekijken in de webproefdrukweergave](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [Proofs controleren in de Desktop Proofing Viewer](https://support.workfront.com/hc/en-us/sections/360000686434)
+   * [ het Reviseren van Proofs in de Kijker van het Bewijs van het Web ](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [ het herzien Proofs in de Desktop Proofing Kijker ](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Ondersteuning voor Microsoft Outlook Add-in loopt af {#microsoft-outlook-add-in-support-is-ending}
 
@@ -215,11 +215,11 @@ Wanneer u de nieuwe Workfront for Outlook op een van uw omgevingen installeert, 
 
 Gebruik de volgende bronnen om meer te leren over Workfront for Outlook en aan de slag te gaan:
 
-* [Website en video](https://www.workfront.com/integrations/outlook) 
-* [Workfront gebruiken met Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (Help-artikel)
+* [ Website en video ](https://www.workfront.com/integrations/outlook) 
+* [ Gebruikend Workfront met Vooruitzichten ](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (hulpartikel)
 
 ### Oude API-versies verwijderen {#removing-old-api-versions}
 
 Als onderdeel van onze voortdurende inspanningen om onze API te verbeteren, verwijderen we oude API-versies die niet meer compatibel zijn met recentere versies van Workfront.
 
-Zie de [API-versieschema en ondersteuningsschema](../../../../wf-api/api/api-version-support-schedule.md) voor meer informatie . 
+Zie [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md) voor meer informatie. 

@@ -62,7 +62,7 @@ JSON bevat een lijst met metagegevens voor bestanden en mappen die overeenkomen 
 
 **Voorbeeld:**
 
-Voorbeeld:  `https://www.acme.com/api/search?query=test-query`
+Voorbeeld: `https://www.acme.com/api/search?query=test-query`
 
 ```
 [ 

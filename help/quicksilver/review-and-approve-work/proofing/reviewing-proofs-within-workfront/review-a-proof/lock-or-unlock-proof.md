@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
 source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proefdrukrol</td> 
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Een proefdruk vergrendelen
 
@@ -53,32 +53,32 @@ U kunt een proefdruk handmatig vergrendelen om opmerkingen van revisoren te voor
 Een bewijs vergrendelen:
 
 1. Ga naar de documentlijst met de proefdruk die u wilt openen.
-1. Houd de cursor boven het document en klik vervolgens op de knop **Proef openen** koppeling die wordt weergegeven.
+1. Beweeg over het document, dan klik de **Open proef** verbinding die verschijnt.
 
    of
 
-   Als u een proefdruk wilt openen voor een eerdere versie van het document, klikt u op het pictogram Meer ![](assets/more-icon.png) voor die versie in de samenvatting en klik vervolgens op **Proef openen**.
+   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
 
-   Voor informatie over de samenvatting raadpleegt u [Overzicht van documenten](../../../../documents/managing-documents/summary-for-documents.md).
+   Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klik in het linkerdeelvenster op de knop **Vergrendelen** pictogram ![](assets/unlock-proof-icon.png).
+1. In het linkerpaneel, klik het **pictogram van het Vergrendelen** ![](assets/unlock-proof-icon.png).
 
    ![](assets/lock-proof-350x277.png)
 
 ## Een proefdruk ontgrendelen
 
-Het ontgrendelen van een proefdruk is handig als u revisoren opmerkingen wilt toevoegen aan een vorige versie van een proefdruk. (Een vorige versie is altijd vergrendeld totdat de eigenaar van de proefdruk deze handmatig ontgrendelt.) Wanneer de revisoren hun opmerkingen aan de vorige versie hebben toegevoegd, kunt u deze opnieuw vergrendelen. Voor informatie over het bekijken van een vorige versie van een bewijs, zie [Vorige proefdrukversies weergeven in de webproefdrukviewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+Het ontgrendelen van een proefdruk is handig als u revisoren opmerkingen wilt toevoegen aan een vorige versie van een proefdruk. (Een vorige versie is altijd vergrendeld totdat de eigenaar van de proefdruk deze handmatig ontgrendelt.) Wanneer de revisoren hun opmerkingen aan de vorige versie hebben toegevoegd, kunt u deze opnieuw vergrendelen. Voor informatie over het bekijken van een vorige versie van een proef, zie [ de vorige proefdrukversies van de Mening in de Kijker van het Web het Proofing ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
 
 Een bewijs ontgrendelen:
 
-1. Houd de cursor boven het document en klik vervolgens op de knop **Proef openen** koppeling die wordt weergegeven.
+1. Beweeg over het document, dan klik de **Open proef** verbinding die verschijnt.
 
    of
 
-   Als u een proefdruk wilt openen voor een eerdere versie van het document, klikt u op het pictogram Meer ![](assets/more-icon.png) voor die versie in de samenvatting en klik vervolgens op **Proef openen**.
+   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
 
-   Voor informatie over de samenvatting raadpleegt u [Overzicht van documenten](../../../../documents/managing-documents/summary-for-documents.md).
+   Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klik in het linkerdeelvenster op de knop **Ontgrendelen** pictogram ![](assets/unlock-proof-icon.png)en klik vervolgens op **Ja, ontgrendelen**.
+1. In het linkerpaneel, klik het **pictogram van de Ontgrendeling** ![](assets/unlock-proof-icon.png), dan klik **ja, ontgrendel**.
 
    ![](assets/copy-of-unlock-proof-350x279.png)

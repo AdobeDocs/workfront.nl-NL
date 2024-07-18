@@ -8,24 +8,24 @@ feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# Een subtaak toevoegen aan een bestaand artikel op het tabblad [!UICONTROL Scrum] board
+# Een subtaak toevoegen aan een bestaand artikel op het [!UICONTROL Scrum] -bord
 
 Houd rekening met het volgende wanneer u subtaken maakt voor bestaande artikelen:
 
-**Wanneer de [!UICONTROL Completion Mode] instellen voor het project is ingesteld op [!UICONTROL Manual]:**
+**wanneer het [!UICONTROL Completion Mode] plaatsen voor het project aan [!UICONTROL Manual] wordt geplaatst:**
 
-* Een bovenliggend artikel met subtaken verplaatsen naar [!UICONTROL Complete] Hiermee werkt u het bovenliggende artikel bij naar 100% en de [!UICONTROL Status] tot [!UICONTROL Complete]. Subtaken worden niet bijgewerkt.
-* Als u het dialoogvenster [!UICONTROL Percent Complete] voor het artikel moet u het bijwerken vanuit de [!UICONTROL Stories] of van de [!UICONTROL Details] pagina van het object.
+* Als u een bovenliggend artikel met subtaken verplaatst naar [!UICONTROL Complete] , wordt het bovenliggende artikel bijgewerkt naar 100% en de [!UICONTROL Status] naar [!UICONTROL Complete] . Subtaken worden niet bijgewerkt.
+* Als u [!UICONTROL Percent Complete] voor het artikel wilt bijwerken, moet u het bijwerken vanaf de [!UICONTROL Stories] -tab of de [!UICONTROL Details] -pagina van het object.
 
-**Wanneer de [!UICONTROL Completion Mode] instellen voor het project is ingesteld op[!UICONTROL Automatic]**:
+**wanneer [!UICONTROL Completion Mode] het plaatsen voor het project aan[!UICONTROL Automatic]** wordt geplaatst:
 
-* Een bovenliggend artikel met subtaken verplaatsen naar [!UICONTROL Complete] Hiermee werkt u het bovenliggende artikel bij naar 100% en de [!UICONTROL Status] tot [!UICONTROL Complete]. Subtaken worden ook bijgewerkt naar 100% en de [!UICONTROL Status] wordt bijgewerkt naar [!UICONTROL Complete].
-* Als u het dialoogvenster [!UICONTROL Percent Complete] voor het artikel moet u de [!UICONTROL Percent Complete] voor alle subtaken. De [!UICONTROL Percent Complete] voor het artikel wordt berekend op basis van de [!UICONTROL Percent Complete] van alle subtaken.
+* Als u een bovenliggend artikel met subtaken verplaatst naar [!UICONTROL Complete] , wordt het bovenliggende artikel bijgewerkt naar 100% en de [!UICONTROL Status] naar [!UICONTROL Complete] . Subtaken worden ook bijgewerkt naar 100% en [!UICONTROL Status] wordt bijgewerkt naar [!UICONTROL Complete] .
+* Als u [!UICONTROL Percent Complete] voor het artikel wilt bijwerken, moet u [!UICONTROL Percent Complete] voor alle subtaken bijwerken. De waarde [!UICONTROL Percent Complete] voor het artikel wordt berekend op basis van de waarde [!UICONTROL Percent Complete] van alle subtaken.
 
 ## Toegangsvereisten
 
@@ -47,38 +47,38 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] de beheerder kan uw toegangsniveau wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>[!UICONTROL Contribute] of [!UICONTROL Manage] toegang tot de taak subtask is</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Contribute] of [!UICONTROL Manage] toegang hebben tot de taak waarop de subtaak is uitgevoerd</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een subtaak toevoegen aan een bestaand artikel op het gebied van de scrum
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Teams]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Teams]** .
 
-1. (Optioneel) Klik op de knop **[!UICONTROL Switch team]** pictogram ![Teampictogram wisselen](assets/switch-team-icon.png)Selecteer vervolgens een nieuw scrubteam in het keuzemenu of zoek naar een team op de zoekbalk.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Ga naar de flexibele iteratie of het project dat het artikel bevat waar u een subtaak wilt toevoegen. Voor informatie over hoe u naar een herhaling kunt navigeren, raadpleegt u [Een herhaling weergeven](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Ga naar de flexibele iteratie of het project dat het artikel bevat waar u een subtaak wilt toevoegen. Voor informatie over hoe te om aan een herhaling te navigeren, zie [ Mening een herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Ga naar de artikeltegel op het artikelbord waar u een subtaak wilt toevoegen.
-1. Klikken **[!UICONTROL Add Subtask]** op de hoofdartikelkaart om een subtaak van het artikel te maken.
+1. Klik op **[!UICONTROL Add Subtask]** op de hoofdartikelkaart om een subtaak voor het artikel te maken.
 
-   ![Subtaak toevoegen](assets/agile-story-addsubtask-NWE.png)
+   ![ voeg subtask ](assets/agile-story-addsubtask-NWE.png) toe
 
    of
 
-   Klikken **[!UICONTROL Add Subtask]** op een subtaaktegel om een subtaak aan subtask tot stand te brengen.
+   Klik op **[!UICONTROL Add Subtask]** op een tegel voor een subtaak om een subtaak voor de subtaak te maken.
 
-   [!DNL Workfront] ondersteunt oneindige niveaus van subtaken, maar er worden slechts twee niveaus (subtaken van subtaken) weergegeven op de &#39;agile story board&#39;.
+   [!DNL Workfront] ondersteunt oneindige niveaus van subtaken, maar er worden slechts twee niveaus (subtaken van subtaken) weergegeven op de agile story-board.
 
-   ![Subtaak toevoegen](assets/agile-story-addsubtask2-NWE.png)
+   ![ voeg subtask ](assets/agile-story-addsubtask2-NWE.png) toe
 
-   Wanneer u een subtaak toevoegt aan een artikel dat momenteel geen swimanet heeft, wordt de bovenliggende taak opgewaardeerd tot de [!UICONTROL Parent Story] de kolom en de subtaak worden binnen de widget verplaatst.
+   Wanneer u een subtaak toevoegt aan een artikel dat momenteel geen swimanie heeft, wordt de bovenliggende taak opgewaardeerd tot de kolom [!UICONTROL Parent Story] en wordt de subtaak binnen de widget geplaatst.
 
 1. Geef de volgende informatie op:
 
@@ -98,9 +98,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td role="rowheader"><strong>[!UICONTROL Estimate]</strong></td>
       <td>Geef de schatting voor de subtaak op.<br><p>Houd rekening met het volgende wanneer u schattingen maakt:</p>
        <ul>
-        <li>Als uw mobiele team wordt gevormd om verhalen in punten te schatten, dan door gebrek 1 punt evenaart 8 uren. Schattingen worden toegevoegd als [!UICONTROL Planned Hours] over het verhaal.</li>
-        <li>De gecombineerde schattingen voor alle subtaken bepalen de schatting van het bovenliggende artikel. Zie voor meer informatie <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">De status van artikelen en subtaken bijwerken op het Klembord</a>.</li>
-        <li>Wanneer u een nieuwe subtaak maakt, [!UICONTROL Estimate] is al ingesteld. Als u de schatting voor de subtaak herstelt, stelt u de schatting voor het bovenliggende artikel opnieuw in (omdat het bovenliggende artikel de som van alle subtaken is).</li>
+        <li>Als uw mobiele team wordt gevormd om verhalen in punten te schatten, dan door gebrek 1 punt evenaart 8 uren. Schattingen worden toegevoegd als [!UICONTROL Planned Hours] in het artikel.</li>
+        <li>De gecombineerde schattingen voor alle subtaken bepalen de schatting van het bovenliggende artikel. Voor meer informatie, zie <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref"> de status van verhalen en subtaken op het board van het Trommel </a> bijwerken.</li>
+        <li>Wanneer u een nieuwe subtaak maakt, is het veld [!UICONTROL Estimate] al ingesteld. Als u de schatting voor de subtaak herstelt, stelt u de schatting voor het bovenliggende artikel opnieuw in (omdat het bovenliggende artikel de som van alle subtaken is).</li>
        </ul><br></td>
      </tr>
      <tr>

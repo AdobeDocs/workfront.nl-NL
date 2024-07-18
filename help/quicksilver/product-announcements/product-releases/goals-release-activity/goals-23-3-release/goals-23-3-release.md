@@ -6,10 +6,10 @@ title: Adobe Workfront-doelen met de 23.3-release
 description: Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Goals in de nieuwe Adobe Workfront-ervaring die met de release 23.3 wordt vrijgegeven voor de productieomgeving.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+exl-id: 1fa39be8-c949-4fe5-b62e-94375a80713b
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Goals die binnen de releaseperiode van 23.3 wordt vrijgegeven voor de productieomgeving.
 
-Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voor alle gebieden van Workfront beschikbaar zijn, raadpleegt u [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.3 versiecyclus, zie [ 23.3 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -26,17 +26,17 @@ Voor een lijst met alle wijzigingen die op dit punt in de releasecyclus 23.3 voo
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Functie</span>
+                        <p><span class="bold"> Eigenschap </span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Releasedatums</span>
+                        <p><span class="bold"> de data van de Versie </span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Verbeteringen voor de sectie Updates</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md"> de sectieverhogingen van Updates </a></p>
                         <p>De verhogingen aan de sectie van Updates van doelstellingen worden ter beschikking gesteld binnen de 23.3 versieperiode, tezelfdertijd zoals de updates die aan de nieuwe opmerkingbètaervaring worden vrijgegeven. Deze verbeteringen worden kort na de release naar Preview beschikbaar gesteld in de productieomgeving.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>

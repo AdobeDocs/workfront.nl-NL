@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: Tips, trucs en probleemoplossing voor [!DNL Workfront] Accountbeheer
+title: Tips, trucs, en het oplossen van problemen voor  [!DNL Workfront]  het rekeningsbeleid van het Bewijs
 description: Leer hoe u Workfront Proof-accounts kunt oplossen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [FAQ: [!DNL Workfront Proof] - Migratie van VS naar EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+* [Veelgestelde vragen: [!DNL Workfront Proof]  migratie van VS naar EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)

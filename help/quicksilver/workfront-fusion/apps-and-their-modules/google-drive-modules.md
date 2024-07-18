@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Drive-modules
-description: De [!DNL Adobe Workfront Fusion Google Drive] kunt u uw bestanden, mappen of gedeelde stations in uw [!DNL Google Drive].
+description: De  [!DNL Adobe Workfront Fusion Google Drive]  modules laten u toe om te controleren, te zoeken, tot stand te brengen, bij te werken, te schrappen, en uw dossiers, omslag, of gedeelde aandrijving in uw  [!DNL Google Drive] te beheren.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive] modules
 
-De [!DNL Adobe Workfront Fusion] [!DNL Google Drive] kunt u uw bestanden, mappen of gedeelde stations in uw [!DNL Google Drive].
+Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Drive] kunt u uw bestanden, mappen of gedeelde stations in uw [!DNL Google Drive] controleren, zoeken, maken, bijwerken, verwijderen en beheren.
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u uw [!DNL Google Drive] account voor meerdere toepassingen en services van derden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw [!DNL Google Drive] -account verbinden met meerdere toepassingen en services van derden.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie [Een scenario maken in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
-Voor informatie over modules, zie [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Toegangsvereisten
 
@@ -45,41 +45,41 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 
-## Verbinding maken [!DNL Google Drive] tot [!DNL Workfront Fusion]
+## Verbinding maken [!DNL Google Drive] met [!DNL Workfront Fusion]
 
-Als u [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker u moet een cliënt OAuth op creëren [de [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) om [!UICONTROL Client ID] en [!UICONTROL Client Secret].
+Als u [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker bent moet u een cliënt OAuth op [ tot stand brengen  [!DNL Google Cloud Platform] ](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) om [!UICONTROL Client ID] en [!UICONTROL Client Secret] te verkrijgen.
 
-Voor geleidelijke instructies op hoe te om de cliënt OAuth (te creëren en te verkrijgen [!UICONTROL Client ID] en [!UICONTROL Client Secret]), zie [Verbinden [!DNL Adobe Workfront Fusion] tot [!DNL Google Services] een aangepaste OAuth-client gebruiken](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+Voor geleidelijke instructies op hoe te om tot de cliënt OAuth (en verkrijg [!UICONTROL Client ID] en [!UICONTROL Client Secret]) te leiden, zie [  [!DNL Adobe Workfront Fusion]  verbinden  [!DNL Google Services]  gebruikend een cliënt van douaneOAuth ](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!UICONTROL Workfront Fusion], zie [Verbinding maken met [!UICONTROL Adobe Workfront Fusion] - Basisinstructies](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Google Drive] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## [!DNL Google Drive] modules en hun velden
 
-Wanneer u [!DNL Google Drive] modules, [!DNL Workfront Fusion] geeft de onderstaande velden weer. Samen met deze [!DNL Google Drive] er worden mogelijk velden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Google Drive] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Drive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -105,7 +105,7 @@ Hiermee worden de bestandsgegevens opgehaald wanneer een bestand in de opgegeven
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection] </td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Select the folder to be watched]</td>
@@ -124,19 +124,19 @@ Hiermee worden de bestandsgegevens opgehaald wanneer een bestand in de opgegeven
   </tr> 
   <tr> 
     <td >[!UICONTROL Convert [!DNL Google Documents] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Documents] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Documents] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Spreadsheets] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Spreadsheets] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Spreadsheets] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Slides] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Slides] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Slides] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Drawings] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Drawings] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Drawings] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Watch]</td>
@@ -144,7 +144,7 @@ Hiermee worden de bestandsgegevens opgehaald wanneer een bestand in de opgegeven
   </tr> 
   <tr> 
     <td>[!UICONTROL Maximum number of downloaded files]</td>
-    <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] wordt gedurende één cyclus gedownload (het aantal herhalingen per uitgevoerde scenario).</td>
+    <td>Stel het maximumaantal resultaten in dat [!DNL Workfront Fusion] gedurende één cyclus downloadt (het aantal herhalingen per uitgevoerde scenario).</td>
   </tr> 
  </tbody> 
 </table>
@@ -159,7 +159,7 @@ Hiermee worden de bestandsgegevens opgehaald wanneer een bestand in uw [!DNL Goo
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL What files to watch]</td> 
@@ -174,19 +174,19 @@ Hiermee worden de bestandsgegevens opgehaald wanneer een bestand in uw [!DNL Goo
   </tr> 
   <tr> 
     <td >[!UICONTROL Convert [!DNL Google Documents] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Documents] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Documents] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Spreadsheets] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Spreadsheets] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Spreadsheets] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Slides] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Slides] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Slides] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Drawings] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Drawings] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Drawings] wilt converteren.</td>
   </tr>  
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -194,7 +194,7 @@ Hiermee worden de bestandsgegevens opgehaald wanneer een bestand in uw [!DNL Goo
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] wordt gedurende één cyclus gedownload (het aantal herhalingen per uitgevoerde scenario).</td> 
+   <td>Stel het maximumaantal resultaten in dat [!DNL Workfront Fusion] gedurende één cyclus downloadt (het aantal herhalingen per uitgevoerde scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +209,7 @@ Triggers wanneer een nieuw dossier aan u wordt gedeeld, of een bestaand gedeeld 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select the folder to be watched]</td> 
@@ -228,19 +228,19 @@ Triggers wanneer een nieuw dossier aan u wordt gedeeld, of een bestaand gedeeld 
   </tr> 
   <tr> 
     <td >[!UICONTROL Convert [!DNL Google Documents] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Documents] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Documents] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Spreadsheets] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Spreadsheets] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Spreadsheets] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Slides] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Slides] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Slides] wilt converteren.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Convert [!DNL Google Drawings] bestanden om op te maken]</td>
-    <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Drawings] naar.</td>
+    <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Drawings] wilt converteren.</td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Watch]</td> 
@@ -248,7 +248,7 @@ Triggers wanneer een nieuw dossier aan u wordt gedeeld, of een bestaand gedeeld 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] wordt gedurende één cyclus gedownload (het aantal herhalingen per uitgevoerde scenario).</td> 
+   <td>Stel het maximumaantal resultaten in dat [!DNL Workfront Fusion] gedurende één cyclus downloadt (het aantal herhalingen per uitgevoerde scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,7 +263,7 @@ Triggert wanneer een opmerking wordt toegevoegd of gewijzigd aan het geselecteer
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File]</td> 
@@ -275,7 +275,7 @@ Triggert wanneer een opmerking wordt toegevoegd of gewijzigd aan het geselecteer
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned comments]</td> 
-   <td>Het maximum aantal opmerkingen instellen [!DNL Workfront Fusion] zal tijdens één cyclus (het aantal herhalingen per scenario looppas) terugkeren.</td> 
+   <td>Stel het maximumaantal opmerkingen in dat [!DNL Workfront Fusion] gedurende één cyclus retourneert (het aantal herhalingen per uitgevoerde scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +294,7 @@ Triggert wanneer een opmerking wordt toegevoegd of gewijzigd aan het geselecteer
 
 #### [!UICONTROL Upload a File]
 
-Uploadt een bestand naar uw [!DNL Google Drive].
+Uploadt een bestand naar uw [!DNL Google Drive] .
 
 <table style="table-layout:auto"> 
  <col> 
@@ -302,7 +302,7 @@ Uploadt een bestand naar uw [!DNL Google Drive].
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 
@@ -322,11 +322,11 @@ Uploadt een bestand naar uw [!DNL Google Drive].
   </tr> 
   <tr> 
    <td>[!UICONTROL File name]</td> 
-   <td>Selecteer de bestandsnaam. Deze optie is beschikbaar als u "[!UICONTROL Map]" in de [!UICONTROL source file] veld.</td> 
+   <td>Selecteer de bestandsnaam. Deze optie is beschikbaar als u "[!UICONTROL Map]"op het [!UICONTROL source file] gebied selecteert.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data]</td> 
-   <td>Selecteer het gegevensbestand dat u wilt uploaden. Deze optie is beschikbaar als u "[!UICONTROL Map]" in de [!UICONTROL source file] veld.</td> 
+   <td>Selecteer het gegevensbestand dat u wilt uploaden. Deze optie is beschikbaar als u "[!UICONTROL Map]"op het [!UICONTROL source file] gebied selecteert.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Title]</td> 
@@ -334,7 +334,7 @@ Uploadt een bestand naar uw [!DNL Google Drive].
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert a file]</td> 
-   <td>Als u deze optie inschakelt, kan de module bestanden converteren naar de corresponderende [!DNL Google] gebruiken.</td> 
+   <td>Als u deze optie inschakelt, kan de module bestanden converteren naar de corresponderende [!DNL Google] -indeling.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -349,7 +349,7 @@ De metagegevens of inhoud van een bestand wordt bijgewerkt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -381,11 +381,11 @@ De metagegevens of inhoud van een bestand wordt bijgewerkt.
   </tr> 
   <tr> 
    <td>[!UICONTROL File name]</td> 
-   <td>Selecteer de bestandsnaam. Deze optie is beschikbaar als u "[!UICONTROL Map]" in de [!UICONTROL source file] veld.</td> 
+   <td>Selecteer de bestandsnaam. Deze optie is beschikbaar als u "[!UICONTROL Map]"op het [!UICONTROL source file] gebied selecteert.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data]</td> 
-   <td>Selecteer het gegevensbestand dat u wilt uploaden. Deze optie is beschikbaar als u "[!UICONTROL Map]" in de [!UICONTROL source file] veld.</td> 
+   <td>Selecteer het gegevensbestand dat u wilt uploaden. Deze optie is beschikbaar als u "[!UICONTROL Map]"op het [!UICONTROL source file] gebied selecteert.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ Hiermee wordt een bestand naar de nieuwe locatie gekopieerd.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -435,7 +435,7 @@ Hiermee verwijdert u een bestand of map definitief.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -454,7 +454,7 @@ Hiermee verplaatst u een bestand of map naar de prullenbak.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -473,23 +473,23 @@ Hiermee wordt het bestand met de opgegeven id opgehaald.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Documents] bestanden om op te maken]</td> 
-   <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Documents] naar.</td> 
+   <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Documents] wilt converteren.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Spreadsheets] bestanden om op te maken]</td> 
-   <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Spreadsheets] naar.</td> 
+   <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Spreadsheets] wilt converteren.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Slides] bestanden om op te maken]</td> 
-   <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Slides] naar.</td> 
+   <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Slides] wilt converteren.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Drawings] bestanden om op te maken]</td> 
-   <td>Selecteer de bestandsindeling die u wilt converteren [!DNL Google Drawings] naar.</td> 
+   <td>Selecteer de bestandsindeling waarnaar u [!DNL Google Drawings] wilt converteren.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -508,7 +508,7 @@ Hiermee zoekt u bestanden of mappen op basis van zoekcriteria.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -535,20 +535,20 @@ Hiermee zoekt u bestanden of mappen op basis van zoekcriteria.
        <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Voer een deel van de bestandsnaam of de volledige bestandsnaam (inclusief het achtervoegsel) in waarnaar u wilt zoeken.</p> </li> 
        <li> <p><strong>[!UICONTROL Search Options]</strong> </p> <p>Selecteer of u naar de nauwkeurige termijn wilt zoeken, of als u naar namen wilt zoeken die de onderzoekstermijn bevatten.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL Fulltext] zoeken</strong> </p> 
+     <li> <p><strong>[!UICONTROL Fulltext] search </strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Voer een zoekterm in die u in uw [!DNL Google Drive].</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Voer een zoekterm in die u in de [!DNL Google Drive] wilt zoeken.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>Aangepaste zoekquery invoeren</strong> </p> 
+     <li> <p><strong> ga de vraag van het douaneonderzoek </strong> in </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Voer de aangepaste zoekquery in. Raadpleeg voor meer informatie de [!UICONTROL Search for Files] van dit artikel.</p> </li> 
-       <li> <p><strong>Voeg de hierboven geselecteerde map toe aan de query</strong> </p> <p>Zoekt naar de map in de bovenliggende verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct in de hierboven geselecteerde map bevinden.</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Voer de aangepaste zoekquery in. Raadpleeg de sectie [!UICONTROL Search for Files] van dit artikel voor meer informatie.</p> </li> 
+       <li> <p><strong> voegt de omslag hierboven aan de vraag </strong> wordt geselecteerd toe </p> <p>Zoekt naar de map in de bovenliggende verzameling. Alle bestanden en mappen in de hierboven geselecteerde map worden gevonden.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned results]</td> 
-   <td>Het maximum aantal bestanden of mappen instellen [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</td> 
+   <td>Stel het maximumaantal bestanden of mappen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -567,7 +567,7 @@ Maakt een map op de opgegeven locatie.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -587,7 +587,7 @@ Maakt een map op de opgegeven locatie.
   </tr> 
   <tr> 
    <td>[!UICONTROL Share folder]</td> 
-   <td>Selecteer deze optie als u de map wilt delen met iedereen die [!UICONTROL Share] koppeling. Anders is de deelkoppeling alleen voor de eigenaar.</td> 
+   <td>Selecteer deze optie als u de map wilt delen met iedereen met de koppeling [!UICONTROL Share] . Anders is de deelkoppeling alleen voor de eigenaar.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -602,7 +602,7 @@ Hiermee wordt de koppeling voor delen van een bestand opgehaald in Google Drive.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Drive] account aan [!DNL Workfront Fusion], zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Verbinding maken [!DNL Google Drive] tot [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -617,7 +617,7 @@ Hiermee wordt de koppeling voor delen van een bestand opgehaald in Google Drive.
 
 Er zijn verschillende situaties wanneer het uploaden of bijwerken van een bestand mislukt:
 
-* Het geüploade bestand is te groot en overschrijdt de maximaal toegestane bestandsgrootte voor uw [!DNL Google Drive] plan of je hebt je [!DNL Google Drive] opslaglimiet. U kunt uw opslagabonnement upgraden of bestaande bestanden verwijderen uit het dialoogvenster [!DNL Google Drive] service.
+* Het geüploade bestand is te groot en overschrijdt de maximale bestandsgrootte die is toegestaan voor uw [!DNL Google Drive] -abonnement of u hebt de opslaglimiet van [!DNL Google Drive] overschreden. U kunt uw opslagabonnement upgraden of bestaande bestanden verwijderen uit de service [!DNL Google Drive] .
 * De geselecteerde map waarnaar het bestand moet worden geüpload, bestaat niet meer. Het scenario stopt en het is dan nodig om opnieuw een doelmap te selecteren.
 
 ## Bestanden zoeken
@@ -626,11 +626,11 @@ In de dossiers van de Lijst van de module in een omslag kunt u uw eigen vraag ge
 
 * **[!UICONTROL Field]** - Kenmerk van het bestand dat wordt doorzocht, bijvoorbeeld het kenmerk `name` van het bestand.
 
-* **[!UICONTROL Operator]** - Test die wordt uitgevoerd op de gegevens om een overeenkomst te leveren, bijvoorbeeld `contains`.
+* **[!UICONTROL Operator]** - Test die op de gegevens wordt uitgevoerd om een overeenkomst te leveren, bijvoorbeeld `contains` .
 
-* **[!UICONTROL Value]** - De inhoud van het kenmerk dat wordt getest, bijvoorbeeld de naam van het bestand `My cool document`.
+* **[!UICONTROL Value]** - De inhoud van het kenmerk dat wordt getest, bijvoorbeeld de naam van het bestand `My cool document` .
 
-Clausules combineren met de conjuncties `and` of `or`en de query negeren met `not`.
+Combineer clausules met de conjunctions `and` of `or`, en ontken de vraag met `not`.
 
 * [Velden](#fields)
 * [Waardetypen](#value-types)
@@ -656,13 +656,13 @@ Clausules combineren met de conjuncties `and` of `or`en de query negeren met `no
   <tr> 
    <td><code>[!UICONTROL title]</code></td> 
    <td>string</td> 
-   <td><code>contains</code><sup>1</sup>, <code>=</code>, <code>!=</code></td> 
+   <td><code>contains</code><sup> 1 </sup>, <code>=</code>, <code>!=</code></td> 
    <td> <p> Naam van het bestand.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL fullText]</code> </td> 
    <td>string </td> 
-   <td><code>contains</code><sup>2, 3</sup> </td> 
+   <td><code>contains</code><sup> 2, 3 </sup> </td> 
    <td> <p> Volledige tekst van het bestand, inclusief naam, beschrijving, inhoud en indexeerbare tekst.</p> </td> 
   </tr> 
   <tr> 
@@ -673,15 +673,15 @@ Clausules combineren met de conjuncties `and` of `or`en de query negeren met `no
   </tr> 
   <tr> 
    <td><code>[!UICONTROL modifiedDate]</code> </td> 
-   <td> date<sup>4</sup></td> 
+   <td> datum <sup> 4 </sup></td> 
    <td><code> &lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
    <td> <p> Datum van de laatste wijziging in het bestand.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL lastViewedByMeDate]</code> </td> 
-   <td> date<sup>4</sup></td> 
+   <td> datum <sup> 4 </sup></td> 
    <td><code>&lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
-   <td> <p> Datum waarop de gebruiker het laatst een bestand heeft bekeken.</p> </td> 
+   <td> <p> De datum waarop de gebruiker het laatst een bestand heeft bekeken.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL trashed]</code></td> 
@@ -699,7 +699,7 @@ Clausules combineren met de conjuncties `and` of `or`en de query negeren met `no
    <td><code>[!UICONTROL parents]</code></td> 
    <td>collectie </td> 
    <td><code>in </code> </td> 
-   <td> <p>Of de [!UICONTROL parents] verzameling bevat de opgegeven id.</p> </td> 
+   <td> <p>Geeft aan of de [!UICONTROL parents] -verzameling de opgegeven id bevat.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL owners]</code></td> 
@@ -736,21 +736,21 @@ Clausules combineren met de conjuncties `and` of `or`en de query negeren met `no
 
 Overweeg het volgende over exploitanten op deze gebieden:
 
-* De `contains` operator voert alleen overeenkomende voorvoegsels uit voor een `title`.
+* De operator `contains` voert alleen overeenkomende voorvoegsels uit voor een `title` .
 
-  De titel &#39;HelloWorld&#39; komt bijvoorbeeld overeen met `title contains 'Hello'` maar niet voor `title contains 'World'`.
+  De titel &#39;HelloWorld&#39; komt bijvoorbeeld overeen met `title contains 'Hello'` maar niet met `title contains 'World'` .
 
-* De `contains` operator voert alleen overeenkomsten uit op hele tekenreekstokens voor `fullText`.
+* De operator `contains` voert alleen overeenkomende bewerkingen uit op hele tekenreeksen voor `fullText` .
 
-  Als de volledige tekst van een document bijvoorbeeld de tekenreeks &quot;HelloWorld&quot; bevat, wordt alleen de query `fullText contains 'HelloWorld'` retourneert een resultaat. Vragen zoals `fullText contains 'Hello'` zou in dit scenario geen resultaten opleveren.
+  Als bijvoorbeeld de volledige tekst van een document de tekenreeks &quot;HelloWorld&quot; bevat, retourneert de query `fullText contains 'HelloWorld'` alleen een resultaat. Zoekopdrachten als `fullText contains 'Hello'` resulteren niet in dit scenario.
 
-* De `contains` komt overeen met een exacte alfanumerieke uitdrukking als deze wordt omringd door dubbele aanhalingstekens.
+* De operator `contains` komt overeen met een exacte alfanumerieke uitdrukking als deze wordt omringd door dubbele aanhalingstekens.
 
-  Als de `fullText` van een doc bevat de tekenreeks &quot;Hello there world&quot;, gevolgd door de query `fullText contains '"Hello there"'` retourneert een resultaat, maar de query `fullText contains '"Hello world"'` niet.
+  Als de `fullText` van een document bijvoorbeeld de tekenreeks &quot;Hello there world&quot; bevat, retourneert de query `fullText contains '"Hello there"'` een resultaat, maar de query `fullText contains '"Hello world"'` niet.
 
-  Omdat de zoekopdracht alfanumeriek is, geldt bovendien dat als de `fullText` van een doc bevat de tekenreeks &quot;Hello_world&quot;, gevolgd door de query `fullText contains '"Hello world"'` retourneert een resultaat.
+  Omdat de zoekopdracht alfanumeriek is en de `fullText` van een document de tekenreeks &quot;Hello_world&quot; bevat, retourneert de query `fullText contains '"Hello world"'` bovendien een resultaat.
 
-* Velden van `type` de datum is momenteel niet vergelijkbaar met elkaar , alleen met constante datums .
+* Velden met de datum `type` zijn momenteel niet met elkaar vergelijkbaar, alleen met constante datums.
 
 ### Waardetypen
 
@@ -766,15 +766,15 @@ Overweeg het volgende over exploitanten op deze gebieden:
  <tbody> 
   <tr> 
    <td>String </td> 
-   <td> <p>Omgeven met enkele aanhalingstekens '. Escape enkele aanhalingstekens in query's met <code>\'</code>, bijvoorbeeld<code> 'Valentine\'s Day'</code>.</p> </td> 
+   <td> <p>Omgeven met enkele aanhalingstekens '. Escape enkele aanhalingstekens in query's met <code>\'</code>, bijvoorbeeld <code> 'Valentine\'s Day'</code> .</p> </td> 
   </tr> 
   <tr> 
    <td>Boolean </td> 
-   <td> <p><code>true </code>of <code>false</code>.</p> </td> 
+   <td> <p><code>true </code>of <code>false</code> .</p> </td> 
   </tr> 
   <tr> 
    <td>Datum </td> 
-   <td> <p>RFC 3339-indeling, de standaardtijdzone is UTC, bijvoorbeeld <code>2012-06-04T12:00:00-08:00</code>.</p> </td> 
+   <td> <p>RFC 3339-indeling, de standaardtijdzone is UTC, bijvoorbeeld <code>2012-06-04T12:00:00-08:00</code> .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -843,11 +843,11 @@ Overweeg het volgende over exploitanten op deze gebieden:
 </table>
 
 Voor samengestelde clausules, kunt u haakjes gebruiken om clausules samen te groeperen. Bijvoorbeeld:
-`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` Deze zoekopdracht retourneert alle bestanden met een MIME-type voor afbeelding of video die de laatste wijziging na 4 juni 2012 had ondergaan. Omdat `and` en `or` operatoren worden van links naar rechts geëvalueerd, zonder haakjes, zodat het bovenstaande voorbeeld alleen afbeeldingen retourneert die na 4 juni 2012 zijn gewijzigd, maar alle video&#39;s retourneert, zelfs die voor 4 juni 2012.
+`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` Met deze zoekopdracht worden alle bestanden geretourneerd met een MIME-type voor afbeeldingen of video die de laatste wijziging na 4 juni 2012 heeft ondergaan. Omdat `and` - en `or` -operatoren van links naar rechts worden geëvalueerd, zonder haakjes, retourneert het bovenstaande voorbeeld alleen afbeeldingen die na 4 juni 2012 zijn gewijzigd, maar retourneert het alle video&#39;s, zelfs die voor 4 juni 2012.
 
 ### Voorbeelden
 
-Alle voorbeelden op deze pagina tonen de ongecodeerde `<q>q</q>` parameter, waarbij `title = 'hello'` is gecodeerd als `title+%3d+%27hello%27`. Clientbibliotheken verwerken deze codering automatisch.
+Alle voorbeelden op deze pagina tonen de niet-gecodeerde `<q>q</q>` parameter, waarbij `title = 'hello'` als `title+%3d+%27hello%27` wordt gecodeerd. Clientbibliotheken verwerken deze codering automatisch.
 
 * Bestanden zoeken met de naam &quot;hello&quot;
   <pre>title = 'hello'</pre>
@@ -856,7 +856,7 @@ Alle voorbeelden op deze pagina tonen de ongecodeerde `<q>q</q>` parameter, waar
 * Zoeken naar bestanden die geen mappen zijn
   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Zoeken naar bestanden met een naam die de woorden &quot;hello&quot; en &quot;goodbye&quot; bevat
-  <pre>title bevat 'hello' en [!UICONTROL name] bevat 'afscheid'</pre>
+  <pre>title bevat 'hello' en [!UICONTROL name] bevat 'goodbye'</pre>
 * Bestanden zoeken met een naam die niet het woord &quot;hello&quot; bevat
   <pre>geen titel bevat 'hello'</pre>
 * Zoeken naar bestanden met het woord &quot;hello&quot; in de inhoud
@@ -869,19 +869,19 @@ Alle voorbeelden op deze pagina tonen de ongecodeerde `<q>q</q>` parameter, waar
   <pre>fullText bevat '\\authors'</pre>
 * Zoeken naar bestanden die kunnen worden geschreven door de gebruiker &quot;test@example.org&quot;
   <pre>'test@example.org' in [!DNL writers]</pre>
-* Zoeken naar de id `1234567` in de `parents` verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct in de map bevinden waarvan de id `1234567`.
+* Zoek de id `1234567` in de `parents` -verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct in de map met de id `1234567` bevinden.
   <pre>'1234567' in [!UICONTROL parents]</pre>
-* Zoeken naar de alias-id `appDataFolder` in de `parents` verzameling. Hiermee worden alle bestanden en mappen gevonden die zich direct onder de map [Map Application Data](https://developers.google.com/drive/api/v2/appdata).
+* Zoek naar alias identiteitskaart `appDataFolder` in de `parents` inzameling. Dit vindt alle dossiers en omslagen die direct onder de [ omslag van Gegevens van de Toepassing ](https://developers.google.com/drive/api/v2/appdata) worden gevestigd.
   <pre>'appDataFolder' in bovenliggende items</pre>
 * Zoeken naar bestanden die kunnen worden geschreven door de gebruikers &quot;test@example.org&quot; en &quot;test2@example.org&quot;
   <pre>'test@example.org' in schrijvers en 'test2@example.org' in schrijvers</pre>
 * Zoeken naar bestanden met de tekst &quot;belangrijk&quot; die zich in de prullenbak bevinden
   <pre>fullText bevat 'main' en traped = true</pre>
 * Bestanden zoeken die na 4 juni 2012 zijn gewijzigd
-  <pre>modifiedDate &gt; '2012-06-04T12:00:00' // standaardtijdzone is UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
-* Zoeken naar bestanden die met de geautoriseerde gebruiker worden gedeeld met &quot;hello&quot; in de naam
+  <pre>modifiedDate &gt; "2012-06-04T12 :00: 00"// de standaardtijdzone is UTC</pre><pre>modifiedDate &gt; "2012-06-04T12 :00: 00-08:00"</pre>
+* Bestanden zoeken die met de geautoriseerde gebruiker worden gedeeld met &quot;hello&quot; in de naam
   <pre>sharedWithMe en title bevat 'hello'</pre>
-* Bestanden zoeken met een [aangepaste bestandseigenschap](https://developers.google.com/drive/api/v2/properties) benoemd `additionalID` met de waarde `8e8aceg2af2ge72e78`.
+* Onderzoek naar dossiers met het bezit van het a [ douanedossier ](https://developers.google.com/drive/api/v2/properties) genoemd `additionalID` met de waarde `8e8aceg2af2ge72e78`.
   <pre>eigenschappen hebben { key='additionalID' en value='8e8aceg2af2ge72e78' en visibility='PRIVATE' }</pre>
 
-De bron van deze handleiding is [[!DNL Google Drive] documentatie](https://developers.google.com/drive/api/v2/search-shareddrives).
+Source van deze gids is [[!DNL Google Drive]  documentatie ](https://developers.google.com/drive/api/v2/search-shareddrives).

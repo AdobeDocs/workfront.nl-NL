@@ -21,7 +21,7 @@ Een extern opzoekveld in een aangepast formulier roept een externe API aan en re
 
 Dit artikel bevat voorbeelden van het gebruik van het veld Externe opzoekopdracht om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe Opzoeken ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
 
-Externe opzoekvelden zijn alleen beschikbaar in de nieuwe formulierontwerper, niet in de oudere formulierontwerper. Zie voor meer informatie over het toevoegen van een extern opzoekveld aan een aangepast formulier en aanvullende definities van de externe opzoekcomponenten [Een formulier ontwerpen met de formulierontwerper](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Externe opzoekvelden zijn alleen beschikbaar in de nieuwe formulierontwerper, niet in de oudere formulierontwerper. Voor meer informatie over het toevoegen van een Extern gebied van de Opzoekopdracht aan een douanevorm en extra definities van de externe raadplegingscomponenten, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Een extern opzoekveld instellen voor dezelfde instantie van Workfront
 
@@ -30,10 +30,10 @@ U kunt de externe opzoekfunctie gebruiken om gegevens van uw Workfront-exemplaar
 In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit het bestaande veld Statusquery naar uw externe opzoekveld overbrengt.
 
 1. Open het aangepaste formulier.
-1. Op de linkerkant van het scherm, vind **Externe zoekopdracht** en sleep het naar een sectie op het canvas.
-1. Voer de **Label** en **Naam** voor het veld.
-1. Selecteer de **Indeling** voor het veld.
-1. Voer de API-URL-aanroep in het dialoogvenster **Basis-API-URL** veld.
+1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
+1. Ga het **Etiket** en **Naam** voor het gebied in.
+1. Selecteer het **Formaat** voor het gebied.
+1. Ga de API URL vraag op het **Basis API URL** gebied in.
 
    * U kunt $$HOST toevoegen om naar dezelfde instantie te verwijzen.
    * U kunt $$QUERY toevoegen om de resultaten te filteren op basis van het opvragen van een ander veld.
@@ -41,90 +41,90 @@ In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit h
    **Voorbeeld**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
 
-1. Controleer de **Afhankelijkheden** voor de velden waarnaar dit opzoekveld verwijst in de API.
+1. Herzie **Afhankelijkheden** voor de gebieden dat dit raadplegingsgebied in API van verwijzingen voorziet.
 
    Een afhankelijkheidsveld kan elk aangepast of native veld zijn dat op de detailpagina van het object bestaat.
 
-   In dit voorbeeld wordt `{DE:StatusQuery}` wordt vervangen door de waarde van het aangepaste veld StatusQuery.
+   In dit voorbeeld wordt `{DE:StatusQuery}` vervangen door de waarde van het aangepaste veld StatusQuery.
 
-1. Selecteer de **HTTP-methode**.
+1. Selecteer de **Methode van HTTP**.
 
-   Dit zal waarschijnlijk **Get**.
+   Dit zal meestal **krijgen** waarschijnlijk zijn.
 
-1. Voer de **JSON-pad** om de resultaten van uw API-aanroep op te halen.
+1. Ga de **Weg JSON** in om de resultaten van uw API vraag te krijgen.
 
    **Voorbeeld**
    `$.data[*].name`
 
    >[!NOTE]
    >
-   >**Koptekst** Er is geen informatie vereist voor een aanroep naar hetzelfde Workfront-exemplaar.
+   >**de informatie van de Kopbal** wordt niet vereist voor een vraag aan de zelfde instantie van Workfront.
 
-1. Klikken **Toepassen**.
+1. Klik **toepassen**.
 
-   ![API-aanroep naar Workfront instellen in aangepaste vorm](assets/external-lookup-to-workfront.png)
+   ![ Opstelling van API vraag aan Workfront in douanevorm ](assets/external-lookup-to-workfront.png)
 
    Wanneer het aangepaste formulier wordt toegevoegd aan een Workfront-object (in dit voorbeeld een project), ziet het er ongeveer zo uit.
 
-   ![Aangepast formulier met extern opzoekveld](assets/external-lookup-project-status-example1.png)
+   ![ Vorm van de Douane met extern raadplegingsgebied ](assets/external-lookup-project-status-example1.png)
 
-   ![Externe opzoekopties op basis van status](assets/external-lookup-project-status-example2.png)
+   ![ Externe raadplegingsopties die op status ](assets/external-lookup-project-status-example2.png) worden gebaseerd
 
 ## Een extern opzoekveld instellen voor een openbare API
 
 U kunt de Externe Opzoekfunctie gebruiken om een externe, openbare API aan te roepen en gegevens op te halen.
 
-In dit voorbeeld wordt getoond hoe een API van landen (zoals <https://api.first.org/data/v1/countries>), zodat u niet alle landnamen in de vervolgkeuzemogelijkheden hoeft te coderen.
+In dit voorbeeld wordt getoond hoe u een API van landen (zoals <https://api.first.org/data/v1/countries>) aanroept, zodat u niet alle landnamen in de vervolgkeuzemogelijkheden hoeft te coderen.
 
 1. Open het aangepaste formulier.
-1. Op de linkerkant van het scherm, vind **Externe zoekopdracht** en sleep het naar een sectie op het canvas.
-1. Voer de **Label** en **Naam** voor het veld.
-1. Selecteer de **Indeling** voor het veld.
-1. Voer de API-URL-aanroep in het dialoogvenster **Basis-API-URL** veld.
+1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
+1. Ga het **Etiket** en **Naam** voor het gebied in.
+1. Selecteer het **Formaat** voor het gebied.
+1. Ga de API URL vraag op het **Basis API URL** gebied in.
 
    * U kunt $$QUERY toevoegen om vraag het filtreren voor uw eind uit te voeren - gebruikers.
 
    **Voorbeelden**
-Vermeldt alle landen: <https://api.first.org/data/v1/countries>
+Geeft alle landen weer: <https://api.first.org/data/v1/countries>
 
-   Hiermee kan de gebruiker naar een land in het vervolgkeuzeveld zoeken: <https://api.first.org/data/v1/countries?q=$$QUERY>
+   Hiermee kan de gebruiker naar een land in het vervolgkeuzevenster zoeken: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
    Hiermee kan de gebruiker naar een land in een regio zoeken: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * De beschikbare gebieden worden gedefinieerd in een afzonderlijk aangepast veld in Workfront.
    * Wanneer de gebruiker een gebied op het formulier selecteert, worden in het veld Externe opzoekopdracht alleen de landen in dat gebied weergegeven (in welk land de regio is gedefinieerd in de API). De gebruiker kan ook naar een land in het geselecteerde gebied zoeken.
 
-1. Controleer de **Afhankelijkheden** voor de velden waarnaar dit opzoekveld verwijst in de API.
+1. Herzie **Afhankelijkheden** voor de gebieden dat dit raadplegingsgebied in API van verwijzingen voorziet.
 
    Een afhankelijkheidsveld kan elk aangepast of native veld zijn dat op de detailpagina van het object bestaat.
 
-   In dit voorbeeld wordt `{DE:Region}` wordt vervangen door de waarde van het aangepaste veld Regio.
+   In dit voorbeeld wordt `{DE:Region}` vervangen door de waarde van het aangepaste veld Regio.
 
-1. Selecteer de **HTTP-methode**.
+1. Selecteer de **Methode van HTTP**.
 
-   Dit zal waarschijnlijk **Get**.
+   Dit zal meestal **krijgen** waarschijnlijk zijn.
 
-1. Voer de **JSON-pad** om de resultaten van uw API-aanroep op te halen.
+1. Ga de **Weg JSON** in om de resultaten van uw API vraag te krijgen.
 
    Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzemogelijkheden.
 
    **Voorbeeld**
    `$.data[*].country`
 
-1. (Optioneel) Klik op **Koptekst toevoegen** en typ of plak het sleutelwaardepaar dat is vereist voor verificatie met de API.
+1. (Optioneel) Klik op **Koptekst toevoegen** en typ of plak het sleutelwaardepaar dat voor verificatie met de API is vereist.
 
    >[!NOTE]
    >
    >De gebieden van de Kopbal zijn geen veilige plaats om geloofsbrieven op te slaan, en u zou moeten zorgvuldig zijn wat u ingaat en bewaart.
 
-1. (Optioneel) Selecteer **Meerdere selecties opheffen** om de gebruiker toe te staan meer dan één waarde in dropdown te selecteren.
+1. (Facultatief) selecteer **multi-Select Vervolgkeuzelijst** om de gebruiker toe te staan om meer dan één waarde in dropdown te selecteren.
 
-1. Klikken **Toepassen**.
+1. Klik **toepassen**.
 
-   ![Instellen van API-aanroep naar openbare API in aangepaste vorm](assets/external-lookup-to-api-for-countries.png)
+   ![ Opstelling van API vraag aan openbare API in douaneformulier ](assets/external-lookup-to-api-for-countries.png)
 
    Wanneer het aangepaste formulier wordt toegevoegd aan een Workfront-object (in dit voorbeeld een project), ziet het er ongeveer zo uit.
 
-   ![Aangepast formulier met extern opzoekveld](assets/external-lookup-countries-example1.png)
+   ![ Vorm van de Douane met extern raadplegingsgebied ](assets/external-lookup-countries-example1.png)
 
-   ![Externe opzoekopties voor een land op basis van regio](assets/external-lookup-countries-example2.png)
+   ![ Externe raadplegingsopties voor een land dat op gebied ](assets/external-lookup-countries-example2.png) wordt gebaseerd

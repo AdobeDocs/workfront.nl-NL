@@ -20,7 +20,7 @@ Als Workfront-beheerder kunt u herinneringsmeldingen maken voor gebruikers en de
 
 Herinneringsberichten genereren e-mails die naar gebruikers worden verzonden op basis van opgegeven criteria. Herinneringsberichten herinneren gebruikers aan een handeling aan de noodzaak om een taak, uitgave, project of tijdspagina uit te voeren.
 
-Nadat u de herinneringsberichten creeert, kunnen de gebruikers hen met het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren. Zie voor meer informatie [Een herinneringsmelding aan een object koppelen](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+Nadat u de herinneringsberichten creeert, kunnen de gebruikers hen met het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren. Voor informatie, zie [ een herinneringsbericht aan een voorwerp ](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) vastmaken.
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie over de informatie in deze lijst, zie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,23 +71,23 @@ U kunt ook het standaard-e-mailbericht gebruiken dat bij de herinneringsmelding 
 
 Als u het e-mailbericht voor een herinnering wilt aanpassen, moet u een e-mailsjabloon maken en dit als bijlage aan het bericht voor een herinnering toevoegen.
 
-Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablonen configureren](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+Voor informatie over hoe te om een e-mailmalplaatje tot stand te brengen, zie [ e-mailmalplaatjes ](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md) vormen.
 
 ## Een herinneringsmelding maken
 
 {{step-1-to-setup}}
 
-1. Klikken **E-mail** > **Meldingen** > **Herinneringsmeldingen**.
+1. Klik **E-mail** > **Meldingen** > **Meldingen van de Herinnering**.
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
-1. Klikken **Nieuwe melding voor herinnering**.
+1. Klik **Nieuw Bericht van de Herinnering**.
 
 1. Klik in de vervolgkeuzelijst op het objecttype dat u wilt koppelen aan de herinneringsmelding.
 
-   Als u bijvoorbeeld een herinneringsbericht aan een tijdspagina wilt koppelen, klikt u op **Tijdschema**.
+   Bijvoorbeeld, als u een herinneringsbericht aan een timesheet wilt vastmaken, klik **Chronologie**.
 
-1. In de **Nieuwe melding voor herinnering** Geef de volgende informatie op in het vak dat wordt weergegeven.
+1. In het **Nieuwe vakje van het Bericht van de Herinnering** dat verschijnt, specificeer de volgende informatie.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
      </tr> 
      <tr> 
       <td role="rowheader">Gekwalificeerde periode</td> 
-      <td> <p>Geef het aantal uren, werkdagen, dagen (kalenderdagen), weken of maanden vóór of na de datum in het dialoogvenster <strong>Timing</strong> veld.</p> <p><b>OPMERKING</b>:  
+      <td> <p>Specificeer het aantal uren, het aantal werkdagen, dagen (kalenderdagen), weken, of maanden vóór of na de datum op het <strong> Past </strong> gebied.</p> <p><b> NOTA </b>:  
         <ul> 
          <li> <p>Herinneringsmeldingen beginnen 24 uur na de opgegeven datum en zodra aan alle criteria is voldaan.</p> </li> 
          <li> <p>Herinneringsmeldingen voor projecten, taken en uitgaven worden elke avond om middernacht, in de Amerikaanse Mountain Time, geactiveerd. Alle objecten die in aanmerking komen voor een herinneringsmelding vanaf die dag, activeren kort na dat tijdstip een melding aan de aangewezen gebruikers.</p> </li> 
@@ -122,14 +122,14 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
       <td role="rowheader">Criteria</td> 
       <td> <p>Selecteer de criteria om de te plannen herinneringsmelding te kwalificeren. Herinneringsmeldingen worden alleen gepland als aan de geselecteerde criteria is voldaan.</p> <p>De volgende opties voor criteria zijn beschikbaar, afhankelijk van het objecttype dat u hebt geselecteerd in Stap 4:</p> 
        <ul> 
-        <li><strong>Onvolledig in huidige projecten:</strong> <i>(Beschikbaar voor herinneringen voor taken en uitgaven)</i> De herinneringsmelding wordt alleen verzonden wanneer de objectstatus waaraan de herinneringsmelding is gekoppeld, niet Voltooid is en de projectstatus Huidig is.</li> 
-        <li><strong>Alles in huidige projecten:</strong> <i>(Beschikbaar voor herinneringen voor taken en uitgaven)</i> De herinneringsmelding wordt gepland om ongeacht de objecten status en slechts te worden verzonden wanneer de projectstatus waaraan de herinnering bericht wordt geassocieerd Huidig is.</li> 
-        <li><strong>Onvolledige projecten:</strong> <i>(Beschikbaar voor herinneringen aan projecten)</i> De herinneringsmelding wordt verzonden wanneer de status van het project om het even wat behalve Voltooid is.</li> 
-        <li><strong>Alle projecten:</strong> <i>(Beschikbaar voor herinneringen aan projecten)</i> De herinneringsmelding wordt verzonden ongeacht de projectstatus.</li> 
-        <li><strong>Tijdbladen openen:</strong> <i>(Beschikbaar voor herinneringen aan tijdbladen)</i> De melding voor de herinnering wordt verzonden wanneer de status van het tijdschrift Open is.</li> 
-        <li><strong>Verzonden tijdbladen:</strong> <i>(Beschikbaar voor herinneringen aan tijdbladen)</i> De herinneringsmelding zal worden verzonden wanneer de timesbladstatus wordt verzonden.</li> 
-        <li><strong>Openingstijdschema of minder dan 40 uur per week:</strong> <i>(Beschikbaar voor herinneringen aan tijdbladen)</i> Het herinneringsbericht zal worden verzonden wanneer de timesheet status Open is of wanneer timesheet minder dan 40 geregistreerde uren heeft.</li> 
-        <li><strong>E-mailsjabloon:</strong> Selecteer in de vervolgkeuzelijst een e-mailsjabloon die u aan de herinnering wilt toevoegen.<br>Voor informatie over het bouwen van een e-mailsjabloon raadpleegt u <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">E-mailsjablonen configureren</a>.</li> 
+        <li><strong> Onvolledig in Huidige Projecten:</strong> <i> (Beschikbaar voor taak en uitgifteherinneringen) </i> Het herinneringsbericht wordt gepland om slechts te worden verzonden wanneer de objecten status dat het herinneringsbericht met wordt geassocieerd niet Voltooid is en de projectstatus Huidig is.</li> 
+        <li><strong> allen in Huidige Projecten:</strong> <i> (Beschikbaar voor taak en uitgifteherinneringen) </i> Het herinneringsbericht wordt gepland om ongeacht de objecten status en slechts te worden verzonden wanneer de projectstatus waaraan het herinneringsbericht wordt geassocieerd huidig is.</li> 
+        <li><strong> Onvolledige Projecten:</strong> <i> (Beschikbaar voor projectherinneringen) </i> Het herinneringsbericht wordt gepland om worden verzonden wanneer de projectstatus om het even wat maar Voltooid is.</li> 
+        <li><strong> Alle Projecten:</strong> <i> (Beschikbaar voor projectherinneringen) </i> Het herinneringsbericht wordt gepland om ongeacht de projectstatus worden verzonden.</li> 
+        <li><strong> Open Tijdopnemers:</strong> <i> (Beschikbaar voor timesheet herinneringen) </i> Het herinneringsbericht wordt gepland om te worden verzonden wanneer de timesheet status Open is.</li> 
+        <li><strong> voorgelegde Tijdopnamen:</strong> <i> (Beschikbaar voor timesheet herinneringen) </i> Het herinneringsbericht wordt gepland om te worden verzonden wanneer de timesheet status wordt voorgelegd.</li> 
+        <li><strong> Open Chronologie of minder dan 40 Uren per Week:</strong> <i> (Beschikbaar voor timesheet herinneringen) </i> Het herinneringsbericht wordt gepland om te worden verzonden wanneer de timesheet status Open is of wanneer timesheet minder dan 40 geregistreerde uren heeft.</li> 
+        <li><strong> E-mailMalplaatje:</strong> Van drop-down, selecteer een e-mailmalplaatje om aan uw herinnering vast te maken.<br> voor informatie over hoe te om een e-mailmalplaatje te bouwen, verwijs naar <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref"> vorm e-mailmalplaatjes </a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -150,14 +150,14 @@ Voor informatie over het maken van een e-mailsjabloon raadpleegt u [E-mailsjablo
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
-1. Koppel de herinneringsmelding aan een werkitem, zoals beschreven in [Een herinneringsmelding aan een object koppelen](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. Klik **sparen**.
+1. Verbind het herinneringsbericht aan een het werkpunt, zoals die in [ wordt beschreven bijvoegt een herinneringsbericht aan een voorwerp ](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## Een herinneringsmelding ontvangen
 
 Wanneer aan de voorwaarde is voldaan op het object waaraan de herinneringsmelding is gekoppeld, wordt een e-mailmelding geactiveerd voor de gebruiker die in de herinneringsmelding is gedefinieerd.
 
-Voor meer informatie over het ontvangen van herinneringsberichten, zie [Herinneringsmeldingen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sectie in [Adobe Workfront-berichten](../../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie over het ontvangen van herinneringsberichten, zie [ de berichten van de Herinnering ](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sectie in [ de berichten van Adobe Workfront ](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Herinneringsmelding testen
 
@@ -170,9 +170,9 @@ Een herinnering handmatig activeren:
 
 {{step-1-to-setup}}
 
-1. Klikken **Systeem** > **Diagnostiek** linksonder in Workfront.
+1. Klik **Systeem** > **Diagnostiek** in de lagere linkerhoek van Workfront.
 
-1. Klikken **Herinneringsmeldingen verzenden** en wacht op de bevestiging boven aan het scherm dat ze zijn verzonden.
+1. Klik **verzenden de Berichten van de Herinnering** en wachten op de bevestiging bij de bovenkant van het scherm dat zij zijn verzonden.
 
    De gebruikers die in het herinneringsbericht zijn aangewezen, ontvangen een e-mail.
 

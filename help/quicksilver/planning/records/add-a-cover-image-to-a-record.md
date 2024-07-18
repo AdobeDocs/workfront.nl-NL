@@ -21,11 +21,11 @@ ht-degree: 0%
 
 U kunt records personaliseren door een omslagafbeelding toe te voegen aan de recordpagina in Adobe Workfront Planning, wanneer u een record bewerkt.
 
-Voor informatie over het bewerken van records raadpleegt u [Records bewerken](/help/quicksilver/planning/records/edit-records.md).
+Voor informatie over het uitgeven van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
 
-Zie voor meer informatie [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md).
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Toegangsvereisten
 
@@ -78,14 +78,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td>  <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="/help/quicksilver/planning/access/access-overview.md">Overzicht van toegang</a>. </p>  
+   <td>  <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="/help/quicksilver/planning/access/access-overview.md"> overzicht van de Toegang </a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in documentatie van het personeel](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van het Werkmiddel ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Overwegingen bij omslagafbeeldingen van recordpagina&#39;s
 
@@ -122,46 +122,46 @@ U kunt een record personaliseren door een omslagafbeelding boven aan de voorvert
 
    of
 
-   Klik in de tabelweergave op de knop **Details openen** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
+   Van de mening van de lijstlijst, klik **Open details** pictogram ![](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
    ![](assets/details-box.png)
 
-1. (Optioneel) Klik op de knop **Openen op nieuw tabblad** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de rechterbovenhoek van de recordvoorvertoning om de pagina van de record op een nieuw tabblad te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    De recordpagina wordt geopend.
 
    ![](assets/details-page.png)
 
-1. Klik in de recordvoorvertoning of pagina op **omslag toevoegen**
+1. In de verslagvoorproef of pagina, klik **voeg omslag** toe
 
 
    of
 
-   Houd de muis boven een bestaande omslagafbeelding en klik op **Meer** menu ![](assets/more-menu.png) en klik vervolgens op **Uploaden**. <!--check the casing here; I logged a bug for this-->
-De **Omslag van record** wordt geopend in het dialoogvenster **Uploaden** tab.
+   Beweeg over een bestaand omslagbeeld, klik **Meer** menu ![](assets/more-menu.png), dan klik **uploaden**. <!--check the casing here; I logged a bug for this-->
+De **omslag van het Verslag** doos opent in **uploadt** tabel.
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. Klikken **Afbeeldingen zoeken** en blader naar een afbeelding op uw computer om deze te selecteren en toe te voegen.
+1. Klik **doorbladert beelden** en doorblader naar een beeld op uw computer om het te selecteren en toe te voegen.
 
-1. (Optioneel) Als u de afbeelding wilt verwijderen voordat deze wordt opgeslagen, klikt u op de knop **Nieuwe afbeelding uploaden** pictogram ![](assets/upload-new-image-icon.png) en uploadt u een nieuwe afbeelding.
+1. (Facultatief) om het beeld te verwijderen alvorens het wordt bewaard, klik **upload nieuw beeld** pictogram ![](assets/upload-new-image-icon.png), en upload een nieuw beeld.
 
-1. (Optioneel) Klik op de knop **Galerie** en klikt u op een afbeelding in de galerie met afbeeldingen. De galerie met afbeeldingen kan niet worden gewijzigd.
+1. (Facultatief) klik de **Galerij** tabel, dan klik een beeld in de galerij van beelden. De galerie met afbeeldingen kan niet worden gewijzigd.
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. Klikken **Afbeelding gebruiken**.
+1. Klik **beeld van het Gebruik**.
 
    De afbeelding wordt boven aan de voorvertoning of pagina van de record geüpload en de wijzigingen worden automatisch opgeslagen.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (Optioneel) Houd de muisaanwijzer boven de afbeelding en klik op de knop **Meer** menu ![](assets/more-menu.png) in de rechterbenedenhoek van de omslagafbeelding voert u een van de volgende handelingen uit:
+1. (Facultatief) Beweeg over het beeld, dan klik **Meer** menu ![](assets/more-menu.png) in de laag-juiste hoek van het omslagbeeld, dan doe één van het volgende:
 
-   * Klikken **Uploaden** als u de omslagafbeelding wilt vervangen en stap 6 wilt herhalen om een nieuwe afbeelding te uploaden en op te slaan.
-   * Klikken **Opnieuw plaatsen** en de **Opnieuw plaatsen** gereedschap ![](assets/reposition-tool-icon.png) om de omslagafbeelding te centreren, klikt u op **Opslaan** wanneer gereed.
-   * Klikken **Verwijderen** om de omslagafbeelding te verwijderen.
+   * Klik **uploaden** als u het omslagbeeld wilt vervangen en Stap 6 herhalen om een nieuw beeld te uploaden en te bewaren.
+   * Klik **Verplaatsing**, en gebruik het **hulpmiddel van de Verplaatsing** ![](assets/reposition-tool-icon.png) om het omslagbeeld te centreren, dan klik **sparen** wanneer gedaan.
+   * Klik **verwijderen** om het omslagbeeld te verwijderen.
 
    Workfront slaat uw wijzigingen automatisch op.

@@ -12,7 +12,7 @@ role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -39,40 +39,41 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot gebruikers weergeven. Voor meer informatie over toegang tot het bekijken van gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot gebruikers weergeven. Voor meer informatie over toegang tot het bekijken van gebruikers, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Toegang van de Verlening tot gebruikers </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## De toegangsniveaus en licenties van uw gebruikers weergeven
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Gebruikers**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers**.
 
    Door gebrek, alle gebruikers die als Actieve vertoning in de lijst worden geplaatst.
 
-1. In de **Weergave** vervolgkeuzelijst, selecteert u **Licenties**.
+1. In het **drop-down menu van de Mening**, uitgezochte **Vergunningen**.
 
    In de kolom Licentie wordt de naam weergegeven van de licentie die aan elke gebruiker is toegewezen.
 
-1. In de **Groepering** vervolgkeuzelijst, klikt u op **Licentietype**.
+1. In het **drop-down menu 0} Groepering {, klik** Type van Vergunning **.**
 
    In deze weergave worden de gebruikers gegroepeerd die dezelfde licentietypen hebben.
 
 1. (Optioneel) U kunt als volgt de lijst filteren op een specifieke licentie:
 
-   1. Klik op de knop **Filter** vervolgkeuzemenu en vervolgens op **Nieuw filter**.
+   1. Klik het **drop-down menu van de Filter**, dan klik **Nieuwe Filter**.
 
-   1. Klikken **Filterregel toevoegen**.
-   1. Begin met typen **Licentie** en selecteert u deze wanneer deze in de lijst wordt weergegeven.
-   1. Met de **Gelijk** Selecteer de optie, typ de naam van de licentie waarop u de lijst wilt filteren.
+   1. Klik **toevoegen een Regel van de Filter**.
+   1. Begin het typen **Vergunning** en selecteer het wanneer het in de lijst verschijnt.
+   1. Met de **Gelijke** geselecteerde bepaling, begin de naam van de vergunning te typen u de lijst door wilt filtreren.
 
       U kunt meerdere licentietypen opgeven.
 
-   1. Klikken **Filter opslaan**.
+   1. Klik **sparen Filter**.
 
       In de lijst worden alleen de gebruikers weergegeven die zijn gekoppeld aan de licentietypen die u in het filter hebt opgegeven.
+
    >[!TIP]
    >
    >U kunt de lijst ook groeperen op licentietypen, of het filtreren door een specifieke vergunning.

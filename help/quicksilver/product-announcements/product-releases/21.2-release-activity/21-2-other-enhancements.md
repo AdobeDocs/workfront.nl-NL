@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Andere verbeteringen
 
-Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Zie voor een lijst met alle wijzigingen die beschikbaar zijn in de release 21.2 [21.2 Overzicht van de release](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## We zijn nu officieel Adobe Workfront
 
@@ -37,7 +37,7 @@ Gebieden die binnenkort worden bijgewerkt
 * PDF exporteert voor lijsten en rapporten
 * Pictogram voor favicon op het tabblad browser
 
-**Gebieden die later worden bijgewerkt**
+**Gebieden die later** bijwerken
 
 * E-mailmeldingen
 
@@ -49,7 +49,7 @@ Gebieden die binnenkort worden bijgewerkt
 
 Als u de lijst van gewenste personen van de e-mail gebruikt, worden de nieuwe en bijgewerkte gebruikers e-mailadressen nu bevestigd tegen de lijst van gewenste personen. Wanneer u een nieuwe gebruiker toevoegt of een bestaande gebruiker bewerkt en een e-maildomein invoert dat niet in de lijst van gewenste personen staat, verschijnt er een bericht met de melding dat de gebruiker geen e-mailberichten ontvangt. U kunt het gebruikersprofiel nog steeds opslaan, maar u moet het domein aan de lijst van gewenste personen toevoegen zodat de gebruiker e-mails ontvangt.
 
-Zie voor meer informatie [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Nieuwe vormgeving voor kopteksten van objecten
 
@@ -70,7 +70,7 @@ Eerder was er geen pictogram en werd rechts van de objecttitel een badge met de 
 
 De paginakoppen van gebieden in de nieuwe ervaring van Workfront—zoals Verbeterde analysemogelijkheden, het Beheer van het Middel, en anderen—hebben ook dit bijgewerkte uiterlijk.
 
-Ga voor meer informatie over de nieuwe objectkoppen in de nieuwe Workfront-ervaring naar [Nieuwe objectkoppen](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Meer over de nieuwe objecten kopballen in de nieuwe ervaring van Workfront leren, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ Workfront slaat nu objectstatussen op een nieuwe manier op.
 
 Deze wijzigingen hebben geen invloed op de manier waarop verzoeken om statuszoekopdrachten worden gedaan. API-aanvragen met een zoekopdracht naar objectstatus retourneren echter een onvolledige lijst met groepsstatussen.
 
-Zie voor meer informatie [Core API-wijzigingen: antwoorden op statuszoekopdrachten](../../../wf-api/api/api-changes-search.md) .
+Voor meer informatie, zie {de veranderingen van 0} Kern API: De antwoorden van het het onderzoek van de status ](../../../wf-api/api/api-changes-search.md).[
 
 ## Betalingen voor abonnementen voor gebeurtenissen bijgewerkt met alle velden die eindigen op de id
 
@@ -96,4 +96,4 @@ Het is belangrijk om op te merken dat elk voorwerp zijn eigen unieke reeks bijbe
 
 De blauwdrukken verstrekt basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen installeren.
 
-Zie voor meer informatie [Blauwdrukken](../../../administration-and-setup/blueprints/blueprints.md).
+Voor meer informatie, zie [ Blauwdrukken ](../../../administration-and-setup/blueprints/blueprints.md).

@@ -19,7 +19,7 @@ U kunt snel een kaart aan een raad toevoegen en het aan een lid in de raad toewi
 
 >[!NOTE]
 >
->De ad-hockaarten op een bord zijn niet verbonden met het werk in [!DNL Adobe Workfront]. Zie voor meer informatie over aangesloten kaarten [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>De ad-hockaarten op een board zijn niet verbonden met de tijdelijke items in [!DNL Adobe Workfront] . Voor details over verbonden kaarten, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Toegangsvereisten
 
@@ -42,23 +42,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een ad-hockaart met alle details toevoegen
 
-Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Workfront].
+Een ad-hockaart is niet verbonden met een tijdelijk item in [!DNL Adobe Workfront] .
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront, klik vervolgens op **[!UICONTROL Boards]**.
-1. Toegang tot een bord. Zie voor meer informatie [Een board maken of bewerken](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klikken **[!UICONTROL Add card]>[!UICONTROL New card]**.
+1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Boards]** .
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Klik op **[!UICONTROL Add card]>[!UICONTROL New card]** .
 
-   De [!UICONTROL Card Details] wordt weergegeven.
+   Het vak [!UICONTROL Card Details] wordt weergegeven.
 
    >[!NOTE]
    >
-   >Als u buiten het veld Naam klikt, wordt de ad-hockaart automatisch onder aan de kolom uiterst links opgeslagen als &quot;Naamloos&quot;. Als u de kaart wilt afsluiten zonder deze op te slaan, klikt u op [!UICONTROL **Annuleren**] zonder ergens anders in het dialoogvenster te klikken [!UICONTROL Card Details] doos.
+   >Als u buiten het veld Naam klikt, wordt de ad-hockaart automatisch onder aan de kolom uiterst links opgeslagen als &quot;Naamloos&quot;. Om de kaart weg te gaan zonder te bewaren, moet u [!UICONTROL **annuleren**] klikken zonder elders in de [!UICONTROL Card Details] doos te klikken.
 
-1. In de **[!UICONTROL Card Details]** voegt u de volgende informatie toe:
+1. Voeg in het vak **[!UICONTROL Card Details]** de volgende informatie toe:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -74,11 +74,11 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
-      <td>Selecteer de kolom voor de kaart. Als u de <strong>[!UICONTROL Column]</strong> veld leeg, wordt de kaart in de eerste kolom links van het bord geplaatst.</td>
+      <td>Selecteer de kolom voor de kaart. Als u het veld <strong>[!UICONTROL Column]</strong> leeg laat, wordt de kaart in de eerste kolom links van het bord geplaatst.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Selecteer een status voor de kaart. Als u op <strong>[!UICONTROL Mark Complete]</strong> boven aan de kaart verandert de status automatisch in [!UICONTROL Complete].</td> 
+      <td>Selecteer een status voor de kaart. Als u op <strong>[!UICONTROL Mark Complete]</strong> boven aan de kaart klikt, verandert de status automatisch in [!UICONTROL Complete] .</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
@@ -90,34 +90,34 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
-      <td>Klik op <strong>[!UICONTROL Add Assignment]</strong> en typ een naam in het zoekveld. Selecteer vervolgens de optie wanneer deze wordt weergegeven in de lijst met resultaten. U kunt zowel personen als teams toevoegen en u kunt meerdere personen of teams toewijzen aan een kaart.</td>
+      <td>Als u de kaart wilt toewijzen, klikt u op <strong>[!UICONTROL Add Assignment]</strong> en typt u een naam in het zoekveld. Selecteer vervolgens de optie wanneer deze wordt weergegeven in de lijst met resultaten. U kunt zowel personen als teams toevoegen en u kunt meerdere personen of teams toewijzen aan een kaart.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
-      <td>Zoek naar en selecteer markeringen voor de kaart. Voor informatie over het maken van nieuwe tags raadpleegt u <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags toevoegen</a>.</td> 
+      <td>Zoek naar en selecteer markeringen voor de kaart. Voor informatie bij het creëren van nieuwe markeringen, zie <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref"> markeringen </a> toevoegen.</td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
-      <td>U kunt een ad-hockaart aansluiten op een [!DNL Workfront] taak of probleem. Zie "Een ad-hockaart omzetten in een aangesloten kaart" in het artikel voor meer informatie <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Gekoppelde kaarten op borden gebruiken</a>.</td>
+      <td>U kunt een ad-hockaart aansluiten op een [!DNL Workfront] -taak of -uitgave. Voor meer informatie, zie "een ad hoc kaart in een verbonden kaart"in het artikel <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md"> Gebruik verbonden kaarten op planken </a> omzetten.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Zie voor meer informatie over controlelijstitems <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Controlelijstitems op kaarten beheren</a>.</p> </td> 
+      <td> <p>Klik op <strong>[!UICONTROL Add checklist item]</strong>. Typ vervolgens de titel van het item en druk op Enter. Er wordt automatisch een ander item toegevoegd. Ga door met titels om meer objecten toe te voegen.</p> <p>De teller boven aan de checklist toont het aantal voltooide items en het totale aantal items.</p> <p>Voor meer informatie over controlelijstitems, zie <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md"> controlelijstitems op kaarten </a> beheren.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klik in het dialoogvenster <strong>[!UICONTROL New comment]</strong> veld en typ uw opmerking. Gebruik de opmaakgereedschappen om de tekst op te maken. (Afbeeldingen zijn niet beschikbaar in opmerkingen op ad-hockaarten.) Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn.</p><p><strong>OPMERKING:</strong> Op dit moment ontvangen gebruikers die zijn getagd in opmerkingen op ad-hockaarten geen e-mailmelding.
-      </p><p>Klikken <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
-      <p>Zie voor meer informatie over opmerkingen <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Werk bijwerken</a>.</p></td>
+      <td><p>Klik in het veld <strong>[!UICONTROL New comment]</strong> en voer de opmerking in. Gebruik de opmaakgereedschappen om de tekst op te maken. (Afbeeldingen zijn niet beschikbaar in opmerkingen op ad-hockaarten.) Als u een persoon of team wilt labelen, gebruikt u het zoekvak onder aan het gebied met opmerkingen. De gebruiker hoeft geen lid van de raad te zijn.</p><p><strong> NOTA:</strong> Op dit ogenblik, ontvangen de gebruikers die in commentaren op ad hoc kaarten worden geëtiketteerd geen e-mailbericht.
+      </p><p>Klik op <strong>[!UICONTROL Submit]</strong> om de opmerking aan de kaart toe te voegen.</p>
+      <p>Voor meer informatie bij het becommentariëren, zie <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md"> het werk van de Update </a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   ![Ad-hockaartgegevens](assets/ad-hoc-card-details-with-comments.png)
+   ![ Ad hoc kaartdetails ](assets/ad-hoc-card-details-with-comments.png)
 
    Gebruik het linkernavigatievenster om tussen secties van gebieden op de kaartdetails te bewegen.
 
-1. Klikken **[!UICONTROL Close]** de kaart aan het bord toevoegen.
+1. Klik op **[!UICONTROL Close]** om de kaart aan het bord toe te voegen.
 
    De toewijzingen, tags, vervaldatum, teller van de checklist, geschatte uren en status worden weergegeven op de kaart.
 
@@ -126,14 +126,14 @@ Een ad-hockaart is niet verbonden met een tijdelijk onderdeel in [!DNL Adobe Wor
 U kunt ad-hockaarten met alleen een titel toevoegen om uw board snel te vullen.
 
 1. Open het bord waaraan u kaarten wilt toevoegen.
-1. Klik op de knop **[!UICONTROL Add]** pictogram ![Kaart toevoegen](assets/addicon-spectrum.png) op de kolom waar u de kaart wilt toevoegen.
+1. Klik het **[!UICONTROL Add]** pictogram ![ kaart ](assets/addicon-spectrum.png) op de kolom toevoegen waar u de kaart wilt toevoegen.
 1. Typ de kaartnaam en druk op Enter.
 
    Er wordt automatisch een andere kaart toegevoegd onder de nieuwe kaart.
 
 1. Ga door met het invoeren van kaartnamen om meer kaarten toe te voegen.
 1. Als u geen kaarten meer wilt toevoegen, klikt u buiten de kolom.
-1. Als u meer details wilt toevoegen, moet u de kaart bewerken. Zie voor meer informatie [Een bestaande kaart bewerken](#edit-an-existing-card) in dit artikel.
+1. Als u meer details wilt toevoegen, moet u de kaart bewerken. Voor informatie, zie [ een bestaande kaart ](#edit-an-existing-card) in dit artikel uitgeven.
 
 ## Een bestaande kaart bewerken {#edit-an-existing-card}
 
@@ -143,8 +143,8 @@ U kunt ad-hockaarten met alleen een titel toevoegen om uw board snel te vullen.
 
    of
 
-   Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]** .
 
-1. In de [!UICONTROL Card Details] , werkt u de gegevens naar wens bij en klikt u op **[!UICONTROL Close]** om terug te keren naar de raad van bestuur.
+1. Werk in het vak [!UICONTROL Card Details] de benodigde gegevens bij en klik op **[!UICONTROL Close]** om terug te keren naar het Klembord.
 
-   Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, wordt bij het wijzigen van de status op de kaart de kaart automatisch naar de corresponderende kolom verplaatst. Zie &quot;Kolominstellingen en beleid definiëren&quot; in het artikel voor meer informatie [Bordkolommen beheren](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Als u kolombeleid hebt ingeschakeld voor het bijwerken van veldwaarden, wordt bij het wijzigen van de status op de kaart de kaart automatisch naar de corresponderende kolom verplaatst. Voor meer informatie, zie &quot;kolommontages en beleid&quot;in het artikel [ leiden boardkolommen ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

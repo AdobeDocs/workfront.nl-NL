@@ -12,7 +12,7 @@ role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1883'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
-Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of inschakelen via een toegangsniveau.
+Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of inschakelen met behulp van een toegangsniveau.
 
 ## Projecten
 
@@ -52,7 +52,7 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 | Risico&#39;s beheren | ✓ |   |   |   |   |
 | Financiering beheren | ✓ |   |   |   |   |
 | Kosten toevoegen/bewerken | ✓ | ✓ |   |   |   |
-| Sjablonen koppelen | ✓ |   |   |   |   |
+| Sjablonen bijvoegen | ✓ |   |   |   |   |
 | Opslaan als sjabloon | ✓ |   |   |   |   |
 | Een bedrijfscase toevoegen/bewerken | ✓ |   |   |   |   |
 | Projectdetails bewerken | ✓ |   |   |   |   |
@@ -63,7 +63,7 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 
 
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Taken
 
@@ -95,7 +95,7 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Problemen
 
@@ -123,9 +123,9 @@ Alleen gebruikers met een licentie voor een abonnement kunnen volledige toegang 
 
 
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-## Portfolio
+## Portfolio&#39;s
 
 Alleen gebruikers met een licentie voor abonnementen kunnen volledige toegang tot portfolio&#39;s hebben.
 
@@ -147,7 +147,7 @@ Alleen gebruikers met een licentie voor abonnementen kunnen volledige toegang to
 
 
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Programma&#39;s
 
@@ -171,7 +171,7 @@ Alleen gebruikers met een licentie voor abonnementen kunnen volledige toegang to
 
 
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Rapporten, dashboards en kalenders
 
@@ -191,7 +191,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 >[!NOTE]
 >
@@ -274,7 +274,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
  </tbody> 
 </table>
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Documenten
 
@@ -293,8 +293,8 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 | Documenten goedkeuren | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Aangepaste formulieren bijvoegen | ✓ | ✓ | ✓ | ✓ |   |
 | Aangepaste velden bewerken | ✓ | ✓ | ✓ | ✓ |   |
-| Verplaatsen naar (object) | ✓ | ✓ | ✓ | ✓ |   |
-| Verzenden naar (integratie) | ✓ | ✓ | ✓ | ✓ |   |
+| Naar (object) | ✓ | ✓ | ✓ | ✓ |   |
+| Naar (integratie) | ✓ | ✓ | ✓ | ✓ |   |
 | Updates en opmerkingen toevoegen | ✓ | ✓ | ✓ | ✓ |   |
 | Nieuwe versie uploaden | ✓ | ✓ | ✓ | ✓ |   |
 | Een versie verwijderen | ✓ | ✓ | ✓ | ✓ |   |
@@ -302,16 +302,16 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 | Proef | ✓ | ✓ | ✓ | ✓ |   |
 | Proef genereren | ✓ | ✓ |   |   |   |
 | Proef verwijderen | ✓ | ✓ | ✓ | ✓ |   |
-| Toevoegen/verwijderen&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
-| Naam wijzigen&#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
+| Toevoegen/verwijderen &#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
+| Naam wijzigen &#42;&#42; | ✓ | ✓ | ✓ | ✓ |   |
 | Koppeling (met integratie) | ✓ | ✓ | ✓ | ✓ |   |
 | Ontkoppelen (met integratie) | ✓ | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Alleen beschikbaar voor documentmappen, niet voor documenten
+&#42;&#42; beschikbaar slechts voor documentomslagen, niet documenten
 
 ## Gebruikers
 
@@ -390,9 +390,9 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
  </tbody> 
 </table>
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Externe gebruikers kunnen alleen zoeken naar andere gebruikers
+&#42;&#42; de Externe gebruikers kunnen slechts naar andere gebruikers zoeken
 
 ## Teams
 
@@ -465,7 +465,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
  </tbody> 
 </table>
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Sjablonen
 
@@ -481,7 +481,7 @@ Gebruikers met een licentie voor abonnementen kunnen volledige toegang krijgen t
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Financiële gegevens
 
@@ -498,52 +498,52 @@ De licentietypen Verzoek en Externe gebruiker zijn hier niet opgenomen omdat ze 
 | Factureringsrecords beheren | ✓ |   |   |
 | Kosten beheren | ✓ | ✓ |   |
 | Financiële gegevens weergeven | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Creditcards beheren</span> | ✓ |   |   |
+| <span class="preview"> beheert tariefkaarten </span> | ✓ |   |   |
 | De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel | ✓ |   |   |
-| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |
-| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel&#42; | ✓ | ✓ | ✓ |
+| De Middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |
+| De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel &#42; | ✓ | ✓ | ✓ |
 | Risico&#39;s maken voor projecten | ✓ |   |   |
 | Risico&#39;s weergeven voor projecten | ✓ | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Vereist extra toegang tot het Beheer van het Middel.
+&#42;&#42; vereist extra toegang tot het Beheer van het Middel.
 
 ## Bronbeheer
 
-Alleen gebruikers met een abonnement hebben volledige toegang tot [object of gebied selecteren]. Andere licentietypen kunnen beperkte of geen toegang hebben tot Resource Management in Workfront.
+Slechts kunnen de gebruikers met een vergunning van het Plan volledige toegang tot [ selecteren voorwerp of gebied ] hebben. Andere licentietypen kunnen beperkte of geen toegang hebben tot Resource Management in Workfront.
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
 | Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |   |
-| Brongroepen maken, bewerken en verwijderen&#42;&#42; | ✓&#42; |   |   |   |   |
+| Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
 | Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |   |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Brongroepen weergeven | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
-| De middelen van de begroting in de hulpmiddelen van de Planning van het Middel&#42;&#42; | ✓ |   |   |   |   |
+| De middelen van de begroting in de hulpmiddelen van de Planning van het Middel &#42;&#42; | ✓ |   |   |   |   |
 | Bronnenpools koppelen aan projecten, sjablonen en gebruikers | ✓ |   |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Met een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Zie voor meer informatie [Configureerbare toegang tot functionaliteit voor elk objecttype](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+&#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen. Voor meer informatie, zie [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [Financiële machtigingen delen op een object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Hiervoor is toestemming vereist om Contribute aan het object toe te voegen, waarbij Toewijzingen inschakelen onder Geavanceerde instellingen is ingeschakeld. Zie de sectie [Begrijp geërfde toestemmingen en de hiërarchie van voorwerpen](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [Overzicht van het delen van machtigingen voor objecten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42; vereist toestemming aan Contribute aan het voorwerp, met de Toewijzingen van het Merk die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
 
 ## Scenario Planner, gebied
 
 | Handeling | Planner | Worker | Revisor | Aanvrager | Externe gebruiker |
 |---|---|---|---|---|---|
 | Bestaande plannen en initiatieven maken/bewerken | ✓ | ✓ | ✓ |   |   |
-| Informatie over een taakrol toevoegen of bewerken in plannen en initiatieven&#42; | ✓ | ✓ | ✓ |   |   |
-| Kosteninformatie over plannen en initiatieven toevoegen of bewerken&#42; | ✓ | ✓ | ✓ |   |   |
+| Taakrolinformatie toevoegen of bewerken over plannen en initiatieven &#42; | ✓ | ✓ | ✓ |   |   |
+| Kosteninformatie over plannen en initiatieven toevoegen of bewerken &#42; | ✓ | ✓ | ✓ |   |   |
 | Plannen en initiatieven verwijderen | ✓ | ✓ | ✓ |   |   |
 | Scenario&#39;s weergeven in het hoofdmenu ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
-| Abonnementen en initiatieven weergeven die de gebruiker heeft gemaakt&#42; | ✓ | ✓ | ✓ |   |   |
+| De plannen en de initiatieven van de mening die de gebruiker &#42; creeerde | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -551,9 +551,9 @@ Alleen gebruikers met een abonnement hebben volledige toegang tot [object of geb
 >
 >De gebruikers kunnen een plan bekijken dat een andere gebruiker creeerde slechts als een verbinding aan het plan met hen wordt gedeeld.
 
-&#42; Gebruikers die financiële gegevens in een plan of initiatief willen bekijken, hebben toegang tot financiële gegevens nodig. Zie voor meer informatie [Toegang tot financiële gegevens verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Gebied Workfront-doelen
+## Gebied met Workfront-doelen
 
 | Handelingen | Weergave | Bewerken |
 |---|---|---|

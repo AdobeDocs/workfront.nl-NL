@@ -13,10 +13,10 @@ ht-degree: 0%
 
 ---
 
-# Installeer de  [!DNL Adobe Workfront] insteekmodule voor [!DNL Creative Cloud] Toepassingen
+# De [!DNL Adobe Workfront] -insteekmodule voor [!DNL Creative Cloud] -toepassingen installeren
 
-Deze sectie bevat de volgende artikelen. Voor instructies over het installeren van de [!DNL Adobe Workfront] , raadpleegt u het artikel voor de toepassing waarin u de plug-in installeert.
+Deze sectie bevat de volgende artikelen. Zie het artikel voor de toepassing waarin u de plug-in installeert voor instructies voor het installeren van de [!DNL Adobe Workfront] -plug-in.
 
-* [Installeren en openen [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* [Installeren en openen [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* [Installeren en openen [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* [Installeren en openen  [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+* [Installeren en openen  [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* [Installeren en openen  [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

@@ -11,7 +11,7 @@ role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ De volgende taakstatussen worden geleverd bij uw Workfront-exemplaar:
   <tr> 
    <td>Voltooid (vereiste status)</td> 
    <td> <p>U kunt een taak handmatig markeren als deze is voltooid.</p> <p>Als de modus Tekstspatiëring van een taak is ingesteld op Automatisch aanvullen, wordt de taak automatisch gemarkeerd als Voltooid wanneer de geplande datum van voltooiing is bereikt.</p> </td> 
-   <td> <p>Wanneer een taak wordt voltooid, is het percentage voltooide van de taak duidelijk als 100%. De taak wordt verwijderd uit de werklijst van de ontvanger in het gebied van het Huis wanneer het wordt voltooid.</p> <p>Wanneer u een taak markeert als Voltooid, toont de taak een waarde voor de Ware Datum van Voltooiing.</p> <p><b>OPMERKING</b>: Als de taak onvolledige problemen heeft en u de taakstatus wijzigt in Voltooid, verandert de status automatisch in Voltooid - In behandeling zijnde problemen.</p> </td> 
+   <td> <p>Wanneer een taak wordt voltooid, is het percentage voltooide van de taak duidelijk als 100%. De taak wordt verwijderd uit de werklijst van de ontvanger in het gebied van het Huis wanneer het wordt voltooid.</p> <p>Wanneer u een taak markeert als Voltooid, toont de taak een waarde voor de Ware Datum van Voltooiing.</p> <p><b> NOTA </b>: Als de taak onvolledige kwesties heeft en u de taakstatus in Voltooid verandert, verandert de status automatisch in Volledig - In afwachting van Kwesties.</p> </td> 
   </tr> 
  </tbody> 
 </table>

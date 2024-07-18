@@ -10,7 +10,7 @@ role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als Adobe Workfront-beheerder kunt u de pagina Mededelingen gebruiken om aankond
 
 Aankondigingsberichten van Workfront bevatten doorgaans informatie over nieuwe functies en releases, proceswijzigingen enzovoort.
 
-Voor informatie over het bekijken van aankondigingen, zie [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Voor informatie over het bekijken van aankondigingen, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Toegangsvereisten
 
@@ -41,71 +41,71 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Zie voor meer informatie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>.</p> <p><b>OPMERKING</b>: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Aankondigingen verzenden aan gebruikers
 
-U kunt de **Aankondigingen** pagina om met gebruikers in uw systeem van Workfront te communiceren door aankondigingen door:sturen die van Workfront worden verzonden en door nieuwe aankondigingen samen te stellen. U kunt aankondigingen naar specifieke gebruikers, groepen, teams of bedrijven in uw Workfront-systeem verzenden.
+U kunt de **pagina van Mededelingen** gebruiken om met gebruikers in uw systeem van Workfront te communiceren door aankondigingen door:sturen die van Workfront worden verzonden en door nieuwe aankondigingen samen te stellen. U kunt aankondigingen naar specifieke gebruikers, groepen, teams of bedrijven in uw Workfront-systeem verzenden.
 
-* [Workfront-aankondigingen doorsturen naar gebruikers](#forward-workfront-announcements-to-users)
+* [ door:sturen Workfront aankondigingen aan gebruikers ](#forward-workfront-announcements-to-users)
 * [Nieuwe aankondigingen samenstellen](#compose-new-announcements)
 
 ### Workfront-aankondigingen doorsturen naar gebruikers {#forward-workfront-announcements-to-users}
 
 U kunt gemakkelijk berichten die u van Workfront aan gebruikers in uw systeem ontvangt door:sturen.
 
-1. Ga naar de pagina Mededelingen door op de knop **Melding** in de rechterbovenhoek van de Workfront-interface en klikt u vervolgens op **Alle aankondigingen**.
+1. Ga naar de pagina van Mededelingen door het **pictogram van het Bericht** in de hoger-juiste hoek van de interface van Workfront te klikken, dan klik **Alle Mededelingen**.
 
    ![](assets/announcement-access-350x212.png)
 
-1. Op de **Aankondigingen** selecteert u het bericht dat u wilt doorsturen.
-1. Klikken **Doorsturen**.
-1. In de **Verzenden naar** typt u de naam van een gebruiker, groep, team of bedrijf die u de aankondiging wilt ontvangen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. Herhaal dit proces om meerdere gebruikers, groepen, teams of bedrijven toe te voegen.
+1. Voor de **pagina van Mededelingen**, selecteer het bericht dat u wilt door:sturen.
+1. Klik **vooruit**.
+1. In **verzend aan** doos, begin typend de naam van een gebruiker, een groep, een team, of een bedrijf die u het aankondigingsbericht wilt ontvangen, dan klik de naam wanneer het in de drop-down lijst verschijnt. Herhaal dit proces om meerdere gebruikers, groepen, teams of bedrijven toe te voegen.
 
    of
 
-   Als u de aankondiging wilt doorsturen naar alle gebruikers in uw systeem, begint u te typen **Iedereen** en klikt u erop wanneer het wordt weergegeven in de vervolgkeuzelijst.
+   Om de aankondiging aan alle gebruikers in uw systeem door:sturen, begin **iedereen** te typen, dan het te klikken wanneer het in de drop-down lijst verschijnt.
 
-1. Ga door met stap 3 in [Nieuwe aankondigingen samenstellen](#compose-new-announcements).
+1. Ga met Stap 3 in [ verder stel nieuwe aankondigingen ](#compose-new-announcements) samen.
 
 ### Nieuwe aankondigingen samenstellen {#compose-new-announcements}
 
-1. Ga naar de pagina Mededelingen door op de knop **Melding** in de rechterbovenhoek van de Workfront-interface en klikt u vervolgens op **Alle aankondigingen**.
+1. Ga naar de pagina van Mededelingen door het **pictogram van het Bericht** in de hoger-juiste hoek van de interface van Workfront te klikken, dan klik **Alle Mededelingen**.
 
    ![](assets/announcement-access-350x212.png)
 
-1. Op de **Aankondigingen** pagina, klikt u op **Nieuwe aankondiging.**
+1. Op de **Mededelingen** pagina, klik **Nieuwe Aankondiging.**
 
-1. In de **Verzenden naar** typt u de naam van een gebruiker, groep, team of bedrijf die u de aankondiging wilt ontvangen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. Herhaal dit proces om meerdere gebruikers, groepen, teams of bedrijven toe te voegen.
+1. In **verzend aan** doos, begin typend de naam van een gebruiker, een groep, een team, of een bedrijf die u het aankondigingsbericht wilt ontvangen, dan klik de naam wanneer het in de drop-down lijst verschijnt. Herhaal dit proces om meerdere gebruikers, groepen, teams of bedrijven toe te voegen.
 
-   Standaard, bij het verzenden van een nieuw aankondigingsbericht **Iedereen** is vooraf ingevuld in dit veld. Als u niet wilt dat alle gebruikers in uw systeem de aankondiging ontvangen, verwijdert u **Iedereen** in de lijst.
+   Door gebrek, wanneer het verzenden van een nieuw aankondigingsbericht, **iedereen** is pre-bevolkt op dit gebied. Als u niet alle gebruikers in uw systeem wilt de aankondigingsbericht ontvangen, verwijder **iedereen** uit de lijst.
 
 1. Geef de volgende aanvullende informatie op:
 
    | Onderwerp | Geef een onderwerp voor de aankondiging op. |
    |---|---|
    | Typ hier het bericht | Geef de inhoud van het bericht op. De berichtredacteur laat u toe om gemeenschappelijke prijsverhoging, met inbegrip van vette letters, cursief, onderstrepen, bulleted en genummerde lijsten, en hyperlinks te omvatten. |
-   | Bijlagen | Klikken **Bijlage toevoegen** Blader naar het bestand dat u als bijlage aan het bericht wilt toevoegen en selecteer het bestand. |
+   | Bijlagen | Klik **toevoegen Bijlage,** dan doorblader aan en selecteer het dossier u aan het bericht wilt vastmaken. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. (Optioneel) Klik op **Opslaan als concept** om het bericht (met inbegrip van de ontvankelijke lijst, onderwerp, en gehechtheid) als ontwerp op te slaan.
+1. (Facultatief) klik **sparen als Ontwerp** om het bericht (met inbegrip van de ontvankelijke lijst, onderwerp, en gehechtheid) als ontwerp te bewaren.
 
-1. (Optioneel) Als u een concept wilt bekijken, gaat u naar **Aankondigingen** gebied, klikken **Concepten**.
+1. (Facultatief) om een ontwerp, in het **gebied van Mededelingen** te bekijken, klik **Concepten**.
 
-1. Klikken **Verzenden.**
+1. Klik **verzenden.**
 
-   Gebruikers kunnen nu het aankondigingsbericht weergeven, zoals beschreven in [Meldingen in apps weergeven en beheren](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+   De gebruikers kunnen het aankondigingsbericht nu bekijken, zoals die in [ wordt beschreven Mening en binnen-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md) beheert.
 
 ## Beperk de typen Workfront-aankondigingen die u ontvangt
 
-Als u een Workfront-beheerder bent, kunt u het abonnement op bepaalde typen berichten opzeggen.
+Als u een Workfront-beheerder bent, kunt u het abonnement op het ontvangen van bepaalde typen berichten opzeggen.
 
-Standaard ontvang je alle berichten die je van Workfront hebt verzonden. Dit is de aanbevolen configuratie.
+Standaard ontvang je alle berichten die je van Workfront hebt verzonden. Dit is de geadviseerde configuratie.
 
-1. Op de **Aankondigingen** pagina, klikt u op **Instellingen.**
+1. Voor de **pagina van Mededelingen**, klik **Montages.**
 1. Selecteer de onderwerpen waarvoor u geen berichten meer wilt ontvangen.
-1. Klikken **Instellingen opslaan.**
+1. Klik **sparen Montages.**

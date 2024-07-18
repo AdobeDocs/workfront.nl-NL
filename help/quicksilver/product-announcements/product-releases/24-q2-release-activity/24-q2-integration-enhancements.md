@@ -4,7 +4,8 @@ description: Verbeteringen voor integratie in tweede kwartaal 2024
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 50b2a86a1319f520ec00b0060f6c6ae0c4dfc597
+exl-id: 6e9b5c5c-562d-4591-a2ab-c8fd9da353fd
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release van het tweede kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal van de versiecyclus 2024, zie [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie
 
@@ -31,12 +32,6 @@ Nu kunt u:
 * Maak meerdere mappenstructuren en stel er vervolgens een in als de standaardinstelling voor de integratie.
 * Stel filters in op basis van aangepaste formulierveldgegevens, zodat er in Adobe Experience Manager een opgegeven mapstructuur wordt gemaakt.
 
-Voor informatie over het configureren van gekoppelde mappen in de Adobe Experience Manager-workflows raadpleegt u [Gekoppelde Adobe Experience Manager-mappen maken](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
+Voor informatie bij het vormen van verbonden omslagen in de werkschema&#39;s van Adobe Experience Manager, zie [ Adobe Experience Manager verbonden omslagen ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) creëren.
 
-Voor informatie over het gebruiken van de werkschema&#39;s van Adobe Experience Manager op projecten of projectmalplaatjes, zie[Workflows gebruiken in de Experience Manager Assets-integratie](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-
-
-
+Voor informatie bij het gebruiken van de werkschema&#39;s van Adobe Experience Manager op projecten of projectmalplaatjes, zie [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

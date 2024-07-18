@@ -9,7 +9,7 @@ feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Het begroten van uw middelen voor het werk zij aan een project moeten verwezenlijken is de belangrijkste functie van de Planner van het Middel. U kunt de beschikbare tijd van uw bronnen weergeven en de tijd toewijzen aan de projecten waaraan deze zijn toegewezen.
 
-Voor informatie over het opnemen van middelen in de Planner van het Middel, zie [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+Voor informatie over het opnemen van middelen in de Planner van het Middel, zie {de middelen van de Begroting in de Planner van het Middel die de meningen van het Project en van de Rol gebruiken ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)[
 
 Dit artikel beschrijft enkele zeer belangrijke concepten die u moet kennen alvorens om uw middelen in de Planner van het Middel te beginnen begroten.
 
@@ -36,33 +36,34 @@ Houd rekening met het volgende wanneer u bronnen in de begroting opneemt met de 
 
 * U kunt de toewijzing van uw middelen begroten door een hoeveelheid uren, VTE, of Kosten te specificeren die uw middelen kunnen gebruiken om het werk aan projecten te voltooien. Wanneer u tijd of kosten voor een middel begroot, vermindert de Beschikbare Uren, VTE, of Kosten voor het middel met het begrote bedrag. Dientengevolge de Beschikbare Uren, VTE, of bedragen van Kosten voor de projecten die het project volgen waarvoor u in de begroting vermindert voor die gebruikers en rollen op die projecten.
 
-   >[!IMPORTANT]
-   >
-   >U kunt uw middelen voor een periode van 15 jaar begroten. Als u middelen begroot voor een project met een looptijd van meer dan 15 jaar, is de begrotingsinformatie misschien niet correct.
+  >[!IMPORTANT]
+  >
+  >U kunt uw middelen voor een periode van 15 jaar begroten. Als u middelen begroot voor een project met een looptijd van meer dan 15 jaar, is de begrotingsinformatie misschien niet correct.
 
 * U kunt Uren, FTE, of Kosten voor uw middelen voor om het even welk tijdkader begroten dat in de Planner van het Middel, onafhankelijk van de chronologie van het project wordt getoond. Als u bijvoorbeeld wilt aangeven dat uw bronnen mogelijk niet beschikbaar zijn tijdens de tijdlijn van het project (waar ze zijn gekoppeld aan geplande uren), maar wel op een ander tijdstip beschikbaar zijn, kunt u dit doen door de bronnen in te voegen voor tijdframes waarin de geplande uren nul zijn, als dat het moment is waarop ze beschikbaar zijn om te werken. U kunt de chronologie van het project manueel veranderen om uw middelbeschikbaarheid aan te passen nadat u dit doet.
 
-   >[!NOTE]
-   >
-   >Wij adviseren dat u manueel uw Uren, FTE, of Kosten voor baanrollen of voor gebruikers eerst begroot. U kunt de automatische opties gebruiken om tijd voor uw projecten en middelen slechts te begroten wanneer u zeker bent dat de hoeveelheid Geplande Uren, VTE, of Kosten altijd uw Gefabriceerde Uren, FTE, of Kosten zou moeten aanpassen.\
-   >Voor informatie over het gebruiken van de automatische opties voor het opnemen in de Planner van het Middel, zie de sectie &quot;het project en de rollen van de Begroting automatisch&quot;in het artikel [Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >[!NOTE]
+  >
+  >Wij adviseren dat u manueel uw Uren, FTE, of Kosten voor baanrollen of voor gebruikers eerst begroot. U kunt de automatische opties gebruiken om tijd voor uw projecten en middelen slechts te begroten wanneer u zeker bent dat de hoeveelheid Geplande Uren, VTE, of Kosten altijd uw Gefabriceerde Uren, FTE, of Kosten zou moeten aanpassen.\
+  >Voor informatie over het gebruiken van de automatische opties voor het opnemen in de Planner van het Middel, zie het &quot;project en de rollen van de Begroting automatisch&quot;in het artikel [ middelbeschikbaarheid en de toewijzing van het Overzicht gebruikend de Planner van het Middel van Adobe Workfront ](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * FTE of kosten worden op dezelfde wijze begroot als de begrotingsuren, waarbij Adobe Workfront de FTE en de kostenwaarden gebruikt in plaats van de uren voor de middelen die u begroot.
 
-   Voor meer informatie over het begrijpen hoe de Kosten in de Planner van het Middel worden berekend, zie [Kosten berekenen in de bronnenplanner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  Voor meer informatie over het begrip hoe de Kosten in de Planner van het Middel worden berekend, zie [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 * Het begroten van toewijzingen voor uw middelen in de Planner van het Middel wordt gedaan op de volgende manieren:
 
    * Handmatig
 
-      of
+     of
 
-   * Automatisch, door de project en rolopties in te gebruiken **Weergeven op project** en **Weergeven op rol** weergaven.
-   Zie voor meer informatie [De middelen van de begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * Automatisch, door het project en rolopties in de **Mening door Project** en **Mening door de meningen van de Rol** te gebruiken.
+
+  Voor meer informatie, zie [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Wanneer een gebruiker baanrollen verandert, wordt geschrapt, gedeactiveerd, of uit een Pool van het Middel verwijderd, veranderen de uren die voor de rol worden begroot niet en zij worden opnieuw verdeeld aan de resterende gebruikers in de rol. Als geen gebruiker meer met de baanrol wordt geassocieerd, worden de Begroeide Uren voor de rol nul.
 
-Zie de sectie voor meer informatie over de project- en rolopties [Begrijp de waarden van Uren, FTE, en Kosten in de Planner van het Middel](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in dit artikel.
+Voor meer informatie over het project en de rolopties, zie de sectie [ de waarden van Uren, VTE, en Kosten in de Planner van het Middel ](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in dit artikel begrijpen.
 
 ## Begrijp de waarden van Uren, FTE, en Kosten in de Planner van het Middel {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
@@ -70,29 +71,29 @@ Zie de sectie voor meer informatie over de project- en rolopties [Begrijp de waa
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this needs to be broken into its own article and leave here just the how-to: see this article: overview-of-planner-hour-fte-cost-information-in-role-project-views)</p>
 -->
 
-Voordat u de bronnen in de begroting opneemt en de informatie over de begrote uren uren in de functie Bronnen bijwerkt, moet u bekend zijn met de volgende concepten
+Voordat u de bronnen in de begroting opneemt en de informatie over de begrote uren uren in de functie Bronnen bijwerkt, moet u de volgende concepten kennen
 
-* **Geplande uren, VTE of Kosten**: Het werk dat moet worden verricht zoals gedefinieerd voor taken en kwesties.
-* **Beschikbare uren, VTE of Kosten**: De hoeveelheid tijd dat de gebruikers of baanrollen aan het werk, volgens de programma&#39;s verbonden aan de gebruikers beschikbaar zijn.
+* **Geplande Uren, VTE, of Kosten**: Het werk dat zoals bepaald op taken en kwesties moet worden gedaan.
+* **Beschikbare Uren, VTE, of Kosten**: De hoeveelheid tijd dat de gebruikers of baanrollen aan het werk, volgens de programma&#39;s verbonden aan de gebruikers beschikbaar zijn.
 
 Deze informatie toont in de Planner van het Middel voor elk middel (gebruiker of rol) en voor elk project.
 
-Raadpleeg het artikel voor informatie over wat wordt weergegeven in de projectweergaven en de weergave Rol van het project [Overzicht van de navigatie in de bronnenplanner](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor informatie over wat vertoningen in het Project en de Weergaven van de Rol van het project, zie het artikel [ navigatie van de Planner van het Middel ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Voor informatie over het begrijpen hoe de Kosten in de Planner van het Middel worden berekend, zie het artikel [Kosten berekenen in de bronnenplanner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Voor informatie over het begrip hoe de Kosten in de Planner van het Middel worden berekend, zie het artikel [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 >[!NOTE]
 >
 >Het begroten door Kosten is identiek aan het begroten door Uren of VTE, maar u moet begrijpen hoe Workfront Kosten voor de Planner van het Middel berekent.
 >
->Voor informatie over hoe de kosten in de Planner van het Middel worden berekend, zie het artikel [Kosten berekenen in de bronnenplanner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>Voor informatie over hoe de kosten in de Planner van het Middel worden berekend, zie het artikel [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de Planner van het Middel wanneer het toepassen van of het Project of de mening van de Rol toont. U kunt deze informatie op Uren, VTE, of Kosten bekijken:
 
-* [De kolom AVL (Beschikbaar)](#the-avl-available-column)
-* [De kolom PLN (gepland)](#the-pln-planned-column)
-* [De BDG-kolom (begroot)](#the-bdg-budgeted-column)
-* [De kolom VAR (Variantie)](#the-var-variance-column)
+* [ de (Beschikbare) AVL kolom ](#the-avl-available-column)
+* [ PLN (Geplande) kolom ](#the-pln-planned-column)
+* [ BDG (Bewogen) kolom ](#the-bdg-budgeted-column)
+* [ VAR (Variantie) kolom ](#the-var-variance-column)
 * [De kolom NET](#the-net-column)
 
 ### De kolom AVL (Beschikbaar) {#the-avl-available-column}
@@ -102,8 +103,8 @@ De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td><strong>Beschrijving</strong> </td> 
+   <td><strong> Weergegeven door </strong> </td> 
+   <td><strong> Beschrijving </strong> </td> 
   </tr> 
   <tr> 
    <td>Project </td> 
@@ -111,12 +112,12 @@ De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de 
   </tr> 
   <tr> 
    <td>Rol</td> 
-   <td> <p>Het totaal van Uren, VTEs, of Kosten waarvoor alle gebruikers verbonden aan deze rol beschikbaar zijn om volgens hun programma en hun <strong>Percentage van de beschikbaarheid van VTE</strong> voor die specifieke rol, voor het geselecteerde tijdkader. </p> <p>Overweeg het volgende: </p> 
+   <td> <p>Het totaal van Uren, FTEs, of Kosten waarvoor alle gebruikers verbonden aan deze rol beschikbaar zijn om volgens hun programma en hun <strong> Percentage van VTE Beschikbaarheid </strong> voor die specifieke rol, voor het geselecteerde tijdkader te werken. </p> <p>Overweeg het volgende: </p> 
     <ul> 
      <li>Als geen gebruiker aan een baanrol wordt geassocieerd, dan is de waarde voor de Beschikbare Uren voor de baanrol nul. </li> 
-     <li>Als een gebruiker aan een Primaire Rol van de Baan wordt geassocieerd, maar <strong>Percentage van de beschikbaarheid van VTE</strong> voor de rol 0% is, is de waarde voor Beschikbare uren van de baanrol nul.</li> 
-     <li>Als de gebruiker aan Andere Rollen en wordt geassocieerd <strong>Percentage van de beschikbaarheid van VTE</strong> voor de rollen 0% is, zijn de Andere Rollen niet vermeld in de Planner van het Middel en de gebruiker toont slechts onder hun Primaire Rol.</li> 
-    </ul> <p>Voor meer informatie over de <strong>Percentage van de beschikbaarheid van VTE</strong> zie het artikel voor een taakrol <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Gebruikersprofiel bewerken</a>.</p> <p>Voor meer informatie over hoe de baanrolbeschikbaarheid in de Planner van het Middel wordt berekend, zie de sectie "de Beschikbare Uren en FTE voor een baanrol in de Planner van het Middel"in het artikel berekenen <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p> </td> 
+     <li>Als een gebruiker met een Primaire Rol van de Baan wordt geassocieerd, maar het <strong> Percentage van VTE Beschikbaarheid </strong> voor de rol is 0%, is de waarde van de Puren van de baanrol Beschikbare nul.</li> 
+     <li>Als de gebruiker met Andere Rollen en het <strong> Percentage van de Beschikbaarheid van FTE </strong> voor de rollen wordt geassocieerd is 0%, zijn Andere Rollen niet vermeld in de Planner van het Middel en de gebruikersvertoningen slechts onder hun Primaire Rol.</li> 
+    </ul> <p>Voor meer informatie over het <strong> Percentage van de Beschikbaarheid van FTE </strong> voor een baanrol, zie het artikel <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> uitgeven het profiel van een gebruiker </a>.</p> <p>Voor meer informatie over hoe de beschikbaarheid van de baanrol in de Planner van het Middel wordt berekend, zie de sectie "de Beschikbare Uren FTE voor een baanrol in de Planner van het Middel"in het artikel <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref"> Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel </a> berekenen.</p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
@@ -127,12 +128,12 @@ De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de 
      <li>de voor andere projecten begrote uren. </li> 
     </ul> <p>De Beschikbare Uren, FTEs, of Kosten voor een gebruiker veranderen volgens het volgende: </p> 
     <ul> 
-     <li>hoe hun programma en FTE gebaseerd op de Voorkeur van het Beheer van het Middel op het systeemniveau worden berekend.<br><p>Raadpleeg het artikel voor meer informatie over het berekenen van de beschikbaarheid van gebruikers en functies <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel</a>.</p>
-     Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel in Workfront, zie <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Voorkeuren voor beheer van bronnen configureren</a></li> 
+     <li>hoe hun programma en FTE gebaseerd op de Voorkeur van het Beheer van het Middel op het systeemniveau worden berekend.<br><p>Voor meer informatie over het berekenen van gebruiker en baanrolbeschikbaarheid, zie het artikel <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref"> Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel </a>.</p>
+     Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel in Workfront, zie <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md"> de voorkeur van het Beheer van het Middel </a> vormen</li> 
     </ul> 
     <ul> 
-     <li>de <strong>Prioriteit projectplanning</strong>, als de gebruiker voor het werk in de begroting wordt opgenomen.<br>Voor meer informatie over hoe de Prioriteit van de Planning van het Project de Beschikbare Uren van een gebruiker beïnvloedt, zie <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Overzicht van de navigatie in de bronnenplanner </a>. </li> 
-    </ul> <p>Als de gebruiker voor deactivering is gepland, zijn de Beschikbare Uren, VTEs, of Kosten voor de dagen na de deactiveringsdatum nul. <br>Raadpleeg het artikel voor meer informatie over het deactiveren van gebruikers <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Een gebruiker deactiveren of opnieuw activeren</a>.</p> </td> 
+     <li>de <strong> Prioriteit van de Planning van het Project </strong>, als de gebruiker voor het werk in de begroting wordt opgenomen.<br> voor meer informatie over hoe de Prioriteit van de Planning van het Project de Beschikbare Uren van een gebruiker beïnvloedt, zie <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref"> het navigatieoverzicht van de Planner van het Middel </a>. </li> 
+    </ul> <p>Als de gebruiker voor deactivering is gepland, zijn de Beschikbare Uren, VTEs, of Kosten voor de dagen na de deactiveringsdatum nul. <br> voor meer informatie over het deactiveren van gebruikers, zie het artikel <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref"> een gebruiker </a> deactiveren of reactiveren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,22 +147,22 @@ De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td><strong>Beschrijving</strong> </td> 
+   <td><strong> Weergegeven door </strong> </td> 
+   <td><strong> Beschrijving </strong> </td> 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td> <p>Het totaal van de geplande uren, VTE's of kosten van alle functies of gebruikers die in het kader van het project worden vermeld, inclusief in de <strong>Geen rol</strong> of <strong>Geen gebruiker</strong> secties, voor het geselecteerde tijdkader, en zoals getoond in het lusje van de Details van het Project van het project. </p> <p><b>OPMERKING</b>
+   <td> <p>Het totaal van de Geplande Uren, FTEs, of Kosten van alle baanrollen of gebruikers die onder het project, met inbegrip van <strong> worden vermeld Geen Rol </strong> of <strong> Geen Gebruiker </strong> secties, voor het geselecteerde tijdkader, en zoals getoond in het lusje van de Details van het Project van het project. </p> <p><b>OPMERKING</b>
 
-Handmatige aanpassingen van de dagelijkse gebruikerstoewijzingen kunnen de waarde van de geplande wekelijkse, maandelijkse of driemaandelijkse uren in het bronnenplan wijzigen. Met Workload Balancer kunt u dagelijkse gebruikerstoewijzingen voor taken en problemen handmatig aanpassen. Zie voor meer informatie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Toewijzingen van gebruikers beheren in Workload Balancer</a>.</p> </td>
+Handmatige aanpassingen van de dagelijkse gebruikerstoewijzingen kunnen de waarde van de geplande wekelijkse, maandelijkse of driemaandelijkse uren in het bronnenplan wijzigen. Met Workload Balancer kunt u dagelijkse gebruikerstoewijzingen voor taken en problemen handmatig aanpassen. Voor meer informatie, zie <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref"> gebruikerstoewijzingen in de Balancer van de Werklast beheren </a>.</p> </td>
 </tr> 
   <tr> 
    <td>Rol</td> 
-   <td> <p>Het totaal van de Geplande Uren van alle taken die aan de rol worden toegewezen, tijdens het geselecteerde tijdkader. </p> <p>De <strong>Geen rol</strong> de sectie zal de Geplande Uren verbonden aan taken tonen die of unassigned zijn, die aan teams worden toegewezen (de waarvan uren in <strong>Geen gebruiker</strong> (sectie), of toegewezen aan gebruikers die niet zijn gekoppeld aan een taakrol. </p> </td> 
+   <td> <p>Het totaal van de Geplande Uren van alle taken die aan de rol worden toegewezen, tijdens het geselecteerde tijdkader. </p> <p>De <strong> geen sectie van de Rol </strong> zal de Geplande Uren verbonden aan taken tonen die of unassigned, toegewezen aan teams (de waarvan uren in <strong> worden vermeld Geen Gebruiker </strong> sectie), of toegewezen aan gebruikers die niet met een baanrol worden geassocieerd. </p> </td> 
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
-   <td> <p>De geplande uren van alle taken die aan de gebruiker in een specifieke rol worden toegewezen, tijdens het geselecteerde tijdkader. </p> <p>De <strong>Geen gebruiker</strong> de sectie zal de Geplande Uren verbonden aan taken tonen die of unassigned of toegewezen aan teams zijn. </p> </td> 
+   <td> <p>De geplande uren van alle taken die aan de gebruiker in een specifieke rol worden toegewezen, tijdens het geselecteerde tijdkader. </p> <p><strong> Geen Gebruiker </strong> sectie zal de Geplande Uren verbonden aan taken tonen die of unassigned of toegewezen aan teams zijn. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,13 +171,13 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
 
 * Hoewel u geen informatie over taaktoewijzingen in de Planner van het Middel in de mening van het Project en van de Rol kunt zien, komt de hoeveelheid Geplande Uren op de taken in de projecten.
 * De geplande uren worden gelijkelijk verdeeld aan elke dag binnen de Duur van taken, voor elk middel dat aan hen wordt toegewezen. De taakduur is gebaseerd op de geplande start- en voltooiingsdatums van de taak en omvat elke kalenderdag binnen die tijdsperiode.\
-   Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van Geplande Uren aan gebruikers of projecten. In dit geval, worden de Geplande Uren gelijkelijk verdeeld aan elke dag binnen de Duur van taken exclusief weekends, tijd-off dagen, en planningsuitzonderingen.\
-   Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken op projecten overspannen, hangt het aantal Geplande Uren per week af van hoeveel dagen binnen die week deel van de taakDuur uitmaken. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.\
-   De dagen van het weekeinde, de programmauitzonderingen, en de tijd-off dagen worden uitgesloten van deze distributie.
+  Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van Geplande Uren aan gebruikers of projecten. In dit geval, worden de Geplande Uren gelijkelijk verdeeld aan elke dag binnen de Duur van taken exclusief weekends, tijd-off dagen, en planningsuitzonderingen.\
+  Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken op projecten overspannen, hangt het aantal Geplande Uren per week af van hoeveel dagen binnen die week deel van de taakDuur uitmaken. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.\
+  De dagen van het weekeinde, de programmauitzonderingen, en de tijd-off dagen worden uitgesloten van deze distributie.
 * De volgende taakcategorieën worden opgenomen in de berekening van de geplande uren voor elke bron:
 
    * taken die aan gebruikers in de Groepen van het Middel, baanrollen, of teams op het project worden toegewezen\
-      Als de taken aan teams worden toegewezen, zal hun toewijzing onder **Geen rol** en **Geen gebruiker** secties. U kunt de Geplande Uren zien verbonden aan teams, maar u kunt niet de uren begroten, omdat geen rollen noch gebruikers met de taken worden geassocieerd.
+     Als de taken aan teams worden toegewezen, zal hun toewijzing onder **Geen Rol** en **verschijnen Geen Gebruiker** secties. U kunt de Geplande Uren zien verbonden aan teams, maar u kunt niet de uren begroten, omdat geen rollen noch gebruikers met de taken worden geassocieerd.
 
    * niet toegewezen taken
 
@@ -184,7 +185,7 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
 
    * bovenliggende taken
    * taken toegewezen aan gebruikers zonder bronnenpools
-   * , wanneer de **Uren opnemen uit uitgaven** instellen is uitgeschakeld.
+   * kwesties, wanneer **omvat uren van Kwesties** het plaatsen gehandicapt is.
 
 * De geplande Uren tonen niet in de Planner van het Middel als de taakDuur nul is.
 * De geplande uren die zijn gekoppeld aan gedeactiveerde gebruikers worden niet weergegeven.
@@ -196,8 +197,8 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td><strong>Beschrijving</strong> </td> 
+   <td><strong> Weergegeven door </strong> </td> 
+   <td><strong> Beschrijving </strong> </td> 
   </tr> 
   <tr> 
    <td>Project</td> 
@@ -209,7 +210,7 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
   </tr> 
   <tr> 
    <td>Gebruiker</td> 
-   <td> <p>Een handmatige invoer om te schatten hoeveel uren u voor een gebruiker, voor een geselecteerd tijdkader begroot. </p> <p> <p><b>OPMERKING</b>   U kunt de Begroeide Uren voor gebruikers schatten die niet aan taken worden toegewezen, maar met een Pool van het Middel op een project worden geassocieerd omdat deze gebruikers ook in de Planner van het Middel verschijnen. Hun geplande uren zouden echter nul moeten zijn, als zij niet aan taken worden toegewezen. </p> </p> </td> 
+   <td> <p>Een handmatige invoer om te schatten hoeveel uren u voor een gebruiker, voor een geselecteerd tijdkader begroot. </p> <p> <p><b> NOTA </b>   U kunt de Begroeide Uren voor gebruikers schatten die niet aan taken worden toegewezen, maar met een Pool van het Middel op een project worden geassocieerd omdat deze gebruikers ook in de Planner van het Middel verschijnen. Hun geplande uren zouden echter nul moeten zijn, als zij niet aan taken worden toegewezen. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,20 +225,20 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
 
 * U kunt middelen slechts begroten wanneer u Edit toegang tot het Beheer van het Middel en Financiële Gegevens en beheer de toestemmingen van de Financiën op de projecten hebt.
 
-   Zie het artikel voor informatie over de toegang die nodig is voor het begroten van middelen [Toegang tot begrotingsmiddelen in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Voor informatie over de toegang nodig voor het opnemen van middelen, zie de artikel [ Toegang nodig aan begrotingsmiddelen in Adobe Workfront ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Door gebrek, zijn de begrotingsuren in de Planner van het Middel nul voor alle middelen en voor alle projecten.
-* U kunt de begrotingsuren voor gebruikers en rollen manueel schatten, of u kunt één van de verbindingen in het Project of de Rol van de Taak gebruiken **Meer** menu&#39;s om deze bij te werken op basis van het aantal geplande uren.\
-   Voor meer informatie over project en rolopties, zie de sectie [Overzicht van uren, FTE, en kosteninformatie in de mening van het Project en van de Rol van de Planner van het Middel](#Budget) in dit artikel.
+* U kunt manueel schatten de Begroeide Uren voor gebruikers en rollen, of u kunt één van de verbindingen in het Project of de Rol van de Taak gebruiken **Meer** menu&#39;s om hen volgens het aantal Geplande Uren bij te werken.\
+  Voor meer informatie over project en rolopties, zie het sectie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](#Budget) in dit artikel.
 
 * De kleinste periode u uren, VTE, of Kosten voor kunt begroten is een week. U kunt geen uren, VTE, of Kosten voor een dag begroten.
 * De begrotingsuren worden gelijkelijk verdeeld aan elke dag binnen de Duur van taken, voor elke middelen die aan hen worden toegewezen. De taakduur is gebaseerd op de geplande start- en voltooiingsdatums van de taak en omvat elke kalenderdag binnen die tijdsperiode.\
-   Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van begrotingsuren aan gebruikers of projecten. In dit geval worden de begrote uren uren gelijkelijk verdeeld over elke dag binnen de Duur van taken exclusief weekends, maar met inbegrip van tijd-off en planningsuitzonderingen.\
-   Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken overspannen, hangt het aantal Begrotingshuren per week van hoeveel dagen binnen die week deel van de taakDuur af. Deze verdeling geldt niet voor weekenddagen. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.
+  Workfront houdt rekening met het programma van de gebruiker of van het project wanneer het verdelen van begrotingsuren aan gebruikers of projecten. In dit geval worden de begrote uren uren gelijkelijk verdeeld over elke dag binnen de Duur van taken exclusief weekends, maar met inbegrip van tijd-off en planningsuitzonderingen.\
+  Als u de Planner van het Middel door Week, bijvoorbeeld toont, en u taken hebt die veelvoudige weken overspannen, hangt het aantal Begrotingshuren per week van hoeveel dagen binnen die week deel van de taakDuur af. Deze verdeling geldt niet voor werkdagen. Dit werkt op dezelfde manier wanneer het tonen van de Planner van het Middel door Maand of Kwart en wanneer de taken veelvoudige maanden of kwartalen overspannen.
 
 * U kunt over begrotingsuren rapporteren door Budgeted Hour als uw rapportvoorwerp voor een nieuw rapport te selecteren.\
-   Zie de sectie &#39;Rapport over objecten&#39; in het artikel voor informatie over de objecten waarover u in Workfront kunt rapporteren [Objecten in Adobe Workfront begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-   Zie het artikel voor informatie over het bouwen van een rapport over een Budgeted Hour [Rapport: Budgeted Hour](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+  Voor informatie over welke voorwerpen u over in Workfront kunt rapporteren, zie de sectie &quot;Rapport over voorwerpen&quot;in het artikel [ begrijpt voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+  Voor informatie over de bouw van een Gefabriceerd rapport van de Uur, zie het artikel [ Rapport: Beoogde Uur ](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * De uren die eerder in de begroting zijn opgenomen voor gebruikers die later zijn gedeactiveerd, worden niet weergegeven.
 
@@ -248,8 +249,8 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td><strong>Beschrijving</strong> </td> 
+   <td><strong> Weergegeven door </strong> </td> 
+   <td><strong> Beschrijving </strong> </td> 
   </tr> 
   <tr> 
    <td>Project</td> 
@@ -277,8 +278,8 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Weergegeven door</strong> </td> 
-   <td><strong>Beschrijving</strong> </td> 
+   <td><strong> Weergegeven door </strong> </td> 
+   <td><strong> Beschrijving </strong> </td> 
   </tr> 
   <tr> 
    <td>Project</td> 
@@ -292,7 +293,7 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
 
 <p><b>TIP</b></p>        
   <p>Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</p>
-  <p>Zie voor meer informatie <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> 
+  <p>Voor meer informatie, zie <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" > het middelbeschikbaarheid en toewijzing van het Overzicht gebruikend de Planner van het Middel van Adobe Workfront </a> </p> 
       </li> 
      </ul> 
     </div> </td> 
@@ -304,9 +305,9 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
      <p>De rol Net Uren, VTE, of Kosten kan één van het volgende tonen: </p> 
      <ul> 
       <li> <p>Het verschil tussen de Beschikbare tijd of kosten en de begrote tijd of kosten voor de rol:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>Het verschil tussen de Beschikbare tijd of de kosten en de Geplande tijd of kosten voor de rol, wanneer het Geplande Gebruik (PLN) waarden in NETTO berekeningen het plaatsen wordt toegelaten:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
+      <li> <p><span> het verschil tussen de Beschikbare tijd of de kosten en de Geplande tijd of kosten voor de rol, wanneer het Geplande Gebruik (PLN) waarden in NETTO berekeningen het plaatsen wordt toegelaten:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
 
-Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</span> </p> <p><span>Zie voor meer informatie </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> </li>
+Deze optie wordt toegepast slechts wanneer u de mening in de Vertoning geselecteerde punten sectie aanpast.</span> </p> <p><span> voor meer informatie, zie </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref"> het middelbeschikbaarheid en toewijzing van het Overzicht gebruikend de Planner van het Middel van Adobe Workfront </a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -317,9 +318,9 @@ Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Ges
      <p>De gebruikersNet Uren, VTE, of Kosten kunnen één van het volgende tonen: </p> 
      <ul> 
       <li> <p>Het verschil tussen de Beschikbare tijd of de kosten en de begrote tijd of kosten voor de gebruiker:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>Het verschil tussen de Beschikbare tijd of de kosten en de Geplande tijd of kosten voor de gebruiker, wanneer het Geplande Gebruik (PLN) waarden in NETTO berekeningen het plaatsen wordt toegelaten:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
+      <li> <p><span> het verschil tussen de Beschikbare tijd of de kosten en de Geplande tijd of kosten voor de gebruiker, wanneer het Geplande Gebruik (PLN) waarden in NETTO berekeningen het plaatsen wordt toegelaten:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
 
-Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Geselecteerde items weergeven.</span> </p> <p><span>Zie voor meer informatie </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Beschikbaarheid en toewijzing van bronnen controleren met de Adobe Workfront Resource Planner</a> </p> </li>
+Deze optie wordt toegepast slechts wanneer u de mening in de Vertoning geselecteerde punten sectie aanpast.</span> </p> <p><span> voor meer informatie, zie </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref"> het middelbeschikbaarheid en toewijzing van het Overzicht gebruikend de Planner van het Middel van Adobe Workfront </a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -328,7 +329,7 @@ Deze optie wordt alleen toegepast wanneer u de weergave aanpast in de sectie Ges
 
 >[!NOTE]
 >
->**Wanneer de NETTO Uren, VTE, of de vertoning van Kosten in rood, er niet genoeg Beschikbare tijd of begroting is om of de Beoogde begroting te dekken** of de geplande tijd of kosten in verband met het werk. In dit geval worden de middelen oververdeeld.
+>**wanneer de NETTO Uren, FTE, of vertoning van Kosten in rood, er niet genoeg Beschikbare tijd of begroting is om of de begrote** of de Geplande tijd of kosten verbonden aan het werk te behandelen. In dit geval worden de middelen oververdeeld.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In dit artikel wordt uitgelegd wat er gebeurt met het groeperen van aangepaste s
 
 Overweeg de volgende scenario&#39;s die beschrijven wat aan de status van de groepsdouane gebeurt wanneer u één groep naar een nieuwe plaats onder een andere groep beweegt.
 
-Voor informatie over het verplaatsen van een groep raadpleegt u [Een groep verplaatsen](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
+Voor informatie over het bewegen van een groep, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md) bewegen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Voor informatie over het verplaatsen van een groep raadpleegt u [Een groep verpl
     <ul> 
      <li>Als de status in de nieuwe bovenliggende groep ontgrendeld is, behoudt de status in de verplaatste groep zijn kenmerken, zonder dat dit door de verplaatsing wordt beïnvloed.</li> 
      <li>Als de status in de nieuwe bovenliggende groep is vergrendeld, overschrijven de kenmerken van de status in de bovenliggende groep die van de status in de verplaatste groep.</li> 
-    </ul> <p>Voor informatie over statussleutels, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Een status maken of bewerken</a>.</p> </td> 
+    </ul> <p>Voor informatie over statussleutels, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref"> een status </a> creëren of uitgeven.</p> </td> 
   </tr> 
   <tr> 
    <td>Wanneer een verplaatste groep statussen heeft die van zijn vorige oudergroep worden geërft </td> 
@@ -51,7 +51,7 @@ Voor informatie over het verplaatsen van een groep raadpleegt u [Een groep verpl
      <li>Als de vorige bovenliggende groep een aangepaste status vergrendelt die was ontgrendeld toen de groep werd verplaatst, is de status van de verplaatste subgroep niet vergrendeld.</li> 
      <li>De verplaatste groep kan nu statussen ontgrendelen die zijn vergrendeld toen deze werden overgeërfd van de vorige bovenliggende groep.</li> 
     </ul> 
-     <p><b>VOORBEELD:</b><p> 
+     <p><b>VOORBEELD</b><p> 
      <p>Olivia, de groepsbeheerder voor de marketinggroep, maakt twee statussen voor de groep. Ze noemt een Eerste Review, met de sleutel ABC, en vergrendelt het. Ze noemt de andere Final Review, met de sleutel XYZ, en sluit het niet.</p> 
      <p>Zij leidt ook tot een subgroep onder de Marketing groep genoemd Product Marketing. Op het ogenblik dat het wordt gecreeerd, erft het automatisch zowel Eerste Overzicht als Definitieve Overzicht van de Groep van de Marketing.</p> 
      <p>Later verplaatst Olivia de subgroep Product Marketing onder de productgroep. Zowel het Eerste Overzicht als het Definitieve Overzicht gaan met de Groep van de Marketing van het Product aan zijn nieuwe plaats onder de Groep van het Product.</p> 
@@ -65,7 +65,7 @@ Voor informatie over het verplaatsen van een groep raadpleegt u [Een groep verpl
 
 ## Aangepaste statussen in een groep die wordt verwijderd
 
-Wanneer u een groep of subgroep verwijdert, wijst u de bijbehorende informatie, inclusief de aangepaste status, toe aan een andere groep of subgroep. De statussen van de verwijderde groep worden toegevoegd aan die van de doelgroep.
+Wanneer u een groep of subgroep verwijdert, wijst u de bijbehorende informatie, inclusief de aangepaste status, opnieuw toe aan een andere groep of subgroep. De statussen van de verwijderde groep worden toegevoegd aan die van de doelgroep.
 
 Als een van de statussen van de verwijderde groep ook door de bestemmingsgroep werd gebruikt (de status in beide groepen heeft dezelfde sleutel), en de bestemmingsgroep de status op verschillende manieren aanpast, treden de montages van de versie van de bestemmingsgroep de montages van de versie van de verplaatste groep met voeten.
 
@@ -80,6 +80,6 @@ Als een van de statussen van de verwijderde groep ook door de bestemmingsgroep w
 >* De naam van de versie van Groep B van de status treedt de naam van de versie van Groep A met voeten.
 >* Als de status op een object is toegepast door iemand in groep A voordat die groep is verwijderd, wordt de statusnaam op het object bijgewerkt met de naam voor de status die wordt gebruikt door groep B.
 >
->Zie de tabel in dit artikel onder voor informatie over de sleutel voor een status [Een aangepaste status maken of bewerken](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Een status voor een groep maken of bewerken](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
+>Voor informatie over de sleutel voor een status, zie de lijst in dit artikel onder [ creeer of geef een douanestatus ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) uit [ creeer of geef een status voor een groep ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create) uit.
 >
->Voor informatie over het verwijderen van een groep raadpleegt u [Een groep verwijderen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+>Voor informatie over het schrappen van een groep, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md) schrappen.

@@ -27,11 +27,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig plan: Pro of hoger</p> <p>of</p> <p>Ouder plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Toegang tot proefdrukfunctionaliteit in Workfront</a>.</p> </td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werken of plannen</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -43,20 +43,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met de beheerder van de Workfront of Workfront-proefdrukken als u wilt weten welk plan, welke rol of welk proefdrukprofiel u hebt.
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
 ## Proefdrukinstellingen bewerken
 
 Sommige instellingen zijn mogelijk vergrendeld als uw Workfront-beheerder deze op accountniveau heeft uitgeschakeld.
 
-1. Ga naar het project, de taak, of de kwestie waar u het proef wilt, dan klik **Documenten** tab.
-1. Plaats de muis boven de proefdruk en klik vervolgens op **Documentdetails**.
-1. Klik in het linkerdeelvenster op **Instellingen van viewer proefdrukken**.
+1. Ga naar het project, de taak, of de kwestie waar u de proef wilt, dan klik de **Documenten** tabel.
+1. De muis over de proef, dan klik **Details van het Document**.
+1. In het linkerpaneel, klik **het Proofing de Montages van de Kijker**.
 1. Pas de volgende instellingen aan:
 
    <table style="table-layout:auto"> 
@@ -65,7 +65,7 @@ Sommige instellingen zijn mogelijk vergrendeld als uw Workfront-beheerder deze o
     <tbody> 
      <tr> 
       <td role="rowheader">Aanmelding vereist. Dit bewijs kan niet met gastgebruikers worden gedeeld</td> 
-      <td> <p>Als u hogere veiligheidsniveaus voor uw overzicht en goedkeuringsproces vereist, kunt u login aan de proef gebruiken. Dit betekent dat alleen Workfront-gebruikers aan de proefdruk kunnen worden toegevoegd. Ze moeten hun e-mail en wachtwoord invoeren voordat ze deze kunnen openen.</p> <p>Opmerking: <em style="font-style: normal;">Als Aanmelding vereist is ingeschakeld, kunnen abonnementen niet worden ingeschakeld.</em> </p> </td> 
+      <td> <p>Als u hogere veiligheidsniveaus voor uw overzicht en goedkeuringsproces vereist, kunt u login aan de proef gebruiken. Dit betekent dat alleen Workfront-gebruikers aan de proefdruk kunnen worden toegevoegd. Ze moeten hun e-mail en wachtwoord invoeren voordat ze deze kunnen openen.</p> <p>Nota: <em style="font-style: normal;"> als vereiste Login wordt toegelaten, kunnen de Abonnementen niet worden toegelaten.</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vereisen dat besluiten elektronisch worden ondertekend</td> 
@@ -92,14 +92,14 @@ Sommige instellingen zijn mogelijk vergrendeld als uw Workfront-beheerder deze o
       <td role="rowheader">Abonneren op proefdrukken via openbare URL of insluitcode toestaan</td> 
       <td> <p>Als u een abonnement op de proefdruk inschakelt, kunnen personen die niet expliciet aan de proefdruk zijn toegevoegd, zich bij de proefdruk abonneren (door zich aan de proefdruk toe te voegen). Vervolgens krijgen ze de rol en e-mailwaarschuwing toegewezen die u voor hen selecteert in de Abonnementsinstellingen.</p> <p>Als Subscription is ingeschakeld op een proefdruk, worden de onderstaande velden geactiveerd:</p> 
        <ul> 
-        <li><strong>Validatie van abonnee vereist</strong> - Abonnees moeten op een koppeling in een e-mailbericht klikken om een proefafdruk te openen<br>Als u deze optie selecteert, krijgt de persoon die zich abonneert geen directe toegang tot de proefdruk, maar een koppeling naar de proefdruk in een e-mail. Het doel van abonneevalidering is ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft.</li> 
-        <li><strong>Standaardrol voor nieuwe abonnees -</strong> Dit is de standaardproefrol die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li> 
-        <li><strong>Standaard-e-mailwaarschuwing voor nieuwe abonnees</strong> - Dit is de standaard e-mailwaarschuwing die wordt toegewezen aan alle revisoren die zich op de proefdruk abonneren.</li> 
+        <li><strong> vereiste bevestiging van de Abonnee </strong> - de abonnee moet een verbinding in e-mail klikken om tot een bewijs <br> toegang te hebben Selecterend deze optie betekent dat de persoon die intekent geen directe toegang tot de proef zal krijgen, maar een verbinding aan de proef in een e-mail zal krijgen. Het doel van abonneevalidering is ervoor te zorgen dat de persoon een correct e-mailadres heeft ingevoerd waartoe hij toegang heeft.</li> 
+        <li><strong> Standaardrol voor nieuwe abonnees - </strong> dit is de standaardproefdrukrol die aan alle recensenten zal worden toegewezen die zich aan de proef intekenen.</li> 
+        <li><strong> Standaard e-mailalarm voor nieuwe abonnees </strong> - dit het standaard e-mailalarm dat aan alle recensenten zal worden toegewezen die zich aan de proef intekenen.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
  

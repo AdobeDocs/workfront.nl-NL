@@ -11,7 +11,7 @@ feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -39,29 +39,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vereisten
 
-Voor gebruik [Fusion-app] with [!DNL Workfront Fusion], u moet een FTP-account hebben.
+Om [ Fusion App ] met [!DNL Workfront Fusion] te gebruiken, moet u een rekening van FTP hebben.
 
 ## Verbinding maken in een FTP-module {#create-a-connection}
 
@@ -97,15 +97,15 @@ Voor gebruik [Fusion-app] with [!DNL Workfront Fusion], u moet een FTP-account h
    <td> <p>[!UICONTROL Reject unauthorized certificates]</p> </td> 
    <td> <p>Schakel deze optie in om het FTP-servercertificaat te verifiëren. Als de verificatie mislukt, wordt er geen verbinding gemaakt. Om voor de verificatie te slagen, moet het certificaat aan een van de volgende criteria voldoen:</p> 
     <ul> 
-     <li>worden ondertekend door een hoofdmap <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificaatinstantie</a></li> 
-     <li>worden ondertekend door een intermediaire certificeringsinstantie (zie bijvoorbeeld <a href="https://knowledge.digicert.com/solution/SO16297.html">Hoe certificaatketens werken</a> voor nadere uitleg). In dit geval moeten alle tussentijdse certificaten op de FTP-server zijn geïnstalleerd.</li> 
-     <li>Een zelfondertekend certificaat zijn dat wordt geleverd in het dialoogvenster [!UICONTROL Self-signed certificate] veld (zie hieronder)</li> </ul>
+     <li>worden ondertekend door aRoot <a href="https://en.wikipedia.org/wiki/Certificate_authority"> Instantie van het Certificaat </a></li> 
+     <li>worden ondertekend door een Directe Instantie van het Certificaat (zie b.v. <a href="https://knowledge.digicert.com/solution/SO16297.html"> hoe de certificaatketens </a> voor verdere verklaring werken). In dit geval moeten alle tussentijdse certificaten op de FTP-server zijn geïnstalleerd.</li> 
+     <li>Een zelfondertekend certificaat zijn dat wordt opgegeven in het veld [!UICONTROL Self-signed certificate] (zie hieronder)</li> </ul>
 
 Als deze optie is uitgeschakeld, wordt het FTP-servercertificaat niet geverifieerd. Wij raden u ten zeerste aan de optie niet uit te schakelen, omdat hierdoor de verbinding onveilig wordt en een ernstig veiligheidsrisico ontstaat.</td>
 </tr> 
   <tr> 
    <td> <p>[!UICONTROL Self-signed certificate]</p> </td> 
-   <td> <p>Klik op de knop <b>[!UICONTROL Extract]</b> om het dialoogvenster voor uploaden te openen.</p> <p>Upload het certificaat om het TLS te gebruiken met uw zelfondertekende certificaat. [!DNL Workfront Fusion] gegevens die u opgeeft, zoals bestanden en wachtwoorden, worden niet opgeslagen of opgeslagen. Bestand en wachtwoord worden alleen gebruikt om het certificaat te extraheren.</p> </td> 
+   <td> <p>Klik op de knop <b>[!UICONTROL Extract]</b> om het dialoogvenster voor uploaden te openen.</p> <p>Upload het certificaat om het TLS te gebruiken met uw zelfondertekende certificaat. [!DNL Workfront Fusion] bewaart of bewaart geen gegevens u, zoals dossiers en wachtwoorden verstrekt. Bestand en wachtwoord worden alleen gebruikt om het certificaat te extraheren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,15 +127,15 @@ Als deze optie is uitgeschakeld, wordt het FTP-servercertificaat niet geverifiee
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#create-a-connection" class="MCXref xref">[!UICONTROL Create a connection] in een FTP-module</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#create-a-connection" class="MCXref xref">[!UICONTROL Create a connection] in een module van FTP </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Folder]</p> </td> 
-   <td> <p>Selecteer de map die u wilt controleren.</p> <p><b>Opmerking:</b> Er is slechts één map per scenario toegestaan. Submappen worden genegeerd.</p> <p><b>Tip:</b> Als u meerdere mappen wilt bijhouden, maakt u een onafhankelijk scenario voor elk van deze mappen.</p> </td> 
+   <td> <p>Selecteer de map die u wilt controleren.</p> <p><b> Nota:</b> slechts één omslag per scenario wordt toegestaan. Submappen worden genegeerd.</p> <p><b> Uiteinde:</b> om spoor van veelvoudige omslagen te houden, creeer een onafhankelijk scenario voor elk van hen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned files] </td> 
-   <td> <p>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] werkt met één cyclus. Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. [!DNL Workfront Fusion] heeft daar geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
+   <td> <p>Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt. Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. [!DNL Workfront Fusion] heeft hier geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -161,7 +161,7 @@ In deze handelingsmodule worden de machtigingsinstellingen van een bestand of ma
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL Connection]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een FTP-module</a> in dit artikel.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een module van FTP </a> in dit artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[!UICONTROL Change permission settings of]</td>
@@ -176,8 +176,8 @@ In deze handelingsmodule worden de machtigingsinstellingen van een bestand of ma
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Permissions]</td>
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-               <p>Stel de gewenste bestands- of mapmachtigingen in. Gebruik de parameters chmod. Bijvoorbeeld: <code>777 </code>of <code>-rwxrwxrwx</code>.</p>
-               <p>Machtigingen moeten overeenkomen met het patroon <code> /(.?([r-][w-][x-]){3})|[0-7]{3,4}/</code>.</p>
+               <p>Stel de gewenste bestands- of mapmachtigingen in. Gebruik de parameters chmod. Bijvoorbeeld: <code>777 </code> of <code>-rwxrwxrwx</code> .</p>
+               <p>Rechten moeten overeenkomen met het patroon <code> /(.?([r-][w-][x-]){3})|[0-7]{3,4}/</code> .</p>
             </td>
          </tr>
    </tbody>
@@ -193,7 +193,7 @@ Deze actiemodule maakt een nieuwe map.
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL Connection]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een FTP-module</a> in dit artikel.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een module van FTP </a> in dit artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[!UICONTROL Folder path]</td>
@@ -218,7 +218,7 @@ Hiermee wordt een bestand uit de opgegeven map verwijderd.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een FTP-module</a> in dit artikel.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een module van FTP </a> in dit artikel.</td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -241,7 +241,7 @@ Deze actiemodule verwijdert de opgegeven map permanent.
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[!UICONTROL Connection]</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een FTP-module</a> in dit artikel.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een module van FTP </a> in dit artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">[!UICONTROL Folder]</td>
@@ -254,7 +254,7 @@ Deze actiemodule verwijdert de opgegeven map permanent.
 
 #### [!UICONTROL Get a file]
 
-Hiermee wordt een bestand opgehaald van de FTP-server dat verder kan worden verwerkt, bijvoorbeeld geüpload naar de [!DNL Dropbox].
+Hiermee wordt een bestand opgehaald van de FTP-server dat verder kan worden verwerkt, bijvoorbeeld geüpload naar de [!DNL Dropbox] .
 
 <table style="table-layout:auto"> 
  <col> 
@@ -262,7 +262,7 @@ Hiermee wordt een bestand opgehaald van de FTP-server dat verder kan worden verw
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#creating-the-ftp-connection" class="MCXref xref">De FTP-verbinding maken</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#creating-the-ftp-connection" class="MCXref xref"> Creërend de Verbinding van FTP </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File path]</td> 
@@ -281,7 +281,7 @@ Hiermee worden bestands- en/of mapgegevens opgehaald.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#creating-the-ftp-connection" class="MCXref xref">De FTP-verbinding maken</a> in dit artikel.</p> </td> 
+   <td> <p>Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#creating-the-ftp-connection" class="MCXref xref"> Creërend de Verbinding van FTP </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -312,18 +312,18 @@ Deze actiemodule verplaatst een bestand of map naar een andere locatie.
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[!UICONTROL Connection]</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een FTP-module</a> in dit artikel.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in een module van FTP </a> in dit artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">[!UICONTROL Old file path]</td>
             <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">
-               <p>Voer het pad in waaruit u het bestand wilt verplaatsen. Voorbeeld: <code>/folder1/document.txt</code>.</p>
+               <p>Voer het pad in waaruit u het bestand wilt verplaatsen. Voorbeeld: <code>/folder1/document.txt</code> .</p>
             </td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray" style="font-weight: bold;">[!UICONTROL New file path]</td>
             <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray">
-               <p>Voer het pad in waarnaar u het bestand wilt verplaatsen. Voorbeeld: <code>/folder2/document.txt</code>.</p>
+               <p>Voer het pad in waarnaar u het bestand wilt verplaatsen. Voorbeeld: <code>/folder2/document.txt</code> .</p>
             </td>
          </tr>
    </tbody>
@@ -340,7 +340,7 @@ Uploadt een bestand naar de FTP-server.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td>Voor instructies over het tot stand brengen van een verbinding aan de rekening van FTP, zie <a href="#creating-the-ftp-connection" class="MCXref xref">De FTP-verbinding maken</a> in dit artikel.</td> 
+   <td>Voor instructies bij het vestigen van een verbinding aan de rekening van FTP, zie <a href="#creating-the-ftp-connection" class="MCXref xref"> Creërend de Verbinding van FTP </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 

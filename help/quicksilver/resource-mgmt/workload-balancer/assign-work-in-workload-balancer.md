@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Als middelmanager, kunt u de Balancer van de Werkbelasting van Adobe Workfront gebruiken om het werkpunten te bekijken die nog niet aan gebruikers zijn toegewezen evenals deze punten aan hen toe te wijzen.
 
-Zie voor algemene informatie over de werklastbalans [Overzicht van werklastbalans](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Voor algemene informatie over de Balancer van de Werklast, zie [ Overzicht van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 U kunt werkitems (taken en problemen) toewijzen aan gebruikers in andere gebieden van Workfront. Nochtans, door de Balancer van de Werklast te gebruiken kunt u de beschikbaarheid van gebruikers gemakkelijk begrijpen en duidelijk alle andere punten zien zij aan alvorens hen meer werk toe te wijzen worden toegewezen.
 
 Raadpleeg de volgende artikelen voor informatie over het toewijzen van werkitems in andere gebieden van Workfront:
 
-* [Taken toewijzen](../../manage-work/tasks/assign-tasks/assign-tasks.md)
+* [ wijs taken ](../../manage-work/tasks/assign-tasks/assign-tasks.md) toe
 * [Problemen toewijzen](../../manage-work/issues/manage-issues/assign-issues.md)
 
 ## Beschikbaarheid van gebruikers in de werklastverhouding
@@ -41,13 +41,13 @@ Workfront gebruikt de volgende informatie om de capaciteit van de gebruiker in d
 
      Hiermee wordt de dagelijkse en wekelijkse beschikbaarheid van de gebruiker berekend. Alle planningsuitzonderingen op het geselecteerde schema worden weerspiegeld in de capaciteit van de gebruiker in de Werklastverdeler.
 
-  Zie voor meer informatie [Voorkeuren voor beheer van bronnen configureren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
-  Voor informatie over programma&#39;s, zie [Een schema maken](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Voor informatie over programma&#39;s, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren
 
 * De time-out van de gebruiker. Dit geeft aan op welke dagen de gebruiker van plan is op te starten.
 
-  Zie voor meer informatie [Persoonlijke tijd uit configureren](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Voor meer informatie, zie [ persoonlijke tijd van ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen.
 
 * De werktijd van de gebruiker. Dit wijst op het percentage van FTE tijd dat de gebruiker beschikbaar is om werkelijk project-verwant werk, zonder overheadkosten uit te voeren. Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.
 
@@ -62,26 +62,26 @@ U kunt werk in de Balancer van de Werkbelasting op de volgende manieren toewijze
 
   U kunt Geavanceerde toewijzingen maken wanneer u items handmatig, één voor één toewijst.
 
-  Zie voor meer informatie [Handmatig werk toewijzen met Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  Voor meer informatie, zie [ werk manueel toewijzen gebruikend de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * Eén item tegelijk, door het werkitem naar de gebruiker te slepen die het moet toewijzen.
 
-  Zie voor meer informatie [Werk toewijzen in Workload Balancer door slepen en neerzetten](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  Voor meer informatie, zie [ werk in de Balancer van de Werklast toewijzen door te slepen en te laten vallen ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * Meerdere items tegelijk, met de optie Meerdere toewijzingen. U kunt regels bepalen waardoor de punten aan veelvoudige gebruikers tegelijkertijd worden toegewezen.
 
-  Zie voor meer informatie [Werk in bulk toewijzen met Werklastverdeling](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Voor meer informatie, zie [ werk in bulk toewijzen gebruikend de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Zie voor meer informatie over het toewijzen van taken [Werklastverdeling ongedaan maken](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Voor informatie over het unassigning van het werk, zie [ werk in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md) unassign.
 
 ## Toewijzingsgebieden in het werklastevenwicht
 
-U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Ga voor meer informatie over waar de werklastbalans zich in Workfront bevindt naar [De werklastbalans zoeken](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 Er zijn twee gebieden in de Balancer van de Werkbelasting waar u het werkpunten kunt bekijken:
 
-* **Niet toegewezen werk**: geeft items weer die niet aan gebruikers zijn toegewezen.
-* **Toegewezen werk**: geeft items weer die aan gebruikers zijn toegewezen.
+* **Niet toegewezen Werk**: toont punten die niet aan gebruikers worden toegewezen.
+* **Toegewezen Werk**: toont punten die aan gebruikers worden toegewezen.
 
 In de volgende tabel wordt beschreven welke items in elk gebied worden weergegeven op basis van hun toewijzingen:
 
@@ -91,8 +91,8 @@ In de volgende tabel wordt beschreven welke items in elk gebied worden weergegev
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Type toewijzing</strong> </td> 
-   <td colspan="2"><strong>Gebieden waarin de toewijzingen zichtbaar zijn</strong> </td> 
+   <td><strong> Type van taak </strong> </td> 
+   <td colspan="2"><strong> Gebieden waarin de taken </strong> zichtbaar zijn </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -100,8 +100,8 @@ In de volgende tabel wordt beschreven welke items in elk gebied worden weergegev
    <td>Toegewezen werk </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span style="font-weight: normal;">Niet toegewezen item</span> </td> 
-   <td><span>✔</span> </td> 
+   <td><span style="font-weight: normal;"> Niet toegewezen punt </span> </td> 
+   <td><span> ✔ </span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -110,8 +110,8 @@ In de volgende tabel wordt beschreven welke items in elk gebied worden weergegev
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00">Rol</span> </td> 
-   <td><span>✔</span> </td> 
+   <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00"> Rol </span> </td> 
+   <td><span> ✔ </span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -136,23 +136,23 @@ In de volgende tabel wordt beschreven welke items in elk gebied worden weergegev
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Gebruiker en Rol</p> </td> 
-   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">✔</span>*</td> 
+   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00"> ✔</span>*</td> 
    <td>✔**</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wanneer een het werkpunt aan een gebruiker en een rol wordt toegewezen, toont het in het Niet toegewezen gebied van het Werk slechts wanneer de rol de Primaire Ontvanger is.
+&#42; wanneer een het werkpunt aan een gebruiker en een rol wordt toegewezen, toont het in het Niet toegewezen gebied van het Werk slechts wanneer de rol Primaire Toegewezen is.
 
-&#42;&#42;Wanneer een het werkpunt aan een gebruiker en een andere entiteit wordt toegewezen, toont het in het Toegewezen gebied van het Werk slechts wanneer de gebruiker de Primaire Ontvanger is.
+&#42;&#42; wanneer een het werkpunt aan een gebruiker en een andere entiteit wordt toegewezen, toont het in het Toegewezen gebied van het Werk slechts wanneer de gebruiker de Primaire Ontvanger is.
 
-Voor meer informatie over de niet toegewezen en toegewezen gebieden van de Balans van de Werkbelasting, zie [Navigeren door werklastbalans](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Voor meer informatie over de Niet toegewezen en Toegewezen gebieden van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Overwegingen voor veelvoudige taken aan baanrollen, teams, en gebruikers
 
 Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het werkpunt:
 
-* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [Gebruikersprofiel bewerken](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * Taken of problemen worden doorgaans eerst toegewezen aan een of meer functies of aan een team. Wanneer de projecten klaar zijn om te beginnen, zouden zij ook aan gebruikers kunnen moeten worden toegewezen.\
   Als een taak of een kwestie aan één of veelvoudige rollen wordt toegewezen en u dan ook een gebruiker toewijst, beslist Adobe Workfront welke baanrol aan de extra gebruiker (als om het even welk) te associëren volgens de volgende regels:

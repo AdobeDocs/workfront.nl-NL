@@ -39,22 +39,22 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p> Rechten voor het project beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p> Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder als u wilt weten welk plan, licentietype of toegang u hebt
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront
 
 ## Vereisten
 
 Voordat de aanvraagwachtrij beschikbaar is voor gebruikers in het gebied Verzoeken, moet u een project met de volgende instellingen maken:
 
-* Wijs het aan als verzoekrij. Voor meer informatie over het creëren van een Rij van het Verzoek, zie [Een aanvraagwachtrij maken](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Wijs het aan als verzoekrij. Voor meer informatie over het creëren van een Rij van het Verzoek, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 * Werk de Status van het project aan Huidig bij.
 
 ## Toegang tot een aanvraagwachtrij bieden
@@ -65,18 +65,18 @@ Voordat de aanvraagwachtrij beschikbaar is voor gebruikers in het gebied Verzoek
    >
    >Alleen projecten met de status Huidig zijn zichtbaar in het gebied Verzoeken.
 
-1. Klikken **Wachtrij** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** vervolgens **Wachtrij**.
-1. Selecteren **Publiceren als wachtrij voor Help-aanvragen** om het project als Rij van het Verzoek aan te wijzen.
+1. Klik **Details van de Rij** in het linkerpaneel. U zou kunnen moeten klikken **Meer** tonen, dan **de Details van de Rij**.
+1. Selecteer **Publish als Rij van het Verzoek van de Hulp** om het project als Rij van het Verzoek aan te wijzen.
 1. Selecteer een van de volgende opties:
 
-   * **Iedereen**: Elke gebruiker kan aanvragen weergeven en toevoegen aan de wachtrij met aanvragen.
-   * **Personen met toegang tot dit project**: De gebruikers die de toestemmingen van de Mening aan het project hebben kunnen verzoeken aan de verzoekrij bekijken en toevoegen. 
-   * **Personen in het bedrijf van dit project**: De gebruikers verbonden aan het Bedrijf van het project kunnen verzoeken bekijken en toevoegen. Het bedrijf verbonden aan het project is vermeld tussen haakjes naast deze optie. 
-   * **Personen in de projectgroep**:De gebruikers verbonden aan de Groep van het project kunnen verzoeken bekijken en toevoegen. De groep die aan het project is gekoppeld, staat tussen haakjes naast deze optie.
+   * **Iedereen**: Om het even welke gebruiker kan verzoeken aan de verzoekrij bekijken en toevoegen.
+   * **Mensen met meningstoegang tot dit project**: De gebruikers die de toestemmingen van de Mening aan het project hebben kunnen verzoeken aan de verzoekrij bekijken en toevoegen. 
+   * **Mensen in het bedrijf van dit project**: De gebruikers verbonden aan het Bedrijf van het project kunnen verzoeken bekijken en toevoegen. Het bedrijf verbonden aan het project is vermeld tussen haakjes naast deze optie. 
+   * **Mensen in de groep van dit project**:De gebruikers verbonden aan de Groep van het project kunnen verzoeken bekijken en toevoegen. De groep die aan het project is gekoppeld, staat tussen haakjes naast deze optie.
 
-      De rijen van de groep zijn nuttig wanneer verscheidene afdelingen een rekening van Workfront delen om unieke organisatorische doelstellingen te bereiken. Elke afdeling kan zijn eigen rijen hebben die de leden van andere groepen niet zouden moeten kunnen zien.
+     De rijen van de groep zijn nuttig wanneer verscheidene afdelingen een rekening van Workfront delen om unieke organisatorische doelstellingen te bereiken. Elke afdeling kan zijn eigen rijen hebben die de leden van andere groepen niet zouden moeten kunnen zien.
 
-      Voor informatie over wie toestemmingen op een project heeft zie [Een project delen in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-      Groepen en bedrijven kunnen met het project worden geassocieerd wanneer het uitgeven van het project. Voor meer informatie over het bewerken van projecten raadpleegt u [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Voor informatie over wie toestemmingen op een project heeft zie [ een project in Adobe Workfront ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.\
+     Groepen en bedrijven kunnen met het project worden geassocieerd wanneer het uitgeven van het project. Voor meer informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

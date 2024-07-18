@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Uw [!DNL Workfront Proof] Factuur
+title: Het downloaden van Uw { [!DNL Workfront Proof]  Factuur
 description: Op de eerste dag van een nieuwe factureringsperiode wordt uw abonnementsfactuur verzonden naar de belangrijkste contactpersoon voor facturatie op uw account en naar het e-mailadres voor facturering van CC, als u er een hebt gedefinieerd.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ---
 
-# Uw [!DNL Workfront Proof] Factuur
+# Uw [!DNL Workfront Proof] -factuur downloaden
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Op de eerste dag van een nieuwe factureringsperiode wordt uw abonnementsfactuur verzonden naar de belangrijkste contactpersoon voor facturatie op uw account en naar de [!UICONTROL Billing CC] e-mailadres, als u er een hebt gedefinieerd.
+Op de eerste dag van een nieuwe factureringsperiode wordt uw abonnementsfactuur verzonden naar de belangrijkste contactpersoon voor facturatie op uw account en naar het e-mailadres van [!UICONTROL Billing CC] , als u er een hebt gedefinieerd.
 
-De factuur wordt ook weergegeven in de [!UICONTROL Billing] deel van uw [!DNL Workfront Proof] account, beschikbaar voor downloaden. Zie [De [!DNL Workfront Proof] Factureringspagina](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) voor meer informatie.
+De factuur wordt ook weergegeven in de [!UICONTROL Billing] -sectie van uw [!DNL Workfront Proof] -account, die u kunt downloaden. Zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) als u meer informatie nodig hebt.
 
 Je vindt de volgende gegevens op je factuur:
 
 * Bedrijfsnaam en adres
-* Datum van de factuur
+* Datum factuur
 * Betalingsvoorwaarden en vervaldatum
-* De details van uw [!DNL Workfront] Proefabonnement (proefdruk, gebruikers- en opslaglimiet)
+* De details van uw [!DNL Workfront] proefabonnement (proef-, gebruikers- en opslaglimiet)
 * Inkoopordernummer (indien vermeld)
 * Verzenden naar adres (indien opgegeven)
 * Prijs van het plan
@@ -42,23 +42,23 @@ Je vindt de volgende gegevens op je factuur:
 >
 > Als de betaling voor die factuur al is ontvangen (bijvoorbeeld voor automatische creditcardbetalingen), worden de betalingsvoorwaarden en de vervaldatum vermeld als betaald en wordt in de beschrijving een referentienummer voor de betaling vermeld.
 
-We geven standaard al onze automatische facturen voor de abonnementen in USD uit, maar voor alle Britse organisaties nemen we het btw-bedrag (in zowel USD als sterling) in de documenten op. Als u uw abonnementsfacturen volledig in GBP wilt ontvangen, gelieve ons team van Financiën te contacteren bij [finance@proofhq.com](mailto:finance@proofhq.com).
+We geven standaard al onze automatische facturen voor de abonnementen in USD uit, maar voor alle Britse organisaties nemen we het btw-bedrag (in zowel USD als sterling) in de documenten op. Als u uw abonnementsfacturen volledig in GBP wilt ontvangen, gelieve ons team van Financiën in [ finance@proofhq.com ](mailto:finance@proofhq.com) te contacteren.
 
 * [Uw factuur downloaden](#downloading-your-invoice)
 * [Nuttige koppelingen](#useful-links)
 
 ## Uw factuur downloaden {#downloading-your-invoice}
 
-1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Billing]**.
+1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Billing]** .
 
-1. In de **[!UICONTROL Billing History]** van de pagina Facturering die wordt weergegeven, klikt u op het vervolgkeuzemenu rechts van de factuur en selecteert u **[!UICONTROL Download PDF Invoice]**.
+1. Klik in de sectie **[!UICONTROL Billing History]** van de pagina Facturering die wordt weergegeven op het vervolgkeuzemenu rechts van de factuur en selecteer vervolgens **[!UICONTROL Download PDF Invoice]** .
 
-1. Services-facturen (bijvoorbeeld voor uw [!UICONTROL Success Start] programma, Aangepaste openingspagina&#39;s) zijn momenteel niet beschikbaar op uw factureringspagina. Als u kopieën van deze documenten nodig hebt, neemt u contact op met ons financieel team op finance@proofhq.com.
+1. Services-facturen (bijvoorbeeld voor uw [!UICONTROL Success Start] -programma, Aangepaste bestemmingspagina&#39;s) zijn momenteel niet beschikbaar op uw factureringspagina. Als u kopieën van deze documenten nodig hebt, neemt u contact op met ons team van Financiën op finance@proofhq.com.
 
 ## Nuttige koppelingen {#useful-links}
 
-Als u de factureringsgegevens van uw account wilt wijzigen, gaat u naar de sectie Factureringscontactpersoon en -adres van de facturatiepagina. Zie [De [!DNL Workfront] Factureringspagina proefdrukken](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+Als u de factureringsgegevens van uw account wilt wijzigen, gaat u naar de sectie Factureringscontactpersoon en -adres van de facturatiepagina. Zie [ de  [!DNL Workfront]  Pagina van het Factureren van het Bewijs ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-Voor informatie over het wijzigen van de creditcardgegevens van je account raadpleegt u [Je betalingsmethode kiezen in Workfront Proef](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+Voor informatie over hoe te om de creditcarddetails op uw rekening te veranderen, zie [ Kiezen Uw Methode van de Betaling in Workfront Proof ](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->

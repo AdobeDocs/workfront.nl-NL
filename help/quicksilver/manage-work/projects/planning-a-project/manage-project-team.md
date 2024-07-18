@@ -68,11 +68,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> <p>Toegang tot projecten bewerken</p> <p>Toegang tot gebruikers weergeven of vergroten</p> <p><b>OPMERKING</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td>
+Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger aan het project</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger aan het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 ## Gebruikers toevoegen aan een projectteam
 
-Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen van de Mening over het project en de taken, de kwesties, en de documenten van het project. Zie het artikel voor meer informatie [Overzicht van het projectteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen van de Mening over het project en de taken, de kwesties, en de documenten van het project. Voor meer informatie, zie het overzicht van het artikel [ Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen 
 
 U kunt gebruikers aan het projectteam op de volgende manieren toevoegen:
 
-* [Automatisch gebruikers toevoegen aan een projectteam](#automatically-add-users-to-a-project-team)
+* [ voegt automatisch gebruikers aan een Team van het Project toe ](#automatically-add-users-to-a-project-team)
 * [Voeg handmatig gebruikers toe aan een projectteam](#manually-add-users-to-a-project-team)
 
 ### Automatisch gebruikers toevoegen aan een projectteam {#automatically-add-users-to-a-project-team}
@@ -109,7 +109,7 @@ De gebruikers worden ook automatisch toegevoegd aan het projectteam wanneer zij 
 
 Als de gebruikers die geen rol op het project vervullen over bepaalde updates of veranderingen tijdens het leven van het project op de hoogte willen worden gebracht, kunt u hen aan het projectteam manueel toevoegen.
 
-Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [Typen gebeurtenismeldingen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [ het berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -121,15 +121,15 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
 1. Ga naar het project u gebruikers aan wilt toevoegen.
 
-1. Klikken **Mensen** in het linkerdeelvenster. Mogelijk moet u op **Meer weergeven** eerst.
+1. Klik **Mensen** in het linkerpaneel. U zou kunnen moeten klikken **tonen meer** eerst.
 
-1. Klikken **Gebruikers toevoegen**.
+1. Klik **toevoegen gebruikers**.
 
    De Add gebruikers aan de dialoogdoos van het Team van het Project toont.
 
-   ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
+   ![ add_users_dialog.png ](assets/add-users-dialog-350x217.png)
 
-1. In de **Gebruikers toevoegen** typt u de naam van een actieve Workfront-gebruiker die u aan het projectteam wilt toevoegen. Klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+1. In **voeg gebruikers** doos toe, begin typend de naam van een actieve gebruiker van Workfront die u aan het projectteam wilt toevoegen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
    Herhaal deze stap om meerdere gebruikers aan het projectteam toe te voegen. De gebruikers moeten tot de groep behoren verbonden aan het project.
 
@@ -138,10 +138,10 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
    >* U kunt geen gebruikers toevoegen door hun teams, groepen, bedrijven, of baanrollen toe te voegen.
    >* Terwijl u de gebruikers toevoegt, ziet u de avatar, de primaire rol van de gebruiker en hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    >
-   >  De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Zie voor meer informatie [Toegang verlenen aan gebruikers](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Klikken **Toevoegen**.
+1. Klik **toevoegen**.
 
    De gebruikers krijgen de toestemmingen van de Mening aan het project en ontvangen berichten over het project als deel van het projectteam.
 
@@ -153,4 +153,4 @@ Als u een gebruiker uit het projectteam verwijdert en de gebruiker aan taken of 
 
 De gebruikers die aan voltooide taken en kwesties worden toegewezen blijven toegewezen zelfs nadat u hen uit het projectteam verwijdert.
 
-Voor meer informatie over het verwijderen van gebruikers uit het projectteam, zie [Gebruikers uit projecten verwijderen](../../../manage-work/projects/manage-projects/remove-users-from-projects.md).
+Voor meer informatie over het verwijderen van gebruikers uit het projectteam, zie [ gebruikers uit projecten ](../../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.

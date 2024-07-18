@@ -21,22 +21,22 @@ Lees verder hieronder voor meer informatie over geplande functies en releases vo
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Zie de artikelen in [Goedkeuring van werkzaamheden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Nieuwe functies en ontwerpdoelstellingen
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
-* **Inclusief deelname van belanghebbenden**\
+* **Inclusieve participatie van belanghebbenden**\
     Met Goedkeuringen van nieuwe documenten kunnen zowel individuele contribuanten als hele teams worden opgenomen in het goedkeuringsproces. Het vergemakkelijken van deze bredere participatie zorgt voor een brede betrokkenheid van belanghebbenden en bevordert een beter geïnformeerde en beter op samenwerking gerichte besluitvormingsomgeving.
 
-* **Gedifferentieerde beoordelings- en goedkeuringsrollen**\
+* **Gesplitste overzicht en goedkeuringsrollen**\
     Goedkeuringen van nieuwe documenten zijn ontworpen om de verschillende rollen binnen het goedkeuringsproces te erkennen en te respecteren. Door de capaciteit te verstrekken om recensenten-gebruikers te identificeren en aan te wijzen die worden meegedeeld om terug te geven maar geen besluitvormend gezag hebben-wordt de kwaliteit van terugkoppelen verbeterd terwijl het handhaven van duidelijkheid van definitieve goedkeuringsinstantie.
 
-* **Versiespecifieke goedkeuringen**\
+* **Versie-specifieke goedkeuringen**\
     Het herhalende karakter van documentontwikkeling leidt vaak tot meerdere versies van hetzelfde document. Met Goedkeuringen in nieuw document wordt aan deze realiteit tegemoetgekomen door unieke goedkeuringsketens te bieden voor elke versie van een document. Zo kunnen gebruikers een nieuwe versie uploaden en zo nodig nieuwe fiatteurs of revisoren toevoegen, zodat feedback en goedkeuring specifiek zijn voor de documentversie en mogelijke verwarring wordt voorkomen.
 
-* **Controlespoor**\
+* **de sporen van de Controle**\
     Met de Goedkeuringen van Nieuw Document, wordt een controletraject van alle goedkeuringsactiviteiten gehandhaafd in de activiteitenstroom, die een waardevolle middel voor toekomstige verwijzing en naleving verstrekken.
 
 ## Releaseplan
@@ -47,9 +47,9 @@ Als u Goedkeuringen voor nieuwe documenten wilt inschakelen in uw productieomgev
 
 ## Goedkeuringen van nieuwe documenten gebruiken
 
-Raadpleeg de artikelen in de lijst voor gebruikers die documentgoedkeuringen willen maken of beheren [Middelen- en documentgoedkeuringen instellen en beheren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Voor gebruikers die documentgoedkeuringen tot stand willen brengen of beheren, zie de artikelen die in [ worden vermeld opstelling en beheer activa en documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Voor gebruikers die documenten willen bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, raadpleegt u de artikelen in [Documenten goedkeuren en reviseren: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Voor gebruikers die documenten bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, zie de artikelen die in [ worden vermeld goedkeuren en documenten herzien: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

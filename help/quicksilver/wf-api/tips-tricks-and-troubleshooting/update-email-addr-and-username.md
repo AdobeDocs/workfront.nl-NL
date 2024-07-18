@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## Probleem
 
-Normaal gesproken, `emailAddr` en `username` zijn hetzelfde kenmerk. Daarom als u een gebruiker verandert `emailAddr` kenmerk, de `username` kenmerk wordt automatisch bijgewerkt.
+Normaal gesproken zijn `emailAddr` en `username` hetzelfde kenmerk. Als u daarom het kenmerk `emailAddr` van een gebruiker wijzigt, wordt het kenmerk `username` automatisch overeenkomstig bijgewerkt.
 
-Wanneer de `username` komt niet overeen met de `emailAddr`, en een update van de `emailAddr` werkt de `username` automatisch. Dit geldt voor beide `emailAddr` wijzigingen door de gebruikersinterface en via de API.
+Als de `username` niet overeenkomt met de `emailAddr` , wordt de `username` niet automatisch bijgewerkt wanneer de `emailAddr` wordt bijgewerkt. Dit geldt voor zowel `emailAddr` -wijzigingen via de gebruikersinterface als via de API.
 
 ## Oorzaak
 
@@ -29,10 +29,10 @@ Het verschil kan op verschillende manieren worden gemaakt:
 
 * De gebruikers die vóór de synchronisatieregel werden gecreeerd bestonden. Zeer oude gebruikersaccounts hebben deze kenmerken mogelijk niet synchroon.
 
-* Gebruikers die via SSO zijn gemaakt op een moment dat het e-mailadres in Workfront hoofdlettergevoelig was. De auto-leveringsoptie SSO zou een case-sensitive controle voor gebruikers in werking stellen die op de attributen van de gebruiker van de identiteitsleverancier wordt gebaseerd. Wanneer een nauwkeurige gelijke niet bestond, zouden de auto-leveringsdiensten tot een nieuwe gebruiker leiden. Als een gebruiker al bestond, was er een potentieel dat de gebruikersnaam en `emailAddr` niet dezelfde behuizing zou hebben.
+* Gebruikers die via SSO zijn gemaakt op een moment dat het e-mailadres in Workfront hoofdlettergevoelig was. De auto-leveringsoptie SSO zou een case-sensitive controle voor gebruikers in werking stellen die op de attributen van de gebruiker van de identiteitsleverancier wordt gebaseerd. Wanneer een nauwkeurige gelijke niet bestond, zouden de auto-leveringsdiensten tot een nieuwe gebruiker leiden. Als een gebruiker al bestond, konden de gebruikersnaam en `emailAddr` niet dezelfde behuizing hebben.
 
-* Gebruikers die de `username` kenmerken die rechtstreeks via de API zijn bijgewerkt, en hun `emailAddr` is niet bijgewerkt. De `username` en `emailAddr` komt mogelijk niet overeen.
+* Gebruikers waarvan het kenmerk `username` rechtstreeks via de API is bijgewerkt, en waarvan het kenmerk `emailAddr` niet is bijgewerkt. De tekens `username` en `emailAddr` komen mogelijk niet overeen.
 
 ## Oplossing
 
-Gebruik de API om de `username` kenmerk moet hetzelfde zijn als het kenmerk `emailAddr`. Na het synchroniseren van de kenmerken, om het even welke update aan `emailAddr` zal ook de `username` overeenkomen (wanneer het veld gebruikersnaam niet is opgenomen in de update).
+Gebruik de API om het kenmerk `username` op dezelfde manier in te stellen als het kenmerk `emailAddr` . Na het synchroniseren van de kenmerken wordt bij elke update naar `emailAddr` ook de `username` bijgewerkt zodat deze overeenkomt (wanneer het veld gebruikersnaam niet is opgenomen in de update).

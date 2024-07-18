@@ -4,20 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Tekstparser
-description: Met het gereedschap Tekstparser kunt u tekst parseren voor gebruik in andere [!DNL Adobe Workfront Fusion] scenario-modules. Voor de tekstparser is geen verbinding vereist.
+description: U kunt het parserhulpmiddel van de Tekst gebruiken om tekst voor gebruik in andere  [!DNL Adobe Workfront Fusion]  scenariomodules te ontleden. Voor de tekstparser is geen verbinding vereist.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Text parser]
 
-U kunt de [!UICONTROL Text parser tool] tekst parseren voor gebruik in andere [!DNL Adobe Workfront Fusion] scenario-modules. De [!UICONTROL Text parser] geen verbinding vereist.
+Met de [!UICONTROL Text parser tool] kunt u tekst parseren voor gebruik in andere [!DNL Adobe Workfront Fusion] -scenario-modules. Voor [!UICONTROL Text parser] is geen verbinding vereist.
 
 ## Toegangsvereisten
 
@@ -38,31 +38,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor arbeidsautomatisering en -integratie],  [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Text parser] modules en hun velden
 
-Wanneer u [!UICONTROL Text parser] modules, [!DNL Adobe Workfront Fusion] geeft de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Text parser] modules configureert, geeft [!DNL Adobe Workfront Fusion] de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [De informatie van de kaart van één module aan een andere binnen [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,22 +141,22 @@ Hiermee parseert u elementen van tekst op basis van het opgegeven patroon.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Uppercase headings]</p> </td> 
-   <td> <p>Schakel deze optie in om tekst die in kopcodes staat, om te zetten (zoals &lt;h2&gt; &lt;/h2&gt;) in hoofdletters.</p> </td> 
+   <td> <p>Schakel deze optie in om tekst tussen kopcodes (zoals &lt;h2&gt; &lt;/h2&gt;) om te zetten in hoofdletters.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Match Pattern]
 
-De [!UICONTROL Match pattern] kunt u tekenreekselementen zoeken en extraheren die overeenkomen met een zoekpatroon in een bepaalde tekst. Deze module gebruikt reguliere expressies (ook wel regex of regexp genoemd).
+In de module [!UICONTROL Match pattern] kunt u zoeken naar tekenreekselementen die overeenkomen met een zoekpatroon in een bepaalde tekst. Deze module gebruikt reguliere expressies (ook wel regex of regexp genoemd).
 
 Een reguliere expressie is een reeks tekens waarin elk teken een metateken is met een speciale betekenis of een regulier teken met een letterlijke betekenis. Met deze teken- en metatekens wordt een patroon geïdentificeerd dat kan worden gebruikt voor het zoeken naar tekst. Als u bijvoorbeeld naar namen wilt zoeken, kunt u een reguliere expressie instellen om te zoeken naar een patroon dat bestaat uit twee opeenvolgende woorden die beginnen met hoofdletters. Reguliere expressies zijn een krachtig gereedschap voor het zoeken en bewerken van tekst.
 
 Een discussie over reguliere expressies valt buiten het toepassingsgebied van dit artikel. Wij adviseren de volgende middelen:
 
-* Voor de volledige lijst met metatekens raadpleegt u [Reguliere expressies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) in MDN-webdocumenten.
-* Voor een zelfstudie over het maken van reguliere expressies raden we aan [RegexOne](https://regexone.com/).
-* Voor het experimenteren met reguliere expressies raden we de [Gewone uitdrukkingen 101](https://regex101.com/) website. Selecteer de ECMAScript-FLAVOR (JavaScript) in het linkerdeelvenster.
+* Voor de volledige lijst van metacharacters, zie [ Reguliere uitdrukkingen ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) in MDN Web docs.
+* Voor een leerprogramma op hoe te om regelmatige uitdrukkingen tot stand te brengen, adviseren wij [ RegexOne ](https://regexone.com/).
+* Voor het experimenteren met regelmatige uitdrukkingen, adviseren wij de [ Reguliere Uitdrukkingen 101 ](https://regex101.com/) website. Selecteer de ECMAScript-FLAVOR (JavaScript) in het linkerdeelvenster.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,7 +164,7 @@ Een discussie over reguliere expressies valt buiten het toepassingsgebied van di
  <tbody> 
   <tr> 
    <td>[!UICONTROL Pattern] </td> 
-   <td> <p>Voer het reguliere-expressiepatroon in. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span> <code>[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?</code> Extraheert alle cijfers in de opgegeven tekst.</p> <p>Opmerking:  <p>Het patroon moet ten minste één vastleggroep tussen haakjes bevatten <code>()</code>. Als het patroon geen vastleggingsgroepen bevat, is de uitvoerbundel leeg.</p> </p> </td> 
+   <td> <p>Voer het reguliere-expressiepatroon in. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> <code>[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?</code> haalt alle cijfers in de verstrekte tekst uit.</p> <p>Opmerking:  <p>Het patroon moet ten minste één vastleggroep tussen haakjes <code>()</code> bevatten. Als het patroon geen vastleggingsgroepen bevat, is de uitvoerbundel leeg.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Global match]</td> 
@@ -176,7 +176,7 @@ Een discussie over reguliere expressies valt buiten het toepassingsgebied van di
   </tr> 
   <tr> 
    <td>[!UICONTROL Multiline] </td> 
-   <td> <p>Schakel deze optie in om ervoor te zorgen dat metatekens aan het begin en einde (<code>^</code> en <code>$</code>) komt overeen met het begin of einde van elke regel, niet alleen het uiterste begin of einde van de gehele invoertekenreeks.</p> </td> 
+   <td> <p>Schakel deze optie in om ervoor te zorgen dat metatekens aan het begin en einde (<code>^</code> en <code>$</code> ) overeenkomen met het begin of einde van elke regel, en niet alleen met het uiterste begin of einde van de gehele invoertekenreeks.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
@@ -188,7 +188,7 @@ Een discussie over reguliere expressies valt buiten het toepassingsgebied van di
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 
-   <td> <p>Typ of wijs de tekst toe die u aan het patroon wilt aanpassen.</p> </td> 
+   <td> <p>Voer de tekst in of wijs de tekst toe die u aan het patroon wilt aanpassen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ Zoekt de ingevoerde tekst naar een opgegeven waarde of reguliere expressie en ve
  <tbody> 
   <tr> 
    <td>[!UICONTROL Pattern] </td> 
-   <td> <p>Voer de zoekterm in. U kunt ook een reguliere expressie gebruiken. Voor meer informatie over de reguliere expressie raadpleegt u de <a href="#match-pattern" class="MCXref xref">[!UICONTROL Match Pattern]</a> module.</p> </td> 
+   <td> <p>Voer de zoekterm in. U kunt ook een reguliere expressie gebruiken. Zie de module <a href="#match-pattern" class="MCXref xref">[!UICONTROL Match Pattern]</a> voor meer informatie over de reguliere expressie.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL New value]</td> 
@@ -219,7 +219,7 @@ Zoekt de ingevoerde tekst naar een opgegeven waarde of reguliere expressie en ve
   </tr> 
   <tr> 
    <td>[!UICONTROL Multiline] </td> 
-   <td> <p>Schakel deze optie in om ervoor te zorgen dat metatekens aan het begin en einde (<code>^</code> en <code>$</code>) komt overeen met het begin of einde van elke regel, niet alleen het uiterste begin of einde van de gehele invoertekenreeks.</p> </td> 
+   <td> <p>Schakel deze optie in om ervoor te zorgen dat metatekens aan het begin en einde (<code>^</code> en <code>$</code> ) overeenkomen met het begin of einde van elke regel, en niet alleen met het uiterste begin of einde van de gehele invoertekenreeks.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
@@ -236,4 +236,4 @@ Zoekt de ingevoerde tekst naar een opgegeven waarde of reguliere expressie en ve
 
 Het schrapen van gegevens, soms genoemd Webschrapping, gegevensextractie, of Web het oogsten, is het proces om gegevens van websites te verzamelen en het op te slaan in uw lokale gegevensbestand of spreadsheets. Als u gegevens van een website wilt verwijderen en u niet bekend bent met reguliere expressies, kunt u een gereedschap voor het verwijderen van gegevens gebruiken.
 
-Als het hulpprogramma voor het plakken van gegevens een REST API biedt, kunt u er verbinding mee maken via onze universele [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) en [Webhaken](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules.
+Als het hulpmiddel van de gegevensschrapping REST API verstrekt, kunt u met het via onze universele [[!UICONTROL HTTP] modules ](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) en [ Webhooks ](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules verbinden.

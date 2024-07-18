@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -39,22 +39,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Mappen weergeven
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-1. Klikken **Documenten** in het hoofdmenu. ![](assets/main-menu-icon.png)
+1. Klik **Documenten** in het Belangrijkste Menu. ![](assets/main-menu-icon.png)
 
    of
 
-   Open een Workfront-object en klik op **Documenten** in het linkerdeelvenster.
+   Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 1. Klik op de weergaveopties boven het rechterdeelvenster om de weergave van de documenten te wijzigen.
 
@@ -64,18 +64,18 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 
 Maak mappen om uw documenten beter te ordenen. U kunt maximaal 2.000 mappen maken voor een object en maximaal 50 submappen in elke map. Submappen tellen naar maximaal 2.000 mappen.
 
-1. Klikken **Documenten** in het hoofdmenu. ![](assets/main-menu-icon.png)
+1. Klik **Documenten** in het Belangrijkste Menu. ![](assets/main-menu-icon.png)
 
    of
 
-   Open een Workfront-object en klik op **Documenten** in het linkerdeelvenster.
+   Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
-1. Als u een map op hoofdniveau wilt maken, zorgt u ervoor dat er niets is geselecteerd en klikt u op **Nieuwe toevoegen** > **Map**.
+1. Om een top-level omslag tot stand te brengen, zorg ervoor dat niets wordt geselecteerd, dan klik **voeg Nieuw** toe > **Omslag**.
 
    of
 
-   Als u een submap wilt maken, selecteert u de map waarin u de submap wilt maken en klikt u op **Nieuwe toevoegen** > **Map**.
+   Om een subfolder tot stand te brengen, selecteer de omslag waar u subfolder wilt tot stand brengen, dan **toevoegen Nieuw** > **Omslag**.
 
 ## Mappen delen
 
-Voor informatie over het delen van mappen raadpleegt u [Een documentmap delen](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+Voor informatie over het delen van omslagen, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.

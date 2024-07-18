@@ -22,7 +22,7 @@ Met de Adobe Authenticator-module kunt u verbinding maken met elke Adobe-API via
 
 Het voordeel ten opzichte van de HTTP-modules is dat u een verbinding kunt maken, zoals in een specifieke app.
 
-Voor een lijst met beschikbare Adobe-API&#39;s raadpleegt u [Adobe-API&#39;s](https://developer.adobe.com/apis). U kunt mogelijk alleen de API&#39;s gebruiken waaraan u bent toegewezen.
+Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://developer.adobe.com/apis). U kunt mogelijk alleen de API&#39;s gebruiken waaraan u bent toegewezen.
 
 ## Toegangsvereisten
 
@@ -33,29 +33,29 @@ Voor een lijst met beschikbare Adobe-API&#39;s raadpleegt u [Adobe-API&#39;s](ht
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] plan</td>
       <td>
-        <p>Nieuw: alle</p><p>of</p><p>Huidige: [!UICONTROL Pro] of hoger</p>
+        <p>Nieuw: alle</p><p>of</p><p>Huidig: [!UICONTROL Pro] of hoger</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
       <td>
-        <p>Nieuw: Standaard</p><p>of</p><p>Huidige: [!UICONTROL Plan], [!UICONTROL Work]</p>
+        <p>Nieuw: Standaard</p><p>of</p><p>Current: [!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie</td>
       <td>
-   <p>Huidige Fusion-vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige Fusion-licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere Fusion-licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor licentie voor verouderde fusie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Nieuw Workfront-abonnement: als je de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Nieuw Workfront-abonnement: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Huidig Workfront-abonnement: Uw organisatie moet het volgende kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Huidig Workfront-abonnement: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td>
     </tr>
   </tbody>
@@ -72,7 +72,7 @@ Voor een lijst met beschikbare Adobe-API&#39;s raadpleegt u [Adobe-API&#39;s](ht
      of
    * Voeg API aan een bestaand project toe.
 
-  Voor informatie over het maken van of het toevoegen van een API aan een project op de Adobe Developer Console raadpleegt u [Een project maken](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie bij de Adobe.
+  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [ een project ](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van de Adobe creëren.
 
 ## Verbinding maken
 
@@ -82,13 +82,13 @@ U kunt afzonderlijke verbindingen aan afzonderlijke projecten tot stand brengen,
 
 >[!IMPORTANT]
 >
->Met de Adobe Authenticator-connector hebt u de keuze tussen het maken van een OAuth Server-to-server verbinding of een Service Account (JWT)-verbinding. Adobe heeft JWT-referenties vervangen, die na 1 januari 2025 niet meer werken. **Daarom adviseren wij hoogst tot stand brengend OAuth verbindingen.**
+>Met de Adobe Authenticator-connector hebt u de keuze tussen het maken van een OAuth Server-to-server verbinding of een Service Account (JWT)-verbinding. Adobe heeft JWT-referenties vervangen, die na 1 januari 2025 niet meer werken. **daarom, adviseren wij hoogst creërend Verbindingen OAuth.**
 >
->Voor meer informatie over deze types van verbindingen, zie [Server-naar-server verificatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van de Adobe
+>Voor meer informatie over deze soorten verbindingen, zie [ Server aan de authentificatie van de Server ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van de Adobe
 
 Een verbinding maken:
 
-1. Klik in een willekeurige Adobe Authenticator-module op **Toevoegen** naast het veld Verbinding.
+1. In om het even welke module van Adobe Authenticator, voegt de klik **naast het gebied van de Verbinding toe.**
 1. Vul de volgende velden in:
 
    <table style="table-layout:auto"> 
@@ -111,11 +111,11 @@ Een verbinding maken:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!DNL Adobe] Client-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] client-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] Clientgeheim. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] clientgeheim in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Scopes]</td>
@@ -123,11 +123,11 @@ Een verbinding maken:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Voer uw [!DNL Adobe] Technische account-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Voer uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Als u een JWT-verbinding hebt geselecteerd, voert u uw [!DNL Adobe] Organisatie-id. Dit vindt u in het gedeelte [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console].
+        <td>Als u een JWT-verbinding hebt geselecteerd, voert u uw [!DNL Adobe] Organisatie-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -136,7 +136,7 @@ Een verbinding maken:
       <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
-          <p>Als u een JWT-verbinding hebt geselecteerd, voert u de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in het dialoogvenster [!DNL Adobe Developer Console]. </p>
+          <p>Als u een JWT-verbinding hebt geselecteerd, voert u de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in de [!DNL Adobe Developer Console] . </p>
           <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
           <ol>
             <li value="1">
@@ -152,18 +152,18 @@ Een verbinding maken:
               <p>Voer het wachtwoord voor het bestand in.</p>
             </li>
             <li value="5">
-              <p>Klikken <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
+              <p>Klik op <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
             </li>
           </ol>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Base URLs]</td>
-        <td>U moet de basis-URL's toevoegen die door deze authenticator worden toegestaan. Wanneer u later in het scenario de aanroepmodule Een aangepaste API maken gebruikt, voegt u een relatief pad naar de gekozen URL toe. Door hier URLs in te gaan, kunt u controleren wat het Merk een douane API vraagmodule kan verbinden, die veiligheid verhoogt.<p>Voor elke basis-URL die u aan de verificator wilt toevoegen, klikt u op <b>Item toevoegen</b> en voer de basis-URL in.</td>
+        <td>U moet de basis-URL's toevoegen die door deze authenticator worden toegestaan. Wanneer u later in het scenario de aanroepmodule Een aangepaste API maken gebruikt, voegt u een relatief pad naar de gekozen URL toe. Door hier URLs in te gaan, kunt u controleren wat het Merk een douane API vraagmodule kan verbinden, die veiligheid verhoogt.<p>Voor elke basisURL die u aan authentiek wilt toevoegen, <b> toevoegen punt </b> klikt en de basis URL ingaan.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
-        <td>Laat dit leeg als u de standaard Adobe IMS-verificatie-URL van <code>https://ims-na1.adobelogin.com</code>. Als u Adobe IMS niet gebruikt voor verificatie, voert u de URL in die u wilt gebruiken voor verificatie.</td>
+        <td>Laat dit leeg als u de standaard Adobe IMS-verificatie-URL van <code>https://ims-na1.adobelogin.com</code> wilt gebruiken. Als u Adobe IMS niet gebruikt voor verificatie, voert u de URL in die u wilt gebruiken voor verificatie.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
@@ -176,7 +176,7 @@ Een verbinding maken:
     </tbody>
     </table>
 
-1. Klikken **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## Module
 
@@ -194,7 +194,7 @@ Met deze actiemodule kunt u elke Adobe-API aanroepen.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Voor instructies over het maken van een verbinding met de Adobe Authenticator-module raadpleegt u <a href="#create-a-connection" class="MCXref xref" >Verbinding maken</a> in dit artikel.</td>
+     <td>Voor instructies bij het creëren van een verbinding aan de module van Adobe Authenticator, zie <a href="#create-a-connection" class="MCXref xref" > een verbinding </a> in dit artikel creëren.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -207,7 +207,7 @@ Met deze actiemodule kunt u elke Adobe-API aanroepen.
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie voor meer informatie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
       </td>
     </tr>
     <tr>
@@ -226,7 +226,7 @@ Met deze actiemodule kunt u elke Adobe-API aanroepen.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

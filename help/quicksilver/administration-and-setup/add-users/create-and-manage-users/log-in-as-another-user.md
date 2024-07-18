@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Adobe Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, is deze actie niet beschikbaar.
 >
->Ga voor een lijst met procedures die verschillen afhankelijk van de vraag of uw organisatie al dan niet is aangemeld bij de Adobe Admin Console naar [Platformgebaseerde verschillen in beheer (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-beheerder moet u mogelijk Workfront openen namens een andere gebruiker.
 
@@ -50,7 +50,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Omdat een documentintegratie verbinding kan maken met persoonlijke privébestanden, hebben beheerders geen toegang tot documentintegratie wanneer ze zijn aangemeld als een andere gebruiker.
 >
->Zie voor meer informatie over documentintegratie [Documentintegratie configureren](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Voor meer informatie over documentintegratie, zie [ documentintegratie ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen
 
 ## Toegangsvereisten
 
@@ -71,14 +71,14 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Met het de toegangsniveau van de Beheerder van het Systeem, kunt u login als iedereen. Voor informatie over dit toegangsniveau raadpleegt u <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Volledige administratieve toegang verlenen aan een gebruiker</a>. </p> <p>Met een toegangsniveau van de Planner, kunt u login als gebruiker met een lager vergunningsniveau als <b>Gebruikers</b> het plaatsen in het toegangsniveau wordt gevormd om <b>Bewerken</b> toegang, met <b>Maken</b> en ten minste één van beide <b>Gebruikersbeheerder</b> opties ingeschakeld onder <b>Uw instellingen nauwkeurig afstellen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>OPMERKING</b>: Van deze twee opties, als Gebruiker <b>Admin (Groepgebruikers)</b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> 
-   <p>Voor meer informatie over de <b>Gebruikers</b> het plaatsen in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Toegang verlenen aan gebruikers</a>.</p> </td> 
+   <td> <p>Met het de toegangsniveau van de Beheerder van het Systeem, kunt u login als iedereen. Voor informatie over dit niveau van toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> <p>Met een toegangsniveau van de Planner, kunt u login als gebruiker met een lager licentieniveau als <b> Gebruikers </b> het plaatsen in het toegangsniveau wordt gevormd <b> uitgeven </b> toegang, met <b> creëren </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b> NOTA </b>: Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> 
+   <p>Voor meer informatie over <b> Gebruikers </b> die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aanmelden en acties uitvoeren als een andere gebruiker
 
@@ -90,15 +90,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >   
    >  ![](assets/group-admin-user.png)
    >   
-   >  Deze instelling is standaard uitgeschakeld. Zie voor meer informatie [Aangepaste toegangsniveaus maken of wijzigen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >  Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
    >   
    >* U kunt het wachtwoord van een Workfront-beheerder niet opnieuw instellen.
 
 {{step-1-to-setup}}
 
-1. Klik in het linkerdeelvenster op **Aanmelden als**.
+1. In het linkerpaneel, klik **Login als**.
 
-1. In de **Gebruikers** op de **Aanmelden als** begint u de naam van de gebruiker te typen en klikt u vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
+1. In het **vakje van Gebruikers** op het **Login als** lusje, begin typend de naam van de gebruiker, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
    De gebruiker moet een toegangsniveau hebben dat in Workfront wordt bepaald. U kunt zich niet aanmelden bij het Workfront-systeem als een gebruiker die geen rechten heeft om u aan te melden.
 
@@ -106,7 +106,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >
    >De beheerders van de groep kunnen login slechts als gebruikers die lid van de groepen zijn zij leiden. Ze kunnen zich niet aanmelden als Workfront-beheerder.
 
-1. Klikken **Log in.**
+1. Klik **Login.**
 
    <!--
    <p> Might come in a future story:</p>
@@ -135,7 +135,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Wanneer u als een andere gebruiker het programma wordt geopend, toont een bericht bij de bovenkant van het scherm om op dit te wijzen.
 
-1. Nadat u de noodzakelijke acties als gebruiker hebt uitgevoerd, klik **Afmelden.**
+1. Nadat u de noodzakelijke acties als gebruiker hebt uitgevoerd, klik **Logout.**
 
 ## Traceren en controleren van activiteiten terwijl een beheerder als een andere gebruiker is aangemeld
 
@@ -143,7 +143,7 @@ Workfront biedt mechanismen voor het bijhouden en controleren van activiteiten d
 
 Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsdatum voor die gebruiker gewijzigd tot de datum waarop de systeem- of groepsbeheerder zich aanmeldt als die gebruiker.
 
-* [Indicatoren weergeven voor objecten](#view-indicators-on-items)
+* [ indicatoren van de Mening over punten ](#view-indicators-on-items)
 * [Controlegegevens weergeven](#view-audit-information)
 
 ### Indicatoren weergeven voor objecten {#view-indicators-on-items}
@@ -155,9 +155,9 @@ Bijvoorbeeld, als u op een punt terwijl het programma geopend als een andere geb
 ### Controlegegevens weergeven {#view-audit-information}
 
 1. Meld u aan bij Workfront als Workfront-beheerder of groepsbeheerder.
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Klikken **Aanmelden als,** Klik vervolgens op de knop **Toegangslogboek** tab.
+1. Klik **Login als,** dan klik het **Logboek van de Toegang** tabel.
 
    Telkens wanneer een systeem- of groepsbeheerder zich als een andere gebruiker bij Workfront aanmeldt, wordt de gebeurtenis in het audittrail aangemeld. Bovendien worden om het even welke controleerbare acties die plaatsvinden terwijl de beheerder als een andere gebruiker het programma wordt geopend het programma geopend in het auditspoor.
 

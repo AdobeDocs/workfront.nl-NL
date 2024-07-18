@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta 3 releaseactiviteit
-description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.2 bèta 3-release. De functionaliteit is op 19 april 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
+title: 2018.2 Beta 3-releaseactiviteit
+description: Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 3-release van 2018.2. De functionaliteit is op 19 april 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta 3 releaseactiviteit
+# 2018.2 Beta 3-releaseactiviteit
 
-Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de voorvertoningsomgeving met de 2018.2 bèta 3-release. De functionaliteit is op 19 april 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
+Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 3-release van 2018.2. De functionaliteit is op 19 april 2018 beschikbaar gesteld in de voorvertoningsomgeving. Het zal in juni 2018 beschikbaar worden gesteld in de productieomgeving.
 
 >[!IMPORTANT]
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [Overzicht van releaseactiviteiten 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-De versie 2018.2 Beta 3 bevat de volgende verbeteringen:
+De Beta 3-release van 2018.2 bevat de volgende verbeteringen:
 
-* [Licenties in uw systeem beheren](#manage-licenses-in-your-system)
-* [Vlaggen voor artikelen instellen op de Kanban Board](#set-flags-for-stories-on-the-kanban-board)
-* [Velden rechtstreeks bewerken op een geheugenkaart van Adobe](#edit-fields-directly-on-an-agile-story-card)
+* [ beheert Vergunningen in Uw Systeem ](#manage-licenses-in-your-system)
+* [ plaats Vlaggen voor Artikelen op de Raad Kanban ](#set-flags-for-stories-on-the-kanban-board)
+* [ geef Gebieden direct op een Kaart van het Verhaal van het Giezel uit ](#edit-fields-directly-on-an-agile-story-card)
 * [Verbeterde zoekfunctie voor meerdere woorden](#improved-search-relevancy-for-multiple-words)
 
 ## Licenties in uw systeem beheren {#manage-licenses-in-your-system}
@@ -37,7 +37,7 @@ We hebben een nieuwe pagina met licenties voor Workfront-beheerders gemaakt, waa
 
 Voorafgaand aan deze wijziging konden Workfront-beheerders het aantal licenties alleen bekijken in het gedeelte Licentie op de pagina Klantgegevens.
 
-Zie voor meer informatie [Beschikbare licenties in uw systeem beheren](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+Voor meer informatie, zie [ beschikbare vergunningen in uw systeem beheren ](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
 ## Vlaggen voor artikelen instellen op de Kanban Board {#set-flags-for-stories-on-the-kanban-board}
 
@@ -47,7 +47,7 @@ Vlaggen geven een visuele indicatie van wanneer een artikel gereed is om naar de
 
 Zie &#39;Vlaggen gebruiken op artikelen&#39; in het artikel voor informatie over het gebruik van vlaggen op het Kanban-bord.
 
-Voor informatie over het opnemen van vlaggen in taakrapporten, zie [Woordenlijst met Adobe Workfront-terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+Voor informatie over het omvatten van vlaggen in taakrapporten, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
 ## Velden rechtstreeks bewerken op een geheugenkaart van Adobe {#edit-fields-directly-on-an-agile-story-card}
 
@@ -66,4 +66,4 @@ Er is een wijziging aangebracht in de manier waarop zoekopdrachten worden uitgev
 
 Voordat u deze wijziging aanbrengt, kunt u bij het zoeken naar meerdere woorden in één keer zoeken naar items die een of meer woorden in de woordgroep bevatten. 
 
-Zie voor meer informatie over zoeken [Zoeken in Adobe Workfront](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Voor meer informatie over het zoeken, zie [ Onderzoek Adobe Workfront ](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).

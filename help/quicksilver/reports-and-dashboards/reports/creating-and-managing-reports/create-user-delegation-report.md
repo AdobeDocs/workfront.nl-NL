@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In Adobe Workfront, kunnen de gebruikers project delegeren, taak, en goedkeuring
 
 * Begindatum en einddatum van de delegaties
 
-Voor meer informatie over het delegeren van goedkeuringen raadpleegt u [Goedkeuringsaanvraag delegeren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Meer leren over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -55,34 +55,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de onderdelen waarvan de goedkeuringen zijn gedelegeerd en voor de gebruikers die bij de delegatie zijn betrokken</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de onderdelen waarvan de goedkeuringen zijn gedelegeerd en voor de gebruikers die bij de delegatie zijn betrokken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Een gebruikersdelegatierapport maken
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Rapporten**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Rapporten**.
 
-1. Klikken **Nieuw rapport** selecteert u vervolgens **Gebruikersdelegatie**.\
+1. Klik **Nieuw Rapport**, dan uitgezochte **Delegatie van de Gebruiker**.\
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
    De volgende gebieden tonen in dit rapport door gebrek:
 
    | Veld | Beschrijving |
    |---|---|
-   | **Van gebruiker** | Dit is de gebruiker die hun taak, kwestie, en projectgoedkeuringen aan een andere gebruiker delegeert. |
-   | **Aan gebruiker** | Dit is de gebruiker die taak, kwestie, en projectgoedkeuringen heeft die aan hen worden gedelegeerd. |
-   | **Start** | Dit is het begin van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
-   | **Einde** | Dit is het einde van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
+   | **van Gebruiker** | Dit is de gebruiker die hun taak, kwestie, en projectgoedkeuringen aan een andere gebruiker delegeert. |
+   | **aan Gebruiker** | Dit is de gebruiker die taak, kwestie, en projectgoedkeuringen heeft die aan hen worden gedelegeerd. |
+   | **Begin** | Dit is het begin van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
+   | **Eind** | Dit is het einde van de wachttijd voor de gebruiker die de delegaties heeft gemaakt. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Optioneel) In de rapportbuilder wijzigt u het volgende:
 
@@ -91,10 +91,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Filters
    * Diagram
 
-   Zie voor meer informatie over deze functies [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Meer over deze eigenschappen leren, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-1. Nadat u uw rapport hebt gemaakt, klikt u op **Opslaan + Sluiten**.
+1. Nadat u klaar bent met het bouwen van uw rapport, klik **sparen + Sluiten**.
 
-1. Voer een nieuwe naam in het dialoogvenster **Rapportnaam** veld, klik vervolgens op **Rapport opslaan**.
+1. Ga een nieuwe naam op het **gebied van de Naam van het Rapport** in, dan klik **sparen Rapport**.
 
    Het rapport wordt weergegeven.

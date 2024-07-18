@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Problemen met tekstparser oplossen in [!DNL Adobe Workfront Fusion]
+title: Problemen met tekstparser oplossen in  [!DNL Adobe Workfront Fusion]
 description: Gebruik deze informatie als u geen parser voor tekst kunt krijgen om uitvoer te produceren.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -38,31 +38,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Problemen oplossen
 
 In het casescenario-voorbeeld wilt u het bestandstype &#39;filename.docx&#39; parseren en de bestandsextensie varieert altijd van DOCX tot PDF tot CSV.
 
-De uitdrukking die u in dit geval kunt gebruiken is [!DNL \..+]
+De expressie die u in dit geval kunt gebruiken, is [!DNL \..+]
 
 Als u dit op regex uitdrukking op regex101.com zou gebruiken zult u een volledige gelijke krijgen.
 
@@ -94,4 +94,4 @@ Een andere oplossing die ook regex opneemt, gebruikt de vervangingsfunctie
 
 `{{replace("abcdefghijklmno pqr stuvw xyz.docx"; "/.\./"; ".")}}`
 
-Vervangen `abcdefghijklmno pqr stuvw xyz.docx` met de werkelijke bestandsnaamvariabele.
+Vervang `abcdefghijklmno pqr stuvw xyz.docx` vervolgens door de werkelijke bestandsnaamvariabele.

@@ -18,4 +18,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel is verplaatst. Zie [Adobe Workfront-browservereisten](../../workfront-basics/workfront-browser-requirements.md).
+>De informatie in dit artikel is verplaatst. Gelieve te zien [ browser vereisten van Adobe Workfront ](../../workfront-basics/workfront-browser-requirements.md).

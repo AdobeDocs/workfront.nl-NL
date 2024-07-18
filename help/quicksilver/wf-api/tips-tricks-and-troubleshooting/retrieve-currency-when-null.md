@@ -37,7 +37,7 @@ Dit retourneert de volgende responsinstantie:
 }
 ```
 
-Als de valuta niet voor het project wordt vastgesteld, zou deze reactie een valuta met de waarde omvatten `null`:
+Als de valuta niet is ingesteld voor het project, bevat deze reactie een valuta met de waarde `null` :
 
 ```
 {

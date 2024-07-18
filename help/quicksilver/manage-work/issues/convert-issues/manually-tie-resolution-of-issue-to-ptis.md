@@ -21,7 +21,7 @@ U kunt de resolutie van een kwestie aan de resolutie van een project, een taak, 
 >
 >Wanneer u de resolutie van een uitgave koppelt aan de resolutie van een ander object, kunt u de status van de oorspronkelijke uitgave niet meer handmatig bewerken.
 
-Voor meer informatie over het omzetten van en het omzetten van voorwerpen, zie [Overzicht van Oplossende en Oplosbare objecten](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor meer informatie over het oplossen van en het oplossen van oplosbare voorwerpen, zie [ Overzicht van het Oplossen van en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Toegangsvereisten
 
@@ -41,16 +41,16 @@ U moet het volgende hebben:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen, taken, projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen, taken, projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten beheren voor het probleem dat u koppelt aan een ander probleem, een andere taak of een ander project</p> <p>Bekijk of hoger toestemmingen aan de kwestie, de taak, of het project u aan de bestaande kwestie toevoegt</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten beheren voor het probleem dat u koppelt aan een ander probleem, een andere taak of een ander project</p> <p>Bekijk of hoger toestemmingen aan de kwestie, de taak, of het project u aan de bestaande kwestie toevoegt</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Vereisten
 
@@ -63,30 +63,30 @@ Voordat u begint, moet u:
 ## De oplossing van een kwestie voor de oplossing van een andere kwestie, een andere taak, of een ander project
 
 1. Navigeer naar een kwestie waarvan u aan de resolutie van een andere kwestie of aan de resolutie van een taak of een project wilt verbinden.
-1. Klik op de knop **Probleemdetails** in het linkerpaneel, dan breid uit **Overzicht** gebied.
+1. Klik de **Details van de Uitgave** in het linkerpaneel, dan breid het **3} gebied van het Overzicht {uit.**
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Klik op de knop **Opgelost door** en selecteer een van de volgende typen oplossende objecten:
+1. Klik **die door** gebied wordt opgelost, en selecteer van de volgende types van het oplossen van voorwerpen:
 
    * **Project**
    * **Taak**
-   * **Probleem**
+   * **Uitgave**
 
    Afhankelijk van het object dat u hebt geselecteerd, worden de volgende velden weergegeven:
 
-   * **Project oplossen**
-   * **Taak oplossen**
-   * **Probleem oplossen**
+   * **het oplossen van Project**
+   * **het oplossen van Taak**
+   * **het oplossen van Uitgave**
 
-1. Begin de naam van een specifiek project, een taak, of een kwestie in te typen **Project oplossen**, **Taak**, of **Probleem** en klikt u erop wanneer deze in de lijst wordt weergegeven.
+1. Begin typend de naam van een specifiek project, een taak, of een kwestie in het **Oplossende Project**, **Taak**, of **Uitgave** gebied, dan klik het wanneer het in de lijst verschijnt.
 
    >[!NOTE]
    >
    >U kunt de oplossing van een probleem niet koppelen aan de taak of het project waar het probleem zich bevindt. De taak of het project van de kwestie tonen niet in de Resolving Taak of de Resolving gebieden van de Taak.
 
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.
 
    De oorspronkelijke uitgave wordt het Oplosbare Voorwerp voor het project, de taak, of de kwestie u in stap 4 en 5 selecteerde. Dit betekent dat de oorspronkelijke kwestie voltooit wanneer het het oplossen van voorwerp (het project, de taak, of de kwestie u het met verbonden het)) wordt voltooid.
 

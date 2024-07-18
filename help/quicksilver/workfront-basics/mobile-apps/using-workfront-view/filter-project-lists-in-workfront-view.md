@@ -2,27 +2,27 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: Projectlijsten filteren in [!DNL Adobe Workfront] Weergave
+title: De projectlijsten van de filter in  [!DNL Adobe Workfront]  Mening
 feature: Get Started with Workfront
-description: Standaard, [!DNL Adobe Workfront] De weergave geeft de [!UICONTROL All Projects] lijst in [!DNL Workfront]en dus worden alle projecten die u kunt bekijken, weergegeven, ongeacht hun status.
+description: Door gebrek,  [!DNL Adobe Workfront]  toont de Mening de [!UICONTROL All Projects] lijst in  [!DNL Workfront], zodat zijn alle projecten u toegang tot mening hebt vermeld, ongeacht hun status.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Projectlijsten filteren in [!DNL Adobe Workfront View]
 
-Standaard, [!DNL Adobe Workfront View] geeft het dialoogvenster [!UICONTROL All Projects] lijst in [!DNL Workfront]en dus worden alle projecten die u kunt bekijken, weergegeven, ongeacht hun status.
+Standaard geeft [!DNL Adobe Workfront View] de [!UICONTROL All Projects] lijst weer in [!DNL Workfront] , zodat alle projecten die u kunt bekijken, worden weergegeven, ongeacht hun status.
 
-U kunt de lijst met projecten filteren in [!DNL Workfront View] om alleen projecten weer te geven die voor u van belang zijn. Na het toepassen van de filters, blijft de projectlijst gefilterd tot de volgende tijd u login of tot zij worden veranderd.
+U kunt de lijst met projecten in [!DNL Workfront View] filteren om alleen projecten weer te geven die voor u van belang zijn. Na het toepassen van de filters, blijft de projectlijst gefilterd tot de volgende tijd u login of tot zij worden veranderd.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben in [!DNL Workfront] om de stappen in dit artikel uit te voeren:
+U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,41 +41,41 @@ U moet de volgende toegang hebben in [!DNL Workfront] om de stappen in dit artik
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Filter de [!UICONTROL projects] lijst in [!UICONTROL Workfront View]
 
-1. Ga naar de lijst met projecten in het dialoogvenster [!DNL Workfront] Mobiele app weergeven.
+1. Ga naar de lijst met projecten in de [!DNL Workfront] Mobiele app weergeven.
 1. Tik op het lijstpictogram linksboven in de lijst.\
    De lijst met beschikbare filters wordt weergegeven.\
-   ![WF_View_filters_050621.jpg](assets/wf-view-filters-050621-350x427.jpg)
+   ![ WF_View_filters_050621.jpg ](assets/wf-view-filters-050621-350x427.jpg)
 
 1. Selecteer een van de volgende filters:
 
-   * [!UICONTROL Portfolios]: Selecteer specifieke portfolio&#39;s waarvan u de projecten wilt weergeven.
-   * [!UICONTROL Condition]: Selecteren om alleen projecten met een specifieke [!UICONTROL Condition].
-   * [!UICONTROL Progress]: Selecteren om alleen projecten weer te geven in een specifieke [!UICONTROL Progress Status].
-   * Status: Selecteren om alleen projecten weer te geven in specifieke [!UICONTROL Statuses].
-   * [!UICONTROL Planned Start]: Selecteer deze optie om alleen projecten weer te geven met de [!UICONTROL Planned Start Date] in de volgende tijdframes:
+   * [!UICONTROL Portfolios]: selecteer specifieke portfolio&#39;s waarvan u de projecten wilt weergeven.
+   * [!UICONTROL Condition]: selecteer deze optie om alleen projecten met een specifieke [!UICONTROL Condition] weer te geven.
+   * [!UICONTROL Progress]: selecteer deze optie om alleen projecten in een specifieke [!UICONTROL Progress Status] weer te geven.
+   * Status: selecteer deze optie om alleen projecten in specifieke [!UICONTROL Statuses] weer te geven.
+   * [!UICONTROL Planned Start]: selecteer deze optie om alleen projecten met de [!UICONTROL Planned Start Date] in de volgende tijdframes weer te geven:
 
       * Afgelopen 3 maanden
       * Afgelopen 2 maanden
       * Afgelopen maand
       * Afgelopen twee weken
-   * [!UICONTROL Planned Complete]: Selecteer deze optie om alleen projecten weer te geven met de [!UICONTROL Planned Completion Date] in de volgende tijdframes:
+   * [!UICONTROL Planned Complete]: selecteer deze optie om alleen projecten met de [!UICONTROL Planned Completion Date] in de volgende tijdframes weer te geven:
 
       * Twee weken
       * Eén maand
       * Twee maanden
       * Drie maanden
-   * [!UICONTROL Projected Complete]: Selecteer deze optie om alleen projecten weer te geven met de [!UICONTROL Projected Completion Date] in de volgende tijdframes:
+   * [!UICONTROL Projected Complete]: selecteer deze optie om alleen projecten met de [!UICONTROL Projected Completion Date] in de volgende tijdframes weer te geven:
 
       * Twee weken
       * Eén maand
       * Twee maanden
       * Drie maanden
-   * [!UICONTROL Owner]: Selecteer deze optie om projecten weer te geven die aan specifieke eigenaars zijn toegewezen.
-   * [!UICONTROL Sponsor]: Selecteren om projecten weer te geven die zijn toegewezen aan een specifieke [!UICONTROL Sponsor].
+   * [!UICONTROL Owner]: selecteer deze optie om projecten weer te geven die aan specifieke eigenaars zijn toegewezen.
+   * [!UICONTROL Sponsor]: selecteer deze optie om projecten weer te geven die zijn toegewezen aan een specifieke [!UICONTROL Sponsor] .
 
 
 

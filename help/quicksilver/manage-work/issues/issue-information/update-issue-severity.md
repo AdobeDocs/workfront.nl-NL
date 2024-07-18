@@ -20,14 +20,14 @@ U kunt ernst koppelen aan problemen in Adobe Workfront. Taken en projecten hebbe
 Problemen zijn onverwachte gebeurtenissen die kunnen voorkomen dat uw projecten op tijd of binnen het budget worden voltooid. Met serienummers kunt u aangeven hoe ernstig een probleem is. 
 
 Uw Workfront-beheerder definieert de beschikbare serienummers in Workfront. Nadat zij hen vestigen, zijn zij beschikbaar voor u om met een kwestie te associëren.\
-Ga voor meer informatie over het maken van bestandsversies in Workfront naar [Uitgiftecontroles maken of aanpassen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Voor meer informatie over het creëren van servers in Workfront, zie [ creeer of pas kwestiesSverities ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
 
 U moet over Contribute-machtigingen voor een uitgave beschikken om de ernst van de uitgave te kunnen bijwerken. 
 
 U kunt de ernst van de problemen in de volgende Workfront-gebieden bijwerken:
 
-* In de **Probleem bewerken** dialoogvenster
-* In de **Probleemdetails** gebied van een uitgave
+* In **geef Uitgave** dialoogdoos uit
+* In het **gebied van de Details van de Uitgave** van een kwestie
 * In een uitgiftenlijst of rapport
 
 ## Toegangsvereisten
@@ -48,32 +48,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Ernst van probleem bijwerken
 
 U kunt als volgt de ernst van een probleem bijwerken in het gebied Details van probleem van een uitgave:
 
 1. Ga naar het probleem waarvan u de ernst wilt bijwerken.
-1. Klikken **Probleemdetails** in het linkerdeelvenster.
+1. Klik **Details van de Uitgave** in het linkerpaneel.
 
-   De **Overzicht** sectie moet standaard worden weergegeven.
+   De **sectie van het Overzicht** zou door gebrek moeten tonen.
 
-1. Klik op de knop **Ernst** in het **Basisinformatie** gebied.
+1. Klik het **gebied van de Ernst** op het **Basisinformatie** gebied.
 
    ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
 
-1. Selecteer de juiste **Ernst** in het keuzemenu.
+1. Selecteer de aangewezen **Ernst** van het drop-down menu.
 
    Afhankelijk van hoe uw Workfront-beheerder verschillende versies in uw systeem heeft geconfigureerd, kunnen de opties variëren.
 
-1. Klikken **Wijzigingen opslaan**.
+1. Klik **sparen Veranderingen**.

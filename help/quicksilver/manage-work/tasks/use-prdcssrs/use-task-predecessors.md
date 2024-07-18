@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [Overzicht van voorgangers van taken](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-* [Een voorganger-relatie maken in de takenlijst](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
-* [Een eerdere relatie maken met het gebied Voorgangers](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
-* [Maak vorige relaties door taken in een keten te plaatsen](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
-* [Predecessors voor meerdere projecten maken](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
-* [Overzicht van typen taakafhankelijkheid](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
-* [Voorgangers afdwingen](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [Overzicht van typen labels](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
+* [ creeer een voorgangersverhouding op de taaklijst ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+* [ creeer een voorgangersverhouding gebruikend het gebied van Voorgangers ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
+* [ creeer predecessor verhoudingen door taken te ketenen ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
+* [ creeer dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
+* [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+* [ dwingen predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
+* [ overzicht van de Types van Lag ](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Overzicht van taakafhankelijkheidslus](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

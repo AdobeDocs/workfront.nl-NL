@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Probleem:
 
@@ -30,10 +30,13 @@ Na het Opslaan van Veranderingen, werden alle bestaande Andere Groepen geschrapt
 
 Het uiteindelijke gedrag is afhankelijk van het huidige groepslidmaatschap van de geselecteerde gebruikers:
 
-* Als alle geselecteerde gebruikers het lidmaatschap van Andere Groepen precies aanpassen... Nadat u de gebruikers hebt geselecteerd en [!UICONTROL edit]de [!UICONTROL Other Groups] in dit veld wordt een volledige lijst weergegeven van alle groepen waartoe deze gebruikers behoren.
+* Als alle geselecteerde gebruikers het lidmaatschap van Andere Groepen precies aanpast...
+Nadat u de gebruikers hebt geselecteerd en [!UICONTROL edit] hebt geselecteerd, wordt in het veld [!UICONTROL Other Groups] de volledige lijst weergegeven
+van alle groepen waartoe deze gebruikers behoren.
 
-* Als de geselecteerde gebruikers een ander groepslidmaatschap hebben... Nadat u de gebruikers hebt geselecteerd en op [!UICONTROL Edit]de [!UICONTROL Other Groups] veld wordt leeg weergegeven.
+* Als de geselecteerde gebruikers een ander groepslidmaatschap hebben...
+Nadat u de gebruikers hebt geselecteerd en op [!UICONTROL Edit] hebt geklikt, is het veld [!UICONTROL Other Groups] leeg.
 
-Wanneer u op **[!UICONTROL Save Changes]**, wordt alles wat in het veld Andere groepen wordt weergegeven, opgeslagen.
+Wanneer u op **[!UICONTROL Save Changes]** klikt, wordt alles wat in het veld Andere groepen wordt weergegeven, opgeslagen.
 
 De vorige inhoud van het veld wordt overschreven.

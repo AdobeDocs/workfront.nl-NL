@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Een board verwijderen of archiveren
 
-U kunt een board verwijderen of archiveren in [!DNL Workfront]. Als u een board permanent verwijdert, wordt dit verwijderd uit [!DNL Workfront], terwijl het archiveren van een kaart alle kaarten behoudt en het toelaat op een later tijdstip worden hersteld.
+U kunt een board verwijderen of archiveren in [!DNL Workfront] . Als u een kaart verwijdert, wordt deze permanent uit [!DNL Workfront] verwijderd, terwijl bij het archiveren van een kaart alle kaarten behouden blijven en later hersteld kunnen worden.
 
 ## Toegangsvereisten
 
@@ -39,38 +39,38 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
 ## Een board verwijderen
 
-Wanneer u een board verwijdert, wordt deze permanent verwijderd uit [!DNL Workfront] en kan niet worden hersteld. Alle kaarten aan boord worden ook samen met het bord verwijderd.
+Wanneer u een board verwijdert, wordt deze permanent verwijderd uit [!DNL Workfront] en kan deze niet worden hersteld. Alle kaarten aan boord worden ook samen met het bord verwijderd.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
 1. Selecteer op het dashboard het board dat u wilt openen.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Delete]**. Klik vervolgens op **[!UICONTROL Delete board]** in het bevestigingsbericht.
+1. Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteer **[!UICONTROL Delete]** . Klik vervolgens op **[!UICONTROL Delete board]** in het bevestigingsbericht.
 
    >[!NOTE]
    >
    >U kunt alleen tekengebieden verwijderen die u hebt gemaakt, niet tekengebieden waaraan u bent toegevoegd.
 
-   ![Het menu Board More](assets/boards-board-more-menu.png)
+   ![ Raad Meer menu ](assets/boards-board-more-menu.png)
 
 ## Een bord archiveren
 
 Gearchiveerde borden behouden alle kaarten en toewijzingen. Elke gebruiker kan een board op elk gewenst moment archiveren of herstellen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
 1. Selecteer op het dashboard het board dat u wilt openen.
-1. Klik op de knop **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Archive]**.
+1. Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteer **[!UICONTROL Archive]** .
 
-   ![Het menu Board More](assets/boards-board-more-menu.png)
+   ![ Raad Meer menu ](assets/boards-board-more-menu.png)
 
 ## Een board herstellen
 
 Een gearchiveerd bord kan op elk ogenblik worden hersteld. Elke gebruiker kan een gearchiveerd bord herstellen.
 
-1. Klik op de knop **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe Workfront]en klik vervolgens op **[!UICONTROL Boards]**.
-1. Klik op het dashboard op het filterpictogram ![Filter](assets/filter-icon-spectrum-25x25.png) en selecteert u **[!UICONTROL Archived Boards]**.
-1. Zoek het board dat u wilt herstellen en klik op de knop **[!UICONTROL More]** menu ![Het menu Meer](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteert u **[!UICONTROL Restore]**.
+1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Boards]** .
+1. Voor het dashboard, klik het filterpictogram ![ Filter ](assets/filter-icon-spectrum-25x25.png) en selecteer **[!UICONTROL Archived Boards]**.
+1. Vind de raad u wilt herstellen, **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam klikken, en **[!UICONTROL Restore]** selecteren.
 
-   ![Klembord herstellen](assets/boards-dashboard-restore.png)
+   ![ herstel raad ](assets/boards-dashboard-restore.png)

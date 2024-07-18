@@ -22,18 +22,18 @@ Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen
 
 >[!TIP]
 >
->U kunt strategische doelstellingen voor uw organisatie tot stand brengen die niet met de individuele BedrijfsGeval van een project worden verbonden. U moet toegang hebben tot Adobe Workfront-doelen om strategische doelen te kunnen maken. U kunt hen dan met projecten buiten hun Zaken verbinden. Voor informatie over het maken van doelen met behulp van Workfront Goals raadpleegt u [Overzicht van Adobe Workfront-doelen](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>U kunt strategische doelstellingen voor uw organisatie tot stand brengen die niet met de individuele BedrijfsGeval van een project worden verbonden. U moet toegang hebben tot Adobe Workfront-doelen om strategische doelen te kunnen maken. U kunt hen dan met projecten buiten hun Zaken verbinden. Voor informatie over het creëren van doelstellingen die de Doelen van Workfront gebruiken, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGeval voor uw projecten:
 
 * De doelstellingen van het bedrijfscase zijn project-specifiek. U kunt geen doelstellingen van één project aan een andere kopiëren, noch doelstellingen op het systeemniveau vestigen. Zij moeten op het niveau van elk project worden gedefinieerd.
-* Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van Doelen voor uw projecten toelaten alvorens het in het BedrijfsGeval van uw projecten toont. Voor informatie over het toelaten van de gebieden Bedrijfs van het Geval voor projecten, zie [Projectvoorkeuren voor het hele systeem configureren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van Doelen voor uw projecten toelaten alvorens het in het BedrijfsGeval van uw projecten toont. Voor informatie over het toelaten van BedrijfsGevallengebieden voor projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * De doelstellingen zijn geen verplichte sectie in het BedrijfsGeval van een project.
 
   Een project kan een score ontvangen die in Optimizer van het Portfolio moet worden voorrang gegeven, zelfs als de sectie van Doelen van het BedrijfsGeval niet wordt bepaald.
 
-  Voor meer informatie over de score Portfolio optimaliseren raadpleegt u [Pas een scorecard op een project toe en produceer een Score van de Uitlijning](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Voor meer informatie over de Optimizer van het Portfolio score, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
 * Je kunt geen melding maken van zakelijke doelen.
 
@@ -57,34 +57,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>Toegang tot projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren of hoger</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Voeg een doel aan het BedrijfsGeval van een project toe
 
 1. Ga naar een project waarvoor u de doelstellingen van het BedrijfsGeval wilt bepalen.
-1. Klikken **Hoofdlettergebruik in het linkerpaneel.**
+1. Klik **Bedrijfs Geval in het linkerpaneel.**
 
    De Business Case-displays.
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. In de **Doelen** sectie, klikken **Doelen bewerken**.
+1. In de **sectie van Doelen**, klik **uitgeven Doelstellingen**.
 
 1. Geef uw doelen op.
-In de **Belang** selecteert u het niveau van belangrijkheid:
+In het **Van het Belang** drop-down menu, selecteer het niveau van belang:
 
    * Hoogste
    * Hoog
-   * Normaal
+   * Medium
    * Laag
    * Laagste
 
@@ -92,5 +92,5 @@ In de **Belang** selecteert u het niveau van belangrijkheid:
 
      U kunt de niveaus van het Belang van doelstellingen niet aanpassen.
 
-1. (Optioneel) Klik op **Nog een doel toevoegen** en herhaal Stap 5 en Stap 6.
-1. Klikken **Opslaan**.
+1. (Facultatief) om een ander doel toe te voegen, klik **Voeg een ander Doel** toe en herhaal Stap 5 en Stap 6.
+1. Klik **sparen**.

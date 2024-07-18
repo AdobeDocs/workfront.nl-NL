@@ -37,11 +37,11 @@ U kunt dit bereiken in Workfront door het volgende te vormen:
 
 * Maak een Workfront Request-wachtrij voor het beheer van specifieke aanvragen binnen uw organisatie.
 
-  Voor meer informatie over de Queuges van het Verzoek, zie [Een aanvraagwachtrij maken](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 * Maak een rapport waarin alle openstaande problemen worden weergegeven die niet binnen 5 dagen zijn opgelost.
 
-  Zie voor meer informatie over het maken van rapporten [Een aangepast rapport maken](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Voor meer informatie over het creëren van rapporten, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## De tijd die aan projecten wordt besteed verbeteren en de begrotingsuitgaven in het komende jaar verbeteren
 
@@ -49,22 +49,22 @@ U kunt dit bereiken in Workfront door het volgende te vormen:
 
 * Ontwikkel een standaardprojectmethodologie voor uw organisatie. Dit omvat het identificeren van de gebruikers die verantwoordelijk zijn voor het maken en beheren van projecten en het verlenen van goedkeuringen.
 
-  Voor meer informatie over het creëren van projecten, zie [Een project maken](../../manage-work/projects/create-projects/create-project.md).
+  Voor meer informatie over het creëren van projecten, zie [ een project ](../../manage-work/projects/create-projects/create-project.md) creëren.
 
-  Voor meer informatie over het creëren van goedkeuringsprocessen, zie [Een goedkeuringsproces voor werkitems maken](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Voor meer informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 * Bepaal of u uw projecten in portefeuilles en programma&#39;s, voor meer diepgaand begroting en middelbeheer zou moeten organiseren.
 
-  Zie voor meer informatie over het maken van portfolio&#39;s [Een portfolio maken](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Voor meer informatie over het creëren van portefeuilles, zie [ een portefeuille ](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
 
 * Neem een benadering met best practices op om in elk project kwaliteit te bieden.
 * Identificeer om het even welke herhaalbare projecten die kunnen worden gebruikt om malplaatjes tot stand te brengen.
 
-  Zie voor meer informatie over het maken van sjablonen [Een projectsjabloon maken](../../manage-work/projects/create-and-manage-templates/create-template.md).
+  Voor meer informatie over het creëren van malplaatjes, zie [ een projectmalplaatje ](../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
 
 * Maak een dashboard dat de voortgang van de projectportfolio&#39;s van dit jaar weergeeft.
 
-  Ga voor meer informatie over het maken van een dashboard naar [Een dashboard maken](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  Voor meer informatie over het creëren van een dashboard, zie [ een dashboard ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## De kwaliteit van de diensten verbeteren met een beter beheer van interne processen
 
@@ -72,7 +72,7 @@ U kunt dit bereiken in Workfront door het volgende te vormen:
 
 * Ontwikkel een proces voor de levering van de diensten en gebruik Workfront om taken te beheren verbonden aan om het even welke dag of wekelijkse verantwoordelijkheden.
 * Gebruik de hulpmiddelen van het Beheer van het Middel om de toewijzing van middelen aan taken te bekijken zodat kunt u beter begrijpen hoe te om productiviteit en kwaliteit van levering te verbeteren.\
-  Voor meer informatie over de Planning van het Middel, zie [Bronnen plannen: artikelindex](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Voor meer informatie over de Planning van het Middel, zie [ Planning van het Middel: artikelindex ](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Succescriteria definiëren
 

@@ -21,6 +21,6 @@ De duur van een uitgave wordt automatisch berekend door Adobe Workfront en kan n
 
 U kunt de Duur van een kwestie in een uitgiftenrapport of de mening van een lijst van kwesties tonen.
 
-Ga voor meer informatie over het samenstellen van een rapport naar [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

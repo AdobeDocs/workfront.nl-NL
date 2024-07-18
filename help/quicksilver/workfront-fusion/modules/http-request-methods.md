@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]
+title: Methoden voor HTTP-aanvragen in  [!DNL Adobe Workfront Fusion]
 description: Wanneer u een API vraag in een module vormt, moet u het gebied voor de HTTP- verzoekmethode invullen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]
+# Methoden voor HTTP-aanvragen in [!DNL Adobe Workfront Fusion]
 
 Wanneer u een API vraag in een module vormt, moet u het gebied voor de HTTP- verzoekmethode invullen.
 
@@ -38,32 +38,32 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Nee [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereisten: Als u de [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Oudere productvereisten: Uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## HTTP-methoden
 
 Gebruik een van de volgende HTTP-methoden.
 
-* **[!UICONTROL GET]**: Haalt gegevens op van een webserver op basis van uw parameters. [!UICONTROL GET] vraagt om een vertegenwoordiging van het gespecificeerde middel, en ontvangt een [!UICONTROL 200 OK] antwoordbericht met de gevraagde inhoud indien succesvol.
-* **[!UICONTROL POST]**: Hiermee verzendt u gegevens naar een webserver op basis van uw parameters. [!UICONTROL POST] verzoeken bevatten handelingen zoals het uploaden van een bestand. Meerdere [!UICONTROL POST]Het resultaat kan verschillen van het resultaat [!UICONTROL POST]Wees daarom voorzichtig met het onbedoeld verzenden van meerdere [!UICONTROL POST]s. Indien een [!UICONTROL POST] is gelukt, ontvangt u een [!UICONTROL 200 OK] antwoordbericht.
-* **[!UICONTROL PUT]**: Hiermee verzendt u gegevens naar een locatie op de webserver op basis van uw parameters. [!UICONTROL PUT] verzoeken bevatten handelingen zoals het uploaden van een bestand. Het verschil tussen een [!UICONTROL PUT] en [!UICONTROL POST] is dat de PUT epidemisch is, wat betekent dat het resultaat van één succesvolle [!UICONTROL PUT] is hetzelfde als veel identieke [!UICONTROL PUT]s. Als een PUT succesvol is, ontvangt u een 200 reactiebericht (gewoonlijk 201 of 204).
-* **[!UICONTROL PATCH]**: (Niet beschikbaar voor sommige API-vraagmodules) Hiermee past u op basis van uw parameters gedeeltelijke wijzigingen toe op een bron op een webserver. [!UICONTROL PATCH] is niet epidemisch, wat betekent dat het resultaat van meerdere [!UICONTROL PATCH]Dat kan onbedoelde gevolgen hebben. Indien een [!UICONTROL PATCH] Als dit is gelukt, ontvangt u een antwoordbericht van 200 (meestal 204).
-* **[!UICONTROL DELETE]**: Verwijdert de opgegeven bron van de webserver op basis van uw parameters (als de bron bestaat). Indien een [!UICONTROL DELETE] Als dit is gelukt, ontvangt u een 200 OK-antwoordbericht.
+* **[!UICONTROL GET]**: haalt gegevens op van een webserver op basis van uw parameters. [!UICONTROL GET] vraagt om een representatie van de opgegeven bron en ontvangt een [!UICONTROL 200 OK] -antwoordbericht met de aangevraagde inhoud als dit gelukt is.
+* **[!UICONTROL POST]**: verzendt gegevens naar een webserver op basis van uw parameters. [!UICONTROL POST] -aanvragen bevatten handelingen zoals het uploaden van een bestand. Meerdere [!UICONTROL POST]&#39;s kunnen resulteren in een ander resultaat dan één [!UICONTROL POST] . Wees daarom voorzichtig met het onbedoeld verzenden van meerdere [!UICONTROL POST] s. Als een [!UICONTROL POST] is gelukt, ontvangt u een [!UICONTROL 200 OK] antwoordbericht.
+* **[!UICONTROL PUT]**: verzendt gegevens naar een locatie op de webserver op basis van uw parameters. [!UICONTROL PUT] -aanvragen bevatten handelingen zoals het uploaden van een bestand. Het verschil tussen a [!UICONTROL PUT] en [!UICONTROL POST] is dat PUT epidemisch is, wat betekent dat het resultaat van één succesvolle [!UICONTROL PUT] hetzelfde is als veel identieke [!UICONTROL PUT] s. Als een PUT succesvol is, ontvangt u een 200 reactiebericht (gewoonlijk 201 of 204).
+* **[!UICONTROL PATCH]**: (Niet beschikbaar voor sommige API-callmodules) Hiermee past u op basis van uw parameters gedeeltelijke wijzigingen toe op een bron op een webserver. [!UICONTROL PATCH] is niet dekkend, wat betekent dat het resultaat van meerdere [!UICONTROL PATCH] &#39;&#39;s onbedoelde gevolgen kan hebben. Als een [!UICONTROL PATCH] is gelukt, ontvangt u een 200-antwoordbericht (meestal 204).
+* **[!UICONTROL DELETE]**: verwijdert de opgegeven bron van de webserver op basis van uw parameters (als de bron bestaat). Als een [!UICONTROL DELETE] is gelukt, ontvangt u een 200 OK-antwoordbericht.

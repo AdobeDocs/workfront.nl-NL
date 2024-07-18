@@ -24,7 +24,7 @@ Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-plan
 * Werkruimten weergeven, bijdragen of beheren
 * Weergaven weergeven of beheren.
 
-Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
@@ -35,10 +35,10 @@ Het verlenen van gebruikerstoestemmingen aan een werkruimte verleent hen ook toe
 
 | Adobe Workfront-licentietype* | Hoogste machtigingen toegestaan in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nieuw: Standaard <br> of <br>Huidig: Plan | Gebruikers kunnen werkruimten beheren. Ze kunnen werkruimten, recordtypen, records en velden maken, bewerken of verwijderen. <br> Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt. |
-| Nieuw: licht, contribuant <br> of <br>Huidig: Werk, Aanvrager, Reviewer | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld. <br> Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen. |
+| Nieuw: Standaard <br> of <br> Huidig: Plan | Gebruikers kunnen werkruimten beheren. Ze kunnen werkruimten, recordtypen, records en velden maken, bewerken of verwijderen. <br> Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt. |
+| Nieuw: Licht, Medewerker <br> of <br> Huidig: Werk, Aanvrager, Reviewer | De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld. <br> Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen. |
 
-*Zie voor meer informatie [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Licentietypen en werkruimtemachtigingen
 
@@ -48,7 +48,7 @@ Systeembeheerders kunnen alle werkruimten in het systeem weergeven, zelfs de wer
 
 >[!INFO]
 >
->**VOORBEELD**
+>**VOORBEELD:**
 >
 >Aanvragers (of medewerkers volgens het nieuwe licentiemodel) kunnen geen bijdrage leveren aan werkruimten en hun objecten of deze beheren.
 >
@@ -62,7 +62,7 @@ Alleen gebruikers met een Standard- (of Plan-) licentie kunnen beheermachtiginge
 
 >[!INFO]
 >
->**VOORBEELD**
+>**VOORBEELD:**
 >
 >Medewerkers (of aanvragers en revisoren) kunnen geen weergaven beheren. Ze kunnen tijdelijke filters, sorteren of groeperingen toepassen op weergaven waartoe ze toegang hebben.
 >

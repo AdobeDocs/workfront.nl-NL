@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Werkitems markeren die zijn voltooid met de [!DNL Adobe Workfront] insteekmodule
+# Werkitems markeren die zijn voltooid met de insteekmodule [!DNL Adobe Workfront]
 
-U kunt in het volgende blijven [!DNL Adobe Creative Cloud] en uw werk probleemloos voltooien in [!DNL Adobe Workfront] met de insteekmodule:
+U kunt in de volgende [!DNL Adobe Creative Cloud] -toepassingen blijven en uw werk naadloos voltooien in [!DNL Adobe Workfront] met de plug-in:
 
 {{cc-app-list}}
 
@@ -37,16 +37,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> --> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>U moet beschikken over een [!DNL Adobe Creative Cloud] naast een [!DNL Workfront] licentie.</td> 
+   <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot het object dat u wilt voltooien.</p> <p>Voor informatie over het aanvragen van aanvullende toegang raadpleegt u <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Toegang tot objecten aanvragen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot het object dat u wilt voltooien.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw [!DNL Workfront] beheerder.
+Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
 ## Vereisten
 
@@ -54,23 +54,23 @@ Neem contact op met uw [!DNL Workfront] beheerder.
 
 ## Een tijdelijk onderdeel voltooien
 
-1. Klik op de knop **[!UICONTROL Menu]** in de rechterbovenhoek, en selecteer vervolgens **[!UICONTROL Work List]**. U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
+1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Van de **[!UICONTROL Work List]** selecteert u de taak of uitgave die u als voltooid wilt markeren.
-1. Klik op **[!UICONTROL Done]**.  Als u de enige gebruiker bent die aan deze taak of kwestie wordt toegewezen, merkt dit het punt [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront].
-1. (Voorwaardelijk) Als er meerdere gebruikers zijn toegewezen aan deze taak of uitgave, klikt u op [!UICONTROL Done] Hiermee wordt een vervolgkeuzelijst geopend. U kunt dan:
+1. Selecteer in het **[!UICONTROL Work List]** de taak of uitgave die u als voltooid wilt markeren.
+1. Klik op **[!UICONTROL Done]** .  Als u de enige gebruiker bent die aan deze taak of uitgave is toegewezen, markeert dit het item [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront] .
+1. (Voorwaardelijk) Als er meerdere gebruikers zijn toegewezen aan deze taak of uitgave, wordt een vervolgkeuzelijst geopend wanneer u op [!UICONTROL Done] klikt. U kunt dan:
 
-   Klikken **[!UICONTROL Done with my part]** als andere gebruikers ook hun werk moeten doen om de taak of kwestie te voltooien.
+   Klik op **[!UICONTROL Done with my part]** als andere gebruikers hun werk moeten doen om de taak of uitgave te voltooien.
 
    of
 
-   Klikken **[!UICONTROL Complete]** (voor taken) of **[!UICONTROL Resolved]** (voor kwesties) indien er geen verdere werkzaamheden nodig zijn op het gebied van de taak of kwestie. Dit geeft het item aan [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront].
+   Klik op **[!UICONTROL Complete]** (voor taken) of **[!UICONTROL Resolved]** (voor problemen) als er verder niets hoeft te worden gedaan aan de taak of het probleem. Dit geeft het item [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront] aan.
 
    >[!NOTE]
    >
-   >Als het werkitem voorgangers heeft, is de knop Gereed grijs totdat deze voorgangers zijn gemarkeerd als voltooid. Voorgangers weergeven in van [!DNL Workfront]klikt u op de naam van de taak.
+   >Als het werkitem voorgangers heeft, is de knop Gereed grijs totdat deze voorgangers zijn gemarkeerd als voltooid. Als u voorgangers in [!DNL Workfront] wilt weergeven, klikt u op de naam van de taak.
    >![](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

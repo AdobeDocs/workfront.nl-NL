@@ -4,7 +4,8 @@ description: Verbeteringen van projecten in het eerste kwartaal van 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverhogingen die met Eerste Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [Overzicht eerste release 2024, kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Meer relevante slimme toewijzingen
 
@@ -39,4 +40,4 @@ Overweeg ook het volgende:
 
 * Er zijn geen wijzigingen in de manier waarop slimme toewijzingen voor emissies worden berekend. De naam van de lijst met slimme toewijzingen in een lijst met uitgaven is &quot;Hier volgen enkele aanbevelingen&quot;.
 
-Zie voor meer informatie [Overzicht van slimme toewijzingen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

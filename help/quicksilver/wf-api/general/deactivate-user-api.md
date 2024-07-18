@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Wanneer een gebruiker uw organisatie verlaat, kunt u de gebruiker deactiveren, hun Adobe Workfront-licentie beschikbaar maken voor een andere gebruiker en voorkomen dat deze per ongeluk werk krijgt toegewezen. Door een gebruiker te deactiveren, behoudt u de werkgeschiedenis, inclusief de werktoewijzingen en de koppeling met notities, uren en documenten.
 
-Als u meer wilt weten over het deactiveren van een gebruiker, raadpleegt u &quot; [Een gebruiker deactiveren of opnieuw activeren](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+Meer over het deactiveren van een gebruiker leren, zie &quot; [ een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
-Voor informatie over het gebruik van de Core API raadpleegt u [Basisbeginselen van API](../../wf-api/general/api-basics.md).
+Voor informatie over het gebruiken van de Kern API, zie [ API grondbeginselen ](../../wf-api/general/api-basics.md).
 
 Een gebruiker deactiveren via de API:
 
@@ -34,19 +34,19 @@ Een gebruiker deactiveren via de API:
 
 1. Zoek GUID voor de gebruiker die u wilt deactiveren.
 
-   1. Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat **isActive** veldpresentaties **true** voor gebruikers die momenteel actief zijn en **false** voor gedeactiveerde gebruikers:
+   1. Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat het **isActive** gebied **** waar {voor gebruikers toont die momenteel actief en **vals** voor gebruikers zijn die zijn gedeactiveerd:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
-1. Zoek GUID voor de gebruiker die u wilt deactiveren, gebruik het volgende **PUT** verzoek om de gebruiker te wijzigen **isActive** veldwaarde naar **false**:
+1. Bepaal de plaats van GUID voor de gebruiker u wilt deactiveren, gebruik het volgende **PUT** verzoek om de het gebiedswaarde van de gebruiker **isActive** te veranderen **vals**:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
-1. Uit het antwoord zal blijken dat de **isActive** veldwaarde is gewijzigd van **true** tot **false** die aangeeft dat de gebruiker is gedeactiveerd:
+1. De reactie zal tonen dat de **isActive** gebiedswaarde van **waar** aan **vals** is veranderd die erop wijst dat de gebruiker is gedeactiveerd:
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

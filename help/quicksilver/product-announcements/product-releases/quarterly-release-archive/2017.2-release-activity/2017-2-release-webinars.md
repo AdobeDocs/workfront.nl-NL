@@ -20,25 +20,25 @@ Deze webinars waren gericht op functionaliteit die is opgenomen in de release va
 
 De release van 2017.2 is momenteel beschikbaar om te testen in Preview; de release van 2017.2 zal eind juli of begin augustus 2017 beschikbaar zijn in de productieomgeving.
 
-Als u meer gedetailleerde informatie wilt bekijken over de functionaliteit die in de webinars wordt beschreven, raadpleegt u de [Overzicht van releaseactiviteiten 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) pagina.
+Om meer gedetailleerde informatie over de functionaliteit te bekijken die in webinars wordt behandeld, zie [ 2017.2 het overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) pagina.
 
 De volgende webinar-opnamen zijn beschikbaar:
 
-* [2017.2 Release Webinar (27 juni 2017)](#2017-2-release-webinar-june-27-2017)
+* [ webinar van de Versie 2017.2 (27 juni, 2017) ](#2017-2-release-webinar-june-27-2017)
 * [2017.2 Beta 1 en 2 (24 mei 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## 2017.2 Release Webinar (27 juni 2017) {#2017-2-release-webinar-june-27-2017}
 
 Het Workfront 2017.2 Release Webinar werd op 27 juni door het Workfront Product team gepresenteerd.  
 
-Voor gemak, is webinar verdeeld in de volgende onderwerpen:
+Voor het gemak, wordt webinar verdeeld in de volgende onderwerpen:
 
-* [Inleiding](#introduction)
-* [Bronbeheer](#resource-management)
-* [Proofing](#proofing)
-* [Overige verbeteringen](#other-enhancements)
-* [Mobiel](#mobile)
-* [Functionaliteit wordt verwijderd](#functionality-being-removed)
+* [ Inleiding ](#introduction)
+* [ Beheer van het Middel ](#resource-management)
+* [ het Proofing ](#proofing)
+* [ Andere Verbeteringen ](#other-enhancements)
+* [ Mobiel ](#mobile)
+* [ Functionaliteit wordt verwijderd ](#functionality-being-removed)
 * [Beheerders en ontwikkelaars](#administrators-and-developers)
 
 ### Inleiding {#introduction}
@@ -61,10 +61,10 @@ Dit gedeelte van webinar bevat de volgende onderwerpen:
 * Proofs vergelijken
 * Versies van gecontroleerde documenten weergeven
 * Nieuw object ‘Requester’ in goedkeuringsrapport
-* Nieuw object ‘Proof Creator’ in documentversierapport
+* Nieuw proefdrukobject in rapport documentversie
 * Verbeterde proefdrukviewer (voor videoproefdrukken)
-* Proefdrukken voor rijke media weergeven in alternatieve resoluties
-* URL&#39;s naar subpagina&#39;s weergeven in opmerkingen op proefdrukken van rijke media
+* Proefversies van rijke media weergeven in alternatieve resoluties
+* URL&#39;s naar subpagina&#39;s weergeven in opmerkingen op proefdrukken met rich media
 * Aangepaste weergaven maken op basis van standaardweergaven
 * Verbeteringen van rapportage
 
@@ -84,10 +84,10 @@ Dit gedeelte van webinar bevat de volgende onderwerpen:
 
 ### Functionaliteit wordt verwijderd {#functionality-being-removed}
 
-Dit gedeelte van webinar bevat de volgende onderwerpen:
+Dit gedeelte van het webinar bevat de volgende onderwerpen:
 
-* Kolommen opnieuw ordenen in een lijstrapport met Slepen en neerzetten
-* Ondertekeningen verwijderen
+* Kolommen in een lijstrapport opnieuw ordenen met slepen en neerzetten
+* Ondertiteling
 
 ### Beheerders en ontwikkelaars {#administrators-and-developers}
 
@@ -102,4 +102,4 @@ Dit gedeelte van webinar bevat de volgende onderwerpen:
 
 ## 2017.2 Beta 1 en 2 (24 mei 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-De release webinar werd gepresenteerd op 24 mei 2017. Dit webinar behandelde functionaliteit die met 2017.2 bèta 1 en bèta 2 versies ter beschikking wordt gesteld.
+De release webinar werd gepresenteerd op 24 mei 2017. Deze webinar bedekte functionaliteit beschikbaar gesteld met de Beta 1- en Beta 2-releases van 2017.2.

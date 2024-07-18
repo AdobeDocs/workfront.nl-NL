@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Wanneer de gebruikers hun toegewezen aantal besluiten bereiken, worden zij bevorderd aan een Lichte vergunning door gebrek.
 
-U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied. Voor meer informatie over hoe auto-upgrades werken, raadpleegt u [Overzicht van beperkte documenten en bewijsmiddelen voor niet-betaalde gebruikers](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied. Meer over leren hoe auto-upgrades werken, zie [ Beperkt document en proefdrukbesluit voor niet-betaalde gebruikers overzicht ](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{step-1-to-setup}}
 
-1. Uitbreiden [!UICONTROL **Systeem**] in de linkernavigatie, dan klik [!UICONTROL **Voorkeuren**].
-1. In de [!UICONTROL **Algemene voorkeuren**] sectie, controleren [!UICONTROL **Automatisch upgraden uitschakelen in Toegangsniveaus**] doos.
-1. Klikken [!UICONTROL **Opslaan**].
+1. Breid [!UICONTROL **Systeem**] in de linkernavigatie uit, dan klik [!UICONTROL **Voorkeur**].
+1. In de [!UICONTROL **Algemene sectie van de Voorkeur**], controleer [!UICONTROL **auto-verbetering binnen de Levels van de Toegang**] doos onbruikbaar maken.
+1. Klik [!UICONTROL **sparen**].

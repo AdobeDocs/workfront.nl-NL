@@ -10,7 +10,7 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Het uploaden van een bestand naar een leverancier van documentopslag is een proc
 
 De document-id en de document-versie-id zijn toegevoegd aan versie 1.1 van deze specificatie en kunnen worden gebruikt om extra informatie van Workfront op te halen.
 
-**Voorbeeld:** Als het documentbeheersysteem extra informatie over het document wil, kan de webhimplementatiecode de document-id gebruiken om die informatie op te halen met de Workfront RESTful-API. Als goede praktijk, kon deze informatie uit de gebieden van douanegegevens op het document komen en het bevat taak, kwestie, of project.
+**Voorbeeld:** als het systeem van het documentbeheer extra informatie over het document wil, kon de code van de webshimplementatie documentidentiteitskaart gebruiken om die informatie terug te winnen gebruikend Workfront RESTful API. Als goede praktijk, kon deze informatie uit de gebieden van douanegegevens op het document komen en het bevat taak, kwestie, of project.
 
 ## Methode POST
 
@@ -86,11 +86,11 @@ PUT /upload
 | id  |  De document-id, die zojuist is gemaakt. |
 
 
-**Indieningsinstantie**
+**Lichaam van het Verzoek**
 
 De onbewerkte inhoudbytes voor het document.
 
-**Antwoord**
+**Reactie**
 
 ```
 {

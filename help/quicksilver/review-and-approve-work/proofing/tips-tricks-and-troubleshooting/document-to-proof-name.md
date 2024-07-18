@@ -5,13 +5,13 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Documentnaam gewijzigd na uploaden en bevat een ongeldig teken
 description: Bepaalde documenten kunnen niet worden geconverteerd naar proefdrukken.
 author: Courtney
-source-git-commit: a01c2e42dad1a7c00ac73fcaeb1202c56238a8bb
+exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
+source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # Documentnaam gewijzigd na uploaden en bevat een ongeldig teken
 
@@ -21,7 +21,7 @@ Bepaalde documenten kunnen niet worden geconverteerd naar proefdrukken.
 
 ## Oorzaak
 
-Bestanden die naar Workfront zijn geüpload, kunnen bepaalde tekens in bestandsnamen niet bevatten. Als een bestand een van de volgende tekens in de bestandsnaam bevat, worden de tekens uit de bestandsnaam verwijderd wanneer het bestand wordt geüpload: `! # % * \ | ' " / ? < > { } [ ]`.
+Bestanden die naar Workfront zijn geüpload, kunnen bepaalde tekens in bestandsnamen niet bevatten. Als een bestand een van de volgende tekens in de bestandsnaam bevat, worden de tekens uit de bestandsnaam verwijderd wanneer het bestand wordt geüpload: `! # % * \ | ' " / ? < > { } [ ]` .
 
 Als een documentnaam wordt bijgewerkt en na de eerste upload een ongeldig teken bevat, mislukt het genereren van de proefdruk.
 
@@ -29,7 +29,7 @@ Als een documentnaam wordt bijgewerkt en na de eerste upload een ongeldig teken 
 
 Verwijder het ongeldige teken uit de documentnaam:
 
-1. Selecteer het document en klik op **Documentdetails**.
+1. Selecteer het document, dan klik **Details van het Document**.
 1. Klik op de documentnaam, verwijder het ongeldige karakter, en druk binnengaan.
 
    Ongeldige tekens: `! # % * \ | ' " / ? < > { } [ ]`

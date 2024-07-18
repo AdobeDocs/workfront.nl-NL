@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Om veranderingen toe te laten die u aan de timesheet- profielen aanbracht om in huidige timesheets te weerspiegelen, moet u eerst bestaande timesheets schrappen en dan manueel nieuwe manueel produceren. U kunt tijdbladen handmatig genereren in het gedeelte Timesheets of in het gedeelte Diagnostics in Setup, zoals uitgelegd in dit artikel.
 
-Voor instructies over het schrappen van timesheets, zie [Tijdschema&#39;s in Adobe Workfront verwijderen](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
+Voor instructies bij het schrappen van timesheets, zie [ timesheets van de Schrapping in Adobe Workfront ](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
 ## Toegangsvereisten
 
@@ -37,12 +37,12 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn of, als u werkt aan timesheet-profielen voor een groep, u moet een groepsbeheerder (of Workfront-beheerder) zijn. Zie voor meer informatie <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Groepbeheerders</a>.</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Aangepaste toegangsniveaus maken of wijzigen</a>.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn of, als u werkt aan timesheet-profielen voor een groep, u moet een groepsbeheerder (of Workfront-beheerder) zijn. Voor meer informatie, zie <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a>.</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
 ## Overwegingen over manueel geproduceerde timesheets
 
@@ -55,16 +55,16 @@ Wanneer u handmatig tijdbladen genereert:
 
 U kunt systeem-niveau of groep-vlakke timesheets van het gebied van Timesheets &amp; van Uren in Opstelling manueel produceren.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Als u timesheets in gebruik door het systeem produceert, klik **Timesheets en uren.**
+1. Als u timesheets in gebruik door het systeem produceert, klik **Chronologie &amp; Uren.**
 
    of
 
-   Als u timesheets genereert die door een specifieke groep worden gebruikt, klikt u op **Groepen** en klikt u op de naam van de groep.
+   Als u timesheets produceert die door een specifieke groep worden gebruikt, klik **Groepen**, dan klik de naam van de groep.
 
-1. Klikken **Tijdbladprofielen**.
-1. Klikken **Meer** vervolgens **Timesheets genereren**.
+1. Klik **Profielen van de Chronologie**.
+1. Klik **Meer**, dan **produceer Chronologie**.
 
    Nieuwe tijdbladen worden gemaakt voor maximaal twee perioden voor gebruikers die aan tijdbladprofielen zijn gekoppeld.
 
@@ -72,9 +72,9 @@ U kunt systeem-niveau of groep-vlakke timesheets van het gebied van Timesheets &
 
 U kunt handmatig tijdbladen op systeemniveau genereren in het gedeelte Diagnostiek in Setup.
 
-1. Klik op de knop **Hoofdmenu** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront klikt u op **Instellen** ![](assets/gear-icon-settings.png).
+1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
-1. Uitbreiden **Systeem** en klik vervolgens op **Diagnostiek**.
+1. Breid **Systeem** uit, dan klik **Diagnostiek**.
 
-1. Klikken **Diagnostiek uitvoeren**. 
-1. Klikken **Timesheets genereren**.
+1. Klik **Diagnostiek van het Gedrag**. 
+1. Klik **produceer Chronologie**.

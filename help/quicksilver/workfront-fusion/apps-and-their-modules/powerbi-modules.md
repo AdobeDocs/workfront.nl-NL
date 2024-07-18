@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] is geen gegevensbron. while [!DNL Workfront Fusion] kan gegevensbronnen maken en gebruiken, worden uw gegevens niet opgeslagen.
+>[!DNL Workfront Fusion] is geen gegevensbron. Hoewel [!DNL Workfront Fusion] gegevensbronnen kan maken en gebruiken, worden uw gegevens niet opgeslagen.
 
 
 ## Toegangsvereisten
@@ -45,31 +45,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
    <td>
-   <p>Huidige vergunningsvereiste: Neen [!DNL Workfront Fusion] vergunningsvereiste.</p>
+   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereisten voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u beschikt over [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] Abonnement, uw organisatie moet [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken. [!DNL Workfront Fusion] is opgenomen in de [!UICONTROL Ultimate] [!DNL Workfront] plannen.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
-   <p>Vereisten voor verouderd product: uw organisatie moet het product kopen [!DNL Adobe Workfront Fusion] alsmede [!DNL Adobe Workfront] om de in dit artikel beschreven functionaliteit te gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Neem contact op met uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-&#42;&#42;Voor informatie over [!DNL Adobe Workfront Fusion] licenties, zie [[!DNL Adobe Workfront Fusion] licenties](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42; voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## [!DNL Power BI] modules en hun velden
 
-Wanneer u [!DNL Power BI], [!DNL Workfront Fusion] geeft de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
+Wanneer u [!DNL Power BI] configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Zie voor meer informatie [Informatie van de ene module toewijzen aan de andere in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in de Fusie van Adobe Workfront ](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -85,7 +85,7 @@ Deze zoekmodule haalt een lijst met dashboards op.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -112,7 +112,7 @@ Deze zoekmodule haalt een lijst met dashboardtegels op.
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
@@ -149,7 +149,7 @@ Deze actiemodule wint meta-gegevens van een gespecificeerd dashboard terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
@@ -180,7 +180,7 @@ Deze actiemodule wint meta-gegevens van een gespecificeerde dashboardtegel terug
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
@@ -196,7 +196,7 @@ Deze actiemodule wint meta-gegevens van een gespecificeerde dashboardtegel terug
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tile ID]</td>
-      <td>Voer de id van de [!DNL Power BI] De tegel waarvoor u details wilt terugwinnen.</td>
+      <td>Voer de id in van het element [!DNL Power BI] waarvoor u details wilt ophalen of wijs dit toe.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -215,7 +215,7 @@ Deze actiemodule maakt een nieuw dashboard.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
@@ -240,7 +240,7 @@ Deze zoekmodule haalt een lijst met rapporten op.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -267,7 +267,7 @@ Deze actiemodule wint meta-gegevens van een gespecificeerd rapport terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
@@ -298,7 +298,7 @@ Deze actiemodule kopieert een bestaand rapport.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
@@ -333,7 +333,7 @@ Deze actiemodule verwijdert een rapport.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
@@ -366,7 +366,7 @@ Deze onderzoeksmodule wint een lijst van datasets terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -391,7 +391,7 @@ Deze actiemodule wint meta-gegevens van een gespecificeerde dataset terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
@@ -422,7 +422,7 @@ Deze actiemodule leidt tot een nieuwe dataset.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
@@ -457,11 +457,11 @@ Deze actiemodule leidt tot een nieuwe dataset.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Tables]</td>
-      <td>Voeg lijsten aan de dataset toe. Zie voor velden <a href="#Table" class="MCXref_0">Tabelvelden</a></td>
+      <td>Voeg lijsten aan de dataset toe. Voor gebieden, zie {de gebieden van 0} Lijst </a><a href="#Table" class="MCXref_0"></td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Data sources]</td>
-      <td>Voeg de gegevensbronnen toe. Zie voor velden <a href="#Data" class="MCXref_0">Gegevensbronvelden</a>.</td>
+      <td>Voeg de gegevensbronnen toe. Voor gebieden, zie <a href="#Data" class="MCXref_0"> gegevensbrongebieden </a>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Default Retention Policy]  </td>
@@ -593,7 +593,7 @@ Deze actiemodule voegt rijen van een gespecificeerde lijst van duwdataset toe of
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a table]</td>
@@ -676,7 +676,7 @@ Deze actiemodule vernieuwt een gespecificeerde dataset.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a dataset]</td>
@@ -726,7 +726,7 @@ Deze actiemodule schrapt een dataset.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
@@ -759,7 +759,7 @@ Deze triggermodule start een scenario wanneer een app wordt bijgewerkt.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -780,7 +780,7 @@ Deze zoekmodule haalt een lijst op met alle geïnstalleerde apps.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -801,7 +801,7 @@ Deze zoekmodule haalt een lijst op met alle rapporten in de opgegeven app.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]</td>
@@ -826,7 +826,7 @@ Deze zoekmodule haalt een lijst met dashboards op uit een opgegeven app.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]</td>
@@ -851,7 +851,7 @@ Deze actiemodule haalt metagegevens van een opgegeven toepassing op.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]  </td>
@@ -872,7 +872,7 @@ Met deze actiemodule worden metagegevens opgehaald van het rapport van een opgeg
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]  </td>
@@ -899,7 +899,7 @@ Deze actiemodule haalt metagegevens op van het dashboard van een opgegeven app.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL App ID]  </td>
@@ -920,7 +920,7 @@ Deze actiemodule haalt metagegevens op van het dashboard van een opgegeven app.
 
 #### [!UICONTROL Make an API Call]
 
-Deze actiemodule voert een API-aanroep uit naar de [!DNL Power BI] API.
+Deze actiemodule voert een API-aanroep uit naar de [!DNL Power BI] API.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -928,14 +928,14 @@ Deze actiemodule voert een API-aanroep uit naar de [!DNL Power BI] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het aansluiten van uw [!DNL Power BI] account aan [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Verbinding maken met Adobe [!DNL Workfront Fusion] - Basisinstructies</a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Power BI] rekening met [!DNL Workfront Fusion], zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Een pad invoeren ten opzichte van <code>https://api.powerbi.com</code>. Voorbeeld: <code>/v1.0/myorg/datasets</code>.</p>
+        <p>Voer een pad in dat relatief is ten opzichte van <code>https://api.powerbi.com</code> . Voorbeeld: <code>/v1.0/myorg/datasets</code> .</p>
       </td>
     </tr>
     <tr>
@@ -943,7 +943,7 @@ Deze actiemodule voert een API-aanroep uit naar de [!DNL Power BI] API.
         <p>[!UICONTROL Method]</p>
       </td>
       <td>
-        <p>Selecteer de [!UICONTROL HTTP] request method you need to configure the API call. Zie voor meer informatie [!UICONTROL HTTP] aanvraagmethoden.</p>
+        <p>Selecteer de aanvraagmethode [!UICONTROL HTTP] die u nodig hebt om de API-aanroep te configureren. Zie [!UICONTROL HTTP] aanvraagmethoden voor meer informatie.</p>
       </td>
     </tr>
     <tr>
@@ -962,7 +962,7 @@ Deze actiemodule voert een API-aanroep uit naar de [!DNL Power BI] API.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Bij het gebruik van voorwaardelijke instructies zoals <code>if</code> in uw JSON, plaats de aanhalingstekens buiten de voorwaardelijke verklaring.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

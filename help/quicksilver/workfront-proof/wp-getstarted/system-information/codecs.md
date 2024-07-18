@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: Codecs in [!DNL Workfront Proof]
-description: Codecs in [!DNL Workfront Proof]
+title: Codecs in  [!DNL Workfront Proof]
+description: Codecs in  [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Ondersteunde codecs
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 * [!DNL Avid Meridien Uncompressed]
 * [!DNL AVImszh]
 * [!DNL AVIzlib]
-* AVS ([!DNL Audio Video Standard]) video
+* AVS-video ([!DNL Audio Video Standard])
 * [!DNL Beam Software VB]
 * [!DNL Bethesda VID] video
 * [!UICONTROL Bink] video
@@ -54,7 +54,7 @@ ht-degree: 2%
 * [!DNL Canopus HQ Codec]
 * [!DNL Canopus Lossless Codec]
 * [!DNL CD Graphics] video
-* [!DNL Chinese AVS] video ([!DNL AVS1-P2], [!DNL JiZhun] profiel)
+* [!DNL Chinese AVS] video ([!DNL AVS1-P2] , [!DNL JiZhun] profiel)
 * [!DNL Cinepak]
 * [!DNL Cirrus Logic AccuPak]
 * [!DNL Creative Labs Video Blaster Webcam]
@@ -65,7 +65,7 @@ ht-degree: 2%
 * [!DNL DNxHD] (VC3)
 * [!DNL DV] (Digitale video)
 * [!DNL Feeble Files]/[!DNL ScummVM DXA]
-* [!DNL FFmpeg] videocodec #1
+* [!DNL FFmpeg] video codec #1
 * [!DNL Flash Screen Video]
 * [!DNL Flash Video] (FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
 * [!DNL Forward Uncompressed Video Codec]
@@ -92,7 +92,7 @@ ht-degree: 2%
 * [!DNL Intel Indeo 5]
 * [!DNL Interplay C93]
 * [!DNL Interplay MVE] video
-* [!DNL Karl Morton]Video-codec
+* Video-codec van [!DNL Karl Morton]
 * [!DNL Kega Game Video]
 * [!DNL kensington webcam]
 * [!DNL Lagarith Lossless Video Codec]
@@ -199,5 +199,5 @@ ht-degree: 2%
 * [!DNL HDV 720p60]
 * [!DNL Go2Meeting3 (G2M3)]
 * [!DNL Go2Meeting4 (G2M4)]
-* [!DNL ER AAC LD] (Foutbestendige, trage variant van [!DNL AAC])
+* [!DNL ER AAC LD] (Fout schitterend, Lage-Vertraging variant van [!DNL AAC])
 * [!DNL REDCODE]

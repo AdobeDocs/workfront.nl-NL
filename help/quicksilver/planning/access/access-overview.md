@@ -72,22 +72,22 @@ U moet de volgende instellingen hebben om Adobe Workfront Planning te kunnen geb
 <tr>
    <td role="rowheader"><p>Objectmachtigingen</p></td>
    <td>
-   <p>Draag of hoger toestemmingen aan werkruimten en meningen bij die u niet creeerde om, hen uit te geven te schrappen en te delen, en recordtypes en verslagen tot stand te brengen, uit te geven of te schrappen.</p>
+   <p>Contribute of hogere machtigingen voor werkruimten en weergaven die u niet hebt gemaakt om deze te bewerken, te verwijderen en te delen, en om recordtypen en records te maken, te bewerken of te verwijderen.</p>
     <p>Systeembeheerders kunnen werkruimten beheren die ze niet hebben gemaakt. </p>
     <p>Systeembeheerders kunnen geen weergaven beheren die ze niet hebben gemaakt. </p>
    <p>Voor informatie over het delen van machtigingen voor Workfront Planning-objecten raadpleegt u  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Overzicht van het delen van machtigingen in Adobe Workfront Planning</a> 
+   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md"> Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront </a> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Zie voor meer informatie <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Het hoofdmenu aanpassen met een lay-outsjabloon</a> en <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Gebruikers toewijzen aan een lay-outsjabloon</a>. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het planningsgebied in het hoofdmenu bevat. </p> <p>Voor informatie, zie <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md"> het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje </a> en <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md"> wijs gebruikers aan een lay-outmalplaatje </a> toe. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Raadpleeg voor meer informatie over Workfront-toegangsvereisten [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Het gedeelte Planning in het hoofdmenu delen met anderen
@@ -96,15 +96,15 @@ U moet de volgende instellingen hebben om Adobe Workfront Planning te kunnen geb
 
 Nadat uw organisatie in het Programma van de Planning van Workfront is ingeschreven, kunt u het Gebied van de Planning aan het Belangrijkste Menu van alle gebruikers toevoegen door een lay-outmalplaatje te gebruiken.
 
-1. Aanmelden bij **Workfront** als Workfront-beheerder.
+1. Login aan **Workfront** als beheerder van Workfront.
 
-1. Voeg de **Planning** pictogram ![](assets/planning-icon.png) aan de **Hoofdmenu** met een **Lay-outsjabloon**.
+1. Voeg het **Planning** pictogram ![](assets/planning-icon.png) aan het **Belangrijkste Menu** toe gebruikend het Malplaatje van de Lay-out van de a ****.
 
-   Zie voor meer informatie [Het hoofdmenu aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Voor informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot de Planning van Workfront wilt hebben.
 
-   Zie voor meer informatie [Gebruikers toewijzen aan een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
    Alle gebruikers die aan de sjabloon zijn toegewezen, hebben nu toegang tot de Workfront-planning in hun hoofdmenu.
 
@@ -116,16 +116,16 @@ Er zijn geen toegangscontroles voor de Planning van Workfront.
 
 Gebruikers met elk type licentie hebben toegang tot Workfront Planning.
 
-Voor informatie over het verlenen van toegang in Workfront raadpleegt u [Aangepaste toegangsniveaus maken en wijzigen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Voor informatie over het verlenen van toegang in Workfront, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
 
 ## Rechten verlenen
 
 U moet gebruikers machtigingen geven aan werkruimten en weergaven die u maakt, zodat ze deze kunnen openen.
 
-Zie voor meer informatie [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Uw Adobe Workfront-licentietype werkt in combinatie met uw Workfront-planningsbevoegdheden om u toegang te geven tot Workfront-planningsobjecten, deze te kunnen bekijken of beheren.
 
-Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de voorwerpen van de Planning van Workfront beïnvloeden, zie [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 

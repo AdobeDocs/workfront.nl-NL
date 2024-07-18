@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Problemen met snelheid in [!DNL Workfront Proof]
-description: Deze Help-pagina kan u helpen bepalen of er zich snelheidsproblemen voordoen bij het gebruik van [!DNL Workfront Proof] zijn verwant met uw ISP of [!DNL Workfront Proof]s content delivery network.
+title: Problemen met snelheid in  [!DNL Workfront Proof]
+description: Deze hulppagina kan u helpen bepalen als om het even welke snelheidskwesties die u zou kunnen ervaren wanneer het gebruiken van  [!DNL Workfront Proof]  met uw ISP of  [!DNL Workfront Proof] het netwerk van de inhoudslevering van de inhoud verwant zijn.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL Workfront Proof]. Voor informatie over proefdrukken binnen [!DNL Adobe Workfront], zie [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
-Deze Help-pagina kan u helpen bepalen of er zich snelheidsproblemen voordoen bij het gebruik van [!DNL Workfront Proof] zijn verwant met uw ISP of [!DNL Workfront Proof]s content delivery network.
+Deze Help-pagina kan u helpen bepalen of eventuele snelheidsproblemen die u kunt ondervinden bij het gebruik van [!DNL Workfront Proof] betrekking hebben op uw ISP of het netwerk voor inhoudslevering van [!DNL Workfront Proof] .
 
-De problemen van de snelheid zijn over het algemeen toe te schrijven aan de lokale ISP verbinding of de lokale opstelling van de internettoegang (bijvoorbeeld, waar een volmachtsserver wordt gebruikt) en zijn helaas buiten de controle van [!DNL Workfront Proof].
+De problemen van de snelheid zijn over het algemeen toe te schrijven aan de lokale ISP verbinding of de lokale opstelling van de internettoegang (bijvoorbeeld, waar een volmachtsserver wordt gebruikt) en zijn jammer genoeg buiten de controle van [!DNL Workfront Proof].
 
 Dit gezegd zijnde, zijn er een paar stappen u kunt nemen om uw verbindingssnelheid te controleren die voor de worteloorzaak van de kwesties zal toestaan worden bepaald u ervaart. Al deze stappen zijn even belangrijk voor het het oplossen van problemenproces en wij zouden u willen aanmoedigen om de tijd te nemen om informatie over alle vermelde stappen te verzamelen om de nauwkeurigste diagnose van het probleem te verzekeren.
 
@@ -31,13 +31,13 @@ Als u alle details hebt verzameld, raden we u aan contact op te nemen met uw lok
 
 ## Vaststellen welk onderdeel van het systeem traag is
 
-Wanneer u [!DNL Workfront Proof]werkt u mogelijk met het dashboard, bijvoorbeeld om de inhoud en gebruikers van de map te beheren of met de [!DNL Workfront Proof] Viewer: een proefrevisie uitvoeren, de opmerkingen controleren die al zijn gemaakt, enzovoort.
+Wanneer u [!DNL Workfront Proof] gebruikt, werkt u mogelijk met het dashboard, bijvoorbeeld voor het beheer van de inhoud van mappen en gebruikers of met de [!DNL Workfront Proof] Viewer: een proefrevisie uitvoeren, de opmerkingen controleren die al zijn gemaakt, enzovoort.
 
-Het bepalen van welk precies deel van het systeem langzaam is is de eerste stap in de kwesties van de het oplossen van problemensnelheid. Wanneer u rapporteert [!DNL Workfront Proof] als u traag bent, moet u het volgende beschrijven:
+Het bepalen van welk precies deel van het systeem langzaam is is de eerste stap in de kwesties van de het oplossen van problemensnelheid. Wanneer u rapporteert dat [!DNL Workfront Proof] traag is, moet u het volgende beschrijven:
 
 * Wordt u traag op andere webpagina&#39;s?
-* Komt het probleem voor in het dashboard of [!DNL Workfront Proof] Viewer?
-* Welk exact deel van het systeem is traag? (bijvoorbeeld een nieuwe proefdruk verwerken of een opmerking openen in [!DNL Workfront Proof] Viewer)
+* Komt het probleem voor in het dashboard of de [!DNL Workfront Proof] Viewer?
+* Welk exact deel van het systeem is traag? (bijvoorbeeld een nieuwe proefdruk verwerken of een opmerking openen in de [!DNL Workfront Proof] Viewer)
 
 ## Traceroute in werking stellen en tests pingelen
 
@@ -45,10 +45,10 @@ Wanneer u prestatieskwesties ervaart is het belangrijk om het traceroutebevel in
 
 1. Typ één van het volgende, dan wacht op tracerout om te worden voltooid:
 
-   * Windows: **tracert app.proofhq.com**
+   * Vensters: **tracert app.proofhq.com**
    * Mac/Linux: **traceroute app.proofhq.com**
 
-1. (Alleen Windows) Type **pingelen app.proofhq.com**.
+1. (Vensters slechts) Type **pingelt app.proofhq.com**.
 1. Wanneer pingel voltooit, klik in de bevelherinnering met de rechtermuisknop aan en selecteer allen.
 1. Kopieer en plak de resultaten in het antwoord op uw e-mail.
 Zorg ervoor u traceroute toestaat en pingel om te beëindigen alvorens de resultaten naar het Team van de Steun te verzenden.

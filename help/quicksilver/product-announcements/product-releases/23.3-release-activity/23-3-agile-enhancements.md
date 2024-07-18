@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van raden en rollen beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [23.3 Overzicht van de release](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-Zie voor meer informatie over hoe u zich vóór de driemaandelijkse release kunt aanmelden bij nieuwe functies in de raden van bestuur [Aanmelden met vroege functies voor Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Voor details op hoe te om binnen aan nieuwe eigenschappen van Boards vóór de driemaandelijkse versie te kiezen, zie [ vroege eigenschapopt-in voor de Boards van Adobe Workfront ](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## In de Google-weergave van een project wordt een kanban-bord weergegeven
 
@@ -30,9 +30,9 @@ De Gelijke Mening van een project omvat nu extra functionaliteit aan filter, gro
 
 Terwijl u zich in de raad van bestuur bevindt, kunt u ervoor kiezen om over te schakelen naar de oude Google View.
 
-Zie voor meer informatie [Een project beheren in de Google View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor meer informatie, zie [ een project in de Gelijke Mening ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Kolommen sorteren op board
 
@@ -42,9 +42,9 @@ U kunt oplopende of aflopende volgorde sorteren op kaartnaam, vervaldatum, schat
 
 Met de optie &quot;Gebruikersvolgorde&quot; worden de kaarten geretourneerd in de volgorde waarin ze handmatig zijn ingesteld, voordat er andere sorteeropties zijn toegepast. Dit is de standaardsortering voor de kolommen.
 
-Zie voor meer informatie [Filteren en zoeken in een board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Voor meer informatie, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## De modus Donker is nu beschikbaar op Adobe Workfront Boards
 
@@ -54,7 +54,7 @@ U kunt nu al uw borden en werkstromen in donkere modus weergeven. De nieuwe inst
 >
 >Als het exemplaar van Workfront van uw organisatie aan de Adobe Verenigde Ervaring is genegeerd, kunt u donkere thema het formatteren voor al Adobe Experience Cloud door uw voorkeurenmenu (uw profielbeeld) toelaten, en u zult geen afzonderlijke donkere wijzeoptie voor Workfront Boards zien.
 
-Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Voor meer informatie, zie [ Boards e-mailberichten en voorkeur ](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ## Doelen beschikbaar in workstream-iteraties in Adobe Workfront Boards
 
@@ -62,7 +62,7 @@ Wij hebben de capaciteit toegevoegd om doelstellingen aan een herhaling toe te v
 
 De kolom Volgende herhaling is nu ook beschikbaar op herhalingsborden. Wanneer u een kaart in deze kolom plaatst, wordt het automatisch gedragen aan de volgende herhaling en keert niet aan de achterstand terug. Bij de volgende herhaling wordt de kaart weergegeven in de kolom die overeenkomt met de status.
 
-Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+Voor meer informatie, zie [ een herhaling in een werkstroom ](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) creëren.
 
 ## Opmerkingen toevoegen aan kaarten op borden
 
@@ -72,15 +72,15 @@ Zie voor meer informatie [Een herhaling in een werkstroom maken](/help/quicksilv
 
 U kunt nu opmerkingen toevoegen aan zowel ad-hockaarten als aan gekoppelde kaarten op borden en andere gebruikers labelen voor de opmerkingen. Opmerkingen zijn beschikbaar in de kaartgegevens. De commentaarfunctie voor borden maakt gebruik van de nieuwe Adobe Workfront-opmerkingervaring.
 
-Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) en [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [ een ad hoc kaart aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen en [ Gebruik verbonden kaarten op planken ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Verbeteringen voor de tagmanager van de Boards
 
 De interface van het tagbeheer is verbeterd, zodat u snel nieuwe tags kunt maken en deze op kaarten kunt toepassen. U kunt ook codes maken voor werkstromen.
 
-Zie voor meer informatie [Tags toevoegen](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+Voor meer informatie, zie [ markeringen ](/help/quicksilver/agile/get-started-with-boards/add-tags.md) toevoegen.
 
 ## Eenvoudige filters beschikbaar aan boord van inlaatkolommen
 
@@ -90,9 +90,9 @@ Zie voor meer informatie [Tags toevoegen](/help/quicksilver/agile/get-started-wi
 
 Er zijn vereenvoudigde filters toegevoegd aan de instelling van de inlaatkolom, zodat u de inlaatkolom sneller kunt definiëren. De beschikbare filters zijn Workfront-projecten en toewijzingen per team of gebruiker. U kunt desgewenst overschakelen naar de geavanceerde filters.
 
-Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+Voor meer informatie, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Eenvoudige filters toegevoegd aan dynamische boardsjabloon
 
@@ -102,7 +102,7 @@ Zie voor meer informatie [Een inlaatkolom aan een bord toevoegen](/help/quicksil
 
 De filters op de dynamische bordsjabloon zijn vereenvoudigd, zodat u sneller een board kunt maken. De beschikbare filters zijn Workfront-projecten en toewijzingen per team of gebruiker. U kunt desgewenst overschakelen naar de geavanceerde filters. Deze filteropties staan ook in het deelvenster Configureren voor dynamische gebieden.
 
-Zie voor meer informatie [Een board maken of bewerken](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Voor meer informatie, zie [ creeer of geef een raad ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
 
 ## Dynamisch bordsjabloon
 
@@ -114,21 +114,21 @@ Er is nu een nieuwe sjabloon, dynamisch bord, beschikbaar voor zelfstandige bord
 
 Met het dynamische bord kunt u een kaart automatisch vullen met kaarten die zijn gebaseerd op een Workfront-project. Met filters worden kaarten op basis van hun status toegevoegd aan kolommen.
 
-Zie voor meer informatie [Een board maken of bewerken](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Voor meer informatie, zie [ creeer of geef een raad ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3418600/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Kanbankkaarten voor mobiele teams migreren naar raden
 
-Een nieuwe **Toevoegen aan kamers** op de werkbalk van het mobiele team Kanban kunt u alle kaarten van het Kanban-bord toevoegen aan een Workfront-bord. U kunt een nieuwe Workfront-kaart maken of de kaarten aan een bestaande kaart toevoegen.
+Een nieuwe **voegt aan Boards** knoop op agile team toe Kanban boards staat u toe om alle kaarten van de raad Kanban aan een raad van Workfront toe te voegen. U kunt een nieuwe Workfront-kaart maken of de kaarten aan een bestaande kaart toevoegen.
 
 De plaatsing van kaarten op de Workfront-kaart is gebaseerd op kolombeleid. (Een beleid kan bijvoorbeeld alle kaarten met de status &quot;In uitvoering&quot; naar een specifieke kolom verplaatsen.) Als er geen beleid is of de kaarten niet het beleid aanpassen, worden de kaarten geplaatst in de uiterst linkse kolom. Op dit moment worden de kaarten in de kolom Achtergrond op het verouderde bord niet toegevoegd aan de Workfront-kaart.
 
 De kaarten worden niet verwijderd van het Anban-bord van het mobiele team en wijzigingen in de kaartstatus worden gesynchroniseerd met beide borden. U kunt beide borden actief houden tot u bereid bent om op de Boden van Workfront over te schakelen.
 
-Zie voor meer informatie [Kanbankkaarten voor mobiele teams migreren naar Workfront-borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Voor meer informatie, zie [ de kaarten van het agile team Kanban aan de raden van Workfront migreren ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
 ## Linkernavigatie toegevoegd aan kaartgegevens aan boord
 
@@ -140,9 +140,9 @@ Aangezien meer veldopties aan kaarten op Workfront Boards worden toegevoegd, zij
 
 U kunt nu ook URL&#39;s toevoegen in het veld Beschrijving en deze koppelingen worden klikbare koppelingen wanneer de kaartgegevens worden opgeslagen. Deze updates zijn van toepassing op zowel ad-hockaarten als kaarten met een verbinding.
 
-Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) en [Gekoppelde kaarten op borden gebruiken](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [ een ad hoc kaart aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen en [ Gebruik verbonden kaarten op planken ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Bekijk een videodemonstratie van deze functie.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
 ## E-mailmeldingen en voorkeuren worden verzonden
 
@@ -152,6 +152,6 @@ Zie voor meer informatie [Een ad-hockaart aan een kaart toevoegen](/help/quicksi
 
 E-mailmeldingen zijn nu beschikbaar voor Adobe Workfront Boards. De meldingen zijn standaard ingeschakeld en u kunt in uw voorkeuren selecteren welke e-mails u wilt ontvangen. U ontvangt een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen.
 
-Zie voor meer informatie [E-mailmeldingen en voorkeuren worden verzonden](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Voor meer informatie, zie [ Boards e-mailberichten en voorkeur ](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Een videodemonstratie van deze functie weergeven](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3418597/){target=_blank}

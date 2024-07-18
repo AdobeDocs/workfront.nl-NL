@@ -18,14 +18,14 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 25 april 2022 zijn aangebracht.
 
-Zie voor een lijst met alle recente wijzigingen [Adobe Workfront Fusion-releaseactiviteit](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Voor een lijst met recente opgeloste problemen in Workfront Fusion raadpleegt u de [Workfront-onderhoudsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) pagina en controleer op updates met het label Workfront Fusion Maintenance Update.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Adobe Workfront Proof-connector nu beschikbaar voor gebruikers met een Workfront Fusion for Automation-licentie
 
-Omdat Workfront Proof zo nauw geïntegreerd is met Workfront en een belangrijk onderdeel is van veel Workfront-workflows, stellen we de Workfront Proof-connector beschikbaar voor organisaties met een Workfront Fusion for Work Automation-licentie. U kunt nu Workfront Proof gebruiken in uw Fusion-scenario&#39;s, ongeacht de licentie.
+Omdat Workfront Proof zo nauw is geïntegreerd met Workfront en een belangrijk onderdeel is van veel Workfront-workflows, stellen we de Workfront Proof-connector beschikbaar voor organisaties met een Workfront Fusion for Work Automation-licentie. Nu kunt u Workfront Proof in uw Fusion-scenario&#39;s gebruiken, ongeacht de licentie.
 
-Eerder was de Workfront Proof-aansluiting alleen beschikbaar voor organisaties met een Workfront Fusion for Work Automation and Integration-licentie.
+Eerder was de Workfront Proof-connector alleen beschikbaar voor organisaties met een Workfront Fusion for Work Automation and Integration-licentie.
 
-Zie voor meer informatie [Adobe Workfront Fusion-licenties](../../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Voor meer informatie, zie [ de vergunningen van de Fusie van Adobe Workfront ](../../../workfront-fusion/get-started/license-automation-vs-integration.md).
