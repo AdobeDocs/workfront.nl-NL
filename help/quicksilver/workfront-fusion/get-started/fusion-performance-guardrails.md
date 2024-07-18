@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront 
 ## Uitvoeringshistorie
 
 * De geschiedenislogboeken van de uitvoering zijn beperkt tot een grootte van **100 MB**. Als de uitvoeringsgeschiedenis deze grootte overschrijdt, slechts zal eerste 100 MB worden getoond.
+* Als een scenario veelvoudige gezamenlijke uitvoeringen heeft. er worden slechts 5 uitvoeringen weergegeven in het gedeelte Uitvoeringen van de pagina met de details van het scenario. Dit geldt zelfs wanneer meer dan vijf uitvoeringen worden uitgevoerd.
 
 ## Onvolledige uitvoeringen
 
