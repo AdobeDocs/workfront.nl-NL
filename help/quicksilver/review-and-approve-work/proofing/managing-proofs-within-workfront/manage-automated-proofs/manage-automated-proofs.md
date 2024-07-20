@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Automatisch proefdrukken beheren
+title: "Geautomatiseerde proefdrukken beheren: artikelindex"
 description: Geautomatiseerde werkstroomfasen weergeven op een proefdruk
 author: Courtney
 recommendations: noDisplay, noCatalog
 feature: Digital Content and Documents
 exl-id: ea3d3840-bff9-428f-88a2-7c618945514d
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# Automatisch proefdrukken beheren
+# Geautomatiseerde proefdrukken beheren: artikelindex
 
 * [ de stadia van het Werkschema van de Mening Geautomatiseerde op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
 * [ actieve stadia van de Mening op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 0%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 0%
    * Proofing {#proofing}
       * [Proofing: artikelindex](review-and-approve-work/proofing/proofing.md)
       * Proofingoverzicht {#proofing-overview}
-         * [Proofingoverzicht](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [Proofingoverzicht: artikelindex](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Overzicht van machtigingsprofiel proefdrukken](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Overzicht van proefrollen](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [Geautomatiseerd workflowoverzicht](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 0%
          * [Voortgang van proefdrukken en statusoverzicht](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Verschillen tussen de webtestviewer en het overzicht van de Desktop Proofing Viewer](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Proefdrukken maken {#create-proofs}
-         * [Proefdrukken maken](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [Proefdrukken maken: artikelindex](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Standaardwaarden voor persoonlijke proefdrukken configureren](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Een proefdruk van meerdere pagina&#39;s maken](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Een interactieve proefdruk maken voor een website of andere webinhoud](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 0%
          * [Een geavanceerde proefdruk maken met een standaardworkflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Proefdrukken beheren in Adobe Workfront {#manage-proofs-in-workfront}
-         * [Proefbestanden beheren in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Proefbestanden beheren in Adobe Workfront: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Proofs beheren {#manage-proofs}
-            * [Proefdrukken beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [Proefdrukken beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Proefdrukinstellingen bewerken](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Een proefdrukoverzicht afdrukken in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [Een proefdruk verwijderen](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 0%
             * [Het rapport voor proefdrukgoedkeuring gebruiken](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Workfront Proof openen vanuit Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Proefversies beheren {#manage-proof-versions}
-            * [Proefversies beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Proefversies beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Een nieuwe versie van een proefdruk maken](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Proefversies weergeven](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Versiedetails voor proefdrukken weergeven en beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Proefversies downloaden](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * Revisoren van proefdrukken beheren {#manage-proof-reviewers}
-            * [Revisoren van proefdrukken beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [Proefrevisoren beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Toegang- en abonnementsinstellingen configureren voor een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Een proefdruk delen in Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [E-mailberichten sturen naar revisoren op een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * Proofingmeldingen beheren {#manage-proof-notifications}
-            * [Proofingsberichten beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [Proefdrukmeldingen beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Meldingen beheren voor proefopmerkingen en -beslissingen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Proofingdeadlines beheren {#manage-proof-deadlines}
-            * [Proofingdeadlines beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [Proofingdeadlines beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Een termijn instellen voor een bestaand basisbewijs](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Een deadline voor een werkgebied toevoegen, bewerken of verwijderen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Tijdslimieten voor individuele revisoren instellen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Tijdslimieten voor individuele revisoren verwijderen](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Automatisch proefdrukken beheren {#manage-automated-proofs}
-            * [Automatisch proefdrukken beheren](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [Geautomatiseerde proefdrukken beheren: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Geautomatiseerde werkstroomfasen weergeven op een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Actieve stadia weergeven op een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Een geautomatiseerde workflow maken of bewerken voor een bestaande proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 0%
             * [Een standaardworkflow converteren naar een geautomatiseerde workflow op basis van een proefdruk](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Voeg stadia en gebruikers aan een Geautomatiseerde Werkstroom op een proef toe](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * De Desktop Proofing Viewer gebruiken {#use-the-desktop-proofing-viewer}
-         * [De Desktop Proofing Viewer gebruiken](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Desktop Proofing Viewer gebruiken: artikelindex](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [De Desktop Proofing Viewer installeren](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [De Desktop Proofing Viewer bijwerken](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Proefdrukken openen in de Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Niet-interactieve inhoud controleren in de Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Veelgestelde vragen - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Proefdrukken bekijken in Adobe Workfront {#review-proofs-in-workfront}
-         * [Proefversies bekijken in Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Proefdrukken in Adobe Workfront bekijken: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Een proefdruk controleren {#review-a-proof}
-            * [Een proefafdruk controleren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Een proefdruk controleren: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Inhoud weergeven in een proefdruk](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Een gebied binnen een proefdruk meten](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [De maateenheid van de tijdlijn in een videoproefdruk wijzigen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 0%
             * [De resolutie voor interactieve proefdrukken wijzigen in de proefdrukviewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [De instellingen voor de proefdrukviewer configureren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * Opmerking over een proefdruk {#comment-on-a-proof}
-            * [Opmerking over proefdrukken](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [Opmerking over proefdrukken: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Opmerking over een proefdruk](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Opmerkingen over proefdrukken weergeven en beantwoorden](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [Zoeken, filteren en sorteren, proefdrukopmerkingen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 0%
             * [Handelingen gebruiken voor opmerkingen bij proefdrukken](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Gebruikers een proef laten delen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * Beslissen op een proefdruk {#make-decision-on-proof}
-            * [Beslissing over een bewijs](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [Beslissen op een bewijs: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Een bewijs goedkeuren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Beslissen op een bewijs in de professionele drukker](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Een bestaande beslissing op een bewijs wijzigen](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront {#ttt-proofing-in-workfront}
-         * [Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront: artikelindex](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Gebruikers met een proefdruklicentie weergeven in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Het veld Profiel voor proefdrukmachtiging in bulk bewerken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Delen van proefdrukken via openbare URL of insluitcode uitschakelen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 0%
          * [Documentnaam gewijzigd na uploaden en bevat een ongeldig teken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Een PowerPoint met een ingesloten video proefdrukken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Tips, trucs en probleemoplossing voor goedkeuringen {#ttt-approvals}
-      * [Tips, trucs en probleemoplossing voor goedkeuringen](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Tips, trucs en probleemoplossing voor goedkeuringen: artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
    * [Timesheets: artikelindex](timesheets/timesheets-all.md)
