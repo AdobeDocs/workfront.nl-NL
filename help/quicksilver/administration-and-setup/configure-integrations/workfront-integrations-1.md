@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -260,7 +260,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <li>[!DNL Workfront] -meldingen ontvangen in [!DNL Slack] </li> 
      <li>Goedkeuringen beheren in [!DNL Slack] </li> 
      <li>[!DNL Workfront] taken en problemen maken vanuit [!DNL Slack] </li> 
-     <li>Post maakt vanuit een project of taak opmerkingen [!DNL Slack]</li> 
+     <li>Opmerkingen van een project of taak verzenden vanuit [!DNL Slack]</li> 
     </ul> <p>Zie <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a> voor meer informatie.</p> </td> 
    <td> 
     <ul> 
@@ -306,9 +306,9 @@ Voor meer informatie, zie [ Adobe Workfront voor Experience Manager Assets integ
 
 [!DNL Workfront] heeft veel partnerintegratie die uw [!DNL Workfront] ervaring verrijkt.
 
-Voorbeelden van bestaande partneraanbiedingen zijn integratie met [!DNL Salesforce.com] , [!DNL Oracle Responsys] en [!DNL Microsoft Visual Studio] .
+Workfront heeft veel partnerintegratie die uw Workfront-ervaring verrijkt. De voorbeelden van bestaand partnerdienstenaanbod omvatten integratie met Claravine, Groep RWS, en meer.
 
-Voor meer informatie over deze en andere partnerintegratie, zie [[!DNL Workfront]  Marketplace ](https://www.workfront.com/enterprise/marketplace/apps/).
+Voor meer informatie over deze en andere partnerintegratie, zie de [ Marketplace van de Uitwisseling ](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## [!DNL Workfront] API
 
