@@ -6,9 +6,9 @@ description: Om app te installeren alvorens het in de  [!DNL Salesforce]  AppExc
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -197,3 +197,39 @@ Bijvoorbeeld, *yourDomain.my.workfront.com*.
 
    [!UICONTROL Salesforce] -gebruikers kunnen de [!DNL Workfront] -app gebruiken nadat u de [!DNL Workfront] -sectie hebt toegevoegd aan hun [!UICONTROL Opportunity] - of [!UICONTROL Account] -paginalay-outs.\
    Voor informatie over het vormen van de [!DNL Workfront] sectie voor gebruikers, zie [ de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
+
+## Machtigingen configureren voor de Workfront for Salesforce-integratie
+
+### Machtigingen voor `workfront_business`
+
+1. Navigeer aan **Opstelling** > **Veiligheid** > **Vertrouwde URLs**.
+1. Selecteer `workfront_business` in de lijst.
+1. Klik **uitgeven**.
+1. Controleer onder CSP-richtlijnen de volgende opties:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe-inhoud)
+   * img-src (afbeeldingen)
+   * media-src (audio en video)
+   * style-src (opmaakmodellen)
+
+1. Klik **sparen**.
+
+
+### Machtigingen voor workfront_session
+
+1. Navigeer aan **Opstelling** > **Veiligheid** > **Vertrouwde URLs**.
+1. Selecteer `workfront_session` in de lijst.
+1. Klik **uitgeven**.
+1. Controleer onder CSP-richtlijnen de volgende opties:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe-inhoud)
+   * img-src (afbeeldingen)
+   * media-src (audio en video)
+   * style-src (opmaakmodellen)
+
+1. Klik **sparen**.
+
