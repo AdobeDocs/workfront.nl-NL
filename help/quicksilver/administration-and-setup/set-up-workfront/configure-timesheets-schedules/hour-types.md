@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Uurtypen beheren
 description: U kunt uurtypen koppelen aan uw uren. De types van uren zijn etiketten u gebruikt om uw uuringangen te bepalen.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Uurtypen beheren
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ Er zijn twee reeksen uurtypes:
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td> <p>Nieuw: [!UICONTROL Standard]</p>
+   <p>Huidige: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ingebouwde uurtypen
 
@@ -85,7 +92,7 @@ Als [!DNL Workfront] beheerder, kunt u nieuwe uurtypes voor uw organisatie op zo
 
 Nieuwe uurtypen maken:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]** .
 
@@ -131,7 +138,7 @@ Als u uurtypen deactiveert, worden de uurtypen verborgen vanaf elke locatie in [
 
 Een uurtype deactiveren:
 
-1. Klik op **[!UICONTROL Setup]** in de rechterbovenhoek van [!DNL Adobe Workfront] op de algemene navigatiebalk.
+{{step-1-to-setup}}
 
 1. Vouw **[!UICONTROL Timesheet & Hours Preferences]** uit en klik op **[!UICONTROL Hour Types]** .
 

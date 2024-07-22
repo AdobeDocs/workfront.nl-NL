@@ -6,9 +6,9 @@ description: U kunt initiatieven op een plan schrappen dat u of op een plan cree
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -96,9 +96,9 @@ Een lijst met plannen wordt weergegeven.
 
 ### Initiatieven bulksgewijs verwijderen {#delete-initiatives-in-bulk}
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en klik vervolgens op [!UICONTROL Scenarios] .
+{{step1-to-scenario-planner}}
 
-   Een lijst met plannen wordt weergegeven.
+Een lijst met plannen wordt weergegeven.
 
 1. Klik op de naam van een abonnement om het te openen en zoek het initiatief dat u wilt verwijderen.
 1. Selecteer de vakjes links van de initiatieven die u wilt schrappen, dan klik **[!UICONTROL Delete]** van het menu dat bij de bodem van het plan verschijnt, dan klik **[!UICONTROL Yes, delete them]**.

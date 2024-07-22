@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Ad
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Ad
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Alle</p>
+   <p>Willekeurig, om Workfront-planningsinformatie weer te geven</p>
    <p>Als u werkruimten wilt maken, hebt u de volgende licentie nodig:</p>
    <ul>
    <li>
    Nieuw: Standaard
    </li>
    <li>
-   Huidig: Worker of hoger
+   Huidig: Plan
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ Er zijn geen toegangscontroles voor de Planning van Workfront.
 
 Gebruikers met elk type licentie hebben toegang tot Workfront Planning.
 
-Voor informatie over het verlenen van toegang in Workfront, zie [ douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren en wijzigen.
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Rechten verlenen
 
