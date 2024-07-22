@@ -7,16 +7,15 @@ description: De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
 
 # Overzicht van initiatieven in het dialoogvenster [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] is alleen beschikbaar in de nieuwe [!DNL Adobe Workfront] -ervaring en vereist een extra licentie. Voor informatie over [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../scenario-planner/scenario-planner-overview.md).
 Als bedrijfsmanager kunt u initiatieven voor plannen in [!DNL Adobe Workfront Scenario Planner] tot stand brengen. Voor informatie over het creëren van plannen, zie het artikel [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 ## Overzicht van initiatieven

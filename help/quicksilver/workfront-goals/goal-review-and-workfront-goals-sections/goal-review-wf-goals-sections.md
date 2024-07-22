@@ -7,31 +7,31 @@ description: In de volgende artikelen vindt u meer informatie over het evalueren
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # Doelstellingen en de Adobe Workfront-doelstellingen
 
-Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
-
-* Voor het nieuwe plan en de nieuwe licentiestructuur:
-
-   * Een ultiem plan
-
-     of
-
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
-
-* Voor het huidige plan en de licentiestructuur:
-
-   * Een Pro of hoger
-   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
-
-Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+>[!IMPORTANT]
+>
+>Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>
+>* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>
+>   * Het Ultimate Workfront-plan
+>    
+>* Voor het huidige plan en de licentiestructuur:
+>
+>   * Een Pro- of hoger Workfront-abonnement
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+> 
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Deze sectie bevat de volgende artikelen:
 

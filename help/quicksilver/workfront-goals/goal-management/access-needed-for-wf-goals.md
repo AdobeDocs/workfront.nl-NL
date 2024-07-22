@@ -7,9 +7,9 @@ description: Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan bepaalde vo
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
 
 Afhankelijk van welk Workfront-plan uw bedrijf momenteel is ingeschakeld, bestaan de volgende scenario&#39;s:
 
-* Als uw bedrijf een nieuw plan van Workfront heeft, moet u één van het volgende hebben:
-
-   * Een ultiem Workfront-plan. De Doelen van Workfront zijn inbegrepen in dit plan.
-   * Een Select of hoger Workfront-plan en een aparte Workfront Goals-licentie.
+* Als uw bedrijf een nieuw Workfront-plan heeft, hebt u een Ultimate Workfront-plan nodig. De Doelen van Workfront zijn inbegrepen slechts in dit plan.
 
 * Als uw bedrijf het huidige Workfront-plan heeft, moet uw organisatie een extra licentie aanschaffen, naast de Workfront-licentie, zodat uw gebruikers toegang hebben tot Workfront Goals.
 

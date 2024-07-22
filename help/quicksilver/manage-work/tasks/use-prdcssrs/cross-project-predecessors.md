@@ -6,9 +6,9 @@ description: Een voorganger voor meerdere projecten is een taak waarvan een ande
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>Nieuw: Standaard </p> 
    of
    <p>Huidig: Plan </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Toegangsniveau</td> 
    <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
@@ -65,10 +65,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Een voorganger voor meerdere projecten maken
 

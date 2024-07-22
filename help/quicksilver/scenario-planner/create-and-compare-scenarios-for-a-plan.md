@@ -7,57 +7,66 @@ description: Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Planscenario&#39;s maken en vergelijken in de [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel informatie die u niet zou kunnen hebben of aan het begin denken. Het kost tijd en experimenten om tot een definitieve strategie te komen die uw belanghebbenden kunnen accepteren. Het voeren van een &quot;wat als&quot;analyse om veelvoudige scenario&#39;s voor uw plan tot stand te brengen kan u helpen potentiële omstandigheden nauwkeurig voorspellen en evalueren en uiteindelijk het best mogelijke plan ontwikkelen.
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
-   <td>[!UICONTROL Business] of hoger</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
+   <p>Nieuw: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license* </b> </p> </td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td> <p>Nieuw: Licht of hoger</p> 
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b> Product </b> </td> 
-   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>Voor de huidige plannen van Workfront: </p>
+   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>Toegang tot of hoger bewerken [!DNL Scenario Planner]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegangsniveau </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
    <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Scènes maken
 
 Een scenario is een exemplaar van een plan. U kunt zoveel scenario&#39;s maken als u nodig hebt. Nochtans, adviseren wij dat u het aantal scenario&#39;s tot een minimum beperkt zodat u hen kunt gemakkelijk vergelijken.
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en klik vervolgens op [!UICONTROL Scenarios] .
+{{step1-to-scenario-planner}}
 
-1. Maak een plan.
+1. Maak een abonnement of klik op de naam van een bestaand abonnement.
 
    Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 

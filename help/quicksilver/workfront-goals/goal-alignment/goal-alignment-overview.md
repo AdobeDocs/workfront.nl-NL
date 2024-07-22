@@ -7,33 +7,28 @@ description: De groepering van het doel zorgt ervoor dat iedereen in uw organisa
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
 
 # Overzicht van uitlijning van doelstellingen in Adobe Workfront
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
-> 
+>
 >* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>
+>   * Het Ultimate Workfront-plan
 >    
->   * Een ultiem plan
->        
->     of
->        
->   * Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select.
->       Voor meer informatie, zie [ Adobe Workfront tarifering en verpakking ](https://www.workfront.com/plans).
->      
 >* Voor het huidige plan en de licentiestructuur:
->    
->   * Een Pro of hoger [ plan van Adobe Workfront ]
+>
+>   * Een Pro- of hoger Workfront-abonnement
 >   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
->    
+>
 >Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 > 
 >Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.

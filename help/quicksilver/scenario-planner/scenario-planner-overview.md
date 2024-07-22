@@ -7,9 +7,9 @@ description: De Scenario Planner vereist naast de Adobe Workfront-licentie een a
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,16 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Voor [!DNL Scenario Planner] is naast de [!DNL Adobe Workfront] -licentie een aparte licentie vereist.
-Voor informatie over de toegang nodig om [!DNL Workfront Scenario Planner] te gebruiken, zie [ Toegang nodig om  [!DNL Scenario Planner]](access-needed-to-use-sp.md) te gebruiken.
+Het doel van [!DNL Workfront Scenario Planner] is snelheid aan uitvoering voor uw organisatie-vlakke plannen te drijven en u te helpen cruciale besluiten nemen die levering van voorspelbare, gewenste resultaten voor uw zaken drijven.
+
+U moet het volgende [!DNL Workfront] plan hebben om tot [!DNL Workfront Scenario Planner] toegang te hebben:
+
+* Voor het nieuwe Workfront-plan: Een [!UICONTROL Ultimate] -plan.
+* Voor het huidige [!DNL Workfront] -abonnement: u moet een Business of hoger abonnement hebben en bovendien een [!DNL Scenario Planner] -licentie aanschaffen.
+
+Voor meer informatie over de toegang nodig om [!DNL Workfront Scenario Planner] te gebruiken, zie [ Toegang nodig om  [!DNL Scenario Planner]](access-needed-to-use-sp.md) te gebruiken.
 
 ## [!DNL Scenario Planner] overzicht
-
-Het doel van [!DNL Workfront Scenario Planner] is snelheid aan uitvoering voor uw organisatie-vlakke plannen te drijven en u te helpen cruciale besluiten nemen die levering van voorspelbare, gewenste resultaten voor uw zaken drijven.
 
 Met de [!DNL Workfront Scenario Planner] kunt u plannen op bedrijfsniveau maken die een overzicht geven van de algemene strategische resultaten van uw bedrijf. U kunt verscheidene initiatieven voor een plan bepalen en hen plaatsen in diverse scenario&#39;s om de optimale oplossing voor de uitvoering van het plan te vinden.
 

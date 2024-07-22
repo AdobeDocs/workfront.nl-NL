@@ -6,20 +6,22 @@ description: Wanneer u de Adobe Workfront Scenario Planner gebruikt, kunt u init
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
 
 # Initiatieven maken en bewerken in het dialoogvenster [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 Wanneer u de [!UICONTROL Adobe Workfront Scenario Planner] gebruikt, kunt u initiatieven maken in een plan dat u hebt gemaakt of dat met u is gedeeld. Door initiatieven te creëren kunt u tonen hoe de kleinere organisatorische eenheden tot de voltooiing van het plan bijdragen. Bijvoorbeeld, als uw organisatie een plan voor de komende drie jaar heeft om zich op een nieuwe markt uit te breiden, kunt u initiatieven binnen dit plan voor elke afdeling creëren om de behoefte van elke afdeling aan mensen en begroting te schatten om dit plan te verwezenlijken.
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ U moet het volgende hebben:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td>[!UICONTROL Business] of hoger</td> 
+   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
+   <p>Nieuw: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie* </p> </td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td> <p>Nieuw: Licht of hoger</p> 
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td>Product </td> 
-   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven. </p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td>Product*</td> 
+   <td> 
+   <p>Voor de huidige plannen van Workfront: </p>
+   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configuraties op toegangsniveau* </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegangsniveau </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objectmachtigingen </p> </td> 
@@ -48,7 +55,9 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-*Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -71,7 +80,7 @@ U kunt op de volgende manieren initiatieven maken:
 
 geheel nieuwe initiatieven maken:
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en klik vervolgens op [!UICONTROL Scenarios] .
+{{step1-to-scenario-planner}}
 
 1. Klik op de naam van het abonnement waarvoor u een initiatief wilt maken.
 1. Klik op het pictogram **+** links van **[!UICONTROL New initiative]**

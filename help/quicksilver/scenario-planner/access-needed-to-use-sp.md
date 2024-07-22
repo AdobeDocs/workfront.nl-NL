@@ -7,33 +7,24 @@ description: Voor de functie Scenario Planner is een aparte licentie en aanvulle
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
 # Toegang vereist voor gebruik van de [!DNL Scenario Planner]
 
-Voor [!DNL Scenario Planner] is een aanvullende licentie vereist. Voor informatie over [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../scenario-planner/scenario-planner-overview.md).
+<!--Audited: 04/2024-->
+
+Voor [!DNL Scenario Planner] gelden aanvullende licentievereisten. Voor informatie over [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL  Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
-
->[!IMPORTANT]
->
->Wanneer u [!UICONTROL Scenarios] opent, kunt u alleen de gemaakte plannen weergeven en beheren. Als u andere gebruikers wilt toestaan om de plannen te bekijken of te beheren u creeerde, moet u het volgende doen:
->
->* Een koppeling naar uw abonnement naar andere gebruikers sturen
->* Het abonnement delen met andere gebruikers
->
->  Voor informatie over het delen van een plan, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
->
->Wanneer een gebruiker wordt gedeactiveerd, hebben hun plannen geen eigenaar en kunnen niet worden betreden tenzij eerder gedeeld met een verbinding.
 
 ## Toegang nodig om de [!DNL Adobe Workfront Scenario Planner]
 
@@ -43,15 +34,9 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
    Afhankelijk van of u het nieuwe of huidige plan van Workfront gebruikt, moet uw organisatie één van het volgende hebben:
 
-   * Voor de nieuwe plannen, moet uw organisatie één van het volgende hebben:
+   * Voor de nieuwe plannen moet uw organisatie beschikken over het [!UICONTROL Ultimate] [!DNL Workfront] -plan. De functie Scenario Planner is alleen opgenomen in het abonnement van [!UICONTROL Ultimate] .
 
-      * Het [!UICONTROL Ultimate] [!DNL Workfront] -plan. De Scenario Planner is inbegrepen in het Ultimate Plan.
-
-        of
-
-      * Het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Workfront] -abonnement, in aanvulling op het aanschaffen van een aparte [!DNL Scenario Planner] -licentie.
-
-   * Voor de huidige Workfront-plannen moet uw organisatie over beide volgende elementen beschikken:
+   * Voor de huidige Workfront-plannen moet uw organisatie beschikken over beide volgende functies:
 
       * Uw organisatie moet een abonnement van [!DNL Workfront] [!UICONTROL Business] of hoger [!DNL Workfront] aanschaffen. Voor informatie over de [!DNL Workfront] plannen, zie [ Abonnementen van Workfront ](https://workfront.com/plans).
 
@@ -133,7 +118,20 @@ Uw [!DNL Workfront] -beheerder moet u de volgende toegang toewijzen, zodat u pla
 
 De Niveaus van de toegang werken samen met toestemmingen in [!DNL Workfront] om u zicht in plannen en initiatieven te geven die u niet creeerde. Naast het hebben van het correcte toegangsniveau om tot [!DNL Scenario Planner] toegang te hebben, moet u ook de correcte toestemmingen aan het plan hebben dat u wilt bekijken of beheren, als u niet de schepper van die plannen bent.
 
-Standaard hebt u alleen toegang tot plannen die u hebt gemaakt. Om plannen te bekijken die andere gebruikers creeerden moeten zij hun plannen met u delen. Voor informatie over het delen van plannen, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
+Alle gebruikers, met inbegrip van systeembeheerders, hebben toegang slechts tot plannen die zij creeerden.
 
-Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [ Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+Om plannen te bekijken die andere gebruikers creeerden moeten zij hun plannen met u op de volgende manieren delen:
+
+* Deel het abonnement met u
+
+  Voor informatie over het delen van plannen, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
+
+* Een koppeling verzenden naar een abonnement dat ze hebben gemaakt
+
+  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [ Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+
+>[!NOTE]
+>
+>Wanneer een gebruiker wordt gedeactiveerd, hebben hun plannen geen eigenaar en kunnen niet worden betreden tenzij eerder gedeeld met een verbinding.
+
 

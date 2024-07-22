@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 18cda76ad78f07e5349d90421ea55e88084459b2
 workflow-type: tm+mt
 source-wordcount: '14298'
 ht-degree: 0%
@@ -1316,7 +1316,7 @@ ht-degree: 0%
          * [Traceermodus instellen voor taken](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Vertraging taakniveaus bijwerken](manage-work/tasks/task-information/task-leveling-delay.md)
          * [Type kosten taak bijwerken](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [Verschil tussen Geprojecteerde en Geschatte data](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [Overzicht van verwachte en geschatte data](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [Overzicht van taak Oorspronkelijke Duur en Oorspronkelijke Geplande Uren](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Verschil tussen Geplande Duur en Duur voor taken](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Taken maken {#create-tasks}

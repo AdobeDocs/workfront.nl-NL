@@ -6,45 +6,58 @@ description: U kunt initiatieven creëren door bestaande te kopiëren. U kunt in
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # Initiatieven kopiëren in de [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 U kunt initiatieven creëren door bestaande te kopiëren. U kunt initiatieven kopiëren op een plan dat u creeert of op een plan dat iemand met u deelt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
-   <td>[!UICONTROL Business] of hoger</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
+   <p>Nieuw: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license </b>*</p> </td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td> <p>Nieuw: Licht of hoger</p> 
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b> Product </b> </td> 
-   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>Voor de huidige plannen van Workfront: </p>
+   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegangsniveau </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
    <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Initiatieven kopiëren
 
@@ -78,9 +91,9 @@ Houd rekening met het volgende wanneer u initiatieven kopieert:
 
 ## Initiatieven kopiëren
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en klik vervolgens op [!UICONTROL Scenarios] .
+{{step1-to-scenario-planner}}
 
-   Een lijst met plannen wordt weergegeven.
+Een lijst met plannen wordt weergegeven.
 
 1. Klik op de naam van een abonnement om het te openen en zoek de initiatieven die u wilt kopiëren.
 1. Selecteer het vakje links van het initiatief of de initiatieven die u wilt kopiëren, en klik dan **[!UICONTROL Copy]** van het menu dat bij de bodem van het plan verschijnt.

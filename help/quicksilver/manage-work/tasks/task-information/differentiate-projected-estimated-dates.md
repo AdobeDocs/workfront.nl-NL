@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Verschil tussen Geprojecteerde en Geschatte data
+title: Overzicht van verwachte en geschatte data
 description: Er zijn verschillende soorten datums die de tijdlijn van taken weergeven tussen het moment waarop ze kunnen starten en het moment waarop ze kunnen worden voltooid.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
 
-# Verschil tussen Geprojecteerde en Geschatte data
+# Overzicht van verwachte en geschatte data
+
+<!--Audited: 07/2024-->
 
 Er zijn verschillende soorten datums die de tijdlijn van taken weergeven tussen het moment waarop ze kunnen starten en het moment waarop ze kunnen worden voltooid. Hier volgen enkele datums die de tijdlijn van taken weergeven:
 
@@ -25,7 +27,7 @@ Er zijn verschillende soorten datums die de tijdlijn van taken weergeven tussen 
 
 In dit artikel worden de verschillen beschreven tussen de geraamde en de geraamde data voor projecten.
 
-Wanneer de taak voor het eerst wordt gemaakt, moeten de geplande, geprojecteerde en geschatte datums overeenkomen. Er zijn enkele uitzonderingen. 
+Wanneer de taak voor het eerst wordt gemaakt, moeten de geplande, geprojecteerde en geschatte datums overeenkomen. Er zijn enkele uitzonderingen.
 
 Voor meer informatie over het project, de taak, en de uitgiftedata in Adobe Workfront, zie [ Overzicht van het Project, de Taak, en de data van de Uitgave in Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
@@ -45,7 +47,7 @@ Houd rekening met het volgende wanneer u werkt met Geprojecteerde en Geschatte d
 
 * U kunt noch de Geschatte noch de Geprojecteerde Datums van taken manueel wijzigen. Ze worden allebei door Adobe Workfront berekend.
 * Wanneer u een taak maakt, moeten de geplande en geschatte datums identiek zijn en moeten deze de werkelijke tijden illustreren waarop de taken kunnen beginnen of eindigen.\
-  Bepaalde updates die u aanbrengt in taken, zijn rechtstreeks van invloed op de waarden van de Geprojecteerde en Geschatte datums. 
+  Bepaalde updates die u aanbrengt in taken, zijn rechtstreeks van invloed op de waarden van de Geprojecteerde en Geschatte datums.
 
   Als de gebruiker bijvoorbeeld een taak start of voltooit, geeft de taak de werkelijke begin- en einddatum weer die van invloed zijn op de geplande en geschatte datum van de taak. Ook, als een toegewezen op de taak de Vastlegdatum wijzigt, beïnvloedt deze datum de Geplande Datum van de taak.
 
@@ -75,35 +77,35 @@ De volgende lijst toont verscheidene scenario&#39;s wanneer de Geprojecteerde Da
 
 * Als een taak is gemarkeerd als Voltooid:
 
-  *Geprojecteerde Datums = Geschatte Datums = Ware Data*
+  `Projected Dates = Estimated Dates = Actual Dates`
 
 * Wanneer een taak een Werkelijke Datum van het Begin heeft:
 
-  *Geprojecteerde Datum van het Begin = Geschatte Datum van het Begin = de Ware Datum van het Begin*
+  `Projected Start Date = Estimated Start Date = Actual Start Date`
 
 * Wanneer een taak geen Werkelijke Datum van het Begin heeft, maar er een gedwongen beperking op de Geplande Datum van het Begin (moet beginnen) is die in de toekomst is:
 
-  *Geprojecteerde Datum van het Begin = BeperkingsDatum*
+  `Projected Start Date = Constraint Date`
 
   Voor informatie over de Datum van de Beperking, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Wanneer een taak geen Werkelijke Datum van het Begin heeft en de taak geen gedwongen beperkingsdatum heeft:
 
-  *Geprojecteerde Datum van het Begin = de volgende beschikbare datum in de toekomst die binnen het werkende programma valt*
+  `Projected Start Date = the next available date in the future that falls within working schedule`
 
 * Wanneer de toegewezen persoon de datum van vastleggen bijwerkt:
 
-  *Geprojecteerde Datum van de Voltooiing = VastleggingsDatum*
+  `Projected Completion Date = Commit Date`
 
   Voor informatie over Vastlegdatum, zie [ Overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Wanneer de taak geen bijgewerkte Vastlegdatum heeft en de taak een gedwongen beperking (moet beëindigen) voor de Geplande Voltooiingsdatum heeft die in de toekomst is:
 
-  *Geprojecteerde Datum van de Voltooiing = BeperkingsDatum*
+  `Projected Completion Date = Constraint Date`
 
 * Wanneer een taak geen bijgewerkte Vastlegdatum, een gedwongen beperkingsdatum in de toekomst heeft, of het heeft een Datum van de Beperking in het verleden:
 
-  *Geprojecteerde Datum van de Voltooiing = systeemberekening voor de Datum van de Voltooiing die op de huidige vooruitgang wordt gebaseerd en het werk dat moet worden gedaan*
+  `Projected Completion Date = system calculation for the Completion Date based on the current progress and the work left to be done`
 
 ### Begrijp wanneer de Geschatte Data op taken bijwerken {#understand-when-the-estimated-dates-update-on-tasks}
 
@@ -111,7 +113,7 @@ In vergelijking met de hierboven beschreven scenario&#39;s voor de Geprojecteerd
 
 ## Wat beïnvloedt de chronologie van een taak
 
-Hieronder volgen enkele voorbeelden van wat de werkelijke tijdlijn van een taak kan beïnvloeden: 
+Hieronder volgen enkele voorbeelden van wat de werkelijke tijdlijn van een taak kan beïnvloeden:
 
 * Voortgang van de taak ten opzichte van de geplande data en de huidige dag
 * Percentage voltooide taken tot nu toe

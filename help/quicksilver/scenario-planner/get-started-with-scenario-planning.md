@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Hieronder volgen de voordelen van de [!DNL Workfront Scenario Planner] om u te h
 
 ## De [!DNL Workfront Scenario Planner] zoeken in Workfront
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de rechterbovenhoek en klik vervolgens op **[!UICONTROL Scenarios]** .
+{{step1-to-scenario-planner}}
 
-   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
+<!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   De [!DNL Workfront Scenario Planner] wordt weergegeven.
+De [!DNL Workfront Scenario Planner] wordt weergegeven.
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Workfront Scenario Planner] bevat de plannen u creeerde. Als u het plan van een andere gebruiker moet zien, moeten zij URL van dat plan met u delen.
+>[!IMPORTANT]
+>
+>[!DNL Workfront Scenario Planner] bevat de plannen u creeerde. Als u het plan van een andere gebruiker moet zien, moeten zij URL van dat plan met u delen.
 
 1. (Optioneel) Klik op de naam van een abonnement om het te openen en de details weer te geven.
 

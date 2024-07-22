@@ -6,9 +6,9 @@ description: U kunt plannen als deel van het gebruiken van de Planner van het Sc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ U kunt plannen als deel van het gebruiken van [!DNL Workfront Scenario Planner] 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +35,35 @@ U moet het volgende hebben:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td>[!UICONTROL Business] of hoger</td> 
+   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
+   <p>Nieuw: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>Nieuw: Licht of hoger</p> 
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td>Product</td> 
-   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!UICONTROL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!UICONTROL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>Voor de huidige plannen van Workfront: </p>
+   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configuraties op toegangsniveau* </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!DNL Scenario Planner]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegangsniveau </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>[!DNL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Abonnementen maken of bewerken
 
@@ -74,9 +81,9 @@ Voor informatie over het schrappen van plannen, zie [ plannen van de Schrapping 
 
 Een abonnement maken of bewerken:
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) en klik vervolgens op [!UICONTROL Scenarios] .
+{{step1-to-scenario-planner}}
 
-   Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DNL Workfront Scenario Planner] .
+Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DNL Workfront Scenario Planner] .
 
 1. (Optioneel) Klik op het **[!UICONTROL Filter]** pictogram ![](assets/filter-icon-34x37.png) in de rechterbovenhoek van de overzichtslijst en selecteer een van de volgende opties:
 

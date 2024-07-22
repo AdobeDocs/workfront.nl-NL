@@ -7,14 +7,16 @@ description: U kunt een abonnement dat u hebt gemaakt in de Adobe Workfront Scen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 # Een abonnement delen in de [!DNL Scenario Planner]
+
+<!--Audited: 07/2024-->
 
 U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met andere gebruikers, zodat zij aan het werk kunnen samenwerken dat u doet.
 
@@ -24,37 +26,43 @@ U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met an
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
-   <td>[!UICONTROL Business] of hoger</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
+   <p>Nieuw: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license* </b> </p> </td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td> <p>Nieuw: Licht of hoger</p> 
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b> Product </b> </td> 
-   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>Voor de huidige plannen van Workfront: </p>
+   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> <p>Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegangsniveau </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-   <td> <p> [!UICONTROL Manage] machtigingen voor het abonnement
-     <p>Zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL Request] Toegang tot een abonnement in [!DNL Scenario Planner]</a> voor informatie over het aanvragen van aanvullende toegang tot een abonnement.</p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -70,69 +78,13 @@ Voor meer informatie over toegang tot [!DNL Scenario Planner] voor diverse licen
 
 ## Overwegingen bij het delen van plannen
 
+* Alle gebruikers, met inbegrip van systeembeheerders, hebben toegang slechts tot plannen die zij creeerden.
 * U kunt één enkel plan delen, of u kunt veelvoudige plannen, in bulk delen.
 * U kunt geen plannen bekijken die u niet creeerde of die niet met u worden gedeeld.
 * U kunt een abonnement alleen met andere gebruikers delen. U kunt geen plannen met groepen, teams, of bedrijven delen.
 * U moet een abonnement eerst opslaan voordat u het kunt delen.
 * U kunt een URL naar een abonnement met een andere gebruiker delen. Als de gebruiker geen toestemmingen heeft om het plan minstens te bekijken, kunnen zij om toegang tot het plan van een andere gebruiker verzoeken wanneer zij URL ontvangen. Voor informatie over het verzoeken van toegang tot een plan, zie [ toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Wanneer u meerdere plannen deelt die al met anderen zijn gedeeld, worden de gebruikers met wie u deelt niet vervangen, maar toegevoegd aan de bestaande gebruikers op elk abonnement dat u hebt geselecteerd.
-
-## Abonnementen delen
-
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in Workfront en klik vervolgens op **[!UICONTROL Scenarios]** .
-1. Klik op de naam van een abonnement om het te openen
-
-   of
-
-   Selecteer verschillende plannen om deze in bulk te delen.
-
-   >[!TIP]
-   >
-   >U kunt een plan delen door de avatars van gebruikers te klikken met wie het plan in de hoger-juiste hoek van de plankopbal wordt gedeeld.
-
-1. (Voorwaardelijk) Als u een abonnement hebt geopend, klikt u op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) rechts van de naam [!UICONTROL Plan] en vervolgens klikt u op **[!UICONTROL Share]**
-
-   of
-
-   Als u meerdere plannen hebt geselecteerd om deze in bulk te delen, klikt u op het pictogram **[!UICONTROL Share]** ![](assets/share-icon-26x26.png) boven aan de lijst met plannen om het toegangsvak [!UICONTROL Plan] te openen.
-
-   >[!TIP]
-   >
-   >* Gebruikers die machtigingen hebben voor alle plannen die u selecteert, worden in het toegangsvak [!UICONTROL Plan] weergegeven.
-   >* Eventuele extra gebruikers worden toegevoegd aan en vervangen de bestaande gebruikers op alle geselecteerde plannen niet.
-
-1. Typ in het veld **[!UICONTROL Give plan access to]** de naam van de gebruikers met wie u het abonnement wilt delen en selecteer de gebruikers in de lijst.
-1. Van het drop-down menu van toestemmingen rechts van de gebruikersnaam, selecteer het niveau van toestemming u hen aan het plan wilt verlenen.
-1. Selecteer een van de volgende opties:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL View]</td> 
-      <td>De gebruikers u het plan met deelt zullen toestemmingen hebben om het plan te bekijken. Zij kunnen geen informatie over het plan uitgeven, initiatieven toevoegen, scenario's, of scenario's publiceren. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Manage]</td> 
-      <td> <p>De gebruikers u het plan met deelt hebben toestemmingen om het plan te beheren, dat omvat uitgeven informatie, voegt initiatieven, scenario's toe, en publiceert het plan. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   >[!TIP]
-   >
-   >U kunt een abonnement alleen verwijderen wanneer u het hebt gemaakt. U kunt geen plannen schrappen die met u worden gedeeld.
-
-1. Klik op **[!UICONTROL Save]**.
-
-   Het abonnement wordt nu gedeeld met de gebruikers die u hebt opgegeven.
-
-   U kunt gebruikers bekijken die toestemmingen aan het plan in Gedeeld met me kolom in een lijst van plannen of in de hoger-juiste hoek van de plankopbal hebben.
-
-   >[!TIP]
-   >
-   >U kunt plannen weergeven die met u worden gedeeld door het filter [!UICONTROL Shared with me] toe te passen in een lijst met plannen.
 
 ## Opties voor overzichtsmachtigingen
 
@@ -215,3 +167,63 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
 Voor informatie over het niveau van de projecttoegang, zie [ Toegang van de Verlening tot projecten ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Voor informatie over projecttoestemmingen, zie [ een project in  [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+
+## Abonnementen delen
+
+{{step1-to-scenario-planner}}
+
+1. Klik op de naam van een abonnement om het te openen
+
+   of
+
+   Selecteer verschillende plannen om deze in bulk te delen.
+
+   >[!TIP]
+   >
+   >U kunt een plan delen door de avatars van gebruikers te klikken met wie het plan in de hoger-juiste hoek van de plankopbal wordt gedeeld.
+
+1. (Voorwaardelijk) Als u een abonnement hebt geopend, klikt u op het pictogram **[!UICONTROL More]** ![](assets/more-icon.png) rechts van de naam [!UICONTROL Plan] en vervolgens klikt u op **[!UICONTROL Share]**
+
+   of
+
+   Als u meerdere plannen hebt geselecteerd om deze in bulk te delen, klikt u op het pictogram **[!UICONTROL Share]** ![](assets/share-icon-26x26.png) boven aan de lijst met plannen om het toegangsvak [!UICONTROL Plan] te openen.
+
+   >[!TIP]
+   >
+   >* Gebruikers die machtigingen hebben voor alle plannen die u selecteert, worden in het toegangsvak [!UICONTROL Plan] weergegeven.
+   >* Eventuele extra gebruikers worden toegevoegd aan en vervangen de bestaande gebruikers op alle geselecteerde plannen niet.
+
+1. Typ in het veld **[!UICONTROL Give plan access to]** de naam van de gebruikers met wie u het abonnement wilt delen en selecteer de gebruikers in de lijst.
+1. Van het drop-down menu van toestemmingen rechts van de gebruikersnaam, selecteer het niveau van toestemming u hen aan het plan wilt verlenen.
+1. Selecteer een van de volgende opties:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL View]</td> 
+      <td>De gebruikers u het plan met deelt zullen toestemmingen hebben om het plan te bekijken. Zij kunnen geen informatie over het plan uitgeven, initiatieven toevoegen, scenario's, of scenario's publiceren. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Manage]</td> 
+      <td> <p>De gebruikers u het plan met deelt hebben toestemmingen om het plan te beheren, dat omvat uitgeven informatie, voegt initiatieven, scenario's toe, en publiceert het plan. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >U kunt een abonnement alleen verwijderen wanneer u het hebt gemaakt. U kunt geen plannen schrappen die met u worden gedeeld.
+
+1. Klik op **[!UICONTROL Save]**.
+
+   Het abonnement wordt nu gedeeld met de gebruikers die u hebt opgegeven.
+
+   U kunt gebruikers bekijken die toestemmingen aan het plan in Gedeeld met me kolom in een lijst van plannen of in de hoger-juiste hoek van de plankopbal hebben.
+
+   >[!TIP]
+   >
+   >U kunt plannen weergeven die met u worden gedeeld door het filter [!UICONTROL Shared with me] toe te passen in een lijst met plannen.
+
+

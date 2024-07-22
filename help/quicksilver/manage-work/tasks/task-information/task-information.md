@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Deze sectie bevat de volgende artikelen:
 * [ plaats het Volgen Wijze voor taken ](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [ de taak van de Update het Niveaus Vertraging ](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [ het Type van Kosten van de Taak van de Update ](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [ Verschil tussen Geprojecteerde en Geschatte Data ](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [ Overzicht van Geprojecteerde en Geschatte Datums ](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [ Overzicht van taak Oorspronkelijke Duur en Oorspronkelijk Gepland Uren ](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Verschil tussen Geplande Duur en Duur voor taken](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

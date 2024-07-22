@@ -6,9 +6,9 @@ description: Wanneer initiatieven met elkaar in strijd zijn, concurreren zij om 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -24,50 +24,57 @@ Dit kan in elk van de volgende gevallen gebeuren:
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan* </b> </p> </td> 
-   <td>[!UICONTROL Business] of hoger</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Huidig: [!UICONTROL Business] of hoger</p>
+   <p>Nieuw: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license* </b> </p> </td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
+   <td> <p>Nieuw: Licht of hoger</p> 
+   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td><b> Product </b> </td> 
-   <td> <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>Voor de huidige plannen van Workfront: </p>
+   <p>U moet een extra licentie voor de [!DNL Adobe Workfront Scenario Planner] aanschaffen om toegang te krijgen tot de functionaliteit die in dit artikel wordt beschreven.</p> <p>Voor informatie over toegang en toestemmingen voor [!DNL Workfront Scenario Planner], zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>[!UICONTROL Edit] of hoger [!DNL Scenario Planner]</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Toegangsniveau </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een lidmaatschap</p> <p>Voor informatie over het vragen van extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> om toegang tot een plan in te vragen [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van conflicten oplossen
 
 * Een conflict wordt ook begrepen als een overmatige toewijzing van de functies of de begroting van een scenario.
-* Als [!DNL Workfront] een conflict detecteert, wordt de balk die overeenkomt met de conflicterende maand tijdens de duur van het initiatief rood weergegeven. Dit kan in elk van de volgende gevallen gebeuren:
+* Wanneer [!DNL Workfront] een conflict ontdekt, verschijnt de bar die aan de conflicterende maand tijdens de duur van het initiatief beantwoordt in rood. Dit kan in elk van de volgende gevallen gebeuren:
 
    * Het aantal functies dat maandelijks voor een initiatief vereist is, is groter dan het aantal rollen dat voor het plan in de begroting is opgenomen nadat alle vorige initiatieven de voor het plan begrote middelen hebben gebruikt.
-   * De maandelijkse kosten van het initiatief zijn groter dan de voor het plan beschikbare begroting, nadat alle eerdere initiatieven de begroting van het plan hebben gebruikt om hun kosten te dekken.
+   * De maandelijkse kosten van het initiatief zijn groter dan de begroting die voor het plan beschikbaar is, nadat alle eerdere initiatieven de begroting van het plan hebben gebruikt om hun kosten te dekken.
 
 >[!TIP]
 >
->Standaard gaat [!DNL Scenario Planner] ervan uit dat u voor een scenario een budget van 0 taakrollen en $0 of het equivalent van $0 in de valuta van uw systeem hebt opgenomen, tenzij u anders hebt opgegeven. Het aantal taakrollen geeft het aantal FTE&#39;s (Full Time Equivalents) aan of het aantal uren dat is begroot voor de taakrol.
+>Standaard gaat [!DNL Scenario Planner] ervan uit dat u voor een scenario een budget van 0 taakrollen en $0 of het equivalent van $0 in de systeemvaluta hebt opgenomen, tenzij u anders hebt opgegeven. Het aantal functies geeft het aantal FTE&#39;s (voltijdequivalenten) of uren aan dat in de begroting is opgenomen voor de functie.
 >
->Voor alle berekeningen in het Scenario-planner gebruikt Workfront de volgende waarde: 1 FTE = 8 uur.
+>Voor alle berekeningen in de Planner van het Scenario, gebruikt Workfront de volgende waarde: 1 FTE = 8 Uren.
 >
 >Voor informatie over het bijwerken van de beschikbare rollen voor een plan en een begroting zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
@@ -172,7 +179,7 @@ U moet het volgende hebben:
    * Klik op de balk van een initiatief.
    * Klik op het **[!UICONTROL More]** pictogram ![](assets/more-icon.png) rechts van de naam van het initiatief en klik vervolgens op **[!UICONTROL Edit]** .
 
-     Rechts wordt het deelvenster met de details van het initiatief weergegeven.
+     Rechts wordt het deelvenster met initiatiefdetails weergegeven.
 
      Wanneer u niet genoeg mensen of budget hebt voor uw initiatief, wordt een rood waarschuwingspictogram weergegeven naast de volgende secties:
 
@@ -183,11 +190,11 @@ U moet het volgende hebben:
 
    ![](assets/details-panel-overallocated-roles-350x275.png)
 
-1. (Optioneel) Klik op de naar rechts wijzende pijl naast de maanden in de tijdlijn van het initiatief om te zien welke extra maanden conflicten met de rol van de taak weergeven.
+1. (Optioneel) Klik op de pijl naar rechts naast de maanden in de tijdlijn van het initiatief om te zien welke extra maanden een taakrolconflict veroorzaken.
 
    ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
-1. (Optioneel) Klik op **[!UICONTROL Show details]** onder de taakrol die een conflict weergeeft om te zien waar de conflicten verschijnen en om de conflicterende maanden in het diagramgebied van het plan te markeren. Aanvullende informatie wordt weergegeven voor elke taakrol.
+1. (Optioneel) Klik op **[!UICONTROL Show details]** onder de taakrol die een conflict weergeeft om te zien waar de conflicten verschijnen en om de conflicterende maanden in het grafiekgebied van het abonnement te markeren. Voor elke taakrol wordt aanvullende informatie weergegeven.
 
    De volgende velden worden weergegeven voor elke taakrol:
 
@@ -197,11 +204,11 @@ U moet het volgende hebben:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Available]</td> 
-      <td> <p>Het aantal beschikbare taakrollen in het abonnement voor elke maand. </p> </td> 
+      <td> <p>Het aantal baanrollen beschikbaar bij het plan voor elke maand. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Previously allocated]</td> 
-      <td>Het aantal functies dat al uit de begroting van het plan is toegewezen aan initiatieven met een hogere rang voor een bepaalde maand. </td> 
+      <td>Het aantal functies dat al voor een bepaalde maand uit de begroting van het plan is toegewezen aan hoger opgeleide initiatieven. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Overallocated]</td> 
@@ -230,12 +237,12 @@ U moet het volgende hebben:
 
      Een naar boven wijzende groene pijl ![](assets/upward-green-arrow.png) toont voor de maand in de chronologie van het plan om erop te wijzen dat meer middelen aan het plan die maand werden toegevoegd. U moet de weergave [!UICONTROL Month] selecteren om deze indicator te zien.
 
-   * (Voorwaardelijk) Sluit het detailpanel en geef het initiatief een hogere prioriteit om begrotingsmiddelen uit het plan te ontvangen, indien mogelijk. Voor informatie over het bijwerken van initiatiefprioriteit, zie [ de initiatiefprioriteiten van de Update in het Plan Scenario ](../scenario-planner/prioritize-initiatives.md).
+   * (Voorwaardelijk) Sluit het detailpanel en geef het initiatief een hogere prioriteit om begrotingsmiddelen uit het plan te ontvangen, indien mogelijk. Voor informatie over het bijwerken van initiatiefprioriteit, zie [ de initiatiefprioriteiten van de Update in de Planner van het Scenario ](../scenario-planner/prioritize-initiatives.md).
 
-1. (Optioneel) Klik op **[!UICONTROL Hide details]** om het vak met aanvullende details te sluiten en klik vervolgens op **[!UICONTROL Apply]** om de wijzigingen op te slaan die u in taakrollen aanbrengt.
+1. (Optioneel) Klik op **[!UICONTROL Hide details]** om het vak Extra details te sluiten en klik vervolgens op **[!UICONTROL Apply]** om de wijzigingen in de taakrollen op te slaan.
 
-1. (Voorwaardelijk) Voor initiatieven met kostenconflicten gaat u naar het gedeelte **[!UICONTROL Costs]** in het deelvenster met initiatiefdetails om de kosten voor elke maand van de duur van het initiatief te controleren. Bepaal welke maanden wellicht niet genoeg geld in de begroting van het plan hebben om de kosten voor het geselecteerde initiatief te dekken. De doos met het ontoereikende beschikbare budget toont in een rood overzicht.
-1. (Optioneel) Klik op de naar rechts wijzende pijl naast de maanden in de tijdlijn van het initiatief om extra maanden weer te geven die onvoldoende zijn om de kosten te dekken.
+1. (Voorwaardelijk) Voor initiatieven met kostenconflicten gaat u naar de sectie **[!UICONTROL Costs]** in het deelvenster met initiatiefdetails om de kosten voor elke maand van de duur van het initiatief te controleren. Geef aan welke maanden mogelijk niet genoeg geld in de begroting van het plan hebben om de kosten voor het geselecteerde initiatief te dekken. De doos met de ontoereikende beschikbare begroting toont in een rood overzicht.
+1. (Optioneel) Klik op de naar rechts wijzende pijl naast de maanden in de tijdlijn van het initiatief om extra maanden weer te geven die onvoldoende budget hebben om de kosten te dekken.
 
    ![](assets/details-panel-insufficient-costs-350x239.png)
 

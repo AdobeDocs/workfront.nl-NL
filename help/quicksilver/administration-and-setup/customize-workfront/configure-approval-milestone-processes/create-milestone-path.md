@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Als beheerder van Adobe Workfront, kunt u milestone wegen tot stand brengen die dan op om het even welk project in het systeem kunnen worden toegepast. De wijzigingen die u aanbrengt in paden met mijlpalen op dit gebied, zijn van invloed op het hele Workfront-systeem.
-author: Alina, Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

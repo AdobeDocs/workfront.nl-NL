@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Ad
 
 ## Toegangsvereisten
 
-U moet de volgende instellingen hebben om Adobe Workfront Planning te kunnen gebruiken:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto">
  <col>
@@ -88,6 +88,8 @@ U moet de volgende instellingen hebben om Adobe Workfront Planning te kunnen geb
 </table>
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Het gedeelte Planning in het hoofdmenu delen met anderen

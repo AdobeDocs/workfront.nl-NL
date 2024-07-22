@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Adobe Workfront-doelen
 
-Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
-
-* Voor het nieuwe plan en de nieuwe licentiestructuur:
-
-   * Een ultiem plan
-
-     of
-
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor meer informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
-
-* Voor het huidige plan en de licentiestructuur:
-
-   * Een Pro of hoger
-   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
-
-
-Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
-
-Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>[!IMPORTANT]
+>
+>Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>
+>* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>
+>   * Het Ultimate Workfront-plan
+>    
+>* Voor het huidige plan en de licentiestructuur:
+>
+>   * Een Pro- of hoger Workfront-abonnement
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+> 
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Elke organisatie moet duidelijke doelstellingen plaatsen en meedelen om hun teams productief, gericht, en betrokken te houden. Het is van essentieel belang dat we weten hoe werk op de strategie is afgestemd. Maar zonder een systeem van verslagen dat uw strategie en doelstellingen met het werk in de organisatie verbindt, kan het bereiken van aanpassing echt moeilijk zijn.
 

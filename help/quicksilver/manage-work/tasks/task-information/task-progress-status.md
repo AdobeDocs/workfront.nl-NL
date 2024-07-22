@@ -7,7 +7,7 @@ description: Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vo
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -52,7 +52,7 @@ De volgende criteria bepalen de Voortgangsstatus van een taak:
   </tr> 
   <tr> 
    <td> <p><strong> Achter </strong> </p> </td> 
-   <td> <p>Een taak wordt beschouwd om <strong> achter </strong> te zijn wanneer de Geschatte Datum van de Voltooiing later of gelijk is dan de Geplande Datum van de Voltooiing en vroeger dan de Verwachte Datum van de Voltooiing.</p> <p>De verwachte Voltooiingsdatum is een mening in real time van wanneer de taak zal worden voltooid gebaseerd op voorafgaande vooruitgang. Hoewel de taak te laat is opgestart, wordt deze nog niet als te laat beschouwd, omdat de geplande en verwachte einddatum nog in de toekomst ligt en de taak misschien nog op tijd zal zijn voltooid.</p> <p>Nota: <strong> Achter </strong> en <strong> bij de status van de Voortgang van het Risico </strong> zijn bijna identiek. Nochtans, <strong> Op risico </strong> wijst op er sommige gedwongen de Beperkingen van de Taak (moet eindigen, moet beginnen, Vaste Datums) op één of beide Geplande Datums). Als er geen gedwongen beperkingen op de taak zijn, zijn de verwachte data gelijk aan de geschatte data en weerspiegelen de systeemberekening van de voltooiingsdatum op basis van de huidige voortgang van de taak. De taak wordt nog niet als laat beschouwd, omdat de geplande en geplande einddatum nog in de toekomst ligt en de taak misschien nog op tijd zal zijn voltooid.<br> voor meer informatie over de Geprojecteerde en Geschatte Data, zie <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref"> Verschil tussen Geprojecteerde en Geschatte Data </a>.</p> </td> 
+   <td> <p>Een taak wordt beschouwd om <strong> achter </strong> te zijn wanneer de Geschatte Datum van de Voltooiing later of gelijk is dan de Geplande Datum van de Voltooiing en vroeger dan de Verwachte Datum van de Voltooiing.</p> <p>De verwachte Voltooiingsdatum is een mening in real time van wanneer de taak zal worden voltooid gebaseerd op voorafgaande vooruitgang. Hoewel de taak te laat is opgestart, wordt deze nog niet als te laat beschouwd, omdat de geplande en verwachte einddatum nog in de toekomst ligt en de taak misschien nog op tijd zal zijn voltooid.</p> <p>Nota: <strong> Achter </strong> en <strong> bij de status van de Voortgang van het Risico </strong> zijn bijna identiek. Nochtans, <strong> Op risico </strong> wijst op er sommige gedwongen de Beperkingen van de Taak (moet eindigen, moet beginnen, Vaste Datums) op één of beide Geplande Datums). Als er geen gedwongen beperkingen op de taak zijn, zijn de verwachte data gelijk aan de geschatte data en weerspiegelen de systeemberekening van de voltooiingsdatum op basis van de huidige voortgang van de taak. De taak wordt nog niet als laat beschouwd, omdat de geplande en geplande einddatum nog in de toekomst ligt en de taak misschien nog op tijd zal zijn voltooid.<br> voor meer informatie over de Geprojecteerde en Geschatte Datums, zie <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref"> Overzicht van Geprojecteerde en Geschatte Datums </a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong> laat </strong> </p> </td> 

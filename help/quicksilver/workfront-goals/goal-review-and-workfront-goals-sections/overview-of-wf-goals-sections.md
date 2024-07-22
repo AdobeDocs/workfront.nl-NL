@@ -7,31 +7,31 @@ description: U hebt toegang tot lijsten met doelen of individuele doelen en kunt
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de secties Adobe Workfront Goals
 
-Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
-
-* Voor het nieuwe plan en de nieuwe licentiestructuur:
-
-   * Een ultiem plan
-
-     of
-
-     Een extra licentie voor Adobe Workfront Goals voor de Adobe Workfront-plannen voor de Premier of Select. Voor informatie, zie [ plan van Adobe Workfront ](https://www.workfront.com/plans).
-
-* Voor het huidige plan en de licentiestructuur:
-
-   * Een Pro of hoger
-   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
-
-Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+>[!IMPORTANT]
+>
+>Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>
+>* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>
+>   * Het Ultimate Workfront-plan
+>    
+>* Voor het huidige plan en de licentiestructuur:
+>
+>   * Een Pro- of hoger Workfront-abonnement
+>   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>
+>Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+> 
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Nadat uw beheerder van Workfront u toegang tot de Doelen van Workfront heeft verleend, kunt u doelstellingen bekijken die u of iedereen in uw organisatie in het gebied van de Doelstellingen van Workfront wordt gecreeerd.
 

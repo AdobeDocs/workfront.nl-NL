@@ -7,9 +7,9 @@ description: De voorspelde Voltooiingsdatum is een real-time, berekende indicato
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ In de volgende secties wordt beschreven hoe de Geprojecteerde Voltooiingsdatum w
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> 
    <p>Nieuw: 
    <ul><li><p>Medewerker of hoger om de voorspelde voltooiingsdatum in een rapport weer te geven</p></li> <li><p>Een standaardlicentie voor het maken van een rapport</p></li> </ul>
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Toegangsniveau</td> 
    <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>U moet Edit toegang tot Rapporten, Dashboards, Kalenders hebben om een rapport tot stand te brengen</p> <p>U moet Edit toegang tot Filters, Weergaven, Groepen hebben om een rapport te creëren of een lijstmening te wijzigen</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hoe Adobe Workfront de verwachte voltooiingsdatum bepaalt
 
@@ -85,7 +87,7 @@ De criteria die worden gebruikt om de Geprojecteerde Datum van Voltooiing te bep
   >Wanneer de voorganger van een taak een Werkelijke Datum van de Voltooiing heeft, ontvangen de afhankelijke taken een Geprojecteerde Datum van de Voltooiing zoals die in het volgende scenario wordt beschreven:
   >
   >
-  >Als het project Taak A, Taak B, en Taak C heeft, en Taak B de opvolger van Taak A is, is Taak C de opvolger van Taak B en een Ware Voltooiingsdatum wordt toegevoegd aan Taak A, wordt de Geprojecteerde Datum van de Voltooiing automatisch opnieuw berekend voor Taak B (op voorwaarde dat het **Type van Update** van het project aan Automatisch en op Verandering wordt geplaatst), maar het zal niet opnieuw worden berekend voor Taak C. Workfront berekent momenteel de geplande voltooiingsdatum voor taken die één niveau hoger of lager zijn dan de bijgewerkte taak, om prestatieredenen. 
+  >Als het project Taak A, Taak B, en Taak C heeft, en Taak B de opvolger van Taak A is, is Taak C de opvolger van Taak B en een Ware Voltooiingsdatum wordt toegevoegd aan Taak A, wordt de Geprojecteerde Datum van de Voltooiing automatisch opnieuw berekend voor Taak B (op voorwaarde dat het **Type van Update** van het project aan Automatisch en op Verandering wordt geplaatst), maar het zal niet opnieuw worden berekend voor Taak C. Workfront berekent momenteel de geplande voltooiingsdatum voor taken die één niveau hoger of lager zijn dan de bijgewerkte taak, om prestatieredenen.
 
 * **Kwesties:** de kwestie Geprojecteerde Datum van de Voltooiing is aanvankelijk geplaatst om de kwestie Geplande Datum van de Voltooiing aan te passen.
 
@@ -119,9 +121,9 @@ U kunt als volgt een uitgiftenrapport maken met de geplande afsluitdatum:
 1. Selecteer de **Kolommen (Mening)** tabel.
 1. Klik **toevoegen Kolom**, en beginnen **Geprojecteerde Datum van de Voltooiing** in **tonen in deze kolom te typen:** gebied.
 
-1. Selecteer het wanneer het in de lijst, onder het **voorwerp van de Uitgave** verschijnt. 
+1. Selecteer het wanneer het in de lijst, onder het **voorwerp van de Uitgave** verschijnt.
 1. Klik **sparen + Sluiten**.
 
-   De **Geprojecteerde kolom van de Datum van de Voltooiing** in het rapport is bevolkt. 
+   De **Geprojecteerde kolom van de Datum van de Voltooiing** in het rapport is bevolkt.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

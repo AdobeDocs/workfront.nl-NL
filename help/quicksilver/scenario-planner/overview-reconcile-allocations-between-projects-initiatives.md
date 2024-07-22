@@ -6,18 +6,14 @@ description: Overzicht van de afstemming van de toewijzingen van middelen tussen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven
-
->[!IMPORTANT]
->
->Uw organisatie moet een extra licentie aanschaffen voor de [!DNL Adobe Workfront Scenario Planner] , zodat u de informatie over initiatieven in een project kunt bekijken. Voor informatie over het verkrijgen van [!DNL Workfront Scenario Planner], zie [ Toegang nodig om de Planner van het Scenario te gebruiken ](../scenario-planner/access-needed-to-use-sp.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>
