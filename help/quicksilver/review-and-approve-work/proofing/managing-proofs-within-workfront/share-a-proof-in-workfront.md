@@ -6,9 +6,9 @@ description: U kunt een proefdocument delen in Adobe Workfront door het document
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als u de proefdruk deelt, zoals in dit artikel wordt uitgelegd, heeft de ontvang
 >U kunt ook een proefdruk delen vanuit de proefdrukviewer. Voor instructies, zie [ een proef van de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md) delen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Een proefdrukkoppeling delen
 

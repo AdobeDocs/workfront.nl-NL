@@ -6,9 +6,9 @@ description: U kunt de voortgang van een proefdruk die is geconfigureerd met een
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ U kunt de voortgang van een proefdruk die is geconfigureerd met een geautomatise
 Voor informatie over het toevoegen van stadia en gebruikers aan een proef met een Geautomatiseerd Werkschema, zie [ stadia en gebruikers aan een Geautomatiseerd Werkschema op een proef ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md) toevoegen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Bekijk het Geautomatiseerde diagram van het Werkschema
 

@@ -6,9 +6,9 @@ description: Tijdens het beoordelings- en goedkeuringsproces kunt u een bericht 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Tijdens het beoordelings- en goedkeuringsproces kunt u een bericht naar een of a
 U kunt kiezen tussen het verzenden van een generieke e-mail met een herinnering of het verzenden van een aangepast bericht naar een of alle gebruikers die aan een bepaald werkgebied zijn gekoppeld.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,6 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## E-mailberichten naar gebruikers sturen als bewijs
 

@@ -7,9 +7,9 @@ description: U kunt verschillende termijnen voor verschillende recensenten op ee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 U kunt verschillende termijnen voor verschillende recensenten op een bewijs plaatsen u reeds hebt gecreeerd. Hiervoor moet u een aparte fase maken voor elke controleur voor wie u een individuele deadline wilt instellen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Tijdslimieten voor individuele revisoren instellen
 

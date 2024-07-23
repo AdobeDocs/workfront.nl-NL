@@ -7,9 +7,9 @@ description: U kunt uw Workfront Proof-account snel rechtstreeks openen vanuit d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Neem contact op met de Workfront-beheerder als u Workfront Proof niet kunt opene
 
 ## Workfront Proof openen vanuit Workfront {#access-workfront-proof-from-workfront}
 
-Standaard hebben alleen gebruikers met beheerdersrechten in Workfront toegang tot Workfront Proof, zoals beschreven in deze sectie. 
+Standaard hebben alleen gebruikers met beheerdersrechten in Workfront toegang tot Workfront Proof, zoals beschreven in deze sectie.
 
-1. Klik op Proofing ![](assets/proofing-main-menu.png) in het hoofdmenu ![](assets/main-menu-icon.png) .
+{{step1-to-proofing}}
 
-   U wordt automatisch aangemeld bij uw Workfront Proof Premium-account.
+U wordt automatisch aangemeld bij uw Workfront Proof Premium-account.
 
 Voor informatie over functionaliteit beschikbaar nadat u aan uw rekening van de Première van Workfront Proof wordt het programma geopend, zie de [ Plaats van de Hulp van Workfront ](https://support.workfront.com).
 

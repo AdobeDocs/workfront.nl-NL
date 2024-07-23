@@ -6,9 +6,9 @@ description: U kunt de standaardinstellingen voor persoonlijke proefdrukken defi
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 U kunt de standaardinstellingen voor persoonlijke proefdrukken definiëren die van toepassing zijn op proefdrukken die u maakt. Deze standaardinstellingen worden telkens toegepast wanneer u een nieuwe proefdruk maakt of een nieuwe proefversie uploadt in Workfront.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,9 +44,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
++++
+
 ## Standaardwaarden voor persoonlijke proefdrukken configureren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **het Bewijzen**.
+{{step1-to-proofing}}
 
 1. In de hoger-juiste hoek, klik uw avatar, en selecteer **Persoonlijke Montages**.
 1. Kies het **Proofing gebreken** lusje, dan specificeer de volgende informatie:

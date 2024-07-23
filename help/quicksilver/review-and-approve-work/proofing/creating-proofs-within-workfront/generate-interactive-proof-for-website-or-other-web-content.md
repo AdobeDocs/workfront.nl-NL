@@ -6,9 +6,9 @@ description: U kunt een nieuwe interactieve proefdruk of een nieuwe versie van e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ In een interactieve proefdruk kunnen revisoren navigeren en communiceren zoals z
 >Zorg ervoor dat de website of de interactieve inhoud toegankelijk is voor de personen die de website of inhoud gaan beoordelen. Ze kunnen het alleen in het proefdrukproces gebruiken als ze het ook via internet kunnen bekijken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,6 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Een interactieve proefdruk maken voor een website of andere webinhoud
 

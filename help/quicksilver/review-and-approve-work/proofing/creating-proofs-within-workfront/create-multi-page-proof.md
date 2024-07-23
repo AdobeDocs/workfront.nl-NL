@@ -6,9 +6,9 @@ description: U kunt meerdere bestanden combineren tot één proefdruk van meerde
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 U kunt meerdere bestanden combineren tot één proefdruk van meerdere pagina&#39;s. Revisoren kunnen de navigatiegereedschappen in de conceptviewer gebruiken om door de pagina&#39;s te bladeren in een proefdruk van meerdere pagina&#39;s.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,6 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunning, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Een proefdruk van meerdere pagina&#39;s maken
 

@@ -6,9 +6,9 @@ description: Met geautomatiseerde workflows kunt u het revisieproces eenvoudiger
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Met geautomatiseerde workflows kunt u het revisieproces eenvoudiger beheren als 
 Voor informatie over het creëren van een Geautomatiseerd Werkschema voor een nieuw bewijs, zie [ een geavanceerd bewijs met een Geautomatiseerd werkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Een geautomatiseerde workflow maken of bewerken voor een bestaande proefdruk:
 

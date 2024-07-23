@@ -6,9 +6,9 @@ description: Het beheren van feedback in meerdere versies of revisies van een st
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Neem de volgende informatie in overweging wanneer u een nieuwe versie van een pr
 >Als er in Adobe Workfront een proefdruk wordt gemaakt, moeten ook nieuwe versies voor die proefdruk in Workfront worden gemaakt. U kunt in Workfront Proof geen nieuwe versie van een proefdruk maken als die proefdruk in Workfront is gemaakt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -58,6 +60,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Een nieuwe versie van een proefdruk maken in Workfront
 
@@ -228,7 +232,7 @@ Als de vorige versie van de proefdruk een aangepast onderwerp/bericht bevat, wor
 
   >[!NOTE]
   >
-  > Dit wordt niet beïnvloed door een standaardaangepast onderwerp/bericht dat in uw persoonlijke instellingen wordt opgeslagen.
+  >Dit wordt niet beïnvloed door een standaardaangepast onderwerp/bericht dat in uw persoonlijke instellingen wordt opgeslagen.
 
 Als u een standaardonderwerp en een bericht hebt opgeslagen in uw persoonlijke instellingen, heeft dit invloed op welk bericht standaard wordt weergegeven op de pagina Nieuwe versie:
 

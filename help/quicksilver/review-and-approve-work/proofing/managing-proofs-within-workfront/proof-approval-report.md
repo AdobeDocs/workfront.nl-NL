@@ -6,9 +6,9 @@ description: U kunt het rapport voor proefdrukgoedkeuring gebruiken om informati
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 U kunt het rapport voor proefdrukgoedkeuring gebruiken om informatie weer te geven over proefdrukken in uw omgeving.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -46,9 +48,12 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Het rapport voor proefdrukgoedkeuring gebruiken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Rapporten**.
+{{step1-to-reports}}
+
 1. Klik **Nieuw Rapport**, dan rol om **Goedkeuring van het Bewijs** te selecteren.
 
    ![](assets/proof-approval-report.png)

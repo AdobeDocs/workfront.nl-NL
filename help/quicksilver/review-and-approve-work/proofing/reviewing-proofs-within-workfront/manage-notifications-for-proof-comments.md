@@ -6,9 +6,9 @@ description: Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een
 >Deze meldingen verschillen van de e-mailwaarschuwingen die u kunt ontvangen over de stroom van een proefdruk onder controleurs. Ze verschillen ook van de instellingen voor e-mailwaarschuwingen die u kunt configureren in Workfront. 
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -49,6 +51,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Meldingen beheren voor proefopmerkingen en -beslissingen
 
