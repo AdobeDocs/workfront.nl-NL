@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: efcffadba5dba15d7e521524865e5e5ac3836baa
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de 
 
 ## Een aangepast formulier maken
 
-De formulierontwerper heeft een werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt.
+De formulierontwerper heeft een werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt. U kunt de grootte aan de rechterkant van het scherm aanpassen om meer ruimte voor de veldopties te bieden.
 
 Voor meer informatie, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
