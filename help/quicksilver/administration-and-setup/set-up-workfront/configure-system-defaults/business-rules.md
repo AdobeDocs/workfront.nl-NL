@@ -7,7 +7,8 @@ description: U kunt kiezen of u de nieuwe Workfront-functionaliteit op maand- of
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -75,7 +76,7 @@ Een API-jokerteken is ook beschikbaar in bedrijfsregels. U kunt `$$ISAPI` gebrui
 
 Sommige eenvoudige bedrijfsregelscenario&#39;s zijn:
 
-* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan worden weergegeven als: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* De gebruikers kunnen geen nieuwe uitgaven tijdens de laatste week van Februari toevoegen. Deze formule kan worden weergegeven als: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
 * Gebruikers kunnen een project in de status Voltooid niet bewerken. Deze formule kan worden weergegeven als: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Een scenario met geneste IF-instructies is:
