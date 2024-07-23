@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
   Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://www.workfront.com/plans).
 
-Daarnaast kunt u uw [!DNL Workfront] -documentervaring verbeteren met een native Digital Asset Management (DAM)-systeem of met DAM-integratie van derden. Beheerders moeten deze functies inschakelen om gebruikers de service te laten koppelen aan hun [!DNL Workfront] -account. Voor meer informatie over Workfront DAM, zie [ het Leiden Documenten met  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Bovendien kunt u uw [!DNL Workfront] -documentervaring verbeteren met DAM-integratie van derden. Beheerders moeten deze functies inschakelen om gebruikers de service te laten koppelen aan hun [!DNL Workfront] -account.
 
 ## Integraties configureren om documenten te beheren
 
@@ -197,8 +197,6 @@ Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikba
 1. Klik op **[!UICONTROL Save]** om de integratie te maken.
 
 ## Documentintegratie gebruiken
-
-Voor informatie over hoe de gebruikers [!DNL Workfront DAM] kunnen gebruiken, zie [ het Leiden Documenten met  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [ tot proeven ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md) leiden.
 

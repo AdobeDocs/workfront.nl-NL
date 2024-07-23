@@ -7,9 +7,9 @@ description: Adobe Workfront DAM is een native Digital Asset Management (DAM)-sy
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 4bb4b61a-eafe-41f1-9f5d-20583fb76d81
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,4 @@ ht-degree: 0%
 U hebt toegang tot de ondersteuningsdocumentatie voor [!UICONTROL [!DNL Workfront] DAM] op de volgende locaties:
 
 * Zie de Help-site van [!DNL Webdam] als u de zelfstandige [!UICONTROL Workfront DAM] -toepassing gebruikt (buiten de hoofdtoepassing van [!DNL Workfront] ).
-* Zie [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] in  [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md) als u [!UICONTROL [!DNL Workfront] DAM] -functionaliteit gebruikt in de [!DNL Workfront] -hoofdtoepassing.
 * OPMERKING: als u een verzoek voor een functie moet indienen of een probleem wilt registreren, neemt u contact op met de [!DNL Workfront] Klantenondersteuning via telefoon, e-mail of de Help-site van [!DNL Workfront] . Voor meer informatie, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
