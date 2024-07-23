@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
 
 >[!IMPORTANT]
 >
->In de 23.3-versie was de optie opgenomen om uw organisatie te verplaatsen naar maandelijkse releases. Daarom heeft Workfront het nummeringsschema van releases aangepast om rekening te houden met zowel de release per maand als de release per kwartaal.
+>De release van 23.3 bevatte de optie om uw organisatie te verplaatsen naar maandelijkse releases. Daarom heeft Workfront het nummeringsschema van releaseversies gewijzigd om rekening te houden met zowel het maandelijks- als driemaandelijkse releasespoor.
 >
->Voorzien wordt dat maandelijkse en driemaandelijkse releases beschikbaar zullen zijn op de donderdag van de tweede volledige week van de maand, tenzij anders vermeld.
+>Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen zijn op de donderdag van de tweede volledige week van de maand, tenzij anders vermeld.
 >
 >| Maandelijkse release | Driemaandelijkse release |
 >|----|----|
@@ -172,9 +172,9 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de revisie van het Document en de toestemmingsstatusvertoningen in documentkopbal </a></p><p>[!BADGE In production ]{type=Informative}</p><p>Om het revisie- en goedkeuringsproces transparanter te maken, hebben we de status toegevoegd aan de koptekst van de pagina Documentdetails.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> de revisie van het Document en de vertoningen van de goedkeuringsstatus in documentkopbal </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de controle en het goedkeuringsproces transparanter te maken, hebben wij de status aan de kopbal van de pagina van de Details van het Document toegevoegd.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze datums:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 9 november 2023</p>
@@ -348,19 +348,20 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p><p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied Toewijzingen in de taakkoptekst, Home en het deelvenster Samenvatting.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}<p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze datums:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 21 december 2023</p>
-                                <p>OPMERKING: Deze functie blijft in Voorvertoning tot de release 24.4.</p>
+                                <p>OPMERKING: deze functie blijft in Voorvertoning tot de release 24.4.</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de 24.3-versie (maart 2024)</p>
+                                <p>Productie voor snelle release: met 24.3 release (maart 2024)</p>
                             </li>
                             <li>
-                                <p>Productie voor alle klanten: met de release van 24.4 (april 2024)</p>
+                                <p>Productie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -386,7 +387,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> belemmering en laat vallen beeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> belemmering en dalingsbeeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om de inhoud van uw opmerkingen te verbeteren, kunt u nu snel een afbeelding slepen en neerzetten in een opmerking of antwoord in de sectie Updates van een object.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -439,13 +440,13 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> Exemplaar en kleef een beeld in een commentaar in de sectie van Updates </a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw commentaren nu snel vastmaken door hen van uw computer te kopiëren en hen in een nieuwe update of een antwoord te kleven.</p>
                     </td>
-                    <td><p><b>Beschikbaar op deze datums:</b></p>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
                                 <p>Voorvertoningsrelease: 16 november 2023</p>
                             </li>
                             <li>
-                                <p>Productie voor snelle release: met de 24.1-release</p>
+                                <p>Productie voor snelle release: met de release van 24.1</p>
                             </li>
                             <li>
                                 <p>Productie voor driemaandelijkse release: met 24.1 release</p>

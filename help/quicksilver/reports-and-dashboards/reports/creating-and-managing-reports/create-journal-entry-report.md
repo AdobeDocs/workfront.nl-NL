@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2722'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voordat u de in dit artikel beschreven handelingen kunt uitvoeren, moet u het volgende controleren:
 
-* Alle velden waarvoor je een melding wilt maken, worden bijgehouden in Workfront. U kunt alleen gegevens rapporteren in het gebied Updates dat wordt bijgehouden.
+* Alle velden (inclusief aangepaste velden) die u wilt rapporteren, worden bijgehouden in Workfront. U kunt alleen gegevens rapporteren in het gebied Updates dat wordt bijgehouden.
 
   Leren hoe te om gebieden toe te voegen die u Workfront wilt volgen, zie [ systeemupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
-
-* Om het even welke douanegebieden die u wilt melden hebben de plaatsende **veranderingen van het het gebiedsgebied van de Vertoning in toegelaten updatevoer**.
 
 ## Overzicht van het Dagboekingrapport
 

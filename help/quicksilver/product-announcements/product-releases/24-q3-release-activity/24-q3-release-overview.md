@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> Bedrijfs regels zijn nu beschikbaar </a></p>
                         [!BADGE in productie ]{type=Informative}
@@ -74,6 +74,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Alleen beschikbaar voor organisaties op het nieuwe Ultimate-plan.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Deze functie is tijdelijk verwijderd uit Productie voor klanten die zich niet volgens de snelle releaseschema bevinden.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> meer relevante die taken aan het Nieuwe werkschema van de Taak worden toegevoegd </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
                         <p>Wij hebben de zelfde functionaliteit voor relevantere slimme taken aan het gebied van Taken in het Nieuwe vakje van de Taak toegevoegd wanneer het toevoegen van een taak aan een project en in een lijst van de projecttaak.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -296,16 +296,15 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview"> Deze eigenschap is tijdelijk verwijderd uit Productie voor klanten die niet op het snelle versieschema zijn.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
-                        [!BADGE in productie ]{type=Informative}
+                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
                         <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -317,7 +316,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productie voor snelle release: met 24,5 release (16 mei 2024)</p>
                             </li>
                             <li>
-                                <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
+                                <p>Productieversie voor alle klanten: met de release van 24.10 (oktober 2024)</p>
                             </li>
                         </ul>
                     </td>

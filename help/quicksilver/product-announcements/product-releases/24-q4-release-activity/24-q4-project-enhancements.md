@@ -1,10 +1,9 @@
 ---
-title: Verbeteringen van projecten in het tweede kwartaal van 2024
-description: Verbeteringen van projecten in het tweede kwartaal van 2024
+title: Verbeteringen van projecten in het vierde kwartaal van 2024
+description: Verbeteringen van projecten in het vierde kwartaal van 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '329'
@@ -12,12 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Verbeteringen van projecten in het tweede kwartaal van 2024
+# Verbeteringen van projecten in het vierde kwartaal van 2024
 
-Deze pagina beschrijft alle projectverhogingen die met de Tweede Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
+Deze pagina beschrijft alle projectverbeteringen die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
-
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak
 
