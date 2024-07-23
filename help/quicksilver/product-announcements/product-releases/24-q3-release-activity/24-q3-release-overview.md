@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
+source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1849'
 ht-degree: 0%
 
 ---
@@ -278,6 +278,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">Deze functie is tijdelijk verwijderd uit Productie voor klanten die zich niet volgens de snelle releaseschema bevinden.</span></p>
                     </td>
                  </tr>
                    <tr>
@@ -298,6 +299,7 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                                 <p>Productieversie voor alle klanten: met de release van 24,7 (18 juli 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview"> Deze eigenschap is tijdelijk verwijderd uit Productie voor klanten die niet op het snelle versieschema zijn.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
