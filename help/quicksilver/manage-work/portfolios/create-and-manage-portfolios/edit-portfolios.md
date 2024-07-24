@@ -6,9 +6,9 @@ description: U kunt gegevens bewerken over portfolio's die u hebt gemaakt of die
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt een [!UICONTROL portfolio] in de portfoliopagina bewerken of portfolio&#3
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,35 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Nieuw: alle</p>
+   <p>Huidig:[!UICONTROL Business] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] overzicht van licenties*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenties*</td> 
+   <td> <p>Nieuw: Standaard</p>
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot portefeuilles in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref"> Toegang van de Verlening tot portefeuilles </a>. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een portfolio</p> <p> Voor informatie over het verlenen van toestemmingen aan portefeuilles, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref"> een portefeuille delen </a>. </p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een portfolio</p>
+   <p> Rechten voor de projecten in het portfolio beheren om deze toe te voegen aan of te verwijderen uit het portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Portfolio&#39;s bewerken
 
-1. Ga naar de **[!UICONTROL Main Menu]** .
-1. Klik op **[!UICONTROL Portfolios]** en klik vervolgens op de naam van een portfolio om het te openen.
+{{step1-to-portfolios}}
+
+1. Klik op de naam van een portfolio om het te openen.
 1. (Optioneel) Als u de beperkte informatie over het portfolio wilt bewerken, klikt u op **[!UICONTROL Portfolio Details]** in het linkerdeelvenster.
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)

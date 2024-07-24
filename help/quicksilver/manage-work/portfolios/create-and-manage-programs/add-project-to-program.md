@@ -6,14 +6,16 @@ description: U kunt uw projecten ordenen door deze toe te voegen aan programma's
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Een project toevoegen aan een programma
+
+<!--Audited: 7/2024-->
 
 U kunt uw projecten ordenen door deze toe te voegen aan programma&#39;s binnen portfolio&#39;s. U kunt veelvoudige projecten binnen van één programma hebben, maar u kunt slechts één programma met een project associëren.
 
@@ -25,32 +27,35 @@ Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Team] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nieuw: Standaard</p> 
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL View] toegang tot programma's of hoger</p> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot programma's of hoger</p> <p>[!UICONTROL Edit] toegang tot projecten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] machtigingen voor het programma</p> <p>[!UICONTROL Manage] machtigingen voor de projecten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het programma</p> <p>[!UICONTROL Manage] machtigingen voor de projecten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een project toevoegen aan een bestaand programma
 
@@ -96,4 +101,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Voorwaardelijk) Als u **[!UICONTROL Existing Project]** hebt geselecteerd, doet u het volgende:
 
    1. Typ in het dialoogvenster **[!UICONTROL Add Projects]** de naam van het project in het opgegeven veld en selecteer het vervolgens wanneer het wordt weergegeven in de lijst. U kunt meerdere projecten tegelijk toevoegen.
-   1. Klik op **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Het project wordt weergegeven op het tabblad **[!UICONTROL Projects]** van het programma en is nu gekoppeld aan het programma en de portfolio. 
+   1. Klik op **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Het project wordt weergegeven op het tabblad **[!UICONTROL Projects]** van het programma en is nu gekoppeld aan het programma en de portfolio.

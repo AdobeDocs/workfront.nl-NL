@@ -6,14 +6,16 @@ description: U kunt een project uit een portfolio verwijderen en dit koppelen aa
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # Een project uit een portfolio verwijderen
+
+<!--Audited: 7/2024-->
 
 U kunt een project uit een portfolio verwijderen en dit koppelen aan een ander portfolio of u kunt de koppeling tussen een project en een portfolio volledig verwijderen.
 
@@ -21,7 +23,7 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,24 +31,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] of hoger</p> </td> 
+   <td> <p>Nieuw: alle</p>
+   <p>Huidig: [!UICONTROL Business] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nieuw: Standaard</p>
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL View] toegang tot Portfolio's of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL Edit] toegang tot Portfolio's</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het Portfolio voor het verwijderen van <br>[!UICONTROL Manage] -machtigingen voor projecten met [!UICONTROL Delete] toegang tot de projecten om deze uit het portfolio te verwijderen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio en de projecten om projecten te verwijderen</p>
+   <p>[!UICONTROL Manage] machtigingen met [!UICONTROL Delete] toegang tot de projecten om deze uit het portfolio te verwijderen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een project uit een portfolio verwijderen
 

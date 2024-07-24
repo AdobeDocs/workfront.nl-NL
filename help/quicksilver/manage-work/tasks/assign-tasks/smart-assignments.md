@@ -7,14 +7,16 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Overzicht van slimme toewijzingen
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Bij het beheren van taken en uitgaven kunt u slimme toewijzingen gebruiken om te bepalen wie de beste bron is om het werk te voltooien. De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst die op een algoritme worden gebaseerd dat het meest aangewezen middel voor de baan bepaalt. De slimme taken kunnen gebruikers, baanrollen, of teams zijn.
 
@@ -36,10 +38,10 @@ Dit artikel bevat algemene informatie over slimme toewijzingen. Voor informatie 
 
 Houd rekening met het volgende wanneer u werkt met slimme toewijzingen:
 
-* Het algoritme werkt onafhankelijk voor taken en kwesties. Dit betekent dat de lijst met voorgestelde gebruikers voor problemen kan afwijken van de lijst met voorgestelde gebruikers voor een taak, omdat Workfront de lijsten samenstelt op basis van criteria die betrekking hebben op problemen en taken afzonderlijk.
-* De slimme taken adviseren baanrollen of teams niet. In plaats daarvan zijn dit suggesties van gebruikers die het meest geschikt zijn om een taak of een probleem te voltooien.
-* De voorgestelde toewijzingen zijn altijd actieve gebruikers.
-* De eerst vermelde gebruiker zou de beste gelijke voor de taak moeten zijn.
+* <span class="preview"> het algoritme werkt onafhankelijk voor taken en kwesties. Dit betekent dat de lijst met voorgestelde gebruikers voor problemen kan afwijken van de lijst met voorgestelde gebruikers voor een taak, omdat Workfront de lijsten samenstelt op basis van criteria die betrekking hebben op problemen en taken afzonderlijk. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* De voorgestelde taken zijn altijd actieve gebruikers, baanrollen, of teams.
+* De bron die eerst wordt vermeld zou de beste gelijke voor de taak moeten zijn.
 
 ## Suggesties voor slimme toewijzingen zoeken
 
@@ -51,11 +53,11 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Een taaklijst of rapport in de kolom van Taken
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * Een taakkoptekst in het veld Toewijzingen
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * Een uitgiftekop in het veld Toewijzingen
 
@@ -67,7 +69,7 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Het gebied van Toewijzingen in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Werklastverdeling in het gedeelte Toegewezen aan als u een taak of uitgave toewijst
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Criteria voor slimme toewijzingen
@@ -86,11 +88,13 @@ Slimme toewijzingen werken anders voor taken dan voor problemen.
 
 ### Slimme toewijzingscriteria voor taken
 
-De taak slimme toewijzingsberekening werkt in twee fasen die twee verschillende algoritmen gebruiken.
+De taak slimme toewijzingsberekening werkt in <span class="preview"> twee fasen die twee verschillende algoritmen gebruiken.</span>
 
-Afhankelijk van welk algoritme de slimme taak vindt, worden de taken vermeld onder twee afzonderlijke secties in het gebied van Taken. Voor informatie, zie [ Slimme taken van het Merk ](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview"> Afhankelijk van welk algoritme de slimme taak vindt, zijn de taken vermeld onder twee afzonderlijke secties op het gebied van Taken.</span> voor informatie, zie [ Slimme taken ](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md) maken.
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### Eerste fase van berekening van slimme toewijzing voor taken
 
@@ -127,6 +131,8 @@ Bij de berekening van de score op basis van gelijkenis en de volgorde waarin de 
 * In deze fase geïdentificeerde toewijzingen worden vermeld in de    **stelde de 1} sectie van taken {van de taken {van het gebied van Toewijzingen voor taken voor.**
 
 * Als er geen gelijken gebruikend deze berekening zijn, begint de tweede fase van slimme taken die gebruikend een verschillend algoritme wordt berekend.
+
+</div>
 
 #### Tweede fase van berekening van slimme toewijzing voor taken
 

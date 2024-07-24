@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '7473'
+source-wordcount: '7513'
 ht-degree: 0%
 
 ---
@@ -242,11 +242,17 @@ Voor informatie over het creëren van een project van een malplaatje, zie [ een 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> Een portfolio maken </a> voor meer informatie over het maken van portfolio's.</td> 
+         <td>Geef een Portfolio aan waartoe het project behoort. U moet eerst een Portfolio maken voordat het in de vervolgkeuzelijst wordt weergegeven. Alleen actieve portfolio's kunnen aan een project worden gekoppeld. Zie <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref"> Een portfolio maken </a> voor meer informatie over het maken van portfolio's.
+         <p><b>OPMERKING</b></p>
+         <p>U moet over beheerdersmachtigingen voor het portfolio beschikken om het aan het project toe te voegen of te verwijderen.</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programma</strong></td> 
-         <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Voor meer informatie over het creëren van programma's, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> </td> 
+         <td> <p>Als u een Portfolio voor het project selecteerde, specificeer een Programma voor het project. Sommige Portfolio's hebben mogelijk geen programma's. U moet eerst een programma maken voordat het in deze vervolgkeuzelijst wordt weergegeven. Alleen actieve programma's kunnen aan een project worden gekoppeld. </p> <p>Voor meer informatie over het creëren van programma's, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> 
+      <p><b>OPMERKING</b></p>
+         <p>U moet over beheerdersmachtigingen voor het programma beschikken om het aan het project toe te voegen of te verwijderen.</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Groep</strong></td> 

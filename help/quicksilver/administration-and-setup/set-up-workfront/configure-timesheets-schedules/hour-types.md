@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Er zijn twee reeksen uurtypes:
   >
   >Als u om het even welke project-specifieke uurtypes in uw [!DNL Workfront] systeem toelaat, moet minstens één project-specifiek uurtype op elk project in uw systeem worden toegelaten. U kunt geen project-specifiek uurtype op het systeemniveau toelaten, en geen project-specifieke uurtypes hebben beschikbaar op het projectniveau.
 
-* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend. Voor meer informatie over logboektijd, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **de Types van Uur van 0} Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
+
+Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Toegangsvereisten
 

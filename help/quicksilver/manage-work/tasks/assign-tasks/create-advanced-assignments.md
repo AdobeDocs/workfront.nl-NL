@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Geavanceerde toewijzingen maken
+
+<!-- Audited: 07/2024-->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten, of in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+
+<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 U kunt taken beheren of taken uitgeven door Geavanceerde Toewijzingen te gebruiken.
 
@@ -92,7 +100,7 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
 
 1. Klik **Geavanceerd**.
 
-   ![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)
+   <span class="preview">![ klik Geavanceerde ](assets/assignments-box-in-task-header.png)</span>
 
 1. Op de **mensen van het Onderzoek, de rol en het teamgebied**, begin de naam van een gebruiker, een rol, of een team te typen dan de naam te klikken wanneer het in de drop-down lijst verschijnt.
 
@@ -138,15 +146,10 @@ Bovendien kunt u geavanceerde toewijzingen maken in de volgende gebieden van Wor
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * Nadat u de toewijzing van taken handmatig hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Voor meer informatie, zie de sectie &quot;de taak Geplande Uren van de Update wanneer het beheren van gebruikerstoewijzingen&quot;in het artikel [ Geplande overzicht van Uren ](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * U kunt toewijzingen niet handmatig wijzigen bij uitgaven.
      >   * U kunt toewijzingen voor teams die aan taken zijn toegewezen niet handmatig wijzigen.
-     >   
-     >
 
    * **Rol van de Ontvanger:** selecteer de rol de gebruiker zou moeten gebruiken wanneer het vervullen van deze taak.  Standaard wordt de primaire rol van de gebruiker weergegeven. Klik in het vak Rol van de ontvanger om een andere rol te selecteren.  Wanneer u eerst de taak of de kwestie aan een rol toewijst, en dan een gebruiker toevoegt die die rol als tweede taak kan vervullen, wordt de lijst van voorgestelde gebruikers gefiltreerd voor de gebruikers die de rollen kunnen vervullen die reeds aan de taak en de kwestie worden toegewezen.
 

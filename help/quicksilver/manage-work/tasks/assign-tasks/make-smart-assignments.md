@@ -6,7 +6,7 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 <span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 U kunt slimme toewijzingen gebruiken om te bepalen wie de beste gebruiker het werk moet voltooien.
 
 De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Workfront aan u voorstelt wanneer u het werkpunten aan middelen toewijst. Workfront baseert zijn suggesties op een algoritme dat de meest aangewezen bron voor de baan bepaalt.
 
-Er zijn twee aparte algoritmen in Workfront die slimme toewijzingen berekenen die verschillend werken voor taken en voor problemen.
+<span class="preview"> er zijn twee afzonderlijke algoritmen in Workfront die slimme taken berekenen die verschillend voor taken en voor kwesties werken.</span>
 
-Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Toegangsvereisten
 
@@ -75,7 +75,7 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    * Een taak- of uitgiftenlijst of rapport
    * Een taak- of uitgiftekoptekst
    * Het deelvenster Overzicht van taken of uitgaven
-   * Een nieuwe Taak of het Nieuwe vakje van de Uitgave, aangezien u een nieuwe taak of een kwestie aan een project toevoegt
+   * <span class="preview"> Een Nieuwe Taak </span> of Nieuwe doos van de Uitgave, aangezien u <span class="preview"> een nieuwe taak </span> of een kwestie aan een project toevoegt
    * Het veld Toewijzingen voor een item dat wordt vermeld in het gebied Home
    * Een taak of probleem in het werklastevenwicht
 
@@ -90,14 +90,14 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
 
    Voor taken worden de slimme toewijzingen weergegeven in de volgende secties, afhankelijk van de fase van de berekening van het algoritme waarin de toewijzingen zijn geïdentificeerd:
 
-   * **Voorgestelde taken**: De taken van vertoningen die in de eerste fase van het taak slimme toewijzingsalgoritme worden geïdentificeerd.
+   * <span class="preview">**Voorgestelde taken**: De taken van vertoningen die in de eerste fase van het taak slimme toewijzingsalgoritme worden geïdentificeerd.</span>
    * **Gebruikers en teams**, **de rollen van de Baan**, of <span class="preview">**de baanrollen van de kaart van het Tarief**</span>: Taken die in de tweede fase van de het algoritmeberekening van de taak slimme taak worden geïdentificeerd.
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-1. Selecteer de gebruiker in de lijst met aanbevelingen door op de gewenste naam te klikken.
+1. Selecteer de bron in de lijst met aanbevelingen door op de naam ervan te klikken.
 
 1. (Facultatief) klik **toewijzen aan me** om het het werkpunt aan zich toe te wijzen.
 

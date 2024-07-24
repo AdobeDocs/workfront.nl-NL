@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3551'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilve
 
 U kunt de tijd vastleggen via de mobiele app van Workfront.
 Voor meer informatie, zie [ Adobe Workfront voor Android ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) of [ Adobe Workfront voor iOS ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Aangemeld uren bewerken in lijsten en rapporten
+
+U kunt de aangemelde uren bewerken in de volgende gebieden:
+
+* Alle gebieden waar u de uren hebt toegevoegd, inclusief open tijdbladen
+* Uur lijsten en rapporten.
+
+U kunt de volgende elementen van een uuringang uitgeven wanneer u een uuringang in een lijst of een rapport uitgeeft:
+
+* Aantal uren
+* Uurtype
+* De rol van de baan verbonden aan de ureningang
+
+Afhankelijk van het type uren dat u bewerkt, zijn de volgende velden beschikbaar voor bewerking:
+
+* Wanneer u projectspecifieke uren uitgeeft:
+
+   * U kunt het aantal uren bewerken.
+   * U kunt het Type van Uur slechts in project-specifieke types veranderen.
+   * U kunt de roltoewijzing van de Rol van het uur slechts veranderen als het in Opstelling werd toegelaten. Voor informatie, zie [ timesheet en uurvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen
+
+* Wanneer u algemene uren bewerkt:
+
+   * U kunt het aantal uren bewerken.
+   * U kunt het Type van Uur slechts in algemene types veranderen.
+   * U kunt de roltoewijzing van de Rol van het uur niet veranderen, omdat de algemene uren niet met rollen kunnen worden geassocieerd.
+
+* Wanneer u een mengeling van algemene en projectspecifieke uren uitgeeft, in bulk:
+
+   * U kunt het aantal uren bewerken.
+   * U kunt het Type van Uur niet veranderen, omdat de types van algemene uren niet in project-specifieke types kunnen worden veranderd en de project-specifieke uurtypes kunnen niet in algemene types worden veranderd.
+   * U kunt de taakroltoewijzing niet wijzigen, omdat algemene uren niet aan rollen kunnen worden gekoppeld.

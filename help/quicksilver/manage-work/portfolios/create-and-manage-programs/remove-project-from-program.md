@@ -6,9 +6,9 @@ description: Wanneer u het niet meer nodig hebt, kunt u een project uit een prog
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -25,34 +25,35 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nieuw: Standaard</p> 
+   <p>Huidig: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's, programma's en projecten</p> <p>U moet [!UICONTROL Delete] toegang tot Projecten hebben om projecten te schrappen.</p> <p><b> OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot Portfolio's, programma's en projecten</p> <p>U moet [!UICONTROL Delete] toegang tot Projecten hebben om projecten te schrappen.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio, het programma en het project</p> <p>U moet [!UICONTROL Delete] machtigingen voor het project hebben om het te verwijderen. </p> <p>Nadat u een programma hebt gemaakt, hebt u er standaard [!UICONTROL Manage] machtigingen voor.</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio, het programma en het project</p> <p>U moet [!UICONTROL Delete] machtigingen voor het project hebben om het te verwijderen. </p> <p>Nadat u een programma hebt gemaakt, hebt u er standaard [!UICONTROL Manage] machtigingen voor.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+
++++
 
 ## Een project verwijderen uit een programma
 

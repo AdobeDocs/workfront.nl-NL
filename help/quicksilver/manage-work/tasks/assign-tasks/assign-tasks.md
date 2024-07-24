@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
-<span class="preview"> voor informatie over de huidige versie, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> voor informatie over de huidige versie, zie [ Vierde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 U kunt taken aan gebruikers, baanrollen, of teams toewijzen om erop te wijzen wie voor de voltooiing van de taken verantwoordelijk is. U kunt een taak aan meer dan één middel tegelijkertijd toewijzen.
 
@@ -55,6 +55,8 @@ Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer inform
 * [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Toegangsvereisten
+
+<!-- Audited: 07/2024-->
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview"> wanneer het toevoegen van een taak roltoewijzing, kunt u naar de baanrol of de plaats zoeken. Selecteer een rol van de rollijst van de Baan om het standaardfactureringspercentage voor de taak te gebruiken, of een de baanrol van de Kaart van het Tarief te selecteren om het facturerings tarief van de tariefkaart te gebruiken. Voor meer informatie over tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Voorwaardelijk) klik één van de namen in de **Voorgestelde taken**, **Gebruiker en teams**, of **de rollen van de Baan**, of <span class="preview">**lijst van de kaartrollen van het Tarief**</span> wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Voorwaardelijk) klik één van de namen in de <span class="preview">**Voorgestelde taken**</span>, **Gebruiker en teams**, of **de rollen van de Baan**, of <span class="preview">**lijst van de kaartrollen van het Tarief**</span> wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      U kunt de naam typen van een gebruiker, team of taakrol die u wilt toewijzen aan de taak, en deze vervolgens selecteren wanneer deze wordt weergegeven in de lijst.
 

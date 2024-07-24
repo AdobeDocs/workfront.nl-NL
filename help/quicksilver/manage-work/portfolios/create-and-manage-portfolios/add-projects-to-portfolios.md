@@ -6,7 +6,7 @@ description: We raden u aan projecten aan portfolio's toe te voegen wanneer u de
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -33,8 +33,9 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Nieuw: alle</p>
+   <p>Huidig:[!UICONTROL Business] of hoger</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
@@ -42,12 +43,12 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
    <p>Huidig:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL View] toegang tot Portfolio's of hoger</p> <p>[!UICONTROL Edit] toegang tot projecten</p> </td> 
+   <td role="rowheader">Toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] Portfolio's voor toegang</p> <p>[!UICONTROL Edit] toegang tot projecten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] machtigingen voor het portfolio</p> <p>[!UICONTROL Manage] machtigingen voor de projecten</p>  </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>[!UICONTROL Manage] machtigingen voor de projecten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
