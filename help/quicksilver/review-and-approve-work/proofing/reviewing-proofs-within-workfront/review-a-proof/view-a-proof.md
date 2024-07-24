@@ -6,16 +6,25 @@ description: Leer hoe u inhoud in een proefdruk kunt weergeven.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # Inhoud weergeven in een proefdruk
 
+Met de proefdrukviewer kunt u bestanden weergeven en markeren in Workfront.
+
+>[!NOTE]
+>
+>Als uw Workfront-instantie zich op de Unified Experience bevindt, wordt de proefdrukviewer geopend op een nieuw tabblad.
+
+
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## De weergave van de proefdruk wijzigen
 

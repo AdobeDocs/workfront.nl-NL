@@ -6,9 +6,9 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 | Met een &quot;bedrijfsswitch&quot; kunt u schakelen tussen [!DNL Workfront] organisaties en omgevingen | De &quot;organisatieschakeloptie&quot; is niet beschikbaar |
 | Navigatie omvat een navigatiegebied op hoofdniveau voor [!DNL Adobe] -producten, [!DNL Adobe] -meldingen, Help en uw gebruikersprofiel, naast de navigatiebalk van [!DNL Workfront] | Navigatie bevat alleen de navigatiebalk van [!DNL Workfront] |
 | De Help is toegankelijk via het navigatiegebied [!UICONTROL Main Menu] en boven. | De Help is toegankelijk via de navigatiebalk [!UICONTROL Main Menu] en [!DNL Workfront] |
+| De proefdrukviewer wordt geopend op een nieuw tabblad | De proefdrukviewer wordt geopend in Workfront |
 
 {style="table-layout:auto"}
 
