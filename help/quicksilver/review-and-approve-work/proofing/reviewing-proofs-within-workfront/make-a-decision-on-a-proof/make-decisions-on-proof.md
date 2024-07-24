@@ -2,22 +2,24 @@
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Beslissen op een bewijs in de professionele drukker
-description: U kunt een beslissing over een bewijs rechtstreeks in de proefdrukviewer nemen.
+description: U kunt een beslissing over een proefdruk rechtstreeks in de proefdrukviewer nemen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# Beslissen op een bewijs in de proefdrukviewer
+# Beslissen op een bewijs in de professionele drukker
 
-U kunt een beslissing over een bewijs rechtstreeks in de proefdrukviewer nemen.
+U kunt een beslissing over een proefdruk rechtstreeks in de proefdrukviewer nemen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -31,7 +33,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig abonnement: Werk of Plan</p> <p>Verouderd abonnement: Alle (proefdrukken moeten zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -50,12 +52,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
++++
+
 ## Beslissen op een bewijs in de professionele drukker
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
-1. Vind het bewijs u nodig hebt, dan klik **Open proef**.
+1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
-1. Klik **maak Beslissing** bij het hoogste-centrum van de het proef kijker.
+1. Klik **maken Beslissing** bij het hoogste centrum van de het proef kijker.
 
 1. In de **doos van het besluit van het Bewijs** die verschijnt, klik één van de volgende besluiten:
 
@@ -81,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste beslissing</td> 
-      <td> <p>Bij de lidmaatschappen Selecteren en Premium kan de Workfront-beheerder of de Workfront Proof-beheerder de namen van beslissingen wijzigen, de volgorde ervan wijzigen en beslissingen verbergen. Voor meer informatie, zie <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref"> opties van het goedkeuringsbesluit in Workfront Proof </a> vormen.</p> </td> 
+      <td> <p>Bij Select- en Premium-plannen kan de Workfront-beheerder of Workfront Proof-beheerder de namen van beslissingen wijzigen, de volgorde ervan wijzigen en beslissingen verbergen. Voor meer informatie, zie <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref"> de opties van het goedkeuringsbesluit in Workfront Proof </a> vormen.</p> </td> 
      </tr> 
     </tbody> 
    </table>

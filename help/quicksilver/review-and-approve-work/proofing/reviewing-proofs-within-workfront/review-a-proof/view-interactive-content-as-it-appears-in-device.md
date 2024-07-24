@@ -6,9 +6,9 @@ description: U kunt een voorvertoning weergeven van de weergave van een interact
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 U kunt een voorvertoning weergeven van de weergave van een interactieve proefdruk op verschillende apparaten, zodat u kunt zien hoe inhoud wordt weergegeven en hoe hierop wordt gereageerd op basis van verschillende resoluties.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,6 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+
++++
 
 ## Weergaven apparaat en resolutie in Desktop Proofing Viewer versus Web Proofing Viewer
 

@@ -6,9 +6,9 @@ description: Soms worden nieuwe software-updates met verbeteringen en foutoploss
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: d058009af82c201cc5584cf4a1e8d3a5ec0a0cc9
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Soms worden nieuwe software-updates met verbeteringen en foutoplossingen beschik
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -31,8 +33,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd lidmaatschap: selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
@@ -40,6 +42,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 
@@ -49,11 +53,11 @@ De Desktop Proofing Viewer controleert automatisch op updates wanneer deze wordt
 
 Handmatig controleren op updates:
 
-1. Voor een Mac, klik **Workfront Proof** > **Ongeveer Workfront Proof** in de navigatiebar van Apple boven de Desktop het Proofing Kijker. 
+1. Op een Mac, klik **Workfront Proof** > **Ongeveer Workfront Proof** in de navigatiebar van Apple boven de Desktop het Proofing Kijker. 
 
-   Of
+   of
 
-   In Vensters, klik **Venster** > **Ongeveer Workfront Proof** in de menubar boven de Desktop Proofing Kijker.
+   In Vensters, klik **Venster** > **Ongeveer Workfront Proof** in de menubar boven de Desktop het Proofing Kijker.
 
    De Desktop Proofing Viewer controleert op updates.
 
@@ -67,9 +71,9 @@ De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voo
 
    De updates worden gedownload.
 
-1. Klik **opnieuw beginnen.**
+1. Klik **opnieuw opstarten.**
 
-   De **Desktop Proofing Kijker** herstelt en u kunt het werk aan uw proef hervatten.
+   De **Desktop Proofing Kijker** opnieuw lanceert en u kunt het werk op uw bewijs hervatten.
 
 ## Vereiste updates
 

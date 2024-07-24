@@ -6,9 +6,9 @@ description: Met opmerkingen kunt u feedback geven op inhoud en samenwerken met 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Wanneer gebruikers worden gelabeld in opmerkingen op een proefdruk, kunnen de ge
 * Als u als externe gebruiker aan de proefdruk bent toegevoegd en u lid bent van een andere omgeving met een andere proefdrukaccount, kunt u alleen die gebruikers van uw oorspronkelijke omgeving een tag toewijzen. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +57,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
 
++++
+
 ## Opmerking over een proefdruk
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
@@ -78,17 +82,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong> Draw a freehand lijn </strong> </td> 
+      <td role="rowheader"><strong> trek een vrije lijn </strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Hiermee kunt u een vrije lijn toevoegen aan het geselecteerde gebied.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Draw a lijn </strong> </td> 
+      <td role="rowheader"><strong> trek een lijn </strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Hiermee kunt u een lijn tekenen in het geselecteerde gebied.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Draw een pijl </strong> </td> 
+      <td role="rowheader"><strong> trek een pijl </strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Hiermee kunt u een pijl toevoegen aan een gebied dat u selecteert.</td> 
      </tr> 
@@ -98,7 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td>Hiermee markeert u het gebied dat u selecteert.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Draw a rectangle </strong> </td> 
+      <td role="rowheader"><strong> trek een rechthoek </strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Hiermee tekent u een rechthoek rond een gebied.</td> 
      </tr> 
