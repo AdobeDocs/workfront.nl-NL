@@ -7,7 +7,7 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/smart-assignments-issue-list.png)
 
-* Een taaklijst of rapport in de kolom van Taken
+* <span class="preview"> de taaklijst of het rapport van A in de kolom van Taken </span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* Een taakkoptekst in het veld Toewijzingen
+* <span class="preview"> de taakkopbal van A op het gebied van Taken </span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Een uitgiftekop in het veld Toewijzingen
 
@@ -67,9 +67,9 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* Het gebied van Toewijzingen in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project
+* <span class="preview"> het gebied van Taken in de Nieuwe doos van de Taak, wanneer het toevoegen van een taak aan een project </span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Werklastverdeling in het gedeelte Toegewezen aan als u een taak of uitgave toewijst
+* <span class="preview"> de Balancer van de Werkbelasting in Toegewezen dit aan gebied wanneer u een taak of een kwestie </span> toewijst
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteria voor slimme toewijzingen
