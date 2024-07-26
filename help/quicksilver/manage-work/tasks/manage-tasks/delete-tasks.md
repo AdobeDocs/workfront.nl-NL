@@ -6,9 +6,9 @@ description: U kunt taken verwijderen die mogelijk duplicaten zijn of die ten on
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van 
    1. (Voorwaardelijk) wanneer **Autosave** knevel wordt toegelaten:
 
       1. Selecteer de taken u wilt schrappen, dan klikken **Meer**
-      1. Klik **Schrapping**, dan **ja, schrap het** om de schrapping te bevestigen.
+      1. Klik **Schrapping**, dan **Schrapping** om de schrapping te bevestigen.
 
          De taken worden verwijderd.
 
@@ -149,7 +149,7 @@ Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van 
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Klik **Taak van de Schrapping**.
-1. Als de schrapping wordt toegestaan, klik ja **, schrap het**.
+1. Als de schrapping wordt toegestaan, klik **Schrapping**.
 
    Uw Workfront-beheerder of groepsbeheerder staat mogelijk niet toe dat taken worden verwijderd waarvoor uren zijn geregistreerd.
 
