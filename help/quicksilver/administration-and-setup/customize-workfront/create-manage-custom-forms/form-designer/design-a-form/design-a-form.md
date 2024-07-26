@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6090'
 ht-degree: 0%
 
 ---
@@ -538,7 +538,6 @@ Voor voorbeelden om het Externe gebied van de Opzoekopdracht te gebruiken om de 
 
 >[!NOTE]
 >
->* De functionaliteit voor externe opzoekopdrachten wordt momenteel niet ondersteund in aangepaste documentformulieren.
 >* Externe opzoekvelden van aangepaste formulieren worden momenteel niet ondersteund in dashboards. U kunt de veldwaarde niet inline bewerken en deze wordt mogelijk niet correct weergegeven in een dashboard. (Externe opzoekvelden worden ondersteund in Canvasdashboards.)
 >* Externe opzoekvelden worden niet ondersteund in de Outlook-insteekmodule.
 >* Externe opzoekvelden zijn beschikbaar in lijsten, tenzij het veld afhankelijk is van een ander veld.
