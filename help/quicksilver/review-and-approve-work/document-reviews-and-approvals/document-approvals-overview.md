@@ -6,9 +6,9 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Goedkeuring van nieuwe documenten is een volledig herontwerp van het bestaande g
 
 ## Belangrijke verschillen van proefdrukken en goedkeuring van oudere documenten
 
-**het Bewijs**
+**Verschillen van het Bewijzen**
 
 * De beslissingsknoppen voor documentgoedkeuring zijn niet beschikbaar in de proefdrukviewer. Besluiten kunnen worden genomen in de documentoverzicht, de Workfront Home-widgets of op de pagina Documentdetails.
 * Deelnemers aan documentgoedkeuring worden weergegeven in het overzicht van het document, niet op het tabblad voor de proefwerkstroom.
@@ -34,13 +34,17 @@ Goedkeuring van nieuwe documenten is een volledig herontwerp van het bestaande g
    * Goedkeuringen in behandeling
    * Achterstallige betalingen
 
-**Erfenis documentgoedkeuringen**
+**Verschillen van de goedkeuringen van het document van de Oudheid**
 
-* Naast fiatteurs kunt u ook revisoren toevoegen.
-* U kunt een geheel Workfront-team aanwijzen als revisor of fiatteur.
-* U kunt een deadline voor de revisie of goedkeuring instellen.
-* U kunt goedkeuringssjablonen maken en opnieuw gebruiken.
-* U kunt meerdere prestatiekernindicatoren voor uw goedkeuring bekijken in Workfront Home-widgets.
+Met nieuwe documentgoedkeuringen kunt u
+
+* Revisoren toevoegen naast fiatteurs
+* Een volledig Workfront-team aanwijzen als revisor of fiatteur
+* Een deadline voor de revisie of goedkeuring instellen
+* Goedkeuringssjablonen maken en opnieuw gebruiken
+* Nieuwe versies gebruiken voor
+* Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
+* Canvasdashboards gebruiken om rapportgegevens over goedkeuringen voor nieuwe documenten weer te geven
 
 ## Goedkeuringen van nieuwe documenten gebruiken
 
