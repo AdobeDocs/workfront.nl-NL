@@ -6,9 +6,9 @@ description: U kunt in Adobe Creative Cloud-toepassingen blijven en uw werk naad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ U kunt in de volgende [!DNL Adobe Creative Cloud] -toepassingen blijven en uw we
 {{cc-app-list}}
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+
++++
 
 ## Vereisten
 

@@ -6,9 +6,9 @@ description: Zoek het werk dat in Adobe Workfront aan u is toegewezen zonder Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Zoek het werk dat in [!DNL Adobe Workfront] aan u is toegewezen zonder de volgen
 {{cc-app-list}}
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+
++++
 
 ## Vereisten
 

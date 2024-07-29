@@ -6,10 +6,10 @@ description: U kunt uw werk bijwerken met de Adobe Workfront-insteekmodule.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,9 @@ U kunt uw werk bijwerken vanuit de volgende [!DNL Adobe Creative Cloud] -toepass
 
 {{cc-app-list}}
 
-
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,11 +52,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
++++
+
 ## Vereisten
 
 {{cc-install-prereq}}
 
-## Post een update
+## Een update verzenden
 
 U kunt uw werk bijwerken vanuit een van de volgende gebieden in de plug-in:
 

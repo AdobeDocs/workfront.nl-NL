@@ -6,9 +6,9 @@ description: U kunt berichten in Adobe Creative Cloud van  [!DNL Adobe Workfront
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
 
 ## Toegangsvereisten
 
-&lt;U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,6 +51,8 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+
++++
 
 ## Vereisten
 
