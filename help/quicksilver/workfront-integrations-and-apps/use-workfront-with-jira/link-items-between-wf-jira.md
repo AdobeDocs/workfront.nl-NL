@@ -6,9 +6,9 @@ description: U kunt  [!DNL Jira]  kwesties aan  [!DNL Adobe Workfront]  taken of
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ Voor meer informatie over het bijwerken van verbonden punten, zie [ Gekoppelde p
 [!DNL Jira] -uitgaven handmatig koppelen aan [!DNL Workfront] -items:
 
 1. (Voorwaardelijk) Meld u aan bij [!DNL Workfront] en zoek een probleem of een taak die u wilt koppelen aan [!DNL Jira] -probleem.
-1. (Voorwaardelijk) van de adresbar van het punt, kopieer **URL** van het punt in Workfront.
+1. (Voorwaardelijk) Kopieer vanuit het gebied [!UICONTROL Details] de **[!UICONTROL Reference Number]** van het item in Workfront.
 
    of
 
-   Kopieer vanuit het gebied [!UICONTROL Details] de **[!UICONTROL Reference Number]** van het item in Workfront.
+   Van de adresbar van het punt, kopieer **URL** van het punt in Workfront.
+
+   >[!IMPORTANT]
+   >
+   >Als uw organisatie aan de Adobe Verenigde Ervaring is bezet, moet u het **Aantal van de Verwijzing** gebruiken voor het verbinden van de punten van Workfront met Jira. (De optie URL is beschikbaar, maar er wordt een fout geretourneerd als u deze optie gebruikt.) Voor informatie over de Verenigde Ervaring, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >
+   >Voor organisaties niet op de Adobe Verenigde Ervaring, wordt het geadviseerd om de optie te gebruiken URL omdat URLs kan veranderen.
 
    >[!NOTE]
    >
    >U moet een [!DNL Workfront] -licentie hebben om u aan te melden bij [!DNL Workfront] . Anders moet een [!DNL Workfront] -gebruiker deze informatie aan u verstrekken.
 
 1. Navigeer in [!DNL Jira] naar een uitgave die u handmatig wilt koppelen aan het [!DNL Workfront] -item.
-1. In het [!DNL Workfront] juiste paneel, kleef **URL** of **[!UICONTROL Reference Number]** van het [!DNL Workfront] punt dat u aan het wilt verbinden.
+1. In het [!DNL Workfront] juiste paneel, kleef **[!UICONTROL Reference Number]** of **URL** van het [!DNL Workfront] punt dat u aan het wilt verbinden.
 
 1. Klik op **[!UICONTROL Link]**.
 
