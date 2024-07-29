@@ -7,20 +7,20 @@ description: U kunt gebruikers toevoegen aan organisaties in Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
+source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
-# Een gebruiker toevoegen aan een organisatie in Adobe Workfront Fusion
+# Een gebruiker toevoegen aan een organisatie of team in Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!DNL Adobe Admin Console] . Als uw organisatie is aangemeld bij de [!DNL Adobe Admin Console] , moet u deze handeling uitvoeren via de [!DNL Adobe Admin Console] .
 >
->Voor instructies bij het toevoegen van een gebruiker in [!DNL  Adobe Admin Console], zie de sectie &quot;geef gebruikersdetails&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) uit of contacteer uw [!UICONTROL Adobe Admin Console] Beheerder.
+>Voor instructies bij het toevoegen van een gebruiker nadat uw organisatie aan [!DNL  Adobe Admin Console] en de Adobe Verenigde Ervaring is bewogen, zie [ gebruikers aan  [!DNL Adobe Workfront Fusion]  door  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) toevoegen.
 >
 >Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (het Bedrijfs Platform van de Fusie van Adobe Workfront/Adobe) ](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
@@ -100,13 +100,65 @@ Een gebruiker toevoegen aan de organisatie:
 
 1. Ga naar **[!UICONTROL Organizations]** in het menu en selecteer de organisatie waaraan u een gebruiker wilt toevoegen.
 1. Open de tab **[!UICONTROL Users]** in het dashboard.
-1. Klik op **[!UICONTROL Invite a new user]**, vul het formulier in (E-mail, Bericht, Rol) en verzend de uitnodiging door op **[!UICONTROL Send]** te klikken.
+1. Klik op **[!UICONTROL Invite a new user]** en verzend de uitnodiging door op **[!UICONTROL Send]** te klikken.
 
->[!NOTE]
->
->   
->Als de knop [!UICONTROL Invite a new user] niet wordt weergegeven, is uw organisatie aangemeld bij de [!DNL Adobe Business Platform.]
->
->  Voor instructies bij het toevoegen van een gebruiker aan een organisatie die aan [!DNL Adobe Business Platform] is bezet, zie [ gebruikers aan  [!DNL Adobe Workfront Fusion]  door  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) toevoegen
+   >[!NOTE]
+   >
+   >   
+   >Als de knop [!UICONTROL Invite a new user] niet wordt weergegeven, is uw organisatie aangemeld bij de [!DNL Adobe Business Platform.]
+   >
+   >  Voor instructies bij het toevoegen van een gebruiker aan een organisatie die aan [!DNL Adobe Business Platform] is bezet, zie [ gebruikers aan  [!DNL Adobe Workfront Fusion]  door  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) toevoegen
+
+1. Vul het formulier in.
+
+   <table style="table-layout:auto">
+<col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Email address]</td>
+      <td>
+        Voer het e-mailadres van de gebruiker in
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>
+        <p>Voer de volledige naam van de gebruiker in</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Role] </td>
+      <td>Selecteer de gebruikersrol. Voor verklaring van rollen, zie <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md"> Organisatie en teamrollen.</a></p>
+   </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Teams</td>
+      <td>Selecteer alle teams waarvan u wilt dat de gebruiker lid is.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Opmerking</td>
+      <td>Voer een notitie in voor de gebruiker. Deze notitie wordt weergegeven in de e-mail met de uitnodiging van de gebruiker.</td>
+    </tr>
+  </tbody>
+</table>
 
 De gebruiker ontvangt een e-mailuitnodiging waarin hij of zij de uitnodiging kan accepteren.
+
+## Een gebruiker toevoegen aan een team
+
+Uw gebruikers worden toegewezen aan teams wanneer u hen creeert. Als een bestaande gebruiker aan een team moet worden toegevoegd, kunt u hen op de pagina van de Gebruikers van het team toevoegen.
+
+Het toevoegen van een gebruiker aan een team wordt behandeld van de pagina voor dat team.
+
+1. Ga naar het team u de gebruiker aan wilt toevoegen door **Organisaties** in het linkerpaneel te selecteren, het **lusje van Teams** op de organisatiepagina te klikken, en het team te selecteren.
+
+   of
+
+   Als u op de pagina voor een ander team bent, klikt u op de vervolgkeuzelijst voor het team boven aan de pagina.
+
+1. Voor de pagina van het Team (met de teamnaam bij de bovenkant van de pagina), selecteer de **Gebruikers** tabel.
+1. Zoek de gebruiker op de pagina. Gebruikers in uw organisatie verschijnen op deze pagina, zelfs als zij geen lid van het team zijn.
+1. Klik **niets** rechts van de naam van de gebruiker, dan selecteer de rol u hen op het team wilt hebben.
+
+De gebruiker wordt toegevoegd aan het team.

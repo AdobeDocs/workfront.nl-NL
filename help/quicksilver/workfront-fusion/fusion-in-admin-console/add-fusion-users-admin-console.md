@@ -8,9 +8,9 @@ description: U kunt een gebruiker toevoegen aan de Adobe Admin Console en deze t
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,6 @@ Voor instructies, zie [ Mening of geef gebruikersrollen ](../organizations/manag
 
 ## Bestaande gebruikers toewijzen in de [!DNL Adobe Admin Console] aan [!DNL Workfront Fusion]
 
-1. Begin het uitgeven van de gebruiker zoals die in de &quot;uitgeef gebruikersdetails&quot;sectie van het artikel [ wordt beschreven individuele gebruikers ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) in de [!DNL Adobe Admin Console] documentatie leidt.
+U kunt een bestaande gebruiker aan een team in Fusion toevoegen. Dit wordt afgehandeld in Fusion.
 
-1. Voeg **[!DNL Adobe Workfront Fusion]** toe aan de producten die aan de gebruiker zijn toegewezen.
+Voor instructies, zie [ een gebruiker aan een team ](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) in het artikel toevoegen een gebruiker aan een organisatie of een team in de Fusie van Adobe Workfront.
