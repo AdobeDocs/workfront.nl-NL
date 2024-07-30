@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ Wanneer iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u zowel
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<!--ensure this is truly 'Any' license when we go to GA-->
+
++++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
 <table style="table-layout:auto">
  <col>
@@ -80,6 +82,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr>
  </tbody>
 </table>
+
++++
 
 ## Meldingsvoorkeuren beheren
 

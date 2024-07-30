@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
 
 <table style="table-layout:auto">
  <col>
@@ -87,9 +87,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody>
 </table>
 
-
-
-
++++
 
 
 <!--Maybe enable this at GA - but Workfront Planning is not supposed to have Access controls in the Workfront Access Level: 

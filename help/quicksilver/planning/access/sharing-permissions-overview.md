@@ -1,12 +1,12 @@
 ---
 title: Overzicht van het delen van machtigingen in Adobe Workfront Planning
-description: U kunt machtigingen delen of verwijderen in een werkruimte of weergave van de Adobe Workfront-planning.
+description: U kunt machtigingen delen of verwijderen in een Adobe Workfront-werkruimte of -weergave voor planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -41,14 +41,14 @@ U kunt de volgende objecten delen:
 
 * Weergaven
 
-  U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten. Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
+   * U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten. Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+     <!--move the link above to the end of this section-->
 
 U kunt een werkruimte of een weergave delen met de volgende entiteiten:
 
 * Gebruikers
 * Groepen
-
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 
 ## Overwegingen bij het delen van objecten in Adobe Workfront Planning
 
@@ -60,6 +60,14 @@ U kunt een werkruimte of een weergave delen met de volgende entiteiten:
 * U kunt een koppeling naar een werkruimte of naar een weergave delen met anderen.
 
   Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte of de pagina met recordtypen die wordt weergegeven in de geselecteerde weergave.
+
+  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
+    The following scenarios exist:
+        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+        * Users who receive the link to a view can access the view in the following ways: 
+        
+            * Must be active users and log in to Workfront
+            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
 
 ## Machtigingen delen voor Adobe Workfront Planning-objecten
 
@@ -110,9 +118,9 @@ Hieronder vindt u de machtigingsniveaus voor recordtypen:
 
 ### Machtigingen opnemen
 
-De machtigingen voor opnamen worden overgeërfd wanneer u machtigingen verleent aan de werkruimte.
+De toestemmingen van het verslag worden geërft wanneer u toestemmingen aan de werkruimte verleent.
 
-Hier volgen de machtigingsniveaus voor records:
+Hieronder vindt u de machtigingsniveaus voor records:
 
 
 |        | Beheren | Contribute | Weergave |
@@ -160,7 +168,7 @@ Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 | Delen | ✓ |       |                           |
 | Weergave | ✓ | ✓ | ✓ |
 | De weergave openen | ✓ | ✓ | ✓ |
-| Tijdelijke filters, groepen en sorteren toepassen | ✓ | ✓ | ✓ |
+| Tijdelijke filters, groepen, sorteren toepassen | ✓ | ✓ | ✓ |
 
 *Gebruikers moeten over weergave- of hogere machtigingen voor een werkruimte beschikken om toegang te krijgen tot deze weergave.
 

@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '16732'
+source-wordcount: '16806'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Dit is een verouderd veld. Alle informatie die in dit veld wordt weergegeven, is gerelateerd aan een functie die door [!DNL Workfront] is verwijderd. Dit veld kan niet worden bijgewerkt. </p>
-   <p> Dit veld is nog steeds zichtbaar in [!UICONTROL project] - en [!UICONTROL tasks] -rapporten en -lijsten.</p>  </td> 
+   <p> Dit veld is nog steeds zichtbaar in [!UICONTROL project] -rapporten en -lijsten.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -443,7 +443,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>Dit is een verouderd veld. Alle informatie die in dit veld wordt weergegeven, is gerelateerd aan een functie die door [!DNL Workfront] is verwijderd. Dit veld kan niet worden bijgewerkt.</p>
   <p>Deze gebieden zijn verwijderd uit [!DNL Workfront] . </p> 
-  <p>Het veld is nog steeds zichtbaar in [!UICONTROL project] - en [!UICONTROL task] -rapporten en -lijsten.</p>
+  <p>Het veld is nog steeds zichtbaar in [!UICONTROL project] -rapporten en -lijsten.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>Een totaal van [!UICONTROL Planned Labor Cost] en [!UICONTROL Planned Expense Cost] van het project. Hierbij wordt de eigenschap [!UICONTROL Planned Risk Cost] niet in het project opgenomen.  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL Planned Date Alignment]</td> 
+   <td> <p>Dit is een automatische indicator dat Workfront projecten, taken, en kwesties toewijst om te tonen wanneer een punt met betrekking tot zijn Geplande Datum van de Voltooiing zal worden voltooid. </p>
+   <p>Hieronder vindt u mogelijke waarden voor de indicator voor het uitlijnen van de geplande datum: </p>
+<ul>
+<li>Wordt uitgevoerd op de geplande einddatum</li>
+<li>Wordt uitgevoerd vóór de geplande einddatum</li>
+<li>Wordt uitgevoerd na de geplande einddatum</li></ul>
+<p>De geplande datumuitlijning is zichtbaar in project-, taak- en uitgiftenlijsten en -rapporten. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 

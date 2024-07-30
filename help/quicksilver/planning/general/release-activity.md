@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '5493'
+source-wordcount: '5528'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,39 @@ Het planningsprogramma van Workfront is sinds 22 mei 2023 van start gegaan. Voor
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
 
 De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle in deze artikelen beschreven functies zijn momenteel beschikbaar in Productie.
+
+## Week van 29 juli 2024
+
+### De openbare API voor Adobe Workfront-planning is nu beschikbaar
+
+Productie: 30 juli 2024
+
+Voorbeeld: te bepalen
+
+De openbare API voor Adobe Workfront-planning is nu beschikbaar.
+
+Voor informatie, zie [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md).
+
+<!--
+### Share Workfront Planning views publicly
+
+(***************ensure this is available for *********ALL************** the views and not just the table---***********)
+
+Production: July 31, 2024 
+
+Preview: To be determined 
+
+To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
+
+The following capabilities are included with this update: 
+
+* Share the view of a record type page with a public link that would expire on a specific date. 
+
+* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
+
+* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
+
+For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## Week van 8 juli 2024
 

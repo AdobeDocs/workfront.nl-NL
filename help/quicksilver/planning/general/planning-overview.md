@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,7 @@ Voor informatie over nieuwe eigenschappen en wanneer zij worden vrijgegeven, zie
 | Informatie van het ene veld naar het andere kopiëren en plakken | ✓ |                                  |                 |
 | Toegang tot planningsrecords van Workfront-objecten | ✓ |                                  |                 |
 | Connect-planningsrecords van Workfront-objecten | ✓ |                                  |                 |
+| Workfront Planning Public API | ✓ |                                  |                 |
 
 ## Adobe Workfront Planning inschakelen voor de gebruikers in uw Workfront-exemplaar
 
