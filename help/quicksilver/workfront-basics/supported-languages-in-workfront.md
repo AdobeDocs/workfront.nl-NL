@@ -6,9 +6,9 @@ description: U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Wor
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront ondersteunt de volgende talen:
 * Chinees - vereenvoudigd (zh-CN)
 * Chinees - traditioneel (zh-TW)
 
-De taal die wordt gebruikt om Workfront in uw browser te bekijken wordt gecontroleerd door uw browser taalmontages. Selecteer een taal voor uw browser die in de lijst met ondersteunde talen wordt vermeld.
+De taal die wordt gebruikt om Workfront in uw browser weer te geven, wordt bepaald door de taalinstellingen van uw browser als uw organisatie zich niet op IMS bevindt, of door uw Adobe Experience Cloud-profieltaal als uw organisatie zich niet op IMS bevindt. Selecteer in beide gevallen een taal die wordt vermeld in de lijst met ondersteunde talen.
 
 Als u uitgaande e-mailberichten in een van de ondersteunde talen wilt weergeven, wijzigt u de instellingen voor de landinstelling van de e-mail van de gebruiker of voor klantgegevens in Workfront.\
 U moet een Workfront-beheerder zijn om de instellingen voor klantgegevens te wijzigen.\
@@ -97,22 +97,34 @@ Voor meer informatie over de Fusie van Workfront, zie [ het overzicht van de Fus
 
 U kunt de taal wijzigen waarin u Workfront weergeeft en de taal van de uitgaande e-mails door de volgende instellingen te wijzigen:
 
-* De taal in uw browser
+* De taal op uw browser (voor gebruikers die zich niet op IMS bevinden)
+* De primaire en secundaire taal van uw AEM (voor gebruikers op IMS)
 * De landinstellingen voor klantgegevens en e-maillandinstellingen voor gebruikers in uw Workfront-account.
 
 Als u alle beschikbare vertalingen voor uw gekozen taal wilt bekijken, moet zowel de landinstelling van Workfront als de landinstelling van de browser zijn ingesteld op dezelfde taal.
 
-* [ Verandering de browser taal ](#change-the-browser-language)
+* [De browsertaal wijzigen](#change-the-browser-language)
+* [De Adobe Experience Cloud-taal wijzigen](#change-the-adobe-experience-cloud-language)
 * [De landinstellingen van Workfront en de gebruikersmail wijzigen](#change-the-workfront-and-user-locales)
 
 ### De browsertaal wijzigen {#change-the-browser-language}
 
-Wanneer u de browsertaal wijzigt, wordt uw Workfront-interface in die taal weergegeven.\
+Als uw organisatie zich niet op IMS bevindt, wanneer u de browsertaal wijzigt, wordt uw Workfront-interface in die taal weergegeven.\
 Voor meer informatie over welke talen door Workfront worden gesteund, zie [ Gesteunde talen in Adobe Workfront ](#supported-languages).
 
 De browsertaal moet op individuele gebruikersbasis worden gewijzigd.
 
 Zie het menu &quot;Help&quot; voor uw browser voor specifieke informatie over het wijzigen van de taal van uw browser.
+
+## De Adobe Experience Cloud-taal wijzigen
+
+Als uw organisatie zich op IMS bevindt, bepaalt uw Adobe Experience Cloud-profieltaal de taal die in Workfront wordt weergegeven.
+
+1. Klik uw profielfoto bij het uiterst juiste eind van de toolbar van Adobe Experience Cloud, dan klik **Voorkeur**. De werkbalk Adobe Experience Cloud bevindt zich direct boven de hoofdwerkbalk van Workfront.
+
+1. Onder **Profiel** onder uw naam en e-mailadres, klik de naam van de momenteel geselecteerde taal.
+
+1. Selecteer uw aangewezen talen in dropdowns **Eerste taal** en **Tweede taal**. De eerste taal is de standaardtaal die u kiest, terwijl de tweede taal alleen wordt weergegeven als de eerste taal niet door een specifieke toepassing wordt ondersteund.
 
 ### De landinstellingen van Workfront en de gebruikersmail wijzigen {#change-the-workfront-and-user-locales}
 
