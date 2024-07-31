@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ Een extern opzoekveld in een aangepast formulier roept een externe API aan en re
 
 Dit artikel bevat voorbeelden van het gebruik van het veld Externe opzoekopdracht om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe Opzoeken ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
 
-Externe opzoekvelden zijn alleen beschikbaar in de nieuwe formulierontwerper, niet in de oudere formulierontwerper. Voor meer informatie over het toevoegen van een Extern gebied van de Opzoekopdracht aan een douanevorm en extra definities van de externe raadplegingscomponenten, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie over het toevoegen van een Extern gebied van de Opzoekopdracht aan een douanevorm en extra definities van de externe raadplegingscomponenten, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Een extern opzoekveld instellen voor dezelfde instantie van Workfront
 
 U kunt de externe opzoekfunctie gebruiken om gegevens van uw Workfront-exemplaar over te brengen naar het aangepaste formulier.
+
+### Eigen Workfront-veldwaarden gebruiken in externe zoekopdracht
 
 In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit het bestaande veld Statusquery naar uw externe opzoekveld overbrengt.
 
@@ -69,6 +71,43 @@ In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit h
    ![ Vorm van de Douane met extern raadplegingsgebied ](assets/external-lookup-project-status-example1.png)
 
    ![ Externe raadplegingsopties die op status ](assets/external-lookup-project-status-example2.png) worden gebaseerd
+
+### Aangepaste veldwaarden gebruiken in de externe zoekopdracht
+
+In dit voorbeeld ziet u hoe u de Workfront API aanroept en gegevens van een aangepast veld naar het veld Externe opzoeken overbrengt. Het aangepaste voorbeeldveld wordt &#39;Aangepaste kleuren&#39; genoemd.
+
+1. Open het aangepaste formulier.
+1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
+1. Ga het **Etiket** en **Naam** voor het gebied in.
+1. Selecteer het **Formaat** voor het gebied.
+1. Ga de API URL vraag op het **Basis API URL** gebied in.
+
+   **Voorbeeld**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Herzie **Afhankelijkheden** voor de gebieden dat dit raadplegingsgebied in API van verwijzingen voorziet.
+
+   Een afhankelijkheidsveld kan elk aangepast of native veld zijn dat op de detailpagina van het object bestaat.
+
+1. Selecteer de **Methode van HTTP**.
+
+   Dit zal meestal **krijgen** waarschijnlijk zijn.
+
+1. Ga de **Weg JSON** in om de resultaten van uw API vraag te krijgen.
+
+   **Voorbeeld**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * &quot;parameterValues&quot; verwijst naar elk aangepast veld in Workfront voor het object dat u hebt ingeschakeld.
+   * In dit voorbeeld is &quot;DE:Combo Colors&quot; het specifieke aangepaste veld met de waarden die u wilt ophalen.
+
+   >[!NOTE]
+   >
+   >**de informatie van de Kopbal** wordt niet vereist voor een vraag aan de zelfde instantie van Workfront.
+
+1. Klik **toepassen**.
+
+   Wanneer het aangepaste formulier aan een Workfront-object wordt toegevoegd, worden alle waarden in het veld &quot;Combo Colors&quot; weergegeven in het vervolgkeuzemenu Extern opzoeken.
 
 ## Een extern opzoekveld instellen voor een openbare API
 
