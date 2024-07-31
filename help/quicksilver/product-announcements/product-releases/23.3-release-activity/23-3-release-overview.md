@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2798'
 ht-degree: 0%
@@ -25,7 +25,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [ voor webinar registrer
 >De release van 23.3 bevat de optie om uw organisatie te verplaatsen naar maandelijkse releases. Daarom wijzigt Workfront het nummeringsschema van releaseversies om rekening te houden met zowel maandelijks als driemaandelijks releasetracks.
 >
 >* Als u op de **snelle versie (maandelijks)** spoor bent, zal de versie na 23.3 **23.8**, op 31 augustus, 2023 zijn.
-> * Als u op het **driemaandelijkse** vrijgavespoor bent, zal de versie na 23.3 **23.10**, in de week van 26 oktober, 2023 zijn.
+>* Als u op het **driemaandelijkse** vrijgavespoor bent, zal de versie na 23.3 **23.10**, in de week van 26 oktober, 2023 zijn.
 > 
 > De driemaandelijkse versies zullen functionaliteit van drie maandelijkse versies omvatten. De driemaandelijkse versie van 23.10 bevat bijvoorbeeld functies die worden vrijgegeven in de maandelijkse versies 23.8, 23.9 en 23.10.
 >

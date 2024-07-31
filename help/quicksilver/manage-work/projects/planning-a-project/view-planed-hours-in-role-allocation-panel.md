@@ -6,7 +6,7 @@ description: U kunt roltoewijzing voor alle baanrollen bekijken die aan het werk
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -114,10 +114,9 @@ U moet het volgende hebben:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Herzie de volgende informatie in het **deelvenster van de Toewijzing van de Rol**:
-|Veld | Beschrijving|
-|—|—|
-| **Rol van de Baan** |Functierollen die zijn toegewezen aan taken en kwesties in verband met het project. Dit kunnen taakrollen zijn die rechtstreeks aan taken en kwesties of baanrollen worden toegewezen verbonden aan gebruikers die aan taken en kwesties op het project worden toegewezen.  |
-| **Geplande Uren** |Het totale aantal geplande uren van taken en kwesties die aan baanrollen of gebruikers worden toegewezen verbonden verbonden aan een baanrol op het project.  |
 
-
+   | Veld | Beschrijving |
+   |---|---|
+   | **Rol van de Baan** | De rollen van de baan die aan taken en kwesties op het project worden toegewezen. Dit kunnen taakrollen zijn die rechtstreeks aan taken en kwesties of baanrollen worden toegewezen verbonden aan gebruikers die aan taken en kwesties op het project worden toegewezen. |
+   | **Geplande Uren** | Het totale aantal geplande uren van taken en kwesties die aan baanrollen of gebruikers worden toegewezen verbonden verbonden aan een baanrol op het project. |
 

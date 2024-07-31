@@ -6,7 +6,7 @@ description: U kunt goedkeuringssjablonen maken om het goedkeuringsproces te str
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -61,6 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    |----------------------------|---|
    | **(Optioneel) Tijdlijn** | Voer de tijdlijn in dagen in. De deadline van de goedkeuring wordt berekend vanuit dit veld zodra de sjabloon op een actief wordt toegepast. |
    | **voegt fiatteurs of recensenten** toe | Typ de naam van gebruikers of teams en wijs deze vervolgens aan als controleur of fiatteur. |
+
 1. Klik **sparen**.
 
 
