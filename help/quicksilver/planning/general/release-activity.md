@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ De vrijgegeven functies worden weergegeven in de volgorde van hun release, met d
 
 De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle in deze artikelen beschreven functies zijn momenteel beschikbaar in Productie.
 
-## Week van 29 juli 2024
-
-### De openbare API voor Adobe Workfront-planning is nu beschikbaar
-
-Productie: 30 juli 2024
-
-Voorbeeld: te bepalen
-
-De openbare API voor Adobe Workfront-planning is nu beschikbaar.
-
-Voor informatie, zie [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Week van 29 juli 2024
+
+### De openbare API voor Adobe Workfront-planning is nu beschikbaar
+
+Productie: 30 juli 2024
+
+Voorbeeld: te bepalen
+
+De openbare API voor Adobe Workfront-planning is nu beschikbaar.
+
+Voor informatie, zie [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Records in de tabelweergave invoegen en dupliceren
+
+Productie: 1 augustus 2024
+Voorbeeld: te bepalen
+
+We hebben de volgende mogelijkheden geïntroduceerd wanneer we werken met records in de tabelweergave:
+
+* Dubbele records: u kunt snel een record maken door een bestaande record te dupliceren.  Er wordt een identieke record gemaakt. Deze mogelijkheid is alleen beschikbaar in de tabelweergave.
+
+* U kunt een nieuwe record invoegen boven of onder een bestaande record in de tabelweergave. Voordat u deze upgrade uitvoert, voegt u alleen records toe onder aan de tabelweergave.
+
+U kunt de nieuwe mogelijkheden van de volgende gebieden uitvoeren:
+
+* Het menu Meer van een record
+
+* De nieuwe werkbalk die onder aan de recordpagina in de tabelweergave is toegevoegd
+
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren
+
 
 ## Week van 8 juli 2024
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ In de Planning van Adobe Workfront, is een verslag een geval van een verslagtype
 
 U kunt records maken door een van de volgende handelingen uit te voeren:
 
-* Deze handmatig maken voor recordtypen
-* Maak records door gegevens uit een externe lijst te kopiëren en te plakken.
+* Deze toevoegen vanaf de pagina met recordtypen
+* Een lijst met records uit een externe lijst kopiëren en plakken
+* Deze dupliceren
 
 In dit artikel wordt beschreven hoe u records kunt maken. Raadpleeg de volgende artikelen voor informatie over het beheren van records in de tabel- of tijdlijnweergaven:
 
@@ -95,7 +96,7 @@ In dit artikel wordt beschreven hoe u records kunt maken. Raadpleeg de volgende 
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Records maken door deze handmatig aan een recordtype toe te voegen <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Records maken door deze toe te voegen aan een recordtype <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 U kunt records maken in de tabelweergave van een pagina met recordtypen.
 
@@ -118,7 +119,8 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
       * Klik **Nieuw verslag** in de laatste rij van de lijst
 
-      * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe.
+      * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe onder de record waaruit u begint.
+      * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel hierboven** of **hieronder verslag van het Tussenvoegsel**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Records maken door gegevens uit een externe lijst te kopiëren en te plakken
+## Records maken door deze te kopiëren en te plakken vanuit een externe lijst
 
 1. Begin creërend verslagen in de mening van de Lijst, zoals die in sectie [ wordt beschreven creeer verslagen door hen aan een verslagtype ](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel manueel toe te voegen.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * De rijen bevatten de nieuwe records
    * De kolommen vullen informatie voor de gebieden van de verslagen.
+
+
+## Records maken door deze te dupliceren
+
+Voor informatie over het dupliceren van verslagen, zie [ Dubbele verslagen ](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

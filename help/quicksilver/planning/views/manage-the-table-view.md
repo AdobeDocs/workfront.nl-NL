@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 0%
 
 ---
@@ -135,9 +135,8 @@ Het toevoegen van kolommen aan een weergave is hetzelfde als het toevoegen van v
 
 U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
-1. Ga naar een verslagtype pagina en selecteer a **de mening van de Lijst** van het meningsdrop-down menu.
+1. Ga naar een verslagtype pagina en klik een lusje van de lijstmening, of klik **+ Mening** om een nieuwe mening toe te voegen, dan **Lijst** te kiezen.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Begin toevoegend gebieden (of kolommen), zoals die in het artikel [ worden beschreven creeer gebieden ](/help/quicksilver/planning/fields/create-fields.md).
 
    De kolommen die u toevoegt, zijn zichtbaar voor alle gebruikers die toegang hebben tot het recordtype en worden toegevoegd als nieuwe velden op de pagina van de record.
@@ -213,9 +212,8 @@ De rijen van een lijstmening tonen individuele verslagen van het geselecteerde v
 
 U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
-1. Ga naar een verslagtype pagina en selecteer a **de mening van de Lijst** van het meningsdrop-down menu.
+1. Ga naar een verslagtype pagina en klik een lusje van de lijstmening, of klik **+ Mening** om een nieuwe mening toe te voegen, dan **Lijst** te kiezen.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Begin toevoegend verslagen (of rijen), zoals die in het artikel [ worden beschreven creeer verslagen ](/help/quicksilver/planning/records/create-records.md).
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
@@ -229,13 +227,8 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
    >[!NOTE]
    >
    >U kunt rijen niet opnieuw rangschikken als u ten minste één sortering toepast op de tabelweergave.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >De wijzigingen die u aanbrengt in de rijvolgorde zijn zichtbaar voor alle gebruikers die toegang hebben tot het recordtype
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 Met filters vermindert u de hoeveelheid informatie die op het scherm wordt weergegeven.
 
 Houd rekening met het volgende wanneer u werkt met filters in de tabelweergave:
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * De filters die u voor de tabelweergave maakt, werken onafhankelijk van de filters in de tijdlijnweergave wanneer deze worden toegepast op hetzelfde recordtype.

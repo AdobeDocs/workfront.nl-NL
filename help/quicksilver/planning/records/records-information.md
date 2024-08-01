@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ In de volgende artikelen wordt beschreven hoe u records en de bijbehorende infor
 * [Records verwijderen](/help/quicksilver/planning/records/delete-records.md)
 * [Records delen](/help/quicksilver/planning/records/share-records.md)
 * [Connect-records](/help/quicksilver/planning/records/connect-records.md)
+* [Records dupliceren](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
 * [Opnameopmerkingen beheren](/help/quicksilver/planning/records/manage-record-comments.md)
 * [Overzicht van de sectie Historie](/help/quicksilver/planning/records/history-section-overview.md)
 * [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
