@@ -7,9 +7,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Deze sjablonen automatiseren Workfront-processen en -workflows.
 ### [!BADGE  Nieuw!]{type=Informative}
 
 Met dit Fusion-sjabloon maakt u een standaardcontrolelijst voor alle kaarten die een specifieke kolom op een specifieke board op getimed basis invoeren.
+
+### [!BADGE  Nieuw!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Dit scenario wordt teweeggebracht door een nieuw project dat wordt gecreeerd. Met dit scenario, kunt u een raad tot stand brengen die na het project wordt genoemd, kolommen anders noemen of creeert die op uw behoeften worden gebaseerd, douanetags tot stand brengen, en een filter van de inlaatkolom associëren met het voortkomende project.  Er kunnen duizenden aanvullende wijzigingen worden aangebracht, maar als u hier begint, kunt u de mogelijkheden zien om een beginpunt te maken voor de standaardisering van het bestuur van uw organisatie.
 
 ### Workfront - Project maken van CSV
 
