@@ -6,9 +6,9 @@ description: Brongroepen zijn verzamelingen gebruikers die u helpen bronnen gema
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -93,14 +93,14 @@ U moet het volgende hebben:
     </tbody>
    </table>
 
-1. (Facultatief) gebruik **maak** verbinding ongedaan om de gebruikers te verwijderen die door een groep, een team, een bedrijf of een baanrol worden toegevoegd. <span class="preview"> (De functie Ongedaan maken is tijdelijk niet beschikbaar in de voorvertoningsomgeving.) </span>
+1. (Facultatief) gebruik **maak** verbinding ongedaan om de gebruikers te verwijderen die door een groep, een team, een bedrijf of een baanrol worden toegevoegd.
 
    >[!NOTE]
    >
    >Er is geen limiet voor het aantal gebruikers dat u in een bronnenpool kunt hebben. Nochtans, adviseren wij niet teveel gebruikers aan een Pool van het Middel toe te voegen, aangezien het Beheer van het Middel een uitdaging anders zou kunnen worden. In de lijst met gebruikers worden alleen de eerste 2000 gebruikers in de bronnenpool weergegeven. Deze gebruikers worden in alfabetische volgorde weergegeven.
 
    <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-   <span class="preview">![ Gebruikers die aan de Pool van het Middel ](assets/users-in-resource-pool.png)</span> worden toegevoegd
+   <span class="preview">![ Gebruikers die aan de Pool van het Middel ](assets/users-in-resource-pool2.png)</span> worden toegevoegd
 
    Voorbeeldafbeelding in de productieomgeving:
    ![ Gebruikers die aan de Pool van het Middel ](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png) worden toegevoegd
