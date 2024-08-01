@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ Voor informatie over de onderhoudsupdates die tijdens de Vierde Versie van het K
 ### Training-updates
 
 Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Tutorials van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
+
+### Functionaliteit die binnenkort uit Workfront wordt verwijderd
+
+De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
+
+#### Veroudering van de oudere Home-ervaring met 24.10
+
+Met de release van 24.10 zullen we de oude Home-ervaringen officieel verouderd hebben. Gebruikers wordt aangeraden om nieuwe introducties te gebruiken. Deze worden dan nog steeds uitgebreid met extra functies voordat de site wordt vervangen. Meer informatie over de overgang, inclusief wat gebruikers en beheerders kunnen doen om zich voor te bereiden, is beschikbaar.

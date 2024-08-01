@@ -6,16 +6,16 @@ description: U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Wor
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
 # Ondersteunde talen in Adobe Workfront
 
-U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Workfront weergeeft door de taalvoorkeuren op uw browser en de standaard-e-maillandinstelling in Workfront aan te passen.
+U kunt de taal wijzigen waarin u Adobe Workfront en e-mails uit Workfront weergeeft door de taalvoorkeuren aan te passen op uw browser (als dit niet het geval is bij IMS) of de taalvoorkeuren van uw Adobe Experience Cloud-profiel (als deze zich op IMS bevindt) en de standaard-e-maillandinstelling in Workfront.
 
 Bij elke Workfront-update wordt de Workfront-terminologie bijgewerkt voor de ondersteunde talen.
 
