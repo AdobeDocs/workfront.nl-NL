@@ -6,7 +6,7 @@ description: Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kun
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
+source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -75,7 +75,7 @@ of\
    Begin de naam van een bedrijf, baanrol, team, of groep te typen, als u alle gebruikers verbonden aan die entiteiten wilt verwijderen.
 
    <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:<span>
-   <span class="preview">![ verwijdert gebruikers uit de Pool van het Middel ](assets/remove-users-from-resource-pool.png)<span>
+   ![ verwijdert gebruikers uit de Pool van het Middel ](assets/remove-users-from-resource-pool.png)
 
    Voorbeeldafbeelding in de productieomgeving:
    ![ Onderzoek in de Pool van het Middel ](assets/search-inside-new-resource-pool-350x314.png)
