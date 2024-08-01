@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: Gebruikers verwijderen uit bronnenpools
 description: Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kunt hebben, toont de lijst van gebruikers slechts de eerste 2000 die gebruikers, alfabetisch worden vermeld.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # Gebruikers verwijderen uit bronnenpools
+
+{{highlighted-preview}}
 
 Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kunt hebben, toont de lijst van gebruikers slechts de eerste 2000 die gebruikers, alfabetisch worden vermeld.
 
@@ -22,6 +24,8 @@ Wij adviseren dat u gebruikers verwijdert die zijn gedeactiveerd of verplaatste 
 Voor meer informatie over middelpools, zie [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -51,23 +55,30 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Gebruikers verwijderen uit een bronnenpool
 
 U kunt gebruikers uit een Bronpool verwijderen wanneer die gebruikers niet meer nodig zijn in die pool.
 
 Om een gebruiker uit een Pool van het Middel te verwijderen:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klik **Middelen**.
 1. Klik **Pools van het Middel** in het linkerpaneel.
-1. Selecteer een bronnenpool en klik op **Bewerken.**Of\
+1. Selecteer een Pool van het Middel en klik **uitgeven**.
+of\
    Klik op de naam van een bronnenpool.
 
 1. Begin typend de naam van een gebruiker die u in het **Onderzoek in dit Pool van Middel** gebied wilt verwijderen.\
    of\
-   Begin de naam van een bedrijf, baanrol, team, of groep te typen, als u alle gebruikers verbonden aan die entiteiten wilt verwijderen.\
-   ![ search_inside_NEW_resource_pool.png ](assets/search-inside-new-resource-pool-350x314.png)
+   Begin de naam van een bedrijf, baanrol, team, of groep te typen, als u alle gebruikers verbonden aan die entiteiten wilt verwijderen.
+
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:<span>
+   <span class="preview">![ verwijdert gebruikers uit de Pool van het Middel ](assets/remove-users-from-resource-pool.png)<span>
+
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ Onderzoek in de Pool van het Middel ](assets/search-inside-new-resource-pool-350x314.png)
 
 1. Klik op het pictogram &#39;x&#39; op gebruikersniveau om een gebruiker uit de bronnenpool te verwijderen. Ze worden verwijderd uit alle lijsten waarin ze voorkomen.\
    of\

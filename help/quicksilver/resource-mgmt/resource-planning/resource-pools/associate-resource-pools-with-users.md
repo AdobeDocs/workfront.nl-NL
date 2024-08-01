@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Brongroepen koppelen aan gebruikers
-description: Brongroepen koppelen aan gebruikers
-author: Alina
+description: U moet een bronnenpool maken voordat u deze aan gebruikers kunt koppelen. U kunt gebruikers aan middelpools associëren wanneer u uw middelpools creeert.
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
