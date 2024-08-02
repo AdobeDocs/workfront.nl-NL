@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
+source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Zakelijke regels maken en bewerken
-
->[!IMPORTANT]
->
->Zakelijke regels zijn tijdelijk niet beschikbaar.
 
 Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De bedrijfsregels helpen gegevenskwaliteit en operationele efficiency te verbeteren door acties te verhinderen die gegevensintegriteit in gevaar zouden kunnen brengen.
 

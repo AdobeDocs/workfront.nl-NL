@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,6 @@ Het levende 24.7 versiewebinar werd geannuleerd, maar u kunt nog [ op een videod
                             </li>
                         </ul>
                         <p><i>Alleen beschikbaar voor organisaties op het nieuwe Ultimate-plan.</i></p>
-                        <p><span class="preview">Deze functie is tijdelijk niet beschikbaar.</span></p>
                     </td>
                 </tr>
                 <tr>
