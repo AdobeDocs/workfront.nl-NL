@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,17 @@ U kunt de volgende objecten delen:
 
 * Werkruimten
 
-  Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld. Weergaven worden niet gedeeld.
+   * U kunt werkruimten delen met personen binnen uw organisatie.
+   * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld. Weergaven worden niet gedeeld.
 
 * Weergaven
 
-   * U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten. Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+   * U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten.
+   * U kunt een mening openbaar delen, met mensen buiten uw organisatie wanneer u een openbare verbinding voor een mening produceert.De mensen die tot de verslagpagina van een openbare verbinding toegang hebben kunnen alle verslagen en hun gebieden, met inbegrip van verbonden verslagen en gebieden bekijken.
 
-U kunt een werkruimte of een weergave delen met de volgende entiteiten:
+  Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
+
+Intern kunt u een werkruimte of weergave delen met de volgende Workfront-entiteiten:
 
 * Gebruikers
 * Groepen
@@ -59,15 +61,12 @@ U kunt een werkruimte of een weergave delen met de volgende entiteiten:
 * Andere gebruikers, waaronder Systeembeheerders, hebben alleen toegang tot weergaven die ze hebben gemaakt of die met hen zijn gedeeld. Systeembeheerders kunnen alleen machtigingen krijgen om een weergave te beheren.
 * U kunt een koppeling naar een werkruimte of naar een weergave delen met anderen.
 
-  Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte of de pagina met recordtypen die wordt weergegeven in de geselecteerde weergave.
+  De volgende scenario&#39;s bestaan:
+   * Gebruikers die de koppeling naar een werkruimte ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
+   * Gebruikers die de koppeling naar een weergave ontvangen, hebben op de volgende manieren toegang tot de weergave:
 
-  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
-    The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
-        
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+      * U moet actieve gebruikers zijn en u aanmelden bij Workfront als de koppeling naar de weergave intern is gedeeld.
+      * Kan externe gebruikers naar Workfront zijn en de weergave openen via een openbaar gedeelde koppeling, zonder u aan te melden bij Workfront.
 
 ## Machtigingen delen voor Adobe Workfront Planning-objecten
 
@@ -156,37 +155,25 @@ U moet gebruikers toestemming geven om weergaven weer te geven, zodat ze toegang
 * Rijhoogte
 * Instellingen
 
-
-<!--You can share views internally or publicly. -->
+U kunt weergaven intern of openbaar delen.
 
 Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 
-|        | Beheer (alleen uitgenodigde personen hebben toegang) | Weergave (alleen uitgenodigde personen hebben toegang) | Iedereen in de werkruimte kan* weergeven |
+| Intern delen | Beheer (alleen uitgenodigde personen hebben toegang) | Weergave (alleen uitgenodigde personen hebben toegang) | Iedereen in de werkruimte kan* weergeven |
 |--------|--------|-------|------------------------------|
 | Bewerken | ✓ |       |                            |
 | Verwijderen | ✓ |       |                            |
 | Delen | ✓ |       |                           |
 | Weergave | ✓ | ✓ | ✓ |
-| De weergave openen | ✓ | ✓ | ✓ |
-| Tijdelijke filters, groepen, sorteren toepassen | ✓ | ✓ | ✓ |
+| Toepassen | ✓ | ✓ | ✓ |
+
+| Openbare delen | Weergave |
+|--------|-------|
+| Weergave | ✓ |
+| Toepassen | ✓ |
 
 *Gebruikers moeten over weergave- of hogere machtigingen voor een werkruimte beschikken om toegang te krijgen tot deze weergave.
 
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
-
-|   Public sharing      | View  |
-|--------|-------|
-| View   | ✓     |
-| Apply  | ✓     |
--->
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -196,5 +183,15 @@ Hier volgen de machtigingsniveaus voor weergaven en weergave-elementen:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->

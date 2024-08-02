@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,8 @@ Wanneer u een weergave deelt, geeft u anderen machtigingen om toegang te krijgen
 
 U kunt een weergave delen met de volgende entiteiten:
 
-* Workfront-gebruikers
-* Workfront-groepen
-<!--* Publicly, with users outside Workfront
--->
+* Intern, met Workfront-gebruikers en -groepen
+* Openbaar, met gebruikers buiten Workfront
 
 ## Toegangsvereisten
 
@@ -95,9 +93,21 @@ U kunt een weergave delen met de volgende entiteiten:
 
 +++
 
-## Machtigingen delen naar een weergave <!--internally-->
+## Overwegingen bij het delen van weergaven
 
-U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtigingen hebt. <!--with users or groups in Workfront-->
+* U kunt weergave- of beheermachtigingen aan interne Workfront-gebruikers geven.
+
+* Gebruikers met de machtiging Beheren kunnen de weergave-instellingen wijzigen, deze delen, dupliceren of verwijderen.
+
+* U kunt weergaven delen met personen buiten uw organisatie via een openbare koppeling.
+
+* Wanneer u een mening openbaar deelt, is de verbinding toegankelijk door iedereen buiten uw bedrijf voor een beperkte tijd, die door de vervaldatum wordt vermeld. U hoeft zich niet aan te melden om de gedeelde tabelweergave te kunnen weergeven.
+
+* Personen buiten uw organisatie die toegang hebben tot een weergave, kunnen geen andere weergaven maken, de gedeelde weergave bewerken of recordgegevens in de tabel toevoegen, verwijderen of bewerken.
+
+## Rechten delen met een weergave intern
+
+U kunt weergaven die u hebt gemaakt of weergaven waarop u beheermachtigingen hebt, delen met gebruikers of groepen in Workfront.
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   Het **Interne delende** lusje zou door gebrek moeten worden geselecteerd.
 
-1. (Optioneel) Selecteer een van de volgende opties om de weergave te delen:
+1. (Facultatief) op **die toegang** gebied heeft, selecteer van de volgende opties:
 
    * **slechts kunnen de uitgenodigde mensen tot** toegang hebben: U moet gebruikers of groepen specificeren die u de mening met wilt delen. Dit is de standaardoptie.
    * **iedereen in de werkruimte kan** bekijken: Alle gebruikers die Mening of hogere toestemmingen aan werkruimten hebben kunnen tot de mening toegang hebben.
 
-1. In de **de meningstoegang van de Verlening tot** gebied, begin de naam van een gebruiker of een groep te typen, dan het te klikken wanneer het in de lijst toont.  <!--***********replace screen shot below when public sharing is released***********-->
+1. In de **de meningstoegang van de Verlening tot** gebied, begin de naam van een gebruiker of een groep te typen, dan het te klikken wanneer het in de lijst toont.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheermachtiging
    >
    >   Weergaven die met u worden gedeeld, hebben een personeels-indicator ![](assets/view-shared-with-others-people-icon.png) naast het weergavepictogram. Weergaven zonder de indicator Personen zijn weergaven die u hebt gemaakt.
 
-<!--
-## Share permissions to a view publicly
+## Machtigingen delen voor een openbare weergave
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+U kunt weergaven die u hebt gemaakt of weergaven waarop u beheerdersmachtigingen hebt, delen met personen die geen Workfront-licentie hebben en die zich buiten uw organisatie bevinden.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Een weergave openbaar delen in Workfront Planning:
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Open de werkruimte waarvan u de weergave wilt delen en klik op een opnametype-kaart.
 
-   This opens the record type page.
+   Hierdoor wordt de pagina met recordtypen geopend.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. Van het meningslusje, houd over de mening u **Meer** menu ![](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. Klik **Openbaar het delen**.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. Laat **toe creeer openbare verbinding** plaatsen.
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. Klik het **pictogram van de verbinding van het 0} Exemplaar ![](assets/copy-link-view.png) om de verbinding aan uw klembord te kopiëren.**
 
-1. Click **Save**.
+1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. Klik **sparen**.
 
--->
+   Het weergavepictogram wordt bijgewerkt om aan te geven dat de weergave openbaar wordt gedeeld.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (Optioneel) Plak de koppeling die u hebt gekopieerd naar een e-mail, chatbericht, document of Workfront-opmerking om deze met anderen te delen.
 
 ## Machtigingen verwijderen uit een weergave
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. Open de werkruimte waarvan u de weergave niet meer wilt delen en klik op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
 1. Beweeg over de lusjenaam van de mening u het delen uit wilt verwijderen en **Meer** menu ![](assets/more-menu.png) klikken, dan **Aandeel** klikken.
-1. Vind de gebruiker of de groep wat u wilt verwijderen, dan **verwijderen** in het drop-down menu van toestemmingen rechts van de naam van de gebruiker of van de groep.
+1. Ga als volgt te werk om het interne delen van een weergave te verwijderen:
+
+   1. Verzeker het **Interne delen** lusje wordt geselecteerd.
+   1. Vind de gebruiker of de groep wat u wilt verwijderen, breid het toestemmingendrop-down menu rechts van de naam van de gebruiker of van de groep uit, dan klik **verwijdert**.
+
+1. Ga als volgt te werk om het delen van een weergave door het publiek te verwijderen:
+
+   1. Klik het **Openbare delen** tabel.
+   1. Deselecteer **creeer openbare verbinding** optie.
+
 1. Klik **sparen**.
-De gebruiker of de gebruikers die tot de verwijderde groep behoren, hebben geen toegang meer tot de weergave. Er is geen bericht voor de gebruikers die uit de toegang tot van mening zijn verwijderd dat zij deze toegang verloren.
 
-<!--Replace the above instructions with the following when public sharing is released: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
-
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
-
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   Personen hebben geen toegang meer tot de weergave. Er is geen bericht voor de gebruikers die zijn verwijderd van toegang tot de weergave, dat zij deze toegang niet meer hebben.
