@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,6 +28,16 @@ De gebruiker van de Schrapping en Deactivate berichten die de gebruikers zien wa
 
 Voor informatie bij het schrappen van en het deactiveren van gebruikers, zie [ gebruikers van de Schrapping ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) en [ een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
+## Updates voor de pagina Brongroepen bekijken en weergeven
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 1 augustus 2024; productie voor snelle release: met de release van 24.8 (augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+
+We hebben de pagina Brongroepen bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
+
+Voor informatie, zie [ middelpools ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
+
 ## De blik en voelt update voor het bericht van de Taak van de Schrapping
 
 >[!NOTE]
@@ -37,17 +47,6 @@ Voor informatie bij het schrappen van en het deactiveren van gebruikers, zie [ g
 Het bevestigingsbericht voor Taak verwijderen dat gebruikers zien wanneer ze een taak verwijderen, is bijgewerkt naar een modern ontwerp dat consistent is met andere delen van Workfront.
 
 Voor informatie bij het schrappen van een taak, zie [ taken van de Schrapping ](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md).
-
-
-## Updates voor de pagina Brongroepen bekijken en weergeven
-
->[!NOTE]
->
->Voorvertoningsrelease: 25 juli 2024; productie voor snelle release: met de release van 24.8 (augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
-
-We hebben de pagina Brongroepen bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
-
-Voor informatie, zie [ middelpools ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 ## Updates weergeven en weergeven voor de pagina Meldingen
 
