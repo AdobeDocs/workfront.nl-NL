@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] toe:voegen-binnen laat u de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -140,12 +140,13 @@ U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Micro
 ## Aanmelden bij [!DNL Workfront] vanuit [!DNL Outlook]
 
 1. Selecteer in [!DNL Outlook] een e-mailbericht en klik vervolgens op het pictogram **[!DNL Workfront]** in de e-mailkop.
-1. Volg de aanwijzingen om u aan te melden bij [!DNL Workfront] via Enhanced Authentication, OAuth 2.0 of de URL voor de markering van beveiligingsinstellingen (SAML).
+1. Voor de login pagina, klik **Login aan Workfront**.
+1. Volg de aanwijzingen om u aan te melden bij [!DNL Workfront] met OAuth 2.0. <!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
-   Voordat gebruikers zich met SAML kunnen aanmelden bij de [!DNL Workfront] add-in, moet een [!DNL Workfront] beheerder eerst [!DNL Office 365] add-ins inschakelen voor verificatie met behulp van een SAML 2.0-oplossing. Voor meer informatie, zie de sectie [  [!DNL Adobe Workfront]  met SAML 2.0 ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in het artikel [ vormen  [!DNL Adobe Workfront]  met SAML 2.0 ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+   <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->
 
    >[!NOTE]
    >
-   >* Wanneer u wordt ertoe aangezet om het domein van uw [!DNL Workfront] rekening in te gaan, typ het gebruikend dit formaat: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
-   >* Verbeterde verificatie is pas beschikbaar als een [!DNL Workfront] -beheerder deze heeft ingeschakeld voor deze integratie.
+   >* Als u wordt ertoe aangezet om het domein van uw [!DNL Workfront] rekening in te gaan, typ het gebruikend dit formaat: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
 
+<!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->
