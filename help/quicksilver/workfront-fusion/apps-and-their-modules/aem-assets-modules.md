@@ -10,9 +10,9 @@ description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,9 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 * U moet de [!UICONTROL Server-to-server] -stroom instellen in de [!DNL Adobe Developer console] .
 
   Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom in [!DNL Adobe Developer console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+* Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
+
+  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.[
 
 ## Verbinden [!DNL Adobe Experience Manager Assets] met [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -100,9 +103,13 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
 
 >[!NOTE]
 >
->De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen van de [!UICONTROL Server-to-server] -stroom op de [!DNL Adobe Developer Console] . U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
+>* De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen van de [!UICONTROL Server-to-server] -stroom op de [!DNL Adobe Developer Console] . U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
 >
->Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom op [!UICONTROL Adobe Developer Console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>   Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom op [!UICONTROL Adobe Developer Console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>
+>* Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
+>
+>   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.[
 
 
 <table style="table-layout:auto"> 
