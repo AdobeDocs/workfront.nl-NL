@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Forms van de Douane** in het linkerpaneel.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Klik **Nieuwe Vorm van de Douane.**
 1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
 
@@ -76,6 +72,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Vervolgens kunt u velden toevoegen aan uw aangepaste formulier. Zie de volgende secties:
    * [Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Opmerkingen over veldnamen en labels](#notes-on-field-names-and-labels)
    * [Tekstvelden toevoegen](#add-text-fields)
    * [Berekende velden toevoegen](#add-calculated-fields)
    * [Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt nieuwe of bestaande velden gebruiken bij het ontwerpen van uw aangepaste formulier.
 
-## Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt
+### Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt
 
 1. Op de top-linkerkant van het scherm, klik **bibliotheek van het Gebied**.
 
@@ -108,6 +105,39 @@ U kunt nieuwe of bestaande velden gebruiken bij het ontwerpen van uw aangepaste 
    of
 
    Klik **sparen en Sluiten**.
+
+### Opmerkingen over veldnamen en labels {#notes-on-field-names-and-labels}
+
+Het **etiket** is beschikbaar voor de meeste gebieden. Het is een beschrijvend label dat boven het veld of de widget op het aangepaste formulier wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.
+
+>[!NOTE]
+>
+>Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.
+
+A **naam** wordt vereist voor elk gebied. Deze naam is hoe het systeem het veld identificeert. Wanneer u het veld of de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.
+
+>[!NOTE]
+>
+>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront.
+>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
+>
+>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.
+>
+>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.
+
+De volgende speciale tekens worden niet ondersteund in aangepaste veldlabels en -namen.
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Tekstvelden toevoegen
 
@@ -158,13 +188,13 @@ Een tekstveld toevoegen:
     <li>Tekst met één regel</li>
     <li>Alineatekst</li>
     <li>Tekst met opmaak</li>
-    <li>Beschrijvende tekst - Binnenkort beschikbaar</li>
+    <li>Beschrijvende tekst</li>
     </ul></td>
     </tr>
     <tr>
     <td>Label</td>
     <td><p>Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.<p>
-    <p>BELANGRIJK: gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.</p></td>
+    <p>BELANGRIJK: gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p></td>
     <td><ul>
     <li>Tekst met één regel</li>
     <li>Alineatekst</li>
@@ -174,11 +204,7 @@ Een tekstveld toevoegen:
     <tr>
      <td>Naam</td>
     <td><p>(Vereist) Met deze naam geeft het systeem het veld aan. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
-    <p><b> BELANGRIJK </b>:   
-      <ul> 
-      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
-      <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
-      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
+    <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p>
     </td>
     <td><ul>
     <li>Tekst met één regel</li>
@@ -189,7 +215,7 @@ Een tekstveld toevoegen:
     </tr>
     <tr>
     <td>Instructies</td>
-    <td>Typ eventuele aanvullende informatie over de widget. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.
+    <td>Typ eventuele aanvullende informatie over het veld. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
