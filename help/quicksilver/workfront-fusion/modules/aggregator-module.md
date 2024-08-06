@@ -8,9 +8,9 @@ description: Een aggregatormodule is een type module dat is ontworpen om verschi
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Een aggregatormodule is een type module dat is ontworpen om verschillende bundel
 Voor meer informatie over moduletypes, zie [ Types van modules ](../../workfront-fusion/modules/module-types.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
@@ -60,7 +62,9 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Aggregator] module
++++
+
+## Overzicht van de module [!UICONTROL Aggregator]
 
 Wanneer een module [!UICONTROL Aggregator] wordt uitgevoerd, doet deze het volgende:
 
@@ -77,16 +81,16 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
  <tbody> 
   <tr> 
    <td> <p>[!UICONTROL Source Module]</p> </td> 
-   <td> <p>De module vanwaar de bundelaggregatie wordt gestart. De bronmodule is gewoonlijk een iterator of een onderzoeksmodule die een reeks bundels uitvoert. Wanneer u opstelling de bronmodule van de aggregator (en de opstelling van de aggregator sluit), wordt de route tussen de bronmodule en de samenvoegersmodule verpakt in een grijs gebied zodat u duidelijk het begin en het eind van de samenvoeging kunt zien. 
+   <td> <p>De module waar de bundelaggregatie begint. De bronmodule is gewoonlijk een iterator of een onderzoeksmodule die een reeks bundels uitvoert.</p><p>Wanneer u opstelling de bronmodule van de aggregator (en de opstelling van de aggregator sluit), wordt de route tussen de bronmodule en de samenvoegersmodule verpakt in een grijs gebied zodat u duidelijk het begin en het eind van de samenvoeging kunt zien. 
    </p> <p>Zie de module <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] in [!DNL Adobe Workfront Fusion]</a> voor meer informatie over iterators.</p> <p>Voor meer informatie over onderzoeksmodules zie onderzoeksmodules in <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref"> Types van modules </a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Target structure type]</p> </td> 
-   <td> <p>(Alleen van toepassing op de module [!UICONTROL Array aggregator] .) De doelstructuur waarin de gegevens moeten worden samengevoegd. De standaardoptie, [!UICONTROL Custom], laat u toe om punten te kiezen die in het 2} punt van de de outputbundel van A [!UICONTROL rray aggregator] {zouden moeten worden samengevoegd:<code>Array </code></p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Zodra u meer modules na de [!UICONTROL Array aggregator] module aansluit en aan de opstelling van de module terugkeert, zal het [!UICONTROL Target] structuurtype dropdown alle volgende modules en hun gebieden bevatten die van typeSerie van Inzamelingen zijn, zoals aangetoond in het [!UICONTROL Attachments] gebied van de [!DNL Slack] &gt; [!UICONTROL Create a Message] module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>(Alleen van toepassing op de module [!UICONTROL Array aggregator] .) De doelstructuur waar de gegevens worden geaggregeerd. Met de standaardoptie [!UICONTROL Custom] kunt u items kiezen die moeten worden samengevoegd in het item <code>Array </code> van de uitvoerbundel van [!UICONTROL Array aggregator]  :</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Zodra u meer modules na de [!UICONTROL Array aggregator] module aansluit en aan de opstelling van de module terugkomt, zal het [!UICONTROL Target] structuurtype drop-down menu alle volgende modules en hun gebieden bevatten die "Serie van Verzamelingen"type, zoals aangetoond in het [!UICONTROL Attachments] gebied van de [!DNL Slack] &gt; [!UICONTROL Create a Message] module zijn:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aggregated fields]</td> 
-   <td>Selecteer de velden die u wilt opnemen in de uitvoer van de aggregatormodule.</td> 
+   <td>De velden die u wilt opnemen in de uitvoer van de aggregatormodule.</td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
@@ -108,22 +112,24 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
 >Bundels die door modules tussen de bronmodule en de [!UICONTROL Aggregator] module worden geproduceerd worden niet uitgevoerd door de [!UICONTROL Aggregator] module, zodat zij niet toegankelijk door de modules in de stroom na [!UICONTROL Aggregator] zijn. Als u gegevens nodig hebt uit een bundel die is uitgevoerd door een module tussen de bronmodule en de module [!UICONTROL Aggregator] , moet u het opgegeven item opnemen in de instelling van de module [!UICONTROL Aggregator] (zoals in het veld [!UICONTROL Aggregated fields] in de installatie van de module [!UICONTROL Array aggregator] ).
 
 
->[!INFO]
->
->**Voorbeeld:** Het Geval van het Gebruik: het Zippen van alle e-mailgehechtheid en het uploaden van het PIT aan [!DNL Dropbox]
->
->In het onderstaande scenario wordt getoond hoe u:
->
->* Kijk naar een postvak voor binnenkomende e-mails: [!UICONTROL Email] > [!UICONTROL Watch emails] trigger voert een bundel uit met item `Attachments[]` . Dit is een array die alle bijlagen van de e-mail bevat.
->
->* Herhaal de bijlagen van de e-mail: [!UICONTROL Email] > [!UICONTROL Iterate attachments] iterator neemt de items één voor één uit de array `Attachments[]` en stuurt ze verder als afzonderlijke bundels.
->
->* Samenvoegen van de bundels die door de [!UICONTROL Email] > [!UICONTROL Iterate attachments] module worden uitgevoerd: [!UICONTROL Archive] > [!UICONTROL Create an archive aggregator] accumuleert alle bundels het ontvangt en output één enkele bundel die het dossier van het PIT bevat.
->
->* Upload het resulterende ZIP-bestand naar [!DNL Dropbox] : [!DNL Dropbox] > [!UICONTROL Upload a file] haalt het ZIP-bestand op uit de module [!UICONTROL Archive] > [!UICONTROL Create an archive] en uploadt het naar [!DNL Dropbox] .
->
->![](assets/dropbox-archive-350x87.png)
->
->Hieronder ziet u een voorbeeldinstelling van de aggregator [!UICONTROL Archive] > [!UICONTROL Create an archive] :
->
->![](assets/archive-create-an-archive-350x484.png)
+## Voorbeeldscenario waarin wordt beschreven hoe aggregators werken
+
+In dit voorbeeldscenario wordt getoond hoe u alle e-mailbijlagen kunt comprimeren en de ZIP naar [!DNL Dropbox] kunt uploaden.
+
+![](assets/dropbox-archive-350x87.png)
+
+In het onderstaande scenario wordt getoond hoe u:
+
+* De eerste module controleert een brievenbus voor inkomende e-mail: [!UICONTROL Email] > [!UICONTROL Watch emails] trekker zal een bundel met punt `Attachments[]` uitvoeren, dat een serie is die alle gehechtheid van e-mail bevat.
+
+* In het tweede model worden de bijlagen van de e-mail herhaald: [!UICONTROL Email] > [!UICONTROL Iterate attachments] iterator neemt de items van de array `Attachments[]` een voor een en verzendt deze verder als afzonderlijke bundels.
+
+* De derde module voegt de bundels samen die door [!UICONTROL Email] > [!UICONTROL Iterate attachments] module worden uitgevoerd: [!UICONTROL Archive] > [!UICONTROL Create an archive aggregator] accumuleert alle bundels het ontvangt en output één enkele bundel die het dossier van het PIT bevat.
+
+* De laatste module uploadt het resulterende ZIP-bestand naar [!DNL Dropbox] : [!DNL Dropbox] > [!UICONTROL Upload a file] haalt het ZIP-bestand op uit de module [!UICONTROL Archive] > [!UICONTROL Create an archive] en uploadt het bestand naar [!DNL Dropbox] .
+
+
+
+Hieronder ziet u een voorbeeldinstelling van de aggregator [!UICONTROL Archive] > [!UICONTROL Create an archive] :
+
+![](assets/archive-create-an-archive-350x484.png)

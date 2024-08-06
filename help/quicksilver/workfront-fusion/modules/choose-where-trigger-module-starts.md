@@ -7,9 +7,9 @@ description: Met bepaalde triggermodules kunt u de eerste bundel selecteren waar
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ U kunt ook opgeven of u alle bundels wilt ophalen of alleen de bundels vanaf een
 Voor meer informatie over trekkermodules, zie de sectie [ modules van de Trekker ](../../workfront-fusion/modules/module-types.md#triggers) in het artikel [ Types van modules ](../../workfront-fusion/modules/module-types.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
@@ -60,6 +62,8 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Kiezen waar een triggermodule begint
 
