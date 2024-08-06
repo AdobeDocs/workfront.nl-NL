@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3854'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: 
-   <ul><li>Licht of hoger aan logboek Algemene Uren in een timsheet</li>
-   <li>Norm om uren op een project, een taak, of een kwestie te registreren</li></ul>
-
-
-<p>Huidige: 
+   <td> <p>Nieuw: </p>
+   <p>Licht of hoger om uren op een project, een taak, een kwestie, of Algemene Uren op een timesheet te registreren</p>
+   <p>Huidige: 
    <ul><li>Controle of hoger aan logboek Algemene Uren in een timesheet</li>
    <li>Werk of hoger om uren aan een project, een taak of een kwestie te registreren</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Voor meer informatie, zie [ Adobe Workfront voor Android ](/help/quicksilver/wor
 
 ## Aangemeld uren bewerken in lijsten en rapporten
 
+>[!CAUTION]
+>
+>* U kunt geen uuringangen wijzigen die tot een gesloten timesheet behoren. U moet eerst timesheet opnieuw openen, en dan de informatie van de uuringang veranderen.
+>* Wanneer u het Type van Uur van een type verandert dat niet als opbrengst aan een ander type telt dat als opbrengst telt, komen de veranderingen in de financiën van het project ook voor. Door het wijzigen van het type Uur van een type dat als inkomsten in een type telt dat niet als inkomsten telt, worden de financiën van het project ook bijgewerkt.
+>
+>Voor informatie, zie [ de types van uren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
+>
 U kunt de aangemelde uren bewerken in de volgende gebieden:
 
 * Alle gebieden waar u de uren hebt toegevoegd, inclusief open tijdbladen

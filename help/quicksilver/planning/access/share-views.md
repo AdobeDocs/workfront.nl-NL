@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 0%
 
 U kunt een weergave met anderen delen om samenwerking te garanderen wanneer u werkt met records in Adobe Workfront Planning.
 
-Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers.
-
-Wanneer u een weergave deelt, geeft u anderen machtigingen om toegang te krijgen tot alle elementen van de weergave. Als u ze bijvoorbeeld de machtiging Beheren geeft aan een weergave, kunnen ze de weergave van de groepering, het filter, de sortering of de balk wijzigen.
+>[!IMPORTANT]
+>
+>* Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers.
+>
+>* Als u machtigingen verleent aan een weergave, worden de machtigingen voor het weergeven van de records niet gewijzigd. De toestemmingen van het verslag worden verleend door werkruimten te delen.
+>
+>* Wanneer u een weergave deelt, geeft u anderen machtigingen om toegang te krijgen tot alle elementen van de weergave. Als u ze bijvoorbeeld de machtiging Beheren geeft aan een weergave, kunnen ze de weergave van de groepering, het filter, de sortering of de balk wijzigen.
 
 
 U kunt een weergave delen met de volgende entiteiten:
@@ -78,6 +82,7 @@ U kunt een weergave delen met de volgende entiteiten:
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>Rechten beheren voor een weergave</p>  
+   <p>Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen een weergave openbaar delen.</p>
 </td>
   </tr>
 
@@ -101,9 +106,9 @@ U kunt een weergave delen met de volgende entiteiten:
 
 * U kunt weergaven delen met personen buiten uw organisatie via een openbare koppeling.
 
-* Wanneer u een mening openbaar deelt, is de verbinding toegankelijk door iedereen buiten uw bedrijf voor een beperkte tijd, die door de vervaldatum wordt vermeld. U hoeft zich niet aan te melden om de gedeelde tabelweergave te kunnen weergeven.
+* Wanneer u een mening openbaar deelt, is de verbinding toegankelijk door iedereen buiten uw bedrijf voor een beperkte tijd, die door de vervaldatum wordt vermeld. U hoeft zich niet aan te melden om de gedeelde weergave te kunnen weergeven.
 
-* Personen buiten uw organisatie die toegang hebben tot een weergave, kunnen geen andere weergaven maken, de gedeelde weergave bewerken of recordgegevens in de tabel toevoegen, verwijderen of bewerken.
+* Personen buiten uw organisatie die toegang hebben tot een weergave, kunnen geen andere weergaven maken, de gedeelde weergave bewerken of recordgegevens in de weergave toevoegen, verwijderen of bewerken.
 
 ## Rechten delen met een weergave intern
 
@@ -145,16 +150,25 @@ U kunt weergaven die u hebt gemaakt of weergaven waarop u beheermachtigingen heb
      Systeembeheerders ontvangen altijd beheermachtigingen voor weergaven die met hen worden gedeeld.
 
 1. Klik **verbinding van het Exemplaar** om een verbinding aan de mening aan uw klembord te kopiëren.
-1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 1. Klik **sparen**.
 
-   >[!TIP]
-   >
-   >   Weergaven die met u worden gedeeld, hebben een personeels-indicator ![](assets/view-shared-with-others-people-icon.png) naast het weergavepictogram. Weergaven zonder de indicator Personen zijn weergaven die u hebt gemaakt.
+   De weergave wordt bijgewerkt met het pictogram voor personen ![](assets/view-shared-with-others-people-icon.png) om aan te geven dat de weergave nu wordt gedeeld met andere gebruikers.
+
+   >>
+   [!TIP]
+   >>
+   Weergaven zonder personen of een globaal pictogram zijn weergaven die u hebt gemaakt en die niet met anderen worden gedeeld. Niet-gedeelde weergaven zijn alleen voor u zichtbaar.
+
+1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 
 ## Machtigingen delen voor een openbare weergave
 
 U kunt weergaven die u hebt gemaakt of weergaven waarop u beheerdersmachtigingen hebt, delen met personen die geen Workfront-licentie hebben en die zich buiten uw organisatie bevinden.
+
+>[!IMPORTANT]
+>
+Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen de weergaven van de werkruimte openbaar delen.
+
 
 Een weergave openbaar delen in Workfront Planning:
 
@@ -182,9 +196,13 @@ Een weergave openbaar delen in Workfront Planning:
 
 1. Klik **sparen**.
 
-   Het weergavepictogram wordt bijgewerkt om aan te geven dat de weergave openbaar wordt gedeeld.
+   De weergave wordt bijgewerkt met een algemeen pictogram ![](assets/public-shared-view-icon-highlighted.png) om aan te geven dat de weergave openbaar wordt gedeeld.
 
-   ![](assets/public-shared-view-icon-highlighted.png)
+   >>
+   [!TIP]
+   >
+   >Weergaven zonder personen of een globaal pictogram zijn weergaven die u hebt gemaakt en die niet met anderen worden gedeeld. Niet-gedeelde weergaven zijn alleen voor u zichtbaar.
+
 
 1. (Optioneel) Plak de koppeling die u hebt gekopieerd naar een e-mail, chatbericht, document of Workfront-opmerking om deze met anderen te delen.
 

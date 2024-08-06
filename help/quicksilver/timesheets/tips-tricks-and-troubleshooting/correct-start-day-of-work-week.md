@@ -7,7 +7,7 @@ description: De begindag van de week op mijn timesheet past niet de begindag van
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De begindag van de week op mijn timesheet past niet de begindag van de week aan 
 
 ## Oplossing
 
-De begindag van de week van een tijdblad in Adobe Workfront gebruikt de taal- en landinstellingen in uw browser om de dag van de week te bepalen. Daarom moet u de taal- en landinstellingen voor uw browser bijwerken. 
+De begindag van de week van een tijdblad in Adobe Workfront gebruikt de taal- en landinstellingen in uw browser om de dag van de week te bepalen. Daarom moet u de taal- en landinstellingen voor uw browser bijwerken.
 
 Als de browsertaal bijvoorbeeld is ingesteld op Engels en de landinstelling is ingesteld op Verenigde Staten, begint de week op zondag. Als alternatief is de browsertaal ingesteld op Engels en de landinstelling ingesteld op Verenigd Koninkrijk, de startdag is maandag.
 
@@ -37,4 +37,4 @@ Hier volgt een overzicht van de aanwijzingen voor het wijzigen van de taal- en l
 * **IE 11:** Hulpmiddelen -> de Opties van Internet -> Algemeen -> Talen
 * **Safari:** Jammer genoeg, staat Safari niet veranderende Web het doorbladeren talen toe zonder ook uw volledige werkend systeemtaal te veranderen. Het is waarschijnlijk gemakkelijker om een andere browser, zoals Chrome of Firefox, te installeren.
 
- 
+

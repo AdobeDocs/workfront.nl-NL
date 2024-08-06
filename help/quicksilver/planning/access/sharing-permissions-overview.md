@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-U kunt machtigingen delen of verwijderen in een werkruimte of weergave in Adobe Workfront Planning.
+U kunt machtigingen delen of verwijderen in een Adobe Workfront-werkruimte of -weergave voor planning.
 
 In dit artikel worden de machtigingsniveaus voor Workfront Planning-objecten beschreven.
 
@@ -38,11 +38,16 @@ U kunt de volgende objecten delen:
 * Werkruimten
 
    * U kunt werkruimten delen met personen binnen uw organisatie.
-   * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld. Weergaven worden niet gedeeld.
+   * Wanneer u een werkruimte deelt, worden ook alle recordtypen, records en velden gedeeld die aan de werkruimten zijn gekoppeld.
+
+     Als u een werkruimte deelt, worden de weergaven niet gedeeld. Weergaven worden afzonderlijk gedeeld.
 
 * Weergaven
 
    * U moet gebruikers, inclusief systeembeheerders, machtigingen geven om toegang te krijgen tot weergaven die los staan van hun machtigingen voor toegang tot werkruimten.
+   * Wanneer u een weergave deelt, worden alle weergave-elementen gedeeld, inclusief filters, groeperen, sorteren of Instellingen.
+
+     Wanneer u een weergave deelt, worden de records die zichtbaar zijn in de weergave niet gedeeld. Records moeten worden gedeeld door werkruimten te delen.
    * U kunt een mening openbaar delen, met mensen buiten uw organisatie wanneer u een openbare verbinding voor een mening produceert.De mensen die tot de verslagpagina van een openbare verbinding toegang hebben kunnen alle verslagen en hun gebieden, met inbegrip van verbonden verslagen en gebieden bekijken.
 
   Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ Hieronder vindt u de machtigingsniveaus voor records:
 
 |        | Beheren | Contribute | Weergave |
 |--------|--------|------------|-------|
-| Maken | ✓ |            |       |
+| Maken | ✓ | ✓ |       |
 | Verwijderen | ✓ | ✓ |       |
 | Bewerken | ✓ | ✓ |       |
 | Weergave | ✓ | ✓ | ✓ |

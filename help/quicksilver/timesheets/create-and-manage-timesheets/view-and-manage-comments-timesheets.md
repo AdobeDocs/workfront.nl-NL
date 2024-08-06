@@ -6,9 +6,9 @@ description: U kunt commentaren op timesheets, de het werkpunten inbegrepen in t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ U kunt opmerkingen maken over de volgende items in een tijdsplaat:
 * Op een afzonderlijk item, zoals een taak of een probleem
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,7 +44,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuratie op toegangsniveau</td> 
-   <td> <p>Toegang tot of hoger weergeven voor Taken en problemen</p> </td> 
+   <td> <p>Toegang tot taken en problemen weergeven of vergroten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -53,6 +55,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## De ingangen van uren van de mening over een timesheet {#view-hour-entry-comments-on-a-timesheet}
 
 U kunt commentaren vormen die op individuele uuringangen worden gemaakt om in timesheet worden getoond. De optie om opmerkingen weer te geven en te verbergen, heeft geen invloed op opmerkingen die zijn gemaakt in de algemene tijdlijn of op opmerkingen die zijn gemaakt voor afzonderlijke items. Zie voor meer informatie  [ maak commentaren op een timesheet ](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ Opmerkingen worden standaard verborgen wanneer u voor het eerst een tijdblad ope
 
 Opmerkingen weergeven op een tijdblad:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klik **Tijdopnemers**.
+Het **gebied van Tijdopnemers** opent.
+
 1. Open de tijdpagina waarin u opmerkingen wilt weergeven.
 1. Klik **tonen commentaren** in de hoger-juiste hoek van timesheet.
 De commentaren tonen onder het punt waar de uuringang en de commentaar werden geregistreerd.

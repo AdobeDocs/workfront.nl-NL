@@ -6,18 +6,22 @@ description: Door uw tijdspagina ter goedkeuring in te dienen, krijgt uw manager
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # Een tijdschema ter goedkeuring indienen
 
+<!--Audited: 8/2024-->
+
 Door uw tijdspagina ter goedkeuring in te dienen, krijgt uw manager inzicht in uw werkuren. De fiatteurs kunnen verifiëren dat alle geregistreerde tijd in de juiste gebieden is toegewezen en dat er gedurende de periode een voldoende aantal uren is geregistreerd.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -26,25 +30,28 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Licht of hoger </p>
+   <p>Huidig: Controleren of hoger </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot of hoger weergeven voor Taken en problemen</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en problemen weergeven of vergroten </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven of hoger voor taken en problemen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger aan timesheet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een tijdschema ter goedkeuring indienen
 
@@ -53,22 +60,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ### Een tijdschema ter goedkeuring indienen
 
-Nadat een timesheet fiatteur wordt geplaatst (zoals die in de sectie [ wordt beschreven wijs timesheet goedkeurt ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in het artikel [ een timesheet ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) goed), **dicht** knoop bij de bodem van de timesheet verandert in a **voorleggen voor Goedkeuring** knoop.
+Nadat een timesheet fiatteur wordt geplaatst (zoals die in de sectie [ wordt beschreven wijs timesheet goedkeurt ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in het artikel [ een timesheet ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) goed), **dicht** knoop bij de bodem van de timesheet verandert in a **voorleggen voor goedkeuring** knoop.
 
 Een tijdschema ter goedkeuring indienen:
 
 1. Ga naar een timesheet dat is gevormd om een fiatteur te hebben.
 1. De tijd van het logboek, zoals die in [ wordt beschreven tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Klik **voorleggen voor Goedkeuring** om het proces van de timesbladgoedkeuring te lanceren.
+1. Klik **voorleggen voor goedkeuring** om het proces van de timesheet goedkeuring te lanceren.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   **legt voor Goedkeuring** knoop wordt vervangen door **goedkeuren**, **verwerping**, en **Recall** knopen. Het statuut van timesheet verandert in **Voorgelegd**.
+   **voorlegt voor goedkeuring** knoop wordt vervangen door **goedkeuren**, **Afwijzen**, en **Recall** knopen. Het statuut van timesheet verandert in **Voorgelegd**.
 
    Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in het **wordt vermeld goedkeurt** gebied op de **3} pagina van het Huis.** De volgende dingen kunnen zich voordoen:
 
    * Als zij het goedkeuren, verandert de **Herinnerde** knoop in **heropenen** en de updates van de timesheet status aan **Open**.
-   * Als zij het verwerpen, **voorlegt voor Goedkeuring** knoop vervangt de **Recall** knoop en de updates van de timesheet status aan **Verworpen**.
+   * Als zij het verwerpen, **voorlegt voor goedkeuring** knoop vervangt de **Recall** knoop en de updates van de timesheet status aan **Verworpen**.
 
 1. (Facultatief) klik **Herinneren** als u timesheet moet heropenen en uw tijd bijwerken. Voor informatie, zie [ Rappel een timesheet ](#recall-a-timesheet) sectie in dit artikel.
 
