@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
+source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
 workflow-type: tm+mt
-source-wordcount: '6252'
+source-wordcount: '5529'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,9 @@ Het **etiket** is beschikbaar voor de meeste gebieden. Het is een beschrijvend l
 >
 >Gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten.
 
-A **naam** wordt vereist voor elk gebied. Deze naam is hoe het systeem het veld identificeert. Wanneer u het veld of de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.
+A **naam** wordt vereist voor elk gebied. Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties. Wanneer u het veld of de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.
+
+Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt.
 
 >[!NOTE]
 >
@@ -193,7 +195,7 @@ Een tekstveld toevoegen:
     </tr>
     <tr>
     <td>Label</td>
-    <td><p>Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.<p>
+    <td><p>(Vereist)Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.<p>
     <p>BELANGRIJK: gebruik geen speciale tekens in dit label. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p></td>
     <td><ul>
     <li>Tekst met één regel</li>
@@ -311,7 +313,7 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+     <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
@@ -321,13 +323,8 @@ Keuzerondjes, groepen selectievakjes en downloads toevoegen:
      </tr> 
      <tr> 
     <td role="rowheader">Naam</td> 
-     <td> <p>(Vereist) Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-    <p><b> BELANGRIJK </b>:   
-     <ul> 
-    <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
-    <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
-     <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-     </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#Add" class="MCXref xref"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
+     <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
+    <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td>
      <td><ul>
     <li>Keuzerondjes</li>
     <li>Groep selectievakjes</li>
@@ -464,7 +461,7 @@ U voegt als volgt velden voor typekop en datum toe:
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Datumveld</li>
@@ -472,14 +469,9 @@ U voegt als volgt velden voor typekop en datum toe:
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>(Vereist) Met deze naam identificeert het systeem het aangepaste veld wanneer u het toevoegt aan verschillende gebieden in Workfront, zoals rapporten, Home- en API-interacties.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-      <p><b> BELANGRIJK </b>:   
-      <ul> 
-      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
-      <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
-      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#Add" class="MCXref xref"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
-         <td><ul>
+      <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
+      <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td>
+    <td><ul>
     <li>Typeahead</li>
     <li>Datumveld</li>
     </ul></td>
@@ -579,17 +571,12 @@ Een externe zoekopdracht toevoegen:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het aangepaste veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>(Vereist) Met deze naam geeft het systeem het aangepaste veld aan.</p> <p>Wanneer u het aangepaste veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
-      <p><b> BELANGRIJK </b>:   
-      <ul> 
-      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
-      <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
-      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></li>
-      </ul> <p>Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. Voor meer informatie, zie <a href="#Add" class="MCXref xref"> een douanegebied aan een douanevorm </a> in dit artikel toevoegen.</p> </td>
+      <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> 
+      <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructies</td> 
       <td> <p>Typ eventuele aanvullende informatie over het aangepaste veld. Wanneer gebruikers het aangepaste formulier invullen, kunnen ze de muisaanwijzer boven het pictogram van het vraagteken plaatsen om knopinfo weer te geven met de informatie die u hier typt.</p> </td> 
@@ -706,11 +693,11 @@ Afbeeldingen, PDF of video&#39;s toevoegen:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
-      <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd.</p> <p>Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> <p><b> BELANGRIJK </b>: Alhoewel het mogelijk is dit te doen, adviseren wij dat u deze naam niet verandert nadat u of andere gebruikers beginnen de douanevorm in Workfront te gebruiken. Als u dat doet, herkent het systeem de widget niet meer waar er nu naar kan worden verwezen in andere gebieden van Workfront. </p> <p>Elke widgetnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt. </p> </td> 
+      <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p> <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -825,16 +812,12 @@ Deze tabel bevat een lijst met de beschikbare native velden voor specifieke Work
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven het veld wordt weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Naam</td> 
-      <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan.</p><p> Wanneer u het veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
-      <p><b> BELANGRIJK </b>:
-      <ul> 
-      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem niet langer het veld waar er nu naar kan worden verwezen in andere gebieden van Workfront.</p> </li>
-      <li> <p>Elke veldnaam moet uniek zijn in het Workfront-exemplaar van uw organisatie. Op deze manier kunt u een formulier hergebruiken dat al voor een ander aangepast formulier is gemaakt.</p> </li>
-      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></td> 
+      <td role="rowheader">Naam</td>
+      <td> <p>(Vereist) Met deze naam geeft het systeem het veld aan. Wanneer u het veld voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
+      <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructies</td> 
@@ -875,16 +858,12 @@ Een Adobe XD-bestand toevoegen:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten.</p> </td> 
+      <td> <p>(Vereist) Typ een beschrijvend label dat boven de widget moet worden weergegeven. U kunt het label op elk gewenst moment wijzigen.</p> <p><b> BELANGRIJK </b>: Gebruik geen speciale karakters in dit etiket. Ze worden niet correct weergegeven in rapporten. Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Naam</td> 
       <td> <p>(Vereist) Met deze naam wordt de widget door het systeem geïdentificeerd. Wanneer u de widget voor het eerst configureert en u typt het label, wordt het veld Naam automatisch aangepast. Maar de gebieden van het Etiket en van de Naam zijn niet gesynchroniseerd-dit geeft u de vrijheid om het etiket te veranderen dat uw gebruikers zien zonder het moeten de naam veranderen die het systeem ziet.</p>
-    <p><b> BELANGRIJK </b>:   
-      <ul> 
-      <li>Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront. <p>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.</p> </li>
-      <li> <p>We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.</p> </li>
-      <li><p>We raden u aan het teken punt/punt niet te gebruiken in de aangepaste veldnaam om fouten te voorkomen bij het gebruik van het veld in verschillende gebieden van Workfront.</p></td> 
+    <p>Voor meer informatie, zie <a href="design-a-form.md#notes-on-field-names-and-labels"> Nota's op gebiedsnamen en etiketten </a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
