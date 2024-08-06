@@ -9,9 +9,9 @@ description: Met de  [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Met de modules [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Librarie
 Als u instructies bij het creëren van een scenario nodig hebt, zie [ een scenario ](../../workfront-fusion/scenarios/create-a-scenario.md) creëren.
 
 Voor informatie over modules, zie [ Modules in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+
+>[!IMPORTANT]
+>
+>Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.
 
 ## Toegangsvereisten
 
@@ -113,7 +117,7 @@ Deze actiemodule archiveert een element uit een bibliotheek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -136,7 +140,7 @@ Deze actiemodule retourneert één element uit een bibliotheek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -182,7 +186,7 @@ Deze actiemodule wint een lijst van elementen in een bibliotheek terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -236,7 +240,7 @@ Deze actiemodule uploadt een klein bestandsmiddel naar een bestaande bibliotheek
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -287,7 +291,7 @@ Deze triggermodule start een scenario wanneer een element aan een bibliotheek wo
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -311,7 +315,7 @@ Deze triggermodule start een scenario wanneer een element in een bibliotheek wor
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -341,7 +345,7 @@ Deze triggermodule start een scenario wanneer een nieuwe bibliotheek wordt gemaa
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -360,7 +364,7 @@ Deze triggermodule start een scenario wanneer een bestaande bibliotheek wordt bi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> Verbinding maken met [!DNL Adobe Workfront Fusion] - Basisinstructies voor instructies over het verbinden van uw [!DNL Adobe Creative Cloud] -account met [!DNL Workfront Fusion] .</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
