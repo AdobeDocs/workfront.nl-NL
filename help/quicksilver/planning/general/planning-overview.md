@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Workfront-planning zoeken:
 
 1. Klik **Planning** ![](assets/planning-icon.png).
 
-   De landingspagina van Workfront Planning wordt geopend.
+   De hoofdpagina Workfront Planning wordt geopend.
 
    ![](assets/planning-landing-page-admin.png)
 
@@ -303,8 +303,8 @@ Workfront-planning zoeken:
 
 
 1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
-   * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde.
-   * **Andere werkruimten**: Toont alle andere werkruimten in het systeem, met inbegrip van degenen die met u worden gedeeld.
+   * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+   * **Andere werkruimten**: Toont alle andere werkruimten in het systeem, met inbegrip van degenen die met u worden gedeeld. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
    Voor alle andere gebruikers, alle werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
 

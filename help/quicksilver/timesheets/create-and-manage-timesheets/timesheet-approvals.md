@@ -6,9 +6,9 @@ description: Het proces om timesheets goed te keuren geeft managers zichtbaarhei
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
    <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: Plan </p> </td> 
+   <p>Huidig: Plan </p> 
+   <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot timesheets en uren </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Goedkeuraars voor tijdlijnen aanwijzen
 
-Meestal worden timesheets goedgekeurd door functionele managers of personeel. (Tijdschema&#39;s worden gewoonlijk niet goedgekeurd door projectbeheerders.)
+Meestal worden timesheets goedgekeurd door functionele managers of personeel. Tijdschema&#39;s worden gewoonlijk niet goedgekeurd door projectmanagers. De managers van het project kunnen tijd goedkeuren die op projecten wordt geregistreerd, maar het team of de managers van het personeel zouden timesheets moeten goedkeuren.
 
 Er wordt een fiatteur voor het tijdlijnprofiel gedefinieerd. U moet een licentie voor het abonnement hebben die u als fiatteur wilt opgeven.
 

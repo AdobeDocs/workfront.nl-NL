@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,15 @@ Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in d
 ## Overwegingen over werkruimten
 
 * U kunt werkruimten voor specifieke organisatorische eenheden binnen uw organisatie tot stand brengen, om de unieke manier aan te passen elke eenheid werkt.
+* Afhankelijk van uw Workfront-licentie worden werkruimten weergegeven op de volgende tabbladen in het gedeelte Planning:
+
+   * Voor systeembeheerders worden de werkruimten weergegeven op de volgende tabbladen:
+
+      * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **Andere werkruimten**: Toont alle andere werkruimten in het systeem, met inbegrip van degenen die met u worden gedeeld. &lt;!—Vervangen door: Andere werkruimten: geeft alle andere werkruimten in het systeem weer. >
+
+   * Voor alle andere gebruikers worden de werkruimten die zij hebben gemaakt en de werkruimten die anderen met hen delen, weergegeven in het gebied Werkruimten.
+
 * De recordtypen die een werkruimte bevat, moeten de levenscyclus van een organisatie weerspiegelen.
 * Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Voor informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen. Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
 * U kunt het volgende hebben:
@@ -144,6 +153,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
    * Een lege werkruimte genoemd **Naamloze Workspace** waar u recordtypes kunt beginnen manueel toe te voegen, wanneer u een werkruimte van kras creeert.
    * Een werkruimte die wordt genoemd naar de geselecteerde sjabloon en die is gevuld met typen voorbeeldrecords. U kunt de recordtypen en de werkruimte verder aanpassen.
 
+   Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op **Mijn werkruimten** tabel. <!--replace this with: Workspaces I'm on tab-->
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 
 1. (Facultatief en voorwaardelijk) als u de werkruimte van een malplaatje creeerde, klik binnen de naam van de **Operationele Types van Verslag** of **taxonomieën** secties
