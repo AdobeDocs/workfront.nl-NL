@@ -9,9 +9,9 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3689'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![](assets/map-toggle-350x74.png)
 
-* [Photoshop-bewerkingen toepassen](#apply-psd-edits)
+* [PSD-bewerkingen toepassen](#apply-psd-edits)
 * [Automatische kleuren corrigeren een afbeelding](#auto-color-correct-an-image)
 * [Afbeeldingsindeling omzetten](#convert-image-format)
 * [Een masker maken](#create-a-mask)
@@ -263,14 +263,14 @@ In deze actiemodule worden diverse bewerkingen op document- en laagniveau toegep
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ Met deze handelingsmodule corrigeert u de opgegeven afbeelding automatisch.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ Deze actiemodule zet een bestand om in JPEG, PNG, PSD of TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ Deze actiemodule retourneert een PNG-bestand met een mast toegepast rond het ond
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het maskerbestand moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het maskerbestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het maskerbestand wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het maskerbestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -575,6 +575,119 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Photoshop-handelingen uitvoeren (JSON)
+
+Deze handelingsmodule voert Photoshop-handelingen uit met behulp van JSON-opdrachten.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Input) File location]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Voer de JSON-opdracht in voor de handeling die u wilt uitvoeren.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
+      <td>
+        <p>Voor elk lettertype, patroon, penseel of andere afbeelding die u in deze handeling wilt gebruiken, klikt u op Item toevoegen en voert u de opslag- en bestandslocatie van het item in.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt gebruiken. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>Voor elk omgezet dossier wilt u tot stand brengen, voegt het punt toe en gaat de opslag, de plaats in, en typt zoals vermeld in deze lijst.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### Diepte vervagen uitvoeren
@@ -725,117 +838,6 @@ Deze actiemodule voert een Photoshop-actie uit op de geselecteerde afbeelding.
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
   </tbody>
-</table>
-
-### Photoshop-handelingen uitvoeren (JSON)
-
-Deze handelingsmodule voert Photoshop-handelingen uit met behulp van JSON-opdrachten.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
-      <td>
-        <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Input) File location]</p>
-      </td>
-   <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Action JSON]</td>
-      <td>
-        <p>Voer de JSON-opdracht in voor de handeling die u wilt uitvoeren.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
-      <td>
-        <p>Voor elk lettertype, patroon, penseel of andere afbeelding die u in deze handeling wilt gebruiken, klikt u op Item toevoegen en voert u de opslag- en bestandslocatie van het item in.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
-      </td>
-   <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt gebruiken. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
-      <td>
-        <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file URL]</p>
-      </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file type]</p>
-      </td>
-   <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
-      <td>
-        <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Compression]</p>
-      </td>
-   <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs]</td>
-      <td>
-        <p>Voor elk omgezet dossier wilt u tot stand brengen, voegt het punt toe en gaat de opslag, de plaats in, en typt zoals vermeld in deze lijst.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
-      <td>
-        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) File location]</p>
-      </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) Type]</p>
-      </td>
-   <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
-      <td>
-        <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Maximum number of returned results]</p>
-      </td>
-   <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### Uitsnijden van product uitvoeren
@@ -1020,14 +1022,14 @@ Deze actiemodule identificeert het hoofdonderwerp van uw afbeelding en verwijder
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1115,14 +1117,14 @@ Deze actiemodule vervangt een slim object in een laag PSD en genereert nieuwe ui
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ Met deze actie wijzigt u de grootte van een afbeelding en gebruikt u dezelfde ho
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het bestand waarvan u het formaat wilt wijzigen, is opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het bestand waarvan u het formaat wilt wijzigen, is opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe aan het bestand waarvan u het formaat wilt wijzigen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe aan het bestand waarvan u het formaat wilt wijzigen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>
@@ -1269,18 +1271,17 @@ Met deze actiemodule voegt u een watermerk toe aan de geselecteerde afbeelding.
       </td>
    <td> Voer de afstand in pixels in van de bovenkant van de afbeelding die het watermerk moet hebben.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Selecteer de bestandsservice waar het bestand met watermerken moet worden opgeslagen.</p>
+        <p>Selecteer de bestandsservice waar het bestand met watermerken moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Voer de URL of het pad in of wijs deze toe waar het bestand met watermerken wordt opgeslagen. </td> 
+   <td> Voer de URL of het pad in of wijs deze toe waar het bestand met watermerken wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
