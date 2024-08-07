@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 992a4b2c220664b660e871b3d464350d8f6f1a53
 workflow-type: tm+mt
-source-wordcount: '14301'
+source-wordcount: '14306'
 ht-degree: 0%
 
 ---
@@ -2113,6 +2113,7 @@ ht-degree: 0%
          * [Een webhaak toevoegen aan een basisscenario in  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Een praktijkautomatiseringsscenario maken in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Een praktijkintegratiescenario maken in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
+      * [AI Assistant in Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
       * [Adobe Workfront Fusion-prestatiehandleidingen](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [IP Adressen om tot de Fusie van Adobe Workfront toegang te hebben](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion-licenties](workfront-fusion/get-started/license-automation-vs-integration.md)
