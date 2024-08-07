@@ -155,9 +155,9 @@ U kunt weergaven die u hebt gemaakt of weergaven waarop u beheermachtigingen heb
    De weergave wordt bijgewerkt met het pictogram voor personen ![](assets/view-shared-with-others-people-icon.png) om aan te geven dat de weergave nu wordt gedeeld met andere gebruikers.
 
    >>
-   [!TIP]
+   >[!TIP]
    >>
-   Weergaven zonder personen of een globaal pictogram zijn weergaven die u hebt gemaakt en die niet met anderen worden gedeeld. Niet-gedeelde weergaven zijn alleen voor u zichtbaar.
+   >Weergaven zonder personen of een globaal pictogram zijn weergaven die u hebt gemaakt en die niet met anderen worden gedeeld. Niet-gedeelde weergaven zijn alleen voor u zichtbaar.
 
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave.
 
@@ -167,7 +167,7 @@ U kunt weergaven die u hebt gemaakt of weergaven waarop u beheerdersmachtigingen
 
 >[!IMPORTANT]
 >
-Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen de weergaven van de werkruimte openbaar delen.
+>Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen de weergaven van de werkruimte openbaar delen.
 
 
 Een weergave openbaar delen in Workfront Planning:
@@ -199,7 +199,7 @@ Een weergave openbaar delen in Workfront Planning:
    De weergave wordt bijgewerkt met een algemeen pictogram ![](assets/public-shared-view-icon-highlighted.png) om aan te geven dat de weergave openbaar wordt gedeeld.
 
    >>
-   [!TIP]
+   >[!TIP]
    >
    >Weergaven zonder personen of een globaal pictogram zijn weergaven die u hebt gemaakt en die niet met anderen worden gedeeld. Niet-gedeelde weergaven zijn alleen voor u zichtbaar.
 
