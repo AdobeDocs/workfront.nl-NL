@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 68aa3f1fb0d754bb913dbf8ea4e1e64660fd0cda
+source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en webservices, 
 Voor informatie over hoe te om de Fusie van Workfront te gebruiken, zie [ de Fusie van Adobe Workfront ](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Fusieleveringen in 2024
+
+### augustus 2024
+
+* [Workfront Fusion release activity: Week van 5 augustus 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
 
 ### juli 2024
 
