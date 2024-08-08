@@ -1,16 +1,16 @@
 ---
-title: Directe rapporten maken
+title: Direct rapporten maken
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont. Voor meer informatie, zie [ Mening de organisatorische grafiek ](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Directe rapporten maken
 
 1. Begin het uitgeven van een gebruiker zoals die in [ wordt beschreven geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
@@ -54,6 +58,5 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    Dit veld mag niet leeg zijn.
 
 1. Op het **Directe gebied van Rapporten**, specificeer om het even welke gebruikers die aan de gebruiker rapporteren u uitgeeft.
-
 1. (Facultatief) op de **Rapporten aan** gebied, specificeer de naam van de gebruiker die deze gebruiker aan rapporteert.
 1. Klik **sparen Veranderingen**.

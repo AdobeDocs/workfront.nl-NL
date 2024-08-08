@@ -1,16 +1,16 @@
 ---
-title: Controleverslagen weergeven en exporteren
+title: Auditlogboeken weergeven en exporteren
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: U kunt alle controlelogboeken in het systeem bekijken, of die die aan bepaalde het filtreren criteria voldoen. U kunt controlelogboeken ook exporteren. De logboeken van de controle maken een lijst gebruiker-veranderingen die in het systeem tijdens de afgelopen 90 dagen in werking worden gesteld.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Voor informatie over alle types van controlelogboek en wat hen produceert, zie [
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -46,9 +48,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Controlelogboeken weergeven
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Systeem > Logboeken van de Controle**.
 1. In het **drop-down menu van het Type van Logboek**, selecteer het type van controlelogboek u wilt bekijken.
@@ -70,7 +74,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Controleverslagen exporteren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Systeem > Logboeken van de Controle**.
 

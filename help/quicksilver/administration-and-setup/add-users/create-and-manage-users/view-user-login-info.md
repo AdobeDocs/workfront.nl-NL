@@ -1,16 +1,16 @@
 ---
-title: Aanmeldingsgegevens van gebruikers weergeven
+title: Aanmeldingsgegevens gebruiker weergeven
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: U kunt zien hoe vaak de gebruikers zich bij Workfront aanmelden, evenals de laatste tijd zij het programma hebben geopend, door erop te wijzen dat u deze informatie in de mening van een lijst van gebruikers, of in een rapport voor gebruikers wilt omvatten.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt zien hoe vaak de gebruikers zich bij Adobe Workfront aanmelden, evenals de laatste tijd zij het programma hebben geopend, door erop te wijzen dat u deze informatie in de mening van een lijst van gebruikers, of in een rapport voor gebruikers wilt omvatten.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,6 +47,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Hoe Workfront aanmeldingsgegevens registreert
 

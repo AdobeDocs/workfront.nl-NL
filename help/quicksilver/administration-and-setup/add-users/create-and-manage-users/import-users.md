@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: U kunt gebruikers naar de Adobe Workfront-site importeren door gebruikers te synchroniseren vanuit een netwerkdirectoryservice (zoals Active Directory of een andere LDAP-directory), of u kunt gebruikers importeren met behulp van een spreadsheet-importbestand.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ U kunt gebruikers importeren met behulp van een spreadsheet-importbestand.
 Voordat u een nieuwe gebruiker maakt, moet u eerst controleren of u alle objecten hebt gemaakt die u aan de gebruiker wilt koppelen. Bijvoorbeeld, als u geen programma hebt gecreeerd, kunt u geen programma aan de nieuwe gebruiker toewijzen, en het gebied u gebruikt om een programma met de nieuwe gebruiker te associëren verschijnt niet in het Nieuwe scherm van de Gebruiker.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -60,9 +62,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Een spreadsheet-importbestand gebruiken om gebruikers te importeren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Klik de **Nieuwe Gebruiker** drop-down pijl, dan klik **de Gebruikers van de Invoer**.
 

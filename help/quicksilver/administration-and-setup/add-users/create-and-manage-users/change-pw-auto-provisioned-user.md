@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Het wachtwoord wijzigen voor een gebruiker met automatische provisioning
-description: Wanneer een nieuwe gebruiker zijn tijdelijke wachtwoord probeert te wijzigen, voert hij zijn e-mailadres in en ontvangt hij een fout wegens een onjuiste gebruikersnaam. Zij moeten hun systeem-toegewezen gebruikersnaam ingaan, die hun Globally Unique Identifier (GUID) is. Omdat een GUID moeilijk is te herinneren en te gebruiken, adviseren wij dat u een gebruikersnaam van een nieuwe gebruiker in hun Workfront e-mailadres verandert, dan hen toestaan om hun wachtwoord te veranderen.
-author: Caroline
+description: We raden u aan de gebruikersnaam van een nieuwe gebruiker te wijzigen in het Workfront-e-mailadres en deze vervolgens toe te staan zijn wachtwoord te wijzigen.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Omdat de gebruikersnamen GUID moeilijk kunnen zijn te gebruiken, adviseren wij u
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Het wachtwoord wijzigen voor een gebruiker met automatische provisioning
 

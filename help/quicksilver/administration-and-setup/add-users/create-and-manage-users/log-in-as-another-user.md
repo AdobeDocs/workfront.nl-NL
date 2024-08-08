@@ -1,5 +1,5 @@
 ---
-title: Aanmelden als een andere gebruiker
+title: Aanmelden als andere gebruiker
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -73,6 +75,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aanmelden en acties uitvoeren als een andere gebruiker
 

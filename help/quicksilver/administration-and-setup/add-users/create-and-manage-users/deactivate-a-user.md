@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 -->
 
-Als een gebruiker de organisatie verlaat, moet u deze mogelijk uit Adobe Workfront verwijderen. Ze mogen niet actief blijven in het systeem, omdat dit verwarring zou veroorzaken voor andere gebruikers wanneer ze aan updates worden toegevoegd of ze aan updates worden toegewezen. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
+Als een gebruiker de organisatie verlaat, moet u deze mogelijk uit Adobe Workfront verwijderen. Ze moeten niet actief blijven in het systeem, omdat dit verwarring zou veroorzaken voor andere gebruikers wanneer ze aan updates worden toegevoegd of deze aan updates worden toegewezen. Wanneer u een gebruiker deactiveert, zien andere gebruikers niet langer hun naam wanneer zij naar mensen in het systeem zoeken.
 
 De beheerders kunnen inactieve gebruikers in het gebied van de Opstelling zien.
 
@@ -46,6 +46,8 @@ U kunt een gebruiker op elk gewenst moment opnieuw activeren.
 >Voor meer informatie over het effect van het schrappen en dat van het desactiveren van gebruikers, zie [ gebruikers van de Schrapping ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -66,11 +68,13 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
      <li> <p>Het toegangsniveau voor systeembeheerders. Voor informatie, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>. </p> </li> 
-     <li> <p><b> Gebruikers </b> plaatsend in uw toegangsniveau dat aan <b> wordt gevormd geef </b> toegang uit, met <b> creeer </b> en minstens één van de twee <b> toegelaten opties van Admin van de Gebruiker </b> onder <b> verfijn uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over <b> Gebruikers </b> plaatsend in een toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Toegang van de Verlening tot gebruikers </a>.</p> </li> 
+     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Van deze twee opties, als Gebruiker <b> Admin (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> <p>Voor meer informatie over <b> Gebruikers </b> die in een toegangsniveau plaatsen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> de toegang van de Verlening tot gebruikers </a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Vereisten
 
@@ -90,7 +94,7 @@ Houd rekening met het volgende wanneer u een gebruiker deactiveert:
 
 Een gebruiker deactiveren:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Selecteer een gebruiker, klik het **Meer** pictogram ![](assets/more-icon.png), dan klik **Deactivate**.
 
@@ -104,13 +108,13 @@ Workfront-beheerders en gebruikers van een abonnement kunnen de datum van deacti
 
 Een gebruiker plannen voor deactivering:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Selecteer de gebruikersnaam.
 
-   Of
+   of
 
-   (Optioneel) Selecteer meerdere gebruikers om ze bulksgewijs te laten deactiveren.
+   (Optioneel) Selecteer meerdere gebruikers om ze bulksgewijs te deactiveren.
 
 1. Klik op het pictogram Bewerken ![](assets/edit-icon.png) .
 1. In het Edit vakje van de Gebruiker dat toont, klik **Planning van het Middel** om naar dat gebied te gaan.
@@ -131,19 +135,19 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 
 ## Een gebruiker opnieuw activeren
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Selecteer een gebruiker, klik het Meer pictogram ![](assets/more-icon.png), dan klik **activeer**.
 
-1. Wijs een nieuw **niveau van de Toegang** in het drop-down menu toe, dan klik **Reactivate**.
+1. Wijs een nieuw **niveau van de Toegang** in het drop-down menu toe, dan klik **** Reactivate.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
 Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
-### Proefdrukeffect wanneer u een gebruiker opnieuw activeert
+### Bewijseffect wanneer u een gebruiker opnieuw activeert
 
-Gedeactiveerde gebruikers verliezen hun toegewezen standaardproofingrol en hun proefdruklicentie (als u op een Workfront Premium Legacy Plan werkt). Als u ervoor kiest om de gebruiker opnieuw te activeren, moet u:
+Gedeactiveerde gebruikers verliezen hun toegewezen standaardproofingrol en hun proefdruklicentie (als u op een Workfront Premium Legacy Plan bent). Als u ervoor kiest de gebruiker opnieuw te activeren, moet u:
 
 * Wijs de licentie opnieuw toe (als u een Workfront Premium Legacy Plan gebruikt). Voor meer informatie over het proefdrukken van Workfront plannen, zie [ Toegang tot het proefdrukken functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 * Controleer of ze de juiste proefdrukrol hebben. De opnieuw geactiveerde proefdrukgebruikers worden toegewezen wat als standaardproefrol voor nieuwe gebruikers wordt gespecificeerd. Zie [ standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) voor meer informatie vormen.
@@ -167,8 +171,8 @@ Deze objecten en activiteiten kunnen het volgende omvatten:
 
 ## De gevolgen van de planning van het middel wanneer u een gebruiker voor deactivering plant
 
-Wanneer u een gebruiker voor deactivering plant, verschijnen zij niet meer in de Planner van het Middel beschikbaar voor het opnemen van uren. Als zij deel van de Pools van het Middel blijven, verschijnen zij in de Planner van het Middel, maar hun beschikbaarheid zal aan nul uren die met de datum van hun geplande deactivering beginnen worden geplaatst.
+Wanneer u een gebruiker voor deactivering plant, verschijnen zij niet meer in de Planner van het Middel zoals beschikbaar voor het opnemen van uren. Als zij deel van de Pools van het Middel blijven, verschijnen zij in de Planner van het Middel, maar hun beschikbaarheid zal aan nul uren die met de datum van hun geplande deactivering beginnen worden geplaatst.
 
-De functie Resourceplanner houdt rekening met alle taakrollen van de gebruikers en de geplande voltooiingsdata van de taken en berekent de bronnen dienovereenkomstig.
+De Planner van het Middel houdt rekening met alle baanrollen van de gebruikers en Geplande Datums van de Voltooiing van de taken en berekent dienovereenkomstig middelen.
 
 Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

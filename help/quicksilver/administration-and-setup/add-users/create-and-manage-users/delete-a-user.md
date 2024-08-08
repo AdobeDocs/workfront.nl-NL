@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Wanneer een gebruiker uw organisatie verlaat, kunt u die gebruiker uit Adobe Wor
 -->
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -59,6 +61,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Een gebruiker verwijderen of deactiveren
 
@@ -118,9 +122,8 @@ U kunt gebruikers een voor een permanent verwijderen of u kunt meerdere gebruike
 
 ## Een of meer gebruikers verwijderen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step-1-to-users}}
 
-1. Klik **Gebruikers**.
 1. Selecteer minstens één gebruiker die u wilt schrappen, het Meer menu ![](assets/more-icon.png) klikken, dan **Schrapping** klikken.
 1. In de doos die verschijnt, klik **Schrapping** om de schrapping te bevestigen.
 
