@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 ## Verbeteringen voor Adobe Workfront
 
 * [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen voor integratie](#integration-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Projectverbeteringen
@@ -95,6 +96,42 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 </tr>
            </tbody>
         </table>
+
+### Verbeteringen voor integratie
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeteringen van de de integratielogin van Vooruitzichten </a></p>
+                        <p>De login ervaring voor de integratie van Vooruitzichten is gestroomlijnd zodat alle klanten de zelfde knoop zien aan login aan Workfront al dan niet zij IMS-Toegelaten zijn. De volgende aanmeldstappen verschillen voor IMS- en niet-IMS-instanties, maar de eerste pagina is voor alle gebruikers hetzelfde.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 6 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle afnemers: 6 augustus 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### Andere verbeteringen
 

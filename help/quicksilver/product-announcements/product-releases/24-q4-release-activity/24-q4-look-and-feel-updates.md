@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
+source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Vierde Kwart 2024 releasetijdschema werden gemaakt.
 
 Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2024 versie, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## De blik-en-voelt updates voor de pagina van de Voorkeur van het Systeem
+
+>[!NOTE]
+>
+>Voorvertoningsrelease: 18 juli 2024; productie voor snelle release: met de release van 24.9 (september 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+
+We hebben de pagina Setup > System > Preferences bijgewerkt naar een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Voor informatie, zie [ systeemvoorkeur ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 ## De gebruiker van de mening en voelt update voor Schrapping en Deactivate gebruikersberichten
 
