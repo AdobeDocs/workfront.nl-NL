@@ -1,35 +1,35 @@
 ---
-title: Voorbeelden van het veld Externe opzoeken in een aangepast formulier
+title: Voorbeelden van het externe opzoekveld in een aangepast formulier
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Een extern opzoekveld in een aangepast formulier roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Dit artikel bevat voorbeelden van het gebruik van het veld Externe opzoekopdracht om dezelfde instantie van Workfront of een openbare API aan te roepen.
+description: Een extern opzoekveld in een aangepast formulier roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Dit artikel bevat voorbeelden van het gebruik van het externe opzoekveld om dezelfde instantie van Workfront of een openbare API aan te roepen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
-# Voorbeelden van het veld Externe opzoeken in een aangepast formulier
+# Voorbeelden van het externe opzoekveld in een aangepast formulier
 
 Een extern opzoekveld in een aangepast formulier roept een externe API aan en retourneert waarden als opties in een vervolgkeuzeveld. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in het vervolgkeuzemenu selecteren.
 
-Dit artikel bevat voorbeelden van het gebruik van het veld Externe opzoekopdracht om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe Opzoeken ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
+Dit artikel bevat voorbeelden van het gebruik van het externe opzoekveld om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe raadpleging ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
 
-Voor meer informatie over het toevoegen van een Extern gebied van de Opzoekopdracht aan een douanevorm en extra definities van de externe raadplegingscomponenten, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan een douanevorm en extra definities van de externe raadplegingscomponenten, zie [ Ontwerp een vorm met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Een extern opzoekveld instellen voor dezelfde instantie van Workfront
 
-U kunt de externe opzoekfunctie gebruiken om gegevens van uw Workfront-exemplaar over te brengen naar het aangepaste formulier.
+U kunt de externe zoekopdracht gebruiken om gegevens van uw Workfront-exemplaar over te brengen naar het aangepaste formulier.
 
-### Eigen Workfront-veldwaarden gebruiken in externe zoekopdracht
+### Native Workfront-veldwaarden gebruiken in de externe zoekopdracht
 
-In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit het bestaande veld Statusquery naar uw externe opzoekveld overbrengt.
+In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit het bestaande veld Statusquery naar uw externe opzoekveld brengt.
 
 1. Open het aangepaste formulier.
 1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
@@ -74,7 +74,7 @@ In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en gegevens uit h
 
 ### Aangepaste veldwaarden gebruiken in de externe zoekopdracht
 
-In dit voorbeeld ziet u hoe u de Workfront API aanroept en gegevens van een aangepast veld naar het veld Externe opzoeken overbrengt. Het aangepaste voorbeeldveld wordt &#39;Aangepaste kleuren&#39; genoemd.
+In dit voorbeeld ziet u hoe u de Workfront API aanroept en gegevens van een aangepast veld naar uw externe opzoekveld brengt. Het aangepaste voorbeeldveld wordt &#39;Aangepaste kleuren&#39; genoemd.
 
 1. Open het aangepaste formulier.
 1. Op de linkerkant van het scherm, vind **Externe raadpleging** en sleep het aan een sectie op het canvas.
@@ -107,11 +107,11 @@ In dit voorbeeld ziet u hoe u de Workfront API aanroept en gegevens van een aang
 
 1. Klik **toepassen**.
 
-   Wanneer het aangepaste formulier aan een Workfront-object wordt toegevoegd, worden alle waarden in het veld &quot;Combo Colors&quot; weergegeven in het vervolgkeuzemenu Extern opzoeken.
+   Wanneer het aangepaste formulier aan een Workfront-object wordt toegevoegd, worden alle waarden in het veld &quot;Combo Colors&quot; weergegeven in het vervolgkeuzemenu Extern opzoekveld.
 
 ## Een extern opzoekveld instellen voor een openbare API
 
-U kunt de Externe Opzoekfunctie gebruiken om een externe, openbare API aan te roepen en gegevens op te halen.
+U kunt de externe zoekopdracht gebruiken om een externe, openbare API aan te roepen en gegevens op te halen.
 
 In dit voorbeeld wordt getoond hoe u een API van landen (zoals <https://api.first.org/data/v1/countries>) aanroept, zodat u niet alle landnamen in de vervolgkeuzemogelijkheden hoeft te coderen.
 
@@ -131,7 +131,7 @@ Geeft alle landen weer: <https://api.first.org/data/v1/countries>
    Hiermee kan de gebruiker naar een land in een regio zoeken: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * De beschikbare gebieden worden gedefinieerd in een afzonderlijk aangepast veld in Workfront.
-   * Wanneer de gebruiker een gebied op het formulier selecteert, worden in het veld Externe opzoekopdracht alleen de landen in dat gebied weergegeven (in welk land de regio is gedefinieerd in de API). De gebruiker kan ook naar een land in het geselecteerde gebied zoeken.
+   * Wanneer de gebruiker een gebied op het formulier selecteert, worden in het veld Extern opzoeken alleen de landen in dat gebied weergegeven (in welk land de regio is gedefinieerd in de API). De gebruiker kan ook naar een land in het geselecteerde gebied zoeken.
 
 1. Herzie **Afhankelijkheden** voor de gebieden dat dit raadplegingsgebied in API van verwijzingen voorziet.
 
@@ -167,3 +167,23 @@ Geeft alle landen weer: <https://api.first.org/data/v1/countries>
    ![ Vorm van de Douane met extern raadplegingsgebied ](assets/external-lookup-countries-example1.png)
 
    ![ Externe raadplegingsopties voor een land dat op gebied ](assets/external-lookup-countries-example2.png) wordt gebaseerd
+
+## Aanvullende gebruiksgevallen voor externe opzoekvelden
+
+Er zijn veel andere gevallen waarin u een externe zoekopdracht kunt maken.
+
+**geval van het Gebruik:** vervang typeahead gebieden, omdat zij problemen met het melden kunnen veroorzaken.
+**Oplossing:** gebruik een API vraag aan bestaande voorwerpen in het systeem.
+
+Voorbeeld-basis-API-URL voor sjablonen, ter vervanging van een typeahead-veld:
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**het geval van het Gebruik:** creeer dropdown gebieden met meer eigenschappen (bijvoorbeeld, is er lijnomslag op het Externe onderzoeksgebied).
+**Oplossing:** gebruik een API vraag aan bestaande voorwerpen in het systeem, of creeer een nieuw voorwerp en gebruik een API vraag aan dit voorwerp.
+
+**geval van het Gebruik:** bepaal een manier voor gebruikers om hun eigen gebieden buiten het gebied van douaneformulieren te handhaven. Stel het externe opzoekveld in en u kunt gebruikers de objecten geven die het veld vormen. Deze optie is geschikt voor velden en teams met hoog onderhoud.
+**Oplossing:** creeer een nieuw voorwerp en gebruik een API vraag aan dit voorwerp.
+
+**geval van het Gebruik:** Integratie met voorwerpen buiten Workfront. Bijvoorbeeld, die tot een ander systeem toegang hebben om de naam van elke gebruiker te krijgen, eerder dan wordt beperkt op een typeahead gebied.
+**Oplossing:** automatisering Webhaak/Fusion om met andere systemen te verbinden.
+

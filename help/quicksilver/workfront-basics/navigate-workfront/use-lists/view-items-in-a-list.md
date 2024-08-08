@@ -5,18 +5,14 @@ description: U kunt lijsten van voorwerpen in  [!DNL Adobe Workfront]  bekijken 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met lijsten in [!DNL Adobe Workfront]
-
-<!--
-{{highlighted-preview}}
--->
 
 U kunt lijsten met objecten weergeven in [!DNL Adobe Workfront] voor meer informatie over deze objecten, zoals de begin- en vervaldatum, de gebruikers die eraan zijn toegewezen en andere objecten die eraan zijn gekoppeld.
 
@@ -208,12 +204,10 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">Lijst met aangepaste formulieren</td> 
+   <td>Lijst met aangepaste formulieren</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b> NOTA </b>: Dit is momenteel beschikbaar slechts in het milieu van de Voorproef</p> </li> 
+     <li>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

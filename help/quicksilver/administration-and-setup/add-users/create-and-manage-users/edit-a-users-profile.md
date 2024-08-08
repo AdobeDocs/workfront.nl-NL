@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '3297'
 ht-degree: 0%
@@ -236,7 +236,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Aangepaste Forms</td> 
-      <td><p>Koppel een bestaand aangepast gebruikersformulier aan deze gebruiker. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Velden die u niet kunt bewerken, worden niet weergegeven in een afzonderlijk aangepast formulier.</p> <p><strong> Nota:</strong> de Geavanceerde eigenschappen van de douanevorm zoals Externe Velden van de Opzoekopdracht en inheemse gebieden van Workfront zijn slechts beschikbaar wanneer u het gebruikersverslag op de detailspagina, niet op het Edit de dialoogvakje van de Gebruiker opent. (Klik in de lijst met gebruikers op de gebruikersnaam om de details te openen.)</p> <p>Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref"> Ontwerp een vorm met de vormontwerper </a>.</p></td> 
+      <td><p>Koppel een bestaand aangepast gebruikersformulier aan deze gebruiker. U moet een aangepast formulier maken voordat u het aan een gebruiker kunt koppelen. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Velden die u niet kunt bewerken, worden niet weergegeven in een afzonderlijk aangepast formulier.</p> <p><strong> Nota:</strong> de Geavanceerde eigenschappen van de douanevorm zoals Externe raadplegingsgebieden en de inheemse gebieden van Workfront zijn slechts beschikbaar wanneer u het gebruikersverslag op de detailspagina, niet op de Edit dialoog van de Gebruiker opent. (Klik in de lijst met gebruikers op de gebruikersnaam om de details te openen.)</p> <p>Voor informatie over het creëren van douaneformulieren, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref"> Ontwerp een vorm met de vormontwerper </a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Opmerking</td> 
