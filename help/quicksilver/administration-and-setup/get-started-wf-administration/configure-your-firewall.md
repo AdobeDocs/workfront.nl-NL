@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: De lijst van gewenste personen van uw firewall configureren
+title: De Lijst van gewenste personen van uw firewall configureren
 description: Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend en kunnen uw gebruikers berichten verzenden vanuit Workfront en SSO gebruiken met Active Directory of LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ De IP adressen die u aan uw lijst van gewenste personen op uw firewall moet toev
 
 De cluster van uw organisatie zoeken:
 
-1. Als beheerder van Workfront, klik het **pictogram 1} van het Belangrijkste Menu ![ ](assets/main-menu-icon.png), dan klik** Opstelling **.**
+{{step-1-to-setup}}
+
 1. In de linkernavigatie, klik **Systeem**, dan uitgezochte **Info van de Klant**.
 1. Bepaal de plaats van het **gebied van de Opstelling van de Cluster** bij de hoger-juiste hoek van de pagina. De cluster van uw organisatie wordt hier vermeld.
 

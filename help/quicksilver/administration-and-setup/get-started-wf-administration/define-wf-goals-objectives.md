@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Overzicht van het definiëren van doelstellingen voor uw Adobe Workfront-implementatie
+title: Overzicht van het bepalen van Doelstellingen voor Uw implementatie van Adobe Workfront
 description: Bij de implementatie van Adobe Workfront is het belangrijk om de principes van uw succescriteria vast te stellen. We raden u aan eerst uw huidige processen, organisatiestructuur en workflows te documenteren en vervolgens uw algemene doelstellingen te definiëren voor hoe Workfront in uw organisatie zal passen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%

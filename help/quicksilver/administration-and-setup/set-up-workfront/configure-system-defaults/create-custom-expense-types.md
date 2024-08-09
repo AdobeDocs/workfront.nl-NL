@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Aangepaste uitgaventypen maken
+title: Aangepaste kostentypen maken
 description: Als  [!DNL Adobe Workfront]  beheerder, kunt u de types van douanefoto tot stand brengen om de uitgaven te bepalen en te volgen verbonden aan uw taken en projecten. De kosten zijn niet-arbeidskosten die met taken of projecten kunnen worden geassocieerd.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Als [!DNL Adobe Workfront] beheerder, kunt u de types van douaneuitgave tot stan
 U kunt alle onkostentypen die u maakt, bewerken of verwijderen. U kunt de ingebouwde uitgaventypen van [!DNL Workfront] niet verwijderen of bewerken.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Standaardkostentypen
 
 De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwijderd of bewerkt, zijn onder andere:
@@ -59,7 +63,8 @@ De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwi
 
 ## Aangepaste uitgaventypen maken
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
+{{step-1-to-setup}}
+
 1. Klik op **[!UICONTROL Expense Types]**.
 1. Klik op **[!UICONTROL New Expense Type]**.
 1. Geef in het vak **[!UICONTROL New Expense Type]** dat wordt weergegeven de volgende informatie op:
@@ -101,7 +106,8 @@ De kostentypen die standaard in [!DNL Workfront] staan, kunnen niet worden verwi
 
 ## Aangepaste kostentypen wijzigen
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] .
+{{step-1-to-setup}}
+
 1. Klik op **[!UICONTROL Expense Types]**.
 1. Selecteer het kostentype dat u wilt wijzigen en klik op **[!UICONTROL Edit]** .
 

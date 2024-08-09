@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Overzicht van firewalls
 description: Omdat Adobe Workfront communiceert met het netwerk van uw organisatie, moet de firewall van uw organisatie worden gevormd om die mededeling toe te staan. De firewalls zijn hoogst efficiënte veiligheidsmaatregelen die door het netwerk van een organisatie van Internet te scheiden functioneren. Zij zorgen ervoor dat slechts het geselecteerde gegevens en netwerkverkeer zich in of uit het netwerk van de organisatie kan bewegen. De firewall staat of blokkeert gegevens toe die op de plaats worden gebaseerd die de gegevens verzendt of ontvangt. Als Adobe Workfront-beheerder moet u ervoor zorgen dat gegevens die naar of van Workfront worden verzonden, door de firewall van uw organisatie kunnen worden doorgegeven.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Geef uw netwerkbeheerder de volgende informatie:
 
 ### Het cluster- en Workfront-plan van uw organisatie weergeven {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** in het linkerpaneel
 1. Om uw cluster te bekijken, selecteer **Info van de Klant**.

@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Aan de slag met Adobe Workfront-beheer: artikelindex"
+title: "Aan de slag met Adobe Workfront Administration: Article Index"
 description: In deze sectie vindt u informatie en instructies over de eerste installatie van Adobe Workfront en informatie die u als Workfront-beheerder nodig hebt.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Houd rekening met het volgende wanneer u het snelle releaseproces in- of uitscha
 
 U schakelt het snelle releaseproces in of uit:
 
-1. Klik het **Belangrijkste pictogram van het Menu**, dan klik **Opstelling**.
+{{step-1-to-setup}}
+
 1. Breid **Systeem** in de linkernavigatie uit, dan klik **Voorkeur**.
 1. Om snelle versies toe te laten, controleer **snel versieproces** checkbox toestaan.
 

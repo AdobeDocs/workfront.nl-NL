@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Aanvraagtypen configureren
 description: Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of een taak registreren. U kunt verzoeken ook voorleggen, die als kwesties op een project worden geregistreerd dat als Rij van het Verzoek wordt aangewezen. Kwesties en verzoeken worden in Adobe Workfront als onderling verwisselbaar beschouwd.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte ge
 Voor informatie over het creëren van kwesties in [!DNL Workfront], zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren. Voor informatie over het creëren van verzoeken in [!DNL Workfront], zie [  [!DNL Adobe Workfront]  verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen. Voor informatie over het associëren van de Types van Verzoek met projecten, zie [ de Types van Verzoek voor een project ](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md) bepalen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ Als [!DNL Workfront] beheerder, kunt u de namen van de verzoektypes in uw systee
 
 U kunt als volgt de namen van de aanvraagtypen aanpassen:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]** .
 

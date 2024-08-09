@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Projectvoorkeuren voor alle groepen in het systeem vergrendelen of ontgrendelen
+title: De Voorkeur van het Project van het slot of van het Ontgrendelen voor Alle Groepen in het Systeem
 description: De groepen in uw organisatie zouden een projectvoorkeur kunnen nodig hebben die verschillend voor hun unieke werkschema's wordt gevormd. U kunt de voorkeur voor alle groepen door de organisatie ontgrendelen zodat zij het op hun kunnen vormen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ De groepen in uw organisatie zouden een projectvoorkeur kunnen nodig hebben die 
 Wanneer een voorkeur wordt ontgrendeld en de groepsbeheerder het wijzigt, verwerven de projecten verbonden aan de groep de configuratie voor die voorkeur van groep-niveau het plaatsen in plaats van van van systeem-niveau het plaatsen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,6 +46,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Over vergrendelde en ontgrendelde voorkeuren
 
 Door een project, taak of uitgiftevoorkeur te vergrendelen die u op systeemniveau hebt geconfigureerd, zorgt u ervoor dat iedereen dezelfde instelling gebruikt voor die voorkeur. Hoewel u een voorkeur kunt nog aanpassen die u sluit, kunnen de groepsbeheerders het voor hun groepen niet aanpassen.
@@ -60,7 +64,7 @@ Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke 
 
 ## Ontgrendel een projectvoorkeur zodat de groepen het kunnen vormen
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Project Preferences]** en vervolgens op **[!UICONTROL Projects]** .
 

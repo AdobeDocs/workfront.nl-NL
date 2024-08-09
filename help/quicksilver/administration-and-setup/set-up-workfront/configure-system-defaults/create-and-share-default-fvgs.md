@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Standaardfilters, weergaven en groepen maken, bewerken en delen
+title: Standaardfilters, -weergaven en -groepen maken, bewerken en delen
 description: U kunt standaardfilters, -weergaven en -groepen maken en deze vervolgens beschikbaar maken voor gebruikers in uw organisatie.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ U kunt standaardfilters, -weergaven en -groepen maken en deze vervolgens beschik
 Wanneer u standaardfilters, -weergaven en -groepen maakt, zoals in dit artikel wordt beschreven, kunnen gebruikers met wie u ze deelt, deze benutten bij het weergeven van hun lijsten. Gebruikers kunnen hun eigen filters, weergaven en groepen maken op basis van de filters, groepen en groepen die u maakt, maar ze kunnen de filters, weergaven en groepen die u maakt, niet rechtstreeks wijzigen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Standaardfilters, -weergaven of -groepen maken
 

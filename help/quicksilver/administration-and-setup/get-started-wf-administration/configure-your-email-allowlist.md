@@ -2,22 +2,22 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Uw e-maillijst van gewenste personen configureren
+title: Uw e-mailLijst van gewenste personen configureren
 description: Als uw organisatie het WorkfrontEnterprise-plan gebruikt, kunt u een Workfront-lijst van gewenste personen voor e-mail maken om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich kunnen bevinden in het e-mailadres dat gebruikers in hun gebruikersprofiel opgeven. Dit is handig als het beveiligingsbeleid van uw organisatie gebruikers beperkt in het verzenden van gegevens die in Workfront zijn opgeslagen naar externe e-mailadressen. U kunt alleen uw interne bedrijfsdomeinen in de lijst van gewenste personen opnemen om ervoor te zorgen dat dit beleid wordt gevolgd.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # Uw e-maillijst van gewenste personen configureren
 
-Als uw organisatie het WorkfrontEnterprise-plan gebruikt, kunt u een Workfront-lijst van gewenste personen voor e-mail maken om het volgende te beheren:
+Als uw organisatie het Workfront Enterprise-plan gebruikt, kunt u een Workfront e-maillijst van gewenste personen maken om het volgende te beheren:
 
 * Welke e-maildomeinen mogen e-mails van Workfront accepteren.
 * Welke e-maildomeinen kunnen in het e-mailadres zijn dat de gebruikers in hun gebruikersprofiel specificeren.
@@ -31,14 +31,13 @@ Dit is handig als het beveiligingsbeleid van uw organisatie gebruikers beperkt i
 >Alle e-mailberichten van Workfront worden vanaf dat adres verzonden om een betere e-maillevering mogelijk te maken en spoofing van e-mails te voorkomen. Dit omvat zowel geautomatiseerde alarm als gebruiker-aan-gebruiker mededeling.
 >
 >Zo ziet de From-regel in een Workfront-e-mail die u ontvangt van een gebruiker met de naam Joan Harris er als volgt uit:
->
-```
->Joan Harris <notifications@my.workfront.com>
->```
+>`Joan Harris <notifications@my.workfront.com>`
 
 Voor informatie over het vormen van de firewall van uw organisatie om communicatie tussen uw milieu en de servers van Adobe Workfront te openen, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -61,6 +60,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Overige lijsten van gewenste personen
 
 Als uw organisatie het plan van de Onderneming heeft, kunt u een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 45 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing. Voor meer informatie, zie [ toegang tot Adobe Workfront door IP adres ](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) beperken.
@@ -69,12 +70,10 @@ Ook, als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde
 
 ## Uw e-maillijst van gewenste personen configureren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Info van de Klant**.
-
 1. In de **E-mail Lijst van gewenste personen** sectie, uitgezochte **laat de Lijst van gewenste personen van het Domein** toe, dan klik **voegt Domein** toe.
 1. In de doos die toont, typ een domein dat u, zoals `ourcompany.com` wilt toestaan, dan **klikken voegt Domein** toe.
-
 1. Herhaal de vorige stap om andere domeinen toe te voegen die u wilt toestaan.
 1. Wanneer u wordt gebeëindigd, klik **sparen**.

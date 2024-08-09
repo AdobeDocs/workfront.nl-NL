@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Tijdlijnherberekeningen voor projecten configureren
 description: Het opnieuw berekenen van chronologie staat managers toe om te zien hoe de krachten buiten het project de chronologie van het project beïnvloeden. De tijdlijn van een project verwijst naar de geplande en geplande data voor het project.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als [!DNL Adobe Workfront] beheerder, kunt u chronologie voor alle projecten in 
 In dit artikel wordt beschreven hoe u als [!DNL Workfront] beheerder kunt bepalen hoe en wanneer [!DNL Workfront] automatisch projecttijdlijnen berekent door projectvoorkeuren in het [!UICONTROL Setup] -gebied te configureren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,11 +48,13 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Automatische herberekeningen configureren
 
 Als [!DNL Adobe Workfront] -beheerder kunt u configureren wanneer [!DNL Workfront] de projecttijdlijnen automatisch opnieuw berekent. [!DNL Workfront] kan projectchronologie of elke nacht opnieuw berekenen of wanneer het projectwerkingsgebied verandert, of allebei.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het [!UICONTROL **Belangrijkste pictogram van het Menu**] ![](assets/lines-main-menu.png) in de upper-left hoek van [!DNL Workfront], als beschikbaar, dan klik **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 

@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Risicotypen bewerken en maken
 description: U kunt risico's aan een project in de planningsfase toevoegen om potentiële obstakels te identificeren alvorens om het even welk werk goed te keuren. Risico's zijn mogelijke gebeurtenissen die een tijdige voltooiing van het project of binnen de begroting kunnen verhinderen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 U kunt risico&#39;s aan een project in de planningsfase toevoegen om potentiële obstakels te identificeren alvorens om het even welk werk goed te keuren. Risico&#39;s zijn mogelijke gebeurtenissen die een tijdige voltooiing van het project of binnen de begroting kunnen verhinderen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,6 +46,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Typen risico&#39;s
 
 De types van risico zijn etiketten u voor uw risico&#39;s kunt gebruiken om hen voor rapporteringsdoeleinden te categoriseren. Deze worden in het **[!UICONTROL Setup]** -gebied gemaakt door de [!DNL Adobe Workfront] -beheerder. Nadat de risicstypen in uw **[!UICONTROL Setup]** -gebied zijn vastgesteld, zijn ze universeel voor uw systeem. Alle eigenaars van projecten kunnen dezelfde soorten risico&#39;s gebruiken voor hun projecten.
@@ -57,7 +61,7 @@ Sommige risicstypen bevinden zich standaard al in [!DNL Workfront] . Om op de be
 
 ### Bestaande risicopatypen bewerken {#edit-existing-risk-types}
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Risk Types]**.
 1. Selecteer het risicatype dat u wilt bewerken.
@@ -74,7 +78,7 @@ U kunt nieuwe risicstypes, naast standaarddegenen tot stand brengen, om op de be
 
 Een nieuw type risico maken:
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Risk Types]**.
 1. Klik op **[!UICONTROL New Risk Type]**.

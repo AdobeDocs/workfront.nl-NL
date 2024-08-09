@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Voorkeuren voor beheer van bronnen configureren
 description: Als  [!DNL Adobe Workfront]  beheerder kunt u de Voorkeur van het Beheer van het Middel voor uw systeem vormen. Deze voorkeur van het Beheer van het Middel bepaalt hoe de gebruikersbeschikbaarheid of de capaciteit en FTE voor het  [!DNL Workfront]  middel die en planningshulpmiddelen plannen worden berekend.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Als [!DNL Adobe Workfront] -beheerder kunt u de [!UICONTROL Resource Management]
 </table>
 -->
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of d
  </tbody> 
 </table>
 
++++
+
 ## Informatie waarmee rekening wordt gehouden bij de berekening van de capaciteit van een gebruiker
 
 Bij het berekenen van de capaciteit van een gebruiker houdt Workfront rekening met de volgende informatie:
@@ -97,7 +101,8 @@ Voor informatie over planning en het plannen van middelen in [!DNL Workfront], z
 >
 >Omdat dit een globale het plaatsen is, beïnvloedt deze selectie alle berekeningen voor het volledige systeem, voor alle gebruikers, in alle hulpmiddelen van het middelbeheer.
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
+
 1. Klik op **[!UICONTROL Resource Management]**.
 1. Selecteer een van de volgende methoden om de beschikbaarheid van gebruikers in [!DNL Workfront] te berekenen:
 
