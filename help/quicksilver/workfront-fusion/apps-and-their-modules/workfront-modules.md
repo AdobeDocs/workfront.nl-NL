@@ -9,7 +9,7 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
+source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
 workflow-type: tm+mt
 source-wordcount: '5804'
 ht-degree: 0%
@@ -145,12 +145,12 @@ Wanneer u [!DNL Workfront] modules configureert, geeft [!DNL Workfront Fusion] d
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+
+![](assets/map-toggle-350x74.png)
 >[!NOTE]
 >
 >* Als de meest actuele velden in een Workfront-module niet worden weergegeven, kan dit worden veroorzaakt door cacheproblemen. Wacht een uur en probeer het opnieuw.
 >* HTTP 429 statuscodes van Adobe Workfront moeten geen deactivaties veroorzaken, maar in plaats daarvan een korte uitvoeringspauze in het scenario teweegbrengen.
-
-![](assets/map-toggle-350x74.png)
 
 * [ Trekkers ](#triggers)
 * [ Acties ](#actions)
