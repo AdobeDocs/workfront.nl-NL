@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: c065427058d56e457c36c6a5859d00d7128b11e3
+source-git-commit: bb508647684f2544368baea0b48e0aad1057b2ca
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '233'
 ht-degree: 11%
 
 ---
@@ -36,6 +36,7 @@ Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuw
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}"> Eerste Kwartaal 2024 releaseoverzicht </a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}"> Tweede Kwartaal 2024 releaseoverzicht </a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}"> Derde Kwartaal 2024 versieoverzicht </a> </p> </li>
+       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md" class="MCXref xref" xrefformat="{para}"> Vierde Kwartaal 2024 versieoverzicht </a> </p> </li>
    <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}"> de versieactiviteit van de Fusie van Adobe Workfront </a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>Uitzettingen in 2023</p> 
