@@ -1,5 +1,5 @@
 ---
-title: De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon
+title: De gebruikersinterfaceterminologie aanpassen met behulp van een lay-outsjabloon
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## De terminologie van de gebruikersinterface aanpassen
 

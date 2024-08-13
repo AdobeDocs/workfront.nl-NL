@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Layoutsjablonen uit de klassieke Workfront-ervaring zijn niet meer beschikbaar i
 U kunt deze inconsistenties oplossen door de klassieke lay-outsjablonen te verwijderen. Aangezien deze niet beschikbaar zijn in de Workfront-interface, moet u ze verwijderen met de Workfront API.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Verwijder de klassieke lay-outsjablonen met een API-aanroep
 

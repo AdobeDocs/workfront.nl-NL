@@ -1,5 +1,5 @@
 ---
-title: Filters, weergaven en groepen aanpassen met een lay-outsjabloon
+title: Filters, weergaven en groepen aanpassen met behulp van een lay-outsjabloon
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en
 Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Besturingselementen voor filters, weergave en groeperingslijsten aanpassen:
 

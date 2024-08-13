@@ -1,5 +1,5 @@
 ---
-title: De landingspagina aanpassen met een lay-outsjabloon
+title: De bestemmingspagina aanpassen met behulp van een lay-outsjabloon
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
 >Wanneer Verzoeken is ingesteld als de landingspagina, zien de contribuant of de gebruikers van de aanvrager die aan de lay-outsjabloon zijn toegewezen de startpagina in plaats daarvan als de landingspagina. Wordt aangeraden een andere landingspagina te kiezen dan aanvragen voor lay-outsjablonen die zijn bedoeld voor gebruikers van de contribuant of de aanvrager.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -52,6 +54,8 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## De openingspagina aanpassen
 
