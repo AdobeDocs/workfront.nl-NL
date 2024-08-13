@@ -1,11 +1,11 @@
 ---
-title: Overzicht van licentietype bij gebruik van Adobe Workfront Planning
+title: Overzicht van licentietype bij gebruik van Adobe Workfront-planning
 description: De toegang tot Adobe Workfront Planning is afhankelijk van het type licentie en van de machtigingen tot objecten.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -40,6 +40,17 @@ Het verlenen van gebruikerstoestemmingen aan een werkruimte verleent hen ook toe
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+<!--Replace the table above with the following at GA:
+
+
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Standard                     | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
+| Light or Contributor  | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+
 ### Licentietypen en werkruimtemachtigingen
 
 Alleen gebruikers met een Standard- (of Plan-) licentie kunnen over Contribute- of Manage-machtigingen voor werkruimten beschikken. Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor werkruimten die met hen worden gedeeld.
@@ -56,6 +67,26 @@ Systeembeheerders kunnen alle werkruimten in het systeem weergeven, zelfs de wer
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
+
+<!--Replace all the content in the section above with the following at Planning GA
+
+
+Only users with a Standard license can have Contribute or Manage permissions to workspaces. Users with all other license types can have View permissions to workspaces shared with them. 
+
+System administrators can view all workspaces in the system, even the ones they did not create. 
+
+>[!INFO]
+>
+>**EXAMPLE:** 
+>
+>Contributors or Light-license users cannot contribute to or manage workspaces and their objects. 
+>
+>There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
+>
+>![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+-->
+
+
 ### Licentietypen en weergavemachtigingen
 
 Alleen gebruikers met een Standard- (of Plan-) licentie kunnen beheermachtigingen voor weergaven hebben. Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor weergaven die met hen worden gedeeld.
@@ -69,6 +100,35 @@ Alleen gebruikers met een Standard- (of Plan-) licentie kunnen beheermachtiginge
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om een weergave te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
 >![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
+
+
+<!--Replace all of the above in this section with the following at GA:
+
+Only users with a Standard license can have Manage permissions to views. Users with all other license types can have View permissions to views shared with them. 
+
+>[!INFO]
+>
+>**EXAMPLE:** 
+>
+>Contributors or Light-license users cannot manage views. They can apply temporary filters, sorts, or groupings to views they can access. 
+>
+>There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
+>
+>![](assets/permissions-grayed-out-for-light-user.png)-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--Replace all of the above with this:

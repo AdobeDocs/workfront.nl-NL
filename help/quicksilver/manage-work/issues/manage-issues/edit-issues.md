@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Problemen bewerken
-description: U kunt informatie bewerken over uitgaven die u hebt gemaakt of die andere gebruikers hebben gemaakt als zij de problemen met u hebben gedeeld.
+description: U kunt informatie bewerken over uitgaven die u hebt gemaakt of die andere gebruikers hebben gemaakt als zij de problemen met u hebben gedeeld. In dit artikel wordt beschreven hoe u een uitgave kunt zoeken, zoeken en bewerken, als u daartoe gemachtigd bent.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2508'
+source-wordcount: '2529'
 ht-degree: 0%
 
 ---

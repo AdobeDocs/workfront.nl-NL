@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Een programma maken
-description: Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden. Programma's kunnen niet buiten een portfolio bestaan.
+description: Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden. Programma's zijn een onderverdeling van portefeuilles en kunnen niet bestaan buiten een portefeuille. De programma's delen typisch de zelfde middelen zoals andere programma's binnen de zelfde portefeuille. U kunt programma's maken om uw portfolio's te organiseren wanneer deze te groot worden.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden. Programma&#39;s kunnen niet buiten een portfolio bestaan.
+Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden.
+Programma&#39;s zijn een onderverdeling van portefeuilles en kunnen niet bestaan buiten een portefeuille. De programma&#39;s delen typisch de zelfde middelen zoals andere programma&#39;s binnen de zelfde portefeuille.
+
+U kunt programma&#39;s maken om uw portfolio&#39;s te organiseren wanneer deze te groot worden.
+
+Bijvoorbeeld, kunt u een Portfolio van het Begrotingsjaar 2024 van de Marketing hebben dat alle projecten van uw afdeling van de Marketing bevat. Misschien wilt u overwegen uw projecten verder te organiseren in fiscale kringen en marketingprogramma&#39;s voor het fiscale kwartaal 1-4 2024 toe te voegen binnen het Portfolio 2024 voor het verkoopseizoen.
 
 ## Toegangsvereisten
 

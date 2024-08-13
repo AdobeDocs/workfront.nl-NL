@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,6 @@ U kunt het volgende verbinden:
 
    * Uit een planningsrecord in Workfront Planning
 
-
 ## Vereisten voor het koppelen van records
 
 Als u records wilt koppelen aan andere records of objecten, moet u over het volgende beschikken:
@@ -181,7 +180,7 @@ Als u records wilt koppelen aan andere records of objecten, moet u over het volg
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
-1. Selecteer a **de mening van de Lijst** van de **drop-down menu van de Mening** in de hoger-juiste hoek van de verslagtype pagina.
+1. Klik de naam van de mening van de a **Lijst** om het te openen.
 1. (Optioneel) Voeg records toe aan het recordtype dat u hebt geselecteerd door een nieuwe rij aan de tabel toe te voegen. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 1. (Voorwaardelijk) Nadat u het geselecteerde recordtype met een ander recordtype hebt verbonden, ga naar de verbonden verslagkolom en klik de cel die met het verslag beantwoordt dat u met andere verslagen wilt verbinden.
 
@@ -191,9 +190,18 @@ Als u records wilt koppelen aan andere records of objecten, moet u over het volg
 
    * Klik in de lijst op de naam van een verbonden record om deze aan de geselecteerde record toe te voegen. De record wordt automatisch toegevoegd.
    * Typ de naam van een record en klik erop wanneer deze in de lijst wordt weergegeven. De record wordt automatisch toegevoegd.
-   * Klik **zie allen** om alle verslagen te tonen.
 
-1. (Voorwaardelijk) als u **klikte Uitgezochte allen** in de vorige stap, **verbind voorwerpen** vakvertoningen.
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    U kunt de pagina van een verslag openen door de naam van het verslag in de mening te klikken, het verbonden verslaggebied te vinden en het gebied tweemaal te klikken (als er reeds verslagen zijn verbonden), of **te klikken verbindt verslagen** (als het gebied leeg is) om verslagen van het verbonden verslag of objecttype toe te voegen.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. (Facultatief) klik **zie allen** om alle verslagen te tonen.
+
+1. (Voorwaardelijk) als u **klikte zie allen** in de vorige stap, **verbind voorwerpen** vakvertoningen.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ Als u records wilt koppelen aan andere records of objecten, moet u over het volg
 
    of
 
-   Selecteer de naam van één of veelvoudige verslagen in de doos, dan klik **verbind voorwerpen** in de hoger-juiste hoek van Connect objecten vakje.
-
-   >[!TIP]
-   >
-   >    U kunt de pagina van een verslag openen, het verbonden verslaggebied vinden en het verbonden gebied klikken (als er verslagen reeds verbonden zijn), of **klikken verbindt verslagen** (als het gebied leeg is) om verslagen van het verbonden verslag of objecttype toe te voegen.
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   Selecteer de naam van één of veelvoudige verslagen in de doos, dan klik **verbind voorwerpen**.
 
    Het volgende wordt toegevoegd:
 
-   * De gekoppelde records worden weergegeven in het gekoppelde recordveld van de record die u in stap 6 hebt geselecteerd. <!--accurate?-->
+   * De gekoppelde records worden weergegeven in het gekoppelde recordveld van de record die u in een vorige stap hebt geselecteerd.
    * De gekoppelde velden worden gevuld met de informatie uit de gekoppelde records als u gekoppelde opzoekvelden hebt toegevoegd toen u de recordtypen aansloot.
 
    Wanneer u de gekoppelde records bijwerkt, worden de gekoppelde velden bijgewerkt voor de records die u automatisch koppelt. U kunt gekoppelde velden niet handmatig bewerken.
@@ -259,7 +261,12 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
    * Klik op een object in de lijst om het toe te voegen aan de geselecteerde record. Objecten worden in alfabetische volgorde weergegeven. Het object wordt automatisch toegevoegd.
    * Typ de naam van een object en klik erop wanneer het wordt weergegeven in de lijst. Het object wordt automatisch toegevoegd.
-   * Klik **zie allen** om alle voorwerpen te tonen u minstens toestemmingen aan mening hebt.
+
+   >[!TIP]
+   >
+   >U kunt de pagina van een verslag van de mening openen, het verbonden verslaggebied tweemaal klikken, of **verbinden** op het gebied klikken om voorwerpen van het verbonden objecten type toe te voegen.
+
+1. (Facultatief) klik **zie allen** om alle voorwerpen te tonen u minstens toestemmingen aan mening hebt.
 
 1. (Voorwaardelijk) als u **klikte zie allen** in de vorige stap, **verbind voorwerpen** vakvertoningen.
 
@@ -269,7 +276,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
    of
 
-   Selecteer de naam van één of veelvoudige voorwerpen in de doos, dan klik **verbind voorwerpen** in de hoger-juiste hoek van Connect objecten vakje.
+   Selecteer de naam van één of veelvoudige voorwerpen in de doos, dan klik **verbind voorwerpen**.
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
    * De geselecteerde Workfront-objecten worden toegevoegd aan het gekoppelde recordveld.
    * Als u deze hebt toegevoegd toen u het recordtype verbond met Workfront, worden de gekoppelde velden (of de opzoekvelden) van de Workfront-objecten automatisch gevuld met informatie van Workfront.
-
-   >[!TIP]
-   >
-   >U kunt de pagina van een record openen, het gekoppelde recordveld zoeken en op het pictogram **+** in het veld klikken om objecten van het verbonden objecttype toe te voegen.
 
    Voor meer informatie over het verbinden van verslagtypes met voorwerpen van een andere toepassing, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 

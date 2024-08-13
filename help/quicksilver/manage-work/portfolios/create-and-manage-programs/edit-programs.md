@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Programma's bewerken
-description: U kunt informatie bewerken over programma's die u hebt gemaakt of over programma's die andere gebruikers hebben gemaakt als ze deze met u hebben gedeeld.
+description: U kunt informatie bewerken over programma's die u hebt gemaakt of over programma's die andere gebruikers hebben gemaakt als ze deze met u hebben gedeeld. In dit artikel wordt beschreven hoe u een programma kunt zoeken, zoeken en bewerken, als u hiervoor gemachtigd bent.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
