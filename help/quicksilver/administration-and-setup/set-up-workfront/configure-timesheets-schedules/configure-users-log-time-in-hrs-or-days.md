@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Gebruikers configureren om zich binnen uren of dagen aan te melden
+title: Gebruikers configureren voor aanmelden in uren of dagen
 description: De gebruikers met een vergunning van de Planner kunnen vormen of zij binnen tijd  [!DNL Adobe Workfront]  in uren of dagen registreren. Als Workfront-beheerder kunt u deze instelling configureren voor afzonderlijke gebruikers of voor meerdere volledige gebruikers in uw organisatie. Standaard kunnen gebruikers zich aanmelden in uren.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cc1991e-293b-4619-b542-bfff4b558faa
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

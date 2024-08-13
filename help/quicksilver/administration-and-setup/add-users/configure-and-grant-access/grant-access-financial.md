@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u de toegang van een gebruiker tot financiële gegevens in Workfront definiëren via hun toegangsniveau.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Als beheerder van Adobe Workfront, kunt u de toegang van een gebruiker tot het v
 * Informatie over het budgetteren van bronnen in de hulpmiddelen voor het plannen van bronnen
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Overwegingen bij het verlenen van toegang tot financiële gegevens
 

@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Wor
 
 Het proces om gebruikers voor SSO bij te werken of voegt het gebied van de Gebruikersnaam SSO aan uw gebruikers van Workfront toe als men niet aanwezig is, of werkt de waarde op dat gebied bij als er een waarde reeds verbonden aan de gebruikers is.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik, **Systeem** dan selecteren **Gebruikers van de Update voor SSO**.
+1. Klik **Systeem**, dan uitgezochte **Gebruikers van de Update voor SSO**.
 
 1. Klik **kiezen Dossier** om voor het dossier te doorbladeren u voorbereidde.
 

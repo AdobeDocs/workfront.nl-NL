@@ -1,13 +1,13 @@
 ---
 title: Gebruikers administratieve toegang verlenen tot bepaalde gebieden
 description: Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebruikers van een de vergunningsadministratieve toegang van het Plan tot bepaalde gebieden van het systeem te verlenen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebrui
 >Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [ een gebruiker volledige administratieve toegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,13 +47,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Gebruikers van het subsidieplan hebben administratieve toegang tot bepaalde gebieden van Workfront
 
 >[!IMPORTANT]
 >
 >Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. (U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.)
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Niveaus van de Toegang**.
 1. Klik op de naam van het toegangsniveau dat u wilt gebruiken om gebruikers administratieve toegang te verlenen tot bepaalde gebieden van Workfront.

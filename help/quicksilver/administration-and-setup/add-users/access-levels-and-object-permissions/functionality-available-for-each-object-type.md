@@ -6,13 +6,13 @@ keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
 title: Beschikbare functionaliteit voor elk objecttype voor verschillende toegangsniveaus
 description: De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -519,7 +519,7 @@ Slechts kunnen de gebruikers met een vergunning van het Plan volledige toegang t
 |---|---|---|---|---|---|
 | Prioriteiten en begrotingstijden bewerken in de Planner | ✓&#42; |   |   |   |   |
 | Brongroepen maken, bewerken, verwijderen &#42;&#42; | ✓&#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| Geplande uren bijwerken in werklastbalans &#42;&#42;&#42; | ✓* |   |   |   |   |
 | Projectprioriteiten weergeven in de functie voor middelenplanner | ✓&#42; |   |   |   |   |
 | De middeltoewijzing van de mening in de hulpmiddelen van de Planning van het Middel | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Brongroepen weergeven | ✓&#42; | ✓&#42; | ✓&#42; |   |   |

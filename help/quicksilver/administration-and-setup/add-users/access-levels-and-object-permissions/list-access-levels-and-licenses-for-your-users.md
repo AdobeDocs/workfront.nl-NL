@@ -1,18 +1,18 @@
 ---
-title: De toegangsniveaus en licenties van uw gebruikers weergeven
+title: De toegangsniveaus en -licenties voor uw gebruikers weergeven
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: toegang,niveau,licentie
 navigation-topic: access-levels
 description: U kunt zien welk toegangsniveau en vergunning aan elke gebruiker in een gebruikerslijst of een rapport worden toegewezen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 U kunt zien welk toegangsniveau en vergunning aan elke gebruiker in een gebruikerslijst of een rapport worden toegewezen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -46,11 +48,13 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## De toegangsniveaus en licenties van uw gebruikers weergeven
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers**.
+{{step-1-to-users}}
 
-   Door gebrek, alle gebruikers die als Actieve vertoning in de lijst worden geplaatst.
+Door gebrek, alle gebruikers die als Actieve vertoning in de lijst worden geplaatst.
 
 1. In het **drop-down menu van de Mening**, uitgezochte **Vergunningen**.
 

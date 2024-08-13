@@ -4,20 +4,24 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: U kunt een aangepaste voorwaarde verwijderen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Een aangepaste voorwaarde verwijderen
 
+U kunt een aangepaste voorwaarde verwijderen als deze niet meer nodig is.
+
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -40,9 +44,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Een aangepaste voorwaarde verwijderen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 

@@ -1,11 +1,11 @@
 ---
-title: Gebruikers beheren in de Adobe Admin Console
+title: Gebruikers in de Adobe Admin Console beheren
 description: Als beheerder van een Adobe kunt u Adobe Workfront-gebruikers en -systeembeheerders maken met de Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%

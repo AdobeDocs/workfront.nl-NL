@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Als het Type van Voorwaarde van een project aan de Status van de Voortgang in plaats van Hand wordt geplaatst, toont Adobe Workfront automatisch één van drie ingebouwde standaardvoorwaarden op het project (Op Doel, Op Risico, of in Problemen) aangezien het vordert, zoals die in Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project wordt verklaard.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als het Type van Voorwaarde van een project aan de Status van de Voortgang in pl
 U kunt uw aangepaste voorwaarden instellen als standaardvoorwaarden in plaats van deze drie ingebouwde standaardvoorwaarden te gebruiken. Bijvoorbeeld, kon u de standaardvoorwaarde van het Doel veranderen om als het Volgen goed in alle projecten te tonen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,9 +48,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Stel een aangepaste voorwaarde in als een standaardvoorwaarde voor alle projecten:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 

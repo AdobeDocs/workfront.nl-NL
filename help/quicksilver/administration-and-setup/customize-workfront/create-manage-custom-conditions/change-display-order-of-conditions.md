@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: U kunt de volgorde wijzigen waarin voorwaarden worden weergegeven wanneer een gebruiker een project bewerkt of de voorwaarde voor een taak of uitgave wijzigt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ U kunt de volgorde wijzigen waarin voorwaarden worden weergegeven in projecten, 
   ![](assets/change-conditions-list-dropdown-only.png)
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,9 +52,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## De weergavevolgorde van voorwaarden wijzigen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 

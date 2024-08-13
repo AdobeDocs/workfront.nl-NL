@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Outlook inschakelen voor gebruik met Workfront en SAML 2.0
 description: Als u SAML 2.0 authentificatie toelaat en u uw gebruikers aan login aan Workfront van Microsoft Outlook wilt kunnen gebruikend hun geloofsbrieven van SAML 2.0, moet u SAML 2.0 toelaten om in toe:voegen-ins van het Bureau voor authentiek te verklaren.
-author: Caroline, Becky
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Als u SAML 2.0 authentificatie toelaat en u uw gebruikers aan login aan Workfron
 >Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,9 +52,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Outlook inschakelen voor gebruik met Workfront en SAML 2.0
 
-1. Klik **Opstelling** dichtbij de hoger-juiste hoek van Adobe Workfront op de Globale Bar van de Navigatie.
+{{step-1-to-setup}}
+
 1. Klik **Systeem** > **Voorkeur**.
 
 1. In de **sectie van de Veiligheid**, zorg ervoor dat **SAML 2.0 authentificatie in Bureau 365 toe:voegen-ins** wordt toegelaten.

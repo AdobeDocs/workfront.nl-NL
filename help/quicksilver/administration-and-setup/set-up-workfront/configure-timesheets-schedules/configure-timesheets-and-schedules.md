@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
-title: Plan- en tijdlijnvoorkeuren configureren
+title: Plan- en tijdbladvoorkeuren configureren
 description: Als a [!DNL Workfront]  beheerder, kunt u uw werkweek bepalen gebruikend programma's en een programma met een gebruiker of een project associëren. Dit staat  [!DNL Adobe Workfront]  toe om chronologie en gebruikersbeschikbaarheid te berekenen. U kunt timesheet en uurvoorkeur ook vormen.
-author: Caroline
+author: Lisa and Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: eb3e58d4-a8c6-4b5c-a045-742509f2b5c6
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%

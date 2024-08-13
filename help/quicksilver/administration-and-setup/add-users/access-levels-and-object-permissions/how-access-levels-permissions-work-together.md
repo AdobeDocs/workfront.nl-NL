@@ -1,16 +1,16 @@
 ---
-title: Hoe de toegangsniveaus en de toestemmingen samenwerken
+title: Hoe de Niveaus van de Toegang en de Toestemmingen samen werken
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
 description: De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou moeten hebben. Dat toegangsniveau bepaalt wat de gebruikers kunnen zien en met objecten types en gebieden in het systeem doen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%

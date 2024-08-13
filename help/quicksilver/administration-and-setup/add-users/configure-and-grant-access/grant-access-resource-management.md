@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot het Beheer van het Middel in Workfront te bepalen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot het Beheer van het Middel te bepalen, zoals die in [ het overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) wordt verklaard.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -41,6 +43,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Vorm gebruikerstoegang tot de hulpmiddelen van het Beheer van het Middel gebruikend een niveau van de douanetoegang
 

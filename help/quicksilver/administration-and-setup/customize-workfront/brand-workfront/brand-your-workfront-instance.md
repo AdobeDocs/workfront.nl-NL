@@ -1,16 +1,16 @@
 ---
-title: Adobe Workfront-exemplaar merkbaar
+title: Adobe Workfront-instantie merkbaar
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Als Workfront-beheerder kunt u Workfront voorzien van logo's in het aanmeldingsscherm, het bovenste navigatiegebied en het Hoofdmenu. U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Het aanmeldingsscherm verfijnen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Brandend**.
 

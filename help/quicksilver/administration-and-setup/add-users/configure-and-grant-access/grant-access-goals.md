@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de doelstellingen van Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de Doelen van Adobe Workfront te bepalen, zoals die in [ het overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) wordt verklaard.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om gebruikers toegang tot de Doelen van Workfront te verlenen:
 
@@ -49,6 +51,8 @@ U moet het volgende hebben om gebruikers toegang tot de Doelen van Workfront te 
 &#42; om te weten te komen welk plan, vergunningstype, of toegangsniveau u hebt, contacteer uw beheerder van Workfront.
 
 Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+
++++
 
 ## Gebruikerstoegang tot Workfront-doelen verlenen met behulp van een aangepast toegangsniveau
 

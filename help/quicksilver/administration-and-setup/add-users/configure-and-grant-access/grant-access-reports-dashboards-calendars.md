@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;dashboards;calendars
 navigation-topic: configure-access-to-workfront
 description: Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot rapporten, dashboards, en kalenders in Workfront te bepalen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Deze toegang omvat ook toegang tot externe pagina&#39;s. Voor informatie over Ex
 >Voor informatie over toestemmingengebruikers kunnen op een rapport, een dashboard, of een kalender verlenen wanneer het delen van het, zie [ rapporten van het Aandeel, dashboards, en kalenders ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Toegang van gebruikers tot rapporten, dashboards en kalenders configureren met behulp van een aangepast toegangsniveau
 

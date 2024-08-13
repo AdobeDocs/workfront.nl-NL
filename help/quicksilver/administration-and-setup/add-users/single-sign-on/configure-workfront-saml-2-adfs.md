@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: Adobe Workfront configureren met SAML 2.0 met behulp van ADFS
+title: Adobe Workfront configureren met SAML 2.0 via ADFS
 description: U kunt verificatie inschakelen voor Workfront met SAML 2.0.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als beheerder van Adobe Workfront, kunt u Workfront met een oplossing van de Pri
 Deze handleiding is gericht op het instellen van ADFS zonder automatische provisioning of kenmerktoewijzingen. We raden u aan de installatie te voltooien en deze te testen voordat u automatische provisioning instelt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Verificatie inschakelen voor Workfront met SAML 2.0
 
 Voer de volgende secties in om verificatie in te schakelen voor de Workfront-webtoepassing en de mobiele Workfront-toepassing met SAML 2.0:
@@ -57,7 +61,8 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
 
 ### Het Workfront SSO-metagegevensbestand ophalen {#retrieve-the-workfront-sso-metadata-file}
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In het linkerpaneel, klik **Systeem** > **Enige Sign-On (SSO)**.
 1. In het **Type** drop-down menu, klik **SAML 2.0** om extra informatie en opties te tonen.
 1. Kopieer URL die na **Meta-gegevens URL** toont.

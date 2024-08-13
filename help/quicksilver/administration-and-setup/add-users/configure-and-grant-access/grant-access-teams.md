@@ -1,13 +1,13 @@
 ---
 title: Toegang verlenen aan teams
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot teams in Workfront te definiëren
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot teams in Workfront te bepalen, zoals die in [ wordt verklaard het niveauoverzicht van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -38,6 +40,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## De toegang van gebruikers tot het bewerken van gebruikers configureren met behulp van een aangepast toegangsniveau
 

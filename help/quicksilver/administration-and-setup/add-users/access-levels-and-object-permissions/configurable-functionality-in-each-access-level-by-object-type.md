@@ -1,11 +1,11 @@
 ---
-title: Configureerbare toegang tot functionaliteit voor elk objecttype
+title: Configureerbare Toegang tot Functionaliteit voor elk Type van Objecten
 description: Dit artikel verklaart wat u als beheerder van Adobe Workfront voor elk objecten type, op elk toegangsniveau kunt toestaan. Het verklaart ook wat de standaardconfiguratie voor elk type van toegangsniveau is.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '3436'
 ht-degree: 0%

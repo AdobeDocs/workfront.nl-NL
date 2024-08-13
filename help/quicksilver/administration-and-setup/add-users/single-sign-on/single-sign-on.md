@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: "Single Sign-On in Workfront: artikelindex"
+title: "Single Sign On in Workfront: Article Index"
 description: U kunt Workfront integreren met uw bestaande SSO-oplossing voor bedrijven. Deze configuratie is eenvoudig in te stellen en te beheren en is beschikbaar voor zowel OnDemand- als OnPremise Enterprise-klanten.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

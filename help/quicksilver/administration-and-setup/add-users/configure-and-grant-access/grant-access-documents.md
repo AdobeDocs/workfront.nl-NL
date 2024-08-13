@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot documenten in Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Deze toegang geldt ook voor documentmappen.
 Voor informatie over het gebruiken van de niveaus van de douanetoegang om gebruikers&#39; toegang tot andere objecten types in Workfront te beheren, zie [ tot douanetoegangsniveaus leiden of wijzigen ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,6 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gebruikerstoegang tot documenten configureren met behulp van een aangepast toegangsniveau
 

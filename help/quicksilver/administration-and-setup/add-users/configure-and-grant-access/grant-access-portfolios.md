@@ -1,16 +1,16 @@
 ---
-title: Toegang tot portefeuilles verlenen
+title: Toegang verlenen tot Portfolio's
 user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot portfolio's in Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot portefeuilles te bepalen, zoals die in [ wordt verklaard het overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -41,6 +43,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gebruikerstoegang tot portfolio&#39;s configureren met behulp van een aangepast toegangsniveau
 

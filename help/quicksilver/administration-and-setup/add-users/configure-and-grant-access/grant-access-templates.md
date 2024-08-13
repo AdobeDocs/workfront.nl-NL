@@ -1,16 +1,16 @@
 ---
-title: Toegang tot sjablonen verlenen
+title: Toegang verlenen tot sjablonen
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot sjablonen in Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c8e6af1b-8cf3-4522-b0eb-7e5f2d34f5a9
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Alleen gebruikers met een licentie voor abonnementen kunnen volledige toegang to
 Voor informatie over het gebruiken van de niveaus van de douanetoegang om gebruikers&#39; toegang tot andere objecten types in Workfront te beheren, zie [ tot douanetoegangsniveaus leiden of wijzigen ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,6 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Toegang van gebruikers tot sjablonen configureren met behulp van een aangepast toegangsniveau
 

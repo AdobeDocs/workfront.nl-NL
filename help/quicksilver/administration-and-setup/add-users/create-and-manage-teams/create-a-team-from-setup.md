@@ -1,16 +1,16 @@
 ---
-title: Een team maken vanuit het gedeelte Setup
+title: Creeer een Team van het Gebied van de Opstelling
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling creëren.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstell
 >
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -48,9 +50,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Een team maken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Teams**, dan klik **Nieuw Team**.
 

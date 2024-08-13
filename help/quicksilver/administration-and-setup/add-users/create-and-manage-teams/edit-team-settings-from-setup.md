@@ -1,13 +1,13 @@
 ---
-title: De instellingen van een team bewerken in het gedeelte Instellen
+title: De montages van een Team van het Gebied van de Opstelling uitgeven
 description: Als beheerder van Adobe Workfront, kunt u de montages van een team van het gebied van de Opstelling uitgeven. U kunt gebruikers aan een team toevoegen, het lay-outmalplaatje van een team plaatsen, en plaatsen hoe de status wordt geregistreerd wanneer de het werkpunten door een team worden voltooid.
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Voor informatie over teams, zie [ Overzicht van Teams ](../../../people-teams-an
 >
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,9 +49,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## De instellingen van een team bewerken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Teams** in het linkerpaneel.
 1. Selecteer een team, dan klik **uitgeven** ![](assets/edit-icon.png).

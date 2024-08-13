@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de filter, de mening, en het groeperen controles voor lijsten en rapporten te bepalen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toe
 Voor informatie over de filter, de mening, en het groeperen controles, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gebruikerstoegang tot filters, meningen, en groepen vormen gebruikend een niveau van de douanetoegang
 

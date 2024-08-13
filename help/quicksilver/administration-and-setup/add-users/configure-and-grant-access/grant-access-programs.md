@@ -1,16 +1,16 @@
 ---
-title: Toegang verlenen tot programma's
+title: Toegang tot programma's verlenen
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot programma's in Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toe
 Voor informatie over het gebruiken van de niveaus van de douanetoegang om gebruikers&#39; toegang tot andere objecten types in Workfront te beheren, zie [ tot douanetoegangsniveaus leiden of wijzigen ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gebruikerstoegang tot programma&#39;s configureren met behulp van een aangepast toegangsniveau
 

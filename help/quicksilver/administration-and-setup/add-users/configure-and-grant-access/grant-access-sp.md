@@ -1,13 +1,13 @@
 ---
-title: Toegang verlenen tot Scenario Planner
+title: Toegang verlenen tot de functie Scenario Planner
 description: Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de Planner van het Scenario te bepalen.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toe
 Naast toegang tot Scenario Planner, moet een gebruiker met een niet-Systeem toegangsniveau van de Beheerder ook toegang tot financiële gegevens hebben om om het even welke financiële informatie te zien in een plan, zoals begrotingen, kosten, en baanroltarieven. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -50,6 +52,8 @@ U moet het volgende hebben:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Vorm gebruikerstoegang tot de Planner van het Scenario gebruikend een niveau van de douanetoegang
 

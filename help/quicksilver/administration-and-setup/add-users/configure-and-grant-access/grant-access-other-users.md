@@ -1,13 +1,13 @@
 ---
 title: Toegang verlenen aan gebruikers
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot andere gebruikers in Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot andere gebruikers in Workfront te bepalen, zoals die in [ wordt verklaard het niveauoverzicht van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -40,9 +42,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Toegang tot gebruikers configureren
 
-U kunt bepalen welke informatie gebruikers kunnen weergeven en bewerken voor andere gebruikers met behulp van een standaard toegangsniveau of een aangepast toegangsniveau dat u maakt. Gebruikers met het standaardabonnement- en werklicenties kunnen de contactgegevens van andere gebruikers bekijken. Een van de volgende gebruikers kan andere gebruikers maken en bewerken:
+U kunt beheren welke informatie gebruikers voor andere gebruikers kunnen bekijken en uitgeven gebruikend een standaardtoegangsniveau of een niveau van de douanetoegang dat u creeert. Gebruikers met het standaardabonnement en de werkvergunningen kunnen de contactinformatie van andere gebruikers bekijken. Een van de volgende gebruikers kan andere gebruikers maken en bewerken:
 
 * Een Workfront-beheerder.
 
@@ -77,9 +81,9 @@ U kunt bepalen welke informatie gebruikers kunnen weergeven en bewerken voor and
       <td role="rowheader"><strong> creeer </strong> </td> 
       <td> <p>Hiermee kunnen gebruikers gebruikers maken.<br> Deze optie wordt toegelaten door gebrek.</p> 
       &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Zorg ervoor dat deze wijziging wordt doorgevoerd voordat u deze twee notities opmaakt. Op 29 maart zegt het document-req dat dit afhankelijk is van de onderzoeksresultaten.</p>
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Zorg ervoor dat deze wijziging wordt aangebracht voordat u de 2 opmerkingen ongedaan maakt. Op 3/29 zegt het document-req dat dit afhankelijk is van onderzoeksresultaten.</p>
 
-       &lt;p>&lt;b>OPMERKING&lt;/b>: dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Raadpleeg uw netwerk- of IT-beheerder voor meer informatie.&lt;/p>
+       &lt;p>&lt;b>Opmerking&lt;/b>: dit is niet beschikbaar als uw organisatie is aangemeld bij de Adobe Admin Console. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.&lt;/p>
        —> &lt;/td> 
    </tr> 
      <tr> 
@@ -100,8 +104,8 @@ U kunt bepalen welke informatie gebruikers kunnen weergeven en bewerken voor and
       <td> <p>Hiermee kunnen gebruikers het volgende doen voor elke gebruiker in een groep die ze beheren: 
         <ul>
          <li><p>De gebruiker bewerken, verwijderen of deactiveren</p></li>
-         <li>Meld u aan als gebruiker</li>
-         <li><p>Het wachtwoord van de gebruiker herstellen</p><p><b> NOTA </b>: Een groepsbeheerder kan niet login als of het wachtwoord van een beheerder van Workfront terugstellen.</p></li>
+         <li>Aanmelden als gebruiker</li>
+         <li><p>Het wachtwoord van de gebruiker opnieuw instellen</p><p><b> NOTA </b>: Een groepsbeheerder kan niet login als of het wachtwoord van een beheerder van Workfront terugstellen.</p></li>
         </ul><p>Deze optie is standaard uitgeschakeld.</p></p> </td> 
      </tr> 
     </tbody> 

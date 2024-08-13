@@ -1,13 +1,13 @@
 ---
 title: Volledige administratieve toegang verlenen aan een gebruiker
 description: U kunt gebruikers volledige beheerrechten verlenen voor Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Volledige toegang van de Beheerder van het Systeem tot één enkele gebruiker verlenen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
 1. Klik op de naam van de gebruiker aan wie u beheerdersrechten wilt verlenen.
 1. Klik het Meer menu ![](assets/more-icon.png), dan klik **uitgeven**.

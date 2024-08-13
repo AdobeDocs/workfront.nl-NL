@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw organisatie Workfront gebruikt, kunt u het pictogram Hoofdmenu Help configureren om naar die site te gaan. Dit heeft geen invloed op de hoofdkoppeling van de Help in het hoofdmenu en de contextgevoelige koppelingen in Workfront, die gebruikers naar de Help-site van Workfront leiden.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Dit heeft geen invloed op de hoofdkoppeling van de Help in het hoofdmenu en de c
 Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [ Toegang tot de Hulp van Workfront in de nieuwe ervaring van Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,9 +52,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Een aangepaste Help-URL configureren
 
-1. Klik op het pictogram Hoofdmenu ![](assets/main-menu-icon.png) in de rechterbovenhoek van Adobe Workfront en klik vervolgens op Instellen.
+{{step-1-to-setup}}
+
 1. Klik **Systeem** > **Voorkeur**.
 1. In de **Algemene sectie van de Voorkeur**, op het **gebied van de Hulp URL van de Douane van de Hulp**, typ URL waar uw plaats van de douanehulp wordt gevestigd.
 

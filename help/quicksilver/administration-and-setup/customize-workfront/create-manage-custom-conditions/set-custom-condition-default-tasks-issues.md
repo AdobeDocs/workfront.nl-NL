@@ -1,16 +1,16 @@
 ---
-title: Een aangepaste voorwaarde instellen als standaard voor taken en problemen
+title: Een aangepaste voorwaarde instellen als de standaardinstelling voor taken en problemen
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Wanneer een gebruiker op het Werk klikt of een updatecommentaar toevoegt aan een nieuwe taak zij (zonder manueel een voorwaarde voor de taak te plaatsen) zijn toegewezen, toont Adobe Workfront de standaardvoorwaarde voor taken, die in Opstelling wordt gevormd. Hetzelfde geldt voor kwesties.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Wanneer een gebruiker op het Werk klikt of een updatecommentaar toevoegt aan een
 Workfront gebruikt de ingebouwde voorwaarde Vloeiend als standaardvoorwaarde voor taken en, afzonderlijk, voor kwesties. Als Workfront-beheerder kunt u de standaardvoorwaarde voor beide objecttypen wijzigen in een aangepaste voorwaarde die u hebt gemaakt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,9 +46,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Stel een aangepaste voorwaarde in als een standaardvoorwaarde voor taken of uitgaven:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Voorwaarden**.
 

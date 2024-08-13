@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Als [!DNL Adobe Workfront] -beheerder kunt u voorkeuren opgeven voor tijdbladen 
 >
 >Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md) en [ overzicht van de Tijdopnemer ](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Alle wijzigingen die u aanbrengt in tijdbladen, zijn van invloed op alle tijdbladen die in de toekomst worden gemaakt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -64,6 +64,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 *Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voorkeuren voor tijdbladen en uren instellen
 

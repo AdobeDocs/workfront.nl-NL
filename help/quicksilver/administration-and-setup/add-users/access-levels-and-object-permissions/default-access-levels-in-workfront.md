@@ -6,11 +6,11 @@ keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
 title: Ingebouwde toegangsniveaus
 description: Elk van de zes huidige ingebouwde toegangsniveaus wordt ontworpen voor een bepaald type van gebruiker, met inbegrip van de Beheerder van het Systeem, de Planner, de Arbeider, de Recensent, de Aanvrager, en Externe Gebruiker. Met deze toegangsniveaus kunt u bepalen welke gebruikers in het systeem kunnen bewerken en weergeven. Als u een aangepast toegangsniveau nodig hebt, kunt u een ingebouwd toegangsniveau kopiëren en dit wijzigen op basis van de hoeveelheid toegang die u voor de verschillende Workfront-objecttypen wilt toestaan.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 0%

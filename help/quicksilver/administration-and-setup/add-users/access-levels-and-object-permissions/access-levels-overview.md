@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: toegang,niveau,systeem,beheerder,planner,worker,revisor,aanvrager,extern,gebruiker
 navigation-topic: access-levels
 description: Elke gebruiker moet een toegangsniveau hebben om zich aan te melden en in Workfront te werken. Met het toegangsniveau kunt u bepalen wat een gebruiker kan zien en doen met bepaalde Workfront-objecten en -gebieden. Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Workfront vergunningen, die Plan, het Werk, het Overzicht, Verzoek, en Extern zijn.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

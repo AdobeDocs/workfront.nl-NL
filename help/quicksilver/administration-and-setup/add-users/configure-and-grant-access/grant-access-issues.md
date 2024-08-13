@@ -1,16 +1,16 @@
 ---
-title: Toegang verlenen tot kwesties
+title: Toegang verlenen tot problemen
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Als Adobe Workfront-beheerder kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot problemen in Workfront te definiëren.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toe
 Voor informatie over het gebruiken van de niveaus van de douanetoegang om gebruikers&#39; toegang tot andere objecten types in Workfront te beheren, zie [ tot douanetoegangsniveaus leiden of wijzigen ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Gebruikerstoegang verlenen voor problemen met behulp van een aangepast toegangsniveau
 
