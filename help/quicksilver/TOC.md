@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14309'
 ht-degree: 0%
 
 ---
@@ -804,9 +804,6 @@ ht-degree: 0%
       * [Een blauwdruk configureren](administration-and-setup/blueprints/configure-template-package.md)
       * [Handelingen die moeten worden uitgevoerd na de installatie van een blauwdruk](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [Lijst met beschikbare blauwdrukken](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Veelgestelde vragen over beheerders {#admin-faq}
-      * [Veelgestelde vragen over beheerders](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-      * [Ondersteuningsbeleid voor AtTask OnPremise](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
    * Beheer in de Adobe Admin Console {#admin-in-admin-console}
       * [Workfront Administration in de Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [ voorbereidingen treffen voor Adobe Admin Console ](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
