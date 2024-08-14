@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
+source-wordcount: '14317'
 ht-degree: 0%
 
 ---
@@ -2039,11 +2039,13 @@ ht-degree: 0%
       * [Algemene informatie over Adobe Workfront Planning: artikelindex](planning/general/planning-general-article-index.md)
       * [Overzicht van Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Basisbeginselen van de API voor Adobe Workfront-planning](planning/general/planning-api-basics.md)
+      * [Overzicht van beperkingen van Adobe Workfront-planningsobjecten](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning AI Assistant - overzicht](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
       * [Archieven van Adobe Workfront Planning Release-activiteiten voor 2023](planning/general/release-activity-archives-2023.md)
    * Adobe Workfront-planningsarchitectuur {#adobe-workfront-planning-architecture}
       * [Architectuur: artikelindex](planning/architecture/architecture-information.md)
+      * [Overzicht van werkruimten](planning/architecture/workspaces-overview.md)
       * [Werkruimten maken](planning/architecture/create-workspaces.md)
       * [Overzicht van recordtypen](planning/architecture/overview-of-record-types.md)
       * [Recordtypen maken](planning/architecture/create-record-types.md)

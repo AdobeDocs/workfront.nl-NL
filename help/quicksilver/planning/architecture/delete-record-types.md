@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -136,11 +136,11 @@ Voor informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/h
    De werkruimte wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Plaats over de kaart van het verslagtype, klik het Meer menu, dan **Schrapping**.
+   * Beweeg over de kaart van het verslagtype, klik **Meer** menu, toen **Schrapping**.
    * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping** klikken.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Het type **schrapt** in de bevestigingsdoos, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 
-   Het geselecteerde recordtype en de bijbehorende velden, bijbehorende records en weergaven worden verwijderd.
+   Het geselecteerde recordtype en de bijbehorende velden, bijbehorende records en weergaven worden verwijderd en kunnen niet worden hersteld.

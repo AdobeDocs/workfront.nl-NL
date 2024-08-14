@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '5786'
+source-wordcount: '5851'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,55 @@ Het planningsprogramma van Workfront is sinds 22 mei 2023 van start gegaan. Voor
 De vrijgegeven functies worden weergegeven in de volgorde van hun release, met de meest recente eerst. Klanten die deelnemen aan het Workfront-planningsprogramma hebben toegang tot alle functies in hun productieomgeving.
 
 De Planning van Workfront is sinds januari 2024 tijdelijk verwijderd uit de milieu&#39;s van de Voorproef en van Sandbox. Alle in deze artikelen beschreven functies zijn momenteel beschikbaar in Productie.
+
+<!--
+
+### Landing page improvements
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have made the following improvements to the Planning area's main page: 
+
+* "Workfront Planning" displays in the landing page header, to make it clear for users what area of the application they are accessing. (*******************)--not seeing this anywhere – omit this!*************????)
+
+* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
+
+* We added "Show all" and "Show less" links to display more or fewer workspaces in case there are more than two rows of workspace cards listed on the main page.  
+
+* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+
+### Connect record types across multiple workspaces
+
+ Production: <date>  
+
+ Preview: To be determined  
+
+ You can now connect record types that belong to different workspaces.  
+
+ System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types.  
+
+Prior to this enhancement, you could only connect record types that belonged to the same workspace, along with object types from other applications.   
+
+ For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
+
+-->
+
+## Week van 12 augustus 2024
+
+### Het laatst weergegeven tijdframe in de tijdlijnweergave behouden
+
+Productie: 14 augustus 2024
+
+Voorbeeld: te bepalen
+
+Wanneer u nu een tijdlijnweergave opent en naar een datum in het verleden of in de toekomst bladert, blijft de geselecteerde datum behouden nadat u de pagina hebt vernieuwd. Vóór deze verbetering, zou de pagina de datum van vandaag tonen.
+
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 ## Week van 29 juli 2024
 

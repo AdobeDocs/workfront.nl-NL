@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -40,15 +40,16 @@ De artikelen in de volgende secties beschrijven hoe u de Planning van Workfront 
 >
 >De documentatie waarnaar in de onderstaande secties wordt verwezen, zal enige tijd beschikbaar zijn nadat de functies naar Production zijn vrijgegeven.
 
-## Algemeen overzicht van de planning van Adobe Workfront
+## Algemene informatie over Adobe Workfront Planning
 
-Ga naar de volgende artikelen voor een overzicht van de nieuwe Planning van Workfront:
+Ga naar de volgende artikelen voor algemene informatie over de nieuwe Planning van Workfront:
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md): Een overzicht op hoog niveau van de Planning van Adobe Workfront, met inbegrip van de terminologie en de concepten die aan deze oplossing uniek zijn. We raden je aan om je reis te beginnen met Workfront Planning hier.
+* [ het objecten van de Planning van Adobe Workfront overzicht ](/help/quicksilver/planning/general/limitations-overview.md): Een lijst van beperkingen voor het aantal voorwerpen u in de Planning van Workfront kunt tot stand brengen.
 * [ Adobe Workfront Plannend huidige versieactiviteit ](/help/quicksilver/planning/general/release-activity.md): Een lijst van alle eigenschappen die sinds de lancering van het Programma van de Planning van Adobe Workfront, op 22 mei, 2023 met nauwkeurige versiedata en een kort overzicht van elke eigenschap zijn vrijgegeven.
 * [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
 
@@ -76,7 +77,7 @@ De volgende secties bevatten artikelen die een gedetailleerde beschrijving geven
    * Werkruimten maken, bewerken, verwijderen
    * Recordtypen maken, bewerken en verwijderen
    * Verbind verslagtypes en voorbeelden van verbindende verslagtypes
-   * Workspace-sjabloon
+   * Workspace-sjablonen
 
 * [ Gebieden: artikelindex ](/help/quicksilver/planning/fields/fields-information.md) bevat de volgende informatie:
 

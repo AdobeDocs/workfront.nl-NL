@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,8 @@ Voor meer informatie over het verlenen van toegang tot en het toelaten van ander
 Hoewel Workfront Planning onderdeel is van Workfront, wordt het geleverd met eigen concepten en terminologie. Zorg ervoor dat u bekend bent met de nieuwe concepten voordat u begint met het instellen van Workfront Planning voor uw organisatie.
 
 Het raamwerk voor Workfront Planning is volledig aanpasbaar. U kunt alle recordtypen, hun kenmerken en alle bijbehorende velden maken op basis van de exacte behoeften van uw organisatie.
+
+Er gelden beperkingen voor het aantal Workfront Planning-objecten dat u kunt maken. Voor meer informatie, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
 
 Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
@@ -252,34 +254,6 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 
 Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
-
-
-## Beperkingen van Adobe Workfront-planningsobjecten
-
-In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken in Workfront Planning. De beperkingen zijn aan verandering onderhevig naarmate we de volgende ontwikkelingsfasen ingaan.
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Object Adobe Workfront Planning | Limiet |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Aantal werkruimten voor één Workfront-instantie | 1.000 |
-| Aantal secties voor één werkruimte | 50 |
-| Aantal recordtypen voor één werkruimte | 1.000 (dit omvat recordtypen van alle secties en die die wanneer het gebruiken van een werkruimtesjabloon worden gecreeerd) |
-| Aantal records voor één recordtype | 50.000 |
-| Aantal velden voor één recordtype of taxonomie | 500 |
-| Aantal tekens voor een tekstveld | 1.000 tekens |
-| Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |
-| Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
-| De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
-| Grootte CSV-bestand dat u kunt importeren* | 5 MB |
-| Aantal weergaven dat een gebruiker voor één recordtype kan maken | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*Deze functie is tijdelijk uitgeschakeld en is later beschikbaar.
-
 
 ## Adobe Workfront-planning zoeken
 

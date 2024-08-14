@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen.
 
 Een werkruimte is een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
+
+Voor algemene informatie over werkruimten, zie [ Overzicht van Werkruimten ](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Toegangsvereisten
 
@@ -95,27 +97,6 @@ Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in d
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Overwegingen over werkruimten
-
-* U kunt werkruimten voor specifieke organisatorische eenheden binnen uw organisatie tot stand brengen, om de unieke manier aan te passen elke eenheid werkt.
-* Afhankelijk van uw Workfront-licentie worden werkruimten weergegeven op de volgende tabbladen in het gedeelte Planning:
-
-   * Voor systeembeheerders worden de werkruimten weergegeven op de volgende tabbladen:
-
-      * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Andere werkruimten**: Toont alle andere werkruimten in het systeem, met inbegrip van degenen die met u worden gedeeld. &lt;!—Vervangen door: Andere werkruimten: geeft alle andere werkruimten in het systeem weer. >
-
-   * Voor alle andere gebruikers worden de werkruimten die zij hebben gemaakt en de werkruimten die anderen met hen delen, weergegeven in het gebied Werkruimten.
-
-* De recordtypen die een werkruimte bevat, moeten de levenscyclus van een organisatie weerspiegelen.
-* Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken. Voor informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen. Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
-* U kunt het volgende hebben:
-
-   * Tot 50 secties in één werkruimte.
-   * Maximaal 1.000 recordtypen uit alle secties in één werkruimte. Alle recordtypen zijn uniek voor elke werkruimte. <!--this might change-->
-   * Tot 1.000 werkruimten in de Workfront-instantie van uw organisatie.
-
-
 ## Een werkruimte maken
 
 U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te ordenen in Workfront Planning. Voor meer informatie over het uitgeven van een werkruimte, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
@@ -153,7 +134,7 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
    * Een lege werkruimte genoemd **Naamloze Workspace** waar u recordtypes kunt beginnen manueel toe te voegen, wanneer u een werkruimte van kras creeert.
    * Een werkruimte die wordt genoemd naar de geselecteerde sjabloon en die is gevuld met typen voorbeeldrecords. U kunt de recordtypen en de werkruimte verder aanpassen.
 
-   Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op **Mijn werkruimten** tabel. <!--replace this with: Workspaces I'm on tab-->
+   Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op **Mijn werkruimten** tabel. <!--replace this with: **Workspaces I'm on** tab-->
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 
 1. (Facultatief en voorwaardelijk) als u de werkruimte van een malplaatje creeerde, klik binnen de naam van de **Operationele Types van Verslag** of **taxonomieën** secties

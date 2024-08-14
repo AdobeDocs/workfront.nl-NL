@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Ook, kan de Planning van Workfront met objecten types van andere systemen verbin
 
 De artikelen in de volgende secties beschrijven hoe u de werkruimten van de Planning van Adobe Workfront kunt vormen, de verslagtypes bepalen die de bouwstenen van die werkruimten zijn, en beginnen zijn mogelijkheden te gebruiken:
 
+* [Overzicht van werkruimten](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Werkruimten maken](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Lijst met werkruimtemalplaatjes](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Overzicht van recordtypen](/help/quicksilver/planning/architecture/overview-of-record-types.md)
