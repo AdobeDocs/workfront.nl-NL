@@ -7,9 +7,9 @@ description: Scenario-details in  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
      <tr> 
       <td role="rowheader">[!UICONTROL Modules diagram] </td> 
       <td>Dit lusje toont de visuele vertegenwoordiging van het scenario. Het Diagram is het zelfde als u in de scenarioredacteur zult zien</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Reports] (tab) </td> 
+      <td> <p>Open dit tabblad om een grafiek weer te geven van het aantal bewerkingen dat door dit scenario gedurende de laatste 30 dagen is uitgevoerd.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tab) </td> 

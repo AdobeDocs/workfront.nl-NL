@@ -7,7 +7,7 @@ description: Dit artikel beschrijft de montages beschikbaar in het [!UICONTROL s
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -132,10 +132,7 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->[!UICONTROL Maximum number of returned files] in de [!UICONTROL Dropbox] > [!UICONTROL Watch files] module wordt geplaatst aan `10`.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>[!UICONTROL Maximum number of returned files] in de [!UICONTROL Workfront] > [!UICONTROL Watch records] module wordt geplaatst aan `10`.
 >Als 100 aanvragen worden verzonden naar [!DNL Workfront] en het veld [!UICONTROL Limit] is ingesteld op 10, worden 90 bestanden niet verwerkt nadat één scenario is uitgevoerd. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
 >
 >### Max. aantal cycli is ingesteld op 10

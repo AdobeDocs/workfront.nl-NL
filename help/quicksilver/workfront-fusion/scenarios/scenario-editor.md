@@ -7,7 +7,7 @@ description: De scenario redacteur staat u toe om scenario's in een visuele inte
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De scenario redacteur staat u toe om scenario&#39;s in een visuele interface tot stand te brengen en uit te geven.
 
-![](assets/scenario-editor-350x228.jpg)
+![](assets/scenario-editor.jpg)
 
 ## Toegangsvereisten
 

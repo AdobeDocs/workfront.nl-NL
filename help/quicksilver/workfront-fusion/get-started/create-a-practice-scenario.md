@@ -7,7 +7,7 @@ description: In dit artikel wordt beschreven hoe u een integratiescenario kunt m
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Het creëren van een scenario bestaat uit verscheidene hoofdtaken:
    De scenario-editor wordt weergegeven, met daarin een lege module in het midden, de [!DNL Google Sheets] -app die u vooraf hebt geladen en enkele opties op de werkbalk onderaan.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 Wanneer u begint creërend een nieuw scenario, is het een goed idee om te beginnen door een naam voor het te creëren.
