@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
 
 # Gebruikers verwijderen
+
+>[!IMPORTANT]
+>
+>De procedure die op deze pagina wordt beschreven is slechts op organisaties van toepassing die nog niet aan het Bedrijfs Platform van de Adobe worden geregistreerd. Als u bent aangemeld bij het Adobe Business Platform, moet u gebruikers in de Adobe Admin Console verwijderen.
+>
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Bedrijfs Platform van de Adobe is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Wanneer een gebruiker uw organisatie verlaat, kunt u die gebruiker uit Adobe Workfront verwijderen.
 

@@ -6,7 +6,7 @@ description: Brongroepen zijn verzamelingen gebruikers die u helpen bronnen gema
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Brongroepen maken
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Brongroepen zijn verzamelingen gebruikers die u helpen bronnen gemakkelijker te beheren in Adobe Workfront. Voor meer informatie over middelpools, zie [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
