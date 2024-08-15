@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
+source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -52,14 +52,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## AI Assistant in Workfront inschakelen of uitschakelen
 
-AI Assistant is standaard ingeschakeld.
+AI Assistant is standaard uitgeschakeld.
 
-AI Assistant uitschakelen voor een bepaald toegangsniveau:
+AI-assistent inschakelen voor een bepaald toegangsniveau:
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
 1. Selecteer het toegangsniveau waarvoor u AI Assistant wilt uitschakelen.
 1. In het Edit venster van het Niveau van de Toegang, scrol neer aan de bodem van het venster en klik **Reeks extra beperkingen...**.
-1. In het Vastgestelde extra beperkingsgebied, laat de optie **toe onbruikbaar maakt de Medewerker van Workfront AI**.
+1. In het Vastgestelde extra beperkingsgebied, laat de optie **toe de Medewerker van Workfront AI**.
 1. Klik **sparen**.
-1. Herhaal stap 3-6 voor elk toegangsniveau waarvoor u AI medewerker wilt onbruikbaar maken.
+1. Herhaal stap 3-6 voor elk toegangsniveau waarvoor u AI medewerker wilt toelaten.
