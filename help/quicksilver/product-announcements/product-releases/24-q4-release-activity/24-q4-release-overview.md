@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,49 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 
 ## Verbeteringen voor Adobe Workfront
 
+* [ de verhogingen van de Beheerder ]
 * [Projectverbeteringen](#project-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
 * [Andere verbeteringen](#other-enhancements)
+
+### Beheerdersverbeteringen
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> de knoop van de Lay-out op de ontwerper van de douanevorm staat twee of drie kolommen </a> toe</p>
+                        <p>Met de knop Indeling in de aangepaste formulierontwerper kunt u kiezen uit een werkgebied met twee of drie kolommen. De oorspronkelijke formulierontwerper gebruikt drie kolommen en de veldinstellingen worden uiterst rechts weergegeven. Als u twee kolommen selecteert, worden de veldinstellingen in de linkerkolom naast de veldbibliotheek weergegeven.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 12 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p>Productie voor snelle release: met de release van 24.9 (september 2024)</p>
+                            </li>
+                            <li>
+                                <p>Productieversie voor alle klanten: TBD</p>
+                            </li>
+                        </ul>
+                        <p><i>Deze functie maakt deel uit van een gefaseerde release en zal in september beschikbaar zijn voor een beperkt aantal klanten.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Projectverbeteringen
 
@@ -77,7 +117,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> relevantere slimme taken </a></p>
-                        [!BADGE in productie voor Snelle Versie ]{type=Positive}
+                        [!BADGE in productie ]{type=Informative}
                         <p>We hebben het algoritme gewijzigd dat Workfront gebruikt om slimme toewijzingen voor taken te berekenen en voor te stellen. Het nieuwe algoritme is van toepassing op de volgende gebieden in Workfront waar u een taak toewijst: taaklijsten, het gebied van Toewijzingen in de taakkopbal, Huis, en het Summiere paneel.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
@@ -154,7 +194,29 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> de Medewerker van de Adobe AI beschikbaar in Workfront </a></p>
+                        <p>Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij de Medewerker van AI van Adobe aan Workfront toegevoegd. AI Assistant kan u helpen door:</p>
+                        <ul>
+                            <li>Het samenvatten van het werkpunten en documenten, toestaand u om een algemeen inzicht in taken, projecten, en activa snel te bereiken.</li>
+                            <li>Het verstrekken van informatie van de documentatie van het Experience League, het brengen van instructies en verwijzingsmateriaal in Workfront, terwijl het verbinden aan meer diepgaande documentatie.</li>
+                            <li>Formules maken en verfijnen voor berekende aangepaste formuliervelden, formules genereren op basis van tekstaanwijzingen of fouten zoeken in bestaande formules.</li>
+                            </ul>
+                            <p>Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.</p>
+                        </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 28 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Productieversie: 28 augustus 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 

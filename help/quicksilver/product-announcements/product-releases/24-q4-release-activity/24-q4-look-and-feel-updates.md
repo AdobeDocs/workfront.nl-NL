@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Voor informatie, zie [ systeemvoorkeur ](/help/quicksilver/administration-and-se
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 1 augustus 2024; productie voor snelle release: met de release van 24.8 (augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+>Voorvertoningsrelease: 1 augustus 2024; productie voor snelle release: met de release van 24.8 (15 augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
 
 De gebruiker van de Schrapping en Deactivate berichten die de gebruikers zien wanneer het schrappen van of het deactiveren van een gebruiker zijn bijgewerkt aan een modernere ontwerp dat met andere gebieden van Workfront verenigbaar is.
 
@@ -42,7 +42,7 @@ Voor informatie bij het schrappen van en het deactiveren van gebruikers, zie [ g
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 1 augustus 2024; productie voor snelle release: met de release van 24.8 (augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+>Voorvertoningsrelease: 1 augustus 2024; productie voor snelle release: met de release van 24.8 (15 augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
 
 We hebben de pagina Brongroepen bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront.
 
@@ -62,8 +62,8 @@ Voor informatie bij het schrappen van een taak, zie [ taken van de Schrapping ](
 
 >[!NOTE]
 >
->Voorvertoningsrelease: 17 juli 2024; productie voor snelle release: met de release van 24.8 (augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
+>Voorvertoningsrelease: 17 juli 2024; productie voor snelle release: met de release van 24.8 (15 augustus 2024); productie voor driemaandelijkse release: met de release van 24.10 (oktober 2024)
 
 We hebben de pagina Melding bijgewerkt (dit is bereikt door op het meldingspictogram op de hoofdwerkbalk te klikken en vervolgens op Alle meldingen te klikken) met een modern ontwerp dat aansluit bij andere delen van Workfront.
 
-Voor informatie, zie [ baanrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en leiden.
+Voor informatie, zie [ Mening en beheer in-app berichten ](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
