@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-><span class="preview"> de Medewerker AI is tijdelijk verwijderd en zal op een recentere datum terugkeren.</span>
+><span class="preview"> de Medewerker van Workfront AI is tijdelijk verwijderd en het zal op een recentere datum beschikbaar zijn.</span>
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning en naar de Workfront AI Assistant (beta), die nieuwe aanbiedingen zijn van Adobe Workfront.
 >
 >Workfront Planning bevindt zich momenteel in een vroege toegangsfase en de Workfront AI Assistant bevindt zich in een bètafase.

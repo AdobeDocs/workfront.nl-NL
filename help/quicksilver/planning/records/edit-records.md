@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -233,6 +233,8 @@ U kunt een record uit de volgende gebieden bewerken:
 
    Workfront slaat uw wijzigingen automatisch op.
 
+   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [ wordt beschreven geef een verslag van de pagina van het verslag ](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
 
 ### Een record op de recordpagina bewerken
@@ -285,6 +287,9 @@ U kunt een record uit de volgende gebieden bewerken:
    Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
+
+   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+
 
 ## Een record uit een Workfront-object bewerken in de sectie Planning
 

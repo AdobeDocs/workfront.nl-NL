@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,20 @@ Ga naar de volgende artikelen voor algemene informatie over de nieuwe Planning v
 * [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md): Een overzicht op hoog niveau van de Planning van Adobe Workfront, met inbegrip van de terminologie en de concepten die aan deze oplossing uniek zijn. We raden je aan om je reis te beginnen met Workfront Planning hier.
 * [ het objecten van de Planning van Adobe Workfront overzicht ](/help/quicksilver/planning/general/limitations-overview.md): Een lijst van beperkingen voor het aantal voorwerpen u in de Planning van Workfront kunt tot stand brengen.
 * [ Adobe Workfront Plannend huidige versieactiviteit ](/help/quicksilver/planning/general/release-activity.md): Een lijst van alle eigenschappen die sinds de lancering van het Programma van de Planning van Adobe Workfront, op 22 mei, 2023 met nauwkeurige versiedata en een kort overzicht van elke eigenschap zijn vrijgegeven.
+
+## Extra functies beschikbaar voor Workfront Planning
+
 * [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
 
   >[!NOTE]
   >
-  >    De Workfront AI Assistant is momenteel beschikbaar voor het selecteren van klanten in een bètafase. Neem contact op met uw accountvertegenwoordiger om te weten of je in aanmerking komt voor deelname om dit nieuwe aanbod uit te proberen.
+  >    De Workfront AI Assistant is tijdelijk verwijderd en is later beschikbaar.
 
 * [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
 * [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
+
+<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
 
 ## Workfront Planning Architectuur en functionaliteit
 

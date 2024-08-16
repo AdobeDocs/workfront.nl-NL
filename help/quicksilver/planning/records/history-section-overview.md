@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,7 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 1. Klik op een opnametype.
 De recordtypepagina wordt geopend en alle records van dat type worden weergegeven.
 
-1. Kies een lijstmening van het **drop-down menu van de Mening**.
-1. Klik op de naam van een record in de tabelweergave.
+1. Klik vanuit een willekeurige weergave op de naam van een record.
 
    De pagina van de record wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
 1. Klik **tonen het pictogram van de Geschiedenis** ![](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
