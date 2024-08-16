@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 0%
@@ -39,7 +39,7 @@ In dit artikel wordt beschreven hoe u twee Workfront-planningsrecords met een Wo
 
 Nadat u de verbinding tussen verslagen of objecten types vestigt, kunt u individuele verslagen met elkaar verbinden, en vertoningsgebieden van het verbonden verslag of objecten types op een verslag van de Planning van Workfront tonen.
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Voor informatie over het verbinden van een verslag van de Planning van Workfront met een voorwerp van een andere toepassing, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
@@ -240,7 +240,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
         * Many to one
         * Many to many
         
-        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+        For information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **Uitgezochte raadplegingsgebieden**: Selecteer deze optie om gebieden van het geselecteerde verslagtype toe te voegen. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling wilt maken. Dit is standaard geselecteerd.
 
      >[!TIP]

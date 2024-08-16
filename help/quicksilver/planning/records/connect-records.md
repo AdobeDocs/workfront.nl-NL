@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ec3c9668154cdfdd509d37e9621af717f1363d15
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2292'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ hide: yes
 {{planning-important-intro}}
 
 U kunt Adobe Workfront-planningsrecords met elkaar of met objecten van andere toepassingen verbinden.
+
+In dit artikel wordt beschreven hoe u records kunt verbinden. Voor meer algemene informatie over het verbinden van verslagen, zie [ Verbonden verslagenoverzicht ](/help/quicksilver/planning/records/connected-records-overview.md).
 
 U moet eerst twee recordtypen met elkaar verbinden of een recordtype met een objecttype vanuit een andere toepassing. Hiermee maakt u gekoppelde recordvelden. U kunt dan records met elkaar verbinden of records met andere objecten vanuit andere toepassingen verbinden met behulp van de gekoppelde recordvelden.
 
@@ -131,33 +133,9 @@ U kunt het volgende verbinden:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Overwegingen bij het verbinden van records
+## Vereisten voor het verbinden van records
 
-* Nadat u recordtypen hebt verbonden, worden de verbonden recordtypen weergegeven als gekoppelde recordvelden in de tabel met de recordtypen waarvan ze zijn gekoppeld en op de recordpagina&#39;s.
-* U kunt records en objecten van de gekoppelde record- en objecttypen bladeren en deze toevoegen vanuit de gekoppelde recordvelden.
-* U kunt velden (opzoekvelden) van de gekoppelde recordtypen toevoegen aan de tabel van het recordtype waarvan u een koppeling maakt.
-
-  U kunt velden (opzoekvelden) toevoegen van de recordtypen die u koppelt in de tabel van het recordtype waarnaar u een koppeling maakt.
-
-  Als u bijvoorbeeld het recordtype product van het recordtype Campagne koppelt, kunt u de velden Product voor campagnes en Campagne voor producten weergeven.
-* U kunt de waarden van opzoekvelden in de records waarvan u een koppeling maakt, niet handmatig bijwerken.
-
-  De waarden van de opzoekvelden van de gekoppelde records vullen de Workfront-planningsrecord die u automatisch koppelt vanuit de oorspronkelijke record of het oorspronkelijke object.
-
-* Iedereen met toegang tot de Planning van Workfront en Mening of hogere toestemmingen aan de werkruimte kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
-* U kunt de verbindingen van alle anderen weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte waar de verbonden records zich bevinden.
-* U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing.
-* U kunt objecten van Workfront verbinden met Workfront-planningsrecords in de volgende gebieden:
-   * Uit een planningsrecord in Workfront Planning.
-   * Vanuit het gedeelte Planning van een Workfront-object.
-
-* U kunt Workfront Planning-records in de volgende gebieden verbinden met Experience Manager Assets:
-
-   * Uit een planningsrecord in Workfront Planning
-
-## Vereisten voor het koppelen van records
-
-Als u records wilt koppelen aan andere records of objecten, moet u over het volgende beschikken:
+Als u records wilt verbinden met andere records of objecten, moet u over het volgende beschikken:
 
 * Ten minste één werkruimte, recordtype en record.
 
@@ -171,7 +149,15 @@ Als u records wilt koppelen aan andere records of objecten, moet u over het volg
 
 ## Connect-records van Workfront Planning
 
-### Connect Adobe Workfront-planningsrecords
+U kunt records vanuit Workfront Planning verbinden in de volgende gebieden:
+
+* Van een verslag van de Planning in de Planning van Workfront op de verbonden gebieden in de lijstmening.
+* Van een verslag van de Planning in de Planning van Workfront in de verslagvoorproef of pagina in de verbonden verslaggebieden.
+  <!--
+  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
+  * From a Planning record in the record's preview or page on the Connections tab.  -->
+
+### Connect Adobe Workfront Planning-records vanuit de tabelweergave of de recordpagina <!--Details tab of the-->
 
 {{step1-to-planning}}
 
@@ -232,7 +218,7 @@ Als u records wilt koppelen aan andere records of objecten, moet u over het volg
 
    Bericht dat het **verbonden verslaggebied van de Campagne** {de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
 
-### Adobe Workfront-planningsrecords verbinden met Workfront-objecten
+### Connect Adobe Workfront Planning-records vanuit de tabelweergave of de <!--Details tab of the--> recordpagina verbinden met Workfront-objecten
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -311,7 +297,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
    Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de planningsrecords van Workfront. De informatie die aan de verwijderde velden is gekoppeld, blijft in Workfront.
 
 
-### Workfront-planningsrecords verbinden met Adobe Experience Manager-objecten
+### Connect Workfront Planning-records vanuit de tabelweergave of de <!--Details tab of the--> recordpagina verbinden met Adobe Experience Manager-objecten
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -327,6 +313,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
 >
 >De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) vormen.
 
+Records verbinden met AEM elementen:
 
 {{step1-to-planning}}
 
@@ -403,12 +390,41 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
 
    Hiermee voegt u gekoppelde velden toe aan of verwijdert u deze uit de records. De informatie die aan de verwijderde velden is gekoppeld, blijft in Adobe Experience Assets.
 
+<!--
+### Connect Workfront Planning records from the Connections tab of the record page
+
+1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
+1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
+1. Click the name of a record. 
+
+    The preview page opens. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
+1. Click the **Connections** tab in the record's preview or page. 
+
+    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+
+1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
+    The Connect button does not display if there are no records currently connected to the selected record. 
+1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
+    The records and objects are added immediately.
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+
+    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+
+    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
+
+-->
+
 ## Connect-records van Workfront-objecten
 
 U moet het volgende hebben om de verslagen van de Planning van Workfront van de voorwerpen van Workfront te verbinden:
 
-* Verbindingen tussen recordtypen en Workfornt-objecttypen.
+* Verbindingen tussen recordtypen en Workfornt-objecttypen die zijn ingesteld in Workfront Planning.
 * Ten minste één verbinding tussen een record en een Workfront-object.
-* Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-objecttypen die verbinding kunnen maken met de recordtypen voor planning.
+* Uw Workfront of groepsbeheerder moet de sectie Planning toevoegen aan de Workfront-objecttypen die verbinding kunnen maken met de recordtypen voor planning in uw lay-outsjabloon.
 
 Voor meer informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

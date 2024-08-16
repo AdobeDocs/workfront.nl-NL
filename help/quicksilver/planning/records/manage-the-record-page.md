@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ Een sectie toevoegen aan een recordvoorvertoning of pagina:
 
 1. (Facultatief) klik **Open in nieuw lusje** pictogram ![](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
-   De recordpagina wordt geopend.
+   De recordpagina wordt geopend. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. In de verslagvoorproef of pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![](assets/add-section-icon.png) toevoegen om een sectie toe te voegen.
+1. In de <!--**Details** tab of the--> verslagvoorproef of pagina, houd over de witte ruimte links van de gebieden, dan klik **sectie** pictogram ![](assets/add-section-icon.png) toevoegen om een sectie toe te voegen.
 1. Klik binnen de naam van de sectie en vervang **Naamloze sectie** met een naam, dan klik binnengaan. De velden die onder de sectie worden weergegeven, maken automatisch deel uit van de nieuwe sectie.
 1. Begin en dalend gebieden aan de nieuwe sectie te slepen, zoals die in de sectie [ wordt beschreven herschik gebieden in de verslagvoorproef of detailspagina ](#rearrange-fields-in-the-record-preview-or-details-page) in dit artikel.
 
@@ -182,7 +182,13 @@ Alle secties worden standaard uitgevouwen.
 
    Alle wijzigingen in secties en de veldvolgorde worden automatisch opgeslagen.
 
-## De volgorde van velden in de recordvoorvertoning of op de detailpagina wijzigen
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Velden in de voorvertoning of pagina van de record opnieuw rangschikken
 
 {{step1-to-planning}}
 

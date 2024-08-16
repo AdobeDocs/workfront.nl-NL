@@ -1,23 +1,24 @@
 ---
-title: Overzicht van Adobe Workfront Planning AI Assistant
+title: Adobe Workfront Planning AI Assistant - overzicht
 description: U kunt de AI-assistent gebruiken om records te genereren, bij te werken of te verwijderen die zijn gebaseerd op de context van de huidige pagina en de recordstructuur. De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen om ervoor te zorgen dat de veranderingen door AI worden aangebracht nauwkeurig in uw milieu worden weerspiegeld.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront Planning AI Assistant - overzicht
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview"> de Medewerker AI is tijdelijk verwijderd en zal op een recentere datum terugkeren.</span>
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning en naar de Workfront AI Assistant (beta), die nieuwe aanbiedingen zijn van Adobe Workfront.
 >
 >Workfront Planning bevindt zich momenteel in een vroege toegangsfase en de Workfront AI Assistant bevindt zich in een bètafase.
@@ -36,7 +37,7 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 
 ## Overwegingen over de AI-assistent
 
-* De AI-assistent is standaard beschikbaar voor Workfront-beheerders.
+* De AI-assistent is standaard beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 * De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 

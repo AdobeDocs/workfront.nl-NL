@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,9 @@ Voor informatie over nieuwe eigenschappen en wanneer zij worden vrijgegeven, zie
 | Toegang tot planningsrecords van Workfront-objecten | ✓ |                                  |                 |
 | Connect-planningsrecords van Workfront-objecten | ✓ |                                  |                 |
 | Workfront Planning Public API | ✓ |                                  |                 |
+| Workfront Planning AI Assistant* | ✓ |                                  |                 |
+
+*De AI-assistent is tijdelijk verwijderd en wordt later geretourneerd.
 
 ## Adobe Workfront Planning inschakelen voor de gebruikers in uw Workfront-exemplaar
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,9 @@ Het gedeelte Planning is beschikbaar voor de volgende Workfront-objecten:
 
 ## Overwegingen over de sectie Planning van Workfront-objecten
 
-* Eerst moet u recordtypen verbinden met Workfront-objecttypen en records met Workfront-objecten om deze in Workfront te kunnen bekijken.
+* Workfront Planning-recordtypen moeten zijn verbonden met Workfront-objecttypen.
+
+* Ten minste één record moet zijn verbonden met één Workfront-object om records in Workfront te kunnen weergeven.
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
