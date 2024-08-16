@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ U kunt een aangepast formulier organiseren met de formulierontwerper en er een v
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -28,22 +30,26 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw abonnement: standaard</p>
+   <p>Nieuw: Standaard</p>
    <p>of</p>
-   <p>Huidig plan: Plan</p></td> 
+   <p>Huidig: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang verlenen tot bepaalde gebieden </a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Sectie-einde toevoegen
 

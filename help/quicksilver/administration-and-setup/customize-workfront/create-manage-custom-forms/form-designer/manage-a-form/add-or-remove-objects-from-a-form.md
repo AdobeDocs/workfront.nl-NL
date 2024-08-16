@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt objecttypen toevoegen aan of verwijderen uit een bestaand aangepast formulier met de formulierontwerper.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Objecttypen toevoegen aan een bestaand aangepast formulier
 

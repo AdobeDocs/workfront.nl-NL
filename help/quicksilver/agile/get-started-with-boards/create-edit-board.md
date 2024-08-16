@@ -1,12 +1,12 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Een board maken of bewerken
+title: Een kaart maken of bewerken
 description: Vanuit het dashboard van [!UICONTROL boards] kunt u een nieuw board maken of een bestaand board bewerken.
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 +++
 
-## Een nieuw board maken
+## Een nieuw bord maken
 
 {{step1-to-boards}}
 
@@ -57,16 +57,16 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    | Sjabloon | Beschrijving |
    |---------|----------|
-   | Basisboard | Er zijn drie standaardkolommen op het board. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. |
+   | Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. |
    | Kanban-bord | De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Voor informatie, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen. <p>Om het standaardbeleid voor elke kolom te herzien, klik [!UICONTROL **Meer** menu ] op een kolom en selecteer [!UICONTROL **uitgeven**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Voor informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | Retrospectief | De volgende kolommen staan aan boord: Wat is er goed gegaan? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Geen kolombeleid toegepast. |
-   | Dynamisch board | De volgende kolommen worden op het board weergegeven: Niet geselecteerd, Nieuw, Bezig, In wachtstand en Voltooid. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. (U kunt de naam van de niet-geselecteerde kolom wijzigen, maar de kolom niet verwijderen. Deze kolom bevat alle kaarten met een status die niet overeenkomt met een van de andere kolomstatussen.) <p>Het standaardkolombeleid wijst kaarten aan kolommen toe die op hun status worden gebaseerd. Voor informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | Retrospectief | De volgende kolommen staan aan boord: Wat is er goed gegaan? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
+   | Dynamisch bord | De volgende kolommen worden verstrekt op de raad: Niet geselecteerd, Nieuw, Bezig, In Greep, en Volledig. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. (U kunt de naam van de niet-geselecteerde kolom wijzigen, maar de kolom niet verwijderen. Deze kolom bevat alle kaarten met een status die niet overeenkomt met een van de andere kolomstatussen.) <p>Het standaardkolombeleid wijst kaarten aan kolommen toe die op hun status worden gebaseerd. Voor informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-1. Volg de stappen van de wizard Setup om alleen een dynamisch board te maken:
+1. Voer de stappen van de installatiewizard uit als u alleen een dynamisch board wilt gebruiken:
 
    1. Typ een naam voor de raad en klik [!UICONTROL **daarna**].
    1. Onderzoek naar en selecteer [!DNL Workfront] [!UICONTROL **Projecten**] om taken en kwesties op de raad te brengen.
-   1. Zoek naar en selecteer [!UICONTROL **Taken**] om taken en kwesties op de raad te brengen.
+   1. Onderzoek naar en selecteer [!UICONTROL **Taken**] om taken en kwesties op de raad te brengen.
 
       Alle objecten worden op het bord weergegeven als verbonden kaarten.
 
@@ -80,22 +80,22 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
       >[!NOTE]
       >
-      >Gearchiveerde kaarten worden standaard niet op het board weergegeven. Als u gearchiveerde kaarten wilt weergeven, moet u een configuratie-instelling inschakelen en vervolgens het board filteren om gearchiveerde kaarten weer te geven. Voor details, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) en [ Filter en onderzoek in een board ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md) worden getoond.
+      >Gearchiveerde kaarten worden standaard niet op het bord weergegeven. Als u gearchiveerde kaarten wilt weergeven, moet u een configuratie-instelling inschakelen en vervolgens het bord filteren om gearchiveerde kaarten weer te geven. Voor details, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) en [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md) worden getoond.
 
-   1. (Optioneel) Klik op [!UICONTROL **Geavanceerde filters gebruiken**] om extra filteropties weer te geven.
+   1. (Facultatief) klik [!UICONTROL **Geavanceerde filters van het Gebruik**] om extra filteropties te tonen.
 
-      Dit is hetzelfde proces als het maken van een filter op een inlaatkolom. Voor meer informatie, zie [ een inlaatkolom aan een board ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
+      Dit is hetzelfde proces als het maken van een filter op een inlaatkolom. Voor meer informatie, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
-      Als u de filters op een dynamisch board bijwerkt nadat deze zijn gemaakt, worden de kaartinstellingen die geen deel uitmaken van de Workfront-taak of -uitgave (zoals codes), opnieuw ingesteld.
+      Als u de filters op een dynamisch bord bijwerkt nadat deze zijn gemaakt, worden de kaartinstellingen die geen deel uitmaken van de Workfront-taak of -uitgave (zoals codes) opnieuw ingesteld.
 
    1. Na het toevoegen van de filters, klik [!UICONTROL **creeer raad**].
 
 1. Typ een naam voor het bord in het veld **[!UICONTROL Board]** en druk op Enter.
 1. Configureer de kaart naar wens.
 
-   Voor informatie, zie [ leden toevoegen of verwijderen uit a raad ](../../agile/get-started-with-boards/add-members-to-board.md), [ beheer boardkolommen ](../../agile/get-started-with-boards/manage-board-columns.md), [ voeg een ad hoc kaart aan a raad ](../../agile/get-started-with-boards/add-card-to-board.md) toe, en [ Gebruik verbonden kaarten op boards ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Voor informatie, zie [ leden toevoegen of verwijderen uit a raad ](../../agile/get-started-with-boards/add-members-to-board.md), [ beheer boardkolommen ](../../agile/get-started-with-boards/manage-board-columns.md), [ voeg een ad hoc kaart aan a raad ](../../agile/get-started-with-boards/add-card-to-board.md) toe, en [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Klik op **[!UICONTROL All Boards]** om terug te keren naar het dashboard voor de boards.
+1. Klik op **[!UICONTROL All Boards]** om terug te keren naar het dashboard voor de gebieden.
 
    U kunt ook het vervolgkeuzemenu met de naam van het huidige board vinden en erop klikken om naar een ander bord te gaan.
 

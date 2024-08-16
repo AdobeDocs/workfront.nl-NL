@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Een berekend aangepast veld kan het volgende bevatten:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -47,21 +49,26 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p> <p>Voor informatie over hoe de beheerders van Workfront deze toegang verlenen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang verlenen tot bepaalde gebieden </a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of configuraties van het toegangsniveau u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een bestaand berekend aangepast veld opnieuw gebruiken in een aangepast formulier
 
@@ -81,7 +88,7 @@ U kunt ook een andere berekening voor hetzelfde veld uitvoeren op het nieuwe for
 
 Een bestaand berekend aangepast veld opnieuw gebruiken:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Forms van de Douane** in het linkerpaneel.
 
@@ -119,7 +126,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 >
 >Voordat u een nieuw berekend aangepast veld maakt, moet u de bestaande velden identificeren die u wilt opnemen, zodat u zeker weet dat de gegevens die nodig zijn voor de berekening aanwezig zijn in Workfront.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Forms van de Douane** in het linkerpaneel.
 

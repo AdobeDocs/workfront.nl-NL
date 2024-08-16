@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ U kunt een aangepast formulier opnieuw activeren of deactiveren. We raden u aan 
 >Als een douaneformulier wordt gedeactiveerd maar nog deel van een rijonderwerp of de definitie van de verzoekrij uitmaakt, zal het aan nieuwe verzoeken worden vastgemaakt. Als u niet wilt dat het formulier op de aanvragen staat, moet u het handmatig uit de aanvraagwachtrij verwijderen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een aangepast formulier deactiveren
 

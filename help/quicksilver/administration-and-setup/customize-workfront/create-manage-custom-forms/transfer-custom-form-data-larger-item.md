@@ -1,5 +1,5 @@
 ---
-title: Aangepaste formuliergegevens overbrengen bij de conversie van een object
+title: Aangepaste formuliergegevens overdragen bij het converteren van een object
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Als u aangepaste formuliergegevens van een uitgave wilt overbrengen naar een taa
 Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md) of [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -53,6 +55,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ten eerste: extra objecten toevoegen aan het aangepaste formulier
 

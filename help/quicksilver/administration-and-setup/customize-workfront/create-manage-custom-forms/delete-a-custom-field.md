@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Om de systeemprestaties te verbeteren en formulieren gemakkelijker te gebruiken 
 >Of, voor een alternerende actie kunt u gebruiken om het verliezen van gegevens op niet meer gebruikte gebieden te vermijden, zie [ een douanegebied verwijderen zonder gegevens te verliezen die de gebruikers ](#remove-a-custom-field-without-losing-data-that-users-have-entered) in dit artikel zijn ingegaan.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -54,6 +56,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een aangepast veld of aangepaste widget uit het systeem verwijderen
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 U kunt toegang voor een douaneformulier vormen om te controleren wie-persoon, rol, groep, team, bedrijf-kan bekijken, delen, en het uitgeven.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Toegang tot aangepaste formulieren {#access-to-custom-forms}
 

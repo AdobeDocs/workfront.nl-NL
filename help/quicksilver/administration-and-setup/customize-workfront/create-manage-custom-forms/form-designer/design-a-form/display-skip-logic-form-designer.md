@@ -1,5 +1,5 @@
 ---
-title: Weergavelogica toevoegen en logica overslaan naar een formulier
+title: Weergavelogica toevoegen en logica overslaan op een formulier
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ U kunt bepalen welke secties van een aangepast formulier moeten worden weergegev
 >De logica geldt alleen binnen één formulier en kan niet worden gebaseerd op selecties vanuit een ander formulier.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Logische pictogrammen weergeven en overslaan
 
