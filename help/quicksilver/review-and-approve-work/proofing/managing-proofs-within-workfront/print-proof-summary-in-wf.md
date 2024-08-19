@@ -6,9 +6,9 @@ description: U kunt een proefdrukoverzicht afdrukken, opslaan als een PDF of exp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,8 @@ U kunt een proefdrukoverzicht rechtstreeks vanuit de documentlijst afdrukken.
 
 >[!NOTE]
 >
->U kunt niet meerdere proefsamenvattingen tegelijkertijd vanuit de documentlijst afdrukken.
+>* Samenvattingen groter dan 1 GB worden niet ondersteund.
+>* U kunt niet meerdere proefsamenvattingen tegelijkertijd vanuit de documentlijst afdrukken.
 
 1. Van de documentlijst die de proef bevat, beweegt zich over de rij die het document bevat, dan klik **Samenvatting van de Druk**.
 
