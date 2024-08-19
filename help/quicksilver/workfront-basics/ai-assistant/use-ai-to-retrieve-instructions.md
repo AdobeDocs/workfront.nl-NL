@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 AI Assistant kan informatie zoeken in Workfront-documentatie, zodat u Adobe Experience League niet hoeft te bezoeken om de hulp te krijgen die u nodig hebt.
 
 Bijvoorbeeld, als u AI Medewerker &quot;vraagt hoe ik een verzoekrij creeer,&quot;keert het instructies voor het creëren van het verzoek terug, die uit artikel [ worden getrokken leidt tot en beheert de Queues van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Informatie ophalen van AI Assistant
 

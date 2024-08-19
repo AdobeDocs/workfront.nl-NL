@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Berekende veldformules met AI Assistant herzien
+# Berekende veldformules genereren of herzien met AI Assistant
 
-U kunt de Medewerker van AI gebruiken om fouten in uw ongeldige douaneuitdrukkingen op berekende gebieden op te lossen.
+U kunt de Medewerker van AI gebruiken om formules te produceren die op een herinnering worden gebaseerd u verstrekt. U kunt fouten in uw ongeldige douaneuitdrukkingen op berekende gebieden ook oplossen.
+
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td><p>Nieuw: Premier of Ultimate</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Nieuw: Standaard</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Een berekende veldexpressie genereren
+
+## Een berekende veldexpressie herzien
 
 Wanneer u het berekende veld maakt in de aangepaste formulierbuilder, verschijnt er een foutbericht onder het veld als de formule ongeldig is.
 
 ![ Ongeldige uitdrukkingsfout ](assets/invalid-expression.png)
 
 Met AI Assistant kunt u de formule wijzigen in een geldige berekende veldexpressie.
-
-## Een berekende veldexpressie herzien
 
 Een ongeldige berekende veldexpressie herzien:
 

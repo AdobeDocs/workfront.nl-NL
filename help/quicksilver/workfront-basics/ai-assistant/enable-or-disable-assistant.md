@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,25 @@ ht-degree: 0%
 
 Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI Assistant hebben ingeschakeld. Dit wordt beheerd door toegangsniveaus.
 
+## Toegangsvereisten
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td><p>Nieuw: alle</p>
+       <p>of</p>
+       <p>Huidig: Niet beschikbaar</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td><p>Nieuw: Standaard</p>
        <p>of</p>
-       <p>Huidig: Plan</p></td>
+       <p>Huidig: Niet beschikbaar</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
