@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Voor informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuri
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
@@ -58,9 +60,12 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een bestaand goedkeuringsproces bewerken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. (Voorwaardelijk) als u een systeem-vlakke goedkeuringsproces uitgeeft, klik **Processen** > **goedkeurt** in het linkerpaneel.
 
    of

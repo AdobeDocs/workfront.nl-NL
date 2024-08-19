@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Vergrendelde en ontgrendelde statussen op systeemniveau
 description: Het sluiten van douanestatus is een manier om ervoor te zorgen dat de mensen door uw organisatie de zelfde processen in hun stroom van het werk gebruiken. Wanneer een status is vergrendeld, is deze beschikbaar voor alle gebruikers in het systeem. Hoewel u het kunt uitgeven of schrappen, kunnen de groepsbeheerders dit niet voor hun groepen doen. Omgekeerd, staat het ontgrendelen van douanestatus groepsbeheerders meer flexibiliteit toe om de unieke werkschema's te beheren die in hun groepen worden gebruikt. Ze kunnen de kenmerken van een ontgrendelde status wijzigen of deze voor hun groepen verwijderen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c70a10a920d32ad00a2e833b331c92a598902d21
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

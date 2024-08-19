@@ -1,23 +1,23 @@
 ---
-title: Statussen en prioritaire labels
+title: "Aangepaste statussen en prioriteitslabels maken: artikelindex"
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en kwesties tot stand brengen. Dit kan voor gebruikers door het volledige systeem van Workfront of voor specifieke groepen of subgroepen zijn. De status van een werkitem staat voor de huidige ontwikkelingsstatus.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Aangepaste statussen en prioriteitslabels maken
+# Aangepaste statussen en prioriteitslabels maken: artikelindex
 
 Deze sectie bevat de volgende artikelen:
 

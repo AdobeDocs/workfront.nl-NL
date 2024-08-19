@@ -1,17 +1,17 @@
 ---
-title: De lijst met taakstatussen van het systeem openen
+title: Heb toegang tot de Lijst van de Statussen van de Taak van het Systeem
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: U kunt de status van een taak gebruiken om gebruikers te laten zien in welk ontwikkelingsstadium een taak zich op een bepaald moment bevindt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 U kunt de status van een taak gebruiken om gebruikers te laten zien in welk ontwikkelingsstadium een taak zich op een bepaald moment bevindt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,11 +45,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Toegang krijgen tot taakstatussen
 
 Voor informatie over het uitgeven van de systeemstatussen of het creëren van nieuwe douanestatus, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Statussen**.
 

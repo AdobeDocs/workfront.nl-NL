@@ -1,17 +1,17 @@
 ---
-title: Heb toegang tot de lijst van de statussen van het systeemproject
+title: Heb toegang tot de Lijst van de Status van het Project van het Systeem
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: De gebruikers kunnen de status van een project specificeren zodat andere gebruikers het huidige stadium van ontwikkeling van het project op een bepaald ogenblik kunnen zien.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ U kunt ook aangepaste projectstatussen toevoegen om aan de behoeften in uw organ
 Als beheerder van Workfront, vormt u de standaardstatus voor alle nieuwe projecten in het systeem. Voor instructies, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -49,13 +51,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Toegang krijgen tot de projectstatussen
 
 Als beheerder van Workfront, kunt u tot de lijst van systeem-vlakke projectstatussen toegang hebben.
 
 Voor informatie over het uitgeven van een systeemstatus en het creëren van douanestatus, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Statussen**.
 

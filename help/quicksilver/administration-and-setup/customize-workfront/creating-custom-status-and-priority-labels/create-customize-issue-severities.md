@@ -1,16 +1,16 @@
 ---
-title: Uitgiftecontroles maken of aanpassen
+title: Probleemernst maken of aanpassen
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Uw gebruikers kunnen serienummers gebruiken om te bepalen hoe ernstig een probleem is. U kunt een van de vijf standaardserienummers in Adobe Workfront aanpassen of een nieuwe ernst maken voor uw gebruikers.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Uw gebruikers kunnen serienummers gebruiken om te bepalen hoe ernstig een proble
 >Taken en projecten hebben geen verificaties.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -51,6 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Ingebouwde uitgavendeclaraties
 
@@ -85,7 +89,7 @@ Workfront beschikt over vijf ingebouwde uitgavesecties:
 
 Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgestemd op de behoeften van uw gebruikers.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **>** de Voorkeur van het Project ****.
 

@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Status van systeemtaken
+title: Systeemtaakstatussen
 description: De drie geïntegreerde taakstatussen van het systeem in Workfront zijn vereist, wat betekent dat u ze kunt ontgrendelen, hernoemen en opnieuw rangschikken, maar u kunt ze niet verbergen of verwijderen. U kunt ook nieuwe taakstatussen van het systeem toevoegen om aan de behoeften in uw organisatie te voldoen. Het wijzigen van de status van een taak is doorgaans een handmatig proces, maar soms wordt de status van een taak automatisch gewijzigd, afhankelijk van andere factoren die zich in het systeem voordoen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

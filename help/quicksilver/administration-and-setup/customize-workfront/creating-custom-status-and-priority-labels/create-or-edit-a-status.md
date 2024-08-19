@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ U kunt een aangepaste status toevoegen voor gebruik door uw volledige organisati
 
 Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vormen zodat alle groepen in het systeem het kunnen gebruiken zonder het uit te geven. Of u kunt het vormen zodat de groepsbeheerders het voor hun groepen kunnen wijzigen, zoals verklaard in [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Voorkeur van het Project** > **Statussen**.
 

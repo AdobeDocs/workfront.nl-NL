@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Aangepaste statussen gebruiken als standaardstatussen
 description: Wanneer een douanestatus als standaardstatus wordt geplaatst, wordt de nieuwe standaardstatus gebruikt door het systeem op diverse manieren. De manieren waarin het wordt gebruikt hangt af van of het als standaardsysteem-vlakke status, of een standaardgroep-vlakke status wordt geplaatst.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Wanneer een douanestatus als standaardstatus wordt geplaatst, wordt de nieuwe standaardstatus gebruikt door het systeem op diverse manieren. De manieren waarin het wordt gebruikt hangt af van of het als standaardsysteem-vlakke status, of een standaardgroep-vlakke status wordt geplaatst.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -41,6 +43,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Aangepaste statussen op systeemniveau
 
@@ -76,7 +80,8 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
 
 ## Een aangepaste status instellen als standaardstatus
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In het linkerpaneel, klik **Voorkeur van het Project** > **Statussen**.
 1. (Voorwaardelijk) als u een standaardstatus voor een groep plaatst, begin het typen van de naam van de groep in het menu in de hoger-juiste hoek, dan selecteer het wanneer het verschijnt.
 1. Open het **Project**, **Taken**, of **Kwesties** lusje, afhankelijk van het type van status u als standaardstatus wilt plaatsen.

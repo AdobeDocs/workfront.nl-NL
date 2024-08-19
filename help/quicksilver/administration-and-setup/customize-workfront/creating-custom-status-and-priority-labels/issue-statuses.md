@@ -5,13 +5,13 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Met de status van een uitgave kunt u gebruikers in het systeem laten zien in welk ontwikkelingsstadium een uitgave zich op een bepaald moment bevindt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Met de status van een uitgave kunt u gebruikers in het systeem laten zien in welk ontwikkelingsstadium een uitgave zich op een bepaald moment bevindt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,13 +45,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Status van toegangskwesties
 
 U kunt tot systeem-vlakke uitgiftestatussen toegang hebben en wijzigen. U kunt bepaalde informatie over de standaardsysteemstatus bewerken of u kunt nieuwe aangepaste statussen maken. Voor meer informatie over het creëren van douanestatus of het uitgeven systeemstatussen, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
 
 Toegang krijgen tot uitgiftestatussen op systeemniveau:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Statussen**.
 

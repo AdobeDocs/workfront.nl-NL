@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Statussen op systeemniveau en groepen opnieuw ordenen
+title: Systeemniveau- en groepsstatussen opnieuw ordenen
 description: Als beheerder van Workfront, kunt u de orde van project, taak veranderen, en status voor iedereen in het systeem of voor één enkele groep uitgeven.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Als beheerder van Workfront, kunt u de orde van project, taak veranderen, en sta
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Standaardvolgorde van statussen
 
@@ -108,7 +112,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor taken en projecten in het gehele systeem of voor een groep
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Voorkeur van het Project > Statussen**.
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.

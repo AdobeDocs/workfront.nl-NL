@@ -1,13 +1,13 @@
 ---
 title: Prioriteiten maken en aanpassen
 description: U kunt de prioriteiten voor projecten, taken, en kwesties in het gebied van de Opstelling van Workfront controleren. Prioriteiten geven belang aan uw projecten, taken of problemen in Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 U kunt de prioriteiten voor projecten, taken, en kwesties in het gebied van de Opstelling van Workfront controleren. Prioriteiten geven belang aan uw projecten, taken of problemen in Adobe Workfront.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,6 +44,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Bestaande prioriteiten aanpassen
 
@@ -87,7 +91,7 @@ De prioriteiten die standaard worden opgegeven voor elk objecttype (project, taa
 
 Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toevoegen om aan de behoeften van uw organisatie te voldoen.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Voorkeur van het Project** > **Prioriteiten**.
 

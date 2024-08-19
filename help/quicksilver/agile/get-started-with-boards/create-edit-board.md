@@ -6,9 +6,9 @@ description: Vanuit het dashboard van [!UICONTROL boards] kunt u een nieuw board
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
       >[!NOTE]
       >
-      >De kaartlimiet voor dynamische borden is 700 taken en 700 emissies, voor een totaal van 1.400 kaarten. Een groot aantal kaarten op het bord kan van invloed zijn op de prestaties van het bord.
+      >De kaartlimiet voor dynamische borden is 700 taken en 700 emissies, voor een totaal van 1.400 kaarten. Een groot aantal kaarten op het bord kan van invloed zijn op de prestaties van het bord. Alle gearchiveerde kaarten, zowel verborgen als zichtbaar, tellen voor deze limiet.
 
    1. (Facultatief) Uitgezocht [!UICONTROL **archiveer geen voltooide kaarten**] om voltooide taken en kwesties op de raad als zichtbare kaarten in de Voltooide kolom te brengen. Als deze optie niet is geselecteerd, worden voltooide kaarten op het moment van het maken van het bord als gearchiveerde kaarten op het bord geplaatst.
 

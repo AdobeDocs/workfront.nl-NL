@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Als Adobe Workfront-beheerder kunt u de algemene instellingen voor goedkeuringsprocessen in Workfront bepalen. Deze instellingen zijn van invloed op alle goedkeuringsprocessen voor werkitems in uw systeem.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als Adobe Workfront-beheerder kunt u de algemene instellingen voor goedkeuringsprocessen in Workfront bepalen. Deze instellingen zijn van invloed op alle goedkeuringsprocessen voor werkitems in uw systeem.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,12 +46,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Algemene goedkeuringsinstellingen configureren
 
-1. Meld u aan bij Workfront als Workfront-beheerder.
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Klik **Processen** > **Goedkeuringen**.
+1. Klik **Processen** > **goedkeurt**.
 
 1. Klik het **pictogram van Montages** ![](assets/gear-icon-settings.png) naast de **goedkeurt** gebiedsnaam.
 
