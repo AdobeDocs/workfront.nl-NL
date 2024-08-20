@@ -1,16 +1,16 @@
 ---
-title: 'Basisbeginselen van Adobe Workfront Planning API'
+title: Basisbeginselen van de API voor Adobe Workfront-planning
 description: Het doel voor de Planning API van Adobe Workfront is het vereenvoudigen van de bouwintegratie met Planning door een REST-ful architectuur in te voeren die over HTTP werkt. In dit document wordt ervan uitgegaan dat u bekend bent met REST- en JSON-reacties en wordt de aanpak beschreven die door de API voor planning wordt gevolgd.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
 
 ---
-
 
 # Basisbeginselen van de API voor Adobe Workfront-planning
 
@@ -98,13 +98,13 @@ Workfront Planning ondersteunt de volgende zoekopties:
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>Hiermee worden records geretourneerd waarvan de veldwaarde groter is dan of gelijk is aan het filter  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Hiermee worden records geretourneerd waarvan de veldwaarde kleiner is dan het filter  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Instantie van aanvraag:
 Gebruik een sorteerparameter om ervoor te zorgen dat de resultaten correct worden gepagineerd. Hierdoor kunnen de resultaten in dezelfde volgorde worden geretourneerd, zodat de paginering de resultaten niet herhaalt of overslaat.
 
 Voor meer informatie bij het sorteren, zie [ Sorterend vraagresultaten in API ](#sorting-query-results-in-the-api) in dit artikel.
-
-
-
