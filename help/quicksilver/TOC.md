@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
 workflow-type: tm+mt
-source-wordcount: '14334'
+source-wordcount: '14337'
 ht-degree: 0%
 
 ---
@@ -406,13 +406,13 @@ ht-degree: 0%
             * [Webinars met R1-release](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * Aankondigingen {#announcements}
       * [Aankondigingen](product-announcements/announcements/announcements.md)
-      * [Verbeteringen voor aangepaste formulieren](product-announcements/announcements/custom-form-enhancements.md)
       * [Planning van functies wordt niet meer ondersteund](product-announcements/announcements/feature-removal-timeline.md)
       * [Veelgestelde vragen over het venster Onderhoud](product-announcements/announcements/maintenance-window-faq.md)
       * [Wijziging vereist voor het toevoegen van proefdrukken aan uw lijst van gewenste personen](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abonnement op berichten van het Aankondigingscentrum opzeggen in de nieuwe Adobe Workfront-ervaring](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Aankondigingsarchief {#announcement-archive}
          * [Aankondigingsarchief](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [Verbeteringen voor aangepaste formulieren](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [Bijgewerkte mobiele app voor iOS en Android (begin augustus 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 is vereist in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365-invoegtoepassing is nu beschikbaar](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
@@ -895,6 +895,7 @@ ht-degree: 0%
          * [Het gebied Mijn updates gebruiken](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI-assistent {#ai-assistant}
       * [AI-assistent](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [Overzicht van AI-assistent](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Samenvatten met AI-assistent](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [Help ophalen van AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [Berekende veldformules met AI Assistant herzien](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
