@@ -4,9 +4,9 @@ description: Een werkruimte is een inzameling van verslagtypes die door een team
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid w
 
    * Voor systeembeheerders worden de werkruimten weergegeven op de volgende tabbladen:
 
-      * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Andere werkruimten**: Toont alle andere werkruimten in het systeem, met inbegrip van degenen die met u worden gedeeld. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Werkruimten ik** ben: De werkruimten van vertoningen u creeerde of werkruimten die met u worden gedeeld.
+      * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
    * Voor alle andere gebruikers worden de werkruimten die zij hebben gemaakt en de werkruimten die anderen met hen delen, weergegeven in het gebied Werkruimten.
 
@@ -55,6 +55,7 @@ Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid w
   Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Er gelden limieten voor het aantal werkruimteobjecten dat u kunt maken in uw exemplaar van Workfront Planning. Voor informatie, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
 
 

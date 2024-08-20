@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ De artikelen in de volgende secties beschrijven hoe u de werkruimten van de Plan
 * [Overzicht van recordtypen](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Recordtypen maken](/help/quicksilver/planning/architecture/create-record-types.md)
 * [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [Overzicht van verbonden recordtypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Voorbeeld van het verbinden van recordtypen en records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
 * [Werkruimten verwijderen](/help/quicksilver/planning/architecture/delete-workspaces.md)

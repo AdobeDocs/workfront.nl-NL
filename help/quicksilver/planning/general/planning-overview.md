@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -78,11 +78,11 @@ Voor informatie over nieuwe eigenschappen en wanneer zij worden vrijgegeven, zie
 | Records sorteren in de tijdlijnweergave |                               | ✓ |                  |
 | Groepen sorteren in de tabelweergave |                               | ✓ |                  |
 | Groepen sorteren in de tijdlijnweergave |                               | ✓ |                  |
-| Werkruimten verbinden |                               | ✓ |                  |
 | Zoeken naar records in de tabelweergave | ✓ |   |
 | Zoeken naar records in de tijdlijnweergave | ✓ |   |
 | Connect Workfront-planningsrecords verbinden met Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -bedrijven en -groepen | ✓ |                                 |                  |
 | Connect Workfront Planning-records verbinden met Adobe Experience Manager-middelen | ✓ |                                  |                 |
+| Connect-planningsrecords vanuit verschillende werkruimten | ✓ |                                  |                 |
 | Pagina opnemen met gedetailleerde informatie | ✓ |                                  |                  |
 | De indeling van de recordpagina bijwerken | ✓ |                                 |                  |
 | Werkruimten delen | ✓ | |  |
@@ -282,10 +282,10 @@ Workfront-planning zoeken:
 
 
 1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
-   * **Mijn werkruimten**: De werkruimten van vertoningen u creeerde. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **Andere werkruimten**: Toont alle andere werkruimten in het systeem, met inbegrip van degenen die met u worden gedeeld. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **Werkruimten ik** ben: De werkruimten van vertoningen u creeerde of werkruimten die met u worden gedeeld.
+   * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
-   Voor alle andere gebruikers, alle werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
+   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
 
 1. (Optioneel en aanbevolen) Ga door met een aantal van de volgende acties om uw werkstructuur te maken:
 

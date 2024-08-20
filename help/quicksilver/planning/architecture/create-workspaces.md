@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,10 @@ U kunt een werkruimte maken en er recordtypen aan toevoegen om uw objecten te or
    * Een lege werkruimte genoemd **Naamloze Workspace** waar u recordtypes kunt beginnen manueel toe te voegen, wanneer u een werkruimte van kras creeert.
    * Een werkruimte die wordt genoemd naar de geselecteerde sjabloon en die is gevuld met typen voorbeeldrecords. U kunt de recordtypen en de werkruimte verder aanpassen.
 
-   Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op **Mijn werkruimten** tabel. <!--replace this with: **Workspaces I'm on** tab-->
+   Voor de beheerders van Workfront, de nieuwe werkruimtevertoningen op de **Werkruimten ik op** tabel ben.
+
+   Voor alle andere gebruikers die werkruimten kunnen tot stand brengen, toont de nieuwe werkruimte in het **1} gebied van de Werkruimten {.**
+
 1. Klik binnen de naam van de werkruimte in de koptekst van de nieuwe werkruimte om de naam ervan te wijzigen en druk vervolgens op Enter.
 
 1. (Facultatief en voorwaardelijk) als u de werkruimte van een malplaatje creeerde, klik binnen de naam van de **Operationele Types van Verslag** of **taxonomieën** secties

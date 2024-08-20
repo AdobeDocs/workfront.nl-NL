@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
 ## Toegangsvereisten
 
 +++ Breid uit om toegangsvereisten voor de Planning van Workfront te bekijken.
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
 <tr>
    <td role="rowheader"><p>Machtigingen</p></td>
    <td> <p>Rechten beheren in een werkruimte </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   <p>Alleen systeembeheerders kunnen recordtypen inschakelen om verbinding te maken met andere werkruimten</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ of
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. In **geef verslagtype** doos uit, opent het **3} lusje van de Verschijning {door gebrek.**
 
-1. In **geef verslagtype** doos uit, werk de volgende informatie bij:
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * Bewerk indien nodig de naam van het recordtype. <!--did they add a field label for this? -->
+   Werk de volgende informatie in het **Verschijning** lusje bij:
+
+   * Bewerk indien nodig de naam van het recordtype. <!--did they add a field label for this?-->
    * **Beschrijving**: geef of voeg een beschrijving voor het verslagtype met meer informatie over het uit.
    * Bewerk de kleur en vorm van het pictogram dat aan het recordtype is gekoppeld. Ga als volgt te werk:
-      * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype. Grijs is standaard geselecteerd.
+      * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
-     ![](assets/update-record-type-box.png)
-
-1. Klik **sparen**.
-1. (Optioneel) Klik op de kaart met het recordtype in de werkruimte om de pagina met het recordtype te openen.
-1. Klik het **Meer** menu rechts van de naam van het verslagtype, dan klik **uitgeven** om informatie over het verslagtype bij te werken.
-
-   >[!TIP]
-   >
-   >   U kunt de naam van het recordtype in de koptekst wijzigen.
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. (Optioneel) Als u een ander recordtype wilt bewerken, vouwt u de pijl omlaag naar rechts van de naam van een recordtype uit, zoekt u een recordtype en selecteert u deze pijl wanneer deze in de lijst wordt weergegeven.
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. (Voorwaardelijk) als u een systeembeheerder bent, klik het **Geavanceerde montages** lusje in **geef verslagtype** doos uit.
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. (Voorwaardelijk) als systeembeheerder, werk de volgende informatie in de **Geavanceerde montages** tabel bij:
 
+   * **verbind van andere werkruimten**: Selecteer deze knevel om gebruikers toe te staan om met dit verslagtype van andere werkruimten te verbinden. Deze optie is standaard uitgeschakeld.
+   * **Systeem wijd**: Selecteer deze optie om gebruikers toe te staan om met dit verslag van alle werkruimten in het systeem te verbinden.
+   * **Specifieke werkruimten**: Selecteer deze optie om de werkruimten te beperken waarvan de gebruikers met dit verslagtype kunnen verbinden, dan het drop-down menu uitbreiden en de werkruimten selecteren u gebruikers met dit verslagtype van wilt verbinden. U kunt de naam van een werkruimte typen en deze selecteren wanneer deze in de lijst wordt weergegeven.
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. Klik **sparen**.
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   Op de kaart met recordtype in de werkruimte wordt een connectiviteitspictogram ![](assets/connect-from-other-workspaces-icon.png) weergegeven in de rechterbovenhoek om aan te geven dat de record nu toegankelijk is vanuit andere werkruimten.
+
+1. (Optioneel) Klik op de kaart met recordtype in de werkruimte om de pagina van het recordtype te openen en geef vervolgens het recordtype in de koptekst een andere naam.
+
+1. (Optioneel) Als u een ander recordtype wilt bewerken, vouwt u de pijl omlaag naar rechts van de naam van een recordtype uit, zoekt u naar een recordtype en selecteert u deze pijl wanneer deze in de lijst wordt weergegeven.
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

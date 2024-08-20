@@ -4,9 +4,9 @@ description: Een manier om aan te geven hoe individuele recordtypen op elkaar be
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,18 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
 
 ## Overwegingen bij het verbinden van recordtypen
 
+Er zijn twee stappen aan verbindingen in de Planning van Workfront:
+
+1. Eerst moet u een verbinding tot stand brengen tussen twee recordtypen of een recordtype en een objecttype van een andere toepassing. Voor informatie over hoe u verslagtypes kunt verbinden, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+1. Ten tweede kunt u afzonderlijke records van een bepaald type verbinden met records van een ander type nadat de twee recordtypen zijn verbonden. Voor informatie over het verbinden van verslagen, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+
+Overweeg het volgende over het verbinden van verslagtypes:
+
 * U kunt de volgende entiteiten verbinden in de Planning van Adobe Workfront:
 
    * Twee recordtypen.
 
-     Standaard kunt u twee recordtypen verbinden vanuit dezelfde werkruimte. U kunt ook recordtypen instellen om verbinding te maken met recordtypen van andere werkruimten.
+     Standaard kunt u twee recordtypen verbinden vanuit dezelfde werkruimte. U kunt ook recordtypen instellen om verbinding te maken met recordtypen van andere werkruimten. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
    * Een recordtype en een objecttype uit een andere toepassing.
 
 * U kunt Workfront Planning-recordtypen verbinden met de volgende objecttypen vanuit de volgende toepassingen:
@@ -82,73 +89,79 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
 
      >[!IMPORTANT]
      >
-     >Iedereen met Weergave of hogere machtigingen voor de werkruimte kan de informatie in de opzoekvelden weergeven, ongeacht de machtigingen of het toegangsniveau in de toepassing van de gekoppelde objecttypen <!--or their permissions in other workspaces--> .
+     >Iedereen met de toestemmingen van de Mening of hoger aan de werkruimte kan de informatie in de raadplegingsgebieden, ongeacht hun toestemmingen of toegangsniveau in de toepassing van de verbonden objecten types of hun toestemmingen in andere werkruimten bekijken.
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     Gekoppelde recordvelden worden voorafgegaan door een relatiepictogram ![](assets/relationship-field-icon.png) .
 
-* Gekoppelde recordvelden worden voorafgegaan door een relatiepictogram ![](assets/relationship-field-icon.png) .
+     Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Gekoppelde velden (of opzoekvelden) worden bijvoorbeeld voorafgegaan door pictogrammen die aangeven dat een veld een getal, alinea of datum is.
 
-  Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Gekoppelde velden (of opzoekvelden) worden bijvoorbeeld voorafgegaan door pictogrammen die aangeven dat een veld een getal, alinea of datum is.
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## Verbindingstypen
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-Nadat u een verbinding hebt gemaakt tussen twee recordtypen of tussen een record en een objecttype vanuit een andere toepassing, kunt u records toevoegen in de verbonden recordvelden.
-
-Afhankelijk van het aantal records dat u aan een verbonden recordveld kunt toevoegen, zijn de volgende verbindingstypen waaruit u kunt kiezen bij het verbinden van recordtypen:
-
-* [Eén naar vele](#one-to-many-connection-type)
-* [Eén op één](#many-to-one-connection-type)
-* [Vele tot één](#many-to-one-connection-type)
-* [Veel tot veel](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->Deze opties zijn niet beschikbaar wanneer u een verbinding tot stand brengt met:
->* Twee records uit verschillende werkruimten
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* Een recordtype en AEM elementen
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### Een-op-veel verbindingstype
-
-![](assets/one-to-many-connection-picker.png)
-
-Wanneer u het één-op-veel verbindingstype tussen verslagtypes selecteert, kunt u één verslag met veelvoudige verslagen later verbinden u met verbindt.
-
-Bijvoorbeeld, als u campagnes met projecten verbindt, kunt u één campagne met veelvoudige projecten verbinden. Maar één project kan slechts met één campagne worden verbonden.
-
-Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in een veel-op-veel-verbindingstype.
-
-### Een-op-een verbindingstype
-
-![](assets/one-to-one-connection-picker.png)
-
-Wanneer u het één-op-één verbindingstype tussen verslagtypes selecteert, kunt u één verslag met één andere verslag later verbinden dat u met verbindt.
-
-Bijvoorbeeld, als u campagnes met projecten verbindt, kunt u één campagne met één project verbinden. Eén project kan slechts op één campagne worden aangesloten.
-
-Wanneer u dit verbindingstype selecteert, kunt u het later wijzigen in een ander verbindingstype.
-
-### Vele-aan-één verbindingstype
-
-![](assets/many-to-one-connection-picker.png)
-
-Wanneer u het vele-aan-één verbindingstype tussen verslagtypes selecteert, kunt u vele verslagen met slechts één verslag later verbinden u met verbindt.
-
-Bijvoorbeeld, als u campagnes met projecten verbindt, kunt u veelvoudige campagnes met één project verbinden. Eén project kan met meerdere campagnes worden verbonden.
-
-Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in een veel-op-veel-verbindingstype.
-
-### Vele-aan-vele verbindingstype
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-Wanneer u het veel-aan-vele verbindingstype tussen verslagtypes selecteert, kunt u vele verslagen met veelvoudige verslagen later verbinden u met verbindt.
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-Bijvoorbeeld, als u campagnes met projecten verbindt, kunt u verscheidene campagnes met veelvoudige projecten verbinden. U kunt veelvoudige projecten aan veelvoudige campagnes ook verbinden.
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-Wanneer u dit verbindingstype selecteert, kunt u het verbindingstype niet wijzigen nadat u het hebt opgeslagen.
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 

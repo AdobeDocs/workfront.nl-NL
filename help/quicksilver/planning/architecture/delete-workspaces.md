@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -100,27 +100,16 @@ We raden u aan om sommige of alle recordtypen, records, velden en weergaven die 
 
 {{step1-to-planning}}
 
-1. (Voorwaardelijk) als u een beheerder van Workfront bent, klik **Mijn werkruimten** om tot werkruimten toegang te hebben u creeerde, of **Andere werkruimten** om tot werkruimten toegang te hebben anderen die met u worden gedeeld. <!--change it to Workspaces I'm on-->
+1. (Voorwaardelijk) als u een beheerder van Workfront bent, klik **Werkruimten ik** aan toegang werkruimten u creeerde, of **Andere werkruimten** om tot werkruimten toegang te hebben anderen die met u worden gedeeld.
 
-1. Klik op de kaart van de werkruimte die u wilt verwijderen.
+1. (Facultatief) klik **tonen allen** om extra werkruimten te tonen. **toon alle** verbindingsvertoningen slechts wanneer u meer dan twee rijen werkruimtekaarten hebt.
+1. (Facultatief) ClicK **toon minder** om het aantal werkruimten te beperken die op het scherm tonen.
+1. Voer een van de volgende handelingen uit om een werkruimte te verwijderen:
 
-   De pagina Werkruimte wordt weergegeven.
-
-<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To delete a workspace, do one of the following:
-
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Delete**.
-
-   ![](assets/permanently-delete-workspace-confirmation.png)
-   -->
-
-1. Klik **Meer** menu ![](assets/more-menu.png) naast de werkruimtenaam, dan klik **Schrapping**.
+   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![](assets/more-menu.png) in de hoger-juiste hoek van de kaart
+of
+   * Klik een werkruimtekaart om de werkruimte te openen, dan klik **Meer** menu ![](assets/more-menu.png) rechts van de werkruimtenaam.
+1. Klik **Schrapping**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
