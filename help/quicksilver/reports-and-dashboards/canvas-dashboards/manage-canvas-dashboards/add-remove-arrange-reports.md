@@ -6,14 +6,18 @@ description: Nadat u een Canvas-dashboard hebt gemaakt, kunt u er rapporten aan 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Rapporten toevoegen, verwijderen of rangschikken in een Canvasdashboard
+
+>[!IMPORTANT]
+>
+>Deze pagina beschrijft functionaliteit die alleen beschikbaar is voor gebruikers die zijn ingeschreven voor de gesloten bètaversie van Canvasdashboards. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 Nadat u een Canvas-dashboard hebt gemaakt, kunt u er rapporten aan toevoegen die uw Adobe Workfront-gegevens in verschillende indelingen weergeven. U kunt deze rapporten naar eigen inzicht verplaatsen en de grootte ervan wijzigen op het canvas. Voor informatie bij het creëren van een Dashboard van het Canvas, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

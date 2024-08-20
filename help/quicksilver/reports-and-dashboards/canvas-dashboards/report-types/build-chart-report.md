@@ -6,14 +6,18 @@ description: Een grafiekrapport dat uw gegevens visualiseert als bar, kolom, lij
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # Bouw een grafiekrapport in een dashboard van het Canvas
+
+>[!IMPORTANT]
+>
+>Deze pagina beschrijft functionaliteit die alleen beschikbaar is voor gebruikers die zijn ingeschreven voor de gesloten bètaversie van Canvasdashboards. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 Een grafiekrapport dat uw gegevens visualiseert als bar, kolom, lijn, of cirkeldiagram kan aan een Dashboard van het Canvas worden toegevoegd.
 

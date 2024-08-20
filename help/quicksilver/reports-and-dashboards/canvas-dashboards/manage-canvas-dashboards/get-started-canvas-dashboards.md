@@ -6,14 +6,18 @@ description: Basisinstructies voor het gebruik van Canvasdashboards, zoals hoe u
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met canvasdashboards
+
+>[!IMPORTANT]
+>
+>Deze pagina beschrijft functionaliteit die alleen beschikbaar is voor gebruikers die zijn ingeschreven voor de gesloten bètaversie van Canvasdashboards. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 Met Canvasdashboards kunt u uw Adobe Workfront-gegevens gemakkelijk visualiseren door verschillende rapporttypen toe te voegen aan een aanpasbaar canvas. Deze pagina bevat basisinstructies voor het gebruik van Canvasdashboards, zoals hoe u naar uw lijst met Canvasdashboards kunt navigeren en hoe u deze kunt maken en bewerken.
 

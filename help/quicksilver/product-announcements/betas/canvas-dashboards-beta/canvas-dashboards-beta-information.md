@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Canvasdashboards is een eigenschap momenteel in ontwikkeling die u toestaat om u
 Voor basisinformatie over het gebruiken van de Dashboards van het Canvas, zie [ begonnen worden met de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**programma Bèta:**
+**status van Beta**
 
-* Start bètadatum gesloten - TBA
-* bètabegindatum openen - TBA
-* Geplande releasedatum - TBA
+De dashboards van het canvas is momenteel in een gesloten bèta testende fase, en is daarom slechts beschikbaar door uitnodiging aan specifieke klanten.
 
 ## Deelnemen aan de bètaversie
 
@@ -39,13 +37,13 @@ Inschrijven in de bètaversie:
 
    >[!NOTE]
    >
-   >Deze knop is alleen beschikbaar als uw organisatie is geaccepteerd voor de gesloten bètaversie. Wanneer de geopende bètaversie begint, is deze beschikbaar voor alle organisaties.
+   >Deze knoop is beschikbaar slechts als uw organisatie in gesloten bèta is goedgekeurd. Wanneer de open bètaversie begint, is deze beschikbaar voor alle organisaties.
 
-1. Lees de termijnen, dan klik **Accepteren**. U bent nu ingeschreven voor de bètaversie. Houd er echter rekening mee dat het een paar minuten duurt voordat uw Workfront-gegevens volledig toegankelijk zijn in de Canvas-dashboards.
+1. Lees de termijnen, dan klik **Accepteren**. U bent nu ingeschreven voor de bètaversie. Het duurt echter een paar minuten voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvas-dashboards.
 
 ### Feedback geven
 
-Feedback wordt gewaardeerd terwijl we dit gereedschap ontwikkelen gedurende de bètaperiode. Volg de onderstaande instructies om uw ervaring met ons te delen.
+Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van de bètaversie. Volg de onderstaande instructies om uw ervaring met ons te delen.
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
@@ -59,11 +57,11 @@ Hieronder volgt een lijst van de rapporttypes die momenteel in bèta worden gest
 
 ### Ondersteunde rapporttypen
 
-* Bestaande rapporten (rapporten gemaakt met het huidige rapportagegereedschap)
+* Bestaande rapporten (rapporten die zijn gemaakt met het huidige rapportagegereedschap)
 * Grafiekrapporten
 * KPI-rapporten
 * Tabelrapporten
-* Rapporten over goedkeuringen in behandeling
+* Goedkeuringsrapporten in behandeling
 
 ### Functies in ontwikkeling
 
@@ -78,4 +76,4 @@ Hieronder volgt een lijst van de rapporttypes die momenteel in bèta worden gest
 ### Toekomstige routekaarten
 
 * Vragen op dashboardniveau
-* Currency Support
+* Ondersteuning voor valuta
