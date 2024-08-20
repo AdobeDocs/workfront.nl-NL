@@ -6,7 +6,7 @@ description: U kunt een nieuwe statische proefdruk of een nieuwe versie van een 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    >[!NOTE]
    >
-   > De URL moet minder dan 1.000 tekens bevatten.
+   > De URL moet uit minder dan 2000 tekens bestaan.
 
 1. Klik op de URL die u hebt toegevoegd.
 
