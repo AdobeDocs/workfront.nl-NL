@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 * U kunt een veld alleen verwijderen in de tabelweergave van het recordtype.
 * U kunt het primaire veld van een record niet verwijderen.
 * Alle informatie die in het veld is opgeslagen, wordt verwijderd en kan niet worden hersteld.
-* Wanneer u een gekoppeld recordveld verwijdert, worden alle gekoppelde opzoekvelden ook verwijderd uit het recordtype waaruit u een koppeling maakt. De gekoppelde recordvelden van de recordtypen waarnaar u een koppeling maakt, worden niet verwijderd.
+* Wanneer u een verbonden verslaggebied schrapt, worden alle verbonden raadplegingsgebieden ook geschrapt van het verslagtype u van verbindt. De verbonden recordvelden van de recordtypen waarmee u verbinding maakt, worden ook verwijderd uit de record waarmee u verbinding maakt.
+
+  Wanneer u bijvoorbeeld campagnes verbindt met een ander recordtype genoemd product, en u het Product verbonden gebied en het de raadplegingsgebied van de Status van het Product van de campagne schrapt, worden het volgende geschrapt:
+
+   * Het veld Product-verbinding van de campagne
+   * Het veld Product Status opzoeken uit de campagne
+   * Het veld Campagne verbonden vanuit het product.
 
   Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 

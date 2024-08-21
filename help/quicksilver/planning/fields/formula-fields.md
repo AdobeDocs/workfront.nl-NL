@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -106,10 +106,12 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
 
 ## Overwegingen bij formuleringsvelden
 
-* Formulervelden verwijzen naar velden die tot hetzelfde recordtype behoren. U kunt niet naar velden van andere recordtypen verwijzen wanneer u een formuleringsveld maakt. <!--is this still accurate??-->
+* Formulervelden verwijzen naar velden die tot hetzelfde recordtype behoren.
+* U kunt alleen verwijzen naar velden van andere recordtypen wanneer u een ander recordtype koppelt aan het recordtype waarvoor u een formuleveld maakt.
 * U kunt het veldtype van een veld Formule niet wijzigen nadat u het hebt opgeslagen.
 * U kunt de berekening van een formuleringsgebied bijwerken nadat u het bewaart, en de resultaten van de berekeningsupdate automatisch voor alle verslagen van het zelfde type.
 * U moet de gebieden toevoegen u in formules van verwijzingen voorziet aangezien zij in de interface van de Planning van Workfront tonen.
+* U kunt alleen verwijzen naar velden die worden weergegeven in de tabelweergave van een recordtype of op de pagina met recorddetails.
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text

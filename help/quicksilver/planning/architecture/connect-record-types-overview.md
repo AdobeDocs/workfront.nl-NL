@@ -4,9 +4,9 @@ description: Een manier om aan te geven hoe individuele recordtypen op elkaar be
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -62,26 +62,26 @@ Overweeg het volgende over het verbinden van verslagtypes:
      >
      >Als u vragen over het aan boord gaan aan Adobe Admin Console hebt, zie [ Adobe Verenigde Veelgestelde vragen van de Ervaring ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-* Nadat u afzonderlijke records voor een recordtype hebt gemaakt, kunt u de records waarmee u verbinding maakt, selecteren in het veld voor het gekoppelde recordtype. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+* Nadat u verslagen voor de verbonden verslagtypes creeert, kunt u hen met elkaar verbinden door het verbonden verslaggebied.  Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 * Nadat u een recordtype met een ander verslagtype of met een objecten type van een andere toepassing verbindt, bestaan de volgende scenario&#39;s:
 
-   * **wanneer u twee verslagtypes** verbindt: Een verbonden verslaggebied wordt gecreeerd op het verslagtype u van verbindt. Er wordt een vergelijkbaar gekoppeld recordveld gemaakt voor het recordtype waarmee u verbinding maakt.
+   * **wanneer u twee het verslagtypes van de Planning** verbindt: Een verbonden verslaggebied wordt gecreeerd op het verslagtype u van verbindt. Er wordt een vergelijkbaar gekoppeld recordveld gemaakt voor het recordtype waarmee u verbinding maakt.
 
-     Als u bijvoorbeeld het recordtype ‘Campagne’ verbindt met het recordtype ‘Product’, wordt een gekoppeld recordveld met de naam ‘Gekoppeld product’ gemaakt in het recordtype ‘Campagne’. Er wordt automatisch een gekoppeld recordtype met de naam &quot;Campagne&quot; gemaakt in het recordtype product.
+     Als u bijvoorbeeld het recordtype ‘Campagne’ verbindt met het recordtype ‘Product’, wordt een gekoppeld recordveld (verbindingsveld) dat u &#39;Gekoppeld product&#39; noemt, gemaakt in het recordtype ‘Campagne’. Er wordt automatisch een gekoppeld recordtype met de naam &quot;Campagne&quot; gemaakt in het recordtype product.
 
    * **wanneer u een verslagtype met een objecten type van een andere toepassing** verbindt:
 
       * Er wordt een gekoppeld recordveld gemaakt op het recordtype waarmee u verbinding maakt. Er wordt automatisch geen gekoppeld recordveld gemaakt op het objecttype van de andere toepassing.
-
       * Planningsrecordvelden zijn niet toegankelijk vanuit Workfront-objecten.
       * De gebieden van het verslag van de planning zijn toegankelijk van de activa van de Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en) vormen.
+      * Planningsrecords zijn zichtbaar vanaf het tabblad Planning van het Workfront-object. Voor informatie, zie [ verslagen in de sectie van de Planning van de voorwerpen van Adobe Workfront ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) leiden.
 
-   * **wanneer u verbonden (of raadpleging) gebieden van het verslag of het voorwerp toevoegt u met** verbindt: Naast het creëren van een verbonden verslaggebied, kunt u met gebieden van het verbonden verslag of objecten type ook verbinden dat raadplegingsgebieden wordt genoemd. Een gekoppeld veld (of opzoekveld) met informatie uit de record waarmee u verbinding maakt, wordt weergegeven in de record waaruit u verbinding maakt.
+   * **wanneer u raadplegingsgebieden van het verslag of het voorwerp toevoegt u met** verbindt: Naast het creëren van een verbonden verslaggebied, kunt u met gebieden van het verbonden verslag of objecttype ook verbinden dat raadplegingsgebieden wordt genoemd. Een gekoppeld veld (of opzoekveld) met informatie uit de record waarmee u verbinding maakt, wordt weergegeven in de record waaruit u verbinding maakt.
 
      U kunt velden van andere recordtypen of objecten van een andere toepassing verbinden met het recordtype Workfront Planning.
 
-     Gekoppelde velden zijn alleen-lezen en geven automatisch informatie van verbonden records of objecten weer wanneer u de records of de objecten verbindt.
+     Gekoppelde velden zijn alleen-lezen en geven automatisch informatie van verbonden records weer.
 
      U kunt verwijzen naar opzoekvelden van andere record- of objecttypen in formules, filters of groepen.
 
@@ -111,17 +111,17 @@ Depending on how many records you can add to a connected record field, the follo
 >These options are not available when connecting the following: 
 >* Two records from different workspaces
 >
->* A record type and AEM assets
+>* A record type and Experience Manager assets
 
 ### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
+When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
+For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
 
-A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
 
 When you select this connection type, you cannot change the connection type after you save it. 
 
@@ -129,19 +129,21 @@ When you select this connection type, you cannot change the connection type afte
 
 ![](assets/one-to-many-connection-picker.png)
 
-When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+
+For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
 
 A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
 
 When you select this connection type, you can later change it only to a many-to-many connection type. 
- 
+
 ### Many-to-one connection type
 
 ![](assets/many-to-one-connection-picker.png)
 
-When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
 
 For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
 
@@ -153,7 +155,7 @@ When you select this connection type, you can later change it only to a many-to-
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
 
 For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
 

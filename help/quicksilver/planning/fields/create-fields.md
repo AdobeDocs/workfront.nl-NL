@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ U kunt velden op de volgende manieren maken in Workfront Planning:
 
 * Van kras
 * Door recordtypen aan te sluiten
-* Door recordtypen te importeren met een Excel- of CSV-bestand
 * Door een recordtype te maken
 * Een werkruimte maken op basis van een sjabloon
+  <!--* By importing record types using an Excel or CSV file-->
 
 Voor meer informatie over de planningsgebieden van Workfront, zie [ Overzicht van het Gebied ](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -401,7 +401,13 @@ Voor meer informatie, zie [ overzicht van de gebieden van de Formule ](/help/qui
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ U kunt gekoppelde recordvelden maken wanneer u een nieuwe verbinding toevoegt tu
 
 Voor informatie over het verbinden van het verslagtypes van de Planning van Workfront, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## Velden maken door recordtypen te importeren met een Excel- of CSV-bestand
+<!--## Create fields by importing record types using an Excel or CSV file
 
-Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Velden maken door een recordtype te maken
 

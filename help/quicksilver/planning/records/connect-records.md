@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,11 @@ Als u records wilt verbinden met andere records of objecten, moet u over het vol
 
 U kunt records vanuit Workfront Planning verbinden in de volgende gebieden:
 
-* Van een verslag van de Planning in de Planning van Workfront op de verbonden gebieden in de lijstmening.
+* Van een verslag van de Planning in de Planning van Workfront op de verbonden verslaggebieden in de lijstmening.
 * Van een verslag van de Planning in de Planning van Workfront in de verslagvoorproef of pagina in de verbonden verslaggebieden.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Connect Adobe Workfront Planning-records vanuit de tabelweergave of de recordpagina <!--Details tab of the-->
 
@@ -211,7 +211,7 @@ U kunt records vanuit Workfront Planning verbinden in de volgende gebieden:
    >
    >* We gebruiken onderling gekoppelde velden en opzoekvelden.
    >
-   >* Als u **toeliet veelvoudige verslagen** plaatsend wanneer u de verslagtypes aansloot, worden de waarden van gebieden voor de veelvoudige geselecteerde voorwerpen of getoond gescheiden door komma&#39;s of volgens de aggregator samengevoegd u koos.
+   >* Wanneer u ervoor kiest om meerdere records te verbinden wanneer u de recordtypen hebt verbonden, worden de veldwaarden van de meerdere objecten gescheiden door komma&#39;s weergegeven of worden ze samengevoegd volgens de aggregator die u hebt gekozen.
 
 1. (Optioneel) Sluit de pagina met recordtypen en ga naar de werkruimte die u hebt geselecteerd.
 1. Klik op de kaart voor het recordtype waarmee u een koppeling hebt gemaakt.
@@ -286,7 +286,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en een Workfront-objec
 
    >[!TIP]
    >
-   >* Wanneer u de instelling Meerdere records toestaan inschakelt, worden de waarden van de opzoekvelden weergegeven, gescheiden door komma&#39;s, of worden ze samengevoegd volgens de aggregator die u hebt gekozen.
+   >* Wanneer u ervoor kiest om meerdere records te verbinden bij het verbinden van de recordtypen, worden de waarden van de opzoekvelden gescheiden door komma&#39;s weergegeven of worden ze geaggregeerd volgens de aggregator die u hebt gekozen.
    >
    >* Er wordt geen gekoppeld recordveld gemaakt voor de gekoppelde Workfront-objecten in Workfront.
 
@@ -360,7 +360,7 @@ Records verbinden met AEM elementen:
 
      >[!TIP]
      >
-     >* Als u de instelling Meerdere records toestaan hebt ingeschakeld, worden de waarden van de meerdere objecten gescheiden door komma&#39;s of samengevoegd volgens de gekozen aggregator weergegeven.
+     >* Wanneer u ervoor kiest om meerdere records te verbinden wanneer u de recordtypen verbindt, worden de waarden van de meerdere objecten gescheiden door komma&#39;s of samengevoegd volgens de door u gekozen aggregator weergegeven.
      >
      >* Een gekoppeld recordveld naar de aan Workfront Planning gekoppelde records wordt niet gemaakt voor de gekoppelde Experience Manager-elementen in de Experience Manager Assets-toepassing.
 
@@ -408,6 +408,12 @@ Records verbinden met AEM elementen:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

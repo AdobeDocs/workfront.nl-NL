@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -102,11 +102,11 @@ Voor meer informatie over verslagtypes, zie [ overzicht van de types van Verslag
 
         Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-      * Wanneer u ze importeert met een Excel- of CSV-bestand.
+     <!--* When you import them using an Excel or CSV file. 
 
-        >[!IMPORTANT]
-        >
-        >Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -145,7 +145,9 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
    Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
 1. (Facultatief) klik **sectie** toevoegen om een nieuwe sectie aan de werkruimte toe te voegen.
 1. Klik **toevoegen verslagtype**.
-1. (Voorwaardelijk) wanneer het creëren van verslagtypes door een dossier van Excel of CSV in te voeren wordt toegelaten, klik **van kras**. Anders, voegt **recordtype** doos toe opent.
+
+   Het vak Recordtype toevoegen wordt geopend.
+   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -171,9 +173,7 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
 
    De pagina met recordtypen wordt standaard in de tabelweergave weergegeven. De kolommen van de lijst zijn gebieden verbonden aan het nieuwe verslagtype. Elke rij is een unieke record die u moet toevoegen.
 
-   >[!TIP]
-   >
-   >    Als u een recordtype uit een Excel- of CSV-bestand importeert, worden records ook geïmporteerd.
+   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    Standaard worden de volgende velden weergegeven in de tabelkolommen van een operationeel recordtype:
 
@@ -207,86 +207,69 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
    * [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [ beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Recordtypen maken door een Excel- of CSV-bestand te importeren
+<!--
+## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->Deze functie is sinds 21 maart 2024 tijdelijk uitgeschakeld. De functie wordt later ingeschakeld.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
-Houd rekening met het volgende wanneer u recordtypen importeert met een Excel- of CSV-bestand:
+Consider the following when importing record types using an Excel or CSV file: 
 
-* Elk blad van het Excel-bestand wordt een recordtype.
-* De kolommen van elk blad worden de gebieden verbonden aan elk verslagtype.
-* Velden zijn uniek voor hun respectievelijke recordtypen.
-* Elke rij in elk blad wordt een unieke record die is gekoppeld aan het respectievelijke recordtype.
-* Elk blad van het Excel-bestand mag het volgende niet overschrijden:
-   * 50.000 rijen
-   * 500 kolommen
-* Het Excel-bestand mag niet groter zijn dan 5 MB.
-* Lege bladen worden niet ondersteund.
+* Each sheet of the Excel file becomes a record type. 
+* The columns of each sheet become the fields associated with each record type. 
+* Fields are unique for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 50,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
 
-Recordtypen importeren met een Excel-bestand:
+To import record types using an Excel file: 
 
 {{step1-to-planning}}
 
-1. Klik op de werkruimte waar u recordtypen wilt maken.
+1. Click the workspace where you want to create record types, 
 
-   of
+    Or
 
-   Vouw in een werkruimte de pijl omlaag naar rechts uit, zoek naar een werkruimte en selecteer deze wanneer de werkruimte in de lijst wordt weergegeven.
-1. Klik **toevoegen verslagtype**.
-1. Klik **Excel/CSV**.
-1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
-1. Klik **Overzicht uw gegevens**.
-
-   Het vak Voorbeeld en bewerking wordt weergegeven met de volgende informatie:
-
-   * De namen van de bladen of van de toekomstige recordtypen worden weergegeven in het linkerdeelvenster. Workfront Planning selecteert standaard een pictogram en een kleur voor elk nieuw recordtype.
-   * Het eerste blad of recordtype wordt geselecteerd en de namen van de bijbehorende velden worden als kolomkoppen weergegeven. Het type van elk gebied wordt geselecteerd door gebrek.
-   * Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Optioneel) Klik op de naam van elk blad in het linkerdeelvenster om de informatie in het blad te bekijken.
-
-   >[!NOTE]
-   >
-   >    Lege bladen worden niet ondersteund en worden grijs weergegeven.
-
-
-1. (Facultatief) klik de **Uitgezochte bladen om** drop-down menu in te voeren en de bladen te schrappen die u niet wilt invoeren.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Bladen die u hebt uitgeschakeld, worden weergegeven met een grijze achtergrond.
-
-1. Klik **Invoer** wanneer u bereid bent om uw dossier in te voeren.
-
-   De volgende informatie wordt geïmporteerd in Workfront Planning:
-
-   * Nieuwe recordtypen
-   * Nieuwe velden die zijn gekoppeld aan elk recordtype
-   * Nieuwe records gekoppeld aan elk recordtype
-
-   U kunt velden en records op de recordtypepagina&#39;s gaan beheren.
-
-   Iedereen met toegang tot de Planning van Workfront kan nu de ingevoerde verslagtypes en hun informatie bekijken en uitgeven. <!--this will change with permissions-->
-
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+1. Click **Add record type**. 
+1. Click **Excel/CSV**.
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
     
-You can import the following objects from the following applications: 
+    The Preview and edit box displays with the following information: 
 
-* From Workfront:
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
+    ![](assets/preview-and-edit-box.png)
 
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Workfront Planning:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and records on the record types pages. 
+    
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+
