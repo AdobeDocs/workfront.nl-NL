@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Automatische herinneringen instellen
-description: Automatische herinneringen instellen
+description: U kunt automatische herinneringen instellen om e-mailmeldingen te activeren wanneer alle taken of problemen opeisbaar zijn, te laat of bijna op de geplande voltooiingsdatum.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Een automatische herinnering kan naar één of meerdere van het volgende worden 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -56,9 +58,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Automatische herinneringen instellen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **E-mail** > **Automatische Herinneringen**.
 
@@ -85,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
         <td>(In <b> verzend eindherinnering aan </b> gebied.) Selecteer deze optie als u wilt dat de gebruiker die aan een taak of een kwestie wordt toegewezen, een melding ontvangt over zijn het werkpunt dat de vervaldatum nadert.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Selecteer de tijd die de automatische herinnering moet verzenden door de hoeveelheid tijd vóór of na de vervaldatum van het werkitem te selecteren.
 

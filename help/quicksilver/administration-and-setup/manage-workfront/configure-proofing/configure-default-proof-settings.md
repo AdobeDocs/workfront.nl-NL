@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Nieuwe standaardproefinstellingen configureren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling**.
+{{step-1-to-setup}}
+
 1. In het linkerpaneel, klik **Proefdrukken** > **montages van het Bewijs**.
 1. In de **Nieuwe proefdrukgebreken** sectie, vorm de volgende montages:
 
@@ -113,7 +114,8 @@ Gebruikers kunnen de status van het bewijs na controle aangeven aan de hand van 
 
 Om proefdrukbesluiten te vormen:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling**.
+{{step-1-to-setup}}
+
 1. In het linkerpaneel, klik **Proefdrukken** > **montages van het Bewijs**.
 1. In de **sectie van Besluiten**, kunt u
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Instellingen voor proefdrukmeldingen configureren die vanuit Workfront worden verzonden:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Breid **E-mail** uit, dan klik **Overzicht en Goedkeuring**.
 

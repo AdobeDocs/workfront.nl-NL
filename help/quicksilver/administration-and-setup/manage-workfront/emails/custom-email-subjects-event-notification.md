@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Sommige gebeurtenismeldingen hebben meerdere onderwerpregel&#39;s, wat betekent 
 >
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -58,9 +60,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## E-mailonderwerpregel aanpassen voor gebeurtenismeldingen {#customize-email-subject-lines-for-event-notifications}
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **E-mail** > **Meldingen**.
 

@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u de toegang van
 Voor informatie over het proefdrukken van functionaliteit beschikbaar voor basis en geïntegreerd het proef, zie [ Toegang tot het proefdrukken van functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,6 +48,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Proofing voor een gebruiker inschakelen en uitschakelen (alleen oudere plannen) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 Als uw organisatie een verouderd Select- of Premium Workfront-abonnement gebruikt, kunt u als Workfront-beheerder de proefdrukfunctionaliteit voor de gebruiker in- en uitschakelen.
@@ -63,7 +67,8 @@ Hoewel u een gebruiker als het proefdrukken gebruiker kunt toelaten, moet hij of
 
 Het machtigingsprofiel dat u selecteert, wordt aan de gebruikers toegekend voor elke proef die binnen uw organisatie bestaat.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Selecteer één of meerdere gebruikers, dan klik **uitgeven**.
 
 1. In de **sectie van de Toegang**, klik één van de volgende de toestemmingsopties van Workfront Proof in het **drop-down menu van het Profiel van de Toestemming van de Bewijs**:

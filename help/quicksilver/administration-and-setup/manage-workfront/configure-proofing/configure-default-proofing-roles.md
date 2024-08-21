@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Standaardproofingrollen configureren
+title: Standaardproefdrukrollen configureren
 description: Als beheerder van Adobe Workfront, kunt u de standaard het proefdrukken rollen voor gebruikers en gastgebruikers vormen die tot proeven toegang hebben die in Workfront worden gecreeerd. Iedereen die gebruikers aan een proef toevoegt kan deze rollen voor hen aanpassen.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als beheerder van Adobe Workfront, kunt u de standaard het proefdrukken rollen voor gebruikers en gastgebruikers vormen die tot proeven toegang hebben die in Workfront worden gecreeerd. Iedereen die gebruikers aan een proef toevoegt kan deze rollen voor hen aanpassen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,11 +46,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Standaardproofingrollen configureren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-   <!--
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Proofinginstellingen voor uw organisatie configureren
+title: Proefinstellingen configureren voor uw organisatie
 description: Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u de standaardproefdrukinstellingen voor uw organisatie aanpassen. Deze instellingen omvatten standaardopties voor delen, branding en meer.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u de standaardproefdrukinstellingen voor uw organisatie aanpassen. Deze instellingen omvatten standaardopties voor delen, branding en meer.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -44,6 +46,8 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Handelingen configureren
 
 Voor informatie over het gebruiken van acties in de het proeven kijker, zie [ acties van het Gebruik op proefdrukcommentaren ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -56,7 +60,7 @@ U kunt acties voor uw organisatie op de volgende manieren vormen:
 
 ### Een handeling toevoegen of de naam ervan wijzigen {#add-or-rename-an-action}
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening** in de hoger-juiste hoek van de interface van Workfront Proof, dan klik de **Montages** tabel.
 
@@ -73,7 +77,7 @@ U kunt acties voor uw organisatie op de volgende manieren vormen:
 
 ### Een handeling deactiveren of opnieuw activeren {#deactivate-or-reactivate-an-action}
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening** in de hoger-juiste hoek van de interface van Workfront Proof, dan klik de **Montages** tabel.
 
@@ -82,7 +86,7 @@ U kunt acties voor uw organisatie op de volgende manieren vormen:
 
 ### Handelingen opnieuw ordenen {#reorder-actions}
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening** in de hoger-juiste hoek van de interface van Workfront Proof, dan klik de **Montages** tabel.
 
@@ -98,7 +102,7 @@ Voor informatie over hoe de gebruikers apparaten kunnen selecteren wanneer het h
 
 Een aangepast apparaat toevoegen:
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening** in de hoger-juiste hoek van de interface van Workfront Proof, dan klik de **Montages** tabel.
 

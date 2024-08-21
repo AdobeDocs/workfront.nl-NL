@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u de gebruikersaccounts configureren waarmee proefdrukken kunnen worden gedeeld, aangeven of gebruikers alle versies van een proefdruk kunnen zien en wanneer gebruikers toegang krijgen tot gedeelde items.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben:
 
@@ -44,9 +46,11 @@ U moet het volgende hebben:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Delen met andere accounts configureren
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening**, dan klik de **Montages** tabel.
 
@@ -57,7 +61,7 @@ U moet het volgende hebben:
 
 ## Zichtbaarheid voor alle versies van een gedeelde proefdruk configureren
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening**, dan klik de **Montages** tabel.
 
@@ -75,7 +79,7 @@ U kunt opgeven wanneer proefdrukken met een geautomatiseerde workflow zichtbaar 
 
 Om te configureren wanneer proefdrukken met een geautomatiseerde workflow zichtbaar zijn voor gebruikers:
 
-1. Klik in Workfront op het hoofdmenu ![](assets/main-menu-icon.png) en klik vervolgens op Proofing ![](assets/proofing-in-main-menu.png) om Workfront Proof te openen.
+{{step1-to-proofing}}
 
 1. Klik **Montages** > **montages van de Rekening**, dan klik de **Montages** tabel.
 

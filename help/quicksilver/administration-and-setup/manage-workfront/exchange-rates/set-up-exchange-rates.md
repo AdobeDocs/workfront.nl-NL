@@ -6,10 +6,11 @@ title: Wisselkoersen instellen
 description: Als Adobe Workfront-beheerder kunt u wisselkoersen instellen in Workfront.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -41,6 +42,8 @@ De manier waarop u wisselkoersen instelt, bepaalt of gebruikers de wisselkoersen
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Wisselkoersen instellen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Voorkeur van het Project** > **Tarieven van de Uitwisseling.**
 

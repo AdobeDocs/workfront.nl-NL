@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: E-mailuitnodigingen beheren voor nieuwe gebruikers
+title: E-mailuitnodigingen aan nieuwe gebruikers beheren
 description: Als Adobe Workfront-beheerder kunt u gebruikers toevoegen aan Workfront en ze laten weten dat ze zijn toegevoegd door e-mailuitnodigingen te gebruiken.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Voor informatie over het ontvangen van e-mailuitnodigingen, zie [ e-mailuitnodig
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## E-mailuitnodigingen genereren {#generate-email-invitations}
 
 E-mailuitnodigingen worden gegenereerd in de volgende scenario&#39;s:
@@ -80,7 +84,8 @@ E-mailuitnodigingen worden gegenereerd in de volgende scenario&#39;s:
 
 E-mailuitnodigingen handmatig genereren voor bestaande niet-geregistreerde gebruikers:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Gebruikers** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
+
 1. Selecteer de gebruiker die het **Niet geregistreerde** etiket na hun naam toont.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ E-mailuitnodigingen handmatig genereren voor bestaande niet-geregistreerde gebru
 
 Als Workfront-beheerder kunt u het bericht dat u opneemt, configureren met de e-mailuitnodigingen voor nieuwe gebruikers.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In de lijst op de linkerzijde, klik **E-mail** > **Uitnodigingen**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Om de systeemprestaties te verbeteren en formulieren gemakkelijker te gebruiken 
 
 >[!CAUTION]
 >
->Als u een aangepast veld verwijdert, worden ook alle aangepaste gegevens verwijderd die gebruikers in het veld hebben ingevoerd wanneer ze aangepaste formulieren invullen die aan objecten zijn gekoppeld. Die verwijderde gegevens kunnen niet worden hersteld.
+>Als u een aangepast veld verwijdert, worden ook alle aangepaste gegevens verwijderd die gebruikers in het veld hebben ingevoerd wanneer ze aangepaste formulieren invullen die aan objecten zijn gekoppeld. Die verwijderde gegevens kunnen niet worden hersteld. Er is ook geen meldingssysteem om mensen die het aangepaste formulier gebruiken te waarschuwen dat het is verwijderd.
 >
 >U kunt alle aangepaste formulieren en rapporten weergeven die een aangepast veld gebruiken dat u wilt verwijderen, om te beoordelen wat de gevolgen kunnen zijn. Voor meer informatie, zie [ Mening alle douanevormen die een bepaald douanegebied of widget ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) en [ gebruiken Mening alle rapporten die een bepaald douanegebied of widget ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md) gebruiken.
 >

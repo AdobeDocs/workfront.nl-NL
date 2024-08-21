@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 De Desktop Proofing Viewer, die voornamelijk is ontworpen voor het controleren van interactieve inhoud, is een toepassing die op de lokale computer van elke gebruiker moet worden geïnstalleerd. Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u deze installatie uitvoeren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -45,6 +47,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Systeemvereisten
 

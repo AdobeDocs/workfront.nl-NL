@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt d
 >
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -52,13 +54,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## De mogelijkheid om een gebeurtenismelding te configureren ontgrendelen of opnieuw vergrendelen
 
 >[!IMPORTANT]
 >
 >Wanneer u een bericht opnieuw vergrendelt, nemen alle groepen in het systeem het bericht precies over zoals u het instelt. Dit treedt om het even welke veranderingen met voeten die de groepsbeheerders voor hun groepen zouden kunnen hebben aangebracht, zodat is het een goed idee eerst met hen te raadplegen.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **E-mail** > **Meldingen**.
 

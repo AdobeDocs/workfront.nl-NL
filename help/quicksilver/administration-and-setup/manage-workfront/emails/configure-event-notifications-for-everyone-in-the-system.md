@@ -1,11 +1,11 @@
 ---
-title: Gebeurtenismeldingen configureren voor iedereen in het systeem
+title: Vorm de Berichten van de Gebeurtenis voor Iedereen in het Systeem
 description: Gebeurtenismeldingen activeren e-mails naar gebruikers wanneer een bepaalde gebeurtenis plaatsvindt. Als Adobe Workfront-beheerder of gebruiker met een Planner-toegangsniveau kunt u een gebeurtenismelding configureren voor alle gebruikers in het systeem. Configuratie van een gebeurtenismelding bestaat uit het activeren of deactiveren ervan.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%

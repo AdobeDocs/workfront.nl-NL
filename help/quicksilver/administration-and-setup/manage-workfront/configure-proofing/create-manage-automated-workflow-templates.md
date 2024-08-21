@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -28,14 +28,14 @@ U kunt op elk gewenst moment eenvoudig elke automatische werkstroomsjabloon wijz
 Overweeg het volgende wanneer u een Geautomatiseerde malplaatje van het Werkschema gebruikt:
 
 1. De instellingen van een automatische werkstroomsjabloon bepalen wat u kunt doen met de geautomatiseerde workflow voor een proefdruk. Als de knop Een werkgebied toevoegen bijvoorbeeld is uitgeschakeld in de sjabloon, is deze niet zichtbaar wanneer u werkt met de instellingen voor Geautomatiseerde workflow voor de proefdruk.
-1. Wanneer een persoon wordt toegevoegd aan een werkgebied in een automatische workflowsjabloon, maar ook al als een revisor wordt weergegeven op de proefdruk, wordt de revisor verwijderd uit het werkgebied wanneer u de sjabloon toepast. Als u geen andere revisor aan het werkgebied toevoegt, verschijnt er een bericht waarin u wordt gevraagd er een toe te voegen.
+1. Wanneer een persoon wordt toegevoegd aan een werkgebied in een Geautomatiseerde malplaatje van het Werkschema, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd er een toe te voegen.
 1. Uw vermogen om een Geautomatiseerde malplaatje van het Werkschema te wijzigen hangt van de malplaatjemontages af die door de beheerder van Workfront worden gevormd, zoals die in wordt beschreven. Als de mogelijkheid om de sjabloon te wijzigen is uitgeschakeld, kan alleen de eigenaar van de sjabloon deze wijzigen.
 
 Voor informatie over Geautomatiseerde Werkstromen, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de toegangsvereisten voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,8 +44,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-lidmaatschap</td> 
-   <td> <p>Nieuw: Alle</p><p>Huidig: Pro of hoger</p><p>Verouderd: Premium of Selecteren</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td> <p>Nieuw: alle</p><p>Huidig: Pro of hoger</p><p>Verouderd: Premium of Selecteren</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -152,9 +152,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Kies de Rol van elke persoon **** op de proeven die dit malplaatje en het **E-mailalarm** zullen gebruiken u de gebruiker wilt ontvangen wanneer het werken aan proeven die dit malplaatje gebruiken.
 
-   Voor informatie over rollen op een proef, zie [ standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) vormen. Voor informatie over proefe-mailalarm, zie sectie [ proefdrukgebreken voor een gebruiker ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) in het artikel [ vormen e-mailberichtmontages in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
+   Voor informatie over rollen op een proef, zie [ standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) vormen. Voor informatie over proefe-mailalarm, zie sectie [ proefdrukgebreken voor een gebruiker ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) in het artikel [ vormen e-mailberichtmontages in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
-   Elke gebruiker kan slechts aan één werkgebied worden toegevoegd. U kunt zoveel gebruikers toevoegen als u aan een werkgebied wilt.
+   Elke gebruiker kan slechts aan één stadium worden toegevoegd. U kunt zoveel gebruikers toevoegen als u aan een werkgebied wilt.
 
    >[!TIP]
    >
@@ -164,13 +164,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Bij de bovenkant van de **sectie van het Werkschema**, kunt u een diagram van het Geautomatiseerde Werkschema zien u opstelling. Aangezien u stadia blijft toevoegen, verschijnen zij op het diagram met lijnen die de gebiedsdelen tussen hen tonen. U kunt op een werkgebied in het diagram klikken om de instellingen voor dat werkgebied weer te geven.
 
-   Als u niet het diagram moet zien, kunt u **Diagram van de Huid** klikken.
+   Als u niet het diagram moet zien, kunt u **Diagram van de Verbergen** klikken.
 
-1. In het **malplaatje van het Aandeel met** sectie, klik een optie (als het malplaatje niet reeds met de gehele organisatie) wordt gedeeld om te specificeren wie het zal kunnen gebruiken.
+1. In het **malplaatje van het Aandeel met** sectie, klik een optie (als het malplaatje niet reeds met de volledige organisatie wordt gedeeld) om te specificeren wie het zal kunnen gebruiken.
 
-   Standaard worden nieuwe sjablonen voor geautomatiseerde workflows gedeeld met iedereen in uw organisatie.
+   Standaard worden nieuwe automatische workflowsjablonen gedeeld met iedereen in uw organisatie.
 
-1. Klik **creeer**.
+1. Klik **creëren**.
 
 ## Een automatische werkstroomsjabloon wijzigen
 
@@ -260,9 +260,9 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
 
 ## Geautomatiseerde workflowsjabloongroepen maken {#create-automated-workflow-template-groups}
 
-Als Workfront-beheerder kunt u alle sjablonen voor geautomatiseerde workflow in de account van uw organisatie weergeven en beheren. Het kan handig zijn om sjablonen in groepen te ordenen.
+Als Workfront-beheerder kunt u alle sjablonen voor geautomatiseerde workflow in de account van uw organisatie weergeven en beheren. Het kan handig zijn om sjablonen in groepen in te delen.
 
-Een sjabloongroep voor geautomatiseerde workflow maken:
+Een automatische sjabloongroep voor werkstromen maken:
 
 {{step1-to-proofing}}
 
