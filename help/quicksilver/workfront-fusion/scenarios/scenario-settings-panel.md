@@ -7,9 +7,9 @@ description: Dit artikel beschrijft de montages beschikbaar in het [!UICONTROL s
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ Deze optie bepaalt hoe [!DNL Adobe Workfront Fusion] te werk gaat als er een fou
 
 ## [!UICONTROL Sequential processing]
 
-Deze optie bepaalt hoe [!DNL Workfront Fusion] te werk gaat als een fout voorkomt en de uitvoering van een scenario wordt bewogen aan de [ Mening en onvolledige uitvoeringen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) oplossen. Als de optie [!UICONTROL Sequential processing] is ingeschakeld, stopt Workfront Fusion met het verwerken van de taakreeks totdat alle onvolledige uitvoeringen zijn opgelost. Als de optie [!UICONTROL Sequential processing] is uitgeschakeld, blijft het scenario volgens het schema lopen, samen met herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
+Deze optie dwingt alle executies om in orde te gebeuren, en is hoofdzakelijk relevant voor Webhooks en voor Onvolledige Uitvoeringen.
+
+Wanneer de opeenvolgende verwerking wordt toegelaten, zijn de parallelle uitvoeringen van het scenario gehandicapt.
+
+### Instant Webhooks
+
+Als een webhaaktrigger is geconfigureerd als `instant` en &#39;Opeenvolgende verwerking&#39; is ingeschakeld, worden alle instant webhaakpayloads in de wachtrij geplaatst en verwerkt in de volgorde waarin ze aankomen. Dit kan handig zijn wanneer gebeurtenissen van externe systemen in een exacte volgorde worden verwerkt.
+
+>[!NOTE]
+>
+>Er zullen automatische verwerkingstermijnen zijn aangezien elke lading wordt verwerkt alvorens volgende is begonnen.
+
+### Onvolledige uitvoeringen
+
+Als &quot;Onvolledige Uitvoeringen&quot;ook wordt toegelaten, als een fout tijdens de uitvoering van een scenario voorkomt, wordt het scenario gepauzeerd. Een van de volgende gebeurtenissen vindt dan plaats:
+
+* Als de Opeenvolgende verwerkingsoptie **** wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
+* Als de Opeenvolgende verwerkingsoptie **** gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
+
+Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen in de Fusie van Adobe Workfront ](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) op.
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
