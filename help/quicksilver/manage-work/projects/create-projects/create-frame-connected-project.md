@@ -5,8 +5,10 @@ title: Een project maken dat is verbonden met Frame.io
 description: Een project is een grote eenheid werk in Adobe Workfront. U kunt geheel nieuwe projecten maken, een sjabloon gebruiken of uitgaven of taken omzetten in projecten.
 author: Courtney
 feature: Work Management
+hide: true
+hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%

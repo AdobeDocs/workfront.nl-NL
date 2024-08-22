@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 0a8e06b6f6ac8e378103572bc974742057308645
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,6 @@ In de artikelen die op deze pagina zijn gekoppeld, worden de bètaprogramma&#39;
 De volgende artikelen bevatten informatie over functies die momenteel in bèta worden gebruikt:
 
 * [Overzicht van canvasdashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [Integratie van Workfront en Frame.io](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 
 <!--

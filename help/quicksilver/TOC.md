@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14295'
 ht-degree: 0%
 
 ---
@@ -434,8 +434,6 @@ ht-degree: 0%
          * [Nieuwe ervaring met opmerkingen](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Nieuwe releaseactiviteit voor opmerkingervaring](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nieuwe veelgestelde vragen over opmerkingen](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront en Frame.io integratiebèta {#frame-io-wf-integration-beta}
-         * [Geïntegreerde bètaversie van Adobe Workfront en Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront data Lake bèta {#data-lake-beta}
          * [bèta-informatie over Workfront data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Beheer en installatie {#administration-and-setup}
@@ -785,7 +783,6 @@ ht-degree: 0%
    * Integraties configureren {#configure-integrations}
       * [Integraties configureren](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integratie](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Vorm  [!DNL Workfront]  en  [!DNL Frame.io]  integratie](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [De as a Cloud Service integratie van Experience Manager Assets configureren](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [De integratie met Experience Manager Assets Essentials configureren](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Workfront configureren met verouderde Adobe Experience Manager-aansluiting](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1198,7 +1195,6 @@ ht-degree: 0%
          * [Een project maken met een sjabloon](manage-work/projects/create-projects/create-project-from-template.md)
          * [Een project importeren uit Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Projectbasislijnen maken](manage-work/projects/create-projects/create-baselines.md)
-         * [Een project maken dat is verbonden met Frame.io](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Werk aan een project bijwerken {#update-work-on-a-project}
          * [Werk aan een project bij: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Statussen toepassen op werk dat aan een groep is gekoppeld](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1809,15 +1805,12 @@ ht-degree: 0%
       * [Beoordeling en goedkeuring van activa en documenten: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Overzicht van documentgoedkeuringen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Ga aan de slag met middelencontrole en goedkeuring met Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Middelen- en documentgoedkeuringen instellen en beheren {#manage-asset-review-and-approval}
          * [Middelen- en documentgoedkeuringen instellen en beheren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Een documentrevisie of goedkeuringsaanvraag maken](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Een revisie- of goedkeuringsaanvraag maken voor een Frame.io-element](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
          * [Extra revisoren of fiatteurs toevoegen aan een element of document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [fiatteurs of revisoren verwijderen uit een middel of document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Een goedkeuringssjabloon maken voor elementen en documenten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Frame.io-element toevoegen aan een verbonden Workfront-project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
          * [Goedkeuring van nieuwe documenten en proefdrukken samen gebruiken](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * Elementen en documenten controleren en goedkeuren {#review-and-approve-documents}
          * [Documenten controleren en goedkeuren: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)

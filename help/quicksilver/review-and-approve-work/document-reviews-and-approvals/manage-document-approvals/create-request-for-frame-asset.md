@@ -2,17 +2,19 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Een revisie- of goedkeuringsaanvraag voor een Frame.io-element maken"
+title: Een revisie- of goedkeuringsaanvraag maken voor een Frame.io-element
 description: U kunt een overzicht- of goedkeuringsaanvraag voor aan Frame.io gekoppelde elementen maken.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+hide: true
+hidefromtoc: true
+exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # Een revisie- of goedkeuringsaanvraag maken voor een Frame.io-element
 
