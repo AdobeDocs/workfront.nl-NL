@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -44,3 +44,4 @@ In de volgende artikelen wordt beschreven hoe u records en de bijbehorende infor
 * [Een miniatuur toevoegen aan een record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [Een omslagafbeelding aan een record toevoegen](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [De lay-out van de recordpagina beheren](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [De details van een record exporteren](/help/quicksilver/planning/records/export-the-record-page.md)

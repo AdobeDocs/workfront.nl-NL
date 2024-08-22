@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '14341'
+source-wordcount: '14345'
 ht-degree: 0%
 
 ---
@@ -2043,10 +2043,10 @@ ht-degree: 0%
       * [Algemene informatie over Adobe Workfront Planning: artikelindex](planning/general/planning-general-article-index.md)
       * [Overzicht van Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Basisbeginselen van de API voor Adobe Workfront-planning](planning/general/planning-api-basics.md)
-      * [Overzicht van beperkingen van Adobe Workfront-planningsobjecten](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning AI Assistant - overzicht](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
       * [Archieven van Adobe Workfront Planning Release-activiteiten voor 2023](planning/general/release-activity-archives-2023.md)
+      * [Overzicht van beperkingen van Adobe Workfront-planningsobjecten](planning/general/limitations-overview.md)
    * Adobe Workfront-planningsarchitectuur {#adobe-workfront-planning-architecture}
       * [Architectuur: artikelindex](planning/architecture/architecture-information.md)
       * [Overzicht van werkruimten](planning/architecture/workspaces-overview.md)
@@ -2091,6 +2091,7 @@ ht-degree: 0%
       * [Een omslagafbeelding aan een record toevoegen](planning/records/add-a-cover-image-to-a-record.md)
       * [De lay-out van de recordpagina beheren](planning/records/manage-the-record-page.md)
       * [Records beheren in het gedeelte Planning van Adobe Workfront-objecten](planning/records/manage-records-in-planning-section.md)
+      * [De details van een record exporteren](/help/quicksilver/planning/records/export-the-record-page.md)
    * Weergaven Adobe Workfront Planning {#adobe-workfront-planning-views}
       * [Weergaven: artikelindex](planning/views/views-information.md)
       * [Recordweergaven beheren](planning/views/manage-record-views.md)

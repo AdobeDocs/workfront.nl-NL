@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 0%
 >
 >Voor een volledige lijst van alle secties en artikelen die de Planning van Workfront documenteren, zie [ Planning van Adobe Workfront: artikelindex ](/help/quicksilver/planning/planning-information.md).
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Inleiding tot Adobe Workfront Planning
 
@@ -56,6 +51,8 @@ Hieronder vindt u een aantal van de belangrijkste mogelijkheden:
 * Koppeling maken naar objecttypen van andere systemen en zo een samenhangend kader creëren voor al uw processen.
 
 ## Momenteel beschikbare functies voor Adobe Workfront-planning
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn in Workfront Planning en een tijdlijn voor de beschikbaarheid ervan. De lijst bevat niet alle functies.
 
@@ -90,7 +87,7 @@ Voor informatie over nieuwe eigenschappen en wanneer zij worden vrijgegeven, zie
 | Weergaven openbaar delen met externe bronnen | ✓ | |  |
 | Weergaven dupliceren | ✓ | |  |
 | Verzoeken verzenden |                               | ✓ |                 |
-| Recorddetails naar Word exporteren |                               | ✓ |                 |
+| Recorddetails naar Word exporteren | ✓ |                                  |                 |
 | Recorddetails exporteren naar PDF |                               |                                  | ✓ |
 | De kleur en het pictogram van een record aanpassen | ✓ |                                  |                 |
 | Opmerkingen toevoegen aan records | ✓ |                                  |                 |
@@ -203,9 +200,9 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
    * Laatst gewijzigd door
    * Laatst gewijzigd
 
-* **Gekoppelde verslagtypes**, **Gekoppelde verslagen**, en **Gekoppelde verslaggebieden** of **Verbonden verslagtypes**, **Verbonden verslagen**, en **Verbonden gebieden**: U kunt een verbinding tussen de volgende entiteiten in de Planning van Workfront tot stand brengen:
+* **Verbonden verslagtypes**, **Verbonden verslagen**, en **Verbonden gebieden**: U kunt een verbinding tussen de volgende entiteiten in de Planning van Workfront tot stand brengen:
 
-   * Twee recordtypen.
+   * Twee Workfront-recordtypen voor planning.
    * Een recordtype en een Workfront-type project, -programma, -portfolio, -bedrijf of -groepsobject.
    * Een recordtype en een Adobe Experience Manager-middel of -map.
 
@@ -224,7 +221,7 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   >[!TIP]
   >
-  > U kunt de volgende veldtypen niet toevoegen als opzoekvelden:
+  > U kunt de volgende veldtypen niet toevoegen als opzoekvelden van de verbonden record- of objecttypen:
   >
   >* Mensen
   >* Gemaakt door
@@ -246,11 +243,11 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
   Hieronder ziet u weergavetypen die u kunt toepassen op de pagina met recordtypen:
 
-   * **mening van de Lijst**: De verslagen van vertoningen en hun gebieden in een lijstformaat. De rijen van de tabel zijn de afzonderlijke records en de kolommen zijn de recordvelden. Dit is de standaardweergave.
+   * **mening van de Lijst**: De verslagen van vertoningen en hun gebieden, met inbegrip van verbonden en raadplegingsgebieden, in een lijstformaat. De rijen van de tabel zijn de afzonderlijke records en de kolommen zijn de recordvelden. Dit is de standaardweergave.
 
      ![](assets/table-view-example.png)
 
-   * **mening van de Chronologie**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een chronologische chronologische chronologische chronologie hebben.
+   * **mening van de Chronologie**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een chronologische chronologische chronologische chronologie hebben. U kunt maximaal vijf verbonden recordtypen en de bijbehorende records weergeven in de tijdlijnweergave.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Workfront-planning zoeken:
    >[!TIP]
    >
    >    Uw Workfront-beheerder kan het planningsgebied toevoegen aan de optie Landingspagina selecteren in uw lay-outsjabloon, zodat u Planning kunt openen zodra u zich aanmeldt bij Workfront. Voor informatie, zie [ de het landen pagina aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
 
 1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
    * **Werkruimten ik** ben: De werkruimten van vertoningen u creeerde of werkruimten die met u worden gedeeld.
