@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Een groep verwijderen
 description: U kunt een groep verwijderen die u beheert. Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ U kunt een groep verwijderen die u beheert. Als er groepen zijn boven de groep d
 Voor informatie over het schrappen van een subgroep, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md) leiden.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,9 +44,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een groep verwijderen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

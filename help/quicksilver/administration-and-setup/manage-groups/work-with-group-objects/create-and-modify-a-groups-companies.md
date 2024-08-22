@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Bedrijven van een groep maken en wijzigen
+title: De bedrijven van een groep maken en wijzigen
 description: Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met bedrijven bekijken en werken verbonden aan de groep en om het even welk van zijn subgroups.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,9 +44,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Bedrijven voor uw groep weergeven, bewerken en maken vanuit het gebied Groepen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

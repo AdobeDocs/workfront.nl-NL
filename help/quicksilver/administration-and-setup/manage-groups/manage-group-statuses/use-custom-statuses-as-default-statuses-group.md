@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Een aangepaste status als standaardstatus voor een groep gebruiken
-description: Als groepsbeheerder, kunt u een douanestatus als standaardstatus voor een groep of subgroep vormen die u beheert. Dit is handig wanneer het systeem automatisch een Workfront-status moet toewijzen aan een project, taak of uitgave. In een project, taak of uitgave wordt altijd de aangepaste status weergegeven die u als standaardstatus instelt in plaats van de Workfront-status die deze status heeft.
-author: Caroline
+description: Als groepsbeheerder, kunt u een douanestatus als standaardstatus voor een groep of subgroep vormen die u beheert.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Uitgiftestatus
 
 Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen hiervoor zijn ingeschakeld (Foutenrapport, Wijzigingsvolgorde, Uitgave en Verzoek). In de onderstaande status van de uitgave kan de status Opnieuw geopend bijvoorbeeld niet als standaardstatus worden gebruikt omdat het type Uitgave volgorde wijzigen niet is geselecteerd:
@@ -58,7 +62,8 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
 
 ## Een aangepaste status instellen als standaardstatus voor een groep
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png), dan klik de naam van de groep waar u statussen creëren of wilt aanpassen.
 1. In het linkerpaneel, klik **Statussen** ![](assets/gear-icon-settings.png).
 1. Open het **Project**, **Taken**, of **Kwesties** lusje, afhankelijk van het type van status u als standaardstatus wilt plaatsen.

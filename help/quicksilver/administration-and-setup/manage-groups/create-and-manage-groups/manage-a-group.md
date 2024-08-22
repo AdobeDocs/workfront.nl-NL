@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Als groepsbeheerder, kunt u een groep beheren die u van het gebied van Groepen i
 >Wanneer u als beheerder voor een groep wordt toegewezen, erft u de rol van de groepsbeheerder voor om het even welke subgroepen die onder het zijn. De enige gebruikers die een subgroep kunnen beheren zijn de groepbeheerders voor de bovenste groep erboven en groepbeheerders die aan de subgroep zijn toegewezen.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -48,6 +50,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## De groepslidmaatschappen beheren
 
@@ -71,7 +75,7 @@ Voor instructies, zie [ Mening en beheer de details van een groep ](../../../adm
 
 U kunt de groep snel bewerken, kopiëren of verwijderen zonder de hoofdpagina van een groep die u bekijkt te verlaten.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Groepen**.
 

@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: Kick-start scenario-eenvoudig project en taak de invoervoorbereiding
+title: "Kick-start Scenario: Eenvoudige voorbereiding van project- en taakimport"
 description: Beschrijft in detail de beschikbare montages en de controles voor een basisProject en de Invoer van de Taak gebruikend de methode van het Begin van de Kick.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
 # Kick-Starts-scenario: eenvoudig project en taak de invoervoorbereiding
 
-Beschrijft in detail de beschikbare montages en de controles voor een basisProject en de Invoer van de Taak gebruikend de methode van het Begin van de Kick.
+Beschrijft in detail de beschikbare montages en de controles voor een basisProject en de Invoer van de Taak gebruikend de Kick-Begin methode.
 
 ## Scenario
 
-Het implementatieteam importeert liever project- en taakinformatie voor actieve projecten in plaats van deze gegevens handmatig in te voeren in het systeem.
+Het implementatieteam zou liever project- en taakinformatie voor actieve projecten importeren in plaats van deze gegevens handmatig in het systeem in te voeren.
 
 * [ Projecten ](#projects)
 * [Takenlijst](#task-list)

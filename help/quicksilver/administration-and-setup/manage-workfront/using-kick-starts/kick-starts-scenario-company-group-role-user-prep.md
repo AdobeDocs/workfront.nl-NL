@@ -3,24 +3,26 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: 'Het "Kick-Begint Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker"'
+title: "Kick-Starts Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker"
 description: Wanneer u begint met het implementeren van Adobe Workfront, in plaats van handmatig gegevens in te voeren, kunt u uw lijst met klanten, interne afdelingen, taakrollen en gebruikersgegevens importeren.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
-# Kick-start Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker
+# Kick-Starts scenario: bedrijf, groep, rol, en gebruiker Kick-Start voorbereiding
 
 Wanneer u begint met het implementeren van Adobe Workfront, in plaats van handmatig gegevens in te voeren, kunt u uw lijst met klanten, interne afdelingen, taakrollen en gebruikersgegevens importeren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,9 +45,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Wat u kunt importeren
 
-In de volgende tabel worden de te importeren bedrijven, groepen en rollen weergegeven:
+In de volgende tabel worden de bedrijven, groepen en rollen weergegeven die moeten worden geïmporteerd:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +71,7 @@ In de volgende tabel worden de te importeren bedrijven, groepen en rollen weerge
  </tbody> 
 </table>
 
-Rolnamen moeten uniek zijn en bestaande taakrollen kunnen niet worden geïmporteerd.
+Rolnamen moeten uniek zijn. Bestaande taakrollen kunnen niet worden geïmporteerd.
 
 In de volgende tabellen worden de te importeren gebruikers en diverse gebruikerskenmerken voor elke tabel weergegeven:
 
@@ -157,7 +161,7 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 
 ## Een Kick-Start-sjabloon downloaden
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Kick-Begint** > **de Gegevens van de Invoer.**
 
@@ -299,4 +303,4 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 1. Vul desgewenst andere gebruikersgegevens in en sla het bestand op.
 1. Het Excel-bestand importeren.
 
-   Volg de richtingen die in de **worden verstrekt die de Dossiers van het Begin van de Kick** sectie van dit artikel invoeren.
+   Volg de richtingen die in [ worden verstrekt de gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

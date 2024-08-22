@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Dubbele gebruikers voorkomen
 description: Wanneer u een nieuwe gebruiker in Adobe Workfront maakt, kunt u geen e-mailadres meer gebruiken dat al door een andere gebruiker wordt gebruikt, zelfs als het e-mailadres per geval verschilt (bijvoorbeeld JohnDoe@example.com en johndoe@example.com). Als u zich wilt voorbereiden op toekomstige verificatieverbeteringen, moet u ervoor zorgen dat alle gebruikers een uniek e-mailadres hebben in een Workfront-exemplaar.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Wanneer u een nieuwe gebruiker in Adobe Workfront maakt, kunt u geen e-mailadres meer gebruiken dat al door een andere gebruiker wordt gebruikt, zelfs als het e-mailadres per geval verschilt (bijvoorbeeld JohnDoe@example.com en johndoe@example.com). Als u zich wilt voorbereiden op toekomstige verificatieverbeteringen, moet u ervoor zorgen dat alle gebruikers een uniek e-mailadres hebben in een Workfront-exemplaar.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -42,6 +44,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Gebruikers met unieke e-mailadressen maken
 
 Vanaf de release 2019.4 kunt u bij het maken van een nieuwe gebruiker in Workfront geen e-mailadres meer gebruiken dat al door een andere gebruiker wordt gebruikt, zelfs als het e-mailadres per geval verschilt. U kunt bijvoorbeeld niet één gebruiker maken met het e-mailadres JohnDoe@example.com als een andere gebruiker het e-mailadres johndoe@example.com heeft.
@@ -53,7 +57,7 @@ Dubbele e-mailadressen in een Workfront-exemplaar corrigeren:
 
 1. Bekijk eventuele dubbele gebruikers en bepaal welke gebruiker niet langer nodig is.
 
-   1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik **Gebruikers**. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. In het **menu van de Filter**, uitgezochte **allen**.
 

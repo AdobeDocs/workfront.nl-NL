@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: groep,projecten
 navigation-topic: work-with-a-groups-objects
-title: Projecten van een groep maken en wijzigen
+title: De projecten van een groep maken en wijzigen
 description: Wanneer u een groep weergeeft die u beheert in het gebied Groepen, kunt u de projecten van de groep maken, bewerken, exporteren, kopiëren en verwijderen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u zijn
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -54,9 +56,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Projecten voor uw groep weergeven, bewerken en maken vanuit het gebied Groepen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

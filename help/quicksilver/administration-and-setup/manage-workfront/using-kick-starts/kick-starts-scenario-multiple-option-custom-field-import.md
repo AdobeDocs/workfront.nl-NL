@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: 'Kick-start Scenario: aangepaste velden met meerdere opties importeren in Workfront'
+title: "Kick-start Scenario: Velden met meerdere opties importeren in Workfront"
 description: U kunt aangepaste velden met meerdere opties in Adobe Workfront importeren met de functie Kick-Start.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Als u de Workfront-databaseobjecten en -structuur goed begrijpt, kunt u verderga
 
 Bestaande gegevens exporteren uit Workfront:
 
-1. Klik **HoofdMenu > Opstelling** op de hoger-juiste hoek van de interface van Workfront.
-1. Breid het **menu van het Systeem** aan de linkerzijde uit, dan klik **Gegevens van de Uitvoer (Kick-Begint)**.
+{{step-1-to-setup}}
+
+1. Breid **Systeem** in het linkermenu uit, dan klik **Gegevens van de Uitvoer (Kick-Begint)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Bestaande gegevens exporteren uit Workfront:
 
 Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescand, kunt u een nieuwe sjabloon voor het starten van de site voor het importeren downloaden.
 
-1. Klik **HoofdMenu > Opstelling** op de hoger-juiste hoek van de interface van Workfront.
+{{step-1-to-setup}}
 
-1. Breid het **menu van het Systeem** aan de linkerzijde uit.
+1. Vouw **Systeem** in het linkermenu uit.
 
 1. Klik **de Gegevens van de Invoer (Kick-Begint)**.
 
@@ -129,9 +130,6 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
    >Voor informatie over de namen van de voorwerpen in het gegevensbestand van Workfront, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Zorg ervoor dat de volgende informatie correct is opgemaakt:
@@ -245,7 +243,9 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
 Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als volgt verder om de nieuwe velden en formulieren te uploaden naar Workfront:
 
-1. Klik **Gegevens van de Invoer** ** (Kick-Begint) **onder het **Belangrijkste Menu > Opstelling > het menu van het Systeem**.
+{{step-1-to-setup}}
+
+1. Klik **Systeem > de Gegevens van de Invoer (Kick-Begint)**.
 
 1. Klik **kiezen Dossier** onder de sectie **gegevens met Kick-Begin spreadsheet** uploadt.
 

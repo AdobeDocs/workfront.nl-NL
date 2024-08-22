@@ -1,17 +1,17 @@
 ---
-title: Taak- en uitgavevoorkeuren voor een groep configureren
+title: Taak- en probleemvoorkeuren voor een groep configureren
 user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: groep,voorkeuren,taak,uitgave,ontgrendelen
 navigation-topic: create-and-manage-groups
 description: Als de groepen in uw organisatie een taak of een uitgiftevoorkeur onafhankelijk van de manier moeten vormen het op het systeemniveau wordt gevormd, kan een beheerder van Adobe Workfront de voorkeur ontgrendelen. Dan, als groepsbeheerder, kunt u de voorkeur voor uw groep vormen en het zal alle taken of kwesties beïnvloeden verbonden aan uw groep.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Voor informatie over hoe de beheerder van Workfront voorkeur ontgrendelt, zie [ 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## De ontgrendelde taak- en probleemvoorkeuren voor een groep op hoofdniveau configureren
 
 >[!TIP]
 >
 >Als u een Workfront-beheerder bent, kunt u de stappen 1 tot en met 4 omzeilen door naar Instellingen > Projectvoorkeuren > Taken en problemen te gaan en vervolgens in het vak boven aan de pagina naar de naam van de groep te zoeken.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

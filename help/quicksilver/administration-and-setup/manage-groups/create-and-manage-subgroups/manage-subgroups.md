@@ -5,13 +5,13 @@ keywords: beheren,subgroep,bewerken
 navigation-topic: create-and-manage-subgroups
 title: Een subgroep beheren
 description: Als groepsbeheerder van een subgroep kunt u de subgroep maken, verplaatsen, weergeven, bewerken, kopiëren, hernoemen, exporteren en verwijderen. U kunt een subgroep ook tot een groep op hoofdniveau maken door deze uit de bovenliggende groep te verwijderen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze
 Voor meer informatie over subgroepen, zie [ Overzicht Subgroups ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,19 +49,21 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een subgroep maken, verplaatsen, weergeven, bewerken, kopiëren, hernoemen, exporteren of verwijderen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Klik op de naam van de groep met de subgroep waaraan u wilt werken.
+1. Klik op de naam van de groep die de subgroep bevat waarmee u wilt werken.
 
-   Of
+   of
 
-   Als u een of meer subgroepen verplaatst, klikt u op de naam van de doelgroep (u geeft in een latere stap op welke subgroepen u wilt verplaatsen).
+   Als u een of meer subgroepen verplaatst, klikt u op de naam van de doelgroep (u geeft op welke subgroepen u in een latere stap wilt verplaatsen).
 
 1. In het linkermenu, klik **Subgroups**.
 
@@ -79,9 +83,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
        <ol> 
         <li value="1"> <p>(Optioneel) Selecteer een subgroep om deze tot de doelgroep te maken.</p> <p>Als u deze stap overslaat, is de groep die u in stap 3 hebt geselecteerd de doelgroep.</p> </li> 
         <li value="2">Klik <strong> toevoegen Subgroup </strong> &gt; <strong> Bestaande Groep </strong>.</li> 
-        <li value="3"> <p>In het <strong> Bestaande vakje van de Groep </strong> dat verschijnt, begin het typen van de naam van een subgroep u wilt bewegen.</p> <p>De resultaten die worden weergegeven, bevatten geen groepen boven de doelgroep.</p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te houden en op het informatiepictogram <img src="assets/info-icon.png"> naast de groep te klikken. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> </li> 
-        <li value="4"> <p>Klik op de naam van de subgroep die u wilt verplaatsen wanneer deze wordt weergegeven in de lijst.</p> </li> 
-        <li value="5"> <p>Herhaal Stappen c-d voor alle andere subgroepen die u naar de doelgroep wilt verplaatsen</p> </li> 
+        <li value="3"> <p>In het <strong> Bestaande vakje van de Groep </strong> dat verschijnt, begin het typen van de naam van een subgroep u wilt bewegen.</p> <p>De resultaten die worden weergegeven, bevatten geen groepen boven de doelgroep.</p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram <img src="assets/info-icon.png"> naast de groep te klikken. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> </li> 
+        <li value="4"> <p>Klik op de naam van de subgroep die u wilt verplaatsen wanneer deze in de lijst wordt weergegeven.</p> </li> 
+        <li value="5"> <p>Herhaal Stappen c-d voor andere subgroepen u naar de bestemmingsgroep wilt bewegen</p> </li> 
         <li value="6">Klik <strong> sparen </strong>.</li> 
        </ol> </td> 
      </tr> 
@@ -119,29 +123,27 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 >[!TIP]
 >
->Wanneer u een groep beheert die subgroepen bevat, is het handig om gegevens over de gehele groep en alle subgroepen te kunnen identificeren en filteren. U kunt dit doen door het Bovenste gebied van identiteitskaart van de Ouder in een rapport of een lijst te gebruiken.
+>Wanneer u een groep beheert die subgroepen bevat, is het nuttig om gegevens over de gehele groep en alle subgroepen te kunnen identificeren en filteren. U kunt dit doen door het Bovenste gebied van identiteitskaart van de Ouder in een rapport of een lijst te gebruiken.
 >
 >Bijvoorbeeld, veronderstel dat u een grote afdeling van de Marketing beheert en u een lijst van alle projecten wilt die de volledige afdeling aan werkt.
 >
 >In Workfront, wordt deze afdeling van de Marketing vertegenwoordigd door een groep genoemd Marketing, met 3 subgroepen genoemd de Marketing van het Gebied, de Marketing van het Product, en Digitale Marketing. Om van de projecten een lijst te maken die tot de volledige afdeling van de Marketing (alle 4 groepen) behoren, kon u een Filter voor het gebied van Projecten met de volgende Regel van de Filter tot stand brengen:
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >U kunt het Hoogste gebied van de Naam van de Ouder ook gebruiken om gegevens te identificeren verbonden aan een top-level groep, maar slechts in Weergaven, niet in Filters of Groepen.
 
-## Een subgroep uit de bovenliggende groep verwijderen en er een groep van het hoogste niveau van maken
+## Een subgroep verwijderen uit de bovenliggende groep en deze maken tot een groep op hoofdniveau
 
 U kunt van een subgroep een groep op hoofdniveau maken door deze uit de bovenliggende groep te verwijderen.
 
 >[!TIP]
 >
->Wanneer u een groep deactiveert die onderliggende subgroepen heeft, worden deze subgroepen ook inactief. Als u wilt dat een van de bovenliggende elementen actief is, kunt u deze instructies gebruiken om het item uit de bovenliggende groep te verwijderen en vervolgens opnieuw te activeren.
+>Wanneer u een groep deactiveert die onderliggende subgroepen heeft, worden deze subgroepen ook inactief. Als u wilt dat een van deze besturingselementen actief is, kunt u deze instructies gebruiken om het onderdeel uit de bovenliggende groep te verwijderen en vervolgens opnieuw te activeren.
 >
 >Voor instructies bij het deactiveren en het opnieuw activeren van groepen, zie de secties [ Mening en beheer de details van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) en [ Mening en beheer de details van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) in de artikel [ Mening en beheer de details van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
@@ -159,8 +161,6 @@ Houd rekening met het volgende wanneer u een subgroep kopieert.
 
 * Als een subgroep die u kopieert, zijn eigen subgroepen heeft, worden deze opgenomen in de kopie en krijgen hun namen de volgende notatie:
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Om het even welke subgroep die tot een openbare groep behoort is ook openbaar, zodat kan om het even welke gebruiker met uitgeven-gebruiker toegang, in of uit de groep, gebruikers aan subgroup toevoegen.

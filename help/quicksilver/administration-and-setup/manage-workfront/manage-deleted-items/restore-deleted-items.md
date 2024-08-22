@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Verwijderde items herstellen
-description: Als u een Workfront-beheerder bent, kunt u projecten, taken, problemen, documenten en sjablonen in Adobe Workfront herstellen als deze in de afgelopen 30 dagen zijn verwijderd. Na 30 dagen worden deze items permanent verwijderd en kunnen ze niet meer worden hersteld. Wanneer u een object herstelt, worden ook alle onderliggende objecten en velden ervan hersteld. Als u bijvoorbeeld een project herstelt, worden alle taken, problemen, documenten, uren, notities, toewijzingen en aangepaste gegevens in het project ook hersteld.items
+description: Als u een Workfront-beheerder bent, kunt u projecten, taken, problemen, documenten en sjablonen in Adobe Workfront herstellen als deze in de afgelopen 30 dagen zijn verwijderd. Na 30 dagen worden deze items permanent verwijderd en kunnen ze niet meer worden hersteld.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---

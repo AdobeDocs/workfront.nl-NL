@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: De profielen van een groep maken en beheren
+title: De tijdbladprofielen van een groep maken en beheren
 description: Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met timesheet profielen bekijken en werken waarvoor de beheerders van de groep, of één van zijn subgroepen, administratieve toegang hebben.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -50,6 +52,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Tijdbladprofielen op groepsniveau maken en bewerken
 
 U kunt tijdlijnprofielen maken en bewerken voor gebruik in een groep die u beheert. Voor instructies, zie [ creeer, geef, en wijs timesheet profielen ](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
@@ -66,7 +70,8 @@ Voor informatie over het schrappen van groepstimesheets, zie [ timesheets van de
 
 ## Tijdbladprofielen op groepsniveau exporteren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Klik **Groepen**.
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.

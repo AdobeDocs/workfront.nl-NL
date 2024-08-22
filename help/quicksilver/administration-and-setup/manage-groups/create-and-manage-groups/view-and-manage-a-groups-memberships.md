@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: toevoegen,gebruikers,groep,toevoegen,een andere,toewijzen,beheerder,verwijderen,gebruiker,weergave,rollen,leden,exporteren,lidmaatschap,gegevens
 navigation-topic: create-and-manage-groups
-title: De groepslidmaatschappen weergeven en beheren
+title: De lidmaatschappen van een groep weergeven en beheren
 description: Als Adobe Workfront-beheerder kunt u leden van elke groep die u beheert, weergeven, toevoegen, verwijderen, exporteren, activeren en deactiveren. U kunt ook hun profielen bewerken, Updates toevoegen aan hun profielen en deze toewijzen als extra groepbeheerders voor de groep.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ Als Adobe Workfront-beheerder kunt u leden van elke groep die u beheert, weergev
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,9 +45,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## De groepslidmaatschappen weergeven en beheren
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen**.
 

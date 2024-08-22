@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon
+title: Gegevens importeren naar Workfront met een Kick-startsjabloon
 description: Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront beschikt over een Kick-Start-sjabloon die u kunt gebruiken om dit te doen, zoals wordt uitgelegd in Kick-Starts data importer.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 0%
 
 ---
 
-# Gegevens naar Adobe Workfront importeren met een Kick-startsjabloon
+# Gegevens naar Workfront importeren met een Kick-startsjabloon
 
 <!--Audited: 12/2023-->
 

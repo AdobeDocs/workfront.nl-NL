@@ -4,20 +4,24 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-description: Een Workfront-beheerder kan groepen gebruikers maken die overeenkomen met de afdelingsstructuur. Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven. De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workfront waar zij moeten werken en communiceren. Elke groep kan dan hun informatie van Workfront zoals gebruikers, malplaatjes, en douaneformulieren, en projecten gescheiden van die van andere afdelingen houden.
-author: Caroline
+description: Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven. De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workfront waar zij moeten werken en communiceren.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bda8d47c-5ec7-4654-b7bd-c6fb854c3084
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
 # Groepen beheren
+
+Een Workfront-beheerder kan groepen gebruikers maken die overeenkomen met de afdelingsstructuur. Groepen zijn vergelijkbaar met maar verschillen van teams en bedrijven.
+
+De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workfront waar zij moeten werken en communiceren. Elke groep kan dan hun informatie van Workfront zoals gebruikers, malplaatjes, en douaneformulieren, en projecten gescheiden van die van andere afdelingen houden.
 
 Deze sectie bevat de volgende subsecties:
 

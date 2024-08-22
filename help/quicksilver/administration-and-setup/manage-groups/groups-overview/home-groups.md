@@ -3,14 +3,14 @@ title: Overzicht van thuisgroepen
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: Er wordt een thuisgroep toegewezen in het profiel van de gebruiker. Alle gebruikers hebben een startgroep nodig. Een gebruiker kan tot meer dan één groep behoren, maar zij kunnen slechts één Groep van het Huis hebben. Hoewel om het even welke bestaande groep in het systeem als Groep van het Huis van een gebruiker kan worden toegewezen, adviseren wij het creëren van en het toewijzen van nieuwe groepen die grotere organisatorische eenheden vertegenwoordigen. Houd bij het instellen van thuisgroepen rekening met de verdeling van Adobe Workfront-gebruikers in uw organisatie.
-author: Caroline
+description: Er wordt een thuisgroep toegewezen in het profiel van de gebruiker. Alle gebruikers hebben een startgroep nodig.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

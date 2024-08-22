@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Aangepaste status op een taak of uitgave die wordt verplaatst of gekopieerd
+title: De Statussen van de douane op een Taak of een kwestie die wordt bewogen of wordt gekopieerd
 description: Wanneer u een taak of kwestie aan een verschillend project beweegt of kopieert, zouden sommige statussen op de taak of de kwestie kunnen bijwerken om statussen aan te passen die door de groep van het bestemmingsproject worden gebruikt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%

@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: Groepsrollen
-description: De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workfront waar zij moeten werken en communiceren. Elke groep kan dan hun informatie van Workfront zoals gebruikers, malplaatjes, en douaneformulieren, en projecten gescheiden van die van andere afdelingen houden. Ten minste één groepsbeheerder is vereist voor elke groep. Tot 14 niveaus van subgroepen kunnen onder één groep bestaan.
-author: Caroline
+title: Groeprollen
+description: De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workfront waar zij moeten werken en communiceren. Elke groep kan dan hun informatie van Workfront zoals gebruikers, malplaatjes, en douaneformulieren, en projecten gescheiden van die van andere afdelingen houden.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---

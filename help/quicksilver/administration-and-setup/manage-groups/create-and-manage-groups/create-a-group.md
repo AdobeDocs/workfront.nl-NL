@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Elke subgroep heeft minstens één groepsbeheerder nodig. Groepbeheerders kunnen
 Als u een groepsbeheerder of een Workfront-beheerder bent, kunt u ook subgroepen maken onder een groep. Voor instructies, zie [ een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -49,13 +51,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een geheel nieuwe groep op hoofdniveau maken
 
 In deze stappen wordt uitgelegd hoe u een nieuwe groep helemaal zelf kunt maken. Voor informatie over het creëren van een groep of subgroep door bestaande te kopiëren, zie [ een top-level groep tot stand brengen door een bestaande groep of subgroep ](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in dit artikel te kopiëren.
 
 U moet een beheerder van Workfront zijn om een top-level groep tot stand te brengen.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 
@@ -127,7 +131,7 @@ Denk aan het volgende wanneer u dit wilt doen:
 
 Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

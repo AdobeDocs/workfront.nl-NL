@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: Toegang tot Adobe Workfront beperken tot IP-adres
 description: U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 45 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang
 Deze IP adressen of IP adreswaaiers zouden door uw netwerkbeheerder moeten worden verstrekt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,6 +46,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Overige lijsten van gewenste personen
 
 Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
@@ -54,7 +58,7 @@ Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mai
 
 Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, slechts kunnen die IP adressen worden gebruikt om tot Workfront toegang te hebben. Gebruikers die Workfront proberen te openen vanaf een ander IP-adres ontvangen een foutbericht om aan te geven dat hun IP-adres is geblokkeerd.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Info van de Klant.**
 

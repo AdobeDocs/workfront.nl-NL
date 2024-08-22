@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Een groep deactiveren of opnieuw activeren
+title: Groep deactiveren of opnieuw activeren
 description: U kunt een groep deactiveren die u beheert en die u niet meer gebruikt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 U kunt een groep deactiveren die u beheert en die u niet meer gebruikt.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,6 +46,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een groep deactiveren of opnieuw activeren
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 >* Verwijder het uit de bovenliggende groep. Voor meer informatie, zie de sectie [ een subgroep van zijn oudergroep verwijderen en het maken een top-level groep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in het artikel [ beheren een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 >* Verplaats het onder een actieve groep. Voor meer informatie, zie de sectie [ creëren, bewegen, bekijken, uitgeven, exemplaar, anders noemen, uitvoeren of schrappen subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) in artikel [ een subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) beheert.
->
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, uitgezochte **Groepen**.
 

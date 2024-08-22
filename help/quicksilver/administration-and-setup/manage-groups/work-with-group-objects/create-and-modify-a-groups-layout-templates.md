@@ -5,13 +5,13 @@ keywords: groep,indeling,sjablonen
 navigation-topic: work-with-a-groups-objects
 title: De lay-outsjablonen van een groep maken en wijzigen
 description: Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u het Malplaatje van de Lay-out bekijken en werken waarvoor de beheerders van de groep, of één van zijn subgroepen, administratieve toegang hebben.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u het Malp
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,9 +45,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Layoutsjablonen maken of wijzigen voor een groep die u beheert
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Groepen**.
 

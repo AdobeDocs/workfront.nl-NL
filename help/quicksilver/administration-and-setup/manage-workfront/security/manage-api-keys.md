@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: API-sleutels beheren
+title: API-toetsen beheren
 description: Adobe Workfront-beheerders kunnen de API-sleutels beheren die worden gebruikt om toepassingen in staat te stellen om namens een gebruiker toegang te krijgen tot Workfront, om zo kwetsbaarheden op het gebied van API-beveiliging tot een minimum te beperken.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Voorbeelden van toepassingen die gebruikmaken van de Workfront API zijn:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Workfront API-toetsen
 
 Elke gebruiker in Workfront heeft een unieke API-sleutel. Deze sleutel wordt per gebruiker gegenereerd op het moment dat de gebruiker toegang krijgt tot een integratie die gebruikmaakt van de Workfront API (zoals de mobiele Workfront-app of documentintegratie).
@@ -74,7 +78,7 @@ U kunt de API-sleutel voor uw beheerdersgebruikersaccount genereren, opnieuw ins
 >
 >U kunt ook een API-sleutel genereren via de API. Voor meer informatie, zie de ](../../../wf-api/general/event-subs-api.md) sectie van de Abonnement API van de Gebeurtenis van 0} {in [ Abonnement API van de Gebeurtenis ](../../../wf-api/general/event-subs-api.md).[
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem >** **Info van de Klant.**
 1. (Voorwaardelijk) Voer een van de volgende handelingen uit:
@@ -98,7 +102,7 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
 
 1. (Voorwaardelijk) als uw organisatie Single Sign-On (SSO) toegangsbeheer gebruikt, maak tijdelijk de optie onbruikbaar die authentificatie SSO vereist.
 
-   1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
    1. Op het **gebied van het Type**, selecteer het type van SSO uw organisatiegebruik.
@@ -115,7 +119,7 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
 
 1. (Voorwaardelijk) laat de optie toe die authentificatie vereist SSO als u het in Stap 1 onbruikbaar maakte.
 
-   1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
 
    1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
 
@@ -126,7 +130,7 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
 
 U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wanneer de API-sleutel van een gebruiker vervalt, moet de gebruiker opnieuw worden geverifieerd voor toepassingen die de Workfront API gebruiken om toegang te krijgen tot Workfront. U kunt de frequentie wijzigen waarmee de API-toetsen verlopen. U kunt ook configureren of API-sleutels verlopen wanneer het wachtwoord van een gebruiker verloopt.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Info van de Klant**.
 1. In het **Belangrijkste gebied van Montages API**, in **na verwezenlijking**, **API sleutels verlopen in** drop-down lijst, selecteer timeframe wanneer u de API sleutels wilt verlopen.
@@ -151,9 +155,9 @@ Als u zich zorgen maakt over een bepaalde inbreuk op de beveiliging van uw Workf
 >
 >Als u API-sleutels verwijdert voor alle gebruikers, worden ALLE API-sleutels voor alle gebruikers in het systeem ongeldig. Hierdoor zullen al uw integraties in Workfront mislukken totdat u een nieuwe API-sleutel genereert in Workfront en al uw integraties bijwerkt.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Breid **Systeem** uit, dan klik **Info van de Klant.**
+1. Breid **Systeem** uit, dan klik **Info van de Klant**.
 
 1. In het **Belangrijkste gebied van Montages API**, verwijdert de klik **alle API sleutels**, dan klikt **verwijdert** **allen**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Groepsstatussen opnieuw ordenen
+title: Groepstatussen opnieuw ordenen
 description: Als groepsbeheerder, kunt u de orde van project, taak veranderen, en status voor een groep uitgeven u beheert.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
+
++++
 
 ## Standaardvolgorde van statussen
 
@@ -108,7 +112,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor taken en projecten in een groep die u beheert
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen**, dan klik de naam van de groep.
 1. In het linkerpaneel, klik **Statussen**.
@@ -122,7 +126,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor problemen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen**, dan klik de naam van de groep.
 1. In het linkerpaneel, klik **Statussen**.

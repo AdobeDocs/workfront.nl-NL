@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Wachtwoordbeleid voor verificatie configureren
 description: Als Adobe Workfront-beheerder kunt u wachtwoordbeleidsopties configureren om de verificatie aan te passen aan uw Workfront-systeem.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Wij adviseren dat u authentificatievoorkeur tijdens de implementatie van Workfro
 De verbeterde mogelijkheden voor wachtwoordbeheer zijn binnenkort beschikbaar voor uw organisatie. Gebruik één van beide volgende secties, afhankelijk van of uw organisatie toegang tot de nieuwe authentificatieervaring heeft.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -48,13 +50,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
++++
+
 ## Verificatie configureren (beschikbaar voor alle klanten) {#configure-authentication-available-for-all-customers}
 
 De opties van de authentificatie worden getoond voor alle klanten. De verbeterde mogelijkheden van het wachtwoordbeheer komen binnenkort of zouden reeds beschikbaar voor uw organisatie kunnen zijn, zoals die in de sectie [ wordt beschreven vormt verbeterde authentificatie) ](#configure-enhanced-authentication-coming-soon) in dit artikel.
 
 Verificatievoorkeuren configureren:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Authentificatie**.
 
@@ -97,7 +101,7 @@ Deze sectie beschrijft de verbeterde authentificatieervaring, die nog niet voor 
 
 Uitgebreide verificatievoorkeuren configureren:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Systeem** > **Verbeterde Authentificatie**.
 1. In het **vakje van de Lengte van het Wachtwoord 0} {, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**

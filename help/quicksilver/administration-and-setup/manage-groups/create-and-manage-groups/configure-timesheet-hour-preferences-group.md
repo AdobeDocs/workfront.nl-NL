@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: groep,voorkeuren,taak,groepen,uitgave,ontgrendelen
 navigation-topic: create-and-manage-groups
-title: Voorkeuren voor tijdschriften en uren voor een groep configureren
+title: De voorkeuren voor tijdbladen en uren voor een groep configureren
 description: Op systeemniveau, kan een beheerder van Adobe Workfront de timesheet en de sectie van de uurvoorkeur Algemene Voorkeur ontgrendelen en pre-bevolkt timesheets met. Hierdoor kunnen groepsbeheerders de opties in die secties onafhankelijk voor hun eigen groepen configureren.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Een beheerder van Adobe Workfront kan de volgende secties van timesheet en uurvo
 
 * Algemene voorkeuren
 * Waar gebruikers tijd kunnen vastleggen
-* Vooraf invullen van tijdbladen
+* Vooraf ingevulde tijdbladen
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
@@ -81,7 +81,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
 >
 >Als u een Workfront-beheerder bent, kunt u de stappen 1 tot en met 4 omzeilen door naar Setup > Tijdblad en uren > Voorkeuren te gaan en vervolgens naar de naam van de groep te zoeken in het vak boven aan de pagina.
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

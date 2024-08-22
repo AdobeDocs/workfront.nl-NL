@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,trap-start,kickstart,trap-start
 navigation-topic: use-kick-starts
-title: Kick-start gegevensimporteur
+title: Kick-start gegevensimportmodule
 description: Met Kick-start kunnen Adobe Workfront-beheerders gegevens importeren van externe gegevensbronnen naar Workfront en bestaande gegevens in Workfront exporteren die in andere systemen kunnen worden gebruikt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ded3e49-41b2-4ad8-951c-e9ddbb0a9276
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%

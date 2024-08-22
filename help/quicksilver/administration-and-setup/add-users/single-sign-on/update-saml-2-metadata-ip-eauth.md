@@ -1,13 +1,13 @@
 ---
-title: De meta-gegevens van SAML 2.0 van de update in uw IDP wanneer het gebruiken van verbeterde authentificatie
+title: SAML 2.0-metagegevens bijwerken in uw IDP wanneer uitgebreide verificatie wordt gebruikt
 description: Als beheerder van Adobe Workfront, kunt u Workfront enig sign-on (SSO) met om het even welke identiteitsleverancier integreren die het protocol van de Prijsverhoging van de Bevestiging van de Veiligheid (SAML) 2.0 steunt.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Voor informatie over het vormen van SAML voorafgaand aan uw migratie aan de verb
 
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -47,6 +49,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Okta gebruiken als uw identiteitsprovider
 
@@ -120,7 +124,8 @@ Deze procedure biedt essentiële informatie voor het configureren van Okta als e
    1. Kopieer de URL die wordt weergegeven in het URL-veld van de browser.
 
 1. Meld u aan bij Workfront als Workfront-beheerder.
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Systeem** > **Enige Sign-On (SSO)**.
 

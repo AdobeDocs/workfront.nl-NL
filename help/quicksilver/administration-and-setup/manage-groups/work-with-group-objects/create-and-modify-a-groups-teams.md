@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: De teams van een groep maken en wijzigen
+title: Teams van groepen maken en wijzigen
 description: Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u met teams bekijken en werken verbonden aan de groep en om het even welk van zijn subgroepen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Voor informatie over hoe de gebruikers met een vergunning van het Plan een team 
 Voor informatie over hoe een beheerder van Workfront een team kan tot stand brengen, zie [ een team van het gebied van de Opstelling ](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,9 +48,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## U kunt vanuit het gebied Groepen teams voor uw groep weergeven, werken met en maken
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

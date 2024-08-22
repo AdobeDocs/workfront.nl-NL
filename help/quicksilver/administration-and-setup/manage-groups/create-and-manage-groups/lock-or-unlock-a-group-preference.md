@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Een project, taak of uitgave van subgroepen vergrendelen of ontgrendelen
+title: Een project-, taak- of Issue-voorkeur voor subgroepen vergrendelen of ontgrendelen
 description: Als groepsbeheerder, kunt u een project, een taak, of een uitgiftevoorkeur vormen en dan sluiten als een beheerder van Workfront het op systeemniveau heeft ontgrendeld.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Voor informatie over hoe een beheerder van Workfront een voorkeur voor alle groe
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -64,9 +66,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een groepsproject, taak of uitgave vergrendelen of ontgrendelen, voorkeur
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen**.
 1. Klik op de naam van de groep waar u een projectvoorkeur wilt vergrendelen of ontgrendelen.

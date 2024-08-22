@@ -4,12 +4,12 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
-description: De beheerders van Adobe Workfront in een grote organisatie met vele afdelingen zouden niet alle afdelingen en groepen van de organisatie binnen die afdelingen kunnen willen beheren. In plaats daarvan, kunnen zij een groep voor elke afdeling en subgroepen binnen die groep tot stand brengen, elk beheerd door een groepsbeheerder.
+description: De beheerders van Adobe Workfront in een grote organisatie met vele afdelingen zouden niet alle afdelingen en groepen van de organisatie binnen die afdelingen kunnen willen beheren. In plaats daarvan, kunnen zij een groep voor elke afdeling en subgroepen binnen die groep tot stand brengen, elk geleid door een groepsbeheerder.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: 850e0801511177efc5189258acd9b88234cf59c9
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 0%
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 De beheerders van Adobe Workfront in een grote organisatie met vele afdelingen zouden niet alle afdelingen en groepen van de organisatie binnen die afdelingen kunnen willen beheren. In plaats daarvan, kunnen zij een groep voor elke afdeling en subgroepen binnen die groep tot stand brengen, elk geleid door een groepsbeheerder.
 
-Een groepsbeheerder kan de behoeften van een groep beheren, zoals gebruikerslidmaatschap, lay-outsjablonen, aangepaste gegevens, statussen en voorkeuren.
+Een groepsbeheerder kan de behoeften van een groep beheren, zoals gebruikerslidmaatschap, lay-outmalplaatjes, douanegegevens, statussen, en voorkeur.
 
-Onder één groep kunnen maximaal 14 niveaus van subgroepen bestaan.
+Tot 14 niveaus van subgroepen kunnen onder één groep bestaan.
 
 >[!NOTE]
 >
 >Alle groepsbeheerders in de hiërarchie boven een subgroep hebben beheerdersrechten om die subgroep te beheren.
 
-Voor informatie over het creëren van en het leiden van groepen, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ leiden een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md). Ook, zie [ Overzicht Subgroups ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Voor informatie over het creëren van en het leiden van groepen, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ leiden een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md). Ook, zie [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-## Groepbeheerders toewijzen
+## Groepbeheerders aanwijzen
 
 Elke top-level groep moet minstens één groepsbeheerder hebben. Een Workfront-beheerder of beheerder van een groep kan groepsbeheerders toewijzen aan de subgroepen van de groep, maar dit is niet verplicht. Voor meer informatie, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
 
@@ -58,15 +58,15 @@ Elke groepsbeheerder moet
 * Een planlicentie in het huidige prijsmodel en verpakkingsmodel
 * Een standaardlicentie in het nieuwe prijs- en verpakkingsmodel
 
-We raden aan dat groepsbeheerders bewerkingstoegang tot gebruikers hebben, zodat ze de volgende taken kunnen uitvoeren:
+Wij adviseren dat de groepsbeheerders Edit toegang tot gebruikers hebben zodat zij de volgende taken kunnen uitvoeren:
 
 * Meld u aan als andere gebruikers in de groepen en subgroepen die ze beheren.
-* Stel het wachtwoord van een andere gebruiker in de groepen die ze beheren opnieuw in.
+* Stel het wachtwoord van een andere gebruiker in de groepen die zij beheren opnieuw in.
 
 >[!IMPORTANT]
 >
->Groepsbeheerders moeten meer toegang hebben dan degenen die ze beheren. Als dit niet het geval is, kunnen ze geen lagere toegangsniveaus weergeven of wijzigen.
->Voor instructies bij het verlenen van deze toegang, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+>De beheerders van de groep moeten hogere toegang hebben dan zij leiden; anders, zullen zij niet lagere toegangsniveaus kunnen bekijken of wijzigen.
+>Voor instructies bij het verlenen van deze toegang, zie [ douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) creëren of wijzigen.
 
 Voor een groepsbeheerder die timesheet profielen aan gebruikers in hun groepen en subgroepen moet toewijzen, adviseren wij ook Administratieve toegang tot timesheets en uren. Voor instructies bij het verlenen van deze toegang, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -108,15 +108,15 @@ Als groepsbeheerder kunt u de hieronder beschreven taken uitvoeren om de groepen
 * Creeer groep-vlakke timesheet profielen, associeer hen met gebruikers en groepen u beheert, en produceer manueel timesheets. Voor meer informatie, zie [ creeer, geef uit, en wijs timesheet profielen ](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 * Zonder administratieve toegang tot goedkeuringsprocessen, creeer en geef goedkeuringsprocessen voor de groepen en subgroepen uit u beheert. Voor meer informatie, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
-  Voor informatie over administratieve toegang tot goedkeuringsprocessen, zie [ gebruikers administratieve toegang verlenen tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Voor informatie over administratieve toegang tot goedkeuringsprocessen, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Maak schema&#39;s en koppel ze aan een groep die u beheert. Voor meer informatie, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+* Creeer programma&#39;s en associeer hen met een groep u leidt. Voor meer informatie, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 * Een team beheren dat is toegewezen aan een groep die u beheert, zonder lid te zijn van het team. Ook, creeer een teamrapport dat op het gebied van de Groep wordt gebaseerd om te identificeren aan welke groep een bepaald team wordt toegewezen. Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 * Herstel een project dat met een groep wordt geassocieerd u, samen met om het even welke taken, kwesties, of documenten verbonden aan het project beheert. Voor meer informatie, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ### Groepvoorkeuren en -gereedschappen beheren {#manage-group-preferences-and-tools}
 
-* Wanneer een projectvoorkeur, taak- of uitgiftevoorkeur of tijdbladen en uren voor groepen in het systeem worden ontgrendeld, bewerkt u die voorkeur voor groepen die u beheert. Deze voorkeuren zijn van invloed op project-, taak- en probleemgedrag. Raadpleeg de volgende bronnen voor meer informatie:
+* Wanneer een projectvoorkeur, taak of uitgiftevoorkeur, of timesheets en urenvoorkeur voor groepen door het systeem wordt ontgrendeld, geef die voorkeur voor groepen uit u leidt. Deze voorkeuren zijn van invloed op het project, de taak en het gedrag van problemen. Raadpleeg de volgende secties voor meer informatie:
 
    * [ vorm projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

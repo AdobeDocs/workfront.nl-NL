@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Voor informatie over het standaardbericht dat voor een gebeurtenis plaatst, zie 
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## De gebeurtenismeldingen van een groep weergeven en configureren
 
-1. (Voorwaardelijk en facultatief) als u een beheerder van Workfront bent en u reeds op de E-mailmeldingspagina (Opstelling > E-mail > Meldingen) bent, kunt u het volgende doen en dan overslaan aan stap 6: De Berichten van de Gebeurtenis van het Systeem van de Schrapping **in de doos boven de lijst, beginnen de naam van de groep in de doos te typen, dan het te klikken wanneer het verschijnt.**
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+>[!TIP]
+>
+>Als u een beheerder van Workfront bent en u reeds op de E-mailmeldingspagina (Opstelling > E-mail > Meldingen) bent, kunt u het volgende doen en dan aan stap 6 overslaan: De Meldingen van de Gebeurtenis van het Systeem van de Schrapping **in de doos boven de lijst, beginnen de naam van de groep in de doos te typen, dan het klikken wanneer het verschijnt.**
+
+{{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Groepen** ![](assets/groups-icon.png).
 

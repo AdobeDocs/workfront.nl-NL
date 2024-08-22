@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: Een subgroep maken
 description: U kunt een subgroep maken onder een groep die u beheert om gebruikers en projecten te organiseren en toegangsrechten toe te wijzen in Adobe Workfront. Groepbeheerders beheren doorgaans groepen en subgroepen. Ze kunnen de pagina Groepen gebruiken om hun groepen en subgroepen op één locatie te beheren.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 Groepbeheerders beheren doorgaans echter groepen en subgroepen. Ze kunnen de pagina Groepen gebruiken om hun groepen en subgroepen op één locatie te beheren. Voor informatie over hoe de groepen en de subgroepen binnen Workfront werken, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md) en [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -44,9 +46,11 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; als u moet weten welk plan of licentietype u hebt, contacteer uw beheerder van Workfront.
 
++++
+
 ## Een subgroep toevoegen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klik **Groepen**.
 

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Handelingen toegestaan voor verschillende typen beheerders
+title: Handelingen toegestaan voor groepsbeheerders
 description: In deze tabel worden de beheeractiviteiten vergeleken die beschikbaar zijn voor een Adobe Workfront-beheerder die het Workfront-systeem beheert, een groepsbeheerder die een groep op hoofdniveau beheert en een groepsbeheerder die een subgroep beheert.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
