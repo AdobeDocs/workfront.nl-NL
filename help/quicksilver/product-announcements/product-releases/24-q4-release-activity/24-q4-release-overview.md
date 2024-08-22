@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ de verhogingen van de Beheerder ]
-* [Projectverbeteringen](#project-enhancements)
+* [Beheerdersverbeteringen](#administrator-enhancements)
 * [Verbeteringen voor integratie](#integration-enhancements)
+* [Projectverbeteringen](#project-enhancements)
+* [Verbeteringen voor proefdrukken](#proofing-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen
@@ -73,6 +74,41 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                             </li>
                         </ul>
                         <p><i>Deze functie maakt deel uit van een gefaseerde release en zal in september beschikbaar zijn voor een beperkt aantal klanten.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Verbeteringen voor integratie
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold"> Eigenschap </span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold"> de data van de Versie </span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeteringen van de de integratielogin van Vooruitzichten </a></p>
+                        <p>De login ervaring voor de integratie van Vooruitzichten is gestroomlijnd zodat alle klanten de zelfde knoop zien aan login aan Workfront al dan niet zij IMS-Toegelaten zijn. De volgende aanmeldstappen verschillen voor IMS- en niet-IMS-instanties, maar de eerste pagina is voor alle gebruikers hetzelfde.</p>
+                    </td>
+                    <td><p><b>Beschikbaar op deze data:</b></p>
+                        <ul>
+                            <li>
+                                <p>Voorvertoningsrelease: 6 augustus 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Productieversie voor alle afnemers: 6 augustus 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
            </tbody>
         </table>
 
-### Verbeteringen voor integratie
+### Verbeteringen voor proefdrukken
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ Deze pagina biedt informatie over functionaliteit die is opgenomen in de release
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}"> Verbeteringen van de de integratielogin van Vooruitzichten </a></p>
-                        <p>De login ervaring voor de integratie van Vooruitzichten is gestroomlijnd zodat alle klanten de zelfde knoop zien aan login aan Workfront al dan niet zij IMS-Toegelaten zijn. De volgende aanmeldstappen verschillen voor IMS- en niet-IMS-instanties, maar de eerste pagina is voor alle gebruikers hetzelfde.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> Chromium update voor de Desktop Proofing Viewer </a></p>
+                        <p>We upgraden de Desktop Proofing Viewer naar ondersteuning voor Chromium 126.0.6478.127, waarmee problemen met UI-elementen in interactieve proefdrukken worden opgelost.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
                             <li>
-                                <p>Voorvertoningsrelease: 6 augustus 2024</p>
+                                <p>Voorvertoningsrelease: 29 augustus 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Productieversie voor alle afnemers: 6 augustus 2024</span></p>
+                                <p><span class="preview">Productieversie voor alle afnemers: 29 augustus 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### Andere verbeteringen
 

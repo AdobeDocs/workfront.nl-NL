@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '14295'
+source-wordcount: '14299'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 0%
       * Release 2024 Q4 {#release-24-q4}
          * [Overzicht van de release 2024 Q4](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024 Q4 Verbeteringen voor beheerders](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
+         * [Verbeteringen voor 2024 Q4-integratie](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
          * [Verbeteringen van het Q4-project in 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
-         * [Verbeteringen in de 2024 Q4-integratie](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [Verbeteringen voor 2024 Q4-proefdrukken](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [Andere verbeteringen tijdens de releaseperiode van het vierde kwartaal van 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [Updates weergeven en weergeven tijdens de releaseperiode van 2024 Q4](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * Versie 2024 Q3 {#release-24-q3}
