@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Om AI Medewerker voor uw organisatie toe te laten, **allen** van het volgende mo
 
   Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
+* Workfront Planning AI Assistant heeft andere functies dan Workfront AI Assistant.
+
+  Voor meer informatie over AI Medewerker in de Planning van Workfront, zie [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
 
 ## Functie beschikbaar in AI Assistant
 
@@ -85,7 +89,7 @@ AI Assistant biedt momenteel de volgende functionaliteit:
 
   Voor meer informatie, zie [ berekende gebiedsformules met AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) produceren of herzien.
 
-## ## AI-assistent openen
+## AI-assistent openen
 
 1. Klik boven aan een Workfront-pagina op het pictogram AI-assistent ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) .
 1. Typ uw vraag of vraag in het paneel rechts van het scherm.
