@@ -6,9 +6,9 @@ description: U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebrui
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze pagina beschrijft functionaliteit die alleen beschikbaar is voor gebruikers die zijn ingeschreven voor de gesloten bètaversie van Canvasdashboards. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
+>Deze pagina beschrijft functionaliteit die als deel van de bèta van de Dashboards van het Canvas beschikbaar is. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 U kunt een Canvas-dashboard delen met andere Adobe Workfront-gebruikers, zodat deze het kunnen bekijken of bewerken.
 

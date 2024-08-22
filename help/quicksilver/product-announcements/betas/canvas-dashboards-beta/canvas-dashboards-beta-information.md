@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor een lijst van alle documentatie van de Dashboards van het Canvas, zie [ Ove
 
 **status van Beta**
 
-De dashboards van het canvas is momenteel in een gesloten bèta testende fase, en is daarom slechts beschikbaar door uitnodiging aan specifieke klanten.
+Canvasdashboards bevinden zich momenteel in een openbare bètatestfase en kunnen daarom vaak worden gewijzigd. Zie hieronder voor instructies over het inschrijven in de bètaversie.
 
 ## Deelnemen aan de bètaversie
 

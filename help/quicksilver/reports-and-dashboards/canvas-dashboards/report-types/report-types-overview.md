@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Deze pagina beschrijft functionaliteit die alleen beschikbaar is voor gebruikers die zijn ingeschreven voor de gesloten bètaversie van Canvasdashboards. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
+>Deze pagina beschrijft functionaliteit die als deel van de bèta van de Dashboards van het Canvas beschikbaar is. Zie [ de bèta-informatie van de Dashboards van het Canvas ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om meer te leren.
 
 Er zijn een aantal verschillende rapporten die u aan een dashboard van het Canvas kunt toevoegen die uw gegevens van Workfront op verschillende manieren visualiseren. De volgende typen rapporten kunnen worden toegevoegd aan een Canvasdashboard:
 

@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '14337'
+source-wordcount: '14341'
 ht-degree: 0%
 
 ---
@@ -410,6 +410,7 @@ ht-degree: 0%
       * [Veelgestelde vragen over het venster Onderhoud](product-announcements/announcements/maintenance-window-faq.md)
       * [Wijziging vereist voor het toevoegen van proefdrukken aan uw lijst van gewenste personen](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Abonnement op berichten van het Aankondigingscentrum opzeggen in de nieuwe Adobe Workfront-ervaring](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Verouderde handleiding voor afgekeurde startpagina](product-announcements/announcements/legacy-home-deprecation.md)
       * Aankondigingsarchief {#announcement-archive}
          * [Aankondigingsarchief](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Verbeteringen voor aangepaste formulieren](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
