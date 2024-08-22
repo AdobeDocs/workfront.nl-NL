@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Alvorens de gebruikers kunnen beginnen gebruikend  [!DNL Adobe Workfront]  voor Vooruitzichten, moet u het eerst voor uw systeem toelaten.
-author: Becky
+author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Voordat gebruikers [!DNL Adobe Workfront for Outlook] kunnen gaan gebruiken, moe
 Zie [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) voor informatie over het gebruik van [!DNL Workfront for Outlook] nadat deze is ingeschakeld.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
@@ -46,10 +48,13 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
++++
+
 ## De [!DNL Workfront] [!DNL Outlook] add-in inschakelen
 
 1. Meld u aan bij [!DNL Workfront] als de beheerder.
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+
+{{step-1-to-setup}}
 
 1. Vouw **[!UICONTROL System]** uit en klik op **[!UICONTROL Preferences]** .
 

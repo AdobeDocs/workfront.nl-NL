@@ -1,14 +1,14 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: De integratie met [!UICONTROL Experience Manager Assets as a Cloud Service] configureren
+title: De integratie van [!UICONTROL Experience Manager Assets as a Cloud Service] configureren
 description: U kunt uw werk met uw inhoud in  [!DNL Experience Manager Assets] verbinden.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -39,36 +39,35 @@ U kunt uw werk in [!DNL Experience Manager Assets] &#x200B; met uw inhoud verbin
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan </strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties </strong>
+   <td>[!DNL Adobe Workfront] licentie
    </td>
-   <td>Huidig: [!UICONTROL Plan] <br>
-   Nieuw: [!UICONTROL Standard]
-   </td>
+   <td><p>Huidige: [!UICONTROL Plan]</p>
+   <p>Nieuw: [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] license </strong>
+   <td>[!DNL Experience Manager] licentie
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong> Product </strong>
+   <td>Product
    </td>
    <td>U moet [!DNL Experience Manager Assets as a Cloud Service] hebben, en u moet aan het product als gebruiker worden toegevoegd.
    </td>
   </tr>
   <tr>
-   <td>Configuraties op toegangsniveau*
+   <td>Configuraties op toegangsniveau
    </td>
    <td>U moet een [!DNL Workfront] beheerder zijn.
    </td>
@@ -78,7 +77,6 @@ U moet het volgende hebben:
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Vereisten
 

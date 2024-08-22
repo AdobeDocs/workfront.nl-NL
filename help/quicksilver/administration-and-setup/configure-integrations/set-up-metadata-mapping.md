@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Metagegevens zijn beschrijvende informatie die aan een document is gekoppeld. U kunt opstelling  [!DNL Adobe Workfront]  om meta-gegevens met documenten te omvatten die naar  [!DNL Workfront]  toepassingen worden verzonden.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Metagegevens zijn beschrijvende informatie die aan een document is gekoppeld. U kunt [!DNL Adobe Workfront] zo instellen dat metagegevens worden opgenomen in documenten die naar [!DNL Workfront] -toepassingen worden verzonden.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -41,6 +43,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Informatie over [!DNL Workfront] metagegevens
 
@@ -64,7 +68,7 @@ Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de t
 
 ## [!DNL Workfront] configureren voor het verzenden van metagegevens
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** .
 
@@ -82,7 +86,8 @@ Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de t
 ## Toegewezen velden verwijderen
 
 1. Meld u aan bij [!DNL Workfront] als de beheerder.
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+
+{{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** .
 

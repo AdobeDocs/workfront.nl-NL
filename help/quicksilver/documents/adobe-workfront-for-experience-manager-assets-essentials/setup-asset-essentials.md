@@ -1,14 +1,14 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: De integratie met Experience Manager Assets Essentials configureren
+title: De Experience Manager Assets Essentials Integration configureren
 description: Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -27,48 +27,51 @@ Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials &#x200B;:
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table>
   <tr>
-   <td><strong> plan* van Adobe Workfront </strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>Alle
    </td>
   </tr>
   <tr>
-   <td><strong> Adobe Workfront vergunningen* </strong>
+   <td>[!DNL Adobe Workfront] licentie
    </td>
-   <td>Plan
+   <td><p>Huidige: [!UICONTROL Plan]</p>
+   <p>Nieuw: [!UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] licentie
+   </td>
+   <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong> vergunning van de Experience Manager </strong>
-   </td>
-   <td>Standaard
-   </td>
-  </tr>
-  <tr>
-   <td><strong> Product </strong>
+   <td>Product
    </td>
    <td>U moet beschikken over Experience Manager Assets Essentials en u moet als gebruiker aan het product in de Admin Console worden toegevoegd.
    </td>
   </tr>
   <tr>
-   <td><strong> het niveauconfiguraties van de Toegang </strong>
+   <td>Configuraties op toegangsniveau
    </td>
-   <td>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <strong> een gebruiker volledige administratieve toegang verlenen </strong>.
+   <td>U moet een [!DNL Workfront] beheerder zijn.
    </td>
   </tr>
 </table>
 
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
-
++++
 
 ## Integratie instellen
 
-1. Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling**.
+{{step-1-to-setup}}
+
 1. Selecteer **Documenten** ![ documentenpictogram ](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van de Experience Manager**.
 1. Selecteer **toevoegen de Integratie van de Experience Manager**.
 1. Geef het volgende op:
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### Assets
 
 Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfront wordt geduwd. Documenten met de ingebouwde of aangepaste velden worden automatisch toegewezen aan de opgegeven velden wanneer een element voor het eerst wordt verzonden naar Experience Manager Assets Essentials.
 
 1. Op het **gebied van Workfront** kolom, kies een ingebouwd of gebied van douaneWorkfront.
+
    >[!NOTE]
    >
    >U kunt één Workfront-veld toewijzen aan meerdere Experience Manager Assets-velden. U kunt niet meerdere Workfront-velden toewijzen aan één Experience Manager Assets-veld.
+
 1. Op het **Experience Manager** gebied, kies een gebied van Experience Manager Assets.
 
    Als u een Workfront-veld wilt toewijzen aan een Experience Manager Assets-tag, selecteert u `xcm:keywords` .
+
 1. Herhaal stap 1 en 2 zo nodig.
    ![ laat meta-gegevens ](assets/metadata-assets-essentials.png) toe
 1. Klik **sparen** of beweging op de [ Opstelling verbonden omslagen (facultatief) ](#set-up-linked-folders-optional) sectie in dit artikel.

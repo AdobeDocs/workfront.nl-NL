@@ -6,10 +6,11 @@ title: Aangepaste OAuth2-toepassingen weergeven en beheren
 description: Als Adobe Workfront-beheerder kunt u de OAuth2-toepassingen voor uw exemplaar van Workfront weergeven en beheren, waarmee andere toepassingen toegang hebben tot Workfront.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -29,6 +30,8 @@ Als [!DNL Adobe Workfront] beheerder kunt u de OAuth2-toepassingen voor uw insta
 * Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE ](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -55,6 +58,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
++++
+
 ## Vereisten
 
 U moet [!UICONTROL OAuth2] -toepassingen voor uw organisatie maken voordat u deze kunt weergeven of beheren.
@@ -68,7 +73,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 
 ### Aangepaste OAuth2-toepassingen weergeven en bewerken {#view-and-edit-custom-oauth2-applications}
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.
@@ -79,7 +84,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 
 ### Aangepaste OAuth2-toepassingen verwijderen {#delete-custom-oauth2-applications}
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Klik op ** **.
@@ -101,9 +106,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 >* Om een nieuw Geheim van de Cliënt tot stand te brengen, zie [ een toepassing OAuth2 ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [ creëren toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
-
-
-1. Klik op het pictogram *[!UICONTROL *Main Menu]* * ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Houd de muisaanwijzer boven de toepassing en klik op het pictogram **[!UICONTROL Edit]** wanneer deze helemaal rechts wordt weergegeven.
@@ -117,7 +120,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 
 ### Notities voor clientgeheim toevoegen of bewerken {#add-or-edit-notes-for-client-secret}
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.
@@ -135,7 +138,7 @@ Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integrat
 
 ### Clientgeheim verwijderen {#delete-client-secret}
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.

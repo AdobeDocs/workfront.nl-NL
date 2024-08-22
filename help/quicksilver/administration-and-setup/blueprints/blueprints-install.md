@@ -5,13 +5,13 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Een blauwdruk installeren
 description: U kunt een blauwdruk installeren in de productieomgeving of in een Sandbox-omgeving.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ U kunt een blauwdruk installeren in de productieomgeving of in een Sandbox-omgev
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -29,19 +31,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p> Alle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licentie</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>U moet een [!DNL Workfront] beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Waar moet ik een blauwdruk installeren? {#where-should-i-install-a-blueprint}
 
@@ -73,7 +82,8 @@ U kunt uw pakket installeren in een van de volgende omgevingen:
 
 ## De blauwdruk installeren
 
-1. Klik op het pictogram **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de rechterbovenhoek van [!DNL Adobe] Workfront en klik vervolgens op **[!UICONTROL Blueprints]** .
+{{step1-to-blueprints}}
+
 1. Zoek de blauwdruk die u wilt installeren. U kunt filteren op het gebruiksgeval, het rijpingsniveau, de installatiestatus en aan de rechterkant typen.
 1. (Optioneel) Klik op **[!UICONTROL Details]** voor meer informatie over de werking van de blauwdruk.
 1. Klik op **[!UICONTROL Install]**.

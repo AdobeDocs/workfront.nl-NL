@@ -1,5 +1,5 @@
 ---
-title: Vorm  [!DNL Workfront]  met  [!DNL Adobe Experience Manager]  erfenisschakelaar
+title: Vorm  [!DNL Workfront]  met  [!DNL Adobe Experience Manager]  Schakelaar van de Oudheid
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Als [!DNL Adobe Workfront] beheerder kunt u [!DNL Workfront] met [!UICONTROL Adobe Experience Manager (AEM) Assets] integreren en uw organisatie een uitgebreide oplossing voor inhoudsbeheer bieden voor het maken, delen en onderhouden van elementen in uw workflow.
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -43,6 +45,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </table>
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+
++++
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -149,7 +153,8 @@ Voordat u begint, moet u machtigingen inschakelen voor workfront-service:
       Uw API-sleutel van [!DNL Workfront] ophalen:
 
       1. Open een browsertabblad en meld u als [!DNL Workfront] beheerder aan bij uw [!DNL Workfront] -account.
-      1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+
+      {{step-1-to-setup}}
 
       1. Klik **[!UICONTROL System]** > **[!UICONTROL Customer Info]**.
 
@@ -256,7 +261,7 @@ Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals d
    >
    >[!UICONTROL Workfront] raadt u aan een [!UICONTROL Workfront] -beheerder te maken die uitsluitend is bestemd voor uw AEM. Voor meer informatie over het toewijzen van het [!UICONTROL Workfront] niveau van de beheerdertoegang tot een gebruiker, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Documents]**> **[!UICONTROL Custom Integration].**
 

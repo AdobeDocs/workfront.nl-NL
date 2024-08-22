@@ -4,13 +4,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
-title: Voorbereiden om aan boord van uw organisatie te gaan naar de Adobe Admin Console
+title: Voorbereiden op het aan boord nemen van uw organisatie bij de Adobe Admin Console
 description: Omdat Adobe Workfront een Adobe product is, kunt u het via Adobe Admin Console openen. Op deze manier kunt u Workfront samen met andere Adobe-accounts en -producten voor uw gebruikers centraal beheren.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%

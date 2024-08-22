@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Handelingen die moeten worden uitgevoerd na de installatie van een blauwdruk
 description: Dit artikel schetst wat u zou moeten doen nadat u een blauwdruk in  [!DNL Adobe Workfront]  installeert om de blauwdruk aan uw systeemgebruikers volledig op te stellen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%

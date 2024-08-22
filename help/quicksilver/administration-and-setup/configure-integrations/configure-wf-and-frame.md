@@ -1,5 +1,5 @@
 ---
-title: Vorm  [!DNL Workfront]  en  [!DNL Frame.io]  integratie
+title: Vorm  [!DNL Workfront]  en  [!DNL Frame.io]  Integratie
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ De beheerder van Workfront laat de integratie tussen Workfront en Frame.io toe d
 >
 >Deze functionaliteit is alleen beschikbaar voor organisaties die zijn aangemeld bij de [!DNL Adobe Admin Console] .
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan </strong>
-   </td>
-   <td>Alle
-   </td>
+   <td>[!DNL Adobe Workfront] plan</td>
+   <td>Alle</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties </strong>
+   <td>[!DNL Adobe Workfront] licenties
    </td>
-   <td>Huidig: [!UICONTROL Plan] <br>
-   Nieuw: [!UICONTROL Standard]
-   </td>
+   <td><p>Huidige: [!UICONTROL Plan]</p>
+   <p>Nieuw: [!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong> het niveauconfiguraties van de Toegang </strong>
+  <tr>
+   <td>Configuraties op toegangsniveau
    </td>
    <td>U moet een [!DNL Workfront] beheerder zijn.
    </td>
@@ -54,6 +52,7 @@ U moet het volgende hebben:
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Vorm een gebrek [!DNL Frame.io] rekening [!BADGE  Binnenkort ]{type=Informative}
 

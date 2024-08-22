@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In dit artikel worden de voor- en nadelen beschreven van vier opties waarmee u h
 
 ## Gebruik één van onze partners
 
-[!DNL AtAppStore] ([ www.atappstore.com ](https://www.atappstore.com)), heeft een makkelijk te gebruiken app (hun [ Opname van Workfront ](https://store.atappstore.com/product/workfront-snapshot/) oplossing) die u toestaat om uw gegevens zelf te downloaden. Een facultatieve kijker (hun [ oplossing van de Kijker van de Momentopname van Workfront ](https://store.atappstore.com/product/workfront-snapshot-viewer/)) staat u toe om uw gegevens offline gemakkelijk te bekijken.
+[!DNL AtAppStore] ([ www.atappstore.com ](https://www.atappstore.com)) heeft een makkelijk te gebruiken app (hun [ Opname van Workfront ](https://store.atappstore.com/product/workfront-snapshot/) oplossing) die u toestaat om uw gegevens zelf te downloaden. Een facultatieve kijker (hun [ oplossing van de Kijker van de Momentopname van Workfront ](https://store.atappstore.com/product/workfront-snapshot-viewer/)) staat u toe om uw gegevens offline gemakkelijk te bekijken.
 
 * **Pros:** Al uw kern [!DNL Workfront] voorwerpen worden uitgevoerd, met inbegrip van de douanegebieden en de nota&#39;s, die dan in een gemakkelijk toegankelijk [!DNL MS Access] gegevensbestand worden opgeslagen. De interface van de Viewer is eenvoudig te gebruiken en te lezen. Het uitpakken van Documenten is ook afzonderlijk beschikbaar als service, waarbij de uitvoer is ingedeeld in een logische mapstructuur die aan elk document (en eventueel aan de vorige versies) is toegewezen.
 

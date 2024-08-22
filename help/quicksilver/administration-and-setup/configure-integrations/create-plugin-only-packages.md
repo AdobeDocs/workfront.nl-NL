@@ -1,13 +1,14 @@
 ---
-title: Alleen plug-inpakketten maken voor uw gebruikers in de Adobe Admin Console
+title: Alleen-insteekmodules maken voor uw gebruikers in de Adobe Admin Console
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Een Adobe Admin Console-beheerder kan een lichtgewicht, alleen-insteekmodule pakket maken. Door deze vooraf geconfigureerde pakketten te distribueren, kunnen beheerders ervoor zorgen dat de gebruikers over deze plug-ins beschikken zonder dat de gebruiker de plug-in zelf hoeft op te zoeken. We raden u aan deze lichtgewichtplug-ins te gebruiken om de Adobe Workfront for Creative Cloud-plug-ins te distribueren aan gebruikers in uw organisatie.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
