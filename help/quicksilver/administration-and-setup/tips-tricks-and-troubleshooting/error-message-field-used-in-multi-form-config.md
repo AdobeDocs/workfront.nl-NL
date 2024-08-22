@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Foutbericht: er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren.'
+title: "Foutbericht: er is een klein probleem. Dat veld wordt gebruikt in een configuratie met meerdere formulieren."
 description: Wanneer u een berekening in een berekend aangepast veld wijzigt op een aangepast formulier en een foutbericht laat zien dat het veld wordt gebruikt in een configuratie met meerdere formulieren, moet u het veld vervangen door een nieuw veld dat de berekening bevat die u wilt gebruiken.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
 ## Object zoeken waaraan aangepaste formulieren zijn gekoppeld {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Klik op het **[!UICONTROL Main Menu]** pictogram ![](assets/main-menu-icon.png) rechtsboven in [!DNL Adobe Workfront] en klik vervolgens op **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]** .
 1. Pas de weergave **[!UICONTROL Field List]** toe om het berekende veld te zoeken dat u wilt wijzigen en noteer elk aangepast formulier waarop het wordt gebruikt (bijvoorbeeld formulier 1, formulier 2, formulier 3).

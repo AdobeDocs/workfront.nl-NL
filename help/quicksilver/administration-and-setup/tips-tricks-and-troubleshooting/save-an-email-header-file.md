@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Een e-mailkoptekstbestand opslaan
+title: Een koptekstbestand voor e-mail opslaan
 description: Af en toe,  [!DNL Adobe Workfront]  steun kan om een dossier van de e-mailKopbal verzoeken. Elke e-mailtoepassing heeft een eigen manier om dit bestand op te halen. Hier zijn een paar verschillende e-mailtoepassingsinstructies om van de Kopbal de plaats te bepalen en te bewaren. [!DNL Outlook]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%

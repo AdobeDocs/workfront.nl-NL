@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Groepbeheerders moeten een hogere toegang hebben dan de beheerders die ze beheren
-description: Als een groepsbeheerder toestemmingen in hun Niveau van de Toegang heeft lager dan die zij leiden, zullen zij niet kunnen bekijken, wijzigen of, lagere toegangsniveaus toewijzen.
-author: Courtney
+title: Groepbeheerders moeten een hogere toegang hebben dan de beheerders
+description: Als een groepsbeheerder toestemmingen in hun toegangsniveau lager heeft dan die zij leiden, zullen zij niet kunnen bekijken, wijzigen of, lagere toegangsniveaus toewijzen.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2b501a1e-fb56-44fa-8518-07537dc90a5b
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Groepbeheerders moeten een hogere toegang hebben dan de beheerders die ze beheren
 
-Als een groepsbeheerder toestemmingen in hun Niveau van de Toegang heeft lager dan die zij leiden, zullen zij niet kunnen bekijken, wijzigen of, lagere toegangsniveaus toewijzen.
+Als een groepsbeheerder toestemmingen in hun toegangsniveau lager heeft dan die zij leiden, zullen zij niet kunnen bekijken, wijzigen of, lagere toegangsniveaus toewijzen.
 
 ## Probleem
 

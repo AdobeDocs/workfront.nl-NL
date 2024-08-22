@@ -3,14 +3,14 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Tips, trucs en probleemoplossing voor beheer en installatie
+title: Tips, trucs en het oplossen van problemen voor Beleid en Opstelling
 description: Hier vindt u diverse Help voor het beheer van het Workfront-systeem van uw organisatie.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%

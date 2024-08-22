@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: De gebruikersgeloofsbrieven van Adobe Workfront vs. [!DNL SAML]  gebruikersgeloofsbrieven
-description: Na het creëren van de gebruiker, kunt u de gebruiker uitgeven en "slechts toestaan SAML 2.0 Authentificatie"toelaten zodat hun gebruiker en wachtwoord door het systeem van SAML worden gecontroleerd. Als deze optie is ingeschakeld, mag de gebruiker zich alleen aanmelden via SAML. Wanneer zij naar  [!DNL Workfront]  URL gaan, worden zij automatisch opnieuw gericht aan het systeem van SAML en voor hun gebruikersnaam en wachtwoord van SAML ertoe aangezet.
-author: Caroline
+title: Adobe Workfront-gebruikersreferenties vs. SAML-gebruikersreferenties
+description: Na het creëren van de gebruiker, kunt u de gebruiker uitgeven en "slechts toestaan SAML 2.0 Authentificatie"toelaten zodat hun gebruiker en wachtwoord door het systeem van SAML worden gecontroleerd. Als deze optie is ingeschakeld, mag de gebruiker zich alleen aanmelden via SAML.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---

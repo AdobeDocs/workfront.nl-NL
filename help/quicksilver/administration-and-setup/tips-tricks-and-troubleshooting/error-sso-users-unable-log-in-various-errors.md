@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Fout: De gebruikers SSO zijn Onbekwaam aan login aan  [!DNL Adobe Workfront]  toe te schrijven aan Diverse Fouten"
-description: Wanneer u een login fout over gefederaliseerde enige sign-on ontvangt, uw gebruikersbenaming/wachtwoordcombinatie, of uw toegang tot  [!DNL Workfront], the problem might be that your [!DNL Workfront]  instantiengebruikt SSO en u probeert om binnen het gebruiken van onjuiste URL te registreren. Zorg ervoor dat u zich aanmeldt met de juiste URL zonder dat dit gebeurt na ".com".
-author: Caroline
+description: Wanneer u een login fout over gefederaliseerde enige sign-on ontvangt, uw gebruikersbenaming/wachtwoordcombinatie, of uw toegang tot  [!DNL Workfront], the problem might be that your [!DNL Workfront]  instantiengebruikt SSO en u probeert om binnen het gebruiken van onjuiste URL te registreren.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

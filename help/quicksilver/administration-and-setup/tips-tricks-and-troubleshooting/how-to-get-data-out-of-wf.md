@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Historische gegevens exporteren uit Adobe Workfront: Pros en cons'
+title: "Historische gegevens exporteren uit Adobe Workfront: Pros en Cons"
 description: In dit artikel worden de voor- en nadelen beschreven van vier opties die u kunt gebruiken om historische gegevens uit Workfront te exporteren.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,13 @@ In dit artikel worden de voor- en nadelen beschreven van vier opties waarmee u h
 
 ## Gebruik één van onze partners
 
-[!DNL AtAppStore] , een [!DNL Workfront] -gecertificeerde partner, heeft een gebruiksvriendelijke app waarmee u uw gegevens kunt downloaden. Deze app bevat ook een viewer waarmee u uw gegevens gemakkelijk kunt bekijken.
+[!DNL AtAppStore] ([ www.atappstore.com ](https://www.atappstore.com)), heeft een makkelijk te gebruiken app (hun [ Opname van Workfront ](https://store.atappstore.com/product/workfront-snapshot/) oplossing) die u toestaat om uw gegevens zelf te downloaden. Een facultatieve kijker (hun [ oplossing van de Kijker van de Momentopname van Workfront ](https://store.atappstore.com/product/workfront-snapshot-viewer/)) staat u toe om uw gegevens offline gemakkelijk te bekijken.
 
-* **Pros:** Al uw [!DNL Workfront] voorwerpen worden uitgevoerd, met inbegrip van de douanegebieden. De interface van de Viewer is eenvoudig te gebruiken en te lezen en kan gemakkelijk worden geïmporteerd in een [!DNL MS Access] -database.
+* **Pros:** Al uw kern [!DNL Workfront] voorwerpen worden uitgevoerd, met inbegrip van de douanegebieden en de nota&#39;s, die dan in een gemakkelijk toegankelijk [!DNL MS Access] gegevensbestand worden opgeslagen. De interface van de Viewer is eenvoudig te gebruiken en te lezen. Het uitpakken van Documenten is ook afzonderlijk beschikbaar als service, waarbij de uitvoer is ingedeeld in een logische mapstructuur die aan elk document (en eventueel aan de vorige versies) is toegewezen.
 
-* **Kons:** de Documenten worden niet uitgevoerd. U moet de bestanden afzonderlijk downloaden. Voor meer informatie, ga naar [ http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Kons:** er is een technische beperking van 2 GB van gegevens, maar AtAppStore staat u toe om slechts te kopen wat u nodig hebt.
+
+* **Kosten:** voor meer informatie, ga [ https://store.atappstore.com/product/workfront-snapshot/ ](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Vraag een [!DNL Postgres] gegevensdumpbestand aan van ons databaseteam
 
@@ -35,6 +37,7 @@ Uw Account Executive kan een verzoek indienen bij ons databaseteam om een databa
 * **Pros**: U krijgt uw volledige gegevenslading, met inbegrip van douanegebieden, evenals documenten die in het systeem worden opgeslagen.
 
 * **Kons**: Het gegevensbestanddossier is moeilijk te lezen: er is geen manier u dit dossier kunt lezen tenzij u het aan een [!DNL Postgres] gegevensbestand uploadt en de verhoudingen tussen de lijsten herstelt. De documenten worden opgeslagen op een aparte bestandsserver en moeten door het AOS-team apart worden uitgepakt. Hierbij, is er geen organisatie aan de documenten, en zij worden allen van verwijzingen voorzien door hun GUID.
+
 * **Kosten**: Er zijn kosten verbonden aan deze download, afhankelijk van hoe lang het team duurt om het dossier tot stand te brengen. Raadpleeg uw AE/CAE voor meer informatie of om dit proces op gang te brengen.
 
 ## Exporteren via [!UICONTROL Kick-Starts]

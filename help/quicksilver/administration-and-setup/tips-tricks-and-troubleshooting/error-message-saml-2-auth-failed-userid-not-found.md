@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Foutbericht: SAML 2.0-verificatie mislukt: gebruikersnaam niet gevonden'
-description: Als u SAML 2.0 gebruikt, betekent de fout "SAML 2.0-verificatie Niet gevonden-gebruikersnaam niet" dat een UID- of NAAM-id niet wordt doorgegeven uit de ADFS-aanvraagregels. In ADFS moet het Relying Party Trust een Claim-regel hebben die een UID- of een NAAM-id-waarde doorgeeft. Wanneer u de Verbinding van de Test van de a [!DNL Workfront]  in werking stelt, zou het dit moeten tonen als succesvol.
-author: Caroline
+title: "Foutbericht: SAML 2.0-verificatie mislukt: gebruikersnaam niet gevonden"
+description: Als u SAML 2.0 gebruikt, betekent de fout "SAML 2.0 Authentication Failed-User Identifier Not Found" (Niet gevonden voor verificatie van SAML) dat een UID- of NAAM-id niet wordt doorgegeven uit de ADFS-aanvraagregels.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ In ADFS moet het **Relying Vertrouwen van de Partij** a **de regel van de Vorder
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -42,14 +46,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>U moet een [!DNL Workfront] beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Oplossing
 

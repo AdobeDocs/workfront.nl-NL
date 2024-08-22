@@ -3,15 +3,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Automatische herinneringen versus herinneringsmeldingen
-description: In dit artikel worden de verschillen tussen automatische herinneringen en herinneringsberichten beschreven en worden voor elke waarschuwing scenario's gegeven. Voor meer informatie over alle  [!DNL Adobe Workfront]  berichten, zieAdobe  [!DNL Workfront]  berichten.
-author: Caroline
+title: Automatische herinneringen vs. Herinneringsmeldingen
+description: In dit artikel worden de verschillen tussen automatische herinneringen en herinneringsberichten beschreven en worden voor elke waarschuwing scenario's gegeven.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

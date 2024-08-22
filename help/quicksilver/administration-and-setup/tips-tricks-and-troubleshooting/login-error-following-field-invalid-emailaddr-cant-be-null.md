@@ -3,13 +3,13 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Aanmeldingsfout: de volgende velden zijn ongeldig: emailAddr mag niet null zijn'
+title: "Aanmeldingsfout: de volgende velden zijn ongeldig: emailAddr mag niet null zijn"
 description: Wanneer ik probeer om in  [!DNL Adobe Workfront]  URL voor mijn domein te registreren, ben ik opnieuw gericht aan het login van SAML portaal en dan terug naar  [!DNL Workfront]  met een fout die zeggen dat het gebied emailAddr niet ongeldig kan zijn.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 15b702cf-61b8-41dc-8253-77cadc69bd80
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%

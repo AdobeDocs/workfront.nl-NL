@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Fout: gebruiker met automatische provisioning kan zich niet aanmelden"
-description: Als een gebruiker met automatische provisioning zich voor het eerst aanmeldt en een fout ontvangt die aangeeft dat het systeem hun geen toegangsniveau toewijst, kan dit zijn omdat uw systeem geen toegangsniveaus heeft die zijn gekoppeld aan de Request-licentie. De auto-levering gebruikt het de vergunningstype van het Verzoek, zodat kunt u dit probleem oplossen door een toegangsniveau te creëren dat met een vergunning van het Verzoek wordt geassocieerd.
-author: Caroline
+description: Als een gebruiker met automatische provisioning zich voor het eerst aanmeldt en een fout ontvangt die aangeeft dat het systeem hun geen toegangsniveau toewijst, kan dit zijn omdat uw systeem geen toegangsniveaus heeft die zijn gekoppeld aan de Request-licentie.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
-source-git-commit: 477f65efb09e8566dd0af88adfbe88135d6c6ae9
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Standaard wordt voor automatische provisioning het licentietype Verzoek gebruikt
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
@@ -42,14 +44,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Nieuw: Standaard</p>
+   <p>of</p>
+   <p>Huidig: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>U moet een [!DNL Workfront] beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Oplossing
 

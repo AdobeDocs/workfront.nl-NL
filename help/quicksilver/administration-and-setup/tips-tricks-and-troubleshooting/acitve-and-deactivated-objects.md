@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Actieve en gedeactiveerde objecten
 description: Als  [!DNL Adobe Workfront]  beheerder, kunt u voorwerpen binnen het systeem activeren of deactiveren. We raden u aan nooit de objecten te verwijderen die u kunt deactiveren. U moet het object deactiveren om toekomstig gebruik te voorkomen en het uit de vervolgkeuzemenu's van andere objecten te verwijderen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
